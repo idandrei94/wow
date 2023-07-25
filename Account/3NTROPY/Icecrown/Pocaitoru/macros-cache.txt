@@ -57,7 +57,7 @@ MACRO 16777237 "pvpjud" INV_Misc_QuestionMark
 #showtooltip judgement of light
 /startattack
 /use 10
-/cast judgement of wisdom
+/cast judgement of light
 END
 MACRO 16777232 "shield" INV_Misc_QuestionMark
 #showtooltip sacred shield

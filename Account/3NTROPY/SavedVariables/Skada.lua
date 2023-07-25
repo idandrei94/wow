@@ -4,14 +4,6 @@ SkadaDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["global"] = {
-		["version"] = 1878,
-		["nicknames"] = {
-			["reset"] = 1690367536,
-			["cache"] = {
-			},
-		},
-	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Default",
 		["Praxia - Icecrown"] = "Default",
@@ -24,15 +16,23 @@ SkadaDB = {
 		["Pocaitoru - Icecrown"] = "Default",
 		["Elgorath - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
-		["Pocaitorul - Icecrown"] = "Default",
-		["Sculatru - Icecrown"] = "Default",
+		["Lingurita - Icecrown"] = "Default",
+		["Kalaam - Icecrown"] = "Default",
 		["Vrael - Icecrown"] = "Default",
 		["Flokus - Icecrown"] = "Default",
 		["Morridin - Icecrown"] = "Default",
 		["Inarya - Icecrown"] = "Default",
 		["Pubianus - Icecrown"] = "Default",
-		["Kalaam - Icecrown"] = "Default",
-		["Lingurita - Icecrown"] = "Default",
+		["Sculatru - Icecrown"] = "Default",
+		["Pocaitorul - Icecrown"] = "Default",
+	},
+	["global"] = {
+		["nicknames"] = {
+			["cache"] = {
+			},
+			["reset"] = 1690367536,
+		},
+		["version"] = 1878,
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -43,7 +43,7 @@ SkadaDB = {
 			},
 			["namedisplay"] = 2,
 			["modules"] = {
-				["deathlogthreshold"] = 1000,
+				["sunderchannel"] = "SAY",
 				["threat"] = {
 					["soundfile"] = "Fel Nova",
 					["ignorePets"] = true,
@@ -51,8 +51,8 @@ SkadaDB = {
 					["threshold"] = 90,
 					["notankwarnings"] = true,
 					["output"] = 1,
-					["showAggroBar"] = true,
 					["sound"] = true,
+					["showAggroBar"] = true,
 					["frequency"] = 2,
 				},
 				["failschannel"] = "AUTO",
@@ -60,31 +60,31 @@ SkadaDB = {
 				["deathchannel"] = "AUTO",
 				["interruptchannel"] = "SAY",
 				["parrychannel"] = "AUTO",
-				["sunderchannel"] = "SAY",
+				["deathlogthreshold"] = 1000,
 			},
 			["prepotion"] = true,
 			["windows"] = {
 				{
 					["barslocked"] = true,
-					["background"] = {
-						["height"] = 290,
-						["color"] = {
-							["a"] = 0.9000000059604645,
-						},
-					},
 					["hidden"] = true,
 					["y"] = 153.7775468416687,
 					["x"] = -644.148271468071,
 					["strata"] = "HIGH",
 					["snapto"] = true,
-					["mode"] = "Damage",
+					["mode"] = "Absorbs and Healing",
 					["barwidth"] = 221.0367141682152,
+					["background"] = {
+						["color"] = {
+							["a"] = 0.9000000059604645,
+						},
+						["height"] = 290,
+					},
 				}, -- [1]
 			},
 			["report"] = {
-				["number"] = 25,
-				["chantype"] = "whisper",
-				["channel"] = "whisper",
+				["number"] = 2,
+				["channel"] = "raid",
+				["mode"] = "Absorbs and Healing",
 			},
 			["combatlogfix"] = true,
 			["firsthit"] = true,

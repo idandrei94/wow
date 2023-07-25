@@ -16,19 +16,19 @@ SkadaStorageDB = {
 			{
 				["rage"] = 80,
 				["damagetaken"] = 70188,
-				["id"] = "0x07000000008FF749",
 				["flag"] = 1300,
-				["mana"] = 25788,
+				["id"] = "0x07000000008FF749",
+				["spec"] = 105,
 				["class"] = "DRUID",
 				["overheal"] = 1486557,
-				["name"] = "Merinde",
-				["role"] = "HEALER",
 				["time"] = 142.0199999999998,
-				["runic"] = 192,
 				["heal"] = 461559,
+				["name"] = "Merinde",
+				["runic"] = 192,
+				["role"] = "HEALER",
 				["totaldamagetaken"] = 98672,
 				["energy"] = 192,
-				["spec"] = 105,
+				["mana"] = 25788,
 			}, -- [1]
 			{
 				["overheal"] = 127588,
@@ -36,8 +36,8 @@ SkadaStorageDB = {
 				["id"] = "0x0700000000919FEC",
 				["mana"] = 30022,
 				["class"] = "WARLOCK",
-				["totaldamage"] = 923617,
 				["heal"] = 16029,
+				["totaldamage"] = 923617,
 				["role"] = "DAMAGER",
 				["name"] = "Drakui",
 				["time"] = 152.0100000000001,
@@ -47,22 +47,22 @@ SkadaStorageDB = {
 				["damage"] = 923617,
 			}, -- [2]
 			{
+				["overheal"] = 109137,
+				["class"] = "SHAMAN",
+				["damagetaken"] = 34821,
+				["id"] = "0x070000000083C034",
 				["flag"] = 4370,
 				["mana"] = 1284,
 				["totaldamage"] = 1436159,
-				["time"] = 156.92,
-				["totaldamagetaken"] = 71831,
-				["damage"] = 1436159,
-				["overheal"] = 109137,
-				["damagetaken"] = 34821,
-				["id"] = "0x070000000083C034",
-				["spec"] = 262,
 				["overkill"] = 5410,
-				["heal"] = 16095,
-				["potion"] = 1,
-				["class"] = "SHAMAN",
+				["spec"] = 262,
 				["role"] = "DAMAGER",
 				["name"] = "Charliesh",
+				["heal"] = 16095,
+				["time"] = 156.92,
+				["totaldamagetaken"] = 71831,
+				["potion"] = 1,
+				["damage"] = 1436159,
 			}, -- [3]
 			{
 				["overheal"] = 31366,
@@ -70,9 +70,9 @@ SkadaStorageDB = {
 				["flag"] = 1298,
 				["id"] = "0x07000000008A7941",
 				["class"] = "WARRIOR",
-				["totaldamage"] = 1795195,
-				["overkill"] = 4476,
 				["heal"] = 6620,
+				["overkill"] = 4476,
+				["totaldamage"] = 1795195,
 				["role"] = "DAMAGER",
 				["time"] = 152.45,
 				["spec"] = 72,
@@ -101,38 +101,38 @@ SkadaStorageDB = {
 				["totaldamage"] = 2132366,
 			}, -- [5]
 			{
-				["flag"] = 2098452,
-				["sunder"] = 29,
-				["friendfire"] = 3641,
-				["role"] = "TANK",
-				["time"] = 159.0200000000001,
-				["totaldamagetaken"] = 350664,
-				["damage"] = 365408,
 				["rage"] = 165,
 				["absorb"] = 280,
 				["damagetaken"] = 233169,
+				["class"] = "WARRIOR",
+				["flag"] = 2098452,
+				["sunder"] = 29,
 				["id"] = "0x07000000009557D4",
-				["spec"] = 73,
+				["time"] = 159.0200000000001,
+				["friendfire"] = 3641,
+				["totaldamage"] = 365408,
 				["name"] = "Paria",
 				["ccdone"] = 2,
-				["class"] = "WARRIOR",
-				["totaldamage"] = 365408,
+				["spec"] = 73,
+				["totaldamagetaken"] = 350664,
+				["role"] = "TANK",
+				["damage"] = 365408,
 			}, -- [6]
 			{
-				["flag"] = 1300,
-				["mana"] = 49787,
-				["role"] = "HEALER",
-				["time"] = 127.4500000000001,
-				["totaldamagetaken"] = 112132,
 				["overheal"] = 256497,
 				["absorb"] = 641125,
 				["damagetaken"] = 87900,
 				["id"] = "0x07000000006189B8",
+				["flag"] = 1300,
+				["mana"] = 49787,
 				["spec"] = 256,
+				["class"] = "PRIEST",
 				["heal"] = 122913,
+				["role"] = "HEALER",
+				["time"] = 127.4500000000001,
 				["name"] = "Baimushi",
 				["rage"] = 72,
-				["class"] = "PRIEST",
+				["totaldamagetaken"] = 112132,
 				["energy"] = 64,
 				["runic"] = 64,
 			}, -- [7]
@@ -142,8 +142,8 @@ SkadaStorageDB = {
 				["mana"] = 36817,
 				["class"] = "DRUID",
 				["overkill"] = 830,
-				["role"] = "DAMAGER",
 				["totaldamage"] = 1522699,
+				["role"] = "DAMAGER",
 				["name"] = "Zjabak",
 				["time"] = 147.84,
 				["flag"] = 1300,
@@ -159,32 +159,32 @@ SkadaStorageDB = {
 				["spec"] = 70,
 				["flag"] = 1300,
 				["class"] = "PALADIN",
-				["mana"] = 88331,
-				["heal"] = 7477,
 				["name"] = "Litigator",
+				["heal"] = 7477,
+				["time"] = 147.19,
 				["totaldamage"] = 684146,
 				["role"] = "DAMAGER",
 				["totaldamagetaken"] = 294953,
-				["time"] = 147.19,
+				["mana"] = 88331,
 				["damage"] = 684146,
 			}, -- [9]
 			{
-				["flag"] = 1300,
-				["class"] = "DEATHKNIGHT",
-				["friendfire"] = 5411,
-				["totaldamage"] = 1517012,
-				["time"] = 149.8999999999999,
-				["totaldamagetaken"] = 87952,
-				["damage"] = 1517012,
 				["overheal"] = 42919,
 				["absorb"] = 14526,
 				["damagetaken"] = 40891,
+				["runic"] = 222,
+				["flag"] = 1300,
+				["class"] = "DEATHKNIGHT",
 				["id"] = "0x07000000005BDE7E",
+				["time"] = 149.8999999999999,
+				["friendfire"] = 5411,
+				["role"] = "DAMAGER",
+				["name"] = "Purinx",
 				["spec"] = 252,
 				["heal"] = 6344,
-				["name"] = "Purinx",
-				["runic"] = 222,
-				["role"] = "DAMAGER",
+				["totaldamagetaken"] = 87952,
+				["totaldamage"] = 1517012,
+				["damage"] = 1517012,
 			}, -- [10]
 			{
 				["overheal"] = 15121,
@@ -192,10 +192,10 @@ SkadaStorageDB = {
 				["id"] = "0x070000000067E31F",
 				["flag"] = 1300,
 				["class"] = "HUNTER",
-				["role"] = "DAMAGER",
-				["overkill"] = 817,
-				["totaldamage"] = 1397570,
 				["heal"] = 2527,
+				["overkill"] = 817,
+				["role"] = "DAMAGER",
+				["totaldamage"] = 1397570,
 				["time"] = 146.7100000000001,
 				["spec"] = 254,
 				["name"] = "Feire",
@@ -211,50 +211,50 @@ SkadaStorageDB = {
 				["class"] = "PALADIN",
 				["flag"] = 1300,
 				["spec"] = 65,
-				["mana"] = 25532,
-				["role"] = "HEALER",
 				["name"] = "Mcstylish",
+				["role"] = "HEALER",
+				["time"] = 145.61,
 				["totaldamage"] = 14193,
 				["heal"] = 453707,
 				["totaldamagetaken"] = 99482,
-				["time"] = 145.61,
+				["mana"] = 25532,
 				["damage"] = 14193,
 			}, -- [12]
 			{
-				["flag"] = 1300,
-				["class"] = "PALADIN",
-				["totaldamage"] = 1104383,
-				["time"] = 147.49,
-				["totaldamagetaken"] = 128403,
-				["damage"] = 1104383,
 				["overheal"] = 17303,
 				["absorb"] = 2946,
 				["damagetaken"] = 80977,
-				["id"] = "0x0700000000625AEB",
-				["spec"] = 70,
-				["overkill"] = 4522,
-				["heal"] = 15851,
-				["name"] = "Lionhearted",
 				["mana"] = 81092,
+				["flag"] = 1300,
+				["class"] = "PALADIN",
+				["id"] = "0x0700000000625AEB",
+				["overkill"] = 4522,
+				["time"] = 147.49,
 				["role"] = "DAMAGER",
+				["name"] = "Lionhearted",
+				["spec"] = 70,
+				["heal"] = 15851,
+				["totaldamagetaken"] = 128403,
+				["totaldamage"] = 1104383,
+				["damage"] = 1104383,
 			}, -- [13]
 			{
+				["overheal"] = 9777,
 				["flag"] = 1298,
+				["damagetaken"] = 14541,
+				["class"] = "HUNTER",
+				["id"] = "0x070000000095DE97",
 				["mana"] = 6685,
 				["totaldamage"] = 1092733,
+				["overkill"] = 5285,
+				["spec"] = 254,
+				["role"] = "DAMAGER",
+				["name"] = "Yuchi",
+				["heal"] = 1698,
 				["time"] = 150.58,
 				["totaldamagetaken"] = 41153,
-				["damage"] = 1092733,
-				["overheal"] = 9777,
-				["damagetaken"] = 14541,
-				["id"] = "0x070000000095DE97",
-				["spec"] = 254,
-				["overkill"] = 5285,
-				["heal"] = 1698,
-				["name"] = "Yuchi",
-				["class"] = "HUNTER",
 				["energy"] = 7345,
-				["role"] = "DAMAGER",
+				["damage"] = 1092733,
 			}, -- [14]
 			{
 				["damagetaken"] = 31750,
@@ -285,22 +285,22 @@ SkadaStorageDB = {
 				["damage"] = 1633507,
 			}, -- [16]
 			{
-				["flag"] = 1300,
-				["class"] = "DEATHKNIGHT",
-				["friendfire"] = 8952,
-				["totaldamage"] = 989427,
-				["time"] = 120.0400000000001,
-				["totaldamagetaken"] = 102496,
-				["damage"] = 989427,
 				["overheal"] = 12825,
+				["runic"] = 10,
 				["damagetaken"] = 65765,
 				["id"] = "0x070000000065DE06",
-				["spec"] = 252,
+				["flag"] = 1300,
+				["class"] = "DEATHKNIGHT",
+				["time"] = 120.0400000000001,
 				["overkill"] = 782,
-				["heal"] = 2707,
-				["name"] = "Chyka",
-				["runic"] = 10,
+				["friendfire"] = 8952,
 				["role"] = "DAMAGER",
+				["name"] = "Chyka",
+				["spec"] = 252,
+				["heal"] = 2707,
+				["totaldamagetaken"] = 102496,
+				["totaldamage"] = 989427,
+				["damage"] = 989427,
 			}, -- [17]
 			{
 				["damagetaken"] = 68773,
@@ -338,11 +338,11 @@ SkadaStorageDB = {
 				["class"] = "WARRIOR",
 				["rage"] = 410,
 				["spec"] = 72,
-				["role"] = "DAMAGER",
 				["heal"] = 4491,
+				["totaldamage"] = 1485979,
 				["time"] = 142.89,
 				["name"] = "Dioxhr",
-				["totaldamage"] = 1485979,
+				["role"] = "DAMAGER",
 				["totaldamagetaken"] = 110918,
 				["sunder"] = 4,
 				["damage"] = 1485979,
@@ -355,13 +355,13 @@ SkadaStorageDB = {
 				["spec"] = 70,
 				["flag"] = 1300,
 				["class"] = "PALADIN",
-				["mana"] = 56495,
-				["heal"] = 231515,
 				["name"] = "Blackregina",
+				["heal"] = 231515,
+				["time"] = 129.01,
 				["totaldamage"] = 1281041,
 				["role"] = "DAMAGER",
 				["totaldamagetaken"] = 150811,
-				["time"] = 129.01,
+				["mana"] = 56495,
 				["damage"] = 1281041,
 			}, -- [21]
 			{
@@ -369,8 +369,8 @@ SkadaStorageDB = {
 				["id"] = "0x07000000007CDA33",
 				["class"] = "MAGE",
 				["flag"] = 1300,
-				["role"] = "DAMAGER",
 				["totaldamage"] = 693428,
+				["role"] = "DAMAGER",
 				["name"] = "Tobblum",
 				["time"] = 96.72000000000003,
 				["mana"] = 6805,
@@ -399,9 +399,9 @@ SkadaStorageDB = {
 				["role"] = "HEALER",
 			}, -- [23]
 			{
-				["cctaken"] = 1,
 				["name"] = "Selrah",
 				["flag"] = 4369,
+				["cctaken"] = 1,
 				["class"] = "PET",
 				["id"] = "0xF1400065BA01D561",
 				["time"] = 0,
@@ -411,9 +411,9 @@ SkadaStorageDB = {
 		["overkill"] = 65778,
 		["rage"] = 1149,
 		["heal"] = 1991506,
-		["name"] = "Total",
-		["ccdone"] = 20,
 		["potion"] = 1,
+		["ccdone"] = 20,
+		["name"] = "Total",
 		["overheal"] = 6834961,
 		["energy"] = 12962,
 		["runic"] = 488,
@@ -424,12 +424,12 @@ SkadaStorageDB = {
 			["mana"] = 7478,
 			["enemies"] = {
 				{
-					["id"] = "0x070000000096650E",
-					["name"] = "Kisame",
-					["totaldamagetaken"] = 22683,
-					["flag"] = 66888,
-					["class"] = "WARRIOR",
 					["damagetaken"] = 22683,
+					["name"] = "Kisame",
+					["class"] = "WARRIOR",
+					["flag"] = 66888,
+					["totaldamagetaken"] = 22683,
+					["id"] = "0x070000000096650E",
 					["damagetakenspells"] = {
 						[17962] = {
 							["school"] = 4,
@@ -474,12 +474,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 22683,
 			["time"] = 13,
+			["cctaken"] = 1,
 			["etotaldamagetaken"] = 22683,
 			["last_time"] = 15427.608,
 			["overheal"] = 5001,
 			["type"] = "none",
 			["damage"] = 22683,
-			["cctaken"] = 1,
 			["overkill"] = 1240,
 			["edamagetaken"] = 22683,
 			["heal"] = 0,
@@ -508,6 +508,18 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
+						[17962] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Kisame"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
 						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -517,18 +529,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
-						},
-						[29341] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Kisame"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
 						},
 						[18118] = {
 							["type"] = "DEBUFF",
@@ -542,31 +542,32 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[17962] = {
+						[29341] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 4,
+							["school"] = 32,
 							["targets"] = {
 								["Kisame"] = {
-									["uptime"] = 2,
+									["uptime"] = 1,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 2,
+							["uptime"] = 1,
 						},
 						[25228] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 32,
 							["uptime"] = 13,
 						},
 						[54277] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 9,
 						},
 					},
+					["totaldamage"] = 22683,
 					["time"] = 6.720000000000001,
 					["damage"] = 22683,
 					["damagespells"] = {
@@ -697,23 +698,22 @@ SkadaStorageDB = {
 						},
 					},
 					["overkill"] = 1240,
+					["heal"] = 0,
 					["manaspells"] = {
 						[31818] = 7478,
 					},
-					["heal"] = 0,
 					["name"] = "Denathra",
 					["mana"] = 7478,
 					["overheal"] = 5001,
-					["totaldamage"] = 22683,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
-					["last"] = 15419.524,
-					["id"] = "0xF1400065BA01D561",
-					["class"] = "PET",
-					["time"] = 0,
 					["cctaken"] = 1,
-					["name"] = "Selrah",
+					["last"] = 15419.524,
+					["time"] = 0,
+					["id"] = "0xF1400065BA01D561",
+					["flag"] = 4369,
+					["class"] = "PET",
 					["cctakenspells"] = {
 						[5246] = {
 							["count"] = 1,
@@ -722,7 +722,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["flag"] = 4369,
+					["name"] = "Selrah",
 				}, -- [2]
 			},
 			["starttime"] = 1690137672,
@@ -732,12 +732,12 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0x07000000009326DA",
-					["name"] = "Rendben",
-					["totaldamagetaken"] = 16651,
-					["flag"] = 66888,
-					["class"] = "PALADIN",
 					["damagetaken"] = 16651,
+					["name"] = "Rendben",
+					["class"] = "PALADIN",
+					["flag"] = 66888,
+					["totaldamagetaken"] = 16651,
+					["id"] = "0x07000000009326DA",
 					["damagetakenspells"] = {
 						[17962] = {
 							["school"] = 4,
@@ -813,9 +813,9 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[54277] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[72590] = {
@@ -853,9 +853,9 @@ SkadaStorageDB = {
 							["uptime"] = 2,
 						},
 						[25228] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 32,
 							["uptime"] = 16,
 						},
 						[17962] = {
@@ -871,6 +871,7 @@ SkadaStorageDB = {
 							["uptime"] = 4,
 						},
 					},
+					["totaldamage"] = 16651,
 					["time"] = 8.000000000000002,
 					["damage"] = 16651,
 					["damagespells"] = {
@@ -884,13 +885,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 2021,
-							["critical"] = 1,
-							["criticalmax"] = 2021,
 							["count"] = 2,
-							["hit"] = 1,
+							["criticalmax"] = 2021,
+							["critical"] = 1,
+							["amount"] = 3002,
 							["school"] = 4,
 							["hitmax"] = 981,
-							["amount"] = 3002,
+							["hit"] = 1,
 							["hitamount"] = 981,
 						},
 						["Incinerate"] = {
@@ -975,16 +976,16 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[47893] = {
 							["overheal"] = 1602,
+							["max"] = 801,
+							["count"] = 3,
+							["amount"] = 801,
+							["school"] = 32,
 							["targets"] = {
 								["Denathra"] = {
 									["overheal"] = 1602,
 									["amount"] = 801,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 801,
-							["school"] = 32,
-							["max"] = 801,
 							["ishot"] = true,
 							["min"] = 801,
 						},
@@ -1019,7 +1020,6 @@ SkadaStorageDB = {
 					["name"] = "Denathra",
 					["ccdone"] = 1,
 					["overheal"] = 6941,
-					["totaldamage"] = 16651,
 					["role"] = "DAMAGER",
 				}, -- [1]
 			},
@@ -1182,24 +1182,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3969,
 						},
-						[59172] = {
-							["school"] = 4,
-							["sources"] = {
-								["Denathra"] = {
-									["amount"] = 4581,
-								},
-							},
-							["amount"] = 4581,
-						},
-						[47813] = {
-							["school"] = 32,
-							["sources"] = {
-								["Denathra"] = {
-									["amount"] = 737,
-								},
-							},
-							["amount"] = 737,
-						},
 						[47860] = {
 							["school"] = 32,
 							["total"] = 1287,
@@ -1210,6 +1192,24 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 0,
+						},
+						[47813] = {
+							["school"] = 32,
+							["sources"] = {
+								["Denathra"] = {
+									["amount"] = 737,
+								},
+							},
+							["amount"] = 737,
+						},
+						[59172] = {
+							["school"] = 4,
+							["sources"] = {
+								["Denathra"] = {
+									["amount"] = 4581,
+								},
+							},
+							["amount"] = 4581,
 						},
 					},
 					["totaldamage"] = 53427,
@@ -1458,11 +1458,11 @@ SkadaStorageDB = {
 							["hitamount"] = 737,
 						},
 						["Death Coil"] = {
-							["casts"] = 1,
 							["total"] = 1287,
+							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
-							["id"] = 47860,
+							["school"] = 32,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Erathoorn"] = {
@@ -1470,7 +1470,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["school"] = 32,
+							["id"] = 47860,
 						},
 						["Immolate"] = {
 							["total"] = 1396,
@@ -1500,14 +1500,14 @@ SkadaStorageDB = {
 									["amount"] = 8401,
 								},
 							},
-							["critical"] = 1,
-							["amount"] = 8401,
-							["criticalmax"] = 5162,
 							["count"] = 2,
 							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 3239,
 							["casts"] = 2,
+							["hitmax"] = 3239,
+							["amount"] = 8401,
+							["school"] = 4,
+							["critical"] = 1,
+							["criticalmax"] = 5162,
 							["hitamount"] = 3239,
 						},
 						["Chaos Bolt"] = {
@@ -1538,14 +1538,14 @@ SkadaStorageDB = {
 									["amount"] = 3466,
 								},
 							},
-							["critical"] = 2,
 							["count"] = 4,
-							["criticalmax"] = 1319,
 							["hitmax"] = 828,
-							["hit"] = 1,
-							["school"] = 4,
-							["ABSORB"] = 1,
+							["criticalmax"] = 1319,
+							["critical"] = 2,
 							["amount"] = 3466,
+							["school"] = 4,
+							["hit"] = 1,
+							["ABSORB"] = 1,
 							["hitamount"] = 828,
 						},
 						["Immolate (DoT)"] = {
@@ -1560,22 +1560,22 @@ SkadaStorageDB = {
 									["amount"] = 3880,
 								},
 							},
-							["critical"] = 1,
 							["count"] = 4,
-							["criticalmax"] = 1721,
 							["hitmax"] = 1080,
-							["hit"] = 2,
-							["school"] = 4,
-							["ABSORB"] = 1,
+							["criticalmax"] = 1721,
+							["critical"] = 1,
 							["amount"] = 3880,
+							["school"] = 4,
+							["hit"] = 2,
+							["ABSORB"] = 1,
 							["hitamount"] = 2159,
 						},
 						["Shadowfury"] = {
-							["casts"] = 1,
 							["total"] = 1437,
+							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
-							["id"] = 47847,
+							["school"] = 32,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Erathoorn"] = {
@@ -1583,7 +1583,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["school"] = 32,
+							["id"] = 47847,
 						},
 						["Incinerate"] = {
 							["total"] = 26410,
@@ -1597,14 +1597,14 @@ SkadaStorageDB = {
 									["amount"] = 22825,
 								},
 							},
-							["critical"] = 2,
-							["amount"] = 22825,
-							["criticalmax"] = 6320,
 							["count"] = 5,
 							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 5340,
 							["casts"] = 5,
+							["hitmax"] = 5340,
+							["amount"] = 22825,
+							["school"] = 4,
+							["critical"] = 2,
+							["criticalmax"] = 6320,
 							["hitamount"] = 11831,
 						},
 					},
@@ -1614,10 +1614,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[47893] = {
 							["overheal"] = 1602,
-							["school"] = 32,
+							["max"] = 801,
 							["count"] = 7,
 							["amount"] = 4005,
-							["max"] = 801,
+							["school"] = 32,
 							["ishot"] = true,
 							["targets"] = {
 								["Denathra"] = {
@@ -1672,19 +1672,19 @@ SkadaStorageDB = {
 							["criticalamount"] = 2772,
 							["id"] = 6603,
 							["criticalmin"] = 2772,
+							["criticalmax"] = 2772,
+							["hitmax"] = 2038,
 							["sources"] = {
 								["Erathoorn"] = {
 									["total"] = 10306,
 									["amount"] = 7440,
 								},
 							},
-							["count"] = 4,
-							["criticalmax"] = 2772,
-							["hitmax"] = 2038,
-							["amount"] = 7440,
-							["school"] = 1,
-							["hit"] = 3,
 							["critical"] = 1,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 7440,
+							["count"] = 4,
 							["hitamount"] = 4668,
 						},
 						["Hammer of Wrath"] = {
@@ -1793,20 +1793,20 @@ SkadaStorageDB = {
 							["criticalamount"] = 2228,
 							["id"] = 20187,
 							["criticalmin"] = 2228,
-							["hit"] = 1,
-							["critical"] = 1,
 							["ABSORB"] = 1,
+							["count"] = 3,
+							["hit"] = 1,
+							["criticalmax"] = 2228,
+							["hitmax"] = 2196,
+							["amount"] = 4424,
+							["school"] = 2,
+							["critical"] = 1,
 							["sources"] = {
 								["Erathoorn"] = {
 									["total"] = 7655,
 									["amount"] = 4424,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 4424,
-							["school"] = 2,
-							["hitmax"] = 2196,
-							["criticalmax"] = 2228,
 							["hitamount"] = 2196,
 						},
 					},
@@ -1830,11 +1830,11 @@ SkadaStorageDB = {
 			["last_time"] = 12247.46,
 			["etotaldamage"] = 53427,
 			["starttime"] = 1690134468,
-			["mobname"] = "Erathoorn",
+			["ccdone"] = 4,
 			["edamagetaken"] = 43979,
 			["heal"] = 10289,
 			["name"] = "Erathoorn (2)",
-			["ccdone"] = 4,
+			["mobname"] = "Erathoorn",
 			["overheal"] = 1909,
 			["edamage"] = 36061,
 			["last_action"] = 1690134503,
@@ -1997,17 +1997,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
-						[45544] = {
-							["school"] = 1,
+						[25228] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 25,
 						},
-						[54277] = {
-							["school"] = 1,
-							["type"] = "BUFF",
+						[17962] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["school"] = 4,
+							["targets"] = {
+								["Erathoorn"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
 						[47865] = {
 							["type"] = "DEBUFF",
@@ -2021,10 +2026,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
-						[72590] = {
-							["type"] = "BUFF",
+						[47860] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 25,
+							["school"] = 32,
+							["targets"] = {
+								["Erathoorn"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 						[6358] = {
 							["type"] = "DEBUFF",
@@ -2038,7 +2050,13 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 9,
 						},
-						[25228] = {
+						[45544] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
@@ -2048,18 +2066,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["uptime"] = 16,
-						},
-						[47860] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Erathoorn"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
 						},
 						[48018] = {
 							["type"] = "BUFF",
@@ -2102,17 +2108,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 1,
 						},
-						[17962] = {
-							["type"] = "DEBUFF",
+						[54277] = {
+							["school"] = 1,
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Erathoorn"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
+							["uptime"] = 11,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -2141,10 +2141,10 @@ SkadaStorageDB = {
 						},
 						[45544] = {
 							["overheal"] = 2081,
-							["max"] = 725,
+							["school"] = 1,
 							["count"] = 4,
 							["amount"] = 819,
-							["school"] = 1,
+							["max"] = 725,
 							["targets"] = {
 								["Denathra"] = {
 									["overheal"] = 2081,
@@ -2170,10 +2170,10 @@ SkadaStorageDB = {
 						},
 						[47893] = {
 							["overheal"] = 801,
-							["max"] = 801,
+							["school"] = 32,
 							["count"] = 5,
 							["amount"] = 3204,
-							["school"] = 32,
+							["max"] = 801,
 							["targets"] = {
 								["Denathra"] = {
 									["overheal"] = 801,
@@ -2185,22 +2185,22 @@ SkadaStorageDB = {
 						},
 					},
 					["damagetakenspells"] = {
-						["Seal of Righteousness"] = {
-							["total"] = 773,
-							["hitmin"] = 619,
-							["id"] = 25742,
+						["Melee"] = {
+							["total"] = 2744,
+							["criticalamount"] = 2196,
+							["id"] = 6603,
+							["criticalmax"] = 2196,
+							["critical"] = 1,
+							["amount"] = 2196,
+							["school"] = 1,
 							["sources"] = {
 								["Erathoorn"] = {
-									["total"] = 773,
-									["amount"] = 619,
+									["total"] = 2744,
+									["amount"] = 2196,
 								},
 							},
+							["criticalmin"] = 2196,
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 619,
-							["amount"] = 619,
-							["hitamount"] = 619,
 						},
 						["Exorcism"] = {
 							["total"] = 2719,
@@ -2217,23 +2217,6 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 2176,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["total"] = 2744,
-							["criticalamount"] = 2196,
-							["id"] = 6603,
-							["criticalmax"] = 2196,
-							["critical"] = 1,
-							["amount"] = 2196,
-							["school"] = 1,
-							["sources"] = {
-								["Erathoorn"] = {
-									["total"] = 2744,
-									["amount"] = 2196,
-								},
-							},
-							["criticalmin"] = 2196,
 							["count"] = 1,
 						},
 						["Pyro Rocket"] = {
@@ -2253,17 +2236,34 @@ SkadaStorageDB = {
 							["amount"] = 1243,
 							["hitamount"] = 1243,
 						},
+						["Seal of Righteousness"] = {
+							["total"] = 773,
+							["hitmin"] = 619,
+							["id"] = 25742,
+							["sources"] = {
+								["Erathoorn"] = {
+									["total"] = 773,
+									["amount"] = 619,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 619,
+							["amount"] = 619,
+							["hitamount"] = 619,
+						},
 					},
 					["heal"] = 9988,
 					["name"] = "Denathra",
 					["ccdone"] = 4,
 					["damagespells"] = {
 						["Shadowfury"] = {
-							["casts"] = 1,
 							["total"] = 1507,
+							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
-							["id"] = 47847,
+							["school"] = 32,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Erathoorn"] = {
@@ -2271,7 +2271,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["school"] = 32,
+							["id"] = 47847,
 						},
 						["Aftermath"] = {
 							["casts"] = 1,
@@ -2412,8 +2412,8 @@ SkadaStorageDB = {
 			["edamagetaken"] = 17141,
 			["heal"] = 9988,
 			["name"] = "Erathoorn",
-			["ccdone"] = 4,
 			["mobname"] = "Erathoorn",
+			["ccdone"] = 4,
 			["edamage"] = 6234,
 			["last_action"] = 1690134362,
 			["endtime"] = 1690134362,
@@ -2423,10 +2423,10 @@ SkadaStorageDB = {
 				{
 					["damagetaken"] = 5314,
 					["name"] = "Goodwalk",
-					["class"] = "ROGUE",
-					["flag"] = 66888,
 					["totaldamagetaken"] = 5314,
 					["id"] = "0x070000000091B93F",
+					["class"] = "ROGUE",
+					["flag"] = 66888,
 					["damagetakenspells"] = {
 						[47827] = {
 							["school"] = 32,
@@ -2450,8 +2450,27 @@ SkadaStorageDB = {
 				{
 					["overheal"] = 1598,
 					["last"] = 12011.883,
-					["totaldamage"] = 5314,
-					["id"] = "0x0700000000004B99",
+					["damagespells"] = {
+						["Shadowburn"] = {
+							["criticalamount"] = 5314,
+							["id"] = 47827,
+							["targets"] = {
+								["Goodwalk"] = {
+									["overkill"] = 4431,
+									["amount"] = 5314,
+								},
+							},
+							["overkill"] = 4431,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 5314,
+							["school"] = 32,
+							["criticalmin"] = 5314,
+							["criticalmax"] = 5314,
+							["count"] = 1,
+						},
+					},
+					["spec"] = 267,
 					["flag"] = 4369,
 					["class"] = "WARLOCK",
 					["healspells"] = {
@@ -2504,32 +2523,13 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
-					["spec"] = 267,
 					["role"] = "DAMAGER",
+					["heal"] = 0,
 					["time"] = 0.13,
 					["overkill"] = 4431,
 					["name"] = "Denathra",
-					["heal"] = 0,
-					["damagespells"] = {
-						["Shadowburn"] = {
-							["criticalamount"] = 5314,
-							["id"] = 47827,
-							["targets"] = {
-								["Goodwalk"] = {
-									["overkill"] = 4431,
-									["amount"] = 5314,
-								},
-							},
-							["overkill"] = 4431,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5314,
-							["school"] = 32,
-							["criticalmin"] = 5314,
-							["criticalmax"] = 5314,
-							["count"] = 1,
-						},
-					},
+					["totaldamage"] = 5314,
+					["id"] = "0x0700000000004B99",
 					["damage"] = 5314,
 				}, -- [1]
 			},
@@ -2677,17 +2677,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[18118] = {
-							["type"] = "DEBUFF",
+						[25228] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Kolbur"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
+							["uptime"] = 11,
 						},
 						[47847] = {
 							["type"] = "DEBUFF",
@@ -2701,10 +2694,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[25228] = {
-							["type"] = "BUFF",
+						[18118] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["school"] = 4,
+							["targets"] = {
+								["Kolbur"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
 						},
 						[17962] = {
 							["type"] = "DEBUFF",
@@ -2847,10 +2847,10 @@ SkadaStorageDB = {
 						},
 						[47893] = {
 							["overheal"] = 645,
-							["school"] = 32,
+							["max"] = 801,
 							["count"] = 2,
 							["amount"] = 957,
-							["max"] = 801,
+							["school"] = 32,
 							["targets"] = {
 								["Denathra"] = {
 									["overheal"] = 645,
@@ -2925,10 +2925,10 @@ SkadaStorageDB = {
 				{
 					["damagetaken"] = 30167,
 					["name"] = "Abervorsicht",
-					["totaldamagetaken"] = 30167,
-					["id"] = "0x07000000001E8DBC",
 					["class"] = "WARRIOR",
 					["flag"] = 66888,
+					["totaldamagetaken"] = 30167,
+					["id"] = "0x07000000001E8DBC",
 					["damagetakenspells"] = {
 						[17962] = {
 							["school"] = 4,
@@ -3027,13 +3027,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 1685,
-							["count"] = 3,
-							["criticalmax"] = 1685,
 							["hitmax"] = 879,
+							["criticalmax"] = 1685,
+							["critical"] = 2,
 							["amount"] = 4249,
 							["school"] = 4,
 							["hit"] = 1,
-							["critical"] = 2,
+							["count"] = 3,
 							["hitamount"] = 879,
 						},
 						["Corruption (DoT)"] = {
@@ -3061,13 +3061,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 2198,
-							["critical"] = 1,
-							["criticalmax"] = 2198,
 							["count"] = 3,
-							["hit"] = 2,
+							["criticalmax"] = 2198,
+							["critical"] = 1,
+							["amount"] = 4490,
 							["school"] = 4,
 							["hitmax"] = 1146,
-							["amount"] = 4490,
+							["hit"] = 2,
 							["hitamount"] = 2292,
 						},
 						["Immolate"] = {
@@ -3198,23 +3198,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[18118] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Abervorsicht"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
 						[75473] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 2,
+						},
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
 						},
 						[47847] = {
 							["type"] = "DEBUFF",
@@ -3228,10 +3221,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[25228] = {
-							["type"] = "BUFF",
+						[18118] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["school"] = 4,
+							["targets"] = {
+								["Abervorsicht"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
 						},
 						[17962] = {
 							["type"] = "DEBUFF",
@@ -3246,13 +3246,13 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 					},
-					["role"] = "DAMAGER",
 					["heal"] = 0,
+					["totaldamage"] = 30167,
 					["time"] = 12.98,
 					["spec"] = 267,
 					["name"] = "Denathra",
 					["overheal"] = 6920,
-					["totaldamage"] = 30167,
+					["role"] = "DAMAGER",
 					["damage"] = 30167,
 				}, -- [1]
 			},
@@ -3273,10 +3273,10 @@ SkadaStorageDB = {
 				{
 					["name"] = "Abervorsicht",
 					["damagetaken"] = 27755,
-					["flag"] = 66888,
 					["id"] = "0x07000000001E8DBC",
-					["totaldamagetaken"] = 27755,
+					["flag"] = 66888,
 					["class"] = "WARRIOR",
+					["totaldamagetaken"] = 27755,
 					["damagetakenspells"] = {
 						[47838] = {
 							["school"] = 4,
@@ -3307,14 +3307,14 @@ SkadaStorageDB = {
 							["amount"] = 6880,
 							["overkill"] = 439,
 						},
-						[47860] = {
-							["school"] = 32,
+						[47811] = {
+							["school"] = 4,
 							["sources"] = {
 								["Denathra"] = {
-									["amount"] = 1366,
+									["amount"] = 3774,
 								},
 							},
-							["amount"] = 1366,
+							["amount"] = 3774,
 						},
 						[47827] = {
 							["school"] = 32,
@@ -3325,24 +3325,24 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2892,
 						},
-						[47811] = {
-							["school"] = 4,
+						[47860] = {
+							["school"] = 32,
 							["sources"] = {
 								["Denathra"] = {
-									["amount"] = 3774,
+									["amount"] = 1366,
 								},
 							},
-							["amount"] = 3774,
+							["amount"] = 1366,
 						},
 					},
 				}, -- [1]
 				{
 					["name"] = "Black Dragon Whelp",
 					["damagetaken"] = 12869,
-					["flag"] = 68168,
 					["id"] = "0xF1300001B900597D",
-					["totaldamagetaken"] = 12869,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
+					["totaldamagetaken"] = 12869,
 					["damagetakenspells"] = {
 						[47838] = {
 							["school"] = 4,
@@ -3424,36 +3424,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[18118] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Abervorsicht"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[72590] = {
-							["uptime"] = 23,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[47847] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Abervorsicht"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
 						[25228] = {
 							["school"] = 32,
 							["type"] = "BUFF",
@@ -3471,6 +3441,36 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 2,
+						},
+						[47847] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Abervorsicht"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[18118] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Abervorsicht"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[72590] = {
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 23,
+							["type"] = "BUFF",
 						},
 						[48018] = {
 							["type"] = "BUFF",
@@ -3540,7 +3540,7 @@ SkadaStorageDB = {
 							["min"] = 801,
 							["count"] = 4,
 							["amount"] = 801,
-							["max"] = 801,
+							["school"] = 32,
 							["targets"] = {
 								["Denathra"] = {
 									["overheal"] = 2403,
@@ -3548,7 +3548,7 @@ SkadaStorageDB = {
 								},
 							},
 							["ishot"] = true,
-							["school"] = 32,
+							["max"] = 801,
 						},
 						[47860] = {
 							["overheal"] = 4098,
@@ -3596,13 +3596,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 439,
-							["amount"] = 3442,
-							["criticalmax"] = 1685,
-							["critical"] = 1,
 							["hit"] = 2,
+							["criticalmax"] = 1685,
+							["count"] = 3,
+							["amount"] = 3442,
 							["school"] = 4,
 							["hitmax"] = 879,
-							["count"] = 3,
+							["critical"] = 1,
 							["hitamount"] = 1757,
 						},
 						["Shadowfury"] = {
@@ -3642,7 +3642,7 @@ SkadaStorageDB = {
 							["hitmin"] = 4273,
 							["criticalmin"] = 6961,
 							["id"] = 47838,
-							["criticalmax"] = 12869,
+							["casts"] = 3,
 							["targets"] = {
 								["Black Dragon Whelp"] = {
 									["amount"] = 12869,
@@ -3653,13 +3653,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 12539,
-							["critical"] = 2,
-							["casts"] = 3,
 							["hitmax"] = 4273,
-							["hit"] = 1,
-							["school"] = 4,
-							["amount"] = 24103,
+							["criticalmax"] = 12869,
 							["count"] = 3,
+							["amount"] = 24103,
+							["school"] = 4,
+							["hit"] = 1,
+							["critical"] = 2,
 							["hitamount"] = 4273,
 						},
 						["Death Coil"] = {
@@ -3750,10 +3750,10 @@ SkadaStorageDB = {
 				{
 					["name"] = "Abervorsicht",
 					["damagetaken"] = 1376,
-					["flag"] = 66888,
 					["id"] = "0x07000000001E8DBC",
-					["totaldamagetaken"] = 1376,
+					["flag"] = 66888,
 					["class"] = "WARRIOR",
+					["totaldamagetaken"] = 1376,
 					["damagetakenspells"] = {
 						[47811] = {
 							["school"] = 4,
@@ -3862,7 +3862,7 @@ SkadaStorageDB = {
 							["min"] = 801,
 							["count"] = 2,
 							["amount"] = 1602,
-							["school"] = 32,
+							["max"] = 801,
 							["ishot"] = true,
 							["targets"] = {
 								["Denathra"] = {
@@ -3870,7 +3870,7 @@ SkadaStorageDB = {
 									["amount"] = 1602,
 								},
 							},
-							["max"] = 801,
+							["school"] = 32,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3978,15 +3978,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8465,
 						},
-						[47860] = {
-							["school"] = 32,
-							["sources"] = {
-								["Denathra"] = {
-									["amount"] = 1517,
-								},
-							},
-							["amount"] = 1517,
-						},
 						[47811] = {
 							["school"] = 4,
 							["sources"] = {
@@ -3995,6 +3986,17 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 3057,
+						},
+						[59172] = {
+							["school"] = 4,
+							["sources"] = {
+								["Denathra"] = {
+									["amount"] = 11059,
+									["overkill"] = 3400,
+								},
+							},
+							["amount"] = 11059,
+							["overkill"] = 3400,
 						},
 						[47827] = {
 							["school"] = 32,
@@ -4007,16 +4009,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2273,
 						},
-						[59172] = {
-							["school"] = 4,
+						[47860] = {
+							["school"] = 32,
 							["sources"] = {
 								["Denathra"] = {
-									["amount"] = 11059,
-									["overkill"] = 3400,
+									["amount"] = 1517,
 								},
 							},
-							["amount"] = 11059,
-							["overkill"] = 3400,
+							["amount"] = 1517,
 						},
 					},
 					["totaldamage"] = 3712,
@@ -4074,28 +4074,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[29341] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Uradopted"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[48018] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
 						[18118] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -4108,7 +4086,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
+						[72590] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[48018] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[75473] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -4137,10 +4130,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[72590] = {
-							["type"] = "BUFF",
+						[29341] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["school"] = 32,
+							["targets"] = {
+								["Uradopted"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 					},
 					["totaldamage"] = 26772,
@@ -4286,7 +4286,7 @@ SkadaStorageDB = {
 							["min"] = 208,
 							["count"] = 3,
 							["amount"] = 1009,
-							["school"] = 32,
+							["max"] = 801,
 							["ishot"] = true,
 							["targets"] = {
 								["Denathra"] = {
@@ -4294,7 +4294,7 @@ SkadaStorageDB = {
 									["amount"] = 1009,
 								},
 							},
-							["max"] = 801,
+							["school"] = 32,
 						},
 						[47860] = {
 							["overheal"] = 676,
@@ -4376,8 +4376,8 @@ SkadaStorageDB = {
 			["edamagetaken"] = 26371,
 			["heal"] = 5470,
 			["name"] = "Uradopted",
-			["ccdone"] = 1,
 			["mobname"] = "Uradopted",
+			["ccdone"] = 1,
 			["edamage"] = 2970,
 			["last_action"] = 1689879676,
 			["endtime"] = 1689879676,
@@ -4506,24 +4506,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4263,
 						},
-						[59172] = {
-							["school"] = 4,
-							["sources"] = {
-								["Denathra"] = {
-									["amount"] = 9774,
-								},
-							},
-							["amount"] = 9774,
-						},
-						[47813] = {
-							["school"] = 32,
-							["sources"] = {
-								["Denathra"] = {
-									["amount"] = 2347,
-								},
-							},
-							["amount"] = 2347,
-						},
 						[47811] = {
 							["school"] = 4,
 							["sources"] = {
@@ -4534,6 +4516,24 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7024,
 							["overkill"] = 891,
+						},
+						[47813] = {
+							["school"] = 32,
+							["sources"] = {
+								["Denathra"] = {
+									["amount"] = 2347,
+								},
+							},
+							["amount"] = 2347,
+						},
+						[59172] = {
+							["school"] = 4,
+							["sources"] = {
+								["Denathra"] = {
+									["amount"] = 9774,
+								},
+							},
+							["amount"] = 9774,
 						},
 					},
 					["totaldamage"] = 26231,
@@ -4616,6 +4616,11 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 6,
 						},
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 32,
+						},
 						[18118] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -4627,11 +4632,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 5,
-						},
-						[25228] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 32,
 						},
 						[47847] = {
 							["type"] = "DEBUFF",
@@ -4780,13 +4780,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 891,
-							["amount"] = 5542,
-							["criticalmax"] = 2198,
-							["critical"] = 2,
 							["hit"] = 1,
+							["criticalmax"] = 2198,
+							["count"] = 3,
+							["amount"] = 5542,
 							["school"] = 4,
 							["hitmax"] = 1146,
-							["count"] = 3,
+							["critical"] = 2,
 							["hitamount"] = 1146,
 						},
 						["Shadowfury"] = {
@@ -4830,7 +4830,7 @@ SkadaStorageDB = {
 							["min"] = 752,
 							["count"] = 6,
 							["amount"] = 4512,
-							["school"] = 32,
+							["max"] = 752,
 							["ishot"] = true,
 							["targets"] = {
 								["Denathra"] = {
@@ -4838,7 +4838,7 @@ SkadaStorageDB = {
 									["amount"] = 4512,
 								},
 							},
-							["max"] = 752,
+							["school"] = 32,
 						},
 						[54181] = {
 							["overheal"] = 0,
@@ -4879,19 +4879,19 @@ SkadaStorageDB = {
 							["criticalamount"] = 1490,
 							["id"] = 6603,
 							["criticalmin"] = 1490,
-							["count"] = 5,
-							["amount"] = 5836,
-							["criticalmax"] = 1490,
 							["hitmax"] = 1146,
 							["hit"] = 4,
-							["school"] = 1,
-							["critical"] = 1,
 							["sources"] = {
 								["Abervorsicht"] = {
 									["amount"] = 5836,
 									["total"] = 7293,
 								},
 							},
+							["critical"] = 1,
+							["amount"] = 5836,
+							["school"] = 1,
+							["count"] = 5,
+							["criticalmax"] = 1490,
 							["hitamount"] = 4346,
 						},
 						["Concussion Blow"] = {
@@ -5035,8 +5035,8 @@ SkadaStorageDB = {
 			["edamagetaken"] = 31806,
 			["heal"] = 9276,
 			["name"] = "Abervorsicht (2)",
-			["ccdone"] = 1,
 			["mobname"] = "Abervorsicht",
+			["ccdone"] = 1,
 			["edamage"] = 20998,
 			["last_action"] = 1689878770,
 			["endtime"] = 1689878773,
@@ -5046,10 +5046,10 @@ SkadaStorageDB = {
 				{
 					["name"] = "Abervorsicht",
 					["damagetaken"] = 23166,
-					["flag"] = 66888,
 					["id"] = "0x07000000001E8DBC",
-					["totaldamagetaken"] = 23166,
+					["flag"] = 66888,
 					["class"] = "WARRIOR",
+					["totaldamagetaken"] = 23166,
 					["damagetakenspells"] = {
 						[17962] = {
 							["school"] = 4,
@@ -5060,15 +5060,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5012,
 						},
-						[47811] = {
-							["school"] = 4,
-							["sources"] = {
-								["Denathra"] = {
-									["amount"] = 4557,
-								},
-							},
-							["amount"] = 4557,
-						},
 						[59172] = {
 							["school"] = 4,
 							["sources"] = {
@@ -5077,6 +5068,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 8646,
+						},
+						[47811] = {
+							["school"] = 4,
+							["sources"] = {
+								["Denathra"] = {
+									["amount"] = 4557,
+								},
+							},
+							["amount"] = 4557,
 						},
 						[47860] = {
 							["school"] = 32,
@@ -5126,6 +5126,65 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "WARLOCK",
 					["auras"] = {
+						[47865] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Denathra"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[47860] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Abervorsicht"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[18118] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Abervorsicht"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[54277] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[47811] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Abervorsicht"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 15,
+						},
 						[47893] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -5142,65 +5201,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 6,
-						},
-						[47811] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Abervorsicht"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[18118] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Abervorsicht"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[47865] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Denathra"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[47860] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Abervorsicht"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[54277] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[25228] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
 						},
 					},
 					["totaldamage"] = 23166,
@@ -5246,13 +5246,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 596,
-							["amount"] = 1969,
-							["criticalmax"] = 596,
-							["critical"] = 2,
 							["hit"] = 1,
+							["criticalmax"] = 596,
+							["count"] = 3,
+							["amount"] = 1969,
 							["school"] = 4,
 							["hitmax"] = 777,
-							["count"] = 3,
+							["critical"] = 2,
 							["hitamount"] = 777,
 						},
 						["Death Coil"] = {
@@ -5436,17 +5436,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1401,
 						},
-						[47811] = {
-							["school"] = 4,
-							["sources"] = {
-								["Denathra"] = {
-									["overkill"] = 775,
-									["amount"] = 3087,
-								},
-							},
-							["overkill"] = 775,
-							["amount"] = 3087,
-						},
 						[47860] = {
 							["school"] = 32,
 							["sources"] = {
@@ -5455,6 +5444,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 1208,
+						},
+						[59172] = {
+							["school"] = 4,
+							["sources"] = {
+								["Denathra"] = {
+									["amount"] = 4491,
+								},
+							},
+							["amount"] = 4491,
 						},
 						[47827] = {
 							["school"] = 32,
@@ -5465,14 +5463,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2038,
 						},
-						[59172] = {
+						[47811] = {
 							["school"] = 4,
 							["sources"] = {
 								["Denathra"] = {
-									["amount"] = 4491,
+									["overkill"] = 775,
+									["amount"] = 3087,
 								},
 							},
-							["amount"] = 4491,
+							["overkill"] = 775,
+							["amount"] = 3087,
 						},
 					},
 					["totaldamage"] = 4260,
@@ -5608,10 +5608,10 @@ SkadaStorageDB = {
 						},
 						[47893] = {
 							["overheal"] = 0,
-							["school"] = 32,
+							["max"] = 801,
 							["count"] = 4,
 							["amount"] = 3204,
-							["max"] = 801,
+							["school"] = 32,
 							["targets"] = {
 								["Denathra"] = {
 									["overheal"] = 0,
@@ -5803,12 +5803,12 @@ SkadaStorageDB = {
 			["last_time"] = 13724.872,
 			["etotaldamage"] = 4260,
 			["overheal"] = 0,
-			["ccdone"] = 1,
+			["mobname"] = "Allivadasz",
 			["overkill"] = 775,
 			["edamagetaken"] = 15273,
 			["heal"] = 9116,
 			["name"] = "Allivadasz (3)",
-			["mobname"] = "Allivadasz",
+			["ccdone"] = 1,
 			["starttime"] = 1689847571,
 			["edamage"] = 3409,
 			["last_action"] = 1689847589,
@@ -6038,10 +6038,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[47893] = {
 							["overheal"] = 0,
-							["school"] = 32,
+							["max"] = 801,
 							["count"] = 3,
 							["amount"] = 2403,
-							["max"] = 801,
+							["school"] = 32,
 							["targets"] = {
 								["Denathra"] = {
 									["overheal"] = 0,
@@ -6082,23 +6082,6 @@ SkadaStorageDB = {
 							["amount"] = 2640,
 							["hitamount"] = 2640,
 						},
-						["Divine Storm"] = {
-							["total"] = 2334,
-							["hitmin"] = 1868,
-							["id"] = 53385,
-							["sources"] = {
-								["Allivadasz"] = {
-									["total"] = 2334,
-									["amount"] = 1868,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1868,
-							["amount"] = 1868,
-							["hitamount"] = 1868,
-						},
 						["Melee"] = {
 							["total"] = 1912,
 							["hitmin"] = 1530,
@@ -6132,6 +6115,23 @@ SkadaStorageDB = {
 							["hitmax"] = 120,
 							["amount"] = 477,
 							["hitamount"] = 477,
+						},
+						["Divine Storm"] = {
+							["total"] = 2334,
+							["hitmin"] = 1868,
+							["id"] = 53385,
+							["sources"] = {
+								["Allivadasz"] = {
+									["total"] = 2334,
+									["amount"] = 1868,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1868,
+							["amount"] = 1868,
+							["hitamount"] = 1868,
 						},
 					},
 					["heal"] = 3676,
@@ -6228,11 +6228,11 @@ SkadaStorageDB = {
 			},
 			["etotaldamagetaken"] = 8499,
 			["damage"] = 8499,
-			["ccdone"] = 1,
+			["mobname"] = "Allivadasz",
 			["edamagetaken"] = 8499,
 			["heal"] = 3676,
 			["name"] = "Allivadasz (2)",
-			["mobname"] = "Allivadasz",
+			["ccdone"] = 1,
 			["overheal"] = 0,
 			["edamage"] = 3875,
 			["last_action"] = 1689847566,
@@ -6244,10 +6244,10 @@ SkadaStorageDB = {
 				{
 					["damagetaken"] = 36779,
 					["name"] = "Allivadasz",
-					["totaldamagetaken"] = 36779,
-					["id"] = "0x070000000077503D",
 					["class"] = "PALADIN",
 					["flag"] = 66888,
+					["totaldamagetaken"] = 36779,
+					["id"] = "0x070000000077503D",
 					["damagetakenspells"] = {
 						[17962] = {
 							["school"] = 4,
@@ -6336,10 +6336,10 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[48018] = {
-							["type"] = "BUFF",
 							["refresh"] = 1,
-							["count"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 16,
+							["count"] = 1,
 						},
 						[75473] = {
 							["school"] = 1,
@@ -6347,17 +6347,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[18118] = {
-							["type"] = "DEBUFF",
+						[25228] = {
+							["school"] = 32,
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Allivadasz"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 15,
 						},
 						[47847] = {
 							["type"] = "DEBUFF",
@@ -6371,11 +6365,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[25228] = {
-							["school"] = 32,
-							["type"] = "BUFF",
+						[18118] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["school"] = 4,
+							["targets"] = {
+								["Allivadasz"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 						[17962] = {
 							["type"] = "DEBUFF",
@@ -6420,13 +6420,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 1235,
-							["critical"] = 2,
-							["criticalmax"] = 1235,
 							["count"] = 3,
+							["criticalmax"] = 1235,
+							["hitmax"] = 782,
 							["amount"] = 3252,
 							["school"] = 4,
 							["hit"] = 1,
-							["hitmax"] = 782,
+							["critical"] = 2,
 							["hitamount"] = 782,
 						},
 						["Incinerate"] = {
@@ -6434,7 +6434,7 @@ SkadaStorageDB = {
 							["hitmin"] = 4771,
 							["criticalamount"] = 16126,
 							["id"] = 47838,
-							["critical"] = 2,
+							["hitmax"] = 4771,
 							["targets"] = {
 								["Allivadasz"] = {
 									["overkill"] = 6158,
@@ -6442,13 +6442,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 6158,
-							["hit"] = 1,
-							["casts"] = 2,
-							["hitmax"] = 4771,
 							["amount"] = 20897,
-							["school"] = 4,
-							["count"] = 3,
 							["criticalmax"] = 8638,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 4,
+							["critical"] = 2,
+							["casts"] = 2,
 							["hitamount"] = 4771,
 						},
 						["Immolate (DoT)"] = {
@@ -6516,10 +6516,10 @@ SkadaStorageDB = {
 						},
 						[47893] = {
 							["overheal"] = 1624,
-							["max"] = 812,
+							["school"] = 32,
 							["count"] = 3,
 							["amount"] = 812,
-							["school"] = 32,
+							["max"] = 812,
 							["ishot"] = true,
 							["targets"] = {
 								["Denathra"] = {

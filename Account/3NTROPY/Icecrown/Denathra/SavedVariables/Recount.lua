@@ -134,7 +134,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "SHAMAN",
 			["unit"] = "Charliesh",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14011.852, -- [1]
 				14011.986, -- [2]
@@ -473,41 +473,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -515,22 +514,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -538,28 +536,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -576,41 +576,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -618,22 +617,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -641,28 +639,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -1179,31 +1179,68 @@ RecountPerCharDB = {
 						["Fire"] = 341993,
 					},
 					["HealingTaken"] = 37181,
-					["ElementHitsDone"] = {
-						["Nature"] = {
+					["ManaGainedFrom"] = {
+						["Charliesh"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 86,
-								},
-								["Hit"] = {
-									["count"] = 56,
+								["Water Shield"] = {
+									["count"] = 1284,
 								},
 							},
-							["amount"] = 142,
+							["amount"] = 1284,
 						},
-						["Fire"] = {
+						["Merinde"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 30,
-								},
-								["Crit"] = {
-									["count"] = 65,
-								},
-								["Hit"] = {
-									["count"] = 8,
+								["Revitalize"] = {
+									["count"] = 1483,
 								},
 							},
-							["amount"] = 103,
+							["amount"] = 1483,
+						},
+						["Baimushi"] = {
+							["Details"] = {
+								["Rapture"] = {
+									["count"] = 1190,
+								},
+							},
+							["amount"] = 1190,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 3406,
+								},
+							},
+							["amount"] = 3406,
+						},
+						["Litigator"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 2800,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 2610,
+								},
+							},
+							["amount"] = 5410,
+						},
+						["Yindao"] = {
+							["Details"] = {
+								["Rapture"] = {
+									["count"] = 595,
+								},
+							},
+							["amount"] = 595,
+						},
+						["Lionhearted"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 4243,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 1305,
+								},
+							},
+							["amount"] = 5548,
 						},
 					},
 					["TimeDamage"] = 180.03,
@@ -1278,68 +1315,31 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 18916,
-					["ManaGainedFrom"] = {
-						["Charliesh"] = {
+					["ElementHitsDone"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Water Shield"] = {
-									["count"] = 1284,
+								["Crit"] = {
+									["count"] = 86,
+								},
+								["Hit"] = {
+									["count"] = 56,
 								},
 							},
-							["amount"] = 1284,
+							["amount"] = 142,
 						},
-						["Merinde"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 1483,
+								["Tick"] = {
+									["count"] = 30,
+								},
+								["Crit"] = {
+									["count"] = 65,
+								},
+								["Hit"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 1483,
-						},
-						["Baimushi"] = {
-							["Details"] = {
-								["Rapture"] = {
-									["count"] = 1190,
-								},
-							},
-							["amount"] = 1190,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 3406,
-								},
-							},
-							["amount"] = 3406,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 2800,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 2610,
-								},
-							},
-							["amount"] = 5410,
-						},
-						["Yindao"] = {
-							["Details"] = {
-								["Rapture"] = {
-									["count"] = 595,
-								},
-							},
-							["amount"] = 595,
-						},
-						["Lionhearted"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 4243,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 1305,
-								},
-							},
-							["amount"] = 5548,
+							["amount"] = 103,
 						},
 					},
 					["ElementHitsTaken"] = {
@@ -1538,7 +1538,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14029.805, -- [1]
 				14031.796, -- [2]
@@ -1774,41 +1774,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -1816,22 +1815,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -1839,28 +1837,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -1877,41 +1877,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -1919,22 +1918,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -1942,28 +1940,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -2274,6 +2274,117 @@ RecountPerCharDB = {
 							["amount"] = 684,
 						},
 					},
+					["ElementDone"] = {
+						["Melee"] = 164466,
+						["Physical"] = 56020,
+					},
+					["HealingTaken"] = 38502,
+					["DamagedWho"] = {
+						["Frost Warder"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 9901,
+								},
+								["Melee"] = {
+									["count"] = 19667,
+								},
+								["Intercept"] = {
+									["count"] = 148,
+								},
+							},
+							["amount"] = 29716,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 6687,
+								},
+								["Melee"] = {
+									["count"] = 14060,
+								},
+								["Intercept"] = {
+									["count"] = 367,
+								},
+							},
+							["amount"] = 21114,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 32681,
+								},
+								["Melee"] = {
+									["count"] = 130739,
+								},
+								["Intercept"] = {
+									["count"] = 148,
+								},
+							},
+							["amount"] = 163568,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 6088,
+								},
+							},
+							["amount"] = 6088,
+						},
+					},
+					["TimeDamage"] = 163.2499999999999,
+					["TimeDamaging"] = {
+						["Frost Warder"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 5.11,
+								},
+								["Melee"] = {
+									["count"] = 24.93,
+								},
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 33.54,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 3.86,
+								},
+								["Melee"] = {
+									["count"] = 19.97,
+								},
+								["Intercept"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 30.83,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 12.91,
+								},
+								["Melee"] = {
+									["count"] = 82.30999999999999,
+								},
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 98.72000000000001,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0.16,
+								},
+							},
+							["amount"] = 0.16,
+						},
+					},
+					["ManaGain"] = 4950,
 					["Attacks"] = {
 						["Cleave"] = {
 							["Details"] = {
@@ -2340,7 +2451,6 @@ RecountPerCharDB = {
 							["amount"] = 663,
 						},
 					},
-					["HealingTaken"] = 38502,
 					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -2369,116 +2479,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 34,
-						},
-					},
-					["TimeDamage"] = 163.2499999999999,
-					["TimeDamaging"] = {
-						["Frost Warder"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 5.11,
-								},
-								["Melee"] = {
-									["count"] = 24.93,
-								},
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 33.54,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 3.86,
-								},
-								["Melee"] = {
-									["count"] = 19.97,
-								},
-								["Intercept"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 30.83,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 12.91,
-								},
-								["Melee"] = {
-									["count"] = 82.30999999999999,
-								},
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 98.72000000000001,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0.16,
-								},
-							},
-							["amount"] = 0.16,
-						},
-					},
-					["ManaGain"] = 4950,
-					["ElementDone"] = {
-						["Melee"] = 164466,
-						["Physical"] = 56020,
-					},
-					["DamagedWho"] = {
-						["Frost Warder"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 9901,
-								},
-								["Melee"] = {
-									["count"] = 19667,
-								},
-								["Intercept"] = {
-									["count"] = 148,
-								},
-							},
-							["amount"] = 29716,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 6687,
-								},
-								["Melee"] = {
-									["count"] = 14060,
-								},
-								["Intercept"] = {
-									["count"] = 367,
-								},
-							},
-							["amount"] = 21114,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 32681,
-								},
-								["Melee"] = {
-									["count"] = 130739,
-								},
-								["Intercept"] = {
-									["count"] = 148,
-								},
-							},
-							["amount"] = 163568,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 6088,
-								},
-							},
-							["amount"] = 6088,
 						},
 					},
 				},
@@ -2638,7 +2638,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14013.605, -- [1]
 				14013.605, -- [2]
@@ -2879,41 +2879,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -2921,22 +2920,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -2944,28 +2942,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -2982,41 +2982,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -3024,22 +3023,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -3047,28 +3045,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -3322,14 +3322,14 @@ RecountPerCharDB = {
 								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.4600000000000001,
-								},
 								["Manifest Anger"] = {
 									["count"] = 0,
 								},
 								["Divine Storm"] = {
 									["count"] = 1.07,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.4600000000000001,
 								},
 							},
 							["amount"] = 1.53,
@@ -3658,6 +3658,25 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0.8600000000000001,
 						},
+						["Treant <Zjabak>"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0.73,
+								},
+							},
+							["amount"] = 0.73,
+						},
+						["Paria"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 5.21,
+								},
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.21,
+						},
 						["Ebon Gargoyle <Chyka>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -3666,14 +3685,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0.17,
 						},
-						["Dukundra"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 1.7,
-								},
-							},
-							["amount"] = 1.7,
-						},
 						["Ebon Gargoyle <Purinx>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -3681,14 +3692,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0.22,
-						},
-						["Treant <Zjabak>"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0.73,
-								},
-							},
-							["amount"] = 0.73,
 						},
 						["Drakui"] = {
 							["Details"] = {
@@ -3841,16 +3844,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0.34,
 						},
-						["Paria"] = {
+						["Dukundra"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
-									["count"] = 5.21,
-								},
-								["Divine Storm"] = {
-									["count"] = 0,
+									["count"] = 1.7,
 								},
 							},
-							["amount"] = 5.21,
+							["amount"] = 1.7,
 						},
 						["Dioxhr"] = {
 							["Details"] = {
@@ -4199,6 +4199,25 @@ RecountPerCharDB = {
 							},
 							["amount"] = 8591,
 						},
+						["Treant <Zjabak>"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 1554,
+								},
+							},
+							["amount"] = 1554,
+						},
+						["Paria"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 18658,
+								},
+								["Divine Storm"] = {
+									["count"] = 2364,
+								},
+							},
+							["amount"] = 21022,
+						},
 						["Ebon Gargoyle <Chyka>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -4207,14 +4226,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 896,
 						},
-						["Dukundra"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 17052,
-								},
-							},
-							["amount"] = 17052,
-						},
 						["Ebon Gargoyle <Purinx>"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
@@ -4222,14 +4233,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 2682,
-						},
-						["Treant <Zjabak>"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 1554,
-								},
-							},
-							["amount"] = 1554,
 						},
 						["Drakui"] = {
 							["Details"] = {
@@ -4382,16 +4385,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 911,
 						},
-						["Paria"] = {
+						["Dukundra"] = {
 							["Details"] = {
 								["Judgement of Light"] = {
-									["count"] = 18658,
-								},
-								["Divine Storm"] = {
-									["count"] = 2364,
+									["count"] = 17052,
 								},
 							},
-							["amount"] = 21022,
+							["amount"] = 17052,
 						},
 						["Dioxhr"] = {
 							["Details"] = {
@@ -4631,8 +4631,8 @@ RecountPerCharDB = {
 								["Ebon Gargoyle <Chyka>"] = {
 									["count"] = 48,
 								},
-								["Ebon Gargoyle <Purinx>"] = {
-									["count"] = 39,
+								["Treant <Zjabak>"] = {
+									["count"] = 45,
 								},
 								["Drakui"] = {
 									["count"] = 117,
@@ -4685,8 +4685,8 @@ RecountPerCharDB = {
 								["Telderam"] = {
 									["count"] = 144,
 								},
-								["Treant <Zjabak>"] = {
-									["count"] = 45,
+								["Ebon Gargoyle <Purinx>"] = {
+									["count"] = 39,
 								},
 								["Dioxhr"] = {
 									["count"] = 231,
@@ -4833,14 +4833,14 @@ RecountPerCharDB = {
 								["Consecration (DoT)"] = {
 									["count"] = 0,
 								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0.4600000000000001,
-								},
 								["Manifest Anger"] = {
 									["count"] = 0,
 								},
 								["Divine Storm"] = {
 									["count"] = 1.07,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 0.4600000000000001,
 								},
 							},
 							["amount"] = 1.53,
@@ -4993,14 +4993,14 @@ RecountPerCharDB = {
 								["Consecration (DoT)"] = {
 									["count"] = 19774,
 								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 6363,
-								},
 								["Manifest Anger"] = {
 									["count"] = 1280,
 								},
 								["Divine Storm"] = {
 									["count"] = 54205,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 6363,
 								},
 							},
 							["amount"] = 81622,
@@ -5155,7 +5155,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "DEATHKNIGHT",
 			["unit"] = "Chyka",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14005.343, -- [1]
 				14005.343, -- [2]
@@ -5437,41 +5437,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -5479,22 +5478,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -5502,28 +5500,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5540,41 +5540,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -5582,22 +5581,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -5605,28 +5603,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5707,10 +5707,10 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDone"] = {
-						["Shadow"] = 205776,
 						["Physical"] = 132711,
-						["Melee"] = 246232,
 						["Frost"] = 120839,
+						["Melee"] = 246232,
+						["Shadow"] = 205776,
 					},
 					["DamagedWho"] = {
 						["Frost Warder"] = {
@@ -5721,8 +5721,8 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 17898,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6260,
+								["Wandering Plague"] = {
+									["count"] = 1228,
 								},
 								["Icy Touch"] = {
 									["count"] = 18025,
@@ -5730,8 +5730,8 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 5106,
 								},
-								["Wandering Plague"] = {
-									["count"] = 1228,
+								["Frost Fever (DoT)"] = {
+									["count"] = 6260,
 								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 1463,
@@ -5747,20 +5747,20 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 7586,
 								},
-								["Wandering Plague"] = {
-									["count"] = 1074,
-								},
-								["Icy Touch"] = {
-									["count"] = 5483,
-								},
-								["Plague Strike"] = {
-									["count"] = 5346,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 2109,
 								},
 								["Blood Strike"] = {
 									["count"] = 1835,
+								},
+								["Plague Strike"] = {
+									["count"] = 5346,
+								},
+								["Wandering Plague"] = {
+									["count"] = 1074,
+								},
+								["Icy Touch"] = {
+									["count"] = 5483,
 								},
 							},
 							["amount"] = 24949,
@@ -5811,14 +5811,14 @@ RecountPerCharDB = {
 						},
 						["Frozen Orb"] = {
 							["Details"] = {
+								["Wandering Plague"] = {
+									["count"] = 17571,
+								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 13668,
 								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 14885,
-								},
-								["Wandering Plague"] = {
-									["count"] = 17571,
 								},
 								["Death and Decay"] = {
 									["count"] = 4145,
@@ -6069,8 +6069,8 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6.51,
+								["Wandering Plague"] = {
+									["count"] = 3,
 								},
 								["Icy Touch"] = {
 									["count"] = 11.32,
@@ -6078,8 +6078,8 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0.92,
 								},
-								["Wandering Plague"] = {
-									["count"] = 3,
+								["Frost Fever (DoT)"] = {
+									["count"] = 6.51,
 								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 1.18,
@@ -6111,20 +6111,20 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Wandering Plague"] = {
-									["count"] = 1.68,
-								},
-								["Icy Touch"] = {
-									["count"] = 8.17,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.07,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.02,
 								},
 								["Blood Strike"] = {
 									["count"] = 0.14,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.07,
+								},
+								["Wandering Plague"] = {
+									["count"] = 1.68,
+								},
+								["Icy Touch"] = {
+									["count"] = 8.17,
 								},
 							},
 							["amount"] = 16.48,
@@ -6175,14 +6175,14 @@ RecountPerCharDB = {
 						},
 						["Frozen Orb"] = {
 							["Details"] = {
+								["Wandering Plague"] = {
+									["count"] = 2.5,
+								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 1.67,
-								},
-								["Wandering Plague"] = {
-									["count"] = 2.5,
 								},
 								["Death and Decay"] = {
 									["count"] = 0,
@@ -6476,8 +6476,8 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6.51,
+								["Wandering Plague"] = {
+									["count"] = 3,
 								},
 								["Icy Touch"] = {
 									["count"] = 11.32,
@@ -6485,8 +6485,8 @@ RecountPerCharDB = {
 								["Plague Strike"] = {
 									["count"] = 0.92,
 								},
-								["Wandering Plague"] = {
-									["count"] = 3,
+								["Frost Fever (DoT)"] = {
+									["count"] = 6.51,
 								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 1.18,
@@ -6510,20 +6510,20 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Wandering Plague"] = {
-									["count"] = 1.68,
-								},
-								["Icy Touch"] = {
-									["count"] = 8.17,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.07,
-								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 3.02,
 								},
 								["Blood Strike"] = {
 									["count"] = 0.14,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.07,
+								},
+								["Wandering Plague"] = {
+									["count"] = 1.68,
+								},
+								["Icy Touch"] = {
+									["count"] = 8.17,
 								},
 							},
 							["amount"] = 16.48,
@@ -6574,14 +6574,14 @@ RecountPerCharDB = {
 						},
 						["Frozen Orb"] = {
 							["Details"] = {
+								["Wandering Plague"] = {
+									["count"] = 2.5,
+								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 1.67,
-								},
-								["Wandering Plague"] = {
-									["count"] = 2.5,
 								},
 								["Death and Decay"] = {
 									["count"] = 0,
@@ -6592,20 +6592,6 @@ RecountPerCharDB = {
 					},
 					["RunicPowerGain"] = 106,
 					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 33,
-								},
-								["Crit"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 109,
-								},
-							},
-							["amount"] = 147,
-						},
 						["Physical"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -6616,6 +6602,20 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 39,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 39,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 59,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -6631,19 +6631,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 53,
 						},
-						["Frost"] = {
+						["Shadow"] = {
 							["Details"] = {
 								["Tick"] = {
-									["count"] = 39,
+									["count"] = 33,
 								},
 								["Crit"] = {
-									["count"] = 9,
+									["count"] = 5,
 								},
 								["Hit"] = {
-									["count"] = 11,
+									["count"] = 109,
 								},
 							},
-							["amount"] = 59,
+							["amount"] = 147,
 						},
 					},
 					["HealedWho"] = {
@@ -6820,7 +6820,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14011.266, -- [1]
 				14011.488, -- [2]
@@ -7057,41 +7057,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -7099,22 +7098,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -7122,28 +7120,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -7160,41 +7160,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -7202,22 +7201,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -7225,28 +7223,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -8323,7 +8323,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14016.219, -- [1]
 				14016.219, -- [2]
@@ -8563,41 +8563,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -8605,22 +8604,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -8628,28 +8626,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -8666,41 +8666,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -8708,22 +8707,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -8731,36 +8729,35 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementTakenAbsorb"] = {
-						["Frost"] = 28033,
-						["Physical"] = 1767,
-					},
+					["Overhealing"] = 2501712,
 					["TimeHealing"] = {
 						["Charliesh"] = {
 							["Details"] = {
@@ -8880,16 +8877,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 28.97,
 						},
-						["Yuchi"] = {
+						["Yindao"] = {
 							["Details"] = {
 								["Holy Light"] = {
-									["count"] = 0.41,
+									["count"] = 1.15,
 								},
 								["Glyph of Holy Light"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0.41,
+							["amount"] = 1.15,
 						},
 						["Treant <Zjabak>"] = {
 							["Details"] = {
@@ -8927,16 +8924,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2.76,
 						},
-						["Yindao"] = {
+						["Yuchi"] = {
 							["Details"] = {
 								["Holy Light"] = {
-									["count"] = 1.15,
+									["count"] = 0.41,
 								},
 								["Glyph of Holy Light"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 1.15,
+							["amount"] = 0.41,
 						},
 						["Lionhearted"] = {
 							["Details"] = {
@@ -8987,6 +8984,25 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1.31,
 						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 3.76,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.76,
+						},
+						["Army of the Dead Ghoul <Purinx>"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
 						["Mirror Image <Tobblum>"] = {
 							["Details"] = {
 								["Fountain of Light"] = {
@@ -8998,13 +9014,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1.15,
 						},
-						["Army of the Dead Ghoul <Purinx>"] = {
+						["Dukundra"] = {
 							["Details"] = {
 								["Glyph of Holy Light"] = {
-									["count"] = 1.5,
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 1.2,
 								},
 							},
-							["amount"] = 1.5,
+							["amount"] = 1.2,
 						},
 						["Merinde"] = {
 							["Details"] = {
@@ -9019,28 +9038,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 5.29,
-						},
-						["Dukundra"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 1.2,
-								},
-							},
-							["amount"] = 1.2,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 3.76,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.76,
 						},
 						["Feire"] = {
 							["Details"] = {
@@ -9201,730 +9198,111 @@ RecountPerCharDB = {
 							["amount"] = 274036,
 						},
 					},
-					["Overhealing"] = 2501712,
+					["PartialAbsorb"] = {
+						["Freezing Ground"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Rock Shower (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Rock Shower"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 1767,
+									["min"] = 1767,
+									["count"] = 1,
+									["amount"] = 1767,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1767,
+						},
+						["Whiteout"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 8977,
+									["min"] = 8796,
+									["count"] = 2,
+									["amount"] = 17773,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 17773,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 2250,
+									["min"] = 997,
+									["count"] = 6,
+									["amount"] = 10260,
+								},
+							},
+							["count"] = 25,
+							["amount"] = 10260,
+						},
+					},
 					["ElementDoneResist"] = {
 						["Holy"] = 549,
 					},
-					["TimeSpent"] = {
-						["Charliesh"] = {
+					["ElementHitsTaken"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Fountain of Light"] = {
-									["count"] = 2.57,
+								["Absorb"] = {
+									["count"] = 5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 4.99,
+								["Miss"] = {
+									["count"] = 1,
 								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 24,
 								},
 							},
-							["amount"] = 7.56,
+							["amount"] = 30,
 						},
-						["Shaathun <Denathra>"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0.88,
+								["Absorb"] = {
+									["count"] = 1,
 								},
-								["Glyph of Holy Light"] = {
-									["count"] = 2.91,
-								},
-							},
-							["amount"] = 3.79,
-						},
-						["Zjabak"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 2.8,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-								["Fountain of Light"] = {
-									["count"] = 1.57,
-								},
-							},
-							["amount"] = 4.37,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 3.64,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.38,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 1.47,
-								},
-							},
-							["amount"] = 5.490000000000001,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0.24,
-								},
-								["Fountain of Light"] = {
-									["count"] = 7,
-								},
-								["Flash of Light"] = {
-									["count"] = 19.42,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.41,
-								},
-								["Beacon of Light"] = {
-									["count"] = 0.39,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 1.53,
-								},
-							},
-							["amount"] = 28.99000000000001,
-						},
-						["Lanfigure"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0.4,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.4,
-						},
-						["Chyka"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 1.53,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.53,
-						},
-						["Paria"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 8.75,
-								},
-								["Holy Light"] = {
-									["count"] = 16.69,
-								},
-								["Judgement of Light"] = {
-									["count"] = 3.53,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 28.97,
-						},
-						["Yindao"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 1.15,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1.15,
-						},
-						["Mcstylish"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 1.98,
-								},
-								["Fountain of Light"] = {
-									["count"] = 1.02,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
+								["Tick"] = {
+									["count"] = 2,
 								},
 							},
 							["amount"] = 3,
 						},
-						["Dukundra"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 1.2,
-								},
-							},
-							["amount"] = 1.2,
-						},
-						["Mirror Image <Tobblum>"] = {
-							["Details"] = {
-								["Fountain of Light"] = {
-									["count"] = 0,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 1.15,
-								},
-							},
-							["amount"] = 1.15,
-						},
-						["Treant <Zjabak>"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Drakui"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 3.5,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.45,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0.73,
-								},
-							},
-							["amount"] = 4.68,
-						},
-						["Sertel"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0.08,
-								},
-								["Holy Light"] = {
-									["count"] = 2.68,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2.76,
-						},
-						["Yuchi"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 0.41,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.41,
-						},
-						["Army of the Dead Ghoul <Purinx>"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["Frost Warder"] = {
-							["Details"] = {
-								["Judgement"] = {
-									["count"] = 1.5,
-								},
-							},
-							["amount"] = 1.5,
-						},
-						["Baimushi"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 2.560000000000001,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2.560000000000001,
-						},
-						["Merinde"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 5.29,
-								},
-								["Fountain of Light"] = {
-									["count"] = 0,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5.29,
-						},
-						["Purinx"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 1.31,
-								},
-							},
-							["amount"] = 1.31,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Judgement"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Judgement"] = {
-									["count"] = 2.35,
-								},
-							},
-							["amount"] = 2.35,
-						},
-						["Lionhearted"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0.17,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.67,
-						},
-						["Hammerdrinker <Purinx>"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 3.76,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.76,
-						},
-						["Feire"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0.08,
-								},
-								["Holy Light"] = {
-									["count"] = 1.45,
-								},
-							},
-							["amount"] = 1.53,
-						},
-						["Thoothun <Drakui>"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 2.98,
-								},
-							},
-							["amount"] = 2.98,
-						},
-						["Tobblum"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Telderam"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-								["Fountain of Light"] = {
-									["count"] = 1.05,
-								},
-							},
-							["amount"] = 1.05,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 1.05,
-								},
-								["Judgement of Light"] = {
-									["count"] = 4.32,
-								},
-								["Fountain of Light"] = {
-									["count"] = 1.93,
-								},
-							},
-							["amount"] = 7.3,
-						},
-						["Dioxhr"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 2.47,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.05,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.52,
-						},
 					},
-					["HealedWho"] = {
-						["Charliesh"] = {
-							["Details"] = {
-								["Fountain of Light"] = {
-									["count"] = 1208,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1122,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 1473,
-								},
-							},
-							["amount"] = 3803,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 63,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 3684,
-								},
-							},
-							["amount"] = 3747,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 8934,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1463,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 7406,
-								},
-							},
-							["amount"] = 17803,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 6460,
-								},
-								["Fountain of Light"] = {
-									["count"] = 506,
-								},
-								["Flash of Light"] = {
-									["count"] = 8702,
-								},
-								["Judgement of Light"] = {
-									["count"] = 2613,
-								},
-								["Beacon of Light"] = {
-									["count"] = 98679,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 7493,
-								},
-							},
-							["amount"] = 124453,
-						},
-						["Lanfigure"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 4181,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 10742,
-								},
-							},
-							["amount"] = 14923,
-						},
-						["Zjabak"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 18860,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 2393,
-								},
-								["Fountain of Light"] = {
-									["count"] = 482,
-								},
-							},
-							["amount"] = 21735,
-						},
-						["Mcstylish"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 8329,
-								},
-								["Fountain of Light"] = {
-									["count"] = 253,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 8666,
-								},
-							},
-							["amount"] = 17248,
-						},
-						["Paria"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3432,
-								},
-								["Holy Light"] = {
-									["count"] = 33479,
-								},
-								["Judgement of Light"] = {
-									["count"] = 2067,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 2176,
-								},
-							},
-							["amount"] = 41154,
-						},
-						["Yuchi"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 350,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 850,
-								},
-							},
-							["amount"] = 1200,
-						},
-						["Treant <Zjabak>"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 4014,
-								},
-							},
-							["amount"] = 4014,
-						},
-						["Drakui"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 9300,
-								},
-								["Judgement of Light"] = {
-									["count"] = 978,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 5299,
-								},
-							},
-							["amount"] = 15577,
-						},
-						["Sertel"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 5687,
-								},
-								["Holy Light"] = {
-									["count"] = 3975,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 2178,
-								},
-							},
-							["amount"] = 11840,
-						},
-						["Yindao"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 6050,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 3628,
-								},
-							},
-							["amount"] = 9678,
-						},
-						["Lionhearted"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 1473,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 16818,
-								},
-							},
-							["amount"] = 18291,
-						},
-						["Hammerdrinker <Purinx>"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 1614,
-								},
-							},
-							["amount"] = 1614,
-						},
-						["Baimushi"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 21953,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 6759,
-								},
-							},
-							["amount"] = 28712,
-						},
-						["Chyka"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 10021,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 12449,
-								},
-							},
-							["amount"] = 22470,
-						},
-						["Purinx"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 2618,
-								},
-							},
-							["amount"] = 2618,
-						},
-						["Mirror Image <Tobblum>"] = {
-							["Details"] = {
-								["Fountain of Light"] = {
-									["count"] = 1253,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 632,
-								},
-							},
-							["amount"] = 1885,
-						},
-						["Army of the Dead Ghoul <Purinx>"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 11247,
-								},
-							},
-							["amount"] = 11247,
-						},
-						["Merinde"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 4196,
-								},
-								["Fountain of Light"] = {
-									["count"] = 242,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 4414,
-								},
-							},
-							["amount"] = 8852,
-						},
-						["Dukundra"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 2266,
-								},
-								["Holy Light"] = {
-									["count"] = 3656,
-								},
-							},
-							["amount"] = 5922,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 1516,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 10895,
-								},
-							},
-							["amount"] = 12411,
-						},
-						["Feire"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 508,
-								},
-								["Holy Light"] = {
-									["count"] = 5974,
-								},
-							},
-							["amount"] = 6482,
-						},
-						["Thoothun <Drakui>"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 932,
-								},
-							},
-							["amount"] = 932,
-						},
-						["Tobblum"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 2877,
-								},
-							},
-							["amount"] = 2877,
-						},
-						["Telderam"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 4166,
-								},
-								["Fountain of Light"] = {
-									["count"] = 725,
-								},
-							},
-							["amount"] = 4891,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 15473,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1314,
-								},
-								["Fountain of Light"] = {
-									["count"] = 483,
-								},
-							},
-							["amount"] = 17270,
-						},
-						["Dioxhr"] = {
-							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 9742,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1520,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 8796,
-								},
-							},
-							["amount"] = 20058,
-						},
-					},
+					["DamageTaken"] = 69682,
 					["ElementTakenResist"] = {
 						["Frost"] = 24167,
 					},
@@ -10078,79 +9456,9 @@ RecountPerCharDB = {
 							["amount"] = 348,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Freezing Ground"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Rock Shower (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Rock Shower"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 1767,
-									["min"] = 1767,
-									["count"] = 1,
-									["amount"] = 1767,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1767,
-						},
-						["Whiteout"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 8977,
-									["min"] = 8796,
-									["count"] = 2,
-									["amount"] = 17773,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 17773,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 19,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 2250,
-									["min"] = 997,
-									["count"] = 6,
-									["amount"] = 10260,
-								},
-							},
-							["count"] = 25,
-							["amount"] = 10260,
-						},
+					["ElementTakenAbsorb"] = {
+						["Frost"] = 28033,
+						["Physical"] = 1767,
 					},
 					["ActiveTime"] = 140.77,
 					["TimeHeal"] = 129.92,
@@ -10303,14 +9611,14 @@ RecountPerCharDB = {
 								["Earthbasher <Chyka>"] = {
 									["count"] = 27,
 								},
+								["Mirror Image <Tobblum>"] = {
+									["count"] = 18,
+								},
 								["Cleverbear"] = {
 									["count"] = 36,
 								},
 								["Merinde"] = {
 									["count"] = 36,
-								},
-								["Mirror Image <Tobblum>"] = {
-									["count"] = 18,
 								},
 								["Denathra"] = {
 									["count"] = 27,
@@ -10447,6 +9755,19 @@ RecountPerCharDB = {
 							["amount"] = 161958,
 						},
 					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
 					["ManaGainedFrom"] = {
 						["Merinde"] = {
 							["Details"] = {
@@ -10515,32 +9836,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 5592,
-						},
-					},
-					["DamagedWho"] = {
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Judgement"] = {
-									["count"] = 5473,
-								},
-							},
-							["amount"] = 5473,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Judgement"] = {
-									["count"] = 7077,
-								},
-							},
-							["amount"] = 7077,
-						},
-						["Frost Warder"] = {
-							["Details"] = {
-								["Judgement"] = {
-									["count"] = 1643,
-								},
-							},
-							["amount"] = 1643,
 						},
 					},
 					["HOT_Time"] = 1812,
@@ -10629,17 +9924,30 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 71821,
-					["ElementHitsDone"] = {
-						["Holy"] = {
+					["DamagedWho"] = {
+						["Archavon Warder"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 4,
+								["Judgement"] = {
+									["count"] = 5473,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 5473,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Judgement"] = {
+									["count"] = 7077,
+								},
+							},
+							["amount"] = 7077,
+						},
+						["Frost Warder"] = {
+							["Details"] = {
+								["Judgement"] = {
+									["count"] = 1643,
+								},
+							},
+							["amount"] = 1643,
 						},
 					},
 					["TimeDamage"] = 10.85,
@@ -10673,32 +9981,724 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 48159,
-					["DamageTaken"] = 69682,
-					["ElementHitsTaken"] = {
-						["Frost"] = {
+					["HealedWho"] = {
+						["Charliesh"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 5,
+								["Fountain of Light"] = {
+									["count"] = 1208,
 								},
-								["Miss"] = {
-									["count"] = 1,
+								["Judgement of Light"] = {
+									["count"] = 1122,
 								},
-								["Hit"] = {
-									["count"] = 24,
+								["Glyph of Holy Light"] = {
+									["count"] = 1473,
 								},
 							},
-							["amount"] = 30,
+							["amount"] = 3803,
 						},
-						["Physical"] = {
+						["Shaathun <Denathra>"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
+								["Judgement of Light"] = {
+									["count"] = 63,
 								},
-								["Tick"] = {
-									["count"] = 2,
+								["Glyph of Holy Light"] = {
+									["count"] = 3684,
+								},
+							},
+							["amount"] = 3747,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 8934,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1463,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 7406,
+								},
+							},
+							["amount"] = 17803,
+						},
+						["Litigator"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 6460,
+								},
+								["Fountain of Light"] = {
+									["count"] = 506,
+								},
+								["Flash of Light"] = {
+									["count"] = 8702,
+								},
+								["Judgement of Light"] = {
+									["count"] = 2613,
+								},
+								["Beacon of Light"] = {
+									["count"] = 98679,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 7493,
+								},
+							},
+							["amount"] = 124453,
+						},
+						["Lanfigure"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 4181,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 10742,
+								},
+							},
+							["amount"] = 14923,
+						},
+						["Zjabak"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 18860,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 2393,
+								},
+								["Fountain of Light"] = {
+									["count"] = 482,
+								},
+							},
+							["amount"] = 21735,
+						},
+						["Mcstylish"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 8329,
+								},
+								["Fountain of Light"] = {
+									["count"] = 253,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 8666,
+								},
+							},
+							["amount"] = 17248,
+						},
+						["Paria"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3432,
+								},
+								["Holy Light"] = {
+									["count"] = 33479,
+								},
+								["Judgement of Light"] = {
+									["count"] = 2067,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 2176,
+								},
+							},
+							["amount"] = 41154,
+						},
+						["Yindao"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 6050,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 3628,
+								},
+							},
+							["amount"] = 9678,
+						},
+						["Treant <Zjabak>"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 4014,
+								},
+							},
+							["amount"] = 4014,
+						},
+						["Drakui"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 9300,
+								},
+								["Judgement of Light"] = {
+									["count"] = 978,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 5299,
+								},
+							},
+							["amount"] = 15577,
+						},
+						["Sertel"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 5687,
+								},
+								["Holy Light"] = {
+									["count"] = 3975,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 2178,
+								},
+							},
+							["amount"] = 11840,
+						},
+						["Yuchi"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 350,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 850,
+								},
+							},
+							["amount"] = 1200,
+						},
+						["Lionhearted"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 1473,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 16818,
+								},
+							},
+							["amount"] = 18291,
+						},
+						["Hammerdrinker <Purinx>"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 1614,
+								},
+							},
+							["amount"] = 1614,
+						},
+						["Baimushi"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 21953,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 6759,
+								},
+							},
+							["amount"] = 28712,
+						},
+						["Chyka"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 10021,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 12449,
+								},
+							},
+							["amount"] = 22470,
+						},
+						["Purinx"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 2618,
+								},
+							},
+							["amount"] = 2618,
+						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 1516,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 10895,
+								},
+							},
+							["amount"] = 12411,
+						},
+						["Army of the Dead Ghoul <Purinx>"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 11247,
+								},
+							},
+							["amount"] = 11247,
+						},
+						["Mirror Image <Tobblum>"] = {
+							["Details"] = {
+								["Fountain of Light"] = {
+									["count"] = 1253,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 632,
+								},
+							},
+							["amount"] = 1885,
+						},
+						["Dukundra"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 2266,
+								},
+								["Holy Light"] = {
+									["count"] = 3656,
+								},
+							},
+							["amount"] = 5922,
+						},
+						["Merinde"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 4196,
+								},
+								["Fountain of Light"] = {
+									["count"] = 242,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 4414,
+								},
+							},
+							["amount"] = 8852,
+						},
+						["Feire"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 508,
+								},
+								["Holy Light"] = {
+									["count"] = 5974,
+								},
+							},
+							["amount"] = 6482,
+						},
+						["Thoothun <Drakui>"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 932,
+								},
+							},
+							["amount"] = 932,
+						},
+						["Tobblum"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 2877,
+								},
+							},
+							["amount"] = 2877,
+						},
+						["Telderam"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 4166,
+								},
+								["Fountain of Light"] = {
+									["count"] = 725,
+								},
+							},
+							["amount"] = 4891,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 15473,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1314,
+								},
+								["Fountain of Light"] = {
+									["count"] = 483,
+								},
+							},
+							["amount"] = 17270,
+						},
+						["Dioxhr"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 9742,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1520,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 8796,
+								},
+							},
+							["amount"] = 20058,
+						},
+					},
+					["TimeSpent"] = {
+						["Charliesh"] = {
+							["Details"] = {
+								["Fountain of Light"] = {
+									["count"] = 2.57,
+								},
+								["Judgement of Light"] = {
+									["count"] = 4.99,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 7.56,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0.88,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 2.91,
+								},
+							},
+							["amount"] = 3.79,
+						},
+						["Zjabak"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 2.8,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+								["Fountain of Light"] = {
+									["count"] = 1.57,
+								},
+							},
+							["amount"] = 4.37,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 3.64,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.38,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 1.47,
+								},
+							},
+							["amount"] = 5.490000000000001,
+						},
+						["Litigator"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0.24,
+								},
+								["Fountain of Light"] = {
+									["count"] = 7,
+								},
+								["Flash of Light"] = {
+									["count"] = 19.42,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.41,
+								},
+								["Beacon of Light"] = {
+									["count"] = 0.39,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 1.53,
+								},
+							},
+							["amount"] = 28.99000000000001,
+						},
+						["Lanfigure"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0.4,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.4,
+						},
+						["Chyka"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 1.53,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.53,
+						},
+						["Paria"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 8.75,
+								},
+								["Holy Light"] = {
+									["count"] = 16.69,
+								},
+								["Judgement of Light"] = {
+									["count"] = 3.53,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 28.97,
+						},
+						["Yindao"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 1.15,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.15,
+						},
+						["Mcstylish"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 1.98,
+								},
+								["Fountain of Light"] = {
+									["count"] = 1.02,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 3,
+						},
+						["Dukundra"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 1.2,
+								},
+							},
+							["amount"] = 1.2,
+						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 3.76,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.76,
+						},
+						["Treant <Zjabak>"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Drakui"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 3.5,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.45,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0.73,
+								},
+							},
+							["amount"] = 4.68,
+						},
+						["Sertel"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0.08,
+								},
+								["Holy Light"] = {
+									["count"] = 2.68,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2.76,
+						},
+						["Yuchi"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 0.41,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.41,
+						},
+						["Army of the Dead Ghoul <Purinx>"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Frost Warder"] = {
+							["Details"] = {
+								["Judgement"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Baimushi"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 2.560000000000001,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2.560000000000001,
+						},
+						["Mirror Image <Tobblum>"] = {
+							["Details"] = {
+								["Fountain of Light"] = {
+									["count"] = 0,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 1.15,
+								},
+							},
+							["amount"] = 1.15,
+						},
+						["Purinx"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 1.31,
+								},
+							},
+							["amount"] = 1.31,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Judgement"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Judgement"] = {
+									["count"] = 2.35,
+								},
+							},
+							["amount"] = 2.35,
+						},
+						["Lionhearted"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0.17,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.67,
+						},
+						["Hammerdrinker <Purinx>"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Merinde"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 5.29,
+								},
+								["Fountain of Light"] = {
+									["count"] = 0,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.29,
+						},
+						["Feire"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0.08,
+								},
+								["Holy Light"] = {
+									["count"] = 1.45,
+								},
+							},
+							["amount"] = 1.53,
+						},
+						["Thoothun <Drakui>"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 2.98,
+								},
+							},
+							["amount"] = 2.98,
+						},
+						["Tobblum"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Telderam"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+								["Fountain of Light"] = {
+									["count"] = 1.05,
+								},
+							},
+							["amount"] = 1.05,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 1.05,
+								},
+								["Judgement of Light"] = {
+									["count"] = 4.32,
+								},
+								["Fountain of Light"] = {
+									["count"] = 1.93,
+								},
+							},
+							["amount"] = 7.3,
+						},
+						["Dioxhr"] = {
+							["Details"] = {
+								["Holy Light"] = {
+									["count"] = 2.47,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.05,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.52,
 						},
 					},
 				},
@@ -10825,7 +10825,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 4,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["Owner"] = "Chyka",
 			["LastEventTimes"] = {
 				13937.421, -- [1]
@@ -11035,41 +11035,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -11077,22 +11076,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -11100,28 +11098,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -11138,41 +11138,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -11180,22 +11179,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -11203,28 +11201,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -11276,6 +11276,25 @@ RecountPerCharDB = {
 						["Frost"] = 896,
 					},
 					["Damage"] = 116358,
+					["ElementDone"] = {
+						["Nature"] = 116358,
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
 					["Attacks"] = {
 						["Gargoyle Strike"] = {
 							["Details"] = {
@@ -11300,6 +11319,7 @@ RecountPerCharDB = {
 							["amount"] = 116358,
 						},
 					},
+					["HealingTaken"] = 896,
 					["DamagedWho"] = {
 						["Toravon the Ice Watcher"] = {
 							["Details"] = {
@@ -11310,35 +11330,15 @@ RecountPerCharDB = {
 							["amount"] = 116358,
 						},
 					},
-					["ElementDone"] = {
-						["Nature"] = 116358,
-					},
-					["HealingTaken"] = 896,
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 24,
-						},
-					},
 					["TimeDamage"] = 30.23,
-					["TimeDamaging"] = {
-						["Toravon the Ice Watcher"] = {
+					["WhoDamaged"] = {
+						["Frozen Orb"] = {
 							["Details"] = {
-								["Gargoyle Strike"] = {
-									["count"] = 30.23,
+								["Frozen Orb"] = {
+									["count"] = 896,
 								},
 							},
-							["amount"] = 30.23,
+							["amount"] = 896,
 						},
 					},
 					["WhoHealed"] = {
@@ -11351,14 +11351,14 @@ RecountPerCharDB = {
 							["amount"] = 896,
 						},
 					},
-					["WhoDamaged"] = {
-						["Frozen Orb"] = {
+					["TimeDamaging"] = {
+						["Toravon the Ice Watcher"] = {
 							["Details"] = {
-								["Frozen Orb"] = {
-									["count"] = 896,
+								["Gargoyle Strike"] = {
+									["count"] = 30.23,
 								},
 							},
-							["amount"] = 896,
+							["amount"] = 30.23,
 						},
 					},
 					["ElementHitsTaken"] = {
@@ -11493,17 +11493,17 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					60790, -- [1]
 				},
+				["Overhealing"] = {
+					126863, -- [1]
+				},
 				["HOT_Time"] = {
 					120, -- [1]
-				},
-				["FDamage"] = {
-					15186, -- [1]
 				},
 				["HealingTaken"] = {
 					71852, -- [1]
 				},
-				["Overhealing"] = {
-					126863, -- [1]
+				["FDamage"] = {
+					15186, -- [1]
 				},
 				["TimeDamage"] = {
 					148.4100000000001, -- [1]
@@ -11523,7 +11523,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "WARLOCK",
 			["unit"] = "Drakui",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["level"] = 80,
 			["LastDamageAbility"] = "Frozen Orb",
 			["LastFightIn"] = 4,
@@ -11550,14 +11550,14 @@ RecountPerCharDB = {
 				[47] = 3.030072904009721,
 				[24] = 6.500607533414338,
 				[12] = 2.752885783718105,
-				[50] = 2.752885783718105,
+				[25] = 2.752885783718105,
 				[37] = 2.114975698663427,
 				[44] = 3.436360874848117,
 				[45] = 3.303462940461726,
 				[27] = 2.118772782503038,
 				[48] = 2.889580801944107,
 				[49] = 2.752885783718105,
-				[25] = 2.752885783718105,
+				[50] = 2.752885783718105,
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
@@ -11615,13 +11615,13 @@ RecountPerCharDB = {
 			},
 			["TimeLast"] = {
 				["TimeHeal"] = 1689156102,
-				["HOT_Time"] = 1689156102,
+				["Overhealing"] = 1689156099,
 				["OVERALL"] = 1689156113,
 				["DamageTaken"] = 1689156099,
-				["FDamage"] = 1689156099,
+				["HOT_Time"] = 1689156102,
 				["ActiveTime"] = 1689156102,
 				["HealingTaken"] = 1689156104,
-				["Overhealing"] = 1689156099,
+				["FDamage"] = 1689156099,
 				["TimeDamage"] = 1689156099,
 				["Healing"] = 1689156102,
 				["ManaGain"] = 1689156113,
@@ -11805,41 +11805,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -11847,22 +11846,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -11870,28 +11868,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -11908,41 +11908,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -11950,22 +11949,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -11973,28 +11971,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -12921,20 +12921,6 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 56,
-								},
-								["Crit"] = {
-									["count"] = 34,
-								},
-								["Tick"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 116,
-						},
 						["Physical"] = {
 							["Details"] = {
 								["Immune"] = {
@@ -12942,14 +12928,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
 						},
 						["Shadow"] = {
 							["Details"] = {
@@ -12964,6 +12942,28 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 101,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 56,
+								},
+								["Crit"] = {
+									["count"] = 34,
+								},
+								["Tick"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 116,
 						},
 					},
 				},
@@ -13099,7 +13099,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MOB",
 			["unit"] = "raid2target",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["level"] = -1,
 			["LastDamageAbility"] = "Starfall",
 			["LastFightIn"] = 4,
@@ -13762,41 +13762,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -13804,22 +13803,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -13827,28 +13825,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -13865,41 +13865,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -13907,22 +13906,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -13930,28 +13928,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -14291,17 +14291,29 @@ RecountPerCharDB = {
 							["count"] = 138,
 							["amount"] = 0,
 						},
-						["Interrupt"] = {
+						["Volley"] = {
 							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 1274,
+									["min"] = 1274,
+									["count"] = 1,
+									["amount"] = 1274,
+								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 5,
 									["amount"] = 0,
 								},
+								["25%Resist"] = {
+									["max"] = 698,
+									["min"] = 146,
+									["count"] = 6,
+									["amount"] = 3023,
+								},
 							},
-							["count"] = 3,
-							["amount"] = 0,
+							["count"] = 12,
+							["amount"] = 4297,
 						},
 						["Starfire"] = {
 							["Details"] = {
@@ -14327,41 +14339,29 @@ RecountPerCharDB = {
 							["count"] = 26,
 							["amount"] = 48709,
 						},
-						["Silenced - Shield of the Templar"] = {
+						["Sinister Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 71,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 71,
 							["amount"] = 0,
 						},
-						["Volley"] = {
+						["Interrupt"] = {
 							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 1274,
-									["min"] = 1274,
-									["count"] = 1,
-									["amount"] = 1274,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 3,
 									["amount"] = 0,
 								},
-								["25%Resist"] = {
-									["max"] = 698,
-									["min"] = 146,
-									["count"] = 6,
-									["amount"] = 3023,
-								},
 							},
-							["count"] = 12,
-							["amount"] = 4297,
+							["count"] = 3,
+							["amount"] = 0,
 						},
 						["Immolation"] = {
 							["Details"] = {
@@ -14381,16 +14381,16 @@ RecountPerCharDB = {
 							["count"] = 39,
 							["amount"] = 5904,
 						},
-						["Sinister Strike"] = {
+						["Silenced - Shield of the Templar"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 71,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 71,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Melee (Hack and Slash)"] = {
@@ -14429,29 +14429,17 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 1136,
 						},
-						["Flame Shock (DoT)"] = {
+						["Revenge"] = {
 							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 894,
-									["min"] = 760,
-									["count"] = 6,
-									["amount"] = 4862,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 29,
+									["count"] = 5,
 									["amount"] = 0,
 								},
-								["25%Resist"] = {
-									["max"] = 496,
-									["min"] = 91,
-									["count"] = 15,
-									["amount"] = 3847,
-								},
 							},
-							["count"] = 50,
-							["amount"] = 8709,
+							["count"] = 5,
+							["amount"] = 0,
 						},
 						["Ignite (DoT)"] = {
 							["Details"] = {
@@ -14537,6 +14525,48 @@ RecountPerCharDB = {
 							["count"] = 61,
 							["amount"] = 5045,
 						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 40,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 582,
+									["min"] = 117,
+									["count"] = 36,
+									["amount"] = 8438,
+								},
+							},
+							["count"] = 76,
+							["amount"] = 8438,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 5474,
+									["min"] = 4972,
+									["count"] = 2,
+									["amount"] = 10446,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 19,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 3182,
+									["min"] = 676,
+									["count"] = 12,
+									["amount"] = 21940,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 32386,
+						},
 						["Chimera Shot"] = {
 							["Details"] = {
 								["50%Resist"] = {
@@ -14560,42 +14590,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 15,
 							["amount"] = 17582,
-						},
-						["Insect Swarm (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 289,
-									["min"] = 144,
-									["count"] = 4,
-									["amount"] = 721,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 721,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 40,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 582,
-									["min"] = 117,
-									["count"] = 36,
-									["amount"] = 8438,
-								},
-							},
-							["count"] = 76,
-							["amount"] = 8438,
 						},
 						["Claw"] = {
 							["Details"] = {
@@ -14639,24 +14633,6 @@ RecountPerCharDB = {
 							["count"] = 22,
 							["amount"] = 0,
 						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 369,
-									["min"] = 112,
-									["count"] = 23,
-									["amount"] = 4508,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 26,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 49,
-							["amount"] = 4508,
-						},
 						["Hammer of Wrath"] = {
 							["Details"] = {
 								["50%Resist"] = {
@@ -14680,6 +14656,24 @@ RecountPerCharDB = {
 							},
 							["count"] = 7,
 							["amount"] = 5525,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 369,
+									["min"] = 112,
+									["count"] = 23,
+									["amount"] = 4508,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 26,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 49,
+							["amount"] = 4508,
 						},
 						["Fire Blast"] = {
 							["Details"] = {
@@ -14849,18 +14843,6 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 12880,
 						},
-						["Rupture (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -14873,23 +14855,17 @@ RecountPerCharDB = {
 							["count"] = 1562,
 							["amount"] = 0,
 						},
-						["Frost Fever (DoT)"] = {
+						["Rupture (DoT)"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 411,
-									["min"] = 126,
-									["count"] = 20,
-									["amount"] = 4109,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 32,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 52,
-							["amount"] = 4109,
+							["count"] = 8,
+							["amount"] = 0,
 						},
 						["Starfall"] = {
 							["Details"] = {
@@ -14915,43 +14891,7 @@ RecountPerCharDB = {
 							["count"] = 26,
 							["amount"] = 6250,
 						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 1650,
-									["min"] = 750,
-									["count"] = 4,
-									["amount"] = 4552,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 33,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 1068,
-									["min"] = 118,
-									["count"] = 22,
-									["amount"] = 7958,
-								},
-							},
-							["count"] = 59,
-							["amount"] = 12510,
-						},
-						["Manifest Anger"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 23,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 23,
-							["amount"] = 0,
-						},
-						["Death and Decay"] = {
+						["Icy Touch"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -14960,14 +14900,62 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["25%Resist"] = {
-									["max"] = 434,
-									["min"] = 103,
-									["count"] = 4,
-									["amount"] = 951,
+									["max"] = 1126,
+									["min"] = 242,
+									["count"] = 9,
+									["amount"] = 5393,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 951,
+							["count"] = 16,
+							["amount"] = 5393,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 22,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 0,
+						},
+						["Vindication"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Gargoyle Strike"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 3428,
+									["min"] = 3428,
+									["count"] = 1,
+									["amount"] = 3428,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 21,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 1718,
+									["min"] = 529,
+									["count"] = 24,
+									["amount"] = 18220,
+								},
+							},
+							["count"] = 46,
+							["amount"] = 21648,
 						},
 						["Mocking Blow"] = {
 							["Details"] = {
@@ -14981,17 +14969,17 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Curse of Doom (DoT)"] = {
+						["Charge Stun"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 2941,
-									["min"] = 2941,
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 1,
-									["amount"] = 2941,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 2941,
+							["amount"] = 0,
 						},
 						["Wrath"] = {
 							["Details"] = {
@@ -15029,34 +15017,28 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Death Coil"] = {
+						["Slam"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 6,
+									["count"] = 31,
 									["amount"] = 0,
 								},
-								["25%Resist"] = {
-									["max"] = 1182,
-									["min"] = 413,
-									["count"] = 9,
-									["amount"] = 6609,
-								},
 							},
-							["count"] = 15,
-							["amount"] = 6609,
+							["count"] = 31,
+							["amount"] = 0,
 						},
-						["Crusader Strike"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 22,
+									["count"] = 18,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 22,
+							["count"] = 18,
 							["amount"] = 0,
 						},
 						["Heroic Throw"] = {
@@ -15149,41 +15131,41 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 18629,
 						},
-						["Gargoyle Strike"] = {
+						["Death and Decay"] = {
 							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 3428,
-									["min"] = 3428,
-									["count"] = 1,
-									["amount"] = 3428,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 21,
+									["count"] = 7,
 									["amount"] = 0,
 								},
 								["25%Resist"] = {
-									["max"] = 1718,
-									["min"] = 529,
-									["count"] = 24,
-									["amount"] = 18220,
+									["max"] = 434,
+									["min"] = 103,
+									["count"] = 4,
+									["amount"] = 951,
 								},
 							},
-							["count"] = 46,
-							["amount"] = 21648,
+							["count"] = 11,
+							["amount"] = 951,
 						},
-						["Slam"] = {
+						["Death Coil"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 31,
+									["count"] = 6,
 									["amount"] = 0,
 								},
+								["25%Resist"] = {
+									["max"] = 1182,
+									["min"] = 413,
+									["count"] = 9,
+									["amount"] = 6609,
+								},
 							},
-							["count"] = 31,
-							["amount"] = 0,
+							["count"] = 15,
+							["amount"] = 6609,
 						},
 						["Whirlwind"] = {
 							["Details"] = {
@@ -15413,18 +15395,6 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 1510,
 						},
-						["Growl"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Eviscerate"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -15435,6 +15405,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Growl"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Arcane Shot"] = {
@@ -15839,17 +15821,29 @@ RecountPerCharDB = {
 							["count"] = 59,
 							["amount"] = 16427,
 						},
-						["Plague Strike"] = {
+						["Immolate (DoT)"] = {
 							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 1650,
+									["min"] = 750,
+									["count"] = 4,
+									["amount"] = 4552,
+								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 18,
+									["count"] = 33,
 									["amount"] = 0,
 								},
+								["25%Resist"] = {
+									["max"] = 1068,
+									["min"] = 118,
+									["count"] = 22,
+									["amount"] = 7958,
+								},
 							},
-							["count"] = 18,
-							["amount"] = 0,
+							["count"] = 59,
+							["amount"] = 12510,
 						},
 						["Seal of Vengeance"] = {
 							["Details"] = {
@@ -15875,28 +15869,28 @@ RecountPerCharDB = {
 							["count"] = 171,
 							["amount"] = 26683,
 						},
-						["Charge Stun"] = {
+						["Curse of Doom (DoT)"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["25%Resist"] = {
+									["max"] = 2941,
+									["min"] = 2941,
 									["count"] = 1,
-									["amount"] = 0,
+									["amount"] = 2941,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 0,
+							["amount"] = 2941,
 						},
-						["Vindication"] = {
+						["Manifest Anger"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 23,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 23,
 							["amount"] = 0,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -15911,23 +15905,23 @@ RecountPerCharDB = {
 							["count"] = 167,
 							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Frost Fever (DoT)"] = {
 							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 411,
+									["min"] = 126,
+									["count"] = 20,
+									["amount"] = 4109,
+								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 7,
+									["count"] = 32,
 									["amount"] = 0,
 								},
-								["25%Resist"] = {
-									["max"] = 1126,
-									["min"] = 242,
-									["count"] = 9,
-									["amount"] = 5393,
-								},
 							},
-							["count"] = 16,
-							["amount"] = 5393,
+							["count"] = 52,
+							["amount"] = 4109,
 						},
 						["Instant Poison IX (Hack and Slash)"] = {
 							["Details"] = {
@@ -15965,6 +15959,36 @@ RecountPerCharDB = {
 							["count"] = 57,
 							["amount"] = 26795,
 						},
+						["Moonfire"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 190,
+									["min"] = 190,
+									["count"] = 1,
+									["amount"] = 190,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 190,
+						},
+						["Intercept"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
 						["Lightning Bolt"] = {
 							["Details"] = {
 								["50%Resist"] = {
@@ -15988,36 +16012,6 @@ RecountPerCharDB = {
 							},
 							["count"] = 79,
 							["amount"] = 69105,
-						},
-						["Intercept"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Moonfire"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 190,
-									["min"] = 190,
-									["count"] = 1,
-									["amount"] = 190,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 190,
 						},
 						["Holy Vengeance (DoT)"] = {
 							["Details"] = {
@@ -16055,29 +16049,23 @@ RecountPerCharDB = {
 							["count"] = 45,
 							["amount"] = 3976,
 						},
-						["Fireball"] = {
+						["Insect Swarm (DoT)"] = {
 							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 5474,
-									["min"] = 4972,
-									["count"] = 2,
-									["amount"] = 10446,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 19,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 								["25%Resist"] = {
-									["max"] = 3182,
-									["min"] = 676,
-									["count"] = 12,
-									["amount"] = 21940,
+									["max"] = 289,
+									["min"] = 144,
+									["count"] = 4,
+									["amount"] = 721,
 								},
 							},
-							["count"] = 33,
-							["amount"] = 32386,
+							["count"] = 7,
+							["amount"] = 721,
 						},
 						["Holy Shield"] = {
 							["Details"] = {
@@ -16109,17 +16097,29 @@ RecountPerCharDB = {
 							["count"] = 15,
 							["amount"] = 0,
 						},
-						["Revenge"] = {
+						["Flame Shock (DoT)"] = {
 							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 894,
+									["min"] = 760,
+									["count"] = 6,
+									["amount"] = 4862,
+								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 29,
 									["amount"] = 0,
 								},
+								["25%Resist"] = {
+									["max"] = 496,
+									["min"] = 91,
+									["count"] = 15,
+									["amount"] = 3847,
+								},
 							},
-							["count"] = 5,
-							["amount"] = 0,
+							["count"] = 50,
+							["amount"] = 8709,
 						},
 						["Blizzard"] = {
 							["Details"] = {
@@ -16250,16 +16250,16 @@ RecountPerCharDB = {
 							["count"] = 138,
 							["amount"] = 0,
 						},
-						["Interrupt"] = {
+						["Volley"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 12,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 12,
 							["amount"] = 0,
 						},
 						["Starfire"] = {
@@ -16274,28 +16274,28 @@ RecountPerCharDB = {
 							["count"] = 26,
 							["amount"] = 0,
 						},
-						["Silenced - Shield of the Templar"] = {
+						["Sinister Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 71,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 71,
 							["amount"] = 0,
 						},
-						["Volley"] = {
+						["Interrupt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 12,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 12,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Immolation"] = {
@@ -16310,16 +16310,16 @@ RecountPerCharDB = {
 							["count"] = 39,
 							["amount"] = 0,
 						},
-						["Sinister Strike"] = {
+						["Silenced - Shield of the Templar"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 71,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 71,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Melee (Hack and Slash)"] = {
@@ -16358,16 +16358,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Flame Shock (DoT)"] = {
+						["Revenge"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 50,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 50,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Ignite (DoT)"] = {
@@ -16418,30 +16418,6 @@ RecountPerCharDB = {
 							["count"] = 61,
 							["amount"] = 0,
 						},
-						["Chimera Shot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 0,
-						},
-						["Insect Swarm (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 0,
-						},
 						["Corruption (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -16452,6 +16428,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 76,
+							["amount"] = 0,
+						},
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 33,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 33,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 15,
 							["amount"] = 0,
 						},
 						["Claw"] = {
@@ -16490,18 +16490,6 @@ RecountPerCharDB = {
 							["count"] = 22,
 							["amount"] = 0,
 						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 49,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 49,
-							["amount"] = 0,
-						},
 						["Hammer of Wrath"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -16512,6 +16500,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 49,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 49,
 							["amount"] = 0,
 						},
 						["Fire Blast"] = {
@@ -16634,18 +16634,6 @@ RecountPerCharDB = {
 							["count"] = 13,
 							["amount"] = 0,
 						},
-						["Rupture (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -16658,16 +16646,16 @@ RecountPerCharDB = {
 							["count"] = 1562,
 							["amount"] = 0,
 						},
-						["Frost Fever (DoT)"] = {
+						["Rupture (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 52,
+									["count"] = 8,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 52,
+							["count"] = 8,
 							["amount"] = 0,
 						},
 						["Starfall"] = {
@@ -16682,40 +16670,52 @@ RecountPerCharDB = {
 							["count"] = 26,
 							["amount"] = 0,
 						},
-						["Immolate (DoT)"] = {
+						["Icy Touch"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 59,
+									["count"] = 16,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 59,
+							["count"] = 16,
 							["amount"] = 0,
 						},
-						["Manifest Anger"] = {
+						["Crusader Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 23,
+									["count"] = 22,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 23,
+							["count"] = 22,
 							["amount"] = 0,
 						},
-						["Death and Decay"] = {
+						["Vindication"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 11,
+									["count"] = 4,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 11,
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Gargoyle Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 46,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 46,
 							["amount"] = 0,
 						},
 						["Mocking Blow"] = {
@@ -16730,7 +16730,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Curse of Doom (DoT)"] = {
+						["Charge Stun"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -16766,28 +16766,28 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Death Coil"] = {
+						["Slam"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 15,
+									["count"] = 31,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 15,
+							["count"] = 31,
 							["amount"] = 0,
 						},
-						["Crusader Strike"] = {
+						["Plague Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 22,
+									["count"] = 18,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 22,
+							["count"] = 18,
 							["amount"] = 0,
 						},
 						["Heroic Throw"] = {
@@ -16850,28 +16850,28 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 0,
 						},
-						["Gargoyle Strike"] = {
+						["Death and Decay"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 46,
+									["count"] = 11,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 46,
+							["count"] = 11,
 							["amount"] = 0,
 						},
-						["Slam"] = {
+						["Death Coil"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 31,
+									["count"] = 15,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 31,
+							["count"] = 15,
 							["amount"] = 0,
 						},
 						["Whirlwind"] = {
@@ -17042,18 +17042,6 @@ RecountPerCharDB = {
 							["count"] = 18,
 							["amount"] = 0,
 						},
-						["Growl"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Eviscerate"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -17064,6 +17052,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Growl"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Arcane Shot"] = {
@@ -17366,16 +17366,16 @@ RecountPerCharDB = {
 							["count"] = 59,
 							["amount"] = 0,
 						},
-						["Plague Strike"] = {
+						["Immolate (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 18,
+									["count"] = 59,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 18,
+							["count"] = 59,
 							["amount"] = 0,
 						},
 						["Seal of Vengeance"] = {
@@ -17390,7 +17390,7 @@ RecountPerCharDB = {
 							["count"] = 171,
 							["amount"] = 0,
 						},
-						["Charge Stun"] = {
+						["Curse of Doom (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -17402,16 +17402,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Vindication"] = {
+						["Manifest Anger"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 4,
+									["count"] = 23,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 4,
+							["count"] = 23,
 							["amount"] = 0,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -17426,16 +17426,16 @@ RecountPerCharDB = {
 							["count"] = 167,
 							["amount"] = 0,
 						},
-						["Icy Touch"] = {
+						["Frost Fever (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 16,
+									["count"] = 52,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 16,
+							["count"] = 52,
 							["amount"] = 0,
 						},
 						["Instant Poison IX (Hack and Slash)"] = {
@@ -17462,16 +17462,16 @@ RecountPerCharDB = {
 							["count"] = 57,
 							["amount"] = 0,
 						},
-						["Lightning Bolt"] = {
+						["Moonfire"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 79,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 79,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Intercept"] = {
@@ -17486,16 +17486,16 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 0,
 						},
-						["Moonfire"] = {
+						["Lightning Bolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 79,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 79,
 							["amount"] = 0,
 						},
 						["Holy Vengeance (DoT)"] = {
@@ -17522,16 +17522,16 @@ RecountPerCharDB = {
 							["count"] = 45,
 							["amount"] = 0,
 						},
-						["Fireball"] = {
+						["Insect Swarm (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 33,
+									["count"] = 7,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 33,
+							["count"] = 7,
 							["amount"] = 0,
 						},
 						["Holy Shield"] = {
@@ -17558,16 +17558,16 @@ RecountPerCharDB = {
 							["count"] = 15,
 							["amount"] = 0,
 						},
-						["Revenge"] = {
+						["Flame Shock (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 50,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 50,
 							["amount"] = 0,
 						},
 						["Blizzard"] = {
@@ -17667,9 +17667,99 @@ RecountPerCharDB = {
 						["Melee"] = 29568,
 						["Frost"] = 522231,
 					},
-					["ElementDone"] = {
-						["Melee"] = 122520,
-						["Frost"] = 532398,
+					["Attacks"] = {
+						["Frostbite (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 9368,
+									["min"] = 158,
+									["count"] = 43,
+									["amount"] = 181075,
+								},
+							},
+							["count"] = 43,
+							["amount"] = 181075,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 6,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 14,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 14760,
+									["min"] = 6116,
+									["count"] = 5,
+									["amount"] = 54355,
+								},
+								["Block"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 19560,
+									["min"] = 6819,
+									["count"] = 5,
+									["amount"] = 68165,
+								},
+								["Parry"] = {
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 122520,
+						},
+						["Whiteout"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 8,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 13248,
+									["min"] = 142,
+									["count"] = 61,
+									["amount"] = 306259,
+								},
+							},
+							["count"] = 69,
+							["amount"] = 306259,
+						},
+						["Frostbite"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Freezing Ground"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 6653,
+									["min"] = 493,
+									["count"] = 11,
+									["amount"] = 45064,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 45064,
+						},
 					},
 					["WhoDamaged"] = {
 						["Charliesh"] = {
@@ -17870,13 +17960,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1069884,
 						},
-						["Ebon Gargoyle <Purinx>"] = {
+						["Treant <Zjabak>"] = {
 							["Details"] = {
-								["Gargoyle Strike"] = {
-									["count"] = 124010,
+								["Melee"] = {
+									["count"] = 41494,
 								},
 							},
-							["amount"] = 124010,
+							["amount"] = 41494,
 						},
 						["Mcstylish"] = {
 							["Details"] = {
@@ -17924,13 +18014,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 199994,
 						},
-						["Treant <Zjabak>"] = {
+						["Ebon Gargoyle <Purinx>"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 41494,
+								["Gargoyle Strike"] = {
+									["count"] = 124010,
 								},
 							},
-							["amount"] = 41494,
+							["amount"] = 124010,
 						},
 						["Ebon Gargoyle <Chyka>"] = {
 							["Details"] = {
@@ -18396,43 +18486,234 @@ RecountPerCharDB = {
 							["amount"] = 971121,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
+					["DamagedWho"] = {
+						["Charliesh"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 14,
-								},
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Block"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 6,
-								},
-								["Parry"] = {
-									["count"] = 6,
+								["Whiteout"] = {
+									["count"] = 6790,
 								},
 							},
-							["amount"] = 40,
+							["amount"] = 6790,
 						},
-						["Frost"] = {
+						["Denathra"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 25,
+								["Frostbite (DoT)"] = {
+									["count"] = 6622,
 								},
-								["Hit"] = {
-									["count"] = 72,
+								["Melee"] = {
+									["count"] = 19560,
 								},
-								["Tick"] = {
-									["count"] = 43,
+								["Whiteout"] = {
+									["count"] = 12491,
 								},
 							},
-							["amount"] = 140,
+							["amount"] = 38673,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 6490,
+								},
+							},
+							["amount"] = 6490,
+						},
+						["Litigator"] = {
+							["Details"] = {
+								["Frostbite (DoT)"] = {
+									["count"] = 105241,
+								},
+								["Melee"] = {
+									["count"] = 58649,
+								},
+								["Whiteout"] = {
+									["count"] = 24745,
+								},
+							},
+							["amount"] = 188635,
+						},
+						["Lanfigure"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 16785,
+								},
+							},
+							["amount"] = 16785,
+						},
+						["Mcstylish"] = {
+							["Details"] = {
+								["Freezing Ground"] = {
+									["count"] = 9466,
+								},
+								["Whiteout"] = {
+									["count"] = 18421,
+								},
+							},
+							["amount"] = 27887,
+						},
+						["Dukundra"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 7389,
+								},
+							},
+							["amount"] = 7389,
+						},
+						["Drakui"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 13335,
+								},
+							},
+							["amount"] = 13335,
+						},
+						["Sertel"] = {
+							["Details"] = {
+								["Freezing Ground"] = {
+									["count"] = 11203,
+								},
+								["Whiteout"] = {
+									["count"] = 11066,
+								},
+							},
+							["amount"] = 22269,
+						},
+						["Yuchi"] = {
+							["Details"] = {
+								["Freezing Ground"] = {
+									["count"] = 3741,
+								},
+								["Whiteout"] = {
+									["count"] = 5298,
+								},
+							},
+							["amount"] = 9039,
+						},
+						["Baimushi"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 24964,
+								},
+							},
+							["amount"] = 24964,
+						},
+						["Zjabak"] = {
+							["Details"] = {
+								["Freezing Ground"] = {
+									["count"] = 9291,
+								},
+								["Whiteout"] = {
+									["count"] = 18299,
+								},
+							},
+							["amount"] = 27590,
+						},
+						["Purinx"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 16722,
+								},
+							},
+							["amount"] = 16722,
+						},
+						["Yindao"] = {
+							["Details"] = {
+								["Freezing Ground"] = {
+									["count"] = 3966,
+								},
+								["Whiteout"] = {
+									["count"] = 4930,
+								},
+							},
+							["amount"] = 8896,
+						},
+						["Chyka"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 15733,
+								},
+							},
+							["amount"] = 15733,
+						},
+						["Paria"] = {
+							["Details"] = {
+								["Frostbite (DoT)"] = {
+									["count"] = 69212,
+								},
+								["Melee"] = {
+									["count"] = 44311,
+								},
+								["Whiteout"] = {
+									["count"] = 13248,
+								},
+							},
+							["amount"] = 126771,
+						},
+						["Mirror Image <Tobblum>"] = {
+							["Details"] = {
+								["Freezing Ground"] = {
+									["count"] = 493,
+								},
+							},
+							["amount"] = 493,
+						},
+						["Merinde"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 15904,
+								},
+							},
+							["amount"] = 15904,
+						},
+						["Feire"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 25072,
+								},
+							},
+							["amount"] = 25072,
+						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 4386,
+								},
+							},
+							["amount"] = 4386,
+						},
+						["Tobblum"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 12983,
+								},
+							},
+							["amount"] = 12983,
+						},
+						["Telderam"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 10268,
+								},
+								["Freezing Ground"] = {
+									["count"] = 6904,
+								},
+							},
+							["amount"] = 17172,
+						},
+						["Lionhearted"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 13276,
+								},
+							},
+							["amount"] = 13276,
+						},
+						["Dioxhr"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 7664,
+								},
+							},
+							["amount"] = 7664,
 						},
 					},
 					["TimeDamage"] = 102.77,
@@ -18607,17 +18888,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Cleverbear"] = {
+						["Mirror Image <Tobblum>"] = {
 							["Details"] = {
-								["Whiteout"] = {
+								["Freezing Ground"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Mirror Image <Tobblum>"] = {
+						["Merinde"] = {
 							["Details"] = {
-								["Freezing Ground"] = {
+								["Whiteout"] = {
 									["count"] = 0,
 								},
 							},
@@ -18634,7 +18915,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0.98,
 						},
-						["Merinde"] = {
+						["Cleverbear"] = {
 							["Details"] = {
 								["Whiteout"] = {
 									["count"] = 0,
@@ -18678,329 +18959,48 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["Charliesh"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 6790,
-								},
-							},
-							["amount"] = 6790,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Frostbite (DoT)"] = {
-									["count"] = 6622,
-								},
-								["Melee"] = {
-									["count"] = 19560,
-								},
-								["Whiteout"] = {
-									["count"] = 12491,
-								},
-							},
-							["amount"] = 38673,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 6490,
-								},
-							},
-							["amount"] = 6490,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Frostbite (DoT)"] = {
-									["count"] = 105241,
-								},
-								["Melee"] = {
-									["count"] = 58649,
-								},
-								["Whiteout"] = {
-									["count"] = 24745,
-								},
-							},
-							["amount"] = 188635,
-						},
-						["Lanfigure"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 16785,
-								},
-							},
-							["amount"] = 16785,
-						},
-						["Mcstylish"] = {
-							["Details"] = {
-								["Freezing Ground"] = {
-									["count"] = 9466,
-								},
-								["Whiteout"] = {
-									["count"] = 18421,
-								},
-							},
-							["amount"] = 27887,
-						},
-						["Dukundra"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 7389,
-								},
-							},
-							["amount"] = 7389,
-						},
-						["Drakui"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 13335,
-								},
-							},
-							["amount"] = 13335,
-						},
-						["Sertel"] = {
-							["Details"] = {
-								["Freezing Ground"] = {
-									["count"] = 11203,
-								},
-								["Whiteout"] = {
-									["count"] = 11066,
-								},
-							},
-							["amount"] = 22269,
-						},
-						["Yuchi"] = {
-							["Details"] = {
-								["Freezing Ground"] = {
-									["count"] = 3741,
-								},
-								["Whiteout"] = {
-									["count"] = 5298,
-								},
-							},
-							["amount"] = 9039,
-						},
-						["Baimushi"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 24964,
-								},
-							},
-							["amount"] = 24964,
-						},
-						["Zjabak"] = {
-							["Details"] = {
-								["Freezing Ground"] = {
-									["count"] = 9291,
-								},
-								["Whiteout"] = {
-									["count"] = 18299,
-								},
-							},
-							["amount"] = 27590,
-						},
-						["Purinx"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 16722,
-								},
-							},
-							["amount"] = 16722,
-						},
-						["Yindao"] = {
-							["Details"] = {
-								["Freezing Ground"] = {
-									["count"] = 3966,
-								},
-								["Whiteout"] = {
-									["count"] = 4930,
-								},
-							},
-							["amount"] = 8896,
-						},
-						["Chyka"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 15733,
-								},
-							},
-							["amount"] = 15733,
-						},
-						["Paria"] = {
-							["Details"] = {
-								["Frostbite (DoT)"] = {
-									["count"] = 69212,
-								},
-								["Melee"] = {
-									["count"] = 44311,
-								},
-								["Whiteout"] = {
-									["count"] = 13248,
-								},
-							},
-							["amount"] = 126771,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 4386,
-								},
-							},
-							["amount"] = 4386,
-						},
-						["Mirror Image <Tobblum>"] = {
-							["Details"] = {
-								["Freezing Ground"] = {
-									["count"] = 493,
-								},
-							},
-							["amount"] = 493,
-						},
-						["Feire"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 25072,
-								},
-							},
-							["amount"] = 25072,
-						},
-						["Merinde"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 15904,
-								},
-							},
-							["amount"] = 15904,
-						},
-						["Tobblum"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 12983,
-								},
-							},
-							["amount"] = 12983,
-						},
-						["Telderam"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 10268,
-								},
-								["Freezing Ground"] = {
-									["count"] = 6904,
-								},
-							},
-							["amount"] = 17172,
-						},
-						["Lionhearted"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 13276,
-								},
-							},
-							["amount"] = 13276,
-						},
-						["Dioxhr"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 7664,
-								},
-							},
-							["amount"] = 7664,
-						},
-					},
-					["Attacks"] = {
-						["Frostbite (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 9368,
-									["min"] = 158,
-									["count"] = 43,
-									["amount"] = 181075,
-								},
-							},
-							["count"] = 43,
-							["amount"] = 181075,
-						},
+					["ElementHitsDone"] = {
 						["Melee"] = {
 							["Details"] = {
 								["Absorb"] = {
 									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 6,
-									["amount"] = 0,
 								},
 								["Dodge"] = {
 									["count"] = 14,
-									["amount"] = 0,
 								},
-								["Hit (Blocked)"] = {
-									["max"] = 14760,
-									["min"] = 6116,
-									["count"] = 5,
-									["amount"] = 54355,
+								["Hit"] = {
+									["count"] = 10,
 								},
 								["Block"] = {
 									["count"] = 3,
-									["amount"] = 0,
 								},
-								["Hit"] = {
-									["max"] = 19560,
-									["min"] = 6819,
-									["count"] = 5,
-									["amount"] = 68165,
+								["Miss"] = {
+									["count"] = 6,
 								},
 								["Parry"] = {
 									["count"] = 6,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 40,
-							["amount"] = 122520,
+							["amount"] = 40,
 						},
-						["Whiteout"] = {
+						["Frost"] = {
 							["Details"] = {
 								["Absorb"] = {
-									["count"] = 8,
-									["amount"] = 0,
+									["count"] = 25,
 								},
 								["Hit"] = {
-									["max"] = 13248,
-									["min"] = 142,
-									["count"] = 61,
-									["amount"] = 306259,
+									["count"] = 72,
+								},
+								["Tick"] = {
+									["count"] = 43,
 								},
 							},
-							["count"] = 69,
-							["amount"] = 306259,
+							["amount"] = 140,
 						},
-						["Frostbite"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 14,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 0,
-						},
-						["Freezing Ground"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 6653,
-									["min"] = 493,
-									["count"] = 11,
-									["amount"] = 45064,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 45064,
-						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 122520,
+						["Frost"] = 532398,
 					},
 					["TimeSpent"] = {
 						["Charliesh"] = {
@@ -19173,17 +19173,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Cleverbear"] = {
+						["Mirror Image <Tobblum>"] = {
 							["Details"] = {
-								["Whiteout"] = {
+								["Freezing Ground"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Mirror Image <Tobblum>"] = {
+						["Merinde"] = {
 							["Details"] = {
-								["Freezing Ground"] = {
+								["Whiteout"] = {
 									["count"] = 0,
 								},
 							},
@@ -19200,7 +19200,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0.98,
 						},
-						["Merinde"] = {
+						["Cleverbear"] = {
 							["Details"] = {
 								["Whiteout"] = {
 									["count"] = 0,
@@ -19420,7 +19420,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14012.797, -- [1]
 				14012.797, -- [2]
@@ -19661,41 +19661,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -19703,22 +19702,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -19726,28 +19724,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -19764,41 +19764,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -19806,22 +19805,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -19829,28 +19827,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -20454,7 +20454,7 @@ RecountPerCharDB = {
 								["Cleverbear"] = {
 									["count"] = 9,
 								},
-								["Paria"] = {
+								["Feire"] = {
 									["count"] = 3,
 								},
 								["Thoothun <Drakui>"] = {
@@ -20466,7 +20466,7 @@ RecountPerCharDB = {
 								["Drakui"] = {
 									["count"] = 3,
 								},
-								["Feire"] = {
+								["Paria"] = {
 									["count"] = 3,
 								},
 								["Lionhearted"] = {
@@ -21231,7 +21231,7 @@ RecountPerCharDB = {
 				[45] = 2.118392397545041,
 				[24] = 2.121220691800775,
 				[32] = 2.118392397545041,
-				[36] = 2.118392397545041,
+				[26] = 2.118392397545041,
 				[16] = 2.118392397545041,
 				[3] = 2.118392397545041,
 				[5] = 2.118392397545041,
@@ -21243,11 +21243,11 @@ RecountPerCharDB = {
 				[20] = 2.121220691800775,
 				[41] = 2.121220691800775,
 				[22] = 2.118392397545041,
-				[26] = 2.118392397545041,
+				[36] = 2.118392397545041,
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				13990.007, -- [1]
 				13990.008, -- [2]
@@ -21484,41 +21484,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -21526,22 +21525,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -21549,28 +21547,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -21587,41 +21587,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -21629,22 +21628,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -21652,28 +21650,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -22125,14 +22125,14 @@ RecountPerCharDB = {
 				"HEAL", -- [50]
 			},
 			["TimeWindows"] = {
-				["Overhealing"] = {
-					257082, -- [1]
-				},
-				["TimeHeal"] = {
-					105.52, -- [1]
-				},
 				["HOT_Time"] = {
 					42, -- [1]
+				},
+				["HealingTaken"] = {
+					90029, -- [1]
+				},
+				["Overhealing"] = {
+					257082, -- [1]
 				},
 				["ActiveTime"] = {
 					105.52, -- [1]
@@ -22146,8 +22146,8 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					87900, -- [1]
 				},
-				["HealingTaken"] = {
-					90029, -- [1]
+				["TimeHeal"] = {
+					105.52, -- [1]
 				},
 			},
 			["enClass"] = "PRIEST",
@@ -22209,7 +22209,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14014.596, -- [1]
 				14014.649, -- [2]
@@ -22447,41 +22447,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -22489,22 +22488,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -22512,28 +22510,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -22550,41 +22550,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -22592,22 +22591,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -22615,28 +22613,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -22762,6 +22762,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7.97,
 						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 1.17,
+								},
+							},
+							["amount"] = 1.17,
+						},
 						["Merinde"] = {
 							["Details"] = {
 								["Glyph of Power Word: Shield"] = {
@@ -22772,14 +22780,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 6.57,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 1.17,
-								},
-							},
-							["amount"] = 1.17,
 						},
 						["Feire"] = {
 							["Details"] = {
@@ -23055,6 +23055,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 7.97,
 						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 1.17,
+								},
+							},
+							["amount"] = 1.17,
+						},
 						["Merinde"] = {
 							["Details"] = {
 								["Glyph of Power Word: Shield"] = {
@@ -23065,14 +23073,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 6.57,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 1.17,
-								},
-							},
-							["amount"] = 1.17,
 						},
 						["Feire"] = {
 							["Details"] = {
@@ -23250,6 +23250,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 14533,
 						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 607,
+								},
+							},
+							["amount"] = 607,
+						},
 						["Merinde"] = {
 							["Details"] = {
 								["Glyph of Power Word: Shield"] = {
@@ -23260,14 +23268,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 6981,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 607,
-								},
-							},
-							["amount"] = 607,
 						},
 						["Feire"] = {
 							["Details"] = {
@@ -24024,7 +24024,58 @@ RecountPerCharDB = {
 				15390.242, -- [50]
 			},
 			["Owner"] = "Denathra",
-			["Name"] = "Selrah",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
 			["NextEventNum"] = 15,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -24130,58 +24181,7 @@ RecountPerCharDB = {
 				"Denathra Soul Link Selrah <Denathra> Split -156 (Shadow)", -- [49]
 				"Denathra Fel Synergy Selrah <Denathra> Hit +251 (251 overheal)", -- [50]
 			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				true, -- [19]
-				true, -- [20]
-				true, -- [21]
-				true, -- [22]
-				true, -- [23]
-				true, -- [24]
-				true, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				true, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				true, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				true, -- [45]
-				true, -- [46]
-				true, -- [47]
-				true, -- [48]
-				true, -- [49]
-				true, -- [50]
-			},
+			["Name"] = "Selrah",
 			["TimeLast"] = {
 				["OVERALL"] = 1690134494,
 				["DamageTaken"] = 1689847552,
@@ -24201,13 +24201,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -24225,7 +24226,7 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["RageGained"] = {
 					},
@@ -24233,15 +24234,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["Dispelled"] = 0,
-					["RunicPowerGained"] = {
+					["OverHeals"] = {
+					},
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -24252,18 +24253,17 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["EnergyGain"] = 0,
-					["CCBreak"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
 					["PartialResist"] = {
 					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
 					["ElementTakenAbsorb"] = {
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["ElementTakenResist"] = {
 					},
@@ -24275,27 +24275,27 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["FDamage"] = 0,
+					["PartialAbsorb"] = {
+					},
 					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
 					},
 					["Healing"] = 0,
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -24312,41 +24312,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -24354,22 +24353,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -24377,28 +24375,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -24415,13 +24415,14 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -24430,33 +24431,32 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 4729,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -24472,14 +24472,13 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["PartialAbsorb"] = {
-					},
-					["PartialResist"] = {
-					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -24491,12 +24490,14 @@ RecountPerCharDB = {
 					},
 					["Heals"] = {
 					},
-					["ActiveTime"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["EnergyGain"] = 0,
+					["PartialResist"] = {
+					},
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -24508,8 +24509,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -24534,14 +24534,15 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
 					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
+					["HOTs"] = {
 					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -24550,18 +24551,18 @@ RecountPerCharDB = {
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
-					["ElementHitsDone"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
 					["HealingTaken"] = 1436,
 					["ElementDone"] = {
 					},
-					["DamagedWho"] = {
+					["ElementHitsDone"] = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["RunicPowerGained"] = {
 					},
 					["WhoDamaged"] = {
 						["Allivadasz"] = {
@@ -24575,16 +24576,15 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
-					},
 					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoHealed"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -24600,6 +24600,10 @@ RecountPerCharDB = {
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
 					["PartialAbsorb"] = {
 						["Divine Storm"] = {
 							["Details"] = {
@@ -24613,6 +24617,21 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Divine Storm"] = {
@@ -24628,27 +24647,9 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["ActiveTime"] = 0,
-					["EnergyGained"] = {
-					},
-					["EnergyGain"] = 0,
 					["Healing"] = 0,
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+					},
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -24660,8 +24661,7 @@ RecountPerCharDB = {
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -24678,41 +24678,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -24720,22 +24719,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -24743,28 +24741,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -24781,41 +24781,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -24823,22 +24822,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -24846,28 +24844,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -24901,16 +24901,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 14934,
-								},
-							},
-							["amount"] = 14934,
-						},
-					},
+					["DamageTaken"] = 1646,
 					["WhoDamaged"] = {
 						["Allivadasz"] = {
 							["Details"] = {
@@ -24921,10 +24912,6 @@ RecountPerCharDB = {
 							["amount"] = 1646,
 						},
 					},
-					["ElementTaken"] = {
-						["Physical"] = 1646,
-					},
-					["DamageTaken"] = 1646,
 					["ElementHitsTaken"] = {
 						["Physical"] = {
 							["Details"] = {
@@ -24935,11 +24922,24 @@ RecountPerCharDB = {
 							["amount"] = 1,
 						},
 					},
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 14934,
+								},
+							},
+							["amount"] = 14934,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 1646,
+					},
 				},
 			},
 			["LastDamageTaken"] = 1646,
 			["UnitLockout"] = 1689844521,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 		},
 		["Earthbasher <Chyka>"] = {
 			["GUID"] = "0xF1402F47E0000005",
@@ -25108,7 +25108,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				13993.842, -- [1]
 				13994.82, -- [2]
@@ -25345,41 +25345,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -25387,22 +25386,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -25410,28 +25408,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -25448,41 +25448,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -25490,22 +25489,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -25513,28 +25511,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -25935,109 +25935,6 @@ RecountPerCharDB = {
 			["Name"] = "Tearteatree",
 			["LastFightIn"] = 0,
 			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
@@ -26051,41 +25948,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -26093,22 +25989,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -26116,35 +26011,140 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
 					["HOTs"] = {
 					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 			},
 			["level"] = 80,
 			["UnitLockout"] = 1689155568,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 		},
 		["Merinde"] = {
 			["GUID"] = "0x07000000008FF749",
@@ -26254,14 +26254,14 @@ RecountPerCharDB = {
 				"HEAL", -- [50]
 			},
 			["TimeWindows"] = {
-				["TimeHeal"] = {
-					161.8099999999998, -- [1]
-				},
 				["HealingTaken"] = {
 					72193, -- [1]
 				},
-				["HOT_Time"] = {
-					3315, -- [1]
+				["TimeHeal"] = {
+					161.8099999999998, -- [1]
+				},
+				["Overhealing"] = {
+					1509552, -- [1]
 				},
 				["ActiveTime"] = {
 					161.8099999999998, -- [1]
@@ -26275,8 +26275,8 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					70188, -- [1]
 				},
-				["Overhealing"] = {
-					1509552, -- [1]
+				["HOT_Time"] = {
+					3315, -- [1]
 				},
 			},
 			["enClass"] = "DRUID",
@@ -26307,7 +26307,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14022.232, -- [1]
 				14022.398, -- [2]
@@ -26545,41 +26545,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -26587,22 +26586,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -26610,28 +26608,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -26648,41 +26648,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -26690,22 +26689,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -26713,28 +26711,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -26750,17 +26750,17 @@ RecountPerCharDB = {
 						},
 						["Denathra"] = {
 							["Details"] = {
-								["Rejuvenation"] = {
-									["count"] = 6.740000000000001,
-								},
 								["Swiftmend"] = {
 									["count"] = 0.33,
+								},
+								["Nourish"] = {
+									["count"] = 0.13,
 								},
 								["Wild Growth"] = {
 									["count"] = 0.97,
 								},
-								["Nourish"] = {
-									["count"] = 0.13,
+								["Rejuvenation"] = {
+									["count"] = 6.740000000000001,
 								},
 							},
 							["amount"] = 8.17,
@@ -26840,16 +26840,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 51.22999999999999,
 						},
-						["Lionhearted"] = {
+						["Yuchi"] = {
 							["Details"] = {
 								["Wild Growth"] = {
-									["count"] = 0,
-								},
-								["Rejuvenation"] = {
-									["count"] = 4.01,
+									["count"] = 2.81,
 								},
 							},
-							["amount"] = 4.01,
+							["amount"] = 2.81,
 						},
 						["Treant <Zjabak>"] = {
 							["Details"] = {
@@ -26881,13 +26878,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 16.31,
 						},
-						["Yuchi"] = {
+						["Lionhearted"] = {
 							["Details"] = {
 								["Wild Growth"] = {
-									["count"] = 2.81,
+									["count"] = 0,
+								},
+								["Rejuvenation"] = {
+									["count"] = 4.01,
 								},
 							},
-							["amount"] = 2.81,
+							["amount"] = 4.01,
 						},
 						["Grr <Yuchi>"] = {
 							["Details"] = {
@@ -26941,6 +26941,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5.73,
 						},
+						["Mirror Image <Tobblum>"] = {
+							["Details"] = {
+								["Wild Growth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Feire"] = {
+							["Details"] = {
+								["Wild Growth"] = {
+									["count"] = 1.06,
+								},
+							},
+							["amount"] = 1.06,
+						},
 						["Cleverbear"] = {
 							["Details"] = {
 								["Wild Growth"] = {
@@ -26952,13 +26968,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6.180000000000001,
 						},
-						["Feire"] = {
+						["Yindao"] = {
 							["Details"] = {
 								["Wild Growth"] = {
-									["count"] = 1.06,
+									["count"] = 3.7,
+								},
+								["Rejuvenation"] = {
+									["count"] = 4.609999999999999,
 								},
 							},
-							["amount"] = 1.06,
+							["amount"] = 8.310000000000001,
 						},
 						["Merinde"] = {
 							["Details"] = {
@@ -26973,25 +26992,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 9.139999999999999,
-						},
-						["Yindao"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 3.7,
-								},
-								["Rejuvenation"] = {
-									["count"] = 4.609999999999999,
-								},
-							},
-							["amount"] = 8.310000000000001,
-						},
-						["Mirror Image <Tobblum>"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
 						},
 						["Army of the Dead Ghoul <Purinx>"] = {
 							["Details"] = {
@@ -27166,17 +27166,17 @@ RecountPerCharDB = {
 						},
 						["Denathra"] = {
 							["Details"] = {
-								["Rejuvenation"] = {
-									["count"] = 6.740000000000001,
-								},
 								["Swiftmend"] = {
 									["count"] = 0.33,
+								},
+								["Nourish"] = {
+									["count"] = 0.13,
 								},
 								["Wild Growth"] = {
 									["count"] = 0.97,
 								},
-								["Nourish"] = {
-									["count"] = 0.13,
+								["Rejuvenation"] = {
+									["count"] = 6.740000000000001,
 								},
 							},
 							["amount"] = 8.17,
@@ -27256,16 +27256,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 51.22999999999999,
 						},
-						["Lionhearted"] = {
+						["Yuchi"] = {
 							["Details"] = {
 								["Wild Growth"] = {
-									["count"] = 0,
-								},
-								["Rejuvenation"] = {
-									["count"] = 4.01,
+									["count"] = 2.81,
 								},
 							},
-							["amount"] = 4.01,
+							["amount"] = 2.81,
 						},
 						["Treant <Zjabak>"] = {
 							["Details"] = {
@@ -27297,13 +27294,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 16.31,
 						},
-						["Yuchi"] = {
+						["Lionhearted"] = {
 							["Details"] = {
 								["Wild Growth"] = {
-									["count"] = 2.81,
+									["count"] = 0,
+								},
+								["Rejuvenation"] = {
+									["count"] = 4.01,
 								},
 							},
-							["amount"] = 2.81,
+							["amount"] = 4.01,
 						},
 						["Grr <Yuchi>"] = {
 							["Details"] = {
@@ -27357,6 +27357,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5.73,
 						},
+						["Mirror Image <Tobblum>"] = {
+							["Details"] = {
+								["Wild Growth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Feire"] = {
+							["Details"] = {
+								["Wild Growth"] = {
+									["count"] = 1.06,
+								},
+							},
+							["amount"] = 1.06,
+						},
 						["Cleverbear"] = {
 							["Details"] = {
 								["Wild Growth"] = {
@@ -27368,13 +27384,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 6.180000000000001,
 						},
-						["Feire"] = {
+						["Yindao"] = {
 							["Details"] = {
 								["Wild Growth"] = {
-									["count"] = 1.06,
+									["count"] = 3.7,
+								},
+								["Rejuvenation"] = {
+									["count"] = 4.609999999999999,
 								},
 							},
-							["amount"] = 1.06,
+							["amount"] = 8.310000000000001,
 						},
 						["Merinde"] = {
 							["Details"] = {
@@ -27389,25 +27408,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 9.139999999999999,
-						},
-						["Yindao"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 3.7,
-								},
-								["Rejuvenation"] = {
-									["count"] = 4.609999999999999,
-								},
-							},
-							["amount"] = 8.310000000000001,
-						},
-						["Mirror Image <Tobblum>"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
 						},
 						["Army of the Dead Ghoul <Purinx>"] = {
 							["Details"] = {
@@ -27484,17 +27484,17 @@ RecountPerCharDB = {
 						},
 						["Denathra"] = {
 							["Details"] = {
-								["Rejuvenation"] = {
-									["count"] = 13755,
-								},
 								["Swiftmend"] = {
 									["count"] = 5403,
+								},
+								["Nourish"] = {
+									["count"] = 7330,
 								},
 								["Wild Growth"] = {
 									["count"] = 7523,
 								},
-								["Nourish"] = {
-									["count"] = 7330,
+								["Rejuvenation"] = {
+									["count"] = 13755,
 								},
 							},
 							["amount"] = 34011,
@@ -27574,16 +27574,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 99552,
 						},
-						["Lionhearted"] = {
+						["Yuchi"] = {
 							["Details"] = {
 								["Wild Growth"] = {
-									["count"] = 4169,
-								},
-								["Rejuvenation"] = {
-									["count"] = 17397,
+									["count"] = 1001,
 								},
 							},
-							["amount"] = 21566,
+							["amount"] = 1001,
 						},
 						["Treant <Zjabak>"] = {
 							["Details"] = {
@@ -27615,13 +27612,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 14322,
 						},
-						["Yuchi"] = {
+						["Lionhearted"] = {
 							["Details"] = {
 								["Wild Growth"] = {
-									["count"] = 1001,
+									["count"] = 4169,
+								},
+								["Rejuvenation"] = {
+									["count"] = 17397,
 								},
 							},
-							["amount"] = 1001,
+							["amount"] = 21566,
 						},
 						["Grr <Yuchi>"] = {
 							["Details"] = {
@@ -27675,6 +27675,22 @@ RecountPerCharDB = {
 							},
 							["amount"] = 8421,
 						},
+						["Mirror Image <Tobblum>"] = {
+							["Details"] = {
+								["Wild Growth"] = {
+									["count"] = 5791,
+								},
+							},
+							["amount"] = 5791,
+						},
+						["Feire"] = {
+							["Details"] = {
+								["Wild Growth"] = {
+									["count"] = 2022,
+								},
+							},
+							["amount"] = 2022,
+						},
 						["Cleverbear"] = {
 							["Details"] = {
 								["Wild Growth"] = {
@@ -27686,13 +27702,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 21109,
 						},
-						["Feire"] = {
+						["Yindao"] = {
 							["Details"] = {
 								["Wild Growth"] = {
-									["count"] = 2022,
+									["count"] = 2136,
+								},
+								["Rejuvenation"] = {
+									["count"] = 6834,
 								},
 							},
-							["amount"] = 2022,
+							["amount"] = 8970,
 						},
 						["Merinde"] = {
 							["Details"] = {
@@ -27707,25 +27726,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 36522,
-						},
-						["Yindao"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 2136,
-								},
-								["Rejuvenation"] = {
-									["count"] = 6834,
-								},
-							},
-							["amount"] = 8970,
-						},
-						["Mirror Image <Tobblum>"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 5791,
-								},
-							},
-							["amount"] = 5791,
 						},
 						["Army of the Dead Ghoul <Purinx>"] = {
 							["Details"] = {
@@ -28026,8 +28026,8 @@ RecountPerCharDB = {
 								["Mcstylish"] = {
 									["count"] = 63,
 								},
-								["Dukundra"] = {
-									["count"] = 99,
+								["Paria"] = {
+									["count"] = 84,
 								},
 								["Baimushi"] = {
 									["count"] = 102,
@@ -28047,8 +28047,8 @@ RecountPerCharDB = {
 								["Grr <Yuchi>"] = {
 									["count"] = 42,
 								},
-								["Merinde"] = {
-									["count"] = 168,
+								["Mirror Image <Tobblum>"] = {
+									["count"] = 27,
 								},
 								["Puller <Feire>"] = {
 									["count"] = 21,
@@ -28059,8 +28059,8 @@ RecountPerCharDB = {
 								["Purinx"] = {
 									["count"] = 81,
 								},
-								["Cleverbear"] = {
-									["count"] = 63,
+								["Merinde"] = {
+									["count"] = 168,
 								},
 								["Earthbasher <Chyka>"] = {
 									["count"] = 21,
@@ -28071,8 +28071,8 @@ RecountPerCharDB = {
 								["Chyka"] = {
 									["count"] = 84,
 								},
-								["Mirror Image <Tobblum>"] = {
-									["count"] = 27,
+								["Cleverbear"] = {
+									["count"] = 63,
 								},
 								["Army of the Dead Ghoul <Purinx>"] = {
 									["count"] = 105,
@@ -28086,8 +28086,8 @@ RecountPerCharDB = {
 								["Telderam"] = {
 									["count"] = 21,
 								},
-								["Paria"] = {
-									["count"] = 84,
+								["Dukundra"] = {
+									["count"] = 99,
 								},
 								["Zjabak"] = {
 									["count"] = 63,
@@ -28581,7 +28581,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "HUNTER",
 			["unit"] = "Feire",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["level"] = 80,
 			["LastDamageAbility"] = "Whiteout",
 			["LastFightIn"] = 4,
@@ -28842,41 +28842,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -28884,22 +28883,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -28907,28 +28905,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -28945,41 +28945,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -28987,22 +28986,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -29010,28 +29008,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -29690,53 +29690,52 @@ RecountPerCharDB = {
 						["Nature"] = 314694,
 					},
 					["HealingTaken"] = 27982,
-					["ElementHitsDone"] = {
-						["Arcane"] = {
+					["ManaGainedFrom"] = {
+						["Merinde"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 10,
-								},
-								["Hit"] = {
-									["count"] = 3,
+								["Revitalize"] = {
+									["count"] = 724,
 								},
 							},
-							["amount"] = 13,
+							["amount"] = 724,
 						},
-						["Physical"] = {
+						["Baimushi"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 27,
-								},
-								["Crit"] = {
-									["count"] = 97,
-								},
-								["Tick"] = {
-									["count"] = 106,
+								["Rapture"] = {
+									["count"] = 362,
 								},
 							},
-							["amount"] = 230,
+							["amount"] = 362,
 						},
-						["Melee"] = {
+						["Blackregina"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
+								["Replenishment"] = {
+									["count"] = 2140,
 								},
 							},
-							["amount"] = 1,
+							["amount"] = 2140,
 						},
-						["Nature"] = {
+						["Litigator"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 12,
+								["Replenishment"] = {
+									["count"] = 1750,
 								},
-								["Crit"] = {
-									["count"] = 24,
-								},
-								["Tick"] = {
-									["count"] = 47,
+								["Judgement of Wisdom"] = {
+									["count"] = 5500,
 								},
 							},
-							["amount"] = 83,
+							["amount"] = 7250,
+						},
+						["Lionhearted"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 1312,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 3100,
+								},
+							},
+							["amount"] = 4412,
 						},
 					},
 					["TimeDamage"] = 165.8200000000001,
@@ -29848,52 +29847,53 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 14888,
-					["ManaGainedFrom"] = {
-						["Merinde"] = {
+					["ElementHitsDone"] = {
+						["Arcane"] = {
 							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 724,
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 3,
 								},
 							},
-							["amount"] = 724,
+							["amount"] = 13,
 						},
-						["Baimushi"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Rapture"] = {
-									["count"] = 362,
+								["Hit"] = {
+									["count"] = 27,
+								},
+								["Crit"] = {
+									["count"] = 97,
+								},
+								["Tick"] = {
+									["count"] = 106,
 								},
 							},
-							["amount"] = 362,
+							["amount"] = 230,
 						},
-						["Blackregina"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 2140,
+								["Crit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 2140,
+							["amount"] = 1,
 						},
-						["Litigator"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 1750,
+								["Hit"] = {
+									["count"] = 12,
 								},
-								["Judgement of Wisdom"] = {
-									["count"] = 5500,
+								["Crit"] = {
+									["count"] = 24,
+								},
+								["Tick"] = {
+									["count"] = 47,
 								},
 							},
-							["amount"] = 7250,
-						},
-						["Lionhearted"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 1312,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 3100,
-								},
-							},
-							["amount"] = 4412,
+							["amount"] = 83,
 						},
 					},
 					["ElementHitsTaken"] = {
@@ -30093,7 +30093,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14012.794, -- [1]
 				14013.243, -- [2]
@@ -30329,41 +30329,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -30371,22 +30370,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -30394,28 +30392,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -30432,41 +30432,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -30474,22 +30473,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -30497,28 +30495,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -30968,72 +30968,6 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 27566,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 64,
-								},
-								["Hit"] = {
-									["count"] = 51,
-								},
-							},
-							["amount"] = 117,
-						},
-					},
-					["TimeDamage"] = 127.2300000000001,
-					["WhoDamaged"] = {
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Rock Shower (DoT)"] = {
-									["count"] = 8340,
-								},
-							},
-							["amount"] = 8340,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Whiteout"] = {
-									["count"] = 10268,
-								},
-								["Freezing Ground"] = {
-									["count"] = 6904,
-								},
-							},
-							["amount"] = 17172,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Frozen Orb"] = {
-									["count"] = 6238,
-								},
-							},
-							["amount"] = 6238,
-						},
-					},
-					["ManaGain"] = 10658,
 					["DamagedWho"] = {
 						["Frost Warder"] = {
 							["Details"] = {
@@ -31084,6 +31018,72 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 1552,
+						},
+					},
+					["TimeDamage"] = 127.2300000000001,
+					["WhoDamaged"] = {
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Rock Shower (DoT)"] = {
+									["count"] = 8340,
+								},
+							},
+							["amount"] = 8340,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Whiteout"] = {
+									["count"] = 10268,
+								},
+								["Freezing Ground"] = {
+									["count"] = 6904,
+								},
+							},
+							["amount"] = 17172,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Frozen Orb"] = {
+									["count"] = 6238,
+								},
+							},
+							["amount"] = 6238,
+						},
+					},
+					["ManaGain"] = 10658,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 64,
+								},
+								["Hit"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 117,
 						},
 					},
 					["WhoHealed"] = {
@@ -31324,7 +31324,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14004.572, -- [1]
 				14004.572, -- [2]
@@ -31564,41 +31564,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -31606,22 +31605,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -31629,28 +31627,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -31667,41 +31667,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -31709,22 +31708,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -31732,28 +31730,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -31787,7 +31787,6 @@ RecountPerCharDB = {
 							["amount"] = 312,
 						},
 					},
-					["DamageTaken"] = 74050,
 					["HealedWho"] = {
 						["Dioxhr"] = {
 							["Details"] = {
@@ -31796,105 +31795,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 4491,
-						},
-					},
-					["TimeSpent"] = {
-						["Frost Warder"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 1.75,
-								},
-								["Melee"] = {
-									["count"] = 7.1,
-								},
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 17.9,
-								},
-								["Whirlwind"] = {
-									["count"] = 1.22,
-								},
-								["Heroic Throw"] = {
-									["count"] = 0.07000000000000001,
-								},
-								["Heroic Strike"] = {
-									["count"] = 3.92,
-								},
-							},
-							["amount"] = 35.46000000000002,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Deep Wounds (DoT)"] = {
-									["count"] = 5.07,
-								},
-								["Whirlwind"] = {
-									["count"] = 0.38,
-								},
-							},
-							["amount"] = 5.450000000000001,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 1.02,
-								},
-								["Melee"] = {
-									["count"] = 8.600000000000001,
-								},
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 6.07,
-								},
-								["Whirlwind"] = {
-									["count"] = 0.6499999999999999,
-								},
-								["Heroic Throw"] = {
-									["count"] = 0.13,
-								},
-								["Heroic Strike"] = {
-									["count"] = 1.84,
-								},
-							},
-							["amount"] = 21.81,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 7.75,
-								},
-								["Melee"] = {
-									["count"] = 15.17,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 36.60999999999999,
-								},
-								["Slam"] = {
-									["count"] = 7.250000000000001,
-								},
-								["Whirlwind"] = {
-									["count"] = 2.9,
-								},
-								["Heroic Throw"] = {
-									["count"] = 0.42,
-								},
-								["Heroic Strike"] = {
-									["count"] = 18.87,
-								},
-							},
-							["amount"] = 88.97000000000004,
-						},
-						["Dioxhr"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 4.48,
-								},
-							},
-							["amount"] = 4.48,
 						},
 					},
 					["WhoHealed"] = {
@@ -31964,8 +31864,54 @@ RecountPerCharDB = {
 							["amount"] = 4491,
 						},
 					},
-					["ElementTakenResist"] = {
-						["Frost"] = 36519,
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 4,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 41,
+						},
+					},
+					["DamageTaken"] = 74050,
+					["RageGainedFrom"] = {
+						["Merinde"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Baimushi"] = {
+							["Details"] = {
+								["Rapture"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						["Dioxhr"] = {
+							["Details"] = {
+								["Unbridled Wrath"] = {
+									["count"] = 30,
+								},
+								["Glyph of Heroic Strike"] = {
+									["count"] = 290,
+								},
+								["Bloodrage"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 410,
+						},
 					},
 					["PartialResist"] = {
 						["Frozen Orb"] = {
@@ -32011,6 +31957,7 @@ RecountPerCharDB = {
 							["amount"] = 13225,
 						},
 					},
+					["Overhealing"] = 24868,
 					["PartialAbsorb"] = {
 						["Frozen Orb"] = {
 							["Details"] = {
@@ -32043,7 +31990,6 @@ RecountPerCharDB = {
 							["amount"] = 27237,
 						},
 					},
-					["Overhealing"] = 24868,
 					["ActiveTime"] = 156.17,
 					["WhoDamaged"] = {
 						["Toravon the Ice Watcher"] = {
@@ -32066,48 +32012,7 @@ RecountPerCharDB = {
 					["ElementTaken"] = {
 						["Frost"] = 74050,
 					},
-					["RageGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Merinde"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Rapture"] = {
-							["Details"] = {
-								["Baimushi"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						["Bloodrage"] = {
-							["Details"] = {
-								["Dioxhr"] = {
-									["count"] = 90,
-								},
-							},
-							["amount"] = 90,
-						},
-						["Glyph of Heroic Strike"] = {
-							["Details"] = {
-								["Dioxhr"] = {
-									["count"] = 290,
-								},
-							},
-							["amount"] = 290,
-						},
-						["Unbridled Wrath"] = {
-							["Details"] = {
-								["Dioxhr"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
+					["DOT_Time"] = 312,
 					["Damage"] = 1485979,
 					["TimeHeal"] = 4.48,
 					["Heals"] = {
@@ -32514,53 +32419,148 @@ RecountPerCharDB = {
 							["amount"] = 5.450000000000001,
 						},
 					},
-					["DOT_Time"] = 312,
-					["RageGainedFrom"] = {
-						["Merinde"] = {
+					["RageGained"] = {
+						["Revitalize"] = {
 							["Details"] = {
-								["Revitalize"] = {
+								["Merinde"] = {
 									["count"] = 8,
 								},
 							},
 							["amount"] = 8,
 						},
-						["Baimushi"] = {
+						["Rapture"] = {
 							["Details"] = {
-								["Rapture"] = {
+								["Baimushi"] = {
 									["count"] = 32,
 								},
 							},
 							["amount"] = 32,
 						},
-						["Dioxhr"] = {
+						["Bloodrage"] = {
 							["Details"] = {
-								["Unbridled Wrath"] = {
-									["count"] = 30,
-								},
-								["Glyph of Heroic Strike"] = {
-									["count"] = 290,
-								},
-								["Bloodrage"] = {
+								["Dioxhr"] = {
 									["count"] = 90,
 								},
 							},
-							["amount"] = 410,
+							["amount"] = 90,
 						},
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
+						["Glyph of Heroic Strike"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 4,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 36,
+								["Dioxhr"] = {
+									["count"] = 290,
 								},
 							},
-							["amount"] = 41,
+							["amount"] = 290,
+						},
+						["Unbridled Wrath"] = {
+							["Details"] = {
+								["Dioxhr"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["ElementTakenResist"] = {
+						["Frost"] = 36519,
+					},
+					["TimeSpent"] = {
+						["Frost Warder"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 1.75,
+								},
+								["Melee"] = {
+									["count"] = 7.1,
+								},
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 17.9,
+								},
+								["Whirlwind"] = {
+									["count"] = 1.22,
+								},
+								["Heroic Throw"] = {
+									["count"] = 0.07000000000000001,
+								},
+								["Heroic Strike"] = {
+									["count"] = 3.92,
+								},
+							},
+							["amount"] = 35.46000000000002,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Deep Wounds (DoT)"] = {
+									["count"] = 5.07,
+								},
+								["Whirlwind"] = {
+									["count"] = 0.38,
+								},
+							},
+							["amount"] = 5.450000000000001,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 1.02,
+								},
+								["Melee"] = {
+									["count"] = 8.600000000000001,
+								},
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 6.07,
+								},
+								["Whirlwind"] = {
+									["count"] = 0.6499999999999999,
+								},
+								["Heroic Throw"] = {
+									["count"] = 0.13,
+								},
+								["Heroic Strike"] = {
+									["count"] = 1.84,
+								},
+							},
+							["amount"] = 21.81,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 7.75,
+								},
+								["Melee"] = {
+									["count"] = 15.17,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 36.60999999999999,
+								},
+								["Slam"] = {
+									["count"] = 7.250000000000001,
+								},
+								["Whirlwind"] = {
+									["count"] = 2.9,
+								},
+								["Heroic Throw"] = {
+									["count"] = 0.42,
+								},
+								["Heroic Strike"] = {
+									["count"] = 18.87,
+								},
+							},
+							["amount"] = 88.97000000000004,
+						},
+						["Dioxhr"] = {
+							["Details"] = {
+								["Bloodthirst"] = {
+									["count"] = 4.48,
+								},
+							},
+							["amount"] = 4.48,
 						},
 					},
 				},
@@ -32734,15 +32734,15 @@ RecountPerCharDB = {
 				[40] = 7.697947214076247,
 				[33] = 38.77405049710321,
 				[41] = 4.046563192904657,
-				[19] = 38.90458479364853,
+				[37] = 0.6884343036978757,
 				[39] = 17.69365567555969,
 				[21] = 2.33531220942708,
 				[43] = 22.60031471282455,
-				[37] = 0.6884343036978757,
+				[19] = 38.90458479364853,
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14010.474, -- [1]
 				14010.474, -- [2]
@@ -32983,41 +32983,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -33025,22 +33024,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -33048,28 +33046,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -33086,41 +33086,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -33128,22 +33127,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -33151,28 +33149,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -33274,12 +33274,51 @@ RecountPerCharDB = {
 					["Damage"] = 695779,
 					["TimeHeal"] = 3.13,
 					["ElementDone"] = {
-						["Holy"] = 446369,
 						["Shadow"] = 8400,
-						["Melee"] = 151995,
 						["Physical"] = 89015,
+						["Melee"] = 151995,
+						["Holy"] = 446369,
 					},
 					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 27,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 17,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 33,
+								},
+								["Hit"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 91,
+						},
 						["Holy"] = {
 							["Details"] = {
 								["Resist"] = {
@@ -33305,45 +33344,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 279,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 17,
-								},
-								["Parry"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 33,
-								},
-								["Hit"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 91,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 15,
-								},
-								["Hit"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 27,
 						},
 					},
 					["WhoDamaged"] = {
@@ -34037,17 +34037,17 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 8.259999999999998,
 								},
-								["Holy Vengeance (DoT)"] = {
-									["count"] = 13.7,
-								},
-								["Vindication"] = {
-									["count"] = 1.47,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 0.27,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.19,
+								},
+								["Holy Vengeance (DoT)"] = {
+									["count"] = 13.7,
+								},
+								["Vindication"] = {
+									["count"] = 1.47,
 								},
 								["Silenced - Shield of the Templar"] = {
 									["count"] = 1.95,
@@ -34353,36 +34353,6 @@ RecountPerCharDB = {
 							["count"] = 91,
 							["amount"] = 151995,
 						},
-						["Manifest Anger"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 3073,
-									["min"] = 2041,
-									["count"] = 6,
-									["amount"] = 15781,
-								},
-								["Hit"] = {
-									["max"] = 1416,
-									["min"] = 1252,
-									["count"] = 2,
-									["amount"] = 2668,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 18449,
-						},
-						["Drain Life"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3255,
-									["min"] = 2505,
-									["count"] = 3,
-									["amount"] = 8400,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 8400,
-						},
 						["Retribution Aura"] = {
 							["Details"] = {
 								["Resist"] = {
@@ -34398,6 +34368,30 @@ RecountPerCharDB = {
 							},
 							["count"] = 5,
 							["amount"] = 1453,
+						},
+						["Drain Life"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3255,
+									["min"] = 2505,
+									["count"] = 3,
+									["amount"] = 8400,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 8400,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2135,
+									["min"] = 202,
+									["count"] = 46,
+									["amount"] = 49560,
+								},
+							},
+							["count"] = 46,
+							["amount"] = 49560,
 						},
 						["Silenced - Shield of the Templar"] = {
 							["Details"] = {
@@ -34515,17 +34509,23 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 8015,
 						},
-						["Holy Vengeance (DoT)"] = {
+						["Manifest Anger"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 2135,
-									["min"] = 202,
-									["count"] = 46,
-									["amount"] = 49560,
+								["Crit"] = {
+									["max"] = 3073,
+									["min"] = 2041,
+									["count"] = 6,
+									["amount"] = 15781,
+								},
+								["Hit"] = {
+									["max"] = 1416,
+									["min"] = 1252,
+									["count"] = 2,
+									["amount"] = 2668,
 								},
 							},
-							["count"] = 46,
-							["amount"] = 49560,
+							["count"] = 8,
+							["amount"] = 18449,
 						},
 					},
 					["HealingTaken"] = 237654,
@@ -34696,17 +34696,17 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 8.259999999999998,
 								},
-								["Holy Vengeance (DoT)"] = {
-									["count"] = 13.7,
-								},
-								["Vindication"] = {
-									["count"] = 1.47,
-								},
 								["Hammer of Wrath"] = {
 									["count"] = 0.27,
 								},
 								["Retribution Aura"] = {
 									["count"] = 1.19,
+								},
+								["Holy Vengeance (DoT)"] = {
+									["count"] = 13.7,
+								},
+								["Vindication"] = {
+									["count"] = 1.47,
 								},
 								["Silenced - Shield of the Templar"] = {
 									["count"] = 1.95,
@@ -35100,7 +35100,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 4,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["Owner"] = "Tobblum",
 			["LastEventTimes"] = {
 				13946.941, -- [1]
@@ -35335,41 +35335,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -35377,22 +35376,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -35400,28 +35398,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -35438,41 +35438,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -35480,22 +35479,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -35503,28 +35501,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -35708,6 +35708,39 @@ RecountPerCharDB = {
 							["amount"] = 10139,
 						},
 					},
+					["ElementDone"] = {
+						["Fire"] = 3101,
+						["Frost"] = 11434,
+					},
+					["HealingTaken"] = 10367,
+					["DamagedWho"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 3101,
+								},
+								["Frostbolt"] = {
+									["count"] = 11434,
+								},
+							},
+							["amount"] = 14535,
+						},
+					},
+					["TimeDamage"] = 27.77999999999999,
+					["TimeDamaging"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 9.15,
+								},
+								["Frostbolt"] = {
+									["count"] = 18.62999999999999,
+								},
+							},
+							["amount"] = 27.77999999999999,
+						},
+					},
+					["ManaGain"] = 3696,
 					["Attacks"] = {
 						["Fire Blast"] = {
 							["Details"] = {
@@ -35748,7 +35781,6 @@ RecountPerCharDB = {
 							["amount"] = 11434,
 						},
 					},
-					["HealingTaken"] = 10367,
 					["ManaGainedFrom"] = {
 						["Litigator"] = {
 							["Details"] = {
@@ -35765,38 +35797,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 880,
-						},
-					},
-					["TimeDamage"] = 27.77999999999999,
-					["TimeDamaging"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 9.15,
-								},
-								["Frostbolt"] = {
-									["count"] = 18.62999999999999,
-								},
-							},
-							["amount"] = 27.77999999999999,
-						},
-					},
-					["ManaGain"] = 3696,
-					["ElementDone"] = {
-						["Fire"] = 3101,
-						["Frost"] = 11434,
-					},
-					["DamagedWho"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 3101,
-								},
-								["Frostbolt"] = {
-									["count"] = 11434,
-								},
-							},
-							["amount"] = 14535,
 						},
 					},
 				},
@@ -35948,7 +35948,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "PRIEST",
 			["unit"] = "Yindao",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["level"] = 80,
 			["LastDamageAbility"] = "Frozen Orb",
 			["LastFightIn"] = 4,
@@ -35994,9 +35994,10 @@ RecountPerCharDB = {
 				1.90138067061144, -- [39]
 				1.90138067061144, -- [40]
 				18.96252465483235, -- [41]
-				[43] = 9.167652859960553,
-				[44] = 8.579881656804734,
-				[45] = 7.187376725838265,
+				nil, -- [42]
+				9.167652859960553, -- [43]
+				8.579881656804734, -- [44]
+				7.187376725838265, -- [45]
 				[49] = 10.78500986193294,
 				[50] = 2.031558185404339,
 			},
@@ -36069,7 +36070,58 @@ RecountPerCharDB = {
 				["Healing"] = 1689156099,
 			},
 			["Owner"] = false,
-			["Name"] = "Yindao",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
 			["NextEventNum"] = 41,
 			["LastEventHealthNum"] = {
 				78.18934911242603, -- [1]
@@ -36175,58 +36227,7 @@ RecountPerCharDB = {
 				"Merinde Rejuvenation Yindao Tick +2734", -- [49]
 				"Healing Stream Totem IX <Sertel> Healing Stream Totem Yindao Tick +515", -- [50]
 			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				true, -- [7]
-				false, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				false, -- [12]
-				false, -- [13]
-				true, -- [14]
-				true, -- [15]
-				false, -- [16]
-				true, -- [17]
-				false, -- [18]
-				true, -- [19]
-				false, -- [20]
-				true, -- [21]
-				true, -- [22]
-				true, -- [23]
-				true, -- [24]
-				true, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				true, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				true, -- [41]
-				false, -- [42]
-				true, -- [43]
-				true, -- [44]
-				true, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				true, -- [49]
-				true, -- [50]
-			},
+			["Name"] = "Yindao",
 			["type"] = "Ungrouped",
 			["LastDamageTaken"] = 2096,
 			["Fights"] = {
@@ -36243,41 +36244,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -36285,22 +36285,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -36308,28 +36307,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -36346,41 +36347,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -36388,22 +36388,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -36411,28 +36410,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -36700,10 +36701,10 @@ RecountPerCharDB = {
 						},
 					},
 					["Dispelled"] = 1,
+					["Overhealing"] = 249168,
 					["ElementTakenAbsorb"] = {
 						["Frost"] = 28989,
 					},
-					["Overhealing"] = 249168,
 					["ElementHitsTaken"] = {
 						["Frost"] = {
 							["Details"] = {
@@ -36717,132 +36718,44 @@ RecountPerCharDB = {
 							["amount"] = 13,
 						},
 					},
-					["HealedWho"] = {
-						["Charliesh"] = {
+					["WhoHealed"] = {
+						["Healing Stream Totem IX <Sertel>"] = {
 							["Details"] = {
-								["Renew"] = {
-									["count"] = 2814,
+								["Healing Stream Totem"] = {
+									["count"] = 2375,
 								},
 							},
-							["amount"] = 2814,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Blessed Healing"] = {
-									["count"] = 985,
-								},
-								["Flash Heal"] = {
-									["count"] = 591,
-								},
-							},
-							["amount"] = 1576,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Prayer of Mending"] = {
-									["count"] = 9770,
-								},
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 2473,
-								},
-							},
-							["amount"] = 12243,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2955,
-								},
-								["Prayer of Mending"] = {
-									["count"] = 5129,
-								},
-							},
-							["amount"] = 8084,
-						},
-						["Lanfigure"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2814,
-								},
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 1847,
-								},
-							},
-							["amount"] = 4661,
+							["amount"] = 2375,
 						},
 						["Mcstylish"] = {
 							["Details"] = {
-								["Renew"] = {
-									["count"] = 1498,
+								["Holy Light"] = {
+									["count"] = 6050,
 								},
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 1469,
-								},
-								["Prayer of Mending"] = {
-									["count"] = 2572,
+								["Glyph of Holy Light"] = {
+									["count"] = 3628,
 								},
 							},
-							["amount"] = 5539,
+							["amount"] = 9678,
 						},
-						["Paria"] = {
+						["Merinde"] = {
 							["Details"] = {
-								["Renew"] = {
-									["count"] = 4383,
+								["Wild Growth"] = {
+									["count"] = 2136,
+								},
+								["Rejuvenation"] = {
+									["count"] = 6834,
 								},
 							},
-							["amount"] = 4383,
-						},
-						["Drakui"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 5629,
-								},
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 1886,
-								},
-							},
-							["amount"] = 7515,
+							["amount"] = 8970,
 						},
 						["Sertel"] = {
 							["Details"] = {
-								["Prayer of Mending"] = {
-									["count"] = 9770,
+								["Chain Heal"] = {
+									["count"] = 4807,
 								},
 							},
-							["amount"] = 9770,
-						},
-						["Lionhearted"] = {
-							["Details"] = {
-								["Echoes of Light"] = {
-									["count"] = 783,
-								},
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 2841,
-								},
-							},
-							["amount"] = 3624,
-						},
-						["Purinx"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2814,
-								},
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 1847,
-								},
-							},
-							["amount"] = 4661,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Prayer of Mending"] = {
-									["count"] = 3348,
-								},
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 2841,
-								},
-							},
-							["amount"] = 6189,
+							["amount"] = 4807,
 						},
 						["Yindao"] = {
 							["Details"] = {
@@ -36851,46 +36764,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 4885,
-						},
-						["Merinde"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 5167,
-								},
-							},
-							["amount"] = 5167,
-						},
-						["Dukundra"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 5628,
-								},
-							},
-							["amount"] = 5628,
-						},
-						["Telderam"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 2661,
-								},
-							},
-							["amount"] = 2661,
-						},
-						["Mirror Image <Tobblum>"] = {
-							["Details"] = {
-								["Echoes of Light"] = {
-									["count"] = 1635,
-								},
-							},
-							["amount"] = 1635,
-						},
-						["Dioxhr"] = {
-							["Details"] = {
-								["Prayer of Mending"] = {
-									["count"] = 4179,
-								},
-							},
-							["amount"] = 4179,
 						},
 					},
 					["ElementTakenResist"] = {
@@ -37472,44 +37345,132 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 13381,
-					["WhoHealed"] = {
-						["Healing Stream Totem IX <Sertel>"] = {
+					["HealedWho"] = {
+						["Charliesh"] = {
 							["Details"] = {
-								["Healing Stream Totem"] = {
-									["count"] = 2375,
+								["Renew"] = {
+									["count"] = 2814,
 								},
 							},
-							["amount"] = 2375,
+							["amount"] = 2814,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Blessed Healing"] = {
+									["count"] = 985,
+								},
+								["Flash Heal"] = {
+									["count"] = 591,
+								},
+							},
+							["amount"] = 1576,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Prayer of Mending"] = {
+									["count"] = 9770,
+								},
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 2473,
+								},
+							},
+							["amount"] = 12243,
+						},
+						["Litigator"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2955,
+								},
+								["Prayer of Mending"] = {
+									["count"] = 5129,
+								},
+							},
+							["amount"] = 8084,
+						},
+						["Lanfigure"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2814,
+								},
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 1847,
+								},
+							},
+							["amount"] = 4661,
 						},
 						["Mcstylish"] = {
 							["Details"] = {
-								["Holy Light"] = {
-									["count"] = 6050,
+								["Renew"] = {
+									["count"] = 1498,
 								},
-								["Glyph of Holy Light"] = {
-									["count"] = 3628,
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 1469,
+								},
+								["Prayer of Mending"] = {
+									["count"] = 2572,
 								},
 							},
-							["amount"] = 9678,
+							["amount"] = 5539,
 						},
-						["Merinde"] = {
+						["Paria"] = {
 							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 2136,
-								},
-								["Rejuvenation"] = {
-									["count"] = 6834,
+								["Renew"] = {
+									["count"] = 4383,
 								},
 							},
-							["amount"] = 8970,
+							["amount"] = 4383,
+						},
+						["Drakui"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 5629,
+								},
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 1886,
+								},
+							},
+							["amount"] = 7515,
 						},
 						["Sertel"] = {
 							["Details"] = {
-								["Chain Heal"] = {
-									["count"] = 4807,
+								["Prayer of Mending"] = {
+									["count"] = 9770,
 								},
 							},
-							["amount"] = 4807,
+							["amount"] = 9770,
+						},
+						["Lionhearted"] = {
+							["Details"] = {
+								["Echoes of Light"] = {
+									["count"] = 783,
+								},
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 2841,
+								},
+							},
+							["amount"] = 3624,
+						},
+						["Purinx"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2814,
+								},
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 1847,
+								},
+							},
+							["amount"] = 4661,
+						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Prayer of Mending"] = {
+									["count"] = 3348,
+								},
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 2841,
+								},
+							},
+							["amount"] = 6189,
 						},
 						["Yindao"] = {
 							["Details"] = {
@@ -37518,6 +37479,46 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 4885,
+						},
+						["Merinde"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 5167,
+								},
+							},
+							["amount"] = 5167,
+						},
+						["Dukundra"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 5628,
+								},
+							},
+							["amount"] = 5628,
+						},
+						["Telderam"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 2661,
+								},
+							},
+							["amount"] = 2661,
+						},
+						["Mirror Image <Tobblum>"] = {
+							["Details"] = {
+								["Echoes of Light"] = {
+									["count"] = 1635,
+								},
+							},
+							["amount"] = 1635,
+						},
+						["Dioxhr"] = {
+							["Details"] = {
+								["Prayer of Mending"] = {
+									["count"] = 4179,
+								},
+							},
+							["amount"] = 4179,
 						},
 					},
 					["DispelledWho"] = {
@@ -37801,41 +37802,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -37843,22 +37843,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -37866,28 +37865,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -37904,41 +37905,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -37946,22 +37946,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -37969,28 +37968,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -37999,7 +38000,2887 @@ RecountPerCharDB = {
 				},
 			},
 			["UnitLockout"] = 1689156133,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
+		},
+		["Army of the Dead Ghoul <Purinx>"] = {
+			["GUID"] = "0xF130005E8F000032",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+				"???", -- [8]
+				"???", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+				"???", -- [19]
+				"???", -- [20]
+				"???", -- [21]
+				"???", -- [22]
+				"???", -- [23]
+				"???", -- [24]
+				"???", -- [25]
+				"???", -- [26]
+				"???", -- [27]
+				"???", -- [28]
+				"???", -- [29]
+				"???", -- [30]
+				"???", -- [31]
+				"???", -- [32]
+				"???", -- [33]
+				"???", -- [34]
+				"???", -- [35]
+				"???", -- [36]
+				"???", -- [37]
+				"???", -- [38]
+				"???", -- [39]
+				"???", -- [40]
+				"???", -- [41]
+				"???", -- [42]
+				"???", -- [43]
+				"???", -- [44]
+				"???", -- [45]
+				"???", -- [46]
+				"???", -- [47]
+				"???", -- [48]
+				"???", -- [49]
+				"???", -- [50]
+			},
+			["LastAttackedBy"] = "Frozen Orb",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"DAMAGE", -- [2]
+				"HEAL", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"HEAL", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"HEAL", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"HEAL", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"HEAL", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"HEAL", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"HEAL", -- [22]
+				"DAMAGE", -- [23]
+				"HEAL", -- [24]
+				"DAMAGE", -- [25]
+				"HEAL", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"HEAL", -- [29]
+				"DAMAGE", -- [30]
+				"HEAL", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"HEAL", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"HEAL", -- [40]
+				"DAMAGE", -- [41]
+				"HEAL", -- [42]
+				"DAMAGE", -- [43]
+				"HEAL", -- [44]
+				"DAMAGE", -- [45]
+				"HEAL", -- [46]
+				"DAMAGE", -- [47]
+				"HEAL", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["EnergyGain"] = {
+					56, -- [1]
+				},
+				["HealingTaken"] = {
+					21572, -- [1]
+				},
+				["ActiveTime"] = {
+					39.54000000000001, -- [1]
+				},
+				["TimeDamage"] = {
+					39.54000000000001, -- [1]
+				},
+				["DamageTaken"] = {
+					21572, -- [1]
+				},
+				["Damage"] = {
+					25920, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["LastDamageTaken"] = 227,
+			["level"] = 1,
+			["LastDamageAbility"] = "Frozen Orb",
+			["LastFightIn"] = 4,
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["LastAbility"] = 19157.908,
+			["Owner"] = "Purinx",
+			["LastEventTimes"] = {
+				13959.507, -- [1]
+				13959.508, -- [2]
+				13951.454, -- [3]
+				13951.455, -- [4]
+				13951.994, -- [5]
+				13952.222, -- [6]
+				13952.223, -- [7]
+				13952.257, -- [8]
+				13952.466, -- [9]
+				13952.467, -- [10]
+				13952.768, -- [11]
+				13952.798, -- [12]
+				13952.798, -- [13]
+				13952.977, -- [14]
+				13953.039, -- [15]
+				13953.04, -- [16]
+				13953.077, -- [17]
+				13953.739, -- [18]
+				13953.967, -- [19]
+				13953.968, -- [20]
+				13954.01, -- [21]
+				13954.214, -- [22]
+				13954.215, -- [23]
+				13954.549, -- [24]
+				13954.55, -- [25]
+				13954.608, -- [26]
+				13954.609, -- [27]
+				13954.719, -- [28]
+				13954.798, -- [29]
+				13954.799, -- [30]
+				13954.817, -- [31]
+				13954.818, -- [32]
+				13955.45, -- [33]
+				13955.474, -- [34]
+				13955.722, -- [35]
+				13955.785, -- [36]
+				13955.785, -- [37]
+				13955.987, -- [38]
+				13956.305, -- [39]
+				13956.457, -- [40]
+				13956.458, -- [41]
+				13956.592, -- [42]
+				13956.593, -- [43]
+				13957.459, -- [44]
+				13957.459, -- [45]
+				13957.558, -- [46]
+				13957.559, -- [47]
+				13957.721, -- [48]
+				13957.721, -- [49]
+				13958.239, -- [50]
+			},
+			["NextEventNum"] = 3,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				0, -- [29]
+				0, -- [30]
+				0, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				0, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				0, -- [45]
+				0, -- [46]
+				0, -- [47]
+				0, -- [48]
+				0, -- [49]
+				0, -- [50]
+			},
+			["LastEvents"] = {
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [1]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -140 (Physical)", -- [2]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [3]
+				"Army of the Dead Ghoul <Purinx> Claw Toravon the Ice Watcher Hit -219 (Physical)", -- [4]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -94 (Physical)", -- [5]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [6]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -134 (Physical)", -- [7]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -108 (Physical)", -- [8]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [9]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -97 (Physical)", -- [10]
+				"Army of the Dead Ghoul <Purinx> Claw Toravon the Ice Watcher Hit -225 (Physical)", -- [11]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [12]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -101 (Physical)", -- [13]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -133 (Physical)", -- [14]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [15]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Crit -252 (Physical)", -- [16]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -148 (Physical)", -- [17]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -143 (Physical)", -- [18]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [19]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -139 (Physical)", -- [20]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -144 (Physical)", -- [21]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [22]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -127 (Physical)", -- [23]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [24]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -129 (Physical)", -- [25]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [26]
+				"Army of the Dead Ghoul <Purinx> Claw Toravon the Ice Watcher Hit -198 (Physical)", -- [27]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -133 (Physical)", -- [28]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [29]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -146 (Physical)", -- [30]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [31]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -135 (Physical)", -- [32]
+				"Army of the Dead Ghoul <Purinx> Claw Toravon the Ice Watcher Hit -228 (Physical)", -- [33]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Crit -288 (Physical)", -- [34]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -137 (Physical)", -- [35]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [36]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Crit -296 (Physical)", -- [37]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -126 (Physical)", -- [38]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -152 (Physical)", -- [39]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [40]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -111 (Physical)", -- [41]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [42]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -152 (Physical)", -- [43]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [44]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -141 (Physical)", -- [45]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [46]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -136 (Physical)", -- [47]
+				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [48]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -99 (Physical)", -- [49]
+				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -140 (Physical)", -- [50]
+			},
+			["Name"] = "Army of the Dead Ghoul",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				false, -- [14]
+				true, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				true, -- [19]
+				false, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				true, -- [26]
+				false, -- [27]
+				false, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				true, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				true, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["TimeLast"] = {
+				["EnergyGain"] = 1689156031,
+				["HealingTaken"] = 1689156029,
+				["ActiveTime"] = 1689156043,
+				["TimeDamage"] = 1689156043,
+				["OVERALL"] = 1689156043,
+				["DamageTaken"] = 1689156024,
+				["Damage"] = 1689156043,
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 31.00999999999999,
+								},
+								["Claw"] = {
+									["count"] = 8.529999999999999,
+								},
+							},
+							["amount"] = 39.54000000000001,
+						},
+					},
+					["DamageTaken"] = 21572,
+					["PartialResist"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 96,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 96,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 96,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 96,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 39.54000000000001,
+					["ElementTaken"] = {
+						["Frost"] = 21572,
+					},
+					["Damage"] = 25920,
+					["EnergyGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Merinde"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 56,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 96,
+								},
+							},
+							["amount"] = 96,
+						},
+					},
+					["EnergyGain"] = 56,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 36,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 144,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["TimeDamaging"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 31.00999999999999,
+								},
+								["Claw"] = {
+									["count"] = 8.529999999999999,
+								},
+							},
+							["amount"] = 39.54000000000001,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 19619,
+						["Physical"] = 6301,
+					},
+					["HealingTaken"] = 21572,
+					["DamagedWho"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19619,
+								},
+								["Claw"] = {
+									["count"] = 6301,
+								},
+							},
+							["amount"] = 25920,
+						},
+					},
+					["TimeDamage"] = 39.54000000000001,
+					["WhoDamaged"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Frozen Orb"] = {
+									["count"] = 21572,
+								},
+							},
+							["amount"] = 21572,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Merinde"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 56,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 114,
+									["min"] = 93,
+									["count"] = 36,
+									["amount"] = 3755,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 302,
+									["min"] = 252,
+									["count"] = 7,
+									["amount"] = 2014,
+								},
+								["Hit"] = {
+									["max"] = 152,
+									["min"] = 125,
+									["count"] = 100,
+									["amount"] = 13850,
+								},
+							},
+							["count"] = 144,
+							["amount"] = 19619,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 384,
+									["min"] = 384,
+									["count"] = 1,
+									["amount"] = 384,
+								},
+								["Hit"] = {
+									["max"] = 228,
+									["min"] = 188,
+									["count"] = 28,
+									["amount"] = 5917,
+								},
+							},
+							["count"] = 29,
+							["amount"] = 6301,
+						},
+					},
+					["WhoHealed"] = {
+						["Mcstylish"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 11247,
+								},
+							},
+							["amount"] = 11247,
+						},
+						["Merinde"] = {
+							["Details"] = {
+								["Wild Growth"] = {
+									["count"] = 6209,
+								},
+								["Echoes of Light"] = {
+									["count"] = 2121,
+								},
+							},
+							["amount"] = 8330,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 1995,
+								},
+							},
+							["amount"] = 1995,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1689156043,
+			["LastActive"] = 1689156043,
+		},
+		["Klari"] = {
+			["GUID"] = "0x070000000091AB0F",
+			["LastEventHealth"] = {
+				"50174 (100%)", -- [1]
+				"50174 (100%)", -- [2]
+				"50174 (100%)", -- [3]
+				"50174 (100%)", -- [4]
+				"50174 (100%)", -- [5]
+				"52429 (100%)", -- [6]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+			},
+			["TimeWindows"] = {
+				["ManaGain"] = {
+					136, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Klari",
+			["level"] = 80,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				5.666281340933551, -- [1]
+				5.666281340933551, -- [2]
+				5.666281340933551, -- [3]
+				5.666281340933551, -- [4]
+				5.666281340933551, -- [5]
+				5.422571477617349, -- [6]
+			},
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["LastActive"] = 1689155603,
+			["LastEventTimes"] = {
+				13504.351, -- [1]
+				13507.303, -- [2]
+				13510.319, -- [3]
+				13513.312, -- [4]
+				13516.36, -- [5]
+				13519.318, -- [6]
+			},
+			["Owner"] = false,
+			["Name"] = "Klari",
+			["NextEventNum"] = 7,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+			},
+			["LastEvents"] = {
+				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [1]
+				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [2]
+				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [3]
+				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [4]
+				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [5]
+				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [6]
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+			},
+			["TimeLast"] = {
+				["OVERALL"] = 1689155600,
+				["ManaGain"] = 1689155600,
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ManaGain"] = 136,
+					["ManaGainedFrom"] = {
+						["Merinde"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 136,
+								},
+							},
+							["amount"] = 136,
+						},
+					},
+					["ManaGained"] = {
+						["Revitalize"] = {
+							["Details"] = {
+								["Merinde"] = {
+									["count"] = 136,
+								},
+							},
+							["amount"] = 136,
+						},
+					},
+				},
+			},
+			["lazysync"] = true,
+			["UnitLockout"] = 1689155588,
+			["LastAbility"] = 19157.908,
+		},
+		["Paria"] = {
+			["GUID"] = "0x07000000009557D4",
+			["TimeLast"] = {
+				["OVERALL"] = 1689156101,
+				["DamageTaken"] = 1689156099,
+				["HealingTaken"] = 1689156101,
+				["FDamage"] = 1689156064,
+				["TimeDamage"] = 1689156100,
+				["ActiveTime"] = 1689156100,
+				["RageGain"] = 1689156087,
+				["DOT_Time"] = 1689156100,
+				["Damage"] = 1689156100,
+			},
+			["LastAttackedBy"] = "Toravon the Ice Watcher",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"HEAL", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"HEAL", -- [19]
+				"DAMAGE", -- [20]
+				"HEAL", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"HEAL", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"HEAL", -- [34]
+				"HEAL", -- [35]
+				"DAMAGE", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"DAMAGE", -- [39]
+				"HEAL", -- [40]
+				"DAMAGE", -- [41]
+				"HEAL", -- [42]
+				"HEAL", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"HEAL", -- [46]
+				"DAMAGE", -- [47]
+				"HEAL", -- [48]
+				"HEAL", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["RageGain"] = {
+					293, -- [1]
+				},
+				["HealingTaken"] = {
+					264829, -- [1]
+				},
+				["FDamage"] = {
+					3641, -- [1]
+				},
+				["ActiveTime"] = {
+					189.22, -- [1]
+				},
+				["DOT_Time"] = {
+					318, -- [1]
+				},
+				["TimeDamage"] = {
+					189.22, -- [1]
+				},
+				["DamageTaken"] = {
+					260748, -- [1]
+				},
+				["Damage"] = {
+					383089, -- [1]
+				},
+			},
+			["enClass"] = "WARRIOR",
+			["unit"] = "Paria",
+			["level"] = 80,
+			["LastDamageAbility"] = "Frostbite (DoT)",
+			["LastFightIn"] = 4,
+			["LastEventNum"] = {
+				45.07638949863904, -- [1]
+				2.120467117393977, -- [2]
+				nil, -- [3]
+				nil, -- [4]
+				nil, -- [5]
+				nil, -- [6]
+				6.001404864342787, -- [7]
+				2.118272016858372, -- [8]
+				nil, -- [9]
+				nil, -- [10]
+				1.881201159013083, -- [11]
+				2.118272016858372, -- [12]
+				nil, -- [13]
+				nil, -- [14]
+				11.71086135745017, -- [15]
+				2.120467117393977, -- [16]
+				nil, -- [17]
+				nil, -- [18]
+				2.120467117393977, -- [19]
+				nil, -- [20]
+				9.002107296514181, -- [21]
+				nil, -- [22]
+				15.50838528404601, -- [23]
+				nil, -- [24]
+				nil, -- [25]
+				17.44665905698481, -- [26]
+				6.001404864342787, -- [27]
+				2.118272016858372, -- [28]
+				nil, -- [29]
+				nil, -- [30]
+				36.00842918605672, -- [31]
+				6.001404864342787, -- [32]
+				29.87312318904206, -- [33]
+				1.881201159013083, -- [34]
+				2.120467117393977, -- [35]
+				12.16744226885591, -- [36]
+				25.96145403459478, -- [37]
+				2.120467117393977, -- [38]
+				nil, -- [39]
+				9.002107296514181, -- [40]
+				[42] = 29.57458951619984,
+				[43] = 2.120467117393977,
+				[45] = 10.42892264465713,
+				[46] = 1.881201159013083,
+				[47] = 29.08069189568882,
+				[48] = 2.22363684256739,
+				[49] = 4.076301694617613,
+			},
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["LastAbility"] = 19157.908,
+			["LastEventTimes"] = {
+				14008.221, -- [1]
+				14008.542, -- [2]
+				14008.542, -- [3]
+				14008.993, -- [4]
+				14009.107, -- [5]
+				14009.357, -- [6]
+				14009.482, -- [7]
+				14010.048, -- [8]
+				14010.049, -- [9]
+				14010.092, -- [10]
+				14010.433, -- [11]
+				14010.624, -- [12]
+				14010.624, -- [13]
+				14011.116, -- [14]
+				14011.356, -- [15]
+				14011.601, -- [16]
+				14011.601, -- [17]
+				14012.103, -- [18]
+				14012.316, -- [19]
+				14012.316, -- [20]
+				14012.485, -- [21]
+				14013.074, -- [22]
+				14013.321, -- [23]
+				14013.939, -- [24]
+				14014.747, -- [25]
+				14015.346, -- [26]
+				14015.471, -- [27]
+				14015.605, -- [28]
+				14015.605, -- [29]
+				14015.966, -- [30]
+				14017.583, -- [31]
+				14018.49, -- [32]
+				14004.191, -- [33]
+				14004.403, -- [34]
+				14005.2, -- [35]
+				14005.341, -- [36]
+				14005.524, -- [37]
+				14005.558, -- [38]
+				14005.558, -- [39]
+				14006.469, -- [40]
+				14006.867, -- [41]
+				14007.047, -- [42]
+				14007.22, -- [43]
+				14007.221, -- [44]
+				14007.333, -- [45]
+				14007.436, -- [46]
+				14007.547, -- [47]
+				14007.693, -- [48]
+				14007.694, -- [49]
+				14008.114, -- [50]
+			},
+			["Owner"] = false,
+			["LastEventHealth"] = {
+				"45556 (100%)", -- [1]
+				"45556 (100%)", -- [2]
+				"45556 (100%)", -- [3]
+				"45556 (100%)", -- [4]
+				"45556 (100%)", -- [5]
+				"45556 (100%)", -- [6]
+				"45556 (100%)", -- [7]
+				"45556 (100%)", -- [8]
+				"45556 (100%)", -- [9]
+				"45556 (100%)", -- [10]
+				"45556 (100%)", -- [11]
+				"45556 (100%)", -- [12]
+				"45556 (100%)", -- [13]
+				"45556 (100%)", -- [14]
+				"40221 (88%)", -- [15]
+				"41187 (90%)", -- [16]
+				"41187 (90%)", -- [17]
+				"41187 (90%)", -- [18]
+				"42153 (92%)", -- [19]
+				"42153 (92%)", -- [20]
+				"45556 (100%)", -- [21]
+				"45556 (100%)", -- [22]
+				"38491 (84%)", -- [23]
+				"38491 (84%)", -- [24]
+				"38491 (84%)", -- [25]
+				"30543 (67%)", -- [26]
+				"33277 (73%)", -- [27]
+				"34242 (75%)", -- [28]
+				"34242 (75%)", -- [29]
+				"34242 (75%)", -- [30]
+				"45556 (100%)", -- [31]
+				"45556 (100%)", -- [32]
+				"45556 (100%)", -- [33]
+				"45556 (100%)", -- [34]
+				"45556 (100%)", -- [35]
+				"40013 (87%)", -- [36]
+				"45556 (100%)", -- [37]
+				"45556 (100%)", -- [38]
+				"45556 (100%)", -- [39]
+				"45556 (100%)", -- [40]
+				"45556 (100%)", -- [41]
+				"45556 (100%)", -- [42]
+				"45556 (100%)", -- [43]
+				"45556 (100%)", -- [44]
+				"40805 (89%)", -- [45]
+				"41662 (91%)", -- [46]
+				"28414 (62%)", -- [47]
+				"29427 (64%)", -- [48]
+				"31284 (68%)", -- [49]
+				"31284 (68%)", -- [50]
+			},
+			["NextEventNum"] = 33,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				88.28913864254983, -- [15]
+				90.4096057599438, -- [16]
+				90.4096057599438, -- [17]
+				90.4096057599438, -- [18]
+				92.53007287733779, -- [19]
+				92.53007287733779, -- [20]
+				100, -- [21]
+				100, -- [22]
+				84.49161471595399, -- [23]
+				84.49161471595399, -- [24]
+				84.49161471595399, -- [25]
+				67.04495565896919, -- [26]
+				73.04636052331196, -- [27]
+				75.16463254017035, -- [28]
+				75.16463254017035, -- [29]
+				75.16463254017035, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				87.83255773114409, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				89.57107735534288, -- [45]
+				91.45227851435595, -- [46]
+				62.37158661866714, -- [47]
+				64.59522346123453, -- [48]
+				68.67152515585214, -- [49]
+				68.67152515585214, -- [50]
+			},
+			["LastEvents"] = {
+				"Mcstylish Holy Light Paria Crit +20535 (6263 overheal)", -- [1]
+				"Blackregina Judgement of Light Paria Tick +966 (966 overheal)", -- [2]
+				"Paria Shield Slam Toravon the Ice Watcher Hit -3164 (Physical)", -- [3]
+				"Paria Melee Toravon the Ice Watcher Hit -771 (Physical)", -- [4]
+				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [5]
+				"Toravon the Ice Watcher Frostbite Paria Absorb (7065 Absorbed) (Frost)", -- [6]
+				"Merinde Rejuvenation Paria Tick +2734 (2734 overheal)", -- [7]
+				"Blackregina Judgement of Light Paria Tick +965 (965 overheal)", -- [8]
+				"Paria Thunder Clap Toravon the Ice Watcher Hit -1049 (Physical)", -- [9]
+				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [10]
+				"Sertel Earthliving Paria Tick +857 (857 overheal)", -- [11]
+				"Blackregina Judgement of Light Paria Tick +965 (965 overheal)", -- [12]
+				"Paria Melee Toravon the Ice Watcher Glancing -610 (Physical)", -- [13]
+				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [14]
+				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -5335 (1766 resisted) (1731 Absorbed) (Frost)", -- [15]
+				"Blackregina Judgement of Light Paria Tick +966", -- [16]
+				"Paria Devastate Toravon the Ice Watcher Hit -2306 (Physical)", -- [17]
+				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [18]
+				"Blackregina Judgement of Light Paria Tick +966", -- [19]
+				"Paria Melee Toravon the Ice Watcher Glancing -597 (Physical)", -- [20]
+				"Merinde Rejuvenation Paria Crit +4101 (698 overheal)", -- [21]
+				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [22]
+				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -7065 (1766 resisted) (Frost)", -- [23]
+				"Paria Melee Toravon the Ice Watcher Dodge", -- [24]
+				"Paria Shield Slam Toravon the Ice Watcher Crit -7035 (Physical)", -- [25]
+				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -7948 (883 resisted) (Frost)", -- [26]
+				"Merinde Rejuvenation Paria Tick +2734", -- [27]
+				"Blackregina Judgement of Light Paria Tick +965", -- [28]
+				"Paria Melee Toravon the Ice Watcher Hit -654 (Physical)", -- [29]
+				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [30]
+				"Merinde Swiftmend Paria Crit +16404 (5208 overheal)", -- [31]
+				"Merinde Rejuvenation Paria Tick +2734 (2734 overheal)", -- [32]
+				"Mcstylish Holy Light Paria Hit +13609 (9523 overheal)", -- [33]
+				"Sertel Earthliving Paria Tick +857 (857 overheal)", -- [34]
+				"Mcstylish Judgement of Light Paria Tick +966 (966 overheal)", -- [35]
+				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -5543 (2375 resisted) (Frost)", -- [36]
+				"Sertel Chain Heal Paria Crit +11827 (6284 overheal)", -- [37]
+				"Mcstylish Judgement of Light Paria Tick +966 (966 overheal)", -- [38]
+				"Paria Melee Toravon the Ice Watcher Hit -781 (Physical)", -- [39]
+				"Merinde Rejuvenation Paria Crit +4101 (4101 overheal)", -- [40]
+				"Paria Devastate Toravon the Ice Watcher Crit -5095 (Physical)", -- [41]
+				"Mcstylish Holy Light Paria Hit +13473 (13473 overheal)", -- [42]
+				"Blackregina Judgement of Light Paria Tick +966 (966 overheal)", -- [43]
+				"Paria Melee Toravon the Ice Watcher Hit -862 (Physical)", -- [44]
+				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -4751 (3167 resisted) (Frost)", -- [45]
+				"Sertel Earthliving Paria Tick +857", -- [46]
+				"Toravon the Ice Watcher Whiteout Paria Hit -13248 (1472 resisted) (Frost)", -- [47]
+				"Lionhearted Divine Storm Paria Tick +1013", -- [48]
+				"Baimushi Glyph of Power Word: Shield Paria Hit +1857", -- [49]
+				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [50]
+			},
+			["Name"] = "Paria",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				true, -- [12]
+				false, -- [13]
+				false, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				false, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["LastDamageTaken"] = 7948,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 205,
+						["Physical"] = 81,
+					},
+					["DOTs"] = {
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Frost Warder"] = {
+									["count"] = 72,
+								},
+								["Archavon Warder"] = {
+									["count"] = 60,
+								},
+								["Toravon the Ice Watcher"] = {
+									["count"] = 168,
+								},
+								["Frozen Orb"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 303,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["FDamagedWho"] = {
+						["Litigator"] = {
+							["Details"] = {
+								["Divine Sacrifice"] = {
+									["count"] = 3641,
+								},
+							},
+							["amount"] = 3641,
+						},
+					},
+					["TimeSpent"] = {
+						["Frost Warder"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 2.79,
+								},
+								["Charge Stun"] = {
+									["count"] = 2.71,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 12.8,
+								},
+								["Shockwave"] = {
+									["count"] = 0.48,
+								},
+								["Damage Shield"] = {
+									["count"] = 5.050000000000001,
+								},
+								["Devastate"] = {
+									["count"] = 3.350000000000001,
+								},
+								["Revenge"] = {
+									["count"] = 1.37,
+								},
+								["Melee"] = {
+									["count"] = 11.37,
+								},
+							},
+							["amount"] = 39.91999999999999,
+						},
+						["Litigator"] = {
+							["Details"] = {
+								["Divine Sacrifice"] = {
+									["count"] = 2.44,
+								},
+							},
+							["amount"] = 2.44,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 1.9,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 11.16,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0.53,
+								},
+								["Revenge"] = {
+									["count"] = 0.45,
+								},
+								["Shield Slam"] = {
+									["count"] = 4.38,
+								},
+								["Damage Shield"] = {
+									["count"] = 2.88,
+								},
+								["Devastate"] = {
+									["count"] = 3.43,
+								},
+								["Charge Stun"] = {
+									["count"] = 10.5,
+								},
+								["Melee"] = {
+									["count"] = 11.59,
+								},
+							},
+							["amount"] = 46.81999999999999,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 2.54,
+								},
+								["Melee"] = {
+									["count"] = 33.59000000000001,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 31.34,
+								},
+								["Shield Slam"] = {
+									["count"] = 7.789999999999999,
+								},
+								["Revenge"] = {
+									["count"] = 2.68,
+								},
+								["Thunder Clap"] = {
+									["count"] = 3.53,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 1.85,
+								},
+								["Concussion Blow"] = {
+									["count"] = 0.5,
+								},
+								["Damage Shield"] = {
+									["count"] = 2.35,
+								},
+								["Devastate"] = {
+									["count"] = 7.84,
+								},
+								["Charge Stun"] = {
+									["count"] = 3.5,
+								},
+								["Mocking Blow"] = {
+									["count"] = 0.61,
+								},
+							},
+							["amount"] = 98.12000000000003,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 1.63,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0.29,
+								},
+							},
+							["amount"] = 1.92,
+						},
+					},
+					["DamageTaken"] = 260748,
+					["RageGainedFrom"] = {
+						["Merinde"] = {
+							["Details"] = {
+								["Revitalize"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 56,
+						},
+						["Baimushi"] = {
+							["Details"] = {
+								["Rapture"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						["Paria"] = {
+							["Details"] = {
+								["Bloodrage"] = {
+									["count"] = 60,
+								},
+								["Shield Specialization"] = {
+									["count"] = 145,
+								},
+							},
+							["amount"] = 205,
+						},
+					},
+					["PartialResist"] = {
+						["Frostbite (DoT)"] = {
+							["Details"] = {
+								["75%Resist"] = {
+									["max"] = 648,
+									["min"] = 648,
+									["count"] = 1,
+									["amount"] = 648,
+								},
+								["50%Resist"] = {
+									["max"] = 3167,
+									["min"] = 336,
+									["count"] = 10,
+									["amount"] = 16993,
+								},
+								["25%Resist"] = {
+									["max"] = 1766,
+									["min"] = 167,
+									["count"] = 11,
+									["amount"] = 9078,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 26719,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 42,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 0,
+						},
+						["Whiteout"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 1472,
+									["min"] = 1472,
+									["count"] = 1,
+									["amount"] = 1472,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 1472,
+						},
+						["Frostbite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 748,
+									["min"] = 375,
+									["count"] = 8,
+									["amount"] = 5180,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 488,
+									["min"] = 193,
+									["count"] = 11,
+									["amount"] = 5012,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 10192,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Frostbite (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 2333,
+									["min"] = 140,
+									["count"] = 8,
+									["amount"] = 5771,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 5771,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 31,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 13787,
+									["min"] = 197,
+									["count"] = 11,
+									["amount"] = 66305,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 66305,
+						},
+						["Whiteout"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 9125,
+									["min"] = 7732,
+									["count"] = 2,
+									["amount"] = 16857,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 16857,
+						},
+						["Frostbite"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 7065,
+									["min"] = 987,
+									["count"] = 13,
+									["amount"] = 26082,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 26082,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 1952,
+									["min"] = 140,
+									["count"] = 19,
+									["amount"] = 10556,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 10556,
+						},
+					},
+					["FDamage"] = 3641,
+					["ActiveTime"] = 189.22,
+					["ElementTakenResist"] = {
+						["Frost"] = 38383,
+					},
+					["ElementTaken"] = {
+						["Melee"] = 141874,
+						["Frost"] = 118874,
+					},
+					["DOT_Time"] = 318,
+					["ElementTakenBlock"] = {
+						["Melee"] = 20792,
+					},
+					["TimeDamaging"] = {
+						["Frost Warder"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 2.79,
+								},
+								["Charge Stun"] = {
+									["count"] = 2.71,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 12.8,
+								},
+								["Shockwave"] = {
+									["count"] = 0.48,
+								},
+								["Damage Shield"] = {
+									["count"] = 5.050000000000001,
+								},
+								["Devastate"] = {
+									["count"] = 3.350000000000001,
+								},
+								["Revenge"] = {
+									["count"] = 1.37,
+								},
+								["Melee"] = {
+									["count"] = 11.37,
+								},
+							},
+							["amount"] = 39.91999999999999,
+						},
+						["Litigator"] = {
+							["Details"] = {
+								["Divine Sacrifice"] = {
+									["count"] = 2.44,
+								},
+							},
+							["amount"] = 2.44,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 1.9,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 11.16,
+								},
+								["Thunder Clap"] = {
+									["count"] = 0.53,
+								},
+								["Revenge"] = {
+									["count"] = 0.45,
+								},
+								["Shield Slam"] = {
+									["count"] = 4.38,
+								},
+								["Damage Shield"] = {
+									["count"] = 2.88,
+								},
+								["Devastate"] = {
+									["count"] = 3.43,
+								},
+								["Charge Stun"] = {
+									["count"] = 10.5,
+								},
+								["Melee"] = {
+									["count"] = 11.59,
+								},
+							},
+							["amount"] = 46.81999999999999,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 2.54,
+								},
+								["Melee"] = {
+									["count"] = 33.59000000000001,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 31.34,
+								},
+								["Shield Slam"] = {
+									["count"] = 7.789999999999999,
+								},
+								["Revenge"] = {
+									["count"] = 2.68,
+								},
+								["Thunder Clap"] = {
+									["count"] = 3.53,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 1.85,
+								},
+								["Concussion Blow"] = {
+									["count"] = 0.5,
+								},
+								["Damage Shield"] = {
+									["count"] = 2.35,
+								},
+								["Devastate"] = {
+									["count"] = 7.84,
+								},
+								["Charge Stun"] = {
+									["count"] = 3.5,
+								},
+								["Mocking Blow"] = {
+									["count"] = 0.61,
+								},
+							},
+							["amount"] = 98.12000000000003,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 1.63,
+								},
+								["Revenge"] = {
+									["count"] = 0,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 0.29,
+								},
+							},
+							["amount"] = 1.92,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+						["Melee"] = 66305,
+						["Frost"] = 59266,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 22,
+								},
+								["Hit"] = {
+									["count"] = 61,
+								},
+								["Dodge"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 11,
+								},
+								["Parry"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 108,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 92,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 106,
+								},
+								["Crit"] = {
+									["count"] = 18,
+								},
+								["Parry"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 226,
+						},
+					},
+					["HealingTaken"] = 264829,
+					["Attacks"] = {
+						["Shockwave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 4246,
+									["min"] = 3099,
+									["count"] = 8,
+									["amount"] = 30577,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 30577,
+						},
+						["Deep Wounds (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 375,
+									["min"] = 77,
+									["count"] = 101,
+									["amount"] = 13348,
+								},
+							},
+							["count"] = 101,
+							["amount"] = 13348,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 743,
+									["min"] = 450,
+									["count"] = 22,
+									["amount"] = 12900,
+								},
+								["Hit"] = {
+									["max"] = 863,
+									["min"] = 564,
+									["count"] = 56,
+									["amount"] = 41577,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 742,
+									["min"] = 524,
+									["count"] = 5,
+									["amount"] = 3268,
+								},
+								["Dodge"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 1702,
+									["min"] = 1118,
+									["count"] = 11,
+									["amount"] = 16016,
+								},
+								["Parry"] = {
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 108,
+							["amount"] = 73761,
+						},
+						["Concussion Blow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1600,
+									["min"] = 1600,
+									["count"] = 2,
+									["amount"] = 3200,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3200,
+						},
+						["Rend (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 421,
+									["min"] = 421,
+									["count"] = 5,
+									["amount"] = 2105,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2105,
+						},
+						["Thunder Clap"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1999,
+									["min"] = 1951,
+									["count"] = 2,
+									["amount"] = 3950,
+								},
+								["Hit"] = {
+									["max"] = 1049,
+									["min"] = 826,
+									["count"] = 13,
+									["amount"] = 12650,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 16600,
+						},
+						["Revenge"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 9882,
+									["min"] = 9356,
+									["count"] = 2,
+									["amount"] = 19238,
+								},
+								["Hit"] = {
+									["max"] = 4852,
+									["min"] = 3889,
+									["count"] = 10,
+									["amount"] = 44704,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 63942,
+						},
+						["Shield Slam"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 5218,
+									["min"] = 2570,
+									["count"] = 16,
+									["amount"] = 52965,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 7650,
+									["min"] = 7650,
+									["count"] = 1,
+									["amount"] = 7650,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 7048,
+									["min"] = 5460,
+									["count"] = 7,
+									["amount"] = 45723,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 106338,
+						},
+						["Damage Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 614,
+									["min"] = 257,
+									["count"] = 18,
+									["amount"] = 6323,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 6323,
+						},
+						["Devastate"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 1124,
+									["min"] = 1124,
+									["count"] = 1,
+									["amount"] = 1124,
+								},
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 5095,
+									["min"] = 2426,
+									["count"] = 6,
+									["amount"] = 20550,
+								},
+								["Hit"] = {
+									["max"] = 2345,
+									["min"] = 1115,
+									["count"] = 23,
+									["amount"] = 43857,
+								},
+							},
+							["count"] = 32,
+							["amount"] = 65531,
+						},
+						["Charge Stun"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Mocking Blow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1364,
+									["min"] = 1364,
+									["count"] = 1,
+									["amount"] = 1364,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1364,
+						},
+					},
+					["WhoHealed"] = {
+						["Lionhearted"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 1013,
+								},
+							},
+							["amount"] = 1013,
+						},
+						["Mcstylish"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 3432,
+								},
+								["Holy Light"] = {
+									["count"] = 33479,
+								},
+								["Judgement of Light"] = {
+									["count"] = 2067,
+								},
+								["Glyph of Holy Light"] = {
+									["count"] = 2176,
+								},
+							},
+							["amount"] = 41154,
+						},
+						["Baimushi"] = {
+							["Details"] = {
+								["Echoes of Light"] = {
+									["count"] = 259,
+								},
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 5615,
+								},
+								["Penance"] = {
+									["count"] = 5781,
+								},
+								["Prayer of Mending"] = {
+									["count"] = 10935,
+								},
+							},
+							["amount"] = 22590,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 18658,
+								},
+								["Divine Storm"] = {
+									["count"] = 2364,
+								},
+							},
+							["amount"] = 21022,
+						},
+						["Litigator"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 1796,
+								},
+							},
+							["amount"] = 1796,
+						},
+						["Merinde"] = {
+							["Details"] = {
+								["Swiftmend"] = {
+									["count"] = 44925,
+								},
+								["Regrowth"] = {
+									["count"] = 8595,
+								},
+								["Rejuvenation"] = {
+									["count"] = 27957,
+								},
+								["Wild Growth"] = {
+									["count"] = 15383,
+								},
+								["Living Seed"] = {
+									["count"] = 2692,
+								},
+							},
+							["amount"] = 99552,
+						},
+						["Sertel"] = {
+							["Details"] = {
+								["Earthliving"] = {
+									["count"] = 4268,
+								},
+								["Earth Shield"] = {
+									["count"] = 8603,
+								},
+								["Chain Heal"] = {
+									["count"] = 60448,
+								},
+							},
+							["amount"] = 73319,
+						},
+						["Yindao"] = {
+							["Details"] = {
+								["Renew"] = {
+									["count"] = 4383,
+								},
+							},
+							["amount"] = 4383,
+						},
+					},
+					["FAttacks"] = {
+						["Divine Sacrifice"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 584,
+									["min"] = 298,
+									["count"] = 8,
+									["amount"] = 3641,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 3641,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 15,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Block"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 12,
+								},
+								["Parry"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 42,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 18,
+								},
+								["Hit"] = {
+									["count"] = 20,
+								},
+								["Tick"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 73761,
+						["Physical"] = 309328,
+					},
+					["RageGain"] = 293,
+					["DamagedWho"] = {
+						["Frost Warder"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 26078,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 2978,
+								},
+								["Shockwave"] = {
+									["count"] = 4042,
+								},
+								["Damage Shield"] = {
+									["count"] = 2327,
+								},
+								["Devastate"] = {
+									["count"] = 18811,
+								},
+								["Revenge"] = {
+									["count"] = 13405,
+								},
+								["Melee"] = {
+									["count"] = 13999,
+								},
+							},
+							["amount"] = 81640,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Shield Slam"] = {
+									["count"] = 26361,
+								},
+								["Thunder Clap"] = {
+									["count"] = 2885,
+								},
+								["Melee"] = {
+									["count"] = 14166,
+								},
+								["Revenge"] = {
+									["count"] = 13909,
+								},
+								["Damage Shield"] = {
+									["count"] = 2302,
+								},
+								["Devastate"] = {
+									["count"] = 16629,
+								},
+								["Shockwave"] = {
+									["count"] = 10537,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 2829,
+								},
+							},
+							["amount"] = 89618,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Shockwave"] = {
+									["count"] = 15998,
+								},
+								["Melee"] = {
+									["count"] = 45596,
+								},
+								["Concussion Blow"] = {
+									["count"] = 3200,
+								},
+								["Shield Slam"] = {
+									["count"] = 53899,
+								},
+								["Thunder Clap"] = {
+									["count"] = 9981,
+								},
+								["Rend (DoT)"] = {
+									["count"] = 2105,
+								},
+								["Revenge"] = {
+									["count"] = 28621,
+								},
+								["Damage Shield"] = {
+									["count"] = 1694,
+								},
+								["Devastate"] = {
+									["count"] = 30091,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 7445,
+								},
+								["Mocking Blow"] = {
+									["count"] = 1364,
+								},
+							},
+							["amount"] = 199994,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Thunder Clap"] = {
+									["count"] = 3734,
+								},
+								["Revenge"] = {
+									["count"] = 8007,
+								},
+								["Deep Wounds (DoT)"] = {
+									["count"] = 96,
+								},
+							},
+							["amount"] = 11837,
+						},
+					},
+					["TimeDamage"] = 189.22,
+					["WhoDamaged"] = {
+						["Frost Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 47941,
+								},
+								["Frostbite (DoT)"] = {
+									["count"] = 8539,
+								},
+							},
+							["amount"] = 56480,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 49622,
+								},
+							},
+							["amount"] = 49622,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Frostbite (DoT)"] = {
+									["count"] = 69212,
+								},
+								["Melee"] = {
+									["count"] = 44311,
+								},
+								["Whiteout"] = {
+									["count"] = 13248,
+								},
+							},
+							["amount"] = 126771,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Frozen Orb"] = {
+									["count"] = 27875,
+								},
+							},
+							["amount"] = 27875,
+						},
+					},
+					["Damage"] = 383089,
+					["RageGained"] = {
+						["Bloodrage"] = {
+							["Details"] = {
+								["Paria"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						["Shield Specialization"] = {
+							["Details"] = {
+								["Paria"] = {
+									["count"] = 145,
+								},
+							},
+							["amount"] = 145,
+						},
+						["Revitalize"] = {
+							["Details"] = {
+								["Merinde"] = {
+									["count"] = 56,
+								},
+							},
+							["amount"] = 56,
+						},
+						["Rapture"] = {
+							["Details"] = {
+								["Baimushi"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 4460,
+									["min"] = 1594,
+									["count"] = 7,
+									["amount"] = 20792,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 20792,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1689155602,
+			["LastActive"] = 1689156102,
 		},
 		["Strength of Earth Totem VIII <Charliesh>"] = {
 			["DeathLogs"] = {
@@ -38259,41 +41140,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -38301,22 +41181,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -38324,28 +41203,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -38362,41 +41243,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -38404,22 +41284,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -38427,28 +41306,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -38457,7 +41338,779 @@ RecountPerCharDB = {
 				},
 			},
 			["UnitLockout"] = 1689156133,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
+		},
+		["Treant <Zjabak>"] = {
+			["GUID"] = "0xF1300007AC00004E",
+			["LastEventHealth"] = {
+				"7892 (96%)", -- [1]
+				"7892 (96%)", -- [2]
+				"7892 (96%)", -- [3]
+				"7892 (96%)", -- [4]
+				"8065 (98%)", -- [5]
+				"8065 (98%)", -- [6]
+				"8065 (98%)", -- [7]
+				"8065 (98%)", -- [8]
+				"8065 (98%)", -- [9]
+				"8167 (100%)", -- [10]
+				"8167 (100%)", -- [11]
+				"8167 (100%)", -- [12]
+				"8167 (100%)", -- [13]
+				"8167 (100%)", -- [14]
+				"8167 (100%)", -- [15]
+				"8167 (100%)", -- [16]
+				"8167 (100%)", -- [17]
+				"8167 (100%)", -- [18]
+				"8167 (100%)", -- [19]
+				"8167 (100%)", -- [20]
+				"8167 (100%)", -- [21]
+				"8167 (100%)", -- [22]
+				"8167 (100%)", -- [23]
+				"8167 (100%)", -- [24]
+				"8167 (100%)", -- [25]
+				"8167 (100%)", -- [26]
+				"8167 (100%)", -- [27]
+				"8167 (100%)", -- [28]
+				"8167 (100%)", -- [29]
+				"8167 (100%)", -- [30]
+				"8167 (100%)", -- [31]
+				"8167 (100%)", -- [32]
+				"8167 (100%)", -- [33]
+				"8006 (98%)", -- [34]
+				"8006 (98%)", -- [35]
+				"8006 (98%)", -- [36]
+				"8006 (98%)", -- [37]
+				"7853 (96%)", -- [38]
+				"7853 (96%)", -- [39]
+				"7853 (96%)", -- [40]
+				"7719 (94%)", -- [41]
+				"7719 (94%)", -- [42]
+				"7719 (94%)", -- [43]
+				"7892 (96%)", -- [44]
+				"7892 (96%)", -- [45]
+				"7892 (96%)", -- [46]
+				"7892 (96%)", -- [47]
+				"7892 (96%)", -- [48]
+				"7892 (96%)", -- [49]
+				"7892 (96%)", -- [50]
+			},
+			["LastAttackedBy"] = "Frozen Orb",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"HEAL", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"DAMAGE", -- [13]
+				"HEAL", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"HEAL", -- [17]
+				"HEAL", -- [18]
+				"HEAL", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"HEAL", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"HEAL", -- [26]
+				"DAMAGE", -- [27]
+				"HEAL", -- [28]
+				"HEAL", -- [29]
+				"HEAL", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"HEAL", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"HEAL", -- [44]
+				"DAMAGE", -- [45]
+				"HEAL", -- [46]
+				"HEAL", -- [47]
+				"HEAL", -- [48]
+				"DAMAGE", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["HealingTaken"] = {
+					12782, -- [1]
+				},
+				["ActiveTime"] = {
+					32.13, -- [1]
+				},
+				["TimeDamage"] = {
+					32.13, -- [1]
+				},
+				["DamageTaken"] = {
+					12782, -- [1]
+				},
+				["Damage"] = {
+					41494, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Treant",
+			["level"] = 1,
+			["LastDamageAbility"] = "Frozen Orb",
+			["LastFightIn"] = 4,
+			["LastEventNum"] = {
+				[14] = 2.1060364883066,
+				[29] = 9.31798702093792,
+				[30] = 2.1060364883066,
+				[17] = 11.08118035998531,
+				[18] = 10.65262642341129,
+				[37] = 1.885637320925677,
+				[19] = 2.1060364883066,
+				[39] = 1.848904126362189,
+				[40] = 1.83665972817436,
+				[10] = 11.98726582588466,
+				[34] = 2.1060364883066,
+				[5] = 2.118280886494429,
+				[11] = 11.53422309293498,
+				[23] = 10.22407248683727,
+				[47] = 17.76662177053998,
+				[48] = 2.118280886494429,
+				[12] = 2.118280886494429,
+				[50] = 2.118280886494429,
+				[44] = 2.118280886494429,
+				[26] = 2.118280886494429,
+				[36] = 1.848904126362189,
+				[38] = 1.873392922737847,
+				[41] = 1.640749357169095,
+				[28] = 9.771029753887596,
+				[46] = 17.77886616872781,
+			},
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["LastAbility"] = 19157.908,
+			["LastEventTimes"] = {
+				13989.167, -- [1]
+				13989.247, -- [2]
+				13990.869, -- [3]
+				13990.869, -- [4]
+				13990.902, -- [5]
+				13990.903, -- [6]
+				13992.548, -- [7]
+				13992.548, -- [8]
+				13992.597, -- [9]
+				13992.788, -- [10]
+				13993.823, -- [11]
+				13994.208, -- [12]
+				13994.209, -- [13]
+				13994.209, -- [14]
+				13994.209, -- [15]
+				13994.301, -- [16]
+				13994.821, -- [17]
+				13995.804, -- [18]
+				13995.891, -- [19]
+				13995.891, -- [20]
+				13995.892, -- [21]
+				13995.949, -- [22]
+				13996.791, -- [23]
+				13997.571, -- [24]
+				13997.572, -- [25]
+				13997.59, -- [26]
+				13997.591, -- [27]
+				13997.796, -- [28]
+				13998.791, -- [29]
+				13999.22, -- [30]
+				13999.22, -- [31]
+				13999.22, -- [32]
+				13999.304, -- [33]
+				13985.917, -- [34]
+				13985.917, -- [35]
+				13986.291, -- [36]
+				13986.291, -- [37]
+				13986.291, -- [38]
+				13987.304, -- [39]
+				13987.304, -- [40]
+				13987.305, -- [41]
+				13987.543, -- [42]
+				13987.544, -- [43]
+				13987.571, -- [44]
+				13987.571, -- [45]
+				13988.986, -- [46]
+				13988.986, -- [47]
+				13989.166, -- [48]
+				13989.166, -- [49]
+				13989.167, -- [50]
+			},
+			["Owner"] = "Zjabak",
+			["LastDamageTaken"] = 134,
+			["NextEventNum"] = 34,
+			["LastEventHealthNum"] = {
+				96.63279049834701, -- [1]
+				96.63279049834701, -- [2]
+				96.63279049834701, -- [3]
+				96.63279049834701, -- [4]
+				98.75107138484144, -- [5]
+				98.75107138484144, -- [6]
+				98.75107138484144, -- [7]
+				98.75107138484144, -- [8]
+				98.75107138484144, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				98.02865189175952, -- [34]
+				98.02865189175952, -- [35]
+				98.02865189175952, -- [36]
+				98.02865189175952, -- [37]
+				96.15525896902167, -- [38]
+				96.15525896902167, -- [39]
+				96.15525896902167, -- [40]
+				94.51450961185257, -- [41]
+				94.51450961185257, -- [42]
+				94.51450961185257, -- [43]
+				96.63279049834701, -- [44]
+				96.63279049834701, -- [45]
+				96.63279049834701, -- [46]
+				96.63279049834701, -- [47]
+				96.63279049834701, -- [48]
+				96.63279049834701, -- [49]
+				96.63279049834701, -- [50]
+			},
+			["LastEvents"] = {
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -500 (Physical)", -- [1]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Crit -1536 (Physical)", -- [2]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -545 (Physical)", -- [3]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -644 (Physical)", -- [4]
+				"Blackregina Judgement of Light Treant <Zjabak> Tick +173", -- [5]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Crit -1552 (Physical)", -- [6]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -559 (Physical)", -- [7]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -755 (Physical)", -- [8]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -832 (Physical)", -- [9]
+				"Merinde Wild Growth Treant <Zjabak> Tick +979 (877 overheal)", -- [10]
+				"Merinde Wild Growth Treant <Zjabak> Tick +942 (942 overheal)", -- [11]
+				"Mcstylish Judgement of Light Treant <Zjabak> Tick +173 (173 overheal)", -- [12]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -508 (Physical)", -- [13]
+				"Mcstylish Judgement of Light Treant <Zjabak> Tick +172 (172 overheal)", -- [14]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -704 (Physical)", -- [15]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -809 (Physical)", -- [16]
+				"Merinde Wild Growth Treant <Zjabak> Tick +905 (905 overheal)", -- [17]
+				"Merinde Wild Growth Treant <Zjabak> Tick +870 (870 overheal)", -- [18]
+				"Mcstylish Judgement of Light Treant <Zjabak> Tick +172 (172 overheal)", -- [19]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -760 (Physical)", -- [20]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -664 (Physical)", -- [21]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -514 (Physical)", -- [22]
+				"Merinde Wild Growth Treant <Zjabak> Tick +835 (835 overheal)", -- [23]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -735 (Physical)", -- [24]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -553 (Physical)", -- [25]
+				"Mcstylish Judgement of Light Treant <Zjabak> Tick +173 (173 overheal)", -- [26]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -734 (Physical)", -- [27]
+				"Merinde Wild Growth Treant <Zjabak> Tick +798 (798 overheal)", -- [28]
+				"Merinde Wild Growth Treant <Zjabak> Tick +761 (761 overheal)", -- [29]
+				"Blackregina Judgement of Light Treant <Zjabak> Tick +172 (172 overheal)", -- [30]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -737 (Physical)", -- [31]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -772 (Physical)", -- [32]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -843 (Physical)", -- [33]
+				"Blackregina Judgement of Light Treant <Zjabak> Tick +172", -- [34]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -549 (Physical)", -- [35]
+				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -151 (64 resisted) (Frost)", -- [36]
+				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -154 (65 resisted) (Frost)", -- [37]
+				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -153 (65 resisted) (Frost)", -- [38]
+				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -151 (64 resisted) (Frost)", -- [39]
+				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -150 (64 resisted) (Frost)", -- [40]
+				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -134 (89 resisted) (Frost)", -- [41]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -734 (Physical)", -- [42]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -513 (Physical)", -- [43]
+				"Blackregina Judgement of Light Treant <Zjabak> Tick +173", -- [44]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -791 (Physical)", -- [45]
+				"Mcstylish Glyph of Holy Light Treant <Zjabak> Hit +1452 (776 overheal)", -- [46]
+				"Mcstylish Glyph of Holy Light Treant <Zjabak> Hit +1451 (840 overheal)", -- [47]
+				"Blackregina Judgement of Light Treant <Zjabak> Tick +173 (173 overheal)", -- [48]
+				"Treant <Zjabak> Melee Toravon the Ice Watcher Crit -1484 (Physical)", -- [49]
+				"Blackregina Judgement of Light Treant <Zjabak> Tick +173 (173 overheal)", -- [50]
+			},
+			["Name"] = "Treant",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				false, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				true, -- [34]
+				false, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["TimeLast"] = {
+				["HealingTaken"] = 1689156077,
+				["ActiveTime"] = 1689156083,
+				["TimeDamage"] = 1689156083,
+				["OVERALL"] = 1689156083,
+				["DamageTaken"] = 1689156071,
+				["Damage"] = 1689156083,
+			},
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32.13,
+								},
+							},
+							["amount"] = 32.13,
+						},
+					},
+					["DamageTaken"] = 12782,
+					["ElementTakenResist"] = {
+						["Frost"] = 4490,
+					},
+					["PartialResist"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 91,
+									["min"] = 63,
+									["count"] = 41,
+									["amount"] = 3020,
+								},
+								["25%Resist"] = {
+									["max"] = 46,
+									["min"] = 21,
+									["count"] = 37,
+									["amount"] = 1470,
+								},
+							},
+							["count"] = 78,
+							["amount"] = 4490,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 78,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 78,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 32.13,
+					["ElementTaken"] = {
+						["Frost"] = 12782,
+					},
+					["Damage"] = 41494,
+					["WhoHealed"] = {
+						["Mcstylish"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 4014,
+								},
+							},
+							["amount"] = 4014,
+						},
+						["Merinde"] = {
+							["Details"] = {
+								["Wild Growth"] = {
+									["count"] = 7214,
+								},
+							},
+							["amount"] = 7214,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 1554,
+								},
+							},
+							["amount"] = 1554,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 78,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 41494,
+					},
+					["HealingTaken"] = 12782,
+					["DamagedWho"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 41494,
+								},
+							},
+							["amount"] = 41494,
+						},
+					},
+					["TimeDamage"] = 32.13,
+					["TimeDamaging"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32.13,
+								},
+							},
+							["amount"] = 32.13,
+						},
+					},
+					["WhoDamaged"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Frozen Orb"] = {
+									["count"] = 12782,
+								},
+							},
+							["amount"] = 12782,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 15,
+								},
+								["Hit"] = {
+									["count"] = 28,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 54,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 575,
+									["min"] = 461,
+									["count"] = 15,
+									["amount"] = 7882,
+								},
+								["Hit"] = {
+									["max"] = 843,
+									["min"] = 622,
+									["count"] = 28,
+									["amount"] = 20540,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 1552,
+									["min"] = 1288,
+									["count"] = 9,
+									["amount"] = 13072,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 54,
+							["amount"] = 41494,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1689156055,
+			["LastActive"] = 1689156083,
 		},
 		["Healing Stream Totem IX <Sertel>"] = {
 			["GUID"] = "0xF1300079D100003F",
@@ -38590,7 +42243,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 5,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14041.933, -- [1]
 				14043.964, -- [2]
@@ -39075,41 +42728,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -39117,22 +42769,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -39140,28 +42791,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -39178,41 +42831,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -39220,22 +42872,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -39243,28 +42894,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -39383,7 +43036,7 @@ RecountPerCharDB = {
 						},
 					},
 					["DeathCount"] = 1,
-					["HOT_Time"] = 765,
+					["Overhealing"] = 110209,
 					["ActiveTime"] = 55.03999999999999,
 					["Healing"] = 23776,
 					["TimeHealing"] = {
@@ -39450,3581 +43103,11 @@ RecountPerCharDB = {
 							["amount"] = 765,
 						},
 					},
-					["Overhealing"] = 110209,
+					["HOT_Time"] = 765,
 				},
 			},
 			["UnitLockout"] = 1689156138,
 			["LastActive"] = 1689156138,
-		},
-		["Paria"] = {
-			["GUID"] = "0x07000000009557D4",
-			["TimeLast"] = {
-				["OVERALL"] = 1689156101,
-				["DamageTaken"] = 1689156099,
-				["HealingTaken"] = 1689156101,
-				["FDamage"] = 1689156064,
-				["TimeDamage"] = 1689156100,
-				["ActiveTime"] = 1689156100,
-				["RageGain"] = 1689156087,
-				["DOT_Time"] = 1689156100,
-				["Damage"] = 1689156100,
-			},
-			["LastAttackedBy"] = "Toravon the Ice Watcher",
-			["LastEventType"] = {
-				"HEAL", -- [1]
-				"HEAL", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"HEAL", -- [7]
-				"HEAL", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"HEAL", -- [11]
-				"HEAL", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"DAMAGE", -- [15]
-				"HEAL", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"HEAL", -- [19]
-				"DAMAGE", -- [20]
-				"HEAL", -- [21]
-				"DAMAGE", -- [22]
-				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
-				"DAMAGE", -- [25]
-				"DAMAGE", -- [26]
-				"HEAL", -- [27]
-				"HEAL", -- [28]
-				"DAMAGE", -- [29]
-				"DAMAGE", -- [30]
-				"HEAL", -- [31]
-				"HEAL", -- [32]
-				"HEAL", -- [33]
-				"HEAL", -- [34]
-				"HEAL", -- [35]
-				"DAMAGE", -- [36]
-				"HEAL", -- [37]
-				"HEAL", -- [38]
-				"DAMAGE", -- [39]
-				"HEAL", -- [40]
-				"DAMAGE", -- [41]
-				"HEAL", -- [42]
-				"HEAL", -- [43]
-				"DAMAGE", -- [44]
-				"DAMAGE", -- [45]
-				"HEAL", -- [46]
-				"DAMAGE", -- [47]
-				"HEAL", -- [48]
-				"HEAL", -- [49]
-				"DAMAGE", -- [50]
-			},
-			["TimeWindows"] = {
-				["RageGain"] = {
-					293, -- [1]
-				},
-				["HealingTaken"] = {
-					264829, -- [1]
-				},
-				["FDamage"] = {
-					3641, -- [1]
-				},
-				["ActiveTime"] = {
-					189.22, -- [1]
-				},
-				["DOT_Time"] = {
-					318, -- [1]
-				},
-				["TimeDamage"] = {
-					189.22, -- [1]
-				},
-				["DamageTaken"] = {
-					260748, -- [1]
-				},
-				["Damage"] = {
-					383089, -- [1]
-				},
-			},
-			["enClass"] = "WARRIOR",
-			["unit"] = "Paria",
-			["level"] = 80,
-			["LastDamageAbility"] = "Frostbite (DoT)",
-			["LastFightIn"] = 4,
-			["LastEventNum"] = {
-				45.07638949863904, -- [1]
-				2.120467117393977, -- [2]
-				nil, -- [3]
-				nil, -- [4]
-				nil, -- [5]
-				nil, -- [6]
-				6.001404864342787, -- [7]
-				2.118272016858372, -- [8]
-				nil, -- [9]
-				nil, -- [10]
-				1.881201159013083, -- [11]
-				2.118272016858372, -- [12]
-				nil, -- [13]
-				nil, -- [14]
-				11.71086135745017, -- [15]
-				2.120467117393977, -- [16]
-				nil, -- [17]
-				nil, -- [18]
-				2.120467117393977, -- [19]
-				nil, -- [20]
-				9.002107296514181, -- [21]
-				nil, -- [22]
-				15.50838528404601, -- [23]
-				nil, -- [24]
-				nil, -- [25]
-				17.44665905698481, -- [26]
-				6.001404864342787, -- [27]
-				2.118272016858372, -- [28]
-				nil, -- [29]
-				nil, -- [30]
-				36.00842918605672, -- [31]
-				6.001404864342787, -- [32]
-				29.87312318904206, -- [33]
-				1.881201159013083, -- [34]
-				2.120467117393977, -- [35]
-				12.16744226885591, -- [36]
-				25.96145403459478, -- [37]
-				2.120467117393977, -- [38]
-				nil, -- [39]
-				9.002107296514181, -- [40]
-				[42] = 29.57458951619984,
-				[43] = 2.120467117393977,
-				[45] = 10.42892264465713,
-				[46] = 1.881201159013083,
-				[47] = 29.08069189568882,
-				[48] = 2.22363684256739,
-				[49] = 4.076301694617613,
-			},
-			["type"] = "Ungrouped",
-			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
-			["LastEventTimes"] = {
-				14008.221, -- [1]
-				14008.542, -- [2]
-				14008.542, -- [3]
-				14008.993, -- [4]
-				14009.107, -- [5]
-				14009.357, -- [6]
-				14009.482, -- [7]
-				14010.048, -- [8]
-				14010.049, -- [9]
-				14010.092, -- [10]
-				14010.433, -- [11]
-				14010.624, -- [12]
-				14010.624, -- [13]
-				14011.116, -- [14]
-				14011.356, -- [15]
-				14011.601, -- [16]
-				14011.601, -- [17]
-				14012.103, -- [18]
-				14012.316, -- [19]
-				14012.316, -- [20]
-				14012.485, -- [21]
-				14013.074, -- [22]
-				14013.321, -- [23]
-				14013.939, -- [24]
-				14014.747, -- [25]
-				14015.346, -- [26]
-				14015.471, -- [27]
-				14015.605, -- [28]
-				14015.605, -- [29]
-				14015.966, -- [30]
-				14017.583, -- [31]
-				14018.49, -- [32]
-				14004.191, -- [33]
-				14004.403, -- [34]
-				14005.2, -- [35]
-				14005.341, -- [36]
-				14005.524, -- [37]
-				14005.558, -- [38]
-				14005.558, -- [39]
-				14006.469, -- [40]
-				14006.867, -- [41]
-				14007.047, -- [42]
-				14007.22, -- [43]
-				14007.221, -- [44]
-				14007.333, -- [45]
-				14007.436, -- [46]
-				14007.547, -- [47]
-				14007.693, -- [48]
-				14007.694, -- [49]
-				14008.114, -- [50]
-			},
-			["Owner"] = false,
-			["LastEventHealth"] = {
-				"45556 (100%)", -- [1]
-				"45556 (100%)", -- [2]
-				"45556 (100%)", -- [3]
-				"45556 (100%)", -- [4]
-				"45556 (100%)", -- [5]
-				"45556 (100%)", -- [6]
-				"45556 (100%)", -- [7]
-				"45556 (100%)", -- [8]
-				"45556 (100%)", -- [9]
-				"45556 (100%)", -- [10]
-				"45556 (100%)", -- [11]
-				"45556 (100%)", -- [12]
-				"45556 (100%)", -- [13]
-				"45556 (100%)", -- [14]
-				"40221 (88%)", -- [15]
-				"41187 (90%)", -- [16]
-				"41187 (90%)", -- [17]
-				"41187 (90%)", -- [18]
-				"42153 (92%)", -- [19]
-				"42153 (92%)", -- [20]
-				"45556 (100%)", -- [21]
-				"45556 (100%)", -- [22]
-				"38491 (84%)", -- [23]
-				"38491 (84%)", -- [24]
-				"38491 (84%)", -- [25]
-				"30543 (67%)", -- [26]
-				"33277 (73%)", -- [27]
-				"34242 (75%)", -- [28]
-				"34242 (75%)", -- [29]
-				"34242 (75%)", -- [30]
-				"45556 (100%)", -- [31]
-				"45556 (100%)", -- [32]
-				"45556 (100%)", -- [33]
-				"45556 (100%)", -- [34]
-				"45556 (100%)", -- [35]
-				"40013 (87%)", -- [36]
-				"45556 (100%)", -- [37]
-				"45556 (100%)", -- [38]
-				"45556 (100%)", -- [39]
-				"45556 (100%)", -- [40]
-				"45556 (100%)", -- [41]
-				"45556 (100%)", -- [42]
-				"45556 (100%)", -- [43]
-				"45556 (100%)", -- [44]
-				"40805 (89%)", -- [45]
-				"41662 (91%)", -- [46]
-				"28414 (62%)", -- [47]
-				"29427 (64%)", -- [48]
-				"31284 (68%)", -- [49]
-				"31284 (68%)", -- [50]
-			},
-			["NextEventNum"] = 33,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				88.28913864254983, -- [15]
-				90.4096057599438, -- [16]
-				90.4096057599438, -- [17]
-				90.4096057599438, -- [18]
-				92.53007287733779, -- [19]
-				92.53007287733779, -- [20]
-				100, -- [21]
-				100, -- [22]
-				84.49161471595399, -- [23]
-				84.49161471595399, -- [24]
-				84.49161471595399, -- [25]
-				67.04495565896919, -- [26]
-				73.04636052331196, -- [27]
-				75.16463254017035, -- [28]
-				75.16463254017035, -- [29]
-				75.16463254017035, -- [30]
-				100, -- [31]
-				100, -- [32]
-				100, -- [33]
-				100, -- [34]
-				100, -- [35]
-				87.83255773114409, -- [36]
-				100, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				100, -- [41]
-				100, -- [42]
-				100, -- [43]
-				100, -- [44]
-				89.57107735534288, -- [45]
-				91.45227851435595, -- [46]
-				62.37158661866714, -- [47]
-				64.59522346123453, -- [48]
-				68.67152515585214, -- [49]
-				68.67152515585214, -- [50]
-			},
-			["LastEvents"] = {
-				"Mcstylish Holy Light Paria Crit +20535 (6263 overheal)", -- [1]
-				"Blackregina Judgement of Light Paria Tick +966 (966 overheal)", -- [2]
-				"Paria Shield Slam Toravon the Ice Watcher Hit -3164 (Physical)", -- [3]
-				"Paria Melee Toravon the Ice Watcher Hit -771 (Physical)", -- [4]
-				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [5]
-				"Toravon the Ice Watcher Frostbite Paria Absorb (7065 Absorbed) (Frost)", -- [6]
-				"Merinde Rejuvenation Paria Tick +2734 (2734 overheal)", -- [7]
-				"Blackregina Judgement of Light Paria Tick +965 (965 overheal)", -- [8]
-				"Paria Thunder Clap Toravon the Ice Watcher Hit -1049 (Physical)", -- [9]
-				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [10]
-				"Sertel Earthliving Paria Tick +857 (857 overheal)", -- [11]
-				"Blackregina Judgement of Light Paria Tick +965 (965 overheal)", -- [12]
-				"Paria Melee Toravon the Ice Watcher Glancing -610 (Physical)", -- [13]
-				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [14]
-				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -5335 (1766 resisted) (1731 Absorbed) (Frost)", -- [15]
-				"Blackregina Judgement of Light Paria Tick +966", -- [16]
-				"Paria Devastate Toravon the Ice Watcher Hit -2306 (Physical)", -- [17]
-				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [18]
-				"Blackregina Judgement of Light Paria Tick +966", -- [19]
-				"Paria Melee Toravon the Ice Watcher Glancing -597 (Physical)", -- [20]
-				"Merinde Rejuvenation Paria Crit +4101 (698 overheal)", -- [21]
-				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [22]
-				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -7065 (1766 resisted) (Frost)", -- [23]
-				"Paria Melee Toravon the Ice Watcher Dodge", -- [24]
-				"Paria Shield Slam Toravon the Ice Watcher Crit -7035 (Physical)", -- [25]
-				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -7948 (883 resisted) (Frost)", -- [26]
-				"Merinde Rejuvenation Paria Tick +2734", -- [27]
-				"Blackregina Judgement of Light Paria Tick +965", -- [28]
-				"Paria Melee Toravon the Ice Watcher Hit -654 (Physical)", -- [29]
-				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [30]
-				"Merinde Swiftmend Paria Crit +16404 (5208 overheal)", -- [31]
-				"Merinde Rejuvenation Paria Tick +2734 (2734 overheal)", -- [32]
-				"Mcstylish Holy Light Paria Hit +13609 (9523 overheal)", -- [33]
-				"Sertel Earthliving Paria Tick +857 (857 overheal)", -- [34]
-				"Mcstylish Judgement of Light Paria Tick +966 (966 overheal)", -- [35]
-				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -5543 (2375 resisted) (Frost)", -- [36]
-				"Sertel Chain Heal Paria Crit +11827 (6284 overheal)", -- [37]
-				"Mcstylish Judgement of Light Paria Tick +966 (966 overheal)", -- [38]
-				"Paria Melee Toravon the Ice Watcher Hit -781 (Physical)", -- [39]
-				"Merinde Rejuvenation Paria Crit +4101 (4101 overheal)", -- [40]
-				"Paria Devastate Toravon the Ice Watcher Crit -5095 (Physical)", -- [41]
-				"Mcstylish Holy Light Paria Hit +13473 (13473 overheal)", -- [42]
-				"Blackregina Judgement of Light Paria Tick +966 (966 overheal)", -- [43]
-				"Paria Melee Toravon the Ice Watcher Hit -862 (Physical)", -- [44]
-				"Toravon the Ice Watcher Frostbite (DoT) Paria Tick -4751 (3167 resisted) (Frost)", -- [45]
-				"Sertel Earthliving Paria Tick +857", -- [46]
-				"Toravon the Ice Watcher Whiteout Paria Hit -13248 (1472 resisted) (Frost)", -- [47]
-				"Lionhearted Divine Storm Paria Tick +1013", -- [48]
-				"Baimushi Glyph of Power Word: Shield Paria Hit +1857", -- [49]
-				"Paria Deep Wounds (DoT) Toravon the Ice Watcher Tick -96 (Physical)", -- [50]
-			},
-			["Name"] = "Paria",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				false, -- [9]
-				false, -- [10]
-				true, -- [11]
-				true, -- [12]
-				false, -- [13]
-				false, -- [14]
-				true, -- [15]
-				true, -- [16]
-				false, -- [17]
-				false, -- [18]
-				true, -- [19]
-				false, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				false, -- [29]
-				false, -- [30]
-				true, -- [31]
-				true, -- [32]
-				true, -- [33]
-				true, -- [34]
-				true, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				false, -- [39]
-				true, -- [40]
-				false, -- [41]
-				true, -- [42]
-				true, -- [43]
-				false, -- [44]
-				true, -- [45]
-				true, -- [46]
-				true, -- [47]
-				true, -- [48]
-				true, -- [49]
-				false, -- [50]
-			},
-			["LastDamageTaken"] = 7948,
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Melee"] = 205,
-						["Physical"] = 81,
-					},
-					["DOTs"] = {
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Frost Warder"] = {
-									["count"] = 72,
-								},
-								["Archavon Warder"] = {
-									["count"] = 60,
-								},
-								["Toravon the Ice Watcher"] = {
-									["count"] = 168,
-								},
-								["Frozen Orb"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 303,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Toravon the Ice Watcher"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["FDamage"] = 3641,
-					["TimeSpent"] = {
-						["Frost Warder"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 2.79,
-								},
-								["Charge Stun"] = {
-									["count"] = 2.71,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 12.8,
-								},
-								["Shockwave"] = {
-									["count"] = 0.48,
-								},
-								["Damage Shield"] = {
-									["count"] = 5.050000000000001,
-								},
-								["Devastate"] = {
-									["count"] = 3.350000000000001,
-								},
-								["Revenge"] = {
-									["count"] = 1.37,
-								},
-								["Melee"] = {
-									["count"] = 11.37,
-								},
-							},
-							["amount"] = 39.91999999999999,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Divine Sacrifice"] = {
-									["count"] = 2.44,
-								},
-							},
-							["amount"] = 2.44,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 1.9,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 11.16,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0.53,
-								},
-								["Revenge"] = {
-									["count"] = 0.45,
-								},
-								["Shield Slam"] = {
-									["count"] = 4.38,
-								},
-								["Damage Shield"] = {
-									["count"] = 2.88,
-								},
-								["Devastate"] = {
-									["count"] = 3.43,
-								},
-								["Charge Stun"] = {
-									["count"] = 10.5,
-								},
-								["Melee"] = {
-									["count"] = 11.59,
-								},
-							},
-							["amount"] = 46.81999999999999,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 2.54,
-								},
-								["Melee"] = {
-									["count"] = 33.59000000000001,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 31.34,
-								},
-								["Shield Slam"] = {
-									["count"] = 7.789999999999999,
-								},
-								["Revenge"] = {
-									["count"] = 2.68,
-								},
-								["Charge Stun"] = {
-									["count"] = 3.5,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 1.85,
-								},
-								["Concussion Blow"] = {
-									["count"] = 0.5,
-								},
-								["Damage Shield"] = {
-									["count"] = 2.35,
-								},
-								["Devastate"] = {
-									["count"] = 7.84,
-								},
-								["Thunder Clap"] = {
-									["count"] = 3.53,
-								},
-								["Mocking Blow"] = {
-									["count"] = 0.61,
-								},
-							},
-							["amount"] = 98.12000000000003,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 1.63,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0.29,
-								},
-							},
-							["amount"] = 1.92,
-						},
-					},
-					["DamageTaken"] = 260748,
-					["RageGainedFrom"] = {
-						["Merinde"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 56,
-								},
-							},
-							["amount"] = 56,
-						},
-						["Baimushi"] = {
-							["Details"] = {
-								["Rapture"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						["Paria"] = {
-							["Details"] = {
-								["Bloodrage"] = {
-									["count"] = 60,
-								},
-								["Shield Specialization"] = {
-									["count"] = 145,
-								},
-							},
-							["amount"] = 205,
-						},
-					},
-					["PartialResist"] = {
-						["Frostbite (DoT)"] = {
-							["Details"] = {
-								["75%Resist"] = {
-									["max"] = 648,
-									["min"] = 648,
-									["count"] = 1,
-									["amount"] = 648,
-								},
-								["50%Resist"] = {
-									["max"] = 3167,
-									["min"] = 336,
-									["count"] = 10,
-									["amount"] = 16993,
-								},
-								["25%Resist"] = {
-									["max"] = 1766,
-									["min"] = 167,
-									["count"] = 11,
-									["amount"] = 9078,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 26719,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 42,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 42,
-							["amount"] = 0,
-						},
-						["Whiteout"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 1472,
-									["min"] = 1472,
-									["count"] = 1,
-									["amount"] = 1472,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1472,
-						},
-						["Frostbite"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 13,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 0,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 748,
-									["min"] = 375,
-									["count"] = 8,
-									["amount"] = 5180,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 488,
-									["min"] = 193,
-									["count"] = 11,
-									["amount"] = 5012,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 10192,
-						},
-					},
-					["FDamagedWho"] = {
-						["Litigator"] = {
-							["Details"] = {
-								["Divine Sacrifice"] = {
-									["count"] = 3641,
-								},
-							},
-							["amount"] = 3641,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Frostbite (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 14,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 2333,
-									["min"] = 140,
-									["count"] = 8,
-									["amount"] = 5771,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 5771,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 31,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 13787,
-									["min"] = 197,
-									["count"] = 11,
-									["amount"] = 66305,
-								},
-							},
-							["count"] = 42,
-							["amount"] = 66305,
-						},
-						["Whiteout"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 9125,
-									["min"] = 7732,
-									["count"] = 2,
-									["amount"] = 16857,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 16857,
-						},
-						["Frostbite"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 7065,
-									["min"] = 987,
-									["count"] = 13,
-									["amount"] = 26082,
-								},
-							},
-							["count"] = 13,
-							["amount"] = 26082,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 1952,
-									["min"] = 140,
-									["count"] = 19,
-									["amount"] = 10556,
-								},
-							},
-							["count"] = 22,
-							["amount"] = 10556,
-						},
-					},
-					["ActiveTime"] = 189.22,
-					["ElementTakenResist"] = {
-						["Frost"] = 38383,
-					},
-					["ElementTaken"] = {
-						["Melee"] = 141874,
-						["Frost"] = 118874,
-					},
-					["RageGained"] = {
-						["Bloodrage"] = {
-							["Details"] = {
-								["Paria"] = {
-									["count"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-						["Shield Specialization"] = {
-							["Details"] = {
-								["Paria"] = {
-									["count"] = 145,
-								},
-							},
-							["amount"] = 145,
-						},
-						["Revitalize"] = {
-							["Details"] = {
-								["Merinde"] = {
-									["count"] = 56,
-								},
-							},
-							["amount"] = 56,
-						},
-						["Rapture"] = {
-							["Details"] = {
-								["Baimushi"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-					},
-					["Damage"] = 383089,
-					["TimeDamaging"] = {
-						["Frost Warder"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 2.79,
-								},
-								["Charge Stun"] = {
-									["count"] = 2.71,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 12.8,
-								},
-								["Shockwave"] = {
-									["count"] = 0.48,
-								},
-								["Damage Shield"] = {
-									["count"] = 5.050000000000001,
-								},
-								["Devastate"] = {
-									["count"] = 3.350000000000001,
-								},
-								["Revenge"] = {
-									["count"] = 1.37,
-								},
-								["Melee"] = {
-									["count"] = 11.37,
-								},
-							},
-							["amount"] = 39.91999999999999,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Divine Sacrifice"] = {
-									["count"] = 2.44,
-								},
-							},
-							["amount"] = 2.44,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 1.9,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 11.16,
-								},
-								["Thunder Clap"] = {
-									["count"] = 0.53,
-								},
-								["Revenge"] = {
-									["count"] = 0.45,
-								},
-								["Shield Slam"] = {
-									["count"] = 4.38,
-								},
-								["Damage Shield"] = {
-									["count"] = 2.88,
-								},
-								["Devastate"] = {
-									["count"] = 3.43,
-								},
-								["Charge Stun"] = {
-									["count"] = 10.5,
-								},
-								["Melee"] = {
-									["count"] = 11.59,
-								},
-							},
-							["amount"] = 46.81999999999999,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 2.54,
-								},
-								["Melee"] = {
-									["count"] = 33.59000000000001,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 31.34,
-								},
-								["Shield Slam"] = {
-									["count"] = 7.789999999999999,
-								},
-								["Revenge"] = {
-									["count"] = 2.68,
-								},
-								["Charge Stun"] = {
-									["count"] = 3.5,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 1.85,
-								},
-								["Concussion Blow"] = {
-									["count"] = 0.5,
-								},
-								["Damage Shield"] = {
-									["count"] = 2.35,
-								},
-								["Devastate"] = {
-									["count"] = 7.84,
-								},
-								["Thunder Clap"] = {
-									["count"] = 3.53,
-								},
-								["Mocking Blow"] = {
-									["count"] = 0.61,
-								},
-							},
-							["amount"] = 98.12000000000003,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 1.63,
-								},
-								["Revenge"] = {
-									["count"] = 0,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 0.29,
-								},
-							},
-							["amount"] = 1.92,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-						["Melee"] = 66305,
-						["Frost"] = 59266,
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 22,
-								},
-								["Hit"] = {
-									["count"] = 61,
-								},
-								["Dodge"] = {
-									["count"] = 5,
-								},
-								["Crit"] = {
-									["count"] = 11,
-								},
-								["Parry"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 108,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 92,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-								},
-								["Tick"] = {
-									["count"] = 106,
-								},
-								["Crit"] = {
-									["count"] = 18,
-								},
-								["Parry"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 226,
-						},
-					},
-					["HealingTaken"] = 264829,
-					["Attacks"] = {
-						["Shockwave"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4246,
-									["min"] = 3099,
-									["count"] = 8,
-									["amount"] = 30577,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 30577,
-						},
-						["Deep Wounds (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 375,
-									["min"] = 77,
-									["count"] = 101,
-									["amount"] = 13348,
-								},
-							},
-							["count"] = 101,
-							["amount"] = 13348,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 743,
-									["min"] = 450,
-									["count"] = 22,
-									["amount"] = 12900,
-								},
-								["Hit"] = {
-									["max"] = 863,
-									["min"] = 564,
-									["count"] = 56,
-									["amount"] = 41577,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 742,
-									["min"] = 524,
-									["count"] = 5,
-									["amount"] = 3268,
-								},
-								["Dodge"] = {
-									["count"] = 5,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 1702,
-									["min"] = 1118,
-									["count"] = 11,
-									["amount"] = 16016,
-								},
-								["Parry"] = {
-									["count"] = 9,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 108,
-							["amount"] = 73761,
-						},
-						["Concussion Blow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1600,
-									["min"] = 1600,
-									["count"] = 2,
-									["amount"] = 3200,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 3200,
-						},
-						["Rend (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 421,
-									["min"] = 421,
-									["count"] = 5,
-									["amount"] = 2105,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 2105,
-						},
-						["Charge Stun"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-						["Revenge"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 9882,
-									["min"] = 9356,
-									["count"] = 2,
-									["amount"] = 19238,
-								},
-								["Hit"] = {
-									["max"] = 4852,
-									["min"] = 3889,
-									["count"] = 10,
-									["amount"] = 44704,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 63942,
-						},
-						["Shield Slam"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 5218,
-									["min"] = 2570,
-									["count"] = 16,
-									["amount"] = 52965,
-								},
-								["Crit (Blocked)"] = {
-									["max"] = 7650,
-									["min"] = 7650,
-									["count"] = 1,
-									["amount"] = 7650,
-								},
-								["Dodge"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 7048,
-									["min"] = 5460,
-									["count"] = 7,
-									["amount"] = 45723,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 106338,
-						},
-						["Damage Shield"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 614,
-									["min"] = 257,
-									["count"] = 18,
-									["amount"] = 6323,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 6323,
-						},
-						["Devastate"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 1124,
-									["min"] = 1124,
-									["count"] = 1,
-									["amount"] = 1124,
-								},
-								["Parry"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 5095,
-									["min"] = 2426,
-									["count"] = 6,
-									["amount"] = 20550,
-								},
-								["Hit"] = {
-									["max"] = 2345,
-									["min"] = 1115,
-									["count"] = 23,
-									["amount"] = 43857,
-								},
-							},
-							["count"] = 32,
-							["amount"] = 65531,
-						},
-						["Thunder Clap"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1999,
-									["min"] = 1951,
-									["count"] = 2,
-									["amount"] = 3950,
-								},
-								["Hit"] = {
-									["max"] = 1049,
-									["min"] = 826,
-									["count"] = 13,
-									["amount"] = 12650,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 16600,
-						},
-						["Mocking Blow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1364,
-									["min"] = 1364,
-									["count"] = 1,
-									["amount"] = 1364,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1364,
-						},
-					},
-					["WhoHealed"] = {
-						["Lionhearted"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 1013,
-								},
-							},
-							["amount"] = 1013,
-						},
-						["Mcstylish"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 3432,
-								},
-								["Holy Light"] = {
-									["count"] = 33479,
-								},
-								["Judgement of Light"] = {
-									["count"] = 2067,
-								},
-								["Glyph of Holy Light"] = {
-									["count"] = 2176,
-								},
-							},
-							["amount"] = 41154,
-						},
-						["Baimushi"] = {
-							["Details"] = {
-								["Echoes of Light"] = {
-									["count"] = 259,
-								},
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 5615,
-								},
-								["Penance"] = {
-									["count"] = 5781,
-								},
-								["Prayer of Mending"] = {
-									["count"] = 10935,
-								},
-							},
-							["amount"] = 22590,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 18658,
-								},
-								["Divine Storm"] = {
-									["count"] = 2364,
-								},
-							},
-							["amount"] = 21022,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 1796,
-								},
-							},
-							["amount"] = 1796,
-						},
-						["Merinde"] = {
-							["Details"] = {
-								["Swiftmend"] = {
-									["count"] = 44925,
-								},
-								["Regrowth"] = {
-									["count"] = 8595,
-								},
-								["Rejuvenation"] = {
-									["count"] = 27957,
-								},
-								["Wild Growth"] = {
-									["count"] = 15383,
-								},
-								["Living Seed"] = {
-									["count"] = 2692,
-								},
-							},
-							["amount"] = 99552,
-						},
-						["Sertel"] = {
-							["Details"] = {
-								["Earthliving"] = {
-									["count"] = 4268,
-								},
-								["Earth Shield"] = {
-									["count"] = 8603,
-								},
-								["Chain Heal"] = {
-									["count"] = 60448,
-								},
-							},
-							["amount"] = 73319,
-						},
-						["Yindao"] = {
-							["Details"] = {
-								["Renew"] = {
-									["count"] = 4383,
-								},
-							},
-							["amount"] = 4383,
-						},
-					},
-					["FAttacks"] = {
-						["Divine Sacrifice"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 584,
-									["min"] = 298,
-									["count"] = 8,
-									["amount"] = 3641,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 3641,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 15,
-								},
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Block"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 12,
-								},
-								["Parry"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 42,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 18,
-								},
-								["Hit"] = {
-									["count"] = 20,
-								},
-								["Tick"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 60,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 73761,
-						["Physical"] = 309328,
-					},
-					["RageGain"] = 293,
-					["DamagedWho"] = {
-						["Frost Warder"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 26078,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 2978,
-								},
-								["Shockwave"] = {
-									["count"] = 4042,
-								},
-								["Damage Shield"] = {
-									["count"] = 2327,
-								},
-								["Devastate"] = {
-									["count"] = 18811,
-								},
-								["Revenge"] = {
-									["count"] = 13405,
-								},
-								["Melee"] = {
-									["count"] = 13999,
-								},
-							},
-							["amount"] = 81640,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Shield Slam"] = {
-									["count"] = 26361,
-								},
-								["Thunder Clap"] = {
-									["count"] = 2885,
-								},
-								["Melee"] = {
-									["count"] = 14166,
-								},
-								["Revenge"] = {
-									["count"] = 13909,
-								},
-								["Damage Shield"] = {
-									["count"] = 2302,
-								},
-								["Devastate"] = {
-									["count"] = 16629,
-								},
-								["Shockwave"] = {
-									["count"] = 10537,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 2829,
-								},
-							},
-							["amount"] = 89618,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Shockwave"] = {
-									["count"] = 15998,
-								},
-								["Melee"] = {
-									["count"] = 45596,
-								},
-								["Concussion Blow"] = {
-									["count"] = 3200,
-								},
-								["Shield Slam"] = {
-									["count"] = 53899,
-								},
-								["Thunder Clap"] = {
-									["count"] = 9981,
-								},
-								["Rend (DoT)"] = {
-									["count"] = 2105,
-								},
-								["Revenge"] = {
-									["count"] = 28621,
-								},
-								["Damage Shield"] = {
-									["count"] = 1694,
-								},
-								["Devastate"] = {
-									["count"] = 30091,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 7445,
-								},
-								["Mocking Blow"] = {
-									["count"] = 1364,
-								},
-							},
-							["amount"] = 199994,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Thunder Clap"] = {
-									["count"] = 3734,
-								},
-								["Revenge"] = {
-									["count"] = 8007,
-								},
-								["Deep Wounds (DoT)"] = {
-									["count"] = 96,
-								},
-							},
-							["amount"] = 11837,
-						},
-					},
-					["TimeDamage"] = 189.22,
-					["WhoDamaged"] = {
-						["Frost Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 47941,
-								},
-								["Frostbite (DoT)"] = {
-									["count"] = 8539,
-								},
-							},
-							["amount"] = 56480,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 49622,
-								},
-							},
-							["amount"] = 49622,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Frostbite (DoT)"] = {
-									["count"] = 69212,
-								},
-								["Melee"] = {
-									["count"] = 44311,
-								},
-								["Whiteout"] = {
-									["count"] = 13248,
-								},
-							},
-							["amount"] = 126771,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Frozen Orb"] = {
-									["count"] = 27875,
-								},
-							},
-							["amount"] = 27875,
-						},
-					},
-					["ElementTakenBlock"] = {
-						["Melee"] = 20792,
-					},
-					["DOT_Time"] = 318,
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 4460,
-									["min"] = 1594,
-									["count"] = 7,
-									["amount"] = 20792,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 20792,
-						},
-					},
-				},
-			},
-			["UnitLockout"] = 1689155602,
-			["LastActive"] = 1689156102,
-		},
-		["Hoknar <Denathra>"] = {
-			["GUID"] = "0xF1400065B601CCDE",
-			["LastEventHealth"] = {
-				"27714 (100%)", -- [1]
-				"25318 (91%)", -- [2]
-				"23667 (85%)", -- [3]
-				"23925 (86%)", -- [4]
-				"24378 (87%)", -- [5]
-				"24177 (87%)", -- [6]
-				"24014 (86%)", -- [7]
-				"23608 (85%)", -- [8]
-				"23445 (84%)", -- [9]
-				"23351 (84%)", -- [10]
-				"23513 (84%)", -- [11]
-				"23998 (86%)", -- [12]
-				"23401 (84%)", -- [13]
-				"23307 (84%)", -- [14]
-				"23504 (84%)", -- [15]
-				"22970 (82%)", -- [16]
-			},
-			["LastAttackedBy"] = "Erathoorn",
-			["LastEventType"] = {
-				"HEAL", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"HEAL", -- [4]
-				"HEAL", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"HEAL", -- [11]
-				"HEAL", -- [12]
-				"DAMAGE", -- [13]
-				"DAMAGE", -- [14]
-				"HEAL", -- [15]
-				"DAMAGE", -- [16]
-			},
-			["TimeWindows"] = {
-				["DamageTaken"] = {
-					2690, -- [1]
-				},
-				["HealingTaken"] = {
-					1555, -- [1]
-				},
-			},
-			["enClass"] = "PET",
-			["unit"] = "Hoknar",
-			["level"] = 1,
-			["LastDamageAbility"] = "Divine Storm",
-			["LastFightIn"] = 22,
-			["LastEventNum"] = {
-				0.7108320704337158, -- [1]
-				3.74900772172909, -- [2]
-				5.957277910081547, -- [3]
-				0.9309374323446633, -- [4]
-				1.634552933535397, -- [5]
-				0.7252652089196796, -- [6]
-				0.5881503933030238, -- [7]
-				1.464963556325323, -- [8]
-				0.5881503933030238, -- [9]
-				0.3391787544201487, -- [10]
-				0.5845421086815328, -- [11]
-				1.750018041423108, -- [12]
-				2.154145919030093, -- [13]
-				0.3391787544201487, -- [14]
-				0.7108320704337158, -- [15]
-				1.926823987876164, -- [16]
-			},
-			["type"] = "Pet",
-			["FightsSaved"] = 3,
-			["LastActive"] = 1690134502,
-			["LastEventTimes"] = {
-				12239.378, -- [1]
-				12240.528, -- [2]
-				12240.528, -- [3]
-				12241.603, -- [4]
-				12241.678, -- [5]
-				12242.978, -- [6]
-				12243.077, -- [7]
-				12243.628, -- [8]
-				12243.628, -- [9]
-				12244.12, -- [10]
-				12244.586, -- [11]
-				12244.811, -- [12]
-				12245.603, -- [13]
-				12246.136, -- [14]
-				12246.861, -- [15]
-				12247.202, -- [16]
-			},
-			["Owner"] = "Denathra",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-			},
-			["NextEventNum"] = 17,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				91.3545500469077, -- [2]
-				85.39727213682615, -- [3]
-				86.32820956917081, -- [4]
-				87.96276250270621, -- [5]
-				87.23749729378653, -- [6]
-				86.64934690048351, -- [7]
-				85.18438334415819, -- [8]
-				84.59623295085517, -- [9]
-				84.25705419643502, -- [10]
-				84.84159630511655, -- [11]
-				86.59161434653966, -- [12]
-				84.43746842750956, -- [13]
-				84.09828967308941, -- [14]
-				84.80912174352314, -- [15]
-				82.88229775564696, -- [16]
-			},
-			["LastEvents"] = {
-				"Denathra Fel Synergy Hoknar <Denathra> Hit +197 (197 overheal)", -- [1]
-				"Erathoorn Seal of Righteousness Hoknar <Denathra> Hit -1039 (Holy)", -- [2]
-				"Erathoorn Divine Storm Hoknar <Denathra> Hit -1651 (Physical)", -- [3]
-				"Denathra Fel Synergy Hoknar <Denathra> Hit +258", -- [4]
-				"Denathra Fel Synergy Hoknar <Denathra> Hit +453", -- [5]
-				"Denathra Soul Link Hoknar <Denathra> Split -201 (Shadow)", -- [6]
-				"Denathra Soul Link Hoknar <Denathra> Split -163 (Shadow)", -- [7]
-				"Denathra Soul Link Hoknar <Denathra> Split -406 (Shadow)", -- [8]
-				"Denathra Soul Link Hoknar <Denathra> Split -163 (Shadow)", -- [9]
-				"Denathra Soul Link Hoknar <Denathra> Split -94 (Shadow)", -- [10]
-				"Denathra Fel Synergy Hoknar <Denathra> Hit +162", -- [11]
-				"Denathra Fel Synergy Hoknar <Denathra> Hit +485", -- [12]
-				"Denathra Soul Link Hoknar <Denathra> Split -597 (Shadow)", -- [13]
-				"Denathra Soul Link Hoknar <Denathra> Split -94 (Shadow)", -- [14]
-				"Denathra Fel Synergy Hoknar <Denathra> Hit +197", -- [15]
-				"Denathra Soul Link Hoknar <Denathra> Split -534 (Shadow)", -- [16]
-			},
-			["Name"] = "Hoknar",
-			["TimeLast"] = {
-				["OVERALL"] = 1690134502,
-				["DamageTaken"] = 1690134496,
-				["HealingTaken"] = 1690134502,
-			},
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["PartialResist"] = {
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 1555,
-					["PartialAbsorb"] = {
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 2690,
-					["WhoDamaged"] = {
-						["Erathoorn"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 1039,
-								},
-								["Divine Storm"] = {
-									["count"] = 1651,
-								},
-							},
-							["amount"] = 2690,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 1555,
-								},
-							},
-							["amount"] = 1555,
-						},
-					},
-					["ElementTaken"] = {
-						["Physical"] = 1651,
-						["Holy"] = 1039,
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["PartialResist"] = {
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 1555,
-					["PartialAbsorb"] = {
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Divine Storm"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["DamageTaken"] = 2690,
-					["WhoDamaged"] = {
-						["Erathoorn"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 1039,
-								},
-								["Divine Storm"] = {
-									["count"] = 1651,
-								},
-							},
-							["amount"] = 2690,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["WhoHealed"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 1555,
-								},
-							},
-							["amount"] = 1555,
-						},
-					},
-					["ElementTaken"] = {
-						["Physical"] = 1651,
-						["Holy"] = 1039,
-					},
-				},
-			},
-			["LastDamageTaken"] = 1651,
-			["UnitLockout"] = 1690134495,
-			["LastAbility"] = 15380.376,
-		},
-		["Treant <Zjabak>"] = {
-			["GUID"] = "0xF1300007AC00004E",
-			["LastEventHealth"] = {
-				"7892 (96%)", -- [1]
-				"7892 (96%)", -- [2]
-				"7892 (96%)", -- [3]
-				"7892 (96%)", -- [4]
-				"8065 (98%)", -- [5]
-				"8065 (98%)", -- [6]
-				"8065 (98%)", -- [7]
-				"8065 (98%)", -- [8]
-				"8065 (98%)", -- [9]
-				"8167 (100%)", -- [10]
-				"8167 (100%)", -- [11]
-				"8167 (100%)", -- [12]
-				"8167 (100%)", -- [13]
-				"8167 (100%)", -- [14]
-				"8167 (100%)", -- [15]
-				"8167 (100%)", -- [16]
-				"8167 (100%)", -- [17]
-				"8167 (100%)", -- [18]
-				"8167 (100%)", -- [19]
-				"8167 (100%)", -- [20]
-				"8167 (100%)", -- [21]
-				"8167 (100%)", -- [22]
-				"8167 (100%)", -- [23]
-				"8167 (100%)", -- [24]
-				"8167 (100%)", -- [25]
-				"8167 (100%)", -- [26]
-				"8167 (100%)", -- [27]
-				"8167 (100%)", -- [28]
-				"8167 (100%)", -- [29]
-				"8167 (100%)", -- [30]
-				"8167 (100%)", -- [31]
-				"8167 (100%)", -- [32]
-				"8167 (100%)", -- [33]
-				"8006 (98%)", -- [34]
-				"8006 (98%)", -- [35]
-				"8006 (98%)", -- [36]
-				"8006 (98%)", -- [37]
-				"7853 (96%)", -- [38]
-				"7853 (96%)", -- [39]
-				"7853 (96%)", -- [40]
-				"7719 (94%)", -- [41]
-				"7719 (94%)", -- [42]
-				"7719 (94%)", -- [43]
-				"7892 (96%)", -- [44]
-				"7892 (96%)", -- [45]
-				"7892 (96%)", -- [46]
-				"7892 (96%)", -- [47]
-				"7892 (96%)", -- [48]
-				"7892 (96%)", -- [49]
-				"7892 (96%)", -- [50]
-			},
-			["LastAttackedBy"] = "Frozen Orb",
-			["LastEventType"] = {
-				"DAMAGE", -- [1]
-				"DAMAGE", -- [2]
-				"DAMAGE", -- [3]
-				"DAMAGE", -- [4]
-				"HEAL", -- [5]
-				"DAMAGE", -- [6]
-				"DAMAGE", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"HEAL", -- [10]
-				"HEAL", -- [11]
-				"HEAL", -- [12]
-				"DAMAGE", -- [13]
-				"HEAL", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"HEAL", -- [17]
-				"HEAL", -- [18]
-				"HEAL", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
-				"HEAL", -- [23]
-				"DAMAGE", -- [24]
-				"DAMAGE", -- [25]
-				"HEAL", -- [26]
-				"DAMAGE", -- [27]
-				"HEAL", -- [28]
-				"HEAL", -- [29]
-				"HEAL", -- [30]
-				"DAMAGE", -- [31]
-				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"HEAL", -- [34]
-				"DAMAGE", -- [35]
-				"DAMAGE", -- [36]
-				"DAMAGE", -- [37]
-				"DAMAGE", -- [38]
-				"DAMAGE", -- [39]
-				"DAMAGE", -- [40]
-				"DAMAGE", -- [41]
-				"DAMAGE", -- [42]
-				"DAMAGE", -- [43]
-				"HEAL", -- [44]
-				"DAMAGE", -- [45]
-				"HEAL", -- [46]
-				"HEAL", -- [47]
-				"HEAL", -- [48]
-				"DAMAGE", -- [49]
-				"HEAL", -- [50]
-			},
-			["TimeWindows"] = {
-				["HealingTaken"] = {
-					12782, -- [1]
-				},
-				["ActiveTime"] = {
-					32.13, -- [1]
-				},
-				["TimeDamage"] = {
-					32.13, -- [1]
-				},
-				["DamageTaken"] = {
-					12782, -- [1]
-				},
-				["Damage"] = {
-					41494, -- [1]
-				},
-			},
-			["enClass"] = "PET",
-			["unit"] = "Treant",
-			["level"] = 1,
-			["LastDamageAbility"] = "Frozen Orb",
-			["LastFightIn"] = 4,
-			["LastEventNum"] = {
-				[14] = 2.1060364883066,
-				[29] = 9.31798702093792,
-				[30] = 2.1060364883066,
-				[17] = 11.08118035998531,
-				[18] = 10.65262642341129,
-				[37] = 1.885637320925677,
-				[19] = 2.1060364883066,
-				[39] = 1.848904126362189,
-				[40] = 1.83665972817436,
-				[10] = 11.98726582588466,
-				[34] = 2.1060364883066,
-				[5] = 2.118280886494429,
-				[11] = 11.53422309293498,
-				[46] = 17.77886616872781,
-				[47] = 17.76662177053998,
-				[48] = 2.118280886494429,
-				[12] = 2.118280886494429,
-				[50] = 2.118280886494429,
-				[44] = 2.118280886494429,
-				[26] = 2.118280886494429,
-				[36] = 1.848904126362189,
-				[38] = 1.873392922737847,
-				[41] = 1.640749357169095,
-				[28] = 9.771029753887596,
-				[23] = 10.22407248683727,
-			},
-			["type"] = "Pet",
-			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
-			["LastEventTimes"] = {
-				13989.167, -- [1]
-				13989.247, -- [2]
-				13990.869, -- [3]
-				13990.869, -- [4]
-				13990.902, -- [5]
-				13990.903, -- [6]
-				13992.548, -- [7]
-				13992.548, -- [8]
-				13992.597, -- [9]
-				13992.788, -- [10]
-				13993.823, -- [11]
-				13994.208, -- [12]
-				13994.209, -- [13]
-				13994.209, -- [14]
-				13994.209, -- [15]
-				13994.301, -- [16]
-				13994.821, -- [17]
-				13995.804, -- [18]
-				13995.891, -- [19]
-				13995.891, -- [20]
-				13995.892, -- [21]
-				13995.949, -- [22]
-				13996.791, -- [23]
-				13997.571, -- [24]
-				13997.572, -- [25]
-				13997.59, -- [26]
-				13997.591, -- [27]
-				13997.796, -- [28]
-				13998.791, -- [29]
-				13999.22, -- [30]
-				13999.22, -- [31]
-				13999.22, -- [32]
-				13999.304, -- [33]
-				13985.917, -- [34]
-				13985.917, -- [35]
-				13986.291, -- [36]
-				13986.291, -- [37]
-				13986.291, -- [38]
-				13987.304, -- [39]
-				13987.304, -- [40]
-				13987.305, -- [41]
-				13987.543, -- [42]
-				13987.544, -- [43]
-				13987.571, -- [44]
-				13987.571, -- [45]
-				13988.986, -- [46]
-				13988.986, -- [47]
-				13989.166, -- [48]
-				13989.166, -- [49]
-				13989.167, -- [50]
-			},
-			["Owner"] = "Zjabak",
-			["LastDamageTaken"] = 134,
-			["NextEventNum"] = 34,
-			["LastEventHealthNum"] = {
-				96.63279049834701, -- [1]
-				96.63279049834701, -- [2]
-				96.63279049834701, -- [3]
-				96.63279049834701, -- [4]
-				98.75107138484144, -- [5]
-				98.75107138484144, -- [6]
-				98.75107138484144, -- [7]
-				98.75107138484144, -- [8]
-				98.75107138484144, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				100, -- [21]
-				100, -- [22]
-				100, -- [23]
-				100, -- [24]
-				100, -- [25]
-				100, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				100, -- [31]
-				100, -- [32]
-				100, -- [33]
-				98.02865189175952, -- [34]
-				98.02865189175952, -- [35]
-				98.02865189175952, -- [36]
-				98.02865189175952, -- [37]
-				96.15525896902167, -- [38]
-				96.15525896902167, -- [39]
-				96.15525896902167, -- [40]
-				94.51450961185257, -- [41]
-				94.51450961185257, -- [42]
-				94.51450961185257, -- [43]
-				96.63279049834701, -- [44]
-				96.63279049834701, -- [45]
-				96.63279049834701, -- [46]
-				96.63279049834701, -- [47]
-				96.63279049834701, -- [48]
-				96.63279049834701, -- [49]
-				96.63279049834701, -- [50]
-			},
-			["LastEvents"] = {
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -500 (Physical)", -- [1]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Crit -1536 (Physical)", -- [2]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -545 (Physical)", -- [3]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -644 (Physical)", -- [4]
-				"Blackregina Judgement of Light Treant <Zjabak> Tick +173", -- [5]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Crit -1552 (Physical)", -- [6]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -559 (Physical)", -- [7]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -755 (Physical)", -- [8]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -832 (Physical)", -- [9]
-				"Merinde Wild Growth Treant <Zjabak> Tick +979 (877 overheal)", -- [10]
-				"Merinde Wild Growth Treant <Zjabak> Tick +942 (942 overheal)", -- [11]
-				"Mcstylish Judgement of Light Treant <Zjabak> Tick +173 (173 overheal)", -- [12]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -508 (Physical)", -- [13]
-				"Mcstylish Judgement of Light Treant <Zjabak> Tick +172 (172 overheal)", -- [14]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -704 (Physical)", -- [15]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -809 (Physical)", -- [16]
-				"Merinde Wild Growth Treant <Zjabak> Tick +905 (905 overheal)", -- [17]
-				"Merinde Wild Growth Treant <Zjabak> Tick +870 (870 overheal)", -- [18]
-				"Mcstylish Judgement of Light Treant <Zjabak> Tick +172 (172 overheal)", -- [19]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -760 (Physical)", -- [20]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -664 (Physical)", -- [21]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -514 (Physical)", -- [22]
-				"Merinde Wild Growth Treant <Zjabak> Tick +835 (835 overheal)", -- [23]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -735 (Physical)", -- [24]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -553 (Physical)", -- [25]
-				"Mcstylish Judgement of Light Treant <Zjabak> Tick +173 (173 overheal)", -- [26]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -734 (Physical)", -- [27]
-				"Merinde Wild Growth Treant <Zjabak> Tick +798 (798 overheal)", -- [28]
-				"Merinde Wild Growth Treant <Zjabak> Tick +761 (761 overheal)", -- [29]
-				"Blackregina Judgement of Light Treant <Zjabak> Tick +172 (172 overheal)", -- [30]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -737 (Physical)", -- [31]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -772 (Physical)", -- [32]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -843 (Physical)", -- [33]
-				"Blackregina Judgement of Light Treant <Zjabak> Tick +172", -- [34]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -549 (Physical)", -- [35]
-				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -151 (64 resisted) (Frost)", -- [36]
-				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -154 (65 resisted) (Frost)", -- [37]
-				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -153 (65 resisted) (Frost)", -- [38]
-				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -151 (64 resisted) (Frost)", -- [39]
-				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -150 (64 resisted) (Frost)", -- [40]
-				"Frozen Orb Frozen Orb Treant <Zjabak> Hit -134 (89 resisted) (Frost)", -- [41]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -734 (Physical)", -- [42]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Glancing -513 (Physical)", -- [43]
-				"Blackregina Judgement of Light Treant <Zjabak> Tick +173", -- [44]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Hit -791 (Physical)", -- [45]
-				"Mcstylish Glyph of Holy Light Treant <Zjabak> Hit +1452 (776 overheal)", -- [46]
-				"Mcstylish Glyph of Holy Light Treant <Zjabak> Hit +1451 (840 overheal)", -- [47]
-				"Blackregina Judgement of Light Treant <Zjabak> Tick +173 (173 overheal)", -- [48]
-				"Treant <Zjabak> Melee Toravon the Ice Watcher Crit -1484 (Physical)", -- [49]
-				"Blackregina Judgement of Light Treant <Zjabak> Tick +173 (173 overheal)", -- [50]
-			},
-			["Name"] = "Treant",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				true, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				false, -- [13]
-				true, -- [14]
-				false, -- [15]
-				false, -- [16]
-				true, -- [17]
-				true, -- [18]
-				true, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				false, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				false, -- [31]
-				false, -- [32]
-				false, -- [33]
-				true, -- [34]
-				false, -- [35]
-				true, -- [36]
-				true, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				true, -- [41]
-				false, -- [42]
-				false, -- [43]
-				true, -- [44]
-				false, -- [45]
-				true, -- [46]
-				true, -- [47]
-				true, -- [48]
-				false, -- [49]
-				true, -- [50]
-			},
-			["TimeLast"] = {
-				["HealingTaken"] = 1689156077,
-				["ActiveTime"] = 1689156083,
-				["TimeDamage"] = 1689156083,
-				["OVERALL"] = 1689156083,
-				["DamageTaken"] = 1689156071,
-				["Damage"] = 1689156083,
-			},
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeSpent"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 32.13,
-								},
-							},
-							["amount"] = 32.13,
-						},
-					},
-					["DamageTaken"] = 12782,
-					["ElementTakenResist"] = {
-						["Frost"] = 4490,
-					},
-					["PartialResist"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 91,
-									["min"] = 63,
-									["count"] = 41,
-									["amount"] = 3020,
-								},
-								["25%Resist"] = {
-									["max"] = 46,
-									["min"] = 21,
-									["count"] = 37,
-									["amount"] = 1470,
-								},
-							},
-							["count"] = 78,
-							["amount"] = 4490,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 78,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 78,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 32.13,
-					["ElementTaken"] = {
-						["Frost"] = 12782,
-					},
-					["Damage"] = 41494,
-					["WhoHealed"] = {
-						["Mcstylish"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 4014,
-								},
-							},
-							["amount"] = 4014,
-						},
-						["Merinde"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 7214,
-								},
-							},
-							["amount"] = 7214,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 1554,
-								},
-							},
-							["amount"] = 1554,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 575,
-									["min"] = 461,
-									["count"] = 15,
-									["amount"] = 7882,
-								},
-								["Hit"] = {
-									["max"] = 843,
-									["min"] = 622,
-									["count"] = 28,
-									["amount"] = 20540,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 1552,
-									["min"] = 1288,
-									["count"] = 9,
-									["amount"] = 13072,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 54,
-							["amount"] = 41494,
-						},
-					},
-					["HealingTaken"] = 12782,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 15,
-								},
-								["Hit"] = {
-									["count"] = 28,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 9,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 54,
-						},
-					},
-					["TimeDamage"] = 32.13,
-					["TimeDamaging"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 32.13,
-								},
-							},
-							["amount"] = 32.13,
-						},
-					},
-					["WhoDamaged"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Frozen Orb"] = {
-									["count"] = 12782,
-								},
-							},
-							["amount"] = 12782,
-						},
-					},
-					["DamagedWho"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 41494,
-								},
-							},
-							["amount"] = 41494,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 41494,
-					},
-				},
-			},
-			["UnitLockout"] = 1689156055,
-			["LastActive"] = 1689156083,
-		},
-		["Wrath of Air Totem <Charliesh>"] = {
-			["DeathLogs"] = {
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Wrath of Air Totem <Charliesh> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1689156135,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [1]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Wrath of Air Totem <Charliesh> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1689155994,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [2]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Wrath of Air Totem <Charliesh> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1689155736,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [3]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Wrath of Air Totem <Charliesh> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1689155711,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [4]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Wrath of Air Totem <Charliesh> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1689155693,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [5]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Wrath of Air Totem <Charliesh> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1689155639,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [6]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Wrath of Air Totem <Charliesh> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1689155614,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [7]
-			},
-			["TimeLast"] = {
-				["OVERALL"] = 1689156133,
-				["DeathCount"] = 1689156133,
-			},
-			["LastEventType"] = {
-				"MISC", -- [1]
-				"MISC", -- [2]
-				"MISC", -- [3]
-				"MISC", -- [4]
-				"MISC", -- [5]
-				"MISC", -- [6]
-				"MISC", -- [7]
-			},
-			["LastFlags"] = 4370,
-			["enClass"] = "PET",
-			["level"] = 1,
-			["LastFightIn"] = 5,
-			["type"] = "Pet",
-			["FightsSaved"] = 5,
-			["GUID"] = "0xF130003C57000031",
-			["LastEventTimes"] = {
-				13528.085, -- [1]
-				13552.74, -- [2]
-				13607.237, -- [3]
-				13625.56, -- [4]
-				13650.557, -- [5]
-				13907.756, -- [6]
-				14049.323, -- [7]
-			},
-			["Owner"] = "Charliesh",
-			["TimeWindows"] = {
-				["DeathCount"] = {
-					7, -- [1]
-				},
-			},
-			["NextEventNum"] = 8,
-			["LastEventHealthNum"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-				0, -- [5]
-				0, -- [6]
-				0, -- [7]
-			},
-			["LastEvents"] = {
-				"Wrath of Air Totem <Charliesh> dies.", -- [1]
-				"Wrath of Air Totem <Charliesh> dies.", -- [2]
-				"Wrath of Air Totem <Charliesh> dies.", -- [3]
-				"Wrath of Air Totem <Charliesh> dies.", -- [4]
-				"Wrath of Air Totem <Charliesh> dies.", -- [5]
-				"Wrath of Air Totem <Charliesh> dies.", -- [6]
-				"Wrath of Air Totem <Charliesh> dies.", -- [7]
-			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-			},
-			["Name"] = "Wrath of Air Totem",
-			["LastEventHealth"] = {
-				"???", -- [1]
-				"???", -- [2]
-				"???", -- [3]
-				"???", -- [4]
-				"???", -- [5]
-				"???", -- [6]
-				"???", -- [7]
-			},
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["DeathCount"] = 7,
-				},
-			},
-			["UnitLockout"] = 1689156133,
-			["LastAbility"] = 15380.376,
 		},
 		["Sertel"] = {
 			["GUID"] = "0x0700000000710613",
@@ -43134,14 +43217,14 @@ RecountPerCharDB = {
 				"HEAL", -- [50]
 			},
 			["TimeWindows"] = {
-				["TimeHeal"] = {
-					125.99, -- [1]
-				},
 				["HealingTaken"] = {
 					55747, -- [1]
 				},
-				["Overhealing"] = {
-					610003, -- [1]
+				["TimeHeal"] = {
+					125.99, -- [1]
+				},
+				["HOT_Time"] = {
+					330, -- [1]
 				},
 				["ActiveTime"] = {
 					125.99, -- [1]
@@ -43155,13 +43238,13 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					56808, -- [1]
 				},
-				["HOT_Time"] = {
-					330, -- [1]
+				["Overhealing"] = {
+					610003, -- [1]
 				},
 			},
 			["enClass"] = "SHAMAN",
 			["unit"] = "Sertel",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14015.8, -- [1]
 				14015.97, -- [2]
@@ -43483,41 +43566,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -43525,22 +43607,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -43548,28 +43629,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -43586,41 +43669,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -43628,22 +43710,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -43651,28 +43732,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -43845,6 +43928,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 22.22,
 						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Chain Heal"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Merinde"] = {
 							["Details"] = {
 								["Earthliving"] = {
@@ -43855,14 +43946,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 7.09,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Chain Heal"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
 						},
 						["Feire"] = {
 							["Details"] = {
@@ -44176,6 +44259,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 22.22,
 						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Chain Heal"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Merinde"] = {
 							["Details"] = {
 								["Earthliving"] = {
@@ -44186,14 +44277,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 7.09,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Chain Heal"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
 						},
 						["Feire"] = {
 							["Details"] = {
@@ -44415,6 +44498,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 50451,
 						},
+						["Cleverbear"] = {
+							["Details"] = {
+								["Chain Heal"] = {
+									["count"] = 8425,
+								},
+							},
+							["amount"] = 8425,
+						},
 						["Merinde"] = {
 							["Details"] = {
 								["Earthliving"] = {
@@ -44425,14 +44516,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 9601,
-						},
-						["Cleverbear"] = {
-							["Details"] = {
-								["Chain Heal"] = {
-									["count"] = 8425,
-								},
-							},
-							["amount"] = 8425,
 						},
 						["Feire"] = {
 							["Details"] = {
@@ -44631,14 +44714,14 @@ RecountPerCharDB = {
 								["Denathra"] = {
 									["count"] = 51,
 								},
-								["Litigator"] = {
-									["count"] = 33,
+								["Purinx"] = {
+									["count"] = 12,
 								},
 								["Blackregina"] = {
 									["count"] = 15,
 								},
-								["Purinx"] = {
-									["count"] = 12,
+								["Litigator"] = {
+									["count"] = 33,
 								},
 								["Telderam"] = {
 									["count"] = 9,
@@ -45075,41 +45158,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -45117,22 +45199,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -45140,28 +45221,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -45178,41 +45261,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -45220,22 +45302,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -45243,28 +45324,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -45272,64 +45355,249 @@ RecountPerCharDB = {
 					["DeathCount"] = 1,
 				},
 			},
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 		},
-		["Klari"] = {
-			["GUID"] = "0x070000000091AB0F",
+		["Grr <Yuchi>"] = {
+			["GUID"] = "0xF14041A604000006",
 			["LastEventHealth"] = {
-				"50174 (100%)", -- [1]
-				"50174 (100%)", -- [2]
-				"50174 (100%)", -- [3]
-				"50174 (100%)", -- [4]
-				"50174 (100%)", -- [5]
-				"52429 (100%)", -- [6]
+				"25068 (100%)", -- [1]
+				"25068 (100%)", -- [2]
+				"25068 (100%)", -- [3]
+				"25068 (100%)", -- [4]
+				"25068 (100%)", -- [5]
+				"25068 (100%)", -- [6]
+				"25068 (100%)", -- [7]
+				"25068 (100%)", -- [8]
+				"25068 (100%)", -- [9]
+				"25068 (100%)", -- [10]
+				"25068 (100%)", -- [11]
+				"25068 (100%)", -- [12]
+				"25068 (100%)", -- [13]
+				"25068 (100%)", -- [14]
+				"25068 (100%)", -- [15]
+				"25068 (100%)", -- [16]
+				"25068 (100%)", -- [17]
+				"25068 (100%)", -- [18]
+				"25068 (100%)", -- [19]
+				"25068 (100%)", -- [20]
+				"25068 (100%)", -- [21]
+				"25068 (100%)", -- [22]
+				"25068 (100%)", -- [23]
+				"25068 (100%)", -- [24]
+				"24957 (99%)", -- [25]
+				"25068 (100%)", -- [26]
+				"25068 (100%)", -- [27]
+				"25068 (100%)", -- [28]
+				"25068 (100%)", -- [29]
+				"25068 (100%)", -- [30]
+				"25068 (100%)", -- [31]
+				"25068 (100%)", -- [32]
+				"25068 (100%)", -- [33]
+				"25068 (100%)", -- [34]
+				"25068 (100%)", -- [35]
+				"25068 (100%)", -- [36]
+				"25068 (100%)", -- [37]
+				"25068 (100%)", -- [38]
+				"25068 (100%)", -- [39]
+				"25068 (100%)", -- [40]
+				"25068 (100%)", -- [41]
+				"25068 (100%)", -- [42]
+				"25068 (100%)", -- [43]
+				"25068 (100%)", -- [44]
+				"25068 (100%)", -- [45]
+				"25068 (100%)", -- [46]
+				"25068 (100%)", -- [47]
+				"25068 (100%)", -- [48]
+				"25068 (100%)", -- [49]
+				"25068 (100%)", -- [50]
 			},
+			["LastAttackedBy"] = "Frozen Orb",
 			["LastEventType"] = {
 				"HEAL", -- [1]
-				"HEAL", -- [2]
+				"DAMAGE", -- [2]
 				"HEAL", -- [3]
-				"HEAL", -- [4]
-				"HEAL", -- [5]
-				"HEAL", -- [6]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"HEAL", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"HEAL", -- [11]
+				"DAMAGE", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"HEAL", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"HEAL", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"HEAL", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"HEAL", -- [29]
+				"DAMAGE", -- [30]
+				"HEAL", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"HEAL", -- [35]
+				"DAMAGE", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"HEAL", -- [39]
+				"HEAL", -- [40]
+				"HEAL", -- [41]
+				"HEAL", -- [42]
+				"HEAL", -- [43]
+				"HEAL", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"HEAL", -- [47]
+				"DAMAGE", -- [48]
+				"HEAL", -- [49]
+				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["ManaGain"] = {
-					136, -- [1]
+				["TimeHeal"] = {
+					3.9, -- [1]
+				},
+				["Healing"] = {
+					1698, -- [1]
+				},
+				["DamageTaken"] = {
+					5071, -- [1]
+				},
+				["EnergyGain"] = {
+					6550, -- [1]
+				},
+				["HealingTaken"] = {
+					6867, -- [1]
+				},
+				["Overhealing"] = {
+					9777, -- [1]
+				},
+				["TimeDamage"] = {
+					152.54, -- [1]
+				},
+				["HOT_Time"] = {
+					135, -- [1]
+				},
+				["ActiveTime"] = {
+					156.44, -- [1]
+				},
+				["Damage"] = {
+					133757, -- [1]
 				},
 			},
-			["enClass"] = "PALADIN",
-			["unit"] = "Klari",
-			["level"] = 80,
-			["LastFightIn"] = 0,
+			["enClass"] = "PET",
+			["unit"] = "Grr",
+			["level"] = 1,
+			["LastDamageAbility"] = "Frozen Orb",
+			["LastFightIn"] = 4,
 			["LastEventNum"] = {
-				5.666281340933551, -- [1]
-				5.666281340933551, -- [2]
-				5.666281340933551, -- [3]
-				5.666281340933551, -- [4]
-				5.666281340933551, -- [5]
-				5.422571477617349, -- [6]
+				2.118238391574916, -- [1]
+				[14] = 2.118238391574916,
+				[29] = 2.12222754108824,
+				[3] = 2.118238391574916,
+				[7] = 2.118238391574916,
+				[31] = 2.118238391574916,
+				[17] = 1.057124621030796,
+				[35] = 2.118238391574916,
+				[37] = 1.196744853997128,
+				[38] = 1.196744853997128,
+				[39] = 1.200734003510452,
+				[20] = 1.057124621030796,
+				[41] = 1.196744853997128,
+				[21] = 1.057124621030796,
+				[43] = 1.196744853997128,
+				[22] = 2.118238391574916,
+				[11] = 1.057124621030796,
+				[47] = 2.118238391574916,
+				[49] = 2.118238391574916,
+				[25] = 0.4427955959789373,
+				[26] = 2.12222754108824,
+				[13] = 1.057124621030796,
+				[40] = 1.196744853997128,
+				[42] = 1.200734003510452,
+				[44] = 2.118238391574916,
 			},
-			["type"] = "Ungrouped",
+			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastActive"] = 1689155603,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
-				13504.351, -- [1]
-				13507.303, -- [2]
-				13510.319, -- [3]
-				13513.312, -- [4]
-				13516.36, -- [5]
-				13519.318, -- [6]
+				14001.414, -- [1]
+				14001.414, -- [2]
+				14002.696, -- [3]
+				14002.696, -- [4]
+				14002.878, -- [5]
+				14003.981, -- [6]
+				14004.419, -- [7]
+				14004.419, -- [8]
+				14005.259, -- [9]
+				14005.901, -- [10]
+				14006.299, -- [11]
+				14006.538, -- [12]
+				14007.272, -- [13]
+				14007.596, -- [14]
+				14007.596, -- [15]
+				14007.823, -- [16]
+				14008.293, -- [17]
+				14009.108, -- [18]
+				14009.137, -- [19]
+				14009.276, -- [20]
+				14010.299, -- [21]
+				14010.413, -- [22]
+				14010.413, -- [23]
+				14010.595, -- [24]
+				14011.436, -- [25]
+				14011.707, -- [26]
+				14011.708, -- [27]
+				14011.99, -- [28]
+				14012.986, -- [29]
+				14012.986, -- [30]
+				14013.66, -- [31]
+				14013.661, -- [32]
+				14014.276, -- [33]
+				14015.098, -- [34]
+				14015.545, -- [35]
+				14015.546, -- [36]
+				14017.809, -- [37]
+				14019.832, -- [38]
+				14033.799, -- [39]
+				14035.799, -- [40]
+				14037.808, -- [41]
+				14039.824, -- [42]
+				14041.798, -- [43]
+				13998.821, -- [44]
+				13998.822, -- [45]
+				13999.84, -- [46]
+				14000.127, -- [47]
+				14000.127, -- [48]
+				14001.334, -- [49]
+				14001.334, -- [50]
 			},
-			["Owner"] = false,
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
+			["Owner"] = "Yuchi",
+			["TimeLast"] = {
+				["TimeHeal"] = 1689156064,
+				["OVERALL"] = 1689156099,
+				["DamageTaken"] = 1689156095,
+				["EnergyGain"] = 1689156099,
+				["HealingTaken"] = 1689156096,
+				["HOT_Time"] = 1689156094,
+				["TimeDamage"] = 1689156099,
+				["Healing"] = 1689156064,
+				["Overhealing"] = 1689156094,
+				["ActiveTime"] = 1689156099,
+				["Damage"] = 1689156099,
 			},
-			["NextEventNum"] = 7,
+			["NextEventNum"] = 44,
 			["LastEventHealthNum"] = {
 				100, -- [1]
 				100, -- [2]
@@ -45337,20 +45605,157 @@ RecountPerCharDB = {
 				100, -- [4]
 				100, -- [5]
 				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				99.55720440402106, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
 			},
 			["LastEvents"] = {
-				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [1]
-				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [2]
-				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [3]
-				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [4]
-				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [5]
-				"Merinde Rejuvenation Klari Tick +2843 (2843 overheal)", -- [6]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [1]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -601 (Physical)", -- [2]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [3]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -621 (Physical)", -- [4]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Crit -984 (Physical)", -- [5]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Glancing -461 (Physical)", -- [6]
+				"Mcstylish Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [7]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -468 (Physical)", -- [8]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -617 (Physical)", -- [9]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -472 (Physical)", -- [10]
+				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [11]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -619 (Physical)", -- [12]
+				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [13]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [14]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -475 (Physical)", -- [15]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1226 (Physical)", -- [16]
+				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [17]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -485 (Physical)", -- [18]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Glancing -480 (Physical)", -- [19]
+				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [20]
+				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [21]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [22]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1326 (Physical)", -- [23]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -548 (Physical)", -- [24]
+				"Frozen Orb Frozen Orb Grr <Yuchi> Hit -111 (110 resisted) (Frost)", -- [25]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +532 (421 overheal)", -- [26]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1334 (Physical)", -- [27]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Crit -1008 (Physical)", -- [28]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +532 (532 overheal)", -- [29]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1358 (Physical)", -- [30]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [31]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -531 (Physical)", -- [32]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -662 (Physical)", -- [33]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -518 (Physical)", -- [34]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [35]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -703 (Physical)", -- [36]
+				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [37]
+				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [38]
+				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +301 (301 overheal)", -- [39]
+				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [40]
+				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [41]
+				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +301 (301 overheal)", -- [42]
+				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [43]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [44]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1230 (Physical)", -- [45]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Crit -1036 (Physical)", -- [46]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [47]
+				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1246 (Physical)", -- [48]
+				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [49]
+				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -516 (Physical)", -- [50]
 			},
-			["Name"] = "Klari",
-			["TimeLast"] = {
-				["OVERALL"] = 1689155600,
-				["ManaGain"] = 1689155600,
+			["Name"] = "Grr",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				true, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				true, -- [13]
+				true, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				true, -- [26]
+				false, -- [27]
+				false, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				true, -- [49]
+				false, -- [50]
 			},
+			["LastDamageTaken"] = 111,
 			["Fights"] = {
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -45365,41 +45770,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -45407,22 +45811,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -45430,28 +45833,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -45468,41 +45873,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -45510,22 +45914,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -45533,58 +45936,744 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ManaGain"] = 136,
-					["ManaGainedFrom"] = {
-						["Merinde"] = {
+					["ElementDoneBlock"] = {
+						["Physical"] = 82,
+					},
+					["TimeHealing"] = {
+						["Grr <Yuchi>"] = {
 							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 136,
+								["Bloodthirsty"] = {
+									["count"] = 3.9,
 								},
 							},
-							["amount"] = 136,
+							["amount"] = 3.9,
 						},
 					},
-					["ManaGained"] = {
-						["Revitalize"] = {
+					["OverHeals"] = {
+						["Bloodthirsty"] = {
 							["Details"] = {
-								["Merinde"] = {
-									["count"] = 136,
+								["Tick"] = {
+									["max"] = 265,
+									["min"] = 5,
+									["count"] = 40,
+									["amount"] = 9777,
 								},
 							},
-							["amount"] = 136,
+							["count"] = 40,
+							["amount"] = 9777,
+						},
+					},
+					["HealedWho"] = {
+						["Grr <Yuchi>"] = {
+							["Details"] = {
+								["Bloodthirsty"] = {
+									["count"] = 1698,
+								},
+							},
+							["amount"] = 1698,
+						},
+					},
+					["TimeSpent"] = {
+						["Grr <Yuchi>"] = {
+							["Details"] = {
+								["Bloodthirsty"] = {
+									["count"] = 3.9,
+								},
+							},
+							["amount"] = 3.9,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14.7,
+								},
+								["Bite"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 22.7,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 59.54000000000002,
+								},
+								["Bite"] = {
+									["count"] = 36.17,
+								},
+							},
+							["amount"] = 95.71000000000004,
+						},
+						["Frost Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.49,
+								},
+								["Bite"] = {
+									["count"] = 15.64,
+								},
+							},
+							["amount"] = 34.13,
+						},
+					},
+					["WhoHealed"] = {
+						["Grr <Yuchi>"] = {
+							["Details"] = {
+								["Bloodthirsty"] = {
+									["count"] = 1698,
+								},
+							},
+							["amount"] = 1698,
+						},
+						["Healing Stream Totem IX <Charliesh>"] = {
+							["Details"] = {
+								["Healing Stream Totem"] = {
+									["count"] = 1683,
+								},
+							},
+							["amount"] = 1683,
+						},
+						["Merinde"] = {
+							["Details"] = {
+								["Wild Growth"] = {
+									["count"] = 290,
+								},
+							},
+							["amount"] = 290,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 3196,
+								},
+							},
+							["amount"] = 3196,
+						},
+					},
+					["ElementTakenResist"] = {
+						["Frost"] = 3092,
+					},
+					["EnergyGain"] = 6550,
+					["PartialResist"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 111,
+									["min"] = 64,
+									["count"] = 36,
+									["amount"] = 3092,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 39,
+							["amount"] = 3092,
+						},
+						["Rock Shower (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["HOT_Time"] = 135,
+					["ActiveTime"] = 156.44,
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 39,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTaken"] = {
+						["Frost"] = 4781,
+						["Physical"] = 290,
+					},
+					["HOTs"] = {
+						["Bloodthirsty"] = {
+							["Details"] = {
+								["Grr <Yuchi>"] = {
+									["count"] = 135,
+								},
+							},
+							["amount"] = 135,
+						},
+					},
+					["Damage"] = 133757,
+					["WhoDamaged"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Frozen Orb"] = {
+									["count"] = 4781,
+								},
+							},
+							["amount"] = 4781,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Rock Shower (DoT)"] = {
+									["count"] = 290,
+								},
+							},
+							["amount"] = 290,
+						},
+					},
+					["Heals"] = {
+						["Bloodthirsty"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 265,
+									["min"] = 113,
+									["count"] = 7,
+									["amount"] = 1698,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 1698,
+						},
+					},
+					["TimeHeal"] = 3.9,
+					["EnergyGained"] = {
+						["Go for the Throat"] = {
+							["Details"] = {
+								["Yuchi"] = {
+									["count"] = 6550,
+								},
+							},
+							["amount"] = 6550,
+						},
+					},
+					["DamagedWho"] = {
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5179,
+								},
+								["Bite"] = {
+									["count"] = 4982,
+								},
+							},
+							["amount"] = 10161,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 68120,
+								},
+								["Bite"] = {
+									["count"] = 39414,
+								},
+							},
+							["amount"] = 107534,
+						},
+						["Frost Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7636,
+								},
+								["Bite"] = {
+									["count"] = 8426,
+								},
+							},
+							["amount"] = 16062,
+						},
+					},
+					["Healing"] = 1698,
+					["DamageTaken"] = 5071,
+					["ElementDone"] = {
+						["Melee"] = 80935,
+						["Physical"] = 52822,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 678,
+									["min"] = 367,
+									["count"] = 26,
+									["amount"] = 12245,
+								},
+								["Crit"] = {
+									["max"] = 1744,
+									["min"] = 904,
+									["count"] = 30,
+									["amount"] = 36310,
+								},
+								["Hit"] = {
+									["max"] = 897,
+									["min"] = 479,
+									["count"] = 52,
+									["amount"] = 32380,
+								},
+							},
+							["count"] = 108,
+							["amount"] = 80935,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 269,
+									["min"] = 269,
+									["count"] = 1,
+									["amount"] = 269,
+								},
+								["Crit (Blocked)"] = {
+									["max"] = 941,
+									["min"] = 941,
+									["count"] = 1,
+									["amount"] = 941,
+								},
+								["Crit"] = {
+									["max"] = 1056,
+									["min"] = 662,
+									["count"] = 17,
+									["amount"] = 14950,
+								},
+								["Hit"] = {
+									["max"] = 886,
+									["min"] = 334,
+									["count"] = 73,
+									["amount"] = 36662,
+								},
+							},
+							["count"] = 92,
+							["amount"] = 52822,
+						},
+					},
+					["HealingTaken"] = 6867,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 26,
+								},
+								["Crit"] = {
+									["count"] = 30,
+								},
+								["Hit"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 108,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 18,
+								},
+								["Hit"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 92,
+						},
+					},
+					["TimeDamage"] = 152.54,
+					["TimeDamaging"] = {
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14.7,
+								},
+								["Bite"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 22.7,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 59.54000000000002,
+								},
+								["Bite"] = {
+									["count"] = 36.17,
+								},
+							},
+							["amount"] = 95.71000000000004,
+						},
+						["Frost Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.49,
+								},
+								["Bite"] = {
+									["count"] = 15.64,
+								},
+							},
+							["amount"] = 34.13,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Yuchi"] = {
+							["Details"] = {
+								["Go for the Throat"] = {
+									["count"] = 6550,
+								},
+							},
+							["amount"] = 6550,
+						},
+					},
+					["Overhealing"] = 9777,
+					["PartialAbsorb"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 39,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 39,
+							["amount"] = 0,
+						},
+						["Rock Shower (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
 						},
 					},
 				},
 			},
-			["lazysync"] = true,
-			["UnitLockout"] = 1689155588,
-			["LastAbility"] = 15380.376,
+			["UnitLockout"] = 1689155593,
+			["LastActive"] = 1689156126,
+		},
+		["Frost Resistance Totem VI <Sertel>"] = {
+			["GUID"] = "0xF1300079C400003D",
+			["LastEventHealth"] = {
+				"???", -- [1]
+			},
+			["LastEventType"] = {
+				"MISC", -- [1]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["level"] = 1,
+			["LastFightIn"] = 5,
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Frost Resistance Totem VI <Sertel> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1689156142,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+			},
+			["Owner"] = "Sertel",
+			["LastEventTimes"] = {
+				14054.513, -- [1]
+			},
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"Frost Resistance Totem VI <Sertel> dies.", -- [1]
+			},
+			["Name"] = "Frost Resistance Totem VI",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["TimeLast"] = {
+				["OVERALL"] = 1689156138,
+				["DeathCount"] = 1689156138,
+			},
+			["UnitLockout"] = 1689156138,
+			["Fights"] = {
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DeathCount"] = 1,
+				},
+			},
+			["LastAbility"] = 19157.908,
 		},
 		["Puller <Feire>"] = {
 			["GUID"] = "0xF1403477FF000002",
@@ -45726,7 +46815,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14005.947, -- [1]
 				14006.868, -- [2]
@@ -46005,41 +47094,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -46047,22 +47135,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -46070,28 +47157,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -46108,41 +47197,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -46150,22 +47238,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -46173,28 +47260,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -46224,6 +47313,62 @@ RecountPerCharDB = {
 							},
 							["count"] = 62,
 							["amount"] = 15121,
+						},
+					},
+					["HealedWho"] = {
+						["Puller <Feire>"] = {
+							["Details"] = {
+								["Bloodthirsty"] = {
+									["count"] = 2527,
+								},
+							},
+							["amount"] = 2527,
+						},
+					},
+					["TimeSpent"] = {
+						["Puller <Feire>"] = {
+							["Details"] = {
+								["Bloodthirsty"] = {
+									["count"] = 6.89,
+								},
+							},
+							["amount"] = 6.89,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13.71,
+								},
+								["Bite"] = {
+									["count"] = 9.720000000000001,
+								},
+							},
+							["amount"] = 23.43,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Bite"] = {
+									["count"] = 42.29,
+								},
+								["Melee"] = {
+									["count"] = 47.81,
+								},
+								["Growl"] = {
+									["count"] = 0.5700000000000001,
+								},
+							},
+							["amount"] = 90.66999999999997,
+						},
+						["Frost Warder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.72,
+								},
+								["Bite"] = {
+									["count"] = 12.68,
+								},
+							},
+							["amount"] = 29.4,
 						},
 					},
 					["WhoHealed"] = {
@@ -46263,66 +47408,41 @@ RecountPerCharDB = {
 							["amount"] = 2734,
 						},
 					},
-					["TimeSpent"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Bite"] = {
-									["count"] = 42.29,
-								},
-								["Melee"] = {
-									["count"] = 47.81,
-								},
-								["Growl"] = {
-									["count"] = 0.5700000000000001,
-								},
-							},
-							["amount"] = 90.66999999999997,
-						},
-						["Frost Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 16.72,
-								},
-								["Bite"] = {
-									["count"] = 12.68,
-								},
-							},
-							["amount"] = 29.4,
-						},
-						["Puller <Feire>"] = {
-							["Details"] = {
-								["Bloodthirsty"] = {
-									["count"] = 6.89,
-								},
-							},
-							["amount"] = 6.89,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 13.71,
-								},
-								["Bite"] = {
-									["count"] = 9.720000000000001,
-								},
-							},
-							["amount"] = 23.43,
-						},
-					},
-					["HealedWho"] = {
-						["Puller <Feire>"] = {
-							["Details"] = {
-								["Bloodthirsty"] = {
-									["count"] = 2527,
-								},
-							},
-							["amount"] = 2527,
-						},
-					},
 					["ElementTakenResist"] = {
 						["Frost"] = 3374,
 					},
-					["EnergyGain"] = 3275,
+					["PartialResist"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 111,
+									["min"] = 64,
+									["count"] = 39,
+									["amount"] = 3374,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 3374,
+						},
+						["Rock Shower (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["ElementHitsTaken"] = {
 						["Frost"] = {
 							["Details"] = {
@@ -46344,7 +47464,32 @@ RecountPerCharDB = {
 							["amount"] = 1,
 						},
 					},
-					["HOT_Time"] = 195,
+					["PartialAbsorb"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 40,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 0,
+						},
+						["Rock Shower (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
 					["ActiveTime"] = 150.39,
 					["TimeHeal"] = 6.89,
 					["ElementTaken"] = {
@@ -46586,345 +47731,12 @@ RecountPerCharDB = {
 							["amount"] = 3275,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 40,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 40,
-							["amount"] = 0,
-						},
-						["Rock Shower (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 111,
-									["min"] = 64,
-									["count"] = 39,
-									["amount"] = 3374,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 40,
-							["amount"] = 3374,
-						},
-						["Rock Shower (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
+					["HOT_Time"] = 195,
+					["EnergyGain"] = 3275,
 				},
 			},
 			["UnitLockout"] = 1689155615,
 			["LastActive"] = 1689156102,
-		},
-		["Frost Resistance Totem VI <Sertel>"] = {
-			["GUID"] = "0xF1300079C400003D",
-			["LastEventHealth"] = {
-				"???", -- [1]
-			},
-			["LastEventType"] = {
-				"MISC", -- [1]
-			},
-			["TimeWindows"] = {
-				["DeathCount"] = {
-					1, -- [1]
-				},
-			},
-			["enClass"] = "PET",
-			["level"] = 1,
-			["LastFightIn"] = 5,
-			["type"] = "Pet",
-			["FightsSaved"] = 5,
-			["DeathLogs"] = {
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Frost Resistance Totem VI <Sertel> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1689156142,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [1]
-			},
-			["Owner"] = "Sertel",
-			["LastEventTimes"] = {
-				14054.513, -- [1]
-			},
-			["NextEventNum"] = 2,
-			["LastEventHealthNum"] = {
-				0, -- [1]
-			},
-			["LastEvents"] = {
-				"Frost Resistance Totem VI <Sertel> dies.", -- [1]
-			},
-			["Name"] = "Frost Resistance Totem VI",
-			["LastEventIncoming"] = {
-				true, -- [1]
-			},
-			["TimeLast"] = {
-				["OVERALL"] = 1689156138,
-				["DeathCount"] = 1689156138,
-			},
-			["UnitLockout"] = 1689156138,
-			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["DeathCount"] = 1,
-				},
-			},
-			["LastAbility"] = 15380.376,
 		},
 		["Yuchi"] = {
 			["GUID"] = "0x070000000095DE97",
@@ -47058,7 +47870,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "HUNTER",
 			["unit"] = "Yuchi",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["level"] = 80,
 			["LastDamageAbility"] = "Whiteout",
 			["LastFightIn"] = 4,
@@ -47327,41 +48139,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -47369,22 +48180,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -47392,28 +48202,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -47430,41 +48242,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -47472,22 +48283,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -47495,28 +48305,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -48225,63 +49037,146 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 18288,
-					["ManaGainedFrom"] = {
-						["Merinde"] = {
+					["DamagedWho"] = {
+						["Frost Warder"] = {
 							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 1005,
+								["Piercing Shots (DoT)"] = {
+									["count"] = 8955,
+								},
+								["Chimera Shot"] = {
+									["count"] = 20394,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 6555,
+								},
+								["Auto Shot"] = {
+									["count"] = 51293,
+								},
+								["Silencing Shot"] = {
+									["count"] = 3940,
+								},
+								["Kill Shot"] = {
+									["count"] = 26014,
+								},
+								["Aimed Shot"] = {
+									["count"] = 16150,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 16085,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 7197,
+								},
+								["Steady Shot"] = {
+									["count"] = 32023,
 								},
 							},
-							["amount"] = 1005,
+							["amount"] = 188606,
 						},
-						["Baimushi"] = {
+						["Archavon Warder"] = {
 							["Details"] = {
-								["Rapture"] = {
-									["count"] = 813,
+								["Piercing Shots (DoT)"] = {
+									["count"] = 8467,
+								},
+								["Chimera Shot"] = {
+									["count"] = 26273,
+								},
+								["Steady Shot"] = {
+									["count"] = 21361,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 7167,
+								},
+								["Aimed Shot"] = {
+									["count"] = 15404,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 12687,
+								},
+								["Auto Shot"] = {
+									["count"] = 36037,
+								},
+								["Silencing Shot"] = {
+									["count"] = 4847,
 								},
 							},
-							["amount"] = 813,
+							["amount"] = 132243,
 						},
-						["Blackregina"] = {
+						["Toravon the Ice Watcher"] = {
 							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 1007,
+								["Piercing Shots (DoT)"] = {
+									["count"] = 40465,
+								},
+								["Chimera Shot"] = {
+									["count"] = 59019,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 25724,
+								},
+								["Auto Shot"] = {
+									["count"] = 187086,
+								},
+								["Silencing Shot"] = {
+									["count"] = 7554,
+								},
+								["Kill Shot"] = {
+									["count"] = 19963,
+								},
+								["Volley"] = {
+									["count"] = 28325,
+								},
+								["Aimed Shot"] = {
+									["count"] = 38790,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 27363,
+								},
+								["Steady Shot"] = {
+									["count"] = 79615,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 29347,
 								},
 							},
-							["amount"] = 1007,
+							["amount"] = 543251,
 						},
-						["Litigator"] = {
+						["Frozen Orb"] = {
 							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 1100,
+								["Piercing Shots (DoT)"] = {
+									["count"] = 2368,
 								},
-								["Judgement of Wisdom"] = {
-									["count"] = 3000,
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 1878,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 3651,
+								},
+								["Auto Shot"] = {
+									["count"] = 34142,
+								},
+								["Steady Shot"] = {
+									["count"] = 18556,
+								},
+								["Kill Shot"] = {
+									["count"] = 6355,
+								},
+								["Volley"] = {
+									["count"] = 37236,
+								},
+								["Aimed Shot"] = {
+									["count"] = 6037,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 2118,
+								},
+								["Silencing Shot"] = {
+									["count"] = 880,
+								},
+								["Chimera Shot"] = {
+									["count"] = 3185,
 								},
 							},
-							["amount"] = 4100,
-						},
-						["Yuchi"] = {
-							["Details"] = {
-								["Rapid Recuperation"] = {
-									["count"] = 6243,
-								},
-								["Aspect of the Viper"] = {
-									["count"] = 7522,
-								},
-							},
-							["amount"] = 13765,
-						},
-						["Lionhearted"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 899,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 3900,
-								},
-							},
-							["amount"] = 4799,
+							["amount"] = 116406,
 						},
 					},
 					["TimeDamage"] = 168.64,
@@ -48440,146 +49335,63 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 25489,
-					["DamagedWho"] = {
-						["Frost Warder"] = {
+					["ManaGainedFrom"] = {
+						["Merinde"] = {
 							["Details"] = {
-								["Piercing Shots (DoT)"] = {
-									["count"] = 8955,
-								},
-								["Chimera Shot"] = {
-									["count"] = 20394,
-								},
-								["Serpent Sting (DoT)"] = {
-									["count"] = 6555,
-								},
-								["Auto Shot"] = {
-									["count"] = 51293,
-								},
-								["Silencing Shot"] = {
-									["count"] = 3940,
-								},
-								["Kill Shot"] = {
-									["count"] = 26014,
-								},
-								["Aimed Shot"] = {
-									["count"] = 16150,
-								},
-								["Chimera Shot - Serpent"] = {
-									["count"] = 16085,
-								},
-								["Wild Quiver Auto Shot"] = {
-									["count"] = 7197,
-								},
-								["Steady Shot"] = {
-									["count"] = 32023,
+								["Revitalize"] = {
+									["count"] = 1005,
 								},
 							},
-							["amount"] = 188606,
+							["amount"] = 1005,
 						},
-						["Archavon Warder"] = {
+						["Baimushi"] = {
 							["Details"] = {
-								["Piercing Shots (DoT)"] = {
-									["count"] = 8467,
-								},
-								["Chimera Shot"] = {
-									["count"] = 26273,
-								},
-								["Steady Shot"] = {
-									["count"] = 21361,
-								},
-								["Serpent Sting (DoT)"] = {
-									["count"] = 7167,
-								},
-								["Aimed Shot"] = {
-									["count"] = 15404,
-								},
-								["Chimera Shot - Serpent"] = {
-									["count"] = 12687,
-								},
-								["Auto Shot"] = {
-									["count"] = 36037,
-								},
-								["Silencing Shot"] = {
-									["count"] = 4847,
+								["Rapture"] = {
+									["count"] = 813,
 								},
 							},
-							["amount"] = 132243,
+							["amount"] = 813,
 						},
-						["Toravon the Ice Watcher"] = {
+						["Blackregina"] = {
 							["Details"] = {
-								["Piercing Shots (DoT)"] = {
-									["count"] = 40465,
-								},
-								["Chimera Shot"] = {
-									["count"] = 59019,
-								},
-								["Serpent Sting (DoT)"] = {
-									["count"] = 25724,
-								},
-								["Auto Shot"] = {
-									["count"] = 187086,
-								},
-								["Silencing Shot"] = {
-									["count"] = 7554,
-								},
-								["Kill Shot"] = {
-									["count"] = 19963,
-								},
-								["Volley"] = {
-									["count"] = 28325,
-								},
-								["Aimed Shot"] = {
-									["count"] = 38790,
-								},
-								["Chimera Shot - Serpent"] = {
-									["count"] = 27363,
-								},
-								["Steady Shot"] = {
-									["count"] = 79615,
-								},
-								["Wild Quiver Auto Shot"] = {
-									["count"] = 29347,
+								["Replenishment"] = {
+									["count"] = 1007,
 								},
 							},
-							["amount"] = 543251,
+							["amount"] = 1007,
 						},
-						["Frozen Orb"] = {
+						["Litigator"] = {
 							["Details"] = {
-								["Piercing Shots (DoT)"] = {
-									["count"] = 2368,
+								["Replenishment"] = {
+									["count"] = 1100,
 								},
-								["Wild Quiver Auto Shot"] = {
-									["count"] = 1878,
-								},
-								["Serpent Sting (DoT)"] = {
-									["count"] = 3651,
-								},
-								["Auto Shot"] = {
-									["count"] = 34142,
-								},
-								["Steady Shot"] = {
-									["count"] = 18556,
-								},
-								["Kill Shot"] = {
-									["count"] = 6355,
-								},
-								["Volley"] = {
-									["count"] = 37236,
-								},
-								["Aimed Shot"] = {
-									["count"] = 6037,
-								},
-								["Chimera Shot - Serpent"] = {
-									["count"] = 2118,
-								},
-								["Silencing Shot"] = {
-									["count"] = 880,
-								},
-								["Chimera Shot"] = {
-									["count"] = 3185,
+								["Judgement of Wisdom"] = {
+									["count"] = 3000,
 								},
 							},
-							["amount"] = 116406,
+							["amount"] = 4100,
+						},
+						["Yuchi"] = {
+							["Details"] = {
+								["Rapid Recuperation"] = {
+									["count"] = 6243,
+								},
+								["Aspect of the Viper"] = {
+									["count"] = 7522,
+								},
+							},
+							["amount"] = 13765,
+						},
+						["Lionhearted"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 899,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 3900,
+								},
+							},
+							["amount"] = 4799,
 						},
 					},
 					["ElementHitsTaken"] = {
@@ -48751,7 +49563,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "DEATHKNIGHT",
 			["unit"] = "Purinx",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14011.938, -- [1]
 				14011.938, -- [2]
@@ -48878,13 +49690,13 @@ RecountPerCharDB = {
 			},
 			["TimeLast"] = {
 				["TimeHeal"] = 1689156093,
-				["HOT_Time"] = 1689156099,
+				["FDamage"] = 1689156064,
 				["OVERALL"] = 1689156099,
 				["DamageTaken"] = 1689156091,
-				["Overhealing"] = 1689156099,
+				["HOT_Time"] = 1689156099,
 				["ActiveTime"] = 1689156099,
 				["HealingTaken"] = 1689156094,
-				["FDamage"] = 1689156064,
+				["Overhealing"] = 1689156099,
 				["TimeDamage"] = 1689156099,
 				["Healing"] = 1689156093,
 				["RunicPowerGain"] = 1689156091,
@@ -49070,41 +49882,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -49112,22 +49923,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -49135,28 +49945,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -49173,41 +49985,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -49215,22 +50026,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -49238,28 +50048,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -49472,14 +50284,14 @@ RecountPerCharDB = {
 						},
 						["Frozen Orb"] = {
 							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 0.55,
 								},
 								["Wandering Plague"] = {
 									["count"] = 1.29,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
 								},
 								["Chaos Bane"] = {
 									["count"] = 0.29,
@@ -49597,10 +50409,10 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDone"] = {
-						["Shadow"] = 383109,
 						["Physical"] = 311060,
-						["Melee"] = 345593,
 						["Frost"] = 138309,
+						["Melee"] = 345593,
+						["Shadow"] = 383109,
 					},
 					["DamagedWho"] = {
 						["Frost Warder"] = {
@@ -49740,14 +50552,14 @@ RecountPerCharDB = {
 						},
 						["Frozen Orb"] = {
 							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 23915,
+								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 17870,
 								},
 								["Wandering Plague"] = {
 									["count"] = 14989,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 23915,
 								},
 								["Chaos Bane"] = {
 									["count"] = 3753,
@@ -50419,14 +51231,14 @@ RecountPerCharDB = {
 						},
 						["Frozen Orb"] = {
 							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
 								["Blood Plague (DoT)"] = {
 									["count"] = 0.55,
 								},
 								["Wandering Plague"] = {
 									["count"] = 1.29,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
 								},
 								["Chaos Bane"] = {
 									["count"] = 0.29,
@@ -50438,20 +51250,6 @@ RecountPerCharDB = {
 					["RunicPowerGain"] = 382,
 					["DOT_Time"] = 504,
 					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 113,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 153,
-								},
-							},
-							["amount"] = 268,
-						},
 						["Physical"] = {
 							["Details"] = {
 								["Dodge"] = {
@@ -50465,6 +51263,20 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 73,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Tick"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 65,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -50483,19 +51295,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 66,
 						},
-						["Frost"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
+								["Tick"] = {
+									["count"] = 113,
 								},
 								["Crit"] = {
-									["count"] = 6,
+									["count"] = 2,
 								},
-								["Tick"] = {
-									["count"] = 55,
+								["Hit"] = {
+									["count"] = 153,
 								},
 							},
-							["amount"] = 65,
+							["amount"] = 268,
 						},
 					},
 				},
@@ -50652,7 +51464,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14011.274, -- [1]
 				14011.275, -- [2]
@@ -50889,41 +51701,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -50931,22 +51742,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -50954,28 +51764,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -50992,41 +51804,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -51034,22 +51845,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -51057,28 +51867,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -51549,24 +52361,6 @@ RecountPerCharDB = {
 							["count"] = 10,
 							["amount"] = 114617,
 						},
-						["Instant Poison IX"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 2848,
-									["min"] = 1749,
-									["count"] = 34,
-									["amount"] = 79356,
-								},
-								["Hit"] = {
-									["max"] = 1708,
-									["min"] = 950,
-									["count"] = 85,
-									["amount"] = 109436,
-								},
-							},
-							["count"] = 119,
-							["amount"] = 188792,
-						},
 						["Blade Twisting (Hack and Slash)"] = {
 							["Details"] = {
 								["Glancing"] = {
@@ -51584,6 +52378,24 @@ RecountPerCharDB = {
 							},
 							["count"] = 2,
 							["amount"] = 3713,
+						},
+						["Instant Poison IX"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 2848,
+									["min"] = 1749,
+									["count"] = 34,
+									["amount"] = 79356,
+								},
+								["Hit"] = {
+									["max"] = 1708,
+									["min"] = 950,
+									["count"] = 85,
+									["amount"] = 109436,
+								},
+							},
+							["count"] = 119,
+							["amount"] = 188792,
 						},
 						["Blade Flurry"] = {
 							["Details"] = {
@@ -51928,23 +52740,23 @@ RecountPerCharDB = {
 				"27625 (89%)", -- [21]
 				"28453 (92%)", -- [22]
 				"29294 (95%)", -- [23]
-				"22592 (73%)", -- [24]
-				"27148 (88%)", -- [25]
-				"30453 (98%)", -- [26]
-				"30811 (100%)", -- [27]
-				"30811 (100%)", -- [28]
-				"30811 (100%)", -- [29]
-				"27451 (89%)", -- [30]
-				"28278 (91%)", -- [31]
-				"28278 (91%)", -- [32]
-				"28278 (91%)", -- [33]
-				"28278 (91%)", -- [34]
-				"28278 (91%)", -- [35]
-				"28278 (91%)", -- [36]
-				"28278 (91%)", -- [37]
-				"29079 (94%)", -- [38]
-				"29079 (94%)", -- [39]
-				"29079 (94%)", -- [40]
+				"30121 (97%)", -- [24]
+				"30811 (100%)", -- [25]
+				"27736 (90%)", -- [26]
+				"28564 (92%)", -- [27]
+				"29391 (95%)", -- [28]
+				"30232 (98%)", -- [29]
+				"30811 (100%)", -- [30]
+				"30811 (100%)", -- [31]
+				"30811 (100%)", -- [32]
+				"30811 (100%)", -- [33]
+				"30811 (100%)", -- [34]
+				"30811 (100%)", -- [35]
+				"30811 (100%)", -- [36]
+				"30811 (100%)", -- [37]
+				"30811 (100%)", -- [38]
+				"30811 (100%)", -- [39]
+				"30811 (100%)", -- [40]
 				"29079 (94%)", -- [41]
 				"29079 (94%)", -- [42]
 				"29079 (94%)", -- [43]
@@ -51983,21 +52795,21 @@ RecountPerCharDB = {
 				"HEAL", -- [23]
 				"HEAL", -- [24]
 				"HEAL", -- [25]
-				"HEAL", -- [26]
+				"DAMAGE", -- [26]
 				"HEAL", -- [27]
 				"HEAL", -- [28]
 				"HEAL", -- [29]
-				"DAMAGE", -- [30]
+				"HEAL", -- [30]
 				"HEAL", -- [31]
 				"HEAL", -- [32]
-				"DAMAGE", -- [33]
+				"HEAL", -- [33]
 				"HEAL", -- [34]
-				"DAMAGE", -- [35]
+				"HEAL", -- [35]
 				"HEAL", -- [36]
-				"DAMAGE", -- [37]
+				"HEAL", -- [37]
 				"HEAL", -- [38]
 				"HEAL", -- [39]
-				"DAMAGE", -- [40]
+				"HEAL", -- [40]
 				"HEAL", -- [41]
 				"DAMAGE", -- [42]
 				"HEAL", -- [43]
@@ -52023,7 +52835,7 @@ RecountPerCharDB = {
 					82168, -- [1]
 				},
 				["DamageTaken"] = {
-					420616, -- [1]
+					423691, -- [1]
 				},
 				["FDamage"] = {
 					56530, -- [1]
@@ -52055,7 +52867,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "WARLOCK",
 			["unit"] = "Denathra",
-			["LastAbility"] = 15422.646,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				15399.675, -- [1]
 				15404.658, -- [2]
@@ -52080,23 +52892,23 @@ RecountPerCharDB = {
 				15429.681, -- [21]
 				15434.683, -- [22]
 				15439.657, -- [23]
-				12413.476, -- [24]
-				12418.409, -- [25]
-				12423.418, -- [26]
-				12428.401, -- [27]
-				12433.468, -- [28]
-				15384.67, -- [29]
-				15387.083, -- [30]
-				15389.65, -- [31]
-				15390.242, -- [32]
-				15390.242, -- [33]
-				15392.275, -- [34]
-				15392.275, -- [35]
-				15394.083, -- [36]
-				15394.084, -- [37]
-				15394.683, -- [38]
-				15395.333, -- [39]
-				15395.333, -- [40]
+				15984.065, -- [24]
+				15989.05, -- [25]
+				15990.95, -- [26]
+				15994.041, -- [27]
+				15999.049, -- [28]
+				16004.049, -- [29]
+				16009.049, -- [30]
+				16014.033, -- [31]
+				16019.041, -- [32]
+				19161.509, -- [33]
+				19166.524, -- [34]
+				19171.533, -- [35]
+				19176.507, -- [36]
+				19181.499, -- [37]
+				19186.532, -- [38]
+				19191.516, -- [39]
+				19196.516, -- [40]
 				15396.125, -- [41]
 				15396.125, -- [42]
 				15396.608, -- [43]
@@ -52110,7 +52922,7 @@ RecountPerCharDB = {
 			},
 			["level"] = 80,
 			["LastDamageAbility"] = "Falling",
-			["LastFightIn"] = 24,
+			["LastFightIn"] = 25,
 			["LastEventNum"] = {
 				2.599720878906884, -- [1]
 				2.599720878906884, -- [2]
@@ -52137,13 +52949,21 @@ RecountPerCharDB = {
 				2.599720878906884, -- [23]
 				2.599720878906884, -- [24]
 				2.599720878906884, -- [25]
-				2.599720878906884, -- [26]
+				9.980201875953393, -- [26]
 				2.599720878906884, -- [27]
 				2.599720878906884, -- [28]
 				2.599720878906884, -- [29]
-				10.90519619616371, -- [30]
+				2.599720878906884, -- [30]
 				2.599720878906884, -- [31]
-				[38] = 2.599720878906884,
+				2.599720878906884, -- [32]
+				2.599720878906884, -- [33]
+				2.599720878906884, -- [34]
+				2.599720878906884, -- [35]
+				2.599720878906884, -- [36]
+				2.599720878906884, -- [37]
+				2.599720878906884, -- [38]
+				2.599720878906884, -- [39]
+				2.599720878906884, -- [40]
 				[44] = 14.84859303495505,
 			},
 			["type"] = "Self",
@@ -52151,79 +52971,28 @@ RecountPerCharDB = {
 			["TimeLast"] = {
 				["TimeHeal"] = 1690137651,
 				["Dispelled"] = 1689878748,
-				["OVERALL"] = 1690137681,
+				["OVERALL"] = 1690282150,
 				["HealingTaken"] = 1690137651,
 				["Healing"] = 1690137651,
-				["DamageTaken"] = 1690137642,
+				["DamageTaken"] = 1690282150,
 				["FDamage"] = 1690134503,
-				["Overhealing"] = 1690137680,
-				["DeathCount"] = 1689878820,
 				["HOT_Time"] = 1690137680,
-				["ActiveTime"] = 1690137677,
+				["DeathCount"] = 1689878820,
+				["Overhealing"] = 1690137680,
 				["TimeDamage"] = 1690137677,
+				["ActiveTime"] = 1690137677,
 				["ManaGain"] = 1690137681,
 				["DOT_Time"] = 1690137677,
 				["Damage"] = 1690137677,
 			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				true, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				true, -- [20]
-				true, -- [21]
-				true, -- [22]
-				true, -- [23]
-				true, -- [24]
-				true, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				true, -- [29]
-				true, -- [30]
-				true, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				true, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				false, -- [43]
-				true, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
+			["Name"] = "Denathra",
 			["Owner"] = false,
 			["Pet"] = {
 				"Shaathun <Denathra>", -- [1]
 				"Selrah <Denathra>", -- [2]
 				"Hoknar <Denathra>", -- [3]
 			},
-			["NextEventNum"] = 24,
+			["NextEventNum"] = 41,
 			["LastEventHealthNum"] = {
 				100, -- [1]
 				100, -- [2]
@@ -52248,23 +53017,23 @@ RecountPerCharDB = {
 				89.65953717828049, -- [21]
 				92.3468890980494, -- [22]
 				95.07643374119633, -- [23]
-				73.32446204277693, -- [24]
-				88.11138878971796, -- [25]
-				98.8380773100516, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				89.09480380383629, -- [30]
-				91.77891012949921, -- [31]
-				91.77891012949921, -- [32]
-				91.77891012949921, -- [33]
-				91.77891012949921, -- [34]
-				91.77891012949921, -- [35]
-				91.77891012949921, -- [36]
-				91.77891012949921, -- [37]
-				94.37863100840609, -- [38]
-				94.37863100840609, -- [39]
-				94.37863100840609, -- [40]
+				97.76054006685924, -- [24]
+				100, -- [25]
+				90.0197981240466, -- [26]
+				92.70715004381552, -- [27]
+				95.39125636947843, -- [28]
+				98.12080101262536, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
 				94.37863100840609, -- [41]
 				94.37863100840609, -- [42]
 				94.37863100840609, -- [43]
@@ -52301,22 +53070,22 @@ RecountPerCharDB = {
 				"Denathra Fel Armor Denathra Tick +801", -- [22]
 				"Denathra Fel Armor Denathra Tick +801", -- [23]
 				"Denathra Fel Armor Denathra Tick +801", -- [24]
-				"Denathra Fel Armor Denathra Tick +801", -- [25]
-				"Denathra Fel Armor Denathra Tick +801", -- [26]
-				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [27]
-				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [28]
-				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [29]
-				"Environment Falling Denathra Hit -3360 (Physical)", -- [30]
-				"Denathra Fel Armor Denathra Tick +801", -- [31]
-				"Denathra Fel Synergy Selrah <Denathra> Hit +251 (251 overheal)", -- [32]
-				"Denathra Shadowfury Rendben Hit -1677 (Shadow)", -- [33]
-				"Denathra Fel Synergy Selrah <Denathra> Hit +248 (248 overheal)", -- [34]
-				"Denathra Immolate Rendben Hit -1654 (Fire)", -- [35]
-				"Denathra Fel Synergy Selrah <Denathra> Hit +1186 (1186 overheal)", -- [36]
-				"Denathra Conflagrate Rendben Crit -7910 (Fire)", -- [37]
-				"Denathra Fel Armor Denathra Tick +801", -- [38]
-				"Denathra Fel Synergy Selrah <Denathra> Hit +192 (192 overheal)", -- [39]
-				"Denathra Immolate (DoT) Rendben Tick -1280 (Fire)", -- [40]
+				"Denathra Fel Armor Denathra Tick +801 (137 overheal)", -- [25]
+				"Environment Falling Denathra Hit -3075 (Physical)", -- [26]
+				"Denathra Fel Armor Denathra Tick +801", -- [27]
+				"Denathra Fel Armor Denathra Tick +801", -- [28]
+				"Denathra Fel Armor Denathra Tick +801", -- [29]
+				"Denathra Fel Armor Denathra Tick +801 (249 overheal)", -- [30]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [31]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [32]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [33]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [34]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [35]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [36]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [37]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [38]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [39]
+				"Denathra Fel Armor Denathra Tick +801 (801 overheal)", -- [40]
 				"Denathra Fel Synergy Selrah <Denathra> Hit +147 (147 overheal)", -- [41]
 				"Denathra Conflagrate (DoT) Rendben Tick -981 (Fire)", -- [42]
 				"Denathra Fel Synergy Selrah <Denathra> Hit +228 (228 overheal)", -- [43]
@@ -52328,39 +53097,65 @@ RecountPerCharDB = {
 				"Denathra Immolate (DoT) Rendben Tick -1280 (Fire)", -- [49]
 				"Denathra Incinerate Rendben Immune (Fire)", -- [50]
 			},
-			["Name"] = "Denathra",
-			["LastDamageTaken"] = 3360,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastDamageTaken"] = 3075,
 			["Fights"] = {
 				["Fight3"] = {
 					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Abervorsicht"] = {
-									["count"] = 0,
-								},
-								["Toravon the Ice Watcher"] = {
-									["count"] = 0,
-								},
-								["Erathoorn"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
 						["Curse of Doom (DoT)"] = {
 							["Details"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Toravon the Ice Watcher"] = {
-									["count"] = 0,
-								},
-								["Abervorsicht"] = {
 									["count"] = 0,
 								},
 							},
@@ -52373,6 +53168,31 @@ RecountPerCharDB = {
 								},
 								["Abervorsicht"] = {
 									["count"] = 0,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 0,
+								},
+								["Abervorsicht"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Abervorsicht"] = {
+									["count"] = 0,
+								},
+								["Toravon the Ice Watcher"] = {
+									["count"] = 0,
+								},
+								["Erathoorn"] = {
+									["count"] = 9,
 								},
 							},
 							["amount"] = 9,
@@ -52451,8 +53271,7 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 15,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 43242,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 7285,
@@ -52461,17 +53280,9 @@ RecountPerCharDB = {
 						["Holy"] = 20262,
 						["Frost"] = 0,
 					},
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
+					["DOT_Time"] = 18,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 43242,
 					["ElementDoneAbsorb"] = {
 						["Fire"] = 7292,
 						["Shadow"] = 2724,
@@ -52481,6 +53292,114 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 17,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Reflect"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["FAttacks"] = {
+						["Chaos Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6088,
+									["min"] = 6088,
+									["count"] = 1,
+									["amount"] = 6088,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 6088,
+						},
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 692,
+									["min"] = 0,
+									["count"] = 30,
+									["amount"] = 9001,
+								},
+							},
+							["count"] = 30,
+							["amount"] = 9001,
+						},
+					},
+					["HealingTaken"] = 4005,
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Fire"] = 43242,
+						["Melee"] = 0,
+						["Shadow"] = 0,
 					},
 					["DamagedWho"] = {
 						["Erathoorn"] = {
@@ -52585,114 +53504,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FAttacks"] = {
-						["Chaos Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 6088,
-									["min"] = 6088,
-									["count"] = 1,
-									["amount"] = 6088,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 6088,
-						},
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 692,
-									["min"] = 0,
-									["count"] = 30,
-									["amount"] = 9001,
-								},
-							},
-							["count"] = 30,
-							["amount"] = 9001,
-						},
-					},
-					["HealingTaken"] = 4005,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Holy"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 43242,
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 17,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 2,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Reflect"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -52757,7 +53568,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["WhoDamaged"] = {
 						["Erathoorn"] = {
@@ -52822,9 +53633,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
 					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -52862,7 +53673,44 @@ RecountPerCharDB = {
 							["amount"] = 3.35,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 197,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 197,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 197,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Merinde"] = {
 							["Details"] = {
@@ -52985,62 +53833,6 @@ RecountPerCharDB = {
 						["Fire"] = 268,
 						["Physical"] = 5796,
 						["Holy"] = 8436,
-					},
-					["FDamage"] = 15089,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Litigator"] = {
-									["count"] = 0,
-								},
-								["Blackregina"] = {
-									["count"] = 0,
-								},
-								["Lionhearted"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rapture"] = {
-							["Details"] = {
-								["Baimushi"] = {
-									["count"] = 0,
-								},
-								["Yindao"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Revitalize"] = {
-							["Details"] = {
-								["Merinde"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Litigator"] = {
-									["count"] = 0,
-								},
-								["Lionhearted"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["PartialAbsorb"] = {
 						["Frostbite (DoT)"] = {
@@ -53211,200 +54003,6 @@ RecountPerCharDB = {
 							["count"] = 3,
 							["amount"] = 3231,
 						},
-					},
-					["ActiveTime"] = 27.57000000000001,
-					["Overhealing"] = 197,
-					["TimeSpent"] = {
-						["Erathoorn"] = {
-							["Details"] = {
-								["Chaos Bolt"] = {
-									["count"] = 0.47,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0.53,
-								},
-								["Shadowfury"] = {
-									["count"] = 0.25,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 1.21,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0.29,
-								},
-								["Conflagrate"] = {
-									["count"] = 0.5600000000000001,
-								},
-							},
-							["amount"] = 3.31,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 3.35,
-								},
-							},
-							["amount"] = 3.35,
-						},
-						["Hoknar <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 4.100000000000001,
-								},
-								["Fel Synergy"] = {
-									["count"] = 3.47,
-								},
-							},
-							["amount"] = 7.57,
-						},
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 4.31,
-								},
-								["Soul Link"] = {
-									["count"] = 9.030000000000001,
-								},
-							},
-							["amount"] = 13.34,
-						},
-						["Abervorsicht"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Curse of the Elements"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Demon Charge"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Shadow Cleave"] = {
-									["count"] = 0,
-								},
-								["Curse of Doom (DoT)"] = {
-									["count"] = 0,
-								},
-								["Soul Fire"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Retribution Aura"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-						["Frost"] = 0,
-					},
-					["Heals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 801,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 4005,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 4005,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 948,
-									["min"] = 0,
-									["count"] = 14,
-									["amount"] = 6284,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 6284,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Frostbite (DoT)"] = {
@@ -53606,45 +54204,258 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 10289,
-					["OverHeals"] = {
-						["Death Coil"] = {
+					["ManaGained"] = {
+						["Replenishment"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Litigator"] = {
 									["count"] = 0,
-									["amount"] = 0,
+								},
+								["Blackregina"] = {
+									["count"] = 0,
+								},
+								["Lionhearted"] = {
+									["count"] = 0,
 								},
 							},
-							["count"] = 0,
 							["amount"] = 0,
+						},
+						["Rapture"] = {
+							["Details"] = {
+								["Baimushi"] = {
+									["count"] = 0,
+								},
+								["Yindao"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Revitalize"] = {
+							["Details"] = {
+								["Merinde"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Litigator"] = {
+									["count"] = 0,
+								},
+								["Lionhearted"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 15089,
+					["Interrupts"] = 0,
+					["Overhealing"] = 197,
+					["TimeSpent"] = {
+						["Erathoorn"] = {
+							["Details"] = {
+								["Chaos Bolt"] = {
+									["count"] = 0.47,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0.53,
+								},
+								["Shadowfury"] = {
+									["count"] = 0.25,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 1.21,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0.29,
+								},
+								["Conflagrate"] = {
+									["count"] = 0.5600000000000001,
+								},
+							},
+							["amount"] = 3.31,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 3.35,
+								},
+							},
+							["amount"] = 3.35,
+						},
+						["Hoknar <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 4.100000000000001,
+								},
+								["Fel Synergy"] = {
+									["count"] = 3.47,
+								},
+							},
+							["amount"] = 7.57,
+						},
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 4.31,
+								},
+								["Soul Link"] = {
+									["count"] = 9.030000000000001,
+								},
+							},
+							["amount"] = 13.34,
+						},
+						["Abervorsicht"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of the Elements"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Demon Charge"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+								["Shadow Cleave"] = {
+									["count"] = 0,
+								},
+								["Curse of Doom (DoT)"] = {
+									["count"] = 0,
+								},
+								["Soul Fire"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Retribution Aura"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+						["Frost"] = 0,
+					},
+					["Heals"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 801,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 4005,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 4005,
 						},
 						["Fel Synergy"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 197,
+									["max"] = 948,
 									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 197,
+									["count"] = 14,
+									["amount"] = 6284,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 197,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 14,
+							["amount"] = 6284,
 						},
 					},
+					["ActiveTime"] = 27.57000000000001,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 10289,
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -54131,7 +54942,16 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 18,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -54173,26 +54993,7 @@ RecountPerCharDB = {
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
 						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
 									["count"] = 0,
@@ -54211,37 +55012,39 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1,
 						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 21,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 17141,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
-						["Holy"] = 2176,
 						["Physical"] = 0,
-						["Melee"] = 0,
 						["Fire"] = 1243,
+						["Melee"] = 0,
+						["Holy"] = 2176,
 					},
-					["HOTs"] = {
-						["First Aid"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
+					["DOT_Time"] = 6,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 17141,
 					["ElementDoneAbsorb"] = {
 						["Fire"] = 747,
 						["Shadow"] = 1507,
@@ -54251,6 +55054,58 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Immune"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 543,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 853,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 853,
+						},
+					},
+					["HealingTaken"] = 6741,
+					["ElementDone"] = {
+						["Shadow"] = 1440,
+						["Fire"] = 15701,
 					},
 					["DamagedWho"] = {
 						["Archavon Warder"] = {
@@ -54345,58 +55200,6 @@ RecountPerCharDB = {
 							["amount"] = 17141,
 						},
 					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 543,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 853,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 853,
-						},
-					},
-					["HealingTaken"] = 6741,
-					["ElementDone"] = {
-						["Shadow"] = 1440,
-						["Fire"] = 15701,
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Immune"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Litigator"] = {
 							["Details"] = {
@@ -54434,18 +55237,18 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["WhoDamaged"] = {
 						["Allivadasz"] = {
 							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
 									["count"] = 0,
 								},
 								["Righteous Vengeance (DoT)"] = {
-									["count"] = 0,
-								},
-								["Divine Storm"] = {
 									["count"] = 0,
 								},
 								["Judgement"] = {
@@ -54476,9 +55279,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
 					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -54506,7 +55309,56 @@ RecountPerCharDB = {
 							["amount"] = 7.470000000000001,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 924,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 924,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 924,
+						},
+						["First Aid"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 725,
+									["min"] = 631,
+									["count"] = 3,
+									["amount"] = 2081,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2081,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 801,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 801,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 801,
+						},
+					},
 					["WhoHealed"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -54549,44 +55401,10 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-						["Holy"] = 543,
 						["Physical"] = 0,
-						["Melee"] = 0,
 						["Fire"] = 310,
-					},
-					["FDamage"] = 853,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Litigator"] = {
-									["count"] = 0,
-								},
-								["Lionhearted"] = {
-									["count"] = 0,
-								},
-								["Blackregina"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Litigator"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+						["Melee"] = 0,
+						["Holy"] = 543,
 					},
 					["PartialAbsorb"] = {
 						["Falling"] = {
@@ -54686,197 +55504,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 14.53,
-					["Overhealing"] = 3806,
-					["TimeSpent"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Fel Armor"] = {
-									["count"] = 3.02,
-								},
-								["First Aid"] = {
-									["count"] = 4.45,
-								},
-							},
-							["amount"] = 7.470000000000001,
-						},
-						["Black Dragon Whelp"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Fel Synergy"] = {
-									["count"] = 3.020000000000001,
-								},
-								["Soul Link"] = {
-									["count"] = 0.31,
-								},
-							},
-							["amount"] = 3.33,
-						},
-						["Abervorsicht"] = {
-							["Details"] = {
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Shadowburn"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Allivadasz"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Erathoorn"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0.15,
-								},
-								["Aftermath"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0.08,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.73,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 4320,
-									["min"] = 4320,
-									["count"] = 1,
-									["amount"] = 4320,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4320,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 801,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 1602,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1602,
-						},
-						["First Aid"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 725,
-									["min"] = 94,
-									["count"] = 2,
-									["amount"] = 819,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 819,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 662,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 1436,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 1436,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
 					["PartialResist"] = {
 						["Falling"] = {
 							["Details"] = {
@@ -54975,57 +55602,233 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 8177,
-					["OverHeals"] = {
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Litigator"] = {
+									["count"] = 0,
+								},
+								["Lionhearted"] = {
+									["count"] = 0,
+								},
+								["Blackregina"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Litigator"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 853,
+					["Interrupts"] = 0,
+					["Overhealing"] = 3806,
+					["TimeSpent"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Fel Armor"] = {
+									["count"] = 3.02,
+								},
+								["First Aid"] = {
+									["count"] = 4.45,
+								},
+							},
+							["amount"] = 7.470000000000001,
+						},
+						["Black Dragon Whelp"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Abervorsicht"] = {
+							["Details"] = {
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Shadowburn"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 3.020000000000001,
+								},
+								["Soul Link"] = {
+									["count"] = 0.31,
+								},
+							},
+							["amount"] = 3.33,
+						},
+						["Allivadasz"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Erathoorn"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0.15,
+								},
+								["Aftermath"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0.08,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.73,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
 						["Death Coil"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 924,
-									["min"] = 0,
+									["max"] = 4320,
+									["min"] = 4320,
 									["count"] = 1,
-									["amount"] = 924,
+									["amount"] = 4320,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 924,
-						},
-						["First Aid"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 725,
-									["min"] = 631,
-									["count"] = 3,
-									["amount"] = 2081,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 2081,
+							["amount"] = 4320,
 						},
 						["Fel Armor"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 801,
 									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 801,
+									["count"] = 2,
+									["amount"] = 1602,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 801,
+							["count"] = 2,
+							["amount"] = 1602,
+						},
+						["First Aid"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 725,
+									["min"] = 94,
+									["count"] = 2,
+									["amount"] = 819,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 819,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 662,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 1436,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 1436,
 						},
 					},
+					["ActiveTime"] = 14.53,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 8177,
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -55217,6 +56020,48 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0.31,
+								},
+							},
+							["amount"] = 0.31,
+						},
+						["Allivadasz"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 						["Abervorsicht"] = {
 							["Details"] = {
 								["Conflagrate (DoT)"] = {
@@ -55232,48 +56077,6 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0.31,
-								},
-							},
-							["amount"] = 0.31,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Allivadasz"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
 									["count"] = 0,
 								},
 								["Immolate (DoT)"] = {
@@ -55322,7 +56125,24 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 6,
+					["HOTs"] = {
+						["First Aid"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -55363,19 +56183,19 @@ RecountPerCharDB = {
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Physical"] = {
 							["Details"] = {
 								["Tick"] = {
 									["count"] = 0,
 								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
 								["Hit"] = {
 									["count"] = 0,
 								},
@@ -55390,9 +56210,9 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Shadow"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Absorb"] = {
 									["count"] = 0,
 								},
 							},
@@ -55401,25 +56221,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 0,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
 						["Melee"] = 0,
 						["Holy"] = 0,
 					},
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -55427,6 +56238,55 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 0,
+						["Shadow"] = 0,
 					},
 					["DamagedWho"] = {
 						["Allivadasz"] = {
@@ -55484,55 +56344,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -55575,7 +56386,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["WhoDamaged"] = {
 						["Archavon Warder"] = {
@@ -55611,9 +56422,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
 					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -55627,7 +56438,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -55685,44 +56521,10 @@ RecountPerCharDB = {
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
-						["Shadow"] = 0,
 						["Physical"] = 0,
-						["Melee"] = 0,
 						["Holy"] = 0,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Revitalize"] = {
-							["Details"] = {
-								["Merinde"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Replenishment"] = {
-							["Details"] = {
-								["Litigator"] = {
-									["count"] = 0,
-								},
-								["Blackregina"] = {
-									["count"] = 0,
-								},
-								["Lionhearted"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+						["Melee"] = 0,
+						["Shadow"] = 0,
 					},
 					["PartialAbsorb"] = {
 						["Falling"] = {
@@ -55798,111 +56600,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Shaathun <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Denathra"] = {
-							["Details"] = {
-								["Fel Armor"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Abervorsicht"] = {
-							["Details"] = {
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Allivadasz"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
 					["PartialResist"] = {
 						["Falling"] = {
 							["Details"] = {
@@ -55977,20 +56674,128 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 0,
-					["OverHeals"] = {
-						["Fel Synergy"] = {
+					["ManaGained"] = {
+						["Life Tap"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
+								["Denathra"] = {
 									["count"] = 0,
-									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Revitalize"] = {
+							["Details"] = {
+								["Merinde"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Replenishment"] = {
+							["Details"] = {
+								["Litigator"] = {
+									["count"] = 0,
+								},
+								["Blackregina"] = {
+									["count"] = 0,
+								},
+								["Lionhearted"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Shaathun <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Armor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Allivadasz"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Abervorsicht"] = {
+							["Details"] = {
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
 						["Fel Armor"] = {
 							["Details"] = {
 								["Tick"] = {
@@ -56004,6 +56809,12 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -56239,7 +57050,16 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -56334,25 +57154,16 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 9,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 18328,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Physical"] = 0,
 						["Melee"] = 0,
 						["Arcane"] = 0,
 					},
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
+					["DOT_Time"] = 12,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 18328,
 					["ElementDoneAbsorb"] = {
 						["Fire"] = 0,
 						["Shadow"] = 0,
@@ -56362,6 +57173,61 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Reflect"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Immune"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 2533,
+					["ElementDone"] = {
+						["Shadow"] = 3202,
+						["Fire"] = 15126,
 					},
 					["DamagedWho"] = {
 						["Kolbur"] = {
@@ -56466,61 +57332,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 2533,
-					["ElementDone"] = {
-						["Shadow"] = 3202,
-						["Fire"] = 15126,
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Reflect"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Immune"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -56539,7 +57350,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["WhoDamaged"] = {
 						["Kolbur"] = {
@@ -56593,9 +57404,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
 					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -56620,7 +57431,44 @@ RecountPerCharDB = {
 							["amount"] = 1.08,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Death Coil"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2843,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 2843,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2843,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1186,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 2496,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 2496,
+						},
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 801,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 1602,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1602,
+						},
+					},
 					["WhoHealed"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -56660,26 +57508,6 @@ RecountPerCharDB = {
 						["Physical"] = 0,
 						["Melee"] = 0,
 						["Arcane"] = 0,
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Replenishment"] = {
-							["Details"] = {
-								["Lionhearted"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["PartialAbsorb"] = {
 						["Shield Slam"] = {
@@ -56815,194 +57643,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 12.34,
-					["Overhealing"] = 6941,
-					["TimeSpent"] = {
-						["Denathra"] = {
-							["Details"] = {
-								["Death Coil"] = {
-									["count"] = 0.48,
-								},
-								["Fel Armor"] = {
-									["count"] = 0.6,
-								},
-							},
-							["amount"] = 1.08,
-						},
-						["Kolbur"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Selrah <Denathra>"] = {
-							["Details"] = {
-								["Soul Link"] = {
-									["count"] = 0,
-								},
-								["Fel Synergy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Abervorsicht"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Incinerate"] = {
-									["count"] = 0,
-								},
-								["Drain Soul"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Rendben"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 3.5,
-								},
-								["Incinerate"] = {
-									["count"] = 0.79,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 2.35,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0.78,
-								},
-								["Immolate"] = {
-									["count"] = 2.03,
-								},
-								["Conflagrate"] = {
-									["count"] = 1.81,
-								},
-							},
-							["amount"] = 11.26,
-						},
-						["Tarvus"] = {
-							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 0,
-								},
-								["Death Coil"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Conflagrate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-						["Abervorsicht"] = {
-							["Details"] = {
-								["Backlash (Shield Slam)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Death Coil"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1732,
-									["min"] = 1732,
-									["count"] = 1,
-									["amount"] = 1732,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1732,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 801,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 801,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 801,
-						},
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
 					["PartialResist"] = {
 						["Shield Slam"] = {
 							["Details"] = {
@@ -57137,45 +57777,216 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Healing"] = 2533,
-					["OverHeals"] = {
+					["ManaGained"] = {
+						["Replenishment"] = {
+							["Details"] = {
+								["Lionhearted"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 6941,
+					["TimeSpent"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 0.48,
+								},
+								["Fel Armor"] = {
+									["count"] = 0.6,
+								},
+							},
+							["amount"] = 1.08,
+						},
+						["Kolbur"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Selrah <Denathra>"] = {
+							["Details"] = {
+								["Soul Link"] = {
+									["count"] = 0,
+								},
+								["Fel Synergy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Abervorsicht"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Incinerate"] = {
+									["count"] = 0,
+								},
+								["Drain Soul"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rendben"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 3.5,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 2.35,
+								},
+								["Incinerate"] = {
+									["count"] = 0.79,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0.78,
+								},
+								["Immolate"] = {
+									["count"] = 2.03,
+								},
+								["Conflagrate"] = {
+									["count"] = 1.81,
+								},
+							},
+							["amount"] = 11.26,
+						},
+						["Tarvus"] = {
+							["Details"] = {
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 0,
+								},
+								["Death Coil"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Conflagrate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+						["Abervorsicht"] = {
+							["Details"] = {
+								["Backlash (Shield Slam)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
 						["Death Coil"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 2843,
-									["min"] = 0,
+									["max"] = 1732,
+									["min"] = 1732,
 									["count"] = 1,
-									["amount"] = 2843,
+									["amount"] = 1732,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 2843,
+							["amount"] = 1732,
 						},
 						["Fel Synergy"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 1186,
+									["max"] = 0,
 									["min"] = 0,
-									["count"] = 7,
-									["amount"] = 2496,
+									["count"] = 0,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 7,
-							["amount"] = 2496,
+							["count"] = 0,
+							["amount"] = 0,
 						},
 						["Fel Armor"] = {
 							["Details"] = {
 								["Tick"] = {
 									["max"] = 801,
 									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 1602,
+									["count"] = 1,
+									["amount"] = 801,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 1602,
+							["count"] = 1,
+							["amount"] = 801,
 						},
 					},
+					["ActiveTime"] = 12.34,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 2533,
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -57413,11 +58224,11 @@ RecountPerCharDB = {
 								["Shadowfury"] = {
 									["count"] = 3.5,
 								},
-								["Incinerate"] = {
-									["count"] = 0.79,
-								},
 								["Conflagrate (DoT)"] = {
 									["count"] = 2.35,
+								},
+								["Incinerate"] = {
+									["count"] = 0.79,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
@@ -57462,7 +58273,16 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 12,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -57500,15 +58320,15 @@ RecountPerCharDB = {
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Frost"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Tick"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Physical"] = {
+						["Holy"] = {
 							["Details"] = {
 								["Hit"] = {
 									["count"] = 0,
@@ -57527,9 +58347,9 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Holy"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Hit"] = {
+								["Tick"] = {
 									["count"] = 0,
 								},
 							},
@@ -57538,26 +58358,17 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 3,
-					["ElementTakenBlock"] = {
-					},
+					["Damage"] = 737,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
-						["Frost"] = 0,
 						["Physical"] = 0,
-						["Melee"] = 0,
 						["Holy"] = 0,
+						["Melee"] = 0,
+						["Frost"] = 0,
 					},
-					["HOTs"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["DOT_Time"] = 3,
+					["ElementTakenBlock"] = {
 					},
-					["Damage"] = 737,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
@@ -57565,6 +58376,73 @@ RecountPerCharDB = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["FAttacks"] = {
+						["Soul Link"] = {
+							["Details"] = {
+								["Split"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Holy"] = 0,
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 737,
 					},
 					["DamagedWho"] = {
 						["Frost Warder"] = {
@@ -57636,73 +58514,6 @@ RecountPerCharDB = {
 							["amount"] = 737,
 						},
 					},
-					["FAttacks"] = {
-						["Soul Link"] = {
-							["Details"] = {
-								["Split"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 737,
-						["Holy"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["ManaGainedFrom"] = {
 						["Denathra"] = {
 							["Details"] = {
@@ -57751,7 +58562,7 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["RunicPowerGained"] = {
+					["CCBroken"] = {
 					},
 					["WhoDamaged"] = {
 						["Frost Warder"] = {
@@ -57787,9 +58598,9 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["CCBroken"] = {
-					},
 					["RunicPowerGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -57819,7 +58630,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Dispelled"] = 0,
+					["OverHeals"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 801,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 801,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 801,
+						},
+						["Fel Synergy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
 					["WhoHealed"] = {
 						["Mcstylish"] = {
 							["Details"] = {
@@ -57916,51 +58752,6 @@ RecountPerCharDB = {
 						["Melee"] = 0,
 						["Holy"] = 0,
 					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Life Tap"] = {
-							["Details"] = {
-								["Denathra"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Revitalize"] = {
-							["Details"] = {
-								["Merinde"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Replenishment"] = {
-							["Details"] = {
-								["Litigator"] = {
-									["count"] = 0,
-								},
-								["Blackregina"] = {
-									["count"] = 0,
-								},
-								["Lionhearted"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Judgement of Wisdom"] = {
-							["Details"] = {
-								["Litigator"] = {
-									["count"] = 0,
-								},
-								["Lionhearted"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
 					["PartialAbsorb"] = {
 						["Falling"] = {
 							["Details"] = {
@@ -58011,7 +58802,107 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 3.5,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostbite (DoT)"] = {
+							["Details"] = {
+								["50%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Life Tap"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Revitalize"] = {
+							["Details"] = {
+								["Merinde"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Replenishment"] = {
+							["Details"] = {
+								["Litigator"] = {
+									["count"] = 0,
+								},
+								["Blackregina"] = {
+									["count"] = 0,
+								},
+								["Lionhearted"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Judgement of Wisdom"] = {
+							["Details"] = {
+								["Litigator"] = {
+									["count"] = 0,
+								},
+								["Lionhearted"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["Overhealing"] = 801,
 					["TimeSpent"] = {
 						["Shaathun <Denathra>"] = {
@@ -58146,92 +59037,12 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Interrupts"] = 0,
+					["ActiveTime"] = 3.5,
 					["EnergyGained"] = {
 					},
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frostbite (DoT)"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["EnergyGain"] = 0,
 					["Healing"] = 0,
-					["OverHeals"] = {
-						["Fel Armor"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 801,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 801,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 801,
-						},
-						["Fel Synergy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
+					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
 					["Attacks"] = {
@@ -58505,7 +59316,16 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 0,
-					["DOT_Time"] = 3,
+					["HOTs"] = {
+						["Fel Armor"] = {
+							["Details"] = {
+								["Denathra"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
 					["DispelledWho"] = {
 					},
 				},
@@ -60687,26 +61507,6 @@ RecountPerCharDB = {
 				},
 				["OverallData"] = {
 					["DOTs"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Frost Warder"] = {
-									["count"] = 33,
-								},
-								["Abervorsicht"] = {
-									["count"] = 27,
-								},
-								["Archavon Warder"] = {
-									["count"] = 18,
-								},
-								["Toravon the Ice Watcher"] = {
-									["count"] = 126,
-								},
-								["Erathoorn"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 207,
-						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
 								["Kisame"] = {
@@ -60721,11 +61521,11 @@ RecountPerCharDB = {
 								["Tarvus"] = {
 									["count"] = 3,
 								},
-								["Rendben"] = {
-									["count"] = 6,
-								},
 								["Erathoorn"] = {
 									["count"] = 12,
+								},
+								["Rendben"] = {
+									["count"] = 6,
 								},
 								["Uradopted"] = {
 									["count"] = 3,
@@ -60745,24 +61545,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 210,
 						},
-						["Curse of Doom (DoT)"] = {
-							["Details"] = {
-								["Toravon the Ice Watcher"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
 						["Conflagrate (DoT)"] = {
 							["Details"] = {
 								["Kisame"] = {
 									["count"] = 3,
 								},
-								["Allivadasz"] = {
-									["count"] = 9,
-								},
 								["Erathoorn"] = {
 									["count"] = 12,
+								},
+								["Allivadasz"] = {
+									["count"] = 9,
 								},
 								["Uradopted"] = {
 									["count"] = 3,
@@ -60781,6 +61573,34 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 72,
+						},
+						["Curse of Doom (DoT)"] = {
+							["Details"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Frost Warder"] = {
+									["count"] = 33,
+								},
+								["Abervorsicht"] = {
+									["count"] = 27,
+								},
+								["Archavon Warder"] = {
+									["count"] = 18,
+								},
+								["Toravon the Ice Watcher"] = {
+									["count"] = 126,
+								},
+								["Erathoorn"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 207,
 						},
 					},
 					["ElementDoneResist"] = {
@@ -61098,11 +61918,11 @@ RecountPerCharDB = {
 								["Shadowfury"] = {
 									["count"] = 3.5,
 								},
-								["Incinerate"] = {
-									["count"] = 0.79,
-								},
 								["Conflagrate (DoT)"] = {
 									["count"] = 2.35,
+								},
+								["Incinerate"] = {
+									["count"] = 0.79,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
@@ -61165,6 +61985,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 10.54,
 						},
+						["Black Dragon Whelp"] = {
+							["Details"] = {
+								["Incinerate"] = {
+									["count"] = 2.45,
+								},
+							},
+							["amount"] = 2.45,
+						},
 						["Kolbur"] = {
 							["Details"] = {
 								["Shadowfury"] = {
@@ -61215,14 +62043,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 26.59,
-						},
-						["Black Dragon Whelp"] = {
-							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 2.45,
-								},
-							},
-							["amount"] = 2.45,
 						},
 					},
 					["HealedWho"] = {
@@ -61290,7 +62110,7 @@ RecountPerCharDB = {
 						["Frost"] = 71805,
 						["Melee"] = 63435,
 						["Arcane"] = 3275,
-						["Physical"] = 250908,
+						["Physical"] = 253983,
 						["Fire"] = 2317,
 						["Holy"] = 28252,
 						["Shadow"] = 624,
@@ -61325,10 +62145,10 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDone"] = {
-						["Shadow"] = 872185,
 						["Holy"] = 784,
-						["Melee"] = 2404,
 						["Fire"] = 1035583,
+						["Melee"] = 2404,
+						["Shadow"] = 872185,
 					},
 					["ManaGainedFrom"] = {
 						["Denathra"] = {
@@ -61489,10 +62309,10 @@ RecountPerCharDB = {
 						["Environment"] = {
 							["Details"] = {
 								["Falling"] = {
-									["count"] = 216971,
+									["count"] = 220046,
 								},
 							},
-							["amount"] = 216971,
+							["amount"] = 220046,
 						},
 						["Kolbur"] = {
 							["Details"] = {
@@ -61529,14 +62349,14 @@ RecountPerCharDB = {
 						},
 						["Allivadasz"] = {
 							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 1868,
+								},
 								["Melee"] = {
 									["count"] = 3885,
 								},
 								["Righteous Vengeance (DoT)"] = {
 									["count"] = 477,
-								},
-								["Divine Storm"] = {
-									["count"] = 1868,
 								},
 								["Judgement"] = {
 									["count"] = 2596,
@@ -61808,18 +62628,6 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Judgement"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
 						["Judgement of Righteousness"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -61830,6 +62638,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Judgement"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Seal of Righteousness"] = {
@@ -61939,11 +62759,11 @@ RecountPerCharDB = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 30,
+									["count"] = 31,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 30,
+							["count"] = 31,
 							["amount"] = 0,
 						},
 						["Divine Storm"] = {
@@ -62131,7 +62951,7 @@ RecountPerCharDB = {
 						["Physical"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 41,
+									["count"] = 42,
 								},
 								["Absorb"] = {
 									["count"] = 1,
@@ -62143,7 +62963,7 @@ RecountPerCharDB = {
 									["count"] = 19,
 								},
 							},
-							["amount"] = 63,
+							["amount"] = 64,
 						},
 						["Fire"] = {
 							["Details"] = {
@@ -62406,18 +63226,6 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 1820,
 						},
-						["Judgement"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 385,
-									["min"] = 263,
-									["count"] = 2,
-									["amount"] = 648,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 648,
-						},
 						["Judgement of Righteousness"] = {
 							["Details"] = {
 								["Absorbed"] = {
@@ -62429,6 +63237,18 @@ RecountPerCharDB = {
 							},
 							["count"] = 4,
 							["amount"] = 3611,
+						},
+						["Judgement"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 385,
+									["min"] = 263,
+									["count"] = 2,
+									["amount"] = 648,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 648,
 						},
 						["Seal of Righteousness"] = {
 							["Details"] = {
@@ -62531,11 +63351,11 @@ RecountPerCharDB = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 30,
+									["count"] = 31,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 30,
+							["count"] = 31,
 							["amount"] = 0,
 						},
 						["Divine Storm"] = {
@@ -62746,17 +63566,17 @@ RecountPerCharDB = {
 						},
 						["Merinde"] = {
 							["Details"] = {
-								["Rejuvenation"] = {
-									["count"] = 13755,
-								},
 								["Swiftmend"] = {
 									["count"] = 5403,
+								},
+								["Nourish"] = {
+									["count"] = 7330,
 								},
 								["Wild Growth"] = {
 									["count"] = 7523,
 								},
-								["Nourish"] = {
-									["count"] = 7330,
+								["Rejuvenation"] = {
+									["count"] = 13755,
 								},
 							},
 							["amount"] = 34011,
@@ -63071,13 +63891,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 18328,
 						},
-						["Black Dragon Whelp"] = {
+						["Kolbur"] = {
 							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 12869,
+								["Shadowfury"] = {
+									["count"] = 3003,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 9364,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 1328,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 828,
+								},
+								["Immolate"] = {
+									["count"] = 1575,
+								},
+								["Conflagrate"] = {
+									["count"] = 3655,
 								},
 							},
-							["amount"] = 12869,
+							["amount"] = 19753,
 						},
 						["Archavon Warder"] = {
 							["Details"] = {
@@ -63125,32 +63960,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 61120,
 						},
-						["Kolbur"] = {
+						["Black Dragon Whelp"] = {
 							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 3003,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 9364,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 1328,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 828,
-								},
-								["Immolate"] = {
-									["count"] = 1575,
-								},
-								["Conflagrate"] = {
-									["count"] = 3655,
+								["Incinerate"] = {
+									["count"] = 12869,
 								},
 							},
-							["amount"] = 19753,
+							["amount"] = 12869,
 						},
 					},
 					["Healing"] = 82168,
-					["DamageTaken"] = 420616,
+					["DamageTaken"] = 423691,
 					["HOT_Time"] = 315,
 					["Attacks"] = {
 						["Demon Charge"] = {
@@ -63842,11 +64662,11 @@ RecountPerCharDB = {
 								["Shadowfury"] = {
 									["count"] = 3.5,
 								},
-								["Incinerate"] = {
-									["count"] = 0.79,
-								},
 								["Conflagrate (DoT)"] = {
 									["count"] = 2.35,
+								},
+								["Incinerate"] = {
+									["count"] = 0.79,
 								},
 								["Death Coil"] = {
 									["count"] = 0,
@@ -63863,13 +64683,28 @@ RecountPerCharDB = {
 							},
 							["amount"] = 11.26,
 						},
-						["Black Dragon Whelp"] = {
+						["Kolbur"] = {
 							["Details"] = {
-								["Incinerate"] = {
-									["count"] = 2.45,
+								["Shadowfury"] = {
+									["count"] = 0,
+								},
+								["Chaos Bolt"] = {
+									["count"] = 1.15,
+								},
+								["Conflagrate (DoT)"] = {
+									["count"] = 0.48,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0.32,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Conflagrate"] = {
+									["count"] = 0.7,
 								},
 							},
-							["amount"] = 2.45,
+							["amount"] = 6.15,
 						},
 						["Erathoorn"] = {
 							["Details"] = {
@@ -63923,28 +64758,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 26.59,
 						},
-						["Kolbur"] = {
+						["Black Dragon Whelp"] = {
 							["Details"] = {
-								["Shadowfury"] = {
-									["count"] = 0,
-								},
-								["Chaos Bolt"] = {
-									["count"] = 1.15,
-								},
-								["Conflagrate (DoT)"] = {
-									["count"] = 0.48,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0.32,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Conflagrate"] = {
-									["count"] = 0.7,
+								["Incinerate"] = {
+									["count"] = 2.45,
 								},
 							},
-							["amount"] = 6.15,
+							["amount"] = 2.45,
 						},
 					},
 					["ManaGain"] = 273681,
@@ -64031,7 +64851,7 @@ RecountPerCharDB = {
 				}, -- [1]
 			},
 			["UnitLockout"] = 1689155485,
-			["LastActive"] = 1690137695,
+			["LastActive"] = 1690285356,
 		},
 		["Ebon Gargoyle <Purinx>"] = {
 			["GUID"] = "0xF130006CB5000044",
@@ -64158,7 +64978,7 @@ RecountPerCharDB = {
 			["LastFightIn"] = 4,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["Owner"] = "Purinx",
 			["LastEventTimes"] = {
 				13932.95, -- [1]
@@ -64380,41 +65200,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -64422,22 +65241,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -64445,28 +65263,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -64483,41 +65303,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -64525,22 +65344,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -64548,28 +65366,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -64645,28 +65465,25 @@ RecountPerCharDB = {
 						["Nature"] = 124010,
 					},
 					["HealingTaken"] = 2682,
-					["ElementHitsDone"] = {
-						["Nature"] = {
+					["DamagedWho"] = {
+						["Toravon the Ice Watcher"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 19,
+								["Gargoyle Strike"] = {
+									["count"] = 124010,
 								},
 							},
-							["amount"] = 22,
+							["amount"] = 124010,
 						},
 					},
 					["TimeDamage"] = 30.47999999999999,
-					["WhoDamaged"] = {
-						["Frozen Orb"] = {
+					["TimeDamaging"] = {
+						["Toravon the Ice Watcher"] = {
 							["Details"] = {
-								["Frozen Orb"] = {
-									["count"] = 2682,
+								["Gargoyle Strike"] = {
+									["count"] = 30.47999999999999,
 								},
 							},
-							["amount"] = 2682,
+							["amount"] = 30.47999999999999,
 						},
 					},
 					["Attacks"] = {
@@ -64689,24 +65506,27 @@ RecountPerCharDB = {
 							["amount"] = 124010,
 						},
 					},
-					["TimeDamaging"] = {
-						["Toravon the Ice Watcher"] = {
+					["WhoDamaged"] = {
+						["Frozen Orb"] = {
 							["Details"] = {
-								["Gargoyle Strike"] = {
-									["count"] = 30.47999999999999,
+								["Frozen Orb"] = {
+									["count"] = 2682,
 								},
 							},
-							["amount"] = 30.47999999999999,
+							["amount"] = 2682,
 						},
 					},
-					["DamagedWho"] = {
-						["Toravon the Ice Watcher"] = {
+					["ElementHitsDone"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Gargoyle Strike"] = {
-									["count"] = 124010,
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 19,
 								},
 							},
-							["amount"] = 124010,
+							["amount"] = 22,
 						},
 					},
 				},
@@ -64896,7 +65716,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14010.342, -- [1]
 				14010.41, -- [2]
@@ -65136,41 +65956,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -65178,22 +65997,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -65201,28 +66019,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -65239,41 +66059,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -65281,22 +66100,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -65304,28 +66122,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -65360,6 +66180,51 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 294,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 35,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Frozen Orb"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 31,
+									["amount"] = 0,
+								},
+								["Absorbed"] = {
+									["max"] = 2444,
+									["min"] = 162,
+									["count"] = 6,
+									["amount"] = 9631,
+								},
+							},
+							["count"] = 37,
+							["amount"] = 9631,
+						},
+						["Whiteout"] = {
+							["Details"] = {
+								["Absorbed"] = {
+									["max"] = 9876,
+									["min"] = 8796,
+									["count"] = 3,
+									["amount"] = 27994,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 27994,
 						},
 					},
 					["TimeSpent"] = {
@@ -65479,57 +66344,99 @@ RecountPerCharDB = {
 							["amount"] = 1.97,
 						},
 					},
-					["Overhealing"] = 31366,
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 5,
-								},
-								["Hit"] = {
-									["count"] = 35,
-								},
-							},
-							["amount"] = 40,
-						},
-					},
-					["DamageTaken"] = 71249,
-					["RageGainedFrom"] = {
+					["WhoHealed"] = {
 						["Baimushi"] = {
 							["Details"] = {
-								["Rapture"] = {
-									["count"] = 16,
+								["Glyph of Power Word: Shield"] = {
+									["count"] = 2784,
 								},
 							},
-							["amount"] = 16,
+							["amount"] = 2784,
+						},
+						["Blackregina"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 17052,
+								},
+							},
+							["amount"] = 17052,
+						},
+						["Litigator"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 834,
+								},
+							},
+							["amount"] = 834,
 						},
 						["Merinde"] = {
 							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 28,
+								["Wild Growth"] = {
+									["count"] = 1855,
+								},
+								["Rejuvenation"] = {
+									["count"] = 8710,
 								},
 							},
-							["amount"] = 28,
+							["amount"] = 10565,
 						},
 						["Dukundra"] = {
 							["Details"] = {
-								["Bloodrage"] = {
-									["count"] = 180,
-								},
-								["Glyph of Heroic Strike"] = {
-									["count"] = 280,
+								["Bloodthirst"] = {
+									["count"] = 6620,
 								},
 							},
-							["amount"] = 460,
+							["amount"] = 6620,
 						},
 						["Yindao"] = {
 							["Details"] = {
-								["Rapture"] = {
-									["count"] = 8,
+								["Renew"] = {
+									["count"] = 5628,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 5628,
 						},
+						["Mcstylish"] = {
+							["Details"] = {
+								["Glyph of Holy Light"] = {
+									["count"] = 2266,
+								},
+								["Holy Light"] = {
+									["count"] = 3656,
+								},
+							},
+							["amount"] = 5922,
+						},
+						["Healing Stream Totem IX <Charliesh>"] = {
+							["Details"] = {
+								["Healing Stream Totem"] = {
+									["count"] = 850,
+								},
+							},
+							["amount"] = 850,
+						},
+						["Sertel"] = {
+							["Details"] = {
+								["Earthliving"] = {
+									["count"] = 1757,
+								},
+								["Chain Heal"] = {
+									["count"] = 15031,
+								},
+							},
+							["amount"] = 16788,
+						},
+						["Lionhearted"] = {
+							["Details"] = {
+								["Divine Storm"] = {
+									["count"] = 7396,
+								},
+							},
+							["amount"] = 7396,
+						},
+					},
+					["ElementTakenResist"] = {
+						["Frost"] = 37686,
 					},
 					["PartialResist"] = {
 						["Frozen Orb"] = {
@@ -65575,41 +66482,10 @@ RecountPerCharDB = {
 							["amount"] = 12788,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 31,
-									["amount"] = 0,
-								},
-								["Absorbed"] = {
-									["max"] = 2444,
-									["min"] = 162,
-									["count"] = 6,
-									["amount"] = 9631,
-								},
-							},
-							["count"] = 37,
-							["amount"] = 9631,
-						},
-						["Whiteout"] = {
-							["Details"] = {
-								["Absorbed"] = {
-									["max"] = 9876,
-									["min"] = 8796,
-									["count"] = 3,
-									["amount"] = 27994,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 27994,
-						},
-					},
 					["ElementTakenAbsorb"] = {
 						["Frost"] = 37625,
 					},
+					["Overhealing"] = 31366,
 					["ActiveTime"] = 175.1299999999999,
 					["WhoDamaged"] = {
 						["Toravon the Ice Watcher"] = {
@@ -65632,7 +66508,43 @@ RecountPerCharDB = {
 					["ElementTaken"] = {
 						["Frost"] = 71249,
 					},
-					["DOT_Time"] = 294,
+					["RageGained"] = {
+						["Bloodrage"] = {
+							["Details"] = {
+								["Dukundra"] = {
+									["count"] = 180,
+								},
+							},
+							["amount"] = 180,
+						},
+						["Revitalize"] = {
+							["Details"] = {
+								["Merinde"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Glyph of Heroic Strike"] = {
+							["Details"] = {
+								["Dukundra"] = {
+									["count"] = 280,
+								},
+							},
+							["amount"] = 280,
+						},
+						["Rapture"] = {
+							["Details"] = {
+								["Baimushi"] = {
+									["count"] = 16,
+								},
+								["Yindao"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
 					["Damage"] = 1800180,
 					["OverHeals"] = {
 						["Bloodthirst"] = {
@@ -66112,137 +67024,45 @@ RecountPerCharDB = {
 							["amount"] = 1.97,
 						},
 					},
-					["RageGained"] = {
-						["Bloodrage"] = {
+					["DOT_Time"] = 294,
+					["RageGainedFrom"] = {
+						["Baimushi"] = {
 							["Details"] = {
-								["Dukundra"] = {
-									["count"] = 180,
+								["Rapture"] = {
+									["count"] = 16,
 								},
 							},
-							["amount"] = 180,
+							["amount"] = 16,
 						},
-						["Revitalize"] = {
+						["Merinde"] = {
 							["Details"] = {
-								["Merinde"] = {
+								["Revitalize"] = {
 									["count"] = 28,
 								},
 							},
 							["amount"] = 28,
 						},
-						["Glyph of Heroic Strike"] = {
+						["Dukundra"] = {
 							["Details"] = {
-								["Dukundra"] = {
+								["Bloodrage"] = {
+									["count"] = 180,
+								},
+								["Glyph of Heroic Strike"] = {
 									["count"] = 280,
 								},
 							},
-							["amount"] = 280,
-						},
-						["Rapture"] = {
-							["Details"] = {
-								["Baimushi"] = {
-									["count"] = 16,
-								},
-								["Yindao"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 24,
-						},
-					},
-					["ElementTakenResist"] = {
-						["Frost"] = 37686,
-					},
-					["WhoHealed"] = {
-						["Baimushi"] = {
-							["Details"] = {
-								["Glyph of Power Word: Shield"] = {
-									["count"] = 2784,
-								},
-							},
-							["amount"] = 2784,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 17052,
-								},
-							},
-							["amount"] = 17052,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 834,
-								},
-							},
-							["amount"] = 834,
-						},
-						["Merinde"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 1855,
-								},
-								["Rejuvenation"] = {
-									["count"] = 8710,
-								},
-							},
-							["amount"] = 10565,
-						},
-						["Dukundra"] = {
-							["Details"] = {
-								["Bloodthirst"] = {
-									["count"] = 6620,
-								},
-							},
-							["amount"] = 6620,
+							["amount"] = 460,
 						},
 						["Yindao"] = {
 							["Details"] = {
-								["Renew"] = {
-									["count"] = 5628,
+								["Rapture"] = {
+									["count"] = 8,
 								},
 							},
-							["amount"] = 5628,
-						},
-						["Mcstylish"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 2266,
-								},
-								["Holy Light"] = {
-									["count"] = 3656,
-								},
-							},
-							["amount"] = 5922,
-						},
-						["Healing Stream Totem IX <Charliesh>"] = {
-							["Details"] = {
-								["Healing Stream Totem"] = {
-									["count"] = 850,
-								},
-							},
-							["amount"] = 850,
-						},
-						["Sertel"] = {
-							["Details"] = {
-								["Earthliving"] = {
-									["count"] = 1757,
-								},
-								["Chain Heal"] = {
-									["count"] = 15031,
-								},
-							},
-							["amount"] = 16788,
-						},
-						["Lionhearted"] = {
-							["Details"] = {
-								["Divine Storm"] = {
-									["count"] = 7396,
-								},
-							},
-							["amount"] = 7396,
+							["amount"] = 8,
 						},
 					},
+					["DamageTaken"] = 71249,
 				},
 			},
 			["UnitLockout"] = 1689155512,
@@ -66326,41 +67146,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -66368,22 +67187,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -66391,28 +67209,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -66429,41 +67249,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -66471,22 +67290,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -66494,28 +67312,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -66523,364 +67343,263 @@ RecountPerCharDB = {
 					["DeathCount"] = 1,
 				},
 			},
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 		},
-		["Army of the Dead Ghoul <Purinx>"] = {
-			["GUID"] = "0xF130005E8F000032",
+		["Hoknar <Denathra>"] = {
+			["GUID"] = "0xF1400065B601CCDE",
 			["LastEventHealth"] = {
-				"???", -- [1]
-				"???", -- [2]
-				"???", -- [3]
-				"???", -- [4]
-				"???", -- [5]
-				"???", -- [6]
-				"???", -- [7]
-				"???", -- [8]
-				"???", -- [9]
-				"???", -- [10]
-				"???", -- [11]
-				"???", -- [12]
-				"???", -- [13]
-				"???", -- [14]
-				"???", -- [15]
-				"???", -- [16]
-				"???", -- [17]
-				"???", -- [18]
-				"???", -- [19]
-				"???", -- [20]
-				"???", -- [21]
-				"???", -- [22]
-				"???", -- [23]
-				"???", -- [24]
-				"???", -- [25]
-				"???", -- [26]
-				"???", -- [27]
-				"???", -- [28]
-				"???", -- [29]
-				"???", -- [30]
-				"???", -- [31]
-				"???", -- [32]
-				"???", -- [33]
-				"???", -- [34]
-				"???", -- [35]
-				"???", -- [36]
-				"???", -- [37]
-				"???", -- [38]
-				"???", -- [39]
-				"???", -- [40]
-				"???", -- [41]
-				"???", -- [42]
-				"???", -- [43]
-				"???", -- [44]
-				"???", -- [45]
-				"???", -- [46]
-				"???", -- [47]
-				"???", -- [48]
-				"???", -- [49]
-				"???", -- [50]
+				"27714 (100%)", -- [1]
+				"25318 (91%)", -- [2]
+				"23667 (85%)", -- [3]
+				"23925 (86%)", -- [4]
+				"24378 (87%)", -- [5]
+				"24177 (87%)", -- [6]
+				"24014 (86%)", -- [7]
+				"23608 (85%)", -- [8]
+				"23445 (84%)", -- [9]
+				"23351 (84%)", -- [10]
+				"23513 (84%)", -- [11]
+				"23998 (86%)", -- [12]
+				"23401 (84%)", -- [13]
+				"23307 (84%)", -- [14]
+				"23504 (84%)", -- [15]
+				"22970 (82%)", -- [16]
 			},
-			["LastAttackedBy"] = "Frozen Orb",
+			["LastAttackedBy"] = "Erathoorn",
 			["LastEventType"] = {
 				"HEAL", -- [1]
 				"DAMAGE", -- [2]
-				"HEAL", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"HEAL", -- [6]
+				"DAMAGE", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"DAMAGE", -- [6]
 				"DAMAGE", -- [7]
 				"DAMAGE", -- [8]
-				"HEAL", -- [9]
+				"DAMAGE", -- [9]
 				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
+				"HEAL", -- [11]
 				"HEAL", -- [12]
 				"DAMAGE", -- [13]
 				"DAMAGE", -- [14]
 				"HEAL", -- [15]
 				"DAMAGE", -- [16]
-				"DAMAGE", -- [17]
-				"DAMAGE", -- [18]
-				"HEAL", -- [19]
-				"DAMAGE", -- [20]
-				"DAMAGE", -- [21]
-				"HEAL", -- [22]
-				"DAMAGE", -- [23]
-				"HEAL", -- [24]
-				"DAMAGE", -- [25]
-				"HEAL", -- [26]
-				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
-				"HEAL", -- [29]
-				"DAMAGE", -- [30]
-				"HEAL", -- [31]
-				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
-				"DAMAGE", -- [35]
-				"HEAL", -- [36]
-				"DAMAGE", -- [37]
-				"DAMAGE", -- [38]
-				"DAMAGE", -- [39]
-				"HEAL", -- [40]
-				"DAMAGE", -- [41]
-				"HEAL", -- [42]
-				"DAMAGE", -- [43]
-				"HEAL", -- [44]
-				"DAMAGE", -- [45]
-				"HEAL", -- [46]
-				"DAMAGE", -- [47]
-				"HEAL", -- [48]
-				"DAMAGE", -- [49]
-				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["EnergyGain"] = {
-					56, -- [1]
+				["DamageTaken"] = {
+					2690, -- [1]
 				},
 				["HealingTaken"] = {
-					21572, -- [1]
-				},
-				["ActiveTime"] = {
-					39.54000000000001, -- [1]
-				},
-				["TimeDamage"] = {
-					39.54000000000001, -- [1]
-				},
-				["DamageTaken"] = {
-					21572, -- [1]
-				},
-				["Damage"] = {
-					25920, -- [1]
+					1555, -- [1]
 				},
 			},
 			["enClass"] = "PET",
-			["LastDamageTaken"] = 227,
+			["unit"] = "Hoknar",
 			["level"] = 1,
-			["LastDamageAbility"] = "Frozen Orb",
-			["LastFightIn"] = 4,
-			["type"] = "Pet",
-			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
-			["Owner"] = "Purinx",
-			["LastEventTimes"] = {
-				13959.507, -- [1]
-				13959.508, -- [2]
-				13951.454, -- [3]
-				13951.455, -- [4]
-				13951.994, -- [5]
-				13952.222, -- [6]
-				13952.223, -- [7]
-				13952.257, -- [8]
-				13952.466, -- [9]
-				13952.467, -- [10]
-				13952.768, -- [11]
-				13952.798, -- [12]
-				13952.798, -- [13]
-				13952.977, -- [14]
-				13953.039, -- [15]
-				13953.04, -- [16]
-				13953.077, -- [17]
-				13953.739, -- [18]
-				13953.967, -- [19]
-				13953.968, -- [20]
-				13954.01, -- [21]
-				13954.214, -- [22]
-				13954.215, -- [23]
-				13954.549, -- [24]
-				13954.55, -- [25]
-				13954.608, -- [26]
-				13954.609, -- [27]
-				13954.719, -- [28]
-				13954.798, -- [29]
-				13954.799, -- [30]
-				13954.817, -- [31]
-				13954.818, -- [32]
-				13955.45, -- [33]
-				13955.474, -- [34]
-				13955.722, -- [35]
-				13955.785, -- [36]
-				13955.785, -- [37]
-				13955.987, -- [38]
-				13956.305, -- [39]
-				13956.457, -- [40]
-				13956.458, -- [41]
-				13956.592, -- [42]
-				13956.593, -- [43]
-				13957.459, -- [44]
-				13957.459, -- [45]
-				13957.558, -- [46]
-				13957.559, -- [47]
-				13957.721, -- [48]
-				13957.721, -- [49]
-				13958.239, -- [50]
+			["LastDamageAbility"] = "Divine Storm",
+			["LastFightIn"] = 22,
+			["LastEventNum"] = {
+				0.7108320704337158, -- [1]
+				3.74900772172909, -- [2]
+				5.957277910081547, -- [3]
+				0.9309374323446633, -- [4]
+				1.634552933535397, -- [5]
+				0.7252652089196796, -- [6]
+				0.5881503933030238, -- [7]
+				1.464963556325323, -- [8]
+				0.5881503933030238, -- [9]
+				0.3391787544201487, -- [10]
+				0.5845421086815328, -- [11]
+				1.750018041423108, -- [12]
+				2.154145919030093, -- [13]
+				0.3391787544201487, -- [14]
+				0.7108320704337158, -- [15]
+				1.926823987876164, -- [16]
 			},
-			["NextEventNum"] = 3,
+			["type"] = "Pet",
+			["FightsSaved"] = 3,
+			["LastActive"] = 1690134502,
+			["LastEventTimes"] = {
+				12239.378, -- [1]
+				12240.528, -- [2]
+				12240.528, -- [3]
+				12241.603, -- [4]
+				12241.678, -- [5]
+				12242.978, -- [6]
+				12243.077, -- [7]
+				12243.628, -- [8]
+				12243.628, -- [9]
+				12244.12, -- [10]
+				12244.586, -- [11]
+				12244.811, -- [12]
+				12245.603, -- [13]
+				12246.136, -- [14]
+				12246.861, -- [15]
+				12247.202, -- [16]
+			},
+			["Owner"] = "Denathra",
+			["Name"] = "Hoknar",
+			["NextEventNum"] = 17,
 			["LastEventHealthNum"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0, -- [4]
-				0, -- [5]
-				0, -- [6]
-				0, -- [7]
-				0, -- [8]
-				0, -- [9]
-				0, -- [10]
-				0, -- [11]
-				0, -- [12]
-				0, -- [13]
-				0, -- [14]
-				0, -- [15]
-				0, -- [16]
-				0, -- [17]
-				0, -- [18]
-				0, -- [19]
-				0, -- [20]
-				0, -- [21]
-				0, -- [22]
-				0, -- [23]
-				0, -- [24]
-				0, -- [25]
-				0, -- [26]
-				0, -- [27]
-				0, -- [28]
-				0, -- [29]
-				0, -- [30]
-				0, -- [31]
-				0, -- [32]
-				0, -- [33]
-				0, -- [34]
-				0, -- [35]
-				0, -- [36]
-				0, -- [37]
-				0, -- [38]
-				0, -- [39]
-				0, -- [40]
-				0, -- [41]
-				0, -- [42]
-				0, -- [43]
-				0, -- [44]
-				0, -- [45]
-				0, -- [46]
-				0, -- [47]
-				0, -- [48]
-				0, -- [49]
-				0, -- [50]
+				100, -- [1]
+				91.3545500469077, -- [2]
+				85.39727213682615, -- [3]
+				86.32820956917081, -- [4]
+				87.96276250270621, -- [5]
+				87.23749729378653, -- [6]
+				86.64934690048351, -- [7]
+				85.18438334415819, -- [8]
+				84.59623295085517, -- [9]
+				84.25705419643502, -- [10]
+				84.84159630511655, -- [11]
+				86.59161434653966, -- [12]
+				84.43746842750956, -- [13]
+				84.09828967308941, -- [14]
+				84.80912174352314, -- [15]
+				82.88229775564696, -- [16]
 			},
 			["LastEvents"] = {
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [1]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -140 (Physical)", -- [2]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [3]
-				"Army of the Dead Ghoul <Purinx> Claw Toravon the Ice Watcher Hit -219 (Physical)", -- [4]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -94 (Physical)", -- [5]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [6]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -134 (Physical)", -- [7]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -108 (Physical)", -- [8]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [9]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -97 (Physical)", -- [10]
-				"Army of the Dead Ghoul <Purinx> Claw Toravon the Ice Watcher Hit -225 (Physical)", -- [11]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [12]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -101 (Physical)", -- [13]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -133 (Physical)", -- [14]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [15]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Crit -252 (Physical)", -- [16]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -148 (Physical)", -- [17]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -143 (Physical)", -- [18]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [19]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -139 (Physical)", -- [20]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -144 (Physical)", -- [21]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [22]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -127 (Physical)", -- [23]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [24]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -129 (Physical)", -- [25]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [26]
-				"Army of the Dead Ghoul <Purinx> Claw Toravon the Ice Watcher Hit -198 (Physical)", -- [27]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -133 (Physical)", -- [28]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [29]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -146 (Physical)", -- [30]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [31]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -135 (Physical)", -- [32]
-				"Army of the Dead Ghoul <Purinx> Claw Toravon the Ice Watcher Hit -228 (Physical)", -- [33]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Crit -288 (Physical)", -- [34]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -137 (Physical)", -- [35]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [36]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Crit -296 (Physical)", -- [37]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -126 (Physical)", -- [38]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -152 (Physical)", -- [39]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [40]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -111 (Physical)", -- [41]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [42]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -152 (Physical)", -- [43]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [44]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -141 (Physical)", -- [45]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [46]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -136 (Physical)", -- [47]
-				"Blackregina Judgement of Light Army of the Dead Ghoul <Purinx> Tick +133 (133 overheal)", -- [48]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Glancing -99 (Physical)", -- [49]
-				"Army of the Dead Ghoul <Purinx> Melee Toravon the Ice Watcher Hit -140 (Physical)", -- [50]
+				"Denathra Fel Synergy Hoknar <Denathra> Hit +197 (197 overheal)", -- [1]
+				"Erathoorn Seal of Righteousness Hoknar <Denathra> Hit -1039 (Holy)", -- [2]
+				"Erathoorn Divine Storm Hoknar <Denathra> Hit -1651 (Physical)", -- [3]
+				"Denathra Fel Synergy Hoknar <Denathra> Hit +258", -- [4]
+				"Denathra Fel Synergy Hoknar <Denathra> Hit +453", -- [5]
+				"Denathra Soul Link Hoknar <Denathra> Split -201 (Shadow)", -- [6]
+				"Denathra Soul Link Hoknar <Denathra> Split -163 (Shadow)", -- [7]
+				"Denathra Soul Link Hoknar <Denathra> Split -406 (Shadow)", -- [8]
+				"Denathra Soul Link Hoknar <Denathra> Split -163 (Shadow)", -- [9]
+				"Denathra Soul Link Hoknar <Denathra> Split -94 (Shadow)", -- [10]
+				"Denathra Fel Synergy Hoknar <Denathra> Hit +162", -- [11]
+				"Denathra Fel Synergy Hoknar <Denathra> Hit +485", -- [12]
+				"Denathra Soul Link Hoknar <Denathra> Split -597 (Shadow)", -- [13]
+				"Denathra Soul Link Hoknar <Denathra> Split -94 (Shadow)", -- [14]
+				"Denathra Fel Synergy Hoknar <Denathra> Hit +197", -- [15]
+				"Denathra Soul Link Hoknar <Denathra> Split -534 (Shadow)", -- [16]
 			},
-			["Name"] = "Army of the Dead Ghoul",
 			["LastEventIncoming"] = {
 				true, -- [1]
-				false, -- [2]
+				true, -- [2]
 				true, -- [3]
-				false, -- [4]
-				false, -- [5]
+				true, -- [4]
+				true, -- [5]
 				true, -- [6]
-				false, -- [7]
-				false, -- [8]
+				true, -- [7]
+				true, -- [8]
 				true, -- [9]
-				false, -- [10]
-				false, -- [11]
+				true, -- [10]
+				true, -- [11]
 				true, -- [12]
-				false, -- [13]
-				false, -- [14]
+				true, -- [13]
+				true, -- [14]
 				true, -- [15]
-				false, -- [16]
-				false, -- [17]
-				false, -- [18]
-				true, -- [19]
-				false, -- [20]
-				false, -- [21]
-				true, -- [22]
-				false, -- [23]
-				true, -- [24]
-				false, -- [25]
-				true, -- [26]
-				false, -- [27]
-				false, -- [28]
-				true, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				false, -- [35]
-				true, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				true, -- [40]
-				false, -- [41]
-				true, -- [42]
-				false, -- [43]
-				true, -- [44]
-				false, -- [45]
-				true, -- [46]
-				false, -- [47]
-				true, -- [48]
-				false, -- [49]
-				false, -- [50]
+				true, -- [16]
 			},
 			["TimeLast"] = {
-				["EnergyGain"] = 1689156031,
-				["HealingTaken"] = 1689156029,
-				["ActiveTime"] = 1689156043,
-				["TimeDamage"] = 1689156043,
-				["OVERALL"] = 1689156043,
-				["DamageTaken"] = 1689156024,
-				["Damage"] = 1689156043,
+				["OVERALL"] = 1690134502,
+				["DamageTaken"] = 1690134496,
+				["HealingTaken"] = 1690134502,
 			},
 			["Fights"] = {
+				["Fight3"] = {
+					["PartialResist"] = {
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 1555,
+					["PartialAbsorb"] = {
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 1555,
+								},
+							},
+							["amount"] = 1555,
+						},
+					},
+					["WhoDamaged"] = {
+						["Erathoorn"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 1039,
+								},
+								["Divine Storm"] = {
+									["count"] = 1651,
+								},
+							},
+							["amount"] = 2690,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 1651,
+						["Holy"] = 1039,
+					},
+					["DamageTaken"] = 2690,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
 				["LastFightData"] = {
 					["DOTs"] = {
 					},
@@ -66894,41 +67613,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -66936,22 +67654,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -66959,28 +67676,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -66997,41 +67716,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -67039,22 +67757,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -67062,263 +67779,138 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["TimeSpent"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 31.00999999999999,
-								},
-								["Claw"] = {
-									["count"] = 8.529999999999999,
-								},
-							},
-							["amount"] = 39.54000000000001,
-						},
-					},
-					["DamageTaken"] = 21572,
 					["PartialResist"] = {
-						["Frozen Orb"] = {
+						["Seal of Righteousness"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 96,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 96,
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
+					["HealingTaken"] = 1555,
 					["PartialAbsorb"] = {
-						["Frozen Orb"] = {
+						["Seal of Righteousness"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 96,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 96,
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Divine Storm"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 39.54000000000001,
+					["WhoHealed"] = {
+						["Denathra"] = {
+							["Details"] = {
+								["Fel Synergy"] = {
+									["count"] = 1555,
+								},
+							},
+							["amount"] = 1555,
+						},
+					},
+					["WhoDamaged"] = {
+						["Erathoorn"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 1039,
+								},
+								["Divine Storm"] = {
+									["count"] = 1651,
+								},
+							},
+							["amount"] = 2690,
+						},
+					},
 					["ElementTaken"] = {
-						["Frost"] = 21572,
+						["Physical"] = 1651,
+						["Holy"] = 1039,
 					},
-					["Damage"] = 25920,
-					["EnergyGained"] = {
-						["Revitalize"] = {
-							["Details"] = {
-								["Merinde"] = {
-									["count"] = 56,
-								},
-							},
-							["amount"] = 56,
-						},
-					},
+					["DamageTaken"] = 2690,
 					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 96,
-								},
-							},
-							["amount"] = 96,
-						},
-					},
-					["EnergyGain"] = 56,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 36,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 7,
-								},
-								["Hit"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 144,
-						},
 						["Physical"] = {
 							["Details"] = {
-								["Crit"] = {
+								["Hit"] = {
 									["count"] = 1,
 								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
 								["Hit"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 29,
-						},
-					},
-					["TimeDamaging"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 31.00999999999999,
-								},
-								["Claw"] = {
-									["count"] = 8.529999999999999,
-								},
-							},
-							["amount"] = 39.54000000000001,
-						},
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 114,
-									["min"] = 93,
-									["count"] = 36,
-									["amount"] = 3755,
-								},
-								["Parry"] = {
 									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 302,
-									["min"] = 252,
-									["count"] = 7,
-									["amount"] = 2014,
-								},
-								["Hit"] = {
-									["max"] = 152,
-									["min"] = 125,
-									["count"] = 100,
-									["amount"] = 13850,
 								},
 							},
-							["count"] = 144,
-							["amount"] = 19619,
-						},
-						["Claw"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 384,
-									["min"] = 384,
-									["count"] = 1,
-									["amount"] = 384,
-								},
-								["Hit"] = {
-									["max"] = 228,
-									["min"] = 188,
-									["count"] = 28,
-									["amount"] = 5917,
-								},
-							},
-							["count"] = 29,
-							["amount"] = 6301,
-						},
-					},
-					["HealingTaken"] = 21572,
-					["DamagedWho"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19619,
-								},
-								["Claw"] = {
-									["count"] = 6301,
-								},
-							},
-							["amount"] = 25920,
-						},
-					},
-					["TimeDamage"] = 39.54000000000001,
-					["WhoDamaged"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Frozen Orb"] = {
-									["count"] = 21572,
-								},
-							},
-							["amount"] = 21572,
-						},
-					},
-					["EnergyGainedFrom"] = {
-						["Merinde"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 56,
-								},
-							},
-							["amount"] = 56,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 19619,
-						["Physical"] = 6301,
-					},
-					["WhoHealed"] = {
-						["Mcstylish"] = {
-							["Details"] = {
-								["Glyph of Holy Light"] = {
-									["count"] = 11247,
-								},
-							},
-							["amount"] = 11247,
-						},
-						["Merinde"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 6209,
-								},
-								["Echoes of Light"] = {
-									["count"] = 2121,
-								},
-							},
-							["amount"] = 8330,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 1995,
-								},
-							},
-							["amount"] = 1995,
+							["amount"] = 1,
 						},
 					},
 				},
 			},
-			["UnitLockout"] = 1689156043,
-			["LastActive"] = 1689156043,
+			["LastDamageTaken"] = 1651,
+			["UnitLockout"] = 1690134495,
+			["LastAbility"] = 19157.908,
 		},
 		["Thoothun <Drakui>"] = {
 			["GUID"] = "0xF1403FDD0C000001",
@@ -67504,7 +68096,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14015.185, -- [1]
 				14015.253, -- [2]
@@ -67740,41 +68332,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -67782,22 +68373,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -67805,28 +68395,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -67843,41 +68435,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -67885,22 +68476,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -67908,28 +68498,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -68227,95 +68819,6 @@ RecountPerCharDB = {
 							["amount"] = 458,
 						},
 					},
-					["ElementDone"] = {
-						["Melee"] = 153125,
-						["Physical"] = 50004,
-					},
-					["HealingTaken"] = 18298,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 19,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 34,
-								},
-								["Hit"] = {
-									["count"] = 47,
-								},
-							},
-							["amount"] = 101,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 10,
-								},
-								["Hit"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 34,
-						},
-					},
-					["TimeDamage"] = 172.75,
-					["TimeDamaging"] = {
-						["Frost Warder"] = {
-							["Details"] = {
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-								["Melee"] = {
-									["count"] = 28.13,
-								},
-								["Cleave"] = {
-									["count"] = 4.21,
-								},
-							},
-							["amount"] = 35.84,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 3.83,
-								},
-								["Melee"] = {
-									["count"] = 24.8,
-								},
-								["Intercept"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 35.63,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 10.47,
-								},
-								["Melee"] = {
-									["count"] = 87.31000000000002,
-								},
-								["Intercept"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 101.28,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Cleave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 31124,
 					["Attacks"] = {
 						["Cleave"] = {
 							["Details"] = {
@@ -68382,6 +68885,7 @@ RecountPerCharDB = {
 							["amount"] = 666,
 						},
 					},
+					["HealingTaken"] = 18298,
 					["ManaGainedFrom"] = {
 						["Merinde"] = {
 							["Details"] = {
@@ -68428,6 +68932,94 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 1790,
+						},
+					},
+					["TimeDamage"] = 172.75,
+					["TimeDamaging"] = {
+						["Frost Warder"] = {
+							["Details"] = {
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 28.13,
+								},
+								["Cleave"] = {
+									["count"] = 4.21,
+								},
+							},
+							["amount"] = 35.84,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 3.83,
+								},
+								["Melee"] = {
+									["count"] = 24.8,
+								},
+								["Intercept"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 35.63,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 10.47,
+								},
+								["Melee"] = {
+									["count"] = 87.31000000000002,
+								},
+								["Intercept"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 101.28,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Cleave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 31124,
+					["ElementDone"] = {
+						["Melee"] = 153125,
+						["Physical"] = 50004,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 19,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 34,
+								},
+								["Hit"] = {
+									["count"] = 47,
+								},
+							},
+							["amount"] = 101,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 34,
 						},
 					},
 				},
@@ -68567,7 +69159,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MAGE",
 			["unit"] = "Tobblum",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14019.389, -- [1]
 				14020.414, -- [2]
@@ -68852,41 +69444,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -68894,22 +69485,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -68917,28 +69507,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -68955,41 +69547,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -68997,22 +69588,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -69020,28 +69610,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -69513,92 +70105,6 @@ RecountPerCharDB = {
 						["Fire"] = 649565,
 					},
 					["HealingTaken"] = 14964,
-					["DamagedWho"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 317573,
-								},
-								["Pyroblast"] = {
-									["count"] = 103156,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 16655,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 130163,
-								},
-								["Scorch"] = {
-									["count"] = 15253,
-								},
-								["Blizzard"] = {
-									["count"] = 8863,
-								},
-								["Living Bomb (DoT)"] = {
-									["count"] = 42821,
-								},
-								["Living Bomb"] = {
-									["count"] = 21902,
-								},
-							},
-							["amount"] = 656386,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 20465,
-								},
-								["Living Bomb"] = {
-									["count"] = 2042,
-								},
-							},
-							["amount"] = 22507,
-						},
-					},
-					["TimeDamage"] = 100.22,
-					["TimeDamaging"] = {
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 23.56,
-								},
-								["Pyroblast"] = {
-									["count"] = 0.6700000000000002,
-								},
-								["Pyroblast (DoT)"] = {
-									["count"] = 12.64,
-								},
-								["Ignite (DoT)"] = {
-									["count"] = 33.18,
-								},
-								["Scorch"] = {
-									["count"] = 6.5,
-								},
-								["Blizzard"] = {
-									["count"] = 0.02,
-								},
-								["Living Bomb (DoT)"] = {
-									["count"] = 18.74,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 95.31000000000002,
-						},
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Blizzard"] = {
-									["count"] = 4.909999999999999,
-								},
-								["Living Bomb"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.909999999999999,
-						},
-					},
-					["ManaGain"] = 16118,
 					["ManaGainedFrom"] = {
 						["Merinde"] = {
 							["Details"] = {
@@ -69664,6 +70170,92 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 2626,
+						},
+					},
+					["TimeDamage"] = 100.22,
+					["TimeDamaging"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 23.56,
+								},
+								["Pyroblast"] = {
+									["count"] = 0.6700000000000002,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 12.64,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 33.18,
+								},
+								["Scorch"] = {
+									["count"] = 6.5,
+								},
+								["Blizzard"] = {
+									["count"] = 0.02,
+								},
+								["Living Bomb (DoT)"] = {
+									["count"] = 18.74,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 95.31000000000002,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 4.909999999999999,
+								},
+								["Living Bomb"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.909999999999999,
+						},
+					},
+					["ManaGain"] = 16118,
+					["DamagedWho"] = {
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 317573,
+								},
+								["Pyroblast"] = {
+									["count"] = 103156,
+								},
+								["Pyroblast (DoT)"] = {
+									["count"] = 16655,
+								},
+								["Ignite (DoT)"] = {
+									["count"] = 130163,
+								},
+								["Scorch"] = {
+									["count"] = 15253,
+								},
+								["Blizzard"] = {
+									["count"] = 8863,
+								},
+								["Living Bomb (DoT)"] = {
+									["count"] = 42821,
+								},
+								["Living Bomb"] = {
+									["count"] = 21902,
+								},
+							},
+							["amount"] = 656386,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Blizzard"] = {
+									["count"] = 20465,
+								},
+								["Living Bomb"] = {
+									["count"] = 2042,
+								},
+							},
+							["amount"] = 22507,
 						},
 					},
 					["DamageTaken"] = 14956,
@@ -71483,7 +72075,7 @@ RecountPerCharDB = {
 			["enClass"] = "PET",
 			["level"] = 1,
 			["LastFightIn"] = 5,
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
 			["LastEventTimes"] = {
@@ -71784,41 +72376,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -71826,22 +72417,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -71849,28 +72439,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -71887,41 +72479,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -71929,22 +72520,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -71952,28 +72542,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -72124,7 +72716,7 @@ RecountPerCharDB = {
 						},
 					},
 					["DeathCount"] = 7,
-					["HOT_Time"] = 1182,
+					["Overhealing"] = 112122,
 					["ActiveTime"] = 82.45999999999999,
 					["Healing"] = 16391,
 					["TimeHealing"] = {
@@ -72213,411 +72805,256 @@ RecountPerCharDB = {
 							["amount"] = 1182,
 						},
 					},
-					["Overhealing"] = 112122,
+					["HOT_Time"] = 1182,
 				},
 			},
 			["UnitLockout"] = 1689156133,
 			["LastActive"] = 1689156132,
 		},
-		["Grr <Yuchi>"] = {
-			["GUID"] = "0xF14041A604000006",
-			["LastEventHealth"] = {
-				"25068 (100%)", -- [1]
-				"25068 (100%)", -- [2]
-				"25068 (100%)", -- [3]
-				"25068 (100%)", -- [4]
-				"25068 (100%)", -- [5]
-				"25068 (100%)", -- [6]
-				"25068 (100%)", -- [7]
-				"25068 (100%)", -- [8]
-				"25068 (100%)", -- [9]
-				"25068 (100%)", -- [10]
-				"25068 (100%)", -- [11]
-				"25068 (100%)", -- [12]
-				"25068 (100%)", -- [13]
-				"25068 (100%)", -- [14]
-				"25068 (100%)", -- [15]
-				"25068 (100%)", -- [16]
-				"25068 (100%)", -- [17]
-				"25068 (100%)", -- [18]
-				"25068 (100%)", -- [19]
-				"25068 (100%)", -- [20]
-				"25068 (100%)", -- [21]
-				"25068 (100%)", -- [22]
-				"25068 (100%)", -- [23]
-				"25068 (100%)", -- [24]
-				"24957 (99%)", -- [25]
-				"25068 (100%)", -- [26]
-				"25068 (100%)", -- [27]
-				"25068 (100%)", -- [28]
-				"25068 (100%)", -- [29]
-				"25068 (100%)", -- [30]
-				"25068 (100%)", -- [31]
-				"25068 (100%)", -- [32]
-				"25068 (100%)", -- [33]
-				"25068 (100%)", -- [34]
-				"25068 (100%)", -- [35]
-				"25068 (100%)", -- [36]
-				"25068 (100%)", -- [37]
-				"25068 (100%)", -- [38]
-				"25068 (100%)", -- [39]
-				"25068 (100%)", -- [40]
-				"25068 (100%)", -- [41]
-				"25068 (100%)", -- [42]
-				"25068 (100%)", -- [43]
-				"25068 (100%)", -- [44]
-				"25068 (100%)", -- [45]
-				"25068 (100%)", -- [46]
-				"25068 (100%)", -- [47]
-				"25068 (100%)", -- [48]
-				"25068 (100%)", -- [49]
-				"25068 (100%)", -- [50]
+		["Wrath of Air Totem <Charliesh>"] = {
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Wrath of Air Totem <Charliesh> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1689156135,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Wrath of Air Totem <Charliesh> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1689155994,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [2]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Wrath of Air Totem <Charliesh> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1689155736,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [3]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Wrath of Air Totem <Charliesh> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1689155711,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [4]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Wrath of Air Totem <Charliesh> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1689155693,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [5]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Wrath of Air Totem <Charliesh> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1689155639,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [6]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Wrath of Air Totem <Charliesh> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1689155614,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [7]
 			},
-			["LastAttackedBy"] = "Frozen Orb",
+			["TimeLast"] = {
+				["OVERALL"] = 1689156133,
+				["DeathCount"] = 1689156133,
+			},
 			["LastEventType"] = {
-				"HEAL", -- [1]
-				"DAMAGE", -- [2]
-				"HEAL", -- [3]
-				"DAMAGE", -- [4]
-				"DAMAGE", -- [5]
-				"DAMAGE", -- [6]
-				"HEAL", -- [7]
-				"DAMAGE", -- [8]
-				"DAMAGE", -- [9]
-				"DAMAGE", -- [10]
-				"HEAL", -- [11]
-				"DAMAGE", -- [12]
-				"HEAL", -- [13]
-				"HEAL", -- [14]
-				"DAMAGE", -- [15]
-				"DAMAGE", -- [16]
-				"HEAL", -- [17]
-				"DAMAGE", -- [18]
-				"DAMAGE", -- [19]
-				"HEAL", -- [20]
-				"HEAL", -- [21]
-				"HEAL", -- [22]
-				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
-				"DAMAGE", -- [25]
-				"HEAL", -- [26]
-				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
-				"HEAL", -- [29]
-				"DAMAGE", -- [30]
-				"HEAL", -- [31]
-				"DAMAGE", -- [32]
-				"DAMAGE", -- [33]
-				"DAMAGE", -- [34]
-				"HEAL", -- [35]
-				"DAMAGE", -- [36]
-				"HEAL", -- [37]
-				"HEAL", -- [38]
-				"HEAL", -- [39]
-				"HEAL", -- [40]
-				"HEAL", -- [41]
-				"HEAL", -- [42]
-				"HEAL", -- [43]
-				"HEAL", -- [44]
-				"DAMAGE", -- [45]
-				"DAMAGE", -- [46]
-				"HEAL", -- [47]
-				"DAMAGE", -- [48]
-				"HEAL", -- [49]
-				"DAMAGE", -- [50]
+				"MISC", -- [1]
+				"MISC", -- [2]
+				"MISC", -- [3]
+				"MISC", -- [4]
+				"MISC", -- [5]
+				"MISC", -- [6]
+				"MISC", -- [7]
 			},
-			["TimeWindows"] = {
-				["TimeHeal"] = {
-					3.9, -- [1]
-				},
-				["Healing"] = {
-					1698, -- [1]
-				},
-				["DamageTaken"] = {
-					5071, -- [1]
-				},
-				["EnergyGain"] = {
-					6550, -- [1]
-				},
-				["HealingTaken"] = {
-					6867, -- [1]
-				},
-				["Overhealing"] = {
-					9777, -- [1]
-				},
-				["TimeDamage"] = {
-					152.54, -- [1]
-				},
-				["HOT_Time"] = {
-					135, -- [1]
-				},
-				["ActiveTime"] = {
-					156.44, -- [1]
-				},
-				["Damage"] = {
-					133757, -- [1]
-				},
-			},
+			["LastFlags"] = 4370,
 			["enClass"] = "PET",
-			["unit"] = "Grr",
 			["level"] = 1,
-			["LastDamageAbility"] = "Frozen Orb",
-			["LastFightIn"] = 4,
-			["LastEventNum"] = {
-				2.118238391574916, -- [1]
-				[14] = 2.118238391574916,
-				[29] = 2.12222754108824,
-				[3] = 2.118238391574916,
-				[7] = 2.118238391574916,
-				[31] = 2.118238391574916,
-				[17] = 1.057124621030796,
-				[35] = 2.118238391574916,
-				[37] = 1.196744853997128,
-				[38] = 1.196744853997128,
-				[39] = 1.200734003510452,
-				[20] = 1.057124621030796,
-				[41] = 1.196744853997128,
-				[21] = 1.057124621030796,
-				[43] = 1.196744853997128,
-				[22] = 2.118238391574916,
-				[11] = 1.057124621030796,
-				[47] = 2.118238391574916,
-				[49] = 2.118238391574916,
-				[25] = 0.4427955959789373,
-				[26] = 2.12222754108824,
-				[13] = 1.057124621030796,
-				[40] = 1.196744853997128,
-				[42] = 1.200734003510452,
-				[44] = 2.118238391574916,
-			},
+			["LastFightIn"] = 5,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 15380.376,
+			["GUID"] = "0xF130003C57000031",
 			["LastEventTimes"] = {
-				14001.414, -- [1]
-				14001.414, -- [2]
-				14002.696, -- [3]
-				14002.696, -- [4]
-				14002.878, -- [5]
-				14003.981, -- [6]
-				14004.419, -- [7]
-				14004.419, -- [8]
-				14005.259, -- [9]
-				14005.901, -- [10]
-				14006.299, -- [11]
-				14006.538, -- [12]
-				14007.272, -- [13]
-				14007.596, -- [14]
-				14007.596, -- [15]
-				14007.823, -- [16]
-				14008.293, -- [17]
-				14009.108, -- [18]
-				14009.137, -- [19]
-				14009.276, -- [20]
-				14010.299, -- [21]
-				14010.413, -- [22]
-				14010.413, -- [23]
-				14010.595, -- [24]
-				14011.436, -- [25]
-				14011.707, -- [26]
-				14011.708, -- [27]
-				14011.99, -- [28]
-				14012.986, -- [29]
-				14012.986, -- [30]
-				14013.66, -- [31]
-				14013.661, -- [32]
-				14014.276, -- [33]
-				14015.098, -- [34]
-				14015.545, -- [35]
-				14015.546, -- [36]
-				14017.809, -- [37]
-				14019.832, -- [38]
-				14033.799, -- [39]
-				14035.799, -- [40]
-				14037.808, -- [41]
-				14039.824, -- [42]
-				14041.798, -- [43]
-				13998.821, -- [44]
-				13998.822, -- [45]
-				13999.84, -- [46]
-				14000.127, -- [47]
-				14000.127, -- [48]
-				14001.334, -- [49]
-				14001.334, -- [50]
+				13528.085, -- [1]
+				13552.74, -- [2]
+				13607.237, -- [3]
+				13625.56, -- [4]
+				13650.557, -- [5]
+				13907.756, -- [6]
+				14049.323, -- [7]
 			},
-			["Owner"] = "Yuchi",
-			["TimeLast"] = {
-				["TimeHeal"] = 1689156064,
-				["OVERALL"] = 1689156099,
-				["DamageTaken"] = 1689156095,
-				["EnergyGain"] = 1689156099,
-				["HealingTaken"] = 1689156096,
-				["HOT_Time"] = 1689156094,
-				["TimeDamage"] = 1689156099,
-				["Healing"] = 1689156064,
-				["Overhealing"] = 1689156094,
-				["ActiveTime"] = 1689156099,
-				["Damage"] = 1689156099,
+			["Owner"] = "Charliesh",
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					7, -- [1]
+				},
 			},
-			["NextEventNum"] = 44,
+			["NextEventNum"] = 8,
 			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				100, -- [21]
-				100, -- [22]
-				100, -- [23]
-				100, -- [24]
-				99.55720440402106, -- [25]
-				100, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				100, -- [31]
-				100, -- [32]
-				100, -- [33]
-				100, -- [34]
-				100, -- [35]
-				100, -- [36]
-				100, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				100, -- [41]
-				100, -- [42]
-				100, -- [43]
-				100, -- [44]
-				100, -- [45]
-				100, -- [46]
-				100, -- [47]
-				100, -- [48]
-				100, -- [49]
-				100, -- [50]
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
 			},
 			["LastEvents"] = {
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [1]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -601 (Physical)", -- [2]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [3]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -621 (Physical)", -- [4]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Crit -984 (Physical)", -- [5]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Glancing -461 (Physical)", -- [6]
-				"Mcstylish Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [7]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -468 (Physical)", -- [8]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -617 (Physical)", -- [9]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -472 (Physical)", -- [10]
-				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [11]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -619 (Physical)", -- [12]
-				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [13]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [14]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -475 (Physical)", -- [15]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1226 (Physical)", -- [16]
-				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [17]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -485 (Physical)", -- [18]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Glancing -480 (Physical)", -- [19]
-				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [20]
-				"Grr <Yuchi> Bloodthirsty Grr <Yuchi> Tick +265 (265 overheal)", -- [21]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [22]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1326 (Physical)", -- [23]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -548 (Physical)", -- [24]
-				"Frozen Orb Frozen Orb Grr <Yuchi> Hit -111 (110 resisted) (Frost)", -- [25]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +532 (421 overheal)", -- [26]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1334 (Physical)", -- [27]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Crit -1008 (Physical)", -- [28]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +532 (532 overheal)", -- [29]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1358 (Physical)", -- [30]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [31]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -531 (Physical)", -- [32]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -662 (Physical)", -- [33]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -518 (Physical)", -- [34]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [35]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Hit -703 (Physical)", -- [36]
-				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [37]
-				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [38]
-				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +301 (301 overheal)", -- [39]
-				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [40]
-				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [41]
-				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +301 (301 overheal)", -- [42]
-				"Healing Stream Totem IX <Charliesh> Healing Stream Totem Grr <Yuchi> Tick +300 (300 overheal)", -- [43]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [44]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1230 (Physical)", -- [45]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Crit -1036 (Physical)", -- [46]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [47]
-				"Grr <Yuchi> Melee Toravon the Ice Watcher Crit -1246 (Physical)", -- [48]
-				"Blackregina Judgement of Light Grr <Yuchi> Tick +531 (531 overheal)", -- [49]
-				"Grr <Yuchi> Bite Toravon the Ice Watcher Hit -516 (Physical)", -- [50]
+				"Wrath of Air Totem <Charliesh> dies.", -- [1]
+				"Wrath of Air Totem <Charliesh> dies.", -- [2]
+				"Wrath of Air Totem <Charliesh> dies.", -- [3]
+				"Wrath of Air Totem <Charliesh> dies.", -- [4]
+				"Wrath of Air Totem <Charliesh> dies.", -- [5]
+				"Wrath of Air Totem <Charliesh> dies.", -- [6]
+				"Wrath of Air Totem <Charliesh> dies.", -- [7]
 			},
-			["Name"] = "Grr",
 			["LastEventIncoming"] = {
 				true, -- [1]
-				false, -- [2]
+				true, -- [2]
 				true, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
 				true, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				true, -- [11]
-				false, -- [12]
-				true, -- [13]
-				true, -- [14]
-				false, -- [15]
-				false, -- [16]
-				true, -- [17]
-				false, -- [18]
-				false, -- [19]
-				true, -- [20]
-				true, -- [21]
-				true, -- [22]
-				false, -- [23]
-				false, -- [24]
-				true, -- [25]
-				true, -- [26]
-				false, -- [27]
-				false, -- [28]
-				true, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				true, -- [35]
-				false, -- [36]
-				true, -- [37]
-				true, -- [38]
-				true, -- [39]
-				true, -- [40]
-				true, -- [41]
-				true, -- [42]
-				true, -- [43]
-				true, -- [44]
-				false, -- [45]
-				false, -- [46]
-				true, -- [47]
-				false, -- [48]
-				true, -- [49]
-				false, -- [50]
 			},
-			["LastDamageTaken"] = 111,
+			["Name"] = "Wrath of Air Totem",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+			},
 			["Fights"] = {
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -72632,41 +73069,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -72674,22 +73110,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -72697,28 +73132,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -72735,41 +73172,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -72777,22 +73213,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -72800,465 +73235,39 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementDoneBlock"] = {
-						["Physical"] = 82,
-					},
-					["TimeHealing"] = {
-						["Grr <Yuchi>"] = {
-							["Details"] = {
-								["Bloodthirsty"] = {
-									["count"] = 3.9,
-								},
-							},
-							["amount"] = 3.9,
-						},
-					},
-					["OverHeals"] = {
-						["Bloodthirsty"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 265,
-									["min"] = 5,
-									["count"] = 40,
-									["amount"] = 9777,
-								},
-							},
-							["count"] = 40,
-							["amount"] = 9777,
-						},
-					},
-					["WhoHealed"] = {
-						["Grr <Yuchi>"] = {
-							["Details"] = {
-								["Bloodthirsty"] = {
-									["count"] = 1698,
-								},
-							},
-							["amount"] = 1698,
-						},
-						["Healing Stream Totem IX <Charliesh>"] = {
-							["Details"] = {
-								["Healing Stream Totem"] = {
-									["count"] = 1683,
-								},
-							},
-							["amount"] = 1683,
-						},
-						["Merinde"] = {
-							["Details"] = {
-								["Wild Growth"] = {
-									["count"] = 290,
-								},
-							},
-							["amount"] = 290,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 3196,
-								},
-							},
-							["amount"] = 3196,
-						},
-					},
-					["TimeSpent"] = {
-						["Grr <Yuchi>"] = {
-							["Details"] = {
-								["Bloodthirsty"] = {
-									["count"] = 3.9,
-								},
-							},
-							["amount"] = 3.9,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14.7,
-								},
-								["Bite"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 22.7,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 59.54000000000002,
-								},
-								["Bite"] = {
-									["count"] = 36.17,
-								},
-							},
-							["amount"] = 95.71000000000004,
-						},
-						["Frost Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 18.49,
-								},
-								["Bite"] = {
-									["count"] = 15.64,
-								},
-							},
-							["amount"] = 34.13,
-						},
-					},
-					["HealedWho"] = {
-						["Grr <Yuchi>"] = {
-							["Details"] = {
-								["Bloodthirsty"] = {
-									["count"] = 1698,
-								},
-							},
-							["amount"] = 1698,
-						},
-					},
-					["ElementTakenResist"] = {
-						["Frost"] = 3092,
-					},
-					["EnergyGain"] = 6550,
-					["PartialResist"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["50%Resist"] = {
-									["max"] = 111,
-									["min"] = 64,
-									["count"] = 36,
-									["amount"] = 3092,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 39,
-							["amount"] = 3092,
-						},
-						["Rock Shower (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["Overhealing"] = 9777,
-					["ActiveTime"] = 156.44,
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 36,
-								},
-							},
-							["amount"] = 39,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["ElementTaken"] = {
-						["Frost"] = 4781,
-						["Physical"] = 290,
-					},
-					["HOTs"] = {
-						["Bloodthirsty"] = {
-							["Details"] = {
-								["Grr <Yuchi>"] = {
-									["count"] = 135,
-								},
-							},
-							["amount"] = 135,
-						},
-					},
-					["Damage"] = 133757,
-					["WhoDamaged"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["Frozen Orb"] = {
-									["count"] = 4781,
-								},
-							},
-							["amount"] = 4781,
-						},
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Rock Shower (DoT)"] = {
-									["count"] = 290,
-								},
-							},
-							["amount"] = 290,
-						},
-					},
-					["Heals"] = {
-						["Bloodthirsty"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 265,
-									["min"] = 113,
-									["count"] = 7,
-									["amount"] = 1698,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 1698,
-						},
-					},
-					["TimeHeal"] = 3.9,
-					["EnergyGained"] = {
-						["Go for the Throat"] = {
-							["Details"] = {
-								["Yuchi"] = {
-									["count"] = 6550,
-								},
-							},
-							["amount"] = 6550,
-						},
-					},
-					["DamagedWho"] = {
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5179,
-								},
-								["Bite"] = {
-									["count"] = 4982,
-								},
-							},
-							["amount"] = 10161,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 68120,
-								},
-								["Bite"] = {
-									["count"] = 39414,
-								},
-							},
-							["amount"] = 107534,
-						},
-						["Frost Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7636,
-								},
-								["Bite"] = {
-									["count"] = 8426,
-								},
-							},
-							["amount"] = 16062,
-						},
-					},
-					["Healing"] = 1698,
-					["DamageTaken"] = 5071,
-					["ElementDone"] = {
-						["Melee"] = 80935,
-						["Physical"] = 52822,
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 678,
-									["min"] = 367,
-									["count"] = 26,
-									["amount"] = 12245,
-								},
-								["Crit"] = {
-									["max"] = 1744,
-									["min"] = 904,
-									["count"] = 30,
-									["amount"] = 36310,
-								},
-								["Hit"] = {
-									["max"] = 897,
-									["min"] = 479,
-									["count"] = 52,
-									["amount"] = 32380,
-								},
-							},
-							["count"] = 108,
-							["amount"] = 80935,
-						},
-						["Bite"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 269,
-									["min"] = 269,
-									["count"] = 1,
-									["amount"] = 269,
-								},
-								["Crit (Blocked)"] = {
-									["max"] = 941,
-									["min"] = 941,
-									["count"] = 1,
-									["amount"] = 941,
-								},
-								["Crit"] = {
-									["max"] = 1056,
-									["min"] = 662,
-									["count"] = 17,
-									["amount"] = 14950,
-								},
-								["Hit"] = {
-									["max"] = 886,
-									["min"] = 334,
-									["count"] = 73,
-									["amount"] = 36662,
-								},
-							},
-							["count"] = 92,
-							["amount"] = 52822,
-						},
-					},
-					["HealingTaken"] = 6867,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 26,
-								},
-								["Crit"] = {
-									["count"] = 30,
-								},
-								["Hit"] = {
-									["count"] = 52,
-								},
-							},
-							["amount"] = 108,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 18,
-								},
-								["Hit"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 92,
-						},
-					},
-					["TimeDamage"] = 152.54,
-					["TimeDamaging"] = {
-						["Archavon Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 14.7,
-								},
-								["Bite"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 22.7,
-						},
-						["Toravon the Ice Watcher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 59.54000000000002,
-								},
-								["Bite"] = {
-									["count"] = 36.17,
-								},
-							},
-							["amount"] = 95.71000000000004,
-						},
-						["Frost Warder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 18.49,
-								},
-								["Bite"] = {
-									["count"] = 15.64,
-								},
-							},
-							["amount"] = 34.13,
-						},
-					},
-					["EnergyGainedFrom"] = {
-						["Yuchi"] = {
-							["Details"] = {
-								["Go for the Throat"] = {
-									["count"] = 6550,
-								},
-							},
-							["amount"] = 6550,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Frozen Orb"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 39,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 39,
-							["amount"] = 0,
-						},
-						["Rock Shower (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["HOT_Time"] = 135,
+					["DeathCount"] = 7,
 				},
 			},
-			["UnitLockout"] = 1689155593,
-			["LastActive"] = 1689156126,
+			["UnitLockout"] = 1689156133,
+			["LastAbility"] = 19157.908,
 		},
 		["Zjabak"] = {
 			["GUID"] = "0x07000000007C4F94",
@@ -73354,7 +73363,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "DRUID",
 			["unit"] = "Zjabak",
-			["LastAbility"] = 15380.376,
+			["LastAbility"] = 19157.908,
 			["LastEventTimes"] = {
 				14011.065, -- [1]
 				14011.101, -- [2]
@@ -73679,41 +73688,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -73721,22 +73729,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -73744,28 +73751,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -73782,41 +73791,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -73824,22 +73832,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -73847,28 +73854,30 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -74301,6 +74310,79 @@ RecountPerCharDB = {
 							["amount"] = 22836,
 						},
 					},
+					["DamagedWho"] = {
+						["Frost Warder"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 19321,
+								},
+								["Wrath"] = {
+									["count"] = 124764,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 16803,
+								},
+								["Moonfire"] = {
+									["count"] = 805,
+								},
+								["Starfire"] = {
+									["count"] = 61135,
+								},
+							},
+							["amount"] = 222828,
+						},
+						["Archavon Warder"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 10388,
+								},
+								["Wrath"] = {
+									["count"] = 80990,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 12167,
+								},
+								["Moonfire"] = {
+									["count"] = 1454,
+								},
+								["Starfire"] = {
+									["count"] = 49776,
+								},
+							},
+							["amount"] = 154775,
+						},
+						["Toravon the Ice Watcher"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 9394,
+								},
+								["Wrath"] = {
+									["count"] = 377210,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 52019,
+								},
+								["Starfall"] = {
+									["count"] = 62857,
+								},
+								["Moonfire"] = {
+									["count"] = 3203,
+								},
+								["Starfire"] = {
+									["count"] = 466438,
+								},
+							},
+							["amount"] = 971121,
+						},
+						["Frozen Orb"] = {
+							["Details"] = {
+								["Starfall"] = {
+									["count"] = 133535,
+								},
+							},
+							["amount"] = 133535,
+						},
+					},
 					["ElementHitsDone"] = {
 						["Nature"] = {
 							["Details"] = {
@@ -74332,62 +74414,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 162,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Merinde"] = {
-							["Details"] = {
-								["Revitalize"] = {
-									["count"] = 1550,
-								},
-							},
-							["amount"] = 1550,
-						},
-						["Baimushi"] = {
-							["Details"] = {
-								["Rapture"] = {
-									["count"] = 1242,
-								},
-							},
-							["amount"] = 1242,
-						},
-						["Blackregina"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 2666,
-								},
-							},
-							["amount"] = 2666,
-						},
-						["Litigator"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 840,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 1932,
-								},
-							},
-							["amount"] = 2772,
-						},
-						["Lionhearted"] = {
-							["Details"] = {
-								["Replenishment"] = {
-									["count"] = 1344,
-								},
-								["Judgement of Wisdom"] = {
-									["count"] = 1173,
-								},
-							},
-							["amount"] = 2517,
-						},
-						["Zjabak"] = {
-							["Details"] = {
-								["Moonkin Form"] = {
-									["count"] = 37382,
-								},
-							},
-							["amount"] = 37382,
 						},
 					},
 					["Attacks"] = {
@@ -74501,77 +74527,60 @@ RecountPerCharDB = {
 						["Arcane"] = 860192,
 					},
 					["HealingTaken"] = 59582,
-					["DamagedWho"] = {
-						["Frost Warder"] = {
+					["ManaGainedFrom"] = {
+						["Merinde"] = {
 							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 19321,
-								},
-								["Wrath"] = {
-									["count"] = 124764,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 16803,
-								},
-								["Moonfire"] = {
-									["count"] = 805,
-								},
-								["Starfire"] = {
-									["count"] = 61135,
+								["Revitalize"] = {
+									["count"] = 1550,
 								},
 							},
-							["amount"] = 222828,
+							["amount"] = 1550,
 						},
-						["Archavon Warder"] = {
+						["Baimushi"] = {
 							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 10388,
-								},
-								["Wrath"] = {
-									["count"] = 80990,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 12167,
-								},
-								["Moonfire"] = {
-									["count"] = 1454,
-								},
-								["Starfire"] = {
-									["count"] = 49776,
+								["Rapture"] = {
+									["count"] = 1242,
 								},
 							},
-							["amount"] = 154775,
+							["amount"] = 1242,
 						},
-						["Toravon the Ice Watcher"] = {
+						["Blackregina"] = {
 							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 9394,
-								},
-								["Wrath"] = {
-									["count"] = 377210,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 52019,
-								},
-								["Starfall"] = {
-									["count"] = 62857,
-								},
-								["Moonfire"] = {
-									["count"] = 3203,
-								},
-								["Starfire"] = {
-									["count"] = 466438,
+								["Replenishment"] = {
+									["count"] = 2666,
 								},
 							},
-							["amount"] = 971121,
+							["amount"] = 2666,
 						},
-						["Frozen Orb"] = {
+						["Litigator"] = {
 							["Details"] = {
-								["Starfall"] = {
-									["count"] = 133535,
+								["Replenishment"] = {
+									["count"] = 840,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 1932,
 								},
 							},
-							["amount"] = 133535,
+							["amount"] = 2772,
+						},
+						["Lionhearted"] = {
+							["Details"] = {
+								["Replenishment"] = {
+									["count"] = 1344,
+								},
+								["Judgement of Wisdom"] = {
+									["count"] = 1173,
+								},
+							},
+							["amount"] = 2517,
+						},
+						["Zjabak"] = {
+							["Details"] = {
+								["Moonkin Form"] = {
+									["count"] = 37382,
+								},
+							},
+							["amount"] = 37382,
 						},
 					},
 					["TimeDamage"] = 171.32,

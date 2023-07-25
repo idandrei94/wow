@@ -93,8 +93,8 @@ H: 42
 Frame: TomTomBlock
 FrameLevel: 11
 Anchor: TOPRIGHT
-X: -38
-Y: -187
+X: 0
+Y: -169
 W: 100
 H: 30
 Frame: WowLuaFrame
