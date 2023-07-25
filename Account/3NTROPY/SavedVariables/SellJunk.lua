@@ -22,7 +22,7 @@ SellJunkDB = {
 		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
@@ -33,7 +33,7 @@ SellJunkDB = {
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
-		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 	},
 }

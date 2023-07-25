@@ -3,38 +3,38 @@ SkadaStorageDB = {
 	["total"] = {
 		["mana"] = 39948,
 		["friendfire"] = 2835,
-		["totaldamage"] = 1274593,
-		["time"] = 716,
-		["cctaken"] = 68,
-		["totaldamagetaken"] = 724694,
-		["sunder"] = 21,
-		["damage"] = 1015372,
-		["runic"] = 382,
+		["totaldamage"] = 1294759,
+		["time"] = 739,
+		["cctaken"] = 70,
+		["totaldamagetaken"] = 730705,
+		["rage"] = 140,
+		["damage"] = 1035538,
+		["runic"] = 412,
 		["ress"] = 2,
-		["damagetaken"] = 628384,
+		["damagetaken"] = 634395,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "DEATHKNIGHT",
 				["friendfire"] = 2758,
-				["totaldamage"] = 615771,
-				["time"] = 429.9200000000001,
-				["cctaken"] = 30,
-				["totaldamagetaken"] = 349365,
-				["damage"] = 479249,
-				["runic"] = 382,
+				["totaldamage"] = 635937,
+				["time"] = 443.0500000000001,
+				["cctaken"] = 32,
+				["totaldamagetaken"] = 355376,
+				["damage"] = 499415,
+				["runic"] = 412,
 				["absorb"] = 44161,
-				["damagetaken"] = 302446,
+				["damagetaken"] = 308457,
 				["id"] = "0x070000000000D01B",
 				["spec"] = 252,
 				["overkill"] = 5528,
-				["heal"] = 48053,
+				["heal"] = 49841,
 				["potion"] = 5,
-				["ccdone"] = 54,
-				["name"] = "Urgash",
-				["death"] = 6,
-				["overheal"] = 8666,
+				["ccdone"] = 56,
 				["role"] = "DAMAGER",
+				["overheal"] = 8666,
+				["death"] = 6,
+				["name"] = "Urgash",
 			}, -- [1]
 			{
 				["flag"] = 1298,
@@ -51,22 +51,22 @@ SkadaStorageDB = {
 				["id"] = "0x0700000000208D33",
 				["spec"] = 66,
 				["overkill"] = 10909,
-				["ress"] = 1,
+				["role"] = "TANK",
 				["heal"] = 182656,
 				["potion"] = 5,
 				["ccdone"] = 8,
-				["name"] = "Vitra",
-				["death"] = 2,
 				["mana"] = 25125,
-				["role"] = "TANK",
+				["death"] = 2,
+				["name"] = "Vitra",
+				["ress"] = 1,
 			}, -- [2]
 			{
 				["name"] = "Earthchomp",
+				["time"] = 0,
 				["flag"] = 4369,
-				["cctaken"] = 5,
 				["class"] = "PET",
 				["id"] = "0xF14001066F009086",
-				["time"] = 0,
+				["cctaken"] = 5,
 			}, -- [3]
 			{
 				["flag"] = 1298,
@@ -85,9 +85,9 @@ SkadaStorageDB = {
 				["heal"] = 13881,
 				["name"] = "Nigtwolf",
 				["death"] = 2,
-				["potion"] = 1,
-				["class"] = "SHAMAN",
 				["role"] = "DAMAGER",
+				["class"] = "SHAMAN",
+				["potion"] = 1,
 			}, -- [4]
 			{
 				["flag"] = 1298,
@@ -107,9 +107,9 @@ SkadaStorageDB = {
 				["heal"] = 54089,
 				["name"] = "Miakaliff",
 				["death"] = 1,
-				["ccdone"] = 1,
-				["class"] = "PALADIN",
 				["role"] = "HEALER",
+				["class"] = "PALADIN",
+				["ccdone"] = 1,
 			}, -- [5]
 			{
 				["flag"] = 1298,
@@ -126,9 +126,9 @@ SkadaStorageDB = {
 				["heal"] = 742,
 				["name"] = "Minguinha",
 				["ccdone"] = 1,
-				["death"] = 1,
-				["mana"] = 2966,
 				["totaldamage"] = 1214,
+				["mana"] = 2966,
+				["death"] = 1,
 			}, -- [6]
 			{
 				["flag"] = 1298,
@@ -147,28 +147,28 @@ SkadaStorageDB = {
 				["heal"] = 19034,
 				["name"] = "Jaisenda",
 				["ccdone"] = 17,
-				["friendfire"] = 77,
-				["overheal"] = 0,
-				["totaldamage"] = 111862,
 				["class"] = "WARRIOR",
+				["totaldamage"] = 111862,
+				["overheal"] = 0,
+				["friendfire"] = 77,
 			}, -- [7]
 			{
 				["flag"] = 1300,
-				["spec"] = 259,
-				["damagetaken"] = 28856,
-				["role"] = "DAMAGER",
-				["id"] = "0x07000000008C9EF0",
 				["class"] = "ROGUE",
+				["role"] = "DAMAGER",
 				["time"] = 38.21000000000001,
-				["overkill"] = 752,
-				["ccdone"] = 7,
-				["totaldamage"] = 55142,
-				["name"] = "Dominuss",
-				["death"] = 1,
 				["cctaken"] = 5,
 				["totaldamagetaken"] = 28856,
-				["energy"] = 40,
 				["damage"] = 33797,
+				["damagetaken"] = 28856,
+				["id"] = "0x07000000008C9EF0",
+				["spec"] = 259,
+				["overkill"] = 752,
+				["name"] = "Dominuss",
+				["ccdone"] = 7,
+				["totaldamage"] = 55142,
+				["energy"] = 40,
+				["death"] = 1,
 			}, -- [8]
 			{
 				["flag"] = 1300,
@@ -186,51 +186,684 @@ SkadaStorageDB = {
 				["heal"] = 2580,
 				["name"] = "Ragekiller",
 				["death"] = 2,
-				["ccdone"] = 4,
+				["role"] = "DAMAGER",
 				["potion"] = 1,
 				["energy"] = 6,
-				["role"] = "DAMAGER",
+				["ccdone"] = 4,
 			}, -- [9]
 			{
 				["damagetaken"] = 611,
 				["id"] = "0x0700000000604D13",
 				["class"] = "PALADIN",
 				["flag"] = 1300,
-				["mana"] = 159,
+				["spec"] = 66,
 				["totaldamage"] = 2845,
 				["time"] = 4.21,
 				["role"] = "TANK",
 				["name"] = "Drainox",
 				["totaldamagetaken"] = 611,
-				["spec"] = 66,
+				["mana"] = 159,
 				["damage"] = 1232,
 			}, -- [10]
 		},
-		["absorb"] = 89273,
-		["dispel"] = 14,
-		["death"] = 15,
-		["overkill"] = 23968,
-		["potion"] = 12,
-		["heal"] = 321035,
-		["name"] = "Total",
-		["ccdone"] = 92,
-		["starttime"] = 1690269760,
 		["overheal"] = 134938,
+		["starttime"] = 1690269760,
+		["ccdone"] = 94,
+		["overkill"] = 23968,
+		["name"] = "Total",
+		["heal"] = 322823,
+		["potion"] = 12,
+		["death"] = 15,
+		["dispel"] = 14,
+		["absorb"] = 89273,
 		["energy"] = 46,
-		["rage"] = 140,
+		["sunder"] = 21,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
+			["damage"] = 20166,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[48676] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1584,
+								},
+							},
+							["amount"] = 1584,
+						},
+						[1776] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 227,
+								},
+							},
+							["amount"] = 227,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 2094,
+								},
+							},
+							["amount"] = 2094,
+						},
+						[57975] = {
+							["school"] = 8,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 937,
+								},
+							},
+							["amount"] = 937,
+						},
+						[48660] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1169,
+								},
+							},
+							["amount"] = 1169,
+						},
+					},
+					["damagetaken"] = 20166,
+					["flag"] = 66888,
+					["class"] = "ROGUE",
+					["damagetakenspells"] = {
+						[47481] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 7609,
+								},
+							},
+							["amount"] = 7609,
+						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 493,
+								},
+							},
+							["amount"] = 493,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 954,
+								},
+							},
+							["amount"] = 954,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1624,
+								},
+							},
+							["amount"] = 1624,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2635,
+								},
+							},
+							["amount"] = 2635,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4472,
+								},
+							},
+							["amount"] = 4472,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1809,
+								},
+							},
+							["amount"] = 1809,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 508,
+								},
+							},
+							["amount"] = 508,
+						},
+					},
+					["name"] = "Caj",
+					["totaldamage"] = 6011,
+					["totaldamagetaken"] = 20166,
+					["id"] = "0x070000000057DC66",
+					["damage"] = 6011,
+				}, -- [1]
+			},
+			["overheal"] = 0,
+			["totaldamage"] = 20166,
+			["time"] = 23,
+			["totaldamagetaken"] = 6011,
+			["etotaldamagetaken"] = 20166,
+			["last_time"] = 1807.174,
 			["players"] = {
 				{
-					["time"] = 0,
-					["last"] = 10933.76,
-					["name"] = "Ragekiller",
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Caj"] = 1,
+							},
+						},
+						[47481] = {
+							["count"] = 1,
+							["targets"] = {
+								["Caj"] = 1,
+							},
+						},
+					},
+					["last"] = 1798.283,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[61258] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[47481] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Caj"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Caj"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Caj"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 12,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Caj"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[48792] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 15,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Caj"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 11,
+						},
+					},
 					["role"] = "DAMAGER",
+					["time"] = 14.05,
+					["cctaken"] = 2,
+					["totaldamagetaken"] = 6011,
+					["damage"] = 20166,
+					["damagespells"] = {
+						["Melee (Earthstealer)"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 324,
+							["criticalamount"] = 596,
+							["id"] = 6603,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 920,
+								},
+							},
+							["criticalmin"] = 596,
+							["critical"] = 1,
+							["criticalmax"] = 596,
+							["count"] = 5,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 324,
+							["amount"] = 920,
+							["hitamount"] = 324,
+						},
+						["Scourge Strike"] = {
+							["hitmin"] = 1624,
+							["id"] = 55271,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 1624,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1624,
+							["amount"] = 1624,
+							["hitamount"] = 1624,
+						},
+						["Melee"] = {
+							["hitmin"] = 1338,
+							["criticalamount"] = 2377,
+							["id"] = 6603,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 6689,
+								},
+							},
+							["hitmax"] = 1582,
+							["count"] = 4,
+							["criticalmax"] = 2377,
+							["critical"] = 1,
+							["amount"] = 6689,
+							["school"] = 1,
+							["hit"] = 3,
+							["criticalmin"] = 2377,
+							["hitamount"] = 4312,
+						},
+						["Death and Decay"] = {
+							["hitmin"] = 344,
+							["criticalamount"] = 1837,
+							["id"] = 52212,
+							["criticalmin"] = 587,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 4472,
+								},
+							},
+							["criticalmax"] = 663,
+							["critical"] = 3,
+							["casts"] = 1,
+							["count"] = 10,
+							["hit"] = 7,
+							["school"] = 32,
+							["hitmax"] = 390,
+							["amount"] = 4472,
+							["hitamount"] = 2635,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 2635,
+							["id"] = 47632,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 2635,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 2635,
+							["amount"] = 2635,
+							["hitamount"] = 2635,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 508,
+							["id"] = 50526,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 508,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 508,
+							["amount"] = 508,
+							["hitamount"] = 508,
+						},
+						["Claw (Earthstealer)"] = {
+							["hitmin"] = 471,
+							["id"] = 47468,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 954,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 483,
+							["amount"] = 954,
+							["hitamount"] = 954,
+						},
+						["Chains of Ice"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 45524,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 493,
+							["id"] = 70890,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 493,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 493,
+							["amount"] = 493,
+							["hitamount"] = 493,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 603,
+							["id"] = 55095,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 1809,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["hitmax"] = 603,
+							["amount"] = 1809,
+							["hitamount"] = 1809,
+						},
+						["Gnaw (Earthstealer)"] = {
+							["criticalamount"] = 62,
+							["id"] = 47481,
+							["targets"] = {
+								["Caj"] = {
+									["amount"] = 62,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 62,
+							["school"] = 1,
+							["criticalmin"] = 62,
+							["criticalmax"] = 62,
+							["count"] = 1,
+						},
+					},
+					["overheal"] = 0,
+					["damagetaken"] = 6011,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 0,
+							["count"] = 3,
+							["amount"] = 1788,
+							["school"] = 1,
+							["max"] = 596,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 1788,
+								},
+							},
+							["min"] = 596,
+						},
+					},
+					["damagetakenspells"] = {
+						["Garrote (DoT)"] = {
+							["hitmin"] = 326,
+							["id"] = 48676,
+							["sources"] = {
+								["Caj"] = {
+									["amount"] = 1584,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 466,
+							["amount"] = 1584,
+							["hitamount"] = 1584,
+						},
+						["Melee"] = {
+							["amount"] = 2094,
+							["hitmin"] = 109,
+							["criticalamount"] = 526,
+							["id"] = 6603,
+							["PARRY"] = 3,
+							["criticalmin"] = 161,
+							["criticalmax"] = 365,
+							["critical"] = 2,
+							["sources"] = {
+								["Caj"] = {
+									["amount"] = 2094,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 383,
+							["MISS"] = 1,
+							["hitamount"] = 1568,
+						},
+						["Rupture"] = {
+							["PARRY"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Caj"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 48672,
+						},
+						["Gouge"] = {
+							["hitmin"] = 227,
+							["id"] = 1776,
+							["sources"] = {
+								["Caj"] = {
+									["amount"] = 227,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 227,
+							["amount"] = 227,
+							["hitamount"] = 227,
+						},
+						["Cheap Shot"] = {
+							["sources"] = {
+								["Caj"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["id"] = 1833,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 153,
+							["criticalamount"] = 175,
+							["id"] = 57975,
+							["criticalmin"] = 175,
+							["criticalmax"] = 175,
+							["critical"] = 1,
+							["hitmax"] = 219,
+							["sources"] = {
+								["Caj"] = {
+									["amount"] = 937,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 8,
+							["resisted"] = 111,
+							["amount"] = 937,
+							["hitamount"] = 762,
+						},
+						["Hemorrhage"] = {
+							["hitmin"] = 534,
+							["id"] = 48660,
+							["sources"] = {
+								["Caj"] = {
+									["amount"] = 1169,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 635,
+							["amount"] = 1169,
+							["hitamount"] = 1169,
+						},
+					},
+					["heal"] = 1788,
+					["name"] = "Urgash",
+					["ccdone"] = 2,
+					["runicspells"] = {
+						[61258] = 30,
+					},
+					["runic"] = 30,
+					["cctakenspells"] = {
+						[1330] = {
+							["count"] = 1,
+							["sources"] = {
+								["Caj"] = 1,
+							},
+						},
+						[1776] = {
+							["count"] = 1,
+							["sources"] = {
+								["Caj"] = 1,
+							},
+						},
+					},
+					["totaldamage"] = 20166,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 6011,
+			["cctaken"] = 2,
+			["runic"] = 30,
+			["ccdone"] = 2,
+			["etotaldamage"] = 6011,
+			["edamagetaken"] = 20166,
+			["heal"] = 1788,
+			["name"] = "Caj",
+			["mobname"] = "Caj",
+			["starttime"] = 1690305749,
+			["edamage"] = 6011,
+			["last_action"] = 1690305772,
+			["endtime"] = 1690305772,
+		}, -- [1]
+		{
+			["players"] = {
+				{
+					["name"] = "Ragekiller",
+					["last"] = 10933.76,
+					["time"] = 0,
+					["spec"] = 260,
 					["id"] = "0x07000000001358EE",
 					["class"] = "ROGUE",
-					["spec"] = 260,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[60345] = {
 							["type"] = "BUFF",
@@ -288,13 +921,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[57516] = {
-							["school"] = 1,
+						[57358] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[57358] = {
+						[57516] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -305,10 +938,10 @@ SkadaStorageDB = {
 						[23602] = 5,
 					},
 					["time"] = 0.31,
-					["id"] = "0x070000000031EFCF",
-					["spec"] = 73,
-					["name"] = "Jaisenda",
 					["role"] = "TANK",
+					["name"] = "Jaisenda",
+					["spec"] = 73,
+					["id"] = "0x070000000031EFCF",
 				}, -- [2]
 				{
 					["last"] = 10933.76,
@@ -339,6 +972,10 @@ SkadaStorageDB = {
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Urgash",
+					["class"] = "DEATHKNIGHT",
+					["time"] = 0,
+					["totaldamagetaken"] = 77,
+					["flag"] = 1297,
 					["damagetakenspells"] = {
 						["Damage Shield"] = {
 							["hitmin"] = 77,
@@ -356,35 +993,31 @@ SkadaStorageDB = {
 							["hitamount"] = 77,
 						},
 					},
-					["flag"] = 1297,
-					["totaldamagetaken"] = 77,
-					["time"] = 0,
-					["class"] = "DEATHKNIGHT",
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 77,
-			["time"] = 5,
-			["endtime"] = 1690277099,
+			["name"] = "Jaisenda",
+			["last_time"] = 10936.557,
 			["starttime"] = 1690277094,
 			["friendfire"] = 77,
 			["rage"] = 5,
-			["name"] = "Jaisenda",
+			["time"] = 5,
 			["mobname"] = "Jaisenda",
 			["totaldamagetaken"] = 77,
 			["last_action"] = 1690277096,
-			["last_time"] = 10936.557,
-		}, -- [1]
+			["endtime"] = 1690277099,
+		}, -- [2]
 		{
 			["sunder"] = 2,
 			["enemies"] = {
 				{
-					["damagetaken"] = 10385,
 					["name"] = "Bloodstains",
-					["class"] = "ROGUE",
-					["flag"] = 1352,
-					["totaldamagetaken"] = 13890,
+					["damagetaken"] = 10385,
 					["id"] = "0x07000000007498A4",
+					["flag"] = 1352,
+					["class"] = "ROGUE",
+					["totaldamagetaken"] = 13890,
 					["damagetakenspells"] = {
 						[55095] = {
 							["total"] = 2415,
@@ -393,8 +1026,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Urgash"] = {
 									["total"] = 2415,
-									["overkill"] = 153,
 									["amount"] = 2191,
+									["overkill"] = 153,
 								},
 							},
 							["overkill"] = 153,
@@ -417,6 +1050,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 337,
 						},
+						[55271] = {
+							["school"] = 1,
+							["total"] = 1968,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1419,
+									["total"] = 1968,
+								},
+							},
+							["amount"] = 1419,
+						},
 						[52212] = {
 							["school"] = 32,
 							["sources"] = {
@@ -426,27 +1070,13 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2536,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 3904,
-									["amount"] = 1338,
-								},
-								["Jaisenda"] = {
-									["amount"] = 546,
-								},
-							},
-							["total"] = 4450,
-							["amount"] = 1884,
-						},
 						[70890] = {
 							["school"] = 32,
 							["total"] = 597,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 597,
 									["amount"] = 431,
+									["total"] = 597,
 								},
 							},
 							["amount"] = 431,
@@ -460,16 +1090,19 @@ SkadaStorageDB = {
 							},
 							["amount"] = 763,
 						},
-						[55271] = {
+						[6603] = {
 							["school"] = 1,
-							["total"] = 1968,
 							["sources"] = {
+								["Jaisenda"] = {
+									["amount"] = 546,
+								},
 								["Urgash"] = {
-									["total"] = 1968,
-									["amount"] = 1419,
+									["amount"] = 1338,
+									["total"] = 3904,
 								},
 							},
-							["amount"] = 1419,
+							["total"] = 4450,
+							["amount"] = 1884,
 						},
 					},
 				}, -- [1]
@@ -484,14 +1117,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1819,
 						},
-						[22482] = {
+						[48638] = {
 							["school"] = 1,
 							["targets"] = {
 								["Jaisenda"] = {
-									["amount"] = 1409,
+									["amount"] = 779,
 								},
+							},
+							["amount"] = 779,
+						},
+						[22482] = {
+							["school"] = 1,
+							["targets"] = {
 								["Urgash"] = {
 									["amount"] = 314,
+								},
+								["Jaisenda"] = {
+									["amount"] = 1409,
 								},
 							},
 							["amount"] = 1723,
@@ -504,15 +1146,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 640,
-						},
-						[48638] = {
-							["school"] = 1,
-							["targets"] = {
-								["Jaisenda"] = {
-									["amount"] = 779,
-								},
-							},
-							["amount"] = 779,
 						},
 					},
 					["damagetaken"] = 26451,
@@ -532,8 +1165,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 1102,
 									["amount"] = 1063,
+									["total"] = 1102,
 								},
 							},
 							["total"] = 1102,
@@ -546,8 +1179,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Urgash"] = {
 									["total"] = 4988,
-									["overkill"] = 949,
 									["amount"] = 4239,
+									["overkill"] = 949,
 								},
 							},
 							["overkill"] = 949,
@@ -556,8 +1189,8 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2513,
 									["amount"] = 2152,
+									["total"] = 2513,
 								},
 							},
 							["total"] = 2513,
@@ -567,8 +1200,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 1660,
 									["amount"] = 1510,
+									["total"] = 1660,
 								},
 							},
 							["total"] = 1660,
@@ -578,54 +1211,38 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 240,
 									["amount"] = 219,
+									["total"] = 240,
 								},
 							},
 							["total"] = 240,
 							["amount"] = 219,
 						},
-						[47488] = {
+						[6603] = {
 							["school"] = 1,
-							["total"] = 2110,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 2110,
-									["amount"] = 1477,
+									["amount"] = 3713,
+									["total"] = 4474,
 								},
-							},
-							["amount"] = 1477,
-						},
-						[49921] = {
-							["school"] = 1,
-							["total"] = 969,
-							["sources"] = {
 								["Urgash"] = {
-									["total"] = 969,
-									["amount"] = 679,
+									["amount"] = 2581,
+									["total"] = 3353,
 								},
 							},
-							["amount"] = 679,
+							["total"] = 7827,
+							["amount"] = 6294,
 						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 929,
-								},
-							},
-							["amount"] = 929,
-						},
-						[12809] = {
+						[57823] = {
 							["school"] = 1,
-							["total"] = 1690,
+							["total"] = 4169,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 1690,
-									["amount"] = 1183,
+									["amount"] = 2919,
+									["total"] = 4169,
 								},
 							},
-							["amount"] = 1183,
+							["amount"] = 2919,
 						},
 						[47502] = {
 							["school"] = 1,
@@ -636,31 +1253,47 @@ SkadaStorageDB = {
 							},
 							["amount"] = 669,
 						},
-						[57823] = {
+						[12809] = {
 							["school"] = 1,
-							["total"] = 4169,
+							["total"] = 1690,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 4169,
-									["amount"] = 2919,
+									["amount"] = 1183,
+									["total"] = 1690,
 								},
 							},
-							["amount"] = 2919,
+							["amount"] = 1183,
 						},
-						[6603] = {
-							["school"] = 1,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 3353,
-									["amount"] = 2581,
-								},
-								["Jaisenda"] = {
-									["total"] = 4474,
-									["amount"] = 3713,
+									["amount"] = 929,
 								},
 							},
-							["total"] = 7827,
-							["amount"] = 6294,
+							["amount"] = 929,
+						},
+						[49921] = {
+							["school"] = 1,
+							["total"] = 969,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 679,
+									["total"] = 969,
+								},
+							},
+							["amount"] = 679,
+						},
+						[47488] = {
+							["school"] = 1,
+							["total"] = 2110,
+							["sources"] = {
+								["Jaisenda"] = {
+									["amount"] = 1477,
+									["total"] = 2110,
+								},
+							},
+							["amount"] = 1477,
 						},
 					},
 					["totaldamage"] = 4961,
@@ -727,10 +1360,10 @@ SkadaStorageDB = {
 							["uptime"] = 4,
 						},
 						[64568] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 31,
 							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 31,
+							["type"] = "BUFF",
 						},
 						[67695] = {
 							["school"] = 64,
@@ -800,17 +1433,16 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["uptime"] = 18,
 						},
-						[57623] = {
-							["school"] = 1,
+						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 31,
 						},
-						[50227] = {
+						[2565] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 10,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
@@ -824,16 +1456,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[2565] = {
+						[50227] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 2,
 						},
-						[72590] = {
+						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 31,
+							["uptime"] = 7,
 						},
 					},
 					["role"] = "TANK",
@@ -849,8 +1482,8 @@ SkadaStorageDB = {
 							["id"] = 47488,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 2110,
 									["amount"] = 1477,
+									["total"] = 2110,
 								},
 							},
 							["casts"] = 2,
@@ -889,8 +1522,8 @@ SkadaStorageDB = {
 									["amount"] = 337,
 								},
 								["Doypinga"] = {
-									["total"] = 1102,
 									["amount"] = 1063,
+									["total"] = 1102,
 								},
 							},
 							["count"] = 15,
@@ -900,23 +1533,30 @@ SkadaStorageDB = {
 							["amount"] = 1400,
 							["hitamount"] = 1400,
 						},
-						["Concussion Blow"] = {
-							["total"] = 1690,
-							["hitmin"] = 1183,
-							["id"] = 12809,
+						["Melee"] = {
+							["DODGE"] = 2,
+							["total"] = 5020,
+							["hitmin"] = 546,
+							["criticalamount"] = 1937,
+							["id"] = 6603,
 							["targets"] = {
+								["Bloodstains"] = {
+									["amount"] = 546,
+								},
 								["Doypinga"] = {
-									["total"] = 1690,
-									["amount"] = 1183,
+									["amount"] = 3713,
+									["total"] = 4474,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["criticalmin"] = 1937,
+							["hit"] = 3,
+							["criticalmax"] = 1937,
+							["count"] = 6,
+							["amount"] = 4259,
 							["school"] = 1,
-							["hitmax"] = 1183,
-							["amount"] = 1183,
-							["hitamount"] = 1183,
+							["hitmax"] = 908,
+							["critical"] = 1,
+							["hitamount"] = 2322,
 						},
 						["Damage Shield"] = {
 							["hitmin"] = 222,
@@ -940,13 +1580,13 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 1,
-							["PARRY"] = 1,
+							["id"] = 47498,
 							["targets"] = {
 								["Doypinga"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 47498,
+							["PARRY"] = 1,
 						},
 						["Revenge"] = {
 							["DODGE"] = 1,
@@ -955,8 +1595,8 @@ SkadaStorageDB = {
 							["id"] = 57823,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 4169,
 									["amount"] = 2919,
+									["total"] = 4169,
 								},
 							},
 							["casts"] = 2,
@@ -967,30 +1607,23 @@ SkadaStorageDB = {
 							["hit"] = 1,
 							["hitamount"] = 2919,
 						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["total"] = 5020,
-							["hitmin"] = 546,
-							["criticalamount"] = 1937,
-							["id"] = 6603,
+						["Concussion Blow"] = {
+							["total"] = 1690,
+							["hitmin"] = 1183,
+							["id"] = 12809,
 							["targets"] = {
-								["Bloodstains"] = {
-									["amount"] = 546,
-								},
 								["Doypinga"] = {
-									["total"] = 4474,
-									["amount"] = 3713,
+									["amount"] = 1183,
+									["total"] = 1690,
 								},
 							},
-							["criticalmin"] = 1937,
-							["count"] = 6,
-							["criticalmax"] = 1937,
-							["critical"] = 1,
-							["amount"] = 4259,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 908,
-							["hit"] = 3,
-							["hitamount"] = 2322,
+							["hitmax"] = 1183,
+							["amount"] = 1183,
+							["hitamount"] = 1183,
 						},
 					},
 					["damagetaken"] = 4647,
@@ -1025,27 +1658,27 @@ SkadaStorageDB = {
 							["MISS"] = 3,
 							["criticalamount"] = 487,
 							["id"] = 6603,
-							["BLOCK"] = 4,
 							["hitmax"] = 549,
-							["hit"] = 3,
-							["PARRY"] = 1,
-							["count"] = 13,
-							["blocked"] = 1461,
-							["school"] = 1,
-							["critical"] = 1,
 							["criticalmax"] = 487,
+							["critical"] = 1,
+							["PARRY"] = 1,
+							["BLOCK"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["blocked"] = 1461,
+							["count"] = 13,
 							["hitamount"] = 1332,
 						},
 						["Instant Poison IX"] = {
 							["hitmin"] = 640,
 							["id"] = 57965,
-							["hitmax"] = 640,
+							["count"] = 1,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 640,
 								},
 							},
-							["count"] = 1,
+							["hitmax"] = 640,
 							["hit"] = 1,
 							["school"] = 8,
 							["resisted"] = 71,
@@ -1062,35 +1695,33 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 0,
 							["school"] = 1,
-							["blocked"] = 1208,
-							["BLOCK"] = 2,
 							["id"] = 51677,
+							["BLOCK"] = 2,
+							["blocked"] = 1208,
 						},
 						["Sinister Strike"] = {
 							["hitmin"] = 779,
 							["id"] = 48638,
-							["BLOCK"] = 2,
-							["hit"] = 1,
+							["count"] = 3,
+							["blocked"] = 1809,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 779,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 779,
+							["BLOCK"] = 2,
+							["hit"] = 1,
 							["school"] = 1,
 							["hitmax"] = 779,
-							["blocked"] = 1809,
+							["amount"] = 779,
 							["hitamount"] = 779,
 						},
 					},
-					["name"] = "Jaisenda",
+					["totaldamage"] = 19039,
 					["ragespells"] = {
 						[23602] = 40,
 					},
-					["sundertargets"] = {
-						["Doypinga"] = 2,
-					},
+					["name"] = "Jaisenda",
 					["ccdone"] = 2,
 					["sunder"] = 2,
 					["rage"] = 40,
@@ -1102,7 +1733,9 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["totaldamage"] = 19039,
+					["sundertargets"] = {
+						["Doypinga"] = 2,
+					},
 				}, -- [1]
 				{
 					["ccdonespells"] = {
@@ -1124,6 +1757,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 30,
 						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
 						[45524] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -1139,12 +1777,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 7,
-						},
-						[32223] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 6,
 						},
 						[49222] = {
 							["type"] = "BUFF",
@@ -1213,17 +1845,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[55078] = {
+						[50536] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
 							["targets"] = {
 								["Doypinga"] = {
-									["uptime"] = 2,
+									["uptime"] = 10,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 2,
+							["uptime"] = 10,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -1244,17 +1876,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 17,
 						},
-						[50536] = {
+						[55078] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
 							["targets"] = {
 								["Doypinga"] = {
-									["uptime"] = 10,
+									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 10,
+							["uptime"] = 2,
 						},
 						[71905] = {
 							["type"] = "BUFF",
@@ -1263,10 +1895,11 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 22,
 						},
-						[48263] = {
+						[32223] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
+							["count"] = 2,
+							["uptime"] = 6,
 						},
 					},
 					["totaldamage"] = 26835,
@@ -1280,8 +1913,8 @@ SkadaStorageDB = {
 							["id"] = 55271,
 							["targets"] = {
 								["Bloodstains"] = {
-									["total"] = 1968,
 									["amount"] = 1419,
+									["total"] = 1968,
 								},
 							},
 							["casts"] = 1,
@@ -1299,22 +1932,22 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Bloodstains"] = {
-									["total"] = 3904,
 									["amount"] = 1338,
+									["total"] = 3904,
 								},
 								["Doypinga"] = {
-									["total"] = 1542,
 									["amount"] = 1080,
+									["total"] = 1542,
 								},
 							},
 							["criticalmin"] = 1338,
-							["critical"] = 1,
+							["hitmax"] = 1080,
 							["criticalmax"] = 1338,
-							["count"] = 2,
+							["critical"] = 1,
 							["amount"] = 2418,
 							["school"] = 1,
 							["hit"] = 1,
-							["hitmax"] = 1080,
+							["count"] = 2,
 							["hitamount"] = 1080,
 						},
 						["Death and Decay"] = {
@@ -1343,8 +1976,8 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Doypinga"] = {
 									["total"] = 4988,
-									["overkill"] = 949,
 									["amount"] = 4239,
+									["overkill"] = 949,
 								},
 							},
 							["overkill"] = 949,
@@ -1362,8 +1995,8 @@ SkadaStorageDB = {
 							["id"] = 50536,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 240,
 									["amount"] = 219,
+									["total"] = 240,
 								},
 							},
 							["count"] = 10,
@@ -1396,8 +2029,8 @@ SkadaStorageDB = {
 							["id"] = 47468,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 1660,
 									["amount"] = 1510,
+									["total"] = 1660,
 								},
 							},
 							["casts"] = 1,
@@ -1408,6 +2041,24 @@ SkadaStorageDB = {
 							["amount"] = 1510,
 							["hitamount"] = 1510,
 						},
+						["Scourge Strike (Shadow)"] = {
+							["total"] = 597,
+							["hitmin"] = 431,
+							["id"] = 70890,
+							["targets"] = {
+								["Bloodstains"] = {
+									["amount"] = 431,
+									["total"] = 597,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 431,
+							["amount"] = 431,
+							["hitamount"] = 431,
+						},
 						["Melee (Earthchomp)"] = {
 							["DODGE"] = 1,
 							["total"] = 1811,
@@ -1415,8 +2066,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 1811,
 									["amount"] = 1501,
+									["total"] = 1811,
 								},
 							},
 							["PARRY"] = 1,
@@ -1427,24 +2078,6 @@ SkadaStorageDB = {
 							["amount"] = 1501,
 							["hitamount"] = 1501,
 						},
-						["Plague Strike"] = {
-							["total"] = 969,
-							["hitmin"] = 679,
-							["id"] = 49921,
-							["targets"] = {
-								["Doypinga"] = {
-									["total"] = 969,
-									["amount"] = 679,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 679,
-							["amount"] = 679,
-							["hitamount"] = 679,
-						},
 						["Frost Fever (DoT)"] = {
 							["total"] = 4928,
 							["hitmin"] = 388,
@@ -1452,12 +2085,12 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Bloodstains"] = {
 									["total"] = 2415,
-									["overkill"] = 153,
 									["amount"] = 2191,
+									["overkill"] = 153,
 								},
 								["Doypinga"] = {
-									["total"] = 2513,
 									["amount"] = 2152,
+									["total"] = 2513,
 								},
 							},
 							["overkill"] = 153,
@@ -1468,23 +2101,23 @@ SkadaStorageDB = {
 							["amount"] = 4343,
 							["hitamount"] = 4343,
 						},
-						["Scourge Strike (Shadow)"] = {
-							["total"] = 597,
-							["hitmin"] = 431,
-							["id"] = 70890,
+						["Plague Strike"] = {
+							["total"] = 969,
+							["hitmin"] = 679,
+							["id"] = 49921,
 							["targets"] = {
-								["Bloodstains"] = {
-									["total"] = 597,
-									["amount"] = 431,
+								["Doypinga"] = {
+									["amount"] = 679,
+									["total"] = 969,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 431,
-							["amount"] = 431,
-							["hitamount"] = 431,
+							["school"] = 1,
+							["hitmax"] = 679,
+							["amount"] = 679,
+							["hitamount"] = 679,
 						},
 					},
 					["damagetaken"] = 314,
@@ -1512,9 +2145,9 @@ SkadaStorageDB = {
 					},
 					["name"] = "Urgash",
 					["ccdone"] = 2,
-					["overkill"] = 1102,
-					["potion"] = 1,
 					["role"] = "DAMAGER",
+					["potion"] = 1,
+					["overkill"] = 1102,
 				}, -- [2]
 			},
 			["type"] = "group",
@@ -1522,17 +2155,17 @@ SkadaStorageDB = {
 			["last_time"] = 9074.924000000001,
 			["rage"] = 40,
 			["etotaldamage"] = 4961,
-			["name"] = "Doypinga (4)",
+			["starttime"] = 1690275204,
 			["overkill"] = 1102,
 			["edamagetaken"] = 36836,
+			["mobname"] = "Doypinga",
+			["name"] = "Doypinga (4)",
 			["ccdone"] = 4,
 			["potion"] = 1,
-			["mobname"] = "Doypinga",
-			["starttime"] = 1690275204,
 			["edamage"] = 4961,
 			["last_action"] = 1690275235,
 			["endtime"] = 1690275235,
-		}, -- [2]
+		}, -- [3]
 		{
 			["sunder"] = 2,
 			["enemies"] = {
@@ -1619,16 +2252,16 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2455,
 									["amount"] = 2312,
-								},
-								["Jaisenda"] = {
-									["total"] = 1328,
-									["amount"] = 930,
+									["total"] = 2455,
 								},
 								["Ragekiller"] = {
-									["total"] = 1770,
 									["amount"] = 1239,
+									["total"] = 1770,
+								},
+								["Jaisenda"] = {
+									["amount"] = 930,
+									["total"] = 1328,
 								},
 							},
 							["total"] = 5553,
@@ -1657,8 +2290,8 @@ SkadaStorageDB = {
 							["total"] = 3237,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 3237,
 									["amount"] = 2266,
+									["total"] = 3237,
 								},
 							},
 							["amount"] = 2266,
@@ -1668,24 +2301,20 @@ SkadaStorageDB = {
 							["total"] = 3170,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 3170,
 									["amount"] = 2219,
+									["total"] = 3170,
 								},
 							},
 							["amount"] = 2219,
 						},
-						[47498] = {
-							["total"] = 1555,
-							["amount"] = 1089,
+						[47502] = {
 							["school"] = 1,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 1555,
-									["overkill"] = 287,
-									["amount"] = 1089,
+									["amount"] = 725,
 								},
 							},
-							["overkill"] = 287,
+							["amount"] = 725,
 						},
 						[52212] = {
 							["school"] = 32,
@@ -1700,21 +2329,25 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ragekiller"] = {
-									["total"] = 3964,
 									["amount"] = 3269,
+									["total"] = 3964,
 								},
 							},
 							["total"] = 3964,
 							["amount"] = 3269,
 						},
-						[47502] = {
+						[47498] = {
+							["total"] = 1555,
+							["amount"] = 1089,
 							["school"] = 1,
 							["sources"] = {
 								["Jaisenda"] = {
-									["amount"] = 725,
+									["total"] = 1555,
+									["amount"] = 1089,
+									["overkill"] = 287,
 								},
 							},
-							["amount"] = 725,
+							["overkill"] = 287,
 						},
 					},
 					["totaldamage"] = 6124,
@@ -1779,8 +2412,8 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2087,
 									["amount"] = 1642,
+									["total"] = 2087,
 								},
 							},
 							["total"] = 2087,
@@ -1793,8 +2426,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Ragekiller"] = {
 									["total"] = 2177,
-									["overkill"] = 94,
 									["amount"] = 1519,
+									["overkill"] = 94,
 								},
 							},
 							["overkill"] = 94,
@@ -1813,8 +2446,8 @@ SkadaStorageDB = {
 							["total"] = 2805,
 							["sources"] = {
 								["Ragekiller"] = {
-									["total"] = 2805,
 									["amount"] = 0,
+									["total"] = 2805,
 								},
 							},
 							["amount"] = 0,
@@ -1850,8 +2483,8 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["sources"] = {
 								["Ragekiller"] = {
-									["total"] = 2135,
 									["amount"] = 1589,
+									["total"] = 2135,
 								},
 							},
 							["total"] = 2135,
@@ -1874,17 +2507,94 @@ SkadaStorageDB = {
 					["damage"] = 1642,
 				}, -- [2]
 			},
-			["etotaldamagetaken"] = 45337,
+			["etotaldamage"] = 7766,
 			["totaldamage"] = 45337,
 			["time"] = 17,
-			["damage"] = 36728,
+			["last_time"] = 8664.913000000001,
 			["cctaken"] = 1,
 			["totaldamagetaken"] = 7766,
-			["etotaldamage"] = 7766,
-			["last_time"] = 8664.913000000001,
+			["etotaldamagetaken"] = 45337,
+			["damage"] = 36728,
 			["players"] = {
 				{
 					["damagespells"] = {
+						["Instant Poison IX"] = {
+							["total"] = 2135,
+							["hitmin"] = 276,
+							["criticalamount"] = 1313,
+							["id"] = 57965,
+							["criticalmin"] = 1313,
+							["targets"] = {
+								["Skyasi"] = {
+									["amount"] = 1589,
+									["total"] = 2135,
+								},
+							},
+							["casts"] = 1,
+							["hitmax"] = 276,
+							["criticalmax"] = 1313,
+							["critical"] = 1,
+							["amount"] = 1589,
+							["school"] = 8,
+							["hit"] = 1,
+							["count"] = 2,
+							["hitamount"] = 276,
+						},
+						["Melee"] = {
+							["criticalmin"] = 333,
+							["total"] = 3947,
+							["hitmin"] = 1186,
+							["criticalamount"] = 1572,
+							["id"] = 6603,
+							["count"] = 5,
+							["targets"] = {
+								["Doypinga"] = {
+									["amount"] = 1239,
+									["total"] = 1770,
+								},
+								["Skyasi"] = {
+									["total"] = 2177,
+									["amount"] = 1519,
+									["overkill"] = 94,
+								},
+							},
+							["overkill"] = 94,
+							["critical"] = 2,
+							["criticalmax"] = 1239,
+							["hitmax"] = 1186,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 2758,
+							["MISS"] = 2,
+							["hitamount"] = 1186,
+						},
+						["Sinister Strike"] = {
+							["criticalamount"] = 1624,
+							["total"] = 6769,
+							["hitmin"] = 1645,
+							["criticalmin"] = 1624,
+							["id"] = 48638,
+							["amount"] = 3269,
+							["targets"] = {
+								["Doypinga"] = {
+									["amount"] = 3269,
+									["total"] = 3964,
+								},
+								["Skyasi"] = {
+									["amount"] = 0,
+									["total"] = 2805,
+								},
+							},
+							["critical"] = 1,
+							["hit"] = 1,
+							["casts"] = 3,
+							["hitmax"] = 1645,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["count"] = 3,
+							["criticalmax"] = 1624,
+							["hitamount"] = 1645,
+						},
 						["Killing Spree"] = {
 							["hitmin"] = 807,
 							["criticalamount"] = 2096,
@@ -1895,92 +2605,15 @@ SkadaStorageDB = {
 									["amount"] = 2903,
 								},
 							},
+							["casts"] = 1,
+							["hitmax"] = 807,
+							["criticalmax"] = 2096,
 							["critical"] = 1,
 							["amount"] = 2903,
-							["criticalmax"] = 2096,
-							["count"] = 2,
-							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 807,
-							["casts"] = 1,
+							["hit"] = 1,
+							["count"] = 2,
 							["hitamount"] = 807,
-						},
-						["Sinister Strike"] = {
-							["criticalmin"] = 1624,
-							["total"] = 6769,
-							["hitmin"] = 1645,
-							["criticalamount"] = 1624,
-							["id"] = 48638,
-							["hitmax"] = 1645,
-							["targets"] = {
-								["Doypinga"] = {
-									["total"] = 3964,
-									["amount"] = 3269,
-								},
-								["Skyasi"] = {
-									["total"] = 2805,
-									["amount"] = 0,
-								},
-							},
-							["casts"] = 3,
-							["ABSORB"] = 1,
-							["criticalmax"] = 1624,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["critical"] = 1,
-							["amount"] = 3269,
-							["hitamount"] = 1645,
-						},
-						["Melee"] = {
-							["criticalamount"] = 1572,
-							["total"] = 3947,
-							["hitmin"] = 1186,
-							["criticalmin"] = 333,
-							["id"] = 6603,
-							["hitmax"] = 1186,
-							["targets"] = {
-								["Doypinga"] = {
-									["total"] = 1770,
-									["amount"] = 1239,
-								},
-								["Skyasi"] = {
-									["total"] = 2177,
-									["overkill"] = 94,
-									["amount"] = 1519,
-								},
-							},
-							["overkill"] = 94,
-							["hit"] = 1,
-							["criticalmax"] = 1239,
-							["count"] = 5,
-							["amount"] = 2758,
-							["school"] = 1,
-							["critical"] = 2,
-							["MISS"] = 2,
-							["hitamount"] = 1186,
-						},
-						["Instant Poison IX"] = {
-							["total"] = 2135,
-							["hitmin"] = 276,
-							["criticalamount"] = 1313,
-							["id"] = 57965,
-							["criticalmin"] = 1313,
-							["targets"] = {
-								["Skyasi"] = {
-									["total"] = 2135,
-									["amount"] = 1589,
-								},
-							},
-							["critical"] = 1,
-							["amount"] = 1589,
-							["criticalmax"] = 1313,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 276,
-							["casts"] = 1,
-							["hitamount"] = 276,
 						},
 					},
 					["last"] = 8658.617,
@@ -1990,8 +2623,16 @@ SkadaStorageDB = {
 					["spec"] = 260,
 					["totaldamage"] = 15754,
 					["name"] = "Ragekiller",
+					["time"] = 8.01,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[57358] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[60345] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
@@ -2001,11 +2642,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 2,
-						},
-						[28496] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
 						},
 						[57623] = {
 							["type"] = "BUFF",
@@ -2022,21 +2658,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 17,
 						},
+						[72590] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
 						[59620] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[72590] = {
+						[12608] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
-						},
-						[1784] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
 						},
 						[72412] = {
 							["school"] = 1,
@@ -2044,10 +2680,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[12608] = {
+						[1784] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 5,
 						},
 						[11305] = {
 							["school"] = 1,
@@ -2061,15 +2697,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[60345] = {
+						[28496] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
 						},
 					},
-					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["time"] = 8.01,
 					["damage"] = 10519,
 				}, -- [1]
 				{
@@ -2128,6 +2761,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[57516] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 11,
+						},
 						[46968] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -2140,19 +2780,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[57516] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 11,
-						},
 					},
 					["role"] = "TANK",
 					["time"] = 9.85,
 					["cctaken"] = 1,
 					["totaldamagetaken"] = 7766,
-					["sunder"] = 2,
+					["totaldamage"] = 11530,
 					["damage"] = 9695,
 					["damagespells"] = {
 						["Shockwave"] = {
@@ -2161,8 +2794,8 @@ SkadaStorageDB = {
 							["id"] = 46968,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 3237,
 									["amount"] = 2266,
+									["total"] = 3237,
 								},
 							},
 							["casts"] = 1,
@@ -2186,14 +2819,14 @@ SkadaStorageDB = {
 									["amount"] = 1511,
 								},
 							},
+							["casts"] = 1,
+							["hitmax"] = 725,
+							["criticalmax"] = 1511,
 							["critical"] = 1,
 							["amount"] = 2236,
-							["criticalmax"] = 1511,
-							["count"] = 2,
-							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 725,
-							["casts"] = 1,
+							["hit"] = 1,
+							["count"] = 2,
 							["hitamount"] = 725,
 						},
 						["Melee"] = {
@@ -2203,8 +2836,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 1328,
 									["amount"] = 930,
+									["total"] = 1328,
 								},
 							},
 							["count"] = 4,
@@ -2241,8 +2874,8 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Doypinga"] = {
 									["total"] = 1555,
-									["overkill"] = 287,
 									["amount"] = 1089,
+									["overkill"] = 287,
 								},
 							},
 							["overkill"] = 287,
@@ -2253,19 +2886,6 @@ SkadaStorageDB = {
 							["hitmax"] = 1089,
 							["hit"] = 1,
 							["hitamount"] = 1089,
-						},
-						["Revenge"] = {
-							["DODGE"] = 1,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Doypinga"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 57823,
 						},
 						["Concussion Blow"] = {
 							["DODGE"] = 1,
@@ -2280,27 +2900,40 @@ SkadaStorageDB = {
 							},
 							["id"] = 12809,
 						},
+						["Revenge"] = {
+							["DODGE"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Doypinga"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 57823,
+						},
 					},
 					["overheal"] = 0,
 					["damagetaken"] = 7766,
-					["heal"] = 2964,
+					["overkill"] = 287,
 					["id"] = "0x070000000031EFCF",
 					["spec"] = 73,
 					["healspells"] = {
 						[55694] = {
 							["overheal"] = 0,
-							["max"] = 741,
+							["min"] = 741,
 							["count"] = 4,
 							["amount"] = 2964,
-							["school"] = 1,
+							["max"] = 741,
+							["ishot"] = true,
 							["targets"] = {
 								["Jaisenda"] = {
 									["overheal"] = 0,
 									["amount"] = 2964,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 741,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2309,6 +2942,8 @@ SkadaStorageDB = {
 							["criticalamount"] = 1524,
 							["id"] = 48668,
 							["criticalmin"] = 1524,
+							["critical"] = 1,
+							["hit"] = 1,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 1524,
@@ -2318,21 +2953,22 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 2,
-							["criticalmax"] = 1524,
-							["hitmax"] = 344,
 							["amount"] = 1868,
 							["school"] = 1,
-							["hit"] = 1,
-							["critical"] = 1,
+							["hitmax"] = 344,
+							["criticalmax"] = 1524,
 							["hitamount"] = 344,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
-							["criticalmin"] = 187,
-							["hitmin"] = 48,
 							["criticalamount"] = 1648,
+							["hitmin"] = 48,
+							["criticalmin"] = 187,
 							["id"] = 6603,
-							["count"] = 12,
+							["critical"] = 5,
+							["criticalmax"] = 487,
+							["hitmax"] = 274,
+							["hit"] = 3,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 1669,
@@ -2341,21 +2977,18 @@ SkadaStorageDB = {
 									["amount"] = 440,
 								},
 							},
-							["critical"] = 5,
+							["count"] = 12,
 							["amount"] = 2109,
-							["PARRY"] = 2,
-							["hitmax"] = 274,
-							["hit"] = 3,
 							["school"] = 1,
-							["criticalmax"] = 487,
+							["PARRY"] = 2,
 							["MISS"] = 1,
 							["hitamount"] = 461,
 						},
 						["Instant Poison IX"] = {
 							["hitmin"] = 196,
 							["id"] = 57965,
-							["hitmax"] = 286,
-							["amount"] = 995,
+							["count"] = 5,
+							["hit"] = 4,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 799,
@@ -2364,12 +2997,66 @@ SkadaStorageDB = {
 									["amount"] = 196,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 4,
+							["hitmax"] = 286,
+							["amount"] = 995,
 							["school"] = 8,
 							["resisted"] = 106,
 							["MISS"] = 1,
 							["hitamount"] = 995,
+						},
+						["Sinister Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 327,
+							["criticalamount"] = 779,
+							["id"] = 48638,
+							["criticalmin"] = 779,
+							["count"] = 5,
+							["critical"] = 1,
+							["amount"] = 1496,
+							["criticalmax"] = 779,
+							["hitmax"] = 390,
+							["hit"] = 2,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Doypinga"] = {
+									["amount"] = 1496,
+								},
+							},
+							["hitamount"] = 717,
+						},
+						["Unfair Advantage"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 202,
+							["id"] = 51677,
+							["sources"] = {
+								["Doypinga"] = {
+									["amount"] = 492,
+								},
+							},
+							["PARRY"] = 1,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 492,
+							["hitmax"] = 290,
+							["hitamount"] = 492,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 144,
+							["id"] = 57975,
+							["count"] = 1,
+							["sources"] = {
+								["Doypinga"] = {
+									["amount"] = 144,
+								},
+							},
+							["hitmax"] = 144,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 15,
+							["amount"] = 144,
+							["hitamount"] = 144,
 						},
 						["Backstab"] = {
 							["criticalamount"] = 662,
@@ -2378,79 +3065,25 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 662,
 							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 662,
 							["sources"] = {
 								["Skyasi"] = {
 									["amount"] = 662,
 								},
 							},
-							["criticalmin"] = 662,
-							["count"] = 1,
-						},
-						["Unfair Advantage"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 202,
-							["id"] = 51677,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Doypinga"] = {
-									["amount"] = 492,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 290,
-							["amount"] = 492,
-							["hitamount"] = 492,
-						},
-						["Wound Poison VII"] = {
-							["hitmin"] = 144,
-							["id"] = 57975,
-							["hitmax"] = 144,
-							["sources"] = {
-								["Doypinga"] = {
-									["amount"] = 144,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 15,
-							["amount"] = 144,
-							["hitamount"] = 144,
-						},
-						["Sinister Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 327,
-							["criticalamount"] = 779,
-							["id"] = 48638,
-							["criticalmin"] = 779,
-							["criticalmax"] = 779,
-							["sources"] = {
-								["Doypinga"] = {
-									["amount"] = 1496,
-								},
-							},
-							["hit"] = 2,
-							["PARRY"] = 1,
-							["hitmax"] = 390,
-							["amount"] = 1496,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 5,
-							["hitamount"] = 717,
 						},
 					},
+					["rage"] = 25,
+					["heal"] = 2964,
 					["name"] = "Jaisenda",
-					["ragespells"] = {
-						[23602] = 25,
-					},
+					["ccdone"] = 1,
 					["sundertargets"] = {
 						["Doypinga"] = 2,
 					},
-					["ccdone"] = 1,
-					["rage"] = 25,
-					["overkill"] = 287,
+					["ragespells"] = {
+						[23602] = 25,
+					},
 					["cctakenspells"] = {
 						[2094] = {
 							["count"] = 1,
@@ -2459,7 +3092,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["totaldamage"] = 11530,
+					["sunder"] = 2,
 				}, -- [2]
 				{
 					["ccdonespells"] = {
@@ -2471,7 +3104,6 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 8658.455,
-					["name"] = "Urgash",
 					["damagespells"] = {
 						["Scourge Strike"] = {
 							["total"] = 3170,
@@ -2479,17 +3111,17 @@ SkadaStorageDB = {
 							["id"] = 55271,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 3170,
 									["amount"] = 2219,
+									["total"] = 3170,
 								},
 							},
 							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 2219,
 							["school"] = 1,
-							["criticalmin"] = 2219,
-							["criticalmax"] = 2219,
 							["count"] = 1,
+							["criticalmax"] = 2219,
+							["criticalmin"] = 2219,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -2509,11 +3141,11 @@ SkadaStorageDB = {
 							["hitamount"] = 1976,
 						},
 						["Death and Decay"] = {
-							["criticalmin"] = 509,
-							["hitmin"] = 370,
 							["criticalamount"] = 1084,
+							["hitmin"] = 370,
+							["criticalmin"] = 509,
 							["id"] = 52212,
-							["criticalmax"] = 575,
+							["casts"] = 1,
 							["targets"] = {
 								["Doypinga"] = {
 									["amount"] = 3328,
@@ -2522,13 +3154,13 @@ SkadaStorageDB = {
 									["amount"] = 1992,
 								},
 							},
+							["hitmax"] = 418,
+							["amount"] = 5320,
+							["criticalmax"] = 575,
 							["critical"] = 2,
 							["hit"] = 11,
-							["casts"] = 1,
-							["count"] = 14,
-							["amount"] = 5320,
 							["school"] = 32,
-							["hitmax"] = 418,
+							["count"] = 14,
 							["MISS"] = 1,
 							["hitamount"] = 4236,
 						},
@@ -2541,8 +3173,8 @@ SkadaStorageDB = {
 									["amount"] = 1869,
 								},
 								["Skyasi"] = {
-									["total"] = 2087,
 									["amount"] = 1642,
+									["total"] = 2087,
 								},
 							},
 							["casts"] = 1,
@@ -2619,8 +3251,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 479,
 									["amount"] = 336,
+									["total"] = 479,
 								},
 							},
 							["PARRY"] = 1,
@@ -2632,9 +3264,10 @@ SkadaStorageDB = {
 							["hitamount"] = 336,
 						},
 					},
+					["totaldamage"] = 18053,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
-					["id"] = "0x070000000000D01B",
+					["time"] = 9.199999999999999,
 					["auras"] = {
 						[6615] = {
 							["type"] = "BUFF",
@@ -2692,6 +3325,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Doypinga"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+								["Skyasi"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[72590] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
 						[49938] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -2707,23 +3363,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
-						},
-						[72590] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Doypinga"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
 						},
 						[48265] = {
 							["type"] = "BUFF",
@@ -2748,53 +3387,47 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[55095] = {
+						[68766] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 1,
+							["count"] = 1,
+							["school"] = 32,
 							["targets"] = {
 								["Doypinga"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-								["Skyasi"] = {
-									["uptime"] = 3,
+									["uptime"] = 1,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 7,
+							["uptime"] = 1,
 						},
 					},
 					["potionspells"] = {
 						[5634] = 1,
 					},
 					["role"] = "DAMAGER",
-					["potion"] = 1,
+					["name"] = "Urgash",
 					["ccdone"] = 1,
 					["spec"] = 252,
-					["time"] = 9.199999999999999,
-					["totaldamage"] = 18053,
+					["potion"] = 1,
+					["id"] = "0x070000000000D01B",
 					["damage"] = 16514,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 7766,
 			["rage"] = 25,
-			["overheal"] = 0,
-			["ccdone"] = 2,
-			["potion"] = 1,
+			["starttime"] = 1690274809,
+			["mobname"] = "Doypinga",
+			["name"] = "Doypinga (3)",
 			["overkill"] = 381,
 			["edamagetaken"] = 36728,
 			["heal"] = 2964,
-			["name"] = "Doypinga (3)",
-			["mobname"] = "Doypinga",
-			["starttime"] = 1690274809,
+			["potion"] = 1,
+			["ccdone"] = 2,
+			["overheal"] = 0,
 			["edamage"] = 7766,
 			["last_action"] = 1690274825,
 			["endtime"] = 1690274826,
-		}, -- [3]
+		}, -- [4]
 		{
 			["mana"] = 1222,
 			["enemies"] = {
@@ -2853,11 +3486,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Dominuss"] = {
-									["amount"] = 1189,
-								},
 								["Jaisenda"] = {
 									["amount"] = 3457,
+								},
+								["Dominuss"] = {
+									["amount"] = 1189,
 								},
 							},
 							["amount"] = 4646,
@@ -2889,36 +3522,34 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1742,
 						},
-						[47488] = {
+						[59653] = {
 							["school"] = 1,
 							["sources"] = {
 								["Jaisenda"] = {
-									["amount"] = 3228,
+									["amount"] = 252,
 								},
 							},
-							["amount"] = 3228,
+							["amount"] = 252,
 						},
 						[46968] = {
 							["school"] = 1,
 							["total"] = 3172,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 3172,
 									["amount"] = 0,
+									["total"] = 3172,
 								},
 							},
 							["amount"] = 0,
 						},
-						[48665] = {
+						[57755] = {
 							["school"] = 1,
-							["total"] = 1930,
 							["sources"] = {
-								["Dominuss"] = {
-									["total"] = 1930,
-									["amount"] = 648,
+								["Jaisenda"] = {
+									["amount"] = 2123,
 								},
 							},
-							["amount"] = 648,
+							["amount"] = 2123,
 						},
 						[48664] = {
 							["total"] = 1527,
@@ -2927,8 +3558,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Dominuss"] = {
 									["total"] = 1527,
-									["overkill"] = 452,
 									["amount"] = 513,
+									["overkill"] = 452,
 								},
 							},
 							["overkill"] = 452,
@@ -2942,23 +3573,25 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1352,
 						},
-						[57755] = {
+						[48665] = {
 							["school"] = 1,
+							["total"] = 1930,
 							["sources"] = {
-								["Jaisenda"] = {
-									["amount"] = 2123,
+								["Dominuss"] = {
+									["amount"] = 648,
+									["total"] = 1930,
 								},
 							},
-							["amount"] = 2123,
+							["amount"] = 648,
 						},
-						[59653] = {
+						[47488] = {
 							["school"] = 1,
 							["sources"] = {
 								["Jaisenda"] = {
-									["amount"] = 252,
+									["amount"] = 3228,
 								},
 							},
-							["amount"] = 252,
+							["amount"] = 3228,
 						},
 					},
 					["totaldamage"] = 932,
@@ -2970,9 +3603,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 30377,
 			["time"] = 23,
-			["etotaldamagetaken"] = 30377,
-			["totaldamagetaken"] = 2809,
 			["etotaldamage"] = 932,
+			["totaldamagetaken"] = 2809,
+			["etotaldamagetaken"] = 30377,
 			["damage"] = 24909,
 			["players"] = {
 				{
@@ -3014,7 +3647,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[23223] = {
+						[31801] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -3024,13 +3657,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[67708] = {
-							["school"] = 2,
+						[57371] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 23,
 						},
 						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[67018] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -3047,17 +3684,13 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[67018] = {
+						[67708] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 23,
+							["uptime"] = 7,
 						},
-						[57371] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[31801] = {
+						[23223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -3074,36 +3707,36 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 519,
-							["max"] = 831,
+							["min"] = 831,
 							["count"] = 2,
 							["amount"] = 831,
-							["school"] = 2,
+							["max"] = 831,
+							["ishot"] = true,
 							["targets"] = {
-								["Dominuss"] = {
-									["overheal"] = 519,
-									["amount"] = 0,
-								},
 								["Vitra"] = {
 									["overheal"] = 0,
 									["amount"] = 831,
 								},
+								["Dominuss"] = {
+									["overheal"] = 519,
+									["amount"] = 0,
+								},
 							},
-							["ishot"] = true,
-							["min"] = 831,
+							["school"] = 2,
 						},
 						[48785] = {
 							["overheal"] = 1975,
 							["count"] = 1,
 							["amount"] = 1046,
 							["school"] = 2,
-							["max"] = 1046,
+							["min"] = 1046,
 							["targets"] = {
 								["Vitra"] = {
 									["overheal"] = 1975,
 									["amount"] = 1046,
 								},
 							},
-							["min"] = 1046,
+							["max"] = 1046,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3126,6 +3759,7 @@ SkadaStorageDB = {
 					["heal"] = 1877,
 					["name"] = "Vitra",
 					["ccdone"] = 1,
+					["totaldamage"] = 1742,
 					["damagespells"] = {
 						["Judgement of Vengeance"] = {
 							["hitmin"] = 1742,
@@ -3144,7 +3778,6 @@ SkadaStorageDB = {
 							["hitamount"] = 1742,
 						},
 					},
-					["totaldamage"] = 1742,
 				}, -- [1]
 				{
 					["last"] = 7145.789,
@@ -3156,7 +3789,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[30809] = {
+						[25899] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -3166,10 +3799,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[32223] = {
+						[30809] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
+						},
+						[23214] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[54153] = {
 							["school"] = 2,
@@ -3189,12 +3827,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[23214] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[25899] = {
+						[32223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -3223,6 +3856,11 @@ SkadaStorageDB = {
 					},
 					["heal"] = 0,
 					["name"] = "Miakaliff",
+					["role"] = "HEALER",
+					["manaspells"] = {
+						[20168] = 1222,
+					},
+					["class"] = "PALADIN",
 					["damagespells"] = {
 						["Judgement"] = {
 							["hitmin"] = 1057,
@@ -3241,20 +3879,15 @@ SkadaStorageDB = {
 							["hitamount"] = 1057,
 						},
 					},
-					["class"] = "PALADIN",
-					["manaspells"] = {
-						[20168] = 1222,
-					},
-					["role"] = "HEALER",
 				}, -- [2]
 				{
-					["time"] = 0,
-					["last"] = 7145.789,
 					["name"] = "Nigtwolf",
-					["role"] = "DAMAGER",
+					["last"] = 7145.789,
+					["time"] = 0,
+					["spec"] = 263,
 					["id"] = "0x07000000008C7703",
 					["class"] = "SHAMAN",
-					["spec"] = 263,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[30809] = {
 							["type"] = "BUFF",
@@ -3271,12 +3904,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[32223] = {
+						[17481] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[17481] = {
+						[32223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -3284,13 +3917,13 @@ SkadaStorageDB = {
 					},
 				}, -- [3]
 				{
-					["time"] = 0,
-					["last"] = 7145.789,
 					["name"] = "Ragekiller",
-					["role"] = "DAMAGER",
+					["last"] = 7145.789,
+					["time"] = 0,
+					["spec"] = 260,
 					["id"] = "0x07000000001358EE",
 					["class"] = "ROGUE",
-					["spec"] = 260,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[57358] = {
 							["type"] = "BUFF",
@@ -3327,7 +3960,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[1784] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -3337,7 +3970,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[25898] = {
+						[1784] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -3358,10 +3991,10 @@ SkadaStorageDB = {
 					["class"] = "ROGUE",
 					["auras"] = {
 						[58427] = {
-							["refresh"] = 3,
-							["type"] = "BUFF",
-							["uptime"] = 23,
 							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 23,
+							["type"] = "BUFF",
 						},
 						[71396] = {
 							["type"] = "BUFF",
@@ -3382,6 +4015,11 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 7,
 						},
+						[30809] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
 						[1833] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -3393,11 +4031,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 1,
-						},
-						[30809] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
 						},
 					},
 					["energyspells"] = {
@@ -3429,8 +4062,8 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Skyasi"] = {
 									["total"] = 3457,
-									["overkill"] = 452,
 									["amount"] = 1161,
+									["overkill"] = 452,
 								},
 							},
 							["overkill"] = 452,
@@ -3438,9 +4071,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 1161,
 							["school"] = 1,
-							["criticalmin"] = 513,
-							["criticalmax"] = 648,
 							["count"] = 2,
+							["criticalmax"] = 648,
+							["criticalmin"] = 513,
 						},
 					},
 					["id"] = "0x07000000008C9EF0",
@@ -3512,42 +4145,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[20253] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Skyasi"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[72590] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[58374] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[2565] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[32223] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 18,
-						},
-						[57358] = {
+						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -3564,10 +4167,40 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[25898] = {
+						[57358] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
+						},
+						[32223] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 18,
+						},
+						[2565] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[58374] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[20253] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Skyasi"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
 					},
 					["totaldamage"] = 19687,
@@ -3618,9 +4251,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 654,
 							["school"] = 1,
-							["criticalmin"] = 654,
-							["criticalmax"] = 654,
 							["count"] = 1,
+							["criticalmax"] = 654,
+							["criticalmin"] = 654,
 						},
 						["Thunder Clap"] = {
 							["criticalamount"] = 1352,
@@ -3634,9 +4267,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1352,
 							["school"] = 1,
-							["criticalmin"] = 1352,
-							["criticalmax"] = 1352,
 							["count"] = 1,
+							["criticalmax"] = 1352,
+							["criticalmin"] = 1352,
 						},
 						["Revenge"] = {
 							["hitmin"] = 3973,
@@ -3670,20 +4303,24 @@ SkadaStorageDB = {
 							["amount"] = 252,
 							["hitamount"] = 252,
 						},
-						["Shockwave"] = {
-							["casts"] = 1,
-							["total"] = 3172,
-							["count"] = 1,
-							["amount"] = 0,
-							["id"] = 46968,
-							["ABSORB"] = 1,
+						["Melee"] = {
+							["hitmin"] = 1314,
+							["criticalamount"] = 2143,
+							["id"] = 6603,
 							["targets"] = {
 								["Skyasi"] = {
-									["total"] = 3172,
-									["amount"] = 0,
+									["amount"] = 3457,
 								},
 							},
+							["criticalmin"] = 2143,
+							["hitmax"] = 1314,
+							["criticalmax"] = 2143,
+							["critical"] = 1,
+							["amount"] = 3457,
 							["school"] = 1,
+							["hit"] = 1,
+							["count"] = 2,
+							["hitamount"] = 1314,
 						},
 						["Heroic Throw"] = {
 							["hitmin"] = 2123,
@@ -3701,24 +4338,20 @@ SkadaStorageDB = {
 							["amount"] = 2123,
 							["hitamount"] = 2123,
 						},
-						["Melee"] = {
-							["hitmin"] = 1314,
-							["criticalamount"] = 2143,
-							["id"] = 6603,
+						["Shockwave"] = {
+							["school"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["id"] = 46968,
+							["ABSORB"] = 1,
 							["targets"] = {
 								["Skyasi"] = {
-									["amount"] = 3457,
+									["amount"] = 0,
+									["total"] = 3172,
 								},
 							},
-							["criticalmin"] = 2143,
-							["critical"] = 1,
-							["criticalmax"] = 2143,
-							["count"] = 2,
-							["amount"] = 3457,
-							["school"] = 1,
-							["hit"] = 1,
-							["hitmax"] = 1314,
-							["hitamount"] = 1314,
+							["total"] = 3172,
 						},
 					},
 					["damagetaken"] = 444,
@@ -3812,23 +4445,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[45524] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Bloodstains"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
 						[55095] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -3845,6 +4461,23 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Bloodstains"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
 					},
 					["role"] = "DAMAGER",
 					["time"] = 15.49,
@@ -3856,13 +4489,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 16,
+							["id"] = 45524,
 							["MISS"] = 1,
 							["targets"] = {
 								["Skyasi"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 45524,
 						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 649,
@@ -3884,13 +4517,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
+							["id"] = 49941,
 							["MISS"] = 1,
 							["targets"] = {
 								["Bloodstains"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 49941,
 						},
 					},
 					["damagetaken"] = 488,
@@ -3900,14 +4533,14 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 488,
 							["id"] = 6603,
-							["amount"] = 488,
+							["hit"] = 1,
 							["sources"] = {
 								["Skyasi"] = {
 									["amount"] = 488,
 								},
 							},
 							["count"] = 2,
-							["hit"] = 1,
+							["amount"] = 488,
 							["school"] = 1,
 							["hitmax"] = 488,
 							["MISS"] = 1,
@@ -3921,38 +4554,38 @@ SkadaStorageDB = {
 			},
 			["type"] = "group",
 			["damagetaken"] = 2809,
-			["energy"] = 4,
+			["last_action"] = 1690273328,
 			["last_time"] = 7168.554,
-			["overheal"] = 2962,
-			["ccdone"] = 5,
+			["starttime"] = 1690273306,
+			["mobname"] = "Skyasi",
 			["overkill"] = 452,
 			["edamagetaken"] = 24909,
 			["heal"] = 1877,
 			["name"] = "Skyasi (3)",
-			["mobname"] = "Skyasi",
-			["starttime"] = 1690273306,
+			["ccdone"] = 5,
+			["overheal"] = 2962,
 			["edamage"] = 932,
-			["last_action"] = 1690273328,
+			["energy"] = 4,
 			["endtime"] = 1690273329,
-		}, -- [4]
+		}, -- [5]
 		{
 			["mana"] = 2051,
 			["enemies"] = {
 				{
-					["damagetaken"] = 29288,
 					["name"] = "Cupic",
-					["class"] = "PALADIN",
-					["flag"] = 66888,
-					["totaldamagetaken"] = 52914,
+					["damagetaken"] = 29288,
 					["id"] = "0x07000000006262C8",
+					["flag"] = 66888,
+					["class"] = "PALADIN",
+					["totaldamagetaken"] = 52914,
 					["damagetakenspells"] = {
 						[47632] = {
 							["school"] = 32,
 							["total"] = 3879,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 3879,
 									["amount"] = 3104,
+									["total"] = 3879,
 								},
 							},
 							["amount"] = 3104,
@@ -3962,8 +4595,8 @@ SkadaStorageDB = {
 							["total"] = 731,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 731,
 									["amount"] = 585,
+									["total"] = 731,
 								},
 							},
 							["amount"] = 585,
@@ -3973,8 +4606,8 @@ SkadaStorageDB = {
 							["total"] = 2455,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2455,
 									["amount"] = 1443,
+									["total"] = 2455,
 								},
 							},
 							["amount"] = 1443,
@@ -3986,8 +4619,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Vitra"] = {
 									["total"] = 2433,
-									["overkill"] = 837,
 									["amount"] = 1864,
+									["overkill"] = 837,
 								},
 							},
 							["overkill"] = 837,
@@ -3999,8 +4632,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Vitra"] = {
 									["total"] = 4627,
-									["overkill"] = 837,
 									["amount"] = 2568,
+									["overkill"] = 837,
 								},
 							},
 							["overkill"] = 837,
@@ -4010,8 +4643,8 @@ SkadaStorageDB = {
 							["total"] = 3524,
 							["sources"] = {
 								["Vitra"] = {
-									["total"] = 3524,
 									["amount"] = 2820,
+									["total"] = 3524,
 								},
 							},
 							["amount"] = 2820,
@@ -4023,8 +4656,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Urgash"] = {
 									["total"] = 453,
-									["overkill"] = 837,
 									["amount"] = 0,
+									["overkill"] = 837,
 								},
 							},
 							["overkill"] = 837,
@@ -4036,8 +4669,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Urgash"] = {
 									["total"] = 1059,
-									["overkill"] = 837,
 									["amount"] = 0,
+									["overkill"] = 837,
 								},
 							},
 							["overkill"] = 837,
@@ -4049,8 +4682,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Vitra"] = {
 									["total"] = 3434,
-									["overkill"] = 875,
 									["amount"] = 2748,
+									["overkill"] = 875,
 								},
 							},
 							["overkill"] = 875,
@@ -4060,8 +4693,8 @@ SkadaStorageDB = {
 							["total"] = 1576,
 							["sources"] = {
 								["Nigtwolf"] = {
-									["total"] = 1576,
 									["amount"] = 1261,
+									["total"] = 1576,
 								},
 							},
 							["amount"] = 1261,
@@ -4071,15 +4704,15 @@ SkadaStorageDB = {
 							["amount"] = 4717,
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["total"] = 4983,
-									["overkill"] = 837,
-									["amount"] = 3215,
-								},
 								["Vitra"] = {
 									["total"] = 2422,
-									["overkill"] = 837,
 									["amount"] = 1502,
+									["overkill"] = 837,
+								},
+								["Urgash"] = {
+									["total"] = 4983,
+									["amount"] = 3215,
+									["overkill"] = 837,
 								},
 							},
 							["overkill"] = 1674,
@@ -4089,8 +4722,8 @@ SkadaStorageDB = {
 							["total"] = 217,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 217,
 									["amount"] = 150,
+									["total"] = 217,
 								},
 							},
 							["amount"] = 150,
@@ -4100,8 +4733,8 @@ SkadaStorageDB = {
 							["total"] = 407,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 407,
 									["amount"] = 326,
+									["total"] = 407,
 								},
 							},
 							["amount"] = 326,
@@ -4113,8 +4746,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Urgash"] = {
 									["total"] = 3226,
-									["overkill"] = 837,
 									["amount"] = 2007,
+									["overkill"] = 837,
 								},
 							},
 							["overkill"] = 837,
@@ -4126,8 +4759,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Urgash"] = {
 									["total"] = 1410,
-									["overkill"] = 837,
 									["amount"] = 648,
+									["overkill"] = 837,
 								},
 							},
 							["overkill"] = 837,
@@ -4137,33 +4770,11 @@ SkadaStorageDB = {
 							["total"] = 1734,
 							["sources"] = {
 								["Vitra"] = {
-									["total"] = 1734,
 									["amount"] = 1388,
+									["total"] = 1734,
 								},
 							},
 							["amount"] = 1388,
-						},
-						[47481] = {
-							["school"] = 1,
-							["total"] = 31,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 31,
-									["amount"] = 25,
-								},
-							},
-							["amount"] = 25,
-						},
-						[48801] = {
-							["school"] = 2,
-							["total"] = 4590,
-							["sources"] = {
-								["Vitra"] = {
-									["total"] = 4590,
-									["amount"] = 3634,
-								},
-							},
-							["amount"] = 3634,
 						},
 						[53595] = {
 							["total"] = 9723,
@@ -4172,11 +4783,33 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Vitra"] = {
 									["total"] = 9723,
-									["overkill"] = 837,
 									["amount"] = 0,
+									["overkill"] = 837,
 								},
 							},
 							["overkill"] = 837,
+						},
+						[48801] = {
+							["school"] = 2,
+							["total"] = 4590,
+							["sources"] = {
+								["Vitra"] = {
+									["amount"] = 3634,
+									["total"] = 4590,
+								},
+							},
+							["amount"] = 3634,
+						},
+						[47481] = {
+							["school"] = 1,
+							["total"] = 31,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 25,
+									["total"] = 31,
+								},
+							},
+							["amount"] = 25,
 						},
 					},
 				}, -- [1]
@@ -4283,6 +4916,26 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 20,
 						},
+						[57371] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[67018] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
 						[68055] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -4295,26 +4948,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[32223] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[67018] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48938] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[57371] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
 					},
 					["totaldamage"] = 32487,
 					["time"] = 12.45,
@@ -4325,26 +4958,26 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 1632,
-							["max"] = 831,
+							["min"] = 230,
 							["count"] = 6,
 							["amount"] = 3095,
-							["school"] = 2,
+							["max"] = 831,
+							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 0,
 									["amount"] = 820,
 								},
-								["Earthchomp"] = {
-									["overheal"] = 1184,
-									["amount"] = 230,
-								},
 								["Vitra"] = {
 									["overheal"] = 448,
 									["amount"] = 2045,
 								},
+								["Earthchomp"] = {
+									["overheal"] = 1184,
+									["amount"] = 230,
+								},
 							},
-							["ishot"] = true,
-							["min"] = 230,
+							["school"] = 2,
 						},
 					},
 					["overkill"] = 875,
@@ -4355,18 +4988,53 @@ SkadaStorageDB = {
 					["manaspells"] = {
 						[28499] = 2051,
 					},
-					["potion"] = 1,
-					["name"] = "Vitra",
-					["mana"] = 2051,
+					["role"] = "TANK",
 					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 2422,
+							["hitmin"] = 459,
+							["id"] = 6603,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 1502,
+									["total"] = 2422,
+								},
+							},
+							["count"] = 5,
+							["hitmax"] = 525,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["hit"] = 3,
+							["amount"] = 1502,
+							["hitamount"] = 1502,
+						},
+						["Exorcism"] = {
+							["total"] = 4590,
+							["criticalamount"] = 3634,
+							["id"] = 48801,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 3634,
+									["total"] = 4590,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 3634,
+							["school"] = 2,
+							["count"] = 1,
+							["criticalmax"] = 3634,
+							["criticalmin"] = 3634,
+						},
 						["Judgement of Vengeance"] = {
 							["total"] = 3524,
 							["hitmin"] = 2820,
 							["id"] = 31804,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 3524,
 									["amount"] = 2820,
+									["total"] = 3524,
 								},
 							},
 							["casts"] = 1,
@@ -4377,61 +5045,38 @@ SkadaStorageDB = {
 							["amount"] = 2820,
 							["hitamount"] = 2820,
 						},
-						["Exorcism"] = {
-							["total"] = 4590,
-							["criticalamount"] = 3634,
-							["id"] = 48801,
+						["Holy Vengeance (DoT)"] = {
+							["total"] = 4627,
+							["hitmin"] = 1284,
+							["id"] = 31803,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 4590,
-									["amount"] = 3634,
+									["amount"] = 2568,
+									["total"] = 4627,
 								},
 							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3634,
+							["count"] = 4,
+							["hitmax"] = 1284,
+							["ABSORB"] = 2,
 							["school"] = 2,
-							["criticalmin"] = 3634,
-							["criticalmax"] = 3634,
-							["count"] = 1,
+							["hit"] = 2,
+							["amount"] = 2568,
+							["hitamount"] = 2568,
 						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 2422,
-							["hitmin"] = 459,
-							["id"] = 6603,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 2422,
-									["amount"] = 1502,
-								},
-							},
-							["hitmax"] = 525,
-							["count"] = 5,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["amount"] = 1502,
-							["hit"] = 3,
-							["hitamount"] = 1502,
-						},
-						["Hammer of Wrath"] = {
-							["total"] = 1734,
-							["hitmin"] = 1388,
-							["id"] = 48806,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 1734,
-									["amount"] = 1388,
-								},
-							},
-							["blocked"] = 1728,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+						["Hammer of the Righteous"] = {
 							["school"] = 2,
-							["hitmax"] = 1388,
-							["amount"] = 1388,
-							["hitamount"] = 1388,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 0,
+							["id"] = 53595,
+							["ABSORB"] = 2,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 0,
+									["total"] = 9723,
+								},
+							},
+							["total"] = 9723,
 						},
 						["Shield of Righteousness"] = {
 							["total"] = 3434,
@@ -4440,52 +5085,38 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Cupic"] = {
 									["total"] = 3434,
-									["overkill"] = 875,
 									["amount"] = 2748,
+									["overkill"] = 875,
 								},
 							},
 							["overkill"] = 875,
-							["hitmax"] = 2748,
-							["casts"] = 2,
 							["count"] = 2,
+							["casts"] = 2,
+							["hitmax"] = 2748,
 							["amount"] = 2748,
 							["school"] = 2,
 							["hit"] = 1,
 							["MISS"] = 1,
 							["hitamount"] = 2748,
 						},
-						["Hammer of the Righteous"] = {
-							["casts"] = 2,
-							["total"] = 9723,
-							["count"] = 2,
-							["amount"] = 0,
-							["id"] = 53595,
-							["ABSORB"] = 2,
+						["Hammer of Wrath"] = {
+							["total"] = 1734,
+							["hitmin"] = 1388,
+							["id"] = 48806,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 9723,
-									["amount"] = 0,
+									["amount"] = 1388,
+									["total"] = 1734,
 								},
 							},
+							["hit"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["blocked"] = 1728,
 							["school"] = 2,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["total"] = 4627,
-							["hitmin"] = 1284,
-							["id"] = 31803,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 4627,
-									["amount"] = 2568,
-								},
-							},
-							["hitmax"] = 1284,
-							["count"] = 4,
-							["ABSORB"] = 2,
-							["school"] = 2,
-							["amount"] = 2568,
-							["hit"] = 2,
-							["hitamount"] = 2568,
+							["amount"] = 1388,
+							["hitmax"] = 1388,
+							["hitamount"] = 1388,
 						},
 						["Seal of Vengeance"] = {
 							["total"] = 2433,
@@ -4493,21 +5124,23 @@ SkadaStorageDB = {
 							["id"] = 42463,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2433,
 									["amount"] = 1864,
+									["total"] = 2433,
 								},
 							},
-							["hitmax"] = 516,
-							["casts"] = 1,
 							["count"] = 6,
+							["casts"] = 1,
+							["hitmax"] = 516,
 							["ABSORB"] = 1,
 							["school"] = 2,
-							["amount"] = 1864,
 							["hit"] = 5,
+							["amount"] = 1864,
 							["hitamount"] = 1864,
 						},
 					},
-					["role"] = "TANK",
+					["mana"] = 2051,
+					["name"] = "Vitra",
+					["potion"] = 1,
 				}, -- [1]
 				{
 					["last"] = 7088.788000000001,
@@ -4519,7 +5152,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 2,
 						},
+						[20166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
 						[30809] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[71584] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[23214] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 20,
@@ -4530,53 +5183,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[23214] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[71584] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
 					},
 					["role"] = "HEALER",
 					["name"] = "Miakaliff",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "PALADIN",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [2]
 				{
 					["damagespells"] = {
-						["Earth Shock"] = {
-							["total"] = 1576,
-							["hitmin"] = 1261,
-							["id"] = 49231,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 1576,
-									["amount"] = 1261,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1261,
-							["amount"] = 1261,
-							["hitamount"] = 1261,
-						},
 						["Frostweave Net"] = {
 							["casts"] = 1,
 							["count"] = 1,
@@ -4589,6 +5204,24 @@ SkadaStorageDB = {
 								},
 							},
 							["id"] = 55536,
+						},
+						["Earth Shock"] = {
+							["total"] = 1576,
+							["hitmin"] = 1261,
+							["id"] = 49231,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 1261,
+									["total"] = 1576,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 1261,
+							["amount"] = 1261,
+							["hitamount"] = 1261,
 						},
 					},
 					["last"] = 7101.996,
@@ -4610,24 +5243,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 20,
 						},
+						[17481] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
 						[32223] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[17481] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
 					},
 					["totaldamage"] = 1576,
 					["name"] = "Nigtwolf",
 					["class"] = "SHAMAN",
-					["role"] = "DAMAGER",
-					["flag"] = 1298,
 					["time"] = 3.5,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["damage"] = 1261,
 				}, -- [3]
 				{
@@ -4640,6 +5273,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 20,
 						},
+						[32223] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
 						[19746] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -4650,18 +5289,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 20,
 						},
-						[32223] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Dominuss",
-					["flag"] = 1300,
-					["time"] = 0,
 					["class"] = "ROGUE",
+					["time"] = 0,
+					["flag"] = 1300,
 				}, -- [4]
 				{
 					["last"] = 7088.788000000001,
@@ -4688,7 +5321,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 20,
 						},
-						[30809] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 20,
@@ -4698,7 +5331,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 20,
 						},
-						[25898] = {
+						[30809] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 20,
@@ -4706,9 +5339,9 @@ SkadaStorageDB = {
 					},
 					["role"] = "TANK",
 					["name"] = "Jaisenda",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "WARRIOR",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [5]
 				{
 					["ccdonespells"] = {
@@ -4852,22 +5485,15 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[72590] = {
+							["count"] = 1,
 							["refresh"] = 1,
-							["type"] = "BUFF",
 							["uptime"] = 20,
-							["count"] = 1,
+							["type"] = "BUFF",
 						},
-						[47481] = {
-							["type"] = "DEBUFF",
+						[72586] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Cupic"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 20,
 						},
 						[32223] = {
 							["school"] = 2,
@@ -4875,17 +5501,17 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 20,
 						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
 						[53365] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[47476] = {
 							["type"] = "DEBUFF",
@@ -4899,10 +5525,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
-						[72586] = {
-							["type"] = "BUFF",
+						[47481] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 20,
+							["school"] = 1,
+							["targets"] = {
+								["Cupic"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 					},
 					["totaldamage"] = 18851,
@@ -4914,8 +5547,8 @@ SkadaStorageDB = {
 							["id"] = 55271,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1059,
 									["amount"] = 0,
+									["total"] = 1059,
 								},
 							},
 							["casts"] = 2,
@@ -4931,16 +5564,16 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 4440,
 									["amount"] = 2780,
+									["total"] = 4440,
 								},
 							},
-							["hitmax"] = 1008,
 							["count"] = 4,
+							["hitmax"] = 1008,
 							["ABSORB"] = 1,
 							["school"] = 1,
-							["amount"] = 2780,
 							["hit"] = 3,
+							["amount"] = 2780,
 							["hitamount"] = 2780,
 						},
 						["Death Coil"] = {
@@ -4949,8 +5582,8 @@ SkadaStorageDB = {
 							["id"] = 47632,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 3879,
 									["amount"] = 3104,
+									["total"] = 3879,
 								},
 							},
 							["casts"] = 1,
@@ -4967,45 +5600,50 @@ SkadaStorageDB = {
 							["id"] = 50536,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 217,
 									["amount"] = 150,
+									["total"] = 217,
 								},
 							},
-							["hitmax"] = 25,
 							["count"] = 7,
+							["hitmax"] = 25,
 							["ABSORB"] = 1,
 							["school"] = 32,
-							["amount"] = 150,
 							["hit"] = 6,
+							["amount"] = 150,
 							["hitamount"] = 150,
 						},
 						["Scourge Strike (Shadow)"] = {
+							["school"] = 32,
 							["casts"] = 1,
-							["total"] = 453,
 							["count"] = 1,
 							["amount"] = 0,
 							["id"] = 70890,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 453,
 									["amount"] = 0,
+									["total"] = 453,
 								},
 							},
-							["school"] = 32,
+							["total"] = 453,
 						},
-						["Chains of Ice"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["IMMUNE"] = 1,
+						["Blood Strike"] = {
+							["total"] = 731,
+							["hitmin"] = 585,
+							["id"] = 49930,
 							["targets"] = {
 								["Cupic"] = {
-									["amount"] = 0,
+									["amount"] = 585,
+									["total"] = 731,
 								},
 							},
-							["id"] = 45524,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 585,
+							["amount"] = 585,
+							["hitamount"] = 585,
 						},
 						["Claw (Earthchomp)"] = {
 							["total"] = 407,
@@ -5013,8 +5651,8 @@ SkadaStorageDB = {
 							["id"] = 47468,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 407,
 									["amount"] = 326,
+									["total"] = 407,
 								},
 							},
 							["casts"] = 1,
@@ -5031,8 +5669,8 @@ SkadaStorageDB = {
 							["id"] = 55078,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2455,
 									["amount"] = 1443,
+									["total"] = 2455,
 								},
 							},
 							["count"] = 3,
@@ -5042,14 +5680,46 @@ SkadaStorageDB = {
 							["amount"] = 1443,
 							["hitamount"] = 1443,
 						},
+						["Plague Strike"] = {
+							["total"] = 1410,
+							["hitmin"] = 648,
+							["id"] = 49921,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 648,
+									["total"] = 1410,
+								},
+							},
+							["count"] = 2,
+							["casts"] = 2,
+							["hitmax"] = 648,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["hit"] = 1,
+							["amount"] = 648,
+							["hitamount"] = 648,
+						},
+						["Chains of Ice"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 45524,
+						},
 						["Melee (Earthchomp)"] = {
 							["total"] = 543,
 							["hitmin"] = 217,
 							["id"] = 6603,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 543,
 									["amount"] = 435,
+									["total"] = 543,
 								},
 							},
 							["count"] = 2,
@@ -5059,14 +5729,32 @@ SkadaStorageDB = {
 							["amount"] = 435,
 							["hitamount"] = 435,
 						},
+						["Frost Fever (DoT)"] = {
+							["total"] = 3226,
+							["hitmin"] = 558,
+							["id"] = 55095,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 2007,
+									["total"] = 3226,
+								},
+							},
+							["count"] = 4,
+							["hitmax"] = 873,
+							["ABSORB"] = 1,
+							["school"] = 16,
+							["hit"] = 3,
+							["amount"] = 2007,
+							["hitamount"] = 2007,
+						},
 						["Gnaw (Earthchomp)"] = {
 							["total"] = 31,
 							["hitmin"] = 25,
 							["id"] = 47481,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 31,
 									["amount"] = 25,
+									["total"] = 31,
 								},
 							},
 							["casts"] = 1,
@@ -5076,61 +5764,6 @@ SkadaStorageDB = {
 							["hitmax"] = 25,
 							["amount"] = 25,
 							["hitamount"] = 25,
-						},
-						["Plague Strike"] = {
-							["total"] = 1410,
-							["hitmin"] = 648,
-							["id"] = 49921,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 1410,
-									["amount"] = 648,
-								},
-							},
-							["hitmax"] = 648,
-							["casts"] = 2,
-							["count"] = 2,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["amount"] = 648,
-							["hit"] = 1,
-							["hitamount"] = 648,
-						},
-						["Frost Fever (DoT)"] = {
-							["total"] = 3226,
-							["hitmin"] = 558,
-							["id"] = 55095,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 3226,
-									["amount"] = 2007,
-								},
-							},
-							["hitmax"] = 873,
-							["count"] = 4,
-							["ABSORB"] = 1,
-							["school"] = 16,
-							["amount"] = 2007,
-							["hit"] = 3,
-							["hitamount"] = 2007,
-						},
-						["Blood Strike"] = {
-							["total"] = 731,
-							["hitmin"] = 585,
-							["id"] = 49930,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 731,
-									["amount"] = 585,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 585,
-							["amount"] = 585,
-							["hitamount"] = 585,
 						},
 					},
 					["id"] = "0x070000000000D01B",
@@ -5149,40 +5782,42 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["count"] = 1,
 							["criticalmin"] = 0,
+							["count"] = 1,
 						},
 					},
 					["heal"] = 0,
 					["name"] = "Urgash",
 					["ccdone"] = 3,
-					["overheal"] = 1830,
 					["role"] = "DAMAGER",
+					["overheal"] = 1830,
 				}, -- [6]
 			},
 			["type"] = "group",
 			["starttime"] = 1690273249,
 			["overheal"] = 3462,
-			["name"] = "Cupic (5)",
+			["damage"] = 29288,
 			["overkill"] = 875,
 			["edamagetaken"] = 29288,
 			["heal"] = 3095,
-			["potion"] = 1,
+			["name"] = "Cupic (5)",
 			["ccdone"] = 3,
 			["mobname"] = "Cupic",
-			["damage"] = 29288,
+			["potion"] = 1,
 			["last_action"] = 1690273268,
 			["endtime"] = 1690273269,
-		}, -- [5]
+		}, -- [6]
 		{
 			["players"] = {
 				{
 					["last"] = 6836.46,
-					["ress"] = 1,
+					["class"] = "PALADIN",
+					["manaspells"] = {
+						[28499] = 1872,
+					},
 					["id"] = "0x0700000000208D33",
-					["flag"] = 1298,
 					["mana"] = 1872,
-					["spec"] = 66,
+					["time"] = 0,
 					["auras"] = {
 						[25780] = {
 							["type"] = "BUFF",
@@ -5219,12 +5854,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[25899] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -5234,7 +5864,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[57623] = {
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[31801] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -5254,11 +5889,9 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Vitra",
-					["time"] = 0,
-					["manaspells"] = {
-						[28499] = 1872,
-					},
-					["class"] = "PALADIN",
+					["spec"] = 66,
+					["flag"] = 1298,
+					["ress"] = 1,
 				}, -- [1]
 				{
 					["last"] = 6836.46,
@@ -5306,12 +5939,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[28496] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[25898] = {
+						[28496] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -5319,20 +5952,25 @@ SkadaStorageDB = {
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Ragekiller",
-					["flag"] = 1300,
-					["time"] = 0,
 					["class"] = "ROGUE",
+					["time"] = 0,
+					["flag"] = 1300,
 				}, -- [2]
 				{
-					["time"] = 0,
-					["last"] = 6836.46,
 					["name"] = "Dominuss",
-					["role"] = "DAMAGER",
+					["last"] = 6836.46,
+					["time"] = 0,
+					["spec"] = 259,
 					["id"] = "0x07000000008C9EF0",
 					["class"] = "ROGUE",
-					["spec"] = 259,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[58427] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -5342,12 +5980,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[32223] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[25898] = {
+						[72588] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -5357,12 +5990,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[72588] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[72590] = {
+						[32223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -5389,27 +6022,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[32223] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 7,
 						},
 						[72588] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[25898] = {
+						[32223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 2,
 						},
 					},
 					["role"] = "TANK",
 					["name"] = "Jaisenda",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "WARRIOR",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [4]
 				{
 					["ccdonespells"] = {
@@ -5473,11 +6106,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[32223] = {
-							["school"] = 2,
+						[72586] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 2,
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -5491,23 +6128,19 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[48265] = {
+						[32223] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[72586] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
+							["count"] = 2,
+							["uptime"] = 2,
 						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Urgash",
 					["ccdone"] = 1,
-					["flag"] = 1297,
-					["time"] = 0,
 					["class"] = "DEATHKNIGHT",
+					["time"] = 0,
+					["flag"] = 1297,
 				}, -- [5]
 				{
 					["overheal"] = 0,
@@ -5530,37 +6163,37 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 9079,
 							["school"] = 2,
-							["criticalmin"] = 9079,
 							["count"] = 1,
+							["criticalmin"] = 9079,
 						},
 					},
-					["spec"] = 65,
+					["role"] = "HEALER",
 					["heal"] = 9079,
 					["manaspells"] = {
 						[20272] = 237,
 					},
-					["id"] = "0x07000000008C2718",
-					["name"] = "Miakaliff",
-					["mana"] = 237,
 					["time"] = 3.5,
-					["role"] = "HEALER",
+					["mana"] = 237,
+					["name"] = "Miakaliff",
+					["id"] = "0x07000000008C2718",
+					["spec"] = 65,
 				}, -- [6]
 			},
-			["ress"] = 1,
+			["type"] = "group",
 			["name"] = "Bloodstains",
 			["overheal"] = 0,
-			["type"] = "group",
+			["ress"] = 1,
 			["mana"] = 2109,
 			["starttime"] = 1690272996,
-			["time"] = 7,
-			["last_time"] = 6843.208000000001,
-			["heal"] = 9079,
 			["potion"] = 1,
-			["ccdone"] = 1,
-			["mobname"] = "Bloodstains",
-			["last_action"] = 1690273003,
 			["endtime"] = 1690273003,
-		}, -- [6]
+			["heal"] = 9079,
+			["time"] = 7,
+			["mobname"] = "Bloodstains",
+			["ccdone"] = 1,
+			["last_action"] = 1690273003,
+			["last_time"] = 6843.208000000001,
+		}, -- [7]
 		{
 			["sunder"] = 1,
 			["enemies"] = {
@@ -5632,39 +6265,44 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Urgash"] = {
 									["total"] = 1232,
-									["overkill"] = 814,
 									["amount"] = 0,
+									["overkill"] = 814,
 								},
 							},
 							["overkill"] = 814,
 						},
-						[47468] = {
+						[6603] = {
+							["total"] = 10359,
+							["amount"] = 7277,
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 837,
-									["amount"] = 875,
+									["total"] = 7799,
+									["amount"] = 4717,
+									["overkill"] = 814,
+								},
+								["Jaisenda"] = {
+									["amount"] = 2560,
 								},
 							},
-							["overkill"] = 837,
-							["amount"] = 875,
+							["overkill"] = 814,
 						},
-						[50526] = {
+						[50536] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 478,
+									["amount"] = 150,
 								},
 							},
-							["amount"] = 478,
+							["amount"] = 150,
 						},
 						[49930] = {
 							["school"] = 1,
 							["total"] = 2109,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2109,
 									["amount"] = 110,
+									["total"] = 2109,
 								},
 							},
 							["amount"] = 110,
@@ -5703,36 +6341,31 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Urgash"] = {
 									["total"] = 350,
-									["overkill"] = 814,
 									["amount"] = 0,
+									["overkill"] = 814,
 								},
 							},
 							["overkill"] = 814,
 						},
-						[50536] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 150,
+									["amount"] = 478,
 								},
 							},
-							["amount"] = 150,
+							["amount"] = 478,
 						},
-						[6603] = {
-							["total"] = 10359,
-							["amount"] = 7277,
+						[47468] = {
 							["school"] = 1,
 							["sources"] = {
-								["Jaisenda"] = {
-									["amount"] = 2560,
-								},
 								["Urgash"] = {
-									["total"] = 7799,
-									["overkill"] = 814,
-									["amount"] = 4717,
+									["amount"] = 875,
+									["overkill"] = 837,
 								},
 							},
-							["overkill"] = 814,
+							["amount"] = 875,
+							["overkill"] = 837,
 						},
 					},
 					["totaldamage"] = 538,
@@ -5742,13 +6375,6 @@ SkadaStorageDB = {
 					["damage"] = 538,
 				}, -- [1]
 			},
-			["overheal"] = 2454,
-			["totaldamage"] = 31133,
-			["time"] = 21,
-			["damage"] = 24470,
-			["totaldamagetaken"] = 538,
-			["etotaldamagetaken"] = 31133,
-			["last_time"] = 6669.162,
 			["players"] = {
 				{
 					["last"] = 6648.528,
@@ -5780,7 +6406,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[23223] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
@@ -5790,7 +6416,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[31801] = {
+						[32223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
@@ -5800,12 +6426,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[32223] = {
+						[31801] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[57623] = {
+						[23223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
@@ -5813,9 +6439,9 @@ SkadaStorageDB = {
 					},
 					["role"] = "TANK",
 					["name"] = "Vitra",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "PALADIN",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [1]
 				{
 					["last"] = 6648.528,
@@ -5828,21 +6454,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
 						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[32223] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
 						[57623] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 21,
 							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 21,
+							["type"] = "BUFF",
 						},
 						[1784] = {
 							["school"] = 1,
@@ -5855,17 +6481,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[25898] = {
+						[32223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
+							["uptime"] = 18,
 						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Dominuss",
-					["flag"] = 1300,
-					["time"] = 0,
 					["class"] = "ROGUE",
+					["time"] = 0,
+					["flag"] = 1300,
 				}, -- [2]
 				{
 					["ccdonespells"] = {
@@ -5883,54 +6509,7 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 6658.860000000001,
-					["sunder"] = 1,
 					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 1233,
-							["id"] = 6603,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["amount"] = 2560,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1327,
-							["amount"] = 2560,
-							["hitamount"] = 2560,
-						},
-						["Devastate"] = {
-							["criticalamount"] = 2744,
-							["id"] = 47498,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["amount"] = 2744,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2744,
-							["school"] = 1,
-							["criticalmin"] = 2744,
-							["criticalmax"] = 2744,
-							["count"] = 1,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 118,
-							["id"] = 12721,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["amount"] = 236,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 118,
-							["amount"] = 236,
-							["hitamount"] = 236,
-						},
 						["Concussion Blow"] = {
 							["hitmin"] = 1644,
 							["id"] = 12809,
@@ -5947,10 +6526,59 @@ SkadaStorageDB = {
 							["amount"] = 1644,
 							["hitamount"] = 1644,
 						},
+						["Devastate"] = {
+							["criticalamount"] = 2744,
+							["id"] = 47498,
+							["targets"] = {
+								["Melissaaloe"] = {
+									["amount"] = 2744,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 2744,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 2744,
+							["criticalmin"] = 2744,
+						},
+						["Melee"] = {
+							["hitmin"] = 1233,
+							["id"] = 6603,
+							["targets"] = {
+								["Melissaaloe"] = {
+									["amount"] = 2560,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1327,
+							["amount"] = 2560,
+							["hitamount"] = 2560,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 118,
+							["id"] = 12721,
+							["targets"] = {
+								["Melissaaloe"] = {
+									["amount"] = 236,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 118,
+							["amount"] = 236,
+							["hitamount"] = 236,
+						},
+					},
+					["sundertargets"] = {
+						["Melissaaloe"] = 1,
 					},
 					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["id"] = "0x070000000031EFCF",
+					["sunder"] = 1,
+					["totaldamage"] = 7184,
 					["auras"] = {
 						[57358] = {
 							["type"] = "BUFF",
@@ -5988,10 +6616,10 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[57623] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 21,
 							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 21,
+							["type"] = "BUFF",
 						},
 						[25898] = {
 							["type"] = "BUFF",
@@ -6003,29 +6631,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[2565] = {
-							["school"] = 1,
+						[72588] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[12809] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[64568] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 21,
 						},
 						[7922] = {
 							["type"] = "DEBUFF",
@@ -6039,21 +6648,38 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[72588] = {
+						[64568] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
+							["uptime"] = 13,
+						},
+						[12809] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Melissaaloe"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[2565] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
 						},
 					},
-					["spec"] = 73,
+					["time"] = 6.090000000000001,
 					["role"] = "TANK",
 					["name"] = "Jaisenda",
 					["ccdone"] = 2,
-					["time"] = 6.090000000000001,
-					["totaldamage"] = 7184,
-					["sundertargets"] = {
-						["Melissaaloe"] = 1,
-					},
+					["spec"] = 73,
+					["id"] = "0x070000000031EFCF",
+					["class"] = "WARRIOR",
 					["damage"] = 7184,
 				}, -- [3]
 				{
@@ -6113,10 +6739,10 @@ SkadaStorageDB = {
 							["uptime"] = 16,
 						},
 						[57623] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 21,
 							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 21,
+							["type"] = "BUFF",
 						},
 						[51735] = {
 							["type"] = "DEBUFF",
@@ -6187,11 +6813,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[32223] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 4,
-							["uptime"] = 9,
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Melissaaloe"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
 						},
 						[53365] = {
 							["type"] = "BUFF",
@@ -6205,17 +6837,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
+						[32223] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 9,
 						},
 					},
 					["totaldamage"] = 23949,
@@ -6245,32 +6871,32 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Melissaaloe"] = {
-									["total"] = 7213,
 									["amount"] = 4131,
+									["total"] = 7213,
 								},
 							},
-							["hitmax"] = 2198,
 							["count"] = 3,
+							["hitmax"] = 2198,
 							["ABSORB"] = 1,
 							["school"] = 1,
-							["amount"] = 4131,
 							["hit"] = 2,
+							["amount"] = 4131,
 							["hitamount"] = 4131,
 						},
 						["Death and Decay"] = {
+							["school"] = 32,
 							["casts"] = 1,
-							["total"] = 350,
 							["count"] = 1,
 							["amount"] = 0,
 							["id"] = 52212,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Melissaaloe"] = {
-									["total"] = 350,
 									["amount"] = 0,
+									["total"] = 350,
 								},
 							},
-							["school"] = 32,
+							["total"] = 350,
 						},
 						["Death Coil"] = {
 							["criticalamount"] = 5025,
@@ -6284,9 +6910,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 5025,
 							["school"] = 32,
-							["criticalmin"] = 5025,
-							["criticalmax"] = 5025,
 							["count"] = 1,
+							["criticalmax"] = 5025,
+							["criticalmin"] = 5025,
 						},
 						["Unholy Blight (DoT)"] = {
 							["hitmin"] = 50,
@@ -6324,8 +6950,8 @@ SkadaStorageDB = {
 							["id"] = 47468,
 							["targets"] = {
 								["Melissaaloe"] = {
-									["overkill"] = 837,
 									["amount"] = 875,
+									["overkill"] = 837,
 								},
 							},
 							["overkill"] = 837,
@@ -6352,21 +6978,38 @@ SkadaStorageDB = {
 							["amount"] = 1279,
 							["hitamount"] = 1279,
 						},
-						["Wandering Plague"] = {
-							["hitmin"] = 478,
-							["id"] = 50526,
+						["Blood Strike"] = {
+							["total"] = 2109,
+							["criticalamount"] = 110,
+							["id"] = 49930,
 							["targets"] = {
 								["Melissaaloe"] = {
-									["amount"] = 478,
+									["amount"] = 110,
+									["total"] = 2109,
 								},
 							},
 							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 110,
+							["school"] = 1,
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 478,
-							["amount"] = 478,
-							["hitamount"] = 478,
+							["criticalmax"] = 110,
+							["criticalmin"] = 110,
+						},
+						["Plague Strike"] = {
+							["school"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["id"] = 49921,
+							["ABSORB"] = 1,
+							["targets"] = {
+								["Melissaaloe"] = {
+									["amount"] = 0,
+									["total"] = 1232,
+								},
+							},
+							["total"] = 1232,
 						},
 						["Melee (Earthchomp)"] = {
 							["hitmin"] = 586,
@@ -6383,21 +7026,6 @@ SkadaStorageDB = {
 							["amount"] = 586,
 							["hitamount"] = 586,
 						},
-						["Plague Strike"] = {
-							["casts"] = 1,
-							["total"] = 1232,
-							["count"] = 1,
-							["amount"] = 0,
-							["id"] = 49921,
-							["ABSORB"] = 1,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["total"] = 1232,
-									["amount"] = 0,
-								},
-							},
-							["school"] = 1,
-						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 618,
 							["id"] = 55095,
@@ -6413,30 +7041,26 @@ SkadaStorageDB = {
 							["amount"] = 1236,
 							["hitamount"] = 1236,
 						},
-						["Blood Strike"] = {
-							["total"] = 2109,
-							["criticalamount"] = 110,
-							["id"] = 49930,
+						["Wandering Plague"] = {
+							["hitmin"] = 478,
+							["id"] = 50526,
 							["targets"] = {
 								["Melissaaloe"] = {
-									["total"] = 2109,
-									["amount"] = 110,
+									["amount"] = 478,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 110,
-							["school"] = 1,
-							["criticalmin"] = 110,
-							["criticalmax"] = 110,
 							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 478,
+							["amount"] = 478,
+							["hitamount"] = 478,
 						},
 					},
-					["runicspells"] = {
-						[61258] = 15,
-					},
+					["role"] = "DAMAGER",
 					["damagetaken"] = 538,
-					["overheal"] = 2454,
+					["name"] = "Urgash",
 					["id"] = "0x070000000000D01B",
 					["spec"] = 252,
 					["healspells"] = {
@@ -6455,8 +7079,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 538,
 							["school"] = 1,
-							["criticalmin"] = 538,
 							["count"] = 2,
+							["criticalmin"] = 538,
 						},
 					},
 					["overkill"] = 837,
@@ -6466,6 +7090,7 @@ SkadaStorageDB = {
 					["heal"] = 538,
 					["potion"] = 1,
 					["ccdone"] = 1,
+					["runic"] = 15,
 					["damagetakenspells"] = {
 						["Frost Nova"] = {
 							["hitmin"] = 538,
@@ -6495,32 +7120,40 @@ SkadaStorageDB = {
 							["id"] = 55080,
 						},
 					},
-					["runic"] = 15,
-					["name"] = "Urgash",
-					["role"] = "DAMAGER",
+					["overheal"] = 2454,
+					["runicspells"] = {
+						[61258] = 15,
+					},
 				}, -- [4]
 			},
+			["totaldamage"] = 31133,
+			["time"] = 21,
+			["last_time"] = 6669.162,
+			["totaldamagetaken"] = 538,
+			["etotaldamagetaken"] = 31133,
+			["damage"] = 24470,
+			["overheal"] = 2454,
 			["type"] = "group",
 			["damagetaken"] = 538,
 			["runic"] = 15,
-			["etotaldamage"] = 538,
-			["ccdone"] = 3,
-			["potion"] = 1,
+			["starttime"] = 1690272808,
+			["mobname"] = "Melissaaloe",
+			["name"] = "Melissaaloe (6)",
 			["overkill"] = 837,
 			["edamagetaken"] = 24470,
 			["heal"] = 538,
-			["name"] = "Melissaaloe (6)",
-			["mobname"] = "Melissaaloe",
-			["starttime"] = 1690272808,
+			["potion"] = 1,
+			["ccdone"] = 3,
+			["etotaldamage"] = 538,
 			["edamage"] = 538,
 			["last_action"] = 1690272829,
 			["endtime"] = 1690272829,
-		}, -- [7]
+		}, -- [8]
 		{
-			["absorb"] = 1807,
-			["mana"] = 2619,
+			["starttime"] = 1690272740,
 			["sunder"] = 1,
-			["energy"] = 2,
+			["mana"] = 2619,
+			["last_action"] = 1690272771,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -6530,11 +7163,11 @@ SkadaStorageDB = {
 								["Urgash"] = {
 									["amount"] = 752,
 								},
-								["Dominuss"] = {
-									["amount"] = 1220,
-								},
 								["Vitra"] = {
 									["amount"] = 483,
+								},
+								["Dominuss"] = {
+									["amount"] = 1220,
 								},
 							},
 							["amount"] = 2455,
@@ -6543,8 +7176,9 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["total"] = 781,
 							["targets"] = {
-								["Dominuss"] = {
-									["amount"] = 325,
+								["Vitra"] = {
+									["amount"] = 135,
+									["total"] = 270,
 								},
 								["Urgash"] = {
 									["amount"] = 204,
@@ -6552,9 +7186,8 @@ SkadaStorageDB = {
 								["Jaisenda"] = {
 									["amount"] = 289,
 								},
-								["Vitra"] = {
-									["total"] = 270,
-									["amount"] = 135,
+								["Dominuss"] = {
+									["amount"] = 325,
 								},
 							},
 							["amount"] = 953,
@@ -6563,15 +7196,15 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["total"] = 2766,
 							["targets"] = {
-								["Jaisenda"] = {
-									["amount"] = 1381,
-								},
-								["Vitra"] = {
-									["total"] = 1292,
-									["amount"] = 0,
-								},
 								["Dominuss"] = {
 									["amount"] = 1474,
+								},
+								["Vitra"] = {
+									["amount"] = 0,
+									["total"] = 1292,
+								},
+								["Jaisenda"] = {
+									["amount"] = 1381,
 								},
 							},
 							["amount"] = 2855,
@@ -6581,8 +7214,8 @@ SkadaStorageDB = {
 							["total"] = 380,
 							["targets"] = {
 								["Vitra"] = {
-									["total"] = 380,
 									["amount"] = 0,
+									["total"] = 380,
 								},
 							},
 							["amount"] = 0,
@@ -6596,8 +7229,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Urgash"] = {
 									["total"] = 9134,
-									["overkill"] = 814,
 									["amount"] = 7308,
+									["overkill"] = 814,
 								},
 							},
 							["amount"] = 7308,
@@ -6610,8 +7243,8 @@ SkadaStorageDB = {
 							["total"] = 1497,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 1497,
 									["amount"] = 675,
+									["total"] = 1497,
 								},
 							},
 							["amount"] = 675,
@@ -6621,8 +7254,8 @@ SkadaStorageDB = {
 							["total"] = 1532,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 1532,
 									["amount"] = 717,
+									["total"] = 1532,
 								},
 							},
 							["amount"] = 717,
@@ -6632,8 +7265,8 @@ SkadaStorageDB = {
 							["total"] = 3753,
 							["sources"] = {
 								["Vitra"] = {
-									["total"] = 3753,
 									["amount"] = 2159,
+									["total"] = 3753,
 								},
 							},
 							["amount"] = 2159,
@@ -6643,8 +7276,8 @@ SkadaStorageDB = {
 							["total"] = 944,
 							["sources"] = {
 								["Dominuss"] = {
-									["total"] = 944,
 									["amount"] = 756,
+									["total"] = 944,
 								},
 							},
 							["amount"] = 756,
@@ -6654,8 +7287,8 @@ SkadaStorageDB = {
 							["total"] = 1702,
 							["sources"] = {
 								["Dominuss"] = {
-									["total"] = 1702,
 									["amount"] = 1362,
+									["total"] = 1702,
 								},
 							},
 							["amount"] = 1362,
@@ -6665,8 +7298,8 @@ SkadaStorageDB = {
 							["total"] = 2850,
 							["sources"] = {
 								["Vitra"] = {
-									["total"] = 2850,
 									["amount"] = 0,
+									["total"] = 2850,
 								},
 							},
 							["amount"] = 0,
@@ -6676,8 +7309,8 @@ SkadaStorageDB = {
 							["total"] = 558,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 558,
 									["amount"] = 447,
+									["total"] = 558,
 								},
 							},
 							["amount"] = 447,
@@ -6687,8 +7320,8 @@ SkadaStorageDB = {
 							["total"] = 1303,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 1303,
 									["amount"] = 0,
+									["total"] = 1303,
 								},
 							},
 							["amount"] = 0,
@@ -6698,8 +7331,8 @@ SkadaStorageDB = {
 							["total"] = 6686,
 							["sources"] = {
 								["Vitra"] = {
-									["total"] = 6686,
 									["amount"] = 5350,
+									["total"] = 6686,
 								},
 							},
 							["amount"] = 5350,
@@ -6708,21 +7341,21 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["total"] = 5657,
 							["sources"] = {
-								["Jaisenda"] = {
-									["total"] = 656,
-									["amount"] = 525,
+								["Vitra"] = {
+									["amount"] = 951,
+									["total"] = 2307,
 								},
 								["Urgash"] = {
-									["total"] = 1436,
 									["amount"] = 1150,
+									["total"] = 1436,
 								},
 								["Dominuss"] = {
-									["total"] = 1258,
 									["amount"] = 1007,
+									["total"] = 1258,
 								},
-								["Vitra"] = {
-									["total"] = 2307,
-									["amount"] = 951,
+								["Jaisenda"] = {
+									["amount"] = 525,
+									["total"] = 656,
 								},
 							},
 							["amount"] = 3633,
@@ -6732,8 +7365,8 @@ SkadaStorageDB = {
 							["total"] = 530,
 							["sources"] = {
 								["Dominuss"] = {
-									["total"] = 530,
 									["amount"] = 424,
+									["total"] = 530,
 								},
 							},
 							["amount"] = 424,
@@ -6743,8 +7376,8 @@ SkadaStorageDB = {
 							["total"] = 106,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 106,
 									["amount"] = 86,
+									["total"] = 106,
 								},
 							},
 							["amount"] = 86,
@@ -6754,8 +7387,8 @@ SkadaStorageDB = {
 							["total"] = 309,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 309,
 									["amount"] = 248,
+									["total"] = 309,
 								},
 							},
 							["amount"] = 248,
@@ -6765,8 +7398,8 @@ SkadaStorageDB = {
 							["total"] = 1366,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 1366,
 									["amount"] = 539,
+									["total"] = 1366,
 								},
 							},
 							["amount"] = 539,
@@ -6776,55 +7409,55 @@ SkadaStorageDB = {
 							["total"] = 625,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 625,
 									["amount"] = 0,
+									["total"] = 625,
 								},
 							},
 							["amount"] = 0,
-						},
-						[54757] = {
-							["school"] = 4,
-							["total"] = 1792,
-							["sources"] = {
-								["Vitra"] = {
-									["total"] = 1792,
-									["amount"] = 88,
-								},
-							},
-							["amount"] = 88,
-						},
-						[31803] = {
-							["school"] = 2,
-							["total"] = 3826,
-							["sources"] = {
-								["Vitra"] = {
-									["total"] = 3826,
-									["amount"] = 2036,
-								},
-							},
-							["amount"] = 2036,
-						},
-						[64382] = {
-							["school"] = 1,
-							["total"] = 1251,
-							["sources"] = {
-								["Jaisenda"] = {
-									["total"] = 1251,
-									["amount"] = 391,
-								},
-							},
-							["amount"] = 391,
 						},
 						[53595] = {
 							["school"] = 2,
 							["total"] = 4340,
 							["sources"] = {
 								["Vitra"] = {
-									["total"] = 4340,
 									["amount"] = 3472,
+									["total"] = 4340,
 								},
 							},
 							["amount"] = 3472,
+						},
+						[64382] = {
+							["school"] = 1,
+							["total"] = 1251,
+							["sources"] = {
+								["Jaisenda"] = {
+									["amount"] = 391,
+									["total"] = 1251,
+								},
+							},
+							["amount"] = 391,
+						},
+						[31803] = {
+							["school"] = 2,
+							["total"] = 3826,
+							["sources"] = {
+								["Vitra"] = {
+									["amount"] = 2036,
+									["total"] = 3826,
+								},
+							},
+							["amount"] = 2036,
+						},
+						[54757] = {
+							["school"] = 4,
+							["total"] = 1792,
+							["sources"] = {
+								["Vitra"] = {
+									["amount"] = 88,
+									["total"] = 1792,
+								},
+							},
+							["amount"] = 88,
 						},
 					},
 					["totaldamage"] = 8070,
@@ -6837,10 +7470,6 @@ SkadaStorageDB = {
 			["dispel"] = 1,
 			["totaldamage"] = 49761,
 			["time"] = 31,
-			["overheal"] = 7390,
-			["totaldamagetaken"] = 8070,
-			["etotaldamagetaken"] = 49761,
-			["damage"] = 29691,
 			["players"] = {
 				{
 					["last"] = 6602.842000000001,
@@ -6858,10 +7487,10 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[71872] = {
-							["refresh"] = 3,
-							["type"] = "BUFF",
-							["uptime"] = 18,
 							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 18,
+							["type"] = "BUFF",
 						},
 						[57623] = {
 							["school"] = 1,
@@ -6903,34 +7532,33 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[20132] = {
+						[67371] = {
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 24,
+							["type"] = "BUFF",
+						},
+						[31801] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 16,
+							["uptime"] = 31,
+						},
+						[67018] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[54428] = {
+							["count"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 23,
+							["type"] = "BUFF",
 						},
 						[59620] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
-						},
-						[28496] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[58597] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -6954,11 +7582,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[32223] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
 						[68055] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -6971,27 +7594,33 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
-						[54428] = {
-							["refresh"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 23,
-							["count"] = 1,
-						},
-						[67018] = {
+						[32223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[31801] = {
+						[58597] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[28496] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[67371] = {
+						[20132] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 24,
-							["count"] = 1,
+							["uptime"] = 16,
 						},
 					},
 					["absorbspells"] = {
@@ -7029,14 +7658,15 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 6170,
-							["max"] = 832,
+							["min"] = 311,
 							["count"] = 16,
 							["amount"] = 5600,
-							["school"] = 2,
+							["max"] = 832,
+							["ishot"] = true,
 							["targets"] = {
-								["Dominuss"] = {
-									["overheal"] = 2049,
-									["amount"] = 1491,
+								["Vitra"] = {
+									["overheal"] = 413,
+									["amount"] = 3743,
 								},
 								["Urgash"] = {
 									["overheal"] = 2076,
@@ -7046,13 +7676,12 @@ SkadaStorageDB = {
 									["overheal"] = 1632,
 									["amount"] = 0,
 								},
-								["Vitra"] = {
-									["overheal"] = 413,
-									["amount"] = 3743,
+								["Dominuss"] = {
+									["overheal"] = 2049,
+									["amount"] = 1491,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 311,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -7060,18 +7689,18 @@ SkadaStorageDB = {
 							["total"] = 270,
 							["hitmin"] = 135,
 							["id"] = 48819,
-							["ABSORB"] = 1,
+							["hit"] = 1,
 							["sources"] = {
 								["Cupic"] = {
-									["total"] = 270,
 									["amount"] = 135,
+									["total"] = 270,
 								},
 							},
 							["count"] = 2,
-							["hit"] = 1,
+							["ABSORB"] = 1,
 							["school"] = 2,
-							["hitmax"] = 135,
 							["amount"] = 135,
+							["hitmax"] = 135,
 							["hitamount"] = 135,
 						},
 						["Melee"] = {
@@ -7106,45 +7735,65 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 53733,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Cupic"] = {
-									["total"] = 380,
 									["amount"] = 0,
+									["total"] = 380,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 53733,
 						},
 						["Avenger's Shield"] = {
 							["total"] = 1292,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 48827,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Cupic"] = {
-									["total"] = 1292,
 									["amount"] = 0,
+									["total"] = 1292,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 48827,
+						},
+					},
+					["totaldamage"] = 25554,
+					["heal"] = 5600,
+					["name"] = "Vitra",
+					["dispel"] = 1,
+					["mana"] = 2619,
+					["manaspells"] = {
+						[57319] = 141,
+						[54428] = 2478,
+					},
+					["dispelspells"] = {
+						[4987] = {
+							["spells"] = {
+								[68055] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Vitra"] = 1,
+							},
 						},
 					},
 					["damagespells"] = {
 						["Judgement of Vengeance"] = {
+							["school"] = 2,
 							["casts"] = 1,
-							["total"] = 2850,
 							["count"] = 1,
 							["amount"] = 0,
 							["id"] = 31804,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2850,
 									["amount"] = 0,
+									["total"] = 2850,
 								},
 							},
-							["school"] = 2,
+							["total"] = 2850,
 						},
 						["Holy Vengeance (DoT)"] = {
 							["total"] = 3826,
@@ -7152,16 +7801,16 @@ SkadaStorageDB = {
 							["id"] = 31803,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 3826,
 									["amount"] = 2036,
+									["total"] = 3826,
 								},
 							},
-							["hitmax"] = 1040,
 							["count"] = 3,
+							["hitmax"] = 1040,
 							["ABSORB"] = 1,
 							["school"] = 2,
-							["amount"] = 2036,
 							["hit"] = 2,
+							["amount"] = 2036,
 							["hitamount"] = 2036,
 						},
 						["Pyro Rocket"] = {
@@ -7170,8 +7819,8 @@ SkadaStorageDB = {
 							["id"] = 54757,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1792,
 									["amount"] = 88,
+									["total"] = 1792,
 								},
 							},
 							["casts"] = 1,
@@ -7192,9 +7841,9 @@ SkadaStorageDB = {
 									["amount"] = 1,
 								},
 							},
-							["amount"] = 1,
-							["count"] = 9,
 							["hit"] = 1,
+							["count"] = 9,
+							["amount"] = 1,
 							["school"] = 1,
 							["hitmax"] = 1,
 							["MISS"] = 1,
@@ -7207,8 +7856,8 @@ SkadaStorageDB = {
 							["id"] = 53595,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 4340,
 									["amount"] = 3472,
+									["total"] = 4340,
 								},
 							},
 							["casts"] = 2,
@@ -7224,13 +7873,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 31803,
 							["MISS"] = 1,
 							["targets"] = {
 								["Cupic"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 31803,
 						},
 						["Hammer of Wrath"] = {
 							["casts"] = 1,
@@ -7248,23 +7897,23 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["total"] = 2306,
 							["hitmin"] = 455,
-							["ABSORB"] = 2,
+							["blocked"] = 532,
 							["id"] = 6603,
 							["IMMUNE"] = 6,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2306,
 									["amount"] = 950,
+									["total"] = 2306,
 								},
 							},
-							["count"] = 12,
-							["blocked"] = 532,
-							["PARRY"] = 1,
-							["BLOCK"] = 1,
-							["amount"] = 950,
-							["school"] = 1,
-							["hit"] = 2,
 							["hitmax"] = 495,
+							["hit"] = 2,
+							["PARRY"] = 1,
+							["count"] = 12,
+							["ABSORB"] = 2,
+							["school"] = 1,
+							["amount"] = 950,
+							["BLOCK"] = 1,
 							["hitamount"] = 950,
 						},
 						["Shield of Righteousness"] = {
@@ -7273,8 +7922,8 @@ SkadaStorageDB = {
 							["id"] = 61411,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 6686,
 									["amount"] = 5350,
+									["total"] = 6686,
 								},
 							},
 							["casts"] = 2,
@@ -7291,40 +7940,20 @@ SkadaStorageDB = {
 							["id"] = 42463,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 3753,
 									["amount"] = 2159,
+									["total"] = 3753,
 								},
 							},
-							["ABSORB"] = 2,
+							["hit"] = 5,
 							["casts"] = 1,
 							["count"] = 7,
-							["hit"] = 5,
+							["ABSORB"] = 2,
 							["school"] = 2,
-							["hitmax"] = 467,
 							["amount"] = 2159,
+							["hitmax"] = 467,
 							["hitamount"] = 2159,
 						},
 					},
-					["heal"] = 5600,
-					["name"] = "Vitra",
-					["dispel"] = 1,
-					["manaspells"] = {
-						[57319] = 141,
-						[54428] = 2478,
-					},
-					["mana"] = 2619,
-					["dispelspells"] = {
-						[4987] = {
-							["spells"] = {
-								[68055] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Vitra"] = 1,
-							},
-						},
-					},
-					["totaldamage"] = 25554,
 				}, -- [1]
 				{
 					["ccdonespells"] = {
@@ -7365,10 +7994,20 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[57623] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 31,
 							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 31,
+							["type"] = "BUFF",
+						},
+						[72588] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
 						},
 						[58427] = {
 							["type"] = "BUFF",
@@ -7377,33 +8016,25 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 20,
 						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[3409] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Cupic"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
 						[59620] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[72590] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
+						[57970] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Cupic"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 2,
+								},
+							},
+							["uptime"] = 2,
 						},
 						[71403] = {
 							["school"] = 1,
@@ -7428,24 +8059,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[57970] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Cupic"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[72588] = {
+						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
+						},
+						[3409] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Cupic"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 					},
 					["energyspells"] = {
@@ -7456,28 +8085,6 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 3019,
 					["damage"] = 3549,
 					["damagespells"] = {
-						["Melee"] = {
-							["total"] = 1258,
-							["hitmin"] = 241,
-							["count"] = 22,
-							["id"] = 6603,
-							["IMMUNE"] = 14,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 1258,
-									["amount"] = 1007,
-								},
-							},
-							["hitmax"] = 438,
-							["amount"] = 1007,
-							["PARRY"] = 2,
-							["BLOCK"] = 2,
-							["hit"] = 3,
-							["school"] = 1,
-							["blocked"] = 526,
-							["MISS"] = 1,
-							["hitamount"] = 1007,
-						},
 						["Kidney Shot"] = {
 							["casts"] = 1,
 							["count"] = 1,
@@ -7498,8 +8105,8 @@ SkadaStorageDB = {
 							["IMMUNE"] = 1,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 530,
 									["amount"] = 424,
+									["total"] = 530,
 								},
 							},
 							["casts"] = 1,
@@ -7510,6 +8117,28 @@ SkadaStorageDB = {
 							["amount"] = 424,
 							["hitamount"] = 424,
 						},
+						["Melee"] = {
+							["total"] = 1258,
+							["hitmin"] = 241,
+							["hitmax"] = 438,
+							["id"] = 6603,
+							["IMMUNE"] = 14,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 1007,
+									["total"] = 1258,
+								},
+							},
+							["BLOCK"] = 2,
+							["blocked"] = 526,
+							["PARRY"] = 2,
+							["count"] = 22,
+							["amount"] = 1007,
+							["school"] = 1,
+							["hit"] = 3,
+							["MISS"] = 1,
+							["hitamount"] = 1007,
+						},
 						["Mutilate"] = {
 							["total"] = 2646,
 							["hitmin"] = 274,
@@ -7518,18 +8147,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 1056,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2646,
 									["amount"] = 2118,
+									["total"] = 2646,
 								},
 							},
+							["casts"] = 3,
+							["hitmax"] = 482,
+							["criticalmax"] = 1056,
 							["critical"] = 1,
 							["amount"] = 2118,
-							["criticalmax"] = 1056,
-							["count"] = 4,
-							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 482,
-							["casts"] = 3,
+							["hit"] = 3,
+							["count"] = 4,
 							["hitamount"] = 1062,
 						},
 					},
@@ -7642,17 +8271,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 26,
 						},
-						[57623] = {
-							["school"] = 1,
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 31,
 						},
 						[2457] = {
 							["school"] = 1,
@@ -7660,10 +8282,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 4,
 						},
-						[25898] = {
+						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 31,
+							["uptime"] = 10,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 					},
 					["totaldamage"] = 1907,
@@ -7713,8 +8342,7 @@ SkadaStorageDB = {
 					["sundertargets"] = {
 						["Cupic"] = 1,
 					},
-					["name"] = "Jaisenda",
-					["sunder"] = 1,
+					["role"] = "TANK",
 					["damagespells"] = {
 						["Shattering Throw"] = {
 							["total"] = 1251,
@@ -7722,8 +8350,8 @@ SkadaStorageDB = {
 							["id"] = 64382,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1251,
 									["amount"] = 391,
+									["total"] = 1251,
 								},
 							},
 							["casts"] = 1,
@@ -7755,8 +8383,8 @@ SkadaStorageDB = {
 							["IMMUNE"] = 5,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 656,
 									["amount"] = 525,
+									["total"] = 656,
 								},
 							},
 							["count"] = 7,
@@ -7780,7 +8408,8 @@ SkadaStorageDB = {
 							["id"] = 47498,
 						},
 					},
-					["role"] = "TANK",
+					["sunder"] = 1,
+					["name"] = "Jaisenda",
 				}, -- [3]
 				{
 					["ccdonespells"] = {
@@ -7838,16 +8467,16 @@ SkadaStorageDB = {
 							["uptime"] = 9,
 						},
 						[71905] = {
-							["refresh"] = 5,
-							["type"] = "BUFF",
-							["uptime"] = 22,
 							["count"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 22,
+							["type"] = "BUFF",
 						},
 						[57623] = {
-							["refresh"] = 3,
-							["type"] = "BUFF",
-							["uptime"] = 31,
 							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 31,
+							["type"] = "BUFF",
 						},
 						[51735] = {
 							["type"] = "DEBUFF",
@@ -7902,34 +8531,10 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[72590] = {
+							["count"] = 1,
 							["refresh"] = 1,
-							["type"] = "BUFF",
 							["uptime"] = 31,
-							["count"] = 1,
-						},
-						[19746] = {
-							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 1,
-						},
-						[32223] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 31,
-						},
-						[53365] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[49222] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 31,
-							["count"] = 1,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -7943,6 +8548,30 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 10,
 						},
+						[49222] = {
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 31,
+							["type"] = "BUFF",
+						},
+						[53365] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[32223] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 31,
+						},
+						[19746] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 1,
+						},
 					},
 					["totaldamage"] = 17866,
 					["time"] = 10.55,
@@ -7954,8 +8583,8 @@ SkadaStorageDB = {
 							["id"] = 55271,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1303,
 									["amount"] = 0,
+									["total"] = 1303,
 								},
 							},
 							["casts"] = 2,
@@ -7972,18 +8601,18 @@ SkadaStorageDB = {
 							["IMMUNE"] = 2,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1228,
 									["amount"] = 983,
+									["total"] = 1228,
 								},
 							},
-							["hitmax"] = 983,
 							["BLOCK"] = 2,
+							["amount"] = 983,
 							["PARRY"] = 1,
-							["count"] = 6,
+							["hitmax"] = 983,
 							["blocked"] = 1953,
 							["school"] = 1,
 							["hit"] = 1,
-							["amount"] = 983,
+							["count"] = 6,
 							["hitamount"] = 983,
 						},
 						["Blood Strike"] = {
@@ -7992,17 +8621,17 @@ SkadaStorageDB = {
 							["id"] = 49930,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1497,
 									["amount"] = 675,
+									["total"] = 1497,
 								},
 							},
-							["hitmax"] = 675,
-							["casts"] = 2,
 							["count"] = 2,
+							["casts"] = 2,
+							["hitmax"] = 675,
 							["ABSORB"] = 1,
 							["school"] = 1,
-							["amount"] = 675,
 							["hit"] = 1,
+							["amount"] = 675,
 							["hitamount"] = 675,
 						},
 						["Unholy Blight (DoT)"] = {
@@ -8011,8 +8640,8 @@ SkadaStorageDB = {
 							["id"] = 50536,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 106,
 									["amount"] = 86,
+									["total"] = 106,
 								},
 							},
 							["count"] = 2,
@@ -8028,8 +8657,8 @@ SkadaStorageDB = {
 							["id"] = 70890,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 558,
 									["amount"] = 447,
+									["total"] = 558,
 								},
 							},
 							["casts"] = 1,
@@ -8047,8 +8676,8 @@ SkadaStorageDB = {
 							["IMMUNE"] = 4,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 309,
 									["amount"] = 248,
+									["total"] = 309,
 								},
 							},
 							["casts"] = 1,
@@ -8065,8 +8694,8 @@ SkadaStorageDB = {
 							["id"] = 55078,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1532,
 									["amount"] = 717,
+									["total"] = 1532,
 								},
 							},
 							["count"] = 2,
@@ -8076,20 +8705,62 @@ SkadaStorageDB = {
 							["amount"] = 717,
 							["hitamount"] = 717,
 						},
+						["Death Coil"] = {
+							["criticalamount"] = 5330,
+							["total"] = 9134,
+							["hitmin"] = 1978,
+							["criticalmin"] = 5330,
+							["id"] = 47632,
+							["casts"] = 2,
+							["targets"] = {
+								["Cupic"] = {
+									["total"] = 9134,
+									["amount"] = 7308,
+									["overkill"] = 814,
+								},
+							},
+							["overkill"] = 814,
+							["hitmax"] = 1978,
+							["criticalmax"] = 5330,
+							["critical"] = 1,
+							["amount"] = 7308,
+							["school"] = 32,
+							["hit"] = 1,
+							["count"] = 2,
+							["hitamount"] = 1978,
+						},
 						["Plague Strike"] = {
+							["school"] = 1,
 							["casts"] = 1,
-							["total"] = 625,
 							["count"] = 1,
 							["amount"] = 0,
 							["id"] = 49921,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 625,
 									["amount"] = 0,
+									["total"] = 625,
 								},
 							},
-							["school"] = 1,
+							["total"] = 625,
+						},
+						["Frost Fever (DoT)"] = {
+							["total"] = 1366,
+							["hitmin"] = 539,
+							["id"] = 55095,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 539,
+									["total"] = 1366,
+								},
+							},
+							["count"] = 2,
+							["hitmax"] = 539,
+							["ABSORB"] = 1,
+							["school"] = 16,
+							["hit"] = 1,
+							["amount"] = 539,
+							["hitamount"] = 539,
 						},
 						["Melee (Earthchomp)"] = {
 							["total"] = 208,
@@ -8098,8 +8769,8 @@ SkadaStorageDB = {
 							["IMMUNE"] = 7,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 208,
 									["amount"] = 167,
+									["total"] = 208,
 								},
 							},
 							["PARRY"] = 1,
@@ -8109,48 +8780,6 @@ SkadaStorageDB = {
 							["hitmax"] = 167,
 							["hit"] = 1,
 							["hitamount"] = 167,
-						},
-						["Frost Fever (DoT)"] = {
-							["total"] = 1366,
-							["hitmin"] = 539,
-							["id"] = 55095,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 1366,
-									["amount"] = 539,
-								},
-							},
-							["hitmax"] = 539,
-							["count"] = 2,
-							["ABSORB"] = 1,
-							["school"] = 16,
-							["amount"] = 539,
-							["hit"] = 1,
-							["hitamount"] = 539,
-						},
-						["Death Coil"] = {
-							["criticalmin"] = 5330,
-							["total"] = 9134,
-							["hitmin"] = 1978,
-							["criticalamount"] = 5330,
-							["id"] = 47632,
-							["critical"] = 1,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 9134,
-									["overkill"] = 814,
-									["amount"] = 7308,
-								},
-							},
-							["overkill"] = 814,
-							["amount"] = 7308,
-							["criticalmax"] = 5330,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1978,
-							["casts"] = 2,
-							["hitamount"] = 1978,
 						},
 					},
 					["damagetaken"] = 956,
@@ -8205,14 +8834,18 @@ SkadaStorageDB = {
 					["heal"] = 0,
 					["name"] = "Urgash",
 					["ccdone"] = 2,
-					["overkill"] = 814,
-					["overheal"] = 1220,
 					["role"] = "DAMAGER",
+					["overheal"] = 1220,
+					["overkill"] = 814,
 				}, -- [4]
 			},
-			["type"] = "group",
+			["totaldamagetaken"] = 8070,
+			["etotaldamagetaken"] = 49761,
+			["damage"] = 29691,
+			["overheal"] = 7390,
+			["absorb"] = 1807,
 			["damagetaken"] = 6263,
-			["mobname"] = "Cupic",
+			["ccdone"] = 3,
 			["rage"] = 30,
 			["etotaldamage"] = 8070,
 			["last_time"] = 6610.784000000001,
@@ -8220,22 +8853,22 @@ SkadaStorageDB = {
 			["edamagetaken"] = 29691,
 			["heal"] = 5600,
 			["name"] = "Cupic (4)",
-			["ccdone"] = 3,
-			["starttime"] = 1690272740,
+			["mobname"] = "Cupic",
+			["type"] = "group",
 			["edamage"] = 6263,
-			["last_action"] = 1690272771,
+			["energy"] = 2,
 			["endtime"] = 1690272771,
-		}, -- [8]
+		}, -- [9]
 		{
 			["mana"] = 2479,
 			["enemies"] = {
 				{
-					["damagetaken"] = 12470,
 					["name"] = "Skyasi",
-					["class"] = "ROGUE",
-					["flag"] = 66888,
-					["totaldamagetaken"] = 15704,
+					["damagetaken"] = 12470,
 					["id"] = "0x0700000000929CF4",
+					["flag"] = 66888,
+					["class"] = "ROGUE",
+					["totaldamagetaken"] = 15704,
 					["damagetakenspells"] = {
 						[49921] = {
 							["school"] = 1,
@@ -8245,6 +8878,28 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 2549,
+						},
+						[6603] = {
+							["total"] = 8718,
+							["amount"] = 8396,
+							["school"] = 1,
+							["sources"] = {
+								["Nigtwolf"] = {
+									["amount"] = 1740,
+								},
+								["Urgash"] = {
+									["amount"] = 2933,
+								},
+								["Jaisenda"] = {
+									["amount"] = 2205,
+								},
+								["Ragekiller"] = {
+									["total"] = 1840,
+									["amount"] = 1518,
+									["overkill"] = 28,
+								},
+							},
+							["overkill"] = 28,
 						},
 						[47498] = {
 							["school"] = 1,
@@ -8260,33 +8915,11 @@ SkadaStorageDB = {
 							["total"] = 2912,
 							["sources"] = {
 								["Ragekiller"] = {
-									["total"] = 2912,
 									["amount"] = 0,
+									["total"] = 2912,
 								},
 							},
 							["amount"] = 0,
-						},
-						[6603] = {
-							["total"] = 8718,
-							["amount"] = 8396,
-							["school"] = 1,
-							["sources"] = {
-								["Ragekiller"] = {
-									["total"] = 1840,
-									["overkill"] = 28,
-									["amount"] = 1518,
-								},
-								["Urgash"] = {
-									["amount"] = 2933,
-								},
-								["Jaisenda"] = {
-									["amount"] = 2205,
-								},
-								["Nigtwolf"] = {
-									["amount"] = 1740,
-								},
-							},
-							["overkill"] = 28,
 						},
 					},
 				}, -- [1]
@@ -8331,11 +8964,11 @@ SkadaStorageDB = {
 						[51677] = {
 							["school"] = 1,
 							["targets"] = {
-								["Dominuss"] = {
-									["amount"] = 2415,
-								},
 								["Urgash"] = {
 									["amount"] = 457,
+								},
+								["Dominuss"] = {
+									["amount"] = 2415,
 								},
 							},
 							["amount"] = 2872,
@@ -8350,8 +8983,8 @@ SkadaStorageDB = {
 							["total"] = 60,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 60,
 									["amount"] = 42,
+									["total"] = 60,
 								},
 							},
 							["amount"] = 42,
@@ -8359,19 +8992,19 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Dominuss"] = {
-									["total"] = 671,
-									["amount"] = 470,
+								["Ragekiller"] = {
+									["amount"] = 2236,
 								},
 								["Urgash"] = {
 									["amount"] = 498,
 								},
 								["Nigtwolf"] = {
-									["total"] = 1892,
 									["amount"] = 1610,
+									["total"] = 1892,
 								},
-								["Ragekiller"] = {
-									["amount"] = 2236,
+								["Dominuss"] = {
+									["amount"] = 470,
+									["total"] = 671,
 								},
 							},
 							["total"] = 5297,
@@ -8380,12 +9013,12 @@ SkadaStorageDB = {
 						[57975] = {
 							["school"] = 8,
 							["sources"] = {
-								["Dominuss"] = {
-									["total"] = 949,
-									["amount"] = 665,
-								},
 								["Ragekiller"] = {
 									["amount"] = 1024,
+								},
+								["Dominuss"] = {
+									["amount"] = 665,
+									["total"] = 949,
 								},
 							},
 							["total"] = 1973,
@@ -8404,8 +9037,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ragekiller"] = {
-									["total"] = 7536,
 									["amount"] = 7117,
+									["total"] = 7536,
 								},
 							},
 							["total"] = 7536,
@@ -8415,44 +9048,38 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ragekiller"] = {
-									["total"] = 6854,
 									["amount"] = 6444,
+									["total"] = 6854,
 								},
 							},
 							["total"] = 6854,
 							["amount"] = 6444,
 						},
-						[32175] = {
-							["total"] = 895,
-							["amount"] = 627,
-							["school"] = 1,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Nigtwolf"] = {
-									["total"] = 895,
-									["overkill"] = 590,
-									["amount"] = 627,
+								["Urgash"] = {
+									["amount"] = 777,
 								},
 							},
-							["overkill"] = 590,
+							["amount"] = 777,
 						},
-						[48665] = {
-							["school"] = 1,
-							["total"] = 1767,
+						[57965] = {
+							["school"] = 8,
 							["sources"] = {
-								["Dominuss"] = {
-									["total"] = 1767,
-									["amount"] = 1237,
+								["Ragekiller"] = {
+									["amount"] = 2802,
 								},
 							},
-							["amount"] = 1237,
+							["amount"] = 2802,
 						},
 						[48664] = {
 							["school"] = 1,
 							["total"] = 889,
 							["sources"] = {
 								["Dominuss"] = {
-									["total"] = 889,
 									["amount"] = 623,
+									["total"] = 889,
 								},
 							},
 							["amount"] = 623,
@@ -8466,23 +9093,29 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1114,
 						},
-						[57965] = {
-							["school"] = 8,
+						[48665] = {
+							["school"] = 1,
+							["total"] = 1767,
 							["sources"] = {
-								["Ragekiller"] = {
-									["amount"] = 2802,
+								["Dominuss"] = {
+									["amount"] = 1237,
+									["total"] = 1767,
 								},
 							},
-							["amount"] = 2802,
+							["amount"] = 1237,
 						},
-						[55095] = {
-							["school"] = 16,
+						[32175] = {
+							["total"] = 895,
+							["amount"] = 627,
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 777,
+								["Nigtwolf"] = {
+									["total"] = 895,
+									["amount"] = 627,
+									["overkill"] = 590,
 								},
 							},
-							["amount"] = 777,
+							["overkill"] = 590,
 						},
 					},
 					["totaldamage"] = 12508,
@@ -8495,7 +9128,7 @@ SkadaStorageDB = {
 			["sunder"] = 2,
 			["totaldamage"] = 46422,
 			["time"] = 17,
-			["energy"] = 2,
+			["last_action"] = 1690272704,
 			["cctaken"] = 1,
 			["totaldamagetaken"] = 12508,
 			["etotaldamage"] = 12508,
@@ -8532,20 +9165,20 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["uptime"] = 5,
 						},
-						[29178] = {
+						[30809] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 17,
 						},
 						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
 						},
-						[55775] = {
+						[19746] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 2,
 						},
 						[72590] = {
 							["type"] = "BUFF",
@@ -8569,20 +9202,20 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[53817] = {
+							["count"] = 1,
 							["refresh"] = 1,
-							["type"] = "BUFF",
 							["uptime"] = 12,
-							["count"] = 1,
+							["type"] = "BUFF",
 						},
-						[19746] = {
+						[55775] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 13,
 						},
-						[30809] = {
+						[29178] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 4,
 						},
 					},
 					["totaldamage"] = 5641,
@@ -8600,7 +9233,7 @@ SkadaStorageDB = {
 							["count"] = 8,
 							["amount"] = 713,
 							["max"] = 388,
-							["school"] = 32,
+							["min"] = 325,
 							["targets"] = {
 								["Spirit Wolf"] = {
 									["overheal"] = 2977,
@@ -8611,61 +9244,41 @@ SkadaStorageDB = {
 									["amount"] = 713,
 								},
 							},
-							["min"] = 325,
+							["school"] = 32,
 						},
 						[49273] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 3025,
 							["school"] = 8,
-							["max"] = 3025,
+							["min"] = 3025,
 							["targets"] = {
 								["Nigtwolf"] = {
 									["overheal"] = 0,
 									["amount"] = 3025,
 								},
 							},
-							["min"] = 3025,
+							["max"] = 3025,
 						},
 					},
 					["overkill"] = 590,
-					["mana"] = 2479,
+					["role"] = "DAMAGER",
 					["heal"] = 3738,
 					["manaspells"] = {
 						[30824] = 1600,
 						[63375] = 879,
 					},
 					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 302,
-							["criticalamount"] = 1617,
-							["id"] = 6603,
-							["criticalmin"] = 1617,
-							["criticalmax"] = 1617,
-							["count"] = 6,
-							["amount"] = 3668,
-							["sources"] = {
-								["Doypinga"] = {
-									["amount"] = 3668,
-								},
-							},
-							["hitmax"] = 949,
-							["hit"] = 4,
-							["school"] = 1,
-							["critical"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 2051,
-						},
 						["Wound Poison VII"] = {
 							["hitmin"] = 388,
 							["id"] = 57975,
-							["hitmax"] = 388,
+							["count"] = 1,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 388,
 								},
 							},
-							["count"] = 1,
+							["hitmax"] = 388,
 							["hit"] = 1,
 							["school"] = 8,
 							["resisted"] = 43,
@@ -8677,55 +9290,74 @@ SkadaStorageDB = {
 							["criticalamount"] = 2192,
 							["id"] = 48638,
 							["criticalmin"] = 2192,
+							["critical"] = 1,
+							["hit"] = 1,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 3763,
 								},
 							},
 							["count"] = 2,
-							["criticalmax"] = 2192,
-							["hitmax"] = 1571,
 							["amount"] = 3763,
 							["school"] = 1,
-							["hit"] = 1,
-							["critical"] = 1,
+							["hitmax"] = 1571,
+							["criticalmax"] = 2192,
 							["hitamount"] = 1571,
+						},
+						["Melee"] = {
+							["hitmin"] = 302,
+							["criticalamount"] = 1617,
+							["id"] = 6603,
+							["criticalmin"] = 1617,
+							["sources"] = {
+								["Doypinga"] = {
+									["amount"] = 3668,
+								},
+							},
+							["critical"] = 1,
+							["hit"] = 4,
+							["criticalmax"] = 1617,
+							["count"] = 6,
+							["amount"] = 3668,
+							["school"] = 1,
+							["hitmax"] = 949,
+							["MISS"] = 1,
+							["hitamount"] = 2051,
 						},
 						["Instant Poison IX"] = {
 							["hitmin"] = 508,
 							["criticalamount"] = 1309,
 							["id"] = 57965,
 							["criticalmin"] = 1309,
+							["critical"] = 1,
+							["count"] = 2,
+							["amount"] = 1817,
 							["criticalmax"] = 1309,
 							["hitmax"] = 508,
 							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 126,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 1817,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 1817,
-							["school"] = 8,
-							["resisted"] = 126,
-							["critical"] = 1,
 							["hitamount"] = 508,
 						},
 					},
-					["name"] = "Nigtwolf",
 					["damagespells"] = {
 						["Flametongue Attack"] = {
 							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 4,
+							["id"] = 10444,
 							["MISS"] = 1,
 							["targets"] = {
 								["Skyasi"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 10444,
 						},
 						["Lightning Shield"] = {
 							["hitmin"] = 1114,
@@ -8750,21 +9382,21 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 940,
 									["amount"] = 658,
+									["total"] = 940,
 								},
 								["Skyasi"] = {
 									["amount"] = 727,
 								},
 							},
 							["criticalmin"] = 727,
-							["critical"] = 1,
+							["hitmax"] = 658,
 							["criticalmax"] = 727,
-							["count"] = 2,
+							["critical"] = 1,
 							["amount"] = 1385,
 							["school"] = 1,
 							["hit"] = 1,
-							["hitmax"] = 658,
+							["count"] = 2,
 							["hitamount"] = 658,
 						},
 						["Stormstrike"] = {
@@ -8774,8 +9406,8 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Doypinga"] = {
 									["total"] = 895,
-									["overkill"] = 590,
 									["amount"] = 627,
+									["overkill"] = 590,
 								},
 							},
 							["overkill"] = 590,
@@ -8810,15 +9442,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 8,
+							["id"] = 49231,
 							["MISS"] = 1,
 							["targets"] = {
 								["Skyasi"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 49231,
 						},
 					},
+					["name"] = "Nigtwolf",
 					["cctakenspells"] = {
 						[1833] = {
 							["count"] = 1,
@@ -8827,7 +9460,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["mana"] = 2479,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -8843,18 +9476,18 @@ SkadaStorageDB = {
 								},
 								["Skyasi"] = {
 									["total"] = 1840,
-									["overkill"] = 28,
 									["amount"] = 1518,
+									["overkill"] = 28,
 								},
 							},
 							["overkill"] = 28,
-							["count"] = 3,
+							["hit"] = 2,
 							["criticalmax"] = 2236,
-							["critical"] = 1,
+							["count"] = 3,
 							["amount"] = 3754,
 							["school"] = 1,
 							["hitmax"] = 1355,
-							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 1518,
 						},
 						["Instant Poison IX"] = {
@@ -8873,6 +9506,21 @@ SkadaStorageDB = {
 							["amount"] = 2802,
 							["hitamount"] = 2802,
 						},
+						["Sinister Strike"] = {
+							["school"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["id"] = 48638,
+							["ABSORB"] = 1,
+							["targets"] = {
+								["Skyasi"] = {
+									["amount"] = 0,
+									["total"] = 2912,
+								},
+							},
+							["total"] = 2912,
+						},
 						["Wound Poison VII"] = {
 							["hitmin"] = 489,
 							["criticalamount"] = 535,
@@ -8883,30 +9531,15 @@ SkadaStorageDB = {
 									["amount"] = 1024,
 								},
 							},
+							["casts"] = 1,
+							["hitmax"] = 489,
+							["criticalmax"] = 535,
 							["critical"] = 1,
 							["amount"] = 1024,
-							["criticalmax"] = 535,
-							["count"] = 2,
-							["hit"] = 1,
 							["school"] = 8,
-							["hitmax"] = 489,
-							["casts"] = 1,
+							["hit"] = 1,
+							["count"] = 2,
 							["hitamount"] = 489,
-						},
-						["Sinister Strike"] = {
-							["casts"] = 1,
-							["total"] = 2912,
-							["count"] = 1,
-							["amount"] = 0,
-							["id"] = 48638,
-							["ABSORB"] = 1,
-							["targets"] = {
-								["Skyasi"] = {
-									["total"] = 2912,
-									["amount"] = 0,
-								},
-							},
-							["school"] = 1,
 						},
 						["Killing Spree"] = {
 							["total"] = 14390,
@@ -8916,18 +9549,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 957,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 14390,
 									["amount"] = 13561,
+									["total"] = 14390,
 								},
 							},
+							["critical"] = 6,
+							["hit"] = 4,
 							["casts"] = 1,
 							["count"] = 10,
-							["criticalmax"] = 2061,
-							["hitmax"] = 1546,
 							["amount"] = 13561,
 							["school"] = 1,
-							["hit"] = 4,
-							["critical"] = 6,
+							["hitmax"] = 1546,
+							["criticalmax"] = 2061,
 							["hitamount"] = 5056,
 						},
 					},
@@ -8938,6 +9571,9 @@ SkadaStorageDB = {
 					["spec"] = 260,
 					["totaldamage"] = 25204,
 					["name"] = "Ragekiller",
+					["time"] = 6.579999999999999,
+					["flag"] = 1300,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[60345] = {
 							["type"] = "BUFF",
@@ -9017,6 +9653,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 17,
 						},
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Doypinga"] = {
+									["uptime"] = 1,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 1,
+						},
 						[57975] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -9031,22 +9679,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[58683] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Doypinga"] = {
-									["uptime"] = 1,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 1,
-						},
 					},
-					["role"] = "DAMAGER",
-					["flag"] = 1300,
-					["time"] = 6.579999999999999,
 					["damage"] = 21141,
 				}, -- [2]
 				{
@@ -9100,29 +9733,20 @@ SkadaStorageDB = {
 							["uptime"] = 17,
 						},
 						[58427] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 17,
 							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 17,
+							["type"] = "BUFF",
 						},
 						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
 						},
-						[3409] = {
-							["type"] = "DEBUFF",
+						[25898] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Doypinga"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 17,
 						},
 						[1784] = {
 							["school"] = 1,
@@ -9147,10 +9771,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 2,
 						},
-						[25898] = {
-							["type"] = "BUFF",
+						[3409] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Doypinga"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 					},
 					["energyspells"] = {
@@ -9161,6 +9794,28 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 2415,
 					["damage"] = 2995,
 					["damagespells"] = {
+						["Wound Poison VII"] = {
+							["total"] = 949,
+							["hitmin"] = 332,
+							["id"] = 57975,
+							["targets"] = {
+								["Doypinga"] = {
+									["amount"] = 665,
+									["total"] = 949,
+								},
+								["Skyasi"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["casts"] = 1,
+							["hitmax"] = 333,
+							["amount"] = 665,
+							["school"] = 8,
+							["hit"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 665,
+						},
 						["Melee"] = {
 							["DODGE"] = 3,
 							["total"] = 671,
@@ -9168,42 +9823,20 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 671,
 									["amount"] = 470,
+									["total"] = 671,
 								},
 								["Skyasi"] = {
 									["amount"] = 0,
 								},
 							},
-							["hitmax"] = 470,
 							["count"] = 5,
+							["hitmax"] = 470,
 							["amount"] = 470,
 							["school"] = 1,
 							["hit"] = 1,
 							["MISS"] = 1,
 							["hitamount"] = 470,
-						},
-						["Wound Poison VII"] = {
-							["total"] = 949,
-							["hitmin"] = 332,
-							["id"] = 57975,
-							["targets"] = {
-								["Doypinga"] = {
-									["total"] = 949,
-									["amount"] = 665,
-								},
-								["Skyasi"] = {
-									["amount"] = 0,
-								},
-							},
-							["hitmax"] = 333,
-							["casts"] = 1,
-							["count"] = 3,
-							["amount"] = 665,
-							["school"] = 8,
-							["hit"] = 2,
-							["MISS"] = 1,
-							["hitamount"] = 665,
 						},
 						["Mutilate"] = {
 							["DODGE"] = 2,
@@ -9214,18 +9847,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 1237,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 2656,
 									["amount"] = 1860,
+									["total"] = 2656,
 								},
 							},
+							["casts"] = 3,
+							["hitmax"] = 623,
+							["criticalmax"] = 1237,
 							["count"] = 4,
 							["amount"] = 1860,
-							["criticalmax"] = 1237,
-							["critical"] = 1,
-							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 623,
-							["casts"] = 3,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 623,
 						},
 					},
@@ -9240,13 +9873,13 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 2415,
 							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 2415,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 2415,
 								},
 							},
-							["criticalmin"] = 2415,
-							["count"] = 1,
 						},
 					},
 					["name"] = "Dominuss",
@@ -9264,7 +9897,6 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 6528.74,
-					["sunder"] = 2,
 					["damagespells"] = {
 						["Melee"] = {
 							["criticalamount"] = 2205,
@@ -9281,9 +9913,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 2205,
 							["school"] = 1,
-							["PARRY"] = 1,
-							["criticalmin"] = 2205,
 							["count"] = 2,
+							["criticalmin"] = 2205,
+							["PARRY"] = 1,
 						},
 						["Devastate"] = {
 							["DODGE"] = 1,
@@ -9306,9 +9938,13 @@ SkadaStorageDB = {
 							["hitamount"] = 1525,
 						},
 					},
+					["sundertargets"] = {
+						["Doypinga"] = 1,
+						["Skyasi"] = 1,
+					},
 					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["id"] = "0x070000000031EFCF",
+					["sunder"] = 2,
+					["totaldamage"] = 3730,
 					["auras"] = {
 						[60118] = {
 							["type"] = "BUFF",
@@ -9360,6 +9996,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 17,
 						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[57358] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
 						[12721] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -9372,27 +10018,14 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[57358] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
 					},
-					["spec"] = 73,
+					["time"] = 1.68,
 					["role"] = "TANK",
 					["name"] = "Jaisenda",
 					["ccdone"] = 1,
-					["time"] = 1.68,
-					["totaldamage"] = 3730,
-					["sundertargets"] = {
-						["Doypinga"] = 1,
-						["Skyasi"] = 1,
-					},
+					["spec"] = 73,
+					["id"] = "0x070000000031EFCF",
+					["class"] = "WARRIOR",
 					["damage"] = 3730,
 				}, -- [4]
 				{
@@ -9462,10 +10095,10 @@ SkadaStorageDB = {
 							["uptime"] = 16,
 						},
 						[57623] = {
-							["refresh"] = 3,
-							["type"] = "BUFF",
-							["uptime"] = 17,
 							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 17,
+							["type"] = "BUFF",
 						},
 						[51735] = {
 							["type"] = "DEBUFF",
@@ -9510,28 +10143,15 @@ SkadaStorageDB = {
 							["uptime"] = 17,
 						},
 						[72590] = {
+							["count"] = 1,
 							["refresh"] = 1,
-							["type"] = "BUFF",
 							["uptime"] = 17,
-							["count"] = 1,
-						},
-						[47481] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Doypinga"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[49222] = {
-							["refresh"] = 1,
 							["type"] = "BUFF",
-							["uptime"] = 17,
+						},
+						[48265] = {
+							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 17,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -9545,10 +10165,23 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[48265] = {
-							["type"] = "BUFF",
+						[49222] = {
 							["count"] = 1,
+							["refresh"] = 1,
 							["uptime"] = 17,
+							["type"] = "BUFF",
+						},
+						[47481] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Doypinga"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 					},
 					["totaldamage"] = 7571,
@@ -9588,8 +10221,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 2933,
 							["school"] = 1,
-							["criticalmin"] = 2933,
 							["count"] = 2,
+							["criticalmin"] = 2933,
 						},
 						["Gnaw (Earthchomp)"] = {
 							["total"] = 60,
@@ -9597,8 +10230,8 @@ SkadaStorageDB = {
 							["id"] = 47481,
 							["targets"] = {
 								["Doypinga"] = {
-									["total"] = 60,
 									["amount"] = 42,
+									["total"] = 60,
 								},
 							},
 							["casts"] = 1,
@@ -9655,9 +10288,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 2549,
 							["school"] = 1,
-							["criticalmin"] = 2549,
-							["criticalmax"] = 2549,
 							["count"] = 2,
+							["criticalmax"] = 2549,
+							["criticalmin"] = 2549,
 						},
 					},
 					["damagetaken"] = 457,
@@ -9688,41 +10321,41 @@ SkadaStorageDB = {
 			["type"] = "group",
 			["damagetaken"] = 12508,
 			["etotaldamagetaken"] = 46422,
-			["last_time"] = 6543.779000000001,
-			["ccdone"] = 4,
+			["starttime"] = 1690272687,
+			["mobname"] = "Skyasi",
 			["overheal"] = 4526,
 			["overkill"] = 618,
 			["edamagetaken"] = 40510,
 			["heal"] = 3738,
 			["name"] = "Skyasi (2)",
-			["mobname"] = "Skyasi",
-			["starttime"] = 1690272687,
+			["ccdone"] = 4,
+			["last_time"] = 6543.779000000001,
 			["edamage"] = 12508,
-			["last_action"] = 1690272704,
+			["energy"] = 2,
 			["endtime"] = 1690272704,
-		}, -- [9]
+		}, -- [10]
 		{
-			["etotaldamage"] = 36338,
-			["sunder"] = 5,
-			["starttime"] = 1690272210,
-			["last_action"] = 1690272299,
+			["etotaldamagetaken"] = 130656,
+			["mobname"] = "Cupic",
 			["mana"] = 3625,
-			["ccdone"] = 13,
+			["energy"] = 2,
+			["sunder"] = 5,
+			["death"] = 3,
 			["enemies"] = {
 				{
-					["damagetaken"] = 47491,
 					["name"] = "Cupic",
-					["class"] = "PALADIN",
-					["flag"] = 66888,
-					["totaldamagetaken"] = 58762,
+					["damagetaken"] = 47491,
 					["id"] = "0x07000000006262C8",
+					["flag"] = 66888,
+					["class"] = "PALADIN",
+					["totaldamagetaken"] = 58762,
 					["damagetakenspells"] = {
 						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 14054,
 									["amount"] = 13275,
+									["total"] = 14054,
 								},
 							},
 							["total"] = 14054,
@@ -9732,8 +10365,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 1667,
 									["amount"] = 1493,
+									["total"] = 1667,
 								},
 							},
 							["total"] = 1667,
@@ -9743,8 +10376,8 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 5323,
 									["amount"] = 4582,
+									["total"] = 5323,
 								},
 							},
 							["total"] = 5323,
@@ -9755,8 +10388,8 @@ SkadaStorageDB = {
 							["total"] = 4758,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 4758,
 									["amount"] = 2608,
+									["total"] = 4758,
 								},
 							},
 							["amount"] = 2608,
@@ -9766,8 +10399,8 @@ SkadaStorageDB = {
 							["total"] = 845,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 845,
 									["amount"] = 474,
+									["total"] = 845,
 								},
 							},
 							["amount"] = 474,
@@ -9777,8 +10410,8 @@ SkadaStorageDB = {
 							["total"] = 2271,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2271,
 									["amount"] = 1915,
+									["total"] = 2271,
 								},
 							},
 							["amount"] = 1915,
@@ -9788,8 +10421,8 @@ SkadaStorageDB = {
 							["total"] = 2464,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2464,
 									["amount"] = 1972,
+									["total"] = 2464,
 								},
 							},
 							["amount"] = 1972,
@@ -9801,8 +10434,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Jaisenda"] = {
 									["total"] = 1023,
-									["overkill"] = 2087,
 									["amount"] = 0,
+									["overkill"] = 2087,
 								},
 							},
 							["overkill"] = 2087,
@@ -9812,8 +10445,8 @@ SkadaStorageDB = {
 							["total"] = 1771,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 1771,
 									["amount"] = 1417,
+									["total"] = 1771,
 								},
 							},
 							["amount"] = 1417,
@@ -9823,14 +10456,14 @@ SkadaStorageDB = {
 							["amount"] = 6766,
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["total"] = 6036,
-									["amount"] = 4467,
-								},
 								["Jaisenda"] = {
 									["total"] = 3963,
-									["overkill"] = 2087,
 									["amount"] = 2299,
+									["overkill"] = 2087,
+								},
+								["Urgash"] = {
+									["amount"] = 4467,
+									["total"] = 6036,
 								},
 							},
 							["overkill"] = 2087,
@@ -9839,8 +10472,8 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 1120,
 									["amount"] = 960,
+									["total"] = 1120,
 								},
 							},
 							["total"] = 1120,
@@ -9850,8 +10483,8 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 6587,
 									["amount"] = 5912,
+									["total"] = 6587,
 								},
 							},
 							["total"] = 6587,
@@ -9862,8 +10495,8 @@ SkadaStorageDB = {
 							["total"] = 774,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 774,
 									["amount"] = 313,
+									["total"] = 774,
 								},
 							},
 							["amount"] = 313,
@@ -9877,26 +10510,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1539,
 						},
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Jaisenda"] = {
-									["amount"] = 295,
-								},
-							},
-							["amount"] = 295,
-						},
-						[47498] = {
-							["school"] = 1,
-							["total"] = 1978,
-							["sources"] = {
-								["Jaisenda"] = {
-									["total"] = 1978,
-									["amount"] = 1676,
-								},
-							},
-							["amount"] = 1676,
-						},
 						[71904] = {
 							["school"] = 32,
 							["sources"] = {
@@ -9905,6 +10518,26 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 2294,
+						},
+						[47498] = {
+							["school"] = 1,
+							["total"] = 1978,
+							["sources"] = {
+								["Jaisenda"] = {
+									["amount"] = 1676,
+									["total"] = 1978,
+								},
+							},
+							["amount"] = 1676,
+						},
+						[20253] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jaisenda"] = {
+									["amount"] = 295,
+								},
+							},
+							["amount"] = 295,
 						},
 					},
 				}, -- [1]
@@ -9995,12 +10628,12 @@ SkadaStorageDB = {
 					["damage"] = 3842,
 				}, -- [2]
 				{
-					["damagetaken"] = 10705,
 					["name"] = "Skyasi",
-					["class"] = "ROGUE",
-					["flag"] = 1320,
-					["totaldamagetaken"] = 10705,
+					["damagetaken"] = 10705,
 					["id"] = "0x0700000000929CF4",
+					["flag"] = 1320,
+					["class"] = "ROGUE",
+					["totaldamagetaken"] = 10705,
 					["damagetakenspells"] = {
 						[57841] = {
 							["school"] = 1,
@@ -10087,15 +10720,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2089,
 						},
-						[48676] = {
-							["school"] = 1,
-							["targets"] = {
-								["Dominuss"] = {
-									["amount"] = 366,
-								},
-							},
-							["amount"] = 366,
-						},
 						[57975] = {
 							["school"] = 8,
 							["targets"] = {
@@ -10104,6 +10728,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 543,
+						},
+						[48676] = {
+							["school"] = 1,
+							["targets"] = {
+								["Dominuss"] = {
+									["amount"] = 366,
+								},
+							},
+							["amount"] = 366,
 						},
 					},
 					["damagetaken"] = 2777,
@@ -10158,11 +10791,11 @@ SkadaStorageDB = {
 						[42917] = {
 							["school"] = 16,
 							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1062,
-								},
 								["Jaisenda"] = {
 									["amount"] = 1614,
+								},
+								["Urgash"] = {
+									["amount"] = 1062,
 								},
 							},
 							["amount"] = 2676,
@@ -10176,8 +10809,8 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2085,
 									["amount"] = 1559,
+									["total"] = 2085,
 								},
 							},
 							["total"] = 2085,
@@ -10187,8 +10820,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 786,
 									["amount"] = 524,
+									["total"] = 786,
 								},
 							},
 							["total"] = 786,
@@ -10198,13 +10831,13 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["total"] = 12408,
 							["sources"] = {
-								["Urgash"] = {
-									["total"] = 7677,
-									["amount"] = 3534,
-								},
 								["Jaisenda"] = {
-									["total"] = 4731,
 									["amount"] = 3291,
+									["total"] = 4731,
+								},
+								["Urgash"] = {
+									["amount"] = 3534,
+									["total"] = 7677,
 								},
 							},
 							["amount"] = 6825,
@@ -10223,8 +10856,8 @@ SkadaStorageDB = {
 							["total"] = 1532,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 1532,
 									["amount"] = 0,
+									["total"] = 1532,
 								},
 							},
 							["amount"] = 0,
@@ -10234,8 +10867,8 @@ SkadaStorageDB = {
 							["total"] = 3854,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 3854,
 									["amount"] = 1644,
+									["total"] = 3854,
 								},
 							},
 							["amount"] = 1644,
@@ -10258,16 +10891,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4167,
 						},
-						[47632] = {
+						[50526] = {
 							["school"] = 32,
-							["total"] = 3260,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 3260,
-									["amount"] = 0,
+									["amount"] = 1028,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 1028,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -10282,21 +10913,23 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2272,
 									["amount"] = 1592,
+									["total"] = 2272,
 								},
 							},
 							["total"] = 2272,
 							["amount"] = 1592,
 						},
-						[50526] = {
+						[47632] = {
 							["school"] = 32,
+							["total"] = 3260,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1028,
+									["amount"] = 0,
+									["total"] = 3260,
 								},
 							},
-							["amount"] = 1028,
+							["amount"] = 0,
 						},
 					},
 					["totaldamage"] = 5752,
@@ -10407,17 +11040,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3747,
 						},
-						[6603] = {
-							["school"] = 1,
+						[31804] = {
+							["school"] = 2,
 							["sources"] = {
-								["Nigtwolf"] = {
-									["amount"] = 897,
-								},
-								["Miakaliff"] = {
-									["amount"] = 310,
+								["Vitra"] = {
+									["amount"] = 2654,
 								},
 							},
-							["amount"] = 1207,
+							["amount"] = 2654,
 						},
 						[49233] = {
 							["school"] = 4,
@@ -10428,6 +11058,27 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1227,
 						},
+						[60103] = {
+							["school"] = 4,
+							["sources"] = {
+								["Nigtwolf"] = {
+									["amount"] = 752,
+								},
+							},
+							["amount"] = 752,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Miakaliff"] = {
+									["amount"] = 310,
+								},
+								["Nigtwolf"] = {
+									["amount"] = 897,
+								},
+							},
+							["amount"] = 1207,
+						},
 						[10444] = {
 							["school"] = 4,
 							["sources"] = {
@@ -10436,15 +11087,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 978,
-						},
-						[32175] = {
-							["school"] = 1,
-							["sources"] = {
-								["Nigtwolf"] = {
-									["amount"] = 626,
-								},
-							},
-							["amount"] = 626,
 						},
 						[32176] = {
 							["school"] = 1,
@@ -10455,23 +11097,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 304,
 						},
-						[60103] = {
-							["school"] = 4,
+						[32175] = {
+							["school"] = 1,
 							["sources"] = {
 								["Nigtwolf"] = {
-									["amount"] = 752,
+									["amount"] = 626,
 								},
 							},
-							["amount"] = 752,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Vitra"] = {
-									["amount"] = 2654,
-								},
-							},
-							["amount"] = 2654,
+							["amount"] = 626,
 						},
 					},
 					["totaldamage"] = 9889,
@@ -10484,22 +11117,20 @@ SkadaStorageDB = {
 			["dispel"] = 3,
 			["totaldamage"] = 130656,
 			["time"] = 90,
-			["name"] = "Cupic (3)",
+			["potion"] = 2,
 			["cctaken"] = 8,
 			["totaldamagetaken"] = 36338,
-			["etotaldamagetaken"] = 130656,
-			["last_time"] = 6139.215,
-			["runic"] = 30,
-			["type"] = "group",
-			["damagetaken"] = 36338,
+			["etotaldamage"] = 36338,
 			["damage"] = 105332,
-			["overheal"] = 27305,
+			["rage"] = 30,
 			["ress"] = 1,
+			["damagetaken"] = 36338,
+			["last_time"] = 6139.215,
 			["players"] = {
 				{
 					["overheal"] = 808,
 					["last"] = 6114.466,
-					["totaldamage"] = 3069,
+					["id"] = "0x0700000000208D33",
 					["flag"] = 1298,
 					["class"] = "PALADIN",
 					["healspells"] = {
@@ -10521,29 +11152,29 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 9640,
 							["max"] = 4823,
-							["min"] = 4817,
+							["school"] = 2,
 							["targets"] = {
 								["Merrcury"] = {
 									["overheal"] = 0,
 									["amount"] = 9640,
 								},
 							},
-							["school"] = 2,
+							["min"] = 4817,
 						},
 						[20267] = {
 							["overheal"] = 0,
-							["max"] = 746,
+							["min"] = 746,
 							["count"] = 1,
 							["amount"] = 746,
-							["school"] = 2,
+							["max"] = 746,
+							["ishot"] = true,
 							["targets"] = {
 								["Merrcury"] = {
 									["overheal"] = 0,
 									["amount"] = 746,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 746,
+							["school"] = 2,
 						},
 					},
 					["auras"] = {
@@ -10623,11 +11254,25 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 90,
 						},
-						[59620] = {
-							["school"] = 2,
+						[57371] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 90,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 90,
+						},
+						[28496] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 90,
+						},
+						[67018] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 90,
 						},
 						[68055] = {
 							["type"] = "DEBUFF",
@@ -10641,32 +11286,16 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[67018] = {
+						[59620] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 90,
-						},
-						[28496] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
-						},
-						[57371] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
+							["uptime"] = 15,
 						},
 					},
-					["id"] = "0x0700000000208D33",
-					["role"] = "TANK",
+					["heal"] = 10386,
+					["totaldamage"] = 3069,
 					["time"] = 10,
-					["spec"] = 66,
-					["name"] = "Vitra",
 					["damagespells"] = {
 						["Melee (Compact Harvest Reaper)"] = {
 							["DODGE"] = 1,
@@ -10684,9 +11313,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3,
 							["school"] = 1,
-							["PARRY"] = 1,
-							["criticalmin"] = 3,
 							["count"] = 3,
+							["criticalmin"] = 3,
+							["PARRY"] = 1,
 						},
 						["Judgement of Vengeance"] = {
 							["criticalamount"] = 2654,
@@ -10700,22 +11329,21 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 2654,
 							["school"] = 2,
-							["criticalmin"] = 2654,
-							["criticalmax"] = 2654,
 							["count"] = 1,
+							["criticalmax"] = 2654,
+							["criticalmin"] = 2654,
 						},
-						["Hammer of the Righteous"] = {
-							["casts"] = 1,
+						["Melee"] = {
+							["DODGE"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
-							["school"] = 2,
-							["DEFLECT"] = 1,
+							["school"] = 1,
 							["targets"] = {
 								["Vindrys"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 53595,
+							["id"] = 6603,
 						},
 						["Holy Vengeance (DoT)"] = {
 							["hitmin"] = 206,
@@ -10732,20 +11360,23 @@ SkadaStorageDB = {
 							["amount"] = 412,
 							["hitamount"] = 412,
 						},
-						["Melee"] = {
-							["DODGE"] = 1,
+						["Hammer of the Righteous"] = {
+							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
-							["school"] = 1,
+							["school"] = 2,
+							["id"] = 53595,
 							["targets"] = {
 								["Vindrys"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 6603,
+							["DEFLECT"] = 1,
 						},
 					},
-					["heal"] = 10386,
+					["name"] = "Vitra",
+					["spec"] = 66,
+					["role"] = "TANK",
 					["damage"] = 3069,
 				}, -- [1]
 				{
@@ -10783,11 +11414,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 90,
 						},
-						[53601] = {
-							["school"] = 2,
+						[72418] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 10,
 						},
 						[71584] = {
 							["school"] = 1,
@@ -10795,16 +11426,15 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 59,
 						},
-						[20166] = {
+						[19746] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 90,
 						},
-						[32223] = {
-							["school"] = 2,
+						[23214] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
+							["uptime"] = 29,
 						},
 						[25899] = {
 							["type"] = "BUFF",
@@ -10817,21 +11447,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[23214] = {
+						[32223] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 29,
+							["uptime"] = 21,
 						},
-						[19746] = {
+						[20166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 90,
 						},
-						[72418] = {
-							["school"] = 64,
+						[53601] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 14,
 						},
 					},
 					["totaldamage"] = 4057,
@@ -10844,35 +11475,27 @@ SkadaStorageDB = {
 					["id"] = "0x07000000008C2718",
 					["spec"] = 65,
 					["healspells"] = {
-						[48785] = {
-							["overheal"] = 10808,
-							["criticalamount"] = 703,
-							["max"] = 4517,
+						[53654] = {
+							["overheal"] = 12527,
+							["count"] = 4,
+							["amount"] = 4749,
+							["school"] = 2,
+							["min"] = 500,
 							["targets"] = {
-								["Dominuss"] = {
-									["overheal"] = 875,
-									["amount"] = 12626,
-								},
 								["Miakaliff"] = {
-									["overheal"] = 9933,
-									["amount"] = 7465,
+									["overheal"] = 12527,
+									["amount"] = 4749,
 								},
 							},
-							["min"] = 703,
-							["criticalmax"] = 703,
-							["critical"] = 1,
-							["amount"] = 20091,
-							["school"] = 2,
-							["criticalmin"] = 703,
-							["casts"] = 8,
-							["count"] = 6,
+							["max"] = 3103,
 						},
 						[20267] = {
 							["overheal"] = 0,
-							["max"] = 746,
+							["min"] = 424,
 							["count"] = 5,
 							["amount"] = 2443,
-							["school"] = 2,
+							["max"] = 746,
+							["ishot"] = true,
 							["targets"] = {
 								["Merrcury"] = {
 									["overheal"] = 0,
@@ -10883,40 +11506,48 @@ SkadaStorageDB = {
 									["amount"] = 1697,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 424,
+							["school"] = 2,
+						},
+						[48785] = {
+							["overheal"] = 10808,
+							["criticalamount"] = 703,
+							["max"] = 4517,
+							["targets"] = {
+								["Miakaliff"] = {
+									["overheal"] = 9933,
+									["amount"] = 7465,
+								},
+								["Dominuss"] = {
+									["overheal"] = 875,
+									["amount"] = 12626,
+								},
+							},
+							["min"] = 703,
+							["criticalmax"] = 703,
+							["critical"] = 1,
+							["amount"] = 20091,
+							["school"] = 2,
+							["count"] = 6,
+							["casts"] = 8,
+							["criticalmin"] = 703,
 						},
 						[48821] = {
 							["overheal"] = 0,
 							["count"] = 2,
 							["amount"] = 11648,
 							["school"] = 2,
-							["max"] = 5911,
+							["min"] = 5737,
 							["targets"] = {
-								["Nigtwolf"] = {
-									["overheal"] = 0,
-									["amount"] = 5911,
-								},
 								["Dominuss"] = {
 									["overheal"] = 0,
 									["amount"] = 5737,
 								},
-							},
-							["min"] = 5737,
-						},
-						[53654] = {
-							["overheal"] = 12527,
-							["count"] = 4,
-							["amount"] = 4749,
-							["school"] = 2,
-							["max"] = 3103,
-							["targets"] = {
-								["Miakaliff"] = {
-									["overheal"] = 12527,
-									["amount"] = 4749,
+								["Nigtwolf"] = {
+									["overheal"] = 0,
+									["amount"] = 5911,
 								},
 							},
-							["min"] = 500,
+							["max"] = 5911,
 						},
 					},
 					["damagetakenspells"] = {
@@ -10972,43 +11603,13 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3494,
 							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 3494,
 							["sources"] = {
 								["Vindrys"] = {
 									["amount"] = 3494,
 								},
 							},
-							["criticalmin"] = 3494,
-							["count"] = 1,
-						},
-						["Ravage"] = {
-							["hitmin"] = 155,
-							["id"] = 53562,
-							["sources"] = {
-								["Ravager"] = {
-									["amount"] = 155,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 155,
-							["amount"] = 155,
-							["hitamount"] = 155,
-						},
-						["Piercing Shots (DoT)"] = {
-							["hitmin"] = 137,
-							["id"] = 63468,
-							["sources"] = {
-								["Vindrys"] = {
-									["amount"] = 1100,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 138,
-							["amount"] = 1100,
-							["hitamount"] = 1100,
 						},
 						["Auto Shot"] = {
 							["hitmin"] = 1110,
@@ -11025,12 +11626,68 @@ SkadaStorageDB = {
 							["amount"] = 1110,
 							["hitamount"] = 1110,
 						},
+						["Piercing Shots (DoT)"] = {
+							["hitmin"] = 137,
+							["id"] = 63468,
+							["sources"] = {
+								["Vindrys"] = {
+									["amount"] = 1100,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 138,
+							["amount"] = 1100,
+							["hitamount"] = 1100,
+						},
+						["Ravage"] = {
+							["hitmin"] = 155,
+							["id"] = 53562,
+							["sources"] = {
+								["Ravager"] = {
+									["amount"] = 155,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 155,
+							["amount"] = 155,
+							["hitamount"] = 155,
+						},
 					},
-					["mana"] = 2746,
+					["role"] = "HEALER",
 					["heal"] = 38931,
 					["name"] = "Miakaliff",
 					["ccdone"] = 1,
 					["damagespells"] = {
+						["Judgement of Light"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["id"] = 20271,
+							["MISS"] = 1,
+							["targets"] = {
+								["Vindrys"] = {
+									["amount"] = 0,
+								},
+							},
+						},
+						["Hammer of Wrath"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["id"] = 48806,
+							["MISS"] = 1,
+							["targets"] = {
+								["Vindrys"] = {
+									["amount"] = 0,
+								},
+							},
+						},
 						["Melee"] = {
 							["hitmin"] = 109,
 							["id"] = 6603,
@@ -11047,32 +11704,6 @@ SkadaStorageDB = {
 							["amount"] = 310,
 							["hitamount"] = 310,
 						},
-						["Judgement of Light"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["MISS"] = 1,
-							["targets"] = {
-								["Vindrys"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 20271,
-						},
-						["Hammer of Wrath"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["MISS"] = 1,
-							["targets"] = {
-								["Vindrys"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 48806,
-						},
 						["Holy Shock"] = {
 							["criticalamount"] = 3747,
 							["id"] = 48823,
@@ -11085,9 +11716,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3747,
 							["school"] = 2,
-							["criticalmin"] = 3747,
-							["criticalmax"] = 3747,
 							["count"] = 1,
+							["criticalmax"] = 3747,
+							["criticalmin"] = 3747,
 						},
 					},
 					["manaspells"] = {
@@ -11102,7 +11733,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "HEALER",
+					["mana"] = 2746,
 				}, -- [2]
 				{
 					["last"] = 6117.971000000001,
@@ -11126,17 +11757,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 90,
 						},
-						[67391] = {
-							["school"] = 8,
+						[30809] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 18,
+							["uptime"] = 90,
 						},
-						[19746] = {
-							["school"] = 2,
+						[17481] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 45,
+							["count"] = 1,
+							["uptime"] = 90,
 						},
 						[32223] = {
 							["school"] = 2,
@@ -11144,12 +11773,24 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 24,
 						},
-						[25899] = {
+						[49233] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Vindrys"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[48933] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 90,
 						},
-						[48933] = {
+						[25899] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 90,
@@ -11166,18 +11807,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 7,
 						},
-						[49233] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Vindrys"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
 						[53817] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -11185,15 +11814,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 6,
 						},
-						[17481] = {
+						[19746] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
+							["count"] = 2,
+							["uptime"] = 45,
 						},
-						[30809] = {
+						[67391] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 90,
+							["uptime"] = 18,
 						},
 					},
 					["totaldamage"] = 4784,
@@ -11215,23 +11846,23 @@ SkadaStorageDB = {
 								{
 									["source"] = "Miakaliff",
 									["amount"] = 5911,
+									["time"] = 6114.942,
 									["spellid"] = 48821,
 									["hp"] = 17611,
-									["time"] = 6114.942,
 								}, -- [1]
 								{
 									["source"] = "Nigtwolf",
 									["amount"] = 5794,
+									["time"] = 6110.438,
 									["spellid"] = 43185,
 									["hp"] = 9987,
-									["time"] = 6110.438,
 								}, -- [2]
 								{
 									["source"] = "Nigtwolf",
 									["school"] = 1,
+									["time"] = 6106.372,
 									["spellid"] = 21169,
 									["hp"] = 0,
-									["time"] = 6106.372,
 								}, -- [3]
 							},
 							["time"] = 6114.942,
@@ -11256,11 +11887,11 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 5794,
 							["school"] = 1,
-							["criticalmin"] = 5794,
 							["count"] = 1,
+							["criticalmin"] = 5794,
 						},
 					},
-					["mana"] = 879,
+					["role"] = "DAMAGER",
 					["potionspells"] = {
 						[33447] = 1,
 					},
@@ -11269,7 +11900,7 @@ SkadaStorageDB = {
 						[63375] = 879,
 					},
 					["death"] = 1,
-					["name"] = "Nigtwolf",
+					["potion"] = 1,
 					["damagespells"] = {
 						["Flametongue Attack"] = {
 							["criticalamount"] = 978,
@@ -11279,14 +11910,14 @@ SkadaStorageDB = {
 									["amount"] = 978,
 								},
 							},
-							["DEFLECT"] = 1,
+							["critical"] = 2,
 							["casts"] = 1,
 							["count"] = 3,
 							["amount"] = 978,
 							["school"] = 4,
-							["criticalmin"] = 489,
 							["criticalmax"] = 489,
-							["critical"] = 2,
+							["criticalmin"] = 489,
+							["DEFLECT"] = 1,
 						},
 						["Melee"] = {
 							["hitmin"] = 341,
@@ -11356,13 +11987,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 8,
-							["DEFLECT"] = 1,
+							["id"] = 49238,
 							["targets"] = {
 								["Vindrys"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 49238,
+							["DEFLECT"] = 1,
 						},
 						["Flame Shock"] = {
 							["hitmin"] = 717,
@@ -11381,8 +12012,8 @@ SkadaStorageDB = {
 							["hitamount"] = 717,
 						},
 					},
-					["potion"] = 1,
-					["role"] = "DAMAGER",
+					["name"] = "Nigtwolf",
+					["mana"] = 879,
 				}, -- [3]
 				{
 					["last"] = 6075.056000000001,
@@ -11415,13 +12046,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 90,
 						},
-						[51690] = {
-							["school"] = 1,
+						[28496] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 90,
 						},
 						[72588] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 90,
+						},
+						[48933] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 90,
+						},
+						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 90,
@@ -11431,16 +12071,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 67,
-						},
-						[72590] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
-						},
-						[48933] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
 						},
 						[25899] = {
 							["type"] = "BUFF",
@@ -11463,10 +12093,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[28496] = {
+						[51690] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 90,
+							["uptime"] = 2,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -11475,40 +12106,28 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 3842,
 					["damage"] = 19217,
 					["damagespells"] = {
-						["Killing Spree"] = {
-							["hitmin"] = 1058,
-							["criticalamount"] = 9850,
-							["id"] = 57841,
-							["criticalmin"] = 1682,
+						["Instant Poison IX"] = {
+							["hitmin"] = 878,
+							["criticalamount"] = 1338,
+							["id"] = 57965,
+							["criticalmin"] = 1338,
 							["targets"] = {
 								["Bloodstains"] = {
-									["amount"] = 6230,
+									["amount"] = 878,
 								},
 								["Skyasi"] = {
-									["amount"] = 7988,
+									["amount"] = 1338,
 								},
 							},
+							["critical"] = 1,
+							["hit"] = 1,
 							["casts"] = 1,
-							["count"] = 7,
-							["criticalmax"] = 3576,
-							["hitmax"] = 1714,
-							["amount"] = 14218,
-							["school"] = 1,
-							["hit"] = 3,
-							["critical"] = 4,
-							["hitamount"] = 4368,
-						},
-						["Melee"] = {
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["targets"] = {
-								["Bloodstains"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6603,
+							["count"] = 2,
+							["amount"] = 2216,
+							["school"] = 8,
+							["hitmax"] = 878,
+							["criticalmax"] = 1338,
+							["hitamount"] = 878,
 						},
 						["Fan of Knives"] = {
 							["hitmin"] = 461,
@@ -11523,38 +12142,50 @@ SkadaStorageDB = {
 									["amount"] = 1379,
 								},
 							},
+							["critical"] = 1,
+							["hit"] = 2,
 							["casts"] = 1,
 							["count"] = 3,
-							["criticalmax"] = 1379,
-							["hitmax"] = 943,
 							["amount"] = 2783,
 							["school"] = 1,
-							["hit"] = 2,
-							["critical"] = 1,
+							["hitmax"] = 943,
+							["criticalmax"] = 1379,
 							["hitamount"] = 1404,
 						},
-						["Instant Poison IX"] = {
-							["hitmin"] = 878,
-							["criticalamount"] = 1338,
-							["id"] = 57965,
-							["criticalmin"] = 1338,
+						["Melee"] = {
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 6603,
+							["MISS"] = 1,
 							["targets"] = {
 								["Bloodstains"] = {
-									["amount"] = 878,
-								},
-								["Skyasi"] = {
-									["amount"] = 1338,
+									["amount"] = 0,
 								},
 							},
+						},
+						["Killing Spree"] = {
+							["hitmin"] = 1058,
+							["criticalamount"] = 9850,
+							["id"] = 57841,
+							["criticalmin"] = 1682,
+							["targets"] = {
+								["Bloodstains"] = {
+									["amount"] = 6230,
+								},
+								["Skyasi"] = {
+									["amount"] = 7988,
+								},
+							},
+							["critical"] = 4,
+							["hit"] = 3,
 							["casts"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 1338,
-							["hitmax"] = 878,
-							["amount"] = 2216,
-							["school"] = 8,
-							["hit"] = 1,
-							["critical"] = 1,
-							["hitamount"] = 878,
+							["count"] = 7,
+							["amount"] = 14218,
+							["school"] = 1,
+							["hitmax"] = 1714,
+							["criticalmax"] = 3576,
+							["hitamount"] = 4368,
 						},
 					},
 					["damagetaken"] = 3842,
@@ -11565,25 +12196,25 @@ SkadaStorageDB = {
 									["source"] = "Bloodstains",
 									["amount"] = -3303,
 									["school"] = 1,
+									["time"] = 6073.523,
 									["spellid"] = 48660,
 									["hp"] = 15897,
-									["time"] = 6073.523,
 								}, -- [1]
 								{
 									["source"] = "Bloodstains",
 									["amount"] = -539,
 									["school"] = 1,
+									["time"] = 6072.662,
 									["spellid"] = 6603,
 									["hp"] = 22757,
-									["time"] = 6072.662,
 								}, -- [2]
 							},
 							["time"] = 6100.789,
-							["timeod"] = 1690272261,
+							["source"] = "Bloodstains",
 							["school"] = 1,
 							["maxhp"] = 31004,
 							["spellid"] = 48660,
-							["source"] = "Bloodstains",
+							["timeod"] = 1690272261,
 						}, -- [1]
 					},
 					["id"] = "0x07000000001358EE",
@@ -11592,13 +12223,13 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 539,
 							["id"] = 6603,
-							["hitmax"] = 539,
+							["count"] = 2,
 							["sources"] = {
 								["Bloodstains"] = {
 									["amount"] = 539,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 539,
 							["hit"] = 1,
 							["school"] = 1,
 							["amount"] = 539,
@@ -11612,13 +12243,13 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3303,
 							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 3303,
 							["sources"] = {
 								["Bloodstains"] = {
 									["amount"] = 3303,
 								},
 							},
-							["criticalmin"] = 3303,
-							["count"] = 1,
 						},
 					},
 					["name"] = "Ragekiller",
@@ -11697,11 +12328,10 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 33,
 						},
-						[31224] = {
-							["school"] = 1,
+						[60424] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 63,
+							["uptime"] = 90,
 						},
 						[19746] = {
 							["school"] = 2,
@@ -11709,10 +12339,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[60424] = {
+						[31224] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 90,
+							["uptime"] = 63,
 						},
 					},
 					["energyspells"] = {
@@ -11763,14 +12394,14 @@ SkadaStorageDB = {
 									["amount"] = 2363,
 								},
 							},
+							["critical"] = 1,
+							["hit"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["criticalmax"] = 1519,
-							["hitmax"] = 844,
 							["amount"] = 2363,
 							["school"] = 1,
-							["hit"] = 1,
-							["critical"] = 1,
+							["hitmax"] = 844,
+							["criticalmax"] = 1519,
 							["hitamount"] = 844,
 						},
 					},
@@ -11781,121 +12412,121 @@ SkadaStorageDB = {
 								{
 									["source"] = "Miakaliff",
 									["amount"] = 5737,
+									["time"] = 6081.5,
 									["spellid"] = 48821,
 									["hp"] = 9663,
-									["time"] = 6081.5,
 								}, -- [1]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -2053,
 									["school"] = 1,
+									["time"] = 6077.532,
 									["spellid"] = 48638,
 									["hp"] = 9967,
-									["time"] = 6077.532,
 								}, -- [2]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -772,
 									["school"] = 1,
+									["time"] = 6077.258,
 									["spellid"] = 57842,
 									["hp"] = 12020,
-									["time"] = 6077.258,
 								}, -- [3]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -1191,
 									["school"] = 1,
+									["time"] = 6077.067,
 									["spellid"] = 57841,
 									["hp"] = 12792,
-									["time"] = 6077.067,
 								}, -- [4]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -366,
 									["school"] = 1,
+									["time"] = 6077.034000000001,
 									["spellid"] = 48676,
 									["hp"] = 13983,
-									["time"] = 6077.034000000001,
 								}, -- [5]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -1098,
 									["school"] = 1,
+									["time"] = 6076.719,
 									["spellid"] = 6603,
 									["hp"] = 15447,
-									["time"] = 6076.719,
 								}, -- [6]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -1180,
 									["school"] = 1,
+									["time"] = 6076.562,
 									["spellid"] = 57841,
 									["hp"] = 15447,
-									["time"] = 6076.562,
 								}, -- [7]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -1286,
 									["school"] = 1,
+									["time"] = 6076.056,
 									["spellid"] = 57841,
 									["hp"] = 16627,
-									["time"] = 6076.056,
 								}, -- [8]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -954,
 									["school"] = 8,
+									["time"] = 6076.056000000001,
 									["spellid"] = 57965,
 									["hp"] = 17913,
-									["time"] = 6076.056000000001,
 								}, -- [9]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -633,
 									["school"] = 1,
+									["time"] = 6075.756,
 									["spellid"] = 57842,
 									["hp"] = 18867,
-									["time"] = 6075.756,
 								}, -- [10]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -2405,
 									["school"] = 1,
+									["time"] = 6075.575000000001,
 									["spellid"] = 57841,
 									["hp"] = 19500,
-									["time"] = 6075.575000000001,
 								}, -- [11]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -684,
 									["school"] = 1,
+									["time"] = 6075.218,
 									["spellid"] = 57842,
 									["hp"] = 21905,
-									["time"] = 6075.218,
 								}, -- [12]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -543,
 									["school"] = 8,
+									["time"] = 6075.218,
 									["spellid"] = 57975,
 									["hp"] = 22589,
-									["time"] = 6075.218,
 								}, -- [13]
 								{
 									["source"] = "Doypinga",
 									["amount"] = -1222,
 									["school"] = 1,
+									["time"] = 6075.069,
 									["spellid"] = 57841,
 									["hp"] = 23132,
-									["time"] = 6075.069,
 								}, -- [14]
 							},
 							["time"] = 6095.409000000001,
-							["timeod"] = 1690272255,
+							["source"] = "Doypinga",
 							["school"] = 1,
 							["maxhp"] = 27294,
 							["spellid"] = 48638,
-							["source"] = "Doypinga",
+							["timeod"] = 1690272255,
 						}, -- [1]
 					},
 					["id"] = "0x07000000008C9EF0",
@@ -11919,7 +12550,7 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["criticalamount"] = 1797,
 							["id"] = 6603,
-							["criticalmin"] = 699,
+							["critical"] = 2,
 							["criticalmax"] = 1098,
 							["count"] = 4,
 							["amount"] = 1797,
@@ -11930,7 +12561,7 @@ SkadaStorageDB = {
 								},
 							},
 							["MISS"] = 2,
-							["critical"] = 2,
+							["criticalmin"] = 699,
 						},
 						["Instant Poison IX"] = {
 							["hitmin"] = 954,
@@ -11947,25 +12578,10 @@ SkadaStorageDB = {
 							["amount"] = 954,
 							["hitamount"] = 954,
 						},
-						["Sinister Strike"] = {
-							["criticalamount"] = 2053,
-							["id"] = 48638,
-							["criticalmax"] = 2053,
-							["critical"] = 1,
-							["amount"] = 2053,
-							["school"] = 1,
-							["sources"] = {
-								["Doypinga"] = {
-									["amount"] = 2053,
-								},
-							},
-							["criticalmin"] = 2053,
-							["count"] = 1,
-						},
 						["Wound Poison VII"] = {
 							["criticalamount"] = 543,
 							["id"] = 57975,
-							["criticalmin"] = 543,
+							["critical"] = 1,
 							["criticalmax"] = 543,
 							["count"] = 2,
 							["amount"] = 543,
@@ -11976,32 +12592,47 @@ SkadaStorageDB = {
 								},
 							},
 							["MISS"] = 1,
+							["criticalmin"] = 543,
+						},
+						["Sinister Strike"] = {
+							["criticalamount"] = 2053,
+							["id"] = 48638,
+							["criticalmax"] = 2053,
 							["critical"] = 1,
+							["amount"] = 2053,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 2053,
+							["sources"] = {
+								["Doypinga"] = {
+									["amount"] = 2053,
+								},
+							},
 						},
 						["Killing Spree"] = {
 							["hitmin"] = 633,
 							["criticalamount"] = 2405,
 							["id"] = 57841,
 							["criticalmin"] = 2405,
-							["criticalmax"] = 2405,
-							["count"] = 10,
-							["amount"] = 9373,
 							["sources"] = {
 								["Doypinga"] = {
 									["amount"] = 9373,
 								},
 							},
-							["hitmax"] = 1286,
-							["hit"] = 7,
-							["school"] = 1,
 							["critical"] = 1,
+							["hit"] = 7,
+							["criticalmax"] = 2405,
+							["count"] = 10,
+							["amount"] = 9373,
+							["school"] = 1,
+							["hitmax"] = 1286,
 							["MISS"] = 2,
 							["hitamount"] = 6968,
 						},
 					},
 					["name"] = "Dominuss",
 					["death"] = 1,
-					["totaldamage"] = 2777,
+					["energy"] = 2,
 					["cctakenspells"] = {
 						[51724] = {
 							["count"] = 1,
@@ -12016,15 +12647,15 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["energy"] = 2,
+					["totaldamage"] = 2777,
 				}, -- [5]
 				{
 					["ccdonespells"] = {
 						[7922] = {
 							["count"] = 4,
 							["targets"] = {
-								["Melissaaloe"] = 2,
 								["Cupic"] = 2,
+								["Melissaaloe"] = 2,
 							},
 						},
 						[46968] = {
@@ -12043,11 +12674,11 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["school"] = 1,
 							["targets"] = {
-								["Melissaaloe"] = {
+								["Cupic"] = {
 									["uptime"] = 2,
 									["count"] = 2,
 								},
-								["Cupic"] = {
+								["Melissaaloe"] = {
 									["uptime"] = 2,
 									["count"] = 2,
 								},
@@ -12067,10 +12698,10 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[57623] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 90,
 							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 90,
+							["type"] = "BUFF",
 						},
 						[64568] = {
 							["type"] = "BUFF",
@@ -12085,11 +12716,11 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 9,
 						},
-						[23920] = {
+						[71] = {
 							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
+							["count"] = 2,
+							["uptime"] = 38,
 						},
 						[58374] = {
 							["type"] = "BUFF",
@@ -12098,10 +12729,11 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 24,
 						},
-						[25898] = {
+						[50227] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
+							["count"] = 3,
+							["uptime"] = 11,
 						},
 						[46968] = {
 							["type"] = "DEBUFF",
@@ -12115,67 +12747,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[72590] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 59,
-						},
-						[50227] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 11,
-						},
-						[58567] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-								["Cupic"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[72588] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
-						},
 						[47440] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
-						},
-						[57358] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 90,
-						},
-						[2565] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
 						},
 						[18498] = {
 							["type"] = "DEBUFF",
@@ -12188,6 +12763,63 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 1,
+						},
+						[47436] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 59,
+						},
+						[23920] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[58567] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Cupic"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 11,
+								},
+								["Melissaaloe"] = {
+									["uptime"] = 5,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 16,
+						},
+						[72588] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 90,
+						},
+						[72590] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 90,
+						},
+						[2565] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[57358] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 90,
+						},
+						[29131] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
@@ -12207,11 +12839,10 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 23,
 						},
-						[71] = {
-							["school"] = 1,
+						[25898] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 38,
+							["count"] = 1,
+							["uptime"] = 90,
 						},
 					},
 					["dispel"] = 3,
@@ -12227,12 +12858,12 @@ SkadaStorageDB = {
 							["id"] = 46968,
 							["IMMUNE"] = 1,
 							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 1417,
+									["total"] = 1771,
+								},
 								["Melissaaloe"] = {
 									["amount"] = 0,
-								},
-								["Cupic"] = {
-									["total"] = 1771,
-									["amount"] = 1417,
 								},
 							},
 							["casts"] = 2,
@@ -12261,11 +12892,11 @@ SkadaStorageDB = {
 							["id"] = 20253,
 							["IMMUNE"] = 1,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["amount"] = 0,
-								},
 								["Cupic"] = {
 									["amount"] = 295,
+								},
+								["Melissaaloe"] = {
+									["amount"] = 0,
 								},
 							},
 							["casts"] = 2,
@@ -12282,36 +12913,46 @@ SkadaStorageDB = {
 							["id"] = 47502,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 774,
 									["amount"] = 313,
+									["total"] = 774,
 								},
 							},
-							["hitmax"] = 313,
-							["casts"] = 2,
 							["count"] = 2,
+							["casts"] = 2,
+							["hitmax"] = 313,
 							["ABSORB"] = 1,
 							["school"] = 1,
-							["amount"] = 313,
 							["hit"] = 1,
+							["amount"] = 313,
 							["hitamount"] = 313,
 						},
-						["Deep Wounds (DoT)"] = {
-							["total"] = 786,
-							["hitmin"] = 131,
-							["id"] = 12721,
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 528,
+							["criticalmin"] = 1893,
+							["IMMUNE"] = 6,
 							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 2299,
+									["total"] = 3963,
+								},
 								["Melissaaloe"] = {
-									["total"] = 786,
-									["amount"] = 524,
+									["amount"] = 3291,
+									["total"] = 4731,
 								},
 							},
-							["ABSORB"] = 2,
-							["count"] = 6,
-							["hit"] = 4,
+							["amount"] = 5590,
+							["total"] = 8694,
+							["criticalamount"] = 1893,
+							["id"] = 6603,
+							["count"] = 16,
+							["criticalmax"] = 1893,
+							["hitmax"] = 1398,
+							["hit"] = 5,
 							["school"] = 1,
-							["hitmax"] = 131,
-							["amount"] = 524,
-							["hitamount"] = 524,
+							["ABSORB"] = 3,
+							["critical"] = 1,
+							["hitamount"] = 3697,
 						},
 						["Shield Slam"] = {
 							["total"] = 4758,
@@ -12319,8 +12960,8 @@ SkadaStorageDB = {
 							["id"] = 47488,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 4758,
 									["amount"] = 2608,
+									["total"] = 4758,
 								},
 							},
 							["casts"] = 3,
@@ -12337,72 +12978,62 @@ SkadaStorageDB = {
 							["id"] = 47498,
 							["IMMUNE"] = 1,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["total"] = 1532,
-									["amount"] = 0,
-								},
 								["Cupic"] = {
-									["total"] = 1978,
 									["amount"] = 1676,
+									["total"] = 1978,
+								},
+								["Melissaaloe"] = {
+									["amount"] = 0,
+									["total"] = 1532,
 								},
 							},
-							["ABSORB"] = 1,
+							["hit"] = 2,
 							["casts"] = 5,
 							["count"] = 4,
-							["hit"] = 2,
+							["ABSORB"] = 1,
 							["school"] = 1,
-							["hitmax"] = 863,
 							["amount"] = 1676,
+							["hitmax"] = 863,
 							["hitamount"] = 1676,
 						},
 						["Heroic Throw"] = {
+							["school"] = 1,
 							["casts"] = 1,
-							["total"] = 1023,
 							["count"] = 1,
 							["amount"] = 0,
 							["id"] = 57755,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1023,
 									["amount"] = 0,
+									["total"] = 1023,
 								},
 							},
-							["school"] = 1,
+							["total"] = 1023,
 						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 528,
-							["criticalmin"] = 1893,
-							["IMMUNE"] = 6,
+						["Deep Wounds (DoT)"] = {
+							["total"] = 786,
+							["hitmin"] = 131,
+							["id"] = 12721,
 							["targets"] = {
 								["Melissaaloe"] = {
-									["total"] = 4731,
-									["amount"] = 3291,
-								},
-								["Cupic"] = {
-									["total"] = 3963,
-									["amount"] = 2299,
+									["amount"] = 524,
+									["total"] = 786,
 								},
 							},
-							["amount"] = 5590,
-							["total"] = 8694,
-							["criticalamount"] = 1893,
-							["id"] = 6603,
-							["hitmax"] = 1398,
-							["criticalmax"] = 1893,
-							["count"] = 16,
-							["hit"] = 5,
+							["hit"] = 4,
+							["count"] = 6,
+							["ABSORB"] = 2,
 							["school"] = 1,
-							["critical"] = 1,
-							["ABSORB"] = 3,
-							["hitamount"] = 3697,
+							["amount"] = 524,
+							["hitmax"] = 131,
+							["hitamount"] = 524,
 						},
 					},
 					["damagetaken"] = 4690,
 					["id"] = "0x070000000031EFCF",
 					["spec"] = 73,
-					["rage"] = 30,
+					["role"] = "TANK",
 					["damagetakenspells"] = {
 						["Frostfire Bolt (DoT)"] = {
 							["hitmin"] = 24,
@@ -12419,33 +13050,6 @@ SkadaStorageDB = {
 							["amount"] = 52,
 							["hitamount"] = 52,
 						},
-						["Frost Nova"] = {
-							["criticalamount"] = 1614,
-							["id"] = 42917,
-							["criticalmax"] = 1614,
-							["critical"] = 1,
-							["amount"] = 1614,
-							["school"] = 16,
-							["sources"] = {
-								["Melissaaloe"] = {
-									["amount"] = 1614,
-								},
-							},
-							["criticalmin"] = 1614,
-							["count"] = 1,
-						},
-						["Chilled"] = {
-							["sources"] = {
-								["Melissaaloe"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["MISS"] = 1,
-							["id"] = 7321,
-						},
 						["Frostfire Bolt"] = {
 							["hitmin"] = 3024,
 							["id"] = 47610,
@@ -12461,26 +13065,34 @@ SkadaStorageDB = {
 							["amount"] = 3024,
 							["hitamount"] = 3024,
 						},
-					},
-					["cctakenspells"] = {
-						[42917] = {
-							["count"] = 1,
+						["Chilled"] = {
 							["sources"] = {
-								["Melissaaloe"] = 1,
+								["Melissaaloe"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["MISS"] = 1,
+							["id"] = 7321,
+						},
+						["Frost Nova"] = {
+							["criticalamount"] = 1614,
+							["id"] = 42917,
+							["criticalmax"] = 1614,
+							["critical"] = 1,
+							["amount"] = 1614,
+							["school"] = 16,
+							["count"] = 1,
+							["criticalmin"] = 1614,
+							["sources"] = {
+								["Melissaaloe"] = {
+									["amount"] = 1614,
+								},
 							},
 						},
 					},
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 10,
-					},
-					["sundertargets"] = {
-						["Melissaaloe"] = 2,
-						["Cupic"] = 3,
-					},
-					["ccdone"] = 5,
-					["name"] = "Jaisenda",
-					["sunder"] = 5,
 					["dispelspells"] = {
 						[47488] = {
 							["spells"] = {
@@ -12494,15 +13106,34 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "TANK",
+					["ragespells"] = {
+						[2687] = 20,
+						[29131] = 10,
+					},
+					["sundertargets"] = {
+						["Cupic"] = 3,
+						["Melissaaloe"] = 2,
+					},
+					["ccdone"] = 5,
+					["sunder"] = 5,
+					["name"] = "Jaisenda",
+					["cctakenspells"] = {
+						[42917] = {
+							["count"] = 1,
+							["sources"] = {
+								["Melissaaloe"] = 1,
+							},
+						},
+					},
+					["rage"] = 30,
 				}, -- [6]
 				{
 					["ccdonespells"] = {
 						[45524] = {
 							["count"] = 6,
 							["targets"] = {
-								["Melissaaloe"] = 3,
 								["Cupic"] = 3,
+								["Melissaaloe"] = 3,
 							},
 						},
 						[47476] = {
@@ -12522,14 +13153,14 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["refresh"] = 1,
 							["targets"] = {
+								["Cupic"] = {
+									["uptime"] = 19,
+									["count"] = 3,
+								},
 								["Melissaaloe"] = {
 									["refresh"] = 1,
 									["count"] = 2,
 									["uptime"] = 13,
-								},
-								["Cupic"] = {
-									["uptime"] = 19,
-									["count"] = 3,
 								},
 							},
 							["uptime"] = 32,
@@ -12545,13 +13176,13 @@ SkadaStorageDB = {
 							["count"] = 5,
 							["school"] = 32,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
 								["Cupic"] = {
 									["uptime"] = 8,
 									["count"] = 3,
+								},
+								["Melissaaloe"] = {
+									["uptime"] = 4,
+									["count"] = 2,
 								},
 							},
 							["uptime"] = 12,
@@ -12562,15 +13193,15 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["refresh"] = 2,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
 								["Cupic"] = {
 									["refresh"] = 1,
 									["count"] = 1,
 									["uptime"] = 21,
+								},
+								["Melissaaloe"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 11,
 								},
 							},
 							["uptime"] = 32,
@@ -12589,10 +13220,10 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[57623] = {
-							["refresh"] = 5,
-							["type"] = "BUFF",
-							["uptime"] = 90,
 							["count"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 90,
+							["type"] = "BUFF",
 						},
 						[51735] = {
 							["type"] = "DEBUFF",
@@ -12600,15 +13231,15 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["refresh"] = 8,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 13,
-								},
 								["Cupic"] = {
 									["refresh"] = 5,
 									["count"] = 1,
 									["uptime"] = 27,
+								},
+								["Melissaaloe"] = {
+									["refresh"] = 3,
+									["count"] = 2,
+									["uptime"] = 13,
 								},
 							},
 							["uptime"] = 40,
@@ -12640,6 +13271,12 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 30,
 						},
+						[72590] = {
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 90,
+							["type"] = "BUFF",
+						},
 						[50536] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -12653,13 +13290,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 22,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 59,
 						},
 						[6615] = {
 							["school"] = 1,
@@ -12690,10 +13320,10 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[49222] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 90,
 							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 90,
+							["type"] = "BUFF",
 						},
 						[32223] = {
 							["school"] = 2,
@@ -12707,15 +13337,15 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["refresh"] = 4,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 13,
-								},
 								["Cupic"] = {
 									["refresh"] = 3,
 									["count"] = 1,
 									["uptime"] = 27,
+								},
+								["Melissaaloe"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 13,
 								},
 							},
 							["uptime"] = 40,
@@ -12739,11 +13369,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
-						[72590] = {
-							["refresh"] = 1,
+						[47436] = {
 							["type"] = "BUFF",
-							["uptime"] = 90,
-							["count"] = 1,
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 59,
 						},
 					},
 					["totaldamage"] = 75141,
@@ -12752,9 +13383,7 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 1062,
 					["damage"] = 59005,
 					["runic"] = 30,
-					["runicspells"] = {
-						[61258] = 30,
-					},
+					["role"] = "DAMAGER",
 					["damagetaken"] = 1062,
 					["damagespells"] = {
 						["Scourge Strike"] = {
@@ -12762,12 +13391,12 @@ SkadaStorageDB = {
 							["hitmin"] = 808,
 							["id"] = 55271,
 							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 1915,
+									["total"] = 2271,
+								},
 								["Melissaaloe"] = {
 									["amount"] = 4167,
-								},
-								["Cupic"] = {
-									["total"] = 2271,
-									["amount"] = 1915,
 								},
 							},
 							["casts"] = 4,
@@ -12784,39 +13413,39 @@ SkadaStorageDB = {
 							["criticalmin"] = 3534,
 							["IMMUNE"] = 6,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["total"] = 7677,
-									["amount"] = 3534,
-								},
 								["Cupic"] = {
-									["total"] = 6036,
 									["amount"] = 4467,
+									["total"] = 6036,
+								},
+								["Melissaaloe"] = {
+									["amount"] = 3534,
+									["total"] = 7677,
 								},
 							},
 							["amount"] = 8001,
 							["total"] = 13713,
 							["criticalamount"] = 3534,
 							["id"] = 6603,
-							["count"] = 17,
 							["BLOCK"] = 2,
-							["hit"] = 4,
-							["criticalmax"] = 3534,
-							["critical"] = 1,
-							["blocked"] = 1905,
-							["school"] = 1,
-							["ABSORB"] = 3,
 							["hitmax"] = 1282,
+							["ABSORB"] = 3,
+							["criticalmax"] = 3534,
+							["count"] = 17,
+							["hit"] = 4,
+							["school"] = 1,
+							["blocked"] = 1905,
+							["critical"] = 1,
 							["hitamount"] = 4467,
 						},
 						["Chaos Bane"] = {
 							["hitmin"] = 2041,
 							["id"] = 71904,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["amount"] = 2041,
-								},
 								["Cupic"] = {
 									["amount"] = 2294,
+								},
+								["Melissaaloe"] = {
+									["amount"] = 2041,
 								},
 							},
 							["casts"] = 1,
@@ -12828,30 +13457,30 @@ SkadaStorageDB = {
 							["hitamount"] = 4335,
 						},
 						["Death Coil"] = {
-							["criticalmin"] = 6008,
+							["criticalamount"] = 6008,
 							["total"] = 17314,
 							["hitmin"] = 3117,
-							["criticalamount"] = 6008,
+							["criticalmin"] = 6008,
 							["id"] = 47632,
-							["hit"] = 2,
+							["casts"] = 4,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["total"] = 3260,
-									["amount"] = 0,
-								},
 								["Cupic"] = {
-									["total"] = 14054,
 									["amount"] = 13275,
+									["total"] = 14054,
+								},
+								["Melissaaloe"] = {
+									["amount"] = 0,
+									["total"] = 3260,
 								},
 							},
-							["critical"] = 1,
-							["ABSORB"] = 1,
-							["criticalmax"] = 6008,
-							["count"] = 4,
-							["amount"] = 13275,
-							["school"] = 32,
 							["hitmax"] = 4150,
-							["casts"] = 4,
+							["amount"] = 13275,
+							["criticalmax"] = 6008,
+							["critical"] = 1,
+							["hit"] = 2,
+							["school"] = 32,
+							["count"] = 4,
+							["ABSORB"] = 1,
 							["hitamount"] = 7267,
 						},
 						["Unholy Blight (DoT)"] = {
@@ -12860,16 +13489,16 @@ SkadaStorageDB = {
 							["id"] = 50536,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1120,
 									["amount"] = 960,
+									["total"] = 1120,
 								},
 							},
-							["ABSORB"] = 1,
-							["count"] = 20,
 							["hit"] = 19,
+							["count"] = 20,
+							["ABSORB"] = 1,
 							["school"] = 32,
-							["hitmax"] = 60,
 							["amount"] = 960,
+							["hitmax"] = 60,
 							["hitamount"] = 960,
 						},
 						["Scourge Strike (Shadow)"] = {
@@ -12877,51 +13506,54 @@ SkadaStorageDB = {
 							["hitmin"] = 474,
 							["id"] = 70890,
 							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 474,
+									["total"] = 845,
+								},
 								["Melissaaloe"] = {
 									["amount"] = 1898,
 								},
-								["Cupic"] = {
-									["total"] = 845,
-									["amount"] = 474,
-								},
 							},
-							["hitmax"] = 1025,
-							["casts"] = 1,
 							["count"] = 4,
+							["casts"] = 1,
+							["hitmax"] = 1025,
 							["ABSORB"] = 1,
 							["school"] = 32,
-							["amount"] = 2372,
 							["hit"] = 3,
+							["amount"] = 2372,
 							["hitamount"] = 2372,
 						},
-						["Wandering Plague"] = {
-							["hitmin"] = 508,
-							["id"] = 50526,
+						["Blood Strike"] = {
+							["total"] = 1667,
+							["hitmin"] = 696,
+							["id"] = 49930,
+							["IMMUNE"] = 1,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["amount"] = 1028,
+								["Cupic"] = {
+									["amount"] = 1493,
+									["total"] = 1667,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 2,
+							["casts"] = 3,
+							["count"] = 3,
 							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 520,
-							["amount"] = 1028,
-							["hitamount"] = 1028,
+							["school"] = 1,
+							["hitmax"] = 797,
+							["amount"] = 1493,
+							["hitamount"] = 1493,
 						},
 						["Blood Plague (DoT)"] = {
 							["total"] = 7408,
 							["hitmin"] = 169,
 							["id"] = 55078,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["total"] = 2085,
-									["amount"] = 1559,
-								},
 								["Cupic"] = {
-									["total"] = 5323,
 									["amount"] = 4582,
+									["total"] = 5323,
+								},
+								["Melissaaloe"] = {
+									["amount"] = 1559,
+									["total"] = 2085,
 								},
 							},
 							["count"] = 8,
@@ -12937,17 +13569,41 @@ SkadaStorageDB = {
 							["id"] = 49909,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2464,
 									["amount"] = 1972,
+									["total"] = 2464,
 								},
 							},
 							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 1972,
 							["school"] = 16,
-							["criticalmin"] = 1972,
-							["criticalmax"] = 1972,
 							["count"] = 1,
+							["criticalmax"] = 1972,
+							["criticalmin"] = 1972,
+						},
+						["Plague Strike"] = {
+							["total"] = 5393,
+							["hitmin"] = 645,
+							["id"] = 49921,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 1539,
+								},
+								["Melissaaloe"] = {
+									["amount"] = 1644,
+									["total"] = 3854,
+								},
+							},
+							["count"] = 6,
+							["ABSORB"] = 1,
+							["PARRY"] = 1,
+							["hitmax"] = 1644,
+							["amount"] = 3183,
+							["school"] = 1,
+							["casts"] = 6,
+							["hit"] = 3,
+							["hitamount"] = 3183,
 						},
 						["Gargoyle Strike (Ebon Gargoyle)"] = {
 							["hitmin"] = 2659,
@@ -12965,70 +13621,43 @@ SkadaStorageDB = {
 							["amount"] = 2659,
 							["hitamount"] = 2659,
 						},
-						["Plague Strike"] = {
-							["total"] = 5393,
-							["hitmin"] = 645,
-							["id"] = 49921,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["total"] = 3854,
-									["amount"] = 1644,
-								},
-								["Cupic"] = {
-									["amount"] = 1539,
-								},
-							},
-							["hitmax"] = 1644,
-							["amount"] = 3183,
-							["PARRY"] = 1,
-							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 1,
-							["casts"] = 6,
-							["ABSORB"] = 1,
-							["hitamount"] = 3183,
-						},
 						["Frost Fever (DoT)"] = {
 							["total"] = 8859,
 							["hitmin"] = 665,
 							["id"] = 55095,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["total"] = 2272,
-									["amount"] = 1592,
-								},
 								["Cupic"] = {
-									["total"] = 6587,
 									["amount"] = 5912,
+									["total"] = 6587,
+								},
+								["Melissaaloe"] = {
+									["amount"] = 1592,
+									["total"] = 2272,
 								},
 							},
-							["ABSORB"] = 1,
-							["count"] = 10,
 							["hit"] = 9,
+							["count"] = 10,
+							["ABSORB"] = 1,
 							["school"] = 16,
-							["hitmax"] = 1215,
 							["amount"] = 7504,
+							["hitmax"] = 1215,
 							["hitamount"] = 7504,
 						},
-						["Blood Strike"] = {
-							["total"] = 1667,
-							["hitmin"] = 696,
-							["id"] = 49930,
-							["IMMUNE"] = 1,
+						["Wandering Plague"] = {
+							["hitmin"] = 508,
+							["id"] = 50526,
 							["targets"] = {
-								["Cupic"] = {
-									["total"] = 1667,
-									["amount"] = 1493,
+								["Melissaaloe"] = {
+									["amount"] = 1028,
 								},
 							},
-							["casts"] = 3,
-							["count"] = 3,
+							["casts"] = 1,
+							["count"] = 2,
 							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 797,
-							["amount"] = 1493,
-							["hitamount"] = 1493,
+							["school"] = 32,
+							["hitmax"] = 520,
+							["amount"] = 1028,
+							["hitamount"] = 1028,
 						},
 					},
 					["id"] = "0x070000000000D01B",
@@ -13047,8 +13676,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["count"] = 2,
 							["criticalmin"] = 0,
+							["count"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -13098,8 +13727,8 @@ SkadaStorageDB = {
 					["heal"] = 0,
 					["potion"] = 1,
 					["ccdone"] = 7,
-					["name"] = "Urgash",
 					["overheal"] = 3162,
+					["name"] = "Urgash",
 					["cctakenspells"] = {
 						[10308] = {
 							["count"] = 1,
@@ -13108,14 +13737,16 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["runicspells"] = {
+						[61258] = 30,
+					},
 				}, -- [7]
 				{
-					["cctaken"] = 1,
+					["name"] = "Earthchomp",
 					["last"] = 6119.429,
 					["time"] = 0,
-					["id"] = "0xF14001066F0092CE",
 					["flag"] = 4369,
+					["cctaken"] = 1,
 					["class"] = "PET",
 					["cctakenspells"] = {
 						[42917] = {
@@ -13125,19 +13756,21 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["name"] = "Earthchomp",
+					["id"] = "0xF14001066F0092CE",
 				}, -- [8]
 			},
-			["rage"] = 30,
+			["type"] = "group",
+			["runic"] = 30,
+			["starttime"] = 1690272210,
 			["edamagetaken"] = 105332,
 			["heal"] = 55111,
-			["potion"] = 2,
-			["death"] = 3,
-			["mobname"] = "Cupic",
+			["name"] = "Cupic (3)",
+			["ccdone"] = 13,
+			["overheal"] = 27305,
 			["edamage"] = 36338,
-			["energy"] = 2,
+			["last_action"] = 1690272299,
 			["endtime"] = 1690272300,
-		}, -- [10]
+		}, -- [11]
 		{
 			["starttime"] = 1690271949,
 			["type"] = "group",
@@ -13168,7 +13801,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 4,
 						},
-						[48938] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13178,7 +13811,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[23223] = {
+						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13188,12 +13821,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[57371] = {
+						[25899] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[25899] = {
+						[57371] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13208,12 +13841,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 1,
 						},
-						[72590] = {
+						[23223] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[54043] = {
+						[48938] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13221,9 +13854,9 @@ SkadaStorageDB = {
 					},
 					["role"] = "TANK",
 					["name"] = "Vitra",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "PALADIN",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [1]
 				{
 					["last"] = 5789.698,
@@ -13261,8 +13894,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[23214] = {
-							["school"] = 2,
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 4,
@@ -13277,7 +13909,8 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[57623] = {
+						[23214] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 4,
@@ -13285,9 +13918,9 @@ SkadaStorageDB = {
 					},
 					["role"] = "HEALER",
 					["name"] = "Miakaliff",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "PALADIN",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [2]
 				{
 					["last"] = 5789.698,
@@ -13299,10 +13932,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[48933] = {
+						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
+							["count"] = 2,
+							["uptime"] = 10,
 						},
 						[30809] = {
 							["type"] = "BUFF",
@@ -13319,23 +13953,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[48933] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 						[65637] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[57623] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 10,
-						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Nigtwolf",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "SHAMAN",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [3]
 				{
 					["last"] = 5789.698,
@@ -13389,12 +14022,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[48024] = {
+						[72586] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[72586] = {
+						[48024] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13402,9 +14035,9 @@ SkadaStorageDB = {
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Ragekiller",
-					["flag"] = 66836,
-					["time"] = 0,
 					["class"] = "ROGUE",
+					["time"] = 0,
+					["flag"] = 66836,
 				}, -- [4]
 				{
 					["last"] = 5789.698,
@@ -13416,7 +14049,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[58427] = {
+						[48933] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13442,7 +14075,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[48933] = {
+						[58427] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13450,19 +14083,19 @@ SkadaStorageDB = {
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Dominuss",
-					["flag"] = 1300,
-					["time"] = 0,
 					["class"] = "ROGUE",
+					["time"] = 0,
+					["flag"] = 1300,
 				}, -- [5]
 				{
 					["last"] = 5789.698,
 					["id"] = "0x070000000031EFCF",
 					["spec"] = 73,
 					["auras"] = {
-						[57623] = {
+						[30809] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 11,
 						},
 						[57358] = {
 							["type"] = "BUFF",
@@ -13479,7 +14112,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[28878] = {
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13489,12 +14127,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[30809] = {
+						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13502,9 +14135,9 @@ SkadaStorageDB = {
 					},
 					["role"] = "TANK",
 					["name"] = "Jaisenda",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "WARRIOR",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [6]
 				{
 					["last"] = 5789.698,
@@ -13541,27 +14174,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[23214] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 4,
 						},
 						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[57623] = {
+						[23214] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 11,
 						},
 					},
 					["role"] = "TANK",
 					["name"] = "Drainox",
-					["flag"] = 1300,
-					["time"] = 0,
 					["class"] = "PALADIN",
+					["time"] = 0,
+					["flag"] = 1300,
 				}, -- [7]
 				{
 					["last"] = 5789.698,
@@ -13580,10 +14213,10 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[49222] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 11,
 							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 11,
+							["type"] = "BUFF",
 						},
 						[57623] = {
 							["school"] = 1,
@@ -13606,12 +14239,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[48265] = {
+						[72586] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[72586] = {
+						[48265] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -13619,36 +14252,36 @@ SkadaStorageDB = {
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Urgash",
-					["flag"] = 1297,
-					["time"] = 0,
 					["class"] = "DEATHKNIGHT",
+					["time"] = 0,
+					["flag"] = 1297,
 				}, -- [8]
 			},
-			["endtime"] = 1690271960,
+			["last_time"] = 5800.598,
 			["name"] = "Doypinga (2)",
 			["mobname"] = "Doypinga",
 			["time"] = 11,
 			["last_action"] = 1690271960,
-			["last_time"] = 5800.598,
-		}, -- [11]
+			["endtime"] = 1690271960,
+		}, -- [12]
 		{
 			["sunder"] = 1,
 			["enemies"] = {
 				{
-					["damagetaken"] = 2534,
 					["name"] = "Skyasi",
-					["class"] = "ROGUE",
-					["flag"] = 66888,
-					["totaldamagetaken"] = 7550,
+					["damagetaken"] = 2534,
 					["id"] = "0x0700000000929CF4",
+					["flag"] = 66888,
+					["class"] = "ROGUE",
+					["totaldamagetaken"] = 7550,
 					["damagetakenspells"] = {
 						[12721] = {
 							["school"] = 1,
 							["total"] = 125,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 125,
 									["amount"] = 42,
+									["total"] = 125,
 								},
 							},
 							["amount"] = 42,
@@ -13658,8 +14291,8 @@ SkadaStorageDB = {
 							["total"] = 3555,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 3555,
 									["amount"] = 1193,
+									["total"] = 3555,
 								},
 							},
 							["amount"] = 1193,
@@ -13671,8 +14304,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Dominuss"] = {
 									["total"] = 1146,
-									["overkill"] = 300,
 									["amount"] = 385,
+									["overkill"] = 300,
 								},
 							},
 							["overkill"] = 300,
@@ -13682,8 +14315,8 @@ SkadaStorageDB = {
 							["total"] = 1466,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 1466,
 									["amount"] = 492,
+									["total"] = 1466,
 								},
 							},
 							["amount"] = 492,
@@ -13693,8 +14326,8 @@ SkadaStorageDB = {
 							["total"] = 1258,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 1258,
 									["amount"] = 422,
+									["total"] = 1258,
 								},
 							},
 							["amount"] = 422,
@@ -13721,12 +14354,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Miakaliff"] = {
-									["overkill"] = 2087,
 									["amount"] = 4174,
+									["overkill"] = 2087,
 								},
 							},
-							["overkill"] = 2087,
 							["amount"] = 4174,
+							["overkill"] = 2087,
 						},
 						[48827] = {
 							["school"] = 2,
@@ -13759,12 +14392,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Miakaliff"] = {
-									["overkill"] = 30,
 									["amount"] = 53,
+									["overkill"] = 30,
 								},
 							},
-							["overkill"] = 30,
 							["amount"] = 53,
+							["overkill"] = 30,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -13829,11 +14462,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[72586] = {
-							["school"] = 2,
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
+							["uptime"] = 15,
 						},
 						[72588] = {
 							["school"] = 8,
@@ -13841,16 +14473,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 4,
 						},
-						[31801] = {
+						[53601] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[72590] = {
-							["school"] = 8,
+						[31801] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 15,
 						},
 						[23223] = {
 							["type"] = "BUFF",
@@ -13858,10 +14489,10 @@ SkadaStorageDB = {
 							["uptime"] = 15,
 						},
 						[25899] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 15,
 							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 15,
+							["type"] = "BUFF",
 						},
 						[32223] = {
 							["type"] = "BUFF",
@@ -13873,22 +14504,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[53601] = {
+						[72590] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 7,
 						},
-						[54043] = {
+						[72586] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 6,
 						},
 					},
 					["role"] = "TANK",
 					["name"] = "Vitra",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "PALADIN",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [1]
 				{
 					["last"] = 5609.909000000001,
@@ -13964,6 +14597,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
 						[68055] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -13976,11 +14614,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[32223] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
 					},
 					["dispel"] = 1,
 					["role"] = "TANK",
@@ -13988,22 +14621,6 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 1166,
 					["damage"] = 7554,
 					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 375,
-							["id"] = 6603,
-							["targets"] = {
-								["Vindrys"] = {
-									["amount"] = 785,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 410,
-							["amount"] = 785,
-							["hitamount"] = 785,
-						},
 						["Judgement of Vengeance"] = {
 							["hitmin"] = 586,
 							["id"] = 31804,
@@ -14020,36 +14637,39 @@ SkadaStorageDB = {
 							["amount"] = 586,
 							["hitamount"] = 586,
 						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 89,
-							["id"] = 31803,
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 375,
+							["id"] = 6603,
 							["targets"] = {
 								["Vindrys"] = {
-									["amount"] = 89,
+									["amount"] = 785,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 89,
-							["amount"] = 89,
-							["hitamount"] = 89,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 410,
+							["amount"] = 785,
+							["hitamount"] = 785,
 						},
-						["Avenger's Shield"] = {
-							["hitmin"] = 1397,
-							["id"] = 48827,
+						["Shield of Righteousness"] = {
+							["hitmin"] = 2087,
+							["id"] = 61411,
 							["targets"] = {
 								["Vindrys"] = {
-									["amount"] = 1397,
+									["amount"] = 4174,
+									["overkill"] = 2087,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["overkill"] = 2087,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 2,
-							["hitmax"] = 1397,
-							["amount"] = 1397,
-							["hitamount"] = 1397,
+							["hitmax"] = 2087,
+							["amount"] = 4174,
+							["hitamount"] = 4174,
 						},
 						["Seal of Command"] = {
 							["hitmin"] = 232,
@@ -14067,31 +14687,44 @@ SkadaStorageDB = {
 							["amount"] = 470,
 							["hitamount"] = 470,
 						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 2087,
-							["id"] = 61411,
+						["Avenger's Shield"] = {
+							["hitmin"] = 1397,
+							["id"] = 48827,
 							["targets"] = {
 								["Vindrys"] = {
-									["overkill"] = 2087,
-									["amount"] = 4174,
+									["amount"] = 1397,
 								},
 							},
-							["overkill"] = 2087,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 2087,
-							["amount"] = 4174,
-							["hitamount"] = 4174,
+							["hitmax"] = 1397,
+							["amount"] = 1397,
+							["hitamount"] = 1397,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 89,
+							["id"] = 31803,
+							["targets"] = {
+								["Vindrys"] = {
+									["amount"] = 89,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 89,
+							["amount"] = 89,
+							["hitamount"] = 89,
 						},
 						["Seal of Vengeance"] = {
 							["hitmin"] = 53,
 							["id"] = 42463,
 							["targets"] = {
 								["Vindrys"] = {
-									["overkill"] = 30,
 									["amount"] = 53,
+									["overkill"] = 30,
 								},
 							},
 							["overkill"] = 30,
@@ -14117,9 +14750,9 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["blocked"] = 981,
-							["BLOCK"] = 1,
 							["id"] = 75,
+							["BLOCK"] = 1,
+							["blocked"] = 981,
 						},
 						["Serpent Sting (DoT)"] = {
 							["hitmin"] = 583,
@@ -14138,7 +14771,7 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Miakaliff",
-					["overkill"] = 2117,
+					["totaldamage"] = 7554,
 					["dispelspells"] = {
 						[4987] = {
 							["spells"] = {
@@ -14150,19 +14783,20 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["totaldamage"] = 7554,
+					["overkill"] = 2117,
 				}, -- [2]
 				{
 					["last"] = 5601.177,
 					["id"] = "0x07000000008C7703",
 					["spec"] = 263,
 					["auras"] = {
-						[17481] = {
+						[32223] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
+							["count"] = 2,
+							["uptime"] = 12,
 						},
-						[57623] = {
+						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
@@ -14172,12 +14806,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[30809] = {
+						[17481] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[28878] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
@@ -14193,18 +14827,17 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["uptime"] = 9,
 						},
-						[32223] = {
-							["school"] = 2,
+						[30809] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 12,
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Nigtwolf",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "SHAMAN",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [3]
 				{
 					["damagespells"] = {
@@ -14215,8 +14848,8 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Skyasi"] = {
 									["total"] = 1146,
-									["overkill"] = 300,
 									["amount"] = 385,
+									["overkill"] = 300,
 								},
 							},
 							["overkill"] = 300,
@@ -14230,10 +14863,10 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 5602.124,
-					["id"] = "0x07000000008C9EF0",
 					["flag"] = 1300,
+					["id"] = "0x07000000008C9EF0",
 					["class"] = "ROGUE",
-					["totaldamage"] = 1146,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[58427] = {
 							["type"] = "BUFF",
@@ -14241,10 +14874,10 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[71396] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 11,
 							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 11,
+							["type"] = "BUFF",
 						},
 						[32223] = {
 							["type"] = "BUFF",
@@ -14270,11 +14903,11 @@ SkadaStorageDB = {
 					["energyspells"] = {
 						[51637] = 2,
 					},
-					["role"] = "DAMAGER",
+					["totaldamage"] = 1146,
 					["time"] = 0.95,
-					["spec"] = 259,
-					["overkill"] = 300,
 					["name"] = "Dominuss",
+					["overkill"] = 300,
+					["spec"] = 259,
 					["energy"] = 2,
 					["damage"] = 385,
 				}, -- [4]
@@ -14286,8 +14919,8 @@ SkadaStorageDB = {
 							["id"] = 47498,
 							["targets"] = {
 								["Skyasi"] = {
-									["total"] = 1466,
 									["amount"] = 492,
+									["total"] = 1466,
 								},
 							},
 							["casts"] = 1,
@@ -14304,8 +14937,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Skyasi"] = {
-									["total"] = 1258,
 									["amount"] = 422,
+									["total"] = 1258,
 								},
 							},
 							["count"] = 1,
@@ -14321,8 +14954,8 @@ SkadaStorageDB = {
 							["id"] = 12721,
 							["targets"] = {
 								["Skyasi"] = {
-									["total"] = 125,
 									["amount"] = 42,
+									["total"] = 125,
 								},
 							},
 							["count"] = 1,
@@ -14381,11 +15014,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[72588] = {
-							["school"] = 8,
+						[58374] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 9,
+						},
+						[64568] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[72586] = {
 							["school"] = 2,
@@ -14393,26 +15030,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[64568] = {
+						[72588] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[58374] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 4,
 						},
 					},
-					["id"] = "0x070000000031EFCF",
-					["totaldamage"] = 2849,
-					["name"] = "Jaisenda",
-					["spec"] = 73,
-					["time"] = 0.53,
-					["role"] = "TANK",
 					["sundertargets"] = {
 						["Skyasi"] = 1,
 					},
+					["totaldamage"] = 2849,
+					["name"] = "Jaisenda",
+					["role"] = "TANK",
+					["time"] = 0.53,
+					["spec"] = 73,
+					["id"] = "0x070000000031EFCF",
 					["damage"] = 956,
 				}, -- [5]
 				{
@@ -14431,7 +15064,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[25780] = {
+						[30809] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
@@ -14446,18 +15079,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 						[72588] = {
 							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 4,
 						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[30809] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
@@ -14465,9 +15098,9 @@ SkadaStorageDB = {
 					},
 					["role"] = "TANK",
 					["name"] = "Drainox",
-					["flag"] = 1300,
-					["time"] = 0,
 					["class"] = "PALADIN",
+					["time"] = 0,
+					["flag"] = 1300,
 				}, -- [6]
 				{
 					["damagespells"] = {
@@ -14477,17 +15110,17 @@ SkadaStorageDB = {
 							["id"] = 55271,
 							["targets"] = {
 								["Skyasi"] = {
-									["total"] = 3555,
 									["amount"] = 1193,
+									["total"] = 3555,
 								},
 							},
 							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 1193,
 							["school"] = 1,
-							["criticalmin"] = 1193,
-							["criticalmax"] = 1193,
 							["count"] = 1,
+							["criticalmax"] = 1193,
+							["criticalmin"] = 1193,
 						},
 					},
 					["last"] = 5601.24,
@@ -14542,29 +15175,29 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[72586] = {
-							["school"] = 2,
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
+							["uptime"] = 15,
 						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[57623] = {
+						[72586] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 6,
 						},
 					},
 					["totaldamage"] = 3555,
 					["name"] = "Urgash",
 					["class"] = "DEATHKNIGHT",
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
 					["time"] = 0.06,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
 					["damage"] = 1193,
 				}, -- [7]
 				{
@@ -14599,15 +15232,15 @@ SkadaStorageDB = {
 					},
 					["role"] = "DAMAGER",
 					["time"] = 0,
-					["name"] = "Ragekiller",
-					["spec"] = 260,
 					["flag"] = 1300,
+					["spec"] = 260,
+					["name"] = "Ragekiller",
 				}, -- [8]
 			},
 			["type"] = "group",
 			["damagetaken"] = 1166,
 			["last_time"] = 5615.551,
-			["energy"] = 2,
+			["last_action"] = 1690271775,
 			["overkill"] = 2417,
 			["edamagetaken"] = 10088,
 			["etotaldamage"] = 1166,
@@ -14615,9 +15248,9 @@ SkadaStorageDB = {
 			["mobname"] = "Vindrys",
 			["starttime"] = 1690271761,
 			["edamage"] = 1166,
-			["last_action"] = 1690271775,
+			["energy"] = 2,
 			["endtime"] = 1690271776,
-		}, -- [12]
+		}, -- [13]
 		{
 			["eoverkill"] = 547,
 			["enemies"] = {
@@ -14635,11 +15268,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
-								["Ragekiller"] = {
-									["amount"] = 910,
-								},
 								["Jaisenda"] = {
 									["amount"] = 953,
+								},
+								["Ragekiller"] = {
+									["amount"] = 910,
 								},
 							},
 							["amount"] = 1863,
@@ -14728,15 +15361,41 @@ SkadaStorageDB = {
 								["Urgash"] = {
 									["amount"] = 43,
 								},
-								["Vitra"] = {
-									["total"] = 303,
-									["amount"] = 243,
-								},
 								["Jaisenda"] = {
 									["amount"] = 1111,
 								},
+								["Vitra"] = {
+									["amount"] = 243,
+									["total"] = 303,
+								},
 							},
 							["amount"] = 1397,
+						},
+						[53595] = {
+							["school"] = 2,
+							["total"] = 6581,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 3509,
+								},
+								["Jaisenda"] = {
+									["amount"] = 5193,
+								},
+								["Vitra"] = {
+									["amount"] = 1911,
+									["total"] = 2388,
+								},
+							},
+							["amount"] = 10613,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Jaisenda"] = {
+									["amount"] = 1625,
+								},
+							},
+							["amount"] = 1625,
 						},
 						[53733] = {
 							["school"] = 2,
@@ -14747,14 +15406,22 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2245,
 						},
-						[6603] = {
-							["school"] = 1,
+						[53742] = {
+							["school"] = 2,
+							["total"] = 2795,
 							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1035,
+								},
+								["Vitra"] = {
+									["amount"] = 1010,
+									["total"] = 3341,
+								},
 								["Jaisenda"] = {
-									["amount"] = 1625,
+									["amount"] = 5455,
 								},
 							},
-							["amount"] = 1625,
+							["amount"] = 7500,
 						},
 						[48952] = {
 							["school"] = 2,
@@ -14773,45 +15440,11 @@ SkadaStorageDB = {
 									["amount"] = 1267,
 								},
 								["Vitra"] = {
-									["total"] = 528,
 									["amount"] = 0,
+									["total"] = 528,
 								},
 							},
 							["amount"] = 4583,
-						},
-						[53742] = {
-							["school"] = 2,
-							["total"] = 2795,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1035,
-								},
-								["Jaisenda"] = {
-									["amount"] = 5455,
-								},
-								["Vitra"] = {
-									["total"] = 3341,
-									["amount"] = 1010,
-								},
-							},
-							["amount"] = 7500,
-						},
-						[53595] = {
-							["school"] = 2,
-							["total"] = 6581,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 3509,
-								},
-								["Vitra"] = {
-									["total"] = 2388,
-									["amount"] = 1911,
-								},
-								["Jaisenda"] = {
-									["amount"] = 5193,
-								},
-							},
-							["amount"] = 10613,
 						},
 					},
 					["damagetaken"] = 49013,
@@ -14823,8 +15456,8 @@ SkadaStorageDB = {
 							["total"] = 7092,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 7092,
 									["amount"] = 4810,
+									["total"] = 7092,
 								},
 							},
 							["amount"] = 4810,
@@ -14834,80 +15467,78 @@ SkadaStorageDB = {
 							["total"] = 834,
 							["sources"] = {
 								["Nigtwolf"] = {
-									["total"] = 834,
 									["amount"] = 575,
+									["total"] = 834,
 								},
 							},
 							["amount"] = 575,
 						},
-						[48664] = {
+						[47488] = {
 							["school"] = 1,
-							["total"] = 496,
+							["total"] = 2039,
 							["sources"] = {
-								["Dominuss"] = {
-									["total"] = 496,
-									["amount"] = 397,
+								["Jaisenda"] = {
+									["amount"] = 434,
+									["total"] = 2039,
 								},
 							},
-							["amount"] = 397,
+							["amount"] = 434,
 						},
 						[55078] = {
 							["school"] = 32,
 							["total"] = 3346,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 3346,
 									["amount"] = 2554,
+									["total"] = 3346,
 								},
 							},
 							["amount"] = 2554,
 						},
-						[31803] = {
-							["total"] = 4947,
-							["amount"] = 3725,
-							["school"] = 2,
+						[32176] = {
+							["school"] = 1,
+							["total"] = 205,
 							["sources"] = {
-								["Vitra"] = {
-									["total"] = 4947,
-									["overkill"] = 1222,
-									["amount"] = 3725,
+								["Nigtwolf"] = {
+									["amount"] = 164,
+									["total"] = 205,
 								},
 							},
-							["overkill"] = 1222,
+							["amount"] = 164,
 						},
 						[42463] = {
 							["school"] = 2,
 							["total"] = 1977,
 							["sources"] = {
 								["Drainox"] = {
-									["total"] = 33,
 									["amount"] = 27,
+									["total"] = 33,
 								},
 								["Vitra"] = {
-									["total"] = 1944,
 									["amount"] = 1402,
+									["total"] = 1944,
 								},
 							},
 							["amount"] = 1429,
 						},
-						[32175] = {
+						[48664] = {
 							["school"] = 1,
-							["total"] = 402,
+							["total"] = 496,
 							["sources"] = {
-								["Nigtwolf"] = {
-									["total"] = 402,
-									["amount"] = 322,
+								["Dominuss"] = {
+									["amount"] = 397,
+									["total"] = 496,
 								},
 							},
-							["amount"] = 322,
+							["amount"] = 397,
 						},
 						[48665] = {
 							["school"] = 1,
 							["total"] = 1182,
 							["sources"] = {
 								["Dominuss"] = {
-									["total"] = 1182,
 									["amount"] = 946,
+									["total"] = 1182,
 								},
 							},
 							["amount"] = 946,
@@ -14916,8 +15547,8 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Vitra"] = {
-									["total"] = 2831,
 									["amount"] = 2070,
+									["total"] = 2831,
 								},
 							},
 							["total"] = 2831,
@@ -14946,12 +15577,12 @@ SkadaStorageDB = {
 							["total"] = 9391,
 							["sources"] = {
 								["Drainox"] = {
-									["total"] = 1308,
 									["amount"] = 0,
+									["total"] = 1308,
 								},
 								["Vitra"] = {
-									["total"] = 8083,
 									["amount"] = 6467,
+									["total"] = 8083,
 								},
 							},
 							["amount"] = 6467,
@@ -14961,156 +15592,33 @@ SkadaStorageDB = {
 							["total"] = 2757,
 							["sources"] = {
 								["Vitra"] = {
-									["total"] = 2757,
 									["amount"] = 2206,
+									["total"] = 2757,
 								},
 							},
 							["amount"] = 2206,
 						},
-						[49233] = {
-							["school"] = 4,
-							["total"] = 2491,
+						[50536] = {
+							["school"] = 32,
 							["sources"] = {
-								["Nigtwolf"] = {
-									["total"] = 2491,
-									["amount"] = 1788,
+								["Urgash"] = {
+									["amount"] = 256,
+									["total"] = 314,
 								},
 							},
-							["amount"] = 1788,
+							["total"] = 314,
+							["amount"] = 256,
 						},
 						[48827] = {
 							["school"] = 2,
 							["total"] = 18,
 							["sources"] = {
 								["Drainox"] = {
-									["total"] = 18,
 									["amount"] = 15,
+									["total"] = 18,
 								},
 							},
 							["amount"] = 15,
-						},
-						[55095] = {
-							["school"] = 16,
-							["total"] = 3637,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 3637,
-									["amount"] = 2711,
-								},
-							},
-							["amount"] = 2711,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Drainox"] = {
-									["total"] = 182,
-									["amount"] = 146,
-								},
-								["Urgash"] = {
-									["total"] = 3285,
-									["amount"] = 2299,
-								},
-								["Jaisenda"] = {
-									["total"] = 1675,
-									["amount"] = 1009,
-								},
-								["Dominuss"] = {
-									["total"] = 286,
-									["amount"] = 229,
-								},
-								["Nigtwolf"] = {
-									["total"] = 606,
-									["amount"] = 0,
-								},
-								["Vitra"] = {
-									["total"] = 2317,
-									["amount"] = 1432,
-								},
-							},
-							["total"] = 8351,
-							["amount"] = 5115,
-						},
-						[57975] = {
-							["school"] = 8,
-							["total"] = 870,
-							["sources"] = {
-								["Dominuss"] = {
-									["total"] = 870,
-									["amount"] = 696,
-								},
-							},
-							["amount"] = 696,
-						},
-						[47498] = {
-							["school"] = 1,
-							["sources"] = {
-								["Jaisenda"] = {
-									["total"] = 3740,
-									["amount"] = 3522,
-								},
-							},
-							["total"] = 3740,
-							["amount"] = 3522,
-						},
-						[47468] = {
-							["school"] = 1,
-							["total"] = 395,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 395,
-									["amount"] = 88,
-								},
-							},
-							["amount"] = 88,
-						},
-						[52212] = {
-							["school"] = 32,
-							["total"] = 2379,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 2379,
-									["amount"] = 1343,
-								},
-							},
-							["amount"] = 1343,
-						},
-						[59653] = {
-							["school"] = 1,
-							["total"] = 1266,
-							["sources"] = {
-								["Jaisenda"] = {
-									["total"] = 1266,
-									["amount"] = 777,
-								},
-							},
-							["amount"] = 777,
-						},
-						[54043] = {
-							["school"] = 2,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 506,
-								},
-								["Nigtwolf"] = {
-									["amount"] = 151,
-								},
-								["Jaisenda"] = {
-									["amount"] = 1423,
-								},
-							},
-							["amount"] = 2080,
-						},
-						[48805] = {
-							["school"] = 2,
-							["total"] = 1304,
-							["sources"] = {
-								["Drainox"] = {
-									["total"] = 1304,
-									["amount"] = 1044,
-								},
-							},
-							["amount"] = 1044,
 						},
 						[47502] = {
 							["school"] = 1,
@@ -15121,49 +15629,174 @@ SkadaStorageDB = {
 							},
 							["amount"] = 249,
 						},
-						[50536] = {
-							["school"] = 32,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
+								["Drainox"] = {
+									["amount"] = 146,
+									["total"] = 182,
+								},
 								["Urgash"] = {
-									["total"] = 314,
-									["amount"] = 256,
+									["amount"] = 2299,
+									["total"] = 3285,
+								},
+								["Jaisenda"] = {
+									["amount"] = 1009,
+									["total"] = 1675,
+								},
+								["Dominuss"] = {
+									["amount"] = 229,
+									["total"] = 286,
+								},
+								["Nigtwolf"] = {
+									["amount"] = 0,
+									["total"] = 606,
+								},
+								["Vitra"] = {
+									["amount"] = 1432,
+									["total"] = 2317,
 								},
 							},
-							["total"] = 314,
-							["amount"] = 256,
+							["total"] = 8351,
+							["amount"] = 5115,
+						},
+						[49233] = {
+							["school"] = 4,
+							["total"] = 2491,
+							["sources"] = {
+								["Nigtwolf"] = {
+									["amount"] = 1788,
+									["total"] = 2491,
+								},
+							},
+							["amount"] = 1788,
+						},
+						[47498] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jaisenda"] = {
+									["amount"] = 3522,
+									["total"] = 3740,
+								},
+							},
+							["total"] = 3740,
+							["amount"] = 3522,
+						},
+						[47468] = {
+							["school"] = 1,
+							["total"] = 395,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 88,
+									["total"] = 395,
+								},
+							},
+							["amount"] = 88,
+						},
+						[55095] = {
+							["school"] = 16,
+							["total"] = 3637,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2711,
+									["total"] = 3637,
+								},
+							},
+							["amount"] = 2711,
+						},
+						[59653] = {
+							["school"] = 1,
+							["total"] = 1266,
+							["sources"] = {
+								["Jaisenda"] = {
+									["amount"] = 777,
+									["total"] = 1266,
+								},
+							},
+							["amount"] = 777,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 506,
+								},
+								["Jaisenda"] = {
+									["amount"] = 1423,
+								},
+								["Nigtwolf"] = {
+									["amount"] = 151,
+								},
+							},
+							["amount"] = 2080,
+						},
+						[48805] = {
+							["school"] = 2,
+							["total"] = 1304,
+							["sources"] = {
+								["Drainox"] = {
+									["amount"] = 1044,
+									["total"] = 1304,
+								},
+							},
+							["amount"] = 1044,
+						},
+						[52212] = {
+							["school"] = 32,
+							["total"] = 2379,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1343,
+									["total"] = 2379,
+								},
+							},
+							["amount"] = 1343,
+						},
+						[57975] = {
+							["school"] = 8,
+							["total"] = 870,
+							["sources"] = {
+								["Dominuss"] = {
+									["amount"] = 696,
+									["total"] = 870,
+								},
+							},
+							["amount"] = 696,
 						},
 						[12721] = {
 							["school"] = 1,
 							["sources"] = {
 								["Jaisenda"] = {
-									["total"] = 888,
 									["amount"] = 801,
+									["total"] = 888,
 								},
 							},
 							["total"] = 888,
 							["amount"] = 801,
 						},
-						[32176] = {
+						[32175] = {
 							["school"] = 1,
-							["total"] = 205,
+							["total"] = 402,
 							["sources"] = {
 								["Nigtwolf"] = {
-									["total"] = 205,
-									["amount"] = 164,
+									["amount"] = 322,
+									["total"] = 402,
 								},
 							},
-							["amount"] = 164,
+							["amount"] = 322,
 						},
-						[47488] = {
-							["school"] = 1,
-							["total"] = 2039,
+						[31803] = {
+							["total"] = 4947,
+							["amount"] = 3725,
+							["school"] = 2,
 							["sources"] = {
-								["Jaisenda"] = {
-									["total"] = 2039,
-									["amount"] = 434,
+								["Vitra"] = {
+									["total"] = 4947,
+									["amount"] = 3725,
+									["overkill"] = 1222,
 								},
 							},
-							["amount"] = 434,
+							["overkill"] = 1222,
 						},
 					},
 					["totaldamage"] = 31359,
@@ -15211,8 +15844,8 @@ SkadaStorageDB = {
 							["total"] = 6077,
 							["sources"] = {
 								["Dominuss"] = {
-									["total"] = 6077,
 									["amount"] = 3257,
+									["total"] = 6077,
 								},
 							},
 							["amount"] = 3257,
@@ -15221,12 +15854,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Vitra"] = {
-									["overkill"] = 2551,
 									["amount"] = 3202,
+									["overkill"] = 2551,
 								},
 							},
-							["overkill"] = 2551,
 							["amount"] = 3202,
+							["overkill"] = 2551,
 						},
 						[49921] = {
 							["school"] = 1,
@@ -15241,12 +15874,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["total"] = 14328,
 							["sources"] = {
+								["Dominuss"] = {
+									["amount"] = 6263,
+									["total"] = 12522,
+								},
 								["Urgash"] = {
 									["amount"] = 1806,
-								},
-								["Dominuss"] = {
-									["total"] = 12522,
-									["amount"] = 6263,
 								},
 							},
 							["amount"] = 8069,
@@ -15256,8 +15889,8 @@ SkadaStorageDB = {
 							["total"] = 7720,
 							["sources"] = {
 								["Dominuss"] = {
-									["total"] = 7720,
 									["amount"] = 4591,
+									["total"] = 7720,
 								},
 							},
 							["amount"] = 4591,
@@ -15267,8 +15900,8 @@ SkadaStorageDB = {
 							["total"] = 2440,
 							["sources"] = {
 								["Dominuss"] = {
-									["total"] = 2440,
 									["amount"] = 1044,
+									["total"] = 2440,
 								},
 							},
 							["amount"] = 1044,
@@ -15278,8 +15911,8 @@ SkadaStorageDB = {
 							["total"] = 3637,
 							["sources"] = {
 								["Dominuss"] = {
-									["total"] = 3637,
 									["amount"] = 1685,
+									["total"] = 3637,
 								},
 							},
 							["amount"] = 1685,
@@ -15304,14 +15937,14 @@ SkadaStorageDB = {
 						},
 						[49050] = {
 							["school"] = 1,
-							["overkill"] = 547,
+							["amount"] = 5418,
 							["targets"] = {
 								["Ragekiller"] = {
-									["overkill"] = 547,
 									["amount"] = 5418,
+									["overkill"] = 547,
 								},
 							},
-							["amount"] = 5418,
+							["overkill"] = 547,
 						},
 					},
 					["damagetaken"] = 38266,
@@ -15418,12 +16051,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ragekiller"] = {
-									["overkill"] = 554,
 									["amount"] = 3832,
+									["overkill"] = 554,
 								},
 							},
-							["overkill"] = 554,
 							["amount"] = 3832,
+							["overkill"] = 554,
 						},
 						[57842] = {
 							["school"] = 1,
@@ -15488,12 +16121,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Jaisenda"] = {
-									["overkill"] = 543,
 									["amount"] = 6649,
+									["overkill"] = 543,
 								},
 							},
-							["overkill"] = 543,
 							["amount"] = 6649,
+							["overkill"] = 543,
 						},
 						[47502] = {
 							["school"] = 1,
@@ -15600,8 +16233,8 @@ SkadaStorageDB = {
 							["total"] = 3314,
 							["sources"] = {
 								["Ragekiller"] = {
-									["total"] = 3314,
 									["amount"] = 0,
+									["total"] = 3314,
 								},
 							},
 							["amount"] = 0,
@@ -15613,8 +16246,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Ragekiller"] = {
 									["total"] = 5383,
-									["overkill"] = 2566,
 									["amount"] = 3881,
+									["overkill"] = 2566,
 								},
 							},
 							["overkill"] = 2566,
@@ -15635,19 +16268,15 @@ SkadaStorageDB = {
 			["edamagetaken"] = 151655,
 			["heal"] = 63799,
 			["name"] = "Skyasi",
-			["ccdone"] = 15,
+			["death"] = 1,
 			["edamage"] = 60068,
 			["last_action"] = 1690271747,
-			["sunder"] = 7,
+			["mana"] = 7251,
 			["totaldamage"] = 190924,
 			["time"] = 49,
 			["cctaken"] = 6,
-			["etotaldamagetaken"] = 190924,
+			["etotaldamage"] = 63464,
 			["damage"] = 151655,
-			["overheal"] = 6118,
-			["type"] = "group",
-			["death"] = 1,
-			["absorb"] = 3396,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -15732,17 +16361,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[57623] = {
-							["school"] = 1,
+						[54428] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[32223] = {
 							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
+							["refresh"] = 9,
+							["uptime"] = 35,
+						},
+						[68055] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Cupic"] = {
+									["uptime"] = 13,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 13,
 						},
 						[58597] = {
 							["school"] = 2,
@@ -15773,17 +16409,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 49,
 						},
-						[10308] = {
-							["type"] = "DEBUFF",
+						[25780] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Cupic"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
+							["uptime"] = 49,
 						},
 						[31803] = {
 							["type"] = "DEBUFF",
@@ -15799,34 +16428,34 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
-						[25780] = {
-							["type"] = "BUFF",
+						[10308] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 49,
+							["school"] = 2,
+							["targets"] = {
+								["Cupic"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
 						},
 						[67018] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 49,
 						},
-						[68055] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
+						[32223] = {
 							["school"] = 2,
-							["targets"] = {
-								["Cupic"] = {
-									["uptime"] = 13,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[54428] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 9,
-							["uptime"] = 35,
+							["uptime"] = 18,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 					},
 					["absorbspells"] = {
@@ -15855,9 +16484,47 @@ SkadaStorageDB = {
 					["role"] = "TANK",
 					["time"] = 36.24,
 					["totaldamagetaken"] = 6560,
-					["potion"] = 1,
+					["totaldamage"] = 26081,
 					["damage"] = 20504,
 					["damagespells"] = {
+						["Judgement of Vengeance"] = {
+							["total"] = 2831,
+							["hitmin"] = 838,
+							["id"] = 31804,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 2070,
+									["total"] = 2831,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 1232,
+							["amount"] = 2070,
+							["hitamount"] = 2070,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["total"] = 4947,
+							["hitmin"] = 170,
+							["id"] = 31803,
+							["targets"] = {
+								["Cupic"] = {
+									["total"] = 4947,
+									["amount"] = 3725,
+									["overkill"] = 1222,
+								},
+							},
+							["overkill"] = 1222,
+							["hit"] = 8,
+							["count"] = 10,
+							["ABSORB"] = 2,
+							["school"] = 2,
+							["amount"] = 3725,
+							["hitmax"] = 1366,
+							["hitamount"] = 3725,
+						},
 						["Melee"] = {
 							["DODGE"] = 2,
 							["total"] = 2317,
@@ -15865,27 +16532,78 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2317,
 									["amount"] = 1432,
+									["total"] = 2317,
 								},
 							},
-							["hit"] = 3,
-							["BLOCK"] = 1,
 							["amount"] = 1432,
-							["count"] = 7,
-							["blocked"] = 227,
-							["school"] = 1,
-							["ABSORB"] = 1,
 							["hitmax"] = 568,
+							["ABSORB"] = 1,
+							["BLOCK"] = 1,
+							["hit"] = 3,
+							["school"] = 1,
+							["blocked"] = 227,
+							["count"] = 7,
 							["hitamount"] = 1432,
+						},
+						["Holy Vengeance"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["id"] = 31803,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 0,
+								},
+							},
+							["PARRY"] = 1,
+						},
+						["Shield of Righteousness"] = {
+							["total"] = 2757,
+							["hitmin"] = 2206,
+							["id"] = 61411,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 2206,
+									["total"] = 2757,
+								},
+							},
+							["count"] = 2,
+							["hitmax"] = 2206,
+							["casts"] = 2,
+							["BLOCK"] = 1,
+							["blocked"] = 1531,
+							["school"] = 2,
+							["hit"] = 1,
+							["amount"] = 2206,
+							["hitamount"] = 2206,
+						},
+						["Hammer of the Righteous"] = {
+							["total"] = 8083,
+							["hitmin"] = 2632,
+							["id"] = 53595,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 6467,
+									["total"] = 8083,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 3835,
+							["amount"] = 6467,
+							["hitamount"] = 6467,
 						},
 						["Hammer of Wrath"] = {
 							["hitmin"] = 3202,
 							["id"] = 48806,
 							["targets"] = {
 								["Melissaaloe"] = {
-									["overkill"] = 2551,
 									["amount"] = 3202,
+									["overkill"] = 2551,
 								},
 							},
 							["overkill"] = 2551,
@@ -15897,185 +16615,29 @@ SkadaStorageDB = {
 							["amount"] = 3202,
 							["hitamount"] = 3202,
 						},
-						["Judgement of Vengeance"] = {
-							["total"] = 2831,
-							["hitmin"] = 838,
-							["id"] = 31804,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 2831,
-									["amount"] = 2070,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 1232,
-							["amount"] = 2070,
-							["hitamount"] = 2070,
-						},
-						["Holy Vengeance"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["PARRY"] = 1,
-							["targets"] = {
-								["Cupic"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 31803,
-						},
-						["Hammer of the Righteous"] = {
-							["total"] = 8083,
-							["hitmin"] = 2632,
-							["id"] = 53595,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 8083,
-									["amount"] = 6467,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 3835,
-							["amount"] = 6467,
-							["hitamount"] = 6467,
-						},
-						["Shield of Righteousness"] = {
-							["total"] = 2757,
-							["hitmin"] = 2206,
-							["id"] = 61411,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 2757,
-									["amount"] = 2206,
-								},
-							},
-							["BLOCK"] = 1,
-							["blocked"] = 1531,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 2206,
-							["school"] = 2,
-							["hit"] = 1,
-							["hitmax"] = 2206,
-							["hitamount"] = 2206,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["total"] = 4947,
-							["hitmin"] = 170,
-							["id"] = 31803,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 4947,
-									["overkill"] = 1222,
-									["amount"] = 3725,
-								},
-							},
-							["overkill"] = 1222,
-							["ABSORB"] = 2,
-							["count"] = 10,
-							["hit"] = 8,
-							["school"] = 2,
-							["hitmax"] = 1366,
-							["amount"] = 3725,
-							["hitamount"] = 3725,
-						},
 						["Seal of Vengeance"] = {
 							["total"] = 1944,
 							["hitmin"] = 67,
 							["id"] = 42463,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1944,
 									["amount"] = 1402,
+									["total"] = 1944,
 								},
 							},
-							["ABSORB"] = 1,
+							["hit"] = 5,
 							["casts"] = 1,
 							["count"] = 6,
-							["hit"] = 5,
+							["ABSORB"] = 1,
 							["school"] = 2,
-							["hitmax"] = 404,
 							["amount"] = 1402,
+							["hitmax"] = 404,
 							["hitamount"] = 1402,
 						},
 					},
 					["absorb"] = 3396,
 					["damagetaken"] = 3164,
-					["damagetakenspells"] = {
-						["Holy Shield"] = {
-							["total"] = 528,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["sources"] = {
-								["Cupic"] = {
-									["total"] = 528,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 48952,
-						},
-						["Seal of Corruption"] = {
-							["total"] = 303,
-							["hitmin"] = 243,
-							["id"] = 53739,
-							["sources"] = {
-								["Cupic"] = {
-									["total"] = 303,
-									["amount"] = 243,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 243,
-							["amount"] = 243,
-							["hitamount"] = 243,
-						},
-						["Blood Corruption (DoT)"] = {
-							["total"] = 3341,
-							["hitmin"] = 464,
-							["id"] = 53742,
-							["ABSORB"] = 4,
-							["sources"] = {
-								["Cupic"] = {
-									["total"] = 3341,
-									["amount"] = 1010,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 546,
-							["amount"] = 1010,
-							["hitamount"] = 1010,
-						},
-						["Hammer of the Righteous"] = {
-							["total"] = 2388,
-							["hitmin"] = 1911,
-							["id"] = 53595,
-							["sources"] = {
-								["Cupic"] = {
-									["total"] = 2388,
-									["amount"] = 1911,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 1911,
-							["amount"] = 1911,
-							["hitamount"] = 1911,
-						},
-					},
+					["overheal"] = 6118,
 					["id"] = "0x0700000000208D33",
 					["spec"] = 66,
 					["healspells"] = {
@@ -16094,17 +16656,16 @@ SkadaStorageDB = {
 							["critical"] = 5,
 							["amount"] = 33794,
 							["school"] = 2,
-							["criticalmin"] = 3920,
-							["casts"] = 6,
 							["count"] = 6,
+							["casts"] = 6,
+							["criticalmin"] = 3920,
 						},
 						[20267] = {
 							["overheal"] = 2105,
-							["school"] = 2,
+							["min"] = 443,
 							["count"] = 23,
 							["amount"] = 11355,
-							["max"] = 772,
-							["ishot"] = true,
+							["school"] = 2,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 0,
@@ -16130,36 +16691,104 @@ SkadaStorageDB = {
 									["overheal"] = 236,
 									["amount"] = 0,
 								},
-								["Earthchomp"] = {
-									["overheal"] = 0,
-									["amount"] = 1264,
-								},
 								["Dominuss"] = {
 									["overheal"] = 0,
 									["amount"] = 2077,
+								},
+								["Earthchomp"] = {
+									["overheal"] = 0,
+									["amount"] = 1264,
 								},
 								["Vitra"] = {
 									["overheal"] = 1498,
 									["amount"] = 2310,
 								},
 							},
-							["min"] = 443,
+							["ishot"] = true,
+							["max"] = 772,
 						},
 					},
-					["overkill"] = 3773,
+					["damagetakenspells"] = {
+						["Holy Shield"] = {
+							["total"] = 528,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["id"] = 48952,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Cupic"] = {
+									["amount"] = 0,
+									["total"] = 528,
+								},
+							},
+						},
+						["Seal of Corruption"] = {
+							["total"] = 303,
+							["hitmin"] = 243,
+							["id"] = 53739,
+							["sources"] = {
+								["Cupic"] = {
+									["amount"] = 243,
+									["total"] = 303,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 243,
+							["amount"] = 243,
+							["hitamount"] = 243,
+						},
+						["Blood Corruption (DoT)"] = {
+							["total"] = 3341,
+							["hitmin"] = 464,
+							["id"] = 53742,
+							["hit"] = 2,
+							["sources"] = {
+								["Cupic"] = {
+									["amount"] = 1010,
+									["total"] = 3341,
+								},
+							},
+							["count"] = 6,
+							["ABSORB"] = 4,
+							["school"] = 2,
+							["amount"] = 1010,
+							["hitmax"] = 546,
+							["hitamount"] = 1010,
+						},
+						["Hammer of the Righteous"] = {
+							["total"] = 2388,
+							["hitmin"] = 1911,
+							["id"] = 53595,
+							["sources"] = {
+								["Cupic"] = {
+									["amount"] = 1911,
+									["total"] = 2388,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 1911,
+							["amount"] = 1911,
+							["hitamount"] = 1911,
+						},
+					},
 					["potionspells"] = {
 						[43570] = 1,
 					},
 					["heal"] = 45149,
+					["potion"] = 1,
+					["ccdone"] = 1,
+					["mana"] = 6213,
+					["name"] = "Vitra",
 					["manaspells"] = {
 						[28499] = 2781,
 						[54428] = 3432,
 					},
-					["ccdone"] = 1,
-					["name"] = "Vitra",
-					["mana"] = 6213,
-					["overheal"] = 6118,
-					["totaldamage"] = 26081,
+					["overkill"] = 3773,
 				}, -- [1]
 				{
 					["ccdonespells"] = {
@@ -16215,14 +16844,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[58683] = {
+						[57970] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
 							["targets"] = {
 								["Vindrys"] = {
+									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 17,
-									["count"] = 2,
 								},
 							},
 							["uptime"] = 17,
@@ -16239,10 +16870,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[28489] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Vindrys"] = {
+									["uptime"] = 17,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 17,
 						},
 						[51585] = {
 							["type"] = "DEBUFF",
@@ -16270,11 +16908,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 16,
 						},
-						[13750] = {
-							["school"] = 1,
+						[72590] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 20,
+							["uptime"] = 37,
 						},
 						[2094] = {
 							["type"] = "DEBUFF",
@@ -16293,17 +16930,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 49,
 						},
-						[31224] = {
+						[72412] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 10,
 						},
-						[59620] = {
-							["school"] = 2,
+						[13750] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 20,
 						},
 						[72586] = {
 							["type"] = "BUFF",
@@ -16338,30 +16975,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 2,
 						},
-						[72412] = {
+						[31224] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 5,
 						},
-						[72590] = {
+						[59620] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[28489] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
-						},
-						[57970] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Vindrys"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 17,
-								},
-							},
-							["uptime"] = 17,
 						},
 					},
 					["energyspells"] = {
@@ -16369,7 +16998,53 @@ SkadaStorageDB = {
 					},
 					["totaldamage"] = 62301,
 					["time"] = 42.29,
+					["role"] = "DAMAGER",
+					["cctaken"] = 1,
+					["totaldamagetaken"] = 22215,
+					["energy"] = 6,
+					["damage"] = 57485,
 					["damagespells"] = {
+						["Kidney Shot"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 8643,
+							["targets"] = {
+								["Vindrys"] = {
+									["amount"] = 0,
+								},
+							},
+							["PARRY"] = 1,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 1231,
+							["criticalmin"] = 3105,
+							["targets"] = {
+								["Bloodstains"] = {
+									["total"] = 5383,
+									["amount"] = 3881,
+									["overkill"] = 2566,
+								},
+								["Vindrys"] = {
+									["amount"] = 11120,
+								},
+							},
+							["amount"] = 15001,
+							["total"] = 16503,
+							["criticalamount"] = 6986,
+							["id"] = 48638,
+							["casts"] = 9,
+							["overkill"] = 2566,
+							["hitmax"] = 1807,
+							["PARRY"] = 2,
+							["count"] = 9,
+							["hit"] = 5,
+							["school"] = 1,
+							["critical"] = 2,
+							["criticalmax"] = 3881,
+							["hitamount"] = 8015,
+						},
 						["Rupture (DoT)"] = {
 							["hitmin"] = 508,
 							["criticalamount"] = 4310,
@@ -16380,14 +17055,83 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 862,
-							["count"] = 8,
+							["hit"] = 3,
 							["criticalmax"] = 862,
-							["critical"] = 5,
+							["count"] = 8,
 							["amount"] = 5835,
 							["school"] = 1,
 							["hitmax"] = 509,
-							["hit"] = 3,
+							["critical"] = 5,
 							["hitamount"] = 1525,
+						},
+						["Instant Poison IX"] = {
+							["hitmin"] = 764,
+							["DEFLECT"] = 1,
+							["id"] = 57965,
+							["targets"] = {
+								["Vindrys"] = {
+									["amount"] = 4151,
+								},
+								["Ravager"] = {
+									["amount"] = 1957,
+								},
+							},
+							["count"] = 8,
+							["casts"] = 1,
+							["hitmax"] = 1089,
+							["hit"] = 7,
+							["school"] = 8,
+							["resisted"] = 216,
+							["amount"] = 6108,
+							["hitamount"] = 6108,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 229,
+							["id"] = 57970,
+							["targets"] = {
+								["Vindrys"] = {
+									["amount"] = 2142,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 8,
+							["hitmax"] = 479,
+							["amount"] = 2142,
+							["hitamount"] = 2142,
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 421,
+							["criticalmin"] = 899,
+							["targets"] = {
+								["Ravager"] = {
+									["amount"] = 3832,
+									["overkill"] = 554,
+								},
+								["Bloodstains"] = {
+									["amount"] = 0,
+									["total"] = 3314,
+								},
+								["Vindrys"] = {
+									["amount"] = 15018,
+								},
+							},
+							["amount"] = 18850,
+							["MISS"] = 1,
+							["total"] = 22164,
+							["criticalamount"] = 11057,
+							["id"] = 6603,
+							["criticalmax"] = 2732,
+							["overkill"] = 554,
+							["hitmax"] = 1216,
+							["PARRY"] = 5,
+							["count"] = 26,
+							["hit"] = 11,
+							["school"] = 1,
+							["critical"] = 6,
+							["ABSORB"] = 1,
+							["hitamount"] = 7793,
 						},
 						["Retribution Aura"] = {
 							["hitmin"] = 188,
@@ -16405,116 +17149,6 @@ SkadaStorageDB = {
 							["amount"] = 569,
 							["hitamount"] = 569,
 						},
-						["Kidney Shot"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["targets"] = {
-								["Vindrys"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 8643,
-						},
-						["Instant Poison IX"] = {
-							["hitmin"] = 764,
-							["DEFLECT"] = 1,
-							["id"] = 57965,
-							["targets"] = {
-								["Ravager"] = {
-									["amount"] = 1957,
-								},
-								["Vindrys"] = {
-									["amount"] = 4151,
-								},
-							},
-							["hitmax"] = 1089,
-							["casts"] = 1,
-							["count"] = 8,
-							["hit"] = 7,
-							["school"] = 8,
-							["resisted"] = 216,
-							["amount"] = 6108,
-							["hitamount"] = 6108,
-						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 421,
-							["criticalmin"] = 899,
-							["targets"] = {
-								["Ravager"] = {
-									["overkill"] = 554,
-									["amount"] = 3832,
-								},
-								["Bloodstains"] = {
-									["total"] = 3314,
-									["amount"] = 0,
-								},
-								["Vindrys"] = {
-									["amount"] = 15018,
-								},
-							},
-							["amount"] = 18850,
-							["MISS"] = 1,
-							["total"] = 22164,
-							["criticalamount"] = 11057,
-							["id"] = 6603,
-							["PARRY"] = 5,
-							["overkill"] = 554,
-							["hit"] = 11,
-							["criticalmax"] = 2732,
-							["count"] = 26,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["critical"] = 6,
-							["hitmax"] = 1216,
-							["hitamount"] = 7793,
-						},
-						["Deadly Poison IX (DoT)"] = {
-							["hitmin"] = 229,
-							["id"] = 57970,
-							["targets"] = {
-								["Vindrys"] = {
-									["amount"] = 2142,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 8,
-							["hitmax"] = 479,
-							["amount"] = 2142,
-							["hitamount"] = 2142,
-						},
-						["Sinister Strike"] = {
-							["hitmin"] = 1231,
-							["criticalmin"] = 3105,
-							["targets"] = {
-								["Bloodstains"] = {
-									["total"] = 5383,
-									["overkill"] = 2566,
-									["amount"] = 3881,
-								},
-								["Vindrys"] = {
-									["amount"] = 11120,
-								},
-							},
-							["amount"] = 15001,
-							["total"] = 16503,
-							["criticalamount"] = 6986,
-							["id"] = 48638,
-							["PARRY"] = 2,
-							["overkill"] = 2566,
-							["casts"] = 9,
-							["criticalmax"] = 3881,
-							["count"] = 9,
-							["hit"] = 5,
-							["school"] = 1,
-							["critical"] = 2,
-							["hitmax"] = 1807,
-							["hitamount"] = 8015,
-						},
 						["Killing Spree"] = {
 							["hitmin"] = 829,
 							["criticalamount"] = 5658,
@@ -16525,188 +17159,17 @@ SkadaStorageDB = {
 									["amount"] = 8980,
 								},
 							},
+							["critical"] = 3,
+							["hit"] = 3,
 							["casts"] = 1,
 							["count"] = 6,
-							["criticalmax"] = 2441,
-							["hitmax"] = 1292,
 							["amount"] = 8980,
 							["school"] = 1,
-							["hit"] = 3,
-							["critical"] = 3,
+							["hitmax"] = 1292,
+							["criticalmax"] = 2441,
 							["hitamount"] = 3322,
 						},
 					},
-					["cctaken"] = 1,
-					["totaldamagetaken"] = 22215,
-					["cctakenspells"] = {
-						[14309] = {
-							["count"] = 1,
-							["sources"] = {
-								["Vindrys"] = 1,
-							},
-						},
-					},
-					["damage"] = 57485,
-					["overheal"] = 0,
-					["name"] = "Ragekiller",
-					["damagetaken"] = 22215,
-					["deathlog"] = {
-						{
-							["log"] = {
-								{
-									["time"] = 5576.34,
-									["source"] = "Vindrys",
-									["amount"] = -5418,
-									["school"] = 1,
-									["hp"] = 1,
-									["spellid"] = 49050,
-									["overkill"] = 547,
-								}, -- [1]
-								{
-									["source"] = "Ragekiller",
-									["amount"] = 2580,
-									["spellid"] = 43185,
-									["hp"] = 4871,
-									["time"] = 5575.893000000001,
-								}, -- [2]
-								{
-									["source"] = "Skyasi",
-									["amount"] = -910,
-									["school"] = 1,
-									["spellid"] = 6603,
-									["hp"] = 3201,
-									["time"] = 5575.572999999999,
-								}, -- [3]
-								{
-									["source"] = "Bloodstains",
-									["amount"] = -2005,
-									["school"] = 1,
-									["spellid"] = 48660,
-									["hp"] = 5205,
-									["time"] = 5573.4,
-								}, -- [4]
-								{
-									["spellid"] = 57975,
-									["time"] = 5573.400000000001,
-									["amount"] = -455,
-									["school"] = 8,
-									["resisted"] = 50,
-									["hp"] = 7210,
-									["source"] = "Bloodstains",
-								}, -- [5]
-								{
-									["spellid"] = 57975,
-									["time"] = 5572.601000000001,
-									["amount"] = -353,
-									["school"] = 8,
-									["resisted"] = 151,
-									["hp"] = 9917,
-									["source"] = "Bloodstains",
-								}, -- [6]
-								{
-									["source"] = "Bloodstains",
-									["amount"] = -2252,
-									["school"] = 1,
-									["spellid"] = 6603,
-									["hp"] = 10270,
-									["time"] = 5572.509,
-								}, -- [7]
-								{
-									["source"] = "Bloodstains",
-									["amount"] = -1863,
-									["school"] = 1,
-									["spellid"] = 48660,
-									["hp"] = 10270,
-									["time"] = 5571.785,
-								}, -- [8]
-								{
-									["spellid"] = 57975,
-									["time"] = 5571.786,
-									["amount"] = -677,
-									["school"] = 8,
-									["resisted"] = 75,
-									["hp"] = 12133,
-									["source"] = "Bloodstains",
-								}, -- [9]
-								{
-									["source"] = "Bloodstains",
-									["amount"] = -1342,
-									["school"] = 1,
-									["spellid"] = 6603,
-									["hp"] = 14152,
-									["time"] = 5571.181000000001,
-								}, -- [10]
-								{
-									["source"] = "Bloodstains",
-									["amount"] = -1884,
-									["school"] = 1,
-									["spellid"] = 6603,
-									["hp"] = 16036,
-									["time"] = 5570.844000000001,
-								}, -- [11]
-								{
-									["source"] = "Ravager",
-									["amount"] = -449,
-									["school"] = 1,
-									["spellid"] = 6603,
-									["hp"] = 25977,
-									["time"] = 5554.963,
-								}, -- [12]
-								{
-									["source"] = "Vindrys",
-									["amount"] = -3248,
-									["school"] = 8,
-									["spellid"] = 53209,
-									["hp"] = 25977,
-									["time"] = 5554.117,
-								}, -- [13]
-								{
-									["source"] = "Ravager",
-									["amount"] = -443,
-									["school"] = 1,
-									["spellid"] = 6603,
-									["hp"] = 29668,
-									["time"] = 5552.978,
-								}, -- [14]
-							},
-							["time"] = 5576.352,
-							["timeod"] = 1690271736,
-							["school"] = 1,
-							["maxhp"] = 30584,
-							["spellid"] = 49050,
-							["source"] = "Vindrys",
-						}, -- [1]
-					},
-					["id"] = "0x07000000001358EE",
-					["spec"] = 260,
-					["healspells"] = {
-						[43185] = {
-							["overheal"] = 0,
-							["criticalamount"] = 2580,
-							["max"] = 2580,
-							["targets"] = {
-								["Ragekiller"] = {
-									["overheal"] = 0,
-									["amount"] = 2580,
-								},
-							},
-							["min"] = 2580,
-							["criticalmax"] = 2580,
-							["critical"] = 1,
-							["amount"] = 2580,
-							["school"] = 1,
-							["criticalmin"] = 2580,
-							["count"] = 1,
-						},
-					},
-					["overkill"] = 3120,
-					["potionspells"] = {
-						[33447] = 1,
-					},
-					["heal"] = 2580,
-					["potion"] = 1,
-					["death"] = 1,
-					["ccdone"] = 4,
 					["damagetakenspells"] = {
 						["Ravage"] = {
 							["DODGE"] = 1,
@@ -16741,6 +17204,8 @@ SkadaStorageDB = {
 							["criticalamount"] = 6388,
 							["id"] = 6603,
 							["criticalmin"] = 910,
+							["critical"] = 4,
+							["hit"] = 3,
 							["sources"] = {
 								["Ravager"] = {
 									["amount"] = 1310,
@@ -16753,12 +17218,10 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 9,
-							["criticalmax"] = 2252,
-							["hitmax"] = 449,
 							["amount"] = 7698,
 							["school"] = 1,
-							["hit"] = 3,
-							["critical"] = 4,
+							["hitmax"] = 449,
+							["criticalmax"] = 2252,
 							["hitamount"] = 1310,
 						},
 						["Auto Shot"] = {
@@ -16824,38 +17287,204 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 5418,
 							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 5418,
 							["sources"] = {
 								["Vindrys"] = {
-									["overkill"] = 547,
 									["amount"] = 5418,
+									["overkill"] = 547,
 								},
 							},
-							["criticalmin"] = 5418,
-							["count"] = 1,
 						},
 						["Wound Poison VII"] = {
 							["hitmin"] = 353,
 							["criticalamount"] = 677,
 							["id"] = 57975,
 							["criticalmin"] = 677,
+							["critical"] = 1,
+							["count"] = 3,
+							["amount"] = 1485,
 							["criticalmax"] = 677,
 							["hitmax"] = 455,
 							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 276,
 							["sources"] = {
 								["Bloodstains"] = {
 									["amount"] = 1485,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 1485,
-							["school"] = 8,
-							["resisted"] = 276,
-							["critical"] = 1,
 							["hitamount"] = 808,
 						},
 					},
-					["energy"] = 6,
-					["role"] = "DAMAGER",
+					["damagetaken"] = 22215,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["source"] = "Vindrys",
+									["time"] = 5576.34,
+									["amount"] = -5418,
+									["school"] = 1,
+									["spellid"] = 49050,
+									["hp"] = 1,
+									["overkill"] = 547,
+								}, -- [1]
+								{
+									["source"] = "Ragekiller",
+									["amount"] = 2580,
+									["time"] = 5575.893000000001,
+									["spellid"] = 43185,
+									["hp"] = 4871,
+								}, -- [2]
+								{
+									["source"] = "Skyasi",
+									["amount"] = -910,
+									["school"] = 1,
+									["time"] = 5575.572999999999,
+									["spellid"] = 6603,
+									["hp"] = 3201,
+								}, -- [3]
+								{
+									["source"] = "Bloodstains",
+									["amount"] = -2005,
+									["school"] = 1,
+									["time"] = 5573.4,
+									["spellid"] = 48660,
+									["hp"] = 5205,
+								}, -- [4]
+								{
+									["source"] = "Bloodstains",
+									["time"] = 5573.400000000001,
+									["amount"] = -455,
+									["school"] = 8,
+									["resisted"] = 50,
+									["spellid"] = 57975,
+									["hp"] = 7210,
+								}, -- [5]
+								{
+									["source"] = "Bloodstains",
+									["time"] = 5572.601000000001,
+									["amount"] = -353,
+									["school"] = 8,
+									["resisted"] = 151,
+									["spellid"] = 57975,
+									["hp"] = 9917,
+								}, -- [6]
+								{
+									["source"] = "Bloodstains",
+									["amount"] = -2252,
+									["school"] = 1,
+									["time"] = 5572.509,
+									["spellid"] = 6603,
+									["hp"] = 10270,
+								}, -- [7]
+								{
+									["source"] = "Bloodstains",
+									["amount"] = -1863,
+									["school"] = 1,
+									["time"] = 5571.785,
+									["spellid"] = 48660,
+									["hp"] = 10270,
+								}, -- [8]
+								{
+									["source"] = "Bloodstains",
+									["time"] = 5571.786,
+									["amount"] = -677,
+									["school"] = 8,
+									["resisted"] = 75,
+									["spellid"] = 57975,
+									["hp"] = 12133,
+								}, -- [9]
+								{
+									["source"] = "Bloodstains",
+									["amount"] = -1342,
+									["school"] = 1,
+									["time"] = 5571.181000000001,
+									["spellid"] = 6603,
+									["hp"] = 14152,
+								}, -- [10]
+								{
+									["source"] = "Bloodstains",
+									["amount"] = -1884,
+									["school"] = 1,
+									["time"] = 5570.844000000001,
+									["spellid"] = 6603,
+									["hp"] = 16036,
+								}, -- [11]
+								{
+									["source"] = "Ravager",
+									["amount"] = -449,
+									["school"] = 1,
+									["time"] = 5554.963,
+									["spellid"] = 6603,
+									["hp"] = 25977,
+								}, -- [12]
+								{
+									["source"] = "Vindrys",
+									["amount"] = -3248,
+									["school"] = 8,
+									["time"] = 5554.117,
+									["spellid"] = 53209,
+									["hp"] = 25977,
+								}, -- [13]
+								{
+									["source"] = "Ravager",
+									["amount"] = -443,
+									["school"] = 1,
+									["time"] = 5552.978,
+									["spellid"] = 6603,
+									["hp"] = 29668,
+								}, -- [14]
+							},
+							["time"] = 5576.352,
+							["source"] = "Vindrys",
+							["school"] = 1,
+							["maxhp"] = 30584,
+							["spellid"] = 49050,
+							["timeod"] = 1690271736,
+						}, -- [1]
+					},
+					["id"] = "0x07000000001358EE",
+					["spec"] = 260,
+					["healspells"] = {
+						[43185] = {
+							["overheal"] = 0,
+							["criticalamount"] = 2580,
+							["max"] = 2580,
+							["targets"] = {
+								["Ragekiller"] = {
+									["overheal"] = 0,
+									["amount"] = 2580,
+								},
+							},
+							["min"] = 2580,
+							["criticalmax"] = 2580,
+							["critical"] = 1,
+							["amount"] = 2580,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 2580,
+						},
+					},
+					["overkill"] = 3120,
+					["potionspells"] = {
+						[33447] = 1,
+					},
+					["heal"] = 2580,
+					["name"] = "Ragekiller",
+					["death"] = 1,
+					["ccdone"] = 4,
+					["potion"] = 1,
+					["cctakenspells"] = {
+						[14309] = {
+							["count"] = 1,
+							["sources"] = {
+								["Vindrys"] = 1,
+							},
+						},
+					},
+					["overheal"] = 0,
 				}, -- [2]
 				{
 					["ccdonespells"] = {
@@ -16889,17 +17518,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[8643] = {
-							["type"] = "DEBUFF",
+						[54043] = {
+							["school"] = 2,
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
+							["uptime"] = 25,
 						},
 						[57975] = {
 							["type"] = "DEBUFF",
@@ -16907,15 +17530,15 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["refresh"] = 10,
 							["targets"] = {
-								["Cupic"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 2,
-								},
 								["Melissaaloe"] = {
 									["refresh"] = 9,
 									["count"] = 2,
 									["uptime"] = 21,
+								},
+								["Cupic"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 2,
 								},
 							},
 							["uptime"] = 23,
@@ -16926,19 +17549,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[1833] = {
+						[3409] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 7,
 							["targets"] = {
 								["Melissaaloe"] = {
+									["refresh"] = 6,
+									["count"] = 3,
+									["uptime"] = 20,
+								},
+								["Cupic"] = {
 									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 5,
+									["count"] = 1,
+									["uptime"] = 2,
 								},
 							},
-							["uptime"] = 5,
+							["uptime"] = 22,
 						},
 						[71403] = {
 							["school"] = 1,
@@ -16959,14 +17587,14 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["refresh"] = 4,
 							["targets"] = {
-								["Cupic"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
 								["Melissaaloe"] = {
 									["refresh"] = 4,
 									["count"] = 2,
 									["uptime"] = 19,
+								},
+								["Cupic"] = {
+									["uptime"] = 2,
+									["count"] = 1,
 								},
 							},
 							["uptime"] = 21,
@@ -16989,36 +17617,37 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["uptime"] = 11,
 						},
+						[1833] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Melissaaloe"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 5,
+						},
 						[48942] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[3409] = {
+						[8643] = {
 							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["refresh"] = 7,
+							["count"] = 1,
+							["school"] = 1,
 							["targets"] = {
-								["Cupic"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 2,
-								},
 								["Melissaaloe"] = {
-									["refresh"] = 6,
-									["count"] = 3,
-									["uptime"] = 20,
+									["uptime"] = 2,
+									["count"] = 1,
 								},
 							},
-							["uptime"] = 22,
-						},
-						[54043] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
+							["uptime"] = 2,
 						},
 					},
 					["energyspells"] = {
@@ -17049,13 +17678,13 @@ SkadaStorageDB = {
 							["criticalmin"] = 729,
 							["IMMUNE"] = 1,
 							["targets"] = {
-								["Cupic"] = {
-									["total"] = 286,
-									["amount"] = 229,
-								},
 								["Melissaaloe"] = {
-									["total"] = 12522,
 									["amount"] = 6263,
+									["total"] = 12522,
+								},
+								["Cupic"] = {
+									["amount"] = 229,
+									["total"] = 286,
 								},
 							},
 							["amount"] = 6492,
@@ -17063,92 +17692,45 @@ SkadaStorageDB = {
 							["total"] = 12808,
 							["criticalamount"] = 3048,
 							["id"] = 6603,
-							["count"] = 24,
 							["critical"] = 3,
-							["hit"] = 6,
-							["criticalmax"] = 1345,
-							["hitmax"] = 820,
-							["ABSORB"] = 8,
-							["school"] = 1,
-							["blocked"] = 356,
 							["BLOCK"] = 1,
+							["blocked"] = 356,
+							["criticalmax"] = 1345,
+							["count"] = 24,
+							["hit"] = 6,
+							["school"] = 1,
+							["ABSORB"] = 8,
+							["hitmax"] = 820,
 							["hitamount"] = 3444,
 						},
 						["Mutilate"] = {
 							["hitmin"] = 397,
 							["criticalmin"] = 946,
 							["targets"] = {
-								["Cupic"] = {
-									["total"] = 1678,
-									["amount"] = 1343,
-								},
 								["Melissaaloe"] = {
-									["total"] = 13797,
 									["amount"] = 7848,
+									["total"] = 13797,
+								},
+								["Cupic"] = {
+									["amount"] = 1343,
+									["total"] = 1678,
 								},
 							},
 							["amount"] = 9191,
 							["total"] = 15475,
 							["criticalamount"] = 7645,
 							["id"] = 48665,
+							["critical"] = 4,
+							["criticalmax"] = 2332,
+							["BLOCK"] = 2,
+							["ABSORB"] = 4,
+							["casts"] = 7,
 							["count"] = 12,
 							["hit"] = 2,
-							["critical"] = 4,
-							["blocked"] = 1849,
-							["casts"] = 7,
-							["hitmax"] = 1149,
-							["ABSORB"] = 4,
 							["school"] = 1,
-							["BLOCK"] = 2,
-							["criticalmax"] = 2332,
+							["hitmax"] = 1149,
+							["blocked"] = 1849,
 							["hitamount"] = 1546,
-						},
-						["Wound Poison VII"] = {
-							["hitmin"] = 297,
-							["criticalmin"] = 345,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 870,
-									["amount"] = 696,
-								},
-								["Melissaaloe"] = {
-									["total"] = 3637,
-									["amount"] = 1685,
-								},
-							},
-							["amount"] = 2381,
-							["resisted"] = 481,
-							["total"] = 4507,
-							["criticalamount"] = 345,
-							["id"] = 57975,
-							["criticalmax"] = 345,
-							["count"] = 13,
-							["casts"] = 1,
-							["critical"] = 1,
-							["ABSORB"] = 6,
-							["school"] = 8,
-							["hitmax"] = 375,
-							["hit"] = 6,
-							["hitamount"] = 2036,
-						},
-						["Deadly Poison IX (DoT)"] = {
-							["total"] = 2440,
-							["hitmin"] = 457,
-							["id"] = 57970,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["total"] = 2440,
-									["amount"] = 1044,
-								},
-							},
-							["hitmax"] = 587,
-							["ABSORB"] = 3,
-							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 260,
-							["amount"] = 1044,
-							["hitamount"] = 1044,
 						},
 						["Envenom"] = {
 							["criticalamount"] = 2633,
@@ -17158,35 +17740,78 @@ SkadaStorageDB = {
 									["amount"] = 2633,
 								},
 							},
-							["criticalmin"] = 2633,
+							["critical"] = 1,
 							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 2633,
 							["school"] = 8,
 							["resisted"] = 1755,
 							["criticalmax"] = 2633,
+							["criticalmin"] = 2633,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 297,
+							["criticalmin"] = 345,
+							["targets"] = {
+								["Melissaaloe"] = {
+									["amount"] = 1685,
+									["total"] = 3637,
+								},
+								["Cupic"] = {
+									["amount"] = 696,
+									["total"] = 870,
+								},
+							},
+							["amount"] = 2381,
+							["resisted"] = 481,
+							["total"] = 4507,
+							["criticalamount"] = 345,
+							["id"] = 57975,
+							["casts"] = 1,
+							["hit"] = 6,
+							["criticalmax"] = 345,
+							["count"] = 13,
+							["ABSORB"] = 6,
+							["school"] = 8,
+							["hitmax"] = 375,
 							["critical"] = 1,
+							["hitamount"] = 2036,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["total"] = 2440,
+							["hitmin"] = 457,
+							["id"] = 57970,
+							["targets"] = {
+								["Melissaaloe"] = {
+									["amount"] = 1044,
+									["total"] = 2440,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 1044,
+							["hitmax"] = 587,
+							["ABSORB"] = 3,
+							["school"] = 8,
+							["resisted"] = 260,
+							["hit"] = 2,
+							["hitamount"] = 1044,
 						},
 					},
 					["damagetaken"] = 8336,
 					["id"] = "0x07000000008C9EF0",
 					["spec"] = 259,
 					["damagetakenspells"] = {
-						["Fire Blast"] = {
-							["hitmin"] = 257,
-							["id"] = 59637,
-							["amount"] = 518,
+						["Shattered Barrier"] = {
 							["sources"] = {
-								["Mirror Image"] = {
-									["amount"] = 518,
+								["Melissaaloe"] = {
+									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 261,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
 							["MISS"] = 1,
-							["hitamount"] = 518,
+							["id"] = 55080,
 						},
 						["Freeze"] = {
 							["hitmin"] = 119,
@@ -17203,20 +17828,35 @@ SkadaStorageDB = {
 							["amount"] = 119,
 							["hitamount"] = 119,
 						},
-						["Waterbolt"] = {
-							["hitmin"] = 1207,
-							["id"] = 31707,
+						["Frostbolt"] = {
+							["hitmin"] = 461,
+							["id"] = 59638,
 							["sources"] = {
-								["Water Elemental"] = {
-									["amount"] = 1207,
+								["Mirror Image"] = {
+									["amount"] = 2316,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
 							["school"] = 16,
-							["hitmax"] = 1207,
-							["amount"] = 1207,
-							["hitamount"] = 1207,
+							["hitmax"] = 465,
+							["amount"] = 2316,
+							["hitamount"] = 2316,
+						},
+						["Frost Nova"] = {
+							["criticalamount"] = 1503,
+							["id"] = 42917,
+							["criticalmax"] = 1503,
+							["critical"] = 1,
+							["amount"] = 1503,
+							["school"] = 16,
+							["count"] = 1,
+							["criticalmin"] = 1503,
+							["sources"] = {
+								["Melissaaloe"] = {
+									["amount"] = 1503,
+								},
+							},
 						},
 						["Holy Shield"] = {
 							["hitmin"] = 633,
@@ -17233,35 +17873,20 @@ SkadaStorageDB = {
 							["amount"] = 1267,
 							["hitamount"] = 1267,
 						},
-						["Frost Nova"] = {
-							["criticalamount"] = 1503,
-							["id"] = 42917,
-							["criticalmax"] = 1503,
-							["critical"] = 1,
-							["amount"] = 1503,
-							["school"] = 16,
+						["Waterbolt"] = {
+							["hitmin"] = 1207,
+							["id"] = 31707,
 							["sources"] = {
-								["Melissaaloe"] = {
-									["amount"] = 1503,
+								["Water Elemental"] = {
+									["amount"] = 1207,
 								},
 							},
-							["criticalmin"] = 1503,
 							["count"] = 1,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 461,
-							["id"] = 59638,
-							["sources"] = {
-								["Mirror Image"] = {
-									["amount"] = 2316,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
+							["hit"] = 1,
 							["school"] = 16,
-							["hitmax"] = 465,
-							["amount"] = 2316,
-							["hitamount"] = 2316,
+							["hitmax"] = 1207,
+							["amount"] = 1207,
+							["hitamount"] = 1207,
 						},
 						["Cone of Cold"] = {
 							["hitmin"] = 1406,
@@ -17278,21 +17903,26 @@ SkadaStorageDB = {
 							["amount"] = 1406,
 							["hitamount"] = 1406,
 						},
-						["Shattered Barrier"] = {
+						["Fire Blast"] = {
+							["hitmin"] = 257,
+							["id"] = 59637,
+							["hit"] = 2,
 							["sources"] = {
-								["Melissaaloe"] = {
-									["amount"] = 0,
+								["Mirror Image"] = {
+									["amount"] = 518,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
+							["count"] = 3,
+							["amount"] = 518,
+							["school"] = 4,
+							["hitmax"] = 261,
 							["MISS"] = 1,
-							["id"] = 55080,
+							["hitamount"] = 518,
 						},
 					},
 					["name"] = "Dominuss",
 					["ccdone"] = 4,
+					["role"] = "DAMAGER",
 					["cctakenspells"] = {
 						[44572] = {
 							["count"] = 1,
@@ -17314,7 +17944,6 @@ SkadaStorageDB = {
 						},
 					},
 					["energy"] = 28,
-					["role"] = "DAMAGER",
 				}, -- [3]
 				{
 					["ccdonespells"] = {
@@ -17450,10 +18079,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 1,
 						},
-						[54043] = {
+						[50227] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 49,
+							["uptime"] = 4,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
@@ -17473,36 +18103,47 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[50227] = {
-							["school"] = 1,
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 49,
 						},
 					},
 					["dispel"] = 3,
 					["role"] = "TANK",
 					["time"] = 25.01,
+					["totaldamage"] = 24325,
+					["cctaken"] = 1,
+					["totaldamagetaken"] = 20756,
+					["cctakenspells"] = {
+						[8643] = {
+							["count"] = 1,
+							["sources"] = {
+								["Skyasi"] = 1,
+							},
+						},
+					},
+					["damage"] = 21260,
 					["damagespells"] = {
 						["Shield Slam"] = {
 							["total"] = 2039,
 							["hitmin"] = 434,
 							["id"] = 47488,
-							["blocked"] = 1555,
+							["ABSORB"] = 1,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2039,
 									["amount"] = 434,
+									["total"] = 2039,
 								},
 							},
-							["count"] = 3,
-							["ABSORB"] = 1,
-							["casts"] = 3,
-							["BLOCK"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 434,
 							["hitmax"] = 434,
+							["amount"] = 434,
+							["casts"] = 3,
+							["count"] = 3,
+							["blocked"] = 1555,
+							["school"] = 1,
+							["hit"] = 1,
+							["BLOCK"] = 1,
 							["hitamount"] = 434,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -17511,8 +18152,8 @@ SkadaStorageDB = {
 							["id"] = 12721,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 888,
 									["amount"] = 801,
+									["total"] = 888,
 								},
 							},
 							["count"] = 6,
@@ -17526,11 +18167,11 @@ SkadaStorageDB = {
 							["hitmin"] = 72,
 							["id"] = 54043,
 							["targets"] = {
-								["Cupic"] = {
-									["amount"] = 1423,
-								},
 								["Skyasi"] = {
 									["amount"] = 828,
+								},
+								["Cupic"] = {
+									["amount"] = 1423,
 								},
 							},
 							["casts"] = 1,
@@ -17581,21 +18222,21 @@ SkadaStorageDB = {
 							["hitmin"] = 51,
 							["id"] = 59653,
 							["targets"] = {
-								["Cupic"] = {
-									["total"] = 1266,
-									["amount"] = 777,
-								},
 								["Skyasi"] = {
 									["amount"] = 674,
 								},
+								["Cupic"] = {
+									["amount"] = 777,
+									["total"] = 1266,
+								},
 							},
-							["ABSORB"] = 3,
+							["hit"] = 10,
 							["casts"] = 1,
 							["count"] = 13,
-							["hit"] = 10,
+							["ABSORB"] = 3,
 							["school"] = 1,
-							["hitmax"] = 226,
 							["amount"] = 1451,
+							["hitmax"] = 226,
 							["hitamount"] = 1451,
 						},
 						["Devastate"] = {
@@ -17604,94 +18245,99 @@ SkadaStorageDB = {
 							["criticalmin"] = 1935,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 3740,
 									["amount"] = 3522,
+									["total"] = 3740,
 								},
 							},
 							["amount"] = 3522,
 							["total"] = 3740,
 							["criticalamount"] = 1935,
 							["id"] = 47498,
-							["count"] = 7,
-							["casts"] = 7,
 							["hitmax"] = 876,
-							["blocked"] = 2126,
-							["PARRY"] = 1,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 1,
-							["BLOCK"] = 2,
 							["criticalmax"] = 1935,
-							["hitamount"] = 1587,
-						},
-						["Shockwave"] = {
-							["criticalmin"] = 4261,
-							["hitmin"] = 2247,
-							["criticalamount"] = 4261,
-							["id"] = 46968,
-							["casts"] = 1,
-							["targets"] = {
-								["Mirror Image"] = {
-									["overkill"] = 543,
-									["amount"] = 6649,
-								},
-								["Water Elemental"] = {
-									["amount"] = 2247,
-								},
-							},
-							["overkill"] = 543,
-							["count"] = 3,
-							["criticalmax"] = 4261,
-							["hitmax"] = 2388,
-							["amount"] = 8896,
-							["school"] = 1,
+							["BLOCK"] = 2,
 							["hit"] = 2,
+							["casts"] = 7,
+							["count"] = 7,
+							["blocked"] = 2126,
+							["school"] = 1,
 							["critical"] = 1,
-							["hitamount"] = 4635,
+							["PARRY"] = 1,
+							["hitamount"] = 1587,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
 							["total"] = 2646,
 							["hitmin"] = 479,
 							["id"] = 6603,
-							["amount"] = 1980,
+							["hit"] = 3,
 							["targets"] = {
 								["Mirror Image"] = {
 									["amount"] = 971,
 								},
 								["Cupic"] = {
-									["total"] = 1675,
 									["amount"] = 1009,
+									["total"] = 1675,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 3,
-							["PARRY"] = 2,
-							["hitmax"] = 971,
-							["blocked"] = 1506,
-							["school"] = 1,
-							["ABSORB"] = 1,
 							["BLOCK"] = 3,
+							["ABSORB"] = 1,
+							["PARRY"] = 2,
+							["count"] = 10,
+							["amount"] = 1980,
+							["school"] = 1,
+							["blocked"] = 1506,
+							["hitmax"] = 971,
 							["hitamount"] = 1980,
 						},
-					},
-					["cctaken"] = 1,
-					["totaldamagetaken"] = 20756,
-					["dispelspells"] = {
-						[47488] = {
-							["spells"] = {
-								[48934] = 1,
-								[53601] = 1,
-								[498] = 1,
-							},
-							["count"] = 3,
+						["Shockwave"] = {
+							["criticalamount"] = 4261,
+							["hitmin"] = 2247,
+							["criticalmin"] = 4261,
+							["id"] = 46968,
+							["critical"] = 1,
 							["targets"] = {
-								["Cupic"] = 3,
+								["Mirror Image"] = {
+									["amount"] = 6649,
+									["overkill"] = 543,
+								},
+								["Water Elemental"] = {
+									["amount"] = 2247,
+								},
 							},
+							["overkill"] = 543,
+							["hit"] = 2,
+							["casts"] = 1,
+							["count"] = 3,
+							["amount"] = 8896,
+							["school"] = 1,
+							["hitmax"] = 2388,
+							["criticalmax"] = 4261,
+							["hitamount"] = 4635,
 						},
 					},
-					["damage"] = 21260,
-					["overheal"] = 0,
+					["sunder"] = 7,
+					["damagetaken"] = 20756,
+					["heal"] = 16070,
+					["id"] = "0x070000000031EFCF",
+					["spec"] = 73,
+					["healspells"] = {
+						[55694] = {
+							["overheal"] = 0,
+							["min"] = 1607,
+							["count"] = 10,
+							["amount"] = 16070,
+							["max"] = 1607,
+							["ishot"] = true,
+							["targets"] = {
+								["Jaisenda"] = {
+									["overheal"] = 0,
+									["amount"] = 16070,
+								},
+							},
+							["school"] = 1,
+						},
+					},
 					["damagetakenspells"] = {
 						["Seal of Corruption"] = {
 							["hitmin"] = 53,
@@ -17711,21 +18357,21 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 150,
 							["id"] = 6603,
-							["count"] = 11,
 							["BLOCK"] = 2,
-							["hit"] = 8,
+							["hitmax"] = 417,
+							["blocked"] = 700,
 							["sources"] = {
-								["Cupic"] = {
-									["amount"] = 1625,
-								},
 								["Skyasi"] = {
 									["amount"] = 953,
 								},
+								["Cupic"] = {
+									["amount"] = 1625,
+								},
 							},
-							["hitmax"] = 417,
-							["amount"] = 2578,
+							["count"] = 11,
+							["hit"] = 8,
 							["school"] = 1,
-							["blocked"] = 700,
+							["amount"] = 2578,
 							["MISS"] = 1,
 							["hitamount"] = 2578,
 						},
@@ -17736,13 +18382,13 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1868,
 							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 1868,
 							["sources"] = {
 								["Skyasi"] = {
 									["amount"] = 1868,
 								},
 							},
-							["criticalmin"] = 1868,
-							["count"] = 1,
 						},
 						["Holy Shield"] = {
 							["hitmin"] = 562,
@@ -17774,21 +18420,6 @@ SkadaStorageDB = {
 							["amount"] = 2245,
 							["hitamount"] = 2245,
 						},
-						["Blood Corruption (DoT)"] = {
-							["hitmin"] = 232,
-							["id"] = 53742,
-							["sources"] = {
-								["Cupic"] = {
-									["amount"] = 5455,
-								},
-							},
-							["count"] = 11,
-							["hit"] = 11,
-							["school"] = 2,
-							["hitmax"] = 584,
-							["amount"] = 5455,
-							["hitamount"] = 5455,
-						},
 						["Hammer of the Righteous"] = {
 							["hitmin"] = 2502,
 							["id"] = 53595,
@@ -17804,56 +18435,54 @@ SkadaStorageDB = {
 							["amount"] = 5193,
 							["hitamount"] = 5193,
 						},
-					},
-					["damagetaken"] = 20756,
-					["rage"] = 10,
-					["id"] = "0x070000000031EFCF",
-					["spec"] = 73,
-					["healspells"] = {
-						[55694] = {
-							["overheal"] = 0,
-							["max"] = 1607,
-							["count"] = 10,
-							["amount"] = 16070,
-							["school"] = 1,
-							["targets"] = {
-								["Jaisenda"] = {
-									["overheal"] = 0,
-									["amount"] = 16070,
+						["Blood Corruption (DoT)"] = {
+							["hitmin"] = 232,
+							["id"] = 53742,
+							["sources"] = {
+								["Cupic"] = {
+									["amount"] = 5455,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 1607,
+							["count"] = 11,
+							["hit"] = 11,
+							["school"] = 2,
+							["hitmax"] = 584,
+							["amount"] = 5455,
+							["hitamount"] = 5455,
 						},
-					},
-					["overkill"] = 543,
-					["name"] = "Jaisenda",
-					["ragespells"] = {
-						[23602] = 10,
 					},
 					["sundertargets"] = {
 						["Cupic"] = 7,
 					},
+					["ragespells"] = {
+						[23602] = 10,
+					},
+					["name"] = "Jaisenda",
 					["ccdone"] = 4,
-					["heal"] = 16070,
-					["sunder"] = 7,
-					["cctakenspells"] = {
-						[8643] = {
-							["count"] = 1,
-							["sources"] = {
-								["Skyasi"] = 1,
+					["overkill"] = 543,
+					["rage"] = 10,
+					["dispelspells"] = {
+						[47488] = {
+							["spells"] = {
+								[48934] = 1,
+								[53601] = 1,
+								[498] = 1,
+							},
+							["count"] = 3,
+							["targets"] = {
+								["Cupic"] = 3,
 							},
 						},
 					},
-					["totaldamage"] = 24325,
+					["overheal"] = 0,
 				}, -- [4]
 				{
 					["ccdonespells"] = {
 						[45524] = {
 							["count"] = 2,
 							["targets"] = {
-								["Cupic"] = 1,
 								["Skyasi"] = 1,
+								["Cupic"] = 1,
 							},
 						},
 					},
@@ -17882,12 +18511,12 @@ SkadaStorageDB = {
 									["uptime"] = 15,
 									["count"] = 2,
 								},
-								["Melissaaloe"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
 								["Skyasi"] = {
 									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Melissaaloe"] = {
+									["uptime"] = 1,
 									["count"] = 1,
 								},
 							},
@@ -17903,14 +18532,14 @@ SkadaStorageDB = {
 									["uptime"] = 18,
 									["count"] = 1,
 								},
-								["Melissaaloe"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
 								["Skyasi"] = {
 									["refresh"] = 1,
 									["count"] = 1,
 									["uptime"] = 5,
+								},
+								["Melissaaloe"] = {
+									["uptime"] = 1,
+									["count"] = 1,
 								},
 							},
 							["uptime"] = 20,
@@ -17937,14 +18566,14 @@ SkadaStorageDB = {
 									["count"] = 2,
 									["uptime"] = 18,
 								},
-								["Melissaaloe"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
 								["Skyasi"] = {
 									["refresh"] = 2,
 									["count"] = 1,
 									["uptime"] = 7,
+								},
+								["Melissaaloe"] = {
+									["uptime"] = 1,
+									["count"] = 1,
 								},
 							},
 							["uptime"] = 22,
@@ -17991,14 +18620,14 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["refresh"] = 1,
 							["targets"] = {
-								["Cupic"] = {
-									["uptime"] = 18,
-									["count"] = 2,
-								},
 								["Skyasi"] = {
 									["refresh"] = 1,
 									["count"] = 1,
 									["uptime"] = 7,
+								},
+								["Cupic"] = {
+									["uptime"] = 18,
+									["count"] = 2,
 								},
 							},
 							["uptime"] = 21,
@@ -18009,11 +18638,10 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 49,
 						},
-						[57623] = {
-							["school"] = 1,
+						[48263] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 7,
+							["count"] = 1,
+							["uptime"] = 49,
 						},
 						[72412] = {
 							["school"] = 1,
@@ -18033,10 +18661,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[48263] = {
+						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 49,
+							["count"] = 2,
+							["uptime"] = 7,
 						},
 					},
 					["totaldamage"] = 32820,
@@ -18054,40 +18683,40 @@ SkadaStorageDB = {
 									["amount"] = 1701,
 								},
 							},
-							["hitmax"] = 909,
-							["PARRY"] = 1,
 							["count"] = 5,
+							["PARRY"] = 1,
+							["hitmax"] = 909,
 							["amount"] = 1701,
 							["school"] = 1,
-							["casts"] = 5,
 							["hit"] = 2,
+							["casts"] = 5,
 							["hitamount"] = 1701,
 						},
 						["Melee"] = {
 							["total"] = 5786,
 							["hitmin"] = 295,
 							["id"] = 6603,
-							["amount"] = 5133,
+							["hit"] = 5,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2367,
 									["amount"] = 1714,
-								},
-								["Melissaaloe"] = {
-									["amount"] = 1806,
+									["total"] = 2367,
 								},
 								["Skyasi"] = {
 									["amount"] = 1613,
 								},
+								["Melissaaloe"] = {
+									["amount"] = 1806,
+								},
 							},
-							["count"] = 8,
-							["hit"] = 5,
-							["PARRY"] = 1,
-							["hitmax"] = 1806,
-							["blocked"] = 681,
-							["school"] = 1,
-							["ABSORB"] = 1,
 							["BLOCK"] = 1,
+							["ABSORB"] = 1,
+							["PARRY"] = 1,
+							["count"] = 8,
+							["amount"] = 5133,
+							["school"] = 1,
+							["blocked"] = 681,
+							["hitmax"] = 1806,
 							["hitamount"] = 5133,
 						},
 						["Death and Decay"] = {
@@ -18096,17 +18725,17 @@ SkadaStorageDB = {
 							["id"] = 52212,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 2379,
 									["amount"] = 1343,
+									["total"] = 2379,
 								},
 							},
-							["ABSORB"] = 1,
+							["hit"] = 5,
 							["casts"] = 1,
 							["count"] = 6,
-							["hit"] = 5,
+							["ABSORB"] = 1,
 							["school"] = 32,
-							["hitmax"] = 269,
 							["amount"] = 1343,
+							["hitmax"] = 269,
 							["hitamount"] = 1343,
 						},
 						["Death Coil"] = {
@@ -18117,18 +18746,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 1478,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 7092,
 									["amount"] = 4810,
+									["total"] = 7092,
 								},
 							},
+							["critical"] = 1,
+							["hit"] = 2,
 							["casts"] = 3,
 							["count"] = 3,
-							["criticalmax"] = 1478,
-							["hitmax"] = 1693,
 							["amount"] = 4810,
 							["school"] = 32,
-							["hit"] = 2,
-							["critical"] = 1,
+							["hitmax"] = 1693,
+							["criticalmax"] = 1478,
 							["hitamount"] = 3332,
 						},
 						["Unholy Blight (DoT)"] = {
@@ -18137,16 +18766,16 @@ SkadaStorageDB = {
 							["id"] = 50536,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 314,
 									["amount"] = 256,
+									["total"] = 314,
 								},
 							},
-							["ABSORB"] = 2,
-							["count"] = 19,
 							["hit"] = 17,
+							["count"] = 19,
+							["ABSORB"] = 2,
 							["school"] = 32,
-							["hitmax"] = 16,
 							["amount"] = 256,
+							["hitmax"] = 16,
 							["hitamount"] = 256,
 						},
 						["Wandering Plague"] = {
@@ -18181,39 +18810,42 @@ SkadaStorageDB = {
 							["amount"] = 169,
 							["hitamount"] = 169,
 						},
-						["Blood Strike"] = {
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["PARRY"] = 2,
+						["Retribution Aura"] = {
+							["hitmin"] = 168,
+							["id"] = 54043,
 							["targets"] = {
 								["Cupic"] = {
-									["amount"] = 0,
+									["amount"] = 337,
 								},
 							},
-							["id"] = 49930,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 169,
+							["amount"] = 337,
+							["hitamount"] = 337,
 						},
 						["Claw (Earthchomp)"] = {
-							["blocked"] = 637,
+							["BLOCK"] = 3,
 							["total"] = 395,
 							["hitmin"] = 88,
-							["count"] = 7,
+							["ABSORB"] = 1,
 							["id"] = 47468,
-							["PARRY"] = 1,
+							["amount"] = 88,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 395,
 									["amount"] = 88,
+									["total"] = 395,
 								},
 							},
-							["BLOCK"] = 3,
-							["ABSORB"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 88,
 							["hit"] = 1,
+							["PARRY"] = 1,
+							["count"] = 7,
+							["blocked"] = 637,
 							["school"] = 1,
-							["amount"] = 88,
+							["casts"] = 1,
 							["MISS"] = 1,
 							["hitamount"] = 88,
 						},
@@ -18222,20 +18854,20 @@ SkadaStorageDB = {
 							["hitmin"] = 323,
 							["id"] = 55078,
 							["targets"] = {
-								["Cupic"] = {
-									["total"] = 3346,
-									["amount"] = 2554,
-								},
 								["Skyasi"] = {
 									["amount"] = 670,
 								},
+								["Cupic"] = {
+									["amount"] = 2554,
+									["total"] = 3346,
+								},
 							},
-							["ABSORB"] = 1,
-							["count"] = 7,
 							["hit"] = 6,
+							["count"] = 7,
+							["ABSORB"] = 1,
 							["school"] = 32,
-							["hitmax"] = 670,
 							["amount"] = 3224,
+							["hitmax"] = 670,
 							["hitamount"] = 3224,
 						},
 						["Scourge Strike (Shadow)"] = {
@@ -18254,87 +18886,84 @@ SkadaStorageDB = {
 							["amount"] = 728,
 							["hitamount"] = 728,
 						},
-						["Melee (Earthchomp)"] = {
-							["DODGE"] = 5,
-							["total"] = 918,
-							["hitmin"] = 136,
-							["id"] = 6603,
-							["blocked"] = 276,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 918,
-									["amount"] = 585,
-								},
-							},
-							["amount"] = 585,
-							["count"] = 13,
-							["ABSORB"] = 1,
-							["BLOCK"] = 2,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 152,
-							["MISS"] = 1,
-							["hitamount"] = 585,
-						},
 						["Plague Strike"] = {
 							["hitmin"] = 1056,
 							["criticalamount"] = 2448,
 							["id"] = 49921,
 							["criticalmin"] = 2448,
 							["targets"] = {
-								["Melissaaloe"] = {
-									["amount"] = 2448,
-								},
 								["Skyasi"] = {
 									["amount"] = 1056,
 								},
+								["Melissaaloe"] = {
+									["amount"] = 2448,
+								},
 							},
+							["critical"] = 1,
+							["hit"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["criticalmax"] = 2448,
-							["hitmax"] = 1056,
 							["amount"] = 3504,
 							["school"] = 1,
-							["hit"] = 1,
-							["critical"] = 1,
+							["hitmax"] = 1056,
+							["criticalmax"] = 2448,
 							["hitamount"] = 1056,
+						},
+						["Melee (Earthchomp)"] = {
+							["DODGE"] = 5,
+							["total"] = 918,
+							["hitmin"] = 136,
+							["id"] = 6603,
+							["amount"] = 585,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 585,
+									["total"] = 918,
+								},
+							},
+							["ABSORB"] = 1,
+							["hitmax"] = 152,
+							["hit"] = 4,
+							["count"] = 13,
+							["blocked"] = 276,
+							["school"] = 1,
+							["BLOCK"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 585,
 						},
 						["Frost Fever (DoT)"] = {
 							["total"] = 4961,
 							["hitmin"] = 286,
 							["id"] = 55095,
 							["targets"] = {
-								["Cupic"] = {
-									["total"] = 3637,
-									["amount"] = 2711,
-								},
 								["Skyasi"] = {
 									["amount"] = 1324,
 								},
-							},
-							["ABSORB"] = 1,
-							["count"] = 8,
-							["hit"] = 7,
-							["school"] = 16,
-							["hitmax"] = 713,
-							["amount"] = 4035,
-							["hitamount"] = 4035,
-						},
-						["Retribution Aura"] = {
-							["hitmin"] = 168,
-							["id"] = 54043,
-							["targets"] = {
 								["Cupic"] = {
-									["amount"] = 337,
+									["amount"] = 2711,
+									["total"] = 3637,
 								},
 							},
-							["casts"] = 1,
+							["hit"] = 7,
+							["count"] = 8,
+							["ABSORB"] = 1,
+							["school"] = 16,
+							["amount"] = 4035,
+							["hitmax"] = 713,
+							["hitamount"] = 4035,
+						},
+						["Blood Strike"] = {
+							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 169,
-							["amount"] = 337,
-							["hitamount"] = 337,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 49930,
+							["targets"] = {
+								["Cupic"] = {
+									["amount"] = 0,
+								},
+							},
+							["PARRY"] = 2,
 						},
 					},
 					["damagetaken"] = 4986,
@@ -18407,7 +19036,7 @@ SkadaStorageDB = {
 					},
 					["name"] = "Urgash",
 					["ccdone"] = 2,
-					["potion"] = 1,
+					["role"] = "DAMAGER",
 					["cctakenspells"] = {
 						[2094] = {
 							["count"] = 1,
@@ -18416,7 +19045,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["potion"] = 1,
 				}, -- [5]
 				{
 					["last"] = 5575.027,
@@ -18483,8 +19112,8 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[72416] = {
-							["school"] = 64,
+						[29178] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
@@ -18501,8 +19130,8 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["uptime"] = 28,
 						},
-						[29178] = {
-							["school"] = 1,
+						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
@@ -18521,18 +19150,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 352,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 834,
 									["amount"] = 575,
+									["total"] = 834,
 								},
 							},
+							["critical"] = 1,
+							["hit"] = 1,
 							["casts"] = 1,
 							["count"] = 2,
-							["criticalmax"] = 352,
-							["hitmax"] = 223,
 							["amount"] = 575,
 							["school"] = 4,
-							["hit"] = 1,
-							["critical"] = 1,
+							["hitmax"] = 223,
+							["criticalmax"] = 352,
 							["hitamount"] = 223,
 						},
 						["Melee (Spirit Wolf)"] = {
@@ -18541,16 +19170,16 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 234,
 									["amount"] = 0,
+									["total"] = 234,
 								},
 							},
 							["count"] = 4,
 							["ABSORB"] = 1,
 							["school"] = 1,
-							["blocked"] = 491,
-							["BLOCK"] = 2,
 							["amount"] = 0,
+							["BLOCK"] = 2,
+							["blocked"] = 491,
 						},
 						["Bash (Spirit Wolf)"] = {
 							["DODGE"] = 1,
@@ -18570,13 +19199,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 4,
-							["PARRY"] = 1,
+							["id"] = 60103,
 							["targets"] = {
 								["Cupic"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 60103,
+							["PARRY"] = 1,
 						},
 						["Flame Shock"] = {
 							["total"] = 1454,
@@ -18584,17 +19213,17 @@ SkadaStorageDB = {
 							["id"] = 49233,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1454,
 									["amount"] = 1164,
+									["total"] = 1454,
 								},
 							},
 							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 1164,
 							["school"] = 4,
-							["criticalmin"] = 1164,
-							["criticalmax"] = 1164,
 							["count"] = 1,
+							["criticalmax"] = 1164,
+							["criticalmin"] = 1164,
 						},
 						["Twin Howl (Spirit Wolf)"] = {
 							["casts"] = 1,
@@ -18617,18 +19246,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 416,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1037,
 									["amount"] = 624,
+									["total"] = 1037,
 								},
 							},
+							["critical"] = 1,
+							["ABSORB"] = 1,
+							["criticalmax"] = 416,
 							["count"] = 3,
 							["hit"] = 1,
-							["criticalmax"] = 416,
-							["hitmax"] = 208,
-							["amount"] = 624,
 							["school"] = 4,
-							["ABSORB"] = 1,
-							["critical"] = 1,
+							["amount"] = 624,
+							["hitmax"] = 208,
 							["hitamount"] = 208,
 						},
 						["Stormstrike"] = {
@@ -18638,8 +19267,8 @@ SkadaStorageDB = {
 							["id"] = 32175,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 607,
 									["amount"] = 486,
+									["total"] = 607,
 								},
 							},
 							["casts"] = 2,
@@ -18656,8 +19285,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 372,
 									["amount"] = 0,
+									["total"] = 372,
 								},
 							},
 							["count"] = 5,
@@ -18704,11 +19333,11 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Nigtwolf",
+					["role"] = "DAMAGER",
+					["mana"] = 879,
 					["manaspells"] = {
 						[63375] = 879,
 					},
-					["mana"] = 879,
-					["role"] = "DAMAGER",
 				}, -- [6]
 				{
 					["last"] = 5564.302,
@@ -18736,9 +19365,9 @@ SkadaStorageDB = {
 					},
 					["role"] = "HEALER",
 					["time"] = 0,
-					["name"] = "Miakaliff",
-					["spec"] = 65,
 					["flag"] = 1298,
+					["spec"] = 65,
+					["name"] = "Miakaliff",
 				}, -- [7]
 				{
 					["last"] = 5575.795,
@@ -18781,6 +19410,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
+						[67378] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[54043] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
 						[31803] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -18795,18 +19436,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[54043] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[67378] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
 					},
 					["totaldamage"] = 2845,
 					["time"] = 6.95,
@@ -18814,19 +19443,19 @@ SkadaStorageDB = {
 					["damage"] = 1232,
 					["damagespells"] = {
 						["Hammer of the Righteous"] = {
+							["school"] = 2,
 							["casts"] = 1,
-							["total"] = 1308,
 							["count"] = 1,
 							["amount"] = 0,
 							["id"] = 53595,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1308,
 									["amount"] = 0,
+									["total"] = 1308,
 								},
 							},
-							["school"] = 2,
+							["total"] = 1308,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -18835,12 +19464,12 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 182,
 									["amount"] = 146,
+									["total"] = 182,
 								},
 							},
-							["hitmax"] = 146,
 							["count"] = 3,
+							["hitmax"] = 146,
 							["amount"] = 146,
 							["school"] = 1,
 							["hit"] = 1,
@@ -18853,17 +19482,17 @@ SkadaStorageDB = {
 							["id"] = 48827,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 18,
 									["amount"] = 15,
+									["total"] = 18,
 								},
 							},
-							["blocked"] = 2432,
+							["hit"] = 1,
 							["casts"] = 1,
 							["count"] = 1,
-							["hit"] = 1,
+							["blocked"] = 2432,
 							["school"] = 2,
-							["hitmax"] = 15,
 							["amount"] = 15,
+							["hitmax"] = 15,
 							["hitamount"] = 15,
 						},
 						["Hammer of Wrath"] = {
@@ -18872,8 +19501,8 @@ SkadaStorageDB = {
 							["id"] = 48805,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 1304,
 									["amount"] = 1044,
+									["total"] = 1304,
 								},
 							},
 							["casts"] = 1,
@@ -18890,8 +19519,8 @@ SkadaStorageDB = {
 							["id"] = 42463,
 							["targets"] = {
 								["Cupic"] = {
-									["total"] = 33,
 									["amount"] = 27,
+									["total"] = 33,
 								},
 							},
 							["casts"] = 1,
@@ -18924,130 +19553,32 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Drainox",
+					["role"] = "TANK",
+					["class"] = "PALADIN",
 					["manaspells"] = {
 						[31786] = 159,
 					},
-					["class"] = "PALADIN",
-					["role"] = "TANK",
 				}, -- [8]
 			},
-			["mana"] = 7251,
-			["etotaldamage"] = 63464,
+			["absorb"] = 3396,
+			["starttime"] = 1690271699,
+			["energy"] = 34,
+			["rage"] = 10,
+			["sunder"] = 7,
+			["etotaldamagetaken"] = 190924,
 			["potion"] = 3,
 			["mobname"] = "Skyasi",
-			["rage"] = 10,
-			["energy"] = 34,
-			["starttime"] = 1690271699,
+			["overheal"] = 6118,
+			["type"] = "group",
+			["ccdone"] = 15,
 			["endtime"] = 1690271748,
-		}, -- [13]
+		}, -- [14]
 		{
 			["starttime"] = 1690271418,
 			["type"] = "group",
-			["time"] = 6,
-			["last_time"] = 5264.004,
-			["etotaldamagetaken"] = 6199,
-			["damage"] = 5145,
-			["enemies"] = {
-				{
-					["damagetaken"] = 535,
-					["name"] = "Cupic",
-					["class"] = "PALADIN",
-					["flag"] = 1352,
-					["totaldamagetaken"] = 1589,
-					["id"] = "0x07000000006262C8",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 535,
-								},
-							},
-							["amount"] = 535,
-						},
-						[55095] = {
-							["school"] = 16,
-							["total"] = 1054,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 1054,
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				}, -- [1]
-				{
-					["damagetaken"] = 2291,
-					["name"] = "Vindrys",
-					["class"] = "HUNTER",
-					["flag"] = 1352,
-					["totaldamagetaken"] = 2291,
-					["id"] = "0x07000000007C3FD6",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1070,
-								},
-							},
-							["amount"] = 1070,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1054,
-								},
-							},
-							["amount"] = 1054,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 167,
-								},
-							},
-							["amount"] = 167,
-						},
-					},
-				}, -- [2]
-				{
-					["damagetaken"] = 2319,
-					["name"] = "Ravager",
-					["class"] = "PET",
-					["flag"] = 4424,
-					["totaldamagetaken"] = 2319,
-					["id"] = "0xF140417A460091F5",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1207,
-								},
-							},
-							["amount"] = 1207,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1112,
-								},
-							},
-							["amount"] = 1112,
-						},
-					},
-				}, -- [3]
-			},
-			["edamagetaken"] = 5145,
-			["totaldamage"] = 6199,
 			["name"] = "Melissaaloe (5)",
-			["mobname"] = "Melissaaloe",
+			["endtime"] = 1690271424,
+			["last_action"] = 1690271424,
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -19096,19 +19627,19 @@ SkadaStorageDB = {
 									["amount"] = 1207,
 								},
 								["Cupic"] = {
-									["total"] = 1054,
 									["amount"] = 0,
+									["total"] = 1054,
 								},
 								["Vindrys"] = {
 									["amount"] = 1054,
 								},
 							},
-							["ABSORB"] = 2,
-							["count"] = 6,
 							["hit"] = 4,
+							["count"] = 6,
+							["ABSORB"] = 2,
 							["school"] = 16,
-							["hitmax"] = 604,
 							["amount"] = 2261,
+							["hitmax"] = 604,
 							["hitamount"] = 2261,
 						},
 					},
@@ -19132,1509 +19663,116 @@ SkadaStorageDB = {
 					["totaldamage"] = 6199,
 					["time"] = 5.25,
 					["flag"] = 1297,
-					["role"] = "DAMAGER",
-					["name"] = "Urgash",
 					["spec"] = 252,
+					["name"] = "Urgash",
+					["role"] = "DAMAGER",
 					["damage"] = 5145,
 				}, -- [1]
 			},
-			["last_action"] = 1690271424,
-			["endtime"] = 1690271424,
-		}, -- [14]
-		{
-			["eoverkill"] = 1105,
 			["enemies"] = {
 				{
-					["damagespells"] = {
-						[53353] = {
-							["school"] = 8,
-							["total"] = 3218,
-							["targets"] = {
+					["name"] = "Cupic",
+					["damagetaken"] = 535,
+					["id"] = "0x07000000006262C8",
+					["flag"] = 1352,
+					["class"] = "PALADIN",
+					["totaldamagetaken"] = 1589,
+					["damagetakenspells"] = {
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
 								["Urgash"] = {
-									["total"] = 4644,
-									["amount"] = 3143,
+									["amount"] = 535,
 								},
 							},
-							["amount"] = 3143,
+							["amount"] = 535,
 						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
+						[55095] = {
+							["school"] = 16,
+							["total"] = 1054,
+							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 856,
+									["amount"] = 0,
+									["total"] = 1054,
 								},
 							},
-							["amount"] = 856,
-						},
-						[49050] = {
-							["school"] = 1,
-							["total"] = 2137,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 3088,
-									["amount"] = 1758,
-								},
-							},
-							["amount"] = 1758,
-						},
-						[49052] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 3448,
-								},
-							},
-							["amount"] = 3448,
-						},
-						[63468] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1803,
-								},
-							},
-							["amount"] = 1803,
-						},
-						[49001] = {
-							["school"] = 8,
-							["total"] = 1387,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 4000,
-									["amount"] = 3642,
-								},
-							},
-							["amount"] = 3642,
-						},
-						[75] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 6536,
-								},
-							},
-							["amount"] = 6536,
-						},
-						[53254] = {
-							["school"] = 8,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 3106,
-								},
-							},
-							["amount"] = 3106,
-						},
-						[67890] = {
-							["school"] = 4,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 464,
-								},
-							},
-							["amount"] = 464,
-						},
-						[53209] = {
-							["total"] = 4713,
-							["amount"] = 7385,
-							["school"] = 8,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 9136,
-									["overkill"] = 1105,
-									["amount"] = 7385,
-								},
-							},
-							["overkill"] = 1105,
+							["amount"] = 0,
 						},
 					},
-					["damagetaken"] = 9742,
+				}, -- [1]
+				{
+					["name"] = "Vindrys",
+					["damagetaken"] = 2291,
 					["id"] = "0x07000000007C3FD6",
+					["flag"] = 1352,
 					["class"] = "HUNTER",
+					["totaldamagetaken"] = 2291,
 					["damagetakenspells"] = {
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1070,
+								},
+							},
+							["amount"] = 1070,
+						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 5478,
-									["amount"] = 2535,
+									["amount"] = 1054,
 								},
 							},
-							["total"] = 5478,
-							["amount"] = 2535,
-						},
-						[50526] = {
-							["school"] = 32,
-							["total"] = 788,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 788,
-									["amount"] = 687,
-								},
-							},
-							["amount"] = 687,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1969,
-								},
-							},
-							["amount"] = 1969,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 4739,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 4739,
-									["amount"] = 3629,
-								},
-							},
-							["amount"] = 3629,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 808,
-								},
-							},
-							["amount"] = 808,
+							["amount"] = 1054,
 						},
 						[50536] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 57,
+									["amount"] = 167,
 								},
 							},
-							["amount"] = 57,
-						},
-						[49924] = {
-							["school"] = 1,
-							["total"] = 1083,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 1083,
-									["amount"] = 57,
-								},
-							},
-							["amount"] = 57,
+							["amount"] = 167,
 						},
 					},
-					["totaldamage"] = 37081,
-					["name"] = "Vindrys",
-					["overkill"] = 1105,
-					["totaldamagetaken"] = 14922,
-					["flag"] = 66888,
-					["damage"] = 32141,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 405,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 1456,
-									["amount"] = 1345,
-								},
-							},
-							["amount"] = 1345,
-						},
-						[53562] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 69,
-								},
-							},
-							["amount"] = 69,
-						},
-						[52474] = {
-							["school"] = 1,
-							["total"] = 422,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 919,
-									["amount"] = 728,
-								},
-							},
-							["amount"] = 728,
-						},
-					},
-					["damagetaken"] = 9742,
-					["id"] = "0xF140417A460091F5",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1260,
-								},
-							},
-							["amount"] = 1260,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5009,
-								},
-							},
-							["amount"] = 5009,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1670,
-								},
-							},
-							["amount"] = 1670,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1803,
-								},
-							},
-							["amount"] = 1803,
-						},
-					},
-					["totaldamage"] = 2444,
-					["name"] = "Ravager",
-					["totaldamagetaken"] = 9742,
-					["flag"] = 4424,
-					["damage"] = 2142,
 				}, -- [2]
 				{
-					["damagespells"] = {
-						[61411] = {
-							["school"] = 2,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 2975,
-								},
-							},
-							["amount"] = 2975,
-						},
-						[53739] = {
-							["school"] = 2,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1605,
-								},
-							},
-							["amount"] = 1605,
-						},
-						[48827] = {
-							["school"] = 2,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 913,
-								},
-							},
-							["amount"] = 913,
-						},
-						[53595] = {
-							["school"] = 2,
-							["total"] = 1591,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 1591,
-									["amount"] = 1209,
-								},
-							},
-							["amount"] = 1209,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 218,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 1943,
-									["amount"] = 1725,
-								},
-							},
-							["amount"] = 1725,
-						},
-						[53733] = {
-							["school"] = 2,
-							["total"] = 558,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 1755,
-									["amount"] = 1197,
-								},
-							},
-							["amount"] = 1197,
-						},
-						[53742] = {
-							["school"] = 2,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 2734,
-								},
-							},
-							["amount"] = 2734,
-						},
-						[48819] = {
-							["school"] = 2,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1370,
-								},
-							},
-							["amount"] = 1370,
-						},
-					},
-					["damagetaken"] = 11705,
-					["id"] = "0x07000000006262C8",
-					["class"] = "PALADIN",
+					["name"] = "Ravager",
+					["damagetaken"] = 2319,
+					["id"] = "0xF140417A460091F5",
+					["flag"] = 4424,
+					["class"] = "PET",
+					["totaldamagetaken"] = 2319,
 					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 4589,
-									["amount"] = 2984,
+									["amount"] = 1207,
 								},
 							},
-							["total"] = 4589,
-							["amount"] = 2984,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1451,
-								},
-							},
-							["amount"] = 1451,
+							["amount"] = 1207,
 						},
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["total"] = 2721,
-									["amount"] = 1092,
+									["amount"] = 1112,
 								},
 							},
-							["total"] = 2721,
-							["amount"] = 1092,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 545,
-								},
-							},
-							["amount"] = 545,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 1569,
-									["amount"] = 885,
-								},
-							},
-							["total"] = 1569,
-							["amount"] = 885,
-						},
-						[51963] = {
-							["school"] = 8,
-							["total"] = 8361,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 8361,
-									["amount"] = 4748,
-								},
-							},
-							["amount"] = 4748,
-						},
-						[49924] = {
-							["school"] = 1,
-							["total"] = 552,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 552,
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 1112,
 						},
 					},
-					["totaldamage"] = 14886,
-					["name"] = "Cupic",
-					["totaldamagetaken"] = 19788,
-					["flag"] = 1352,
-					["damage"] = 13728,
 				}, -- [3]
-				{
-					["damagespells"] = {
-						[42842] = {
-							["school"] = 16,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 5590,
-								},
-							},
-							["amount"] = 5590,
-						},
-						[42914] = {
-							["school"] = 16,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 466,
-								},
-							},
-							["amount"] = 466,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x070000000067072A",
-					["class"] = "MAGE",
-					["damagetakenspells"] = {
-						[50526] = {
-							["school"] = 32,
-							["total"] = 399,
-							["sources"] = {
-								["Urgash"] = {
-									["total"] = 399,
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["totaldamage"] = 6056,
-					["name"] = "Melissaaloe",
-					["totaldamagetaken"] = 399,
-					["flag"] = 1352,
-					["damage"] = 6056,
-				}, -- [4]
 			},
-			["runic"] = 18,
-			["totaldamage"] = 44851,
-			["time"] = 35,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[45524] = {
-							["count"] = 4,
-							["targets"] = {
-								["Cupic"] = 1,
-								["Vindrys"] = 3,
-							},
-						},
-					},
-					["last"] = 5257.952,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[61258] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 8,
-						},
-						[49206] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Cupic"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[45524] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Cupic"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Vindrys"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 7,
-							["targets"] = {
-								["Cupic"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 25,
-								},
-								["Ravager"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 25,
-								},
-								["Vindrys"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 30,
-								},
-							},
-							["uptime"] = 35,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Vindrys"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[67773] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 32,
-							["targets"] = {
-								["Ravager"] = {
-									["uptime"] = 12,
-									["count"] = 3,
-								},
-								["Cupic"] = {
-									["uptime"] = 6,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[71586] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Cupic"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 17,
-								},
-								["Ravager"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Vindrys"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[48792] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[48263] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["refresh"] = 5,
-							["targets"] = {
-								["Cupic"] = {
-									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 25,
-								},
-								["Ravager"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 25,
-								},
-								["Vindrys"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 30,
-								},
-							},
-							["uptime"] = 35,
-						},
-					},
-					["absorbspells"] = {
-						[71586] = {
-							["min"] = 95,
-							["casts"] = 1,
-							["count"] = 10,
-							["amount"] = 6400,
-							["school"] = 2,
-							["targets"] = {
-								["Urgash"] = 6400,
-							},
-							["max"] = 1751,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 34.51999999999999,
-					["cctaken"] = 3,
-					["totaldamagetaken"] = 60467,
-					["runicspells"] = {
-						[61258] = 18,
-					},
-					["damage"] = 31189,
-					["runic"] = 18,
-					["absorb"] = 6400,
-					["damagetaken"] = 54067,
-					["deathlog"] = {
-						{
-							["log"] = {
-								{
-									["time"] = 5257.953,
-									["source"] = "Vindrys",
-									["amount"] = -2225,
-									["school"] = 8,
-									["hp"] = 1,
-									["spellid"] = 53209,
-									["overkill"] = 1105,
-								}, -- [1]
-								{
-									["source"] = "Vindrys",
-									["amount"] = -45,
-									["school"] = 1,
-									["spellid"] = 63468,
-									["hp"] = 1120,
-									["time"] = 5257.589000000001,
-								}, -- [2]
-								{
-									["time"] = 5257.449,
-									["amount"] = -2790,
-									["school"] = 16,
-									["source"] = "Melissaaloe",
-									["spellid"] = 42842,
-									["hp"] = 1165,
-								}, -- [3]
-								{
-									["time"] = 5257.384,
-									["amount"] = -466,
-									["school"] = 16,
-									["source"] = "Melissaaloe",
-									["spellid"] = 42914,
-									["hp"] = 3955,
-								}, -- [4]
-								{
-									["time"] = 5257.216,
-									["amount"] = -151,
-									["school"] = 1,
-									["source"] = "Ravager",
-									["spellid"] = 6603,
-									["hp"] = 4572,
-								}, -- [5]
-								{
-									["time"] = 5256.585,
-									["amount"] = -45,
-									["school"] = 1,
-									["source"] = "Vindrys",
-									["spellid"] = 63468,
-									["hp"] = 4572,
-								}, -- [6]
-								{
-									["time"] = 5255.761,
-									["amount"] = -367,
-									["school"] = 1,
-									["source"] = "Vindrys",
-									["spellid"] = 6603,
-									["hp"] = 5473,
-								}, -- [7]
-								{
-									["time"] = 5255.761,
-									["amount"] = -489,
-									["school"] = 1,
-									["source"] = "Vindrys",
-									["spellid"] = 6603,
-									["hp"] = 5473,
-								}, -- [8]
-								{
-									["time"] = 5255.597,
-									["amount"] = -45,
-									["school"] = 1,
-									["source"] = "Vindrys",
-									["spellid"] = 63468,
-									["hp"] = 5473,
-								}, -- [9]
-								{
-									["time"] = 5255.573,
-									["amount"] = -2800,
-									["school"] = 16,
-									["source"] = "Melissaaloe",
-									["spellid"] = 42842,
-									["hp"] = 5518,
-								}, -- [10]
-								{
-									["source"] = "Vindrys",
-									["amount"] = -462,
-									["school"] = 8,
-									["spellid"] = 49001,
-									["hp"] = 8318,
-									["time"] = 5255.372,
-								}, -- [11]
-								{
-									["source"] = "Cupic",
-									["amount"] = -549,
-									["school"] = 2,
-									["spellid"] = 53742,
-									["hp"] = 8780,
-									["time"] = 5255.182,
-								}, -- [12]
-								{
-									["source"] = "Ravager",
-									["amount"] = -143,
-									["school"] = 1,
-									["spellid"] = 6603,
-									["hp"] = 9472,
-									["time"] = 5254.967,
-								}, -- [13]
-								{
-									["source"] = "Vindrys",
-									["amount"] = -827,
-									["school"] = 1,
-									["spellid"] = 75,
-									["hp"] = 9472,
-									["time"] = 5254.675,
-								}, -- [14]
-							},
-							["time"] = 5257.965,
-							["timeod"] = 1690271418,
-							["school"] = 8,
-							["maxhp"] = 37831,
-							["spellid"] = 53209,
-							["source"] = "Vindrys",
-						}, -- [1]
-					},
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[45470] = {
-							["overheal"] = 0,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 7565,
-							["max"] = 2837,
-							["min"] = 1891,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 7565,
-								},
-							},
-							["school"] = 1,
-						},
-						[48743] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 7566,
-							["school"] = 32,
-							["max"] = 7566,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 7566,
-								},
-							},
-							["min"] = 7566,
-						},
-					},
-					["damagetakenspells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 274,
-							["id"] = 48819,
-							["sources"] = {
-								["Cupic"] = {
-									["amount"] = 1370,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 2,
-							["hitmax"] = 274,
-							["amount"] = 1370,
-							["hitamount"] = 1370,
-						},
-						["Chimera Shot"] = {
-							["criticalmin"] = 2962,
-							["total"] = 9136,
-							["hitmin"] = 2198,
-							["criticalamount"] = 2962,
-							["id"] = 53209,
-							["ABSORB"] = 1,
-							["critical"] = 1,
-							["overkill"] = 1105,
-							["hit"] = 2,
-							["sources"] = {
-								["Vindrys"] = {
-									["total"] = 9136,
-									["overkill"] = 1105,
-									["amount"] = 7385,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 7385,
-							["school"] = 8,
-							["hitmax"] = 2225,
-							["criticalmax"] = 2962,
-							["hitamount"] = 4423,
-						},
-						["Blood Corruption (DoT)"] = {
-							["hitmin"] = 230,
-							["id"] = 53742,
-							["sources"] = {
-								["Cupic"] = {
-									["amount"] = 2734,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["hitmax"] = 550,
-							["amount"] = 2734,
-							["hitamount"] = 2734,
-						},
-						["Serpent Sting (DoT)"] = {
-							["total"] = 4000,
-							["hitmin"] = 313,
-							["id"] = 49001,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Vindrys"] = {
-									["total"] = 4000,
-									["amount"] = 3642,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 9,
-							["school"] = 8,
-							["hitmax"] = 511,
-							["amount"] = 3642,
-							["hitamount"] = 3642,
-						},
-						["Auto Shot"] = {
-							["hitmin"] = 600,
-							["criticalamount"] = 2901,
-							["id"] = 75,
-							["criticalmin"] = 815,
-							["critical"] = 3,
-							["amount"] = 6536,
-							["sources"] = {
-								["Vindrys"] = {
-									["amount"] = 6536,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 827,
-							["criticalmax"] = 1224,
-							["hitamount"] = 3635,
-						},
-						["Judgement of Corruption"] = {
-							["total"] = 1755,
-							["hitmin"] = 1197,
-							["id"] = 53733,
-							["hitmax"] = 1197,
-							["sources"] = {
-								["Cupic"] = {
-									["total"] = 1755,
-									["amount"] = 1197,
-								},
-							},
-							["count"] = 2,
-							["ABSORB"] = 1,
-							["school"] = 2,
-							["amount"] = 1197,
-							["hit"] = 1,
-							["hitamount"] = 1197,
-						},
-						["Bite"] = {
-							["DODGE"] = 1,
-							["total"] = 919,
-							["hitmin"] = 95,
-							["id"] = 52474,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Ravager"] = {
-									["total"] = 919,
-									["amount"] = 728,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 127,
-							["amount"] = 728,
-							["hitamount"] = 728,
-						},
-						["Hammer of the Righteous"] = {
-							["total"] = 1591,
-							["hitmin"] = 1209,
-							["DEFLECT"] = 1,
-							["id"] = 53595,
-							["sources"] = {
-								["Cupic"] = {
-									["total"] = 1591,
-									["amount"] = 1209,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 1209,
-							["amount"] = 1209,
-							["hitamount"] = 1209,
-						},
-						["Aimed Shot"] = {
-							["total"] = 3088,
-							["hitmin"] = 807,
-							["id"] = 49050,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Vindrys"] = {
-									["total"] = 3088,
-									["amount"] = 1758,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 951,
-							["amount"] = 1758,
-							["hitamount"] = 1758,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 1225,
-							["id"] = 61411,
-							["sources"] = {
-								["Cupic"] = {
-									["amount"] = 2975,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 1750,
-							["amount"] = 2975,
-							["hitamount"] = 2975,
-						},
-						["Ravage"] = {
-							["hitmin"] = 69,
-							["id"] = 53562,
-							["sources"] = {
-								["Ravager"] = {
-									["amount"] = 69,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 69,
-							["amount"] = 69,
-							["hitamount"] = 69,
-						},
-						["Wild Quiver Auto Shot"] = {
-							["hitmin"] = 1486,
-							["criticalamount"] = 1620,
-							["id"] = 53254,
-							["criticalmin"] = 1620,
-							["critical"] = 1,
-							["amount"] = 3106,
-							["sources"] = {
-								["Vindrys"] = {
-									["amount"] = 3106,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1486,
-							["criticalmax"] = 1620,
-							["hitamount"] = 1486,
-						},
-						["Melee"] = {
-							["criticalmin"] = 367,
-							["total"] = 4255,
-							["hitmin"] = 86,
-							["criticalamount"] = 856,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Ravager"] = {
-									["total"] = 1456,
-									["amount"] = 1345,
-								},
-								["Cupic"] = {
-									["total"] = 1943,
-									["amount"] = 1725,
-								},
-								["Vindrys"] = {
-									["amount"] = 856,
-								},
-							},
-							["critical"] = 2,
-							["ABSORB"] = 2,
-							["criticalmax"] = 489,
-							["hitmax"] = 306,
-							["amount"] = 3926,
-							["school"] = 1,
-							["hit"] = 18,
-							["count"] = 23,
-							["hitamount"] = 3070,
-						},
-						["Blood Corruption"] = {
-							["PARRY"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["sources"] = {
-								["Cupic"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 53742,
-						},
-						["Steady Shot"] = {
-							["hitmin"] = 594,
-							["criticalamount"] = 2200,
-							["id"] = 49052,
-							["criticalmin"] = 1047,
-							["critical"] = 2,
-							["amount"] = 3448,
-							["sources"] = {
-								["Vindrys"] = {
-									["amount"] = 3448,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 654,
-							["criticalmax"] = 1153,
-							["hitamount"] = 1248,
-						},
-						["Ice Lance"] = {
-							["hitmin"] = 466,
-							["id"] = 42914,
-							["sources"] = {
-								["Melissaaloe"] = {
-									["amount"] = 466,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 466,
-							["amount"] = 466,
-							["hitamount"] = 466,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 2790,
-							["id"] = 42842,
-							["sources"] = {
-								["Melissaaloe"] = {
-									["amount"] = 5590,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 2800,
-							["amount"] = 5590,
-							["hitamount"] = 5590,
-						},
-						["Chimera Shot - Serpent"] = {
-							["total"] = 4644,
-							["hitmin"] = 1426,
-							["criticalamount"] = 1717,
-							["id"] = 53353,
-							["criticalmin"] = 1717,
-							["ABSORB"] = 1,
-							["critical"] = 1,
-							["hit"] = 1,
-							["sources"] = {
-								["Vindrys"] = {
-									["total"] = 4644,
-									["amount"] = 3143,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 3143,
-							["school"] = 8,
-							["hitmax"] = 1426,
-							["criticalmax"] = 1717,
-							["hitamount"] = 1426,
-						},
-						["Piercing Shots (DoT)"] = {
-							["hitmin"] = 45,
-							["id"] = 63468,
-							["sources"] = {
-								["Vindrys"] = {
-									["amount"] = 1803,
-								},
-							},
-							["count"] = 25,
-							["hit"] = 25,
-							["school"] = 1,
-							["hitmax"] = 117,
-							["amount"] = 1803,
-							["hitamount"] = 1803,
-						},
-						["Avenger's Shield"] = {
-							["hitmin"] = 913,
-							["id"] = 48827,
-							["sources"] = {
-								["Cupic"] = {
-									["amount"] = 913,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 913,
-							["amount"] = 913,
-							["hitamount"] = 913,
-						},
-						["Cobalt Frag Bomb"] = {
-							["hitmin"] = 464,
-							["id"] = 67890,
-							["sources"] = {
-								["Vindrys"] = {
-									["amount"] = 464,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 464,
-							["amount"] = 464,
-							["hitamount"] = 464,
-						},
-						["Seal of Corruption"] = {
-							["hitmin"] = 37,
-							["id"] = 53739,
-							["sources"] = {
-								["Cupic"] = {
-									["amount"] = 1605,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 2,
-							["hitmax"] = 258,
-							["amount"] = 1605,
-							["hitamount"] = 1605,
-						},
-					},
-					["totaldamage"] = 44851,
-					["heal"] = 15131,
-					["name"] = "Urgash",
-					["death"] = 1,
-					["ccdone"] = 4,
-					["overheal"] = 0,
-					["cctakenspells"] = {
-						[53562] = {
-							["count"] = 1,
-							["sources"] = {
-								["Ravager"] = 1,
-							},
-						},
-						[10308] = {
-							["count"] = 1,
-							["sources"] = {
-								["Cupic"] = 1,
-							},
-						},
-						[67890] = {
-							["count"] = 1,
-							["sources"] = {
-								["Vindrys"] = 1,
-							},
-						},
-					},
-					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 6308,
-							["hitmin"] = 744,
-							["id"] = 6603,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 1569,
-									["amount"] = 885,
-								},
-								["Vindrys"] = {
-									["total"] = 4739,
-									["amount"] = 3629,
-								},
-							},
-							["ABSORB"] = 1,
-							["count"] = 7,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 1034,
-							["amount"] = 4514,
-							["hitamount"] = 4514,
-						},
-						["Blood Strike"] = {
-							["criticalamount"] = 1260,
-							["id"] = 49930,
-							["targets"] = {
-								["Ravager"] = {
-									["amount"] = 1260,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1260,
-							["school"] = 1,
-							["criticalmin"] = 1260,
-							["criticalmax"] = 1260,
-							["count"] = 1,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 19,
-							["id"] = 50536,
-							["targets"] = {
-								["Vindrys"] = {
-									["amount"] = 57,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 19,
-							["amount"] = 57,
-							["hitamount"] = 57,
-						},
-						["Wandering Plague"] = {
-							["total"] = 4441,
-							["hitmin"] = 236,
-							["id"] = 50526,
-							["targets"] = {
-								["Melissaaloe"] = {
-									["total"] = 399,
-									["amount"] = 0,
-								},
-								["Ravager"] = {
-									["amount"] = 1803,
-								},
-								["Cupic"] = {
-									["amount"] = 1451,
-								},
-								["Vindrys"] = {
-									["total"] = 788,
-									["amount"] = 687,
-								},
-							},
-							["ABSORB"] = 1,
-							["casts"] = 1,
-							["count"] = 10,
-							["hit"] = 9,
-							["school"] = 32,
-							["hitmax"] = 590,
-							["amount"] = 3941,
-							["hitamount"] = 3941,
-						},
-						["Blood Plague (DoT)"] = {
-							["total"] = 4391,
-							["hitmin"] = 535,
-							["id"] = 55078,
-							["targets"] = {
-								["Ravager"] = {
-									["amount"] = 1670,
-								},
-								["Cupic"] = {
-									["total"] = 2721,
-									["amount"] = 1092,
-								},
-							},
-							["ABSORB"] = 3,
-							["count"] = 8,
-							["hit"] = 5,
-							["school"] = 32,
-							["hitmax"] = 557,
-							["amount"] = 2762,
-							["hitamount"] = 2762,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 1969,
-							["id"] = 47632,
-							["targets"] = {
-								["Vindrys"] = {
-									["amount"] = 1969,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1969,
-							["amount"] = 1969,
-							["hitamount"] = 1969,
-						},
-						["Death Strike"] = {
-							["total"] = 1635,
-							["hitmin"] = 57,
-							["id"] = 49924,
-							["amount"] = 57,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 552,
-									["amount"] = 0,
-								},
-								["Vindrys"] = {
-									["total"] = 1083,
-									["amount"] = 57,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 5,
-							["hitmax"] = 57,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["blocked"] = 516,
-							["BLOCK"] = 1,
-							["hitamount"] = 57,
-						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["total"] = 8361,
-							["hitmin"] = 965,
-							["id"] = 51963,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 8361,
-									["amount"] = 4748,
-								},
-							},
-							["hitmax"] = 2210,
-							["casts"] = 1,
-							["count"] = 4,
-							["ABSORB"] = 1,
-							["school"] = 8,
-							["amount"] = 4748,
-							["hit"] = 3,
-							["hitamount"] = 4748,
-						},
-						["Frost Fever (DoT)"] = {
-							["total"] = 15076,
-							["hitmin"] = 87,
-							["id"] = 55095,
-							["targets"] = {
-								["Cupic"] = {
-									["total"] = 4589,
-									["amount"] = 2984,
-								},
-								["Ravager"] = {
-									["amount"] = 5009,
-								},
-								["Vindrys"] = {
-									["total"] = 5478,
-									["amount"] = 2535,
-								},
-							},
-							["ABSORB"] = 6,
-							["count"] = 25,
-							["hit"] = 19,
-							["school"] = 16,
-							["hitmax"] = 696,
-							["amount"] = 10528,
-							["hitamount"] = 10528,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 545,
-							["id"] = 49921,
-							["targets"] = {
-								["Vindrys"] = {
-									["amount"] = 808,
-								},
-								["Cupic"] = {
-									["amount"] = 545,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 808,
-							["amount"] = 1353,
-							["hitamount"] = 1353,
-						},
-					},
-				}, -- [1]
-			},
-			["cctaken"] = 3,
-			["totaldamagetaken"] = 60467,
-			["etotaldamage"] = 60467,
-			["last_time"] = 5258.287,
-			["overheal"] = 0,
-			["absorb"] = 6400,
-			["damagetaken"] = 54067,
-			["mobname"] = "Vindrys",
-			["type"] = "group",
-			["ccdone"] = 4,
-			["damage"] = 31189,
-			["etotaldamagetaken"] = 44851,
-			["edamagetaken"] = 31189,
-			["heal"] = 15131,
-			["name"] = "Vindrys (2)",
-			["death"] = 1,
-			["starttime"] = 1690271383,
-			["edamage"] = 54067,
-			["last_action"] = 1690271418,
-			["endtime"] = 1690271418,
+			["edamagetaken"] = 5145,
+			["totaldamage"] = 6199,
+			["time"] = 6,
+			["mobname"] = "Melissaaloe",
+			["damage"] = 5145,
+			["etotaldamagetaken"] = 6199,
+			["last_time"] = 5264.004,
 		}, -- [15]
 	},
 }

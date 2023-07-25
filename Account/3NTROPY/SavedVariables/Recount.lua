@@ -22,7 +22,7 @@ RecountDB = {
 		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
@@ -33,7 +33,7 @@ RecountDB = {
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
-		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 	},
 	["profiles"] = {
@@ -49,7 +49,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 58.00000341936197,
 			["LastInstanceName"] = "Trial of the Crusader",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -16.99999979483828,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -61,7 +61,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -16.99999979483828,
+			["GraphWindowX"] = 0,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 251.4197662784027,
@@ -91,11 +91,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -60.00000082064688,
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["DetailWindowY"] = -60.00000082064688,
+			["GraphWindowX"] = 0,
 		},
 		["Rakhnis - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -134,7 +134,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 62.09879535193817,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = 23.44438869364712,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -146,7 +146,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 23.44438869364712,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 238.9999938458702,
@@ -225,10 +225,13 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000027354896,
 					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Deadmines",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -237,11 +240,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Deadmines",
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -505,8 +505,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
 					["h"] = 200.0000027354896,
+					["w"] = 140.0000106684094,
 				},
 			},
 			["Colors"] = {
@@ -560,7 +560,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 74.40742614297815,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -577,35 +577,26 @@ RecountDB = {
 			["MainWindowWidth"] = 247.3703663456547,
 			["GraphWindowX"] = 0,
 		},
-		["Pocaitoru - Icecrown"] = {
+		["Lingurita - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 140.574052062248,
-					["h"] = 329.000001436132,
-					["w"] = 260.0000123097031,
-					["x"] = -628.5186425324451,
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
-			["DetailWindowX"] = 655.7037672683764,
-			["LastInstanceName"] = "Violet Hold",
-			["MainWindowHeight"] = 328.7999999452902,
-			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
 				},
 			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowVis"] = false,
-			["ReportLines"] = 2,
-			["DetailWindowY"] = -296.7037172773043,
+			["DetailWindowX"] = 0,
 		},
 		["Elgorath - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -761,7 +752,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -773,7 +764,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
@@ -843,26 +834,35 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
 		},
-		["Lingurita - Icecrown"] = {
+		["Pocaitoru - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
+					["y"] = 140.574052062248,
+					["h"] = 329.000001436132,
+					["w"] = 260.0000123097031,
+					["x"] = -628.5186425324451,
 				},
 			},
+			["DetailWindowX"] = 655.7037672683764,
+			["LastInstanceName"] = "Violet Hold",
+			["MainWindowHeight"] = 328.7999999452902,
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
 				},
 			},
-			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -296.7037172773043,
+			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowVis"] = false,
-			["DetailWindowX"] = 0,
+			["ReportLines"] = 2,
+			["GraphWindowX"] = 0,
 		},
 		["Vhalanor - Icecrown"] = {
 			["GraphWindowY"] = 0,
