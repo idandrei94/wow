@@ -19,21 +19,23 @@ GladiusDB = {
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
-		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
+		["Glacion - Icecrown"] = "Glacion - Icecrown",
 		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
-		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
+		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
+		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Glacianos - Icecrown"] = "Glacianos - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
-		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
+		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
-		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
+		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
-		["Morridin - Icecrown"] = "Morridin - Icecrown",
-		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -119,40 +121,47 @@ GladiusDB = {
 			["x"] = 1091.03865008566,
 			["y"] = 533.3444026788393,
 		},
+		["Glacion - Icecrown"] = {
+			["locked"] = true,
+			["y"] = 529.6999428359112,
+			["x"] = 1161.505139873538,
+		},
+		["Pocaitorul - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1140.709691294312,
+			["y"] = 541.6999689428485,
+		},
 		["Ulrezaj - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 953.6932015330746,
 			["y"] = 521.9056625649222,
-		},
-		["Pocaitorul - Icecrown"] = {
-			["locked"] = true,
-			["y"] = 541.6999689428485,
-			["x"] = 1140.709691294312,
-		},
-		["Pocaitoru - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1068.283355016582,
-			["y"] = 591.6555710886522,
-		},
-		["Elgorath - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1168.703932839543,
-			["y"] = 515.2998358767728,
 		},
 		["Nalar - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1091.038524034304,
 			["y"] = 556.8110685779587,
 		},
+		["Lingurita - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1156.7062386827,
+			["y"] = 517.6999482418132,
+		},
+		["Glacianos - Icecrown"] = {
+		},
+		["Morridin - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1175.102425743542,
+			["y"] = 510.499894762244,
+		},
 		["Flocparlit - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1166.950180317463,
 			["y"] = 541.6999689428485,
 		},
-		["Sculatru - Icecrown"] = {
+		["Inarya - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1162.150270715773,
-			["y"] = 527.3000195479056,
+			["x"] = 1097.083064729433,
+			["y"] = 505.4333235160159,
 		},
 		["Mirceabravo - Blackrock [PvP only]"] = {
 			["locked"] = true,
@@ -162,15 +171,15 @@ GladiusDB = {
 			["x"] = 1049.500140519296,
 			["y"] = 529.9999838625041,
 		},
-		["Inarya - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1097.083064729433,
-			["y"] = 505.4333235160159,
-		},
 		["Flokus - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1172.283413208229,
 			["y"] = 487.299953533341,
+		},
+		["Sculatru - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1162.150270715773,
+			["y"] = 527.3000195479056,
 		},
 		["Mirceabravo - Icecrown"] = {
 			["locked"] = true,
@@ -182,15 +191,15 @@ GladiusDB = {
 			["x"] = 1173.883509126815,
 			["y"] = 538.5000292083887,
 		},
-		["Morridin - Icecrown"] = {
+		["Elgorath - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1175.102425743542,
-			["y"] = 510.499894762244,
+			["x"] = 1168.703932839543,
+			["y"] = 515.2998358767728,
 		},
-		["Lingurita - Icecrown"] = {
+		["Pocaitoru - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1156.7062386827,
-			["y"] = 517.6999482418132,
+			["x"] = 1068.283355016582,
+			["y"] = 591.6555710886522,
 		},
 	},
 }
