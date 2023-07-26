@@ -83,3 +83,17 @@ X: -3
 Y: -178
 W: 100
 H: 30
+Frame: BagnonFrameinventory
+FrameLevel: 1
+Anchor: CENTER
+X: 193
+Y: -36
+W: 668
+H: 468
+Frame: BagnonFramebank
+FrameLevel: 1
+Anchor: LEFT
+X: 115
+Y: -10
+W: 422
+H: 345
