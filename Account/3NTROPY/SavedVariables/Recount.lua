@@ -63,11 +63,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -16.99999979483828,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["DetailWindowY"] = -16.99999979483828,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -81,7 +81,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = -115.0000081380815,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -60.00000082064688,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -93,7 +93,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -60.00000082064688,
+			["GraphWindowX"] = 0,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 244.5308668882732,
@@ -148,11 +148,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 23.44438869364712,
 			["MainWindowWidth"] = 238.9999938458702,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["DetailWindowY"] = 23.44438869364712,
+			["GraphWindowX"] = 0,
 		},
 		["Flokus - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -350,20 +350,7 @@ RecountDB = {
 					["x"] = -638.3891161434849,
 				},
 			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -152.7036942991919,
 			["DetailWindowX"] = 867.5926716507743,
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
 			["LastInstanceName"] = "Ahn'kahet: The Old Kingdom",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
@@ -388,8 +375,21 @@ RecountDB = {
 				},
 			},
 			["CurDataSet"] = "LastFightData",
-			["MainWindowWidth"] = 243.3555780154447,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -152.7036942991919,
 			["MainWindowHeight"] = 345.0444837792649,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 243.3555780154447,
+			["GraphWindowX"] = 0,
 		},
 		["Flocius - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -639,7 +639,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 655.7037672683764,
 			["LastInstanceName"] = "Hellfire Citadel: The Shattered Halls",
-			["DetailWindowY"] = -296.7037172773043,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -651,7 +651,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -296.7037172773043,
 			["ReportLines"] = 2,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 260.0000123097031,
@@ -864,11 +864,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Pubianus - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -916,8 +916,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
 					["h"] = 200.0000027354896,
+					["w"] = 140.0000106684094,
 				},
 			},
 			["Colors"] = {
