@@ -13,3 +13,10 @@ X: -3
 Y: 1
 W: 76
 H: 46
+Frame: WowLuaFrame
+FrameLevel: 23
+Anchor: CENTER
+X: 0
+Y: 0
+W: 640
+H: 512

@@ -79,10 +79,7 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["DetailWindowX"] = -115.0000081380815,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["DetailWindowY"] = -60.00000082064688,
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -93,9 +90,12 @@ RecountDB = {
 					},
 				},
 			},
+			["DetailWindowY"] = -60.00000082064688,
+			["DetailWindowX"] = -115.0000081380815,
 			["GraphWindowX"] = 0,
-			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowHeight"] = 323.4446028824811,
 		},
@@ -351,7 +351,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 867.5926716507743,
-			["LastInstanceName"] = "Ahn'kahet: The Old Kingdom",
+			["LastInstanceName"] = "Gundrak",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -624,8 +624,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
 		},
 		["Pocaitoru - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -916,8 +916,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000027354896,
 					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
 			["Colors"] = {
@@ -928,10 +928,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 	},
 }

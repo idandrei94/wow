@@ -15,9 +15,9 @@ SkadaStorageDB = {
 				["role"] = "DAMAGER",
 				["time"] = 216.9,
 				["flag"] = 1297,
-				["name"] = "Glacion",
-				["totaldamagetaken"] = 101,
 				["totaldamage"] = 2908,
+				["totaldamagetaken"] = 101,
+				["name"] = "Glacion",
 				["damage"] = 2907,
 			}, -- [1]
 		},
@@ -49,12 +49,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Glacion"] = {
-									["overkill"] = 36,
 									["amount"] = 249,
+									["overkill"] = 36,
 								},
 							},
-							["overkill"] = 36,
 							["amount"] = 249,
+							["overkill"] = 36,
 						},
 					},
 					["totaldamage"] = 18,
@@ -77,21 +77,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 16,
+							["id"] = 6136,
 							["MISS"] = 1,
 							["targets"] = {
 								["Kobold Laborer"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 6136,
 						},
 						["Fireball"] = {
 							["hitmin"] = 16,
 							["id"] = 133,
 							["targets"] = {
 								["Kobold Laborer"] = {
-									["overkill"] = 36,
 									["amount"] = 246,
+									["overkill"] = 36,
 								},
 							},
 							["overkill"] = 36,
@@ -123,8 +123,12 @@ SkadaStorageDB = {
 					["damagetaken"] = 18,
 					["flag"] = 1297,
 					["class"] = "MAGE",
-					["overkill"] = 36,
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
 						[133] = {
 							["type"] = "DEBUFF",
 							["count"] = 3,
@@ -138,6 +142,11 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 17,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
@@ -153,18 +162,9 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 22,
 						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
 					},
-					["id"] = "0x07000000009809AC",
+					["overkill"] = 36,
+					["totaldamage"] = 249,
 					["role"] = "DAMAGER",
 					["time"] = 24.19,
 					["name"] = "Glacion",
@@ -186,7 +186,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 18,
-					["totaldamage"] = 249,
+					["id"] = "0x07000000009809AC",
 					["damage"] = 249,
 				}, -- [1]
 			},
@@ -204,29 +204,54 @@ SkadaStorageDB = {
 			["endtime"] = 1690356913,
 		}, -- [1]
 		{
+			["starttime"] = 1690356878,
+			["type"] = "none",
+			["enemies"] = {
+				{
+					["name"] = "Kobold Laborer",
+					["damagetaken"] = 73,
+					["id"] = "0xF1300000500096F6",
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 73,
+					["damagetakenspells"] = {
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Glacion"] = {
+									["amount"] = 73,
+									["overkill"] = 2,
+								},
+							},
+							["amount"] = 73,
+							["overkill"] = 2,
+						},
+					},
+				}, -- [1]
+			},
 			["players"] = {
 				{
 					["damagespells"] = {
 						["Fireball"] = {
-							["criticalmin"] = 27,
-							["hitmin"] = 19,
 							["criticalamount"] = 54,
+							["hitmin"] = 19,
+							["criticalmin"] = 27,
 							["id"] = 133,
-							["critical"] = 2,
+							["casts"] = 3,
 							["targets"] = {
 								["Kobold Laborer"] = {
-									["overkill"] = 2,
 									["amount"] = 73,
+									["overkill"] = 2,
 								},
 							},
 							["overkill"] = 2,
-							["amount"] = 73,
-							["criticalmax"] = 27,
-							["hitmax"] = 19,
-							["hit"] = 1,
-							["school"] = 4,
 							["count"] = 3,
-							["casts"] = 3,
+							["criticalmax"] = 27,
+							["critical"] = 2,
+							["amount"] = 73,
+							["school"] = 4,
+							["hit"] = 1,
+							["hitmax"] = 19,
 							["hitamount"] = 19,
 						},
 					},
@@ -262,48 +287,23 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 					},
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
 					["time"] = 3.57,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
 					["damage"] = 73,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["enemies"] = {
-				{
-					["damagetaken"] = 73,
-					["name"] = "Kobold Laborer",
-					["class"] = "MONSTER",
-					["flag"] = 68136,
-					["totaldamagetaken"] = 73,
-					["id"] = "0xF1300000500096F6",
-					["damagetakenspells"] = {
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Glacion"] = {
-									["overkill"] = 2,
-									["amount"] = 73,
-								},
-							},
-							["overkill"] = 2,
-							["amount"] = 73,
-						},
-					},
-				}, -- [1]
-			},
-			["starttime"] = 1690356878,
-			["name"] = "Kobold Laborer (4)",
-			["etotaldamagetaken"] = 73,
-			["last_time"] = 3988.33,
+			["time"] = 5,
+			["last_action"] = 1690356881,
+			["endtime"] = 1690356883,
 			["overkill"] = 2,
 			["edamagetaken"] = 73,
 			["totaldamage"] = 73,
-			["time"] = 5,
+			["name"] = "Kobold Laborer (4)",
 			["mobname"] = "Kobold Laborer",
 			["damage"] = 73,
-			["last_action"] = 1690356881,
-			["endtime"] = 1690356883,
+			["etotaldamagetaken"] = 73,
+			["last_time"] = 3988.33,
 		}, -- [2]
 		{
 			["enemies"] = {
@@ -327,12 +327,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Glacion"] = {
-									["overkill"] = 6,
 									["amount"] = 148,
+									["overkill"] = 6,
 								},
 							},
-							["overkill"] = 6,
 							["amount"] = 148,
+							["overkill"] = 6,
 						},
 					},
 					["totaldamage"] = 11,
@@ -355,21 +355,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 16,
+							["id"] = 6136,
 							["MISS"] = 1,
 							["targets"] = {
 								["Kobold Laborer"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 6136,
 						},
 						["Fireball"] = {
 							["hitmin"] = 16,
 							["id"] = 133,
 							["targets"] = {
 								["Kobold Laborer"] = {
-									["overkill"] = 6,
 									["amount"] = 147,
+									["overkill"] = 6,
 								},
 							},
 							["overkill"] = 6,
@@ -401,8 +401,12 @@ SkadaStorageDB = {
 					["damagetaken"] = 11,
 					["flag"] = 1297,
 					["class"] = "MAGE",
-					["overkill"] = 6,
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
 						[133] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -416,6 +420,11 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 11,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
@@ -431,18 +440,9 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
 					},
-					["id"] = "0x07000000009809AC",
+					["overkill"] = 6,
+					["totaldamage"] = 148,
 					["role"] = "DAMAGER",
 					["time"] = 14.17,
 					["name"] = "Glacion",
@@ -452,23 +452,23 @@ SkadaStorageDB = {
 							["criticalamount"] = 4,
 							["id"] = 6603,
 							["criticalmin"] = 4,
+							["critical"] = 1,
+							["hit"] = 4,
 							["sources"] = {
 								["Kobold Laborer"] = {
 									["amount"] = 11,
 								},
 							},
 							["count"] = 5,
-							["criticalmax"] = 4,
-							["hitmax"] = 2,
 							["amount"] = 11,
 							["school"] = 1,
-							["hit"] = 4,
-							["critical"] = 1,
+							["hitmax"] = 2,
+							["criticalmax"] = 4,
 							["hitamount"] = 7,
 						},
 					},
 					["totaldamagetaken"] = 11,
-					["totaldamage"] = 148,
+					["id"] = "0x07000000009809AC",
 					["damage"] = 148,
 				}, -- [1]
 			},
@@ -507,12 +507,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Glacion"] = {
-									["overkill"] = 22,
 									["amount"] = 164,
+									["overkill"] = 22,
 								},
 							},
-							["overkill"] = 22,
 							["amount"] = 164,
+							["overkill"] = 22,
 						},
 					},
 					["totaldamage"] = 8,
@@ -531,25 +531,25 @@ SkadaStorageDB = {
 				{
 					["damagespells"] = {
 						["Fireball"] = {
-							["criticalmin"] = 27,
-							["hitmin"] = 16,
 							["criticalamount"] = 27,
+							["hitmin"] = 16,
+							["criticalmin"] = 27,
 							["id"] = 133,
-							["casts"] = 7,
+							["critical"] = 1,
 							["targets"] = {
 								["Kobold Laborer"] = {
-									["overkill"] = 22,
 									["amount"] = 164,
+									["overkill"] = 22,
 								},
 							},
 							["overkill"] = 22,
+							["hit"] = 7,
+							["casts"] = 7,
 							["count"] = 8,
-							["criticalmax"] = 27,
-							["hitmax"] = 23,
 							["amount"] = 164,
 							["school"] = 4,
-							["hit"] = 7,
-							["critical"] = 1,
+							["hitmax"] = 23,
+							["criticalmax"] = 27,
 							["hitamount"] = 137,
 						},
 					},
@@ -557,8 +557,12 @@ SkadaStorageDB = {
 					["damagetaken"] = 8,
 					["flag"] = 1297,
 					["class"] = "MAGE",
-					["overkill"] = 22,
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 						[133] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -572,6 +576,11 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 10,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
@@ -587,18 +596,9 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
 					},
-					["id"] = "0x07000000009809AC",
+					["overkill"] = 22,
+					["totaldamage"] = 164,
 					["role"] = "DAMAGER",
 					["time"] = 12.95,
 					["name"] = "Glacion",
@@ -606,14 +606,14 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["amount"] = 8,
+							["hit"] = 5,
 							["sources"] = {
 								["Kobold Laborer"] = {
 									["amount"] = 8,
 								},
 							},
 							["count"] = 6,
-							["hit"] = 5,
+							["amount"] = 8,
 							["school"] = 1,
 							["hitmax"] = 2,
 							["MISS"] = 1,
@@ -621,7 +621,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 8,
-					["totaldamage"] = 164,
+					["id"] = "0x07000000009809AC",
 					["damage"] = 164,
 				}, -- [1]
 			},
@@ -639,6 +639,31 @@ SkadaStorageDB = {
 			["endtime"] = 1690356855,
 		}, -- [4]
 		{
+			["starttime"] = 1690356828,
+			["type"] = "none",
+			["enemies"] = {
+				{
+					["name"] = "Kobold Laborer",
+					["damagetaken"] = 78,
+					["id"] = "0xF130000050009615",
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 78,
+					["damagetakenspells"] = {
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Glacion"] = {
+									["amount"] = 78,
+									["overkill"] = 7,
+								},
+							},
+							["amount"] = 78,
+							["overkill"] = 7,
+						},
+					},
+				}, -- [1]
+			},
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -647,8 +672,8 @@ SkadaStorageDB = {
 							["id"] = 133,
 							["targets"] = {
 								["Kobold Laborer"] = {
-									["overkill"] = 7,
 									["amount"] = 78,
+									["overkill"] = 7,
 								},
 							},
 							["overkill"] = 7,
@@ -693,48 +718,23 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
 					["time"] = 5.76,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
 					["damage"] = 78,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["enemies"] = {
-				{
-					["damagetaken"] = 78,
-					["name"] = "Kobold Laborer",
-					["class"] = "MONSTER",
-					["flag"] = 68136,
-					["totaldamagetaken"] = 78,
-					["id"] = "0xF130000050009615",
-					["damagetakenspells"] = {
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Glacion"] = {
-									["overkill"] = 7,
-									["amount"] = 78,
-								},
-							},
-							["overkill"] = 7,
-							["amount"] = 78,
-						},
-					},
-				}, -- [1]
-			},
-			["starttime"] = 1690356828,
-			["name"] = "Kobold Laborer",
-			["etotaldamagetaken"] = 78,
-			["last_time"] = 3941.63,
+			["time"] = 7,
+			["last_action"] = 1690356834,
+			["endtime"] = 1690356835,
 			["overkill"] = 7,
 			["edamagetaken"] = 78,
 			["totaldamage"] = 78,
-			["time"] = 7,
+			["name"] = "Kobold Laborer",
 			["mobname"] = "Kobold Laborer",
 			["damage"] = 78,
-			["last_action"] = 1690356834,
-			["endtime"] = 1690356835,
+			["etotaldamagetaken"] = 78,
+			["last_time"] = 3941.63,
 		}, -- [5]
 		{
 			["enemies"] = {
@@ -758,12 +758,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Glacion"] = {
-									["overkill"] = 10,
 									["amount"] = 112,
+									["overkill"] = 10,
 								},
 							},
-							["overkill"] = 10,
 							["amount"] = 112,
+							["overkill"] = 10,
 						},
 					},
 					["totaldamage"] = 6,
@@ -784,18 +784,18 @@ SkadaStorageDB = {
 						["Fireball"] = {
 							["hitmin"] = 17,
 							["id"] = 133,
-							["hitmax"] = 22,
+							["count"] = 7,
 							["targets"] = {
 								["Garrick Padfoot"] = {
-									["overkill"] = 10,
 									["amount"] = 111,
+									["overkill"] = 10,
 								},
 							},
 							["overkill"] = 10,
-							["amount"] = 111,
-							["casts"] = 6,
-							["count"] = 7,
 							["hit"] = 6,
+							["casts"] = 6,
+							["hitmax"] = 22,
+							["amount"] = 111,
 							["school"] = 4,
 							["resisted"] = 6,
 							["MISS"] = 1,
@@ -821,8 +821,12 @@ SkadaStorageDB = {
 					["damagetaken"] = 6,
 					["flag"] = 1297,
 					["class"] = "MAGE",
-					["overkill"] = 10,
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 						[133] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -836,6 +840,11 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 9,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
@@ -851,18 +860,9 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
 					},
-					["id"] = "0x07000000009809AC",
+					["overkill"] = 10,
+					["totaldamage"] = 112,
 					["role"] = "DAMAGER",
 					["time"] = 10.71,
 					["name"] = "Glacion",
@@ -884,7 +884,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 6,
-					["totaldamage"] = 112,
+					["id"] = "0x07000000009809AC",
 					["damage"] = 112,
 				}, -- [1]
 			},
@@ -915,14 +915,14 @@ SkadaStorageDB = {
 									["amount"] = 71,
 								},
 							},
+							["critical"] = 1,
+							["hit"] = 2,
 							["casts"] = 2,
 							["count"] = 3,
-							["criticalmax"] = 33,
-							["hitmax"] = 21,
 							["amount"] = 71,
 							["school"] = 4,
-							["hit"] = 2,
-							["critical"] = 1,
+							["hitmax"] = 21,
+							["criticalmax"] = 33,
 							["hitamount"] = 38,
 						},
 					},
@@ -958,24 +958,24 @@ SkadaStorageDB = {
 					["totaldamage"] = 71,
 					["name"] = "Glacion",
 					["role"] = "DAMAGER",
-					["flag"] = 1297,
 					["time"] = 3.82,
+					["flag"] = 1297,
 					["damage"] = 71,
 				}, -- [1]
 			},
 			["type"] = "none",
-			["time"] = 5,
-			["last_time"] = 3617.335,
-			["etotaldamagetaken"] = 71,
-			["damage"] = 71,
+			["name"] = "Kobold Worker (7)",
+			["endtime"] = 1690356511,
+			["last_action"] = 1690356510,
+			["starttime"] = 1690356506,
 			["enemies"] = {
 				{
-					["damagetaken"] = 71,
 					["name"] = "Kobold Worker",
-					["class"] = "MONSTER",
-					["flag"] = 68136,
-					["totaldamagetaken"] = 71,
+					["damagetaken"] = 71,
 					["id"] = "0xF13000010100A08B",
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 71,
 					["damagetakenspells"] = {
 						[133] = {
 							["school"] = 4,
@@ -991,13 +991,38 @@ SkadaStorageDB = {
 			},
 			["edamagetaken"] = 71,
 			["totaldamage"] = 71,
-			["name"] = "Kobold Worker (7)",
+			["time"] = 5,
 			["mobname"] = "Kobold Worker",
-			["starttime"] = 1690356506,
-			["last_action"] = 1690356510,
-			["endtime"] = 1690356511,
+			["damage"] = 71,
+			["etotaldamagetaken"] = 71,
+			["last_time"] = 3617.335,
 		}, -- [7]
 		{
+			["starttime"] = 1690356495,
+			["type"] = "none",
+			["enemies"] = {
+				{
+					["name"] = "Kobold Worker",
+					["damagetaken"] = 80,
+					["id"] = "0xF13000010100AF1A",
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 80,
+					["damagetakenspells"] = {
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Glacion"] = {
+									["amount"] = 80,
+									["overkill"] = 9,
+								},
+							},
+							["amount"] = 80,
+							["overkill"] = 9,
+						},
+					},
+				}, -- [1]
+			},
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -1006,8 +1031,8 @@ SkadaStorageDB = {
 							["id"] = 133,
 							["targets"] = {
 								["Kobold Worker"] = {
-									["overkill"] = 9,
 									["amount"] = 79,
+									["overkill"] = 9,
 								},
 							},
 							["overkill"] = 9,
@@ -1067,50 +1092,50 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 					},
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
 					["time"] = 6.1,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
 					["damage"] = 80,
 				}, -- [1]
 			},
+			["time"] = 8,
+			["last_action"] = 1690356501,
+			["endtime"] = 1690356503,
+			["overkill"] = 9,
+			["edamagetaken"] = 80,
+			["totaldamage"] = 80,
+			["name"] = "Kobold Worker (6)",
+			["mobname"] = "Kobold Worker",
+			["damage"] = 80,
+			["etotaldamagetaken"] = 80,
+			["last_time"] = 3608.659,
+		}, -- [8]
+		{
+			["starttime"] = 1690356485,
 			["type"] = "none",
 			["enemies"] = {
 				{
-					["damagetaken"] = 80,
 					["name"] = "Kobold Worker",
-					["class"] = "MONSTER",
+					["damagetaken"] = 73,
+					["id"] = "0xF13000010100AEF4",
 					["flag"] = 68136,
-					["totaldamagetaken"] = 80,
-					["id"] = "0xF13000010100AF1A",
+					["class"] = "MONSTER",
+					["totaldamagetaken"] = 73,
 					["damagetakenspells"] = {
 						[133] = {
 							["school"] = 4,
 							["sources"] = {
 								["Glacion"] = {
-									["overkill"] = 9,
-									["amount"] = 80,
+									["amount"] = 73,
+									["overkill"] = 2,
 								},
 							},
-							["overkill"] = 9,
-							["amount"] = 80,
+							["amount"] = 73,
+							["overkill"] = 2,
 						},
 					},
 				}, -- [1]
 			},
-			["starttime"] = 1690356495,
-			["name"] = "Kobold Worker (6)",
-			["etotaldamagetaken"] = 80,
-			["last_time"] = 3608.659,
-			["overkill"] = 9,
-			["edamagetaken"] = 80,
-			["totaldamage"] = 80,
-			["time"] = 8,
-			["mobname"] = "Kobold Worker",
-			["damage"] = 80,
-			["last_action"] = 1690356501,
-			["endtime"] = 1690356503,
-		}, -- [8]
-		{
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -1119,8 +1144,8 @@ SkadaStorageDB = {
 							["id"] = 133,
 							["targets"] = {
 								["Kobold Worker"] = {
-									["overkill"] = 2,
 									["amount"] = 73,
+									["overkill"] = 2,
 								},
 							},
 							["overkill"] = 2,
@@ -1165,48 +1190,23 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
 					["time"] = 5.25,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
 					["damage"] = 73,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["enemies"] = {
-				{
-					["damagetaken"] = 73,
-					["name"] = "Kobold Worker",
-					["class"] = "MONSTER",
-					["flag"] = 68136,
-					["totaldamagetaken"] = 73,
-					["id"] = "0xF13000010100AEF4",
-					["damagetakenspells"] = {
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Glacion"] = {
-									["overkill"] = 2,
-									["amount"] = 73,
-								},
-							},
-							["overkill"] = 2,
-							["amount"] = 73,
-						},
-					},
-				}, -- [1]
-			},
-			["starttime"] = 1690356485,
-			["name"] = "Kobold Worker (5)",
-			["etotaldamagetaken"] = 73,
-			["last_time"] = 3597.792,
+			["time"] = 7,
+			["last_action"] = 1690356491,
+			["endtime"] = 1690356492,
 			["overkill"] = 2,
 			["edamagetaken"] = 73,
 			["totaldamage"] = 73,
-			["time"] = 7,
+			["name"] = "Kobold Worker (5)",
 			["mobname"] = "Kobold Worker",
 			["damage"] = 73,
-			["last_action"] = 1690356491,
-			["endtime"] = 1690356492,
+			["etotaldamagetaken"] = 73,
+			["last_time"] = 3597.792,
 		}, -- [9]
 		{
 			["enemies"] = {
@@ -1273,6 +1273,11 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 						[133] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1287,6 +1292,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 						[6136] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1299,21 +1309,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 					},
-					["totaldamage"] = 71,
 					["role"] = "DAMAGER",
+					["totaldamage"] = 71,
 					["time"] = 5.3,
-					["id"] = "0x07000000009809AC",
+					["name"] = "Glacion",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 1,
@@ -1332,7 +1332,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 1,
-					["name"] = "Glacion",
+					["id"] = "0x07000000009809AC",
 					["damage"] = 71,
 				}, -- [1]
 			},
@@ -1428,6 +1428,11 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 						[133] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1442,6 +1447,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 						[6136] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1454,21 +1464,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
 					},
-					["totaldamage"] = 71,
 					["role"] = "DAMAGER",
+					["totaldamage"] = 71,
 					["time"] = 7.11,
-					["id"] = "0x07000000009809AC",
+					["name"] = "Glacion",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 1,
@@ -1487,7 +1487,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 1,
-					["name"] = "Glacion",
+					["id"] = "0x07000000009809AC",
 					["damage"] = 71,
 				}, -- [1]
 			},
@@ -1525,12 +1525,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Glacion"] = {
-									["overkill"] = 18,
 									["amount"] = 160,
+									["overkill"] = 18,
 								},
 							},
-							["overkill"] = 18,
 							["amount"] = 160,
+							["overkill"] = 18,
 						},
 					},
 					["totaldamage"] = 2,
@@ -1553,8 +1553,8 @@ SkadaStorageDB = {
 							["id"] = 133,
 							["targets"] = {
 								["Kobold Worker"] = {
-									["overkill"] = 18,
 									["amount"] = 159,
+									["overkill"] = 18,
 								},
 							},
 							["overkill"] = 18,
@@ -1586,6 +1586,44 @@ SkadaStorageDB = {
 					["damagetaken"] = 2,
 					["flag"] = 1297,
 					["class"] = "MAGE",
+					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 4,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["refresh"] = 4,
+									["count"] = 2,
+									["uptime"] = 8,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
@@ -1603,51 +1641,13 @@ SkadaStorageDB = {
 							["hitamount"] = 2,
 						},
 					},
-					["auras"] = {
-						[133] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["refresh"] = 4,
-							["targets"] = {
-								["Kobold Worker"] = {
-									["refresh"] = 4,
-									["count"] = 2,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Kobold Worker"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["id"] = "0x07000000009809AC",
+					["totaldamage"] = 160,
 					["role"] = "DAMAGER",
 					["time"] = 12.55,
 					["name"] = "Glacion",
 					["overkill"] = 18,
 					["totaldamagetaken"] = 2,
-					["totaldamage"] = 160,
+					["id"] = "0x07000000009809AC",
 					["damage"] = 160,
 				}, -- [1]
 			},
@@ -1686,12 +1686,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Glacion"] = {
-									["overkill"] = 2,
 									["amount"] = 73,
+									["overkill"] = 2,
 								},
 							},
-							["overkill"] = 2,
 							["amount"] = 73,
+							["overkill"] = 2,
 						},
 					},
 					["totaldamage"] = 2,
@@ -1714,8 +1714,8 @@ SkadaStorageDB = {
 							["id"] = 133,
 							["targets"] = {
 								["Kobold Worker"] = {
-									["overkill"] = 2,
 									["amount"] = 71,
+									["overkill"] = 2,
 								},
 							},
 							["overkill"] = 2,
@@ -1747,8 +1747,12 @@ SkadaStorageDB = {
 					["damagetaken"] = 2,
 					["flag"] = 1297,
 					["class"] = "MAGE",
-					["overkill"] = 2,
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
 						[133] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1763,6 +1767,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
 						[6136] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1775,18 +1784,9 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
 					},
-					["id"] = "0x07000000009809AC",
+					["overkill"] = 2,
+					["totaldamage"] = 73,
 					["role"] = "DAMAGER",
 					["time"] = 7.390000000000001,
 					["name"] = "Glacion",
@@ -1808,7 +1808,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 2,
-					["totaldamage"] = 73,
+					["id"] = "0x07000000009809AC",
 					["damage"] = 73,
 				}, -- [1]
 			},
@@ -1905,6 +1905,11 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "MAGE",
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 						[133] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1918,6 +1923,11 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 7,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
@@ -1933,21 +1943,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
 					},
-					["totaldamage"] = 71,
 					["role"] = "DAMAGER",
+					["totaldamage"] = 71,
 					["time"] = 7.52,
-					["id"] = "0x07000000009809AC",
+					["name"] = "Glacion",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 1,
@@ -1966,7 +1966,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 3,
-					["name"] = "Glacion",
+					["id"] = "0x07000000009809AC",
 					["damage"] = 71,
 				}, -- [1]
 			},
@@ -2004,12 +2004,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Glacion"] = {
-									["overkill"] = 9,
 									["amount"] = 95,
+									["overkill"] = 9,
 								},
 							},
-							["overkill"] = 9,
 							["amount"] = 95,
+							["overkill"] = 9,
 						},
 					},
 					["totaldamage"] = 5,
@@ -2032,14 +2032,14 @@ SkadaStorageDB = {
 							["id"] = 133,
 							["targets"] = {
 								["Defias Thug"] = {
-									["overkill"] = 9,
 									["amount"] = 95,
+									["overkill"] = 9,
 								},
 							},
 							["overkill"] = 9,
-							["hitmax"] = 21,
-							["casts"] = 4,
 							["count"] = 5,
+							["casts"] = 4,
+							["hitmax"] = 21,
 							["hit"] = 5,
 							["school"] = 4,
 							["resisted"] = 5,
@@ -2051,8 +2051,12 @@ SkadaStorageDB = {
 					["damagetaken"] = 5,
 					["flag"] = 1297,
 					["class"] = "MAGE",
-					["overkill"] = 9,
 					["auras"] = {
+						[1459] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 						[133] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -2066,6 +2070,11 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 6,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
@@ -2081,18 +2090,9 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
 					},
-					["id"] = "0x07000000009809AC",
+					["overkill"] = 9,
+					["role"] = "DAMAGER",
 					["totaldamage"] = 95,
 					["time"] = 7.96,
 					["name"] = "Glacion",
@@ -2114,7 +2114,7 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamagetaken"] = 5,
-					["role"] = "DAMAGER",
+					["id"] = "0x07000000009809AC",
 					["damage"] = 95,
 				}, -- [1]
 			},

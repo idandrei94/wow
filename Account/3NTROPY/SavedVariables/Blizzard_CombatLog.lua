@@ -1025,6 +1025,6 @@ Blizzard_CombatLog_Filters = {
 			},
 		}, -- [4]
 	},
-	["currentFilter"] = 3,
+	["currentFilter"] = 1,
 }
 Blizzard_CombatLog_Filter_Version = 4.1
