@@ -7,10 +7,10 @@ Y: 168
 W: 232
 H: 100
 Frame: LootFrame
-FrameLevel: 10
+FrameLevel: 15
 Anchor: CENTER
-X: 159
-Y: -39
+X: 57
+Y: 53
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -77,7 +77,7 @@ Y: 0
 W: 162
 H: 20
 Frame: TomTomBlock
-FrameLevel: 12
+FrameLevel: 11
 Anchor: TOPRIGHT
 X: -3
 Y: -178
