@@ -8,13 +8,13 @@ DBM_SavedOptions = {
 	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
 	["RangeFrameFrames"] = "radar",
 	["HPFramePoint"] = "CENTER",
-	["HealthFrameLocked"] = false,
+	["WarningIconRight"] = true,
 	["HealthFrameGrowUp"] = false,
 	["StatusEnabled"] = true,
 	["HideBossEmoteFrame"] = false,
-	["RangeFrameRadarX"] = 108.8887668556594,
+	["RangeFrameRadarX"] = 182.9629359626677,
 	["ShowBigBrotherOnCombatStart"] = false,
-	["RangeFrameRadarY"] = 170.8149987714232,
+	["RangeFrameRadarY"] = 161.33360806767,
 	["HealthFrameBarBorder"] = "Interface\\PaperDollInfoFrame\\UI-Character-Skills-BarBorder",
 	["BlockVersionUpdatePopup"] = true,
 	["ArrowPoint"] = "TOP",
@@ -50,18 +50,18 @@ DBM_SavedOptions = {
 	["ShowFakedRaidWarnings"] = false,
 	["PullDifficultyAnnounce"] = true,
 	["DontSendBossAnnounces"] = false,
-	["RangeFrameLocked"] = false,
+	["SpecialWarningFontColor"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+	},
 	["RangeFrameRadarPoint"] = "BOTTOM",
 	["HPFrameMaxEntries"] = 5,
 	["TTSEnabled"] = true,
 	["HealthFrameBarTexture"] = "Interface\\PaperDollInfoFrame\\UI-Character-Skills-Bar",
 	["RangeFrameUpdates"] = "Average",
 	["SpecialWarningPoint"] = "CENTER",
-	["SpecialWarningFontColor"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-	},
+	["RangeFrameSound1"] = "none",
 	["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.wav",
 	["CombatlogFixEnabled"] = true,
 	["WarningIconLeft"] = true,
@@ -80,7 +80,7 @@ DBM_SavedOptions = {
 	["HealthFrameWidth"] = 200,
 	["SpecialWarningX"] = 0,
 	["DontSendBossWhispers"] = false,
-	["RangeFrameSound1"] = "none",
+	["RangeFrameLocked"] = false,
 	["HPFrameY"] = -57.1404294349347,
 	["FixCLEUOnCombatStart"] = false,
 	["SpecialWarningFontColor2"] = {
@@ -92,8 +92,8 @@ DBM_SavedOptions = {
 	["HPFrameX"] = -195.541093447675,
 	["ArrowPosY"] = -150,
 	["SpamBlockBossWhispers"] = false,
-	["WarningIconRight"] = true,
 	["AutoRespond"] = true,
+	["HealthFrameLocked"] = false,
 }
 DBT_SavedOptions = {
 	["DBM"] = {
