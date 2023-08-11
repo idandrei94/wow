@@ -4,6 +4,14 @@ SkadaDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
+	["global"] = {
+		["version"] = 1878,
+		["nicknames"] = {
+			["reset"] = 1693031592,
+			["cache"] = {
+			},
+		},
+	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Default",
 		["Praxia - Icecrown"] = "Default",
@@ -13,32 +21,20 @@ SkadaDB = {
 		["Eutanasie - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
 		["Urgash - Icecrown"] = "Default",
-		["Elgorath - Icecrown"] = "Default",
+		["Glacion - Icecrown"] = "Default",
 		["Pocaitoru - Icecrown"] = "Default",
 		["Glacianos - Icecrown"] = "Default",
-		["Lingurita - Icecrown"] = "Default",
+		["Pocaitorul - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
 		["Sculatru - Icecrown"] = "Default",
 		["Kalaam - Icecrown"] = "Default",
-		["Flokus - Icecrown"] = "Default",
-		["Morridin - Icecrown"] = "Default",
 		["Vrael - Icecrown"] = "Default",
+		["Morridin - Icecrown"] = "Default",
+		["Flokus - Icecrown"] = "Default",
 		["Inarya - Icecrown"] = "Default",
 		["Pubianus - Icecrown"] = "Default",
-		["Pocaitorul - Icecrown"] = "Default",
-		["Glacion - Icecrown"] = "Default",
-	},
-	["global"] = {
-		["nicknames"] = {
-			["cache"] = {
-				["0x0700000000035673"] = "Akel",
-				["0x070000000064C2F3"] = "Bind",
-				["0x07000000005F43FF"] = "Blek Is Kill",
-				["0x07000000006E5726"] = "Bind",
-			},
-			["reset"] = 1691663542,
-		},
-		["version"] = 1878,
+		["Lingurita - Icecrown"] = "Default",
+		["Elgorath - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -49,7 +45,7 @@ SkadaDB = {
 			},
 			["namedisplay"] = 2,
 			["modules"] = {
-				["sunderchannel"] = "SAY",
+				["deathlogthreshold"] = 1000,
 				["threat"] = {
 					["soundfile"] = "Fel Nova",
 					["ignorePets"] = true,
@@ -57,8 +53,8 @@ SkadaDB = {
 					["threshold"] = 90,
 					["notankwarnings"] = true,
 					["output"] = 1,
-					["sound"] = true,
 					["showAggroBar"] = true,
+					["sound"] = true,
 					["frequency"] = 2,
 				},
 				["failschannel"] = "AUTO",
@@ -66,12 +62,18 @@ SkadaDB = {
 				["deathchannel"] = "AUTO",
 				["interruptchannel"] = "SAY",
 				["parrychannel"] = "AUTO",
-				["deathlogthreshold"] = 1000,
+				["sunderchannel"] = "SAY",
 			},
 			["prepotion"] = true,
 			["windows"] = {
 				{
 					["barslocked"] = true,
+					["background"] = {
+						["height"] = 290,
+						["color"] = {
+							["a"] = 0.9000000059604645,
+						},
+					},
 					["hidden"] = true,
 					["y"] = 153.7775468416687,
 					["x"] = -644.148271468071,
@@ -79,12 +81,6 @@ SkadaDB = {
 					["mode"] = "Damage",
 					["snapto"] = true,
 					["barwidth"] = 221.0367141682152,
-					["background"] = {
-						["color"] = {
-							["a"] = 0.9000000059604645,
-						},
-						["height"] = 290,
-					},
 				}, -- [1]
 			},
 			["report"] = {
