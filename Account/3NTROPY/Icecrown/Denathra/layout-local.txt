@@ -25,8 +25,8 @@ FrameLevel: 1
 Anchor: CENTER
 X: -7
 Y: -43
-W: 278
-H: 201
+W: 295
+H: 195
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
