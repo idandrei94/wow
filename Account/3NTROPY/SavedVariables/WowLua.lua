@@ -1,6 +1,6 @@
 
 WowLua_DB = {
-	["currentPage"] = 7,
+	["currentPage"] = 4,
 	["fontSize"] = 14,
 	["pages"] = {
 		{

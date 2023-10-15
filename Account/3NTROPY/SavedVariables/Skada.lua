@@ -24,8 +24,8 @@ SkadaDB = {
 		["Urgash - Icecrown"] = "Default",
 		["Vrael - Icecrown"] = "Default",
 		["Glacion - Icecrown"] = "Default",
-		["Pocaitoru - Icecrown"] = "Default",
-		["Glacianos - Icecrown"] = "Default",
+		["Lingurita - Icecrown"] = "Default",
+		["Elgorath - Icecrown"] = "Default",
 		["Pocaitorul - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
 		["Sculatru - Icecrown"] = "Default",
@@ -35,8 +35,8 @@ SkadaDB = {
 		["Flokus - Icecrown"] = "Default",
 		["Inarya - Icecrown"] = "Default",
 		["Pubianus - Icecrown"] = "Default",
-		["Lingurita - Icecrown"] = "Default",
-		["Elgorath - Icecrown"] = "Default",
+		["Glacianos - Icecrown"] = "Default",
+		["Pocaitoru - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -80,8 +80,8 @@ SkadaDB = {
 					["y"] = 153.7775468416687,
 					["x"] = -644.148271468071,
 					["strata"] = "HIGH",
-					["mode"] = "Damage",
 					["snapto"] = true,
+					["mode"] = "Damage",
 					["barwidth"] = 221.0367141682152,
 				}, -- [1]
 			},

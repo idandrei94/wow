@@ -5,83 +5,6 @@ MagicRunesDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
-			["icondisplay"] = {
-				["majorRadius"] = 100,
-				["vertSpacing"] = 1,
-				["scale"] = 1,
-				["border"] = "None",
-				["padding"] = 2,
-				["runeSet"] = "Blizzard Improved",
-				["oocAlpha"] = 1,
-				["unholy1Angle"] = 120,
-				["frost1Angle"] = 240,
-				["background"] = "Solid",
-				["unholy2Angle"] = 180,
-				["inset"] = 4,
-				["tileSize"] = 32,
-				["edgeSize"] = 16,
-				["frost2Angle"] = 300,
-				["tile"] = false,
-				["radius"] = 100,
-				["layout"] = 1,
-				["spread"] = 216,
-				["width"] = 6,
-				["horizSpacing"] = 1,
-				["startAngle"] = 180,
-				["style"] = 1,
-				["blood1Angle"] = 0,
-				["blood2Angle"] = 60,
-				["runeOrder"] = 1,
-				["backdropColors"] = {
-					["backgroundColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0.5, -- [4]
-					},
-					["borderColor"] = {
-						0.88, -- [1]
-						0.88, -- [2]
-						0.88, -- [3]
-						0.8, -- [4]
-					},
-				},
-				["minorRadius"] = 80,
-			},
-			["locked"] = true,
-			["runebars"] = {
-				["vertSpacing"] = 1,
-				["scale"] = 1,
-				["border"] = "None",
-				["fontsize"] = 12,
-				["background"] = "Solid",
-				["inset"] = 4,
-				["enabled"] = false,
-				["edgeSize"] = 16,
-				["columns"] = 1,
-				["preset"] = 1,
-				["width"] = 200,
-				["horizSpacing"] = 1,
-				["font"] = "Friz Quadrata TT",
-				["runeOrder"] = 1,
-				["height"] = 20,
-				["padding"] = 2,
-				["backdropColors"] = {
-					["backgroundColor"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0.5, -- [4]
-					},
-					["borderColor"] = {
-						0.88, -- [1]
-						0.88, -- [2]
-						0.88, -- [3]
-						0.8, -- [4]
-					},
-				},
-				["showicons"] = true,
-			},
 			["colors"] = {
 				["Runic"] = {
 					0, -- [1]
@@ -119,10 +42,10 @@ MagicRunesDB = {
 					1, -- [3]
 					1, -- [4]
 				},
-				["Timer"] = {
+				["SCARLETFEVER"] = {
 					1, -- [1]
-					1, -- [2]
-					1, -- [3]
+					0.35, -- [2]
+					0.3, -- [3]
 					1, -- [4]
 				},
 				["Death"] = {
@@ -131,10 +54,10 @@ MagicRunesDB = {
 					0.9, -- [3]
 					1, -- [4]
 				},
-				["SCARLETFEVER"] = {
+				["Timer"] = {
 					1, -- [1]
-					0.35, -- [2]
-					0.3, -- [3]
+					1, -- [2]
+					1, -- [3]
 					1, -- [4]
 				},
 				["Background"] = {
@@ -157,6 +80,7 @@ MagicRunesDB = {
 					1, -- [4]
 				},
 			},
+			["locked"] = true,
 			["bars"] = {
 				{
 					["runeid"] = 1,
@@ -196,6 +120,82 @@ MagicRunesDB = {
 					["title"] = "Frost Fever",
 					["shorttitle"] = "FF",
 				}, -- [9]
+			},
+			["icondisplay"] = {
+				["majorRadius"] = 100,
+				["vertSpacing"] = 1,
+				["scale"] = 1,
+				["border"] = "None",
+				["unholy1Angle"] = 120,
+				["runeSet"] = "Blizzard Improved",
+				["oocAlpha"] = 1,
+				["padding"] = 2,
+				["minorRadius"] = 80,
+				["background"] = "Solid",
+				["unholy2Angle"] = 180,
+				["inset"] = 4,
+				["tileSize"] = 32,
+				["edgeSize"] = 16,
+				["frost2Angle"] = 300,
+				["tile"] = false,
+				["radius"] = 100,
+				["layout"] = 1,
+				["spread"] = 216,
+				["width"] = 6,
+				["horizSpacing"] = 1,
+				["startAngle"] = 180,
+				["style"] = 1,
+				["blood1Angle"] = 0,
+				["blood2Angle"] = 60,
+				["runeOrder"] = 1,
+				["backdropColors"] = {
+					["backgroundColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0.5, -- [4]
+					},
+					["borderColor"] = {
+						0.88, -- [1]
+						0.88, -- [2]
+						0.88, -- [3]
+						0.8, -- [4]
+					},
+				},
+				["frost1Angle"] = 240,
+			},
+			["runebars"] = {
+				["vertSpacing"] = 1,
+				["scale"] = 1,
+				["border"] = "None",
+				["fontsize"] = 12,
+				["background"] = "Solid",
+				["inset"] = 4,
+				["enabled"] = false,
+				["edgeSize"] = 16,
+				["columns"] = 1,
+				["preset"] = 1,
+				["width"] = 200,
+				["horizSpacing"] = 1,
+				["font"] = "Friz Quadrata TT",
+				["padding"] = 2,
+				["height"] = 20,
+				["runeOrder"] = 1,
+				["backdropColors"] = {
+					["backgroundColor"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0.5, -- [4]
+					},
+					["borderColor"] = {
+						0.88, -- [1]
+						0.88, -- [2]
+						0.88, -- [3]
+						0.8, -- [4]
+					},
+				},
+				["showicons"] = true,
 			},
 		},
 	},

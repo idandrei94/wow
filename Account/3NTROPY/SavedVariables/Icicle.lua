@@ -40,6 +40,7 @@ Icicledb = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["XOffsetter"] = -50,
 		},
 	},
 }
