@@ -1,646 +1,33558 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["totaldamage"] = 35346,
-		["time"] = 12,
-		["totaldamagetaken"] = 0,
-		["damage"] = 35346,
-		["overheal"] = 719,
-		["damagetaken"] = 0,
-		["overkill"] = 335,
-		["starttime"] = 1691501487,
-		["heal"] = 177,
-		["name"] = "Total",
+		["mana"] = 665526,
+		["dispel"] = 1,
+		["totaldamage"] = 29865587,
+		["time"] = 236,
+		["ccdone"] = 1,
+		["totaldamagetaken"] = 3958092,
+		["ress"] = 1,
+		["damage"] = 29865587,
 		["players"] = {
 			{
-				["overheal"] = 719,
-				["damagetaken"] = 0,
-				["heal"] = 177,
-				["id"] = "0x070000000000D01B",
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Urgash",
-				["overkill"] = 335,
-				["totaldamage"] = 35346,
+				["overheal"] = 1186717,
+				["damagetaken"] = 91635,
+				["mana"] = 47609,
+				["id"] = "0x070000000086BAC1",
+				["class"] = "PRIEST",
+				["name"] = "Evelinayou",
+				["totaldamage"] = 2290483,
+				["flag"] = 1300,
 				["role"] = "DAMAGER",
-				["time"] = 4.68,
-				["flag"] = 4369,
-				["totaldamagetaken"] = 0,
-				["spec"] = 252,
-				["damage"] = 35346,
+				["time"] = 215.2000000000002,
+				["heal"] = 158497,
+				["totaldamagetaken"] = 91635,
+				["spec"] = 258,
+				["damage"] = 2290483,
 			}, -- [1]
+			{
+				["overheal"] = 1430607,
+				["damagetaken"] = 208019,
+				["id"] = "0x070000000073A916",
+				["class"] = "SHAMAN",
+				["name"] = "Shamanboros",
+				["mana"] = 22296,
+				["role"] = "HEALER",
+				["time"] = 173.7,
+				["heal"] = 840728,
+				["totaldamagetaken"] = 208019,
+				["spec"] = 264,
+				["flag"] = 1300,
+			}, -- [2]
+			{
+				["rage"] = 171,
+				["damagetaken"] = 279286,
+				["name"] = "Booxeer",
+				["id"] = "0x070000000062BDAA",
+				["class"] = "WARRIOR",
+				["overheal"] = 27532,
+				["heal"] = 14537,
+				["totaldamage"] = 1191888,
+				["role"] = "DAMAGER",
+				["time"] = 202.7800000000001,
+				["flag"] = 1300,
+				["totaldamagetaken"] = 279286,
+				["spec"] = 72,
+				["damage"] = 1191888,
+			}, -- [3]
+			{
+				["overheal"] = 141770,
+				["damagetaken"] = 50302,
+				["mana"] = 23645,
+				["id"] = "0x0700000000787132",
+				["class"] = "WARLOCK",
+				["name"] = "Simplelocks",
+				["heal"] = 15331,
+				["totaldamage"] = 1010534,
+				["role"] = "DAMAGER",
+				["time"] = 213.16,
+				["flag"] = 4372,
+				["totaldamagetaken"] = 62871,
+				["spec"] = 266,
+				["damage"] = 1010534,
+			}, -- [4]
+			{
+				["flag"] = 263444,
+				["class"] = "DEATHKNIGHT",
+				["time"] = 213.2700000000003,
+				["totaldamagetaken"] = 929174,
+				["damage"] = 435544,
+				["runic"] = 1442,
+				["absorb"] = 150712,
+				["damagetaken"] = 697640,
+				["id"] = "0x07000000009315F6",
+				["spec"] = 250,
+				["heal"] = 27206,
+				["name"] = "Sejin",
+				["ccdone"] = 1,
+				["overheal"] = 147457,
+				["totaldamage"] = 435544,
+				["role"] = "TANK",
+			}, -- [5]
+			{
+				["flag"] = 1300,
+				["mana"] = 74078,
+				["dispel"] = 1,
+				["time"] = 199.0400000000001,
+				["totaldamagetaken"] = 121857,
+				["damage"] = 38967,
+				["overheal"] = 4910834,
+				["absorb"] = 80822,
+				["damagetaken"] = 121857,
+				["id"] = "0x070000000077E900",
+				["spec"] = 65,
+				["heal"] = 1097316,
+				["name"] = "Fluidliftedx",
+				["class"] = "PALADIN",
+				["totaldamage"] = 38967,
+				["role"] = "HEALER",
+			}, -- [6]
+			{
+				["flag"] = 4372,
+				["mana"] = 53700,
+				["time"] = 173.5300000000001,
+				["totaldamagetaken"] = 116250,
+				["damage"] = 39716,
+				["overheal"] = 1605080,
+				["damagetaken"] = 116250,
+				["id"] = "0x070000000058044A",
+				["spec"] = 264,
+				["heal"] = 688313,
+				["name"] = "Famel",
+				["potion"] = 1,
+				["class"] = "SHAMAN",
+				["totaldamage"] = 39716,
+				["role"] = "HEALER",
+			}, -- [7]
+			{
+				["damagetaken"] = 96019,
+				["totaldamage"] = 1591173,
+				["id"] = "0x070000000087C57D",
+				["class"] = "DRUID",
+				["name"] = "Paracethamol",
+				["overkill"] = 1471,
+				["flag"] = 1300,
+				["role"] = "DAMAGER",
+				["time"] = 212.32,
+				["mana"] = 45220,
+				["totaldamagetaken"] = 96019,
+				["spec"] = 102,
+				["damage"] = 1591173,
+			}, -- [8]
+			{
+				["flag"] = 1300,
+				["mana"] = 56515,
+				["time"] = 204.7399999999998,
+				["totaldamagetaken"] = 158361,
+				["damage"] = 1138299,
+				["overheal"] = 145405,
+				["damagetaken"] = 158361,
+				["id"] = "0x07000000009687DD",
+				["spec"] = 263,
+				["overkill"] = 1075,
+				["heal"] = 43835,
+				["name"] = "Shamaster",
+				["class"] = "SHAMAN",
+				["totaldamage"] = 1138299,
+				["role"] = "DAMAGER",
+			}, -- [9]
+			{
+				["damagetaken"] = 80127,
+				["spec"] = 254,
+				["id"] = "0x0700000000084FE8",
+				["class"] = "HUNTER",
+				["name"] = "Ironshell",
+				["overkill"] = 10346,
+				["totaldamage"] = 1546887,
+				["role"] = "DAMAGER",
+				["time"] = 210.36,
+				["flag"] = 4372,
+				["totaldamagetaken"] = 80127,
+				["energy"] = 4225,
+				["damage"] = 1546887,
+			}, -- [10]
+			{
+				["rage"] = 657,
+				["damagetaken"] = 158878,
+				["name"] = "Magnatas",
+				["id"] = "0x07000000003FCB1F",
+				["class"] = "WARRIOR",
+				["overheal"] = 32725,
+				["heal"] = 9240,
+				["totaldamage"] = 1833844,
+				["role"] = "DAMAGER",
+				["time"] = 211.4599999999999,
+				["flag"] = 1300,
+				["totaldamagetaken"] = 158878,
+				["spec"] = 72,
+				["damage"] = 1833844,
+			}, -- [11]
+			{
+				["flag"] = 1297,
+				["class"] = "DEATHKNIGHT",
+				["time"] = 212.5599999999998,
+				["totaldamagetaken"] = 108378,
+				["damage"] = 2709367,
+				["runic"] = 254,
+				["absorb"] = 16835,
+				["damagetaken"] = 91543,
+				["id"] = "0x070000000000D01B",
+				["spec"] = 252,
+				["heal"] = 17528,
+				["name"] = "Urgash",
+				["overheal"] = 81466,
+				["totaldamage"] = 2709367,
+				["role"] = "DAMAGER",
+			}, -- [12]
+			{
+				["overheal"] = 1346349,
+				["damagetaken"] = 79390,
+				["totaldamage"] = 2246181,
+				["id"] = "0x07000000002155D2",
+				["class"] = "PRIEST",
+				["name"] = "Grottesque",
+				["overkill"] = 5221,
+				["flag"] = 1300,
+				["role"] = "DAMAGER",
+				["time"] = 203.76,
+				["heal"] = 210620,
+				["totaldamagetaken"] = 79390,
+				["spec"] = 258,
+				["damage"] = 2246181,
+			}, -- [13]
+			{
+				["flag"] = 4372,
+				["class"] = "HUNTER",
+				["time"] = 209.5699999999999,
+				["totaldamagetaken"] = 128324,
+				["damage"] = 1033428,
+				["overheal"] = 84055,
+				["damagetaken"] = 128324,
+				["id"] = "0x07000000008EB1C8",
+				["spec"] = 254,
+				["heal"] = 2604,
+				["name"] = "Laressa",
+				["mana"] = 8846,
+				["totaldamage"] = 1033428,
+				["energy"] = 7796,
+				["role"] = "DAMAGER",
+			}, -- [14]
+			{
+				["damagetaken"] = 109296,
+				["id"] = "0x07000000009C4868",
+				["class"] = "DRUID",
+				["name"] = "Caiva",
+				["mana"] = 37488,
+				["totaldamage"] = 1546850,
+				["role"] = "DAMAGER",
+				["time"] = 212.65,
+				["flag"] = 4372,
+				["totaldamagetaken"] = 109296,
+				["spec"] = 102,
+				["damage"] = 1546850,
+			}, -- [15]
+			{
+				["damagetaken"] = 178219,
+				["id"] = "0x070000000081F36D",
+				["class"] = "ROGUE",
+				["name"] = "Echoash",
+				["totaldamage"] = 2962313,
+				["flag"] = 1298,
+				["role"] = "DAMAGER",
+				["time"] = 210.2499999999998,
+				["spec"] = 260,
+				["totaldamagetaken"] = 178219,
+				["energy"] = 900,
+				["damage"] = 2962313,
+			}, -- [16]
+			{
+				["damagetaken"] = 194971,
+				["id"] = "0x070000000082321E",
+				["class"] = "ROGUE",
+				["name"] = "Jutrit",
+				["spec"] = 260,
+				["totaldamage"] = 1341730,
+				["role"] = "DAMAGER",
+				["time"] = 206.52,
+				["flag"] = 1298,
+				["totaldamagetaken"] = 194971,
+				["energy"] = 750,
+				["damage"] = 1341730,
+			}, -- [17]
+			{
+				["damagetaken"] = 63061,
+				["mana"] = 16041,
+				["id"] = "0x0700000000438E77",
+				["class"] = "MAGE",
+				["name"] = "Xknappen",
+				["overkill"] = 8244,
+				["totaldamage"] = 998857,
+				["role"] = "DAMAGER",
+				["time"] = 201.9100000000001,
+				["flag"] = 1300,
+				["totaldamagetaken"] = 63061,
+				["spec"] = 63,
+				["damage"] = 998857,
+			}, -- [18]
+			{
+				["flag"] = 1298,
+				["class"] = "DEATHKNIGHT",
+				["time"] = 208.9599999999999,
+				["totaldamagetaken"] = 151583,
+				["damage"] = 533628,
+				["overheal"] = 140163,
+				["absorb"] = 15732,
+				["damagetaken"] = 135851,
+				["id"] = "0x0700000000951A16",
+				["spec"] = 250,
+				["overkill"] = 65,
+				["heal"] = 29608,
+				["name"] = "Risenone",
+				["totaldamage"] = 533628,
+				["role"] = "TANK",
+			}, -- [19]
+			{
+				["damagetaken"] = 59521,
+				["id"] = "0x07000000009CB72E",
+				["class"] = "HUNTER",
+				["name"] = "Apollonn",
+				["totaldamage"] = 765926,
+				["flag"] = 1300,
+				["role"] = "DAMAGER",
+				["time"] = 207.4599999999999,
+				["spec"] = 254,
+				["totaldamagetaken"] = 59521,
+				["energy"] = 2450,
+				["damage"] = 765926,
+			}, -- [20]
+			{
+				["flag"] = 1300,
+				["mana"] = 192179,
+				["time"] = 184.7800000000001,
+				["totaldamagetaken"] = 177175,
+				["damage"] = 1636734,
+				["overheal"] = 1754,
+				["damagetaken"] = 177175,
+				["id"] = "0x070000000000942B",
+				["spec"] = 70,
+				["heal"] = 20497,
+				["name"] = "Tamook",
+				["death"] = 1,
+				["class"] = "PALADIN",
+				["totaldamage"] = 1636734,
+				["role"] = "DAMAGER",
+			}, -- [21]
+			{
+				["damagetaken"] = 77656,
+				["mana"] = 41550,
+				["id"] = "0x07000000008A8444",
+				["class"] = "DRUID",
+				["name"] = "Tifura",
+				["overkill"] = 11034,
+				["totaldamage"] = 1264274,
+				["role"] = "DAMAGER",
+				["time"] = 201.4,
+				["flag"] = 1298,
+				["totaldamagetaken"] = 77656,
+				["spec"] = 102,
+				["damage"] = 1264274,
+			}, -- [22]
+			{
+				["absorb"] = 1594,
+				["damagetaken"] = 129205,
+				["mana"] = 12665,
+				["id"] = "0x07000000009220B7",
+				["class"] = "MAGE",
+				["name"] = "Orcscream",
+				["overkill"] = 8393,
+				["totaldamage"] = 1111608,
+				["role"] = "DAMAGER",
+				["time"] = 195.58,
+				["flag"] = 4372,
+				["totaldamagetaken"] = 131531,
+				["spec"] = 63,
+				["damage"] = 1111608,
+			}, -- [23]
+			{
+				["flag"] = 1300,
+				["class"] = "DRUID",
+				["time"] = 162.0800000000001,
+				["totaldamagetaken"] = 84584,
+				["runic"] = 736,
+				["ress"] = 1,
+				["damagetaken"] = 84584,
+				["id"] = "0x07000000000A41DC",
+				["spec"] = 105,
+				["heal"] = 665572,
+				["name"] = "Ohdeer",
+				["rage"] = 112,
+				["overheal"] = 2114463,
+				["mana"] = 11269,
+				["energy"] = 296,
+				["role"] = "HEALER",
+			}, -- [24]
+			{
+				["damagetaken"] = 101430,
+				["absorb"] = 10496,
+				["id"] = "0x0700000000012B54",
+				["class"] = "MAGE",
+				["name"] = "Welden",
+				["mana"] = 22425,
+				["totaldamage"] = 597226,
+				["role"] = "DAMAGER",
+				["time"] = 182.81,
+				["flag"] = 1300,
+				["totaldamagetaken"] = 111926,
+				["spec"] = 63,
+				["damage"] = 597226,
+			}, -- [25]
+			{
+				["id"] = "Venomous Snake",
+				["class"] = "PET",
+				["name"] = "Venomous Snake",
+				["totaldamage"] = 38,
+				["time"] = 0.4500000000000001,
+				["flag"] = 4372,
+				["damage"] = 38,
+			}, -- [26]
+			{
+				["id"] = "Viper",
+				["class"] = "PET",
+				["name"] = "Viper",
+				["totaldamage"] = 92,
+				["time"] = 0.45,
+				["flag"] = 4372,
+				["damage"] = 92,
+			}, -- [27]
 		},
+		["absorb"] = 276191,
+		["damagetaken"] = 3668600,
+		["potion"] = 1,
+		["runic"] = 2432,
+		["rage"] = 940,
+		["overheal"] = 13396377,
+		["overkill"] = 45849,
+		["heal"] = 3841432,
+		["name"] = "Total",
+		["death"] = 1,
+		["starttime"] = 1697372770,
+		["energy"] = 16417,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
+			["eoverkill"] = 1511,
 			["enemies"] = {
 				{
-					["id"] = "0xF130008C90018408",
-					["name"] = "Sunreaver Dragonhawk",
-					["totaldamagetaken"] = 35346,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetaken"] = 35346,
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1311,
+					["damagespells"] = {
+						[72098] = {
+							["school"] = 16,
+							["total"] = 74360,
+							["targets"] = {
+								["Sejin"] = {
+									["total"] = 200532,
+									["amount"] = 155333,
 								},
 							},
-							["amount"] = 1311,
+							["amount"] = 155333,
 						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
+						[72096] = {
+							["school"] = 16,
+							["total"] = 81752,
+							["targets"] = {
+								["Welden"] = {
+									["total"] = 36902,
+									["amount"] = 30312,
+								},
+								["Apollonn"] = {
+									["amount"] = 35127,
+								},
+								["Tamook"] = {
+									["amount"] = 35465,
+								},
+								["Grottesque"] = {
+									["amount"] = 29195,
+								},
+								["Booxeer"] = {
+									["amount"] = 40557,
+								},
+								["Magnatas"] = {
+									["amount"] = 23232,
+								},
+								["Shamanboros"] = {
+									["amount"] = 33628,
+								},
+								["Risenone"] = {
+									["total"] = 31842,
+									["amount"] = 27189,
+								},
+								["Tifura"] = {
+									["amount"] = 21546,
+								},
+								["Ohdeer"] = {
+									["amount"] = 34921,
+								},
+								["Famel"] = {
+									["amount"] = 34220,
+								},
+								["Shamaster"] = {
+									["amount"] = 29297,
+								},
 								["Urgash"] = {
-									["amount"] = 1461,
+									["total"] = 20372,
+									["amount"] = 14719,
+								},
+								["Laressa"] = {
+									["amount"] = 36445,
+								},
+								["Fluidliftedx"] = {
+									["amount"] = 20685,
+								},
+								["Paracethamol"] = {
+									["amount"] = 25732,
+								},
+								["Orcscream"] = {
+									["amount"] = 34465,
+								},
+								["Evelinayou"] = {
+									["amount"] = 27927,
+								},
+								["Caiva"] = {
+									["amount"] = 23566,
+								},
+								["Jutrit"] = {
+									["amount"] = 18595,
+								},
+								["Ironshell"] = {
+									["amount"] = 22104,
+								},
+								["Simplelocks"] = {
+									["total"] = 20695,
+									["amount"] = 16557,
+								},
+								["Echoash"] = {
+									["amount"] = 38744,
+								},
+								["Xknappen"] = {
+									["amount"] = 26640,
+								},
+								["Sejin"] = {
+									["total"] = 17699,
+									["amount"] = 7719,
 								},
 							},
-							["amount"] = 1461,
+							["amount"] = 688587,
+						},
+						[72104] = {
+							["school"] = 16,
+							["total"] = 43171,
+							["targets"] = {
+								["Ironshell"] = {
+									["amount"] = 2740,
+								},
+								["Laressa"] = {
+									["amount"] = 3551,
+								},
+								["Fluidliftedx"] = {
+									["amount"] = 4497,
+								},
+								["Xknappen"] = {
+									["amount"] = 4034,
+								},
+								["Orcscream"] = {
+									["amount"] = 9855,
+								},
+								["Shamanboros"] = {
+									["amount"] = 8912,
+								},
+								["Evelinayou"] = {
+									["amount"] = 4331,
+								},
+								["Ohdeer"] = {
+									["amount"] = 5559,
+								},
+								["Welden"] = {
+									["total"] = 4102,
+									["amount"] = 4031,
+								},
+							},
+							["amount"] = 47510,
+						},
+						[6603] = {
+							["total"] = 163429,
+							["amount"] = 222584,
+							["school"] = 1,
+							["targets"] = {
+								["Sejin"] = {
+									["total"] = 207492,
+									["amount"] = 192246,
+								},
+								["Tamook"] = {
+									["overkill"] = 1511,
+									["amount"] = 30338,
+								},
+							},
+							["overkill"] = 1511,
+						},
+					},
+					["damagetaken"] = 15078093,
+					["flag"] = 2632,
+					["class"] = "BOSS",
+					["damagetakenspells"] = {
+						[49233] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 34466,
+								},
+								["Famel"] = {
+									["amount"] = 18224,
+								},
+							},
+							["amount"] = 52690,
+						},
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 524793,
+								},
+								["Evelinayou"] = {
+									["amount"] = 634452,
+								},
+							},
+							["amount"] = 1159245,
+						},
+						[42891] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 50900,
+								},
+								["Xknappen"] = {
+									["amount"] = 57434,
+								},
+								["Orcscream"] = {
+									["amount"] = 112811,
+								},
+							},
+							["amount"] = 221145,
+						},
+						[53190] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tifura"] = {
+									["amount"] = 17890,
+								},
+								["Paracethamol"] = {
+									["amount"] = 24860,
+								},
+								["Caiva"] = {
+									["amount"] = 25037,
+								},
+							},
+							["amount"] = 67787,
+						},
+						[47864] = {
+							["school"] = 32,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 29941,
+								},
+							},
+							["amount"] = 29941,
+						},
+						[47995] = {
+							["school"] = 1,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 148,
+								},
+							},
+							["amount"] = 148,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 67058,
+								},
+								["Apollonn"] = {
+									["amount"] = 42163,
+								},
+								["Tamook"] = {
+									["amount"] = 149542,
+								},
+								["Battle Chicken"] = {
+									["amount"] = 1,
+								},
+								["Booxeer"] = {
+									["amount"] = 120119,
+								},
+								["Magnatas"] = {
+									["amount"] = 176667,
+								},
+								["Risenone"] = {
+									["amount"] = 150146,
+								},
+								["Tifura"] = {
+									["amount"] = 33240,
+								},
+								["Jutrit"] = {
+									["amount"] = 280185,
+								},
 								["Urgash"] = {
-									["overkill"] = 335,
-									["amount"] = 5559,
+									["amount"] = 470484,
+								},
+								["Laressa"] = {
+									["amount"] = 43624,
+								},
+								["Fluidliftedx"] = {
+									["amount"] = 5580,
+								},
+								["Evelinayou"] = {
+									["amount"] = 27464,
+								},
+								["Simplelocks"] = {
+									["amount"] = 97903,
+								},
+								["Shamaster"] = {
+									["amount"] = 239668,
+								},
+								["Echoash"] = {
+									["amount"] = 826628,
+								},
+								["Sejin"] = {
+									["amount"] = 103694,
+								},
+								["Caiva"] = {
+									["amount"] = 33501,
 								},
 							},
-							["overkill"] = 335,
-							["amount"] = 5559,
+							["amount"] = 2867667,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1547,
-								},
-							},
-							["amount"] = 1547,
-						},
-						[47468] = {
+						[48638] = {
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2363,
+								["Jutrit"] = {
+									["amount"] = 121877,
+								},
+								["Echoash"] = {
+									["amount"] = 322086,
 								},
 							},
-							["amount"] = 2363,
+							["amount"] = 443963,
 						},
-						[49921] = {
+						[60203] = {
+							["school"] = 32,
+							["sources"] = {
+								["Paracethamol"] = {
+									["amount"] = 6130,
+								},
+							},
+							["amount"] = 6130,
+						},
+						[23881] = {
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2066,
+								["Magnatas"] = {
+									["amount"] = 147606,
+								},
+								["Booxeer"] = {
+									["amount"] = 127738,
 								},
 							},
-							["amount"] = 2066,
+							["amount"] = 275344,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 7781,
+								},
+								["Risenone"] = {
+									["amount"] = 36463,
+								},
+							},
+							["amount"] = 44244,
 						},
 						[51460] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1220,
+									["amount"] = 61079,
 								},
 							},
-							["amount"] = 1220,
+							["amount"] = 61079,
 						},
-						[55271] = {
+						[48801] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 20458,
+								},
+							},
+							["amount"] = 20458,
+						},
+						[53254] = {
+							["school"] = 8,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 14492,
+								},
+								["Apollonn"] = {
+									["amount"] = 7308,
+								},
+								["Laressa"] = {
+									["amount"] = 28626,
+								},
+							},
+							["amount"] = 50426,
+						},
+						[42463] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 204986,
+								},
+							},
+							["amount"] = 204986,
+						},
+						[57965] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 163044,
+								},
+								["Echoash"] = {
+									["amount"] = 315857,
+								},
+							},
+							["amount"] = 478901,
+						},
+						[57842] = {
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 10284,
+								["Jutrit"] = {
+									["amount"] = 13001,
+								},
+								["Echoash"] = {
+									["amount"] = 31294,
 								},
 							},
-							["amount"] = 10284,
+							["amount"] = 44295,
 						},
-						[49909] = {
-							["school"] = 16,
+						[47813] = {
+							["school"] = 32,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1588,
+								["Simplelocks"] = {
+									["amount"] = 33133,
 								},
 							},
-							["amount"] = 1588,
+							["amount"] = 33133,
+						},
+						[12654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 47063,
+								},
+								["Xknappen"] = {
+									["amount"] = 63729,
+								},
+								["Orcscream"] = {
+									["amount"] = 93631,
+								},
+							},
+							["amount"] = 204423,
+						},
+						[34490] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 8164,
+								},
+								["Laressa"] = {
+									["amount"] = 6321,
+								},
+							},
+							["amount"] = 14485,
 						},
 						[70890] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 5522,
+									["amount"] = 60553,
 								},
 							},
-							["amount"] = 5522,
+							["amount"] = 60553,
+						},
+						[48468] = {
+							["school"] = 8,
+							["sources"] = {
+								["Paracethamol"] = {
+									["amount"] = 69751,
+								},
+								["Caiva"] = {
+									["amount"] = 33151,
+								},
+							},
+							["amount"] = 102902,
+						},
+						[32176] = {
+							["school"] = 1,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 10878,
+								},
+							},
+							["amount"] = 10878,
+						},
+						[57755] = {
+							["school"] = 1,
+							["sources"] = {
+								["Booxeer"] = {
+									["amount"] = 14244,
+								},
+								["Magnatas"] = {
+									["amount"] = 5293,
+								},
+							},
+							["amount"] = 19537,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 49789,
+								},
+							},
+							["amount"] = 49789,
+						},
+						[53195] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tifura"] = {
+									["amount"] = 54746,
+								},
+								["Paracethamol"] = {
+									["amount"] = 59820,
+								},
+								["Caiva"] = {
+									["amount"] = 30224,
+								},
+							},
+							["amount"] = 144790,
+						},
+						[55362] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 9268,
+								},
+								["Xknappen"] = {
+									["amount"] = 24326,
+								},
+								["Orcscream"] = {
+									["amount"] = 28272,
+								},
+							},
+							["amount"] = 61866,
+						},
+						[48127] = {
+							["school"] = 32,
+							["sources"] = {
+								["Evelinayou"] = {
+									["amount"] = 15742,
+								},
+							},
+							["amount"] = 15742,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 37543,
+								},
+								["Urgash"] = {
+									["amount"] = 21288,
+								},
+								["Risenone"] = {
+									["amount"] = 9560,
+								},
+							},
+							["amount"] = 68391,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 19655,
+								},
+								["Urgash"] = {
+									["amount"] = 29892,
+								},
+								["Risenone"] = {
+									["amount"] = 5693,
+								},
+							},
+							["amount"] = 55240,
+						},
+						[53227] = {
+							["school"] = 8,
+							["sources"] = {
+								["Paracethamol"] = {
+									["amount"] = 3190,
+								},
+							},
+							["amount"] = 3190,
+						},
+						[20647] = {
+							["school"] = 1,
+							["sources"] = {
+								["Booxeer"] = {
+									["amount"] = 43779,
+								},
+								["Magnatas"] = {
+									["amount"] = 30053,
+								},
+							},
+							["amount"] = 73832,
+						},
+						[12470] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 18800,
+								},
+							},
+							["amount"] = 18800,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 121185,
+								},
+							},
+							["amount"] = 121185,
+						},
+						[49052] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 88766,
+								},
+								["Apollonn"] = {
+									["amount"] = 32526,
+								},
+								["Laressa"] = {
+									["amount"] = 59261,
+								},
+							},
+							["amount"] = 180553,
+						},
+						[42833] = {
+							["school"] = 4,
+							["sources"] = {
+								["Orcscream"] = {
+									["amount"] = 203514,
+								},
+							},
+							["amount"] = 203514,
+						},
+						[48806] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 21903,
+								},
+							},
+							["amount"] = 21903,
+						},
+						[52874] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 1663,
+								},
+							},
+							["amount"] = 1663,
+						},
+						[61006] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 25363,
+								},
+								["Apollonn"] = {
+									["amount"] = 15285,
+								},
+								["Laressa"] = {
+									["amount"] = 27650,
+								},
+							},
+							["amount"] = 68298,
+						},
+						[49048] = {
+							["school"] = 1,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 2630,
+								},
+							},
+							["amount"] = 2630,
+						},
+						[47825] = {
+							["school"] = 4,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 121839,
+								},
+							},
+							["amount"] = 121839,
+						},
+						[57970] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 49168,
+								},
+								["Echoash"] = {
+									["amount"] = 60816,
+								},
+							},
+							["amount"] = 109984,
+						},
+						[56350] = {
+							["school"] = 4,
+							["sources"] = {
+								["Echoash"] = {
+									["amount"] = 1462,
+								},
+							},
+							["amount"] = 1462,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 13362,
+								},
+								["Urgash"] = {
+									["amount"] = 13279,
+								},
+							},
+							["amount"] = 26641,
+						},
+						[31804] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 73899,
+								},
+							},
+							["amount"] = 73899,
+						},
+						[42873] = {
+							["school"] = 4,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 45924,
+								},
+							},
+							["amount"] = 45924,
+						},
+						[48465] = {
+							["school"] = 64,
+							["sources"] = {
+								["Caiva"] = {
+									["amount"] = 229982,
+								},
+								["Paracethamol"] = {
+									["amount"] = 242927,
+								},
+								["Tifura"] = {
+									["overkill"] = 11034,
+									["amount"] = 323079,
+								},
+							},
+							["overkill"] = 11034,
+							["amount"] = 795988,
+						},
+						[49231] = {
+							["school"] = 8,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 19149,
+								},
+							},
+							["amount"] = 19149,
+						},
+						[47838] = {
+							["school"] = 4,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 118351,
+								},
+							},
+							["amount"] = 118351,
+						},
+						[50536] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 11773,
+								},
+							},
+							["amount"] = 11773,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 43081,
+								},
+							},
+							["amount"] = 43081,
+						},
+						[71433] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 34750,
+								},
+							},
+							["amount"] = 34750,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 61313,
+								},
+							},
+							["amount"] = 61313,
+						},
+						[49001] = {
+							["school"] = 8,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 29235,
+								},
+								["Apollonn"] = {
+									["amount"] = 15314,
+								},
+								["Laressa"] = {
+									["amount"] = 25108,
+								},
+							},
+							["amount"] = 69657,
+						},
+						[50783] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 82834,
+								},
+								["Booxeer"] = {
+									["amount"] = 32447,
+								},
+							},
+							["amount"] = 115281,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 80018,
+								},
+							},
+							["amount"] = 80018,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 46376,
+								},
+								["Booxeer"] = {
+									["amount"] = 29127,
+								},
+							},
+							["amount"] = 75503,
+						},
+						[49271] = {
+							["school"] = 8,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 15760,
+								},
+							},
+							["amount"] = 15760,
+						},
+						[71834] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 1882,
+								},
+							},
+							["amount"] = 1882,
+						},
+						[49279] = {
+							["school"] = 8,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 32868,
+								},
+							},
+							["amount"] = 32868,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 128420,
+								},
+								["Risenone"] = {
+									["amount"] = 29951,
+								},
+							},
+							["amount"] = 158371,
+						},
+						[48158] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 19811,
+								},
+								["Evelinayou"] = {
+									["amount"] = 8504,
+								},
+							},
+							["amount"] = 28315,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 41032,
+								},
+							},
+							["amount"] = 41032,
 						},
 						[49930] = {
 							["school"] = 1,
 							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 16825,
+								},
 								["Urgash"] = {
-									["amount"] = 2425,
+									["amount"] = 83083,
+								},
+								["Risenone"] = {
+									["amount"] = 36317,
 								},
 							},
-							["amount"] = 2425,
+							["amount"] = 136225,
+						},
+						[52474] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 42203,
+								},
+								["Apollonn"] = {
+									["amount"] = 23911,
+								},
+								["Laressa"] = {
+									["amount"] = 32700,
+								},
+							},
+							["amount"] = 98814,
+						},
+						[48160] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 211047,
+								},
+								["Evelinayou"] = {
+									["amount"] = 174113,
+								},
+							},
+							["amount"] = 385160,
+						},
+						[75] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 181750,
+								},
+								["Apollonn"] = {
+									["amount"] = 72127,
+								},
+								["Laressa"] = {
+									["amount"] = 201077,
+								},
+							},
+							["amount"] = 454954,
+						},
+						[48676] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 3060,
+								},
+							},
+							["amount"] = 3060,
+						},
+						[47809] = {
+							["school"] = 32,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 79034,
+								},
+							},
+							["amount"] = 79034,
+						},
+						[61654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 29780,
+								},
+							},
+							["amount"] = 29780,
+						},
+						[49238] = {
+							["school"] = 8,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 41919,
+								},
+							},
+							["amount"] = 41919,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 25712,
+								},
+							},
+							["amount"] = 25712,
+						},
+						[51723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 7009,
+								},
+							},
+							["amount"] = 7009,
+						},
+						[47811] = {
+							["school"] = 4,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 49471,
+								},
+							},
+							["amount"] = 49471,
+						},
+						[47994] = {
+							["school"] = 1,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 24341,
+								},
+							},
+							["amount"] = 24341,
+						},
+						[43044] = {
+							["school"] = 4,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 1852,
+								},
+								["Welden"] = {
+									["amount"] = 878,
+								},
+							},
+							["amount"] = 2730,
+						},
+						[48668] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 46034,
+								},
+								["Echoash"] = {
+									["amount"] = 103406,
+								},
+							},
+							["amount"] = 149440,
+						},
+						[59638] = {
+							["school"] = 16,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 16169,
+								},
+								["Orcscream"] = {
+									["amount"] = 11930,
+								},
+							},
+							["amount"] = 28099,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 339382,
+								},
+								["Booxeer"] = {
+									["amount"] = 187968,
+								},
+							},
+							["amount"] = 527350,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 118129,
+								},
+								["Booxeer"] = {
+									["amount"] = 75062,
+								},
+							},
+							["amount"] = 193191,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 21204,
+								},
+								["Urgash"] = {
+									["amount"] = 59893,
+								},
+								["Risenone"] = {
+									["amount"] = 14623,
+								},
+							},
+							["amount"] = 95720,
+						},
+						[54158] = {
+							["school"] = 2,
+							["sources"] = {
+								["Fluidliftedx"] = {
+									["amount"] = 15529,
+								},
+							},
+							["amount"] = 15529,
+						},
+						[63468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 47145,
+								},
+								["Apollonn"] = {
+									["amount"] = 18861,
+								},
+								["Laressa"] = {
+									["amount"] = 24491,
+								},
+							},
+							["amount"] = 90497,
+						},
+						[58702] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 2845,
+								},
+							},
+							["amount"] = 2845,
+						},
+						[32175] = {
+							["school"] = 1,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 24356,
+								},
+							},
+							["amount"] = 24356,
+						},
+						[71839] = {
+							["school"] = 32,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 18406,
+								},
+							},
+							["amount"] = 18406,
+						},
+						[10444] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 52204,
+								},
+							},
+							["amount"] = 52204,
+						},
+						[55360] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 31017,
+								},
+								["Xknappen"] = {
+									["amount"] = 34776,
+								},
+								["Orcscream"] = {
+									["amount"] = 32257,
+								},
+							},
+							["amount"] = 98050,
+						},
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 109588,
+								},
+								["Evelinayou"] = {
+									["amount"] = 101838,
+								},
+							},
+							["amount"] = 211426,
+						},
+						[53209] = {
+							["school"] = 8,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 67176,
+								},
+								["Apollonn"] = {
+									["amount"] = 36499,
+								},
+								["Laressa"] = {
+									["amount"] = 55136,
+								},
+							},
+							["amount"] = 158811,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 68591,
+								},
+							},
+							["amount"] = 68591,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 18783,
+								},
+								["Urgash"] = {
+									["amount"] = 72226,
+								},
+								["Risenone"] = {
+									["amount"] = 14927,
+								},
+							},
+							["amount"] = 105936,
+						},
+						[47610] = {
+							["school"] = 20,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 89671,
+								},
+								["Welden"] = {
+									["amount"] = 119814,
+								},
+							},
+							["amount"] = 209485,
+						},
+						[42859] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 6547,
+								},
+								["Xknappen"] = {
+									["amount"] = 23914,
+								},
+								["Orcscream"] = {
+									["amount"] = 5389,
+								},
+							},
+							["amount"] = 35850,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 1356,
+								},
+								["Urgash"] = {
+									["amount"] = 45848,
+								},
+							},
+							["amount"] = 47204,
+						},
+						[51963] = {
+							["school"] = 8,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 115939,
+								},
+							},
+							["amount"] = 115939,
+						},
+						[59637] = {
+							["school"] = 4,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 1558,
+								},
+								["Orcscream"] = {
+									["amount"] = 3784,
+								},
+							},
+							["amount"] = 5342,
+						},
+						[49050] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 33243,
+								},
+								["Apollonn"] = {
+									["amount"] = 18968,
+								},
+							},
+							["amount"] = 52211,
+						},
+						[60103] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 22243,
+								},
+							},
+							["amount"] = 22243,
+						},
+						[13376] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 3340,
+								},
+							},
+							["amount"] = 3340,
+						},
+						[48300] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 160279,
+								},
+								["Evelinayou"] = {
+									["amount"] = 197293,
+								},
+							},
+							["amount"] = 357572,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 45711,
+								},
+							},
+							["amount"] = 45711,
+						},
+						[63675] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 29046,
+								},
+								["Evelinayou"] = {
+									["amount"] = 37995,
+								},
+							},
+							["amount"] = 67041,
+						},
+						[20253] = {
+							["school"] = 1,
+							["sources"] = {
+								["Booxeer"] = {
+									["amount"] = 1010,
+								},
+							},
+							["amount"] = 1010,
+						},
+						[57841] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 29415,
+								},
+								["Echoash"] = {
+									["amount"] = 40687,
+								},
+							},
+							["amount"] = 70102,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 67189,
+								},
+								["Booxeer"] = {
+									["amount"] = 38682,
+								},
+							},
+							["amount"] = 105871,
+						},
+						[53353] = {
+							["school"] = 8,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 34545,
+								},
+								["Apollonn"] = {
+									["amount"] = 15360,
+								},
+								["Laressa"] = {
+									["amount"] = 29656,
+								},
+							},
+							["amount"] = 79561,
+						},
+						[49045] = {
+							["school"] = 64,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 22240,
+								},
+								["Apollonn"] = {
+									["amount"] = 9979,
+								},
+							},
+							["amount"] = 32219,
+						},
+						[57984] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 14470,
+								},
+							},
+							["amount"] = 14470,
+						},
+						[48463] = {
+							["school"] = 64,
+							["sources"] = {
+								["Caiva"] = {
+									["amount"] = 68543,
+								},
+								["Paracethamol"] = {
+									["amount"] = 51363,
+								},
+								["Tifura"] = {
+									["amount"] = 46064,
+								},
+							},
+							["amount"] = 165970,
+						},
+						[25504] = {
+							["school"] = 1,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 92884,
+								},
+							},
+							["amount"] = 92884,
+						},
+						[48461] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tifura"] = {
+									["amount"] = 247590,
+								},
+								["Paracethamol"] = {
+									["amount"] = 257977,
+								},
+								["Caiva"] = {
+									["amount"] = 221254,
+								},
+							},
+							["amount"] = 726821,
 						},
 					},
+					["name"] = "Toravon the Ice Watcher",
+					["overkill"] = 1511,
+					["totaldamage"] = 1205544,
+					["totaldamagetaken"] = 15078093,
+					["id"] = "0xF130009621000006",
+					["damage"] = 1114014,
 				}, -- [1]
+				{
+					["damagespells"] = {
+						[72097] = {
+							["school"] = 16,
+							["total"] = 36125,
+							["targets"] = {
+								["Simplelocks"] = {
+									["total"] = 7090,
+									["amount"] = 5673,
+								},
+								["Tamook"] = {
+									["amount"] = 86777,
+								},
+								["Booxeer"] = {
+									["amount"] = 125445,
+								},
+								["Magnatas"] = {
+									["amount"] = 64067,
+								},
+								["Shamanboros"] = {
+									["amount"] = 37996,
+								},
+								["Risenone"] = {
+									["total"] = 80767,
+									["amount"] = 73290,
+								},
+								["Tifura"] = {
+									["amount"] = 21043,
+								},
+								["Ohdeer"] = {
+									["amount"] = 18630,
+								},
+								["Famel"] = {
+									["amount"] = 47785,
+								},
+								["Shamaster"] = {
+									["amount"] = 81746,
+								},
+								["Urgash"] = {
+									["total"] = 47622,
+									["amount"] = 44001,
+								},
+								["Laressa"] = {
+									["amount"] = 40444,
+								},
+								["Fluidliftedx"] = {
+									["amount"] = 45733,
+								},
+								["Paracethamol"] = {
+									["amount"] = 30007,
+								},
+								["Orcscream"] = {
+									["total"] = 47852,
+									["amount"] = 45526,
+								},
+								["Sejin"] = {
+									["amount"] = 1262,
+								},
+								["Welden"] = {
+									["total"] = 2193,
+									["amount"] = 1979,
+								},
+								["Ironshell"] = {
+									["amount"] = 13743,
+								},
+								["Jutrit"] = {
+									["amount"] = 74015,
+								},
+								["Echoash"] = {
+									["amount"] = 89234,
+								},
+								["Evelinayou"] = {
+									["amount"] = 24697,
+								},
+								["Caiva"] = {
+									["amount"] = 13939,
+								},
+							},
+							["amount"] = 987032,
+						},
+					},
+					["damagetaken"] = 1536694,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[42859] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 14173,
+								},
+								["Xknappen"] = {
+									["amount"] = 12440,
+								},
+								["Orcscream"] = {
+									["amount"] = 7358,
+								},
+							},
+							["amount"] = 33971,
+						},
+						[48468] = {
+							["school"] = 8,
+							["sources"] = {
+								["Paracethamol"] = {
+									["amount"] = 8676,
+								},
+								["Caiva"] = {
+									["amount"] = 7276,
+								},
+							},
+							["amount"] = 15952,
+						},
+						[53195] = {
+							["school"] = 64,
+							["sources"] = {
+								["Caiva"] = {
+									["amount"] = 62890,
+								},
+								["Paracethamol"] = {
+									["overkill"] = 404,
+									["amount"] = 54531,
+								},
+								["Tifura"] = {
+									["amount"] = 5808,
+								},
+							},
+							["overkill"] = 404,
+							["amount"] = 123229,
+						},
+						[63468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 3316,
+								},
+								["Apollonn"] = {
+									["amount"] = 3611,
+								},
+							},
+							["amount"] = 6927,
+						},
+						[34490] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 2488,
+								},
+							},
+							["amount"] = 2488,
+						},
+						[75] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 45433,
+								},
+								["Apollonn"] = {
+									["amount"] = 24575,
+								},
+								["Laressa"] = {
+									["amount"] = 2692,
+								},
+							},
+							["amount"] = 72700,
+						},
+						[42873] = {
+							["school"] = 4,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 16318,
+								},
+								["Welden"] = {
+									["amount"] = 4470,
+								},
+							},
+							["amount"] = 20788,
+						},
+						[53209] = {
+							["school"] = 8,
+							["sources"] = {
+								["Apollonn"] = {
+									["amount"] = 13781,
+								},
+								["Ironshell"] = {
+									["amount"] = 20313,
+								},
+							},
+							["amount"] = 34094,
+						},
+						[53022] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 14370,
+								},
+								["Evelinayou"] = {
+									["amount"] = 48149,
+								},
+							},
+							["amount"] = 62519,
+						},
+						[47610] = {
+							["school"] = 20,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 27528,
+								},
+							},
+							["amount"] = 27528,
+						},
+						[42891] = {
+							["school"] = 4,
+							["sources"] = {
+								["Xknappen"] = {
+									["overkill"] = 8244,
+									["amount"] = 41165,
+								},
+								["Orcscream"] = {
+									["amount"] = 13023,
+								},
+							},
+							["overkill"] = 8244,
+							["amount"] = 54188,
+						},
+						[53353] = {
+							["school"] = 8,
+							["sources"] = {
+								["Ironshell"] = {
+									["overkill"] = 35,
+									["amount"] = 6778,
+								},
+								["Apollonn"] = {
+									["amount"] = 3438,
+								},
+							},
+							["overkill"] = 35,
+							["amount"] = 10216,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 14356,
+								},
+							},
+							["amount"] = 14356,
+						},
+						[49271] = {
+							["school"] = 8,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 4243,
+								},
+							},
+							["amount"] = 4243,
+						},
+						[48465] = {
+							["school"] = 64,
+							["sources"] = {
+								["Caiva"] = {
+									["amount"] = 26350,
+								},
+							},
+							["amount"] = 26350,
+						},
+						[51723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 2130,
+								},
+							},
+							["amount"] = 2130,
+						},
+						[49045] = {
+							["school"] = 64,
+							["sources"] = {
+								["Apollonn"] = {
+									["amount"] = 1559,
+								},
+							},
+							["amount"] = 1559,
+						},
+						[13376] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 329,
+								},
+							},
+							["amount"] = 329,
+						},
+						[49048] = {
+							["school"] = 1,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 5501,
+								},
+							},
+							["amount"] = 5501,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 3584,
+								},
+							},
+							["amount"] = 3584,
+						},
+						[57970] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 225,
+								},
+							},
+							["amount"] = 225,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 21408,
+								},
+								["Booxeer"] = {
+									["amount"] = 16859,
+								},
+							},
+							["amount"] = 38267,
+						},
+						[12654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 2873,
+								},
+								["Xknappen"] = {
+									["amount"] = 13381,
+								},
+								["Orcscream"] = {
+									["amount"] = 5995,
+								},
+							},
+							["amount"] = 22249,
+						},
+						[48463] = {
+							["school"] = 64,
+							["sources"] = {
+								["Paracethamol"] = {
+									["overkill"] = 1067,
+									["amount"] = 11067,
+								},
+								["Caiva"] = {
+									["amount"] = 18927,
+								},
+							},
+							["overkill"] = 1067,
+							["amount"] = 29994,
+						},
+						[53190] = {
+							["school"] = 64,
+							["sources"] = {
+								["Caiva"] = {
+									["amount"] = 28146,
+								},
+								["Paracethamol"] = {
+									["amount"] = 29581,
+								},
+								["Tifura"] = {
+									["amount"] = 1364,
+								},
+							},
+							["amount"] = 59091,
+						},
+						[55362] = {
+							["school"] = 4,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 7211,
+								},
+								["Orcscream"] = {
+									["amount"] = 2370,
+								},
+							},
+							["amount"] = 9581,
+						},
+						[61006] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["overkill"] = 10311,
+									["amount"] = 15682,
+								},
+							},
+							["overkill"] = 10311,
+							["amount"] = 15682,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 54073,
+								},
+							},
+							["amount"] = 54073,
+						},
+						[56350] = {
+							["school"] = 4,
+							["sources"] = {
+								["Echoash"] = {
+									["amount"] = 1291,
+								},
+							},
+							["amount"] = 1291,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Risenone"] = {
+									["overkill"] = 65,
+									["amount"] = 1736,
+								},
+							},
+							["overkill"] = 65,
+							["amount"] = 1736,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 18909,
+								},
+								["Booxeer"] = {
+									["amount"] = 11988,
+								},
+							},
+							["amount"] = 30897,
+						},
+						[49233] = {
+							["school"] = 4,
+							["sources"] = {
+								["Famel"] = {
+									["amount"] = 2740,
+								},
+							},
+							["amount"] = 2740,
+						},
+						[12470] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["overkill"] = 1075,
+									["amount"] = 10897,
+								},
+							},
+							["overkill"] = 1075,
+							["amount"] = 10897,
+						},
+						[49050] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 9462,
+								},
+								["Apollonn"] = {
+									["amount"] = 10458,
+								},
+							},
+							["amount"] = 19920,
+						},
+						[22482] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 47163,
+								},
+								["Echoash"] = {
+									["amount"] = 159810,
+								},
+							},
+							["amount"] = 206973,
+						},
+						[61654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 17579,
+								},
+							},
+							["amount"] = 17579,
+						},
+						[53227] = {
+							["school"] = 8,
+							["sources"] = {
+								["Paracethamol"] = {
+									["amount"] = 6027,
+								},
+							},
+							["amount"] = 6027,
+						},
+						[48461] = {
+							["school"] = 8,
+							["sources"] = {
+								["Paracethamol"] = {
+									["amount"] = 43490,
+								},
+								["Caiva"] = {
+									["amount"] = 56462,
+								},
+							},
+							["amount"] = 99952,
+						},
+						[55360] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 1610,
+								},
+								["Xknappen"] = {
+									["amount"] = 19978,
+								},
+								["Orcscream"] = {
+									["amount"] = 7512,
+								},
+							},
+							["amount"] = 29100,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 40745,
+								},
+							},
+							["amount"] = 40745,
+						},
+						[49001] = {
+							["school"] = 8,
+							["sources"] = {
+								["Apollonn"] = {
+									["amount"] = 4069,
+								},
+							},
+							["amount"] = 4069,
+						},
+						[53254] = {
+							["school"] = 8,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 3660,
+								},
+								["Apollonn"] = {
+									["amount"] = 1233,
+								},
+							},
+							["amount"] = 4893,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1595,
+								},
+								["Tamook"] = {
+									["amount"] = 5580,
+								},
+							},
+							["amount"] = 7175,
+						},
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 37594,
+								},
+							},
+							["amount"] = 37594,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Risenone"] = {
+									["amount"] = 1551,
+								},
+								["Urgash"] = {
+									["amount"] = 10220,
+								},
+							},
+							["amount"] = 11771,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Risenone"] = {
+									["amount"] = 1420,
+								},
+								["Urgash"] = {
+									["amount"] = 7392,
+								},
+							},
+							["amount"] = 8812,
+						},
+						[49065] = {
+							["school"] = 4,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 6482,
+								},
+							},
+							["amount"] = 6482,
+						},
+						[48160] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["overkill"] = 5221,
+									["amount"] = 117179,
+								},
+							},
+							["overkill"] = 5221,
+							["amount"] = 117179,
+						},
+						[71433] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 6490,
+								},
+							},
+							["amount"] = 6490,
+						},
+						[57965] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 841,
+								},
+							},
+							["amount"] = 841,
+						},
+						[42833] = {
+							["school"] = 4,
+							["sources"] = {
+								["Orcscream"] = {
+									["overkill"] = 4212,
+									["amount"] = 50129,
+								},
+							},
+							["overkill"] = 4212,
+							["amount"] = 50129,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 19761,
+								},
+							},
+							["amount"] = 19761,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 1743,
+								},
+								["Booxeer"] = {
+									["amount"] = 840,
+								},
+							},
+							["amount"] = 2583,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 4109,
+								},
+								["Viper"] = {
+									["amount"] = 92,
+								},
+								["Venomous Snake"] = {
+									["amount"] = 38,
+								},
+								["Risenone"] = {
+									["amount"] = 1686,
+								},
+							},
+							["amount"] = 5925,
+						},
+						[71834] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 1715,
+								},
+							},
+							["amount"] = 1715,
+						},
+						[52874] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 898,
+								},
+							},
+							["amount"] = 898,
+						},
+						[49052] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 20007,
+								},
+								["Apollonn"] = {
+									["amount"] = 10699,
+								},
+							},
+							["amount"] = 30706,
+						},
+					},
+					["name"] = "Frozen Orb",
+					["totaldamage"] = 1002087,
+					["totaldamagetaken"] = 1536694,
+					["id"] = "0xF130009638000096",
+					["damage"] = 987032,
+				}, -- [2]
 			},
-			["totaldamage"] = 35346,
-			["time"] = 12,
-			["totaldamagetaken"] = 0,
-			["etotaldamagetaken"] = 35346,
-			["last_time"] = 25630.778,
+			["dispel"] = 1,
+			["totaldamagetaken"] = 2458672,
+			["last_time"] = 5528.929,
+			["damagetaken"] = 2326290,
+			["overkill"] = 41668,
+			["edamagetaken"] = 16614787,
+			["heal"] = 2413239,
+			["name"] = "Toravon the Ice Watcher",
+			["death"] = 1,
+			["edamage"] = 2101046,
+			["last_action"] = 1697373111,
+			["mana"] = 376182,
+			["totaldamage"] = 16614787,
+			["time"] = 125,
+			["etotaldamagetaken"] = 16614787,
+			["damage"] = 16614787,
+			["starttime"] = 1697372986,
+			["type"] = "raid",
+			["rage"] = 556,
+			["success"] = true,
+			["ccdone"] = 1,
+			["ress"] = 1,
+			["gotboss"] = 38433,
+			["overheal"] = 7359080,
+			["absorb"] = 124341,
+			["etotaldamage"] = 2207631,
+			["potion"] = 1,
+			["mobname"] = "Toravon the Ice Watcher",
 			["players"] = {
 				{
-					["last"] = 25619.044,
-					["id"] = "0x07000000009877EA",
-					["class"] = "HUNTER",
+					["last"] = 5520.976000000001,
+					["flag"] = 1300,
+					["class"] = "PALADIN",
 					["auras"] = {
-						[32290] = {
+						[73422] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
+							["count"] = 8,
+							["school"] = 1,
+							["uptime"] = 35,
 						},
-						[6562] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 27,
 						},
-						[61847] = {
+						[52000] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["school"] = 8,
+							["uptime"] = 1,
+						},
+						[20053] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 56,
+							["uptime"] = 76,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 94,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 103,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 39,
+							["uptime"] = 69,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 92,
+							["school"] = 2,
+							["refresh"] = 7,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 7,
+									["uptime"] = 92,
+								},
+							},
+							["count"] = 2,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 101,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 125,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 16,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 1,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 92,
+							["school"] = 2,
+							["refresh"] = 7,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 7,
+									["uptime"] = 92,
+								},
+							},
+							["count"] = 2,
+						},
+						[71187] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 10,
+							["uptime"] = 74,
 						},
 						[19506] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 98,
 						},
-						[64373] = {
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 35,
+						},
+						[72412] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 28,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 66,
+						},
+						[31801] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 108,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[31803] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 86,
+							["school"] = 2,
+							["refresh"] = 28,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 28,
+									["uptime"] = 86,
+								},
+							},
+							["count"] = 2,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 5,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 94,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 58,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 60,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 71,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 98,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 109,
+						},
+						[31884] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 20,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 35,
+									["count"] = 5,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 13,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 35,
+						},
+						[61840] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 67,
+							["school"] = 2,
+							["refresh"] = 22,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 20,
+									["uptime"] = 67,
+								},
+								["Frozen Orb"] = {
+									["count"] = 3,
+									["refresh"] = 2,
+									["uptime"] = 19,
+								},
+							},
+							["count"] = 5,
+						},
+						[71432] = {
+							["type"] = "BUFF",
+							["count"] = 18,
+							["refresh"] = 40,
+							["school"] = 1,
+							["uptime"] = 105,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[58479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["refresh"] = 34,
+							["uptime"] = 31,
 						},
 					},
+					["time"] = 92.22999999999999,
+					["totaldamagetaken"] = 152580,
+					["damage"] = 862896,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 548,
+							["id"] = 48819,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 25712,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 14356,
+								},
+							},
+							["hitmax"] = 940,
+							["casts"] = 5,
+							["count"] = 53,
+							["hit"] = 53,
+							["school"] = 2,
+							["resisted"] = 2838,
+							["amount"] = 40068,
+							["hitamount"] = 40068,
+						},
+						["Exorcism"] = {
+							["criticalamount"] = 20458,
+							["id"] = 48801,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 20458,
+								},
+							},
+							["criticalmin"] = 6086,
+							["casts"] = 3,
+							["critical"] = 3,
+							["amount"] = 20458,
+							["school"] = 2,
+							["resisted"] = 1436,
+							["criticalmax"] = 7531,
+							["count"] = 3,
+						},
+						["Divine Storm"] = {
+							["hitmin"] = 3193,
+							["criticalamount"] = 92766,
+							["id"] = 53385,
+							["hitmax"] = 4399,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 80018,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 54073,
+								},
+							},
+							["count"] = 23,
+							["hit"] = 11,
+							["casts"] = 13,
+							["critical"] = 12,
+							["amount"] = 134091,
+							["school"] = 1,
+							["criticalmin"] = 6418,
+							["criticalmax"] = 9008,
+							["hitamount"] = 41325,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 652,
+							["id"] = 71904,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 13362,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 5580,
+								},
+							},
+							["hitmax"] = 2760,
+							["casts"] = 1,
+							["count"] = 14,
+							["hit"] = 14,
+							["school"] = 32,
+							["resisted"] = 1582,
+							["amount"] = 18942,
+							["hitamount"] = 18942,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 339,
+							["id"] = 31803,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 49789,
+								},
+							},
+							["hitmax"] = 2681,
+							["count"] = 27,
+							["hit"] = 27,
+							["school"] = 2,
+							["resisted"] = 2752,
+							["amount"] = 49789,
+							["hitamount"] = 49789,
+						},
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 21903,
+							["id"] = 48806,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 21903,
+								},
+							},
+							["criticalmin"] = 7158,
+							["casts"] = 3,
+							["critical"] = 3,
+							["amount"] = 21903,
+							["school"] = 2,
+							["resisted"] = 2432,
+							["criticalmax"] = 7470,
+							["count"] = 3,
+						},
+						["Melee"] = {
+							["glance"] = 19451,
+							["hitmin"] = 2514,
+							["criticalmin"] = 5502,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 149542,
+								},
+							},
+							["glancing"] = 8,
+							["amount"] = 149542,
+							["glancemin"] = 2172,
+							["criticalamount"] = 118697,
+							["id"] = 6603,
+							["glancemax"] = 2907,
+							["criticalmax"] = 7741,
+							["count"] = 30,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 3151,
+							["critical"] = 18,
+							["hitamount"] = 11394,
+						},
+						["Manifest Anger"] = {
+							["hitmin"] = 1402,
+							["criticalamount"] = 30193,
+							["id"] = 71433,
+							["criticalmin"] = 2863,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 34750,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 6490,
+								},
+							},
+							["criticalmax"] = 3984,
+							["critical"] = 9,
+							["casts"] = 1,
+							["count"] = 16,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 1793,
+							["amount"] = 41240,
+							["hitamount"] = 11047,
+						},
+						["Judgement of Vengeance"] = {
+							["criticalmin"] = 9433,
+							["hitmin"] = 3130,
+							["criticalamount"] = 56981,
+							["id"] = 31804,
+							["criticalmax"] = 13882,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 73899,
+								},
+							},
+							["critical"] = 5,
+							["hitmax"] = 5989,
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 4,
+							["school"] = 2,
+							["resisted"] = 10060,
+							["amount"] = 73899,
+							["hitamount"] = 16918,
+						},
+						["Crusader Strike"] = {
+							["hitmin"] = 3272,
+							["criticalamount"] = 58041,
+							["id"] = 35395,
+							["hitmax"] = 3272,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 61313,
+								},
+							},
+							["count"] = 11,
+							["hit"] = 1,
+							["casts"] = 11,
+							["critical"] = 10,
+							["amount"] = 61313,
+							["school"] = 1,
+							["criticalmin"] = 4976,
+							["criticalmax"] = 6991,
+							["hitamount"] = 3272,
+						},
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 504,
+							["id"] = 61840,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 43081,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 3584,
+								},
+							},
+							["hitmax"] = 3413,
+							["count"] = 26,
+							["hit"] = 26,
+							["school"] = 2,
+							["resisted"] = 3385,
+							["amount"] = 46665,
+							["hitamount"] = 46665,
+						},
+						["Seal of Vengeance"] = {
+							["criticalmin"] = 947,
+							["hitmin"] = 418,
+							["criticalamount"] = 134556,
+							["id"] = 42463,
+							["criticalmax"] = 5154,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 204986,
+								},
+							},
+							["critical"] = 32,
+							["hitmax"] = 2679,
+							["casts"] = 1,
+							["count"] = 66,
+							["hit"] = 34,
+							["school"] = 2,
+							["resisted"] = 10399,
+							["amount"] = 204986,
+							["hitamount"] = 70430,
+						},
+					},
+					["damagetaken"] = 152580,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["hp"] = 0,
+									["source"] = "Ohdeer",
+									["spellid"] = 48477,
+									["time"] = 5443.011,
+								}, -- [1]
+								{
+									["source"] = "Toravon the Ice Watcher",
+									["time"] = 5431.539000000001,
+									["amount"] = -30338,
+									["school"] = 1,
+									["hp"] = 28827,
+									["spellid"] = 6603,
+									["overkill"] = 1511,
+								}, -- [2]
+								{
+									["hp"] = 28827,
+									["source"] = "Frozen Orb",
+									["amount"] = -2076,
+									["school"] = 16,
+									["resisted"] = 518,
+									["spellid"] = 72097,
+									["time"] = 5431.463000000001,
+								}, -- [3]
+								{
+									["hp"] = 29522,
+									["source"] = "Frozen Orb",
+									["amount"] = -2380,
+									["school"] = 16,
+									["resisted"] = 264,
+									["spellid"] = 72097,
+									["time"] = 5430.590999999999,
+								}, -- [4]
+								{
+									["source"] = "Famel",
+									["amount"] = 3815,
+									["hp"] = 31902,
+									["spellid"] = 61301,
+									["time"] = 5430.494,
+								}, -- [5]
+								{
+									["source"] = "Shamanboros",
+									["amount"] = 5417,
+									["hp"] = 27831,
+									["spellid"] = 55459,
+									["time"] = 5429.954000000001,
+								}, -- [6]
+								{
+									["hp"] = 22855,
+									["source"] = "Toravon the Ice Watcher",
+									["amount"] = -11984,
+									["school"] = 16,
+									["resisted"] = 1331,
+									["spellid"] = 72096,
+									["time"] = 5419.632000000001,
+								}, -- [7]
+							},
+							["time"] = 5431.549,
+							["timeod"] = 1697373013,
+							["school"] = 1,
+							["maxhp"] = 34839,
+							["spellid"] = 6603,
+							["source"] = "Toravon the Ice Watcher",
+						}, -- [1]
+					},
+					["id"] = "0x070000000000942B",
+					["spec"] = 70,
+					["healspells"] = {
+						[54172] = {
+							["overheal"] = 1359,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 10,
+									["amount"] = 161,
+								},
+								["Tamook"] = {
+									["overheal"] = 0,
+									["amount"] = 1000,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 91,
+									["amount"] = 334,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 492,
+									["amount"] = 4352,
+								},
+								["Xknappen"] = {
+									["overheal"] = 0,
+									["amount"] = 6225,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 766,
+									["amount"] = 2817,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 14889,
+							["school"] = 2,
+							["max"] = 6225,
+							["ishot"] = true,
+							["min"] = 161,
+						},
+					},
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1535,
+							["id"] = 72097,
+							["hitmax"] = 2396,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 86777,
+								},
+							},
+							["count"] = 44,
+							["hit"] = 44,
+							["school"] = 16,
+							["resisted"] = 28737,
+							["amount"] = 86777,
+							["hitamount"] = 86777,
+						},
+						["Melee"] = {
+							["hitmin"] = 30338,
+							["id"] = 6603,
+							["overkill"] = 1511,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["overkill"] = 1511,
+									["amount"] = 30338,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 30338,
+							["amount"] = 30338,
+							["hitamount"] = 30338,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 10862,
+							["id"] = 72096,
+							["hitmax"] = 12619,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 35465,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 7200,
+							["amount"] = 35465,
+							["hitamount"] = 35465,
+						},
+					},
+					["overheal"] = 1359,
+					["heal"] = 14889,
+					["name"] = "Tamook",
+					["death"] = 1,
+					["totaldamage"] = 862896,
+					["manaspells"] = {
+						[31930] = 9882,
+						[57669] = 31442,
+						[20268] = 49206,
+					},
+					["mana"] = 90530,
 					["role"] = "DAMAGER",
-					["name"] = "Kapitantutan",
-					["time"] = 0,
 				}, -- [1]
 				{
-					["last"] = 25619.044,
-					["id"] = "0x070000000097F37B",
-					["class"] = "PALADIN",
+					["last"] = 5521.702,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
 					["auras"] = {
-						[61309] = {
+						[48090] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 24,
+						},
+						[71556] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 17,
+						},
+						[71560] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[57934] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 73,
+						},
+						[13750] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[13877] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
 						},
 						[48945] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 125,
 						},
-						[64373] = {
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 5,
+						},
+						[2895] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 125,
 						},
-					},
-					["role"] = "NONE",
-					["name"] = "Marombombom",
-					["time"] = 0,
-				}, -- [2]
-				{
-					["last"] = 25619.044,
-					["id"] = "0x070000000091CE94",
-					["class"] = "HUNTER",
-					["auras"] = {
-						[41518] = {
+						[58655] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[34074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[19506] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[64373] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Onixarrow",
-					["time"] = 0,
-				}, -- [3]
-				{
-					["last"] = 25619.044,
-					["id"] = "0x07000000005A31DA",
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[63963] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 125,
 						},
 						[57399] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 125,
 						},
 						[19506] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 125,
 						},
-						[64373] = {
+						[57970] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 114,
+							["school"] = 8,
+							["refresh"] = 92,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 92,
+									["uptime"] = 114,
+								},
+							},
+							["count"] = 1,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 8,
+							["uptime"] = 42,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 53,
+						},
+						[59628] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 22,
+						},
+						[32182] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75456] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["uptime"] = 46,
+						},
+						[13168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 93,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[6774] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 116,
+						},
+						[23060] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 112,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[49016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 29,
+						},
+						[54758] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 24,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 72,
+						},
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 93,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 67,
+									["count"] = 93,
+								},
+							},
+							["uptime"] = 67,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[51690] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 4,
 						},
 					},
-					["role"] = "NONE",
-					["name"] = "Kyrathot",
-					["time"] = 0,
+					["energyspells"] = {
+						[35548] = 510,
+						[70804] = 45,
+					},
+					["time"] = 117.66,
+					["totaldamagetaken"] = 127978,
+					["damage"] = 1863338,
+					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 79445,
+							["hitmin"] = 756,
+							["criticalmin"] = 1772,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 825848,
+								},
+							},
+							["glancing"] = 74,
+							["amount"] = 825848,
+							["MISS"] = 28,
+							["glancemin"] = 556,
+							["criticalamount"] = 729792,
+							["id"] = 6603,
+							["glancemax"] = 2166,
+							["blocked"] = 41,
+							["criticalmax"] = 7166,
+							["count"] = 322,
+							["hit"] = 12,
+							["school"] = 1,
+							["critical"] = 207,
+							["hitmax"] = 2634,
+							["hitamount"] = 16611,
+						},
+						["Blade Twisting"] = {
+							["casts"] = 1,
+							["count"] = 25,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 25,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 51585,
+						},
+						["Melee (Battle Chicken)"] = {
+							["glance"] = 286,
+							["hitmin"] = 1,
+							["criticalmin"] = 140,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 781,
+								},
+							},
+							["glancing"] = 10,
+							["amount"] = 781,
+							["glancemin"] = 1,
+							["criticalamount"] = 140,
+							["id"] = 6603,
+							["glancemax"] = 70,
+							["criticalmax"] = 140,
+							["count"] = 21,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 70,
+							["critical"] = 1,
+							["hitamount"] = 355,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 2557,
+							["criticalamount"] = 276109,
+							["id"] = 48638,
+							["criticalmin"] = 7137,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 322086,
+								},
+							},
+							["criticalmax"] = 11560,
+							["critical"] = 32,
+							["casts"] = 47,
+							["count"] = 47,
+							["hit"] = 15,
+							["school"] = 1,
+							["hitmax"] = 3942,
+							["amount"] = 322086,
+							["hitamount"] = 45977,
+						},
+						["Killing Spree"] = {
+							["hitmin"] = 1300,
+							["criticalamount"] = 55678,
+							["id"] = 57841,
+							["hitmax"] = 2852,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 71981,
+								},
+							},
+							["count"] = 20,
+							["hit"] = 8,
+							["casts"] = 2,
+							["critical"] = 12,
+							["amount"] = 71981,
+							["school"] = 1,
+							["criticalmin"] = 3070,
+							["criticalmax"] = 7863,
+							["hitamount"] = 16303,
+						},
+						["Eviscerate"] = {
+							["hitmin"] = 6901,
+							["criticalamount"] = 96505,
+							["id"] = 48668,
+							["hitmax"] = 6901,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 103406,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 1,
+							["casts"] = 8,
+							["critical"] = 6,
+							["amount"] = 103406,
+							["school"] = 1,
+							["criticalmin"] = 14421,
+							["criticalmax"] = 20309,
+							["hitamount"] = 6901,
+						},
+						["Instant Poison IX"] = {
+							["criticalmin"] = 1816,
+							["hitmin"] = 979,
+							["criticalamount"] = 144240,
+							["id"] = 57965,
+							["criticalmax"] = 3332,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 315857,
+								},
+							},
+							["critical"] = 57,
+							["hitmax"] = 1716,
+							["casts"] = 1,
+							["count"] = 188,
+							["hit"] = 131,
+							["school"] = 8,
+							["resisted"] = 17485,
+							["amount"] = 315857,
+							["hitamount"] = 171617,
+						},
+						["Saronite Bomb"] = {
+							["hitmin"] = 1291,
+							["id"] = 56350,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 1462,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1291,
+								},
+							},
+							["hitmax"] = 1462,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 305,
+							["amount"] = 2753,
+							["hitamount"] = 2753,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 1370,
+							["id"] = 57970,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 60816,
+								},
+							},
+							["hitmax"] = 2408,
+							["count"] = 34,
+							["hit"] = 34,
+							["school"] = 8,
+							["resisted"] = 3841,
+							["amount"] = 60816,
+							["hitamount"] = 60816,
+						},
+						["Blade Flurry"] = {
+							["hitmin"] = 852,
+							["id"] = 22482,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 159810,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 40,
+							["hit"] = 40,
+							["school"] = 1,
+							["hitmax"] = 15935,
+							["amount"] = 159810,
+							["hitamount"] = 159810,
+						},
+					},
+					["damagetaken"] = 127978,
+					["id"] = "0x070000000081F36D",
+					["spec"] = 260,
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1274,
+							["id"] = 72097,
+							["amount"] = 89234,
+							["hitmax"] = 2699,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 89234,
+								},
+							},
+							["count"] = 45,
+							["hit"] = 44,
+							["school"] = 16,
+							["resisted"] = 33943,
+							["MISS"] = 1,
+							["hitamount"] = 89234,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 10701,
+							["id"] = 72096,
+							["hitmax"] = 15487,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 38744,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 7534,
+							["amount"] = 38744,
+							["hitamount"] = 38744,
+						},
+					},
+					["name"] = "Echoash",
+					["totaldamage"] = 1863338,
+					["energy"] = 555,
+					["role"] = "DAMAGER",
+				}, -- [2]
+				{
+					["last"] = 5520.968,
+					["flag"] = 1300,
+					["class"] = "MAGE",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[60064] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[28682] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 3,
+							["uptime"] = 6,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48108] = {
+							["type"] = "BUFF",
+							["count"] = 10,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 73,
+						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 31,
+									["count"] = 2,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 32,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 70,
+							["school"] = 4,
+							["refresh"] = 4,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 4,
+									["uptime"] = 64,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["count"] = 4,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 68,
+							["school"] = 4,
+							["refresh"] = 19,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 9,
+									["refresh"] = 16,
+									["uptime"] = 61,
+								},
+								["Frozen Orb"] = {
+									["count"] = 3,
+									["refresh"] = 3,
+									["uptime"] = 11,
+								},
+							},
+							["count"] = 12,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 30,
+						},
+						[55342] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 30,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 12,
+							["school"] = 4,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 90,
+									["count"] = 8,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 29,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 102,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[42833] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 78,
+							["school"] = 4,
+							["refresh"] = 17,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 15,
+									["uptime"] = 71,
+								},
+								["Frozen Orb"] = {
+									["count"] = 3,
+									["refresh"] = 2,
+									["uptime"] = 7,
+								},
+							},
+							["count"] = 7,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[60479] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[28609] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["uptime"] = 32,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 2,
+						},
+						[12536] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 64,
+							["uptime"] = 9,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 35,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[54648] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 64,
+							["refresh"] = 13,
+							["uptime"] = 101,
+						},
+					},
+					["absorbspells"] = {
+						[28609] = {
+							["min"] = 594,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 1594,
+							["school"] = 16,
+							["targets"] = {
+								["Orcscream"] = 1594,
+							},
+							["max"] = 1000,
+						},
+					},
+					["time"] = 106.01,
+					["totaldamagetaken"] = 96592,
+					["damage"] = 577975,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hit"] = 8,
+							["hitmax"] = 7190,
+							["hitmin"] = 5666,
+							["criticalamount"] = 187158,
+							["id"] = 42833,
+							["count"] = 24,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 189048,
+								},
+								["Frozen Orb"] = {
+									["overkill"] = 4212,
+									["amount"] = 49006,
+								},
+							},
+							["overkill"] = 4212,
+							["criticalmin"] = 9163,
+							["casts"] = 25,
+							["critical"] = 16,
+							["amount"] = 238054,
+							["school"] = 4,
+							["resisted"] = 12255,
+							["criticalmax"] = 14911,
+							["hitamount"] = 50896,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 696,
+							["id"] = 42891,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 15022,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1678,
+								},
+							},
+							["hitmax"] = 990,
+							["count"] = 20,
+							["hit"] = 20,
+							["school"] = 4,
+							["resisted"] = 1469,
+							["amount"] = 16700,
+							["hitamount"] = 16700,
+						},
+						["Frostbolt (Mirror Image)"] = {
+							["hitmin"] = 474,
+							["criticalamount"] = 1425,
+							["id"] = 59638,
+							["criticalmin"] = 712,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 11930,
+								},
+							},
+							["criticalmax"] = 713,
+							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 24,
+							["hit"] = 22,
+							["school"] = 16,
+							["hitmax"] = 481,
+							["amount"] = 11930,
+							["hitamount"] = 10505,
+						},
+						["Fire Blast (Mirror Image)"] = {
+							["criticalmin"] = 462,
+							["hitmin"] = 238,
+							["criticalamount"] = 462,
+							["id"] = 59637,
+							["criticalmax"] = 462,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 3784,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 296,
+							["casts"] = 1,
+							["count"] = 13,
+							["hit"] = 12,
+							["school"] = 4,
+							["resisted"] = 225,
+							["amount"] = 3784,
+							["hitamount"] = 3322,
+						},
+						["Living Bomb"] = {
+							["hitmax"] = 2696,
+							["hitmin"] = 2152,
+							["criticalamount"] = 23424,
+							["id"] = 55362,
+							["criticalmin"] = 4356,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 28272,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 2370,
+								},
+							},
+							["criticalmax"] = 5451,
+							["critical"] = 5,
+							["casts"] = 12,
+							["count"] = 8,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 1023,
+							["amount"] = 30642,
+							["hitamount"] = 7218,
+						},
+						["Pyroblast"] = {
+							["criticalamount"] = 109134,
+							["id"] = 42891,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 97789,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 11345,
+								},
+							},
+							["criticalmin"] = 11345,
+							["casts"] = 10,
+							["critical"] = 8,
+							["amount"] = 109134,
+							["school"] = 4,
+							["resisted"] = 2928,
+							["criticalmax"] = 14782,
+							["count"] = 8,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 599,
+							["id"] = 12654,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 93631,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 5995,
+								},
+							},
+							["hitmax"] = 9485,
+							["count"] = 25,
+							["hit"] = 25,
+							["school"] = 4,
+							["resisted"] = 9112,
+							["amount"] = 99626,
+							["hitamount"] = 99626,
+						},
+						["Scorch"] = {
+							["hitmax"] = 2393,
+							["hitmin"] = 2393,
+							["criticalamount"] = 10354,
+							["id"] = 42859,
+							["count"] = 4,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 5389,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 7358,
+								},
+							},
+							["hit"] = 1,
+							["criticalmin"] = 2996,
+							["casts"] = 6,
+							["critical"] = 3,
+							["amount"] = 12747,
+							["school"] = 4,
+							["resisted"] = 1134,
+							["criticalmax"] = 3891,
+							["hitamount"] = 2393,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 444,
+							["id"] = 42833,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 14466,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1123,
+								},
+							},
+							["hitmax"] = 745,
+							["count"] = 27,
+							["hit"] = 27,
+							["school"] = 4,
+							["resisted"] = 1619,
+							["amount"] = 15589,
+							["hitamount"] = 15589,
+						},
+						["Living Bomb (DoT)"] = {
+							["hitmin"] = 885,
+							["id"] = 55360,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 32257,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 7512,
+								},
+							},
+							["hitmax"] = 1288,
+							["count"] = 36,
+							["hit"] = 36,
+							["school"] = 4,
+							["resisted"] = 2288,
+							["amount"] = 39769,
+							["hitamount"] = 39769,
+						},
+					},
+					["absorb"] = 1594,
+					["damagetaken"] = 94266,
+					["id"] = "0x07000000009220B7",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Freezing Ground"] = {
+							["hitmin"] = 4410,
+							["id"] = 72104,
+							["hitmax"] = 5445,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 14275,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 4355,
+							["amount"] = 14275,
+							["hitamount"] = 14275,
+						},
+						["Frozen Orb"] = {
+							["total"] = 47852,
+							["hitmin"] = 1109,
+							["id"] = 72097,
+							["ABSORB"] = 1,
+							["hitmax"] = 3069,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["total"] = 47852,
+									["amount"] = 45526,
+								},
+							},
+							["count"] = 22,
+							["hit"] = 21,
+							["school"] = 16,
+							["resisted"] = 14236,
+							["amount"] = 45526,
+							["hitamount"] = 45526,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 10634,
+							["id"] = 72096,
+							["hitmax"] = 12728,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 34465,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 13046,
+							["amount"] = 34465,
+							["hitamount"] = 34465,
+						},
+					},
+					["overkill"] = 4212,
+					["name"] = "Orcscream",
+					["manaspells"] = {
+						[29077] = 6005,
+						[67545] = 1625,
+						[44450] = -780,
+					},
+					["mana"] = 6850,
+					["totaldamage"] = 577975,
+					["role"] = "DAMAGER",
+				}, -- [3]
+				{
+					["last"] = 5521.81,
+					["flag"] = 4372,
+					["class"] = "DRUID",
+					["auras"] = {
+						[48468] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 62,
+									["count"] = 5,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 14,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 76,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[60064] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48421] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 10,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["uptime"] = 49,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48518] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[60433] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 43,
+							["school"] = 64,
+							["refresh"] = 13,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 38,
+									["refresh"] = 7,
+									["uptime"] = 30,
+								},
+								["Frozen Orb"] = {
+									["count"] = 7,
+									["refresh"] = 6,
+									["uptime"] = 13,
+								},
+							},
+							["count"] = 45,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 21,
+							["school"] = 8,
+							["refresh"] = 4,
+							["uptime"] = 24,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 122,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 19,
+						},
+						[16886] = {
+							["type"] = "BUFF",
+							["count"] = 12,
+							["school"] = 8,
+							["refresh"] = 37,
+							["uptime"] = 86,
+						},
+						[53201] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 98,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48517] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[24858] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 125,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 117,
+						},
+						[71177] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 70,
+							["uptime"] = 120,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[48463] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 111,
+							["school"] = 64,
+							["refresh"] = 13,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 11,
+									["uptime"] = 93,
+								},
+								["Frozen Orb"] = {
+									["count"] = 3,
+									["refresh"] = 2,
+									["uptime"] = 26,
+								},
+							},
+							["count"] = 7,
+						},
+					},
+					["time"] = 117.77,
+					["totaldamagetaken"] = 49279,
+					["damage"] = 841743,
+					["damagespells"] = {
+						["Insect Swarm (DoT)"] = {
+							["hitmin"] = 884,
+							["id"] = 48468,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 33151,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 7276,
+								},
+							},
+							["hitmax"] = 1268,
+							["casts"] = 6,
+							["count"] = 37,
+							["hit"] = 37,
+							["school"] = 8,
+							["resisted"] = 2447,
+							["amount"] = 40427,
+							["hitamount"] = 40427,
+						},
+						["Melee (Treant)"] = {
+							["DODGE"] = 7,
+							["glance"] = 8943,
+							["hitmin"] = 546,
+							["criticalmin"] = 1056,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 33501,
+								},
+							},
+							["glancing"] = 19,
+							["amount"] = 33501,
+							["MISS"] = 7,
+							["glancemin"] = 384,
+							["criticalamount"] = 5044,
+							["id"] = 6603,
+							["glancemax"] = 534,
+							["blocked"] = 164,
+							["criticalmax"] = 1366,
+							["PARRY"] = 3,
+							["count"] = 72,
+							["hit"] = 32,
+							["school"] = 1,
+							["critical"] = 4,
+							["hitmax"] = 685,
+							["hitamount"] = 19514,
+						},
+						["Wrath"] = {
+							["criticalmin"] = 6612,
+							["hitmin"] = 3123,
+							["criticalamount"] = 173649,
+							["id"] = 48461,
+							["criticalmax"] = 11621,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 221254,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 56462,
+								},
+							},
+							["critical"] = 18,
+							["hitmax"] = 6117,
+							["casts"] = 43,
+							["count"] = 43,
+							["hit"] = 25,
+							["school"] = 8,
+							["resisted"] = 18262,
+							["amount"] = 277716,
+							["hitamount"] = 104067,
+						},
+						["Moonfire (DoT)"] = {
+							["hitmin"] = 1104,
+							["criticalamount"] = 47404,
+							["id"] = 48463,
+							["criticalmin"] = 2584,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 66019,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 17353,
+								},
+							},
+							["hitmax"] = 1747,
+							["critical"] = 15,
+							["criticalmax"] = 3650,
+							["count"] = 39,
+							["hit"] = 24,
+							["school"] = 64,
+							["resisted"] = 5125,
+							["amount"] = 83372,
+							["hitamount"] = 35968,
+						},
+						["Starfall"] = {
+							["criticalmin"] = 984,
+							["hitmin"] = 471,
+							["criticalamount"] = 85285,
+							["id"] = 53195,
+							["hitmax"] = 2064,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 55261,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 91036,
+								},
+							},
+							["count"] = 98,
+							["hit"] = 56,
+							["casts"] = 2,
+							["critical"] = 42,
+							["amount"] = 146297,
+							["school"] = 64,
+							["resisted"] = 8655,
+							["criticalmax"] = 4244,
+							["hitamount"] = 61012,
+						},
+						["Moonfire"] = {
+							["hitmax"] = 402,
+							["hitmin"] = 296,
+							["criticalamount"] = 2741,
+							["id"] = 48463,
+							["criticalmin"] = 614,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 2524,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1574,
+								},
+							},
+							["criticalmax"] = 758,
+							["critical"] = 4,
+							["casts"] = 8,
+							["count"] = 8,
+							["hit"] = 4,
+							["school"] = 64,
+							["resisted"] = 68,
+							["amount"] = 4098,
+							["hitamount"] = 1357,
+						},
+						["Starfire"] = {
+							["hitmax"] = 8057,
+							["hitmin"] = 5640,
+							["criticalamount"] = 207531,
+							["id"] = 48465,
+							["criticalmin"] = 11751,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 229982,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 26350,
+								},
+							},
+							["criticalmax"] = 14964,
+							["critical"] = 15,
+							["casts"] = 22,
+							["count"] = 22,
+							["hit"] = 7,
+							["school"] = 64,
+							["resisted"] = 15463,
+							["amount"] = 256332,
+							["hitamount"] = 48801,
+						},
+					},
+					["damagetaken"] = 49279,
+					["id"] = "0x07000000009C4868",
+					["spec"] = 102,
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1455,
+							["id"] = 72097,
+							["hitmax"] = 2233,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 13939,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 16,
+							["resisted"] = 4428,
+							["amount"] = 13939,
+							["hitamount"] = 13939,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 10324,
+							["id"] = 72096,
+							["hitmax"] = 13242,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 35340,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 8833,
+							["amount"] = 35340,
+							["hitamount"] = 35340,
+						},
+					},
+					["name"] = "Caiva",
+					["manaspells"] = {
+						[53506] = 19536,
+					},
+					["mana"] = 19536,
+					["totaldamage"] = 841743,
+					["role"] = "DAMAGER",
 				}, -- [4]
 				{
-					["last"] = 25623.763,
-					["flag"] = 4369,
-					["class"] = "DEATHKNIGHT",
+					["last"] = 5521.367,
+					["flag"] = 4372,
+					["class"] = "HUNTER",
 					["auras"] = {
-						[55078] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[63468] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 88,
+							["school"] = 1,
+							["refresh"] = 14,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 6,
+									["refresh"] = 14,
+									["uptime"] = 88,
+								},
+							},
+							["count"] = 6,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48990] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["refresh"] = 4,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[6150] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 86,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["uptime"] = 56,
+						},
+						[35079] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53426] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[3045] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 27,
+						},
+						[34026] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 72,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[54131] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["refresh"] = 32,
+							["uptime"] = 95,
+						},
+						[34477] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 2,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 88,
+						},
+						[60065] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53338] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 107,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 107,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[61847] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 112,
+						},
+						[64495] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["uptime"] = 60,
+						},
+						[70893] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 28,
+							["uptime"] = 92,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 7,
+						},
+						[34074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 13,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 53,
+						},
+						[53220] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 7,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 62,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[61684] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 64,
+						},
+						[49001] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 105,
+							["school"] = 8,
+							["refresh"] = 28,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 28,
+									["uptime"] = 105,
+								},
+							},
+							["count"] = 2,
+						},
+						[61685] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 8,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[1742] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 18,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["energyspells"] = {
+						[57894] = 105,
+						[54131] = 1659,
+						[34952] = 2575,
+					},
+					["time"] = 115.9200000000001,
+					["totaldamagetaken"] = 91349,
+					["damage"] = 566713,
+					["overheal"] = 46537,
+					["mana"] = 8846,
+					["damagetaken"] = 91349,
+					["id"] = "0x07000000008EB1C8",
+					["spec"] = 254,
+					["healspells"] = {
+						[48990] = {
+							["overheal"] = 5565,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 8,
+							["ishot"] = true,
+							["targets"] = {
+								["Adi"] = {
+									["overheal"] = 5565,
+									["amount"] = 0,
+								},
+							},
+						},
+						[54131] = {
+							["overheal"] = 17507,
+							["max"] = 151,
+							["count"] = 79,
+							["amount"] = 979,
+							["school"] = 1,
+							["min"] = 4,
+							["ishot"] = true,
+							["targets"] = {
+								["Adi"] = {
+									["overheal"] = 17507,
+									["amount"] = 979,
+								},
+							},
+						},
+						[53426] = {
+							["overheal"] = 23465,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 8,
+							["ishot"] = true,
+							["targets"] = {
+								["Adi"] = {
+									["overheal"] = 23465,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Freezing Ground"] = {
+							["hitmin"] = 3551,
+							["id"] = 72104,
+							["hitmax"] = 5805,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 14460,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 4385,
+							["amount"] = 14460,
+							["hitamount"] = 14460,
+						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1226,
+							["id"] = 72097,
+							["hitmax"] = 2757,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 40444,
+								},
+							},
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 16,
+							["resisted"] = 18141,
+							["amount"] = 40444,
+							["hitamount"] = 40444,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 10500,
+							["id"] = 72096,
+							["hitmax"] = 15337,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 36445,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 8854,
+							["amount"] = 36445,
+							["hitamount"] = 36445,
+						},
+					},
+					["manaspells"] = {
+						[34075] = 6210,
+						[34074] = 2636,
+					},
+					["heal"] = 979,
+					["name"] = "Laressa",
+					["totaldamage"] = 566713,
+					["damagespells"] = {
+						["Piercing Shots (DoT)"] = {
+							["hitmin"] = 118,
+							["id"] = 63468,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 24491,
+								},
+							},
+							["count"] = 78,
+							["hit"] = 78,
+							["school"] = 1,
+							["hitmax"] = 644,
+							["amount"] = 24491,
+							["hitamount"] = 24491,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["criticalmin"] = 1862,
+							["hitmin"] = 856,
+							["criticalamount"] = 16064,
+							["id"] = 53254,
+							["hitmax"] = 1965,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 28626,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 8,
+							["casts"] = 1,
+							["critical"] = 5,
+							["amount"] = 28626,
+							["school"] = 8,
+							["resisted"] = 1107,
+							["criticalmax"] = 3794,
+							["hitamount"] = 12562,
+						},
+						["Serpent Sting (DoT)"] = {
+							["criticalmin"] = 1405,
+							["hitmin"] = 322,
+							["criticalamount"] = 13339,
+							["id"] = 49001,
+							["criticalmax"] = 1756,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 25108,
+								},
+							},
+							["critical"] = 8,
+							["hitmax"] = 829,
+							["casts"] = 21,
+							["count"] = 26,
+							["hit"] = 18,
+							["school"] = 8,
+							["resisted"] = 1501,
+							["amount"] = 25108,
+							["hitamount"] = 11769,
+						},
+						["Auto Shot"] = {
+							["hitmin"] = 656,
+							["criticalamount"] = 148782,
+							["id"] = 75,
+							["hitmax"] = 2061,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 201077,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 2692,
+								},
+							},
+							["count"] = 92,
+							["hit"] = 38,
+							["casts"] = 1,
+							["critical"] = 54,
+							["amount"] = 203769,
+							["school"] = 1,
+							["criticalmin"] = 1264,
+							["criticalmax"] = 3994,
+							["hitamount"] = 54987,
+						},
+						["Chimera Shot"] = {
+							["hitmax"] = 3023,
+							["hitmin"] = 2903,
+							["criticalamount"] = 49210,
+							["id"] = 53209,
+							["count"] = 9,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 55136,
+								},
+							},
+							["hit"] = 2,
+							["criticalmin"] = 3501,
+							["casts"] = 9,
+							["critical"] = 7,
+							["amount"] = 55136,
+							["school"] = 8,
+							["resisted"] = 4391,
+							["criticalmax"] = 9060,
+							["hitamount"] = 5926,
+						},
+						["Bite (Adi)"] = {
+							["hitmin"] = 324,
+							["criticalamount"] = 12450,
+							["id"] = 52474,
+							["criticalmin"] = 630,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 32700,
+								},
+							},
+							["criticalmax"] = 1076,
+							["critical"] = 17,
+							["casts"] = 1,
+							["count"] = 69,
+							["hit"] = 52,
+							["school"] = 1,
+							["hitmax"] = 677,
+							["amount"] = 32700,
+							["hitamount"] = 20250,
+						},
+						["Arcane Shot"] = {
+							["hitmax"] = 2106,
+							["hitmin"] = 698,
+							["criticalamount"] = 17357,
+							["id"] = 49045,
+							["criticalmin"] = 4091,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 22240,
+								},
+							},
+							["criticalmax"] = 4545,
+							["critical"] = 4,
+							["casts"] = 7,
+							["count"] = 7,
+							["hit"] = 3,
+							["school"] = 64,
+							["resisted"] = 628,
+							["amount"] = 22240,
+							["hitamount"] = 4883,
+						},
+						["Steady Shot"] = {
+							["hitmin"] = 615,
+							["criticalamount"] = 43479,
+							["id"] = 49052,
+							["criticalmin"] = 1692,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 59261,
+								},
+							},
+							["criticalmax"] = 4504,
+							["critical"] = 13,
+							["casts"] = 24,
+							["count"] = 25,
+							["hit"] = 12,
+							["school"] = 1,
+							["hitmax"] = 1822,
+							["amount"] = 59261,
+							["hitamount"] = 15782,
+						},
+						["Kill Shot"] = {
+							["criticalamount"] = 27650,
+							["id"] = 61006,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 27650,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 27650,
+							["school"] = 1,
+							["criticalmin"] = 12067,
+							["criticalmax"] = 15583,
+							["count"] = 2,
+						},
+						["Silencing Shot"] = {
+							["hitmin"] = 685,
+							["criticalamount"] = 3900,
+							["id"] = 34490,
+							["hitmax"] = 1038,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 6321,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 3,
+							["casts"] = 6,
+							["critical"] = 3,
+							["amount"] = 6321,
+							["school"] = 1,
+							["criticalmin"] = 851,
+							["criticalmax"] = 1550,
+							["hitamount"] = 2421,
+						},
+						["Interrupt"] = {
+							["casts"] = 1,
+							["count"] = 6,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 6,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 32747,
+						},
+						["Charge (Adi)"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 53148,
+						},
+						["Chimera Shot - Serpent"] = {
+							["hitmax"] = 2262,
+							["hitmin"] = 1922,
+							["criticalamount"] = 25472,
+							["id"] = 53353,
+							["count"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 29656,
+								},
+							},
+							["hit"] = 2,
+							["criticalmin"] = 2070,
+							["casts"] = 1,
+							["critical"] = 6,
+							["amount"] = 29656,
+							["school"] = 8,
+							["resisted"] = 1897,
+							["criticalmax"] = 5538,
+							["hitamount"] = 4184,
+						},
+						["Multi-Shot"] = {
+							["hitmin"] = 2630,
+							["criticalamount"] = 5501,
+							["id"] = 49048,
+							["hitmax"] = 2630,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 2630,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 5501,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 8131,
+							["school"] = 1,
+							["criticalmin"] = 5501,
+							["criticalmax"] = 5501,
+							["hitamount"] = 2630,
+						},
+						["Melee (Adi)"] = {
+							["glance"] = 8623,
+							["hitmin"] = 415,
+							["criticalmin"] = 846,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 43624,
+								},
+							},
+							["glancing"] = 24,
+							["amount"] = 43624,
+							["glancemin"] = 316,
+							["criticalamount"] = 12334,
+							["id"] = 6603,
+							["glancemax"] = 462,
+							["criticalmax"] = 1236,
+							["critical"] = 13,
+							["hit"] = 48,
+							["school"] = 1,
+							["hitmax"] = 605,
+							["count"] = 85,
+							["hitamount"] = 22667,
+						},
+					},
+					["energy"] = 4339,
+					["role"] = "DAMAGER",
+				}, -- [5]
+				{
+					["last"] = 5520.902,
+					["flag"] = 1300,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[15286] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[14751] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[15258] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 150,
+							["uptime"] = 116,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[32409] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["uptime"] = 2,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 11,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[55637] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[71636] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[72416] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[48156] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 65,
+							["school"] = 32,
+							["refresh"] = 7,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 43,
+									["refresh"] = 4,
+									["uptime"] = 65,
+								},
+							},
+							["count"] = 87,
+						},
+						[48160] = {
+							["type"] = "DEBUFF",
+							["count"] = 18,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 82,
+									["count"] = 9,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 33,
+									["count"] = 9,
+								},
+							},
+							["uptime"] = 95,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[59000] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["refresh"] = 25,
+							["uptime"] = 83,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53023] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[48300] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 86,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 86,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 5,
+						},
+						[15271] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 15,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[61792] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 58,
+							["uptime"] = 111,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[48125] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 105,
+							["school"] = 32,
+							["refresh"] = 43,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 43,
+									["uptime"] = 105,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 34,
+									["count"] = 7,
+								},
+							},
+							["count"] = 8,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 56,
+						},
+						[33198] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 71,
+							["school"] = 32,
+							["refresh"] = 17,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 41,
+									["refresh"] = 10,
+									["uptime"] = 48,
+								},
+								["Frozen Orb"] = {
+									["count"] = 9,
+									["refresh"] = 7,
+									["uptime"] = 36,
+								},
+							},
+							["count"] = 50,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[75466] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[15473] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 13,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 110.68,
+					["totaldamagetaken"] = 40524,
+					["damage"] = 1223707,
+					["overheal"] = 696547,
+					["damagetaken"] = 40524,
+					["id"] = "0x07000000002155D2",
+					["spec"] = 258,
+					["healspells"] = {
+						[15290] = {
+							["overheal"] = 669769,
+							["max"] = 2400,
+							["count"] = 2393,
+							["amount"] = 126148,
+							["school"] = 32,
+							["min"] = 9,
+							["ishot"] = true,
+							["targets"] = {
+								["Simplelocks"] = {
+									["overheal"] = 46897,
+									["amount"] = 17305,
+								},
+								["Grottesque"] = {
+									["overheal"] = 289086,
+									["amount"] = 31897,
+								},
+								["Orcscream"] = {
+									["overheal"] = 42013,
+									["amount"] = 22172,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 37153,
+									["amount"] = 6425,
+								},
+								["Laressa"] = {
+									["overheal"] = 42505,
+									["amount"] = 21686,
+								},
+								["Treant"] = {
+									["overheal"] = 38692,
+									["amount"] = 7500,
+								},
+								["Caiva"] = {
+									["overheal"] = 53538,
+									["amount"] = 10654,
+								},
+								["Adi"] = {
+									["overheal"] = 60866,
+									["amount"] = 3333,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 59019,
+									["amount"] = 5176,
+								},
+							},
+						},
+						[75999] = {
+							["overheal"] = 3404,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Grottesque"] = {
+									["overheal"] = 3404,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["critical"] = 2,
+							["amount"] = 0,
+							["school"] = 32,
+							["count"] = 6,
+							["criticalmin"] = 0,
+						},
+						[48300] = {
+							["overheal"] = 23374,
+							["max"] = 683,
+							["targets"] = {
+								["Grottesque"] = {
+									["overheal"] = 23374,
+									["amount"] = 2059,
+								},
+							},
+							["min"] = 287,
+							["casts"] = 6,
+							["count"] = 46,
+							["amount"] = 2059,
+							["school"] = 32,
+						},
+					},
+					["damagetakenspells"] = {
+						["Freezing Ground"] = {
+							["hitmin"] = 5299,
+							["id"] = 72104,
+							["hitmax"] = 5299,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 5299,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 1324,
+							["amount"] = 5299,
+							["hitamount"] = 5299,
+						},
+						["Shadow Word: Death (DoT)"] = {
+							["hitmin"] = 2088,
+							["id"] = 32409,
+							["hitmax"] = 3942,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 1507,
+							["amount"] = 6030,
+							["hitamount"] = 6030,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 8169,
+							["id"] = 72096,
+							["hitmax"] = 11827,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 29195,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 10398,
+							["amount"] = 29195,
+							["hitamount"] = 29195,
+						},
+					},
+					["heal"] = 128207,
+					["name"] = "Grottesque",
+					["overkill"] = 5221,
+					["damagespells"] = {
+						["Mind Sear"] = {
+							["criticalmin"] = 3855,
+							["hitmin"] = 2203,
+							["criticalamount"] = 3855,
+							["id"] = 53022,
+							["criticalmax"] = 3855,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 14370,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 2772,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 32,
+							["resisted"] = 978,
+							["amount"] = 14370,
+							["hitamount"] = 10515,
+						},
+						["Vampiric Touch (DoT)"] = {
+							["hitmax"] = 4477,
+							["casts"] = 18,
+							["hitmin"] = 1992,
+							["criticalamount"] = 208596,
+							["id"] = 48160,
+							["criticalmin"] = 4293,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 211047,
+								},
+								["Frozen Orb"] = {
+									["overkill"] = 5221,
+									["amount"] = 117179,
+								},
+							},
+							["overkill"] = 5221,
+							["critical"] = 34,
+							["criticalmax"] = 9357,
+							["count"] = 76,
+							["hit"] = 42,
+							["school"] = 32,
+							["resisted"] = 21027,
+							["amount"] = 328226,
+							["hitamount"] = 119630,
+						},
+						["Improved Devouring Plague"] = {
+							["criticalmin"] = 6520,
+							["hitmin"] = 3343,
+							["criticalamount"] = 13056,
+							["id"] = 63675,
+							["criticalmax"] = 6536,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 29046,
+								},
+							},
+							["critical"] = 2,
+							["hitmax"] = 4695,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 32,
+							["resisted"] = 2032,
+							["amount"] = 29046,
+							["hitamount"] = 15990,
+						},
+						["Devouring Plague (DoT)"] = {
+							["casts"] = 6,
+							["hitmin"] = 1610,
+							["criticalamount"] = 112539,
+							["id"] = 48300,
+							["hit"] = 22,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 160279,
+								},
+							},
+							["hitmax"] = 2826,
+							["count"] = 46,
+							["criticalmax"] = 5905,
+							["critical"] = 24,
+							["amount"] = 160279,
+							["school"] = 32,
+							["resisted"] = 10109,
+							["criticalmin"] = 3786,
+							["hitamount"] = 47740,
+						},
+						["Mind Flay"] = {
+							["hitmax"] = 4324,
+							["hitmin"] = 2254,
+							["criticalamount"] = 348025,
+							["id"] = 58381,
+							["count"] = 112,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 524793,
+								},
+							},
+							["hit"] = 57,
+							["criticalmin"] = 3745,
+							["casts"] = 44,
+							["critical"] = 55,
+							["amount"] = 524793,
+							["school"] = 32,
+							["resisted"] = 27642,
+							["criticalmax"] = 9038,
+							["hitamount"] = 176768,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmax"] = 2515,
+							["hitmin"] = 1220,
+							["criticalamount"] = 116998,
+							["id"] = 48125,
+							["count"] = 50,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 109588,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 37594,
+								},
+							},
+							["hit"] = 18,
+							["casts"] = 8,
+							["criticalmax"] = 5256,
+							["critical"] = 32,
+							["amount"] = 147182,
+							["school"] = 32,
+							["resisted"] = 8908,
+							["criticalmin"] = 2836,
+							["hitamount"] = 30184,
+						},
+						["Shadow Word: Death"] = {
+							["hitmax"] = 4386,
+							["hitmin"] = 4386,
+							["criticalamount"] = 15425,
+							["id"] = 48158,
+							["criticalmin"] = 7145,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 19811,
+								},
+							},
+							["criticalmax"] = 8280,
+							["critical"] = 2,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 2706,
+							["amount"] = 19811,
+							["hitamount"] = 4386,
+						},
+					},
+					["totaldamage"] = 1223707,
+					["role"] = "DAMAGER",
+				}, -- [6]
+				{
+					["last"] = 5521.803,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57934] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 5,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 40,
+						},
+						[13750] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[13877] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 5,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 22,
+						},
+						[67671] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["uptime"] = 30,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 11,
+							["school"] = 8,
+							["uptime"] = 77,
+						},
+						[59628] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 18,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48676] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 18,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[1784] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 63,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 47,
+									["count"] = 62,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 48,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 54,
+						},
+						[6774] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 94,
+						},
+						[23060] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 112,
+						},
+						[57933] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 29,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 98,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57970] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 111,
+							["school"] = 8,
+							["refresh"] = 63,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 63,
+									["uptime"] = 111,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["count"] = 2,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[51690] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+					},
+					["energyspells"] = {
+						[35548] = 465,
+					},
+					["time"] = 115.25,
+					["totaldamagetaken"] = 106731,
+					["damage"] = 765713,
+					["damagespells"] = {
+						["Garrote (DoT)"] = {
+							["hitmin"] = 510,
+							["id"] = 48676,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 3060,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 510,
+							["amount"] = 3060,
+							["hitamount"] = 3060,
+						},
+						["Melee"] = {
+							["glance"] = 37332,
+							["hitmin"] = 409,
+							["criticalmin"] = 842,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 280185,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 0,
+								},
+							},
+							["glancing"] = 55,
+							["amount"] = 280185,
+							["MISS"] = 48,
+							["glancemin"] = 309,
+							["criticalamount"] = 205224,
+							["id"] = 6603,
+							["glancemax"] = 1425,
+							["blocked"] = 41,
+							["criticalmax"] = 3926,
+							["critical"] = 119,
+							["hit"] = 50,
+							["school"] = 1,
+							["hitmax"] = 1652,
+							["count"] = 272,
+							["hitamount"] = 37629,
+						},
+						["Blade Twisting"] = {
+							["casts"] = 1,
+							["count"] = 25,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 25,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 51585,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 1430,
+							["criticalamount"] = 86060,
+							["id"] = 48638,
+							["hitmax"] = 2629,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 121877,
+								},
+							},
+							["count"] = 38,
+							["hit"] = 20,
+							["casts"] = 38,
+							["critical"] = 18,
+							["amount"] = 121877,
+							["school"] = 1,
+							["criticalmin"] = 3312,
+							["criticalmax"] = 5873,
+							["hitamount"] = 35817,
+						},
+						["Killing Spree"] = {
+							["hitmin"] = 582,
+							["criticalamount"] = 35414,
+							["id"] = 57841,
+							["hitmax"] = 1592,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 42416,
+								},
+							},
+							["count"] = 20,
+							["hit"] = 7,
+							["casts"] = 2,
+							["critical"] = 13,
+							["amount"] = 42416,
+							["school"] = 1,
+							["criticalmin"] = 1382,
+							["criticalmax"] = 4442,
+							["hitamount"] = 7002,
+						},
+						["Blade Flurry"] = {
+							["hitmin"] = 417,
+							["id"] = 22482,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 47163,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 32,
+							["hit"] = 32,
+							["school"] = 1,
+							["hitmax"] = 5530,
+							["amount"] = 47163,
+							["hitamount"] = 47163,
+						},
+						["Instant Poison IX"] = {
+							["hitmax"] = 1408,
+							["hitmin"] = 808,
+							["criticalamount"] = 48389,
+							["id"] = 57965,
+							["count"] = 133,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 163044,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 841,
+								},
+							},
+							["hit"] = 107,
+							["criticalmin"] = 1226,
+							["casts"] = 1,
+							["critical"] = 26,
+							["amount"] = 163885,
+							["school"] = 8,
+							["resisted"] = 10326,
+							["criticalmax"] = 2665,
+							["hitamount"] = 115496,
+						},
+						["Fan of Knives"] = {
+							["hitmin"] = 283,
+							["criticalamount"] = 6967,
+							["id"] = 51723,
+							["criticalmin"] = 646,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 8672,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 3028,
+								},
+							},
+							["criticalmax"] = 2263,
+							["critical"] = 4,
+							["casts"] = 4,
+							["count"] = 14,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 785,
+							["amount"] = 11700,
+							["hitamount"] = 4733,
+						},
+						["Garrote - Silence"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 1330,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 225,
+							["id"] = 57970,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 49168,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 225,
+								},
+							},
+							["hitmax"] = 1749,
+							["count"] = 35,
+							["hit"] = 35,
+							["school"] = 8,
+							["resisted"] = 1712,
+							["amount"] = 49393,
+							["hitamount"] = 49393,
+						},
+						["Eviscerate"] = {
+							["hitmin"] = 3877,
+							["criticalamount"] = 22207,
+							["id"] = 48668,
+							["criticalmin"] = 10932,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 46034,
+								},
+							},
+							["criticalmax"] = 11275,
+							["critical"] = 2,
+							["casts"] = 8,
+							["count"] = 7,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 5828,
+							["amount"] = 46034,
+							["hitamount"] = 23827,
+						},
+					},
+					["damagetaken"] = 106731,
+					["id"] = "0x070000000082321E",
+					["spec"] = 260,
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1056,
+							["id"] = 72097,
+							["amount"] = 74015,
+							["hitmax"] = 2330,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 74015,
+								},
+							},
+							["count"] = 43,
+							["hit"] = 42,
+							["school"] = 16,
+							["resisted"] = 27076,
+							["MISS"] = 1,
+							["hitamount"] = 74015,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 9261,
+							["id"] = 72096,
+							["hitmax"] = 14121,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 32716,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 9537,
+							["amount"] = 32716,
+							["hitamount"] = 32716,
+						},
+					},
+					["name"] = "Jutrit",
+					["totaldamage"] = 765713,
+					["energy"] = 465,
+					["role"] = "DAMAGER",
+				}, -- [7]
+				{
+					["last"] = 5521.062,
+					["flag"] = 1300,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 10,
+							["refresh"] = 5,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[47864] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 109,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 109,
+						},
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[47813] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 104,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 104,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 87,
+						},
+						[32851] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 93,
+							["uptime"] = 122,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[35706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[47241] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[63167] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 14,
+							["uptime"] = 47,
+						},
+						[71165] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["uptime"] = 42,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[17800] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 76,
+							["school"] = 32,
+							["refresh"] = 13,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 13,
+									["uptime"] = 76,
+								},
+							},
+							["count"] = 1,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[47811] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 96,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 96,
+						},
+						[67669] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[54508] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 29,
+						},
+						[47893] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 7,
+						},
+						[35696] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 115.16,
+					["totaldamagetaken"] = 36557,
+					["damage"] = 554161,
+					["damagespells"] = {
+						["Corruption (DoT)"] = {
+							["hitmin"] = 766,
+							["id"] = 47813,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 33133,
+								},
+							},
+							["hitmax"] = 1340,
+							["casts"] = 6,
+							["count"] = 34,
+							["hit"] = 34,
+							["school"] = 32,
+							["resisted"] = 1732,
+							["amount"] = 33133,
+							["hitamount"] = 33133,
+						},
+						["Incinerate"] = {
+							["amount"] = 118351,
+							["criticalmin"] = 7758,
+							["hitmin"] = 3753,
+							["criticalamount"] = 54191,
+							["id"] = 47838,
+							["criticalmax"] = 11859,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 118351,
+								},
+							},
+							["critical"] = 6,
+							["hitmax"] = 5879,
+							["casts"] = 20,
+							["count"] = 21,
+							["hit"] = 14,
+							["school"] = 4,
+							["resisted"] = 9817,
+							["MISS"] = 1,
+							["hitamount"] = 64160,
+						},
+						["Immolate"] = {
+							["critical"] = 3,
+							["hitmax"] = 1314,
+							["hitmin"] = 1314,
+							["criticalamount"] = 7313,
+							["id"] = 47811,
+							["hit"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 8627,
+								},
+							},
+							["criticalmax"] = 2529,
+							["criticalmin"] = 2392,
+							["casts"] = 5,
+							["count"] = 5,
+							["amount"] = 8627,
+							["school"] = 4,
+							["resisted"] = 1162,
+							["MISS"] = 1,
+							["hitamount"] = 1314,
+						},
+						["Curse of Agony (DoT)"] = {
+							["hitmin"] = 394,
+							["id"] = 47864,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 29941,
+								},
+							},
+							["hitmax"] = 864,
+							["casts"] = 5,
+							["count"] = 53,
+							["hit"] = 53,
+							["school"] = 32,
+							["resisted"] = 1898,
+							["amount"] = 29941,
+							["hitamount"] = 29941,
+						},
+						["Melee (Shaaroon)"] = {
+							["glance"] = 16789,
+							["hitmin"] = 703,
+							["criticalmin"] = 1720,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 97903,
+								},
+							},
+							["glancing"] = 21,
+							["amount"] = 97903,
+							["glancemin"] = 568,
+							["criticalamount"] = 38154,
+							["id"] = 6603,
+							["glancemax"] = 897,
+							["criticalmax"] = 2298,
+							["hitmax"] = 1200,
+							["hit"] = 41,
+							["school"] = 1,
+							["critical"] = 18,
+							["count"] = 80,
+							["hitamount"] = 42960,
+						},
+						["Cleave (Shaaroon)"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 836,
+							["criticalamount"] = 9574,
+							["id"] = 47994,
+							["criticalmin"] = 2348,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 24341,
+								},
+							},
+							["criticalmax"] = 2426,
+							["critical"] = 4,
+							["casts"] = 1,
+							["count"] = 19,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 1231,
+							["amount"] = 24341,
+							["hitamount"] = 14767,
+						},
+						["Soul Fire"] = {
+							["criticalmax"] = 14922,
+							["hitmax"] = 6294,
+							["hitmin"] = 5535,
+							["criticalamount"] = 86779,
+							["id"] = 47825,
+							["count"] = 14,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 121839,
+								},
+							},
+							["hit"] = 6,
+							["criticalmin"] = 10790,
+							["casts"] = 15,
+							["critical"] = 7,
+							["amount"] = 121839,
+							["school"] = 4,
+							["resisted"] = 10134,
+							["MISS"] = 1,
+							["hitamount"] = 35060,
+						},
+						["Immolate (DoT)"] = {
+							["hitmin"] = 835,
+							["criticalamount"] = 21848,
+							["id"] = 47811,
+							["criticalmin"] = 1669,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 40844,
+								},
+							},
+							["hitmax"] = 1117,
+							["critical"] = 12,
+							["criticalmax"] = 2234,
+							["count"] = 32,
+							["hit"] = 20,
+							["school"] = 4,
+							["resisted"] = 2182,
+							["amount"] = 40844,
+							["hitamount"] = 18996,
+						},
+						["Intercept (Shaaroon)"] = {
+							["hitmin"] = 148,
+							["id"] = 47995,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 148,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 148,
+							["amount"] = 148,
+							["hitamount"] = 148,
+						},
+						["Shadow Bolt"] = {
+							["criticalmin"] = 7152,
+							["hitmin"] = 3558,
+							["criticalamount"] = 34865,
+							["id"] = 47809,
+							["criticalmax"] = 9703,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 79034,
+								},
+							},
+							["critical"] = 4,
+							["hitmax"] = 5625,
+							["casts"] = 13,
+							["count"] = 14,
+							["hit"] = 10,
+							["school"] = 32,
+							["resisted"] = 7214,
+							["amount"] = 79034,
+							["hitamount"] = 44169,
+						},
+					},
+					["damagetaken"] = 29248,
+					["id"] = "0x0700000000787132",
+					["spec"] = 266,
+					["healspells"] = {
+						[47893] = {
+							["overheal"] = 11203,
+							["max"] = 659,
+							["count"] = 25,
+							["amount"] = 5272,
+							["school"] = 32,
+							["min"] = 659,
+							["ishot"] = true,
+							["targets"] = {
+								["Simplelocks"] = {
+									["overheal"] = 11203,
+									["amount"] = 5272,
+								},
+							},
+						},
+						[54181] = {
+							["overheal"] = 65746,
+							["max"] = 888,
+							["count"] = 170,
+							["amount"] = 2812,
+							["school"] = 2,
+							["min"] = 67,
+							["targets"] = {
+								["Shaaroon"] = {
+									["overheal"] = 65746,
+									["amount"] = 2812,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["total"] = 7090,
+							["hitmin"] = 1804,
+							["id"] = 72097,
+							["hitmax"] = 2049,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["total"] = 7090,
+									["amount"] = 5673,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 1415,
+							["amount"] = 5673,
+							["hitamount"] = 5673,
+						},
+						["Whiteout"] = {
+							["total"] = 29467,
+							["hitmin"] = 7018,
+							["id"] = 72096,
+							["hitmax"] = 8397,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["total"] = 29467,
+									["amount"] = 23575,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 15270,
+							["amount"] = 23575,
+							["hitamount"] = 23575,
+						},
+					},
+					["manaspells"] = {
+						[31818] = 13550,
+					},
+					["heal"] = 8084,
+					["name"] = "Simplelocks",
+					["mana"] = 13550,
+					["overheal"] = 76949,
+					["totaldamage"] = 554161,
+					["role"] = "DAMAGER",
+				}, -- [8]
+				{
+					["last"] = 5521.366,
+					["flag"] = 1300,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[15286] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75466] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 45,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[71643] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 18,
+							["uptime"] = 40,
+						},
+						[32409] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["uptime"] = 2,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 11,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[55637] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[71644] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 40,
+						},
+						[72416] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[48156] = {
+							["type"] = "BUFF",
+							["uptime"] = 77,
+							["school"] = 32,
+							["refresh"] = 13,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 63,
+									["refresh"] = 7,
+									["uptime"] = 77,
+								},
+							},
+							["count"] = 126,
+						},
+						[48160] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 68,
+									["count"] = 8,
+								},
+							},
+							["uptime"] = 68,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[59000] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 32,
+							["uptime"] = 109,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53023] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 6,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[48300] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 109,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 7,
+									["refresh"] = 1,
+									["uptime"] = 109,
+								},
+							},
+							["count"] = 7,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 2,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[61792] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 81,
+							["uptime"] = 124,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 31,
+						},
+						[48125] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 116,
+							["school"] = 32,
+							["refresh"] = 63,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 63,
+									["uptime"] = 116,
+								},
+							},
+							["count"] = 1,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[33198] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 65,
+							["school"] = 32,
+							["refresh"] = 24,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 41,
+									["refresh"] = 24,
+									["uptime"] = 65,
+								},
+							},
+							["count"] = 41,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 15,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 62,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[63619] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["uptime"] = 76,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[15473] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[15258] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 173,
+							["uptime"] = 124,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 117.39,
+					["totaldamagetaken"] = 60761,
+					["damage"] = 1245550,
+					["overheal"] = 636672,
+					["damagetaken"] = 60761,
+					["id"] = "0x070000000086BAC1",
+					["spec"] = 258,
+					["healspells"] = {
+						[15290] = {
+							["overheal"] = 605033,
+							["max"] = 1879,
+							["count"] = 2030,
+							["amount"] = 77148,
+							["school"] = 32,
+							["min"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Welden"] = {
+									["overheal"] = 54040,
+									["amount"] = 8062,
+								},
+								["Apollonn"] = {
+									["overheal"] = 55381,
+									["amount"] = 6718,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 48818,
+									["amount"] = 2654,
+								},
+								["Viper"] = {
+									["overheal"] = 1221,
+									["amount"] = 0,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 50559,
+									["amount"] = 11543,
+								},
+								["Venomous Snake"] = {
+									["overheal"] = 1221,
+									["amount"] = 0,
+								},
+								["Shadowfiend"] = {
+									["overheal"] = 6613,
+									["amount"] = 667,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 272388,
+									["amount"] = 38099,
+								},
+								["Wolf"] = {
+									["overheal"] = 59663,
+									["amount"] = 2427,
+								},
+								["Xknappen"] = {
+									["overheal"] = 55129,
+									["amount"] = 6978,
+								},
+							},
+						},
+						[75999] = {
+							["overheal"] = 4212,
+							["criticalamount"] = 771,
+							["max"] = 771,
+							["targets"] = {
+								["Evelinayou"] = {
+									["overheal"] = 4212,
+									["amount"] = 1319,
+								},
+							},
+							["min"] = 548,
+							["criticalmax"] = 771,
+							["critical"] = 6,
+							["amount"] = 1319,
+							["school"] = 32,
+							["count"] = 8,
+							["criticalmin"] = 0,
+						},
+						[48300] = {
+							["overheal"] = 27427,
+							["max"] = 814,
+							["targets"] = {
+								["Evelinayou"] = {
+									["overheal"] = 27427,
+									["amount"] = 3886,
+								},
+							},
+							["min"] = 355,
+							["casts"] = 8,
+							["count"] = 57,
+							["amount"] = 3886,
+							["school"] = 32,
+						},
+					},
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1501,
+							["id"] = 72097,
+							["hitmax"] = 2294,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 24697,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 16,
+							["resisted"] = 8096,
+							["amount"] = 24697,
+							["hitamount"] = 24697,
+						},
+						["Freezing Ground"] = {
+							["hitmin"] = 4331,
+							["id"] = 72104,
+							["hitmax"] = 4331,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 4331,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 1082,
+							["amount"] = 4331,
+							["hitamount"] = 4331,
+						},
+						["Shadow Word: Death (DoT)"] = {
+							["hitmin"] = 1711,
+							["id"] = 32409,
+							["hitmax"] = 2095,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 1255,
+							["amount"] = 3806,
+							["hitamount"] = 3806,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 8177,
+							["id"] = 72096,
+							["hitmax"] = 10421,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 27927,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 11967,
+							["amount"] = 27927,
+							["hitamount"] = 27927,
+						},
+					},
+					["manaspells"] = {
+						[34650] = 20163,
+						[57669] = 2480,
+					},
+					["heal"] = 82353,
+					["name"] = "Evelinayou",
+					["mana"] = 22643,
+					["damagespells"] = {
+						["Mind Sear"] = {
+							["criticalmin"] = 2624,
+							["hitmin"] = 1906,
+							["criticalamount"] = 26304,
+							["id"] = 53022,
+							["hitmax"] = 2454,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 48149,
+								},
+							},
+							["count"] = 18,
+							["hit"] = 10,
+							["casts"] = 3,
+							["critical"] = 8,
+							["amount"] = 48149,
+							["school"] = 32,
+							["resisted"] = 2930,
+							["criticalmax"] = 3795,
+							["hitamount"] = 21845,
+						},
+						["Vampiric Touch (DoT)"] = {
+							["hitmax"] = 3519,
+							["hitmin"] = 2561,
+							["criticalamount"] = 124591,
+							["id"] = 48160,
+							["casts"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 174113,
+								},
+							},
+							["criticalmin"] = 4993,
+							["critical"] = 21,
+							["criticalmax"] = 7078,
+							["count"] = 37,
+							["hit"] = 16,
+							["school"] = 32,
+							["resisted"] = 13570,
+							["amount"] = 174113,
+							["hitamount"] = 49522,
+						},
+						["Melee (Shadowfiend)"] = {
+							["glance"] = 6016,
+							["hitmin"] = 1860,
+							["criticalmin"] = 4086,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 27464,
+								},
+							},
+							["glancing"] = 4,
+							["amount"] = 27464,
+							["resisted"] = 1883,
+							["glancemin"] = 1369,
+							["criticalamount"] = 4086,
+							["id"] = 6603,
+							["glancemax"] = 1691,
+							["criticalmax"] = 4086,
+							["count"] = 13,
+							["hit"] = 8,
+							["school"] = 1,
+							["critical"] = 1,
+							["hitmax"] = 2332,
+							["hitamount"] = 17362,
+						},
+						["Improved Devouring Plague"] = {
+							["hitmax"] = 4626,
+							["hitmin"] = 3898,
+							["criticalamount"] = 21295,
+							["id"] = 63675,
+							["count"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 37995,
+								},
+							},
+							["hit"] = 4,
+							["criticalmin"] = 4212,
+							["casts"] = 1,
+							["critical"] = 4,
+							["amount"] = 37995,
+							["school"] = 32,
+							["resisted"] = 6637,
+							["criticalmax"] = 6094,
+							["hitamount"] = 16700,
+						},
+						["Mind Flay"] = {
+							["criticalmin"] = 4544,
+							["hitmin"] = 2144,
+							["criticalamount"] = 421505,
+							["id"] = 58381,
+							["criticalmax"] = 7274,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 634452,
+								},
+							},
+							["critical"] = 70,
+							["hitmax"] = 3481,
+							["casts"] = 63,
+							["count"] = 144,
+							["hit"] = 74,
+							["school"] = 32,
+							["resisted"] = 44403,
+							["amount"] = 634452,
+							["hitamount"] = 212947,
+						},
+						["Shadow Word: Death"] = {
+							["hitmin"] = 4105,
+							["id"] = 48158,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 8504,
+								},
+							},
+							["hitmax"] = 4399,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 488,
+							["amount"] = 8504,
+							["hitamount"] = 8504,
+						},
+						["Mind Blast"] = {
+							["hitmax"] = 5977,
+							["hitmin"] = 5977,
+							["criticalamount"] = 9765,
+							["id"] = 48127,
+							["count"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 15742,
+								},
+							},
+							["hit"] = 1,
+							["criticalmin"] = 9765,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 15742,
+							["school"] = 32,
+							["resisted"] = 1084,
+							["criticalmax"] = 9765,
+							["hitamount"] = 5977,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 1211,
+							["criticalamount"] = 78436,
+							["id"] = 48125,
+							["hitmax"] = 1850,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 101838,
+								},
+							},
+							["criticalmin"] = 2519,
+							["critical"] = 23,
+							["criticalmax"] = 3995,
+							["count"] = 38,
+							["hit"] = 15,
+							["school"] = 32,
+							["resisted"] = 6069,
+							["amount"] = 101838,
+							["hitamount"] = 23402,
+						},
+						["Devouring Plague (DoT)"] = {
+							["criticalmin"] = 3924,
+							["hitmin"] = 1484,
+							["criticalamount"] = 127247,
+							["id"] = 48300,
+							["criticalmax"] = 5582,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 197293,
+								},
+							},
+							["critical"] = 26,
+							["hitmax"] = 2725,
+							["casts"] = 8,
+							["count"] = 57,
+							["hit"] = 31,
+							["school"] = 32,
+							["resisted"] = 12681,
+							["amount"] = 197293,
+							["hitamount"] = 70046,
+						},
+					},
+					["totaldamage"] = 1245550,
+					["role"] = "DAMAGER",
+				}, -- [9]
+				{
+					["last"] = 5521.702,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 30,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[51124] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 13,
+							["uptime"] = 108,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 94,
+							["school"] = 16,
+							["refresh"] = 3,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 3,
+									["uptime"] = 94,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+							},
+							["count"] = 5,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 49,
+						},
+						[50449] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 57,
+							["uptime"] = 122,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 111,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 5,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 94,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 5,
+									["refresh"] = 2,
+									["uptime"] = 94,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+							},
+							["count"] = 6,
+						},
+						[60065] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 69,
+							["uptime"] = 115,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[49005] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 18,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[23060] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 112,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 48,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 98,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 28,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[49016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 15,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["absorbspells"] = {
+						[49497] = {
+							["min"] = 571,
+							["count"] = 10,
+							["amount"] = 12130,
+							["school"] = 1,
+							["targets"] = {
+								["Risenone"] = 12130,
+							},
+							["max"] = 4653,
+						},
+					},
+					["time"] = 117.67,
+					["totaldamagetaken"] = 112609,
+					["damage"] = 304073,
+					["overheal"] = 78136,
+					["absorb"] = 12130,
+					["damagetaken"] = 100479,
+					["id"] = "0x0700000000951A16",
+					["spec"] = 250,
+					["healspells"] = {
+						[45470] = {
+							["overheal"] = 45347,
+							["max"] = 5282,
+							["targets"] = {
+								["Risenone"] = {
+									["overheal"] = 45347,
+									["amount"] = 12399,
+								},
+							},
+							["min"] = 332,
+							["casts"] = 14,
+							["count"] = 11,
+							["amount"] = 12399,
+							["school"] = 1,
+						},
+						[50424] = {
+							["overheal"] = 32789,
+							["max"] = 1579,
+							["count"] = 20,
+							["amount"] = 1579,
+							["school"] = 1,
+							["min"] = 1579,
+							["targets"] = {
+								["Jutrit"] = {
+									["overheal"] = 1241,
+									["amount"] = 0,
+								},
+								["Laressa"] = {
+									["overheal"] = 1158,
+									["amount"] = 0,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 1227,
+									["amount"] = 0,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 1130,
+									["amount"] = 0,
+								},
+								["Orcscream"] = {
+									["overheal"] = 1072,
+									["amount"] = 0,
+								},
+								["Magnatas"] = {
+									["overheal"] = 1635,
+									["amount"] = 0,
+								},
+								["Grottesque"] = {
+									["overheal"] = 1269,
+									["amount"] = 0,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 1090,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 1164,
+									["amount"] = 0,
+								},
+								["Tifura"] = {
+									["overheal"] = 1135,
+									["amount"] = 0,
+								},
+								["Caiva"] = {
+									["overheal"] = 1074,
+									["amount"] = 0,
+								},
+								["Sejin"] = {
+									["overheal"] = 18580,
+									["amount"] = 1579,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 1014,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["total"] = 80767,
+							["hitmin"] = 699,
+							["id"] = 72097,
+							["amount"] = 73290,
+							["hitmax"] = 2747,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["total"] = 80767,
+									["amount"] = 73290,
+								},
+							},
+							["count"] = 44,
+							["hit"] = 43,
+							["school"] = 16,
+							["resisted"] = 34982,
+							["MISS"] = 1,
+							["hitamount"] = 73290,
+						},
+						["Whiteout"] = {
+							["total"] = 31842,
+							["hitmin"] = 5687,
+							["id"] = 72096,
+							["hitmax"] = 11665,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["total"] = 31842,
+									["amount"] = 27189,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 12059,
+							["amount"] = 27189,
+							["hitamount"] = 27189,
+						},
+					},
+					["heal"] = 13978,
+					["name"] = "Risenone",
+					["overkill"] = 65,
+					["damagespells"] = {
+						["Death Coil"] = {
+							["criticalmin"] = 2455,
+							["hitmin"] = 1092,
+							["criticalamount"] = 15546,
+							["id"] = 47632,
+							["criticalmax"] = 2727,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 29951,
+								},
+							},
+							["critical"] = 6,
+							["hitmax"] = 1550,
+							["casts"] = 18,
+							["count"] = 17,
+							["hit"] = 11,
+							["school"] = 32,
+							["resisted"] = 1959,
+							["amount"] = 29951,
+							["hitamount"] = 14405,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 421,
+							["id"] = 55078,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 14623,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1420,
+								},
+							},
+							["hitmax"] = 623,
+							["count"] = 32,
+							["hit"] = 32,
+							["school"] = 32,
+							["resisted"] = 1170,
+							["amount"] = 16043,
+							["hitamount"] = 16043,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 25373,
+							["hitmin"] = 1319,
+							["criticalmin"] = 2698,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 150146,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1686,
+								},
+							},
+							["glancing"] = 22,
+							["amount"] = 151832,
+							["glancemin"] = 1014,
+							["criticalamount"] = 90788,
+							["id"] = 6603,
+							["glancemax"] = 1564,
+							["criticalmax"] = 4140,
+							["hitmax"] = 2459,
+							["hit"] = 21,
+							["school"] = 1,
+							["critical"] = 28,
+							["count"] = 72,
+							["hitamount"] = 35671,
+						},
+						["Blood Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 773,
+							["criticalamount"] = 21400,
+							["id"] = 49930,
+							["hitmax"] = 1465,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 36317,
+								},
+							},
+							["count"] = 26,
+							["hit"] = 14,
+							["casts"] = 26,
+							["critical"] = 11,
+							["amount"] = 36317,
+							["school"] = 1,
+							["criticalmin"] = 1600,
+							["criticalmax"] = 2384,
+							["hitamount"] = 14917,
+						},
+						["Icy Touch"] = {
+							["hitmax"] = 958,
+							["hitmin"] = 958,
+							["criticalamount"] = 8602,
+							["id"] = 49909,
+							["criticalmin"] = 1990,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 9560,
+								},
+							},
+							["criticalmax"] = 2209,
+							["critical"] = 4,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 221,
+							["amount"] = 9560,
+							["hitamount"] = 958,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 824,
+							["criticalamount"] = 3116,
+							["id"] = 49921,
+							["hitmax"] = 899,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 5693,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 3,
+							["casts"] = 5,
+							["critical"] = 2,
+							["amount"] = 5693,
+							["school"] = 1,
+							["criticalmin"] = 1472,
+							["criticalmax"] = 1644,
+							["hitamount"] = 2577,
+						},
+						["Death Strike"] = {
+							["criticalmax"] = 4500,
+							["hitmin"] = 1500,
+							["criticalamount"] = 25910,
+							["id"] = 49924,
+							["criticalmin"] = 3032,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 36463,
+								},
+								["Frozen Orb"] = {
+									["overkill"] = 65,
+									["amount"] = 1736,
+								},
+							},
+							["overkill"] = 65,
+							["critical"] = 7,
+							["casts"] = 27,
+							["count"] = 14,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 2666,
+							["amount"] = 38199,
+							["hitamount"] = 12289,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 410,
+							["id"] = 55095,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 14927,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1551,
+								},
+							},
+							["hitmax"] = 518,
+							["count"] = 33,
+							["hit"] = 33,
+							["school"] = 16,
+							["resisted"] = 561,
+							["amount"] = 16478,
+							["hitamount"] = 16478,
+						},
+					},
+					["totaldamage"] = 304073,
+					["role"] = "TANK",
+				}, -- [10]
+				{
+					["last"] = 5521.887,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[60064] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[53201] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[48421] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48518] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 60,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[67360] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 11,
+							["uptime"] = 112,
+						},
+						[60433] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 58,
+							["school"] = 64,
+							["refresh"] = 19,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 51,
+									["refresh"] = 19,
+									["uptime"] = 58,
+								},
+							},
+							["count"] = 51,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 20,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 21,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 28,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[48463] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 106,
+							["school"] = 64,
+							["refresh"] = 12,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 5,
+									["refresh"] = 12,
+									["uptime"] = 106,
+								},
+							},
+							["count"] = 5,
+						},
+						[67684] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[22812] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 24,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[16886] = {
+							["type"] = "BUFF",
+							["count"] = 15,
+							["school"] = 8,
+							["refresh"] = 37,
+							["uptime"] = 96,
+						},
+						[770] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48517] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 45,
+						},
+						[23060] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 112,
+						},
+						[24858] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 125,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 8,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 116.06,
+					["totaldamagetaken"] = 54109,
+					["damage"] = 729781,
+					["damagespells"] = {
+						["Melee (Treant)"] = {
+							["DODGE"] = 1,
+							["glance"] = 8960,
+							["hitmin"] = 497,
+							["criticalmin"] = 1242,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 33240,
+								},
+							},
+							["glancing"] = 19,
+							["amount"] = 33240,
+							["MISS"] = 1,
+							["glancemin"] = 408,
+							["criticalamount"] = 5110,
+							["id"] = 6603,
+							["glancemax"] = 509,
+							["criticalmax"] = 1328,
+							["hitmax"] = 665,
+							["hit"] = 32,
+							["school"] = 1,
+							["critical"] = 4,
+							["count"] = 57,
+							["hitamount"] = 19170,
+						},
+						["Wrath"] = {
+							["criticalmin"] = 5647,
+							["hitmin"] = 2980,
+							["criticalamount"] = 158288,
+							["id"] = 48461,
+							["criticalmax"] = 9520,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 247590,
+								},
+							},
+							["critical"] = 20,
+							["hitmax"] = 4790,
+							["casts"] = 40,
+							["count"] = 42,
+							["hit"] = 22,
+							["school"] = 8,
+							["resisted"] = 16865,
+							["amount"] = 247590,
+							["hitamount"] = 89302,
+						},
+						["Moonfire (DoT)"] = {
+							["hitmin"] = 633,
+							["criticalamount"] = 18840,
+							["id"] = 48463,
+							["hitmax"] = 897,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 36301,
+								},
+							},
+							["count"] = 34,
+							["hit"] = 22,
+							["criticalmax"] = 1794,
+							["critical"] = 12,
+							["amount"] = 36301,
+							["school"] = 64,
+							["resisted"] = 2175,
+							["criticalmin"] = 1425,
+							["hitamount"] = 17461,
+						},
+						["Starfall"] = {
+							["criticalmin"] = 1098,
+							["hitmin"] = 546,
+							["criticalamount"] = 42627,
+							["id"] = 53195,
+							["criticalmax"] = 4494,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 72636,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 7172,
+								},
+							},
+							["critical"] = 14,
+							["hitmax"] = 2092,
+							["casts"] = 2,
+							["count"] = 47,
+							["hit"] = 33,
+							["school"] = 64,
+							["resisted"] = 4304,
+							["amount"] = 79808,
+							["hitamount"] = 37181,
+						},
+						["Moonfire"] = {
+							["criticalmin"] = 2160,
+							["hitmin"] = 1098,
+							["criticalamount"] = 7440,
+							["id"] = 48463,
+							["hitmax"] = 1225,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 9763,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 2,
+							["casts"] = 5,
+							["critical"] = 3,
+							["amount"] = 9763,
+							["school"] = 64,
+							["resisted"] = 361,
+							["criticalmax"] = 2649,
+							["hitamount"] = 2323,
+						},
+						["Starfire"] = {
+							["hit"] = 8,
+							["hitmax"] = 7316,
+							["hitmin"] = 5639,
+							["criticalamount"] = 273558,
+							["id"] = 48465,
+							["count"] = 29,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["overkill"] = 11034,
+									["amount"] = 323079,
+								},
+							},
+							["overkill"] = 11034,
+							["criticalmin"] = 10266,
+							["casts"] = 29,
+							["critical"] = 21,
+							["amount"] = 323079,
+							["school"] = 64,
+							["resisted"] = 18065,
+							["criticalmax"] = 16443,
+							["hitamount"] = 49521,
+						},
+					},
+					["damagetaken"] = 54109,
+					["id"] = "0x07000000008A8444",
+					["spec"] = 102,
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1529,
+							["id"] = 72097,
+							["hitmax"] = 2005,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 21043,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 12,
+							["school"] = 16,
+							["resisted"] = 6488,
+							["amount"] = 21043,
+							["hitamount"] = 21043,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 10026,
+							["id"] = 72096,
+							["hitmax"] = 11520,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 33066,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 10322,
+							["amount"] = 33066,
+							["hitamount"] = 33066,
+						},
+					},
+					["overkill"] = 11034,
+					["name"] = "Tifura",
+					["manaspells"] = {
+						[53506] = 24376,
+					},
+					["mana"] = 24376,
+					["totaldamage"] = 729781,
+					["role"] = "DAMAGER",
+				}, -- [11]
+				{
+					["last"] = 5521.362,
+					["flag"] = 1300,
+					["class"] = "MAGE",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[54648] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["refresh"] = 56,
+							["uptime"] = 120,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 125,
+						},
+						[48108] = {
+							["type"] = "BUFF",
+							["count"] = 12,
+							["school"] = 1,
+							["uptime"] = 19,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 71,
+							["school"] = 4,
+							["refresh"] = 3,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 3,
+									["uptime"] = 68,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 14,
+									["count"] = 3,
+								},
+							},
+							["count"] = 6,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 47,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 1,
+									["uptime"] = 40,
+								},
+								["Frozen Orb"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 16,
+								},
+							},
+							["count"] = 7,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[71636] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 85,
+							["school"] = 4,
+							["refresh"] = 31,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 9,
+									["refresh"] = 21,
+									["uptime"] = 62,
+								},
+								["Frozen Orb"] = {
+									["count"] = 7,
+									["refresh"] = 10,
+									["uptime"] = 27,
+								},
+							},
+							["count"] = 16,
+						},
+						[64343] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 4,
+							["refresh"] = 5,
+							["uptime"] = 45,
+						},
+						[72416] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 87,
+						},
+						[55342] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 30,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 11,
+							["school"] = 4,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 60,
+									["count"] = 5,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 33,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 91,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[12051] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 4,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75473] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 20,
+						},
+						[47610] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 71,
+							["school"] = 20,
+							["refresh"] = 10,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 8,
+									["uptime"] = 69,
+								},
+								["Frozen Orb"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 4,
+								},
+							},
+							["count"] = 5,
+						},
+						[28682] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 3,
+							["uptime"] = 4,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 111.73,
+					["totaldamagetaken"] = 36410,
+					["damage"] = 497374,
+					["damagespells"] = {
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 582,
+							["id"] = 42891,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 9969,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 2756,
+								},
+							},
+							["hitmax"] = 1107,
+							["count"] = 16,
+							["hit"] = 16,
+							["school"] = 4,
+							["resisted"] = 639,
+							["amount"] = 12725,
+							["hitamount"] = 12725,
+						},
+						["Frostbolt (Mirror Image)"] = {
+							["criticalmin"] = 1055,
+							["hitmin"] = 700,
+							["criticalamount"] = 2110,
+							["id"] = 59638,
+							["criticalmax"] = 1055,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 16169,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 16169,
+							["casts"] = 1,
+							["count"] = 24,
+							["hit"] = 20,
+							["school"] = 16,
+							["hitmax"] = 707,
+							["MISS"] = 2,
+							["hitamount"] = 14059,
+						},
+						["Frostfire Bolt (DoT)"] = {
+							["hitmin"] = 339,
+							["id"] = 47610,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 8271,
+								},
+							},
+							["hitmax"] = 718,
+							["count"] = 17,
+							["hit"] = 17,
+							["school"] = 20,
+							["resisted"] = 485,
+							["amount"] = 8271,
+							["hitamount"] = 8271,
+						},
+						["Molten Armor"] = {
+							["criticalamount"] = 1852,
+							["id"] = 43044,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 1852,
+								},
+							},
+							["criticalmin"] = 308,
+							["casts"] = 1,
+							["critical"] = 5,
+							["amount"] = 1852,
+							["school"] = 4,
+							["resisted"] = 114,
+							["criticalmax"] = 407,
+							["count"] = 5,
+						},
+						["Fire Blast (Mirror Image)"] = {
+							["hitmin"] = 367,
+							["id"] = 59637,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 1558,
+								},
+							},
+							["hitmax"] = 412,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 80,
+							["amount"] = 1558,
+							["hitamount"] = 1558,
+						},
+						["Fire Blast"] = {
+							["criticalmax"] = 7942,
+							["hitmax"] = 3065,
+							["hitmin"] = 2853,
+							["criticalamount"] = 53273,
+							["id"] = 42873,
+							["count"] = 13,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 45924,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 16318,
+								},
+							},
+							["hit"] = 3,
+							["criticalmin"] = 4862,
+							["casts"] = 18,
+							["critical"] = 9,
+							["amount"] = 62242,
+							["school"] = 4,
+							["resisted"] = 2905,
+							["MISS"] = 1,
+							["hitamount"] = 8969,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 4753,
+							["criticalmin"] = 13666,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 47465,
+								},
+								["Frozen Orb"] = {
+									["overkill"] = 8244,
+									["amount"] = 38409,
+								},
+							},
+							["amount"] = 85874,
+							["resisted"] = 4165,
+							["MISS"] = 3,
+							["criticalamount"] = 46071,
+							["id"] = 42891,
+							["overkill"] = 8244,
+							["criticalmax"] = 18426,
+							["casts"] = 12,
+							["critical"] = 3,
+							["hit"] = 6,
+							["school"] = 4,
+							["hitmax"] = 9664,
+							["count"] = 12,
+							["hitamount"] = 39803,
+						},
+						["Impact"] = {
+							["casts"] = 1,
+							["count"] = 6,
+							["amount"] = 0,
+							["school"] = 4,
+							["IMMUNE"] = 6,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 12355,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 348,
+							["id"] = 12654,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 63729,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 13381,
+								},
+							},
+							["hitmax"] = 11986,
+							["count"] = 32,
+							["hit"] = 32,
+							["school"] = 4,
+							["resisted"] = 5429,
+							["amount"] = 77110,
+							["hitamount"] = 77110,
+						},
+						["Living Bomb (DoT)"] = {
+							["hitmin"] = 861,
+							["criticalamount"] = 35953,
+							["id"] = 55360,
+							["hitmax"] = 1521,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 34776,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 19978,
+								},
+							},
+							["count"] = 33,
+							["hit"] = 16,
+							["criticalmax"] = 2700,
+							["critical"] = 17,
+							["amount"] = 54754,
+							["school"] = 4,
+							["resisted"] = 3283,
+							["criticalmin"] = 1545,
+							["hitamount"] = 18801,
+						},
+						["Living Bomb"] = {
+							["criticalmin"] = 4089,
+							["hitmin"] = 2511,
+							["criticalamount"] = 25904,
+							["id"] = 55362,
+							["hitmax"] = 3122,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 24326,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 7211,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 2,
+							["casts"] = 11,
+							["critical"] = 5,
+							["amount"] = 31537,
+							["school"] = 4,
+							["resisted"] = 489,
+							["criticalmax"] = 7885,
+							["hitamount"] = 5633,
+						},
+						["Scorch"] = {
+							["hitmax"] = 2228,
+							["hitmin"] = 2026,
+							["criticalamount"] = 29892,
+							["id"] = 42859,
+							["criticalmin"] = 3600,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 23914,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 12440,
+								},
+							},
+							["criticalmax"] = 7458,
+							["critical"] = 6,
+							["casts"] = 9,
+							["count"] = 9,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 1206,
+							["amount"] = 36354,
+							["hitamount"] = 6462,
+						},
+						["Frostfire Bolt"] = {
+							["criticalmax"] = 13570,
+							["criticalmin"] = 7231,
+							["hitmin"] = 4283,
+							["criticalamount"] = 74135,
+							["id"] = 47610,
+							["hitmax"] = 6410,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 81400,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 27528,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 7,
+							["casts"] = 20,
+							["critical"] = 8,
+							["amount"] = 108928,
+							["school"] = 20,
+							["resisted"] = 6647,
+							["MISS"] = 1,
+							["hitamount"] = 34793,
+						},
+					},
+					["damagetaken"] = 36410,
+					["id"] = "0x0700000000438E77",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Freezing Ground"] = {
+							["hitmin"] = 4034,
+							["id"] = 72104,
+							["hitmax"] = 5736,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 9770,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["resisted"] = 3161,
+							["amount"] = 9770,
+							["hitamount"] = 9770,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 6847,
+							["id"] = 72096,
+							["hitmax"] = 10901,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 26640,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 20409,
+							["amount"] = 26640,
+							["hitamount"] = 26640,
+						},
+					},
+					["overkill"] = 8244,
+					["name"] = "Xknappen",
+					["manaspells"] = {
+						[12051] = 7430,
+						[67545] = 1755,
+						[44450] = -665,
+						[42987] = 3365,
+					},
+					["mana"] = 11885,
+					["totaldamage"] = 497374,
+					["role"] = "DAMAGER",
+				}, -- [12]
+				{
+					["last"] = 5521.2,
+					["flag"] = 1300,
+					["mana"] = 23205,
+					["auras"] = {
+						[48468] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 92,
+									["count"] = 7,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 103,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[54646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48421] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 32,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[55637] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[60433] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 27,
+							["school"] = 64,
+							["refresh"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 43,
+									["refresh"] = 1,
+									["uptime"] = 24,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 3,
+									["count"] = 4,
+								},
+							},
+							["count"] = 47,
+						},
+						[72416] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 13,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 18,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 23,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 5,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48463] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 112,
+							["school"] = 64,
+							["refresh"] = 9,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 5,
+									["refresh"] = 9,
+									["uptime"] = 104,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 14,
+									["count"] = 2,
+								},
+							},
+							["count"] = 7,
+						},
+						[71564] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 7,
+						},
+						[48518] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 45,
+						},
+						[53201] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 21,
+						},
+						[770] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 114,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 114,
+						},
+						[16886] = {
+							["type"] = "BUFF",
+							["count"] = 13,
+							["school"] = 8,
+							["refresh"] = 41,
+							["uptime"] = 87,
+						},
+						[70721] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 32,
+							["refresh"] = 13,
+							["uptime"] = 76,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 98,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48517] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[24858] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[71177] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 82,
+							["uptime"] = 120,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 7,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 117.0600000000001,
+					["totaldamagetaken"] = 70037,
+					["damage"] = 869390,
+					["damagespells"] = {
+						["Insect Swarm (DoT)"] = {
+							["hitmin"] = 1220,
+							["id"] = 48468,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 69751,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 8676,
+								},
+							},
+							["hitmax"] = 1847,
+							["casts"] = 8,
+							["count"] = 49,
+							["hit"] = 49,
+							["school"] = 8,
+							["resisted"] = 4759,
+							["amount"] = 78427,
+							["hitamount"] = 78427,
+						},
+						["Typhoon"] = {
+							["hitmin"] = 2836,
+							["id"] = 53227,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 3190,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 6027,
+								},
+							},
+							["hitmax"] = 3191,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 1416,
+							["amount"] = 9217,
+							["hitamount"] = 9217,
+						},
+						["Wrath"] = {
+							["criticalmin"] = 7239,
+							["hitmin"] = 3791,
+							["criticalamount"] = 227016,
+							["id"] = 48461,
+							["criticalmax"] = 13545,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 257977,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 43490,
+								},
+							},
+							["critical"] = 21,
+							["hitmax"] = 6416,
+							["casts"] = 38,
+							["count"] = 37,
+							["hit"] = 16,
+							["school"] = 8,
+							["resisted"] = 15576,
+							["amount"] = 301467,
+							["hitamount"] = 74451,
+						},
+						["Darkmoon Card: Death"] = {
+							["hitmin"] = 1858,
+							["id"] = 60203,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 6130,
+								},
+							},
+							["hitmax"] = 2162,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["resisted"] = 464,
+							["amount"] = 6130,
+							["hitamount"] = 6130,
+						},
+						["Starfall"] = {
+							["critical"] = 43,
+							["criticalmin"] = 1084,
+							["hitmin"] = 551,
+							["criticalamount"] = 112151,
+							["id"] = 53195,
+							["criticalmax"] = 5208,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 84680,
+								},
+								["Frozen Orb"] = {
+									["overkill"] = 404,
+									["amount"] = 84112,
+								},
+							},
+							["overkill"] = 404,
+							["hitmax"] = 2401,
+							["casts"] = 2,
+							["count"] = 88,
+							["hit"] = 45,
+							["school"] = 64,
+							["resisted"] = 11912,
+							["amount"] = 168792,
+							["hitamount"] = 56641,
+						},
+						["Starfire"] = {
+							["hitmax"] = 8287,
+							["hitmin"] = 6601,
+							["criticalamount"] = 219873,
+							["id"] = 48465,
+							["count"] = 17,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 242927,
+								},
+							},
+							["hit"] = 3,
+							["criticalmin"] = 13528,
+							["casts"] = 17,
+							["critical"] = 14,
+							["amount"] = 242927,
+							["school"] = 64,
+							["resisted"] = 20521,
+							["criticalmax"] = 17686,
+							["hitamount"] = 23054,
+						},
+						["Moonfire"] = {
+							["criticalmin"] = 2520,
+							["hitmin"] = 1132,
+							["criticalamount"] = 13317,
+							["id"] = 48463,
+							["hitmax"] = 1676,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 14449,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 3225,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 3,
+							["casts"] = 7,
+							["critical"] = 4,
+							["amount"] = 17674,
+							["school"] = 64,
+							["resisted"] = 282,
+							["criticalmax"] = 3717,
+							["hitamount"] = 4357,
+						},
+						["Moonfire (DoT)"] = {
+							["hitmin"] = 882,
+							["id"] = 48463,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 36914,
+								},
+								["Frozen Orb"] = {
+									["overkill"] = 1067,
+									["amount"] = 7842,
+								},
+							},
+							["overkill"] = 1067,
+							["hitmax"] = 1230,
+							["count"] = 41,
+							["hit"] = 41,
+							["school"] = 64,
+							["resisted"] = 2423,
+							["amount"] = 44756,
+							["hitamount"] = 44756,
+						},
+					},
+					["damagetaken"] = 70037,
+					["id"] = "0x070000000087C57D",
+					["spec"] = 102,
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1715,
+							["id"] = 72097,
+							["hitmax"] = 2376,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 30007,
+								},
+							},
+							["count"] = 14,
+							["hit"] = 14,
+							["school"] = 16,
+							["resisted"] = 10759,
+							["amount"] = 30007,
+							["hitamount"] = 30007,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 11939,
+							["id"] = 72096,
+							["hitmax"] = 14298,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 40030,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 6362,
+							["amount"] = 40030,
+							["hitamount"] = 40030,
+						},
+					},
+					["overkill"] = 1471,
+					["name"] = "Paracethamol",
+					["totaldamage"] = 869390,
+					["class"] = "DRUID",
+					["manaspells"] = {
+						[53506] = 23205,
+					},
+					["role"] = "DAMAGER",
+				}, -- [13]
+				{
+					["last"] = 5521.444,
+					["flag"] = 1300,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[30823] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[58875] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 125,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 57,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 100,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[67017] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[17364] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 84,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 84,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 13,
+						},
+						[70829] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 30,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 15,
+						},
+						[60065] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[16280] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["refresh"] = 54,
+							["uptime"] = 108,
+						},
+						[49233] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 89,
+							["school"] = 4,
+							["refresh"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 6,
+									["refresh"] = 1,
+									["uptime"] = 89,
+								},
+							},
+							["count"] = 6,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[48932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 14,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[49281] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 77,
+						},
+						[49231] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 15,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 15,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 54,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[30809] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58857] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 12,
+									["count"] = 2,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 9,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 98,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57960] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 43,
+						},
+						[60551] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 9,
+							["uptime"] = 105,
+						},
+						[29178] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 11,
+							["uptime"] = 103,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[53817] = {
+							["type"] = "BUFF",
+							["count"] = 12,
+							["school"] = 1,
+							["refresh"] = 63,
+							["uptime"] = 100,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 17,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 111.3899999999999,
+					["totaldamagetaken"] = 111043,
+					["damage"] = 692787,
+					["overheal"] = 73142,
+					["manaspells"] = {
+						[57961] = 492,
+						[30824] = 26236,
+						[63375] = 3516,
+					},
+					["damagetaken"] = 111043,
+					["id"] = "0x07000000009687DD",
+					["spec"] = 263,
+					["healspells"] = {
+						[52042] = {
+							["overheal"] = 64287,
+							["max"] = 269,
+							["count"] = 399,
+							["amount"] = 26370,
+							["school"] = 8,
+							["min"] = 41,
+							["ishot"] = true,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 10603,
+									["amount"] = 2319,
+								},
+								["Tamook"] = {
+									["overheal"] = 5809,
+									["amount"] = 4302,
+								},
+								["Wolfy"] = {
+									["overheal"] = 11478,
+									["amount"] = 1442,
+								},
+								["Magnatas"] = {
+									["overheal"] = 8184,
+									["amount"] = 4737,
+								},
+								["Spirit Wolf"] = {
+									["overheal"] = 1156,
+									["amount"] = 265,
+								},
+								["Greater Fire Elemental"] = {
+									["overheal"] = 6849,
+									["amount"] = 4720,
+								},
+								["Bloodworm"] = {
+									["overheal"] = 6279,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 6126,
+									["amount"] = 2108,
+								},
+								["Shamaster"] = {
+									["overheal"] = 7377,
+									["amount"] = 5544,
+								},
+								["Risen Ghoul"] = {
+									["overheal"] = 426,
+									["amount"] = 933,
+								},
+							},
+						},
+						[58879] = {
+							["overheal"] = 8855,
+							["max"] = 1280,
+							["count"] = 18,
+							["amount"] = 9883,
+							["school"] = 32,
+							["min"] = 343,
+							["targets"] = {
+								["Spirit Wolf"] = {
+									["overheal"] = 6358,
+									["amount"] = 2966,
+								},
+								["Shamaster"] = {
+									["overheal"] = 2497,
+									["amount"] = 6917,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1062,
+							["id"] = 72097,
+							["amount"] = 81746,
+							["hitmax"] = 2682,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 81746,
+								},
+							},
+							["count"] = 45,
+							["hit"] = 44,
+							["school"] = 16,
+							["resisted"] = 29776,
+							["MISS"] = 1,
+							["hitamount"] = 81746,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 7509,
+							["id"] = 72096,
+							["hitmax"] = 12479,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 29297,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 12113,
+							["amount"] = 29297,
+							["hitamount"] = 29297,
+						},
+					},
+					["overkill"] = 1075,
+					["heal"] = 36253,
+					["name"] = "Shamaster",
+					["mana"] = 30244,
+					["damagespells"] = {
+						["Fire Nova"] = {
+							["hitmax"] = 2451,
+							["hitmin"] = 2030,
+							["criticalamount"] = 35959,
+							["id"] = 61654,
+							["criticalmin"] = 3477,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 29780,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 17579,
+								},
+							},
+							["criticalmax"] = 5350,
+							["critical"] = 8,
+							["casts"] = 18,
+							["count"] = 13,
+							["hit"] = 5,
+							["school"] = 4,
+							["resisted"] = 3605,
+							["amount"] = 47359,
+							["hitamount"] = 11400,
+						},
+						["Bash (Spirit Wolf)"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 58861,
+						},
+						["Lava Lash"] = {
+							["criticalmin"] = 2251,
+							["hitmin"] = 1073,
+							["criticalamount"] = 13323,
+							["id"] = 60103,
+							["criticalmax"] = 2888,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 22243,
+								},
+							},
+							["critical"] = 5,
+							["hitmax"] = 1647,
+							["casts"] = 12,
+							["count"] = 12,
+							["hit"] = 7,
+							["school"] = 4,
+							["resisted"] = 1361,
+							["amount"] = 22243,
+							["hitamount"] = 8920,
+						},
+						["Flame Shock"] = {
+							["criticalmin"] = 2335,
+							["hitmin"] = 1104,
+							["criticalamount"] = 4846,
+							["id"] = 49233,
+							["hitmax"] = 1390,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 10924,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 5,
+							["casts"] = 7,
+							["critical"] = 2,
+							["amount"] = 10924,
+							["school"] = 4,
+							["resisted"] = 505,
+							["criticalmax"] = 2511,
+							["hitamount"] = 6078,
+						},
+						["Twin Howl (Spirit Wolf)"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 58857,
+						},
+						["Fire Nova (Greater Fire Elemental)"] = {
+							["criticalmin"] = 2541,
+							["criticalmax"] = 2541,
+							["hitmin"] = 1533,
+							["criticalamount"] = 2541,
+							["id"] = 12470,
+							["critical"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 18800,
+								},
+								["Frozen Orb"] = {
+									["overkill"] = 1075,
+									["amount"] = 10897,
+								},
+							},
+							["overkill"] = 1075,
+							["hitmax"] = 2204,
+							["casts"] = 1,
+							["count"] = 16,
+							["hit"] = 15,
+							["school"] = 4,
+							["resisted"] = 5140,
+							["amount"] = 29697,
+							["hitamount"] = 27156,
+						},
+						["Stormstrike"] = {
+							["hitmin"] = 575,
+							["criticalamount"] = 26016,
+							["id"] = 32175,
+							["hitmax"] = 1408,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 35234,
+								},
+							},
+							["count"] = 22,
+							["hit"] = 10,
+							["casts"] = 11,
+							["critical"] = 12,
+							["amount"] = 35234,
+							["school"] = 1,
+							["criticalmin"] = 1306,
+							["criticalmax"] = 3228,
+							["hitamount"] = 9218,
+						},
+						["Melee (Greater Fire Elemental)"] = {
+							["DODGE"] = 2,
+							["glance"] = 17633,
+							["hitmin"] = 1700,
+							["criticalmin"] = 3845,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 44285,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 4109,
+								},
+							},
+							["glancing"] = 12,
+							["amount"] = 48394,
+							["resisted"] = 4399,
+							["MISS"] = 4,
+							["glancemin"] = 1137,
+							["criticalamount"] = 3845,
+							["id"] = 6603,
+							["glancemax"] = 1608,
+							["criticalmax"] = 3845,
+							["count"] = 33,
+							["hit"] = 14,
+							["school"] = 1,
+							["critical"] = 1,
+							["hitmax"] = 2142,
+							["hitamount"] = 26916,
+						},
+						["Windfury Attack"] = {
+							["hitmin"] = 1845,
+							["criticalamount"] = 73990,
+							["id"] = 25504,
+							["hitmax"] = 2640,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 92884,
+								},
+							},
+							["count"] = 26,
+							["hit"] = 9,
+							["casts"] = 1,
+							["critical"] = 17,
+							["amount"] = 92884,
+							["school"] = 1,
+							["criticalmin"] = 3806,
+							["criticalmax"] = 5158,
+							["hitamount"] = 18894,
+						},
+						["Melee (Spirit Wolf)"] = {
+							["glance"] = 2058,
+							["hitmin"] = 712,
+							["id"] = 6603,
+							["glancemax"] = 550,
+							["hitmax"] = 819,
+							["glancing"] = 4,
+							["hitamount"] = 3863,
+							["count"] = 9,
+							["amount"] = 5921,
+							["school"] = 1,
+							["hit"] = 5,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 5921,
+								},
+							},
+							["glancemin"] = 469,
+						},
+						["Lightning Bolt"] = {
+							["amount"] = 41919,
+							["criticalmin"] = 7246,
+							["hitmin"] = 3092,
+							["criticalamount"] = 22813,
+							["id"] = 49238,
+							["criticalmax"] = 8163,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 41919,
+								},
+							},
+							["critical"] = 3,
+							["hitmax"] = 5008,
+							["casts"] = 17,
+							["count"] = 9,
+							["hit"] = 5,
+							["school"] = 8,
+							["resisted"] = 3184,
+							["MISS"] = 1,
+							["hitamount"] = 19106,
+						},
+						["Melee"] = {
+							["DODGE"] = 4,
+							["glance"] = 33059,
+							["hitmin"] = 623,
+							["criticalmin"] = 1097,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 189462,
+								},
+							},
+							["glancing"] = 42,
+							["amount"] = 189462,
+							["MISS"] = 24,
+							["glancemin"] = 414,
+							["criticalamount"] = 155063,
+							["id"] = 6603,
+							["glancemax"] = 1497,
+							["PARRY"] = 1,
+							["criticalmax"] = 3607,
+							["critical"] = 77,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 717,
+							["count"] = 150,
+							["hitamount"] = 1340,
+						},
+						["Attack (Searing Totem X)"] = {
+							["criticalamount"] = 2845,
+							["id"] = 58702,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 2845,
+								},
+							},
+							["criticalmin"] = 1401,
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 2845,
+							["school"] = 4,
+							["resisted"] = 160,
+							["criticalmax"] = 1444,
+							["count"] = 2,
+						},
+						["Fire Shield (Greater Fire Elemental)"] = {
+							["criticalmin"] = 165,
+							["criticalmax"] = 206,
+							["hitmin"] = 109,
+							["criticalamount"] = 742,
+							["id"] = 13376,
+							["critical"] = 4,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 3340,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 329,
+								},
+							},
+							["hit"] = 23,
+							["hitmax"] = 138,
+							["casts"] = 1,
+							["count"] = 28,
+							["amount"] = 3669,
+							["school"] = 4,
+							["resisted"] = 262,
+							["MISS"] = 1,
+							["hitamount"] = 2927,
+						},
+						["Flame Shock (DoT)"] = {
+							["hitmin"] = 359,
+							["criticalamount"] = 14786,
+							["id"] = 49233,
+							["hitmax"] = 524,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 23542,
+								},
+							},
+							["criticalmin"] = 782,
+							["critical"] = 16,
+							["criticalmax"] = 1094,
+							["count"] = 36,
+							["hit"] = 20,
+							["school"] = 4,
+							["resisted"] = 1884,
+							["amount"] = 23542,
+							["hitamount"] = 8756,
+						},
+						["Lightning Shield"] = {
+							["hitmin"] = 1562,
+							["id"] = 49279,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 32868,
+								},
+							},
+							["hitmax"] = 2275,
+							["casts"] = 3,
+							["count"] = 17,
+							["hit"] = 17,
+							["school"] = 8,
+							["resisted"] = 1617,
+							["amount"] = 32868,
+							["hitamount"] = 32868,
+						},
+						["Fire Blast (Greater Fire Elemental)"] = {
+							["criticalmax"] = 1972,
+							["criticalmin"] = 1972,
+							["hitmin"] = 1127,
+							["criticalamount"] = 1972,
+							["id"] = 57984,
+							["hitmax"] = 1353,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 14470,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 10,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 14470,
+							["school"] = 4,
+							["resisted"] = 513,
+							["MISS"] = 1,
+							["hitamount"] = 12498,
+						},
+						["Flametongue Attack"] = {
+							["amount"] = 52204,
+							["criticalmin"] = 817,
+							["hitmin"] = 379,
+							["criticalamount"] = 27852,
+							["id"] = 10444,
+							["criticalmax"] = 1231,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 52204,
+								},
+							},
+							["critical"] = 28,
+							["hitmax"] = 589,
+							["casts"] = 1,
+							["count"] = 84,
+							["hit"] = 51,
+							["school"] = 4,
+							["resisted"] = 3470,
+							["MISS"] = 5,
+							["hitamount"] = 24352,
+						},
+						["Chain Lightning"] = {
+							["criticalamount"] = 20003,
+							["id"] = 49271,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 15760,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 4243,
+								},
+							},
+							["criticalmin"] = 4243,
+							["casts"] = 2,
+							["critical"] = 3,
+							["amount"] = 20003,
+							["school"] = 8,
+							["resisted"] = 871,
+							["criticalmax"] = 7918,
+							["count"] = 3,
+						},
+						["Earth Shock"] = {
+							["criticalmin"] = 5207,
+							["hitmin"] = 2248,
+							["criticalamount"] = 11540,
+							["id"] = 49231,
+							["criticalmax"] = 6333,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 19149,
+								},
+							},
+							["critical"] = 2,
+							["hitmax"] = 2823,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 1733,
+							["amount"] = 19149,
+							["hitamount"] = 7609,
+						},
+					},
+					["totaldamage"] = 692787,
+					["role"] = "DAMAGER",
+				}, -- [14]
+				{
+					["ccdonespells"] = {
+						[49560] = {
+							["count"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = 1,
+							},
+						},
+					},
+					["last"] = 5521.55,
+					["flag"] = 263444,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 70,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[51124] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 5,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 118,
+							["school"] = 16,
+							["refresh"] = 27,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 27,
+									["uptime"] = 118,
+								},
+							},
+							["count"] = 1,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 123,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[45529] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 40,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 17,
+							["school"] = 2,
+							["refresh"] = 8,
+							["uptime"] = 104,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 27,
+							["uptime"] = 125,
+						},
+						[67753] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 5,
+							["uptime"] = 117,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 2,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 8,
+							["uptime"] = 79,
+						},
+						[48451] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 9,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48707] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["uptime"] = 14,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 11,
+							["school"] = 8,
+							["uptime"] = 71,
+						},
+						[49284] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["uptime"] = 125,
+						},
+						[56222] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 30,
+							["uptime"] = 104,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
 									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 4,
 						},
-						[49222] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 125,
 						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[64373] = {
+						[48934] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 125,
 						},
-						[71227] = {
+						[71586] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
+							["school"] = 2,
+							["uptime"] = 1,
 						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 12,
-						},
-						[71561] = {
+						[48792] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 12,
 						},
-						[51735] = {
+						[49005] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
-							["refresh"] = 1,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 12,
 									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 5,
 								},
 							},
-							["uptime"] = 5,
+							["uptime"] = 12,
 						},
-						[58578] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57933] = {
+							["type"] = "BUFF",
+							["count"] = 3,
 							["school"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 22,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[55078] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 114,
 							["school"] = 32,
-							["uptime"] = 9,
+							["refresh"] = 15,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 15,
+									["uptime"] = 114,
+								},
+							},
+							["count"] = 2,
 						},
-						[71905] = {
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 116,
+						},
+						[47440] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 12,
+							["uptime"] = 79,
 						},
-						[19506] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 125,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58597] = {
+							["type"] = "BUFF",
+							["count"] = 13,
+							["school"] = 2,
+							["uptime"] = 35,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
 						},
 						[57623] = {
 							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[53563] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[53601] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 112,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 17,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
 						},
 					},
-					["time"] = 4.71,
-					["totaldamagetaken"] = 0,
-					["damage"] = 35346,
-					["overheal"] = 719,
-					["damagetaken"] = 0,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 719,
+					["absorbspells"] = {
+						[49497] = {
+							["min"] = 18,
+							["count"] = 6,
+							["amount"] = 10882,
+							["school"] = 1,
 							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 719,
-									["amount"] = 177,
+								["Sejin"] = 10882,
+							},
+							["max"] = 3636,
+						},
+						[48707] = {
+							["min"] = 1445,
+							["casts"] = 2,
+							["count"] = 5,
+							["amount"] = 27104,
+							["school"] = 32,
+							["targets"] = {
+								["Sejin"] = 27104,
+							},
+							["max"] = 9028,
+						},
+						[71586] = {
+							["min"] = 241,
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 6400,
+							["school"] = 2,
+							["targets"] = {
+								["Sejin"] = 6400,
+							},
+							["max"] = 6159,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 117.4799999999999,
+					["totaldamagetaken"] = 538649,
+					["damage"] = 245247,
+					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 3,
+							["glance"] = 16501,
+							["hitmin"] = 1649,
+							["criticalmin"] = 3338,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 99730,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 177,
+							["glancing"] = 12,
+							["amount"] = 99730,
+							["glancemin"] = 1240,
+							["criticalamount"] = 41070,
+							["id"] = 6603,
+							["glancemax"] = 1611,
+							["blocked"] = 41,
+							["critical"] = 11,
+							["PARRY"] = 9,
+							["hitmax"] = 2157,
+							["hit"] = 23,
 							["school"] = 1,
-							["max"] = 111,
-							["ishot"] = true,
-							["min"] = 3,
+							["criticalmax"] = 4384,
+							["count"] = 58,
+							["hitamount"] = 42159,
+						},
+						["Icy Touch"] = {
+							["amount"] = 37543,
+							["criticalmin"] = 2240,
+							["hitmin"] = 1083,
+							["criticalamount"] = 5068,
+							["id"] = 49909,
+							["criticalmax"] = 2828,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 37543,
+								},
+							},
+							["critical"] = 2,
+							["hitmax"] = 1630,
+							["casts"] = 27,
+							["count"] = 27,
+							["hit"] = 24,
+							["school"] = 16,
+							["resisted"] = 2280,
+							["MISS"] = 1,
+							["hitamount"] = 32475,
+						},
+						["Drain Life"] = {
+							["hitmin"] = 2366,
+							["id"] = 71839,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 18406,
+								},
+							},
+							["hitmax"] = 3183,
+							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 32,
+							["resisted"] = 2064,
+							["amount"] = 18406,
+							["hitamount"] = 18406,
+						},
+						["Melee (Bloodworm)"] = {
+							["amount"] = 2805,
+							["glance"] = 682,
+							["hitmin"] = 73,
+							["glancemax"] = 87,
+							["id"] = 6603,
+							["blocked"] = 41,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 2805,
+								},
+							},
+							["glancemin"] = 84,
+							["glancing"] = 8,
+							["PARRY"] = 2,
+							["count"] = 30,
+							["hit"] = 19,
+							["school"] = 1,
+							["hitmax"] = 115,
+							["MISS"] = 1,
+							["hitamount"] = 2123,
+						},
+						["Melee (Risen Ghoul)"] = {
+							["hitmin"] = 231,
+							["id"] = 6603,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 1159,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 232,
+							["amount"] = 1159,
+							["hitamount"] = 1159,
+						},
+						["Claw (Risen Ghoul)"] = {
+							["hitmin"] = 306,
+							["id"] = 47468,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 1356,
+								},
+							},
+							["blocked"] = 41,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 350,
+							["amount"] = 1356,
+							["hitamount"] = 1356,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 577,
+							["id"] = 55078,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 21204,
+								},
+							},
+							["hitmax"] = 830,
+							["count"] = 31,
+							["hit"] = 31,
+							["school"] = 32,
+							["resisted"] = 1473,
+							["amount"] = 21204,
+							["hitamount"] = 21204,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 1794,
+							["criticalamount"] = 4166,
+							["id"] = 49924,
+							["hitmax"] = 1821,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 7781,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["casts"] = 5,
+							["critical"] = 1,
+							["amount"] = 7781,
+							["school"] = 1,
+							["criticalmin"] = 4166,
+							["criticalmax"] = 4166,
+							["hitamount"] = 3615,
+						},
+						["Blood Strike"] = {
+							["hitmax"] = 1315,
+							["hitmin"] = 1210,
+							["criticalamount"] = 7974,
+							["id"] = 49930,
+							["casts"] = 12,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 16825,
+								},
+							},
+							["hit"] = 7,
+							["criticalmin"] = 2414,
+							["PARRY"] = 2,
+							["count"] = 12,
+							["amount"] = 16825,
+							["school"] = 1,
+							["criticalmax"] = 2960,
+							["critical"] = 3,
+							["hitamount"] = 8851,
+						},
+						["Plague Strike"] = {
+							["blocked"] = 41,
+							["criticalmin"] = 2026,
+							["hitmin"] = 916,
+							["criticalamount"] = 8556,
+							["id"] = 49921,
+							["criticalmax"] = 2384,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 19655,
+								},
+							},
+							["critical"] = 4,
+							["PARRY"] = 2,
+							["casts"] = 17,
+							["count"] = 17,
+							["hit"] = 11,
+							["school"] = 1,
+							["hitmax"] = 1173,
+							["amount"] = 19655,
+							["hitamount"] = 11099,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 571,
+							["id"] = 55095,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 18783,
+								},
+							},
+							["hitmax"] = 820,
+							["count"] = 27,
+							["hit"] = 27,
+							["school"] = 16,
+							["resisted"] = 1186,
+							["amount"] = 18783,
+							["hitamount"] = 18783,
+						},
+						["Death Grip"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 49576,
+						},
+					},
+					["absorb"] = 44386,
+					["damagetaken"] = 444181,
+					["id"] = "0x07000000009315F6",
+					["spec"] = 250,
+					["healspells"] = {
+						[45470] = {
+							["overheal"] = 28035,
+							["casts"] = 3,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 28035,
+									["amount"] = 0,
+								},
+							},
+						},
+						[50424] = {
+							["overheal"] = 23385,
+							["max"] = 1785,
+							["count"] = 12,
+							["amount"] = 1785,
+							["school"] = 1,
+							["min"] = 1785,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 18661,
+									["amount"] = 1785,
+								},
+								["Grottesque"] = {
+									["overheal"] = 1269,
+									["amount"] = 0,
+								},
+								["Laressa"] = {
+									["overheal"] = 1062,
+									["amount"] = 0,
+								},
+								["Xknappen"] = {
+									["overheal"] = 1229,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 1164,
+									["amount"] = 0,
+								},
+							},
+						},
+						[48982] = {
+							["overheal"] = 24517,
+							["max"] = 1041,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 24517,
+									["amount"] = 1041,
+								},
+							},
+							["min"] = 1041,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 1041,
+							["school"] = 32,
+						},
+						[71839] = {
+							["overheal"] = 13198,
+							["count"] = 7,
+							["amount"] = 6309,
+							["school"] = 32,
+							["max"] = 3373,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 13198,
+									["amount"] = 6309,
+								},
+							},
+							["min"] = 2936,
+						},
+						[50454] = {
+							["overheal"] = 4251,
+							["max"] = 244,
+							["count"] = 27,
+							["amount"] = 1695,
+							["school"] = 32,
+							["min"] = 178,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 4251,
+									["amount"] = 1695,
+								},
+							},
 						},
 					},
 					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
+						["Frostbite (DoT)"] = {
+							["total"] = 260374,
+							["hitmin"] = 713,
+							["id"] = 72098,
+							["ABSORB"] = 7,
+							["hitmax"] = 12190,
 							["sources"] = {
-								["Sunreaver Dragonhawk"] = {
+								["Toravon the Ice Watcher"] = {
+									["total"] = 260374,
+									["amount"] = 198639,
+								},
+							},
+							["count"] = 52,
+							["hit"] = 45,
+							["school"] = 16,
+							["resisted"] = 91079,
+							["amount"] = 198639,
+							["hitamount"] = 198639,
+						},
+						["Melee"] = {
+							["DODGE"] = 12,
+							["total"] = 251051,
+							["hitmin"] = 7545,
+							["id"] = 6603,
+							["PARRY"] = 7,
+							["hitmax"] = 20366,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["total"] = 251051,
+									["amount"] = 235424,
+								},
+							},
+							["count"] = 42,
+							["hit"] = 14,
+							["school"] = 1,
+							["amount"] = 235424,
+							["MISS"] = 9,
+							["hitamount"] = 235424,
+						},
+						["Whiteout"] = {
+							["total"] = 25962,
+							["hitmin"] = 1137,
+							["id"] = 72096,
+							["hitmax"] = 4445,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["total"] = 25962,
+									["amount"] = 8856,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 11374,
+							["amount"] = 8856,
+							["hitamount"] = 8856,
+						},
+						["Frostbite"] = {
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
 									["amount"] = 0,
 								},
 							},
 							["count"] = 1,
 							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 6603,
+							["school"] = 16,
+							["IMMUNE"] = 1,
+							["id"] = 72098,
+						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1262,
+							["id"] = 72097,
+							["hitmax"] = 1262,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 1262,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 540,
+							["amount"] = 1262,
+							["hitamount"] = 1262,
 						},
 					},
-					["heal"] = 177,
-					["name"] = "Urgash",
-					["overkill"] = 335,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["criticalamount"] = 10284,
-							["id"] = 55271,
+					["runicspells"] = {
+						[45529] = 20,
+						[49088] = 485,
+					},
+					["heal"] = 10830,
+					["name"] = "Sejin",
+					["ccdone"] = 1,
+					["runic"] = 505,
+					["overheal"] = 93386,
+					["totaldamage"] = 245247,
+				}, -- [15]
+				{
+					["last"] = 5522.791,
+					["flag"] = 4372,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[72418] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 43,
+						},
+						[53390] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 36,
+							["uptime"] = 103,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 4,
+							["uptime"] = 67,
+						},
+						[71584] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 45,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57960] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 87,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 31,
+						},
+						[67388] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 7,
+							["uptime"] = 102,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[70806] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[64205] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 36,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 98,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75490] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 8,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 99.34999999999999,
+					["totaldamagetaken"] = 83832,
+					["overheal"] = 833222,
+					["damagetaken"] = 83832,
+					["id"] = "0x070000000073A916",
+					["spec"] = 264,
+					["healspells"] = {
+						[379] = {
+							["overheal"] = 10055,
+							["criticalamount"] = 30868,
+							["max"] = 5505,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 10284,
+								["Sejin"] = {
+									["overheal"] = 10055,
+									["amount"] = 39467,
+								},
+							},
+							["min"] = 1137,
+							["criticalmax"] = 5505,
+							["critical"] = 7,
+							["amount"] = 39467,
+							["school"] = 8,
+							["criticalmin"] = 1137,
+							["count"] = 10,
+						},
+						[75493] = {
+							["overheal"] = 53848,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 4151,
+									["amount"] = 2490,
+								},
+								["Apollonn"] = {
+									["overheal"] = 2491,
+									["amount"] = 0,
+								},
+								["Tamook"] = {
+									["overheal"] = 0,
+									["amount"] = 2490,
+								},
+								["Grottesque"] = {
+									["overheal"] = 5395,
+									["amount"] = 0,
+								},
+								["Booxeer"] = {
+									["overheal"] = 0,
+									["amount"] = 2490,
+								},
+								["Magnatas"] = {
+									["overheal"] = 1245,
+									["amount"] = 1245,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 2905,
+									["amount"] = 0,
+								},
+								["Risenone"] = {
+									["overheal"] = 416,
+									["amount"] = 5397,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 1337,
+									["amount"] = 738,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 2490,
+									["amount"] = 0,
+								},
+								["Famel"] = {
+									["overheal"] = 415,
+									["amount"] = 2490,
+								},
+								["Shamaster"] = {
+									["overheal"] = 415,
+									["amount"] = 6225,
+								},
+								["Urgash"] = {
+									["overheal"] = 4775,
+									["amount"] = 1869,
+								},
+								["Tifura"] = {
+									["overheal"] = 830,
+									["amount"] = 2075,
+								},
+								["Welden"] = {
+									["overheal"] = 2490,
+									["amount"] = 0,
+								},
+								["Laressa"] = {
+									["overheal"] = 2490,
+									["amount"] = 0,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 2615,
+									["amount"] = 436,
+								},
+								["Xknappen"] = {
+									["overheal"] = 2492,
+									["amount"] = 831,
+								},
+								["Orcscream"] = {
+									["overheal"] = 2491,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 2491,
+									["amount"] = 0,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 3209,
+									["amount"] = 941,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 1245,
+									["amount"] = 1245,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 831,
+									["amount"] = 1660,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 1894,
+									["amount"] = 596,
+								},
+								["Echoash"] = {
+									["overheal"] = 1660,
+									["amount"] = 830,
+								},
+								["Caiva"] = {
+									["overheal"] = 2491,
+									["amount"] = 1660,
+								},
+								["Jutrit"] = {
+									["overheal"] = 584,
+									["amount"] = 1908,
+								},
+							},
+							["count"] = 220,
+							["amount"] = 37616,
+							["school"] = 2,
+							["max"] = 436,
+							["ishot"] = true,
+							["min"] = 111,
+						},
+						[52042] = {
+							["overheal"] = 63907,
+							["max"] = 649,
+							["count"] = 136,
+							["amount"] = 18330,
+							["school"] = 8,
+							["min"] = 87,
+							["ishot"] = true,
+							["targets"] = {
+								["Shamanboros"] = {
+									["overheal"] = 27825,
+									["amount"] = 9066,
+								},
+								["Booxeer"] = {
+									["overheal"] = 2213,
+									["amount"] = 0,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 7434,
+									["amount"] = 3180,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 23572,
+									["amount"] = 6084,
+								},
+								["Famel"] = {
+									["overheal"] = 2863,
+									["amount"] = 0,
+								},
+							},
+						},
+						[49276] = {
+							["overheal"] = 139009,
+							["criticalamount"] = 8755,
+							["max"] = 8755,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 134634,
+									["amount"] = 16496,
+								},
+								["Tamook"] = {
+									["overheal"] = 4375,
+									["amount"] = 2080,
+								},
+							},
+							["count"] = 16,
+							["min"] = 2080,
+							["criticalmax"] = 8755,
+							["critical"] = 10,
+							["amount"] = 18576,
+							["school"] = 8,
+							["casts"] = 16,
+							["criticalmin"] = 0,
+						},
+						[52000] = {
+							["overheal"] = 56718,
+							["max"] = 1047,
+							["count"] = 82,
+							["amount"] = 24794,
+							["school"] = 8,
+							["min"] = 325,
+							["ishot"] = true,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 11634,
+									["amount"] = 3903,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 3913,
+									["amount"] = 0,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 6172,
+									["amount"] = 2062,
+								},
+								["Booxeer"] = {
+									["overheal"] = 6850,
+									["amount"] = 978,
+								},
+								["Magnatas"] = {
+									["overheal"] = 990,
+									["amount"] = 2972,
+								},
+								["Welden"] = {
+									["overheal"] = 4162,
+									["amount"] = 0,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 11566,
+									["amount"] = 1498,
+								},
+								["Risenone"] = {
+									["overheal"] = 0,
+									["amount"] = 3913,
+								},
+								["Shamaster"] = {
+									["overheal"] = 0,
+									["amount"] = 4184,
+								},
+								["Echoash"] = {
+									["overheal"] = 5550,
+									["amount"] = 2288,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 2945,
+									["amount"] = 2018,
+								},
+								["Tifura"] = {
+									["overheal"] = 2936,
+									["amount"] = 978,
+								},
+							},
+						},
+						[61301] = {
+							["overheal"] = 44847,
+							["criticalamount"] = 9291,
+							["max"] = 5644,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 36140,
+									["amount"] = 10315,
+								},
+								["Caiva"] = {
+									["overheal"] = 8707,
+									["amount"] = 3647,
+								},
+							},
+							["criticalmin"] = 3647,
+							["min"] = 491,
+							["casts"] = 6,
+							["count"] = 32,
+							["amount"] = 13962,
+							["school"] = 8,
+							["criticalmax"] = 5644,
+							["ishot"] = true,
+							["critical"] = 2,
+						},
+						[55459] = {
+							["overheal"] = 410032,
+							["criticalamount"] = 229718,
+							["max"] = 12501,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 18287,
+									["amount"] = 13476,
+								},
+								["Tamook"] = {
+									["overheal"] = 7755,
+									["amount"] = 24503,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 3735,
+									["amount"] = 1673,
+								},
+								["Booxeer"] = {
+									["overheal"] = 41068,
+									["amount"] = 25388,
+								},
+								["Magnatas"] = {
+									["overheal"] = 0,
+									["amount"] = 11845,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 73521,
+									["amount"] = 30977,
+								},
+								["Risenone"] = {
+									["overheal"] = 7304,
+									["amount"] = 9815,
+								},
+								["Tifura"] = {
+									["overheal"] = 53747,
+									["amount"] = 6146,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 13149,
+									["amount"] = 14622,
+								},
+								["Famel"] = {
+									["overheal"] = 6929,
+									["amount"] = 15829,
+								},
+								["Jutrit"] = {
+									["overheal"] = 16312,
+									["amount"] = 8545,
+								},
+								["Urgash"] = {
+									["overheal"] = 9602,
+									["amount"] = 3970,
+								},
+								["Laressa"] = {
+									["overheal"] = 10161,
+									["amount"] = 27474,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 77519,
+									["amount"] = 22560,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 16045,
+									["amount"] = 10056,
+								},
+								["Orcscream"] = {
+									["overheal"] = 7890,
+									["amount"] = 44745,
+								},
+								["Ironshell"] = {
+									["overheal"] = 2,
+									["amount"] = 4981,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 5243,
+									["amount"] = 3115,
+								},
+								["Shamaster"] = {
+									["overheal"] = 2766,
+									["amount"] = 16811,
+								},
+								["Welden"] = {
+									["overheal"] = 14550,
+									["amount"] = 3114,
+								},
+								["Caiva"] = {
+									["overheal"] = 4630,
+									["amount"] = 13984,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 1568,
+									["amount"] = 3937,
+								},
+								["Echoash"] = {
+									["overheal"] = 18249,
+									["amount"] = 33802,
+								},
+							},
+							["casts"] = 38,
+							["min"] = 297,
+							["criticalmax"] = 12501,
+							["critical"] = 59,
+							["amount"] = 351368,
+							["school"] = 8,
+							["criticalmin"] = 0,
+							["count"] = 102,
+						},
+						[52752] = {
+							["overheal"] = 26422,
+							["count"] = 12,
+							["amount"] = 13657,
+							["school"] = 8,
+							["max"] = 3618,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 0,
+									["amount"] = 1775,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 3511,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 0,
+									["amount"] = 5459,
+								},
+								["Risenone"] = {
+									["overheal"] = 3013,
+									["amount"] = 332,
+								},
+								["Echoash"] = {
+									["overheal"] = 3623,
+									["amount"] = 0,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 15229,
+									["amount"] = 0,
+								},
+								["Xknappen"] = {
+									["overheal"] = 0,
+									["amount"] = 3535,
+								},
+								["Orcscream"] = {
+									["overheal"] = 1046,
+									["amount"] = 2556,
+								},
+							},
+							["min"] = 332,
+						},
+						[49273] = {
+							["overheal"] = 28384,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 8,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 28384,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Freezing Ground"] = {
+							["hitmin"] = 3224,
+							["id"] = 72104,
+							["hitmax"] = 5688,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 12208,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 4978,
+							["amount"] = 12208,
+							["hitamount"] = 12208,
+						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1333,
+							["id"] = 72097,
+							["amount"] = 37996,
+							["hitmax"] = 3007,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 37996,
+								},
+							},
+							["count"] = 21,
+							["hit"] = 19,
+							["school"] = 16,
+							["resisted"] = 14872,
+							["MISS"] = 2,
+							["hitamount"] = 37996,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 9337,
+							["id"] = 72096,
+							["hitmax"] = 12265,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 33628,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 12220,
+							["amount"] = 33628,
+							["hitamount"] = 33628,
+						},
+					},
+					["heal"] = 517770,
+					["name"] = "Shamanboros",
+					["manaspells"] = {
+						[57961] = 10824,
+						[55382] = 1200,
+					},
+					["mana"] = 12024,
+					["role"] = "HEALER",
+				}, -- [16]
+				{
+					["last"] = 5521.805,
+					["flag"] = 1300,
+					["mana"] = 18567,
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[54646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48108] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[47610] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 64,
+							["school"] = 20,
+							["refresh"] = 12,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 12,
+									["uptime"] = 64,
+								},
+							},
+							["count"] = 4,
+						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 13,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+								["Frozen Orb"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 5,
+								},
+							},
+							["count"] = 4,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 46,
+							["school"] = 4,
+							["refresh"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 46,
+								},
+							},
+							["count"] = 3,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 11,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[64713] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 58,
+							["school"] = 4,
+							["refresh"] = 15,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 9,
+									["refresh"] = 13,
+									["uptime"] = 52,
+								},
+								["Frozen Orb"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 7,
+								},
+							},
+							["count"] = 11,
+						},
+						[64343] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 4,
+							["refresh"] = 1,
+							["uptime"] = 34,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 78,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 2,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 72,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 67,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 6,
+									["count"] = 3,
+								},
+							},
+							["count"] = 7,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[43020] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 75,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[12051] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 7,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[43012] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["uptime"] = 30,
+						},
+						[43017] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["absorbspells"] = {
+						[43020] = {
+							["min"] = 71,
+							["casts"] = 2,
+							["count"] = 4,
+							["amount"] = 6875,
+							["school"] = 64,
+							["targets"] = {
+								["Welden"] = 6875,
+							},
+							["max"] = 3565,
+						},
+					},
+					["time"] = 98.58999999999998,
+					["totaldamagetaken"] = 43197,
+					["damage"] = 288613,
+					["damagespells"] = {
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 718,
+							["id"] = 42891,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 13652,
+								},
+							},
+							["hitmax"] = 1104,
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 4,
+							["resisted"] = 1067,
+							["amount"] = 13652,
+							["hitamount"] = 13652,
+						},
+						["Frostfire Bolt (DoT)"] = {
+							["hitmin"] = 483,
+							["id"] = 47610,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 7451,
+								},
+							},
+							["hitmax"] = 676,
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 20,
+							["resisted"] = 570,
+							["amount"] = 7451,
+							["hitamount"] = 7451,
+						},
+						["Molten Armor"] = {
+							["criticalmin"] = 417,
+							["hitmin"] = 217,
+							["criticalamount"] = 417,
+							["id"] = 43044,
+							["criticalmax"] = 417,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 878,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 244,
+							["casts"] = 1,
+							["count"] = 4,
+							["amount"] = 878,
+							["school"] = 4,
+							["hit"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 461,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 2000,
+							["id"] = 42873,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 4470,
+								},
+							},
+							["hitmax"] = 2470,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 499,
+							["amount"] = 4470,
+							["hitamount"] = 4470,
+						},
+						["Pyroblast"] = {
+							["criticalmax"] = 13467,
+							["criticalmin"] = 11780,
+							["hitmin"] = 5885,
+							["criticalamount"] = 25247,
+							["id"] = 42891,
+							["hitmax"] = 6116,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 37248,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 2,
+							["casts"] = 5,
+							["critical"] = 2,
+							["amount"] = 37248,
+							["school"] = 4,
+							["resisted"] = 2640,
+							["MISS"] = 1,
+							["hitamount"] = 12001,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 408,
+							["id"] = 12654,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 47063,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 2873,
+								},
+							},
+							["hitmax"] = 5066,
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 4,
+							["resisted"] = 1143,
+							["amount"] = 49936,
+							["hitamount"] = 49936,
+						},
+						["Living Bomb (DoT)"] = {
+							["casts"] = 3,
+							["hitmin"] = 956,
+							["criticalamount"] = 20056,
+							["id"] = 55360,
+							["hit"] = 11,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 31017,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1610,
+								},
+							},
+							["hitmax"] = 1258,
+							["count"] = 21,
+							["criticalmax"] = 2386,
+							["critical"] = 10,
+							["amount"] = 32627,
+							["school"] = 4,
+							["resisted"] = 2315,
+							["criticalmin"] = 1610,
+							["hitamount"] = 12571,
+						},
+						["Living Bomb"] = {
+							["criticalmin"] = 4224,
+							["hitmin"] = 2248,
+							["criticalamount"] = 4224,
+							["id"] = 55362,
+							["hitmax"] = 2796,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 9268,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["casts"] = 7,
+							["critical"] = 1,
+							["amount"] = 9268,
+							["school"] = 4,
+							["resisted"] = 249,
+							["criticalmax"] = 4224,
+							["hitamount"] = 5044,
+						},
+						["Scorch"] = {
+							["hitmax"] = 2444,
+							["hitmin"] = 2420,
+							["criticalamount"] = 15856,
+							["id"] = 42859,
+							["count"] = 6,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 6547,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 14173,
+								},
+							},
+							["hit"] = 2,
+							["criticalmin"] = 3770,
+							["casts"] = 7,
+							["critical"] = 4,
+							["amount"] = 20720,
+							["school"] = 4,
+							["resisted"] = 1635,
+							["criticalmax"] = 4168,
+							["hitamount"] = 4864,
+						},
+						["Frostfire Bolt"] = {
+							["amount"] = 112363,
+							["hitmax"] = 5375,
+							["hitmin"] = 3916,
+							["criticalamount"] = 79481,
+							["id"] = 47610,
+							["criticalmin"] = 7591,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 112363,
+								},
+							},
+							["criticalmax"] = 11459,
+							["critical"] = 9,
+							["casts"] = 20,
+							["count"] = 17,
+							["hit"] = 7,
+							["school"] = 20,
+							["resisted"] = 3757,
+							["MISS"] = 1,
+							["hitamount"] = 32882,
+						},
+					},
+					["absorb"] = 6875,
+					["damagetaken"] = 36322,
+					["id"] = "0x0700000000012B54",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Freezing Ground"] = {
+							["total"] = 4102,
+							["hitmin"] = 4031,
+							["id"] = 72104,
+							["hitmax"] = 4031,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["total"] = 4102,
+									["amount"] = 4031,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 4102,
+							["amount"] = 4031,
+							["hitamount"] = 4031,
+						},
+						["Frozen Orb"] = {
+							["total"] = 2193,
+							["hitmin"] = 1979,
+							["id"] = 72097,
+							["hitmax"] = 1979,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["total"] = 2193,
+									["amount"] = 1979,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 1461,
+							["amount"] = 1979,
+							["hitamount"] = 1979,
+						},
+						["Whiteout"] = {
+							["total"] = 36902,
+							["hitmin"] = 8974,
+							["id"] = 72096,
+							["hitmax"] = 11422,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["total"] = 36902,
+									["amount"] = 30312,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 11833,
+							["amount"] = 30312,
+							["hitamount"] = 30312,
+						},
+					},
+					["name"] = "Welden",
+					["totaldamage"] = 288613,
+					["class"] = "MAGE",
+					["manaspells"] = {
+						[67545] = 1430,
+						[42987] = 3442,
+						[29077] = 2190,
+						[12051] = 11692,
+						[44450] = -187,
+					},
+					["role"] = "DAMAGER",
+				}, -- [17]
+				{
+					["last"] = 5521.808,
+					["flag"] = 4372,
+					["class"] = "HUNTER",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[63468] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 95,
+							["school"] = 1,
+							["refresh"] = 18,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 13,
+									["uptime"] = 76,
+								},
+								["Frozen Orb"] = {
+									["count"] = 3,
+									["refresh"] = 5,
+									["uptime"] = 22,
+								},
+							},
+							["count"] = 7,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["refresh"] = 4,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[6150] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 55,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 45,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[3045] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 87,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53401] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 60,
+						},
+						[53403] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 57,
+						},
+						[61847] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[64495] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["uptime"] = 60,
+						},
+						[53220] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[49001] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 83,
+							["school"] = 8,
+							["refresh"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 6,
+									["uptime"] = 72,
+								},
+								["Frozen Orb"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 27,
+								},
+							},
+							["count"] = 6,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[49050] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 37,
+									["count"] = 6,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 19,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 56,
+						},
+						[65024] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 31,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[61684] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 63,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 17,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70893] = {
+							["type"] = "BUFF",
+							["count"] = 12,
+							["school"] = 1,
+							["refresh"] = 14,
+							["uptime"] = 91,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["energyspells"] = {
+						[34952] = 1175,
+					},
+					["time"] = 117.7799999999999,
+					["totaldamagetaken"] = 35127,
+					["damage"] = 381724,
+					["damagespells"] = {
+						["Piercing Shots (DoT)"] = {
+							["hitmin"] = 99,
+							["id"] = 63468,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 18861,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 3611,
+								},
+							},
+							["count"] = 81,
+							["hit"] = 81,
+							["school"] = 1,
+							["hitmax"] = 471,
+							["amount"] = 22472,
+							["hitamount"] = 22472,
+						},
+						["Chimera Shot"] = {
+							["hitmax"] = 2887,
+							["hitmin"] = 1674,
+							["criticalamount"] = 40757,
+							["id"] = 53209,
+							["count"] = 11,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 36499,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 13781,
+								},
+							},
+							["hit"] = 4,
+							["criticalmin"] = 4311,
+							["casts"] = 11,
+							["critical"] = 7,
+							["amount"] = 50280,
+							["school"] = 8,
+							["resisted"] = 3160,
+							["criticalmax"] = 6868,
+							["hitamount"] = 9523,
+						},
+						["Serpent Sting (DoT)"] = {
+							["hitmin"] = 540,
+							["id"] = 49001,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 15314,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 4069,
+								},
+							},
+							["hitmax"] = 769,
+							["casts"] = 7,
+							["count"] = 29,
+							["hit"] = 29,
+							["school"] = 8,
+							["resisted"] = 1430,
+							["amount"] = 19383,
+							["hitamount"] = 19383,
+						},
+						["Auto Shot"] = {
+							["blocked"] = 41,
+							["hitmin"] = 953,
+							["criticalamount"] = 45235,
+							["id"] = 75,
+							["hitmax"] = 1482,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 72127,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 24575,
+								},
+							},
+							["count"] = 59,
+							["hit"] = 41,
+							["casts"] = 1,
+							["critical"] = 18,
+							["amount"] = 96702,
+							["school"] = 1,
+							["criticalmin"] = 2025,
+							["criticalmax"] = 2922,
+							["hitamount"] = 51467,
+						},
+						["Arcane Shot"] = {
+							["hitmin"] = 1559,
+							["criticalamount"] = 5200,
+							["id"] = 49045,
+							["criticalmin"] = 5200,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 9979,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1559,
+								},
+							},
+							["criticalmax"] = 5200,
+							["critical"] = 1,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 64,
+							["hitmax"] = 2450,
+							["amount"] = 11538,
+							["hitamount"] = 6338,
+						},
+						["Steady Shot"] = {
+							["hitmin"] = 898,
+							["criticalamount"] = 29921,
+							["id"] = 49052,
+							["criticalmin"] = 2256,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 32526,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 10699,
+								},
+							},
+							["criticalmax"] = 2829,
+							["critical"] = 12,
+							["casts"] = 30,
+							["count"] = 25,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 1191,
+							["amount"] = 43225,
+							["hitamount"] = 13304,
+						},
+						["Kill Shot"] = {
+							["hitmin"] = 4257,
+							["criticalamount"] = 11028,
+							["id"] = 61006,
+							["hitmax"] = 4257,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 15285,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 15285,
+							["school"] = 1,
+							["criticalmin"] = 11028,
+							["criticalmax"] = 11028,
+							["hitamount"] = 4257,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["hitmin"] = 1233,
+							["id"] = 53254,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 7308,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1233,
+								},
+							},
+							["hitmax"] = 1959,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 8,
+							["resisted"] = 327,
+							["amount"] = 8541,
+							["hitamount"] = 8541,
+						},
+						["Aimed Shot"] = {
+							["hitmin"] = 1754,
+							["criticalamount"] = 23889,
+							["id"] = 49050,
+							["criticalmin"] = 3343,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 18968,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 10458,
+								},
+							},
+							["criticalmax"] = 5025,
+							["critical"] = 6,
+							["casts"] = 9,
+							["count"] = 9,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1981,
+							["amount"] = 29426,
+							["hitamount"] = 5537,
+						},
+						["Chimera Shot - Serpent"] = {
+							["criticalmin"] = 4629,
+							["hitmin"] = 1702,
+							["criticalamount"] = 9571,
+							["id"] = 53353,
+							["criticalmax"] = 4942,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 15360,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 3438,
+								},
+							},
+							["critical"] = 2,
+							["hitmax"] = 1989,
+							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 5,
+							["school"] = 8,
+							["resisted"] = 830,
+							["amount"] = 18798,
+							["hitamount"] = 9227,
+						},
+						["Bite (Wolf)"] = {
+							["hitmin"] = 256,
+							["criticalamount"] = 7786,
+							["id"] = 52474,
+							["hitmax"] = 375,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 23911,
+								},
+							},
+							["count"] = 64,
+							["hit"] = 51,
+							["casts"] = 1,
+							["critical"] = 13,
+							["amount"] = 23911,
+							["school"] = 1,
+							["criticalmin"] = 510,
+							["criticalmax"] = 682,
+							["hitamount"] = 16125,
+						},
+						["Melee (Wolf)"] = {
+							["glance"] = 7291,
+							["hitmin"] = 303,
+							["criticalmin"] = 628,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 42163,
+								},
+							},
+							["glancing"] = 26,
+							["amount"] = 42163,
+							["glancemin"] = 234,
+							["criticalamount"] = 14944,
+							["id"] = 6603,
+							["glancemax"] = 342,
+							["criticalmax"] = 916,
+							["critical"] = 20,
+							["hit"] = 53,
+							["school"] = 1,
+							["count"] = 99,
+							["hitmax"] = 460,
+							["hitamount"] = 19928,
+						},
+					},
+					["damagetaken"] = 35127,
+					["id"] = "0x07000000009CB72E",
+					["spec"] = 254,
+					["damagetakenspells"] = {
+						["Whiteout"] = {
+							["hitmin"] = 10454,
+							["id"] = 72096,
+							["hitmax"] = 13100,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 35127,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 9027,
+							["amount"] = 35127,
+							["hitamount"] = 35127,
+						},
+					},
+					["name"] = "Apollonn",
+					["totaldamage"] = 381724,
+					["energy"] = 1175,
+					["role"] = "DAMAGER",
+				}, -- [18]
+				{
+					["last"] = 5520.721000000001,
+					["flag"] = 1300,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 24,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[71560] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 45,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 39,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 5,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[18499] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 8,
+							["uptime"] = 49,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 15,
+							["school"] = 1,
+							["refresh"] = 28,
+							["uptime"] = 111,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["refresh"] = 6,
+							["uptime"] = 91,
+						},
+						[57358] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 113,
+							["school"] = 1,
+							["refresh"] = 75,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 75,
+									["uptime"] = 113,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 10,
+									["count"] = 2,
+								},
+							},
+							["count"] = 4,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75456] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["uptime"] = 46,
+						},
+						[70855] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 36,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 15,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 32,
+						},
+						[23885] = {
+							["type"] = "BUFF",
+							["count"] = 20,
+							["school"] = 1,
+							["uptime"] = 48,
+						},
+						[1719] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 4,
+							["uptime"] = 103,
+						},
+						[12292] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 116.64,
+					["totaldamagetaken"] = 98469,
+					["damage"] = 1055589,
+					["damagespells"] = {
+						["Execute"] = {
+							["hitmin"] = 3272,
+							["criticalamount"] = 23233,
+							["id"] = 20647,
+							["hitmax"] = 3548,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 30053,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 2,
+							["casts"] = 1,
+							["critical"] = 3,
+							["amount"] = 30053,
+							["school"] = 1,
+							["criticalmin"] = 7433,
+							["criticalmax"] = 8060,
+							["hitamount"] = 6820,
+						},
+						["Bloodthirst"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 4055,
+							["criticalamount"] = 88597,
+							["id"] = 23881,
+							["hitmax"] = 5916,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 147606,
+								},
+							},
+							["count"] = 21,
+							["hit"] = 12,
+							["casts"] = 21,
+							["critical"] = 8,
+							["amount"] = 147606,
+							["school"] = 1,
+							["criticalmin"] = 8370,
+							["criticalmax"] = 13204,
+							["hitamount"] = 59009,
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["glance"] = 30455,
+							["hitmin"] = 1729,
+							["criticalmin"] = 3366,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 176667,
+								},
+							},
+							["glancing"] = 18,
+							["amount"] = 176667,
+							["MISS"] = 2,
+							["glancemin"] = 1217,
+							["criticalamount"] = 122750,
+							["id"] = 6603,
+							["glancemax"] = 2976,
+							["criticalmax"] = 6571,
+							["critical"] = 28,
+							["hit"] = 11,
+							["school"] = 1,
+							["hitmax"] = 3298,
+							["count"] = 61,
+							["hitamount"] = 23462,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 184,
+							["id"] = 12721,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 118129,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1743,
+								},
+							},
+							["count"] = 79,
+							["hit"] = 79,
+							["school"] = 1,
+							["hitmax"] = 2726,
+							["amount"] = 119872,
+							["hitamount"] = 119872,
+						},
+						["Slam"] = {
+							["hitmin"] = 3403,
+							["criticalamount"] = 46986,
+							["id"] = 50783,
+							["criticalmin"] = 8224,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 82834,
+								},
+							},
+							["criticalmax"] = 10907,
+							["critical"] = 5,
+							["casts"] = 1,
+							["count"] = 14,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 4884,
+							["amount"] = 82834,
+							["hitamount"] = 35848,
+						},
+						["Whirlwind"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 2201,
+							["criticalamount"] = 109988,
+							["id"] = 1680,
+							["criticalmin"] = 4927,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 113565,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 40317,
+								},
+							},
+							["criticalmax"] = 10873,
+							["critical"] = 15,
+							["casts"] = 13,
+							["count"] = 32,
+							["hit"] = 14,
+							["school"] = 1,
+							["hitmax"] = 4682,
+							["amount"] = 153882,
+							["hitamount"] = 43894,
+						},
+						["Heroic Throw"] = {
+							["hitmin"] = 5293,
+							["id"] = 57755,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 5293,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 5293,
+							["amount"] = 5293,
+							["hitamount"] = 5293,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 3167,
+							["criticalamount"] = 226038,
+							["id"] = 47450,
+							["criticalmin"] = 7195,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 339382,
+								},
+							},
+							["criticalmax"] = 10271,
+							["critical"] = 26,
+							["casts"] = 55,
+							["count"] = 55,
+							["hit"] = 29,
+							["school"] = 1,
+							["hitmax"] = 4691,
+							["amount"] = 339382,
+							["hitamount"] = 113344,
+						},
+					},
+					["damagetaken"] = 98469,
+					["id"] = "0x07000000003FCB1F",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 15400,
+							["max"] = 385,
+							["count"] = 60,
+							["amount"] = 7700,
+							["school"] = 1,
+							["min"] = 385,
+							["targets"] = {
+								["Magnatas"] = {
+									["overheal"] = 15400,
+									["amount"] = 7700,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1340,
+							["id"] = 72097,
+							["hitmax"] = 3152,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 64067,
+								},
+							},
+							["count"] = 29,
+							["hit"] = 29,
+							["school"] = 16,
+							["resisted"] = 22329,
+							["amount"] = 64067,
+							["hitamount"] = 64067,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 10202,
+							["id"] = 72096,
+							["hitmax"] = 13030,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 34402,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 14742,
+							["amount"] = 34402,
+							["hitamount"] = 34402,
+						},
+					},
+					["overheal"] = 15400,
+					["ragespells"] = {
+						[29131] = 30,
+						[2687] = 60,
+						[58362] = 260,
+						[12964] = 38,
+					},
+					["name"] = "Magnatas",
+					["heal"] = 7700,
+					["rage"] = 388,
+					["totaldamage"] = 1055589,
+					["role"] = "DAMAGER",
+				}, -- [19]
+				{
+					["last"] = 5521.804,
+					["flag"] = 1300,
+					["class"] = "DRUID",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[72418] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 10,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 28,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 53,
+						},
+						[71584] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[64205] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 18,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[71184] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 331,
+							["uptime"] = 120,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 43,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 98,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53307] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["energyspells"] = {
+						[48540] = 184,
+					},
+					["time"] = 104.9200000000001,
+					["resspells"] = {
+						[48477] = {
+							["count"] = 1,
+							["targets"] = {
+								["Tamook"] = 1,
+							},
+						},
+					},
+					["runic"] = 464,
+					["totaldamagetaken"] = 59110,
+					["mana"] = 5702,
+					["manaspells"] = {
+						[48542] = 5213,
+						[64372] = 489,
+					},
+					["rage"] = 56,
+					["ress"] = 1,
+					["damagetaken"] = 59110,
+					["id"] = "0x07000000000A41DC",
+					["spec"] = 105,
+					["healspells"] = {
+						[71641] = {
+							["overheal"] = 18256,
+							["criticalamount"] = 531,
+							["max"] = 8041,
+							["targets"] = {
+								["Laressa"] = {
+									["overheal"] = 10701,
+									["amount"] = 531,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 7555,
+									["amount"] = 0,
+								},
+								["Orcscream"] = {
+									["overheal"] = 0,
+									["amount"] = 8041,
+								},
+							},
+							["min"] = 531,
+							["criticalmax"] = 531,
+							["critical"] = 1,
+							["amount"] = 8572,
+							["school"] = 2,
+							["criticalmin"] = 531,
+							["count"] = 3,
+						},
+						[48451] = {
+							["overheal"] = 4686,
+							["max"] = 670,
+							["count"] = 9,
+							["amount"] = 1339,
+							["school"] = 8,
+							["min"] = 669,
+							["ishot"] = true,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 4686,
+									["amount"] = 1339,
+								},
+							},
+						},
+						[33778] = {
+							["overheal"] = 2969,
+							["count"] = 1,
+							["amount"] = 1095,
+							["school"] = 8,
+							["max"] = 1095,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 2969,
+									["amount"] = 1095,
+								},
+							},
+							["min"] = 1095,
+						},
+						[48441] = {
+							["overheal"] = 754869,
+							["max"] = 3320,
+							["targets"] = {
+								["Ironshell"] = {
+									["overheal"] = 36349,
+									["amount"] = 2616,
+								},
+								["Tamook"] = {
+									["overheal"] = 38567,
+									["amount"] = 18658,
+								},
+								["Booxeer"] = {
+									["overheal"] = 60041,
+									["amount"] = 34962,
+								},
+								["Magnatas"] = {
+									["overheal"] = 69495,
+									["amount"] = 30990,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 32760,
+									["amount"] = 4924,
+								},
+								["Risenone"] = {
+									["overheal"] = 30679,
+									["amount"] = 16004,
+								},
+								["Tifura"] = {
+									["overheal"] = 15679,
+									["amount"] = 3136,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 42908,
+									["amount"] = 2327,
+								},
+								["Shamaster"] = {
+									["overheal"] = 39826,
+									["amount"] = 17954,
+								},
+								["Urgash"] = {
+									["overheal"] = 49354,
+									["amount"] = 16782,
+								},
+								["Laressa"] = {
+									["overheal"] = 49562,
+									["amount"] = 8042,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 29633,
+									["amount"] = 3293,
+								},
+								["Xknappen"] = {
+									["overheal"] = 15869,
+									["amount"] = 3174,
+								},
+								["Orcscream"] = {
+									["overheal"] = 31593,
+									["amount"] = 6319,
+								},
+								["Welden"] = {
+									["overheal"] = 20032,
+									["amount"] = 0,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 19044,
+									["amount"] = 0,
+								},
+								["Sejin"] = {
+									["overheal"] = 85817,
+									["amount"] = 26940,
+								},
+								["Echoash"] = {
+									["overheal"] = 44632,
+									["amount"] = 29809,
+								},
+								["Caiva"] = {
+									["overheal"] = 10109,
+									["amount"] = 8935,
+								},
+								["Jutrit"] = {
+									["overheal"] = 32920,
+									["amount"] = 24211,
+								},
+							},
+							["min"] = 192,
+							["casts"] = 63,
+							["count"] = 320,
+							["amount"] = 259076,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[70691] = {
+							["overheal"] = 136609,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 18879,
+									["amount"] = 745,
+								},
+								["Grottesque"] = {
+									["overheal"] = 19621,
+									["amount"] = 0,
+								},
+								["Tifura"] = {
+									["overheal"] = 16302,
+									["amount"] = 3260,
+								},
+								["Shamaster"] = {
+									["overheal"] = 13202,
+									["amount"] = 0,
+								},
+								["Jutrit"] = {
+									["overheal"] = 14692,
+									["amount"] = 8190,
+								},
+								["Risenone"] = {
+									["overheal"] = 6679,
+									["amount"] = 12884,
+								},
+								["Welden"] = {
+									["overheal"] = 16503,
+									["amount"] = 3300,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 13884,
+									["amount"] = 5919,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 9903,
+									["amount"] = 9901,
+								},
+								["Famel"] = {
+									["overheal"] = 6944,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 55,
+							["amount"] = 44199,
+							["school"] = 8,
+							["max"] = 3301,
+							["ishot"] = true,
+							["min"] = 115,
+						},
+						[53251] = {
+							["overheal"] = 315859,
+							["max"] = 1153,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 46564,
+									["amount"] = 24865,
+								},
+								["Tamook"] = {
+									["overheal"] = 8824,
+									["amount"] = 26546,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 6637,
+									["amount"] = 0,
+								},
+								["Battle Chicken"] = {
+									["overheal"] = 4455,
+									["amount"] = 8988,
+								},
+								["Booxeer"] = {
+									["overheal"] = 2365,
+									["amount"] = 18422,
+								},
+								["Magnatas"] = {
+									["overheal"] = 47667,
+									["amount"] = 2084,
+								},
+								["Risenone"] = {
+									["overheal"] = 14876,
+									["amount"] = 13901,
+								},
+								["Famel"] = {
+									["overheal"] = 11668,
+									["amount"] = 15937,
+								},
+								["Jutrit"] = {
+									["overheal"] = 52624,
+									["amount"] = 25901,
+								},
+								["Urgash"] = {
+									["overheal"] = 32804,
+									["amount"] = 9469,
+								},
+								["Adi"] = {
+									["overheal"] = 7150,
+									["amount"] = 0,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 37872,
+									["amount"] = 7402,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 7152,
+									["amount"] = 0,
+								},
+								["Risen Ghoul"] = {
+									["overheal"] = 0,
+									["amount"] = 3036,
+								},
+								["Echoash"] = {
+									["overheal"] = 23439,
+									["amount"] = 11680,
+								},
+								["Shamaster"] = {
+									["overheal"] = 6992,
+									["amount"] = 7865,
+								},
+								["Ebon Gargoyle"] = {
+									["overheal"] = 4770,
+									["amount"] = 1925,
+								},
+							},
+							["min"] = 208,
+							["casts"] = 12,
+							["count"] = 483,
+							["amount"] = 178021,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+					},
+					["damagetakenspells"] = {
+						["Freezing Ground"] = {
+							["hitmin"] = 5559,
+							["id"] = 72104,
+							["hitmax"] = 5559,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 5559,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 1389,
+							["amount"] = 5559,
+							["hitamount"] = 5559,
+						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1548,
+							["id"] = 72097,
+							["hitmax"] = 2108,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 18630,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 16,
+							["resisted"] = 7235,
+							["amount"] = 18630,
+							["hitamount"] = 18630,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 10538,
+							["id"] = 72096,
+							["hitmax"] = 12393,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 34921,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 10870,
+							["amount"] = 34921,
+							["hitamount"] = 34921,
+						},
+					},
+					["runicspells"] = {
+						[48543] = 464,
+					},
+					["heal"] = 492302,
+					["name"] = "Ohdeer",
+					["ragespells"] = {
+						[48541] = 56,
+					},
+					["overheal"] = 1233248,
+					["energy"] = 184,
+					["role"] = "HEALER",
+				}, -- [20]
+				{
+					["last"] = 5520.733,
+					["flag"] = 1300,
+					["class"] = "HUNTER",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[63468] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 93,
+							["school"] = 1,
+							["refresh"] = 23,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 19,
+									["uptime"] = 83,
+								},
+								["Frozen Orb"] = {
+									["count"] = 3,
+									["refresh"] = 4,
+									["uptime"] = 15,
+								},
+							},
+							["count"] = 7,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 124,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 119,
+						},
+						[6150] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 37,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 24,
+						},
+						[35079] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 11,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[3045] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[34026] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 60,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53749] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[34477] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 87,
+						},
+						[61685] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[57358] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 36,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53401] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 60,
+						},
+						[53403] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 54,
+						},
+						[61847] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[64495] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["uptime"] = 61,
+						},
+						[53220] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 26,
+						},
+						[49001] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 114,
+							["school"] = 8,
+							["refresh"] = 15,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 13,
+									["uptime"] = 114,
+								},
+								["Frozen Orb"] = {
+									["count"] = 3,
+									["refresh"] = 2,
+									["uptime"] = 8,
+								},
+							},
+							["count"] = 5,
+						},
+						[49065] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[70893] = {
+							["type"] = "BUFF",
+							["count"] = 12,
+							["school"] = 1,
+							["refresh"] = 20,
+							["uptime"] = 88,
+						},
+						[67695] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[35099] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[70728] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["refresh"] = 2,
+							["uptime"] = 22,
+						},
+						[71007] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 30,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[49050] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 36,
+									["count"] = 6,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 42,
+						},
+						[53338] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[71396] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 110,
+							["uptime"] = 122,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["energyspells"] = {
+						[34952] = 2125,
+					},
+					["time"] = 116.6800000000001,
+					["totaldamagetaken"] = 56011,
+					["damage"] = 776358,
+					["damagespells"] = {
+						["Chimera Shot"] = {
+							["hitmax"] = 6298,
+							["hitmin"] = 4099,
+							["criticalamount"] = 72287,
+							["id"] = 53209,
+							["count"] = 10,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 67176,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 20313,
+								},
+							},
+							["hit"] = 3,
+							["criticalmin"] = 6329,
+							["casts"] = 11,
+							["critical"] = 7,
+							["amount"] = 87489,
+							["school"] = 8,
+							["resisted"] = 5758,
+							["criticalmax"] = 13622,
+							["hitamount"] = 15202,
+						},
+						["Serpent Sting (DoT)"] = {
+							["hitmin"] = 673,
+							["id"] = 49001,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 29235,
+								},
+							},
+							["hitmax"] = 1046,
+							["casts"] = 11,
+							["count"] = 33,
+							["hit"] = 33,
+							["school"] = 8,
+							["resisted"] = 1770,
+							["amount"] = 29235,
+							["hitamount"] = 29235,
+						},
+						["Auto Shot"] = {
+							["hitmin"] = 1859,
+							["criticalamount"] = 181140,
+							["id"] = 75,
+							["hitmax"] = 2643,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 181750,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 45433,
+								},
+							},
+							["count"] = 59,
+							["hit"] = 20,
+							["casts"] = 1,
+							["critical"] = 39,
+							["amount"] = 227183,
+							["school"] = 1,
+							["criticalmin"] = 3598,
+							["criticalmax"] = 5636,
+							["hitamount"] = 46043,
+						},
+						["Silencing Shot"] = {
+							["hitmin"] = 1117,
+							["criticalamount"] = 8360,
+							["id"] = 34490,
+							["hitmax"] = 1175,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 8164,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 2488,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 2,
+							["casts"] = 6,
+							["critical"] = 3,
+							["amount"] = 10652,
+							["school"] = 1,
+							["criticalmin"] = 2488,
+							["criticalmax"] = 3179,
+							["hitamount"] = 2292,
+						},
+						["Explosive Trap Effect"] = {
+							["hitmin"] = 1573,
+							["id"] = 49065,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 1573,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 1573,
+							["amount"] = 1573,
+							["hitamount"] = 1573,
+						},
+						["Aimed Shot"] = {
+							["hitmin"] = 2846,
+							["criticalamount"] = 31034,
+							["id"] = 49050,
+							["criticalmin"] = 6616,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 33243,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 9462,
+								},
+							},
+							["criticalmax"] = 8720,
+							["critical"] = 4,
+							["casts"] = 9,
+							["count"] = 8,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 2986,
+							["amount"] = 42705,
+							["hitamount"] = 11671,
+						},
+						["Piercing Shots (DoT)"] = {
+							["hitmin"] = 152,
+							["id"] = 63468,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 47145,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 3316,
+								},
+							},
+							["count"] = 84,
+							["hit"] = 84,
+							["school"] = 1,
+							["hitmax"] = 1050,
+							["amount"] = 50461,
+							["hitamount"] = 50461,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["criticalmin"] = 3660,
+							["hitmin"] = 2583,
+							["criticalamount"] = 15569,
+							["id"] = 53254,
+							["criticalmax"] = 6429,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 14492,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 3660,
+								},
+							},
+							["critical"] = 3,
+							["hitmax"] = 2583,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 2570,
+							["amount"] = 18152,
+							["hitamount"] = 2583,
+						},
+						["Melee"] = {
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 6603,
+						},
+						["Melee (Wolfy)"] = {
+							["glance"] = 14079,
+							["hitmin"] = 463,
+							["criticalmin"] = 958,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 67058,
+								},
+							},
+							["glancing"] = 32,
+							["amount"] = 67058,
+							["glancemin"] = 360,
+							["criticalamount"] = 25800,
+							["id"] = 6603,
+							["glancemax"] = 552,
+							["criticalmax"] = 1452,
+							["hitmax"] = 734,
+							["hit"] = 47,
+							["school"] = 1,
+							["critical"] = 22,
+							["count"] = 101,
+							["hitamount"] = 27179,
+						},
+						["Quick Shot"] = {
+							["criticalamount"] = 3597,
+							["id"] = 71834,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 1882,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1715,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 3597,
+							["school"] = 1,
+							["criticalmin"] = 1715,
+							["criticalmax"] = 1882,
+							["count"] = 2,
+						},
+						["Steady Shot"] = {
+							["blocked"] = 41,
+							["hitmin"] = 1499,
+							["criticalamount"] = 91261,
+							["id"] = 49052,
+							["hitmax"] = 2105,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 88766,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 20007,
+								},
+							},
+							["count"] = 29,
+							["hit"] = 10,
+							["casts"] = 31,
+							["critical"] = 19,
+							["amount"] = 108773,
+							["school"] = 1,
+							["criticalmin"] = 3461,
+							["criticalmax"] = 5690,
+							["hitamount"] = 17512,
+						},
+						["Kill Shot"] = {
+							["hitmax"] = 7705,
+							["hitmin"] = 7705,
+							["criticalamount"] = 33340,
+							["id"] = 61006,
+							["count"] = 3,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 25363,
+								},
+								["Frozen Orb"] = {
+									["overkill"] = 10311,
+									["amount"] = 15682,
+								},
+							},
+							["overkill"] = 10311,
+							["hit"] = 1,
+							["casts"] = 3,
+							["critical"] = 2,
+							["amount"] = 41045,
+							["school"] = 1,
+							["criticalmin"] = 15682,
+							["criticalmax"] = 17658,
+							["hitamount"] = 7705,
+						},
+						["Bite (Wolfy)"] = {
+							["blocked"] = 41,
+							["PARRY"] = 1,
+							["hitmin"] = 398,
+							["criticalamount"] = 15492,
+							["id"] = 52474,
+							["criticalmin"] = 846,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 42203,
+								},
+							},
+							["criticalmax"] = 1490,
+							["critical"] = 16,
+							["casts"] = 1,
+							["count"] = 73,
+							["hit"] = 56,
+							["school"] = 1,
+							["hitmax"] = 718,
+							["amount"] = 42203,
+							["hitamount"] = 26711,
+						},
+						["Explosive Trap Effect (DoT)"] = {
+							["hitmin"] = 676,
+							["id"] = 49065,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 4909,
+								},
+							},
+							["hitmax"] = 964,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 169,
+							["amount"] = 4909,
+							["hitamount"] = 4909,
+						},
+						["Chimera Shot - Serpent"] = {
+							["critical"] = 6,
+							["criticalmin"] = 4528,
+							["hitmin"] = 2106,
+							["criticalamount"] = 34556,
+							["id"] = 53353,
+							["criticalmax"] = 6776,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 34545,
+								},
+								["Frozen Orb"] = {
+									["overkill"] = 35,
+									["amount"] = 6778,
+								},
+							},
+							["overkill"] = 35,
+							["hitmax"] = 2411,
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 2529,
+							["amount"] = 41323,
+							["hitamount"] = 6767,
+						},
+						["Charge (Wolfy)"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 53148,
+						},
+						["Interrupt"] = {
+							["casts"] = 1,
+							["count"] = 6,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 6,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 32747,
+						},
+					},
+					["damagetaken"] = 56011,
+					["id"] = "0x0700000000084FE8",
+					["spec"] = 254,
+					["damagetakenspells"] = {
+						["Freezing Ground"] = {
+							["hitmin"] = 2740,
+							["id"] = 72104,
+							["hitmax"] = 5400,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 8140,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["resisted"] = 4089,
+							["amount"] = 8140,
+							["hitamount"] = 8140,
+						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1280,
+							["id"] = 72097,
+							["hitmax"] = 2236,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 13743,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 16,
+							["resisted"] = 7688,
+							["amount"] = 13743,
+							["hitamount"] = 13743,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 10380,
+							["id"] = 72096,
+							["hitmax"] = 12024,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 34128,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 10625,
+							["amount"] = 34128,
+							["hitamount"] = 34128,
+						},
+					},
+					["name"] = "Ironshell",
+					["overkill"] = 10346,
+					["totaldamage"] = 776358,
+					["energy"] = 2125,
+					["role"] = "DAMAGER",
+				}, -- [21]
+				{
+					["last"] = 5523.932,
+					["flag"] = 1300,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[72418] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 11,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[53390] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["refresh"] = 22,
+							["uptime"] = 111,
+						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 64,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 5,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 9,
+						},
+						[71199] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 17,
+							["uptime"] = 96,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 27,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 81,
+						},
+						[49233] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 4,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 33,
+									["count"] = 4,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 36,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[64205] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 14,
+						},
+						[33736] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 125,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75473] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[70806] = {
+							["type"] = "BUFF",
+							["count"] = 15,
+							["school"] = 1,
+							["uptime"] = 42,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 7,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 103.28,
+					["totaldamagetaken"] = 82005,
+					["manaspells"] = {
+						[53761] = 3762,
+						[39609] = 31404,
+						[53750] = 4374,
+						[33737] = 7626,
+					},
+					["damage"] = 20964,
+					["overheal"] = 894551,
+					["potion"] = 1,
+					["damagetaken"] = 82005,
+					["id"] = "0x070000000058044A",
+					["spec"] = 264,
+					["healspells"] = {
+						[379] = {
+							["overheal"] = 0,
+							["criticalamount"] = 14750,
+							["max"] = 8056,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 0,
+									["amount"] = 14750,
+								},
+							},
+							["min"] = 6694,
+							["criticalmax"] = 8056,
+							["critical"] = 2,
+							["amount"] = 14750,
+							["school"] = 8,
+							["criticalmin"] = 6694,
+							["count"] = 2,
+						},
+						[52042] = {
+							["overheal"] = 115727,
+							["max"] = 752,
+							["count"] = 255,
+							["amount"] = 47435,
+							["school"] = 8,
+							["min"] = 27,
+							["ishot"] = true,
+							["targets"] = {
+								["Shamanboros"] = {
+									["overheal"] = 23591,
+									["amount"] = 8718,
+								},
+								["Booxeer"] = {
+									["overheal"] = 20616,
+									["amount"] = 11695,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 24007,
+									["amount"] = 9919,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 26586,
+									["amount"] = 5724,
+								},
+								["Famel"] = {
+									["overheal"] = 20927,
+									["amount"] = 11379,
+								},
+							},
+						},
+						[71641] = {
+							["overheal"] = 12802,
+							["max"] = 7794,
+							["count"] = 3,
+							["amount"] = 10701,
+							["school"] = 2,
+							["min"] = 2907,
+							["targets"] = {
+								["Simplelocks"] = {
+									["overheal"] = 7833,
+									["amount"] = 0,
+								},
+								["Apollonn"] = {
+									["overheal"] = 0,
+									["amount"] = 7794,
+								},
+								["Risen Ghoul"] = {
+									["overheal"] = 4969,
+									["amount"] = 2907,
+								},
+							},
+						},
+						[49276] = {
+							["overheal"] = 224398,
+							["criticalamount"] = 45850,
+							["max"] = 11837,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 108252,
+									["amount"] = 40126,
+								},
+								["Apollonn"] = {
+									["overheal"] = 5363,
+									["amount"] = 4016,
+								},
+								["Tamook"] = {
+									["overheal"] = 13252,
+									["amount"] = 5963,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 14204,
+									["amount"] = 1752,
+								},
+								["Orcscream"] = {
+									["overheal"] = 15817,
+									["amount"] = 0,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 9415,
+									["amount"] = 0,
+								},
+								["Risenone"] = {
+									["overheal"] = 11792,
+									["amount"] = 5122,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 9677,
+									["amount"] = 0,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 9841,
+									["amount"] = 0,
+								},
+								["Famel"] = {
+									["overheal"] = 26785,
+									["amount"] = 0,
+								},
+							},
+							["criticalmin"] = 0,
+							["min"] = 1019,
+							["casts"] = 28,
+							["count"] = 28,
+							["amount"] = 56979,
+							["school"] = 8,
+							["criticalmax"] = 11837,
+							["critical"] = 21,
+						},
+						[52000] = {
+							["overheal"] = 46186,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 9048,
+									["amount"] = 3634,
+								},
+								["Laressa"] = {
+									["overheal"] = 3875,
+									["amount"] = 0,
+								},
+								["Booxeer"] = {
+									["overheal"] = 3423,
+									["amount"] = 1141,
+								},
+								["Magnatas"] = {
+									["overheal"] = 3423,
+									["amount"] = 1141,
+								},
+								["Xknappen"] = {
+									["overheal"] = 3920,
+									["amount"] = 0,
+								},
+								["Caiva"] = {
+									["overheal"] = 3873,
+									["amount"] = 0,
+								},
+								["Risenone"] = {
+									["overheal"] = 4582,
+									["amount"] = 309,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 3920,
+									["amount"] = 0,
+								},
+								["Tifura"] = {
+									["overheal"] = 3920,
+									["amount"] = 0,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 3920,
+									["amount"] = 0,
+								},
+								["Famel"] = {
+									["overheal"] = 2282,
+									["amount"] = 2282,
+								},
+							},
+							["count"] = 54,
+							["amount"] = 8507,
+							["school"] = 8,
+							["max"] = 1141,
+							["ishot"] = true,
+							["min"] = 309,
+						},
+						[61301] = {
+							["overheal"] = 92317,
+							["criticalamount"] = 0,
+							["max"] = 4191,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 32756,
+									["amount"] = 3667,
+								},
+								["Apollonn"] = {
+									["overheal"] = 9946,
+									["amount"] = 4191,
+								},
+								["Tamook"] = {
+									["overheal"] = 0,
+									["amount"] = 3815,
+								},
+								["Grottesque"] = {
+									["overheal"] = 5809,
+									["amount"] = 0,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 3720,
+									["amount"] = 1218,
+								},
+								["Orcscream"] = {
+									["overheal"] = 3763,
+									["amount"] = 0,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 8998,
+									["amount"] = 0,
+								},
+								["Welden"] = {
+									["overheal"] = 10426,
+									["amount"] = 0,
+								},
+								["Tifura"] = {
+									["overheal"] = 9905,
+									["amount"] = 0,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 1985,
+									["amount"] = 1824,
+								},
+								["Famel"] = {
+									["overheal"] = 5009,
+									["amount"] = 3689,
+								},
+							},
+							["casts"] = 15,
+							["min"] = 1217,
+							["criticalmax"] = 0,
+							["critical"] = 3,
+							["amount"] = 18404,
+							["school"] = 8,
+							["count"] = 52,
+							["ishot"] = true,
+							["criticalmin"] = 0,
+						},
+						[55459] = {
+							["overheal"] = 354329,
+							["criticalamount"] = 108214,
+							["max"] = 17640,
+							["targets"] = {
+								["Welden"] = {
+									["overheal"] = 0,
+									["amount"] = 14552,
+								},
+								["Apollonn"] = {
+									["overheal"] = 18804,
+									["amount"] = 8828,
+								},
+								["Tamook"] = {
+									["overheal"] = 27917,
+									["amount"] = 5377,
+								},
+								["Grottesque"] = {
+									["overheal"] = 6595,
+									["amount"] = 4608,
+								},
+								["Booxeer"] = {
+									["overheal"] = 1779,
+									["amount"] = 13344,
+								},
+								["Magnatas"] = {
+									["overheal"] = 3206,
+									["amount"] = 13346,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 15704,
+									["amount"] = 12684,
+								},
+								["Risenone"] = {
+									["overheal"] = 33394,
+									["amount"] = 9489,
+								},
+								["Tifura"] = {
+									["overheal"] = 514,
+									["amount"] = 14239,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 17655,
+									["amount"] = 12020,
+								},
+								["Famel"] = {
+									["overheal"] = 37741,
+									["amount"] = 17571,
+								},
+								["Shamaster"] = {
+									["overheal"] = 21380,
+									["amount"] = 9790,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 5387,
+								},
+								["Laressa"] = {
+									["overheal"] = 27694,
+									["amount"] = 6911,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 8282,
+									["amount"] = 4035,
+								},
+								["Xknappen"] = {
+									["overheal"] = 6372,
+									["amount"] = 11080,
+								},
+								["Orcscream"] = {
+									["overheal"] = 43942,
+									["amount"] = 1368,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 17691,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 0,
+									["amount"] = 6293,
+								},
+								["Jutrit"] = {
+									["overheal"] = 987,
+									["amount"] = 3935,
+								},
+								["Echoash"] = {
+									["overheal"] = 7112,
+									["amount"] = 4023,
+								},
+								["Caiva"] = {
+									["overheal"] = 3313,
+									["amount"] = 5849,
+								},
+								["Sejin"] = {
+									["overheal"] = 30344,
+									["amount"] = 18496,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 23903,
+									["amount"] = 1511,
+								},
+							},
+							["casts"] = 26,
+							["min"] = 84,
+							["criticalmax"] = 17640,
+							["critical"] = 33,
+							["amount"] = 204736,
+							["school"] = 8,
+							["criticalmin"] = 0,
+							["count"] = 70,
+						},
+						[52752] = {
+							["overheal"] = 38731,
+							["max"] = 3725,
+							["count"] = 24,
+							["amount"] = 40374,
+							["school"] = 8,
+							["min"] = 332,
+							["targets"] = {
+								["Simplelocks"] = {
+									["overheal"] = 3543,
+									["amount"] = 4997,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 15895,
+									["amount"] = 1938,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 131,
+									["amount"] = 12946,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 412,
+									["amount"] = 2686,
+								},
+								["Risenone"] = {
+									["overheal"] = 7306,
+									["amount"] = 996,
+								},
+								["Tifura"] = {
+									["overheal"] = 4180,
+									["amount"] = 1861,
+								},
+								["Echoash"] = {
+									["overheal"] = 4355,
+									["amount"] = 3057,
+								},
+								["Sejin"] = {
+									["overheal"] = 1023,
+									["amount"] = 11893,
+								},
+								["Famel"] = {
+									["overheal"] = 1886,
+									["amount"] = 0,
+								},
+							},
+						},
+						[53750] = {
+							["overheal"] = 5269,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Famel"] = {
+									["overheal"] = 5269,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["critical"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 0,
+						},
+						[53761] = {
+							["overheal"] = 4792,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Famel"] = {
+									["overheal"] = 4792,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["critical"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 0,
+						},
+					},
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1299,
+							["id"] = 72097,
+							["amount"] = 47785,
+							["hitmax"] = 2552,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 47785,
+								},
+							},
+							["count"] = 25,
+							["hit"] = 24,
+							["school"] = 16,
+							["resisted"] = 19991,
+							["MISS"] = 1,
+							["hitamount"] = 47785,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 9236,
+							["id"] = 72096,
+							["hitmax"] = 14309,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 34220,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 12401,
+							["amount"] = 34220,
+							["hitamount"] = 34220,
+						},
+					},
+					["potionspells"] = {
+						[40077] = 1,
+					},
+					["heal"] = 401886,
+					["name"] = "Famel",
+					["mana"] = 47166,
+					["damagespells"] = {
+						["Flame Shock (DoT)"] = {
+							["hitmin"] = 489,
+							["criticalamount"] = 7575,
+							["id"] = 49233,
+							["criticalmin"] = 666,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 11712,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 578,
+								},
+							},
+							["hitmax"] = 578,
+							["critical"] = 10,
+							["criticalmax"] = 842,
+							["count"] = 19,
+							["hit"] = 9,
+							["school"] = 4,
+							["resisted"] = 1020,
+							["amount"] = 12290,
+							["hitamount"] = 4715,
+						},
+						["Flame Shock"] = {
+							["criticalmin"] = 2147,
+							["hitmin"] = 1253,
+							["criticalamount"] = 4309,
+							["id"] = 49233,
+							["criticalmax"] = 2162,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 6512,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 2162,
+								},
+							},
+							["critical"] = 2,
+							["hitmax"] = 1695,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 139,
+							["amount"] = 8674,
+							["hitamount"] = 4365,
+						},
+					},
+					["totaldamage"] = 20964,
+					["role"] = "HEALER",
+				}, -- [22]
+				{
+					["last"] = 5520.731,
+					["flag"] = 1300,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 35,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 31,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 57,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 5,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[1719] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 5,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[64205] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 20,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 11,
+							["school"] = 1,
+							["refresh"] = 15,
+							["uptime"] = 106,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[67695] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 111,
+							["school"] = 1,
+							["refresh"] = 57,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 57,
+									["uptime"] = 110,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+							},
+							["count"] = 5,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 37,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70855] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 10,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[23885] = {
+							["type"] = "BUFF",
+							["count"] = 21,
+							["school"] = 1,
+							["uptime"] = 49,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 4,
+							["uptime"] = 98,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 124,
+						},
+						[12292] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["time"] = 113.1400000000001,
+					["totaldamagetaken"] = 166002,
+					["damage"] = 699863,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 12843,
+							["hitmin"] = 1418,
+							["criticalmin"] = 2672,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 120119,
+								},
+							},
+							["glancing"] = 11,
+							["amount"] = 120119,
+							["MISS"] = 1,
+							["glancemin"] = 1025,
+							["criticalamount"] = 72592,
+							["id"] = 6603,
+							["glancemax"] = 1755,
+							["criticalmax"] = 5816,
+							["critical"] = 21,
+							["hit"] = 20,
+							["school"] = 1,
+							["hitmax"] = 2690,
+							["count"] = 53,
+							["hitamount"] = 34684,
+						},
+						["Slam"] = {
+							["hitmin"] = 2734,
+							["criticalamount"] = 12548,
+							["id"] = 50783,
+							["criticalmin"] = 6087,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 32447,
+								},
+							},
+							["criticalmax"] = 6461,
+							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 4505,
+							["amount"] = 32447,
+							["hitamount"] = 19899,
+						},
+						["Whirlwind"] = {
+							["hitmin"] = 1605,
+							["criticalamount"] = 62305,
+							["id"] = 1680,
+							["hitmax"] = 3760,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 67809,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 28847,
+								},
+							},
+							["count"] = 24,
+							["hit"] = 13,
+							["casts"] = 8,
+							["critical"] = 11,
+							["amount"] = 96656,
+							["school"] = 1,
+							["criticalmin"] = 3764,
+							["criticalmax"] = 8586,
+							["hitamount"] = 34351,
+						},
+						["Intercept"] = {
+							["criticalamount"] = 1010,
+							["id"] = 20253,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 1010,
 								},
 							},
 							["casts"] = 1,
 							["critical"] = 1,
-							["amount"] = 10284,
+							["amount"] = 1010,
 							["school"] = 1,
-							["criticalmin"] = 10284,
-							["criticalmax"] = 10284,
+							["criticalmin"] = 1010,
+							["criticalmax"] = 1010,
+							["count"] = 1,
+						},
+						["Bloodthirst"] = {
+							["hitmin"] = 3271,
+							["criticalamount"] = 87839,
+							["id"] = 23881,
+							["criticalmin"] = 7260,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 127738,
+								},
+							},
+							["criticalmax"] = 10593,
+							["critical"] = 11,
+							["casts"] = 21,
+							["count"] = 21,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 5496,
+							["amount"] = 127738,
+							["hitamount"] = 39899,
+						},
+						["Execute"] = {
+							["hitmin"] = 2786,
+							["criticalamount"] = 38124,
+							["id"] = 20647,
+							["hitmax"] = 2869,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 43779,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 2,
+							["casts"] = 1,
+							["critical"] = 6,
+							["amount"] = 43779,
+							["school"] = 1,
+							["criticalmin"] = 6069,
+							["criticalmax"] = 6993,
+							["hitamount"] = 5655,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 140,
+							["id"] = 12721,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 75062,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 840,
+								},
+							},
+							["count"] = 81,
+							["hit"] = 81,
+							["school"] = 1,
+							["hitmax"] = 1756,
+							["amount"] = 75902,
+							["hitamount"] = 75902,
+						},
+						["Heroic Throw"] = {
+							["criticalamount"] = 14244,
+							["id"] = 57755,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 14244,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 14244,
+							["school"] = 1,
+							["criticalmin"] = 6564,
+							["criticalmax"] = 7680,
+							["count"] = 2,
+						},
+						["Heroic Strike"] = {
+							["PARRY"] = 2,
+							["hitmin"] = 2673,
+							["criticalamount"] = 111324,
+							["id"] = 47450,
+							["hitmax"] = 4376,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 187968,
+								},
+							},
+							["count"] = 42,
+							["hit"] = 25,
+							["casts"] = 42,
+							["critical"] = 15,
+							["amount"] = 187968,
+							["school"] = 1,
+							["criticalmin"] = 5915,
+							["criticalmax"] = 9827,
+							["hitamount"] = 76644,
+						},
+					},
+					["damagetaken"] = 166002,
+					["id"] = "0x070000000062BDAA",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 13509,
+							["max"] = 379,
+							["count"] = 63,
+							["amount"] = 10368,
+							["school"] = 1,
+							["min"] = 181,
+							["targets"] = {
+								["Booxeer"] = {
+									["overheal"] = 13509,
+									["amount"] = 10368,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["hitmin"] = 1346,
+							["id"] = 72097,
+							["hitmax"] = 2787,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 125445,
+								},
+							},
+							["count"] = 57,
+							["hit"] = 57,
+							["school"] = 16,
+							["resisted"] = 47002,
+							["amount"] = 125445,
+							["hitamount"] = 125445,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 11546,
+							["id"] = 72096,
+							["hitmax"] = 16286,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 40557,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 12210,
+							["amount"] = 40557,
+							["hitamount"] = 40557,
+						},
+					},
+					["overheal"] = 13509,
+					["ragespells"] = {
+						[29131] = 30,
+						[2687] = 60,
+						[12964] = 22,
+					},
+					["name"] = "Booxeer",
+					["heal"] = 10368,
+					["rage"] = 112,
+					["totaldamage"] = 699863,
+					["role"] = "DAMAGER",
+				}, -- [23]
+				{
+					["last"] = 5521.797000000001,
+					["flag"] = 1300,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 24,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[31834] = {
+							["type"] = "BUFF",
+							["count"] = 12,
+							["school"] = 2,
+							["refresh"] = 54,
+							["uptime"] = 121,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 108,
+							["school"] = 2,
+							["refresh"] = 6,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 6,
+									["uptime"] = 108,
+								},
+							},
+							["count"] = 2,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 66,
+						},
+						[65000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["refresh"] = 14,
+							["uptime"] = 18,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57332] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[64205] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[53749] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["uptime"] = 42,
+						},
+						[67750] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 72,
+							["uptime"] = 121,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[54153] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 7,
+							["uptime"] = 123,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[20216] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 2,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[64999] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[31821] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 33,
+						},
+						[31842] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 125,
+						},
+						[20166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[54428] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 31,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 7,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+					},
+					["absorbspells"] = {
+						[58597] = {
+							["min"] = 224,
+							["casts"] = 13,
+							["count"] = 19,
+							["amount"] = 50082,
+							["school"] = 2,
+							["targets"] = {
+								["Sejin"] = 50082,
+							},
+							["max"] = 4400,
+						},
+					},
+					["time"] = 114.41,
+					["manaspells"] = {
+						[20272] = 13752,
+						[20168] = 6036,
+						[55382] = 2400,
+						[54428] = 18870,
+					},
+					["totaldamagetaken"] = 81717,
+					["totaldamage"] = 21109,
+					["damage"] = 21109,
+					["overheal"] = 2629098,
+					["absorb"] = 50082,
+					["damagetaken"] = 81717,
+					["id"] = "0x070000000077E900",
+					["spec"] = 65,
+					["healspells"] = {
+						[53654] = {
+							["overheal"] = 734130,
+							["max"] = 19299,
+							["count"] = 60,
+							["amount"] = 178926,
+							["school"] = 2,
+							["min"] = 9,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 734130,
+									["amount"] = 178926,
+								},
+							},
+						},
+						[20267] = {
+							["overheal"] = 808637,
+							["max"] = 1388,
+							["count"] = 1774,
+							["amount"] = 252773,
+							["school"] = 2,
+							["min"] = 12,
+							["ishot"] = true,
+							["targets"] = {
+								["Simplelocks"] = {
+									["overheal"] = 11146,
+									["amount"] = 4560,
+								},
+								["Apollonn"] = {
+									["overheal"] = 16082,
+									["amount"] = 2175,
+								},
+								["Tamook"] = {
+									["overheal"] = 18030,
+									["amount"] = 16622,
+								},
+								["Grottesque"] = {
+									["overheal"] = 20284,
+									["amount"] = 1902,
+								},
+								["Booxeer"] = {
+									["overheal"] = 30571,
+									["amount"] = 20111,
+								},
+								["Magnatas"] = {
+									["overheal"] = 43319,
+									["amount"] = 16349,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 23119,
+									["amount"] = 832,
+								},
+								["Famel"] = {
+									["overheal"] = 1338,
+									["amount"] = 669,
+								},
+								["Jutrit"] = {
+									["overheal"] = 57530,
+									["amount"] = 26230,
+								},
+								["Urgash"] = {
+									["overheal"] = 52743,
+									["amount"] = 10986,
+								},
+								["Adi"] = {
+									["overheal"] = 32075,
+									["amount"] = 252,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 6440,
+									["amount"] = 644,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 16363,
+									["amount"] = 1130,
+								},
+								["Wolfy"] = {
+									["overheal"] = 35022,
+									["amount"] = 1813,
+								},
+								["Echoash"] = {
+									["overheal"] = 70557,
+									["amount"] = 42959,
+								},
+								["Welden"] = {
+									["overheal"] = 8003,
+									["amount"] = 616,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 3351,
+									["amount"] = 115,
+								},
+								["Spirit Wolf"] = {
+									["overheal"] = 1854,
+									["amount"] = 0,
+								},
+								["Risenone"] = {
+									["overheal"] = 37716,
+									["amount"] = 17878,
+								},
+								["Wolf"] = {
+									["overheal"] = 28958,
+									["amount"] = 748,
+								},
+								["Risen Ghoul"] = {
+									["overheal"] = 106,
+									["amount"] = 424,
+								},
+								["Bloodworm"] = {
+									["overheal"] = 279,
+									["amount"] = 0,
+								},
+								["Shadowfiend"] = {
+									["overheal"] = 2460,
+									["amount"] = 49,
+								},
+								["Ironshell"] = {
+									["overheal"] = 23862,
+									["amount"] = 3492,
+								},
+								["Laressa"] = {
+									["overheal"] = 27707,
+									["amount"] = 17119,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 60365,
+									["amount"] = 6006,
+								},
+								["Greater Fire Elemental"] = {
+									["overheal"] = 9019,
+									["amount"] = 3653,
+								},
+								["Ebon Gargoyle"] = {
+									["overheal"] = 5066,
+									["amount"] = 1435,
+								},
+								["Xknappen"] = {
+									["overheal"] = 7645,
+									["amount"] = 1132,
+								},
+								["Caiva"] = {
+									["overheal"] = 15360,
+									["amount"] = 2689,
+								},
+								["Shamaster"] = {
+									["overheal"] = 37828,
+									["amount"] = 19365,
+								},
+								["Orcscream"] = {
+									["overheal"] = 9120,
+									["amount"] = 3755,
+								},
+								["Treant"] = {
+									["overheal"] = 8908,
+									["amount"] = 3081,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 19299,
+									["amount"] = 5261,
+								},
+								["Tifura"] = {
+									["overheal"] = 21876,
+									["amount"] = 3827,
+								},
+								["Sejin"] = {
+									["overheal"] = 45236,
+									["amount"] = 14894,
+								},
+							},
+						},
+						[48782] = {
+							["overheal"] = 856980,
+							["criticalamount"] = 74398,
+							["max"] = 16007,
+							["targets"] = {
+								["Welden"] = {
+									["overheal"] = 111322,
+									["amount"] = 3232,
+								},
+								["Tamook"] = {
+									["overheal"] = 19995,
+									["amount"] = 0,
+								},
+								["Grottesque"] = {
+									["overheal"] = 20235,
+									["amount"] = 0,
+								},
+								["Booxeer"] = {
+									["overheal"] = 25439,
+									["amount"] = 21705,
+								},
+								["Magnatas"] = {
+									["overheal"] = 45534,
+									["amount"] = 0,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 14448,
+									["amount"] = 9337,
+								},
+								["Tifura"] = {
+									["overheal"] = 23282,
+									["amount"] = 16007,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 16834,
+									["amount"] = 3004,
+								},
+								["Famel"] = {
+									["overheal"] = 27412,
+									["amount"] = 4987,
+								},
+								["Shamaster"] = {
+									["overheal"] = 18489,
+									["amount"] = 5086,
+								},
+								["Laressa"] = {
+									["overheal"] = 25493,
+									["amount"] = 5514,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 160669,
+									["amount"] = 18239,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 195054,
+									["amount"] = 24580,
+								},
+								["Orcscream"] = {
+									["overheal"] = 39470,
+									["amount"] = 0,
+								},
+								["Caiva"] = {
+									["overheal"] = 10773,
+									["amount"] = 0,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 59169,
+									["amount"] = 0,
+								},
+								["Echoash"] = {
+									["overheal"] = 10429,
+									["amount"] = 2619,
+								},
+								["Ironshell"] = {
+									["overheal"] = 13907,
+									["amount"] = 29942,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 19026,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 16007,
+							["min"] = 772,
+							["casts"] = 67,
+							["count"] = 66,
+							["amount"] = 144252,
+							["school"] = 2,
+							["criticalmin"] = 0,
+							["critical"] = 36,
+						},
+						[54968] = {
+							["overheal"] = 229351,
+							["max"] = 2099,
+							["count"] = 224,
+							["amount"] = 104273,
+							["school"] = 2,
+							["min"] = 138,
+							["targets"] = {
+								["Welden"] = {
+									["overheal"] = 4212,
+									["amount"] = 3446,
+								},
+								["Risen Ghoul"] = {
+									["overheal"] = 0,
+									["amount"] = 704,
+								},
+								["Apollonn"] = {
+									["overheal"] = 17585,
+									["amount"] = 1405,
+								},
+								["Tamook"] = {
+									["overheal"] = 633,
+									["amount"] = 8433,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 15226,
+									["amount"] = 835,
+								},
+								["Grottesque"] = {
+									["overheal"] = 3008,
+									["amount"] = 0,
+								},
+								["Booxeer"] = {
+									["overheal"] = 51,
+									["amount"] = 9295,
+								},
+								["Adi"] = {
+									["overheal"] = 1395,
+									["amount"] = 0,
+								},
+								["Magnatas"] = {
+									["overheal"] = 9453,
+									["amount"] = 6060,
+								},
+								["Ironshell"] = {
+									["overheal"] = 12839,
+									["amount"] = 1120,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 4796,
+									["amount"] = 3942,
+								},
+								["Risenone"] = {
+									["overheal"] = 0,
+									["amount"] = 1369,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 2087,
+									["amount"] = 0,
+								},
+								["Tifura"] = {
+									["overheal"] = 17436,
+									["amount"] = 2320,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 5269,
+									["amount"] = 3410,
+								},
+								["Famel"] = {
+									["overheal"] = 0,
+									["amount"] = 7172,
+								},
+								["Shamaster"] = {
+									["overheal"] = 492,
+									["amount"] = 10735,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 2841,
+								},
+								["Wolf"] = {
+									["overheal"] = 1120,
+									["amount"] = 0,
+								},
+								["Wolfy"] = {
+									["overheal"] = 12890,
+									["amount"] = 0,
+								},
+								["Laressa"] = {
+									["overheal"] = 5412,
+									["amount"] = 4567,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 5026,
+									["amount"] = 3657,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 6005,
+									["amount"] = 0,
+								},
+								["Orcscream"] = {
+									["overheal"] = 2502,
+									["amount"] = 5310,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 10850,
+									["amount"] = 0,
+								},
+								["Greater Fire Elemental"] = {
+									["overheal"] = 17313,
+									["amount"] = 4458,
+								},
+								["Echoash"] = {
+									["overheal"] = 9598,
+									["amount"] = 6661,
+								},
+								["Jutrit"] = {
+									["overheal"] = 13942,
+									["amount"] = 7719,
+								},
+								["Treant"] = {
+									["overheal"] = 7945,
+									["amount"] = 3583,
+								},
+								["Caiva"] = {
+									["overheal"] = 6843,
+									["amount"] = 1406,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 17860,
+									["amount"] = 397,
+								},
+								["Xknappen"] = {
+									["overheal"] = 17563,
+									["amount"] = 3428,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Freezing Ground"] = {
+							["hitmin"] = 4497,
+							["id"] = 72104,
+							["hitmax"] = 4497,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 4497,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 1124,
+							["amount"] = 4497,
+							["hitamount"] = 4497,
+						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1295,
+							["id"] = 72097,
+							["hitmax"] = 2986,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 45733,
+								},
+							},
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 16,
+							["resisted"] = 16309,
+							["amount"] = 45733,
+							["hitamount"] = 45733,
+						},
+						["Whiteout"] = {
+							["hitmin"] = 8100,
+							["id"] = 72096,
+							["hitmax"] = 12585,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 31487,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 15421,
+							["amount"] = 31487,
+							["hitamount"] = 31487,
+						},
+					},
+					["dispel"] = 1,
+					["heal"] = 680224,
+					["name"] = "Fluidliftedx",
+					["mana"] = 41058,
+					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 186,
+							["hitmin"] = 232,
+							["criticalmin"] = 490,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 5580,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 5580,
+							["glancemin"] = 186,
+							["criticalamount"] = 2910,
+							["id"] = 6603,
+							["glancemax"] = 186,
+							["criticalmax"] = 754,
+							["critical"] = 5,
+							["hit"] = 8,
+							["school"] = 1,
+							["count"] = 15,
+							["hitmax"] = 368,
+							["hitamount"] = 2484,
+						},
+						["Judgement"] = {
+							["criticalmin"] = 3136,
+							["hitmin"] = 1380,
+							["criticalamount"] = 6272,
+							["id"] = 54158,
+							["criticalmax"] = 3136,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 15529,
+								},
+							},
+							["critical"] = 2,
+							["hitmax"] = 1742,
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 6,
+							["school"] = 2,
+							["resisted"] = 1561,
+							["amount"] = 15529,
+							["hitamount"] = 9257,
+						},
+					},
+					["dispelspells"] = {
+						[4987] = {
+							["spells"] = {
+								[72104] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Evelinayou"] = 1,
+							},
+						},
+					},
+					["role"] = "HEALER",
+				}, -- [24]
+				{
+					["last"] = 5521.705,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[66803] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 15,
+							["uptime"] = 119,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 117,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 114,
+							["school"] = 16,
+							["refresh"] = 3,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 3,
+									["uptime"] = 114,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 14,
+									["count"] = 1,
+								},
+							},
+							["count"] = 4,
+						},
+						[71560] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 13,
+							["refresh"] = 4,
+							["school"] = 1,
+							["uptime"] = 125,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 119,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 5,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 9,
+							["uptime"] = 92,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 89,
+							["school"] = 32,
+							["refresh"] = 13,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 13,
+									["uptime"] = 89,
+								},
+							},
+							["count"] = 3,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 116,
+							["school"] = 32,
+							["refresh"] = 11,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 11,
+									["uptime"] = 116,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 14,
+									["count"] = 1,
+								},
+							},
+							["count"] = 2,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 8,
+							["uptime"] = 42,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 14,
+							["uptime"] = 119,
+						},
+						[75456] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["uptime"] = 45,
+						},
+						[32182] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 40,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[70940] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 20,
+									["count"] = 2,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 19,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 20,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 41,
+							["uptime"] = 65,
+						},
+						[48792] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[49206] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 40,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 40,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 52,
+							["uptime"] = 117,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 64,
+						},
+						[23060] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 113,
+						},
+						[48707] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["uptime"] = 15,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[71559] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 31,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[73422] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["uptime"] = 51,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 113,
+							["school"] = 32,
+							["refresh"] = 3,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 3,
+									["uptime"] = 113,
+								},
+								["Frozen Orb"] = {
+									["uptime"] = 14,
+									["count"] = 1,
+								},
+							},
+							["count"] = 4,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 125,
+						},
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 17,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 97,
+						},
+					},
+					["absorbspells"] = {
+						[48707] = {
+							["min"] = 924,
+							["casts"] = 3,
+							["count"] = 4,
+							["amount"] = 9274,
+							["school"] = 32,
+							["targets"] = {
+								["Urgash"] = 9274,
+							},
+							["max"] = 5653,
+						},
+					},
+					["time"] = 117.6700000000001,
+					["totaldamagetaken"] = 67994,
+					["damage"] = 1529989,
+					["overheal"] = 37324,
+					["absorb"] = 9274,
+					["damagetaken"] = 58720,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 24388,
+							["max"] = 484,
+							["count"] = 192,
+							["amount"] = 6217,
+							["school"] = 1,
+							["min"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 24388,
+									["amount"] = 6217,
+								},
+							},
+						},
+						[53365] = {
+							["overheal"] = 12936,
+							["criticalamount"] = 0,
+							["max"] = 1199,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 12936,
+									["amount"] = 1199,
+								},
+							},
+							["min"] = 1199,
+							["criticalmax"] = 0,
+							["count"] = 11,
+							["amount"] = 1199,
+							["school"] = 1,
+							["criticalmin"] = 0,
+							["critical"] = 2,
+						},
+					},
+					["damagetakenspells"] = {
+						["Frozen Orb"] = {
+							["total"] = 47622,
+							["hitmin"] = 308,
+							["id"] = 72097,
+							["hitmax"] = 2601,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["total"] = 47622,
+									["amount"] = 44001,
+								},
+							},
+							["count"] = 29,
+							["hit"] = 29,
+							["school"] = 16,
+							["resisted"] = 15936,
+							["amount"] = 44001,
+							["hitamount"] = 44001,
+						},
+						["Whiteout"] = {
+							["total"] = 20372,
+							["hitmin"] = 1885,
+							["id"] = 72096,
+							["hitmax"] = 7589,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["total"] = 20372,
+									["amount"] = 14719,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 10535,
+							["amount"] = 14719,
+							["hitamount"] = 14719,
+						},
+					},
+					["runicspells"] = {
+						[49088] = 134,
+					},
+					["heal"] = 7416,
+					["name"] = "Urgash",
+					["runic"] = 134,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["hitmin"] = 4473,
+							["criticalamount"] = 87387,
+							["id"] = 55271,
+							["hitmax"] = 5242,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 121185,
+								},
+							},
+							["count"] = 15,
+							["hit"] = 7,
+							["casts"] = 15,
+							["critical"] = 8,
+							["amount"] = 121185,
+							["school"] = 1,
+							["criticalmin"] = 8765,
+							["criticalmax"] = 12357,
+							["hitamount"] = 33798,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 696,
+							["id"] = 71904,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 13279,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1595,
+								},
+							},
+							["hitmax"] = 3267,
+							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 32,
+							["resisted"] = 811,
+							["amount"] = 14874,
+							["hitamount"] = 14874,
+						},
+						["Blood Strike"] = {
+							["DODGE"] = 1,
+							["blocked"] = 41,
+							["hitmin"] = 2466,
+							["criticalamount"] = 72381,
+							["id"] = 49930,
+							["hitmax"] = 2833,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 83083,
+								},
+							},
+							["count"] = 18,
+							["hit"] = 4,
+							["casts"] = 18,
+							["critical"] = 13,
+							["amount"] = 83083,
+							["school"] = 1,
+							["criticalmin"] = 4564,
+							["criticalmax"] = 6217,
+							["hitamount"] = 10702,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 56,
+							["id"] = 50536,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 11773,
+								},
+							},
+							["hitmax"] = 254,
+							["count"] = 78,
+							["hit"] = 78,
+							["school"] = 32,
+							["resisted"] = 717,
+							["amount"] = 11773,
+							["hitamount"] = 11773,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1068,
+							["id"] = 50526,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 68591,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 19761,
+								},
+							},
+							["hitmax"] = 2234,
+							["casts"] = 1,
+							["count"] = 55,
+							["hit"] = 55,
+							["school"] = 32,
+							["resisted"] = 6439,
+							["amount"] = 88352,
+							["hitamount"] = 88352,
+						},
+						["Pestilence"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 50842,
+						},
+						["Melee"] = {
+							["DODGE"] = 7,
+							["glance"] = 52960,
+							["hitmin"] = 3811,
+							["criticalmin"] = 6192,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 328436,
+								},
+							},
+							["glancing"] = 17,
+							["amount"] = 328436,
+							["glancemin"] = 2574,
+							["criticalamount"] = 237101,
+							["id"] = 6603,
+							["glancemax"] = 3584,
+							["criticalmax"] = 10118,
+							["critical"] = 28,
+							["hit"] = 9,
+							["school"] = 1,
+							["count"] = 61,
+							["hitmax"] = 4756,
+							["hitamount"] = 38375,
+						},
+						["Icy Touch"] = {
+							["hitmax"] = 3048,
+							["hitmin"] = 1826,
+							["criticalamount"] = 10644,
+							["id"] = 49909,
+							["criticalmin"] = 4917,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 21288,
+								},
+							},
+							["criticalmax"] = 5727,
+							["critical"] = 2,
+							["casts"] = 6,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 16,
+							["resisted"] = 1822,
+							["amount"] = 21288,
+							["hitamount"] = 10644,
+						},
+						["Death and Decay"] = {
+							["criticalmin"] = 1971,
+							["hitmin"] = 839,
+							["criticalamount"] = 48002,
+							["id"] = 52212,
+							["criticalmax"] = 2777,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 41032,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 40745,
+								},
+							},
+							["critical"] = 19,
+							["hitmax"] = 1329,
+							["casts"] = 2,
+							["count"] = 50,
+							["hit"] = 31,
+							["school"] = 32,
+							["resisted"] = 5954,
+							["amount"] = 81777,
+							["hitamount"] = 33775,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 2180,
+							["id"] = 70890,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 60553,
+								},
+							},
+							["hitmax"] = 5972,
+							["casts"] = 1,
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 32,
+							["resisted"] = 4136,
+							["amount"] = 60553,
+							["hitamount"] = 60553,
+						},
+						["Death Coil"] = {
+							["hitmax"] = 5672,
+							["hitmin"] = 3530,
+							["criticalamount"] = 94426,
+							["id"] = 47632,
+							["criticalmin"] = 8617,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 128420,
+								},
+							},
+							["criticalmax"] = 12091,
+							["critical"] = 9,
+							["casts"] = 16,
+							["count"] = 16,
+							["hit"] = 7,
+							["school"] = 32,
+							["resisted"] = 3036,
+							["amount"] = 128420,
+							["hitamount"] = 33994,
+						},
+						["Melee (Casketrumbler)"] = {
+							["glance"] = 25726,
+							["hitmin"] = 643,
+							["criticalmin"] = 1424,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 142048,
+								},
+							},
+							["glancing"] = 43,
+							["amount"] = 142048,
+							["glancemin"] = 531,
+							["criticalamount"] = 48560,
+							["id"] = 6603,
+							["glancemax"] = 639,
+							["PARRY"] = 2,
+							["blocked"] = 41,
+							["criticalmax"] = 1702,
+							["hitmax"] = 853,
+							["hit"] = 84,
+							["school"] = 1,
+							["critical"] = 30,
+							["count"] = 159,
+							["hitamount"] = 67762,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 428,
+							["id"] = 51460,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 61079,
+								},
+							},
+							["hitmax"] = 2023,
+							["casts"] = 1,
+							["count"] = 54,
+							["hit"] = 54,
+							["school"] = 32,
+							["resisted"] = 4582,
+							["amount"] = 61079,
+							["hitamount"] = 61079,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1426,
+							["id"] = 55078,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 59893,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 7392,
+								},
+							},
+							["hitmax"] = 1998,
+							["count"] = 39,
+							["hit"] = 39,
+							["school"] = 32,
+							["resisted"] = 4643,
+							["amount"] = 67285,
+							["hitamount"] = 67285,
+						},
+						["Blood-Caked Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 783,
+							["id"] = 50463,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 45711,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 19,
+							["hit"] = 18,
+							["school"] = 1,
+							["hitmax"] = 3105,
+							["amount"] = 45711,
+							["hitamount"] = 45711,
+						},
+						["Gargoyle Strike (Ebon Gargoyle)"] = {
+							["criticalmin"] = 7366,
+							["hitmin"] = 4354,
+							["criticalamount"] = 7366,
+							["id"] = 51963,
+							["criticalmax"] = 7366,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 115939,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 5473,
+							["casts"] = 1,
+							["count"] = 22,
+							["hit"] = 21,
+							["school"] = 8,
+							["resisted"] = 6819,
+							["amount"] = 115939,
+							["hitamount"] = 108573,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 2501,
+							["criticalamount"] = 21332,
+							["id"] = 49921,
+							["criticalmin"] = 6811,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 29892,
+								},
+							},
+							["criticalmax"] = 7656,
+							["critical"] = 3,
+							["casts"] = 6,
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 3139,
+							["amount"] = 29892,
+							["hitamount"] = 8560,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1413,
+							["id"] = 55095,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 72226,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 10220,
+								},
+							},
+							["hitmax"] = 2621,
+							["count"] = 40,
+							["hit"] = 40,
+							["school"] = 16,
+							["resisted"] = 4736,
+							["amount"] = 82446,
+							["hitamount"] = 82446,
+						},
+						["Claw (Casketrumbler)"] = {
+							["hitmin"] = 987,
+							["criticalamount"] = 16848,
+							["id"] = 47468,
+							["criticalmin"] = 2198,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 45848,
+								},
+							},
+							["criticalmax"] = 2556,
+							["critical"] = 7,
+							["casts"] = 1,
+							["count"] = 31,
+							["hit"] = 24,
+							["school"] = 1,
+							["hitmax"] = 1272,
+							["amount"] = 45848,
+							["hitamount"] = 29000,
+						},
+					},
+					["totaldamage"] = 1529989,
+					["role"] = "DAMAGER",
+				}, -- [25]
+				{
+					["last"] = 5440.787,
+					["id"] = "Toravon the Ice Watcher",
+					["class"] = "BOSS",
+					["auras"] = {
+						[72104] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 16,
+							["targets"] = {
+								["Ironshell"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Shamanboros"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Grottesque"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Laressa"] = {
+									["uptime"] = 13,
+									["count"] = 2,
+								},
+								["Xknappen"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Orcscream"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 13,
+						},
+					},
+					["name"] = "Toravon the Ice Watcher",
+					["time"] = 0,
+					["flag"] = 68168,
+				}, -- [26]
+				{
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 10,
+							["id"] = 6603,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 38,
+								},
+							},
+							["amount"] = 38,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 14,
+							["MISS"] = 1,
+							["hitamount"] = 38,
+						},
+					},
+					["last"] = 5500.49,
+					["id"] = "Venomous Snake",
+					["class"] = "PET",
+					["name"] = "Venomous Snake",
+					["totaldamage"] = 38,
+					["time"] = 0.4500000000000001,
+					["flag"] = 4372,
+					["damage"] = 38,
+				}, -- [27]
+				{
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 22,
+							["criticalamount"] = 48,
+							["id"] = 6603,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["amount"] = 92,
+								},
+							},
+							["hitmax"] = 22,
+							["count"] = 3,
+							["criticalmax"] = 48,
+							["critical"] = 1,
+							["amount"] = 92,
+							["school"] = 1,
+							["hit"] = 2,
+							["criticalmin"] = 48,
+							["hitamount"] = 44,
+						},
+					},
+					["last"] = 5500.492,
+					["id"] = "Viper",
+					["class"] = "PET",
+					["name"] = "Viper",
+					["totaldamage"] = 92,
+					["time"] = 0.45,
+					["flag"] = 4372,
+					["damage"] = 92,
+				}, -- [28]
+			},
+			["runic"] = 1103,
+			["energy"] = 8843,
+			["endtime"] = 1697373111,
+		}, -- [1]
+		{
+			["overheal"] = 6037297,
+			["success"] = true,
+			["gotboss"] = 35013,
+			["mana"] = 289344,
+			["runic"] = 1329,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 62446,
+							["targets"] = {
+								["Sejin"] = {
+									["total"] = 98008,
+									["amount"] = 83376,
+								},
+							},
+							["amount"] = 83376,
+						},
+						[67329] = {
+							["school"] = 4,
+							["total"] = 121228,
+							["targets"] = {
+								["Sejin"] = {
+									["total"] = 24995,
+									["amount"] = 23038,
+								},
+								["Apollonn"] = {
+									["amount"] = 24394,
+								},
+								["Tamook"] = {
+									["amount"] = 24595,
+								},
+								["Grottesque"] = {
+									["amount"] = 22243,
+								},
+								["Booxeer"] = {
+									["amount"] = 28329,
+								},
+								["Magnatas"] = {
+									["amount"] = 31317,
+								},
+								["Shamanboros"] = {
+									["amount"] = 24310,
+								},
+								["Risenone"] = {
+									["total"] = 25135,
+									["amount"] = 21533,
+								},
+								["Tifura"] = {
+									["amount"] = 23547,
+								},
+								["Ohdeer"] = {
+									["amount"] = 25474,
+								},
+								["Famel"] = {
+									["amount"] = 26897,
+								},
+								["Shamaster"] = {
+									["amount"] = 22345,
+								},
+								["Urgash"] = {
+									["total"] = 20510,
+									["amount"] = 17847,
+								},
+								["Laressa"] = {
+									["amount"] = 26096,
+								},
+								["Fluidliftedx"] = {
+									["amount"] = 27234,
+								},
+								["Xknappen"] = {
+									["amount"] = 23255,
+								},
+								["Orcscream"] = {
+									["amount"] = 22894,
+								},
+								["Jutrit"] = {
+									["amount"] = 25329,
+								},
+								["Simplelocks"] = {
+									["total"] = 26314,
+									["amount"] = 21054,
+								},
+								["Paracethamol"] = {
+									["amount"] = 25982,
+								},
+								["Ironshell"] = {
+									["amount"] = 24116,
+								},
+								["Caiva"] = {
+									["amount"] = 27799,
+								},
+								["Evelinayou"] = {
+									["amount"] = 20774,
+								},
+								["Welden"] = {
+									["total"] = 26217,
+									["amount"] = 22596,
+								},
+								["Echoash"] = {
+									["amount"] = 25734,
+								},
+							},
+							["amount"] = 608732,
+						},
+						[67333] = {
+							["school"] = 4,
+							["total"] = 231157,
+							["targets"] = {
+								["Sejin"] = {
+									["total"] = 267522,
+									["amount"] = 147045,
+								},
+								["Welden"] = {
+									["amount"] = 21143,
+								},
+							},
+							["amount"] = 168188,
+						},
+						[67332] = {
+							["school"] = 4,
+							["total"] = 381334,
+							["targets"] = {
+								["Welden"] = {
+									["amount"] = 21369,
+								},
+								["Grottesque"] = {
+									["amount"] = 4279,
+								},
+								["Booxeer"] = {
+									["amount"] = 80368,
+								},
+								["Magnatas"] = {
+									["amount"] = 24628,
+								},
+								["Shamanboros"] = {
+									["amount"] = 99877,
+								},
+								["Risenone"] = {
+									["amount"] = 9264,
+								},
+								["Famel"] = {
+									["amount"] = 7348,
+								},
+								["Shamaster"] = {
+									["amount"] = 20122,
+								},
+								["Urgash"] = {
+									["total"] = 15992,
+									["amount"] = 11094,
+								},
+								["Laressa"] = {
+									["amount"] = 10879,
+								},
+								["Fluidliftedx"] = {
+									["amount"] = 12906,
+								},
+								["Xknappen"] = {
+									["amount"] = 3396,
+								},
+								["Orcscream"] = {
+									["amount"] = 12045,
+								},
+								["Jutrit"] = {
+									["amount"] = 57448,
+								},
+								["Evelinayou"] = {
+									["amount"] = 4008,
+								},
+								["Caiva"] = {
+									["amount"] = 32218,
+								},
+								["Echoash"] = {
+									["amount"] = 20869,
+								},
+							},
+							["amount"] = 432118,
+						},
+					},
+					["damagetaken"] = 13250800,
+					["flag"] = 68168,
+					["class"] = "BOSS",
+					["damagetakenspells"] = {
+						[49233] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 27867,
+								},
+								["Famel"] = {
+									["amount"] = 18752,
+								},
+							},
+							["amount"] = 46619,
+						},
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 540289,
+								},
+								["Evelinayou"] = {
+									["amount"] = 558724,
+								},
+							},
+							["amount"] = 1099013,
+						},
+						[42891] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 57027,
+								},
+								["Xknappen"] = {
+									["amount"] = 88973,
+								},
+								["Orcscream"] = {
+									["amount"] = 101064,
+								},
+							},
+							["amount"] = 247064,
+						},
+						[53190] = {
+							["school"] = 64,
+							["sources"] = {
+								["Caiva"] = {
+									["amount"] = 17864,
+								},
+								["Paracethamol"] = {
+									["amount"] = 22951,
+								},
+								["Tifura"] = {
+									["amount"] = 9188,
+								},
+							},
+							["amount"] = 50003,
+						},
+						[47864] = {
+							["school"] = 32,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 24859,
+								},
+							},
+							["amount"] = 24859,
+						},
+						[47995] = {
+							["school"] = 1,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 144,
+								},
+							},
+							["amount"] = 144,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 53085,
+								},
+								["Apollonn"] = {
+									["amount"] = 31405,
+								},
+								["Tamook"] = {
+									["amount"] = 170110,
+								},
+								["Booxeer"] = {
+									["amount"] = 96921,
+								},
+								["Magnatas"] = {
+									["amount"] = 138291,
+								},
+								["Risenone"] = {
+									["amount"] = 103366,
+								},
+								["Tifura"] = {
+									["amount"] = 28915,
+								},
+								["Jutrit"] = {
+									["amount"] = 202752,
+								},
+								["Urgash"] = {
+									["amount"] = 367398,
+								},
+								["Laressa"] = {
+									["amount"] = 31654,
+								},
+								["Fluidliftedx"] = {
+									["amount"] = 951,
+								},
+								["Sejin"] = {
+									["amount"] = 83717,
+								},
+								["Evelinayou"] = {
+									["amount"] = 25678,
+								},
+								["Simplelocks"] = {
+									["amount"] = 73377,
+								},
+								["Caiva"] = {
+									["amount"] = 31220,
+								},
+								["Shamaster"] = {
+									["amount"] = 158225,
+								},
+								["Echoash"] = {
+									["amount"] = 512242,
+								},
+							},
+							["amount"] = 2109307,
+						},
+						[48638] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 98412,
+								},
+								["Echoash"] = {
+									["amount"] = 228397,
+								},
+							},
+							["amount"] = 326809,
+						},
+						[60203] = {
+							["school"] = 32,
+							["sources"] = {
+								["Paracethamol"] = {
+									["amount"] = 7148,
+								},
+							},
+							["amount"] = 7148,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 151995,
+								},
+								["Booxeer"] = {
+									["amount"] = 98879,
+								},
+							},
+							["amount"] = 250874,
+						},
+						[53353] = {
+							["school"] = 8,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 25298,
+								},
+								["Apollonn"] = {
+									["amount"] = 30509,
+								},
+								["Ironshell"] = {
+									["amount"] = 43142,
+								},
+							},
+							["amount"] = 98949,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 50827,
+								},
+							},
+							["amount"] = 50827,
+						},
+						[48801] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 28261,
+								},
+							},
+							["amount"] = 28261,
+						},
+						[71834] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 9065,
+								},
+							},
+							["amount"] = 9065,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 60834,
+								},
+							},
+							["amount"] = 60834,
+						},
+						[57965] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 141895,
+								},
+								["Echoash"] = {
+									["amount"] = 182337,
+								},
+							},
+							["amount"] = 324232,
+						},
+						[57842] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 11863,
+								},
+								["Echoash"] = {
+									["amount"] = 11523,
+								},
+							},
+							["amount"] = 23386,
+						},
+						[47813] = {
+							["school"] = 32,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 30357,
+								},
+							},
+							["amount"] = 30357,
+						},
+						[12654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 52469,
+								},
+								["Xknappen"] = {
+									["amount"] = 94647,
+								},
+								["Orcscream"] = {
+									["amount"] = 95846,
+								},
+							},
+							["amount"] = 242962,
+						},
+						[34490] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 12863,
+								},
+								["Laressa"] = {
+									["amount"] = 5982,
+								},
+							},
+							["amount"] = 18845,
+						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 51053,
+								},
+							},
+							["amount"] = 51053,
+						},
+						[48468] = {
+							["school"] = 8,
+							["sources"] = {
+								["Paracethamol"] = {
+									["amount"] = 72679,
+								},
+								["Caiva"] = {
+									["amount"] = 31349,
+								},
+							},
+							["amount"] = 104028,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 68612,
+								},
+							},
+							["amount"] = 68612,
+						},
+						[57755] = {
+							["school"] = 1,
+							["sources"] = {
+								["Booxeer"] = {
+									["amount"] = 3074,
+								},
+								["Magnatas"] = {
+									["amount"] = 9892,
+								},
+							},
+							["amount"] = 12966,
+						},
+						[67890] = {
+							["school"] = 4,
+							["sources"] = {
+								["Echoash"] = {
+									["amount"] = 2147,
+								},
+							},
+							["amount"] = 2147,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 3702,
+								},
+							},
+							["amount"] = 3702,
+						},
+						[53195] = {
+							["school"] = 64,
+							["sources"] = {
+								["Caiva"] = {
+									["amount"] = 59072,
+								},
+								["Paracethamol"] = {
+									["amount"] = 63442,
+								},
+								["Tifura"] = {
+									["amount"] = 30833,
+								},
+							},
+							["amount"] = 153347,
+						},
+						[55362] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 15786,
+								},
+								["Xknappen"] = {
+									["amount"] = 26744,
+								},
+								["Orcscream"] = {
+									["amount"] = 24120,
+								},
+							},
+							["amount"] = 66650,
+						},
+						[48127] = {
+							["school"] = 32,
+							["sources"] = {
+								["Evelinayou"] = {
+									["amount"] = 9735,
+								},
+							},
+							["amount"] = 9735,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 28276,
+								},
+								["Urgash"] = {
+									["amount"] = 18629,
+								},
+								["Risenone"] = {
+									["amount"] = 12317,
+								},
+							},
+							["amount"] = 59222,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 13442,
+								},
+								["Urgash"] = {
+									["amount"] = 25193,
+								},
+								["Risenone"] = {
+									["amount"] = 8771,
+								},
+							},
+							["amount"] = 47406,
+						},
+						[20647] = {
+							["school"] = 1,
+							["sources"] = {
+								["Booxeer"] = {
+									["amount"] = 14666,
+								},
+								["Magnatas"] = {
+									["amount"] = 13616,
+								},
+							},
+							["amount"] = 28282,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 108274,
+								},
+							},
+							["amount"] = 108274,
+						},
+						[49052] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 135391,
+								},
+								["Apollonn"] = {
+									["amount"] = 52365,
+								},
+								["Laressa"] = {
+									["amount"] = 59780,
+								},
+							},
+							["amount"] = 247536,
+						},
+						[42833] = {
+							["school"] = 4,
+							["sources"] = {
+								["Orcscream"] = {
+									["overkill"] = 4181,
+									["amount"] = 267307,
+								},
+							},
+							["overkill"] = 4181,
+							["amount"] = 267307,
+						},
+						[48806] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 16507,
+								},
+							},
+							["amount"] = 16507,
+						},
+						[61006] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 16837,
+								},
+								["Apollonn"] = {
+									["amount"] = 10338,
+								},
+								["Laressa"] = {
+									["amount"] = 11084,
+								},
+							},
+							["amount"] = 38259,
+						},
+						[57970] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 39674,
+								},
+								["Echoash"] = {
+									["amount"] = 53497,
+								},
+							},
+							["amount"] = 93171,
+						},
+						[48461] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tifura"] = {
+									["amount"] = 187479,
+								},
+								["Paracethamol"] = {
+									["amount"] = 266021,
+								},
+								["Caiva"] = {
+									["amount"] = 281851,
+								},
+							},
+							["amount"] = 735351,
+						},
+						[48465] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tifura"] = {
+									["amount"] = 241141,
+								},
+								["Paracethamol"] = {
+									["amount"] = 245020,
+								},
+								["Caiva"] = {
+									["amount"] = 214680,
+								},
+							},
+							["amount"] = 700841,
+						},
+						[49231] = {
+							["school"] = 8,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 19155,
+								},
+							},
+							["amount"] = 19155,
+						},
+						[47838] = {
+							["school"] = 4,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 71730,
+								},
+							},
+							["amount"] = 71730,
+						},
+						[43044] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 387,
+								},
+							},
+							["amount"] = 387,
+						},
+						[42463] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 16397,
+								},
+							},
+							["amount"] = 16397,
+						},
+						[49001] = {
+							["school"] = 8,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 31510,
+								},
+								["Apollonn"] = {
+									["amount"] = 22830,
+								},
+								["Ironshell"] = {
+									["amount"] = 25278,
+								},
+							},
+							["amount"] = 79618,
+						},
+						[50783] = {
+							["school"] = 1,
+							["sources"] = {
+								["Booxeer"] = {
+									["amount"] = 25586,
+								},
+								["Magnatas"] = {
+									["amount"] = 63104,
+								},
+							},
+							["amount"] = 88690,
+						},
+						[20187] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 92221,
+								},
+							},
+							["amount"] = 92221,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 43378,
+								},
+							},
+							["amount"] = 43378,
+						},
+						[31804] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 19515,
+								},
+							},
+							["amount"] = 19515,
+						},
+						[5940] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 540,
+								},
+							},
+							["amount"] = 540,
+						},
+						[47825] = {
+							["school"] = 4,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 80524,
+								},
+							},
+							["amount"] = 80524,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 100999,
+								},
+								["Risenone"] = {
+									["amount"] = 17425,
+								},
+							},
+							["amount"] = 118424,
+						},
+						[32176] = {
+							["school"] = 1,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 9326,
+								},
+							},
+							["amount"] = 9326,
+						},
+						[48668] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 52255,
+								},
+								["Echoash"] = {
+									["amount"] = 79060,
+								},
+							},
+							["amount"] = 131315,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 10843,
+								},
+								["Urgash"] = {
+									["amount"] = 84930,
+								},
+								["Risenone"] = {
+									["amount"] = 27620,
+								},
+							},
+							["amount"] = 123393,
+						},
+						[52474] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 39026,
+								},
+								["Apollonn"] = {
+									["amount"] = 21957,
+								},
+								["Laressa"] = {
+									["amount"] = 27079,
+								},
+							},
+							["amount"] = 88062,
+						},
+						[48160] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 168458,
+								},
+								["Evelinayou"] = {
+									["amount"] = 160793,
+								},
+							},
+							["amount"] = 329251,
+						},
+						[71433] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 30238,
+								},
+							},
+							["amount"] = 30238,
+						},
+						[49238] = {
+							["school"] = 8,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 47394,
+								},
+							},
+							["amount"] = 47394,
+						},
+						[50536] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8609,
+								},
+							},
+							["amount"] = 8609,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 38196,
+								},
+								["Booxeer"] = {
+									["amount"] = 19930,
+								},
+							},
+							["amount"] = 58126,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 55715,
+								},
+								["Booxeer"] = {
+									["amount"] = 40002,
+								},
+							},
+							["amount"] = 95717,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 31641,
+								},
+							},
+							["amount"] = 31641,
+						},
+						[32175] = {
+							["school"] = 1,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 18908,
+								},
+							},
+							["amount"] = 18908,
+						},
+						[47811] = {
+							["school"] = 4,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 54080,
+								},
+							},
+							["amount"] = 54080,
+						},
+						[49045] = {
+							["school"] = 64,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 29104,
+								},
+								["Apollonn"] = {
+									["amount"] = 14552,
+								},
+							},
+							["amount"] = 43656,
+						},
+						[53254] = {
+							["school"] = 8,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 21561,
+								},
+								["Apollonn"] = {
+									["amount"] = 7892,
+								},
+								["Ironshell"] = {
+									["amount"] = 27975,
+								},
+							},
+							["amount"] = 57428,
+						},
+						[42873] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 9835,
+								},
+								["Xknappen"] = {
+									["amount"] = 31041,
+								},
+							},
+							["amount"] = 40876,
+						},
+						[59638] = {
+							["school"] = 16,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 16857,
+								},
+								["Orcscream"] = {
+									["amount"] = 12505,
+								},
+							},
+							["amount"] = 29362,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 212754,
+								},
+								["Booxeer"] = {
+									["amount"] = 132794,
+								},
+							},
+							["amount"] = 345548,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 93927,
+								},
+								["Booxeer"] = {
+									["amount"] = 58073,
+								},
+							},
+							["amount"] = 152000,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 19840,
+								},
+								["Urgash"] = {
+									["amount"] = 45084,
+								},
+								["Risenone"] = {
+									["amount"] = 12880,
+								},
+							},
+							["amount"] = 77804,
+						},
+						[61654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 18190,
+								},
+							},
+							["amount"] = 18190,
+						},
+						[63468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 21748,
+								},
+								["Apollonn"] = {
+									["amount"] = 28999,
+								},
+								["Ironshell"] = {
+									["amount"] = 65223,
+								},
+							},
+							["amount"] = 115970,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 35562,
+								},
+							},
+							["amount"] = 35562,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 16208,
+								},
+								["Tamook"] = {
+									["amount"] = 23916,
+								},
+							},
+							["amount"] = 40124,
+						},
+						[71839] = {
+							["school"] = 32,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 8176,
+								},
+							},
+							["amount"] = 8176,
+						},
+						[48158] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 29132,
+								},
+								["Evelinayou"] = {
+									["amount"] = 12796,
+								},
+							},
+							["amount"] = 41928,
+						},
+						[55360] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 27489,
+								},
+								["Xknappen"] = {
+									["amount"] = 57823,
+								},
+								["Orcscream"] = {
+									["amount"] = 30798,
+								},
+							},
+							["amount"] = 116110,
+						},
+						[10444] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 41717,
+								},
+							},
+							["amount"] = 41717,
+						},
+						[53209] = {
+							["school"] = 8,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 43033,
+								},
+								["Apollonn"] = {
+									["amount"] = 39914,
+								},
+								["Ironshell"] = {
+									["amount"] = 82883,
+								},
+							},
+							["amount"] = 165830,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 16138,
+								},
+								["Urgash"] = {
+									["amount"] = 64318,
+								},
+								["Risenone"] = {
+									["amount"] = 12229,
+								},
+							},
+							["amount"] = 92685,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Sejin"] = {
+									["amount"] = 9865,
+								},
+								["Risenone"] = {
+									["amount"] = 34947,
+								},
+							},
+							["amount"] = 44812,
+						},
+						[47610] = {
+							["school"] = 20,
+							["sources"] = {
+								["Xknappen"] = {
+									["amount"] = 160675,
+								},
+								["Welden"] = {
+									["amount"] = 116961,
+								},
+							},
+							["amount"] = 277636,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 44121,
+								},
+							},
+							["amount"] = 44121,
+						},
+						[58702] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 25954,
+								},
+							},
+							["amount"] = 25954,
+						},
+						[51963] = {
+							["school"] = 8,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 122302,
+								},
+							},
+							["amount"] = 122302,
+						},
+						[75] = {
+							["school"] = 1,
+							["sources"] = {
+								["Laressa"] = {
+									["amount"] = 158882,
+								},
+								["Apollonn"] = {
+									["amount"] = 88602,
+								},
+								["Ironshell"] = {
+									["amount"] = 214919,
+								},
+							},
+							["amount"] = 462403,
+						},
+						[49050] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ironshell"] = {
+									["amount"] = 44842,
+								},
+								["Apollonn"] = {
+									["amount"] = 34839,
+								},
+							},
+							["amount"] = 79681,
+						},
+						[60103] = {
+							["school"] = 4,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 21512,
+								},
+							},
+							["amount"] = 21512,
+						},
+						[54158] = {
+							["school"] = 2,
+							["sources"] = {
+								["Fluidliftedx"] = {
+									["amount"] = 16907,
+								},
+							},
+							["amount"] = 16907,
+						},
+						[48300] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 160279,
+								},
+								["Evelinayou"] = {
+									["amount"] = 169850,
+								},
+							},
+							["amount"] = 330129,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 35871,
+								},
+							},
+							["amount"] = 35871,
+						},
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Tamook"] = {
+									["amount"] = 168506,
+								},
+							},
+							["amount"] = 168506,
+						},
+						[63675] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 33980,
+								},
+								["Evelinayou"] = {
+									["amount"] = 32351,
+								},
+							},
+							["amount"] = 66331,
+						},
+						[57841] = {
+							["school"] = 1,
+							["sources"] = {
+								["Jutrit"] = {
+									["amount"] = 28626,
+								},
+								["Echoash"] = {
+									["amount"] = 29772,
+								},
+							},
+							["amount"] = 58398,
+						},
+						[42859] = {
+							["school"] = 4,
+							["sources"] = {
+								["Welden"] = {
+									["amount"] = 28659,
+								},
+								["Xknappen"] = {
+									["amount"] = 24723,
+								},
+								["Orcscream"] = {
+									["amount"] = 1993,
+								},
+							},
+							["amount"] = 55375,
+						},
+						[47994] = {
+							["school"] = 1,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 20332,
+								},
+							},
+							["amount"] = 20332,
+						},
+						[20253] = {
+							["school"] = 1,
+							["sources"] = {
+								["Magnatas"] = {
+									["amount"] = 765,
+								},
+								["Booxeer"] = {
+									["amount"] = 2100,
+								},
+							},
+							["amount"] = 2865,
+						},
+						[47809] = {
+							["school"] = 32,
+							["sources"] = {
+								["Simplelocks"] = {
+									["amount"] = 100970,
+								},
+							},
+							["amount"] = 100970,
+						},
+						[48463] = {
+							["school"] = 64,
+							["sources"] = {
+								["Caiva"] = {
+									["amount"] = 69071,
+								},
+								["Paracethamol"] = {
+									["amount"] = 44522,
+								},
+								["Tifura"] = {
+									["amount"] = 36937,
+								},
+							},
+							["amount"] = 150530,
+						},
+						[25504] = {
+							["school"] = 1,
+							["sources"] = {
+								["Shamaster"] = {
+									["amount"] = 57264,
+								},
+							},
+							["amount"] = 57264,
+						},
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Grottesque"] = {
+									["amount"] = 90336,
+								},
+								["Evelinayou"] = {
+									["amount"] = 75006,
+								},
+							},
+							["amount"] = 165342,
+						},
+					},
+					["name"] = "Koralon the Flame Watcher",
+					["totaldamage"] = 1449524,
+					["totaldamagetaken"] = 13250800,
+					["id"] = "0xF1300088C5000012",
+					["damage"] = 1292414,
+				}, -- [1]
+			},
+			["absorb"] = 151850,
+			["totaldamage"] = 13250800,
+			["time"] = 111,
+			["etotaldamage"] = 1449524,
+			["totaldamagetaken"] = 1499420,
+			["etotaldamagetaken"] = 13250800,
+			["last_time"] = 5302.785,
+			["players"] = {
+				{
+					["last"] = 5291.149,
+					["flag"] = 1300,
+					["mana"] = 101649,
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 87,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[20053] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 49,
+							["uptime"] = 105,
+						},
+						[61840] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 20,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 20,
+									["uptime"] = 93,
+								},
+							},
+							["uptime"] = 93,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 33,
+							["uptime"] = 97,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 10,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 10,
+									["uptime"] = 93,
+								},
+							},
+							["uptime"] = 93,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 10,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 10,
+									["uptime"] = 93,
+								},
+							},
+							["uptime"] = 93,
+						},
+						[71187] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 14,
+							["uptime"] = 99,
+						},
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 88,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 28,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 16,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 64,
+						},
+						[31801] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 23,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[31803] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 4,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[71432] = {
+							["type"] = "BUFF",
+							["count"] = 16,
+							["refresh"] = 60,
+							["school"] = 1,
+							["uptime"] = 104,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 11,
+							["school"] = 1,
+							["refresh"] = 59,
+							["uptime"] = 64,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 41,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 41,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[31884] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 20,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 31,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[73422] = {
+							["type"] = "BUFF",
+							["count"] = 10,
+							["school"] = 1,
+							["uptime"] = 32,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 96.07000000000005,
+					["totaldamagetaken"] = 24595,
+					["damage"] = 773838,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 597,
+							["id"] = 48819,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 31641,
+								},
+							},
+							["hitmax"] = 1044,
+							["casts"] = 5,
+							["count"] = 40,
+							["hit"] = 40,
+							["school"] = 2,
+							["resisted"] = 2280,
+							["amount"] = 31641,
+							["hitamount"] = 31641,
+						},
+						["Exorcism"] = {
+							["criticalmin"] = 7425,
+							["hitmin"] = 3532,
+							["criticalamount"] = 15251,
+							["id"] = 48801,
+							["hitmax"] = 5477,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 28261,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 3,
+							["casts"] = 5,
+							["critical"] = 2,
+							["amount"] = 28261,
+							["school"] = 2,
+							["resisted"] = 1327,
+							["criticalmax"] = 7826,
+							["hitamount"] = 13010,
+						},
+						["Divine Storm"] = {
+							["hitmin"] = 3284,
+							["criticalamount"] = 22436,
+							["id"] = 53385,
+							["criticalmin"] = 6664,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 60834,
+								},
+							},
+							["criticalmax"] = 7957,
+							["critical"] = 3,
+							["casts"] = 13,
+							["count"] = 13,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 4840,
+							["amount"] = 60834,
+							["hitamount"] = 38398,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 2086,
+							["id"] = 71904,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 23916,
+								},
+							},
+							["hitmax"] = 2939,
+							["casts"] = 1,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 32,
+							["resisted"] = 1448,
+							["amount"] = 23916,
+							["hitamount"] = 23916,
+						},
+						["Manifest Anger"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1347,
+							["criticalamount"] = 18271,
+							["id"] = 71433,
+							["hitmax"] = 1650,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 30238,
+								},
+							},
+							["count"] = 15,
+							["hit"] = 8,
+							["casts"] = 1,
+							["critical"] = 6,
+							["amount"] = 30238,
+							["school"] = 1,
+							["criticalmin"] = 2754,
+							["criticalmax"] = 3361,
+							["hitamount"] = 11967,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 717,
+							["id"] = 31803,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 3702,
+								},
+							},
+							["hitmax"] = 1629,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["resisted"] = 359,
+							["amount"] = 3702,
+							["hitamount"] = 3702,
+						},
+						["Seal of Vengeance"] = {
+							["hitmax"] = 1191,
+							["hitmin"] = 816,
+							["criticalamount"] = 13558,
+							["id"] = 42463,
+							["count"] = 9,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 16397,
+								},
+							},
+							["hit"] = 3,
+							["criticalmin"] = 765,
+							["casts"] = 1,
+							["critical"] = 6,
+							["amount"] = 16397,
+							["school"] = 2,
+							["resisted"] = 309,
+							["criticalmax"] = 3497,
+							["hitamount"] = 2839,
+						},
+						["Judgement of Vengeance"] = {
+							["criticalamount"] = 19515,
+							["id"] = 31804,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 19515,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 19515,
+							["school"] = 2,
+							["criticalmin"] = 8719,
+							["criticalmax"] = 10796,
+							["count"] = 2,
+						},
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 16507,
+							["id"] = 48806,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 16507,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 16507,
+							["school"] = 2,
+							["criticalmin"] = 8204,
+							["criticalmax"] = 8303,
+							["count"] = 2,
+						},
+						["Melee"] = {
+							["glance"] = 15859,
+							["hitmin"] = 2635,
+							["criticalmin"] = 5687,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 170110,
+								},
+							},
+							["glancing"] = 7,
+							["amount"] = 170110,
+							["glancemin"] = 2002,
+							["criticalamount"] = 127023,
+							["id"] = 6603,
+							["glancemax"] = 2675,
+							["criticalmax"] = 8295,
+							["critical"] = 19,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 3348,
+							["count"] = 35,
+							["hitamount"] = 27228,
+						},
+						["Seal of Righteousness"] = {
+							["hitmin"] = 1657,
+							["id"] = 25742,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 168506,
+								},
+							},
+							["hitmax"] = 2909,
+							["casts"] = 1,
+							["count"] = 75,
+							["hit"] = 75,
+							["school"] = 2,
+							["resisted"] = 7019,
+							["amount"] = 168506,
+							["hitamount"] = 168506,
+						},
+						["Crusader Strike"] = {
+							["hitmin"] = 2396,
+							["criticalamount"] = 55167,
+							["id"] = 35395,
+							["hitmax"] = 3079,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 68612,
+								},
+							},
+							["count"] = 15,
+							["hit"] = 5,
+							["casts"] = 15,
+							["critical"] = 10,
+							["amount"] = 68612,
+							["school"] = 1,
+							["criticalmin"] = 4707,
+							["criticalmax"] = 6664,
+							["hitamount"] = 13445,
+						},
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 648,
+							["id"] = 61840,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 43378,
+								},
+							},
+							["hitmax"] = 2186,
+							["count"] = 34,
+							["hit"] = 34,
+							["school"] = 2,
+							["resisted"] = 2287,
+							["amount"] = 43378,
+							["hitamount"] = 43378,
+						},
+						["Judgement of Righteousness"] = {
+							["hitmax"] = 7261,
+							["hitmin"] = 5290,
+							["criticalamount"] = 74330,
+							["id"] = 20187,
+							["count"] = 9,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 92221,
+								},
+							},
+							["hit"] = 3,
+							["criticalmin"] = 9323,
+							["casts"] = 1,
+							["critical"] = 6,
+							["amount"] = 92221,
+							["school"] = 2,
+							["resisted"] = 1795,
+							["criticalmax"] = 13853,
+							["hitamount"] = 17891,
+						},
+					},
+					["damagetaken"] = 24595,
+					["id"] = "0x070000000000942B",
+					["spec"] = 70,
+					["healspells"] = {
+						[54172] = {
+							["overheal"] = 395,
+							["targets"] = {
+								["Grottesque"] = {
+									["overheal"] = 0,
+									["amount"] = 3313,
+								},
+								["Treant"] = {
+									["overheal"] = 68,
+									["amount"] = 250,
+								},
+								["Adi"] = {
+									["overheal"] = 72,
+									["amount"] = 268,
+								},
+								["Wolf"] = {
+									["overheal"] = 73,
+									["amount"] = 270,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 117,
+									["amount"] = 431,
+								},
+								["Orcscream"] = {
+									["overheal"] = 65,
+									["amount"] = 1076,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 5608,
+							["school"] = 2,
+							["max"] = 3313,
+							["ishot"] = true,
+							["min"] = 250,
+						},
+					},
+					["damagetakenspells"] = {
+						["Burning Breath"] = {
+							["hitmin"] = 3279,
+							["id"] = 67329,
+							["hitmax"] = 5104,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 24595,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 10354,
+							["amount"] = 24595,
+							["hitamount"] = 24595,
+						},
+					},
+					["overheal"] = 395,
+					["heal"] = 5608,
+					["name"] = "Tamook",
+					["totaldamage"] = 773838,
+					["class"] = "PALADIN",
+					["manaspells"] = {
+						[31930] = 12078,
+						[57669] = 35028,
+						[20268] = 54543,
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["last"] = 5291.148,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71556] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[57934] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 40,
+						},
+						[13750] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[13877] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57970] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 43,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 43,
+									["uptime"] = 94,
+								},
+							},
+							["uptime"] = 94,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 8,
+							["uptime"] = 49,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 65,
+						},
+						[59628] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[6774] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 93,
+						},
+						[54861] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 43,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[54758] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 24,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[75456] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["uptime"] = 42,
+						},
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 44,
+							["school"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 38,
+									["count"] = 44,
+								},
+							},
+							["uptime"] = 38,
+						},
+						[51690] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 2,
+						},
+					},
+					["energyspells"] = {
+						[70804] = 45,
+						[35548] = 300,
+					},
+					["time"] = 97.76999999999998,
+					["totaldamagetaken"] = 50241,
+					["damage"] = 1098975,
+					["damagespells"] = {
+						["Eviscerate"] = {
+							["hitmin"] = 6458,
+							["criticalamount"] = 65810,
+							["id"] = 48668,
+							["hitmax"] = 6792,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 79060,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 2,
+							["casts"] = 6,
+							["critical"] = 4,
+							["amount"] = 79060,
+							["school"] = 1,
+							["criticalmin"] = 14787,
+							["criticalmax"] = 19029,
+							["hitamount"] = 13250,
+						},
+						["Cobalt Frag Bomb"] = {
+							["criticalamount"] = 2147,
+							["id"] = 67890,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 2147,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 2147,
+							["school"] = 4,
+							["criticalmin"] = 2147,
+							["criticalmax"] = 2147,
 							["count"] = 1,
 						},
 						["Melee"] = {
-							["hitmin"] = 3315,
-							["id"] = 6603,
+							["DODGE"] = 2,
+							["glance"] = 48061,
+							["hitmin"] = 821,
+							["criticalmin"] = 1834,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 3315,
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 512242,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3315,
-							["amount"] = 3315,
-							["hitamount"] = 3315,
-						},
-						["Melee (Rotstealer)"] = {
-							["glance"] = 534,
-							["hitmin"] = 521,
+							["glancing"] = 44,
+							["amount"] = 512242,
+							["MISS"] = 29,
+							["glancemin"] = 550,
+							["criticalamount"] = 461317,
 							["id"] = 6603,
-							["hitmax"] = 641,
-							["glancemax"] = 534,
-							["overkill"] = 335,
-							["glancing"] = 1,
-							["hitamount"] = 1710,
+							["glancemax"] = 2125,
+							["criticalmax"] = 6956,
+							["critical"] = 128,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2043,
+							["count"] = 205,
+							["hitamount"] = 2864,
+						},
+						["Instant Poison IX"] = {
+							["criticalmin"] = 1932,
+							["hitmin"] = 1076,
+							["criticalamount"] = 73742,
+							["id"] = 57965,
+							["criticalmax"] = 3748,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 182337,
+								},
+							},
+							["critical"] = 28,
+							["hitmax"] = 1801,
+							["casts"] = 1,
+							["count"] = 107,
+							["hit"] = 79,
+							["school"] = 8,
+							["resisted"] = 9646,
+							["amount"] = 182337,
+							["hitamount"] = 108595,
+						},
+						["Blade Twisting"] = {
+							["casts"] = 1,
+							["count"] = 23,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 23,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 51585,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 1212,
+							["id"] = 57970,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 53497,
+								},
+							},
+							["hitmax"] = 2691,
+							["count"] = 29,
+							["hit"] = 29,
+							["school"] = 8,
+							["resisted"] = 3478,
+							["amount"] = 53497,
+							["hitamount"] = 53497,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 2416,
+							["criticalamount"] = 183438,
+							["id"] = 48638,
+							["hitmax"] = 3244,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 228397,
+								},
+							},
+							["count"] = 37,
+							["hit"] = 16,
+							["casts"] = 37,
+							["critical"] = 21,
+							["amount"] = 228397,
+							["school"] = 1,
+							["criticalmin"] = 7157,
+							["criticalmax"] = 10284,
+							["hitamount"] = 44959,
+						},
+						["Killing Spree"] = {
+							["hitmin"] = 1671,
+							["criticalamount"] = 31642,
+							["id"] = 57841,
+							["hitmax"] = 2636,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 41295,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 5,
+							["casts"] = 1,
+							["critical"] = 5,
+							["amount"] = 41295,
+							["school"] = 1,
+							["criticalmin"] = 4506,
+							["criticalmax"] = 7050,
+							["hitamount"] = 9653,
+						},
+					},
+					["damagetaken"] = 50241,
+					["id"] = "0x070000000081F36D",
+					["spec"] = 260,
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 3638,
+							["id"] = 67332,
+							["hitmax"] = 5276,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 8914,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 3743,
+							["amount"] = 8914,
+							["hitamount"] = 8914,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 3792,
+							["id"] = 67329,
+							["hitmax"] = 5564,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25734,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 9392,
+							["amount"] = 25734,
+							["hitamount"] = 25734,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3467,
+							["id"] = 67332,
+							["hitmax"] = 4354,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 15593,
+								},
+							},
 							["count"] = 4,
-							["amount"] = 2244,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 5195,
+							["amount"] = 15593,
+							["hitamount"] = 15593,
+						},
+					},
+					["name"] = "Echoash",
+					["totaldamage"] = 1098975,
+					["energy"] = 345,
+					["role"] = "DAMAGER",
+				}, -- [2]
+				{
+					["last"] = 5291.205,
+					["flag"] = 1300,
+					["class"] = "MAGE",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[54648] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["refresh"] = 15,
+							["uptime"] = 88,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48108] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["uptime"] = 36,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 39,
+						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 6,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 6,
+									["uptime"] = 72,
+								},
+							},
+							["uptime"] = 72,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 12,
+							["school"] = 4,
+							["refresh"] = 12,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 12,
+									["refresh"] = 12,
+									["uptime"] = 64,
+								},
+							},
+							["uptime"] = 64,
+						},
+						[55342] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 30,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 80,
+									["count"] = 7,
+								},
+							},
+							["uptime"] = 80,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[1953] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 1,
+						},
+						[42833] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 24,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 24,
+									["uptime"] = 88,
+								},
+							},
+							["uptime"] = 88,
+						},
+						[60479] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[12536] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 64,
+							["uptime"] = 11,
+						},
+						[60064] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[28682] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 4,
+							["uptime"] = 7,
+						},
+					},
+					["time"] = 93.40000000000001,
+					["totaldamagetaken"] = 34939,
+					["damage"] = 533633,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hit"] = 9,
+							["hitmax"] = 9252,
+							["hitmin"] = 5837,
+							["criticalamount"] = 186356,
+							["id"] = 42833,
+							["count"] = 25,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["overkill"] = 4181,
+									["amount"] = 246239,
+								},
+							},
+							["overkill"] = 4181,
+							["criticalmin"] = 9124,
+							["casts"] = 28,
+							["critical"] = 16,
+							["amount"] = 246239,
+							["school"] = 4,
+							["resisted"] = 28854,
+							["criticalmax"] = 15742,
+							["hitamount"] = 59883,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 772,
+							["id"] = 42891,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 19201,
+								},
+							},
+							["hitmax"] = 1154,
+							["count"] = 21,
+							["hit"] = 21,
+							["school"] = 4,
+							["resisted"] = 1410,
+							["amount"] = 19201,
+							["hitamount"] = 19201,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 459,
+							["id"] = 42833,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 21068,
+								},
+							},
+							["hitmax"] = 885,
+							["count"] = 34,
+							["hit"] = 34,
+							["school"] = 4,
+							["resisted"] = 1174,
+							["amount"] = 21068,
+							["hitamount"] = 21068,
+						},
+						["Living Bomb"] = {
+							["criticalmin"] = 3541,
+							["hitmin"] = 2436,
+							["criticalamount"] = 18632,
+							["id"] = 55362,
+							["hitmax"] = 3052,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 24120,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 2,
+							["casts"] = 7,
+							["critical"] = 4,
+							["amount"] = 24120,
+							["school"] = 4,
+							["resisted"] = 885,
+							["criticalmax"] = 5707,
+							["hitamount"] = 5488,
+						},
+						["Pyroblast"] = {
+							["hitmax"] = 8337,
+							["hitmin"] = 6390,
+							["criticalamount"] = 53400,
+							["id"] = 42891,
+							["count"] = 8,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 81863,
+								},
+							},
+							["hit"] = 4,
+							["criticalmin"] = 11799,
+							["casts"] = 8,
+							["critical"] = 4,
+							["amount"] = 81863,
+							["school"] = 4,
+							["resisted"] = 9223,
+							["criticalmax"] = 15115,
+							["hitamount"] = 28463,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 1460,
+							["id"] = 12654,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 95846,
+								},
+							},
+							["hitmax"] = 7822,
+							["count"] = 27,
+							["hit"] = 27,
+							["school"] = 4,
+							["resisted"] = 5067,
+							["amount"] = 95846,
+							["hitamount"] = 95846,
+						},
+						["Scorch"] = {
+							["hitmin"] = 1993,
+							["id"] = 42859,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 1993,
+								},
+							},
+							["hitmax"] = 1993,
+							["casts"] = 3,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 221,
+							["amount"] = 1993,
+							["hitamount"] = 1993,
+						},
+						["Living Bomb (DoT)"] = {
+							["hitmin"] = 934,
+							["id"] = 55360,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 30798,
+								},
+							},
+							["hitmax"] = 1460,
+							["count"] = 26,
+							["hit"] = 26,
+							["school"] = 4,
+							["resisted"] = 1617,
+							["amount"] = 30798,
+							["hitamount"] = 30798,
+						},
+						["Frostbolt (Mirror Image)"] = {
+							["hitmin"] = 488,
+							["criticalamount"] = 2199,
+							["id"] = 59638,
+							["criticalmin"] = 730,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 12505,
+								},
+							},
+							["criticalmax"] = 737,
+							["critical"] = 3,
+							["casts"] = 1,
+							["count"] = 24,
+							["hit"] = 21,
+							["school"] = 16,
+							["hitmax"] = 494,
+							["amount"] = 12505,
+							["hitamount"] = 10306,
+						},
+					},
+					["damagetaken"] = 34939,
+					["id"] = "0x07000000009220B7",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 5309,
+							["id"] = 67332,
+							["hitmax"] = 5309,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 5309,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 589,
+							["amount"] = 5309,
+							["hitamount"] = 5309,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 3424,
+							["id"] = 67329,
+							["hitmax"] = 4509,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 22894,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 13169,
+							["amount"] = 22894,
+							["hitamount"] = 22894,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 2887,
+							["id"] = 67332,
+							["hitmax"] = 3849,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 6736,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 2886,
+							["amount"] = 6736,
+							["hitamount"] = 6736,
+						},
+					},
+					["overkill"] = 4181,
+					["name"] = "Orcscream",
+					["manaspells"] = {
+						[29077] = 4696,
+						[67545] = 1755,
+						[44450] = -636,
+					},
+					["mana"] = 5815,
+					["totaldamage"] = 533633,
+					["role"] = "DAMAGER",
+				}, -- [3]
+				{
+					["last"] = 5290.775000000001,
+					["flag"] = 4372,
+					["class"] = "DRUID",
+					["auras"] = {
+						[48468] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 57,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 57,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[60064] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[53201] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[48421] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 108,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 33,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24858] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 108,
+						},
+						[48518] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[60433] = {
+							["type"] = "DEBUFF",
+							["count"] = 46,
+							["school"] = 64,
+							["refresh"] = 5,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 46,
+									["refresh"] = 5,
+									["uptime"] = 33,
+								},
+							},
+							["uptime"] = 33,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 42,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 13,
+							["school"] = 8,
+							["uptime"] = 14,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 29,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57073] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[16886] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 8,
+							["refresh"] = 34,
+							["uptime"] = 75,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48517] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 36,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["uptime"] = 111,
+						},
+						[71177] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 50,
+							["uptime"] = 101,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48463] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 64,
+							["refresh"] = 9,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 9,
+									["uptime"] = 81,
+								},
+							},
+							["uptime"] = 81,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 108,
+						},
+					},
+					["time"] = 95.86999999999999,
+					["totaldamagetaken"] = 60017,
+					["damage"] = 705107,
+					["damagespells"] = {
+						["Insect Swarm (DoT)"] = {
+							["hitmin"] = 901,
+							["id"] = 48468,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 31349,
+								},
+							},
+							["hitmax"] = 1282,
+							["casts"] = 4,
+							["count"] = 28,
+							["hit"] = 28,
+							["school"] = 8,
+							["resisted"] = 2334,
+							["amount"] = 31349,
+							["hitamount"] = 31349,
+						},
+						["Melee (Treant)"] = {
+							["DODGE"] = 4,
+							["glance"] = 5121,
+							["hitmin"] = 482,
+							["criticalmin"] = 1174,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 31220,
+								},
+							},
+							["glancing"] = 11,
+							["amount"] = 31220,
+							["MISS"] = 5,
+							["glancemin"] = 425,
+							["criticalamount"] = 6590,
+							["id"] = 6603,
+							["glancemax"] = 539,
+							["PARRY"] = 1,
+							["critical"] = 5,
+							["criticalmax"] = 1406,
+							["hitmax"] = 706,
+							["hit"] = 31,
+							["school"] = 1,
+							["blocked"] = 82,
+							["count"] = 57,
+							["hitamount"] = 19509,
+						},
+						["Wrath"] = {
+							["critical"] = 21,
+							["hitmax"] = 5470,
+							["hitmin"] = 3601,
+							["criticalamount"] = 207593,
+							["id"] = 48461,
+							["hit"] = 17,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 281851,
+								},
+							},
+							["criticalmax"] = 11601,
+							["criticalmin"] = 7456,
+							["casts"] = 37,
+							["count"] = 39,
+							["amount"] = 281851,
+							["school"] = 8,
+							["resisted"] = 18188,
+							["MISS"] = 1,
+							["hitamount"] = 74258,
+						},
+						["Moonfire (DoT)"] = {
+							["hitmin"] = 1412,
+							["criticalamount"] = 51412,
+							["id"] = 48463,
+							["hitmax"] = 1765,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 67244,
+								},
+							},
+							["criticalmin"] = 2951,
+							["critical"] = 16,
+							["criticalmax"] = 3688,
+							["count"] = 26,
+							["hit"] = 10,
+							["school"] = 64,
+							["resisted"] = 3456,
+							["amount"] = 67244,
+							["hitamount"] = 15832,
+						},
+						["Starfall"] = {
+							["criticalmin"] = 1128,
+							["hitmin"] = 540,
+							["criticalamount"] = 47132,
+							["id"] = 53195,
+							["criticalmax"] = 4748,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 76936,
+								},
+							},
+							["critical"] = 16,
+							["hitmax"] = 2297,
+							["casts"] = 2,
+							["count"] = 40,
+							["hit"] = 24,
+							["school"] = 64,
+							["resisted"] = 6937,
+							["amount"] = 76936,
+							["hitamount"] = 29804,
+						},
+						["Moonfire"] = {
+							["hitmin"] = 347,
+							["criticalamount"] = 776,
+							["id"] = 48463,
+							["hitmax"] = 355,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 1827,
+								},
+							},
+							["count"] = 4,
 							["hit"] = 3,
+							["casts"] = 4,
+							["critical"] = 1,
+							["amount"] = 1827,
+							["school"] = 64,
+							["criticalmin"] = 776,
+							["criticalmax"] = 776,
+							["hitamount"] = 1051,
+						},
+						["Starfire"] = {
+							["criticalmin"] = 11927,
+							["hitmin"] = 5652,
+							["criticalamount"] = 172777,
+							["id"] = 48465,
+							["criticalmax"] = 16970,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["overkill"] = 335,
-									["amount"] = 2244,
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 214680,
 								},
 							},
-							["glancemin"] = 534,
+							["critical"] = 12,
+							["hitmax"] = 8208,
+							["casts"] = 18,
+							["count"] = 18,
+							["hit"] = 6,
+							["school"] = 64,
+							["resisted"] = 13505,
+							["amount"] = 214680,
+							["hitamount"] = 41903,
 						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1461,
-							["id"] = 50526,
+					},
+					["damagetaken"] = 60017,
+					["id"] = "0x07000000009C4868",
+					["spec"] = 102,
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 4090,
+							["id"] = 67332,
+							["hitmax"] = 4245,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 8335,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 3570,
+							["amount"] = 8335,
+							["hitamount"] = 8335,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 4187,
+							["id"] = 67329,
+							["hitmax"] = 5118,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 27799,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 4955,
+							["amount"] = 27799,
+							["hitamount"] = 27799,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3804,
+							["id"] = 67332,
+							["hitmax"] = 4279,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 23883,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 5372,
+							["amount"] = 23883,
+							["hitamount"] = 23883,
+						},
+					},
+					["name"] = "Caiva",
+					["manaspells"] = {
+						[53506] = 17952,
+					},
+					["mana"] = 17952,
+					["totaldamage"] = 705107,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["last"] = 5290.991,
+					["flag"] = 4372,
+					["class"] = "HUNTER",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 24,
+						},
+						[63468] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 13,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 1461,
+								["Koralon the Flame Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 13,
+									["uptime"] = 85,
+								},
+							},
+							["uptime"] = 85,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[6150] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 48,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 44,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53426] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[3045] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[34026] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 76,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[54131] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["refresh"] = 13,
+							["uptime"] = 73,
+						},
+						[34477] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 21,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 99,
+						},
+						[60065] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53338] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 39,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 39,
+						},
+						[61847] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[64495] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["uptime"] = 60,
+						},
+						[53220] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[49001] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 22,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 22,
+									["uptime"] = 95,
+								},
+							},
+							["uptime"] = 95,
+						},
+						[70893] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["refresh"] = 14,
+							["uptime"] = 77,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[61685] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61684] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 48,
+						},
+						[35079] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[1742] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 18,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["energyspells"] = {
+						[34952] = 2050,
+						[54131] = 1407,
+					},
+					["time"] = 99.20000000000005,
+					["totaldamagetaken"] = 36975,
+					["damage"] = 466715,
+					["overheal"] = 37518,
+					["damagetaken"] = 36975,
+					["id"] = "0x07000000008EB1C8",
+					["spec"] = 254,
+					["healspells"] = {
+						[53426] = {
+							["overheal"] = 23465,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 8,
+							["ishot"] = true,
+							["targets"] = {
+								["Adi"] = {
+									["overheal"] = 23465,
+									["amount"] = 0,
+								},
+							},
+						},
+						[54131] = {
+							["overheal"] = 14053,
+							["max"] = 234,
+							["count"] = 67,
+							["amount"] = 1625,
+							["school"] = 1,
+							["min"] = 7,
+							["ishot"] = true,
+							["targets"] = {
+								["Adi"] = {
+									["overheal"] = 14053,
+									["amount"] = 1625,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 3255,
+							["id"] = 67332,
+							["hitmax"] = 3255,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 3255,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 2170,
+							["amount"] = 3255,
+							["hitamount"] = 3255,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 3668,
+							["id"] = 67329,
+							["hitmax"] = 5589,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 26096,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 7739,
+							["amount"] = 26096,
+							["hitamount"] = 26096,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3588,
+							["id"] = 67332,
+							["hitmax"] = 4036,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 7624,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 1344,
+							["amount"] = 7624,
+							["hitamount"] = 7624,
+						},
+					},
+					["heal"] = 1625,
+					["name"] = "Laressa",
+					["damagespells"] = {
+						["Piercing Shots (DoT)"] = {
+							["hitmin"] = 132,
+							["id"] = 63468,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 21748,
+								},
+							},
+							["count"] = 76,
+							["hit"] = 76,
+							["school"] = 1,
+							["hitmax"] = 581,
+							["amount"] = 21748,
+							["hitamount"] = 21748,
+						},
+						["Chimera Shot"] = {
+							["criticalmin"] = 6660,
+							["hitmin"] = 2858,
+							["criticalamount"] = 29707,
+							["id"] = 53209,
+							["hitmax"] = 3816,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 43033,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 4,
+							["casts"] = 9,
+							["critical"] = 4,
+							["amount"] = 43033,
+							["school"] = 8,
+							["resisted"] = 3079,
+							["criticalmax"] = 8704,
+							["hitamount"] = 13326,
+						},
+						["Serpent Sting (DoT)"] = {
+							["casts"] = 15,
+							["hitmin"] = 629,
+							["criticalamount"] = 22642,
+							["id"] = 49001,
+							["hit"] = 12,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 31510,
+								},
+							},
+							["hitmax"] = 825,
+							["count"] = 25,
+							["criticalmax"] = 1966,
+							["critical"] = 13,
+							["amount"] = 31510,
+							["school"] = 8,
+							["resisted"] = 1903,
+							["criticalmin"] = 1407,
+							["hitamount"] = 8868,
+						},
+						["Interrupt"] = {
+							["casts"] = 1,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 5,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 32747,
+						},
+						["Growl (Adi)"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 61676,
+						},
+						["Bite (Adi)"] = {
+							["hitmin"] = 330,
+							["criticalamount"] = 8970,
+							["id"] = 52474,
+							["criticalmin"] = 706,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 27079,
+								},
+							},
+							["criticalmax"] = 1334,
+							["critical"] = 11,
+							["casts"] = 1,
+							["count"] = 57,
+							["hit"] = 46,
+							["school"] = 1,
+							["hitmax"] = 724,
+							["amount"] = 27079,
+							["hitamount"] = 18109,
+						},
+						["Arcane Shot"] = {
+							["hitmax"] = 2222,
+							["hitmin"] = 1732,
+							["criticalamount"] = 19358,
+							["id"] = 49045,
+							["criticalmin"] = 4514,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 29104,
+								},
+							},
+							["criticalmax"] = 5673,
+							["critical"] = 4,
+							["casts"] = 9,
+							["count"] = 9,
+							["hit"] = 5,
+							["school"] = 64,
+							["resisted"] = 2113,
+							["amount"] = 29104,
+							["hitamount"] = 9746,
+						},
+						["Silencing Shot"] = {
+							["hitmin"] = 660,
+							["criticalamount"] = 3594,
+							["id"] = 34490,
+							["criticalmin"] = 1759,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 5982,
+								},
+							},
+							["criticalmax"] = 1835,
+							["critical"] = 2,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 906,
+							["amount"] = 5982,
+							["hitamount"] = 2388,
+						},
+						["Kill Shot"] = {
+							["hitmin"] = 5196,
+							["id"] = 61006,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 11084,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 5888,
+							["amount"] = 11084,
+							["hitamount"] = 11084,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["hitmax"] = 1817,
+							["hitmin"] = 1552,
+							["criticalamount"] = 16443,
+							["id"] = 53254,
+							["count"] = 8,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 21561,
+								},
+							},
+							["hit"] = 3,
+							["criticalmin"] = 3069,
+							["casts"] = 1,
+							["critical"] = 5,
+							["amount"] = 21561,
+							["school"] = 8,
+							["resisted"] = 1816,
+							["criticalmax"] = 3576,
+							["hitamount"] = 5118,
+						},
+						["Steady Shot"] = {
+							["hitmin"] = 1322,
+							["criticalamount"] = 44729,
+							["id"] = 49052,
+							["hitmax"] = 1822,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 59780,
+								},
+							},
+							["count"] = 22,
+							["hit"] = 10,
+							["casts"] = 21,
+							["critical"] = 12,
+							["amount"] = 59780,
+							["school"] = 1,
+							["criticalmin"] = 3340,
+							["criticalmax"] = 4140,
+							["hitamount"] = 15051,
+						},
+						["Charge (Adi)"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 53148,
+						},
+						["Chimera Shot - Serpent"] = {
+							["criticalmin"] = 4853,
+							["hitmin"] = 1711,
+							["criticalamount"] = 14967,
+							["id"] = 53353,
+							["hitmax"] = 2229,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25298,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 5,
+							["casts"] = 1,
+							["critical"] = 3,
+							["amount"] = 25298,
+							["school"] = 8,
+							["resisted"] = 657,
+							["criticalmax"] = 5057,
+							["hitamount"] = 10331,
+						},
+						["Auto Shot"] = {
+							["hitmin"] = 1293,
+							["criticalamount"] = 116984,
+							["id"] = 75,
+							["hitmax"] = 1743,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 158882,
+								},
+							},
+							["count"] = 67,
+							["hit"] = 28,
+							["casts"] = 1,
+							["critical"] = 39,
+							["amount"] = 158882,
+							["school"] = 1,
+							["criticalmin"] = 2520,
+							["criticalmax"] = 3692,
+							["hitamount"] = 41898,
+						},
+						["Melee (Adi)"] = {
+							["glance"] = 7482,
+							["hitmin"] = 438,
+							["criticalmin"] = 870,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 31654,
+								},
+							},
+							["glancing"] = 21,
+							["amount"] = 31654,
+							["glancemin"] = 330,
+							["criticalamount"] = 6976,
+							["id"] = 6603,
+							["glancemax"] = 395,
+							["PARRY"] = 1,
+							["criticalmax"] = 1074,
+							["hitmax"] = 613,
+							["hit"] = 35,
+							["school"] = 1,
+							["critical"] = 7,
+							["count"] = 64,
+							["hitamount"] = 17196,
+						},
+					},
+					["totaldamage"] = 466715,
+					["energy"] = 3457,
+					["role"] = "DAMAGER",
+				}, -- [5]
+				{
+					["last"] = 5290.904000000001,
+					["flag"] = 1300,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[15286] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[15258] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 133,
+							["uptime"] = 108,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[32409] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 32,
+							["uptime"] = 5,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71636] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[72416] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[48156] = {
+							["type"] = "BUFF",
+							["count"] = 84,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 42,
+									["refresh"] = 1,
+									["uptime"] = 65,
+								},
+							},
+							["uptime"] = 65,
+						},
+						[48160] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 32,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 79,
+									["count"] = 8,
+								},
+							},
+							["uptime"] = 79,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[59000] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 33,
+							["uptime"] = 95,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48300] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 86,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 86,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61792] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 59,
+							["uptime"] = 103,
+						},
+						[48125] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 41,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 41,
+									["uptime"] = 93,
+								},
+							},
+							["uptime"] = 93,
+						},
+						[33198] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 44,
+							["school"] = 32,
+							["refresh"] = 9,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 37,
+									["refresh"] = 9,
+									["uptime"] = 44,
+								},
+							},
+							["count"] = 37,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 27,
+						},
+						[75466] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[55637] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 31,
+						},
+						[15473] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[14751] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+					},
+					["time"] = 99.13,
+					["totaldamagetaken"] = 38866,
+					["damage"] = 1022474,
+					["damagespells"] = {
+						["Vampiric Touch (DoT)"] = {
+							["casts"] = 8,
+							["hitmin"] = 2360,
+							["criticalamount"] = 99907,
+							["id"] = 48160,
+							["hitmax"] = 3982,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 168458,
+								},
+							},
+							["count"] = 39,
+							["hit"] = 23,
+							["criticalmax"] = 9246,
+							["critical"] = 16,
+							["amount"] = 168458,
+							["school"] = 32,
+							["resisted"] = 9873,
+							["criticalmin"] = 4423,
+							["hitamount"] = 68551,
+						},
+						["Improved Devouring Plague"] = {
+							["hitmax"] = 4548,
+							["hitmin"] = 3630,
+							["criticalamount"] = 21263,
+							["id"] = 63675,
+							["criticalmin"] = 5976,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 33980,
+								},
+							},
+							["criticalmax"] = 8650,
+							["critical"] = 3,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 32,
+							["resisted"] = 1625,
+							["amount"] = 33980,
+							["hitamount"] = 12717,
+						},
+						["Devouring Plague (DoT)"] = {
+							["casts"] = 6,
+							["hitmin"] = 1863,
+							["criticalamount"] = 112311,
+							["id"] = 48300,
+							["hitmax"] = 3369,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 160279,
+								},
+							},
+							["count"] = 42,
+							["hit"] = 19,
+							["criticalmax"] = 7042,
+							["critical"] = 23,
+							["amount"] = 160279,
+							["school"] = 32,
+							["resisted"] = 6812,
+							["criticalmin"] = 4009,
+							["hitamount"] = 47968,
+						},
+						["Mind Flay"] = {
+							["criticalmin"] = 4850,
+							["hitmin"] = 2310,
+							["criticalamount"] = 360446,
+							["id"] = 58381,
+							["criticalmax"] = 8943,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 540289,
+								},
+							},
+							["critical"] = 57,
+							["hitmax"] = 4273,
+							["casts"] = 42,
+							["count"] = 115,
+							["hit"] = 58,
+							["school"] = 32,
+							["resisted"] = 34018,
+							["amount"] = 540289,
+							["hitamount"] = 179843,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 1580,
+							["criticalamount"] = 65799,
+							["id"] = 48125,
+							["criticalmin"] = 3091,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 90336,
+								},
+							},
+							["hitmax"] = 2497,
+							["critical"] = 17,
+							["criticalmax"] = 5211,
+							["count"] = 30,
+							["hit"] = 13,
+							["school"] = 32,
+							["resisted"] = 4808,
+							["amount"] = 90336,
+							["hitamount"] = 24537,
+						},
+						["Shadow Word: Death"] = {
+							["criticalmin"] = 10691,
+							["hitmin"] = 3968,
+							["criticalamount"] = 10691,
+							["id"] = 48158,
+							["criticalmax"] = 10691,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 29132,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 5498,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 32,
+							["resisted"] = 1050,
+							["amount"] = 29132,
+							["hitamount"] = 18441,
+						},
+					},
+					["damagetaken"] = 38866,
+					["id"] = "0x07000000002155D2",
+					["spec"] = 258,
+					["healspells"] = {
+						[15290] = {
+							["overheal"] = 622391,
+							["max"] = 2375,
+							["count"] = 2082,
+							["amount"] = 80352,
+							["school"] = 32,
+							["min"] = 7,
+							["ishot"] = true,
+							["targets"] = {
+								["Simplelocks"] = {
+									["overheal"] = 43942,
+									["amount"] = 10332,
+								},
+								["Grottesque"] = {
+									["overheal"] = 243936,
+									["amount"] = 27422,
+								},
+								["Orcscream"] = {
+									["overheal"] = 46591,
+									["amount"] = 7692,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 47609,
+									["amount"] = 4957,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 46975,
+									["amount"] = 7296,
+								},
+								["Treant"] = {
+									["overheal"] = 49913,
+									["amount"] = 3257,
+								},
+								["Caiva"] = {
+									["overheal"] = 46516,
+									["amount"] = 7765,
+								},
+								["Adi"] = {
+									["overheal"] = 50887,
+									["amount"] = 3375,
+								},
+								["Laressa"] = {
+									["overheal"] = 46022,
+									["amount"] = 8256,
+								},
+							},
+						},
+						[75999] = {
+							["overheal"] = 3332,
+							["criticalamount"] = 696,
+							["max"] = 696,
+							["targets"] = {
+								["Grottesque"] = {
+									["overheal"] = 3332,
+									["amount"] = 696,
+								},
+							},
+							["min"] = 696,
+							["criticalmax"] = 696,
+							["critical"] = 4,
+							["amount"] = 696,
+							["school"] = 32,
+							["count"] = 6,
+							["criticalmin"] = 0,
+						},
+						[48300] = {
+							["overheal"] = 24079,
+							["max"] = 644,
+							["targets"] = {
+								["Grottesque"] = {
+									["overheal"] = 24079,
+									["amount"] = 1365,
+								},
+							},
+							["min"] = 45,
+							["casts"] = 6,
+							["count"] = 42,
+							["amount"] = 1365,
+							["school"] = 32,
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 4279,
+							["id"] = 67332,
+							["hitmax"] = 4279,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 4279,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 1069,
+							["amount"] = 4279,
+							["hitamount"] = 4279,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 2861,
+							["id"] = 67329,
+							["hitmax"] = 4215,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 22243,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 7463,
+							["amount"] = 22243,
+							["hitamount"] = 22243,
+						},
+						["Shadow Word: Death (DoT)"] = {
+							["hitmin"] = 1654,
+							["id"] = 32409,
+							["hitmax"] = 4453,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["resisted"] = 4992,
+							["amount"] = 12344,
+							["hitamount"] = 12344,
+						},
+					},
+					["heal"] = 82413,
+					["name"] = "Grottesque",
+					["overheal"] = 649802,
+					["totaldamage"] = 1022474,
+					["role"] = "DAMAGER",
+				}, -- [6]
+				{
+					["last"] = 5291.147,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 1,
+							["school"] = 8,
+							["uptime"] = 29,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[26669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 1,
+							["school"] = 2,
+							["uptime"] = 48,
+						},
+						[13750] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[13877] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 2,
+						},
+						[57970] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 55,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 55,
+									["uptime"] = 95,
+								},
+							},
+							["uptime"] = 95,
+						},
+						[67671] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 14,
+						},
+						[59628] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[6774] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 90,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 55,
+						},
+						[57933] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[51690] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 55,
+							["school"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 56,
+									["count"] = 55,
+								},
+							},
+							["uptime"] = 56,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["energyspells"] = {
+						[35548] = 285,
+					},
+					["time"] = 98.28000000000004,
+					["totaldamagetaken"] = 88240,
+					["damage"] = 576017,
+					["damagespells"] = {
+						["Eviscerate"] = {
+							["hitmin"] = 1084,
+							["criticalamount"] = 51171,
+							["id"] = 48668,
+							["hitmax"] = 1084,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 52255,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 1,
+							["casts"] = 6,
+							["critical"] = 5,
+							["amount"] = 52255,
+							["school"] = 1,
+							["criticalmin"] = 9655,
+							["criticalmax"] = 11025,
+							["hitamount"] = 1084,
+						},
+						["Shiv"] = {
+							["hitmin"] = 540,
+							["id"] = 5940,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 540,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1461,
-							["amount"] = 1461,
-							["hitamount"] = 1461,
+							["school"] = 1,
+							["hitmax"] = 540,
+							["amount"] = 540,
+							["hitamount"] = 540,
 						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 5522,
-							["id"] = 70890,
+						["Melee"] = {
+							["glance"] = 30120,
+							["hitmin"] = 420,
+							["criticalmin"] = 846,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 5522,
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 202752,
+								},
+							},
+							["glancing"] = 54,
+							["amount"] = 202752,
+							["MISS"] = 41,
+							["glancemin"] = 312,
+							["criticalamount"] = 145140,
+							["id"] = 6603,
+							["glancemax"] = 1418,
+							["PARRY"] = 2,
+							["criticalmax"] = 4015,
+							["count"] = 210,
+							["hit"] = 35,
+							["school"] = 1,
+							["hitmax"] = 1561,
+							["critical"] = 78,
+							["hitamount"] = 27492,
+						},
+						["Instant Poison IX"] = {
+							["criticalmin"] = 1446,
+							["hitmin"] = 827,
+							["criticalamount"] = 50139,
+							["id"] = 57965,
+							["hitmax"] = 1537,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 141895,
+								},
+							},
+							["count"] = 110,
+							["hit"] = 84,
+							["casts"] = 1,
+							["critical"] = 26,
+							["amount"] = 141895,
+							["school"] = 8,
+							["resisted"] = 9930,
+							["criticalmax"] = 2582,
+							["hitamount"] = 91756,
+						},
+						["Blade Twisting"] = {
+							["casts"] = 1,
+							["count"] = 19,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 19,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 51585,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 574,
+							["id"] = 57970,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 39674,
+								},
+							},
+							["hitmax"] = 1981,
+							["count"] = 29,
+							["hit"] = 29,
+							["school"] = 8,
+							["resisted"] = 2797,
+							["amount"] = 39674,
+							["hitamount"] = 39674,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 1457,
+							["criticalamount"] = 71341,
+							["id"] = 48638,
+							["criticalmin"] = 4145,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 98412,
+								},
+							},
+							["criticalmax"] = 6490,
+							["critical"] = 14,
+							["casts"] = 30,
+							["count"] = 30,
+							["hit"] = 16,
+							["school"] = 1,
+							["hitmax"] = 2062,
+							["amount"] = 98412,
+							["hitamount"] = 27071,
+						},
+						["Killing Spree"] = {
+							["hitmin"] = 674,
+							["criticalamount"] = 30295,
+							["id"] = 57841,
+							["hitmax"] = 1910,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 40489,
+								},
+							},
+							["count"] = 20,
+							["hit"] = 9,
+							["casts"] = 2,
+							["critical"] = 11,
+							["amount"] = 40489,
+							["school"] = 1,
+							["criticalmin"] = 1684,
+							["criticalmax"] = 3698,
+							["hitamount"] = 10194,
+						},
+					},
+					["damagetaken"] = 88240,
+					["id"] = "0x070000000082321E",
+					["spec"] = 260,
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 5308,
+							["id"] = 67332,
+							["hitmax"] = 5463,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 10771,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 1932,
+							["amount"] = 10771,
+							["hitamount"] = 10771,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 3725,
+							["id"] = 67329,
+							["hitmax"] = 4834,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25329,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 9322,
+							["amount"] = 25329,
+							["hitamount"] = 25329,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 2972,
+							["id"] = 67332,
+							["hitmax"] = 4898,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 52140,
+								},
+							},
+							["count"] = 14,
+							["hit"] = 14,
+							["school"] = 4,
+							["resisted"] = 18658,
+							["amount"] = 52140,
+							["hitamount"] = 52140,
+						},
+					},
+					["name"] = "Jutrit",
+					["totaldamage"] = 576017,
+					["energy"] = 285,
+					["role"] = "DAMAGER",
+				}, -- [7]
+				{
+					["last"] = 5290.913000000001,
+					["flag"] = 1300,
+					["class"] = "WARLOCK",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 5,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[47864] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 84,
+								},
+							},
+							["uptime"] = 84,
+						},
+						[25228] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[47813] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 91,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 91,
+						},
+						[17800] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 12,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 12,
+									["uptime"] = 89,
+								},
+							},
+							["uptime"] = 89,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 90,
+						},
+						[32851] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 69,
+							["uptime"] = 106,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[35696] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[35706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[63167] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 41,
+						},
+						[47241] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 36,
+						},
+						[71165] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 26,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[54508] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[47811] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 92,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 92,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[67669] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[47893] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 98.45999999999998,
+					["totaldamagetaken"] = 26314,
+					["damage"] = 456373,
+					["overheal"] = 64821,
+					["damagetaken"] = 21054,
+					["id"] = "0x0700000000787132",
+					["spec"] = 266,
+					["healspells"] = {
+						[54181] = {
+							["min"] = 39,
+							["count"] = 142,
+							["amount"] = 4611,
+							["school"] = 2,
+							["max"] = 917,
+							["targets"] = {
+								["Shaaroon"] = {
+									["overheal"] = 52959,
+									["amount"] = 4611,
+								},
+							},
+							["overheal"] = 52959,
+						},
+						[47893] = {
+							["overheal"] = 11862,
+							["max"] = 659,
+							["count"] = 22,
+							["amount"] = 2636,
+							["school"] = 32,
+							["min"] = 659,
+							["ishot"] = true,
+							["targets"] = {
+								["Simplelocks"] = {
+									["overheal"] = 11862,
+									["amount"] = 2636,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Burning Breath"] = {
+							["total"] = 26314,
+							["hitmin"] = 2894,
+							["id"] = 67329,
+							["hitmax"] = 4220,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["total"] = 26314,
+									["amount"] = 21054,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 6554,
+							["amount"] = 21054,
+							["hitamount"] = 21054,
+						},
+					},
+					["manaspells"] = {
+						[31818] = 10095,
+					},
+					["heal"] = 7247,
+					["name"] = "Simplelocks",
+					["mana"] = 10095,
+					["damagespells"] = {
+						["Corruption (DoT)"] = {
+							["hitmin"] = 758,
+							["id"] = 47813,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 30357,
+								},
+							},
+							["hitmax"] = 1379,
+							["casts"] = 6,
+							["count"] = 30,
+							["hit"] = 30,
+							["school"] = 32,
+							["resisted"] = 2307,
+							["amount"] = 30357,
+							["hitamount"] = 30357,
+						},
+						["Incinerate"] = {
+							["amount"] = 71730,
+							["criticalmin"] = 7020,
+							["hitmin"] = 3925,
+							["criticalamount"] = 40036,
+							["id"] = 47838,
+							["criticalmax"] = 8822,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 71730,
+								},
+							},
+							["critical"] = 5,
+							["hitmax"] = 5240,
+							["casts"] = 11,
+							["count"] = 13,
+							["hit"] = 7,
+							["school"] = 4,
+							["resisted"] = 4908,
+							["MISS"] = 1,
+							["hitamount"] = 31694,
+						},
+						["Intercept (Shaaroon)"] = {
+							["hitmin"] = 144,
+							["id"] = 47995,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 144,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 5522,
-							["amount"] = 5522,
-							["hitamount"] = 5522,
+							["school"] = 1,
+							["hitmax"] = 144,
+							["amount"] = 144,
+							["hitamount"] = 144,
 						},
-						["Necrosis"] = {
-							["hitmin"] = 557,
-							["id"] = 51460,
+						["Curse of Agony (DoT)"] = {
+							["hitmin"] = 372,
+							["id"] = 47864,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 1220,
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 24859,
 								},
 							},
+							["hitmax"] = 889,
+							["casts"] = 4,
+							["count"] = 42,
+							["hit"] = 42,
+							["school"] = 32,
+							["resisted"] = 1207,
+							["amount"] = 24859,
+							["hitamount"] = 24859,
+						},
+						["Melee (Shaaroon)"] = {
+							["DODGE"] = 2,
+							["glance"] = 10893,
+							["hitmin"] = 791,
+							["criticalmin"] = 1378,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 73377,
+								},
+							},
+							["glancing"] = 14,
+							["amount"] = 73377,
+							["glancemin"] = 599,
+							["criticalamount"] = 33120,
+							["id"] = 6603,
+							["glancemax"] = 837,
+							["criticalmax"] = 2384,
+							["critical"] = 16,
+							["hit"] = 28,
+							["school"] = 1,
+							["hitmax"] = 1160,
+							["count"] = 60,
+							["hitamount"] = 29364,
+						},
+						["Cleave (Shaaroon)"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 1105,
+							["criticalamount"] = 8640,
+							["id"] = 47994,
+							["hitmax"] = 1233,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 20332,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 10,
 							["casts"] = 1,
+							["critical"] = 4,
+							["amount"] = 20332,
+							["school"] = 1,
+							["criticalmin"] = 1808,
+							["criticalmax"] = 2350,
+							["hitamount"] = 11692,
+						},
+						["Soul Fire"] = {
+							["criticalmax"] = 12764,
+							["criticalmin"] = 12389,
+							["hitmin"] = 5571,
+							["criticalamount"] = 25153,
+							["id"] = 47825,
+							["hitmax"] = 7204,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 80524,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 9,
+							["casts"] = 11,
+							["critical"] = 2,
+							["amount"] = 80524,
+							["school"] = 4,
+							["resisted"] = 3349,
+							["MISS"] = 1,
+							["hitamount"] = 55371,
+						},
+						["Immolate (DoT)"] = {
+							["hitmin"] = 764,
+							["criticalamount"] = 30527,
+							["id"] = 47811,
+							["hitmax"] = 1146,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 44322,
+								},
+							},
+							["count"] = 30,
+							["hit"] = 14,
+							["criticalmax"] = 2292,
+							["critical"] = 16,
+							["amount"] = 44322,
+							["school"] = 4,
+							["resisted"] = 3681,
+							["criticalmin"] = 1528,
+							["hitamount"] = 13795,
+						},
+						["Shadow Bolt"] = {
+							["criticalmax"] = 11421,
+							["hitmax"] = 5771,
+							["hitmin"] = 3630,
+							["criticalamount"] = 75291,
+							["id"] = 47809,
+							["count"] = 14,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 100970,
+								},
+							},
+							["hit"] = 5,
+							["criticalmin"] = 7255,
+							["casts"] = 13,
+							["critical"] = 8,
+							["amount"] = 100970,
+							["school"] = 32,
+							["resisted"] = 11816,
+							["MISS"] = 1,
+							["hitamount"] = 25679,
+						},
+						["Immolate"] = {
+							["hitmax"] = 1353,
+							["hitmin"] = 1353,
+							["criticalamount"] = 8405,
+							["id"] = 47811,
+							["count"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 9758,
+								},
+							},
+							["hit"] = 1,
+							["criticalmin"] = 2439,
+							["casts"] = 4,
+							["critical"] = 3,
+							["amount"] = 9758,
+							["school"] = 4,
+							["resisted"] = 573,
+							["criticalmax"] = 3246,
+							["hitamount"] = 1353,
+						},
+					},
+					["totaldamage"] = 456373,
+					["role"] = "DAMAGER",
+				}, -- [8]
+				{
+					["last"] = 5290.911,
+					["flag"] = 1300,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[15286] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[15258] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 137,
+							["uptime"] = 111,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["refresh"] = 1,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[71643] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 18,
+							["uptime"] = 41,
+						},
+						[32409] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["uptime"] = 2,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55637] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 31,
+						},
+						[70691] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[71644] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 41,
+						},
+						[72416] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[48156] = {
+							["type"] = "DEBUFF",
+							["count"] = 104,
+							["school"] = 32,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 73,
+									["count"] = 52,
+								},
+							},
+							["uptime"] = 73,
+						},
+						[48160] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 32,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 66,
+									["count"] = 7,
+								},
+							},
+							["uptime"] = 66,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[59000] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 33,
+							["uptime"] = 90,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[48300] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 4,
+									["uptime"] = 95,
+								},
+							},
+							["uptime"] = 95,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61792] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 65,
+							["uptime"] = 109,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48125] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 52,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 52,
+									["uptime"] = 97,
+								},
+							},
+							["uptime"] = 97,
+						},
+						[63619] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["uptime"] = 72,
+						},
+						[33198] = {
+							["type"] = "DEBUFF",
+							["count"] = 39,
+							["school"] = 32,
+							["refresh"] = 17,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 39,
+									["refresh"] = 17,
+									["uptime"] = 47,
+								},
+							},
+							["uptime"] = 47,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 50,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[75466] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 42,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[15473] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 99.20000000000009,
+					["totaldamagetaken"] = 30874,
+					["damage"] = 1044933,
+					["overheal"] = 550045,
+					["damagetaken"] = 30874,
+					["id"] = "0x070000000086BAC1",
+					["spec"] = 258,
+					["healspells"] = {
+						[15290] = {
+							["overheal"] = 521787,
+							["max"] = 2176,
+							["count"] = 1714,
+							["amount"] = 73360,
+							["school"] = 32,
+							["min"] = 24,
+							["ishot"] = true,
+							["targets"] = {
+								["Welden"] = {
+									["overheal"] = 39426,
+									["amount"] = 14675,
+								},
+								["Shadowfiend"] = {
+									["overheal"] = 6364,
+									["amount"] = 1096,
+								},
+								["Apollonn"] = {
+									["overheal"] = 50314,
+									["amount"] = 3790,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 45586,
+									["amount"] = 8510,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 37545,
+									["amount"] = 9140,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 244382,
+									["amount"] = 26123,
+								},
+								["Xknappen"] = {
+									["overheal"] = 46680,
+									["amount"] = 7422,
+								},
+								["Wolf"] = {
+									["overheal"] = 51490,
+									["amount"] = 2604,
+								},
+							},
+						},
+						[75999] = {
+							["overheal"] = 3998,
+							["criticalamount"] = 0,
+							["max"] = 90,
+							["targets"] = {
+								["Evelinayou"] = {
+									["overheal"] = 3998,
+									["amount"] = 90,
+								},
+							},
+							["min"] = 90,
+							["criticalmax"] = 0,
+							["count"] = 7,
+							["amount"] = 90,
+							["school"] = 32,
+							["criticalmin"] = 0,
+							["critical"] = 3,
+						},
+						[48300] = {
+							["overheal"] = 24260,
+							["max"] = 737,
+							["targets"] = {
+								["Evelinayou"] = {
+									["overheal"] = 24260,
+									["amount"] = 2694,
+								},
+							},
+							["min"] = 629,
+							["casts"] = 7,
+							["count"] = 46,
+							["amount"] = 2694,
+							["school"] = 32,
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 4008,
+							["id"] = 67332,
+							["hitmax"] = 4008,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 4008,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 1001,
+							["amount"] = 4008,
+							["hitamount"] = 4008,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 2764,
+							["id"] = 67329,
+							["hitmax"] = 3850,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 20774,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 8901,
+							["amount"] = 20774,
+							["hitamount"] = 20774,
+						},
+						["Shadow Word: Death (DoT)"] = {
+							["hitmin"] = 1909,
+							["id"] = 32409,
+							["hitmax"] = 4183,
 							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 32,
-							["hitmax"] = 663,
-							["amount"] = 1220,
-							["hitamount"] = 1220,
+							["resisted"] = 1522,
+							["amount"] = 6092,
+							["hitamount"] = 6092,
 						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1311,
-							["id"] = 55078,
+					},
+					["manaspells"] = {
+						[57669] = 6354,
+						[34650] = 18612,
+					},
+					["heal"] = 76144,
+					["name"] = "Evelinayou",
+					["mana"] = 24966,
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["hitmin"] = 4200,
+							["id"] = 48127,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 1311,
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 9735,
+								},
+							},
+							["hitmax"] = 5535,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 1050,
+							["amount"] = 9735,
+							["hitamount"] = 9735,
+						},
+						["Vampiric Touch (DoT)"] = {
+							["casts"] = 7,
+							["hitmin"] = 2242,
+							["criticalamount"] = 125200,
+							["id"] = 48160,
+							["hitmax"] = 3537,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 160793,
+								},
+							},
+							["count"] = 33,
+							["hit"] = 12,
+							["criticalmax"] = 8215,
+							["critical"] = 21,
+							["amount"] = 160793,
+							["school"] = 32,
+							["resisted"] = 12677,
+							["criticalmin"] = 4686,
+							["hitamount"] = 35593,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 1248,
+							["criticalamount"] = 41520,
+							["id"] = 48125,
+							["criticalmin"] = 2606,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 75006,
+								},
+							},
+							["hitmax"] = 2186,
+							["critical"] = 12,
+							["criticalmax"] = 4357,
+							["count"] = 32,
+							["hit"] = 20,
+							["school"] = 32,
+							["resisted"] = 3778,
+							["amount"] = 75006,
+							["hitamount"] = 33486,
+						},
+						["Melee (Shadowfiend)"] = {
+							["glance"] = 1695,
+							["hitmin"] = 1569,
+							["criticalmin"] = 3411,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25678,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 25678,
+							["resisted"] = 1670,
+							["glancemin"] = 1695,
+							["criticalamount"] = 3411,
+							["id"] = 6603,
+							["glancemax"] = 1695,
+							["criticalmax"] = 3411,
+							["critical"] = 1,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 2253,
+							["count"] = 12,
+							["hitamount"] = 20572,
+						},
+						["Improved Devouring Plague"] = {
+							["criticalmin"] = 4782,
+							["hitmin"] = 3283,
+							["criticalamount"] = 11122,
+							["id"] = 63675,
+							["hitmax"] = 5582,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 32351,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 5,
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 32351,
+							["school"] = 32,
+							["resisted"] = 2260,
+							["criticalmax"] = 6340,
+							["hitamount"] = 21229,
+						},
+						["Mind Flay"] = {
+							["criticalmin"] = 4620,
+							["hitmin"] = 2211,
+							["criticalamount"] = 392763,
+							["id"] = 58381,
+							["criticalmax"] = 8198,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 558724,
+								},
+							},
+							["critical"] = 63,
+							["hitmax"] = 4022,
+							["casts"] = 52,
+							["count"] = 119,
+							["hit"] = 56,
+							["school"] = 32,
+							["resisted"] = 37472,
+							["amount"] = 558724,
+							["hitamount"] = 165961,
+						},
+						["Devouring Plague (DoT)"] = {
+							["casts"] = 7,
+							["hitmin"] = 1516,
+							["criticalamount"] = 128873,
+							["id"] = 48300,
+							["hitmax"] = 3024,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 169850,
+								},
+							},
+							["count"] = 46,
+							["hit"] = 18,
+							["criticalmax"] = 6320,
+							["critical"] = 28,
+							["amount"] = 169850,
+							["school"] = 32,
+							["resisted"] = 9526,
+							["criticalmin"] = 2156,
+							["hitamount"] = 40977,
+						},
+						["Shadow Word: Death"] = {
+							["criticalmin"] = 8786,
+							["hitmin"] = 4010,
+							["criticalamount"] = 8786,
+							["id"] = 48158,
+							["hitmax"] = 4010,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 12796,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 12796,
+							["school"] = 32,
+							["resisted"] = 445,
+							["criticalmax"] = 8786,
+							["hitamount"] = 4010,
+						},
+					},
+					["totaldamage"] = 1044933,
+					["role"] = "DAMAGER",
+				}, -- [9]
+				{
+					["last"] = 5290.355000000001,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[60065] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 14,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 32,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 67,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 67,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 36,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 110,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 29,
+						},
+						[49005] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[49016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[51124] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 68,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 22,
+							["uptime"] = 83,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 16,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 68,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 68,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 95,
+						},
+						[50449] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 38,
+							["uptime"] = 106,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 19,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["absorbspells"] = {
+						[49497] = {
+							["min"] = 1757,
+							["count"] = 2,
+							["amount"] = 3602,
+							["school"] = 1,
+							["targets"] = {
+								["Risenone"] = 3602,
+							},
+							["max"] = 1845,
+						},
+					},
+					["time"] = 96.53,
+					["totaldamagetaken"] = 38974,
+					["damage"] = 229555,
+					["overheal"] = 62027,
+					["absorb"] = 3602,
+					["damagetaken"] = 35372,
+					["id"] = "0x0700000000951A16",
+					["spec"] = 250,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 6433,
+							["max"] = 184,
+							["count"] = 86,
+							["amount"] = 2188,
+							["school"] = 1,
+							["min"] = 49,
+							["ishot"] = true,
+							["targets"] = {
+								["Risenone"] = {
+									["overheal"] = 6433,
+									["amount"] = 2188,
+								},
+							},
+						},
+						[45470] = {
+							["overheal"] = 40648,
+							["max"] = 5282,
+							["targets"] = {
+								["Risenone"] = {
+									["overheal"] = 40648,
+									["amount"] = 12170,
+								},
+							},
+							["min"] = 193,
+							["casts"] = 11,
+							["count"] = 11,
+							["amount"] = 12170,
+							["school"] = 1,
+						},
+						[50424] = {
+							["overheal"] = 14946,
+							["max"] = 812,
+							["count"] = 20,
+							["amount"] = 1272,
+							["school"] = 1,
+							["min"] = 76,
+							["targets"] = {
+								["Jutrit"] = {
+									["overheal"] = 1222,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 1600,
+									["amount"] = 0,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 1268,
+									["amount"] = 460,
+								},
+								["Booxeer"] = {
+									["overheal"] = 1609,
+									["amount"] = 0,
+								},
+								["Magnatas"] = {
+									["overheal"] = 1636,
+									["amount"] = 0,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 1591,
+									["amount"] = 0,
+								},
+								["Adi"] = {
+									["overheal"] = 938,
+									["amount"] = 0,
+								},
+								["Risenone"] = {
+									["overheal"] = 597,
+									["amount"] = 812,
+								},
+								["Shadowfiend"] = {
+									["overheal"] = 730,
+									["amount"] = 0,
+								},
+								["Echoash"] = {
+									["overheal"] = 1475,
+									["amount"] = 0,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 1142,
+									["amount"] = 0,
+								},
+								["Shamaster"] = {
+									["overheal"] = 1138,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 4575,
+							["id"] = 67332,
+							["hitmax"] = 5971,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 10546,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 1806,
+							["amount"] = 10546,
+							["hitamount"] = 10546,
+						},
+						["Burning Breath"] = {
+							["total"] = 25135,
+							["hitmin"] = 2148,
+							["id"] = 67329,
+							["hitmax"] = 5362,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["total"] = 25135,
+									["amount"] = 21533,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 8317,
+							["amount"] = 21533,
+							["hitamount"] = 21533,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3293,
+							["id"] = 67332,
+							["hitmax"] = 3293,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 3293,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1311,
-							["amount"] = 1311,
-							["hitamount"] = 1311,
+							["school"] = 4,
+							["resisted"] = 1411,
+							["amount"] = 3293,
+							["hitamount"] = 3293,
 						},
-						["Claw (Rotstealer)"] = {
-							["hitmin"] = 774,
-							["id"] = 47468,
+					},
+					["heal"] = 15630,
+					["name"] = "Risenone",
+					["damagespells"] = {
+						["Death Coil"] = {
+							["criticalmin"] = 2895,
+							["hitmin"] = 1292,
+							["criticalamount"] = 8709,
+							["id"] = 47632,
+							["criticalmax"] = 2907,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 2363,
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 17425,
 								},
 							},
+							["critical"] = 3,
+							["hitmax"] = 1616,
+							["casts"] = 10,
+							["count"] = 9,
+							["hit"] = 6,
+							["school"] = 32,
+							["resisted"] = 1935,
+							["amount"] = 17425,
+							["hitamount"] = 8716,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 496,
+							["id"] = 55078,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 12880,
+								},
+							},
+							["hitmax"] = 623,
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 32,
+							["resisted"] = 805,
+							["amount"] = 12880,
+							["hitamount"] = 12880,
+						},
+						["Melee"] = {
+							["glance"] = 13719,
+							["hitmin"] = 1636,
+							["criticalmin"] = 3184,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 103366,
+								},
+							},
+							["glancing"] = 10,
+							["amount"] = 103366,
+							["glancemin"] = 1194,
+							["criticalamount"] = 60392,
+							["id"] = 6603,
+							["glancemax"] = 1658,
+							["criticalmax"] = 4368,
+							["critical"] = 16,
+							["hit"] = 15,
+							["school"] = 1,
+							["count"] = 41,
+							["hitmax"] = 2200,
+							["hitamount"] = 29255,
+						},
+						["Blood Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1147,
+							["criticalamount"] = 17402,
+							["id"] = 49930,
+							["hitmax"] = 1470,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 27620,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 8,
+							["casts"] = 16,
+							["critical"] = 7,
+							["amount"] = 27620,
+							["school"] = 1,
+							["criticalmin"] = 2210,
+							["criticalmax"] = 2768,
+							["hitamount"] = 10218,
+						},
+						["Icy Touch"] = {
+							["criticalamount"] = 12317,
+							["id"] = 49909,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 12317,
+								},
+							},
+							["criticalmax"] = 2578,
+							["criticalmin"] = 2289,
+							["casts"] = 6,
+							["critical"] = 5,
+							["amount"] = 12317,
+							["school"] = 16,
+							["resisted"] = 513,
+							["MISS"] = 1,
+							["count"] = 6,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1054,
+							["criticalamount"] = 6496,
+							["id"] = 49921,
+							["hitmax"] = 1221,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 8771,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 2,
+							["casts"] = 5,
+							["critical"] = 3,
+							["amount"] = 8771,
+							["school"] = 1,
+							["criticalmin"] = 1920,
+							["criticalmax"] = 2476,
+							["hitamount"] = 2275,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 481,
+							["id"] = 55095,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 12229,
+								},
+							},
+							["hitmax"] = 613,
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 16,
+							["resisted"] = 1149,
+							["amount"] = 12229,
+							["hitamount"] = 12229,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 1808,
+							["criticalamount"] = 24496,
+							["id"] = 49924,
+							["criticalmin"] = 3594,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 34947,
+								},
+							},
+							["criticalmax"] = 4554,
+							["critical"] = 6,
+							["casts"] = 21,
+							["count"] = 11,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 2392,
+							["amount"] = 34947,
+							["hitamount"] = 10451,
+						},
+					},
+					["totaldamage"] = 229555,
+					["role"] = "TANK",
+				}, -- [10]
+				{
+					["last"] = 5289.553,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[770] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 7,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 29,
+						},
+						[24858] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 1,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[48421] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[53201] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 10,
+						},
+						[48517] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[48518] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 45,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[60064] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[67360] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 7,
+							["uptime"] = 90,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[48463] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 64,
+							["refresh"] = 9,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 9,
+									["uptime"] = 84,
+								},
+							},
+							["uptime"] = 84,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 12,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 14,
+						},
+						[16886] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 8,
+							["refresh"] = 28,
+							["uptime"] = 73,
+						},
+						[60433] = {
+							["type"] = "DEBUFF",
+							["count"] = 50,
+							["school"] = 64,
+							["refresh"] = 2,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 50,
+									["refresh"] = 2,
+									["uptime"] = 27,
+								},
+							},
+							["uptime"] = 27,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 92.34,
+					["totaldamagetaken"] = 23547,
+					["damage"] = 534493,
+					["damagespells"] = {
+						["Melee (Treant)"] = {
+							["DODGE"] = 4,
+							["glance"] = 4479,
+							["hitmin"] = 528,
+							["criticalmin"] = 1108,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 28915,
+								},
+							},
+							["glancing"] = 10,
+							["amount"] = 28915,
+							["MISS"] = 4,
+							["glancemin"] = 361,
+							["criticalamount"] = 6944,
+							["id"] = 6603,
+							["glancemax"] = 494,
+							["criticalmax"] = 1186,
+							["count"] = 53,
+							["hit"] = 29,
+							["school"] = 1,
+							["hitmax"] = 673,
+							["critical"] = 6,
+							["hitamount"] = 17492,
+						},
+						["Wrath"] = {
+							["criticalmin"] = 6371,
+							["hitmin"] = 3161,
+							["criticalamount"] = 126829,
+							["id"] = 48461,
+							["criticalmax"] = 9764,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 187479,
+								},
+							},
+							["critical"] = 15,
+							["hitmax"] = 4882,
+							["casts"] = 28,
+							["count"] = 29,
+							["hit"] = 14,
+							["school"] = 8,
+							["resisted"] = 9488,
+							["amount"] = 187479,
+							["hitamount"] = 60650,
+						},
+						["Moonfire (DoT)"] = {
+							["hitmin"] = 645,
+							["criticalamount"] = 21416,
+							["id"] = 48463,
+							["hitmax"] = 807,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 31159,
+								},
+							},
+							["count"] = 27,
+							["hit"] = 13,
+							["criticalmax"] = 1613,
+							["critical"] = 14,
+							["amount"] = 31159,
+							["school"] = 64,
+							["resisted"] = 1846,
+							["criticalmin"] = 1288,
+							["hitamount"] = 9743,
+						},
+						["Starfall"] = {
+							["hitmax"] = 1922,
+							["hitmin"] = 484,
+							["criticalamount"] = 32557,
+							["id"] = 53195,
+							["count"] = 20,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 40021,
+								},
+							},
+							["hit"] = 7,
+							["criticalmin"] = 967,
+							["casts"] = 1,
+							["critical"] = 13,
+							["amount"] = 40021,
+							["school"] = 64,
+							["resisted"] = 1600,
+							["criticalmax"] = 3833,
+							["hitamount"] = 7464,
+						},
+						["Moonfire"] = {
+							["criticalmin"] = 2279,
+							["hitmin"] = 1108,
+							["criticalamount"] = 2279,
+							["id"] = 48463,
+							["criticalmax"] = 2279,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 5778,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 1208,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 64,
+							["resisted"] = 376,
+							["amount"] = 5778,
+							["hitamount"] = 3499,
+						},
+						["Starfire"] = {
+							["hitmax"] = 7445,
+							["hitmin"] = 5102,
+							["criticalamount"] = 191194,
+							["id"] = 48465,
+							["count"] = 23,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 241141,
+								},
+							},
+							["hit"] = 8,
+							["criticalmin"] = 10140,
+							["casts"] = 23,
+							["critical"] = 15,
+							["amount"] = 241141,
+							["school"] = 64,
+							["resisted"] = 12612,
+							["criticalmax"] = 14682,
+							["hitamount"] = 49947,
+						},
+					},
+					["damagetaken"] = 23547,
+					["id"] = "0x07000000008A8444",
+					["spec"] = 102,
+					["damagetakenspells"] = {
+						["Burning Breath"] = {
+							["hitmin"] = 3498,
+							["id"] = 67329,
+							["hitmax"] = 4208,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 23547,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 9434,
+							["amount"] = 23547,
+							["hitamount"] = 23547,
+						},
+					},
+					["name"] = "Tifura",
+					["manaspells"] = {
+						[53506] = 17174,
+					},
+					["mana"] = 17174,
+					["totaldamage"] = 534493,
+					["role"] = "DAMAGER",
+				}, -- [11]
+				{
+					["last"] = 5290.906,
+					["flag"] = 1300,
+					["class"] = "MAGE",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 24,
+						},
+						[28682] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 4,
+							["uptime"] = 9,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 109,
+						},
+						[48108] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["uptime"] = 22,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 45,
+						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 46,
+								},
+							},
+							["uptime"] = 46,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["refresh"] = 3,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 3,
+									["uptime"] = 65,
+								},
+							},
+							["uptime"] = 65,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 107,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 101,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71636] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 4,
+							["refresh"] = 40,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 5,
+									["refresh"] = 40,
+									["uptime"] = 87,
+								},
+							},
+							["uptime"] = 87,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 7,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[64343] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 1,
+							["uptime"] = 13,
+						},
+						[72416] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 72,
+						},
+						[55342] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 30,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 85,
+									["count"] = 7,
+								},
+							},
+							["uptime"] = 85,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[1953] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 1,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[75473] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[47610] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 20,
+							["refresh"] = 15,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 15,
+									["uptime"] = 85,
+								},
+							},
+							["uptime"] = 85,
+						},
+					},
+					["time"] = 97.18000000000001,
+					["totaldamagetaken"] = 26651,
+					["damage"] = 501483,
+					["damagespells"] = {
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 592,
+							["id"] = 42891,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 14355,
+								},
+							},
+							["hitmax"] = 796,
+							["count"] = 20,
+							["hit"] = 20,
+							["school"] = 4,
+							["resisted"] = 991,
+							["amount"] = 14355,
+							["hitamount"] = 14355,
+						},
+						["Frostbolt (Mirror Image)"] = {
+							["amount"] = 16857,
+							["hitmin"] = 699,
+							["criticalamount"] = 2115,
+							["id"] = 59638,
+							["criticalmin"] = 1057,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 16857,
+								},
+							},
+							["criticalmax"] = 1058,
+							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 24,
+							["hit"] = 21,
+							["school"] = 16,
+							["hitmax"] = 706,
+							["MISS"] = 1,
+							["hitamount"] = 14742,
+						},
+						["Frostfire Bolt (DoT)"] = {
+							["hitmin"] = 349,
+							["id"] = 47610,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 9630,
+								},
+							},
+							["hitmax"] = 702,
+							["count"] = 19,
+							["hit"] = 19,
+							["school"] = 20,
+							["resisted"] = 430,
+							["amount"] = 9630,
+							["hitamount"] = 9630,
+						},
+						["Living Bomb"] = {
+							["criticalmin"] = 4228,
+							["hitmin"] = 2070,
+							["criticalamount"] = 18400,
+							["id"] = 55362,
+							["criticalmax"] = 4983,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 26744,
+								},
+							},
+							["critical"] = 4,
+							["hitmax"] = 3355,
+							["casts"] = 7,
+							["count"] = 7,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 2767,
+							["amount"] = 26744,
+							["hitamount"] = 8344,
+						},
+						["Pyroblast"] = {
+							["hitmax"] = 7155,
+							["hitmin"] = 6498,
+							["criticalamount"] = 54432,
+							["id"] = 42891,
+							["count"] = 7,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 74618,
+								},
+							},
+							["hit"] = 3,
+							["criticalmin"] = 11298,
+							["casts"] = 7,
+							["critical"] = 4,
+							["amount"] = 74618,
+							["school"] = 4,
+							["resisted"] = 3251,
+							["criticalmax"] = 19252,
+							["hitamount"] = 20186,
+						},
+						["Impact"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 4,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 12355,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 392,
+							["id"] = 12654,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 94647,
+								},
+							},
+							["hitmax"] = 8740,
+							["count"] = 26,
+							["hit"] = 26,
+							["school"] = 4,
+							["resisted"] = 3773,
+							["amount"] = 94647,
+							["hitamount"] = 94647,
+						},
+						["Living Bomb (DoT)"] = {
+							["hitmin"] = 990,
+							["criticalamount"] = 48619,
+							["id"] = 55360,
+							["hitmax"] = 1312,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 57823,
+								},
+							},
+							["count"] = 28,
+							["hit"] = 8,
+							["criticalmax"] = 3696,
+							["critical"] = 20,
+							["amount"] = 57823,
+							["school"] = 4,
+							["resisted"] = 4411,
+							["criticalmin"] = 1963,
+							["hitamount"] = 9204,
+						},
+						["Fire Blast"] = {
+							["criticalmin"] = 4946,
+							["hitmin"] = 2997,
+							["criticalamount"] = 12069,
+							["id"] = 42873,
+							["criticalmax"] = 7123,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 31041,
+								},
+							},
+							["critical"] = 2,
+							["hitmax"] = 3328,
+							["casts"] = 8,
+							["count"] = 8,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 2714,
+							["amount"] = 31041,
+							["hitamount"] = 18972,
+						},
+						["Scorch"] = {
+							["amount"] = 24723,
+							["criticalmin"] = 4824,
+							["hitmin"] = 2054,
+							["criticalamount"] = 17768,
+							["id"] = 42859,
+							["criticalmax"] = 6565,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 24723,
+								},
+							},
+							["critical"] = 3,
+							["hitmax"] = 2464,
+							["casts"] = 7,
+							["count"] = 7,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 764,
+							["MISS"] = 1,
+							["hitamount"] = 6955,
+						},
+						["Frostfire Bolt"] = {
+							["criticalmax"] = 13368,
+							["criticalmin"] = 6913,
+							["hitmin"] = 4294,
+							["criticalamount"] = 111316,
+							["id"] = 47610,
+							["hitmax"] = 7377,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 151045,
+								},
+							},
+							["count"] = 20,
+							["hit"] = 7,
+							["casts"] = 20,
+							["critical"] = 12,
+							["amount"] = 151045,
+							["school"] = 20,
+							["resisted"] = 9117,
+							["MISS"] = 1,
+							["hitamount"] = 39729,
+						},
+					},
+					["damagetaken"] = 26651,
+					["id"] = "0x0700000000438E77",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Burning Breath"] = {
+							["hitmin"] = 3279,
+							["id"] = 67329,
+							["hitmax"] = 4375,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 23255,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 11599,
+							["amount"] = 23255,
+							["hitamount"] = 23255,
+						},
+						["Flaming Cinder"] = {
+							["hitmin"] = 3396,
+							["id"] = 67332,
+							["hitmax"] = 3396,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 3396,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 2264,
+							["amount"] = 3396,
+							["hitamount"] = 3396,
+						},
+					},
+					["name"] = "Xknappen",
+					["manaspells"] = {
+						[67545] = 1170,
+						[44450] = -511,
+						[42987] = 3497,
+					},
+					["mana"] = 4156,
+					["totaldamage"] = 501483,
+					["role"] = "DAMAGER",
+				}, -- [12]
+				{
+					["last"] = 5290.681000000001,
+					["flag"] = 1300,
+					["mana"] = 22015,
+					["auras"] = {
+						[48468] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 6,
+									["refresh"] = 1,
+									["uptime"] = 93,
+								},
+							},
+							["uptime"] = 93,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 22,
+						},
+						[770] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 90,
+								},
+							},
+							["uptime"] = 90,
+						},
+						[48421] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 46,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24858] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48463] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 64,
+							["refresh"] = 12,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 12,
+									["uptime"] = 94,
+								},
+							},
+							["uptime"] = 94,
+						},
+						[72416] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 11,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 17,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 7,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[70721] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 32,
+							["refresh"] = 6,
+							["uptime"] = 60,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[53201] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[71564] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 5,
+						},
+						[60433] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 30,
+							["school"] = 64,
+							["refresh"] = 6,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 39,
+									["refresh"] = 6,
+									["uptime"] = 30,
+								},
+							},
+							["count"] = 39,
+						},
+						[16886] = {
+							["type"] = "BUFF",
+							["count"] = 13,
+							["school"] = 8,
+							["refresh"] = 30,
+							["uptime"] = 85,
+						},
+						[55637] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48517] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[71177] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 74,
+							["uptime"] = 106,
+						},
+						[48518] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 46,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 98.88000000000004,
+					["totaldamagetaken"] = 25982,
+					["damage"] = 721783,
+					["damagespells"] = {
+						["Insect Swarm (DoT)"] = {
+							["hitmin"] = 1322,
+							["id"] = 48468,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 72679,
+								},
+							},
+							["hitmax"] = 1901,
+							["casts"] = 7,
+							["count"] = 45,
+							["hit"] = 45,
+							["school"] = 8,
+							["resisted"] = 5223,
+							["amount"] = 72679,
+							["hitamount"] = 72679,
+						},
+						["Wrath"] = {
+							["criticalmin"] = 8102,
+							["hitmin"] = 3536,
+							["criticalamount"] = 197513,
+							["id"] = 48461,
+							["hitmax"] = 6989,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 266021,
+								},
+							},
+							["count"] = 32,
+							["hit"] = 14,
+							["casts"] = 31,
+							["critical"] = 18,
+							["amount"] = 266021,
+							["school"] = 8,
+							["resisted"] = 20920,
+							["criticalmax"] = 14587,
+							["hitamount"] = 68508,
+						},
+						["Moonfire (DoT)"] = {
+							["hitmin"] = 800,
+							["id"] = 48463,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 33203,
+								},
+							},
+							["hitmax"] = 1256,
+							["count"] = 30,
+							["hit"] = 30,
+							["school"] = 64,
+							["resisted"] = 1691,
+							["amount"] = 33203,
+							["hitamount"] = 33203,
+						},
+						["Starfall"] = {
+							["criticalmin"] = 1435,
+							["hitmin"] = 628,
+							["criticalamount"] = 52408,
+							["id"] = 53195,
+							["hitmax"] = 2689,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 86393,
+								},
+							},
+							["count"] = 40,
+							["hit"] = 22,
+							["casts"] = 2,
+							["critical"] = 18,
+							["amount"] = 86393,
+							["school"] = 64,
+							["resisted"] = 6278,
+							["criticalmax"] = 5378,
+							["hitamount"] = 33985,
+						},
+						["Starfire"] = {
+							["hitmax"] = 8468,
+							["hitmin"] = 7312,
+							["criticalamount"] = 229240,
+							["id"] = 48465,
+							["count"] = 16,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 245020,
+								},
+							},
+							["hit"] = 2,
+							["criticalmin"] = 12187,
+							["casts"] = 16,
+							["critical"] = 14,
+							["amount"] = 245020,
+							["school"] = 64,
+							["resisted"] = 14184,
+							["criticalmax"] = 17912,
+							["hitamount"] = 15780,
+						},
+						["Moonfire"] = {
+							["hitmax"] = 1552,
+							["hitmin"] = 1406,
+							["criticalamount"] = 8361,
+							["id"] = 48463,
+							["count"] = 5,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 11319,
+								},
+							},
+							["hit"] = 2,
+							["criticalmin"] = 2200,
+							["casts"] = 5,
+							["critical"] = 3,
+							["amount"] = 11319,
+							["school"] = 64,
+							["resisted"] = 1990,
+							["criticalmax"] = 3237,
+							["hitamount"] = 2958,
+						},
+						["Darkmoon Card: Death"] = {
+							["criticalamount"] = 7148,
+							["id"] = 60203,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 7148,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 7148,
+							["school"] = 32,
+							["criticalmin"] = 3525,
+							["criticalmax"] = 3623,
+							["count"] = 2,
+						},
+					},
+					["damagetaken"] = 25982,
+					["id"] = "0x070000000087C57D",
+					["spec"] = 102,
+					["damagetakenspells"] = {
+						["Burning Breath"] = {
+							["hitmin"] = 3669,
+							["id"] = 67329,
+							["hitmax"] = 4997,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25982,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 8763,
+							["amount"] = 25982,
+							["hitamount"] = 25982,
+						},
+					},
+					["name"] = "Paracethamol",
+					["totaldamage"] = 721783,
+					["class"] = "DRUID",
+					["manaspells"] = {
+						[53506] = 22015,
+					},
+					["role"] = "DAMAGER",
+				}, -- [13]
+				{
+					["last"] = 5290.986,
+					["flag"] = 1300,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[58875] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 111,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["uptime"] = 38,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57960] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 17,
+						},
+						[70829] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 30,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 39,
+						},
+						[60065] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[16280] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 35,
+							["uptime"] = 105,
+						},
+						[49233] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 4,
+							["refresh"] = 3,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 3,
+									["uptime"] = 92,
+								},
+							},
+							["uptime"] = 92,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 14,
+						},
+						[48504] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[48932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[49231] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 14,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[17364] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 72,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 72,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["uptime"] = 42,
+						},
+						[60551] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 84,
+						},
+						[30823] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[30809] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58857] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 12,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[29178] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 54,
+						},
+						[67017] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53817] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["refresh"] = 52,
+							["uptime"] = 83,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 99.17000000000004,
+					["totaldamagetaken"] = 47318,
+					["damage"] = 445512,
+					["overheal"] = 72263,
+					["damagetaken"] = 47318,
+					["id"] = "0x07000000009687DD",
+					["spec"] = 263,
+					["healspells"] = {
+						[58879] = {
+							["min"] = 192,
+							["count"] = 18,
+							["amount"] = 1657,
+							["school"] = 32,
+							["max"] = 758,
+							["targets"] = {
+								["Spirit Wolf"] = {
+									["overheal"] = 7503,
+									["amount"] = 899,
+								},
+								["Shamaster"] = {
+									["overheal"] = 7749,
+									["amount"] = 758,
+								},
+							},
+							["overheal"] = 15252,
+						},
+						[49273] = {
+							["overheal"] = 7691,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["targets"] = {
+								["Shamaster"] = {
+									["overheal"] = 7691,
+									["amount"] = 0,
+								},
+							},
+						},
+						[52042] = {
+							["overheal"] = 49320,
+							["max"] = 251,
+							["count"] = 245,
+							["amount"] = 5925,
+							["school"] = 8,
+							["min"] = 105,
+							["ishot"] = true,
+							["targets"] = {
+								["Shamaster"] = {
+									["overheal"] = 6103,
+									["amount"] = 722,
+								},
+								["Sejin"] = {
+									["overheal"] = 3008,
+									["amount"] = 214,
+								},
+								["Spirit Wolf"] = {
+									["overheal"] = 1658,
+									["amount"] = 250,
+								},
+								["Tamook"] = {
+									["overheal"] = 10423,
+									["amount"] = 1626,
+								},
+								["Bloodworm"] = {
+									["overheal"] = 8697,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 9558,
+									["amount"] = 1845,
+								},
+								["Magnatas"] = {
+									["overheal"] = 5964,
+									["amount"] = 1268,
+								},
+								["Wolfy"] = {
+									["overheal"] = 3909,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 4851,
+							["id"] = 67332,
+							["hitmax"] = 5264,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 10115,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 2527,
+							["amount"] = 10115,
+							["hitamount"] = 10115,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 2701,
+							["id"] = 67329,
+							["hitmax"] = 4800,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 22345,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 7593,
+							["amount"] = 22345,
+							["hitamount"] = 22345,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3467,
+							["id"] = 67332,
+							["hitmax"] = 3962,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 14858,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 4950,
+							["amount"] = 14858,
+							["hitamount"] = 14858,
+						},
+					},
+					["manaspells"] = {
+						[30824] = 21876,
+						[63375] = 4395,
+					},
+					["heal"] = 7582,
+					["name"] = "Shamaster",
+					["mana"] = 26271,
+					["damagespells"] = {
+						["Flametongue Attack"] = {
+							["amount"] = 41717,
+							["hitmax"] = 601,
+							["hitmin"] = 397,
+							["criticalamount"] = 24790,
+							["id"] = 10444,
+							["criticalmin"] = 913,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 41717,
+								},
+							},
+							["criticalmax"] = 1253,
+							["critical"] = 23,
+							["casts"] = 1,
+							["count"] = 62,
+							["hit"] = 34,
+							["school"] = 4,
+							["resisted"] = 2389,
+							["MISS"] = 5,
+							["hitamount"] = 16927,
+						},
+						["Windfury Attack"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1926,
+							["criticalamount"] = 27592,
+							["id"] = 25504,
+							["criticalmin"] = 3769,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 57264,
+								},
+							},
+							["criticalmax"] = 6272,
+							["critical"] = 6,
+							["casts"] = 1,
+							["count"] = 20,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 2950,
+							["amount"] = 57264,
+							["hitamount"] = 29672,
+						},
+						["Melee"] = {
+							["DODGE"] = 3,
+							["glance"] = 17981,
+							["hitmin"] = 534,
+							["criticalmin"] = 1174,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 152875,
+								},
+							},
+							["glancing"] = 24,
+							["amount"] = 152875,
+							["MISS"] = 22,
+							["glancemin"] = 436,
+							["criticalamount"] = 124698,
+							["id"] = 6603,
+							["glancemax"] = 1197,
+							["blocked"] = 82,
+							["criticalmax"] = 4002,
+							["critical"] = 57,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 1792,
+							["count"] = 115,
+							["hitamount"] = 10196,
+						},
+						["Bash (Spirit Wolf)"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 58861,
+						},
+						["Lava Lash"] = {
+							["PARRY"] = 1,
+							["criticalmin"] = 2039,
+							["hitmin"] = 1243,
+							["criticalamount"] = 17561,
+							["id"] = 60103,
+							["criticalmax"] = 2721,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 21512,
+								},
+							},
+							["critical"] = 7,
+							["hitmax"] = 1418,
+							["casts"] = 11,
+							["count"] = 11,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 2655,
+							["amount"] = 21512,
+							["hitamount"] = 3951,
+						},
+						["Lightning Bolt"] = {
+							["criticalmin"] = 6347,
+							["hitmin"] = 3241,
+							["criticalamount"] = 39229,
+							["id"] = 49238,
+							["hitmax"] = 4924,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 47394,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 2,
+							["casts"] = 15,
+							["critical"] = 5,
+							["amount"] = 47394,
+							["school"] = 8,
+							["resisted"] = 2842,
+							["criticalmax"] = 10082,
+							["hitamount"] = 8165,
+						},
+						["Flame Shock"] = {
+							["amount"] = 8585,
+							["criticalmin"] = 2640,
+							["hitmin"] = 847,
+							["criticalamount"] = 2640,
+							["id"] = 49233,
+							["criticalmax"] = 2640,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 8585,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 1363,
+							["casts"] = 7,
+							["count"] = 7,
+							["hit"] = 5,
+							["school"] = 4,
+							["resisted"] = 664,
+							["MISS"] = 1,
+							["hitamount"] = 5945,
+						},
+						["Attack (Searing Totem X)"] = {
+							["criticalmin"] = 1133,
+							["criticalmax"] = 1801,
+							["hitmin"] = 593,
+							["criticalamount"] = 16608,
+							["id"] = 58702,
+							["critical"] = 12,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25954,
+								},
+							},
+							["hit"] = 13,
+							["hitmax"] = 887,
+							["casts"] = 1,
+							["count"] = 26,
+							["amount"] = 25954,
+							["school"] = 4,
+							["resisted"] = 1607,
+							["MISS"] = 1,
+							["hitamount"] = 9346,
+						},
+						["Flame Shock (DoT)"] = {
+							["hitmin"] = 355,
+							["criticalamount"] = 6916,
+							["id"] = 49233,
+							["criticalmin"] = 793,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 19282,
+								},
+							},
+							["hitmax"] = 578,
+							["critical"] = 7,
+							["criticalmax"] = 1204,
+							["count"] = 33,
+							["hit"] = 26,
+							["school"] = 4,
+							["resisted"] = 1370,
+							["amount"] = 19282,
+							["hitamount"] = 12366,
+						},
+						["Stormstrike"] = {
+							["DODGE"] = 1,
+							["hitmax"] = 1532,
+							["hitmin"] = 602,
+							["criticalamount"] = 22289,
+							["id"] = 17364,
+							["casts"] = 10,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 28234,
+								},
+							},
+							["hit"] = 6,
+							["criticalmin"] = 1159,
+							["PARRY"] = 1,
+							["count"] = 18,
+							["amount"] = 28234,
+							["school"] = 1,
+							["criticalmax"] = 3837,
+							["critical"] = 10,
+							["hitamount"] = 5945,
+						},
+						["Fire Nova"] = {
+							["hitmax"] = 2296,
+							["hitmin"] = 2296,
+							["criticalamount"] = 15894,
+							["id"] = 61654,
+							["count"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 18190,
+								},
+							},
+							["hit"] = 1,
+							["criticalmin"] = 4954,
+							["casts"] = 5,
+							["critical"] = 3,
+							["amount"] = 18190,
+							["school"] = 4,
+							["resisted"] = 568,
+							["criticalmax"] = 5820,
+							["hitamount"] = 2296,
+						},
+						["Melee (Spirit Wolf)"] = {
+							["DODGE"] = 2,
+							["glance"] = 1978,
+							["hitmin"] = 656,
+							["id"] = 6603,
+							["hitamount"] = 3372,
+							["glancemax"] = 516,
+							["hitmax"] = 702,
+							["glancing"] = 4,
+							["PARRY"] = 1,
+							["count"] = 12,
+							["amount"] = 5350,
+							["school"] = 1,
+							["hit"] = 5,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 5350,
+								},
+							},
+							["glancemin"] = 472,
+						},
+						["Earth Shock"] = {
+							["criticalmin"] = 5367,
+							["hitmin"] = 2230,
+							["criticalamount"] = 5367,
+							["id"] = 49231,
+							["criticalmax"] = 5367,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 19155,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 3096,
+							["casts"] = 6,
+							["count"] = 6,
+							["hit"] = 5,
+							["school"] = 8,
+							["resisted"] = 1480,
+							["amount"] = 19155,
+							["hitamount"] = 13788,
+						},
+					},
+					["totaldamage"] = 445512,
+					["role"] = "DAMAGER",
+				}, -- [14]
+				{
+					["last"] = 5289.549,
+					["flag"] = 263444,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 40,
+						},
+						[57294] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[51124] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 22,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[45529] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 40,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 13,
+							["refresh"] = 10,
+							["school"] = 2,
+							["uptime"] = 95,
+						},
+						[53601] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 108,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 74,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 101,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["uptime"] = 50,
+						},
+						[48707] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 3,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 15,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 15,
+									["uptime"] = 98,
+								},
+							},
+							["uptime"] = 98,
+						},
+						[49284] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 111,
+						},
+						[56222] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 27,
+							["uptime"] = 88,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[57073] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["uptime"] = 42,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 96,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58597] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 2,
+							["uptime"] = 42,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57933] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 19,
+						},
+						[53563] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 22,
+							["uptime"] = 111,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["absorbspells"] = {
+						[49497] = {
+							["min"] = 1632,
+							["count"] = 7,
+							["amount"] = 76251,
+							["school"] = 1,
+							["targets"] = {
+								["Sejin"] = 76251,
+							},
+							["max"] = 23582,
+						},
+						[48707] = {
+							["min"] = 30075,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 30075,
+							["school"] = 32,
+							["targets"] = {
+								["Sejin"] = 30075,
+							},
+							["max"] = 30075,
+						},
+					},
+					["time"] = 97.73000000000002,
+					["totaldamagetaken"] = 390525,
+					["damage"] = 190297,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 20925,
+							["hitmin"] = 1690,
+							["criticalmin"] = 3388,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 78629,
+								},
+							},
+							["glancing"] = 15,
+							["amount"] = 78629,
+							["glancemin"] = 1277,
+							["criticalamount"] = 18698,
+							["id"] = 6603,
+							["glancemax"] = 1635,
+							["PARRY"] = 1,
+							["critical"] = 5,
+							["criticalmax"] = 4238,
+							["count"] = 42,
+							["hit"] = 21,
+							["school"] = 1,
+							["blocked"] = 164,
+							["hitmax"] = 2224,
+							["hitamount"] = 39006,
+						},
+						["Blood Strike"] = {
+							["criticalmin"] = 2632,
+							["criticalmax"] = 2996,
+							["hitmin"] = 1231,
+							["criticalamount"] = 5628,
+							["id"] = 49930,
+							["critical"] = 2,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 10843,
+								},
+							},
+							["PARRY"] = 1,
+							["blocked"] = 41,
+							["casts"] = 7,
+							["count"] = 7,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 1397,
+							["amount"] = 10843,
+							["hitamount"] = 5215,
+						},
+						["Drain Life"] = {
+							["hitmin"] = 2381,
+							["id"] = 71839,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 8176,
+								},
+							},
+							["hitmax"] = 3150,
 							["casts"] = 1,
 							["count"] = 3,
 							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 798,
-							["amount"] = 2363,
-							["hitamount"] = 2363,
+							["school"] = 32,
+							["resisted"] = 906,
+							["amount"] = 8176,
+							["hitamount"] = 8176,
 						},
-						["Blood Strike"] = {
-							["hitmin"] = 2425,
-							["id"] = 49930,
+						["Melee (Bloodworm)"] = {
+							["DODGE"] = 1,
+							["glance"] = 1187,
+							["hitmin"] = 73,
+							["criticalmin"] = 226,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 2425,
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 5088,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["glancing"] = 14,
+							["amount"] = 5088,
+							["MISS"] = 2,
+							["glancemin"] = 84,
+							["criticalamount"] = 912,
+							["id"] = 6603,
+							["glancemax"] = 86,
+							["PARRY"] = 4,
+							["critical"] = 4,
+							["criticalmax"] = 230,
+							["count"] = 52,
+							["hit"] = 27,
 							["school"] = 1,
-							["hitmax"] = 2425,
-							["amount"] = 2425,
-							["hitamount"] = 2425,
+							["blocked"] = 82,
+							["hitmax"] = 115,
+							["hitamount"] = 2989,
 						},
-						["Plague Strike"] = {
-							["hitmin"] = 2066,
-							["id"] = 49921,
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 586,
+							["id"] = 55078,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 2066,
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 19840,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2066,
-							["amount"] = 2066,
-							["hitamount"] = 2066,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1547,
-							["id"] = 55095,
-							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 1547,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 1547,
-							["amount"] = 1547,
-							["hitamount"] = 1547,
+							["hitmax"] = 849,
+							["count"] = 27,
+							["hit"] = 27,
+							["school"] = 32,
+							["resisted"] = 1154,
+							["amount"] = 19840,
+							["hitamount"] = 19840,
 						},
 						["Icy Touch"] = {
-							["hitmin"] = 1588,
+							["criticalmin"] = 2596,
+							["hitmin"] = 1132,
+							["criticalamount"] = 11407,
 							["id"] = 49909,
+							["criticalmax"] = 3315,
 							["targets"] = {
-								["Sunreaver Dragonhawk"] = {
-									["amount"] = 1588,
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 28276,
+								},
+							},
+							["critical"] = 4,
+							["hitmax"] = 1664,
+							["casts"] = 17,
+							["count"] = 17,
+							["hit"] = 13,
+							["school"] = 16,
+							["resisted"] = 2758,
+							["amount"] = 28276,
+							["hitamount"] = 16869,
+						},
+						["Plague Strike"] = {
+							["criticalmin"] = 1896,
+							["hitmin"] = 951,
+							["criticalamount"] = 3862,
+							["id"] = 49921,
+							["criticalmax"] = 1966,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 13442,
+								},
+							},
+							["critical"] = 2,
+							["PARRY"] = 2,
+							["casts"] = 13,
+							["count"] = 13,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 1207,
+							["amount"] = 13442,
+							["hitamount"] = 9580,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 578,
+							["id"] = 55095,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 16138,
+								},
+							},
+							["hitmax"] = 842,
+							["count"] = 23,
+							["hit"] = 23,
+							["school"] = 16,
+							["resisted"] = 1022,
+							["amount"] = 16138,
+							["hitamount"] = 16138,
+						},
+						["Death Strike"] = {
+							["hitmax"] = 2309,
+							["hitmin"] = 1856,
+							["criticalamount"] = 3692,
+							["id"] = 49924,
+							["casts"] = 9,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 9865,
+								},
+							},
+							["hit"] = 3,
+							["criticalmin"] = 3692,
+							["PARRY"] = 1,
+							["count"] = 5,
+							["amount"] = 9865,
+							["school"] = 1,
+							["criticalmax"] = 3692,
+							["critical"] = 1,
+							["hitamount"] = 6173,
+						},
+					},
+					["absorb"] = 106326,
+					["damagetaken"] = 253459,
+					["id"] = "0x07000000009315F6",
+					["spec"] = 250,
+					["healspells"] = {
+						[48982] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 12751,
+							["school"] = 32,
+							["max"] = 12751,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 0,
+									["amount"] = 12751,
+								},
+							},
+							["min"] = 12751,
+						},
+						[50454] = {
+							["min"] = 159,
+							["count"] = 45,
+							["amount"] = 822,
+							["max"] = 244,
+							["overheal"] = 9962,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 9962,
+									["amount"] = 822,
+								},
+							},
+							["school"] = 32,
+						},
+						[71839] = {
+							["overheal"] = 5861,
+							["max"] = 2803,
+							["count"] = 3,
+							["amount"] = 2803,
+							["school"] = 32,
+							["min"] = 2803,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 5861,
+									["amount"] = 2803,
+								},
+							},
+						},
+						[45470] = {
+							["overheal"] = 38248,
+							["casts"] = 4,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 38248,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Meteor Fists"] = {
+							["total"] = 267522,
+							["hitmin"] = 9516,
+							["id"] = 67333,
+							["hitmax"] = 36365,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["total"] = 267522,
+									["amount"] = 147045,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 4,
+							["resisted"] = 83521,
+							["amount"] = 147045,
+							["hitamount"] = 147045,
+						},
+						["Burning Breath"] = {
+							["total"] = 24995,
+							["hitmin"] = 2392,
+							["id"] = 67329,
+							["hitmax"] = 4704,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["total"] = 24995,
+									["amount"] = 23038,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 5753,
+							["amount"] = 23038,
+							["hitamount"] = 23038,
+						},
+						["Melee"] = {
+							["DODGE"] = 7,
+							["total"] = 98008,
+							["hitmin"] = 7365,
+							["id"] = 6603,
+							["hitmax"] = 12264,
+							["PARRY"] = 9,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["total"] = 98008,
+									["amount"] = 83376,
+								},
+							},
+							["count"] = 28,
+							["amount"] = 83376,
+							["school"] = 1,
+							["hit"] = 8,
+							["MISS"] = 4,
+							["hitamount"] = 83376,
+						},
+					},
+					["runicspells"] = {
+						[45529] = 20,
+						[49088] = 917,
+					},
+					["heal"] = 16376,
+					["name"] = "Sejin",
+					["runic"] = 937,
+					["overheal"] = 54071,
+					["totaldamage"] = 190297,
+					["role"] = "TANK",
+				}, -- [15]
+				{
+					["last"] = 5290.907,
+					["flag"] = 1300,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57960] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[72418] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 10,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 9,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 109,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 16,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 16,
+						},
+						[57073] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[71584] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 61,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 67,
+						},
+						[70806] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[53390] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["refresh"] = 17,
+							["school"] = 1,
+							["uptime"] = 83,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 108,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[67388] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 6,
+							["school"] = 8,
+							["uptime"] = 103,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 75.03,
+					["totaldamagetaken"] = 124187,
+					["overheal"] = 597385,
+					["damagetaken"] = 124187,
+					["id"] = "0x070000000073A916",
+					["spec"] = 264,
+					["healspells"] = {
+						[55459] = {
+							["overheal"] = 233452,
+							["criticalamount"] = 111595,
+							["max"] = 8931,
+							["targets"] = {
+								["Welden"] = {
+									["overheal"] = 11252,
+									["amount"] = 5213,
+								},
+								["Tamook"] = {
+									["overheal"] = 0,
+									["amount"] = 1846,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 4449,
+									["amount"] = 396,
+								},
+								["Booxeer"] = {
+									["overheal"] = 25856,
+									["amount"] = 28689,
+								},
+								["Magnatas"] = {
+									["overheal"] = 4116,
+									["amount"] = 13766,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 30717,
+									["amount"] = 18519,
+								},
+								["Tifura"] = {
+									["overheal"] = 611,
+									["amount"] = 8309,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 0,
+									["amount"] = 8061,
+								},
+								["Famel"] = {
+									["overheal"] = 13564,
+									["amount"] = 5428,
+								},
+								["Jutrit"] = {
+									["overheal"] = 22295,
+									["amount"] = 19919,
+								},
+								["Urgash"] = {
+									["overheal"] = 9044,
+									["amount"] = 0,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 0,
+									["amount"] = 6665,
+								},
+								["Adi"] = {
+									["overheal"] = 3985,
+									["amount"] = 720,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 25777,
+									["amount"] = 4464,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 12664,
+									["amount"] = 4797,
+								},
+								["Orcscream"] = {
+									["overheal"] = 8650,
+									["amount"] = 4879,
+								},
+								["Caiva"] = {
+									["overheal"] = 6038,
+									["amount"] = 19048,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 5077,
+									["amount"] = 329,
+								},
+								["Echoash"] = {
+									["overheal"] = 3226,
+									["amount"] = 4570,
+								},
+								["Shamaster"] = {
+									["overheal"] = 959,
+									["amount"] = 9368,
+								},
+								["Ironshell"] = {
+									["overheal"] = 9941,
+									["amount"] = 8073,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 4617,
+									["amount"] = 0,
+								},
+								["Laressa"] = {
+									["overheal"] = 25624,
+									["amount"] = 4676,
+								},
+								["Xknappen"] = {
+									["overheal"] = 4990,
+									["amount"] = 11534,
+								},
+							},
+							["casts"] = 21,
+							["min"] = 147,
+							["criticalmax"] = 8588,
+							["critical"] = 33,
+							["amount"] = 189269,
+							["school"] = 8,
+							["count"] = 61,
+							["criticalmin"] = 0,
+						},
+						[52752] = {
+							["overheal"] = 29436,
+							["max"] = 3619,
+							["count"] = 14,
+							["amount"] = 15082,
+							["school"] = 8,
+							["min"] = 332,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 0,
+									["amount"] = 1814,
+								},
+								["Welden"] = {
+									["overheal"] = 0,
+									["amount"] = 3673,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 5350,
+									["amount"] = 3619,
+								},
+								["Risenone"] = {
+									["overheal"] = 3162,
+									["amount"] = 332,
+								},
+								["Grottesque"] = {
+									["overheal"] = 4446,
+									["amount"] = 2204,
+								},
+								["Famel"] = {
+									["overheal"] = 2903,
+									["amount"] = 0,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 7103,
+									["amount"] = 0,
+								},
+								["Orcscream"] = {
+									["overheal"] = 6472,
+									["amount"] = 3440,
+								},
+							},
+						},
+						[61301] = {
+							["overheal"] = 31207,
+							["criticalamount"] = 17435,
+							["max"] = 5943,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 21297,
+									["amount"] = 0,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 6093,
+									["amount"] = 11492,
+								},
+								["Welden"] = {
+									["overheal"] = 3817,
+									["amount"] = 5943,
+								},
+							},
+							["casts"] = 5,
+							["min"] = 5728,
+							["criticalmax"] = 5943,
+							["critical"] = 4,
+							["amount"] = 17435,
+							["school"] = 8,
+							["count"] = 23,
+							["ishot"] = true,
+							["criticalmin"] = 0,
+						},
+						[52000] = {
+							["overheal"] = 49642,
+							["max"] = 970,
+							["count"] = 63,
+							["amount"] = 10666,
+							["school"] = 8,
+							["min"] = 969,
+							["ishot"] = true,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 9696,
+									["amount"] = 2908,
+								},
+								["Urgash"] = {
+									["overheal"] = 3878,
+									["amount"] = 0,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 6589,
+									["amount"] = 970,
+								},
+								["Orcscream"] = {
+									["overheal"] = 3878,
+									["amount"] = 0,
+								},
+								["Magnatas"] = {
+									["overheal"] = 3682,
+									["amount"] = 0,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 2909,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 1939,
+									["amount"] = 1940,
+								},
+								["Shamaster"] = {
+									["overheal"] = 4750,
+									["amount"] = 969,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 875,
+									["amount"] = 0,
+								},
+								["Jutrit"] = {
+									["overheal"] = 4651,
+									["amount"] = 2910,
+								},
+								["Xknappen"] = {
+									["overheal"] = 6795,
+									["amount"] = 969,
+								},
+							},
+						},
+						[49273] = {
+							["overheal"] = 21123,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 21123,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["critical"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["count"] = 1,
+							["criticalmin"] = 0,
+						},
+						[52042] = {
+							["overheal"] = 95410,
+							["max"] = 634,
+							["count"] = 190,
+							["amount"] = 18609,
+							["school"] = 8,
+							["min"] = 75,
+							["ishot"] = true,
+							["targets"] = {
+								["Shamanboros"] = {
+									["overheal"] = 20209,
+									["amount"] = 7221,
+								},
+								["Booxeer"] = {
+									["overheal"] = 8929,
+									["amount"] = 564,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 15513,
+									["amount"] = 4339,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 25674,
+									["amount"] = 3541,
+								},
+								["Famel"] = {
+									["overheal"] = 25085,
+									["amount"] = 2944,
+								},
+							},
+						},
+						[379] = {
+							["overheal"] = 0,
+							["criticalamount"] = 16067,
+							["max"] = 5374,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 0,
+									["amount"] = 33982,
+								},
+							},
+							["min"] = 3583,
+							["criticalmax"] = 5374,
+							["critical"] = 3,
+							["amount"] = 33982,
+							["school"] = 8,
+							["criticalmin"] = 5319,
+							["count"] = 8,
+						},
+						[49276] = {
+							["overheal"] = 137115,
+							["criticalamount"] = 2322,
+							["max"] = 7516,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 116608,
+									["amount"] = 21045,
+								},
+								["Booxeer"] = {
+									["overheal"] = 9222,
+									["amount"] = 0,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 11285,
+									["amount"] = 16870,
+								},
+							},
+							["count"] = 20,
+							["min"] = 2322,
+							["criticalmax"] = 2322,
+							["critical"] = 9,
+							["amount"] = 37915,
+							["school"] = 8,
+							["casts"] = 20,
+							["criticalmin"] = 0,
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 5012,
+							["id"] = 67332,
+							["hitmax"] = 5174,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 10186,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 2546,
+							["amount"] = 10186,
+							["hitamount"] = 10186,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 3648,
+							["id"] = 67329,
+							["hitmax"] = 4396,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 24310,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 10629,
+							["amount"] = 24310,
+							["hitamount"] = 24310,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3035,
+							["id"] = 67332,
+							["hitmax"] = 4750,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 89691,
+								},
+							},
+							["count"] = 23,
+							["hit"] = 23,
+							["school"] = 4,
+							["resisted"] = 30262,
+							["amount"] = 89691,
+							["hitamount"] = 89691,
+						},
+					},
+					["heal"] = 322958,
+					["name"] = "Shamanboros",
+					["manaspells"] = {
+						[57961] = 7872,
+						[55382] = 2400,
+					},
+					["mana"] = 10272,
+					["role"] = "HEALER",
+				}, -- [16]
+				{
+					["last"] = 5290.354,
+					["flag"] = 1300,
+					["class"] = "MAGE",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48108] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["uptime"] = 14,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 44,
+						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["refresh"] = 5,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 4,
+									["refresh"] = 5,
+									["uptime"] = 46,
+								},
+							},
+							["uptime"] = 46,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 43,
+							["school"] = 4,
+							["refresh"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 43,
+								},
+							},
+							["count"] = 3,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 104,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[64713] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 4,
+							["refresh"] = 15,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 9,
+									["refresh"] = 15,
+									["uptime"] = 60,
+								},
+							},
+							["uptime"] = 60,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 7,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 1,
+						},
+						[64343] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 1,
+							["uptime"] = 20,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 72,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 48,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 48,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[1953] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 2,
+						},
+						[57073] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[47610] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 20,
+							["refresh"] = 13,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 13,
+									["uptime"] = 68,
+								},
+							},
+							["uptime"] = 68,
+						},
+						[43017] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43020] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 46,
+						},
+						[54646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+					},
+					["absorbspells"] = {
+						[43020] = {
+							["min"] = 3621,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 3621,
+							["school"] = 64,
+							["targets"] = {
+								["Welden"] = 3621,
+							},
+							["max"] = 3621,
+						},
+					},
+					["time"] = 91.22000000000003,
+					["totaldamagetaken"] = 68729,
+					["damage"] = 308613,
+					["damagespells"] = {
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 718,
+							["id"] = 42891,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 13381,
+								},
+							},
+							["hitmax"] = 1256,
+							["count"] = 14,
+							["hit"] = 14,
+							["school"] = 4,
+							["resisted"] = 607,
+							["amount"] = 13381,
+							["hitamount"] = 13381,
+						},
+						["Frostfire Bolt (DoT)"] = {
+							["hitmin"] = 538,
+							["id"] = 47610,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 8205,
+								},
+							},
+							["hitmax"] = 861,
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 20,
+							["resisted"] = 527,
+							["amount"] = 8205,
+							["hitamount"] = 8205,
+						},
+						["Molten Armor"] = {
+							["criticalamount"] = 387,
+							["id"] = 43044,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 387,
+								},
+							},
+							["criticalmin"] = 387,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 387,
+							["school"] = 4,
+							["resisted"] = 42,
+							["criticalmax"] = 387,
+							["count"] = 1,
+						},
+						["Fire Blast"] = {
+							["hitmax"] = 3313,
+							["hitmin"] = 2530,
+							["criticalamount"] = 3992,
+							["id"] = 42873,
+							["criticalmin"] = 3992,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 9835,
+								},
+							},
+							["criticalmax"] = 3992,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 1629,
+							["amount"] = 9835,
+							["hitamount"] = 5843,
+						},
+						["Pyroblast"] = {
+							["criticalmin"] = 11292,
+							["criticalmax"] = 14074,
+							["hitmin"] = 6527,
+							["criticalamount"] = 37119,
+							["id"] = 42891,
+							["hitmax"] = 6527,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 43646,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 1,
+							["casts"] = 5,
+							["critical"] = 3,
+							["amount"] = 43646,
+							["school"] = 4,
+							["resisted"] = 1563,
+							["MISS"] = 1,
+							["hitamount"] = 6527,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 352,
+							["id"] = 12654,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 52469,
+								},
+							},
+							["hitmax"] = 5149,
+							["count"] = 21,
+							["hit"] = 21,
+							["school"] = 4,
+							["resisted"] = 2614,
+							["amount"] = 52469,
+							["hitamount"] = 52469,
+						},
+						["Living Bomb (DoT)"] = {
+							["hitmin"] = 963,
+							["criticalamount"] = 17431,
+							["id"] = 55360,
+							["hitmax"] = 1430,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 27489,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 8,
+							["criticalmax"] = 2442,
+							["critical"] = 8,
+							["amount"] = 27489,
+							["school"] = 4,
+							["resisted"] = 1177,
+							["criticalmin"] = 1850,
+							["hitamount"] = 10058,
+						},
+						["Frostfire Bolt"] = {
+							["criticalmax"] = 11682,
+							["hitmax"] = 5515,
+							["hitmin"] = 4341,
+							["criticalamount"] = 62997,
+							["id"] = 47610,
+							["count"] = 19,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 108756,
+								},
+							},
+							["hit"] = 9,
+							["criticalmin"] = 7489,
+							["casts"] = 19,
+							["critical"] = 7,
+							["amount"] = 108756,
+							["school"] = 20,
+							["resisted"] = 2730,
+							["MISS"] = 3,
+							["hitamount"] = 45759,
+						},
+						["Scorch"] = {
+							["amount"] = 28659,
+							["criticalmin"] = 3422,
+							["hitmin"] = 2258,
+							["criticalamount"] = 12590,
+							["id"] = 42859,
+							["criticalmax"] = 4867,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 28659,
+								},
+							},
+							["critical"] = 3,
+							["hitmax"] = 3127,
+							["casts"] = 9,
+							["count"] = 10,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 2261,
+							["MISS"] = 1,
+							["hitamount"] = 16069,
+						},
+						["Living Bomb"] = {
+							["hitmax"] = 2814,
+							["hitmin"] = 2814,
+							["criticalamount"] = 12972,
+							["id"] = 55362,
+							["count"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 15786,
+								},
+							},
+							["hit"] = 1,
+							["criticalmin"] = 3872,
+							["casts"] = 4,
+							["critical"] = 3,
+							["amount"] = 15786,
+							["school"] = 4,
+							["resisted"] = 430,
+							["criticalmax"] = 4808,
+							["hitamount"] = 2814,
+						},
+					},
+					["absorb"] = 3621,
+					["damagetaken"] = 65108,
+					["id"] = "0x0700000000012B54",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Meteor Fists"] = {
+							["hitmin"] = 21143,
+							["id"] = 67333,
+							["hitmax"] = 21143,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 21143,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 9061,
+							["amount"] = 21143,
+							["hitamount"] = 21143,
+						},
+						["Flaming Cinder"] = {
+							["hitmin"] = 4658,
+							["id"] = 67332,
+							["hitmax"] = 4658,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 4658,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 1996,
+							["amount"] = 4658,
+							["hitamount"] = 4658,
+						},
+						["Burning Breath"] = {
+							["total"] = 26217,
+							["hitmin"] = 880,
+							["id"] = 67329,
+							["hitmax"] = 4682,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["total"] = 26217,
+									["amount"] = 22596,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 11255,
+							["amount"] = 22596,
+							["hitamount"] = 22596,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3691,
+							["id"] = 67332,
+							["hitmax"] = 4401,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 16711,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 4835,
+							["amount"] = 16711,
+							["hitamount"] = 16711,
+						},
+					},
+					["name"] = "Welden",
+					["manaspells"] = {
+						[29077] = 2688,
+						[67545] = 1365,
+						[44450] = -195,
+					},
+					["mana"] = 3858,
+					["totaldamage"] = 308613,
+					["role"] = "DAMAGER",
+				}, -- [17]
+				{
+					["last"] = 5290.562,
+					["flag"] = 1300,
+					["class"] = "HUNTER",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[63468] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 21,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 21,
+									["uptime"] = 88,
+								},
+							},
+							["uptime"] = 88,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 110,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[6150] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 22,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 98,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 101,
+						},
+						[3045] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53434] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 44,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[49050] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 50,
+									["count"] = 8,
+								},
+							},
+							["uptime"] = 50,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53401] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 56,
+						},
+						[53403] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 9,
+							["uptime"] = 51,
+						},
+						[61847] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 107,
+						},
+						[64495] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["uptime"] = 60,
+						},
+						[70893] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 58,
+						},
+						[49001] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 10,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 10,
+									["uptime"] = 93,
+								},
+							},
+							["uptime"] = 93,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61684] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 48,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53220] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 7,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[65024] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["energyspells"] = {
+						[34952] = 1275,
+					},
+					["time"] = 95.75999999999995,
+					["totaldamagetaken"] = 24394,
+					["damage"] = 384202,
+					["damagespells"] = {
+						["Piercing Shots (DoT)"] = {
+							["hitmin"] = 99,
+							["id"] = 63468,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 28999,
+								},
+							},
+							["count"] = 74,
+							["hit"] = 74,
+							["school"] = 1,
+							["hitmax"] = 917,
+							["amount"] = 28999,
+							["hitamount"] = 28999,
+						},
+						["Chimera Shot"] = {
+							["hitmax"] = 3090,
+							["hitmin"] = 2630,
+							["criticalamount"] = 22911,
+							["id"] = 53209,
+							["criticalmin"] = 6988,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 39914,
+								},
+							},
+							["criticalmax"] = 8424,
+							["critical"] = 3,
+							["casts"] = 9,
+							["count"] = 9,
+							["hit"] = 6,
+							["school"] = 8,
+							["resisted"] = 1822,
+							["amount"] = 39914,
+							["hitamount"] = 17003,
+						},
+						["Serpent Sting (DoT)"] = {
+							["hitmin"] = 616,
+							["id"] = 49001,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 22830,
+								},
+							},
+							["hitmax"] = 829,
+							["casts"] = 2,
+							["count"] = 30,
+							["hit"] = 30,
+							["school"] = 8,
+							["resisted"] = 946,
+							["amount"] = 22830,
+							["hitamount"] = 22830,
+						},
+						["Auto Shot"] = {
+							["hitmin"] = 1303,
+							["criticalamount"] = 57106,
+							["id"] = 75,
+							["hitmax"] = 1598,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 88602,
+								},
+							},
+							["count"] = 42,
+							["hit"] = 22,
+							["casts"] = 1,
+							["critical"] = 20,
+							["amount"] = 88602,
+							["school"] = 1,
+							["criticalmin"] = 2552,
+							["criticalmax"] = 3208,
+							["hitamount"] = 31496,
+						},
+						["Arcane Shot"] = {
+							["criticalmin"] = 5174,
+							["hitmin"] = 2016,
+							["criticalamount"] = 5174,
+							["id"] = 49045,
+							["criticalmax"] = 5174,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 14552,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 2657,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 64,
+							["resisted"] = 474,
+							["amount"] = 14552,
+							["hitamount"] = 9378,
+						},
+						["Steady Shot"] = {
+							["blocked"] = 41,
+							["hitmin"] = 1073,
+							["criticalamount"] = 38299,
+							["id"] = 49052,
+							["criticalmin"] = 2536,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 52365,
+								},
+							},
+							["criticalmax"] = 3060,
+							["critical"] = 14,
+							["casts"] = 26,
+							["count"] = 26,
+							["hit"] = 12,
+							["school"] = 1,
+							["hitmax"] = 1264,
+							["amount"] = 52365,
+							["hitamount"] = 14066,
+						},
+						["Kill Shot"] = {
+							["hitmin"] = 5004,
+							["id"] = 61006,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 10338,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 5334,
+							["amount"] = 10338,
+							["hitamount"] = 10338,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["hitmin"] = 1858,
+							["criticalamount"] = 3958,
+							["id"] = 53254,
+							["criticalmin"] = 3958,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 7892,
+								},
+							},
+							["criticalmax"] = 3958,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 2076,
+							["amount"] = 7892,
+							["hitamount"] = 3934,
+						},
+						["Aimed Shot"] = {
+							["hitmin"] = 1871,
+							["criticalamount"] = 32968,
+							["id"] = 49050,
+							["hitmax"] = 1871,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 34839,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 1,
+							["casts"] = 8,
+							["critical"] = 7,
+							["amount"] = 34839,
+							["school"] = 1,
+							["criticalmin"] = 4471,
+							["criticalmax"] = 5176,
+							["hitamount"] = 1871,
+						},
+						["Chimera Shot - Serpent"] = {
+							["criticalmin"] = 3954,
+							["hitmin"] = 1910,
+							["criticalamount"] = 24177,
+							["id"] = 53353,
+							["hitmax"] = 2213,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 30509,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 3,
+							["casts"] = 1,
+							["critical"] = 5,
+							["amount"] = 30509,
+							["school"] = 8,
+							["resisted"] = 1988,
+							["criticalmax"] = 5487,
+							["hitamount"] = 6332,
+						},
+						["Bite (Wolf)"] = {
+							["hitmin"] = 270,
+							["criticalamount"] = 5762,
+							["id"] = 52474,
+							["criticalmin"] = 564,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 21957,
+								},
+							},
+							["criticalmax"] = 800,
+							["critical"] = 9,
+							["casts"] = 1,
+							["count"] = 58,
+							["hit"] = 49,
+							["school"] = 1,
+							["hitmax"] = 423,
+							["amount"] = 21957,
+							["hitamount"] = 16195,
+						},
+						["Melee (Wolf)"] = {
+							["glance"] = 6813,
+							["hitmin"] = 326,
+							["criticalmin"] = 672,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 31405,
+								},
+							},
+							["glancing"] = 22,
+							["amount"] = 31405,
+							["glancemin"] = 244,
+							["criticalamount"] = 9252,
+							["id"] = 6603,
+							["glancemax"] = 375,
+							["criticalmax"] = 1076,
+							["count"] = 73,
+							["hit"] = 39,
+							["school"] = 1,
+							["hitmax"] = 537,
+							["critical"] = 12,
+							["hitamount"] = 15340,
+						},
+					},
+					["damagetaken"] = 24394,
+					["id"] = "0x07000000009CB72E",
+					["spec"] = 254,
+					["damagetakenspells"] = {
+						["Burning Breath"] = {
+							["hitmin"] = 3103,
+							["id"] = 67329,
+							["hitmax"] = 4836,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 24394,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 8832,
+							["amount"] = 24394,
+							["hitamount"] = 24394,
+						},
+					},
+					["name"] = "Apollonn",
+					["totaldamage"] = 384202,
+					["energy"] = 1275,
+					["role"] = "DAMAGER",
+				}, -- [18]
+				{
+					["last"] = 5290.900000000001,
+					["flag"] = 1300,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 24,
+						},
+						[70855] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 20,
+						},
+						[71560] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 47,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 3,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[18499] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["uptime"] = 35,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 21,
+							["uptime"] = 102,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["refresh"] = 6,
+							["uptime"] = 86,
+						},
+						[57358] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[75456] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["uptime"] = 44,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 52,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 27,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 58,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 58,
+									["uptime"] = 95,
+								},
+							},
+							["uptime"] = 95,
+						},
+						[23885] = {
+							["type"] = "BUFF",
+							["count"] = 17,
+							["school"] = 1,
+							["uptime"] = 53,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[1719] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 5,
+						},
+						[12292] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 31,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 99.05000000000001,
+					["totaldamagetaken"] = 60409,
+					["damage"] = 778255,
+					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["glance"] = 20030,
+							["hitmin"] = 1818,
+							["criticalmin"] = 3625,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 138291,
+								},
+							},
+							["glancing"] = 11,
+							["amount"] = 138291,
+							["MISS"] = 1,
+							["glancemin"] = 1485,
+							["criticalamount"] = 104054,
+							["id"] = 6603,
+							["glancemax"] = 3364,
+							["criticalmax"] = 7370,
+							["critical"] = 23,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 2136,
+							["count"] = 44,
+							["hitamount"] = 14207,
+						},
+						["Slam"] = {
+							["hitmin"] = 3381,
+							["criticalamount"] = 56013,
+							["id"] = 50783,
+							["hitmax"] = 3710,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 63104,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 2,
+							["casts"] = 1,
+							["critical"] = 6,
+							["amount"] = 63104,
+							["school"] = 1,
+							["criticalmin"] = 8210,
+							["criticalmax"] = 10621,
+							["hitamount"] = 7091,
+						},
+						["Whirlwind"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2282,
+							["criticalamount"] = 61152,
+							["id"] = 1680,
+							["hitmax"] = 4710,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 93911,
+								},
+							},
+							["count"] = 18,
+							["hit"] = 9,
+							["casts"] = 9,
+							["critical"] = 8,
+							["amount"] = 93911,
+							["school"] = 1,
+							["criticalmin"] = 5586,
+							["criticalmax"] = 13137,
+							["hitamount"] = 32759,
+						},
+						["Intercept"] = {
+							["hitmin"] = 765,
+							["id"] = 20253,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 765,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 1588,
-							["amount"] = 1588,
-							["hitamount"] = 1588,
+							["school"] = 1,
+							["hitmax"] = 765,
+							["amount"] = 765,
+							["hitamount"] = 765,
+						},
+						["Bloodthirst"] = {
+							["hitmin"] = 3962,
+							["criticalamount"] = 118825,
+							["id"] = 23881,
+							["hitmax"] = 5160,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 151995,
+								},
+							},
+							["count"] = 17,
+							["hit"] = 7,
+							["casts"] = 17,
+							["critical"] = 10,
+							["amount"] = 151995,
+							["school"] = 1,
+							["criticalmin"] = 10522,
+							["criticalmax"] = 15685,
+							["hitamount"] = 33170,
+						},
+						["Execute"] = {
+							["hitmin"] = 3237,
+							["id"] = 20647,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 13616,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 3541,
+							["amount"] = 13616,
+							["hitamount"] = 13616,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 272,
+							["id"] = 12721,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 93927,
+								},
+							},
+							["count"] = 61,
+							["hit"] = 61,
+							["school"] = 1,
+							["hitmax"] = 3661,
+							["amount"] = 93927,
+							["hitamount"] = 93927,
+						},
+						["Heroic Throw"] = {
+							["criticalamount"] = 9892,
+							["id"] = 57755,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 9892,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 9892,
+							["school"] = 1,
+							["criticalmin"] = 9892,
+							["criticalmax"] = 9892,
+							["count"] = 1,
+						},
+						["Heroic Strike"] = {
+							["DODGE"] = 1,
+							["PARRY"] = 1,
+							["hitmin"] = 3412,
+							["criticalamount"] = 129064,
+							["id"] = 47450,
+							["hitmax"] = 5188,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 212754,
+								},
+							},
+							["count"] = 38,
+							["hit"] = 21,
+							["casts"] = 38,
+							["critical"] = 15,
+							["amount"] = 212754,
+							["school"] = 1,
+							["criticalmin"] = 7669,
+							["criticalmax"] = 10139,
+							["hitamount"] = 83690,
 						},
 					},
-					["totaldamage"] = 35346,
+					["damagetaken"] = 60409,
+					["id"] = "0x07000000003FCB1F",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["min"] = 385,
+							["count"] = 49,
+							["amount"] = 1540,
+							["school"] = 1,
+							["max"] = 385,
+							["targets"] = {
+								["Magnatas"] = {
+									["overheal"] = 17325,
+									["amount"] = 1540,
+								},
+							},
+							["overheal"] = 17325,
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 4464,
+							["id"] = 67332,
+							["hitmax"] = 6342,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 10806,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 2616,
+							["amount"] = 10806,
+							["hitamount"] = 10806,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 3576,
+							["id"] = 67329,
+							["hitmax"] = 5996,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 31317,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 8605,
+							["amount"] = 31317,
+							["hitamount"] = 31317,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 4000,
+							["id"] = 67332,
+							["hitmax"] = 5143,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 18286,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 4570,
+							["amount"] = 18286,
+							["hitamount"] = 18286,
+						},
+					},
+					["overheal"] = 17325,
+					["ragespells"] = {
+						[29131] = 30,
+						[2687] = 60,
+						[58362] = 150,
+						[12964] = 29,
+					},
+					["name"] = "Magnatas",
+					["heal"] = 1540,
+					["rage"] = 269,
+					["totaldamage"] = 778255,
 					["role"] = "DAMAGER",
-				}, -- [5]
+				}, -- [19]
+				{
+					["last"] = 5292.857,
+					["flag"] = 1300,
+					["class"] = "DRUID",
+					["auras"] = {
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53307] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71184] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 191,
+							["uptime"] = 101,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71584] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[72418] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 32,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 14,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["energyspells"] = {
+						[48540] = 112,
+					},
+					["role"] = "HEALER",
+					["time"] = 60.65,
+					["totaldamagetaken"] = 25474,
+					["mana"] = 5567,
+					["ragespells"] = {
+						[48541] = 56,
+					},
+					["overheal"] = 881215,
+					["rage"] = 56,
+					["damagetaken"] = 25474,
+					["id"] = "0x07000000000A41DC",
+					["spec"] = 105,
+					["healspells"] = {
+						[71641] = {
+							["overheal"] = 16782,
+							["max"] = 5354,
+							["count"] = 3,
+							["amount"] = 5354,
+							["school"] = 2,
+							["min"] = 5354,
+							["targets"] = {
+								["Jutrit"] = {
+									["overheal"] = 2072,
+									["amount"] = 5354,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 7750,
+									["amount"] = 0,
+								},
+								["Orcscream"] = {
+									["overheal"] = 6960,
+									["amount"] = 0,
+								},
+							},
+						},
+						[18562] = {
+							["overheal"] = 15347,
+							["criticalamount"] = 3467,
+							["max"] = 3467,
+							["targets"] = {
+								["Shamaster"] = {
+									["overheal"] = 15347,
+									["amount"] = 3467,
+								},
+							},
+							["min"] = 3467,
+							["criticalmax"] = 3467,
+							["critical"] = 1,
+							["amount"] = 3467,
+							["school"] = 8,
+							["criticalmin"] = 3467,
+							["count"] = 1,
+						},
+						[48441] = {
+							["overheal"] = 521979,
+							["max"] = 3326,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 78304,
+									["amount"] = 18716,
+								},
+								["Booxeer"] = {
+									["overheal"] = 34749,
+									["amount"] = 21695,
+								},
+								["Magnatas"] = {
+									["overheal"] = 47994,
+									["amount"] = 6272,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 9960,
+									["amount"] = 6640,
+								},
+								["Risenone"] = {
+									["overheal"] = 28249,
+									["amount"] = 9383,
+								},
+								["Jutrit"] = {
+									["overheal"] = 48351,
+									["amount"] = 2930,
+								},
+								["Urgash"] = {
+									["overheal"] = 32263,
+									["amount"] = 14774,
+								},
+								["Laressa"] = {
+									["overheal"] = 15407,
+									["amount"] = 3076,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 37109,
+									["amount"] = 3602,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 19960,
+									["amount"] = 0,
+								},
+								["Orcscream"] = {
+									["overheal"] = 15298,
+									["amount"] = 3060,
+								},
+								["Welden"] = {
+									["overheal"] = 19596,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 18813,
+									["amount"] = 0,
+								},
+								["Shamaster"] = {
+									["overheal"] = 15680,
+									["amount"] = 3136,
+								},
+								["Caiva"] = {
+									["overheal"] = 31006,
+									["amount"] = 6044,
+								},
+								["Echoash"] = {
+									["overheal"] = 35231,
+									["amount"] = 6272,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 34009,
+									["amount"] = 3039,
+								},
+							},
+							["min"] = 310,
+							["casts"] = 38,
+							["count"] = 199,
+							["amount"] = 108639,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[70691] = {
+							["overheal"] = 32260,
+							["max"] = 3261,
+							["count"] = 12,
+							["amount"] = 6521,
+							["school"] = 8,
+							["min"] = 3260,
+							["ishot"] = true,
+							["targets"] = {
+								["Orcscream"] = {
+									["overheal"] = 13042,
+									["amount"] = 6521,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 19218,
+									["amount"] = 0,
+								},
+							},
+						},
+						[53251] = {
+							["overheal"] = 294847,
+							["max"] = 1139,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 37236,
+									["amount"] = 5730,
+								},
+								["Tifura"] = {
+									["overheal"] = 5765,
+									["amount"] = 1314,
+								},
+								["Tamook"] = {
+									["overheal"] = 25786,
+									["amount"] = 2883,
+								},
+								["Welden"] = {
+									["overheal"] = 6612,
+									["amount"] = 781,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 22667,
+									["amount"] = 0,
+								},
+								["Booxeer"] = {
+									["overheal"] = 22449,
+									["amount"] = 6002,
+								},
+								["Wolfy"] = {
+									["overheal"] = 27876,
+									["amount"] = 932,
+								},
+								["Magnatas"] = {
+									["overheal"] = 30515,
+									["amount"] = 5022,
+								},
+								["Xknappen"] = {
+									["overheal"] = 7080,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 5993,
+									["amount"] = 1088,
+								},
+								["Risenone"] = {
+									["overheal"] = 10258,
+									["amount"] = 3903,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 7081,
+									["amount"] = 0,
+								},
+								["Echoash"] = {
+									["overheal"] = 38110,
+									["amount"] = 11934,
+								},
+								["Shamaster"] = {
+									["overheal"] = 33261,
+									["amount"] = 9700,
+								},
+								["Jutrit"] = {
+									["overheal"] = 14158,
+									["amount"] = 0,
+								},
+							},
+							["min"] = 140,
+							["casts"] = 8,
+							["count"] = 336,
+							["amount"] = 49289,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+					},
+					["damagetakenspells"] = {
+						["Burning Breath"] = {
+							["hitmin"] = 3761,
+							["id"] = 67329,
+							["hitmax"] = 4945,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25474,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 9247,
+							["amount"] = 25474,
+							["hitamount"] = 25474,
+						},
+					},
+					["manaspells"] = {
+						[48542] = 5567,
+					},
+					["heal"] = 173270,
+					["name"] = "Ohdeer",
+					["runic"] = 272,
+					["runicspells"] = {
+						[48543] = 272,
+					},
+					["energy"] = 112,
+				}, -- [20]
+				{
+					["last"] = 5290.355000000001,
+					["flag"] = 1300,
+					["class"] = "HUNTER",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 11,
+						},
+						[63468] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 32,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 32,
+									["uptime"] = 95,
+								},
+							},
+							["uptime"] = 95,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 109,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 3,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[6150] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 43,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 44,
+						},
+						[35079] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 76,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 104,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[3045] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[34026] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 61,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53749] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[34477] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 21,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 87,
+						},
+						[57358] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 18,
+						},
+						[53220] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 10,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53401] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 59,
+						},
+						[53403] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 52,
+						},
+						[61847] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[64495] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["uptime"] = 61,
+						},
+						[70893] = {
+							["type"] = "BUFF",
+							["count"] = 10,
+							["school"] = 1,
+							["refresh"] = 20,
+							["uptime"] = 88,
+						},
+						[49001] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 17,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 17,
+									["uptime"] = 96,
+								},
+							},
+							["uptime"] = 96,
+						},
+						[53434] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[67695] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["uptime"] = 35,
+						},
+						[71007] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 23,
+						},
+						[70728] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["uptime"] = 11,
+						},
+						[49050] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 43,
+									["count"] = 8,
+								},
+							},
+							["uptime"] = 43,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71396] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 99,
+							["uptime"] = 105,
+						},
+						[53338] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 59,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 59,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61685] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["energyspells"] = {
+						[34952] = 2100,
+					},
+					["time"] = 98.56,
+					["totaldamagetaken"] = 24116,
+					["damage"] = 770529,
+					["damagespells"] = {
+						["Piercing Shots (DoT)"] = {
+							["hitmin"] = 323,
+							["id"] = 63468,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 65223,
+								},
+							},
+							["count"] = 77,
+							["hit"] = 77,
+							["school"] = 1,
+							["hitmax"] = 1375,
+							["amount"] = 65223,
+							["hitamount"] = 65223,
+						},
+						["Chimera Shot"] = {
+							["hitmax"] = 4917,
+							["hitmin"] = 4676,
+							["criticalamount"] = 73290,
+							["id"] = 53209,
+							["count"] = 9,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 82883,
+								},
+							},
+							["hit"] = 2,
+							["criticalmin"] = 8318,
+							["casts"] = 9,
+							["critical"] = 7,
+							["amount"] = 82883,
+							["school"] = 8,
+							["resisted"] = 8443,
+							["criticalmax"] = 13273,
+							["hitamount"] = 9593,
+						},
+						["Charge (Wolfy)"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 53148,
+						},
+						["Interrupt"] = {
+							["casts"] = 1,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 5,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 32747,
+						},
+						["Steady Shot"] = {
+							["blocked"] = 41,
+							["hitmin"] = 1813,
+							["criticalamount"] = 116708,
+							["id"] = 49052,
+							["hitmax"] = 2396,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 135391,
+								},
+							},
+							["count"] = 32,
+							["hit"] = 9,
+							["casts"] = 31,
+							["critical"] = 23,
+							["amount"] = 135391,
+							["school"] = 1,
+							["criticalmin"] = 4617,
+							["criticalmax"] = 5664,
+							["hitamount"] = 18683,
+						},
+						["Quick Shot"] = {
+							["hitmin"] = 752,
+							["criticalamount"] = 6612,
+							["id"] = 71834,
+							["criticalmin"] = 1544,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 9065,
+								},
+							},
+							["criticalmax"] = 1775,
+							["critical"] = 4,
+							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 909,
+							["amount"] = 9065,
+							["hitamount"] = 2453,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["criticalmin"] = 6027,
+							["hitmin"] = 2808,
+							["criticalamount"] = 12872,
+							["id"] = 53254,
+							["hitmax"] = 3145,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 27975,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 5,
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 27975,
+							["school"] = 8,
+							["resisted"] = 311,
+							["criticalmax"] = 6845,
+							["hitamount"] = 15103,
+						},
+						["Silencing Shot"] = {
+							["hitmin"] = 1168,
+							["criticalamount"] = 11695,
+							["id"] = 34490,
+							["hitmax"] = 1168,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 12863,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 1,
+							["casts"] = 5,
+							["critical"] = 4,
+							["amount"] = 12863,
+							["school"] = 1,
+							["criticalmin"] = 2468,
+							["criticalmax"] = 3199,
+							["hitamount"] = 1168,
+						},
+						["Kill Shot"] = {
+							["hitmin"] = 8015,
+							["id"] = 61006,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 16837,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 8822,
+							["amount"] = 16837,
+							["hitamount"] = 16837,
+						},
+						["Bite (Wolfy)"] = {
+							["hitmin"] = 390,
+							["criticalamount"] = 15792,
+							["id"] = 52474,
+							["criticalmin"] = 836,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 39026,
+								},
+							},
+							["criticalmax"] = 1510,
+							["critical"] = 15,
+							["casts"] = 1,
+							["count"] = 61,
+							["hit"] = 46,
+							["school"] = 1,
+							["hitmax"] = 801,
+							["amount"] = 39026,
+							["hitamount"] = 23234,
+						},
+						["Serpent Sting (DoT)"] = {
+							["hitmin"] = 770,
+							["id"] = 49001,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25278,
+								},
+							},
+							["hitmax"] = 1052,
+							["casts"] = 9,
+							["count"] = 28,
+							["hit"] = 28,
+							["school"] = 8,
+							["resisted"] = 1653,
+							["amount"] = 25278,
+							["hitamount"] = 25278,
+						},
+						["Aimed Shot"] = {
+							["hitmin"] = 2834,
+							["criticalamount"] = 32372,
+							["id"] = 49050,
+							["criticalmin"] = 7689,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 44842,
+								},
+							},
+							["criticalmax"] = 8429,
+							["critical"] = 4,
+							["casts"] = 9,
+							["count"] = 8,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 3641,
+							["amount"] = 44842,
+							["hitamount"] = 12470,
+						},
+						["Chimera Shot - Serpent"] = {
+							["hitmax"] = 2558,
+							["hitmin"] = 2239,
+							["criticalamount"] = 35934,
+							["id"] = 53353,
+							["criticalmin"] = 5140,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 43142,
+								},
+							},
+							["criticalmax"] = 6795,
+							["critical"] = 6,
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 4268,
+							["amount"] = 43142,
+							["hitamount"] = 7208,
+						},
+						["Auto Shot"] = {
+							["hitmin"] = 2121,
+							["criticalamount"] = 172691,
+							["id"] = 75,
+							["criticalmin"] = 4231,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 214919,
+								},
+							},
+							["criticalmax"] = 5786,
+							["critical"] = 34,
+							["casts"] = 1,
+							["count"] = 51,
+							["hit"] = 17,
+							["school"] = 1,
+							["hitmax"] = 2847,
+							["amount"] = 214919,
+							["hitamount"] = 42228,
+						},
+						["Melee (Wolfy)"] = {
+							["glance"] = 8404,
+							["hitmin"] = 488,
+							["criticalmin"] = 1026,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 53085,
+								},
+							},
+							["glancing"] = 18,
+							["amount"] = 53085,
+							["glancemin"] = 370,
+							["criticalamount"] = 23870,
+							["id"] = 6603,
+							["glancemax"] = 567,
+							["PARRY"] = 6,
+							["criticalmax"] = 1612,
+							["hitmax"] = 782,
+							["hit"] = 35,
+							["school"] = 1,
+							["critical"] = 18,
+							["count"] = 77,
+							["hitamount"] = 20811,
+						},
+					},
+					["damagetaken"] = 24116,
+					["id"] = "0x0700000000084FE8",
+					["spec"] = 254,
+					["damagetakenspells"] = {
+						["Burning Breath"] = {
+							["hitmin"] = 3221,
+							["id"] = 67329,
+							["hitmax"] = 4550,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 24116,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 9520,
+							["amount"] = 24116,
+							["hitamount"] = 24116,
+						},
+					},
+					["name"] = "Ironshell",
+					["totaldamage"] = 770529,
+					["energy"] = 2100,
+					["role"] = "DAMAGER",
+				}, -- [21]
+				{
+					["last"] = 5289.549,
+					["flag"] = 4372,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[61301] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 30,
+						},
+						[53390] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 99,
+						},
+						[72418] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 109,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 104,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 99,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 107,
+						},
+						[70806] = {
+							["type"] = "BUFF",
+							["count"] = 13,
+							["school"] = 1,
+							["uptime"] = 33,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 37,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[49233] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 42,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 42,
+						},
+						[33736] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 111,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71199] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 18,
+							["uptime"] = 95,
+						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 73.80999999999999,
+					["totaldamagetaken"] = 34245,
+					["damage"] = 18752,
+					["damagespells"] = {
+						["Flame Shock (DoT)"] = {
+							["hitmin"] = 458,
+							["criticalamount"] = 7563,
+							["id"] = 49233,
+							["hitmax"] = 572,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 13294,
+								},
+							},
+							["criticalmin"] = 774,
+							["critical"] = 9,
+							["criticalmax"] = 860,
+							["count"] = 20,
+							["hit"] = 11,
+							["school"] = 4,
+							["resisted"] = 596,
+							["amount"] = 13294,
+							["hitamount"] = 5731,
+						},
+						["Flame Shock"] = {
+							["criticalmax"] = 1513,
+							["hitmax"] = 1460,
+							["hitmin"] = 1171,
+							["criticalamount"] = 1513,
+							["id"] = 49233,
+							["count"] = 5,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 5458,
+								},
+							},
+							["hit"] = 3,
+							["criticalmin"] = 1513,
+							["casts"] = 5,
+							["critical"] = 1,
+							["amount"] = 5458,
+							["school"] = 4,
+							["resisted"] = 816,
+							["MISS"] = 1,
+							["hitamount"] = 3945,
+						},
+					},
+					["damagetaken"] = 34245,
+					["id"] = "0x070000000058044A",
+					["spec"] = 264,
+					["healspells"] = {
+						[379] = {
+							["overheal"] = 4062,
+							["criticalamount"] = 15300,
+							["max"] = 6454,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 4062,
+									["amount"] = 19603,
+								},
+							},
+							["min"] = 2392,
+							["criticalmax"] = 6454,
+							["critical"] = 3,
+							["amount"] = 19603,
+							["school"] = 8,
+							["criticalmin"] = 2392,
+							["count"] = 4,
+						},
+						[52042] = {
+							["overheal"] = 111045,
+							["targets"] = {
+								["Shamanboros"] = {
+									["overheal"] = 22224,
+									["amount"] = 7723,
+								},
+								["Booxeer"] = {
+									["overheal"] = 7854,
+									["amount"] = 1786,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 27194,
+									["amount"] = 4855,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 26669,
+									["amount"] = 3284,
+								},
+								["Famel"] = {
+									["overheal"] = 27104,
+									["amount"] = 3418,
+								},
+							},
+							["count"] = 218,
+							["amount"] = 21066,
+							["school"] = 8,
+							["max"] = 626,
+							["ishot"] = true,
+							["min"] = 142,
+						},
+						[71641] = {
+							["overheal"] = 7865,
+							["max"] = 7484,
+							["count"] = 2,
+							["amount"] = 7484,
+							["school"] = 2,
+							["min"] = 7484,
+							["targets"] = {
+								["Shamanboros"] = {
+									["overheal"] = 7865,
+									["amount"] = 0,
+								},
+								["Sejin"] = {
+									["overheal"] = 0,
+									["amount"] = 7484,
+								},
+							},
+						},
+						[49276] = {
+							["overheal"] = 197229,
+							["criticalamount"] = 22199,
+							["max"] = 9600,
+							["targets"] = {
+								["Shamaster"] = {
+									["overheal"] = 9675,
+									["amount"] = 0,
+								},
+								["Tamook"] = {
+									["overheal"] = 9637,
+									["amount"] = 0,
+								},
+								["Laressa"] = {
+									["overheal"] = 18681,
+									["amount"] = 0,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 8273,
+									["amount"] = 1198,
+								},
+								["Magnatas"] = {
+									["overheal"] = 0,
+									["amount"] = 9600,
+								},
+								["Welden"] = {
+									["overheal"] = 2413,
+									["amount"] = 4059,
+								},
+								["Risenone"] = {
+									["overheal"] = 9376,
+									["amount"] = 332,
+								},
+								["Grottesque"] = {
+									["overheal"] = 9447,
+									["amount"] = 0,
+								},
+								["Caiva"] = {
+									["overheal"] = 2074,
+									["amount"] = 7548,
+								},
+								["Sejin"] = {
+									["overheal"] = 117999,
+									["amount"] = 9454,
+								},
+								["Booxeer"] = {
+									["overheal"] = 9654,
+									["amount"] = 0,
+								},
+							},
+							["criticalmin"] = 0,
+							["min"] = 332,
+							["criticalmax"] = 9600,
+							["critical"] = 17,
+							["amount"] = 32191,
+							["school"] = 8,
+							["casts"] = 25,
+							["count"] = 24,
+						},
+						[52000] = {
+							["overheal"] = 42944,
+							["targets"] = {
+								["Shamaster"] = {
+									["overheal"] = 2905,
+									["amount"] = 969,
+								},
+								["Tamook"] = {
+									["overheal"] = 2910,
+									["amount"] = 970,
+								},
+								["Laressa"] = {
+									["overheal"] = 6947,
+									["amount"] = 1024,
+								},
+								["Booxeer"] = {
+									["overheal"] = 3872,
+									["amount"] = 0,
+								},
+								["Magnatas"] = {
+									["overheal"] = 3872,
+									["amount"] = 0,
+								},
+								["Grottesque"] = {
+									["overheal"] = 3875,
+									["amount"] = 0,
+								},
+								["Tifura"] = {
+									["overheal"] = 3873,
+									["amount"] = 0,
+								},
+								["Welden"] = {
+									["overheal"] = 3063,
+									["amount"] = 1021,
+								},
+								["Caiva"] = {
+									["overheal"] = 3881,
+									["amount"] = 0,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 3873,
+									["amount"] = 0,
+								},
+								["Jutrit"] = {
+									["overheal"] = 3873,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 48,
+							["amount"] = 3984,
+							["school"] = 8,
+							["max"] = 1024,
+							["ishot"] = true,
+							["min"] = 969,
+						},
+						[61301] = {
+							["overheal"] = 102024,
+							["criticalamount"] = 11386,
+							["max"] = 3977,
+							["targets"] = {
+								["Jutrit"] = {
+									["overheal"] = 2332,
+									["amount"] = 3467,
+								},
+								["Tamook"] = {
+									["overheal"] = 9762,
+									["amount"] = 2227,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 11992,
+									["amount"] = 0,
+								},
+								["Magnatas"] = {
+									["overheal"] = 3703,
+									["amount"] = 68,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 1886,
+									["amount"] = 10028,
+								},
+								["Risenone"] = {
+									["overheal"] = 7940,
+									["amount"] = 7903,
+								},
+								["Sejin"] = {
+									["overheal"] = 28213,
+									["amount"] = 0,
+								},
+								["Xknappen"] = {
+									["overheal"] = 12338,
+									["amount"] = 0,
+								},
+								["Famel"] = {
+									["overheal"] = 23858,
+									["amount"] = 0,
+								},
+							},
+							["criticalmin"] = 0,
+							["min"] = 68,
+							["casts"] = 13,
+							["count"] = 58,
+							["amount"] = 23693,
+							["school"] = 8,
+							["criticalmax"] = 3977,
+							["ishot"] = true,
+							["critical"] = 10,
+						},
+						[55459] = {
+							["overheal"] = 187322,
+							["criticalamount"] = 77937,
+							["max"] = 10586,
+							["targets"] = {
+								["Welden"] = {
+									["overheal"] = 14770,
+									["amount"] = 10841,
+								},
+								["Tamook"] = {
+									["overheal"] = 0,
+									["amount"] = 3780,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 3376,
+									["amount"] = 347,
+								},
+								["Booxeer"] = {
+									["overheal"] = 22908,
+									["amount"] = 17800,
+								},
+								["Magnatas"] = {
+									["overheal"] = 12335,
+									["amount"] = 10078,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 3788,
+									["amount"] = 4840,
+								},
+								["Risenone"] = {
+									["overheal"] = 18917,
+									["amount"] = 664,
+								},
+								["Tifura"] = {
+									["overheal"] = 8932,
+									["amount"] = 5433,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 5999,
+									["amount"] = 10588,
+								},
+								["Famel"] = {
+									["overheal"] = 3272,
+									["amount"] = 10586,
+								},
+								["Jutrit"] = {
+									["overheal"] = 10897,
+									["amount"] = 24992,
+								},
+								["Laressa"] = {
+									["overheal"] = 16493,
+									["amount"] = 9644,
+								},
+								["Orcscream"] = {
+									["overheal"] = 15367,
+									["amount"] = 3650,
+								},
+								["Sejin"] = {
+									["overheal"] = 34587,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 0,
+									["amount"] = 4959,
+								},
+								["Echoash"] = {
+									["overheal"] = 2015,
+									["amount"] = 8171,
+								},
+								["Shamaster"] = {
+									["overheal"] = 3427,
+									["amount"] = 10351,
+								},
+								["Caiva"] = {
+									["overheal"] = 10239,
+									["amount"] = 7673,
+								},
+							},
+							["casts"] = 17,
+							["min"] = 332,
+							["criticalmax"] = 10586,
+							["count"] = 41,
+							["amount"] = 144397,
+							["school"] = 8,
+							["criticalmin"] = 0,
+							["critical"] = 20,
+						},
+						[52752] = {
+							["min"] = 192,
+							["count"] = 27,
+							["amount"] = 34009,
+							["max"] = 3677,
+							["overheal"] = 42087,
+							["targets"] = {
+								["Jutrit"] = {
+									["overheal"] = 0,
+									["amount"] = 4874,
+								},
+								["Grottesque"] = {
+									["overheal"] = 1069,
+									["amount"] = 1964,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 0,
+									["amount"] = 6370,
+								},
+								["Booxeer"] = {
+									["overheal"] = 3373,
+									["amount"] = 3845,
+								},
+								["Orcscream"] = {
+									["overheal"] = 10816,
+									["amount"] = 1873,
+								},
+								["Welden"] = {
+									["overheal"] = 0,
+									["amount"] = 1834,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 5500,
+									["amount"] = 5550,
+								},
+								["Laressa"] = {
+									["overheal"] = 0,
+									["amount"] = 1855,
+								},
+								["Xknappen"] = {
+									["overheal"] = 13452,
+									["amount"] = 2863,
+								},
+								["Tifura"] = {
+									["overheal"] = 0,
+									["amount"] = 2981,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 4904,
+									["amount"] = 0,
+								},
+								["Famel"] = {
+									["overheal"] = 2973,
+									["amount"] = 0,
+								},
+							},
+							["school"] = 8,
+						},
+						[49273] = {
+							["overheal"] = 15951,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["targets"] = {
+								["Welden"] = {
+									["overheal"] = 15951,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 3812,
+							["id"] = 67332,
+							["hitmax"] = 3812,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 3812,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 1633,
+							["amount"] = 3812,
+							["hitamount"] = 3812,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 3815,
+							["id"] = 67329,
+							["hitmax"] = 5081,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 26897,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 8170,
+							["amount"] = 26897,
+							["hitamount"] = 26897,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3536,
+							["id"] = 67332,
+							["hitmax"] = 3536,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 3536,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 884,
+							["amount"] = 3536,
+							["hitamount"] = 3536,
+						},
+					},
+					["manaspells"] = {
+						[33737] = 6150,
+						[39104] = 384,
+					},
+					["heal"] = 286427,
+					["name"] = "Famel",
+					["mana"] = 6534,
+					["overheal"] = 710529,
+					["totaldamage"] = 18752,
+					["role"] = "HEALER",
+				}, -- [22]
+				{
+					["last"] = 5290.913000000001,
+					["flag"] = 1300,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 87,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71403] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[23885] = {
+							["type"] = "BUFF",
+							["count"] = 16,
+							["school"] = 1,
+							["uptime"] = 47,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 56,
+						},
+						[12292] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[1719] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[67695] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 20,
+						},
+						[70855] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 29,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 28,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["uptime"] = 28,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 14,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 38,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 3,
+									["refresh"] = 38,
+									["uptime"] = 86,
+								},
+							},
+							["uptime"] = 86,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["refresh"] = 1,
+							["school"] = 2,
+							["uptime"] = 51,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+					},
+					["time"] = 91.78000000000003,
+					["totaldamagetaken"] = 113284,
+					["damage"] = 492025,
+					["damagespells"] = {
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 144,
+							["id"] = 12721,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 58073,
+								},
+							},
+							["count"] = 66,
+							["hit"] = 66,
+							["school"] = 1,
+							["hitmax"] = 1846,
+							["amount"] = 58073,
+							["hitamount"] = 58073,
+						},
+						["Slam"] = {
+							["hitmin"] = 3523,
+							["criticalamount"] = 22063,
+							["id"] = 50783,
+							["hitmax"] = 3523,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25586,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 1,
+							["casts"] = 1,
+							["critical"] = 3,
+							["amount"] = 25586,
+							["school"] = 1,
+							["criticalmin"] = 6369,
+							["criticalmax"] = 8874,
+							["hitamount"] = 3523,
+						},
+						["Whirlwind"] = {
+							["hitmin"] = 1877,
+							["criticalamount"] = 44763,
+							["id"] = 1680,
+							["hitmax"] = 3399,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 59932,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 6,
+							["casts"] = 6,
+							["critical"] = 6,
+							["amount"] = 59932,
+							["school"] = 1,
+							["criticalmin"] = 4459,
+							["criticalmax"] = 9297,
+							["hitamount"] = 15169,
+						},
+						["Intercept"] = {
+							["criticalamount"] = 2100,
+							["id"] = 20253,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 2100,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 2100,
+							["school"] = 1,
+							["criticalmin"] = 1050,
+							["criticalmax"] = 1050,
+							["count"] = 2,
+						},
+						["Bloodthirst"] = {
+							["hitmin"] = 3400,
+							["criticalamount"] = 64401,
+							["id"] = 23881,
+							["criticalmin"] = 7480,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 98879,
+								},
+							},
+							["criticalmax"] = 13629,
+							["critical"] = 7,
+							["casts"] = 16,
+							["count"] = 16,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 5341,
+							["amount"] = 98879,
+							["hitamount"] = 34478,
+						},
+						["Execute"] = {
+							["hitmin"] = 2869,
+							["id"] = 20647,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 14666,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 3067,
+							["amount"] = 14666,
+							["hitamount"] = 14666,
+						},
+						["Melee"] = {
+							["glance"] = 11159,
+							["hitmin"] = 1437,
+							["criticalmin"] = 2898,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 96921,
+								},
+							},
+							["glancing"] = 9,
+							["amount"] = 96921,
+							["MISS"] = 1,
+							["glancemin"] = 1062,
+							["criticalamount"] = 61348,
+							["id"] = 6603,
+							["glancemax"] = 1641,
+							["count"] = 39,
+							["criticalmax"] = 6064,
+							["critical"] = 17,
+							["hit"] = 12,
+							["school"] = 1,
+							["blocked"] = 41,
+							["hitmax"] = 2885,
+							["hitamount"] = 24414,
+						},
+						["Heroic Throw"] = {
+							["hitmin"] = 3074,
+							["id"] = 57755,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 3074,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3074,
+							["amount"] = 3074,
+							["hitamount"] = 3074,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 2786,
+							["criticalamount"] = 63096,
+							["id"] = 47450,
+							["criticalmin"] = 6294,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 132794,
+								},
+							},
+							["criticalmax"] = 10410,
+							["critical"] = 8,
+							["casts"] = 29,
+							["count"] = 29,
+							["hit"] = 21,
+							["school"] = 1,
+							["hitmax"] = 4617,
+							["amount"] = 132794,
+							["hitamount"] = 69698,
+						},
+					},
+					["damagetaken"] = 113284,
+					["id"] = "0x070000000062BDAA",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 14023,
+							["max"] = 379,
+							["count"] = 48,
+							["amount"] = 4169,
+							["school"] = 1,
+							["min"] = 379,
+							["targets"] = {
+								["Booxeer"] = {
+									["overheal"] = 14023,
+									["amount"] = 4169,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 4587,
+							["id"] = 67332,
+							["hitmax"] = 4742,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 9329,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 3997,
+							["amount"] = 9329,
+							["hitamount"] = 9329,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 3536,
+							["id"] = 67329,
+							["hitmax"] = 5200,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 28329,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 8685,
+							["amount"] = 28329,
+							["hitamount"] = 28329,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3120,
+							["id"] = 67332,
+							["hitmax"] = 4893,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 75626,
+								},
+							},
+							["count"] = 19,
+							["hit"] = 19,
+							["school"] = 4,
+							["resisted"] = 24860,
+							["amount"] = 75626,
+							["hitamount"] = 75626,
+						},
+					},
+					["overheal"] = 14023,
+					["ragespells"] = {
+						[29131] = 14,
+						[12964] = 25,
+						[2687] = 20,
+					},
+					["name"] = "Booxeer",
+					["heal"] = 4169,
+					["rage"] = 59,
+					["totaldamage"] = 492025,
+					["role"] = "DAMAGER",
+				}, -- [23]
+				{
+					["last"] = 5293.667,
+					["flag"] = 1300,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[31834] = {
+							["type"] = "BUFF",
+							["count"] = 10,
+							["school"] = 2,
+							["refresh"] = 42,
+							["uptime"] = 106,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 7,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 7,
+									["uptime"] = 98,
+								},
+							},
+							["uptime"] = 98,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["uptime"] = 38,
+						},
+						[31842] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 16,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 106,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53749] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 21,
+						},
+						[67750] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 56,
+							["school"] = 1,
+							["uptime"] = 108,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 58,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[20216] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 1,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[64999] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[20166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[54153] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 7,
+							["uptime"] = 110,
+						},
+						[65000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["refresh"] = 16,
+							["uptime"] = 18,
+						},
+						[54428] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 1,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 36,
+						},
+					},
+					["absorbspells"] = {
+						[58597] = {
+							["min"] = 3654,
+							["casts"] = 8,
+							["count"] = 8,
+							["amount"] = 30740,
+							["school"] = 2,
+							["targets"] = {
+								["Sejin"] = 30740,
+							},
+							["max"] = 4400,
+						},
+					},
+					["time"] = 84.63999999999999,
+					["totaldamagetaken"] = 40140,
+					["damage"] = 17858,
+					["overheal"] = 2281736,
+					["absorb"] = 30740,
+					["damagetaken"] = 40140,
+					["id"] = "0x070000000077E900",
+					["spec"] = 65,
+					["healspells"] = {
+						[54968] = {
+							["min"] = 40,
+							["count"] = 226,
+							["amount"] = 60004,
+							["school"] = 2,
+							["max"] = 2209,
+							["targets"] = {
+								["Ironshell"] = {
+									["overheal"] = 12629,
+									["amount"] = 2510,
+								},
+								["Apollonn"] = {
+									["overheal"] = 16464,
+									["amount"] = 1371,
+								},
+								["Tamook"] = {
+									["overheal"] = 11946,
+									["amount"] = 3295,
+								},
+								["Grottesque"] = {
+									["overheal"] = 6652,
+									["amount"] = 0,
+								},
+								["Booxeer"] = {
+									["overheal"] = 10072,
+									["amount"] = 1335,
+								},
+								["Magnatas"] = {
+									["overheal"] = 4043,
+									["amount"] = 1371,
+								},
+								["Sejin"] = {
+									["overheal"] = 3494,
+									["amount"] = 0,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 16246,
+									["amount"] = 7250,
+								},
+								["Risenone"] = {
+									["overheal"] = 6566,
+									["amount"] = 4131,
+								},
+								["Simplelocks"] = {
+									["overheal"] = 4272,
+									["amount"] = 0,
+								},
+								["Tifura"] = {
+									["overheal"] = 22086,
+									["amount"] = 3242,
+								},
+								["Ohdeer"] = {
+									["overheal"] = 14951,
+									["amount"] = 0,
+								},
+								["Famel"] = {
+									["overheal"] = 2802,
+									["amount"] = 1372,
+								},
+								["Jutrit"] = {
+									["overheal"] = 1337,
+									["amount"] = 6012,
+								},
+								["Urgash"] = {
+									["overheal"] = 3992,
+									["amount"] = 2038,
+								},
+								["Wolfy"] = {
+									["overheal"] = 1367,
+									["amount"] = 0,
+								},
+								["Adi"] = {
+									["overheal"] = 6626,
+									["amount"] = 0,
+								},
+								["Laressa"] = {
+									["overheal"] = 10212,
+									["amount"] = 1139,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 3633,
+									["amount"] = 4813,
+								},
+								["Xknappen"] = {
+									["overheal"] = 14106,
+									["amount"] = 2713,
+								},
+								["Orcscream"] = {
+									["overheal"] = 16386,
+									["amount"] = 1139,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 3104,
+									["amount"] = 252,
+								},
+								["Shamaster"] = {
+									["overheal"] = 9347,
+									["amount"] = 1372,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 7280,
+									["amount"] = 2918,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 803,
+									["amount"] = 467,
+								},
+								["Caiva"] = {
+									["overheal"] = 17551,
+									["amount"] = 3474,
+								},
+								["Echoash"] = {
+									["overheal"] = 14159,
+									["amount"] = 4558,
+								},
+								["Welden"] = {
+									["overheal"] = 15552,
+									["amount"] = 3232,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 8604,
+									["amount"] = 0,
+								},
+							},
+							["overheal"] = 266282,
+						},
+						[48782] = {
+							["overheal"] = 619589,
+							["criticalamount"] = 70306,
+							["max"] = 12655,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 8511,
+									["amount"] = 4521,
+								},
+								["Apollonn"] = {
+									["overheal"] = 46044,
+									["amount"] = 17787,
+								},
+								["Booxeer"] = {
+									["overheal"] = 56530,
+									["amount"] = 18815,
+								},
+								["Magnatas"] = {
+									["overheal"] = 16053,
+									["amount"] = 4000,
+								},
+								["Shamanboros"] = {
+									["overheal"] = 70556,
+									["amount"] = 18039,
+								},
+								["Tifura"] = {
+									["overheal"] = 7339,
+									["amount"] = 0,
+								},
+								["Famel"] = {
+									["overheal"] = 12793,
+									["amount"] = 10800,
+								},
+								["Jutrit"] = {
+									["overheal"] = 25928,
+									["amount"] = 0,
+								},
+								["Laressa"] = {
+									["overheal"] = 108442,
+									["amount"] = 1517,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 144250,
+									["amount"] = 12181,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 0,
+									["amount"] = 7409,
+								},
+								["Orcscream"] = {
+									["overheal"] = 12827,
+									["amount"] = 0,
+								},
+								["Welden"] = {
+									["overheal"] = 34347,
+									["amount"] = 4574,
+								},
+								["Caiva"] = {
+									["overheal"] = 4924,
+									["amount"] = 5826,
+								},
+								["Xknappen"] = {
+									["overheal"] = 19245,
+									["amount"] = 0,
+								},
+								["Echoash"] = {
+									["overheal"] = 12740,
+									["amount"] = 0,
+								},
+								["Ironshell"] = {
+									["overheal"] = 19392,
+									["amount"] = 0,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 19668,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 52,
+							["min"] = 470,
+							["criticalmax"] = 12655,
+							["critical"] = 26,
+							["amount"] = 105469,
+							["school"] = 2,
+							["casts"] = 53,
+							["criticalmin"] = 0,
+						},
+						[53654] = {
+							["min"] = 127,
+							["count"] = 53,
+							["amount"] = 103050,
+							["school"] = 2,
+							["max"] = 19205,
+							["targets"] = {
+								["Sejin"] = {
+									["overheal"] = 614559,
+									["amount"] = 103050,
+								},
+							},
+							["overheal"] = 614559,
+						},
+						[48821] = {
+							["overheal"] = 0,
+							["count"] = 2,
+							["amount"] = 13042,
+							["school"] = 2,
+							["max"] = 6646,
+							["targets"] = {
+								["Shamanboros"] = {
+									["overheal"] = 0,
+									["amount"] = 6396,
+								},
+								["Welden"] = {
+									["overheal"] = 0,
+									["amount"] = 6646,
+								},
+							},
+							["min"] = 6396,
+						},
+						[20267] = {
+							["overheal"] = 781306,
+							["max"] = 1276,
+							["count"] = 1509,
+							["amount"] = 135527,
+							["school"] = 2,
+							["min"] = 8,
+							["ishot"] = true,
+							["targets"] = {
+								["Simplelocks"] = {
+									["overheal"] = 13175,
+									["amount"] = 3041,
+								},
+								["Apollonn"] = {
+									["overheal"] = 20742,
+									["amount"] = 1446,
+								},
+								["Tamook"] = {
+									["overheal"] = 42350,
+									["amount"] = 7968,
+								},
+								["Grottesque"] = {
+									["overheal"] = 16483,
+									["amount"] = 1902,
+								},
+								["Booxeer"] = {
+									["overheal"] = 35401,
+									["amount"] = 11265,
+								},
+								["Magnatas"] = {
+									["overheal"] = 38617,
+									["amount"] = 8786,
+								},
+								["Shaaroon"] = {
+									["overheal"] = 17758,
+									["amount"] = 3340,
+								},
+								["Famel"] = {
+									["overheal"] = 1340,
+									["amount"] = 0,
+								},
+								["Jutrit"] = {
+									["overheal"] = 49374,
+									["amount"] = 17782,
+								},
+								["Urgash"] = {
+									["overheal"] = 59944,
+									["amount"] = 6386,
+								},
+								["Adi"] = {
+									["overheal"] = 29664,
+									["amount"] = 1725,
+								},
+								["Fluidliftedx"] = {
+									["overheal"] = 2323,
+									["amount"] = 0,
+								},
+								["Xknappen"] = {
+									["overheal"] = 13580,
+									["amount"] = 1150,
+								},
+								["Wolfy"] = {
+									["overheal"] = 29382,
+									["amount"] = 1116,
+								},
+								["Caiva"] = {
+									["overheal"] = 22699,
+									["amount"] = 2639,
+								},
+								["Sejin"] = {
+									["overheal"] = 41171,
+									["amount"] = 8562,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 2227,
+									["amount"] = 192,
+								},
+								["Spirit Wolf"] = {
+									["overheal"] = 2233,
+									["amount"] = 0,
+								},
+								["Risenone"] = {
+									["overheal"] = 28083,
+									["amount"] = 5001,
+								},
+								["Tifura"] = {
+									["overheal"] = 15311,
+									["amount"] = 2268,
+								},
+								["Shadowfiend"] = {
+									["overheal"] = 2263,
+									["amount"] = 249,
+								},
+								["Ironshell"] = {
+									["overheal"] = 28896,
+									["amount"] = 3848,
+								},
+								["Laressa"] = {
+									["overheal"] = 28936,
+									["amount"] = 5788,
+								},
+								["Orcscream"] = {
+									["overheal"] = 9117,
+									["amount"] = 1609,
+								},
+								["Casketrumbler"] = {
+									["overheal"] = 37327,
+									["amount"] = 7988,
+								},
+								["Ebon Gargoyle"] = {
+									["overheal"] = 6636,
+									["amount"] = 1638,
+								},
+								["Wolf"] = {
+									["overheal"] = 27926,
+									["amount"] = 419,
+								},
+								["Shamaster"] = {
+									["overheal"] = 34480,
+									["amount"] = 6506,
+								},
+								["Welden"] = {
+									["overheal"] = 7194,
+									["amount"] = 2616,
+								},
+								["Bloodworm"] = {
+									["overheal"] = 868,
+									["amount"] = 0,
+								},
+								["Treant"] = {
+									["overheal"] = 7812,
+									["amount"] = 496,
+								},
+								["Evelinayou"] = {
+									["overheal"] = 23608,
+									["amount"] = 1967,
+								},
+								["Paracethamol"] = {
+									["overheal"] = 21762,
+									["amount"] = 3098,
+								},
+								["Echoash"] = {
+									["overheal"] = 62624,
+									["amount"] = 14736,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 5039,
+							["id"] = 67332,
+							["hitmax"] = 5039,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 5039,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 1259,
+							["amount"] = 5039,
+							["hitamount"] = 5039,
+						},
+						["Burning Breath"] = {
+							["hitmin"] = 3739,
+							["id"] = 67329,
+							["hitmax"] = 5421,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 27234,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 7624,
+							["amount"] = 27234,
+							["hitamount"] = 27234,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["hitmin"] = 3671,
+							["id"] = 67332,
+							["hitmax"] = 4196,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 7867,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 2621,
+							["amount"] = 7867,
+							["hitamount"] = 7867,
+						},
+					},
+					["manaspells"] = {
+						[20272] = 9932,
+						[20168] = 3018,
+						[54428] = 18870,
+						[55382] = 1200,
+					},
+					["heal"] = 417092,
+					["name"] = "Fluidliftedx",
+					["mana"] = 33020,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 287,
+							["criticalamount"] = 664,
+							["id"] = 6603,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 951,
+								},
+							},
+							["count"] = 2,
+							["glancing"] = 1,
+							["criticalmax"] = 664,
+							["critical"] = 1,
+							["amount"] = 951,
+							["school"] = 1,
+							["glancemax"] = 287,
+							["criticalmin"] = 664,
+							["glancemin"] = 287,
+						},
+						["Judgement"] = {
+							["hitmax"] = 1720,
+							["hitmin"] = 1379,
+							["criticalamount"] = 9164,
+							["id"] = 54158,
+							["count"] = 8,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 16907,
+								},
+							},
+							["hit"] = 5,
+							["criticalmin"] = 2280,
+							["casts"] = 1,
+							["critical"] = 3,
+							["amount"] = 16907,
+							["school"] = 2,
+							["resisted"] = 1430,
+							["criticalmax"] = 3446,
+							["hitamount"] = 7743,
+						},
+					},
+					["totaldamage"] = 17858,
+					["role"] = "HEALER",
+				}, -- [24]
+				{
+					["last"] = 5290.771,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 111,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 108,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[52000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 12,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 3,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 3,
+									["uptime"] = 96,
+								},
+							},
+							["uptime"] = 96,
+						},
+						[71560] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 109,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 9,
+							["refresh"] = 4,
+							["school"] = 1,
+							["uptime"] = 111,
+						},
+						[45529] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 14,
+						},
+						[16237] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 19,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 97,
+						},
+						[32223] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48945] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 107,
+						},
+						[48947] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 104,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 19,
+							["uptime"] = 105,
+						},
+						[57399] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 109,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 10,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 10,
+									["uptime"] = 78,
+								},
+							},
+							["uptime"] = 78,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 8,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 1,
+									["refresh"] = 8,
+									["uptime"] = 97,
+								},
+							},
+							["uptime"] = 97,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 77,
+								},
+							},
+							["uptime"] = 77,
+						},
+						[13159] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 4,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 14,
+							["uptime"] = 103,
+						},
+						[75456] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 64,
+							["uptime"] = 45,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 33,
+							["uptime"] = 43,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 46,
+							["uptime"] = 96,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 47,
+						},
+						[48707] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["uptime"] = 10,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 2,
+						},
+						[73422] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["uptime"] = 50,
+						},
+						[49206] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["uptime"] = 40,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 40,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[58651] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 111,
+						},
+						[66803] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 17,
+							["uptime"] = 106,
+						},
+					},
+					["absorbspells"] = {
+						[48707] = {
+							["min"] = 2286,
+							["casts"] = 2,
+							["count"] = 3,
+							["amount"] = 7561,
+							["school"] = 32,
+							["targets"] = {
+								["Urgash"] = 7561,
+							},
+							["max"] = 2663,
+						},
+					},
+					["time"] = 98.99000000000001,
+					["totaldamagetaken"] = 40384,
+					["damage"] = 1179378,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 4577,
+							["criticalamount"] = 59260,
+							["id"] = 55271,
+							["hitmax"] = 5336,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 108274,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 10,
+							["casts"] = 16,
+							["critical"] = 5,
+							["amount"] = 108274,
+							["school"] = 1,
+							["criticalmin"] = 11401,
+							["criticalmax"] = 12406,
+							["hitamount"] = 49014,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 3102,
+							["id"] = 71904,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 16208,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 3320,
+							["amount"] = 16208,
+							["hitamount"] = 16208,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 2781,
+							["criticalamount"] = 64141,
+							["id"] = 49930,
+							["hitmax"] = 3264,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 84930,
+								},
+							},
+							["count"] = 18,
+							["hit"] = 7,
+							["casts"] = 18,
+							["critical"] = 11,
+							["amount"] = 84930,
+							["school"] = 1,
+							["criticalmin"] = 4869,
+							["criticalmax"] = 6861,
+							["hitamount"] = 20789,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 43,
+							["id"] = 50536,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 8609,
+								},
+							},
+							["hitmax"] = 196,
+							["count"] = 72,
+							["hit"] = 72,
+							["school"] = 32,
+							["resisted"] = 488,
+							["amount"] = 8609,
+							["hitamount"] = 8609,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1150,
+							["id"] = 50526,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 44121,
+								},
+							},
+							["hitmax"] = 2562,
+							["casts"] = 1,
+							["count"] = 23,
+							["hit"] = 23,
+							["school"] = 32,
+							["resisted"] = 1976,
+							["amount"] = 44121,
+							["hitamount"] = 44121,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 49364,
+							["hitmin"] = 3878,
+							["criticalmin"] = 6713,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 273523,
+								},
+							},
+							["glancing"] = 15,
+							["amount"] = 273523,
+							["glancemin"] = 2813,
+							["criticalamount"] = 193259,
+							["id"] = 6603,
+							["glancemax"] = 3635,
+							["criticalmax"] = 10252,
+							["critical"] = 22,
+							["hit"] = 7,
+							["school"] = 1,
+							["count"] = 45,
+							["hitmax"] = 4907,
+							["hitamount"] = 30900,
+						},
+						["Blood-Caked Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1652,
+							["id"] = 50463,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 35871,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 15,
+							["hit"] = 14,
+							["school"] = 1,
+							["hitmax"] = 2855,
+							["amount"] = 35871,
+							["hitamount"] = 35871,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 1341,
+							["id"] = 70890,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 51053,
+								},
+							},
+							["hitmax"] = 6402,
+							["casts"] = 1,
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 32,
+							["resisted"] = 3318,
+							["amount"] = 51053,
+							["hitamount"] = 51053,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1582,
+							["id"] = 55078,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 45084,
+								},
+							},
+							["hitmax"] = 2153,
+							["count"] = 24,
+							["hit"] = 24,
+							["school"] = 32,
+							["resisted"] = 3054,
+							["amount"] = 45084,
+							["hitamount"] = 45084,
+						},
+						["Death Coil"] = {
+							["hitmax"] = 5959,
+							["hitmin"] = 4160,
+							["criticalamount"] = 65499,
+							["id"] = 47632,
+							["count"] = 13,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 100999,
+								},
+							},
+							["hit"] = 7,
+							["criticalmin"] = 9850,
+							["casts"] = 13,
+							["critical"] = 6,
+							["amount"] = 100999,
+							["school"] = 32,
+							["resisted"] = 8119,
+							["criticalmax"] = 11609,
+							["hitamount"] = 35500,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 562,
+							["id"] = 51460,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 50827,
+								},
+							},
+							["hitmax"] = 2050,
+							["casts"] = 1,
+							["count"] = 44,
+							["hit"] = 44,
+							["school"] = 32,
+							["resisted"] = 3862,
+							["amount"] = 50827,
+							["hitamount"] = 50827,
+						},
+						["Claw (Casketrumbler)"] = {
+							["hitmin"] = 960,
+							["criticalamount"] = 9812,
+							["id"] = 47468,
+							["criticalmin"] = 2340,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 35562,
+								},
+							},
+							["criticalmax"] = 2544,
+							["critical"] = 4,
+							["casts"] = 1,
+							["count"] = 25,
+							["hit"] = 21,
+							["school"] = 1,
+							["hitmax"] = 1281,
+							["amount"] = 35562,
+							["hitamount"] = 25750,
+						},
+						["Melee (Casketrumbler)"] = {
+							["glance"] = 13071,
+							["hitmin"] = 621,
+							["criticalmin"] = 1586,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 93875,
+								},
+							},
+							["glancing"] = 21,
+							["amount"] = 93875,
+							["glancemin"] = 594,
+							["criticalamount"] = 33426,
+							["id"] = 6603,
+							["glancemax"] = 639,
+							["critical"] = 20,
+							["PARRY"] = 1,
+							["criticalmax"] = 1706,
+							["hitmax"] = 853,
+							["hit"] = 58,
+							["school"] = 1,
+							["blocked"] = 41,
+							["count"] = 100,
+							["hitamount"] = 47378,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 2050,
+							["criticalamount"] = 7401,
+							["id"] = 49909,
+							["criticalmin"] = 7401,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 18629,
+								},
+							},
+							["criticalmax"] = 7401,
+							["critical"] = 1,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 3117,
+							["amount"] = 18629,
+							["hitamount"] = 11228,
+						},
+						["Plague Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2764,
+							["criticalamount"] = 22429,
+							["id"] = 49921,
+							["hitmax"] = 2764,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 25193,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 1,
+							["casts"] = 5,
+							["critical"] = 3,
+							["amount"] = 25193,
+							["school"] = 1,
+							["criticalmin"] = 7219,
+							["criticalmax"] = 7951,
+							["hitamount"] = 2764,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1348,
+							["id"] = 55095,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 64318,
+								},
+							},
+							["hitmax"] = 2699,
+							["count"] = 29,
+							["hit"] = 29,
+							["school"] = 16,
+							["resisted"] = 2200,
+							["amount"] = 64318,
+							["hitamount"] = 64318,
+						},
+						["Gargoyle Strike (Ebon Gargoyle)"] = {
+							["hitmin"] = 4148,
+							["id"] = 51963,
+							["targets"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 122302,
+								},
+							},
+							["hitmax"] = 5199,
+							["casts"] = 1,
+							["count"] = 25,
+							["hit"] = 25,
+							["school"] = 8,
+							["resisted"] = 7245,
+							["amount"] = 122302,
+							["hitamount"] = 122302,
+						},
+					},
+					["absorb"] = 7561,
+					["damagetaken"] = 32823,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 21701,
+							["max"] = 504,
+							["count"] = 170,
+							["amount"] = 4380,
+							["school"] = 1,
+							["min"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 21701,
+									["amount"] = 4380,
+								},
+							},
+						},
+						[53365] = {
+							["overheal"] = 22441,
+							["criticalamount"] = 3596,
+							["max"] = 1798,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 22441,
+									["amount"] = 5732,
+								},
+							},
+							["min"] = 937,
+							["criticalmax"] = 1798,
+							["critical"] = 7,
+							["amount"] = 5732,
+							["school"] = 1,
+							["criticalmin"] = 0,
+							["count"] = 20,
+						},
+					},
+					["damagetakenspells"] = {
+						["Flaming Cinder"] = {
+							["hitmin"] = 3882,
+							["id"] = 67332,
+							["hitmax"] = 4311,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["amount"] = 8193,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 2047,
+							["amount"] = 8193,
+							["hitamount"] = 8193,
+						},
+						["Burning Breath"] = {
+							["total"] = 20510,
+							["hitmin"] = 888,
+							["id"] = 67329,
+							["hitmax"] = 4085,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["total"] = 20510,
+									["amount"] = 17847,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 7458,
+							["amount"] = 17847,
+							["hitamount"] = 17847,
+						},
+						["Flaming Cinder (DoT)"] = {
+							["total"] = 11681,
+							["hitmin"] = 762,
+							["id"] = 67332,
+							["hitmax"] = 2773,
+							["sources"] = {
+								["Koralon the Flame Watcher"] = {
+									["total"] = 11681,
+									["amount"] = 6783,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 4947,
+							["amount"] = 6783,
+							["hitamount"] = 6783,
+						},
+					},
+					["runicspells"] = {
+						[45529] = 10,
+						[49088] = 110,
+					},
+					["heal"] = 10112,
+					["name"] = "Urgash",
+					["runic"] = 120,
+					["overheal"] = 44142,
+					["totaldamage"] = 1179378,
+					["role"] = "DAMAGER",
+				}, -- [25]
+				{
+					["last"] = 5239.592000000001,
+					["id"] = "Koralon the Flame Watcher",
+					["class"] = "BOSS",
+					["auras"] = {
+						[67332] = {
+							["type"] = "DEBUFF",
+							["count"] = 10,
+							["school"] = 4,
+							["targets"] = {
+								["Shamaster"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+								["Urgash"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+								["Adi"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+								["Booxeer"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+								["Echoash"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+								["Risenone"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+								["Shadowfiend"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+								["Shaaroon"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+								["Jutrit"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+								["Casketrumbler"] = {
+									["uptime"] = 64,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 64,
+						},
+					},
+					["name"] = "Koralon the Flame Watcher",
+					["time"] = 0,
+					["flag"] = 68168,
+				}, -- [26]
 			},
-			["type"] = "group",
-			["damagetaken"] = 0,
-			["damage"] = 35346,
-			["overheal"] = 719,
-			["overkill"] = 335,
-			["edamagetaken"] = 35346,
-			["heal"] = 177,
-			["name"] = "Sunreaver Dragonhawk",
-			["mobname"] = "Sunreaver Dragonhawk",
-			["starttime"] = 1691501720,
-			["last_action"] = 1691501732,
-			["endtime"] = 1691501732,
-		}, -- [1]
+			["type"] = "raid",
+			["damagetaken"] = 1342310,
+			["starttime"] = 1697372774,
+			["energy"] = 7574,
+			["rage"] = 384,
+			["overkill"] = 4181,
+			["edamagetaken"] = 13250800,
+			["heal"] = 1428193,
+			["name"] = "Koralon the Flame Watcher",
+			["mobname"] = "Koralon the Flame Watcher",
+			["damage"] = 13250800,
+			["edamage"] = 1292414,
+			["last_action"] = 1697372885,
+			["endtime"] = 1697372885,
+		}, -- [2]
 	},
 }

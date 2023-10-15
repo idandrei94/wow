@@ -90,10 +90,3 @@ X: -71
 Y: 30
 W: 932
 H: 621
-Frame: BagnonFrameinventory
-FrameLevel: 1
-Anchor: CENTER
-X: 238
-Y: -16
-W: 504
-H: 632
