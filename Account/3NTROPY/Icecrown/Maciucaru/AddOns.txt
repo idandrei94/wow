@@ -21,7 +21,7 @@ LibSharedMedia-3.0: enabled
 shieldwatch: enabled
 SimpleUnitFrames: enabled
 ACP: enabled
-AutoDestroy: disabled
+AutoDestroy: enabled
 BagBrother: disabled
 Bagnon: enabled
 Bagnon_Config: enabled
