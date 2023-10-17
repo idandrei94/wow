@@ -12,6 +12,7 @@ MACRO 75 "arcane" INV_Misc_QuestionMark
 END
 MACRO 97 "boom" INV_Misc_QuestionMark
 #showtooltip revenge
+/startattack
 /cast [stance:1][stance:3] defensive stance
 /cast revenge
 END

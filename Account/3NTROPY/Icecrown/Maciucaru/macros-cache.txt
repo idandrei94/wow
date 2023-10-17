@@ -94,6 +94,7 @@ MACRO 16777228 "reflect" INV_Misc_QuestionMark
 END
 MACRO 16777229 "rend" INV_Misc_QuestionMark
 #showtooltip rend
+/startattack
 /cast [form:3] battle stance
 /cast rend
 END

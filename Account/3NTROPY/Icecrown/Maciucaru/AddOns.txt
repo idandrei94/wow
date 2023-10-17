@@ -27,7 +27,7 @@ Bagnon: enabled
 Bagnon_Config: enabled
 Bagnon_Forever: enabled
 Bagnon_GuildBank: enabled
-Bagnon_Tooltips: disabled
+Bagnon_Tooltips: enabled
 Bagnon_VoidStorage: disabled
 Chaosbaneremove: disabled
 CombatLogFix: enabled
