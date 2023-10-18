@@ -1,5 +1,4 @@
 SET deselectOnClick "0"
-SET autoInteract "1"
 SET autoDismountFlying "1"
 SET autoLootDefault "1"
 SET showTargetOfTarget "1"

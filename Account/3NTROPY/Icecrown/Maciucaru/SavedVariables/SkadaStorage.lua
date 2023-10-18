@@ -4,23 +4,23 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300001DB0FF465",
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 139,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Kobold Tunneler",
 					["damagetaken"] = 139,
+					["id"] = "0xF1300001DB0FF465",
+					["totaldamagetaken"] = 139,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 37,
 									["amount"] = 124,
+									["overkill"] = 37,
 								},
 							},
-							["overkill"] = 37,
 							["amount"] = 124,
+							["overkill"] = 37,
 						},
 						[9782] = {
 							["school"] = 1,
@@ -76,12 +76,13 @@ SkadaStorageDB = {
 							["uptime"] = 2,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 4,
 						},
 					},
+					["totaldamage"] = 139,
 					["time"] = 3.02,
 					["totaldamagetaken"] = 0,
 					["damage"] = 139,
@@ -91,17 +92,17 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 37,
 									["amount"] = 124,
+									["overkill"] = 37,
 								},
 							},
 							["overkill"] = 37,
-							["blocked"] = 2,
-							["count"] = 2,
 							["hit"] = 2,
+							["count"] = 2,
+							["blocked"] = 2,
 							["school"] = 1,
-							["hitmax"] = 63,
 							["amount"] = 124,
+							["hitmax"] = 63,
 							["hitamount"] = 124,
 						},
 						["Mithril Shield Spike"] = {
@@ -134,9 +135,9 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["blocked"] = 1,
-							["BLOCK"] = 1,
 							["id"] = 6603,
+							["BLOCK"] = 1,
+							["blocked"] = 1,
 						},
 					},
 					["ragespells"] = {
@@ -144,22 +145,21 @@ SkadaStorageDB = {
 					},
 					["name"] = "Maciucaru",
 					["ccdone"] = 1,
-					["overkill"] = 37,
-					["rage"] = 5,
-					["totaldamage"] = 139,
 					["role"] = "TANK",
+					["rage"] = 5,
+					["overkill"] = 37,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 0,
-			["mobname"] = "Kobold Tunneler",
 			["rage"] = 5,
 			["overkill"] = 37,
 			["edamagetaken"] = 139,
 			["starttime"] = 1697631794,
 			["name"] = "Kobold Tunneler (43)",
-			["ccdone"] = 1,
+			["mobname"] = "Kobold Tunneler",
 			["damage"] = 139,
+			["ccdone"] = 1,
 			["last_action"] = 1697631798,
 			["endtime"] = 1697631799,
 		}, -- [1]
@@ -185,23 +185,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 110,
 									["amount"] = 157,
+									["overkill"] = 110,
 								},
 							},
-							["overkill"] = 110,
 							["amount"] = 157,
+							["overkill"] = 110,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 46,
 									["amount"] = 74,
+									["overkill"] = 46,
 								},
 							},
-							["overkill"] = 46,
 							["amount"] = 74,
+							["overkill"] = 46,
 						},
 					},
 					["totaldamage"] = 2,
@@ -211,23 +211,23 @@ SkadaStorageDB = {
 					["damage"] = 2,
 				}, -- [1]
 				{
-					["id"] = "0xF1300000280FF38B",
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 65,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Kobold Miner",
 					["damagetaken"] = 65,
+					["id"] = "0xF1300000280FF38B",
+					["totaldamagetaken"] = 65,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 18,
 									["amount"] = 65,
+									["overkill"] = 18,
 								},
 							},
-							["overkill"] = 18,
 							["amount"] = 65,
+							["overkill"] = 18,
 						},
 					},
 				}, -- [2]
@@ -244,10 +244,10 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[58363] = {
+							["uptime"] = 5,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 5,
 						},
 						[5242] = {
 							["type"] = "BUFF",
@@ -291,18 +291,20 @@ SkadaStorageDB = {
 						[23602] = 5,
 					},
 					["name"] = "Maciucaru",
+					["totaldamage"] = 296,
+					["overkill"] = 174,
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 65,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 18,
 									["amount"] = 65,
+									["overkill"] = 18,
 								},
 								["Kobold Tunneler"] = {
-									["overkill"] = 46,
 									["amount"] = 74,
+									["overkill"] = 46,
 								},
 							},
 							["overkill"] = 64,
@@ -318,8 +320,8 @@ SkadaStorageDB = {
 							["id"] = 6572,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 110,
 									["amount"] = 157,
+									["overkill"] = 110,
 								},
 							},
 							["overkill"] = 110,
@@ -332,8 +334,6 @@ SkadaStorageDB = {
 							["hitamount"] = 157,
 						},
 					},
-					["overkill"] = 174,
-					["totaldamage"] = 296,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -353,12 +353,12 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300001DB0FF500",
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 275,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Kobold Tunneler",
 					["damagetaken"] = 275,
+					["id"] = "0xF1300001DB0FF500",
+					["totaldamagetaken"] = 275,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -373,12 +373,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 155,
 									["amount"] = 160,
+									["overkill"] = 155,
 								},
 							},
-							["overkill"] = 155,
 							["amount"] = 160,
+							["overkill"] = 155,
 						},
 					},
 				}, -- [1]
@@ -403,15 +403,15 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 2,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 4,
 						},
 						[7922] = {
@@ -427,6 +427,7 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 					},
+					["totaldamage"] = 275,
 					["time"] = 3.76,
 					["totaldamagetaken"] = 0,
 					["damage"] = 275,
@@ -451,8 +452,8 @@ SkadaStorageDB = {
 							["id"] = 6572,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 155,
 									["amount"] = 160,
+									["overkill"] = 155,
 								},
 							},
 							["overkill"] = 155,
@@ -484,18 +485,17 @@ SkadaStorageDB = {
 					},
 					["name"] = "Maciucaru",
 					["ccdone"] = 1,
-					["overkill"] = 155,
-					["totaldamage"] = 275,
 					["role"] = "TANK",
+					["overkill"] = 155,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 0,
-			["mobname"] = "Kobold Tunneler",
 			["overkill"] = 155,
 			["edamagetaken"] = 275,
 			["starttime"] = 1697631476,
 			["name"] = "Kobold Tunneler (41)",
+			["mobname"] = "Kobold Tunneler",
 			["ccdone"] = 1,
 			["damage"] = 275,
 			["last_action"] = 1697631479,
@@ -523,27 +523,27 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 33,
 									["amount"] = 208,
+									["overkill"] = 33,
 								},
 							},
-							["overkill"] = 33,
 							["amount"] = 208,
+							["overkill"] = 33,
 						},
 						[6572] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 114,
 									["amount"] = 161,
+									["overkill"] = 114,
 								},
 							},
-							["overkill"] = 114,
 							["amount"] = 161,
+							["overkill"] = 114,
 						},
 					},
-					["name"] = "Kobold Tunneler",
 					["totaldamage"] = 5,
+					["name"] = "Kobold Tunneler",
 					["totaldamagetaken"] = 369,
 					["id"] = "0xF1300001DB0FF1F7",
 					["damage"] = 5,
@@ -556,35 +556,14 @@ SkadaStorageDB = {
 			["last_time"] = 19699.133,
 			["players"] = {
 				{
-					["last"] = 19699.117,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[5242] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 9,
-						},
-						[58363] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 7.02,
-					["totaldamagetaken"] = 5,
-					["damage"] = 369,
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 66,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 33,
 									["amount"] = 208,
+									["overkill"] = 33,
 								},
 							},
 							["overkill"] = 33,
@@ -600,8 +579,8 @@ SkadaStorageDB = {
 							["id"] = 6572,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 114,
 									["amount"] = 161,
+									["overkill"] = 114,
 								},
 							},
 							["overkill"] = 114,
@@ -614,9 +593,29 @@ SkadaStorageDB = {
 							["hitamount"] = 161,
 						},
 					},
+					["last"] = 19699.117,
 					["damagetaken"] = 5,
-					["id"] = "0x07000000009D4914",
-					["spec"] = 73,
+					["totaldamage"] = 369,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["overkill"] = 147,
+					["auras"] = {
+						[5242] = {
+							["uptime"] = 9,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[58363] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+					},
+					["name"] = "Maciucaru",
+					["role"] = "TANK",
+					["time"] = 7.02,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 2,
@@ -635,17 +634,18 @@ SkadaStorageDB = {
 							["hitamount"] = 5,
 						},
 					},
-					["name"] = "Maciucaru",
-					["overkill"] = 147,
-					["totaldamage"] = 369,
+					["spec"] = 73,
+					["totaldamagetaken"] = 5,
+					["id"] = "0x07000000009D4914",
+					["damage"] = 369,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 5,
 			["damage"] = 369,
-			["etotaldamage"] = 5,
 			["overkill"] = 147,
 			["edamagetaken"] = 369,
+			["etotaldamage"] = 5,
 			["name"] = "Kobold Tunneler (40)",
 			["mobname"] = "Kobold Tunneler",
 			["starttime"] = 1697631295,
@@ -675,23 +675,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 51,
 									["amount"] = 171,
+									["overkill"] = 51,
 								},
 							},
-							["overkill"] = 51,
 							["amount"] = 171,
+							["overkill"] = 51,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 19,
 									["amount"] = 69,
+									["overkill"] = 19,
 								},
 							},
-							["overkill"] = 19,
 							["amount"] = 69,
+							["overkill"] = 19,
 						},
 					},
 					["totaldamage"] = 2,
@@ -718,10 +718,10 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 						[58363] = {
+							["uptime"] = 5,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 5,
 						},
 					},
 					["role"] = "TANK",
@@ -754,14 +754,16 @@ SkadaStorageDB = {
 						[23602] = 5,
 					},
 					["name"] = "Maciucaru",
+					["totaldamage"] = 240,
+					["overkill"] = 70,
 					["damagespells"] = {
 						["Revenge"] = {
 							["hitmin"] = 171,
 							["id"] = 6572,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 51,
 									["amount"] = 171,
+									["overkill"] = 51,
 								},
 							},
 							["overkill"] = 51,
@@ -778,8 +780,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 19,
 									["amount"] = 69,
+									["overkill"] = 19,
 								},
 							},
 							["overkill"] = 19,
@@ -791,8 +793,6 @@ SkadaStorageDB = {
 							["hitamount"] = 69,
 						},
 					},
-					["overkill"] = 70,
-					["totaldamage"] = 240,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -840,16 +840,16 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 290,
 									["amount"] = 310,
+									["overkill"] = 290,
 								},
 							},
-							["overkill"] = 290,
 							["amount"] = 310,
+							["overkill"] = 290,
 						},
 					},
-					["name"] = "Goldtooth",
 					["totaldamage"] = 6,
+					["name"] = "Goldtooth",
 					["totaldamagetaken"] = 378,
 					["id"] = "0xF1300001470FEF5B",
 					["damage"] = 6,
@@ -874,12 +874,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 1,
 									["amount"] = 138,
+									["overkill"] = 1,
 								},
 							},
-							["overkill"] = 1,
 							["amount"] = 138,
+							["overkill"] = 1,
 						},
 					},
 					["totaldamage"] = 4,
@@ -901,10 +901,10 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[58363] = {
+							["uptime"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 8,
 						},
 						[5242] = {
 							["type"] = "BUFF",
@@ -950,8 +950,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 1,
 									["amount"] = 138,
+									["overkill"] = 1,
 								},
 							},
 							["overkill"] = 1,
@@ -967,8 +967,8 @@ SkadaStorageDB = {
 							["id"] = 6572,
 							["targets"] = {
 								["Goldtooth"] = {
-									["overkill"] = 290,
 									["amount"] = 310,
+									["overkill"] = 290,
 								},
 							},
 							["overkill"] = 290,
@@ -976,9 +976,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 310,
 							["school"] = 1,
-							["criticalmin"] = 310,
-							["criticalmax"] = 310,
 							["count"] = 1,
+							["criticalmax"] = 310,
+							["criticalmin"] = 310,
 						},
 					},
 					["damagetaken"] = 10,
@@ -991,8 +991,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 6,
 							["id"] = 6603,
 							["criticalmin"] = 6,
+							["amount"] = 10,
+							["hitmax"] = 2,
 							["criticalmax"] = 6,
 							["critical"] = 1,
+							["hit"] = 2,
+							["school"] = 1,
+							["count"] = 4,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 4,
@@ -1001,11 +1006,6 @@ SkadaStorageDB = {
 									["amount"] = 6,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2,
-							["amount"] = 10,
 							["hitamount"] = 4,
 						},
 					},
@@ -1013,18 +1013,18 @@ SkadaStorageDB = {
 						[23602] = 5,
 					},
 					["name"] = "Maciucaru",
-					["rage"] = 5,
-					["overkill"] = 291,
 					["totaldamage"] = 516,
+					["overkill"] = 291,
+					["rage"] = 5,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 10,
 			["damage"] = 516,
 			["rage"] = 5,
-			["etotaldamage"] = 10,
 			["overkill"] = 291,
 			["edamagetaken"] = 516,
+			["etotaldamage"] = 10,
 			["name"] = "Goldtooth",
 			["mobname"] = "Goldtooth",
 			["starttime"] = 1697631175,
@@ -1054,16 +1054,16 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 37,
 									["amount"] = 135,
+									["overkill"] = 37,
 								},
 							},
-							["overkill"] = 37,
 							["amount"] = 135,
+							["overkill"] = 37,
 						},
 					},
-					["name"] = "Kobold Miner",
 					["totaldamage"] = 2,
+					["name"] = "Kobold Miner",
 					["totaldamagetaken"] = 135,
 					["id"] = "0xF1300000280FEE28",
 					["damage"] = 2,
@@ -1106,12 +1106,13 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 135,
 					["time"] = 3.89,
 					["totaldamagetaken"] = 2,
 					["damage"] = 135,
@@ -1121,8 +1122,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 37,
 									["amount"] = 135,
+									["overkill"] = 37,
 								},
 							},
 							["overkill"] = 37,
@@ -1156,20 +1157,19 @@ SkadaStorageDB = {
 					},
 					["name"] = "Maciucaru",
 					["ccdone"] = 1,
-					["overkill"] = 37,
-					["totaldamage"] = 135,
 					["role"] = "TANK",
+					["overkill"] = 37,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 2,
-			["mobname"] = "Kobold Miner",
 			["etotaldamage"] = 2,
+			["starttime"] = 1697631152,
 			["overkill"] = 37,
 			["edamagetaken"] = 135,
-			["starttime"] = 1697631152,
-			["name"] = "Kobold Miner (36)",
 			["ccdone"] = 1,
+			["name"] = "Kobold Miner (36)",
+			["mobname"] = "Kobold Miner",
 			["damage"] = 135,
 			["edamage"] = 2,
 			["last_action"] = 1697631157,
@@ -1178,12 +1178,12 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300001DB0FED57",
-					["name"] = "Kobold Tunneler",
-					["totaldamagetaken"] = 231,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Kobold Tunneler",
 					["damagetaken"] = 231,
+					["id"] = "0xF1300001DB0FED57",
+					["totaldamagetaken"] = 231,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -1198,12 +1198,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 111,
 									["amount"] = 171,
+									["overkill"] = 111,
 								},
 							},
-							["overkill"] = 111,
 							["amount"] = 171,
+							["overkill"] = 111,
 						},
 					},
 				}, -- [1]
@@ -1240,21 +1240,21 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 4,
 						},
 						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[5242] = {
@@ -1263,6 +1263,7 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 231,
 					["time"] = 3.16,
 					["totaldamagetaken"] = 0,
 					["damage"] = 231,
@@ -1287,8 +1288,8 @@ SkadaStorageDB = {
 							["id"] = 6572,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 111,
 									["amount"] = 171,
+									["overkill"] = 111,
 								},
 							},
 							["overkill"] = 111,
@@ -1324,22 +1325,21 @@ SkadaStorageDB = {
 					},
 					["name"] = "Maciucaru",
 					["ccdone"] = 1,
-					["overkill"] = 111,
-					["rage"] = 23,
-					["totaldamage"] = 231,
 					["role"] = "TANK",
+					["rage"] = 23,
+					["overkill"] = 111,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 0,
-			["mobname"] = "Kobold Tunneler",
 			["rage"] = 23,
 			["overkill"] = 111,
 			["edamagetaken"] = 231,
 			["starttime"] = 1697631092,
 			["name"] = "Kobold Tunneler (38)",
-			["ccdone"] = 1,
+			["mobname"] = "Kobold Tunneler",
 			["damage"] = 231,
+			["ccdone"] = 1,
 			["last_action"] = 1697631097,
 			["endtime"] = 1697631097,
 		}, -- [8]
@@ -1374,23 +1374,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 146,
 									["amount"] = 168,
+									["overkill"] = 146,
 								},
 							},
-							["overkill"] = 146,
 							["amount"] = 168,
+							["overkill"] = 146,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 40,
 									["amount"] = 127,
+									["overkill"] = 40,
 								},
 							},
-							["overkill"] = 40,
 							["amount"] = 127,
+							["overkill"] = 40,
 						},
 					},
 					["totaldamage"] = 3,
@@ -1417,23 +1417,41 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 					},
+					["totaldamage"] = 325,
 					["time"] = 6.060000000000001,
 					["totaldamagetaken"] = 3,
 					["damage"] = 325,
 					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 60,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 127,
+									["overkill"] = 40,
+								},
+							},
+							["overkill"] = 40,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 67,
+							["amount"] = 127,
+							["hitamount"] = 127,
+						},
 						["Revenge"] = {
 							["hitmin"] = 168,
 							["id"] = 6572,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 146,
 									["amount"] = 168,
+									["overkill"] = 146,
 								},
 							},
 							["overkill"] = 146,
@@ -1461,23 +1479,6 @@ SkadaStorageDB = {
 							["amount"] = 30,
 							["hitamount"] = 30,
 						},
-						["Melee"] = {
-							["hitmin"] = 60,
-							["id"] = 6603,
-							["targets"] = {
-								["Kobold Tunneler"] = {
-									["overkill"] = 40,
-									["amount"] = 127,
-								},
-							},
-							["overkill"] = 40,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 67,
-							["amount"] = 127,
-							["hitamount"] = 127,
-						},
 					},
 					["damagetaken"] = 3,
 					["id"] = "0x07000000009D4914",
@@ -1486,18 +1487,18 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["blocked"] = 2,
-							["BLOCK"] = 2,
+							["count"] = 5,
+							["amount"] = 3,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 3,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 3,
+							["BLOCK"] = 2,
+							["blocked"] = 2,
 							["school"] = 1,
 							["hitmax"] = 1,
-							["amount"] = 3,
+							["hit"] = 3,
 							["hitamount"] = 3,
 						},
 					},
@@ -1505,10 +1506,9 @@ SkadaStorageDB = {
 						[23602] = 5,
 					},
 					["name"] = "Maciucaru",
-					["rage"] = 5,
-					["overkill"] = 186,
-					["totaldamage"] = 325,
 					["role"] = "TANK",
+					["overkill"] = 186,
+					["rage"] = 5,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1547,23 +1547,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 137,
 									["amount"] = 202,
+									["overkill"] = 137,
 								},
 							},
-							["overkill"] = 137,
 							["amount"] = 202,
+							["overkill"] = 137,
 						},
 						[8198] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 17,
 									["amount"] = 140,
+									["overkill"] = 17,
 								},
 							},
-							["overkill"] = 17,
 							["amount"] = 140,
+							["overkill"] = 17,
 						},
 					},
 					["totaldamage"] = 8,
@@ -1580,9 +1580,54 @@ SkadaStorageDB = {
 			["last_time"] = 19400.203,
 			["players"] = {
 				{
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 64,
+							["criticalamount"] = 138,
+							["id"] = 6603,
+							["criticalmin"] = 138,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 202,
+									["overkill"] = 137,
+								},
+							},
+							["overkill"] = 137,
+							["amount"] = 202,
+							["criticalmax"] = 138,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 64,
+							["count"] = 2,
+							["hitamount"] = 64,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 67,
+							["id"] = 8198,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 140,
+									["overkill"] = 17,
+								},
+							},
+							["overkill"] = 17,
+							["hit"] = 2,
+							["casts"] = 1,
+							["count"] = 2,
+							["blocked"] = 3,
+							["school"] = 1,
+							["amount"] = 140,
+							["hitmax"] = 73,
+							["hitamount"] = 140,
+						},
+					},
 					["last"] = 19399.453,
+					["damagetaken"] = 8,
+					["role"] = "TANK",
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
+					["name"] = "Maciucaru",
 					["auras"] = {
 						[5242] = {
 							["type"] = "BUFF",
@@ -1602,54 +1647,9 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 					},
+					["overkill"] = 154,
+					["totaldamage"] = 342,
 					["time"] = 5.1,
-					["totaldamagetaken"] = 8,
-					["damage"] = 342,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 64,
-							["criticalamount"] = 138,
-							["id"] = 6603,
-							["criticalmin"] = 138,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 137,
-									["amount"] = 202,
-								},
-							},
-							["overkill"] = 137,
-							["critical"] = 1,
-							["criticalmax"] = 138,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 64,
-							["amount"] = 202,
-							["hitamount"] = 64,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 67,
-							["id"] = 8198,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 17,
-									["amount"] = 140,
-								},
-							},
-							["overkill"] = 17,
-							["blocked"] = 3,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 73,
-							["amount"] = 140,
-							["hitamount"] = 140,
-						},
-					},
-					["damagetaken"] = 8,
-					["id"] = "0x07000000009D4914",
-					["spec"] = 73,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 1,
@@ -1667,10 +1667,10 @@ SkadaStorageDB = {
 							["hitamount"] = 8,
 						},
 					},
-					["name"] = "Maciucaru",
-					["overkill"] = 154,
-					["totaldamage"] = 342,
-					["role"] = "TANK",
+					["spec"] = 73,
+					["totaldamagetaken"] = 8,
+					["id"] = "0x07000000009D4914",
+					["damage"] = 342,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1708,27 +1708,27 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 38,
 									["amount"] = 237,
+									["overkill"] = 38,
 								},
 							},
-							["overkill"] = 38,
 							["amount"] = 237,
+							["overkill"] = 38,
 						},
 						[8198] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 105,
 									["amount"] = 146,
+									["overkill"] = 105,
 								},
 							},
-							["overkill"] = 105,
 							["amount"] = 146,
+							["overkill"] = 105,
 						},
 					},
-					["name"] = "Kobold Tunneler",
 					["totaldamage"] = 6,
+					["name"] = "Kobold Tunneler",
 					["totaldamagetaken"] = 383,
 					["id"] = "0xF1300001DB0FE9A0",
 					["damage"] = 6,
@@ -1776,12 +1776,13 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 					},
+					["totaldamage"] = 383,
 					["time"] = 6.67,
 					["totaldamagetaken"] = 6,
 					["damage"] = 383,
@@ -1791,8 +1792,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 38,
 									["amount"] = 237,
+									["overkill"] = 38,
 								},
 							},
 							["overkill"] = 38,
@@ -1808,8 +1809,8 @@ SkadaStorageDB = {
 							["id"] = 8198,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 105,
 									["amount"] = 146,
+									["overkill"] = 105,
 								},
 							},
 							["overkill"] = 105,
@@ -1817,9 +1818,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 146,
 							["school"] = 1,
-							["criticalmin"] = 146,
-							["criticalmax"] = 146,
 							["count"] = 1,
+							["criticalmax"] = 146,
+							["criticalmin"] = 146,
 						},
 					},
 					["damagetaken"] = 6,
@@ -1829,14 +1830,14 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 2,
 							["id"] = 6603,
-							["amount"] = 6,
+							["hit"] = 3,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 6,
 								},
 							},
 							["count"] = 4,
-							["hit"] = 3,
+							["amount"] = 6,
 							["school"] = 1,
 							["hitmax"] = 2,
 							["MISS"] = 1,
@@ -1845,20 +1846,19 @@ SkadaStorageDB = {
 					},
 					["name"] = "Maciucaru",
 					["ccdone"] = 1,
-					["overkill"] = 143,
-					["totaldamage"] = 383,
 					["role"] = "TANK",
+					["overkill"] = 143,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 6,
-			["mobname"] = "Kobold Tunneler",
 			["etotaldamage"] = 6,
+			["starttime"] = 1697630988,
 			["overkill"] = 143,
 			["edamagetaken"] = 383,
-			["starttime"] = 1697630988,
-			["name"] = "Kobold Tunneler (36)",
 			["ccdone"] = 1,
+			["name"] = "Kobold Tunneler (36)",
+			["mobname"] = "Kobold Tunneler",
 			["damage"] = 383,
 			["edamage"] = 6,
 			["last_action"] = 1697630995,
@@ -1895,12 +1895,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 36,
 									["amount"] = 68,
+									["overkill"] = 36,
 								},
 							},
-							["overkill"] = 36,
 							["amount"] = 68,
+							["overkill"] = 36,
 						},
 					},
 					["totaldamage"] = 3,
@@ -1910,12 +1910,12 @@ SkadaStorageDB = {
 					["damage"] = 3,
 				}, -- [1]
 				{
-					["id"] = "0xF1300000280FE98A",
-					["name"] = "Kobold Miner",
-					["totaldamagetaken"] = 137,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Kobold Miner",
 					["damagetaken"] = 137,
+					["id"] = "0xF1300000280FE98A",
+					["totaldamagetaken"] = 137,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -1945,37 +1945,6 @@ SkadaStorageDB = {
 			["last_time"] = 19380.003,
 			["players"] = {
 				{
-					["last"] = 19379.803,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[2565] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[5242] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[8198] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Goldtooth"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["time"] = 4.87,
-					["totaldamagetaken"] = 3,
-					["damage"] = 273,
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 67,
@@ -1985,8 +1954,8 @@ SkadaStorageDB = {
 									["amount"] = 67,
 								},
 								["Goldtooth"] = {
-									["overkill"] = 36,
 									["amount"] = 68,
+									["overkill"] = 36,
 								},
 							},
 							["overkill"] = 36,
@@ -2017,14 +1986,45 @@ SkadaStorageDB = {
 							["hitamount"] = 138,
 						},
 					},
+					["last"] = 19379.803,
 					["damagetaken"] = 3,
-					["id"] = "0x07000000009D4914",
-					["spec"] = 73,
+					["role"] = "TANK",
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["name"] = "Maciucaru",
+					["auras"] = {
+						[2565] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[5242] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[8198] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Goldtooth"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["overkill"] = 36,
+					["totaldamage"] = 273,
+					["time"] = 4.87,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 3,
 							["id"] = 6603,
-							["hitmax"] = 3,
+							["count"] = 2,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 0,
@@ -2033,7 +2033,7 @@ SkadaStorageDB = {
 									["amount"] = 3,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 3,
 							["hit"] = 1,
 							["school"] = 1,
 							["amount"] = 3,
@@ -2041,10 +2041,10 @@ SkadaStorageDB = {
 							["hitamount"] = 3,
 						},
 					},
-					["name"] = "Maciucaru",
-					["overkill"] = 36,
-					["totaldamage"] = 273,
-					["role"] = "TANK",
+					["spec"] = 73,
+					["totaldamagetaken"] = 3,
+					["id"] = "0x07000000009D4914",
+					["damage"] = 273,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2082,12 +2082,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 62,
 									["amount"] = 129,
+									["overkill"] = 62,
 								},
 							},
-							["overkill"] = 62,
 							["amount"] = 129,
+							["overkill"] = 62,
 						},
 					},
 					["totaldamage"] = 5,
@@ -2104,33 +2104,14 @@ SkadaStorageDB = {
 			["last_time"] = 19367.078,
 			["players"] = {
 				{
-					["last"] = 19366.82,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[5242] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-					},
-					["time"] = 4.699999999999999,
-					["totaldamagetaken"] = 5,
-					["damage"] = 129,
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 59,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Miner"] = {
-									["overkill"] = 62,
 									["amount"] = 129,
+									["overkill"] = 62,
 								},
 							},
 							["overkill"] = 62,
@@ -2142,9 +2123,28 @@ SkadaStorageDB = {
 							["hitamount"] = 129,
 						},
 					},
+					["last"] = 19366.82,
 					["damagetaken"] = 5,
-					["id"] = "0x07000000009D4914",
-					["spec"] = 73,
+					["role"] = "TANK",
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["name"] = "Maciucaru",
+					["auras"] = {
+						[5242] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[71] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+					},
+					["overkill"] = 62,
+					["totaldamage"] = 129,
+					["time"] = 4.699999999999999,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
@@ -2162,10 +2162,10 @@ SkadaStorageDB = {
 							["hitamount"] = 5,
 						},
 					},
-					["name"] = "Maciucaru",
-					["overkill"] = 62,
-					["totaldamage"] = 129,
-					["role"] = "TANK",
+					["spec"] = 73,
+					["totaldamagetaken"] = 5,
+					["id"] = "0x07000000009D4914",
+					["damage"] = 129,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2203,23 +2203,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 24,
 									["amount"] = 149,
+									["overkill"] = 24,
 								},
 							},
-							["overkill"] = 24,
 							["amount"] = 149,
+							["overkill"] = 24,
 						},
 						[8198] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 60,
 									["amount"] = 219,
+									["overkill"] = 60,
 								},
 							},
-							["overkill"] = 60,
 							["amount"] = 219,
+							["overkill"] = 60,
 						},
 					},
 					["totaldamage"] = 4,
@@ -2258,6 +2258,7 @@ SkadaStorageDB = {
 							["uptime"] = 2,
 						},
 					},
+					["totaldamage"] = 368,
 					["time"] = 5.720000000000001,
 					["totaldamagetaken"] = 4,
 					["damage"] = 368,
@@ -2269,15 +2270,15 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["amount"] = 4,
 							["sources"] = {
 								["Kobold Tunneler"] = {
 									["amount"] = 4,
 								},
 							},
-							["count"] = 5,
 							["hit"] = 3,
+							["PARRY"] = 1,
+							["count"] = 5,
+							["amount"] = 4,
 							["school"] = 1,
 							["hitmax"] = 2,
 							["MISS"] = 1,
@@ -2288,15 +2289,15 @@ SkadaStorageDB = {
 						[23602] = 5,
 					},
 					["name"] = "Maciucaru",
-					["overkill"] = 84,
+					["role"] = "TANK",
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 71,
 							["id"] = 6603,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 24,
 									["amount"] = 149,
+									["overkill"] = 24,
 								},
 							},
 							["overkill"] = 24,
@@ -2312,8 +2313,8 @@ SkadaStorageDB = {
 							["id"] = 8198,
 							["targets"] = {
 								["Kobold Tunneler"] = {
-									["overkill"] = 60,
 									["amount"] = 219,
+									["overkill"] = 60,
 								},
 							},
 							["overkill"] = 60,
@@ -2326,8 +2327,7 @@ SkadaStorageDB = {
 							["hitamount"] = 219,
 						},
 					},
-					["totaldamage"] = 368,
-					["role"] = "TANK",
+					["overkill"] = 84,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2375,12 +2375,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 27,
 									["amount"] = 70,
+									["overkill"] = 27,
 								},
 							},
-							["overkill"] = 27,
 							["amount"] = 70,
+							["overkill"] = 27,
 						},
 					},
 					["totaldamage"] = 1,
@@ -2409,12 +2409,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 14,
 									["amount"] = 42,
+									["overkill"] = 14,
 								},
 							},
-							["overkill"] = 14,
 							["amount"] = 42,
+							["overkill"] = 14,
+						},
+						[8198] = {
+							["school"] = 1,
+							["sources"] = {
+								["Maciucaru"] = {
+									["amount"] = 140,
+									["overkill"] = 46,
+								},
+							},
+							["amount"] = 140,
+							["overkill"] = 46,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -2425,17 +2436,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 68,
 						},
-						[8198] = {
-							["school"] = 1,
-							["sources"] = {
-								["Maciucaru"] = {
-									["overkill"] = 46,
-									["amount"] = 140,
-								},
-							},
-							["overkill"] = 46,
-							["amount"] = 140,
-						},
 					},
 					["totaldamage"] = 8,
 					["name"] = "Kobold Miner",
@@ -2444,12 +2444,12 @@ SkadaStorageDB = {
 					["damage"] = 8,
 				}, -- [2]
 				{
-					["id"] = "0xF13000004F0FC7DD",
-					["name"] = "Narg the Taskmaster",
-					["totaldamagetaken"] = 364,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Narg the Taskmaster",
 					["damagetaken"] = 364,
+					["id"] = "0xF13000004F0FC7DD",
+					["totaldamagetaken"] = 364,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[9782] = {
 							["school"] = 1,
@@ -2460,16 +2460,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 24,
 						},
-						[8198] = {
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["overkill"] = 106,
-									["amount"] = 124,
+									["amount"] = 67,
 								},
 							},
-							["overkill"] = 106,
-							["amount"] = 124,
+							["amount"] = 67,
 						},
 						[6572] = {
 							["school"] = 1,
@@ -2480,14 +2478,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 149,
 						},
-						[6603] = {
+						[8198] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucaru"] = {
-									["amount"] = 67,
+									["amount"] = 124,
+									["overkill"] = 106,
 								},
 							},
-							["amount"] = 67,
+							["amount"] = 124,
+							["overkill"] = 106,
 						},
 					},
 				}, -- [3]
@@ -2520,23 +2520,76 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[58363] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
 						[2565] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
+						[58363] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
 					},
+					["totaldamage"] = 761,
 					["time"] = 9.919999999999998,
 					["totaldamagetaken"] = 9,
 					["damage"] = 761,
 					["damagespells"] = {
+						["Mithril Shield Spike"] = {
+							["hitmin"] = 12,
+							["id"] = 9782,
+							["targets"] = {
+								["Narg the Taskmaster"] = {
+									["amount"] = 24,
+								},
+								["Kobold Miner"] = {
+									["amount"] = 42,
+									["overkill"] = 14,
+								},
+							},
+							["overkill"] = 14,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 14,
+							["amount"] = 66,
+							["hitamount"] = 66,
+						},
+						["Thunder Clap"] = {
+							["criticalamount"] = 124,
+							["amount"] = 334,
+							["hitmin"] = 70,
+							["criticalmin"] = 124,
+							["id"] = 8198,
+							["hitmax"] = 70,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 140,
+									["overkill"] = 46,
+								},
+								["Narg the Taskmaster"] = {
+									["amount"] = 124,
+									["overkill"] = 106,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 70,
+									["overkill"] = 27,
+								},
+							},
+							["overkill"] = 179,
+							["hit"] = 3,
+							["criticalmax"] = 124,
+							["critical"] = 1,
+							["blocked"] = 6,
+							["school"] = 1,
+							["count"] = 4,
+							["casts"] = 2,
+							["hitamount"] = 210,
+						},
 						["Revenge"] = {
 							["hitmin"] = 149,
 							["id"] = 6572,
@@ -2552,37 +2605,6 @@ SkadaStorageDB = {
 							["hitmax"] = 149,
 							["amount"] = 149,
 							["hitamount"] = 149,
-						},
-						["Thunder Clap"] = {
-							["criticalmin"] = 124,
-							["criticalmax"] = 124,
-							["hitmin"] = 70,
-							["criticalamount"] = 124,
-							["id"] = 8198,
-							["critical"] = 1,
-							["targets"] = {
-								["Kobold Miner"] = {
-									["overkill"] = 46,
-									["amount"] = 140,
-								},
-								["Narg the Taskmaster"] = {
-									["overkill"] = 106,
-									["amount"] = 124,
-								},
-								["Kobold Tunneler"] = {
-									["overkill"] = 27,
-									["amount"] = 70,
-								},
-							},
-							["overkill"] = 179,
-							["blocked"] = 6,
-							["casts"] = 2,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 70,
-							["amount"] = 334,
-							["hitamount"] = 210,
 						},
 						["Melee"] = {
 							["hitmin"] = 67,
@@ -2605,27 +2627,6 @@ SkadaStorageDB = {
 							["amount"] = 212,
 							["hitamount"] = 212,
 						},
-						["Mithril Shield Spike"] = {
-							["hitmin"] = 12,
-							["id"] = 9782,
-							["targets"] = {
-								["Narg the Taskmaster"] = {
-									["amount"] = 24,
-								},
-								["Kobold Miner"] = {
-									["overkill"] = 14,
-									["amount"] = 42,
-								},
-							},
-							["overkill"] = 14,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 14,
-							["amount"] = 66,
-							["hitamount"] = 66,
-						},
 					},
 					["damagetaken"] = 9,
 					["id"] = "0x07000000009D4914",
@@ -2635,8 +2636,8 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 1,
 							["id"] = 6603,
-							["blocked"] = 14,
-							["BLOCK"] = 5,
+							["count"] = 10,
+							["amount"] = 9,
 							["sources"] = {
 								["Kobold Miner"] = {
 									["amount"] = 8,
@@ -2648,11 +2649,11 @@ SkadaStorageDB = {
 									["amount"] = 1,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 4,
+							["BLOCK"] = 5,
+							["blocked"] = 14,
 							["school"] = 1,
 							["hitmax"] = 3,
-							["amount"] = 9,
+							["hit"] = 4,
 							["hitamount"] = 9,
 						},
 					},
@@ -2660,10 +2661,9 @@ SkadaStorageDB = {
 						[23602] = 30,
 					},
 					["name"] = "Maciucaru",
-					["rage"] = 30,
-					["overkill"] = 193,
-					["totaldamage"] = 761,
 					["role"] = "TANK",
+					["overkill"] = 193,
+					["rage"] = 30,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -2697,9 +2697,6 @@ SkadaStorageDB = {
 		["heal"] = 725,
 		["potion"] = 1,
 		["ccdone"] = 32,
-		["name"] = "Total",
-		["rage"] = 648,
-		["starttime"] = 1697577874,
 		["players"] = {
 			{
 				["flag"] = 1297,
@@ -2717,27 +2714,30 @@ SkadaStorageDB = {
 				["overkill"] = 31285,
 				["name"] = "Maciucaru",
 				["ccdone"] = 26,
-				["interrupt"] = 1,
 				["totaldamage"] = 66815,
+				["interrupt"] = 1,
 			}, -- [1]
 			{
-				["flag"] = 66888,
-				["class"] = "PRIEST",
-				["friendfire"] = 2010,
-				["role"] = "DAMAGER",
-				["time"] = 145.61,
-				["cctaken"] = 5,
-				["totaldamagetaken"] = 3703,
 				["overheal"] = 70,
 				["absorb"] = 1305,
 				["damagetaken"] = 2356,
-				["id"] = "0x07000000009761FC",
-				["spec"] = 258,
+				["potion"] = 1,
+				["flag"] = 66888,
+				["class"] = "PRIEST",
 				["heal"] = 725,
 				["name"] = "Nohir",
+				["friendfire"] = 2010,
+				["role"] = "DAMAGER",
+				["time"] = 145.61,
 				["ccdone"] = 6,
-				["potion"] = 1,
+				["cctaken"] = 5,
+				["totaldamagetaken"] = 3703,
+				["spec"] = 258,
+				["id"] = "0x07000000009761FC",
 			}, -- [2]
 		},
+		["starttime"] = 1697577874,
+		["rage"] = 648,
+		["name"] = "Total",
 	},
 }

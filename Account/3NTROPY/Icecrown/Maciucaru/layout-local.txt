@@ -7,7 +7,7 @@ Y: 187
 W: 232
 H: 100
 Frame: LootFrame
-FrameLevel: 15
+FrameLevel: 14
 Anchor: LEFT
 X: 23
 Y: 11
@@ -64,8 +64,8 @@ W: 640
 H: 512
 Frame: BagnonFrameinventory
 FrameLevel: 1
-Anchor: BOTTOMRIGHT
-X: -91
-Y: 140
+Anchor: RIGHT
+X: -123
+Y: -47
 W: 586
-H: 263
+H: 304
