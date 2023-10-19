@@ -4,7 +4,7 @@ BagnonFrameSettings = {
 		["inventory"] = {
 			["point"] = "TOPRIGHT",
 			["itemFrameColumns"] = 14,
-			["y"] = -271.5346571142459,
+			["y"] = -271.5346921285126,
 			["x"] = -135.9734225303539,
 		},
 		["keys"] = {
