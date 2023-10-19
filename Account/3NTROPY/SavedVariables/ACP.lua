@@ -1,12 +1,9 @@
 
 ACP_Data = {
-	["sorter"] = "Group By Name",
+	["sorter"] = "Titles",
 	["NoRecurse"] = false,
 	["NoChildren"] = true,
 	["collapsed"] = {
-		["Libraries"] = true,
-		["Blizzard Addons"] = true,
-		["DBM"] = true,
 	},
 	["ProtectedAddons"] = {
 		["ACP"] = true,
