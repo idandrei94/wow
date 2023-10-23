@@ -4,10 +4,10 @@ SkadaStorageDB = {
 	},
 	["version"] = 1878,
 	["total"] = {
-		["starttime"] = 1697745261,
-		["name"] = "Total",
 		["players"] = {
 		},
+		["name"] = "Total",
+		["starttime"] = 1697745261,
 		["time"] = 0,
 	},
 }
