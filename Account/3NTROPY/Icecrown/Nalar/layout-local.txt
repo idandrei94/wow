@@ -30,8 +30,8 @@ H: 64
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
-X: -45
-Y: -152
+X: -41
+Y: -150
 W: 32
 H: 32
 Frame: MageNugSP_Frame

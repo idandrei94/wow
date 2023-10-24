@@ -1,43 +1,38 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["mana"] = 9712,
-		["totaldamage"] = 484844,
-		["time"] = 37,
-		["totaldamagetaken"] = 17145,
-		["damage"] = 484844,
 		["players"] = {
 			{
-				["flag"] = 1297,
-				["class"] = "PRIEST",
-				["time"] = 35.51,
-				["totaldamagetaken"] = 4903,
-				["damage"] = 187667,
 				["overheal"] = 92511,
 				["absorb"] = 4903,
 				["damagetaken"] = 0,
-				["id"] = "0x070000000027C8A1",
-				["spec"] = 258,
-				["overkill"] = 16356,
-				["heal"] = 4993,
-				["name"] = "Nalar",
-				["mana"] = 9522,
-				["totaldamage"] = 187667,
 				["role"] = "DAMAGER",
+				["flag"] = 1297,
+				["class"] = "PRIEST",
+				["totaldamage"] = 187667,
+				["overkill"] = 16356,
+				["mana"] = 9522,
+				["heal"] = 4993,
+				["time"] = 35.51,
+				["name"] = "Nalar",
+				["spec"] = 258,
+				["totaldamagetaken"] = 4903,
+				["id"] = "0x070000000027C8A1",
+				["damage"] = 187667,
 			}, -- [1]
 			{
 				["overheal"] = 6749,
 				["damagetaken"] = 6952,
 				["id"] = "0x0700000000120FE5",
 				["class"] = "DEATHKNIGHT",
-				["totaldamage"] = 148255,
 				["flag"] = 1298,
-				["heal"] = 1583,
-				["role"] = "DAMAGER",
+				["spec"] = 251,
+				["totaldamage"] = 148255,
 				["time"] = 33.7,
+				["role"] = "DAMAGER",
 				["name"] = "Morkian",
 				["totaldamagetaken"] = 6952,
-				["spec"] = 251,
+				["heal"] = 1583,
 				["damage"] = 148255,
 			}, -- [2]
 			{
@@ -45,60 +40,64 @@ SkadaStorageDB = {
 				["damagetaken"] = 1778,
 				["id"] = "0x07000000008810F3",
 				["class"] = "SHAMAN",
-				["name"] = "Franske",
 				["role"] = "HEALER",
-				["time"] = 3.5,
-				["heal"] = 3724,
-				["totaldamagetaken"] = 1778,
-				["spec"] = 264,
+				["name"] = "Franske",
 				["flag"] = 4370,
+				["spec"] = 264,
+				["totaldamagetaken"] = 1778,
+				["heal"] = 3724,
+				["time"] = 3.5,
 			}, -- [3]
 			{
 				["overheal"] = 4922,
 				["damagetaken"] = 1176,
 				["id"] = "0x07000000003CE5DB",
 				["class"] = "DEATHKNIGHT",
-				["name"] = "Spreader",
-				["totaldamage"] = 70632,
 				["flag"] = 1298,
-				["role"] = "TANK",
+				["spec"] = 252,
+				["totaldamage"] = 70632,
+				["name"] = "Spreader",
 				["time"] = 17.41,
 				["heal"] = 279,
 				["totaldamagetaken"] = 1176,
-				["spec"] = 252,
+				["role"] = "TANK",
 				["damage"] = 70632,
 			}, -- [4]
 			{
-				["flag"] = 1298,
-				["mana"] = 190,
-				["time"] = 25.4,
-				["totaldamagetaken"] = 2336,
-				["damage"] = 78290,
 				["overheal"] = 30807,
 				["damagetaken"] = 2336,
-				["id"] = "0x07000000008A64A1",
-				["spec"] = 258,
-				["overkill"] = 1047,
-				["heal"] = 815,
-				["name"] = "Babacloantza",
-				["totaldamage"] = 78290,
-				["class"] = "PRIEST",
 				["role"] = "DAMAGER",
+				["flag"] = 1298,
+				["mana"] = 190,
+				["class"] = "PRIEST",
+				["overkill"] = 1047,
+				["totaldamage"] = 78290,
+				["heal"] = 815,
+				["time"] = 25.4,
+				["name"] = "Babacloantza",
+				["spec"] = 258,
+				["totaldamagetaken"] = 2336,
+				["id"] = "0x07000000008A64A1",
+				["damage"] = 78290,
 			}, -- [5]
 		},
 		["absorb"] = 4903,
 		["damagetaken"] = 12242,
-		["overheal"] = 190104,
+		["mana"] = 9712,
 		["starttime"] = 1697730991,
 		["overkill"] = 17403,
-		["heal"] = 11394,
 		["name"] = "Total",
+		["totaldamage"] = 484844,
+		["time"] = 37,
+		["heal"] = 11394,
+		["totaldamagetaken"] = 17145,
+		["overheal"] = 190104,
+		["damage"] = 484844,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
 			["mana"] = 9712,
-			["damage"] = 466542,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -119,8 +118,8 @@ SkadaStorageDB = {
 									["amount"] = 1176,
 								},
 								["Nalar"] = {
-									["total"] = 2113,
 									["amount"] = 0,
+									["total"] = 2113,
 								},
 								["Morkian"] = {
 									["amount"] = 513,
@@ -266,24 +265,24 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Nalar"] = {
-									["overkill"] = 3481,
 									["amount"] = 21656,
+									["overkill"] = 3481,
 								},
 								["Babacloantza"] = {
 									["amount"] = 10412,
 								},
 							},
-							["overkill"] = 3481,
 							["amount"] = 32068,
+							["overkill"] = 3481,
 						},
-						[51425] = {
-							["school"] = 1,
+						[50401] = {
+							["school"] = 16,
 							["sources"] = {
 								["Morkian"] = {
-									["amount"] = 8092,
+									["amount"] = 278,
 								},
 							},
-							["amount"] = 8092,
+							["amount"] = 278,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -309,19 +308,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 23776,
 						},
-						[58381] = {
+						[63675] = {
 							["school"] = 32,
 							["sources"] = {
 								["Nalar"] = {
-									["amount"] = 50529,
+									["amount"] = 7343,
 								},
 								["Babacloantza"] = {
-									["overkill"] = 1047,
-									["amount"] = 21944,
+									["amount"] = 18530,
 								},
 							},
-							["overkill"] = 1047,
-							["amount"] = 72473,
+							["amount"] = 25873,
 						},
 						[47468] = {
 							["school"] = 1,
@@ -332,17 +329,19 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3061,
 						},
-						[55095] = {
-							["school"] = 16,
+						[58381] = {
+							["school"] = 32,
 							["sources"] = {
-								["Spreader"] = {
-									["amount"] = 2232,
+								["Nalar"] = {
+									["amount"] = 50529,
 								},
-								["Morkian"] = {
-									["amount"] = 3434,
+								["Babacloantza"] = {
+									["amount"] = 21944,
+									["overkill"] = 1047,
 								},
 							},
-							["amount"] = 5666,
+							["amount"] = 72473,
+							["overkill"] = 1047,
 						},
 						[49930] = {
 							["school"] = 1,
@@ -401,52 +400,52 @@ SkadaStorageDB = {
 							},
 							["amount"] = 19490,
 						},
-						[63675] = {
-							["school"] = 32,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 7343,
+								["Spreader"] = {
+									["amount"] = 2232,
 								},
-								["Babacloantza"] = {
-									["amount"] = 18530,
+								["Morkian"] = {
+									["amount"] = 3434,
 								},
 							},
-							["amount"] = 25873,
+							["amount"] = 5666,
 						},
 						[48158] = {
 							["school"] = 32,
 							["sources"] = {
 								["Nalar"] = {
-									["overkill"] = 2086,
 									["amount"] = 5210,
+									["overkill"] = 2086,
 								},
 							},
-							["overkill"] = 2086,
 							["amount"] = 5210,
+							["overkill"] = 2086,
 						},
-						[50401] = {
-							["school"] = 16,
+						[51425] = {
+							["school"] = 1,
 							["sources"] = {
 								["Morkian"] = {
-									["amount"] = 278,
+									["amount"] = 8092,
 								},
 							},
-							["amount"] = 278,
+							["amount"] = 8092,
 						},
 					},
-					["name"] = "Headless Horseman",
 					["totaldamage"] = 14355,
+					["name"] = "Headless Horseman",
 					["totaldamagetaken"] = 383864,
 					["id"] = "0xF130005C8200008A",
 					["damage"] = 12242,
 				}, -- [1]
 				{
-					["id"] = "0xF130005CDF000091",
-					["name"] = "Head of the Horseman",
-					["totaldamagetaken"] = 82678,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Head of the Horseman",
 					["damagetaken"] = 82678,
+					["id"] = "0xF130005CDF000091",
+					["totaldamagetaken"] = 82678,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[55078] = {
 							["school"] = 32,
@@ -511,14 +510,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 625,
 						},
-						[66992] = {
-							["school"] = 1,
+						[58381] = {
+							["school"] = 32,
 							["sources"] = {
-								["Morkian"] = {
-									["amount"] = 2401,
+								["Nalar"] = {
+									["amount"] = 37733,
+									["overkill"] = 4559,
 								},
 							},
-							["amount"] = 2401,
+							["amount"] = 37733,
+							["overkill"] = 4559,
 						},
 						[49909] = {
 							["school"] = 16,
@@ -547,26 +548,24 @@ SkadaStorageDB = {
 							},
 							["amount"] = 532,
 						},
-						[58381] = {
-							["school"] = 32,
+						[66992] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["overkill"] = 4559,
-									["amount"] = 37733,
+								["Morkian"] = {
+									["amount"] = 2401,
 								},
 							},
-							["overkill"] = 4559,
-							["amount"] = 37733,
+							["amount"] = 2401,
 						},
 					},
 				}, -- [2]
 			},
 			["totaldamage"] = 466542,
 			["time"] = 37,
-			["absorb"] = 4903,
+			["last_time"] = 31402.209,
 			["totaldamagetaken"] = 17145,
 			["etotaldamagetaken"] = 466542,
-			["last_time"] = 31402.209,
+			["damage"] = 466542,
 			["players"] = {
 				{
 					["last"] = 31401.318,
@@ -574,9 +573,9 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 32,
 						},
 						[15473] = {
@@ -585,12 +584,12 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
-						[2895] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
@@ -600,11 +599,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[59000] = {
+						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 6,
+							["uptime"] = 10,
 						},
 						[55610] = {
 							["type"] = "BUFF",
@@ -617,44 +616,44 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["refresh"] = 5,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["count"] = 3,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
 								["Headless Horseman"] = {
-									["count"] = 5,
 									["refresh"] = 4,
+									["count"] = 5,
 									["uptime"] = 22,
+								},
+								["Head of the Horseman"] = {
+									["refresh"] = 1,
+									["count"] = 3,
+									["uptime"] = 9,
 								},
 							},
 							["uptime"] = 24,
 						},
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[6788] = {
+						[48160] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
+							["count"] = 3,
+							["school"] = 32,
 							["targets"] = {
-								["Nalar"] = {
-									["uptime"] = 15,
-									["count"] = 1,
+								["Headless Horseman"] = {
+									["uptime"] = 30,
+									["count"] = 3,
 								},
 							},
-							["uptime"] = 15,
+							["uptime"] = 30,
 						},
-						[32409] = {
+						[15286] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[15258] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 32,
-							["uptime"] = 1,
+							["refresh"] = 27,
+							["uptime"] = 37,
 						},
-						[28878] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
@@ -671,33 +670,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 25,
 						},
-						[58655] = {
+						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
-						},
-						[61792] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 9,
-							["uptime"] = 30,
-						},
-						[48156] = {
-							["type"] = "BUFF",
-							["count"] = 18,
-							["school"] = 32,
-							["targets"] = {
-								["Head of the Horseman"] = {
-									["uptime"] = 7,
-									["count"] = 4,
-								},
-								["Headless Horseman"] = {
-									["uptime"] = 6,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 13,
 						},
 						[48125] = {
 							["type"] = "DEBUFF",
@@ -706,71 +682,94 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["count"] = 1,
 									["refresh"] = 5,
+									["count"] = 1,
 									["uptime"] = 33,
 								},
 							},
 							["uptime"] = 33,
-						},
-						[63619] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 64,
-							["uptime"] = 31,
-						},
-						[67016] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
 						},
 						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[75473] = {
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[59000] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[63619] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 31,
+						},
+						[61792] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
+							["refresh"] = 9,
+							["uptime"] = 30,
+						},
+						[75473] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[32409] = {
 							["school"] = 32,
-							["refresh"] = 27,
-							["uptime"] = 37,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
 						},
-						[15286] = {
+						[58655] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[48160] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
+						[48156] = {
+							["type"] = "BUFF",
+							["count"] = 18,
 							["school"] = 32,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["uptime"] = 30,
-									["count"] = 3,
+									["uptime"] = 6,
+									["count"] = 5,
+								},
+								["Head of the Horseman"] = {
+									["uptime"] = 7,
+									["count"] = 4,
 								},
 							},
-							["uptime"] = 30,
+							["uptime"] = 13,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Nalar"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 15,
 						},
 						[15271] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 2,
 						},
-						[72221] = {
+						[2895] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
@@ -789,11 +788,9 @@ SkadaStorageDB = {
 							["max"] = 2790,
 						},
 					},
+					["totaldamage"] = 169365,
 					["time"] = 35.17,
 					["totaldamagetaken"] = 4903,
-					["manaspells"] = {
-						[34650] = 9522,
-					},
 					["damage"] = 169365,
 					["damagespells"] = {
 						["Vampiric Touch (DoT)"] = {
@@ -806,13 +803,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 5757,
-							["critical"] = 2,
+							["amount"] = 23221,
 							["criticalmax"] = 6820,
-							["count"] = 6,
+							["critical"] = 2,
 							["hit"] = 4,
 							["school"] = 32,
 							["hitmax"] = 2754,
-							["amount"] = 23221,
+							["count"] = 6,
 							["hitamount"] = 10644,
 						},
 						["Melee (Shadowfiend)"] = {
@@ -848,29 +845,29 @@ SkadaStorageDB = {
 							["hitamount"] = 7343,
 						},
 						["Mind Flay"] = {
-							["criticalmax"] = 7511,
-							["criticalmin"] = 4693,
-							["hitmin"] = 2106,
 							["criticalamount"] = 60053,
+							["amount"] = 88262,
+							["hitmin"] = 2106,
+							["criticalmin"] = 4693,
 							["id"] = 58381,
 							["IMMUNE"] = 4,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["overkill"] = 4559,
-									["amount"] = 37733,
-								},
 								["Headless Horseman"] = {
 									["amount"] = 50529,
 								},
+								["Head of the Horseman"] = {
+									["amount"] = 37733,
+									["overkill"] = 4559,
+								},
 							},
 							["overkill"] = 4559,
+							["hitmax"] = 2746,
+							["criticalmax"] = 7511,
 							["critical"] = 10,
-							["casts"] = 9,
-							["count"] = 25,
 							["hit"] = 11,
 							["school"] = 32,
-							["hitmax"] = 2746,
-							["amount"] = 88262,
+							["count"] = 25,
+							["casts"] = 9,
 							["hitamount"] = 28209,
 						},
 						["Shadow Word: Death"] = {
@@ -878,8 +875,8 @@ SkadaStorageDB = {
 							["id"] = 48158,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["overkill"] = 2086,
 									["amount"] = 5210,
+									["overkill"] = 2086,
 								},
 							},
 							["overkill"] = 2086,
@@ -911,18 +908,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 3482,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["overkill"] = 3481,
 									["amount"] = 21656,
+									["overkill"] = 3481,
 								},
 							},
 							["overkill"] = 3481,
-							["critical"] = 4,
+							["amount"] = 21656,
 							["criticalmax"] = 4276,
-							["count"] = 7,
+							["critical"] = 4,
 							["hit"] = 3,
 							["school"] = 32,
 							["hitmax"] = 2047,
-							["amount"] = 21656,
+							["count"] = 7,
 							["hitamount"] = 6140,
 						},
 						["Vampiric Touch"] = {
@@ -938,6 +935,25 @@ SkadaStorageDB = {
 							},
 							["id"] = 48160,
 						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 1541,
+							["criticalamount"] = 7939,
+							["id"] = 48125,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 11090,
+								},
+							},
+							["criticalmin"] = 3727,
+							["amount"] = 11090,
+							["criticalmax"] = 4212,
+							["critical"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 1610,
+							["count"] = 4,
+							["hitamount"] = 3151,
+						},
 						["Shadow Word: Pain"] = {
 							["casts"] = 1,
 							["count"] = 6,
@@ -951,25 +967,6 @@ SkadaStorageDB = {
 							},
 							["id"] = 48125,
 						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 1541,
-							["criticalamount"] = 7939,
-							["id"] = 48125,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 11090,
-								},
-							},
-							["criticalmin"] = 3727,
-							["critical"] = 2,
-							["criticalmax"] = 4212,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1610,
-							["amount"] = 11090,
-							["hitamount"] = 3151,
-						},
 					},
 					["absorb"] = 4903,
 					["damagetaken"] = 0,
@@ -978,35 +975,29 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 81097,
-							["max"] = 394,
-							["count"] = 264,
-							["amount"] = 2865,
-							["school"] = 32,
-							["min"] = 63,
-							["ishot"] = true,
 							["targets"] = {
 								["Spreader"] = {
 									["overheal"] = 7794,
 									["amount"] = 288,
 								},
-								["Shadowfiend"] = {
-									["overheal"] = 3500,
-									["amount"] = 0,
+								["Wormfeeder"] = {
+									["overheal"] = 7574,
+									["amount"] = 126,
 								},
 								["Franske"] = {
 									["overheal"] = 8089,
 									["amount"] = 0,
 								},
-								["Wormfeeder"] = {
-									["overheal"] = 7574,
-									["amount"] = 126,
-								},
-								["Nalar"] = {
-									["overheal"] = 40420,
+								["Shadowfiend"] = {
+									["overheal"] = 3500,
 									["amount"] = 0,
 								},
 								["Babacloantza"] = {
 									["overheal"] = 8086,
+									["amount"] = 0,
+								},
+								["Nalar"] = {
+									["overheal"] = 40420,
 									["amount"] = 0,
 								},
 								["Morkian"] = {
@@ -1014,6 +1005,12 @@ SkadaStorageDB = {
 									["amount"] = 2451,
 								},
 							},
+							["count"] = 264,
+							["amount"] = 2865,
+							["max"] = 394,
+							["min"] = 63,
+							["ishot"] = true,
+							["school"] = 32,
 						},
 						[75999] = {
 							["overheal"] = 1128,
@@ -1028,8 +1025,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["count"] = 2,
 							["criticalmin"] = 0,
+							["count"] = 2,
 						},
 						[48300] = {
 							["overheal"] = 2859,
@@ -1046,7 +1043,37 @@ SkadaStorageDB = {
 						},
 					},
 					["overkill"] = 10126,
+					["heal"] = 2865,
+					["manaspells"] = {
+						[34650] = 9522,
+					},
+					["role"] = "DAMAGER",
+					["overheal"] = 85084,
+					["mana"] = 9522,
+					["name"] = "Nalar",
 					["damagetakenspells"] = {
+						["Shadow Word: Death (DoT)"] = {
+							["total"] = 2790,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 32409,
+							["ABSORB"] = 1,
+						},
+						["Horseman's Whirl"] = {
+							["total"] = 2113,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 43118,
+							["ABSORB"] = 3,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+									["total"] = 2113,
+								},
+							},
+						},
 						["Horseman's Cleave"] = {
 							["DODGE"] = 1,
 							["sources"] = {
@@ -1059,35 +1086,7 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["id"] = 42587,
 						},
-						["Horseman's Whirl"] = {
-							["total"] = 2113,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Headless Horseman"] = {
-									["total"] = 2113,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 3,
-							["id"] = 43118,
-						},
-						["Shadow Word: Death (DoT)"] = {
-							["total"] = 2790,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["ABSORB"] = 1,
-							["id"] = 32409,
-						},
 					},
-					["heal"] = 2865,
-					["name"] = "Nalar",
-					["mana"] = 9522,
-					["overheal"] = 85084,
-					["totaldamage"] = 169365,
-					["role"] = "DAMAGER",
 				}, -- [1]
 				{
 					["last"] = 31391.726,
@@ -1100,15 +1099,15 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[58578] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[70657] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[55078] = {
@@ -1150,16 +1149,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[72221] = {
+						[58655] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -1179,35 +1178,10 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[44185] = {
+							["uptime"] = 37,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 37,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 23,
-								},
-							},
-							["uptime"] = 23,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
 						},
 						[53365] = {
 							["type"] = "BUFF",
@@ -1216,6 +1190,31 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 34,
 						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 23,
+								},
+							},
+							["uptime"] = 23,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 						[66803] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -1223,18 +1222,19 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 29,
 						},
-						[58655] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
 						},
 					},
+					["totaldamage"] = 70632,
 					["time"] = 19.98,
 					["totaldamagetaken"] = 1176,
 					["damage"] = 70632,
 					["damagespells"] = {
 						["Scourge Strike"] = {
-							["hitmax"] = 4237,
+							["count"] = 3,
 							["hitmin"] = 4237,
 							["criticalamount"] = 7856,
 							["id"] = 55271,
@@ -1244,14 +1244,14 @@ SkadaStorageDB = {
 									["amount"] = 12093,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 1,
-							["amount"] = 12093,
-							["school"] = 1,
-							["criticalmin"] = 7856,
 							["criticalmax"] = 7856,
+							["criticalmin"] = 7856,
+							["casts"] = 3,
+							["hitmax"] = 4237,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 12093,
+							["critical"] = 1,
 							["hitamount"] = 4237,
 						},
 						["Melee"] = {
@@ -1260,11 +1260,11 @@ SkadaStorageDB = {
 							["criticalmin"] = 6779,
 							["IMMUNE"] = 4,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 3582,
-								},
 								["Headless Horseman"] = {
 									["amount"] = 19286,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 3582,
 								},
 							},
 							["glancing"] = 1,
@@ -1281,21 +1281,25 @@ SkadaStorageDB = {
 							["count"] = 10,
 							["hitamount"] = 12507,
 						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1104,
-							["id"] = 50526,
+						["Melee (Wormfeeder)"] = {
+							["hitmin"] = 474,
+							["criticalamount"] = 1082,
+							["id"] = 6603,
+							["IMMUNE"] = 16,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["amount"] = 1104,
+									["amount"] = 7352,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1104,
-							["amount"] = 1104,
-							["hitamount"] = 1104,
+							["criticalmin"] = 1082,
+							["amount"] = 7352,
+							["criticalmax"] = 1082,
+							["critical"] = 1,
+							["hit"] = 12,
+							["school"] = 1,
+							["hitmax"] = 544,
+							["count"] = 29,
+							["hitamount"] = 6270,
 						},
 						["Icy Touch"] = {
 							["hitmin"] = 1438,
@@ -1314,48 +1318,6 @@ SkadaStorageDB = {
 							["amount"] = 1438,
 							["hitamount"] = 1438,
 						},
-						["Blood Plague"] = {
-							["casts"] = 1,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 32,
-							["IMMUNE"] = 4,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 55078,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 2240,
-							["id"] = 70890,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 6234,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 3994,
-							["amount"] = 6234,
-							["hitamount"] = 6234,
-						},
-						["Frost Fever"] = {
-							["casts"] = 1,
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 16,
-							["IMMUNE"] = 5,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 55095,
-						},
 						["Blood Strike"] = {
 							["hitmin"] = 2339,
 							["id"] = 49930,
@@ -1372,10 +1334,26 @@ SkadaStorageDB = {
 							["amount"] = 4764,
 							["hitamount"] = 4764,
 						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1104,
+							["id"] = 50526,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 1104,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 1104,
+							["amount"] = 1104,
+							["hitamount"] = 1104,
+						},
 						["Claw (Wormfeeder)"] = {
-							["criticalmin"] = 1576,
-							["hitmin"] = 692,
 							["criticalamount"] = 1576,
+							["hitmin"] = 692,
+							["criticalmin"] = 1576,
 							["id"] = 47468,
 							["IMMUNE"] = 5,
 							["targets"] = {
@@ -1383,31 +1361,61 @@ SkadaStorageDB = {
 									["amount"] = 3061,
 								},
 							},
+							["amount"] = 3061,
+							["hitmax"] = 793,
 							["criticalmax"] = 1576,
 							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 8,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 793,
-							["amount"] = 3061,
+							["count"] = 8,
+							["casts"] = 1,
 							["hitamount"] = 1485,
 						},
-						["Gnaw (Wormfeeder)"] = {
-							["hitmin"] = 55,
-							["id"] = 47481,
+						["Necrosis"] = {
+							["hitmin"] = 548,
+							["id"] = 51460,
+							["IMMUNE"] = 1,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["amount"] = 55,
+									["amount"] = 3104,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 716,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 55,
-							["amount"] = 55,
-							["hitamount"] = 55,
+							["count"] = 6,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 1355,
+							["amount"] = 3820,
+							["hitamount"] = 3820,
+						},
+						["Blood Plague"] = {
+							["casts"] = 1,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 32,
+							["IMMUNE"] = 4,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 55078,
+						},
+						["Frost Fever"] = {
+							["casts"] = 1,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 16,
+							["IMMUNE"] = 5,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 55095,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 1165,
@@ -1424,25 +1432,21 @@ SkadaStorageDB = {
 							["amount"] = 3497,
 							["hitamount"] = 3497,
 						},
-						["Necrosis"] = {
-							["hitmin"] = 548,
-							["id"] = 51460,
-							["IMMUNE"] = 1,
+						["Gnaw (Wormfeeder)"] = {
+							["hitmin"] = 55,
+							["id"] = 47481,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 716,
-								},
 								["Headless Horseman"] = {
-									["amount"] = 3104,
+									["amount"] = 55,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 32,
-							["hitmax"] = 1355,
-							["amount"] = 3820,
-							["hitamount"] = 3820,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 55,
+							["amount"] = 55,
+							["hitamount"] = 55,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 2114,
@@ -1475,25 +1479,21 @@ SkadaStorageDB = {
 							["amount"] = 2232,
 							["hitamount"] = 2232,
 						},
-						["Melee (Wormfeeder)"] = {
-							["hitmin"] = 474,
-							["criticalamount"] = 1082,
-							["id"] = 6603,
-							["IMMUNE"] = 16,
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 2240,
+							["id"] = 70890,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["amount"] = 7352,
+									["amount"] = 6234,
 								},
 							},
-							["criticalmin"] = 1082,
-							["critical"] = 1,
-							["criticalmax"] = 1082,
-							["count"] = 29,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 544,
-							["amount"] = 7352,
-							["hitamount"] = 6270,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 3994,
+							["amount"] = 6234,
+							["hitamount"] = 6234,
 						},
 					},
 					["damagetaken"] = 1176,
@@ -1528,126 +1528,78 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 279,
 							["school"] = 1,
-							["count"] = 3,
 							["criticalmin"] = 0,
+							["count"] = 3,
 						},
 					},
 					["damagetakenspells"] = {
 						["Horseman's Whirl"] = {
 							["hitmin"] = 567,
 							["id"] = 43118,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Headless Horseman"] = {
 									["amount"] = 1176,
 								},
 							},
+							["PARRY"] = 1,
 							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 609,
 							["amount"] = 1176,
+							["hitmax"] = 609,
 							["hitamount"] = 1176,
 						},
 					},
 					["heal"] = 279,
 					["name"] = "Spreader",
-					["overheal"] = 4922,
-					["totaldamage"] = 70632,
 					["role"] = "TANK",
+					["overheal"] = 4922,
 				}, -- [2]
 				{
+					["overheal"] = 55115,
 					["last"] = 31389.243,
+					["damagetaken"] = 1778,
 					["flag"] = 4370,
 					["class"] = "SHAMAN",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[57960] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[58655] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[58754] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[2895] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 3.5,
-					["totaldamagetaken"] = 1778,
-					["overheal"] = 55115,
-					["damagetaken"] = 1778,
-					["id"] = "0x07000000008810F3",
-					["spec"] = 264,
 					["healspells"] = {
 						[52042] = {
 							["overheal"] = 50558,
-							["max"] = 468,
-							["count"] = 116,
-							["amount"] = 3115,
-							["school"] = 8,
-							["min"] = 30,
-							["ishot"] = true,
 							["targets"] = {
 								["Spreader"] = {
 									["overheal"] = 8421,
 									["amount"] = 0,
 								},
-								["Shadowfiend"] = {
-									["overheal"] = 3563,
+								["Wormfeeder"] = {
+									["overheal"] = 8013,
 									["amount"] = 0,
 								},
 								["Franske"] = {
 									["overheal"] = 7953,
 									["amount"] = 468,
 								},
-								["Wormfeeder"] = {
-									["overheal"] = 8013,
-									["amount"] = 0,
-								},
-								["Nalar"] = {
-									["overheal"] = 8419,
+								["Shadowfiend"] = {
+									["overheal"] = 3563,
 									["amount"] = 0,
 								},
 								["Babacloantza"] = {
 									["overheal"] = 7953,
 									["amount"] = 468,
 								},
+								["Nalar"] = {
+									["overheal"] = 8419,
+									["amount"] = 0,
+								},
 								["Morkian"] = {
 									["overheal"] = 6236,
 									["amount"] = 2179,
 								},
 							},
+							["count"] = 116,
+							["amount"] = 3115,
+							["max"] = 468,
+							["min"] = 30,
+							["ishot"] = true,
+							["school"] = 8,
 						},
 						[379] = {
 							["overheal"] = 4557,
@@ -1664,10 +1616,56 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 609,
 							["school"] = 8,
-							["criticalmin"] = 609,
 							["count"] = 1,
+							["criticalmin"] = 609,
 						},
 					},
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[57960] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[2895] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+					},
+					["name"] = "Franske",
+					["role"] = "HEALER",
+					["time"] = 3.5,
+					["heal"] = 3724,
 					["damagetakenspells"] = {
 						["Horseman's Cleave"] = {
 							["hitmin"] = 1778,
@@ -1685,8 +1683,9 @@ SkadaStorageDB = {
 							["hitamount"] = 1778,
 						},
 					},
-					["heal"] = 3724,
-					["name"] = "Franske",
+					["totaldamagetaken"] = 1778,
+					["spec"] = 264,
+					["id"] = "0x07000000008810F3",
 				}, -- [3]
 				{
 					["last"] = 31400.777,
@@ -1711,9 +1710,9 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 						[71403] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[55078] = {
@@ -1721,13 +1720,13 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["school"] = 32,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["uptime"] = 21,
-									["count"] = 1,
-								},
 								["Headless Horseman"] = {
 									["uptime"] = 30,
 									["count"] = 2,
+								},
+								["Head of the Horseman"] = {
+									["uptime"] = 21,
+									["count"] = 1,
 								},
 							},
 							["uptime"] = 33,
@@ -1738,9 +1737,9 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[71227] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 8,
 						},
 						[72221] = {
@@ -1749,9 +1748,9 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[51271] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[48266] = {
@@ -1765,9 +1764,9 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[51124] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[51714] = {
@@ -1776,15 +1775,15 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["refresh"] = 20,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 2,
-								},
 								["Headless Horseman"] = {
-									["count"] = 1,
 									["refresh"] = 19,
+									["count"] = 1,
 									["uptime"] = 34,
+								},
+								["Head of the Horseman"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 2,
 								},
 							},
 							["uptime"] = 34,
@@ -1794,12 +1793,12 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["school"] = 16,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["uptime"] = 1,
-									["count"] = 2,
-								},
 								["Headless Horseman"] = {
 									["uptime"] = 30,
+									["count"] = 2,
+								},
+								["Head of the Horseman"] = {
+									["uptime"] = 1,
 									["count"] = 2,
 								},
 							},
@@ -1815,6 +1814,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[53760] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 						[53365] = {
 							["type"] = "BUFF",
 							["count"] = 2,
@@ -1822,34 +1837,19 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 26,
 						},
-						[60065] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
 						[28878] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[72412] = {
+						[60065] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[53760] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
 					},
+					["totaldamage"] = 148255,
 					["time"] = 34.92,
 					["totaldamagetaken"] = 6952,
 					["damage"] = 148255,
@@ -1860,18 +1860,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 3171,
-							["max"] = 273,
-							["count"] = 37,
-							["amount"] = 1097,
-							["school"] = 1,
-							["min"] = 40,
-							["ishot"] = true,
 							["targets"] = {
 								["Morkian"] = {
 									["overheal"] = 3171,
 									["amount"] = 1097,
 								},
 							},
+							["count"] = 37,
+							["amount"] = 1097,
+							["max"] = 273,
+							["min"] = 40,
+							["ishot"] = true,
+							["school"] = 1,
 						},
 						[53365] = {
 							["overheal"] = 3578,
@@ -1888,8 +1888,8 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 486,
 							["school"] = 1,
-							["count"] = 3,
 							["criticalmin"] = 0,
+							["count"] = 3,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1897,17 +1897,17 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 1178,
 							["id"] = 6603,
-							["hitmax"] = 1349,
+							["count"] = 7,
 							["sources"] = {
 								["Headless Horseman"] = {
 									["amount"] = 6439,
 								},
 							},
-							["count"] = 7,
+							["hitmax"] = 1349,
 							["hit"] = 5,
 							["school"] = 1,
-							["PARRY"] = 1,
 							["amount"] = 6439,
+							["PARRY"] = 1,
 							["hitamount"] = 6439,
 						},
 						["Horseman's Whirl"] = {
@@ -1929,6 +1929,7 @@ SkadaStorageDB = {
 					},
 					["heal"] = 1583,
 					["name"] = "Morkian",
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 5965,
@@ -1936,11 +1937,11 @@ SkadaStorageDB = {
 							["criticalmin"] = 1864,
 							["IMMUNE"] = 14,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 10529,
-								},
 								["Headless Horseman"] = {
 									["amount"] = 43062,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 10529,
 								},
 							},
 							["glancing"] = 4,
@@ -1950,13 +1951,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 32408,
 							["id"] = 6603,
 							["glancemax"] = 2151,
-							["blocked"] = 40,
+							["hit"] = 9,
 							["criticalmax"] = 4929,
 							["critical"] = 11,
-							["hit"] = 9,
+							["blocked"] = 40,
 							["school"] = 1,
-							["hitmax"] = 2442,
 							["count"] = 40,
+							["hitmax"] = 2442,
 							["hitamount"] = 15218,
 						},
 						["Icy Touch"] = {
@@ -1964,33 +1965,39 @@ SkadaStorageDB = {
 							["id"] = 49909,
 							["IMMUNE"] = 1,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 6314,
-								},
 								["Headless Horseman"] = {
 									["amount"] = 5383,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 6314,
 								},
 							},
 							["casts"] = 5,
 							["critical"] = 4,
 							["amount"] = 11697,
 							["school"] = 16,
-							["criticalmin"] = 2437,
+							["count"] = 5,
 							["criticalmax"] = 3199,
-							["count"] = 5,
+							["criticalmin"] = 2437,
 						},
-						["Frost Fever"] = {
-							["casts"] = 1,
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 16,
-							["IMMUNE"] = 5,
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 517,
+							["id"] = 50463,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["amount"] = 0,
+									["amount"] = 1143,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 1157,
 								},
 							},
-							["id"] = 55095,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 626,
+							["amount"] = 2300,
+							["hitamount"] = 2300,
 						},
 						["Obliterate"] = {
 							["criticalamount"] = 13556,
@@ -2005,53 +2012,19 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["amount"] = 13556,
 							["school"] = 1,
-							["criticalmin"] = 5464,
-							["criticalmax"] = 8092,
 							["critical"] = 2,
-						},
-						["Blood Plague"] = {
-							["casts"] = 1,
-							["count"] = 6,
-							["amount"] = 0,
-							["school"] = 32,
-							["IMMUNE"] = 6,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 55078,
-						},
-						["Blood Strike"] = {
-							["criticalmin"] = 2417,
-							["hitmin"] = 1487,
-							["criticalamount"] = 2417,
-							["id"] = 49930,
-							["IMMUNE"] = 2,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 3904,
-								},
-							},
-							["criticalmax"] = 2417,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 4,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1487,
-							["amount"] = 3904,
-							["hitamount"] = 1487,
+							["criticalmax"] = 8092,
+							["criticalmin"] = 5464,
 						},
 						["Necrosis"] = {
 							["hitmin"] = 193,
 							["id"] = 51460,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 2104,
-								},
 								["Headless Horseman"] = {
 									["amount"] = 8603,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 2104,
 								},
 							},
 							["casts"] = 1,
@@ -2066,11 +2039,11 @@ SkadaStorageDB = {
 							["hitmin"] = 642,
 							["id"] = 55078,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 4788,
-								},
 								["Headless Horseman"] = {
 									["amount"] = 2605,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 4788,
 								},
 							},
 							["count"] = 10,
@@ -2080,15 +2053,41 @@ SkadaStorageDB = {
 							["amount"] = 7393,
 							["hitamount"] = 7393,
 						},
+						["Blood Plague"] = {
+							["casts"] = 1,
+							["count"] = 6,
+							["amount"] = 0,
+							["school"] = 32,
+							["IMMUNE"] = 6,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 55078,
+						},
+						["Frost Fever"] = {
+							["casts"] = 1,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 16,
+							["IMMUNE"] = 5,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 55095,
+						},
 						["Razor Frost"] = {
 							["hitmin"] = 10,
 							["id"] = 50401,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 44,
-								},
 								["Headless Horseman"] = {
 									["amount"] = 278,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 44,
 								},
 							},
 							["casts"] = 1,
@@ -2103,20 +2102,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1674,
 							["criticalamount"] = 24783,
 							["id"] = 55268,
-							["hitmax"] = 3043,
+							["count"] = 8,
 							["targets"] = {
 								["Headless Horseman"] = {
 									["amount"] = 33303,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 4,
-							["casts"] = 4,
-							["critical"] = 4,
-							["amount"] = 33303,
-							["school"] = 16,
-							["criticalmin"] = 4050,
 							["criticalmax"] = 7693,
+							["criticalmin"] = 4050,
+							["casts"] = 4,
+							["hitmax"] = 3043,
+							["hit"] = 4,
+							["school"] = 16,
+							["amount"] = 33303,
+							["critical"] = 4,
 							["hitamount"] = 8520,
 						},
 						["Plague Strike"] = {
@@ -2125,21 +2124,21 @@ SkadaStorageDB = {
 							["id"] = 49921,
 							["criticalmin"] = 1474,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 3892,
-								},
 								["Headless Horseman"] = {
 									["amount"] = 4156,
 								},
+								["Head of the Horseman"] = {
+									["amount"] = 3892,
+								},
 							},
+							["amount"] = 8048,
+							["hitmax"] = 1491,
 							["criticalmax"] = 2401,
 							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 6,
 							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 1491,
-							["amount"] = 8048,
+							["count"] = 6,
+							["casts"] = 3,
 							["hitamount"] = 4173,
 						},
 						["Frost Fever (DoT)"] = {
@@ -2157,28 +2156,28 @@ SkadaStorageDB = {
 							["amount"] = 3434,
 							["hitamount"] = 3434,
 						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 517,
-							["id"] = 50463,
+						["Blood Strike"] = {
+							["criticalamount"] = 2417,
+							["hitmin"] = 1487,
+							["criticalmin"] = 2417,
+							["id"] = 49930,
+							["IMMUNE"] = 2,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 1157,
-								},
 								["Headless Horseman"] = {
-									["amount"] = 1143,
+									["amount"] = 3904,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
+							["amount"] = 3904,
+							["hitmax"] = 1487,
+							["criticalmax"] = 2417,
+							["critical"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 626,
-							["amount"] = 2300,
-							["hitamount"] = 2300,
+							["count"] = 4,
+							["casts"] = 2,
+							["hitamount"] = 1487,
 						},
 					},
-					["totaldamage"] = 148255,
-					["role"] = "DAMAGER",
 				}, -- [4]
 				{
 					["last"] = 31400.685,
@@ -2186,9 +2185,9 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[71579] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[15473] = {
@@ -2223,24 +2222,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["count"] = 5,
 									["refresh"] = 1,
+									["count"] = 5,
 									["uptime"] = 11,
 								},
 							},
 							["uptime"] = 11,
 						},
-						[48160] = {
-							["type"] = "DEBUFF",
+						[55610] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
+							["uptime"] = 37,
 						},
 						[53755] = {
 							["type"] = "BUFF",
@@ -2253,14 +2245,14 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["refresh"] = 2,
 							["targets"] = {
+								["Headless Horseman"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 26,
+								},
 								["Head of the Horseman"] = {
 									["uptime"] = 1,
 									["count"] = 2,
-								},
-								["Headless Horseman"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 26,
 								},
 							},
 							["uptime"] = 27,
@@ -2270,11 +2262,53 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[72416] = {
+						[2895] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
+							["uptime"] = 37,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[15286] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[59000] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[15258] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 14,
+							["uptime"] = 35,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[44185] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[58655] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
 						},
 						[48156] = {
 							["type"] = "BUFF",
@@ -2295,67 +2329,33 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["count"] = 1,
 									["refresh"] = 5,
+									["count"] = 1,
 									["uptime"] = 30,
 								},
 							},
 							["uptime"] = 30,
 						},
-						[59000] = {
+						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[48160] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
-							["uptime"] = 6,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[58754] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[44185] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[58655] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 14,
-							["uptime"] = 35,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[2895] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
 						},
 					},
+					["totaldamage"] = 78290,
 					["time"] = 28.23,
 					["totaldamagetaken"] = 2336,
 					["damage"] = 78290,
@@ -2391,50 +2391,50 @@ SkadaStorageDB = {
 							["hitamount"] = 314,
 						},
 						["Improved Devouring Plague"] = {
-							["criticalmin"] = 5322,
-							["hitmin"] = 4184,
 							["criticalamount"] = 16827,
+							["hitmin"] = 4184,
+							["criticalmin"] = 5322,
 							["id"] = 63675,
 							["IMMUNE"] = 1,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 11505,
-								},
 								["Headless Horseman"] = {
 									["amount"] = 18530,
 								},
+								["Head of the Horseman"] = {
+									["amount"] = 11505,
+								},
 							},
+							["amount"] = 30035,
+							["hitmax"] = 4758,
 							["criticalmax"] = 6168,
 							["critical"] = 3,
-							["casts"] = 1,
-							["count"] = 7,
 							["hit"] = 3,
 							["school"] = 32,
-							["hitmax"] = 4758,
-							["amount"] = 30035,
+							["count"] = 7,
+							["casts"] = 1,
 							["hitamount"] = 13208,
 						},
 						["Mind Flay"] = {
-							["criticalmin"] = 4826,
-							["criticalmax"] = 4826,
-							["hitmin"] = 2309,
 							["criticalamount"] = 4826,
+							["amount"] = 21944,
+							["hitmin"] = 2309,
+							["criticalmin"] = 4826,
 							["id"] = 58381,
 							["IMMUNE"] = 4,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["overkill"] = 1047,
 									["amount"] = 21944,
+									["overkill"] = 1047,
 								},
 							},
 							["overkill"] = 1047,
+							["hitmax"] = 3227,
+							["criticalmax"] = 4826,
 							["critical"] = 1,
-							["casts"] = 5,
-							["count"] = 11,
 							["hit"] = 6,
 							["school"] = 32,
-							["hitmax"] = 3227,
-							["amount"] = 21944,
+							["count"] = 11,
+							["casts"] = 5,
 							["hitamount"] = 17118,
 						},
 						["Shadow Word: Death"] = {
@@ -2463,18 +2463,18 @@ SkadaStorageDB = {
 							},
 							["id"] = 48300,
 						},
-						["Pain and Suffering"] = {
-							["casts"] = 1,
-							["count"] = 1,
+						["Shadow Word: Pain"] = {
+							["casts"] = 2,
+							["count"] = 6,
 							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 1,
+							["school"] = 32,
+							["IMMUNE"] = 6,
 							["targets"] = {
 								["Headless Horseman"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 47948,
+							["id"] = 48125,
 						},
 						["Devouring Plague (DoT)"] = {
 							["hitmin"] = 1435,
@@ -2486,13 +2486,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 2999,
-							["critical"] = 2,
+							["amount"] = 10412,
 							["criticalmax"] = 3667,
-							["count"] = 4,
+							["critical"] = 2,
 							["hit"] = 2,
 							["school"] = 32,
 							["hitmax"] = 2311,
-							["amount"] = 10412,
+							["count"] = 4,
 							["hitamount"] = 3746,
 						},
 						["Vampiric Touch"] = {
@@ -2517,32 +2517,29 @@ SkadaStorageDB = {
 									["amount"] = 8400,
 								},
 							},
-							["hitmax"] = 1417,
 							["count"] = 3,
+							["criticalmin"] = 3278,
 							["criticalmax"] = 3705,
-							["critical"] = 2,
+							["hitmax"] = 1417,
 							["amount"] = 8400,
 							["school"] = 32,
 							["hit"] = 1,
-							["criticalmin"] = 3278,
+							["critical"] = 2,
 							["hitamount"] = 1417,
 						},
-						["Shadow Word: Pain"] = {
-							["casts"] = 2,
-							["count"] = 6,
+						["Pain and Suffering"] = {
+							["casts"] = 1,
+							["count"] = 1,
 							["amount"] = 0,
-							["school"] = 32,
-							["IMMUNE"] = 6,
+							["school"] = 1,
+							["IMMUNE"] = 1,
 							["targets"] = {
 								["Headless Horseman"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 48125,
+							["id"] = 47948,
 						},
-					},
-					["manaspells"] = {
-						[71132] = 190,
 					},
 					["damagetaken"] = 2336,
 					["id"] = "0x07000000008A64A1",
@@ -2550,35 +2547,29 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 24836,
-							["max"] = 150,
-							["count"] = 150,
-							["amount"] = 815,
-							["school"] = 32,
-							["min"] = 44,
-							["ishot"] = true,
 							["targets"] = {
 								["Babacloantza"] = {
 									["overheal"] = 12270,
-									["amount"] = 0,
-								},
-								["Shadowfiend"] = {
-									["overheal"] = 1226,
-									["amount"] = 0,
-								},
-								["Franske"] = {
-									["overheal"] = 2454,
 									["amount"] = 0,
 								},
 								["Wormfeeder"] = {
 									["overheal"] = 2262,
 									["amount"] = 76,
 								},
-								["Nalar"] = {
+								["Franske"] = {
 									["overheal"] = 2454,
+									["amount"] = 0,
+								},
+								["Shadowfiend"] = {
+									["overheal"] = 1226,
 									["amount"] = 0,
 								},
 								["Spreader"] = {
 									["overheal"] = 2455,
+									["amount"] = 0,
+								},
+								["Nalar"] = {
+									["overheal"] = 2454,
 									["amount"] = 0,
 								},
 								["Morkian"] = {
@@ -2586,6 +2577,12 @@ SkadaStorageDB = {
 									["amount"] = 739,
 								},
 							},
+							["count"] = 150,
+							["amount"] = 815,
+							["max"] = 150,
+							["min"] = 44,
+							["ishot"] = true,
+							["school"] = 32,
 						},
 						[75999] = {
 							["overheal"] = 4335,
@@ -2600,8 +2597,8 @@ SkadaStorageDB = {
 							["count"] = 8,
 							["amount"] = 0,
 							["school"] = 32,
-							["criticalmin"] = 0,
 							["critical"] = 3,
+							["criticalmin"] = 0,
 						},
 						[48300] = {
 							["overheal"] = 1636,
@@ -2618,6 +2615,14 @@ SkadaStorageDB = {
 						},
 					},
 					["overkill"] = 1047,
+					["heal"] = 815,
+					["manaspells"] = {
+						[71132] = 190,
+					},
+					["role"] = "DAMAGER",
+					["overheal"] = 30807,
+					["mana"] = 190,
+					["name"] = "Babacloantza",
 					["damagetakenspells"] = {
 						["Horseman's Cleave"] = {
 							["hitmin"] = 2336,
@@ -2635,25 +2640,20 @@ SkadaStorageDB = {
 							["hitamount"] = 2336,
 						},
 					},
-					["heal"] = 815,
-					["name"] = "Babacloantza",
-					["mana"] = 190,
-					["overheal"] = 30807,
-					["totaldamage"] = 78290,
-					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["type"] = "party",
+			["absorb"] = 4903,
 			["damagetaken"] = 12242,
 			["gotboss"] = 23682,
+			["type"] = "party",
 			["etotaldamage"] = 14355,
-			["overheal"] = 182677,
+			["starttime"] = 1697731021,
 			["overkill"] = 11173,
 			["edamagetaken"] = 466542,
 			["heal"] = 9266,
 			["name"] = "Headless Horseman",
 			["mobname"] = "Headless Horseman",
-			["starttime"] = 1697731021,
+			["overheal"] = 182677,
 			["edamage"] = 12242,
 			["last_action"] = 1697731057,
 			["endtime"] = 1697731058,

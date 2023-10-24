@@ -25,6 +25,7 @@ MACRO 98 "dkswap" INV_Misc_QuestionMark
 #showtooltip 16
 /equipslot 16 Shadowmourne
 /equipslot 16 Glorenzelg, High-Blade of the Silver Hand
+/equip Sigil of the Hanged Man
 END
 MACRO 82 "fragment" INV_Misc_QuestionMark
 #showtooltip soul fragment
