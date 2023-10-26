@@ -1,9 +1,9 @@
 Version: 1
 Frame: LootFrame
 FrameLevel: 9
-Anchor: CENTER
-X: 64
-Y: -6
+Anchor: TOP
+X: 154
+Y: -35
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -69,3 +69,10 @@ X: -62
 Y: 26
 W: 1164
 H: 513
+Frame: BagnonFrameinventory
+FrameLevel: 1
+Anchor: RIGHT
+X: -179
+Y: 11
+W: 545
+H: 591
