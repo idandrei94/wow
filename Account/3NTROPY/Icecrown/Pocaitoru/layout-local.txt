@@ -90,3 +90,10 @@ X: 50
 Y: -16
 W: 811
 H: 546
+Frame: GridLayoutFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 317
+Y: -126
+W: 57
+H: 56
