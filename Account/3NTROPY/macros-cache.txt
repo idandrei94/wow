@@ -16,6 +16,9 @@ MACRO 97 "boom" INV_Misc_QuestionMark
 /cast [stance:1][stance:3] defensive stance
 /cast revenge
 END
+MACRO 99 "copper" INV_Misc_QuestionMark
+#showtooltip copper ore
+END
 MACRO 95 "dev" INV_Misc_QuestionMark
 #showtooltip devastate
 /startattack

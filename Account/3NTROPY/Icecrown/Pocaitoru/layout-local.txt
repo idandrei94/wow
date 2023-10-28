@@ -9,7 +9,7 @@ H: 100
 Frame: LootFrame
 FrameLevel: 10
 Anchor: TOP
-X: 286
+X: 287
 Y: -45
 W: 256
 H: 256

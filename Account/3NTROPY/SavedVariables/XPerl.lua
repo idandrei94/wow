@@ -17,19 +17,19 @@ XPerlConfigNew = {
 		["rangeFinder"] = {
 			["StatsFrame"] = {
 				["FadeAmount"] = 0.5,
+				["item"] = "Heavy Netherweave Bandage",
 				["HealthLowPoint"] = 0.85,
-				["item"] = "Heavy Frostweave Bandage",
 			},
 			["Main"] = {
 				["enabled"] = true,
-				["item"] = "Heavy Frostweave Bandage",
+				["item"] = "Heavy Netherweave Bandage",
 				["FadeAmount"] = 0.5,
 				["HealthLowPoint"] = 0.85,
 			},
 			["NameFrame"] = {
 				["FadeAmount"] = 0.5,
+				["item"] = "Heavy Netherweave Bandage",
 				["HealthLowPoint"] = 0.85,
-				["item"] = "Heavy Frostweave Bandage",
 			},
 		},
 		["showAFK"] = 1,
@@ -264,12 +264,6 @@ XPerlConfigNew = {
 				},
 			},
 			["classbarBright"] = 1,
-			["frame"] = {
-				["a"] = 1,
-				["r"] = 0,
-				["g"] = 0,
-				["b"] = 0,
-			},
 			["gradient"] = {
 				["enable"] = 1,
 				["s"] = {
@@ -284,6 +278,12 @@ XPerlConfigNew = {
 					["g"] = 0.1,
 					["b"] = 0.1,
 				},
+			},
+			["frame"] = {
+				["a"] = 1,
+				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
 			},
 			["class"] = 1,
 			["bar"] = {
@@ -302,9 +302,9 @@ XPerlConfigNew = {
 					["g"] = 0.5,
 					["b"] = 0.25,
 				},
-				["healthEmpty"] = {
+				["energy"] = {
 					["r"] = 1,
-					["g"] = 0,
+					["g"] = 1,
 					["b"] = 0,
 				},
 				["mana"] = {
@@ -312,9 +312,9 @@ XPerlConfigNew = {
 					["g"] = 0,
 					["b"] = 1,
 				},
-				["energy"] = {
+				["healthEmpty"] = {
 					["r"] = 1,
-					["g"] = 1,
+					["g"] = 0,
 					["b"] = 0,
 				},
 				["runic_power"] = {
@@ -389,13 +389,13 @@ XPerlConfigNew = {
 				["type"] = 1,
 			},
 			["level"] = 1,
-			["castBar"] = {
-				["enable"] = 1,
-			},
 			["happiness"] = {
 				["enabled"] = 1,
 				["flashWhenSad"] = 1,
 				["onlyWhenSad"] = 1,
+			},
+			["castBar"] = {
+				["enable"] = 1,
 			},
 			["threatMode"] = "portraitFrame",
 			["name"] = 1,
@@ -417,10 +417,32 @@ XPerlConfigNew = {
 			["frame"] = 1,
 			["text"] = 1,
 		},
-		["tooltip"] = {
+		["focustarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
 			["enable"] = 1,
-			["enableBuffs"] = 1,
-			["modifier"] = "all",
+			["mana"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["scale"] = 0.7,
+			["buffs"] = {
+				["size"] = 22,
+				["castable"] = 0,
+				["enable"] = 1,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["maxrows"] = 2,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
 		},
 		["targettarget"] = {
 			["debuffs"] = {
@@ -550,32 +572,10 @@ XPerlConfigNew = {
 				["width"] = 0,
 			},
 		},
-		["focustarget"] = {
-			["debuffs"] = {
-				["enable"] = 1,
-				["curable"] = 0,
-				["size"] = 29,
-			},
-			["values"] = 1,
-			["pvpIcon"] = 1,
+		["tooltip"] = {
 			["enable"] = 1,
-			["mana"] = 1,
-			["healerMode"] = {
-				["type"] = 1,
-			},
-			["scale"] = 0.7,
-			["buffs"] = {
-				["size"] = 22,
-				["castable"] = 0,
-				["enable"] = 1,
-				["rows"] = 3,
-				["wrap"] = 1,
-				["maxrows"] = 2,
-			},
-			["percent"] = 1,
-			["size"] = {
-				["width"] = 0,
-			},
+			["enableBuffs"] = 1,
+			["modifier"] = "all",
 		},
 		["targettargettarget"] = {
 			["debuffs"] = {
@@ -626,9 +626,9 @@ XPerlConfigNew = {
 					["top"] = 842.5333799025663,
 					["left"] = 20.70000012867092,
 				},
-				["XPerl_FocusTarget"] = {
-					["top"] = 693.3333426803894,
-					["left"] = 414.6999959399009,
+				["XPerl_Target"] = {
+					["top"] = 843.7334167368844,
+					["left"] = 216.8000086468412,
 				},
 				["XPerl_Focus"] = {
 					["top"] = 693.3333578164047,
@@ -642,9 +642,9 @@ XPerlConfigNew = {
 					["top"] = 791.9233457600143,
 					["left"] = 71.07000404846362,
 				},
-				["XPerl_Target"] = {
-					["top"] = 843.7334167368844,
-					["left"] = 216.8000086468412,
+				["XPerl_FocusTarget"] = {
+					["top"] = 693.3333426803894,
+					["left"] = 414.6999959399009,
 				},
 				["XPerl_TargetTarget"] = {
 					["top"] = 844.9333426973719,
@@ -680,13 +680,13 @@ XPerlConfigNew = {
 					["top"] = 733.3333764666827,
 					["left"] = 0,
 				},
-				["XPerl_FocusTarget"] = {
-					["top"] = 693.3333426803894,
-					["left"] = 414.6999959399009,
-				},
 				["XPerl_Target"] = {
 					["top"] = 843.7334167368844,
 					["left"] = 216.8000086468412,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 693.3333426803894,
+					["left"] = 414.6999959399009,
 				},
 				["XPerl_TargetTarget"] = {
 					["top"] = 844.9333426973719,

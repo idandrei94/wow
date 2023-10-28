@@ -1,13 +1,6 @@
 
 GridDB = {
 	["namespaces"] = {
-		["GridRoster"] = {
-			["profiles"] = {
-				["Default"] = {
-					["party_state"] = "party",
-				},
-			},
-		},
 		["GridStatusRange"] = {
 			["profiles"] = {
 				["Default"] = {

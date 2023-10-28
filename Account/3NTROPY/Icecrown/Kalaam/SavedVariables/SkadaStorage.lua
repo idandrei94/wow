@@ -3,764 +3,326 @@ SkadaStorageDB = {
 	["total"] = {
 		["players"] = {
 			{
-				["flag"] = 1298,
-				["mana"] = 5376,
-				["time"] = 30.53,
-				["totaldamagetaken"] = 14583,
-				["damage"] = 237872,
-				["overheal"] = 11710,
-				["damagetaken"] = 14583,
-				["id"] = "0x0700000000706124",
-				["spec"] = 102,
-				["overkill"] = 25511,
-				["heal"] = 8331,
-				["name"] = "Muspell",
-				["class"] = "DRUID",
-				["totaldamage"] = 237872,
-				["role"] = "TANK",
+				["damagetaken"] = 13433,
+				["id"] = "0x070000000000104C",
+				["spec"] = 260,
+				["class"] = "ROGUE",
+				["overkill"] = 3747,
+				["role"] = "DAMAGER",
+				["totaldamage"] = 264096,
+				["name"] = "Kalaam",
+				["time"] = 33.27,
+				["flag"] = 1297,
+				["totaldamagetaken"] = 13433,
+				["energy"] = 120,
+				["damage"] = 264096,
 			}, -- [1]
 			{
-				["damagetaken"] = 2226,
-				["spec"] = 260,
-				["id"] = "0x070000000000104C",
-				["class"] = "ROGUE",
-				["totaldamage"] = 226736,
-				["overkill"] = 17666,
-				["flag"] = 1297,
+				["rage"] = 34,
+				["id"] = "0x070000000072E4CE",
+				["class"] = "WARRIOR",
+				["overheal"] = 963,
+				["spec"] = 72,
+				["heal"] = 0,
+				["time"] = 21.07,
+				["name"] = "Tysiaa",
+				["flag"] = 1298,
 				["role"] = "DAMAGER",
-				["time"] = 26.7,
-				["name"] = "Kalaam",
-				["totaldamagetaken"] = 2226,
-				["energy"] = 60,
-				["damage"] = 226736,
+				["totaldamage"] = 63988,
+				["damage"] = 63988,
 			}, -- [2]
 			{
-				["flag"] = 1298,
-				["class"] = "WARRIOR",
-				["totaldamage"] = 46356,
-				["time"] = 30.59,
-				["totaldamagetaken"] = 2328,
-				["damage"] = 46356,
-				["rage"] = 30,
-				["damagetaken"] = 2328,
-				["id"] = "0x070000000098F447",
-				["spec"] = 72,
-				["overkill"] = 288,
-				["heal"] = 1722,
-				["name"] = "Enimatek",
-				["overheal"] = 708,
+				["damagetaken"] = 2528,
+				["id"] = "0x070000000092217A",
+				["mana"] = 1165,
+				["class"] = "MAGE",
+				["overkill"] = 9297,
+				["spec"] = 63,
+				["totaldamage"] = 134147,
+				["name"] = "Rzona",
+				["time"] = 29.16,
+				["flag"] = 4370,
+				["totaldamagetaken"] = 2528,
 				["role"] = "DAMAGER",
+				["damage"] = 134147,
 			}, -- [3]
+			{
+				["overheal"] = 35987,
+				["damagetaken"] = 221,
+				["role"] = "HEALER",
+				["flag"] = 1298,
+				["mana"] = 8239,
+				["class"] = "PRIEST",
+				["overkill"] = 307,
+				["totaldamage"] = 7325,
+				["heal"] = 18497,
+				["time"] = 23.99,
+				["name"] = "Eriness",
+				["spec"] = 257,
+				["totaldamagetaken"] = 221,
+				["id"] = "0x07000000008E082C",
+				["damage"] = 7325,
+			}, -- [4]
+			{
+				["rage"] = 31,
+				["absorb"] = 1212,
+				["damagetaken"] = 909,
+				["id"] = "0x07000000004AFADF",
+				["class"] = "WARRIOR",
+				["overkill"] = 2317,
+				["role"] = "TANK",
+				["totaldamage"] = 11208,
+				["name"] = "Dartakan",
+				["spec"] = 73,
+				["flag"] = 1298,
+				["totaldamagetaken"] = 2121,
+				["time"] = 7.799999999999999,
+				["damage"] = 11208,
+			}, -- [5]
 		},
-		["starttime"] = 1698310429,
-		["damagetaken"] = 19137,
+		["absorb"] = 1212,
+		["damagetaken"] = 17091,
+		["time"] = 35,
+		["rage"] = 65,
+		["mana"] = 9404,
+		["starttime"] = 1698488378,
+		["overkill"] = 15668,
+		["overheal"] = 36950,
+		["heal"] = 18497,
 		["name"] = "Total",
-		["mana"] = 5376,
-		["rage"] = 30,
-		["overkill"] = 43465,
-		["overheal"] = 12418,
-		["heal"] = 10053,
-		["time"] = 37,
-		["totaldamage"] = 510964,
-		["totaldamagetaken"] = 19137,
-		["energy"] = 60,
-		["damage"] = 510964,
+		["totaldamage"] = 480764,
+		["totaldamagetaken"] = 18303,
+		["energy"] = 120,
+		["damage"] = 480764,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
-			["overheal"] = 8708,
-			["mana"] = 5376,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Enimatek"] = {
-									["amount"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-					},
-					["damagetaken"] = 7966,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["overkill"] = 288,
-									["amount"] = 3306,
-								},
-							},
-							["overkill"] = 288,
-							["amount"] = 3306,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 2004,
-								},
-							},
-							["amount"] = 2004,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["overkill"] = 1642,
-									["amount"] = 2656,
-								},
-							},
-							["overkill"] = 1642,
-							["amount"] = 2656,
-						},
-					},
-					["name"] = "Anguished Dead",
-					["totaldamage"] = 21,
-					["totaldamagetaken"] = 7966,
-					["id"] = "0xF13000191A00007E",
-					["damage"] = 21,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Muspell"] = {
-									["amount"] = 12580,
-								},
-							},
-							["amount"] = 12580,
-						},
-						[42587] = {
-							["school"] = 1,
-							["targets"] = {
-								["Muspell"] = {
-									["amount"] = 1755,
-								},
-								["Kalaam"] = {
-									["amount"] = 2226,
-								},
-								["Enimatek"] = {
-									["amount"] = 2117,
-								},
-							},
-							["amount"] = 6098,
-						},
-					},
-					["damagetaken"] = 388264,
-					["flag"] = 2632,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
-						[71023] = {
-							["school"] = 8,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 1125,
-								},
-							},
-							["amount"] = 1125,
-						},
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["amount"] = 335,
-								},
-							},
-							["amount"] = 335,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["amount"] = 6670,
-								},
-							},
-							["amount"] = 6670,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 8475,
-								},
-							},
-							["amount"] = 8475,
-						},
-						[57965] = {
-							["school"] = 8,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 24079,
-								},
-							},
-							["amount"] = 24079,
-						},
-						[57842] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 12588,
-								},
-							},
-							["amount"] = 12588,
-						},
-						[48668] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["overkill"] = 5365,
-									["amount"] = 10564,
-								},
-							},
-							["overkill"] = 5365,
-							["amount"] = 10564,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 14915,
-								},
-							},
-							["amount"] = 14915,
-						},
-						[57970] = {
-							["school"] = 8,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 5668,
-								},
-							},
-							["amount"] = 5668,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["amount"] = 7245,
-								},
-							},
-							["amount"] = 7245,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["amount"] = 3343,
-								},
-							},
-							["amount"] = 3343,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["amount"] = 14149,
-								},
-								["Kalaam"] = {
-									["overkill"] = 992,
-									["amount"] = 63964,
-								},
-							},
-							["overkill"] = 992,
-							["amount"] = 78113,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Muspell"] = {
-									["overkill"] = 3907,
-									["amount"] = 34756,
-								},
-							},
-							["overkill"] = 3907,
-							["amount"] = 34756,
-						},
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["amount"] = 1629,
-								},
-							},
-							["amount"] = 1629,
-						},
-						[48465] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 118620,
-								},
-							},
-							["amount"] = 118620,
-						},
-						[48638] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 35231,
-								},
-							},
-							["amount"] = 35231,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["amount"] = 928,
-								},
-							},
-							["amount"] = 928,
-						},
-						[57841] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 19438,
-								},
-							},
-							["amount"] = 19438,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["amount"] = 4542,
-								},
-							},
-							["amount"] = 4542,
-						},
-					},
-					["name"] = "Headless Horseman",
-					["totaldamage"] = 18678,
-					["totaldamagetaken"] = 388264,
-					["id"] = "0xF130005C8200008A",
-					["damage"] = 18678,
-				}, -- [2]
-				{
-					["id"] = "0xF130000FEB000036",
-					["name"] = "Rat",
-					["totaldamagetaken"] = 2268,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
-					["damagetaken"] = 2268,
-					["damagetakenspells"] = {
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["overkill"] = 2259,
-									["amount"] = 2268,
-								},
-							},
-							["overkill"] = 2259,
-							["amount"] = 2268,
-						},
-					},
-				}, -- [3]
-				{
-					["id"] = "0xF1300010D4000053",
-					["name"] = "Unfettered Spirit",
-					["totaldamagetaken"] = 19088,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 19088,
-					["damagetakenspells"] = {
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["overkill"] = 9796,
-									["amount"] = 12053,
-								},
-							},
-							["overkill"] = 9796,
-							["amount"] = 12053,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["overkill"] = 3307,
-									["amount"] = 7035,
-								},
-							},
-							["overkill"] = 3307,
-							["amount"] = 7035,
-						},
-					},
-				}, -- [4]
-				{
-					["id"] = "0xF13000191B000071",
-					["name"] = "Haunting Phantasm",
-					["totaldamagetaken"] = 7618,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 7618,
-					["damagetakenspells"] = {
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 1919,
-								},
-							},
-							["amount"] = 1919,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["overkill"] = 4600,
-									["amount"] = 5699,
-								},
-							},
-							["overkill"] = 4600,
-							["amount"] = 5699,
-						},
-					},
-				}, -- [5]
-				{
-					["id"] = "0xF130005CDF00008C",
-					["name"] = "Head of the Horseman",
-					["totaldamagetaken"] = 72152,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 72152,
-					["damagetakenspells"] = {
-						[57965] = {
-							["school"] = 8,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 3400,
-								},
-							},
-							["amount"] = 3400,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 11942,
-								},
-							},
-							["amount"] = 11942,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 8315,
-								},
-							},
-							["amount"] = 8315,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 2964,
-								},
-							},
-							["amount"] = 2964,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 24524,
-								},
-								["Enimatek"] = {
-									["amount"] = 1441,
-								},
-							},
-							["amount"] = 25965,
-						},
-						[53227] = {
-							["school"] = 8,
-							["sources"] = {
-								["Muspell"] = {
-									["amount"] = 3126,
-								},
-							},
-							["amount"] = 3126,
-						},
-						[48638] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["overkill"] = 3804,
-									["amount"] = 16440,
-								},
-							},
-							["overkill"] = 3804,
-							["amount"] = 16440,
-						},
-					},
-				}, -- [6]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Enimatek"] = {
-									["amount"] = 190,
-								},
-								["Muspell"] = {
-									["amount"] = 248,
-								},
-							},
-							["amount"] = 438,
-						},
-					},
-					["damagetaken"] = 2768,
-					["id"] = "0xF130005C8E000090",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Enimatek"] = {
-									["amount"] = 2768,
-								},
-							},
-							["amount"] = 2768,
-						},
-					},
-					["totaldamage"] = 438,
-					["name"] = "Pulsing Pumpkin",
-					["totaldamagetaken"] = 2768,
-					["flag"] = 2632,
-					["damage"] = 438,
-				}, -- [7]
-			},
-			["energy"] = 60,
-			["totaldamage"] = 500124,
-			["time"] = 37,
-			["rage"] = 30,
-			["totaldamagetaken"] = 19137,
-			["etotaldamagetaken"] = 500124,
-			["last_time"] = 8610.035,
+			["mana"] = 9404,
 			["players"] = {
 				{
-					["last"] = 8608.655000000001,
+					["last"] = 6675.84,
 					["flag"] = 1297,
 					["class"] = "ROGUE",
 					["auras"] = {
-						[72221] = {
+						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 16,
 						},
-						[32223] = {
+						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 34,
+							["uptime"] = 23,
 						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[51690] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[13877] = {
 							["school"] = 1,
-							["uptime"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
-						[54758] = {
+						[54861] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[64844] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[59628] = {
+						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[13877] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
-						[57970] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 10,
-							["targets"] = {
-								["Head of the Horseman"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Headless Horseman"] = {
-									["count"] = 1,
-									["refresh"] = 10,
-									["uptime"] = 27,
-								},
-							},
-							["uptime"] = 27,
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
 						},
 						[58683] = {
 							["type"] = "DEBUFF",
-							["count"] = 12,
+							["count"] = 16,
 							["school"] = 1,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
 								["Headless Horseman"] = {
-									["uptime"] = 27,
-									["count"] = 11,
+									["uptime"] = 31,
+									["count"] = 14,
+								},
+								["Head of the Horseman"] = {
+									["uptime"] = 2,
+									["count"] = 2,
 								},
 							},
-							["uptime"] = 27,
+							["uptime"] = 31,
 						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 24,
-						},
-						[57934] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
+						[57975] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 14,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["refresh"] = 13,
+									["count"] = 1,
+									["uptime"] = 31,
+								},
+								["Head of the Horseman"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 14,
+								},
+							},
+							["uptime"] = 33,
 						},
 						[13750] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[6774] = {
 							["type"] = "BUFF",
-							["count"] = 2,
+							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 28,
+							["refresh"] = 2,
+							["uptime"] = 33,
 						},
-						[75456] = {
+						[44185] = {
+							["uptime"] = 35,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
+							["refresh"] = 1,
+						},
+						[54758] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[51690] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[59620] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 15,
+						},
+						[59628] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[11305] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
 						},
 					},
 					["energyspells"] = {
-						[35548] = 45,
+						[35548] = 105,
 						[70804] = 15,
 					},
-					["time"] = 30.05,
-					["totaldamagetaken"] = 2226,
-					["damage"] = 215896,
+					["totaldamage"] = 254440,
+					["time"] = 32.84,
+					["totaldamagetaken"] = 13433,
+					["damage"] = 254440,
 					["damagespells"] = {
 						["Eviscerate"] = {
-							["criticalamount"] = 10564,
+							["hitmin"] = 4034,
 							["id"] = 48668,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["overkill"] = 5365,
-									["amount"] = 10564,
-								},
-							},
-							["overkill"] = 5365,
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 10564,
-							["school"] = 1,
-							["criticalmin"] = 3428,
-							["criticalmax"] = 7136,
-							["count"] = 2,
-						},
-						["Deadly Poison IX (DoT)"] = {
-							["hitmin"] = 1662,
-							["id"] = 57970,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 5668,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 2344,
-							["amount"] = 5668,
-							["hitamount"] = 5668,
-						},
-						["Melee"] = {
-							["glance"] = 8358,
-							["hitmin"] = 658,
-							["criticalmin"] = 1742,
-							["IMMUNE"] = 7,
-							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 24524,
-								},
-								["Headless Horseman"] = {
-									["overkill"] = 992,
-									["amount"] = 63964,
-								},
-							},
-							["glancing"] = 6,
-							["amount"] = 88488,
-							["MISS"] = 3,
-							["glancemin"] = 771,
-							["criticalamount"] = 63385,
-							["id"] = 6603,
-							["glancemax"] = 2099,
-							["overkill"] = 992,
-							["blocked"] = 80,
-							["criticalmax"] = 5537,
-							["count"] = 47,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 2740,
-							["critical"] = 19,
-							["hitamount"] = 16745,
-						},
-						["Instant Poison IX"] = {
-							["hitmax"] = 1739,
-							["hitmin"] = 1060,
-							["criticalamount"] = 10429,
-							["id"] = 57965,
 							["IMMUNE"] = 1,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 3400,
-								},
 								["Headless Horseman"] = {
-									["amount"] = 24079,
+									["amount"] = 4034,
 								},
 							},
-							["count"] = 19,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4034,
+							["amount"] = 4034,
+							["hitamount"] = 4034,
+						},
+						["Melee"] = {
+							["glance"] = 5970,
+							["hitmin"] = 632,
+							["criticalmin"] = 1266,
+							["IMMUNE"] = 5,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 93995,
+									["overkill"] = 127,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 29089,
+								},
+							},
+							["glancing"] = 5,
+							["amount"] = 123084,
+							["MISS"] = 5,
+							["glancemin"] = 778,
+							["criticalamount"] = 101938,
+							["id"] = 6603,
+							["glancemax"] = 1949,
+							["overkill"] = 127,
 							["hit"] = 13,
-							["casts"] = 1,
-							["critical"] = 5,
-							["amount"] = 27479,
+							["criticalmax"] = 5574,
+							["hitmax"] = 1945,
+							["blocked"] = 40,
+							["school"] = 1,
+							["count"] = 58,
+							["critical"] = 30,
+							["hitamount"] = 15176,
+						},
+						["Instant Poison IX"] = {
+							["criticalamount"] = 8667,
+							["hitmin"] = 1000,
+							["criticalmin"] = 1609,
+							["id"] = 57965,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 21111,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 4709,
+								},
+							},
+							["amount"] = 25820,
+							["hitmax"] = 1275,
+							["criticalmax"] = 2389,
+							["critical"] = 4,
+							["hit"] = 15,
 							["school"] = 8,
-							["criticalmin"] = 1830,
-							["criticalmax"] = 2262,
-							["hitamount"] = 17050,
+							["count"] = 21,
+							["casts"] = 1,
+							["hitamount"] = 17153,
 						},
 						["Blade Twisting"] = {
 							["casts"] = 1,
-							["count"] = 5,
+							["count"] = 8,
 							["amount"] = 0,
 							["school"] = 1,
-							["IMMUNE"] = 5,
+							["IMMUNE"] = 8,
 							["targets"] = {
 								["Headless Horseman"] = {
 									["amount"] = 0,
@@ -771,693 +333,722 @@ SkadaStorageDB = {
 							},
 							["id"] = 51585,
 						},
-						["Deadly Poison IX"] = {
-							["casts"] = 1,
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 8,
-							["IMMUNE"] = 5,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 57970,
-						},
 						["Sinister Strike"] = {
-							["criticalamount"] = 51671,
+							["hitmin"] = 2381,
+							["criticalamount"] = 33116,
 							["id"] = 48638,
-							["IMMUNE"] = 2,
+							["criticalmin"] = 7314,
 							["targets"] = {
-								["Head of the Horseman"] = {
-									["overkill"] = 3804,
-									["amount"] = 16440,
-								},
 								["Headless Horseman"] = {
-									["amount"] = 35231,
+									["amount"] = 39485,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 20472,
 								},
 							},
-							["overkill"] = 3804,
-							["casts"] = 9,
-							["critical"] = 7,
-							["amount"] = 51671,
+							["amount"] = 59957,
+							["hitmax"] = 3193,
+							["criticalmax"] = 9328,
+							["critical"] = 4,
+							["hit"] = 10,
 							["school"] = 1,
-							["criticalmin"] = 5582,
-							["criticalmax"] = 8804,
-							["count"] = 9,
+							["count"] = 14,
+							["casts"] = 14,
+							["hitamount"] = 26841,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 522,
+							["criticalamount"] = 7618,
+							["id"] = 57975,
+							["count"] = 17,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 10416,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 2527,
+								},
+							},
+							["criticalmax"] = 1130,
+							["criticalmin"] = 806,
+							["casts"] = 1,
+							["hitmax"] = 649,
+							["hit"] = 9,
+							["school"] = 8,
+							["amount"] = 12943,
+							["critical"] = 8,
+							["hitamount"] = 5325,
 						},
 						["Killing Spree"] = {
-							["hitmin"] = 1462,
-							["criticalamount"] = 24323,
+							["hitmin"] = 862,
+							["criticalamount"] = 23654,
 							["id"] = 57841,
-							["criticalmin"] = 3069,
+							["count"] = 10,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["amount"] = 32026,
+									["amount"] = 28602,
 								},
 							},
-							["criticalmax"] = 5042,
-							["critical"] = 6,
+							["criticalmax"] = 5369,
+							["criticalmin"] = 4066,
 							["casts"] = 1,
-							["count"] = 10,
-							["hit"] = 4,
+							["hitmax"] = 1080,
+							["hit"] = 5,
 							["school"] = 1,
-							["hitmax"] = 2330,
-							["amount"] = 32026,
-							["hitamount"] = 7703,
+							["amount"] = 28602,
+							["critical"] = 5,
+							["hitamount"] = 4948,
 						},
 					},
-					["damagetaken"] = 2226,
+					["damagetaken"] = 13433,
 					["id"] = "0x070000000000104C",
 					["spec"] = 260,
 					["damagetakenspells"] = {
-						["Horseman's Cleave"] = {
-							["hitmin"] = 2226,
-							["id"] = 42587,
-							["amount"] = 2226,
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1616,
+							["id"] = 6603,
 							["sources"] = {
 								["Headless Horseman"] = {
-									["amount"] = 2226,
+									["amount"] = 11184,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
+							["PARRY"] = 1,
+							["count"] = 8,
+							["hit"] = 6,
 							["school"] = 1,
-							["hitmax"] = 2226,
-							["MISS"] = 1,
-							["hitamount"] = 2226,
+							["amount"] = 11184,
+							["hitmax"] = 2132,
+							["hitamount"] = 11184,
+						},
+						["Horseman's Conflagration"] = {
+							["hitmin"] = 2249,
+							["id"] = 42381,
+							["count"] = 1,
+							["hitmax"] = 2249,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 249,
+							["amount"] = 2249,
+							["hitamount"] = 2249,
 						},
 					},
 					["name"] = "Kalaam",
-					["overkill"] = 10161,
-					["totaldamage"] = 215896,
-					["energy"] = 60,
 					["role"] = "DAMAGER",
+					["energy"] = 120,
+					["overkill"] = 127,
 				}, -- [1]
 				{
-					["last"] = 8608.562,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[48469] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[71023] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["refresh"] = 5,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["count"] = 3,
-									["refresh"] = 5,
-									["uptime"] = 23,
-								},
-							},
-							["uptime"] = 23,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[70721] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["uptime"] = 10,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[57933] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[32223] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[48391] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[48517] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 9,
-						},
-						[48518] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[53201] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[44185] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[2048] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 36,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["refresh"] = 10,
-							["uptime"] = 25,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["refresh"] = 10,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["count"] = 1,
-									["refresh"] = 10,
-									["uptime"] = 31,
-								},
-							},
-							["uptime"] = 31,
-						},
-						[54758] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 2,
-						},
-					},
-					["time"] = 30.53,
-					["totaldamagetaken"] = 14583,
-					["damage"] = 237872,
-					["overheal"] = 8000,
-					["damagespells"] = {
-						["Typhoon"] = {
-							["hitmin"] = 3126,
-							["id"] = 53227,
-							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 3126,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 3126,
-							["amount"] = 3126,
-							["hitamount"] = 3126,
-						},
-						["Wrath"] = {
-							["hitmax"] = 5056,
-							["count"] = 6,
-							["hitmin"] = 5056,
-							["criticalamount"] = 41642,
-							["id"] = 48461,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Head of the Horseman"] = {
-									["amount"] = 11942,
-								},
-								["Headless Horseman"] = {
-									["overkill"] = 3907,
-									["amount"] = 34756,
-								},
-							},
-							["overkill"] = 3907,
-							["hit"] = 1,
-							["casts"] = 5,
-							["critical"] = 4,
-							["amount"] = 46698,
-							["school"] = 8,
-							["criticalmin"] = 7951,
-							["criticalmax"] = 13746,
-							["hitamount"] = 5056,
-						},
-						["Languish"] = {
-							["casts"] = 1,
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 8,
-							["IMMUNE"] = 5,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 71023,
-						},
-						["Languish (DoT)"] = {
-							["hitmin"] = 558,
-							["id"] = 71023,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 1125,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 567,
-							["amount"] = 1125,
-							["hitamount"] = 1125,
-						},
-						["Starfall"] = {
-							["criticalmin"] = 1590,
-							["hitmin"] = 761,
-							["criticalamount"] = 42963,
-							["id"] = 53195,
-							["criticalmax"] = 6256,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 23390,
-								},
-								["Rat"] = {
-									["overkill"] = 2259,
-									["amount"] = 2268,
-								},
-								["Head of the Horseman"] = {
-									["amount"] = 11279,
-								},
-								["Haunting Phantasm"] = {
-									["overkill"] = 4600,
-									["amount"] = 7618,
-								},
-								["Anguished Dead"] = {
-									["overkill"] = 1642,
-									["amount"] = 4660,
-								},
-								["Unfettered Spirit"] = {
-									["overkill"] = 13103,
-									["amount"] = 19088,
-								},
-							},
-							["overkill"] = 21604,
-							["critical"] = 13,
-							["casts"] = 1,
-							["count"] = 27,
-							["hit"] = 14,
-							["school"] = 64,
-							["hitmax"] = 3071,
-							["amount"] = 68303,
-							["hitamount"] = 25340,
-						},
-						["Starfire"] = {
-							["hitmin"] = 7804,
-							["criticalamount"] = 101843,
-							["id"] = 48465,
-							["hitmax"] = 8973,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 118620,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 2,
-							["casts"] = 9,
-							["critical"] = 5,
-							["amount"] = 118620,
-							["school"] = 64,
-							["criticalmin"] = 16207,
-							["criticalmax"] = 23363,
-							["hitamount"] = 16777,
-						},
-					},
-					["damagetaken"] = 14583,
-					["id"] = "0x0700000000706124",
-					["spec"] = 102,
-					["healspells"] = {
-						[48441] = {
-							["overheal"] = 4830,
-							["targets"] = {
-								["Muspell"] = {
-									["overheal"] = 4830,
-									["amount"] = 2590,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 2590,
-							["school"] = 8,
-							["max"] = 1855,
-							["ishot"] = true,
-							["min"] = 203,
-						},
-						[48443] = {
-							["overheal"] = 3170,
-							["max"] = 1114,
-							["count"] = 8,
-							["amount"] = 5741,
-							["school"] = 8,
-							["min"] = 172,
-							["ishot"] = true,
-							["targets"] = {
-								["Muspell"] = {
-									["overheal"] = 3170,
-									["amount"] = 5741,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 76,
-							["id"] = 6603,
-							["sources"] = {
-								["Pulsing Pumpkin"] = {
-									["amount"] = 248,
-								},
-								["Headless Horseman"] = {
-									["amount"] = 12580,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 1582,
-							["amount"] = 12828,
-							["hitamount"] = 12828,
-						},
-						["Horseman's Cleave"] = {
-							["hitmin"] = 1755,
-							["id"] = 42587,
-							["sources"] = {
-								["Headless Horseman"] = {
-									["amount"] = 1755,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1755,
-							["amount"] = 1755,
-							["hitamount"] = 1755,
-						},
-					},
-					["overkill"] = 25511,
-					["heal"] = 8331,
-					["name"] = "Muspell",
-					["totaldamage"] = 237872,
-					["manaspells"] = {
-						[53506] = 5238,
-						[48391] = 138,
-					},
-					["mana"] = 5376,
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 8573.271000000001,
-					["id"] = "0x07000000007F506D",
-					["spec"] = 65,
-					["auras"] = {
-						[2048] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 36,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[32223] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[44185] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-					},
-					["role"] = "HEALER",
-					["name"] = "Chronormu",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "PALADIN",
-				}, -- [3]
-				{
-					["last"] = 8573.271000000001,
-					["id"] = "0x07000000007F32F9",
-					["spec"] = 266,
-					["auras"] = {
-						[2048] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 36,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[32223] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[44185] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Dizdemona",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "WARLOCK",
-				}, -- [4]
-				{
-					["last"] = 8607.701999999999,
+					["last"] = 6676.201,
 					["flag"] = 1298,
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 35,
 						},
-						[2048] = {
+						[47436] = {
 							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[70845] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48068] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 20,
+						},
+						[355] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 36,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
-						[32223] = {
+						[58374] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 2,
 						},
-						[24907] = {
+						[2479] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 35,
+						},
+						[29131] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[57933] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[12976] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[57516] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[44185] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+					},
+					["absorbspells"] = {
+						[70845] = {
+							["min"] = 1212,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 1212,
+							["school"] = 1,
+							["targets"] = {
+								["Dartakan"] = 1212,
+							},
+							["max"] = 1212,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 11.3,
+					["totaldamagetaken"] = 2121,
+					["damage"] = 11208,
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 3059,
+							["id"] = 47488,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["amount"] = 3059,
+									["overkill"] = 2317,
+								},
+							},
+							["overkill"] = 2317,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3059,
+							["amount"] = 3059,
+							["hitamount"] = 3059,
+						},
+						["Charge Stun"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 7922,
+						},
+						["Revenge"] = {
+							["hitmin"] = 4785,
+							["id"] = 57823,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 4785,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4785,
+							["amount"] = 4785,
+							["hitamount"] = 4785,
+						},
+						["Damage Shield"] = {
+							["hitmin"] = 219,
+							["id"] = 59653,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 471,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 252,
+							["amount"] = 471,
+							["hitamount"] = 471,
+						},
+						["Melee"] = {
+							["hitmin"] = 615,
+							["id"] = 6603,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 2127,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 766,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 833,
+							["amount"] = 2893,
+							["hitamount"] = 2893,
+						},
+					},
+					["absorb"] = 1212,
+					["damagetaken"] = 909,
+					["id"] = "0x07000000004AFADF",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 909,
+							["id"] = 6603,
+							["count"] = 2,
+							["amount"] = 909,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 909,
+								},
+							},
+							["BLOCK"] = 1,
+							["blocked"] = 801,
+							["school"] = 1,
+							["hitmax"] = 909,
+							["hit"] = 1,
+							["hitamount"] = 909,
+						},
+						["Horseman's Cleave"] = {
+							["total"] = 1212,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 42587,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+									["total"] = 1212,
+								},
+							},
+						},
+					},
+					["ragespells"] = {
+						[23602] = 5,
+						[2687] = 20,
+						[29131] = 6,
+					},
+					["name"] = "Dartakan",
+					["totaldamage"] = 11208,
+					["rage"] = 31,
+					["overkill"] = 2317,
+				}, -- [2]
+				{
+					["last"] = 6673.006,
+					["flag"] = 1298,
+					["mana"] = 8239,
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[64904] = {
+							["uptime"] = 9,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[48068] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[54646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[60062] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[10952] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[24710] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[64901] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[63619] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 28,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[33151] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["totaldamage"] = 7325,
+					["time"] = 23.99,
+					["totaldamagetaken"] = 221,
+					["damage"] = 7325,
+					["damagespells"] = {
+						["Melee (Shadowfiend)"] = {
+							["criticalamount"] = 3782,
+							["hitmin"] = 811,
+							["criticalmin"] = 1862,
+							["id"] = 6603,
+							["IMMUNE"] = 4,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 7325,
+									["overkill"] = 307,
+								},
+							},
+							["overkill"] = 307,
+							["amount"] = 7325,
+							["criticalmax"] = 1920,
+							["critical"] = 2,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 966,
+							["count"] = 10,
+							["hitamount"] = 3543,
+						},
+					},
+					["damagetaken"] = 221,
+					["id"] = "0x07000000008E082C",
+					["spec"] = 257,
+					["healspells"] = {
+						[63544] = {
+							["overheal"] = 2890,
+							["count"] = 7,
+							["amount"] = 3840,
+							["school"] = 2,
+							["min"] = 909,
+							["targets"] = {
+								["Rzona"] = {
+									["overheal"] = 0,
+									["amount"] = 977,
+								},
+								["Dartakan"] = {
+									["overheal"] = 1044,
+									["amount"] = 909,
+								},
+								["Kalaam"] = {
+									["overheal"] = 0,
+									["amount"] = 1954,
+								},
+								["Eriness"] = {
+									["overheal"] = 977,
+									["amount"] = 0,
+								},
+								["Tysiaa"] = {
+									["overheal"] = 869,
+									["amount"] = 0,
+								},
+							},
+							["max"] = 977,
+						},
+						[48068] = {
+							["overheal"] = 29319,
+							["max"] = 1628,
+							["targets"] = {
+								["Rzona"] = {
+									["overheal"] = 6225,
+									["amount"] = 287,
+								},
+								["Dartakan"] = {
+									["overheal"] = 7427,
+									["amount"] = 713,
+								},
+								["Kalaam"] = {
+									["overheal"] = 3359,
+									["amount"] = 8037,
+								},
+								["Eriness"] = {
+									["overheal"] = 6512,
+									["amount"] = 0,
+								},
+								["Tysiaa"] = {
+									["overheal"] = 5796,
+									["amount"] = 0,
+								},
+							},
+							["min"] = 287,
+							["casts"] = 7,
+							["count"] = 24,
+							["amount"] = 9037,
+							["school"] = 2,
+							["ishot"] = true,
+						},
+						[33110] = {
+							["overheal"] = 3778,
+							["criticalamount"] = 5620,
+							["max"] = 4356,
+							["targets"] = {
+								["Kalaam"] = {
+									["overheal"] = 343,
+									["amount"] = 4356,
+								},
+								["Rzona"] = {
+									["overheal"] = 3435,
+									["amount"] = 1264,
+								},
+							},
+							["min"] = 1264,
+							["criticalmax"] = 4356,
+							["critical"] = 2,
+							["amount"] = 5620,
+							["school"] = 2,
+							["count"] = 2,
+							["criticalmin"] = 1264,
+						},
+					},
+					["overkill"] = 307,
+					["heal"] = 18497,
+					["name"] = "Eriness",
+					["role"] = "HEALER",
+					["manaspells"] = {
+						[64904] = 2147,
+						[34650] = 6092,
+					},
+					["class"] = "PRIEST",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 106,
+							["id"] = 6603,
+							["sources"] = {
+								["Pulsing Pumpkin"] = {
+									["amount"] = 221,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 115,
+							["amount"] = 221,
+							["hitamount"] = 221,
+						},
+					},
+					["overheal"] = 35987,
+				}, -- [3]
+				{
+					["last"] = 6672.51,
+					["flag"] = 1298,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 7,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["refresh"] = 7,
+									["count"] = 2,
+									["uptime"] = 18,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[64844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[59620] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 7,
+						},
+						[48068] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[18499] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[29131] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[44185] = {
 							["school"] = 1,
-							["uptime"] = 11,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[67671] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["uptime"] = 19,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Pulsing Pumpkin"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Headless Horseman"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 14,
-								},
-							},
-							["uptime"] = 16,
+							["count"] = 1,
+							["uptime"] = 2,
 						},
 						[12970] = {
 							["type"] = "BUFF",
-							["count"] = 5,
+							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 21,
+							["refresh"] = 5,
+							["uptime"] = 20,
 						},
-						[7353] = {
+						[70855] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 37,
+							["uptime"] = 7,
 						},
-						[12880] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[71492] = {
 							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
 						},
 					},
-					["time"] = 30.84999999999999,
-					["totaldamagetaken"] = 2328,
-					["damage"] = 46356,
+					["totaldamage"] = 63988,
+					["time"] = 21.07,
+					["damage"] = 63988,
 					["damagespells"] = {
-						["Heroic Strike"] = {
-							["hitmin"] = 1629,
-							["id"] = 47450,
+						["Bloodthirst"] = {
+							["hitmin"] = 3747,
+							["id"] = 23881,
 							["IMMUNE"] = 1,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["amount"] = 1629,
+									["amount"] = 3747,
 								},
 							},
 							["casts"] = 2,
 							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 1629,
-							["amount"] = 1629,
-							["hitamount"] = 1629,
-						},
-						["Bloodthirst"] = {
-							["hitmin"] = 1627,
-							["id"] = 23881,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 6670,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1692,
-							["amount"] = 6670,
-							["hitamount"] = 6670,
+							["hitmax"] = 3747,
+							["amount"] = 3747,
+							["hitamount"] = 3747,
 						},
 						["Melee"] = {
-							["glance"] = 4030,
-							["hitmin"] = 775,
-							["criticalmin"] = 1524,
-							["IMMUNE"] = 2,
+							["hitmin"] = 2675,
+							["criticalamount"] = 26444,
+							["id"] = 6603,
+							["IMMUNE"] = 4,
 							["targets"] = {
-								["Pulsing Pumpkin"] = {
-									["amount"] = 2768,
-								},
-								["Anguished Dead"] = {
-									["overkill"] = 288,
-									["amount"] = 3306,
-								},
 								["Headless Horseman"] = {
-									["amount"] = 14149,
-								},
-								["Head of the Horseman"] = {
-									["amount"] = 1441,
+									["amount"] = 29119,
 								},
 							},
-							["glancing"] = 3,
-							["amount"] = 21664,
-							["MISS"] = 3,
-							["glancemin"] = 1244,
-							["criticalamount"] = 10884,
-							["id"] = 6603,
-							["glancemax"] = 1441,
-							["overkill"] = 288,
-							["criticalmax"] = 3306,
-							["critical"] = 5,
-							["hit"] = 7,
+							["critical"] = 6,
+							["criticalmin"] = 3508,
+							["criticalmax"] = 7146,
+							["hitmax"] = 2675,
+							["amount"] = 29119,
 							["school"] = 1,
-							["hitmax"] = 1403,
-							["count"] = 20,
-							["hitamount"] = 6750,
+							["hit"] = 1,
+							["count"] = 11,
+							["hitamount"] = 2675,
 						},
 						["Deep Wounds"] = {
 							["casts"] = 1,
-							["count"] = 8,
+							["count"] = 7,
 							["amount"] = 0,
 							["school"] = 1,
-							["IMMUNE"] = 8,
+							["IMMUNE"] = 7,
 							["targets"] = {
 								["Headless Horseman"] = {
 									["amount"] = 0,
@@ -1465,155 +1056,843 @@ SkadaStorageDB = {
 							},
 							["id"] = 12721,
 						},
-						["Execute"] = {
-							["hitmin"] = 1610,
-							["id"] = 20647,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 3343,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1733,
-							["amount"] = 3343,
-							["hitamount"] = 3343,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 1018,
-							["criticalamount"] = 6360,
-							["id"] = 1680,
-							["criticalmin"] = 2400,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 11787,
-								},
-							},
-							["criticalmax"] = 3960,
-							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1666,
-							["amount"] = 11787,
-							["hitamount"] = 5427,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 93,
-							["id"] = 12721,
-							["targets"] = {
-								["Headless Horseman"] = {
-									["amount"] = 928,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 362,
-							["amount"] = 928,
-							["hitamount"] = 928,
-						},
 						["Intercept"] = {
-							["hitmin"] = 335,
+							["hitmin"] = 662,
 							["id"] = 20253,
 							["targets"] = {
 								["Headless Horseman"] = {
-									["amount"] = 335,
+									["amount"] = 662,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 335,
-							["amount"] = 335,
-							["hitamount"] = 335,
+							["hitmax"] = 662,
+							["amount"] = 662,
+							["hitamount"] = 662,
+						},
+						["Whirlwind"] = {
+							["criticalamount"] = 14637,
+							["id"] = 44949,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 14637,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 4,
+							["amount"] = 14637,
+							["school"] = 1,
+							["critical"] = 2,
+							["criticalmax"] = 8992,
+							["criticalmin"] = 5645,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 141,
+							["id"] = 12721,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 1580,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 588,
+							["amount"] = 1580,
+							["hitamount"] = 1580,
+						},
+						["Heroic Strike"] = {
+							["criticalamount"] = 14243,
+							["id"] = 47450,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 14243,
+								},
+							},
+							["casts"] = 3,
+							["critical"] = 2,
+							["amount"] = 14243,
+							["school"] = 1,
+							["count"] = 3,
+							["criticalmax"] = 7290,
+							["criticalmin"] = 6953,
 						},
 					},
-					["heal"] = 1722,
-					["damagetaken"] = 2328,
-					["id"] = "0x070000000098F447",
+					["id"] = "0x070000000072E4CE",
 					["spec"] = 72,
 					["healspells"] = {
 						[23880] = {
-							["overheal"] = 708,
-							["count"] = 10,
-							["amount"] = 1722,
+							["overheal"] = 963,
+							["count"] = 3,
+							["amount"] = 0,
 							["school"] = 1,
-							["max"] = 243,
 							["targets"] = {
-								["Enimatek"] = {
-									["overheal"] = 708,
-									["amount"] = 1722,
+								["Tysiaa"] = {
+									["overheal"] = 963,
+									["amount"] = 0,
 								},
 							},
-							["min"] = 21,
 						},
 					},
-					["overkill"] = 288,
-					["overheal"] = 708,
 					["ragespells"] = {
-						[2687] = 20,
 						[29131] = 10,
+						[12964] = 4,
+						[58362] = 20,
 					},
-					["name"] = "Enimatek",
-					["rage"] = 30,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 21,
-							["id"] = 6603,
-							["amount"] = 211,
-							["sources"] = {
-								["Pulsing Pumpkin"] = {
-									["amount"] = 190,
+					["name"] = "Tysiaa",
+					["role"] = "DAMAGER",
+					["rage"] = 34,
+					["heal"] = 0,
+					["overheal"] = 963,
+				}, -- [4]
+				{
+					["last"] = 6675.690000000001,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[72416] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[64904] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 9,
+						},
+						[64844] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 4,
+							["refresh"] = 4,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["refresh"] = 4,
+									["count"] = 4,
+									["uptime"] = 21,
 								},
-								["Anguished Dead"] = {
-									["amount"] = 21,
+								["Head of the Horseman"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[54648] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["refresh"] = 1,
+							["uptime"] = 21,
+						},
+						[48108] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 3,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[15359] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[7353] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[70747] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[55342] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 4,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 30,
+								},
+							},
+							["uptime"] = 30,
+						},
+						[75473] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[70753] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 10,
+						},
+						[44185] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 23,
+								},
+							},
+							["uptime"] = 23,
+						},
+						[54758] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[55637] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[28682] = {
+							["uptime"] = 5,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+						},
+						[48068] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+					},
+					["totaldamage"] = 134147,
+					["time"] = 29.8,
+					["totaldamagetaken"] = 2528,
+					["damage"] = 134147,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalamount"] = 17467,
+							["hitmin"] = 8623,
+							["criticalmin"] = 17467,
+							["id"] = 42833,
+							["amount"] = 35144,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 35144,
+									["overkill"] = 9297,
+								},
+							},
+							["overkill"] = 9297,
+							["hitmax"] = 9054,
+							["criticalmax"] = 17467,
+							["critical"] = 1,
+							["hit"] = 2,
+							["school"] = 4,
+							["count"] = 3,
+							["casts"] = 4,
+							["hitamount"] = 17677,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 1420,
+							["id"] = 42891,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 4623,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 1602,
+							["amount"] = 4623,
+							["hitamount"] = 4623,
+						},
+						["Frostbolt (Mirror Image)"] = {
+							["hitmin"] = 496,
+							["id"] = 59638,
+							["IMMUNE"] = 12,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 6000,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 24,
+							["hit"] = 12,
+							["school"] = 16,
+							["hitmax"] = 502,
+							["amount"] = 6000,
+							["hitamount"] = 6000,
+						},
+						["Fire Blast (Mirror Image)"] = {
+							["criticalamount"] = 517,
+							["hitmin"] = 296,
+							["criticalmin"] = 517,
+							["id"] = 59637,
+							["IMMUNE"] = 6,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 2318,
+								},
+							},
+							["amount"] = 2318,
+							["hitmax"] = 307,
+							["criticalmax"] = 517,
+							["critical"] = 1,
+							["hit"] = 6,
+							["school"] = 4,
+							["count"] = 13,
+							["casts"] = 1,
+							["hitamount"] = 1801,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 3534,
+							["id"] = 42873,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["amount"] = 7431,
+								},
+							},
+							["casts"] = 11,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 3897,
+							["amount"] = 7431,
+							["hitamount"] = 7431,
+						},
+						["Pyroblast"] = {
+							["criticalamount"] = 35231,
+							["id"] = 42891,
+							["IMMUNE"] = 4,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 35231,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 35231,
+							["school"] = 4,
+							["count"] = 6,
+							["criticalmax"] = 18341,
+							["criticalmin"] = 16890,
+						},
+						["Ignite"] = {
+							["casts"] = 1,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 4,
+							["IMMUNE"] = 4,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 12654,
+						},
+						["Scorch"] = {
+							["criticalamount"] = 35681,
+							["id"] = 42859,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 30041,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 5640,
+								},
+							},
+							["casts"] = 8,
+							["critical"] = 6,
+							["amount"] = 35681,
+							["school"] = 4,
+							["count"] = 7,
+							["criticalmax"] = 6584,
+							["criticalmin"] = 5387,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 1077,
+							["id"] = 12654,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 7719,
 								},
 							},
 							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 95,
-							["MISS"] = 1,
-							["hitamount"] = 211,
-						},
-						["Horseman's Cleave"] = {
-							["hitmin"] = 2117,
-							["id"] = 42587,
-							["sources"] = {
-								["Headless Horseman"] = {
-									["amount"] = 2117,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2117,
-							["amount"] = 2117,
-							["hitamount"] = 2117,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 4206,
+							["amount"] = 7719,
+							["hitamount"] = 7719,
 						},
 					},
-					["totaldamage"] = 46356,
+					["damagetaken"] = 2528,
+					["id"] = "0x070000000092217A",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Conflagration (DoT)"] = {
+							["hitmin"] = 1264,
+							["id"] = 42380,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 2528,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 1264,
+							["amount"] = 2528,
+							["hitamount"] = 2528,
+						},
+					},
+					["name"] = "Rzona",
 					["role"] = "DAMAGER",
+					["mana"] = 1165,
+					["manaspells"] = {
+						[29077] = 1084,
+						[67545] = 260,
+						[44450] = -179,
+					},
+					["overkill"] = 9297,
 				}, -- [5]
 			},
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Kalaam"] = {
+									["amount"] = 11184,
+								},
+								["Dartakan"] = {
+									["amount"] = 909,
+								},
+							},
+							["amount"] = 12093,
+						},
+						[42380] = {
+							["school"] = 4,
+							["targets"] = {
+								["Rzona"] = {
+									["amount"] = 2528,
+								},
+							},
+							["amount"] = 2528,
+						},
+						[42587] = {
+							["school"] = 1,
+							["total"] = 1212,
+							["targets"] = {
+								["Dartakan"] = {
+									["amount"] = 0,
+									["total"] = 1212,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["damagetaken"] = 397415,
+					["id"] = "0xF130005C8200008A",
+					["class"] = "BOSS",
+					["damagetakenspells"] = {
+						[42859] = {
+							["school"] = 4,
+							["sources"] = {
+								["Rzona"] = {
+									["amount"] = 30041,
+								},
+							},
+							["amount"] = 30041,
+						},
+						[42891] = {
+							["school"] = 4,
+							["sources"] = {
+								["Rzona"] = {
+									["amount"] = 39854,
+								},
+							},
+							["amount"] = 39854,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tysiaa"] = {
+									["amount"] = 14243,
+								},
+							},
+							["amount"] = 14243,
+						},
+						[42833] = {
+							["school"] = 4,
+							["sources"] = {
+								["Rzona"] = {
+									["amount"] = 35144,
+									["overkill"] = 9297,
+								},
+							},
+							["amount"] = 35144,
+							["overkill"] = 9297,
+						},
+						[59637] = {
+							["school"] = 4,
+							["sources"] = {
+								["Rzona"] = {
+									["amount"] = 2318,
+								},
+							},
+							["amount"] = 2318,
+						},
+						[12654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Rzona"] = {
+									["amount"] = 7719,
+								},
+							},
+							["amount"] = 7719,
+						},
+						[57965] = {
+							["school"] = 8,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 21111,
+								},
+							},
+							["amount"] = 21111,
+						},
+						[57842] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 4948,
+								},
+							},
+							["amount"] = 4948,
+						},
+						[48668] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 4034,
+								},
+							},
+							["amount"] = 4034,
+						},
+						[48638] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 39485,
+								},
+							},
+							["amount"] = 39485,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tysiaa"] = {
+									["amount"] = 8992,
+								},
+							},
+							["amount"] = 8992,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Dartakan"] = {
+									["amount"] = 2127,
+								},
+								["Eriness"] = {
+									["amount"] = 7325,
+									["overkill"] = 307,
+								},
+								["Kalaam"] = {
+									["amount"] = 93995,
+									["overkill"] = 127,
+								},
+								["Tysiaa"] = {
+									["amount"] = 29119,
+								},
+							},
+							["amount"] = 132566,
+							["overkill"] = 434,
+						},
+						[57975] = {
+							["school"] = 8,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 10416,
+								},
+							},
+							["amount"] = 10416,
+						},
+						[57823] = {
+							["school"] = 1,
+							["sources"] = {
+								["Dartakan"] = {
+									["amount"] = 4785,
+								},
+							},
+							["amount"] = 4785,
+						},
+						[59653] = {
+							["school"] = 1,
+							["sources"] = {
+								["Dartakan"] = {
+									["amount"] = 471,
+								},
+							},
+							["amount"] = 471,
+						},
+						[57841] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 23654,
+								},
+							},
+							["amount"] = 23654,
+						},
+						[20253] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tysiaa"] = {
+									["amount"] = 662,
+								},
+							},
+							["amount"] = 662,
+						},
+						[59638] = {
+							["school"] = 16,
+							["sources"] = {
+								["Rzona"] = {
+									["amount"] = 6000,
+								},
+							},
+							["amount"] = 6000,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tysiaa"] = {
+									["amount"] = 1580,
+								},
+							},
+							["amount"] = 1580,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tysiaa"] = {
+									["amount"] = 3747,
+								},
+							},
+							["amount"] = 3747,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Tysiaa"] = {
+									["amount"] = 5645,
+								},
+							},
+							["amount"] = 5645,
+						},
+					},
+					["totaldamage"] = 15833,
+					["name"] = "Headless Horseman",
+					["totaldamagetaken"] = 397415,
+					["flag"] = 68168,
+					["damage"] = 14621,
+				}, -- [1]
+				{
+					["flag"] = 68168,
+					["name"] = "Head of the Horseman",
+					["damagetaken"] = 73693,
+					["id"] = "0xF130005CDF000090",
+					["totaldamagetaken"] = 73693,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[57965] = {
+							["school"] = 8,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 4709,
+								},
+							},
+							["amount"] = 4709,
+						},
+						[47488] = {
+							["school"] = 1,
+							["sources"] = {
+								["Dartakan"] = {
+									["amount"] = 3059,
+									["overkill"] = 2317,
+								},
+							},
+							["amount"] = 3059,
+							["overkill"] = 2317,
+						},
+						[48638] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 20472,
+								},
+							},
+							["amount"] = 20472,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 29089,
+								},
+								["Dartakan"] = {
+									["amount"] = 766,
+								},
+							},
+							["amount"] = 29855,
+						},
+						[57975] = {
+							["school"] = 8,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 2527,
+								},
+							},
+							["amount"] = 2527,
+						},
+						[42873] = {
+							["school"] = 4,
+							["sources"] = {
+								["Rzona"] = {
+									["amount"] = 7431,
+								},
+							},
+							["amount"] = 7431,
+						},
+						[42859] = {
+							["school"] = 4,
+							["sources"] = {
+								["Rzona"] = {
+									["amount"] = 5640,
+								},
+							},
+							["amount"] = 5640,
+						},
+					},
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Eriness"] = {
+									["amount"] = 221,
+								},
+							},
+							["amount"] = 221,
+						},
+					},
+					["totaldamage"] = 221,
+					["name"] = "Pulsing Pumpkin",
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF130005C8E000094",
+					["damage"] = 221,
+				}, -- [3]
+			},
+			["overheal"] = 36950,
+			["totaldamage"] = 471108,
+			["time"] = 35,
+			["last_action"] = 1698488441,
+			["totaldamagetaken"] = 18303,
+			["etotaldamage"] = 16054,
+			["damage"] = 471108,
+			["rage"] = 65,
+			["absorb"] = 1212,
+			["damagetaken"] = 17091,
+			["gotboss"] = 23682,
+			["starttime"] = 1698488406,
+			["etotaldamagetaken"] = 471108,
+			["last_time"] = 6677.791,
+			["overkill"] = 12048,
+			["edamagetaken"] = 471108,
+			["heal"] = 18497,
+			["name"] = "Headless Horseman",
+			["mobname"] = "Headless Horseman",
 			["type"] = "party",
-			["damagetaken"] = 19137,
-			["etotaldamage"] = 19137,
-			["damage"] = 500124,
-			["overkill"] = 35960,
-			["edamagetaken"] = 500124,
-			["heal"] = 10053,
-			["name"] = "Anguished Dead",
-			["mobname"] = "Anguished Dead",
-			["starttime"] = 1698310455,
-			["edamage"] = 19137,
-			["last_action"] = 1698310492,
-			["endtime"] = 1698310492,
+			["edamage"] = 14842,
+			["energy"] = 120,
+			["endtime"] = 1698488441,
 		}, -- [1]
 	},
 }
