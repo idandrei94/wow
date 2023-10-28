@@ -62,10 +62,3 @@ X: 0
 Y: 0
 W: 640
 H: 512
-Frame: BagnonFrameinventory
-FrameLevel: 1
-Anchor: RIGHT
-X: -144
-Y: -40
-W: 586
-H: 550
