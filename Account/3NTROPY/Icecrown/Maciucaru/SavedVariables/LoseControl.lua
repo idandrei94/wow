@@ -1,14 +1,5 @@
 
 LoseControlDB = {
-	["tracking"] = {
-		["Immune"] = false,
-		["CC"] = true,
-		["Snare"] = false,
-		["Silence"] = true,
-		["Root"] = false,
-		["Disarm"] = true,
-		["PvE"] = true,
-	},
 	["frames"] = {
 		["party3"] = {
 			["anchor"] = "Blizzard",
@@ -87,6 +78,15 @@ LoseControlDB = {
 			["size"] = 28,
 		},
 	},
-	["version"] = 3.32,
+	["tracking"] = {
+		["Immune"] = false,
+		["CC"] = true,
+		["Snare"] = false,
+		["Silence"] = true,
+		["Root"] = false,
+		["Disarm"] = true,
+		["PvE"] = true,
+	},
 	["noCooldownCount"] = false,
+	["version"] = 3.32,
 }
