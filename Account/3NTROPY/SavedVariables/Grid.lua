@@ -1,13 +1,6 @@
 
 GridDB = {
 	["namespaces"] = {
-		["GridRoster"] = {
-			["profiles"] = {
-				["Default"] = {
-					["party_state"] = "party",
-				},
-			},
-		},
 		["GridStatusRange"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -115,19 +108,6 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 28 yards away",
 					},
-					["alert_range_30"] = {
-						["color"] = {
-							["a"] = 0.4545454545454546,
-							["b"] = 0.9,
-							["g"] = 0.6,
-							["r"] = 0.3,
-						},
-						["priority"] = 83,
-						["enable"] = false,
-						["text"] = "30 yards",
-						["range"] = false,
-						["desc"] = "More than 30 yards away",
-					},
 					["alert_range_60"] = {
 						["color"] = {
 							["a"] = 0.8363636363636364,
@@ -140,6 +120,19 @@ GridDB = {
 						["text"] = "60 yards",
 						["range"] = false,
 						["desc"] = "More than 60 yards away",
+					},
+					["alert_range_30"] = {
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["b"] = 0.9,
+							["g"] = 0.6,
+							["r"] = 0.3,
+						},
+						["priority"] = 83,
+						["enable"] = false,
+						["text"] = "30 yards",
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
 					},
 					["alert_range_100"] = {
 						["color"] = {
