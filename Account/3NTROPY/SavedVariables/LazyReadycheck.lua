@@ -1,4 +1,4 @@
 
 LazyReadyCheck = {
-	["login"] = false,
+	["login"] = true,
 }

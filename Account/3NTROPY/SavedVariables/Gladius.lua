@@ -19,29 +19,29 @@ GladiusDB = {
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
-		["Nalar - Icecrown"] = "Nalar - Icecrown",
-		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Glacion - Icecrown"] = "Glacion - Icecrown",
+		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Glacianos - Icecrown"] = "Glacianos - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
+		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
-		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
+		["Morridin - Icecrown"] = "Morridin - Icecrown",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Flokus - Icecrown"] = "Flokus - Icecrown",
-		["Morridin - Icecrown"] = "Morridin - Icecrown",
-		["Inarya - Icecrown"] = "Inarya - Icecrown",
+		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
-		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
-		["Glacion - Icecrown"] = "Glacion - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Nalar - Icecrown"] = "Nalar - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1073.972052732495,
 			["y"] = 513.4333619292002,
+			["x"] = 1073.972052732495,
 		},
 		["Vrael - Icecrown"] = {
 			["locked"] = true,
@@ -121,85 +121,85 @@ GladiusDB = {
 			["x"] = 1091.03865008566,
 			["y"] = 533.3444026788393,
 		},
-		["Nalar - Icecrown"] = {
+		["Glacion - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1091.038524034304,
-			["y"] = 556.8110685779587,
-		},
-		["Lingurita - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1156.7062386827,
-			["y"] = 517.6999482418132,
-		},
-		["Ulrezaj - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 953.6932015330746,
-			["y"] = 521.9056625649222,
-		},
-		["Elgorath - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1168.703932839543,
-			["y"] = 515.2998358767728,
-		},
-		["Pocaitoru - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1068.283355016582,
-			["y"] = 591.6555710886522,
-		},
-		["Glacianos - Icecrown"] = {
-		},
-		["Mirceabravo - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1055.500041779703,
-			["y"] = 523.9999425614554,
-		},
-		["Flocparlit - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1166.950180317463,
-			["y"] = 541.6999689428485,
-		},
-		["Sculatru - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1162.150270715773,
-			["y"] = 527.3000195479056,
-		},
-		["Mirceabravo - Blackrock [PvP only]"] = {
-			["locked"] = true,
-		},
-		["Maciucaru - Icecrown"] = {
-			["locked"] = true,
-			["y"] = 529.9999838625041,
-			["x"] = 1049.500140519296,
-		},
-		["Flokus - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1172.283413208229,
-			["y"] = 487.299953533341,
-		},
-		["Morridin - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1175.102425743542,
-			["y"] = 510.499894762244,
-		},
-		["Inarya - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1097.083064729433,
-			["y"] = 505.4333235160159,
-		},
-		["Pubianus - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1173.883509126815,
-			["y"] = 538.5000292083887,
+			["x"] = 1161.505139873538,
+			["y"] = 529.6999428359112,
 		},
 		["Pocaitorul - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1140.709691294312,
 			["y"] = 541.6999689428485,
 		},
-		["Glacion - Icecrown"] = {
+		["Ulrezaj - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1161.505139873538,
-			["y"] = 529.6999428359112,
+			["x"] = 953.6932015330746,
+			["y"] = 521.9056625649222,
+		},
+		["Glacianos - Icecrown"] = {
+		},
+		["Lingurita - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1156.7062386827,
+			["y"] = 517.6999482418132,
+		},
+		["Elgorath - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1168.703932839543,
+			["y"] = 515.2998358767728,
+		},
+		["Inarya - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1097.083064729433,
+			["y"] = 505.4333235160159,
+		},
+		["Flocparlit - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1166.950180317463,
+			["y"] = 541.6999689428485,
+		},
+		["Morridin - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1175.102425743542,
+			["y"] = 510.499894762244,
+		},
+		["Mirceabravo - Blackrock [PvP only]"] = {
+			["locked"] = true,
+		},
+		["Maciucaru - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1049.500140519296,
+			["y"] = 529.9999838625041,
+		},
+		["Flokus - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1172.283413208229,
+			["y"] = 487.299953533341,
+		},
+		["Sculatru - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1162.150270715773,
+			["y"] = 527.3000195479056,
+		},
+		["Mirceabravo - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1055.500041779703,
+			["y"] = 523.9999425614554,
+		},
+		["Pubianus - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1173.883509126815,
+			["y"] = 538.5000292083887,
+		},
+		["Pocaitoru - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1068.283355016582,
+			["y"] = 591.6555710886522,
+		},
+		["Nalar - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1091.038524034304,
+			["y"] = 556.8110685779587,
 		},
 	},
 }
