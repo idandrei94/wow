@@ -69,3 +69,10 @@ X: 15
 Y: 37
 W: 930
 H: 544
+Frame: BagnonFramebank
+FrameLevel: 1
+Anchor: LEFT
+X: 229
+Y: 9
+W: 422
+H: 673
