@@ -1,6 +1,6 @@
 Version: 1
 Frame: LootFrame
-FrameLevel: 10
+FrameLevel: 9
 Anchor: CENTER
 X: 93
 Y: -13
@@ -18,8 +18,8 @@ FrameLevel: 11
 Anchor: TOP
 X: -246
 Y: -98
-W: 332
-H: 128
+W: 128
+H: 64
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT

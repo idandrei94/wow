@@ -1,39 +1,45 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["potion"] = 1,
 		["mana"] = 90514,
-		["runic"] = 154,
-		["overheal"] = 730951,
 		["dispel"] = 10,
-		["totaldamage"] = 4943127,
-		["time"] = 685,
-		["totaldamagetaken"] = 892455,
+		["totaldamage"] = 5154114,
+		["time"] = 853,
+		["cctaken"] = 9,
+		["totaldamagetaken"] = 982369,
+		["damage"] = 5151529,
+		["runic"] = 169,
+		["absorb"] = 191295,
+		["damagetaken"] = 791074,
+		["interrupt"] = 8,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "DEATHKNIGHT",
-				["time"] = 565.5400000000003,
-				["totaldamagetaken"] = 301519,
-				["damage"] = 2900163,
-				["overheal"] = 92166,
+				["totaldamage"] = 3111150,
+				["time"] = 700.8399999999997,
+				["cctaken"] = 9,
+				["totaldamagetaken"] = 391433,
+				["damage"] = 3108565,
+				["overheal"] = 94437,
 				["absorb"] = 5334,
-				["damagetaken"] = 245705,
+				["damagetaken"] = 335619,
 				["id"] = "0x070000000000D01B",
 				["spec"] = 252,
-				["overkill"] = 62534,
-				["heal"] = 98842,
+				["overkill"] = 92186,
+				["heal"] = 148687,
 				["name"] = "Urgash",
-				["ccdone"] = 12,
-				["interrupt"] = 6,
-				["runic"] = 26,
-				["totaldamage"] = 2900163,
+				["death"] = 2,
 				["role"] = "DAMAGER",
+				["runic"] = 41,
+				["interrupt"] = 7,
+				["ccdone"] = 32,
 			}, -- [1]
 			{
 				["flag"] = 1298,
 				["mana"] = 13712,
 				["dispel"] = 10,
+				["totaldamage"] = 32966,
 				["time"] = 283.1,
 				["totaldamagetaken"] = 86518,
 				["damage"] = 32966,
@@ -45,11 +51,10 @@ SkadaStorageDB = {
 				["overkill"] = 302,
 				["heal"] = 467242,
 				["name"] = "Saiyako",
-				["totaldamage"] = 32966,
-				["runic"] = 128,
+				["role"] = "HEALER",
 				["class"] = "PRIEST",
 				["energy"] = 16,
-				["role"] = "HEALER",
+				["runic"] = 128,
 			}, -- [2]
 			{
 				["flag"] = 1298,
@@ -66,31 +71,32 @@ SkadaStorageDB = {
 				["overkill"] = 10773,
 				["heal"] = 82214,
 				["name"] = "Orcerror",
-				["potion"] = 1,
-				["mana"] = 56156,
 				["role"] = "TANK",
+				["mana"] = 56156,
+				["potion"] = 1,
 			}, -- [3]
 			{
+				["overheal"] = 27319,
+				["id"] = "0x07000000009CFE08",
+				["damagetaken"] = 84759,
+				["interrupt"] = 1,
 				["flag"] = 1298,
 				["class"] = "ROGUE",
-				["time"] = 232.1599999999999,
-				["totaldamagetaken"] = 111284,
-				["damage"] = 491300,
-				["overheal"] = 27319,
-				["damagetaken"] = 84759,
-				["id"] = "0x07000000009CFE08",
-				["spec"] = 260,
-				["overkill"] = 4877,
-				["heal"] = 12461,
-				["name"] = "Domanxdevet",
-				["interrupt"] = 1,
 				["totaldamage"] = 491300,
-				["energy"] = 255,
+				["overkill"] = 4877,
+				["name"] = "Domanxdevet",
 				["role"] = "DAMAGER",
+				["time"] = 232.1599999999999,
+				["heal"] = 12461,
+				["spec"] = 260,
+				["totaldamagetaken"] = 111284,
+				["energy"] = 255,
+				["damage"] = 491300,
 			}, -- [4]
 			{
 				["flag"] = 1298,
 				["mana"] = 20646,
+				["totaldamage"] = 920688,
 				["time"] = 230.9099999999999,
 				["totaldamagetaken"] = 110222,
 				["damage"] = 920688,
@@ -102,25 +108,4919 @@ SkadaStorageDB = {
 				["heal"] = 19381,
 				["name"] = "Yagedyr",
 				["ccdone"] = 1,
-				["class"] = "DRUID",
-				["totaldamage"] = 920688,
-				["energy"] = 1228,
 				["role"] = "DAMAGER",
+				["energy"] = 1228,
+				["class"] = "DRUID",
 			}, -- [5]
 		},
-		["damage"] = 4943127,
+		["overkill"] = 142588,
+		["ccdone"] = 33,
+		["heal"] = 729985,
+		["potion"] = 1,
+		["death"] = 2,
 		["starttime"] = 1698953105,
-		["absorb"] = 191295,
-		["damagetaken"] = 701160,
-		["interrupt"] = 7,
-		["overkill"] = 112936,
-		["heal"] = 680140,
 		["name"] = "Total",
-		["ccdone"] = 13,
 		["energy"] = 1499,
+		["overheal"] = 733222,
 	},
 	["version"] = 1878,
 	["sets"] = {
+		{
+			["eoverkill"] = 707,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[48566] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 5189,
+								},
+							},
+							["amount"] = 5189,
+						},
+						[49800] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 19047,
+								},
+							},
+							["amount"] = 19047,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 6532,
+								},
+							},
+							["amount"] = 6532,
+						},
+						[48574] = {
+							["school"] = 1,
+							["amount"] = 15816,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 15816,
+									["overkill"] = 707,
+								},
+							},
+							["overkill"] = 707,
+						},
+						[49804] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 3387,
+								},
+							},
+							["amount"] = 3387,
+						},
+					},
+					["damagetaken"] = 37365,
+					["flag"] = 66888,
+					["class"] = "DRUID",
+					["damagetakenspells"] = {
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6064,
+								},
+							},
+							["amount"] = 6064,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 612,
+								},
+							},
+							["amount"] = 612,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 7714,
+								},
+							},
+							["amount"] = 7714,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6017,
+								},
+							},
+							["amount"] = 6017,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1682,
+									["total"] = 1928,
+								},
+							},
+							["total"] = 1928,
+							["amount"] = 1682,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1523,
+								},
+							},
+							["amount"] = 1523,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2251,
+								},
+							},
+							["amount"] = 2251,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5049,
+								},
+							},
+							["amount"] = 5049,
+						},
+						[47481] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 35,
+								},
+							},
+							["amount"] = 35,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5892,
+								},
+							},
+							["amount"] = 5892,
+						},
+						[50536] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 526,
+								},
+							},
+							["amount"] = 526,
+						},
+					},
+					["totaldamage"] = 49971,
+					["name"] = "Tigernuts",
+					["overkill"] = 707,
+					["totaldamagetaken"] = 37611,
+					["id"] = "0x070000000000AE84",
+					["damage"] = 49971,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 940,
+								},
+							},
+							["amount"] = 940,
+						},
+						[20647] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 993,
+								},
+							},
+							["amount"] = 993,
+						},
+					},
+					["totaldamage"] = 1933,
+					["name"] = "Celtoz",
+					["flag"] = 1352,
+					["class"] = "WARRIOR",
+					["id"] = "0x07000000009B0351",
+					["damage"] = 1933,
+				}, -- [2]
+			},
+			["totaldamage"] = 37611,
+			["time"] = 38,
+			["cctaken"] = 1,
+			["totaldamagetaken"] = 51904,
+			["etotaldamagetaken"] = 37611,
+			["damage"] = 37365,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[47481] = {
+							["count"] = 1,
+							["targets"] = {
+								["Tigernuts"] = 1,
+							},
+						},
+						[45524] = {
+							["count"] = 4,
+							["targets"] = {
+								["Celtoz"] = 1,
+								["Tigernuts"] = 3,
+							},
+						},
+					},
+					["last"] = 5738.912,
+					["flag"] = 4369,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Tigernuts"] = {
+									["uptime"] = 32,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 32,
+						},
+						[47481] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Tigernuts"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["targets"] = {
+								["Tigernuts"] = {
+									["uptime"] = 5,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 3,
+							["targets"] = {
+								["Tigernuts"] = {
+									["refresh"] = 3,
+									["count"] = 2,
+									["uptime"] = 34,
+								},
+							},
+							["uptime"] = 34,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 38,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Tigernuts"] = {
+									["uptime"] = 19,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 19,
+						},
+						[67773] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 38,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Tigernuts"] = {
+									["uptime"] = 8,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Tigernuts"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 33,
+								},
+							},
+							["uptime"] = 33,
+						},
+						[67708] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48792] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 33,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["totaldamage"] = 37611,
+					["time"] = 36.08000000000001,
+					["cctaken"] = 1,
+					["totaldamagetaken"] = 51904,
+					["damage"] = 37365,
+					["damagespells"] = {
+						["Claw (Plaguerawler)"] = {
+							["DODGE"] = 2,
+							["total"] = 1928,
+							["hitmin"] = 448,
+							["id"] = 47468,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 1682,
+									["total"] = 1928,
+								},
+							},
+							["hit"] = 3,
+							["casts"] = 1,
+							["count"] = 6,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["amount"] = 1682,
+							["hitmax"] = 662,
+							["hitamount"] = 1682,
+						},
+						["Melee"] = {
+							["DODGE"] = 5,
+							["hitmin"] = 1462,
+							["criticalamount"] = 2348,
+							["id"] = 6603,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 5293,
+								},
+							},
+							["criticalmin"] = 2348,
+							["amount"] = 5293,
+							["criticalmax"] = 2348,
+							["critical"] = 1,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1483,
+							["count"] = 8,
+							["hitamount"] = 2945,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 2705,
+							["id"] = 47632,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 5892,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 3187,
+							["amount"] = 5892,
+							["hitamount"] = 5892,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 27,
+							["id"] = 50536,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 526,
+								},
+							},
+							["count"] = 18,
+							["hit"] = 18,
+							["school"] = 32,
+							["hitmax"] = 31,
+							["amount"] = 526,
+							["hitamount"] = 526,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 302,
+							["id"] = 50526,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 612,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 310,
+							["amount"] = 612,
+							["hitamount"] = 612,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 466,
+							["id"] = 49921,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 1523,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1057,
+							["amount"] = 1523,
+							["hitamount"] = 1523,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 572,
+							["id"] = 55078,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 6064,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 32,
+							["hitmax"] = 658,
+							["amount"] = 6064,
+							["hitamount"] = 6064,
+						},
+						["Gnaw (Plaguerawler)"] = {
+							["hitmin"] = 35,
+							["id"] = 47481,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 35,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 35,
+							["amount"] = 35,
+							["hitamount"] = 35,
+						},
+						["Death Strike"] = {
+							["DODGE"] = 5,
+							["hitmin"] = 1131,
+							["criticalamount"] = 3918,
+							["id"] = 49924,
+							["count"] = 8,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 5049,
+								},
+							},
+							["criticalmax"] = 2020,
+							["criticalmin"] = 1898,
+							["casts"] = 11,
+							["hitmax"] = 1131,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 5049,
+							["critical"] = 2,
+							["hitamount"] = 1131,
+						},
+						["Melee (Plaguerawler)"] = {
+							["DODGE"] = 5,
+							["hitmin"] = 158,
+							["criticalamount"] = 544,
+							["id"] = 6603,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 2421,
+								},
+							},
+							["criticalmin"] = 544,
+							["amount"] = 2421,
+							["criticalmax"] = 544,
+							["critical"] = 1,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 447,
+							["count"] = 12,
+							["hitamount"] = 1877,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 559,
+							["id"] = 55095,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 6017,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 16,
+							["hitmax"] = 730,
+							["amount"] = 6017,
+							["hitamount"] = 6017,
+						},
+						["Blood Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1110,
+							["id"] = 49930,
+							["targets"] = {
+								["Tigernuts"] = {
+									["amount"] = 2251,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1141,
+							["amount"] = 2251,
+							["hitamount"] = 2251,
+						},
+					},
+					["damagetaken"] = 51904,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["source"] = "Tigernuts",
+									["time"] = 5738.711,
+									["amount"] = -1737,
+									["school"] = 1,
+									["spellid"] = 48574,
+									["hp"] = 1,
+									["overkill"] = 707,
+								}, -- [1]
+								{
+									["source"] = "Celtoz",
+									["amount"] = -993,
+									["school"] = 1,
+									["time"] = 5737.247,
+									["hp"] = 1030,
+									["spellid"] = 20647,
+								}, -- [2]
+								{
+									["source"] = "Celtoz",
+									["amount"] = -360,
+									["school"] = 1,
+									["time"] = 5737.005,
+									["hp"] = 2383,
+									["spellid"] = 6603,
+								}, -- [3]
+								{
+									["source"] = "Celtoz",
+									["amount"] = -580,
+									["school"] = 1,
+									["time"] = 5736.815,
+									["hp"] = 2963,
+									["spellid"] = 6603,
+								}, -- [4]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -2454,
+									["school"] = 1,
+									["time"] = 5736.484,
+									["hp"] = 2963,
+									["spellid"] = 49800,
+								}, -- [5]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -1738,
+									["school"] = 1,
+									["time"] = 5735.459000000001,
+									["hp"] = 5417,
+									["spellid"] = 48574,
+								}, -- [6]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -2455,
+									["school"] = 1,
+									["time"] = 5734.459,
+									["hp"] = 7155,
+									["spellid"] = 49800,
+								}, -- [7]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -2455,
+									["school"] = 1,
+									["time"] = 5732.395,
+									["hp"] = 9610,
+									["spellid"] = 49800,
+								}, -- [8]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -489,
+									["school"] = 1,
+									["time"] = 5732.138,
+									["hp"] = 12065,
+									["spellid"] = 48574,
+								}, -- [9]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -1738,
+									["school"] = 1,
+									["time"] = 5731.422000000001,
+									["hp"] = 12554,
+									["spellid"] = 48574,
+								}, -- [10]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -1495,
+									["school"] = 1,
+									["time"] = 5730.432000000001,
+									["hp"] = 14292,
+									["spellid"] = 49800,
+								}, -- [11]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -1235,
+									["school"] = 1,
+									["time"] = 5729.389999999999,
+									["hp"] = 17022,
+									["spellid"] = 6603,
+								}, -- [12]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -1495,
+									["school"] = 1,
+									["time"] = 5728.429,
+									["hp"] = 17022,
+									["spellid"] = 49800,
+								}, -- [13]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -1738,
+									["school"] = 1,
+									["time"] = 5728.43,
+									["hp"] = 18517,
+									["spellid"] = 48574,
+								}, -- [14]
+							},
+							["time"] = 5738.713,
+							["source"] = "Tigernuts",
+							["school"] = 1,
+							["maxhp"] = 32781,
+							["spellid"] = 48574,
+							["timeod"] = 1699002291,
+						}, -- [1]
+					},
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 0,
+							["criticalamount"] = 1474,
+							["max"] = 1474,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 2457,
+								},
+							},
+							["min"] = 983,
+							["criticalmax"] = 1474,
+							["count"] = 2,
+							["amount"] = 2457,
+							["school"] = 1,
+							["critical"] = 1,
+							["criticalmin"] = 1474,
+						},
+						[45470] = {
+							["overheal"] = 0,
+							["casts"] = 3,
+							["count"] = 3,
+							["amount"] = 14751,
+							["max"] = 4917,
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 14751,
+								},
+							},
+							["min"] = 4917,
+						},
+						[48743] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 13112,
+							["school"] = 32,
+							["min"] = 13112,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 13112,
+								},
+							},
+							["max"] = 13112,
+						},
+					},
+					["damagetakenspells"] = {
+						["Pounce Bleed (DoT)"] = {
+							["hitmin"] = 515,
+							["id"] = 49804,
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 3387,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 736,
+							["amount"] = 3387,
+							["hitamount"] = 3387,
+						},
+						["Melee"] = {
+							["hitmin"] = 301,
+							["criticalamount"] = 5485,
+							["id"] = 6603,
+							["criticalmin"] = 509,
+							["amount"] = 7472,
+							["hitmax"] = 580,
+							["count"] = 13,
+							["criticalmax"] = 1235,
+							["critical"] = 7,
+							["hit"] = 5,
+							["school"] = 1,
+							["sources"] = {
+								["Celtoz"] = {
+									["amount"] = 940,
+								},
+								["Tigernuts"] = {
+									["amount"] = 6532,
+								},
+							},
+							["PARRY"] = 1,
+							["hitamount"] = 1987,
+						},
+						["Rake"] = {
+							["hitmin"] = 263,
+							["criticalamount"] = 1295,
+							["id"] = 48574,
+							["count"] = 5,
+							["criticalmin"] = 493,
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 2047,
+								},
+							},
+							["amount"] = 2047,
+							["PARRY"] = 1,
+							["hitmax"] = 489,
+							["hit"] = 2,
+							["school"] = 1,
+							["critical"] = 2,
+							["criticalmax"] = 802,
+							["hitamount"] = 752,
+						},
+						["Rake (DoT)"] = {
+							["hitmin"] = 936,
+							["id"] = 48574,
+							["overkill"] = 707,
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 13769,
+									["overkill"] = 707,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 1738,
+							["amount"] = 13769,
+							["hitamount"] = 13769,
+						},
+						["Execute"] = {
+							["hitmin"] = 993,
+							["id"] = 20647,
+							["sources"] = {
+								["Celtoz"] = {
+									["amount"] = 993,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 993,
+							["amount"] = 993,
+							["hitamount"] = 993,
+						},
+						["Mangle (Cat)"] = {
+							["criticalamount"] = 5189,
+							["id"] = 48566,
+							["criticalmax"] = 2615,
+							["critical"] = 2,
+							["amount"] = 5189,
+							["school"] = 1,
+							["count"] = 2,
+							["criticalmin"] = 2574,
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 5189,
+								},
+							},
+						},
+						["Bash"] = {
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["id"] = 8983,
+						},
+						["Rip (DoT)"] = {
+							["hitmin"] = 805,
+							["criticalamount"] = 11687,
+							["id"] = 49800,
+							["count"] = 13,
+							["criticalmin"] = 1236,
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 19047,
+								},
+							},
+							["criticalmax"] = 2455,
+							["hitmax"] = 1495,
+							["hit"] = 7,
+							["school"] = 1,
+							["amount"] = 19047,
+							["critical"] = 6,
+							["hitamount"] = 7360,
+						},
+					},
+					["heal"] = 30320,
+					["name"] = "Urgash",
+					["death"] = 1,
+					["role"] = "DAMAGER",
+					["overheal"] = 0,
+					["cctakenspells"] = {
+						[7922] = {
+							["count"] = 1,
+							["sources"] = {
+								["Celtoz"] = 1,
+							},
+						},
+					},
+					["ccdone"] = 5,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 51904,
+			["last_time"] = 5738.912,
+			["overheal"] = 0,
+			["ccdone"] = 5,
+			["starttime"] = 1699002253,
+			["mobname"] = "Tigernuts",
+			["edamagetaken"] = 37365,
+			["heal"] = 30320,
+			["name"] = "Tigernuts",
+			["death"] = 1,
+			["etotaldamage"] = 51904,
+			["edamage"] = 51904,
+			["last_action"] = 1699002291,
+			["endtime"] = 1699002291,
+		}, -- [1]
+		{
+			["eoverkill"] = 1000,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 2046,
+								},
+							},
+							["amount"] = 2046,
+						},
+						[48660] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 2302,
+								},
+							},
+							["amount"] = 2302,
+						},
+						[57975] = {
+							["school"] = 8,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 386,
+								},
+							},
+							["amount"] = 386,
+						},
+						[48657] = {
+							["school"] = 1,
+							["amount"] = 3245,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 3245,
+									["overkill"] = 1000,
+								},
+							},
+							["overkill"] = 1000,
+						},
+					},
+					["damagetaken"] = 17621,
+					["flag"] = 66888,
+					["class"] = "ROGUE",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 579,
+								},
+							},
+							["amount"] = 579,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2024,
+								},
+							},
+							["amount"] = 2024,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 799,
+								},
+							},
+							["amount"] = 799,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2121,
+								},
+							},
+							["amount"] = 2121,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1759,
+								},
+							},
+							["amount"] = 1759,
+						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1637,
+								},
+							},
+							["amount"] = 1637,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3595,
+								},
+							},
+							["amount"] = 3595,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5107,
+								},
+							},
+							["amount"] = 5107,
+						},
+					},
+					["totaldamage"] = 7979,
+					["name"] = "Warcus",
+					["overkill"] = 1000,
+					["totaldamagetaken"] = 17621,
+					["id"] = "0x070000000068D0CA",
+					["damage"] = 7979,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[48574] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 3324,
+								},
+							},
+							["amount"] = 3324,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 4440,
+								},
+							},
+							["amount"] = 4440,
+						},
+						[49802] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1488,
+								},
+							},
+							["amount"] = 1488,
+						},
+						[48566] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 5595,
+								},
+							},
+							["amount"] = 5595,
+						},
+					},
+					["damagetaken"] = 20016,
+					["flag"] = 66888,
+					["class"] = "DRUID",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5179,
+								},
+							},
+							["amount"] = 5179,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1263,
+								},
+							},
+							["amount"] = 1263,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 713,
+								},
+							},
+							["amount"] = 713,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 994,
+								},
+							},
+							["amount"] = 994,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3590,
+								},
+							},
+							["amount"] = 3590,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8277,
+								},
+							},
+							["amount"] = 8277,
+						},
+					},
+					["totaldamage"] = 14847,
+					["name"] = "Tigernuts",
+					["totaldamagetaken"] = 20016,
+					["id"] = "0x070000000000AE84",
+					["damage"] = 14847,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 149,
+								},
+							},
+							["amount"] = 149,
+						},
+						[19643] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 64,
+								},
+							},
+							["amount"] = 64,
+						},
+					},
+					["damagetaken"] = 40116,
+					["id"] = "0xF1300040D72BEFFC",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8523,
+								},
+							},
+							["amount"] = 8523,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 22930,
+									["overkill"] = 3492,
+								},
+							},
+							["amount"] = 22930,
+							["overkill"] = 3492,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8663,
+								},
+							},
+							["amount"] = 8663,
+						},
+					},
+					["totaldamage"] = 213,
+					["name"] = "Thrallmar Wolf Rider",
+					["totaldamagetaken"] = 40116,
+					["flag"] = 2632,
+					["damage"] = 213,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[57993] = {
+							["school"] = 8,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 2657,
+								},
+							},
+							["amount"] = 2657,
+						},
+						[48664] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1258,
+								},
+							},
+							["amount"] = 1258,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1759,
+								},
+							},
+							["amount"] = 1759,
+						},
+						[48665] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1576,
+								},
+							},
+							["amount"] = 1576,
+						},
+						[57970] = {
+							["school"] = 8,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 709,
+								},
+							},
+							["amount"] = 709,
+						},
+						[57975] = {
+							["school"] = 8,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 772,
+								},
+							},
+							["amount"] = 772,
+						},
+					},
+					["totaldamage"] = 8731,
+					["name"] = "Rawee",
+					["flag"] = 1352,
+					["class"] = "ROGUE",
+					["id"] = "0x070000000056A65B",
+					["damage"] = 8731,
+				}, -- [4]
+				{
+					["damagespells"] = {
+						[12809] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 458,
+								},
+							},
+							["amount"] = 458,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 590,
+								},
+							},
+							["amount"] = 590,
+						},
+						[47488] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1041,
+								},
+							},
+							["amount"] = 1041,
+						},
+					},
+					["totaldamage"] = 2089,
+					["name"] = "Celtoz",
+					["flag"] = 1352,
+					["class"] = "WARRIOR",
+					["id"] = "0x07000000009B0351",
+					["damage"] = 2089,
+				}, -- [5]
+			},
+			["last_time"] = 5541.528,
+			["totaldamage"] = 77753,
+			["time"] = 32,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 3,
+							["targets"] = {
+								["Warcus"] = 1,
+								["Tigernuts"] = 2,
+							},
+						},
+					},
+					["last"] = 5540.449000000001,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Warcus"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Tigernuts"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[53365] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 16,
+							["targets"] = {
+								["Warcus"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Tigernuts"] = {
+									["uptime"] = 17,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 21,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["refresh"] = 5,
+							["targets"] = {
+								["Warcus"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 4,
+								},
+								["Thrallmar Wolf Rider"] = {
+									["uptime"] = 9,
+									["count"] = 4,
+								},
+								["Tigernuts"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 23,
+								},
+							},
+							["uptime"] = 27,
+						},
+						[32071] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 32,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 16,
+							["refresh"] = 3,
+							["targets"] = {
+								["Warcus"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 4,
+								},
+								["Thrallmar Wolf Rider"] = {
+									["uptime"] = 9,
+									["count"] = 4,
+								},
+								["Tigernuts"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 23,
+								},
+							},
+							["uptime"] = 27,
+						},
+						[67773] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48707] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 32,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 14,
+							["school"] = 32,
+							["targets"] = {
+								["Celtoz"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Warcus"] = {
+									["uptime"] = 9,
+									["count"] = 4,
+								},
+								["Tigernuts"] = {
+									["uptime"] = 19,
+									["count"] = 3,
+								},
+								["Thrallmar Wolf Rider"] = {
+									["uptime"] = 16,
+									["count"] = 5,
+								},
+								["Rawee"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 24,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[61258] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 13,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Warcus"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Thrallmar Wolf Rider"] = {
+									["uptime"] = 7,
+									["count"] = 4,
+								},
+								["Tigernuts"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 30,
+						},
+						[67708] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["totaldamage"] = 77753,
+					["time"] = 27.93999999999999,
+					["cctaken"] = 7,
+					["totaldamagetaken"] = 33859,
+					["role"] = "DAMAGER",
+					["damage"] = 77753,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["criticalamount"] = 3595,
+							["id"] = 55271,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 3595,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 3595,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 3595,
+							["criticalmin"] = 3595,
+						},
+						["Melee"] = {
+							["hitmin"] = 1333,
+							["criticalamount"] = 2283,
+							["id"] = 6603,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 1759,
+								},
+								["Tigernuts"] = {
+									["amount"] = 8277,
+								},
+							},
+							["criticalmin"] = 2283,
+							["amount"] = 10036,
+							["criticalmax"] = 2283,
+							["critical"] = 1,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 1759,
+							["count"] = 6,
+							["hitamount"] = 7753,
+						},
+						["Death and Decay"] = {
+							["criticalmin"] = 678,
+							["hitmin"] = 440,
+							["criticalamount"] = 12447,
+							["id"] = 52212,
+							["amount"] = 31627,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 5107,
+								},
+								["Thrallmar Wolf Rider"] = {
+									["amount"] = 22930,
+									["overkill"] = 3492,
+								},
+								["Tigernuts"] = {
+									["amount"] = 3590,
+								},
+							},
+							["overkill"] = 3492,
+							["hitmax"] = 667,
+							["criticalmax"] = 1394,
+							["critical"] = 10,
+							["hit"] = 34,
+							["school"] = 32,
+							["count"] = 44,
+							["casts"] = 1,
+							["hitamount"] = 19180,
+						},
+						["Death Coil"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 49895,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 1637,
+							["id"] = 70890,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 1637,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 1637,
+							["amount"] = 1637,
+							["hitamount"] = 1637,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 713,
+							["id"] = 55078,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 799,
+								},
+								["Tigernuts"] = {
+									["amount"] = 713,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 799,
+							["amount"] = 1512,
+							["hitamount"] = 1512,
+						},
+						["Plague Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 994,
+							["criticalamount"] = 2121,
+							["id"] = 49921,
+							["count"] = 3,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 2121,
+								},
+								["Tigernuts"] = {
+									["amount"] = 994,
+								},
+							},
+							["criticalmax"] = 2121,
+							["criticalmin"] = 2121,
+							["casts"] = 3,
+							["hitmax"] = 994,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 3115,
+							["critical"] = 1,
+							["hitamount"] = 994,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 579,
+							["id"] = 55095,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 579,
+								},
+								["Thrallmar Wolf Rider"] = {
+									["amount"] = 8523,
+								},
+								["Tigernuts"] = {
+									["amount"] = 5179,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 16,
+							["school"] = 16,
+							["hitmax"] = 1066,
+							["amount"] = 14281,
+							["hitamount"] = 14281,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 567,
+							["id"] = 50526,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 2024,
+								},
+								["Thrallmar Wolf Rider"] = {
+									["amount"] = 8663,
+								},
+								["Tigernuts"] = {
+									["amount"] = 1263,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 32,
+							["hitmax"] = 1084,
+							["amount"] = 11950,
+							["hitamount"] = 11950,
+						},
+					},
+					["runicspells"] = {
+						[61258] = 15,
+					},
+					["damagetaken"] = 33859,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["source"] = "Warcus",
+									["time"] = 5541.524,
+									["amount"] = -1917,
+									["school"] = 1,
+									["spellid"] = 48657,
+									["hp"] = 1,
+									["overkill"] = 1000,
+								}, -- [1]
+								{
+									["source"] = "Celtoz",
+									["amount"] = -1041,
+									["school"] = 1,
+									["time"] = 5541.482000000001,
+									["hp"] = 917,
+									["spellid"] = 47488,
+								}, -- [2]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -1428,
+									["school"] = 1,
+									["time"] = 5541.407,
+									["hp"] = 1958,
+									["spellid"] = 48574,
+								}, -- [3]
+								{
+									["source"] = "Rawee",
+									["amount"] = -719,
+									["school"] = 1,
+									["time"] = 5541.101,
+									["hp"] = 5164,
+									["spellid"] = 6603,
+								}, -- [4]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -801,
+									["school"] = 1,
+									["time"] = 5541.011,
+									["hp"] = 5164,
+									["spellid"] = 6603,
+								}, -- [5]
+								{
+									["source"] = "Celtoz",
+									["amount"] = -258,
+									["school"] = 1,
+									["time"] = 5541.011,
+									["hp"] = 5164,
+									["spellid"] = 6603,
+								}, -- [6]
+								{
+									["source"] = "Rawee",
+									["amount"] = -195,
+									["school"] = 1,
+									["time"] = 5540.670999999999,
+									["hp"] = 5359,
+									["spellid"] = 6603,
+								}, -- [7]
+								{
+									["source"] = "Rawee",
+									["amount"] = -2657,
+									["school"] = 8,
+									["time"] = 5540.455,
+									["hp"] = 5359,
+									["spellid"] = 57993,
+								}, -- [8]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -1488,
+									["school"] = 1,
+									["time"] = 5540.433,
+									["hp"] = 8016,
+									["spellid"] = 49802,
+								}, -- [9]
+								{
+									["source"] = "Warcus",
+									["amount"] = -1328,
+									["school"] = 1,
+									["time"] = 5540.432000000001,
+									["hp"] = 9504,
+									["spellid"] = 48657,
+								}, -- [10]
+								{
+									["source"] = "Warcus",
+									["amount"] = -695,
+									["school"] = 1,
+									["time"] = 5539.85,
+									["hp"] = 12403,
+									["spellid"] = 6603,
+								}, -- [11]
+								{
+									["source"] = "Celtoz",
+									["amount"] = -458,
+									["school"] = 1,
+									["time"] = 5539.85,
+									["hp"] = 12403,
+									["spellid"] = 12809,
+								}, -- [12]
+								{
+									["source"] = "Tigernuts",
+									["amount"] = -876,
+									["school"] = 1,
+									["time"] = 5539.851,
+									["hp"] = 12861,
+									["spellid"] = 6603,
+								}, -- [13]
+								{
+									["source"] = "Rawee",
+									["amount"] = -326,
+									["school"] = 1,
+									["time"] = 5539.578,
+									["hp"] = 13187,
+									["spellid"] = 6603,
+								}, -- [14]
+							},
+							["time"] = 5541.527,
+							["source"] = "Warcus",
+							["school"] = 1,
+							["maxhp"] = 32781,
+							["spellid"] = 48657,
+							["timeod"] = 1699002093,
+						}, -- [1]
+					},
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 905,
+							["count"] = 1,
+							["amount"] = 78,
+							["school"] = 1,
+							["min"] = 78,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 905,
+									["amount"] = 78,
+								},
+							},
+							["max"] = 78,
+						},
+					},
+					["overkill"] = 3492,
+					["overheal"] = 905,
+					["heal"] = 78,
+					["name"] = "Urgash",
+					["death"] = 1,
+					["runic"] = 15,
+					["ccdone"] = 3,
+					["cctakenspells"] = {
+						[676] = {
+							["count"] = 1,
+							["sources"] = {
+								["Celtoz"] = 1,
+							},
+						},
+						[8643] = {
+							["count"] = 1,
+							["sources"] = {
+								["Rawee"] = 1,
+							},
+						},
+						[33786] = {
+							["count"] = 2,
+							["sources"] = {
+								["Tigernuts"] = 2,
+							},
+						},
+						[1833] = {
+							["count"] = 1,
+							["sources"] = {
+								["Rawee"] = 1,
+							},
+						},
+						[12809] = {
+							["count"] = 1,
+							["sources"] = {
+								["Celtoz"] = 1,
+							},
+						},
+						[49802] = {
+							["count"] = 1,
+							["sources"] = {
+								["Tigernuts"] = 1,
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 1041,
+							["id"] = 47488,
+							["sources"] = {
+								["Celtoz"] = {
+									["amount"] = 1041,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1041,
+							["amount"] = 1041,
+							["hitamount"] = 1041,
+						},
+						["Cobalt Frag Bomb"] = {
+							["sources"] = {
+								["Warcus"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["MISS"] = 1,
+							["id"] = 67890,
+						},
+						["Backstab"] = {
+							["hitmin"] = 1328,
+							["criticalamount"] = 1917,
+							["id"] = 48657,
+							["criticalmin"] = 1917,
+							["amount"] = 3245,
+							["overkill"] = 1000,
+							["hitmax"] = 1328,
+							["criticalmax"] = 1917,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 2,
+							["sources"] = {
+								["Warcus"] = {
+									["amount"] = 3245,
+									["overkill"] = 1000,
+								},
+							},
+							["hitamount"] = 1328,
+						},
+						["Envenom"] = {
+							["hitmin"] = 2657,
+							["id"] = 57993,
+							["sources"] = {
+								["Rawee"] = {
+									["amount"] = 2657,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 2657,
+							["amount"] = 2657,
+							["hitamount"] = 2657,
+						},
+						["Mortal Strike"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 64,
+							["id"] = 19643,
+							["sources"] = {
+								["Thrallmar Wolf Rider"] = {
+									["amount"] = 64,
+								},
+							},
+							["PARRY"] = 1,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 64,
+							["hitmax"] = 64,
+							["hitamount"] = 64,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 709,
+							["id"] = 57970,
+							["sources"] = {
+								["Rawee"] = {
+									["amount"] = 709,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 709,
+							["amount"] = 709,
+							["hitamount"] = 709,
+						},
+						["Rake"] = {
+							["criticalamount"] = 468,
+							["id"] = 48574,
+							["criticalmax"] = 468,
+							["critical"] = 1,
+							["amount"] = 468,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 468,
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 468,
+								},
+							},
+						},
+						["Rake (DoT)"] = {
+							["hitmin"] = 1428,
+							["id"] = 48574,
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 2856,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1428,
+							["amount"] = 2856,
+							["hitamount"] = 2856,
+						},
+						["Mangle (Cat)"] = {
+							["criticalamount"] = 5595,
+							["id"] = 48566,
+							["criticalmax"] = 2939,
+							["critical"] = 2,
+							["amount"] = 5595,
+							["school"] = 1,
+							["count"] = 2,
+							["criticalmin"] = 2656,
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 5595,
+								},
+							},
+						},
+						["Hemorrhage"] = {
+							["hitmin"] = 670,
+							["criticalamount"] = 875,
+							["id"] = 48660,
+							["criticalmin"] = 875,
+							["count"] = 4,
+							["sources"] = {
+								["Warcus"] = {
+									["amount"] = 2302,
+								},
+							},
+							["amount"] = 2302,
+							["criticalmax"] = 875,
+							["hitmax"] = 757,
+							["hit"] = 2,
+							["school"] = 1,
+							["critical"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 1427,
+						},
+						["Charge Stun"] = {
+							["sources"] = {
+								["Celtoz"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["id"] = 7922,
+						},
+						["Dismantle"] = {
+							["sources"] = {
+								["Warcus"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["id"] = 51722,
+						},
+						["Melee"] = {
+							["DODGE"] = 4,
+							["hitmin"] = 18,
+							["criticalmin"] = 326,
+							["IMMUNE"] = 2,
+							["sources"] = {
+								["Celtoz"] = {
+									["amount"] = 590,
+								},
+								["Warcus"] = {
+									["amount"] = 2046,
+								},
+								["Tigernuts"] = {
+									["amount"] = 4440,
+								},
+								["Thrallmar Wolf Rider"] = {
+									["amount"] = 149,
+								},
+								["Rawee"] = {
+									["amount"] = 1759,
+								},
+							},
+							["amount"] = 8984,
+							["MISS"] = 7,
+							["criticalamount"] = 6508,
+							["id"] = 6603,
+							["PARRY"] = 5,
+							["criticalmax"] = 876,
+							["count"] = 41,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 536,
+							["critical"] = 10,
+							["hitamount"] = 2476,
+						},
+						["Concussion Blow"] = {
+							["hitmin"] = 458,
+							["id"] = 12809,
+							["sources"] = {
+								["Celtoz"] = {
+									["amount"] = 458,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 458,
+							["amount"] = 458,
+							["hitamount"] = 458,
+						},
+						["Mutilate"] = {
+							["hitmin"] = 440,
+							["criticalamount"] = 818,
+							["id"] = 48665,
+							["criticalmin"] = 818,
+							["amount"] = 2834,
+							["hitmax"] = 854,
+							["criticalmax"] = 818,
+							["critical"] = 1,
+							["hit"] = 3,
+							["school"] = 1,
+							["count"] = 4,
+							["sources"] = {
+								["Rawee"] = {
+									["amount"] = 2834,
+								},
+							},
+							["hitamount"] = 2016,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 386,
+							["criticalamount"] = 386,
+							["id"] = 57975,
+							["count"] = 3,
+							["criticalmin"] = 386,
+							["sources"] = {
+								["Warcus"] = {
+									["amount"] = 386,
+								},
+								["Rawee"] = {
+									["amount"] = 772,
+								},
+							},
+							["criticalmax"] = 386,
+							["hitmax"] = 386,
+							["hit"] = 2,
+							["school"] = 8,
+							["amount"] = 1158,
+							["critical"] = 1,
+							["hitamount"] = 772,
+						},
+						["Maim"] = {
+							["criticalamount"] = 1488,
+							["id"] = 49802,
+							["criticalmax"] = 1488,
+							["critical"] = 1,
+							["amount"] = 1488,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 1488,
+							["sources"] = {
+								["Tigernuts"] = {
+									["amount"] = 1488,
+								},
+							},
+						},
+					},
+				}, -- [1]
+			},
+			["cctaken"] = 7,
+			["totaldamagetaken"] = 33859,
+			["etotaldamagetaken"] = 77753,
+			["damage"] = 77753,
+			["runic"] = 15,
+			["type"] = "none",
+			["damagetaken"] = 33859,
+			["overheal"] = 905,
+			["ccdone"] = 3,
+			["mobname"] = "Warcus",
+			["etotaldamage"] = 33859,
+			["overkill"] = 3492,
+			["edamagetaken"] = 77753,
+			["heal"] = 78,
+			["name"] = "Warcus (2)",
+			["death"] = 1,
+			["starttime"] = 1699002062,
+			["edamage"] = 33859,
+			["last_action"] = 1699002093,
+			["endtime"] = 1699002094,
+		}, -- [2]
+		{
+			["enemies"] = {
+				{
+					["flag"] = 68168,
+					["name"] = "Bonechewer Evoker",
+					["damagetaken"] = 4375,
+					["id"] = "0xF130004CF52DAAD8",
+					["totaldamagetaken"] = 4375,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2589,
+								},
+							},
+							["amount"] = 2589,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1786,
+									["overkill"] = 1184,
+								},
+							},
+							["amount"] = 1786,
+							["overkill"] = 1184,
+						},
+					},
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+						[13398] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
+					["damagetaken"] = 8276,
+					["id"] = "0xF130004A082DAA95",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1534,
+								},
+							},
+							["amount"] = 1534,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6742,
+									["overkill"] = 4287,
+								},
+							},
+							["amount"] = 6742,
+							["overkill"] = 4287,
+						},
+					},
+					["totaldamage"] = 89,
+					["name"] = "Bonechewer Scavenger",
+					["totaldamagetaken"] = 8276,
+					["flag"] = 68168,
+					["damage"] = 89,
+				}, -- [2]
+			},
+			["totaldamage"] = 12651,
+			["time"] = 11,
+			["totaldamagetaken"] = 89,
+			["etotaldamagetaken"] = 12651,
+			["last_time"] = 5235.349,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Bonechewer Evoker"] = 1,
+							},
+						},
+					},
+					["last"] = 5233.76,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Bonechewer Evoker"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+								["Bonechewer Evoker"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[57623] = {
+							["uptime"] = 11,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+						},
+						[67773] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[53365] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+								["Bonechewer Evoker"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 8,
+						},
+						[67708] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+					},
+					["totaldamage"] = 12651,
+					["time"] = 9.370000000000001,
+					["totaldamagetaken"] = 89,
+					["damage"] = 12651,
+					["overheal"] = 1366,
+					["damagetaken"] = 89,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 0,
+							["criticalamount"] = 1474,
+							["max"] = 1474,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 1474,
+								},
+							},
+							["min"] = 1474,
+							["criticalmax"] = 1474,
+							["critical"] = 1,
+							["amount"] = 1474,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 1474,
+						},
+						[45470] = {
+							["overheal"] = 1366,
+							["count"] = 1,
+							["amount"] = 1912,
+							["school"] = 1,
+							["min"] = 1912,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 1366,
+									["amount"] = 1912,
+								},
+							},
+							["max"] = 1912,
+						},
+					},
+					["overkill"] = 5471,
+					["heal"] = 3386,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["role"] = "DAMAGER",
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 2589,
+							["criticalamount"] = 6742,
+							["id"] = 6603,
+							["criticalmin"] = 6742,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 6742,
+									["overkill"] = 4287,
+								},
+								["Bonechewer Evoker"] = {
+									["amount"] = 2589,
+								},
+							},
+							["overkill"] = 4287,
+							["amount"] = 9331,
+							["criticalmax"] = 6742,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2589,
+							["count"] = 2,
+							["hitamount"] = 2589,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 767,
+							["id"] = 55095,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 1534,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 767,
+							["amount"] = 1534,
+							["hitamount"] = 1534,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 1786,
+							["id"] = 49924,
+							["targets"] = {
+								["Bonechewer Evoker"] = {
+									["amount"] = 1786,
+									["overkill"] = 1184,
+								},
+							},
+							["overkill"] = 1184,
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1786,
+							["amount"] = 1786,
+							["hitamount"] = 1786,
+						},
+					},
+					["damagetakenspells"] = {
+						["Bonechewer Bite"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 34113,
+						},
+						["Melee"] = {
+							["hitmin"] = 25,
+							["id"] = 6603,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 53,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 28,
+							["amount"] = 53,
+							["hitamount"] = 53,
+						},
+						["Throw Wrench"] = {
+							["hitmin"] = 36,
+							["id"] = 13398,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 36,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 36,
+							["amount"] = 36,
+							["hitamount"] = 36,
+						},
+					},
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 89,
+			["etotaldamage"] = 89,
+			["damage"] = 12651,
+			["starttime"] = 1699001776,
+			["overheal"] = 1366,
+			["overkill"] = 5471,
+			["edamagetaken"] = 12651,
+			["heal"] = 3386,
+			["name"] = "Bonechewer Evoker (2)",
+			["ccdone"] = 1,
+			["mobname"] = "Bonechewer Evoker",
+			["edamage"] = 89,
+			["last_action"] = 1699001787,
+			["endtime"] = 1699001787,
+		}, -- [3]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1463,
+								},
+							},
+							["amount"] = 1463,
+						},
+						[48660] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 965,
+								},
+							},
+							["amount"] = 965,
+						},
+						[57975] = {
+							["school"] = 8,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 343,
+								},
+							},
+							["amount"] = 343,
+						},
+						[67890] = {
+							["school"] = 4,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 596,
+								},
+							},
+							["amount"] = 596,
+						},
+					},
+					["damagetaken"] = 7113,
+					["flag"] = 1320,
+					["class"] = "ROGUE",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 776,
+									["total"] = 1552,
+								},
+							},
+							["total"] = 1552,
+							["amount"] = 776,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 789,
+									["total"] = 1578,
+								},
+							},
+							["total"] = 1578,
+							["amount"] = 789,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1202,
+								},
+							},
+							["amount"] = 1202,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 324,
+								},
+							},
+							["amount"] = 324,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 721,
+								},
+							},
+							["amount"] = 721,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3301,
+								},
+							},
+							["amount"] = 3301,
+						},
+					},
+					["totaldamage"] = 3367,
+					["name"] = "Warcus",
+					["totaldamagetaken"] = 8678,
+					["id"] = "0x070000000068D0CA",
+					["damage"] = 3367,
+				}, -- [1]
+				{
+					["flag"] = 66888,
+					["name"] = "Rawee",
+					["damagetaken"] = 2877,
+					["id"] = "0x070000000056A65B",
+					["totaldamagetaken"] = 2877,
+					["class"] = "ROGUE",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1745,
+								},
+							},
+							["amount"] = 1745,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1132,
+								},
+							},
+							["amount"] = 1132,
+						},
+					},
+				}, -- [2]
+			},
+			["totaldamage"] = 11555,
+			["time"] = 20,
+			["cctaken"] = 1,
+			["totaldamagetaken"] = 3367,
+			["etotaldamagetaken"] = 11555,
+			["last_time"] = 5165.583000000001,
+			["starttime"] = 1699001698,
+			["type"] = "none",
+			["damagetaken"] = 3367,
+			["damage"] = 9990,
+			["etotaldamage"] = 3367,
+			["edamagetaken"] = 9990,
+			["mobname"] = "Warcus",
+			["name"] = "Warcus",
+			["ccdone"] = 2,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 2,
+							["targets"] = {
+								["Warcus"] = 1,
+								["Rawee"] = 1,
+							},
+						},
+					},
+					["last"] = 5160.592000000001,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Warcus"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+								["Rawee"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["targets"] = {
+								["Warcus"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Rawee"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Warcus"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+								["Rawee"] = {
+									["uptime"] = 18,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[67773] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["targets"] = {
+								["Warcus"] = {
+									["uptime"] = 7,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[67708] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48792] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 17,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 3,
+							["targets"] = {
+								["Warcus"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+								["Rawee"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 18,
+								},
+							},
+							["uptime"] = 18,
+						},
+					},
+					["totaldamage"] = 11555,
+					["time"] = 9.790000000000001,
+					["cctaken"] = 1,
+					["totaldamagetaken"] = 3367,
+					["damage"] = 9990,
+					["damagespells"] = {
+						["Claw (Plaguerawler)"] = {
+							["hitmin"] = 721,
+							["id"] = 47468,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 721,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 721,
+							["amount"] = 721,
+							["hitamount"] = 721,
+						},
+						["Scourge Strike"] = {
+							["DODGE"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 55271,
+						},
+						["Melee"] = {
+							["hitmin"] = 1745,
+							["criticalamount"] = 2826,
+							["id"] = 6603,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 2826,
+								},
+								["Rawee"] = {
+									["amount"] = 1745,
+								},
+							},
+							["criticalmin"] = 2826,
+							["amount"] = 4571,
+							["criticalmax"] = 2826,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1745,
+							["count"] = 2,
+							["hitamount"] = 1745,
+						},
+						["Death and Decay"] = {
+							["hitmin"] = 324,
+							["id"] = 52212,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 324,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 324,
+							["amount"] = 324,
+							["hitamount"] = 324,
+						},
+						["Melee (Plaguerawler)"] = {
+							["hitmin"] = 475,
+							["id"] = 6603,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 475,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 475,
+							["amount"] = 475,
+							["hitamount"] = 475,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1132,
+							["id"] = 49921,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 1202,
+								},
+								["Rawee"] = {
+									["amount"] = 1132,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1202,
+							["amount"] = 2334,
+							["hitamount"] = 2334,
+						},
+						["Frost Fever (DoT)"] = {
+							["total"] = 1552,
+							["hitmin"] = 776,
+							["id"] = 55095,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 776,
+									["total"] = 1552,
+								},
+							},
+							["hit"] = 1,
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["school"] = 16,
+							["amount"] = 776,
+							["hitmax"] = 776,
+							["hitamount"] = 776,
+						},
+						["Blood Plague (DoT)"] = {
+							["total"] = 1578,
+							["hitmin"] = 789,
+							["id"] = 55078,
+							["targets"] = {
+								["Warcus"] = {
+									["amount"] = 789,
+									["total"] = 1578,
+								},
+							},
+							["hit"] = 1,
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["school"] = 32,
+							["amount"] = 789,
+							["hitmax"] = 789,
+							["hitamount"] = 789,
+						},
+					},
+					["damagetaken"] = 3367,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 328,
+							["criticalamount"] = 1135,
+							["id"] = 6603,
+							["count"] = 3,
+							["criticalmin"] = 508,
+							["sources"] = {
+								["Warcus"] = {
+									["amount"] = 1463,
+								},
+							},
+							["criticalmax"] = 627,
+							["hitmax"] = 328,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 1463,
+							["critical"] = 2,
+							["hitamount"] = 328,
+						},
+						["Hemorrhage"] = {
+							["criticalamount"] = 965,
+							["id"] = 48660,
+							["criticalmax"] = 965,
+							["critical"] = 1,
+							["amount"] = 965,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 965,
+							["sources"] = {
+								["Warcus"] = {
+									["amount"] = 965,
+								},
+							},
+						},
+						["Cobalt Frag Bomb"] = {
+							["criticalamount"] = 596,
+							["id"] = 67890,
+							["criticalmax"] = 596,
+							["critical"] = 1,
+							["amount"] = 596,
+							["school"] = 4,
+							["count"] = 1,
+							["criticalmin"] = 596,
+							["sources"] = {
+								["Warcus"] = {
+									["amount"] = 596,
+								},
+							},
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 343,
+							["id"] = 57975,
+							["sources"] = {
+								["Warcus"] = {
+									["amount"] = 343,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 343,
+							["amount"] = 343,
+							["hitamount"] = 343,
+						},
+					},
+					["name"] = "Urgash",
+					["ccdone"] = 2,
+					["cctakenspells"] = {
+						[67890] = {
+							["count"] = 1,
+							["sources"] = {
+								["Warcus"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["edamage"] = 3367,
+			["last_action"] = 1699001717,
+			["endtime"] = 1699001718,
+		}, -- [4]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[13398] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+					},
+					["damagetaken"] = 6630,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2453,
+								},
+							},
+							["amount"] = 2453,
+						},
+						[55095] = {
+							["total"] = 774,
+							["amount"] = 0,
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["total"] = 774,
+									["amount"] = 0,
+									["overkill"] = 154,
+								},
+							},
+							["overkill"] = 154,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4177,
+									["overkill"] = 2641,
+								},
+							},
+							["amount"] = 4177,
+							["overkill"] = 2641,
+						},
+					},
+					["totaldamage"] = 38,
+					["name"] = "Bonechewer Scavenger",
+					["totaldamagetaken"] = 7404,
+					["id"] = "0xF130004A082DAA91",
+					["damage"] = 38,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["damagetaken"] = 5200,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2870,
+									["overkill"] = 1887,
+								},
+							},
+							["amount"] = 2870,
+							["overkill"] = 1887,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 782,
+								},
+							},
+							["amount"] = 782,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1548,
+								},
+							},
+							["amount"] = 1548,
+						},
+					},
+					["totaldamage"] = 29,
+					["name"] = "Bonechewer Evoker",
+					["totaldamagetaken"] = 5200,
+					["id"] = "0xF130004CF52DAA90",
+					["damage"] = 29,
+				}, -- [2]
+			},
+			["totaldamage"] = 12604,
+			["time"] = 11,
+			["totaldamagetaken"] = 67,
+			["etotaldamagetaken"] = 12604,
+			["last_time"] = 5117,
+			["starttime"] = 1699001659,
+			["type"] = "none",
+			["damagetaken"] = 67,
+			["etotaldamage"] = 67,
+			["overheal"] = 0,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = 1,
+							},
+						},
+					},
+					["last"] = 5116.928,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+								["Bonechewer Evoker"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[53365] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[71905] = {
+							["uptime"] = 11,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+								["Bonechewer Evoker"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 8.059999999999999,
+					["totaldamagetaken"] = 67,
+					["damage"] = 11830,
+					["damagespells"] = {
+						["Frost Fever (DoT)"] = {
+							["total"] = 2322,
+							["hitmin"] = 774,
+							["id"] = 55095,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 0,
+									["total"] = 774,
+								},
+								["Bonechewer Evoker"] = {
+									["amount"] = 1548,
+								},
+							},
+							["count"] = 3,
+							["hitmax"] = 774,
+							["ABSORB"] = 1,
+							["school"] = 16,
+							["hit"] = 2,
+							["amount"] = 1548,
+							["hitamount"] = 1548,
+						},
+						["Melee"] = {
+							["hitmin"] = 2453,
+							["id"] = 6603,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 2453,
+								},
+								["Bonechewer Evoker"] = {
+									["amount"] = 2870,
+									["overkill"] = 1887,
+								},
+							},
+							["overkill"] = 1887,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2870,
+							["amount"] = 5323,
+							["hitamount"] = 5323,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 782,
+							["id"] = 50526,
+							["targets"] = {
+								["Bonechewer Evoker"] = {
+									["amount"] = 782,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 782,
+							["amount"] = 782,
+							["hitamount"] = 782,
+						},
+						["Death Strike"] = {
+							["criticalamount"] = 4177,
+							["id"] = 49924,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 4177,
+									["overkill"] = 2641,
+								},
+							},
+							["overkill"] = 2641,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 4177,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 4177,
+							["criticalmin"] = 4177,
+						},
+					},
+					["damagetaken"] = 67,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[45470] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 3278,
+							["school"] = 1,
+							["min"] = 3278,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 3278,
+								},
+							},
+							["max"] = 3278,
+						},
+						[53365] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 983,
+							["school"] = 1,
+							["min"] = 983,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 983,
+								},
+							},
+							["max"] = 983,
+						},
+					},
+					["damagetakenspells"] = {
+						["Bonechewer Bite"] = {
+							["PARRY"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 34113,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 0,
+								},
+							},
+						},
+						["Melee"] = {
+							["hitmin"] = 29,
+							["id"] = 6603,
+							["count"] = 3,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 0,
+								},
+								["Bonechewer Evoker"] = {
+									["amount"] = 29,
+								},
+							},
+							["hitmax"] = 29,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 29,
+							["PARRY"] = 2,
+							["hitamount"] = 29,
+						},
+						["Throw Wrench"] = {
+							["hitmin"] = 38,
+							["id"] = 13398,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 38,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 38,
+							["amount"] = 38,
+							["hitamount"] = 38,
+						},
+					},
+					["heal"] = 4261,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["totaldamage"] = 12604,
+					["overheal"] = 0,
+					["overkill"] = 4528,
+				}, -- [1]
+			},
+			["damage"] = 11830,
+			["overkill"] = 4528,
+			["edamagetaken"] = 11830,
+			["heal"] = 4261,
+			["name"] = "Bonechewer Scavenger (3)",
+			["ccdone"] = 1,
+			["mobname"] = "Bonechewer Scavenger",
+			["edamage"] = 67,
+			["last_action"] = 1699001669,
+			["endtime"] = 1699001670,
+		}, -- [5]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
+					["damagetaken"] = 6293,
+					["id"] = "0xF130004A082DA4C3",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6293,
+									["overkill"] = 2304,
+								},
+							},
+							["amount"] = 6293,
+							["overkill"] = 2304,
+						},
+					},
+					["totaldamage"] = 34,
+					["name"] = "Bonechewer Scavenger",
+					["totaldamagetaken"] = 6293,
+					["flag"] = 68168,
+					["damage"] = 34,
+				}, -- [1]
+				{
+					["flag"] = 68168,
+					["name"] = "Bonechewer Evoker",
+					["damagetaken"] = 3467,
+					["id"] = "0xF130004CF52DACF1",
+					["totaldamagetaken"] = 3467,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1011,
+								},
+							},
+							["amount"] = 1011,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2456,
+									["overkill"] = 154,
+								},
+							},
+							["amount"] = 2456,
+							["overkill"] = 154,
+						},
+					},
+				}, -- [2]
+			},
+			["totaldamage"] = 9760,
+			["time"] = 8,
+			["totaldamagetaken"] = 34,
+			["etotaldamage"] = 34,
+			["last_time"] = 5104.784000000001,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = 1,
+							},
+						},
+					},
+					["last"] = 5103.285,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 2,
+								},
+								["Bonechewer Evoker"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[71905] = {
+							["uptime"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 2,
+								},
+								["Bonechewer Evoker"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 6.34,
+					["totaldamagetaken"] = 34,
+					["damage"] = 9760,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 2456,
+							["criticalamount"] = 6293,
+							["id"] = 6603,
+							["count"] = 2,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 6293,
+									["overkill"] = 2304,
+								},
+								["Bonechewer Evoker"] = {
+									["amount"] = 2456,
+									["overkill"] = 154,
+								},
+							},
+							["overkill"] = 2458,
+							["criticalmin"] = 6293,
+							["criticalmax"] = 6293,
+							["hitmax"] = 2456,
+							["amount"] = 8749,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
+							["hitamount"] = 2456,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1011,
+							["id"] = 55095,
+							["targets"] = {
+								["Bonechewer Evoker"] = {
+									["amount"] = 1011,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 1011,
+							["amount"] = 1011,
+							["hitamount"] = 1011,
+						},
+					},
+					["damagetaken"] = 34,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 34,
+							["id"] = 6603,
+							["hit"] = 1,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 34,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 34,
+							["school"] = 1,
+							["hitmax"] = 34,
+							["MISS"] = 1,
+							["hitamount"] = 34,
+						},
+						["Fireball"] = {
+							["sources"] = {
+								["Bonechewer Evoker"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["MISS"] = 1,
+							["id"] = 9053,
+						},
+					},
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["interrupt"] = 1,
+					["overkill"] = 2458,
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[9053] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Bonechewer Evoker"] = 1,
+							},
+						},
+					},
+					["totaldamage"] = 9760,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 34,
+			["interrupt"] = 1,
+			["etotaldamagetaken"] = 9760,
+			["damage"] = 9760,
+			["overkill"] = 2458,
+			["edamagetaken"] = 9760,
+			["mobname"] = "Bonechewer Scavenger",
+			["name"] = "Bonechewer Scavenger (2)",
+			["ccdone"] = 1,
+			["starttime"] = 1699001649,
+			["edamage"] = 34,
+			["last_action"] = 1699001657,
+			["endtime"] = 1699001657,
+		}, -- [6]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 103,
+								},
+							},
+							["amount"] = 103,
+						},
+					},
+					["damagetaken"] = 2610,
+					["id"] = "0xF1300049122DAD70",
+					["class"] = "PET",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1734,
+								},
+							},
+							["amount"] = 1734,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 876,
+								},
+							},
+							["amount"] = 876,
+						},
+					},
+					["totaldamage"] = 103,
+					["name"] = "Bonechewer Riding Wolf",
+					["totaldamagetaken"] = 2610,
+					["flag"] = 4680,
+					["damage"] = 103,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+						[34113] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+						[13398] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+					},
+					["damagetaken"] = 5767,
+					["id"] = "0xF130004A082DABD0",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2290,
+									["overkill"] = 1625,
+								},
+							},
+							["amount"] = 2290,
+							["overkill"] = 1625,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 876,
+								},
+							},
+							["amount"] = 876,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2601,
+								},
+							},
+							["amount"] = 2601,
+						},
+					},
+					["totaldamage"] = 117,
+					["name"] = "Bonechewer Scavenger",
+					["totaldamagetaken"] = 5767,
+					["flag"] = 2632,
+					["damage"] = 117,
+				}, -- [2]
+				{
+					["flag"] = 68168,
+					["name"] = "Bonechewer Evoker",
+					["damagetaken"] = 4464,
+					["id"] = "0xF130004CF52DACC9",
+					["totaldamagetaken"] = 4464,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2297,
+								},
+							},
+							["amount"] = 2297,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2167,
+									["overkill"] = 1273,
+								},
+							},
+							["amount"] = 2167,
+							["overkill"] = 1273,
+						},
+					},
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["damagetaken"] = 5734,
+					["id"] = "0xF13000421D2DAAB0",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3124,
+									["overkill"] = 1592,
+								},
+							},
+							["amount"] = 3124,
+							["overkill"] = 1592,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 876,
+								},
+							},
+							["amount"] = 876,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1734,
+								},
+							},
+							["amount"] = 1734,
+						},
+					},
+					["totaldamage"] = 102,
+					["name"] = "Bonechewer Raider",
+					["totaldamagetaken"] = 5734,
+					["flag"] = 2632,
+					["damage"] = 102,
+				}, -- [4]
+			},
+			["totaldamage"] = 18575,
+			["time"] = 14,
+			["totaldamagetaken"] = 322,
+			["etotaldamage"] = 322,
+			["last_time"] = 5090.607,
+			["overheal"] = 0,
+			["type"] = "none",
+			["damagetaken"] = 322,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Bonechewer Evoker"] = 1,
+							},
+						},
+					},
+					["last"] = 5090.605000000001,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Bonechewer Evoker"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Raider"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Bonechewer Scavenger"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Bonechewer Riding Wolf"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+								["Bonechewer Evoker"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[67773] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[53365] = {
+							["uptime"] = 14,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[67708] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[71905] = {
+							["uptime"] = 14,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Raider"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Bonechewer Scavenger"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Bonechewer Riding Wolf"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+								["Bonechewer Evoker"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 14,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 12.08,
+					["totaldamagetaken"] = 322,
+					["damage"] = 18575,
+					["overheal"] = 0,
+					["damagetaken"] = 322,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 983,
+							["school"] = 1,
+							["min"] = 983,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 983,
+								},
+							},
+							["max"] = 983,
+						},
+						[45470] = {
+							["overheal"] = 0,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 6556,
+							["max"] = 3278,
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 6556,
+								},
+							},
+							["min"] = 3278,
+						},
+					},
+					["damagetakenspells"] = {
+						["Bonechewer Bite"] = {
+							["hitmin"] = 34,
+							["id"] = 34113,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 34,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 34,
+							["amount"] = 34,
+							["hitamount"] = 34,
+						},
+						["Bonechewer Rot"] = {
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["MISS"] = 1,
+							["id"] = 33951,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 31,
+							["id"] = 6603,
+							["hitmax"] = 38,
+							["sources"] = {
+								["Bonechewer Raider"] = {
+									["amount"] = 102,
+								},
+								["Bonechewer Riding Wolf"] = {
+									["amount"] = 103,
+								},
+								["Bonechewer Scavenger"] = {
+									["amount"] = 36,
+								},
+							},
+							["hit"] = 7,
+							["blocked"] = 33,
+							["PARRY"] = 2,
+							["count"] = 12,
+							["amount"] = 241,
+							["school"] = 1,
+							["BLOCK"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 241,
+						},
+						["Throw Wrench"] = {
+							["hitmin"] = 47,
+							["id"] = 13398,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 47,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 47,
+							["amount"] = 47,
+							["hitamount"] = 47,
+						},
+					},
+					["heal"] = 7539,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["totaldamage"] = 18575,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 2297,
+							["id"] = 6603,
+							["targets"] = {
+								["Bonechewer Raider"] = {
+									["amount"] = 3124,
+									["overkill"] = 1592,
+								},
+								["Bonechewer Evoker"] = {
+									["amount"] = 2297,
+								},
+							},
+							["overkill"] = 1592,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3124,
+							["amount"] = 5421,
+							["hitamount"] = 5421,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 2167,
+							["id"] = 49924,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 2290,
+									["overkill"] = 1625,
+								},
+								["Bonechewer Evoker"] = {
+									["amount"] = 2167,
+									["overkill"] = 1273,
+								},
+							},
+							["overkill"] = 2898,
+							["hit"] = 2,
+							["casts"] = 4,
+							["count"] = 2,
+							["blocked"] = 29,
+							["school"] = 1,
+							["amount"] = 4457,
+							["hitmax"] = 2290,
+							["hitamount"] = 4457,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 876,
+							["id"] = 50526,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 876,
+								},
+								["Bonechewer Riding Wolf"] = {
+									["amount"] = 876,
+								},
+								["Bonechewer Raider"] = {
+									["amount"] = 876,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 876,
+							["amount"] = 2628,
+							["hitamount"] = 2628,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 867,
+							["id"] = 55095,
+							["targets"] = {
+								["Bonechewer Raider"] = {
+									["amount"] = 1734,
+								},
+								["Bonechewer Riding Wolf"] = {
+									["amount"] = 1734,
+								},
+								["Bonechewer Scavenger"] = {
+									["amount"] = 2601,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 16,
+							["hitmax"] = 867,
+							["amount"] = 6069,
+							["hitamount"] = 6069,
+						},
+					},
+					["overkill"] = 4490,
+				}, -- [1]
+			},
+			["etotaldamagetaken"] = 18575,
+			["starttime"] = 1699001630,
+			["mobname"] = "Bonechewer Evoker",
+			["overkill"] = 4490,
+			["edamagetaken"] = 18575,
+			["heal"] = 7539,
+			["name"] = "Bonechewer Evoker",
+			["ccdone"] = 1,
+			["damage"] = 18575,
+			["edamage"] = 322,
+			["last_action"] = 1699001642,
+			["endtime"] = 1699001644,
+		}, -- [7]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+						[34113] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+						[13398] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+					},
+					["damagetaken"] = 10475,
+					["id"] = "0xF130004A082DAB51",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4758,
+									["overkill"] = 1334,
+								},
+							},
+							["amount"] = 4758,
+							["overkill"] = 1334,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2872,
+									["overkill"] = 298,
+								},
+							},
+							["amount"] = 2872,
+							["overkill"] = 298,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2845,
+								},
+							},
+							["amount"] = 2845,
+						},
+					},
+					["totaldamage"] = 179,
+					["name"] = "Bonechewer Scavenger",
+					["totaldamagetaken"] = 10475,
+					["flag"] = 68168,
+					["damage"] = 179,
+				}, -- [1]
+			},
+			["totaldamage"] = 10475,
+			["time"] = 14,
+			["totaldamagetaken"] = 179,
+			["etotaldamage"] = 179,
+			["last_time"] = 5063.468,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 2,
+							["targets"] = {
+								["Bonechewer Scavenger"] = 2,
+							},
+						},
+					},
+					["last"] = 5063.36,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["refresh"] = 1,
+									["count"] = 3,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["uptime"] = 9,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["refresh"] = 1,
+									["count"] = 3,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 11,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 11.51,
+					["totaldamagetaken"] = 179,
+					["damage"] = 10475,
+					["damagespells"] = {
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 711,
+							["id"] = 55095,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 2845,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 712,
+							["amount"] = 2845,
+							["hitamount"] = 2845,
+						},
+						["Melee"] = {
+							["criticalamount"] = 4758,
+							["id"] = 6603,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 4758,
+									["overkill"] = 1334,
+								},
+							},
+							["overkill"] = 1334,
+							["criticalmax"] = 4758,
+							["critical"] = 1,
+							["amount"] = 4758,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 4758,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 718,
+							["id"] = 50526,
+							["targets"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 2872,
+									["overkill"] = 298,
+								},
+							},
+							["overkill"] = 298,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 718,
+							["amount"] = 2872,
+							["hitamount"] = 2872,
+						},
+					},
+					["damagetaken"] = 179,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["damagetakenspells"] = {
+						["Bonechewer Bite"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 36,
+							["id"] = 34113,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 36,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 36,
+							["amount"] = 36,
+							["hitamount"] = 36,
+						},
+						["Bonechewer Rot"] = {
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["MISS"] = 1,
+							["id"] = 33951,
+						},
+						["Melee"] = {
+							["hitmin"] = 29,
+							["id"] = 6603,
+							["count"] = 5,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 100,
+								},
+							},
+							["hitmax"] = 38,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 100,
+							["MISS"] = 2,
+							["hitamount"] = 100,
+						},
+						["Throw Wrench"] = {
+							["hitmin"] = 43,
+							["id"] = 13398,
+							["sources"] = {
+								["Bonechewer Scavenger"] = {
+									["amount"] = 43,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 43,
+							["amount"] = 43,
+							["hitamount"] = 43,
+						},
+					},
+					["name"] = "Urgash",
+					["ccdone"] = 2,
+					["totaldamage"] = 10475,
+					["overkill"] = 1632,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 179,
+			["damage"] = 10475,
+			["etotaldamagetaken"] = 10475,
+			["overkill"] = 1632,
+			["edamagetaken"] = 10475,
+			["starttime"] = 1699001603,
+			["name"] = "Bonechewer Scavenger",
+			["ccdone"] = 2,
+			["mobname"] = "Bonechewer Scavenger",
+			["edamage"] = 179,
+			["last_action"] = 1699001615,
+			["endtime"] = 1699001617,
+		}, -- [8]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[59653] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 43,
+								},
+							},
+							["amount"] = 43,
+						},
+					},
+					["damagetaken"] = 1993,
+					["flag"] = 66888,
+					["class"] = "WARRIOR",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 106,
+								},
+							},
+							["amount"] = 106,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 456,
+								},
+							},
+							["amount"] = 456,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 147,
+								},
+							},
+							["amount"] = 147,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1284,
+									["overkill"] = 140,
+								},
+							},
+							["amount"] = 1284,
+							["overkill"] = 140,
+						},
+					},
+					["totaldamage"] = 43,
+					["name"] = "Sevienebooca",
+					["totaldamagetaken"] = 1993,
+					["id"] = "0x07000000009E5711",
+					["damage"] = 43,
+				}, -- [1]
+				{
+					["flag"] = 66888,
+					["name"] = "Aguaraguazu",
+					["damagetaken"] = 2795,
+					["id"] = "0x07000000009E570E",
+					["totaldamagetaken"] = 2795,
+					["class"] = "WARRIOR",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 973,
+								},
+							},
+							["amount"] = 973,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 480,
+								},
+							},
+							["amount"] = 480,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1342,
+									["overkill"] = 880,
+								},
+							},
+							["amount"] = 1342,
+							["overkill"] = 880,
+						},
+					},
+				}, -- [2]
+			},
+			["totaldamage"] = 4788,
+			["time"] = 20,
+			["totaldamagetaken"] = 43,
+			["etotaldamagetaken"] = 4788,
+			["last_time"] = 4820.829,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 2,
+							["targets"] = {
+								["Sevienebooca"] = 2,
+							},
+						},
+					},
+					["last"] = 4812.333000000001,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Sevienebooca"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Sevienebooca"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 6,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Aguaraguazu"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Sevienebooca"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["targets"] = {
+								["Sevienebooca"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[49222] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 10.7,
+					["totaldamagetaken"] = 43,
+					["damage"] = 4788,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 106,
+							["criticalamount"] = 648,
+							["id"] = 6603,
+							["targets"] = {
+								["Sevienebooca"] = {
+									["amount"] = 106,
+								},
+								["Aguaraguazu"] = {
+									["amount"] = 973,
+								},
+							},
+							["criticalmin"] = 648,
+							["amount"] = 1079,
+							["criticalmax"] = 648,
+							["critical"] = 1,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 325,
+							["count"] = 3,
+							["hitamount"] = 431,
+						},
+						["Death and Decay"] = {
+							["hitmin"] = 184,
+							["id"] = 52212,
+							["targets"] = {
+								["Aguaraguazu"] = {
+									["amount"] = 480,
+								},
+								["Sevienebooca"] = {
+									["amount"] = 1284,
+									["overkill"] = 140,
+								},
+							},
+							["overkill"] = 140,
+							["count"] = 8,
+							["casts"] = 1,
+							["hitmax"] = 240,
+							["hit"] = 8,
+							["school"] = 32,
+							["resisted"] = 90,
+							["amount"] = 1764,
+							["hitamount"] = 1764,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 147,
+							["id"] = 49909,
+							["targets"] = {
+								["Sevienebooca"] = {
+									["amount"] = 147,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 147,
+							["amount"] = 147,
+							["hitamount"] = 147,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 130,
+							["id"] = 55095,
+							["targets"] = {
+								["Sevienebooca"] = {
+									["amount"] = 456,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 326,
+							["amount"] = 456,
+							["hitamount"] = 456,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 1342,
+							["id"] = 47632,
+							["targets"] = {
+								["Aguaraguazu"] = {
+									["amount"] = 1342,
+									["overkill"] = 880,
+								},
+							},
+							["overkill"] = 880,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 1342,
+							["amount"] = 1342,
+							["hitamount"] = 1342,
+						},
+					},
+					["damagetaken"] = 43,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["damagetakenspells"] = {
+						["Damage Shield"] = {
+							["hitmin"] = 43,
+							["id"] = 59653,
+							["sources"] = {
+								["Sevienebooca"] = {
+									["amount"] = 43,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 43,
+							["amount"] = 43,
+							["hitamount"] = 43,
+						},
+					},
+					["name"] = "Urgash",
+					["ccdone"] = 2,
+					["totaldamage"] = 4788,
+					["overkill"] = 1020,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 43,
+			["damage"] = 4788,
+			["etotaldamage"] = 43,
+			["overkill"] = 1020,
+			["edamagetaken"] = 4788,
+			["mobname"] = "Sevienebooca",
+			["name"] = "Sevienebooca",
+			["ccdone"] = 2,
+			["starttime"] = 1699001353,
+			["edamage"] = 43,
+			["last_action"] = 1699001373,
+			["endtime"] = 1699001373,
+		}, -- [9]
 		{
 			["enemies"] = {
 				{
@@ -157,14 +5057,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 32,
 						},
-						[50536] = {
-							["school"] = 32,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 84,
+									["amount"] = 2342,
 								},
 							},
-							["amount"] = 84,
+							["amount"] = 2342,
 						},
 						[47632] = {
 							["school"] = 32,
@@ -175,14 +5075,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1404,
 						},
-						[49909] = {
-							["school"] = 16,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2342,
+									["amount"] = 3039,
+									["overkill"] = 220,
 								},
 							},
-							["amount"] = 2342,
+							["amount"] = 3039,
+							["overkill"] = 220,
 						},
 						[47468] = {
 							["school"] = 1,
@@ -202,31 +5104,31 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1366,
 						},
-						[6603] = {
-							["school"] = 1,
+						[50536] = {
+							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 220,
-									["amount"] = 3039,
+									["amount"] = 84,
 								},
 							},
-							["overkill"] = 220,
-							["amount"] = 3039,
+							["amount"] = 84,
 						},
 					},
-					["name"] = "Frostpaw Warrior",
 					["totaldamage"] = 882,
+					["name"] = "Frostpaw Warrior",
 					["totaldamagetaken"] = 10855,
 					["id"] = "0xF1300066F5068D1C",
 					["damage"] = 882,
 				}, -- [1]
 			},
-			["overheal"] = 22,
 			["totaldamage"] = 10855,
 			["time"] = 14,
 			["totaldamagetaken"] = 882,
 			["etotaldamagetaken"] = 10855,
 			["last_time"] = 30420.596,
+			["overheal"] = 22,
+			["type"] = "none",
+			["damagetaken"] = 882,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -248,8 +5150,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 13,
 								},
 							},
@@ -268,9 +5170,9 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 6,
 						},
 						[49039] = {
@@ -307,14 +5209,15 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 13,
 								},
 							},
 							["uptime"] = 13,
 						},
 					},
+					["totaldamage"] = 10855,
 					["time"] = 12.71,
 					["totaldamagetaken"] = 882,
 					["damage"] = 10855,
@@ -374,18 +5277,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 538,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["overkill"] = 220,
 									["amount"] = 2476,
+									["overkill"] = 220,
 								},
 							},
 							["overkill"] = 220,
-							["critical"] = 2,
+							["hit"] = 5,
 							["criticalmax"] = 564,
 							["count"] = 7,
-							["hit"] = 5,
+							["amount"] = 2476,
 							["school"] = 1,
 							["hitmax"] = 280,
-							["amount"] = 2476,
+							["critical"] = 2,
 							["hitamount"] = 1374,
 						},
 						["Claw (Tombflayer)"] = {
@@ -398,30 +5301,31 @@ SkadaStorageDB = {
 									["amount"] = 1685,
 								},
 							},
-							["criticalmax"] = 882,
 							["critical"] = 1,
+							["hit"] = 2,
 							["casts"] = 1,
 							["count"] = 3,
-							["hit"] = 2,
+							["amount"] = 1685,
 							["school"] = 1,
 							["hitmax"] = 412,
-							["amount"] = 1685,
+							["criticalmax"] = 882,
 							["hitamount"] = 803,
 						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 14,
-							["id"] = 50536,
+						["Blood Boil"] = {
+							["hitmin"] = 659,
+							["id"] = 49941,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 84,
+									["amount"] = 1366,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 6,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 32,
-							["hitmax"] = 14,
-							["amount"] = 84,
-							["hitamount"] = 84,
+							["hitmax"] = 707,
+							["amount"] = 1366,
+							["hitamount"] = 1366,
 						},
 						["Death Coil"] = {
 							["hitmin"] = 1404,
@@ -454,21 +5358,20 @@ SkadaStorageDB = {
 							["amount"] = 903,
 							["hitamount"] = 903,
 						},
-						["Blood Boil"] = {
-							["hitmin"] = 659,
-							["id"] = 49941,
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 14,
+							["id"] = 50536,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 1366,
+									["amount"] = 84,
 								},
 							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
+							["count"] = 6,
+							["hit"] = 6,
 							["school"] = 32,
-							["hitmax"] = 707,
-							["amount"] = 1366,
-							["hitamount"] = 1366,
+							["hitmax"] = 14,
+							["amount"] = 84,
+							["hitamount"] = 84,
 						},
 					},
 					["damagetaken"] = 882,
@@ -477,33 +5380,33 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 22,
-							["max"] = 56,
+							["min"] = 7,
 							["count"] = 8,
 							["amount"] = 201,
 							["school"] = 1,
-							["min"] = 7,
-							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 22,
 									["amount"] = 201,
 								},
 							},
+							["ishot"] = true,
+							["max"] = 56,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 287,
 							["id"] = 6603,
-							["amount"] = 882,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Frostpaw Warrior"] = {
 									["amount"] = 882,
 								},
 							},
-							["count"] = 5,
 							["hit"] = 3,
+							["PARRY"] = 1,
+							["count"] = 5,
+							["amount"] = 882,
 							["school"] = 1,
 							["hitmax"] = 301,
 							["MISS"] = 1,
@@ -525,29 +5428,25 @@ SkadaStorageDB = {
 					["heal"] = 201,
 					["name"] = "Urgash",
 					["ccdone"] = 1,
-					["overkill"] = 220,
-					["overheal"] = 22,
-					["totaldamage"] = 10855,
 					["role"] = "DAMAGER",
+					["overheal"] = 22,
+					["overkill"] = 220,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 882,
-			["ccdone"] = 1,
 			["etotaldamage"] = 882,
 			["damage"] = 10855,
+			["starttime"] = 1698954503,
 			["overkill"] = 220,
 			["edamagetaken"] = 10855,
 			["heal"] = 201,
 			["name"] = "Frostpaw Warrior (12)",
 			["mobname"] = "Frostpaw Warrior",
-			["starttime"] = 1698954503,
+			["ccdone"] = 1,
 			["edamage"] = 882,
 			["last_action"] = 1698954516,
 			["endtime"] = 1698954517,
-		}, -- [1]
+		}, -- [10]
 		{
-			["ccdone"] = 1,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -556,8 +5455,8 @@ SkadaStorageDB = {
 							["total"] = 2060,
 							["targets"] = {
 								["Urgash"] = {
-									["total"] = 2288,
 									["amount"] = 1050,
+									["total"] = 2288,
 								},
 							},
 							["amount"] = 1050,
@@ -567,8 +5466,8 @@ SkadaStorageDB = {
 							["total"] = 320,
 							["targets"] = {
 								["Urgash"] = {
-									["total"] = 544,
 									["amount"] = 224,
+									["total"] = 544,
 								},
 							},
 							["amount"] = 224,
@@ -582,12 +5481,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 363,
 									["amount"] = 4624,
+									["overkill"] = 363,
 								},
 							},
-							["overkill"] = 363,
 							["amount"] = 4624,
+							["overkill"] = 363,
 						},
 						[50526] = {
 							["school"] = 32,
@@ -651,13 +5550,15 @@ SkadaStorageDB = {
 					["damage"] = 1274,
 				}, -- [1]
 			},
-			["damage"] = 21633,
 			["totaldamage"] = 21633,
 			["time"] = 19,
-			["overheal"] = 0,
+			["last_time"] = 30381.305,
 			["totaldamagetaken"] = 2832,
 			["etotaldamage"] = 2832,
-			["last_time"] = 30381.305,
+			["damage"] = 21633,
+			["overheal"] = 0,
+			["type"] = "none",
+			["damagetaken"] = 1274,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -696,8 +5597,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 2,
 									["refresh"] = 3,
+									["count"] = 2,
 									["uptime"] = 18,
 								},
 							},
@@ -709,35 +5610,15 @@ SkadaStorageDB = {
 							["uptime"] = 19,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
-						},
-						[71586] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 10,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 3,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 18,
-								},
-							},
-							["uptime"] = 18,
 						},
 						[49938] = {
 							["type"] = "DEBUFF",
@@ -749,6 +5630,26 @@ SkadaStorageDB = {
 									["count"] = 2,
 								},
 							},
+							["uptime"] = 10,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 3,
+							["targets"] = {
+								["Frostpaw Warrior"] = {
+									["refresh"] = 3,
+									["count"] = 2,
+									["uptime"] = 18,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[71586] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 10,
 						},
 					},
@@ -780,31 +5681,30 @@ SkadaStorageDB = {
 									["amount"] = 1652,
 								},
 							},
-							["criticalmax"] = 818,
 							["critical"] = 1,
+							["hit"] = 2,
 							["casts"] = 1,
 							["count"] = 3,
-							["hit"] = 2,
+							["amount"] = 1652,
 							["school"] = 1,
 							["hitmax"] = 432,
-							["amount"] = 1652,
+							["criticalmax"] = 818,
 							["hitamount"] = 834,
 						},
-						["Blood Boil"] = {
-							["hitmin"] = 903,
-							["id"] = 49941,
+						["Melee (Tombflayer)"] = {
+							["hitmin"] = 273,
+							["id"] = 6603,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 3687,
+									["amount"] = 1396,
 								},
 							},
-							["casts"] = 2,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 954,
-							["amount"] = 3687,
-							["hitamount"] = 3687,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 285,
+							["amount"] = 1396,
+							["hitamount"] = 1396,
 						},
 						["Melee"] = {
 							["hitmin"] = 181,
@@ -816,33 +5716,33 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 710,
-							["critical"] = 1,
+							["hit"] = 4,
 							["criticalmax"] = 710,
 							["count"] = 5,
-							["hit"] = 4,
+							["amount"] = 1959,
 							["school"] = 1,
 							["hitmax"] = 356,
-							["amount"] = 1959,
+							["critical"] = 1,
 							["hitamount"] = 1249,
 						},
 						["Death and Decay"] = {
 							["hitmin"] = 208,
 							["criticalamount"] = 886,
 							["id"] = 52212,
-							["hitmax"] = 235,
+							["criticalmin"] = 416,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
 									["amount"] = 5554,
 								},
 							},
-							["count"] = 22,
-							["hit"] = 20,
 							["casts"] = 1,
+							["hitmax"] = 235,
+							["criticalmax"] = 470,
 							["critical"] = 2,
 							["amount"] = 5554,
 							["school"] = 32,
-							["criticalmin"] = 416,
-							["criticalmax"] = 470,
+							["hit"] = 20,
+							["count"] = 22,
 							["hitamount"] = 4668,
 						},
 						["Icy Touch"] = {
@@ -861,6 +5761,23 @@ SkadaStorageDB = {
 							["amount"] = 1759,
 							["hitamount"] = 1759,
 						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 497,
+							["id"] = 55095,
+							["targets"] = {
+								["Frostpaw Warrior"] = {
+									["amount"] = 4624,
+									["overkill"] = 363,
+								},
+							},
+							["overkill"] = 363,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 16,
+							["hitmax"] = 519,
+							["amount"] = 4624,
+							["hitamount"] = 4624,
+						},
 						["Wandering Plague"] = {
 							["hitmin"] = 470,
 							["id"] = 50526,
@@ -877,37 +5794,21 @@ SkadaStorageDB = {
 							["amount"] = 1002,
 							["hitamount"] = 1002,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 497,
-							["id"] = 55095,
+						["Blood Boil"] = {
+							["hitmin"] = 903,
+							["id"] = 49941,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["overkill"] = 363,
-									["amount"] = 4624,
+									["amount"] = 3687,
 								},
 							},
-							["overkill"] = 363,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 16,
-							["hitmax"] = 519,
-							["amount"] = 4624,
-							["hitamount"] = 4624,
-						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 273,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1396,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 285,
-							["amount"] = 1396,
-							["hitamount"] = 1396,
+							["casts"] = 2,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 954,
+							["amount"] = 3687,
+							["hitamount"] = 3687,
 						},
 					},
 					["absorb"] = 1558,
@@ -917,18 +5818,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
+							["min"] = 7,
+							["count"] = 11,
+							["amount"] = 292,
+							["max"] = 38,
+							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 0,
 									["amount"] = 292,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 292,
 							["school"] = 1,
-							["max"] = 38,
-							["ishot"] = true,
-							["min"] = 7,
 						},
 					},
 					["damagetakenspells"] = {
@@ -937,16 +5838,16 @@ SkadaStorageDB = {
 							["total"] = 2288,
 							["hitmin"] = 228,
 							["id"] = 6603,
-							["ABSORB"] = 5,
-							["hitmax"] = 286,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["total"] = 2288,
-									["amount"] = 1050,
-								},
-							},
 							["count"] = 15,
 							["hit"] = 4,
+							["sources"] = {
+								["Frostpaw Warrior"] = {
+									["amount"] = 1050,
+									["total"] = 2288,
+								},
+							},
+							["hitmax"] = 286,
+							["ABSORB"] = 5,
 							["school"] = 1,
 							["amount"] = 1050,
 							["MISS"] = 2,
@@ -956,43 +5857,42 @@ SkadaStorageDB = {
 							["total"] = 544,
 							["hitmin"] = 64,
 							["id"] = 12054,
-							["hitmax"] = 80,
+							["count"] = 8,
 							["sources"] = {
 								["Frostpaw Warrior"] = {
-									["total"] = 544,
 									["amount"] = 224,
+									["total"] = 544,
 								},
 							},
-							["count"] = 8,
+							["hitmax"] = 80,
 							["ABSORB"] = 5,
 							["school"] = 1,
-							["amount"] = 224,
 							["hit"] = 3,
+							["amount"] = 224,
 							["hitamount"] = 224,
 						},
 					},
 					["heal"] = 292,
 					["name"] = "Urgash",
 					["ccdone"] = 1,
-					["overkill"] = 363,
-					["overheal"] = 0,
 					["totaldamage"] = 21633,
+					["overheal"] = 0,
+					["overkill"] = 363,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 1274,
 			["starttime"] = 1698954458,
-			["absorb"] = 1558,
 			["etotaldamagetaken"] = 21633,
+			["mobname"] = "Frostpaw Warrior",
 			["overkill"] = 363,
 			["edamagetaken"] = 21633,
 			["heal"] = 292,
 			["name"] = "Frostpaw Warrior (11)",
-			["mobname"] = "Frostpaw Warrior",
+			["ccdone"] = 1,
+			["absorb"] = 1558,
 			["edamage"] = 1274,
 			["last_action"] = 1698954477,
 			["endtime"] = 1698954477,
-		}, -- [2]
+		}, -- [11]
 		{
 			["enemies"] = {
 				{
@@ -1056,16 +5956,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1775,
 						},
-						[49941] = {
-							["school"] = 32,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 307,
-									["amount"] = 2958,
+									["amount"] = 1838,
 								},
 							},
-							["overkill"] = 307,
-							["amount"] = 2958,
+							["amount"] = 1838,
 						},
 						[50536] = {
 							["school"] = 32,
@@ -1076,18 +5974,20 @@ SkadaStorageDB = {
 							},
 							["amount"] = 260,
 						},
-						[6603] = {
-							["school"] = 1,
+						[49941] = {
+							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1838,
+									["amount"] = 2958,
+									["overkill"] = 307,
 								},
 							},
-							["amount"] = 1838,
+							["amount"] = 2958,
+							["overkill"] = 307,
 						},
 					},
-					["name"] = "Frostpaw Warrior",
 					["totaldamage"] = 1960,
+					["name"] = "Frostpaw Warrior",
 					["totaldamagetaken"] = 10942,
 					["id"] = "0xF1300066F50796D9",
 					["damage"] = 1960,
@@ -1095,10 +5995,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 10942,
 			["time"] = 17,
-			["damage"] = 10942,
 			["totaldamagetaken"] = 1960,
 			["etotaldamagetaken"] = 10942,
-			["last_time"] = 30284.934,
+			["damage"] = 10942,
 			["players"] = {
 				{
 					["last"] = 30284.927,
@@ -1112,36 +6011,44 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 15,
 								},
 							},
 							["uptime"] = 15,
 						},
-						[72412] = {
-							["type"] = "BUFF",
+						[51735] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 3,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Frostpaw Warrior"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 15,
+								},
+							},
+							["uptime"] = 15,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 3,
 						},
 						[49039] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 10,
 						},
 						[57623] = {
-							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
 							["uptime"] = 17,
+							["type"] = "BUFF",
 						},
 						[48266] = {
 							["type"] = "BUFF",
@@ -1155,47 +6062,40 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 10,
 								},
 							},
 							["uptime"] = 10,
 						},
-						[51735] = {
-							["type"] = "DEBUFF",
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 15,
-								},
-							},
-							["uptime"] = 15,
+							["uptime"] = 3,
 						},
 					},
+					["totaldamage"] = 10942,
 					["time"] = 15.42,
 					["totaldamagetaken"] = 1960,
 					["damage"] = 10942,
 					["damagespells"] = {
-						["Wandering Plague"] = {
-							["hitmin"] = 286,
-							["id"] = 50526,
+						["Icy Touch"] = {
+							["hitmin"] = 534,
+							["id"] = 49909,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 286,
+									["amount"] = 1775,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 286,
-							["amount"] = 286,
-							["hitamount"] = 286,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["hitmax"] = 621,
+							["amount"] = 1775,
+							["hitamount"] = 1775,
 						},
 						["Melee"] = {
 							["hitmin"] = 180,
@@ -1207,14 +6107,29 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 362,
-							["critical"] = 1,
+							["hit"] = 6,
 							["criticalmax"] = 362,
 							["count"] = 7,
-							["hit"] = 6,
+							["amount"] = 1838,
 							["school"] = 1,
 							["hitmax"] = 403,
-							["amount"] = 1838,
+							["critical"] = 1,
 							["hitamount"] = 1476,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 279,
+							["id"] = 55095,
+							["targets"] = {
+								["Frostpaw Warrior"] = {
+									["amount"] = 1117,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 280,
+							["amount"] = 1117,
+							["hitamount"] = 1117,
 						},
 						["Death Coil"] = {
 							["hitmin"] = 1354,
@@ -1232,22 +6147,6 @@ SkadaStorageDB = {
 							["amount"] = 2708,
 							["hitamount"] = 2708,
 						},
-						["Icy Touch"] = {
-							["hitmin"] = 534,
-							["id"] = 49909,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1775,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 621,
-							["amount"] = 1775,
-							["hitamount"] = 1775,
-						},
 						["Unholy Blight (DoT)"] = {
 							["hitmin"] = 26,
 							["id"] = 50536,
@@ -1263,41 +6162,42 @@ SkadaStorageDB = {
 							["amount"] = 260,
 							["hitamount"] = 260,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 279,
-							["id"] = 55095,
+						["Wandering Plague"] = {
+							["hitmin"] = 286,
+							["id"] = 50526,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 1117,
+									["amount"] = 286,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 280,
-							["amount"] = 1117,
-							["hitamount"] = 1117,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 286,
+							["amount"] = 286,
+							["hitamount"] = 286,
 						},
 						["Blood Boil"] = {
-							["criticalmin"] = 1949,
-							["hitmin"] = 1009,
 							["criticalamount"] = 1949,
+							["hitmin"] = 1009,
+							["criticalmin"] = 1949,
 							["id"] = 49941,
-							["criticalmax"] = 1949,
+							["critical"] = 1,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["overkill"] = 307,
 									["amount"] = 2958,
+									["overkill"] = 307,
 								},
 							},
 							["overkill"] = 307,
-							["critical"] = 1,
+							["hit"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
+							["amount"] = 2958,
 							["school"] = 32,
 							["hitmax"] = 1009,
-							["amount"] = 2958,
+							["criticalmax"] = 1949,
 							["hitamount"] = 1009,
 						},
 					},
@@ -1307,32 +6207,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
+							["min"] = 1,
+							["count"] = 24,
+							["amount"] = 363,
+							["max"] = 65,
+							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 0,
 									["amount"] = 363,
 								},
 							},
-							["count"] = 24,
-							["amount"] = 363,
 							["school"] = 1,
-							["max"] = 65,
-							["ishot"] = true,
-							["min"] = 1,
 						},
 						[47633] = {
 							["overheal"] = 0,
 							["count"] = 2,
 							["amount"] = 2839,
 							["school"] = 32,
-							["max"] = 1420,
+							["min"] = 1419,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 0,
 									["amount"] = 2839,
 								},
 							},
-							["min"] = 1419,
+							["max"] = 1420,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1354,14 +6254,14 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 297,
 							["id"] = 6603,
-							["amount"] = 1640,
+							["hit"] = 5,
 							["sources"] = {
 								["Frostpaw Warrior"] = {
 									["amount"] = 1640,
 								},
 							},
 							["count"] = 6,
-							["hit"] = 5,
+							["amount"] = 1640,
 							["school"] = 1,
 							["hitmax"] = 348,
 							["MISS"] = 1,
@@ -1370,14 +6270,14 @@ SkadaStorageDB = {
 					},
 					["heal"] = 3202,
 					["name"] = "Urgash",
-					["overkill"] = 307,
-					["overheal"] = 0,
-					["totaldamage"] = 10942,
 					["role"] = "DAMAGER",
+					["overheal"] = 0,
+					["overkill"] = 307,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 1960,
+			["last_time"] = 30284.934,
 			["etotaldamage"] = 1960,
 			["overheal"] = 0,
 			["overkill"] = 307,
@@ -1389,7 +6289,7 @@ SkadaStorageDB = {
 			["edamage"] = 1960,
 			["last_action"] = 1698954381,
 			["endtime"] = 1698954382,
-		}, -- [3]
+		}, -- [12]
 		{
 			["enemies"] = {
 				{
@@ -1435,15 +6335,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 31,
 						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 286,
-								},
-							},
-							["amount"] = 286,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
@@ -1452,26 +6343,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 3672,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 18,
-									["amount"] = 2465,
-								},
-							},
-							["overkill"] = 18,
-							["amount"] = 2465,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1961,
-								},
-							},
-							["amount"] = 1961,
 						},
 						[49909] = {
 							["school"] = 16,
@@ -1482,20 +6353,51 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1679,
 						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2465,
+									["overkill"] = 18,
+								},
+							},
+							["amount"] = 2465,
+							["overkill"] = 18,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1961,
+								},
+							},
+							["amount"] = 1961,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 286,
+								},
+							},
+							["amount"] = 286,
+						},
 					},
-					["name"] = "Frostpaw Warrior",
 					["totaldamage"] = 1093,
+					["name"] = "Frostpaw Warrior",
 					["totaldamagetaken"] = 10653,
 					["id"] = "0xF1300066F507F00F",
 					["damage"] = 1093,
 				}, -- [1]
 			},
-			["damage"] = 10653,
 			["totaldamage"] = 10653,
 			["time"] = 15,
-			["overheal"] = 0,
 			["totaldamagetaken"] = 1093,
 			["etotaldamagetaken"] = 10653,
+			["damage"] = 10653,
+			["overheal"] = 0,
+			["type"] = "none",
+			["damagetaken"] = 1093,
 			["last_time"] = 30263.173,
 			["players"] = {
 				{
@@ -1518,8 +6420,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 9,
 								},
 							},
@@ -1543,10 +6445,10 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[57623] = {
-							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
 							["uptime"] = 15,
+							["type"] = "BUFF",
 						},
 						[48266] = {
 							["type"] = "BUFF",
@@ -1560,14 +6462,15 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 9,
 								},
 							},
 							["uptime"] = 9,
 						},
 					},
+					["totaldamage"] = 10653,
 					["time"] = 13.21,
 					["totaldamagetaken"] = 1093,
 					["damage"] = 10653,
@@ -1578,18 +6481,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
+							["min"] = 7,
+							["count"] = 11,
+							["amount"] = 212,
+							["max"] = 56,
+							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 0,
 									["amount"] = 212,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 212,
 							["school"] = 1,
-							["max"] = 56,
-							["ishot"] = true,
-							["min"] = 7,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1628,45 +6531,44 @@ SkadaStorageDB = {
 					["heal"] = 212,
 					["name"] = "Urgash",
 					["ccdone"] = 1,
-					["overkill"] = 18,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Claw (Tombflayer)"] = {
-							["count"] = 4,
-							["hitmin"] = 417,
 							["criticalamount"] = 1624,
+							["hitmin"] = 417,
+							["criticalmin"] = 810,
 							["id"] = 47468,
-							["hitmax"] = 424,
+							["casts"] = 1,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["overkill"] = 18,
 									["amount"] = 2465,
+									["overkill"] = 18,
 								},
 							},
 							["overkill"] = 18,
-							["hit"] = 2,
-							["casts"] = 1,
+							["count"] = 4,
+							["criticalmax"] = 814,
 							["critical"] = 2,
 							["amount"] = 2465,
 							["school"] = 1,
-							["criticalmin"] = 810,
-							["criticalmax"] = 814,
+							["hit"] = 2,
+							["hitmax"] = 424,
 							["hitamount"] = 841,
 						},
-						["Wandering Plague"] = {
-							["hitmin"] = 286,
-							["id"] = 50526,
+						["Melee (Tombflayer)"] = {
+							["hitmin"] = 258,
+							["id"] = 6603,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 286,
+									["amount"] = 1885,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 286,
-							["amount"] = 286,
-							["hitamount"] = 286,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 281,
+							["amount"] = 1885,
+							["hitamount"] = 1885,
 						},
 						["Melee"] = {
 							["hitmin"] = 181,
@@ -1678,53 +6580,48 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 362,
-							["critical"] = 1,
+							["hit"] = 6,
 							["criticalmax"] = 362,
 							["count"] = 7,
-							["hit"] = 6,
+							["amount"] = 1787,
 							["school"] = 1,
 							["hitmax"] = 349,
-							["amount"] = 1787,
+							["critical"] = 1,
 							["hitamount"] = 1425,
 						},
-						["Blood Boil"] = {
-							["hitmin"] = 556,
-							["criticalamount"] = 1405,
-							["id"] = 49941,
-							["criticalmin"] = 1405,
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 279,
+							["id"] = 55095,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 1961,
+									["amount"] = 559,
 								},
 							},
-							["criticalmax"] = 1405,
-							["critical"] = 1,
-							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 556,
-							["amount"] = 1961,
-							["hitamount"] = 556,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 280,
+							["amount"] = 559,
+							["hitamount"] = 559,
 						},
 						["Icy Touch"] = {
 							["hitmin"] = 616,
 							["criticalamount"] = 1063,
 							["id"] = 49909,
-							["hitmax"] = 616,
+							["criticalmin"] = 1063,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
 									["amount"] = 1679,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
 							["casts"] = 2,
+							["hitmax"] = 616,
+							["criticalmax"] = 1063,
 							["critical"] = 1,
 							["amount"] = 1679,
 							["school"] = 16,
-							["criticalmin"] = 1063,
-							["criticalmax"] = 1063,
+							["hit"] = 1,
+							["count"] = 2,
 							["hitamount"] = 616,
 						},
 						["Gnaw (Tombflayer)"] = {
@@ -1743,55 +6640,58 @@ SkadaStorageDB = {
 							["amount"] = 31,
 							["hitamount"] = 31,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 279,
-							["id"] = 55095,
+						["Wandering Plague"] = {
+							["hitmin"] = 286,
+							["id"] = 50526,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 559,
+									["amount"] = 286,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 280,
-							["amount"] = 559,
-							["hitamount"] = 559,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 286,
+							["amount"] = 286,
+							["hitamount"] = 286,
 						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 258,
-							["id"] = 6603,
+						["Blood Boil"] = {
+							["hitmin"] = 556,
+							["criticalamount"] = 1405,
+							["id"] = 49941,
+							["criticalmin"] = 1405,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 1885,
+									["amount"] = 1961,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 281,
-							["amount"] = 1885,
-							["hitamount"] = 1885,
+							["critical"] = 1,
+							["hit"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 1961,
+							["school"] = 32,
+							["hitmax"] = 556,
+							["criticalmax"] = 1405,
+							["hitamount"] = 556,
 						},
 					},
-					["totaldamage"] = 10653,
-					["role"] = "DAMAGER",
+					["overkill"] = 18,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 1093,
 			["etotaldamage"] = 1093,
-			["ccdone"] = 1,
+			["starttime"] = 1698954345,
 			["overkill"] = 18,
 			["edamagetaken"] = 10653,
 			["heal"] = 212,
 			["name"] = "Frostpaw Warrior (10)",
 			["mobname"] = "Frostpaw Warrior",
-			["starttime"] = 1698954345,
+			["ccdone"] = 1,
 			["edamage"] = 1093,
 			["last_action"] = 1698954359,
 			["endtime"] = 1698954360,
-		}, -- [4]
+		}, -- [13]
 		{
 			["enemies"] = {
 				{
@@ -1823,12 +6723,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 409,
 									["amount"] = 2855,
+									["overkill"] = 409,
 								},
 							},
-							["overkill"] = 409,
 							["amount"] = 2855,
+							["overkill"] = 409,
 						},
 						[47468] = {
 							["school"] = 1,
@@ -1858,8 +6758,8 @@ SkadaStorageDB = {
 							["amount"] = 4012,
 						},
 					},
-					["name"] = "Frostpaw Warrior",
 					["totaldamage"] = 1588,
+					["name"] = "Frostpaw Warrior",
 					["totaldamagetaken"] = 11044,
 					["id"] = "0xF1300066F507EFE2",
 					["damage"] = 1588,
@@ -1867,10 +6767,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 11044,
 			["time"] = 14,
-			["overheal"] = 0,
 			["totaldamagetaken"] = 1588,
 			["etotaldamagetaken"] = 11044,
 			["last_time"] = 30245.451,
+			["overheal"] = 0,
+			["type"] = "none",
+			["damagetaken"] = 1588,
 			["players"] = {
 				{
 					["last"] = 30245.442,
@@ -1884,24 +6786,24 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 12,
 								},
 							},
 							["uptime"] = 12,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 11,
 						},
 						[57623] = {
-							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
 							["uptime"] = 14,
+							["type"] = "BUFF",
 						},
 						[48266] = {
 							["type"] = "BUFF",
@@ -1915,14 +6817,15 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 12,
 								},
 							},
 							["uptime"] = 12,
 						},
 					},
+					["totaldamage"] = 11044,
 					["time"] = 12.09,
 					["totaldamagetaken"] = 1588,
 					["damage"] = 11044,
@@ -1937,14 +6840,14 @@ SkadaStorageDB = {
 									["amount"] = 2077,
 								},
 							},
-							["criticalmax"] = 836,
 							["critical"] = 2,
+							["hit"] = 1,
 							["casts"] = 1,
 							["count"] = 3,
-							["hit"] = 1,
+							["amount"] = 2077,
 							["school"] = 1,
 							["hitmax"] = 409,
-							["amount"] = 2077,
+							["criticalmax"] = 836,
 							["hitamount"] = 409,
 						},
 						["Melee"] = {
@@ -1957,13 +6860,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 698,
-							["critical"] = 1,
+							["hit"] = 5,
 							["criticalmax"] = 698,
 							["count"] = 6,
-							["hit"] = 5,
+							["amount"] = 2105,
 							["school"] = 1,
 							["hitmax"] = 349,
-							["amount"] = 2105,
+							["critical"] = 1,
 							["hitamount"] = 1407,
 						},
 						["Icy Touch"] = {
@@ -1971,8 +6874,8 @@ SkadaStorageDB = {
 							["id"] = 49909,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["overkill"] = 409,
 									["amount"] = 2855,
+									["overkill"] = 409,
 								},
 							},
 							["overkill"] = 409,
@@ -1983,40 +6886,6 @@ SkadaStorageDB = {
 							["hitmax"] = 858,
 							["amount"] = 2855,
 							["hitamount"] = 2855,
-						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 263,
-							["criticalamount"] = 1644,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1907,
-								},
-							},
-							["hitmax"] = 263,
-							["count"] = 4,
-							["criticalmax"] = 556,
-							["critical"] = 3,
-							["amount"] = 1907,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 542,
-							["hitamount"] = 263,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 280,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 560,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 280,
-							["amount"] = 560,
-							["hitamount"] = 560,
 						},
 						["Blood Boil"] = {
 							["hitmin"] = 656,
@@ -2034,6 +6903,40 @@ SkadaStorageDB = {
 							["amount"] = 1540,
 							["hitamount"] = 1540,
 						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 280,
+							["id"] = 55095,
+							["targets"] = {
+								["Frostpaw Warrior"] = {
+									["amount"] = 560,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 280,
+							["amount"] = 560,
+							["hitamount"] = 560,
+						},
+						["Melee (Tombflayer)"] = {
+							["hitmin"] = 263,
+							["criticalamount"] = 1644,
+							["id"] = 6603,
+							["targets"] = {
+								["Frostpaw Warrior"] = {
+									["amount"] = 1907,
+								},
+							},
+							["criticalmin"] = 542,
+							["hitmax"] = 263,
+							["criticalmax"] = 556,
+							["critical"] = 3,
+							["amount"] = 1907,
+							["school"] = 1,
+							["hit"] = 1,
+							["count"] = 4,
+							["hitamount"] = 263,
+						},
 					},
 					["damagetaken"] = 1588,
 					["id"] = "0x070000000000D01B",
@@ -2041,18 +6944,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
+							["min"] = 7,
+							["count"] = 12,
+							["amount"] = 237,
+							["max"] = 35,
+							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 0,
 									["amount"] = 237,
 								},
 							},
-							["count"] = 12,
-							["amount"] = 237,
 							["school"] = 1,
-							["max"] = 35,
-							["ishot"] = true,
-							["min"] = 7,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2086,14 +6989,11 @@ SkadaStorageDB = {
 					},
 					["heal"] = 237,
 					["name"] = "Urgash",
-					["overkill"] = 409,
-					["overheal"] = 0,
-					["totaldamage"] = 11044,
 					["role"] = "DAMAGER",
+					["overheal"] = 0,
+					["overkill"] = 409,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 1588,
 			["etotaldamage"] = 1588,
 			["damage"] = 11044,
 			["overkill"] = 409,
@@ -2105,7 +7005,7 @@ SkadaStorageDB = {
 			["edamage"] = 1588,
 			["last_action"] = 1698954341,
 			["endtime"] = 1698954343,
-		}, -- [5]
+		}, -- [14]
 		{
 			["enemies"] = {
 				{
@@ -2182,16 +7082,16 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 149,
 									["amount"] = 3629,
+									["overkill"] = 149,
 								},
 							},
-							["overkill"] = 149,
 							["amount"] = 3629,
+							["overkill"] = 149,
 						},
 					},
-					["name"] = "Frostpaw Warrior",
 					["totaldamage"] = 1379,
+					["name"] = "Frostpaw Warrior",
 					["totaldamagetaken"] = 10784,
 					["id"] = "0xF1300066F5073FE7",
 					["damage"] = 1379,
@@ -2199,29 +7099,22 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 10784,
 			["time"] = 14,
-			["overheal"] = 0,
 			["totaldamagetaken"] = 1379,
 			["etotaldamagetaken"] = 10784,
 			["last_time"] = 30225.557,
+			["overheal"] = 0,
+			["type"] = "none",
+			["damagetaken"] = 1379,
 			["players"] = {
 				{
 					["last"] = 30224.84,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[51735] = {
-							["type"] = "DEBUFF",
+						[48266] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 3,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 13,
-								},
-							},
-							["uptime"] = 13,
+							["uptime"] = 14,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -2230,24 +7123,34 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 13,
 								},
 							},
 							["uptime"] = 13,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 3,
+							["targets"] = {
+								["Frostpaw Warrior"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 13,
+								},
+							},
+							["uptime"] = 13,
+						},
 					},
+					["totaldamage"] = 10784,
 					["time"] = 12.9,
 					["totaldamagetaken"] = 1379,
 					["damage"] = 10784,
@@ -2262,53 +7165,57 @@ SkadaStorageDB = {
 									["amount"] = 1674,
 								},
 							},
-							["criticalmax"] = 844,
 							["critical"] = 1,
+							["hit"] = 2,
 							["casts"] = 1,
 							["count"] = 3,
-							["hit"] = 2,
+							["amount"] = 1674,
 							["school"] = 1,
 							["hitmax"] = 424,
-							["amount"] = 1674,
+							["criticalmax"] = 844,
 							["hitamount"] = 830,
 						},
 						["Melee"] = {
-							["blocked"] = 37,
+							["criticalmin"] = 396,
 							["hitmin"] = 161,
 							["criticalamount"] = 792,
 							["id"] = 6603,
-							["criticalmin"] = 396,
+							["critical"] = 2,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["overkill"] = 149,
 									["amount"] = 1727,
+									["overkill"] = 149,
 								},
 							},
 							["overkill"] = 149,
-							["critical"] = 2,
+							["blocked"] = 37,
 							["criticalmax"] = 396,
 							["count"] = 7,
 							["hit"] = 5,
 							["school"] = 1,
-							["hitmax"] = 198,
 							["amount"] = 1727,
+							["hitmax"] = 198,
 							["hitamount"] = 935,
 						},
-						["Wandering Plague"] = {
-							["hitmin"] = 308,
-							["id"] = 50526,
+						["Blood Boil"] = {
+							["hitmin"] = 680,
+							["criticalamount"] = 1424,
+							["id"] = 49941,
+							["criticalmin"] = 1424,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 308,
+									["amount"] = 2104,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["casts"] = 2,
+							["hitmax"] = 680,
+							["criticalmax"] = 1424,
+							["critical"] = 1,
+							["amount"] = 2104,
 							["school"] = 32,
-							["hitmax"] = 308,
-							["amount"] = 308,
-							["hitamount"] = 308,
+							["hit"] = 1,
+							["count"] = 2,
+							["hitamount"] = 680,
 						},
 						["Icy Touch"] = {
 							["hitmin"] = 562,
@@ -2326,25 +7233,6 @@ SkadaStorageDB = {
 							["amount"] = 2469,
 							["hitamount"] = 2469,
 						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 260,
-							["criticalamount"] = 1096,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1902,
-								},
-							},
-							["hitmax"] = 273,
-							["count"] = 5,
-							["criticalmax"] = 550,
-							["critical"] = 2,
-							["amount"] = 1902,
-							["school"] = 1,
-							["hit"] = 3,
-							["criticalmin"] = 546,
-							["hitamount"] = 806,
-						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 300,
 							["id"] = 55095,
@@ -2360,25 +7248,40 @@ SkadaStorageDB = {
 							["amount"] = 600,
 							["hitamount"] = 600,
 						},
-						["Blood Boil"] = {
-							["hitmin"] = 680,
-							["criticalamount"] = 1424,
-							["id"] = 49941,
-							["hitmax"] = 680,
+						["Wandering Plague"] = {
+							["hitmin"] = 308,
+							["id"] = 50526,
 							["targets"] = {
 								["Frostpaw Warrior"] = {
-									["amount"] = 2104,
+									["amount"] = 308,
 								},
 							},
-							["count"] = 2,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 2104,
 							["school"] = 32,
-							["criticalmin"] = 1424,
-							["criticalmax"] = 1424,
-							["hitamount"] = 680,
+							["hitmax"] = 308,
+							["amount"] = 308,
+							["hitamount"] = 308,
+						},
+						["Melee (Tombflayer)"] = {
+							["hitmin"] = 260,
+							["criticalamount"] = 1096,
+							["id"] = 6603,
+							["targets"] = {
+								["Frostpaw Warrior"] = {
+									["amount"] = 1902,
+								},
+							},
+							["criticalmin"] = 546,
+							["hitmax"] = 273,
+							["criticalmax"] = 550,
+							["critical"] = 2,
+							["amount"] = 1902,
+							["school"] = 1,
+							["hit"] = 3,
+							["count"] = 5,
+							["hitamount"] = 806,
 						},
 					},
 					["damagetaken"] = 1379,
@@ -2387,18 +7290,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
+							["min"] = 1,
+							["count"] = 13,
+							["amount"] = 237,
+							["max"] = 56,
+							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 0,
 									["amount"] = 237,
 								},
 							},
-							["count"] = 13,
-							["amount"] = 237,
 							["school"] = 1,
-							["max"] = 56,
-							["ishot"] = true,
-							["min"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2420,15 +7323,15 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 281,
 							["id"] = 6603,
-							["amount"] = 899,
-							["hitmax"] = 324,
+							["count"] = 5,
+							["hit"] = 3,
 							["sources"] = {
 								["Frostpaw Warrior"] = {
 									["amount"] = 899,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 3,
+							["hitmax"] = 324,
+							["amount"] = 899,
 							["school"] = 1,
 							["PARRY"] = 1,
 							["MISS"] = 1,
@@ -2437,14 +7340,11 @@ SkadaStorageDB = {
 					},
 					["heal"] = 237,
 					["name"] = "Urgash",
-					["overkill"] = 149,
-					["overheal"] = 0,
-					["totaldamage"] = 10784,
 					["role"] = "DAMAGER",
+					["overheal"] = 0,
+					["overkill"] = 149,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 1379,
 			["etotaldamage"] = 1379,
 			["damage"] = 10784,
 			["overkill"] = 149,
@@ -2456,3620 +7356,6 @@ SkadaStorageDB = {
 			["edamage"] = 1379,
 			["last_action"] = 1698954321,
 			["endtime"] = 1698954322,
-		}, -- [6]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 984,
-								},
-							},
-							["amount"] = 984,
-						},
-						[12054] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 160,
-								},
-							},
-							["amount"] = 160,
-						},
-					},
-					["damagetaken"] = 10724,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1017,
-								},
-							},
-							["amount"] = 1017,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1611,
-								},
-							},
-							["amount"] = 1611,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1896,
-								},
-							},
-							["amount"] = 1896,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1696,
-								},
-							},
-							["amount"] = 1696,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1232,
-								},
-							},
-							["amount"] = 1232,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 108,
-								},
-							},
-							["amount"] = 108,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 89,
-									["amount"] = 3164,
-								},
-							},
-							["overkill"] = 89,
-							["amount"] = 3164,
-						},
-					},
-					["name"] = "Frostpaw Warrior",
-					["totaldamage"] = 1144,
-					["totaldamagetaken"] = 10724,
-					["id"] = "0xF1300066F5073FB8",
-					["damage"] = 1144,
-				}, -- [1]
-			},
-			["totaldamage"] = 10724,
-			["time"] = 12,
-			["damage"] = 10724,
-			["totaldamagetaken"] = 1144,
-			["etotaldamagetaken"] = 10724,
-			["last_time"] = 30210.117,
-			["players"] = {
-				{
-					["last"] = 30210.007,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-					},
-					["time"] = 10.93,
-					["totaldamagetaken"] = 1144,
-					["damage"] = 10724,
-					["damagespells"] = {
-						["Claw (Tombflayer)"] = {
-							["hitmin"] = 400,
-							["id"] = 47468,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1232,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 424,
-							["amount"] = 1232,
-							["hitamount"] = 1232,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 682,
-							["id"] = 49941,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1611,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 929,
-							["amount"] = 1611,
-							["hitamount"] = 1611,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 198,
-							["criticalamount"] = 396,
-							["id"] = 6603,
-							["criticalmin"] = 396,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 89,
-									["amount"] = 1522,
-								},
-							},
-							["overkill"] = 89,
-							["critical"] = 1,
-							["criticalmax"] = 396,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 365,
-							["amount"] = 1522,
-							["hitamount"] = 1126,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 795,
-							["id"] = 49909,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1696,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 901,
-							["amount"] = 1696,
-							["hitamount"] = 1696,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 1896,
-							["id"] = 47632,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1896,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1896,
-							["amount"] = 1896,
-							["hitamount"] = 1896,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 18,
-							["id"] = 50536,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 108,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 18,
-							["amount"] = 108,
-							["hitamount"] = 108,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 508,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1017,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 509,
-							["amount"] = 1017,
-							["hitamount"] = 1017,
-						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 273,
-							["criticalamount"] = 1090,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1642,
-								},
-							},
-							["hitmax"] = 279,
-							["count"] = 4,
-							["criticalmax"] = 560,
-							["critical"] = 2,
-							["amount"] = 1642,
-							["school"] = 1,
-							["hit"] = 2,
-							["criticalmin"] = 530,
-							["hitamount"] = 552,
-						},
-					},
-					["damagetaken"] = 1144,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 260,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 260,
-							["school"] = 1,
-							["max"] = 75,
-							["ishot"] = true,
-							["min"] = 7,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 317,
-							["id"] = 6603,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 984,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 335,
-							["amount"] = 984,
-							["hitamount"] = 984,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 80,
-							["id"] = 12054,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 160,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 80,
-							["amount"] = 160,
-							["hitamount"] = 160,
-						},
-					},
-					["heal"] = 260,
-					["name"] = "Urgash",
-					["overkill"] = 89,
-					["overheal"] = 0,
-					["totaldamage"] = 10724,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 1144,
-			["etotaldamage"] = 1144,
-			["overheal"] = 0,
-			["overkill"] = 89,
-			["edamagetaken"] = 10724,
-			["heal"] = 260,
-			["name"] = "Frostpaw Warrior (7)",
-			["mobname"] = "Frostpaw Warrior",
-			["starttime"] = 1698954295,
-			["edamage"] = 1144,
-			["last_action"] = 1698954306,
-			["endtime"] = 1698954307,
-		}, -- [7]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 2517,
-								},
-							},
-							["amount"] = 2517,
-						},
-						[12054] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 400,
-								},
-							},
-							["amount"] = 400,
-						},
-					},
-					["damagetaken"] = 11271,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1116,
-								},
-							},
-							["amount"] = 1116,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 572,
-								},
-							},
-							["amount"] = 572,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2388,
-								},
-							},
-							["amount"] = 2388,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3532,
-								},
-							},
-							["amount"] = 3532,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 636,
-									["amount"] = 3663,
-								},
-							},
-							["overkill"] = 636,
-							["amount"] = 3663,
-						},
-					},
-					["name"] = "Frostpaw Warrior",
-					["totaldamage"] = 2917,
-					["totaldamagetaken"] = 11271,
-					["id"] = "0xF1300066F5073FCD",
-					["damage"] = 2917,
-				}, -- [1]
-			},
-			["totaldamage"] = 11271,
-			["time"] = 21,
-			["overheal"] = 0,
-			["totaldamagetaken"] = 2917,
-			["etotaldamagetaken"] = 11271,
-			["last_time"] = 30196.733,
-			["players"] = {
-				{
-					["last"] = 30196.568,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 7,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 3,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 21,
-						},
-					},
-					["time"] = 20.85,
-					["totaldamagetaken"] = 2917,
-					["damage"] = 11271,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 180,
-							["criticalamount"] = 1454,
-							["id"] = 6603,
-							["criticalmin"] = 362,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 636,
-									["amount"] = 3405,
-								},
-							},
-							["overkill"] = 636,
-							["critical"] = 3,
-							["criticalmax"] = 730,
-							["count"] = 11,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 348,
-							["amount"] = 3405,
-							["hitamount"] = 1951,
-						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 258,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 258,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 258,
-							["amount"] = 258,
-							["hitamount"] = 258,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 546,
-							["id"] = 49909,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 2388,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 618,
-							["amount"] = 2388,
-							["hitamount"] = 2388,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 286,
-							["id"] = 50526,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 572,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 286,
-							["amount"] = 572,
-							["hitamount"] = 572,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 279,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1116,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 279,
-							["amount"] = 1116,
-							["hitamount"] = 1116,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 642,
-							["criticalamount"] = 1268,
-							["id"] = 49941,
-							["criticalmin"] = 1268,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 3532,
-								},
-							},
-							["criticalmax"] = 1268,
-							["critical"] = 1,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 924,
-							["amount"] = 3532,
-							["hitamount"] = 2264,
-						},
-					},
-					["damagetaken"] = 2917,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 336,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 336,
-							["school"] = 1,
-							["max"] = 50,
-							["ishot"] = true,
-							["min"] = 3,
-						},
-					},
-					["damagetakenspells"] = {
-						["Demoralizing Shout"] = {
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 13730,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 80,
-							["id"] = 12054,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 400,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 80,
-							["amount"] = 400,
-							["hitamount"] = 400,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 283,
-							["id"] = 6603,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 2517,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 338,
-							["amount"] = 2517,
-							["hitamount"] = 2517,
-						},
-					},
-					["heal"] = 336,
-					["name"] = "Urgash",
-					["overkill"] = 636,
-					["overheal"] = 0,
-					["totaldamage"] = 11271,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 2917,
-			["etotaldamage"] = 2917,
-			["damage"] = 11271,
-			["overkill"] = 636,
-			["edamagetaken"] = 11271,
-			["heal"] = 336,
-			["name"] = "Frostpaw Warrior (6)",
-			["mobname"] = "Frostpaw Warrior",
-			["starttime"] = 1698954272,
-			["edamage"] = 2917,
-			["last_action"] = 1698954293,
-			["endtime"] = 1698954293,
-		}, -- [8]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1848,
-								},
-							},
-							["amount"] = 1848,
-						},
-						[12054] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 399,
-								},
-							},
-							["amount"] = 399,
-						},
-					},
-					["damagetaken"] = 10733,
-					["id"] = "0xF1300066F5073FF2",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1118,
-								},
-							},
-							["amount"] = 1118,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 859,
-								},
-							},
-							["amount"] = 859,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 91,
-								},
-							},
-							["amount"] = 91,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1354,
-								},
-							},
-							["amount"] = 1354,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2314,
-								},
-							},
-							["amount"] = 2314,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 98,
-									["amount"] = 1259,
-								},
-							},
-							["overkill"] = 98,
-							["amount"] = 1259,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1363,
-								},
-							},
-							["amount"] = 1363,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2375,
-								},
-							},
-							["amount"] = 2375,
-						},
-					},
-					["totaldamage"] = 2247,
-					["name"] = "Frostpaw Warrior",
-					["totaldamagetaken"] = 10733,
-					["flag"] = 68168,
-					["damage"] = 2247,
-				}, -- [1]
-			},
-			["totaldamage"] = 10733,
-			["time"] = 19,
-			["damage"] = 10733,
-			["totaldamagetaken"] = 2247,
-			["etotaldamage"] = 2247,
-			["last_time"] = 30173.876,
-			["players"] = {
-				{
-					["last"] = 30172.082,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 17,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[49039] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 19,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 17,
-								},
-							},
-							["uptime"] = 17,
-						},
-					},
-					["time"] = 16.92,
-					["totaldamagetaken"] = 2247,
-					["damage"] = 10733,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 143,
-							["criticalamount"] = 362,
-							["id"] = 6603,
-							["criticalmin"] = 362,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1772,
-								},
-							},
-							["blocked"] = 37,
-							["critical"] = 1,
-							["criticalmax"] = 362,
-							["count"] = 9,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 182,
-							["amount"] = 1772,
-							["hitamount"] = 1410,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 528,
-							["criticalamount"] = 1231,
-							["id"] = 49909,
-							["criticalmin"] = 1231,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 2375,
-								},
-							},
-							["criticalmax"] = 1231,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 616,
-							["amount"] = 2375,
-							["hitamount"] = 1144,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 13,
-							["id"] = 50536,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 91,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["hitmax"] = 13,
-							["amount"] = 91,
-							["hitamount"] = 91,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 285,
-							["id"] = 50526,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 859,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 287,
-							["amount"] = 859,
-							["hitamount"] = 859,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 662,
-							["id"] = 49941,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1363,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 701,
-							["amount"] = 1363,
-							["hitamount"] = 1363,
-						},
-						["Claw (Tombflayer)"] = {
-							["criticalmin"] = 848,
-							["hitmin"] = 411,
-							["criticalamount"] = 848,
-							["id"] = 47468,
-							["criticalmax"] = 848,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 98,
-									["amount"] = 1259,
-								},
-							},
-							["overkill"] = 98,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 411,
-							["amount"] = 1259,
-							["hitamount"] = 411,
-						},
-						["Melee (Tombflayer)"] = {
-							["criticalamount"] = 542,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 542,
-								},
-							},
-							["criticalmax"] = 542,
-							["critical"] = 1,
-							["amount"] = 542,
-							["school"] = 1,
-							["criticalmin"] = 542,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 279,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1118,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 280,
-							["amount"] = 1118,
-							["hitamount"] = 1118,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 1354,
-							["id"] = 47632,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1354,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1354,
-							["amount"] = 1354,
-							["hitamount"] = 1354,
-						},
-					},
-					["damagetaken"] = 2247,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 270,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 270,
-							["school"] = 1,
-							["max"] = 54,
-							["ishot"] = true,
-							["min"] = 5,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 302,
-							["criticalamount"] = 570,
-							["id"] = 6603,
-							["criticalmin"] = 570,
-							["criticalmax"] = 570,
-							["critical"] = 1,
-							["amount"] = 1848,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1848,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 349,
-							["MISS"] = 2,
-							["hitamount"] = 1278,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 79,
-							["id"] = 12054,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 399,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 80,
-							["amount"] = 399,
-							["hitamount"] = 399,
-						},
-					},
-					["heal"] = 270,
-					["name"] = "Urgash",
-					["overkill"] = 98,
-					["overheal"] = 0,
-					["totaldamage"] = 10733,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 2247,
-			["overheal"] = 0,
-			["etotaldamagetaken"] = 10733,
-			["overkill"] = 98,
-			["edamagetaken"] = 10733,
-			["heal"] = 270,
-			["name"] = "Frostpaw Warrior (5)",
-			["mobname"] = "Frostpaw Warrior",
-			["starttime"] = 1698954251,
-			["edamage"] = 2247,
-			["last_action"] = 1698954270,
-			["endtime"] = 1698954270,
-		}, -- [9]
-		{
-			["overheal"] = 0,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 974,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 1647,
-									["amount"] = 673,
-								},
-							},
-							["amount"] = 673,
-						},
-						[12054] = {
-							["school"] = 1,
-							["total"] = 80,
-							["targets"] = {
-								["Urgash"] = {
-									["total"] = 240,
-									["amount"] = 160,
-								},
-							},
-							["amount"] = 160,
-						},
-					},
-					["damagetaken"] = 11360,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1385,
-								},
-							},
-							["amount"] = 1385,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2007,
-								},
-							},
-							["amount"] = 2007,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 725,
-									["amount"] = 3387,
-								},
-							},
-							["overkill"] = 725,
-							["amount"] = 3387,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1843,
-								},
-							},
-							["amount"] = 1843,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2718,
-								},
-							},
-							["amount"] = 2718,
-						},
-					},
-					["name"] = "Frostpaw Warrior",
-					["totaldamage"] = 1887,
-					["totaldamagetaken"] = 11360,
-					["id"] = "0xF1300066F5073FDD",
-					["damage"] = 833,
-				}, -- [1]
-			},
-			["totaldamage"] = 11360,
-			["time"] = 17,
-			["etotaldamage"] = 1887,
-			["totaldamagetaken"] = 1887,
-			["etotaldamagetaken"] = 11360,
-			["last_time"] = 30152.058,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Frostpaw Warrior"] = 1,
-							},
-						},
-					},
-					["last"] = 30150.937,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 16,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 16,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[71586] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 10,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[49039] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 5,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 13,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["absorbspells"] = {
-						[71586] = {
-							["min"] = 80,
-							["casts"] = 1,
-							["count"] = 4,
-							["amount"] = 1054,
-							["school"] = 2,
-							["targets"] = {
-								["Urgash"] = 1054,
-							},
-							["max"] = 339,
-						},
-					},
-					["time"] = 15.39,
-					["totaldamagetaken"] = 1887,
-					["damage"] = 11360,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 198,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 2718,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 420,
-							["amount"] = 2718,
-							["hitamount"] = 2718,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 2007,
-							["id"] = 47632,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 2007,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2007,
-							["amount"] = 2007,
-							["hitamount"] = 2007,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 566,
-							["id"] = 49909,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 725,
-									["amount"] = 3387,
-								},
-							},
-							["overkill"] = 725,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 976,
-							["amount"] = 3387,
-							["hitamount"] = 3387,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 20,
-							["id"] = 50536,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 20,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 20,
-							["amount"] = 20,
-							["hitamount"] = 20,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 301,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1385,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 576,
-							["amount"] = 1385,
-							["hitamount"] = 1385,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 906,
-							["id"] = 49941,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1843,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 937,
-							["amount"] = 1843,
-							["hitamount"] = 1843,
-						},
-					},
-					["absorb"] = 1054,
-					["damagetaken"] = 833,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 362,
-								},
-							},
-							["count"] = 15,
-							["amount"] = 362,
-							["school"] = 1,
-							["max"] = 80,
-							["ishot"] = true,
-							["min"] = 7,
-						},
-						[47633] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 2106,
-							["school"] = 32,
-							["max"] = 2106,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 2106,
-								},
-							},
-							["min"] = 2106,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 1647,
-							["hitmin"] = 314,
-							["id"] = 6603,
-							["hitmax"] = 359,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["total"] = 1647,
-									["amount"] = 673,
-								},
-							},
-							["count"] = 6,
-							["ABSORB"] = 3,
-							["school"] = 1,
-							["amount"] = 673,
-							["hit"] = 2,
-							["hitamount"] = 673,
-						},
-						["Rend (DoT)"] = {
-							["total"] = 240,
-							["hitmin"] = 80,
-							["id"] = 12054,
-							["hitmax"] = 80,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["total"] = 240,
-									["amount"] = 160,
-								},
-							},
-							["count"] = 3,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["amount"] = 160,
-							["hit"] = 2,
-							["hitamount"] = 160,
-						},
-					},
-					["heal"] = 2468,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 725,
-					["overheal"] = 0,
-					["totaldamage"] = 11360,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 833,
-			["damage"] = 11360,
-			["absorb"] = 1054,
-			["ccdone"] = 1,
-			["overkill"] = 725,
-			["edamagetaken"] = 11360,
-			["heal"] = 2468,
-			["name"] = "Frostpaw Warrior (4)",
-			["mobname"] = "Frostpaw Warrior",
-			["starttime"] = 1698954231,
-			["edamage"] = 833,
-			["last_action"] = 1698954248,
-			["endtime"] = 1698954248,
-		}, -- [10]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 772,
-								},
-							},
-							["amount"] = 772,
-						},
-					},
-					["damagetaken"] = 10140,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 839,
-								},
-							},
-							["amount"] = 839,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 287,
-								},
-							},
-							["amount"] = 287,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 515,
-									["amount"] = 1344,
-								},
-							},
-							["overkill"] = 515,
-							["amount"] = 1344,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1354,
-								},
-							},
-							["amount"] = 1354,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1805,
-								},
-							},
-							["amount"] = 1805,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1340,
-								},
-							},
-							["amount"] = 1340,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3093,
-								},
-							},
-							["amount"] = 3093,
-						},
-					},
-					["name"] = "Frostpaw Shaman",
-					["totaldamage"] = 772,
-					["totaldamagetaken"] = 10140,
-					["id"] = "0xF13000673C07324F",
-					["damage"] = 772,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[12054] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 240,
-								},
-							},
-							["amount"] = 240,
-						},
-					},
-					["name"] = "Frostpaw Warrior",
-					["totaldamage"] = 240,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF1300066F507320D",
-					["damage"] = 240,
-				}, -- [2]
-			},
-			["overheal"] = 0,
-			["totaldamage"] = 10140,
-			["time"] = 13,
-			["totaldamagetaken"] = 1012,
-			["etotaldamagetaken"] = 10140,
-			["last_time"] = 30132.353,
-			["players"] = {
-				{
-					["last"] = 30132.345,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-					},
-					["time"] = 12.56,
-					["totaldamagetaken"] = 1012,
-					["damage"] = 10140,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 192,
-							["criticalamount"] = 422,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["amount"] = 1403,
-								},
-							},
-							["criticalmin"] = 422,
-							["critical"] = 1,
-							["criticalmax"] = 422,
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 210,
-							["amount"] = 1403,
-							["hitamount"] = 981,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 1354,
-							["id"] = 47632,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["amount"] = 1354,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1354,
-							["amount"] = 1354,
-							["hitamount"] = 1354,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 13,
-							["id"] = 50536,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["amount"] = 78,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 13,
-							["amount"] = 78,
-							["hitamount"] = 78,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 287,
-							["id"] = 50526,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["amount"] = 287,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 287,
-							["amount"] = 287,
-							["hitamount"] = 287,
-						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 278,
-							["criticalamount"] = 1124,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["amount"] = 1690,
-								},
-							},
-							["hitmax"] = 288,
-							["count"] = 4,
-							["criticalmax"] = 562,
-							["critical"] = 2,
-							["amount"] = 1690,
-							["school"] = 1,
-							["hit"] = 2,
-							["criticalmin"] = 562,
-							["hitamount"] = 566,
-						},
-						["Claw (Tombflayer)"] = {
-							["hitmin"] = 443,
-							["id"] = 47468,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["amount"] = 1340,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 449,
-							["amount"] = 1340,
-							["hitamount"] = 1340,
-						},
-						["Blood Boil"] = {
-							["criticalamount"] = 1344,
-							["id"] = 49941,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["overkill"] = 515,
-									["amount"] = 1344,
-								},
-							},
-							["overkill"] = 515,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1344,
-							["school"] = 32,
-							["criticalmin"] = 1344,
-							["criticalmax"] = 1344,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 279,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["amount"] = 839,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 280,
-							["amount"] = 839,
-							["hitamount"] = 839,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 542,
-							["id"] = 49909,
-							["targets"] = {
-								["Frostpaw Shaman"] = {
-									["amount"] = 1805,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 645,
-							["amount"] = 1805,
-							["hitamount"] = 1805,
-						},
-					},
-					["totaldamage"] = 10140,
-					["damagetaken"] = 1012,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 209,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 209,
-							["school"] = 1,
-							["max"] = 54,
-							["ishot"] = true,
-							["min"] = 7,
-						},
-					},
-					["damagetakenspells"] = {
-						["Rend (DoT)"] = {
-							["hitmin"] = 80,
-							["id"] = 12054,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 240,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 80,
-							["amount"] = 240,
-							["hitamount"] = 240,
-						},
-						["Melee"] = {
-							["hitmin"] = 128,
-							["id"] = 6603,
-							["hitmax"] = 256,
-							["sources"] = {
-								["Frostpaw Shaman"] = {
-									["amount"] = 772,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["amount"] = 772,
-							["MISS"] = 2,
-							["hitamount"] = 772,
-						},
-					},
-					["overkill"] = 515,
-					["heal"] = 209,
-					["name"] = "Urgash",
-					["interrupt"] = 1,
-					["overheal"] = 0,
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[12058] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Frostpaw Shaman"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 1012,
-			["interrupt"] = 1,
-			["etotaldamage"] = 1012,
-			["damage"] = 10140,
-			["overkill"] = 515,
-			["edamagetaken"] = 10140,
-			["heal"] = 209,
-			["name"] = "Frostpaw Shaman (2)",
-			["mobname"] = "Frostpaw Shaman",
-			["starttime"] = 1698954216,
-			["edamage"] = 1012,
-			["last_action"] = 1698954228,
-			["endtime"] = 1698954229,
-		}, -- [11]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[12054] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 880,
-								},
-							},
-							["amount"] = 880,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 4358,
-								},
-							},
-							["amount"] = 4358,
-						},
-					},
-					["damagetaken"] = 21772,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 239,
-									["amount"] = 4383,
-								},
-							},
-							["overkill"] = 239,
-							["amount"] = 4383,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1996,
-								},
-							},
-							["amount"] = 1996,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1829,
-								},
-							},
-							["amount"] = 1829,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3044,
-								},
-							},
-							["amount"] = 3044,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 263,
-									["amount"] = 5472,
-								},
-							},
-							["overkill"] = 263,
-							["amount"] = 5472,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1659,
-								},
-							},
-							["amount"] = 1659,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 254,
-								},
-							},
-							["amount"] = 254,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3135,
-								},
-							},
-							["amount"] = 3135,
-						},
-					},
-					["name"] = "Frostpaw Warrior",
-					["totaldamage"] = 5238,
-					["totaldamagetaken"] = 21772,
-					["id"] = "0xF1300066F507320D",
-					["damage"] = 5238,
-				}, -- [1]
-			},
-			["totaldamage"] = 21772,
-			["time"] = 24,
-			["damage"] = 21772,
-			["totaldamagetaken"] = 5238,
-			["etotaldamagetaken"] = 21772,
-			["last_time"] = 30112.85,
-			["players"] = {
-				{
-					["last"] = 30112.843,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 4,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 2,
-									["refresh"] = 4,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["uptime"] = 17,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 4,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 2,
-									["refresh"] = 4,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 21,
-						},
-					},
-					["time"] = 22.99,
-					["totaldamagetaken"] = 5238,
-					["damage"] = 21772,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 180,
-							["criticalamount"] = 696,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 3861,
-								},
-							},
-							["criticalmin"] = 696,
-							["critical"] = 1,
-							["criticalmax"] = 696,
-							["count"] = 12,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 349,
-							["amount"] = 3861,
-							["hitamount"] = 3165,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 548,
-							["id"] = 49909,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 3135,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 871,
-							["amount"] = 3135,
-							["hitamount"] = 3135,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 11,
-							["id"] = 50536,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 254,
-								},
-							},
-							["count"] = 18,
-							["hit"] = 18,
-							["school"] = 32,
-							["hitmax"] = 18,
-							["amount"] = 254,
-							["hitamount"] = 254,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 499,
-							["id"] = 50526,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1996,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 499,
-							["amount"] = 1996,
-							["hitamount"] = 1996,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 914,
-							["id"] = 49941,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1829,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 915,
-							["amount"] = 1829,
-							["hitamount"] = 1829,
-						},
-						["Claw (Tombflayer)"] = {
-							["hitmin"] = 401,
-							["criticalamount"] = 838,
-							["id"] = 47468,
-							["criticalmin"] = 838,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1659,
-								},
-							},
-							["criticalmax"] = 838,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 420,
-							["amount"] = 1659,
-							["hitamount"] = 821,
-						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 260,
-							["criticalamount"] = 524,
-							["id"] = 6603,
-							["criticalmin"] = 524,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 263,
-									["amount"] = 1611,
-								},
-							},
-							["overkill"] = 263,
-							["critical"] = 1,
-							["criticalmax"] = 524,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 284,
-							["amount"] = 1611,
-							["hitamount"] = 1087,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 487,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 239,
-									["amount"] = 4383,
-								},
-							},
-							["overkill"] = 239,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 16,
-							["hitmax"] = 487,
-							["amount"] = 4383,
-							["hitamount"] = 4383,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 1198,
-							["id"] = 47632,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 3044,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1846,
-							["amount"] = 3044,
-							["hitamount"] = 3044,
-						},
-					},
-					["damagetaken"] = 5238,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 461,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 461,
-							["school"] = 1,
-							["max"] = 73,
-							["ishot"] = true,
-							["min"] = 7,
-						},
-					},
-					["damagetakenspells"] = {
-						["Demoralizing Shout"] = {
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 13730,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 80,
-							["id"] = 12054,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 880,
-								},
-							},
-							["count"] = 11,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 80,
-							["amount"] = 880,
-							["hitamount"] = 880,
-						},
-						["Melee"] = {
-							["DODGE"] = 5,
-							["hitmin"] = 283,
-							["criticalamount"] = 624,
-							["id"] = 6603,
-							["criticalmin"] = 624,
-							["criticalmax"] = 624,
-							["critical"] = 1,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 4358,
-								},
-							},
-							["count"] = 18,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 349,
-							["amount"] = 4358,
-							["hitamount"] = 3734,
-						},
-					},
-					["heal"] = 461,
-					["name"] = "Urgash",
-					["overkill"] = 502,
-					["overheal"] = 0,
-					["totaldamage"] = 21772,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 5238,
-			["overheal"] = 0,
-			["etotaldamage"] = 5238,
-			["starttime"] = 1698954186,
-			["overkill"] = 502,
-			["edamagetaken"] = 21772,
-			["heal"] = 461,
-			["name"] = "Frostpaw Warrior (3)",
-			["mobname"] = "Frostpaw Warrior",
-			["edamage"] = 5238,
-			["last_action"] = 1698954209,
-			["endtime"] = 1698954210,
-		}, -- [12]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1780,
-								},
-							},
-							["amount"] = 1780,
-						},
-						[12054] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 240,
-								},
-							},
-							["amount"] = 240,
-						},
-					},
-					["damagetaken"] = 10821,
-					["id"] = "0xF1300066F5073494",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 921,
-								},
-							},
-							["amount"] = 921,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1179,
-								},
-							},
-							["amount"] = 1179,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 186,
-									["amount"] = 3628,
-								},
-							},
-							["overkill"] = 186,
-							["amount"] = 3628,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1648,
-								},
-							},
-							["amount"] = 1648,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 673,
-								},
-							},
-							["amount"] = 673,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2772,
-								},
-							},
-							["amount"] = 2772,
-						},
-					},
-					["totaldamage"] = 2020,
-					["name"] = "Frostpaw Warrior",
-					["totaldamagetaken"] = 10821,
-					["flag"] = 2632,
-					["damage"] = 2020,
-				}, -- [1]
-			},
-			["totaldamage"] = 10821,
-			["time"] = 15,
-			["damage"] = 10821,
-			["totaldamagetaken"] = 2020,
-			["etotaldamage"] = 2020,
-			["last_time"] = 30086.477,
-			["players"] = {
-				{
-					["last"] = 30085.995,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 15,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["time"] = 13.77,
-					["totaldamagetaken"] = 2020,
-					["damage"] = 10821,
-					["damagespells"] = {
-						["Claw (Tombflayer)"] = {
-							["hitmin"] = 403,
-							["id"] = 47468,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1648,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 422,
-							["amount"] = 1648,
-							["hitamount"] = 1648,
-						},
-						["Melee"] = {
-							["hitmin"] = 180,
-							["criticalamount"] = 808,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1764,
-								},
-							},
-							["hitmax"] = 198,
-							["count"] = 7,
-							["criticalmax"] = 404,
-							["critical"] = 2,
-							["amount"] = 1764,
-							["school"] = 1,
-							["hit"] = 5,
-							["criticalmin"] = 404,
-							["hitamount"] = 956,
-						},
-						["Death and Decay"] = {
-							["hitmin"] = 230,
-							["criticalamount"] = 469,
-							["id"] = 52212,
-							["hitmax"] = 231,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 2772,
-								},
-							},
-							["count"] = 11,
-							["hit"] = 10,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2772,
-							["school"] = 32,
-							["criticalmin"] = 469,
-							["criticalmax"] = 469,
-							["hitamount"] = 2303,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 575,
-							["id"] = 49909,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1179,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 604,
-							["amount"] = 1179,
-							["hitamount"] = 1179,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 673,
-							["id"] = 49941,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 673,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 673,
-							["amount"] = 673,
-							["hitamount"] = 673,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 307,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 921,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 307,
-							["amount"] = 921,
-							["hitamount"] = 921,
-						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 260,
-							["criticalamount"] = 524,
-							["id"] = 6603,
-							["hitmax"] = 278,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 186,
-									["amount"] = 1864,
-								},
-							},
-							["overkill"] = 186,
-							["count"] = 6,
-							["criticalmax"] = 524,
-							["critical"] = 1,
-							["amount"] = 1864,
-							["school"] = 1,
-							["hit"] = 5,
-							["criticalmin"] = 524,
-							["hitamount"] = 1340,
-						},
-					},
-					["damagetaken"] = 2020,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 140,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 140,
-							["school"] = 1,
-							["max"] = 26,
-							["ishot"] = true,
-							["min"] = 7,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 253,
-							["id"] = 6603,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1780,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 345,
-							["amount"] = 1780,
-							["hitamount"] = 1780,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 80,
-							["id"] = 12054,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 240,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 80,
-							["amount"] = 240,
-							["hitamount"] = 240,
-						},
-					},
-					["heal"] = 140,
-					["name"] = "Urgash",
-					["overkill"] = 186,
-					["overheal"] = 0,
-					["totaldamage"] = 10821,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 2020,
-			["overheal"] = 0,
-			["etotaldamagetaken"] = 10821,
-			["overkill"] = 186,
-			["edamagetaken"] = 10821,
-			["heal"] = 140,
-			["name"] = "Frostpaw Warrior (2)",
-			["mobname"] = "Frostpaw Warrior",
-			["starttime"] = 1698954168,
-			["edamage"] = 2020,
-			["last_action"] = 1698954182,
-			["endtime"] = 1698954183,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 990,
-								},
-							},
-							["amount"] = 990,
-						},
-						[12054] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 160,
-								},
-							},
-							["amount"] = 160,
-						},
-					},
-					["damagetaken"] = 11238,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 434,
-								},
-							},
-							["amount"] = 434,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 220,
-								},
-							},
-							["amount"] = 220,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1543,
-								},
-							},
-							["amount"] = 1543,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2166,
-								},
-							},
-							["amount"] = 2166,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1675,
-								},
-							},
-							["amount"] = 1675,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1484,
-								},
-							},
-							["amount"] = 1484,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 473,
-									["amount"] = 3641,
-								},
-							},
-							["overkill"] = 473,
-							["amount"] = 3641,
-						},
-					},
-					["name"] = "Frostpaw Warrior",
-					["totaldamage"] = 1150,
-					["totaldamagetaken"] = 11238,
-					["id"] = "0xF1300066F507A038",
-					["damage"] = 1150,
-				}, -- [1]
-			},
-			["totaldamage"] = 11238,
-			["time"] = 13,
-			["totaldamagetaken"] = 1150,
-			["etotaldamagetaken"] = 11238,
-			["last_time"] = 30048.978,
-			["players"] = {
-				{
-					["last"] = 30048.959,
-					["flag"] = 4369,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 12.32,
-					["totaldamagetaken"] = 1150,
-					["damage"] = 11238,
-					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 137,
-							["criticalamount"] = 564,
-							["id"] = 6603,
-							["criticalmin"] = 564,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 151,
-									["amount"] = 2108,
-								},
-							},
-							["overkill"] = 151,
-							["critical"] = 1,
-							["criticalmax"] = 564,
-							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 282,
-							["amount"] = 2108,
-							["hitamount"] = 1544,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 438,
-							["criticalamount"] = 1014,
-							["id"] = 49909,
-							["criticalmin"] = 1014,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 2166,
-								},
-							},
-							["criticalmax"] = 1014,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 714,
-							["amount"] = 2166,
-							["hitamount"] = 1152,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 15,
-							["id"] = 50536,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 75,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["hitmax"] = 15,
-							["amount"] = 75,
-							["hitamount"] = 75,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 220,
-							["id"] = 50526,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 220,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 220,
-							["amount"] = 220,
-							["hitamount"] = 220,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 728,
-							["id"] = 49941,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1484,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 756,
-							["amount"] = 1484,
-							["hitamount"] = 1484,
-						},
-						["Claw (Tombflayer)"] = {
-							["hitmin"] = 315,
-							["criticalamount"] = 1360,
-							["id"] = 47468,
-							["criticalmin"] = 660,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1675,
-								},
-							},
-							["criticalmax"] = 700,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 315,
-							["amount"] = 1675,
-							["hitamount"] = 315,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 1543,
-							["id"] = 47632,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1543,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1543,
-							["amount"] = 1543,
-							["hitamount"] = 1543,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 217,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 434,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 217,
-							["amount"] = 434,
-							["hitamount"] = 434,
-						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 218,
-							["criticalamount"] = 868,
-							["id"] = 6603,
-							["hitmax"] = 227,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 322,
-									["amount"] = 1533,
-								},
-							},
-							["overkill"] = 322,
-							["count"] = 5,
-							["criticalmax"] = 452,
-							["critical"] = 2,
-							["amount"] = 1533,
-							["school"] = 1,
-							["hit"] = 3,
-							["criticalmin"] = 416,
-							["hitamount"] = 665,
-						},
-					},
-					["damagetaken"] = 1150,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["damagetakenspells"] = {
-						["Demoralizing Shout"] = {
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 13730,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 80,
-							["id"] = 12054,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 160,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 80,
-							["amount"] = 160,
-							["hitamount"] = 160,
-						},
-						["Melee"] = {
-							["hitmin"] = 313,
-							["id"] = 6603,
-							["hitmax"] = 348,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 990,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 1,
-							["amount"] = 990,
-							["MISS"] = 3,
-							["hitamount"] = 990,
-						},
-					},
-					["name"] = "Urgash",
-					["overkill"] = 473,
-					["totaldamage"] = 11238,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 1150,
-			["damage"] = 11238,
-			["etotaldamage"] = 1150,
-			["overkill"] = 473,
-			["edamagetaken"] = 11238,
-			["name"] = "Orcerror",
-			["mobname"] = "Orcerror",
-			["starttime"] = 1698954132,
-			["edamage"] = 1150,
-			["last_action"] = 1698954145,
-			["endtime"] = 1698954145,
-		}, -- [14]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[12054] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 320,
-								},
-							},
-							["amount"] = 320,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 296,
-								},
-							},
-							["amount"] = 296,
-						},
-					},
-					["damagetaken"] = 10797,
-					["id"] = "0xF1300066F5078CC2",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 595,
-								},
-							},
-							["amount"] = 595,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 201,
-								},
-							},
-							["amount"] = 201,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1072,
-								},
-							},
-							["amount"] = 1072,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 162,
-									["amount"] = 1907,
-								},
-							},
-							["overkill"] = 162,
-							["amount"] = 1907,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2399,
-								},
-							},
-							["amount"] = 2399,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1046,
-								},
-							},
-							["amount"] = 1046,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3537,
-								},
-							},
-							["amount"] = 3537,
-						},
-					},
-					["totaldamage"] = 616,
-					["name"] = "Frostpaw Warrior",
-					["totaldamagetaken"] = 10797,
-					["flag"] = 2632,
-					["damage"] = 616,
-				}, -- [1]
-			},
-			["damage"] = 10797,
-			["totaldamage"] = 10797,
-			["time"] = 15,
-			["overheal"] = 0,
-			["totaldamagetaken"] = 616,
-			["etotaldamage"] = 616,
-			["last_time"] = 30021.08,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[45524] = {
-							["count"] = 1,
-							["targets"] = {
-								["Frostpaw Warrior"] = 1,
-							},
-						},
-					},
-					["last"] = 30019.644,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[49039] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 4,
-						},
-						[45524] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-					},
-					["time"] = 13.54,
-					["totaldamagetaken"] = 616,
-					["damage"] = 10797,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 121,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 983,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 136,
-							["amount"] = 983,
-							["hitamount"] = 983,
-						},
-						["Icy Touch"] = {
-							["criticalmin"] = 1019,
-							["hitmin"] = 418,
-							["criticalamount"] = 1019,
-							["id"] = 49909,
-							["criticalmax"] = 1019,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["overkill"] = 162,
-									["amount"] = 1907,
-								},
-							},
-							["overkill"] = 162,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 470,
-							["amount"] = 1907,
-							["hitamount"] = 888,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 10,
-							["id"] = 50536,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 40,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 10,
-							["amount"] = 40,
-							["hitamount"] = 40,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 201,
-							["id"] = 50526,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 201,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 201,
-							["amount"] = 201,
-							["hitamount"] = 201,
-						},
-						["Melee (Tombflayer)"] = {
-							["hitmin"] = 209,
-							["criticalamount"] = 1888,
-							["id"] = 6603,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 2554,
-								},
-							},
-							["hitmax"] = 229,
-							["count"] = 7,
-							["criticalmax"] = 480,
-							["critical"] = 4,
-							["amount"] = 2554,
-							["school"] = 1,
-							["hit"] = 3,
-							["criticalmin"] = 452,
-							["hitamount"] = 666,
-						},
-						["Claw (Tombflayer)"] = {
-							["hitmax"] = 336,
-							["hitmin"] = 336,
-							["criticalamount"] = 2063,
-							["id"] = 47468,
-							["count"] = 4,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 2399,
-								},
-							},
-							["hit"] = 1,
-							["blocked"] = 37,
-							["casts"] = 1,
-							["critical"] = 3,
-							["amount"] = 2399,
-							["school"] = 1,
-							["criticalmin"] = 647,
-							["criticalmax"] = 720,
-							["hitamount"] = 336,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 1072,
-							["id"] = 47632,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1072,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 1072,
-							["amount"] = 1072,
-							["hitamount"] = 1072,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 198,
-							["id"] = 55095,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 595,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 199,
-							["amount"] = 595,
-							["hitamount"] = 595,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 499,
-							["id"] = 49941,
-							["targets"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 1046,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 547,
-							["amount"] = 1046,
-							["hitamount"] = 1046,
-						},
-					},
-					["damagetaken"] = 616,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[47633] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 1345,
-							["school"] = 32,
-							["max"] = 1345,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 1345,
-								},
-							},
-							["min"] = 1345,
-						},
-					},
-					["damagetakenspells"] = {
-						["Demoralizing Shout"] = {
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 13730,
-						},
-						["Melee"] = {
-							["hitmin"] = 296,
-							["id"] = 6603,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 296,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 296,
-							["amount"] = 296,
-							["hitamount"] = 296,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 80,
-							["id"] = 12054,
-							["sources"] = {
-								["Frostpaw Warrior"] = {
-									["amount"] = 320,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 80,
-							["amount"] = 320,
-							["hitamount"] = 320,
-						},
-					},
-					["heal"] = 1345,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overheal"] = 0,
-					["overkill"] = 162,
-					["totaldamage"] = 10797,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 616,
-			["etotaldamagetaken"] = 10797,
-			["ccdone"] = 1,
-			["overkill"] = 162,
-			["edamagetaken"] = 10797,
-			["heal"] = 1345,
-			["name"] = "Frostpaw Warrior",
-			["mobname"] = "Frostpaw Warrior",
-			["starttime"] = 1698954102,
-			["edamage"] = 616,
-			["last_action"] = 1698954117,
-			["endtime"] = 1698954117,
 		}, -- [15]
 	},
 }
