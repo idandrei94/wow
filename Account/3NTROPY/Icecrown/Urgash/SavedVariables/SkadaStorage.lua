@@ -1,60 +1,663 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["mana"] = 3013,
-		["totaldamage"] = 4024594,
-		["time"] = 961,
-		["totaldamagetaken"] = 176068,
-		["damage"] = 4024594,
-		["overheal"] = 55240,
-		["damagetaken"] = 176068,
-		["interrupt"] = 7,
+		["mana"] = 4315389,
+		["overheal"] = 120062832,
+		["sunder"] = 126,
+		["dispel"] = 62,
+		["totaldamage"] = 230158127,
+		["time"] = 2459,
+		["overkill"] = 577391,
+		["cctaken"] = 44,
+		["totaldamagetaken"] = 37649005,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "DEATHKNIGHT",
-				["time"] = 861.950000000003,
-				["totaldamagetaken"] = 172499,
-				["damage"] = 3979856,
-				["overheal"] = 54527,
-				["damagetaken"] = 172499,
+				["friendfire"] = 15421,
+				["totaldamage"] = 29445840,
+				["time"] = 2017.45,
+				["cctaken"] = 3,
+				["totaldamagetaken"] = 2211991,
+				["damage"] = 29427561,
+				["overheal"] = 1520644,
+				["absorb"] = 72107,
+				["damagetaken"] = 1861063,
+				["role"] = "DAMAGER",
 				["id"] = "0x070000000000D01B",
 				["spec"] = 252,
-				["overkill"] = 317323,
-				["heal"] = 178969,
+				["runic"] = 1134,
+				["overkill"] = 106462,
+				["interrupt"] = 16,
+				["heal"] = 500998,
 				["name"] = "Urgash",
-				["ccdone"] = 46,
-				["interrupt"] = 7,
-				["totaldamage"] = 3979856,
-				["role"] = "DAMAGER",
+				["death"] = 2,
+				["ccdone"] = 40,
+				["parry"] = 17,
+				["fail"] = 11,
+				["dispel"] = 4,
 			}, -- [1]
 			{
 				["flag"] = 1298,
-				["mana"] = 3013,
-				["time"] = 73.23000000000003,
-				["totaldamagetaken"] = 3569,
-				["damage"] = 44738,
-				["overheal"] = 713,
-				["damagetaken"] = 3569,
-				["id"] = "0x07000000009E2E0E",
-				["spec"] = 103,
-				["overkill"] = 3116,
-				["heal"] = 1316,
-				["name"] = "Onitora",
-				["class"] = "DRUID",
-				["totaldamage"] = 44738,
-				["role"] = "TANK",
+				["class"] = "MAGE",
+				["friendfire"] = 15844,
+				["role"] = "DAMAGER",
+				["time"] = 1404.979999999999,
+				["cctaken"] = 4,
+				["totaldamagetaken"] = 1254394,
+				["damage"] = 8488995,
+				["absorb"] = 22640,
+				["damagetaken"] = 967521,
+				["id"] = "0x07000000009BE6B2",
+				["spec"] = 63,
+				["overkill"] = 15559,
+				["totaldamage"] = 8494651,
+				["name"] = "Celvkatria",
+				["ccdone"] = 2,
+				["mana"] = 77234,
+				["fail"] = 3,
+				["death"] = 1,
+				["interrupt"] = 1,
 			}, -- [2]
+			{
+				["flag"] = 1300,
+				["mana"] = 1069053,
+				["friendfire"] = 60628,
+				["totaldamage"] = 17802886,
+				["time"] = 1612.180000000001,
+				["cctaken"] = 3,
+				["totaldamagetaken"] = 1922343,
+				["damage"] = 17761470,
+				["overheal"] = 409629,
+				["absorb"] = 35616,
+				["damagetaken"] = 1615739,
+				["id"] = "0x07000000009A787B",
+				["spec"] = 70,
+				["role"] = "DAMAGER",
+				["overkill"] = 36222,
+				["class"] = "PALADIN",
+				["heal"] = 483715,
+				["name"] = "Satorberree",
+				["death"] = 2,
+				["fail"] = 14,
+				["ccdone"] = 6,
+				["parry"] = 1,
+				["dispel"] = 1,
+			}, -- [3]
+			{
+				["flag"] = 1300,
+				["mana"] = 424816,
+				["dispel"] = 33,
+				["totaldamage"] = 375080,
+				["time"] = 1479.180000000004,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 1148159,
+				["damage"] = 375080,
+				["overheal"] = 32287678,
+				["absorb"] = 392147,
+				["damagetaken"] = 901716,
+				["id"] = "0x07000000005A4B38",
+				["spec"] = 65,
+				["fail"] = 6,
+				["role"] = "HEALER",
+				["heal"] = 7847836,
+				["name"] = "Pangit",
+				["death"] = 2,
+				["class"] = "PALADIN",
+				["friendfire"] = 420,
+				["ccdone"] = 25,
+				["potion"] = 1,
+			}, -- [4]
+			{
+				["flag"] = 1298,
+				["class"] = "ROGUE",
+				["friendfire"] = 627,
+				["role"] = "DAMAGER",
+				["time"] = 1714.760000000012,
+				["totaldamagetaken"] = 1254925,
+				["damage"] = 20936884,
+				["overheal"] = 399654,
+				["damagetaken"] = 1050070,
+				["id"] = "0x070000000034D09F",
+				["spec"] = 260,
+				["totaldamage"] = 21044758,
+				["overkill"] = 44357,
+				["interrupt"] = 12,
+				["heal"] = 110154,
+				["name"] = "Ascyra",
+				["death"] = 1,
+				["parry"] = 5,
+				["ccdone"] = 8,
+				["energy"] = 6780,
+				["fail"] = 10,
+			}, -- [5]
+			{
+				["flag"] = 1300,
+				["class"] = "PRIEST",
+				["friendfire"] = 1912,
+				["totaldamage"] = 12329487,
+				["time"] = 1422.63,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 1067785,
+				["damage"] = 12302358,
+				["overheal"] = 3761403,
+				["absorb"] = 8073,
+				["damagetaken"] = 871809,
+				["id"] = "0x07000000005705D4",
+				["spec"] = 258,
+				["overkill"] = 29480,
+				["heal"] = 846358,
+				["name"] = "Corporeality",
+				["death"] = 1,
+				["role"] = "DAMAGER",
+				["mana"] = 50058,
+				["fail"] = 3,
+			}, -- [6]
+			{
+				["flag"] = 1298,
+				["class"] = "PRIEST",
+				["dispel"] = 1,
+				["role"] = "DAMAGER",
+				["time"] = 1666.840000000002,
+				["totaldamagetaken"] = 1298564,
+				["damage"] = 11533006,
+				["overheal"] = 7137830,
+				["absorb"] = 208206,
+				["damagetaken"] = 888589,
+				["id"] = "0x0700000000866C46",
+				["spec"] = 258,
+				["overkill"] = 52994,
+				["heal"] = 1356879,
+				["name"] = "Honka",
+				["death"] = 1,
+				["totaldamage"] = 11533006,
+				["mana"] = 460939,
+				["fail"] = 9,
+			}, -- [7]
+			{
+				["flag"] = 4370,
+				["mana"] = 50742,
+				["friendfire"] = 21281,
+				["totaldamage"] = 9903622,
+				["time"] = 1707.589999999998,
+				["cctaken"] = 2,
+				["totaldamagetaken"] = 1320247,
+				["damage"] = 9894484,
+				["overheal"] = 700638,
+				["damagetaken"] = 1081033,
+				["id"] = "0x07000000007BD579",
+				["spec"] = 254,
+				["role"] = "DAMAGER",
+				["overkill"] = 12775,
+				["interrupt"] = 7,
+				["heal"] = 111580,
+				["potion"] = 2,
+				["ccdone"] = 2,
+				["class"] = "HUNTER",
+				["name"] = "Bowarch",
+				["energy"] = 42206,
+				["fail"] = 9,
+			}, -- [8]
+			{
+				["flag"] = 1300,
+				["class"] = "WARRIOR",
+				["friendfire"] = 9971,
+				["totaldamage"] = 10182828,
+				["time"] = 1470.340000000001,
+				["cctaken"] = 2,
+				["totaldamagetaken"] = 1597429,
+				["damage"] = 10134042,
+				["rage"] = 2514,
+				["damagetaken"] = 1298242,
+				["id"] = "0x0700000000838969",
+				["spec"] = 72,
+				["role"] = "DAMAGER",
+				["overkill"] = 27700,
+				["overheal"] = 243668,
+				["heal"] = 173629,
+				["potion"] = 3,
+				["death"] = 3,
+				["fail"] = 9,
+				["name"] = "Harjailk",
+				["interrupt"] = 7,
+				["parry"] = 4,
+			}, -- [9]
+			{
+				["flag"] = 1300,
+				["mana"] = 3892,
+				["role"] = "HEALER",
+				["time"] = 49.14999999999999,
+				["totaldamagetaken"] = 19400,
+				["damage"] = 6412,
+				["rage"] = 16,
+				["absorb"] = 83797,
+				["damagetaken"] = 19400,
+				["id"] = "0x0700000000894D7F",
+				["spec"] = 256,
+				["heal"] = 95834,
+				["name"] = "Klelkix",
+				["overheal"] = 61619,
+				["class"] = "PRIEST",
+				["totaldamage"] = 6412,
+			}, -- [10]
+			{
+				["flag"] = 1300,
+				["mana"] = 469776,
+				["friendfire"] = 6974,
+				["totaldamage"] = 463213,
+				["time"] = 1549.800000000003,
+				["cctaken"] = 5,
+				["totaldamagetaken"] = 1769617,
+				["damage"] = 463213,
+				["overheal"] = 42016886,
+				["absorb"] = 20785,
+				["damagetaken"] = 1434523,
+				["id"] = "0x070000000075BD61",
+				["spec"] = 65,
+				["fail"] = 16,
+				["heal"] = 8704520,
+				["name"] = "Jorithanth",
+				["death"] = 3,
+				["role"] = "HEALER",
+				["class"] = "PALADIN",
+				["parry"] = 2,
+				["ccdone"] = 1,
+			}, -- [11]
+			{
+				["flag"] = 1300,
+				["class"] = "PRIEST",
+				["dispel"] = 7,
+				["totaldamage"] = 407521,
+				["time"] = 69.66000000000003,
+				["cctaken"] = 5,
+				["totaldamagetaken"] = 916390,
+				["damage"] = 407521,
+				["runic"] = 832,
+				["absorb"] = 6476739,
+				["damagetaken"] = 664146,
+				["id"] = "0x07000000009891DE",
+				["spec"] = 258,
+				["role"] = "DAMAGER",
+				["fail"] = 9,
+				["name"] = "Donmatto",
+				["heal"] = 1848260,
+				["potion"] = 1,
+				["death"] = 1,
+				["mana"] = 246689,
+				["overheal"] = 3236569,
+				["energy"] = 320,
+				["rage"] = 272,
+			}, -- [12]
+			{
+				["flag"] = 1300,
+				["class"] = "WARRIOR",
+				["friendfire"] = 18164,
+				["totaldamage"] = 8798525,
+				["time"] = 1346.489999999998,
+				["cctaken"] = 2,
+				["totaldamagetaken"] = 1531645,
+				["damage"] = 8773325,
+				["rage"] = 476,
+				["damagetaken"] = 1234296,
+				["id"] = "0x07000000008E2F2F",
+				["spec"] = 71,
+				["fail"] = 18,
+				["role"] = "DAMAGER",
+				["heal"] = 107913,
+				["name"] = "Yeky",
+				["death"] = 2,
+				["overheal"] = 328737,
+				["parry"] = 4,
+				["ccdone"] = 5,
+				["overkill"] = 34297,
+			}, -- [13]
+			{
+				["flag"] = 1300,
+				["mana"] = 161453,
+				["friendfire"] = 86585,
+				["totaldamage"] = 12731080,
+				["time"] = 1586.359999999997,
+				["cctaken"] = 2,
+				["totaldamagetaken"] = 1122460,
+				["damage"] = 12709856,
+				["rage"] = 185,
+				["ress"] = 2,
+				["damagetaken"] = 909645,
+				["id"] = "0x07000000001A1178",
+				["spec"] = 103,
+				["role"] = "DAMAGER",
+				["overkill"] = 36773,
+				["ccdone"] = 1,
+				["heal"] = 115178,
+				["name"] = "Dadfada",
+				["death"] = 1,
+				["class"] = "DRUID",
+				["overheal"] = 397816,
+				["energy"] = 3000,
+				["fail"] = 7,
+			}, -- [14]
+			{
+				["flag"] = 4372,
+				["mana"] = 149502,
+				["dispel"] = 1,
+				["totaldamage"] = 3617,
+				["time"] = 1032.2,
+				["totaldamagetaken"] = 649683,
+				["damage"] = 3617,
+				["overheal"] = 7600496,
+				["damagetaken"] = 461253,
+				["id"] = "0x0700000000970863",
+				["spec"] = 264,
+				["fail"] = 10,
+				["heal"] = 3527261,
+				["name"] = "Popss",
+				["role"] = "HEALER",
+				["class"] = "SHAMAN",
+			}, -- [15]
+			{
+				["flag"] = 1300,
+				["class"] = "ROGUE",
+				["friendfire"] = 90928,
+				["totaldamage"] = 9697644,
+				["time"] = 1155.29,
+				["cctaken"] = 3,
+				["totaldamagetaken"] = 871836,
+				["damage"] = 9697644,
+				["overheal"] = 255349,
+				["damagetaken"] = 715883,
+				["id"] = "0x0700000000430EB9",
+				["spec"] = 260,
+				["parry"] = 11,
+				["role"] = "DAMAGER",
+				["heal"] = 59077,
+				["name"] = "Shakss",
+				["ccdone"] = 2,
+				["overkill"] = 8566,
+				["death"] = 3,
+				["energy"] = 3885,
+				["fail"] = 2,
+			}, -- [16]
+			{
+				["flag"] = 1300,
+				["class"] = "WARRIOR",
+				["friendfire"] = 9003,
+				["role"] = "DAMAGER",
+				["time"] = 1638.600000000002,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 1194637,
+				["damage"] = 6406757,
+				["rage"] = 1459,
+				["damagetaken"] = 913132,
+				["totaldamage"] = 6438272,
+				["interrupt"] = 4,
+				["spec"] = 71,
+				["sunder"] = 52,
+				["overkill"] = 7372,
+				["overheal"] = 239144,
+				["heal"] = 98360,
+				["name"] = "Liridyr",
+				["death"] = 1,
+				["ccdone"] = 4,
+				["parry"] = 3,
+				["fail"] = 4,
+				["id"] = "0x07000000009A3B74",
+			}, -- [17]
+			{
+				["flag"] = 1300,
+				["class"] = "DEATHKNIGHT",
+				["friendfire"] = 8525,
+				["totaldamage"] = 4895020,
+				["time"] = 1642.839999999999,
+				["totaldamagetaken"] = 4377083,
+				["damage"] = 4851884,
+				["overheal"] = 373126,
+				["absorb"] = 182502,
+				["damagetaken"] = 3391542,
+				["id"] = "0x07000000009C5F47",
+				["spec"] = 250,
+				["overkill"] = 2684,
+				["role"] = "TANK",
+				["heal"] = 148398,
+				["name"] = "Spigmente",
+				["death"] = 1,
+				["runic"] = 100,
+				["parry"] = 3,
+				["ccdone"] = 8,
+				["fail"] = 15,
+			}, -- [18]
+			{
+				["flag"] = 1300,
+				["mana"] = 144993,
+				["totaldamage"] = 8182398,
+				["time"] = 1495.269999999997,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 999029,
+				["damage"] = 8167839,
+				["overheal"] = 16376,
+				["damagetaken"] = 788223,
+				["id"] = "0x07000000009C6B5E",
+				["spec"] = 102,
+				["fail"] = 8,
+				["role"] = "DAMAGER",
+				["heal"] = 6520,
+				["name"] = "Zukitosimon",
+				["ccdone"] = 2,
+				["class"] = "DRUID",
+				["overkill"] = 18950,
+				["death"] = 3,
+				["parry"] = 1,
+			}, -- [19]
+			{
+				["flag"] = 1300,
+				["class"] = "HUNTER",
+				["friendfire"] = 2159,
+				["totaldamage"] = 8331043,
+				["time"] = 1308.919999999997,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 743353,
+				["damage"] = 8300963,
+				["overheal"] = 616878,
+				["damagetaken"] = 522786,
+				["id"] = "0x07000000009BE086",
+				["spec"] = 254,
+				["fail"] = 8,
+				["role"] = "DAMAGER",
+				["heal"] = 85846,
+				["name"] = "Lainna",
+				["death"] = 3,
+				["interrupt"] = 4,
+				["mana"] = 25003,
+				["energy"] = 36096,
+				["overkill"] = 26564,
+			}, -- [20]
+			{
+				["flag"] = 1300,
+				["mana"] = 295291,
+				["dispel"] = 15,
+				["totaldamage"] = 9257,
+				["time"] = 1455.85,
+				["cctaken"] = 3,
+				["totaldamagetaken"] = 702518,
+				["damage"] = 9257,
+				["runic"] = 1488,
+				["ress"] = 2,
+				["damagetaken"] = 503797,
+				["id"] = "0x07000000009DB844",
+				["spec"] = 105,
+				["fail"] = 7,
+				["role"] = "HEALER",
+				["heal"] = 3810534,
+				["name"] = "Cathal",
+				["ccdone"] = 2,
+				["overheal"] = 8861458,
+				["class"] = "DRUID",
+				["energy"] = 808,
+				["rage"] = 828,
+			}, -- [21]
+			{
+				["flag"] = 1300,
+				["class"] = "PALADIN",
+				["friendfire"] = 5454,
+				["totaldamage"] = 6853536,
+				["time"] = 1578.430000000004,
+				["totaldamagetaken"] = 4741410,
+				["damage"] = 6809215,
+				["overheal"] = 7776519,
+				["absorb"] = 264594,
+				["damagetaken"] = 3929323,
+				["id"] = "0x07000000009CBDCA",
+				["spec"] = 66,
+				["overkill"] = 13926,
+				["heal"] = 1718359,
+				["name"] = "Julcsika",
+				["ccdone"] = 39,
+				["role"] = "TANK",
+				["mana"] = 297838,
+				["parry"] = 9,
+				["fail"] = 5,
+			}, -- [22]
+			{
+				["flag"] = 1300,
+				["class"] = "WARRIOR",
+				["friendfire"] = 59056,
+				["totaldamage"] = 10601890,
+				["time"] = 1600.069999999996,
+				["cctaken"] = 2,
+				["totaldamagetaken"] = 1976824,
+				["damage"] = 10595061,
+				["overheal"] = 375104,
+				["damagetaken"] = 1638028,
+				["id"] = "0x07000000005CB5CC",
+				["spec"] = 72,
+				["role"] = "DAMAGER",
+				["parry"] = 11,
+				["interrupt"] = 3,
+				["heal"] = 166924,
+				["name"] = "Iheartu",
+				["death"] = 2,
+				["rage"] = 1608,
+				["overkill"] = 34702,
+				["fail"] = 22,
+				["sunder"] = 74,
+			}, -- [23]
+			{
+				["flag"] = 1300,
+				["mana"] = 116480,
+				["friendfire"] = 2103,
+				["role"] = "DAMAGER",
+				["time"] = 1334.93,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 741548,
+				["damage"] = 12219081,
+				["overheal"] = 3512,
+				["absorb"] = 15915,
+				["damagetaken"] = 502697,
+				["id"] = "0x0700000000965E3A",
+				["spec"] = 63,
+				["fail"] = 5,
+				["interrupt"] = 2,
+				["heal"] = 0,
+				["name"] = "Hammaslamma",
+				["death"] = 1,
+				["class"] = "MAGE",
+				["totaldamage"] = 12251738,
+				["ccdone"] = 7,
+				["overkill"] = 37693,
+			}, -- [24]
+			{
+				["flag"] = 1300,
+				["mana"] = 136150,
+				["totaldamage"] = 11081142,
+				["time"] = 1115.669999999999,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 901888,
+				["damage"] = 11034282,
+				["overheal"] = 268372,
+				["damagetaken"] = 645845,
+				["id"] = "0x0700000000959A49",
+				["spec"] = 103,
+				["role"] = "DAMAGER",
+				["overkill"] = 16166,
+				["parry"] = 1,
+				["heal"] = 96924,
+				["name"] = "Carlabruni",
+				["death"] = 1,
+				["class"] = "DRUID",
+				["ccdone"] = 2,
+				["energy"] = 1380,
+				["fail"] = 12,
+			}, -- [25]
+			{
+				["flag"] = 1300,
+				["mana"] = 101415,
+				["friendfire"] = 27296,
+				["totaldamage"] = 8291090,
+				["time"] = 1453.049999999998,
+				["totaldamagetaken"] = 1072766,
+				["damage"] = 8285517,
+				["overheal"] = 143815,
+				["absorb"] = 49281,
+				["damagetaken"] = 717425,
+				["id"] = "0x07000000008349E7",
+				["spec"] = 63,
+				["overkill"] = 14149,
+				["heal"] = 26282,
+				["name"] = "Oorpheos",
+				["ccdone"] = 2,
+				["role"] = "DAMAGER",
+				["class"] = "MAGE",
+				["fail"] = 5,
+			}, -- [26]
+			{
+				["flag"] = 1300,
+				["mana"] = 34065,
+				["totaldamage"] = 2571,
+				["time"] = 164.99,
+				["totaldamagetaken"] = 241081,
+				["damage"] = 2571,
+				["overheal"] = 1029912,
+				["ress"] = 1,
+				["damagetaken"] = 190133,
+				["id"] = "0x07000000009B00F5",
+				["spec"] = 264,
+				["fail"] = 5,
+				["heal"] = 727357,
+				["name"] = "Zhalir",
+				["death"] = 2,
+				["role"] = "HEALER",
+				["class"] = "SHAMAN",
+			}, -- [27]
+			{
+				["cctaken"] = 1,
+				["name"] = "Batflayer",
+				["flag"] = 4369,
+				["class"] = "PET",
+				["id"] = "0xF14001066F004A10",
+				["time"] = 0,
+			}, -- [28]
 		},
-		["overkill"] = 320439,
-		["heal"] = 180285,
-		["ccdone"] = 46,
-		["starttime"] = 1699124905,
+		["damage"] = 229597895,
+		["rage"] = 7358,
+		["absorb"] = 7832402,
+		["damagetaken"] = 29717859,
+		["ccdone"] = 158,
+		["interrupt"] = 56,
 		["name"] = "Total",
+		["fail"] = 232,
+		["parry"] = 72,
+		["runic"] = 3554,
+		["heal"] = 32774696,
+		["potion"] = 7,
+		["death"] = 37,
+		["ress"] = 5,
+		["starttime"] = 1699193830,
+		["energy"] = 94475,
+		["friendfire"] = 442351,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
+			["damage"] = 10930,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -62,3550 +665,678 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Urgash"] = {
-									["amount"] = 1893,
+									["amount"] = 108,
 								},
 							},
-							["amount"] = 1893,
+							["amount"] = 108,
 						},
 					},
-					["damagetaken"] = 22737,
-					["flag"] = 2632,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1740,
-								},
-							},
-							["amount"] = 1740,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1099,
-								},
-							},
-							["amount"] = 1099,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2783,
-								},
-							},
-							["amount"] = 2783,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6577,
-								},
-							},
-							["amount"] = 6577,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 3455,
-									["amount"] = 10500,
-								},
-							},
-							["overkill"] = 3455,
-							["amount"] = 10500,
-						},
-					},
-					["name"] = "Vazruden",
-					["totaldamage"] = 1893,
-					["totaldamagetaken"] = 22737,
-					["id"] = "0xF13000448100006C",
-					["damage"] = 1893,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 430,
-								},
-							},
-							["amount"] = 430,
-						},
-					},
-					["damagetaken"] = 33667,
+					["damagetaken"] = 10930,
 					["flag"] = 68168,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 972,
-								},
-							},
-							["amount"] = 972,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 285,
-									["amount"] = 1874,
-								},
-							},
-							["overkill"] = 285,
-							["amount"] = 1874,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8519,
-								},
-							},
-							["amount"] = 8519,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3682,
-								},
-							},
-							["amount"] = 3682,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5076,
-								},
-							},
-							["amount"] = 5076,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2133,
-								},
-							},
-							["amount"] = 2133,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8229,
-								},
-							},
-							["amount"] = 8229,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1238,
-								},
-							},
-							["amount"] = 1238,
-						},
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1924,
-								},
-							},
-							["amount"] = 1924,
-						},
-					},
-					["name"] = "Nazan",
-					["totaldamage"] = 430,
-					["totaldamagetaken"] = 33667,
-					["id"] = "0xF13000448000006B",
-					["damage"] = 430,
-				}, -- [2]
-			},
-			["totaldamage"] = 56404,
-			["time"] = 16,
-			["damage"] = 56404,
-			["totaldamagetaken"] = 2323,
-			["etotaldamagetaken"] = 56404,
-			["last_time"] = 4797.655,
-			["players"] = {
-				{
-					["last"] = 4796.591,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Nazan"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Vazruden"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 4,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["Nazan"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Vazruden"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Vazruden"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[71559] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 13,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Nazan"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 7,
-								},
-								["Vazruden"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 13,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 14,
-						},
-						[9910] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 13.89,
-					["totaldamagetaken"] = 2323,
-					["damage"] = 56404,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["criticalamount"] = 8229,
-							["id"] = 55271,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 8229,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 8229,
-							["school"] = 1,
-							["criticalmin"] = 8229,
-							["criticalmax"] = 8229,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["hitmin"] = 2704,
-							["criticalamount"] = 11607,
-							["id"] = 6603,
-							["criticalmin"] = 5792,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 8519,
-								},
-								["Vazruden"] = {
-									["overkill"] = 3455,
-									["amount"] = 8549,
-								},
-							},
-							["overkill"] = 3455,
-							["critical"] = 2,
-							["criticalmax"] = 5815,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2757,
-							["amount"] = 17068,
-							["hitamount"] = 5461,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1099,
-							["id"] = 49909,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 1238,
-								},
-								["Vazruden"] = {
-									["amount"] = 1099,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 1238,
-							["amount"] = 2337,
-							["hitamount"] = 2337,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 901,
-							["id"] = 50526,
-							["targets"] = {
-								["Nazan"] = {
-									["overkill"] = 285,
-									["amount"] = 1874,
-								},
-							},
-							["overkill"] = 285,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 973,
-							["amount"] = 1874,
-							["hitamount"] = 1874,
-						},
-						["Melee (Skulldrinker)"] = {
-							["hitmin"] = 593,
-							["criticalamount"] = 1358,
-							["id"] = 6603,
-							["targets"] = {
-								["Vazruden"] = {
-									["amount"] = 1951,
-								},
-							},
-							["criticalmin"] = 1358,
-							["critical"] = 1,
-							["criticalmax"] = 1358,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 593,
-							["amount"] = 1951,
-							["hitamount"] = 593,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 3682,
-							["id"] = 70890,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 3682,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3682,
-							["amount"] = 3682,
-							["hitamount"] = 3682,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 2133,
-							["id"] = 49930,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 2133,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2133,
-							["amount"] = 2133,
-							["hitamount"] = 2133,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 972,
-							["id"] = 55078,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 972,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 972,
-							["amount"] = 972,
-							["hitamount"] = 972,
-						},
-						["Death Coil"] = {
-							["criticalamount"] = 6577,
-							["id"] = 47632,
-							["targets"] = {
-								["Vazruden"] = {
-									["amount"] = 6577,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 6577,
-							["school"] = 32,
-							["criticalmin"] = 6577,
-							["criticalmax"] = 6577,
-							["count"] = 1,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1740,
-							["criticalamount"] = 5076,
-							["id"] = 49921,
-							["criticalmin"] = 5076,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 5076,
-								},
-								["Vazruden"] = {
-									["amount"] = 1740,
-								},
-							},
-							["criticalmax"] = 5076,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1740,
-							["amount"] = 6816,
-							["hitamount"] = 1740,
-						},
-						["Claw (Skulldrinker)"] = {
-							["hitmin"] = 1001,
-							["criticalamount"] = 1782,
-							["id"] = 47468,
-							["hitmax"] = 1001,
-							["targets"] = {
-								["Vazruden"] = {
-									["amount"] = 2783,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2783,
-							["school"] = 1,
-							["criticalmin"] = 1782,
-							["criticalmax"] = 1782,
-							["hitamount"] = 1001,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 962,
-							["id"] = 55095,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 1924,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 962,
-							["amount"] = 1924,
-							["hitamount"] = 1924,
-						},
-						["Thorns"] = {
-							["hitmin"] = 18,
-							["id"] = 9910,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 20,
-								},
-								["Vazruden"] = {
-									["amount"] = 38,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 20,
-							["amount"] = 58,
-							["hitamount"] = 58,
-						},
-					},
-					["damagetaken"] = 2323,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 2068,
-							["max"] = 1200,
-							["count"] = 3,
-							["amount"] = 1322,
-							["school"] = 1,
-							["min"] = 122,
-							["ishot"] = true,
-							["targets"] = {
-								["Skulldrinker"] = {
-									["overheal"] = 990,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 1078,
-									["amount"] = 1322,
-								},
-							},
-						},
-						[53365] = {
-							["overheal"] = 1820,
-							["criticalamount"] = 0,
-							["max"] = 900,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 1820,
-									["amount"] = 1330,
-								},
-							},
-							["min"] = 430,
-							["criticalmax"] = 0,
-							["count"] = 3,
-							["amount"] = 1330,
-							["school"] = 1,
-							["criticalmin"] = 0,
-							["critical"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 430,
-							["id"] = 6603,
-							["sources"] = {
-								["Nazan"] = {
-									["amount"] = 430,
-								},
-								["Vazruden"] = {
-									["amount"] = 1893,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 963,
-							["amount"] = 2323,
-							["hitamount"] = 2323,
-						},
-						["Fireball"] = {
-							["sources"] = {
-								["Nazan"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["MISS"] = 1,
-							["id"] = 33793,
-						},
-					},
-					["heal"] = 2652,
-					["name"] = "Urgash",
-					["overkill"] = 3740,
-					["overheal"] = 3888,
-					["totaldamage"] = 56404,
-				}, -- [1]
-				{
-					["last"] = 4782.685,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["auras"] = {
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[5215] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Onitora",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "DRUID",
-				}, -- [2]
-			},
-			["type"] = "party",
-			["damagetaken"] = 2323,
-			["etotaldamage"] = 2323,
-			["overheal"] = 3888,
-			["gotboss"] = 17537,
-			["overkill"] = 3740,
-			["edamagetaken"] = 56404,
-			["heal"] = 2652,
-			["name"] = "Vazruden (2)",
-			["mobname"] = "Vazruden",
-			["starttime"] = 1699126313,
-			["edamage"] = 2323,
-			["last_action"] = 1699126328,
-			["endtime"] = 1699126329,
-		}, -- [1]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 492,
-								},
-							},
-							["amount"] = 492,
-						},
-					},
-					["damagetaken"] = 29389,
-					["flag"] = 2632,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 114,
-									["amount"] = 1992,
-								},
-							},
-							["overkill"] = 114,
-							["amount"] = 1992,
-						},
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4790,
-								},
-							},
-							["amount"] = 4790,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8728,
-								},
-							},
-							["amount"] = 8728,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1770,
-								},
-							},
-							["amount"] = 1770,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 893,
-									["amount"] = 4037,
-								},
-							},
-							["overkill"] = 893,
-							["amount"] = 4037,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7974,
-								},
-							},
-							["amount"] = 7974,
-						},
-					},
-					["name"] = "Bonechewer Hungerer",
-					["totaldamage"] = 492,
-					["totaldamagetaken"] = 29389,
-					["id"] = "0xF13000436B000040",
-					["damage"] = 492,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 551,
-								},
-							},
-							["amount"] = 551,
-						},
-					},
-					["damagetaken"] = 26985,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 858,
-									["amount"] = 8076,
-								},
-							},
-							["overkill"] = 858,
-							["amount"] = 8076,
-						},
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 160,
-								},
-							},
-							["amount"] = 160,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3983,
-								},
-							},
-							["amount"] = 3983,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 395,
-									["amount"] = 14766,
-								},
-							},
-							["overkill"] = 395,
-							["amount"] = 14766,
-						},
-					},
-					["name"] = "Hellfire Sentry",
-					["totaldamage"] = 551,
-					["totaldamagetaken"] = 26985,
-					["id"] = "0xF13000446D000062",
-					["damage"] = 551,
-				}, -- [2]
-			},
-			["totaldamage"] = 56374,
-			["time"] = 12,
-			["damage"] = 56374,
-			["totaldamagetaken"] = 1043,
-			["etotaldamagetaken"] = 56374,
-			["last_time"] = 4775.033,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[45524] = {
-							["count"] = 1,
-							["targets"] = {
-								["Hellfire Sentry"] = 1,
-							},
-						},
-					},
-					["last"] = 4775.024,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[45524] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-								["Bonechewer Hungerer"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 11,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 9,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[9910] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 10.1,
-					["totaldamagetaken"] = 1043,
-					["damage"] = 56374,
-					["damagespells"] = {
-						["Claw (Skulldrinker)"] = {
-							["criticalamount"] = 1770,
-							["id"] = 47468,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1770,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1770,
-							["school"] = 1,
-							["criticalmin"] = 1770,
-							["criticalmax"] = 1770,
-							["count"] = 1,
-						},
-						["Melee (Skulldrinker)"] = {
-							["criticalamount"] = 1214,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1214,
-								},
-							},
-							["criticalmax"] = 1214,
-							["critical"] = 1,
-							["amount"] = 1214,
-							["school"] = 1,
-							["criticalmin"] = 1214,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["criticalamount"] = 6760,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 6760,
-								},
-							},
-							["criticalmax"] = 6760,
-							["critical"] = 1,
-							["amount"] = 6760,
-							["school"] = 1,
-							["criticalmin"] = 6760,
-							["count"] = 1,
-						},
-						["Death and Decay"] = {
-							["criticalmax"] = 1119,
-							["hitmin"] = 459,
-							["criticalamount"] = 11800,
-							["id"] = 52212,
-							["criticalmin"] = 961,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["overkill"] = 395,
-									["amount"] = 14766,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 8728,
-								},
-							},
-							["overkill"] = 395,
-							["critical"] = 11,
-							["casts"] = 1,
-							["count"] = 34,
-							["hit"] = 23,
-							["school"] = 32,
-							["hitmax"] = 589,
-							["amount"] = 23494,
-							["hitamount"] = 11694,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1008,
-							["id"] = 50526,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["overkill"] = 858,
-									["amount"] = 8076,
-								},
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 893,
-									["amount"] = 4037,
-								},
-							},
-							["overkill"] = 1751,
-							["casts"] = 1,
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 32,
-							["hitmax"] = 1010,
-							["amount"] = 12113,
-							["hitamount"] = 12113,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 4790,
-							["id"] = 49921,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 4790,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4790,
-							["school"] = 1,
-							["criticalmin"] = 4790,
-							["criticalmax"] = 4790,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 995,
-							["id"] = 55095,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["amount"] = 3983,
-								},
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 114,
-									["amount"] = 1992,
-								},
-							},
-							["overkill"] = 114,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 16,
-							["hitmax"] = 996,
-							["amount"] = 5975,
-							["hitamount"] = 5975,
-						},
-						["Thorns"] = {
-							["hitmin"] = 18,
-							["id"] = 9910,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["amount"] = 160,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 98,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 8,
-							["hitmax"] = 21,
-							["amount"] = 258,
-							["hitamount"] = 258,
-						},
-					},
-					["damagetaken"] = 1043,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 1681,
-							["targets"] = {
-								["Skulldrinker"] = {
-									["overheal"] = 990,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 691,
-									["amount"] = 509,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 509,
-							["school"] = 1,
-							["max"] = 509,
-							["ishot"] = true,
-							["min"] = 509,
-						},
-					},
-					["damagetakenspells"] = {
-						["Demoralizing Shout"] = {
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 16244,
-						},
-						["Kidney Shot"] = {
-							["PARRY"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Hellfire Sentry"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 30621,
-						},
-						["Melee"] = {
-							["DODGE"] = 5,
-							["hitmin"] = 63,
-							["id"] = 6603,
-							["amount"] = 1043,
-							["PARRY"] = 4,
-							["sources"] = {
-								["Hellfire Sentry"] = {
-									["amount"] = 551,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 492,
-								},
-							},
-							["count"] = 23,
-							["hit"] = 13,
-							["school"] = 1,
-							["hitmax"] = 104,
-							["MISS"] = 1,
-							["hitamount"] = 1043,
-						},
-					},
-					["heal"] = 509,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 2260,
-					["overheal"] = 1681,
-					["totaldamage"] = 56374,
-				}, -- [1]
-				{
-					["last"] = 4764.933,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["auras"] = {
-						[5215] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[57330] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Onitora",
-					["time"] = 0,
-					["class"] = "DRUID",
-				}, -- [2]
-			},
-			["type"] = "party",
-			["damagetaken"] = 1043,
-			["ccdone"] = 1,
-			["overheal"] = 1681,
-			["etotaldamage"] = 1043,
-			["overkill"] = 2260,
-			["edamagetaken"] = 56374,
-			["heal"] = 509,
-			["name"] = "Bonechewer Hungerer (14)",
-			["mobname"] = "Bonechewer Hungerer",
-			["starttime"] = 1699126296,
-			["edamage"] = 1043,
-			["last_action"] = 1699126306,
-			["endtime"] = 1699126308,
-		}, -- [2]
-		{
-			["damage"] = 68587,
-			["ccdone"] = 1,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 588,
-								},
-							},
-							["amount"] = 588,
-						},
-					},
-					["damagetaken"] = 60220,
-					["flag"] = 68168,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3011,
-								},
-							},
-							["amount"] = 3011,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2323,
-								},
-							},
-							["amount"] = 2323,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 23922,
-								},
-							},
-							["amount"] = 23922,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 901,
-								},
-							},
-							["amount"] = 901,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1367,
-									["amount"] = 1832,
-								},
-							},
-							["overkill"] = 1367,
-							["amount"] = 1832,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4848,
-								},
-							},
-							["amount"] = 4848,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1741,
-								},
-							},
-							["amount"] = 1741,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7101,
-								},
-							},
-							["amount"] = 7101,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3466,
-								},
-							},
-							["amount"] = 3466,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3356,
-								},
-							},
-							["amount"] = 3356,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1215,
-								},
-							},
-							["amount"] = 1215,
-						},
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6031,
-								},
-							},
-							["amount"] = 6031,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 452,
-								},
-							},
-							["amount"] = 452,
-						},
-					},
-					["name"] = "Omor the Unscarred",
-					["totaldamage"] = 588,
-					["totaldamagetaken"] = 60220,
-					["id"] = "0xF13000439C000064",
-					["damage"] = 588,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 143,
-								},
-							},
-							["amount"] = 143,
-						},
-					},
-					["damagetaken"] = 8367,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 3983,
-									["amount"] = 7871,
-								},
-							},
-							["overkill"] = 3983,
-							["amount"] = 7871,
-						},
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 72,
-								},
-							},
-							["amount"] = 72,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 424,
-								},
-							},
-							["amount"] = 424,
-						},
-					},
-					["name"] = "Fiendish Hound",
-					["totaldamage"] = 143,
-					["totaldamagetaken"] = 8367,
-					["id"] = "0xF130004484000069",
-					["damage"] = 143,
-				}, -- [2]
-			},
-			["success"] = true,
-			["totaldamage"] = 68587,
-			["time"] = 57,
-			["overheal"] = 2377,
-			["totaldamagetaken"] = 731,
-			["etotaldamagetaken"] = 68587,
-			["last_time"] = 4747.365,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[45524] = {
-							["count"] = 1,
-							["targets"] = {
-								["Fiendish Hound"] = 1,
-							},
-						},
-					},
-					["last"] = 4747.266000000001,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["uptime"] = 18,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 13,
-						},
-						[45524] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Fiendish Hound"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Fiendish Hound"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Omor the Unscarred"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 20,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["Fiendish Hound"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Omor the Unscarred"] = {
-									["uptime"] = 18,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 57,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 20,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 33,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 18,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 57,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Fiendish Hound"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 2,
-							["school"] = 1,
-							["uptime"] = 26,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 20,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["uptime"] = 35,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 57,
-						},
-						[9910] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 57,
-						},
-					},
-					["time"] = 35.65000000000001,
-					["totaldamagetaken"] = 731,
-					["damage"] = 68587,
-					["overheal"] = 2377,
-					["totaldamage"] = 68587,
-					["damagetaken"] = 731,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[53365] = {
-							["overheal"] = 1800,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 1800,
-									["amount"] = 0,
-								},
-							},
-						},
-						[34299] = {
-							["overheal"] = 577,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 577,
-									["amount"] = 623,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 623,
-							["school"] = 1,
-							["max"] = 623,
-							["ishot"] = true,
-							["min"] = 623,
-						},
-					},
-					["damagetakenspells"] = {
-						["Drain Life"] = {
-							["sources"] = {
-								["Fiendish Hound"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 1,
-							["id"] = 35748,
-						},
-						["Melee"] = {
-							["hitmin"] = 34,
-							["id"] = 6603,
-							["PARRY"] = 2,
-							["hitmax"] = 588,
-							["amount"] = 731,
-							["sources"] = {
-								["Fiendish Hound"] = {
-									["amount"] = 143,
-								},
-								["Omor the Unscarred"] = {
-									["amount"] = 588,
-								},
-							},
-							["BLOCK"] = 1,
-							["blocked"] = 529,
-							["school"] = 1,
-							["hit"] = 5,
-							["count"] = 8,
-							["hitamount"] = 731,
-						},
-						["Shadow Bolt"] = {
-							["sources"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 3,
-							["id"] = 30686,
-						},
-					},
-					["overkill"] = 5350,
-					["heal"] = 623,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["interrupt"] = 1,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["hitmin"] = 3356,
-							["id"] = 55271,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 3356,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3356,
-							["amount"] = 3356,
-							["hitamount"] = 3356,
-						},
-						["Melee"] = {
-							["hitmin"] = 2804,
-							["criticalamount"] = 24838,
-							["id"] = 6603,
-							["hitmax"] = 2953,
-							["targets"] = {
-								["Fiendish Hound"] = {
-									["overkill"] = 3983,
-									["amount"] = 7871,
-								},
-								["Omor the Unscarred"] = {
-									["amount"] = 22724,
-								},
-							},
-							["overkill"] = 3983,
-							["count"] = 6,
-							["criticalmax"] = 7193,
-							["critical"] = 4,
-							["amount"] = 30595,
-							["school"] = 1,
-							["hit"] = 2,
-							["criticalmin"] = 5067,
-							["hitamount"] = 5757,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 1741,
-							["id"] = 71904,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 1741,
-								},
-							},
-							["hitmax"] = 1741,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 746,
-							["amount"] = 1741,
-							["hitamount"] = 1741,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1215,
-							["id"] = 49909,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 1215,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 1215,
-							["amount"] = 1215,
-							["hitamount"] = 1215,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 15,
-							["id"] = 50536,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 452,
-								},
-							},
-							["hitmax"] = 34,
-							["count"] = 18,
-							["hit"] = 18,
-							["school"] = 32,
-							["resisted"] = 160,
-							["amount"] = 452,
-							["hitamount"] = 452,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 901,
-							["id"] = 70890,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 901,
-								},
-							},
-							["hitmax"] = 901,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 600,
-							["amount"] = 901,
-							["hitamount"] = 901,
-						},
-						["Melee (Skulldrinker)"] = {
-							["criticalamount"] = 1198,
-							["id"] = 6603,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 1198,
-								},
-							},
-							["criticalmax"] = 1198,
-							["critical"] = 1,
-							["amount"] = 1198,
-							["school"] = 1,
-							["criticalmin"] = 1198,
-							["count"] = 1,
-						},
-						["Claw (Skulldrinker)"] = {
-							["criticalamount"] = 1832,
-							["id"] = 47468,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["overkill"] = 1367,
-									["amount"] = 1832,
-								},
-							},
-							["overkill"] = 1367,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1832,
-							["school"] = 1,
-							["criticalmin"] = 1832,
-							["criticalmax"] = 1832,
-							["count"] = 1,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 84,
-							["id"] = 50526,
-							["targets"] = {
-								["Fiendish Hound"] = {
-									["amount"] = 424,
-								},
-								["Omor the Unscarred"] = {
-									["amount"] = 2323,
-								},
-							},
-							["hitmax"] = 744,
-							["casts"] = 1,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 32,
-							["resisted"] = 524,
-							["amount"] = 2747,
-							["hitamount"] = 2747,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 149,
-							["id"] = 55078,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 3011,
-								},
-							},
-							["hitmax"] = 888,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 688,
-							["amount"] = 3011,
-							["hitamount"] = 3011,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 692,
-							["id"] = 47632,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 6031,
-								},
-							},
-							["hitmax"] = 2748,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 1145,
-							["amount"] = 6031,
-							["hitamount"] = 6031,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 2341,
-							["criticalamount"] = 4760,
-							["id"] = 49930,
-							["hitmax"] = 2341,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 7101,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 7101,
-							["school"] = 1,
-							["criticalmin"] = 4760,
-							["criticalmax"] = 4760,
-							["hitamount"] = 2341,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 4848,
-							["id"] = 49921,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 4848,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 4848,
-							["school"] = 1,
-							["criticalmin"] = 4848,
-							["criticalmax"] = 4848,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 231,
-							["id"] = 55095,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 3466,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 16,
-							["hitmax"] = 924,
-							["amount"] = 3466,
-							["hitamount"] = 3466,
-						},
-						["Thorns"] = {
-							["hitmin"] = 18,
-							["id"] = 9910,
-							["targets"] = {
-								["Fiendish Hound"] = {
-									["amount"] = 72,
-								},
-								["Omor the Unscarred"] = {
-									["amount"] = 21,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 8,
-							["hitmax"] = 21,
-							["amount"] = 93,
-							["hitamount"] = 93,
-						},
-					},
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[30686] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Omor the Unscarred"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 4691.474,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 57,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 57,
-						},
-						[57330] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 57,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Onitora",
-					["time"] = 0,
-					["class"] = "DRUID",
-				}, -- [2]
-			},
-			["type"] = "party",
-			["damagetaken"] = 731,
-			["interrupt"] = 1,
-			["etotaldamage"] = 731,
-			["gotboss"] = 17308,
-			["overkill"] = 5350,
-			["edamagetaken"] = 68587,
-			["heal"] = 623,
-			["name"] = "Omor the Unscarred",
-			["mobname"] = "Omor the Unscarred",
-			["starttime"] = 1699126222,
-			["edamage"] = 731,
-			["last_action"] = 1699126278,
-			["endtime"] = 1699126279,
-		}, -- [3]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 696,
-								},
-							},
-							["amount"] = 696,
-						},
-						[14516] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 136,
-								},
-							},
-							["amount"] = 136,
-						},
-					},
-					["damagetaken"] = 30156,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5621,
-								},
-							},
-							["amount"] = 5621,
-						},
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 174,
-								},
-							},
-							["amount"] = 174,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1048,
-									["amount"] = 4281,
-								},
-							},
-							["overkill"] = 1048,
-							["amount"] = 4281,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4987,
-								},
-							},
-							["amount"] = 4987,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9218,
-								},
-							},
-							["amount"] = 9218,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 831,
-								},
-							},
-							["amount"] = 831,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 726,
-									["amount"] = 5044,
-								},
-							},
-							["overkill"] = 726,
-							["amount"] = 5044,
-						},
-					},
-					["name"] = "Bonechewer Hungerer",
-					["totaldamage"] = 832,
-					["totaldamagetaken"] = 30156,
-					["id"] = "0xF13000436B000041",
-					["damage"] = 832,
-				}, -- [1]
-				{
-					["id"] = "0xF13000437500004F",
-					["name"] = "Bleeding Hollow Darkcaster",
-					["totaldamagetaken"] = 24005,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 24005,
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2312,
-								},
-							},
-							["amount"] = 2312,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 590,
-									["amount"] = 2902,
-								},
-							},
-							["overkill"] = 590,
-							["amount"] = 2902,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2106,
-								},
-							},
-							["amount"] = 2106,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 889,
-								},
-							},
-							["amount"] = 889,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 3193,
-									["amount"] = 7049,
-								},
-							},
-							["overkill"] = 3193,
-							["amount"] = 7049,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3577,
-								},
-							},
-							["amount"] = 3577,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 35,
-								},
-							},
-							["amount"] = 35,
-						},
 						[49924] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 5135,
+									["amount"] = 2028,
 								},
 							},
-							["amount"] = 5135,
+							["amount"] = 2028,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 825,
+								},
+							},
+							["amount"] = 825,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3209,
+								},
+							},
+							["amount"] = 3209,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 365,
+									["amount"] = 4868,
+								},
+							},
+							["overkill"] = 365,
+							["amount"] = 4868,
 						},
 					},
-				}, -- [2]
+					["name"] = "Unbound Seer",
+					["totaldamage"] = 108,
+					["totaldamagetaken"] = 10930,
+					["id"] = "0xF13000828E172F66",
+					["damage"] = 108,
+				}, -- [1]
 			},
-			["damage"] = 54161,
-			["totaldamage"] = 54161,
-			["time"] = 14,
-			["totaldamagetaken"] = 832,
-			["etotaldamagetaken"] = 54161,
-			["last_time"] = 4687.759,
+			["totaldamage"] = 10930,
+			["time"] = 5,
+			["overheal"] = 0,
+			["totaldamagetaken"] = 108,
+			["etotaldamagetaken"] = 10930,
+			["last_time"] = 23840.026,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[45524] = {
 							["count"] = 1,
 							["targets"] = {
-								["Bonechewer Hungerer"] = 1,
+								["Unbound Seer"] = 1,
 							},
 						},
 					},
-					["last"] = 4687.758,
-					["flag"] = 1297,
+					["last"] = 23838.817,
+					["flag"] = 4369,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 13,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 3,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-								["Bonechewer Hungerer"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[9910] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 8,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 4,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-								["Bonechewer Hungerer"] = {
-									["count"] = 2,
-									["refresh"] = 4,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-								["Bonechewer Hungerer"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
 						[45524] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 16,
 							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 9,
+								["Unbound Seer"] = {
+									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 9,
+							["uptime"] = 4,
 						},
 						[49222] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 5,
-						},
-					},
-					["time"] = 12.64,
-					["totaldamagetaken"] = 832,
-					["damage"] = 54161,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 2637,
-							["criticalamount"] = 13630,
-							["id"] = 6603,
-							["criticalmin"] = 6581,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 3193,
-									["amount"] = 7049,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 9218,
-								},
-							},
-							["overkill"] = 3193,
-							["critical"] = 2,
-							["criticalmax"] = 7049,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2637,
-							["amount"] = 16267,
-							["hitamount"] = 2637,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 831,
-							["id"] = 71904,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 889,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 831,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 889,
-							["amount"] = 1720,
-							["hitamount"] = 1720,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 3577,
-							["id"] = 47632,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 3577,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3577,
-							["amount"] = 3577,
-							["hitamount"] = 3577,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 35,
-							["id"] = 50536,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 35,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 35,
-							["amount"] = 35,
-							["hitamount"] = 35,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 939,
-							["id"] = 50526,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 590,
-									["amount"] = 2902,
-								},
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 726,
-									["amount"] = 5044,
-								},
-							},
-							["overkill"] = 1316,
-							["casts"] = 1,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 32,
-							["hitmax"] = 1062,
-							["amount"] = 7946,
-							["hitamount"] = 7946,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1041,
-							["id"] = 55078,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 2106,
-								},
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 1048,
-									["amount"] = 4281,
-								},
-							},
-							["overkill"] = 1048,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 1141,
-							["amount"] = 6387,
-							["hitamount"] = 6387,
-						},
-						["Death Strike"] = {
-							["criticalamount"] = 5135,
-							["id"] = 49924,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 5135,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5135,
-							["school"] = 1,
-							["criticalmin"] = 5135,
-							["criticalmax"] = 5135,
-							["count"] = 1,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 4987,
-							["id"] = 49921,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 4987,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4987,
-							["school"] = 1,
-							["criticalmin"] = 4987,
-							["criticalmax"] = 4987,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1032,
-							["id"] = 55095,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 2312,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 5621,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 16,
-							["hitmax"] = 1156,
-							["amount"] = 7933,
-							["hitamount"] = 7933,
-						},
-						["Thorns"] = {
-							["hitmin"] = 18,
-							["id"] = 9910,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 174,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 8,
-							["hitmax"] = 20,
-							["amount"] = 174,
-							["hitamount"] = 174,
-						},
-					},
-					["damagetaken"] = 832,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 2240,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 2240,
-									["amount"] = 160,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 160,
-							["school"] = 1,
-							["max"] = 160,
-							["ishot"] = true,
-							["min"] = 160,
-						},
-						[45470] = {
-							["overheal"] = 3831,
-							["count"] = 1,
-							["amount"] = 672,
-							["school"] = 1,
-							["max"] = 672,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 3831,
-									["amount"] = 672,
-								},
-							},
-							["min"] = 672,
-						},
-					},
-					["damagetakenspells"] = {
-						["Demoralizing Shout"] = {
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 2,
-							["id"] = 16244,
-						},
-						["Scorch"] = {
-							["sources"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 4,
-							["MISS"] = 3,
-							["id"] = 36807,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 71,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["amount"] = 696,
-							["sources"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 696,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 9,
-							["school"] = 1,
-							["hitmax"] = 86,
-							["MISS"] = 1,
-							["hitamount"] = 696,
-						},
-						["Strike"] = {
-							["hitmin"] = 136,
-							["id"] = 14516,
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 136,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 136,
-							["amount"] = 136,
-							["hitamount"] = 136,
-						},
-					},
-					["heal"] = 832,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 5557,
-					["overheal"] = 6071,
-					["totaldamage"] = 54161,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 4675.106,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[57330] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Onitora",
-					["time"] = 0,
-					["class"] = "DRUID",
-				}, -- [2]
-			},
-			["type"] = "party",
-			["damagetaken"] = 832,
-			["overheal"] = 6071,
-			["starttime"] = 1699126206,
-			["etotaldamage"] = 832,
-			["overkill"] = 5557,
-			["edamagetaken"] = 54161,
-			["heal"] = 832,
-			["name"] = "Bonechewer Hungerer (13)",
-			["mobname"] = "Bonechewer Hungerer",
-			["ccdone"] = 1,
-			["edamage"] = 832,
-			["last_action"] = 1699126219,
-			["endtime"] = 1699126220,
-		}, -- [4]
-		{
-			["mana"] = 278,
-			["damage"] = 49363,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 99,
-								},
-							},
-							["amount"] = 99,
-						},
-					},
-					["damagetaken"] = 14696,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1615,
-								},
-							},
-							["amount"] = 1615,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1630,
-								},
-							},
-							["amount"] = 1630,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 505,
-									["amount"] = 6042,
-								},
-							},
-							["overkill"] = 505,
-							["amount"] = 6042,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2833,
-								},
-							},
-							["amount"] = 2833,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2556,
-								},
-							},
-							["amount"] = 2556,
-						},
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["name"] = "Bonechewer Hungerer",
-					["totaldamage"] = 99,
-					["totaldamagetaken"] = 14696,
-					["id"] = "0xF13000436B000009",
-					["damage"] = 99,
-				}, -- [1]
-				{
-					["id"] = "0xF13000437500001F",
-					["name"] = "Bleeding Hollow Darkcaster",
-					["totaldamagetaken"] = 10727,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 10727,
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 435,
-									["amount"] = 5469,
-								},
-							},
-							["overkill"] = 435,
-							["amount"] = 5469,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 815,
-								},
-							},
-							["amount"] = 815,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4443,
-								},
-							},
-							["amount"] = 4443,
-						},
-					},
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 808,
-								},
-							},
-							["amount"] = 808,
-						},
-					},
-					["damagetaken"] = 15138,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1614,
-								},
-							},
-							["amount"] = 1614,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1631,
-								},
-							},
-							["amount"] = 1631,
-						},
-						[33982] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 433,
-								},
-							},
-							["amount"] = 433,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5511,
-								},
-							},
-							["amount"] = 5511,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 437,
-									["amount"] = 5615,
-								},
-								["Onitora"] = {
-									["amount"] = 276,
-								},
-							},
-							["overkill"] = 437,
-							["amount"] = 5891,
-						},
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-					},
-					["name"] = "Bonechewer Destroyer",
-					["totaldamage"] = 808,
-					["totaldamagetaken"] = 15138,
-					["id"] = "0xF130004377000031",
-					["damage"] = 808,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 129,
-								},
-							},
-							["amount"] = 129,
-						},
-						[30639] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 960,
-								},
-							},
-							["amount"] = 960,
-						},
-					},
-					["damagetaken"] = 8802,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[9910] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 39,
-								},
-							},
-							["amount"] = 39,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 132,
-									["amount"] = 807,
-								},
-							},
-							["overkill"] = 132,
-							["amount"] = 807,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 386,
-									["amount"] = 7956,
-								},
-							},
-							["overkill"] = 386,
-							["amount"] = 7956,
-						},
-					},
-					["name"] = "Shattered Hand Warhound",
-					["totaldamage"] = 1089,
-					["totaldamagetaken"] = 8802,
-					["id"] = "0xF13000438000000B",
-					["damage"] = 1089,
-				}, -- [4]
-			},
-			["totaldamage"] = 49363,
-			["time"] = 12,
-			["overheal"] = 990,
-			["totaldamagetaken"] = 1996,
-			["etotaldamagetaken"] = 49363,
-			["last_time"] = 4658.464,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[45524] = {
-							["count"] = 1,
-							["targets"] = {
-								["Shattered Hand Warhound"] = 1,
-							},
-						},
-					},
-					["last"] = 4657.183,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[45524] = {
+						[51735] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 16,
+							["school"] = 32,
 							["targets"] = {
-								["Shattered Hand Warhound"] = {
-									["uptime"] = 3,
+								["Unbound Seer"] = {
+									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 3,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
+							["uptime"] = 4,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["refresh"] = 1,
+							["uptime"] = 5,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 4,
 						},
 						[48265] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 5,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 4,
 						},
 						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 4,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+					},
+					["time"] = 3.72,
+					["totaldamagetaken"] = 108,
+					["damage"] = 10930,
+					["damagespells"] = {
+						["Blood Strike"] = {
+							["criticalamount"] = 3209,
+							["id"] = 49930,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 3209,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 3209,
+							["school"] = 1,
+							["criticalmin"] = 3209,
+							["criticalmax"] = 3209,
+							["count"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 825,
+							["id"] = 55095,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 825,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 825,
+							["amount"] = 825,
+							["hitamount"] = 825,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 2028,
+							["id"] = 49924,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 2028,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2028,
+							["amount"] = 2028,
+							["hitamount"] = 2028,
+						},
+						["Melee"] = {
+							["glance"] = 2600,
+							["hitmin"] = 2268,
+							["id"] = 6603,
+							["glancemin"] = 2600,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 365,
+									["amount"] = 4868,
+								},
+							},
+							["overkill"] = 365,
+							["glancing"] = 1,
+							["glancemax"] = 2600,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2268,
+							["amount"] = 4868,
+							["hitamount"] = 2268,
+						},
+					},
+					["overkill"] = 365,
+					["damagetaken"] = 108,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[45470] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 3526,
+							["school"] = 1,
+							["max"] = 3526,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 3526,
+								},
+							},
+							["min"] = 3526,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 108,
+							["id"] = 6603,
+							["amount"] = 108,
+							["sources"] = {
+								["Unbound Seer"] = {
+									["amount"] = 108,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 108,
+							["MISS"] = 1,
+							["hitamount"] = 108,
+						},
+					},
+					["overheal"] = 0,
+					["heal"] = 3526,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["totaldamage"] = 10930,
+					["interrupt"] = 1,
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[38204] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 108,
+			["interrupt"] = 1,
+			["ccdone"] = 1,
+			["etotaldamage"] = 108,
+			["overkill"] = 365,
+			["edamagetaken"] = 10930,
+			["heal"] = 3526,
+			["name"] = "Unbound Seer (6)",
+			["mobname"] = "Unbound Seer",
+			["starttime"] = 1699202752,
+			["edamage"] = 108,
+			["last_action"] = 1699202757,
+			["endtime"] = 1699202757,
+		}, -- [1]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0x07000000009D7074",
+					["name"] = "Aliyolmeh",
+					["totaldamagetaken"] = 1779,
+					["flag"] = 66888,
+					["class"] = "HUNTER",
+					["damagetaken"] = 1779,
+					["damagetakenspells"] = {
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1013,
+								},
+							},
+							["amount"] = 1013,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 670,
+									["amount"] = 766,
+								},
+							},
+							["overkill"] = 670,
+							["amount"] = 766,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 1779,
+			["time"] = 7,
+			["totaldamagetaken"] = 8880,
+			["etotaldamagetaken"] = 1779,
+			["last_time"] = 23830.351,
+			["players"] = {
+				{
+					["last"] = 23826.603,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 7,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
 							["uptime"] = 3,
 						},
 						[51735] = {
 							["type"] = "DEBUFF",
-							["count"] = 5,
+							["count"] = 1,
 							["school"] = 32,
-							["refresh"] = 1,
 							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
+								["Aliyolmeh"] = {
 									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 7,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 9,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 8,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[9910] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 11,
+							["uptime"] = 3,
 						},
 					},
 					["role"] = "DAMAGER",
-					["time"] = 10.15,
-					["totaldamagetaken"] = 1996,
-					["damage"] = 48654,
+					["time"] = 3.16,
+					["totaldamagetaken"] = 8880,
+					["damage"] = 1779,
 					["damagespells"] = {
-						["Wandering Plague"] = {
-							["hitmin"] = 815,
-							["id"] = 50526,
+						["Icy Touch"] = {
+							["hitmin"] = 1013,
+							["id"] = 49909,
 							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1630,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 815,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 1631,
+								["Aliyolmeh"] = {
+									["amount"] = 1013,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["hitmax"] = 816,
-							["amount"] = 4076,
-							["hitamount"] = 4076,
-						},
-						["Melee"] = {
-							["criticalamount"] = 11084,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 437,
-									["amount"] = 5615,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 435,
-									["amount"] = 5469,
-								},
-							},
-							["overkill"] = 872,
-							["criticalmax"] = 5615,
-							["critical"] = 2,
-							["amount"] = 11084,
-							["school"] = 1,
-							["criticalmin"] = 5469,
-							["count"] = 2,
-						},
-						["Death and Decay"] = {
-							["criticalmax"] = 1076,
-							["hitmin"] = 455,
-							["criticalamount"] = 12989,
-							["id"] = 52212,
-							["criticalmin"] = 951,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 5511,
-								},
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 505,
-									["amount"] = 6042,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 386,
-									["amount"] = 7956,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 4443,
-								},
-							},
-							["overkill"] = 891,
-							["critical"] = 13,
-							["casts"] = 1,
-							["count"] = 35,
-							["hit"] = 22,
-							["school"] = 32,
-							["hitmax"] = 515,
-							["amount"] = 23952,
-							["hitamount"] = 10963,
-						},
-						["Melee (Skulldrinker)"] = {
-							["hitmin"] = 641,
-							["criticalamount"] = 1274,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 2556,
-								},
-							},
-							["criticalmin"] = 1274,
-							["critical"] = 1,
-							["criticalmax"] = 1274,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 641,
-							["amount"] = 2556,
-							["hitamount"] = 1282,
-						},
-						["Claw (Skulldrinker)"] = {
-							["hitmin"] = 931,
-							["criticalamount"] = 1902,
-							["id"] = 47468,
-							["hitmax"] = 931,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 2833,
-								},
-							},
-							["count"] = 2,
+							["count"] = 1,
 							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2833,
-							["school"] = 1,
-							["criticalmin"] = 1902,
-							["criticalmax"] = 1902,
-							["hitamount"] = 931,
+							["school"] = 16,
+							["hitmax"] = 1013,
+							["amount"] = 1013,
+							["hitamount"] = 1013,
 						},
 						["Frost Fever (DoT)"] = {
-							["hitmin"] = 807,
+							["hitmin"] = 766,
 							["id"] = 55095,
 							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1615,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 132,
-									["amount"] = 807,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 1614,
+								["Aliyolmeh"] = {
+									["overkill"] = 670,
+									["amount"] = 766,
 								},
 							},
-							["overkill"] = 132,
-							["count"] = 5,
-							["hit"] = 5,
+							["overkill"] = 670,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 16,
-							["hitmax"] = 808,
-							["amount"] = 4036,
-							["hitamount"] = 4036,
-						},
-						["Thorns"] = {
-							["hitmin"] = 18,
-							["id"] = 9910,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 20,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 39,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 58,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["hitmax"] = 21,
-							["amount"] = 117,
-							["hitamount"] = 117,
+							["hitmax"] = 766,
+							["amount"] = 766,
+							["hitamount"] = 766,
 						},
 					},
-					["damagetaken"] = 1996,
+					["damagetaken"] = 8880,
 					["id"] = "0x070000000000D01B",
 					["spec"] = 252,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 990,
-							["targets"] = {
-								["Skulldrinker"] = {
-									["overheal"] = 990,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 1200,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1200,
-							["school"] = 1,
-							["max"] = 1200,
-							["ishot"] = true,
-							["min"] = 1200,
-						},
-					},
 					["damagetakenspells"] = {
-						["Mortal Strike"] = {
-							["DODGE"] = 1,
+						["Falling"] = {
+							["hitmin"] = 8880,
+							["id"] = 3,
 							["sources"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 0,
+								["Environment"] = {
+									["amount"] = 8880,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 16856,
-						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 26,
-							["id"] = 6603,
-							["amount"] = 1036,
-							["PARRY"] = 4,
-							["sources"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 99,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 129,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 808,
-								},
-							},
-							["count"] = 18,
-							["hit"] = 9,
-							["school"] = 1,
-							["hitmax"] = 217,
-							["MISS"] = 3,
-							["hitamount"] = 1036,
-						},
-						["Demoralizing Shout"] = {
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 16244,
-						},
-						["Scorch"] = {
-							["sources"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["MISS"] = 1,
-							["id"] = 36807,
-						},
-						["Carnivorous Bite (DoT)"] = {
-							["hitmin"] = 320,
-							["id"] = 30639,
-							["sources"] = {
-								["Shattered Hand Warhound"] = {
-									["amount"] = 960,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 320,
-							["amount"] = 960,
-							["hitamount"] = 960,
-						},
-					},
-					["interrupt"] = 1,
-					["heal"] = 1200,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overheal"] = 990,
-					["overkill"] = 1895,
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[36807] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = 1,
-							},
-						},
-					},
-					["totaldamage"] = 48654,
-				}, -- [1]
-				{
-					["last"] = 4655.514,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[57330] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[33982] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 8,
-						},
-						[58181] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 8,
-						},
-						[5225] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["time"] = 4.5,
-					["damage"] = 709,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 92,
-							["criticalamount"] = 184,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 276,
-								},
-							},
-							["criticalmin"] = 184,
-							["critical"] = 1,
-							["criticalmax"] = 184,
-							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 92,
-							["amount"] = 276,
-							["hitamount"] = 92,
+							["hitmax"] = 8880,
+							["amount"] = 8880,
+							["hitamount"] = 8880,
 						},
-						["Mangle (Cat)"] = {
-							["hitmin"] = 433,
-							["id"] = 33982,
+					},
+					["name"] = "Urgash",
+					["overkill"] = 670,
+					["totaldamage"] = 1779,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 8880,
+			["overkill"] = 670,
+			["edamagetaken"] = 1779,
+			["damage"] = 1779,
+			["name"] = "Aliyolmeh (4)",
+			["mobname"] = "Aliyolmeh",
+			["starttime"] = 1699202740,
+			["last_action"] = 1699202747,
+			["endtime"] = 1699202747,
+		}, -- [2]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0x07000000009D7074",
+					["name"] = "Aliyolmeh",
+					["totaldamagetaken"] = 8601,
+					["flag"] = 66888,
+					["class"] = "HUNTER",
+					["damagetaken"] = 8601,
+					["damagetakenspells"] = {
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2966,
+								},
+							},
+							["amount"] = 2966,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4598,
+								},
+							},
+							["amount"] = 4598,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 747,
+								},
+							},
+							["amount"] = 747,
+						},
+						[50536] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 290,
+								},
+							},
+							["amount"] = 290,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 8601,
+			["time"] = 19,
+			["etotaldamagetaken"] = 8601,
+			["last_time"] = 23820.086,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Death Coil"] = {
+							["hitmin"] = 2966,
+							["id"] = 47632,
 							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 433,
+								["Aliyolmeh"] = {
+									["amount"] = 2966,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 433,
-							["amount"] = 433,
-							["hitamount"] = 433,
+							["school"] = 32,
+							["hitmax"] = 2966,
+							["amount"] = 2966,
+							["hitamount"] = 2966,
 						},
-					},
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 0,
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 29,
+							["id"] = 50536,
 							["targets"] = {
-								["Onitora"] = {
-									["overheal"] = 0,
-									["amount"] = 194,
+								["Aliyolmeh"] = {
+									["amount"] = 290,
 								},
 							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 32,
+							["hitmax"] = 29,
+							["amount"] = 290,
+							["hitamount"] = 290,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 766,
+							["id"] = 55095,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 4598,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 16,
+							["hitmax"] = 767,
+							["amount"] = 4598,
+							["hitamount"] = 4598,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 747,
+							["id"] = 50526,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 747,
+								},
+							},
+							["casts"] = 1,
 							["count"] = 1,
-							["amount"] = 194,
-							["school"] = 1,
-							["max"] = 194,
-							["ishot"] = true,
-							["min"] = 194,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 747,
+							["amount"] = 747,
+							["hitamount"] = 747,
 						},
 					},
-					["overheal"] = 0,
-					["heal"] = 194,
-					["name"] = "Onitora",
-					["manaspells"] = {
-						[68285] = 278,
+					["last"] = 23820.085,
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Aliyolmeh"] = 1,
+							},
+						},
 					},
-					["mana"] = 278,
-					["totaldamage"] = 709,
-					["role"] = "TANK",
-				}, -- [2]
+					["flag"] = 4369,
+					["class"] = "DEATHKNIGHT",
+					["id"] = "0x070000000000D01B",
+					["auras"] = {
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 19,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["uptime"] = 18,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["uptime"] = 18,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+					},
+					["spec"] = 252,
+					["time"] = 18.58,
+					["ccdone"] = 1,
+					["totaldamage"] = 8601,
+					["role"] = "DAMAGER",
+					["name"] = "Urgash",
+					["damage"] = 8601,
+				}, -- [1]
 			},
-			["type"] = "party",
-			["damagetaken"] = 1996,
-			["interrupt"] = 1,
-			["etotaldamage"] = 1996,
+			["type"] = "none",
+			["damage"] = 8601,
+			["edamagetaken"] = 8601,
+			["starttime"] = 1699202718,
+			["name"] = "Aliyolmeh (3)",
+			["mobname"] = "Aliyolmeh",
 			["ccdone"] = 1,
-			["overkill"] = 1895,
-			["edamagetaken"] = 49363,
-			["heal"] = 1394,
-			["name"] = "Bonechewer Hungerer (12)",
-			["mobname"] = "Bonechewer Hungerer",
-			["starttime"] = 1699126178,
-			["edamage"] = 1996,
-			["last_action"] = 1699126189,
-			["endtime"] = 1699126190,
-		}, -- [5]
+			["last_action"] = 1699202737,
+			["endtime"] = 1699202737,
+		}, -- [3]
 		{
+			["damage"] = 15907,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -3613,13 +1344,13 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Urgash"] = {
-									["amount"] = 237,
+									["amount"] = 249,
 								},
 							},
-							["amount"] = 237,
+							["amount"] = 249,
 						},
 					},
-					["damagetaken"] = 15408,
+					["damagetaken"] = 15907,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
@@ -3627,2861 +1358,473 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2507,
+									["amount"] = 825,
 								},
 							},
-							["amount"] = 2507,
+							["amount"] = 825,
 						},
-						[50526] = {
-							["school"] = 32,
+						[49924] = {
+							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 771,
+									["amount"] = 1750,
 								},
 							},
-							["amount"] = 771,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 707,
-									["amount"] = 1682,
-								},
-							},
-							["overkill"] = 707,
-							["amount"] = 1682,
+							["amount"] = 1750,
 						},
 						[49921] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4839,
+									["amount"] = 3809,
 								},
 							},
-							["amount"] = 4839,
+							["amount"] = 3809,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 5609,
+									["overkill"] = 1869,
+									["amount"] = 4459,
 								},
 							},
-							["amount"] = 5609,
+							["overkill"] = 1869,
+							["amount"] = 4459,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 3703,
+									["amount"] = 4298,
+								},
+							},
+							["overkill"] = 3703,
+							["amount"] = 4298,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 766,
+								},
+							},
+							["amount"] = 766,
 						},
 					},
-					["name"] = "Bonechewer Hungerer",
-					["totaldamage"] = 237,
-					["totaldamagetaken"] = 15408,
-					["id"] = "0xF13000436B00003F",
-					["damage"] = 237,
+					["name"] = "Unbound Seer",
+					["totaldamage"] = 249,
+					["totaldamagetaken"] = 15907,
+					["id"] = "0xF13000828E172432",
+					["damage"] = 249,
 				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 333,
-								},
-							},
-							["amount"] = 333,
-						},
-						[30639] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 2080,
-								},
-							},
-							["amount"] = 2080,
-						},
-					},
-					["damagetaken"] = 17435,
-					["id"] = "0xF130004380000048",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 213,
-									["amount"] = 5116,
-								},
-							},
-							["overkill"] = 213,
-							["amount"] = 5116,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 384,
-									["amount"] = 6312,
-								},
-							},
-							["overkill"] = 384,
-							["amount"] = 6312,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 105,
-									["amount"] = 4667,
-								},
-							},
-							["overkill"] = 105,
-							["amount"] = 4667,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 729,
-								},
-							},
-							["amount"] = 729,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 165,
-									["amount"] = 611,
-								},
-							},
-							["overkill"] = 165,
-							["amount"] = 611,
-						},
-					},
-					["totaldamage"] = 2413,
-					["name"] = "Shattered Hand Warhound",
-					["totaldamagetaken"] = 17435,
-					["flag"] = 2632,
-					["damage"] = 2413,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 163,
-								},
-							},
-							["amount"] = 163,
-						},
-					},
-					["damagetaken"] = 20997,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7856,
-								},
-							},
-							["amount"] = 7856,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 328,
-									["amount"] = 8585,
-								},
-							},
-							["overkill"] = 328,
-							["amount"] = 8585,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 85,
-									["amount"] = 4556,
-								},
-							},
-							["overkill"] = 85,
-							["amount"] = 4556,
-						},
-					},
-					["name"] = "Bleeding Hollow Darkcaster",
-					["totaldamage"] = 163,
-					["totaldamagetaken"] = 20997,
-					["id"] = "0xF130004375000051",
-					["damage"] = 163,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1409,
-								},
-							},
-							["amount"] = 1409,
-						},
-						[16856] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 389,
-								},
-							},
-							["amount"] = 389,
-						},
-					},
-					["damagetaken"] = 29714,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4426,
-								},
-							},
-							["amount"] = 4426,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 530,
-									["amount"] = 9222,
-								},
-							},
-							["overkill"] = 530,
-							["amount"] = 9222,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4055,
-								},
-							},
-							["amount"] = 4055,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 409,
-								},
-							},
-							["amount"] = 409,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 111,
-									["amount"] = 10095,
-								},
-							},
-							["overkill"] = 111,
-							["amount"] = 10095,
-						},
-						[42233] = {
-							["school"] = 8,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 1507,
-								},
-							},
-							["amount"] = 1507,
-						},
-					},
-					["name"] = "Bonechewer Destroyer",
-					["totaldamage"] = 1798,
-					["totaldamagetaken"] = 29714,
-					["id"] = "0xF13000437700005D",
-					["damage"] = 1798,
-				}, -- [4]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 2002,
-								},
-							},
-							["amount"] = 2002,
-						},
-						[30614] = {
-							["school"] = 1,
-							["targets"] = {
-								["Onitora"] = {
-									["amount"] = 920,
-								},
-							},
-							["amount"] = 920,
-						},
-					},
-					["damagetaken"] = 47887,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 540,
-									["amount"] = 4652,
-								},
-							},
-							["overkill"] = 540,
-							["amount"] = 4652,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 14933,
-								},
-							},
-							["amount"] = 14933,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 549,
-									["amount"] = 6135,
-								},
-							},
-							["overkill"] = 549,
-							["amount"] = 6135,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 841,
-								},
-							},
-							["amount"] = 841,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 525,
-									["amount"] = 17527,
-								},
-							},
-							["overkill"] = 525,
-							["amount"] = 17527,
-						},
-						[42233] = {
-							["school"] = 8,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 3799,
-								},
-							},
-							["amount"] = 3799,
-						},
-					},
-					["name"] = "Bleeding Hollow Archer",
-					["totaldamage"] = 2922,
-					["totaldamagetaken"] = 47887,
-					["id"] = "0xF130004376000059",
-					["damage"] = 2922,
-				}, -- [5]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 797,
-								},
-							},
-							["amount"] = 797,
-						},
-					},
-					["damagetaken"] = 15017,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 826,
-									["amount"] = 3296,
-								},
-							},
-							["overkill"] = 826,
-							["amount"] = 3296,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3145,
-								},
-							},
-							["amount"] = 3145,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3026,
-								},
-							},
-							["amount"] = 3026,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 351,
-								},
-							},
-							["amount"] = 351,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4334,
-								},
-							},
-							["amount"] = 4334,
-						},
-						[42233] = {
-							["school"] = 8,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 865,
-								},
-							},
-							["amount"] = 865,
-						},
-					},
-					["name"] = "Bonechewer Ravener",
-					["totaldamage"] = 797,
-					["totaldamagetaken"] = 15017,
-					["id"] = "0xF13000437000004B",
-					["damage"] = 797,
-				}, -- [6]
 			},
-			["ccdone"] = 2,
-			["totaldamage"] = 146458,
-			["time"] = 35,
-			["damage"] = 146458,
-			["totaldamagetaken"] = 8330,
-			["etotaldamagetaken"] = 146458,
-			["last_time"] = 4639.569,
+			["totaldamage"] = 15907,
+			["time"] = 6,
+			["overheal"] = 5163,
+			["totaldamagetaken"] = 249,
+			["etotaldamagetaken"] = 15907,
+			["last_time"] = 23723.736,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[45524] = {
 							["count"] = 1,
 							["targets"] = {
-								["Bonechewer Hungerer"] = 1,
-							},
-						},
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = 1,
+								["Unbound Seer"] = 1,
 							},
 						},
 					},
-					["last"] = 4639.568,
-					["flag"] = 1297,
+					["last"] = 23721.623,
+					["flag"] = 4369,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["uptime"] = 19,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Shattered Hand Warhound"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[71560] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 17,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 14,
-							["school"] = 32,
-							["refresh"] = 9,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 11,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 12,
-								},
-								["Bonechewer Ravener"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-								["Bleeding Hollow Archer"] = {
-									["count"] = 4,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 4,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 26,
-								},
-							},
-							["uptime"] = 33,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["uptime"] = 9,
-									["count"] = 4,
-								},
-								["Bonechewer Ravener"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Shattered Hand Warhound"] = {
-									["uptime"] = 1,
-									["count"] = 2,
-								},
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 9,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 14,
-							["school"] = 16,
-							["refresh"] = 8,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 11,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 12,
-								},
-								["Bonechewer Ravener"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-								["Bleeding Hollow Archer"] = {
-									["count"] = 4,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 4,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 26,
-								},
-							},
-							["uptime"] = 33,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
 						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 14,
+							["count"] = 1,
 							["school"] = 32,
-							["refresh"] = 5,
 							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 7,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 12,
-								},
-								["Bonechewer Ravener"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-								["Bleeding Hollow Archer"] = {
-									["count"] = 4,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-								["Shattered Hand Warhound"] = {
-									["uptime"] = 10,
-									["count"] = 4,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 23,
-								},
-							},
-							["uptime"] = 29,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[45524] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
+								["Unbound Seer"] = {
 									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 2,
 						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 33.54999999999999,
-					["totaldamagetaken"] = 7410,
-					["damage"] = 140287,
-					["damagespells"] = {
-						["Death and Decay"] = {
-							["criticalmax"] = 1278,
-							["hitmin"] = 491,
-							["criticalamount"] = 13831,
-							["id"] = 52212,
-							["criticalmin"] = 1027,
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
 							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 111,
-									["amount"] = 10095,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 4334,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 165,
-									["amount"] = 611,
-								},
-								["Bleeding Hollow Archer"] = {
-									["overkill"] = 525,
-									["amount"] = 17527,
+								["Unbound Seer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
 								},
 							},
-							["overkill"] = 801,
-							["critical"] = 12,
-							["casts"] = 1,
-							["count"] = 45,
-							["hit"] = 33,
-							["school"] = 32,
-							["hitmax"] = 612,
-							["amount"] = 32567,
-							["hitamount"] = 18736,
+							["uptime"] = 3,
 						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 6,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 3,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 4,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 5,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+					},
+					["time"] = 3.7,
+					["totaldamagetaken"] = 249,
+					["damage"] = 15907,
+					["damagespells"] = {
 						["Melee"] = {
-							["criticalamount"] = 5609,
+							["hitmin"] = 1995,
 							["id"] = 6603,
 							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 5609,
+								["Unbound Seer"] = {
+									["overkill"] = 1869,
+									["amount"] = 4459,
 								},
 							},
-							["criticalmax"] = 5609,
-							["critical"] = 1,
-							["amount"] = 5609,
+							["overkill"] = 1869,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 1,
-							["criticalmin"] = 5609,
-							["count"] = 1,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 348,
-							["id"] = 71904,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 841,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 351,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 729,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 409,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 421,
-							["amount"] = 2330,
-							["hitamount"] = 2330,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 840,
-							["id"] = 55078,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 707,
-									["amount"] = 1682,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 4055,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 3026,
-								},
-								["Bleeding Hollow Archer"] = {
-									["overkill"] = 549,
-									["amount"] = 6135,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 105,
-									["amount"] = 4667,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 7856,
-								},
-							},
-							["overkill"] = 1361,
-							["count"] = 28,
-							["hit"] = 28,
-							["school"] = 32,
-							["hitmax"] = 1167,
-							["amount"] = 27421,
-							["hitamount"] = 27421,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 4839,
-							["id"] = 49921,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 4839,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4839,
-							["school"] = 1,
-							["criticalmin"] = 4839,
-							["criticalmax"] = 4839,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 831,
-							["id"] = 55095,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 2507,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 4426,
-								},
-								["Bonechewer Ravener"] = {
-									["overkill"] = 826,
-									["amount"] = 3296,
-								},
-								["Bleeding Hollow Archer"] = {
-									["overkill"] = 540,
-									["amount"] = 4652,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 213,
-									["amount"] = 5116,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 328,
-									["amount"] = 8585,
-								},
-							},
-							["overkill"] = 1907,
-							["count"] = 27,
-							["hit"] = 27,
-							["school"] = 16,
-							["hitmax"] = 1165,
-							["amount"] = 28582,
-							["hitamount"] = 28582,
+							["hitmax"] = 2464,
+							["amount"] = 4459,
+							["hitamount"] = 4459,
 						},
 						["Wandering Plague"] = {
-							["hitmin"] = 691,
+							["hitmin"] = 766,
 							["id"] = 50526,
 							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 771,
-								},
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 530,
-									["amount"] = 9222,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 3145,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 14933,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 384,
-									["amount"] = 6312,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 85,
-									["amount"] = 4556,
+								["Unbound Seer"] = {
+									["amount"] = 766,
 								},
 							},
-							["overkill"] = 999,
 							["casts"] = 1,
-							["count"] = 42,
-							["hit"] = 42,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 32,
-							["hitmax"] = 1081,
-							["amount"] = 38939,
-							["hitamount"] = 38939,
+							["hitmax"] = 766,
+							["amount"] = 766,
+							["hitamount"] = 766,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 4298,
+							["id"] = 47632,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 3703,
+									["amount"] = 4298,
+								},
+							},
+							["overkill"] = 3703,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 4298,
+							["amount"] = 4298,
+							["hitamount"] = 4298,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 3809,
+							["id"] = 49921,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 3809,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 3809,
+							["school"] = 1,
+							["criticalmin"] = 3809,
+							["criticalmax"] = 3809,
+							["count"] = 1,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 1750,
+							["id"] = 49924,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 1750,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1750,
+							["amount"] = 1750,
+							["hitamount"] = 1750,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 825,
+							["id"] = 55095,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 825,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 825,
+							["amount"] = 825,
+							["hitamount"] = 825,
 						},
 					},
-					["damagetaken"] = 7410,
+					["overkill"] = 5572,
+					["damagetaken"] = 249,
 					["id"] = "0x070000000000D01B",
 					["spec"] = 252,
 					["healspells"] = {
-						[34299] = {
-							["overheal"] = 875,
+						[45470] = {
+							["overheal"] = 5163,
+							["count"] = 1,
+							["amount"] = 126,
+							["school"] = 1,
+							["max"] = 126,
 							["targets"] = {
 								["Urgash"] = {
-									["overheal"] = 875,
-									["amount"] = 325,
+									["overheal"] = 5163,
+									["amount"] = 126,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 325,
-							["school"] = 1,
-							["max"] = 325,
-							["ishot"] = true,
-							["min"] = 325,
+							["min"] = 126,
 						},
 					},
 					["damagetakenspells"] = {
-						["Scorch"] = {
-							["sources"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 0,
-							["school"] = 4,
-							["MISS"] = 10,
-							["id"] = 36807,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 389,
-							["id"] = 16856,
-							["sources"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 389,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 389,
-							["amount"] = 389,
-							["hitamount"] = 389,
-						},
 						["Melee"] = {
-							["DODGE"] = 5,
-							["hitmin"] = 23,
-							["criticalmin"] = 338,
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 237,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 1409,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 797,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 2002,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 333,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 163,
-								},
-							},
-							["amount"] = 4941,
-							["MISS"] = 8,
-							["criticalamount"] = 338,
+							["hitmin"] = 123,
 							["id"] = 6603,
-							["criticalmax"] = 338,
-							["critical"] = 1,
-							["blocked"] = 25,
-							["PARRY"] = 5,
-							["hitmax"] = 192,
-							["hit"] = 51,
-							["school"] = 1,
-							["BLOCK"] = 1,
-							["count"] = 71,
-							["hitamount"] = 4603,
-						},
-						["Carnivorous Bite (DoT)"] = {
-							["hitmin"] = 160,
-							["id"] = 30639,
 							["sources"] = {
-								["Shattered Hand Warhound"] = {
-									["amount"] = 2080,
+								["Unbound Seer"] = {
+									["amount"] = 249,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 8,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 320,
-							["amount"] = 2080,
-							["hitamount"] = 2080,
+							["hitmax"] = 126,
+							["amount"] = 249,
+							["hitamount"] = 249,
 						},
 					},
-					["heal"] = 325,
+					["overheal"] = 5163,
+					["heal"] = 126,
 					["name"] = "Urgash",
-					["ccdone"] = 2,
-					["overkill"] = 5068,
-					["overheal"] = 875,
-					["totaldamage"] = 140287,
+					["ccdone"] = 1,
+					["totaldamage"] = 15907,
+					["interrupt"] = 1,
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[38204] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
 				}, -- [1]
-				{
-					["last"] = 4638.793,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[57330] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[5215] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[17402] = {
-							["type"] = "BUFF",
-							["count"] = 8,
-							["school"] = 8,
-							["targets"] = {
-								["Bonechewer Ravener"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Bleeding Hollow Archer"] = {
-									["uptime"] = 8,
-									["count"] = 4,
-								},
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 8,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 9.630000000000001,
-					["totaldamagetaken"] = 920,
-					["damage"] = 6171,
-					["damagespells"] = {
-						["Hurricane"] = {
-							["hitmin"] = 191,
-							["criticalamount"] = 1258,
-							["id"] = 42233,
-							["criticalmin"] = 286,
-							["targets"] = {
-								["Bonechewer Ravener"] = {
-									["amount"] = 865,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 1507,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 3799,
-								},
-							},
-							["criticalmax"] = 324,
-							["critical"] = 4,
-							["casts"] = 1,
-							["count"] = 28,
-							["hit"] = 24,
-							["school"] = 8,
-							["hitmax"] = 217,
-							["amount"] = 6171,
-							["hitamount"] = 4913,
-						},
-					},
-					["damagetaken"] = 920,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["damagetakenspells"] = {
-						["Aimed Shot"] = {
-							["hitmin"] = 920,
-							["id"] = 30614,
-							["sources"] = {
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 920,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 920,
-							["amount"] = 920,
-							["hitamount"] = 920,
-						},
-					},
-					["name"] = "Onitora",
-					["totaldamage"] = 6171,
-				}, -- [2]
 			},
-			["type"] = "party",
-			["damagetaken"] = 8330,
-			["overheal"] = 875,
-			["starttime"] = 1699126137,
-			["etotaldamage"] = 8330,
-			["overkill"] = 5068,
-			["edamagetaken"] = 146458,
-			["heal"] = 325,
-			["name"] = "Bonechewer Hungerer (11)",
-			["mobname"] = "Bonechewer Hungerer",
-			["edamage"] = 8330,
-			["last_action"] = 1699126170,
-			["endtime"] = 1699126172,
-		}, -- [6]
+			["type"] = "none",
+			["damagetaken"] = 249,
+			["interrupt"] = 1,
+			["starttime"] = 1699202635,
+			["etotaldamage"] = 249,
+			["overkill"] = 5572,
+			["edamagetaken"] = 15907,
+			["heal"] = 126,
+			["name"] = "Unbound Seer (5)",
+			["mobname"] = "Unbound Seer",
+			["ccdone"] = 1,
+			["edamage"] = 249,
+			["last_action"] = 1699202641,
+			["endtime"] = 1699202641,
+		}, -- [4]
 		{
-			["mana"] = 556,
-			["damage"] = 94961,
 			["enemies"] = {
 				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 459,
-								},
-							},
-							["amount"] = 459,
-						},
-					},
-					["damagetaken"] = 48506,
-					["id"] = "0xF13000444600003A",
-					["class"] = "MONSTER",
+					["id"] = "0x07000000009D7074",
+					["name"] = "Aliyolmeh",
+					["totaldamagetaken"] = 19819,
+					["flag"] = 66888,
+					["class"] = "HUNTER",
+					["damagetaken"] = 19819,
 					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
+						[55078] = {
+							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 544,
-									["amount"] = 5224,
+									["overkill"] = 666,
+									["amount"] = 825,
 								},
 							},
-							["overkill"] = 544,
-							["amount"] = 5224,
+							["overkill"] = 666,
+							["amount"] = 825,
 						},
 						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 656,
-									["amount"] = 10554,
+									["amount"] = 1491,
 								},
 							},
-							["overkill"] = 656,
-							["amount"] = 10554,
+							["amount"] = 1491,
 						},
-						[33982] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["overkill"] = 412,
-									["amount"] = 1868,
-								},
-							},
-							["overkill"] = 412,
-							["amount"] = 1868,
-						},
-						[52212] = {
+						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 24142,
+									["amount"] = 3412,
 								},
 							},
-							["amount"] = 24142,
+							["amount"] = 3412,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 6088,
-									["amount"] = 6418,
-								},
-								["Onitora"] = {
-									["amount"] = 300,
-								},
-							},
-							["overkill"] = 6088,
-							["amount"] = 6718,
-						},
-					},
-					["totaldamage"] = 459,
-					["name"] = "Bleeding Hollow Scryer",
-					["totaldamagetaken"] = 48506,
-					["flag"] = 2632,
-					["damage"] = 459,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1076,
-								},
-							},
-							["amount"] = 1076,
-						},
-					},
-					["damagetaken"] = 17031,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1740,
-								},
-							},
-							["amount"] = 1740,
-						},
-						[50526] = {
+						[70890] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 473,
-									["amount"] = 2639,
+									["amount"] = 2152,
 								},
 							},
-							["overkill"] = 473,
-							["amount"] = 2639,
+							["amount"] = 2152,
 						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2394,
-								},
-							},
-							["amount"] = 2394,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5413,
-								},
-							},
-							["amount"] = 5413,
-						},
-						[52212] = {
+						[50536] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4845,
+									["amount"] = 34,
 								},
 							},
-							["amount"] = 4845,
-						},
-					},
-					["name"] = "Bonechewer Ripper",
-					["totaldamage"] = 1076,
-					["totaldamagetaken"] = 17031,
-					["id"] = "0xF130004381000033",
-					["damage"] = 1076,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 188,
-								},
-							},
-							["amount"] = 188,
-						},
-						[16856] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 350,
-								},
-							},
-							["amount"] = 350,
-						},
-					},
-					["damagetaken"] = 29424,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3113,
-								},
-							},
-							["amount"] = 3113,
-						},
-						[33982] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 429,
-								},
-							},
-							["amount"] = 429,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 884,
-								},
-							},
-							["amount"] = 884,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3915,
-								},
-							},
-							["amount"] = 3915,
+							["amount"] = 34,
 						},
 						[55271] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 7394,
+									["amount"] = 4725,
 								},
 							},
-							["amount"] = 7394,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 906,
-									["amount"] = 4538,
-								},
-							},
-							["overkill"] = 906,
-							["amount"] = 4538,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["overkill"] = 136,
-									["amount"] = 282,
-								},
-								["Urgash"] = {
-									["amount"] = 8869,
-								},
-							},
-							["overkill"] = 136,
-							["amount"] = 9151,
-						},
-					},
-					["name"] = "Bonechewer Destroyer",
-					["totaldamage"] = 538,
-					["totaldamagetaken"] = 29424,
-					["id"] = "0xF130004377000028",
-					["damage"] = 538,
-				}, -- [3]
-			},
-			["totaldamage"] = 94961,
-			["time"] = 14,
-			["totaldamagetaken"] = 2073,
-			["etotaldamage"] = 2073,
-			["last_time"] = 4596.634,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bonechewer Destroyer"] = 1,
-							},
-						},
-					},
-					["last"] = 4595.978,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bonechewer Ripper"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 7,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["uptime"] = 6,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[71560] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bonechewer Ripper"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 7,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["uptime"] = 6,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 5,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 9,
-						},
-					},
-					["time"] = 11.99,
-					["totaldamagetaken"] = 2073,
-					["damage"] = 92082,
-					["damagespells"] = {
-						["Death Strike"] = {
-							["criticalamount"] = 4538,
-							["id"] = 49924,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 906,
-									["amount"] = 4538,
-								},
-							},
-							["overkill"] = 906,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4538,
-							["school"] = 1,
-							["criticalmin"] = 4538,
-							["criticalmax"] = 4538,
-							["count"] = 1,
-						},
-						["Scourge Strike"] = {
-							["criticalamount"] = 7394,
-							["id"] = 55271,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 7394,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 7394,
-							["school"] = 1,
-							["criticalmin"] = 7394,
-							["criticalmax"] = 7394,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["hitmin"] = 3007,
-							["criticalamount"] = 17693,
-							["id"] = 6603,
-							["hitmax"] = 3007,
-							["targets"] = {
-								["Bleeding Hollow Scryer"] = {
-									["overkill"] = 6088,
-									["amount"] = 6418,
-								},
-								["Bonechewer Ripper"] = {
-									["amount"] = 5413,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 8869,
-								},
-							},
-							["overkill"] = 6088,
-							["count"] = 4,
-							["criticalmax"] = 6418,
-							["critical"] = 3,
-							["amount"] = 20700,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 5413,
-							["hitamount"] = 3007,
-						},
-						["Death and Decay"] = {
-							["hitmin"] = 484,
-							["criticalamount"] = 13190,
-							["id"] = 52212,
-							["criticalmin"] = 1011,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 3915,
-								},
-								["Bonechewer Ripper"] = {
-									["amount"] = 4845,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["amount"] = 24142,
-								},
-							},
-							["criticalmax"] = 1143,
-							["critical"] = 12,
-							["casts"] = 1,
-							["count"] = 50,
-							["hit"] = 38,
-							["school"] = 32,
-							["hitmax"] = 547,
-							["amount"] = 32902,
-							["hitamount"] = 19712,
-						},
-						["Icy Touch"] = {
-							["criticalamount"] = 2394,
-							["id"] = 49909,
-							["targets"] = {
-								["Bonechewer Ripper"] = {
-									["amount"] = 2394,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2394,
-							["school"] = 16,
-							["criticalmin"] = 2394,
-							["criticalmax"] = 2394,
-							["count"] = 1,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 426,
-							["id"] = 71904,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 884,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 458,
-							["amount"] = 884,
-							["hitamount"] = 884,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 870,
-							["id"] = 55095,
-							["targets"] = {
-								["Bonechewer Ripper"] = {
-									["amount"] = 1740,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["overkill"] = 544,
-									["amount"] = 5224,
-								},
-							},
-							["overkill"] = 544,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 16,
-							["hitmax"] = 871,
-							["amount"] = 6964,
-							["hitamount"] = 6964,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 778,
-							["id"] = 50526,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 3113,
-								},
-								["Bonechewer Ripper"] = {
-									["overkill"] = 473,
-									["amount"] = 2639,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["overkill"] = 656,
-									["amount"] = 10554,
-								},
-							},
-							["overkill"] = 1129,
-							["casts"] = 1,
-							["count"] = 19,
-							["hit"] = 19,
-							["school"] = 32,
-							["hitmax"] = 881,
-							["amount"] = 16306,
-							["hitamount"] = 16306,
-						},
-					},
-					["damagetaken"] = 2073,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 1577,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 1577,
-									["amount"] = 823,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 823,
-							["school"] = 1,
-							["max"] = 705,
-							["ishot"] = true,
-							["min"] = 118,
-						},
-						[53365] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 900,
-							["school"] = 1,
-							["max"] = 900,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 900,
-								},
-							},
-							["min"] = 900,
-						},
-					},
-					["damagetakenspells"] = {
-						["Mortal Strike"] = {
-							["hitmin"] = 350,
-							["id"] = 16856,
-							["sources"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 350,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 350,
-							["amount"] = 350,
-							["hitamount"] = 350,
-						},
-						["Fear"] = {
-							["sources"] = {
-								["Bleeding Hollow Scryer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 2,
-							["id"] = 30615,
-						},
-						["Melee"] = {
-							["DODGE"] = 5,
-							["hitmin"] = 81,
-							["id"] = 6603,
-							["PARRY"] = 2,
-							["amount"] = 1723,
-							["sources"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 188,
-								},
-								["Bonechewer Ripper"] = {
-									["amount"] = 1076,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["amount"] = 459,
-								},
-							},
-							["count"] = 18,
-							["hit"] = 10,
-							["school"] = 1,
-							["hitmax"] = 287,
-							["MISS"] = 1,
-							["hitamount"] = 1723,
-						},
-						["Shadow Bolt"] = {
-							["sources"] = {
-								["Bleeding Hollow Scryer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 6,
-							["id"] = 12471,
-						},
-					},
-					["heal"] = 1723,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 8667,
-					["overheal"] = 1577,
-					["totaldamage"] = 92082,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 4596.523,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[58181] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bleeding Hollow Scryer"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[33982] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bleeding Hollow Scryer"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["time"] = 9.170000000000002,
-					["damage"] = 2879,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 100,
-							["criticalamount"] = 380,
-							["id"] = 6603,
-							["criticalmin"] = 182,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 136,
-									["amount"] = 282,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["amount"] = 300,
-								},
-							},
-							["overkill"] = 136,
-							["critical"] = 2,
-							["criticalmax"] = 198,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 102,
-							["amount"] = 582,
-							["hitamount"] = 202,
-						},
-						["Mangle (Cat)"] = {
-							["hitmax"] = 429,
-							["hitmin"] = 429,
-							["criticalamount"] = 1868,
-							["id"] = 33982,
-							["count"] = 3,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 429,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["overkill"] = 412,
-									["amount"] = 1868,
-								},
-							},
-							["overkill"] = 412,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 2297,
-							["school"] = 1,
-							["criticalmin"] = 928,
-							["criticalmax"] = 940,
-							["hitamount"] = 429,
-						},
-					},
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Onitora"] = {
-									["overheal"] = 0,
-									["amount"] = 374,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 374,
-							["school"] = 1,
-							["max"] = 187,
-							["ishot"] = true,
-							["min"] = 187,
-						},
-					},
-					["overkill"] = 548,
-					["overheal"] = 0,
-					["heal"] = 374,
-					["name"] = "Onitora",
-					["manaspells"] = {
-						[68285] = 556,
-					},
-					["mana"] = 556,
-					["totaldamage"] = 2879,
-					["role"] = "TANK",
-				}, -- [2]
-			},
-			["type"] = "party",
-			["damagetaken"] = 2073,
-			["ccdone"] = 1,
-			["overheal"] = 1577,
-			["etotaldamagetaken"] = 94961,
-			["overkill"] = 9215,
-			["edamagetaken"] = 94961,
-			["heal"] = 2097,
-			["name"] = "Bleeding Hollow Scryer",
-			["mobname"] = "Bleeding Hollow Scryer",
-			["starttime"] = 1699126115,
-			["edamage"] = 2073,
-			["last_action"] = 1699126127,
-			["endtime"] = 1699126129,
-		}, -- [7]
-		{
-			["mana"] = 278,
-			["ccdone"] = 1,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 789,
-								},
-							},
-							["amount"] = 789,
-						},
-					},
-					["damagetaken"] = 30563,
-					["id"] = "0xF13000436B000006",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1720,
-								},
-							},
-							["amount"] = 1720,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 789,
-								},
-							},
-							["amount"] = 789,
-						},
-						[33982] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 2048,
-								},
-							},
-							["amount"] = 2048,
+							["amount"] = 4725,
 						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1700,
+									["amount"] = 2395,
 								},
 							},
-							["amount"] = 1700,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 370,
-									["amount"] = 1003,
-								},
-							},
-							["overkill"] = 370,
-							["amount"] = 1003,
+							["amount"] = 2395,
 						},
 						[49921] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1946,
+									["amount"] = 1146,
 								},
 							},
-							["amount"] = 1946,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4536,
-								},
-							},
-							["amount"] = 4536,
+							["amount"] = 1146,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 319,
-								},
 								["Urgash"] = {
-									["amount"] = 9679,
+									["amount"] = 3639,
 								},
 							},
-							["amount"] = 9998,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1301,
-									["amount"] = 6823,
-								},
-							},
-							["overkill"] = 1301,
-							["amount"] = 6823,
+							["amount"] = 3639,
 						},
 					},
-					["totaldamage"] = 789,
-					["name"] = "Bonechewer Hungerer",
-					["totaldamagetaken"] = 30563,
-					["flag"] = 68168,
-					["damage"] = 789,
 				}, -- [1]
 			},
-			["totaldamage"] = 30563,
-			["time"] = 10,
-			["damage"] = 30563,
-			["totaldamagetaken"] = 789,
-			["etotaldamage"] = 789,
-			["last_time"] = 4570.27,
+			["totaldamage"] = 19819,
+			["time"] = 18,
+			["etotaldamagetaken"] = 19819,
+			["last_time"] = 23680.961,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[45524] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bonechewer Hungerer"] = 1,
-							},
-						},
-					},
-					["last"] = 4570.133,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55078] = {
-							["type"] = "DEBUFF",
 							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 1,
 							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[45524] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 4,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 10,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 10,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 7.93,
-					["totaldamagetaken"] = 789,
-					["damage"] = 28196,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 2444,
-							["criticalamount"] = 5899,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 8343,
-								},
-							},
-							["criticalmin"] = 5899,
-							["critical"] = 1,
-							["criticalmax"] = 5899,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2444,
-							["amount"] = 8343,
-							["hitamount"] = 2444,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 3164,
-							["id"] = 47632,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 1301,
-									["amount"] = 6823,
-								},
-							},
-							["overkill"] = 1301,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 3659,
-							["amount"] = 6823,
-							["hitamount"] = 6823,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 789,
-							["id"] = 50526,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 789,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 789,
-							["amount"] = 789,
-							["hitamount"] = 789,
-						},
-						["Melee (Skulldrinker)"] = {
-							["criticalamount"] = 1336,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1336,
-								},
-							},
-							["criticalmax"] = 1336,
-							["critical"] = 1,
-							["amount"] = 1336,
-							["school"] = 1,
-							["criticalmin"] = 1336,
-							["count"] = 1,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 860,
-							["id"] = 55078,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1720,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 860,
-							["amount"] = 1720,
-							["hitamount"] = 1720,
-						},
-						["Claw (Skulldrinker)"] = {
-							["hitmin"] = 1003,
-							["id"] = 47468,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 370,
-									["amount"] = 1003,
-								},
-							},
-							["overkill"] = 370,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1003,
-							["amount"] = 1003,
-							["hitamount"] = 1003,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1946,
-							["id"] = 49921,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1946,
-								},
-							},
-							["blocked"] = 30,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1946,
-							["amount"] = 1946,
-							["hitamount"] = 1946,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 850,
-							["id"] = 55095,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1700,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 850,
-							["amount"] = 1700,
-							["hitamount"] = 1700,
-						},
-						["Death Strike"] = {
-							["criticalamount"] = 4536,
-							["id"] = 49924,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 4536,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4536,
-							["school"] = 1,
-							["criticalmin"] = 4536,
-							["criticalmax"] = 4536,
-							["count"] = 1,
-						},
-					},
-					["damagetaken"] = 789,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[53365] = {
-							["overheal"] = 796,
-							["count"] = 1,
-							["amount"] = 104,
-							["school"] = 1,
-							["max"] = 104,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 796,
-									["amount"] = 104,
-								},
-							},
-							["min"] = 104,
-						},
-						[34299] = {
-							["overheal"] = 2190,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Skulldrinker"] = {
-									["overheal"] = 990,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 1200,
-									["amount"] = 0,
-								},
-							},
-						},
-						[45470] = {
-							["overheal"] = 521,
-							["count"] = 1,
-							["amount"] = 3982,
-							["school"] = 1,
-							["max"] = 3982,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 521,
-									["amount"] = 3982,
-								},
-							},
-							["min"] = 3982,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 104,
-							["id"] = 6603,
-							["amount"] = 789,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 789,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 125,
-							["MISS"] = 1,
-							["hitamount"] = 789,
-						},
-						["Demoralizing Shout"] = {
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 16244,
-						},
-					},
-					["heal"] = 4086,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 1671,
-					["overheal"] = 3507,
-					["totaldamage"] = 28196,
-				}, -- [1]
-				{
-					["last"] = 4569.648,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[33982] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[58181] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["time"] = 6.94,
-					["damage"] = 2367,
-					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 73,
-							["criticalamount"] = 168,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 319,
-								},
-							},
-							["hitmax"] = 78,
-							["count"] = 4,
-							["criticalmax"] = 168,
-							["critical"] = 1,
-							["amount"] = 319,
-							["school"] = 1,
-							["hit"] = 2,
-							["criticalmin"] = 168,
-							["hitamount"] = 151,
-						},
-						["Mangle (Cat)"] = {
-							["hitmin"] = 396,
-							["criticalamount"] = 1652,
-							["id"] = 33982,
-							["hitmax"] = 396,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 2048,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 2048,
-							["school"] = 1,
-							["criticalmin"] = 816,
-							["criticalmax"] = 836,
-							["hitamount"] = 396,
-						},
-					},
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Onitora"] = {
-									["overheal"] = 0,
-									["amount"] = 187,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 187,
-							["school"] = 1,
-							["max"] = 187,
-							["ishot"] = true,
-							["min"] = 187,
-						},
-					},
-					["overheal"] = 0,
-					["heal"] = 187,
-					["name"] = "Onitora",
-					["manaspells"] = {
-						[68285] = 278,
-					},
-					["mana"] = 278,
-					["totaldamage"] = 2367,
-					["role"] = "TANK",
-				}, -- [2]
-			},
-			["type"] = "party",
-			["damagetaken"] = 789,
-			["overheal"] = 3507,
-			["starttime"] = 1699126093,
-			["etotaldamagetaken"] = 30563,
-			["overkill"] = 1671,
-			["edamagetaken"] = 30563,
-			["heal"] = 4273,
-			["name"] = "Bonechewer Hungerer (10)",
-			["mobname"] = "Bonechewer Hungerer",
-			["edamage"] = 789,
-			["last_action"] = 1699126101,
-			["endtime"] = 1699126103,
-		}, -- [8]
-		{
-			["mana"] = 278,
-			["starttime"] = 1699126073,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 132,
-								},
-							},
-							["amount"] = 132,
-						},
-					},
-					["damagetaken"] = 9653,
-					["id"] = "0xF130004380000014",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1369,
-									["amount"] = 6659,
-								},
-							},
-							["overkill"] = 1369,
-							["amount"] = 6659,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1285,
-								},
-							},
-							["amount"] = 1285,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 860,
-								},
-							},
-							["amount"] = 860,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 849,
-								},
-							},
-							["amount"] = 849,
-						},
-					},
-					["totaldamage"] = 132,
-					["name"] = "Shattered Hand Warhound",
-					["totaldamagetaken"] = 9653,
-					["flag"] = 2632,
-					["damage"] = 132,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 456,
-								},
-							},
-							["amount"] = 456,
-						},
-					},
-					["damagetaken"] = 24504,
-					["id"] = "0xF130004376000026",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3841,
-								},
-							},
-							["amount"] = 3841,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1946,
-									["amount"] = 2530,
-								},
-							},
-							["overkill"] = 1946,
-							["amount"] = 2530,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3396,
-								},
-							},
-							["amount"] = 3396,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1768,
-								},
-							},
-							["amount"] = 1768,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 166,
-									["amount"] = 4082,
-								},
-							},
-							["overkill"] = 166,
-							["amount"] = 4082,
-						},
-						[31018] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 830,
-								},
-							},
-							["amount"] = 830,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3444,
-								},
-							},
-							["amount"] = 3444,
-						},
-						[33982] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 872,
-								},
-							},
-							["amount"] = 872,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3229,
-								},
-								["Onitora"] = {
-									["amount"] = 512,
-								},
-							},
-							["amount"] = 3741,
-						},
-					},
-					["totaldamage"] = 456,
-					["name"] = "Bleeding Hollow Archer",
-					["totaldamagetaken"] = 24504,
-					["flag"] = 2632,
-					["damage"] = 456,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[14032] = {
-							["school"] = 32,
-							["targets"] = {
-								["Onitora"] = {
-									["amount"] = 366,
-								},
-							},
-							["amount"] = 366,
-						},
-					},
-					["name"] = "Hellfire Watcher",
-					["totaldamage"] = 366,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF13000439D000035",
-					["damage"] = 366,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 541,
-								},
-							},
-							["amount"] = 541,
-						},
-						[16856] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 392,
-								},
-							},
-							["amount"] = 392,
-						},
-					},
-					["damagetaken"] = 14315,
-					["id"] = "0xF130004377000029",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6000,
-								},
-							},
-							["amount"] = 6000,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 124,
-									["amount"] = 1721,
-								},
-							},
-							["overkill"] = 124,
-							["amount"] = 1721,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4897,
-								},
-							},
-							["amount"] = 4897,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1697,
-								},
-							},
-							["amount"] = 1697,
-						},
-					},
-					["totaldamage"] = 933,
-					["name"] = "Bonechewer Destroyer",
-					["totaldamagetaken"] = 14315,
-					["flag"] = 2632,
-					["damage"] = 933,
-				}, -- [4]
-			},
-			["totaldamage"] = 48472,
-			["time"] = 13,
-			["overheal"] = 990,
-			["totaldamagetaken"] = 1887,
-			["etotaldamage"] = 1887,
-			["last_time"] = 4554.098,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[45524] = {
-							["count"] = 1,
-							["targets"] = {
-								["Shattered Hand Warhound"] = 1,
+								["Aliyolmeh"] = 2,
 							},
 						},
 					},
-					["last"] = 4553.964,
-					["flag"] = 1297,
+					["last"] = 23674.758,
+					["flag"] = 4369,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[55078] = {
@@ -6489,3005 +1832,320 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["school"] = 32,
 							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 1,
+								["Aliyolmeh"] = {
+									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 1,
+							["uptime"] = 3,
 						},
 						[45524] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 16,
-							["targets"] = {
-								["Shattered Hand Warhound"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 4,
-								},
-								["Bleeding Hollow Archer"] = {
-									["uptime"] = 9,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 5,
-						},
-						[48707] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Bleeding Hollow Archer"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 13,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 8,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 16,
 							["refresh"] = 1,
 							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 4,
-								},
-								["Bleeding Hollow Archer"] = {
-									["uptime"] = 9,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 10,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 11.09,
-					["totaldamagetaken"] = 1521,
-					["damage"] = 46258,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 2640,
-							["criticalamount"] = 11395,
-							["id"] = 6603,
-							["hitmax"] = 2640,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 2640,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 1253,
-									["amount"] = 5395,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 6000,
-								},
-							},
-							["overkill"] = 1253,
-							["count"] = 3,
-							["criticalmax"] = 6000,
-							["critical"] = 2,
-							["amount"] = 14035,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 5395,
-							["hitamount"] = 2640,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 2530,
-							["id"] = 47632,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["overkill"] = 1946,
-									["amount"] = 2530,
-								},
-							},
-							["overkill"] = 1946,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2530,
-							["amount"] = 2530,
-							["hitamount"] = 2530,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 860,
-							["id"] = 50526,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 124,
-									["amount"] = 1721,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 860,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 3444,
-								},
-							},
-							["overkill"] = 124,
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["hitmax"] = 861,
-							["amount"] = 6025,
-							["hitamount"] = 6025,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 1220,
-							["criticalamount"] = 2621,
-							["id"] = 49941,
-							["criticalmin"] = 2621,
-							["targets"] = {
-								["Shattered Hand Warhound"] = {
-									["amount"] = 1285,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 3841,
-								},
-							},
-							["criticalmax"] = 2621,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1285,
-							["amount"] = 5126,
-							["hitamount"] = 2505,
-						},
-						["Death Strike"] = {
-							["criticalamount"] = 4082,
-							["id"] = 49924,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["overkill"] = 166,
-									["amount"] = 4082,
-								},
-							},
-							["overkill"] = 166,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4082,
-							["school"] = 1,
-							["criticalmin"] = 4082,
-							["criticalmax"] = 4082,
-							["count"] = 1,
-						},
-						["Melee (Skulldrinker)"] = {
-							["hitmin"] = 589,
-							["criticalamount"] = 1264,
-							["id"] = 6603,
-							["hitmax"] = 589,
-							["targets"] = {
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 116,
-									["amount"] = 1264,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 589,
-								},
-							},
-							["overkill"] = 116,
-							["count"] = 2,
-							["criticalmax"] = 1264,
-							["critical"] = 1,
-							["amount"] = 1853,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 1264,
-							["hitamount"] = 589,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 4897,
-							["id"] = 49921,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 4897,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4897,
-							["school"] = 1,
-							["criticalmin"] = 4897,
-							["criticalmax"] = 4897,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 848,
-							["id"] = 55095,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 1697,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 849,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 3396,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 16,
-							["hitmax"] = 849,
-							["amount"] = 5942,
-							["hitamount"] = 5942,
-						},
-						["Claw (Skulldrinker)"] = {
-							["criticalamount"] = 1768,
-							["id"] = 47468,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 1768,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1768,
-							["school"] = 1,
-							["criticalmin"] = 1768,
-							["criticalmax"] = 1768,
-							["count"] = 1,
-						},
-					},
-					["damagetaken"] = 1521,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 990,
-							["targets"] = {
-								["Skulldrinker"] = {
-									["overheal"] = 990,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 1800,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1800,
-							["school"] = 1,
-							["max"] = 1200,
-							["ishot"] = true,
-							["min"] = 600,
-						},
-						[45470] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 1501,
-							["school"] = 1,
-							["max"] = 1501,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 1501,
-								},
-							},
-							["min"] = 1501,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 4,
-							["hitmin"] = 26,
-							["id"] = 6603,
-							["blocked"] = 192,
-							["BLOCK"] = 2,
-							["amount"] = 1129,
-							["sources"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 541,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 132,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 456,
-								},
-							},
-							["count"] = 20,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 188,
-							["MISS"] = 2,
-							["hitamount"] = 1129,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 392,
-							["id"] = 16856,
-							["sources"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 392,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 392,
-							["amount"] = 392,
-							["hitamount"] = 392,
-						},
-					},
-					["heal"] = 3301,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overheal"] = 990,
-					["overkill"] = 3605,
-					["totaldamage"] = 46258,
-				}, -- [1]
-				{
-					["last"] = 4552.400000000001,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[33982] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[58181] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["time"] = 6.599999999999999,
-					["totaldamagetaken"] = 366,
-					["damage"] = 2214,
-					["damagespells"] = {
-						["Ferocious Bite"] = {
-							["criticalamount"] = 830,
-							["id"] = 31018,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 830,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 830,
-							["school"] = 1,
-							["criticalmin"] = 830,
-							["criticalmax"] = 830,
-							["count"] = 1,
-						},
-						["Mangle (Cat)"] = {
-							["hitmin"] = 429,
-							["id"] = 33982,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 872,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 443,
-							["amount"] = 872,
-							["hitamount"] = 872,
-						},
-						["Melee"] = {
-							["hitmin"] = 81,
-							["criticalamount"] = 348,
-							["id"] = 6603,
-							["targets"] = {
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 512,
-								},
-							},
-							["hitmax"] = 83,
-							["count"] = 4,
-							["criticalmax"] = 182,
-							["critical"] = 2,
-							["amount"] = 512,
-							["school"] = 1,
-							["hit"] = 2,
-							["criticalmin"] = 166,
-							["hitamount"] = 164,
-						},
-					},
-					["damagetaken"] = 366,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Onitora"] = {
-									["overheal"] = 0,
-									["amount"] = 187,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 187,
-							["school"] = 1,
-							["max"] = 187,
-							["ishot"] = true,
-							["min"] = 187,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 117,
-							["id"] = 14032,
-							["hitmax"] = 132,
-							["sources"] = {
-								["Hellfire Watcher"] = {
-									["amount"] = 366,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 72,
-							["amount"] = 366,
-							["hitamount"] = 366,
-						},
-					},
-					["overheal"] = 0,
-					["heal"] = 187,
-					["name"] = "Onitora",
-					["manaspells"] = {
-						[68285] = 278,
-					},
-					["mana"] = 278,
-					["totaldamage"] = 2214,
-					["role"] = "TANK",
-				}, -- [2]
-			},
-			["type"] = "party",
-			["damagetaken"] = 1887,
-			["ccdone"] = 1,
-			["etotaldamagetaken"] = 48472,
-			["damage"] = 48472,
-			["overkill"] = 3605,
-			["edamagetaken"] = 48472,
-			["heal"] = 3488,
-			["name"] = "Shattered Hand Warhound (2)",
-			["mobname"] = "Shattered Hand Warhound",
-			["edamage"] = 1887,
-			["last_action"] = 1699126085,
-			["endtime"] = 1699126086,
-		}, -- [9]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[30639] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1440,
-								},
-							},
-							["amount"] = 1440,
-						},
-					},
-					["name"] = "Shattered Hand Warhound",
-					["totaldamage"] = 1440,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF13000438000000F",
-					["damage"] = 1440,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 610,
-								},
-							},
-							["amount"] = 610,
-						},
-						[34645] = {
-							["school"] = 1,
-							["targets"] = {
-								["Onitora"] = {
-									["amount"] = 343,
-								},
-							},
-							["amount"] = 343,
-						},
-					},
-					["damagetaken"] = 33781,
-					["flag"] = 68168,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1970,
-								},
-							},
-							["amount"] = 1970,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5442,
-								},
-							},
-							["amount"] = 5442,
-						},
-						[51963] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5674,
-								},
-							},
-							["amount"] = 5674,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1942,
-								},
-							},
-							["amount"] = 1942,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 933,
-									["amount"] = 15431,
-								},
-							},
-							["overkill"] = 933,
-							["amount"] = 15431,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1098,
-								},
-							},
-							["amount"] = 1098,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1842,
-								},
-							},
-							["amount"] = 1842,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 382,
-								},
-							},
-							["amount"] = 382,
-						},
-					},
-					["name"] = "Watchkeeper Gargolmar",
-					["totaldamage"] = 953,
-					["totaldamagetaken"] = 33781,
-					["id"] = "0xF13000439A000034",
-					["damage"] = 953,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 258,
-								},
-							},
-							["amount"] = 258,
-						},
-						[14032] = {
-							["school"] = 32,
-							["targets"] = {
-								["Onitora"] = {
-									["amount"] = 628,
-								},
-							},
-							["amount"] = 628,
-						},
-					},
-					["damagetaken"] = 21023,
-					["id"] = "0xF13000439D000035",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5881,
-								},
-							},
-							["amount"] = 5881,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 568,
-									["amount"] = 2533,
-								},
-							},
-							["overkill"] = 568,
-							["amount"] = 2533,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 161,
-									["amount"] = 6887,
-								},
-							},
-							["overkill"] = 161,
-							["amount"] = 6887,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 639,
-								},
-							},
-							["amount"] = 639,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5083,
-								},
-							},
-							["amount"] = 5083,
-						},
-					},
-					["totaldamage"] = 886,
-					["name"] = "Hellfire Watcher",
-					["totaldamagetaken"] = 21023,
-					["flag"] = 2632,
-					["damage"] = 886,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 783,
-								},
-							},
-							["amount"] = 783,
-						},
-					},
-					["damagetaken"] = 15422,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4684,
-								},
-							},
-							["amount"] = 4684,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2073,
-								},
-							},
-							["amount"] = 2073,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4617,
-								},
-							},
-							["amount"] = 4617,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 317,
-								},
-							},
-							["amount"] = 317,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 404,
-									["amount"] = 2136,
-								},
-							},
-							["overkill"] = 404,
-							["amount"] = 2136,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1595,
-								},
-							},
-							["amount"] = 1595,
-						},
-					},
-					["name"] = "Bonechewer Ravener",
-					["totaldamage"] = 783,
-					["totaldamagetaken"] = 15422,
-					["id"] = "0xF130004370000016",
-					["damage"] = 783,
-				}, -- [4]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1493,
-								},
-							},
-							["amount"] = 1493,
-						},
-					},
-					["damagetaken"] = 51080,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7529,
-								},
-							},
-							["amount"] = 7529,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5159,
-								},
-							},
-							["amount"] = 5159,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 166,
-								},
-								["Urgash"] = {
-									["overkill"] = 3204,
-									["amount"] = 12929,
-								},
-							},
-							["overkill"] = 3204,
-							["amount"] = 13095,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8206,
-								},
-							},
-							["amount"] = 8206,
-						},
-						[33982] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["overkill"] = 306,
-									["amount"] = 799,
-								},
-							},
-							["overkill"] = 306,
-							["amount"] = 799,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 3467,
-									["amount"] = 8471,
-								},
-							},
-							["overkill"] = 3467,
-							["amount"] = 8471,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3627,
-								},
-							},
-							["amount"] = 3627,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3879,
-								},
-							},
-							["amount"] = 3879,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 315,
-								},
-							},
-							["amount"] = 315,
-						},
-					},
-					["name"] = "Bonechewer Destroyer",
-					["totaldamage"] = 1493,
-					["totaldamagetaken"] = 51080,
-					["id"] = "0xF13000437700002B",
-					["damage"] = 1493,
-				}, -- [5]
-				{
-					["id"] = "0xF130004375000021",
-					["name"] = "Bleeding Hollow Darkcaster",
-					["totaldamagetaken"] = 27208,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 27208,
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7837,
-								},
-							},
-							["amount"] = 7837,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 660,
-								},
-							},
-							["amount"] = 660,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 748,
-									["amount"] = 10402,
-								},
-							},
-							["overkill"] = 748,
-							["amount"] = 10402,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1146,
-									["amount"] = 8309,
-								},
-							},
-							["overkill"] = 1146,
-							["amount"] = 8309,
-						},
-					},
-				}, -- [6]
-			},
-			["success"] = true,
-			["totaldamage"] = 148514,
-			["time"] = 22,
-			["damage"] = 148514,
-			["totaldamagetaken"] = 5555,
-			["etotaldamage"] = 5555,
-			["last_time"] = 4540.34,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Watchkeeper Gargolmar"] = 1,
-							},
-						},
-					},
-					["last"] = 4539.431000000001,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["refresh"] = 6,
-							["targets"] = {
-								["Hellfire Watcher"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 11,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 5,
-								},
-								["Bonechewer Ravener"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 16,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 3,
-									["refresh"] = 1,
-									["uptime"] = 17,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 16,
-							["refresh"] = 6,
-							["targets"] = {
-								["Hellfire Watcher"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 11,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-								["Bonechewer Ravener"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 16,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 3,
-									["refresh"] = 1,
-									["uptime"] = 17,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Bonechewer Ravener"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 22,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Watchkeeper Gargolmar"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 32,
-							["targets"] = {
-								["Hellfire Watcher"] = {
-									["uptime"] = 13,
-									["count"] = 2,
-								},
-								["Bonechewer Ravener"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 13,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 2,
-							["school"] = 1,
-							["uptime"] = 17,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["refresh"] = 7,
-							["targets"] = {
-								["Hellfire Watcher"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 11,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 6,
-								},
-								["Bonechewer Ravener"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 16,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 3,
-									["refresh"] = 1,
-									["uptime"] = 17,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 20.8,
-					["totaldamagetaken"] = 4584,
-					["damage"] = 147549,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 2874,
-							["criticalamount"] = 25486,
-							["id"] = 6603,
-							["criticalmin"] = 6087,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 3204,
-									["amount"] = 12929,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["overkill"] = 933,
-									["amount"] = 15431,
-								},
-							},
-							["overkill"] = 4137,
-							["critical"] = 4,
-							["criticalmax"] = 6760,
-							["count"] = 5,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2874,
-							["amount"] = 28360,
-							["hitamount"] = 2874,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 313,
-							["id"] = 71904,
-							["targets"] = {
-								["Bonechewer Ravener"] = {
-									["amount"] = 317,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["amount"] = 382,
-								},
-								["Hellfire Watcher"] = {
-									["amount"] = 639,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 315,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 660,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["hitmax"] = 382,
-							["amount"] = 2313,
-							["hitamount"] = 2313,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 726,
-							["id"] = 50526,
-							["targets"] = {
-								["Hellfire Watcher"] = {
-									["overkill"] = 568,
-									["amount"] = 2533,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["amount"] = 1842,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 2073,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 3879,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 748,
-									["amount"] = 10402,
-								},
-							},
-							["overkill"] = 1316,
-							["casts"] = 1,
-							["count"] = 21,
-							["hit"] = 21,
-							["school"] = 32,
-							["hitmax"] = 1091,
-							["amount"] = 20729,
-							["hitamount"] = 20729,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 1595,
-							["criticalamount"] = 6955,
-							["id"] = 49941,
-							["criticalmin"] = 3452,
-							["targets"] = {
-								["Hellfire Watcher"] = {
-									["amount"] = 5083,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 1595,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 5159,
-								},
-							},
-							["criticalmax"] = 3503,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 1656,
-							["amount"] = 11837,
-							["hitamount"] = 4882,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1066,
-							["id"] = 55078,
-							["targets"] = {
-								["Hellfire Watcher"] = {
-									["overkill"] = 161,
-									["amount"] = 6887,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["amount"] = 1098,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 4617,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 7529,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 7837,
-								},
-							},
-							["overkill"] = 161,
-							["count"] = 25,
-							["hit"] = 25,
-							["school"] = 32,
-							["hitmax"] = 1173,
-							["amount"] = 27968,
-							["hitamount"] = 27968,
-						},
-						["Death and Decay"] = {
-							["criticalmin"] = 1489,
-							["hitmin"] = 712,
-							["criticalamount"] = 1489,
-							["id"] = 52212,
-							["criticalmax"] = 1489,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 3627,
-								},
-								["Bonechewer Ravener"] = {
-									["overkill"] = 404,
-									["amount"] = 2136,
-								},
-							},
-							["overkill"] = 404,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 713,
-							["amount"] = 5763,
-							["hitamount"] = 4274,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 882,
-							["id"] = 55095,
-							["targets"] = {
-								["Hellfire Watcher"] = {
-									["amount"] = 5881,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["amount"] = 1970,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 4684,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 8206,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 1146,
-									["amount"] = 8309,
-								},
-							},
-							["overkill"] = 1146,
-							["count"] = 25,
-							["hit"] = 25,
-							["school"] = 16,
-							["hitmax"] = 1197,
-							["amount"] = 29050,
-							["hitamount"] = 29050,
-						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["hitmin"] = 2837,
-							["id"] = 51963,
-							["targets"] = {
-								["Watchkeeper Gargolmar"] = {
-									["amount"] = 5674,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 2837,
-							["amount"] = 5674,
-							["hitamount"] = 5674,
-						},
-						["Death Strike"] = {
-							["hitmax"] = 2695,
-							["hitmin"] = 2695,
-							["criticalamount"] = 11218,
-							["id"] = 49924,
-							["count"] = 3,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 3467,
-									["amount"] = 8471,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["amount"] = 5442,
-								},
-							},
-							["overkill"] = 3467,
-							["hit"] = 1,
-							["casts"] = 6,
-							["critical"] = 2,
-							["amount"] = 13913,
-							["school"] = 1,
-							["criticalmin"] = 5442,
-							["criticalmax"] = 5776,
-							["hitamount"] = 2695,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1942,
-							["id"] = 49921,
-							["targets"] = {
-								["Watchkeeper Gargolmar"] = {
-									["amount"] = 1942,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1942,
-							["amount"] = 1942,
-							["hitamount"] = 1942,
-						},
-					},
-					["damagetaken"] = 4584,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[45470] = {
-							["overheal"] = 0,
-							["max"] = 4503,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 13509,
-								},
-							},
-							["min"] = 4503,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 13509,
-							["school"] = 1,
-						},
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 3600,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 3600,
-							["school"] = 1,
-							["max"] = 1200,
-							["ishot"] = true,
-							["min"] = 1200,
-						},
-					},
-					["damagetakenspells"] = {
-						["Mortal Strike"] = {
-							["sources"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["MISS"] = 2,
-							["id"] = 16856,
-						},
-						["Melee"] = {
-							["DODGE"] = 5,
-							["hitmin"] = 51,
-							["id"] = 6603,
-							["blocked"] = 120,
-							["BLOCK"] = 1,
-							["PARRY"] = 14,
-							["amount"] = 3144,
-							["sources"] = {
-								["Hellfire Watcher"] = {
-									["amount"] = 258,
-								},
-								["Watchkeeper Gargolmar"] = {
-									["amount"] = 610,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 1493,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 783,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 51,
-							["hit"] = 21,
-							["school"] = 1,
-							["hitmax"] = 610,
-							["MISS"] = 10,
-							["hitamount"] = 3144,
-						},
-						["Scorch"] = {
-							["sources"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 0,
-							["school"] = 4,
-							["MISS"] = 8,
-							["id"] = 36807,
-						},
-						["Kidney Shot"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Bonechewer Ravener"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 30621,
-						},
-						["Shadow Word: Pain"] = {
-							["sources"] = {
-								["Hellfire Watcher"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 2,
-							["id"] = 14032,
-						},
-						["Carnivorous Bite (DoT)"] = {
-							["hitmin"] = 480,
-							["id"] = 30639,
-							["sources"] = {
-								["Shattered Hand Warhound"] = {
-									["amount"] = 1440,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 480,
-							["amount"] = 1440,
-							["hitamount"] = 1440,
-						},
-					},
-					["heal"] = 17109,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 10631,
-					["overheal"] = 0,
-					["totaldamage"] = 147549,
-				}, -- [1]
-				{
-					["last"] = 4539.435,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[69369] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[58181] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[33982] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-					},
-					["time"] = 4.82,
-					["totaldamagetaken"] = 971,
-					["damage"] = 965,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 83,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 166,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 83,
-							["amount"] = 166,
-							["hitamount"] = 166,
-						},
-						["Mangle (Cat)"] = {
-							["hitmin"] = 396,
-							["id"] = 33982,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 306,
-									["amount"] = 799,
-								},
-							},
-							["overkill"] = 306,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 403,
-							["amount"] = 799,
-							["hitamount"] = 799,
-						},
-					},
-					["damagetaken"] = 971,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["damagetakenspells"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 117,
-							["id"] = 14032,
-							["hitmax"] = 146,
-							["sources"] = {
-								["Hellfire Watcher"] = {
-									["amount"] = 628,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 101,
-							["amount"] = 628,
-							["hitamount"] = 628,
-						},
-						["Surge"] = {
-							["hitmin"] = 343,
-							["id"] = 34645,
-							["sources"] = {
-								["Watchkeeper Gargolmar"] = {
-									["amount"] = 343,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 343,
-							["amount"] = 343,
-							["hitamount"] = 343,
-						},
-					},
-					["name"] = "Onitora",
-					["overkill"] = 306,
-					["totaldamage"] = 965,
-					["role"] = "TANK",
-				}, -- [2]
-			},
-			["type"] = "party",
-			["damagetaken"] = 5555,
-			["gotboss"] = 17306,
-			["overheal"] = 0,
-			["ccdone"] = 1,
-			["etotaldamagetaken"] = 148514,
-			["overkill"] = 10937,
-			["edamagetaken"] = 148514,
-			["heal"] = 17109,
-			["name"] = "Watchkeeper Gargolmar",
-			["mobname"] = "Watchkeeper Gargolmar",
-			["starttime"] = 1699126049,
-			["edamage"] = 5555,
-			["last_action"] = 1699126071,
-			["endtime"] = 1699126071,
-		}, -- [10]
-		{
-			["mana"] = 278,
-			["starttime"] = 1699126024,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 206,
-								},
-							},
-							["amount"] = 206,
-						},
-					},
-					["damagetaken"] = 17173,
-					["id"] = "0xF13000436B000007",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[51963] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 2472,
-									["amount"] = 16413,
-								},
-							},
-							["overkill"] = 2472,
-							["amount"] = 16413,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 760,
-								},
-							},
-							["amount"] = 760,
-						},
-					},
-					["totaldamage"] = 206,
-					["name"] = "Bonechewer Hungerer",
-					["totaldamagetaken"] = 17173,
-					["flag"] = 2632,
-					["damage"] = 206,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 334,
-								},
-							},
-							["amount"] = 334,
-						},
-					},
-					["damagetaken"] = 15565,
-					["id"] = "0xF13000437700002D",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5827,
-								},
-							},
-							["amount"] = 5827,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2532,
-								},
-							},
-							["amount"] = 2532,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1374,
-									["amount"] = 4676,
-								},
-							},
-							["overkill"] = 1374,
-							["amount"] = 4676,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2530,
-								},
-							},
-							["amount"] = 2530,
-						},
-					},
-					["totaldamage"] = 334,
-					["name"] = "Bonechewer Destroyer",
-					["totaldamagetaken"] = 15565,
-					["flag"] = 68168,
-					["damage"] = 334,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 470,
-								},
-							},
-							["amount"] = 470,
-						},
-						[30639] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1760,
-								},
-							},
-							["amount"] = 1760,
-						},
-					},
-					["damagetaken"] = 24138,
-					["id"] = "0xF13000438000000F",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 5606,
-									["amount"] = 6505,
-								},
-							},
-							["overkill"] = 5606,
-							["amount"] = 6505,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7255,
-								},
-							},
-							["amount"] = 7255,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1964,
-									["amount"] = 10378,
-								},
-							},
-							["overkill"] = 1964,
-							["amount"] = 10378,
-						},
-					},
-					["totaldamage"] = 2230,
-					["name"] = "Shattered Hand Warhound",
-					["totaldamagetaken"] = 24138,
-					["flag"] = 2632,
-					["damage"] = 2230,
-				}, -- [3]
-				{
-					["id"] = "0xF130004375000022",
-					["name"] = "Bleeding Hollow Darkcaster",
-					["totaldamagetaken"] = 11172,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 11172,
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2419,
-								},
-							},
-							["amount"] = 2419,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2337,
-								},
-							},
-							["amount"] = 2337,
-						},
-						[31018] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["overkill"] = 1242,
-									["amount"] = 1338,
-								},
-							},
-							["overkill"] = 1242,
-							["amount"] = 1338,
-						},
-						[33982] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 1690,
-								},
-							},
-							["amount"] = 1690,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2946,
-								},
-								["Onitora"] = {
-									["amount"] = 442,
-								},
-							},
-							["amount"] = 3388,
-						},
-					},
-				}, -- [4]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 245,
-								},
-							},
-							["amount"] = 245,
-						},
-					},
-					["damagetaken"] = 15352,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1612,
-								},
-							},
-							["amount"] = 1612,
-						},
-						[51963] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 651,
-									["amount"] = 11386,
-								},
-							},
-							["overkill"] = 651,
-							["amount"] = 11386,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2354,
-								},
-							},
-							["amount"] = 2354,
-						},
-					},
-					["name"] = "Bonechewer Ravener",
-					["totaldamage"] = 245,
-					["totaldamagetaken"] = 15352,
-					["id"] = "0xF130004370000018",
-					["damage"] = 245,
-				}, -- [5]
-			},
-			["totaldamage"] = 83400,
-			["time"] = 22,
-			["overheal"] = 0,
-			["totaldamagetaken"] = 3015,
-			["etotaldamage"] = 3015,
-			["last_time"] = 4514.992,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[45524] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bonechewer Destroyer"] = 1,
-							},
-						},
-					},
-					["last"] = 4513.141000000001,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[45524] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 32,
-							["refresh"] = 7,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
+								["Aliyolmeh"] = {
 									["count"] = 1,
 									["refresh"] = 1,
 									["uptime"] = 11,
 								},
-								["Bonechewer Ravener"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 4,
-									["refresh"] = 4,
-									["uptime"] = 10,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 11,
-								},
 							},
-							["uptime"] = 19,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 8,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 16,
-							["refresh"] = 7,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 11,
-								},
-								["Bonechewer Ravener"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 4,
-									["refresh"] = 4,
-									["uptime"] = 10,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 11,
 						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 8,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 18,
-						},
-						[71559] = {
+						[49222] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 18,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 7,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 7,
 						},
 						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 22,
+							["refresh"] = 4,
+							["uptime"] = 18,
 						},
-						[8907] = {
-							["type"] = "BUFF",
+						[55095] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 22,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 11,
 						},
 					},
-					["role"] = "DAMAGER",
-					["time"] = 17.51,
-					["totaldamagetaken"] = 3015,
-					["damage"] = 79930,
+					["time"] = 11.22,
+					["damage"] = 19819,
 					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 2946,
-							["criticalamount"] = 12332,
-							["id"] = 6603,
-							["hitmax"] = 2946,
+						["Scourge Strike"] = {
+							["criticalamount"] = 4725,
+							["id"] = 55271,
 							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 2946,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 5606,
-									["amount"] = 6505,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 5827,
+								["Aliyolmeh"] = {
+									["amount"] = 4725,
 								},
 							},
-							["overkill"] = 5606,
-							["count"] = 3,
-							["criticalmax"] = 6505,
-							["critical"] = 2,
-							["amount"] = 15278,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 5827,
-							["hitamount"] = 2946,
-						},
-						["Death Strike"] = {
-							["criticalamount"] = 4676,
-							["id"] = 49924,
-							["targets"] = {
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 1374,
-									["amount"] = 4676,
-								},
-							},
-							["overkill"] = 1374,
-							["casts"] = 2,
+							["casts"] = 1,
 							["critical"] = 1,
-							["amount"] = 4676,
+							["amount"] = 4725,
 							["school"] = 1,
-							["criticalmin"] = 4676,
-							["criticalmax"] = 4676,
+							["criticalmin"] = 4725,
+							["criticalmax"] = 4725,
 							["count"] = 1,
 						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["criticalmax"] = 3797,
-							["hitmin"] = 2509,
-							["criticalamount"] = 3797,
-							["id"] = 51963,
-							["criticalmin"] = 3797,
+						["Melee"] = {
+							["criticalamount"] = 3639,
+							["id"] = 6603,
 							["targets"] = {
-								["Bonechewer Ravener"] = {
-									["overkill"] = 651,
-									["amount"] = 11386,
-								},
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 2472,
-									["amount"] = 16413,
+								["Aliyolmeh"] = {
+									["amount"] = 3639,
 								},
 							},
-							["overkill"] = 3123,
+							["PARRY"] = 1,
 							["critical"] = 1,
+							["amount"] = 3639,
+							["school"] = 1,
+							["criticalmin"] = 3639,
+							["criticalmax"] = 3639,
+							["count"] = 2,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 3412,
+							["id"] = 47632,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 3412,
+								},
+							},
 							["casts"] = 1,
-							["count"] = 10,
-							["hit"] = 9,
-							["school"] = 8,
-							["hitmax"] = 2866,
-							["amount"] = 27799,
-							["hitamount"] = 24002,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3412,
+							["amount"] = 3412,
+							["hitamount"] = 3412,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 34,
+							["id"] = 50536,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 34,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 34,
+							["amount"] = 34,
+							["hitamount"] = 34,
 						},
 						["Wandering Plague"] = {
-							["hitmin"] = 721,
+							["hitmin"] = 712,
 							["id"] = 50526,
 							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 760,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 2532,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 2354,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 1964,
-									["amount"] = 10378,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 2337,
+								["Aliyolmeh"] = {
+									["amount"] = 1491,
 								},
 							},
-							["overkill"] = 1964,
 							["casts"] = 1,
-							["count"] = 23,
-							["hit"] = 23,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 32,
-							["hitmax"] = 859,
-							["amount"] = 18361,
-							["hitamount"] = 18361,
+							["hitmax"] = 779,
+							["amount"] = 1491,
+							["hitamount"] = 1491,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 825,
+							["id"] = 55078,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["overkill"] = 666,
+									["amount"] = 825,
+								},
+							},
+							["overkill"] = 666,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 825,
+							["amount"] = 825,
+							["hitamount"] = 825,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1146,
+							["id"] = 49921,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 1146,
+								},
+							},
+							["hitmax"] = 1146,
+							["PARRY"] = 1,
+							["count"] = 2,
+							["amount"] = 1146,
+							["school"] = 1,
+							["casts"] = 2,
+							["hit"] = 1,
+							["hitamount"] = 1146,
 						},
 						["Frost Fever (DoT)"] = {
-							["hitmin"] = 806,
+							["hitmin"] = 798,
 							["id"] = 55095,
 							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 2419,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 1612,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 7255,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 2530,
+								["Aliyolmeh"] = {
+									["amount"] = 2395,
 								},
 							},
-							["count"] = 17,
-							["hit"] = 17,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 16,
-							["hitmax"] = 850,
-							["amount"] = 13816,
-							["hitamount"] = 13816,
+							["hitmax"] = 799,
+							["amount"] = 2395,
+							["hitamount"] = 2395,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 2152,
+							["id"] = 70890,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 2152,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 2152,
+							["amount"] = 2152,
+							["hitamount"] = 2152,
 						},
 					},
-					["damagetaken"] = 3015,
 					["id"] = "0x070000000000D01B",
 					["spec"] = 252,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 1200,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1200,
-							["school"] = 1,
-							["max"] = 1200,
-							["ishot"] = true,
-							["min"] = 1200,
-						},
-						[45470] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 3002,
-							["school"] = 1,
-							["max"] = 3002,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 3002,
-								},
-							},
-							["min"] = 3002,
-						},
-					},
-					["damagetakenspells"] = {
-						["Scorch"] = {
-							["sources"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 4,
-							["MISS"] = 5,
-							["id"] = 36807,
-						},
-						["Carnivorous Bite (DoT)"] = {
-							["hitmin"] = 320,
-							["id"] = 30639,
-							["sources"] = {
-								["Shattered Hand Warhound"] = {
-									["amount"] = 1760,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 480,
-							["amount"] = 1760,
-							["hitamount"] = 1760,
-						},
-						["Melee"] = {
-							["DODGE"] = 4,
-							["hitmin"] = 23,
-							["criticalmin"] = 334,
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 206,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 334,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 245,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 470,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 1255,
-							["MISS"] = 11,
-							["criticalamount"] = 334,
-							["id"] = 6603,
-							["PARRY"] = 12,
-							["blocked"] = 27,
-							["critical"] = 1,
-							["criticalmax"] = 334,
-							["hitmax"] = 123,
-							["hit"] = 21,
-							["school"] = 1,
-							["BLOCK"] = 1,
-							["count"] = 50,
-							["hitamount"] = 921,
-						},
-						["Carnivorous Bite"] = {
-							["sources"] = {
-								["Shattered Hand Warhound"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 30639,
-						},
-					},
-					["heal"] = 4202,
+					["overkill"] = 666,
 					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overheal"] = 0,
-					["overkill"] = 12067,
-					["totaldamage"] = 79930,
+					["ccdone"] = 2,
+					["totaldamage"] = 19819,
+					["role"] = "DAMAGER",
 				}, -- [1]
 				{
-					["last"] = 4514.143,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[69369] = {
-							["type"] = "BUFF",
+					["last"] = 23669.078,
+					["id"] = "0xF14001066F004A10",
+					["class"] = "PET",
+					["time"] = 0,
+					["cctaken"] = 1,
+					["name"] = "Batflayer",
+					["cctakenspells"] = {
+						[14309] = {
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[58181] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 2,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 4,
-								},
+							["sources"] = {
+								["Aliyolmeh"] = 1,
 							},
-							["uptime"] = 4,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[33982] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 4,
-								},
-							},
-							["uptime"] = 4,
 						},
 					},
-					["time"] = 8.09,
-					["damage"] = 3470,
-					["damagespells"] = {
-						["Ferocious Bite"] = {
-							["criticalamount"] = 1338,
-							["id"] = 31018,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 1242,
-									["amount"] = 1338,
-								},
-							},
-							["overkill"] = 1242,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1338,
-							["school"] = 1,
-							["criticalmin"] = 1338,
-							["criticalmax"] = 1338,
-							["count"] = 1,
-						},
-						["Mangle (Cat)"] = {
-							["hitmin"] = 422,
-							["criticalamount"] = 844,
-							["id"] = 33982,
-							["criticalmin"] = 844,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 1690,
-								},
-							},
-							["criticalmax"] = 844,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 424,
-							["amount"] = 1690,
-							["hitamount"] = 846,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 89,
-							["criticalamount"] = 168,
-							["id"] = 6603,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 442,
-								},
-							},
-							["criticalmin"] = 168,
-							["critical"] = 1,
-							["criticalmax"] = 168,
-							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 94,
-							["amount"] = 442,
-							["hitamount"] = 274,
-						},
-					},
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Onitora"] = {
-									["overheal"] = 0,
-									["amount"] = 187,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 187,
-							["school"] = 1,
-							["max"] = 187,
-							["ishot"] = true,
-							["min"] = 187,
-						},
-					},
-					["overkill"] = 1242,
-					["overheal"] = 0,
-					["heal"] = 187,
-					["name"] = "Onitora",
-					["manaspells"] = {
-						[68285] = 278,
-					},
-					["mana"] = 278,
-					["totaldamage"] = 3470,
-					["role"] = "TANK",
+					["flag"] = 4369,
 				}, -- [2]
 			},
-			["type"] = "party",
-			["damagetaken"] = 3015,
-			["ccdone"] = 1,
-			["damage"] = 83400,
-			["etotaldamagetaken"] = 83400,
-			["overkill"] = 13309,
-			["edamagetaken"] = 83400,
-			["heal"] = 4389,
-			["name"] = "Shattered Hand Warhound",
-			["mobname"] = "Shattered Hand Warhound",
-			["edamage"] = 3015,
-			["last_action"] = 1699126046,
-			["endtime"] = 1699126046,
-		}, -- [11]
+			["type"] = "none",
+			["damage"] = 19819,
+			["cctaken"] = 1,
+			["overkill"] = 666,
+			["edamagetaken"] = 19819,
+			["starttime"] = 1699202580,
+			["name"] = "Aliyolmeh (2)",
+			["mobname"] = "Aliyolmeh",
+			["ccdone"] = 2,
+			["last_action"] = 1699202598,
+			["endtime"] = 1699202598,
+		}, -- [5]
 		{
-			["mana"] = 823,
-			["damage"] = 500298,
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
+						[38204] = {
+							["school"] = 64,
 							["targets"] = {
 								["Urgash"] = {
-									["amount"] = 5185,
+									["amount"] = 663,
 								},
 							},
-							["amount"] = 5185,
-						},
-						[14516] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 615,
-								},
-							},
-							["amount"] = 615,
+							["amount"] = 663,
 						},
 					},
-					["damagetaken"] = 141076,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1489,
-									["amount"] = 11118,
-								},
-							},
-							["overkill"] = 1489,
-							["amount"] = 11118,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1228,
-									["amount"] = 41459,
-								},
-							},
-							["overkill"] = 1228,
-							["amount"] = 41459,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 4725,
-									["amount"] = 28133,
-								},
-							},
-							["overkill"] = 4725,
-							["amount"] = 28133,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1206,
-									["amount"] = 23430,
-								},
-							},
-							["overkill"] = 1206,
-							["amount"] = 23430,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4317,
-								},
-							},
-							["amount"] = 4317,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4515,
-								},
-							},
-							["amount"] = 4515,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1139,
-									["amount"] = 24380,
-								},
-							},
-							["overkill"] = 1139,
-							["amount"] = 24380,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2552,
-								},
-							},
-							["amount"] = 2552,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1172,
-								},
-							},
-							["amount"] = 1172,
-						},
-					},
-					["name"] = "Bonechewer Hungerer",
-					["totaldamage"] = 5800,
-					["totaldamagetaken"] = 141076,
-					["id"] = "0xF13000436B000046",
-					["damage"] = 5800,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 5643,
-								},
-							},
-							["amount"] = 5643,
-						},
-					},
-					["damagetaken"] = 58824,
-					["flag"] = 2632,
+					["damagetaken"] = 9833,
+					["id"] = "0xF13000828E17247E",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 47,
-									["amount"] = 13861,
-								},
-							},
-							["overkill"] = 47,
-							["amount"] = 13861,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 963,
-									["amount"] = 17010,
-								},
-							},
-							["overkill"] = 963,
-							["amount"] = 17010,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6808,
-								},
-							},
-							["amount"] = 6808,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1331,
-								},
-							},
-							["amount"] = 1331,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["overkill"] = 30,
-									["amount"] = 399,
-								},
-								["Urgash"] = {
-									["amount"] = 10247,
-								},
-							},
-							["overkill"] = 30,
-							["amount"] = 10646,
-						},
-						[33982] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 1164,
-								},
-							},
-							["amount"] = 1164,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8004,
-								},
-							},
-							["amount"] = 8004,
-						},
-					},
-					["name"] = "Bonechewer Ravener",
-					["totaldamage"] = 5643,
-					["totaldamagetaken"] = 58824,
-					["id"] = "0xF13000437000004A",
-					["damage"] = 5643,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1023,
-								},
-							},
-							["amount"] = 1023,
-						},
-						[30639] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 6480,
-								},
-							},
-							["amount"] = 6480,
-						},
-					},
-					["damagetaken"] = 54104,
-					["id"] = "0xF13000438000001D",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 510,
-									["amount"] = 15255,
-								},
-							},
-							["overkill"] = 510,
-							["amount"] = 15255,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 2494,
-									["amount"] = 19777,
-								},
-							},
-							["overkill"] = 2494,
-							["amount"] = 19777,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 613,
-									["amount"] = 8963,
-								},
-							},
-							["overkill"] = 613,
-							["amount"] = 8963,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 255,
-								},
-							},
-							["amount"] = 255,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 936,
-									["amount"] = 5426,
-								},
-							},
-							["overkill"] = 936,
-							["amount"] = 5426,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 3989,
-									["amount"] = 4428,
-								},
-							},
-							["overkill"] = 3989,
-							["amount"] = 4428,
-						},
-					},
-					["totaldamage"] = 7503,
-					["name"] = "Shattered Hand Warhound",
-					["totaldamagetaken"] = 54104,
-					["flag"] = 2632,
-					["damage"] = 7503,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 8084,
-								},
-							},
-							["amount"] = 8084,
-						},
-						[16856] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 2619,
-								},
-							},
-							["amount"] = 2619,
-						},
-					},
-					["damagetaken"] = 92606,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 2059,
-									["amount"] = 27867,
-								},
-							},
-							["overkill"] = 2059,
-							["amount"] = 27867,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 732,
-									["amount"] = 31846,
-								},
-							},
-							["overkill"] = 732,
-							["amount"] = 31846,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 15574,
-								},
-							},
-							["amount"] = 15574,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4644,
-								},
-							},
-							["amount"] = 4644,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5234,
-								},
-							},
-							["amount"] = 5234,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1609,
-									["amount"] = 6448,
-								},
-							},
-							["overkill"] = 1609,
-							["amount"] = 6448,
-						},
-						[71904] = {
-							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
 									["amount"] = 993,
@@ -9495,1489 +2153,2720 @@ SkadaStorageDB = {
 							},
 							["amount"] = 993,
 						},
-					},
-					["name"] = "Bonechewer Destroyer",
-					["totaldamage"] = 10703,
-					["totaldamagetaken"] = 92606,
-					["id"] = "0xF130004377000060",
-					["damage"] = 10703,
-				}, -- [4]
-				{
-					["damagespells"] = {
-						[6603] = {
+						[49924] = {
 							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 2474,
-								},
-							},
-							["amount"] = 2474,
-						},
-						[30614] = {
-							["school"] = 1,
-							["targets"] = {
-								["Onitora"] = {
-									["amount"] = 937,
-								},
-							},
-							["amount"] = 937,
-						},
-					},
-					["damagetaken"] = 48107,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 740,
-									["amount"] = 12435,
+									["amount"] = 1877,
 								},
 							},
-							["overkill"] = 740,
-							["amount"] = 12435,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 409,
-									["amount"] = 21564,
-								},
-							},
-							["overkill"] = 409,
-							["amount"] = 21564,
+							["amount"] = 1877,
 						},
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 322,
-									["amount"] = 10677,
+									["overkill"] = 417,
+									["amount"] = 923,
 								},
 							},
-							["overkill"] = 322,
-							["amount"] = 10677,
+							["overkill"] = 417,
+							["amount"] = 923,
 						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1011,
-								},
-							},
-							["amount"] = 1011,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 256,
-									["amount"] = 2420,
-								},
-							},
-							["overkill"] = 256,
-							["amount"] = 2420,
-						},
-					},
-					["name"] = "Bleeding Hollow Archer",
-					["totaldamage"] = 3411,
-					["totaldamagetaken"] = 48107,
-					["id"] = "0xF13000437600005B",
-					["damage"] = 3411,
-				}, -- [5]
-				{
-					["id"] = "0xF130004375000053",
-					["name"] = "Bleeding Hollow Darkcaster",
-					["totaldamagetaken"] = 42835,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 42835,
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 13007,
-								},
-							},
-							["amount"] = 13007,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 10704,
-								},
-							},
-							["amount"] = 10704,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1962,
-									["amount"] = 13305,
-								},
-							},
-							["overkill"] = 1962,
-							["amount"] = 13305,
-						},
-						[33982] = {
+						[49921] = {
 							["school"] = 1,
 							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 3639,
+								["Urgash"] = {
+									["amount"] = 1434,
 								},
 							},
-							["amount"] = 3639,
+							["amount"] = 1434,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Onitora"] = {
-									["overkill"] = 67,
-									["amount"] = 1009,
-								},
-							},
-							["overkill"] = 67,
-							["amount"] = 1009,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 452,
+									["amount"] = 4606,
 								},
 							},
-							["amount"] = 452,
-						},
-						[31018] = {
-							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 719,
-								},
-							},
-							["amount"] = 719,
+							["amount"] = 4606,
 						},
 					},
-				}, -- [6]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 191,
-								},
-							},
-							["amount"] = 191,
-						},
-					},
-					["damagetaken"] = 31040,
-					["id"] = "0xF13000444600003D",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 46,
-									["amount"] = 16537,
-								},
-							},
-							["overkill"] = 46,
-							["amount"] = 16537,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 842,
-									["amount"] = 14503,
-								},
-							},
-							["overkill"] = 842,
-							["amount"] = 14503,
-						},
-					},
-					["totaldamage"] = 191,
-					["name"] = "Bleeding Hollow Scryer",
-					["totaldamagetaken"] = 31040,
-					["flag"] = 2632,
-					["damage"] = 191,
-				}, -- [7]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 4176,
-								},
-							},
-							["amount"] = 4176,
-						},
-					},
-					["damagetaken"] = 17087,
-					["id"] = "0xF130004381000032",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 953,
-								},
-							},
-							["amount"] = 953,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 529,
-									["amount"] = 7840,
-								},
-							},
-							["overkill"] = 529,
-							["amount"] = 7840,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 256,
-								},
-							},
-							["amount"] = 256,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8038,
-								},
-							},
-							["amount"] = 8038,
-						},
-					},
-					["totaldamage"] = 4176,
-					["name"] = "Bonechewer Ripper",
-					["totaldamagetaken"] = 17087,
-					["flag"] = 2632,
-					["damage"] = 4176,
-				}, -- [8]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 1603,
-								},
-							},
-							["amount"] = 1603,
-						},
-						[10966] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 129,
-								},
-							},
-							["amount"] = 129,
-						},
-					},
-					["damagetaken"] = 14619,
-					["id"] = "0xF13000442F000037",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 179,
-									["amount"] = 1904,
-								},
-							},
-							["overkill"] = 179,
-							["amount"] = 1904,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5789,
-								},
-							},
-							["amount"] = 5789,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 240,
-								},
-							},
-							["amount"] = 240,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6686,
-								},
-							},
-							["amount"] = 6686,
-						},
-					},
-					["totaldamage"] = 1732,
-					["name"] = "Bonechewer Beastmaster",
-					["totaldamagetaken"] = 14619,
-					["flag"] = 2632,
-					["damage"] = 1732,
-				}, -- [9]
+					["totaldamage"] = 663,
+					["name"] = "Unbound Seer",
+					["totaldamagetaken"] = 9833,
+					["flag"] = 68168,
+					["damage"] = 663,
+				}, -- [1]
 			},
-			["totaldamage"] = 500298,
-			["time"] = 104,
-			["ccdone"] = 2,
-			["totaldamagetaken"] = 39159,
-			["etotaldamagetaken"] = 500298,
-			["last_time"] = 4489.898,
+			["ccdone"] = 1,
+			["totaldamage"] = 9833,
+			["time"] = 6,
+			["damage"] = 9833,
+			["totaldamagetaken"] = 663,
+			["etotaldamage"] = 663,
+			["last_time"] = 23647.711,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[45524] = {
 							["count"] = 1,
 							["targets"] = {
-								["Bleeding Hollow Scryer"] = 1,
-							},
-						},
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bonechewer Ravener"] = 1,
+								["Unbound Seer"] = 1,
 							},
 						},
 					},
-					["last"] = 4488.798,
+					["last"] = 23647.48,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 12,
-							["school"] = 1,
-							["uptime"] = 86,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 64,
-							["uptime"] = 43,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 16,
-							["school"] = 32,
-							["targets"] = {
-								["Bonechewer Ravener"] = {
-									["uptime"] = 10,
-									["count"] = 2,
-								},
-								["Bonechewer Beastmaster"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 6,
-									["count"] = 4,
-								},
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 6,
-									["count"] = 4,
-								},
-								["Bleeding Hollow Archer"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Shattered Hand Warhound"] = {
-									["uptime"] = 2,
-									["count"] = 3,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 16,
-						},
 						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 33,
-							["school"] = 32,
-							["refresh"] = 23,
-							["targets"] = {
-								["Bonechewer Beastmaster"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Bonechewer Ravener"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 27,
-								},
-								["Bonechewer Ripper"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 6,
-									["refresh"] = 8,
-									["uptime"] = 42,
-								},
-								["Bonechewer Hungerer"] = {
-									["count"] = 7,
-									["refresh"] = 3,
-									["uptime"] = 35,
-								},
-								["Bleeding Hollow Archer"] = {
-									["count"] = 4,
-									["refresh"] = 4,
-									["uptime"] = 24,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 8,
-									["refresh"] = 3,
-									["uptime"] = 16,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 4,
-									["refresh"] = 2,
-									["uptime"] = 34,
-								},
-							},
-							["uptime"] = 59,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 30,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["refresh"] = 6,
-							["school"] = 1,
-							["uptime"] = 54,
-						},
-						[57623] = {
-							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 72,
-						},
-						[2479] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 40,
-							["school"] = 32,
-							["refresh"] = 55,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 8,
-									["refresh"] = 10,
-									["uptime"] = 58,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 10,
-									["refresh"] = 6,
-									["uptime"] = 33,
-								},
-								["Bleeding Hollow Archer"] = {
-									["count"] = 4,
-									["refresh"] = 5,
-									["uptime"] = 30,
-								},
-								["Bonechewer Ravener"] = {
-									["count"] = 3,
-									["refresh"] = 7,
-									["uptime"] = 53,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 6,
-									["refresh"] = 15,
-									["uptime"] = 64,
-								},
-								["Bonechewer Beastmaster"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 23,
-								},
-								["Bonechewer Ripper"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 27,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 18,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 4,
-									["refresh"] = 3,
-									["uptime"] = 40,
-								},
-							},
-							["uptime"] = 100,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 13,
 							["school"] = 32,
 							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 18,
-									["count"] = 4,
-								},
-								["Bonechewer Destroyer"] = {
-									["uptime"] = 6,
-									["count"] = 3,
-								},
-								["Bonechewer Ravener"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Shattered Hand Warhound"] = {
-									["uptime"] = 4,
-									["count"] = 4,
-								},
-								["Bleeding Hollow Archer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bonechewer Ravener"] = {
+								["Unbound Seer"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 3,
 						},
-						[71559] = {
+						[73422] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 9,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 40,
-							["school"] = 16,
-							["refresh"] = 54,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["count"] = 8,
-									["refresh"] = 10,
-									["uptime"] = 58,
-								},
-								["Shattered Hand Warhound"] = {
-									["count"] = 10,
-									["refresh"] = 6,
-									["uptime"] = 33,
-								},
-								["Bleeding Hollow Archer"] = {
-									["count"] = 4,
-									["refresh"] = 5,
-									["uptime"] = 30,
-								},
-								["Bonechewer Ravener"] = {
-									["count"] = 3,
-									["refresh"] = 7,
-									["uptime"] = 53,
-								},
-								["Bonechewer Destroyer"] = {
-									["count"] = 6,
-									["refresh"] = 14,
-									["uptime"] = 64,
-								},
-								["Bonechewer Beastmaster"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 23,
-								},
-								["Bonechewer Ripper"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 27,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 18,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 4,
-									["refresh"] = 3,
-									["uptime"] = 40,
-								},
-							},
-							["uptime"] = 100,
+							["uptime"] = 1,
 						},
 						[45524] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 16,
 							["targets"] = {
-								["Bleeding Hollow Scryer"] = {
-									["uptime"] = 10,
+								["Unbound Seer"] = {
+									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 10,
+							["uptime"] = 4,
 						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[49039] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 10,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 24,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 25,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[48792] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 102.19,
-					["totaldamagetaken"] = 38222,
-					["damage"] = 493368,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 3077,
-							["criticalamount"] = 37263,
-							["id"] = 6603,
-							["hitmax"] = 3274,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 4725,
-									["amount"] = 28133,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 10247,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 5234,
-								},
-							},
-							["overkill"] = 4725,
-							["count"] = 8,
-							["criticalmax"] = 6973,
-							["critical"] = 6,
-							["amount"] = 43614,
-							["school"] = 1,
-							["hit"] = 2,
-							["criticalmin"] = 5234,
-							["hitamount"] = 6351,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 212,
-							["id"] = 71904,
-							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 452,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 2552,
-								},
-								["Bonechewer Beastmaster"] = {
-									["amount"] = 240,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 993,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 255,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 1331,
-								},
-								["Bonechewer Ripper"] = {
-									["amount"] = 256,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 1011,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 20,
-							["hit"] = 20,
-							["school"] = 32,
-							["hitmax"] = 840,
-							["amount"] = 7090,
-							["hitamount"] = 7090,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1172,
-							["id"] = 49909,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1172,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 1172,
-							["amount"] = 1172,
-							["hitamount"] = 1172,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 638,
-							["id"] = 50526,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 1228,
-									["amount"] = 41459,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 2494,
-									["amount"] = 19777,
-								},
-								["Bleeding Hollow Archer"] = {
-									["overkill"] = 409,
-									["amount"] = 21564,
-								},
-								["Bonechewer Ravener"] = {
-									["overkill"] = 963,
-									["amount"] = 17010,
-								},
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 732,
-									["amount"] = 31846,
-								},
-								["Bonechewer Beastmaster"] = {
-									["amount"] = 6686,
-								},
-								["Bonechewer Ripper"] = {
-									["amount"] = 8038,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["overkill"] = 842,
-									["amount"] = 14503,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 10704,
-								},
-							},
-							["overkill"] = 6668,
-							["casts"] = 1,
-							["count"] = 190,
-							["hit"] = 190,
-							["school"] = 32,
-							["hitmax"] = 1118,
-							["amount"] = 171587,
-							["hitamount"] = 171587,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 777,
-							["id"] = 55078,
-							["targets"] = {
-								["Bonechewer Beastmaster"] = {
-									["overkill"] = 179,
-									["amount"] = 1904,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 6808,
-								},
-								["Bonechewer Ripper"] = {
-									["amount"] = 953,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 15574,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 1962,
-									["amount"] = 13305,
-								},
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 1489,
-									["amount"] = 11118,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 613,
-									["amount"] = 8963,
-								},
-								["Bleeding Hollow Archer"] = {
-									["overkill"] = 322,
-									["amount"] = 10677,
-								},
-							},
-							["overkill"] = 4565,
-							["count"] = 76,
-							["hit"] = 76,
-							["school"] = 32,
-							["hitmax"] = 1048,
-							["amount"] = 69302,
-							["hitamount"] = 69302,
-						},
-						["Death Strike"] = {
-							["criticalamount"] = 8943,
-							["id"] = 49924,
-							["targets"] = {
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 3989,
-									["amount"] = 4428,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 4515,
-								},
-							},
-							["overkill"] = 3989,
-							["casts"] = 4,
-							["critical"] = 2,
-							["amount"] = 8943,
-							["school"] = 1,
-							["criticalmin"] = 4428,
-							["criticalmax"] = 4515,
-							["count"] = 2,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 8961,
-							["id"] = 49921,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 4317,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 4644,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 8961,
-							["school"] = 1,
-							["criticalmin"] = 4317,
-							["criticalmax"] = 4644,
-							["count"] = 2,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 815,
-							["id"] = 55095,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 1206,
-									["amount"] = 23430,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 510,
-									["amount"] = 15255,
-								},
-								["Bleeding Hollow Archer"] = {
-									["overkill"] = 740,
-									["amount"] = 12435,
-								},
-								["Bonechewer Ravener"] = {
-									["overkill"] = 47,
-									["amount"] = 13861,
-								},
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 2059,
-									["amount"] = 27867,
-								},
-								["Bonechewer Beastmaster"] = {
-									["amount"] = 5789,
-								},
-								["Bonechewer Ripper"] = {
-									["overkill"] = 529,
-									["amount"] = 7840,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["overkill"] = 46,
-									["amount"] = 16537,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 13007,
-								},
-							},
-							["overkill"] = 5137,
-							["count"] = 138,
-							["hit"] = 138,
-							["school"] = 16,
-							["hitmax"] = 1103,
-							["amount"] = 136021,
-							["hitamount"] = 136021,
-						},
-						["Death and Decay"] = {
-							["criticalmin"] = 1170,
-							["hitmin"] = 543,
-							["criticalamount"] = 18903,
-							["id"] = 52212,
-							["criticalmax"] = 1454,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 1139,
-									["amount"] = 24380,
-								},
-								["Bonechewer Destroyer"] = {
-									["overkill"] = 1609,
-									["amount"] = 6448,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 8004,
-								},
-								["Shattered Hand Warhound"] = {
-									["overkill"] = 936,
-									["amount"] = 5426,
-								},
-								["Bleeding Hollow Archer"] = {
-									["overkill"] = 256,
-									["amount"] = 2420,
-								},
-							},
-							["overkill"] = 3940,
-							["critical"] = 15,
-							["casts"] = 2,
-							["count"] = 61,
-							["hit"] = 46,
-							["school"] = 32,
-							["hitmax"] = 696,
-							["amount"] = 46678,
-							["hitamount"] = 27775,
-						},
-					},
-					["damagetaken"] = 38222,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[47633] = {
-							["overheal"] = 0,
-							["criticalamount"] = 2452,
-							["max"] = 3787,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 10025,
-								},
-							},
-							["min"] = 1893,
-							["criticalmax"] = 2452,
-							["critical"] = 1,
-							["amount"] = 10025,
-							["school"] = 32,
-							["criticalmin"] = 2452,
-							["count"] = 4,
-						},
-						[48743] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 6004,
-							["school"] = 32,
-							["max"] = 6004,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 6004,
-								},
-							},
-							["min"] = 6004,
-						},
-						[53365] = {
-							["overheal"] = 0,
-							["criticalamount"] = 675,
-							["max"] = 675,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 675,
-								},
-							},
-							["min"] = 675,
-							["criticalmax"] = 675,
-							["critical"] = 1,
-							["amount"] = 675,
-							["school"] = 1,
-							["criticalmin"] = 675,
-							["count"] = 1,
-						},
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 6000,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 6000,
-							["school"] = 1,
-							["max"] = 1200,
-							["ishot"] = true,
-							["min"] = 600,
-						},
-						[45470] = {
-							["overheal"] = 0,
-							["casts"] = 2,
-							["count"] = 1,
-							["amount"] = 2252,
-							["school"] = 1,
-							["max"] = 2252,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 2252,
-								},
-							},
-							["min"] = 2252,
-						},
-					},
-					["damagetakenspells"] = {
-						["Strike"] = {
-							["hitmin"] = 148,
-							["id"] = 14516,
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 615,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 159,
-							["amount"] = 615,
-							["hitamount"] = 615,
-						},
-						["Melee"] = {
-							["DODGE"] = 27,
-							["hitmin"] = 16,
-							["criticalmin"] = 224,
-							["sources"] = {
-								["Bonechewer Beastmaster"] = {
-									["amount"] = 1603,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 5185,
-								},
-								["Bleeding Hollow Scryer"] = {
-									["amount"] = 191,
-								},
-								["Bonechewer Destroyer"] = {
-									["amount"] = 8084,
-								},
-								["Bonechewer Ripper"] = {
-									["amount"] = 4176,
-								},
-								["Bonechewer Ravener"] = {
-									["amount"] = 5643,
-								},
-								["Shattered Hand Warhound"] = {
-									["amount"] = 1023,
-								},
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 2474,
-								},
-							},
-							["amount"] = 28379,
-							["MISS"] = 55,
-							["criticalamount"] = 1278,
-							["id"] = 6603,
-							["blocked"] = 327,
-							["BLOCK"] = 5,
-							["criticalmax"] = 520,
-							["PARRY"] = 29,
-							["hitmax"] = 273,
-							["hit"] = 244,
-							["school"] = 1,
-							["critical"] = 4,
-							["count"] = 364,
-							["hitamount"] = 27101,
-						},
-						["Demoralizing Shout"] = {
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 11,
-							["id"] = 16244,
-						},
-						["Shadow Bolt"] = {
-							["sources"] = {
-								["Bleeding Hollow Scryer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 11,
-							["id"] = 12471,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 298,
-							["id"] = 16856,
-							["PARRY"] = 1,
-							["amount"] = 2619,
-							["sources"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 2619,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 538,
-							["MISS"] = 2,
-							["hitamount"] = 2619,
-						},
-						["Carnivorous Bite (DoT)"] = {
-							["hitmin"] = 112,
-							["id"] = 30639,
-							["sources"] = {
-								["Shattered Hand Warhound"] = {
-									["amount"] = 6480,
-								},
-							},
-							["count"] = 17,
-							["hit"] = 17,
-							["school"] = 1,
-							["hitmax"] = 640,
-							["amount"] = 6480,
-							["hitamount"] = 6480,
-						},
-						["Scorch"] = {
-							["sources"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 0,
-							["school"] = 4,
-							["MISS"] = 14,
-							["id"] = 36807,
-						},
-						["Knock Away"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Bonechewer Destroyer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 10101,
-						},
-						["Uppercut"] = {
-							["hitmin"] = 129,
-							["id"] = 10966,
-							["hitmax"] = 129,
-							["sources"] = {
-								["Bonechewer Beastmaster"] = {
-									["amount"] = 129,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 129,
-							["MISS"] = 1,
-							["hitamount"] = 129,
-						},
-						["Fear"] = {
-							["sources"] = {
-								["Bleeding Hollow Scryer"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 1,
-							["id"] = 30615,
-						},
-					},
-					["heal"] = 24956,
-					["name"] = "Urgash",
-					["ccdone"] = 2,
-					["overkill"] = 29024,
-					["overheal"] = 0,
-					["totaldamage"] = 493368,
-				}, -- [1]
-				{
-					["last"] = 4489.64,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[33982] = {
+						[55095] = {
 							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 4,
+							["count"] = 1,
+							["school"] = 16,
 							["targets"] = {
-								["Bonechewer Ravener"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 4,
 									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 6,
 								},
 							},
-							["uptime"] = 9,
+							["uptime"] = 4,
 						},
-						[57330] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 72,
+							["uptime"] = 6,
 						},
-						[50259] = {
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[68766] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 1,
+							["school"] = 32,
 							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
+								["Unbound Seer"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 3,
 						},
-						[2479] = {
+						[45529] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 6,
 						},
-						[5215] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[58181] = {
+						[51735] = {
 							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 4,
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
 							["targets"] = {
-								["Bonechewer Ravener"] = {
+								["Unbound Seer"] = {
 									["count"] = 1,
 									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 6,
+									["uptime"] = 4,
 								},
 							},
-							["uptime"] = 9,
+							["uptime"] = 4,
 						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[69369] = {
+						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 4,
 						},
-						[24932] = {
+						[53365] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 6,
 						},
 					},
-					["time"] = 20.25,
-					["totaldamagetaken"] = 937,
-					["damage"] = 6930,
+					["role"] = "DAMAGER",
+					["time"] = 4.82,
+					["totaldamagetaken"] = 663,
+					["damage"] = 9833,
 					["damagespells"] = {
-						["Ferocious Bite"] = {
-							["hitmin"] = 719,
-							["id"] = 31018,
+						["Melee"] = {
+							["hitmin"] = 2175,
+							["id"] = 6603,
 							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 719,
+								["Unbound Seer"] = {
+									["amount"] = 4606,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2431,
+							["amount"] = 4606,
+							["hitamount"] = 4606,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 923,
+							["id"] = 55078,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 417,
+									["amount"] = 923,
+								},
+							},
+							["overkill"] = 417,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 923,
+							["amount"] = 923,
+							["hitamount"] = 923,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1434,
+							["id"] = 49921,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 1434,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 719,
-							["amount"] = 719,
-							["hitamount"] = 719,
+							["hitmax"] = 1434,
+							["amount"] = 1434,
+							["hitamount"] = 1434,
 						},
-						["Mangle (Cat)"] = {
-							["hitmin"] = 392,
-							["criticalamount"] = 3516,
-							["id"] = 33982,
-							["hitmax"] = 456,
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 993,
+							["id"] = 55095,
 							["targets"] = {
-								["Bonechewer Ravener"] = {
-									["amount"] = 1164,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 3639,
+								["Unbound Seer"] = {
+									["amount"] = 993,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 3,
-							["casts"] = 7,
-							["critical"] = 4,
-							["amount"] = 4803,
-							["school"] = 1,
-							["criticalmin"] = 772,
-							["criticalmax"] = 924,
-							["hitamount"] = 1287,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 993,
+							["amount"] = 993,
+							["hitamount"] = 993,
 						},
-						["Melee"] = {
-							["hitmin"] = 81,
-							["criticalamount"] = 570,
-							["id"] = 6603,
-							["hitmax"] = 104,
+						["Death Strike"] = {
+							["hitmin"] = 1877,
+							["id"] = 49924,
 							["targets"] = {
-								["Bonechewer Ravener"] = {
-									["overkill"] = 30,
-									["amount"] = 399,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 67,
-									["amount"] = 1009,
+								["Unbound Seer"] = {
+									["amount"] = 1877,
 								},
 							},
-							["overkill"] = 97,
-							["count"] = 12,
-							["criticalmax"] = 214,
-							["critical"] = 3,
-							["amount"] = 1408,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["hit"] = 9,
-							["criticalmin"] = 152,
-							["hitamount"] = 838,
+							["hitmax"] = 1877,
+							["amount"] = 1877,
+							["hitamount"] = 1877,
 						},
 					},
-					["overheal"] = 365,
-					["damagetaken"] = 937,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
+					["damagetaken"] = 663,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
 					["healspells"] = {
-						[34299] = {
-							["overheal"] = 365,
-							["max"] = 187,
-							["count"] = 3,
-							["amount"] = 187,
+						[45470] = {
+							["overheal"] = 3150,
+							["count"] = 1,
+							["amount"] = 2139,
 							["school"] = 1,
-							["min"] = 187,
-							["ishot"] = true,
+							["max"] = 2139,
 							["targets"] = {
-								["Onitora"] = {
-									["overheal"] = 365,
-									["amount"] = 187,
+								["Urgash"] = {
+									["overheal"] = 3150,
+									["amount"] = 2139,
 								},
+							},
+							["min"] = 2139,
+						},
+					},
+					["damagetakenspells"] = {
+						["Arcane Bolt"] = {
+							["hitmin"] = 168,
+							["id"] = 38204,
+							["hitmax"] = 254,
+							["sources"] = {
+								["Unbound Seer"] = {
+									["amount"] = 663,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 64,
+							["resisted"] = 42,
+							["amount"] = 663,
+							["hitamount"] = 663,
+						},
+					},
+					["heal"] = 2139,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["overkill"] = 417,
+					["overheal"] = 3150,
+					["totaldamage"] = 9833,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 663,
+			["overheal"] = 3150,
+			["starttime"] = 1699202559,
+			["etotaldamagetaken"] = 9833,
+			["overkill"] = 417,
+			["edamagetaken"] = 9833,
+			["heal"] = 2139,
+			["name"] = "Unbound Seer (4)",
+			["mobname"] = "Unbound Seer",
+			["edamage"] = 663,
+			["last_action"] = 1699202565,
+			["endtime"] = 1699202565,
+		}, -- [6]
+		{
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 2,
+							["targets"] = {
+								["Unbound Seer"] = 1,
+								["Lost Shandaral Spirit"] = 1,
 							},
 						},
 					},
-					["overkill"] = 97,
-					["damagetakenspells"] = {
-						["Aimed Shot"] = {
-							["hitmin"] = 937,
-							["id"] = 30614,
-							["sources"] = {
-								["Bleeding Hollow Archer"] = {
-									["amount"] = 937,
+					["last"] = 23639.311,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Lost Shandaral Spirit"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 32,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["uptime"] = 23,
+									["count"] = 7,
+								},
+							},
+							["uptime"] = 23,
+						},
+						[45529] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 8,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["count"] = 6,
+									["refresh"] = 1,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[73422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 8,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 19,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 27,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 32,
+							["refresh"] = 3,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 2,
+								},
+								["Lost Shandaral Spirit"] = {
+									["count"] = 6,
+									["refresh"] = 2,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Lost Shandaral Spirit"] = {
+									["uptime"] = 10,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48707] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 5,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Lost Shandaral Spirit"] = {
+									["count"] = 6,
+									["refresh"] = 1,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 21,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
+					["absorbspells"] = {
+						[48707] = {
+							["min"] = 254,
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 514,
+							["school"] = 32,
+							["targets"] = {
+								["Urgash"] = 514,
+							},
+							["max"] = 260,
+						},
+					},
+					["time"] = 25.4,
+					["totaldamagetaken"] = 9715,
+					["runicspells"] = {
+						[49088] = 4,
+						[45529] = 10,
+					},
+					["damage"] = 113007,
+					["damagespells"] = {
+						["Melee (Batflayer)"] = {
+							["hitmin"] = 699,
+							["id"] = 6603,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 699,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 937,
-							["amount"] = 937,
-							["hitamount"] = 937,
+							["hitmax"] = 699,
+							["amount"] = 699,
+							["hitamount"] = 699,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2052,
+							["id"] = 6603,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 4799,
+								},
+								["Lost Shandaral Spirit"] = {
+									["overkill"] = 1311,
+									["amount"] = 11686,
+								},
+							},
+							["overkill"] = 1311,
+							["count"] = 8,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 2676,
+							["amount"] = 16485,
+							["hitamount"] = 16485,
+						},
+						["Death and Decay"] = {
+							["criticalmax"] = 1220,
+							["hitmin"] = 469,
+							["criticalamount"] = 17073,
+							["id"] = 52212,
+							["criticalmin"] = 981,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 771,
+									["amount"] = 3789,
+								},
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 38232,
+								},
+							},
+							["overkill"] = 771,
+							["critical"] = 17,
+							["casts"] = 1,
+							["count"] = 70,
+							["hit"] = 53,
+							["school"] = 32,
+							["hitmax"] = 479,
+							["amount"] = 42021,
+							["hitamount"] = 24948,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 4755,
+							["id"] = 47632,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 4755,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 4755,
+							["amount"] = 4755,
+							["hitamount"] = 4755,
+						},
+						["Claw (Batflayer)"] = {
+							["hitmin"] = 1052,
+							["id"] = 47468,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["overkill"] = 327,
+									["amount"] = 1052,
+								},
+							},
+							["overkill"] = 327,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1052,
+							["amount"] = 1052,
+							["hitamount"] = 1052,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1089,
+							["id"] = 50526,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["overkill"] = 513,
+									["amount"] = 4356,
+								},
+							},
+							["overkill"] = 513,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 1089,
+							["amount"] = 4356,
+							["hitamount"] = 4356,
+						},
+						["Blood Boil"] = {
+							["hitmin"] = 816,
+							["criticalamount"] = 5172,
+							["id"] = 49941,
+							["criticalmin"] = 1715,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 12615,
+								},
+							},
+							["criticalmax"] = 1732,
+							["critical"] = 3,
+							["casts"] = 2,
+							["count"] = 12,
+							["hit"] = 9,
+							["school"] = 32,
+							["hitmax"] = 836,
+							["amount"] = 12615,
+							["hitamount"] = 7443,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1173,
+							["id"] = 55078,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 8216,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 32,
+							["hitmax"] = 1174,
+							["amount"] = 8216,
+							["hitamount"] = 8216,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 424,
+							["id"] = 71904,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 2274,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 513,
+							["amount"] = 2274,
+							["hitamount"] = 2274,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1599,
+							["criticalamount"] = 4339,
+							["id"] = 49921,
+							["criticalmin"] = 4339,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 1599,
+								},
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 4339,
+								},
+							},
+							["criticalmax"] = 4339,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1599,
+							["amount"] = 5938,
+							["hitamount"] = 1599,
+						},
+						["Death Strike"] = {
+							["criticalmin"] = 3878,
+							["hitmin"] = 1841,
+							["criticalamount"] = 3878,
+							["id"] = 49924,
+							["criticalmax"] = 3878,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["overkill"] = 3704,
+									["amount"] = 5719,
+								},
+							},
+							["overkill"] = 3704,
+							["critical"] = 1,
+							["casts"] = 4,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1841,
+							["amount"] = 5719,
+							["hitamount"] = 1841,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1164,
+							["id"] = 55095,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["overkill"] = 511,
+									["amount"] = 8877,
+								},
+							},
+							["overkill"] = 511,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 16,
+							["hitmax"] = 1311,
+							["amount"] = 8877,
+							["hitamount"] = 8877,
 						},
 					},
-					["heal"] = 187,
-					["name"] = "Onitora",
-					["manaspells"] = {
-						[68285] = 823,
+					["absorb"] = 514,
+					["damagetaken"] = 9201,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 0,
+							["criticalamount"] = 1585,
+							["max"] = 1585,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 2642,
+								},
+							},
+							["min"] = 1057,
+							["criticalmax"] = 1585,
+							["count"] = 2,
+							["amount"] = 2642,
+							["school"] = 1,
+							["criticalmin"] = 1585,
+							["critical"] = 1,
+						},
+						[45470] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 5289,
+							["school"] = 1,
+							["max"] = 5289,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 5289,
+								},
+							},
+							["min"] = 5289,
+						},
 					},
-					["mana"] = 823,
-					["totaldamage"] = 6930,
-					["role"] = "TANK",
+					["damagetakenspells"] = {
+						["Moonfire (DoT)"] = {
+							["hitmin"] = 89,
+							["id"] = 15798,
+							["hitmax"] = 112,
+							["sources"] = {
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 1720,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 16,
+							["school"] = 64,
+							["resisted"] = 66,
+							["amount"] = 1720,
+							["hitamount"] = 1720,
+						},
+						["Moonfire"] = {
+							["total"] = 1481,
+							["hitmin"] = 212,
+							["id"] = 15798,
+							["amount"] = 967,
+							["hitmax"] = 266,
+							["sources"] = {
+								["Lost Shandaral Spirit"] = {
+									["total"] = 1481,
+									["amount"] = 967,
+								},
+							},
+							["count"] = 6,
+							["ABSORB"] = 2,
+							["school"] = 64,
+							["resisted"] = 49,
+							["hit"] = 4,
+							["hitamount"] = 967,
+						},
+						["Melee"] = {
+							["DODGE"] = 5,
+							["hitmin"] = 141,
+							["id"] = 6603,
+							["blocked"] = 187,
+							["BLOCK"] = 1,
+							["amount"] = 6099,
+							["PARRY"] = 11,
+							["sources"] = {
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 6099,
+								},
+							},
+							["count"] = 55,
+							["hit"] = 36,
+							["school"] = 1,
+							["hitmax"] = 196,
+							["MISS"] = 2,
+							["hitamount"] = 6099,
+						},
+						["Arcane Bolt"] = {
+							["hitmin"] = 198,
+							["id"] = 38204,
+							["sources"] = {
+								["Unbound Seer"] = {
+									["amount"] = 415,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 64,
+							["hitmax"] = 217,
+							["amount"] = 415,
+							["hitamount"] = 415,
+						},
+					},
+					["runic"] = 14,
+					["heal"] = 7931,
+					["name"] = "Urgash",
+					["ccdone"] = 2,
+					["overkill"] = 7137,
+					["overheal"] = 0,
+					["totaldamage"] = 113007,
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 6099,
+								},
+							},
+							["amount"] = 6099,
+						},
+						[15798] = {
+							["school"] = 64,
+							["total"] = 514,
+							["targets"] = {
+								["Urgash"] = {
+									["total"] = 3201,
+									["amount"] = 2687,
+								},
+							},
+							["amount"] = 2687,
+						},
+					},
+					["damagetaken"] = 102820,
+					["id"] = "0xF1300079FF17273B",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8216,
+								},
+							},
+							["amount"] = 8216,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 12615,
+								},
+							},
+							["amount"] = 12615,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 1311,
+									["amount"] = 12385,
+								},
+							},
+							["overkill"] = 1311,
+							["amount"] = 12385,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 511,
+									["amount"] = 8877,
+								},
+							},
+							["overkill"] = 511,
+							["amount"] = 8877,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 327,
+									["amount"] = 1052,
+								},
+							},
+							["overkill"] = 327,
+							["amount"] = 1052,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4339,
+								},
+							},
+							["amount"] = 4339,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4755,
+								},
+							},
+							["amount"] = 4755,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 3704,
+									["amount"] = 5719,
+								},
+							},
+							["overkill"] = 3704,
+							["amount"] = 5719,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2274,
+								},
+							},
+							["amount"] = 2274,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 513,
+									["amount"] = 4356,
+								},
+							},
+							["overkill"] = 513,
+							["amount"] = 4356,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 38232,
+								},
+							},
+							["amount"] = 38232,
+						},
+					},
+					["totaldamage"] = 9300,
+					["name"] = "Lost Shandaral Spirit",
+					["totaldamagetaken"] = 102820,
+					["flag"] = 2600,
+					["damage"] = 8786,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[38204] = {
+							["school"] = 64,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 415,
+								},
+							},
+							["amount"] = 415,
+						},
+					},
+					["damagetaken"] = 10187,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4799,
+								},
+							},
+							["amount"] = 4799,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 771,
+									["amount"] = 3789,
+								},
+							},
+							["overkill"] = 771,
+							["amount"] = 3789,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1599,
+								},
+							},
+							["amount"] = 1599,
+						},
+					},
+					["name"] = "Unbound Seer",
+					["totaldamage"] = 415,
+					["totaldamagetaken"] = 10187,
+					["id"] = "0xF13000828E171F9E",
+					["damage"] = 415,
 				}, -- [2]
 			},
-			["type"] = "party",
-			["damagetaken"] = 39159,
-			["overheal"] = 365,
-			["etotaldamage"] = 39159,
-			["overkill"] = 29121,
-			["edamagetaken"] = 500298,
-			["heal"] = 25143,
-			["name"] = "Bonechewer Hungerer (9)",
-			["mobname"] = "Bonechewer Hungerer",
-			["starttime"] = 1699125917,
-			["edamage"] = 39159,
-			["last_action"] = 1699126021,
-			["endtime"] = 1699126021,
+			["absorb"] = 514,
+			["totaldamage"] = 113007,
+			["time"] = 27,
+			["runic"] = 14,
+			["totaldamagetaken"] = 9715,
+			["etotaldamage"] = 9715,
+			["last_time"] = 23640.387,
+			["starttime"] = 1699202531,
+			["type"] = "none",
+			["damagetaken"] = 9201,
+			["ccdone"] = 2,
+			["overheal"] = 0,
+			["etotaldamagetaken"] = 113007,
+			["overkill"] = 7137,
+			["edamagetaken"] = 113007,
+			["heal"] = 7931,
+			["name"] = "Lost Shandaral Spirit (2)",
+			["mobname"] = "Lost Shandaral Spirit",
+			["damage"] = 113007,
+			["edamage"] = 9201,
+			["last_action"] = 1699202557,
+			["endtime"] = 1699202558,
+		}, -- [7]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 147,
+								},
+							},
+							["amount"] = 147,
+						},
+					},
+					["damagetaken"] = 19550,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 7375,
+									["amount"] = 19550,
+								},
+							},
+							["overkill"] = 7375,
+							["amount"] = 19550,
+						},
+					},
+					["name"] = "Lost Shandaral Spirit",
+					["totaldamage"] = 147,
+					["totaldamagetaken"] = 19550,
+					["id"] = "0xF1300079FF17226C",
+					["damage"] = 147,
+				}, -- [1]
+			},
+			["totaldamage"] = 19550,
+			["time"] = 5,
+			["totaldamagetaken"] = 147,
+			["etotaldamagetaken"] = 19550,
+			["last_time"] = 23588.637,
+			["players"] = {
+				{
+					["last"] = 23587.056,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 3.33,
+					["totaldamagetaken"] = 147,
+					["damage"] = 19550,
+					["damagespells"] = {
+						["Death Coil"] = {
+							["criticalmax"] = 7888,
+							["hitmin"] = 3774,
+							["criticalamount"] = 15776,
+							["id"] = 47632,
+							["criticalmin"] = 7888,
+							["targets"] = {
+								["Lost Shandaral Spirit"] = {
+									["overkill"] = 7375,
+									["amount"] = 19550,
+								},
+							},
+							["overkill"] = 7375,
+							["critical"] = 2,
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3774,
+							["amount"] = 19550,
+							["hitamount"] = 3774,
+						},
+					},
+					["damagetaken"] = 147,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 147,
+							["id"] = 6603,
+							["sources"] = {
+								["Lost Shandaral Spirit"] = {
+									["amount"] = 147,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 147,
+							["amount"] = 147,
+							["hitamount"] = 147,
+						},
+					},
+					["name"] = "Urgash",
+					["overkill"] = 7375,
+					["totaldamage"] = 19550,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 147,
+			["damage"] = 19550,
+			["etotaldamage"] = 147,
+			["overkill"] = 7375,
+			["edamagetaken"] = 19550,
+			["name"] = "Lost Shandaral Spirit",
+			["mobname"] = "Lost Shandaral Spirit",
+			["starttime"] = 1699202501,
+			["edamage"] = 147,
+			["last_action"] = 1699202505,
+			["endtime"] = 1699202506,
+		}, -- [8]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0x07000000009D7074",
+					["name"] = "Aliyolmeh",
+					["totaldamagetaken"] = 11291,
+					["flag"] = 66888,
+					["class"] = "HUNTER",
+					["damagetaken"] = 11291,
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3105,
+								},
+							},
+							["amount"] = 3105,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 781,
+								},
+							},
+							["amount"] = 781,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3388,
+								},
+							},
+							["amount"] = 3388,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2440,
+								},
+							},
+							["amount"] = 2440,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 624,
+									["amount"] = 1577,
+								},
+							},
+							["overkill"] = 624,
+							["amount"] = 1577,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 11291,
+			["time"] = 24,
+			["totaldamagetaken"] = 0,
+			["etotaldamagetaken"] = 11291,
+			["last_time"] = 23555.121,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 2,
+							["targets"] = {
+								["Aliyolmeh"] = 2,
+							},
+						},
+					},
+					["last"] = 23545.457,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["uptime"] = 11,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 13,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 24,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48707] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 5,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 7,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 13,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 11,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+					},
+					["time"] = 13.7,
+					["cctaken"] = 1,
+					["totaldamagetaken"] = 0,
+					["damage"] = 11291,
+					["damagespells"] = {
+						["Melee (Batflayer)"] = {
+							["hitmin"] = 533,
+							["id"] = 6603,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 533,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 533,
+							["amount"] = 533,
+							["hitamount"] = 533,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1907,
+							["id"] = 6603,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 1907,
+								},
+							},
+							["PARRY"] = 1,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1907,
+							["amount"] = 1907,
+							["hitamount"] = 1907,
+						},
+						["Claw (Batflayer)"] = {
+							["hitmin"] = 788,
+							["id"] = 47468,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["overkill"] = 624,
+									["amount"] = 1577,
+								},
+							},
+							["overkill"] = 624,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 789,
+							["amount"] = 1577,
+							["hitamount"] = 1577,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 781,
+							["id"] = 50526,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 781,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 781,
+							["amount"] = 781,
+							["hitamount"] = 781,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 3388,
+							["id"] = 49921,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 3388,
+								},
+							},
+							["criticalmin"] = 3388,
+							["PARRY"] = 1,
+							["count"] = 2,
+							["amount"] = 3388,
+							["school"] = 1,
+							["criticalmax"] = 3388,
+							["critical"] = 1,
+							["casts"] = 2,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 776,
+							["id"] = 55095,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 3105,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 777,
+							["amount"] = 3105,
+							["hitamount"] = 3105,
+						},
+						["Death Grip"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["DEFLECT"] = 1,
+							["targets"] = {
+								["Aliyolmeh"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 49576,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["damagetakenspells"] = {
+						["Freezing Trap Effect"] = {
+							["sources"] = {
+								["World Invisible Trigger"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["IMMUNE"] = 1,
+							["id"] = 14309,
+						},
+					},
+					["name"] = "Urgash",
+					["ccdone"] = 2,
+					["overkill"] = 624,
+					["totaldamage"] = 11291,
+					["cctakenspells"] = {
+						[14309] = {
+							["count"] = 1,
+							["sources"] = {
+								["Aliyolmeh"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 0,
+			["mobname"] = "Aliyolmeh",
+			["cctaken"] = 1,
+			["overkill"] = 624,
+			["edamagetaken"] = 11291,
+			["starttime"] = 1699202449,
+			["name"] = "Aliyolmeh",
+			["ccdone"] = 2,
+			["damage"] = 11291,
+			["last_action"] = 1699202472,
+			["endtime"] = 1699202473,
+		}, -- [9]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[38204] = {
+							["school"] = 64,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 471,
+								},
+							},
+							["amount"] = 471,
+						},
+					},
+					["damagetaken"] = 10933,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 887,
+								},
+							},
+							["amount"] = 887,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 1193,
+									["amount"] = 1701,
+								},
+							},
+							["overkill"] = 1193,
+							["amount"] = 1701,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2384,
+								},
+							},
+							["amount"] = 2384,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4461,
+								},
+							},
+							["amount"] = 4461,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1500,
+								},
+							},
+							["amount"] = 1500,
+						},
+					},
+					["name"] = "Unbound Seer",
+					["totaldamage"] = 471,
+					["totaldamagetaken"] = 10933,
+					["id"] = "0xF13000828E1725B7",
+					["damage"] = 471,
+				}, -- [1]
+			},
+			["damage"] = 10933,
+			["totaldamage"] = 10933,
+			["time"] = 6,
+			["totaldamagetaken"] = 471,
+			["etotaldamagetaken"] = 10933,
+			["last_time"] = 23504.504,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = 1,
+							},
+						},
+					},
+					["last"] = 23504.016,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[73422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 6,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 5,
+						},
+					},
+					["time"] = 4.69,
+					["totaldamagetaken"] = 471,
+					["damage"] = 10933,
+					["damagespells"] = {
+						["Melee"] = {
+							["criticalamount"] = 4461,
+							["id"] = 6603,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 4461,
+								},
+							},
+							["criticalmax"] = 4461,
+							["critical"] = 1,
+							["amount"] = 4461,
+							["school"] = 1,
+							["criticalmin"] = 4461,
+							["count"] = 1,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 2384,
+							["id"] = 71904,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 2384,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 2384,
+							["amount"] = 2384,
+							["hitamount"] = 2384,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1500,
+							["id"] = 49921,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 1500,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1500,
+							["amount"] = 1500,
+							["hitamount"] = 1500,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 887,
+							["id"] = 55095,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 887,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 887,
+							["amount"] = 887,
+							["hitamount"] = 887,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 1701,
+							["id"] = 49924,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 1193,
+									["amount"] = 1701,
+								},
+							},
+							["overkill"] = 1193,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1701,
+							["amount"] = 1701,
+							["hitamount"] = 1701,
+						},
+					},
+					["damagetaken"] = 471,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 753,
+							["count"] = 1,
+							["amount"] = 304,
+							["school"] = 1,
+							["max"] = 304,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 753,
+									["amount"] = 304,
+								},
+							},
+							["min"] = 304,
+						},
+						[45470] = {
+							["overheal"] = 5047,
+							["count"] = 1,
+							["amount"] = 242,
+							["school"] = 1,
+							["max"] = 242,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 5047,
+									["amount"] = 242,
+								},
+							},
+							["min"] = 242,
+						},
+					},
+					["damagetakenspells"] = {
+						["Arcane Bolt"] = {
+							["hitmin"] = 229,
+							["id"] = 38204,
+							["hitmax"] = 242,
+							["sources"] = {
+								["Unbound Seer"] = {
+									["amount"] = 471,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 64,
+							["resisted"] = 25,
+							["amount"] = 471,
+							["hitamount"] = 471,
+						},
+					},
+					["heal"] = 546,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["overkill"] = 1193,
+					["overheal"] = 5800,
+					["totaldamage"] = 10933,
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 471,
+			["overheal"] = 5800,
+			["starttime"] = 1699202416,
+			["etotaldamage"] = 471,
+			["overkill"] = 1193,
+			["edamagetaken"] = 10933,
+			["heal"] = 546,
+			["name"] = "Unbound Seer (3)",
+			["mobname"] = "Unbound Seer",
+			["ccdone"] = 1,
+			["edamage"] = 471,
+			["last_action"] = 1699202421,
+			["endtime"] = 1699202422,
+		}, -- [10]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 149,
+								},
+							},
+							["amount"] = 149,
+						},
+					},
+					["damagetaken"] = 10176,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 436,
+									["amount"] = 798,
+								},
+							},
+							["overkill"] = 436,
+							["amount"] = 798,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1257,
+								},
+							},
+							["amount"] = 1257,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4212,
+								},
+							},
+							["amount"] = 4212,
+						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1208,
+								},
+							},
+							["amount"] = 1208,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2701,
+								},
+							},
+							["amount"] = 2701,
+						},
+					},
+					["name"] = "Unbound Seer",
+					["totaldamage"] = 149,
+					["totaldamagetaken"] = 10176,
+					["id"] = "0xF13000828E172521",
+					["damage"] = 149,
+				}, -- [1]
+			},
+			["totaldamage"] = 10176,
+			["time"] = 5,
+			["damage"] = 10176,
+			["totaldamagetaken"] = 149,
+			["etotaldamagetaken"] = 10176,
+			["last_time"] = 23483.658,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = 1,
+							},
+						},
+					},
+					["last"] = 23483.657,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 3,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 2,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 5,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 3,
+						},
+					},
+					["time"] = 3.24,
+					["totaldamagetaken"] = 149,
+					["damage"] = 10176,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["hitmin"] = 2701,
+							["id"] = 55271,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 2701,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2701,
+							["amount"] = 2701,
+							["hitamount"] = 2701,
+						},
+						["Melee"] = {
+							["criticalamount"] = 4212,
+							["id"] = 6603,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 4212,
+								},
+							},
+							["criticalmax"] = 4212,
+							["critical"] = 1,
+							["amount"] = 4212,
+							["school"] = 1,
+							["criticalmin"] = 4212,
+							["count"] = 1,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1257,
+							["id"] = 49921,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 1257,
+								},
+							},
+							["blocked"] = 39,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1257,
+							["amount"] = 1257,
+							["hitamount"] = 1257,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 1208,
+							["id"] = 70890,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 1208,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 1208,
+							["amount"] = 1208,
+							["hitamount"] = 1208,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 798,
+							["id"] = 55095,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 436,
+									["amount"] = 798,
+								},
+							},
+							["overkill"] = 436,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 798,
+							["amount"] = 798,
+							["hitamount"] = 798,
+						},
+					},
+					["damagetaken"] = 149,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 149,
+							["id"] = 6603,
+							["sources"] = {
+								["Unbound Seer"] = {
+									["amount"] = 149,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 149,
+							["amount"] = 149,
+							["hitamount"] = 149,
+						},
+					},
+					["overkill"] = 436,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["totaldamage"] = 10176,
+					["interrupt"] = 1,
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[38204] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 149,
+			["interrupt"] = 1,
+			["etotaldamage"] = 149,
+			["overkill"] = 436,
+			["edamagetaken"] = 10176,
+			["starttime"] = 1699202397,
+			["name"] = "Unbound Seer (2)",
+			["mobname"] = "Unbound Seer",
+			["ccdone"] = 1,
+			["edamage"] = 149,
+			["last_action"] = 1699202400,
+			["endtime"] = 1699202402,
+		}, -- [11]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[38204] = {
+							["school"] = 64,
+							["total"] = 195,
+							["targets"] = {
+								["Urgash"] = {
+									["total"] = 195,
+									["amount"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["damagetaken"] = 21475,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[47481] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 144,
+								},
+							},
+							["amount"] = 144,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8456,
+								},
+							},
+							["amount"] = 8456,
+						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1023,
+								},
+							},
+							["amount"] = 1023,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 910,
+								},
+							},
+							["amount"] = 910,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1305,
+								},
+							},
+							["amount"] = 1305,
+						},
+						[55271] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2287,
+								},
+							},
+							["amount"] = 2287,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2821,
+								},
+							},
+							["amount"] = 2821,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 1950,
+									["amount"] = 3765,
+								},
+							},
+							["overkill"] = 1950,
+							["amount"] = 3765,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 369,
+									["amount"] = 764,
+								},
+							},
+							["overkill"] = 369,
+							["amount"] = 764,
+						},
+					},
+					["name"] = "Unbound Seer",
+					["totaldamage"] = 195,
+					["totaldamagetaken"] = 21475,
+					["id"] = "0xF13000828E1728FA",
+					["damage"] = 0,
+				}, -- [1]
+			},
+			["damage"] = 21475,
+			["totaldamage"] = 21475,
+			["time"] = 13,
+			["runic"] = 2,
+			["totaldamagetaken"] = 195,
+			["etotaldamagetaken"] = 21475,
+			["last_time"] = 23438.672,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[49560] = {
+							["count"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = 1,
+							},
+						},
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = 1,
+							},
+						},
+						[47481] = {
+							["count"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = 1,
+							},
+						},
+					},
+					["last"] = 23437.049,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[47481] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 11,
+						},
+						[48707] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 5,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 10,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 12,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["absorbspells"] = {
+						[48707] = {
+							["min"] = 195,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 195,
+							["school"] = 32,
+							["targets"] = {
+								["Urgash"] = 195,
+							},
+							["max"] = 195,
+						},
+					},
+					["time"] = 8.15,
+					["totaldamagetaken"] = 195,
+					["damage"] = 21475,
+					["damagespells"] = {
+						["Melee (Batflayer)"] = {
+							["glance"] = 617,
+							["hitmin"] = 565,
+							["id"] = 6603,
+							["glancemin"] = 617,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 1780,
+								},
+							},
+							["glancemax"] = 617,
+							["glancing"] = 1,
+							["blocked"] = 39,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 598,
+							["amount"] = 1780,
+							["hitamount"] = 1163,
+						},
+						["Scourge Strike"] = {
+							["hitmin"] = 2287,
+							["id"] = 55271,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 2287,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2287,
+							["amount"] = 2287,
+							["hitamount"] = 2287,
+						},
+						["Melee"] = {
+							["hitmin"] = 2270,
+							["criticalamount"] = 4406,
+							["id"] = 6603,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 6676,
+								},
+							},
+							["hitmax"] = 2270,
+							["count"] = 2,
+							["criticalmax"] = 4406,
+							["critical"] = 1,
+							["amount"] = 6676,
+							["school"] = 1,
+							["hit"] = 1,
+							["criticalmin"] = 4406,
+							["hitamount"] = 2270,
+						},
+						["Icy Touch"] = {
+							["criticalamount"] = 2821,
+							["id"] = 49909,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 2821,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 2821,
+							["school"] = 16,
+							["criticalmin"] = 2821,
+							["criticalmax"] = 2821,
+							["count"] = 1,
+						},
+						["Claw (Batflayer)"] = {
+							["hitmin"] = 910,
+							["id"] = 47468,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 910,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 910,
+							["amount"] = 910,
+							["hitamount"] = 910,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 1023,
+							["id"] = 70890,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 1023,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 1023,
+							["amount"] = 1023,
+							["hitamount"] = 1023,
+						},
+						["Gnaw (Batflayer)"] = {
+							["criticalamount"] = 144,
+							["id"] = 47481,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 144,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 144,
+							["school"] = 1,
+							["criticalmin"] = 144,
+							["criticalmax"] = 144,
+							["count"] = 1,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1305,
+							["id"] = 49921,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["amount"] = 1305,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1305,
+							["amount"] = 1305,
+							["hitamount"] = 1305,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 764,
+							["id"] = 55095,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 369,
+									["amount"] = 764,
+								},
+							},
+							["overkill"] = 369,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 764,
+							["amount"] = 764,
+							["hitamount"] = 764,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 3765,
+							["id"] = 47632,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 1950,
+									["amount"] = 3765,
+								},
+							},
+							["overkill"] = 1950,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3765,
+							["amount"] = 3765,
+							["hitamount"] = 3765,
+						},
+					},
+					["absorb"] = 195,
+					["damagetaken"] = 0,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["damagetakenspells"] = {
+						["Arcane Bolt"] = {
+							["total"] = 195,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 64,
+							["sources"] = {
+								["Unbound Seer"] = {
+									["total"] = 195,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 38204,
+						},
+					},
+					["overkill"] = 2319,
+					["name"] = "Urgash",
+					["ccdone"] = 3,
+					["runicspells"] = {
+						[49088] = 2,
+					},
+					["runic"] = 2,
+					["totaldamage"] = 21475,
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 0,
+			["absorb"] = 195,
+			["etotaldamage"] = 195,
+			["overkill"] = 2319,
+			["edamagetaken"] = 21475,
+			["starttime"] = 1699202343,
+			["name"] = "Unbound Seer",
+			["mobname"] = "Unbound Seer",
+			["ccdone"] = 3,
+			["edamage"] = 0,
+			["last_action"] = 1699202355,
+			["endtime"] = 1699202356,
 		}, -- [12]
 		{
 			["enemies"] = {
@@ -10987,612 +4876,354 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Urgash"] = {
-									["amount"] = 887,
+									["amount"] = 241,
 								},
 							},
-							["amount"] = 887,
+							["amount"] = 241,
 						},
 					},
-					["damagetaken"] = 20204,
-					["id"] = "0xF130004481000067",
-					["class"] = "BOSS",
+					["damagetaken"] = 12447,
+					["id"] = "0xF1300075FE2969BF",
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 904,
+									["amount"] = 825,
 								},
 							},
-							["amount"] = 904,
+							["amount"] = 825,
 						},
-						[49921] = {
+						[49924] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4765,
+									["amount"] = 4707,
 								},
 							},
-							["amount"] = 4765,
+							["amount"] = 4707,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7638,
-								},
-							},
-							["amount"] = 7638,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2916,
-								},
-							},
-							["amount"] = 2916,
-						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 922,
-									["amount"] = 3981,
-								},
-							},
-							["overkill"] = 922,
-							["amount"] = 3981,
-						},
-					},
-					["totaldamage"] = 887,
-					["name"] = "Vazruden",
-					["totaldamagetaken"] = 20204,
-					["flag"] = 68168,
-					["damage"] = 887,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 349,
-								},
-							},
-							["amount"] = 349,
-						},
-					},
-					["damagetaken"] = 36977,
-					["flag"] = 68168,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 888,
+									["overkill"] = 1068,
+									["amount"] = 1123,
 								},
 							},
-							["amount"] = 888,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 823,
-								},
-							},
-							["amount"] = 823,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 2732,
-									["amount"] = 14915,
-								},
-							},
-							["overkill"] = 2732,
-							["amount"] = 14915,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1726,
-								},
-							},
-							["amount"] = 1726,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1910,
-								},
-							},
-							["amount"] = 1910,
+							["overkill"] = 1068,
+							["amount"] = 1123,
 						},
 						[49921] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4655,
+									["amount"] = 1333,
 								},
 							},
-							["amount"] = 4655,
+							["amount"] = 1333,
 						},
-						[49930] = {
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4144,
+									["amount"] = 4459,
 								},
 							},
-							["amount"] = 4144,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1141,
-								},
-							},
-							["amount"] = 1141,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6775,
-								},
-							},
-							["amount"] = 6775,
+							["amount"] = 4459,
 						},
 					},
-					["name"] = "Nazan",
-					["totaldamage"] = 349,
-					["totaldamagetaken"] = 36977,
-					["id"] = "0xF130004480000066",
-					["damage"] = 349,
-				}, -- [2]
+					["totaldamage"] = 241,
+					["name"] = "Carrion Fleshstripper",
+					["totaldamagetaken"] = 12447,
+					["flag"] = 68168,
+					["damage"] = 241,
+				}, -- [1]
 			},
-			["totaldamage"] = 57181,
-			["time"] = 16,
-			["damage"] = 57181,
-			["totaldamagetaken"] = 1236,
-			["etotaldamage"] = 1236,
-			["last_time"] = 4333.312,
+			["ccdone"] = 1,
+			["totaldamage"] = 12447,
+			["time"] = 6,
+			["overheal"] = 6105,
+			["totaldamagetaken"] = 241,
+			["etotaldamage"] = 241,
+			["last_time"] = 23143.541,
 			["players"] = {
 				{
-					["last"] = 4333.202,
+					["ccdonespells"] = {
+						[45524] = {
+							["count"] = 1,
+							["targets"] = {
+								["Carrion Fleshstripper"] = 1,
+							},
+						},
+					},
+					["last"] = 23142.494,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
+							["count"] = 1,
 							["school"] = 32,
 							["targets"] = {
-								["Nazan"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Vazruden"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["Nazan"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Vazruden"] = {
+								["Carrion Fleshstripper"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 9,
+							["uptime"] = 3,
+						},
+						[45524] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 16,
+							["refresh"] = 1,
+							["uptime"] = 6,
 						},
-						[48263] = {
+						[67773] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Nazan"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-								["Vazruden"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 9,
+							["school"] = 2,
+							["uptime"] = 4,
 						},
 						[53365] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 4,
 						},
-						[70657] = {
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 2,
+						},
+						[48265] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 13,
-						},
-						[71559] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
 						},
 						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 16,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 4,
 						},
-						[8907] = {
-							["type"] = "BUFF",
+						[55095] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 16,
+							["school"] = 16,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
 						},
 					},
-					["time"] = 13.99,
-					["totaldamagetaken"] = 1236,
-					["damage"] = 57181,
-					["damagespells"] = {
-						["Melee"] = {
-							["criticalamount"] = 18590,
-							["id"] = 6603,
-							["targets"] = {
-								["Nazan"] = {
-									["overkill"] = 2732,
-									["amount"] = 12281,
-								},
-								["Vazruden"] = {
-									["amount"] = 6309,
-								},
-							},
-							["overkill"] = 2732,
-							["criticalmax"] = 6309,
-							["critical"] = 3,
-							["amount"] = 18590,
-							["school"] = 1,
-							["criticalmin"] = 6060,
-							["count"] = 3,
-						},
-						["Blood Strike"] = {
-							["criticalamount"] = 8125,
-							["id"] = 49930,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 4144,
-								},
-								["Vazruden"] = {
-									["overkill"] = 922,
-									["amount"] = 3981,
-								},
-							},
-							["overkill"] = 922,
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 8125,
-							["school"] = 1,
-							["criticalmin"] = 3981,
-							["criticalmax"] = 4144,
-							["count"] = 2,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 823,
-							["id"] = 50526,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 823,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 823,
-							["amount"] = 823,
-							["hitamount"] = 823,
-						},
-						["Melee (Skulldrinker)"] = {
-							["hitmin"] = 636,
-							["criticalamount"] = 1294,
-							["id"] = 6603,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 2634,
-								},
-								["Vazruden"] = {
-									["amount"] = 1329,
-								},
-							},
-							["criticalmin"] = 1294,
-							["critical"] = 1,
-							["criticalmax"] = 1294,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 704,
-							["amount"] = 3963,
-							["hitamount"] = 2669,
-						},
-						["Death Coil"] = {
-							["criticalamount"] = 6775,
-							["id"] = 47632,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 6775,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 6775,
-							["school"] = 32,
-							["criticalmin"] = 6775,
-							["criticalmax"] = 6775,
-							["count"] = 1,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 888,
-							["id"] = 55078,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 888,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 888,
-							["amount"] = 888,
-							["hitamount"] = 888,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1141,
-							["id"] = 49909,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 1141,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 1141,
-							["amount"] = 1141,
-							["hitamount"] = 1141,
-						},
-						["Chains of Ice"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Vazruden"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 45524,
-						},
-						["Claw (Skulldrinker)"] = {
-							["blocked"] = 31,
-							["hitmin"] = 942,
-							["criticalamount"] = 1966,
-							["id"] = 47468,
-							["criticalmin"] = 1966,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 1910,
-								},
-								["Vazruden"] = {
-									["amount"] = 2916,
-								},
-							},
-							["criticalmax"] = 1966,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 968,
-							["amount"] = 4826,
-							["hitamount"] = 2860,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 863,
-							["id"] = 55095,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 1726,
-								},
-								["Vazruden"] = {
-									["amount"] = 904,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 904,
-							["amount"] = 2630,
-							["hitamount"] = 2630,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 9420,
-							["id"] = 49921,
-							["targets"] = {
-								["Nazan"] = {
-									["amount"] = 4655,
-								},
-								["Vazruden"] = {
-									["amount"] = 4765,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 9420,
-							["school"] = 1,
-							["criticalmin"] = 4655,
-							["criticalmax"] = 4765,
-							["count"] = 2,
-						},
-					},
-					["damagetaken"] = 1236,
+					["role"] = "DAMAGER",
+					["time"] = 4.92,
+					["totaldamagetaken"] = 241,
+					["damage"] = 12447,
+					["overheal"] = 6105,
+					["damagetaken"] = 241,
 					["id"] = "0x070000000000D01B",
 					["spec"] = 252,
 					["healspells"] = {
-						[34299] = {
-							["overheal"] = 3759,
-							["targets"] = {
-								["Skulldrinker"] = {
-									["overheal"] = 2104,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 1655,
-									["amount"] = 887,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 887,
-							["school"] = 1,
-							["max"] = 887,
-							["ishot"] = true,
-							["min"] = 887,
-						},
 						[53365] = {
-							["overheal"] = 953,
+							["overheal"] = 931,
 							["count"] = 1,
-							["amount"] = 0,
+							["amount"] = 126,
 							["school"] = 1,
+							["max"] = 126,
 							["targets"] = {
 								["Urgash"] = {
-									["overheal"] = 953,
-									["amount"] = 0,
+									["overheal"] = 931,
+									["amount"] = 126,
 								},
 							},
+							["min"] = 126,
+						},
+						[45470] = {
+							["overheal"] = 5174,
+							["count"] = 1,
+							["amount"] = 115,
+							["school"] = 1,
+							["max"] = 115,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 5174,
+									["amount"] = 115,
+								},
+							},
+							["min"] = 115,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 349,
+							["hitmin"] = 115,
 							["id"] = 6603,
 							["PARRY"] = 1,
 							["sources"] = {
-								["Nazan"] = {
-									["amount"] = 349,
-								},
-								["Vazruden"] = {
-									["amount"] = 887,
+								["Carrion Fleshstripper"] = {
+									["amount"] = 241,
 								},
 							},
-							["count"] = 4,
+							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 887,
-							["amount"] = 1236,
-							["hitamount"] = 1236,
+							["hitmax"] = 126,
+							["amount"] = 241,
+							["hitamount"] = 241,
 						},
-						["Fireball"] = {
-							["sources"] = {
-								["Nazan"] = {
-									["amount"] = 0,
+					},
+					["heal"] = 241,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["overkill"] = 1068,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 1960,
+							["id"] = 6603,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["amount"] = 4459,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2499,
+							["amount"] = 4459,
+							["hitamount"] = 4459,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1123,
+							["id"] = 55078,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["overkill"] = 1068,
+									["amount"] = 1123,
+								},
+							},
+							["overkill"] = 1068,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 1123,
+							["amount"] = 1123,
+							["hitamount"] = 1123,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1333,
+							["id"] = 49921,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["amount"] = 1333,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1333,
+							["amount"] = 1333,
+							["hitamount"] = 1333,
+						},
+						["Death Strike"] = {
+							["DODGE"] = 1,
+							["criticalamount"] = 4707,
+							["id"] = 49924,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["amount"] = 4707,
+								},
+							},
+							["casts"] = 3,
+							["critical"] = 1,
+							["amount"] = 4707,
+							["school"] = 1,
+							["criticalmin"] = 4707,
+							["criticalmax"] = 4707,
+							["count"] = 2,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 825,
+							["id"] = 55095,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["amount"] = 825,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["MISS"] = 1,
-							["id"] = 33793,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 825,
+							["amount"] = 825,
+							["hitamount"] = 825,
 						},
 					},
-					["heal"] = 887,
-					["name"] = "Urgash",
-					["overkill"] = 3654,
-					["overheal"] = 4712,
-					["totaldamage"] = 57181,
-					["role"] = "DAMAGER",
+					["totaldamage"] = 12447,
 				}, -- [1]
-				{
-					["last"] = 4319.226,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["auras"] = {
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[5215] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Onitora",
-					["time"] = 0,
-					["class"] = "DRUID",
-				}, -- [2]
 			},
-			["type"] = "party",
-			["damagetaken"] = 1236,
-			["etotaldamagetaken"] = 57181,
-			["overheal"] = 4712,
-			["gotboss"] = 17537,
-			["overkill"] = 3654,
-			["edamagetaken"] = 57181,
-			["heal"] = 887,
-			["name"] = "Vazruden",
-			["mobname"] = "Vazruden",
-			["starttime"] = 1699125850,
-			["edamage"] = 1236,
-			["last_action"] = 1699125864,
-			["endtime"] = 1699125866,
+			["type"] = "none",
+			["damagetaken"] = 241,
+			["etotaldamagetaken"] = 12447,
+			["starttime"] = 1699202054,
+			["damage"] = 12447,
+			["overkill"] = 1068,
+			["edamagetaken"] = 12447,
+			["heal"] = 241,
+			["name"] = "Carrion Fleshstripper (6)",
+			["mobname"] = "Carrion Fleshstripper",
+			["edamage"] = 241,
+			["last_action"] = 1699202060,
+			["endtime"] = 1699202060,
 		}, -- [13]
 		{
 			["enemies"] = {
@@ -11602,98 +5233,67 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Urgash"] = {
-									["amount"] = 1314,
+									["amount"] = 169,
 								},
 							},
-							["amount"] = 1314,
-						},
-						[14516] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 124,
-								},
-							},
-							["amount"] = 124,
+							["amount"] = 169,
 						},
 					},
-					["damagetaken"] = 33232,
-					["id"] = "0xF13000436B000040",
+					["damagetaken"] = 11645,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 646,
-									["amount"] = 4847,
+									["amount"] = 1252,
 								},
 							},
-							["overkill"] = 646,
-							["amount"] = 4847,
+							["amount"] = 1252,
 						},
 						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 7350,
+									["amount"] = 1161,
 								},
 							},
-							["amount"] = 7350,
+							["amount"] = 1161,
 						},
-						[47632] = {
+						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 3694,
-									["amount"] = 6618,
+									["amount"] = 1261,
 								},
 							},
-							["overkill"] = 3694,
-							["amount"] = 6618,
+							["amount"] = 1261,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3264,
+								},
+							},
+							["amount"] = 3264,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4326,
+									["amount"] = 4707,
 								},
 							},
-							["amount"] = 4326,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1879,
-								},
-							},
-							["amount"] = 1879,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3027,
-								},
-							},
-							["amount"] = 3027,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5185,
-								},
-							},
-							["amount"] = 5185,
+							["amount"] = 4707,
 						},
 					},
-					["totaldamage"] = 1438,
-					["name"] = "Bonechewer Hungerer",
-					["totaldamagetaken"] = 33232,
-					["flag"] = 2632,
-					["damage"] = 1438,
+					["name"] = "Carrion Fleshstripper",
+					["totaldamage"] = 169,
+					["totaldamagetaken"] = 11645,
+					["id"] = "0xF1300075FE295943",
+					["damage"] = 169,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -11701,168 +5301,256 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Urgash"] = {
-									["amount"] = 628,
+									["amount"] = 2,
 								},
 							},
-							["amount"] = 628,
+							["amount"] = 2,
 						},
 					},
-					["damagetaken"] = 29828,
-					["id"] = "0xF13000446D000063",
+					["damagetaken"] = 2533,
+					["id"] = "0xF13000763C295BB7",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[55095] = {
-							["school"] = 16,
+						[55078] = {
+							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4845,
+									["overkill"] = 2529,
+									["amount"] = 2533,
 								},
 							},
-							["amount"] = 4845,
+							["overkill"] = 2529,
+							["amount"] = 2533,
 						},
-						[49924] = {
+					},
+					["totaldamage"] = 2,
+					["name"] = "Webbed Crusader",
+					["totaldamagetaken"] = 2533,
+					["flag"] = 2632,
+					["damage"] = 2,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
 							["school"] = 1,
-							["sources"] = {
+							["targets"] = {
 								["Urgash"] = {
-									["amount"] = 4373,
+									["amount"] = 146,
 								},
 							},
-							["amount"] = 4373,
+							["amount"] = 146,
 						},
+					},
+					["damagetaken"] = 12736,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 3296,
-									["amount"] = 9483,
+									["overkill"] = 1357,
+									["amount"] = 6837,
 								},
 							},
-							["overkill"] = 3296,
-							["amount"] = 9483,
+							["overkill"] = 1357,
+							["amount"] = 6837,
 						},
-						[49941] = {
+						[50536] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2962,
+									["amount"] = 37,
 								},
 							},
-							["amount"] = 2962,
+							["amount"] = 37,
 						},
-						[50526] = {
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2099,
+								},
+							},
+							["amount"] = 2099,
+						},
+						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 404,
-									["amount"] = 8165,
+									["amount"] = 3763,
 								},
 							},
-							["overkill"] = 404,
-							["amount"] = 8165,
+							["amount"] = 3763,
 						},
 					},
-					["totaldamage"] = 628,
-					["name"] = "Hellfire Sentry",
-					["totaldamagetaken"] = 29828,
-					["flag"] = 68168,
-					["damage"] = 628,
-				}, -- [2]
+					["name"] = "Forgotten Depths Ambusher",
+					["totaldamage"] = 146,
+					["totaldamagetaken"] = 12736,
+					["id"] = "0xF1500075FC2967C8",
+					["damage"] = 146,
+				}, -- [3]
 			},
-			["starttime"] = 1699125828,
-			["totaldamage"] = 63060,
-			["time"] = 17,
-			["damage"] = 63060,
-			["totaldamagetaken"] = 2066,
-			["etotaldamage"] = 2066,
-			["last_time"] = 4312.993,
+			["ccdone"] = 2,
+			["totaldamage"] = 26914,
+			["time"] = 11,
+			["damage"] = 26914,
+			["totaldamagetaken"] = 317,
+			["etotaldamagetaken"] = 26914,
+			["last_time"] = 23051.602,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[45524] = {
-							["count"] = 1,
+							["count"] = 2,
 							["targets"] = {
-								["Hellfire Sentry"] = 1,
+								["Forgotten Depths Ambusher"] = 1,
+								["Carrion Fleshstripper"] = 1,
 							},
 						},
 					},
-					["last"] = 4312.993,
-					["flag"] = 1297,
+					["last"] = 23049.984,
+					["flag"] = 4369,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Webbed Crusader"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+								["Carrion Fleshstripper"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 4,
+						},
 						[45524] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["school"] = 16,
 							["targets"] = {
-								["Hellfire Sentry"] = {
-									["uptime"] = 10,
+								["Forgotten Depths Ambusher"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Carrion Fleshstripper"] = {
+									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 10,
+							["uptime"] = 5,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Carrion Fleshstripper"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 4,
+								},
+								["Webbed Crusader"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 11,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 9,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Carrion Fleshstripper"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Webbed Crusader"] = {
+									["uptime"] = 1,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[58054] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 4,
 						},
 						[51735] = {
 							["type"] = "DEBUFF",
 							["count"] = 4,
 							["school"] = 32,
-							["refresh"] = 1,
+							["refresh"] = 2,
 							["targets"] = {
-								["Hellfire Sentry"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 13,
+								["Forgotten Depths Ambusher"] = {
+									["uptime"] = 1,
+									["count"] = 1,
 								},
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 12,
+								["Carrion Fleshstripper"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 4,
+								},
+								["Webbed Crusader"] = {
+									["uptime"] = 3,
 									["count"] = 2,
 								},
 							},
-							["uptime"] = 14,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 12,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 12,
-						},
-						[48263] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[71559] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[71905] = {
@@ -11870,1201 +5558,828 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["school"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 12,
+							["uptime"] = 9,
 						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-								["Bonechewer Hungerer"] = {
-									["uptime"] = 12,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 14,
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 9,
 						},
 					},
 					["role"] = "DAMAGER",
-					["time"] = 14.21,
-					["totaldamagetaken"] = 2066,
-					["damage"] = 63060,
-					["damagespells"] = {
-						["Death Strike"] = {
-							["criticalamount"] = 9558,
-							["id"] = 49924,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["amount"] = 4373,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 5185,
-								},
-							},
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 9558,
-							["school"] = 1,
-							["criticalmin"] = 4373,
-							["criticalmax"] = 5185,
-							["count"] = 2,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 815,
-							["id"] = 50526,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["overkill"] = 404,
-									["amount"] = 8165,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 7350,
-								},
-							},
-							["overkill"] = 404,
-							["casts"] = 1,
-							["count"] = 19,
-							["hit"] = 19,
-							["school"] = 32,
-							["hitmax"] = 819,
-							["amount"] = 15515,
-							["hitamount"] = 15515,
-						},
-						["Melee"] = {
-							["hitmin"] = 2756,
-							["criticalamount"] = 6727,
-							["id"] = 6603,
-							["criticalmin"] = 6727,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["overkill"] = 3296,
-									["amount"] = 9483,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 3042,
-								},
-							},
-							["overkill"] = 3296,
-							["critical"] = 1,
-							["criticalmax"] = 6727,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3042,
-							["amount"] = 12525,
-							["hitamount"] = 5798,
-						},
-						["Melee (Skulldrinker)"] = {
-							["criticalamount"] = 1284,
-							["id"] = 6603,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1284,
-								},
-							},
-							["criticalmax"] = 1284,
-							["critical"] = 1,
-							["amount"] = 1284,
-							["school"] = 1,
-							["criticalmin"] = 1284,
-							["count"] = 1,
-						},
-						["Death Coil"] = {
-							["criticalamount"] = 6618,
-							["id"] = 47632,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 3694,
-									["amount"] = 6618,
-								},
-							},
-							["overkill"] = 3694,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 6618,
-							["school"] = 32,
-							["criticalmin"] = 6618,
-							["criticalmax"] = 6618,
-							["count"] = 1,
-						},
-						["Claw (Skulldrinker)"] = {
-							["hitmin"] = 938,
-							["id"] = 47468,
-							["targets"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1879,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 941,
-							["amount"] = 1879,
-							["hitamount"] = 1879,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 807,
-							["id"] = 55095,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["amount"] = 4845,
-								},
-								["Bonechewer Hungerer"] = {
-									["overkill"] = 646,
-									["amount"] = 4847,
-								},
-							},
-							["overkill"] = 646,
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 16,
-							["hitmax"] = 808,
-							["amount"] = 9692,
-							["hitamount"] = 9692,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 1462,
-							["id"] = 49941,
-							["targets"] = {
-								["Hellfire Sentry"] = {
-									["amount"] = 2962,
-								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 3027,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 1519,
-							["amount"] = 5989,
-							["hitamount"] = 5989,
-						},
-					},
-					["damagetaken"] = 2066,
+					["time"] = 9.34,
+					["totaldamagetaken"] = 317,
+					["damage"] = 26914,
+					["overheal"] = 2471,
+					["damagetaken"] = 317,
 					["id"] = "0x070000000000D01B",
 					["spec"] = 252,
 					["healspells"] = {
-						[45470] = {
-							["overheal"] = 2003,
-							["max"] = 3178,
+						[53365] = {
+							["overheal"] = 2471,
+							["criticalamount"] = 171,
+							["max"] = 1057,
 							["targets"] = {
 								["Urgash"] = {
-									["overheal"] = 2003,
-									["amount"] = 4353,
+									["overheal"] = 2471,
+									["amount"] = 1228,
 								},
 							},
-							["min"] = 1175,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 4353,
+							["min"] = 171,
+							["criticalmax"] = 171,
+							["count"] = 3,
+							["amount"] = 1228,
 							["school"] = 1,
+							["criticalmin"] = 171,
+							["critical"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
-						["Demoralizing Shout"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["hitmax"] = 169,
 							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 0,
+								["Forgotten Depths Ambusher"] = {
+									["amount"] = 146,
+								},
+								["Carrion Fleshstripper"] = {
+									["amount"] = 169,
+								},
+								["Webbed Crusader"] = {
+									["amount"] = 2,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 0,
+							["count"] = 6,
+							["hit"] = 4,
 							["school"] = 1,
-							["MISS"] = 2,
-							["id"] = 16244,
+							["PARRY"] = 2,
+							["amount"] = 317,
+							["hitamount"] = 317,
 						},
-						["Disarm"] = {
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 0,
+					},
+					["heal"] = 1228,
+					["name"] = "Urgash",
+					["ccdone"] = 2,
+					["overkill"] = 3886,
+					["damagespells"] = {
+						["Melee (Batflayer)"] = {
+							["criticalamount"] = 1422,
+							["id"] = 6603,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["amount"] = 1422,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 0,
+							["criticalmax"] = 1422,
+							["critical"] = 1,
+							["amount"] = 1422,
 							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 6713,
+							["criticalmin"] = 1422,
+							["count"] = 1,
 						},
 						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 58,
+							["hitmin"] = 1957,
+							["criticalamount"] = 5415,
 							["id"] = 6603,
-							["blocked"] = 66,
-							["BLOCK"] = 1,
-							["amount"] = 1942,
-							["sources"] = {
-								["Hellfire Sentry"] = {
-									["amount"] = 628,
+							["criticalmin"] = 5415,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["overkill"] = 1357,
+									["amount"] = 5415,
 								},
-								["Bonechewer Hungerer"] = {
-									["amount"] = 1314,
+								["Carrion Fleshstripper"] = {
+									["amount"] = 4707,
 								},
 							},
-							["count"] = 30,
-							["hit"] = 24,
+							["overkill"] = 1357,
+							["critical"] = 1,
+							["criticalmax"] = 5415,
+							["count"] = 3,
+							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 105,
-							["MISS"] = 4,
-							["hitamount"] = 1942,
+							["hitmax"] = 2750,
+							["amount"] = 10122,
+							["hitamount"] = 4707,
 						},
-						["Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 124,
-							["id"] = 14516,
-							["sources"] = {
-								["Bonechewer Hungerer"] = {
-									["amount"] = 124,
+						["Death Coil"] = {
+							["hitmin"] = 3763,
+							["id"] = 47632,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["amount"] = 3763,
 								},
 							},
-							["count"] = 2,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3763,
+							["amount"] = 3763,
+							["hitamount"] = 3763,
+						},
+						["Claw (Batflayer)"] = {
+							["hitmin"] = 1035,
+							["id"] = 47468,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["amount"] = 2099,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 124,
-							["amount"] = 124,
-							["hitamount"] = 124,
+							["hitmax"] = 1064,
+							["amount"] = 2099,
+							["hitamount"] = 2099,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1161,
+							["id"] = 50526,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["amount"] = 1161,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 1161,
+							["amount"] = 1161,
+							["hitamount"] = 1161,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1261,
+							["id"] = 55078,
+							["targets"] = {
+								["Webbed Crusader"] = {
+									["overkill"] = 2529,
+									["amount"] = 2533,
+								},
+								["Carrion Fleshstripper"] = {
+									["amount"] = 1261,
+								},
+							},
+							["overkill"] = 2529,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 1271,
+							["amount"] = 3794,
+							["hitamount"] = 3794,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 3264,
+							["id"] = 49921,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["amount"] = 3264,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 3264,
+							["school"] = 1,
+							["criticalmin"] = 3264,
+							["criticalmax"] = 3264,
+							["count"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1252,
+							["id"] = 55095,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["amount"] = 1252,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 1252,
+							["amount"] = 1252,
+							["hitamount"] = 1252,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 37,
+							["id"] = 50536,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["amount"] = 37,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 37,
+							["amount"] = 37,
+							["hitamount"] = 37,
 						},
 					},
-					["heal"] = 4353,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 8040,
-					["overheal"] = 2003,
-					["totaldamage"] = 63060,
+					["totaldamage"] = 26914,
 				}, -- [1]
-				{
-					["last"] = 4296.793,
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
-					["auras"] = {
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[5215] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 3,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Onitora",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "DRUID",
-				}, -- [2]
 			},
-			["type"] = "party",
-			["damagetaken"] = 2066,
-			["overheal"] = 2003,
-			["ccdone"] = 1,
-			["etotaldamagetaken"] = 63060,
-			["overkill"] = 8040,
-			["edamagetaken"] = 63060,
-			["heal"] = 4353,
-			["name"] = "Bonechewer Hungerer (8)",
-			["mobname"] = "Bonechewer Hungerer",
-			["edamage"] = 2066,
-			["last_action"] = 1699125844,
-			["endtime"] = 1699125845,
+			["type"] = "none",
+			["damagetaken"] = 317,
+			["etotaldamage"] = 317,
+			["overheal"] = 2471,
+			["starttime"] = 1699201957,
+			["overkill"] = 3886,
+			["edamagetaken"] = 26914,
+			["heal"] = 1228,
+			["name"] = "Carrion Fleshstripper (5)",
+			["mobname"] = "Carrion Fleshstripper",
+			["edamage"] = 317,
+			["last_action"] = 1699201968,
+			["endtime"] = 1699201968,
 		}, -- [14]
 		{
-			["mana"] = 267,
-			["ccdone"] = 1,
 			["enemies"] = {
 				{
-					["id"] = "0xF13000437500004F",
-					["name"] = "Bleeding Hollow Darkcaster",
-					["totaldamagetaken"] = 21419,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetaken"] = 21419,
-					["damagetakenspells"] = {
+					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
-							["sources"] = {
+							["targets"] = {
 								["Urgash"] = {
-									["amount"] = 7687,
+									["amount"] = 688,
 								},
 							},
-							["amount"] = 7687,
+							["amount"] = 688,
 						},
+						[35201] = {
+							["school"] = 8,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
+					["damagetaken"] = 23040,
+					["id"] = "0xF1300075FE296446",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 1197,
-									["amount"] = 5817,
+									["amount"] = 4464,
 								},
 							},
-							["overkill"] = 1197,
-							["amount"] = 5817,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2036,
-								},
-							},
-							["amount"] = 2036,
+							["amount"] = 4464,
 						},
 						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 5879,
+									["amount"] = 3113,
 								},
 							},
-							["amount"] = 5879,
+							["amount"] = 3113,
 						},
-					},
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 485,
-								},
-							},
-							["amount"] = 485,
-						},
-					},
-					["damagetaken"] = 59399,
-					["flag"] = 68168,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 3141,
+									["amount"] = 4515,
 								},
 							},
-							["amount"] = 3141,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3674,
-								},
-							},
-							["amount"] = 3674,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 546,
-									["amount"] = 16131,
-								},
-							},
-							["overkill"] = 546,
-							["amount"] = 16131,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3795,
-								},
-							},
-							["amount"] = 3795,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1030,
-								},
-							},
-							["amount"] = 1030,
+							["amount"] = 4515,
 						},
 						[49921] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 5038,
+									["amount"] = 1372,
 								},
 							},
-							["amount"] = 5038,
+							["amount"] = 1372,
 						},
-						[49930] = {
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 6601,
+									["overkill"] = 940,
+									["amount"] = 9576,
 								},
 							},
-							["amount"] = 6601,
+							["overkill"] = 940,
+							["amount"] = 9576,
 						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2906,
-								},
-							},
-							["amount"] = 2906,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9277,
-								},
-							},
-							["amount"] = 9277,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1301,
-								},
-							},
-							["amount"] = 1301,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2037,
-								},
-							},
-							["amount"] = 2037,
-						},
+					},
+					["totaldamage"] = 722,
+					["name"] = "Carrion Fleshstripper",
+					["totaldamagetaken"] = 23040,
+					["flag"] = 68168,
+					["damage"] = 722,
+				}, -- [1]
+				{
+					["id"] = "0xF13000763C2965E4",
+					["name"] = "Webbed Crusader",
+					["totaldamagetaken"] = 8403,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 8403,
+					["damagetakenspells"] = {
 						[47632] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4161,
+									["overkill"] = 8401,
+									["amount"] = 8403,
 								},
 							},
-							["amount"] = 4161,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 307,
-								},
-							},
-							["amount"] = 307,
+							["overkill"] = 8401,
+							["amount"] = 8403,
 						},
 					},
-					["name"] = "Omor the Unscarred",
-					["totaldamage"] = 485,
-					["totaldamagetaken"] = 59399,
-					["id"] = "0xF13000439C000064",
-					["damage"] = 485,
 				}, -- [2]
 				{
-					["id"] = "0xF130004484000065",
-					["name"] = "Fiendish Hound",
-					["totaldamagetaken"] = 2901,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetaken"] = 2901,
-					["damagetakenspells"] = {
+					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
-							["sources"] = {
-								["Onitora"] = {
-									["amount"] = 373,
+							["targets"] = {
+								["Urgash"] = {
+									["amount"] = 1298,
 								},
 							},
-							["amount"] = 373,
+							["amount"] = 1298,
+						},
+					},
+					["damagetaken"] = 24985,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 423,
+									["amount"] = 5847,
+								},
+							},
+							["overkill"] = 423,
+							["amount"] = 5847,
 						},
 						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 834,
+									["overkill"] = 1602,
+									["amount"] = 5052,
 								},
 							},
-							["amount"] = 834,
+							["overkill"] = 1602,
+							["amount"] = 5052,
 						},
-						[33982] = {
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5656,
+								},
+							},
+							["amount"] = 5656,
+						},
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Onitora"] = {
-									["overkill"] = 709,
-									["amount"] = 1694,
+								["Urgash"] = {
+									["amount"] = 2408,
 								},
 							},
-							["overkill"] = 709,
-							["amount"] = 1694,
+							["amount"] = 2408,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 6022,
+								},
+							},
+							["amount"] = 6022,
 						},
 					},
+					["name"] = "Forgotten Depths Ambusher",
+					["totaldamage"] = 1298,
+					["totaldamagetaken"] = 24985,
+					["id"] = "0xF1500075FC2963EB",
+					["damage"] = 1298,
 				}, -- [3]
 			},
-			["totaldamage"] = 83719,
-			["time"] = 39,
-			["overheal"] = 1230,
-			["totaldamagetaken"] = 485,
-			["etotaldamagetaken"] = 83719,
-			["last_time"] = 4268.852,
+			["ccdone"] = 2,
+			["totaldamage"] = 56428,
+			["time"] = 18,
+			["overheal"] = 8570,
+			["totaldamagetaken"] = 2020,
+			["etotaldamage"] = 2020,
+			["last_time"] = 22990.893,
 			["players"] = {
 				{
 					["ccdonespells"] = {
 						[45524] = {
 							["count"] = 1,
 							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = 1,
+								["Carrion Fleshstripper"] = 1,
+							},
+						},
+						[49560] = {
+							["count"] = 1,
+							["targets"] = {
+								["Carrion Fleshstripper"] = 1,
 							},
 						},
 					},
-					["last"] = 4262.434,
-					["flag"] = 1297,
+					["last"] = 22988.912,
+					["flag"] = 4369,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 6,
 							["school"] = 32,
+							["refresh"] = 6,
 							["targets"] = {
-								["Omor the Unscarred"] = {
-									["uptime"] = 18,
+								["Forgotten Depths Ambusher"] = {
+									["count"] = 3,
+									["refresh"] = 2,
+									["uptime"] = 13,
+								},
+								["Carrion Fleshstripper"] = {
+									["count"] = 2,
+									["refresh"] = 4,
+									["uptime"] = 16,
+								},
+								["Webbed Crusader"] = {
+									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 18,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 16,
 						},
 						[45524] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 16,
 							["targets"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["uptime"] = 9,
+								["Carrion Fleshstripper"] = {
+									["uptime"] = 5,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 9,
+							["uptime"] = 5,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
 						},
 						[51735] = {
 							["type"] = "DEBUFF",
-							["count"] = 3,
+							["count"] = 6,
 							["school"] = 32,
-							["refresh"] = 2,
+							["refresh"] = 7,
 							["targets"] = {
-								["Omor the Unscarred"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 20,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 14,
-								},
-							},
-							["uptime"] = 31,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["count"] = 1,
+								["Forgotten Depths Ambusher"] = {
+									["count"] = 3,
 									["refresh"] = 2,
-									["uptime"] = 20,
+									["uptime"] = 13,
 								},
-							},
-							["uptime"] = 20,
-						},
-						[68766] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Fiendish Hound"] = {
+								["Carrion Fleshstripper"] = {
+									["count"] = 2,
+									["refresh"] = 5,
+									["uptime"] = 17,
+								},
+								["Webbed Crusader"] = {
 									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 2,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["uptime"] = 18,
-									["count"] = 1,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 14,
-								},
-							},
-							["uptime"] = 29,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 16,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 15,
-						},
-						[48263] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["uptime"] = 13,
-						},
-						[8907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 18,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 31.13,
-					["totaldamagetaken"] = 485,
-					["damage"] = 81652,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["criticalamount"] = 9277,
-							["id"] = 55271,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 9277,
-								},
-							},
-							["blocked"] = 31,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 9277,
-							["school"] = 1,
-							["criticalmin"] = 9277,
-							["criticalmax"] = 9277,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["criticalamount"] = 18321,
-							["id"] = 6603,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 12642,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 5679,
-								},
-							},
-							["criticalmax"] = 6563,
-							["critical"] = 3,
-							["amount"] = 18321,
-							["school"] = 1,
-							["criticalmin"] = 5679,
-							["count"] = 3,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 2037,
-							["id"] = 71904,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 2037,
-								},
-							},
-							["hitmax"] = 2037,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 509,
-							["amount"] = 2037,
-							["hitamount"] = 2037,
-						},
-						["Death Coil"] = {
-							["criticalmin"] = 1496,
-							["hitmin"] = 806,
-							["criticalamount"] = 1496,
-							["id"] = 47632,
-							["criticalmax"] = 1496,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 4161,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 1859,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 1258,
-							["amount"] = 4161,
-							["hitamount"] = 2665,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 11,
-							["id"] = 50536,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 307,
-								},
-							},
-							["hitmax"] = 25,
-							["count"] = 18,
-							["hit"] = 18,
-							["school"] = 32,
-							["resisted"] = 79,
-							["amount"] = 307,
-							["hitamount"] = 307,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 108,
-							["id"] = 50526,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 3674,
-								},
-								["Fiendish Hound"] = {
-									["amount"] = 834,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 5879,
-								},
-							},
-							["hitmax"] = 840,
-							["casts"] = 1,
-							["count"] = 17,
-							["hit"] = 17,
-							["school"] = 32,
-							["resisted"] = 1358,
-							["amount"] = 10387,
-							["hitamount"] = 10387,
-						},
-						["Melee (Skulldrinker)"] = {
-							["hitmin"] = 174,
-							["criticalamount"] = 2320,
-							["id"] = 6603,
-							["criticalmin"] = 338,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["overkill"] = 546,
-									["amount"] = 3489,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 2008,
-								},
-							},
-							["overkill"] = 546,
-							["critical"] = 4,
-							["criticalmax"] = 1284,
-							["count"] = 11,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 674,
-							["amount"] = 5497,
-							["hitamount"] = 3177,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 2222,
-							["criticalamount"] = 4379,
-							["id"] = 49930,
-							["hitmax"] = 2222,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 6601,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 6601,
-							["school"] = 1,
-							["criticalmin"] = 4379,
-							["criticalmax"] = 4379,
-							["hitamount"] = 2222,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 208,
-							["id"] = 55078,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 3141,
-								},
-							},
-							["hitmax"] = 934,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 748,
-							["amount"] = 3141,
-							["hitamount"] = 3141,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 2906,
-							["id"] = 70890,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 2906,
-								},
-							},
-							["hitmax"] = 2906,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 1245,
-							["amount"] = 2906,
-							["hitamount"] = 2906,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 5038,
-							["id"] = 49921,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 5038,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5038,
-							["school"] = 1,
-							["criticalmin"] = 5038,
-							["criticalmax"] = 5038,
-							["count"] = 1,
-						},
-						["Claw (Skulldrinker)"] = {
-							["hitmin"] = 256,
-							["id"] = 47468,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 1030,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 2036,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 1022,
-							["amount"] = 3066,
-							["hitamount"] = 3066,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 253,
-							["id"] = 55095,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 3795,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["overkill"] = 1197,
-									["amount"] = 5817,
-								},
-							},
-							["overkill"] = 1197,
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 16,
-							["hitmax"] = 1012,
-							["amount"] = 9612,
-							["hitamount"] = 9612,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1301,
-							["id"] = 49909,
-							["targets"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 1301,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 1301,
-							["amount"] = 1301,
-							["hitamount"] = 1301,
-						},
-					},
-					["damagetaken"] = 485,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 1052,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Skulldrinker"] = {
-									["overheal"] = 1052,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Scorch"] = {
-							["sources"] = {
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 4,
-							["MISS"] = 5,
-							["id"] = 36807,
-						},
-						["Shadow Bolt"] = {
-							["sources"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 2,
-							["id"] = 30686,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 485,
-							["id"] = 6603,
-							["count"] = 4,
-							["hitmax"] = 485,
-							["amount"] = 485,
-							["sources"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 485,
-								},
-								["Bleeding Hollow Darkcaster"] = {
-									["amount"] = 0,
-								},
-							},
-							["BLOCK"] = 1,
-							["blocked"] = 140,
-							["school"] = 1,
-							["hit"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 485,
-						},
-						["Treacherous Aura"] = {
-							["sources"] = {
-								["Omor the Unscarred"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["MISS"] = 1,
-							["id"] = 30695,
-						},
-					},
-					["heal"] = 0,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overheal"] = 1052,
-					["overkill"] = 1743,
-					["totaldamage"] = 81652,
-				}, -- [1]
-				{
-					["last"] = 4268.851,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[58181] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 2,
-							["targets"] = {
-								["Fiendish Hound"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[33982] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Fiendish Hound"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
+							["uptime"] = 17,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 25,
+							["refresh"] = 1,
+							["uptime"] = 18,
 						},
-					},
-					["time"] = 6.36,
-					["damage"] = 2067,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 59,
-							["criticalamount"] = 314,
-							["id"] = 6603,
-							["criticalmin"] = 152,
+						[67773] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[48265] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[68766] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
 							["targets"] = {
-								["Fiendish Hound"] = {
-									["amount"] = 373,
+								["Forgotten Depths Ambusher"] = {
+									["uptime"] = 15,
+									["count"] = 2,
+								},
+								["Carrion Fleshstripper"] = {
+									["uptime"] = 15,
+									["count"] = 3,
+								},
+								["Webbed Crusader"] = {
+									["uptime"] = 1,
+									["count"] = 1,
 								},
 							},
-							["blocked"] = 30,
-							["critical"] = 2,
-							["criticalmax"] = 162,
+							["uptime"] = 15,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+						[67708] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 11,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 17,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 16,
+							["refresh"] = 6,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["count"] = 3,
+									["refresh"] = 2,
+									["uptime"] = 13,
+								},
+								["Carrion Fleshstripper"] = {
+									["count"] = 2,
+									["refresh"] = 4,
+									["uptime"] = 17,
+								},
+								["Webbed Crusader"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 17,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 15.94,
+					["totaldamagetaken"] = 2020,
+					["damage"] = 56428,
+					["damagespells"] = {
+						["Death Strike"] = {
+							["hitmin"] = 1968,
+							["criticalamount"] = 4054,
+							["id"] = 49924,
+							["hitmax"] = 1968,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["amount"] = 6022,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 3,
+							["critical"] = 1,
+							["amount"] = 6022,
+							["school"] = 1,
+							["criticalmin"] = 4054,
+							["criticalmax"] = 4054,
+							["hitamount"] = 1968,
+						},
+						["Melee"] = {
+							["hitmin"] = 2408,
+							["criticalamount"] = 9576,
+							["id"] = 6603,
+							["hitmax"] = 2408,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["amount"] = 2408,
+								},
+								["Carrion Fleshstripper"] = {
+									["overkill"] = 940,
+									["amount"] = 9576,
+								},
+							},
+							["overkill"] = 940,
 							["count"] = 3,
+							["criticalmax"] = 4952,
+							["critical"] = 2,
+							["amount"] = 11984,
+							["school"] = 1,
+							["hit"] = 1,
+							["criticalmin"] = 4624,
+							["hitamount"] = 2408,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 914,
+							["id"] = 50526,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["overkill"] = 1602,
+									["amount"] = 5052,
+								},
+								["Carrion Fleshstripper"] = {
+									["amount"] = 3113,
+								},
+							},
+							["overkill"] = 1602,
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 32,
+							["hitmax"] = 1057,
+							["amount"] = 8165,
+							["hitamount"] = 8165,
+						},
+						["Death Coil"] = {
+							["criticalamount"] = 8403,
+							["id"] = 47632,
+							["targets"] = {
+								["Webbed Crusader"] = {
+									["overkill"] = 8401,
+									["amount"] = 8403,
+								},
+							},
+							["overkill"] = 8401,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 8403,
+							["school"] = 32,
+							["criticalmin"] = 8403,
+							["criticalmax"] = 8403,
+							["count"] = 1,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1372,
+							["id"] = 49921,
+							["targets"] = {
+								["Carrion Fleshstripper"] = {
+									["amount"] = 1372,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 59,
-							["amount"] = 373,
-							["hitamount"] = 59,
+							["hitmax"] = 1372,
+							["amount"] = 1372,
+							["hitamount"] = 1372,
 						},
-						["Mangle (Cat)"] = {
-							["criticalmin"] = 852,
-							["hitmin"] = 409,
-							["criticalamount"] = 852,
-							["id"] = 33982,
-							["criticalmax"] = 852,
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 993,
+							["id"] = 55095,
 							["targets"] = {
-								["Fiendish Hound"] = {
-									["overkill"] = 709,
-									["amount"] = 1694,
+								["Forgotten Depths Ambusher"] = {
+									["overkill"] = 423,
+									["amount"] = 5847,
+								},
+								["Carrion Fleshstripper"] = {
+									["amount"] = 4464,
 								},
 							},
-							["overkill"] = 709,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 433,
-							["amount"] = 1694,
-							["hitamount"] = 842,
+							["overkill"] = 423,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 16,
+							["hitmax"] = 1267,
+							["amount"] = 10311,
+							["hitamount"] = 10311,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1012,
+							["id"] = 55078,
+							["targets"] = {
+								["Forgotten Depths Ambusher"] = {
+									["amount"] = 5656,
+								},
+								["Carrion Fleshstripper"] = {
+									["amount"] = 4515,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 32,
+							["hitmax"] = 1278,
+							["amount"] = 10171,
+							["hitamount"] = 10171,
 						},
 					},
-					["id"] = "0x07000000009E2E0E",
-					["spec"] = 103,
+					["damagetaken"] = 2020,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
 					["healspells"] = {
-						[34299] = {
-							["overheal"] = 178,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["ishot"] = true,
+						[45470] = {
+							["overheal"] = 8570,
+							["max"] = 1649,
 							["targets"] = {
-								["Onitora"] = {
-									["overheal"] = 178,
+								["Urgash"] = {
+									["overheal"] = 8570,
+									["amount"] = 2008,
+								},
+							},
+							["min"] = 359,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 2008,
+							["school"] = 1,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 113,
+							["criticalamount"] = 384,
+							["id"] = 6603,
+							["criticalmin"] = 384,
+							["criticalmax"] = 384,
+							["critical"] = 1,
+							["PARRY"] = 3,
+							["sources"] = {
+								["Forgotten Depths Ambusher"] = {
+									["amount"] = 1298,
+								},
+								["Carrion Fleshstripper"] = {
+									["amount"] = 688,
+								},
+								["Webbed Crusader"] = {
 									["amount"] = 0,
 								},
 							},
+							["count"] = 14,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 188,
+							["amount"] = 1986,
+							["hitamount"] = 1602,
+						},
+						["Paralytic Poison (DoT)"] = {
+							["hitmin"] = 11,
+							["id"] = 35201,
+							["hitmax"] = 12,
+							["sources"] = {
+								["Carrion Fleshstripper"] = {
+									["amount"] = 34,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 2,
+							["amount"] = 34,
+							["hitamount"] = 34,
 						},
 					},
-					["overkill"] = 709,
-					["overheal"] = 178,
-					["heal"] = 0,
-					["name"] = "Onitora",
-					["manaspells"] = {
-						[68285] = 267,
-					},
-					["mana"] = 267,
-					["totaldamage"] = 2067,
-					["role"] = "TANK",
-				}, -- [2]
+					["heal"] = 2008,
+					["name"] = "Urgash",
+					["ccdone"] = 2,
+					["overheal"] = 8570,
+					["overkill"] = 11366,
+					["totaldamage"] = 56428,
+				}, -- [1]
 			},
-			["type"] = "party",
-			["damagetaken"] = 485,
-			["starttime"] = 1699125762,
-			["etotaldamage"] = 485,
-			["damage"] = 83719,
-			["overkill"] = 2452,
-			["edamagetaken"] = 83719,
-			["heal"] = 0,
-			["name"] = "Bleeding Hollow Darkcaster (3)",
-			["mobname"] = "Bleeding Hollow Darkcaster",
-			["edamage"] = 485,
-			["last_action"] = 1699125800,
-			["endtime"] = 1699125801,
+			["type"] = "none",
+			["damagetaken"] = 2020,
+			["starttime"] = 1699201890,
+			["damage"] = 56428,
+			["etotaldamagetaken"] = 56428,
+			["overkill"] = 11366,
+			["edamagetaken"] = 56428,
+			["heal"] = 2008,
+			["name"] = "Carrion Fleshstripper (4)",
+			["mobname"] = "Carrion Fleshstripper",
+			["edamage"] = 2020,
+			["last_action"] = 1699201908,
+			["endtime"] = 1699201908,
 		}, -- [15]
 	},
 }
