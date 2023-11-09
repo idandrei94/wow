@@ -5,102 +5,100 @@ SkadaStorageDB = {
 		["dispel"] = 1,
 		["totaldamage"] = 20976780,
 		["time"] = 236,
-		["potion"] = 1,
 		["totaldamagetaken"] = 2614782,
-		["sunder"] = 14,
 		["damage"] = 20976780,
 		["overheal"] = 5155057,
 		["absorb"] = 554385,
 		["damagetaken"] = 2049004,
 		["runic"] = 480,
-		["ress"] = 1,
-		["rage"] = 804,
+		["starttime"] = 1699434837,
 		["players"] = {
 			{
-				["flag"] = 1298,
-				["mana"] = 102206,
-				["time"] = 181.4800000000001,
-				["totaldamagetaken"] = 99190,
-				["damage"] = 1188878,
 				["overheal"] = 195709,
 				["damagetaken"] = 99190,
-				["id"] = "0x0700000000995413",
-				["spec"] = 66,
-				["overkill"] = 2252,
-				["heal"] = 46336,
-				["name"] = "Rasalgull",
-				["class"] = "PALADIN",
-				["totaldamage"] = 1188878,
 				["role"] = "TANK",
+				["flag"] = 1298,
+				["mana"] = 102206,
+				["totaldamage"] = 1188878,
+				["overkill"] = 2252,
+				["class"] = "PALADIN",
+				["heal"] = 46336,
+				["time"] = 181.4800000000001,
+				["name"] = "Rasalgull",
+				["spec"] = 66,
+				["totaldamagetaken"] = 99190,
+				["id"] = "0x0700000000995413",
+				["damage"] = 1188878,
 			}, -- [1]
 			{
-				["flag"] = 4372,
-				["class"] = "WARLOCK",
-				["time"] = 87.00000000000001,
-				["totaldamagetaken"] = 102143,
-				["damage"] = 526009,
 				["overheal"] = 54073,
 				["ress"] = 1,
 				["damagetaken"] = 65292,
-				["id"] = "0x07000000009A0D9C",
-				["spec"] = 266,
-				["heal"] = 23163,
-				["name"] = "Lottle",
-				["death"] = 1,
-				["mana"] = 107068,
-				["totaldamage"] = 526009,
 				["role"] = "DAMAGER",
+				["flag"] = 4372,
+				["class"] = "WARLOCK",
+				["totaldamage"] = 526009,
+				["mana"] = 107068,
+				["name"] = "Lottle",
+				["heal"] = 23163,
+				["time"] = 87.00000000000001,
+				["death"] = 1,
+				["spec"] = 266,
+				["totaldamagetaken"] = 102143,
+				["id"] = "0x07000000009A0D9C",
+				["damage"] = 526009,
 			}, -- [2]
 			{
 				["damagetaken"] = 60981,
-				["name"] = "Merrian",
 				["id"] = "0x07000000007BE98F",
 				["class"] = "MAGE",
 				["mana"] = 11841,
-				["totaldamage"] = 1668531,
-				["flag"] = 1298,
-				["role"] = "DAMAGER",
-				["time"] = 141.5399999999998,
-				["death"] = 1,
-				["totaldamagetaken"] = 81778,
 				["spec"] = 63,
+				["role"] = "DAMAGER",
+				["totaldamage"] = 1668531,
+				["name"] = "Merrian",
+				["death"] = 1,
+				["time"] = 141.5399999999998,
+				["totaldamagetaken"] = 81778,
+				["flag"] = 1298,
 				["damage"] = 1668531,
 			}, -- [3]
 			{
-				["totaldamage"] = 638635,
 				["damagetaken"] = 55101,
-				["mana"] = 6650,
-				["id"] = "0x0700000000877A7B",
 				["class"] = "MAGE",
-				["name"] = "Quewyn",
-				["overkill"] = 1337,
-				["flag"] = 1298,
-				["role"] = "DAMAGER",
-				["time"] = 143.38,
-				["death"] = 1,
-				["totaldamagetaken"] = 70852,
+				["id"] = "0x0700000000877A7B",
+				["mana"] = 6650,
 				["spec"] = 63,
+				["overkill"] = 1337,
+				["role"] = "DAMAGER",
+				["totaldamage"] = 638635,
+				["name"] = "Quewyn",
+				["death"] = 1,
+				["time"] = 143.38,
+				["totaldamagetaken"] = 70852,
+				["flag"] = 1298,
 				["damage"] = 638635,
 			}, -- [4]
 			{
 				["overheal"] = 120064,
 				["damagetaken"] = 78759,
-				["mana"] = 9470,
 				["id"] = "0x070000000089BE9F",
+				["mana"] = 9470,
 				["class"] = "SHAMAN",
+				["spec"] = 262,
+				["role"] = "DAMAGER",
 				["heal"] = 20405,
 				["name"] = "Inarya",
-				["totaldamage"] = 1580719,
-				["role"] = "DAMAGER",
-				["time"] = 170.3299999999999,
 				["flag"] = 1297,
+				["time"] = 170.3299999999999,
 				["totaldamagetaken"] = 87740,
-				["spec"] = 262,
+				["totaldamage"] = 1580719,
 				["damage"] = 1580719,
 			}, -- [5]
 			{
 				["flag"] = 1300,
 				["class"] = "WARRIOR",
+				["totaldamage"] = 857212,
 				["time"] = 172.6300000000001,
 				["totaldamagetaken"] = 205408,
 				["damage"] = 857212,
@@ -112,63 +110,63 @@ SkadaStorageDB = {
 				["heal"] = 10665,
 				["name"] = "Finalwield",
 				["death"] = 1,
-				["sunder"] = 14,
-				["overheal"] = 16986,
-				["totaldamage"] = 857212,
 				["role"] = "DAMAGER",
+				["overheal"] = 16986,
+				["sunder"] = 14,
 			}, -- [6]
 			{
 				["damagetaken"] = 47428,
-				["name"] = "Karshash",
 				["id"] = "0x070000000093948F",
 				["class"] = "MAGE",
 				["mana"] = 10276,
 				["overkill"] = 5935,
+				["spec"] = 63,
 				["totaldamage"] = 1688958,
-				["role"] = "DAMAGER",
+				["name"] = "Karshash",
 				["time"] = 188.49,
 				["flag"] = 1300,
 				["totaldamagetaken"] = 70588,
-				["spec"] = 63,
+				["role"] = "DAMAGER",
 				["damage"] = 1688958,
 			}, -- [7]
 			{
-				["flag"] = 263444,
-				["class"] = "DEATHKNIGHT",
-				["time"] = 189.2600000000001,
-				["totaldamagetaken"] = 702948,
-				["damage"] = 359063,
 				["overheal"] = 25179,
 				["absorb"] = 15341,
 				["damagetaken"] = 550673,
-				["id"] = "0x070000000092C7A5",
-				["spec"] = 250,
-				["heal"] = 14261,
-				["name"] = "Ebonmoo",
-				["runic"] = 120,
-				["totaldamage"] = 359063,
+				["flag"] = 263444,
+				["class"] = "DEATHKNIGHT",
 				["role"] = "TANK",
+				["totaldamage"] = 359063,
+				["runic"] = 120,
+				["heal"] = 14261,
+				["time"] = 189.2600000000001,
+				["name"] = "Ebonmoo",
+				["spec"] = 250,
+				["totaldamagetaken"] = 702948,
+				["id"] = "0x070000000092C7A5",
+				["damage"] = 359063,
 			}, -- [8]
 			{
 				["overheal"] = 19962,
 				["damagetaken"] = 106545,
-				["runic"] = 10,
 				["id"] = "0x07000000008A3B06",
 				["class"] = "DEATHKNIGHT",
-				["name"] = "Vktr",
-				["heal"] = 11276,
-				["totaldamage"] = 1146876,
-				["role"] = "DAMAGER",
-				["time"] = 187.29,
-				["flag"] = 1300,
-				["totaldamagetaken"] = 114250,
+				["runic"] = 10,
 				["spec"] = 252,
+				["role"] = "DAMAGER",
+				["heal"] = 11276,
+				["name"] = "Vktr",
+				["flag"] = 1300,
+				["time"] = 187.29,
+				["totaldamagetaken"] = 114250,
+				["totaldamage"] = 1146876,
 				["damage"] = 1146876,
 			}, -- [9]
 			{
 				["flag"] = 1300,
 				["mana"] = 37939,
 				["dispel"] = 1,
+				["role"] = "HEALER",
 				["time"] = 181.4900000000001,
 				["totaldamagetaken"] = 74366,
 				["runic"] = 320,
@@ -178,110 +176,109 @@ SkadaStorageDB = {
 				["spec"] = 256,
 				["heal"] = 352492,
 				["name"] = "Inekcija",
-				["rage"] = 8,
 				["class"] = "PRIEST",
 				["overheal"] = 306641,
 				["energy"] = 48,
-				["role"] = "HEALER",
+				["rage"] = 8,
 			}, -- [10]
 			{
+				["totaldamage"] = 1644,
+				["name"] = "Mirror Image",
+				["time"] = 0.69,
 				["id"] = "Mirror Image",
 				["class"] = "PET",
-				["name"] = "Mirror Image",
-				["totaldamage"] = 1644,
-				["time"] = 0.69,
 				["flag"] = 4370,
 				["damage"] = 1644,
 			}, -- [11]
 			{
 				["overheal"] = 788669,
+				["absorb"] = 6162,
 				["damagetaken"] = 37870,
 				["flag"] = 1300,
 				["class"] = "PRIEST",
-				["absorb"] = 6162,
-				["mana"] = 2400,
+				["id"] = "0x07000000008365BD",
 				["role"] = "HEALER",
 				["name"] = "Someway",
-				["spec"] = 257,
+				["time"] = 184.61,
 				["heal"] = 612245,
 				["totaldamagetaken"] = 70689,
-				["time"] = 184.61,
-				["id"] = "0x07000000008365BD",
+				["spec"] = 257,
+				["mana"] = 2400,
 			}, -- [12]
 			{
-				["flag"] = 4372,
-				["class"] = "HUNTER",
-				["time"] = 167.9800000000001,
-				["totaldamagetaken"] = 47847,
-				["damage"] = 856925,
 				["overheal"] = 7899,
+				["role"] = "DAMAGER",
 				["damagetaken"] = 34800,
 				["id"] = "0x07000000009D1361",
-				["spec"] = 254,
-				["overkill"] = 4477,
-				["heal"] = 1677,
-				["name"] = "Paopaozhu",
-				["mana"] = 7383,
+				["flag"] = 4372,
+				["class"] = "HUNTER",
 				["totaldamage"] = 856925,
+				["overkill"] = 4477,
+				["mana"] = 7383,
+				["heal"] = 1677,
+				["time"] = 167.9800000000001,
+				["name"] = "Paopaozhu",
+				["spec"] = 254,
+				["totaldamagetaken"] = 47847,
 				["energy"] = 3114,
-				["role"] = "DAMAGER",
+				["damage"] = 856925,
 			}, -- [13]
 			{
 				["damagetaken"] = 71311,
-				["totaldamage"] = 1816372,
 				["id"] = "0x07000000005422F3",
 				["class"] = "MAGE",
-				["name"] = "Magijabebo",
-				["overkill"] = 25500,
 				["flag"] = 1300,
-				["role"] = "DAMAGER",
+				["overkill"] = 25500,
+				["spec"] = 63,
+				["totaldamage"] = 1816372,
+				["name"] = "Magijabebo",
 				["time"] = 153.0199999999999,
 				["mana"] = 14675,
 				["totaldamagetaken"] = 79016,
-				["spec"] = 63,
+				["role"] = "DAMAGER",
 				["damage"] = 1816372,
 			}, -- [14]
 			{
-				["flag"] = 1300,
-				["class"] = "PRIEST",
-				["time"] = 158.14,
-				["totaldamagetaken"] = 60087,
-				["damage"] = 1762566,
 				["overheal"] = 992475,
 				["absorb"] = 3558,
 				["damagetaken"] = 43428,
-				["id"] = "0x070000000018E094",
-				["spec"] = 258,
-				["overkill"] = 3011,
-				["heal"] = 53091,
-				["name"] = "Sortpraest",
-				["mana"] = 23400,
-				["totaldamage"] = 1762566,
 				["role"] = "DAMAGER",
+				["flag"] = 1300,
+				["class"] = "PRIEST",
+				["totaldamage"] = 1762566,
+				["overkill"] = 3011,
+				["mana"] = 23400,
+				["heal"] = 53091,
+				["time"] = 158.14,
+				["name"] = "Sortpraest",
+				["spec"] = 258,
+				["totaldamagetaken"] = 60087,
+				["id"] = "0x070000000018E094",
+				["damage"] = 1762566,
 			}, -- [15]
 			{
 				["overheal"] = 992048,
 				["damagetaken"] = 17536,
 				["flag"] = 1300,
 				["class"] = "SHAMAN",
-				["mana"] = 17544,
+				["id"] = "0x070000000002F23A",
 				["role"] = "HEALER",
 				["name"] = "Nafoo",
-				["spec"] = 264,
+				["time"] = 114.76,
 				["heal"] = 458764,
 				["totaldamagetaken"] = 41082,
-				["time"] = 114.76,
-				["id"] = "0x070000000002F23A",
+				["spec"] = 264,
+				["mana"] = 17544,
 			}, -- [16]
 			{
 				["damagetaken"] = 107026,
-				["spec"] = 260,
 				["id"] = "0x07000000004C3D1C",
+				["spec"] = 260,
 				["class"] = "ROGUE",
-				["name"] = "Ypopti",
 				["overkill"] = 1999,
-				["totaldamage"] = 825035,
 				["role"] = "DAMAGER",
+				["totaldamage"] = 825035,
+				["name"] = "Ypopti",
 				["time"] = 119.51,
 				["flag"] = 1300,
 				["totaldamagetaken"] = 114731,
@@ -292,10 +289,10 @@ SkadaStorageDB = {
 				["damagetaken"] = 35136,
 				["id"] = "0x0700000000787C04",
 				["class"] = "ROGUE",
-				["name"] = "Deftonez",
 				["spec"] = 260,
-				["totaldamage"] = 1354560,
 				["role"] = "DAMAGER",
+				["totaldamage"] = 1354560,
+				["name"] = "Deftonez",
 				["time"] = 105.8700000000001,
 				["flag"] = 1300,
 				["totaldamagetaken"] = 59842,
@@ -303,94 +300,94 @@ SkadaStorageDB = {
 				["damage"] = 1354560,
 			}, -- [18]
 			{
+				["overheal"] = 13320,
+				["role"] = "DAMAGER",
+				["damagetaken"] = 95994,
+				["totaldamage"] = 1338722,
 				["flag"] = 1300,
 				["class"] = "WARRIOR",
-				["time"] = 93.37000000000003,
-				["totaldamagetaken"] = 105624,
-				["damage"] = 1338722,
-				["overheal"] = 13320,
-				["damagetaken"] = 95994,
-				["id"] = "0x0700000000008A44",
-				["spec"] = 72,
-				["overkill"] = 755,
-				["heal"] = 6840,
-				["name"] = "Alexzandra",
-				["rage"] = 296,
 				["potion"] = 1,
-				["totaldamage"] = 1338722,
-				["role"] = "DAMAGER",
+				["overkill"] = 755,
+				["rage"] = 296,
+				["heal"] = 6840,
+				["time"] = 93.37000000000003,
+				["name"] = "Alexzandra",
+				["spec"] = 72,
+				["totaldamagetaken"] = 105624,
+				["id"] = "0x0700000000008A44",
+				["damage"] = 1338722,
 			}, -- [19]
 			{
 				["overheal"] = 385097,
 				["damagetaken"] = 67125,
-				["name"] = "Insurance",
 				["id"] = "0x07000000008F62B2",
 				["class"] = "PALADIN",
-				["heal"] = 139431,
 				["mana"] = 41357,
-				["totaldamage"] = 853202,
-				["role"] = "DAMAGER",
-				["time"] = 92.26000000000006,
-				["flag"] = 1300,
-				["totaldamagetaken"] = 84320,
 				["spec"] = 70,
+				["role"] = "DAMAGER",
+				["heal"] = 139431,
+				["name"] = "Insurance",
+				["flag"] = 1300,
+				["time"] = 92.26000000000006,
+				["totaldamagetaken"] = 84320,
+				["totaldamage"] = 853202,
 				["damage"] = 853202,
 			}, -- [20]
 			{
 				["overheal"] = 108738,
 				["damagetaken"] = 94006,
-				["name"] = "Iceburner",
 				["id"] = "0x0700000000008AFA",
 				["class"] = "PALADIN",
 				["mana"] = 10537,
-				["heal"] = 44812,
-				["totaldamage"] = 911599,
-				["role"] = "DAMAGER",
-				["time"] = 91.59000000000003,
-				["flag"] = 1300,
-				["totaldamagetaken"] = 109416,
 				["spec"] = 70,
+				["role"] = "DAMAGER",
+				["heal"] = 44812,
+				["name"] = "Iceburner",
+				["flag"] = 1300,
+				["time"] = 91.59000000000003,
+				["totaldamagetaken"] = 109416,
+				["totaldamage"] = 911599,
 				["damage"] = 911599,
 			}, -- [21]
 			{
-				["flag"] = 1300,
-				["class"] = "PALADIN",
-				["time"] = 78.01000000000001,
-				["totaldamagetaken"] = 94188,
-				["damage"] = 20348,
 				["overheal"] = 1128197,
 				["absorb"] = 36913,
 				["damagetaken"] = 61401,
-				["id"] = "0x070000000094DE40",
-				["spec"] = 65,
-				["heal"] = 288833,
-				["name"] = "Cnpal",
-				["mana"] = 28065,
-				["totaldamage"] = 20348,
+				["flag"] = 1300,
+				["class"] = "PALADIN",
 				["role"] = "HEALER",
+				["totaldamage"] = 20348,
+				["mana"] = 28065,
+				["heal"] = 288833,
+				["time"] = 78.01000000000001,
+				["name"] = "Cnpal",
+				["spec"] = 65,
+				["totaldamagetaken"] = 94188,
+				["id"] = "0x070000000094DE40",
+				["damage"] = 20348,
 			}, -- [22]
 			{
 				["damagetaken"] = 26799,
 				["id"] = "0x07000000009A57A0",
 				["class"] = "DRUID",
-				["name"] = "Lolscat",
-				["totaldamage"] = 941896,
 				["flag"] = 1298,
-				["role"] = "DAMAGER",
+				["spec"] = 102,
+				["totaldamage"] = 941896,
+				["name"] = "Lolscat",
 				["time"] = 90.98999999999997,
 				["mana"] = 32450,
 				["totaldamagetaken"] = 34935,
-				["spec"] = 102,
+				["role"] = "DAMAGER",
 				["damage"] = 941896,
 			}, -- [23]
 			{
 				["damagetaken"] = 58237,
 				["id"] = "0x07000000009DEBE6",
 				["class"] = "ROGUE",
-				["name"] = "Abyzu",
 				["spec"] = 260,
-				["totaldamage"] = 567063,
 				["role"] = "DAMAGER",
+				["totaldamage"] = 567063,
+				["name"] = "Abyzu",
 				["time"] = 89.95999999999998,
 				["flag"] = 1300,
 				["totaldamagetaken"] = 78034,
@@ -399,30 +396,40 @@ SkadaStorageDB = {
 			}, -- [24]
 			{
 				["runic"] = 30,
+				["absorb"] = 11567,
 				["damagetaken"] = 6123,
 				["id"] = "0x070000000095577D",
 				["class"] = "DEATHKNIGHT",
-				["totaldamage"] = 71967,
 				["flag"] = 525588,
-				["absorb"] = 11567,
-				["role"] = "TANK",
+				["totaldamage"] = 71967,
 				["time"] = 44.48,
+				["spec"] = 250,
 				["name"] = "Vaginismus",
 				["totaldamagetaken"] = 25708,
-				["spec"] = 250,
+				["role"] = "TANK",
 				["damage"] = 71967,
 			}, -- [25]
 		},
 		["overkill"] = 49707,
-		["heal"] = 2084291,
 		["name"] = "Total",
+		["heal"] = 2084291,
+		["potion"] = 1,
 		["death"] = 4,
-		["starttime"] = 1699434837,
+		["rage"] = 804,
+		["ress"] = 1,
 		["energy"] = 4332,
+		["sunder"] = 14,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
+			["success"] = true,
+			["energy"] = 2908,
+			["potion"] = 1,
+			["runic"] = 320,
+			["damage"] = 16102078,
+			["sunder"] = 9,
+			["mana"] = 269138,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -431,8 +438,8 @@ SkadaStorageDB = {
 							["total"] = 54714,
 							["targets"] = {
 								["Ebonmoo"] = {
-									["total"] = 196058,
 									["amount"] = 157987,
+									["total"] = 196058,
 								},
 							},
 							["amount"] = 157987,
@@ -442,97 +449,108 @@ SkadaStorageDB = {
 							["total"] = 394286,
 							["targets"] = {
 								["Someway"] = {
-									["total"] = 32964,
 									["amount"] = 7915,
+									["total"] = 32964,
 								},
 								["Lolscat"] = {
-									["total"] = 30825,
 									["amount"] = 22689,
+									["total"] = 30825,
 								},
-								["Karshash"] = {
-									["total"] = 37509,
-									["amount"] = 26991,
+								["Vaginismus"] = {
+									["amount"] = 6123,
+									["total"] = 25708,
 								},
 								["Vktr"] = {
-									["total"] = 29768,
 									["amount"] = 22063,
+									["total"] = 29768,
 								},
-								["Inekcija"] = {
-									["total"] = 35271,
-									["amount"] = 19430,
+								["Quewyn"] = {
+									["amount"] = 17224,
+									["total"] = 32975,
 								},
-								["Iceburner"] = {
-									["total"] = 33068,
-									["amount"] = 17658,
+								["Merrian"] = {
+									["amount"] = 13872,
+									["total"] = 30485,
 								},
-								["Inarya"] = {
-									["amount"] = 34523,
+								["Ypopti"] = {
+									["amount"] = 31709,
+									["total"] = 39414,
 								},
 								["Rasalgull"] = {
 									["amount"] = 34738,
 								},
-								["Vaginismus"] = {
-									["total"] = 25708,
-									["amount"] = 6123,
-								},
-								["Magijabebo"] = {
-									["total"] = 35245,
-									["amount"] = 32408,
-								},
-								["Ypopti"] = {
-									["total"] = 39414,
-									["amount"] = 31709,
+								["Iceburner"] = {
+									["amount"] = 17658,
+									["total"] = 33068,
 								},
 								["Insurance"] = {
-									["total"] = 28607,
 									["amount"] = 19770,
-								},
-								["Paopaozhu"] = {
-									["total"] = 32284,
-									["amount"] = 24579,
-								},
-								["Sortpraest"] = {
-									["total"] = 29163,
-									["amount"] = 25638,
-								},
-								["Ebonmoo"] = {
-									["total"] = 27586,
-									["amount"] = 24219,
-								},
-								["Deftonez"] = {
-									["total"] = 30394,
-									["amount"] = 5688,
+									["total"] = 28607,
 								},
 								["Abyzu"] = {
-									["total"] = 30224,
 									["amount"] = 22519,
+									["total"] = 30224,
+								},
+								["Magijabebo"] = {
+									["amount"] = 32408,
+									["total"] = 35245,
+								},
+								["Paopaozhu"] = {
+									["amount"] = 24579,
+									["total"] = 32284,
+								},
+								["Sortpraest"] = {
+									["amount"] = 25638,
+									["total"] = 29163,
+								},
+								["Ebonmoo"] = {
+									["amount"] = 24219,
+									["total"] = 27586,
+								},
+								["Deftonez"] = {
+									["amount"] = 5688,
+									["total"] = 30394,
+								},
+								["Inarya"] = {
+									["amount"] = 34523,
 								},
 								["Alexzandra"] = {
-									["total"] = 35167,
 									["amount"] = 25537,
+									["total"] = 35167,
 								},
 								["Finalwield"] = {
-									["total"] = 36658,
 									["amount"] = 28222,
+									["total"] = 36658,
 								},
 								["Cnpal"] = {
-									["total"] = 36015,
 									["amount"] = 18499,
+									["total"] = 36015,
 								},
-								["Merrian"] = {
-									["total"] = 30485,
-									["amount"] = 13872,
+								["Karshash"] = {
+									["amount"] = 26991,
+									["total"] = 37509,
 								},
-								["Quewyn"] = {
-									["total"] = 32975,
-									["amount"] = 17224,
+								["Inekcija"] = {
+									["amount"] = 19430,
+									["total"] = 35271,
 								},
 								["Nafoo"] = {
-									["total"] = 33393,
 									["amount"] = 9847,
+									["total"] = 33393,
 								},
 							},
 							["amount"] = 491861,
+						},
+						[6603] = {
+							["school"] = 1,
+							["total"] = 99118,
+							["targets"] = {
+								["Ebonmoo"] = {
+									["amount"] = 155719,
+									["total"] = 185102,
+								},
+							},
+							["amount"] = 155719,
 						},
 						[72104] = {
 							["school"] = 16,
@@ -545,12 +563,12 @@ SkadaStorageDB = {
 									["amount"] = 3666,
 								},
 								["Magijabebo"] = {
-									["total"] = 14573,
 									["amount"] = 9705,
+									["total"] = 14573,
 								},
 								["Sortpraest"] = {
-									["total"] = 4180,
 									["amount"] = 0,
+									["total"] = 4180,
 								},
 								["Lolscat"] = {
 									["amount"] = 4110,
@@ -562,25 +580,14 @@ SkadaStorageDB = {
 									["amount"] = 4638,
 								},
 								["Karshash"] = {
-									["total"] = 8917,
 									["amount"] = 4025,
+									["total"] = 8917,
 								},
 								["Nafoo"] = {
 									["amount"] = 7689,
 								},
 							},
 							["amount"] = 55765,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 99118,
-							["targets"] = {
-								["Ebonmoo"] = {
-									["total"] = 185102,
-									["amount"] = 155719,
-								},
-							},
-							["amount"] = 155719,
 						},
 					},
 					["damagetaken"] = 15067633,
@@ -641,8 +648,8 @@ SkadaStorageDB = {
 								["Iceburner"] = {
 									["amount"] = 210294,
 								},
-								["Vaginismus"] = {
-									["amount"] = 36891,
+								["Ypopti"] = {
+									["amount"] = 279217,
 								},
 								["Insurance"] = {
 									["amount"] = 211028,
@@ -671,14 +678,14 @@ SkadaStorageDB = {
 								["Vktr"] = {
 									["amount"] = 265540,
 								},
-								["Cnpal"] = {
-									["amount"] = 8812,
-								},
 								["Lolscat"] = {
 									["amount"] = 33358,
 								},
-								["Ypopti"] = {
-									["amount"] = 279217,
+								["Cnpal"] = {
+									["amount"] = 8812,
+								},
+								["Vaginismus"] = {
+									["amount"] = 36891,
 								},
 							},
 							["amount"] = 2459419,
@@ -765,12 +772,12 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["sources"] = {
 								["Paopaozhu"] = {
-									["overkill"] = 4477,
 									["amount"] = 26469,
+									["overkill"] = 4477,
 								},
 							},
-							["overkill"] = 4477,
 							["amount"] = 26469,
+							["overkill"] = 4477,
 						},
 						[53385] = {
 							["school"] = 1,
@@ -1015,11 +1022,11 @@ SkadaStorageDB = {
 								["Iceburner"] = {
 									["amount"] = 8991,
 								},
-								["Insurance"] = {
-									["amount"] = 7026,
-								},
 								["Rasalgull"] = {
 									["amount"] = 14409,
+								},
+								["Insurance"] = {
+									["amount"] = 7026,
 								},
 							},
 							["amount"] = 32608,
@@ -1027,11 +1034,11 @@ SkadaStorageDB = {
 						[56815] = {
 							["school"] = 1,
 							["sources"] = {
-								["Vaginismus"] = {
-									["amount"] = 6504,
-								},
 								["Ebonmoo"] = {
 									["amount"] = 32652,
+								},
+								["Vaginismus"] = {
+									["amount"] = 6504,
 								},
 							},
 							["amount"] = 39156,
@@ -1204,14 +1211,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 74708,
 						},
-						[61006] = {
-							["school"] = 1,
+						[60483] = {
+							["school"] = 32,
 							["sources"] = {
-								["Paopaozhu"] = {
-									["amount"] = 13347,
+								["Quewyn"] = {
+									["amount"] = 4124,
+								},
+								["Vktr"] = {
+									["amount"] = 5284,
 								},
 							},
-							["amount"] = 13347,
+							["amount"] = 9408,
 						},
 						[49065] = {
 							["school"] = 4,
@@ -1222,17 +1232,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 29538,
 						},
-						[42873] = {
-							["school"] = 4,
+						[44949] = {
+							["school"] = 1,
 							["sources"] = {
-								["Merrian"] = {
-									["amount"] = 7556,
+								["Alexzandra"] = {
+									["amount"] = 57059,
 								},
-								["Karshash"] = {
-									["amount"] = 11202,
+								["Finalwield"] = {
+									["amount"] = 27357,
 								},
 							},
-							["amount"] = 18758,
+							["amount"] = 84416,
 						},
 						[48819] = {
 							["school"] = 2,
@@ -1243,32 +1253,32 @@ SkadaStorageDB = {
 								["Iceburner"] = {
 									["amount"] = 25392,
 								},
-								["Cnpal"] = {
-									["amount"] = 2425,
-								},
 								["Rasalgull"] = {
 									["amount"] = 34262,
+								},
+								["Cnpal"] = {
+									["amount"] = 2425,
 								},
 							},
 							["amount"] = 69868,
 						},
-						[49941] = {
+						[48463] = {
+							["school"] = 64,
+							["sources"] = {
+								["Lolscat"] = {
+									["amount"] = 36364,
+								},
+							},
+							["amount"] = 36364,
+						},
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
-								["Vaginismus"] = {
-									["amount"] = 1033,
+								["Vktr"] = {
+									["amount"] = 27231,
 								},
 							},
-							["amount"] = 1033,
-						},
-						[57755] = {
-							["school"] = 1,
-							["sources"] = {
-								["Finalwield"] = {
-									["amount"] = 3207,
-								},
-							},
-							["amount"] = 3207,
+							["amount"] = 27231,
 						},
 						[48668] = {
 							["school"] = 1,
@@ -1285,35 +1295,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 57881,
 						},
-						[48672] = {
+						[49045] = {
+							["school"] = 64,
+							["sources"] = {
+								["Paopaozhu"] = {
+									["amount"] = 30446,
+								},
+							},
+							["amount"] = 30446,
+						},
+						[1680] = {
 							["school"] = 1,
 							["sources"] = {
-								["Deftonez"] = {
-									["amount"] = 29156,
+								["Alexzandra"] = {
+									["amount"] = 101863,
 								},
-								["Abyzu"] = {
-									["amount"] = 8272,
-								},
-								["Ypopti"] = {
-									["amount"] = 25453,
+								["Finalwield"] = {
+									["amount"] = 38620,
 								},
 							},
-							["amount"] = 62881,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vktr"] = {
-									["amount"] = 33436,
-								},
-								["Vaginismus"] = {
-									["amount"] = 3267,
-								},
-								["Ebonmoo"] = {
-									["amount"] = 12707,
-								},
-							},
-							["amount"] = 49410,
+							["amount"] = 140483,
 						},
 						[59638] = {
 							["school"] = 16,
@@ -1399,14 +1400,20 @@ SkadaStorageDB = {
 							},
 							["amount"] = 150447,
 						},
-						[49930] = {
+						[57841] = {
 							["school"] = 1,
 							["sources"] = {
-								["Vktr"] = {
-									["amount"] = 20408,
+								["Deftonez"] = {
+									["amount"] = 26491,
+								},
+								["Ypopti"] = {
+									["amount"] = 13013,
+								},
+								["Abyzu"] = {
+									["amount"] = 17162,
 								},
 							},
-							["amount"] = 20408,
+							["amount"] = 56666,
 						},
 						[31804] = {
 							["school"] = 2,
@@ -1420,14 +1427,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 167791,
 						},
-						[20253] = {
-							["school"] = 1,
+						[49941] = {
+							["school"] = 32,
 							["sources"] = {
-								["Alexzandra"] = {
-									["amount"] = 818,
+								["Vaginismus"] = {
+									["amount"] = 1033,
 								},
 							},
-							["amount"] = 818,
+							["amount"] = 1033,
 						},
 						[55360] = {
 							["school"] = 4,
@@ -1447,14 +1454,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 218032,
 						},
-						[48125] = {
-							["school"] = 32,
+						[20253] = {
+							["school"] = 1,
 							["sources"] = {
-								["Sortpraest"] = {
-									["amount"] = 85900,
+								["Alexzandra"] = {
+									["amount"] = 818,
 								},
 							},
-							["amount"] = 85900,
+							["amount"] = 818,
 						},
 						[53209] = {
 							["school"] = 8,
@@ -1465,14 +1472,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 52485,
 						},
-						[49269] = {
-							["school"] = 8,
+						[25742] = {
+							["school"] = 2,
 							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 4804,
+								["Iceburner"] = {
+									["amount"] = 196096,
 								},
 							},
-							["amount"] = 4804,
+							["amount"] = 196096,
 						},
 						[48461] = {
 							["school"] = 8,
@@ -1483,41 +1490,38 @@ SkadaStorageDB = {
 							},
 							["amount"] = 337284,
 						},
-						[42859] = {
-							["school"] = 4,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Magijabebo"] = {
-									["amount"] = 2517,
+								["Vktr"] = {
+									["amount"] = 33436,
 								},
-								["Karshash"] = {
-									["amount"] = 16041,
+								["Vaginismus"] = {
+									["amount"] = 3267,
 								},
-								["Quewyn"] = {
-									["amount"] = 15376,
+								["Ebonmoo"] = {
+									["amount"] = 12707,
 								},
 							},
-							["amount"] = 33934,
+							["amount"] = 49410,
 						},
-						[42463] = {
-							["school"] = 2,
+						[49269] = {
+							["school"] = 8,
 							["sources"] = {
-								["Rasalgull"] = {
-									["amount"] = 189975,
-								},
-								["Insurance"] = {
-									["amount"] = 213614,
+								["Inarya"] = {
+									["amount"] = 4804,
 								},
 							},
-							["amount"] = 403589,
+							["amount"] = 4804,
 						},
-						[75] = {
+						[49930] = {
 							["school"] = 1,
 							["sources"] = {
-								["Paopaozhu"] = {
-									["amount"] = 129212,
+								["Vktr"] = {
+									["amount"] = 20408,
 								},
 							},
-							["amount"] = 129212,
+							["amount"] = 20408,
 						},
 						[51963] = {
 							["school"] = 8,
@@ -1546,23 +1550,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 43295,
 						},
-						[54158] = {
+						[75] = {
+							["school"] = 1,
+							["sources"] = {
+								["Paopaozhu"] = {
+									["amount"] = 129212,
+								},
+							},
+							["amount"] = 129212,
+						},
+						[42463] = {
 							["school"] = 2,
 							["sources"] = {
-								["Cnpal"] = {
-									["amount"] = 5223,
+								["Rasalgull"] = {
+									["amount"] = 189975,
+								},
+								["Insurance"] = {
+									["amount"] = 213614,
 								},
 							},
-							["amount"] = 5223,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Sortpraest"] = {
-									["amount"] = 54685,
-								},
-							},
-							["amount"] = 54685,
+							["amount"] = 403589,
 						},
 						[48300] = {
 							["school"] = 32,
@@ -1582,14 +1589,80 @@ SkadaStorageDB = {
 							},
 							["amount"] = 16147,
 						},
-						[25742] = {
-							["school"] = 2,
+						[63675] = {
+							["school"] = 32,
 							["sources"] = {
-								["Iceburner"] = {
-									["amount"] = 196096,
+								["Sortpraest"] = {
+									["amount"] = 54685,
 								},
 							},
-							["amount"] = 196096,
+							["amount"] = 54685,
+						},
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Sortpraest"] = {
+									["amount"] = 85900,
+								},
+							},
+							["amount"] = 85900,
+						},
+						[54158] = {
+							["school"] = 2,
+							["sources"] = {
+								["Cnpal"] = {
+									["amount"] = 5223,
+								},
+							},
+							["amount"] = 5223,
+						},
+						[42859] = {
+							["school"] = 4,
+							["sources"] = {
+								["Magijabebo"] = {
+									["amount"] = 2517,
+								},
+								["Karshash"] = {
+									["amount"] = 16041,
+								},
+								["Quewyn"] = {
+									["amount"] = 15376,
+								},
+							},
+							["amount"] = 33934,
+						},
+						[48672] = {
+							["school"] = 1,
+							["sources"] = {
+								["Deftonez"] = {
+									["amount"] = 29156,
+								},
+								["Abyzu"] = {
+									["amount"] = 8272,
+								},
+								["Ypopti"] = {
+									["amount"] = 25453,
+								},
+							},
+							["amount"] = 62881,
+						},
+						[54043] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ebonmoo"] = {
+									["amount"] = 3517,
+								},
+							},
+							["amount"] = 3517,
+						},
+						[57755] = {
+							["school"] = 1,
+							["sources"] = {
+								["Finalwield"] = {
+									["amount"] = 3207,
+								},
+							},
+							["amount"] = 3207,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -1603,96 +1676,30 @@ SkadaStorageDB = {
 							},
 							["amount"] = 17542,
 						},
-						[57841] = {
-							["school"] = 1,
+						[42873] = {
+							["school"] = 4,
 							["sources"] = {
-								["Deftonez"] = {
-									["amount"] = 26491,
+								["Karshash"] = {
+									["amount"] = 11202,
 								},
-								["Ypopti"] = {
-									["amount"] = 13013,
-								},
-								["Abyzu"] = {
-									["amount"] = 17162,
+								["Merrian"] = {
+									["amount"] = 7556,
 								},
 							},
-							["amount"] = 56666,
+							["amount"] = 18758,
 						},
-						[1680] = {
+						[61006] = {
 							["school"] = 1,
-							["sources"] = {
-								["Alexzandra"] = {
-									["amount"] = 101863,
-								},
-								["Finalwield"] = {
-									["amount"] = 38620,
-								},
-							},
-							["amount"] = 140483,
-						},
-						[49045] = {
-							["school"] = 64,
 							["sources"] = {
 								["Paopaozhu"] = {
-									["amount"] = 30446,
+									["amount"] = 13347,
 								},
 							},
-							["amount"] = 30446,
-						},
-						[54043] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ebonmoo"] = {
-									["amount"] = 3517,
-								},
-							},
-							["amount"] = 3517,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Vktr"] = {
-									["amount"] = 27231,
-								},
-							},
-							["amount"] = 27231,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Lolscat"] = {
-									["amount"] = 36364,
-								},
-							},
-							["amount"] = 36364,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Alexzandra"] = {
-									["amount"] = 57059,
-								},
-								["Finalwield"] = {
-									["amount"] = 27357,
-								},
-							},
-							["amount"] = 84416,
-						},
-						[60483] = {
-							["school"] = 32,
-							["sources"] = {
-								["Quewyn"] = {
-									["amount"] = 4124,
-								},
-								["Vktr"] = {
-									["amount"] = 5284,
-								},
-							},
-							["amount"] = 9408,
+							["amount"] = 13347,
 						},
 					},
-					["name"] = "Toravon the Ice Watcher",
 					["totaldamage"] = 1202849,
+					["name"] = "Toravon the Ice Watcher",
 					["totaldamagetaken"] = 15067633,
 					["id"] = "0xF130009621000006",
 					["damage"] = 861332,
@@ -1710,39 +1717,39 @@ SkadaStorageDB = {
 									["amount"] = 71651,
 								},
 								["Insurance"] = {
-									["total"] = 55713,
 									["amount"] = 47355,
+									["total"] = 55713,
 								},
 								["Paopaozhu"] = {
 									["amount"] = 2208,
 								},
 								["Ebonmoo"] = {
-									["total"] = 32805,
 									["amount"] = 16543,
+									["total"] = 32805,
 								},
 								["Deftonez"] = {
 									["amount"] = 29448,
 								},
 								["Abyzu"] = {
-									["total"] = 47810,
 									["amount"] = 35718,
+									["total"] = 47810,
 								},
 								["Alexzandra"] = {
 									["amount"] = 70457,
 								},
 								["Finalwield"] = {
-									["total"] = 88431,
 									["amount"] = 80726,
+									["total"] = 88431,
 								},
 								["Vktr"] = {
 									["amount"] = 67233,
 								},
+								["Cnpal"] = {
+									["amount"] = 42902,
+									["total"] = 58173,
+								},
 								["Iceburner"] = {
 									["amount"] = 76348,
-								},
-								["Cnpal"] = {
-									["total"] = 58173,
-									["amount"] = 42902,
 								},
 							},
 							["amount"] = 599596,
@@ -1765,8 +1772,8 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Magijabebo"] = {
-									["overkill"] = 20907,
 									["amount"] = 23974,
+									["overkill"] = 20907,
 								},
 								["Merrian"] = {
 									["amount"] = 33965,
@@ -1775,17 +1782,22 @@ SkadaStorageDB = {
 									["amount"] = 30131,
 								},
 							},
-							["overkill"] = 20907,
 							["amount"] = 88070,
+							["overkill"] = 20907,
 						},
-						[42873] = {
-							["school"] = 4,
+						[12721] = {
+							["school"] = 1,
 							["sources"] = {
-								["Merrian"] = {
-									["amount"] = 3346,
+								["Alexzandra"] = {
+									["amount"] = 5801,
+									["overkill"] = 755,
+								},
+								["Finalwield"] = {
+									["amount"] = 2575,
 								},
 							},
-							["amount"] = 3346,
+							["amount"] = 8376,
+							["overkill"] = 755,
 						},
 						[55262] = {
 							["school"] = 1,
@@ -1796,14 +1808,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1368,
 						},
-						[57965] = {
-							["school"] = 8,
+						[12654] = {
+							["school"] = 4,
 							["sources"] = {
-								["Ypopti"] = {
-									["amount"] = 1863,
+								["Magijabebo"] = {
+									["amount"] = 9078,
+								},
+								["Merrian"] = {
+									["amount"] = 26459,
+								},
+								["Quewyn"] = {
+									["amount"] = 9565,
+								},
+								["Karshash"] = {
+									["amount"] = 6861,
 								},
 							},
-							["amount"] = 1863,
+							["amount"] = 51963,
 						},
 						[42833] = {
 							["school"] = 4,
@@ -1847,29 +1868,23 @@ SkadaStorageDB = {
 								["Iceburner"] = {
 									["amount"] = 21309,
 								},
-								["Cnpal"] = {
-									["amount"] = 1706,
-								},
 								["Rasalgull"] = {
 									["amount"] = 20338,
+								},
+								["Cnpal"] = {
+									["amount"] = 1706,
 								},
 							},
 							["amount"] = 48550,
 						},
-						[61840] = {
-							["school"] = 2,
+						[57965] = {
+							["school"] = 8,
 							["sources"] = {
-								["Rasalgull"] = {
-									["amount"] = 8871,
-								},
-								["Iceburner"] = {
-									["amount"] = 8206,
-								},
-								["Insurance"] = {
-									["amount"] = 3389,
+								["Ypopti"] = {
+									["amount"] = 1863,
 								},
 							},
-							["amount"] = 20466,
+							["amount"] = 1863,
 						},
 						[50526] = {
 							["school"] = 32,
@@ -1892,6 +1907,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 67039,
 						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Vaginismus"] = {
+									["amount"] = 659,
+								},
+							},
+							["amount"] = 659,
+						},
 						[48638] = {
 							["school"] = 1,
 							["sources"] = {
@@ -1901,28 +1925,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8293,
 						},
-						[44949] = {
-							["school"] = 1,
+						[42873] = {
+							["school"] = 4,
 							["sources"] = {
-								["Alexzandra"] = {
-									["amount"] = 7013,
-								},
-								["Finalwield"] = {
-									["overkill"] = 3155,
-									["amount"] = 7210,
+								["Merrian"] = {
+									["amount"] = 3346,
 								},
 							},
-							["overkill"] = 3155,
-							["amount"] = 14223,
-						},
-						[49941] = {
-							["school"] = 32,
-							["sources"] = {
-								["Vaginismus"] = {
-									["amount"] = 659,
-								},
-							},
-							["amount"] = 659,
+							["amount"] = 3346,
 						},
 						[1680] = {
 							["school"] = 1,
@@ -1936,17 +1946,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 47397,
 						},
-						[52212] = {
+						[48160] = {
 							["school"] = 32,
 							["sources"] = {
-								["Vktr"] = {
-									["amount"] = 712,
-								},
-								["Vaginismus"] = {
-									["amount"] = 12258,
+								["Sortpraest"] = {
+									["amount"] = 56241,
 								},
 							},
-							["amount"] = 12970,
+							["amount"] = 56241,
 						},
 						[53385] = {
 							["school"] = 1,
@@ -1958,23 +1965,23 @@ SkadaStorageDB = {
 									["amount"] = 73715,
 								},
 								["Rasalgull"] = {
-									["overkill"] = 2252,
 									["amount"] = 70321,
+									["overkill"] = 2252,
 								},
 							},
-							["overkill"] = 2252,
 							["amount"] = 185608,
+							["overkill"] = 2252,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Ypopti"] = {
-									["overkill"] = 1999,
 									["amount"] = 10729,
+									["overkill"] = 1999,
 								},
 							},
-							["overkill"] = 1999,
 							["amount"] = 10729,
+							["overkill"] = 1999,
 						},
 						[71433] = {
 							["school"] = 1,
@@ -1988,18 +1995,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5073,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vktr"] = {
-									["amount"] = 6749,
-								},
-								["Ebonmoo"] = {
-									["amount"] = 1472,
-								},
-							},
-							["amount"] = 8221,
-						},
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
@@ -2012,17 +2007,29 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6852,
 						},
-						[71904] = {
-							["school"] = 32,
+						[55360] = {
+							["school"] = 4,
 							["sources"] = {
-								["Alexzandra"] = {
-									["amount"] = 2639,
+								["Magijabebo"] = {
+									["amount"] = 10186,
 								},
-								["Iceburner"] = {
-									["amount"] = 4221,
+								["Merrian"] = {
+									["amount"] = 17224,
 								},
 							},
-							["amount"] = 6860,
+							["amount"] = 27410,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Vktr"] = {
+									["amount"] = 712,
+								},
+								["Vaginismus"] = {
+									["amount"] = 12258,
+								},
+							},
+							["amount"] = 12970,
 						},
 						[63900] = {
 							["school"] = 8,
@@ -2043,27 +2050,27 @@ SkadaStorageDB = {
 									["amount"] = 30293,
 								},
 								["Quewyn"] = {
-									["overkill"] = 1337,
 									["amount"] = 12915,
+									["overkill"] = 1337,
 								},
 								["Karshash"] = {
 									["amount"] = 18751,
 								},
 							},
-							["overkill"] = 1337,
 							["amount"] = 82078,
+							["overkill"] = 1337,
 						},
-						[55360] = {
-							["school"] = 4,
+						[71904] = {
+							["school"] = 32,
 							["sources"] = {
-								["Magijabebo"] = {
-									["amount"] = 10186,
+								["Alexzandra"] = {
+									["amount"] = 2639,
 								},
-								["Merrian"] = {
-									["amount"] = 17224,
+								["Iceburner"] = {
+									["amount"] = 4221,
 								},
 							},
-							["amount"] = 27410,
+							["amount"] = 6860,
 						},
 						[49271] = {
 							["school"] = 8,
@@ -2074,14 +2081,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 46257,
 						},
-						[48160] = {
-							["school"] = 32,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Sortpraest"] = {
-									["amount"] = 56241,
+								["Vktr"] = {
+									["amount"] = 6749,
+								},
+								["Ebonmoo"] = {
+									["amount"] = 1472,
 								},
 							},
-							["amount"] = 56241,
+							["amount"] = 8221,
 						},
 						[22482] = {
 							["school"] = 1,
@@ -2095,73 +2105,46 @@ SkadaStorageDB = {
 							},
 							["amount"] = 88872,
 						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Magijabebo"] = {
-									["amount"] = 9078,
-								},
-								["Merrian"] = {
-									["amount"] = 26459,
-								},
-								["Quewyn"] = {
-									["amount"] = 9565,
-								},
-								["Karshash"] = {
-									["amount"] = 6861,
-								},
-							},
-							["amount"] = 51963,
-						},
-						[12721] = {
+						[44949] = {
 							["school"] = 1,
 							["sources"] = {
 								["Alexzandra"] = {
-									["overkill"] = 755,
-									["amount"] = 5801,
+									["amount"] = 7013,
 								},
 								["Finalwield"] = {
-									["amount"] = 2575,
+									["amount"] = 7210,
+									["overkill"] = 3155,
 								},
 							},
-							["overkill"] = 755,
-							["amount"] = 8376,
+							["amount"] = 14223,
+							["overkill"] = 3155,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Rasalgull"] = {
+									["amount"] = 8871,
+								},
+								["Iceburner"] = {
+									["amount"] = 8206,
+								},
+								["Insurance"] = {
+									["amount"] = 3389,
+								},
+							},
+							["amount"] = 20466,
 						},
 					},
-					["name"] = "Frozen Orb",
 					["totaldamage"] = 659284,
+					["name"] = "Frozen Orb",
 					["totaldamagetaken"] = 1034445,
 					["id"] = "0xF130009638000047",
 					["damage"] = 599596,
 				}, -- [2]
 			},
 			["dispel"] = 1,
-			["totaldamagetaken"] = 1862133,
-			["last_time"] = 8672.286,
-			["damagetaken"] = 1460928,
-			["overkill"] = 34882,
-			["edamagetaken"] = 16102078,
-			["heal"] = 1505407,
-			["name"] = "Toravon the Ice Watcher",
-			["edamage"] = 1460928,
-			["last_action"] = 1699435698,
-			["mana"] = 269138,
 			["totaldamage"] = 16102078,
 			["time"] = 104,
-			["etotaldamagetaken"] = 16102078,
-			["damage"] = 16102078,
-			["starttime"] = 1699435594,
-			["type"] = "raid",
-			["rage"] = 615,
-			["success"] = true,
-			["gotboss"] = 38433,
-			["overheal"] = 3959934,
-			["sunder"] = 9,
-			["absorb"] = 401205,
-			["etotaldamage"] = 1862133,
-			["potion"] = 1,
-			["mobname"] = "Toravon the Ice Watcher",
-			["runic"] = 320,
 			["players"] = {
 				{
 					["last"] = 8662.82,
@@ -2174,9 +2157,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[52000] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 12,
 						},
 						[20053] = {
@@ -2193,22 +2176,22 @@ SkadaStorageDB = {
 							["refresh"] = 28,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 3,
 									["refresh"] = 26,
+									["count"] = 3,
 									["uptime"] = 90,
 								},
 								["Frozen Orb"] = {
-									["count"] = 4,
 									["refresh"] = 2,
+									["count"] = 4,
 									["uptime"] = 14,
 								},
 							},
 							["uptime"] = 90,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[59578] = {
@@ -2263,9 +2246,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[59620] = {
@@ -2280,16 +2263,10 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["uptime"] = 32,
 						},
-						[75493] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
 						[31801] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 100,
 						},
 						[48162] = {
@@ -2304,17 +2281,17 @@ SkadaStorageDB = {
 							["refresh"] = 44,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 44,
+									["count"] = 1,
 									["uptime"] = 89,
 								},
 							},
 							["uptime"] = 89,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -2328,28 +2305,32 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
 						},
 						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[71432] = {
-							["type"] = "BUFF",
-							["count"] = 18,
-							["school"] = 1,
-							["refresh"] = 66,
-							["uptime"] = 98,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[64844] = {
 							["school"] = 2,
-							["uptime"] = 13,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[31884] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
 						},
 						[48938] = {
 							["type"] = "BUFF",
@@ -2366,29 +2347,59 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[15359] = {
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[75458] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 35,
-						},
-						[70809] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 2,
-							["uptime"] = 21,
+							["uptime"] = 41,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
-						[51470] = {
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 13,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["refresh"] = 2,
+									["count"] = 7,
+									["uptime"] = 58,
+								},
+							},
+							["uptime"] = 58,
+						},
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48068] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 45,
 						},
 						[48819] = {
 							["type"] = "DEBUFF",
@@ -2406,66 +2417,39 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 10,
 						},
-						[25898] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48074] = {
+						[70809] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 45,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 2,
+							["count"] = 2,
+							["school"] = 8,
 							["refresh"] = 2,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["count"] = 7,
-									["refresh"] = 2,
-									["uptime"] = 58,
-								},
-							},
-							["uptime"] = 58,
+							["uptime"] = 21,
 						},
-						[75458] = {
+						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 64,
-							["uptime"] = 41,
+							["uptime"] = 35,
 						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
-						},
-						[31884] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[75493] = {
 							["school"] = 2,
-							["uptime"] = 20,
-						},
-						[64844] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 8,
+							["count"] = 2,
+							["uptime"] = 9,
 						},
-						[58754] = {
+						[71432] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
+							["count"] = 18,
+							["school"] = 1,
+							["refresh"] = 66,
+							["uptime"] = 98,
 						},
 					},
+					["totaldamage"] = 853202,
 					["time"] = 94.38000000000005,
 					["totaldamagetaken"] = 84320,
 					["damage"] = 853202,
@@ -2481,8 +2465,8 @@ SkadaStorageDB = {
 									["amount"] = 5197,
 								},
 							},
-							["hitmax"] = 903,
 							["count"] = 18,
+							["hitmax"] = 903,
 							["hit"] = 18,
 							["school"] = 2,
 							["resisted"] = 464,
@@ -2506,32 +2490,32 @@ SkadaStorageDB = {
 							["hitamount"] = 3675,
 						},
 						["Judgement of Vengeance"] = {
-							["criticalmin"] = 7917,
-							["hitmin"] = 3838,
 							["criticalamount"] = 79119,
+							["hitmin"] = 3838,
+							["criticalmin"] = 7917,
 							["id"] = 31804,
-							["criticalmax"] = 13929,
+							["amount"] = 82957,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 82957,
 								},
 							},
-							["critical"] = 8,
-							["hitmax"] = 3838,
 							["casts"] = 1,
 							["count"] = 9,
+							["criticalmax"] = 13929,
+							["critical"] = 8,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 5745,
-							["amount"] = 82957,
+							["hitmax"] = 3838,
 							["hitamount"] = 3838,
 						},
 						["Manifest Anger"] = {
-							["PARRY"] = 2,
+							["criticalmin"] = 2160,
 							["hitmin"] = 1144,
 							["criticalamount"] = 21458,
 							["id"] = 71433,
-							["criticalmin"] = 2160,
+							["amount"] = 29178,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 25744,
@@ -2540,14 +2524,14 @@ SkadaStorageDB = {
 									["amount"] = 3434,
 								},
 							},
-							["criticalmax"] = 3351,
-							["critical"] = 8,
-							["casts"] = 1,
+							["hitmax"] = 1515,
 							["count"] = 16,
+							["PARRY"] = 2,
+							["critical"] = 8,
 							["hit"] = 6,
 							["school"] = 1,
-							["hitmax"] = 1515,
-							["amount"] = 29178,
+							["casts"] = 1,
+							["criticalmax"] = 3351,
 							["hitamount"] = 7720,
 						},
 						["Hammer of Wrath"] = {
@@ -2562,9 +2546,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 7026,
 							["school"] = 2,
-							["criticalmin"] = 7026,
-							["criticalmax"] = 7026,
 							["count"] = 1,
+							["criticalmax"] = 7026,
+							["criticalmin"] = 7026,
 						},
 						["Holy Vengeance (DoT)"] = {
 							["hitmin"] = 817,
@@ -2574,8 +2558,8 @@ SkadaStorageDB = {
 									["amount"] = 49669,
 								},
 							},
-							["hitmax"] = 2500,
 							["count"] = 29,
+							["hitmax"] = 2500,
 							["hit"] = 29,
 							["school"] = 2,
 							["resisted"] = 2178,
@@ -2610,7 +2594,7 @@ SkadaStorageDB = {
 							["hitmin"] = 2726,
 							["criticalamount"] = 117365,
 							["id"] = 53385,
-							["hitmax"] = 3177,
+							["count"] = 24,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 93361,
@@ -2619,34 +2603,34 @@ SkadaStorageDB = {
 									["amount"] = 41572,
 								},
 							},
-							["count"] = 24,
-							["hit"] = 6,
-							["casts"] = 16,
-							["critical"] = 18,
-							["amount"] = 134933,
-							["school"] = 1,
-							["criticalmin"] = 5355,
 							["criticalmax"] = 7844,
+							["criticalmin"] = 5355,
+							["casts"] = 16,
+							["hitmax"] = 3177,
+							["hit"] = 6,
+							["school"] = 1,
+							["amount"] = 134933,
+							["critical"] = 18,
 							["hitamount"] = 17568,
 						},
 						["Crusader Strike"] = {
 							["hitmin"] = 2274,
 							["criticalamount"] = 42293,
 							["id"] = 35395,
-							["hitmax"] = 2459,
+							["count"] = 13,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 51837,
 								},
 							},
-							["count"] = 13,
-							["hit"] = 4,
-							["casts"] = 13,
-							["critical"] = 9,
-							["amount"] = 51837,
-							["school"] = 1,
-							["criticalmin"] = 3345,
 							["criticalmax"] = 6243,
+							["criticalmin"] = 3345,
+							["casts"] = 13,
+							["hitmax"] = 2459,
+							["hit"] = 4,
+							["school"] = 1,
+							["amount"] = 51837,
+							["critical"] = 9,
 							["hitamount"] = 9544,
 						},
 						["Righteous Vengeance (DoT)"] = {
@@ -2660,8 +2644,8 @@ SkadaStorageDB = {
 									["amount"] = 3389,
 								},
 							},
-							["hitmax"] = 4984,
 							["count"] = 34,
+							["hitmax"] = 4984,
 							["hit"] = 34,
 							["school"] = 2,
 							["resisted"] = 3887,
@@ -2669,25 +2653,25 @@ SkadaStorageDB = {
 							["hitamount"] = 56299,
 						},
 						["Seal of Vengeance"] = {
-							["blocked"] = 41,
-							["hitmax"] = 1917,
+							["count"] = 82,
+							["criticalmax"] = 4431,
 							["hitmin"] = 661,
 							["criticalamount"] = 174758,
 							["id"] = 42463,
-							["count"] = 82,
+							["criticalmin"] = 667,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 213614,
 								},
 							},
-							["hit"] = 26,
-							["criticalmin"] = 667,
-							["casts"] = 1,
 							["critical"] = 56,
 							["amount"] = 213614,
+							["casts"] = 1,
+							["hitmax"] = 1917,
+							["blocked"] = 41,
 							["school"] = 2,
 							["resisted"] = 13283,
-							["criticalmax"] = 4431,
+							["hit"] = 26,
 							["hitamount"] = 38856,
 						},
 					},
@@ -2697,64 +2681,58 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 383773,
-							["max"] = 947,
-							["count"] = 932,
-							["amount"] = 125440,
-							["school"] = 2,
-							["min"] = 31,
-							["ishot"] = true,
 							["targets"] = {
 								["Mirror Image"] = {
 									["overheal"] = 5157,
 									["amount"] = 0,
 								},
-								["Vaginismus"] = {
-									["overheal"] = 5981,
-									["amount"] = 0,
-								},
-								["Ebon Gargoyle"] = {
-									["overheal"] = 497,
-									["amount"] = 1491,
-								},
-								["Lolscat"] = {
-									["overheal"] = 8050,
-									["amount"] = 1538,
-								},
-								["Army of the Dead Ghoul"] = {
-									["overheal"] = 4908,
-									["amount"] = 4932,
-								},
-								["Karshash"] = {
-									["overheal"] = 4712,
-									["amount"] = 524,
-								},
-								["Shadowfiend"] = {
-									["overheal"] = 1116,
-									["amount"] = 0,
-								},
-								["Vktr"] = {
-									["overheal"] = 18898,
-									["amount"] = 10440,
-								},
-								["Cnpal"] = {
-									["overheal"] = 5086,
-									["amount"] = 553,
+								["Magijabebo"] = {
+									["overheal"] = 8283,
+									["amount"] = 1656,
 								},
 								["Iceburner"] = {
 									["overheal"] = 16713,
 									["amount"] = 12241,
 								},
-								["Inarya"] = {
-									["overheal"] = 11762,
-									["amount"] = 3341,
+								["Lolscat"] = {
+									["overheal"] = 8050,
+									["amount"] = 1538,
+								},
+								["Merrian"] = {
+									["overheal"] = 6654,
+									["amount"] = 0,
+								},
+								["Treant"] = {
+									["overheal"] = 1980,
+									["amount"] = 1155,
 								},
 								["Rasalgull"] = {
 									["overheal"] = 16999,
 									["amount"] = 8017,
 								},
+								["Vktr"] = {
+									["overheal"] = 18898,
+									["amount"] = 10440,
+								},
 								["Ypopti"] = {
 									["overheal"] = 32660,
 									["amount"] = 16685,
+								},
+								["Abyzu"] = {
+									["overheal"] = 27363,
+									["amount"] = 7108,
+								},
+								["Deftonez"] = {
+									["overheal"] = 48967,
+									["amount"] = 15607,
+								},
+								["Ebon Gargoyle"] = {
+									["overheal"] = 497,
+									["amount"] = 1491,
+								},
+								["Vaginismus"] = {
+									["overheal"] = 5981,
+									["amount"] = 0,
 								},
 								["Crab"] = {
 									["overheal"] = 17542,
@@ -2780,13 +2758,13 @@ SkadaStorageDB = {
 									["overheal"] = 16605,
 									["amount"] = 6350,
 								},
-								["Deftonez"] = {
-									["overheal"] = 48967,
-									["amount"] = 15607,
+								["Army of the Dead Ghoul"] = {
+									["overheal"] = 4908,
+									["amount"] = 4932,
 								},
-								["Abyzu"] = {
-									["overheal"] = 27363,
-									["amount"] = 7108,
+								["Inarya"] = {
+									["overheal"] = 11762,
+									["amount"] = 3341,
 								},
 								["Alexzandra"] = {
 									["overheal"] = 28931,
@@ -2796,26 +2774,37 @@ SkadaStorageDB = {
 									["overheal"] = 25872,
 									["amount"] = 10974,
 								},
-								["Treant"] = {
-									["overheal"] = 1980,
-									["amount"] = 1155,
-								},
-								["Merrian"] = {
-									["overheal"] = 6654,
+								["Shadowfiend"] = {
+									["overheal"] = 1116,
 									["amount"] = 0,
+								},
+								["Karshash"] = {
+									["overheal"] = 4712,
+									["amount"] = 524,
 								},
 								["Quewyn"] = {
 									["overheal"] = 2812,
 									["amount"] = 937,
 								},
-								["Magijabebo"] = {
-									["overheal"] = 8283,
-									["amount"] = 1656,
+								["Cnpal"] = {
+									["overheal"] = 5086,
+									["amount"] = 553,
 								},
 							},
+							["count"] = 932,
+							["amount"] = 125440,
+							["max"] = 947,
+							["min"] = 31,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 						[54172] = {
 							["overheal"] = 1324,
+							["min"] = 152,
+							["count"] = 8,
+							["amount"] = 13991,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Deftonez"] = {
 									["overheal"] = 383,
@@ -2829,9 +2818,9 @@ SkadaStorageDB = {
 									["overheal"] = 0,
 									["amount"] = 2917,
 								},
-								["Inarya"] = {
-									["overheal"] = 0,
-									["amount"] = 740,
+								["Rotstealer"] = {
+									["overheal"] = 9,
+									["amount"] = 152,
 								},
 								["Treant"] = {
 									["overheal"] = 30,
@@ -2845,69 +2834,63 @@ SkadaStorageDB = {
 									["overheal"] = 0,
 									["amount"] = 4073,
 								},
-								["Rotstealer"] = {
-									["overheal"] = 9,
-									["amount"] = 152,
+								["Inarya"] = {
+									["overheal"] = 0,
+									["amount"] = 740,
 								},
 							},
-							["count"] = 8,
-							["amount"] = 13991,
-							["school"] = 2,
 							["max"] = 4073,
-							["ishot"] = true,
-							["min"] = 152,
 						},
 					},
 					["damagetakenspells"] = {
-						["Frozen Orb"] = {
-							["total"] = 55713,
-							["hitmin"] = 1147,
-							["id"] = 72097,
-							["ABSORB"] = 4,
-							["hitmax"] = 2575,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["total"] = 55713,
-									["amount"] = 47355,
-								},
-							},
-							["count"] = 30,
-							["hit"] = 26,
-							["school"] = 16,
-							["resisted"] = 16700,
-							["amount"] = 47355,
-							["hitamount"] = 47355,
-						},
 						["Whiteout"] = {
 							["total"] = 28607,
 							["hitmin"] = 9361,
 							["id"] = 72096,
-							["ABSORB"] = 1,
-							["hitmax"] = 10409,
+							["count"] = 3,
+							["amount"] = 19770,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 28607,
 									["amount"] = 19770,
+									["total"] = 28607,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 2,
+							["hitmax"] = 10409,
+							["ABSORB"] = 1,
 							["school"] = 16,
 							["resisted"] = 10950,
-							["amount"] = 19770,
+							["hit"] = 2,
 							["hitamount"] = 19770,
 						},
+						["Frozen Orb"] = {
+							["total"] = 55713,
+							["hitmin"] = 1147,
+							["id"] = 72097,
+							["count"] = 30,
+							["amount"] = 47355,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 47355,
+									["total"] = 55713,
+								},
+							},
+							["hitmax"] = 2575,
+							["ABSORB"] = 4,
+							["school"] = 16,
+							["resisted"] = 16700,
+							["hit"] = 26,
+							["hitamount"] = 47355,
+						},
 					},
-					["overheal"] = 385097,
 					["heal"] = 139431,
 					["name"] = "Insurance",
+					["role"] = "DAMAGER",
+					["mana"] = 41357,
 					["manaspells"] = {
 						[31930] = 9882,
 						[57669] = 31475,
 					},
-					["mana"] = 41357,
-					["totaldamage"] = 853202,
-					["role"] = "DAMAGER",
+					["overheal"] = 385097,
 				}, -- [1]
 				{
 					["last"] = 8662.839,
@@ -2944,15 +2927,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[53201] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[24907] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 8,
 							["uptime"] = 104,
 						},
 						[28878] = {
@@ -2961,21 +2944,21 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[16237] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[32223] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
 						[48945] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
 						[2895] = {
@@ -2989,21 +2972,21 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70809] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
 						[19506] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 64,
 							["uptime"] = 104,
 						},
 						[64713] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[48463] = {
@@ -3013,8 +2996,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 4,
 									["refresh"] = 1,
+									["count"] = 4,
 									["uptime"] = 62,
 								},
 							},
@@ -3026,9 +3009,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[57669] = {
@@ -3037,9 +3020,9 @@ SkadaStorageDB = {
 							["uptime"] = 16,
 						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 13,
-							["school"] = 8,
 							["uptime"] = 11,
 						},
 						[48162] = {
@@ -3047,15 +3030,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48421] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -3069,15 +3052,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[55610] = {
@@ -3085,17 +3068,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 11,
-						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 72,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 5,
+							["uptime"] = 104,
 						},
 						[48938] = {
 							["type"] = "BUFF",
@@ -3103,42 +3086,54 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[54043] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 30,
+						[770] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 94,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 94,
 						},
-						[67684] = {
+						[60433] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["refresh"] = 55,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["refresh"] = 55,
+									["count"] = 1,
+									["uptime"] = 85,
+								},
+							},
+							["uptime"] = 85,
+						},
+						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 20,
+							["uptime"] = 11,
 						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 8,
-							["refresh"] = 47,
-							["uptime"] = 88,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["refresh"] = 9,
+						[48068] = {
 							["school"] = 2,
-							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 30,
 						},
 						[71177] = {
 							["type"] = "BUFF",
@@ -3158,61 +3153,50 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[48517] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[48518] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 45,
 						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 55,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
-									["refresh"] = 55,
-									["uptime"] = 85,
-								},
-							},
-							["uptime"] = 85,
-						},
-						[770] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 94,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 94,
-						},
-						[57623] = {
+						[63944] = {
 							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 1,
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 9,
 							["uptime"] = 104,
 						},
+						[16886] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["refresh"] = 47,
+							["uptime"] = 88,
+						},
+						[67684] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
 						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
-						[58754] = {
+						[48421] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
 					},
+					["totaldamage"] = 941896,
 					["time"] = 94.40999999999997,
 					["totaldamagetaken"] = 34935,
 					["damage"] = 941896,
@@ -3225,9 +3209,9 @@ SkadaStorageDB = {
 									["amount"] = 48491,
 								},
 							},
-							["hitmax"] = 2130,
-							["casts"] = 4,
 							["count"] = 28,
+							["casts"] = 4,
+							["hitmax"] = 2130,
 							["hit"] = 28,
 							["school"] = 8,
 							["resisted"] = 3711,
@@ -3260,24 +3244,24 @@ SkadaStorageDB = {
 							["hitamount"] = 16711,
 						},
 						["Wrath"] = {
-							["criticalmin"] = 9601,
-							["hitmin"] = 4701,
 							["criticalamount"] = 279451,
+							["hitmin"] = 4701,
+							["criticalmin"] = 9601,
 							["id"] = 48461,
-							["hitmax"] = 8451,
+							["criticalmax"] = 17527,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 337284,
 								},
 							},
-							["count"] = 29,
-							["hit"] = 8,
-							["casts"] = 28,
 							["critical"] = 21,
 							["amount"] = 337284,
+							["casts"] = 28,
+							["hitmax"] = 8451,
+							["hit"] = 8,
 							["school"] = 8,
 							["resisted"] = 15906,
-							["criticalmax"] = 17527,
+							["count"] = 29,
 							["hitamount"] = 57833,
 						},
 						["Moonfire (DoT)"] = {
@@ -3288,8 +3272,8 @@ SkadaStorageDB = {
 									["amount"] = 22020,
 								},
 							},
-							["hitmax"] = 1302,
 							["count"] = 20,
+							["hitmax"] = 1302,
 							["hit"] = 20,
 							["school"] = 64,
 							["resisted"] = 2140,
@@ -3297,66 +3281,66 @@ SkadaStorageDB = {
 							["hitamount"] = 22020,
 						},
 						["Starfall"] = {
-							["hitmax"] = 847,
+							["count"] = 4,
 							["hitmin"] = 847,
 							["criticalamount"] = 11642,
 							["id"] = 53195,
-							["count"] = 4,
+							["criticalmax"] = 5227,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 12489,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 1593,
-							["casts"] = 2,
 							["critical"] = 3,
 							["amount"] = 12489,
+							["casts"] = 2,
+							["hitmax"] = 847,
+							["hit"] = 1,
 							["school"] = 64,
 							["resisted"] = 711,
-							["criticalmax"] = 5227,
+							["criticalmin"] = 1593,
 							["hitamount"] = 847,
 						},
 						["Moonfire"] = {
-							["hitmax"] = 1786,
+							["count"] = 5,
 							["hitmin"] = 1786,
 							["criticalamount"] = 12558,
 							["id"] = 48463,
-							["count"] = 5,
+							["criticalmax"] = 3439,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 14344,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 2901,
-							["casts"] = 5,
 							["critical"] = 4,
 							["amount"] = 14344,
+							["casts"] = 5,
+							["hitmax"] = 1786,
+							["hit"] = 1,
 							["school"] = 64,
 							["resisted"] = 1442,
-							["criticalmax"] = 3439,
+							["criticalmin"] = 2901,
 							["hitamount"] = 1786,
 						},
 						["Starfire"] = {
-							["hitmax"] = 7074,
+							["count"] = 27,
 							["hitmin"] = 7059,
 							["criticalamount"] = 459777,
 							["id"] = 48465,
-							["count"] = 27,
+							["criticalmax"] = 22428,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 473910,
 								},
 							},
-							["hit"] = 2,
-							["criticalmin"] = 13250,
-							["casts"] = 27,
 							["critical"] = 25,
 							["amount"] = 473910,
+							["casts"] = 27,
+							["hitmax"] = 7074,
+							["hit"] = 2,
 							["school"] = 64,
 							["resisted"] = 26690,
-							["criticalmax"] = 22428,
+							["criticalmin"] = 13250,
 							["hitamount"] = 14133,
 						},
 					},
@@ -3364,48 +3348,47 @@ SkadaStorageDB = {
 					["id"] = "0x07000000009A57A0",
 					["spec"] = 102,
 					["damagetakenspells"] = {
-						["Freezing Ground"] = {
-							["hitmin"] = 4110,
-							["id"] = 72104,
-							["hitmax"] = 4110,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 4110,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["resisted"] = 1761,
-							["amount"] = 4110,
-							["hitamount"] = 4110,
-						},
 						["Whiteout"] = {
 							["total"] = 30825,
 							["hitmin"] = 2919,
 							["id"] = 72096,
-							["hitmax"] = 10094,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 30825,
 									["amount"] = 22689,
+									["total"] = 30825,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 10094,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 11481,
 							["amount"] = 22689,
 							["hitamount"] = 22689,
 						},
+						["Freezing Ground"] = {
+							["hitmin"] = 4110,
+							["id"] = 72104,
+							["count"] = 1,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 4110,
+								},
+							},
+							["hitmax"] = 4110,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 1761,
+							["amount"] = 4110,
+							["hitamount"] = 4110,
+						},
 					},
 					["name"] = "Lolscat",
-					["totaldamage"] = 941896,
-					["class"] = "DRUID",
+					["role"] = "DAMAGER",
 					["manaspells"] = {
 						[53506] = 32450,
 					},
-					["role"] = "DAMAGER",
+					["class"] = "DRUID",
 				}, -- [2]
 				{
 					["last"] = 8661.487999999999,
@@ -3443,8 +3426,8 @@ SkadaStorageDB = {
 							["refresh"] = 17,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 17,
+									["count"] = 1,
 									["uptime"] = 94,
 								},
 								["Frozen Orb"] = {
@@ -3455,9 +3438,9 @@ SkadaStorageDB = {
 							["uptime"] = 94,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[16237] = {
@@ -3468,9 +3451,9 @@ SkadaStorageDB = {
 							["uptime"] = 61,
 						},
 						[66922] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 12,
 						},
 						[50449] = {
@@ -3481,9 +3464,9 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[53601] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 95,
 						},
 						[32223] = {
@@ -3521,9 +3504,9 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 						[48707] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 5,
 						},
 						[55078] = {
@@ -3533,8 +3516,8 @@ SkadaStorageDB = {
 							["refresh"] = 13,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 13,
+									["count"] = 1,
 									["uptime"] = 93,
 								},
 								["Frozen Orb"] = {
@@ -3549,12 +3532,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[75493] = {
+						[48170] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 14,
+							["count"] = 1,
+							["uptime"] = 104,
 						},
 						[67380] = {
 							["type"] = "BUFF",
@@ -3575,12 +3556,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[58578] = {
+						[64844] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 18,
-							["uptime"] = 103,
+							["uptime"] = 8,
 						},
 						[48162] = {
 							["type"] = "BUFF",
@@ -3595,9 +3575,9 @@ SkadaStorageDB = {
 							["uptime"] = 64,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -3611,15 +3591,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 16,
-							["school"] = 2,
 							["uptime"] = 19,
 						},
 						[55610] = {
@@ -3627,17 +3607,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 7,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 30,
-						},
-						[48792] = {
+						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48792] = {
 							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 12,
 						},
 						[47930] = {
@@ -3657,34 +3635,34 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[47753] = {
+						[49284] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 43,
+						},
+						[57933] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 5,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
+							["uptime"] = 24,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 5,
-							["school"] = 2,
 							["uptime"] = 18,
 						},
-						[51470] = {
+						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
+							["count"] = 3,
+							["uptime"] = 5,
 						},
 						[48068] = {
 							["type"] = "BUFF",
 							["count"] = 5,
-							["refresh"] = 3,
 							["school"] = 2,
+							["refresh"] = 3,
 							["uptime"] = 85,
 						},
 						[25898] = {
@@ -3698,43 +3676,48 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[58597] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 10,
-							["school"] = 2,
 							["uptime"] = 23,
 						},
-						[57933] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 24,
-						},
-						[49284] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 43,
+							["uptime"] = 104,
+						},
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
 						},
 						[53563] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 104,
 						},
-						[48263] = {
+						[15359] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[64844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+							["count"] = 7,
 							["school"] = 2,
-							["uptime"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 30,
 						},
-						[48170] = {
+						[75493] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 14,
+						},
+						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["school"] = 1,
+							["refresh"] = 18,
+							["uptime"] = 103,
 						},
 					},
 					["absorbspells"] = {
@@ -3781,35 +3764,35 @@ SkadaStorageDB = {
 							["criticalamount"] = 23484,
 							["id"] = 6603,
 							["glancemax"] = 1272,
+							["criticalmax"] = 3256,
+							["hitmax"] = 1837,
 							["PARRY"] = 9,
 							["count"] = 39,
-							["criticalmax"] = 3256,
-							["critical"] = 8,
 							["hit"] = 15,
 							["school"] = 1,
 							["blocked"] = 287,
-							["hitmax"] = 1837,
+							["critical"] = 8,
 							["hitamount"] = 22788,
 						},
 						["Icy Touch"] = {
-							["criticalmin"] = 1848,
-							["hitmin"] = 834,
 							["criticalamount"] = 18454,
+							["hitmin"] = 834,
+							["criticalmin"] = 1848,
 							["id"] = 49909,
-							["criticalmax"] = 2396,
+							["amount"] = 26280,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 26280,
 								},
 							},
-							["critical"] = 9,
-							["hitmax"] = 1181,
 							["casts"] = 17,
 							["count"] = 17,
+							["criticalmax"] = 2396,
+							["critical"] = 9,
 							["hit"] = 8,
 							["school"] = 16,
 							["resisted"] = 1374,
-							["amount"] = 26280,
+							["hitmax"] = 1181,
 							["hitamount"] = 7826,
 						},
 						["Rune Strike"] = {
@@ -3822,14 +3805,14 @@ SkadaStorageDB = {
 									["amount"] = 32652,
 								},
 							},
+							["amount"] = 32652,
+							["hitmax"] = 3036,
 							["criticalmax"] = 6756,
 							["critical"] = 2,
-							["casts"] = 9,
-							["count"] = 9,
 							["hit"] = 7,
 							["school"] = 1,
-							["hitmax"] = 3036,
-							["amount"] = 32652,
+							["count"] = 9,
+							["casts"] = 9,
 							["hitamount"] = 20342,
 						},
 						["Retribution Aura"] = {
@@ -3840,9 +3823,9 @@ SkadaStorageDB = {
 									["amount"] = 3517,
 								},
 							},
-							["hitmax"] = 402,
-							["casts"] = 1,
 							["count"] = 11,
+							["casts"] = 1,
+							["hitmax"] = 402,
 							["hit"] = 10,
 							["school"] = 2,
 							["RESIST"] = 1,
@@ -3860,13 +3843,35 @@ SkadaStorageDB = {
 									["amount"] = 1495,
 								},
 							},
-							["hitmax"] = 652,
 							["count"] = 27,
+							["hitmax"] = 652,
 							["hit"] = 27,
 							["school"] = 32,
 							["resisted"] = 501,
 							["amount"] = 14473,
 							["hitamount"] = 14473,
+						},
+						["Death Coil"] = {
+							["criticalamount"] = 5535,
+							["hitmax"] = 1456,
+							["hitmin"] = 1312,
+							["criticalmin"] = 2622,
+							["id"] = 49895,
+							["casts"] = 7,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 9759,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 9759,
+							["criticalmax"] = 2913,
+							["critical"] = 2,
+							["hit"] = 3,
+							["school"] = 32,
+							["resisted"] = 436,
+							["MISS"] = 2,
+							["hitamount"] = 4224,
 						},
 						["Heart Strike"] = {
 							["hitmin"] = 636,
@@ -3881,15 +3886,34 @@ SkadaStorageDB = {
 									["amount"] = 1368,
 								},
 							},
+							["amount"] = 25799,
+							["hitmax"] = 2009,
 							["criticalmax"] = 3504,
 							["critical"] = 3,
-							["casts"] = 11,
-							["count"] = 13,
 							["hit"] = 10,
 							["school"] = 1,
-							["hitmax"] = 2009,
-							["amount"] = 25799,
+							["count"] = 13,
+							["casts"] = 11,
 							["hitamount"] = 15705,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 379,
+							["id"] = 55095,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 12707,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 1472,
+								},
+							},
+							["count"] = 27,
+							["hitmax"] = 637,
+							["hit"] = 27,
+							["school"] = 16,
+							["resisted"] = 609,
+							["amount"] = 14179,
+							["hitamount"] = 14179,
 						},
 						["Plague Strike"] = {
 							["DODGE"] = 1,
@@ -3903,57 +3927,16 @@ SkadaStorageDB = {
 							["amount"] = 13121,
 							["criticalamount"] = 3514,
 							["id"] = 49921,
+							["PARRY"] = 2,
+							["count"] = 16,
+							["blocked"] = 41,
 							["criticalmax"] = 1824,
 							["critical"] = 2,
-							["PARRY"] = 2,
-							["casts"] = 16,
-							["hitmax"] = 1053,
 							["hit"] = 11,
 							["school"] = 1,
-							["blocked"] = 41,
-							["count"] = 16,
+							["hitmax"] = 1053,
+							["casts"] = 16,
 							["hitamount"] = 9607,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 379,
-							["id"] = 55095,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 12707,
-								},
-								["Frozen Orb"] = {
-									["amount"] = 1472,
-								},
-							},
-							["hitmax"] = 637,
-							["count"] = 27,
-							["hit"] = 27,
-							["school"] = 16,
-							["resisted"] = 609,
-							["amount"] = 14179,
-							["hitamount"] = 14179,
-						},
-						["Death Coil"] = {
-							["criticalmin"] = 2622,
-							["criticalmax"] = 2913,
-							["hitmin"] = 1312,
-							["criticalamount"] = 5535,
-							["id"] = 49895,
-							["critical"] = 2,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 9759,
-								},
-							},
-							["hit"] = 3,
-							["hitmax"] = 1456,
-							["casts"] = 7,
-							["count"] = 7,
-							["amount"] = 9759,
-							["school"] = 32,
-							["resisted"] = 436,
-							["MISS"] = 2,
-							["hitamount"] = 4224,
 						},
 					},
 					["absorb"] = 13754,
@@ -3965,19 +3948,19 @@ SkadaStorageDB = {
 							["total"] = 196058,
 							["hitmin"] = 227,
 							["id"] = 72098,
-							["amount"] = 157987,
-							["hitmax"] = 12340,
+							["count"] = 43,
+							["hit"] = 34,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 196058,
 									["amount"] = 157987,
+									["total"] = 196058,
 								},
 							},
-							["count"] = 43,
-							["ABSORB"] = 9,
+							["hitmax"] = 12340,
+							["amount"] = 157987,
 							["school"] = 16,
 							["resisted"] = 53222,
-							["hit"] = 34,
+							["ABSORB"] = 9,
 							["hitamount"] = 157987,
 						},
 						["Melee"] = {
@@ -3985,16 +3968,16 @@ SkadaStorageDB = {
 							["total"] = 185102,
 							["hitmin"] = 4723,
 							["id"] = 6603,
-							["hit"] = 11,
-							["hitmax"] = 20883,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["total"] = 185102,
-									["amount"] = 155719,
-								},
-							},
 							["count"] = 27,
 							["amount"] = 155719,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 155719,
+									["total"] = 185102,
+								},
+							},
+							["hitmax"] = 20883,
+							["hit"] = 11,
 							["school"] = 1,
 							["PARRY"] = 3,
 							["MISS"] = 4,
@@ -4004,14 +3987,14 @@ SkadaStorageDB = {
 							["total"] = 27586,
 							["hitmin"] = 5585,
 							["id"] = 72096,
-							["hitmax"] = 9418,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 27586,
 									["amount"] = 24219,
+									["total"] = 27586,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 9418,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 12417,
@@ -4034,28 +4017,28 @@ SkadaStorageDB = {
 							["total"] = 32805,
 							["hitmin"] = 97,
 							["id"] = 72097,
-							["ABSORB"] = 8,
-							["hitmax"] = 1795,
+							["count"] = 23,
+							["amount"] = 16543,
 							["sources"] = {
 								["Frozen Orb"] = {
-									["total"] = 32805,
 									["amount"] = 16543,
+									["total"] = 32805,
 								},
 							},
-							["count"] = 23,
-							["hit"] = 15,
+							["hitmax"] = 1795,
+							["ABSORB"] = 8,
 							["school"] = 16,
 							["resisted"] = 10706,
-							["amount"] = 16543,
+							["hit"] = 15,
 							["hitamount"] = 16543,
 						},
 					},
 					["name"] = "Ebonmoo",
+					["totaldamage"] = 193050,
+					["runic"] = 120,
 					["runicspells"] = {
 						[49088] = 120,
 					},
-					["runic"] = 120,
-					["totaldamage"] = 193050,
 				}, -- [3]
 				{
 					["last"] = 8660.919,
@@ -4063,9 +4046,9 @@ SkadaStorageDB = {
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[50421] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 1,
 							["uptime"] = 22,
 						},
 						[48470] = {
@@ -4074,9 +4057,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[71229] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 15,
 						},
 						[53138] = {
@@ -4102,9 +4085,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[16237] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 32,
 						},
 						[50449] = {
@@ -4115,9 +4098,9 @@ SkadaStorageDB = {
 							["uptime"] = 51,
 						},
 						[58578] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[32223] = {
@@ -4141,9 +4124,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70809] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 8,
 							["uptime"] = 27,
 						},
 						[55078] = {
@@ -4176,9 +4159,9 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[48792] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[64859] = {
@@ -4189,9 +4172,9 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[58754] = {
@@ -4200,9 +4183,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[49938] = {
@@ -4232,21 +4215,21 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 95,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 60,
 						},
 						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 13,
 						},
 						[48263] = {
@@ -4254,11 +4237,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[15359] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
+							["uptime"] = 104,
 						},
 						[48068] = {
 							["type"] = "BUFF",
@@ -4268,10 +4250,10 @@ SkadaStorageDB = {
 							["uptime"] = 53,
 						},
 						[63944] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 6,
-							["uptime"] = 104,
 						},
 						[75493] = {
 							["type"] = "BUFF",
@@ -4280,10 +4262,11 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 14,
 						},
-						[51470] = {
+						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 15,
 						},
 					},
 					["absorbspells"] = {
@@ -4298,42 +4281,11 @@ SkadaStorageDB = {
 							["max"] = 5574,
 						},
 					},
+					["totaldamage"] = 71967,
 					["time"] = 47.98,
 					["totaldamagetaken"] = 25708,
 					["damage"] = 71967,
 					["damagespells"] = {
-						["Rune Strike"] = {
-							["criticalamount"] = 6504,
-							["id"] = 56815,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 6504,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 6504,
-							["school"] = 1,
-							["criticalmin"] = 6504,
-							["criticalmax"] = 6504,
-							["count"] = 1,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 635,
-							["id"] = 55078,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 3455,
-								},
-							},
-							["hitmax"] = 705,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 70,
-							["amount"] = 3455,
-							["hitamount"] = 3455,
-						},
 						["Melee"] = {
 							["glance"] = 4131,
 							["hitmin"] = 1690,
@@ -4349,55 +4301,14 @@ SkadaStorageDB = {
 							["criticalamount"] = 14236,
 							["id"] = 6603,
 							["glancemax"] = 1446,
-							["count"] = 17,
-							["criticalmax"] = 3738,
 							["critical"] = 4,
+							["criticalmax"] = 3738,
+							["count"] = 17,
 							["hit"] = 10,
 							["school"] = 1,
-							["blocked"] = 41,
 							["hitmax"] = 2085,
+							["blocked"] = 41,
 							["hitamount"] = 18524,
-						},
-						["Death and Decay"] = {
-							["criticalmin"] = 957,
-							["hitmin"] = 383,
-							["criticalamount"] = 957,
-							["id"] = 52212,
-							["criticalmax"] = 957,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 5678,
-								},
-								["Frozen Orb"] = {
-									["amount"] = 12258,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 541,
-							["casts"] = 1,
-							["count"] = 37,
-							["hit"] = 36,
-							["school"] = 32,
-							["resisted"] = 931,
-							["amount"] = 17936,
-							["hitamount"] = 16979,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1128,
-							["id"] = 49909,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 1128,
-								},
-							},
-							["hitmax"] = 1128,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["resisted"] = 125,
-							["amount"] = 1128,
-							["hitamount"] = 1128,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 1094,
@@ -4415,6 +4326,79 @@ SkadaStorageDB = {
 							["amount"] = 1094,
 							["hitamount"] = 1094,
 						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 635,
+							["id"] = 55078,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 3455,
+								},
+							},
+							["count"] = 5,
+							["hitmax"] = 705,
+							["hit"] = 5,
+							["school"] = 32,
+							["resisted"] = 70,
+							["amount"] = 3455,
+							["hitamount"] = 3455,
+						},
+						["Death and Decay"] = {
+							["criticalamount"] = 957,
+							["hitmin"] = 383,
+							["criticalmin"] = 957,
+							["id"] = 52212,
+							["amount"] = 17936,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 5678,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 12258,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 37,
+							["criticalmax"] = 957,
+							["critical"] = 1,
+							["hit"] = 36,
+							["school"] = 32,
+							["resisted"] = 931,
+							["hitmax"] = 541,
+							["hitamount"] = 16979,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1128,
+							["id"] = 49909,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 1128,
+								},
+							},
+							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 1128,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 125,
+							["amount"] = 1128,
+							["hitamount"] = 1128,
+						},
+						["Rune Strike"] = {
+							["criticalamount"] = 6504,
+							["id"] = 56815,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 6504,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 6504,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 6504,
+							["criticalmin"] = 6504,
+						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 556,
 							["id"] = 55095,
@@ -4423,8 +4407,8 @@ SkadaStorageDB = {
 									["amount"] = 3267,
 								},
 							},
-							["hitmax"] = 695,
 							["count"] = 5,
+							["hitmax"] = 695,
 							["hit"] = 5,
 							["school"] = 16,
 							["resisted"] = 207,
@@ -4442,9 +4426,9 @@ SkadaStorageDB = {
 									["amount"] = 659,
 								},
 							},
-							["hitmax"] = 1033,
-							["casts"] = 1,
 							["count"] = 2,
+							["casts"] = 1,
+							["hitmax"] = 1033,
 							["hit"] = 2,
 							["school"] = 32,
 							["resisted"] = 114,
@@ -4463,57 +4447,50 @@ SkadaStorageDB = {
 							["count"] = 7,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 6603,
+							["MISS"] = 1,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 6603,
 						},
 						["Whiteout"] = {
 							["total"] = 25708,
 							["hitmin"] = 1440,
 							["id"] = 72096,
-							["ABSORB"] = 1,
-							["hitmax"] = 4683,
+							["count"] = 3,
+							["amount"] = 6123,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 25708,
 									["amount"] = 6123,
+									["total"] = 25708,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 2,
+							["hitmax"] = 4683,
+							["ABSORB"] = 1,
 							["school"] = 16,
 							["resisted"] = 5489,
-							["amount"] = 6123,
+							["hit"] = 2,
 							["hitamount"] = 6123,
 						},
 					},
 					["name"] = "Vaginismus",
+					["role"] = "TANK",
+					["runic"] = 30,
 					["runicspells"] = {
 						[50422] = 30,
 					},
-					["runic"] = 30,
-					["totaldamage"] = 71967,
-					["role"] = "TANK",
 				}, -- [4]
 				{
 					["last"] = 8666.567999999999,
-					["runicspells"] = {
-						[63652] = 160,
-					},
 					["flag"] = 1300,
 					["class"] = "PRIEST",
-					["ragespells"] = {
-						[63653] = 8,
-					},
 					["auras"] = {
 						[72418] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[57294] = {
@@ -4537,9 +4514,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[16237] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[32223] = {
@@ -4558,9 +4535,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70809] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 9,
 						},
 						[57663] = {
@@ -4579,9 +4556,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -4590,15 +4567,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[64739] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[6788] = {
@@ -4618,25 +4595,21 @@ SkadaStorageDB = {
 									["uptime"] = 27,
 									["count"] = 2,
 								},
-								["Magijabebo"] = {
-									["uptime"] = 15,
-									["count"] = 1,
+								["Iceburner"] = {
+									["uptime"] = 29,
+									["count"] = 2,
 								},
-								["Karshash"] = {
+								["Inekcija"] = {
+									["uptime"] = 45,
+									["count"] = 3,
+								},
+								["Merrian"] = {
 									["uptime"] = 30,
 									["count"] = 2,
 								},
 								["Ypopti"] = {
 									["uptime"] = 26,
 									["count"] = 2,
-								},
-								["Iceburner"] = {
-									["uptime"] = 29,
-									["count"] = 2,
-								},
-								["Quewyn"] = {
-									["uptime"] = 74,
-									["count"] = 3,
 								},
 								["Vaginismus"] = {
 									["uptime"] = 45,
@@ -4645,6 +4618,10 @@ SkadaStorageDB = {
 								["Insurance"] = {
 									["uptime"] = 30,
 									["count"] = 2,
+								},
+								["Magijabebo"] = {
+									["uptime"] = 15,
+									["count"] = 1,
 								},
 								["Paopaozhu"] = {
 									["uptime"] = 30,
@@ -4678,12 +4655,12 @@ SkadaStorageDB = {
 									["uptime"] = 60,
 									["count"] = 4,
 								},
-								["Merrian"] = {
+								["Karshash"] = {
 									["uptime"] = 30,
 									["count"] = 2,
 								},
-								["Inekcija"] = {
-									["uptime"] = 45,
+								["Quewyn"] = {
+									["uptime"] = 74,
 									["count"] = 3,
 								},
 								["Nafoo"] = {
@@ -4709,9 +4686,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 53,
 						},
 						[51470] = {
@@ -4719,7 +4696,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48470] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
@@ -4734,19 +4711,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[63944] = {
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 6,
 							["uptime"] = 104,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 104,
-						},
-						[55610] = {
+						[48168] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
@@ -4758,17 +4728,24 @@ SkadaStorageDB = {
 							["refresh"] = 42,
 							["uptime"] = 83,
 						},
-						[48168] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48170] = {
+						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["uptime"] = 104,
 						},
-						[58754] = {
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
@@ -4785,13 +4762,13 @@ SkadaStorageDB = {
 								["Someway"] = 23546,
 								["Lolscat"] = 8136,
 								["Vktr"] = 7705,
-								["Ypopti"] = 7705,
-								["Magijabebo"] = 7705,
-								["Karshash"] = 15410,
 								["Iceburner"] = 15410,
-								["Inekcija"] = 15841,
+								["Quewyn"] = 14979,
+								["Merrian"] = 15841,
+								["Ypopti"] = 7705,
 								["Vaginismus"] = 6107,
 								["Insurance"] = 15410,
+								["Magijabebo"] = 7705,
 								["Paopaozhu"] = 7705,
 								["Sortpraest"] = 7705,
 								["Ebonmoo"] = 23390,
@@ -4800,8 +4777,8 @@ SkadaStorageDB = {
 								["Alexzandra"] = 7705,
 								["Finalwield"] = 15410,
 								["Cnpal"] = 31251,
-								["Merrian"] = 15841,
-								["Quewyn"] = 14979,
+								["Karshash"] = 15410,
+								["Inekcija"] = 15841,
 								["Nafoo"] = 23546,
 							},
 							["school"] = 2,
@@ -4828,30 +4805,50 @@ SkadaStorageDB = {
 							["max"] = 2288,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 72.31000000000002,
-					["rage"] = 8,
-					["dispelspells"] = {
-						[32375] = {
-							["spells"] = {
-								[72104] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Nafoo"] = 1,
-							},
-						},
-					},
+					["energy"] = 48,
 					["totaldamagetaken"] = 35271,
-					["dispel"] = 1,
-					["energyspells"] = {
-						[63655] = 48,
+					["manaspells"] = {
+						[47755] = 18750,
+						[63654] = 8880,
+						[55382] = 1800,
 					},
-					["overheal"] = 189377,
+					["runic"] = 160,
+					["rage"] = 8,
 					["absorb"] = 332809,
 					["damagetaken"] = 19430,
+					["mana"] = 29430,
 					["id"] = "0x07000000009BD5F5",
 					["spec"] = 256,
 					["healspells"] = {
+						[52985] = {
+							["overheal"] = 19748,
+							["criticalamount"] = 1394,
+							["max"] = 4232,
+							["targets"] = {
+								["Abyzu"] = {
+									["overheal"] = 13218,
+									["amount"] = 1394,
+								},
+								["Ebonmoo"] = {
+									["overheal"] = 4017,
+									["amount"] = 7693,
+								},
+								["Finalwield"] = {
+									["overheal"] = 2513,
+									["amount"] = 9984,
+								},
+							},
+							["min"] = 1394,
+							["criticalmax"] = 1394,
+							["critical"] = 2,
+							["amount"] = 19071,
+							["school"] = 2,
+							["count"] = 9,
+							["casts"] = 8,
+							["criticalmin"] = 0,
+						},
 						[48072] = {
 							["overheal"] = 70793,
 							["criticalamount"] = 2895,
@@ -4898,14 +4895,60 @@ SkadaStorageDB = {
 									["amount"] = 2257,
 								},
 							},
-							["casts"] = 3,
 							["min"] = 524,
-							["criticalmax"] = 2257,
+							["casts"] = 3,
 							["count"] = 15,
 							["amount"] = 7651,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["critical"] = 6,
+							["criticalmin"] = 0,
+							["criticalmax"] = 2257,
+						},
+						[33110] = {
+							["overheal"] = 32864,
+							["criticalamount"] = 17730,
+							["max"] = 7627,
+							["targets"] = {
+								["Rasalgull"] = {
+									["overheal"] = 0,
+									["amount"] = 5085,
+								},
+								["Ypopti"] = {
+									["overheal"] = 1784,
+									["amount"] = 3301,
+								},
+								["Deftonez"] = {
+									["overheal"] = 134,
+									["amount"] = 9460,
+								},
+								["Iceburner"] = {
+									["overheal"] = 3691,
+									["amount"] = 6989,
+								},
+								["Cnpal"] = {
+									["overheal"] = 1375,
+									["amount"] = 9839,
+								},
+								["Abyzu"] = {
+									["overheal"] = 0,
+									["amount"] = 7195,
+								},
+								["Vktr"] = {
+									["overheal"] = 4168,
+									["amount"] = 6511,
+								},
+								["Ebonmoo"] = {
+									["overheal"] = 21712,
+									["amount"] = 37223,
+								},
+							},
+							["min"] = 227,
+							["criticalmax"] = 7627,
+							["count"] = 21,
+							["amount"] = 85603,
+							["school"] = 2,
+							["critical"] = 4,
+							["criticalmin"] = 714,
 						},
 						[56160] = {
 							["overheal"] = 65972,
@@ -4924,24 +4967,20 @@ SkadaStorageDB = {
 									["overheal"] = 1627,
 									["amount"] = 2439,
 								},
-								["Magijabebo"] = {
-									["overheal"] = 1626,
-									["amount"] = 0,
-								},
-								["Karshash"] = {
-									["overheal"] = 4066,
-									["amount"] = 0,
-								},
-								["Ypopti"] = {
-									["overheal"] = 1626,
-									["amount"] = 2439,
-								},
 								["Iceburner"] = {
 									["overheal"] = 4268,
 									["amount"] = 0,
 								},
-								["Quewyn"] = {
-									["overheal"] = 4201,
+								["Inekcija"] = {
+									["overheal"] = 3343,
+									["amount"] = 1627,
+								},
+								["Merrian"] = {
+									["overheal"] = 5014,
+									["amount"] = 0,
+								},
+								["Ypopti"] = {
+									["overheal"] = 1626,
 									["amount"] = 2439,
 								},
 								["Vaginismus"] = {
@@ -4951,6 +4990,10 @@ SkadaStorageDB = {
 								["Insurance"] = {
 									["overheal"] = 1535,
 									["amount"] = 1534,
+								},
+								["Magijabebo"] = {
+									["overheal"] = 1626,
+									["amount"] = 0,
 								},
 								["Paopaozhu"] = {
 									["overheal"] = 3252,
@@ -4984,13 +5027,13 @@ SkadaStorageDB = {
 									["overheal"] = 3511,
 									["amount"] = 5120,
 								},
-								["Merrian"] = {
-									["overheal"] = 5014,
+								["Karshash"] = {
+									["overheal"] = 4066,
 									["amount"] = 0,
 								},
-								["Inekcija"] = {
-									["overheal"] = 3343,
-									["amount"] = 1627,
+								["Quewyn"] = {
+									["overheal"] = 4201,
+									["amount"] = 2439,
 								},
 								["Nafoo"] = {
 									["overheal"] = 3835,
@@ -5002,81 +5045,8 @@ SkadaStorageDB = {
 							["count"] = 47,
 							["amount"] = 25448,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["critical"] = 17,
-						},
-						[33110] = {
-							["overheal"] = 32864,
-							["criticalamount"] = 17730,
-							["max"] = 7627,
-							["targets"] = {
-								["Rasalgull"] = {
-									["overheal"] = 0,
-									["amount"] = 5085,
-								},
-								["Ypopti"] = {
-									["overheal"] = 1784,
-									["amount"] = 3301,
-								},
-								["Cnpal"] = {
-									["overheal"] = 1375,
-									["amount"] = 9839,
-								},
-								["Deftonez"] = {
-									["overheal"] = 134,
-									["amount"] = 9460,
-								},
-								["Vktr"] = {
-									["overheal"] = 4168,
-									["amount"] = 6511,
-								},
-								["Abyzu"] = {
-									["overheal"] = 0,
-									["amount"] = 7195,
-								},
-								["Iceburner"] = {
-									["overheal"] = 3691,
-									["amount"] = 6989,
-								},
-								["Ebonmoo"] = {
-									["overheal"] = 21712,
-									["amount"] = 37223,
-								},
-							},
-							["min"] = 227,
-							["criticalmax"] = 7627,
-							["count"] = 21,
-							["amount"] = 85603,
-							["school"] = 2,
-							["criticalmin"] = 714,
-							["critical"] = 4,
-						},
-						[52985] = {
-							["overheal"] = 19748,
-							["criticalamount"] = 1394,
-							["max"] = 4232,
-							["targets"] = {
-								["Abyzu"] = {
-									["overheal"] = 13218,
-									["amount"] = 1394,
-								},
-								["Finalwield"] = {
-									["overheal"] = 2513,
-									["amount"] = 9984,
-								},
-								["Ebonmoo"] = {
-									["overheal"] = 4017,
-									["amount"] = 7693,
-								},
-							},
 							["criticalmin"] = 0,
-							["min"] = 1394,
-							["criticalmax"] = 1394,
-							["critical"] = 2,
-							["amount"] = 19071,
-							["school"] = 2,
-							["casts"] = 8,
-							["count"] = 9,
 						},
 					},
 					["damagetakenspells"] = {
@@ -5084,14 +5054,14 @@ SkadaStorageDB = {
 							["total"] = 35271,
 							["hitmin"] = 3337,
 							["id"] = 72096,
-							["hitmax"] = 12454,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 35271,
 									["amount"] = 19430,
+									["total"] = 35271,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 12454,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 7559,
@@ -5099,17 +5069,30 @@ SkadaStorageDB = {
 							["hitamount"] = 19430,
 						},
 					},
-					["mana"] = 29430,
 					["heal"] = 137773,
-					["name"] = "Inekcija",
-					["runic"] = 160,
-					["manaspells"] = {
-						[47755] = 18750,
-						[63654] = 8880,
-						[55382] = 1800,
+					["ragespells"] = {
+						[63653] = 8,
 					},
-					["energy"] = 48,
-					["role"] = "HEALER",
+					["name"] = "Inekcija",
+					["overheal"] = 189377,
+					["energyspells"] = {
+						[63655] = 48,
+					},
+					["dispel"] = 1,
+					["dispelspells"] = {
+						[32375] = {
+							["spells"] = {
+								[72104] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Nafoo"] = 1,
+							},
+						},
+					},
+					["runicspells"] = {
+						[63652] = 160,
+					},
 				}, -- [5]
 				{
 					["last"] = 8662.841,
@@ -5127,15 +5110,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[57934] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 2,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[16237] = {
@@ -5146,9 +5129,9 @@ SkadaStorageDB = {
 							["uptime"] = 4,
 						},
 						[71403] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[32223] = {
@@ -5157,9 +5140,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[13877] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[48945] = {
@@ -5191,8 +5174,8 @@ SkadaStorageDB = {
 							["refresh"] = 52,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 52,
+									["count"] = 1,
 									["uptime"] = 89,
 								},
 							},
@@ -5211,27 +5194,27 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[59628] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
-						[75493] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
-						[32182] = {
+						[51690] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[32182] = {
 							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -5245,15 +5228,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 3,
 						},
 						[55610] = {
@@ -5261,29 +5244,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[13750] = {
+						[64844] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[8647] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 18,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 2,
-							["uptime"] = 23,
+							["refresh"] = 2,
+							["uptime"] = 13,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
 						},
 						[54043] = {
 							["type"] = "BUFF",
@@ -5295,17 +5272,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[58683] = {
-							["type"] = "DEBUFF",
-							["count"] = 54,
-							["school"] = 1,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 37,
-									["count"] = 53,
-								},
-							},
-							["uptime"] = 37,
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
 						},
 						[6774] = {
 							["type"] = "BUFF",
@@ -5315,20 +5285,21 @@ SkadaStorageDB = {
 							["uptime"] = 77,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 21,
 						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[15359] = {
+						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
+							["uptime"] = 23,
+						},
+						[48068] = {
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
 							["uptime"] = 30,
 						},
 						[25898] = {
@@ -5348,52 +5319,65 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 49,
 								},
 							},
 							["uptime"] = 49,
 						},
-						[48068] = {
+						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
-						[48162] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 54,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 37,
+									["count"] = 53,
+								},
+							},
+							["uptime"] = 37,
 						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[64844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 13,
-						},
-						[51690] = {
-							["type"] = "BUFF",
+						[8647] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 18,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[75493] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 9,
+						},
+						[13750] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 					},
 					["energyspells"] = {
 						[35548] = 330,
 					},
+					["totaldamage"] = 671727,
 					["time"] = 93.26999999999994,
 					["totaldamagetaken"] = 114731,
 					["damage"] = 671727,
@@ -5407,8 +5391,8 @@ SkadaStorageDB = {
 									["amount"] = 279217,
 								},
 								["Frozen Orb"] = {
-									["overkill"] = 1999,
 									["amount"] = 10729,
+									["overkill"] = 1999,
 								},
 							},
 							["glancing"] = 57,
@@ -5419,13 +5403,13 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["glancemax"] = 1436,
 							["overkill"] = 1999,
-							["blocked"] = 41,
+							["hit"] = 57,
 							["criticalmax"] = 5443,
 							["critical"] = 92,
-							["hit"] = 57,
+							["blocked"] = 41,
 							["school"] = 1,
-							["count"] = 227,
 							["hitmax"] = 1572,
+							["count"] = 227,
 							["hitamount"] = 48556,
 						},
 						["Blade Twisting"] = {
@@ -5454,34 +5438,34 @@ SkadaStorageDB = {
 									["amount"] = 8293,
 								},
 							},
+							["amount"] = 136913,
+							["hitmax"] = 2419,
 							["criticalmax"] = 7254,
 							["critical"] = 18,
-							["casts"] = 36,
-							["count"] = 36,
 							["hit"] = 18,
 							["school"] = 1,
-							["hitmax"] = 2419,
-							["amount"] = 136913,
+							["count"] = 36,
+							["casts"] = 36,
 							["hitamount"] = 35143,
 						},
 						["Killing Spree"] = {
 							["hitmin"] = 1318,
 							["criticalamount"] = 14313,
 							["id"] = 57841,
-							["hitmax"] = 2050,
+							["count"] = 10,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 24864,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 6,
-							["casts"] = 1,
-							["critical"] = 4,
-							["amount"] = 24864,
-							["school"] = 1,
-							["criticalmin"] = 2973,
 							["criticalmax"] = 5102,
+							["criticalmin"] = 2973,
+							["casts"] = 1,
+							["hitmax"] = 2050,
+							["hit"] = 6,
+							["school"] = 1,
+							["amount"] = 24864,
+							["critical"] = 4,
 							["hitamount"] = 10551,
 						},
 						["Blade Flurry"] = {
@@ -5501,11 +5485,11 @@ SkadaStorageDB = {
 							["hitamount"] = 469,
 						},
 						["Instant Poison IX"] = {
-							["criticalmin"] = 1608,
-							["hitmin"] = 844,
 							["criticalamount"] = 45119,
+							["hitmin"] = 844,
+							["criticalmin"] = 1608,
 							["id"] = 57965,
-							["criticalmax"] = 2597,
+							["amount"] = 150606,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 148743,
@@ -5514,15 +5498,51 @@ SkadaStorageDB = {
 									["amount"] = 1863,
 								},
 							},
-							["critical"] = 23,
-							["hitmax"] = 1351,
 							["casts"] = 1,
 							["count"] = 122,
+							["criticalmax"] = 2597,
+							["critical"] = 23,
 							["hit"] = 99,
 							["school"] = 8,
 							["resisted"] = 9469,
-							["amount"] = 150606,
+							["hitmax"] = 1351,
 							["hitamount"] = 105487,
+						},
+						["Rupture (DoT)"] = {
+							["hitmin"] = 509,
+							["criticalamount"] = 19452,
+							["id"] = 48672,
+							["criticalmin"] = 1258,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 25453,
+								},
+							},
+							["amount"] = 25453,
+							["hitmax"] = 623,
+							["casts"] = 4,
+							["critical"] = 13,
+							["hit"] = 10,
+							["school"] = 1,
+							["count"] = 23,
+							["criticalmax"] = 1540,
+							["hitamount"] = 6001,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 407,
+							["id"] = 57970,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 39144,
+								},
+							},
+							["count"] = 29,
+							["hitmax"] = 1901,
+							["hit"] = 29,
+							["school"] = 8,
+							["resisted"] = 2756,
+							["amount"] = 39144,
+							["hitamount"] = 39144,
 						},
 						["Eviscerate"] = {
 							["hitmin"] = 4332,
@@ -5540,42 +5560,6 @@ SkadaStorageDB = {
 							["amount"] = 4332,
 							["hitamount"] = 4332,
 						},
-						["Deadly Poison IX (DoT)"] = {
-							["hitmin"] = 407,
-							["id"] = 57970,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 39144,
-								},
-							},
-							["hitmax"] = 1901,
-							["count"] = 29,
-							["hit"] = 29,
-							["school"] = 8,
-							["resisted"] = 2756,
-							["amount"] = 39144,
-							["hitamount"] = 39144,
-						},
-						["Rupture (DoT)"] = {
-							["hitmin"] = 509,
-							["criticalamount"] = 19452,
-							["id"] = 48672,
-							["casts"] = 4,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 25453,
-								},
-							},
-							["criticalmin"] = 1258,
-							["critical"] = 13,
-							["criticalmax"] = 1540,
-							["count"] = 23,
-							["hit"] = 10,
-							["school"] = 1,
-							["hitmax"] = 623,
-							["amount"] = 25453,
-							["hitamount"] = 6001,
-						},
 					},
 					["damagetaken"] = 107026,
 					["id"] = "0x07000000004C3D1C",
@@ -5584,60 +5568,59 @@ SkadaStorageDB = {
 						["Freezing Ground"] = {
 							["hitmin"] = 3666,
 							["id"] = 72104,
-							["hitmax"] = 3666,
+							["count"] = 1,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 3666,
 								},
 							},
-							["count"] = 1,
+							["hitmax"] = 3666,
 							["hit"] = 1,
 							["school"] = 16,
 							["resisted"] = 1571,
 							["amount"] = 3666,
 							["hitamount"] = 3666,
 						},
-						["Frozen Orb"] = {
-							["hitmin"] = 1236,
-							["id"] = 72097,
-							["amount"] = 71651,
-							["hitmax"] = 2614,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["amount"] = 71651,
-								},
-							},
-							["count"] = 41,
-							["hit"] = 39,
-							["school"] = 16,
-							["resisted"] = 26479,
-							["MISS"] = 2,
-							["hitamount"] = 71651,
-						},
 						["Whiteout"] = {
 							["total"] = 39414,
 							["hitmin"] = 4080,
 							["id"] = 72096,
-							["hitmax"] = 15654,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 39414,
 									["amount"] = 31709,
+									["total"] = 39414,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 15654,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 6015,
 							["amount"] = 31709,
 							["hitamount"] = 31709,
 						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1236,
+							["id"] = 72097,
+							["count"] = 41,
+							["hit"] = 39,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 71651,
+								},
+							},
+							["hitmax"] = 2614,
+							["amount"] = 71651,
+							["school"] = 16,
+							["resisted"] = 26479,
+							["MISS"] = 2,
+							["hitamount"] = 71651,
+						},
 					},
 					["name"] = "Ypopti",
-					["overkill"] = 1999,
-					["totaldamage"] = 671727,
-					["energy"] = 330,
 					["role"] = "DAMAGER",
+					["energy"] = 330,
+					["overkill"] = 1999,
 				}, -- [6]
 				{
 					["last"] = 8662.867,
@@ -5650,10 +5633,10 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[28682] = {
+							["uptime"] = 9,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 4,
-							["uptime"] = 9,
 						},
 						[48108] = {
 							["type"] = "BUFF",
@@ -5674,8 +5657,8 @@ SkadaStorageDB = {
 							["refresh"] = 9,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 3,
 									["refresh"] = 9,
+									["count"] = 3,
 									["uptime"] = 78,
 								},
 								["Frozen Orb"] = {
@@ -5706,9 +5689,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[12654] = {
@@ -5718,13 +5701,13 @@ SkadaStorageDB = {
 							["refresh"] = 66,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 2,
 									["refresh"] = 60,
+									["count"] = 2,
 									["uptime"] = 89,
 								},
 								["Frozen Orb"] = {
-									["count"] = 6,
 									["refresh"] = 6,
+									["count"] = 6,
 									["uptime"] = 24,
 								},
 							},
@@ -5736,9 +5719,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[57669] = {
@@ -5747,9 +5730,9 @@ SkadaStorageDB = {
 							["uptime"] = 90,
 						},
 						[55342] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[48162] = {
@@ -5758,9 +5741,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -5774,9 +5757,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[55610] = {
@@ -5800,12 +5783,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 87,
 						},
-						[15359] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 25,
+							["uptime"] = 104,
 						},
 						[48938] = {
 							["type"] = "BUFF",
@@ -5822,12 +5803,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 18,
-						},
 						[70753] = {
 							["type"] = "BUFF",
 							["count"] = 9,
@@ -5835,22 +5810,30 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["uptime"] = 65,
 						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 29,
-						},
-						[51470] = {
+						[70747] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 30,
 						},
-						[12536] = {
+						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 8,
+							["count"] = 2,
+							["uptime"] = 29,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 18,
+						},
+						[54648] = {
+							["type"] = "BUFF",
+							["count"] = 2,
 							["school"] = 64,
-							["uptime"] = 8,
+							["refresh"] = 25,
+							["uptime"] = 98,
 						},
 						[25898] = {
 							["type"] = "BUFF",
@@ -5863,57 +5846,58 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 104,
+						},
 						[63944] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 6,
-							["uptime"] = 104,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 104,
-						},
-						[54648] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[12536] = {
 							["school"] = 64,
-							["refresh"] = 25,
-							["uptime"] = 98,
+							["type"] = "BUFF",
+							["count"] = 8,
+							["uptime"] = 8,
 						},
-						[70747] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 30,
+							["uptime"] = 104,
 						},
 						[43046] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[58754] = {
+						[15359] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 25,
 						},
 					},
+					["totaldamage"] = 1357742,
 					["time"] = 94.42999999999995,
 					["totaldamagetaken"] = 30485,
 					["damage"] = 1357742,
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmax"] = 10982,
+							["criticalmin"] = 13842,
 							["hitmin"] = 7618,
 							["criticalamount"] = 466315,
 							["id"] = 42833,
-							["criticalmin"] = 13842,
+							["amount"] = 566640,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 505911,
@@ -5922,14 +5906,14 @@ SkadaStorageDB = {
 									["amount"] = 60729,
 								},
 							},
-							["criticalmax"] = 23184,
-							["critical"] = 25,
 							["casts"] = 37,
 							["count"] = 36,
+							["criticalmax"] = 23184,
+							["hitmax"] = 10982,
 							["hit"] = 11,
 							["school"] = 4,
 							["resisted"] = 27318,
-							["amount"] = 566640,
+							["critical"] = 25,
 							["hitamount"] = 100325,
 						},
 						["Pyroblast (DoT)"] = {
@@ -5943,8 +5927,8 @@ SkadaStorageDB = {
 									["amount"] = 6156,
 								},
 							},
-							["hitmax"] = 1782,
 							["count"] = 27,
+							["hitmax"] = 1782,
 							["hit"] = 27,
 							["school"] = 4,
 							["resisted"] = 1843,
@@ -5961,43 +5945,43 @@ SkadaStorageDB = {
 									["amount"] = 15169,
 								},
 							},
+							["amount"] = 15169,
+							["hitmax"] = 615,
 							["criticalmax"] = 915,
 							["critical"] = 3,
-							["casts"] = 1,
-							["count"] = 24,
 							["hit"] = 21,
 							["school"] = 16,
-							["hitmax"] = 615,
-							["amount"] = 15169,
+							["count"] = 24,
+							["casts"] = 1,
 							["hitamount"] = 12425,
 						},
 						["Fire Blast (Mirror Image)"] = {
-							["criticalmin"] = 639,
-							["hitmin"] = 256,
 							["criticalamount"] = 1287,
+							["hitmin"] = 256,
+							["criticalmin"] = 639,
 							["id"] = 59637,
-							["criticalmax"] = 648,
+							["amount"] = 4489,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 4489,
 								},
 							},
-							["critical"] = 2,
-							["hitmax"] = 373,
 							["casts"] = 1,
 							["count"] = 12,
+							["criticalmax"] = 648,
+							["critical"] = 2,
 							["hit"] = 10,
 							["school"] = 4,
 							["resisted"] = 387,
-							["amount"] = 4489,
+							["hitmax"] = 373,
 							["hitamount"] = 3202,
 						},
 						["Living Bomb"] = {
-							["criticalmin"] = 5141,
-							["hitmin"] = 3596,
 							["criticalamount"] = 71358,
+							["hitmin"] = 3596,
+							["criticalmin"] = 5141,
 							["id"] = 55362,
-							["criticalmax"] = 7423,
+							["amount"] = 78969,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 48676,
@@ -6006,22 +5990,22 @@ SkadaStorageDB = {
 									["amount"] = 30293,
 								},
 							},
-							["critical"] = 11,
-							["hitmax"] = 4015,
 							["casts"] = 10,
 							["count"] = 13,
+							["criticalmax"] = 7423,
+							["critical"] = 11,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 4304,
-							["amount"] = 78969,
+							["hitmax"] = 4015,
 							["hitamount"] = 7611,
 						},
 						["Pyroblast"] = {
-							["hitmax"] = 7697,
+							["count"] = 14,
 							["hitmin"] = 7697,
 							["criticalamount"] = 268872,
 							["id"] = 42891,
-							["count"] = 14,
+							["criticalmax"] = 23518,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 248760,
@@ -6030,14 +6014,14 @@ SkadaStorageDB = {
 									["amount"] = 27809,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 17464,
-							["casts"] = 14,
 							["critical"] = 13,
 							["amount"] = 276569,
+							["casts"] = 14,
+							["hitmax"] = 7697,
+							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 7449,
-							["criticalmax"] = 23518,
+							["criticalmin"] = 17464,
 							["hitamount"] = 7697,
 						},
 						["Ignite (DoT)"] = {
@@ -6051,8 +6035,8 @@ SkadaStorageDB = {
 									["amount"] = 26459,
 								},
 							},
-							["hitmax"] = 35792,
 							["count"] = 19,
+							["hitmax"] = 35792,
 							["hit"] = 19,
 							["school"] = 4,
 							["resisted"] = 19626,
@@ -6063,7 +6047,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1325,
 							["criticalamount"] = 73941,
 							["id"] = 55360,
-							["hit"] = 11,
+							["count"] = 35,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 74100,
@@ -6072,22 +6056,22 @@ SkadaStorageDB = {
 									["amount"] = 17224,
 								},
 							},
-							["hitmax"] = 1921,
-							["count"] = 35,
-							["criticalmax"] = 3915,
-							["critical"] = 24,
+							["criticalmin"] = 2290,
 							["amount"] = 91324,
+							["criticalmax"] = 3915,
+							["hitmax"] = 1921,
+							["hit"] = 11,
 							["school"] = 4,
 							["resisted"] = 6862,
-							["criticalmin"] = 2290,
+							["critical"] = 24,
 							["hitamount"] = 17383,
 						},
 						["Fire Blast"] = {
-							["criticalmin"] = 7556,
-							["hitmin"] = 3346,
 							["criticalamount"] = 7556,
+							["hitmin"] = 3346,
+							["criticalmin"] = 7556,
 							["id"] = 42873,
-							["criticalmax"] = 7556,
+							["amount"] = 10902,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 7556,
@@ -6096,14 +6080,14 @@ SkadaStorageDB = {
 									["amount"] = 3346,
 								},
 							},
-							["critical"] = 1,
-							["hitmax"] = 3346,
 							["casts"] = 2,
 							["count"] = 2,
+							["criticalmax"] = 7556,
+							["critical"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 371,
-							["amount"] = 10902,
+							["hitmax"] = 3346,
 							["hitamount"] = 3346,
 						},
 					},
@@ -6115,14 +6099,14 @@ SkadaStorageDB = {
 							["total"] = 30485,
 							["hitmin"] = 1460,
 							["id"] = 72096,
-							["hitmax"] = 10517,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 30485,
 									["amount"] = 13872,
+									["total"] = 30485,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 10517,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 15820,
@@ -6131,14 +6115,13 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Merrian",
+					["role"] = "DAMAGER",
+					["mana"] = 9261,
 					["manaspells"] = {
 						[29077] = 9155,
 						[67545] = 1235,
 						[44450] = -1129,
 					},
-					["mana"] = 9261,
-					["totaldamage"] = 1357742,
-					["role"] = "DAMAGER",
 				}, -- [7]
 				{
 					["last"] = 8662.172000000001,
@@ -6158,9 +6141,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[52000] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 12,
 						},
 						[57294] = {
@@ -6180,8 +6163,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 2,
 									["refresh"] = 2,
+									["count"] = 2,
 									["uptime"] = 79,
 								},
 								["Frozen Orb"] = {
@@ -6192,15 +6175,15 @@ SkadaStorageDB = {
 							["uptime"] = 79,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[45529] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[16237] = {
@@ -6217,8 +6200,8 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 7,
+									["count"] = 1,
 									["uptime"] = 81,
 								},
 								["Frozen Orb"] = {
@@ -6276,8 +6259,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 79,
 								},
 								["Frozen Orb"] = {
@@ -6298,9 +6281,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -6314,15 +6297,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 2,
 						},
 						[55610] = {
@@ -6330,23 +6313,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[47753] = {
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[64844] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
-							["uptime"] = 12,
+							["refresh"] = 1,
+							["uptime"] = 10,
 						},
-						[75493] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
-						[42650] = {
+						[67383] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 4,
+							["school"] = 8,
+							["refresh"] = 5,
+							["uptime"] = 87,
 						},
 						[54043] = {
 							["type"] = "BUFF",
@@ -6358,56 +6342,28 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[15359] = {
+						[63944] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 16,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 20,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 33,
+							["count"] = 1,
+							["refresh"] = 12,
 						},
 						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[48066] = {
 							["school"] = 2,
-							["uptime"] = 15,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 33,
 						},
-						[25898] = {
+						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 84,
+							["uptime"] = 12,
 						},
 						[49206] = {
 							["type"] = "DEBUFF",
@@ -6421,38 +6377,66 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 41,
 						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[49222] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 84,
+						},
+						[48068] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
 						[60302] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 12,
-							["uptime"] = 104,
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 20,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 20,
 						},
-						[67383] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 5,
-							["uptime"] = 87,
-						},
-						[64844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[15359] = {
 							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 10,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 16,
 						},
-						[58754] = {
+						[75493] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 9,
+						},
+						[42650] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 4,
 						},
 					},
+					["totaldamage"] = 733612,
 					["time"] = 93.25000000000004,
 					["totaldamagetaken"] = 101639,
 					["damage"] = 733612,
@@ -6463,18 +6447,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 9447,
-							["max"] = 297,
-							["count"] = 84,
-							["amount"] = 3474,
-							["school"] = 1,
-							["min"] = 60,
-							["ishot"] = true,
 							["targets"] = {
 								["Vktr"] = {
 									["overheal"] = 9447,
 									["amount"] = 3474,
 								},
 							},
+							["count"] = 84,
+							["amount"] = 3474,
+							["max"] = 297,
+							["min"] = 60,
+							["ishot"] = true,
+							["school"] = 1,
 						},
 						[53365] = {
 							["overheal"] = 4311,
@@ -6491,69 +6475,66 @@ SkadaStorageDB = {
 							["count"] = 7,
 							["amount"] = 2874,
 							["school"] = 1,
-							["criticalmin"] = 0,
 							["critical"] = 1,
+							["criticalmin"] = 0,
 						},
 					},
 					["damagetakenspells"] = {
 						["Freezing Ground"] = {
 							["hitmin"] = 4638,
 							["id"] = 72104,
-							["hitmax"] = 4638,
+							["count"] = 1,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 4638,
 								},
 							},
-							["count"] = 1,
+							["hitmax"] = 4638,
 							["hit"] = 1,
 							["school"] = 16,
 							["resisted"] = 1159,
 							["amount"] = 4638,
 							["hitamount"] = 4638,
 						},
-						["Frozen Orb"] = {
-							["hitmin"] = 1003,
-							["id"] = 72097,
-							["amount"] = 67233,
-							["hitmax"] = 2087,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["amount"] = 67233,
-								},
-							},
-							["count"] = 47,
-							["hit"] = 45,
-							["school"] = 16,
-							["resisted"] = 24317,
-							["MISS"] = 2,
-							["hitamount"] = 67233,
-						},
 						["Whiteout"] = {
 							["total"] = 29768,
 							["hitmin"] = 2110,
 							["id"] = 72096,
-							["hitmax"] = 10739,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 29768,
 									["amount"] = 22063,
+									["total"] = 29768,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 10739,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 9085,
 							["amount"] = 22063,
 							["hitamount"] = 22063,
 						},
-					},
-					["runicspells"] = {
-						[45529] = 10,
+						["Frozen Orb"] = {
+							["hitmin"] = 1003,
+							["id"] = 72097,
+							["count"] = 47,
+							["hit"] = 45,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 67233,
+								},
+							},
+							["hitmax"] = 2087,
+							["amount"] = 67233,
+							["school"] = 16,
+							["resisted"] = 24317,
+							["MISS"] = 2,
+							["hitamount"] = 67233,
+						},
 					},
 					["heal"] = 6348,
 					["name"] = "Vktr",
-					["runic"] = 10,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Scourge Strike"] = {
 							["hitmin"] = 2510,
@@ -6565,43 +6546,43 @@ SkadaStorageDB = {
 									["amount"] = 59752,
 								},
 							},
+							["amount"] = 59752,
+							["hitmax"] = 3025,
 							["criticalmax"] = 7264,
 							["critical"] = 7,
-							["casts"] = 11,
-							["count"] = 11,
 							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 3025,
-							["amount"] = 59752,
+							["count"] = 11,
+							["casts"] = 11,
 							["hitamount"] = 11098,
 						},
 						["Pendulum of Telluric Currents"] = {
-							["hitmax"] = 2135,
+							["count"] = 2,
 							["hitmin"] = 2135,
 							["criticalamount"] = 3149,
 							["id"] = 60483,
-							["count"] = 2,
+							["criticalmax"] = 3149,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 5284,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 3149,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 5284,
+							["casts"] = 1,
+							["hitmax"] = 2135,
+							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 787,
-							["criticalmax"] = 3149,
+							["criticalmin"] = 3149,
 							["hitamount"] = 2135,
 						},
 						["Death and Decay"] = {
-							["criticalmin"] = 1440,
-							["hitmin"] = 612,
 							["criticalamount"] = 8164,
+							["hitmin"] = 612,
+							["criticalmin"] = 1440,
 							["id"] = 52212,
-							["hitmax"] = 804,
+							["criticalmax"] = 1681,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 21201,
@@ -6610,14 +6591,14 @@ SkadaStorageDB = {
 									["amount"] = 712,
 								},
 							},
-							["count"] = 23,
-							["hit"] = 18,
-							["casts"] = 2,
 							["critical"] = 5,
 							["amount"] = 21913,
+							["casts"] = 2,
+							["hitmax"] = 804,
+							["hit"] = 18,
 							["school"] = 32,
 							["resisted"] = 713,
-							["criticalmax"] = 1681,
+							["count"] = 23,
 							["hitamount"] = 13749,
 						},
 						["Blood Strike"] = {
@@ -6631,14 +6612,14 @@ SkadaStorageDB = {
 									["amount"] = 20408,
 								},
 							},
+							["amount"] = 20408,
+							["hitmax"] = 1856,
 							["criticalmax"] = 3868,
 							["critical"] = 2,
-							["casts"] = 11,
-							["count"] = 11,
 							["hit"] = 8,
 							["school"] = 1,
-							["hitmax"] = 1856,
-							["amount"] = 20408,
+							["count"] = 11,
+							["casts"] = 11,
 							["hitamount"] = 13104,
 						},
 						["Wandering Plague"] = {
@@ -6652,9 +6633,9 @@ SkadaStorageDB = {
 									["amount"] = 14477,
 								},
 							},
-							["hitmax"] = 1448,
-							["casts"] = 1,
 							["count"] = 41,
+							["casts"] = 1,
+							["hitmax"] = 1448,
 							["hit"] = 41,
 							["school"] = 32,
 							["resisted"] = 3552,
@@ -6678,96 +6659,53 @@ SkadaStorageDB = {
 							["criticalamount"] = 3528,
 							["id"] = 6603,
 							["glancemax"] = 106,
-							["blocked"] = 41,
+							["hit"] = 204,
 							["criticalmax"] = 280,
 							["count"] = 303,
-							["hit"] = 204,
+							["blocked"] = 41,
 							["school"] = 1,
-							["hitmax"] = 142,
 							["critical"] = 14,
+							["hitmax"] = 142,
 							["hitamount"] = 26302,
 						},
-						["Death Coil"] = {
-							["criticalmax"] = 8104,
-							["criticalmin"] = 6689,
-							["hitmin"] = 3491,
-							["criticalamount"] = 46534,
-							["id"] = 47632,
-							["hitmax"] = 3877,
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1150,
+							["id"] = 50463,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 53902,
+									["amount"] = 16147,
 								},
 							},
-							["count"] = 9,
-							["hit"] = 2,
-							["casts"] = 9,
-							["critical"] = 6,
-							["amount"] = 53902,
-							["school"] = 32,
-							["resisted"] = 1130,
+							["hit"] = 12,
+							["casts"] = 1,
+							["count"] = 13,
+							["amount"] = 16147,
+							["school"] = 1,
+							["hitmax"] = 1534,
 							["MISS"] = 1,
-							["hitamount"] = 7368,
+							["hitamount"] = 16147,
 						},
 						["Icy Touch"] = {
-							["criticalmin"] = 3697,
-							["criticalmax"] = 4084,
-							["hitmin"] = 1386,
 							["criticalamount"] = 7781,
+							["hitmax"] = 1934,
+							["hitmin"] = 1386,
+							["criticalmin"] = 3697,
 							["id"] = 49909,
-							["critical"] = 2,
+							["casts"] = 5,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 11101,
 								},
 							},
-							["hit"] = 2,
-							["hitmax"] = 1934,
-							["casts"] = 5,
 							["count"] = 5,
 							["amount"] = 11101,
+							["criticalmax"] = 4084,
+							["critical"] = 2,
+							["hit"] = 2,
 							["school"] = 16,
 							["resisted"] = 1230,
 							["MISS"] = 1,
 							["hitamount"] = 3320,
-						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["criticalmin"] = 3663,
-							["hitmin"] = 2167,
-							["criticalamount"] = 7747,
-							["id"] = 51963,
-							["criticalmax"] = 4084,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 60909,
-								},
-							},
-							["critical"] = 2,
-							["hitmax"] = 2735,
-							["casts"] = 1,
-							["count"] = 23,
-							["hit"] = 21,
-							["school"] = 8,
-							["resisted"] = 4498,
-							["amount"] = 60909,
-							["hitamount"] = 53162,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 1195,
-							["id"] = 70890,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 25603,
-								},
-							},
-							["hitmax"] = 3900,
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 32,
-							["resisted"] = 1225,
-							["amount"] = 25603,
-							["hitamount"] = 25603,
 						},
 						["Melee"] = {
 							["DODGE"] = 2,
@@ -6793,83 +6731,42 @@ SkadaStorageDB = {
 							["count"] = 49,
 							["hitamount"] = 28141,
 						},
-						["Claw (Army of the Dead Ghoul)"] = {
-							["amount"] = 16378,
-							["hitmin"] = 173,
-							["criticalamount"] = 1876,
-							["id"] = 47468,
-							["criticalmin"] = 348,
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 1195,
+							["id"] = 70890,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 16378,
+									["amount"] = 25603,
 								},
 							},
-							["criticalmax"] = 418,
-							["critical"] = 5,
+							["count"] = 9,
 							["casts"] = 1,
-							["count"] = 81,
-							["hit"] = 75,
-							["school"] = 1,
-							["hitmax"] = 214,
-							["MISS"] = 1,
-							["hitamount"] = 14502,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 248,
-							["id"] = 51460,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 27878,
-								},
-							},
-							["hitmax"] = 1006,
-							["casts"] = 1,
-							["count"] = 47,
-							["hit"] = 47,
+							["hitmax"] = 3900,
+							["hit"] = 9,
 							["school"] = 32,
-							["resisted"] = 1755,
-							["amount"] = 27878,
-							["hitamount"] = 27878,
+							["resisted"] = 1225,
+							["amount"] = 25603,
+							["hitamount"] = 25603,
 						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 791,
-							["id"] = 55078,
+						["Plague Strike"] = {
+							["hitmin"] = 1654,
+							["criticalamount"] = 3428,
+							["id"] = 49921,
+							["count"] = 4,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 26358,
-								},
-								["Frozen Orb"] = {
-									["amount"] = 5357,
+									["amount"] = 8749,
 								},
 							},
-							["hitmax"] = 1285,
-							["count"] = 30,
-							["hit"] = 30,
-							["school"] = 32,
-							["resisted"] = 2065,
-							["amount"] = 31715,
-							["hitamount"] = 31715,
-						},
-						["Claw (Rotstealer)"] = {
-							["criticalmin"] = 1790,
-							["hitmin"] = 757,
-							["criticalamount"] = 13124,
-							["id"] = 47468,
-							["criticalmax"] = 1986,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 26440,
-								},
-							},
-							["critical"] = 7,
-							["amount"] = 26440,
-							["casts"] = 1,
-							["count"] = 24,
-							["hit"] = 15,
+							["criticalmax"] = 3428,
+							["criticalmin"] = 3428,
+							["casts"] = 4,
+							["hitmax"] = 1943,
+							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 978,
-							["MISS"] = 2,
-							["hitamount"] = 13316,
+							["amount"] = 8749,
+							["critical"] = 1,
+							["hitamount"] = 5321,
 						},
 						["Melee (Rotstealer)"] = {
 							["DODGE"] = 1,
@@ -6896,25 +6793,104 @@ SkadaStorageDB = {
 							["count"] = 119,
 							["hitamount"] = 38910,
 						},
-						["Plague Strike"] = {
-							["hitmin"] = 1654,
-							["criticalamount"] = 3428,
-							["id"] = 49921,
-							["hitmax"] = 1943,
+						["Necrosis"] = {
+							["hitmin"] = 248,
+							["id"] = 51460,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 8749,
+									["amount"] = 27878,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 3,
-							["casts"] = 4,
-							["critical"] = 1,
-							["amount"] = 8749,
+							["count"] = 47,
+							["casts"] = 1,
+							["hitmax"] = 1006,
+							["hit"] = 47,
+							["school"] = 32,
+							["resisted"] = 1755,
+							["amount"] = 27878,
+							["hitamount"] = 27878,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 791,
+							["id"] = 55078,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 26358,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 5357,
+								},
+							},
+							["count"] = 30,
+							["hitmax"] = 1285,
+							["hit"] = 30,
+							["school"] = 32,
+							["resisted"] = 2065,
+							["amount"] = 31715,
+							["hitamount"] = 31715,
+						},
+						["Claw (Rotstealer)"] = {
+							["criticalamount"] = 13124,
+							["hitmin"] = 757,
+							["criticalmin"] = 1790,
+							["id"] = 47468,
+							["casts"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 26440,
+								},
+							},
+							["hitmax"] = 978,
+							["hit"] = 15,
+							["criticalmax"] = 1986,
+							["critical"] = 7,
+							["amount"] = 26440,
 							["school"] = 1,
-							["criticalmin"] = 3428,
-							["criticalmax"] = 3428,
-							["hitamount"] = 5321,
+							["count"] = 24,
+							["MISS"] = 2,
+							["hitamount"] = 13316,
+						},
+						["Claw (Army of the Dead Ghoul)"] = {
+							["criticalmin"] = 348,
+							["hitmin"] = 173,
+							["criticalamount"] = 1876,
+							["id"] = 47468,
+							["casts"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 16378,
+								},
+							},
+							["hitmax"] = 214,
+							["hit"] = 75,
+							["criticalmax"] = 418,
+							["critical"] = 5,
+							["amount"] = 16378,
+							["school"] = 1,
+							["count"] = 81,
+							["MISS"] = 1,
+							["hitamount"] = 14502,
+						},
+						["Gargoyle Strike (Ebon Gargoyle)"] = {
+							["criticalamount"] = 7747,
+							["hitmin"] = 2167,
+							["criticalmin"] = 3663,
+							["id"] = 51963,
+							["amount"] = 60909,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 60909,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 23,
+							["criticalmax"] = 4084,
+							["critical"] = 2,
+							["hit"] = 21,
+							["school"] = 8,
+							["resisted"] = 4498,
+							["hitmax"] = 2735,
+							["hitamount"] = 53162,
 						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 1053,
@@ -6927,34 +6903,41 @@ SkadaStorageDB = {
 									["amount"] = 6749,
 								},
 							},
-							["hitmax"] = 1525,
 							["count"] = 31,
+							["hitmax"] = 1525,
 							["hit"] = 31,
 							["school"] = 16,
 							["resisted"] = 2404,
 							["amount"] = 40185,
 							["hitamount"] = 40185,
 						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1150,
-							["id"] = 50463,
+						["Death Coil"] = {
+							["criticalamount"] = 46534,
+							["count"] = 9,
+							["hitmin"] = 3491,
+							["criticalmin"] = 6689,
+							["id"] = 47632,
+							["casts"] = 9,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 16147,
+									["amount"] = 53902,
 								},
 							},
-							["amount"] = 16147,
-							["casts"] = 1,
-							["count"] = 13,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 1534,
+							["critical"] = 6,
+							["amount"] = 53902,
+							["criticalmax"] = 8104,
+							["hitmax"] = 3877,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 1130,
 							["MISS"] = 1,
-							["hitamount"] = 16147,
+							["hitamount"] = 7368,
 						},
 					},
-					["totaldamage"] = 733612,
-					["role"] = "DAMAGER",
+					["runic"] = 10,
+					["runicspells"] = {
+						[45529] = 10,
+					},
 				}, -- [8]
 				{
 					["last"] = 8662.844000000001,
@@ -6967,9 +6950,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[52000] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 24,
 						},
 						[53138] = {
@@ -6991,13 +6974,13 @@ SkadaStorageDB = {
 							["refresh"] = 29,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 4,
 									["refresh"] = 25,
+									["count"] = 4,
 									["uptime"] = 89,
 								},
 								["Frozen Orb"] = {
-									["count"] = 4,
 									["refresh"] = 4,
+									["count"] = 4,
 									["uptime"] = 17,
 								},
 							},
@@ -7022,17 +7005,17 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 2,
 									["refresh"] = 5,
+									["count"] = 2,
 									["uptime"] = 64,
 								},
 							},
 							["uptime"] = 64,
 						},
 						[54861] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[32223] = {
@@ -7057,11 +7040,10 @@ SkadaStorageDB = {
 							["refresh"] = 13,
 							["uptime"] = 98,
 						},
-						[31884] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 20,
+							["uptime"] = 104,
 						},
 						[57663] = {
 							["type"] = "BUFF",
@@ -7069,9 +7051,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[59620] = {
@@ -7086,11 +7068,11 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["uptime"] = 88,
 						},
-						[31821] = {
+						[53601] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
+							["uptime"] = 30,
 						},
 						[31801] = {
 							["type"] = "BUFF",
@@ -7098,9 +7080,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[31803] = {
@@ -7110,17 +7092,17 @@ SkadaStorageDB = {
 							["refresh"] = 39,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 39,
+									["count"] = 1,
 									["uptime"] = 92,
 								},
 							},
 							["uptime"] = 92,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -7134,15 +7116,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 1,
 						},
 						[55610] = {
@@ -7150,17 +7132,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 30,
-						},
-						[15359] = {
-							["type"] = "BUFF",
+						[20185] = {
+							["type"] = "DEBUFF",
 							["count"] = 3,
 							["school"] = 2,
-							["uptime"] = 37,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 7,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 104,
 						},
 						[48938] = {
 							["type"] = "BUFF",
@@ -7177,30 +7165,43 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[70809] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 20,
-						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 23,
-						},
-						[48068] = {
+						[63944] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
+							["refresh"] = 6,
 						},
-						[51470] = {
+						[71432] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48068] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[31884] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
 						},
 						[48819] = {
 							["type"] = "DEBUFF",
@@ -7218,83 +7219,55 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 50,
 						},
-						[25898] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[71432] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
-						},
-						[57623] = {
+						[16237] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 104,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
 							["school"] = 2,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 7,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 7,
+							["refresh"] = 1,
+							["uptime"] = 23,
+						},
+						[70809] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 20,
+						},
+						[15359] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 37,
 						},
 						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
-						[58754] = {
+						[31821] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 6,
 						},
 					},
+					["totaldamage"] = 946873,
 					["time"] = 94.44999999999995,
 					["totaldamagetaken"] = 93745,
 					["damage"] = 946873,
 					["overheal"] = 35649,
-					["manaspells"] = {
-						[31930] = 10980,
-						[57669] = 11856,
-						[20268] = 29822,
-					},
 					["damagetaken"] = 93745,
 					["id"] = "0x0700000000995413",
 					["spec"] = 70,
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 34867,
-							["max"] = 907,
-							["count"] = 88,
-							["amount"] = 17986,
-							["school"] = 2,
-							["min"] = 402,
-							["ishot"] = true,
 							["targets"] = {
 								["Mirror Image"] = {
 									["overheal"] = 352,
@@ -7304,45 +7277,45 @@ SkadaStorageDB = {
 									["overheal"] = 564,
 									["amount"] = 564,
 								},
-								["Inarya"] = {
-									["overheal"] = 0,
-									["amount"] = 1743,
+								["Deftonez"] = {
+									["overheal"] = 3386,
+									["amount"] = 1652,
 								},
 								["Vktr"] = {
 									["overheal"] = 2558,
 									["amount"] = 1278,
 								},
-								["Ypopti"] = {
-									["overheal"] = 1202,
-									["amount"] = 3005,
+								["Iceburner"] = {
+									["overheal"] = 1578,
+									["amount"] = 789,
 								},
-								["Vaginismus"] = {
-									["overheal"] = 1993,
-									["amount"] = 0,
+								["Merrian"] = {
+									["overheal"] = 1110,
+									["amount"] = 554,
 								},
-								["Karshash"] = {
-									["overheal"] = 523,
+								["Army of the Dead Ghoul"] = {
+									["overheal"] = 240,
 									["amount"] = 0,
 								},
 								["Rasalgull"] = {
 									["overheal"] = 2903,
 									["amount"] = 1382,
 								},
-								["Iceburner"] = {
-									["overheal"] = 1578,
-									["amount"] = 789,
+								["Ypopti"] = {
+									["overheal"] = 1202,
+									["amount"] = 3005,
 								},
-								["Rotstealer"] = {
-									["overheal"] = 1276,
+								["Crab"] = {
+									["overheal"] = 3578,
 									["amount"] = 0,
+								},
+								["Abyzu"] = {
+									["overheal"] = 1482,
+									["amount"] = 494,
 								},
 								["Insurance"] = {
 									["overheal"] = 1216,
 									["amount"] = 608,
-								},
-								["Magijabebo"] = {
-									["overheal"] = 1104,
-									["amount"] = 552,
 								},
 								["Paopaozhu"] = {
 									["overheal"] = 0,
@@ -7356,13 +7329,13 @@ SkadaStorageDB = {
 									["overheal"] = 2721,
 									["amount"] = 1814,
 								},
-								["Crab"] = {
-									["overheal"] = 3578,
+								["Rotstealer"] = {
+									["overheal"] = 1276,
 									["amount"] = 0,
 								},
-								["Abyzu"] = {
-									["overheal"] = 1482,
-									["amount"] = 494,
+								["Inarya"] = {
+									["overheal"] = 0,
+									["amount"] = 1743,
 								},
 								["Alexzandra"] = {
 									["overheal"] = 4113,
@@ -7372,26 +7345,37 @@ SkadaStorageDB = {
 									["overheal"] = 2031,
 									["amount"] = 677,
 								},
-								["Army of the Dead Ghoul"] = {
-									["overheal"] = 240,
-									["amount"] = 0,
+								["Magijabebo"] = {
+									["overheal"] = 1104,
+									["amount"] = 552,
 								},
-								["Merrian"] = {
-									["overheal"] = 1110,
-									["amount"] = 554,
+								["Karshash"] = {
+									["overheal"] = 523,
+									["amount"] = 0,
 								},
 								["Quewyn"] = {
 									["overheal"] = 937,
 									["amount"] = 0,
 								},
-								["Deftonez"] = {
-									["overheal"] = 3386,
-									["amount"] = 1652,
+								["Vaginismus"] = {
+									["overheal"] = 1993,
+									["amount"] = 0,
 								},
 							},
+							["count"] = 88,
+							["amount"] = 17986,
+							["max"] = 907,
+							["min"] = 402,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 						[54172] = {
 							["overheal"] = 782,
+							["min"] = 401,
+							["count"] = 10,
+							["amount"] = 18674,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Rotstealer"] = {
 									["overheal"] = 152,
@@ -7413,61 +7397,59 @@ SkadaStorageDB = {
 									["overheal"] = 213,
 									["amount"] = 782,
 								},
-								["Ebonmoo"] = {
-									["overheal"] = 0,
-									["amount"] = 1906,
-								},
 								["Nafoo"] = {
 									["overheal"] = 417,
 									["amount"] = 1533,
 								},
+								["Ebonmoo"] = {
+									["overheal"] = 0,
+									["amount"] = 1906,
+								},
 							},
-							["count"] = 10,
-							["amount"] = 18674,
-							["school"] = 2,
 							["max"] = 4166,
-							["ishot"] = true,
-							["min"] = 401,
 						},
 					},
 					["damagetakenspells"] = {
-						["Frozen Orb"] = {
-							["hitmin"] = 1238,
-							["id"] = 72097,
-							["hitmax"] = 2295,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["amount"] = 59007,
-								},
-							},
-							["count"] = 32,
-							["hit"] = 32,
-							["school"] = 16,
-							["resisted"] = 21547,
-							["amount"] = 59007,
-							["hitamount"] = 59007,
-						},
 						["Whiteout"] = {
 							["hitmin"] = 10673,
 							["id"] = 72096,
-							["hitmax"] = 12173,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 34738,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 12173,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 10856,
 							["amount"] = 34738,
 							["hitamount"] = 34738,
 						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1238,
+							["id"] = 72097,
+							["count"] = 32,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 59007,
+								},
+							},
+							["hitmax"] = 2295,
+							["hit"] = 32,
+							["school"] = 16,
+							["resisted"] = 21547,
+							["amount"] = 59007,
+							["hitamount"] = 59007,
+						},
 					},
-					["overkill"] = 2252,
 					["heal"] = 36660,
-					["name"] = "Rasalgull",
-					["mana"] = 52658,
+					["manaspells"] = {
+						[31930] = 10980,
+						[57669] = 11856,
+						[20268] = 29822,
+					},
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
 							["hitmin"] = 468,
@@ -7480,9 +7462,9 @@ SkadaStorageDB = {
 									["amount"] = 20338,
 								},
 							},
-							["hitmax"] = 979,
-							["casts"] = 2,
 							["count"] = 83,
+							["casts"] = 2,
+							["hitmax"] = 979,
 							["hit"] = 83,
 							["school"] = 2,
 							["resisted"] = 3657,
@@ -7490,49 +7472,49 @@ SkadaStorageDB = {
 							["hitamount"] = 54600,
 						},
 						["Exorcism"] = {
-							["criticalmin"] = 7268,
-							["hitmin"] = 3058,
 							["criticalamount"] = 7268,
+							["hitmin"] = 3058,
+							["criticalmin"] = 7268,
 							["id"] = 48801,
-							["hitmax"] = 3547,
+							["criticalmax"] = 7268,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 20691,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 4,
-							["casts"] = 5,
 							["critical"] = 1,
 							["amount"] = 20691,
+							["casts"] = 5,
+							["hitmax"] = 3547,
+							["hit"] = 4,
 							["school"] = 2,
 							["resisted"] = 2378,
-							["criticalmax"] = 7268,
+							["count"] = 5,
 							["hitamount"] = 13423,
 						},
 						["Divine Storm"] = {
-							["count"] = 33,
+							["hitmax"] = 4616,
 							["hitmin"] = 3011,
 							["criticalamount"] = 153826,
 							["id"] = 53385,
-							["hitmax"] = 4616,
+							["criticalmax"] = 10357,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 128694,
 								},
 								["Frozen Orb"] = {
-									["overkill"] = 2252,
 									["amount"] = 70321,
+									["overkill"] = 2252,
 								},
 							},
 							["overkill"] = 2252,
-							["hit"] = 13,
-							["casts"] = 21,
-							["critical"] = 20,
-							["amount"] = 199015,
-							["school"] = 1,
 							["criticalmin"] = 6435,
-							["criticalmax"] = 10357,
+							["casts"] = 21,
+							["count"] = 33,
+							["hit"] = 13,
+							["school"] = 1,
+							["amount"] = 199015,
+							["critical"] = 20,
 							["hitamount"] = 45189,
 						},
 						["Holy Vengeance (DoT)"] = {
@@ -7543,8 +7525,8 @@ SkadaStorageDB = {
 									["amount"] = 50717,
 								},
 							},
-							["hitmax"] = 2513,
 							["count"] = 30,
+							["hitmax"] = 2513,
 							["hit"] = 30,
 							["school"] = 2,
 							["resisted"] = 3395,
@@ -7559,34 +7541,34 @@ SkadaStorageDB = {
 									["amount"] = 14409,
 								},
 							},
-							["criticalmin"] = 6717,
+							["count"] = 2,
 							["casts"] = 2,
 							["critical"] = 2,
 							["amount"] = 14409,
 							["school"] = 2,
 							["resisted"] = 746,
 							["criticalmax"] = 7692,
-							["count"] = 2,
+							["criticalmin"] = 6717,
 						},
 						["Judgement of Vengeance"] = {
-							["criticalmin"] = 5465,
-							["hitmin"] = 4536,
 							["criticalamount"] = 74863,
+							["hitmin"] = 4536,
+							["criticalmin"] = 5465,
 							["id"] = 31804,
-							["hitmax"] = 5435,
+							["criticalmax"] = 14333,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 84834,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 2,
-							["casts"] = 1,
 							["critical"] = 8,
 							["amount"] = 84834,
+							["casts"] = 1,
+							["hitmax"] = 5435,
+							["hit"] = 2,
 							["school"] = 2,
 							["resisted"] = 3311,
-							["criticalmax"] = 14333,
+							["count"] = 10,
 							["hitamount"] = 9971,
 						},
 						["Melee"] = {
@@ -7617,32 +7599,32 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 48819,
 							["targets"] = {
 								["Frozen Orb"] = {
 									["amount"] = 0,
 								},
 							},
 							["MISS"] = 1,
-							["id"] = 48819,
 						},
 						["Crusader Strike"] = {
 							["hitmin"] = 2751,
 							["criticalamount"] = 51666,
 							["id"] = 35395,
-							["hitmax"] = 3400,
+							["count"] = 14,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 66981,
 								},
 							},
-							["count"] = 14,
-							["hit"] = 5,
-							["casts"] = 14,
-							["critical"] = 9,
-							["amount"] = 66981,
-							["school"] = 1,
-							["criticalmin"] = 5032,
 							["criticalmax"] = 6740,
+							["criticalmin"] = 5032,
+							["casts"] = 14,
+							["hitmax"] = 3400,
+							["hit"] = 5,
+							["school"] = 1,
+							["amount"] = 66981,
+							["critical"] = 9,
 							["hitamount"] = 15315,
 						},
 						["Righteous Vengeance (DoT)"] = {
@@ -7656,8 +7638,8 @@ SkadaStorageDB = {
 									["amount"] = 8871,
 								},
 							},
-							["hitmax"] = 3509,
 							["count"] = 40,
+							["hitmax"] = 3509,
 							["hit"] = 40,
 							["school"] = 2,
 							["resisted"] = 1991,
@@ -7665,29 +7647,30 @@ SkadaStorageDB = {
 							["hitamount"] = 64209,
 						},
 						["Seal of Vengeance"] = {
-							["criticalmin"] = 799,
-							["hitmin"] = 367,
 							["criticalamount"] = 142995,
+							["hitmin"] = 367,
+							["criticalmin"] = 799,
 							["id"] = 42463,
-							["criticalmax"] = 4608,
+							["amount"] = 189975,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 189975,
 								},
 							},
-							["critical"] = 45,
-							["hitmax"] = 2436,
 							["casts"] = 1,
 							["count"] = 73,
+							["criticalmax"] = 4608,
+							["critical"] = 45,
 							["hit"] = 28,
 							["school"] = 2,
 							["resisted"] = 11083,
-							["amount"] = 189975,
+							["hitmax"] = 2436,
 							["hitamount"] = 46980,
 						},
 					},
-					["totaldamage"] = 946873,
-					["role"] = "DAMAGER",
+					["mana"] = 52658,
+					["name"] = "Rasalgull",
+					["overkill"] = 2252,
 				}, -- [9]
 				{
 					["last"] = 8661.819,
@@ -7746,8 +7729,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 36,
 								},
 								["Frozen Orb"] = {
@@ -7784,13 +7767,13 @@ SkadaStorageDB = {
 							["refresh"] = 24,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 8,
 									["refresh"] = 20,
+									["count"] = 8,
 									["uptime"] = 67,
 								},
 								["Frozen Orb"] = {
-									["count"] = 4,
 									["refresh"] = 4,
+									["count"] = 4,
 									["uptime"] = 13,
 								},
 							},
@@ -7802,9 +7785,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[57669] = {
@@ -7813,9 +7796,9 @@ SkadaStorageDB = {
 							["uptime"] = 46,
 						},
 						[55342] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[48162] = {
@@ -7824,9 +7807,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -7871,16 +7854,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[15359] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 6,
+							["uptime"] = 104,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 48,
 						},
 						[47753] = {
@@ -7890,11 +7872,10 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 16,
 						},
-						[75493] = {
+						[43046] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 6,
+							["uptime"] = 104,
 						},
 						[25898] = {
 							["type"] = "BUFF",
@@ -7906,11 +7887,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[12536] = {
+						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 64,
-							["uptime"] = 18,
+							["count"] = 2,
+							["uptime"] = 104,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
 						},
 						[28682] = {
 							["type"] = "BUFF",
@@ -7919,44 +7911,36 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["uptime"] = 5,
 						},
-						[63944] = {
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 6,
+							["uptime"] = 18,
+						},
+						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
+							["uptime"] = 6,
 						},
-						[51470] = {
+						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 104,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[58754] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 6,
 						},
 					},
+					["totaldamage"] = 477550,
 					["time"] = 93.32000000000002,
 					["totaldamagetaken"] = 32975,
 					["damage"] = 477550,
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmax"] = 7341,
+							["criticalmin"] = 8659,
 							["hitmin"] = 4281,
 							["criticalamount"] = 154083,
 							["id"] = 42833,
-							["criticalmin"] = 8659,
+							["amount"] = 234755,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 221815,
@@ -7965,14 +7949,14 @@ SkadaStorageDB = {
 									["amount"] = 12940,
 								},
 							},
-							["criticalmax"] = 13541,
-							["critical"] = 14,
 							["casts"] = 28,
 							["count"] = 27,
+							["criticalmax"] = 13541,
+							["hitmax"] = 7341,
 							["hit"] = 13,
 							["school"] = 4,
 							["resisted"] = 10849,
-							["amount"] = 234755,
+							["critical"] = 14,
 							["hitamount"] = 80672,
 						},
 						["Pyroblast (DoT)"] = {
@@ -7986,8 +7970,8 @@ SkadaStorageDB = {
 									["amount"] = 1958,
 								},
 							},
-							["hitmax"] = 897,
 							["count"] = 14,
+							["hitmax"] = 897,
 							["hit"] = 14,
 							["school"] = 4,
 							["resisted"] = 379,
@@ -8004,14 +7988,14 @@ SkadaStorageDB = {
 									["amount"] = 11533,
 								},
 							},
+							["amount"] = 11533,
+							["hitmax"] = 465,
 							["criticalmax"] = 694,
 							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 24,
 							["hit"] = 22,
 							["school"] = 16,
-							["hitmax"] = 465,
-							["amount"] = 11533,
+							["count"] = 24,
+							["casts"] = 1,
 							["hitamount"] = 10150,
 						},
 						["Fire Blast (Mirror Image)"] = {
@@ -8022,9 +8006,9 @@ SkadaStorageDB = {
 									["amount"] = 1102,
 								},
 							},
-							["hitmax"] = 316,
-							["casts"] = 1,
 							["count"] = 4,
+							["casts"] = 1,
+							["hitmax"] = 316,
 							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 55,
@@ -8032,37 +8016,37 @@ SkadaStorageDB = {
 							["hitamount"] = 1102,
 						},
 						["Living Bomb"] = {
-							["hit"] = 2,
-							["hitmax"] = 2364,
+							["count"] = 7,
+							["criticalmax"] = 4811,
 							["hitmin"] = 1875,
 							["criticalamount"] = 20609,
 							["id"] = 55362,
-							["count"] = 7,
+							["critical"] = 5,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 11933,
 								},
 								["Frozen Orb"] = {
-									["overkill"] = 1337,
 									["amount"] = 12915,
+									["overkill"] = 1337,
 								},
 							},
 							["overkill"] = 1337,
-							["criticalmin"] = 3406,
-							["casts"] = 3,
-							["critical"] = 5,
 							["amount"] = 24848,
+							["casts"] = 3,
+							["hitmax"] = 2364,
+							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 2272,
-							["criticalmax"] = 4811,
+							["criticalmin"] = 3406,
 							["hitamount"] = 4239,
 						},
 						["Pyroblast"] = {
-							["hitmax"] = 7459,
+							["criticalmin"] = 7819,
 							["hitmin"] = 6453,
 							["criticalamount"] = 54863,
 							["id"] = 42891,
-							["criticalmin"] = 7819,
+							["amount"] = 68775,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 40602,
@@ -8071,14 +8055,14 @@ SkadaStorageDB = {
 									["amount"] = 28173,
 								},
 							},
-							["criticalmax"] = 14325,
-							["critical"] = 5,
 							["casts"] = 8,
 							["count"] = 7,
+							["criticalmax"] = 14325,
+							["hitmax"] = 7459,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 2671,
-							["amount"] = 68775,
+							["critical"] = 5,
 							["hitamount"] = 13912,
 						},
 						["Ignite (DoT)"] = {
@@ -8092,8 +8076,8 @@ SkadaStorageDB = {
 									["amount"] = 9565,
 								},
 							},
-							["hitmax"] = 10737,
 							["count"] = 25,
+							["hitmax"] = 10737,
 							["hit"] = 25,
 							["school"] = 4,
 							["resisted"] = 7379,
@@ -8104,38 +8088,21 @@ SkadaStorageDB = {
 							["hitmin"] = 1004,
 							["criticalamount"] = 16153,
 							["id"] = 55360,
-							["hitmax"] = 1134,
+							["criticalmin"] = 1825,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 20446,
 								},
 							},
-							["criticalmin"] = 1825,
-							["critical"] = 8,
-							["criticalmax"] = 2371,
+							["amount"] = 20446,
 							["count"] = 12,
+							["criticalmax"] = 2371,
+							["hitmax"] = 1134,
 							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 525,
-							["amount"] = 20446,
+							["critical"] = 8,
 							["hitamount"] = 4293,
-						},
-						["Pendulum of Telluric Currents"] = {
-							["criticalamount"] = 4124,
-							["id"] = 60483,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 4124,
-								},
-							},
-							["criticalmin"] = 1868,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 4124,
-							["school"] = 32,
-							["resisted"] = 771,
-							["criticalmax"] = 2256,
-							["count"] = 2,
 						},
 						["Scorch"] = {
 							["criticalamount"] = 18822,
@@ -8148,14 +8115,31 @@ SkadaStorageDB = {
 									["amount"] = 3446,
 								},
 							},
-							["criticalmin"] = 3047,
+							["count"] = 5,
 							["casts"] = 6,
 							["critical"] = 5,
 							["amount"] = 18822,
 							["school"] = 4,
 							["resisted"] = 720,
 							["criticalmax"] = 4281,
-							["count"] = 5,
+							["criticalmin"] = 3047,
+						},
+						["Pendulum of Telluric Currents"] = {
+							["criticalamount"] = 4124,
+							["id"] = 60483,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 4124,
+								},
+							},
+							["count"] = 2,
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 4124,
+							["school"] = 32,
+							["resisted"] = 771,
+							["criticalmax"] = 2256,
+							["criticalmin"] = 1868,
 						},
 					},
 					["damagetaken"] = 17224,
@@ -8166,32 +8150,31 @@ SkadaStorageDB = {
 							["total"] = 32975,
 							["hitmin"] = 4662,
 							["id"] = 72096,
-							["amount"] = 17224,
-							["hitmax"] = 12562,
+							["count"] = 3,
+							["hit"] = 2,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 32975,
 									["amount"] = 17224,
+									["total"] = 32975,
 								},
 							},
-							["count"] = 3,
-							["ABSORB"] = 1,
+							["hitmax"] = 12562,
+							["amount"] = 17224,
 							["school"] = 16,
 							["resisted"] = 8474,
-							["hit"] = 2,
+							["ABSORB"] = 1,
 							["hitamount"] = 17224,
 						},
 					},
-					["overkill"] = 1337,
 					["name"] = "Quewyn",
-					["totaldamage"] = 477550,
-					["class"] = "MAGE",
+					["role"] = "DAMAGER",
 					["manaspells"] = {
 						[29077] = 4499,
 						[67545] = 1625,
 						[44450] = -639,
 					},
-					["role"] = "DAMAGER",
+					["class"] = "MAGE",
+					["overkill"] = 1337,
 				}, -- [10]
 				{
 					["last"] = 8662.374,
@@ -8204,21 +8187,21 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[52000] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 19,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[16237] = {
@@ -8244,9 +8227,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[1719] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[70809] = {
@@ -8262,9 +8245,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[18499] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[57663] = {
@@ -8273,15 +8256,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[67695] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[12721] = {
@@ -8291,28 +8274,22 @@ SkadaStorageDB = {
 							["refresh"] = 54,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 2,
 									["refresh"] = 52,
+									["count"] = 2,
 									["uptime"] = 85,
 								},
 								["Frozen Orb"] = {
-									["count"] = 3,
 									["refresh"] = 2,
+									["count"] = 3,
 									["uptime"] = 8,
 								},
 							},
 							["uptime"] = 85,
 						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 1,
-						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -8332,29 +8309,34 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 2,
 									["refresh"] = 4,
+									["count"] = 2,
 									["uptime"] = 20,
 								},
 							},
 							["uptime"] = 20,
+						},
+						[58754] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
 						},
 						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[75493] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[64844] = {
 							["school"] = 2,
-							["uptime"] = 9,
-						},
-						[65014] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[70940] = {
 							["school"] = 1,
-							["uptime"] = 10,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 						[47930] = {
 							["type"] = "BUFF",
@@ -8373,29 +8355,30 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[70940] = {
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 25,
+						},
+						[63944] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 9,
-							["school"] = 1,
-							["refresh"] = 12,
-							["uptime"] = 91,
+							["refresh"] = 6,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
-						[51470] = {
+						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 1,
 						},
 						[48162] = {
 							["type"] = "BUFF",
@@ -8413,9 +8396,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 8,
 						},
 						[23885] = {
@@ -8425,56 +8408,52 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 42,
 						},
-						[63944] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 6,
 							["uptime"] = 104,
 						},
-						[46916] = {
+						[12970] = {
 							["type"] = "BUFF",
-							["count"] = 6,
+							["count"] = 9,
 							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 25,
+							["refresh"] = 12,
+							["uptime"] = 91,
 						},
 						[12292] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
-						[64844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[75493] = {
 							["school"] = 2,
-							["uptime"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 9,
 						},
-						[58754] = {
+						[65014] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 10,
 						},
 					},
+					["totaldamage"] = 545079,
 					["time"] = 93.89999999999999,
-					["overheal"] = 11165,
 					["totaldamagetaken"] = 125089,
-					["overkill"] = 3155,
 					["damage"] = 545079,
-					["rage"] = 311,
-					["sundertargets"] = {
-						["Toravon the Ice Watcher"] = 9,
-					},
+					["overheal"] = 11165,
 					["damagetaken"] = 108948,
+					["role"] = "DAMAGER",
 					["id"] = "0x07000000009C8F2F",
 					["spec"] = 72,
 					["healspells"] = {
 						[23880] = {
 							["overheal"] = 11165,
-							["max"] = 319,
 							["count"] = 51,
 							["amount"] = 5104,
-							["school"] = 1,
+							["max"] = 319,
 							["min"] = 319,
 							["targets"] = {
 								["Finalwield"] = {
@@ -8482,48 +8461,11 @@ SkadaStorageDB = {
 									["amount"] = 5104,
 								},
 							},
+							["school"] = 1,
 						},
 					},
-					["damagetakenspells"] = {
-						["Frozen Orb"] = {
-							["total"] = 88431,
-							["hitmin"] = 324,
-							["id"] = 72097,
-							["amount"] = 80726,
-							["hitmax"] = 2698,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["total"] = 88431,
-									["amount"] = 80726,
-								},
-							},
-							["count"] = 44,
-							["ABSORB"] = 3,
-							["school"] = 16,
-							["resisted"] = 27984,
-							["hit"] = 41,
-							["hitamount"] = 80726,
-						},
-						["Whiteout"] = {
-							["total"] = 36658,
-							["hitmin"] = 4132,
-							["id"] = 72096,
-							["hitmax"] = 13949,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["total"] = 36658,
-									["amount"] = 28222,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["resisted"] = 11279,
-							["amount"] = 28222,
-							["hitamount"] = 28222,
-						},
-					},
-					["sunder"] = 9,
+					["overkill"] = 3155,
+					["heal"] = 5104,
 					["ragespells"] = {
 						[2687] = 60,
 						[23690] = 10,
@@ -8531,7 +8473,9 @@ SkadaStorageDB = {
 						[58362] = 170,
 						[29131] = 30,
 					},
-					["name"] = "Finalwield",
+					["sundertargets"] = {
+						["Toravon the Ice Watcher"] = 9,
+					},
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 13568,
@@ -8548,20 +8492,20 @@ SkadaStorageDB = {
 							["criticalamount"] = 62312,
 							["id"] = 6603,
 							["glancemax"] = 1663,
-							["hitmax"] = 2041,
-							["PARRY"] = 1,
 							["critical"] = 21,
+							["PARRY"] = 1,
+							["hitmax"] = 2041,
 							["hit"] = 15,
 							["school"] = 1,
-							["count"] = 50,
 							["criticalmax"] = 4983,
+							["count"] = 50,
 							["hitamount"] = 21623,
 						},
 						["Cleave"] = {
 							["hitmin"] = 2788,
 							["criticalamount"] = 39256,
 							["id"] = 47520,
-							["hitmax"] = 2788,
+							["count"] = 8,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 27336,
@@ -8570,14 +8514,14 @@ SkadaStorageDB = {
 									["amount"] = 14708,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 1,
-							["casts"] = 5,
-							["critical"] = 7,
-							["amount"] = 42044,
-							["school"] = 1,
-							["criticalmin"] = 4375,
 							["criticalmax"] = 6672,
+							["criticalmin"] = 4375,
+							["casts"] = 5,
+							["hitmax"] = 2788,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 42044,
+							["critical"] = 7,
 							["hitamount"] = 2788,
 						},
 						["Slam"] = {
@@ -8590,79 +8534,79 @@ SkadaStorageDB = {
 									["amount"] = 21207,
 								},
 							},
+							["amount"] = 21207,
+							["hitmax"] = 2968,
 							["criticalmax"] = 5370,
 							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 6,
 							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 2968,
-							["amount"] = 21207,
+							["count"] = 6,
+							["casts"] = 1,
 							["hitamount"] = 10590,
 						},
 						["Whirlwind"] = {
-							["criticalmax"] = 6629,
+							["criticalmin"] = 2900,
 							["hitmin"] = 1263,
 							["criticalamount"] = 55260,
 							["id"] = 1680,
-							["criticalmin"] = 2900,
+							["amount"] = 86951,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 65977,
 								},
 								["Frozen Orb"] = {
-									["overkill"] = 3155,
 									["amount"] = 20974,
+									["overkill"] = 3155,
 								},
 							},
 							["overkill"] = 3155,
+							["hitmax"] = 3304,
+							["criticalmax"] = 6629,
 							["critical"] = 12,
-							["casts"] = 10,
-							["count"] = 28,
 							["hit"] = 16,
 							["school"] = 1,
-							["hitmax"] = 3304,
-							["amount"] = 86951,
+							["count"] = 28,
+							["casts"] = 10,
 							["hitamount"] = 31691,
 						},
 						["Bloodthirst"] = {
 							["hitmin"] = 2694,
 							["criticalamount"] = 54248,
 							["id"] = 23881,
-							["hitmax"] = 4332,
+							["count"] = 18,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 89909,
 								},
 							},
-							["count"] = 18,
-							["hit"] = 11,
-							["casts"] = 18,
-							["critical"] = 7,
-							["amount"] = 89909,
-							["school"] = 1,
-							["criticalmin"] = 6120,
 							["criticalmax"] = 9650,
+							["criticalmin"] = 6120,
+							["casts"] = 18,
+							["hitmax"] = 4332,
+							["hit"] = 11,
+							["school"] = 1,
+							["amount"] = 89909,
+							["critical"] = 7,
 							["hitamount"] = 35661,
 						},
 						["Execute"] = {
 							["hitmin"] = 2724,
 							["criticalamount"] = 6383,
 							["id"] = 20647,
-							["hitmax"] = 2724,
+							["count"] = 2,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 9107,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 9107,
-							["school"] = 1,
-							["criticalmin"] = 6383,
 							["criticalmax"] = 6383,
+							["criticalmin"] = 6383,
+							["casts"] = 1,
+							["hitmax"] = 2724,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 9107,
+							["critical"] = 1,
 							["hitamount"] = 2724,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -8703,26 +8647,65 @@ SkadaStorageDB = {
 							["hitmin"] = 2064,
 							["criticalamount"] = 100570,
 							["id"] = 47450,
-							["hitmax"] = 3137,
+							["count"] = 31,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 135386,
 								},
 							},
-							["count"] = 31,
-							["hit"] = 14,
-							["casts"] = 31,
-							["critical"] = 17,
-							["amount"] = 135386,
-							["school"] = 1,
-							["criticalmin"] = 4613,
 							["criticalmax"] = 7240,
+							["criticalmin"] = 4613,
+							["casts"] = 31,
+							["hitmax"] = 3137,
+							["hit"] = 14,
+							["school"] = 1,
+							["amount"] = 135386,
+							["critical"] = 17,
 							["hitamount"] = 34816,
 						},
 					},
-					["heal"] = 5104,
-					["totaldamage"] = 545079,
-					["role"] = "DAMAGER",
+					["name"] = "Finalwield",
+					["sunder"] = 9,
+					["damagetakenspells"] = {
+						["Whiteout"] = {
+							["total"] = 36658,
+							["hitmin"] = 4132,
+							["id"] = 72096,
+							["count"] = 3,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 28222,
+									["total"] = 36658,
+								},
+							},
+							["hitmax"] = 13949,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 11279,
+							["amount"] = 28222,
+							["hitamount"] = 28222,
+						},
+						["Frozen Orb"] = {
+							["total"] = 88431,
+							["hitmin"] = 324,
+							["id"] = 72097,
+							["count"] = 44,
+							["hit"] = 41,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 80726,
+									["total"] = 88431,
+								},
+							},
+							["hitmax"] = 2698,
+							["amount"] = 80726,
+							["school"] = 16,
+							["resisted"] = 27984,
+							["ABSORB"] = 3,
+							["hitamount"] = 80726,
+						},
+					},
+					["rage"] = 311,
 				}, -- [11]
 				{
 					["last"] = 8662.394,
@@ -8740,9 +8723,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[52000] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 23,
 						},
 						[53138] = {
@@ -8751,15 +8734,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 14,
 						},
 						[16237] = {
@@ -8796,54 +8779,16 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 20,
 						},
-						[75493] = {
+						[1719] = {
 							["type"] = "BUFF",
-							["count"] = 2,
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[64844] = {
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 8,
-						},
-						[55775] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 30,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 11,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 30,
-						},
-						[14202] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 24,
-						},
-						[57663] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 2,
-							["refresh"] = 9,
-							["uptime"] = 99,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 1,
 						},
 						[12970] = {
 							["type"] = "BUFF",
@@ -8852,28 +8797,76 @@ SkadaStorageDB = {
 							["refresh"] = 22,
 							["uptime"] = 102,
 						},
-						[15359] = {
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[57663] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[55775] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 20,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 64,
-							["uptime"] = 40,
-						},
-						[71491] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
-						[32182] = {
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["refresh"] = 9,
+							["uptime"] = 99,
+						},
+						[71491] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 89,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["refresh"] = 85,
+									["count"] = 1,
+									["uptime"] = 93,
+								},
+								["Frozen Orb"] = {
+									["refresh"] = 4,
+									["count"] = 3,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 93,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 40,
+						},
+						[14202] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 24,
+						},
+						[32182] = {
 							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -8887,34 +8880,34 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 20,
 						},
-						[55610] = {
+						[46916] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 28,
+							["count"] = 11,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 30,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 5,
-							["school"] = 1,
 							["uptime"] = 50,
+						},
+						[53908] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[71905] = {
 							["type"] = "BUFF",
@@ -8933,28 +8926,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[53908] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[48170] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 11,
 						},
 						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48162] = {
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
@@ -8969,78 +8963,65 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 89,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
-									["refresh"] = 85,
-									["uptime"] = 93,
-								},
-								["Frozen Orb"] = {
-									["count"] = 3,
-									["refresh"] = 4,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 93,
-						},
-						[23885] = {
-							["type"] = "BUFF",
-							["count"] = 19,
-							["school"] = 1,
-							["uptime"] = 43,
-						},
-						[54758] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
-						},
-						[12292] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 30,
-						},
-						[64844] = {
+						[48068] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
-							["uptime"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 28,
 						},
-						[1719] = {
+						[23885] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 19,
+							["uptime"] = 43,
+						},
+						[54758] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 12,
+						},
+						[15359] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+						[12292] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[75493] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 8,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
 						},
 					},
+					["totaldamage"] = 1338722,
 					["time"] = 93.89000000000002,
-					["heal"] = 6840,
 					["totaldamagetaken"] = 105624,
-					["overkill"] = 755,
 					["damage"] = 1338722,
 					["rage"] = 296,
-					["overheal"] = 13320,
 					["damagetaken"] = 95994,
+					["role"] = "DAMAGER",
 					["id"] = "0x0700000000008A44",
 					["spec"] = 72,
 					["healspells"] = {
 						[23880] = {
 							["overheal"] = 13320,
-							["max"] = 360,
 							["count"] = 56,
 							["amount"] = 6840,
-							["school"] = 1,
+							["max"] = 360,
 							["min"] = 360,
 							["targets"] = {
 								["Alexzandra"] = {
@@ -9048,55 +9029,16 @@ SkadaStorageDB = {
 									["amount"] = 6840,
 								},
 							},
+							["school"] = 1,
 						},
 					},
-					["damagetakenspells"] = {
-						["Frozen Orb"] = {
-							["hitmin"] = 1369,
-							["id"] = 72097,
-							["amount"] = 70457,
-							["hitmax"] = 2418,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["amount"] = 70457,
-								},
-							},
-							["count"] = 38,
-							["hit"] = 37,
-							["school"] = 16,
-							["resisted"] = 28027,
-							["MISS"] = 1,
-							["hitamount"] = 70457,
-						},
-						["Whiteout"] = {
-							["total"] = 35167,
-							["hitmin"] = 1230,
-							["id"] = 72096,
-							["hitmax"] = 14180,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["total"] = 35167,
-									["amount"] = 25537,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["resisted"] = 12537,
-							["amount"] = 25537,
-							["hitamount"] = 25537,
-						},
-					},
+					["overkill"] = 755,
 					["potionspells"] = {
 						[40211] = 1,
 					},
-					["ragespells"] = {
-						[29131] = 14,
-						[58362] = 240,
-						[2687] = 20,
-						[12964] = 22,
-					},
+					["heal"] = 6840,
 					["name"] = "Alexzandra",
+					["potion"] = 1,
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 19986,
@@ -9133,9 +9075,9 @@ SkadaStorageDB = {
 									["amount"] = 2639,
 								},
 							},
-							["hitmax"] = 2260,
-							["casts"] = 1,
 							["count"] = 10,
+							["casts"] = 1,
+							["hitmax"] = 2260,
 							["hit"] = 10,
 							["school"] = 32,
 							["resisted"] = 877,
@@ -9146,29 +9088,29 @@ SkadaStorageDB = {
 							["hitmin"] = 4022,
 							["criticalamount"] = 55591,
 							["id"] = 50783,
-							["hitmax"] = 4695,
+							["count"] = 12,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 87279,
 								},
 							},
-							["count"] = 12,
-							["hit"] = 7,
-							["casts"] = 1,
-							["critical"] = 5,
-							["amount"] = 87279,
-							["school"] = 1,
-							["criticalmin"] = 9360,
 							["criticalmax"] = 13317,
+							["criticalmin"] = 9360,
+							["casts"] = 1,
+							["hitmax"] = 4695,
+							["hit"] = 7,
+							["school"] = 1,
+							["amount"] = 87279,
+							["critical"] = 5,
 							["hitamount"] = 31688,
 						},
 						["Whirlwind"] = {
-							["blocked"] = 41,
-							["PARRY"] = 2,
+							["count"] = 24,
+							["criticalmax"] = 14618,
 							["hitmin"] = 2693,
 							["criticalamount"] = 189013,
 							["id"] = 1680,
-							["hitmax"] = 5021,
+							["criticalmin"] = 6133,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 158922,
@@ -9177,14 +9119,14 @@ SkadaStorageDB = {
 									["amount"] = 40646,
 								},
 							},
-							["count"] = 24,
-							["hit"] = 3,
-							["casts"] = 10,
 							["critical"] = 19,
 							["amount"] = 199568,
+							["PARRY"] = 2,
+							["hitmax"] = 5021,
+							["blocked"] = 41,
 							["school"] = 1,
-							["criticalmin"] = 6133,
-							["criticalmax"] = 14618,
+							["casts"] = 10,
+							["hit"] = 3,
 							["hitamount"] = 10555,
 						},
 						["Intercept"] = {
@@ -9207,64 +9149,61 @@ SkadaStorageDB = {
 							["hitmin"] = 5245,
 							["criticalamount"] = 158353,
 							["id"] = 23881,
-							["hitmax"] = 7585,
+							["count"] = 19,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 201660,
 								},
 							},
-							["count"] = 19,
-							["hit"] = 7,
-							["casts"] = 19,
-							["critical"] = 12,
-							["amount"] = 201660,
-							["school"] = 1,
-							["criticalmin"] = 11398,
 							["criticalmax"] = 17158,
+							["criticalmin"] = 11398,
+							["casts"] = 19,
+							["hitmax"] = 7585,
+							["hit"] = 7,
+							["school"] = 1,
+							["amount"] = 201660,
+							["critical"] = 12,
 							["hitamount"] = 43307,
 						},
 						["Execute"] = {
 							["hitmin"] = 4086,
 							["criticalamount"] = 27645,
 							["id"] = 20647,
-							["hitmax"] = 4110,
+							["count"] = 5,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 35841,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 2,
-							["casts"] = 1,
-							["critical"] = 3,
-							["amount"] = 35841,
-							["school"] = 1,
-							["criticalmin"] = 8955,
 							["criticalmax"] = 9407,
+							["criticalmin"] = 8955,
+							["casts"] = 1,
+							["hitmax"] = 4110,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 35841,
+							["critical"] = 3,
 							["hitamount"] = 8196,
 						},
-						["Cleave"] = {
-							["hitmin"] = 4068,
-							["criticalamount"] = 81813,
-							["id"] = 47520,
-							["criticalmin"] = 9114,
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 220,
+							["id"] = 12721,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 52043,
+									["amount"] = 152262,
 								},
 								["Frozen Orb"] = {
-									["amount"] = 52331,
+									["amount"] = 5801,
+									["overkill"] = 755,
 								},
 							},
-							["criticalmax"] = 11175,
-							["critical"] = 8,
-							["casts"] = 6,
-							["count"] = 13,
-							["hit"] = 5,
+							["overkill"] = 755,
+							["count"] = 54,
+							["hit"] = 54,
 							["school"] = 1,
-							["hitmax"] = 4808,
-							["amount"] = 104374,
-							["hitamount"] = 22561,
+							["hitmax"] = 6921,
+							["amount"] = 158063,
+							["hitamount"] = 158063,
 						},
 						["Victory Rush"] = {
 							["hitmin"] = 4082,
@@ -9282,50 +9221,94 @@ SkadaStorageDB = {
 							["amount"] = 4082,
 							["hitamount"] = 4082,
 						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 220,
-							["id"] = 12721,
+						["Cleave"] = {
+							["hitmin"] = 4068,
+							["criticalamount"] = 81813,
+							["id"] = 47520,
+							["criticalmin"] = 9114,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 152262,
+									["amount"] = 52043,
 								},
 								["Frozen Orb"] = {
-									["overkill"] = 755,
-									["amount"] = 5801,
+									["amount"] = 52331,
 								},
 							},
-							["overkill"] = 755,
-							["count"] = 54,
-							["hit"] = 54,
+							["amount"] = 104374,
+							["hitmax"] = 4808,
+							["criticalmax"] = 11175,
+							["critical"] = 8,
+							["hit"] = 5,
 							["school"] = 1,
-							["hitmax"] = 6921,
-							["amount"] = 158063,
-							["hitamount"] = 158063,
+							["count"] = 13,
+							["casts"] = 6,
+							["hitamount"] = 22561,
 						},
 						["Heroic Strike"] = {
 							["hitmin"] = 4018,
 							["criticalamount"] = 259785,
 							["id"] = 47450,
-							["hitmax"] = 5885,
+							["count"] = 40,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 332108,
 								},
 							},
-							["count"] = 40,
-							["hit"] = 16,
-							["casts"] = 40,
-							["critical"] = 24,
-							["amount"] = 332108,
-							["school"] = 1,
-							["criticalmin"] = 8912,
 							["criticalmax"] = 13011,
+							["criticalmin"] = 8912,
+							["casts"] = 40,
+							["hitmax"] = 5885,
+							["hit"] = 16,
+							["school"] = 1,
+							["amount"] = 332108,
+							["critical"] = 24,
 							["hitamount"] = 72323,
 						},
 					},
-					["potion"] = 1,
-					["totaldamage"] = 1338722,
-					["role"] = "DAMAGER",
+					["ragespells"] = {
+						[29131] = 14,
+						[58362] = 240,
+						[12964] = 22,
+						[2687] = 20,
+					},
+					["damagetakenspells"] = {
+						["Whiteout"] = {
+							["total"] = 35167,
+							["hitmin"] = 1230,
+							["id"] = 72096,
+							["count"] = 3,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 25537,
+									["total"] = 35167,
+								},
+							},
+							["hitmax"] = 14180,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 12537,
+							["amount"] = 25537,
+							["hitamount"] = 25537,
+						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1369,
+							["id"] = 72097,
+							["count"] = 38,
+							["hit"] = 37,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 70457,
+								},
+							},
+							["hitmax"] = 2418,
+							["amount"] = 70457,
+							["school"] = 16,
+							["resisted"] = 28027,
+							["MISS"] = 1,
+							["hitamount"] = 70457,
+						},
+					},
+					["overheal"] = 13320,
 				}, -- [12]
 				{
 					["last"] = 8666.732,
@@ -9350,9 +9333,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[71584] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[32223] = {
@@ -9371,9 +9354,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[57960] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 83,
 						},
 						[19506] = {
@@ -9397,9 +9380,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -9413,9 +9396,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[55610] = {
@@ -9440,16 +9423,15 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["uptime"] = 61,
 						},
-						[15359] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
+							["uptime"] = 104,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 37,
 						},
 						[51470] = {
@@ -9458,9 +9440,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[75490] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[25898] = {
@@ -9473,47 +9455,49 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[63944] = {
+						[70806] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
+							["count"] = 5,
+							["uptime"] = 11,
 						},
-						[55637] = {
+						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 30,
+							["uptime"] = 104,
 						},
 						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 104,
-						},
-						[70806] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[75493] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[55637] = {
 							["school"] = 2,
-							["uptime"] = 10,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 30,
 						},
-						[58754] = {
+						[63944] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["refresh"] = 6,
+						},
+						[75493] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 10,
+						},
+						[15359] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 83.46999999999997,
 					["totaldamagetaken"] = 41082,
 					["overheal"] = 730389,
@@ -9546,13 +9530,13 @@ SkadaStorageDB = {
 									["overheal"] = 15896,
 									["amount"] = 37244,
 								},
-								["Abyzu"] = {
-									["overheal"] = 17373,
-									["amount"] = 3599,
-								},
 								["Ypopti"] = {
 									["overheal"] = 0,
 									["amount"] = 19723,
+								},
+								["Vaginismus"] = {
+									["overheal"] = 42767,
+									["amount"] = 1764,
 								},
 								["Insurance"] = {
 									["overheal"] = 19031,
@@ -9562,21 +9546,21 @@ SkadaStorageDB = {
 									["overheal"] = 16535,
 									["amount"] = 2041,
 								},
-								["Vaginismus"] = {
-									["overheal"] = 42767,
-									["amount"] = 1764,
+								["Magijabebo"] = {
+									["overheal"] = 16818,
+									["amount"] = 20206,
 								},
 								["Ebonmoo"] = {
 									["overheal"] = 149408,
 									["amount"] = 25537,
 								},
-								["Magijabebo"] = {
-									["overheal"] = 16818,
-									["amount"] = 20206,
-								},
 								["Inarya"] = {
 									["overheal"] = 19691,
 									["amount"] = 15312,
+								},
+								["Abyzu"] = {
+									["overheal"] = 17373,
+									["amount"] = 3599,
 								},
 								["Alexzandra"] = {
 									["overheal"] = 5742,
@@ -9603,21 +9587,21 @@ SkadaStorageDB = {
 									["amount"] = 1253,
 								},
 							},
-							["criticalmax"] = 11012,
 							["min"] = 5,
-							["casts"] = 44,
+							["criticalmax"] = 11012,
 							["count"] = 94,
 							["amount"] = 286643,
 							["school"] = 8,
-							["criticalmin"] = 0,
 							["critical"] = 42,
+							["criticalmin"] = 0,
+							["casts"] = 44,
 						},
 						[52752] = {
 							["overheal"] = 16149,
 							["count"] = 9,
 							["amount"] = 7754,
 							["school"] = 8,
-							["max"] = 3001,
+							["min"] = 1826,
 							["targets"] = {
 								["Inarya"] = {
 									["overheal"] = 0,
@@ -9627,6 +9611,10 @@ SkadaStorageDB = {
 									["overheal"] = 3097,
 									["amount"] = 1826,
 								},
+								["Ebonmoo"] = {
+									["overheal"] = 5909,
+									["amount"] = 0,
+								},
 								["Vaginismus"] = {
 									["overheal"] = 7143,
 									["amount"] = 0,
@@ -9635,12 +9623,8 @@ SkadaStorageDB = {
 									["overheal"] = 0,
 									["amount"] = 3001,
 								},
-								["Ebonmoo"] = {
-									["overheal"] = 5909,
-									["amount"] = 0,
-								},
 							},
-							["min"] = 1826,
+							["max"] = 3001,
 						},
 						[61301] = {
 							["overheal"] = 25431,
@@ -9652,23 +9636,17 @@ SkadaStorageDB = {
 									["amount"] = 6807,
 								},
 							},
-							["criticalmin"] = 0,
 							["min"] = 1208,
 							["criticalmax"] = 4373,
 							["critical"] = 3,
 							["amount"] = 6807,
 							["school"] = 8,
-							["casts"] = 5,
 							["count"] = 11,
+							["casts"] = 5,
+							["criticalmin"] = 0,
 						},
 						[52000] = {
 							["overheal"] = 54451,
-							["max"] = 1101,
-							["count"] = 74,
-							["amount"] = 18454,
-							["school"] = 8,
-							["min"] = 97,
-							["ishot"] = true,
 							["targets"] = {
 								["Someway"] = {
 									["overheal"] = 3908,
@@ -9706,24 +9684,24 @@ SkadaStorageDB = {
 									["overheal"] = 3286,
 									["amount"] = 486,
 								},
-								["Abyzu"] = {
-									["overheal"] = 2928,
-									["amount"] = 977,
-								},
 								["Rasalgull"] = {
 									["overheal"] = 3842,
 									["amount"] = 3974,
 								},
+								["Abyzu"] = {
+									["overheal"] = 2928,
+									["amount"] = 977,
+								},
 							},
+							["count"] = 74,
+							["amount"] = 18454,
+							["max"] = 1101,
+							["min"] = 97,
+							["ishot"] = true,
+							["school"] = 8,
 						},
 						[70809] = {
 							["overheal"] = 74394,
-							["max"] = 5106,
-							["count"] = 91,
-							["amount"] = 26630,
-							["school"] = 8,
-							["min"] = 19,
-							["ishot"] = true,
 							["targets"] = {
 								["Rasalgull"] = {
 									["overheal"] = 3156,
@@ -9733,9 +9711,9 @@ SkadaStorageDB = {
 									["overheal"] = 5424,
 									["amount"] = 1703,
 								},
-								["Ypopti"] = {
-									["overheal"] = 3051,
-									["amount"] = 0,
+								["Vaginismus"] = {
+									["overheal"] = 10077,
+									["amount"] = 1257,
 								},
 								["Insurance"] = {
 									["overheal"] = 5752,
@@ -9781,20 +9759,39 @@ SkadaStorageDB = {
 									["overheal"] = 3586,
 									["amount"] = 0,
 								},
-								["Vaginismus"] = {
-									["overheal"] = 10077,
-									["amount"] = 1257,
+								["Ypopti"] = {
+									["overheal"] = 3051,
+									["amount"] = 0,
 								},
 							},
+							["count"] = 91,
+							["amount"] = 26630,
+							["max"] = 5106,
+							["min"] = 19,
+							["ishot"] = true,
+							["school"] = 8,
+						},
+						[49276] = {
+							["overheal"] = 50684,
+							["criticalamount"] = 13242,
+							["max"] = 4064,
+							["targets"] = {
+								["Ebonmoo"] = {
+									["overheal"] = 50684,
+									["amount"] = 13242,
+								},
+							},
+							["min"] = 125,
+							["criticalmax"] = 4064,
+							["count"] = 7,
+							["amount"] = 13242,
+							["school"] = 8,
+							["critical"] = 6,
+							["criticalmin"] = 125,
+							["casts"] = 7,
 						},
 						[75493] = {
 							["overheal"] = 69618,
-							["max"] = 436,
-							["count"] = 209,
-							["amount"] = 17115,
-							["school"] = 2,
-							["min"] = 62,
-							["ishot"] = true,
 							["targets"] = {
 								["Someway"] = {
 									["overheal"] = 4150,
@@ -9808,22 +9805,6 @@ SkadaStorageDB = {
 									["overheal"] = 2906,
 									["amount"] = 830,
 								},
-								["Rotstealer"] = {
-									["overheal"] = 4153,
-									["amount"] = 0,
-								},
-								["Abyzu"] = {
-									["overheal"] = 3209,
-									["amount"] = 942,
-								},
-								["Vaginismus"] = {
-									["overheal"] = 3737,
-									["amount"] = 1662,
-								},
-								["Rasalgull"] = {
-									["overheal"] = 1245,
-									["amount"] = 2906,
-								},
 								["Ypopti"] = {
 									["overheal"] = 2076,
 									["amount"] = 1661,
@@ -9832,13 +9813,29 @@ SkadaStorageDB = {
 									["overheal"] = 3052,
 									["amount"] = 1308,
 								},
-								["Insurance"] = {
-									["overheal"] = 1565,
-									["amount"] = 1958,
-								},
 								["Magijabebo"] = {
 									["overheal"] = 4154,
 									["amount"] = 0,
+								},
+								["Rasalgull"] = {
+									["overheal"] = 1245,
+									["amount"] = 2906,
+								},
+								["Vaginismus"] = {
+									["overheal"] = 3737,
+									["amount"] = 1662,
+								},
+								["Deftonez"] = {
+									["overheal"] = 3132,
+									["amount"] = 783,
+								},
+								["Inarya"] = {
+									["overheal"] = 4150,
+									["amount"] = 0,
+								},
+								["Insurance"] = {
+									["overheal"] = 1565,
+									["amount"] = 1958,
 								},
 								["Paopaozhu"] = {
 									["overheal"] = 2490,
@@ -9852,13 +9849,13 @@ SkadaStorageDB = {
 									["overheal"] = 4981,
 									["amount"] = 415,
 								},
-								["Deftonez"] = {
-									["overheal"] = 3132,
-									["amount"] = 783,
-								},
-								["Inarya"] = {
-									["overheal"] = 4150,
+								["Rotstealer"] = {
+									["overheal"] = 4153,
 									["amount"] = 0,
+								},
+								["Abyzu"] = {
+									["overheal"] = 3209,
+									["amount"] = 942,
 								},
 								["Alexzandra"] = {
 									["overheal"] = 1661,
@@ -9885,6 +9882,12 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
+							["count"] = 209,
+							["amount"] = 17115,
+							["max"] = 436,
+							["min"] = 62,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 						[379] = {
 							["overheal"] = 4341,
@@ -9901,73 +9904,53 @@ SkadaStorageDB = {
 							["count"] = 8,
 							["amount"] = 30448,
 							["school"] = 8,
-							["criticalmin"] = 4723,
 							["critical"] = 4,
-						},
-						[49276] = {
-							["overheal"] = 50684,
-							["criticalamount"] = 13242,
-							["max"] = 4064,
-							["targets"] = {
-								["Ebonmoo"] = {
-									["overheal"] = 50684,
-									["amount"] = 13242,
-								},
-							},
-							["criticalmax"] = 4064,
-							["min"] = 125,
-							["casts"] = 7,
-							["count"] = 7,
-							["amount"] = 13242,
-							["school"] = 8,
-							["criticalmin"] = 125,
-							["critical"] = 6,
+							["criticalmin"] = 4723,
 						},
 					},
 					["damagetakenspells"] = {
-						["Freezing Ground"] = {
-							["hitmin"] = 3553,
-							["id"] = 72104,
-							["hitmax"] = 4136,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 7689,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["resisted"] = 3402,
-							["amount"] = 7689,
-							["hitamount"] = 7689,
-						},
 						["Whiteout"] = {
 							["total"] = 33393,
 							["hitmin"] = 1533,
 							["id"] = 72096,
-							["hitmax"] = 4451,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 33393,
 									["amount"] = 9847,
+									["total"] = 33393,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 4451,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 12139,
 							["amount"] = 9847,
 							["hitamount"] = 9847,
 						},
+						["Freezing Ground"] = {
+							["hitmin"] = 3553,
+							["id"] = 72104,
+							["count"] = 2,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 7689,
+								},
+							},
+							["hitmax"] = 4136,
+							["hit"] = 2,
+							["school"] = 16,
+							["resisted"] = 3402,
+							["amount"] = 7689,
+							["hitamount"] = 7689,
+						},
 					},
 					["heal"] = 407093,
 					["name"] = "Nafoo",
+					["mana"] = 13992,
 					["manaspells"] = {
 						[57961] = 12792,
 						[55382] = 1200,
 					},
-					["mana"] = 13992,
-					["role"] = "HEALER",
 				}, -- [13]
 				{
 					["last"] = 8662.959000000001,
@@ -9986,35 +9969,35 @@ SkadaStorageDB = {
 							["refresh"] = 19,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 2,
 									["refresh"] = 19,
+									["count"] = 2,
 									["uptime"] = 84,
 								},
 							},
 							["uptime"] = 84,
 						},
 						[71556] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[1742] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 18,
 						},
 						[16237] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[49065] = {
@@ -10049,15 +10032,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[3045] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[34026] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 60,
 						},
 						[19506] = {
@@ -10070,16 +10053,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[35099] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 104,
 						},
-						[56654] = {
+						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[57669] = {
@@ -10087,39 +10069,38 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["uptime"] = 81,
 						},
-						[61685] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["uptime"] = 16,
-						},
-						[62305] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 104,
+						},
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 12,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[54216] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[32182] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 40,
-						},
-						[43002] = {
+						[48938] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
+						},
+						[32182] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 40,
+						},
+						[54216] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
 						},
 						[48170] = {
 							["type"] = "BUFF",
@@ -10127,103 +10108,10 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 6,
-						},
-						[53476] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[61847] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[70809] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 18,
-						},
-						[53220] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[49001] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 8,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
-									["refresh"] = 8,
-									["uptime"] = 93,
-								},
-							},
-							["uptime"] = 93,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[53480] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 24,
-						},
-						[70893] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 48,
-						},
-						[59658] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 50,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 19,
 						},
 						[49050] = {
 							["type"] = "DEBUFF",
@@ -10237,60 +10125,156 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 77,
 						},
-						[48938] = {
+						[61847] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 12,
-							["uptime"] = 104,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[75493] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[15359] = {
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 19,
+						},
+						[53220] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 5,
+						},
+						[49001] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 8,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["refresh"] = 8,
+									["count"] = 1,
+									["uptime"] = 93,
+								},
+							},
+							["uptime"] = 93,
+						},
+						[53476] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[53480] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 24,
+						},
+						[70893] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 48,
+						},
+						[59658] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 50,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[70809] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 18,
+						},
+						[43002] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[62305] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[61685] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 16,
+						},
+						[56654] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[58754] = {
+						[35099] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 9,
 						},
 					},
 					["energyspells"] = {
 						[34952] = 1825,
 					},
+					["totaldamage"] = 568679,
 					["time"] = 94.45999999999998,
 					["totaldamagetaken"] = 34492,
 					["damage"] = 568679,
 					["damagespells"] = {
 						["Chimera Shot"] = {
-							["criticalmin"] = 8287,
-							["hitmin"] = 2907,
 							["criticalamount"] = 38612,
+							["hitmin"] = 2907,
+							["criticalmin"] = 8287,
 							["id"] = 53209,
-							["criticalmax"] = 11484,
+							["amount"] = 52485,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 52485,
 								},
 							},
-							["critical"] = 4,
-							["hitmax"] = 4940,
 							["casts"] = 9,
 							["count"] = 8,
+							["criticalmax"] = 11484,
+							["critical"] = 4,
 							["hit"] = 4,
 							["school"] = 8,
 							["resisted"] = 6623,
-							["amount"] = 52485,
+							["hitmax"] = 4940,
 							["hitamount"] = 13873,
 						},
 						["Serpent Sting (DoT)"] = {
@@ -10303,14 +10287,14 @@ SkadaStorageDB = {
 									["amount"] = 32933,
 								},
 							},
-							["hitmax"] = 869,
-							["critical"] = 10,
-							["criticalmax"] = 2000,
+							["amount"] = 32933,
 							["count"] = 30,
+							["criticalmax"] = 2000,
+							["hitmax"] = 869,
 							["hit"] = 20,
 							["school"] = 8,
 							["resisted"] = 1522,
-							["amount"] = 32933,
+							["critical"] = 10,
 							["hitamount"] = 15079,
 						},
 						["Auto Shot"] = {
@@ -10323,14 +10307,14 @@ SkadaStorageDB = {
 									["amount"] = 129212,
 								},
 							},
+							["amount"] = 129212,
+							["hitmax"] = 2421,
 							["criticalmax"] = 5198,
 							["critical"] = 17,
-							["casts"] = 1,
-							["count"] = 39,
 							["hit"] = 22,
 							["school"] = 1,
-							["hitmax"] = 2421,
-							["amount"] = 129212,
+							["count"] = 39,
+							["casts"] = 1,
 							["hitamount"] = 50222,
 						},
 						["Claw (Crab)"] = {
@@ -10343,35 +10327,35 @@ SkadaStorageDB = {
 									["amount"] = 21193,
 								},
 							},
+							["amount"] = 21193,
+							["hitmax"] = 638,
 							["criticalmax"] = 1304,
 							["critical"] = 6,
-							["casts"] = 1,
-							["count"] = 48,
 							["hit"] = 42,
 							["school"] = 1,
-							["hitmax"] = 638,
-							["amount"] = 21193,
+							["count"] = 48,
+							["casts"] = 1,
 							["hitamount"] = 16083,
 						},
 						["Arcane Shot"] = {
-							["criticalmin"] = 3732,
-							["hitmin"] = 1511,
 							["criticalamount"] = 18150,
+							["hitmin"] = 1511,
+							["criticalmin"] = 3732,
 							["id"] = 49045,
-							["criticalmax"] = 5222,
+							["amount"] = 30446,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 30446,
 								},
 							},
-							["critical"] = 4,
-							["hitmax"] = 1945,
 							["casts"] = 11,
 							["count"] = 11,
+							["criticalmax"] = 5222,
+							["critical"] = 4,
 							["hit"] = 7,
 							["school"] = 64,
 							["resisted"] = 2311,
-							["amount"] = 30446,
+							["hitmax"] = 1945,
 							["hitamount"] = 12296,
 						},
 						["Explosive Trap Effect"] = {
@@ -10382,9 +10366,9 @@ SkadaStorageDB = {
 									["amount"] = 2912,
 								},
 							},
-							["hitmax"] = 1571,
-							["casts"] = 1,
 							["count"] = 2,
+							["casts"] = 1,
+							["hitmax"] = 1571,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 149,
@@ -10401,14 +10385,14 @@ SkadaStorageDB = {
 									["amount"] = 43295,
 								},
 							},
+							["amount"] = 43295,
+							["hitmax"] = 2884,
 							["criticalmax"] = 7452,
 							["critical"] = 5,
-							["casts"] = 8,
-							["count"] = 8,
 							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 2884,
-							["amount"] = 43295,
+							["count"] = 8,
+							["casts"] = 8,
 							["hitamount"] = 8533,
 						},
 						["Charge (Crab)"] = {
@@ -10440,26 +10424,26 @@ SkadaStorageDB = {
 							["hitamount"] = 40850,
 						},
 						["Wild Quiver Auto Shot"] = {
-							["hit"] = 1,
-							["hitmax"] = 2432,
+							["count"] = 6,
+							["criticalmax"] = 5408,
 							["hitmin"] = 2432,
 							["criticalamount"] = 24037,
 							["id"] = 53254,
-							["count"] = 6,
+							["critical"] = 5,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["overkill"] = 4477,
 									["amount"] = 26469,
+									["overkill"] = 4477,
 								},
 							},
 							["overkill"] = 4477,
-							["criticalmin"] = 4133,
-							["casts"] = 1,
-							["critical"] = 5,
 							["amount"] = 26469,
+							["casts"] = 1,
+							["hitmax"] = 2432,
+							["hit"] = 1,
 							["school"] = 8,
 							["resisted"] = 1817,
-							["criticalmax"] = 5408,
+							["criticalmin"] = 4133,
 							["hitamount"] = 2432,
 						},
 						["Melee"] = {
@@ -10471,22 +10455,22 @@ SkadaStorageDB = {
 									["amount"] = 6532,
 								},
 							},
-							["hitmax"] = 1736,
 							["count"] = 2,
+							["criticalmin"] = 4796,
 							["criticalmax"] = 4796,
-							["critical"] = 1,
+							["hitmax"] = 1736,
 							["amount"] = 6532,
 							["school"] = 1,
 							["hit"] = 1,
-							["criticalmin"] = 4796,
+							["critical"] = 1,
 							["hitamount"] = 1736,
 						},
 						["Thunderstomp (Crab)"] = {
-							["criticalmin"] = 1233,
-							["hitmin"] = 450,
 							["criticalamount"] = 1233,
+							["hitmin"] = 450,
+							["criticalmin"] = 1233,
 							["id"] = 63900,
-							["criticalmax"] = 1233,
+							["amount"] = 8438,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 5964,
@@ -10495,34 +10479,34 @@ SkadaStorageDB = {
 									["amount"] = 2474,
 								},
 							},
-							["critical"] = 1,
-							["hitmax"] = 772,
 							["casts"] = 1,
 							["count"] = 13,
+							["criticalmax"] = 1233,
+							["critical"] = 1,
 							["hit"] = 12,
 							["school"] = 8,
 							["resisted"] = 689,
-							["amount"] = 8438,
+							["hitmax"] = 772,
 							["hitamount"] = 7205,
 						},
 						["Steady Shot"] = {
 							["hitmin"] = 1955,
 							["criticalamount"] = 59389,
 							["id"] = 49052,
-							["hitmax"] = 2244,
+							["count"] = 18,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 71912,
 								},
 							},
-							["count"] = 18,
-							["hit"] = 6,
-							["casts"] = 17,
-							["critical"] = 12,
-							["amount"] = 71912,
-							["school"] = 1,
-							["criticalmin"] = 4238,
 							["criticalmax"] = 5280,
+							["criticalmin"] = 4238,
+							["casts"] = 17,
+							["hitmax"] = 2244,
+							["hit"] = 6,
+							["school"] = 1,
+							["amount"] = 71912,
+							["critical"] = 12,
 							["hitamount"] = 12523,
 						},
 						["Kill Shot"] = {
@@ -10541,28 +10525,26 @@ SkadaStorageDB = {
 							["amount"] = 13347,
 							["hitamount"] = 13347,
 						},
-						["Explosive Trap Effect (DoT)"] = {
-							["hitmin"] = 676,
-							["criticalamount"] = 19811,
-							["id"] = 49065,
-							["hitmax"] = 1119,
+						["Chimera Shot - Serpent"] = {
+							["count"] = 8,
+							["hitmin"] = 2016,
+							["criticalamount"] = 13287,
+							["id"] = 53353,
+							["criticalmax"] = 5000,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 26626,
-								},
-								["Frozen Orb"] = {
-									["amount"] = 3802,
+									["amount"] = 24402,
 								},
 							},
-							["count"] = 24,
-							["hit"] = 11,
-							["criticalmax"] = 1679,
-							["critical"] = 13,
-							["amount"] = 30428,
-							["school"] = 4,
-							["resisted"] = 2136,
-							["criticalmin"] = 1014,
-							["hitamount"] = 10617,
+							["critical"] = 3,
+							["amount"] = 24402,
+							["casts"] = 1,
+							["hitmax"] = 2502,
+							["hit"] = 5,
+							["school"] = 8,
+							["resisted"] = 1965,
+							["criticalmin"] = 3983,
+							["hitamount"] = 11115,
 						},
 						["Melee (Crab)"] = {
 							["glance"] = 5602,
@@ -10579,14 +10561,14 @@ SkadaStorageDB = {
 							["criticalamount"] = 8384,
 							["id"] = 6603,
 							["glancemax"] = 384,
-							["blocked"] = 41,
-							["PARRY"] = 1,
 							["criticalmax"] = 976,
+							["critical"] = 10,
+							["PARRY"] = 1,
 							["count"] = 78,
-							["hit"] = 49,
+							["blocked"] = 41,
 							["school"] = 1,
 							["hitmax"] = 482,
-							["critical"] = 10,
+							["hit"] = 49,
 							["hitamount"] = 19839,
 						},
 						["Pin (Crab)"] = {
@@ -10602,77 +10584,78 @@ SkadaStorageDB = {
 							},
 							["id"] = 53548,
 						},
-						["Chimera Shot - Serpent"] = {
-							["hitmax"] = 2502,
-							["hitmin"] = 2016,
-							["criticalamount"] = 13287,
-							["id"] = 53353,
-							["count"] = 8,
+						["Explosive Trap Effect (DoT)"] = {
+							["hitmin"] = 676,
+							["criticalamount"] = 19811,
+							["id"] = 49065,
+							["count"] = 24,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 24402,
+									["amount"] = 26626,
+								},
+								["Frozen Orb"] = {
+									["amount"] = 3802,
 								},
 							},
-							["hit"] = 5,
-							["criticalmin"] = 3983,
-							["casts"] = 1,
-							["critical"] = 3,
-							["amount"] = 24402,
-							["school"] = 8,
-							["resisted"] = 1965,
-							["criticalmax"] = 5000,
-							["hitamount"] = 11115,
+							["criticalmin"] = 1014,
+							["amount"] = 30428,
+							["criticalmax"] = 1679,
+							["hitmax"] = 1119,
+							["hit"] = 11,
+							["school"] = 4,
+							["resisted"] = 2136,
+							["critical"] = 13,
+							["hitamount"] = 10617,
 						},
 					},
 					["damagetaken"] = 26787,
 					["id"] = "0x07000000009D1361",
 					["spec"] = 254,
 					["damagetakenspells"] = {
-						["Frozen Orb"] = {
-							["hitmin"] = 2208,
-							["id"] = 72097,
-							["hitmax"] = 2208,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["amount"] = 2208,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["resisted"] = 552,
-							["amount"] = 2208,
-							["hitamount"] = 2208,
-						},
 						["Whiteout"] = {
 							["total"] = 32284,
 							["hitmin"] = 5495,
 							["id"] = 72096,
-							["hitmax"] = 10322,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 32284,
 									["amount"] = 24579,
+									["total"] = 32284,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 10322,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 11477,
 							["amount"] = 24579,
 							["hitamount"] = 24579,
 						},
+						["Frozen Orb"] = {
+							["hitmin"] = 2208,
+							["id"] = 72097,
+							["count"] = 1,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 2208,
+								},
+							},
+							["hitmax"] = 2208,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 552,
+							["amount"] = 2208,
+							["hitamount"] = 2208,
+						},
 					},
 					["manaspells"] = {
 						[64180] = 1395,
 						[58883] = 417,
 					},
-					["overkill"] = 4477,
+					["role"] = "DAMAGER",
 					["name"] = "Paopaozhu",
 					["mana"] = 1812,
-					["totaldamage"] = 568679,
 					["energy"] = 1825,
-					["role"] = "DAMAGER",
+					["overkill"] = 4477,
 				}, -- [14]
 				{
 					["last"] = 8662.866,
@@ -10685,45 +10668,45 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[52000] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 12,
 						},
 						[26669] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[57934] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[13750] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[32223] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 103,
 						},
 						[48945] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
 						[2895] = {
@@ -10748,8 +10731,8 @@ SkadaStorageDB = {
 							["refresh"] = 53,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 53,
+									["count"] = 1,
 									["uptime"] = 90,
 								},
 							},
@@ -10761,39 +10744,32 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
-						[75493] = {
+						[51470] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 8,
+							["count"] = 1,
+							["uptime"] = 104,
 						},
 						[59628] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[58683] = {
-							["type"] = "DEBUFF",
-							["count"] = 48,
-							["school"] = 1,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 20,
-									["count"] = 48,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[32182] = {
+						[64844] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[32182] = {
 							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 40,
 						},
 						[48672] = {
@@ -10814,15 +10790,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 2,
 						},
 						[55610] = {
@@ -10830,17 +10806,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[31224] = {
+						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 104,
 						},
-						[51690] = {
+						[11305] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 15,
 						},
 						[47930] = {
 							["type"] = "BUFF",
@@ -10850,28 +10825,22 @@ SkadaStorageDB = {
 							["uptime"] = 16,
 						},
 						[54043] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 102,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 102,
 						},
-						[8647] = {
-							["type"] = "DEBUFF",
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 30,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 30,
+							["refresh"] = 6,
 						},
 						[6774] = {
 							["type"] = "BUFF",
@@ -10881,9 +10850,9 @@ SkadaStorageDB = {
 							["uptime"] = 89,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 33,
 						},
 						[47753] = {
@@ -10904,10 +10873,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[60233] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
 						},
 						[15359] = {
 							["type"] = "BUFF",
@@ -10916,43 +10890,53 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 31,
 						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
-						},
-						[11305] = {
-							["type"] = "BUFF",
+						[8647] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 15,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 30,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 30,
 						},
-						[48074] = {
+						[51690] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 2,
 						},
-						[64844] = {
+						[31224] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[75493] = {
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
 							["uptime"] = 8,
 						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 48,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 20,
+									["count"] = 48,
+								},
+							},
+							["uptime"] = 20,
 						},
 					},
 					["energyspells"] = {
 						[35548] = 285,
 					},
+					["totaldamage"] = 567063,
 					["time"] = 93.49,
 					["totaldamagetaken"] = 78034,
 					["damage"] = 567063,
@@ -11004,76 +10988,111 @@ SkadaStorageDB = {
 									["amount"] = 100065,
 								},
 							},
+							["amount"] = 100065,
+							["hitmax"] = 1935,
 							["criticalmax"] = 4943,
 							["critical"] = 14,
-							["casts"] = 35,
-							["count"] = 35,
 							["hit"] = 21,
 							["school"] = 1,
-							["hitmax"] = 1935,
-							["amount"] = 100065,
+							["count"] = 35,
+							["casts"] = 35,
 							["hitamount"] = 36798,
 						},
 						["Killing Spree"] = {
 							["hitmin"] = 640,
 							["criticalamount"] = 20120,
 							["id"] = 57841,
-							["hitmax"] = 685,
+							["count"] = 10,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 22106,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 3,
-							["casts"] = 1,
-							["critical"] = 7,
-							["amount"] = 22106,
-							["school"] = 1,
-							["criticalmin"] = 1466,
 							["criticalmax"] = 3573,
+							["criticalmin"] = 1466,
+							["casts"] = 1,
+							["hitmax"] = 685,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 22106,
+							["critical"] = 7,
 							["hitamount"] = 1986,
 						},
 						["Eviscerate"] = {
 							["hitmin"] = 2816,
 							["criticalamount"] = 13413,
 							["id"] = 48668,
-							["hitmax"] = 2816,
+							["count"] = 3,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 16229,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 16229,
-							["school"] = 1,
-							["criticalmin"] = 6432,
 							["criticalmax"] = 6981,
+							["criticalmin"] = 6432,
+							["casts"] = 3,
+							["hitmax"] = 2816,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 16229,
+							["critical"] = 2,
 							["hitamount"] = 2816,
 						},
 						["Instant Poison IX"] = {
-							["criticalmin"] = 1639,
-							["hitmin"] = 828,
 							["criticalamount"] = 57930,
+							["hitmin"] = 828,
+							["criticalmin"] = 1639,
 							["id"] = 57965,
-							["criticalmax"] = 2401,
+							["amount"] = 145196,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 145196,
 								},
 							},
-							["critical"] = 29,
-							["hitmax"] = 1406,
 							["casts"] = 1,
 							["count"] = 107,
+							["criticalmax"] = 2401,
+							["critical"] = 29,
 							["hit"] = 78,
 							["school"] = 8,
 							["resisted"] = 9142,
-							["amount"] = 145196,
+							["hitmax"] = 1406,
 							["hitamount"] = 87266,
+						},
+						["Rupture (DoT)"] = {
+							["hitmin"] = 608,
+							["criticalamount"] = 5839,
+							["id"] = 48672,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 8272,
+								},
+							},
+							["count"] = 8,
+							["criticalmin"] = 1459,
+							["criticalmax"] = 1460,
+							["hitmax"] = 609,
+							["amount"] = 8272,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 4,
+							["hitamount"] = 2433,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 570,
+							["id"] = 57970,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 40224,
+								},
+							},
+							["count"] = 29,
+							["hitmax"] = 1844,
+							["hit"] = 29,
+							["school"] = 8,
+							["resisted"] = 3217,
+							["amount"] = 40224,
+							["hitamount"] = 40224,
 						},
 						["Shiv"] = {
 							["hitmin"] = 528,
@@ -11091,87 +11110,51 @@ SkadaStorageDB = {
 							["amount"] = 528,
 							["hitamount"] = 528,
 						},
-						["Deadly Poison IX (DoT)"] = {
-							["hitmin"] = 570,
-							["id"] = 57970,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 40224,
-								},
-							},
-							["hitmax"] = 1844,
-							["count"] = 29,
-							["hit"] = 29,
-							["school"] = 8,
-							["resisted"] = 3217,
-							["amount"] = 40224,
-							["hitamount"] = 40224,
-						},
-						["Rupture (DoT)"] = {
-							["hitmin"] = 608,
-							["criticalamount"] = 5839,
-							["id"] = 48672,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 8272,
-								},
-							},
-							["hitmax"] = 609,
-							["count"] = 8,
-							["criticalmax"] = 1460,
-							["critical"] = 4,
-							["amount"] = 8272,
-							["school"] = 1,
-							["hit"] = 4,
-							["criticalmin"] = 1459,
-							["hitamount"] = 2433,
-						},
 					},
 					["damagetaken"] = 58237,
 					["id"] = "0x07000000009DEBE6",
 					["spec"] = 260,
 					["damagetakenspells"] = {
-						["Frozen Orb"] = {
-							["total"] = 47810,
-							["hitmin"] = 112,
-							["id"] = 72097,
-							["hit"] = 22,
-							["amount"] = 35718,
-							["hitmax"] = 2052,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["total"] = 47810,
-									["amount"] = 35718,
-								},
-							},
-							["count"] = 36,
-							["ABSORB"] = 6,
-							["school"] = 16,
-							["resisted"] = 14507,
-							["MISS"] = 8,
-							["hitamount"] = 35718,
-						},
 						["Whiteout"] = {
 							["total"] = 30224,
 							["hitmin"] = 2967,
 							["id"] = 72096,
-							["hitmax"] = 10372,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 30224,
 									["amount"] = 22519,
+									["total"] = 30224,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 10372,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 11380,
 							["amount"] = 22519,
 							["hitamount"] = 22519,
 						},
+						["Frozen Orb"] = {
+							["total"] = 47810,
+							["hitmin"] = 112,
+							["id"] = 72097,
+							["amount"] = 35718,
+							["count"] = 36,
+							["ABSORB"] = 6,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 35718,
+									["total"] = 47810,
+								},
+							},
+							["hitmax"] = 2052,
+							["hit"] = 22,
+							["school"] = 16,
+							["resisted"] = 14507,
+							["MISS"] = 8,
+							["hitamount"] = 35718,
+						},
 					},
 					["name"] = "Abyzu",
-					["totaldamage"] = 567063,
 					["energy"] = 285,
 					["role"] = "DAMAGER",
 				}, -- [15]
@@ -11186,9 +11169,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 6,
-							["school"] = 1,
 							["uptime"] = 61,
 						},
 						[48470] = {
@@ -11197,9 +11180,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[52000] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 12,
 						},
 						[20053] = {
@@ -11216,22 +11199,22 @@ SkadaStorageDB = {
 							["refresh"] = 18,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 5,
 									["refresh"] = 14,
+									["count"] = 5,
 									["uptime"] = 82,
 								},
 								["Frozen Orb"] = {
-									["count"] = 4,
 									["refresh"] = 4,
+									["count"] = 4,
 									["uptime"] = 17,
 								},
 							},
 							["uptime"] = 82,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[59578] = {
@@ -11276,9 +11259,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[21084] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 101,
 						},
 						[57663] = {
@@ -11287,9 +11270,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[59620] = {
@@ -11305,21 +11288,20 @@ SkadaStorageDB = {
 							["uptime"] = 79,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 64,
 							["uptime"] = 40,
 						},
-						[75493] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
-						[32182] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[32182] = {
 							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -11333,15 +11315,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 14,
 						},
 						[55610] = {
@@ -11349,23 +11331,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
+						[64844] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
 						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 7,
 							["school"] = 1,
 							["refresh"] = 37,
 							["uptime"] = 36,
-						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
-						},
-						[48938] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
 						},
 						[54043] = {
 							["type"] = "BUFF",
@@ -11377,45 +11360,52 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
 							["school"] = 2,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 12,
+									["count"] = 6,
+								},
+							},
 							["uptime"] = 12,
 						},
-						[31884] = {
+						[71432] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 20,
+							["count"] = 19,
+							["school"] = 1,
+							["refresh"] = 71,
+							["uptime"] = 97,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 24,
 						},
-						[51470] = {
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
-						},
-						[70809] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 25,
 						},
 						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48074] = {
+						[31884] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 20,
 						},
 						[48819] = {
 							["type"] = "DEBUFF",
@@ -11433,48 +11423,42 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 32,
 						},
-						[48162] = {
+						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[71432] = {
+						[70809] = {
 							["type"] = "BUFF",
-							["count"] = 19,
-							["refresh"] = 71,
-							["school"] = 1,
-							["uptime"] = 97,
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 25,
 						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[75493] = {
 							["school"] = 2,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 12,
-									["count"] = 6,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[63944] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
+							["count"] = 2,
+							["uptime"] = 9,
 						},
-						[64844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[15359] = {
 							["school"] = 2,
-							["uptime"] = 8,
-						},
-						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 15,
 						},
 					},
+					["totaldamage"] = 911599,
 					["time"] = 94.27,
 					["totaldamagetaken"] = 109416,
 					["damage"] = 911599,
@@ -11485,6 +11469,11 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 101256,
+							["min"] = 77,
+							["count"] = 205,
+							["amount"] = 11670,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mirror Image"] = {
 									["overheal"] = 264,
@@ -11494,44 +11483,24 @@ SkadaStorageDB = {
 									["overheal"] = 2820,
 									["amount"] = 1127,
 								},
-								["Magijabebo"] = {
-									["overheal"] = 2209,
-									["amount"] = 0,
-								},
-								["Army of the Dead Ghoul"] = {
-									["overheal"] = 3043,
-									["amount"] = 77,
-								},
-								["Crab"] = {
-									["overheal"] = 5370,
-									["amount"] = 0,
-								},
-								["Vktr"] = {
-									["overheal"] = 7030,
-									["amount"] = 1278,
-								},
-								["Merrian"] = {
-									["overheal"] = 554,
-									["amount"] = 0,
-								},
-								["Inarya"] = {
-									["overheal"] = 1742,
-									["amount"] = 0,
-								},
-								["Iceburner"] = {
-									["overheal"] = 9202,
-									["amount"] = 2316,
-								},
-								["Ebon Gargoyle"] = {
-									["overheal"] = 994,
-									["amount"] = 497,
+								["Deftonez"] = {
+									["overheal"] = 12537,
+									["amount"] = 625,
 								},
 								["Ypopti"] = {
 									["overheal"] = 9617,
 									["amount"] = 0,
 								},
-								["Cnpal"] = {
-									["overheal"] = 552,
+								["Karshash"] = {
+									["overheal"] = 3140,
+									["amount"] = 1048,
+								},
+								["Vktr"] = {
+									["overheal"] = 7030,
+									["amount"] = 1278,
+								},
+								["Shadowfiend"] = {
+									["overheal"] = 372,
 									["amount"] = 0,
 								},
 								["Rasalgull"] = {
@@ -11540,6 +11509,26 @@ SkadaStorageDB = {
 								},
 								["Insurance"] = {
 									["overheal"] = 3040,
+									["amount"] = 0,
+								},
+								["Ebon Gargoyle"] = {
+									["overheal"] = 994,
+									["amount"] = 497,
+								},
+								["Iceburner"] = {
+									["overheal"] = 9202,
+									["amount"] = 2316,
+								},
+								["Abyzu"] = {
+									["overheal"] = 6594,
+									["amount"] = 988,
+								},
+								["Rotstealer"] = {
+									["overheal"] = 4979,
+									["amount"] = 125,
+								},
+								["Magijabebo"] = {
+									["overheal"] = 2209,
 									["amount"] = 0,
 								},
 								["Paopaozhu"] = {
@@ -11554,13 +11543,13 @@ SkadaStorageDB = {
 									["overheal"] = 4537,
 									["amount"] = 907,
 								},
-								["Rotstealer"] = {
-									["overheal"] = 4979,
-									["amount"] = 125,
+								["Army of the Dead Ghoul"] = {
+									["overheal"] = 3043,
+									["amount"] = 77,
 								},
-								["Abyzu"] = {
-									["overheal"] = 6594,
-									["amount"] = 988,
+								["Inarya"] = {
+									["overheal"] = 1742,
+									["amount"] = 0,
 								},
 								["Alexzandra"] = {
 									["overheal"] = 8395,
@@ -11570,32 +11559,32 @@ SkadaStorageDB = {
 									["overheal"] = 6097,
 									["amount"] = 0,
 								},
-								["Shadowfiend"] = {
-									["overheal"] = 372,
+								["Cnpal"] = {
+									["overheal"] = 552,
 									["amount"] = 0,
 								},
-								["Karshash"] = {
-									["overheal"] = 3140,
-									["amount"] = 1048,
+								["Merrian"] = {
+									["overheal"] = 554,
+									["amount"] = 0,
 								},
 								["Quewyn"] = {
 									["overheal"] = 1405,
 									["amount"] = 0,
 								},
-								["Deftonez"] = {
-									["overheal"] = 12537,
-									["amount"] = 625,
+								["Crab"] = {
+									["overheal"] = 5370,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 205,
-							["amount"] = 11670,
-							["school"] = 2,
 							["max"] = 907,
-							["ishot"] = true,
-							["min"] = 77,
 						},
 						[54172] = {
 							["overheal"] = 7482,
+							["min"] = 340,
+							["count"] = 7,
+							["amount"] = 33142,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Ypopti"] = {
 									["overheal"] = 1159,
@@ -11622,58 +11611,52 @@ SkadaStorageDB = {
 									["amount"] = 1959,
 								},
 							},
-							["count"] = 7,
-							["amount"] = 33142,
-							["school"] = 2,
 							["max"] = 12259,
-							["ishot"] = true,
-							["min"] = 340,
 						},
 					},
 					["damagetakenspells"] = {
-						["Frozen Orb"] = {
-							["hitmin"] = 1192,
-							["id"] = 72097,
-							["amount"] = 76348,
-							["hitmax"] = 2436,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["amount"] = 76348,
-								},
-							},
-							["count"] = 47,
-							["hit"] = 45,
-							["school"] = 16,
-							["resisted"] = 30200,
-							["MISS"] = 2,
-							["hitamount"] = 76348,
-						},
 						["Whiteout"] = {
 							["total"] = 33068,
 							["hitmin"] = 2311,
 							["id"] = 72096,
-							["hitmax"] = 8661,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 33068,
 									["amount"] = 17658,
+									["total"] = 33068,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 8661,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 9601,
 							["amount"] = 17658,
 							["hitamount"] = 17658,
 						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1192,
+							["id"] = 72097,
+							["count"] = 47,
+							["hit"] = 45,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 76348,
+								},
+							},
+							["hitmax"] = 2436,
+							["amount"] = 76348,
+							["school"] = 16,
+							["resisted"] = 30200,
+							["MISS"] = 2,
+							["hitamount"] = 76348,
+						},
 					},
+					["heal"] = 44812,
 					["manaspells"] = {
 						[31930] = 6588,
 						[57669] = 3949,
 					},
-					["heal"] = 44812,
-					["name"] = "Iceburner",
-					["mana"] = 10537,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
 							["hitmin"] = 596,
@@ -11686,9 +11669,9 @@ SkadaStorageDB = {
 									["amount"] = 21309,
 								},
 							},
-							["hitmax"] = 1020,
-							["casts"] = 4,
 							["count"] = 59,
+							["casts"] = 4,
+							["hitmax"] = 1020,
 							["hit"] = 59,
 							["school"] = 2,
 							["resisted"] = 3486,
@@ -11703,21 +11686,21 @@ SkadaStorageDB = {
 									["amount"] = 6388,
 								},
 							},
-							["criticalmin"] = 6388,
+							["count"] = 1,
 							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 6388,
 							["school"] = 2,
 							["resisted"] = 709,
 							["criticalmax"] = 6388,
-							["count"] = 1,
+							["criticalmin"] = 6388,
 						},
 						["Divine Storm"] = {
-							["criticalmax"] = 11226,
+							["count"] = 27,
 							["hitmin"] = 3873,
 							["criticalamount"] = 149291,
 							["id"] = 53385,
-							["hitmax"] = 5067,
+							["casts"] = 17,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 115054,
@@ -11726,13 +11709,13 @@ SkadaStorageDB = {
 									["amount"] = 73715,
 								},
 							},
-							["count"] = 27,
-							["hit"] = 9,
-							["casts"] = 17,
-							["critical"] = 17,
-							["amount"] = 188769,
-							["school"] = 1,
 							["criticalmin"] = 6915,
+							["amount"] = 188769,
+							["criticalmax"] = 11226,
+							["hitmax"] = 5067,
+							["hit"] = 9,
+							["school"] = 1,
+							["critical"] = 17,
 							["MISS"] = 1,
 							["hitamount"] = 39478,
 						},
@@ -11747,9 +11730,9 @@ SkadaStorageDB = {
 									["amount"] = 4221,
 								},
 							},
-							["hitmax"] = 2493,
-							["casts"] = 1,
 							["count"] = 12,
+							["casts"] = 1,
+							["hitmax"] = 2493,
 							["hit"] = 12,
 							["school"] = 32,
 							["resisted"] = 362,
@@ -11769,14 +11752,14 @@ SkadaStorageDB = {
 									["amount"] = 1639,
 								},
 							},
+							["amount"] = 50603,
+							["hitmax"] = 2156,
 							["criticalmax"] = 4262,
 							["critical"] = 9,
-							["casts"] = 1,
-							["count"] = 18,
 							["hit"] = 9,
 							["school"] = 1,
-							["hitmax"] = 2156,
-							["amount"] = 50603,
+							["count"] = 18,
+							["casts"] = 1,
 							["hitamount"] = 16216,
 						},
 						["Hammer of Wrath"] = {
@@ -11791,9 +11774,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 8991,
 							["school"] = 2,
-							["criticalmin"] = 8991,
-							["criticalmax"] = 8991,
 							["count"] = 1,
+							["criticalmax"] = 8991,
+							["criticalmin"] = 8991,
 						},
 						["Melee"] = {
 							["glance"] = 27299,
@@ -11830,9 +11813,9 @@ SkadaStorageDB = {
 									["amount"] = 20581,
 								},
 							},
-							["hitmax"] = 2646,
-							["casts"] = 1,
 							["count"] = 98,
+							["casts"] = 1,
+							["hitmax"] = 2646,
 							["hit"] = 98,
 							["school"] = 2,
 							["resisted"] = 11925,
@@ -11849,14 +11832,14 @@ SkadaStorageDB = {
 									["amount"] = 49252,
 								},
 							},
+							["amount"] = 49252,
+							["hitmax"] = 3997,
 							["criticalmax"] = 7059,
 							["critical"] = 5,
-							["casts"] = 10,
-							["count"] = 10,
 							["hit"] = 5,
 							["school"] = 1,
-							["hitmax"] = 3997,
-							["amount"] = 49252,
+							["count"] = 10,
+							["casts"] = 10,
 							["hitamount"] = 16026,
 						},
 						["Righteous Vengeance (DoT)"] = {
@@ -11870,8 +11853,8 @@ SkadaStorageDB = {
 									["amount"] = 8206,
 								},
 							},
-							["hitmax"] = 2322,
 							["count"] = 45,
+							["hitmax"] = 2322,
 							["hit"] = 45,
 							["school"] = 2,
 							["resisted"] = 3930,
@@ -11879,29 +11862,29 @@ SkadaStorageDB = {
 							["hitamount"] = 52855,
 						},
 						["Judgement of Righteousness"] = {
-							["criticalmin"] = 9986,
-							["hitmin"] = 6480,
 							["criticalamount"] = 60672,
+							["hitmin"] = 6480,
+							["criticalmin"] = 9986,
 							["id"] = 20187,
-							["hitmax"] = 6480,
+							["criticalmax"] = 13975,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 67152,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 5,
 							["amount"] = 67152,
+							["casts"] = 1,
+							["hitmax"] = 6480,
+							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 663,
-							["criticalmax"] = 13975,
+							["count"] = 6,
 							["hitamount"] = 6480,
 						},
 					},
-					["totaldamage"] = 911599,
-					["role"] = "DAMAGER",
+					["mana"] = 10537,
+					["name"] = "Iceburner",
 				}, -- [16]
 				{
 					["last"] = 8661.487000000001,
@@ -11931,9 +11914,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[10060] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48108] = {
@@ -11944,15 +11927,15 @@ SkadaStorageDB = {
 							["uptime"] = 18,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[16237] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[22959] = {
@@ -11962,8 +11945,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 58,
 								},
 							},
@@ -11976,8 +11959,8 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 3,
 									["refresh"] = 7,
+									["count"] = 3,
 									["uptime"] = 74,
 								},
 							},
@@ -11999,21 +11982,21 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70809] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 9,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[12654] = {
@@ -12023,8 +12006,8 @@ SkadaStorageDB = {
 							["refresh"] = 48,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 5,
 									["refresh"] = 48,
+									["count"] = 5,
 									["uptime"] = 88,
 								},
 								["Frozen Orb"] = {
@@ -12040,9 +12023,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[57669] = {
@@ -12051,9 +12034,9 @@ SkadaStorageDB = {
 							["uptime"] = 89,
 						},
 						[55342] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[48162] = {
@@ -12062,9 +12045,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -12078,9 +12061,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[55610] = {
@@ -12100,11 +12083,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 72,
 						},
-						[75493] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 6,
+							["uptime"] = 104,
 						},
 						[48938] = {
 							["type"] = "BUFF",
@@ -12121,34 +12103,34 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 12,
-						},
-						[52000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 12,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 39,
-						},
-						[51470] = {
+						[43046] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[12536] = {
+						[70747] = {
+							["school"] = 32,
 							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 64,
-							["uptime"] = 5,
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 39,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
 						},
 						[25898] = {
 							["type"] = "BUFF",
@@ -12161,10 +12143,16 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 30,
+						},
+						[53476] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[70753] = {
 							["type"] = "BUFF",
@@ -12173,58 +12161,54 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["uptime"] = 52,
 						},
-						[53476] = {
+						[12536] = {
+							["school"] = 64,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["count"] = 4,
+							["uptime"] = 5,
 						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
-						},
-						[70747] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 30,
-						},
-						[43046] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[58754] = {
+						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 6,
+						},
+						[52000] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
 						},
 					},
+					["totaldamage"] = 1041816,
 					["time"] = 92.99000000000001,
 					["totaldamagetaken"] = 46426,
 					["damage"] = 1041816,
 					["damagespells"] = {
 						["Fireball"] = {
-							["criticalmin"] = 11224,
-							["hitmin"] = 7045,
 							["criticalamount"] = 380584,
+							["hitmin"] = 7045,
+							["criticalmin"] = 11224,
 							["id"] = 42833,
-							["hitmax"] = 14794,
+							["criticalmax"] = 31229,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 482989,
 								},
 							},
-							["count"] = 33,
-							["hit"] = 11,
-							["casts"] = 34,
 							["critical"] = 22,
 							["amount"] = 482989,
+							["casts"] = 34,
+							["hitmax"] = 14794,
+							["hit"] = 11,
 							["school"] = 4,
 							["resisted"] = 36038,
-							["criticalmax"] = 31229,
+							["count"] = 33,
 							["hitamount"] = 102405,
 						},
 						["Pyroblast (DoT)"] = {
@@ -12235,8 +12219,8 @@ SkadaStorageDB = {
 									["amount"] = 26462,
 								},
 							},
-							["hitmax"] = 2087,
 							["count"] = 21,
+							["hitmax"] = 2087,
 							["hit"] = 21,
 							["school"] = 4,
 							["resisted"] = 1210,
@@ -12253,35 +12237,35 @@ SkadaStorageDB = {
 									["amount"] = 18586,
 								},
 							},
+							["amount"] = 18586,
+							["hitmax"] = 728,
 							["criticalmax"] = 1090,
 							["critical"] = 4,
-							["casts"] = 1,
-							["count"] = 24,
 							["hit"] = 20,
 							["school"] = 16,
-							["hitmax"] = 728,
-							["amount"] = 18586,
+							["count"] = 24,
+							["casts"] = 1,
 							["hitamount"] = 14243,
 						},
 						["Fire Blast (Mirror Image)"] = {
-							["criticalmin"] = 859,
-							["hitmin"] = 386,
 							["criticalamount"] = 1720,
+							["hitmin"] = 386,
+							["criticalmin"] = 859,
 							["id"] = 59637,
-							["hitmax"] = 439,
+							["criticalmax"] = 861,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 3372,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 4,
-							["casts"] = 1,
 							["critical"] = 2,
 							["amount"] = 3372,
+							["casts"] = 1,
+							["hitmax"] = 439,
+							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 85,
-							["criticalmax"] = 861,
+							["count"] = 6,
 							["hitamount"] = 1652,
 						},
 						["Living Bomb"] = {
@@ -12295,34 +12279,34 @@ SkadaStorageDB = {
 									["amount"] = 18751,
 								},
 							},
-							["criticalmin"] = 4137,
+							["count"] = 9,
 							["casts"] = 6,
 							["critical"] = 9,
 							["amount"] = 51543,
 							["school"] = 4,
 							["resisted"] = 2215,
 							["criticalmax"] = 10848,
-							["count"] = 9,
+							["criticalmin"] = 4137,
 						},
 						["Pyroblast"] = {
-							["criticalmin"] = 14137,
-							["hitmin"] = 8482,
 							["criticalamount"] = 113007,
+							["hitmin"] = 8482,
+							["criticalmin"] = 14137,
 							["id"] = 42891,
-							["hitmax"] = 12659,
+							["criticalmax"] = 29532,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 153090,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 4,
-							["casts"] = 13,
 							["critical"] = 6,
 							["amount"] = 153090,
+							["casts"] = 13,
+							["hitmax"] = 12659,
+							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 9535,
-							["criticalmax"] = 29532,
+							["count"] = 10,
 							["hitamount"] = 40083,
 						},
 						["Ignite (DoT)"] = {
@@ -12336,8 +12320,8 @@ SkadaStorageDB = {
 									["amount"] = 6861,
 								},
 							},
-							["hitmax"] = 23246,
 							["count"] = 28,
+							["hitmax"] = 23246,
 							["hit"] = 28,
 							["school"] = 4,
 							["resisted"] = 18766,
@@ -12348,21 +12332,42 @@ SkadaStorageDB = {
 							["hitmin"] = 1207,
 							["criticalamount"] = 48014,
 							["id"] = 55360,
-							["hitmax"] = 1610,
+							["count"] = 23,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 57908,
 								},
 							},
-							["count"] = 23,
-							["hit"] = 7,
-							["criticalmax"] = 4469,
-							["critical"] = 16,
+							["criticalmin"] = 1975,
 							["amount"] = 57908,
+							["criticalmax"] = 4469,
+							["hitmax"] = 1610,
+							["hit"] = 7,
 							["school"] = 4,
 							["resisted"] = 1909,
-							["criticalmin"] = 1975,
+							["critical"] = 16,
 							["hitamount"] = 9894,
+						},
+						["Scorch"] = {
+							["criticalamount"] = 14192,
+							["hitmin"] = 1849,
+							["criticalmin"] = 4224,
+							["id"] = 42859,
+							["amount"] = 16041,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 16041,
+								},
+							},
+							["casts"] = 4,
+							["count"] = 4,
+							["criticalmax"] = 5250,
+							["critical"] = 3,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 1455,
+							["hitmax"] = 1849,
+							["hitamount"] = 1849,
 						},
 						["Fire Blast"] = {
 							["hitmin"] = 3987,
@@ -12374,89 +12379,67 @@ SkadaStorageDB = {
 									["amount"] = 11202,
 								},
 							},
+							["amount"] = 11202,
+							["hitmax"] = 3987,
 							["criticalmax"] = 7215,
 							["critical"] = 1,
-							["casts"] = 2,
+							["hit"] = 1,
+							["school"] = 4,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 3987,
-							["amount"] = 11202,
+							["casts"] = 2,
 							["hitamount"] = 3987,
-						},
-						["Scorch"] = {
-							["criticalmin"] = 4224,
-							["hitmin"] = 1849,
-							["criticalamount"] = 14192,
-							["id"] = 42859,
-							["criticalmax"] = 5250,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 16041,
-								},
-							},
-							["critical"] = 3,
-							["hitmax"] = 1849,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 1455,
-							["amount"] = 16041,
-							["hitamount"] = 1849,
 						},
 					},
 					["damagetaken"] = 31016,
 					["id"] = "0x070000000093948F",
 					["spec"] = 63,
 					["damagetakenspells"] = {
-						["Freezing Ground"] = {
-							["total"] = 8917,
-							["hitmin"] = 4025,
-							["id"] = 72104,
-							["amount"] = 4025,
-							["hitmax"] = 4025,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["total"] = 8917,
-									["amount"] = 4025,
-								},
-							},
-							["count"] = 2,
-							["ABSORB"] = 1,
-							["school"] = 16,
-							["resisted"] = 2682,
-							["hit"] = 1,
-							["hitamount"] = 4025,
-						},
 						["Whiteout"] = {
 							["total"] = 37509,
 							["hitmin"] = 6577,
 							["id"] = 72096,
-							["hitmax"] = 11154,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 37509,
 									["amount"] = 26991,
+									["total"] = 37509,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 11154,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 9089,
 							["amount"] = 26991,
 							["hitamount"] = 26991,
 						},
+						["Freezing Ground"] = {
+							["total"] = 8917,
+							["hitmin"] = 4025,
+							["id"] = 72104,
+							["count"] = 2,
+							["hit"] = 1,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 4025,
+									["total"] = 8917,
+								},
+							},
+							["hitmax"] = 4025,
+							["amount"] = 4025,
+							["school"] = 16,
+							["resisted"] = 2682,
+							["ABSORB"] = 1,
+							["hitamount"] = 4025,
+						},
 					},
 					["name"] = "Karshash",
-					["totaldamage"] = 1041816,
-					["class"] = "MAGE",
+					["role"] = "DAMAGER",
 					["manaspells"] = {
 						[29077] = 4594,
 						[67545] = 1820,
 						[44450] = -944,
 					},
-					["role"] = "DAMAGER",
+					["class"] = "MAGE",
 				}, -- [17]
 				{
 					["last"] = 8662.842000000001,
@@ -12479,40 +12462,40 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[15258] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 137,
-							["uptime"] = 104,
 						},
 						[24907] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 1,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[71643] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 18,
 							["school"] = 1,
+							["refresh"] = 18,
 							["uptime"] = 40,
 						},
 						[32223] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
 						[48945] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
 						[2895] = {
@@ -12526,15 +12509,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[71644] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 40,
 						},
 						[57663] = {
@@ -12543,9 +12526,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[48156] = {
@@ -12555,17 +12538,17 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 44,
 									["refresh"] = 2,
+									["count"] = 44,
 									["uptime"] = 65,
 								},
 							},
 							["uptime"] = 65,
 						},
 						[59626] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 32,
 							["uptime"] = 30,
 						},
 						[48162] = {
@@ -12581,9 +12564,9 @@ SkadaStorageDB = {
 							["uptime"] = 91,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 102,
 						},
 						[43002] = {
@@ -12597,9 +12580,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48300] = {
@@ -12609,8 +12592,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 5,
 									["refresh"] = 2,
+									["count"] = 5,
 									["uptime"] = 82,
 								},
 							},
@@ -12621,16 +12604,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48168] = {
+						[63619] = {
+							["school"] = 64,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
+							["count"] = 3,
+							["uptime"] = 99,
 						},
-						[48066] = {
+						[57669] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 18,
+							["uptime"] = 32,
 						},
 						[48938] = {
 							["type"] = "BUFF",
@@ -12638,15 +12621,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[54043] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
 						[48125] = {
@@ -12656,29 +12639,25 @@ SkadaStorageDB = {
 							["refresh"] = 44,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 44,
+									["count"] = 1,
 									["uptime"] = 94,
 								},
 							},
 							["uptime"] = 94,
 						},
-						[57669] = {
-							["school"] = 8,
+						[63944] = {
 							["type"] = "BUFF",
-							["uptime"] = 32,
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 6,
+							["uptime"] = 104,
 						},
-						[33198] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["targets"] = {
-								["Frozen Orb"] = {
-									["uptime"] = 13,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 13,
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
 						},
 						[51470] = {
 							["type"] = "BUFF",
@@ -12686,9 +12665,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[25898] = {
@@ -12697,6 +12676,18 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[61792] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 65,
+							["uptime"] = 104,
+						},
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
@@ -12717,43 +12708,36 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 72,
 						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[61792] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 65,
-							["uptime"] = 104,
-						},
 						[15473] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 6,
-							["school"] = 2,
-							["uptime"] = 104,
+						[33198] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["targets"] = {
+								["Frozen Orb"] = {
+									["uptime"] = 13,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 13,
 						},
 						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
-						[63619] = {
+						[48168] = {
 							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 64,
-							["uptime"] = 99,
+							["count"] = 1,
+							["uptime"] = 104,
 						},
 					},
+					["totaldamage"] = 1240095,
 					["time"] = 94.36999999999998,
 					["totaldamagetaken"] = 33343,
 					["damage"] = 1240095,
@@ -12764,28 +12748,22 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 676030,
-							["max"] = 2282,
-							["count"] = 1871,
-							["amount"] = 47370,
-							["school"] = 32,
-							["min"] = 77,
-							["ishot"] = true,
 							["targets"] = {
 								["Crab"] = {
 									["overheal"] = 60782,
 									["amount"] = 2901,
 								},
-								["Mirror Image"] = {
-									["overheal"] = 137823,
-									["amount"] = 0,
-								},
-								["Shadowfiend"] = {
-									["overheal"] = 12087,
-									["amount"] = 335,
+								["Karshash"] = {
+									["overheal"] = 55730,
+									["amount"] = 7936,
 								},
 								["Magijabebo"] = {
 									["overheal"] = 57924,
 									["amount"] = 5766,
+								},
+								["Mirror Image"] = {
+									["overheal"] = 137823,
+									["amount"] = 0,
 								},
 								["Paopaozhu"] = {
 									["overheal"] = 55003,
@@ -12795,11 +12773,17 @@ SkadaStorageDB = {
 									["overheal"] = 296681,
 									["amount"] = 21757,
 								},
-								["Karshash"] = {
-									["overheal"] = 55730,
-									["amount"] = 7936,
+								["Shadowfiend"] = {
+									["overheal"] = 12087,
+									["amount"] = 335,
 								},
 							},
+							["count"] = 1871,
+							["amount"] = 47370,
+							["max"] = 2282,
+							["min"] = 77,
+							["ishot"] = true,
+							["school"] = 32,
 						},
 						[75999] = {
 							["overheal"] = 4795,
@@ -12814,12 +12798,16 @@ SkadaStorageDB = {
 							["count"] = 7,
 							["amount"] = 0,
 							["school"] = 32,
-							["criticalmin"] = 0,
 							["critical"] = 4,
+							["criticalmin"] = 0,
 						},
 						[48300] = {
 							["overheal"] = 27697,
+							["casts"] = 7,
+							["count"] = 44,
+							["amount"] = 2739,
 							["max"] = 1029,
+							["school"] = 32,
 							["targets"] = {
 								["Sortpraest"] = {
 									["overheal"] = 27697,
@@ -12827,59 +12815,54 @@ SkadaStorageDB = {
 								},
 							},
 							["min"] = 377,
-							["casts"] = 7,
-							["count"] = 44,
-							["amount"] = 2739,
-							["school"] = 32,
 						},
 					},
 					["damagetakenspells"] = {
-						["Freezing Ground"] = {
-							["total"] = 4180,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["total"] = 4180,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72104,
-						},
 						["Whiteout"] = {
 							["total"] = 29163,
 							["hitmin"] = 6590,
 							["id"] = 72096,
-							["hitmax"] = 10292,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 29163,
 									["amount"] = 25638,
+									["total"] = 29163,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 10292,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 9096,
 							["amount"] = 25638,
 							["hitamount"] = 25638,
 						},
+						["Freezing Ground"] = {
+							["total"] = 4180,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["id"] = 72104,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 0,
+									["total"] = 4180,
+								},
+							},
+						},
 					},
+					["heal"] = 50109,
 					["manaspells"] = {
 						[34650] = 23400,
 					},
-					["heal"] = 50109,
-					["name"] = "Sortpraest",
-					["mana"] = 23400,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Vampiric Touch (DoT)"] = {
-							["casts"] = 4,
+							["count"] = 55,
 							["hitmin"] = 2154,
 							["criticalamount"] = 216593,
 							["id"] = 48160,
-							["hitmax"] = 4486,
+							["criticalmin"] = 4000,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 223885,
@@ -12888,28 +12871,35 @@ SkadaStorageDB = {
 									["amount"] = 56241,
 								},
 							},
-							["count"] = 55,
-							["hit"] = 20,
-							["criticalmax"] = 9376,
 							["critical"] = 35,
 							["amount"] = 280126,
+							["casts"] = 4,
+							["hitmax"] = 4486,
+							["hit"] = 20,
 							["school"] = 32,
 							["resisted"] = 20573,
-							["criticalmin"] = 4000,
+							["criticalmax"] = 9376,
 							["hitamount"] = 63533,
 						},
-						["Vampiric Touch"] = {
-							["casts"] = 11,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 1329,
+							["criticalamount"] = 64381,
+							["id"] = 48125,
+							["count"] = 31,
 							["targets"] = {
-								["Frozen Orb"] = {
-									["amount"] = 0,
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 85900,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 48160,
+							["criticalmin"] = 2778,
+							["amount"] = 85900,
+							["criticalmax"] = 5150,
+							["hitmax"] = 2465,
+							["hit"] = 13,
+							["school"] = 32,
+							["resisted"] = 8324,
+							["critical"] = 18,
+							["hitamount"] = 21519,
 						},
 						["Melee (Shadowfiend)"] = {
 							["glance"] = 7970,
@@ -12943,80 +12933,73 @@ SkadaStorageDB = {
 									["amount"] = 54685,
 								},
 							},
-							["criticalmin"] = 5396,
+							["count"] = 8,
 							["casts"] = 1,
 							["critical"] = 8,
 							["amount"] = 54685,
 							["school"] = 32,
 							["resisted"] = 4481,
 							["criticalmax"] = 10040,
-							["count"] = 8,
+							["criticalmin"] = 5396,
 						},
-						["Mind Flay"] = {
-							["hitmax"] = 4492,
-							["hitmin"] = 2355,
-							["criticalamount"] = 403205,
-							["id"] = 58381,
-							["count"] = 122,
+						["Vampiric Touch"] = {
+							["casts"] = 11,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 48160,
 							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 587368,
+								["Frozen Orb"] = {
+									["amount"] = 0,
 								},
 							},
-							["hit"] = 60,
-							["criticalmin"] = 4946,
-							["casts"] = 44,
-							["critical"] = 62,
-							["amount"] = 587368,
-							["school"] = 32,
-							["resisted"] = 38876,
-							["criticalmax"] = 9545,
-							["hitamount"] = 184163,
+							["MISS"] = 1,
 						},
 						["Devouring Plague (DoT)"] = {
-							["casts"] = 7,
+							["count"] = 44,
 							["hitmin"] = 1900,
 							["criticalamount"] = 150524,
 							["id"] = 48300,
-							["hit"] = 16,
+							["criticalmin"] = 3228,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 191686,
 								},
 							},
-							["hitmax"] = 3168,
-							["count"] = 44,
-							["criticalmax"] = 7356,
 							["critical"] = 28,
 							["amount"] = 191686,
+							["casts"] = 7,
+							["hitmax"] = 3168,
+							["hit"] = 16,
 							["school"] = 32,
 							["resisted"] = 11879,
-							["criticalmin"] = 3228,
+							["criticalmax"] = 7356,
 							["hitamount"] = 41162,
 						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 1329,
-							["criticalamount"] = 64381,
-							["id"] = 48125,
-							["hitmax"] = 2465,
+						["Mind Flay"] = {
+							["count"] = 122,
+							["hitmin"] = 2355,
+							["criticalamount"] = 403205,
+							["id"] = 58381,
+							["criticalmax"] = 9545,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 85900,
+									["amount"] = 587368,
 								},
 							},
-							["count"] = 31,
-							["hit"] = 13,
-							["criticalmax"] = 5150,
-							["critical"] = 18,
-							["amount"] = 85900,
+							["critical"] = 62,
+							["amount"] = 587368,
+							["casts"] = 44,
+							["hitmax"] = 4492,
+							["hit"] = 60,
 							["school"] = 32,
-							["resisted"] = 8324,
-							["criticalmin"] = 2778,
-							["hitamount"] = 21519,
+							["resisted"] = 38876,
+							["criticalmin"] = 4946,
+							["hitamount"] = 184163,
 						},
 					},
-					["totaldamage"] = 1240095,
-					["role"] = "DAMAGER",
+					["mana"] = 23400,
+					["name"] = "Sortpraest",
 				}, -- [18]
 				{
 					["last"] = 8662.323,
@@ -13034,10 +13017,10 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[28682] = {
+							["uptime"] = 11,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 4,
-							["uptime"] = 11,
 						},
 						[48108] = {
 							["type"] = "BUFF",
@@ -13047,15 +13030,15 @@ SkadaStorageDB = {
 							["uptime"] = 23,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
 						[16237] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[22959] = {
@@ -13077,8 +13060,8 @@ SkadaStorageDB = {
 							["refresh"] = 10,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 3,
 									["refresh"] = 10,
+									["count"] = 3,
 									["uptime"] = 83,
 								},
 							},
@@ -13100,9 +13083,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70809] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 9,
 						},
 						[19506] = {
@@ -13111,9 +13094,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[12654] = {
@@ -13123,13 +13106,13 @@ SkadaStorageDB = {
 							["refresh"] = 65,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 63,
+									["count"] = 1,
 									["uptime"] = 91,
 								},
 								["Frozen Orb"] = {
-									["count"] = 6,
 									["refresh"] = 2,
+									["count"] = 6,
 									["uptime"] = 13,
 								},
 							},
@@ -13141,9 +13124,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[57669] = {
@@ -13152,9 +13135,9 @@ SkadaStorageDB = {
 							["uptime"] = 90,
 						},
 						[55342] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[48162] = {
@@ -13162,16 +13145,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[75493] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
-						[32182] = {
+						[57294] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[32182] = {
 							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -13184,18 +13166,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[70753] = {
-							["type"] = "BUFF",
-							["count"] = 10,
-							["school"] = 32,
-							["refresh"] = 4,
-							["uptime"] = 62,
-						},
-						[53476] = {
+						[43046] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 104,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
 						},
 						[55610] = {
 							["type"] = "BUFF",
@@ -13218,21 +13197,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 72,
 						},
-						[12536] = {
+						[70747] = {
+							["school"] = 32,
 							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 64,
-							["uptime"] = 15,
+							["count"] = 1,
+							["uptime"] = 30,
 						},
 						[48938] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[8222] = {
+						[53476] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 10,
 						},
 						[48942] = {
 							["type"] = "BUFF",
@@ -13244,16 +13224,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[55637] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 31,
-						},
-						[48066] = {
+						[63944] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[48066] = {
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 17,
 						},
 						[51470] = {
@@ -13279,55 +13259,59 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
-						[63944] = {
+						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
+							["count"] = 2,
+							["uptime"] = 31,
 						},
 						[54758] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 24,
 						},
-						[70747] = {
+						[8222] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 6,
+							["uptime"] = 15,
+						},
+						[75493] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 9,
+						},
+						[70753] = {
+							["type"] = "BUFF",
+							["count"] = 10,
 							["school"] = 32,
-							["uptime"] = 30,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[57294] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
+							["refresh"] = 4,
+							["uptime"] = 62,
 						},
 					},
+					["totaldamage"] = 1299146,
 					["time"] = 93.81999999999997,
 					["totaldamagetaken"] = 49818,
 					["damage"] = 1299146,
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmax"] = 12303,
+							["count"] = 36,
 							["hitmin"] = 7474,
 							["criticalamount"] = 506030,
 							["id"] = 42833,
-							["count"] = 36,
+							["criticalmax"] = 23800,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 558526,
@@ -13336,14 +13320,14 @@ SkadaStorageDB = {
 									["amount"] = 17212,
 								},
 							},
-							["hit"] = 7,
-							["criticalmin"] = 12061,
-							["casts"] = 37,
 							["critical"] = 29,
 							["amount"] = 575738,
+							["casts"] = 37,
+							["hitmax"] = 12303,
+							["hit"] = 7,
 							["school"] = 4,
 							["resisted"] = 42830,
-							["criticalmax"] = 23800,
+							["criticalmin"] = 12061,
 							["hitamount"] = 69708,
 						},
 						["Pyroblast (DoT)"] = {
@@ -13354,8 +13338,8 @@ SkadaStorageDB = {
 									["amount"] = 28357,
 								},
 							},
-							["hitmax"] = 1811,
 							["count"] = 20,
+							["hitmax"] = 1811,
 							["hit"] = 20,
 							["school"] = 4,
 							["resisted"] = 1777,
@@ -13372,43 +13356,43 @@ SkadaStorageDB = {
 									["amount"] = 15286,
 								},
 							},
+							["amount"] = 15286,
+							["hitmax"] = 624,
 							["criticalmax"] = 930,
 							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 24,
 							["hit"] = 22,
 							["school"] = 16,
-							["hitmax"] = 624,
-							["amount"] = 15286,
+							["count"] = 24,
+							["casts"] = 1,
 							["hitamount"] = 13429,
 						},
 						["Fire Blast (Mirror Image)"] = {
-							["criticalmin"] = 741,
-							["hitmin"] = 334,
 							["criticalamount"] = 1497,
+							["hitmin"] = 334,
+							["criticalmin"] = 741,
 							["id"] = 59637,
-							["criticalmax"] = 756,
+							["amount"] = 2922,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 2922,
 								},
 							},
-							["critical"] = 2,
-							["hitmax"] = 376,
 							["casts"] = 1,
 							["count"] = 6,
+							["criticalmax"] = 756,
+							["critical"] = 2,
 							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 74,
-							["amount"] = 2922,
+							["hitmax"] = 376,
 							["hitamount"] = 1425,
 						},
 						["Living Bomb"] = {
-							["hitmax"] = 3011,
+							["count"] = 10,
 							["hitmin"] = 3011,
 							["criticalamount"] = 51967,
 							["id"] = 55362,
-							["count"] = 10,
+							["criticalmax"] = 7842,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 34859,
@@ -13417,40 +13401,40 @@ SkadaStorageDB = {
 									["amount"] = 20119,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 4376,
-							["casts"] = 8,
 							["critical"] = 9,
 							["amount"] = 54978,
+							["casts"] = 8,
+							["hitmax"] = 3011,
+							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 4837,
-							["criticalmax"] = 7842,
+							["criticalmin"] = 4376,
 							["hitamount"] = 3011,
 						},
 						["Pyroblast"] = {
-							["count"] = 14,
 							["hitmax"] = 12160,
+							["criticalmax"] = 26412,
 							["hitmin"] = 10248,
 							["criticalamount"] = 225950,
 							["id"] = 42891,
-							["hit"] = 3,
+							["critical"] = 11,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 235028,
 								},
 								["Frozen Orb"] = {
-									["overkill"] = 20907,
 									["amount"] = 23974,
+									["overkill"] = 20907,
 								},
 							},
 							["overkill"] = 20907,
-							["criticalmin"] = 15320,
-							["casts"] = 14,
-							["critical"] = 11,
 							["amount"] = 259002,
+							["casts"] = 14,
+							["count"] = 14,
+							["hit"] = 3,
 							["school"] = 4,
 							["resisted"] = 8685,
-							["criticalmax"] = 26412,
+							["criticalmin"] = 15320,
 							["hitamount"] = 33052,
 						},
 						["Ignite (DoT)"] = {
@@ -13464,8 +13448,8 @@ SkadaStorageDB = {
 									["amount"] = 9078,
 								},
 							},
-							["hitmax"] = 24032,
 							["count"] = 31,
+							["hitmax"] = 24032,
 							["hit"] = 31,
 							["school"] = 4,
 							["resisted"] = 18793,
@@ -13492,7 +13476,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1154,
 							["criticalamount"] = 71190,
 							["id"] = 55360,
-							["hit"] = 3,
+							["count"] = 27,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 65578,
@@ -13501,14 +13485,14 @@ SkadaStorageDB = {
 									["amount"] = 10186,
 								},
 							},
-							["hitmax"] = 1978,
-							["count"] = 27,
-							["criticalmax"] = 3967,
-							["critical"] = 24,
+							["criticalmin"] = 2096,
 							["amount"] = 75764,
+							["criticalmax"] = 3967,
+							["hitmax"] = 1978,
+							["hit"] = 3,
 							["school"] = 4,
 							["resisted"] = 4079,
-							["criticalmin"] = 2096,
+							["critical"] = 24,
 							["hitamount"] = 4574,
 						},
 					},
@@ -13516,54 +13500,53 @@ SkadaStorageDB = {
 					["id"] = "0x07000000005422F3",
 					["spec"] = 63,
 					["damagetakenspells"] = {
-						["Freezing Ground"] = {
-							["total"] = 14573,
-							["hitmin"] = 4210,
-							["id"] = 72104,
-							["ABSORB"] = 1,
-							["hitmax"] = 5495,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["total"] = 14573,
-									["amount"] = 9705,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 16,
-							["resisted"] = 3176,
-							["amount"] = 9705,
-							["hitamount"] = 9705,
-						},
 						["Whiteout"] = {
 							["total"] = 35245,
 							["hitmin"] = 9262,
 							["id"] = 72096,
-							["hitmax"] = 13815,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 35245,
 									["amount"] = 32408,
+									["total"] = 35245,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 13815,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 10718,
 							["amount"] = 32408,
 							["hitamount"] = 32408,
 						},
+						["Freezing Ground"] = {
+							["total"] = 14573,
+							["hitmin"] = 4210,
+							["id"] = 72104,
+							["count"] = 3,
+							["amount"] = 9705,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 9705,
+									["total"] = 14573,
+								},
+							},
+							["hitmax"] = 5495,
+							["ABSORB"] = 1,
+							["school"] = 16,
+							["resisted"] = 3176,
+							["hit"] = 2,
+							["hitamount"] = 9705,
+						},
 					},
-					["overkill"] = 20907,
 					["name"] = "Magijabebo",
+					["role"] = "DAMAGER",
+					["mana"] = 9565,
 					["manaspells"] = {
 						[29077] = 8834,
 						[67545] = 2015,
 						[44450] = -1284,
 					},
-					["mana"] = 9565,
-					["totaldamage"] = 1299146,
-					["role"] = "DAMAGER",
+					["overkill"] = 20907,
 				}, -- [19]
 				{
 					["last"] = 8667.423000000001,
@@ -13576,9 +13559,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[52000] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 13,
 						},
 						[57294] = {
@@ -13597,9 +13580,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[71584] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 27,
 						},
 						[32223] = {
@@ -13623,9 +13606,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[64843] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[57663] = {
@@ -13646,37 +13629,30 @@ SkadaStorageDB = {
 						[63725] = {
 							["type"] = "BUFF",
 							["count"] = 4,
-							["refresh"] = 10,
 							["school"] = 2,
+							["refresh"] = 10,
 							["uptime"] = 56,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
 						},
 						[43002] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[64739] = {
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
-						[14751] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
+							["uptime"] = 104,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -13690,12 +13666,18 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
-						[15359] = {
+						[14751] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[63734] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 33,
+							["refresh"] = 12,
+							["uptime"] = 82,
 						},
 						[48938] = {
 							["type"] = "BUFF",
@@ -13713,32 +13695,31 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72418] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 18,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 34,
-						},
-						[51470] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[63944] = {
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 34,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 18,
+						},
+						[48168] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 6,
 							["uptime"] = 104,
 						},
 						[25898] = {
@@ -13752,17 +13733,18 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 104,
 						},
-						[48168] = {
+						[63944] = {
+							["uptime"] = 104,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["refresh"] = 6,
 						},
-						[55610] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
@@ -13770,27 +13752,28 @@ SkadaStorageDB = {
 						[33151] = {
 							["type"] = "BUFF",
 							["count"] = 4,
-							["refresh"] = 4,
 							["school"] = 2,
+							["refresh"] = 4,
 							["uptime"] = 40,
 						},
-						[63734] = {
+						[15359] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 2,
-							["refresh"] = 12,
-							["uptime"] = 82,
+							["refresh"] = 1,
+							["uptime"] = 33,
 						},
 						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
-						[58754] = {
+						[64739] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 15,
 						},
 					},
 					["absorbspells"] = {
@@ -13806,6 +13789,7 @@ SkadaStorageDB = {
 							["max"] = 1405,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 82.60999999999999,
 					["totaldamagetaken"] = 41475,
 					["overheal"] = 534201,
@@ -13831,20 +13815,20 @@ SkadaStorageDB = {
 									["overheal"] = 3102,
 									["amount"] = 2069,
 								},
-								["Vktr"] = {
-									["overheal"] = 0,
-									["amount"] = 2069,
-								},
 								["Insurance"] = {
 									["overheal"] = 7923,
 									["amount"] = 0,
 								},
-								["Ypopti"] = {
-									["overheal"] = 5298,
-									["amount"] = 0,
+								["Vktr"] = {
+									["overheal"] = 0,
+									["amount"] = 2069,
 								},
 								["Rasalgull"] = {
 									["overheal"] = 3102,
+									["amount"] = 0,
+								},
+								["Ypopti"] = {
+									["overheal"] = 5298,
 									["amount"] = 0,
 								},
 								["Ebonmoo"] = {
@@ -13857,8 +13841,8 @@ SkadaStorageDB = {
 							["critical"] = 10,
 							["amount"] = 10473,
 							["school"] = 2,
-							["count"] = 22,
 							["criticalmin"] = 0,
+							["count"] = 22,
 						},
 						[33110] = {
 							["overheal"] = 17786,
@@ -13903,8 +13887,8 @@ SkadaStorageDB = {
 							["critical"] = 5,
 							["amount"] = 76158,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["count"] = 14,
+							["criticalmin"] = 0,
 						},
 						[48120] = {
 							["overheal"] = 90618,
@@ -13924,14 +13908,14 @@ SkadaStorageDB = {
 									["amount"] = 5021,
 								},
 							},
-							["criticalmin"] = 0,
 							["min"] = 267,
 							["casts"] = 7,
 							["count"] = 14,
 							["amount"] = 11684,
 							["school"] = 2,
-							["criticalmax"] = 0,
 							["critical"] = 1,
+							["criticalmax"] = 0,
+							["criticalmin"] = 0,
 						},
 						[48089] = {
 							["overheal"] = 116552,
@@ -13946,45 +13930,45 @@ SkadaStorageDB = {
 									["overheal"] = 5348,
 									["amount"] = 1590,
 								},
-								["Deftonez"] = {
-									["overheal"] = 4983,
-									["amount"] = 0,
+								["Iceburner"] = {
+									["overheal"] = 7587,
+									["amount"] = 5160,
 								},
 								["Vktr"] = {
 									["overheal"] = 0,
 									["amount"] = 5248,
 								},
-								["Vaginismus"] = {
-									["overheal"] = 3504,
-									["amount"] = 0,
+								["Magijabebo"] = {
+									["overheal"] = 483,
+									["amount"] = 6549,
 								},
-								["Inarya"] = {
-									["overheal"] = 3110,
-									["amount"] = 7319,
+								["Karshash"] = {
+									["overheal"] = 0,
+									["amount"] = 6974,
 								},
-								["Merrian"] = {
-									["overheal"] = 8683,
-									["amount"] = 5214,
+								["Cnpal"] = {
+									["overheal"] = 852,
+									["amount"] = 6396,
 								},
 								["Rasalgull"] = {
 									["overheal"] = 0,
 									["amount"] = 15638,
 								},
-								["Iceburner"] = {
-									["overheal"] = 7587,
-									["amount"] = 5160,
+								["Vaginismus"] = {
+									["overheal"] = 3504,
+									["amount"] = 0,
 								},
-								["Treant"] = {
-									["overheal"] = 12181,
-									["amount"] = 1328,
+								["Army of the Dead Ghoul"] = {
+									["overheal"] = 12361,
+									["amount"] = 5971,
+								},
+								["Ypopti"] = {
+									["overheal"] = 5251,
+									["amount"] = 3454,
 								},
 								["Insurance"] = {
 									["overheal"] = 4984,
 									["amount"] = 0,
-								},
-								["Magijabebo"] = {
-									["overheal"] = 483,
-									["amount"] = 6549,
 								},
 								["Paopaozhu"] = {
 									["overheal"] = 12151,
@@ -13998,29 +13982,29 @@ SkadaStorageDB = {
 									["overheal"] = 3517,
 									["amount"] = 6934,
 								},
-								["Army of the Dead Ghoul"] = {
-									["overheal"] = 12361,
-									["amount"] = 5971,
+								["Deftonez"] = {
+									["overheal"] = 4983,
+									["amount"] = 0,
+								},
+								["Inarya"] = {
+									["overheal"] = 3110,
+									["amount"] = 7319,
 								},
 								["Abyzu"] = {
 									["overheal"] = 3235,
 									["amount"] = 8178,
 								},
-								["Ypopti"] = {
-									["overheal"] = 5251,
-									["amount"] = 3454,
-								},
 								["Finalwield"] = {
 									["overheal"] = 5526,
 									["amount"] = 6646,
 								},
-								["Cnpal"] = {
-									["overheal"] = 852,
-									["amount"] = 6396,
+								["Treant"] = {
+									["overheal"] = 12181,
+									["amount"] = 1328,
 								},
-								["Karshash"] = {
-									["overheal"] = 0,
-									["amount"] = 6974,
+								["Merrian"] = {
+									["overheal"] = 8683,
+									["amount"] = 5214,
 								},
 								["Quewyn"] = {
 									["overheal"] = 0,
@@ -14031,49 +14015,58 @@ SkadaStorageDB = {
 									["amount"] = 3553,
 								},
 							},
-							["casts"] = 9,
 							["min"] = 304,
-							["criticalmax"] = 5248,
+							["casts"] = 9,
 							["critical"] = 22,
 							["amount"] = 108544,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["count"] = 54,
+							["criticalmin"] = 0,
+							["criticalmax"] = 5248,
 						},
-						[48071] = {
-							["overheal"] = 34770,
-							["criticalamount"] = 3991,
-							["max"] = 6146,
+						[48068] = {
+							["overheal"] = 212613,
+							["max"] = 2928,
 							["targets"] = {
-								["Abyzu"] = {
-									["overheal"] = 5668,
-									["amount"] = 0,
+								["Lolscat"] = {
+									["overheal"] = 24313,
+									["amount"] = 3270,
 								},
-								["Finalwield"] = {
-									["overheal"] = 6034,
-									["amount"] = 0,
+								["Vaginismus"] = {
+									["overheal"] = 46305,
+									["amount"] = 1440,
 								},
-								["Magijabebo"] = {
-									["overheal"] = 6079,
-									["amount"] = 0,
+								["Alexzandra"] = {
+									["overheal"] = 15716,
+									["amount"] = 9111,
 								},
-								["Inekcija"] = {
-									["overheal"] = 3037,
-									["amount"] = 3176,
+								["Insurance"] = {
+									["overheal"] = 32208,
+									["amount"] = 7628,
+								},
+								["Vktr"] = {
+									["overheal"] = 12377,
+									["amount"] = 1416,
+								},
+								["Rasalgull"] = {
+									["overheal"] = 1457,
+									["amount"] = 12337,
+								},
+								["Ypopti"] = {
+									["overheal"] = 23839,
+									["amount"] = 4595,
 								},
 								["Ebonmoo"] = {
-									["overheal"] = 13952,
-									["amount"] = 10137,
+									["overheal"] = 56398,
+									["amount"] = 19479,
 								},
 							},
-							["criticalmin"] = 0,
-							["min"] = 3176,
-							["casts"] = 7,
-							["count"] = 7,
-							["amount"] = 13313,
+							["min"] = 701,
+							["casts"] = 23,
+							["count"] = 98,
+							["amount"] = 59276,
 							["school"] = 2,
-							["criticalmax"] = 3991,
-							["critical"] = 2,
+							["ishot"] = true,
 						},
 						[64844] = {
 							["overheal"] = 15939,
@@ -14108,13 +14101,13 @@ SkadaStorageDB = {
 									["overheal"] = 0,
 									["amount"] = 14682,
 								},
-								["Cnpal"] = {
-									["overheal"] = 3167,
-									["amount"] = 4061,
-								},
 								["Ypopti"] = {
 									["overheal"] = 8192,
 									["amount"] = 20588,
+								},
+								["Cnpal"] = {
+									["overheal"] = 3167,
+									["amount"] = 4061,
 								},
 							},
 							["min"] = 4061,
@@ -14122,97 +14115,87 @@ SkadaStorageDB = {
 							["critical"] = 5,
 							["amount"] = 86056,
 							["school"] = 2,
-							["criticalmin"] = 5934,
 							["count"] = 12,
+							["criticalmin"] = 5934,
 						},
-						[48068] = {
-							["overheal"] = 212613,
-							["max"] = 2928,
+						[48071] = {
+							["overheal"] = 34770,
+							["criticalamount"] = 3991,
+							["max"] = 6146,
 							["targets"] = {
-								["Lolscat"] = {
-									["overheal"] = 24313,
-									["amount"] = 3270,
+								["Abyzu"] = {
+									["overheal"] = 5668,
+									["amount"] = 0,
 								},
-								["Vaginismus"] = {
-									["overheal"] = 46305,
-									["amount"] = 1440,
+								["Finalwield"] = {
+									["overheal"] = 6034,
+									["amount"] = 0,
 								},
-								["Alexzandra"] = {
-									["overheal"] = 15716,
-									["amount"] = 9111,
+								["Magijabebo"] = {
+									["overheal"] = 6079,
+									["amount"] = 0,
 								},
-								["Vktr"] = {
-									["overheal"] = 12377,
-									["amount"] = 1416,
-								},
-								["Insurance"] = {
-									["overheal"] = 32208,
-									["amount"] = 7628,
-								},
-								["Ypopti"] = {
-									["overheal"] = 23839,
-									["amount"] = 4595,
-								},
-								["Rasalgull"] = {
-									["overheal"] = 1457,
-									["amount"] = 12337,
+								["Inekcija"] = {
+									["overheal"] = 3037,
+									["amount"] = 3176,
 								},
 								["Ebonmoo"] = {
-									["overheal"] = 56398,
-									["amount"] = 19479,
+									["overheal"] = 13952,
+									["amount"] = 10137,
 								},
 							},
-							["min"] = 701,
-							["casts"] = 23,
-							["count"] = 98,
-							["amount"] = 59276,
+							["min"] = 3176,
+							["casts"] = 7,
+							["count"] = 7,
+							["amount"] = 13313,
 							["school"] = 2,
-							["ishot"] = true,
+							["critical"] = 2,
+							["criticalmax"] = 3991,
+							["criticalmin"] = 0,
 						},
 					},
 					["damagetakenspells"] = {
-						["Freezing Ground"] = {
-							["hitmin"] = 3326,
-							["id"] = 72104,
-							["hitmax"] = 5185,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 8511,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["resisted"] = 3513,
-							["amount"] = 8511,
-							["hitamount"] = 8511,
-						},
 						["Whiteout"] = {
 							["total"] = 32964,
 							["hitmin"] = 2253,
 							["id"] = 72096,
-							["hitmax"] = 2871,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 32964,
 									["amount"] = 7915,
+									["total"] = 32964,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 2871,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 12216,
 							["amount"] = 7915,
 							["hitamount"] = 7915,
 						},
+						["Freezing Ground"] = {
+							["hitmin"] = 3326,
+							["id"] = 72104,
+							["count"] = 2,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 8511,
+								},
+							},
+							["hitmax"] = 5185,
+							["hit"] = 2,
+							["school"] = 16,
+							["resisted"] = 3513,
+							["amount"] = 8511,
+							["hitamount"] = 8511,
+						},
 					},
 					["heal"] = 365504,
 					["name"] = "Someway",
+					["mana"] = 1200,
 					["manaspells"] = {
 						[55382] = 1200,
 					},
-					["mana"] = 1200,
-					["role"] = "HEALER",
 				}, -- [20]
 				{
 					["last"] = 8662.796,
@@ -14235,9 +14218,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[57934] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 2,
 						},
 						[28878] = {
@@ -14246,27 +14229,27 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[13750] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[32223] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 102,
 						},
 						[13877] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[48945] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
 						[2895] = {
@@ -14275,9 +14258,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[31224] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[57970] = {
@@ -14287,8 +14270,8 @@ SkadaStorageDB = {
 							["refresh"] = 69,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 1,
 									["refresh"] = 69,
+									["count"] = 1,
 									["uptime"] = 92,
 								},
 							},
@@ -14307,9 +14290,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[59620] = {
@@ -14320,15 +14303,15 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[59628] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -14342,15 +14325,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 5,
 						},
 						[55610] = {
@@ -14358,35 +14341,41 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[15359] = {
+						[51690] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 5,
+							["uptime"] = 2,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 64,
 							["uptime"] = 42,
 						},
 						[54043] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 103,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 104,
 						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 18,
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 69,
+							["school"] = 1,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 34,
+									["count"] = 69,
+								},
+							},
+							["uptime"] = 34,
 						},
 						[6774] = {
 							["type"] = "BUFF",
@@ -14396,12 +14385,45 @@ SkadaStorageDB = {
 							["uptime"] = 82,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 31,
 						},
-						[51470] = {
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 18,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 104,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
@@ -14418,61 +14440,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 48,
 						},
-						[25898] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 104,
-						},
-						[58683] = {
-							["type"] = "DEBUFF",
-							["count"] = 69,
-							["school"] = 1,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 34,
-									["count"] = 69,
-								},
-							},
-							["uptime"] = 34,
 						},
 						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 8,
 						},
-						[51690] = {
+						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 5,
 						},
 					},
 					["energyspells"] = {
@@ -14500,13 +14483,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 436251,
 							["id"] = 6603,
 							["glancemax"] = 2137,
-							["blocked"] = 41,
+							["hit"] = 34,
 							["criticalmax"] = 6780,
 							["critical"] = 135,
-							["hit"] = 34,
+							["blocked"] = 41,
 							["school"] = 1,
-							["hitmax"] = 2357,
 							["count"] = 255,
+							["hitmax"] = 2357,
 							["hitamount"] = 38720,
 						},
 						["Blade Twisting"] = {
@@ -14523,44 +14506,44 @@ SkadaStorageDB = {
 							["id"] = 51585,
 						},
 						["Sinister Strike"] = {
-							["criticalmin"] = 6699,
-							["hitmin"] = 2336,
 							["criticalamount"] = 169302,
+							["hitmin"] = 2336,
+							["criticalmin"] = 6699,
 							["id"] = 48638,
-							["criticalmax"] = 9390,
+							["amount"] = 222862,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 222862,
 								},
 							},
-							["critical"] = 21,
-							["PARRY"] = 1,
-							["casts"] = 41,
+							["hitmax"] = 3326,
 							["count"] = 41,
+							["criticalmax"] = 9390,
+							["critical"] = 21,
 							["hit"] = 19,
 							["school"] = 1,
-							["hitmax"] = 3326,
-							["amount"] = 222862,
+							["casts"] = 41,
+							["PARRY"] = 1,
 							["hitamount"] = 53560,
 						},
 						["Killing Spree"] = {
 							["hitmin"] = 1582,
 							["criticalamount"] = 31606,
 							["id"] = 57841,
-							["hitmax"] = 2511,
+							["count"] = 10,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 38959,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 4,
-							["casts"] = 1,
-							["critical"] = 6,
-							["amount"] = 38959,
-							["school"] = 1,
-							["criticalmin"] = 3794,
 							["criticalmax"] = 6544,
+							["criticalmin"] = 3794,
+							["casts"] = 1,
+							["hitmax"] = 2511,
+							["hit"] = 4,
+							["school"] = 1,
+							["amount"] = 38959,
+							["critical"] = 6,
 							["hitamount"] = 7353,
 						},
 						["Blade Flurry"] = {
@@ -14580,45 +14563,45 @@ SkadaStorageDB = {
 							["hitamount"] = 88403,
 						},
 						["Instant Poison IX"] = {
-							["criticalmin"] = 1754,
-							["hitmin"] = 1080,
 							["criticalamount"] = 73475,
+							["hitmin"] = 1080,
+							["criticalmin"] = 1754,
 							["id"] = 57965,
-							["hitmax"] = 1842,
+							["criticalmax"] = 3293,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 211110,
 								},
 							},
-							["count"] = 128,
-							["hit"] = 99,
-							["casts"] = 1,
 							["critical"] = 29,
 							["amount"] = 211110,
+							["casts"] = 1,
+							["hitmax"] = 1842,
+							["hit"] = 99,
 							["school"] = 8,
 							["resisted"] = 9993,
-							["criticalmax"] = 3293,
+							["count"] = 128,
 							["hitamount"] = 137635,
 						},
-						["Eviscerate"] = {
-							["hitmin"] = 5435,
-							["criticalamount"] = 26397,
-							["id"] = 48668,
-							["hitmax"] = 5488,
+						["Rupture (DoT)"] = {
+							["hitmin"] = 708,
+							["criticalamount"] = 19580,
+							["id"] = 48672,
+							["criticalmin"] = 1701,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 37320,
+									["amount"] = 29156,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 2,
-							["casts"] = 4,
-							["critical"] = 2,
-							["amount"] = 37320,
+							["amount"] = 29156,
+							["hitmax"] = 800,
+							["casts"] = 3,
+							["critical"] = 11,
+							["hit"] = 13,
 							["school"] = 1,
-							["criticalmin"] = 13125,
-							["criticalmax"] = 13272,
-							["hitamount"] = 10923,
+							["count"] = 24,
+							["criticalmax"] = 1919,
+							["hitamount"] = 9576,
 						},
 						["Deadly Poison IX (DoT)"] = {
 							["hitmin"] = 1223,
@@ -14628,73 +14611,73 @@ SkadaStorageDB = {
 									["amount"] = 53577,
 								},
 							},
-							["hitmax"] = 2471,
 							["count"] = 29,
+							["hitmax"] = 2471,
 							["hit"] = 29,
 							["school"] = 8,
 							["resisted"] = 3257,
 							["amount"] = 53577,
 							["hitamount"] = 53577,
 						},
-						["Rupture (DoT)"] = {
-							["hitmin"] = 708,
-							["criticalamount"] = 19580,
-							["id"] = 48672,
-							["casts"] = 3,
+						["Eviscerate"] = {
+							["hitmin"] = 5435,
+							["criticalamount"] = 26397,
+							["id"] = 48668,
+							["count"] = 4,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["amount"] = 29156,
+									["amount"] = 37320,
 								},
 							},
-							["criticalmin"] = 1701,
-							["critical"] = 11,
-							["criticalmax"] = 1919,
-							["count"] = 24,
-							["hit"] = 13,
+							["criticalmax"] = 13272,
+							["criticalmin"] = 13125,
+							["casts"] = 4,
+							["hitmax"] = 5488,
+							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 800,
-							["amount"] = 29156,
-							["hitamount"] = 9576,
+							["amount"] = 37320,
+							["critical"] = 2,
+							["hitamount"] = 10923,
 						},
 					},
 					["damagetaken"] = 35136,
 					["id"] = "0x0700000000787C04",
 					["spec"] = 260,
 					["damagetakenspells"] = {
-						["Frozen Orb"] = {
-							["hitmin"] = 1104,
-							["id"] = 72097,
-							["amount"] = 29448,
-							["hitmax"] = 2259,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["amount"] = 29448,
-								},
-							},
-							["count"] = 22,
-							["hit"] = 18,
-							["school"] = 16,
-							["resisted"] = 10937,
-							["MISS"] = 4,
-							["hitamount"] = 29448,
-						},
 						["Whiteout"] = {
 							["total"] = 30394,
 							["hitmin"] = 1505,
 							["id"] = 72096,
-							["hitmax"] = 2531,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 30394,
 									["amount"] = 5688,
+									["total"] = 30394,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 2531,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 11118,
 							["amount"] = 5688,
 							["hitamount"] = 5688,
+						},
+						["Frozen Orb"] = {
+							["hitmin"] = 1104,
+							["id"] = 72097,
+							["count"] = 22,
+							["hit"] = 18,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 29448,
+								},
+							},
+							["hitmax"] = 2259,
+							["amount"] = 29448,
+							["school"] = 16,
+							["resisted"] = 10937,
+							["MISS"] = 4,
+							["hitamount"] = 29448,
 						},
 					},
 					["name"] = "Deftonez",
@@ -14735,8 +14718,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 15,
 								},
 							},
@@ -14760,9 +14743,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[54428] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[2895] = {
@@ -14785,27 +14768,20 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["uptime"] = 32,
 						},
-						[75493] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[67684] = {
+						[58754] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 20,
+							["uptime"] = 104,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -14819,15 +14795,15 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[70940] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 9,
-							["school"] = 2,
 							["uptime"] = 38,
 						},
 						[55610] = {
@@ -14836,22 +14812,22 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[64999] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
-						[54153] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[64844] = {
 							["school"] = 2,
-							["refresh"] = 3,
-							["uptime"] = 100,
-						},
-						[48938] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 8,
+						},
+						[67684] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
 						},
 						[54043] = {
 							["type"] = "BUFF",
@@ -14863,50 +14839,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[47753] = {
+						[20166] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 102,
+						},
+						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 1,
+							["uptime"] = 104,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 49,
 						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[20216] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[47753] = {
 							["school"] = 2,
-							["uptime"] = 2,
-						},
-						[25898] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[31821] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 104,
+							["count"] = 2,
+							["uptime"] = 1,
 						},
 						[48819] = {
 							["type"] = "DEBUFF",
@@ -14924,28 +14879,56 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[57623] = {
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[31821] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[20216] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[48938] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 104,
+						},
+						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 9,
 						},
-						[20166] = {
+						[54153] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
-							["uptime"] = 102,
-						},
-						[64844] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 8,
-						},
-						[58754] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
+							["refresh"] = 3,
+							["uptime"] = 100,
 						},
 					},
 					["absorbspells"] = {
@@ -14961,6 +14944,7 @@ SkadaStorageDB = {
 							["max"] = 4400,
 						},
 					},
+					["totaldamage"] = 20348,
 					["time"] = 81.11000000000001,
 					["totaldamagetaken"] = 94188,
 					["damage"] = 20348,
@@ -14972,18 +14956,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[66922] = {
 							["overheal"] = 6400,
-							["max"] = 720,
-							["count"] = 12,
-							["amount"] = 2529,
-							["school"] = 2,
-							["min"] = 369,
-							["ishot"] = true,
 							["targets"] = {
 								["Ebonmoo"] = {
 									["overheal"] = 6400,
 									["amount"] = 2529,
 								},
 							},
+							["count"] = 12,
+							["amount"] = 2529,
+							["max"] = 720,
+							["min"] = 369,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 						[48785] = {
 							["overheal"] = 5401,
@@ -15000,15 +14984,14 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 2363,
 							["school"] = 2,
-							["criticalmin"] = 2363,
 							["count"] = 1,
+							["criticalmin"] = 2363,
 						},
 						[54968] = {
 							["overheal"] = 155540,
-							["max"] = 2222,
 							["count"] = 154,
 							["amount"] = 95954,
-							["school"] = 2,
+							["max"] = 2222,
 							["min"] = 19,
 							["targets"] = {
 								["Someway"] = {
@@ -15019,34 +15002,6 @@ SkadaStorageDB = {
 									["overheal"] = 1199,
 									["amount"] = 0,
 								},
-								["Iceburner"] = {
-									["overheal"] = 14750,
-									["amount"] = 6465,
-								},
-								["Rotstealer"] = {
-									["overheal"] = 1942,
-									["amount"] = 19,
-								},
-								["Lolscat"] = {
-									["overheal"] = 8744,
-									["amount"] = 0,
-								},
-								["Karshash"] = {
-									["overheal"] = 737,
-									["amount"] = 4562,
-								},
-								["Cnpal"] = {
-									["overheal"] = 4353,
-									["amount"] = 0,
-								},
-								["Magijabebo"] = {
-									["overheal"] = 5467,
-									["amount"] = 0,
-								},
-								["Vktr"] = {
-									["overheal"] = 8003,
-									["amount"] = 6780,
-								},
 								["Crab"] = {
 									["overheal"] = 1905,
 									["amount"] = 0,
@@ -15055,21 +15010,45 @@ SkadaStorageDB = {
 									["overheal"] = 5673,
 									["amount"] = 1210,
 								},
-								["Inarya"] = {
-									["overheal"] = 5751,
-									["amount"] = 4847,
+								["Lolscat"] = {
+									["overheal"] = 8744,
+									["amount"] = 0,
 								},
-								["Rasalgull"] = {
+								["Merrian"] = {
+									["overheal"] = 3332,
+									["amount"] = 0,
+								},
+								["Treant"] = {
 									["overheal"] = 0,
-									["amount"] = 7991,
+									["amount"] = 2434,
 								},
 								["Ypopti"] = {
 									["overheal"] = 12983,
 									["amount"] = 7911,
 								},
+								["Vktr"] = {
+									["overheal"] = 8003,
+									["amount"] = 6780,
+								},
 								["Vaginismus"] = {
 									["overheal"] = 4586,
 									["amount"] = 0,
+								},
+								["Abyzu"] = {
+									["overheal"] = 12917,
+									["amount"] = 3103,
+								},
+								["Army of the Dead Ghoul"] = {
+									["overheal"] = 2504,
+									["amount"] = 12536,
+								},
+								["Rasalgull"] = {
+									["overheal"] = 0,
+									["amount"] = 7991,
+								},
+								["Iceburner"] = {
+									["overheal"] = 14750,
+									["amount"] = 6465,
 								},
 								["Ebon Gargoyle"] = {
 									["overheal"] = 1622,
@@ -15078,6 +15057,10 @@ SkadaStorageDB = {
 								["Insurance"] = {
 									["overheal"] = 6209,
 									["amount"] = 9588,
+								},
+								["Magijabebo"] = {
+									["overheal"] = 5467,
+									["amount"] = 0,
 								},
 								["Paopaozhu"] = {
 									["overheal"] = 7281,
@@ -15091,13 +15074,13 @@ SkadaStorageDB = {
 									["overheal"] = 2136,
 									["amount"] = 0,
 								},
-								["Army of the Dead Ghoul"] = {
-									["overheal"] = 2504,
-									["amount"] = 12536,
+								["Rotstealer"] = {
+									["overheal"] = 1942,
+									["amount"] = 19,
 								},
-								["Abyzu"] = {
-									["overheal"] = 12917,
-									["amount"] = 3103,
+								["Inarya"] = {
+									["overheal"] = 5751,
+									["amount"] = 4847,
 								},
 								["Alexzandra"] = {
 									["overheal"] = 0,
@@ -15107,13 +15090,13 @@ SkadaStorageDB = {
 									["overheal"] = 13682,
 									["amount"] = 8180,
 								},
-								["Treant"] = {
-									["overheal"] = 0,
-									["amount"] = 2434,
-								},
-								["Merrian"] = {
-									["overheal"] = 3332,
+								["Cnpal"] = {
+									["overheal"] = 4353,
 									["amount"] = 0,
+								},
+								["Karshash"] = {
+									["overheal"] = 737,
+									["amount"] = 4562,
 								},
 								["Quewyn"] = {
 									["overheal"] = 3258,
@@ -15124,6 +15107,7 @@ SkadaStorageDB = {
 									["amount"] = 6737,
 								},
 							},
+							["school"] = 2,
 						},
 						[48782] = {
 							["overheal"] = 464881,
@@ -15142,134 +15126,114 @@ SkadaStorageDB = {
 									["overheal"] = 34144,
 									["amount"] = 4091,
 								},
-								["Inarya"] = {
-									["overheal"] = 44095,
-									["amount"] = 674,
-								},
 								["Insurance"] = {
 									["overheal"] = 11203,
 									["amount"] = 1782,
 								},
-								["Abyzu"] = {
-									["overheal"] = 47889,
-									["amount"] = 2106,
+								["Ypopti"] = {
+									["overheal"] = 41545,
+									["amount"] = 4204,
+								},
+								["Inarya"] = {
+									["overheal"] = 44095,
+									["amount"] = 674,
 								},
 								["Alexzandra"] = {
 									["overheal"] = 46775,
 									["amount"] = 3208,
 								},
-								["Iceburner"] = {
-									["overheal"] = 4264,
-									["amount"] = 9855,
+								["Rasalgull"] = {
+									["overheal"] = 12293,
+									["amount"] = 0,
 								},
 								["Cnpal"] = {
 									["overheal"] = 98210,
 									["amount"] = 16375,
 								},
-								["Rasalgull"] = {
-									["overheal"] = 12293,
-									["amount"] = 0,
+								["Iceburner"] = {
+									["overheal"] = 4264,
+									["amount"] = 9855,
 								},
-								["Ypopti"] = {
-									["overheal"] = 41545,
-									["amount"] = 4204,
+								["Abyzu"] = {
+									["overheal"] = 47889,
+									["amount"] = 2106,
 								},
 								["Nafoo"] = {
 									["overheal"] = 6799,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 32,
 							["min"] = 101,
 							["criticalmax"] = 4200,
-							["critical"] = 16,
+							["count"] = 32,
 							["amount"] = 44999,
 							["school"] = 2,
-							["casts"] = 33,
 							["criticalmin"] = 0,
-						},
-						[53654] = {
-							["overheal"] = 396046,
-							["max"] = 16060,
-							["count"] = 32,
-							["amount"] = 108139,
-							["school"] = 2,
-							["min"] = 601,
-							["targets"] = {
-								["Ebonmoo"] = {
-									["overheal"] = 396046,
-									["amount"] = 108139,
-								},
-							},
+							["casts"] = 33,
+							["critical"] = 16,
 						},
 						[20267] = {
 							["overheal"] = 99929,
-							["max"] = 908,
-							["count"] = 283,
-							["amount"] = 34849,
-							["school"] = 2,
-							["min"] = 108,
-							["ishot"] = true,
 							["targets"] = {
 								["Mirror Image"] = {
 									["overheal"] = 1001,
 									["amount"] = 0,
 								},
-								["Abyzu"] = {
-									["overheal"] = 5816,
-									["amount"] = 1594,
+								["Rotstealer"] = {
+									["overheal"] = 10858,
+									["amount"] = 1266,
 								},
 								["Lolscat"] = {
 									["overheal"] = 2820,
 									["amount"] = 0,
 								},
-								["Merrian"] = {
-									["overheal"] = 1664,
+								["Ebon Gargoyle"] = {
+									["overheal"] = 994,
+									["amount"] = 497,
+								},
+								["Karshash"] = {
+									["overheal"] = 2617,
 									["amount"] = 0,
 								},
-								["Army of the Dead Ghoul"] = {
-									["overheal"] = 5172,
-									["amount"] = 2508,
-								},
-								["Rasalgull"] = {
-									["overheal"] = 5528,
-									["amount"] = 2764,
+								["Shadowfiend"] = {
+									["overheal"] = 372,
+									["amount"] = 0,
 								},
 								["Vktr"] = {
 									["overheal"] = 3837,
 									["amount"] = 1278,
 								},
-								["Crab"] = {
-									["overheal"] = 5083,
-									["amount"] = 285,
-								},
-								["Iceburner"] = {
-									["overheal"] = 2839,
-									["amount"] = 1577,
-								},
-								["Insurance"] = {
-									["overheal"] = 3648,
-									["amount"] = 730,
-								},
-								["Ebon Gargoyle"] = {
-									["overheal"] = 994,
-									["amount"] = 497,
-								},
 								["Ypopti"] = {
 									["overheal"] = 9015,
 									["amount"] = 5409,
-								},
-								["Cnpal"] = {
-									["overheal"] = 1106,
-									["amount"] = 1658,
 								},
 								["Treant"] = {
 									["overheal"] = 330,
 									["amount"] = 330,
 								},
+								["Inarya"] = {
+									["overheal"] = 1743,
+									["amount"] = 1162,
+								},
+								["Rasalgull"] = {
+									["overheal"] = 5528,
+									["amount"] = 2764,
+								},
+								["Iceburner"] = {
+									["overheal"] = 2839,
+									["amount"] = 1577,
+								},
+								["Deftonez"] = {
+									["overheal"] = 8862,
+									["amount"] = 2500,
+								},
 								["Magijabebo"] = {
 									["overheal"] = 2763,
 									["amount"] = 0,
+								},
+								["Insurance"] = {
+									["overheal"] = 3648,
+									["amount"] = 730,
 								},
 								["Paopaozhu"] = {
 									["overheal"] = 5366,
@@ -15283,13 +15247,13 @@ SkadaStorageDB = {
 									["overheal"] = 2722,
 									["amount"] = 5443,
 								},
-								["Deftonez"] = {
-									["overheal"] = 8862,
-									["amount"] = 2500,
+								["Army of the Dead Ghoul"] = {
+									["overheal"] = 5172,
+									["amount"] = 2508,
 								},
-								["Inarya"] = {
-									["overheal"] = 1743,
-									["amount"] = 1162,
+								["Abyzu"] = {
+									["overheal"] = 5816,
+									["amount"] = 1594,
 								},
 								["Alexzandra"] = {
 									["overheal"] = 4579,
@@ -15299,73 +15263,92 @@ SkadaStorageDB = {
 									["overheal"] = 6096,
 									["amount"] = 2032,
 								},
-								["Shadowfiend"] = {
-									["overheal"] = 372,
-									["amount"] = 0,
+								["Cnpal"] = {
+									["overheal"] = 1106,
+									["amount"] = 1658,
 								},
-								["Karshash"] = {
-									["overheal"] = 2617,
+								["Merrian"] = {
+									["overheal"] = 1664,
 									["amount"] = 0,
 								},
 								["Quewyn"] = {
 									["overheal"] = 2810,
 									["amount"] = 0,
 								},
-								["Rotstealer"] = {
-									["overheal"] = 10858,
-									["amount"] = 1266,
+								["Crab"] = {
+									["overheal"] = 5083,
+									["amount"] = 285,
 								},
 							},
+							["count"] = 283,
+							["amount"] = 34849,
+							["max"] = 908,
+							["min"] = 108,
+							["ishot"] = true,
+							["school"] = 2,
+						},
+						[53654] = {
+							["overheal"] = 396046,
+							["count"] = 32,
+							["amount"] = 108139,
+							["max"] = 16060,
+							["min"] = 601,
+							["targets"] = {
+								["Ebonmoo"] = {
+									["overheal"] = 396046,
+									["amount"] = 108139,
+								},
+							},
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
-						["Frozen Orb"] = {
-							["total"] = 58173,
-							["hitmin"] = 1371,
-							["id"] = 72097,
-							["ABSORB"] = 9,
-							["hitmax"] = 2304,
-							["sources"] = {
-								["Frozen Orb"] = {
-									["total"] = 58173,
-									["amount"] = 42902,
-								},
-							},
-							["count"] = 32,
-							["hit"] = 23,
-							["school"] = 16,
-							["resisted"] = 13870,
-							["amount"] = 42902,
-							["hitamount"] = 42902,
-						},
 						["Whiteout"] = {
 							["total"] = 36015,
 							["hitmin"] = 3908,
 							["id"] = 72096,
-							["hitmax"] = 8714,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
-									["total"] = 36015,
 									["amount"] = 18499,
+									["total"] = 36015,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 8714,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 9185,
 							["amount"] = 18499,
 							["hitamount"] = 18499,
 						},
+						["Frozen Orb"] = {
+							["total"] = 58173,
+							["hitmin"] = 1371,
+							["id"] = 72097,
+							["count"] = 32,
+							["amount"] = 42902,
+							["sources"] = {
+								["Frozen Orb"] = {
+									["amount"] = 42902,
+									["total"] = 58173,
+								},
+							},
+							["hitmax"] = 2304,
+							["ABSORB"] = 9,
+							["school"] = 16,
+							["resisted"] = 13870,
+							["hit"] = 23,
+							["hitamount"] = 42902,
+						},
 					},
+					["heal"] = 288833,
 					["manaspells"] = {
 						[20272] = 6204,
 						[20168] = 19396,
 						[55382] = 600,
 						[54428] = 1865,
 					},
-					["heal"] = 288833,
-					["name"] = "Cnpal",
-					["mana"] = 28065,
+					["role"] = "HEALER",
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
 							["hitmin"] = 265,
@@ -15378,29 +15361,13 @@ SkadaStorageDB = {
 									["amount"] = 1706,
 								},
 							},
-							["hitmax"] = 332,
 							["count"] = 14,
+							["hitmax"] = 332,
 							["hit"] = 14,
 							["school"] = 2,
 							["resisted"] = 289,
 							["amount"] = 4131,
 							["hitamount"] = 4131,
-						},
-						["Hammer of Wrath"] = {
-							["hitmin"] = 2182,
-							["id"] = 48806,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 2182,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2182,
-							["amount"] = 2182,
-							["hitamount"] = 2182,
 						},
 						["Melee"] = {
 							["DODGE"] = 2,
@@ -15426,6 +15393,22 @@ SkadaStorageDB = {
 							["hitmax"] = 345,
 							["hitamount"] = 3660,
 						},
+						["Hammer of Wrath"] = {
+							["hitmin"] = 2182,
+							["id"] = 48806,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 2182,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 2182,
+							["amount"] = 2182,
+							["hitamount"] = 2182,
+						},
 						["Judgement"] = {
 							["hitmin"] = 1190,
 							["id"] = 54158,
@@ -15434,9 +15417,9 @@ SkadaStorageDB = {
 									["amount"] = 5223,
 								},
 							},
-							["hitmax"] = 1494,
-							["casts"] = 1,
 							["count"] = 4,
+							["casts"] = 1,
+							["hitmax"] = 1494,
 							["hit"] = 4,
 							["school"] = 2,
 							["resisted"] = 579,
@@ -15444,8 +15427,8 @@ SkadaStorageDB = {
 							["hitamount"] = 5223,
 						},
 					},
-					["totaldamage"] = 20348,
-					["role"] = "HEALER",
+					["mana"] = 28065,
+					["name"] = "Cnpal",
 				}, -- [22]
 				{
 					["last"] = 8662.799000000001,
@@ -15458,9 +15441,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[52000] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 24,
 						},
 						[57294] = {
@@ -15518,9 +15501,9 @@ SkadaStorageDB = {
 							["uptime"] = 19,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[71199] = {
@@ -15536,9 +15519,9 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[57669] = {
@@ -15553,17 +15536,17 @@ SkadaStorageDB = {
 							["refresh"] = 9,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
-									["count"] = 4,
 									["refresh"] = 9,
+									["count"] = 4,
 									["uptime"] = 91,
 								},
 							},
 							["uptime"] = 91,
 						},
 						[32182] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[43002] = {
@@ -15596,7 +15579,14 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 104,
 						},
-						[48170] = {
+						[16246] = {
+							["type"] = "BUFF",
+							["count"] = 20,
+							["school"] = 64,
+							["refresh"] = 19,
+							["uptime"] = 82,
+						},
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
@@ -15605,17 +15595,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 104,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 104,
-						},
-						[64701] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 30,
 						},
 						[25898] = {
 							["type"] = "BUFF",
@@ -15628,43 +15607,48 @@ SkadaStorageDB = {
 							["uptime"] = 104,
 						},
 						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
-						[63944] = {
+						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
+							["count"] = 2,
 							["uptime"] = 104,
 						},
 						[54758] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 24,
 						},
-						[57623] = {
+						[63944] = {
+							["uptime"] = 104,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[64701] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 104,
+							["uptime"] = 30,
 						},
 						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
-						[16246] = {
+						[48170] = {
 							["type"] = "BUFF",
-							["count"] = 20,
-							["school"] = 64,
-							["refresh"] = 19,
-							["uptime"] = 82,
+							["count"] = 1,
+							["uptime"] = 104,
 						},
 					},
+					["totaldamage"] = 1098035,
 					["time"] = 94.37999999999998,
 					["totaldamagetaken"] = 47944,
 					["damage"] = 1098035,
@@ -15677,41 +15661,62 @@ SkadaStorageDB = {
 									["amount"] = 150447,
 								},
 							},
-							["criticalmin"] = 12986,
+							["count"] = 9,
 							["casts"] = 10,
 							["critical"] = 9,
 							["amount"] = 150447,
 							["school"] = 4,
 							["resisted"] = 10803,
 							["criticalmax"] = 20573,
-							["count"] = 9,
+							["criticalmin"] = 12986,
 						},
 						["Flame Shock (DoT)"] = {
 							["hitmin"] = 751,
 							["criticalamount"] = 64872,
 							["id"] = 49233,
-							["hitmax"] = 1166,
+							["count"] = 51,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 88327,
 								},
 							},
-							["count"] = 51,
-							["hit"] = 23,
-							["criticalmax"] = 2687,
-							["critical"] = 28,
+							["criticalmin"] = 1764,
 							["amount"] = 88327,
+							["criticalmax"] = 2687,
+							["hitmax"] = 1166,
+							["hit"] = 23,
 							["school"] = 4,
 							["resisted"] = 5707,
-							["criticalmin"] = 1764,
+							["critical"] = 28,
 							["hitamount"] = 23455,
 						},
+						["Lightning Bolt"] = {
+							["criticalmin"] = 6376,
+							["hitmin"] = 2707,
+							["criticalamount"] = 509888,
+							["id"] = 49238,
+							["amount"] = 630246,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 630246,
+								},
+							},
+							["casts"] = 50,
+							["count"] = 63,
+							["criticalmax"] = 19807,
+							["hitmax"] = 7491,
+							["hit"] = 22,
+							["school"] = 8,
+							["resisted"] = 56058,
+							["critical"] = 41,
+							["hitamount"] = 120358,
+						},
 						["Chain Lightning"] = {
-							["hitmax"] = 6875,
+							["count"] = 28,
 							["hitmin"] = 2486,
 							["criticalamount"] = 139005,
 							["id"] = 49271,
-							["count"] = 28,
+							["criticalmax"] = 17160,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 166486,
@@ -15720,56 +15725,35 @@ SkadaStorageDB = {
 									["amount"] = 46257,
 								},
 							},
-							["hit"] = 16,
-							["criticalmin"] = 4692,
-							["casts"] = 17,
 							["critical"] = 12,
 							["amount"] = 212743,
+							["casts"] = 17,
+							["hitmax"] = 6875,
+							["hit"] = 16,
 							["school"] = 8,
 							["resisted"] = 10883,
-							["criticalmax"] = 17160,
+							["criticalmin"] = 4692,
 							["hitamount"] = 73738,
 						},
-						["Lightning Bolt"] = {
-							["hitmax"] = 7491,
-							["hitmin"] = 2707,
-							["criticalamount"] = 509888,
-							["id"] = 49238,
-							["criticalmin"] = 6376,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 630246,
-								},
-							},
-							["criticalmax"] = 19807,
-							["critical"] = 41,
-							["casts"] = 50,
-							["count"] = 63,
-							["hit"] = 22,
-							["school"] = 8,
-							["resisted"] = 56058,
-							["amount"] = 630246,
-							["hitamount"] = 120358,
-						},
 						["Flame Shock"] = {
-							["hitmax"] = 2651,
+							["count"] = 5,
 							["hitmin"] = 2224,
 							["criticalamount"] = 11397,
 							["id"] = 49233,
-							["count"] = 5,
+							["criticalmax"] = 4649,
 							["targets"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 16272,
 								},
 							},
-							["hit"] = 2,
-							["criticalmin"] = 3366,
-							["casts"] = 5,
 							["critical"] = 3,
 							["amount"] = 16272,
+							["casts"] = 5,
+							["hitmax"] = 2651,
+							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 1219,
-							["criticalmax"] = 4649,
+							["criticalmin"] = 3366,
 							["hitamount"] = 4875,
 						},
 					},
@@ -15779,12 +15763,6 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[52042] = {
 							["overheal"] = 101521,
-							["max"] = 557,
-							["count"] = 299,
-							["amount"] = 16900,
-							["school"] = 8,
-							["min"] = 146,
-							["ishot"] = true,
 							["targets"] = {
 								["Rasalgull"] = {
 									["overheal"] = 701,
@@ -15794,13 +15772,13 @@ SkadaStorageDB = {
 									["overheal"] = 14821,
 									["amount"] = 5129,
 								},
+								["Lolscat"] = {
+									["overheal"] = 15560,
+									["amount"] = 4385,
+								},
 								["Treant"] = {
 									["overheal"] = 3701,
 									["amount"] = 0,
-								},
-								["Mirror Image"] = {
-									["overheal"] = 34054,
-									["amount"] = 518,
 								},
 								["Merrian"] = {
 									["overheal"] = 16531,
@@ -15810,68 +15788,90 @@ SkadaStorageDB = {
 									["overheal"] = 16153,
 									["amount"] = 3799,
 								},
-								["Lolscat"] = {
-									["overheal"] = 15560,
-									["amount"] = 4385,
+								["Mirror Image"] = {
+									["overheal"] = 34054,
+									["amount"] = 518,
 								},
 							},
+							["count"] = 299,
+							["amount"] = 16900,
+							["max"] = 557,
+							["min"] = 146,
+							["ishot"] = true,
+							["school"] = 8,
 						},
 					},
 					["damagetakenspells"] = {
-						["Freezing Ground"] = {
-							["hitmin"] = 4232,
-							["id"] = 72104,
-							["hitmax"] = 4899,
-							["sources"] = {
-								["Toravon the Ice Watcher"] = {
-									["amount"] = 13421,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["resisted"] = 4109,
-							["amount"] = 13421,
-							["hitamount"] = 13421,
-						},
 						["Whiteout"] = {
 							["hitmin"] = 8949,
 							["id"] = 72096,
-							["hitmax"] = 13583,
+							["count"] = 3,
 							["sources"] = {
 								["Toravon the Ice Watcher"] = {
 									["amount"] = 34523,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 13583,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 10227,
 							["amount"] = 34523,
 							["hitamount"] = 34523,
 						},
+						["Freezing Ground"] = {
+							["hitmin"] = 4232,
+							["id"] = 72104,
+							["count"] = 3,
+							["sources"] = {
+								["Toravon the Ice Watcher"] = {
+									["amount"] = 13421,
+								},
+							},
+							["hitmax"] = 4899,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 4109,
+							["amount"] = 13421,
+							["hitamount"] = 13421,
+						},
 					},
+					["heal"] = 16900,
 					["manaspells"] = {
 						[57961] = 1712,
 						[59159] = 2744,
 					},
-					["heal"] = 16900,
-					["name"] = "Inarya",
-					["mana"] = 4456,
-					["overheal"] = 101521,
-					["totaldamage"] = 1098035,
 					["role"] = "DAMAGER",
+					["overheal"] = 101521,
+					["mana"] = 4456,
+					["name"] = "Inarya",
 				}, -- [23]
 			},
-			["energy"] = 2908,
+			["totaldamagetaken"] = 1862133,
+			["etotaldamagetaken"] = 16102078,
+			["last_time"] = 8672.286,
+			["starttime"] = 1699435594,
+			["absorb"] = 401205,
+			["damagetaken"] = 1460928,
+			["gotboss"] = 38433,
+			["etotaldamage"] = 1862133,
+			["overheal"] = 3959934,
+			["type"] = "raid",
+			["overkill"] = 34882,
+			["edamagetaken"] = 16102078,
+			["heal"] = 1505407,
+			["name"] = "Toravon the Ice Watcher",
+			["mobname"] = "Toravon the Ice Watcher",
+			["rage"] = 615,
+			["edamage"] = 1460928,
+			["last_action"] = 1699435698,
 			["endtime"] = 1699435698,
 		}, -- [1]
 		{
-			["rage"] = 71,
+			["mobname"] = "Frost Warder",
 			["eoverkill"] = 2929,
-			["sunder"] = 3,
 			["mana"] = 104195,
-			["runic"] = 96,
+			["sunder"] = 3,
+			["last_action"] = 1699435318,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -15880,13 +15880,13 @@ SkadaStorageDB = {
 							["amount"] = 140539,
 							["school"] = 1,
 							["targets"] = {
-								["Finalwield"] = {
-									["overkill"] = 1569,
-									["amount"] = 28710,
-								},
 								["Ebonmoo"] = {
-									["total"] = 138383,
 									["amount"] = 111829,
+									["total"] = 138383,
+								},
+								["Finalwield"] = {
+									["amount"] = 28710,
+									["overkill"] = 1569,
 								},
 							},
 							["overkill"] = 1569,
@@ -15897,19 +15897,19 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["targets"] = {
 								["Someway"] = {
-									["total"] = 22476,
 									["amount"] = 14706,
+									["total"] = 22476,
 								},
 								["Merrian"] = {
-									["overkill"] = 680,
 									["amount"] = 22423,
+									["overkill"] = 680,
+								},
+								["Lottle"] = {
+									["amount"] = 9276,
+									["total"] = 20796,
 								},
 								["Magijabebo"] = {
 									["amount"] = 21654,
-								},
-								["Lottle"] = {
-									["total"] = 20796,
-									["amount"] = 9276,
 								},
 							},
 							["overkill"] = 680,
@@ -15921,8 +15921,8 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Ebonmoo"] = {
 									["total"] = 60964,
-									["overkill"] = 680,
 									["amount"] = 49924,
+									["overkill"] = 680,
 								},
 							},
 							["overkill"] = 680,
@@ -16263,8 +16263,8 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Magijabebo"] = {
-									["overkill"] = 4593,
 									["amount"] = 202205,
+									["overkill"] = 4593,
 								},
 								["Merrian"] = {
 									["amount"] = 11858,
@@ -16276,8 +16276,8 @@ SkadaStorageDB = {
 									["amount"] = 159458,
 								},
 							},
-							["overkill"] = 4593,
 							["amount"] = 486260,
+							["overkill"] = 4593,
 						},
 						[48806] = {
 							["school"] = 2,
@@ -16397,12 +16397,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Sortpraest"] = {
-									["overkill"] = 525,
 									["amount"] = 84192,
+									["overkill"] = 525,
 								},
 							},
-							["overkill"] = 525,
 							["amount"] = 84192,
+							["overkill"] = 525,
 						},
 						[60483] = {
 							["school"] = 32,
@@ -16482,14 +16482,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 40713,
 						},
-						[59159] = {
-							["school"] = 8,
+						[61840] = {
+							["school"] = 2,
 							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 7024,
+								["Rasalgull"] = {
+									["amount"] = 8782,
 								},
 							},
-							["amount"] = 7024,
+							["amount"] = 8782,
 						},
 						[31804] = {
 							["school"] = 2,
@@ -16500,14 +16500,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 20078,
 						},
-						[49236] = {
-							["school"] = 16,
+						[63900] = {
+							["school"] = 8,
 							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 8465,
+								["Paopaozhu"] = {
+									["amount"] = 2986,
 								},
 							},
-							["amount"] = 8465,
+							["amount"] = 2986,
 						},
 						[55360] = {
 							["school"] = 4,
@@ -16545,23 +16545,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 28275,
 						},
-						[48668] = {
-							["school"] = 1,
+						[50526] = {
+							["school"] = 32,
 							["sources"] = {
-								["Deftonez"] = {
-									["amount"] = 4820,
+								["Vktr"] = {
+									["amount"] = 8152,
 								},
 							},
-							["amount"] = 4820,
+							["amount"] = 8152,
 						},
-						[48672] = {
-							["school"] = 1,
+						[53353] = {
+							["school"] = 8,
 							["sources"] = {
-								["Ypopti"] = {
-									["amount"] = 2310,
+								["Paopaozhu"] = {
+									["amount"] = 8810,
 								},
 							},
-							["amount"] = 2310,
+							["amount"] = 8810,
 						},
 						[49269] = {
 							["school"] = 8,
@@ -16572,23 +16572,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3718,
 						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Rasalgull"] = {
-									["amount"] = 20541,
-								},
-							},
-							["amount"] = 20541,
-						},
-						[61006] = {
+						[47994] = {
 							["school"] = 1,
 							["sources"] = {
-								["Paopaozhu"] = {
-									["amount"] = 5947,
+								["Lottle"] = {
+									["amount"] = 17183,
 								},
 							},
-							["amount"] = 5947,
+							["amount"] = 17183,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Finalwield"] = {
+									["amount"] = 14351,
+								},
+							},
+							["amount"] = 14351,
 						},
 						[48158] = {
 							["school"] = 32,
@@ -16599,20 +16599,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 12843,
 						},
-						[42859] = {
-							["school"] = 4,
+						[49238] = {
+							["school"] = 8,
 							["sources"] = {
-								["Magijabebo"] = {
-									["amount"] = 8796,
-								},
-								["Karshash"] = {
-									["amount"] = 8505,
-								},
-								["Quewyn"] = {
-									["amount"] = 5815,
+								["Inarya"] = {
+									["amount"] = 88093,
 								},
 							},
-							["amount"] = 23116,
+							["amount"] = 88093,
 						},
 						[49050] = {
 							["school"] = 1,
@@ -16668,14 +16662,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 16122,
 						},
-						[49238] = {
-							["school"] = 8,
+						[61006] = {
+							["school"] = 1,
 							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 88093,
+								["Paopaozhu"] = {
+									["amount"] = 5947,
 								},
 							},
-							["amount"] = 88093,
+							["amount"] = 5947,
 						},
 						[54158] = {
 							["school"] = 2,
@@ -16686,100 +16680,90 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1655,
 						},
-						[1680] = {
-							["school"] = 1,
+						[42859] = {
+							["school"] = 4,
 							["sources"] = {
-								["Finalwield"] = {
-									["amount"] = 14351,
+								["Magijabebo"] = {
+									["amount"] = 8796,
+								},
+								["Karshash"] = {
+									["amount"] = 8505,
+								},
+								["Quewyn"] = {
+									["amount"] = 5815,
 								},
 							},
-							["amount"] = 14351,
+							["amount"] = 23116,
 						},
-						[47994] = {
-							["school"] = 1,
+						[42463] = {
+							["school"] = 2,
 							["sources"] = {
-								["Lottle"] = {
-									["amount"] = 17183,
+								["Rasalgull"] = {
+									["amount"] = 20541,
 								},
 							},
-							["amount"] = 17183,
+							["amount"] = 20541,
 						},
 						[54043] = {
 							["school"] = 2,
 							["sources"] = {
-								["Finalwield"] = {
-									["amount"] = 295,
-								},
 								["Ebonmoo"] = {
 									["amount"] = 2685,
+								},
+								["Finalwield"] = {
+									["amount"] = 295,
 								},
 							},
 							["amount"] = 2980,
 						},
-						[53353] = {
+						[48672] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ypopti"] = {
+									["amount"] = 2310,
+								},
+							},
+							["amount"] = 2310,
+						},
+						[48668] = {
+							["school"] = 1,
+							["sources"] = {
+								["Deftonez"] = {
+									["amount"] = 4820,
+								},
+							},
+							["amount"] = 4820,
+						},
+						[49236] = {
+							["school"] = 16,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 8465,
+								},
+							},
+							["amount"] = 8465,
+						},
+						[59159] = {
 							["school"] = 8,
 							["sources"] = {
-								["Paopaozhu"] = {
-									["amount"] = 8810,
+								["Inarya"] = {
+									["amount"] = 7024,
 								},
 							},
-							["amount"] = 8810,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Vktr"] = {
-									["amount"] = 8152,
-								},
-							},
-							["amount"] = 8152,
-						},
-						[63900] = {
-							["school"] = 8,
-							["sources"] = {
-								["Paopaozhu"] = {
-									["amount"] = 2986,
-								},
-							},
-							["amount"] = 2986,
-						},
-						[61840] = {
-							["school"] = 2,
-							["sources"] = {
-								["Rasalgull"] = {
-									["amount"] = 8782,
-								},
-							},
-							["amount"] = 8782,
+							["amount"] = 7024,
 						},
 					},
+					["totaldamage"] = 315406,
 					["name"] = "Frost Warder",
 					["overkill"] = 2929,
-					["totaldamage"] = 315406,
 					["totaldamagetaken"] = 3218778,
 					["id"] = "0xF13000965200000C",
 					["damage"] = 258522,
 				}, -- [1]
 			},
-			["death"] = 2,
+			["runic"] = 96,
 			["totaldamage"] = 3218778,
 			["time"] = 68,
-			["energy"] = 1010,
-			["totaldamagetaken"] = 320802,
-			["etotaldamagetaken"] = 3218778,
-			["last_time"] = 8292.574000000001,
-			["starttime"] = 1699435250,
-			["type"] = "raid",
-			["damagetaken"] = 258522,
-			["absorb"] = 62280,
-			["etotaldamage"] = 315406,
-			["damage"] = 3218778,
-			["overheal"] = 1006329,
-			["overkill"] = 5118,
-			["edamagetaken"] = 3218778,
-			["heal"] = 217016,
-			["name"] = "Frost Warder",
-			["mobname"] = "Frost Warder",
 			["players"] = {
 				{
 					["last"] = 8284.499,
@@ -16787,23 +16771,23 @@ SkadaStorageDB = {
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 12,
 						},
 						[48068] = {
 							["type"] = "BUFF",
 							["count"] = 5,
-							["refresh"] = 2,
 							["school"] = 2,
+							["refresh"] = 2,
 							["uptime"] = 57,
 						},
 						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 4,
 							["school"] = 1,
+							["refresh"] = 4,
 							["uptime"] = 66,
 						},
 						[55078] = {
@@ -16813,24 +16797,24 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 2,
 									["refresh"] = 4,
+									["count"] = 2,
 									["uptime"] = 50,
 								},
 							},
 							["uptime"] = 50,
 						},
 						[57623] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 68,
 						},
 						[15359] = {
 							["type"] = "BUFF",
 							["count"] = 8,
-							["refresh"] = 1,
 							["school"] = 2,
+							["refresh"] = 1,
 							["uptime"] = 28,
 						},
 						[55610] = {
@@ -16838,41 +16822,40 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[63944] = {
+						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 3,
 							["uptime"] = 68,
 						},
-						[67631] = {
+						[47930] = {
 							["type"] = "BUFF",
-							["count"] = 1,
+							["count"] = 3,
 							["school"] = 2,
-							["uptime"] = 10,
+							["refresh"] = 7,
+							["uptime"] = 44,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 9,
-							["school"] = 2,
 							["uptime"] = 11,
 						},
 						[70772] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
-						[54043] = {
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[16237] = {
-							["type"] = "BUFF",
-							["count"] = 6,
+						[47753] = {
 							["school"] = 2,
-							["refresh"] = 4,
-							["uptime"] = 40,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 5,
 						},
 						[70809] = {
 							["type"] = "BUFF",
@@ -16881,10 +16864,12 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["uptime"] = 46,
 						},
-						[53138] = {
+						[16237] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
+							["count"] = 6,
+							["school"] = 2,
+							["refresh"] = 4,
+							["uptime"] = 40,
 						},
 						[51124] = {
 							["type"] = "BUFF",
@@ -16893,12 +16878,10 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 36,
 						},
-						[52000] = {
+						[51470] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 34,
+							["count"] = 1,
+							["uptime"] = 68,
 						},
 						[64859] = {
 							["type"] = "BUFF",
@@ -16914,8 +16897,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 24,
 								},
 							},
@@ -16928,7 +16911,7 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 64,
 						},
-						[51470] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 68,
@@ -16947,29 +16930,30 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["uptime"] = 66,
 						},
-						[47753] = {
+						[52000] = {
 							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["uptime"] = 5,
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 34,
 						},
 						[61301] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 3,
 						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 3,
+						[67631] = {
 							["school"] = 2,
-							["refresh"] = 7,
-							["uptime"] = 44,
-						},
-						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[63944] = {
 							["uptime"] = 68,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
 						},
 					},
 					["absorbspells"] = {
@@ -17013,24 +16997,24 @@ SkadaStorageDB = {
 							["hitamount"] = 14597,
 						},
 						["Icy Touch"] = {
-							["criticalmin"] = 1526,
-							["hitmin"] = 743,
 							["criticalamount"] = 3175,
+							["hitmin"] = 743,
+							["criticalmin"] = 1526,
 							["id"] = 49909,
-							["criticalmax"] = 1649,
+							["amount"] = 5503,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 5503,
 								},
 							},
-							["critical"] = 2,
-							["hitmax"] = 837,
 							["casts"] = 5,
 							["count"] = 5,
+							["criticalmax"] = 1649,
+							["critical"] = 2,
 							["hit"] = 3,
 							["school"] = 16,
 							["resisted"] = 334,
-							["amount"] = 5503,
+							["hitmax"] = 837,
 							["hitamount"] = 2328,
 						},
 						["Rune Strike"] = {
@@ -17073,80 +17057,13 @@ SkadaStorageDB = {
 									["amount"] = 6253,
 								},
 							},
-							["hitmax"] = 455,
 							["count"] = 15,
+							["hitmax"] = 455,
 							["hit"] = 15,
 							["school"] = 32,
 							["resisted"] = 260,
 							["amount"] = 6253,
 							["hitamount"] = 6253,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 958,
-							["id"] = 47632,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 5393,
-								},
-							},
-							["hitmax"] = 1170,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 471,
-							["amount"] = 5393,
-							["hitamount"] = 5393,
-						},
-						["Death Strike"] = {
-							["hitmin"] = 1314,
-							["id"] = 49924,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 5890,
-								},
-							},
-							["casts"] = 7,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1599,
-							["amount"] = 5890,
-							["hitamount"] = 5890,
-						},
-						["Heart Strike"] = {
-							["hitmin"] = 1365,
-							["id"] = 55262,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 11021,
-								},
-							},
-							["blocked"] = 41,
-							["PARRY"] = 1,
-							["casts"] = 8,
-							["count"] = 8,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 1700,
-							["amount"] = 11021,
-							["hitamount"] = 11021,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 331,
-							["id"] = 55095,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 6208,
-								},
-							},
-							["hitmax"] = 447,
-							["count"] = 15,
-							["hit"] = 15,
-							["school"] = 16,
-							["resisted"] = 171,
-							["amount"] = 6208,
-							["hitamount"] = 6208,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 658,
@@ -17164,6 +17081,73 @@ SkadaStorageDB = {
 							["amount"] = 4427,
 							["hitamount"] = 4427,
 						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 331,
+							["id"] = 55095,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 6208,
+								},
+							},
+							["count"] = 15,
+							["hitmax"] = 447,
+							["hit"] = 15,
+							["school"] = 16,
+							["resisted"] = 171,
+							["amount"] = 6208,
+							["hitamount"] = 6208,
+						},
+						["Heart Strike"] = {
+							["hitmin"] = 1365,
+							["id"] = 55262,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 11021,
+								},
+							},
+							["casts"] = 8,
+							["amount"] = 11021,
+							["PARRY"] = 1,
+							["count"] = 8,
+							["blocked"] = 41,
+							["school"] = 1,
+							["hitmax"] = 1700,
+							["hit"] = 7,
+							["hitamount"] = 11021,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 1314,
+							["id"] = 49924,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 5890,
+								},
+							},
+							["casts"] = 7,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 1599,
+							["amount"] = 5890,
+							["hitamount"] = 5890,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 958,
+							["id"] = 47632,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 5393,
+								},
+							},
+							["count"] = 5,
+							["casts"] = 5,
+							["hitmax"] = 1170,
+							["hit"] = 5,
+							["school"] = 32,
+							["resisted"] = 471,
+							["amount"] = 5393,
+							["hitamount"] = 5393,
+						},
 					},
 					["absorb"] = 1587,
 					["damagetaken"] = 161753,
@@ -17172,7 +17156,11 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[45470] = {
 							["overheal"] = 16479,
+							["casts"] = 4,
+							["count"] = 4,
+							["amount"] = 5493,
 							["max"] = 5493,
+							["school"] = 1,
 							["targets"] = {
 								["Ebonmoo"] = {
 									["overheal"] = 16479,
@@ -17180,10 +17168,6 @@ SkadaStorageDB = {
 								},
 							},
 							["min"] = 5493,
-							["casts"] = 4,
-							["count"] = 4,
-							["amount"] = 5493,
-							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -17192,15 +17176,15 @@ SkadaStorageDB = {
 							["total"] = 138383,
 							["hitmin"] = 6323,
 							["id"] = 6603,
-							["PARRY"] = 4,
-							["hitmax"] = 16548,
 							["sources"] = {
 								["Frost Warder"] = {
-									["total"] = 138383,
 									["amount"] = 111829,
+									["total"] = 138383,
 								},
 							},
 							["count"] = 21,
+							["PARRY"] = 4,
+							["hitmax"] = 16548,
 							["amount"] = 111829,
 							["school"] = 1,
 							["hit"] = 9,
@@ -17211,25 +17195,25 @@ SkadaStorageDB = {
 							["total"] = 60964,
 							["hitmin"] = 1262,
 							["id"] = 72121,
-							["hitmax"] = 3638,
+							["count"] = 25,
 							["sources"] = {
 								["Frost Warder"] = {
-									["total"] = 60964,
 									["amount"] = 49924,
+									["total"] = 60964,
 								},
 							},
-							["count"] = 25,
+							["hitmax"] = 3638,
 							["ABSORB"] = 3,
 							["school"] = 16,
-							["amount"] = 49924,
 							["hit"] = 22,
+							["amount"] = 49924,
 							["hitamount"] = 49924,
 						},
 					},
 					["heal"] = 5493,
 					["name"] = "Ebonmoo",
-					["overheal"] = 16479,
 					["totaldamage"] = 93259,
+					["overheal"] = 16479,
 				}, -- [1]
 				{
 					["last"] = 8292.407000000001,
@@ -17237,15 +17221,15 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 49,
 						},
 						[72418] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[48162] = {
@@ -17254,16 +17238,16 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[586] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 10,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 68,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -17283,8 +17267,8 @@ SkadaStorageDB = {
 						[59891] = {
 							["type"] = "BUFF",
 							["count"] = 5,
-							["refresh"] = 9,
 							["school"] = 2,
+							["refresh"] = 9,
 							["uptime"] = 49,
 						},
 						[53138] = {
@@ -17308,34 +17292,10 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[64739] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 12,
-						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 64,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 68,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -17346,19 +17306,11 @@ SkadaStorageDB = {
 									["uptime"] = 30,
 									["count"] = 2,
 								},
-								["Lottle"] = {
-									["uptime"] = 15,
-									["count"] = 1,
+								["Ebonmoo"] = {
+									["uptime"] = 48,
+									["count"] = 4,
 								},
 								["Deftonez"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Nafoo"] = {
-									["uptime"] = 30,
-									["count"] = 2,
-								},
-								["Paopaozhu"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
@@ -17366,16 +17318,48 @@ SkadaStorageDB = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
+								["Paopaozhu"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+								["Lottle"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
 								["Inekcija"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
-								["Ebonmoo"] = {
-									["uptime"] = 48,
-									["count"] = 4,
+								["Nafoo"] = {
+									["uptime"] = 30,
+									["count"] = 2,
 								},
 							},
 							["uptime"] = 48,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[57623] = {
+							["uptime"] = 68,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 64,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
 						},
 					},
 					["absorbspells"] = {
@@ -17400,12 +17384,13 @@ SkadaStorageDB = {
 							["amount"] = 7196,
 							["school"] = 2,
 							["targets"] = {
-								["Lottle"] = 756,
 								["Ebonmoo"] = 6440,
+								["Lottle"] = 756,
 							},
 							["max"] = 2375,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 55.81,
 					["overheal"] = 71776,
 					["absorb"] = 60693,
@@ -17414,18 +17399,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[70772] = {
 							["overheal"] = 1098,
-							["max"] = 549,
-							["count"] = 3,
-							["amount"] = 549,
-							["school"] = 2,
-							["min"] = 549,
-							["ishot"] = true,
 							["targets"] = {
 								["Ebonmoo"] = {
 									["overheal"] = 1098,
 									["amount"] = 549,
 								},
 							},
+							["count"] = 3,
+							["amount"] = 549,
+							["max"] = 549,
+							["min"] = 549,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 						[33110] = {
 							["overheal"] = 14809,
@@ -17442,8 +17427,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 8634,
 							["school"] = 2,
-							["criticalmin"] = 3637,
 							["count"] = 4,
+							["criticalmin"] = 3637,
 						},
 						[52985] = {
 							["overheal"] = 12928,
@@ -17455,14 +17440,14 @@ SkadaStorageDB = {
 									["amount"] = 24908,
 								},
 							},
-							["casts"] = 8,
 							["min"] = 528,
-							["criticalmax"] = 5641,
+							["casts"] = 8,
 							["critical"] = 2,
 							["amount"] = 24908,
 							["school"] = 2,
-							["criticalmin"] = 5592,
 							["count"] = 9,
+							["criticalmin"] = 5592,
+							["criticalmax"] = 5641,
 						},
 						[56160] = {
 							["overheal"] = 26505,
@@ -17473,6 +17458,18 @@ SkadaStorageDB = {
 									["overheal"] = 3942,
 									["amount"] = 0,
 								},
+								["Ebonmoo"] = {
+									["overheal"] = 6325,
+									["amount"] = 652,
+								},
+								["Karshash"] = {
+									["overheal"] = 2320,
+									["amount"] = 0,
+								},
+								["Lottle"] = {
+									["overheal"] = 2892,
+									["amount"] = 1177,
+								},
 								["Deftonez"] = {
 									["overheal"] = 1596,
 									["amount"] = 0,
@@ -17481,25 +17478,13 @@ SkadaStorageDB = {
 									["overheal"] = 1548,
 									["amount"] = 0,
 								},
-								["Karshash"] = {
-									["overheal"] = 2320,
+								["Inekcija"] = {
+									["overheal"] = 3941,
 									["amount"] = 0,
 								},
 								["Nafoo"] = {
 									["overheal"] = 3941,
 									["amount"] = 0,
-								},
-								["Lottle"] = {
-									["overheal"] = 2892,
-									["amount"] = 1177,
-								},
-								["Inekcija"] = {
-									["overheal"] = 3941,
-									["amount"] = 0,
-								},
-								["Ebonmoo"] = {
-									["overheal"] = 6325,
-									["amount"] = 652,
 								},
 							},
 							["min"] = 652,
@@ -17507,8 +17492,31 @@ SkadaStorageDB = {
 							["count"] = 15,
 							["amount"] = 1829,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["critical"] = 6,
+							["criticalmin"] = 0,
+						},
+						[48071] = {
+							["overheal"] = 4807,
+							["criticalamount"] = 7176,
+							["max"] = 7176,
+							["targets"] = {
+								["Magijabebo"] = {
+									["overheal"] = 0,
+									["amount"] = 12264,
+								},
+								["Ebonmoo"] = {
+									["overheal"] = 4807,
+									["amount"] = 0,
+								},
+							},
+							["min"] = 5088,
+							["criticalmax"] = 7176,
+							["count"] = 3,
+							["amount"] = 12264,
+							["school"] = 2,
+							["critical"] = 1,
+							["criticalmin"] = 7176,
+							["casts"] = 3,
 						},
 						[48068] = {
 							["overheal"] = 11629,
@@ -17534,43 +17542,19 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["ishot"] = true,
 						},
-						[48071] = {
-							["overheal"] = 4807,
-							["criticalamount"] = 7176,
-							["max"] = 7176,
-							["targets"] = {
-								["Magijabebo"] = {
-									["overheal"] = 0,
-									["amount"] = 12264,
-								},
-								["Ebonmoo"] = {
-									["overheal"] = 4807,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 7176,
-							["min"] = 5088,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 12264,
-							["school"] = 2,
-							["criticalmin"] = 7176,
-							["critical"] = 1,
-						},
-					},
-					["runicspells"] = {
-						[63652] = 96,
 					},
 					["heal"] = 60142,
 					["name"] = "Inekcija",
-					["runic"] = 96,
+					["mana"] = 5054,
 					["manaspells"] = {
 						[47755] = 2229,
 						[71565] = 1625,
 						[55382] = 1200,
 					},
-					["mana"] = 5054,
-					["role"] = "HEALER",
+					["runic"] = 96,
+					["runicspells"] = {
+						[63652] = 96,
+					},
 				}, -- [2]
 				{
 					["last"] = 8236.076999999999,
@@ -17588,9 +17572,9 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[24907] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 16,
 						},
 						[53138] = {
@@ -17615,24 +17599,20 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 6,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Frost Warder"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-							},
+						[63944] = {
+							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 3,
 						},
 						[43046] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 3,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
 						},
 						[57623] = {
 							["type"] = "BUFF",
@@ -17644,15 +17624,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[51470] = {
-							["type"] = "BUFF",
+						[12654] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 6,
+							["school"] = 4,
+							["refresh"] = 1,
+							["targets"] = {
+								["Frost Warder"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 6,
+								},
+							},
 							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -17668,14 +17652,14 @@ SkadaStorageDB = {
 									["amount"] = 11858,
 								},
 							},
-							["criticalmin"] = 11858,
+							["count"] = 1,
 							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 11858,
 							["school"] = 4,
 							["resisted"] = 1317,
 							["criticalmax"] = 11858,
-							["count"] = 1,
+							["criticalmin"] = 11858,
 						},
 						["Living Bomb (DoT)"] = {
 							["hitmin"] = 1221,
@@ -17687,13 +17671,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 2220,
-							["critical"] = 1,
+							["amount"] = 5885,
 							["criticalmax"] = 2220,
-							["count"] = 4,
+							["critical"] = 1,
 							["hit"] = 3,
 							["school"] = 4,
 							["hitmax"] = 1222,
-							["amount"] = 5885,
+							["count"] = 4,
 							["hitamount"] = 3665,
 						},
 						["Ignite (DoT)"] = {
@@ -17717,21 +17701,21 @@ SkadaStorageDB = {
 						{
 							["log"] = {
 								{
-									["time"] = 8227.529000000001,
 									["source"] = "Frost Warder",
+									["time"] = 8227.529000000001,
 									["amount"] = -22423,
 									["school"] = 16,
-									["hp"] = 1,
 									["spellid"] = 72124,
+									["hp"] = 1,
 									["overkill"] = 680,
 								}, -- [1]
 							},
 							["time"] = 8227.529000000001,
-							["timeod"] = 1699435253,
+							["source"] = "Frost Warder",
 							["school"] = 16,
 							["maxhp"] = 21743,
 							["spellid"] = 72124,
-							["source"] = "Frost Warder",
+							["timeod"] = 1699435253,
 						}, -- [1]
 					},
 					["id"] = "0x07000000007BE98F",
@@ -17743,8 +17727,8 @@ SkadaStorageDB = {
 							["overkill"] = 680,
 							["sources"] = {
 								["Frost Warder"] = {
-									["overkill"] = 680,
 									["amount"] = 22423,
+									["overkill"] = 680,
 								},
 							},
 							["count"] = 1,
@@ -17757,134 +17741,13 @@ SkadaStorageDB = {
 					},
 					["name"] = "Merrian",
 					["death"] = 1,
+					["totaldamage"] = 23373,
+					["mana"] = -31,
 					["manaspells"] = {
 						[44450] = -31,
 					},
-					["mana"] = -31,
-					["totaldamage"] = 23373,
 				}, -- [3]
 				{
-					["last"] = 8282.999,
-					["flag"] = 1300,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 68,
-						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 64,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["Frost Warder"] = {
-									["uptime"] = 42,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 42,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[50510] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frost Warder"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 47,
-								},
-							},
-							["uptime"] = 47,
-						},
-						[67383] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 2,
-							["uptime"] = 55,
-						},
-						[60302] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Frost Warder"] = {
-									["uptime"] = 41,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 41,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 40,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 8,
-							["uptime"] = 63,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 68,
-						},
-					},
-					["time"] = 53.99000000000001,
-					["damage"] = 243867,
 					["damagespells"] = {
 						["Scourge Strike"] = {
 							["hitmin"] = 2308,
@@ -17896,14 +17759,14 @@ SkadaStorageDB = {
 									["amount"] = 31770,
 								},
 							},
+							["amount"] = 31770,
+							["hitmax"] = 2551,
 							["criticalmax"] = 6609,
 							["critical"] = 4,
-							["casts"] = 7,
-							["count"] = 7,
 							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 2551,
-							["amount"] = 31770,
+							["count"] = 7,
+							["casts"] = 7,
 							["hitamount"] = 7191,
 						},
 						["Melee"] = {
@@ -17930,6 +17793,23 @@ SkadaStorageDB = {
 							["count"] = 25,
 							["hitamount"] = 16326,
 						},
+						["Icy Touch"] = {
+							["hitmin"] = 1233,
+							["id"] = 49909,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 2622,
+								},
+							},
+							["count"] = 2,
+							["casts"] = 2,
+							["hitmax"] = 1389,
+							["hit"] = 2,
+							["school"] = 16,
+							["resisted"] = 137,
+							["amount"] = 2622,
+							["hitamount"] = 2622,
+						},
 						["Blood-Caked Strike"] = {
 							["hitmin"] = 877,
 							["id"] = 50463,
@@ -17945,6 +17825,191 @@ SkadaStorageDB = {
 							["hitmax"] = 1331,
 							["amount"] = 6823,
 							["hitamount"] = 6823,
+						},
+						["Death Coil"] = {
+							["criticalamount"] = 10404,
+							["hitmin"] = 2212,
+							["criticalmin"] = 5202,
+							["id"] = 47632,
+							["amount"] = 18148,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 18148,
+								},
+							},
+							["casts"] = 5,
+							["count"] = 5,
+							["criticalmax"] = 5202,
+							["critical"] = 2,
+							["hit"] = 3,
+							["school"] = 32,
+							["resisted"] = 1709,
+							["hitmax"] = 2766,
+							["hitamount"] = 7744,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 501,
+							["id"] = 50526,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 8152,
+								},
+							},
+							["count"] = 12,
+							["casts"] = 1,
+							["hitmax"] = 851,
+							["hit"] = 12,
+							["school"] = 32,
+							["resisted"] = 415,
+							["amount"] = 8152,
+							["hitamount"] = 8152,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 1080,
+							["id"] = 70890,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 13500,
+								},
+							},
+							["count"] = 7,
+							["casts"] = 1,
+							["hitmax"] = 3093,
+							["hit"] = 7,
+							["school"] = 32,
+							["resisted"] = 449,
+							["amount"] = 13500,
+							["hitamount"] = 13500,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 1425,
+							["criticalamount"] = 10673,
+							["id"] = 49930,
+							["count"] = 9,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 18318,
+								},
+							},
+							["criticalmax"] = 2919,
+							["criticalmin"] = 2140,
+							["casts"] = 9,
+							["hitmax"] = 1660,
+							["hit"] = 5,
+							["school"] = 1,
+							["amount"] = 18318,
+							["critical"] = 4,
+							["hitamount"] = 7645,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 224,
+							["id"] = 51460,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 11607,
+								},
+							},
+							["count"] = 24,
+							["casts"] = 1,
+							["hitmax"] = 871,
+							["hit"] = 24,
+							["school"] = 32,
+							["resisted"] = 538,
+							["amount"] = 11607,
+							["hitamount"] = 11607,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 611,
+							["id"] = 55078,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 9614,
+								},
+							},
+							["count"] = 13,
+							["hitmax"] = 802,
+							["hit"] = 13,
+							["school"] = 32,
+							["resisted"] = 536,
+							["amount"] = 9614,
+							["hitamount"] = 9614,
+						},
+						["Claw (Rotstealer)"] = {
+							["hitmin"] = 597,
+							["criticalamount"] = 5538,
+							["id"] = 47468,
+							["criticalmin"] = 1200,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 12877,
+								},
+							},
+							["amount"] = 12877,
+							["hitmax"] = 740,
+							["criticalmax"] = 1524,
+							["critical"] = 4,
+							["hit"] = 11,
+							["school"] = 1,
+							["count"] = 15,
+							["casts"] = 1,
+							["hitamount"] = 7339,
+						},
+						["Pendulum of Telluric Currents"] = {
+							["criticalamount"] = 2939,
+							["hitmin"] = 1568,
+							["criticalmin"] = 2939,
+							["id"] = 60483,
+							["criticalmax"] = 2939,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 4507,
+								},
+							},
+							["critical"] = 1,
+							["amount"] = 4507,
+							["casts"] = 1,
+							["hitmax"] = 1568,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 392,
+							["count"] = 2,
+							["hitamount"] = 1568,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1299,
+							["criticalamount"] = 3444,
+							["id"] = 49921,
+							["criticalmin"] = 3444,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 4743,
+								},
+							},
+							["amount"] = 4743,
+							["hitmax"] = 1299,
+							["criticalmax"] = 3444,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 2,
+							["casts"] = 2,
+							["hitamount"] = 1299,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 723,
+							["id"] = 55095,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 12424,
+								},
+							},
+							["count"] = 14,
+							["hitmax"] = 938,
+							["hit"] = 14,
+							["school"] = 16,
+							["resisted"] = 453,
+							["amount"] = 12424,
+							["hitamount"] = 12424,
 						},
 						["Melee (Rotstealer)"] = {
 							["glance"] = 4342,
@@ -17969,211 +18034,11 @@ SkadaStorageDB = {
 							["count"] = 55,
 							["hitamount"] = 15541,
 						},
-						["Death Coil"] = {
-							["criticalmin"] = 5202,
-							["hitmin"] = 2212,
-							["criticalamount"] = 10404,
-							["id"] = 47632,
-							["criticalmax"] = 5202,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 18148,
-								},
-							},
-							["critical"] = 2,
-							["hitmax"] = 2766,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 1709,
-							["amount"] = 18148,
-							["hitamount"] = 7744,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 501,
-							["id"] = 50526,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 8152,
-								},
-							},
-							["hitmax"] = 851,
-							["casts"] = 1,
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 32,
-							["resisted"] = 415,
-							["amount"] = 8152,
-							["hitamount"] = 8152,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 1080,
-							["id"] = 70890,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 13500,
-								},
-							},
-							["hitmax"] = 3093,
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["resisted"] = 449,
-							["amount"] = 13500,
-							["hitamount"] = 13500,
-						},
-						["Pendulum of Telluric Currents"] = {
-							["criticalmin"] = 2939,
-							["hitmin"] = 1568,
-							["criticalamount"] = 2939,
-							["id"] = 60483,
-							["hitmax"] = 1568,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 4507,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4507,
-							["school"] = 32,
-							["resisted"] = 392,
-							["criticalmax"] = 2939,
-							["hitamount"] = 1568,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 224,
-							["id"] = 51460,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 11607,
-								},
-							},
-							["hitmax"] = 871,
-							["casts"] = 1,
-							["count"] = 24,
-							["hit"] = 24,
-							["school"] = 32,
-							["resisted"] = 538,
-							["amount"] = 11607,
-							["hitamount"] = 11607,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 611,
-							["id"] = 55078,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 9614,
-								},
-							},
-							["hitmax"] = 802,
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 32,
-							["resisted"] = 536,
-							["amount"] = 9614,
-							["hitamount"] = 9614,
-						},
-						["Claw (Rotstealer)"] = {
-							["hitmin"] = 597,
-							["criticalamount"] = 5538,
-							["id"] = 47468,
-							["criticalmin"] = 1200,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 12877,
-								},
-							},
-							["criticalmax"] = 1524,
-							["critical"] = 4,
-							["casts"] = 1,
-							["count"] = 15,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 740,
-							["amount"] = 12877,
-							["hitamount"] = 7339,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 1425,
-							["criticalamount"] = 10673,
-							["id"] = 49930,
-							["hitmax"] = 1660,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 18318,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 5,
-							["casts"] = 9,
-							["critical"] = 4,
-							["amount"] = 18318,
-							["school"] = 1,
-							["criticalmin"] = 2140,
-							["criticalmax"] = 2919,
-							["hitamount"] = 7645,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1299,
-							["criticalamount"] = 3444,
-							["id"] = 49921,
-							["criticalmin"] = 3444,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 4743,
-								},
-							},
-							["criticalmax"] = 3444,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1299,
-							["amount"] = 4743,
-							["hitamount"] = 1299,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 723,
-							["id"] = 55095,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 12424,
-								},
-							},
-							["hitmax"] = 938,
-							["count"] = 14,
-							["hit"] = 14,
-							["school"] = 16,
-							["resisted"] = 453,
-							["amount"] = 12424,
-							["hitamount"] = 12424,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1233,
-							["id"] = 49909,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 2622,
-								},
-							},
-							["hitmax"] = 1389,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["resisted"] = 137,
-							["amount"] = 2622,
-							["hitamount"] = 2622,
-						},
 					},
-					["id"] = "0x07000000008A3B06",
-					["spec"] = 252,
+					["last"] = 8282.999,
+					["role"] = "DAMAGER",
+					["flag"] = 1300,
+					["class"] = "DEATHKNIGHT",
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 5433,
@@ -18189,11 +18054,130 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["heal"] = 0,
-					["name"] = "Vktr",
-					["overheal"] = 5433,
+					["auras"] = {
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[57623] = {
+							["uptime"] = 68,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
+						},
+						[63944] = {
+							["uptime"] = 68,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 64,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[67383] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 55,
+						},
+						[60302] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Frost Warder"] = {
+									["uptime"] = 41,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 41,
+						},
+						[58578] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 40,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[66803] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 8,
+							["uptime"] = 63,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["targets"] = {
+								["Frost Warder"] = {
+									["uptime"] = 42,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 42,
+						},
+						[50510] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 2,
+							["targets"] = {
+								["Frost Warder"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 47,
+								},
+							},
+							["uptime"] = 47,
+						},
+						[15359] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
 					["totaldamage"] = 243867,
-					["role"] = "DAMAGER",
+					["heal"] = 0,
+					["time"] = 53.99000000000001,
+					["overheal"] = 5433,
+					["name"] = "Vktr",
+					["spec"] = 252,
+					["id"] = "0x07000000008A3B06",
+					["damage"] = 243867,
 				}, -- [4]
 				{
 					["last"] = 8284.31,
@@ -18201,9 +18185,9 @@ SkadaStorageDB = {
 					["mana"] = 34615,
 					["auras"] = {
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[71432] = {
@@ -18212,16 +18196,16 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[31801] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 65,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 68,
 						},
 						[20053] = {
 							["type"] = "BUFF",
@@ -18231,10 +18215,10 @@ SkadaStorageDB = {
 							["uptime"] = 62,
 						},
 						[57623] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 68,
 						},
 						[61840] = {
 							["type"] = "DEBUFF",
@@ -18243,8 +18227,8 @@ SkadaStorageDB = {
 							["refresh"] = 8,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 2,
 									["refresh"] = 8,
+									["count"] = 2,
 									["uptime"] = 43,
 								},
 							},
@@ -18275,19 +18259,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[31803] = {
-							["type"] = "DEBUFF",
+						[54428] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 8,
-							["targets"] = {
-								["Frost Warder"] = {
-									["count"] = 1,
-									["refresh"] = 8,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 21,
+							["uptime"] = 5,
 						},
 						[71187] = {
 							["type"] = "BUFF",
@@ -18310,8 +18285,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 2,
 									["refresh"] = 3,
+									["count"] = 2,
 									["uptime"] = 48,
 								},
 							},
@@ -18327,19 +18302,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[54499] = {
-							["type"] = "DEBUFF",
+						[48090] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Frost Warder"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 21,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 64,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 9,
+							["uptime"] = 55,
 						},
 						[48819] = {
 							["type"] = "DEBUFF",
@@ -18353,31 +18333,36 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 10,
 						},
-						[59578] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 9,
-							["uptime"] = 55,
-						},
-						[54043] = {
-							["type"] = "BUFF",
+						[54499] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 68,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Frost Warder"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 21,
+								},
+							},
+							["uptime"] = 21,
 						},
-						[48090] = {
-							["type"] = "BUFF",
+						[31803] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 64,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
+							["school"] = 2,
+							["refresh"] = 8,
+							["targets"] = {
+								["Frost Warder"] = {
+									["refresh"] = 8,
+									["count"] = 1,
+									["uptime"] = 21,
+								},
+							},
+							["uptime"] = 21,
 						},
 					},
+					["totaldamage"] = 181475,
 					["time"] = 53.29000000000001,
 					["damage"] = 181475,
 					["overheal"] = 160060,
@@ -18386,6 +18371,11 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 160060,
+							["min"] = 552,
+							["count"] = 351,
+							["amount"] = 8110,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Rasalgull"] = {
 									["overheal"] = 10488,
@@ -18395,20 +18385,20 @@ SkadaStorageDB = {
 									["overheal"] = 18115,
 									["amount"] = 0,
 								},
-								["Deftonez"] = {
-									["overheal"] = 12684,
+								["Crab"] = {
+									["overheal"] = 12212,
 									["amount"] = 0,
 								},
-								["Lottle"] = {
-									["overheal"] = 5525,
+								["Rotstealer"] = {
+									["overheal"] = 14487,
 									["amount"] = 0,
 								},
 								["Magijabebo"] = {
 									["overheal"] = 4600,
 									["amount"] = 0,
 								},
-								["Paopaozhu"] = {
-									["overheal"] = 11340,
+								["Lottle"] = {
+									["overheal"] = 5525,
 									["amount"] = 0,
 								},
 								["Thooghun"] = {
@@ -18419,8 +18409,8 @@ SkadaStorageDB = {
 									["overheal"] = 13310,
 									["amount"] = 6454,
 								},
-								["Rotstealer"] = {
-									["overheal"] = 14487,
+								["Deftonez"] = {
+									["overheal"] = 12684,
 									["amount"] = 0,
 								},
 								["Inarya"] = {
@@ -18447,34 +18437,39 @@ SkadaStorageDB = {
 									["overheal"] = 2166,
 									["amount"] = 0,
 								},
-								["Crab"] = {
-									["overheal"] = 12212,
+								["Paopaozhu"] = {
+									["overheal"] = 11340,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 351,
-							["amount"] = 8110,
-							["school"] = 2,
 							["max"] = 732,
-							["ishot"] = true,
-							["min"] = 552,
 						},
 						[54172] = {
 							["overheal"] = 0,
+							["min"] = 1566,
+							["count"] = 1,
+							["amount"] = 1566,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Ebonmoo"] = {
 									["overheal"] = 0,
 									["amount"] = 1566,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1566,
-							["school"] = 2,
 							["max"] = 1566,
-							["ishot"] = true,
-							["min"] = 1566,
 						},
 					},
+					["heal"] = 9676,
+					["name"] = "Rasalgull",
+					["role"] = "DAMAGER",
+					["manaspells"] = {
+						[31930] = 5490,
+						[20168] = 576,
+						[54428] = 720,
+						[57669] = 27829,
+					},
+					["class"] = "PALADIN",
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
 							["hitmin"] = 433,
@@ -18484,8 +18479,8 @@ SkadaStorageDB = {
 									["amount"] = 5309,
 								},
 							},
-							["hitmax"] = 563,
 							["count"] = 10,
+							["hitmax"] = 563,
 							["hit"] = 10,
 							["school"] = 2,
 							["resisted"] = 277,
@@ -18493,24 +18488,24 @@ SkadaStorageDB = {
 							["hitamount"] = 5309,
 						},
 						["Exorcism"] = {
-							["hitmax"] = 3046,
+							["criticalmin"] = 4721,
 							["hitmin"] = 3046,
 							["criticalamount"] = 10400,
 							["id"] = 48801,
-							["criticalmin"] = 4721,
+							["amount"] = 13446,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 13446,
 								},
 							},
-							["criticalmax"] = 5679,
-							["critical"] = 2,
 							["casts"] = 3,
 							["count"] = 3,
+							["criticalmax"] = 5679,
+							["hitmax"] = 3046,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 524,
-							["amount"] = 13446,
+							["critical"] = 2,
 							["hitamount"] = 3046,
 						},
 						["Divine Storm"] = {
@@ -18523,14 +18518,14 @@ SkadaStorageDB = {
 									["amount"] = 33193,
 								},
 							},
+							["amount"] = 33193,
+							["hitmax"] = 3734,
 							["criticalmax"] = 7560,
 							["critical"] = 3,
-							["casts"] = 7,
-							["count"] = 7,
 							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 3734,
-							["amount"] = 33193,
+							["count"] = 7,
+							["casts"] = 7,
 							["hitamount"] = 13243,
 						},
 						["Hammer of Wrath"] = {
@@ -18545,9 +18540,26 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 6293,
 							["school"] = 2,
-							["criticalmin"] = 6293,
-							["criticalmax"] = 6293,
 							["count"] = 1,
+							["criticalmax"] = 6293,
+							["criticalmin"] = 6293,
+						},
+						["Judgement"] = {
+							["hitmin"] = 1655,
+							["id"] = 54158,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 1655,
+								},
+							},
+							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 1655,
+							["hit"] = 1,
+							["school"] = 2,
+							["resisted"] = 413,
+							["amount"] = 1655,
+							["hitamount"] = 1655,
 						},
 						["Holy Vengeance (DoT)"] = {
 							["hitmin"] = 587,
@@ -18557,34 +18569,13 @@ SkadaStorageDB = {
 									["amount"] = 7075,
 								},
 							},
-							["hitmax"] = 1657,
 							["count"] = 6,
+							["hitmax"] = 1657,
 							["hit"] = 6,
 							["school"] = 2,
 							["resisted"] = 564,
 							["amount"] = 7075,
 							["hitamount"] = 7075,
-						},
-						["Seal of Vengeance"] = {
-							["criticalmin"] = 625,
-							["hitmin"] = 232,
-							["criticalamount"] = 10688,
-							["id"] = 42463,
-							["criticalmax"] = 2691,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 20541,
-								},
-							},
-							["critical"] = 7,
-							["hitmax"] = 1661,
-							["casts"] = 1,
-							["count"] = 15,
-							["hit"] = 8,
-							["school"] = 2,
-							["resisted"] = 2006,
-							["amount"] = 20541,
-							["hitamount"] = 9853,
 						},
 						["Melee"] = {
 							["glance"] = 4504,
@@ -18610,44 +18601,44 @@ SkadaStorageDB = {
 							["hitamount"] = 14429,
 						},
 						["Judgement of Vengeance"] = {
-							["criticalmin"] = 3788,
-							["hitmin"] = 1721,
 							["criticalamount"] = 18357,
+							["hitmin"] = 1721,
+							["criticalmin"] = 3788,
 							["id"] = 31804,
-							["criticalmax"] = 9393,
+							["amount"] = 20078,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 20078,
 								},
 							},
-							["critical"] = 3,
-							["hitmax"] = 1721,
 							["casts"] = 1,
 							["count"] = 4,
+							["criticalmax"] = 9393,
+							["critical"] = 3,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 1377,
-							["amount"] = 20078,
+							["hitmax"] = 1721,
 							["hitamount"] = 1721,
 						},
 						["Crusader Strike"] = {
 							["hitmin"] = 2264,
 							["criticalamount"] = 19862,
 							["id"] = 35395,
-							["hitmax"] = 2868,
+							["count"] = 7,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 27323,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 3,
-							["casts"] = 7,
-							["critical"] = 4,
-							["amount"] = 27323,
-							["school"] = 1,
-							["criticalmin"] = 4023,
 							["criticalmax"] = 5922,
+							["criticalmin"] = 4023,
+							["casts"] = 7,
+							["hitmax"] = 2868,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 27323,
+							["critical"] = 4,
 							["hitamount"] = 7461,
 						},
 						["Righteous Vengeance (DoT)"] = {
@@ -18658,65 +18649,58 @@ SkadaStorageDB = {
 									["amount"] = 8782,
 								},
 							},
-							["hitmax"] = 1028,
 							["count"] = 15,
+							["hitmax"] = 1028,
 							["hit"] = 15,
 							["school"] = 2,
 							["resisted"] = 311,
 							["amount"] = 8782,
 							["hitamount"] = 8782,
 						},
-						["Judgement"] = {
-							["hitmin"] = 1655,
-							["id"] = 54158,
+						["Seal of Vengeance"] = {
+							["criticalamount"] = 10688,
+							["hitmin"] = 232,
+							["criticalmin"] = 625,
+							["id"] = 42463,
+							["amount"] = 20541,
 							["targets"] = {
 								["Frost Warder"] = {
-									["amount"] = 1655,
+									["amount"] = 20541,
 								},
 							},
-							["hitmax"] = 1655,
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["count"] = 15,
+							["criticalmax"] = 2691,
+							["critical"] = 7,
+							["hit"] = 8,
 							["school"] = 2,
-							["resisted"] = 413,
-							["amount"] = 1655,
-							["hitamount"] = 1655,
+							["resisted"] = 2006,
+							["hitmax"] = 1661,
+							["hitamount"] = 9853,
 						},
 					},
-					["heal"] = 9676,
-					["name"] = "Rasalgull",
-					["totaldamage"] = 181475,
-					["class"] = "PALADIN",
-					["manaspells"] = {
-						[31930] = 5490,
-						[20168] = 576,
-						[54428] = 720,
-						[57669] = 27829,
-					},
-					["role"] = "DAMAGER",
 				}, -- [5]
 				{
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmax"] = 6333,
+							["criticalmin"] = 7739,
 							["hitmin"] = 4227,
 							["criticalamount"] = 45785,
 							["id"] = 42833,
-							["criticalmin"] = 7739,
+							["amount"] = 112739,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 112739,
 								},
 							},
-							["criticalmax"] = 10544,
-							["critical"] = 5,
 							["casts"] = 17,
 							["count"] = 17,
+							["criticalmax"] = 10544,
+							["hitmax"] = 6333,
 							["hit"] = 12,
 							["school"] = 4,
 							["resisted"] = 7238,
-							["amount"] = 112739,
+							["critical"] = 5,
 							["hitamount"] = 66954,
 						},
 						["Pyroblast"] = {
@@ -18736,24 +18720,24 @@ SkadaStorageDB = {
 							["hitamount"] = 6963,
 						},
 						["Pendulum of Telluric Currents"] = {
-							["hitmax"] = 1461,
+							["count"] = 2,
 							["hitmin"] = 1461,
 							["criticalamount"] = 1920,
 							["id"] = 60483,
-							["count"] = 2,
+							["criticalmax"] = 1920,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 3381,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 1920,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 3381,
+							["casts"] = 1,
+							["hitmax"] = 1461,
+							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 479,
-							["criticalmax"] = 1920,
+							["criticalmin"] = 1920,
 							["hitamount"] = 1461,
 						},
 						["Ignite (DoT)"] = {
@@ -18764,8 +18748,8 @@ SkadaStorageDB = {
 									["amount"] = 16542,
 								},
 							},
-							["hitmax"] = 5374,
 							["count"] = 6,
+							["hitmax"] = 5374,
 							["hit"] = 6,
 							["school"] = 4,
 							["resisted"] = 345,
@@ -18782,13 +18766,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 1878,
-							["critical"] = 3,
+							["amount"] = 10304,
 							["criticalmax"] = 1878,
-							["count"] = 8,
+							["critical"] = 3,
 							["hit"] = 5,
 							["school"] = 4,
 							["hitmax"] = 1033,
-							["amount"] = 10304,
+							["count"] = 8,
 							["hitamount"] = 4670,
 						},
 						["Pyroblast (DoT)"] = {
@@ -18799,8 +18783,8 @@ SkadaStorageDB = {
 									["amount"] = 644,
 								},
 							},
-							["hitmax"] = 644,
 							["count"] = 1,
+							["hitmax"] = 644,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 161,
@@ -18815,9 +18799,9 @@ SkadaStorageDB = {
 									["amount"] = 5815,
 								},
 							},
-							["hitmax"] = 2004,
-							["casts"] = 3,
 							["count"] = 3,
+							["casts"] = 3,
+							["hitmax"] = 2004,
 							["hit"] = 3,
 							["school"] = 4,
 							["resisted"] = 222,
@@ -18832,9 +18816,9 @@ SkadaStorageDB = {
 									["amount"] = 3931,
 								},
 							},
-							["hitmax"] = 2062,
-							["casts"] = 2,
 							["count"] = 2,
+							["casts"] = 2,
+							["hitmax"] = 2062,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 207,
@@ -18843,20 +18827,14 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 8284.442000000001,
-					["mana"] = 1165,
-					["manaspells"] = {
-						[29077] = 930,
-						[67545] = 390,
-						[44450] = -155,
-					},
 					["flag"] = 1298,
+					["mana"] = 1165,
 					["class"] = "MAGE",
-					["id"] = "0x0700000000877A7B",
 					["auras"] = {
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[43046] = {
@@ -18867,10 +18845,10 @@ SkadaStorageDB = {
 							["uptime"] = 64,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 68,
 						},
 						[55360] = {
 							["type"] = "DEBUFF",
@@ -18885,9 +18863,9 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[55610] = {
@@ -18900,11 +18878,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[12536] = {
+						[48108] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 3,
+							["uptime"] = 10,
 						},
 						[22959] = {
 							["type"] = "DEBUFF",
@@ -18918,17 +18896,26 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 4,
+							["refresh"] = 5,
+							["targets"] = {
+								["Frost Warder"] = {
+									["refresh"] = 5,
+									["count"] = 3,
+									["uptime"] = 16,
+								},
+							},
+							["uptime"] = 16,
 						},
 						[57669] = {
 							["school"] = 8,
 							["type"] = "BUFF",
 							["uptime"] = 61,
 						},
-						[51470] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 68,
@@ -18945,6 +18932,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
+						[57623] = {
+							["uptime"] = 68,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+						},
 						[48090] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -18952,43 +18945,34 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 64,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 68,
-						},
 						[19506] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["refresh"] = 5,
-							["targets"] = {
-								["Frost Warder"] = {
-									["count"] = 3,
-									["refresh"] = 5,
-									["uptime"] = 16,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[48108] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 68,
+						},
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
 						},
 					},
-					["spec"] = 63,
-					["time"] = 53.06999999999999,
-					["totaldamage"] = 160319,
-					["role"] = "DAMAGER",
 					["name"] = "Quewyn",
+					["totaldamage"] = 160319,
+					["manaspells"] = {
+						[29077] = 930,
+						[67545] = 390,
+						[44450] = -155,
+					},
+					["role"] = "DAMAGER",
+					["time"] = 53.06999999999999,
+					["spec"] = 63,
+					["id"] = "0x0700000000877A7B",
 					["damage"] = 160319,
 				}, -- [6]
 				{
@@ -19014,10 +18998,10 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[63944] = {
+							["uptime"] = 36,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 36,
 						},
 						[58567] = {
 							["type"] = "DEBUFF",
@@ -19026,8 +19010,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 7,
 								},
 							},
@@ -19046,22 +19030,21 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[18499] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[72412] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 68,
 						},
-						[67695] = {
+						[46916] = {
+							["uptime"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 20,
+							["refresh"] = 1,
 						},
 						[29131] = {
 							["type"] = "BUFF",
@@ -19069,28 +19052,28 @@ SkadaStorageDB = {
 							["uptime"] = 9,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 8,
-							["school"] = 1,
 							["uptime"] = 21,
 						},
-						[46916] = {
+						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 10,
 						},
 						[57623] = {
+							["uptime"] = 36,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 36,
 						},
 						[12970] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 5,
 							["school"] = 1,
+							["refresh"] = 5,
 							["uptime"] = 35,
 						},
 						[51470] = {
@@ -19098,47 +19081,46 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[55610] = {
+						[67695] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 68,
+							["uptime"] = 20,
 						},
 					},
+					["totaldamage"] = 144681,
 					["time"] = 37.92,
 					["totaldamagetaken"] = 28710,
-					["overheal"] = 4607,
 					["damage"] = 144681,
-					["rage"] = 71,
-					["sundertargets"] = {
-						["Frost Warder"] = 3,
-					},
+					["overheal"] = 4607,
+					["role"] = "DAMAGER",
 					["damagetaken"] = 28710,
 					["deathlog"] = {
 						{
 							["log"] = {
 								{
-									["time"] = 8260.423000000001,
 									["source"] = "Frost Warder",
+									["time"] = 8260.423000000001,
 									["amount"] = -28710,
 									["school"] = 1,
-									["hp"] = 0,
 									["spellid"] = 6603,
+									["hp"] = 0,
 									["overkill"] = 1569,
 								}, -- [1]
 								{
 									["overheal"] = 3340,
 									["source"] = "Someway",
+									["time"] = 8249.024000000001,
 									["hp"] = 27141,
 									["spellid"] = 48089,
-									["time"] = 8249.024000000001,
 								}, -- [2]
 							},
 							["time"] = 8260.423000000001,
-							["timeod"] = 1699435286,
+							["source"] = "Frost Warder",
 							["school"] = 1,
 							["maxhp"] = 27141,
 							["spellid"] = 6603,
-							["source"] = "Frost Warder",
+							["timeod"] = 1699435286,
 						}, -- [1]
 					},
 					["id"] = "0x07000000009C8F2F",
@@ -19164,8 +19146,8 @@ SkadaStorageDB = {
 							["overkill"] = 1569,
 							["sources"] = {
 								["Frost Warder"] = {
-									["overkill"] = 1569,
 									["amount"] = 28710,
+									["overkill"] = 1569,
 								},
 							},
 							["count"] = 1,
@@ -19176,67 +19158,18 @@ SkadaStorageDB = {
 							["hitamount"] = 28710,
 						},
 					},
-					["sunder"] = 3,
+					["heal"] = 0,
 					["ragespells"] = {
 						[29131] = 10,
 						[12964] = 11,
-						[23690] = 10,
 						[58362] = 40,
+						[23690] = 10,
 					},
-					["name"] = "Finalwield",
+					["sundertargets"] = {
+						["Frost Warder"] = 3,
+					},
 					["death"] = 1,
 					["damagespells"] = {
-						["Retribution Aura"] = {
-							["hitmin"] = 295,
-							["id"] = 54043,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 295,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 295,
-							["amount"] = 295,
-							["hitamount"] = 295,
-						},
-						["Bloodthirst"] = {
-							["hitmin"] = 2247,
-							["criticalamount"] = 29614,
-							["id"] = 23881,
-							["criticalmin"] = 5075,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 34541,
-								},
-							},
-							["criticalmax"] = 7159,
-							["critical"] = 5,
-							["casts"] = 7,
-							["count"] = 7,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2680,
-							["amount"] = 34541,
-							["hitamount"] = 4927,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 172,
-							["id"] = 12721,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 16274,
-								},
-							},
-							["count"] = 27,
-							["hit"] = 27,
-							["school"] = 1,
-							["hitmax"] = 1078,
-							["amount"] = 16274,
-							["hitamount"] = 16274,
-						},
 						["Melee"] = {
 							["glance"] = 1921,
 							["hitmin"] = 997,
@@ -19260,37 +19193,40 @@ SkadaStorageDB = {
 							["count"] = 15,
 							["hitamount"] = 4179,
 						},
-						["Slam"] = {
-							["criticalamount"] = 4214,
-							["id"] = 50783,
+						["Bloodthirst"] = {
+							["hitmin"] = 2247,
+							["criticalamount"] = 29614,
+							["id"] = 23881,
+							["criticalmin"] = 5075,
 							["targets"] = {
 								["Frost Warder"] = {
-									["amount"] = 4214,
+									["amount"] = 34541,
 								},
 							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4214,
+							["amount"] = 34541,
+							["hitmax"] = 2680,
+							["criticalmax"] = 7159,
+							["critical"] = 5,
+							["hit"] = 2,
 							["school"] = 1,
-							["criticalmin"] = 4214,
-							["criticalmax"] = 4214,
-							["count"] = 1,
+							["count"] = 7,
+							["casts"] = 7,
+							["hitamount"] = 4927,
 						},
-						["Whirlwind"] = {
-							["criticalamount"] = 23575,
-							["id"] = 1680,
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 172,
+							["id"] = 12721,
 							["targets"] = {
 								["Frost Warder"] = {
-									["amount"] = 23575,
+									["amount"] = 16274,
 								},
 							},
-							["casts"] = 3,
-							["critical"] = 6,
-							["amount"] = 23575,
+							["count"] = 27,
+							["hit"] = 27,
 							["school"] = 1,
-							["criticalmin"] = 2744,
-							["criticalmax"] = 4895,
-							["count"] = 6,
+							["hitmax"] = 1078,
+							["amount"] = 16274,
+							["hitamount"] = 16274,
 						},
 						["Heroic Throw"] = {
 							["criticalamount"] = 4662,
@@ -19304,45 +19240,88 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 4662,
 							["school"] = 1,
-							["criticalmin"] = 4662,
-							["criticalmax"] = 4662,
 							["count"] = 1,
+							["criticalmax"] = 4662,
+							["criticalmin"] = 4662,
+						},
+						["Slam"] = {
+							["criticalamount"] = 4214,
+							["id"] = 50783,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 4214,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 4214,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 4214,
+							["criticalmin"] = 4214,
+						},
+						["Whirlwind"] = {
+							["criticalamount"] = 23575,
+							["id"] = 1680,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 23575,
+								},
+							},
+							["casts"] = 3,
+							["critical"] = 6,
+							["amount"] = 23575,
+							["school"] = 1,
+							["count"] = 6,
+							["criticalmax"] = 4895,
+							["criticalmin"] = 2744,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 295,
+							["id"] = 54043,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 295,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 295,
+							["amount"] = 295,
+							["hitamount"] = 295,
 						},
 						["Heroic Strike"] = {
 							["hitmin"] = 2021,
 							["criticalamount"] = 18243,
 							["id"] = 47450,
-							["hitmax"] = 2296,
+							["count"] = 11,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 32930,
 								},
 							},
-							["count"] = 11,
-							["hit"] = 7,
-							["casts"] = 11,
-							["critical"] = 4,
-							["amount"] = 32930,
-							["school"] = 1,
-							["criticalmin"] = 4173,
 							["criticalmax"] = 5185,
+							["criticalmin"] = 4173,
+							["casts"] = 11,
+							["hitmax"] = 2296,
+							["hit"] = 7,
+							["school"] = 1,
+							["amount"] = 32930,
+							["critical"] = 4,
 							["hitamount"] = 14687,
 						},
 					},
-					["heal"] = 0,
-					["totaldamage"] = 144681,
-					["role"] = "DAMAGER",
+					["name"] = "Finalwield",
+					["sunder"] = 3,
+					["rage"] = 71,
 				}, -- [7]
 				{
 					["overheal"] = 261659,
 					["last"] = 8288.945,
-					["class"] = "SHAMAN",
-					["manaspells"] = {
-						[57961] = 2952,
-						[55382] = 600,
-					},
 					["flag"] = 1300,
-					["spec"] = 264,
+					["class"] = "SHAMAN",
 					["healspells"] = {
 						[55459] = {
 							["overheal"] = 185064,
@@ -19353,9 +19332,9 @@ SkadaStorageDB = {
 									["overheal"] = 8577,
 									["amount"] = 8355,
 								},
-								["Nafoo"] = {
-									["overheal"] = 24307,
-									["amount"] = 0,
+								["Ebonmoo"] = {
+									["overheal"] = 115943,
+									["amount"] = 15288,
 								},
 								["Lottle"] = {
 									["overheal"] = 33776,
@@ -19365,19 +19344,19 @@ SkadaStorageDB = {
 									["overheal"] = 2461,
 									["amount"] = 2318,
 								},
-								["Ebonmoo"] = {
-									["overheal"] = 115943,
-									["amount"] = 15288,
+								["Nafoo"] = {
+									["overheal"] = 24307,
+									["amount"] = 0,
 								},
 							},
-							["casts"] = 15,
 							["min"] = 327,
-							["criticalmax"] = 8355,
+							["casts"] = 15,
 							["critical"] = 14,
 							["amount"] = 35815,
 							["school"] = 8,
-							["criticalmin"] = 0,
 							["count"] = 21,
+							["criticalmin"] = 0,
+							["criticalmax"] = 8355,
 						},
 						[52752] = {
 							["overheal"] = 4359,
@@ -19404,59 +19383,53 @@ SkadaStorageDB = {
 									["overheal"] = 4628,
 									["amount"] = 2432,
 								},
-								["Ebonmoo"] = {
-									["overheal"] = 5287,
-									["amount"] = 0,
-								},
 								["Nafoo"] = {
 									["overheal"] = 9002,
 									["amount"] = 0,
 								},
+								["Ebonmoo"] = {
+									["overheal"] = 5287,
+									["amount"] = 0,
+								},
 							},
-							["criticalmin"] = 0,
 							["min"] = 1010,
 							["casts"] = 4,
 							["count"] = 11,
 							["amount"] = 2432,
 							["school"] = 8,
-							["criticalmax"] = 0,
 							["critical"] = 1,
+							["criticalmax"] = 0,
+							["criticalmin"] = 0,
 						},
 						[52000] = {
 							["overheal"] = 13120,
-							["max"] = 970,
-							["count"] = 17,
-							["amount"] = 2808,
-							["school"] = 8,
-							["min"] = 909,
-							["ishot"] = true,
 							["targets"] = {
-								["Lottle"] = {
-									["overheal"] = 5667,
-									["amount"] = 0,
-								},
 								["Ebonmoo"] = {
 									["overheal"] = 7453,
 									["amount"] = 2808,
 								},
+								["Lottle"] = {
+									["overheal"] = 5667,
+									["amount"] = 0,
+								},
 							},
+							["count"] = 17,
+							["amount"] = 2808,
+							["max"] = 970,
+							["min"] = 909,
+							["ishot"] = true,
+							["school"] = 8,
 						},
 						[70809] = {
 							["overheal"] = 30805,
-							["max"] = 2932,
-							["count"] = 30,
-							["amount"] = 10616,
-							["school"] = 8,
-							["min"] = 678,
-							["ishot"] = true,
 							["targets"] = {
 								["Someway"] = {
 									["overheal"] = 2296,
 									["amount"] = 0,
 								},
-								["Nafoo"] = {
-									["overheal"] = 3615,
-									["amount"] = 0,
+								["Ebonmoo"] = {
+									["overheal"] = 13908,
+									["amount"] = 10616,
 								},
 								["Lottle"] = {
 									["overheal"] = 9673,
@@ -19466,11 +19439,17 @@ SkadaStorageDB = {
 									["overheal"] = 1313,
 									["amount"] = 0,
 								},
-								["Ebonmoo"] = {
-									["overheal"] = 13908,
-									["amount"] = 10616,
+								["Nafoo"] = {
+									["overheal"] = 3615,
+									["amount"] = 0,
 								},
 							},
+							["count"] = 30,
+							["amount"] = 10616,
+							["max"] = 2932,
+							["min"] = 678,
+							["ishot"] = true,
+							["school"] = 8,
 						},
 						[49276] = {
 							["overheal"] = 9394,
@@ -19485,39 +19464,39 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 0,
 							["school"] = 8,
-							["count"] = 1,
 							["criticalmin"] = 0,
+							["count"] = 1,
 						},
 					},
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 55,
 						},
 						[70806] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 11,
 						},
 						[57960] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 68,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 68,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 16,
 						},
 						[57623] = {
@@ -19538,28 +19517,28 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[16237] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
-						[71584] = {
+						[61301] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
+							["count"] = 2,
+							["uptime"] = 14,
 						},
 						[71220] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 8,
 							["uptime"] = 40,
 						},
 						[53390] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 17,
 							["school"] = 1,
+							["refresh"] = 17,
 							["uptime"] = 58,
 						},
 						[57669] = {
@@ -19572,29 +19551,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[70809] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 9,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 58,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 12,
-						},
-						[19506] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
 						[48090] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -19602,41 +19558,359 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 64,
 						},
-						[61301] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 14,
-						},
-					},
-					["id"] = "0x070000000002F23A",
-					["time"] = 33.52,
-					["mana"] = 3552,
-					["role"] = "HEALER",
-					["name"] = "Nafoo",
-					["heal"] = 51671,
-				}, -- [8]
-				{
-					["last"] = 8284.442999999999,
-					["flag"] = 1300,
-					["mana"] = 5571,
-					["auras"] = {
-						[48066] = {
+						[54043] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 58,
+						},
+						[47753] = {
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[70809] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[71584] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["heal"] = 51671,
+					["role"] = "HEALER",
+					["manaspells"] = {
+						[57961] = 2952,
+						[55382] = 600,
+					},
+					["name"] = "Nafoo",
+					["mana"] = 3552,
+					["time"] = 33.52,
+					["id"] = "0x070000000002F23A",
+					["spec"] = 264,
+				}, -- [8]
+				{
+					["damagespells"] = {
+						["Piercing Shots (DoT)"] = {
+							["hitmin"] = 105,
+							["id"] = 63468,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 15176,
+								},
+							},
+							["count"] = 38,
+							["hit"] = 38,
+							["school"] = 1,
+							["hitmax"] = 661,
+							["amount"] = 15176,
+							["hitamount"] = 15176,
+						},
+						["Chimera Shot"] = {
+							["count"] = 5,
+							["hitmin"] = 3071,
+							["criticalamount"] = 25204,
+							["id"] = 53209,
+							["criticalmax"] = 8438,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 28275,
+								},
+							},
+							["critical"] = 4,
+							["amount"] = 28275,
+							["casts"] = 5,
+							["hitmax"] = 3071,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 2215,
+							["criticalmin"] = 2688,
+							["hitamount"] = 3071,
+						},
+						["Serpent Sting (DoT)"] = {
+							["criticalmin"] = 619,
+							["hitmin"] = 248,
+							["criticalamount"] = 4851,
+							["id"] = 49001,
+							["amount"] = 9415,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 9415,
+								},
+							},
+							["criticalmax"] = 1484,
+							["count"] = 15,
+							["casts"] = 2,
+							["hitmax"] = 646,
+							["hit"] = 9,
+							["school"] = 8,
+							["resisted"] = 354,
+							["critical"] = 6,
+							["hitamount"] = 4564,
+						},
+						["Auto Shot"] = {
+							["hitmin"] = 788,
+							["criticalamount"] = 29246,
+							["id"] = 75,
+							["count"] = 21,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 50625,
+								},
+							},
+							["criticalmax"] = 4404,
+							["criticalmin"] = 1606,
+							["casts"] = 1,
+							["hitmax"] = 2274,
+							["hit"] = 11,
+							["school"] = 1,
+							["amount"] = 50625,
+							["critical"] = 10,
+							["hitamount"] = 21379,
+						},
+						["Pin (Crab)"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 53548,
+						},
+						["Claw (Crab)"] = {
+							["hitmin"] = 249,
+							["criticalamount"] = 582,
+							["id"] = 52472,
+							["criticalmin"] = 582,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 8481,
+								},
+							},
+							["amount"] = 8481,
+							["hitmax"] = 506,
+							["criticalmax"] = 582,
+							["critical"] = 1,
+							["hit"] = 25,
+							["school"] = 1,
+							["count"] = 26,
+							["casts"] = 1,
+							["hitamount"] = 7899,
+						},
+						["Arcane Shot"] = {
+							["count"] = 4,
+							["hitmin"] = 1428,
+							["criticalamount"] = 10640,
+							["id"] = 49045,
+							["criticalmax"] = 3843,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 12068,
+								},
+							},
+							["critical"] = 3,
+							["amount"] = 12068,
+							["casts"] = 4,
+							["hitmax"] = 1428,
+							["hit"] = 1,
+							["school"] = 64,
+							["resisted"] = 768,
+							["criticalmin"] = 3085,
+							["hitamount"] = 1428,
+						},
+						["Steady Shot"] = {
+							["hitmin"] = 788,
+							["criticalamount"] = 17397,
+							["id"] = 49052,
+							["criticalmin"] = 1900,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 26624,
+								},
+							},
+							["amount"] = 26624,
+							["hitmax"] = 2037,
+							["criticalmax"] = 4941,
+							["critical"] = 5,
+							["hit"] = 6,
+							["school"] = 1,
+							["count"] = 11,
+							["casts"] = 11,
+							["hitamount"] = 9227,
+						},
+						["Kill Shot"] = {
+							["hitmin"] = 5947,
+							["id"] = 61006,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 5947,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 5947,
+							["amount"] = 5947,
+							["hitamount"] = 5947,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["criticalamount"] = 12391,
+							["hitmin"] = 2049,
+							["criticalmin"] = 4010,
+							["id"] = 53254,
+							["criticalmax"] = 4284,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 14440,
+								},
+							},
+							["critical"] = 3,
+							["amount"] = 14440,
+							["casts"] = 1,
+							["hitmax"] = 2049,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 931,
+							["count"] = 4,
+							["hitamount"] = 2049,
+						},
+						["Thunderstomp (Crab)"] = {
+							["hitmin"] = 438,
+							["id"] = 63900,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 2986,
+								},
+							},
+							["count"] = 6,
+							["casts"] = 1,
+							["hitmax"] = 551,
+							["hit"] = 6,
+							["school"] = 8,
+							["resisted"] = 279,
+							["amount"] = 2986,
+							["hitamount"] = 2986,
+						},
+						["Aimed Shot"] = {
+							["hitmin"] = 1149,
+							["criticalamount"] = 18344,
+							["id"] = 49050,
+							["criticalmin"] = 5078,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 19493,
+								},
+							},
+							["amount"] = 19493,
+							["hitmax"] = 1149,
+							["criticalmax"] = 6880,
+							["critical"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 4,
+							["casts"] = 4,
+							["hitamount"] = 1149,
+						},
+						["Chimera Shot - Serpent"] = {
+							["criticalamount"] = 1915,
+							["hitmin"] = 1502,
+							["criticalmin"] = 1915,
+							["id"] = 53353,
+							["criticalmax"] = 1915,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 8810,
+								},
+							},
+							["critical"] = 1,
+							["amount"] = 8810,
+							["casts"] = 1,
+							["hitmax"] = 1807,
+							["hit"] = 4,
+							["school"] = 8,
+							["resisted"] = 166,
+							["count"] = 5,
+							["hitamount"] = 6895,
+						},
+						["Melee (Crab)"] = {
+							["glance"] = 1306,
+							["hitmin"] = 288,
+							["criticalmin"] = 590,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 14494,
+								},
+							},
+							["glancing"] = 5,
+							["amount"] = 14494,
+							["glancemin"] = 240,
+							["criticalamount"] = 3924,
+							["id"] = 6603,
+							["glancemax"] = 326,
+							["criticalmax"] = 710,
+							["hitmax"] = 373,
+							["hit"] = 28,
+							["school"] = 1,
+							["critical"] = 6,
+							["count"] = 39,
+							["hitamount"] = 9264,
+						},
+						["Charge (Crab)"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 53148,
+						},
+					},
+					["last"] = 8284.442999999999,
+					["role"] = "DAMAGER",
+					["id"] = "0x07000000009D1361",
+					["flag"] = 1300,
+					["mana"] = 5571,
+					["manaspells"] = {
+						[34074] = 1820,
+						[34075] = 3751,
+					},
+					["auras"] = {
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 30,
 						},
 						[19880] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 50,
 						},
 						[34026] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[49001] = {
@@ -19646,18 +19920,18 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 2,
 									["refresh"] = 5,
+									["count"] = 2,
 									["uptime"] = 50,
 								},
 							},
 							["uptime"] = 50,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 6,
-							["uptime"] = 68,
 						},
 						[53220] = {
 							["type"] = "BUFF",
@@ -19667,15 +19941,15 @@ SkadaStorageDB = {
 							["uptime"] = 4,
 						},
 						[57623] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 4,
-							["uptime"] = 68,
 						},
 						[61685] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 						[55610] = {
@@ -19684,55 +19958,45 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[1742] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[61847] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 55,
 						},
-						[19882] = {
+						[34074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[48090] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 16,
-						},
-						[53338] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["targets"] = {
-								["Toravon the Ice Watcher"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Frost Warder"] = {
-									["uptime"] = 27,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 30,
+							["refresh"] = 4,
+							["uptime"] = 64,
 						},
 						[53480] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 19,
 						},
 						[71559] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 26,
 						},
 						[6150] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[49050] = {
@@ -19764,342 +20028,62 @@ SkadaStorageDB = {
 							["refresh"] = 10,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 2,
 									["refresh"] = 10,
+									["count"] = 2,
 									["uptime"] = 45,
 								},
 							},
 							["uptime"] = 45,
-						},
-						[70893] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
 						},
 						[19506] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 64,
-						},
-						[34074] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 68,
+						},
+						[70893] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 10,
+						},
+						[53338] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["targets"] = {
+								["Toravon the Ice Watcher"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Frost Warder"] = {
+									["uptime"] = 27,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 30,
+						},
+						[19882] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 16,
 						},
 					},
 					["energyspells"] = {
 						[34952] = 875,
 					},
-					["time"] = 54.98000000000001,
-					["damage"] = 216834,
-					["damagespells"] = {
-						["Piercing Shots (DoT)"] = {
-							["hitmin"] = 105,
-							["id"] = 63468,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 15176,
-								},
-							},
-							["count"] = 38,
-							["hit"] = 38,
-							["school"] = 1,
-							["hitmax"] = 661,
-							["amount"] = 15176,
-							["hitamount"] = 15176,
-						},
-						["Chimera Shot"] = {
-							["hitmax"] = 3071,
-							["hitmin"] = 3071,
-							["criticalamount"] = 25204,
-							["id"] = 53209,
-							["count"] = 5,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 28275,
-								},
-							},
-							["hit"] = 1,
-							["criticalmin"] = 2688,
-							["casts"] = 5,
-							["critical"] = 4,
-							["amount"] = 28275,
-							["school"] = 8,
-							["resisted"] = 2215,
-							["criticalmax"] = 8438,
-							["hitamount"] = 3071,
-						},
-						["Serpent Sting (DoT)"] = {
-							["casts"] = 2,
-							["hitmin"] = 248,
-							["criticalamount"] = 4851,
-							["id"] = 49001,
-							["criticalmin"] = 619,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 9415,
-								},
-							},
-							["hitmax"] = 646,
-							["critical"] = 6,
-							["criticalmax"] = 1484,
-							["count"] = 15,
-							["hit"] = 9,
-							["school"] = 8,
-							["resisted"] = 354,
-							["amount"] = 9415,
-							["hitamount"] = 4564,
-						},
-						["Auto Shot"] = {
-							["hitmin"] = 788,
-							["criticalamount"] = 29246,
-							["id"] = 75,
-							["hitmax"] = 2274,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 50625,
-								},
-							},
-							["count"] = 21,
-							["hit"] = 11,
-							["casts"] = 1,
-							["critical"] = 10,
-							["amount"] = 50625,
-							["school"] = 1,
-							["criticalmin"] = 1606,
-							["criticalmax"] = 4404,
-							["hitamount"] = 21379,
-						},
-						["Pin (Crab)"] = {
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 2,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 53548,
-						},
-						["Claw (Crab)"] = {
-							["hitmin"] = 249,
-							["criticalamount"] = 582,
-							["id"] = 52472,
-							["criticalmin"] = 582,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 8481,
-								},
-							},
-							["criticalmax"] = 582,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 26,
-							["hit"] = 25,
-							["school"] = 1,
-							["hitmax"] = 506,
-							["amount"] = 8481,
-							["hitamount"] = 7899,
-						},
-						["Arcane Shot"] = {
-							["hitmax"] = 1428,
-							["hitmin"] = 1428,
-							["criticalamount"] = 10640,
-							["id"] = 49045,
-							["count"] = 4,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 12068,
-								},
-							},
-							["hit"] = 1,
-							["criticalmin"] = 3085,
-							["casts"] = 4,
-							["critical"] = 3,
-							["amount"] = 12068,
-							["school"] = 64,
-							["resisted"] = 768,
-							["criticalmax"] = 3843,
-							["hitamount"] = 1428,
-						},
-						["Steady Shot"] = {
-							["hitmin"] = 788,
-							["criticalamount"] = 17397,
-							["id"] = 49052,
-							["criticalmin"] = 1900,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 26624,
-								},
-							},
-							["criticalmax"] = 4941,
-							["critical"] = 5,
-							["casts"] = 11,
-							["count"] = 11,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 2037,
-							["amount"] = 26624,
-							["hitamount"] = 9227,
-						},
-						["Kill Shot"] = {
-							["hitmin"] = 5947,
-							["id"] = 61006,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 5947,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 5947,
-							["amount"] = 5947,
-							["hitamount"] = 5947,
-						},
-						["Wild Quiver Auto Shot"] = {
-							["criticalmin"] = 4010,
-							["hitmin"] = 2049,
-							["criticalamount"] = 12391,
-							["id"] = 53254,
-							["hitmax"] = 2049,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 14440,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 3,
-							["amount"] = 14440,
-							["school"] = 8,
-							["resisted"] = 931,
-							["criticalmax"] = 4284,
-							["hitamount"] = 2049,
-						},
-						["Chimera Shot - Serpent"] = {
-							["criticalmin"] = 1915,
-							["hitmin"] = 1502,
-							["criticalamount"] = 1915,
-							["id"] = 53353,
-							["hitmax"] = 1807,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 8810,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 4,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 8810,
-							["school"] = 8,
-							["resisted"] = 166,
-							["criticalmax"] = 1915,
-							["hitamount"] = 6895,
-						},
-						["Aimed Shot"] = {
-							["hitmin"] = 1149,
-							["criticalamount"] = 18344,
-							["id"] = 49050,
-							["criticalmin"] = 5078,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 19493,
-								},
-							},
-							["criticalmax"] = 6880,
-							["critical"] = 3,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1149,
-							["amount"] = 19493,
-							["hitamount"] = 1149,
-						},
-						["Melee (Crab)"] = {
-							["glance"] = 1306,
-							["hitmin"] = 288,
-							["criticalmin"] = 590,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 14494,
-								},
-							},
-							["glancing"] = 5,
-							["amount"] = 14494,
-							["glancemin"] = 240,
-							["criticalamount"] = 3924,
-							["id"] = 6603,
-							["glancemax"] = 326,
-							["criticalmax"] = 710,
-							["hitmax"] = 373,
-							["hit"] = 28,
-							["school"] = 1,
-							["critical"] = 6,
-							["count"] = 39,
-							["hitamount"] = 9264,
-						},
-						["Thunderstomp (Crab)"] = {
-							["hitmin"] = 438,
-							["id"] = 63900,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 2986,
-								},
-							},
-							["hitmax"] = 551,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["resisted"] = 279,
-							["amount"] = 2986,
-							["hitamount"] = 2986,
-						},
-						["Charge (Crab)"] = {
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 2,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 53148,
-						},
-					},
-					["id"] = "0x07000000009D1361",
-					["spec"] = 254,
 					["totaldamage"] = 216834,
-					["name"] = "Paopaozhu",
+					["time"] = 54.98000000000001,
 					["class"] = "HUNTER",
-					["manaspells"] = {
-						[34074] = 1820,
-						[34075] = 3751,
-					},
+					["name"] = "Paopaozhu",
+					["spec"] = 254,
 					["energy"] = 875,
-					["role"] = "DAMAGER",
+					["damage"] = 216834,
 				}, -- [9]
 				{
 					["last"] = 8284.339,
@@ -20126,16 +20110,16 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[75466] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[57623] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 4,
-							["uptime"] = 68,
 						},
 						[16237] = {
 							["type"] = "BUFF",
@@ -20180,8 +20164,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 42,
 								},
 							},
@@ -20194,41 +20178,41 @@ SkadaStorageDB = {
 							["refresh"] = 16,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 2,
 									["refresh"] = 16,
+									["count"] = 2,
 									["uptime"] = 42,
 								},
 							},
 							["uptime"] = 42,
 						},
 						[61301] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 11,
 						},
 						[63321] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 5,
-							["uptime"] = 68,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[64713] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[57669] = {
@@ -20264,15 +20248,15 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[71165] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 19,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 28,
 						},
 						[51470] = {
@@ -20280,29 +20264,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[47855] = {
+						[63944] = {
+							["uptime"] = 68,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[70809] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[54508] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Frost Warder"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 5,
-						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
+							["uptime"] = 29,
 						},
 						[63167] = {
 							["type"] = "BUFF",
@@ -20316,26 +20295,32 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[54508] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 29,
-						},
-						[70809] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 22,
-						},
-						[63944] = {
+						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 68,
+							["uptime"] = 15,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[47855] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Frost Warder"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
 						},
 					},
+					["totaldamage"] = 381164,
 					["time"] = 56.22000000000001,
 					["totaldamagetaken"] = 20796,
 					["damage"] = 381164,
@@ -20348,9 +20333,9 @@ SkadaStorageDB = {
 									["amount"] = 20252,
 								},
 							},
-							["hitmax"] = 1164,
-							["casts"] = 4,
 							["count"] = 19,
+							["casts"] = 4,
+							["hitmax"] = 1164,
 							["hit"] = 19,
 							["school"] = 32,
 							["resisted"] = 895,
@@ -20361,62 +20346,62 @@ SkadaStorageDB = {
 							["hitmin"] = 4801,
 							["criticalamount"] = 31621,
 							["id"] = 47838,
-							["hitmax"] = 4832,
+							["count"] = 5,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 41254,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 2,
-							["casts"] = 4,
-							["critical"] = 3,
-							["amount"] = 41254,
-							["school"] = 4,
-							["criticalmin"] = 10124,
 							["criticalmax"] = 11056,
+							["criticalmin"] = 10124,
+							["casts"] = 4,
+							["hitmax"] = 4832,
+							["hit"] = 2,
+							["school"] = 4,
+							["amount"] = 41254,
+							["critical"] = 3,
 							["hitamount"] = 9633,
 						},
 						["Immolate"] = {
-							["criticalmin"] = 3246,
-							["hitmin"] = 1746,
 							["criticalamount"] = 3246,
+							["hitmin"] = 1746,
+							["criticalmin"] = 3246,
 							["id"] = 47811,
-							["criticalmax"] = 3246,
+							["amount"] = 4992,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 4992,
 								},
 							},
-							["critical"] = 1,
-							["hitmax"] = 1746,
 							["casts"] = 2,
 							["count"] = 2,
+							["criticalmax"] = 3246,
+							["critical"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 194,
-							["amount"] = 4992,
+							["hitmax"] = 1746,
 							["hitamount"] = 1746,
 						},
 						["Shadow Bolt"] = {
-							["hitmax"] = 7513,
+							["criticalmin"] = 8932,
 							["hitmin"] = 4609,
 							["criticalamount"] = 139713,
 							["id"] = 47809,
-							["criticalmin"] = 8932,
+							["amount"] = 172600,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 172600,
 								},
 							},
-							["criticalmax"] = 15398,
-							["critical"] = 12,
 							["casts"] = 17,
 							["count"] = 18,
+							["criticalmax"] = 15398,
+							["hitmax"] = 7513,
 							["hit"] = 6,
 							["school"] = 32,
 							["resisted"] = 6503,
-							["amount"] = 172600,
+							["critical"] = 12,
 							["hitamount"] = 32887,
 						},
 						["Intercept (Thooghun)"] = {
@@ -20445,53 +20430,15 @@ SkadaStorageDB = {
 									["amount"] = 17183,
 								},
 							},
+							["amount"] = 17183,
+							["hitmax"] = 1583,
 							["criticalmax"] = 3348,
 							["critical"] = 3,
-							["casts"] = 1,
-							["count"] = 9,
 							["hit"] = 6,
 							["school"] = 1,
-							["hitmax"] = 1583,
-							["amount"] = 17183,
+							["count"] = 9,
+							["casts"] = 1,
 							["hitamount"] = 7889,
-						},
-						["Soul Fire"] = {
-							["criticalamount"] = 34670,
-							["id"] = 47825,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 34670,
-								},
-							},
-							["criticalmin"] = 12968,
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 34670,
-							["school"] = 4,
-							["resisted"] = 3851,
-							["criticalmax"] = 21702,
-							["count"] = 2,
-						},
-						["Immolate (DoT)"] = {
-							["casts"] = 2,
-							["hitmin"] = 807,
-							["criticalamount"] = 15706,
-							["id"] = 47811,
-							["criticalmin"] = 2015,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 24533,
-								},
-							},
-							["hitmax"] = 1205,
-							["critical"] = 7,
-							["criticalmax"] = 2518,
-							["count"] = 16,
-							["hit"] = 9,
-							["school"] = 4,
-							["resisted"] = 2151,
-							["amount"] = 24533,
-							["hitamount"] = 8827,
 						},
 						["Curse of Agony (DoT)"] = {
 							["hitmin"] = 420,
@@ -20501,13 +20448,51 @@ SkadaStorageDB = {
 									["amount"] = 6901,
 								},
 							},
-							["hitmax"] = 699,
 							["count"] = 12,
+							["hitmax"] = 699,
 							["hit"] = 12,
 							["school"] = 32,
 							["resisted"] = 435,
 							["amount"] = 6901,
 							["hitamount"] = 6901,
+						},
+						["Immolate (DoT)"] = {
+							["criticalmin"] = 2015,
+							["hitmin"] = 807,
+							["criticalamount"] = 15706,
+							["id"] = 47811,
+							["amount"] = 24533,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 24533,
+								},
+							},
+							["criticalmax"] = 2518,
+							["count"] = 16,
+							["casts"] = 2,
+							["hitmax"] = 1205,
+							["hit"] = 9,
+							["school"] = 4,
+							["resisted"] = 2151,
+							["critical"] = 7,
+							["hitamount"] = 8827,
+						},
+						["Soul Fire"] = {
+							["criticalamount"] = 34670,
+							["id"] = 47825,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 34670,
+								},
+							},
+							["count"] = 2,
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 34670,
+							["school"] = 4,
+							["resisted"] = 3851,
+							["criticalmax"] = 21702,
+							["criticalmin"] = 12968,
 						},
 						["Melee (Thooghun)"] = {
 							["glance"] = 9306,
@@ -20524,13 +20509,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 29880,
 							["id"] = 6603,
 							["glancemax"] = 1169,
-							["blocked"] = 41,
+							["hit"] = 15,
 							["criticalmax"] = 3418,
 							["hitmax"] = 1624,
-							["hit"] = 15,
+							["blocked"] = 41,
 							["school"] = 1,
-							["critical"] = 11,
 							["count"] = 35,
+							["critical"] = 11,
 							["hitamount"] = 19448,
 						},
 					},
@@ -20552,18 +20537,18 @@ SkadaStorageDB = {
 						},
 						[47893] = {
 							["overheal"] = 5520,
-							["max"] = 552,
-							["count"] = 14,
-							["amount"] = 2208,
-							["school"] = 32,
-							["min"] = 552,
-							["ishot"] = true,
 							["targets"] = {
 								["Lottle"] = {
 									["overheal"] = 5520,
 									["amount"] = 2208,
 								},
 							},
+							["count"] = 14,
+							["amount"] = 2208,
+							["max"] = 552,
+							["min"] = 552,
+							["ishot"] = true,
+							["school"] = 32,
 						},
 					},
 					["damagetakenspells"] = {
@@ -20573,8 +20558,8 @@ SkadaStorageDB = {
 							["id"] = 72124,
 							["sources"] = {
 								["Frost Warder"] = {
-									["total"] = 20796,
 									["amount"] = 9276,
+									["total"] = 20796,
 								},
 							},
 							["count"] = 1,
@@ -20585,59 +20570,58 @@ SkadaStorageDB = {
 							["hitamount"] = 9276,
 						},
 					},
+					["heal"] = 2208,
 					["manaspells"] = {
 						[31818] = 21873,
 						[32553] = 21873,
 					},
-					["heal"] = 2208,
-					["name"] = "Lottle",
-					["mana"] = 43746,
-					["overheal"] = 51601,
-					["totaldamage"] = 381164,
 					["role"] = "DAMAGER",
+					["overheal"] = 51601,
+					["mana"] = 43746,
+					["name"] = "Lottle",
 				}, -- [10]
 				{
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmax"] = 7434,
+							["count"] = 11,
 							["hitmin"] = 7434,
 							["criticalamount"] = 152024,
 							["id"] = 42833,
-							["count"] = 11,
+							["criticalmax"] = 19087,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 159458,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 12363,
-							["casts"] = 11,
 							["critical"] = 10,
 							["amount"] = 159458,
+							["casts"] = 11,
+							["hitmax"] = 7434,
+							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 4998,
-							["criticalmax"] = 19087,
+							["criticalmin"] = 12363,
 							["hitamount"] = 7434,
 						},
 						["Pyroblast"] = {
-							["hitmax"] = 7970,
+							["count"] = 7,
 							["hitmin"] = 7383,
 							["criticalamount"] = 89358,
 							["id"] = 42891,
-							["count"] = 7,
+							["criticalmax"] = 21518,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 104711,
 								},
 							},
-							["hit"] = 2,
-							["criticalmin"] = 14887,
-							["casts"] = 7,
 							["critical"] = 5,
 							["amount"] = 104711,
+							["casts"] = 7,
+							["hitmax"] = 7970,
+							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 4172,
-							["criticalmax"] = 21518,
+							["criticalmin"] = 14887,
 							["hitamount"] = 15353,
 						},
 						["Pyroblast (DoT)"] = {
@@ -20648,8 +20632,8 @@ SkadaStorageDB = {
 									["amount"] = 8021,
 								},
 							},
-							["hitmax"] = 1651,
 							["count"] = 7,
+							["hitmax"] = 1651,
 							["hit"] = 7,
 							["school"] = 4,
 							["resisted"] = 102,
@@ -20664,8 +20648,8 @@ SkadaStorageDB = {
 									["amount"] = 59788,
 								},
 							},
-							["hitmax"] = 19723,
 							["count"] = 9,
+							["hitmax"] = 19723,
 							["hit"] = 9,
 							["school"] = 4,
 							["resisted"] = 4289,
@@ -20680,31 +20664,35 @@ SkadaStorageDB = {
 									["amount"] = 8505,
 								},
 							},
-							["criticalmin"] = 4246,
+							["count"] = 2,
 							["casts"] = 2,
 							["critical"] = 2,
 							["amount"] = 8505,
 							["school"] = 4,
 							["resisted"] = 1061,
 							["criticalmax"] = 4259,
-							["count"] = 2,
+							["criticalmin"] = 4246,
 						},
-						["Living Bomb"] = {
-							["criticalamount"] = 9595,
-							["id"] = 55362,
+						["Fire Blast"] = {
+							["count"] = 5,
+							["hitmin"] = 3211,
+							["criticalamount"] = 25768,
+							["id"] = 42873,
+							["criticalmax"] = 8888,
 							["targets"] = {
 								["Frost Warder"] = {
-									["amount"] = 9595,
+									["amount"] = 28979,
 								},
 							},
-							["criticalmin"] = 4518,
-							["casts"] = 4,
-							["critical"] = 2,
-							["amount"] = 9595,
+							["critical"] = 4,
+							["amount"] = 28979,
+							["casts"] = 5,
+							["hitmax"] = 3211,
+							["hit"] = 1,
 							["school"] = 4,
-							["resisted"] = 564,
-							["criticalmax"] = 5077,
-							["count"] = 2,
+							["resisted"] = 540,
+							["criticalmin"] = 4869,
+							["hitamount"] = 3211,
 						},
 						["Living Bomb (DoT)"] = {
 							["hitmin"] = 886,
@@ -20716,49 +20704,43 @@ SkadaStorageDB = {
 									["amount"] = 23840,
 								},
 							},
-							["hitmax"] = 1745,
-							["critical"] = 7,
-							["criticalmax"] = 2854,
+							["amount"] = 23840,
 							["count"] = 14,
+							["criticalmax"] = 2854,
+							["hitmax"] = 1745,
 							["hit"] = 7,
 							["school"] = 4,
 							["resisted"] = 1782,
-							["amount"] = 23840,
+							["critical"] = 7,
 							["hitamount"] = 8749,
 						},
-						["Fire Blast"] = {
-							["hitmax"] = 3211,
-							["hitmin"] = 3211,
-							["criticalamount"] = 25768,
-							["id"] = 42873,
-							["count"] = 5,
+						["Living Bomb"] = {
+							["criticalamount"] = 9595,
+							["id"] = 55362,
 							["targets"] = {
 								["Frost Warder"] = {
-									["amount"] = 28979,
+									["amount"] = 9595,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 4869,
-							["casts"] = 5,
-							["critical"] = 4,
-							["amount"] = 28979,
+							["count"] = 2,
+							["casts"] = 4,
+							["critical"] = 2,
+							["amount"] = 9595,
 							["school"] = 4,
-							["resisted"] = 540,
-							["criticalmax"] = 8888,
-							["hitamount"] = 3211,
+							["resisted"] = 564,
+							["criticalmax"] = 5077,
+							["criticalmin"] = 4518,
 						},
 					},
 					["last"] = 8284.444,
-					["class"] = "MAGE",
-					["totaldamage"] = 402897,
 					["flag"] = 1300,
+					["class"] = "MAGE",
 					["mana"] = 2831,
-					["id"] = "0x070000000093948F",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[43046] = {
@@ -20767,22 +20749,22 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 68,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[57623] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 68,
 						},
 						[54648] = {
 							["type"] = "BUFF",
@@ -20801,43 +20783,47 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["targets"] = {
+								["Frost Warder"] = {
+									["uptime"] = 43,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 43,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 28,
+							["targets"] = {
+								["Frost Warder"] = {
+									["refresh"] = 28,
+									["count"] = 2,
+									["uptime"] = 46,
+								},
+							},
+							["uptime"] = 46,
+						},
+						[71636] = {
 							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[48090] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 64,
-						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 20,
 						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[42891] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 33,
-							["school"] = 4,
-							["refresh"] = 5,
-							["targets"] = {
-								["Frost Warder"] = {
-									["count"] = 2,
-									["refresh"] = 5,
-									["uptime"] = 33,
-								},
-							},
-							["count"] = 2,
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 61,
 						},
 						[70753] = {
 							["type"] = "BUFF",
@@ -20858,27 +20844,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 24,
 						},
-						[12536] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 64,
-							["uptime"] = 3,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 61,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
 						[48108] = {
 							["type"] = "BUFF",
 							["count"] = 7,
@@ -20886,54 +20851,73 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 10,
 						},
-						[47753] = {
+						[48090] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 64,
+						},
+						[75473] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[47753] = {
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[71636] = {
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 3,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 33,
+							["school"] = 4,
+							["refresh"] = 5,
+							["targets"] = {
+								["Frost Warder"] = {
+									["refresh"] = 5,
+									["count"] = 2,
+									["uptime"] = 33,
+								},
+							},
+							["count"] = 2,
+						},
+						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 20,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["refresh"] = 28,
-							["targets"] = {
-								["Frost Warder"] = {
-									["count"] = 2,
-									["refresh"] = 28,
-									["uptime"] = 46,
-								},
-							},
-							["uptime"] = 46,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 4,
-							["targets"] = {
-								["Frost Warder"] = {
-									["uptime"] = 43,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 43,
+							["uptime"] = 10,
 						},
 					},
-					["spec"] = 63,
+					["name"] = "Karshash",
+					["totaldamage"] = 402897,
 					["time"] = 54.98999999999999,
+					["role"] = "DAMAGER",
 					["manaspells"] = {
 						[29077] = 2893,
 						[67545] = 585,
 						[44450] = -647,
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Karshash",
+					["spec"] = 63,
+					["id"] = "0x070000000093948F",
 					["damage"] = 402897,
 				}, -- [11]
 				{
@@ -20952,45 +20936,21 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[59626] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 18,
-						},
 						[15258] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 78,
-							["uptime"] = 68,
-						},
-						[48160] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 32,
-							["targets"] = {
-								["Frost Warder"] = {
-									["uptime"] = 38,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 38,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[32409] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 1,
 						},
 						[48125] = {
 							["type"] = "DEBUFF",
@@ -20999,12 +20959,23 @@ SkadaStorageDB = {
 							["refresh"] = 11,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 1,
 									["refresh"] = 11,
+									["count"] = 1,
 									["uptime"] = 24,
 								},
 							},
 							["uptime"] = 24,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
+						[32409] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 1,
 						},
 						[33198] = {
 							["type"] = "DEBUFF",
@@ -21013,12 +20984,36 @@ SkadaStorageDB = {
 							["refresh"] = 14,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 1,
 									["refresh"] = 14,
+									["count"] = 1,
 									["uptime"] = 25,
 								},
 							},
 							["uptime"] = 25,
+						},
+						[48156] = {
+							["type"] = "BUFF",
+							["count"] = 50,
+							["school"] = 32,
+							["targets"] = {
+								["Frost Warder"] = {
+									["uptime"] = 43,
+									["count"] = 25,
+								},
+							},
+							["uptime"] = 43,
+						},
+						[57623] = {
+							["uptime"] = 68,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+						},
+						[53476] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[48300] = {
 							["type"] = "DEBUFF",
@@ -21032,29 +21027,38 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 38,
 						},
-						[53476] = {
+						[61792] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["refresh"] = 35,
 						},
-						[71644] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 20,
+							["uptime"] = 68,
 						},
-						[71643] = {
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 61,
+						},
+						[15286] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 9,
-							["uptime"] = 20,
+							["uptime"] = 68,
+						},
+						[59000] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 10,
+							["uptime"] = 51,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[48090] = {
@@ -21069,51 +21073,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[59000] = {
+						[71643] = {
 							["type"] = "BUFF",
-							["count"] = 3,
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 9,
+							["uptime"] = 20,
+						},
+						[71644] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[59626] = {
 							["school"] = 32,
-							["refresh"] = 10,
-							["uptime"] = 51,
-						},
-						[15286] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 61,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
-						},
-						[61792] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 35,
-							["uptime"] = 68,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 68,
-						},
-						[48156] = {
-							["type"] = "BUFF",
-							["count"] = 50,
-							["school"] = 32,
-							["targets"] = {
-								["Frost Warder"] = {
-									["uptime"] = 43,
-									["count"] = 25,
-								},
-							},
-							["uptime"] = 43,
+							["count"] = 2,
+							["uptime"] = 18,
 						},
 						[19506] = {
 							["type"] = "BUFF",
@@ -21121,17 +21098,25 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[15271] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 7,
 						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 68,
+						[48160] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 32,
+							["targets"] = {
+								["Frost Warder"] = {
+									["uptime"] = 38,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 38,
 						},
 					},
+					["totaldamage"] = 490672,
 					["time"] = 57.65000000000003,
 					["totaldamagetaken"] = 5396,
 					["damage"] = 490672,
@@ -21142,14 +21127,24 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 270712,
-							["max"] = 468,
-							["count"] = 980,
-							["amount"] = 2156,
-							["school"] = 32,
-							["min"] = 137,
-							["ishot"] = true,
 							["targets"] = {
 								["Crab"] = {
+									["overheal"] = 24802,
+									["amount"] = 0,
+								},
+								["Paopaozhu"] = {
+									["overheal"] = 24813,
+									["amount"] = 0,
+								},
+								["Sortpraest"] = {
+									["overheal"] = 124032,
+									["amount"] = 0,
+								},
+								["Magijabebo"] = {
+									["overheal"] = 24160,
+									["amount"] = 650,
+								},
+								["Karshash"] = {
 									["overheal"] = 24802,
 									["amount"] = 0,
 								},
@@ -21157,27 +21152,17 @@ SkadaStorageDB = {
 									["overheal"] = 24803,
 									["amount"] = 0,
 								},
-								["Karshash"] = {
-									["overheal"] = 24802,
-									["amount"] = 0,
-								},
-								["Magijabebo"] = {
-									["overheal"] = 24160,
-									["amount"] = 650,
-								},
 								["Lottle"] = {
 									["overheal"] = 23300,
 									["amount"] = 1506,
 								},
-								["Sortpraest"] = {
-									["overheal"] = 124032,
-									["amount"] = 0,
-								},
-								["Paopaozhu"] = {
-									["overheal"] = 24813,
-									["amount"] = 0,
-								},
 							},
+							["count"] = 980,
+							["amount"] = 2156,
+							["max"] = 468,
+							["min"] = 137,
+							["ishot"] = true,
+							["school"] = 32,
 						},
 						[48300] = {
 							["overheal"] = 10568,
@@ -21205,8 +21190,8 @@ SkadaStorageDB = {
 							["critical"] = 3,
 							["amount"] = 0,
 							["school"] = 32,
-							["count"] = 3,
 							["criticalmin"] = 0,
+							["count"] = 3,
 						},
 					},
 					["damagetakenspells"] = {
@@ -21215,144 +21200,143 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["ABSORB"] = 1,
 							["id"] = 32409,
+							["ABSORB"] = 1,
 						},
 					},
 					["heal"] = 2156,
 					["name"] = "Sortpraest",
-					["overkill"] = 525,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Vampiric Touch (DoT)"] = {
-							["hitmax"] = 3182,
-							["hit"] = 11,
+							["count"] = 22,
+							["criticalmin"] = 4250,
 							["hitmin"] = 2271,
 							["criticalamount"] = 53754,
 							["id"] = 48160,
-							["casts"] = 6,
+							["critical"] = 11,
 							["targets"] = {
 								["Frost Warder"] = {
-									["overkill"] = 525,
 									["amount"] = 84192,
+									["overkill"] = 525,
 								},
 							},
 							["overkill"] = 525,
-							["count"] = 22,
-							["criticalmax"] = 5522,
-							["critical"] = 11,
 							["amount"] = 84192,
+							["casts"] = 6,
+							["hitmax"] = 3182,
+							["hit"] = 11,
 							["school"] = 32,
 							["resisted"] = 4394,
-							["criticalmin"] = 4250,
+							["criticalmax"] = 5522,
 							["hitamount"] = 30438,
 						},
-						["Devouring Plague (DoT)"] = {
-							["casts"] = 4,
-							["hitmin"] = 1469,
-							["criticalamount"] = 45931,
-							["id"] = 48300,
-							["hit"] = 13,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 70528,
-								},
-							},
-							["hitmax"] = 2318,
-							["count"] = 25,
-							["criticalmax"] = 4361,
-							["critical"] = 12,
-							["amount"] = 70528,
-							["school"] = 32,
-							["resisted"] = 4758,
-							["criticalmin"] = 2951,
-							["hitamount"] = 24597,
-						},
 						["Shadow Word: Pain (DoT)"] = {
-							["casts"] = 2,
+							["count"] = 17,
 							["hitmin"] = 1215,
 							["criticalamount"] = 28536,
 							["id"] = 48125,
-							["hitmax"] = 1707,
+							["criticalmin"] = 2670,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 39887,
 								},
 							},
-							["count"] = 17,
-							["hit"] = 8,
-							["criticalmax"] = 3799,
 							["critical"] = 9,
 							["amount"] = 39887,
+							["casts"] = 2,
+							["hitmax"] = 1707,
+							["hit"] = 8,
 							["school"] = 32,
 							["resisted"] = 2728,
-							["criticalmin"] = 2670,
+							["criticalmax"] = 3799,
 							["hitamount"] = 11351,
 						},
+						["Devouring Plague (DoT)"] = {
+							["count"] = 25,
+							["hitmin"] = 1469,
+							["criticalamount"] = 45931,
+							["id"] = 48300,
+							["criticalmin"] = 2951,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 70528,
+								},
+							},
+							["critical"] = 12,
+							["amount"] = 70528,
+							["casts"] = 4,
+							["hitmax"] = 2318,
+							["hit"] = 13,
+							["school"] = 32,
+							["resisted"] = 4758,
+							["criticalmax"] = 4361,
+							["hitamount"] = 24597,
+						},
 						["Mind Flay"] = {
-							["hitmax"] = 3253,
+							["criticalmin"] = 4184,
 							["hitmin"] = 1976,
 							["criticalamount"] = 170091,
 							["id"] = 58381,
-							["criticalmin"] = 4184,
+							["amount"] = 267100,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 267100,
 								},
 							},
-							["criticalmax"] = 6212,
-							["critical"] = 32,
 							["casts"] = 25,
 							["count"] = 70,
+							["criticalmax"] = 6212,
+							["hitmax"] = 3253,
 							["hit"] = 38,
 							["school"] = 32,
 							["resisted"] = 14068,
-							["amount"] = 267100,
+							["critical"] = 32,
 							["hitamount"] = 97009,
 						},
 						["Improved Devouring Plague"] = {
 							["hitmin"] = 3712,
 							["criticalamount"] = 12410,
 							["id"] = 63675,
-							["hitmax"] = 3712,
+							["count"] = 3,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 16122,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 16122,
-							["school"] = 32,
-							["criticalmin"] = 5938,
 							["criticalmax"] = 6472,
+							["criticalmin"] = 5938,
+							["casts"] = 1,
+							["hitmax"] = 3712,
+							["hit"] = 1,
+							["school"] = 32,
+							["amount"] = 16122,
+							["critical"] = 2,
 							["hitamount"] = 3712,
 						},
 						["Shadow Word: Death"] = {
-							["criticalmin"] = 9348,
-							["hitmin"] = 3495,
 							["criticalamount"] = 9348,
+							["hitmin"] = 3495,
+							["criticalmin"] = 9348,
 							["id"] = 48158,
-							["hitmax"] = 3495,
+							["criticalmax"] = 9348,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 12843,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
 							["critical"] = 1,
 							["amount"] = 12843,
+							["casts"] = 2,
+							["hitmax"] = 3495,
+							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 388,
-							["criticalmax"] = 9348,
+							["count"] = 2,
 							["hitamount"] = 3495,
 						},
 					},
-					["totaldamage"] = 490672,
-					["role"] = "DAMAGER",
+					["overkill"] = 525,
 				}, -- [12]
 				{
 					["last"] = 8284.209000000001,
@@ -21360,27 +21344,27 @@ SkadaStorageDB = {
 					["mana"] = 3985,
 					["auras"] = {
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[12536] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 64,
 							["uptime"] = 7,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 68,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[54646] = {
@@ -21395,17 +21379,17 @@ SkadaStorageDB = {
 							["refresh"] = 23,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 3,
 									["refresh"] = 23,
+									["count"] = 3,
 									["uptime"] = 43,
 								},
 							},
 							["uptime"] = 43,
 						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 5,
 						},
 						[55610] = {
@@ -21413,48 +21397,36 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[48068] = {
+						[48108] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 3,
+							["count"] = 7,
+							["uptime"] = 18,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 8,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 19,
 						},
-						[54043] = {
+						[48090] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 68,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 64,
 						},
 						[53476] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 11,
-						},
-						[42891] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["refresh"] = 2,
-							["targets"] = {
-								["Frost Warder"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 28,
-								},
-							},
-							["uptime"] = 28,
 						},
 						[57623] = {
 							["type"] = "BUFF",
@@ -21463,6 +21435,12 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 36,
 						},
+						[43046] = {
+							["school"] = 4,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 51,
+						},
 						[47930] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -21470,11 +21448,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 5,
 						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
 							["school"] = 4,
-							["uptime"] = 51,
+							["targets"] = {
+								["Frost Warder"] = {
+									["uptime"] = 24,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 24,
 						},
 						[70753] = {
 							["type"] = "BUFF",
@@ -21495,44 +21479,37 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 22,
 						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["targets"] = {
-								["Frost Warder"] = {
-									["uptime"] = 24,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 24,
+						[75473] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[57669] = {
 							["school"] = 8,
 							["type"] = "BUFF",
 							["uptime"] = 61,
 						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
+						},
 						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
 						[54758] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 5,
 						},
 						[19506] = {
@@ -21540,66 +21517,74 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[48090] = {
+						[42891] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Frost Warder"] = {
+									["refresh"] = 2,
+									["count"] = 3,
+									["uptime"] = 28,
+								},
+							},
+							["uptime"] = 28,
+						},
+						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 64,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 7,
-							["school"] = 1,
-							["uptime"] = 18,
+							["uptime"] = 3,
 						},
 					},
+					["totaldamage"] = 384040,
 					["time"] = 51.06000000000002,
 					["totaldamagetaken"] = 21654,
 					["damage"] = 384040,
 					["damagespells"] = {
 						["Fireball"] = {
-							["count"] = 16,
-							["criticalmin"] = 10426,
-							["hitmin"] = 6034,
 							["criticalamount"] = 172558,
+							["criticalmax"] = 18579,
+							["hitmin"] = 6034,
+							["criticalmin"] = 10426,
 							["id"] = 42833,
-							["hitmax"] = 8561,
+							["critical"] = 12,
 							["targets"] = {
 								["Frost Warder"] = {
-									["overkill"] = 4593,
 									["amount"] = 202205,
+									["overkill"] = 4593,
 								},
 							},
 							["overkill"] = 4593,
-							["hit"] = 4,
-							["casts"] = 18,
-							["critical"] = 12,
 							["amount"] = 202205,
+							["casts"] = 18,
+							["count"] = 16,
+							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 11286,
-							["criticalmax"] = 18579,
+							["hitmax"] = 8561,
 							["hitamount"] = 29647,
 						},
 						["Pyroblast"] = {
-							["criticalmin"] = 14170,
-							["hitmin"] = 9044,
 							["criticalamount"] = 58788,
+							["hitmin"] = 9044,
+							["criticalmin"] = 14170,
 							["id"] = 42891,
-							["hitmax"] = 9044,
+							["criticalmax"] = 15682,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 67832,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 1,
-							["casts"] = 6,
 							["critical"] = 4,
 							["amount"] = 67832,
+							["casts"] = 6,
+							["hitmax"] = 9044,
+							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 3863,
-							["criticalmax"] = 15682,
+							["count"] = 5,
 							["hitamount"] = 9044,
 						},
 						["Pyroblast (DoT)"] = {
@@ -21610,8 +21595,8 @@ SkadaStorageDB = {
 									["amount"] = 7233,
 								},
 							},
-							["hitmax"] = 1401,
 							["count"] = 7,
+							["hitmax"] = 1401,
 							["hit"] = 7,
 							["school"] = 4,
 							["resisted"] = 306,
@@ -21626,8 +21611,8 @@ SkadaStorageDB = {
 									["amount"] = 63566,
 								},
 							},
-							["hitmax"] = 12731,
 							["count"] = 13,
+							["hitmax"] = 12731,
 							["hit"] = 13,
 							["school"] = 4,
 							["resisted"] = 3190,
@@ -21646,49 +21631,49 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 8796,
 							["school"] = 4,
-							["criticalmin"] = 4286,
-							["criticalmax"] = 4510,
 							["count"] = 2,
+							["criticalmax"] = 4510,
+							["criticalmin"] = 4286,
 						},
 						["Living Bomb (DoT)"] = {
 							["hitmin"] = 1032,
 							["criticalamount"] = 14076,
 							["id"] = 55360,
-							["hitmax"] = 1453,
+							["criticalmin"] = 1907,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 21341,
 								},
 							},
-							["criticalmin"] = 1907,
-							["critical"] = 6,
-							["criticalmax"] = 2640,
+							["amount"] = 21341,
 							["count"] = 12,
+							["criticalmax"] = 2640,
+							["hitmax"] = 1453,
 							["hit"] = 6,
 							["school"] = 4,
 							["resisted"] = 808,
-							["amount"] = 21341,
+							["critical"] = 6,
 							["hitamount"] = 7265,
 						},
 						["Living Bomb"] = {
-							["hitmax"] = 2610,
+							["count"] = 3,
 							["hitmin"] = 2610,
 							["criticalamount"] = 10457,
 							["id"] = 55362,
-							["count"] = 3,
+							["criticalmax"] = 5807,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 13067,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 4650,
-							["casts"] = 3,
 							["critical"] = 2,
 							["amount"] = 13067,
+							["casts"] = 3,
+							["hitmax"] = 2610,
+							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 1162,
-							["criticalmax"] = 5807,
+							["criticalmin"] = 4650,
 							["hitamount"] = 2610,
 						},
 					},
@@ -21696,6 +21681,14 @@ SkadaStorageDB = {
 					["id"] = "0x07000000005422F3",
 					["spec"] = 63,
 					["overkill"] = 4593,
+					["name"] = "Magijabebo",
+					["role"] = "DAMAGER",
+					["manaspells"] = {
+						[29077] = 3678,
+						[67545] = 845,
+						[44450] = -538,
+					},
+					["class"] = "MAGE",
 					["damagetakenspells"] = {
 						["Frost Blast"] = {
 							["hitmin"] = 21654,
@@ -21713,15 +21706,6 @@ SkadaStorageDB = {
 							["hitamount"] = 21654,
 						},
 					},
-					["name"] = "Magijabebo",
-					["totaldamage"] = 384040,
-					["class"] = "MAGE",
-					["manaspells"] = {
-						[29077] = 3678,
-						[67545] = 845,
-						[44450] = -538,
-					},
-					["role"] = "DAMAGER",
 				}, -- [13]
 				{
 					["last"] = 8289.02,
@@ -21729,9 +21713,9 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[72418] = {
@@ -21752,10 +21736,10 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 68,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -21768,9 +21752,9 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[55610] = {
@@ -21786,34 +21770,38 @@ SkadaStorageDB = {
 							["uptime"] = 50,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 5,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[70809] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 9,
 						},
 						[16237] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 1,
 						},
-						[71584] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 68,
 						},
-						[47753] = {
+						[57623] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 12,
+							["refresh"] = 2,
+						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 68,
 						},
 						[48090] = {
 							["type"] = "BUFF",
@@ -21822,51 +21810,48 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 64,
 						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 61,
-						},
 						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 68,
 						},
 						[64739] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[33151] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 1,
 							["school"] = 2,
+							["refresh"] = 1,
 							["uptime"] = 18,
 						},
-						[67016] = {
+						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 68,
+							["uptime"] = 12,
 						},
 						[19506] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 68,
 						},
-						[57623] = {
+						[57669] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 68,
+							["uptime"] = 61,
 						},
-						[54043] = {
+						[71584] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 68,
+							["uptime"] = 15,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 54.24999999999999,
 					["totaldamagetaken"] = 22476,
 					["overheal"] = 132863,
@@ -21887,8 +21872,8 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 0,
 							["school"] = 2,
-							["count"] = 5,
 							["criticalmin"] = 0,
+							["count"] = 5,
 						},
 						[33110] = {
 							["overheal"] = 25046,
@@ -21909,8 +21894,8 @@ SkadaStorageDB = {
 							["count"] = 6,
 							["amount"] = 15152,
 							["school"] = 2,
-							["criticalmin"] = 1679,
 							["critical"] = 3,
+							["criticalmin"] = 1679,
 						},
 						[48071] = {
 							["overheal"] = 15530,
@@ -21922,14 +21907,14 @@ SkadaStorageDB = {
 									["amount"] = 37074,
 								},
 							},
-							["criticalmin"] = 1758,
 							["min"] = 1758,
 							["casts"] = 8,
 							["count"] = 8,
 							["amount"] = 37074,
 							["school"] = 2,
-							["criticalmax"] = 8743,
 							["critical"] = 2,
+							["criticalmax"] = 8743,
+							["criticalmin"] = 1758,
 						},
 						[48068] = {
 							["overheal"] = 21777,
@@ -21989,14 +21974,14 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["casts"] = 3,
 							["min"] = 1015,
-							["criticalmax"] = 1015,
+							["casts"] = 3,
 							["count"] = 18,
 							["amount"] = 7666,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["critical"] = 4,
+							["criticalmin"] = 0,
+							["criticalmax"] = 1015,
 						},
 					},
 					["damagetakenspells"] = {
@@ -22006,8 +21991,8 @@ SkadaStorageDB = {
 							["id"] = 72124,
 							["sources"] = {
 								["Frost Warder"] = {
-									["total"] = 22476,
 									["amount"] = 14706,
+									["total"] = 22476,
 								},
 							},
 							["count"] = 1,
@@ -22020,11 +22005,10 @@ SkadaStorageDB = {
 					},
 					["heal"] = 85539,
 					["name"] = "Someway",
+					["mana"] = 1200,
 					["manaspells"] = {
 						[55382] = 1200,
 					},
-					["mana"] = 1200,
-					["role"] = "HEALER",
 				}, -- [14]
 				{
 					["last"] = 8284.627,
@@ -22032,28 +22016,28 @@ SkadaStorageDB = {
 					["class"] = "SHAMAN",
 					["auras"] = {
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[57960] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 68,
 						},
 						[63944] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 68,
 						},
 						[57623] = {
+							["uptime"] = 68,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 68,
 						},
 						[55610] = {
 							["type"] = "BUFF",
@@ -22061,9 +22045,9 @@ SkadaStorageDB = {
 							["uptime"] = 68,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 19,
 						},
 						[28878] = {
@@ -22083,18 +22067,18 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 2,
 									["refresh"] = 3,
+									["count"] = 2,
 									["uptime"] = 35,
 								},
 							},
 							["count"] = 2,
 						},
-						[75473] = {
+						[63283] = {
+							["school"] = 4,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 67,
 						},
 						[48090] = {
 							["type"] = "BUFF",
@@ -22103,16 +22087,16 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 64,
 						},
-						[51470] = {
+						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 68,
+							["uptime"] = 15,
 						},
-						[54043] = {
+						[57669] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 65,
+							["uptime"] = 15,
 						},
 						[71199] = {
 							["type"] = "BUFF",
@@ -22121,6 +22105,12 @@ SkadaStorageDB = {
 							["refresh"] = 15,
 							["uptime"] = 66,
 						},
+						[54758] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 						[16246] = {
 							["type"] = "BUFF",
 							["count"] = 6,
@@ -22128,24 +22118,19 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["uptime"] = 45,
 						},
-						[54758] = {
+						[54043] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 65,
+						},
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 15,
-						},
-						[63283] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["uptime"] = 67,
+							["uptime"] = 68,
 						},
 					},
+					["totaldamage"] = 212206,
 					["time"] = 37.44,
 					["damage"] = 212206,
 					["overheal"] = 18543,
@@ -22154,6 +22139,11 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[52042] = {
 							["overheal"] = 18543,
+							["min"] = 131,
+							["count"] = 54,
+							["amount"] = 131,
+							["school"] = 8,
+							["ishot"] = true,
 							["targets"] = {
 								["Rasalgull"] = {
 									["overheal"] = 5754,
@@ -22172,20 +22162,14 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 54,
-							["amount"] = 131,
-							["school"] = 8,
 							["max"] = 131,
-							["ishot"] = true,
-							["min"] = 131,
 						},
 					},
+					["heal"] = 131,
 					["manaspells"] = {
 						[59159] = 2507,
 					},
-					["heal"] = 131,
-					["name"] = "Inarya",
-					["mana"] = 2507,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Lava Burst"] = {
 							["criticalamount"] = 40713,
@@ -22195,33 +22179,33 @@ SkadaStorageDB = {
 									["amount"] = 40713,
 								},
 							},
-							["criticalmin"] = 11004,
+							["count"] = 3,
 							["casts"] = 3,
 							["critical"] = 3,
 							["amount"] = 40713,
 							["school"] = 4,
 							["resisted"] = 6051,
 							["criticalmax"] = 17451,
-							["count"] = 3,
+							["criticalmin"] = 11004,
 						},
 						["Flame Shock (DoT)"] = {
 							["hitmin"] = 758,
 							["criticalamount"] = 18833,
 							["id"] = 49233,
-							["hitmax"] = 919,
+							["criticalmin"] = 1409,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 23038,
 								},
 							},
-							["criticalmin"] = 1409,
-							["critical"] = 11,
-							["criticalmax"] = 1922,
+							["amount"] = 23038,
 							["count"] = 16,
+							["criticalmax"] = 1922,
+							["hitmax"] = 919,
 							["hit"] = 5,
 							["school"] = 4,
 							["resisted"] = 1748,
-							["amount"] = 23038,
+							["critical"] = 11,
 							["hitamount"] = 4205,
 						},
 						["Thunderstorm"] = {
@@ -22236,30 +22220,30 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 7024,
 							["school"] = 8,
-							["criticalmin"] = 7024,
-							["criticalmax"] = 7024,
 							["count"] = 1,
+							["criticalmax"] = 7024,
+							["criticalmin"] = 7024,
 						},
-						["Lightning Bolt"] = {
-							["hitmax"] = 7761,
-							["hitmin"] = 7761,
-							["criticalamount"] = 80332,
-							["id"] = 49238,
-							["count"] = 7,
+						["Chain Lightning"] = {
+							["criticalamount"] = 23191,
+							["hitmin"] = 3718,
+							["criticalmin"] = 10429,
+							["id"] = 49271,
+							["criticalmax"] = 12762,
 							["targets"] = {
 								["Frost Warder"] = {
-									["amount"] = 88093,
+									["amount"] = 38165,
 								},
 							},
-							["hit"] = 1,
-							["criticalmin"] = 9144,
-							["casts"] = 6,
-							["critical"] = 6,
-							["amount"] = 88093,
+							["critical"] = 2,
+							["amount"] = 38165,
+							["casts"] = 4,
+							["hitmax"] = 6137,
+							["hit"] = 3,
 							["school"] = 8,
-							["resisted"] = 5246,
-							["criticalmax"] = 16280,
-							["hitamount"] = 7761,
+							["resisted"] = 1986,
+							["count"] = 5,
+							["hitamount"] = 14974,
 						},
 						["Frost Shock"] = {
 							["criticalamount"] = 8465,
@@ -22269,35 +22253,35 @@ SkadaStorageDB = {
 									["amount"] = 8465,
 								},
 							},
-							["criticalmin"] = 8465,
+							["count"] = 1,
 							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 8465,
 							["school"] = 16,
 							["resisted"] = 940,
 							["criticalmax"] = 8465,
-							["count"] = 1,
+							["criticalmin"] = 8465,
 						},
-						["Chain Lightning"] = {
-							["criticalmin"] = 10429,
-							["hitmin"] = 3718,
-							["criticalamount"] = 23191,
-							["id"] = 49271,
-							["hitmax"] = 6137,
+						["Lightning Bolt"] = {
+							["count"] = 7,
+							["hitmin"] = 7761,
+							["criticalamount"] = 80332,
+							["id"] = 49238,
+							["criticalmax"] = 16280,
 							["targets"] = {
 								["Frost Warder"] = {
-									["amount"] = 38165,
+									["amount"] = 88093,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 3,
-							["casts"] = 4,
-							["critical"] = 2,
-							["amount"] = 38165,
+							["critical"] = 6,
+							["amount"] = 88093,
+							["casts"] = 6,
+							["hitmax"] = 7761,
+							["hit"] = 1,
 							["school"] = 8,
-							["resisted"] = 1986,
-							["criticalmax"] = 12762,
-							["hitamount"] = 14974,
+							["resisted"] = 5246,
+							["criticalmin"] = 9144,
+							["hitamount"] = 7761,
 						},
 						["Flame Shock"] = {
 							["criticalamount"] = 6708,
@@ -22307,18 +22291,18 @@ SkadaStorageDB = {
 									["amount"] = 6708,
 								},
 							},
-							["criticalmin"] = 3061,
+							["count"] = 2,
 							["casts"] = 2,
 							["critical"] = 2,
 							["amount"] = 6708,
 							["school"] = 4,
 							["resisted"] = 340,
 							["criticalmax"] = 3647,
-							["count"] = 2,
+							["criticalmin"] = 3061,
 						},
 					},
-					["totaldamage"] = 212206,
-					["role"] = "DAMAGER",
+					["mana"] = 2507,
+					["name"] = "Inarya",
 				}, -- [15]
 				{
 					["damagespells"] = {
@@ -22347,24 +22331,24 @@ SkadaStorageDB = {
 							["hitamount"] = 14684,
 						},
 						["Instant Poison IX"] = {
-							["hitmax"] = 1063,
+							["criticalmin"] = 1458,
 							["hitmin"] = 805,
 							["criticalamount"] = 8275,
 							["id"] = 57965,
-							["criticalmin"] = 1458,
+							["amount"] = 31408,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 31408,
 								},
 							},
-							["criticalmax"] = 1872,
-							["critical"] = 5,
 							["casts"] = 1,
 							["count"] = 29,
+							["criticalmax"] = 1872,
+							["hitmax"] = 1063,
 							["hit"] = 24,
 							["school"] = 8,
 							["resisted"] = 2041,
-							["amount"] = 31408,
+							["critical"] = 5,
 							["hitamount"] = 23133,
 						},
 						["Blade Twisting"] = {
@@ -22380,6 +22364,42 @@ SkadaStorageDB = {
 							},
 							["id"] = 51585,
 						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 816,
+							["id"] = 57970,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 7343,
+								},
+							},
+							["count"] = 6,
+							["hitmax"] = 1360,
+							["hit"] = 6,
+							["school"] = 8,
+							["resisted"] = 272,
+							["amount"] = 7343,
+							["hitamount"] = 7343,
+						},
+						["Sinister Strike"] = {
+							["hitmin"] = 1906,
+							["criticalamount"] = 19145,
+							["id"] = 48638,
+							["count"] = 12,
+							["targets"] = {
+								["Frost Warder"] = {
+									["amount"] = 35486,
+								},
+							},
+							["criticalmax"] = 5384,
+							["criticalmin"] = 3756,
+							["casts"] = 12,
+							["hitmax"] = 2131,
+							["hit"] = 8,
+							["school"] = 1,
+							["amount"] = 35486,
+							["critical"] = 4,
+							["hitamount"] = 16341,
+						},
 						["Rupture (DoT)"] = {
 							["hitmin"] = 516,
 							["criticalamount"] = 1277,
@@ -22390,63 +22410,25 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 1277,
-							["critical"] = 1,
+							["amount"] = 2310,
 							["criticalmax"] = 1277,
-							["count"] = 3,
+							["critical"] = 1,
 							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 517,
-							["amount"] = 2310,
+							["count"] = 3,
 							["hitamount"] = 1033,
-						},
-						["Sinister Strike"] = {
-							["hitmin"] = 1906,
-							["criticalamount"] = 19145,
-							["id"] = 48638,
-							["hitmax"] = 2131,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 35486,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 8,
-							["casts"] = 12,
-							["critical"] = 4,
-							["amount"] = 35486,
-							["school"] = 1,
-							["criticalmin"] = 3756,
-							["criticalmax"] = 5384,
-							["hitamount"] = 16341,
-						},
-						["Deadly Poison IX (DoT)"] = {
-							["hitmin"] = 816,
-							["id"] = 57970,
-							["targets"] = {
-								["Frost Warder"] = {
-									["amount"] = 7343,
-								},
-							},
-							["hitmax"] = 1360,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["resisted"] = 272,
-							["amount"] = 7343,
-							["hitamount"] = 7343,
 						},
 					},
 					["last"] = 8284.621999999999,
-					["class"] = "ROGUE",
-					["totaldamage"] = 153308,
 					["id"] = "0x07000000004C3D1C",
+					["class"] = "ROGUE",
 					["spec"] = 260,
-					["flag"] = 1300,
 					["auras"] = {
 						[54043] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 46,
 						},
 						[63944] = {
@@ -22471,22 +22453,17 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 						[71403] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71396] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[48672] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Frost Warder"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
+							["refresh"] = 62,
+							["uptime"] = 42,
 						},
 						[57970] = {
 							["type"] = "DEBUFF",
@@ -22495,8 +22472,8 @@ SkadaStorageDB = {
 							["refresh"] = 12,
 							["targets"] = {
 								["Frost Warder"] = {
-									["count"] = 2,
 									["refresh"] = 12,
+									["count"] = 2,
 									["uptime"] = 20,
 								},
 							},
@@ -22514,6 +22491,37 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
+						[6774] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 41,
+						},
+						[11305] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48672] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Frost Warder"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[15359] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
 						[8647] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -22526,39 +22534,15 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 21,
 						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
-						},
-						[11305] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[6774] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 41,
-						},
-						[71396] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 62,
-							["uptime"] = 42,
-						},
 					},
 					["energyspells"] = {
 						[35548] = 120,
 					},
+					["totaldamage"] = 153308,
 					["name"] = "Ypopti",
-					["time"] = 33.23,
+					["flag"] = 1300,
 					["role"] = "DAMAGER",
+					["time"] = 33.23,
 					["energy"] = 120,
 					["damage"] = 153308,
 				}, -- [16]
@@ -22596,34 +22580,34 @@ SkadaStorageDB = {
 							["criticalamount"] = 66322,
 							["id"] = 6603,
 							["glancemax"] = 1975,
-							["blocked"] = 82,
+							["hit"] = 4,
 							["criticalmax"] = 5791,
 							["critical"] = 18,
-							["hit"] = 4,
+							["blocked"] = 82,
 							["school"] = 1,
-							["count"] = 30,
 							["hitmax"] = 997,
+							["count"] = 30,
 							["hitamount"] = 3700,
 						},
 						["Instant Poison IX"] = {
-							["criticalmin"] = 2350,
-							["hitmin"] = 993,
 							["criticalamount"] = 2350,
+							["hitmin"] = 993,
+							["criticalmin"] = 2350,
 							["id"] = 57965,
-							["criticalmax"] = 2350,
+							["amount"] = 15209,
 							["targets"] = {
 								["Frost Warder"] = {
 									["amount"] = 15209,
 								},
 							},
-							["critical"] = 1,
-							["hitmax"] = 1438,
 							["casts"] = 1,
 							["count"] = 11,
+							["criticalmax"] = 2350,
+							["critical"] = 1,
 							["hit"] = 10,
 							["school"] = 8,
 							["resisted"] = 919,
-							["amount"] = 15209,
+							["hitmax"] = 1438,
 							["hitamount"] = 12859,
 						},
 						["Blade Twisting"] = {
@@ -22649,14 +22633,14 @@ SkadaStorageDB = {
 									["amount"] = 28367,
 								},
 							},
+							["amount"] = 28367,
+							["hitmax"] = 2567,
 							["criticalmax"] = 8944,
 							["critical"] = 3,
-							["casts"] = 4,
-							["count"] = 4,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 2567,
-							["amount"] = 28367,
+							["count"] = 4,
+							["casts"] = 4,
 							["hitamount"] = 2567,
 						},
 						["Deadly Poison IX (DoT)"] = {
@@ -22667,8 +22651,8 @@ SkadaStorageDB = {
 									["amount"] = 4083,
 								},
 							},
-							["hitmax"] = 1981,
 							["count"] = 3,
+							["hitmax"] = 1981,
 							["hit"] = 3,
 							["school"] = 8,
 							["resisted"] = 524,
@@ -22677,22 +22661,20 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 8284.375,
-					["class"] = "ROGUE",
-					["totaldamage"] = 130683,
 					["flag"] = 1300,
+					["class"] = "ROGUE",
 					["spec"] = 260,
-					["id"] = "0x0700000000787C04",
 					["auras"] = {
 						[54043] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 32,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[63944] = {
@@ -22716,6 +22698,19 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 36,
 						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 21,
+						},
+						[71396] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 29,
+							["uptime"] = 20,
+						},
 						[59620] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -22723,36 +22718,16 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 16,
 						},
-						[6774] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 18,
-						},
-						[57970] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 7,
-							["targets"] = {
-								["Frost Warder"] = {
-									["count"] = 1,
-									["refresh"] = 7,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 11,
-						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[58683] = {
@@ -22768,31 +22743,40 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[11305] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
-						[71396] = {
+						[57970] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 7,
+							["targets"] = {
+								["Frost Warder"] = {
+									["refresh"] = 7,
+									["count"] = 1,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[6774] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 29,
-							["uptime"] = 20,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 21,
+							["uptime"] = 18,
 						},
 					},
 					["energyspells"] = {
 						[35548] = 15,
 					},
+					["totaldamage"] = 130683,
 					["name"] = "Deftonez",
-					["role"] = "DAMAGER",
+					["id"] = "0x0700000000787C04",
 					["time"] = 16.06,
+					["role"] = "DAMAGER",
 					["energy"] = 15,
 					["damage"] = 130683,
 				}, -- [17]
@@ -22802,58 +22786,72 @@ SkadaStorageDB = {
 					["class"] = "DRUID",
 					["auras"] = {
 						[24907] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 16,
 						},
 						[24858] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 16,
 						},
 						[48421] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 16,
 						},
 					},
 					["role"] = "DAMAGER",
 					["time"] = 0,
-					["name"] = "Lolscat",
-					["spec"] = 102,
 					["flag"] = 1298,
+					["spec"] = 102,
+					["name"] = "Lolscat",
 				}, -- [18]
 				{
+					["id"] = "0x0700000000008A44",
 					["last"] = 8276.241,
+					["name"] = "Alexzandra",
+					["time"] = 0,
 					["flag"] = 1300,
 					["class"] = "WARRIOR",
+					["role"] = "NONE",
 					["auras"] = {
 						[24907] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 16,
 						},
 					},
-					["role"] = "NONE",
-					["name"] = "Alexzandra",
-					["time"] = 0,
-					["id"] = "0x0700000000008A44",
 				}, -- [19]
 			},
+			["totaldamagetaken"] = 320802,
+			["etotaldamagetaken"] = 3218778,
+			["last_time"] = 8292.574000000001,
+			["rage"] = 71,
+			["type"] = "raid",
+			["damagetaken"] = 258522,
+			["absorb"] = 62280,
+			["etotaldamage"] = 315406,
+			["damage"] = 3218778,
+			["overheal"] = 1006329,
+			["overkill"] = 5118,
+			["edamagetaken"] = 3218778,
+			["heal"] = 217016,
+			["name"] = "Frost Warder",
+			["death"] = 2,
+			["starttime"] = 1699435250,
 			["edamage"] = 258522,
-			["last_action"] = 1699435318,
+			["energy"] = 1010,
 			["endtime"] = 1699435318,
 		}, -- [2]
 		{
-			["damage"] = 1474271,
+			["starttime"] = 1699435171,
 			["sunder"] = 2,
-			["overheal"] = 182228,
 			["mana"] = 86470,
-			["runic"] = 64,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -22865,22 +22863,22 @@ SkadaStorageDB = {
 									["amount"] = 5445,
 								},
 								["Finalwield"] = {
-									["total"] = 39265,
 									["amount"] = 31537,
+									["total"] = 39265,
 								},
 								["Vktr"] = {
 									["amount"] = 12611,
 								},
 								["Lottle"] = {
-									["total"] = 40899,
 									["amount"] = 26537,
+									["total"] = 40899,
 								},
 								["Inekcija"] = {
 									["amount"] = 15743,
 								},
 								["Ebonmoo"] = {
-									["total"] = 14802,
 									["amount"] = 8639,
+									["total"] = 14802,
 								},
 							},
 							["amount"] = 100512,
@@ -22896,35 +22894,35 @@ SkadaStorageDB = {
 									["amount"] = 7544,
 								},
 								["Lottle"] = {
-									["total"] = 22476,
 									["amount"] = 15101,
+									["total"] = 22476,
 								},
 								["Sortpraest"] = {
-									["total"] = 21348,
 									["amount"] = 17790,
+									["total"] = 21348,
 								},
 								["Inarya"] = {
-									["total"] = 28736,
 									["amount"] = 19755,
+									["total"] = 28736,
+								},
+								["Paopaozhu"] = {
+									["amount"] = 8013,
+									["total"] = 13355,
+								},
+								["Inekcija"] = {
+									["amount"] = 11531,
+									["total"] = 23352,
 								},
 								["Merrian"] = {
-									["total"] = 20502,
 									["amount"] = 16318,
+									["total"] = 20502,
 								},
 								["Quewyn"] = {
 									["amount"] = 20917,
 								},
 								["Karshash"] = {
-									["total"] = 24162,
 									["amount"] = 16412,
-								},
-								["Inekcija"] = {
-									["total"] = 23352,
-									["amount"] = 11531,
-								},
-								["Paopaozhu"] = {
-									["total"] = 13355,
-									["amount"] = 8013,
+									["total"] = 24162,
 								},
 							},
 							["amount"] = 140119,
@@ -22934,8 +22932,8 @@ SkadaStorageDB = {
 							["total"] = 40768,
 							["targets"] = {
 								["Ebonmoo"] = {
-									["total"] = 40768,
 									["amount"] = 21809,
+									["total"] = 40768,
 								},
 							},
 							["amount"] = 21809,
@@ -22958,12 +22956,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Sortpraest"] = {
-									["overkill"] = 2486,
 									["amount"] = 18215,
+									["overkill"] = 2486,
 								},
 							},
-							["overkill"] = 2486,
 							["amount"] = 18215,
+							["overkill"] = 2486,
 						},
 						[42891] = {
 							["school"] = 4,
@@ -23038,12 +23036,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Finalwield"] = {
-									["overkill"] = 1286,
 									["amount"] = 23794,
+									["overkill"] = 1286,
 								},
 							},
-							["overkill"] = 1286,
 							["amount"] = 23794,
+							["overkill"] = 1286,
 						},
 						[49924] = {
 							["school"] = 1,
@@ -23246,11 +23244,11 @@ SkadaStorageDB = {
 						[42873] = {
 							["school"] = 4,
 							["sources"] = {
-								["Merrian"] = {
-									["amount"] = 9407,
-								},
 								["Karshash"] = {
 									["amount"] = 23294,
+								},
+								["Merrian"] = {
+									["amount"] = 9407,
 								},
 							},
 							["amount"] = 32701,
@@ -23474,26 +23472,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 12458,
 						},
-						[42859] = {
-							["school"] = 4,
-							["sources"] = {
-								["Magijabebo"] = {
-									["amount"] = 4299,
-								},
-								["Karshash"] = {
-									["amount"] = 13074,
-								},
-							},
-							["amount"] = 17373,
-						},
-						[47994] = {
-							["school"] = 1,
+						[47809] = {
+							["school"] = 32,
 							["sources"] = {
 								["Lottle"] = {
-									["amount"] = 7267,
+									["amount"] = 18945,
 								},
 							},
-							["amount"] = 7267,
+							["amount"] = 18945,
+						},
+						[61006] = {
+							["school"] = 1,
+							["sources"] = {
+								["Paopaozhu"] = {
+									["amount"] = 14676,
+								},
+							},
+							["amount"] = 14676,
 						},
 						[48300] = {
 							["school"] = 32,
@@ -23522,14 +23517,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4804,
 						},
-						[75] = {
-							["school"] = 1,
+						[63900] = {
+							["school"] = 8,
 							["sources"] = {
 								["Paopaozhu"] = {
-									["amount"] = 15750,
+									["amount"] = 1688,
 								},
 							},
-							["amount"] = 15750,
+							["amount"] = 1688,
 						},
 						[54158] = {
 							["school"] = 2,
@@ -23540,32 +23535,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4190,
 						},
-						[1680] = {
-							["school"] = 1,
+						[42859] = {
+							["school"] = 4,
 							["sources"] = {
-								["Finalwield"] = {
-									["amount"] = 12509,
+								["Magijabebo"] = {
+									["amount"] = 4299,
+								},
+								["Karshash"] = {
+									["amount"] = 13074,
 								},
 							},
-							["amount"] = 12509,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Sortpraest"] = {
-									["amount"] = 1325,
-								},
-							},
-							["amount"] = 1325,
-						},
-						[53353] = {
-							["school"] = 8,
-							["sources"] = {
-								["Paopaozhu"] = {
-									["amount"] = 5977,
-								},
-							},
-							["amount"] = 5977,
+							["amount"] = 17373,
 						},
 						[48827] = {
 							["school"] = 2,
@@ -23576,47 +23556,69 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1907,
 						},
-						[63900] = {
+						[53353] = {
 							["school"] = 8,
 							["sources"] = {
 								["Paopaozhu"] = {
-									["amount"] = 1688,
+									["amount"] = 5977,
 								},
 							},
-							["amount"] = 1688,
+							["amount"] = 5977,
 						},
-						[61006] = {
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Sortpraest"] = {
+									["amount"] = 1325,
+								},
+							},
+							["amount"] = 1325,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Finalwield"] = {
+									["amount"] = 12509,
+								},
+							},
+							["amount"] = 12509,
+						},
+						[75] = {
 							["school"] = 1,
 							["sources"] = {
 								["Paopaozhu"] = {
-									["amount"] = 14676,
+									["amount"] = 15750,
 								},
 							},
-							["amount"] = 14676,
+							["amount"] = 15750,
 						},
-						[47809] = {
-							["school"] = 32,
+						[47994] = {
+							["school"] = 1,
 							["sources"] = {
 								["Lottle"] = {
-									["amount"] = 18945,
+									["amount"] = 7267,
 								},
 							},
-							["amount"] = 18945,
+							["amount"] = 7267,
 						},
 					},
-					["name"] = "Archavon Warder",
 					["totaldamage"] = 358663,
+					["name"] = "Archavon Warder",
 					["totaldamagetaken"] = 1474271,
 					["id"] = "0xF130007E61000009",
 					["damage"] = 262440,
 				}, -- [1]
 			},
-			["rage"] = 106,
+			["last_action"] = 1699435227,
 			["totaldamage"] = 1474271,
 			["time"] = 56,
-			["energy"] = 414,
+			["rage"] = 106,
 			["totaldamagetaken"] = 358663,
 			["etotaldamagetaken"] = 1474271,
+			["damage"] = 1474271,
+			["overheal"] = 182228,
+			["type"] = "raid",
+			["damagetaken"] = 262440,
 			["last_time"] = 8201.069,
 			["players"] = {
 				{
@@ -23625,40 +23627,40 @@ SkadaStorageDB = {
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 11,
 						},
 						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 21,
 						},
 						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 2,
 							["school"] = 1,
+							["refresh"] = 2,
 							["uptime"] = 53,
 						},
 						[63944] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 56,
 						},
 						[57623] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 56,
 						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[48263] = {
@@ -23672,9 +23674,9 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 19,
 						},
 						[53138] = {
@@ -23683,9 +23685,9 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[51124] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 1,
 							["uptime"] = 41,
 						},
 						[64859] = {
@@ -23702,8 +23704,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 15,
 								},
 							},
@@ -23722,22 +23724,21 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[50449] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 10,
-							["uptime"] = 56,
 						},
 						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
-						[67380] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 19,
+							["uptime"] = 56,
 						},
 						[55078] = {
 							["type"] = "DEBUFF",
@@ -23746,19 +23747,21 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 2,
 									["refresh"] = 2,
+									["count"] = 2,
 									["uptime"] = 33,
 								},
 							},
 							["count"] = 2,
 						},
-						[55610] = {
+						[67380] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 56,
+							["uptime"] = 19,
 						},
 					},
+					["totaldamage"] = 64821,
 					["time"] = 38.41,
 					["totaldamagetaken"] = 55570,
 					["damage"] = 64821,
@@ -23769,7 +23772,11 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[45470] = {
 							["overheal"] = 8700,
+							["casts"] = 3,
+							["count"] = 3,
+							["amount"] = 8768,
 							["max"] = 5823,
+							["school"] = 1,
 							["targets"] = {
 								["Ebonmoo"] = {
 									["overheal"] = 8700,
@@ -23777,10 +23784,6 @@ SkadaStorageDB = {
 								},
 							},
 							["min"] = 2945,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 8768,
-							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -23791,8 +23794,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 40768,
 									["amount"] = 21809,
+									["total"] = 40768,
 								},
 							},
 							["count"] = 6,
@@ -23809,8 +23812,8 @@ SkadaStorageDB = {
 							["id"] = 60916,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 14802,
 									["amount"] = 8639,
+									["total"] = 14802,
 								},
 							},
 							["count"] = 3,
@@ -23823,6 +23826,7 @@ SkadaStorageDB = {
 					},
 					["heal"] = 8768,
 					["name"] = "Ebonmoo",
+					["role"] = "TANK",
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 2536,
@@ -23839,13 +23843,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 10304,
 							["id"] = 6603,
 							["glancemax"] = 1339,
-							["critical"] = 4,
-							["criticalmax"] = 2694,
 							["hitmax"] = 1343,
+							["criticalmax"] = 2694,
+							["critical"] = 4,
 							["hit"] = 8,
 							["school"] = 1,
-							["blocked"] = 80,
 							["count"] = 14,
+							["blocked"] = 80,
 							["hitamount"] = 9920,
 						},
 						["Icy Touch"] = {
@@ -23860,9 +23864,9 @@ SkadaStorageDB = {
 							["critical"] = 3,
 							["amount"] = 4795,
 							["school"] = 16,
-							["criticalmin"] = 1587,
-							["criticalmax"] = 1610,
 							["count"] = 3,
+							["criticalmax"] = 1610,
+							["criticalmin"] = 1587,
 						},
 						["Rune Strike"] = {
 							["hitmin"] = 2252,
@@ -23895,45 +23899,20 @@ SkadaStorageDB = {
 							["amount"] = 4234,
 							["hitamount"] = 4234,
 						},
-						["Death Coil"] = {
-							["hitmin"] = 1130,
-							["criticalamount"] = 2260,
-							["id"] = 47632,
-							["hitmax"] = 1130,
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 415,
+							["id"] = 55095,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["amount"] = 5650,
+									["amount"] = 4158,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 3,
-							["casts"] = 4,
-							["critical"] = 1,
-							["amount"] = 5650,
-							["school"] = 32,
-							["criticalmin"] = 2260,
-							["criticalmax"] = 2260,
-							["hitamount"] = 3390,
-						},
-						["Heart Strike"] = {
-							["hitmin"] = 1512,
-							["criticalamount"] = 5814,
-							["id"] = 55262,
-							["criticalmin"] = 2834,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 11911,
-								},
-							},
-							["criticalmax"] = 2980,
-							["critical"] = 2,
-							["casts"] = 6,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1542,
-							["amount"] = 11911,
-							["hitamount"] = 6097,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 16,
+							["hitmax"] = 416,
+							["amount"] = 4158,
+							["hitamount"] = 4158,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 676,
@@ -23951,6 +23930,26 @@ SkadaStorageDB = {
 							["amount"] = 2769,
 							["hitamount"] = 2769,
 						},
+						["Heart Strike"] = {
+							["hitmin"] = 1512,
+							["criticalamount"] = 5814,
+							["id"] = 55262,
+							["criticalmin"] = 2834,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 11911,
+								},
+							},
+							["amount"] = 11911,
+							["hitmax"] = 1542,
+							["criticalmax"] = 2980,
+							["critical"] = 2,
+							["hit"] = 4,
+							["school"] = 1,
+							["count"] = 6,
+							["casts"] = 6,
+							["hitamount"] = 6097,
+						},
 						["Death Strike"] = {
 							["hitmin"] = 1263,
 							["id"] = 49924,
@@ -23967,24 +23966,27 @@ SkadaStorageDB = {
 							["amount"] = 3991,
 							["hitamount"] = 3991,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 415,
-							["id"] = 55095,
+						["Death Coil"] = {
+							["hitmin"] = 1130,
+							["criticalamount"] = 2260,
+							["id"] = 47632,
+							["count"] = 4,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["amount"] = 4158,
+									["amount"] = 5650,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 16,
-							["hitmax"] = 416,
-							["amount"] = 4158,
-							["hitamount"] = 4158,
+							["criticalmax"] = 2260,
+							["criticalmin"] = 2260,
+							["casts"] = 4,
+							["hitmax"] = 1130,
+							["hit"] = 3,
+							["school"] = 32,
+							["amount"] = 5650,
+							["critical"] = 1,
+							["hitamount"] = 3390,
 						},
 					},
-					["totaldamage"] = 64821,
-					["role"] = "TANK",
 				}, -- [1]
 				{
 					["last"] = 8199.712,
@@ -23992,21 +23994,21 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 28,
 						},
 						[72418] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48162] = {
@@ -24015,10 +24017,10 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[63944] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 56,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -24050,8 +24052,8 @@ SkadaStorageDB = {
 						[59891] = {
 							["type"] = "BUFF",
 							["count"] = 4,
-							["refresh"] = 11,
 							["school"] = 2,
+							["refresh"] = 11,
 							["uptime"] = 39,
 						},
 						[53138] = {
@@ -24077,36 +24079,10 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[64739] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 15,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 5,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 13,
-						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 13,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 56,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -24129,7 +24105,7 @@ SkadaStorageDB = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
-								["Paopaozhu"] = {
+								["Merrian"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
@@ -24149,12 +24125,38 @@ SkadaStorageDB = {
 									["uptime"] = 30,
 									["count"] = 2,
 								},
-								["Merrian"] = {
+								["Paopaozhu"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 48,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 13,
+						},
+						[57623] = {
+							["uptime"] = 56,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 13,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 					},
 					["absorbspells"] = {
@@ -24165,8 +24167,8 @@ SkadaStorageDB = {
 							["amount"] = 8884,
 							["school"] = 2,
 							["targets"] = {
-								["Inarya"] = 778,
 								["Lottle"] = 3605,
+								["Inarya"] = 778,
 								["Inekcija"] = 1473,
 								["Ebonmoo"] = 3028,
 							},
@@ -24179,12 +24181,12 @@ SkadaStorageDB = {
 							["amount"] = 75982,
 							["school"] = 2,
 							["targets"] = {
-								["Paopaozhu"] = 5342,
-								["Inarya"] = 8203,
 								["Merrian"] = 4184,
-								["Finalwield"] = 7728,
+								["Inarya"] = 8203,
 								["Lottle"] = 10333,
+								["Finalwield"] = 7728,
 								["Karshash"] = 7750,
+								["Paopaozhu"] = 5342,
 								["Inekcija"] = 10348,
 								["Ebonmoo"] = 22094,
 							},
@@ -24202,31 +24204,31 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[70772] = {
 							["overheal"] = 0,
+							["min"] = 885,
+							["count"] = 1,
+							["amount"] = 885,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Karshash"] = {
 									["overheal"] = 0,
 									["amount"] = 885,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 885,
-							["school"] = 2,
 							["max"] = 885,
-							["ishot"] = true,
-							["min"] = 885,
 						},
 						[33110] = {
 							["overheal"] = 5767,
 							["criticalamount"] = 1886,
 							["max"] = 5102,
 							["targets"] = {
-								["Lottle"] = {
-									["overheal"] = 0,
-									["amount"] = 5102,
-								},
 								["Ebonmoo"] = {
 									["overheal"] = 5767,
 									["amount"] = 1886,
+								},
+								["Lottle"] = {
+									["overheal"] = 0,
+									["amount"] = 5102,
 								},
 							},
 							["min"] = 1886,
@@ -24234,15 +24236,15 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 6988,
 							["school"] = 2,
-							["criticalmin"] = 1886,
 							["count"] = 2,
+							["criticalmin"] = 1886,
 						},
 						[48120] = {
 							["overheal"] = 0,
 							["count"] = 2,
 							["amount"] = 10000,
 							["school"] = 2,
-							["max"] = 5014,
+							["min"] = 4986,
 							["targets"] = {
 								["Inekcija"] = {
 									["overheal"] = 0,
@@ -24253,7 +24255,7 @@ SkadaStorageDB = {
 									["amount"] = 4986,
 								},
 							},
-							["min"] = 4986,
+							["max"] = 5014,
 						},
 						[48068] = {
 							["overheal"] = 20785,
@@ -24287,60 +24289,6 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["ishot"] = true,
 						},
-						[48071] = {
-							["overheal"] = 7730,
-							["criticalamount"] = 7919,
-							["max"] = 7737,
-							["targets"] = {
-								["Lottle"] = {
-									["overheal"] = 0,
-									["amount"] = 5217,
-								},
-								["Sortpraest"] = {
-									["overheal"] = 7730,
-									["amount"] = 5371,
-								},
-								["Karshash"] = {
-									["overheal"] = 0,
-									["amount"] = 7737,
-								},
-							},
-							["criticalmin"] = 182,
-							["min"] = 182,
-							["casts"] = 4,
-							["count"] = 4,
-							["amount"] = 18325,
-							["school"] = 2,
-							["criticalmax"] = 7737,
-							["critical"] = 2,
-						},
-						[52985] = {
-							["overheal"] = 3721,
-							["criticalamount"] = 26071,
-							["max"] = 6030,
-							["targets"] = {
-								["Vktr"] = {
-									["overheal"] = 2035,
-									["amount"] = 11934,
-								},
-								["Lottle"] = {
-									["overheal"] = 1030,
-									["amount"] = 14766,
-								},
-								["Inekcija"] = {
-									["overheal"] = 656,
-									["amount"] = 14695,
-								},
-							},
-							["criticalmin"] = 4002,
-							["min"] = 3611,
-							["casts"] = 9,
-							["count"] = 9,
-							["amount"] = 41395,
-							["school"] = 2,
-							["criticalmax"] = 6030,
-							["critical"] = 5,
-						},
 						[56160] = {
 							["overheal"] = 1732,
 							["criticalamount"] = 22071,
@@ -24362,9 +24310,9 @@ SkadaStorageDB = {
 									["overheal"] = 0,
 									["amount"] = 2596,
 								},
-								["Paopaozhu"] = {
+								["Merrian"] = {
 									["overheal"] = 0,
-									["amount"] = 2307,
+									["amount"] = 2452,
 								},
 								["Finalwield"] = {
 									["overheal"] = 0,
@@ -24382,9 +24330,9 @@ SkadaStorageDB = {
 									["overheal"] = 0,
 									["amount"] = 4912,
 								},
-								["Merrian"] = {
+								["Paopaozhu"] = {
 									["overheal"] = 0,
-									["amount"] = 2452,
+									["amount"] = 2307,
 								},
 							},
 							["min"] = 1632,
@@ -24392,11 +24340,83 @@ SkadaStorageDB = {
 							["critical"] = 9,
 							["amount"] = 28703,
 							["school"] = 2,
-							["criticalmin"] = 2307,
 							["count"] = 14,
+							["criticalmin"] = 2307,
+						},
+						[52985] = {
+							["overheal"] = 3721,
+							["criticalamount"] = 26071,
+							["max"] = 6030,
+							["targets"] = {
+								["Vktr"] = {
+									["overheal"] = 2035,
+									["amount"] = 11934,
+								},
+								["Lottle"] = {
+									["overheal"] = 1030,
+									["amount"] = 14766,
+								},
+								["Inekcija"] = {
+									["overheal"] = 656,
+									["amount"] = 14695,
+								},
+							},
+							["min"] = 3611,
+							["casts"] = 9,
+							["count"] = 9,
+							["amount"] = 41395,
+							["school"] = 2,
+							["critical"] = 5,
+							["criticalmax"] = 6030,
+							["criticalmin"] = 4002,
+						},
+						[48071] = {
+							["overheal"] = 7730,
+							["criticalamount"] = 7919,
+							["max"] = 7737,
+							["targets"] = {
+								["Lottle"] = {
+									["overheal"] = 0,
+									["amount"] = 5217,
+								},
+								["Sortpraest"] = {
+									["overheal"] = 7730,
+									["amount"] = 5371,
+								},
+								["Karshash"] = {
+									["overheal"] = 0,
+									["amount"] = 7737,
+								},
+							},
+							["min"] = 182,
+							["casts"] = 4,
+							["count"] = 4,
+							["amount"] = 18325,
+							["school"] = 2,
+							["critical"] = 2,
+							["criticalmax"] = 7737,
+							["criticalmin"] = 182,
 						},
 					},
 					["damagetakenspells"] = {
+						["Rock Shower (DoT)"] = {
+							["total"] = 23352,
+							["hitmin"] = 1523,
+							["id"] = 60923,
+							["count"] = 7,
+							["sources"] = {
+								["Archavon Warder"] = {
+									["amount"] = 11531,
+									["total"] = 23352,
+								},
+							},
+							["hitmax"] = 3336,
+							["ABSORB"] = 3,
+							["school"] = 1,
+							["hit"] = 4,
+							["amount"] = 11531,
+							["hitamount"] = 11531,
+						},
 						["Whirl"] = {
 							["hitmin"] = 15743,
 							["id"] = 60916,
@@ -24412,37 +24432,19 @@ SkadaStorageDB = {
 							["amount"] = 15743,
 							["hitamount"] = 15743,
 						},
-						["Rock Shower (DoT)"] = {
-							["total"] = 23352,
-							["hitmin"] = 1523,
-							["id"] = 60923,
-							["hitmax"] = 3336,
-							["sources"] = {
-								["Archavon Warder"] = {
-									["total"] = 23352,
-									["amount"] = 11531,
-								},
-							},
-							["count"] = 7,
-							["ABSORB"] = 3,
-							["school"] = 1,
-							["amount"] = 11531,
-							["hit"] = 4,
-							["hitamount"] = 11531,
-						},
-					},
-					["runicspells"] = {
-						[63652] = 64,
 					},
 					["heal"] = 138824,
 					["name"] = "Inekcija",
-					["runic"] = 64,
+					["mana"] = 3455,
 					["manaspells"] = {
 						[47755] = 2229,
 						[63654] = 626,
 						[55382] = 600,
 					},
-					["mana"] = 3455,
+					["runic"] = 64,
+					["runicspells"] = {
+						[63652] = 64,
+					},
 				}, -- [2]
 				{
 					["last"] = 8191.018,
@@ -24450,9 +24452,9 @@ SkadaStorageDB = {
 					["mana"] = 2211,
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[43046] = {
@@ -24461,10 +24463,10 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[63944] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 56,
 						},
 						[55360] = {
 							["type"] = "DEBUFF",
@@ -24479,9 +24481,9 @@ SkadaStorageDB = {
 							["uptime"] = 29,
 						},
 						[1953] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 2,
 						},
 						[55610] = {
@@ -24490,15 +24492,15 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[19746] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 50,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 10,
 						},
 						[28878] = {
@@ -24511,31 +24513,37 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[48108] = {
 							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[70753] = {
 							["type"] = "BUFF",
 							["count"] = 2,
+							["uptime"] = 2,
+						},
+						[70753] = {
 							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 2,
 							["uptime"] = 10,
 						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 14,
+						[12654] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 26,
+							["school"] = 4,
+							["refresh"] = 7,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["refresh"] = 7,
+									["count"] = 4,
+									["uptime"] = 26,
+								},
+							},
+							["count"] = 4,
 						},
-						[48068] = {
+						[12536] = {
+							["school"] = 64,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 18,
+							["count"] = 4,
+							["uptime"] = 14,
 						},
 						[48090] = {
 							["type"] = "BUFF",
@@ -24550,9 +24558,9 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[42891] = {
@@ -24568,38 +24576,33 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[48068] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
-							["uptime"] = 12,
+							["refresh"] = 1,
+							["uptime"] = 18,
 						},
-						[12536] = {
+						[15359] = {
 							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 64,
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
 							["uptime"] = 14,
 						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 26,
-							["school"] = 4,
-							["refresh"] = 7,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["count"] = 4,
-									["refresh"] = 7,
-									["uptime"] = 26,
-								},
-							},
-							["count"] = 4,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[57623] = {
 							["school"] = 1,
-							["uptime"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 215916,
 					["time"] = 37.62000000000001,
 					["totaldamagetaken"] = 20502,
 					["damage"] = 215916,
@@ -24614,34 +24617,34 @@ SkadaStorageDB = {
 									["amount"] = 121769,
 								},
 							},
+							["amount"] = 121769,
+							["hitmax"] = 7933,
 							["criticalmax"] = 15672,
 							["critical"] = 6,
-							["casts"] = 14,
-							["count"] = 11,
 							["hit"] = 5,
 							["school"] = 4,
-							["hitmax"] = 7933,
-							["amount"] = 121769,
+							["count"] = 11,
+							["casts"] = 14,
 							["hitamount"] = 37173,
 						},
 						["Pyroblast"] = {
 							["hitmin"] = 8464,
 							["criticalamount"] = 16356,
 							["id"] = 42891,
-							["hitmax"] = 8464,
+							["count"] = 2,
 							["targets"] = {
 								["Archavon Warder"] = {
 									["amount"] = 24820,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 24820,
-							["school"] = 4,
-							["criticalmin"] = 16356,
 							["criticalmax"] = 16356,
+							["criticalmin"] = 16356,
+							["casts"] = 2,
+							["hitmax"] = 8464,
+							["hit"] = 1,
+							["school"] = 4,
+							["amount"] = 24820,
+							["critical"] = 1,
 							["hitamount"] = 8464,
 						},
 						["Pyroblast (DoT)"] = {
@@ -24684,34 +24687,14 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 2296,
-							["critical"] = 2,
+							["amount"] = 15809,
 							["criticalmax"] = 2296,
-							["count"] = 11,
+							["critical"] = 2,
 							["hit"] = 9,
 							["school"] = 4,
 							["hitmax"] = 1335,
-							["amount"] = 15809,
+							["count"] = 11,
 							["hitamount"] = 11217,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 3597,
-							["criticalamount"] = 5810,
-							["id"] = 42873,
-							["criticalmin"] = 5810,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 9407,
-								},
-							},
-							["criticalmax"] = 5810,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 3597,
-							["amount"] = 9407,
-							["hitamount"] = 3597,
 						},
 						["Living Bomb"] = {
 							["hitmin"] = 2486,
@@ -24723,15 +24706,35 @@ SkadaStorageDB = {
 									["amount"] = 7582,
 								},
 							},
+							["amount"] = 7582,
+							["hitmax"] = 2486,
 							["criticalmax"] = 5096,
 							["critical"] = 1,
-							["casts"] = 4,
-							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 4,
-							["hitmax"] = 2486,
-							["amount"] = 7582,
+							["count"] = 2,
+							["casts"] = 4,
 							["hitamount"] = 2486,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 3597,
+							["criticalamount"] = 5810,
+							["id"] = 42873,
+							["criticalmin"] = 5810,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 9407,
+								},
+							},
+							["amount"] = 9407,
+							["hitmax"] = 3597,
+							["criticalmax"] = 5810,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["count"] = 2,
+							["casts"] = 2,
+							["hitamount"] = 3597,
 						},
 					},
 					["damagetaken"] = 16318,
@@ -24742,30 +24745,29 @@ SkadaStorageDB = {
 							["total"] = 20502,
 							["hitmin"] = 3766,
 							["id"] = 60923,
-							["hitmax"] = 4184,
+							["count"] = 5,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 20502,
 									["amount"] = 16318,
+									["total"] = 20502,
 								},
 							},
-							["count"] = 5,
+							["hitmax"] = 4184,
 							["ABSORB"] = 1,
 							["school"] = 1,
-							["amount"] = 16318,
 							["hit"] = 4,
+							["amount"] = 16318,
 							["hitamount"] = 16318,
 						},
 					},
 					["name"] = "Merrian",
-					["totaldamage"] = 215916,
-					["class"] = "MAGE",
+					["role"] = "DAMAGER",
 					["manaspells"] = {
 						[29077] = 1751,
 						[67545] = 715,
 						[44450] = -255,
 					},
-					["role"] = "DAMAGER",
+					["class"] = "MAGE",
 				}, -- [3]
 				{
 					["last"] = 8192.509,
@@ -24773,33 +24775,33 @@ SkadaStorageDB = {
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[58578] = {
+							["uptime"] = 51,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 51,
 						},
 						[63944] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 6,
-							["uptime"] = 56,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[67383] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 36,
 						},
 						[55610] = {
@@ -24822,11 +24824,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[15359] = {
+						[48111] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 10,
+							["uptime"] = 21,
 						},
 						[47930] = {
 							["type"] = "BUFF",
@@ -24836,9 +24837,9 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 						[60302] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[55095] = {
@@ -24872,8 +24873,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 16,
 								},
 							},
@@ -24886,17 +24887,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 32,
 								},
 							},
 							["count"] = 2,
 						},
 						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 22,
 						},
 						[53365] = {
@@ -24913,12 +24914,14 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["uptime"] = 51,
 						},
-						[48111] = {
+						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
+							["uptime"] = 10,
 						},
 					},
+					["totaldamage"] = 152415,
 					["time"] = 40.1,
 					["totaldamagetaken"] = 12611,
 					["damage"] = 152415,
@@ -24929,55 +24932,99 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 771,
+							["min"] = 50,
+							["count"] = 34,
+							["amount"] = 2781,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Vktr"] = {
 									["overheal"] = 771,
 									["amount"] = 2781,
 								},
 							},
-							["count"] = 34,
-							["amount"] = 2781,
-							["school"] = 1,
 							["max"] = 318,
-							["ishot"] = true,
-							["min"] = 50,
 						},
 						[53365] = {
 							["overheal"] = 0,
 							["count"] = 2,
 							["amount"] = 1706,
 							["school"] = 1,
-							["max"] = 853,
+							["min"] = 853,
 							["targets"] = {
 								["Vktr"] = {
 									["overheal"] = 0,
 									["amount"] = 1706,
 								},
 							},
-							["min"] = 853,
+							["max"] = 853,
 						},
 					},
 					["damagetakenspells"] = {
 						["Whirl"] = {
 							["hitmin"] = 12611,
 							["id"] = 60916,
-							["hitmax"] = 12611,
+							["count"] = 3,
 							["sources"] = {
 								["Archavon Warder"] = {
 									["amount"] = 12611,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 12611,
 							["hit"] = 1,
 							["school"] = 1,
-							["PARRY"] = 2,
 							["amount"] = 12611,
+							["PARRY"] = 2,
 							["hitamount"] = 12611,
 						},
 					},
 					["heal"] = 4487,
 					["name"] = "Vktr",
+					["role"] = "DAMAGER",
 					["damagespells"] = {
+						["Melee (Rotstealer)"] = {
+							["glance"] = 1644,
+							["hitmin"] = 353,
+							["criticalmin"] = 708,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 18739,
+								},
+							},
+							["glancing"] = 4,
+							["amount"] = 18739,
+							["glancemin"] = 370,
+							["criticalamount"] = 6890,
+							["id"] = 6603,
+							["glancemax"] = 432,
+							["criticalmax"] = 860,
+							["critical"] = 9,
+							["hit"] = 26,
+							["school"] = 1,
+							["count"] = 39,
+							["hitmax"] = 437,
+							["hitamount"] = 10205,
+						},
+						["Scourge Strike"] = {
+							["hitmin"] = 2170,
+							["criticalamount"] = 11143,
+							["id"] = 55271,
+							["criticalmin"] = 5499,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 13313,
+								},
+							},
+							["amount"] = 13313,
+							["hitmax"] = 2170,
+							["criticalmax"] = 5644,
+							["critical"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 3,
+							["casts"] = 3,
+							["hitamount"] = 2170,
+						},
 						["Pendulum of Telluric Currents"] = {
 							["criticalamount"] = 2651,
 							["id"] = 60483,
@@ -24990,53 +25037,29 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 2651,
 							["school"] = 32,
-							["criticalmin"] = 2651,
-							["criticalmax"] = 2651,
 							["count"] = 1,
+							["criticalmax"] = 2651,
+							["criticalmin"] = 2651,
 						},
-						["Scourge Strike"] = {
-							["hitmin"] = 2170,
-							["criticalamount"] = 11143,
-							["id"] = 55271,
-							["criticalmin"] = 5499,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 13313,
-								},
-							},
-							["criticalmax"] = 5644,
-							["critical"] = 2,
-							["casts"] = 3,
+						["Icy Touch"] = {
+							["hitmin"] = 1307,
+							["criticalamount"] = 2648,
+							["id"] = 49909,
 							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2170,
-							["amount"] = 13313,
-							["hitamount"] = 2170,
-						},
-						["Melee"] = {
-							["glance"] = 1465,
-							["hitmin"] = 1400,
-							["criticalmin"] = 3100,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["amount"] = 33044,
+									["amount"] = 5487,
 								},
 							},
-							["glancing"] = 1,
-							["amount"] = 33044,
-							["glancemin"] = 1465,
-							["criticalamount"] = 12809,
-							["id"] = 6603,
-							["glancemax"] = 1465,
-							["criticalmax"] = 3314,
-							["PARRY"] = 1,
-							["hitmax"] = 1865,
-							["hit"] = 11,
-							["school"] = 1,
-							["critical"] = 4,
-							["count"] = 17,
-							["hitamount"] = 18770,
+							["criticalmax"] = 2648,
+							["criticalmin"] = 2648,
+							["casts"] = 3,
+							["hitmax"] = 1532,
+							["hit"] = 2,
+							["school"] = 16,
+							["amount"] = 5487,
+							["critical"] = 1,
+							["hitamount"] = 2839,
 						},
 						["Blood-Caked Strike"] = {
 							["hitmin"] = 1115,
@@ -25054,26 +25077,6 @@ SkadaStorageDB = {
 							["amount"] = 1115,
 							["hitamount"] = 1115,
 						},
-						["Icy Touch"] = {
-							["hitmin"] = 1307,
-							["criticalamount"] = 2648,
-							["id"] = 49909,
-							["hitmax"] = 1532,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 5487,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["casts"] = 3,
-							["critical"] = 1,
-							["amount"] = 5487,
-							["school"] = 16,
-							["criticalmin"] = 2648,
-							["criticalmax"] = 2648,
-							["hitamount"] = 2839,
-						},
 						["Rune Strike"] = {
 							["criticalamount"] = 7510,
 							["id"] = 56815,
@@ -25086,9 +25089,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 7510,
 							["school"] = 1,
-							["criticalmin"] = 7510,
-							["criticalmax"] = 7510,
 							["count"] = 1,
+							["criticalmax"] = 7510,
+							["criticalmin"] = 7510,
 						},
 						["Wandering Plague"] = {
 							["hitmin"] = 600,
@@ -25122,25 +25125,25 @@ SkadaStorageDB = {
 							["amount"] = 6229,
 							["hitamount"] = 6229,
 						},
-						["Death Coil"] = {
-							["hitmin"] = 2399,
-							["criticalamount"] = 5350,
-							["id"] = 47632,
-							["criticalmin"] = 5350,
+						["Blood Strike"] = {
+							["hitmin"] = 1357,
+							["criticalamount"] = 8167,
+							["id"] = 49930,
+							["count"] = 6,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["amount"] = 10338,
+									["amount"] = 12348,
 								},
 							},
-							["criticalmax"] = 5350,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 2589,
-							["amount"] = 10338,
-							["hitamount"] = 4988,
+							["criticalmax"] = 2787,
+							["criticalmin"] = 2659,
+							["casts"] = 6,
+							["hitmax"] = 1451,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 12348,
+							["critical"] = 3,
+							["hitamount"] = 4181,
 						},
 						["Necrosis"] = {
 							["hitmin"] = 280,
@@ -25183,35 +25186,35 @@ SkadaStorageDB = {
 									["amount"] = 9610,
 								},
 							},
+							["amount"] = 9610,
+							["hitmax"] = 654,
 							["criticalmax"] = 1232,
 							["critical"] = 6,
-							["casts"] = 1,
-							["count"] = 11,
 							["hit"] = 5,
 							["school"] = 1,
-							["hitmax"] = 654,
-							["amount"] = 9610,
+							["count"] = 11,
+							["casts"] = 1,
 							["hitamount"] = 2932,
 						},
-						["Blood Strike"] = {
-							["hitmin"] = 1357,
-							["criticalamount"] = 8167,
-							["id"] = 49930,
-							["hitmax"] = 1451,
+						["Death Coil"] = {
+							["hitmin"] = 2399,
+							["criticalamount"] = 5350,
+							["id"] = 47632,
+							["criticalmin"] = 5350,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["amount"] = 12348,
+									["amount"] = 10338,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 3,
-							["casts"] = 6,
-							["critical"] = 3,
-							["amount"] = 12348,
-							["school"] = 1,
-							["criticalmin"] = 2659,
-							["criticalmax"] = 2787,
-							["hitamount"] = 4181,
+							["amount"] = 10338,
+							["hitmax"] = 2589,
+							["criticalmax"] = 5350,
+							["critical"] = 1,
+							["hit"] = 2,
+							["school"] = 32,
+							["count"] = 3,
+							["casts"] = 3,
+							["hitamount"] = 4988,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 1193,
@@ -25244,32 +25247,31 @@ SkadaStorageDB = {
 							["amount"] = 8409,
 							["hitamount"] = 8409,
 						},
-						["Melee (Rotstealer)"] = {
-							["glance"] = 1644,
-							["hitmin"] = 353,
-							["criticalmin"] = 708,
+						["Melee"] = {
+							["glance"] = 1465,
+							["hitmin"] = 1400,
+							["criticalmin"] = 3100,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["amount"] = 18739,
+									["amount"] = 33044,
 								},
 							},
-							["glancing"] = 4,
-							["amount"] = 18739,
-							["glancemin"] = 370,
-							["criticalamount"] = 6890,
+							["glancing"] = 1,
+							["amount"] = 33044,
+							["glancemin"] = 1465,
+							["criticalamount"] = 12809,
 							["id"] = 6603,
-							["glancemax"] = 432,
-							["criticalmax"] = 860,
-							["critical"] = 9,
-							["hit"] = 26,
+							["glancemax"] = 1465,
+							["PARRY"] = 1,
+							["criticalmax"] = 3314,
+							["hitmax"] = 1865,
+							["hit"] = 11,
 							["school"] = 1,
-							["count"] = 39,
-							["hitmax"] = 437,
-							["hitamount"] = 10205,
+							["count"] = 17,
+							["critical"] = 4,
+							["hitamount"] = 18770,
 						},
 					},
-					["totaldamage"] = 152415,
-					["role"] = "DAMAGER",
 				}, -- [4]
 				{
 					["last"] = 8186.682,
@@ -25277,9 +25279,9 @@ SkadaStorageDB = {
 					["class"] = "PALADIN",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[71432] = {
@@ -25300,10 +25302,10 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[63944] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 56,
 						},
 						[54428] = {
 							["type"] = "BUFF",
@@ -25345,9 +25347,9 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[48952] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 34,
 						},
 						[53138] = {
@@ -25355,44 +25357,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[54861] = {
+						[57623] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
+							["refresh"] = 1,
 						},
-						[26017] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 18,
+						[47753] = {
 							["school"] = 2,
-							["refresh"] = 4,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 18,
-								},
-							},
+							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 12,
 						},
 						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 18,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 18,
-								},
-							},
+						[51470] = {
+							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 56,
 						},
 						[48090] = {
 							["type"] = "BUFF",
@@ -25401,15 +25386,24 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 45,
 						},
-						[51470] = {
-							["type"] = "BUFF",
+						[20186] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 18,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 18,
+								},
+							},
 							["count"] = 1,
-							["uptime"] = 56,
 						},
 						[71197] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 8,
 							["uptime"] = 45,
 						},
 						[54499] = {
@@ -25419,8 +25413,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 18,
 								},
 							},
@@ -25436,19 +25430,28 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[26017] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 18,
 							["school"] = 2,
-							["uptime"] = 12,
+							["refresh"] = 4,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 18,
+								},
+							},
+							["count"] = 1,
 						},
-						[57623] = {
+						[54861] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 56,
+							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 57089,
 					["time"] = 35.64999999999999,
 					["totaldamagetaken"] = 5445,
 					["damage"] = 57089,
@@ -25483,13 +25486,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 7654,
 							["id"] = 6603,
 							["glancemax"] = 653,
-							["critical"] = 6,
-							["criticalmax"] = 1490,
 							["hitmax"] = 742,
+							["criticalmax"] = 1490,
+							["critical"] = 6,
 							["hit"] = 16,
 							["school"] = 1,
-							["blocked"] = 40,
 							["count"] = 23,
+							["blocked"] = 40,
 							["hitamount"] = 10789,
 						},
 						["Hammer of Wrath"] = {
@@ -25504,29 +25507,29 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 4696,
 							["school"] = 2,
-							["criticalmin"] = 4696,
-							["criticalmax"] = 4696,
 							["count"] = 1,
+							["criticalmax"] = 4696,
+							["criticalmin"] = 4696,
 						},
 						["Hammer of the Righteous"] = {
-							["blocked"] = 40,
+							["criticalmin"] = 5868,
 							["hitmin"] = 2954,
 							["criticalamount"] = 5868,
 							["id"] = 53595,
-							["criticalmin"] = 5868,
+							["amount"] = 14933,
 							["targets"] = {
 								["Archavon Warder"] = {
 									["amount"] = 14933,
 								},
 							},
+							["hitmax"] = 3157,
+							["hit"] = 3,
 							["criticalmax"] = 5868,
 							["critical"] = 1,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 3,
+							["blocked"] = 40,
 							["school"] = 2,
-							["hitmax"] = 3157,
-							["amount"] = 14933,
+							["count"] = 4,
+							["casts"] = 4,
 							["hitamount"] = 9065,
 						},
 						["Silenced - Shield of the Templar"] = {
@@ -25626,15 +25629,15 @@ SkadaStorageDB = {
 						["Whirl"] = {
 							["hitmin"] = 5445,
 							["id"] = 60916,
-							["amount"] = 5445,
 							["blocked"] = 1935,
+							["hit"] = 1,
 							["sources"] = {
 								["Archavon Warder"] = {
 									["amount"] = 5445,
 								},
 							},
 							["count"] = 2,
-							["hit"] = 1,
+							["amount"] = 5445,
 							["school"] = 1,
 							["hitmax"] = 5445,
 							["MISS"] = 1,
@@ -25642,6 +25645,8 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Rasalgull",
+					["role"] = "TANK",
+					["mana"] = 14605,
 					["manaspells"] = {
 						[31786] = 772,
 						[20168] = 2453,
@@ -25649,9 +25654,6 @@ SkadaStorageDB = {
 						[54428] = 4743,
 						[57319] = 444,
 					},
-					["mana"] = 14605,
-					["totaldamage"] = 57089,
-					["role"] = "TANK",
 				}, -- [5]
 				{
 					["last"] = 8145.267,
@@ -25660,52 +25662,58 @@ SkadaStorageDB = {
 					["spec"] = 63,
 					["auras"] = {
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 7,
 						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 23,
-						},
 						[48090] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 24,
 						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 3,
+						[19746] = {
 							["school"] = 2,
-							["uptime"] = 16,
-						},
-						[2479] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 56,
+							["uptime"] = 6,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
+						},
+						[63944] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
 						},
 						[19506] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[19746] = {
+						[2479] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[48068] = {
 							["school"] = 2,
-							["uptime"] = 6,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 16,
 						},
 					},
+					["role"] = "DAMAGER",
+					["name"] = "Quewyn",
+					["class"] = "MAGE",
+					["time"] = 0,
+					["totaldamagetaken"] = 20917,
+					["flag"] = 1298,
 					["damagetakenspells"] = {
 						["Rock Shower (DoT)"] = {
 							["hitmin"] = 3818,
@@ -25723,12 +25731,6 @@ SkadaStorageDB = {
 							["hitamount"] = 20917,
 						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Quewyn",
-					["flag"] = 1298,
-					["totaldamagetaken"] = 20917,
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [6]
 				{
 					["last"] = 8191.981,
@@ -25736,34 +25738,34 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 18,
 						},
 						[12970] = {
 							["type"] = "BUFF",
 							["count"] = 4,
-							["refresh"] = 1,
 							["school"] = 1,
+							["refresh"] = 1,
 							["uptime"] = 41,
 						},
 						[63944] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 56,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
 						[55610] = {
@@ -25777,9 +25779,9 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 10,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[53138] = {
@@ -25787,16 +25789,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[47753] = {
+						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 10,
 						},
 						[65014] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[58567] = {
@@ -25806,8 +25808,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 8,
 								},
 							},
@@ -25825,23 +25827,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 20,
-						},
 						[46916] = {
 							["type"] = "BUFF",
 							["count"] = 6,
-							["refresh"] = 2,
 							["school"] = 1,
+							["refresh"] = 2,
 							["uptime"] = 14,
 						},
 						[12721] = {
@@ -25851,60 +25841,63 @@ SkadaStorageDB = {
 							["refresh"] = 9,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 1,
 									["refresh"] = 9,
+									["count"] = 1,
 									["uptime"] = 16,
 								},
 							},
 							["count"] = 1,
 						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 						[18499] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[29131] = {
+						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["count"] = 2,
+							["uptime"] = 20,
 						},
 					},
+					["totaldamage"] = 140623,
 					["time"] = 40.2,
-					["ragespells"] = {
-						[2687] = 20,
-						[23690] = 10,
-						[12964] = 16,
-						[58362] = 50,
-						[29131] = 10,
-					},
 					["totaldamagetaken"] = 39265,
-					["sundertargets"] = {
-						["Archavon Warder"] = 2,
-					},
 					["damage"] = 140623,
 					["damagespells"] = {
 						["Bloodthirst"] = {
-							["criticalmin"] = 6347,
-							["hitmin"] = 2071,
 							["criticalamount"] = 6347,
+							["hitmin"] = 2071,
+							["criticalmin"] = 6347,
 							["id"] = 23881,
-							["criticalmax"] = 6347,
+							["amount"] = 23794,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["overkill"] = 1286,
 									["amount"] = 23794,
+									["overkill"] = 1286,
 								},
 							},
 							["overkill"] = 1286,
+							["hitmax"] = 2884,
+							["criticalmax"] = 6347,
 							["critical"] = 1,
-							["casts"] = 9,
-							["count"] = 9,
 							["hit"] = 8,
 							["school"] = 1,
-							["hitmax"] = 2884,
-							["amount"] = 23794,
+							["count"] = 9,
+							["casts"] = 9,
 							["hitamount"] = 17447,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -25922,60 +25915,64 @@ SkadaStorageDB = {
 							["amount"] = 13287,
 							["hitamount"] = 13287,
 						},
-						["Intercept"] = {
-							["criticalamount"] = 659,
-							["id"] = 20253,
+						["Heroic Strike"] = {
+							["hitmin"] = 1843,
+							["criticalamount"] = 20111,
+							["id"] = 47450,
+							["count"] = 13,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["amount"] = 659,
+									["amount"] = 36248,
 								},
 							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 659,
+							["criticalmax"] = 4088,
+							["criticalmin"] = 3941,
+							["casts"] = 13,
+							["hitmax"] = 2228,
+							["hit"] = 8,
 							["school"] = 1,
-							["criticalmin"] = 659,
-							["criticalmax"] = 659,
-							["count"] = 1,
+							["amount"] = 36248,
+							["critical"] = 5,
+							["hitamount"] = 16137,
 						},
 						["Slam"] = {
 							["hitmin"] = 1725,
 							["criticalamount"] = 8671,
 							["id"] = 50783,
-							["hitmax"] = 2007,
+							["count"] = 6,
 							["targets"] = {
 								["Archavon Warder"] = {
 									["amount"] = 15947,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 4,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 15947,
-							["school"] = 1,
-							["criticalmin"] = 3869,
 							["criticalmax"] = 4802,
+							["criticalmin"] = 3869,
+							["casts"] = 1,
+							["hitmax"] = 2007,
+							["hit"] = 4,
+							["school"] = 1,
+							["amount"] = 15947,
+							["critical"] = 2,
 							["hitamount"] = 7276,
 						},
 						["Whirlwind"] = {
 							["hitmin"] = 1099,
 							["criticalamount"] = 16723,
 							["id"] = 1680,
-							["hitmax"] = 2411,
+							["count"] = 8,
 							["targets"] = {
 								["Archavon Warder"] = {
 									["amount"] = 22171,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 3,
-							["casts"] = 4,
-							["critical"] = 5,
-							["amount"] = 22171,
-							["school"] = 1,
-							["criticalmin"] = 2607,
 							["criticalmax"] = 4107,
+							["criticalmin"] = 2607,
+							["casts"] = 4,
+							["hitmax"] = 2411,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 22171,
+							["critical"] = 5,
 							["hitamount"] = 5448,
 						},
 						["Melee"] = {
@@ -26001,29 +25998,25 @@ SkadaStorageDB = {
 							["hitmax"] = 1156,
 							["hitamount"] = 9376,
 						},
-						["Heroic Strike"] = {
-							["hitmin"] = 1843,
-							["criticalamount"] = 20111,
-							["id"] = 47450,
-							["hitmax"] = 2228,
+						["Intercept"] = {
+							["criticalamount"] = 659,
+							["id"] = 20253,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["amount"] = 36248,
+									["amount"] = 659,
 								},
 							},
-							["count"] = 13,
-							["hit"] = 8,
-							["casts"] = 13,
-							["critical"] = 5,
-							["amount"] = 36248,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 659,
 							["school"] = 1,
-							["criticalmin"] = 3941,
-							["criticalmax"] = 4088,
-							["hitamount"] = 16137,
+							["count"] = 1,
+							["criticalmax"] = 659,
+							["criticalmin"] = 659,
 						},
 					},
-					["sunder"] = 2,
 					["damagetaken"] = 31537,
+					["role"] = "DAMAGER",
 					["id"] = "0x07000000009C8F2F",
 					["spec"] = 72,
 					["healspells"] = {
@@ -26032,14 +26025,14 @@ SkadaStorageDB = {
 							["count"] = 22,
 							["amount"] = 5561,
 							["school"] = 1,
-							["max"] = 271,
+							["min"] = 141,
 							["targets"] = {
 								["Finalwield"] = {
 									["overheal"] = 401,
 									["amount"] = 5561,
 								},
 							},
-							["min"] = 141,
+							["max"] = 271,
 						},
 					},
 					["damagetakenspells"] = {
@@ -26049,8 +26042,8 @@ SkadaStorageDB = {
 							["id"] = 60916,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 39265,
 									["amount"] = 31537,
+									["total"] = 39265,
 								},
 							},
 							["count"] = 3,
@@ -26061,46 +26054,55 @@ SkadaStorageDB = {
 							["hitamount"] = 31537,
 						},
 					},
-					["overkill"] = 1286,
-					["heal"] = 5561,
-					["name"] = "Finalwield",
-					["rage"] = 106,
 					["overheal"] = 401,
-					["totaldamage"] = 140623,
-					["role"] = "DAMAGER",
+					["ragespells"] = {
+						[2687] = 20,
+						[23690] = 10,
+						[12964] = 16,
+						[58362] = 50,
+						[29131] = 10,
+					},
+					["sundertargets"] = {
+						["Archavon Warder"] = 2,
+					},
+					["rage"] = 106,
+					["name"] = "Finalwield",
+					["heal"] = 5561,
+					["overkill"] = 1286,
+					["sunder"] = 2,
 				}, -- [7]
 				{
+					["time"] = 0,
 					["last"] = 8145.267,
+					["name"] = "Nafoo",
+					["flag"] = 1300,
 					["id"] = "0x070000000002F23A",
 					["class"] = "SHAMAN",
+					["role"] = "NONE",
 					["auras"] = {
-						[19506] = {
+						[28878] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 13,
+							["count"] = 1,
+							["uptime"] = 56,
 						},
 						[57960] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 56,
+						},
+						[19506] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 13,
 						},
 						[2479] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
 					},
-					["role"] = "NONE",
-					["name"] = "Nafoo",
-					["flag"] = 1300,
-					["time"] = 0,
 				}, -- [8]
 				{
 					["last"] = 8192.593000000001,
@@ -26108,9 +26110,9 @@ SkadaStorageDB = {
 					["class"] = "HUNTER",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[53338] = {
@@ -26126,15 +26128,15 @@ SkadaStorageDB = {
 							["uptime"] = 27,
 						},
 						[34026] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[71556] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[49001] = {
@@ -26144,47 +26146,47 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 2,
 									["refresh"] = 2,
+									["count"] = 2,
 									["uptime"] = 14,
 								},
 							},
 							["count"] = 2,
 						},
 						[19882] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 29,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[61685] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 						[19746] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 27,
 						},
 						[2580] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 14,
 						},
 						[1742] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[61847] = {
@@ -26193,22 +26195,23 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[53480] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 12,
 						},
-						[48068] = {
+						[63944] = {
 							["type"] = "BUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["school"] = 2,
-							["uptime"] = 15,
+							["refresh"] = 4,
+							["uptime"] = 56,
 						},
-						[62757] = {
+						[48990] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 15,
 						},
 						[49050] = {
 							["type"] = "DEBUFF",
@@ -26246,41 +26249,41 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
-						},
 						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 12,
+						},
+						[62757] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 						[19506] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[48990] = {
+						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 15,
 						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[48068] = {
 							["school"] = 2,
-							["refresh"] = 4,
-							["uptime"] = 56,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 					},
 					["energyspells"] = {
 						[57894] = 189,
 						[34952] = 225,
 					},
+					["totaldamage"] = 71412,
 					["time"] = 20.63,
 					["totaldamagetaken"] = 13355,
 					["damage"] = 71412,
@@ -26311,23 +26314,25 @@ SkadaStorageDB = {
 							["total"] = 13355,
 							["hitmin"] = 2671,
 							["id"] = 60923,
-							["ABSORB"] = 2,
+							["hit"] = 3,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 13355,
 									["amount"] = 8013,
+									["total"] = 13355,
 								},
 							},
 							["count"] = 5,
-							["hit"] = 3,
+							["ABSORB"] = 2,
 							["school"] = 1,
-							["hitmax"] = 2671,
 							["amount"] = 8013,
+							["hitmax"] = 2671,
 							["hitamount"] = 8013,
 						},
 					},
 					["heal"] = 1677,
 					["name"] = "Paopaozhu",
+					["role"] = "DAMAGER",
+					["energy"] = 414,
 					["damagespells"] = {
 						["Piercing Shots (DoT)"] = {
 							["hitmin"] = 244,
@@ -26364,20 +26369,20 @@ SkadaStorageDB = {
 							["hitmin"] = 630,
 							["criticalamount"] = 4492,
 							["id"] = 49001,
-							["casts"] = 2,
+							["count"] = 4,
 							["targets"] = {
 								["Archavon Warder"] = {
 									["amount"] = 5122,
 								},
 							},
+							["criticalmin"] = 1449,
+							["hit"] = 1,
+							["casts"] = 2,
 							["hitmax"] = 630,
-							["count"] = 4,
-							["criticalmax"] = 1522,
-							["critical"] = 3,
 							["amount"] = 5122,
 							["school"] = 8,
-							["hit"] = 1,
-							["criticalmin"] = 1449,
+							["critical"] = 3,
+							["criticalmax"] = 1522,
 							["hitamount"] = 630,
 						},
 						["Auto Shot"] = {
@@ -26390,14 +26395,14 @@ SkadaStorageDB = {
 									["amount"] = 15750,
 								},
 							},
+							["amount"] = 15750,
+							["hitmax"] = 2060,
 							["criticalmax"] = 4008,
 							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 6,
 							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 2060,
-							["amount"] = 15750,
+							["count"] = 6,
+							["casts"] = 1,
 							["hitamount"] = 7878,
 						},
 						["Thunderstomp (Crab)"] = {
@@ -26410,14 +26415,14 @@ SkadaStorageDB = {
 									["amount"] = 1688,
 								},
 							},
+							["amount"] = 1688,
+							["hitmax"] = 838,
 							["criticalmax"] = 850,
 							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 8,
-							["hitmax"] = 838,
-							["amount"] = 1688,
+							["count"] = 2,
+							["casts"] = 1,
 							["hitamount"] = 838,
 						},
 						["Claw (Crab)"] = {
@@ -26464,9 +26469,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 14676,
 							["school"] = 1,
-							["criticalmin"] = 14676,
-							["criticalmax"] = 14676,
 							["count"] = 1,
+							["criticalmax"] = 14676,
+							["criticalmin"] = 14676,
 						},
 						["Pin (Crab)"] = {
 							["casts"] = 1,
@@ -26493,9 +26498,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 12458,
 							["school"] = 1,
-							["criticalmin"] = 6216,
-							["criticalmax"] = 6242,
 							["count"] = 2,
+							["criticalmax"] = 6242,
+							["criticalmin"] = 6216,
 						},
 						["Melee (Crab)"] = {
 							["glance"] = 340,
@@ -26530,14 +26535,14 @@ SkadaStorageDB = {
 									["amount"] = 5977,
 								},
 							},
+							["amount"] = 5977,
+							["hitmax"] = 1725,
 							["criticalmax"] = 4252,
 							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 8,
-							["hitmax"] = 1725,
-							["amount"] = 5977,
+							["count"] = 2,
+							["casts"] = 1,
 							["hitamount"] = 1725,
 						},
 						["Charge (Crab)"] = {
@@ -26554,9 +26559,6 @@ SkadaStorageDB = {
 							["id"] = 53148,
 						},
 					},
-					["totaldamage"] = 71412,
-					["energy"] = 414,
-					["role"] = "DAMAGER",
 				}, -- [9]
 				{
 					["last"] = 8191.939,
@@ -26564,21 +26566,21 @@ SkadaStorageDB = {
 					["class"] = "WARLOCK",
 					["auras"] = {
 						[64713] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[54508] = {
 							["school"] = 1,
-							["uptime"] = 5,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 27,
 						},
 						[25228] = {
@@ -26593,11 +26595,10 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 22,
 						},
-						[72416] = {
+						[35706] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
+							["uptime"] = 56,
 						},
 						[32851] = {
 							["type"] = "BUFF",
@@ -26607,27 +26608,28 @@ SkadaStorageDB = {
 							["uptime"] = 43,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 17,
-						},
-						[35706] = {
+						[63944] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 5,
 							["uptime"] = 56,
 						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 5,
+						},
 						[71165] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 32,
 						},
 						[55610] = {
@@ -26635,35 +26637,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[75466] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 48,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["uptime"] = 19,
-						},
 						[63321] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 8,
-							["uptime"] = 56,
 						},
-						[53476] = {
+						[19746] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 8,
+							["count"] = 2,
+							["uptime"] = 48,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 19,
 						},
 						[15359] = {
 							["type"] = "BUFF",
@@ -26671,6 +26661,17 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["refresh"] = 1,
 							["uptime"] = 16,
+						},
+						[53476] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
 						},
 						[47867] = {
 							["type"] = "DEBUFF",
@@ -26684,10 +26685,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 10,
 						},
-						[53138] = {
+						[47930] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 17,
 						},
 						[47855] = {
 							["type"] = "BUFF",
@@ -26696,12 +26699,19 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 1,
 								},
 							},
 							["count"] = 4,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 45,
 						},
 						[47893] = {
 							["type"] = "BUFF",
@@ -26709,9 +26719,9 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 4,
 						},
 						[47811] = {
@@ -26725,13 +26735,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 18,
-						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 45,
 						},
 						[51470] = {
 							["type"] = "BUFF",
@@ -26769,25 +26772,25 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 8,
 						},
-						[63944] = {
+						[75466] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 5,
-							["uptime"] = 56,
+							["uptime"] = 15,
 						},
 						[35696] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[54508] = {
+						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 10,
 						},
 					},
+					["totaldamage"] = 135858,
 					["time"] = 26.68999999999999,
 					["totaldamagetaken"] = 63375,
 					["damage"] = 135858,
@@ -26798,60 +26801,43 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[47893] = {
 							["overheal"] = 585,
+							["min"] = 552,
+							["count"] = 11,
+							["amount"] = 5784,
+							["school"] = 32,
+							["ishot"] = true,
 							["targets"] = {
 								["Lottle"] = {
 									["overheal"] = 585,
 									["amount"] = 5784,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 5784,
-							["school"] = 32,
 							["max"] = 585,
-							["ishot"] = true,
-							["min"] = 552,
 						},
 						[54181] = {
 							["overheal"] = 1887,
 							["count"] = 24,
 							["amount"] = 14905,
 							["school"] = 2,
-							["max"] = 2069,
+							["min"] = 180,
 							["targets"] = {
 								["Thooghun"] = {
 									["overheal"] = 1887,
 									["amount"] = 14905,
 								},
 							},
-							["min"] = 180,
+							["max"] = 2069,
 						},
 					},
 					["damagetakenspells"] = {
-						["Whirl"] = {
-							["total"] = 40899,
-							["hitmin"] = 10421,
-							["id"] = 60916,
-							["sources"] = {
-								["Archavon Warder"] = {
-									["total"] = 40899,
-									["amount"] = 26537,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 16116,
-							["amount"] = 26537,
-							["hitamount"] = 26537,
-						},
 						["Rock Shower (DoT)"] = {
 							["total"] = 22476,
 							["hitmin"] = 7,
 							["id"] = 60923,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 22476,
 									["amount"] = 15101,
+									["total"] = 22476,
 								},
 							},
 							["count"] = 6,
@@ -26861,6 +26847,31 @@ SkadaStorageDB = {
 							["amount"] = 15101,
 							["hitamount"] = 15101,
 						},
+						["Whirl"] = {
+							["total"] = 40899,
+							["hitmin"] = 10421,
+							["id"] = 60916,
+							["sources"] = {
+								["Archavon Warder"] = {
+									["amount"] = 26537,
+									["total"] = 40899,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 16116,
+							["amount"] = 26537,
+							["hitamount"] = 26537,
+						},
+					},
+					["heal"] = 20689,
+					["name"] = "Lottle",
+					["mana"] = 63322,
+					["role"] = "DAMAGER",
+					["manaspells"] = {
+						[31818] = 31661,
+						[32553] = 31661,
 					},
 					["damagespells"] = {
 						["Corruption (DoT)"] = {
@@ -26889,14 +26900,14 @@ SkadaStorageDB = {
 									["amount"] = 43238,
 								},
 							},
+							["amount"] = 43238,
+							["hitmax"] = 6062,
 							["criticalmax"] = 12562,
 							["critical"] = 2,
-							["casts"] = 5,
-							["count"] = 6,
 							["hit"] = 4,
 							["school"] = 4,
-							["hitmax"] = 6062,
-							["amount"] = 43238,
+							["count"] = 6,
+							["casts"] = 5,
 							["hitamount"] = 20565,
 						},
 						["Immolate"] = {
@@ -26935,20 +26946,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1134,
 							["criticalamount"] = 3510,
 							["id"] = 47994,
-							["hitmax"] = 1486,
+							["count"] = 5,
 							["targets"] = {
 								["Archavon Warder"] = {
 									["amount"] = 7267,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 3,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 7267,
-							["school"] = 1,
-							["criticalmin"] = 1566,
 							["criticalmax"] = 1944,
+							["criticalmin"] = 1566,
+							["casts"] = 1,
+							["hitmax"] = 1486,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 7267,
+							["critical"] = 2,
 							["hitamount"] = 3757,
 						},
 						["Soul Fire"] = {
@@ -26963,9 +26974,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 21503,
 							["school"] = 4,
-							["criticalmin"] = 21503,
-							["criticalmax"] = 21503,
 							["count"] = 1,
+							["criticalmax"] = 21503,
+							["criticalmin"] = 21503,
 						},
 						["Immolate (DoT)"] = {
 							["hitmin"] = 1134,
@@ -26976,14 +26987,14 @@ SkadaStorageDB = {
 									["amount"] = 8402,
 								},
 							},
-							["hitmax"] = 1135,
 							["count"] = 5,
+							["criticalmin"] = 2371,
 							["criticalmax"] = 2627,
-							["critical"] = 2,
+							["hitmax"] = 1135,
 							["amount"] = 8402,
 							["school"] = 4,
 							["hit"] = 3,
-							["criticalmin"] = 2371,
+							["critical"] = 2,
 							["hitamount"] = 3404,
 						},
 						["Shadow Bolt"] = {
@@ -26996,14 +27007,14 @@ SkadaStorageDB = {
 									["amount"] = 18945,
 								},
 							},
+							["amount"] = 18945,
+							["hitmax"] = 5931,
 							["criticalmax"] = 13014,
 							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 32,
-							["hitmax"] = 5931,
-							["amount"] = 18945,
+							["count"] = 2,
+							["casts"] = 2,
 							["hitamount"] = 5931,
 						},
 						["Melee (Thooghun)"] = {
@@ -27030,15 +27041,6 @@ SkadaStorageDB = {
 							["hitamount"] = 12508,
 						},
 					},
-					["heal"] = 20689,
-					["name"] = "Lottle",
-					["totaldamage"] = 135858,
-					["manaspells"] = {
-						[31818] = 31661,
-						[32553] = 31661,
-					},
-					["role"] = "DAMAGER",
-					["mana"] = 63322,
 				}, -- [10]
 				{
 					["last"] = 8192.103000000001,
@@ -27046,9 +27048,9 @@ SkadaStorageDB = {
 					["mana"] = 1752,
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 23,
 						},
 						[43046] = {
@@ -27057,15 +27059,15 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[63944] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 56,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[12654] = {
@@ -27075,17 +27077,17 @@ SkadaStorageDB = {
 							["refresh"] = 9,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 3,
 									["refresh"] = 9,
+									["count"] = 3,
 									["uptime"] = 18,
 								},
 							},
 							["count"] = 3,
 						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 4,
 						},
 						[55610] = {
@@ -27099,52 +27101,44 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 18,
 						},
 						[70772] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 4,
+						},
+						[75473] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48108] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 15,
 						},
 						[47930] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 4,
 						},
-						[42891] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 20,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 20,
-								},
-							},
-							["count"] = 2,
-						},
-						[53138] = {
+						[19746] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
 						[70753] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 32,
 							["uptime"] = 15,
 						},
 						[22959] = {
@@ -27154,17 +27148,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 34,
 								},
 							},
 							["count"] = 2,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 9,
 						},
 						[48090] = {
@@ -27179,6 +27173,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 56,
 						},
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 11,
+						},
 						[55360] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -27191,36 +27191,39 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 17,
 						},
-						[12536] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 64,
-							["uptime"] = 11,
-						},
 						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 4,
 						},
-						[19746] = {
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 56,
 						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
+						[42891] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 20,
+							["school"] = 4,
+							["refresh"] = 1,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 20,
+								},
+							},
+							["count"] = 2,
 						},
 					},
+					["totaldamage"] = 204794,
 					["time"] = 41.05000000000001,
 					["totaldamagetaken"] = 24162,
 					["damage"] = 204794,
@@ -27235,34 +27238,34 @@ SkadaStorageDB = {
 									["amount"] = 64360,
 								},
 							},
+							["amount"] = 64360,
+							["hitmax"] = 8801,
 							["criticalmax"] = 14388,
 							["critical"] = 3,
-							["casts"] = 7,
-							["count"] = 6,
 							["hit"] = 3,
 							["school"] = 4,
-							["hitmax"] = 8801,
-							["amount"] = 64360,
+							["count"] = 6,
+							["casts"] = 7,
 							["hitamount"] = 24107,
 						},
 						["Pyroblast"] = {
 							["hitmin"] = 7663,
 							["criticalamount"] = 28975,
 							["id"] = 42891,
-							["hitmax"] = 7663,
+							["count"] = 3,
 							["targets"] = {
 								["Archavon Warder"] = {
 									["amount"] = 36638,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 36638,
-							["school"] = 4,
-							["criticalmin"] = 13893,
 							["criticalmax"] = 15082,
+							["criticalmin"] = 13893,
+							["casts"] = 3,
+							["hitmax"] = 7663,
+							["hit"] = 1,
+							["school"] = 4,
+							["amount"] = 36638,
+							["critical"] = 2,
 							["hitamount"] = 7663,
 						},
 						["Pyroblast (DoT)"] = {
@@ -27304,51 +27307,15 @@ SkadaStorageDB = {
 									["amount"] = 15018,
 								},
 							},
-							["hitmax"] = 1156,
 							["count"] = 8,
+							["criticalmin"] = 2094,
 							["criticalmax"] = 2227,
-							["critical"] = 6,
+							["hitmax"] = 1156,
 							["amount"] = 15018,
 							["school"] = 4,
 							["hit"] = 2,
-							["criticalmin"] = 2094,
+							["critical"] = 6,
 							["hitamount"] = 2308,
-						},
-						["Living Bomb"] = {
-							["hitmin"] = 2570,
-							["criticalamount"] = 4844,
-							["id"] = 55362,
-							["hitmax"] = 2570,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 7414,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 1,
-							["amount"] = 7414,
-							["school"] = 4,
-							["criticalmin"] = 4844,
-							["criticalmax"] = 4844,
-							["hitamount"] = 2570,
-						},
-						["Scorch"] = {
-							["criticalamount"] = 13074,
-							["id"] = 42859,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 13074,
-								},
-							},
-							["casts"] = 4,
-							["critical"] = 3,
-							["amount"] = 13074,
-							["school"] = 4,
-							["criticalmin"] = 3986,
-							["criticalmax"] = 5082,
-							["count"] = 3,
 						},
 						["Fire Blast"] = {
 							["criticalamount"] = 23294,
@@ -27362,9 +27329,45 @@ SkadaStorageDB = {
 							["critical"] = 4,
 							["amount"] = 23294,
 							["school"] = 4,
-							["criticalmin"] = 5259,
-							["criticalmax"] = 6782,
 							["count"] = 4,
+							["criticalmax"] = 6782,
+							["criticalmin"] = 5259,
+						},
+						["Scorch"] = {
+							["criticalamount"] = 13074,
+							["id"] = 42859,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 13074,
+								},
+							},
+							["casts"] = 4,
+							["critical"] = 3,
+							["amount"] = 13074,
+							["school"] = 4,
+							["count"] = 3,
+							["criticalmax"] = 5082,
+							["criticalmin"] = 3986,
+						},
+						["Living Bomb"] = {
+							["hitmin"] = 2570,
+							["criticalamount"] = 4844,
+							["id"] = 55362,
+							["count"] = 2,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 7414,
+								},
+							},
+							["criticalmax"] = 4844,
+							["criticalmin"] = 4844,
+							["casts"] = 3,
+							["hitmax"] = 2570,
+							["hit"] = 1,
+							["school"] = 4,
+							["amount"] = 7414,
+							["critical"] = 1,
+							["hitamount"] = 2570,
 						},
 					},
 					["damagetaken"] = 16412,
@@ -27375,30 +27378,29 @@ SkadaStorageDB = {
 							["total"] = 24162,
 							["hitmin"] = 304,
 							["id"] = 60923,
-							["ABSORB"] = 1,
+							["hit"] = 5,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 24162,
 									["amount"] = 16412,
+									["total"] = 24162,
 								},
 							},
 							["count"] = 6,
-							["hit"] = 5,
+							["ABSORB"] = 1,
 							["school"] = 1,
-							["hitmax"] = 4027,
 							["amount"] = 16412,
+							["hitmax"] = 4027,
 							["hitamount"] = 16412,
 						},
 					},
 					["name"] = "Karshash",
-					["totaldamage"] = 204794,
-					["class"] = "MAGE",
+					["role"] = "DAMAGER",
 					["manaspells"] = {
 						[29077] = 1505,
 						[67545] = 585,
 						[44450] = -338,
 					},
-					["role"] = "DAMAGER",
+					["class"] = "MAGE",
 				}, -- [11]
 				{
 					["last"] = 8192.708000000001,
@@ -27406,9 +27408,9 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 8,
 						},
 						[15473] = {
@@ -27417,15 +27419,15 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 4,
 						},
 						[63944] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 23,
 						},
 						[15258] = {
@@ -27459,35 +27461,41 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 							},
 							["count"] = 1,
 						},
 						[19746] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 5,
 						},
-						[57623] = {
-							["type"] = "BUFF",
+						[48160] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
+							["school"] = 32,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
 						},
 						[53476] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[48300] = {
@@ -27503,9 +27511,9 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[47930] = {
@@ -27515,12 +27523,6 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 2,
 						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 6,
-						},
 						[48125] = {
 							["type"] = "DEBUFF",
 							["uptime"] = 4,
@@ -27528,30 +27530,43 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 							},
 							["count"] = 1,
 						},
-						[59000] = {
+						[59626] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[59000] = {
 							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 8,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 9,
 						},
 						[48090] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[61792] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 24,
+							["refresh"] = 3,
+							["uptime"] = 15,
 						},
 						[48156] = {
 							["type"] = "BUFF",
@@ -27565,48 +27580,35 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[61792] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 15,
-						},
 						[14751] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
 						},
-						[59626] = {
+						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 10,
+							["uptime"] = 6,
 						},
 						[19506] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 38,
 						},
 						[15271] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 8,
 						},
-						[48160] = {
-							["type"] = "DEBUFF",
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
+							["uptime"] = 5,
 						},
 					},
 					["absorbspells"] = {
@@ -27622,6 +27624,7 @@ SkadaStorageDB = {
 							["max"] = 3558,
 						},
 					},
+					["totaldamage"] = 31799,
 					["time"] = 9.650000000000002,
 					["totaldamagetaken"] = 21348,
 					["damage"] = 31799,
@@ -27653,50 +27656,31 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 4804,
 							["school"] = 32,
-							["criticalmin"] = 4804,
-							["criticalmax"] = 4804,
 							["count"] = 1,
+							["criticalmax"] = 4804,
+							["criticalmin"] = 4804,
 						},
 						["Mind Flay"] = {
-							["criticalmax"] = 6232,
+							["criticalmin"] = 4816,
 							["hitmin"] = 2261,
 							["criticalamount"] = 15954,
 							["id"] = 58381,
-							["criticalmin"] = 4816,
+							["amount"] = 18215,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["overkill"] = 2486,
 									["amount"] = 18215,
+									["overkill"] = 2486,
 								},
 							},
 							["overkill"] = 2486,
-							["critical"] = 3,
-							["casts"] = 2,
-							["count"] = 4,
-							["hit"] = 1,
-							["school"] = 32,
 							["hitmax"] = 2261,
-							["amount"] = 18215,
-							["hitamount"] = 2261,
-						},
-						["Devouring Plague (DoT)"] = {
-							["hitmin"] = 1685,
-							["criticalamount"] = 3521,
-							["id"] = 48300,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 5206,
-								},
-							},
-							["hitmax"] = 1685,
-							["count"] = 2,
-							["criticalmax"] = 3521,
-							["critical"] = 1,
-							["amount"] = 5206,
-							["school"] = 32,
+							["criticalmax"] = 6232,
+							["critical"] = 3,
 							["hit"] = 1,
-							["criticalmin"] = 3521,
-							["hitamount"] = 1685,
+							["school"] = 32,
+							["count"] = 4,
+							["casts"] = 2,
+							["hitamount"] = 2261,
 						},
 						["Shadow Word: Pain (DoT)"] = {
 							["hitmin"] = 1325,
@@ -27712,6 +27696,25 @@ SkadaStorageDB = {
 							["hitmax"] = 1325,
 							["amount"] = 1325,
 							["hitamount"] = 1325,
+						},
+						["Devouring Plague (DoT)"] = {
+							["hitmin"] = 1685,
+							["criticalamount"] = 3521,
+							["id"] = 48300,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 5206,
+								},
+							},
+							["count"] = 2,
+							["criticalmin"] = 3521,
+							["criticalmax"] = 3521,
+							["hitmax"] = 1685,
+							["amount"] = 5206,
+							["school"] = 32,
+							["hit"] = 1,
+							["critical"] = 1,
+							["hitamount"] = 1685,
 						},
 					},
 					["absorb"] = 3558,
@@ -27732,22 +27735,22 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["count"] = 1,
 							["criticalmin"] = 0,
+							["count"] = 1,
 						},
 						[48300] = {
 							["overheal"] = 0,
 							["count"] = 2,
 							["amount"] = 826,
 							["school"] = 32,
-							["max"] = 559,
+							["min"] = 267,
 							["targets"] = {
 								["Sortpraest"] = {
 									["overheal"] = 0,
 									["amount"] = 826,
 								},
 							},
-							["min"] = 267,
+							["max"] = 559,
 						},
 					},
 					["damagetakenspells"] = {
@@ -27755,33 +27758,38 @@ SkadaStorageDB = {
 							["total"] = 21348,
 							["hitmin"] = 3558,
 							["id"] = 60923,
-							["ABSORB"] = 1,
+							["hit"] = 5,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 21348,
 									["amount"] = 17790,
+									["total"] = 21348,
 								},
 							},
 							["count"] = 6,
-							["hit"] = 5,
+							["ABSORB"] = 1,
 							["school"] = 1,
-							["hitmax"] = 3558,
 							["amount"] = 17790,
+							["hitmax"] = 3558,
 							["hitamount"] = 17790,
 						},
 					},
 					["heal"] = 826,
 					["name"] = "Sortpraest",
-					["overkill"] = 2486,
-					["overheal"] = 645,
-					["totaldamage"] = 31799,
 					["role"] = "DAMAGER",
+					["overheal"] = 645,
+					["overkill"] = 2486,
 				}, -- [12]
 				{
 					["last"] = 8191.016000000001,
 					["flag"] = 1300,
 					["mana"] = 1125,
 					["auras"] = {
+						[15359] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 						[42891] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -27801,10 +27809,47 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 40,
 						},
-						[55637] = {
+						[2479] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 45,
+						},
+						[54758] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 15,
+							["school"] = 4,
+							["refresh"] = 9,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["refresh"] = 9,
+									["count"] = 1,
+									["uptime"] = 15,
+								},
+							},
+							["count"] = 1,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[55637] = {
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 15,
 						},
 						[55360] = {
@@ -27819,84 +27864,41 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 14,
 						},
-						[1953] = {
+						[48108] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 2,
 						},
-						[48108] = {
+						[71636] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[75473] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[1953] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 2,
 						},
 						[19746] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[70753] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 32,
 							["uptime"] = 10,
-						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 45,
-						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 14,
-						},
-						[54758] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[71636] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 18,
-						},
-						[19506] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 15,
-							["school"] = 4,
-							["refresh"] = 9,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["count"] = 1,
-									["refresh"] = 9,
-									["uptime"] = 15,
-								},
-							},
-							["count"] = 1,
-						},
-						[2479] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -27908,20 +27910,20 @@ SkadaStorageDB = {
 							["hitmin"] = 10642,
 							["criticalamount"] = 66689,
 							["id"] = 42833,
-							["hitmax"] = 10642,
+							["count"] = 5,
 							["targets"] = {
 								["Archavon Warder"] = {
 									["amount"] = 77331,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 1,
-							["casts"] = 4,
-							["critical"] = 4,
-							["amount"] = 77331,
-							["school"] = 4,
-							["criticalmin"] = 12623,
 							["criticalmax"] = 21351,
+							["criticalmin"] = 12623,
+							["casts"] = 4,
+							["hitmax"] = 10642,
+							["hit"] = 1,
+							["school"] = 4,
+							["amount"] = 77331,
+							["critical"] = 4,
 							["hitamount"] = 10642,
 						},
 						["Pyroblast"] = {
@@ -27936,9 +27938,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 15283,
 							["school"] = 4,
-							["criticalmin"] = 15283,
-							["criticalmax"] = 15283,
 							["count"] = 1,
+							["criticalmax"] = 15283,
+							["criticalmin"] = 15283,
 						},
 						["Pyroblast (DoT)"] = {
 							["hitmin"] = 1292,
@@ -27982,9 +27984,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 4299,
 							["school"] = 4,
-							["criticalmin"] = 4299,
-							["criticalmax"] = 4299,
 							["count"] = 1,
+							["criticalmax"] = 4299,
+							["criticalmin"] = 4299,
 						},
 						["Living Bomb (DoT)"] = {
 							["criticalamount"] = 8786,
@@ -27998,8 +28000,8 @@ SkadaStorageDB = {
 							["critical"] = 4,
 							["amount"] = 8786,
 							["school"] = 4,
-							["criticalmin"] = 2196,
 							["count"] = 4,
+							["criticalmin"] = 2196,
 						},
 						["Living Bomb"] = {
 							["hitmin"] = 3696,
@@ -28039,136 +28041,27 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Magijabebo",
-					["totaldamage"] = 133186,
-					["class"] = "MAGE",
 					["manaspells"] = {
 						[29077] = 1037,
 						[67545] = 260,
 						[44450] = -172,
 					},
+					["class"] = "MAGE",
+					["totaldamage"] = 133186,
 				}, -- [13]
 				{
+					["overheal"] = 121605,
 					["last"] = 8201.067999999999,
+					["damagetaken"] = 6738,
 					["flag"] = 1300,
 					["class"] = "PRIEST",
-					["auras"] = {
-						[72418] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
-						[63725] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 8,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 56,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
-						[2479] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 30,
-						},
-						[71584] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 45,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
-						[64739] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[67016] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
-						[19506] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 56,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[63734] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 3,
-							["uptime"] = 31,
-						},
-					},
-					["time"] = 48.7,
-					["totaldamagetaken"] = 6738,
-					["overheal"] = 121605,
-					["damagetaken"] = 6738,
-					["id"] = "0x07000000008365BD",
-					["spec"] = 257,
 					["healspells"] = {
 						[63544] = {
 							["min"] = 1948,
 							["count"] = 10,
 							["amount"] = 16479,
 							["max"] = 2191,
-							["overheal"] = 4141,
+							["school"] = 2,
 							["targets"] = {
 								["Someway"] = {
 									["overheal"] = 0,
@@ -28178,42 +28071,38 @@ SkadaStorageDB = {
 									["overheal"] = 0,
 									["amount"] = 1959,
 								},
-								["Sortpraest"] = {
-									["overheal"] = 2077,
+								["Paopaozhu"] = {
+									["overheal"] = 0,
+									["amount"] = 2077,
+								},
+								["Quewyn"] = {
+									["overheal"] = 0,
+									["amount"] = 3907,
+								},
+								["Lottle"] = {
+									["overheal"] = 2064,
 									["amount"] = 0,
 								},
 								["Merrian"] = {
 									["overheal"] = 0,
 									["amount"] = 4154,
 								},
-								["Paopaozhu"] = {
-									["overheal"] = 0,
-									["amount"] = 2077,
-								},
-								["Lottle"] = {
-									["overheal"] = 2064,
+								["Sortpraest"] = {
+									["overheal"] = 2077,
 									["amount"] = 0,
-								},
-								["Quewyn"] = {
-									["overheal"] = 0,
-									["amount"] = 3907,
 								},
 								["Ebonmoo"] = {
 									["overheal"] = 0,
 									["amount"] = 2191,
 								},
 							},
-							["school"] = 2,
+							["overheal"] = 4141,
 						},
 						[33110] = {
 							["overheal"] = 13135,
 							["criticalamount"] = 12392,
 							["max"] = 8626,
 							["targets"] = {
-								["Karshash"] = {
-									["overheal"] = 2701,
-									["amount"] = 2560,
-								},
 								["Merrian"] = {
 									["overheal"] = 4239,
 									["amount"] = 3766,
@@ -28221,6 +28110,10 @@ SkadaStorageDB = {
 								["Lottle"] = {
 									["overheal"] = 5925,
 									["amount"] = 7,
+								},
+								["Karshash"] = {
+									["overheal"] = 2701,
+									["amount"] = 2560,
 								},
 								["Quewyn"] = {
 									["overheal"] = 0,
@@ -28236,15 +28129,15 @@ SkadaStorageDB = {
 							["count"] = 5,
 							["amount"] = 20617,
 							["school"] = 2,
-							["criticalmin"] = 3766,
 							["critical"] = 2,
+							["criticalmin"] = 3766,
 						},
 						[48071] = {
 							["overheal"] = 0,
 							["count"] = 2,
 							["amount"] = 12840,
 							["school"] = 2,
-							["max"] = 6526,
+							["min"] = 6314,
 							["targets"] = {
 								["Rasalgull"] = {
 									["overheal"] = 0,
@@ -28255,7 +28148,7 @@ SkadaStorageDB = {
 									["amount"] = 6526,
 								},
 							},
-							["min"] = 6314,
+							["max"] = 6526,
 						},
 						[48068] = {
 							["overheal"] = 64086,
@@ -28265,25 +28158,25 @@ SkadaStorageDB = {
 									["overheal"] = 9529,
 									["amount"] = 4418,
 								},
-								["Sortpraest"] = {
-									["overheal"] = 2769,
-									["amount"] = 0,
-								},
-								["Merrian"] = {
-									["overheal"] = 12258,
-									["amount"] = 4046,
-								},
 								["Paopaozhu"] = {
 									["overheal"] = 10344,
 									["amount"] = 3502,
+								},
+								["Quewyn"] = {
+									["overheal"] = 9074,
+									["amount"] = 3907,
 								},
 								["Lottle"] = {
 									["overheal"] = 5504,
 									["amount"] = 22041,
 								},
-								["Quewyn"] = {
-									["overheal"] = 9074,
-									["amount"] = 3907,
+								["Merrian"] = {
+									["overheal"] = 12258,
+									["amount"] = 4046,
+								},
+								["Sortpraest"] = {
+									["overheal"] = 2769,
+									["amount"] = 0,
 								},
 								["Ebonmoo"] = {
 									["overheal"] = 14608,
@@ -28296,37 +28189,6 @@ SkadaStorageDB = {
 							["amount"] = 37914,
 							["school"] = 2,
 							["ishot"] = true,
-						},
-						[48120] = {
-							["overheal"] = 30207,
-							["criticalamount"] = 7900,
-							["max"] = 8064,
-							["targets"] = {
-								["Someway"] = {
-									["overheal"] = 20850,
-									["amount"] = 0,
-								},
-								["Vktr"] = {
-									["overheal"] = 6706,
-									["amount"] = 0,
-								},
-								["Sortpraest"] = {
-									["overheal"] = 0,
-									["amount"] = 8064,
-								},
-								["Finalwield"] = {
-									["overheal"] = 2651,
-									["amount"] = 7900,
-								},
-							},
-							["casts"] = 2,
-							["min"] = 7900,
-							["criticalmax"] = 7900,
-							["count"] = 6,
-							["amount"] = 15964,
-							["school"] = 2,
-							["criticalmin"] = 7900,
-							["critical"] = 1,
 						},
 						[48089] = {
 							["overheal"] = 10036,
@@ -28357,17 +28219,17 @@ SkadaStorageDB = {
 									["overheal"] = 449,
 									["amount"] = 6333,
 								},
-								["Crab"] = {
-									["overheal"] = 1213,
-									["amount"] = 3690,
+								["Karshash"] = {
+									["overheal"] = 0,
+									["amount"] = 3203,
+								},
+								["Inekcija"] = {
+									["overheal"] = 0,
+									["amount"] = 3291,
 								},
 								["Rasalgull"] = {
 									["overheal"] = 0,
 									["amount"] = 6726,
-								},
-								["Quewyn"] = {
-									["overheal"] = 0,
-									["amount"] = 11994,
 								},
 								["Vktr"] = {
 									["overheal"] = 0,
@@ -28377,25 +28239,165 @@ SkadaStorageDB = {
 									["overheal"] = 0,
 									["amount"] = 8445,
 								},
-								["Inekcija"] = {
+								["Quewyn"] = {
 									["overheal"] = 0,
-									["amount"] = 3291,
+									["amount"] = 11994,
 								},
-								["Karshash"] = {
-									["overheal"] = 0,
-									["amount"] = 3203,
+								["Crab"] = {
+									["overheal"] = 1213,
+									["amount"] = 3690,
 								},
 							},
-							["criticalmin"] = 0,
 							["min"] = 2807,
 							["casts"] = 5,
 							["count"] = 18,
 							["amount"] = 57388,
 							["school"] = 2,
-							["criticalmax"] = 5158,
 							["critical"] = 4,
+							["criticalmax"] = 5158,
+							["criticalmin"] = 0,
+						},
+						[48120] = {
+							["overheal"] = 30207,
+							["criticalamount"] = 7900,
+							["max"] = 8064,
+							["targets"] = {
+								["Someway"] = {
+									["overheal"] = 20850,
+									["amount"] = 0,
+								},
+								["Vktr"] = {
+									["overheal"] = 6706,
+									["amount"] = 0,
+								},
+								["Sortpraest"] = {
+									["overheal"] = 0,
+									["amount"] = 8064,
+								},
+								["Finalwield"] = {
+									["overheal"] = 2651,
+									["amount"] = 7900,
+								},
+							},
+							["min"] = 7900,
+							["casts"] = 2,
+							["count"] = 6,
+							["amount"] = 15964,
+							["school"] = 2,
+							["critical"] = 1,
+							["criticalmin"] = 7900,
+							["criticalmax"] = 7900,
 						},
 					},
+					["auras"] = {
+						[72418] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[48068] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[63725] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 56,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[19746] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 30,
+						},
+						[71584] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 45,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[64739] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[19506] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 56,
+						},
+						[63734] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 31,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["role"] = "HEALER",
+					["heal"] = 161202,
+					["time"] = 48.7,
+					["name"] = "Someway",
 					["damagetakenspells"] = {
 						["Rock Shower (DoT)"] = {
 							["hitmin"] = 3369,
@@ -28413,25 +28415,120 @@ SkadaStorageDB = {
 							["hitamount"] = 6738,
 						},
 					},
-					["heal"] = 161202,
-					["name"] = "Someway",
-					["role"] = "HEALER",
+					["totaldamagetaken"] = 6738,
+					["spec"] = 257,
+					["id"] = "0x07000000008365BD",
 				}, -- [14]
 				{
+					["damagespells"] = {
+						["Lava Burst"] = {
+							["criticalamount"] = 42867,
+							["id"] = 60043,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 42867,
+								},
+							},
+							["casts"] = 4,
+							["critical"] = 3,
+							["amount"] = 42867,
+							["school"] = 4,
+							["count"] = 3,
+							["criticalmax"] = 17555,
+							["criticalmin"] = 12205,
+						},
+						["Flame Shock (DoT)"] = {
+							["hitmin"] = 817,
+							["criticalamount"] = 8933,
+							["id"] = 49233,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 17296,
+								},
+							},
+							["criticalmin"] = 1710,
+							["amount"] = 17296,
+							["criticalmax"] = 1838,
+							["critical"] = 5,
+							["hit"] = 10,
+							["school"] = 4,
+							["hitmax"] = 880,
+							["count"] = 15,
+							["hitamount"] = 8363,
+						},
+						["Chain Lightning"] = {
+							["hitmin"] = 4667,
+							["criticalamount"] = 33823,
+							["id"] = 49271,
+							["count"] = 5,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 44209,
+								},
+							},
+							["criticalmax"] = 12622,
+							["criticalmin"] = 9179,
+							["casts"] = 5,
+							["hitmax"] = 5719,
+							["hit"] = 2,
+							["school"] = 8,
+							["amount"] = 44209,
+							["critical"] = 3,
+							["hitamount"] = 10386,
+						},
+						["Lightning Bolt"] = {
+							["hitmin"] = 2815,
+							["criticalamount"] = 132025,
+							["id"] = 49238,
+							["criticalmin"] = 7269,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 154823,
+								},
+							},
+							["amount"] = 154823,
+							["hitmax"] = 6476,
+							["criticalmax"] = 14402,
+							["critical"] = 11,
+							["hit"] = 5,
+							["school"] = 8,
+							["count"] = 16,
+							["casts"] = 10,
+							["hitamount"] = 22798,
+						},
+						["Flame Shock"] = {
+							["criticalamount"] = 7163,
+							["id"] = 49233,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 7163,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 7163,
+							["school"] = 4,
+							["count"] = 2,
+							["criticalmax"] = 3861,
+							["criticalmin"] = 3302,
+						},
+					},
 					["last"] = 8190.88,
+					["damagetaken"] = 19755,
 					["flag"] = 1297,
 					["class"] = "SHAMAN",
+					["totaldamage"] = 266358,
 					["auras"] = {
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 9,
 						},
 						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 2,
 							["uptime"] = 17,
 						},
 						[57960] = {
@@ -28440,15 +28537,15 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[63944] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 3,
-							["uptime"] = 56,
 						},
 						[57623] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[15359] = {
@@ -28462,15 +28559,15 @@ SkadaStorageDB = {
 							["uptime"] = 56,
 						},
 						[19746] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 42,
 						},
 						[48111] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 7,
 						},
 						[28878] = {
@@ -28490,17 +28587,17 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 2,
 									["refresh"] = 3,
+									["count"] = 2,
 									["uptime"] = 35,
 								},
 							},
 							["count"] = 2,
 						},
-						[75473] = {
+						[54758] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[48090] = {
@@ -28510,27 +28607,28 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 45,
 						},
-						[51470] = {
+						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 56,
+							["uptime"] = 12,
 						},
-						[48066] = {
+						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 11,
+							["uptime"] = 19,
 						},
 						[71199] = {
+							["uptime"] = 56,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 15,
-							["uptime"] = 56,
 						},
 						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 7,
 						},
 						[16246] = {
@@ -28540,145 +28638,47 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["uptime"] = 50,
 						},
-						[71636] = {
+						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 19,
+							["uptime"] = 11,
 						},
-						[54758] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 56,
 						},
 					},
+					["name"] = "Inarya",
 					["role"] = "DAMAGER",
 					["time"] = 36.59999999999999,
-					["totaldamagetaken"] = 28736,
-					["damage"] = 266358,
-					["damagespells"] = {
-						["Lava Burst"] = {
-							["criticalamount"] = 42867,
-							["id"] = 60043,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 42867,
-								},
-							},
-							["casts"] = 4,
-							["critical"] = 3,
-							["amount"] = 42867,
-							["school"] = 4,
-							["criticalmin"] = 12205,
-							["criticalmax"] = 17555,
-							["count"] = 3,
-						},
-						["Flame Shock (DoT)"] = {
-							["hitmin"] = 817,
-							["criticalamount"] = 8933,
-							["id"] = 49233,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 17296,
-								},
-							},
-							["criticalmin"] = 1710,
-							["critical"] = 5,
-							["criticalmax"] = 1838,
-							["count"] = 15,
-							["hit"] = 10,
-							["school"] = 4,
-							["hitmax"] = 880,
-							["amount"] = 17296,
-							["hitamount"] = 8363,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 2815,
-							["criticalamount"] = 132025,
-							["id"] = 49238,
-							["criticalmin"] = 7269,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 154823,
-								},
-							},
-							["criticalmax"] = 14402,
-							["critical"] = 11,
-							["casts"] = 10,
-							["count"] = 16,
-							["hit"] = 5,
-							["school"] = 8,
-							["hitmax"] = 6476,
-							["amount"] = 154823,
-							["hitamount"] = 22798,
-						},
-						["Chain Lightning"] = {
-							["hitmin"] = 4667,
-							["criticalamount"] = 33823,
-							["id"] = 49271,
-							["hitmax"] = 5719,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 44209,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 2,
-							["casts"] = 5,
-							["critical"] = 3,
-							["amount"] = 44209,
-							["school"] = 8,
-							["criticalmin"] = 9179,
-							["criticalmax"] = 12622,
-							["hitamount"] = 10386,
-						},
-						["Flame Shock"] = {
-							["criticalamount"] = 7163,
-							["id"] = 49233,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 7163,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 7163,
-							["school"] = 4,
-							["criticalmin"] = 3302,
-							["criticalmax"] = 3861,
-							["count"] = 2,
-						},
-					},
-					["damagetaken"] = 19755,
-					["id"] = "0x070000000089BE9F",
-					["spec"] = 262,
 					["damagetakenspells"] = {
 						["Rock Shower (DoT)"] = {
 							["total"] = 28736,
 							["hitmin"] = 2079,
 							["id"] = 60923,
-							["ABSORB"] = 4,
+							["hit"] = 9,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 28736,
 									["amount"] = 19755,
+									["total"] = 28736,
 								},
 							},
 							["count"] = 13,
-							["hit"] = 9,
+							["ABSORB"] = 4,
 							["school"] = 1,
-							["hitmax"] = 2212,
 							["amount"] = 19755,
+							["hitmax"] = 2212,
 							["hitamount"] = 19755,
 						},
 					},
-					["name"] = "Inarya",
-					["totaldamage"] = 266358,
+					["spec"] = 262,
+					["totaldamagetaken"] = 28736,
+					["id"] = "0x070000000089BE9F",
+					["damage"] = 266358,
 				}, -- [15]
 			},
-			["type"] = "raid",
-			["damagetaken"] = 262440,
 			["absorb"] = 88424,
 			["etotaldamage"] = 358663,
 			["overkill"] = 3772,
@@ -28686,36 +28686,34 @@ SkadaStorageDB = {
 			["heal"] = 342034,
 			["name"] = "Archavon Warder (2)",
 			["mobname"] = "Archavon Warder",
-			["starttime"] = 1699435171,
+			["runic"] = 64,
 			["edamage"] = 262440,
-			["last_action"] = 1699435227,
+			["energy"] = 414,
 			["endtime"] = 1699435227,
 		}, -- [3]
 		{
-			["damage"] = 181653,
 			["eoverkill"] = 3015,
-			["ress"] = 1,
 			["mana"] = 3458,
-			["etotaldamage"] = 73184,
+			["last_time"] = 8131.214,
 			["enemies"] = {
 				{
 					["damagespells"] = {
 						[60923] = {
 							["school"] = 1,
-							["overkill"] = 402,
+							["amount"] = 36388,
 							["targets"] = {
 								["Merrian"] = {
 									["amount"] = 8368,
 								},
 								["Quewyn"] = {
-									["overkill"] = 402,
 									["amount"] = 16960,
+									["overkill"] = 402,
 								},
 								["Inarya"] = {
 									["amount"] = 11060,
 								},
 							},
-							["amount"] = 36388,
+							["overkill"] = 402,
 						},
 						[60916] = {
 							["total"] = 24452,
@@ -28724,15 +28722,15 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Lottle"] = {
 									["total"] = 17972,
-									["overkill"] = 2613,
 									["amount"] = 14378,
-								},
-								["Ebonmoo"] = {
-									["total"] = 6480,
-									["amount"] = 4004,
+									["overkill"] = 2613,
 								},
 								["Finalwield"] = {
 									["amount"] = 12344,
+								},
+								["Ebonmoo"] = {
+									["amount"] = 4004,
+									["total"] = 6480,
 								},
 							},
 							["overkill"] = 2613,
@@ -28778,11 +28776,11 @@ SkadaStorageDB = {
 						[42833] = {
 							["school"] = 4,
 							["sources"] = {
-								["Karshash"] = {
-									["amount"] = 17842,
-								},
 								["Merrian"] = {
 									["amount"] = 24946,
+								},
+								["Karshash"] = {
+									["amount"] = 17842,
 								},
 							},
 							["amount"] = 42788,
@@ -28800,12 +28798,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Karshash"] = {
-									["overkill"] = 5935,
 									["amount"] = 19013,
+									["overkill"] = 5935,
 								},
 							},
-							["overkill"] = 5935,
 							["amount"] = 19013,
+							["overkill"] = 5935,
 						},
 						[50526] = {
 							["school"] = 32,
@@ -28816,23 +28814,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 741,
 						},
-						[23881] = {
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Vktr"] = {
+									["amount"] = 1088,
+								},
+							},
+							["amount"] = 1088,
+						},
+						[44949] = {
 							["school"] = 1,
 							["sources"] = {
 								["Finalwield"] = {
-									["amount"] = 5686,
+									["amount"] = 3007,
 								},
 							},
-							["amount"] = 5686,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Ebonmoo"] = {
-									["amount"] = 739,
-								},
-							},
-							["amount"] = 739,
+							["amount"] = 3007,
 						},
 						[49909] = {
 							["school"] = 16,
@@ -28864,23 +28862,35 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4793,
 						},
-						[54158] = {
-							["school"] = 2,
+						[49233] = {
+							["school"] = 4,
 							["sources"] = {
-								["Rasalgull"] = {
-									["amount"] = 1399,
+								["Inarya"] = {
+									["amount"] = 4120,
 								},
 							},
-							["amount"] = 1399,
+							["amount"] = 4120,
 						},
-						[50783] = {
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
+								["Rasalgull"] = {
+									["amount"] = 2042,
+								},
 								["Finalwield"] = {
-									["amount"] = 2041,
+									["amount"] = 2224,
+								},
+								["Vktr"] = {
+									["amount"] = 6226,
+								},
+								["Lottle"] = {
+									["amount"] = 1322,
+								},
+								["Ebonmoo"] = {
+									["amount"] = 4726,
 								},
 							},
-							["amount"] = 2041,
+							["amount"] = 16540,
 						},
 						[61291] = {
 							["school"] = 4,
@@ -28891,23 +28901,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1747,
 						},
-						[49233] = {
-							["school"] = 4,
+						[50783] = {
+							["school"] = 1,
 							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 4120,
+								["Finalwield"] = {
+									["amount"] = 2041,
 								},
 							},
-							["amount"] = 4120,
+							["amount"] = 2041,
 						},
-						[55360] = {
-							["school"] = 4,
+						[55078] = {
+							["school"] = 32,
 							["sources"] = {
-								["Merrian"] = {
-									["amount"] = 3274,
+								["Vktr"] = {
+									["amount"] = 691,
+								},
+								["Ebonmoo"] = {
+									["amount"] = 441,
 								},
 							},
-							["amount"] = 3274,
+							["amount"] = 1132,
 						},
 						[47468] = {
 							["school"] = 1,
@@ -28939,15 +28952,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3396,
 						},
-						[59638] = {
-							["school"] = 16,
-							["sources"] = {
-								["Mirror Image"] = {
-									["amount"] = 1644,
-								},
-							},
-							["amount"] = 1644,
-						},
 						[47813] = {
 							["school"] = 32,
 							["sources"] = {
@@ -28957,38 +28961,32 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2522,
 						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Vktr"] = {
-									["amount"] = 691,
-								},
-								["Ebonmoo"] = {
-									["amount"] = 441,
-								},
-							},
-							["amount"] = 1132,
-						},
-						[6603] = {
+						[49921] = {
 							["school"] = 1,
 							["sources"] = {
-								["Rasalgull"] = {
-									["amount"] = 2042,
-								},
-								["Finalwield"] = {
-									["amount"] = 2224,
-								},
-								["Vktr"] = {
-									["amount"] = 6226,
-								},
-								["Lottle"] = {
-									["amount"] = 1322,
-								},
 								["Ebonmoo"] = {
-									["amount"] = 4726,
+									["amount"] = 739,
 								},
 							},
-							["amount"] = 16540,
+							["amount"] = 739,
+						},
+						[59638] = {
+							["school"] = 16,
+							["sources"] = {
+								["Mirror Image"] = {
+									["amount"] = 1644,
+								},
+							},
+							["amount"] = 1644,
+						},
+						[55360] = {
+							["school"] = 4,
+							["sources"] = {
+								["Merrian"] = {
+									["amount"] = 3274,
+								},
+							},
+							["amount"] = 3274,
 						},
 						[12721] = {
 							["school"] = 1,
@@ -28999,137 +28997,42 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1986,
 						},
-						[44949] = {
+						[54158] = {
+							["school"] = 2,
+							["sources"] = {
+								["Rasalgull"] = {
+									["amount"] = 1399,
+								},
+							},
+							["amount"] = 1399,
+						},
+						[23881] = {
 							["school"] = 1,
 							["sources"] = {
 								["Finalwield"] = {
-									["amount"] = 3007,
+									["amount"] = 5686,
 								},
 							},
-							["amount"] = 3007,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Vktr"] = {
-									["amount"] = 1088,
-								},
-							},
-							["amount"] = 1088,
+							["amount"] = 5686,
 						},
 					},
+					["totaldamage"] = 73184,
 					["name"] = "Archavon Warder",
 					["overkill"] = 3015,
-					["totaldamage"] = 73184,
 					["totaldamagetaken"] = 181653,
 					["id"] = "0xF130007E61000008",
 					["damage"] = 67114,
 				}, -- [1]
 			},
-			["death"] = 2,
+			["absorb"] = 2476,
 			["totaldamage"] = 181653,
 			["time"] = 8,
-			["absorb"] = 2476,
-			["totaldamagetaken"] = 73184,
 			["etotaldamagetaken"] = 181653,
-			["last_time"] = 8131.214,
+			["totaldamagetaken"] = 73184,
+			["etotaldamage"] = 73184,
+			["damage"] = 181653,
 			["players"] = {
 				{
-					["last"] = 8127.765,
-					["flag"] = 263444,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[67631] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 1,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 8,
-						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 7,
-						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[51124] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[67380] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 8,
-						},
-						[48263] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[50449] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 8,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[64859] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 4.19,
-					["totaldamagetaken"] = 6480,
-					["damage"] = 7933,
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 1266,
@@ -29166,9 +29069,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1612,
 							["school"] = 16,
-							["criticalmin"] = 1612,
-							["criticalmax"] = 1612,
 							["count"] = 1,
+							["criticalmax"] = 1612,
+							["criticalmin"] = 1612,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 739,
@@ -29217,21 +29120,114 @@ SkadaStorageDB = {
 							["hitamount"] = 441,
 						},
 					},
+					["last"] = 8127.765,
 					["damagetaken"] = 4004,
-					["id"] = "0x070000000092C7A5",
-					["spec"] = 250,
+					["flag"] = 263444,
+					["class"] = "DEATHKNIGHT",
+					["totaldamage"] = 7933,
+					["auras"] = {
+						[67631] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[63944] = {
+							["uptime"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[19746] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[50449] = {
+							["uptime"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+						},
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[58578] = {
+							["uptime"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[51124] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 6,
+						},
+						[67380] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[15359] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["name"] = "Ebonmoo",
+					["role"] = "TANK",
+					["time"] = 4.19,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["PARRY"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 6603,
 							["sources"] = {
 								["Archavon Warder"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 6603,
 						},
 						["Whirl"] = {
 							["total"] = 6480,
@@ -29239,8 +29235,8 @@ SkadaStorageDB = {
 							["id"] = 60916,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["total"] = 6480,
 									["amount"] = 4004,
+									["total"] = 6480,
 								},
 							},
 							["count"] = 1,
@@ -29251,15 +29247,15 @@ SkadaStorageDB = {
 							["hitamount"] = 4004,
 						},
 					},
-					["name"] = "Ebonmoo",
-					["totaldamage"] = 7933,
+					["spec"] = 250,
+					["totaldamagetaken"] = 6480,
+					["id"] = "0x070000000092C7A5",
+					["damage"] = 7933,
 				}, -- [1]
 				{
 					["overheal"] = 5753,
 					["absorb"] = 2476,
 					["id"] = "0x07000000009BD5F5",
-					["last"] = 8129.327,
-					["flag"] = 1300,
 					["class"] = "PRIEST",
 					["healspells"] = {
 						[48120] = {
@@ -29276,28 +29272,28 @@ SkadaStorageDB = {
 									["amount"] = 8256,
 								},
 							},
-							["casts"] = 2,
 							["min"] = 8256,
-							["criticalmax"] = 8256,
+							["casts"] = 2,
 							["critical"] = 1,
 							["amount"] = 8256,
 							["school"] = 2,
-							["criticalmin"] = 8256,
 							["count"] = 2,
+							["criticalmin"] = 8256,
+							["criticalmax"] = 8256,
 						},
 						[48071] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 5045,
 							["school"] = 2,
-							["max"] = 5045,
+							["min"] = 5045,
 							["targets"] = {
 								["Merrian"] = {
 									["overheal"] = 0,
 									["amount"] = 5045,
 								},
 							},
-							["min"] = 5045,
+							["max"] = 5045,
 						},
 						[56160] = {
 							["overheal"] = 0,
@@ -29314,8 +29310,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 2452,
 							["school"] = 2,
-							["criticalmin"] = 2452,
 							["count"] = 1,
+							["criticalmin"] = 2452,
 						},
 					},
 					["auras"] = {
@@ -29335,10 +29331,10 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[63944] = {
+							["uptime"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 8,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -29366,9 +29362,9 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[59891] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 2,
 						},
 						[53138] = {
@@ -29420,11 +29416,13 @@ SkadaStorageDB = {
 							["max"] = 2476,
 						},
 					},
-					["time"] = 5.31,
-					["spec"] = 256,
 					["role"] = "HEALER",
-					["name"] = "Inekcija",
+					["time"] = 5.31,
 					["heal"] = 15753,
+					["name"] = "Inekcija",
+					["spec"] = 256,
+					["flag"] = 1300,
+					["last"] = 8129.327,
 				}, -- [2]
 				{
 					["last"] = 8127.440000000001,
@@ -29432,9 +29430,9 @@ SkadaStorageDB = {
 					["class"] = "MAGE",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 2,
 						},
 						[43046] = {
@@ -29443,10 +29441,10 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[63944] = {
+							["uptime"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 8,
 						},
 						[12654] = {
 							["type"] = "DEBUFF",
@@ -29455,8 +29453,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 							},
@@ -29473,9 +29471,9 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[70772] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 2,
 						},
 						[70747] = {
@@ -29489,9 +29487,9 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[70753] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 4,
 						},
 						[22959] = {
@@ -29506,6 +29504,49 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
+						[75473] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[48108] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[71636] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[47930] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
 						[42891] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -29518,50 +29559,8 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 2,
-						},
-						[71636] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 2,
-						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
 					},
+					["totaldamage"] = 71500,
 					["time"] = 3.88,
 					["totaldamagetaken"] = 8368,
 					["damage"] = 71500,
@@ -29578,9 +29577,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 24946,
 							["school"] = 4,
-							["criticalmin"] = 24946,
-							["criticalmax"] = 24946,
 							["count"] = 1,
+							["criticalmax"] = 24946,
+							["criticalmin"] = 24946,
 						},
 						["Pyroblast"] = {
 							["criticalamount"] = 27692,
@@ -29594,9 +29593,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 27692,
 							["school"] = 4,
-							["criticalmin"] = 27692,
-							["criticalmax"] = 27692,
 							["count"] = 1,
+							["criticalmax"] = 27692,
+							["criticalmin"] = 27692,
 						},
 						["Pyroblast (DoT)"] = {
 							["hitmin"] = 1490,
@@ -29626,8 +29625,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3274,
 							["school"] = 4,
-							["criticalmin"] = 3274,
 							["count"] = 1,
+							["criticalmin"] = 3274,
 						},
 						["Scorch"] = {
 							["criticalamount"] = 8447,
@@ -29641,9 +29640,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 8447,
 							["school"] = 4,
-							["criticalmin"] = 8447,
-							["criticalmax"] = 8447,
 							["count"] = 1,
+							["criticalmax"] = 8447,
+							["criticalmin"] = 8447,
 						},
 						["Fire Blast"] = {
 							["hitmin"] = 5651,
@@ -29683,24 +29682,42 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Merrian",
+					["role"] = "DAMAGER",
+					["mana"] = 400,
 					["manaspells"] = {
 						[44450] = -79,
 						[29077] = 479,
 					},
-					["mana"] = 400,
-					["totaldamage"] = 71500,
-					["role"] = "DAMAGER",
 				}, -- [3]
 				{
+					["overheal"] = 0,
 					["last"] = 8127.673,
+					["role"] = "DAMAGER",
 					["flag"] = 1300,
 					["class"] = "DEATHKNIGHT",
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 0,
+							["min"] = 76,
+							["count"] = 4,
+							["amount"] = 441,
+							["school"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Vktr"] = {
+									["overheal"] = 0,
+									["amount"] = 441,
+								},
+							},
+							["max"] = 149,
+						},
+					},
 					["auras"] = {
 						[63944] = {
+							["uptime"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 8,
 						},
 						[48090] = {
 							["type"] = "BUFF",
@@ -29712,7 +29729,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[45529] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
@@ -29733,22 +29750,17 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[58578] = {
+							["uptime"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 8,
 						},
 						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[19746] = {
+						[45529] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
@@ -29758,36 +29770,20 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[51470] = {
+						[19746] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[66803] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
 					},
-					["time"] = 4.09,
-					["damage"] = 16982,
-					["overheal"] = 0,
-					["id"] = "0x07000000008A3B06",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Vktr"] = {
-									["overheal"] = 0,
-									["amount"] = 441,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 441,
-							["school"] = 1,
-							["max"] = 149,
-							["ishot"] = true,
-							["min"] = 76,
-						},
-					},
+					["totaldamage"] = 16982,
 					["heal"] = 441,
-					["name"] = "Vktr",
+					["time"] = 4.09,
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 1812,
@@ -29933,18 +29929,58 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3226,
 							["school"] = 16,
-							["criticalmin"] = 3226,
-							["criticalmax"] = 3226,
 							["count"] = 1,
+							["criticalmax"] = 3226,
+							["criticalmin"] = 3226,
 						},
 					},
-					["totaldamage"] = 16982,
-					["role"] = "DAMAGER",
+					["name"] = "Vktr",
+					["spec"] = 252,
+					["id"] = "0x07000000008A3B06",
+					["damage"] = 16982,
 				}, -- [4]
 				{
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 714,
+							["criticalamount"] = 1328,
+							["id"] = 6603,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 2042,
+								},
+							},
+							["count"] = 2,
+							["criticalmin"] = 1328,
+							["criticalmax"] = 1328,
+							["hitmax"] = 714,
+							["amount"] = 2042,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
+							["hitamount"] = 714,
+						},
+						["Judgement"] = {
+							["hitmin"] = 1399,
+							["id"] = 54158,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 1399,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 1399,
+							["amount"] = 1399,
+							["hitamount"] = 1399,
+						},
+					},
 					["last"] = 8126.173,
 					["flag"] = 1298,
 					["mana"] = 328,
+					["role"] = "TANK",
 					["auras"] = {
 						[25780] = {
 							["type"] = "BUFF",
@@ -29952,10 +29988,10 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[63944] = {
+							["uptime"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 8,
 						},
 						[48952] = {
 							["type"] = "BUFF",
@@ -29977,6 +30013,41 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[20166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[71197] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[19746] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 						[68055] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -29989,91 +30060,18 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[71197] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[20166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
 					},
-					["time"] = 2.6,
-					["damage"] = 3441,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 714,
-							["criticalamount"] = 1328,
-							["id"] = 6603,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 2042,
-								},
-							},
-							["hitmax"] = 714,
-							["count"] = 2,
-							["criticalmax"] = 1328,
-							["critical"] = 1,
-							["amount"] = 2042,
-							["school"] = 1,
-							["hit"] = 1,
-							["criticalmin"] = 1328,
-							["hitamount"] = 714,
-						},
-						["Judgement"] = {
-							["hitmin"] = 1399,
-							["id"] = 54158,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 1399,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 1399,
-							["amount"] = 1399,
-							["hitamount"] = 1399,
-						},
-					},
-					["id"] = "0x0700000000995413",
-					["spec"] = 66,
-					["name"] = "Rasalgull",
-					["totaldamage"] = 3441,
-					["class"] = "PALADIN",
 					["manaspells"] = {
 						[20268] = 217,
 						[57319] = 111,
 					},
-					["role"] = "TANK",
+					["totaldamage"] = 3441,
+					["time"] = 2.6,
+					["class"] = "PALADIN",
+					["name"] = "Rasalgull",
+					["spec"] = 66,
+					["id"] = "0x0700000000995413",
+					["damage"] = 3441,
 				}, -- [5]
 				{
 					["last"] = 8125.494000000001,
@@ -30100,15 +30098,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[47930] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 3,
+							["uptime"] = 8,
 						},
-						[63944] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 3,
+							["uptime"] = 8,
 						},
 						[43046] = {
 							["type"] = "BUFF",
@@ -30125,17 +30123,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[51470] = {
+						[47930] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 3,
 						},
-						[55610] = {
+						[63944] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 3,
 						},
 					},
+					["totaldamage"] = 766,
 					["time"] = 1.92,
 					["totaldamagetaken"] = 16960,
 					["damage"] = 766,
@@ -30161,45 +30160,45 @@ SkadaStorageDB = {
 						{
 							["log"] = {
 								{
-									["time"] = 8126.639,
 									["source"] = "Archavon Warder",
+									["time"] = 8126.639,
 									["amount"] = -4240,
 									["school"] = 1,
-									["hp"] = 0,
 									["spellid"] = 60923,
+									["hp"] = 0,
 									["overkill"] = 402,
 								}, -- [1]
 								{
 									["source"] = "Archavon Warder",
 									["amount"] = -4240,
 									["school"] = 1,
+									["time"] = 8125.572000000001,
 									["hp"] = 3838,
 									["spellid"] = 60923,
-									["time"] = 8125.572000000001,
 								}, -- [2]
 								{
 									["source"] = "Archavon Warder",
 									["amount"] = -4240,
 									["school"] = 1,
+									["time"] = 8124.601,
 									["hp"] = 8078,
 									["spellid"] = 60923,
-									["time"] = 8124.601,
 								}, -- [3]
 								{
 									["source"] = "Archavon Warder",
 									["amount"] = -4240,
 									["school"] = 1,
+									["time"] = 8123.599,
 									["hp"] = 12318,
 									["spellid"] = 60923,
-									["time"] = 8123.599,
 								}, -- [4]
 							},
 							["time"] = 8126.639,
-							["timeod"] = 1699435152,
+							["source"] = "Archavon Warder",
 							["school"] = 1,
 							["maxhp"] = 21023,
 							["spellid"] = 60923,
-							["source"] = "Archavon Warder",
+							["timeod"] = 1699435152,
 						}, -- [1]
 					},
 					["id"] = "0x0700000000877A7B",
@@ -30211,8 +30210,8 @@ SkadaStorageDB = {
 							["overkill"] = 402,
 							["sources"] = {
 								["Archavon Warder"] = {
-									["overkill"] = 402,
 									["amount"] = 16960,
+									["overkill"] = 402,
 								},
 							},
 							["count"] = 4,
@@ -30225,7 +30224,6 @@ SkadaStorageDB = {
 					},
 					["name"] = "Quewyn",
 					["death"] = 1,
-					["totaldamage"] = 766,
 					["role"] = "DAMAGER",
 				}, -- [6]
 				{
@@ -30234,10 +30232,10 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[63944] = {
+							["uptime"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
-							["uptime"] = 8,
 						},
 						[67695] = {
 							["type"] = "BUFF",
@@ -30249,37 +30247,9 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[19746] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[23885] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 						[51470] = {
@@ -30287,12 +30257,41 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[55610] = {
+						[23885] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 4,
+						},
+						[46916] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 6,
+						},
+						[48090] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
+						[12970] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 8,
+						},
+						[19746] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
 					},
+					["totaldamage"] = 26829,
 					["time"] = 4.24,
 					["totaldamagetaken"] = 12344,
 					["damage"] = 26829,
@@ -30309,9 +30308,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 5686,
 							["school"] = 1,
-							["criticalmin"] = 5686,
-							["criticalmax"] = 5686,
 							["count"] = 1,
+							["criticalmax"] = 5686,
+							["criticalmin"] = 5686,
 						},
 						["Deep Wounds (DoT)"] = {
 							["hitmin"] = 592,
@@ -30356,9 +30355,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 7800,
 							["school"] = 1,
-							["criticalmin"] = 3007,
-							["criticalmax"] = 4793,
 							["count"] = 2,
+							["criticalmax"] = 4793,
+							["criticalmin"] = 3007,
 						},
 						["Melee"] = {
 							["hitmin"] = 1094,
@@ -30385,14 +30384,14 @@ SkadaStorageDB = {
 									["amount"] = 7092,
 								},
 							},
+							["amount"] = 7092,
+							["hitmax"] = 2126,
 							["criticalmax"] = 4966,
 							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 2126,
-							["amount"] = 7092,
+							["count"] = 2,
+							["casts"] = 2,
 							["hitamount"] = 2126,
 						},
 					},
@@ -30434,18 +30433,26 @@ SkadaStorageDB = {
 						[12964] = 2,
 						[58362] = 10,
 					},
-					["heal"] = 0,
 					["name"] = "Finalwield",
-					["rage"] = 12,
-					["overheal"] = 813,
-					["totaldamage"] = 26829,
 					["role"] = "DAMAGER",
+					["overheal"] = 813,
+					["rage"] = 12,
+					["heal"] = 0,
 				}, -- [7]
 				{
+					["class"] = "HUNTER",
 					["last"] = 8123.571,
+					["name"] = "Paopaozhu",
+					["time"] = 0,
 					["id"] = "0x07000000009D1361",
 					["spec"] = 254,
+					["role"] = "DAMAGER",
 					["auras"] = {
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 						[19506] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -30456,16 +30463,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Paopaozhu",
-					["time"] = 0,
-					["class"] = "HUNTER",
 				}, -- [8]
 				{
 					["last"] = 8127.732,
@@ -30487,10 +30485,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 2,
 						},
-						[63167] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 8,
 						},
 						[48090] = {
 							["type"] = "BUFF",
@@ -30502,22 +30500,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[72416] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 8,
 						},
 						[57399] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 2,
 						},
-						[55637] = {
+						[63167] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 2,
 						},
-						[35706] = {
+						[55637] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 2,
@@ -30537,22 +30535,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 2,
 						},
+						[35706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
 						[19746] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 2,
 						},
-						[51470] = {
+						[72416] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 2,
 						},
 					},
+					["totaldamage"] = 8987,
 					["time"] = 4.16,
 					["resspells"] = {
 						[47882] = {
@@ -30571,28 +30570,28 @@ SkadaStorageDB = {
 						{
 							["log"] = {
 								{
+									["spellid"] = 47882,
+									["source"] = "Lottle",
 									["hp"] = 0,
 									["time"] = 8131.214,
-									["source"] = "Lottle",
-									["spellid"] = 47882,
 								}, -- [1]
 								{
-									["absorbed"] = 3594,
+									["overkill"] = 2613,
+									["spellid"] = 60916,
 									["time"] = 8124.831,
-									["source"] = "Archavon Warder",
 									["amount"] = -14378,
 									["school"] = 1,
+									["source"] = "Archavon Warder",
 									["hp"] = 0,
-									["spellid"] = 60916,
-									["overkill"] = 2613,
+									["absorbed"] = 3594,
 								}, -- [2]
 							},
 							["time"] = 8124.832,
-							["timeod"] = 1699435151,
+							["source"] = "Archavon Warder",
 							["school"] = 1,
 							["maxhp"] = 21253,
 							["spellid"] = 60916,
-							["source"] = "Archavon Warder",
+							["timeod"] = 1699435151,
 						}, -- [1]
 					},
 					["id"] = "0x07000000009A0D9C",
@@ -30603,14 +30602,14 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 266,
 							["school"] = 2,
-							["max"] = 174,
+							["min"] = 92,
 							["targets"] = {
 								["Thooghun"] = {
 									["overheal"] = 0,
 									["amount"] = 266,
 								},
 							},
-							["min"] = 92,
+							["max"] = 174,
 						},
 					},
 					["damagetakenspells"] = {
@@ -30622,8 +30621,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Archavon Warder"] = {
 									["total"] = 17972,
-									["overkill"] = 2613,
 									["amount"] = 14378,
+									["overkill"] = 2613,
 								},
 							},
 							["count"] = 1,
@@ -30637,22 +30636,8 @@ SkadaStorageDB = {
 					["heal"] = 266,
 					["name"] = "Lottle",
 					["death"] = 1,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
-						["Corruption (DoT)"] = {
-							["hitmin"] = 1261,
-							["id"] = 47813,
-							["targets"] = {
-								["Archavon Warder"] = {
-									["amount"] = 2522,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1261,
-							["amount"] = 2522,
-							["hitamount"] = 2522,
-						},
 						["Shadowflame (DoT)"] = {
 							["hitmin"] = 582,
 							["id"] = 61291,
@@ -30668,6 +30653,21 @@ SkadaStorageDB = {
 							["amount"] = 1747,
 							["hitamount"] = 1747,
 						},
+						["Corruption (DoT)"] = {
+							["hitmin"] = 1261,
+							["id"] = 47813,
+							["targets"] = {
+								["Archavon Warder"] = {
+									["amount"] = 2522,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 1261,
+							["amount"] = 2522,
+							["hitamount"] = 2522,
+						},
 						["Immolate (DoT)"] = {
 							["hitmin"] = 1099,
 							["criticalamount"] = 2297,
@@ -30678,13 +30678,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 2297,
-							["critical"] = 1,
+							["amount"] = 3396,
 							["criticalmax"] = 2297,
-							["count"] = 2,
+							["critical"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
 							["hitmax"] = 1099,
-							["amount"] = 3396,
+							["count"] = 2,
 							["hitamount"] = 1099,
 						},
 						["Melee (Thooghun)"] = {
@@ -30703,85 +30703,8 @@ SkadaStorageDB = {
 							["hitamount"] = 1322,
 						},
 					},
-					["totaldamage"] = 8987,
-					["role"] = "DAMAGER",
 				}, -- [9]
 				{
-					["last"] = 8127.85,
-					["flag"] = 1300,
-					["class"] = "MAGE",
-					["auras"] = {
-						[71636] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 8,
-						},
-						[48090] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[55637] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[70753] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 6,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[61316] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[19746] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[55610] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["time"] = 4.279999999999999,
-					["damage"] = 39451,
 					["damagespells"] = {
 						["Fireball"] = {
 							["criticalamount"] = 17842,
@@ -30795,9 +30718,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 17842,
 							["school"] = 4,
-							["criticalmin"] = 17842,
-							["criticalmax"] = 17842,
 							["count"] = 1,
+							["criticalmax"] = 17842,
+							["criticalmin"] = 17842,
 						},
 						["Pyroblast (DoT)"] = {
 							["hitmin"] = 1298,
@@ -30820,8 +30743,8 @@ SkadaStorageDB = {
 							["id"] = 12654,
 							["targets"] = {
 								["Archavon Warder"] = {
-									["overkill"] = 5935,
 									["amount"] = 19013,
+									["overkill"] = 5935,
 								},
 							},
 							["overkill"] = 5935,
@@ -30833,23 +30756,102 @@ SkadaStorageDB = {
 							["hitamount"] = 19013,
 						},
 					},
-					["id"] = "0x070000000093948F",
-					["spec"] = 63,
-					["overkill"] = 5935,
-					["name"] = "Karshash",
+					["last"] = 8127.85,
+					["role"] = "DAMAGER",
+					["flag"] = 1300,
+					["class"] = "MAGE",
 					["manaspells"] = {
 						[29077] = 124,
 						[67545] = 130,
 						[44450] = -31,
 					},
+					["auras"] = {
+						[71636] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[63944] = {
+							["uptime"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[48090] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[55637] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[48108] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[61316] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[70753] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 6,
+						},
+						[19746] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[72416] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+					},
 					["mana"] = 223,
 					["totaldamage"] = 39451,
-					["role"] = "DAMAGER",
+					["time"] = 4.279999999999999,
+					["name"] = "Karshash",
+					["overkill"] = 5935,
+					["spec"] = 63,
+					["id"] = "0x070000000093948F",
+					["damage"] = 39451,
 				}, -- [10]
 				{
+					["time"] = 0,
 					["last"] = 8123.571,
+					["name"] = "Someway",
+					["flag"] = 1300,
 					["id"] = "0x07000000008365BD",
 					["class"] = "PRIEST",
+					["role"] = "NONE",
 					["auras"] = {
 						[48074] = {
 							["type"] = "BUFF",
@@ -30882,10 +30884,6 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 					},
-					["role"] = "NONE",
-					["name"] = "Someway",
-					["flag"] = 1300,
-					["time"] = 0,
 				}, -- [11]
 				{
 					["last"] = 8125.823,
@@ -30893,9 +30891,9 @@ SkadaStorageDB = {
 					["class"] = "SHAMAN",
 					["auras"] = {
 						[16246] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 8,
 						},
 						[28878] = {
@@ -30908,22 +30906,20 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[63944] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 2,
+							["uptime"] = 8,
 						},
 						[2479] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[19746] = {
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 5,
+							["uptime"] = 8,
 						},
 						[49233] = {
 							["type"] = "DEBUFF",
@@ -30937,33 +30933,35 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
-						[71199] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 5,
-						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
 						[59547] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
-						[51470] = {
+						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 5,
 						},
-						[55610] = {
+						[71199] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 5,
+						},
+						[19746] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[63944] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -30998,9 +30996,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3302,
 							["school"] = 4,
-							["criticalmin"] = 3302,
-							["criticalmax"] = 3302,
 							["count"] = 1,
+							["criticalmax"] = 3302,
+							["criticalmin"] = 3302,
 						},
 					},
 					["damagetaken"] = 11060,
@@ -31009,18 +31007,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[59547] = {
 							["overheal"] = 0,
+							["min"] = 1687,
+							["count"] = 2,
+							["amount"] = 3374,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Inarya"] = {
 									["overheal"] = 0,
 									["amount"] = 3374,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 3374,
-							["school"] = 2,
 							["max"] = 1687,
-							["ishot"] = true,
-							["min"] = 1687,
 						},
 					},
 					["damagetakenspells"] = {
@@ -31040,14 +31038,14 @@ SkadaStorageDB = {
 							["hitamount"] = 11060,
 						},
 					},
+					["heal"] = 3374,
 					["manaspells"] = {
 						[59159] = 2507,
 					},
-					["heal"] = 3374,
-					["name"] = "Inarya",
-					["mana"] = 2507,
-					["overheal"] = 0,
 					["totaldamage"] = 4120,
+					["overheal"] = 0,
+					["mana"] = 2507,
+					["name"] = "Inarya",
 				}, -- [12]
 				{
 					["damagespells"] = {
@@ -31071,15 +31069,16 @@ SkadaStorageDB = {
 					["last"] = 8125.68,
 					["id"] = "Mirror Image",
 					["class"] = "PET",
-					["name"] = "Mirror Image",
 					["totaldamage"] = 1644,
+					["name"] = "Mirror Image",
 					["time"] = 0.69,
 					["flag"] = 4370,
 					["damage"] = 1644,
 				}, -- [13]
 			},
-			["type"] = "raid",
+			["ress"] = 1,
 			["damagetaken"] = 67114,
+			["mobname"] = "Archavon Warder",
 			["rage"] = 12,
 			["overheal"] = 6566,
 			["starttime"] = 1699435149,
@@ -31087,7 +31086,8 @@ SkadaStorageDB = {
 			["edamagetaken"] = 181653,
 			["heal"] = 19834,
 			["name"] = "Archavon Warder",
-			["mobname"] = "Archavon Warder",
+			["death"] = 2,
+			["type"] = "raid",
 			["edamage"] = 67114,
 			["last_action"] = 1699435157,
 			["endtime"] = 1699435157,
