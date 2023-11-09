@@ -8,9 +8,9 @@ BagnonFrameSettings = {
 			["x"] = -109.9299510873948,
 		},
 		["bank"] = {
-			["itemFrameColumns"] = 16,
 			["y"] = 194.3700588082388,
 			["x"] = 88.29665782670413,
+			["itemFrameColumns"] = 16,
 		},
 	},
 	["version"] = "2.13.3",
