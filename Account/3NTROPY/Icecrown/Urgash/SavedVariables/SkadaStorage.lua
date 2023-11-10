@@ -3,10 +3,10 @@ SkadaStorageDB = {
 	["total"] = {
 		["mana"] = 130628,
 		["friendfire"] = 83684,
-		["totaldamage"] = 7810401,
-		["time"] = 846,
+		["totaldamage"] = 7811480,
+		["time"] = 852,
 		["totaldamagetaken"] = 1450324,
-		["damage"] = 7810401,
+		["damage"] = 7811480,
 		["players"] = {
 			{
 				["flag"] = 1298,
@@ -21,57 +21,58 @@ SkadaStorageDB = {
 				["id"] = "0x07000000008C6185",
 				["spec"] = 103,
 				["overkill"] = 22005,
-				["interrupt"] = 1,
 				["heal"] = 83381,
 				["name"] = "Thirial",
 				["ccdone"] = 15,
+				["interrupt"] = 1,
 				["rage"] = 2131,
 				["mana"] = 55020,
 				["role"] = "TANK",
 			}, -- [1]
 			{
+				["rage"] = 421,
+				["totaldamage"] = 1018407,
+				["damagetaken"] = 220477,
+				["overheal"] = 20536,
 				["flag"] = 1298,
 				["class"] = "WARRIOR",
+				["name"] = "Miracledream",
+				["overkill"] = 15370,
 				["friendfire"] = 13376,
 				["role"] = "DAMAGER",
 				["time"] = 508.8000000000006,
-				["totaldamagetaken"] = 220477,
-				["damage"] = 1018407,
-				["overheal"] = 20536,
-				["damagetaken"] = 220477,
-				["id"] = "0x07000000009A86E7",
-				["spec"] = 72,
-				["overkill"] = 15370,
 				["heal"] = 16980,
-				["name"] = "Miracledream",
-				["rage"] = 421,
-				["totaldamage"] = 1018407,
+				["spec"] = 72,
+				["totaldamagetaken"] = 220477,
+				["id"] = "0x07000000009A86E7",
+				["damage"] = 1018407,
 			}, -- [2]
 			{
 				["flag"] = 1297,
 				["class"] = "DEATHKNIGHT",
 				["friendfire"] = 26697,
+				["totaldamage"] = 3936188,
 				["time"] = 499.1100000000009,
 				["totaldamagetaken"] = 413861,
-				["damage"] = 3935109,
+				["damage"] = 3936188,
 				["overheal"] = 141894,
 				["absorb"] = 18415,
 				["damagetaken"] = 395446,
 				["id"] = "0x070000000000D01B",
 				["spec"] = 252,
-				["overkill"] = 107212,
+				["overkill"] = 108273,
 				["heal"] = 134922,
 				["name"] = "Urgash",
 				["ccdone"] = 9,
 				["runic"] = 334,
 				["interrupt"] = 12,
-				["totaldamage"] = 3935109,
 				["role"] = "DAMAGER",
 			}, -- [3]
 			{
 				["flag"] = 1298,
 				["class"] = "DRUID",
 				["friendfire"] = 21397,
+				["totaldamage"] = 1173,
 				["time"] = 595.8500000000003,
 				["totaldamagetaken"] = 144277,
 				["damage"] = 1173,
@@ -81,7 +82,6 @@ SkadaStorageDB = {
 				["id"] = "0x070000000095B7ED",
 				["spec"] = 105,
 				["runic"] = 640,
-				["totaldamage"] = 1173,
 				["heal"] = 977847,
 				["name"] = "Tumbleweed",
 				["death"] = 2,
@@ -94,6 +94,7 @@ SkadaStorageDB = {
 				["flag"] = 1298,
 				["class"] = "MAGE",
 				["friendfire"] = 5088,
+				["totaldamage"] = 1677570,
 				["time"] = 446.4400000000003,
 				["totaldamagetaken"] = 137336,
 				["damage"] = 1677570,
@@ -105,7 +106,6 @@ SkadaStorageDB = {
 				["name"] = "Berdanx",
 				["death"] = 1,
 				["interrupt"] = 2,
-				["totaldamage"] = 1677570,
 				["mana"] = 40534,
 				["role"] = "DAMAGER",
 			}, -- [5]
@@ -114,12 +114,12 @@ SkadaStorageDB = {
 		["damagetaken"] = 1288460,
 		["interrupt"] = 15,
 		["ress"] = 1,
-		["death"] = 3,
-		["overkill"] = 155620,
 		["runic"] = 974,
+		["overkill"] = 156681,
+		["ccdone"] = 24,
 		["heal"] = 1213130,
 		["name"] = "Total",
-		["ccdone"] = 24,
+		["death"] = 3,
 		["rage"] = 2890,
 		["overheal"] = 1212997,
 		["energy"] = 128,
@@ -128,11 +128,106 @@ SkadaStorageDB = {
 	["version"] = 1878,
 	["sets"] = {
 		{
-			["damage"] = 532392,
-			["success"] = true,
-			["absorb"] = 2730,
+			["starttime"] = 1699643685,
+			["type"] = "none",
+			["time"] = 6,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Death and Decay"] = {
+							["hitmin"] = 539,
+							["id"] = 52212,
+							["targets"] = {
+								["Rat"] = {
+									["amount"] = 1079,
+									["overkill"] = 1061,
+								},
+							},
+							["overkill"] = 1061,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 540,
+							["amount"] = 1079,
+							["hitamount"] = 1079,
+						},
+					},
+					["last"] = 1836.133,
+					["id"] = "0x070000000000D01B",
+					["class"] = "DEATHKNIGHT",
+					["overkill"] = 1061,
+					["spec"] = 252,
+					["totaldamage"] = 1079,
+					["name"] = "Urgash",
+					["time"] = 0.07000000000000001,
+					["flag"] = 1297,
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["damage"] = 1079,
+				}, -- [1]
+			},
+			["enemies"] = {
+				{
+					["flag"] = 2600,
+					["name"] = "Rat",
+					["damagetaken"] = 1079,
+					["id"] = "0xF130000FEB12A853",
+					["totaldamagetaken"] = 1079,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1079,
+									["overkill"] = 1061,
+								},
+							},
+							["amount"] = 1079,
+							["overkill"] = 1061,
+						},
+					},
+				}, -- [1]
+			},
+			["last_action"] = 1699643691,
+			["endtime"] = 1699643691,
+			["overkill"] = 1061,
+			["edamagetaken"] = 1079,
+			["totaldamage"] = 1079,
+			["name"] = "Rat",
+			["mobname"] = "Rat",
+			["damage"] = 1079,
+			["etotaldamagetaken"] = 1079,
+			["last_time"] = 1841.926,
+		}, -- [1]
+		{
+			["runic"] = 96,
+			["starttime"] = 1699558000,
 			["mana"] = 6253,
-			["gotboss"] = 27978,
+			["energy"] = 8,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -463,15 +558,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 9454,
 						},
-						[48562] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 2904,
-								},
-							},
-							["amount"] = 2904,
-						},
 						[50463] = {
 							["school"] = 1,
 							["sources"] = {
@@ -480,6 +566,23 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 12194,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["overkill"] = 2667,
+									["amount"] = 62555,
+								},
+								["Miracledream"] = {
+									["amount"] = 18214,
+								},
+								["Thirial"] = {
+									["amount"] = 3372,
+								},
+							},
+							["overkill"] = 2667,
+							["amount"] = 84141,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -508,22 +611,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 33084,
 						},
-						[6603] = {
-							["school"] = 1,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 2667,
-									["amount"] = 62555,
-								},
-								["Miracledream"] = {
-									["amount"] = 18214,
-								},
-								["Thirial"] = {
-									["amount"] = 3372,
+									["amount"] = 5862,
 								},
 							},
-							["overkill"] = 2667,
-							["amount"] = 84141,
+							["amount"] = 5862,
 						},
 						[70890] = {
 							["school"] = 32,
@@ -534,14 +629,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8692,
 						},
-						[49909] = {
-							["school"] = 16,
+						[48562] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5862,
+								["Thirial"] = {
+									["amount"] = 2904,
 								},
 							},
-							["amount"] = 5862,
+							["amount"] = 2904,
 						},
 						[44949] = {
 							["school"] = 1,
@@ -553,8 +648,8 @@ SkadaStorageDB = {
 							["amount"] = 3020,
 						},
 					},
-					["name"] = "Sjonnir The Ironshaper",
 					["totaldamage"] = 73797,
+					["name"] = "Sjonnir The Ironshaper",
 					["totaldamagetaken"] = 472073,
 					["id"] = "0xF130006D4A00001E",
 					["damage"] = 67567,
@@ -640,6 +735,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1407,
 						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Miracledream"] = {
+									["amount"] = 1592,
+								},
+							},
+							["amount"] = 1592,
+						},
 						[71904] = {
 							["school"] = 32,
 							["sources"] = {
@@ -650,15 +754,6 @@ SkadaStorageDB = {
 							},
 							["overkill"] = 845,
 							["amount"] = 1825,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 1592,
-								},
-							},
-							["amount"] = 1592,
 						},
 						[53307] = {
 							["school"] = 8,
@@ -706,8 +801,8 @@ SkadaStorageDB = {
 							["amount"] = 1682,
 						},
 					},
-					["name"] = "Forged Iron Dwarf",
 					["totaldamage"] = 11506,
+					["name"] = "Forged Iron Dwarf",
 					["totaldamagetaken"] = 52097,
 					["id"] = "0xF130006D4E0000D6",
 					["damage"] = 7243,
@@ -779,19 +874,19 @@ SkadaStorageDB = {
 							["amount"] = 288,
 						},
 					},
-					["name"] = "Forged Iron Trogg",
 					["totaldamage"] = 2484,
+					["name"] = "Forged Iron Trogg",
 					["totaldamagetaken"] = 8222,
 					["id"] = "0xF130006D4B0000D8",
 					["damage"] = 2484,
 				}, -- [3]
 			},
-			["energy"] = 8,
+			["etotaldamagetaken"] = 532392,
 			["totaldamage"] = 532392,
 			["time"] = 36,
-			["runic"] = 96,
+			["type"] = "party",
 			["totaldamagetaken"] = 87787,
-			["etotaldamagetaken"] = 532392,
+			["etotaldamage"] = 87787,
 			["last_time"] = 5529.972,
 			["players"] = {
 				{
@@ -837,30 +932,30 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 22,
 								},
 							},
 							["uptime"] = 22,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 2,
+							["type"] = "BUFF",
 							["uptime"] = 36,
+							["count"] = 1,
 						},
 						[71227] = {
 							["type"] = "BUFF",
@@ -876,36 +971,53 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 24,
 								},
 							},
 							["uptime"] = 24,
 						},
 						[48265] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 2,
 						},
 						[48266] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 34,
 						},
 						[48792] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[48707] = {
+						[45529] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 5,
+							["uptime"] = 2,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[71559] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
 						},
 						[50536] = {
 							["type"] = "DEBUFF",
@@ -914,29 +1026,12 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 9,
 								},
 							},
 							["uptime"] = 9,
-						},
-						[45529] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-						[71559] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 27,
 						},
 						[54646] = {
 							["type"] = "BUFF",
@@ -950,8 +1045,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 24,
 								},
 							},
@@ -970,9 +1065,9 @@ SkadaStorageDB = {
 							["uptime"] = 15,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[72221] = {
@@ -980,16 +1075,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 36,
 						},
+						[48707] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[47436] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 36,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
 						},
 						[53365] = {
 							["type"] = "BUFF",
@@ -1026,11 +1121,11 @@ SkadaStorageDB = {
 							["max"] = 1050,
 						},
 					},
+					["totaldamage"] = 222812,
 					["time"] = 27.47,
 					["totaldamagetaken"] = 19442,
-					["runic"] = 48,
 					["damage"] = 222812,
-					["overheal"] = 10732,
+					["runic"] = 48,
 					["absorb"] = 2730,
 					["damagetaken"] = 16712,
 					["id"] = "0x070000000000D01B",
@@ -1056,6 +1151,10 @@ SkadaStorageDB = {
 						},
 						[34299] = {
 							["overheal"] = 5692,
+							["max"] = 1522,
+							["count"] = 6,
+							["amount"] = 2312,
+							["school"] = 1,
 							["targets"] = {
 								["Earthbasher"] = {
 									["overheal"] = 3437,
@@ -1066,25 +1165,21 @@ SkadaStorageDB = {
 									["amount"] = 2312,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 2312,
-							["school"] = 1,
-							["max"] = 1522,
 							["ishot"] = true,
 							["min"] = 790,
 						},
 						[50475] = {
 							["overheal"] = 2219,
+							["max"] = 335,
+							["count"] = 29,
+							["amount"] = 2168,
+							["school"] = 1,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 2219,
 									["amount"] = 2168,
 								},
 							},
-							["count"] = 29,
-							["amount"] = 2168,
-							["school"] = 1,
-							["max"] = 335,
 							["ishot"] = true,
 							["min"] = 3,
 						},
@@ -1127,19 +1222,19 @@ SkadaStorageDB = {
 							["hitmin"] = 1229,
 							["criticalamount"] = 2662,
 							["id"] = 6603,
-							["amount"] = 6908,
 							["criticalmin"] = 2662,
 							["criticalmax"] = 2662,
-							["critical"] = 1,
+							["count"] = 6,
+							["amount"] = 6908,
 							["sources"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 6908,
 								},
 							},
-							["count"] = 6,
+							["hitmax"] = 1681,
 							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 1681,
+							["critical"] = 1,
 							["MISS"] = 1,
 							["hitamount"] = 4246,
 						},
@@ -1164,8 +1259,8 @@ SkadaStorageDB = {
 						["Chain Lightning"] = {
 							["hitmin"] = 3074,
 							["id"] = 59844,
-							["amount"] = 3074,
 							["hitmax"] = 3074,
+							["amount"] = 3074,
 							["sources"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 3074,
@@ -1179,12 +1274,13 @@ SkadaStorageDB = {
 							["hitamount"] = 3074,
 						},
 					},
+					["heal"] = 5081,
+					["name"] = "Urgash",
+					["overheal"] = 10732,
 					["runicspells"] = {
 						[45529] = 10,
 						[49088] = 38,
 					},
-					["heal"] = 5081,
-					["name"] = "Urgash",
 					["overkill"] = 3512,
 					["damagespells"] = {
 						["Scourge Strike"] = {
@@ -1417,20 +1513,20 @@ SkadaStorageDB = {
 							["hitmin"] = 2398,
 							["criticalamount"] = 3464,
 							["id"] = 49909,
-							["hitmax"] = 2398,
+							["count"] = 2,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 5862,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 2398,
 							["hit"] = 1,
-							["casts"] = 2,
+							["criticalmax"] = 3464,
 							["critical"] = 1,
 							["amount"] = 5862,
 							["school"] = 16,
 							["resisted"] = 266,
-							["criticalmax"] = 3464,
+							["casts"] = 2,
 							["hitamount"] = 2398,
 						},
 						["Gargoyle Strike (Ebon Gargoyle)"] = {
@@ -1438,40 +1534,40 @@ SkadaStorageDB = {
 							["hitmin"] = 3456,
 							["criticalamount"] = 6459,
 							["id"] = 51963,
-							["criticalmax"] = 6459,
+							["hitmax"] = 4325,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 34981,
 								},
 							},
 							["critical"] = 1,
-							["hitmax"] = 4325,
+							["hit"] = 7,
 							["casts"] = 1,
 							["count"] = 8,
-							["hit"] = 7,
+							["amount"] = 34981,
 							["school"] = 8,
 							["resisted"] = 1729,
-							["amount"] = 34981,
+							["criticalmax"] = 6459,
 							["hitamount"] = 28522,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 2608,
 							["criticalamount"] = 4332,
 							["id"] = 49921,
-							["hitmax"] = 2608,
+							["criticalmin"] = 4332,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 6940,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
 							["critical"] = 1,
 							["amount"] = 6940,
-							["school"] = 1,
-							["criticalmin"] = 4332,
 							["criticalmax"] = 4332,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2608,
+							["casts"] = 2,
 							["hitamount"] = 2608,
 						},
 						["Frost Fever (DoT)"] = {
@@ -1494,24 +1590,23 @@ SkadaStorageDB = {
 							["hitmin"] = 771,
 							["criticalamount"] = 7204,
 							["id"] = 47468,
-							["hitmax"] = 917,
+							["criticalmin"] = 1532,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 10550,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 4,
-							["casts"] = 1,
 							["critical"] = 4,
 							["amount"] = 10550,
-							["school"] = 1,
-							["criticalmin"] = 1532,
 							["criticalmax"] = 1908,
+							["count"] = 8,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 917,
+							["casts"] = 1,
 							["hitamount"] = 3346,
 						},
 					},
-					["totaldamage"] = 222812,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -1535,9 +1630,9 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
 						[6795] = {
@@ -1563,24 +1658,24 @@ SkadaStorageDB = {
 							["refresh"] = 6,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
-									["count"] = 1,
 									["refresh"] = 6,
+									["count"] = 1,
 									["uptime"] = 29,
 								},
 							},
 							["uptime"] = 29,
 						},
 						[71564] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 36,
+							["count"] = 1,
 						},
 						[72221] = {
 							["type"] = "BUFF",
@@ -1605,9 +1700,9 @@ SkadaStorageDB = {
 							["uptime"] = 14,
 						},
 						[5229] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[48564] = {
@@ -1627,21 +1722,21 @@ SkadaStorageDB = {
 							["uptime"] = 15,
 						},
 						[64951] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 12,
 						},
 						[71569] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 8,
 							["uptime"] = 5,
 						},
 						[16857] = {
@@ -1669,9 +1764,9 @@ SkadaStorageDB = {
 							["uptime"] = 22,
 						},
 						[50334] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[62606] = {
@@ -1682,18 +1777,19 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 					},
+					["totaldamage"] = 71553,
 					["time"] = 30.43999999999999,
-					["overheal"] = 1513,
 					["totaldamagetaken"] = 39138,
-					["overkill"] = 111,
 					["damage"] = 71553,
+					["overheal"] = 1513,
+					["damagetaken"] = 31375,
 					["damagespells"] = {
 						["Swipe (Bear)"] = {
-							["criticalmax"] = 1036,
-							["hitmin"] = 441,
 							["criticalamount"] = 4984,
-							["id"] = 48562,
+							["hitmin"] = 441,
 							["criticalmin"] = 900,
+							["id"] = 48562,
+							["casts"] = 4,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 2904,
@@ -1707,33 +1803,33 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 111,
-							["critical"] = 5,
-							["casts"] = 4,
 							["count"] = 9,
-							["hit"] = 4,
-							["school"] = 1,
+							["criticalmax"] = 1036,
 							["hitmax"] = 518,
 							["amount"] = 6834,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 5,
 							["hitamount"] = 1850,
 						},
-						["Mangle (Bear)"] = {
-							["criticalamount"] = 5726,
-							["id"] = 48564,
+						["Lacerate (DoT)"] = {
+							["hitmin"] = 147,
+							["criticalamount"] = 4134,
+							["id"] = 48568,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
-									["amount"] = 2872,
-								},
-								["Forged Iron Dwarf"] = {
-									["amount"] = 2854,
+									["amount"] = 7528,
 								},
 							},
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 5726,
+							["criticalmin"] = 586,
+							["count"] = 9,
+							["criticalmax"] = 1525,
+							["critical"] = 4,
+							["amount"] = 7528,
 							["school"] = 1,
-							["criticalmin"] = 2854,
-							["criticalmax"] = 2872,
-							["count"] = 2,
+							["hitmax"] = 1096,
+							["hit"] = 5,
+							["hitamount"] = 3394,
 						},
 						["Melee"] = {
 							["criticalamount"] = 5054,
@@ -1769,6 +1865,45 @@ SkadaStorageDB = {
 							["amount"] = 1014,
 							["hitamount"] = 1014,
 						},
+						["Lacerate"] = {
+							["hitmin"] = 105,
+							["criticalamount"] = 322,
+							["id"] = 48568,
+							["criticalmin"] = 322,
+							["targets"] = {
+								["Sjonnir The Ironshaper"] = {
+									["amount"] = 1100,
+								},
+							},
+							["casts"] = 7,
+							["count"] = 7,
+							["criticalmax"] = 322,
+							["hitmax"] = 161,
+							["amount"] = 1100,
+							["school"] = 1,
+							["hit"] = 6,
+							["critical"] = 1,
+							["hitamount"] = 778,
+						},
+						["Mangle (Bear)"] = {
+							["criticalamount"] = 5726,
+							["id"] = 48564,
+							["targets"] = {
+								["Sjonnir The Ironshaper"] = {
+									["amount"] = 2872,
+								},
+								["Forged Iron Dwarf"] = {
+									["amount"] = 2854,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 5726,
+							["school"] = 1,
+							["criticalmin"] = 2854,
+							["criticalmax"] = 2872,
+							["count"] = 2,
+						},
 						["Maul"] = {
 							["hitmin"] = 1497,
 							["criticalamount"] = 22594,
@@ -1782,54 +1917,15 @@ SkadaStorageDB = {
 									["amount"] = 10156,
 								},
 							},
-							["criticalmax"] = 5616,
-							["critical"] = 5,
 							["casts"] = 10,
 							["count"] = 15,
-							["hit"] = 10,
-							["school"] = 1,
+							["criticalmax"] = 5616,
 							["hitmax"] = 2814,
 							["amount"] = 43240,
+							["school"] = 1,
+							["hit"] = 10,
+							["critical"] = 5,
 							["hitamount"] = 20646,
-						},
-						["Lacerate (DoT)"] = {
-							["hitmin"] = 147,
-							["criticalamount"] = 4134,
-							["id"] = 48568,
-							["targets"] = {
-								["Sjonnir The Ironshaper"] = {
-									["amount"] = 7528,
-								},
-							},
-							["criticalmin"] = 586,
-							["critical"] = 4,
-							["criticalmax"] = 1525,
-							["count"] = 9,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 1096,
-							["amount"] = 7528,
-							["hitamount"] = 3394,
-						},
-						["Lacerate"] = {
-							["hitmin"] = 105,
-							["criticalamount"] = 322,
-							["id"] = 48568,
-							["criticalmin"] = 322,
-							["targets"] = {
-								["Sjonnir The Ironshaper"] = {
-									["amount"] = 1100,
-								},
-							},
-							["criticalmax"] = 322,
-							["critical"] = 1,
-							["casts"] = 7,
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 161,
-							["amount"] = 1100,
-							["hitamount"] = 778,
 						},
 						["Thorns"] = {
 							["hitmin"] = 82,
@@ -1851,22 +1947,15 @@ SkadaStorageDB = {
 							["hitamount"] = 1057,
 						},
 					},
-					["ragespells"] = {
-						[5229] = 30,
-						[59072] = 24,
-						[16959] = 80,
-					},
-					["damagetaken"] = 31375,
 					["id"] = "0x07000000008C6185",
 					["spec"] = 103,
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 1513,
-							["max"] = 1704,
+							["school"] = 1,
 							["count"] = 4,
 							["amount"] = 4729,
-							["school"] = 1,
-							["min"] = 1512,
+							["max"] = 1704,
 							["ishot"] = true,
 							["targets"] = {
 								["Thirial"] = {
@@ -1874,8 +1963,10 @@ SkadaStorageDB = {
 									["amount"] = 4729,
 								},
 							},
+							["min"] = 1512,
 						},
 					},
+					["overkill"] = 111,
 					["damagetakenspells"] = {
 						["Lightning Shock"] = {
 							["hitmin"] = 792,
@@ -1910,8 +2001,8 @@ SkadaStorageDB = {
 							["total"] = 21897,
 							["hitmin"] = 405,
 							["id"] = 6603,
-							["hit"] = 12,
 							["hitmax"] = 2275,
+							["hit"] = 12,
 							["sources"] = {
 								["Sjonnir The Ironshaper"] = {
 									["total"] = 13823,
@@ -1978,14 +2069,18 @@ SkadaStorageDB = {
 							["hitamount"] = 3432,
 						},
 					},
+					["ragespells"] = {
+						[5229] = 30,
+						[59072] = 24,
+						[16959] = 80,
+					},
+					["name"] = "Thirial",
 					["rage"] = 134,
 					["heal"] = 4729,
-					["name"] = "Thirial",
 					["manaspells"] = {
 						[68285] = 2904,
 					},
 					["mana"] = 2904,
-					["totaldamage"] = 71553,
 					["role"] = "TANK",
 				}, -- [2]
 				{
@@ -2004,27 +2099,27 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 						[16886] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 3,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 36,
+							["count"] = 1,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 2,
 						},
 						[48422] = {
@@ -2032,21 +2127,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 36,
 						},
-						[60062] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 36,
 						},
-						[16870] = {
+						[60062] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[16870] = {
 							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 1,
 						},
 						[67358] = {
@@ -2075,27 +2170,23 @@ SkadaStorageDB = {
 					["energyspells"] = {
 						[48540] = 8,
 					},
+					["role"] = "HEALER",
 					["time"] = 32.78,
 					["totaldamagetaken"] = 3200,
+					["runic"] = 48,
+					["damagetaken"] = 3200,
 					["runicspells"] = {
 						[48543] = 48,
 					},
-					["ragespells"] = {
-						[48541] = 24,
-					},
-					["runic"] = 48,
-					["mana"] = 1749,
-					["damagetaken"] = 3200,
 					["id"] = "0x070000000095B7ED",
 					["spec"] = 105,
 					["healspells"] = {
 						[53251] = {
 							["overheal"] = 20161,
-							["max"] = 657,
+							["school"] = 8,
 							["count"] = 42,
 							["amount"] = 4764,
-							["school"] = 8,
-							["min"] = 504,
+							["max"] = 657,
 							["ishot"] = true,
 							["targets"] = {
 								["Tumbleweed"] = {
@@ -2119,6 +2210,7 @@ SkadaStorageDB = {
 									["amount"] = 2906,
 								},
 							},
+							["min"] = 504,
 						},
 						[48441] = {
 							["overheal"] = 27327,
@@ -2173,12 +2265,12 @@ SkadaStorageDB = {
 							["criticalmin"] = 7393,
 							["min"] = 355,
 							["casts"] = 7,
-							["count"] = 20,
+							["critical"] = 1,
 							["amount"] = 39483,
 							["school"] = 8,
 							["criticalmax"] = 7393,
 							["ishot"] = true,
-							["critical"] = 1,
+							["count"] = 20,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2199,15 +2291,18 @@ SkadaStorageDB = {
 							["hitamount"] = 3200,
 						},
 					},
-					["rage"] = 24,
-					["heal"] = 71389,
 					["name"] = "Tumbleweed",
-					["overheal"] = 57535,
+					["ragespells"] = {
+						[48541] = 24,
+					},
 					["manaspells"] = {
 						[48542] = 1749,
 					},
+					["rage"] = 24,
+					["heal"] = 71389,
+					["overheal"] = 57535,
 					["energy"] = 8,
-					["role"] = "HEALER",
+					["mana"] = 1749,
 				}, -- [3]
 				{
 					["last"] = 5524.889,
@@ -2220,10 +2315,22 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 29,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 36,
+							["count"] = 1,
+						},
+						[12292] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
 						},
 						[48443] = {
 							["type"] = "BUFF",
@@ -2232,52 +2339,23 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 6,
 						},
-						[12292] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 31,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 36,
-						},
 						[18499] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[1719] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
+						[60305] = {
 							["school"] = 1,
-							["refresh"] = 12,
-							["targets"] = {
-								["Sjonnir The Ironshaper"] = {
-									["count"] = 1,
-									["refresh"] = 11,
-									["uptime"] = 21,
-								},
-								["Forged Iron Dwarf"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 9,
-								},
-								["Forged Iron Trogg"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 21,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
 						},
 						[29131] = {
 							["type"] = "BUFF",
@@ -2285,9 +2363,9 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 13,
 						},
 						[46916] = {
@@ -2297,11 +2375,28 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 10,
 						},
-						[60305] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
 							["school"] = 1,
-							["uptime"] = 20,
+							["refresh"] = 12,
+							["targets"] = {
+								["Sjonnir The Ironshaper"] = {
+									["refresh"] = 11,
+									["count"] = 1,
+									["uptime"] = 21,
+								},
+								["Forged Iron Dwarf"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 9,
+								},
+								["Forged Iron Trogg"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 21,
 						},
 						[12970] = {
 							["type"] = "BUFF",
@@ -2321,29 +2416,30 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 					},
+					["totaldamage"] = 92100,
 					["time"] = 30.17000000000001,
 					["totaldamagetaken"] = 15801,
 					["damage"] = 92100,
 					["damagespells"] = {
 						["Bloodthirst"] = {
-							["PARRY"] = 1,
-							["hitmin"] = 1399,
 							["criticalamount"] = 4360,
-							["id"] = 23881,
+							["hitmin"] = 1399,
 							["criticalmin"] = 4360,
+							["id"] = 23881,
+							["criticalmax"] = 4360,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 9454,
 								},
 							},
-							["criticalmax"] = 4360,
-							["critical"] = 1,
 							["casts"] = 5,
-							["count"] = 5,
 							["hit"] = 3,
-							["school"] = 1,
+							["PARRY"] = 1,
 							["hitmax"] = 1982,
 							["amount"] = 9454,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 5,
 							["hitamount"] = 5094,
 						},
 						["Melee"] = {
@@ -2384,14 +2480,14 @@ SkadaStorageDB = {
 									["amount"] = 16527,
 								},
 							},
-							["criticalmax"] = 3874,
-							["critical"] = 7,
 							["casts"] = 5,
 							["count"] = 10,
-							["hit"] = 3,
-							["school"] = 1,
+							["criticalmax"] = 3874,
 							["hitmax"] = 1775,
 							["amount"] = 30845,
+							["school"] = 1,
+							["hit"] = 3,
+							["critical"] = 7,
 							["hitamount"] = 5125,
 						},
 						["Execute"] = {
@@ -2415,7 +2511,7 @@ SkadaStorageDB = {
 							["hitmin"] = 912,
 							["criticalamount"] = 11100,
 							["id"] = 1680,
-							["hitmax"] = 1606,
+							["criticalmin"] = 1980,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 8489,
@@ -2427,14 +2523,14 @@ SkadaStorageDB = {
 									["amount"] = 5198,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 5,
-							["casts"] = 2,
 							["critical"] = 4,
 							["amount"] = 16969,
-							["school"] = 1,
-							["criticalmin"] = 1980,
 							["criticalmax"] = 3863,
+							["count"] = 10,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 1606,
+							["casts"] = 2,
 							["hitamount"] = 5869,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -2544,15 +2640,14 @@ SkadaStorageDB = {
 							["hitamount"] = 5436,
 						},
 					},
-					["overheal"] = 1561,
 					["ragespells"] = {
 						[29131] = 5,
 						[12964] = 10,
 					},
 					["name"] = "Miracledream",
+					["overheal"] = 1561,
 					["rage"] = 15,
 					["heal"] = 892,
-					["totaldamage"] = 92100,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -2576,15 +2671,15 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 27,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[55360] = {
@@ -2617,9 +2712,9 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 						[67684] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[22959] = {
@@ -2635,9 +2730,9 @@ SkadaStorageDB = {
 							["uptime"] = 27,
 						},
 						[71564] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[42891] = {
@@ -2647,17 +2742,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 12,
 								},
 							},
 							["uptime"] = 12,
 						},
 						[48108] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 4,
 						},
 						[47436] = {
@@ -2666,9 +2761,9 @@ SkadaStorageDB = {
 							["uptime"] = 36,
 						},
 						[55342] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[28682] = {
@@ -2685,8 +2780,8 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
-									["count"] = 3,
 									["refresh"] = 7,
+									["count"] = 3,
 									["uptime"] = 21,
 								},
 								["Forged Iron Dwarf"] = {
@@ -2697,10 +2792,10 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 36,
+							["count"] = 1,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -2713,20 +2808,20 @@ SkadaStorageDB = {
 							["hitmin"] = 4986,
 							["criticalamount"] = 64564,
 							["id"] = 42833,
-							["hitmax"] = 5947,
+							["count"] = 8,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 75497,
 								},
 							},
-							["count"] = 8,
+							["hitmax"] = 5947,
 							["hit"] = 2,
-							["casts"] = 7,
+							["criticalmax"] = 12238,
 							["critical"] = 6,
 							["amount"] = 75497,
 							["school"] = 4,
 							["resisted"] = 1246,
-							["criticalmax"] = 12238,
+							["casts"] = 7,
 							["hitamount"] = 10933,
 						},
 						["Pyroblast (DoT)"] = {
@@ -2756,13 +2851,13 @@ SkadaStorageDB = {
 									["amount"] = 11006,
 								},
 							},
-							["critical"] = 2,
+							["count"] = 24,
 							["amount"] = 11006,
 							["casts"] = 1,
-							["count"] = 24,
+							["hitmax"] = 467,
 							["hit"] = 21,
 							["school"] = 16,
-							["hitmax"] = 467,
+							["critical"] = 2,
 							["MISS"] = 1,
 							["hitamount"] = 9622,
 						},
@@ -2771,29 +2866,29 @@ SkadaStorageDB = {
 							["hitmin"] = 222,
 							["criticalamount"] = 1132,
 							["id"] = 59637,
-							["criticalmax"] = 577,
+							["hitmax"] = 323,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 4090,
 								},
 							},
 							["critical"] = 2,
-							["hitmax"] = 323,
+							["hit"] = 11,
 							["casts"] = 1,
 							["count"] = 13,
-							["hit"] = 11,
+							["amount"] = 4090,
 							["school"] = 4,
 							["resisted"] = 234,
-							["amount"] = 4090,
+							["criticalmax"] = 577,
 							["hitamount"] = 2958,
 						},
 						["Living Bomb"] = {
-							["criticalmax"] = 4154,
-							["hitmax"] = 1870,
-							["hitmin"] = 1870,
 							["criticalamount"] = 4154,
+							["count"] = 3,
+							["hitmin"] = 1870,
+							["criticalmin"] = 4154,
 							["id"] = 55362,
-							["critical"] = 1,
+							["criticalmax"] = 4154,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 0,
@@ -2802,10 +2897,10 @@ SkadaStorageDB = {
 									["amount"] = 6024,
 								},
 							},
+							["hitmax"] = 1870,
 							["hit"] = 1,
-							["criticalmin"] = 4154,
 							["casts"] = 2,
-							["count"] = 3,
+							["critical"] = 1,
 							["amount"] = 6024,
 							["school"] = 4,
 							["resisted"] = 207,
@@ -2852,20 +2947,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1126,
 							["criticalamount"] = 8223,
 							["id"] = 55360,
-							["hitmax"] = 1127,
+							["criticalmin"] = 1971,
 							["targets"] = {
 								["Sjonnir The Ironshaper"] = {
 									["amount"] = 11603,
 								},
 							},
-							["count"] = 7,
+							["critical"] = 4,
 							["hit"] = 3,
 							["criticalmax"] = 2253,
-							["critical"] = 4,
+							["count"] = 7,
 							["amount"] = 11603,
 							["school"] = 4,
 							["resisted"] = 225,
-							["criticalmin"] = 1971,
+							["hitmax"] = 1127,
 							["hitamount"] = 3380,
 						},
 						["Fire Blast"] = {
@@ -2964,9 +3059,10 @@ SkadaStorageDB = {
 					["totaldamage"] = 145927,
 				}, -- [5]
 			},
-			["type"] = "party",
+			["absorb"] = 2730,
 			["damagetaken"] = 77294,
-			["etotaldamage"] = 87787,
+			["gotboss"] = 27978,
+			["success"] = true,
 			["rage"] = 173,
 			["overheal"] = 71341,
 			["overkill"] = 3623,
@@ -2974,17 +3070,1779 @@ SkadaStorageDB = {
 			["heal"] = 82091,
 			["name"] = "Sjonnir The Ironshaper",
 			["mobname"] = "Sjonnir The Ironshaper",
-			["starttime"] = 1699558000,
+			["damage"] = 532392,
 			["edamage"] = 77294,
 			["last_action"] = 1699558036,
 			["endtime"] = 1699558036,
-		}, -- [1]
+		}, -- [2]
 		{
-			["ccdone"] = 2,
-			["overheal"] = 30261,
-			["absorb"] = 972,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[49560] = {
+							["count"] = 1,
+							["targets"] = {
+								["Dark Rune Theurgist"] = 1,
+							},
+						},
+					},
+					["last"] = 5371.132000000001,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 23,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[58578] = {
+							["refresh"] = 3,
+							["type"] = "BUFF",
+							["uptime"] = 23,
+							["count"] = 1,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 21,
+						},
+						[45529] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[71560] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 11,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 23,
+						},
+						[71227] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 15,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["targets"] = {
+								["Lesser Air Elemental"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+								["Dark Rune Warrior"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Dark Rune Warrior"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[48707] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Dark Rune Warrior"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Lesser Air Elemental"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Dark Rune Warrior"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Lesser Air Elemental"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 16,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Dark Rune Warrior"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Lesser Air Elemental"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Dark Rune Theurgist"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+						[53365] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 12,
+						},
+						[66803] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[54646] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+					},
+					["absorbspells"] = {
+						[48707] = {
+							["min"] = 972,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 972,
+							["school"] = 32,
+							["targets"] = {
+								["Urgash"] = 972,
+							},
+							["max"] = 972,
+						},
+					},
+					["totaldamage"] = 132085,
+					["time"] = 17.37,
+					["totaldamagetaken"] = 15991,
+					["runicspells"] = {
+						[49088] = 14,
+						[45529] = 10,
+					},
+					["damage"] = 132085,
+					["damagespells"] = {
+						["Claw (Earthbasher)"] = {
+							["criticalamount"] = 1756,
+							["hitmin"] = 725,
+							["criticalmin"] = 1756,
+							["id"] = 47468,
+							["casts"] = 1,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 1464,
+								},
+								["Dark Rune Theurgist"] = {
+									["overkill"] = 709,
+									["amount"] = 3537,
+								},
+							},
+							["overkill"] = 709,
+							["count"] = 5,
+							["criticalmax"] = 1756,
+							["hitmax"] = 917,
+							["amount"] = 5001,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 1,
+							["hitamount"] = 3245,
+						},
+						["Scourge Strike"] = {
+							["criticalamount"] = 8702,
+							["id"] = 55271,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 8702,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 8702,
+							["school"] = 1,
+							["criticalmin"] = 8702,
+							["criticalmax"] = 8702,
+							["count"] = 1,
+						},
+						["Melee"] = {
+							["hitmin"] = 2819,
+							["criticalamount"] = 28241,
+							["id"] = 6603,
+							["criticalmin"] = 6130,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 9808,
+								},
+								["Dark Rune Warrior"] = {
+									["overkill"] = 1175,
+									["amount"] = 13076,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 15799,
+								},
+							},
+							["overkill"] = 1175,
+							["count"] = 7,
+							["criticalmax"] = 8176,
+							["critical"] = 4,
+							["amount"] = 38683,
+							["school"] = 1,
+							["hitmax"] = 3953,
+							["hit"] = 3,
+							["hitamount"] = 10442,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 1398,
+							["id"] = 71904,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1603,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 1398,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 1603,
+							["amount"] = 3001,
+							["hitamount"] = 3001,
+						},
+						["Blood-Caked Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2541,
+							["id"] = 50463,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 5092,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2551,
+							["amount"] = 5092,
+							["hitamount"] = 5092,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 41,
+							["id"] = 50536,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 287,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 32,
+							["hitmax"] = 41,
+							["amount"] = 287,
+							["hitamount"] = 287,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 4424,
+							["id"] = 70890,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 4424,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 4424,
+							["amount"] = 4424,
+							["hitamount"] = 4424,
+						},
+						["Death and Decay"] = {
+							["hitmin"] = 662,
+							["criticalamount"] = 6392,
+							["id"] = 52212,
+							["criticalmin"] = 1383,
+							["targets"] = {
+								["Lesser Air Elemental"] = {
+									["amount"] = 5198,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 5173,
+								},
+								["Dark Rune Elementalist"] = {
+									["amount"] = 7516,
+								},
+							},
+							["critical"] = 4,
+							["amount"] = 17887,
+							["criticalmax"] = 1806,
+							["count"] = 19,
+							["hit"] = 15,
+							["school"] = 32,
+							["hitmax"] = 824,
+							["casts"] = 1,
+							["hitamount"] = 11495,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1137,
+							["id"] = 50526,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 1137,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 1394,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 1394,
+							["amount"] = 2531,
+							["hitamount"] = 2531,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 563,
+							["id"] = 51460,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 1960,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 1389,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 3159,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["hitmax"] = 1635,
+							["amount"] = 6508,
+							["hitamount"] = 6508,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1202,
+							["id"] = 55078,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 1202,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 4401,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1443,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 1467,
+							["amount"] = 7046,
+							["hitamount"] = 7046,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 3664,
+							["id"] = 47632,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 3664,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 4109,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 4109,
+							["amount"] = 7773,
+							["hitamount"] = 7773,
+						},
+						["Melee (Earthbasher)"] = {
+							["glance"] = 490,
+							["hitmin"] = 489,
+							["criticalmin"] = 1184,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 1476,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 4166,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 5642,
+							["glancemin"] = 490,
+							["criticalamount"] = 2370,
+							["id"] = 6603,
+							["glancemax"] = 490,
+							["criticalmax"] = 1186,
+							["critical"] = 2,
+							["hit"] = 5,
+							["school"] = 1,
+							["count"] = 8,
+							["hitmax"] = 601,
+							["hitamount"] = 2782,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 6066,
+							["id"] = 49921,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 6066,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 6066,
+							["school"] = 1,
+							["criticalmin"] = 6066,
+							["criticalmax"] = 6066,
+							["count"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1571,
+							["id"] = 55095,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 1571,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 5760,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1716,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 16,
+							["hitmax"] = 1920,
+							["amount"] = 9047,
+							["hitamount"] = 9047,
+						},
+						["Icy Touch"] = {
+							["criticalamount"] = 4395,
+							["id"] = 49909,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 4395,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 4395,
+							["school"] = 16,
+							["criticalmin"] = 4395,
+							["criticalmax"] = 4395,
+							["count"] = 1,
+						},
+					},
+					["absorb"] = 972,
+					["damagetaken"] = 15019,
+					["interrupt"] = 1,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 672,
+							["criticalamount"] = 1039,
+							["max"] = 1039,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 672,
+									["amount"] = 1039,
+								},
+							},
+							["min"] = 1039,
+							["criticalmax"] = 1039,
+							["critical"] = 1,
+							["amount"] = 1039,
+							["school"] = 1,
+							["criticalmin"] = 1039,
+							["count"] = 1,
+						},
+						[50475] = {
+							["overheal"] = 764,
+							["school"] = 1,
+							["count"] = 19,
+							["amount"] = 2106,
+							["max"] = 387,
+							["ishot"] = true,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 764,
+									["amount"] = 2106,
+								},
+							},
+							["min"] = 1,
+						},
+						[34299] = {
+							["overheal"] = 2669,
+							["school"] = 1,
+							["count"] = 3,
+							["amount"] = 1523,
+							["max"] = 1523,
+							["ishot"] = true,
+							["targets"] = {
+								["Earthbasher"] = {
+									["overheal"] = 1146,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 1523,
+									["amount"] = 1523,
+								},
+							},
+							["min"] = 1523,
+						},
+					},
+					["damagetakenspells"] = {
+						["Lightning Bolt"] = {
+							["hitmin"] = 3066,
+							["id"] = 59024,
+							["hitmax"] = 3066,
+							["amount"] = 3066,
+							["sources"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 3066,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 1313,
+							["MISS"] = 1,
+							["hitamount"] = 3066,
+						},
+						["Lightning Shield"] = {
+							["total"] = 1296,
+							["hitmin"] = 324,
+							["id"] = 59025,
+							["hitmax"] = 324,
+							["sources"] = {
+								["Dark Rune Elementalist"] = {
+									["total"] = 1296,
+									["amount"] = 324,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 144,
+							["amount"] = 324,
+							["hitamount"] = 324,
+						},
+						["Melee"] = {
+							["hitmin"] = 1797,
+							["id"] = 6603,
+							["sources"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 1797,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 4864,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1903,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 2585,
+							["amount"] = 8564,
+							["hitamount"] = 8564,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 3065,
+							["id"] = 59035,
+							["sources"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 3065,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3065,
+							["amount"] = 3065,
+							["hitamount"] = 3065,
+						},
+					},
+					["runic"] = 24,
+					["heal"] = 4668,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["overkill"] = 1884,
+					["overheal"] = 4105,
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[59024] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Dark Rune Elementalist"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[45334] = {
+							["count"] = 1,
+							["targets"] = {
+								["Dark Rune Warrior"] = 1,
+							},
+						},
+					},
+					["last"] = 5371.86,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 23,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[53307] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[6795] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Lesser Air Elemental"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[48568] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+								["Dark Rune Warrior"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 23,
+							["count"] = 1,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[9634] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[48564] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[45334] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[64951] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 14,
+						},
+						[17057] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 8,
+						},
+						[62606] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 4,
+							["uptime"] = 14,
+						},
+					},
+					["totaldamage"] = 17573,
+					["time"] = 14.6,
+					["totaldamagetaken"] = 3129,
+					["damage"] = 17573,
+					["rage"] = 43,
+					["overheal"] = 1513,
+					["damagetaken"] = 1708,
+					["damagetakenspells"] = {
+						["Lightning Bolt"] = {
+							["hitmin"] = 783,
+							["id"] = 15801,
+							["hitmax"] = 783,
+							["sources"] = {
+								["Lesser Air Elemental"] = {
+									["amount"] = 783,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 195,
+							["amount"] = 783,
+							["hitamount"] = 783,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 125,
+							["id"] = 6603,
+							["amount"] = 125,
+							["sources"] = {
+								["Lesser Air Elemental"] = {
+									["amount"] = 125,
+								},
+								["Dark Rune Elementalist"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 125,
+							["MISS"] = 1,
+							["hitamount"] = 125,
+						},
+						["Cleave"] = {
+							["total"] = 2221,
+							["hitmin"] = 800,
+							["id"] = 42724,
+							["sources"] = {
+								["Dark Rune Warrior"] = {
+									["total"] = 2221,
+									["amount"] = 800,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 800,
+							["amount"] = 800,
+							["hitamount"] = 800,
+						},
+					},
+					["id"] = "0x07000000008C6185",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 1513,
+							["school"] = 1,
+							["count"] = 2,
+							["amount"] = 1512,
+							["max"] = 1512,
+							["ishot"] = true,
+							["targets"] = {
+								["Thirial"] = {
+									["overheal"] = 1513,
+									["amount"] = 1512,
+								},
+							},
+							["min"] = 1512,
+						},
+					},
+					["overkill"] = 2280,
+					["ragespells"] = {
+						[17057] = 10,
+						[16959] = 30,
+						[59072] = 3,
+					},
+					["heal"] = 1512,
+					["manaspells"] = {
+						[68285] = 1452,
+					},
+					["ccdone"] = 1,
+					["name"] = "Thirial",
+					["mana"] = 1452,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 882,
+							["criticalamount"] = 3896,
+							["id"] = 6603,
+							["targets"] = {
+								["Lesser Air Elemental"] = {
+									["amount"] = 2196,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 2582,
+								},
+							},
+							["count"] = 3,
+							["glancing"] = 1,
+							["criticalmax"] = 2196,
+							["critical"] = 2,
+							["amount"] = 4778,
+							["school"] = 1,
+							["glancemax"] = 882,
+							["criticalmin"] = 1700,
+							["glancemin"] = 882,
+						},
+						["Mangle (Bear)"] = {
+							["criticalamount"] = 2882,
+							["id"] = 48564,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 2882,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 2882,
+							["school"] = 1,
+							["criticalmin"] = 2882,
+							["criticalmax"] = 2882,
+							["count"] = 1,
+						},
+						["Lacerate"] = {
+							["hitmin"] = 108,
+							["criticalamount"] = 496,
+							["id"] = 48568,
+							["criticalmin"] = 216,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 496,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 108,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["criticalmax"] = 280,
+							["hitmax"] = 108,
+							["amount"] = 604,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 2,
+							["hitamount"] = 108,
+						},
+						["Lacerate (DoT)"] = {
+							["hitmin"] = 147,
+							["criticalamount"] = 674,
+							["id"] = 48568,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 572,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 440,
+								},
+							},
+							["criticalmin"] = 293,
+							["count"] = 4,
+							["criticalmax"] = 381,
+							["critical"] = 2,
+							["amount"] = 1012,
+							["school"] = 1,
+							["hitmax"] = 191,
+							["hit"] = 2,
+							["hitamount"] = 338,
+						},
+						["Maul"] = {
+							["criticalmin"] = 3780,
+							["hitmin"] = 1981,
+							["criticalamount"] = 3780,
+							["id"] = 48480,
+							["critical"] = 1,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["overkill"] = 2280,
+									["amount"] = 6233,
+								},
+								["Lesser Air Elemental"] = {
+									["amount"] = 1981,
+								},
+							},
+							["overkill"] = 2280,
+							["amount"] = 8214,
+							["criticalmax"] = 3780,
+							["hitmax"] = 2453,
+							["hit"] = 2,
+							["school"] = 1,
+							["count"] = 3,
+							["casts"] = 2,
+							["hitamount"] = 4434,
+						},
+						["Thorns"] = {
+							["hitmin"] = 83,
+							["id"] = 53307,
+							["targets"] = {
+								["Lesser Air Elemental"] = {
+									["amount"] = 83,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 83,
+							["amount"] = 83,
+							["hitamount"] = 83,
+						},
+					},
+					["role"] = "TANK",
+				}, -- [2]
+				{
+					["last"] = 5376.316,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 23,
+							["count"] = 1,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[67358] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 23,
+						},
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 23,
+						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+					},
+					["role"] = "HEALER",
+					["time"] = 19,
+					["totaldamagetaken"] = 2807,
+					["overheal"] = 24197,
+					["damagetaken"] = 2807,
+					["id"] = "0x070000000095B7ED",
+					["spec"] = 105,
+					["healspells"] = {
+						[48441] = {
+							["overheal"] = 15971,
+							["max"] = 1943,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 5827,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 2993,
+									["amount"] = 10608,
+								},
+								["Miracledream"] = {
+									["overheal"] = 5208,
+									["amount"] = 2563,
+								},
+								["Thirial"] = {
+									["overheal"] = 1943,
+									["amount"] = 0,
+								},
+							},
+							["min"] = 620,
+							["casts"] = 4,
+							["count"] = 15,
+							["amount"] = 13171,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[53251] = {
+							["overheal"] = 8226,
+							["max"] = 777,
+							["count"] = 21,
+							["amount"] = 5682,
+							["school"] = 8,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 1830,
+									["amount"] = 2807,
+								},
+								["Miracledream"] = {
+									["overheal"] = 1760,
+									["amount"] = 2875,
+								},
+								["Berdanx"] = {
+									["overheal"] = 4636,
+									["amount"] = 0,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 592,
+						},
+					},
+					["damagetakenspells"] = {
+						["Lightning Bolt"] = {
+							["hitmin"] = 2807,
+							["id"] = 59024,
+							["hitmax"] = 2807,
+							["sources"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 2807,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 1203,
+							["amount"] = 2807,
+							["hitamount"] = 2807,
+						},
+					},
+					["runicspells"] = {
+						[48543] = 16,
+					},
+					["ragespells"] = {
+						[48541] = 12,
+					},
+					["name"] = "Tumbleweed",
+					["runic"] = 16,
+					["heal"] = 18853,
+					["rage"] = 12,
+					["manaspells"] = {
+						[48542] = 615,
+					},
+					["mana"] = 615,
+				}, -- [3]
+				{
+					["last"] = 5371.534000000001,
+					["flag"] = 1298,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 23,
+							["count"] = 1,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[14202] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[60065] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[23885] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 16,
+						},
+						[46916] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[12970] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 23,
+							["count"] = 1,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 3,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Dark Rune Warrior"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+					},
+					["totaldamage"] = 27338,
+					["time"] = 16.22,
+					["totaldamagetaken"] = 6776,
+					["damage"] = 27338,
+					["damagespells"] = {
+						["Bloodthirst"] = {
+							["hitmin"] = 1439,
+							["criticalamount"] = 4144,
+							["id"] = 23881,
+							["criticalmin"] = 4144,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 5583,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1552,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["criticalmax"] = 4144,
+							["hitmax"] = 1552,
+							["amount"] = 7135,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
+							["hitamount"] = 2991,
+						},
+						["Melee"] = {
+							["hitmin"] = 653,
+							["criticalamount"] = 6068,
+							["id"] = 6603,
+							["criticalmin"] = 1336,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 731,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 2963,
+								},
+								["Lesser Air Elemental"] = {
+									["overkill"] = 1988,
+									["amount"] = 3338,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 2581,
+								},
+							},
+							["overkill"] = 1988,
+							["count"] = 7,
+							["criticalmax"] = 3338,
+							["critical"] = 3,
+							["amount"] = 9613,
+							["school"] = 1,
+							["hitmax"] = 1187,
+							["hit"] = 4,
+							["hitamount"] = 3545,
+						},
+						["Cleave"] = {
+							["criticalamount"] = 6049,
+							["id"] = 47520,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 3038,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 3011,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 6049,
+							["school"] = 1,
+							["criticalmin"] = 3011,
+							["criticalmax"] = 3038,
+							["count"] = 2,
+						},
+						["Whirlwind"] = {
+							["hitmin"] = 853,
+							["criticalamount"] = 2794,
+							["id"] = 1680,
+							["criticalmin"] = 2794,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 3647,
+								},
+							},
+							["critical"] = 1,
+							["amount"] = 3647,
+							["criticalmax"] = 2794,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 853,
+							["casts"] = 1,
+							["hitamount"] = 853,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 144,
+							["id"] = 12721,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 750,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 144,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 188,
+							["amount"] = 894,
+							["hitamount"] = 894,
+						},
+					},
+					["damagetaken"] = 6776,
+					["id"] = "0x07000000009A86E7",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 446,
+							["count"] = 8,
+							["amount"] = 1338,
+							["school"] = 1,
+							["max"] = 223,
+							["targets"] = {
+								["Miracledream"] = {
+									["overheal"] = 446,
+									["amount"] = 1338,
+								},
+							},
+							["min"] = 223,
+						},
+					},
+					["damagetakenspells"] = {
+						["Lightning Bolt"] = {
+							["hitmin"] = 3599,
+							["id"] = 59024,
+							["hitmax"] = 3599,
+							["sources"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 3599,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 899,
+							["amount"] = 3599,
+							["hitamount"] = 3599,
+						},
+						["Melee"] = {
+							["hitmin"] = 3177,
+							["id"] = 6603,
+							["hitmax"] = 3177,
+							["sources"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 3177,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 3177,
+							["MISS"] = 1,
+							["hitamount"] = 3177,
+						},
+					},
+					["ragespells"] = {
+						[12964] = 5,
+					},
+					["name"] = "Miracledream",
+					["overheal"] = 446,
+					["overkill"] = 1988,
+					["heal"] = 1338,
+					["rage"] = 5,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 5000,
+							["id"] = 42833,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 5000,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 5000,
+							["amount"] = 5000,
+							["hitamount"] = 5000,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 298,
+							["id"] = 12654,
+							["targets"] = {
+								["Lesser Air Elemental"] = {
+									["amount"] = 298,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 674,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 337,
+							["amount"] = 972,
+							["hitamount"] = 972,
+						},
+						["Living Bomb (DoT)"] = {
+							["hitmin"] = 965,
+							["criticalamount"] = 4872,
+							["id"] = 55360,
+							["criticalmin"] = 1494,
+							["targets"] = {
+								["Lesser Air Elemental"] = {
+									["amount"] = 1494,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 3621,
+								},
+								["Dark Rune Elementalist"] = {
+									["amount"] = 2654,
+								},
+							},
+							["critical"] = 3,
+							["amount"] = 7769,
+							["casts"] = 3,
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 966,
+							["criticalmax"] = 1689,
+							["hitamount"] = 2897,
+						},
+						["Scorch"] = {
+							["hitmin"] = 1760,
+							["id"] = 42859,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 1760,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 1760,
+							["amount"] = 1760,
+							["hitamount"] = 1760,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 2655,
+							["id"] = 42873,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 2655,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 2655,
+							["amount"] = 2655,
+							["hitamount"] = 2655,
+						},
+					},
+					["last"] = 5371.742,
+					["flag"] = 1298,
+					["mana"] = 195,
+					["class"] = "MAGE",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 23,
+							["count"] = 1,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[57073] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["targets"] = {
+								["Lesser Air Elemental"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Dark Rune Warrior"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 15,
+						},
+						[54648] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 17,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 23,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 4,
+							["targets"] = {
+								["Lesser Air Elemental"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Dark Rune Warrior"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+					},
+					["id"] = "0x07000000009E540C",
+					["totaldamage"] = 18156,
+					["name"] = "Berdanx",
+					["spec"] = 63,
+					["time"] = 13.65,
+					["role"] = "DAMAGER",
+					["manaspells"] = {
+						[67545] = 195,
+					},
+					["damage"] = 18156,
+				}, -- [5]
+			},
 			["mana"] = 2262,
-			["runic"] = 40,
+			["rage"] = 60,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -3305,8 +5163,8 @@ SkadaStorageDB = {
 							["amount"] = 1552,
 						},
 					},
-					["name"] = "Dark Rune Theurgist",
 					["totaldamage"] = 1903,
+					["name"] = "Dark Rune Theurgist",
 					["totaldamagetaken"] = 51109,
 					["id"] = "0xF130006D3B000011",
 					["damage"] = 1903,
@@ -3621,8 +5479,8 @@ SkadaStorageDB = {
 							["amount"] = 5534,
 						},
 					},
-					["name"] = "Lesser Air Elemental",
 					["totaldamage"] = 908,
+					["name"] = "Lesser Air Elemental",
 					["totaldamagetaken"] = 14588,
 					["id"] = "0xF130006EE00000D1",
 					["damage"] = 908,
@@ -3631,1777 +5489,14 @@ SkadaStorageDB = {
 			["etotaldamagetaken"] = 195152,
 			["totaldamage"] = 195152,
 			["time"] = 23,
-			["rage"] = 60,
+			["overheal"] = 30261,
 			["totaldamagetaken"] = 28703,
 			["etotaldamage"] = 28703,
 			["last_time"] = 5376.316,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Dark Rune Theurgist"] = 1,
-							},
-						},
-					},
-					["last"] = 5371.132000000001,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 23,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 23,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 5,
-							["school"] = 1,
-							["uptime"] = 21,
-						},
-						[45529] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[71560] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 4,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 1,
-							["school"] = 1,
-							["uptime"] = 23,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 15,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Lesser Air Elemental"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Dark Rune Warrior"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 6,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Dark Rune Warrior"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[48707] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 5,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Dark Rune Warrior"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Lesser Air Elemental"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Dark Rune Warrior"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Lesser Air Elemental"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Dark Rune Warrior"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Lesser Air Elemental"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Dark Rune Theurgist"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 20,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[54646] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-					},
-					["absorbspells"] = {
-						[48707] = {
-							["min"] = 972,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 972,
-							["school"] = 32,
-							["targets"] = {
-								["Urgash"] = 972,
-							},
-							["max"] = 972,
-						},
-					},
-					["time"] = 17.37,
-					["totaldamage"] = 132085,
-					["interrupt"] = 1,
-					["totaldamagetaken"] = 15991,
-					["runicspells"] = {
-						[49088] = 14,
-						[45529] = 10,
-					},
-					["damage"] = 132085,
-					["damagespells"] = {
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 4424,
-							["id"] = 70890,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 4424,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 4424,
-							["amount"] = 4424,
-							["hitamount"] = 4424,
-						},
-						["Scourge Strike"] = {
-							["criticalamount"] = 8702,
-							["id"] = 55271,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 8702,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 8702,
-							["school"] = 1,
-							["criticalmin"] = 8702,
-							["criticalmax"] = 8702,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["hitmin"] = 2819,
-							["criticalamount"] = 28241,
-							["id"] = 6603,
-							["criticalmin"] = 6130,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 9808,
-								},
-								["Dark Rune Warrior"] = {
-									["overkill"] = 1175,
-									["amount"] = 13076,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 15799,
-								},
-							},
-							["overkill"] = 1175,
-							["critical"] = 4,
-							["criticalmax"] = 8176,
-							["count"] = 7,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 3953,
-							["amount"] = 38683,
-							["hitamount"] = 10442,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 1398,
-							["id"] = 71904,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1603,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 1398,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1603,
-							["amount"] = 3001,
-							["hitamount"] = 3001,
-						},
-						["Icy Touch"] = {
-							["criticalamount"] = 4395,
-							["id"] = 49909,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 4395,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4395,
-							["school"] = 16,
-							["criticalmin"] = 4395,
-							["criticalmax"] = 4395,
-							["count"] = 1,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 41,
-							["id"] = 50536,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 287,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["hitmax"] = 41,
-							["amount"] = 287,
-							["hitamount"] = 287,
-						},
-						["Claw (Earthbasher)"] = {
-							["criticalmax"] = 1756,
-							["hitmin"] = 725,
-							["criticalamount"] = 1756,
-							["id"] = 47468,
-							["criticalmin"] = 1756,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 1464,
-								},
-								["Dark Rune Theurgist"] = {
-									["overkill"] = 709,
-									["amount"] = 3537,
-								},
-							},
-							["overkill"] = 709,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 917,
-							["amount"] = 5001,
-							["hitamount"] = 3245,
-						},
-						["Death and Decay"] = {
-							["hitmin"] = 662,
-							["criticalamount"] = 6392,
-							["id"] = 52212,
-							["hitmax"] = 824,
-							["targets"] = {
-								["Lesser Air Elemental"] = {
-									["amount"] = 5198,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 5173,
-								},
-								["Dark Rune Elementalist"] = {
-									["amount"] = 7516,
-								},
-							},
-							["count"] = 19,
-							["hit"] = 15,
-							["casts"] = 1,
-							["critical"] = 4,
-							["amount"] = 17887,
-							["school"] = 32,
-							["criticalmin"] = 1383,
-							["criticalmax"] = 1806,
-							["hitamount"] = 11495,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1137,
-							["id"] = 50526,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 1137,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 1394,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1394,
-							["amount"] = 2531,
-							["hitamount"] = 2531,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 563,
-							["id"] = 51460,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 1960,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 1389,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 3159,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 1635,
-							["amount"] = 6508,
-							["hitamount"] = 6508,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1202,
-							["id"] = 55078,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 1202,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 4401,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1443,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["hitmax"] = 1467,
-							["amount"] = 7046,
-							["hitamount"] = 7046,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 3664,
-							["id"] = 47632,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 3664,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 4109,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 4109,
-							["amount"] = 7773,
-							["hitamount"] = 7773,
-						},
-						["Melee (Earthbasher)"] = {
-							["glance"] = 490,
-							["hitmin"] = 489,
-							["criticalmin"] = 1184,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 1476,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 4166,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 5642,
-							["glancemin"] = 490,
-							["criticalamount"] = 2370,
-							["id"] = 6603,
-							["glancemax"] = 490,
-							["criticalmax"] = 1186,
-							["critical"] = 2,
-							["hit"] = 5,
-							["school"] = 1,
-							["count"] = 8,
-							["hitmax"] = 601,
-							["hitamount"] = 2782,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 6066,
-							["id"] = 49921,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 6066,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 6066,
-							["school"] = 1,
-							["criticalmin"] = 6066,
-							["criticalmax"] = 6066,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1571,
-							["id"] = 55095,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 1571,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 5760,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1716,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 16,
-							["hitmax"] = 1920,
-							["amount"] = 9047,
-							["hitamount"] = 9047,
-						},
-						["Blood-Caked Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2541,
-							["id"] = 50463,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 5092,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2551,
-							["amount"] = 5092,
-							["hitamount"] = 5092,
-						},
-					},
-					["absorb"] = 972,
-					["damagetaken"] = 15019,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[53365] = {
-							["overheal"] = 672,
-							["criticalamount"] = 1039,
-							["max"] = 1039,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 672,
-									["amount"] = 1039,
-								},
-							},
-							["min"] = 1039,
-							["criticalmax"] = 1039,
-							["critical"] = 1,
-							["amount"] = 1039,
-							["school"] = 1,
-							["criticalmin"] = 1039,
-							["count"] = 1,
-						},
-						[50475] = {
-							["overheal"] = 764,
-							["max"] = 387,
-							["count"] = 19,
-							["amount"] = 2106,
-							["school"] = 1,
-							["min"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 764,
-									["amount"] = 2106,
-								},
-							},
-						},
-						[34299] = {
-							["overheal"] = 2669,
-							["max"] = 1523,
-							["count"] = 3,
-							["amount"] = 1523,
-							["school"] = 1,
-							["min"] = 1523,
-							["ishot"] = true,
-							["targets"] = {
-								["Earthbasher"] = {
-									["overheal"] = 1146,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 1523,
-									["amount"] = 1523,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Lightning Bolt"] = {
-							["hitmin"] = 3066,
-							["id"] = 59024,
-							["amount"] = 3066,
-							["hitmax"] = 3066,
-							["sources"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 3066,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 1313,
-							["MISS"] = 1,
-							["hitamount"] = 3066,
-						},
-						["Lightning Shield"] = {
-							["total"] = 1296,
-							["hitmin"] = 324,
-							["id"] = 59025,
-							["hitmax"] = 324,
-							["sources"] = {
-								["Dark Rune Elementalist"] = {
-									["total"] = 1296,
-									["amount"] = 324,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 144,
-							["amount"] = 324,
-							["hitamount"] = 324,
-						},
-						["Melee"] = {
-							["hitmin"] = 1797,
-							["id"] = 6603,
-							["sources"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 1797,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 4864,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1903,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2585,
-							["amount"] = 8564,
-							["hitamount"] = 8564,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 3065,
-							["id"] = 59035,
-							["sources"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 3065,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3065,
-							["amount"] = 3065,
-							["hitamount"] = 3065,
-						},
-					},
-					["runic"] = 24,
-					["heal"] = 4668,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 1884,
-					["overheal"] = 4105,
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[59024] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Dark Rune Elementalist"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["ccdonespells"] = {
-						[45334] = {
-							["count"] = 1,
-							["targets"] = {
-								["Dark Rune Warrior"] = 1,
-							},
-						},
-					},
-					["last"] = 5371.86,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 23,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[6795] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Lesser Air Elemental"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[48568] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 8,
-								},
-								["Dark Rune Warrior"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 23,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[9634] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 18,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[48564] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 8,
-						},
-						[45334] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[64951] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 14,
-						},
-						[17057] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[62606] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 4,
-							["uptime"] = 14,
-						},
-					},
-					["time"] = 14.6,
-					["overkill"] = 2280,
-					["totaldamagetaken"] = 3129,
-					["heal"] = 1512,
-					["damage"] = 17573,
-					["rage"] = 43,
-					["overheal"] = 1513,
-					["damagetaken"] = 1708,
-					["id"] = "0x07000000008C6185",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 1513,
-							["max"] = 1512,
-							["count"] = 2,
-							["amount"] = 1512,
-							["school"] = 1,
-							["min"] = 1512,
-							["ishot"] = true,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 1513,
-									["amount"] = 1512,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Lightning Bolt"] = {
-							["hitmin"] = 783,
-							["id"] = 15801,
-							["hitmax"] = 783,
-							["sources"] = {
-								["Lesser Air Elemental"] = {
-									["amount"] = 783,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 195,
-							["amount"] = 783,
-							["hitamount"] = 783,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 125,
-							["id"] = 6603,
-							["amount"] = 125,
-							["sources"] = {
-								["Lesser Air Elemental"] = {
-									["amount"] = 125,
-								},
-								["Dark Rune Elementalist"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 125,
-							["MISS"] = 1,
-							["hitamount"] = 125,
-						},
-						["Cleave"] = {
-							["total"] = 2221,
-							["hitmin"] = 800,
-							["id"] = 42724,
-							["sources"] = {
-								["Dark Rune Warrior"] = {
-									["total"] = 2221,
-									["amount"] = 800,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 800,
-							["amount"] = 800,
-							["hitamount"] = 800,
-						},
-					},
-					["manaspells"] = {
-						[68285] = 1452,
-					},
-					["ragespells"] = {
-						[17057] = 10,
-						[16959] = 30,
-						[59072] = 3,
-					},
-					["name"] = "Thirial",
-					["ccdone"] = 1,
-					["mana"] = 1452,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 882,
-							["criticalamount"] = 3896,
-							["id"] = 6603,
-							["targets"] = {
-								["Lesser Air Elemental"] = {
-									["amount"] = 2196,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 2582,
-								},
-							},
-							["count"] = 3,
-							["glancing"] = 1,
-							["criticalmax"] = 2196,
-							["critical"] = 2,
-							["amount"] = 4778,
-							["school"] = 1,
-							["glancemax"] = 882,
-							["criticalmin"] = 1700,
-							["glancemin"] = 882,
-						},
-						["Mangle (Bear)"] = {
-							["criticalamount"] = 2882,
-							["id"] = 48564,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 2882,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2882,
-							["school"] = 1,
-							["criticalmin"] = 2882,
-							["criticalmax"] = 2882,
-							["count"] = 1,
-						},
-						["Lacerate"] = {
-							["hitmin"] = 108,
-							["criticalamount"] = 496,
-							["id"] = 48568,
-							["criticalmin"] = 216,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 496,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 108,
-								},
-							},
-							["criticalmax"] = 280,
-							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 108,
-							["amount"] = 604,
-							["hitamount"] = 108,
-						},
-						["Lacerate (DoT)"] = {
-							["hitmin"] = 147,
-							["criticalamount"] = 674,
-							["id"] = 48568,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 572,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 440,
-								},
-							},
-							["criticalmin"] = 293,
-							["critical"] = 2,
-							["criticalmax"] = 381,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 191,
-							["amount"] = 1012,
-							["hitamount"] = 338,
-						},
-						["Maul"] = {
-							["count"] = 3,
-							["hitmin"] = 1981,
-							["criticalamount"] = 3780,
-							["id"] = 48480,
-							["hitmax"] = 2453,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["overkill"] = 2280,
-									["amount"] = 6233,
-								},
-								["Lesser Air Elemental"] = {
-									["amount"] = 1981,
-								},
-							},
-							["overkill"] = 2280,
-							["hit"] = 2,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 8214,
-							["school"] = 1,
-							["criticalmin"] = 3780,
-							["criticalmax"] = 3780,
-							["hitamount"] = 4434,
-						},
-						["Thorns"] = {
-							["hitmin"] = 83,
-							["id"] = 53307,
-							["targets"] = {
-								["Lesser Air Elemental"] = {
-									["amount"] = 83,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 83,
-							["amount"] = 83,
-							["hitamount"] = 83,
-						},
-					},
-					["totaldamage"] = 17573,
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 5376.316,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[33891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 23,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[48422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 12,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[67358] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 2,
-							["school"] = 8,
-							["uptime"] = 23,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 23,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 19,
-					["totaldamagetaken"] = 2807,
-					["ragespells"] = {
-						[48541] = 12,
-					},
-					["overheal"] = 24197,
-					["runicspells"] = {
-						[48543] = 16,
-					},
-					["damagetaken"] = 2807,
-					["id"] = "0x070000000095B7ED",
-					["spec"] = 105,
-					["healspells"] = {
-						[48441] = {
-							["overheal"] = 15971,
-							["max"] = 1943,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 5827,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 2993,
-									["amount"] = 10608,
-								},
-								["Miracledream"] = {
-									["overheal"] = 5208,
-									["amount"] = 2563,
-								},
-								["Thirial"] = {
-									["overheal"] = 1943,
-									["amount"] = 0,
-								},
-							},
-							["min"] = 620,
-							["casts"] = 4,
-							["count"] = 15,
-							["amount"] = 13171,
-							["school"] = 8,
-							["ishot"] = true,
-						},
-						[53251] = {
-							["overheal"] = 8226,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 1830,
-									["amount"] = 2807,
-								},
-								["Miracledream"] = {
-									["overheal"] = 1760,
-									["amount"] = 2875,
-								},
-								["Berdanx"] = {
-									["overheal"] = 4636,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 5682,
-							["school"] = 8,
-							["max"] = 777,
-							["ishot"] = true,
-							["min"] = 592,
-						},
-					},
-					["damagetakenspells"] = {
-						["Lightning Bolt"] = {
-							["hitmin"] = 2807,
-							["id"] = 59024,
-							["hitmax"] = 2807,
-							["sources"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 2807,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 1203,
-							["amount"] = 2807,
-							["hitamount"] = 2807,
-						},
-					},
-					["runic"] = 16,
-					["heal"] = 18853,
-					["name"] = "Tumbleweed",
-					["rage"] = 12,
-					["manaspells"] = {
-						[48542] = 615,
-					},
-					["mana"] = 615,
-				}, -- [3]
-				{
-					["last"] = 5371.534000000001,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 23,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[60065] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[14202] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[23885] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 16,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 15,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 23,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Dark Rune Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 3,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-					},
-					["time"] = 16.22,
-					["totaldamagetaken"] = 6776,
-					["damage"] = 27338,
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1439,
-							["criticalamount"] = 4144,
-							["id"] = 23881,
-							["criticalmin"] = 4144,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 5583,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1552,
-								},
-							},
-							["criticalmax"] = 4144,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1552,
-							["amount"] = 7135,
-							["hitamount"] = 2991,
-						},
-						["Melee"] = {
-							["hitmin"] = 653,
-							["criticalamount"] = 6068,
-							["id"] = 6603,
-							["criticalmin"] = 1336,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 731,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 2963,
-								},
-								["Lesser Air Elemental"] = {
-									["overkill"] = 1988,
-									["amount"] = 3338,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 2581,
-								},
-							},
-							["overkill"] = 1988,
-							["critical"] = 3,
-							["criticalmax"] = 3338,
-							["count"] = 7,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1187,
-							["amount"] = 9613,
-							["hitamount"] = 3545,
-						},
-						["Cleave"] = {
-							["criticalamount"] = 6049,
-							["id"] = 47520,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 3038,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 3011,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 6049,
-							["school"] = 1,
-							["criticalmin"] = 3011,
-							["criticalmax"] = 3038,
-							["count"] = 2,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 853,
-							["criticalamount"] = 2794,
-							["id"] = 1680,
-							["hitmax"] = 853,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 3647,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3647,
-							["school"] = 1,
-							["criticalmin"] = 2794,
-							["criticalmax"] = 2794,
-							["hitamount"] = 853,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 144,
-							["id"] = 12721,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 750,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 144,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 188,
-							["amount"] = 894,
-							["hitamount"] = 894,
-						},
-					},
-					["overheal"] = 446,
-					["damagetaken"] = 6776,
-					["id"] = "0x07000000009A86E7",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 446,
-							["count"] = 8,
-							["amount"] = 1338,
-							["school"] = 1,
-							["max"] = 223,
-							["targets"] = {
-								["Miracledream"] = {
-									["overheal"] = 446,
-									["amount"] = 1338,
-								},
-							},
-							["min"] = 223,
-						},
-					},
-					["damagetakenspells"] = {
-						["Lightning Bolt"] = {
-							["hitmin"] = 3599,
-							["id"] = 59024,
-							["hitmax"] = 3599,
-							["sources"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 3599,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 899,
-							["amount"] = 3599,
-							["hitamount"] = 3599,
-						},
-						["Melee"] = {
-							["hitmin"] = 3177,
-							["id"] = 6603,
-							["hitmax"] = 3177,
-							["sources"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 3177,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 3177,
-							["MISS"] = 1,
-							["hitamount"] = 3177,
-						},
-					},
-					["overkill"] = 1988,
-					["ragespells"] = {
-						[12964] = 5,
-					},
-					["name"] = "Miracledream",
-					["heal"] = 1338,
-					["rage"] = 5,
-					["totaldamage"] = 27338,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 5000,
-							["id"] = 42833,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 5000,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 5000,
-							["amount"] = 5000,
-							["hitamount"] = 5000,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 298,
-							["id"] = 12654,
-							["targets"] = {
-								["Lesser Air Elemental"] = {
-									["amount"] = 298,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 674,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 337,
-							["amount"] = 972,
-							["hitamount"] = 972,
-						},
-						["Living Bomb (DoT)"] = {
-							["hitmin"] = 965,
-							["criticalamount"] = 4872,
-							["id"] = 55360,
-							["hitmax"] = 966,
-							["targets"] = {
-								["Lesser Air Elemental"] = {
-									["amount"] = 1494,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 3621,
-								},
-								["Dark Rune Elementalist"] = {
-									["amount"] = 2654,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 3,
-							["criticalmax"] = 1689,
-							["critical"] = 3,
-							["amount"] = 7769,
-							["school"] = 4,
-							["casts"] = 3,
-							["criticalmin"] = 1494,
-							["hitamount"] = 2897,
-						},
-						["Scorch"] = {
-							["hitmin"] = 1760,
-							["id"] = 42859,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 1760,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1760,
-							["amount"] = 1760,
-							["hitamount"] = 1760,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 2655,
-							["id"] = 42873,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 2655,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 2655,
-							["amount"] = 2655,
-							["hitamount"] = 2655,
-						},
-					},
-					["last"] = 5371.742,
-					["mana"] = 195,
-					["manaspells"] = {
-						[67545] = 195,
-					},
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["id"] = "0x07000000009E540C",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 23,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[57073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["targets"] = {
-								["Lesser Air Elemental"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Dark Rune Warrior"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 4,
-							["targets"] = {
-								["Lesser Air Elemental"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Dark Rune Warrior"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[54648] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 64,
-							["uptime"] = 17,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[22959] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 23,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-					},
-					["spec"] = 63,
-					["time"] = 13.65,
-					["totaldamage"] = 18156,
-					["role"] = "DAMAGER",
-					["name"] = "Berdanx",
-					["damage"] = 18156,
-				}, -- [5]
-			},
-			["type"] = "party",
+			["runic"] = 40,
+			["absorb"] = 972,
 			["damagetaken"] = 26310,
+			["ccdone"] = 2,
 			["interrupt"] = 1,
 			["starttime"] = 1699557860,
 			["damage"] = 195152,
@@ -5410,12 +5505,12 @@ SkadaStorageDB = {
 			["heal"] = 26371,
 			["name"] = "Dark Rune Theurgist (2)",
 			["mobname"] = "Dark Rune Theurgist",
+			["type"] = "party",
 			["edamage"] = 26310,
 			["last_action"] = 1699557882,
 			["endtime"] = 1699557883,
-		}, -- [2]
+		}, -- [3]
 		{
-			["overheal"] = 21572,
 			["mana"] = 1247,
 			["enemies"] = {
 				{
@@ -5698,8 +5793,8 @@ SkadaStorageDB = {
 							["amount"] = 2562,
 						},
 					},
-					["name"] = "Dark Rune Giant",
 					["totaldamage"] = 10851,
+					["name"] = "Dark Rune Giant",
 					["totaldamagetaken"] = 134221,
 					["id"] = "0xF130006D4100001A",
 					["damage"] = 10851,
@@ -5707,10 +5802,13 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 134221,
 			["time"] = 14,
-			["runic"] = 16,
+			["overheal"] = 21572,
 			["totaldamagetaken"] = 10851,
 			["etotaldamagetaken"] = 134221,
 			["last_time"] = 5349.232,
+			["runic"] = 16,
+			["type"] = "party",
+			["damagetaken"] = 10851,
 			["players"] = {
 				{
 					["last"] = 5346.678,
@@ -5718,9 +5816,9 @@ SkadaStorageDB = {
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
 						[24932] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 14,
 						},
 						[48470] = {
@@ -5729,15 +5827,15 @@ SkadaStorageDB = {
 							["uptime"] = 14,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 						[70657] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[55078] = {
@@ -5753,9 +5851,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[34123] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 7,
 						},
 						[71905] = {
@@ -5771,9 +5869,9 @@ SkadaStorageDB = {
 							["uptime"] = 14,
 						},
 						[71227] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 3,
 						},
 						[51735] = {
@@ -5783,8 +5881,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 10,
 								},
 							},
@@ -5795,10 +5893,9 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[53365] = {
+						[75456] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 4,
 						},
 						[47436] = {
@@ -5806,10 +5903,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[75456] = {
+						[71560] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 7,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -5818,18 +5916,18 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 10,
 								},
 							},
 							["uptime"] = 10,
 						},
-						[71560] = {
+						[53365] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 4,
 						},
 						[50536] = {
 							["type"] = "DEBUFF",
@@ -5854,15 +5952,15 @@ SkadaStorageDB = {
 							["uptime"] = 14,
 						},
 						[49222] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 8,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 9,
 						},
 						[66803] = {
@@ -5880,6 +5978,7 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 					},
+					["totaldamage"] = 70100,
 					["time"] = 11.23,
 					["totaldamagetaken"] = 8729,
 					["damage"] = 70100,
@@ -5976,20 +6075,20 @@ SkadaStorageDB = {
 							["hitmin"] = 780,
 							["criticalamount"] = 1430,
 							["id"] = 47468,
-							["hitmax"] = 780,
+							["criticalmin"] = 1430,
 							["targets"] = {
 								["Dark Rune Giant"] = {
 									["amount"] = 2210,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 2210,
-							["school"] = 1,
-							["criticalmin"] = 1430,
 							["criticalmax"] = 1430,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 780,
+							["casts"] = 1,
 							["hitamount"] = 780,
 						},
 						["Blood-Caked Strike"] = {
@@ -6061,10 +6160,10 @@ SkadaStorageDB = {
 							["hitmin"] = 534,
 							["id"] = 6603,
 							["glancemax"] = 423,
-							["hitmax"] = 534,
-							["glancing"] = 1,
 							["hitamount"] = 534,
+							["glancing"] = 1,
 							["count"] = 2,
+							["hitmax"] = 534,
 							["amount"] = 957,
 							["school"] = 1,
 							["hit"] = 1,
@@ -6147,6 +6246,10 @@ SkadaStorageDB = {
 						},
 						[34299] = {
 							["overheal"] = 2325,
+							["max"] = 1523,
+							["count"] = 3,
+							["amount"] = 1866,
+							["school"] = 1,
 							["targets"] = {
 								["Earthbasher"] = {
 									["overheal"] = 803,
@@ -6157,20 +6260,15 @@ SkadaStorageDB = {
 									["amount"] = 1523,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 1866,
-							["school"] = 1,
-							["max"] = 1523,
 							["ishot"] = true,
 							["min"] = 343,
 						},
 						[50475] = {
 							["overheal"] = 577,
-							["max"] = 293,
+							["school"] = 1,
 							["count"] = 15,
 							["amount"] = 1545,
-							["school"] = 1,
-							["min"] = 1,
+							["max"] = 293,
 							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
@@ -6178,6 +6276,7 @@ SkadaStorageDB = {
 									["amount"] = 1545,
 								},
 							},
+							["min"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -6217,7 +6316,6 @@ SkadaStorageDB = {
 					["name"] = "Urgash",
 					["overkill"] = 3891,
 					["overheal"] = 2902,
-					["totaldamage"] = 70100,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -6247,11 +6345,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[48441] = {
+						[64951] = {
 							["type"] = "BUFF",
-							["count"] = 2,
+							["count"] = 1,
 							["school"] = 8,
-							["uptime"] = 13,
+							["refresh"] = 1,
+							["uptime"] = 10,
 						},
 						[57623] = {
 							["type"] = "BUFF",
@@ -6270,19 +6369,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 7,
 								},
 							},
 							["uptime"] = 7,
 						},
-						[64951] = {
+						[53307] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 14,
 						},
 						[48568] = {
 							["type"] = "DEBUFF",
@@ -6291,8 +6388,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 9,
 								},
 							},
@@ -6315,7 +6412,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[53307] = {
+						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -6325,17 +6422,55 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[24932] = {
+						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
+							["count"] = 2,
+							["uptime"] = 13,
 						},
 					},
 					["role"] = "TANK",
 					["time"] = 9.44,
 					["totaldamagetaken"] = 2122,
-					["overheal"] = 1334,
 					["damage"] = 15121,
+					["overheal"] = 1334,
+					["damagetaken"] = 2122,
+					["id"] = "0x07000000008C6185",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 1334,
+							["max"] = 179,
+							["count"] = 1,
+							["amount"] = 179,
+							["school"] = 1,
+							["targets"] = {
+								["Thirial"] = {
+									["overheal"] = 1334,
+									["amount"] = 179,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 179,
+						},
+					},
+					["damagetakenspells"] = {
+						["Stomp"] = {
+							["hitmin"] = 2122,
+							["id"] = 59026,
+							["sources"] = {
+								["Dark Rune Giant"] = {
+									["amount"] = 2122,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2122,
+							["amount"] = 2122,
+							["hitamount"] = 2122,
+						},
+					},
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 853,
@@ -6377,14 +6512,14 @@ SkadaStorageDB = {
 									["amount"] = 763,
 								},
 							},
-							["hitmax"] = 381,
-							["count"] = 2,
-							["criticalmax"] = 382,
+							["criticalmin"] = 382,
 							["critical"] = 1,
+							["criticalmax"] = 382,
+							["count"] = 2,
 							["amount"] = 763,
 							["school"] = 1,
 							["hit"] = 1,
-							["criticalmin"] = 382,
+							["hitmax"] = 381,
 							["hitamount"] = 381,
 						},
 						["Maul"] = {
@@ -6397,14 +6532,14 @@ SkadaStorageDB = {
 									["amount"] = 8978,
 								},
 							},
-							["criticalmax"] = 4782,
-							["critical"] = 1,
 							["casts"] = 3,
 							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 4782,
 							["hitmax"] = 2387,
 							["amount"] = 8978,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 4196,
 						},
 						["Mangle (Bear)"] = {
@@ -6417,60 +6552,23 @@ SkadaStorageDB = {
 									["amount"] = 4283,
 								},
 							},
-							["criticalmax"] = 2834,
-							["critical"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 2834,
 							["hitmax"] = 1449,
 							["amount"] = 4283,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 1449,
 						},
 					},
 					["ragespells"] = {
 						[16959] = 10,
 					},
-					["damagetaken"] = 2122,
-					["id"] = "0x07000000008C6185",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 1334,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 1334,
-									["amount"] = 179,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 179,
-							["school"] = 1,
-							["max"] = 179,
-							["ishot"] = true,
-							["min"] = 179,
-						},
-					},
-					["damagetakenspells"] = {
-						["Stomp"] = {
-							["hitmin"] = 2122,
-							["id"] = 59026,
-							["sources"] = {
-								["Dark Rune Giant"] = {
-									["amount"] = 2122,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2122,
-							["amount"] = 2122,
-							["hitamount"] = 2122,
-						},
-					},
+					["name"] = "Thirial",
 					["rage"] = 10,
 					["heal"] = 179,
-					["name"] = "Thirial",
 					["manaspells"] = {
 						[68285] = 726,
 					},
@@ -6478,73 +6576,12 @@ SkadaStorageDB = {
 					["totaldamage"] = 15121,
 				}, -- [2]
 				{
-					["last"] = 5346.175,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[33891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 2,
-						},
-						[60062] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[67358] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 1,
-							["school"] = 8,
-							["uptime"] = 14,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["time"] = 9.969999999999999,
 					["rage"] = 4,
+					["last"] = 5346.175,
 					["id"] = "0x070000000095B7ED",
 					["spec"] = 105,
+					["flag"] = 1298,
+					["class"] = "DRUID",
 					["healspells"] = {
 						[48443] = {
 							["overheal"] = 5400,
@@ -6580,17 +6617,78 @@ SkadaStorageDB = {
 							["ishot"] = true,
 						},
 					},
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[16870] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[60062] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[67358] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 14,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
 					["runicspells"] = {
 						[48543] = 16,
 					},
-					["heal"] = 5893,
+					["role"] = "HEALER",
+					["time"] = 9.969999999999999,
 					["name"] = "Tumbleweed",
 					["overheal"] = 16515,
+					["heal"] = 5893,
 					["runic"] = 16,
 					["ragespells"] = {
 						[48541] = 4,
 					},
-					["role"] = "HEALER",
 				}, -- [3]
 				{
 					["last"] = 5345.816,
@@ -6602,21 +6700,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[47436] = {
+						[46916] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 4,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 13,
 						},
 						[57623] = {
 							["type"] = "BUFF",
@@ -6630,27 +6730,26 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["targets"] = {
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 4,
+									["count"] = 1,
 									["uptime"] = 6,
 								},
 							},
 							["uptime"] = 6,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 7,
 						},
-						[12970] = {
+						[47436] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 2,
-							["school"] = 1,
-							["uptime"] = 13,
+							["count"] = 1,
+							["uptime"] = 14,
 						},
 					},
+					["totaldamage"] = 16693,
 					["time"] = 10.36,
 					["damage"] = 16693,
 					["overheal"] = 821,
@@ -6675,8 +6774,8 @@ SkadaStorageDB = {
 					["ragespells"] = {
 						[12964] = 1,
 					},
-					["heal"] = 517,
 					["name"] = "Miracledream",
+					["heal"] = 517,
 					["rage"] = 1,
 					["damagespells"] = {
 						["Bloodthirst"] = {
@@ -6689,14 +6788,14 @@ SkadaStorageDB = {
 									["amount"] = 4534,
 								},
 							},
-							["criticalmax"] = 3117,
-							["critical"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 3117,
 							["hitmax"] = 1417,
 							["amount"] = 4534,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 1417,
 						},
 						["Melee"] = {
@@ -6752,24 +6851,24 @@ SkadaStorageDB = {
 							["id"] = 34428,
 						},
 						["Whirlwind"] = {
-							["blocked"] = 40,
-							["hitmin"] = 1243,
 							["criticalamount"] = 1680,
-							["id"] = 1680,
+							["hitmin"] = 1243,
 							["criticalmin"] = 1680,
+							["id"] = 1680,
+							["casts"] = 1,
 							["targets"] = {
 								["Dark Rune Giant"] = {
 									["amount"] = 2923,
 								},
 							},
-							["criticalmax"] = 1680,
-							["critical"] = 1,
-							["casts"] = 1,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["blocked"] = 40,
+							["criticalmax"] = 1680,
 							["hitmax"] = 1243,
 							["amount"] = 2923,
+							["school"] = 1,
+							["critical"] = 1,
+							["hit"] = 1,
 							["hitamount"] = 1243,
 						},
 						["Heroic Strike"] = {
@@ -6789,30 +6888,29 @@ SkadaStorageDB = {
 							["hitamount"] = 2746,
 						},
 					},
-					["totaldamage"] = 16693,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmax"] = 5190,
+							["critical"] = 1,
 							["hitmin"] = 5190,
 							["criticalamount"] = 7828,
 							["id"] = 42833,
-							["count"] = 2,
+							["criticalmin"] = 7828,
 							["targets"] = {
 								["Dark Rune Giant"] = {
 									["amount"] = 13018,
 								},
 							},
+							["hitmax"] = 5190,
 							["hit"] = 1,
-							["criticalmin"] = 7828,
-							["casts"] = 1,
-							["critical"] = 1,
+							["criticalmax"] = 7828,
+							["count"] = 2,
 							["amount"] = 13018,
 							["school"] = 4,
 							["resisted"] = 869,
-							["criticalmax"] = 7828,
+							["casts"] = 1,
 							["hitamount"] = 5190,
 						},
 						["Pyroblast"] = {
@@ -6868,20 +6966,20 @@ SkadaStorageDB = {
 							["hitmin"] = 965,
 							["criticalamount"] = 3041,
 							["id"] = 55360,
-							["hitmax"] = 965,
+							["criticalmin"] = 1352,
 							["targets"] = {
 								["Dark Rune Giant"] = {
 									["amount"] = 4006,
 								},
 							},
-							["criticalmin"] = 1352,
 							["critical"] = 2,
+							["hit"] = 1,
 							["criticalmax"] = 1689,
 							["count"] = 3,
-							["hit"] = 1,
+							["amount"] = 4006,
 							["school"] = 4,
 							["resisted"] = 337,
-							["amount"] = 4006,
+							["hitmax"] = 965,
 							["hitamount"] = 965,
 						},
 						["Fire Blast"] = {
@@ -6902,11 +7000,9 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 5345.267,
-					["class"] = "MAGE",
-					["totaldamage"] = 32307,
 					["flag"] = 1298,
+					["class"] = "MAGE",
 					["mana"] = 521,
-					["id"] = "0x07000000009E540C",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -6935,11 +7031,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[48108] = {
+						[42995] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 14,
 						},
 						[22959] = {
 							["type"] = "DEBUFF",
@@ -6984,8 +7079,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 7,
 								},
 							},
@@ -6996,31 +7091,32 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
+						[48108] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
 					},
+					["id"] = "0x07000000009E540C",
+					["totaldamage"] = 32307,
+					["name"] = "Berdanx",
 					["spec"] = 63,
-					["time"] = 9.819999999999999,
 					["manaspells"] = {
 						[29077] = 469,
 						[67545] = 130,
 						[44450] = -78,
 					},
 					["role"] = "DAMAGER",
-					["name"] = "Berdanx",
+					["time"] = 9.819999999999999,
 					["damage"] = 32307,
 				}, -- [5]
 			},
-			["type"] = "party",
-			["damagetaken"] = 10851,
 			["rage"] = 15,
 			["etotaldamage"] = 10851,
 			["damage"] = 134221,
@@ -7033,7 +7129,7 @@ SkadaStorageDB = {
 			["edamage"] = 10851,
 			["last_action"] = 1699557855,
 			["endtime"] = 1699557855,
-		}, -- [3]
+		}, -- [4]
 		{
 			["mana"] = 576,
 			["enemies"] = {
@@ -7173,19 +7269,19 @@ SkadaStorageDB = {
 							["amount"] = 1538,
 						},
 					},
-					["name"] = "Dark Rune Elementalist",
 					["totaldamage"] = 10687,
+					["name"] = "Dark Rune Elementalist",
 					["totaldamagetaken"] = 27686,
 					["id"] = "0xF130006D3A000013",
 					["damage"] = 10687,
 				}, -- [1]
 				{
-					["id"] = "0xF130006D3B000014",
-					["name"] = "Dark Rune Theurgist",
-					["totaldamagetaken"] = 17614,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
 					["damagetaken"] = 17614,
+					["name"] = "Dark Rune Theurgist",
+					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 17614,
+					["id"] = "0xF130006D3B000014",
 					["damagetakenspells"] = {
 						[42873] = {
 							["school"] = 4,
@@ -7223,16 +7319,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1008,
 						},
-						[52212] = {
-							["school"] = 32,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1224,
-									["amount"] = 3776,
+								["Miracledream"] = {
+									["amount"] = 1376,
 								},
 							},
-							["overkill"] = 1224,
-							["amount"] = 3776,
+							["amount"] = 1376,
 						},
 						[1680] = {
 							["school"] = 1,
@@ -7252,33 +7346,34 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5032,
 						},
-						[6603] = {
-							["school"] = 1,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 1376,
+								["Urgash"] = {
+									["overkill"] = 1224,
+									["amount"] = 3776,
 								},
 							},
-							["amount"] = 1376,
+							["overkill"] = 1224,
+							["amount"] = 3776,
 						},
 					},
 				}, -- [2]
 			},
-			["damage"] = 45300,
 			["totaldamage"] = 45300,
 			["time"] = 13,
 			["totaldamagetaken"] = 10687,
 			["etotaldamagetaken"] = 45300,
-			["last_time"] = 5333.374,
+			["damage"] = 45300,
 			["players"] = {
 				{
 					["damagespells"] = {
 						["Death and Decay"] = {
-							["count"] = 12,
+							["criticalmin"] = 1277,
 							["hitmin"] = 611,
 							["criticalamount"] = 7662,
 							["id"] = 52212,
-							["hitmax"] = 611,
+							["critical"] = 6,
 							["targets"] = {
 								["Dark Rune Elementalist"] = {
 									["amount"] = 7552,
@@ -7289,21 +7384,23 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1224,
-							["hit"] = 6,
-							["casts"] = 1,
-							["critical"] = 6,
 							["amount"] = 11328,
-							["school"] = 32,
-							["criticalmin"] = 1277,
 							["criticalmax"] = 1277,
+							["hitmax"] = 611,
+							["hit"] = 6,
+							["school"] = 32,
+							["count"] = 12,
+							["casts"] = 1,
 							["hitamount"] = 3666,
 						},
 					},
 					["last"] = 5327.724,
-					["class"] = "DEATHKNIGHT",
 					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
+					["class"] = "DEATHKNIGHT",
 					["overkill"] = 1224,
+					["spec"] = 252,
+					["totaldamage"] = 11328,
+					["name"] = "Urgash",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -7331,9 +7428,9 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 9,
 						},
 						[48266] = {
@@ -7342,15 +7439,15 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 12,
 						},
 						[24932] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[48470] = {
@@ -7364,17 +7461,33 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
-					["totaldamage"] = 11328,
 					["role"] = "DAMAGER",
-					["name"] = "Urgash",
 					["flag"] = 1297,
 					["time"] = 7.09,
 					["damage"] = 11328,
 				}, -- [1]
 				{
+					["overheal"] = 0,
 					["last"] = 5320.626,
+					["damagetaken"] = 9364,
 					["flag"] = 1298,
 					["class"] = "DRUID",
+					["healspells"] = {
+						[22845] = {
+							["overheal"] = 0,
+							["count"] = 7,
+							["amount"] = 11695,
+							["school"] = 1,
+							["max"] = 1671,
+							["targets"] = {
+								["Thirial"] = {
+									["overheal"] = 0,
+									["amount"] = 11695,
+								},
+							},
+							["min"] = 1670,
+						},
+					},
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -7413,10 +7526,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[48441] = {
+						[48443] = {
+							["refresh"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 13,
+							["count"] = 1,
 						},
 						[9634] = {
 							["type"] = "BUFF",
@@ -7428,18 +7542,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 13,
-						},
 						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
@@ -7449,36 +7552,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-					},
-					["role"] = "TANK",
-					["time"] = 0,
-					["totaldamagetaken"] = 9364,
-					["overheal"] = 0,
-					["damagetaken"] = 9364,
-					["id"] = "0x07000000008C6185",
-					["spec"] = 103,
-					["healspells"] = {
-						[22845] = {
-							["overheal"] = 0,
-							["count"] = 7,
-							["amount"] = 11695,
-							["school"] = 1,
-							["max"] = 1671,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 0,
-									["amount"] = 11695,
-								},
-							},
-							["min"] = 1670,
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
 						},
 					},
+					["id"] = "0x07000000008C6185",
+					["role"] = "TANK",
+					["name"] = "Thirial",
+					["spec"] = 103,
 					["damagetakenspells"] = {
 						["Lightning Bolt"] = {
 							["hitmin"] = 2898,
 							["id"] = 59024,
-							["amount"] = 9364,
 							["hitmax"] = 3476,
+							["amount"] = 9364,
 							["sources"] = {
 								["Dark Rune Elementalist"] = {
 									["amount"] = 9364,
@@ -7492,13 +7586,80 @@ SkadaStorageDB = {
 							["hitamount"] = 9364,
 						},
 					},
+					["totaldamagetaken"] = 9364,
 					["heal"] = 11695,
-					["name"] = "Thirial",
+					["time"] = 0,
 				}, -- [2]
 				{
+					["rage"] = 4,
 					["last"] = 5333.374,
+					["id"] = "0x070000000095B7ED",
+					["spec"] = 105,
 					["flag"] = 1298,
-					["class"] = "DRUID",
+					["mana"] = 446,
+					["healspells"] = {
+						[53251] = {
+							["overheal"] = 3200,
+							["max"] = 734,
+							["count"] = 28,
+							["amount"] = 14139,
+							["school"] = 8,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 1217,
+									["amount"] = 3117,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 4334,
+								},
+								["Miracledream"] = {
+									["overheal"] = 0,
+									["amount"] = 4334,
+								},
+								["Berdanx"] = {
+									["overheal"] = 1983,
+									["amount"] = 2354,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 267,
+						},
+						[48441] = {
+							["overheal"] = 483,
+							["max"] = 1784,
+							["count"] = 7,
+							["amount"] = 12004,
+							["school"] = 8,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 483,
+									["amount"] = 4868,
+								},
+								["Thirial"] = {
+									["overheal"] = 0,
+									["amount"] = 7136,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 1301,
+						},
+						[48443] = {
+							["overheal"] = 0,
+							["max"] = 4809,
+							["count"] = 5,
+							["amount"] = 9059,
+							["school"] = 8,
+							["targets"] = {
+								["Thirial"] = {
+									["overheal"] = 0,
+									["amount"] = 9059,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 1010,
+						},
+					},
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -7531,9 +7692,9 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[60062] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48470] = {
@@ -7549,9 +7710,9 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[24932] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[42995] = {
@@ -7565,84 +7726,18 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 					},
-					["time"] = 12.75,
-					["rage"] = 4,
-					["id"] = "0x070000000095B7ED",
-					["spec"] = 105,
-					["healspells"] = {
-						[53251] = {
-							["overheal"] = 3200,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 1217,
-									["amount"] = 3117,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 4334,
-								},
-								["Miracledream"] = {
-									["overheal"] = 0,
-									["amount"] = 4334,
-								},
-								["Berdanx"] = {
-									["overheal"] = 1983,
-									["amount"] = 2354,
-								},
-							},
-							["count"] = 28,
-							["amount"] = 14139,
-							["school"] = 8,
-							["max"] = 734,
-							["ishot"] = true,
-							["min"] = 267,
-						},
-						[48441] = {
-							["overheal"] = 483,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 483,
-									["amount"] = 4868,
-								},
-								["Thirial"] = {
-									["overheal"] = 0,
-									["amount"] = 7136,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 12004,
-							["school"] = 8,
-							["max"] = 1784,
-							["ishot"] = true,
-							["min"] = 1301,
-						},
-						[48443] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 0,
-									["amount"] = 9059,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 9059,
-							["school"] = 8,
-							["max"] = 4809,
-							["ishot"] = true,
-							["min"] = 1010,
-						},
-					},
-					["ragespells"] = {
-						[48541] = 4,
-					},
 					["heal"] = 35202,
-					["name"] = "Tumbleweed",
-					["overheal"] = 3683,
+					["role"] = "HEALER",
 					["manaspells"] = {
 						[48542] = 446,
 					},
-					["mana"] = 446,
-					["role"] = "HEALER",
+					["name"] = "Tumbleweed",
+					["overheal"] = 3683,
+					["time"] = 12.75,
+					["ragespells"] = {
+						[48541] = 4,
+					},
+					["class"] = "DRUID",
 				}, -- [3]
 				{
 					["last"] = 5328.785,
@@ -7676,26 +7771,26 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Dark Rune Elementalist"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 3,
 								},
 							},
 							["uptime"] = 3,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[46916] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
-						[53251] = {
+						[60065] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -7703,26 +7798,26 @@ SkadaStorageDB = {
 						[12970] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 1,
 							["school"] = 1,
+							["refresh"] = 1,
 							["uptime"] = 13,
-						},
-						[60065] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
 						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
 						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 					},
+					["totaldamage"] = 20364,
 					["time"] = 8.160000000000002,
 					["totaldamagetaken"] = 1323,
 					["damage"] = 20364,
 					["rage"] = 3,
-					["overheal"] = 0,
 					["damagetaken"] = 1323,
 					["id"] = "0x07000000009A86E7",
 					["spec"] = 72,
@@ -7760,11 +7855,12 @@ SkadaStorageDB = {
 							["hitamount"] = 1323,
 						},
 					},
-					["overkill"] = 3183,
 					["ragespells"] = {
 						[12964] = 3,
 					},
 					["name"] = "Miracledream",
+					["overheal"] = 0,
+					["overkill"] = 3183,
 					["damagespells"] = {
 						["Bloodthirst"] = {
 							["hitmin"] = 1812,
@@ -7795,15 +7891,31 @@ SkadaStorageDB = {
 									["amount"] = 1376,
 								},
 							},
-							["criticalmax"] = 1526,
-							["critical"] = 2,
 							["PARRY"] = 1,
 							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 1,
+							["criticalmax"] = 1526,
 							["hitmax"] = 1376,
 							["amount"] = 6472,
+							["school"] = 1,
+							["hit"] = 3,
+							["critical"] = 2,
 							["hitamount"] = 3720,
+						},
+						["Slam"] = {
+							["hitmin"] = 1295,
+							["id"] = 50783,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 1295,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1295,
+							["amount"] = 1295,
+							["hitamount"] = 1295,
 						},
 						["Execute"] = {
 							["criticalamount"] = 3964,
@@ -7823,21 +7935,36 @@ SkadaStorageDB = {
 							["criticalmax"] = 3964,
 							["count"] = 1,
 						},
-						["Slam"] = {
-							["hitmin"] = 1295,
-							["id"] = 50783,
+						["Victory Rush"] = {
+							["hitmin"] = 1478,
+							["id"] = 34428,
 							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 1295,
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1478,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 1295,
-							["amount"] = 1295,
-							["hitamount"] = 1295,
+							["hitmax"] = 1478,
+							["amount"] = 1478,
+							["hitamount"] = 1478,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 121,
+							["id"] = 12721,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["amount"] = 242,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 121,
+							["amount"] = 242,
+							["hitamount"] = 242,
 						},
 						["Whirlwind"] = {
 							["hitmin"] = 958,
@@ -7858,40 +7985,8 @@ SkadaStorageDB = {
 							["amount"] = 5101,
 							["hitamount"] = 5101,
 						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 121,
-							["id"] = 12721,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["amount"] = 242,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 121,
-							["amount"] = 242,
-							["hitamount"] = 242,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 1478,
-							["id"] = 34428,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1478,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1478,
-							["amount"] = 1478,
-							["hitamount"] = 1478,
-						},
 					},
 					["heal"] = 669,
-					["totaldamage"] = 20364,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -7995,13 +8090,9 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 5328.408,
-					["mana"] = 130,
-					["manaspells"] = {
-						[67545] = 130,
-					},
 					["flag"] = 1298,
+					["mana"] = 130,
 					["class"] = "MAGE",
-					["id"] = "0x07000000009E540C",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -8009,6 +8100,11 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
@@ -8025,27 +8121,15 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
 						[12536] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 1,
 						},
-						[42931] = {
-							["type"] = "DEBUFF",
+						[42995] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Dark Rune Elementalist"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 13,
 						},
 						[42891] = {
 							["type"] = "DEBUFF",
@@ -8091,27 +8175,39 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
 						},
+						[42931] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Dark Rune Elementalist"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
 					},
+					["id"] = "0x07000000009E540C",
+					["totaldamage"] = 13608,
+					["name"] = "Berdanx",
 					["spec"] = 63,
 					["time"] = 6.7,
-					["totaldamage"] = 13608,
 					["role"] = "DAMAGER",
-					["name"] = "Berdanx",
+					["manaspells"] = {
+						[67545] = 130,
+					},
 					["damage"] = 13608,
 				}, -- [5]
 			},
 			["type"] = "party",
 			["damagetaken"] = 10687,
+			["last_time"] = 5333.374,
 			["etotaldamage"] = 10687,
 			["overheal"] = 3683,
 			["rage"] = 7,
@@ -8124,9 +8220,3287 @@ SkadaStorageDB = {
 			["edamage"] = 10687,
 			["last_action"] = 1699557839,
 			["endtime"] = 1699557839,
-		}, -- [4]
+		}, -- [5]
 		{
+			["last_time"] = 5251.099,
+			["overheal"] = 369079,
 			["eoverkill"] = 1663,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[49560] = {
+							["count"] = 4,
+							["targets"] = {
+								["Dark Rune Protector"] = 1,
+								["Dark Rune Stormcaller"] = 3,
+							},
+						},
+					},
+					["last"] = 5243.059,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 273,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 273,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 6,
+							["uptime"] = 108,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 31,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 15,
+							["school"] = 32,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["uptime"] = 5,
+									["count"] = 2,
+								},
+								["Dark Rune Protector"] = {
+									["uptime"] = 22,
+									["count"] = 8,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 8,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 33,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 41,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 28,
+							["uptime"] = 160,
+						},
+						[57623] = {
+							["refresh"] = 18,
+							["type"] = "BUFF",
+							["uptime"] = 273,
+							["count"] = 1,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 55,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 53,
+							["school"] = 32,
+							["refresh"] = 8,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 9,
+								},
+								["Dark Rune Protector"] = {
+									["refresh"] = 3,
+									["count"] = 10,
+									["uptime"] = 29,
+								},
+								["Dark Rune Stormcaller"] = {
+									["refresh"] = 3,
+									["count"] = 7,
+									["uptime"] = 19,
+								},
+							},
+							["count"] = 19,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["uptime"] = 14,
+									["count"] = 4,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[48792] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[49222] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 189,
+						},
+						[59752] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 279,
+						},
+						[48707] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 6,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 16,
+							["school"] = 16,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["uptime"] = 9,
+									["count"] = 2,
+								},
+								["Dark Rune Protector"] = {
+									["uptime"] = 22,
+									["count"] = 8,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 17,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 46,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 16,
+							["uptime"] = 56,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 181,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 10,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Dark Rune Protector"] = {
+									["uptime"] = 7,
+									["count"] = 3,
+								},
+								["Dark Rune Stormcaller"] = {
+									["refresh"] = 2,
+									["count"] = 6,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[71560] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 60,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 61,
+						},
+						[66803] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 40,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 60,
+						},
+					},
+					["absorbspells"] = {
+						[48707] = {
+							["min"] = 1575,
+							["casts"] = 1,
+							["count"] = 5,
+							["amount"] = 9450,
+							["school"] = 32,
+							["targets"] = {
+								["Urgash"] = 9450,
+							},
+							["max"] = 2250,
+						},
+					},
+					["totaldamage"] = 374224,
+					["time"] = 107.59,
+					["totaldamagetaken"] = 109374,
+					["runicspells"] = {
+						[49088] = 137,
+					},
+					["damage"] = 374224,
+					["runic"] = 137,
+					["absorb"] = 9450,
+					["damagetaken"] = 99924,
+					["overheal"] = 17451,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 2951,
+							["school"] = 1,
+							["count"] = 70,
+							["amount"] = 6100,
+							["max"] = 301,
+							["ishot"] = true,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 2951,
+									["amount"] = 6100,
+								},
+							},
+							["min"] = 1,
+						},
+						[48743] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 14373,
+							["school"] = 32,
+							["max"] = 14373,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 14373,
+								},
+							},
+							["min"] = 14373,
+						},
+						[53365] = {
+							["overheal"] = 4098,
+							["criticalamount"] = 1249,
+							["max"] = 1249,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 4098,
+									["amount"] = 2683,
+								},
+							},
+							["min"] = 357,
+							["criticalmax"] = 1249,
+							["critical"] = 2,
+							["amount"] = 2683,
+							["school"] = 1,
+							["count"] = 5,
+							["criticalmin"] = 0,
+						},
+						[34299] = {
+							["overheal"] = 10402,
+							["school"] = 1,
+							["count"] = 16,
+							["amount"] = 11297,
+							["max"] = 1523,
+							["ishot"] = true,
+							["targets"] = {
+								["Earthbasher"] = {
+									["overheal"] = 5835,
+									["amount"] = 2334,
+								},
+								["Urgash"] = {
+									["overheal"] = 4567,
+									["amount"] = 8963,
+								},
+							},
+							["min"] = 1167,
+						},
+						[45470] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 5390,
+							["school"] = 1,
+							["max"] = 5390,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 5390,
+								},
+							},
+							["min"] = 5390,
+						},
+					},
+					["damagetakenspells"] = {
+						["Lightning Bolt"] = {
+							["hitmin"] = 2805,
+							["id"] = 59863,
+							["hitmax"] = 5562,
+							["sources"] = {
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 18412,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 8,
+							["resisted"] = 3705,
+							["amount"] = 18412,
+							["hitamount"] = 18412,
+						},
+						["Charge"] = {
+							["hitmin"] = 1980,
+							["id"] = 22120,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 6114,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2070,
+							["amount"] = 6114,
+							["hitamount"] = 6114,
+						},
+						["Melee"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 150,
+							["id"] = 6603,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 4057,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 507,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 2058,
+							["amount"] = 4564,
+							["hitamount"] = 4564,
+						},
+						["Glare of the Tribunal"] = {
+							["hitmin"] = 353,
+							["id"] = 59870,
+							["hitmax"] = 912,
+							["count"] = 17,
+							["hit"] = 17,
+							["school"] = 64,
+							["resisted"] = 1875,
+							["amount"] = 8730,
+							["hitamount"] = 8730,
+						},
+						["Searing Gaze"] = {
+							["total"] = 34980,
+							["hitmin"] = 525,
+							["id"] = 59866,
+							["hitmax"] = 3000,
+							["sources"] = {
+								["Searing Gaze"] = {
+									["total"] = 34980,
+									["amount"] = 25530,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 16,
+							["school"] = 4,
+							["resisted"] = 5820,
+							["amount"] = 25530,
+							["hitamount"] = 25530,
+						},
+						["Ground Smash"] = {
+							["hitmin"] = 5735,
+							["id"] = 59865,
+							["sources"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 5735,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 5735,
+							["amount"] = 5735,
+							["hitamount"] = 5735,
+						},
+						["Dark Matter"] = {
+							["hitmin"] = 4346,
+							["id"] = 59868,
+							["hitmax"] = 4841,
+							["sources"] = {
+								["Dark Matter"] = {
+									["amount"] = 9187,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 482,
+							["amount"] = 9187,
+							["hitamount"] = 9187,
+						},
+						["Cleave"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 3169,
+							["id"] = 42724,
+							["PARRY"] = 2,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 21652,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 5881,
+							["amount"] = 21652,
+							["hitamount"] = 21652,
+						},
+					},
+					["overkill"] = 30516,
+					["heal"] = 39843,
+					["name"] = "Urgash",
+					["ccdone"] = 4,
+					["interrupt"] = 1,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["criticalmin"] = 8393,
+							["hit"] = 1,
+							["hitmin"] = 3339,
+							["criticalamount"] = 16896,
+							["id"] = 55271,
+							["critical"] = 2,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["overkill"] = 3301,
+									["amount"] = 8393,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 4560,
+									["amount"] = 11842,
+								},
+							},
+							["overkill"] = 7861,
+							["blocked"] = 40,
+							["criticalmax"] = 8503,
+							["count"] = 3,
+							["amount"] = 20235,
+							["school"] = 1,
+							["hitmax"] = 3339,
+							["casts"] = 3,
+							["hitamount"] = 3339,
+						},
+						["Death and Decay"] = {
+							["criticalmin"] = 1189,
+							["hitmin"] = 504,
+							["criticalamount"] = 11022,
+							["id"] = 52212,
+							["count"] = 32,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 19825,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 5442,
+								},
+							},
+							["hitmax"] = 806,
+							["hit"] = 23,
+							["criticalmax"] = 1382,
+							["critical"] = 9,
+							["amount"] = 25267,
+							["school"] = 32,
+							["resisted"] = 317,
+							["casts"] = 2,
+							["hitamount"] = 14245,
+						},
+						["Death Coil"] = {
+							["criticalmin"] = 6362,
+							["hitmin"] = 3080,
+							["criticalamount"] = 22107,
+							["id"] = 47632,
+							["casts"] = 15,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 3331,
+								},
+								["Dark Rune Protector"] = {
+									["overkill"] = 1394,
+									["amount"] = 15470,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 6701,
+									["amount"] = 42150,
+								},
+							},
+							["overkill"] = 8095,
+							["count"] = 14,
+							["criticalmax"] = 8982,
+							["hitmax"] = 4359,
+							["amount"] = 60951,
+							["school"] = 32,
+							["hit"] = 11,
+							["critical"] = 3,
+							["hitamount"] = 38844,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 30,
+							["id"] = 50536,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 248,
+								},
+								["Iron Golem Custodian"] = {
+									["amount"] = 96,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 35,
+								},
+							},
+							["hitmax"] = 43,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 32,
+							["resisted"] = 3,
+							["amount"] = 379,
+							["hitamount"] = 379,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 860,
+							["id"] = 50526,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 1864,
+								},
+								["Gold Beetle"] = {
+									["overkill"] = 1432,
+									["amount"] = 1441,
+								},
+								["Dark Rune Protector"] = {
+									["overkill"] = 628,
+									["amount"] = 5851,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 3843,
+								},
+							},
+							["overkill"] = 2060,
+							["hitmax"] = 1673,
+							["casts"] = 1,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 32,
+							["resisted"] = 225,
+							["amount"] = 12999,
+							["hitamount"] = 12999,
+						},
+						["Melee (Earthbasher)"] = {
+							["glance"] = 1591,
+							["hitmin"] = 527,
+							["criticalmin"] = 1070,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 3351,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 8901,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 10047,
+								},
+							},
+							["glancing"] = 3,
+							["amount"] = 22299,
+							["glancemin"] = 495,
+							["criticalamount"] = 5728,
+							["id"] = 6603,
+							["glancemax"] = 565,
+							["criticalmax"] = 1200,
+							["hitmax"] = 670,
+							["hit"] = 26,
+							["school"] = 1,
+							["critical"] = 5,
+							["count"] = 34,
+							["hitamount"] = 14980,
+						},
+						["Death Strike"] = {
+							["criticalamount"] = 5603,
+							["id"] = 49924,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 5603,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 5603,
+							["school"] = 1,
+							["criticalmin"] = 5603,
+							["criticalmax"] = 5603,
+							["count"] = 1,
+						},
+						["Melee"] = {
+							["DODGE"] = 4,
+							["glance"] = 6533,
+							["hitmin"] = 2614,
+							["criticalmin"] = 5751,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 18778,
+								},
+								["Dark Rune Protector"] = {
+									["overkill"] = 2853,
+									["amount"] = 32259,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 3066,
+									["amount"] = 43986,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 95023,
+							["glancemin"] = 3260,
+							["criticalamount"] = 46460,
+							["id"] = 6603,
+							["glancemax"] = 3273,
+							["overkill"] = 5919,
+							["critical"] = 7,
+							["criticalmax"] = 7323,
+							["hitmax"] = 3906,
+							["hit"] = 13,
+							["school"] = 1,
+							["blocked"] = 80,
+							["count"] = 26,
+							["hitamount"] = 42030,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1425,
+							["id"] = 50463,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 1635,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 1425,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 1598,
+								},
+							},
+							["hitmax"] = 1635,
+							["PARRY"] = 1,
+							["count"] = 4,
+							["amount"] = 4658,
+							["school"] = 1,
+							["casts"] = 1,
+							["hit"] = 3,
+							["hitamount"] = 4658,
+						},
+						["Claw (Earthbasher)"] = {
+							["criticalamount"] = 6934,
+							["hitmin"] = 774,
+							["criticalmin"] = 1646,
+							["id"] = 47468,
+							["casts"] = 1,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 6187,
+								},
+								["Dark Rune Protector"] = {
+									["overkill"] = 786,
+									["amount"] = 8271,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 917,
+									["amount"] = 13342,
+								},
+							},
+							["overkill"] = 1703,
+							["count"] = 28,
+							["criticalmax"] = 1830,
+							["hitmax"] = 1020,
+							["amount"] = 27800,
+							["school"] = 1,
+							["hit"] = 24,
+							["critical"] = 4,
+							["hitamount"] = 20866,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 522,
+							["id"] = 51460,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 3755,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 4946,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 592,
+									["amount"] = 5194,
+								},
+							},
+							["overkill"] = 592,
+							["hitmax"] = 1348,
+							["casts"] = 1,
+							["count"] = 16,
+							["hit"] = 16,
+							["school"] = 32,
+							["resisted"] = 146,
+							["amount"] = 13895,
+							["hitamount"] = 13895,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 912,
+							["id"] = 55078,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 912,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 8001,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 1190,
+								},
+							},
+							["hitmax"] = 1413,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 32,
+							["resisted"] = 227,
+							["amount"] = 10103,
+							["hitamount"] = 10103,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 853,
+							["id"] = 71904,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 2480,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 3527,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 903,
+								},
+							},
+							["hitmax"] = 2480,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["resisted"] = 719,
+							["amount"] = 6910,
+							["hitamount"] = 6910,
+						},
+						["Icy Touch"] = {
+							["criticalmin"] = 3798,
+							["hitmin"] = 1646,
+							["criticalamount"] = 3798,
+							["id"] = 49909,
+							["count"] = 10,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 3411,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 4993,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 11093,
+								},
+							},
+							["hitmax"] = 1945,
+							["hit"] = 9,
+							["criticalmax"] = 3798,
+							["critical"] = 1,
+							["amount"] = 19497,
+							["school"] = 16,
+							["resisted"] = 194,
+							["casts"] = 11,
+							["hitamount"] = 15699,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1951,
+							["criticalamount"] = 15594,
+							["id"] = 49921,
+							["criticalmin"] = 5026,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 6977,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 6242,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 15042,
+								},
+							},
+							["casts"] = 10,
+							["count"] = 9,
+							["criticalmax"] = 5368,
+							["hitmax"] = 2394,
+							["amount"] = 28261,
+							["school"] = 1,
+							["hit"] = 6,
+							["critical"] = 3,
+							["hitamount"] = 12667,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1064,
+							["id"] = 55095,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["overkill"] = 1610,
+									["amount"] = 2683,
+								},
+								["Dark Rune Protector"] = {
+									["overkill"] = 333,
+									["amount"] = 9429,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 2973,
+								},
+							},
+							["overkill"] = 1943,
+							["hitmax"] = 1695,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 16,
+							["resisted"] = 266,
+							["amount"] = 15085,
+							["hitamount"] = 15085,
+						},
+						["Blood Strike"] = {
+							["criticalmin"] = 2997,
+							["hitmin"] = 2262,
+							["criticalamount"] = 2997,
+							["id"] = 49930,
+							["critical"] = 1,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["overkill"] = 2343,
+									["amount"] = 2997,
+								},
+								["Iron Golem Custodian"] = {
+									["amount"] = 2262,
+								},
+							},
+							["overkill"] = 2343,
+							["amount"] = 5259,
+							["criticalmax"] = 2997,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2262,
+							["casts"] = 2,
+							["hitamount"] = 2262,
+						},
+					},
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[59863] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Dark Rune Stormcaller"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[45334] = {
+							["count"] = 2,
+							["targets"] = {
+								["Dark Rune Protector"] = 1,
+								["Dark Rune Stormcaller"] = 1,
+							},
+						},
+						[53313] = {
+							["count"] = 6,
+							["targets"] = {
+								["Dark Rune Protector"] = 6,
+							},
+						},
+					},
+					["last"] = 5244.182,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[53307] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 72,
+						},
+						[6795] = {
+							["type"] = "DEBUFF",
+							["count"] = 13,
+							["school"] = 1,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+								["Dark Rune Protector"] = {
+									["uptime"] = 16,
+									["count"] = 5,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 17,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 39,
+						},
+						[48568] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 70,
+							["school"] = 1,
+							["refresh"] = 6,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 9,
+								},
+								["Dark Rune Protector"] = {
+									["refresh"] = 2,
+									["count"] = 9,
+									["uptime"] = 38,
+								},
+								["Dark Rune Stormcaller"] = {
+									["refresh"] = 2,
+									["count"] = 8,
+									["uptime"] = 26,
+								},
+							},
+							["count"] = 19,
+						},
+						[53312] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 50,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 9,
+							["uptime"] = 63,
+						},
+						[57623] = {
+							["refresh"] = 9,
+							["type"] = "BUFF",
+							["uptime"] = 281,
+							["count"] = 1,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[9634] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[64951] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 103,
+						},
+						[48443] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[53313] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["uptime"] = 7,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[45334] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[16870] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 9,
+							["uptime"] = 31,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 279,
+						},
+						[48564] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["uptime"] = 9,
+									["count"] = 2,
+								},
+								["Dark Rune Protector"] = {
+									["uptime"] = 3,
+									["count"] = 3,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 6,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[16857] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[62606] = {
+							["type"] = "BUFF",
+							["count"] = 26,
+							["school"] = 8,
+							["refresh"] = 15,
+							["uptime"] = 128,
+						},
+					},
+					["totaldamage"] = 192831,
+					["time"] = 137.46,
+					["mana"] = 13794,
+					["totaldamagetaken"] = 89702,
+					["overheal"] = 15608,
+					["damage"] = 192831,
+					["rage"] = 277,
+					["damagespells"] = {
+						["Thorns"] = {
+							["hitmin"] = 82,
+							["id"] = 53307,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 365,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 1640,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 83,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 24,
+							["hit"] = 24,
+							["school"] = 8,
+							["hitmax"] = 94,
+							["amount"] = 2088,
+							["hitamount"] = 2088,
+						},
+						["Lacerate (DoT)"] = {
+							["hitmin"] = 146,
+							["criticalamount"] = 5690,
+							["id"] = 48568,
+							["criticalmin"] = 293,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["overkill"] = 1120,
+									["amount"] = 2287,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 3020,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 1349,
+								},
+							},
+							["overkill"] = 1120,
+							["critical"] = 12,
+							["criticalmax"] = 1144,
+							["count"] = 17,
+							["amount"] = 6656,
+							["school"] = 1,
+							["hit"] = 5,
+							["hitmax"] = 381,
+							["hitamount"] = 966,
+						},
+						["Melee"] = {
+							["glance"] = 1781,
+							["hitmin"] = 817,
+							["criticalmin"] = 1744,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 5164,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 5401,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 10565,
+							["glancemin"] = 870,
+							["criticalamount"] = 3558,
+							["id"] = 6603,
+							["glancemax"] = 911,
+							["blocked"] = 40,
+							["criticalmax"] = 1814,
+							["hitmax"] = 935,
+							["hit"] = 6,
+							["school"] = 1,
+							["critical"] = 2,
+							["count"] = 10,
+							["hitamount"] = 5226,
+						},
+						["Faerie Fire (Feral)"] = {
+							["hitmin"] = 1013,
+							["id"] = 60089,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 1013,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 1013,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 1013,
+							["amount"] = 2026,
+							["hitamount"] = 2026,
+						},
+						["Maul"] = {
+							["criticalmin"] = 2938,
+							["hit"] = 28,
+							["hitmin"] = 1462,
+							["criticalamount"] = 77683,
+							["id"] = 48480,
+							["critical"] = 20,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 16927,
+								},
+								["Dark Rune Protector"] = {
+									["overkill"] = 3948,
+									["amount"] = 65841,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 1609,
+									["amount"] = 47331,
+								},
+							},
+							["overkill"] = 5557,
+							["blocked"] = 82,
+							["criticalmax"] = 5208,
+							["hitmax"] = 2639,
+							["amount"] = 130099,
+							["school"] = 1,
+							["count"] = 48,
+							["casts"] = 37,
+							["hitamount"] = 52416,
+						},
+						["Mangle (Bear)"] = {
+							["hitmin"] = 1465,
+							["criticalamount"] = 11754,
+							["id"] = 48564,
+							["criticalmin"] = 2792,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 5646,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 5837,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 7922,
+								},
+							},
+							["casts"] = 9,
+							["count"] = 9,
+							["criticalmax"] = 3204,
+							["hitmax"] = 1584,
+							["amount"] = 19405,
+							["school"] = 1,
+							["hit"] = 5,
+							["critical"] = 4,
+							["hitamount"] = 7651,
+						},
+						["Lacerate"] = {
+							["criticalmin"] = 210,
+							["hitmin"] = 106,
+							["criticalamount"] = 1950,
+							["id"] = 48568,
+							["casts"] = 28,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 618,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 1824,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 1414,
+								},
+							},
+							["critical"] = 9,
+							["hit"] = 16,
+							["criticalmax"] = 232,
+							["count"] = 26,
+							["amount"] = 3856,
+							["school"] = 1,
+							["hitmax"] = 151,
+							["PARRY"] = 1,
+							["hitamount"] = 1906,
+						},
+						["Swipe (Bear)"] = {
+							["criticalmin"] = 836,
+							["hitmin"] = 407,
+							["criticalamount"] = 10844,
+							["id"] = 48562,
+							["hit"] = 16,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 14718,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 3418,
+								},
+							},
+							["critical"] = 12,
+							["blocked"] = 80,
+							["criticalmax"] = 980,
+							["count"] = 28,
+							["amount"] = 18136,
+							["school"] = 1,
+							["hitmax"] = 490,
+							["casts"] = 13,
+							["hitamount"] = 7292,
+						},
+					},
+					["damagetaken"] = 62848,
+					["id"] = "0x07000000008C6185",
+					["interrupt"] = 1,
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 15608,
+							["max"] = 1513,
+							["count"] = 19,
+							["amount"] = 12872,
+							["school"] = 1,
+							["targets"] = {
+								["Thirial"] = {
+									["overheal"] = 15608,
+									["amount"] = 12872,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 99,
+						},
+					},
+					["overkill"] = 6677,
+					["name"] = "Thirial",
+					["heal"] = 12872,
+					["manaspells"] = {
+						[68285] = 13794,
+					},
+					["ccdone"] = 8,
+					["ragespells"] = {
+						[59072] = 42,
+						[16959] = 235,
+					},
+					["damagetakenspells"] = {
+						["Searing Gaze"] = {
+							["hitmin"] = 1056,
+							["id"] = 59866,
+							["hitmax"] = 1320,
+							["sources"] = {
+								["Searing Gaze"] = {
+									["amount"] = 5544,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["resisted"] = 1056,
+							["amount"] = 5544,
+							["hitamount"] = 5544,
+						},
+						["Charge"] = {
+							["total"] = 5152,
+							["hitmin"] = 454,
+							["id"] = 22120,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["total"] = 5152,
+									["amount"] = 3876,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1898,
+							["amount"] = 3876,
+							["hitamount"] = 3876,
+						},
+						["Melee"] = {
+							["DODGE"] = 10,
+							["total"] = 40353,
+							["hitmin"] = 54,
+							["id"] = 6603,
+							["amount"] = 21880,
+							["sources"] = {
+								["Iron Golem Custodian"] = {
+									["total"] = 7283,
+									["amount"] = 3020,
+								},
+								["Dark Rune Protector"] = {
+									["total"] = 32971,
+									["amount"] = 18761,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 99,
+								},
+							},
+							["count"] = 38,
+							["hit"] = 24,
+							["school"] = 1,
+							["hitmax"] = 1899,
+							["MISS"] = 4,
+							["hitamount"] = 21880,
+						},
+						["Cleave"] = {
+							["DODGE"] = 3,
+							["total"] = 15084,
+							["hitmin"] = 810,
+							["id"] = 42724,
+							["hitmax"] = 2653,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["total"] = 15084,
+									["amount"] = 9400,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 9400,
+							["school"] = 1,
+							["hit"] = 6,
+							["MISS"] = 2,
+							["hitamount"] = 9400,
+						},
+						["Crush Armor"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 33661,
+						},
+						["Ground Smash"] = {
+							["total"] = 2011,
+							["hitmin"] = 590,
+							["id"] = 59865,
+							["sources"] = {
+								["Iron Golem Custodian"] = {
+									["total"] = 2011,
+									["amount"] = 590,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 590,
+							["amount"] = 590,
+							["hitamount"] = 590,
+						},
+						["Lightning Bolt"] = {
+							["hitmin"] = 2384,
+							["id"] = 59863,
+							["hitmax"] = 3982,
+							["amount"] = 15662,
+							["sources"] = {
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 15662,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 5,
+							["school"] = 8,
+							["resisted"] = 2868,
+							["MISS"] = 1,
+							["hitamount"] = 15662,
+						},
+						["Glare of the Tribunal"] = {
+							["hitmin"] = 385,
+							["id"] = 59870,
+							["hitmax"] = 548,
+							["amount"] = 5896,
+							["count"] = 15,
+							["hit"] = 13,
+							["school"] = 64,
+							["resisted"] = 945,
+							["MISS"] = 2,
+							["hitamount"] = 5896,
+						},
+					},
+					["interruptspells"] = {
+						[19675] = {
+							["spells"] = {
+								[59863] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Dark Rune Stormcaller"] = 1,
+							},
+						},
+					},
+					["role"] = "TANK",
+				}, -- [2]
+				{
+					["last"] = 5235.309,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 257,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 257,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 51,
+						},
+						[48443] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 27,
+						},
+						[22812] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 9,
+							["uptime"] = 63,
+						},
+						[57623] = {
+							["refresh"] = 9,
+							["type"] = "BUFF",
+							["uptime"] = 257,
+							["count"] = 1,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[67358] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["refresh"] = 21,
+							["uptime"] = 184,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 257,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 255,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 257,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 45,
+						},
+						[16886] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[29166] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[60062] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 39,
+						},
+						[60520] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["energyspells"] = {
+						[48540] = 56,
+					},
+					["role"] = "HEALER",
+					["time"] = 163.09,
+					["resspells"] = {
+						[48477] = {
+							["count"] = 1,
+							["targets"] = {
+								["Berdanx"] = 1,
+							},
+						},
+					},
+					["totaldamagetaken"] = 66092,
+					["runicspells"] = {
+						[48543] = 112,
+					},
+					["rage"] = 92,
+					["overheal"] = 330222,
+					["ress"] = 1,
+					["damagetaken"] = 66092,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["time"] = 5228.690000000001,
+									["spellid"] = 59866,
+									["source"] = "Searing Gaze",
+									["amount"] = -2400,
+									["school"] = 4,
+									["resisted"] = 600,
+									["hp"] = 1,
+									["overkill"] = 67,
+								}, -- [1]
+								{
+									["source"] = "Iron Golem Custodian",
+									["amount"] = -6650,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["hp"] = 8983,
+									["time"] = 5228.562000000001,
+								}, -- [2]
+								{
+									["time"] = 5228.212,
+									["amount"] = -3000,
+									["school"] = 4,
+									["source"] = "Searing Gaze",
+									["hp"] = 8983,
+									["spellid"] = 59866,
+								}, -- [3]
+								{
+									["source"] = "Searing Gaze",
+									["time"] = 5227.704,
+									["amount"] = -2400,
+									["school"] = 4,
+									["resisted"] = 600,
+									["hp"] = 11983,
+									["spellid"] = 59866,
+								}, -- [4]
+								{
+									["spellid"] = 59866,
+									["time"] = 5227.149,
+									["amount"] = -2100,
+									["school"] = 4,
+									["resisted"] = 900,
+									["hp"] = 14383,
+									["source"] = "Searing Gaze",
+								}, -- [5]
+								{
+									["time"] = 5226.382000000001,
+									["amount"] = 1943,
+									["source"] = "Tumbleweed",
+									["hp"] = 15935,
+									["spellid"] = 48441,
+								}, -- [6]
+								{
+									["source"] = "Dark Matter",
+									["amount"] = -5286,
+									["school"] = 32,
+									["spellid"] = 59868,
+									["hp"] = 12781,
+									["time"] = 5223.458,
+								}, -- [7]
+								{
+									["overheal"] = 221,
+									["source"] = "Tumbleweed",
+									["amount"] = 1722,
+									["spellid"] = 48441,
+									["hp"] = 18067,
+									["time"] = 5223.358,
+								}, -- [8]
+								{
+									["time"] = 5220.352,
+									["amount"] = 1943,
+									["source"] = "Tumbleweed",
+									["spellid"] = 48441,
+									["hp"] = 14130,
+								}, -- [9]
+								{
+									["time"] = 5219.37,
+									["amount"] = -411,
+									["school"] = 64,
+									["resisted"] = 45,
+									["spellid"] = 59870,
+									["hp"] = 12187,
+								}, -- [10]
+								{
+									["source"] = "Tumbleweed",
+									["amount"] = 1943,
+									["spellid"] = 48441,
+									["hp"] = 12598,
+									["time"] = 5217.312000000001,
+								}, -- [11]
+								{
+									["time"] = 5216.379,
+									["amount"] = -483,
+									["school"] = 64,
+									["spellid"] = 59870,
+									["hp"] = 10655,
+								}, -- [12]
+								{
+									["time"] = 5208.38,
+									["amount"] = -7476,
+									["school"] = 1,
+									["source"] = "Dark Rune Protector",
+									["hp"] = 18067,
+									["spellid"] = 6603,
+								}, -- [13]
+								{
+									["overheal"] = 1080,
+									["time"] = 5196.106000000001,
+									["source"] = "Tumbleweed",
+									["hp"] = 18067,
+									["spellid"] = 48443,
+								}, -- [14]
+							},
+							["time"] = 5228.691,
+							["timeod"] = 1699557734,
+							["school"] = 4,
+							["maxhp"] = 18067,
+							["spellid"] = 59866,
+							["source"] = "Searing Gaze",
+						}, -- [1]
+					},
+					["id"] = "0x070000000095B7ED",
+					["spec"] = 105,
+					["healspells"] = {
+						[53251] = {
+							["overheal"] = 136511,
+							["max"] = 777,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 26891,
+									["amount"] = 13937,
+								},
+								["Urgash"] = {
+									["overheal"] = 13823,
+									["amount"] = 22665,
+								},
+								["Earthbasher"] = {
+									["overheal"] = 28827,
+									["amount"] = 5922,
+								},
+								["Thirial"] = {
+									["overheal"] = 23408,
+									["amount"] = 17416,
+								},
+								["Miracledream"] = {
+									["overheal"] = 23142,
+									["amount"] = 17686,
+								},
+								["Berdanx"] = {
+									["overheal"] = 20420,
+									["amount"] = 16804,
+								},
+							},
+							["min"] = 35,
+							["casts"] = 9,
+							["count"] = 358,
+							["amount"] = 94430,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[48441] = {
+							["overheal"] = 148229,
+							["max"] = 1943,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 11671,
+									["amount"] = 19412,
+								},
+								["Urgash"] = {
+									["overheal"] = 38226,
+									["amount"] = 29476,
+								},
+								["Thirial"] = {
+									["overheal"] = 30057,
+									["amount"] = 15396,
+								},
+								["Miracledream"] = {
+									["overheal"] = 38004,
+									["amount"] = 18375,
+								},
+								["Berdanx"] = {
+									["overheal"] = 30271,
+									["amount"] = 15405,
+								},
+							},
+							["min"] = 14,
+							["casts"] = 22,
+							["count"] = 130,
+							["amount"] = 98064,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[54755] = {
+							["overheal"] = 0,
+							["max"] = 970,
+							["count"] = 1,
+							["amount"] = 970,
+							["school"] = 8,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 0,
+									["amount"] = 970,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 970,
+						},
+						[48443] = {
+							["overheal"] = 45482,
+							["criticalamount"] = 4786,
+							["max"] = 4797,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 8640,
+									["amount"] = 5868,
+								},
+								["Thirial"] = {
+									["overheal"] = 7350,
+									["amount"] = 7141,
+								},
+								["Miracledream"] = {
+									["overheal"] = 16620,
+									["amount"] = 14937,
+								},
+								["Berdanx"] = {
+									["overheal"] = 12872,
+									["amount"] = 20018,
+								},
+							},
+							["criticalmin"] = 4786,
+							["min"] = 182,
+							["casts"] = 7,
+							["critical"] = 1,
+							["amount"] = 47964,
+							["school"] = 8,
+							["criticalmax"] = 4786,
+							["ishot"] = true,
+							["count"] = 61,
+						},
+						[18562] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 7771,
+							["school"] = 8,
+							["max"] = 7771,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 0,
+									["amount"] = 7771,
+								},
+							},
+							["min"] = 7771,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 6650,
+							["criticalamount"] = 7476,
+							["id"] = 6603,
+							["criticalmin"] = 7476,
+							["sources"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 6650,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 7476,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 0,
+								},
+							},
+							["critical"] = 1,
+							["hit"] = 1,
+							["criticalmax"] = 7476,
+							["count"] = 3,
+							["amount"] = 14126,
+							["school"] = 1,
+							["hitmax"] = 6650,
+							["MISS"] = 1,
+							["hitamount"] = 6650,
+						},
+						["Glare of the Tribunal"] = {
+							["hitmin"] = 411,
+							["id"] = 59870,
+							["hitmax"] = 916,
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 64,
+							["resisted"] = 1238,
+							["amount"] = 8078,
+							["hitamount"] = 8078,
+						},
+						["Searing Gaze"] = {
+							["hitmin"] = 2100,
+							["id"] = 59866,
+							["overkill"] = 67,
+							["hitmax"] = 3000,
+							["sources"] = {
+								["Searing Gaze"] = {
+									["overkill"] = 67,
+									["amount"] = 17100,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 4,
+							["resisted"] = 3900,
+							["amount"] = 17100,
+							["hitamount"] = 17100,
+						},
+						["Lightning Bolt"] = {
+							["hitmin"] = 3461,
+							["id"] = 59863,
+							["hitmax"] = 6461,
+							["sources"] = {
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 17184,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 8,
+							["resisted"] = 4918,
+							["amount"] = 17184,
+							["hitamount"] = 17184,
+						},
+						["Dark Matter"] = {
+							["hitmin"] = 4318,
+							["id"] = 59868,
+							["hitmax"] = 5286,
+							["sources"] = {
+								["Dark Matter"] = {
+									["amount"] = 9604,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 479,
+							["amount"] = 9604,
+							["hitamount"] = 9604,
+						},
+					},
+					["mana"] = 12667,
+					["ragespells"] = {
+						[48541] = 92,
+					},
+					["manaspells"] = {
+						[48542] = 4807,
+						[29166] = 7860,
+					},
+					["death"] = 1,
+					["heal"] = 249199,
+					["name"] = "Tumbleweed",
+					["energy"] = 56,
+					["runic"] = 112,
+				}, -- [3]
+				{
+					["last"] = 5243.059,
+					["flag"] = 1298,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 57,
+							["school"] = 1,
+							["refresh"] = 14,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 8,
+								},
+								["Dark Rune Protector"] = {
+									["refresh"] = 6,
+									["count"] = 12,
+									["uptime"] = 30,
+								},
+								["Dark Rune Stormcaller"] = {
+									["refresh"] = 7,
+									["count"] = 6,
+									["uptime"] = 19,
+								},
+							},
+							["count"] = 20,
+						},
+						[20253] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[57623] = {
+							["refresh"] = 9,
+							["type"] = "BUFF",
+							["uptime"] = 281,
+							["count"] = 1,
+						},
+						[60065] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+						[48443] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 54,
+						},
+						[18499] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 9,
+							["uptime"] = 63,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 5,
+							["uptime"] = 90,
+						},
+						[29131] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[23885] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 22,
+							["uptime"] = 104,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 44,
+						},
+						[14202] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 24,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 14,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 177,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 279,
+						},
+					},
+					["totaldamage"] = 217018,
+					["time"] = 125.9,
+					["totaldamagetaken"] = 72338,
+					["damage"] = 217018,
+					["rage"] = 76,
+					["damagetaken"] = 72338,
+					["id"] = "0x07000000009A86E7",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["min"] = 223,
+							["count"] = 49,
+							["amount"] = 5129,
+							["max"] = 223,
+							["overheal"] = 5798,
+							["targets"] = {
+								["Miracledream"] = {
+									["overheal"] = 5798,
+									["amount"] = 5129,
+								},
+							},
+							["school"] = 1,
+						},
+					},
+					["damagetakenspells"] = {
+						["Lightning Bolt"] = {
+							["hitmin"] = 3247,
+							["id"] = 59863,
+							["hitmax"] = 3247,
+							["sources"] = {
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 3247,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 811,
+							["amount"] = 3247,
+							["hitamount"] = 3247,
+						},
+						["Charge"] = {
+							["hitmin"] = 2828,
+							["id"] = 22120,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 6058,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3230,
+							["amount"] = 6058,
+							["hitamount"] = 6058,
+						},
+						["Melee"] = {
+							["hitmin"] = 209,
+							["id"] = 6603,
+							["amount"] = 15644,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 15435,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 209,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 3485,
+							["MISS"] = 2,
+							["hitamount"] = 15644,
+						},
+						["Cleave"] = {
+							["hitmin"] = 4116,
+							["id"] = 42724,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 8349,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 4233,
+							["amount"] = 8349,
+							["hitamount"] = 8349,
+						},
+						["Searing Gaze"] = {
+							["hitmin"] = 1103,
+							["id"] = 59866,
+							["hitmax"] = 2835,
+							["sources"] = {
+								["Searing Gaze"] = {
+									["amount"] = 18273,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 4,
+							["resisted"] = 3777,
+							["amount"] = 18273,
+							["hitamount"] = 18273,
+						},
+						["Ground Smash"] = {
+							["hitmin"] = 5989,
+							["id"] = 59865,
+							["sources"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 5989,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 5989,
+							["amount"] = 5989,
+							["hitamount"] = 5989,
+						},
+						["Dark Matter"] = {
+							["hitmin"] = 4259,
+							["id"] = 59868,
+							["hitmax"] = 4427,
+							["sources"] = {
+								["Dark Matter"] = {
+									["amount"] = 8686,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 2170,
+							["amount"] = 8686,
+							["hitamount"] = 8686,
+						},
+						["Glare of the Tribunal"] = {
+							["hitmin"] = 460,
+							["id"] = 59870,
+							["hitmax"] = 1065,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 64,
+							["resisted"] = 1599,
+							["amount"] = 6092,
+							["hitamount"] = 6092,
+						},
+					},
+					["ragespells"] = {
+						[29131] = 10,
+						[2687] = 20,
+						[12964] = 46,
+					},
+					["name"] = "Miracledream",
+					["overheal"] = 5798,
+					["overkill"] = 4525,
+					["damagespells"] = {
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 73,
+							["id"] = 12721,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 1236,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 3168,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 2009,
+								},
+							},
+							["count"] = 44,
+							["hit"] = 44,
+							["school"] = 1,
+							["hitmax"] = 314,
+							["amount"] = 6413,
+							["hitamount"] = 6413,
+						},
+						["Cleave"] = {
+							["criticalmin"] = 3348,
+							["hitmin"] = 1282,
+							["criticalamount"] = 3348,
+							["id"] = 47520,
+							["PARRY"] = 1,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 14336,
+								},
+							},
+							["casts"] = 6,
+							["hit"] = 8,
+							["criticalmax"] = 3348,
+							["hitmax"] = 1479,
+							["amount"] = 14336,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 10,
+							["hitamount"] = 10988,
+						},
+						["Execute"] = {
+							["criticalmin"] = 4188,
+							["hitmin"] = 1767,
+							["criticalamount"] = 4188,
+							["id"] = 20647,
+							["casts"] = 1,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["overkill"] = 1653,
+									["amount"] = 3657,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 1310,
+									["amount"] = 4188,
+								},
+							},
+							["overkill"] = 2963,
+							["count"] = 3,
+							["criticalmax"] = 4188,
+							["hitmax"] = 1890,
+							["amount"] = 7845,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
+							["hitamount"] = 3657,
+						},
+						["Whirlwind"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 708,
+							["criticalmin"] = 1667,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 2084,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 29004,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 1446,
+									["amount"] = 21843,
+								},
+							},
+							["amount"] = 52931,
+							["criticalamount"] = 29432,
+							["id"] = 44949,
+							["casts"] = 12,
+							["critical"] = 12,
+							["overkill"] = 1446,
+							["hit"] = 22,
+							["criticalmax"] = 2983,
+							["count"] = 38,
+							["blocked"] = 80,
+							["school"] = 1,
+							["hitmax"] = 1682,
+							["PARRY"] = 1,
+							["hitamount"] = 23499,
+						},
+						["Intercept"] = {
+							["hitmin"] = 291,
+							["id"] = 20253,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 291,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 634,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 319,
+							["amount"] = 925,
+							["hitamount"] = 925,
+						},
+						["Bloodthirst"] = {
+							["criticalamount"] = 35644,
+							["hitmin"] = 1399,
+							["criticalmin"] = 3036,
+							["id"] = 23881,
+							["casts"] = 22,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 7512,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 25015,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 19896,
+								},
+							},
+							["count"] = 22,
+							["blocked"] = 41,
+							["criticalmax"] = 3414,
+							["hitmax"] = 1777,
+							["amount"] = 52423,
+							["school"] = 1,
+							["critical"] = 11,
+							["hit"] = 11,
+							["hitamount"] = 16779,
+						},
+						["Slam"] = {
+							["hitmin"] = 1369,
+							["id"] = 50783,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 1369,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 1417,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1417,
+							["amount"] = 2786,
+							["hitamount"] = 2786,
+						},
+						["Victory Rush"] = {
+							["hitmin"] = 1093,
+							["criticalamount"] = 7835,
+							["id"] = 34428,
+							["criticalmin"] = 2376,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 2376,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 6552,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 1197,
+								},
+							},
+							["casts"] = 5,
+							["count"] = 5,
+							["criticalmax"] = 2967,
+							["hitmax"] = 1197,
+							["amount"] = 10125,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 3,
+							["hitamount"] = 2290,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 6488,
+							["hitmin"] = 582,
+							["criticalmin"] = 1178,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 4139,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 32631,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 116,
+									["amount"] = 27645,
+								},
+							},
+							["glancing"] = 9,
+							["amount"] = 64415,
+							["MISS"] = 3,
+							["glancemin"] = 530,
+							["criticalamount"] = 24918,
+							["id"] = 6603,
+							["glancemax"] = 958,
+							["overkill"] = 116,
+							["critical"] = 16,
+							["criticalmax"] = 2306,
+							["hitmax"] = 1233,
+							["hit"] = 39,
+							["school"] = 1,
+							["blocked"] = 160,
+							["count"] = 68,
+							["hitamount"] = 33009,
+						},
+						["Heroic Strike"] = {
+							["criticalmin"] = 3335,
+							["hitmin"] = 1484,
+							["criticalamount"] = 3335,
+							["id"] = 47450,
+							["casts"] = 3,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 0,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 4819,
+								},
+							},
+							["critical"] = 1,
+							["hit"] = 1,
+							["criticalmax"] = 3335,
+							["count"] = 3,
+							["amount"] = 4819,
+							["school"] = 1,
+							["hitmax"] = 1484,
+							["PARRY"] = 1,
+							["hitamount"] = 1484,
+						},
+					},
+					["heal"] = 5129,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["last"] = 5243.634,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 275,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 123,
+						},
+						[43046] = {
+							["school"] = 4,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 271,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 72,
+						},
+						[48443] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 56,
+						},
+						[34123] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 128,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 9,
+							["uptime"] = 58,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 4,
+							["refresh"] = 4,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["refresh"] = 3,
+									["count"] = 2,
+									["uptime"] = 4,
+								},
+								["Dark Rune Protector"] = {
+									["refresh"] = 1,
+									["count"] = 4,
+									["uptime"] = 10,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[1953] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[42931] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[42995] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 272,
+						},
+						[12051] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[57073] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[42940] = {
+							["school"] = 16,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 260,
+						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 4,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[48108] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 17,
+						},
+						[43020] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 35,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 6,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 263,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 17,
+							["school"] = 4,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["uptime"] = 13,
+									["count"] = 2,
+								},
+								["Dark Rune Protector"] = {
+									["uptime"] = 42,
+									["count"] = 8,
+								},
+								["Dark Rune Stormcaller"] = {
+									["uptime"] = 31,
+									["count"] = 7,
+								},
+							},
+							["uptime"] = 69,
+						},
+					},
+					["absorbspells"] = {
+						[43020] = {
+							["min"] = 599,
+							["casts"] = 2,
+							["count"] = 5,
+							["amount"] = 5662,
+							["school"] = 64,
+							["targets"] = {
+								["Berdanx"] = 5662,
+							},
+							["max"] = 2232,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 91.16000000000001,
+					["totaldamagetaken"] = 72824,
+					["damage"] = 129196,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmin"] = 6938,
+							["hitmax"] = 5256,
+							["hitmin"] = 3917,
+							["criticalamount"] = 14597,
+							["id"] = 42833,
+							["critical"] = 2,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 9716,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 20896,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 2348,
+									["amount"] = 12004,
+								},
+							},
+							["overkill"] = 2348,
+							["hit"] = 6,
+							["casts"] = 11,
+							["count"] = 8,
+							["amount"] = 42616,
+							["school"] = 4,
+							["resisted"] = 1084,
+							["criticalmax"] = 7659,
+							["hitamount"] = 28019,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 578,
+							["id"] = 42891,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 578,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 578,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 578,
+							["amount"] = 1156,
+							["hitamount"] = 1156,
+						},
+						["Molten Armor"] = {
+							["hitmin"] = 202,
+							["criticalamount"] = 396,
+							["id"] = 43044,
+							["criticalmin"] = 396,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 1863,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 8,
+							["criticalmax"] = 396,
+							["hitmax"] = 228,
+							["amount"] = 1863,
+							["school"] = 4,
+							["hit"] = 7,
+							["critical"] = 1,
+							["hitamount"] = 1467,
+						},
+						["Fire Blast"] = {
+							["criticalmin"] = 4653,
+							["hitmin"] = 1740,
+							["criticalamount"] = 14617,
+							["id"] = 42873,
+							["hitmax"] = 2825,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 9964,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 9055,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 9574,
+								},
+							},
+							["critical"] = 3,
+							["hit"] = 6,
+							["casts"] = 9,
+							["count"] = 9,
+							["amount"] = 28593,
+							["school"] = 4,
+							["resisted"] = 434,
+							["criticalmax"] = 5070,
+							["hitamount"] = 13976,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 4443,
+							["criticalamount"] = 7622,
+							["id"] = 42891,
+							["criticalmin"] = 7622,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 7622,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 4443,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["criticalmax"] = 7622,
+							["hitmax"] = 4443,
+							["amount"] = 12065,
+							["school"] = 4,
+							["hit"] = 1,
+							["critical"] = 1,
+							["hitamount"] = 4443,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 298,
+							["id"] = 12654,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 837,
+								},
+								["Dark Rune Protector"] = {
+									["amount"] = 2160,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 183,
+									["amount"] = 298,
+								},
+							},
+							["overkill"] = 183,
+							["hitmax"] = 1524,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["resisted"] = 93,
+							["amount"] = 3295,
+							["hitamount"] = 3295,
+						},
+						["Living Bomb (DoT)"] = {
+							["criticalamount"] = 9233,
+							["critical"] = 6,
+							["hitmin"] = 684,
+							["criticalmin"] = 1345,
+							["id"] = 55360,
+							["hitmax"] = 966,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 4859,
+								},
+								["Dark Rune Protector"] = {
+									["overkill"] = 208,
+									["amount"] = 14285,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 6745,
+								},
+							},
+							["overkill"] = 208,
+							["hit"] = 19,
+							["casts"] = 15,
+							["count"] = 25,
+							["amount"] = 25889,
+							["school"] = 4,
+							["resisted"] = 668,
+							["criticalmax"] = 1689,
+							["hitamount"] = 16656,
+						},
+						["Scorch"] = {
+							["critical"] = 2,
+							["hitmin"] = 1762,
+							["criticalamount"] = 5649,
+							["id"] = 42859,
+							["criticalmin"] = 2680,
+							["targets"] = {
+								["Iron Golem Custodian"] = {
+									["amount"] = 5649,
+								},
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 1762,
+								},
+							},
+							["hitmax"] = 1762,
+							["hit"] = 1,
+							["criticalmax"] = 2969,
+							["count"] = 3,
+							["amount"] = 7411,
+							["school"] = 4,
+							["resisted"] = 670,
+							["casts"] = 3,
+							["hitamount"] = 1762,
+						},
+						["Cone of Cold"] = {
+							["hitmin"] = 1194,
+							["id"] = 42931,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["overkill"] = 23,
+									["amount"] = 2825,
+								},
+								["Dark Rune Stormcaller"] = {
+									["overkill"] = 1270,
+									["amount"] = 2981,
+								},
+							},
+							["overkill"] = 1293,
+							["hitmax"] = 1631,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["resisted"] = 132,
+							["amount"] = 5806,
+							["hitamount"] = 5806,
+						},
+						["Flamestrike (DoT)"] = {
+							["hitmin"] = 502,
+							["id"] = 42926,
+							["targets"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 502,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 502,
+							["amount"] = 502,
+							["hitamount"] = 502,
+						},
+					},
+					["absorb"] = 5662,
+					["damagetaken"] = 67162,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["time"] = 5098.193,
+									["school"] = 64,
+									["source"] = "Tumbleweed",
+									["hp"] = 0,
+									["spellid"] = 48477,
+								}, -- [1]
+								{
+									["time"] = 5094.079000000001,
+									["source"] = "Dark Rune Protector",
+									["amount"] = -7289,
+									["school"] = 1,
+									["hp"] = 0,
+									["spellid"] = 42724,
+									["overkill"] = 1596,
+								}, -- [2]
+								{
+									["source"] = "Dark Rune Protector",
+									["amount"] = -6850,
+									["school"] = 1,
+									["spellid"] = 42724,
+									["hp"] = 4959,
+									["time"] = 5092.229,
+								}, -- [3]
+								{
+									["source"] = "Dark Rune Stormcaller",
+									["time"] = 5090.675,
+									["amount"] = -3830,
+									["school"] = 8,
+									["resisted"] = 957,
+									["hp"] = 11809,
+									["spellid"] = 59863,
+								}, -- [4]
+								{
+									["source"] = "Dark Rune Protector",
+									["amount"] = -4954,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["hp"] = 20593,
+									["time"] = 5087.898,
+								}, -- [5]
+								{
+									["overheal"] = 1942,
+									["source"] = "Tumbleweed",
+									["spellid"] = 48441,
+									["hp"] = 20593,
+									["time"] = 5083.412,
+								}, -- [6]
+								{
+									["overheal"] = 1493,
+									["source"] = "Tumbleweed",
+									["amount"] = 450,
+									["spellid"] = 48441,
+									["hp"] = 20593,
+									["time"] = 5080.374000000001,
+								}, -- [7]
+								{
+									["time"] = 5078.984,
+									["amount"] = -450,
+									["school"] = 64,
+									["resisted"] = 192,
+									["spellid"] = 59870,
+									["hp"] = 20143,
+								}, -- [8]
+								{
+									["overheal"] = 1943,
+									["source"] = "Tumbleweed",
+									["spellid"] = 48441,
+									["hp"] = 20593,
+									["time"] = 5077.469,
+								}, -- [9]
+								{
+									["overheal"] = 1943,
+									["source"] = "Tumbleweed",
+									["spellid"] = 48441,
+									["hp"] = 20593,
+									["time"] = 5074.453,
+								}, -- [10]
+								{
+									["overheal"] = 157,
+									["source"] = "Tumbleweed",
+									["amount"] = 1786,
+									["spellid"] = 48441,
+									["hp"] = 20593,
+									["time"] = 5071.47,
+								}, -- [11]
+								{
+									["time"] = 5069.779000000001,
+									["amount"] = -555,
+									["school"] = 64,
+									["resisted"] = 61,
+									["spellid"] = 59870,
+									["hp"] = 18807,
+								}, -- [12]
+								{
+									["source"] = "Tumbleweed",
+									["amount"] = 1943,
+									["spellid"] = 48441,
+									["hp"] = 18814,
+									["time"] = 5068.447,
+								}, -- [13]
+								{
+									["time"] = 5066.848,
+									["amount"] = -556,
+									["school"] = 64,
+									["resisted"] = 61,
+									["spellid"] = 59870,
+									["hp"] = 15658,
+								}, -- [14]
+							},
+							["time"] = 5094.078,
+							["timeod"] = 1699557600,
+							["school"] = 1,
+							["maxhp"] = 20593,
+							["spellid"] = 42724,
+							["source"] = "Dark Rune Protector",
+						}, -- [1]
+					},
+					["id"] = "0x07000000009E540C",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 4358,
+							["id"] = 6603,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["amount"] = 14412,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 5100,
+							["amount"] = 14412,
+							["hitamount"] = 14412,
+						},
+						["Glare of the Tribunal"] = {
+							["total"] = 9626,
+							["hitmin"] = 450,
+							["id"] = 59870,
+							["hitmax"] = 1279,
+							["hit"] = 10,
+							["count"] = 13,
+							["amount"] = 7781,
+							["school"] = 64,
+							["resisted"] = 314,
+							["ABSORB"] = 3,
+							["hitamount"] = 7781,
+						},
+						["Lightning Bolt"] = {
+							["hitmin"] = 3830,
+							["id"] = 59863,
+							["hitmax"] = 3830,
+							["sources"] = {
+								["Dark Rune Stormcaller"] = {
+									["amount"] = 3830,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 957,
+							["amount"] = 3830,
+							["hitamount"] = 3830,
+						},
+						["Dark Matter"] = {
+							["total"] = 10350,
+							["hitmin"] = 3117,
+							["id"] = 59868,
+							["sources"] = {
+								["Dark Matter"] = {
+									["total"] = 10350,
+									["amount"] = 8118,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 5001,
+							["amount"] = 8118,
+							["hitamount"] = 8118,
+						},
+						["Cleave"] = {
+							["total"] = 34606,
+							["hitmin"] = 5219,
+							["id"] = 42724,
+							["overkill"] = 1596,
+							["sources"] = {
+								["Dark Rune Protector"] = {
+									["total"] = 34606,
+									["overkill"] = 1596,
+									["amount"] = 33021,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 7289,
+							["amount"] = 33021,
+							["hitamount"] = 33021,
+						},
+					},
+					["interrupt"] = 2,
+					["overkill"] = 4032,
+					["name"] = "Berdanx",
+					["death"] = 1,
+					["manaspells"] = {
+						[29077] = 1358,
+						[67545] = 325,
+						[12051] = 12924,
+						[44450] = -225,
+					},
+					["mana"] = 14382,
+					["interruptspells"] = {
+						[2139] = {
+							["spells"] = {
+								[59863] = 2,
+							},
+							["count"] = 2,
+							["targets"] = {
+								["Dark Rune Stormcaller"] = 2,
+							},
+						},
+					},
+					["totaldamage"] = 129196,
+				}, -- [5]
+			},
+			["starttime"] = 1699557477,
+			["mana"] = 40843,
+			["last_action"] = 1699557757,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -8412,14 +11786,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1013,
 						},
-						[51460] = {
-							["school"] = 32,
+						[48562] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4946,
+								["Thirial"] = {
+									["amount"] = 14718,
 								},
 							},
-							["amount"] = 4946,
+							["amount"] = 14718,
 						},
 						[48564] = {
 							["school"] = 1,
@@ -8457,26 +11831,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6552,
 						},
-						[48480] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["overkill"] = 3948,
-									["amount"] = 65841,
-								},
-							},
-							["overkill"] = 3948,
-							["amount"] = 65841,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 25015,
-								},
-							},
-							["amount"] = 25015,
-						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
@@ -8487,6 +11841,24 @@ SkadaStorageDB = {
 							},
 							["overkill"] = 333,
 							["amount"] = 9429,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Miracledream"] = {
+									["amount"] = 25015,
+								},
+							},
+							["amount"] = 25015,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4993,
+								},
+							},
+							["amount"] = 4993,
 						},
 						[50783] = {
 							["school"] = 1,
@@ -8524,24 +11896,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 9768,
 						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4993,
-								},
-							},
-							["amount"] = 4993,
-						},
-						[43044] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 1863,
-								},
-							},
-							["amount"] = 1863,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
@@ -8559,19 +11913,39 @@ SkadaStorageDB = {
 							["overkill"] = 2853,
 							["amount"] = 78955,
 						},
-						[48562] = {
+						[43044] = {
+							["school"] = 4,
+							["sources"] = {
+								["Berdanx"] = {
+									["amount"] = 1863,
+								},
+							},
+							["amount"] = 1863,
+						},
+						[48480] = {
 							["school"] = 1,
 							["sources"] = {
 								["Thirial"] = {
-									["amount"] = 14718,
+									["overkill"] = 3948,
+									["amount"] = 65841,
 								},
 							},
-							["amount"] = 14718,
+							["overkill"] = 3948,
+							["amount"] = 65841,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4946,
+								},
+							},
+							["amount"] = 4946,
 						},
 					},
+					["totaldamage"] = 171366,
 					["name"] = "Dark Rune Protector",
 					["overkill"] = 1596,
-					["totaldamage"] = 171366,
 					["totaldamagetaken"] = 415644,
 					["id"] = "0xF130006D4F00009E",
 					["damage"] = 148611,
@@ -8898,14 +12272,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1417,
 						},
-						[42873] = {
-							["school"] = 4,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 9574,
+								["Urgash"] = {
+									["overkill"] = 3066,
+									["amount"] = 54033,
+								},
+								["Miracledream"] = {
+									["overkill"] = 116,
+									["amount"] = 27645,
+								},
+								["Thirial"] = {
+									["amount"] = 5401,
 								},
 							},
-							["amount"] = 9574,
+							["overkill"] = 3182,
+							["amount"] = 87079,
 						},
 						[53307] = {
 							["school"] = 8,
@@ -8925,23 +12308,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4819,
 						},
-						[6603] = {
-							["school"] = 1,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 3066,
-									["amount"] = 54033,
-								},
-								["Miracledream"] = {
-									["overkill"] = 116,
-									["amount"] = 27645,
-								},
-								["Thirial"] = {
-									["amount"] = 5401,
+									["amount"] = 11093,
 								},
 							},
-							["overkill"] = 3182,
-							["amount"] = 87079,
+							["amount"] = 11093,
+						},
+						[42873] = {
+							["school"] = 4,
+							["sources"] = {
+								["Berdanx"] = {
+									["amount"] = 9574,
+								},
+							},
+							["amount"] = 9574,
 						},
 						[48480] = {
 							["school"] = 1,
@@ -8954,15 +12337,6 @@ SkadaStorageDB = {
 							["overkill"] = 1609,
 							["amount"] = 47331,
 						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 11093,
-								},
-							},
-							["amount"] = 11093,
-						},
 						[12721] = {
 							["school"] = 1,
 							["sources"] = {
@@ -8973,8 +12347,8 @@ SkadaStorageDB = {
 							["amount"] = 2009,
 						},
 					},
-					["name"] = "Dark Rune Stormcaller",
 					["totaldamage"] = 59150,
+					["name"] = "Dark Rune Stormcaller",
 					["totaldamagetaken"] = 358644,
 					["id"] = "0xF130006D5000009F",
 					["damage"] = 59150,
@@ -9002,8 +12376,8 @@ SkadaStorageDB = {
 							["amount"] = 35595,
 						},
 					},
-					["name"] = "Dark Matter",
 					["totaldamage"] = 37827,
+					["name"] = "Dark Matter",
 					["flag"] = 2632,
 					["class"] = "MONSTER",
 					["id"] = "0xF130006E4B0000B1",
@@ -9034,11 +12408,11 @@ SkadaStorageDB = {
 							["overkill"] = 67,
 						},
 					},
-					["id"] = "0xF130006E690000B6",
-					["class"] = "MONSTER",
-					["overkill"] = 67,
 					["totaldamage"] = 75897,
 					["name"] = "Searing Gaze",
+					["overkill"] = 67,
+					["id"] = "0xF130006E690000B6",
+					["class"] = "MONSTER",
 					["flag"] = 2632,
 					["damage"] = 66447,
 				}, -- [4]
@@ -9152,15 +12526,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 16927,
 						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5603,
-								},
-							},
-							["amount"] = 5603,
-						},
 						[55078] = {
 							["school"] = 32,
 							["sources"] = {
@@ -9170,14 +12535,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 912,
 						},
-						[49909] = {
-							["school"] = 16,
+						[34428] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3411,
+								["Miracledream"] = {
+									["amount"] = 2376,
 								},
 							},
-							["amount"] = 3411,
+							["amount"] = 2376,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Miracledream"] = {
+									["amount"] = 765,
+								},
+							},
+							["amount"] = 765,
 						},
 						[51460] = {
 							["school"] = 32,
@@ -9197,14 +12571,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1319,
 						},
-						[34428] = {
+						[49924] = {
 							["school"] = 1,
 							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 2376,
+								["Urgash"] = {
+									["amount"] = 5603,
 								},
 							},
-							["amount"] = 2376,
+							["amount"] = 5603,
 						},
 						[12654] = {
 							["school"] = 4,
@@ -9321,14 +12695,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1236,
 						},
-						[44949] = {
-							["school"] = 1,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 765,
+								["Urgash"] = {
+									["amount"] = 3411,
 								},
 							},
-							["amount"] = 765,
+							["amount"] = 3411,
 						},
 						[48564] = {
 							["school"] = 1,
@@ -9340,19 +12714,19 @@ SkadaStorageDB = {
 							["amount"] = 5646,
 						},
 					},
-					["name"] = "Iron Golem Custodian",
 					["totaldamage"] = 27668,
+					["name"] = "Iron Golem Custodian",
 					["totaldamagetaken"] = 137540,
 					["id"] = "0xF130006D510000BE",
 					["damage"] = 21984,
 				}, -- [5]
 				{
-					["id"] = "0xF130007E0200003D",
-					["name"] = "Gold Beetle",
-					["totaldamagetaken"] = 1441,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
 					["damagetaken"] = 1441,
+					["name"] = "Gold Beetle",
+					["class"] = "MONSTER",
+					["flag"] = 2600,
+					["totaldamagetaken"] = 1441,
+					["id"] = "0xF130007E0200003D",
 					["damagetakenspells"] = {
 						[50526] = {
 							["school"] = 32,
@@ -9368,3312 +12742,32 @@ SkadaStorageDB = {
 					},
 				}, -- [6]
 			},
-			["totaldamagetaken"] = 410330,
-			["last_time"] = 5251.099,
-			["damagetaken"] = 368364,
-			["overkill"] = 45750,
-			["edamagetaken"] = 913269,
-			["heal"] = 307043,
-			["name"] = "Dark Rune Protector",
 			["ccdone"] = 12,
-			["edamage"] = 331787,
-			["last_action"] = 1699557757,
-			["mana"] = 40843,
 			["totaldamage"] = 913269,
 			["time"] = 281,
+			["death"] = 2,
+			["totaldamagetaken"] = 410330,
 			["etotaldamage"] = 371908,
 			["damage"] = 913269,
 			["rage"] = 445,
 			["type"] = "party",
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[49560] = {
-							["count"] = 4,
-							["targets"] = {
-								["Dark Rune Protector"] = 1,
-								["Dark Rune Stormcaller"] = 3,
-							},
-						},
-					},
-					["last"] = 5243.059,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 273,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 273,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 8,
-							["uptime"] = 108,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 31,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 15,
-							["school"] = 32,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-								["Dark Rune Protector"] = {
-									["uptime"] = 22,
-									["count"] = 8,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 8,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 33,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["uptime"] = 41,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 28,
-							["uptime"] = 160,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 18,
-							["uptime"] = 273,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 55,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 53,
-							["school"] = 32,
-							["refresh"] = 8,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 9,
-								},
-								["Dark Rune Protector"] = {
-									["count"] = 10,
-									["refresh"] = 3,
-									["uptime"] = 29,
-								},
-								["Dark Rune Stormcaller"] = {
-									["count"] = 7,
-									["refresh"] = 3,
-									["uptime"] = 19,
-								},
-							},
-							["count"] = 19,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 32,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["uptime"] = 14,
-									["count"] = 4,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[48792] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[59752] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[48707] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 5,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 189,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 5,
-							["school"] = 1,
-							["uptime"] = 279,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 6,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 16,
-							["school"] = 16,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["uptime"] = 9,
-									["count"] = 2,
-								},
-								["Dark Rune Protector"] = {
-									["uptime"] = 22,
-									["count"] = 8,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 17,
-									["count"] = 6,
-								},
-							},
-							["uptime"] = 46,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 16,
-							["school"] = 8,
-							["uptime"] = 56,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 7,
-							["school"] = 1,
-							["refresh"] = 8,
-							["uptime"] = 181,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 10,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Dark Rune Protector"] = {
-									["uptime"] = 7,
-									["count"] = 3,
-								},
-								["Dark Rune Stormcaller"] = {
-									["count"] = 6,
-									["refresh"] = 2,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[71560] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 60,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 61,
-						},
-						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 40,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 64,
-							["uptime"] = 60,
-						},
-					},
-					["absorbspells"] = {
-						[48707] = {
-							["min"] = 1575,
-							["casts"] = 1,
-							["count"] = 5,
-							["amount"] = 9450,
-							["school"] = 32,
-							["targets"] = {
-								["Urgash"] = 9450,
-							},
-							["max"] = 2250,
-						},
-					},
-					["time"] = 107.59,
-					["totaldamage"] = 374224,
-					["runicspells"] = {
-						[49088] = 137,
-					},
-					["totaldamagetaken"] = 109374,
-					["runic"] = 137,
-					["damage"] = 374224,
-					["overheal"] = 17451,
-					["absorb"] = 9450,
-					["damagetaken"] = 99924,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 2951,
-							["max"] = 301,
-							["count"] = 70,
-							["amount"] = 6100,
-							["school"] = 1,
-							["min"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 2951,
-									["amount"] = 6100,
-								},
-							},
-						},
-						[48743] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 14373,
-							["school"] = 32,
-							["max"] = 14373,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 14373,
-								},
-							},
-							["min"] = 14373,
-						},
-						[53365] = {
-							["overheal"] = 4098,
-							["criticalamount"] = 1249,
-							["max"] = 1249,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 4098,
-									["amount"] = 2683,
-								},
-							},
-							["min"] = 357,
-							["criticalmax"] = 1249,
-							["critical"] = 2,
-							["amount"] = 2683,
-							["school"] = 1,
-							["count"] = 5,
-							["criticalmin"] = 0,
-						},
-						[34299] = {
-							["overheal"] = 10402,
-							["max"] = 1523,
-							["count"] = 16,
-							["amount"] = 11297,
-							["school"] = 1,
-							["min"] = 1167,
-							["ishot"] = true,
-							["targets"] = {
-								["Earthbasher"] = {
-									["overheal"] = 5835,
-									["amount"] = 2334,
-								},
-								["Urgash"] = {
-									["overheal"] = 4567,
-									["amount"] = 8963,
-								},
-							},
-						},
-						[45470] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 5390,
-							["school"] = 1,
-							["max"] = 5390,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 5390,
-								},
-							},
-							["min"] = 5390,
-						},
-					},
-					["damagetakenspells"] = {
-						["Dark Matter"] = {
-							["hitmin"] = 4346,
-							["id"] = 59868,
-							["hitmax"] = 4841,
-							["sources"] = {
-								["Dark Matter"] = {
-									["amount"] = 9187,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 482,
-							["amount"] = 9187,
-							["hitamount"] = 9187,
-						},
-						["Charge"] = {
-							["hitmin"] = 1980,
-							["id"] = 22120,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 6114,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 2070,
-							["amount"] = 6114,
-							["hitamount"] = 6114,
-						},
-						["Melee"] = {
-							["DODGE"] = 3,
-							["hitmin"] = 150,
-							["id"] = 6603,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 4057,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 507,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2058,
-							["amount"] = 4564,
-							["hitamount"] = 4564,
-						},
-						["Cleave"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 3169,
-							["id"] = 42724,
-							["PARRY"] = 2,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 21652,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 5881,
-							["amount"] = 21652,
-							["hitamount"] = 21652,
-						},
-						["Searing Gaze"] = {
-							["total"] = 34980,
-							["hitmin"] = 525,
-							["id"] = 59866,
-							["hitmax"] = 3000,
-							["sources"] = {
-								["Searing Gaze"] = {
-									["total"] = 34980,
-									["amount"] = 25530,
-								},
-							},
-							["count"] = 16,
-							["hit"] = 16,
-							["school"] = 4,
-							["resisted"] = 5820,
-							["amount"] = 25530,
-							["hitamount"] = 25530,
-						},
-						["Ground Smash"] = {
-							["hitmin"] = 5735,
-							["id"] = 59865,
-							["sources"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 5735,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 5735,
-							["amount"] = 5735,
-							["hitamount"] = 5735,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 2805,
-							["id"] = 59863,
-							["hitmax"] = 5562,
-							["sources"] = {
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 18412,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 3705,
-							["amount"] = 18412,
-							["hitamount"] = 18412,
-						},
-						["Glare of the Tribunal"] = {
-							["hitmin"] = 353,
-							["id"] = 59870,
-							["hitmax"] = 912,
-							["count"] = 17,
-							["hit"] = 17,
-							["school"] = 64,
-							["resisted"] = 1875,
-							["amount"] = 8730,
-							["hitamount"] = 8730,
-						},
-					},
-					["overkill"] = 30516,
-					["heal"] = 39843,
-					["name"] = "Urgash",
-					["ccdone"] = 4,
-					["interrupt"] = 1,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["blocked"] = 40,
-							["hitmax"] = 3339,
-							["hitmin"] = 3339,
-							["criticalamount"] = 16896,
-							["id"] = 55271,
-							["count"] = 3,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["overkill"] = 3301,
-									["amount"] = 8393,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 4560,
-									["amount"] = 11842,
-								},
-							},
-							["overkill"] = 7861,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 20235,
-							["school"] = 1,
-							["criticalmin"] = 8393,
-							["criticalmax"] = 8503,
-							["hitamount"] = 3339,
-						},
-						["Death and Decay"] = {
-							["criticalmin"] = 1189,
-							["hitmin"] = 504,
-							["criticalamount"] = 11022,
-							["id"] = 52212,
-							["hitmax"] = 806,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 19825,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 5442,
-								},
-							},
-							["count"] = 32,
-							["hit"] = 23,
-							["casts"] = 2,
-							["critical"] = 9,
-							["amount"] = 25267,
-							["school"] = 32,
-							["resisted"] = 317,
-							["criticalmax"] = 1382,
-							["hitamount"] = 14245,
-						},
-						["Death Coil"] = {
-							["criticalmin"] = 6362,
-							["hitmin"] = 3080,
-							["criticalamount"] = 22107,
-							["id"] = 47632,
-							["criticalmax"] = 8982,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 3331,
-								},
-								["Dark Rune Protector"] = {
-									["overkill"] = 1394,
-									["amount"] = 15470,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 6701,
-									["amount"] = 42150,
-								},
-							},
-							["overkill"] = 8095,
-							["critical"] = 3,
-							["casts"] = 15,
-							["count"] = 14,
-							["hit"] = 11,
-							["school"] = 32,
-							["hitmax"] = 4359,
-							["amount"] = 60951,
-							["hitamount"] = 38844,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 30,
-							["id"] = 50536,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 248,
-								},
-								["Iron Golem Custodian"] = {
-									["amount"] = 96,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 35,
-								},
-							},
-							["hitmax"] = 43,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 32,
-							["resisted"] = 3,
-							["amount"] = 379,
-							["hitamount"] = 379,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 860,
-							["id"] = 50526,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 1864,
-								},
-								["Gold Beetle"] = {
-									["overkill"] = 1432,
-									["amount"] = 1441,
-								},
-								["Dark Rune Protector"] = {
-									["overkill"] = 628,
-									["amount"] = 5851,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 3843,
-								},
-							},
-							["overkill"] = 2060,
-							["hitmax"] = 1673,
-							["casts"] = 1,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 32,
-							["resisted"] = 225,
-							["amount"] = 12999,
-							["hitamount"] = 12999,
-						},
-						["Melee (Earthbasher)"] = {
-							["glance"] = 1591,
-							["hitmin"] = 527,
-							["criticalmin"] = 1070,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 3351,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 8901,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 10047,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 22299,
-							["glancemin"] = 495,
-							["criticalamount"] = 5728,
-							["id"] = 6603,
-							["glancemax"] = 565,
-							["criticalmax"] = 1200,
-							["hitmax"] = 670,
-							["hit"] = 26,
-							["school"] = 1,
-							["critical"] = 5,
-							["count"] = 34,
-							["hitamount"] = 14980,
-						},
-						["Death Strike"] = {
-							["criticalamount"] = 5603,
-							["id"] = 49924,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 5603,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5603,
-							["school"] = 1,
-							["criticalmin"] = 5603,
-							["criticalmax"] = 5603,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["DODGE"] = 4,
-							["glance"] = 6533,
-							["hitmin"] = 2614,
-							["criticalmin"] = 5751,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 18778,
-								},
-								["Dark Rune Protector"] = {
-									["overkill"] = 2853,
-									["amount"] = 32259,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 3066,
-									["amount"] = 43986,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 95023,
-							["glancemin"] = 3260,
-							["criticalamount"] = 46460,
-							["id"] = 6603,
-							["glancemax"] = 3273,
-							["overkill"] = 5919,
-							["critical"] = 7,
-							["criticalmax"] = 7323,
-							["hitmax"] = 3906,
-							["hit"] = 13,
-							["school"] = 1,
-							["blocked"] = 80,
-							["count"] = 26,
-							["hitamount"] = 42030,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1425,
-							["id"] = 50463,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 1635,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 1425,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 1598,
-								},
-							},
-							["hitmax"] = 1635,
-							["PARRY"] = 1,
-							["count"] = 4,
-							["amount"] = 4658,
-							["school"] = 1,
-							["casts"] = 1,
-							["hit"] = 3,
-							["hitamount"] = 4658,
-						},
-						["Claw (Earthbasher)"] = {
-							["criticalmax"] = 1830,
-							["hitmin"] = 774,
-							["criticalamount"] = 6934,
-							["id"] = 47468,
-							["criticalmin"] = 1646,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 6187,
-								},
-								["Dark Rune Protector"] = {
-									["overkill"] = 786,
-									["amount"] = 8271,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 917,
-									["amount"] = 13342,
-								},
-							},
-							["overkill"] = 1703,
-							["critical"] = 4,
-							["casts"] = 1,
-							["count"] = 28,
-							["hit"] = 24,
-							["school"] = 1,
-							["hitmax"] = 1020,
-							["amount"] = 27800,
-							["hitamount"] = 20866,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 522,
-							["id"] = 51460,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 3755,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 4946,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 592,
-									["amount"] = 5194,
-								},
-							},
-							["overkill"] = 592,
-							["hitmax"] = 1348,
-							["casts"] = 1,
-							["count"] = 16,
-							["hit"] = 16,
-							["school"] = 32,
-							["resisted"] = 146,
-							["amount"] = 13895,
-							["hitamount"] = 13895,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 912,
-							["id"] = 55078,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 912,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 8001,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 1190,
-								},
-							},
-							["hitmax"] = 1413,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 32,
-							["resisted"] = 227,
-							["amount"] = 10103,
-							["hitamount"] = 10103,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 853,
-							["id"] = 71904,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 2480,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 3527,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 903,
-								},
-							},
-							["hitmax"] = 2480,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 719,
-							["amount"] = 6910,
-							["hitamount"] = 6910,
-						},
-						["Icy Touch"] = {
-							["criticalmin"] = 3798,
-							["hitmin"] = 1646,
-							["criticalamount"] = 3798,
-							["id"] = 49909,
-							["hitmax"] = 1945,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 3411,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 4993,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 11093,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 9,
-							["casts"] = 11,
-							["critical"] = 1,
-							["amount"] = 19497,
-							["school"] = 16,
-							["resisted"] = 194,
-							["criticalmax"] = 3798,
-							["hitamount"] = 15699,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1951,
-							["criticalamount"] = 15594,
-							["id"] = 49921,
-							["criticalmin"] = 5026,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 6977,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 6242,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 15042,
-								},
-							},
-							["criticalmax"] = 5368,
-							["critical"] = 3,
-							["casts"] = 10,
-							["count"] = 9,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 2394,
-							["amount"] = 28261,
-							["hitamount"] = 12667,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1064,
-							["id"] = 55095,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["overkill"] = 1610,
-									["amount"] = 2683,
-								},
-								["Dark Rune Protector"] = {
-									["overkill"] = 333,
-									["amount"] = 9429,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 2973,
-								},
-							},
-							["overkill"] = 1943,
-							["hitmax"] = 1695,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 16,
-							["resisted"] = 266,
-							["amount"] = 15085,
-							["hitamount"] = 15085,
-						},
-						["Blood Strike"] = {
-							["hitmax"] = 2262,
-							["hitmin"] = 2262,
-							["criticalamount"] = 2997,
-							["id"] = 49930,
-							["count"] = 2,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["overkill"] = 2343,
-									["amount"] = 2997,
-								},
-								["Iron Golem Custodian"] = {
-									["amount"] = 2262,
-								},
-							},
-							["overkill"] = 2343,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 5259,
-							["school"] = 1,
-							["criticalmin"] = 2997,
-							["criticalmax"] = 2997,
-							["hitamount"] = 2262,
-						},
-					},
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[59863] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Dark Rune Stormcaller"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["ccdonespells"] = {
-						[45334] = {
-							["count"] = 2,
-							["targets"] = {
-								["Dark Rune Protector"] = 1,
-								["Dark Rune Stormcaller"] = 1,
-							},
-						},
-						[53313] = {
-							["count"] = 6,
-							["targets"] = {
-								["Dark Rune Protector"] = 6,
-							},
-						},
-					},
-					["last"] = 5244.182,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["uptime"] = 72,
-						},
-						[6795] = {
-							["type"] = "DEBUFF",
-							["count"] = 13,
-							["school"] = 1,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Dark Rune Protector"] = {
-									["uptime"] = 16,
-									["count"] = 5,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 17,
-									["count"] = 6,
-								},
-							},
-							["uptime"] = 39,
-						},
-						[48568] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 70,
-							["school"] = 1,
-							["refresh"] = 6,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 9,
-								},
-								["Dark Rune Protector"] = {
-									["count"] = 9,
-									["refresh"] = 2,
-									["uptime"] = 38,
-								},
-								["Dark Rune Stormcaller"] = {
-									["count"] = 8,
-									["refresh"] = 2,
-									["uptime"] = 26,
-								},
-							},
-							["count"] = 19,
-						},
-						[53312] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 50,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 9,
-							["school"] = 8,
-							["uptime"] = 63,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 9,
-							["uptime"] = 281,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[9634] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[64951] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 8,
-							["refresh"] = 3,
-							["uptime"] = 103,
-						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 27,
-						},
-						[53313] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 8,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["uptime"] = 7,
-									["count"] = 6,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 9,
-							["school"] = 8,
-							["uptime"] = 31,
-						},
-						[45334] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 3,
-							["school"] = 1,
-							["uptime"] = 279,
-						},
-						[48564] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 1,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["uptime"] = 9,
-									["count"] = 2,
-								},
-								["Dark Rune Protector"] = {
-									["uptime"] = 3,
-									["count"] = 3,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 6,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[16857] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[62606] = {
-							["type"] = "BUFF",
-							["count"] = 26,
-							["school"] = 8,
-							["refresh"] = 15,
-							["uptime"] = 128,
-						},
-					},
-					["mana"] = 13794,
-					["time"] = 137.46,
-					["interrupt"] = 1,
-					["overheal"] = 15608,
-					["totaldamagetaken"] = 89702,
-					["overkill"] = 6677,
-					["damage"] = 192831,
-					["rage"] = 277,
-					["damagespells"] = {
-						["Mangle (Bear)"] = {
-							["hitmin"] = 1465,
-							["criticalamount"] = 11754,
-							["id"] = 48564,
-							["criticalmin"] = 2792,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 5646,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 5837,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 7922,
-								},
-							},
-							["criticalmax"] = 3204,
-							["critical"] = 4,
-							["casts"] = 9,
-							["count"] = 9,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 1584,
-							["amount"] = 19405,
-							["hitamount"] = 7651,
-						},
-						["Thorns"] = {
-							["hitmin"] = 82,
-							["id"] = 53307,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 365,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 1640,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 83,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 24,
-							["hit"] = 24,
-							["school"] = 8,
-							["hitmax"] = 94,
-							["amount"] = 2088,
-							["hitamount"] = 2088,
-						},
-						["Melee"] = {
-							["glance"] = 1781,
-							["hitmin"] = 817,
-							["criticalmin"] = 1744,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 5164,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 5401,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 10565,
-							["glancemin"] = 870,
-							["criticalamount"] = 3558,
-							["id"] = 6603,
-							["glancemax"] = 911,
-							["blocked"] = 40,
-							["criticalmax"] = 1814,
-							["hitmax"] = 935,
-							["hit"] = 6,
-							["school"] = 1,
-							["critical"] = 2,
-							["count"] = 10,
-							["hitamount"] = 5226,
-						},
-						["Faerie Fire (Feral)"] = {
-							["hitmin"] = 1013,
-							["id"] = 60089,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 1013,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 1013,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 1013,
-							["amount"] = 2026,
-							["hitamount"] = 2026,
-						},
-						["Lacerate"] = {
-							["PARRY"] = 1,
-							["hitmin"] = 106,
-							["criticalamount"] = 1950,
-							["id"] = 48568,
-							["hitmax"] = 151,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 618,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 1824,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 1414,
-								},
-							},
-							["count"] = 26,
-							["hit"] = 16,
-							["casts"] = 28,
-							["critical"] = 9,
-							["amount"] = 3856,
-							["school"] = 1,
-							["criticalmin"] = 210,
-							["criticalmax"] = 232,
-							["hitamount"] = 1906,
-						},
-						["Lacerate (DoT)"] = {
-							["hitmin"] = 146,
-							["criticalamount"] = 5690,
-							["id"] = 48568,
-							["hitmax"] = 381,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["overkill"] = 1120,
-									["amount"] = 2287,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 3020,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 1349,
-								},
-							},
-							["overkill"] = 1120,
-							["count"] = 17,
-							["criticalmax"] = 1144,
-							["critical"] = 12,
-							["amount"] = 6656,
-							["school"] = 1,
-							["hit"] = 5,
-							["criticalmin"] = 293,
-							["hitamount"] = 966,
-						},
-						["Maul"] = {
-							["blocked"] = 82,
-							["count"] = 48,
-							["hitmin"] = 1462,
-							["criticalamount"] = 77683,
-							["id"] = 48480,
-							["hitmax"] = 2639,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 16927,
-								},
-								["Dark Rune Protector"] = {
-									["overkill"] = 3948,
-									["amount"] = 65841,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 1609,
-									["amount"] = 47331,
-								},
-							},
-							["overkill"] = 5557,
-							["hit"] = 28,
-							["casts"] = 37,
-							["critical"] = 20,
-							["amount"] = 130099,
-							["school"] = 1,
-							["criticalmin"] = 2938,
-							["criticalmax"] = 5208,
-							["hitamount"] = 52416,
-						},
-						["Swipe (Bear)"] = {
-							["blocked"] = 80,
-							["hitmin"] = 407,
-							["criticalamount"] = 10844,
-							["id"] = 48562,
-							["hitmax"] = 490,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 14718,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 3418,
-								},
-							},
-							["count"] = 28,
-							["hit"] = 16,
-							["casts"] = 13,
-							["critical"] = 12,
-							["amount"] = 18136,
-							["school"] = 1,
-							["criticalmin"] = 836,
-							["criticalmax"] = 980,
-							["hitamount"] = 7292,
-						},
-					},
-					["damagetaken"] = 62848,
-					["id"] = "0x07000000008C6185",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 15608,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 15608,
-									["amount"] = 12872,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 12872,
-							["school"] = 1,
-							["max"] = 1513,
-							["ishot"] = true,
-							["min"] = 99,
-						},
-					},
-					["damagetakenspells"] = {
-						["Crush Armor"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 33661,
-						},
-						["Charge"] = {
-							["total"] = 5152,
-							["hitmin"] = 454,
-							["id"] = 22120,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["total"] = 5152,
-									["amount"] = 3876,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1898,
-							["amount"] = 3876,
-							["hitamount"] = 3876,
-						},
-						["Melee"] = {
-							["DODGE"] = 10,
-							["total"] = 40353,
-							["hitmin"] = 54,
-							["id"] = 6603,
-							["amount"] = 21880,
-							["sources"] = {
-								["Iron Golem Custodian"] = {
-									["total"] = 7283,
-									["amount"] = 3020,
-								},
-								["Dark Rune Protector"] = {
-									["total"] = 32971,
-									["amount"] = 18761,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 99,
-								},
-							},
-							["count"] = 38,
-							["hit"] = 24,
-							["school"] = 1,
-							["hitmax"] = 1899,
-							["MISS"] = 4,
-							["hitamount"] = 21880,
-						},
-						["Glare of the Tribunal"] = {
-							["hitmin"] = 385,
-							["id"] = 59870,
-							["amount"] = 5896,
-							["hitmax"] = 548,
-							["count"] = 15,
-							["hit"] = 13,
-							["school"] = 64,
-							["resisted"] = 945,
-							["MISS"] = 2,
-							["hitamount"] = 5896,
-						},
-						["Searing Gaze"] = {
-							["hitmin"] = 1056,
-							["id"] = 59866,
-							["hitmax"] = 1320,
-							["sources"] = {
-								["Searing Gaze"] = {
-									["amount"] = 5544,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 4,
-							["resisted"] = 1056,
-							["amount"] = 5544,
-							["hitamount"] = 5544,
-						},
-						["Ground Smash"] = {
-							["total"] = 2011,
-							["hitmin"] = 590,
-							["id"] = 59865,
-							["sources"] = {
-								["Iron Golem Custodian"] = {
-									["total"] = 2011,
-									["amount"] = 590,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 590,
-							["amount"] = 590,
-							["hitamount"] = 590,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 2384,
-							["id"] = 59863,
-							["amount"] = 15662,
-							["hitmax"] = 3982,
-							["sources"] = {
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 15662,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 2868,
-							["MISS"] = 1,
-							["hitamount"] = 15662,
-						},
-						["Cleave"] = {
-							["DODGE"] = 3,
-							["total"] = 15084,
-							["hitmin"] = 810,
-							["id"] = 42724,
-							["hitmax"] = 2653,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["total"] = 15084,
-									["amount"] = 9400,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 9400,
-							["school"] = 1,
-							["hit"] = 6,
-							["MISS"] = 2,
-							["hitamount"] = 9400,
-						},
-					},
-					["totaldamage"] = 192831,
-					["ragespells"] = {
-						[59072] = 42,
-						[16959] = 235,
-					},
-					["name"] = "Thirial",
-					["ccdone"] = 8,
-					["heal"] = 12872,
-					["manaspells"] = {
-						[68285] = 13794,
-					},
-					["interruptspells"] = {
-						[19675] = {
-							["spells"] = {
-								[59863] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Dark Rune Stormcaller"] = 1,
-							},
-						},
-					},
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 5235.309,
-					["ragespells"] = {
-						[48541] = 92,
-					},
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 257,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 257,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 51,
-						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 27,
-						},
-						[22812] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 12,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 9,
-							["school"] = 8,
-							["uptime"] = 63,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 9,
-							["uptime"] = 257,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[67358] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 8,
-							["refresh"] = 21,
-							["uptime"] = 184,
-						},
-						[48422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 257,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 2,
-							["school"] = 1,
-							["uptime"] = 255,
-						},
-						[33891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 257,
-						},
-						[29166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 10,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 45,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 3,
-						},
-						[60062] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["uptime"] = 39,
-						},
-						[60520] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-					},
-					["energyspells"] = {
-						[48540] = 56,
-					},
-					["role"] = "HEALER",
-					["time"] = 163.09,
-					["resspells"] = {
-						[48477] = {
-							["count"] = 1,
-							["targets"] = {
-								["Berdanx"] = 1,
-							},
-						},
-					},
-					["runicspells"] = {
-						[48543] = 112,
-					},
-					["totaldamagetaken"] = 66092,
-					["runic"] = 112,
-					["overheal"] = 330222,
-					["ress"] = 1,
-					["damagetaken"] = 66092,
-					["deathlog"] = {
-						{
-							["log"] = {
-								{
-									["time"] = 5228.690000000001,
-									["spellid"] = 59866,
-									["source"] = "Searing Gaze",
-									["amount"] = -2400,
-									["school"] = 4,
-									["resisted"] = 600,
-									["hp"] = 1,
-									["overkill"] = 67,
-								}, -- [1]
-								{
-									["source"] = "Iron Golem Custodian",
-									["amount"] = -6650,
-									["school"] = 1,
-									["hp"] = 8983,
-									["spellid"] = 6603,
-									["time"] = 5228.562000000001,
-								}, -- [2]
-								{
-									["time"] = 5228.212,
-									["source"] = "Searing Gaze",
-									["amount"] = -3000,
-									["school"] = 4,
-									["spellid"] = 59866,
-									["hp"] = 8983,
-								}, -- [3]
-								{
-									["time"] = 5227.704,
-									["source"] = "Searing Gaze",
-									["amount"] = -2400,
-									["school"] = 4,
-									["resisted"] = 600,
-									["spellid"] = 59866,
-									["hp"] = 11983,
-								}, -- [4]
-								{
-									["hp"] = 14383,
-									["source"] = "Searing Gaze",
-									["amount"] = -2100,
-									["school"] = 4,
-									["resisted"] = 900,
-									["spellid"] = 59866,
-									["time"] = 5227.149,
-								}, -- [5]
-								{
-									["time"] = 5226.382000000001,
-									["source"] = "Tumbleweed",
-									["amount"] = 1943,
-									["spellid"] = 48441,
-									["hp"] = 15935,
-								}, -- [6]
-								{
-									["source"] = "Dark Matter",
-									["amount"] = -5286,
-									["school"] = 32,
-									["hp"] = 12781,
-									["spellid"] = 59868,
-									["time"] = 5223.458,
-								}, -- [7]
-								{
-									["overheal"] = 221,
-									["source"] = "Tumbleweed",
-									["amount"] = 1722,
-									["hp"] = 18067,
-									["spellid"] = 48441,
-									["time"] = 5223.358,
-								}, -- [8]
-								{
-									["time"] = 5220.352,
-									["source"] = "Tumbleweed",
-									["amount"] = 1943,
-									["hp"] = 14130,
-									["spellid"] = 48441,
-								}, -- [9]
-								{
-									["time"] = 5219.37,
-									["amount"] = -411,
-									["school"] = 64,
-									["resisted"] = 45,
-									["spellid"] = 59870,
-									["hp"] = 12187,
-								}, -- [10]
-								{
-									["hp"] = 12598,
-									["source"] = "Tumbleweed",
-									["amount"] = 1943,
-									["spellid"] = 48441,
-									["time"] = 5217.312000000001,
-								}, -- [11]
-								{
-									["time"] = 5216.379,
-									["amount"] = -483,
-									["school"] = 64,
-									["spellid"] = 59870,
-									["hp"] = 10655,
-								}, -- [12]
-								{
-									["time"] = 5208.38,
-									["source"] = "Dark Rune Protector",
-									["amount"] = -7476,
-									["school"] = 1,
-									["spellid"] = 6603,
-									["hp"] = 18067,
-								}, -- [13]
-								{
-									["overheal"] = 1080,
-									["time"] = 5196.106000000001,
-									["source"] = "Tumbleweed",
-									["spellid"] = 48443,
-									["hp"] = 18067,
-								}, -- [14]
-							},
-							["time"] = 5228.691,
-							["timeod"] = 1699557734,
-							["school"] = 4,
-							["maxhp"] = 18067,
-							["spellid"] = 59866,
-							["source"] = "Searing Gaze",
-						}, -- [1]
-					},
-					["id"] = "0x070000000095B7ED",
-					["spec"] = 105,
-					["healspells"] = {
-						[53251] = {
-							["overheal"] = 136511,
-							["max"] = 777,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 26891,
-									["amount"] = 13937,
-								},
-								["Urgash"] = {
-									["overheal"] = 13823,
-									["amount"] = 22665,
-								},
-								["Earthbasher"] = {
-									["overheal"] = 28827,
-									["amount"] = 5922,
-								},
-								["Thirial"] = {
-									["overheal"] = 23408,
-									["amount"] = 17416,
-								},
-								["Miracledream"] = {
-									["overheal"] = 23142,
-									["amount"] = 17686,
-								},
-								["Berdanx"] = {
-									["overheal"] = 20420,
-									["amount"] = 16804,
-								},
-							},
-							["min"] = 35,
-							["casts"] = 9,
-							["count"] = 358,
-							["amount"] = 94430,
-							["school"] = 8,
-							["ishot"] = true,
-						},
-						[54755] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 0,
-									["amount"] = 970,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 970,
-							["school"] = 8,
-							["max"] = 970,
-							["ishot"] = true,
-							["min"] = 970,
-						},
-						[48441] = {
-							["overheal"] = 148229,
-							["max"] = 1943,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 11671,
-									["amount"] = 19412,
-								},
-								["Urgash"] = {
-									["overheal"] = 38226,
-									["amount"] = 29476,
-								},
-								["Thirial"] = {
-									["overheal"] = 30057,
-									["amount"] = 15396,
-								},
-								["Miracledream"] = {
-									["overheal"] = 38004,
-									["amount"] = 18375,
-								},
-								["Berdanx"] = {
-									["overheal"] = 30271,
-									["amount"] = 15405,
-								},
-							},
-							["min"] = 14,
-							["casts"] = 22,
-							["count"] = 130,
-							["amount"] = 98064,
-							["school"] = 8,
-							["ishot"] = true,
-						},
-						[18562] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 7771,
-							["school"] = 8,
-							["max"] = 7771,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 0,
-									["amount"] = 7771,
-								},
-							},
-							["min"] = 7771,
-						},
-						[48443] = {
-							["overheal"] = 45482,
-							["criticalamount"] = 4786,
-							["max"] = 4797,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 8640,
-									["amount"] = 5868,
-								},
-								["Thirial"] = {
-									["overheal"] = 7350,
-									["amount"] = 7141,
-								},
-								["Miracledream"] = {
-									["overheal"] = 16620,
-									["amount"] = 14937,
-								},
-								["Berdanx"] = {
-									["overheal"] = 12872,
-									["amount"] = 20018,
-								},
-							},
-							["criticalmin"] = 4786,
-							["min"] = 182,
-							["casts"] = 7,
-							["count"] = 61,
-							["amount"] = 47964,
-							["school"] = 8,
-							["criticalmax"] = 4786,
-							["ishot"] = true,
-							["critical"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 6650,
-							["criticalamount"] = 7476,
-							["id"] = 6603,
-							["hitmax"] = 6650,
-							["count"] = 3,
-							["hit"] = 1,
-							["criticalmin"] = 7476,
-							["sources"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 6650,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 7476,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 0,
-								},
-							},
-							["critical"] = 1,
-							["amount"] = 14126,
-							["school"] = 1,
-							["criticalmax"] = 7476,
-							["MISS"] = 1,
-							["hitamount"] = 6650,
-						},
-						["Glare of the Tribunal"] = {
-							["hitmin"] = 411,
-							["id"] = 59870,
-							["hitmax"] = 916,
-							["count"] = 15,
-							["hit"] = 15,
-							["school"] = 64,
-							["resisted"] = 1238,
-							["amount"] = 8078,
-							["hitamount"] = 8078,
-						},
-						["Searing Gaze"] = {
-							["hitmin"] = 2100,
-							["id"] = 59866,
-							["overkill"] = 67,
-							["hitmax"] = 3000,
-							["sources"] = {
-								["Searing Gaze"] = {
-									["overkill"] = 67,
-									["amount"] = 17100,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 4,
-							["resisted"] = 3900,
-							["amount"] = 17100,
-							["hitamount"] = 17100,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 3461,
-							["id"] = 59863,
-							["hitmax"] = 6461,
-							["sources"] = {
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 17184,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 4918,
-							["amount"] = 17184,
-							["hitamount"] = 17184,
-						},
-						["Dark Matter"] = {
-							["hitmin"] = 4318,
-							["id"] = 59868,
-							["hitmax"] = 5286,
-							["sources"] = {
-								["Dark Matter"] = {
-									["amount"] = 9604,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 479,
-							["amount"] = 9604,
-							["hitamount"] = 9604,
-						},
-					},
-					["mana"] = 12667,
-					["heal"] = 249199,
-					["name"] = "Tumbleweed",
-					["death"] = 1,
-					["rage"] = 92,
-					["manaspells"] = {
-						[48542] = 4807,
-						[29166] = 7860,
-					},
-					["energy"] = 56,
-				}, -- [3]
-				{
-					["last"] = 5243.059,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 57,
-							["school"] = 1,
-							["refresh"] = 14,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 8,
-								},
-								["Dark Rune Protector"] = {
-									["count"] = 12,
-									["refresh"] = 6,
-									["uptime"] = 30,
-								},
-								["Dark Rune Stormcaller"] = {
-									["count"] = 6,
-									["refresh"] = 7,
-									["uptime"] = 19,
-								},
-							},
-							["count"] = 20,
-						},
-						[20253] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 54,
-						},
-						[18499] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 9,
-							["uptime"] = 281,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 9,
-							["school"] = 8,
-							["uptime"] = 63,
-						},
-						[60065] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 8,
-							["uptime"] = 90,
-						},
-						[29131] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[23885] = {
-							["type"] = "BUFF",
-							["count"] = 22,
-							["school"] = 1,
-							["uptime"] = 104,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 8,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 44,
-						},
-						[14202] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 24,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 14,
-							["school"] = 1,
-							["refresh"] = 8,
-							["uptime"] = 177,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 3,
-							["school"] = 1,
-							["uptime"] = 279,
-						},
-					},
-					["time"] = 125.9,
-					["totaldamagetaken"] = 72338,
-					["damage"] = 217018,
-					["rage"] = 76,
-					["overheal"] = 5798,
-					["damagetaken"] = 72338,
-					["id"] = "0x07000000009A86E7",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["min"] = 223,
-							["count"] = 49,
-							["amount"] = 5129,
-							["max"] = 223,
-							["overheal"] = 5798,
-							["targets"] = {
-								["Miracledream"] = {
-									["overheal"] = 5798,
-									["amount"] = 5129,
-								},
-							},
-							["school"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Dark Matter"] = {
-							["hitmin"] = 4259,
-							["id"] = 59868,
-							["hitmax"] = 4427,
-							["sources"] = {
-								["Dark Matter"] = {
-									["amount"] = 8686,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 2170,
-							["amount"] = 8686,
-							["hitamount"] = 8686,
-						},
-						["Charge"] = {
-							["hitmin"] = 2828,
-							["id"] = 22120,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 6058,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3230,
-							["amount"] = 6058,
-							["hitamount"] = 6058,
-						},
-						["Melee"] = {
-							["hitmin"] = 209,
-							["id"] = 6603,
-							["amount"] = 15644,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 15435,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 209,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 3485,
-							["MISS"] = 2,
-							["hitamount"] = 15644,
-						},
-						["Glare of the Tribunal"] = {
-							["hitmin"] = 460,
-							["id"] = 59870,
-							["hitmax"] = 1065,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 64,
-							["resisted"] = 1599,
-							["amount"] = 6092,
-							["hitamount"] = 6092,
-						},
-						["Searing Gaze"] = {
-							["hitmin"] = 1103,
-							["id"] = 59866,
-							["hitmax"] = 2835,
-							["sources"] = {
-								["Searing Gaze"] = {
-									["amount"] = 18273,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 4,
-							["resisted"] = 3777,
-							["amount"] = 18273,
-							["hitamount"] = 18273,
-						},
-						["Ground Smash"] = {
-							["hitmin"] = 5989,
-							["id"] = 59865,
-							["sources"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 5989,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 5989,
-							["amount"] = 5989,
-							["hitamount"] = 5989,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 3247,
-							["id"] = 59863,
-							["hitmax"] = 3247,
-							["sources"] = {
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 3247,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 811,
-							["amount"] = 3247,
-							["hitamount"] = 3247,
-						},
-						["Cleave"] = {
-							["hitmin"] = 4116,
-							["id"] = 42724,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 8349,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 4233,
-							["amount"] = 8349,
-							["hitamount"] = 8349,
-						},
-					},
-					["overkill"] = 4525,
-					["ragespells"] = {
-						[29131] = 10,
-						[2687] = 20,
-						[12964] = 46,
-					},
-					["name"] = "Miracledream",
-					["damagespells"] = {
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 73,
-							["id"] = 12721,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 1236,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 3168,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 2009,
-								},
-							},
-							["count"] = 44,
-							["hit"] = 44,
-							["school"] = 1,
-							["hitmax"] = 314,
-							["amount"] = 6413,
-							["hitamount"] = 6413,
-						},
-						["Cleave"] = {
-							["criticalmin"] = 3348,
-							["hitmin"] = 1282,
-							["criticalamount"] = 3348,
-							["id"] = 47520,
-							["criticalmax"] = 3348,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 14336,
-								},
-							},
-							["critical"] = 1,
-							["PARRY"] = 1,
-							["casts"] = 6,
-							["count"] = 10,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 1479,
-							["amount"] = 14336,
-							["hitamount"] = 10988,
-						},
-						["Execute"] = {
-							["criticalmin"] = 4188,
-							["hitmin"] = 1767,
-							["criticalamount"] = 4188,
-							["id"] = 20647,
-							["criticalmax"] = 4188,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["overkill"] = 1653,
-									["amount"] = 3657,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 1310,
-									["amount"] = 4188,
-								},
-							},
-							["overkill"] = 2963,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1890,
-							["amount"] = 7845,
-							["hitamount"] = 3657,
-						},
-						["Whirlwind"] = {
-							["DODGE"] = 3,
-							["hitmin"] = 708,
-							["criticalmin"] = 1667,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 2084,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 29004,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 1446,
-									["amount"] = 21843,
-								},
-							},
-							["amount"] = 52931,
-							["criticalamount"] = 29432,
-							["id"] = 44949,
-							["PARRY"] = 1,
-							["blocked"] = 80,
-							["overkill"] = 1446,
-							["hitmax"] = 1682,
-							["criticalmax"] = 2983,
-							["critical"] = 12,
-							["hit"] = 22,
-							["school"] = 1,
-							["count"] = 38,
-							["casts"] = 12,
-							["hitamount"] = 23499,
-						},
-						["Intercept"] = {
-							["hitmin"] = 291,
-							["id"] = 20253,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 291,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 634,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 319,
-							["amount"] = 925,
-							["hitamount"] = 925,
-						},
-						["Bloodthirst"] = {
-							["blocked"] = 41,
-							["hitmin"] = 1399,
-							["criticalamount"] = 35644,
-							["id"] = 23881,
-							["criticalmin"] = 3036,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 7512,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 25015,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 19896,
-								},
-							},
-							["criticalmax"] = 3414,
-							["critical"] = 11,
-							["casts"] = 22,
-							["count"] = 22,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 1777,
-							["amount"] = 52423,
-							["hitamount"] = 16779,
-						},
-						["Slam"] = {
-							["hitmin"] = 1369,
-							["id"] = 50783,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 1369,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 1417,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1417,
-							["amount"] = 2786,
-							["hitamount"] = 2786,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 1093,
-							["criticalamount"] = 7835,
-							["id"] = 34428,
-							["criticalmin"] = 2376,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 2376,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 6552,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 1197,
-								},
-							},
-							["criticalmax"] = 2967,
-							["critical"] = 3,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1197,
-							["amount"] = 10125,
-							["hitamount"] = 2290,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 6488,
-							["hitmin"] = 582,
-							["criticalmin"] = 1178,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 4139,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 32631,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 116,
-									["amount"] = 27645,
-								},
-							},
-							["glancing"] = 9,
-							["amount"] = 64415,
-							["MISS"] = 3,
-							["glancemin"] = 530,
-							["criticalamount"] = 24918,
-							["id"] = 6603,
-							["glancemax"] = 958,
-							["overkill"] = 116,
-							["critical"] = 16,
-							["criticalmax"] = 2306,
-							["hitmax"] = 1233,
-							["hit"] = 39,
-							["school"] = 1,
-							["blocked"] = 160,
-							["count"] = 68,
-							["hitamount"] = 33009,
-						},
-						["Heroic Strike"] = {
-							["PARRY"] = 1,
-							["hitmin"] = 1484,
-							["criticalamount"] = 3335,
-							["id"] = 47450,
-							["hitmax"] = 1484,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 0,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 4819,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["critical"] = 1,
-							["amount"] = 4819,
-							["school"] = 1,
-							["criticalmin"] = 3335,
-							["criticalmax"] = 3335,
-							["hitamount"] = 1484,
-						},
-					},
-					["heal"] = 5129,
-					["totaldamage"] = 217018,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 5243.634,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 275,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 123,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["uptime"] = 271,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["uptime"] = 72,
-						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 56,
-						},
-						[34123] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 128,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 9,
-							["school"] = 8,
-							["uptime"] = 58,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 4,
-							["refresh"] = 4,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["count"] = 2,
-									["refresh"] = 3,
-									["uptime"] = 4,
-								},
-								["Dark Rune Protector"] = {
-									["count"] = 4,
-									["refresh"] = 1,
-									["uptime"] = 10,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[1953] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 1,
-						},
-						[42931] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 16,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 272,
-						},
-						[12051] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 7,
-						},
-						[57073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 9,
-						},
-						[42940] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["uptime"] = 1,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 2,
-							["school"] = 1,
-							["uptime"] = 260,
-						},
-						[22959] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[42891] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 17,
-						},
-						[43020] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 35,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[12536] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 64,
-							["uptime"] = 6,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 8,
-							["school"] = 1,
-							["uptime"] = 263,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 17,
-							["school"] = 4,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["uptime"] = 13,
-									["count"] = 2,
-								},
-								["Dark Rune Protector"] = {
-									["uptime"] = 42,
-									["count"] = 8,
-								},
-								["Dark Rune Stormcaller"] = {
-									["uptime"] = 31,
-									["count"] = 7,
-								},
-							},
-							["uptime"] = 69,
-						},
-					},
-					["absorbspells"] = {
-						[43020] = {
-							["min"] = 599,
-							["casts"] = 2,
-							["count"] = 5,
-							["amount"] = 5662,
-							["school"] = 64,
-							["targets"] = {
-								["Berdanx"] = 5662,
-							},
-							["max"] = 2232,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 91.16000000000001,
-					["totaldamagetaken"] = 72824,
-					["damage"] = 129196,
-					["damagespells"] = {
-						["Fireball"] = {
-							["criticalmin"] = 6938,
-							["criticalmax"] = 7659,
-							["hitmin"] = 3917,
-							["criticalamount"] = 14597,
-							["id"] = 42833,
-							["critical"] = 2,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 9716,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 20896,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 2348,
-									["amount"] = 12004,
-								},
-							},
-							["overkill"] = 2348,
-							["hitmax"] = 5256,
-							["casts"] = 11,
-							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 4,
-							["resisted"] = 1084,
-							["amount"] = 42616,
-							["hitamount"] = 28019,
-						},
-						["Pyroblast (DoT)"] = {
-							["hitmin"] = 578,
-							["id"] = 42891,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 578,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 578,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 578,
-							["amount"] = 1156,
-							["hitamount"] = 1156,
-						},
-						["Molten Armor"] = {
-							["hitmin"] = 202,
-							["criticalamount"] = 396,
-							["id"] = 43044,
-							["criticalmin"] = 396,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 1863,
-								},
-							},
-							["criticalmax"] = 396,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 8,
-							["hit"] = 7,
-							["school"] = 4,
-							["hitmax"] = 228,
-							["amount"] = 1863,
-							["hitamount"] = 1467,
-						},
-						["Fire Blast"] = {
-							["criticalmin"] = 4653,
-							["hitmin"] = 1740,
-							["criticalamount"] = 14617,
-							["id"] = 42873,
-							["criticalmax"] = 5070,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 9964,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 9055,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 9574,
-								},
-							},
-							["critical"] = 3,
-							["hitmax"] = 2825,
-							["casts"] = 9,
-							["count"] = 9,
-							["hit"] = 6,
-							["school"] = 4,
-							["resisted"] = 434,
-							["amount"] = 28593,
-							["hitamount"] = 13976,
-						},
-						["Pyroblast"] = {
-							["hitmin"] = 4443,
-							["criticalamount"] = 7622,
-							["id"] = 42891,
-							["criticalmin"] = 7622,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 7622,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 4443,
-								},
-							},
-							["criticalmax"] = 7622,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 4443,
-							["amount"] = 12065,
-							["hitamount"] = 4443,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 298,
-							["id"] = 12654,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 837,
-								},
-								["Dark Rune Protector"] = {
-									["amount"] = 2160,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 183,
-									["amount"] = 298,
-								},
-							},
-							["overkill"] = 183,
-							["hitmax"] = 1524,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 4,
-							["resisted"] = 93,
-							["amount"] = 3295,
-							["hitamount"] = 3295,
-						},
-						["Living Bomb (DoT)"] = {
-							["criticalmax"] = 1689,
-							["hitmax"] = 966,
-							["hitmin"] = 684,
-							["criticalamount"] = 9233,
-							["id"] = 55360,
-							["criticalmin"] = 1345,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 4859,
-								},
-								["Dark Rune Protector"] = {
-									["overkill"] = 208,
-									["amount"] = 14285,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 6745,
-								},
-							},
-							["overkill"] = 208,
-							["critical"] = 6,
-							["casts"] = 15,
-							["count"] = 25,
-							["hit"] = 19,
-							["school"] = 4,
-							["resisted"] = 668,
-							["amount"] = 25889,
-							["hitamount"] = 16656,
-						},
-						["Scorch"] = {
-							["hitmax"] = 1762,
-							["hitmin"] = 1762,
-							["criticalamount"] = 5649,
-							["id"] = 42859,
-							["count"] = 3,
-							["targets"] = {
-								["Iron Golem Custodian"] = {
-									["amount"] = 5649,
-								},
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 1762,
-								},
-							},
-							["hit"] = 1,
-							["criticalmin"] = 2680,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 7411,
-							["school"] = 4,
-							["resisted"] = 670,
-							["criticalmax"] = 2969,
-							["hitamount"] = 1762,
-						},
-						["Cone of Cold"] = {
-							["hitmin"] = 1194,
-							["id"] = 42931,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["overkill"] = 23,
-									["amount"] = 2825,
-								},
-								["Dark Rune Stormcaller"] = {
-									["overkill"] = 1270,
-									["amount"] = 2981,
-								},
-							},
-							["overkill"] = 1293,
-							["hitmax"] = 1631,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["resisted"] = 132,
-							["amount"] = 5806,
-							["hitamount"] = 5806,
-						},
-						["Flamestrike (DoT)"] = {
-							["hitmin"] = 502,
-							["id"] = 42926,
-							["targets"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 502,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 502,
-							["amount"] = 502,
-							["hitamount"] = 502,
-						},
-					},
-					["absorb"] = 5662,
-					["damagetaken"] = 67162,
-					["deathlog"] = {
-						{
-							["log"] = {
-								{
-									["time"] = 5098.193,
-									["source"] = "Tumbleweed",
-									["school"] = 64,
-									["spellid"] = 48477,
-									["hp"] = 0,
-								}, -- [1]
-								{
-									["time"] = 5094.079000000001,
-									["source"] = "Dark Rune Protector",
-									["amount"] = -7289,
-									["school"] = 1,
-									["hp"] = 0,
-									["spellid"] = 42724,
-									["overkill"] = 1596,
-								}, -- [2]
-								{
-									["source"] = "Dark Rune Protector",
-									["amount"] = -6850,
-									["school"] = 1,
-									["hp"] = 4959,
-									["spellid"] = 42724,
-									["time"] = 5092.229,
-								}, -- [3]
-								{
-									["time"] = 5090.675,
-									["source"] = "Dark Rune Stormcaller",
-									["amount"] = -3830,
-									["school"] = 8,
-									["resisted"] = 957,
-									["spellid"] = 59863,
-									["hp"] = 11809,
-								}, -- [4]
-								{
-									["source"] = "Dark Rune Protector",
-									["amount"] = -4954,
-									["school"] = 1,
-									["hp"] = 20593,
-									["spellid"] = 6603,
-									["time"] = 5087.898,
-								}, -- [5]
-								{
-									["overheal"] = 1942,
-									["source"] = "Tumbleweed",
-									["hp"] = 20593,
-									["spellid"] = 48441,
-									["time"] = 5083.412,
-								}, -- [6]
-								{
-									["overheal"] = 1493,
-									["source"] = "Tumbleweed",
-									["amount"] = 450,
-									["hp"] = 20593,
-									["spellid"] = 48441,
-									["time"] = 5080.374000000001,
-								}, -- [7]
-								{
-									["time"] = 5078.984,
-									["amount"] = -450,
-									["school"] = 64,
-									["resisted"] = 192,
-									["spellid"] = 59870,
-									["hp"] = 20143,
-								}, -- [8]
-								{
-									["overheal"] = 1943,
-									["source"] = "Tumbleweed",
-									["hp"] = 20593,
-									["spellid"] = 48441,
-									["time"] = 5077.469,
-								}, -- [9]
-								{
-									["overheal"] = 1943,
-									["source"] = "Tumbleweed",
-									["hp"] = 20593,
-									["spellid"] = 48441,
-									["time"] = 5074.453,
-								}, -- [10]
-								{
-									["overheal"] = 157,
-									["source"] = "Tumbleweed",
-									["amount"] = 1786,
-									["hp"] = 20593,
-									["spellid"] = 48441,
-									["time"] = 5071.47,
-								}, -- [11]
-								{
-									["time"] = 5069.779000000001,
-									["amount"] = -555,
-									["school"] = 64,
-									["resisted"] = 61,
-									["spellid"] = 59870,
-									["hp"] = 18807,
-								}, -- [12]
-								{
-									["source"] = "Tumbleweed",
-									["amount"] = 1943,
-									["hp"] = 18814,
-									["spellid"] = 48441,
-									["time"] = 5068.447,
-								}, -- [13]
-								{
-									["time"] = 5066.848,
-									["amount"] = -556,
-									["school"] = 64,
-									["resisted"] = 61,
-									["spellid"] = 59870,
-									["hp"] = 15658,
-								}, -- [14]
-							},
-							["time"] = 5094.078,
-							["timeod"] = 1699557600,
-							["school"] = 1,
-							["maxhp"] = 20593,
-							["spellid"] = 42724,
-							["source"] = "Dark Rune Protector",
-						}, -- [1]
-					},
-					["id"] = "0x07000000009E540C",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 4358,
-							["id"] = 6603,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["amount"] = 14412,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 5100,
-							["amount"] = 14412,
-							["hitamount"] = 14412,
-						},
-						["Glare of the Tribunal"] = {
-							["total"] = 9626,
-							["hitmin"] = 450,
-							["id"] = 59870,
-							["ABSORB"] = 3,
-							["hitmax"] = 1279,
-							["count"] = 13,
-							["hit"] = 10,
-							["school"] = 64,
-							["resisted"] = 314,
-							["amount"] = 7781,
-							["hitamount"] = 7781,
-						},
-						["Dark Matter"] = {
-							["total"] = 10350,
-							["hitmin"] = 3117,
-							["id"] = 59868,
-							["sources"] = {
-								["Dark Matter"] = {
-									["total"] = 10350,
-									["amount"] = 8118,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 5001,
-							["amount"] = 8118,
-							["hitamount"] = 8118,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 3830,
-							["id"] = 59863,
-							["hitmax"] = 3830,
-							["sources"] = {
-								["Dark Rune Stormcaller"] = {
-									["amount"] = 3830,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 957,
-							["amount"] = 3830,
-							["hitamount"] = 3830,
-						},
-						["Cleave"] = {
-							["total"] = 34606,
-							["hitmin"] = 5219,
-							["id"] = 42724,
-							["overkill"] = 1596,
-							["sources"] = {
-								["Dark Rune Protector"] = {
-									["total"] = 34606,
-									["overkill"] = 1596,
-									["amount"] = 33021,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 7289,
-							["amount"] = 33021,
-							["hitamount"] = 33021,
-						},
-					},
-					["interrupt"] = 2,
-					["overkill"] = 4032,
-					["name"] = "Berdanx",
-					["death"] = 1,
-					["manaspells"] = {
-						[29077] = 1358,
-						[67545] = 325,
-						[12051] = 12924,
-						[44450] = -225,
-					},
-					["mana"] = 14382,
-					["interruptspells"] = {
-						[2139] = {
-							["spells"] = {
-								[59863] = 2,
-							},
-							["count"] = 2,
-							["targets"] = {
-								["Dark Rune Stormcaller"] = 2,
-							},
-						},
-					},
-					["totaldamage"] = 129196,
-				}, -- [5]
-			},
-			["interrupt"] = 4,
-			["absorb"] = 15112,
-			["ress"] = 1,
-			["death"] = 2,
-			["runic"] = 249,
-			["energy"] = 56,
-			["mobname"] = "Dark Rune Protector",
-			["starttime"] = 1699557477,
+			["damagetaken"] = 368364,
 			["etotaldamagetaken"] = 913269,
-			["overheal"] = 369079,
+			["interrupt"] = 4,
+			["runic"] = 249,
+			["ress"] = 1,
+			["overkill"] = 45750,
+			["edamagetaken"] = 913269,
+			["heal"] = 307043,
+			["name"] = "Dark Rune Protector",
+			["mobname"] = "Dark Rune Protector",
+			["absorb"] = 15112,
+			["edamage"] = 331787,
+			["energy"] = 56,
 			["endtime"] = 1699557758,
-		}, -- [5]
+		}, -- [6]
 		{
-			["damage"] = 368077,
 			["mana"] = 3852,
-			["overheal"] = 32183,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -12970,14 +13064,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3107,
 						},
-						[48562] = {
-							["school"] = 1,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 17903,
+								["Urgash"] = {
+									["amount"] = 1825,
 								},
 							},
-							["amount"] = 17903,
+							["amount"] = 1825,
 						},
 						[50463] = {
 							["school"] = 1,
@@ -12988,14 +13082,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2095,
 						},
-						[49909] = {
-							["school"] = 16,
+						[48562] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1825,
+								["Thirial"] = {
+									["amount"] = 17903,
 								},
 							},
-							["amount"] = 1825,
+							["amount"] = 17903,
 						},
 						[53307] = {
 							["school"] = 8,
@@ -13060,19 +13154,19 @@ SkadaStorageDB = {
 							["amount"] = 1657,
 						},
 					},
-					["name"] = "Lightning Construct",
 					["totaldamage"] = 94965,
+					["name"] = "Lightning Construct",
 					["totaldamagetaken"] = 367367,
 					["id"] = "0xF130006D44000033",
 					["damage"] = 85669,
 				}, -- [1]
 				{
-					["id"] = "0xF130007E0200003E",
-					["name"] = "Gold Beetle",
-					["totaldamagetaken"] = 710,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
 					["damagetaken"] = 710,
+					["name"] = "Gold Beetle",
+					["class"] = "MONSTER",
+					["flag"] = 2600,
+					["totaldamagetaken"] = 710,
+					["id"] = "0xF130007E0200003E",
 					["damagetakenspells"] = {
 						[71904] = {
 							["school"] = 32,
@@ -13088,13 +13182,18 @@ SkadaStorageDB = {
 					},
 				}, -- [2]
 			},
-			["etotaldamage"] = 94965,
+			["overheal"] = 32183,
 			["totaldamage"] = 368077,
 			["time"] = 21,
-			["runic"] = 48,
+			["etotaldamage"] = 94965,
 			["totaldamagetaken"] = 94965,
 			["etotaldamagetaken"] = 368077,
+			["damage"] = 368077,
+			["runic"] = 48,
+			["type"] = "party",
+			["damagetaken"] = 85669,
 			["last_time"] = 4926.119,
+			["interrupt"] = 1,
 			["players"] = {
 				{
 					["last"] = 4924.52,
@@ -13138,16 +13237,16 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 5,
+							["type"] = "BUFF",
 							["uptime"] = 15,
+							["count"] = 1,
 						},
 						[57623] = {
 							["type"] = "BUFF",
@@ -13168,8 +13267,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Lightning Construct"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 14,
 								},
 							},
@@ -13193,9 +13292,9 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 13,
 						},
 						[55095] = {
@@ -13211,15 +13310,15 @@ SkadaStorageDB = {
 							["uptime"] = 14,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[71559] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[50536] = {
@@ -13229,8 +13328,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Lightning Construct"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 9,
 								},
 							},
@@ -13242,24 +13341,25 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 17,
 						},
 						[66803] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 5,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 					},
+					["totaldamage"] = 187351,
 					["time"] = 18.97,
 					["totaldamagetaken"] = 21305,
 					["damage"] = 187351,
@@ -13274,14 +13374,14 @@ SkadaStorageDB = {
 									["amount"] = 14945,
 								},
 							},
-							["criticalmax"] = 10916,
-							["critical"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 10916,
 							["hitmax"] = 4029,
 							["amount"] = 14945,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 4029,
 						},
 						["Death and Decay"] = {
@@ -13289,28 +13389,28 @@ SkadaStorageDB = {
 							["hitmin"] = 520,
 							["criticalamount"] = 20808,
 							["id"] = 52212,
-							["hitmax"] = 738,
+							["count"] = 33,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["amount"] = 32960,
 								},
 							},
-							["count"] = 33,
+							["hitmax"] = 738,
 							["hit"] = 18,
-							["casts"] = 1,
+							["criticalmax"] = 1543,
 							["critical"] = 15,
 							["amount"] = 32960,
 							["school"] = 32,
 							["resisted"] = 177,
-							["criticalmax"] = 1543,
+							["casts"] = 1,
 							["hitamount"] = 12152,
 						},
 						["Death Coil"] = {
-							["count"] = 4,
+							["criticalmin"] = 8550,
 							["hitmin"] = 4266,
 							["criticalamount"] = 17466,
 							["id"] = 47632,
-							["hitmax"] = 4290,
+							["critical"] = 2,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["overkill"] = 318,
@@ -13318,13 +13418,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 318,
-							["hit"] = 2,
-							["casts"] = 4,
-							["critical"] = 2,
 							["amount"] = 26022,
-							["school"] = 32,
-							["criticalmin"] = 8550,
 							["criticalmax"] = 8916,
+							["hitmax"] = 4290,
+							["hit"] = 2,
+							["school"] = 32,
+							["count"] = 4,
+							["casts"] = 4,
 							["hitamount"] = 8556,
 						},
 						["Unholy Blight (DoT)"] = {
@@ -13553,49 +13653,52 @@ SkadaStorageDB = {
 							["hitamount"] = 16949,
 						},
 						["Claw (Earthbasher)"] = {
-							["hitmax"] = 848,
+							["criticalmin"] = 1456,
 							["hitmin"] = 741,
 							["criticalamount"] = 1456,
 							["id"] = 47468,
-							["count"] = 5,
+							["blocked"] = 40,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["amount"] = 4723,
 								},
 							},
-							["hit"] = 4,
-							["blocked"] = 40,
-							["casts"] = 1,
 							["critical"] = 1,
+							["hit"] = 4,
+							["criticalmax"] = 1456,
+							["count"] = 5,
 							["amount"] = 4723,
 							["school"] = 1,
-							["criticalmin"] = 1456,
-							["criticalmax"] = 1456,
+							["hitmax"] = 848,
+							["casts"] = 1,
 							["hitamount"] = 3267,
 						},
 					},
-					["interrupt"] = 1,
 					["damagetaken"] = 21305,
-					["id"] = "0x070000000000D01B",
+					["interrupt"] = 1,
 					["spec"] = 252,
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 1721,
+							["max"] = 366,
+							["count"] = 26,
+							["amount"] = 1622,
+							["school"] = 1,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 1721,
 									["amount"] = 1622,
 								},
 							},
-							["count"] = 26,
-							["amount"] = 1622,
-							["school"] = 1,
-							["max"] = 366,
 							["ishot"] = true,
 							["min"] = 3,
 						},
 						[34299] = {
 							["overheal"] = 2061,
+							["max"] = 1522,
+							["count"] = 4,
+							["amount"] = 3318,
+							["school"] = 1,
 							["targets"] = {
 								["Earthbasher"] = {
 									["overheal"] = 538,
@@ -13606,10 +13709,6 @@ SkadaStorageDB = {
 									["amount"] = 1522,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 3318,
-							["school"] = 1,
-							["max"] = 1522,
 							["ishot"] = true,
 							["min"] = 629,
 						},
@@ -13663,9 +13762,9 @@ SkadaStorageDB = {
 							["hitamount"] = 5421,
 						},
 					},
-					["totaldamage"] = 187351,
 					["heal"] = 4940,
 					["name"] = "Urgash",
+					["id"] = "0x070000000000D01B",
 					["overkill"] = 1028,
 					["overheal"] = 3782,
 					["interruptspells"] = {
@@ -13699,22 +13798,22 @@ SkadaStorageDB = {
 							["uptime"] = 18,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 13,
 						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 8,
-						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 11,
+						},
+						[16870] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 4,
 						},
 						[57623] = {
 							["type"] = "BUFF",
@@ -13722,16 +13821,15 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
-						[16870] = {
+						[53307] = {
 							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 4,
+							["count"] = 1,
+							["uptime"] = 21,
 						},
 						[72221] = {
 							["type"] = "BUFF",
@@ -13739,9 +13837,9 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[5229] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[9634] = {
@@ -13768,7 +13866,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 7,
 						},
-						[53307] = {
+						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
@@ -13778,18 +13876,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[24932] = {
+						[48443] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
+							["uptime"] = 8,
 						},
 					},
 					["role"] = "TANK",
 					["time"] = 18.73,
-					["overheal"] = 0,
 					["totaldamagetaken"] = 37449,
-					["overkill"] = 320,
 					["damage"] = 59385,
+					["overheal"] = 0,
+					["damagetaken"] = 28153,
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 778,
@@ -13816,23 +13915,23 @@ SkadaStorageDB = {
 									["amount"] = 17903,
 								},
 							},
-							["criticalmax"] = 1050,
-							["critical"] = 11,
 							["casts"] = 9,
 							["count"] = 25,
-							["hit"] = 14,
-							["school"] = 1,
+							["criticalmax"] = 1050,
 							["hitmax"] = 525,
 							["amount"] = 17903,
+							["school"] = 1,
+							["hit"] = 14,
+							["critical"] = 11,
 							["hitamount"] = 6825,
 						},
 						["Maul"] = {
-							["count"] = 14,
-							["blocked"] = 40,
+							["criticalmin"] = 3548,
+							["hit"] = 9,
 							["hitmin"] = 1848,
 							["criticalamount"] = 19746,
 							["id"] = 48480,
-							["hitmax"] = 2158,
+							["critical"] = 5,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["overkill"] = 320,
@@ -13840,13 +13939,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 320,
-							["hit"] = 9,
-							["casts"] = 7,
-							["critical"] = 5,
+							["blocked"] = 40,
+							["criticalmax"] = 4306,
+							["hitmax"] = 2158,
 							["amount"] = 38265,
 							["school"] = 1,
-							["criticalmin"] = 3548,
-							["criticalmax"] = 4306,
+							["count"] = 14,
+							["casts"] = 7,
 							["hitamount"] = 18519,
 						},
 						["Lacerate (DoT)"] = {
@@ -13859,13 +13958,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 279,
-							["critical"] = 1,
-							["criticalmax"] = 279,
 							["count"] = 10,
-							["hit"] = 9,
+							["criticalmax"] = 279,
+							["critical"] = 1,
+							["amount"] = 1535,
 							["school"] = 1,
 							["hitmax"] = 140,
-							["amount"] = 1535,
+							["hit"] = 9,
 							["hitamount"] = 1256,
 						},
 						["Lacerate"] = {
@@ -13873,20 +13972,20 @@ SkadaStorageDB = {
 							["hitmin"] = 63,
 							["criticalamount"] = 206,
 							["id"] = 48568,
-							["criticalmax"] = 206,
+							["casts"] = 2,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["amount"] = 269,
 								},
 							},
-							["critical"] = 1,
-							["blocked"] = 40,
-							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["blocked"] = 40,
+							["criticalmax"] = 206,
 							["hitmax"] = 63,
 							["amount"] = 269,
+							["school"] = 1,
+							["critical"] = 1,
+							["hit"] = 1,
 							["hitamount"] = 63,
 						},
 						["Thorns"] = {
@@ -13906,31 +14005,26 @@ SkadaStorageDB = {
 							["hitamount"] = 635,
 						},
 					},
-					["ragespells"] = {
-						[5229] = 30,
-						[59072] = 18,
-						[16959] = 85,
-					},
-					["damagetaken"] = 28153,
 					["id"] = "0x07000000008C6185",
 					["spec"] = 103,
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 0,
+							["max"] = 1513,
+							["count"] = 3,
+							["amount"] = 4537,
+							["school"] = 1,
 							["targets"] = {
 								["Thirial"] = {
 									["overheal"] = 0,
 									["amount"] = 4537,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 4537,
-							["school"] = 1,
-							["max"] = 1513,
 							["ishot"] = true,
 							["min"] = 1512,
 						},
 					},
+					["overkill"] = 320,
 					["damagetakenspells"] = {
 						["Electrical Overload"] = {
 							["hitmin"] = 3614,
@@ -13969,8 +14063,8 @@ SkadaStorageDB = {
 							["total"] = 17425,
 							["hitmin"] = 1021,
 							["id"] = 6603,
-							["ABSORB"] = 8,
 							["hitmax"] = 1282,
+							["ABSORB"] = 8,
 							["sources"] = {
 								["Lightning Construct"] = {
 									["total"] = 17425,
@@ -13985,9 +14079,14 @@ SkadaStorageDB = {
 							["hitamount"] = 8129,
 						},
 					},
+					["ragespells"] = {
+						[5229] = 30,
+						[59072] = 18,
+						[16959] = 85,
+					},
+					["name"] = "Thirial",
 					["rage"] = 133,
 					["heal"] = 4537,
-					["name"] = "Thirial",
 					["manaspells"] = {
 						[68285] = 2178,
 					},
@@ -14000,9 +14099,9 @@ SkadaStorageDB = {
 					["class"] = "DRUID",
 					["auras"] = {
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 1,
 						},
 						[33891] = {
@@ -14011,9 +14110,9 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[16886] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 3,
 						},
 						[57623] = {
@@ -14022,9 +14121,9 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[48422] = {
@@ -14033,28 +14132,28 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[60062] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 13,
 						},
 						[67358] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 2,
 							["school"] = 8,
+							["refresh"] = 2,
 							["uptime"] = 20,
 						},
 						[24932] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 18,
 						},
 						[48470] = {
@@ -14068,26 +14167,20 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 17.73,
 					["totaldamagetaken"] = 9404,
-					["runicspells"] = {
-						[48543] = 48,
-					},
 					["runic"] = 48,
-					["ragespells"] = {
-						[48541] = 4,
-					},
 					["damagetaken"] = 9404,
 					["id"] = "0x070000000095B7ED",
 					["spec"] = 105,
 					["healspells"] = {
 						[53251] = {
 							["overheal"] = 12203,
-							["max"] = 777,
+							["school"] = 8,
 							["count"] = 35,
 							["amount"] = 10979,
-							["school"] = 8,
-							["min"] = 391,
+							["max"] = 777,
 							["ishot"] = true,
 							["targets"] = {
 								["Tumbleweed"] = {
@@ -14111,6 +14204,7 @@ SkadaStorageDB = {
 									["amount"] = 1515,
 								},
 							},
+							["min"] = 391,
 						},
 						[48441] = {
 							["overheal"] = 14449,
@@ -14190,15 +14284,20 @@ SkadaStorageDB = {
 							["hitamount"] = 9404,
 						},
 					},
+					["runicspells"] = {
+						[48543] = 48,
+					},
+					["ragespells"] = {
+						[48541] = 4,
+					},
+					["name"] = "Tumbleweed",
 					["rage"] = 4,
 					["heal"] = 37949,
-					["name"] = "Tumbleweed",
 					["overheal"] = 27732,
 					["manaspells"] = {
 						[48542] = 409,
 					},
 					["mana"] = 409,
-					["role"] = "HEALER",
 				}, -- [3]
 				{
 					["last"] = 4923.295,
@@ -14217,8 +14316,8 @@ SkadaStorageDB = {
 							["refresh"] = 6,
 							["targets"] = {
 								["Lightning Construct"] = {
-									["count"] = 2,
 									["refresh"] = 6,
+									["count"] = 2,
 									["uptime"] = 14,
 								},
 							},
@@ -14242,39 +14341,39 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 13,
 						},
 						[60305] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[46916] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 13,
 						},
 						[12970] = {
@@ -14284,18 +14383,19 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 15,
 						},
-						[14202] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
+						[14202] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 					},
+					["totaldamage"] = 39516,
 					["time"] = 17.95,
 					["totaldamagetaken"] = 16174,
 					["damage"] = 39516,
@@ -14353,11 +14453,11 @@ SkadaStorageDB = {
 							["hitamount"] = 9042,
 						},
 					},
-					["overheal"] = 669,
 					["ragespells"] = {
 						[12964] = 8,
 					},
 					["name"] = "Miracledream",
+					["overheal"] = 669,
 					["heal"] = 669,
 					["damagespells"] = {
 						["Bloodthirst"] = {
@@ -14385,14 +14485,14 @@ SkadaStorageDB = {
 									["amount"] = 10585,
 								},
 							},
-							["hitmax"] = 1126,
-							["count"] = 9,
-							["criticalmax"] = 1966,
+							["criticalmin"] = 1300,
 							["critical"] = 5,
+							["criticalmax"] = 1966,
+							["count"] = 9,
 							["amount"] = 10585,
 							["school"] = 1,
 							["hit"] = 4,
-							["criticalmin"] = 1300,
+							["hitmax"] = 1126,
 							["hitamount"] = 3237,
 						},
 						["Cleave"] = {
@@ -14400,20 +14500,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1382,
 							["criticalamount"] = 6168,
 							["id"] = 47520,
-							["hitmax"] = 1527,
+							["criticalmin"] = 3060,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["amount"] = 10562,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 3,
-							["casts"] = 3,
 							["critical"] = 2,
 							["amount"] = 10562,
-							["school"] = 1,
-							["criticalmin"] = 3060,
 							["criticalmax"] = 3108,
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1527,
+							["casts"] = 3,
 							["hitamount"] = 4394,
 						},
 						["Execute"] = {
@@ -14437,20 +14537,20 @@ SkadaStorageDB = {
 							["hitmin"] = 787,
 							["criticalamount"] = 3203,
 							["id"] = 44949,
-							["criticalmax"] = 3203,
+							["hitmax"] = 1386,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["amount"] = 7547,
 								},
 							},
-							["critical"] = 1,
-							["hitmax"] = 1386,
 							["PARRY"] = 1,
-							["count"] = 6,
 							["amount"] = 7547,
-							["school"] = 1,
 							["casts"] = 2,
+							["count"] = 6,
 							["hit"] = 4,
+							["school"] = 1,
+							["critical"] = 1,
+							["criticalmax"] = 3203,
 							["hitamount"] = 4344,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -14485,7 +14585,6 @@ SkadaStorageDB = {
 							["hitamount"] = 298,
 						},
 					},
-					["totaldamage"] = 39516,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -14499,9 +14598,9 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
 						[42891] = {
@@ -14515,6 +14614,40 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 7,
+						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 4,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["targets"] = {
+								["Lightning Construct"] = {
+									["uptime"] = 13,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 13,
 						},
 						[42926] = {
 							["type"] = "DEBUFF",
@@ -14540,45 +14673,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[12536] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 4,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 13,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["targets"] = {
-								["Lightning Construct"] = {
-									["uptime"] = 13,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 13,
-						},
 						[48108] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
 						},
 						[43046] = {
@@ -14593,8 +14691,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Lightning Construct"] = {
-									["count"] = 5,
 									["refresh"] = 3,
+									["count"] = 5,
 									["uptime"] = 12,
 								},
 							},
@@ -14605,15 +14703,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
+						},
+						[47436] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -14653,24 +14752,24 @@ SkadaStorageDB = {
 							["hitamount"] = 1306,
 						},
 						["Living Bomb"] = {
-							["hitmax"] = 2003,
-							["hitmin"] = 2002,
 							["criticalamount"] = 6658,
-							["id"] = 55362,
+							["hitmin"] = 2002,
 							["criticalmin"] = 3154,
+							["id"] = 55362,
+							["critical"] = 2,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["amount"] = 14667,
 								},
 							},
-							["criticalmax"] = 3504,
-							["critical"] = 2,
+							["hitmax"] = 2003,
+							["hit"] = 4,
 							["casts"] = 3,
 							["count"] = 6,
-							["hit"] = 4,
+							["amount"] = 14667,
 							["school"] = 4,
 							["resisted"] = 350,
-							["amount"] = 14667,
+							["criticalmax"] = 3504,
 							["hitamount"] = 8009,
 						},
 						["Pyroblast"] = {
@@ -14715,14 +14814,14 @@ SkadaStorageDB = {
 									["amount"] = 15155,
 								},
 							},
-							["hitmax"] = 966,
 							["critical"] = 4,
+							["hit"] = 10,
 							["criticalmax"] = 1689,
 							["count"] = 14,
-							["hit"] = 10,
+							["amount"] = 15155,
 							["school"] = 4,
 							["resisted"] = 422,
-							["amount"] = 15155,
+							["hitmax"] = 966,
 							["hitamount"] = 9124,
 						},
 						["Flamestrike"] = {
@@ -14730,20 +14829,20 @@ SkadaStorageDB = {
 							["hitmin"] = 483,
 							["criticalamount"] = 2781,
 							["id"] = 42926,
-							["criticalmax"] = 2781,
+							["hitmax"] = 1830,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["amount"] = 17033,
 								},
 							},
 							["critical"] = 1,
-							["hitmax"] = 1830,
+							["hit"] = 17,
 							["casts"] = 2,
 							["count"] = 18,
-							["hit"] = 17,
+							["amount"] = 17033,
 							["school"] = 4,
 							["resisted"] = 155,
-							["amount"] = 17033,
+							["criticalmax"] = 2781,
 							["hitamount"] = 14252,
 						},
 						["Fire Blast"] = {
@@ -14809,9 +14908,6 @@ SkadaStorageDB = {
 					["totaldamage"] = 81825,
 				}, -- [5]
 			},
-			["type"] = "party",
-			["damagetaken"] = 85669,
-			["interrupt"] = 1,
 			["rage"] = 145,
 			["overkill"] = 1348,
 			["edamagetaken"] = 368077,
@@ -14822,11 +14918,10 @@ SkadaStorageDB = {
 			["edamage"] = 85669,
 			["last_action"] = 1699557432,
 			["endtime"] = 1699557432,
-		}, -- [6]
+		}, -- [7]
 		{
-			["overheal"] = 39855,
 			["mana"] = 6040,
-			["ccdone"] = 1,
+			["overheal"] = 39855,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -15115,14 +15210,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6403,
 						},
-						[71904] = {
-							["school"] = 32,
+						[48480] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2588,
+								["Thirial"] = {
+									["amount"] = 49980,
 								},
 							},
-							["amount"] = 2588,
+							["amount"] = 49980,
 						},
 						[50783] = {
 							["school"] = 1,
@@ -15133,14 +15228,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3451,
 						},
-						[48480] = {
-							["school"] = 1,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 49980,
+								["Urgash"] = {
+									["amount"] = 2755,
 								},
 							},
-							["amount"] = 49980,
+							["amount"] = 2755,
 						},
 						[53307] = {
 							["school"] = 8,
@@ -15160,33 +15255,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1353,
 						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2755,
-								},
-							},
-							["amount"] = 2755,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9499,
-								},
-							},
-							["amount"] = 9499,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 4875,
-								},
-							},
-							["amount"] = 4875,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
@@ -15202,9 +15270,36 @@ SkadaStorageDB = {
 							},
 							["amount"] = 67471,
 						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 9499,
+								},
+							},
+							["amount"] = 9499,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2588,
+								},
+							},
+							["amount"] = 2588,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Miracledream"] = {
+									["amount"] = 4875,
+								},
+							},
+							["amount"] = 4875,
+						},
 					},
-					["name"] = "Unrelenting Construct",
 					["totaldamage"] = 45597,
+					["name"] = "Unrelenting Construct",
 					["totaldamagetaken"] = 385387,
 					["id"] = "0xF130006D43000030",
 					["damage"] = 36665,
@@ -15437,17 +15532,17 @@ SkadaStorageDB = {
 							["amount"] = 2736,
 						},
 					},
-					["name"] = "Raging Construct",
 					["totaldamage"] = 37143,
+					["name"] = "Raging Construct",
 					["totaldamagetaken"] = 125273,
 					["id"] = "0xF130006D4200002F",
 					["damage"] = 29487,
 				}, -- [2]
 			},
-			["energy"] = 24,
+			["runic"] = 64,
 			["totaldamage"] = 510660,
 			["time"] = 62,
-			["runic"] = 64,
+			["energy"] = 24,
 			["totaldamagetaken"] = 82740,
 			["etotaldamagetaken"] = 510660,
 			["last_time"] = 4893.47,
@@ -15487,9 +15582,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[71905] = {
@@ -15500,10 +15595,10 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 4,
+							["type"] = "BUFF",
 							["uptime"] = 62,
+							["count"] = 1,
 						},
 						[71227] = {
 							["type"] = "BUFF",
@@ -15523,8 +15618,8 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Unrelenting Construct"] = {
-									["count"] = 3,
 									["refresh"] = 2,
+									["count"] = 3,
 									["uptime"] = 22,
 								},
 							},
@@ -15536,9 +15631,9 @@ SkadaStorageDB = {
 							["uptime"] = 47,
 						},
 						[48266] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[50536] = {
@@ -15548,18 +15643,18 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Unrelenting Construct"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 10,
 								},
 							},
 							["uptime"] = 10,
 						},
-						[53365] = {
+						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
+							["count"] = 2,
+							["uptime"] = 8,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -15577,22 +15672,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 29,
 						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 8,
-						},
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 62,
 						},
+						[53365] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[48441] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 1,
 							["school"] = 8,
+							["refresh"] = 1,
 							["uptime"] = 26,
 						},
 						[55078] = {
@@ -15617,9 +15712,9 @@ SkadaStorageDB = {
 							["uptime"] = 48,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[66803] = {
@@ -15628,9 +15723,9 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 					},
@@ -15640,24 +15735,24 @@ SkadaStorageDB = {
 					["damage"] = 165796,
 					["damagespells"] = {
 						["Scourge Strike"] = {
-							["blocked"] = 40,
+							["criticalmin"] = 7960,
 							["hitmin"] = 3203,
 							["criticalamount"] = 16310,
 							["id"] = 55271,
-							["hitmax"] = 3203,
+							["hit"] = 1,
 							["targets"] = {
 								["Unrelenting Construct"] = {
 									["amount"] = 19513,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
 							["critical"] = 2,
+							["blocked"] = 40,
+							["criticalmax"] = 8350,
+							["count"] = 3,
 							["amount"] = 19513,
 							["school"] = 1,
-							["criticalmin"] = 7960,
-							["criticalmax"] = 8350,
+							["hitmax"] = 3203,
+							["casts"] = 3,
 							["hitamount"] = 3203,
 						},
 						["Melee"] = {
@@ -15742,14 +15837,14 @@ SkadaStorageDB = {
 									["amount"] = 6950,
 								},
 							},
-							["criticalmax"] = 1562,
-							["critical"] = 1,
 							["casts"] = 1,
 							["count"] = 8,
-							["hit"] = 7,
-							["school"] = 1,
+							["criticalmax"] = 1562,
 							["hitmax"] = 803,
 							["amount"] = 6950,
+							["school"] = 1,
+							["hit"] = 7,
+							["critical"] = 1,
 							["hitamount"] = 5388,
 						},
 						["Death Coil"] = {
@@ -15939,11 +16034,10 @@ SkadaStorageDB = {
 						},
 						[50475] = {
 							["overheal"] = 1828,
-							["max"] = 124,
+							["school"] = 1,
 							["count"] = 24,
 							["amount"] = 124,
-							["school"] = 1,
-							["min"] = 124,
+							["max"] = 124,
 							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
@@ -15951,9 +16045,14 @@ SkadaStorageDB = {
 									["amount"] = 124,
 								},
 							},
+							["min"] = 124,
 						},
 						[34299] = {
 							["overheal"] = 5024,
+							["max"] = 1522,
+							["count"] = 6,
+							["amount"] = 3044,
+							["school"] = 1,
 							["targets"] = {
 								["Earthbasher"] = {
 									["overheal"] = 3501,
@@ -15964,10 +16063,6 @@ SkadaStorageDB = {
 									["amount"] = 3044,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 3044,
-							["school"] = 1,
-							["max"] = 1522,
 							["ishot"] = true,
 							["min"] = 1522,
 						},
@@ -16046,8 +16141,8 @@ SkadaStorageDB = {
 						[48441] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 1,
 							["school"] = 8,
+							["refresh"] = 1,
 							["uptime"] = 48,
 						},
 						[6795] = {
@@ -16062,36 +16157,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[48568] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 12,
-							["targets"] = {
-								["Raging Construct"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 22,
-								},
-								["Unrelenting Construct"] = {
-									["count"] = 3,
-									["refresh"] = 8,
-									["uptime"] = 26,
-								},
-							},
-							["uptime"] = 39,
-						},
 						[48443] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 27,
 						},
-						[57623] = {
+						[53307] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 2,
 							["uptime"] = 62,
+						},
+						[57623] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 62,
+							["count"] = 1,
 						},
 						[64951] = {
 							["type"] = "BUFF",
@@ -16107,13 +16188,13 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Raging Construct"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 21,
 								},
 								["Unrelenting Construct"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 15,
 								},
 							},
@@ -16136,9 +16217,9 @@ SkadaStorageDB = {
 							["uptime"] = 48,
 						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 2,
 						},
 						[9634] = {
@@ -16165,7 +16246,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[53307] = {
+						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 62,
@@ -16175,19 +16256,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 62,
 						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 62,
+						[48568] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 12,
+							["targets"] = {
+								["Raging Construct"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 22,
+								},
+								["Unrelenting Construct"] = {
+									["refresh"] = 8,
+									["count"] = 3,
+									["uptime"] = 26,
+								},
+							},
+							["uptime"] = 39,
 						},
 					},
 					["role"] = "TANK",
 					["time"] = 52.81999999999999,
-					["overkill"] = 1263,
 					["totaldamagetaken"] = 65947,
-					["manaspells"] = {
-						[68285] = 3630,
-					},
 					["damage"] = 110826,
 					["damagespells"] = {
 						["Lacerate (DoT)"] = {
@@ -16203,13 +16294,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 1088,
-							["critical"] = 4,
-							["criticalmax"] = 1451,
 							["count"] = 15,
-							["hit"] = 11,
+							["criticalmax"] = 1451,
+							["critical"] = 4,
+							["amount"] = 9403,
 							["school"] = 1,
 							["hitmax"] = 907,
-							["amount"] = 9403,
+							["hit"] = 11,
 							["hitamount"] = 4325,
 						},
 						["Melee"] = {
@@ -16251,7 +16342,7 @@ SkadaStorageDB = {
 							["hitmin"] = 64,
 							["criticalamount"] = 894,
 							["id"] = 48568,
-							["criticalmax"] = 270,
+							["casts"] = 16,
 							["targets"] = {
 								["Raging Construct"] = {
 									["amount"] = 609,
@@ -16260,22 +16351,22 @@ SkadaStorageDB = {
 									["amount"] = 1665,
 								},
 							},
-							["critical"] = 4,
-							["blocked"] = 80,
-							["casts"] = 16,
 							["count"] = 16,
-							["hit"] = 12,
-							["school"] = 1,
+							["blocked"] = 80,
+							["criticalmax"] = 270,
 							["hitmax"] = 137,
 							["amount"] = 2274,
+							["school"] = 1,
+							["critical"] = 4,
+							["hit"] = 12,
 							["hitamount"] = 1380,
 						},
 						["Mangle (Bear)"] = {
-							["criticalmax"] = 2732,
-							["hitmin"] = 1310,
 							["criticalamount"] = 2732,
-							["id"] = 48564,
+							["hitmin"] = 1310,
 							["criticalmin"] = 2732,
+							["id"] = 48564,
+							["casts"] = 6,
 							["targets"] = {
 								["Raging Construct"] = {
 									["amount"] = 2736,
@@ -16286,21 +16377,21 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1263,
-							["critical"] = 1,
-							["casts"] = 6,
 							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
+							["criticalmax"] = 2732,
 							["hitmax"] = 1384,
 							["amount"] = 9459,
+							["school"] = 1,
+							["hit"] = 5,
+							["critical"] = 1,
 							["hitamount"] = 6727,
 						},
 						["Maul"] = {
-							["blocked"] = 40,
+							["criticalmin"] = 2906,
 							["hitmin"] = 1434,
 							["criticalamount"] = 55032,
 							["id"] = 48480,
-							["hitmax"] = 2323,
+							["hit"] = 15,
 							["targets"] = {
 								["Raging Construct"] = {
 									["amount"] = 33307,
@@ -16309,14 +16400,14 @@ SkadaStorageDB = {
 									["amount"] = 49980,
 								},
 							},
-							["count"] = 29,
-							["hit"] = 15,
-							["casts"] = 17,
 							["critical"] = 14,
+							["blocked"] = 40,
+							["criticalmax"] = 4692,
+							["count"] = 29,
 							["amount"] = 83287,
 							["school"] = 1,
-							["criticalmin"] = 2906,
-							["criticalmax"] = 4692,
+							["hitmax"] = 2323,
+							["casts"] = 17,
 							["hitamount"] = 28255,
 						},
 						["Thorns"] = {
@@ -16341,25 +16432,6 @@ SkadaStorageDB = {
 					},
 					["overheal"] = 0,
 					["damagetaken"] = 49359,
-					["id"] = "0x07000000008C6185",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 0,
-									["amount"] = 7563,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 7563,
-							["school"] = 1,
-							["max"] = 1513,
-							["ishot"] = true,
-							["min"] = 1512,
-						},
-					},
 					["damagetakenspells"] = {
 						["Arcing Smash"] = {
 							["DODGE"] = 1,
@@ -16433,13 +16505,36 @@ SkadaStorageDB = {
 							["hitamount"] = 1304,
 						},
 					},
-					["heal"] = 7563,
+					["id"] = "0x07000000008C6185",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 0,
+							["max"] = 1513,
+							["count"] = 5,
+							["amount"] = 7563,
+							["school"] = 1,
+							["targets"] = {
+								["Thirial"] = {
+									["overheal"] = 0,
+									["amount"] = 7563,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 1512,
+						},
+					},
+					["overkill"] = 1263,
 					["ragespells"] = {
 						[16959] = 95,
 						[59072] = 27,
 					},
-					["name"] = "Thirial",
+					["heal"] = 7563,
+					["manaspells"] = {
+						[68285] = 3630,
+					},
 					["ccdone"] = 1,
+					["name"] = "Thirial",
 					["mana"] = 3630,
 					["rage"] = 122,
 					["totaldamage"] = 110826,
@@ -16460,15 +16555,15 @@ SkadaStorageDB = {
 							["uptime"] = 62,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 2,
+							["type"] = "BUFF",
 							["uptime"] = 62,
+							["count"] = 1,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 8,
 						},
 						[48422] = {
@@ -16477,16 +16572,16 @@ SkadaStorageDB = {
 							["uptime"] = 62,
 						},
 						[60520] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[67358] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 7,
 							["school"] = 8,
+							["refresh"] = 7,
 							["uptime"] = 53,
 						},
 						[24932] = {
@@ -16500,15 +16595,16 @@ SkadaStorageDB = {
 							["uptime"] = 62,
 						},
 						[60062] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 					},
 					["energyspells"] = {
 						[48540] = 24,
 					},
+					["role"] = "HEALER",
 					["time"] = 50.14999999999999,
 					["rage"] = 16,
 					["id"] = "0x070000000095B7ED",
@@ -16516,11 +16612,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[53251] = {
 							["overheal"] = 12565,
-							["max"] = 734,
+							["school"] = 8,
 							["count"] = 35,
 							["amount"] = 8906,
-							["school"] = 8,
-							["min"] = 50,
+							["max"] = 734,
 							["ishot"] = true,
 							["targets"] = {
 								["Tumbleweed"] = {
@@ -16544,6 +16639,7 @@ SkadaStorageDB = {
 									["amount"] = 3092,
 								},
 							},
+							["min"] = 50,
 						},
 						[48441] = {
 							["overheal"] = 18311,
@@ -16567,11 +16663,11 @@ SkadaStorageDB = {
 						},
 						[48443] = {
 							["overheal"] = 329,
-							["ishot"] = true,
+							["max"] = 4625,
 							["count"] = 10,
 							["amount"] = 13383,
 							["school"] = 8,
-							["max"] = 4625,
+							["ishot"] = true,
 							["targets"] = {
 								["Thirial"] = {
 									["overheal"] = 329,
@@ -16595,18 +16691,17 @@ SkadaStorageDB = {
 							["min"] = 7135,
 						},
 					},
-					["runicspells"] = {
-						[48543] = 64,
-					},
 					["ragespells"] = {
 						[48541] = 16,
 					},
-					["heal"] = 56465,
 					["name"] = "Tumbleweed",
-					["overheal"] = 31205,
+					["runicspells"] = {
+						[48543] = 64,
+					},
 					["runic"] = 64,
+					["overheal"] = 31205,
 					["energy"] = 24,
-					["role"] = "HEALER",
+					["heal"] = 56465,
 				}, -- [3]
 				{
 					["last"] = 4889.686,
@@ -16625,40 +16720,40 @@ SkadaStorageDB = {
 							["refresh"] = 8,
 							["targets"] = {
 								["Raging Construct"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 14,
 								},
 								["Unrelenting Construct"] = {
-									["count"] = 6,
 									["refresh"] = 7,
+									["count"] = 6,
 									["uptime"] = 26,
 								},
 							},
 							["uptime"] = 31,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 2,
+							["type"] = "BUFF",
 							["uptime"] = 62,
+							["count"] = 1,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 8,
 						},
 						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 1,
 							["uptime"] = 11,
 						},
 						[46916] = {
@@ -16676,9 +16771,9 @@ SkadaStorageDB = {
 							["uptime"] = 50,
 						},
 						[60065] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[48470] = {
@@ -16687,11 +16782,11 @@ SkadaStorageDB = {
 							["uptime"] = 62,
 						},
 					},
+					["totaldamage"] = 93746,
 					["time"] = 44.99999999999997,
 					["totaldamagetaken"] = 3759,
 					["damage"] = 93746,
 					["rage"] = 45,
-					["overheal"] = 657,
 					["damagetaken"] = 3759,
 					["id"] = "0x07000000009A86E7",
 					["spec"] = 72,
@@ -16728,13 +16823,14 @@ SkadaStorageDB = {
 							["hitamount"] = 3759,
 						},
 					},
-					["overkill"] = 1118,
 					["ragespells"] = {
 						[29131] = 10,
 						[2687] = 20,
 						[12964] = 15,
 					},
 					["name"] = "Miracledream",
+					["overheal"] = 657,
+					["overkill"] = 1118,
 					["heal"] = 2019,
 					["damagespells"] = {
 						["Deep Wounds (DoT)"] = {
@@ -16768,14 +16864,14 @@ SkadaStorageDB = {
 									["amount"] = 6403,
 								},
 							},
-							["criticalmax"] = 3176,
-							["critical"] = 1,
 							["casts"] = 4,
 							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
+							["criticalmax"] = 3176,
 							["hitmax"] = 1783,
 							["amount"] = 7871,
+							["school"] = 1,
+							["hit"] = 3,
+							["critical"] = 1,
 							["hitamount"] = 4695,
 						},
 						["Melee"] = {
@@ -16799,13 +16895,13 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["glancemax"] = 1002,
 							["criticalmax"] = 1954,
-							["critical"] = 7,
-							["PARRY"] = 1,
 							["count"] = 27,
-							["hit"] = 11,
+							["PARRY"] = 1,
+							["critical"] = 7,
+							["blocked"] = 40,
 							["school"] = 1,
 							["hitmax"] = 1232,
-							["blocked"] = 40,
+							["hit"] = 11,
 							["hitamount"] = 9466,
 						},
 						["Cleave"] = {
@@ -16821,14 +16917,14 @@ SkadaStorageDB = {
 									["amount"] = 14285,
 								},
 							},
-							["criticalmax"] = 3126,
-							["critical"] = 4,
 							["casts"] = 5,
 							["count"] = 10,
-							["hit"] = 6,
-							["school"] = 1,
+							["criticalmax"] = 3126,
 							["hitmax"] = 1440,
 							["amount"] = 20209,
+							["school"] = 1,
+							["hit"] = 6,
+							["critical"] = 4,
 							["hitamount"] = 8256,
 						},
 						["Slam"] = {
@@ -16848,11 +16944,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 						},
 						["Whirlwind"] = {
-							["criticalmax"] = 3172,
-							["hitmin"] = 738,
 							["criticalamount"] = 18132,
-							["id"] = 1680,
+							["hitmin"] = 738,
 							["criticalmin"] = 1621,
+							["id"] = 1680,
+							["casts"] = 5,
 							["targets"] = {
 								["Raging Construct"] = {
 									["amount"] = 8539,
@@ -16863,13 +16959,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1118,
-							["critical"] = 7,
-							["casts"] = 5,
 							["count"] = 17,
-							["hit"] = 10,
-							["school"] = 1,
+							["criticalmax"] = 3172,
 							["hitmax"] = 1315,
 							["amount"] = 27903,
+							["school"] = 1,
+							["hit"] = 10,
+							["critical"] = 7,
 							["hitamount"] = 9771,
 						},
 						["Execute"] = {
@@ -16908,7 +17004,6 @@ SkadaStorageDB = {
 							["hitamount"] = 2703,
 						},
 					},
-					["totaldamage"] = 93746,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -16933,6 +17028,29 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 13,
 						},
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[57623] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 62,
+							["count"] = 1,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 62,
+						},
 						[22959] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -16944,43 +17062,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 13,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 62,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 8,
-						},
-						[12536] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 3,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 4,
-							["refresh"] = 6,
-							["targets"] = {
-								["Raging Construct"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 15,
-								},
-								["Unrelenting Construct"] = {
-									["count"] = 6,
-									["refresh"] = 4,
-									["uptime"] = 27,
-								},
-							},
-							["uptime"] = 36,
 						},
 						[55360] = {
 							["type"] = "DEBUFF",
@@ -16999,30 +17080,10 @@ SkadaStorageDB = {
 							["uptime"] = 27,
 						},
 						[48108] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 13,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 62,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 62,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 62,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 62,
 						},
 						[42926] = {
 							["type"] = "DEBUFF",
@@ -17040,7 +17101,42 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 4,
+							["refresh"] = 6,
+							["targets"] = {
+								["Raging Construct"] = {
+									["refresh"] = 2,
+									["count"] = 3,
+									["uptime"] = 15,
+								},
+								["Unrelenting Construct"] = {
+									["refresh"] = 4,
+									["count"] = 6,
+									["uptime"] = 27,
+								},
+							},
+							["uptime"] = 36,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 62,
+						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 62,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 62,
+						},
 					},
+					["totaldamage"] = 140292,
 					["time"] = 50.41000000000001,
 					["totaldamagetaken"] = 3173,
 					["damage"] = 140292,
@@ -17050,7 +17146,7 @@ SkadaStorageDB = {
 							["hitmin"] = 3635,
 							["criticalamount"] = 9504,
 							["id"] = 42833,
-							["criticalmax"] = 9504,
+							["hitmax"] = 5416,
 							["targets"] = {
 								["Raging Construct"] = {
 									["amount"] = 19395,
@@ -17060,13 +17156,13 @@ SkadaStorageDB = {
 								},
 							},
 							["critical"] = 1,
-							["hitmax"] = 5416,
+							["hit"] = 8,
 							["casts"] = 10,
 							["count"] = 9,
-							["hit"] = 8,
+							["amount"] = 46827,
 							["school"] = 4,
 							["resisted"] = 901,
-							["amount"] = 46827,
+							["criticalmax"] = 9504,
 							["hitamount"] = 37323,
 						},
 						["Pyroblast (DoT)"] = {
@@ -17097,14 +17193,14 @@ SkadaStorageDB = {
 									["amount"] = 16544,
 								},
 							},
-							["criticalmax"] = 3925,
-							["critical"] = 4,
 							["casts"] = 5,
 							["count"] = 9,
-							["hit"] = 5,
-							["school"] = 4,
+							["criticalmax"] = 3925,
 							["hitmax"] = 2242,
 							["amount"] = 24013,
+							["school"] = 4,
+							["hit"] = 5,
+							["critical"] = 4,
 							["hitamount"] = 9559,
 						},
 						["Pyroblast"] = {
@@ -17123,21 +17219,28 @@ SkadaStorageDB = {
 							["amount"] = 10634,
 							["hitamount"] = 10634,
 						},
-						["Scorch"] = {
-							["hitmin"] = 1741,
-							["id"] = 42859,
+						["Living Bomb (DoT)"] = {
+							["hitmin"] = 769,
+							["criticalamount"] = 14232,
+							["id"] = 55360,
+							["criticalmin"] = 1495,
 							["targets"] = {
+								["Raging Construct"] = {
+									["amount"] = 9282,
+								},
 								["Unrelenting Construct"] = {
-									["amount"] = 3492,
+									["amount"] = 16761,
 								},
 							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
+							["critical"] = 9,
+							["hit"] = 13,
+							["criticalmax"] = 1690,
+							["count"] = 22,
+							["amount"] = 26043,
 							["school"] = 4,
-							["hitmax"] = 1751,
-							["amount"] = 3492,
-							["hitamount"] = 3492,
+							["resisted"] = 181,
+							["hitmax"] = 966,
+							["hitamount"] = 11811,
 						},
 						["Ignite (DoT)"] = {
 							["hitmin"] = 240,
@@ -17158,34 +17261,29 @@ SkadaStorageDB = {
 							["amount"] = 12464,
 							["hitamount"] = 12464,
 						},
-						["Living Bomb (DoT)"] = {
-							["hitmin"] = 769,
-							["criticalamount"] = 14232,
-							["id"] = 55360,
-							["hit"] = 13,
+						["Flamestrike (DoT)"] = {
+							["hitmin"] = 502,
+							["id"] = 42926,
 							["targets"] = {
 								["Raging Construct"] = {
-									["amount"] = 9282,
+									["amount"] = 2008,
 								},
 								["Unrelenting Construct"] = {
-									["amount"] = 16761,
+									["amount"] = 2008,
 								},
 							},
-							["hitmax"] = 966,
-							["count"] = 22,
-							["criticalmax"] = 1690,
-							["critical"] = 9,
-							["amount"] = 26043,
+							["count"] = 8,
+							["hit"] = 8,
 							["school"] = 4,
-							["resisted"] = 181,
-							["criticalmin"] = 1495,
-							["hitamount"] = 11811,
+							["hitmax"] = 502,
+							["amount"] = 4016,
+							["hitamount"] = 4016,
 						},
 						["Flamestrike"] = {
 							["hitmin"] = 1745,
 							["criticalamount"] = 2873,
 							["id"] = 42926,
-							["hitmax"] = 1745,
+							["criticalmin"] = 2873,
 							["targets"] = {
 								["Raging Construct"] = {
 									["amount"] = 1745,
@@ -17194,14 +17292,14 @@ SkadaStorageDB = {
 									["amount"] = 2873,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 4618,
-							["school"] = 4,
-							["criticalmin"] = 2873,
 							["criticalmax"] = 2873,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 1745,
+							["casts"] = 1,
 							["hitamount"] = 1745,
 						},
 						["Fire Blast"] = {
@@ -17223,23 +17321,21 @@ SkadaStorageDB = {
 							["amount"] = 5647,
 							["hitamount"] = 5647,
 						},
-						["Flamestrike (DoT)"] = {
-							["hitmin"] = 502,
-							["id"] = 42926,
+						["Scorch"] = {
+							["hitmin"] = 1741,
+							["id"] = 42859,
 							["targets"] = {
-								["Raging Construct"] = {
-									["amount"] = 2008,
-								},
 								["Unrelenting Construct"] = {
-									["amount"] = 2008,
+									["amount"] = 3492,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 8,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 4,
-							["hitmax"] = 502,
-							["amount"] = 4016,
-							["hitamount"] = 4016,
+							["hitmax"] = 1751,
+							["amount"] = 3492,
+							["hitamount"] = 3492,
 						},
 					},
 					["damagetaken"] = 3173,
@@ -17269,13 +17365,13 @@ SkadaStorageDB = {
 						[44450] = -80,
 					},
 					["mana"] = 2410,
-					["totaldamage"] = 140292,
 					["role"] = "DAMAGER",
 				}, -- [5]
 			},
 			["type"] = "party",
 			["damagetaken"] = 66152,
 			["etotaldamage"] = 82740,
+			["ccdone"] = 1,
 			["damage"] = 510660,
 			["rage"] = 183,
 			["overkill"] = 3299,
@@ -17287,11 +17383,9 @@ SkadaStorageDB = {
 			["edamage"] = 66152,
 			["last_action"] = 1699557399,
 			["endtime"] = 1699557400,
-		}, -- [7]
+		}, -- [8]
 		{
-			["damage"] = 379087,
 			["mana"] = 5478,
-			["overheal"] = 46870,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -17425,23 +17519,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 23427,
 						},
-						[50526] = {
+						[55078] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1927,
+									["amount"] = 2272,
 								},
 							},
-							["amount"] = 1927,
+							["amount"] = 2272,
 						},
-						[55095] = {
-							["school"] = 16,
+						[71904] = {
+							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2271,
+									["amount"] = 2643,
 								},
 							},
-							["amount"] = 2271,
+							["amount"] = 2643,
 						},
 						[47468] = {
 							["school"] = 1,
@@ -17452,14 +17546,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2365,
 						},
-						[71904] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2643,
+									["amount"] = 6773,
 								},
 							},
-							["amount"] = 2643,
+							["amount"] = 6773,
 						},
 						[55362] = {
 							["school"] = 4,
@@ -17497,14 +17591,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5484,
 						},
-						[55078] = {
-							["school"] = 32,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 2272,
+									["amount"] = 2271,
 								},
 							},
-							["amount"] = 2272,
+							["amount"] = 2271,
 						},
 						[12721] = {
 							["school"] = 1,
@@ -17517,14 +17611,14 @@ SkadaStorageDB = {
 							["overkill"] = 398,
 							["amount"] = 783,
 						},
-						[52212] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 6773,
+									["amount"] = 1927,
 								},
 							},
-							["amount"] = 6773,
+							["amount"] = 1927,
 						},
 						[12654] = {
 							["school"] = 4,
@@ -17536,8 +17630,8 @@ SkadaStorageDB = {
 							["amount"] = 5399,
 						},
 					},
-					["name"] = "Dark Rune Giant",
 					["totaldamage"] = 1643,
+					["name"] = "Dark Rune Giant",
 					["totaldamagetaken"] = 118405,
 					["id"] = "0xF130006D4100005A",
 					["damage"] = 367,
@@ -17643,14 +17737,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3391,
 						},
-						[55362] = {
-							["school"] = 4,
+						[48480] = {
+							["school"] = 1,
 							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 8169,
+								["Thirial"] = {
+									["overkill"] = 2041,
+									["amount"] = 12453,
 								},
 							},
-							["amount"] = 8169,
+							["overkill"] = 2041,
+							["amount"] = 12453,
 						},
 						[47520] = {
 							["school"] = 1,
@@ -17826,20 +17922,18 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2444,
 						},
-						[48480] = {
-							["school"] = 1,
+						[55362] = {
+							["school"] = 4,
 							["sources"] = {
-								["Thirial"] = {
-									["overkill"] = 2041,
-									["amount"] = 12453,
+								["Berdanx"] = {
+									["amount"] = 8169,
 								},
 							},
-							["overkill"] = 2041,
-							["amount"] = 12453,
+							["amount"] = 8169,
 						},
 					},
-					["name"] = "Raging Construct",
 					["totaldamage"] = 22011,
+					["name"] = "Raging Construct",
 					["totaldamagetaken"] = 128041,
 					["id"] = "0xF130006D4200005C",
 					["damage"] = 19459,
@@ -17924,14 +18018,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5865,
 						},
-						[42873] = {
-							["school"] = 4,
+						[23881] = {
+							["school"] = 1,
 							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 2943,
+								["Miracledream"] = {
+									["amount"] = 1416,
 								},
 							},
-							["amount"] = 2943,
+							["amount"] = 1416,
 						},
 						[55362] = {
 							["school"] = 4,
@@ -17951,14 +18045,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2877,
 						},
-						[23881] = {
-							["school"] = 1,
+						[51460] = {
+							["school"] = 32,
 							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 1416,
+								["Urgash"] = {
+									["amount"] = 1205,
 								},
 							},
-							["amount"] = 1416,
+							["amount"] = 1205,
 						},
 						[44949] = {
 							["school"] = 1,
@@ -17969,14 +18063,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 741,
 						},
-						[51460] = {
-							["school"] = 32,
+						[42873] = {
+							["school"] = 4,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1205,
+								["Berdanx"] = {
+									["amount"] = 2943,
 								},
 							},
-							["amount"] = 1205,
+							["amount"] = 2943,
 						},
 						[1680] = {
 							["school"] = 1,
@@ -17996,14 +18090,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1738,
 						},
-						[71904] = {
-							["school"] = 32,
+						[48480] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2908,
+								["Thirial"] = {
+									["amount"] = 10615,
 								},
 							},
-							["amount"] = 2908,
+							["amount"] = 10615,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -18020,14 +18114,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 17167,
 						},
-						[42891] = {
-							["school"] = 4,
+						[47632] = {
+							["school"] = 32,
 							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 5703,
+								["Urgash"] = {
+									["amount"] = 3702,
 								},
 							},
-							["amount"] = 5703,
+							["amount"] = 3702,
 						},
 						[50536] = {
 							["school"] = 32,
@@ -18038,15 +18132,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 30,
 						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3702,
-								},
-							},
-							["amount"] = 3702,
-						},
 						[52212] = {
 							["school"] = 32,
 							["sources"] = {
@@ -18055,6 +18140,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 11338,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 7738,
+								},
+							},
+							["amount"] = 7738,
 						},
 						[12654] = {
 							["school"] = 4,
@@ -18083,6 +18177,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4009,
 						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2908,
+								},
+							},
+							["amount"] = 2908,
+						},
 						[53307] = {
 							["school"] = 8,
 							["sources"] = {
@@ -18091,15 +18194,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 282,
-						},
-						[48480] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 10615,
-								},
-							},
-							["amount"] = 10615,
 						},
 						[12721] = {
 							["school"] = 1,
@@ -18110,6 +18204,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 976,
 						},
+						[42891] = {
+							["school"] = 4,
+							["sources"] = {
+								["Berdanx"] = {
+									["amount"] = 5703,
+								},
+							},
+							["amount"] = 5703,
+						},
 						[42833] = {
 							["school"] = 4,
 							["sources"] = {
@@ -18119,18 +18222,9 @@ SkadaStorageDB = {
 							},
 							["amount"] = 24499,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7738,
-								},
-							},
-							["amount"] = 7738,
-						},
 					},
-					["name"] = "Unrelenting Construct",
 					["totaldamage"] = 16248,
+					["name"] = "Unrelenting Construct",
 					["totaldamagetaken"] = 132641,
 					["id"] = "0xF130006D4300005D",
 					["damage"] = 11144,
@@ -18139,9 +18233,13 @@ SkadaStorageDB = {
 			["energy"] = 8,
 			["totaldamage"] = 379087,
 			["time"] = 25,
-			["runic"] = 10,
+			["overheal"] = 46870,
 			["totaldamagetaken"] = 39902,
 			["etotaldamagetaken"] = 379087,
+			["damage"] = 379087,
+			["runic"] = 10,
+			["type"] = "party",
+			["damagetaken"] = 30970,
 			["last_time"] = 4817.987,
 			["players"] = {
 				{
@@ -18174,9 +18272,9 @@ SkadaStorageDB = {
 							["uptime"] = 19,
 						},
 						[45529] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 18,
 						},
 						[55078] = {
@@ -18200,23 +18298,23 @@ SkadaStorageDB = {
 							["uptime"] = 20,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 14,
 						},
 						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 7,
 							["school"] = 1,
+							["refresh"] = 7,
 							["uptime"] = 9,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 2,
+							["type"] = "BUFF",
 							["uptime"] = 25,
+							["count"] = 1,
 						},
 						[71227] = {
 							["type"] = "BUFF",
@@ -18240,8 +18338,8 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 8,
 								},
 							},
@@ -18309,10 +18407,16 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 7,
+						},
+						[71560] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
 						},
 						[53365] = {
 							["type"] = "BUFF",
@@ -18321,16 +18425,10 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 8,
 						},
-						[71560] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 9,
-						},
 						[48443] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 16,
 						},
 						[72221] = {
@@ -18339,9 +18437,9 @@ SkadaStorageDB = {
 							["uptime"] = 25,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[66803] = {
@@ -18352,12 +18450,13 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 					},
+					["totaldamage"] = 179614,
 					["time"] = 22.8,
 					["totaldamagetaken"] = 22813,
 					["damage"] = 179614,
@@ -18368,11 +18467,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 3856,
-							["max"] = 1523,
+							["school"] = 1,
 							["count"] = 5,
 							["amount"] = 3046,
-							["school"] = 1,
-							["min"] = 1523,
+							["max"] = 1523,
 							["ishot"] = true,
 							["targets"] = {
 								["Earthbasher"] = {
@@ -18384,6 +18482,7 @@ SkadaStorageDB = {
 									["amount"] = 3046,
 								},
 							},
+							["min"] = 1523,
 						},
 						[53365] = {
 							["overheal"] = 0,
@@ -18452,32 +18551,32 @@ SkadaStorageDB = {
 							["hitamount"] = 16317,
 						},
 					},
+					["heal"] = 5328,
+					["name"] = "Urgash",
 					["runicspells"] = {
 						[45529] = 10,
 					},
-					["heal"] = 5328,
-					["name"] = "Urgash",
 					["runic"] = 10,
 					["damagespells"] = {
 						["Scourge Strike"] = {
-							["hitmax"] = 3474,
+							["criticalmin"] = 8134,
 							["hitmin"] = 3474,
 							["criticalamount"] = 8134,
 							["id"] = 55271,
-							["count"] = 3,
+							["casts"] = 3,
 							["targets"] = {
 								["Raging Construct"] = {
 									["amount"] = 11608,
 								},
 							},
-							["hit"] = 1,
-							["PARRY"] = 1,
-							["casts"] = 3,
 							["critical"] = 1,
+							["hit"] = 1,
+							["criticalmax"] = 8134,
+							["count"] = 3,
 							["amount"] = 11608,
 							["school"] = 1,
-							["criticalmin"] = 8134,
-							["criticalmax"] = 8134,
+							["hitmax"] = 3474,
+							["PARRY"] = 1,
 							["hitamount"] = 3474,
 						},
 						["Death and Decay"] = {
@@ -18496,14 +18595,14 @@ SkadaStorageDB = {
 									["amount"] = 6773,
 								},
 							},
-							["criticalmax"] = 1743,
-							["critical"] = 8,
 							["casts"] = 1,
 							["count"] = 28,
-							["hit"] = 20,
-							["school"] = 32,
+							["criticalmax"] = 1743,
 							["hitmax"] = 834,
 							["amount"] = 29448,
+							["school"] = 32,
+							["hit"] = 20,
+							["critical"] = 8,
 							["hitamount"] = 16267,
 						},
 						["Death Coil"] = {
@@ -18583,14 +18682,14 @@ SkadaStorageDB = {
 									["amount"] = 4137,
 								},
 							},
-							["blocked"] = 40,
-							["critical"] = 2,
-							["criticalmax"] = 1046,
 							["count"] = 14,
 							["hit"] = 12,
-							["school"] = 1,
+							["criticalmax"] = 1046,
 							["hitmax"] = 595,
 							["amount"] = 8560,
+							["school"] = 1,
+							["blocked"] = 40,
+							["critical"] = 2,
 							["hitamount"] = 6480,
 						},
 						["Melee"] = {
@@ -18654,14 +18753,14 @@ SkadaStorageDB = {
 									["amount"] = 2365,
 								},
 							},
-							["criticalmax"] = 1510,
-							["critical"] = 2,
 							["casts"] = 1,
 							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
+							["criticalmax"] = 1510,
 							["hitmax"] = 807,
 							["amount"] = 6082,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 2,
 							["hitamount"] = 3100,
 						},
 						["Blood Strike"] = {
@@ -18677,14 +18776,14 @@ SkadaStorageDB = {
 									["amount"] = 4045,
 								},
 							},
-							["criticalmax"] = 4045,
-							["critical"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 4045,
 							["hitmax"] = 1887,
 							["amount"] = 5932,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 1887,
 						},
 						["Necrosis"] = {
@@ -18822,7 +18921,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 						},
 					},
-					["totaldamage"] = 179614,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -18856,29 +18954,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[48568] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Raging Construct"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 4,
-								},
-								["Unrelenting Construct"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[57623] = {
+						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[57623] = {
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 25,
+							["count"] = 1,
 						},
 						[48451] = {
 							["type"] = "BUFF",
@@ -18901,16 +18987,15 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[53251] = {
+						[53307] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
+							["uptime"] = 25,
 						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[9634] = {
@@ -18926,12 +19011,12 @@ SkadaStorageDB = {
 							["uptime"] = 17,
 						},
 						[64951] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 3,
+							["type"] = "BUFF",
 							["uptime"] = 25,
+							["count"] = 1,
 						},
-						[53307] = {
+						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
@@ -18941,23 +19026,37 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
+						[48568] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Raging Construct"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 4,
+								},
+								["Unrelenting Construct"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
 						},
 					},
+					["totaldamage"] = 53415,
 					["time"] = 21.54,
-					["overheal"] = 4195,
 					["totaldamagetaken"] = 12938,
-					["overkill"] = 2041,
 					["damage"] = 53415,
+					["overheal"] = 4195,
+					["damagetaken"] = 4006,
 					["damagespells"] = {
 						["Swipe (Bear)"] = {
 							["hitmin"] = 412,
 							["criticalamount"] = 1676,
 							["id"] = 48562,
-							["hitmax"] = 420,
+							["criticalmin"] = 836,
 							["targets"] = {
 								["Unrelenting Construct"] = {
 									["amount"] = 824,
@@ -18969,14 +19068,14 @@ SkadaStorageDB = {
 									["amount"] = 1260,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 4,
-							["casts"] = 2,
 							["critical"] = 2,
 							["amount"] = 3338,
-							["school"] = 1,
-							["criticalmin"] = 836,
 							["criticalmax"] = 840,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 420,
+							["casts"] = 2,
 							["hitamount"] = 1662,
 						},
 						["Melee"] = {
@@ -18997,6 +19096,60 @@ SkadaStorageDB = {
 							["criticalmin"] = 1530,
 							["count"] = 2,
 						},
+						["Mangle (Bear)"] = {
+							["hitmin"] = 1344,
+							["criticalamount"] = 5376,
+							["id"] = 48564,
+							["criticalmin"] = 2628,
+							["targets"] = {
+								["Unrelenting Construct"] = {
+									["amount"] = 2628,
+								},
+								["Raging Construct"] = {
+									["amount"] = 1344,
+								},
+								["Dark Rune Giant"] = {
+									["amount"] = 2748,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 6720,
+							["criticalmax"] = 2748,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1344,
+							["casts"] = 3,
+							["hitamount"] = 1344,
+						},
+						["Maul"] = {
+							["criticalamount"] = 15938,
+							["hitmin"] = 1482,
+							["criticalmin"] = 3450,
+							["id"] = 48480,
+							["casts"] = 7,
+							["targets"] = {
+								["Unrelenting Construct"] = {
+									["amount"] = 10615,
+								},
+								["Raging Construct"] = {
+									["overkill"] = 2041,
+									["amount"] = 12453,
+								},
+								["Dark Rune Giant"] = {
+									["amount"] = 9182,
+								},
+							},
+							["overkill"] = 2041,
+							["count"] = 12,
+							["criticalmax"] = 4572,
+							["hitmax"] = 2307,
+							["amount"] = 32250,
+							["school"] = 1,
+							["hit"] = 8,
+							["critical"] = 4,
+							["hitamount"] = 16312,
+						},
 						["Lacerate (DoT)"] = {
 							["hitmin"] = 181,
 							["criticalamount"] = 5637,
@@ -19012,14 +19165,14 @@ SkadaStorageDB = {
 									["amount"] = 5079,
 								},
 							},
-							["hitmax"] = 363,
-							["count"] = 8,
-							["criticalmax"] = 1814,
+							["criticalmin"] = 558,
 							["critical"] = 4,
+							["criticalmax"] = 1814,
+							["count"] = 8,
 							["amount"] = 6544,
 							["school"] = 1,
 							["hit"] = 4,
-							["criticalmin"] = 558,
+							["hitmax"] = 363,
 							["hitamount"] = 907,
 						},
 						["Lacerate"] = {
@@ -19038,69 +19191,15 @@ SkadaStorageDB = {
 									["amount"] = 405,
 								},
 							},
-							["criticalmax"] = 270,
-							["critical"] = 2,
 							["casts"] = 6,
 							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
+							["criticalmax"] = 270,
 							["hitmax"] = 135,
 							["amount"] = 948,
-							["hitamount"] = 472,
-						},
-						["Mangle (Bear)"] = {
-							["hitmin"] = 1344,
-							["criticalamount"] = 5376,
-							["id"] = 48564,
-							["hitmax"] = 1344,
-							["targets"] = {
-								["Unrelenting Construct"] = {
-									["amount"] = 2628,
-								},
-								["Raging Construct"] = {
-									["amount"] = 1344,
-								},
-								["Dark Rune Giant"] = {
-									["amount"] = 2748,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
+							["school"] = 1,
+							["hit"] = 4,
 							["critical"] = 2,
-							["amount"] = 6720,
-							["school"] = 1,
-							["criticalmin"] = 2628,
-							["criticalmax"] = 2748,
-							["hitamount"] = 1344,
-						},
-						["Maul"] = {
-							["criticalmax"] = 4572,
-							["hitmin"] = 1482,
-							["criticalamount"] = 15938,
-							["id"] = 48480,
-							["criticalmin"] = 3450,
-							["targets"] = {
-								["Unrelenting Construct"] = {
-									["amount"] = 10615,
-								},
-								["Raging Construct"] = {
-									["overkill"] = 2041,
-									["amount"] = 12453,
-								},
-								["Dark Rune Giant"] = {
-									["amount"] = 9182,
-								},
-							},
-							["overkill"] = 2041,
-							["critical"] = 4,
-							["casts"] = 7,
-							["count"] = 12,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 2307,
-							["amount"] = 32250,
-							["hitamount"] = 16312,
+							["hitamount"] = 472,
 						},
 						["Thorns"] = {
 							["hitmin"] = 93,
@@ -19125,21 +19224,15 @@ SkadaStorageDB = {
 							["hitamount"] = 469,
 						},
 					},
-					["ragespells"] = {
-						[16959] = 60,
-						[59072] = 3,
-					},
-					["damagetaken"] = 4006,
 					["id"] = "0x07000000008C6185",
 					["spec"] = 103,
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 4195,
-							["max"] = 343,
+							["school"] = 1,
 							["count"] = 3,
 							["amount"] = 343,
-							["school"] = 1,
-							["min"] = 343,
+							["max"] = 343,
 							["ishot"] = true,
 							["targets"] = {
 								["Thirial"] = {
@@ -19147,8 +19240,10 @@ SkadaStorageDB = {
 									["amount"] = 343,
 								},
 							},
+							["min"] = 343,
 						},
 					},
+					["overkill"] = 2041,
 					["damagetakenspells"] = {
 						["Arcing Smash"] = {
 							["total"] = 2170,
@@ -19212,14 +19307,17 @@ SkadaStorageDB = {
 							["hitamount"] = 2337,
 						},
 					},
+					["ragespells"] = {
+						[16959] = 60,
+						[59072] = 3,
+					},
+					["name"] = "Thirial",
 					["rage"] = 63,
 					["heal"] = 343,
-					["name"] = "Thirial",
 					["manaspells"] = {
 						[68285] = 2178,
 					},
 					["mana"] = 2178,
-					["totaldamage"] = 53415,
 					["role"] = "TANK",
 				}, -- [2]
 				{
@@ -19238,15 +19336,15 @@ SkadaStorageDB = {
 							["uptime"] = 25,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 25,
+							["count"] = 1,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[48422] = {
@@ -19260,22 +19358,22 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[60062] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 2,
 						},
 						[67358] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 3,
+							["type"] = "BUFF",
 							["uptime"] = 25,
+							["count"] = 1,
 						},
 						[24932] = {
 							["type"] = "BUFF",
@@ -19296,23 +19394,20 @@ SkadaStorageDB = {
 					["energyspells"] = {
 						[48540] = 8,
 					},
+					["role"] = "HEALER",
 					["time"] = 24.21,
-					["manaspells"] = {
-						[64372] = 489,
-						[48542] = 1116,
-					},
 					["totaldamagetaken"] = 4151,
-					["ragespells"] = {
-						[48541] = 16,
-					},
 					["overheal"] = 37258,
-					["rage"] = 16,
 					["damagetaken"] = 4151,
 					["id"] = "0x070000000095B7ED",
 					["spec"] = 105,
 					["healspells"] = {
 						[53251] = {
 							["overheal"] = 13526,
+							["max"] = 777,
+							["count"] = 35,
+							["amount"] = 9438,
+							["school"] = 8,
 							["targets"] = {
 								["Tumbleweed"] = {
 									["overheal"] = 2423,
@@ -19335,10 +19430,6 @@ SkadaStorageDB = {
 									["amount"] = 1809,
 								},
 							},
-							["count"] = 35,
-							["amount"] = 9438,
-							["school"] = 8,
-							["max"] = 777,
 							["ishot"] = true,
 							["min"] = 484,
 						},
@@ -19393,11 +19484,11 @@ SkadaStorageDB = {
 						},
 						[48443] = {
 							["overheal"] = 0,
-							["ishot"] = true,
+							["max"] = 4818,
 							["count"] = 6,
 							["amount"] = 10218,
 							["school"] = 8,
-							["max"] = 4818,
+							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 0,
@@ -19424,11 +19515,18 @@ SkadaStorageDB = {
 							["hitamount"] = 4151,
 						},
 					},
-					["heal"] = 26631,
-					["name"] = "Tumbleweed",
+					["ragespells"] = {
+						[48541] = 16,
+					},
+					["manaspells"] = {
+						[64372] = 489,
+						[48542] = 1116,
+					},
+					["rage"] = 16,
 					["mana"] = 1605,
+					["name"] = "Tumbleweed",
 					["energy"] = 8,
-					["role"] = "HEALER",
+					["heal"] = 26631,
 				}, -- [3]
 				{
 					["last"] = 4816.305,
@@ -19441,21 +19539,21 @@ SkadaStorageDB = {
 							["uptime"] = 25,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 25,
+							["count"] = 1,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[29131] = {
@@ -19464,21 +19562,21 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[46916] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[18499] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[12970] = {
@@ -19500,24 +19598,25 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["targets"] = {
 								["Unrelenting Construct"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 8,
 								},
 								["Raging Construct"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 11,
 								},
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 							},
 							["uptime"] = 17,
 						},
 					},
+					["totaldamage"] = 45037,
 					["time"] = 22.95,
 					["damage"] = 45037,
 					["damagespells"] = {
@@ -19525,7 +19624,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1416,
 							["criticalamount"] = 3181,
 							["id"] = 23881,
-							["hitmax"] = 1439,
+							["criticalmin"] = 3181,
 							["targets"] = {
 								["Unrelenting Construct"] = {
 									["amount"] = 1416,
@@ -19537,14 +19636,14 @@ SkadaStorageDB = {
 									["amount"] = 3181,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 2,
-							["casts"] = 3,
 							["critical"] = 1,
 							["amount"] = 6036,
-							["school"] = 1,
-							["criticalmin"] = 3181,
 							["criticalmax"] = 3181,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1439,
+							["casts"] = 3,
 							["hitamount"] = 2855,
 						},
 						["Melee"] = {
@@ -19593,14 +19692,14 @@ SkadaStorageDB = {
 									["amount"] = 4200,
 								},
 							},
-							["criticalmax"] = 2963,
-							["critical"] = 3,
 							["casts"] = 3,
 							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 2963,
 							["hitmax"] = 1310,
 							["amount"] = 11152,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 3,
 							["hitamount"] = 2547,
 						},
 						["Execute"] = {
@@ -19702,25 +19801,24 @@ SkadaStorageDB = {
 						},
 					},
 					["overkill"] = 398,
-					["overheal"] = 1561,
 					["ragespells"] = {
 						[29131] = 10,
 						[12964] = 9,
 					},
 					["name"] = "Miracledream",
+					["overheal"] = 1561,
 					["heal"] = 0,
 					["rage"] = 19,
-					["totaldamage"] = 45037,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmax"] = 5544,
+							["critical"] = 3,
 							["hitmin"] = 4961,
 							["criticalamount"] = 23279,
 							["id"] = 42833,
-							["count"] = 7,
+							["criticalmin"] = 6753,
 							["targets"] = {
 								["Unrelenting Construct"] = {
 									["amount"] = 24499,
@@ -19729,14 +19827,14 @@ SkadaStorageDB = {
 									["amount"] = 19508,
 								},
 							},
+							["hitmax"] = 5544,
 							["hit"] = 4,
-							["criticalmin"] = 6753,
-							["casts"] = 6,
-							["critical"] = 3,
+							["criticalmax"] = 8732,
+							["count"] = 7,
 							["amount"] = 44007,
 							["school"] = 4,
 							["resisted"] = 866,
-							["criticalmax"] = 8732,
+							["casts"] = 6,
 							["hitamount"] = 20728,
 						},
 						["Pyroblast"] = {
@@ -19782,11 +19880,11 @@ SkadaStorageDB = {
 							["hitamount"] = 9641,
 						},
 						["Living Bomb (DoT)"] = {
-							["hitmax"] = 966,
-							["hitmin"] = 854,
 							["criticalamount"] = 6590,
-							["id"] = 55360,
+							["hitmin"] = 854,
 							["criticalmin"] = 1521,
+							["id"] = 55360,
+							["critical"] = 4,
 							["targets"] = {
 								["Unrelenting Construct"] = {
 									["amount"] = 5865,
@@ -19798,14 +19896,14 @@ SkadaStorageDB = {
 									["amount"] = 2784,
 								},
 							},
-							["criticalmax"] = 1690,
-							["critical"] = 4,
+							["hitmax"] = 966,
+							["hit"] = 7,
 							["casts"] = 2,
 							["count"] = 11,
-							["hit"] = 7,
+							["amount"] = 13236,
 							["school"] = 4,
 							["resisted"] = 169,
-							["amount"] = 13236,
+							["criticalmax"] = 1690,
 							["hitamount"] = 6646,
 						},
 						["Fire Blast"] = {
@@ -19828,7 +19926,7 @@ SkadaStorageDB = {
 							["hitmin"] = 2002,
 							["criticalamount"] = 10931,
 							["id"] = 55362,
-							["hitmax"] = 2243,
+							["criticalmin"] = 3503,
 							["targets"] = {
 								["Unrelenting Construct"] = {
 									["amount"] = 7508,
@@ -19840,27 +19938,21 @@ SkadaStorageDB = {
 									["amount"] = 3503,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 4,
-							["casts"] = 2,
 							["critical"] = 3,
 							["amount"] = 19180,
-							["school"] = 4,
-							["criticalmin"] = 3503,
 							["criticalmax"] = 3924,
+							["count"] = 7,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 2243,
+							["casts"] = 2,
 							["hitamount"] = 8249,
 						},
 					},
 					["last"] = 4815.396,
-					["mana"] = 1695,
-					["manaspells"] = {
-						[29077] = 1203,
-						[67545] = 585,
-						[44450] = -93,
-					},
 					["flag"] = 1298,
+					["mana"] = 1695,
 					["class"] = "MAGE",
-					["id"] = "0x07000000009E540C",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -19880,15 +19972,15 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 25,
+							["count"] = 1,
 						},
 						[12536] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 1,
 						},
 						[55360] = {
@@ -19908,9 +20000,9 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[48108] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[43046] = {
@@ -19925,8 +20017,8 @@ SkadaStorageDB = {
 							["refresh"] = 6,
 							["targets"] = {
 								["Unrelenting Construct"] = {
-									["count"] = 1,
 									["refresh"] = 4,
+									["count"] = 1,
 									["uptime"] = 13,
 								},
 								["Raging Construct"] = {
@@ -19934,8 +20026,8 @@ SkadaStorageDB = {
 									["count"] = 2,
 								},
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 8,
 								},
 							},
@@ -19946,27 +20038,31 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
 						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
 					},
+					["id"] = "0x07000000009E540C",
+					["totaldamage"] = 101021,
+					["name"] = "Berdanx",
 					["spec"] = 63,
 					["time"] = 22.03999999999999,
-					["totaldamage"] = 101021,
 					["role"] = "DAMAGER",
-					["name"] = "Berdanx",
+					["manaspells"] = {
+						[29077] = 1203,
+						[67545] = 585,
+						[44450] = -93,
+					},
 					["damage"] = 101021,
 				}, -- [5]
 			},
-			["type"] = "party",
-			["damagetaken"] = 30970,
 			["etotaldamage"] = 39902,
 			["rage"] = 98,
 			["overkill"] = 2439,
@@ -19978,11 +20074,10 @@ SkadaStorageDB = {
 			["edamage"] = 30970,
 			["last_action"] = 1699557324,
 			["endtime"] = 1699557324,
-		}, -- [8]
+		}, -- [9]
 		{
-			["damage"] = 431700,
 			["mana"] = 4495,
-			["success"] = true,
+			["absorb"] = 5263,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -20356,14 +20451,14 @@ SkadaStorageDB = {
 							["amount"] = 3783,
 						},
 					},
-					["name"] = "Maiden of Grief",
 					["totaldamage"] = 69681,
+					["name"] = "Maiden of Grief",
 					["totaldamagetaken"] = 431700,
 					["id"] = "0xF130006D47000084",
 					["damage"] = 59314,
 				}, -- [1]
 			},
-			["absorb"] = 5263,
+			["damage"] = 431700,
 			["totaldamage"] = 431700,
 			["time"] = 30,
 			["runic"] = 75,
@@ -20387,16 +20482,16 @@ SkadaStorageDB = {
 							["uptime"] = 30,
 						},
 						[58578] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[70657] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 6,
 							["school"] = 1,
+							["refresh"] = 6,
 							["uptime"] = 24,
 						},
 						[48443] = {
@@ -20417,29 +20512,29 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 10,
 							["school"] = 1,
+							["refresh"] = 10,
 							["uptime"] = 19,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 2,
+							["type"] = "BUFF",
 							["uptime"] = 30,
+							["count"] = 1,
 						},
 						[71227] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 3,
 							["school"] = 8,
+							["refresh"] = 3,
 							["uptime"] = 24,
 						},
 						[51735] = {
@@ -20449,17 +20544,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 22,
 								},
 							},
 							["uptime"] = 22,
 						},
 						[48265] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 1,
 						},
 						[48266] = {
@@ -20474,8 +20569,8 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["count"] = 1,
 									["refresh"] = 5,
+									["count"] = 1,
 									["uptime"] = 24,
 								},
 							},
@@ -20494,21 +20589,21 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 						[48707] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 5,
 						},
 						[53365] = {
@@ -20519,10 +20614,10 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 4,
+							["type"] = "BUFF",
 							["uptime"] = 30,
+							["count"] = 1,
 						},
 						[72221] = {
 							["type"] = "BUFF",
@@ -20543,25 +20638,31 @@ SkadaStorageDB = {
 							["max"] = 1184,
 						},
 					},
+					["totaldamage"] = 217565,
 					["time"] = 26.26000000000001,
 					["totaldamagetaken"] = 16640,
 					["damage"] = 217565,
 					["damagespells"] = {
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1956,
-							["id"] = 50463,
+						["Death Coil"] = {
+							["critical"] = 3,
+							["hitmin"] = 4186,
+							["criticalamount"] = 24525,
+							["id"] = 47632,
+							["criticalmin"] = 5740,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["amount"] = 1956,
+									["amount"] = 37896,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1956,
-							["amount"] = 1956,
-							["hitamount"] = 1956,
+							["hitmax"] = 4862,
+							["hit"] = 3,
+							["criticalmax"] = 10037,
+							["count"] = 6,
+							["amount"] = 37896,
+							["school"] = 32,
+							["resisted"] = 1117,
+							["casts"] = 6,
+							["hitamount"] = 13371,
 						},
 						["Scourge Strike"] = {
 							["hitmin"] = 3813,
@@ -20573,14 +20674,14 @@ SkadaStorageDB = {
 									["amount"] = 27768,
 								},
 							},
-							["criticalmax"] = 9927,
-							["critical"] = 2,
 							["casts"] = 4,
 							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 9927,
 							["hitmax"] = 4426,
 							["amount"] = 27768,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 2,
 							["hitamount"] = 8239,
 						},
 						["Melee"] = {
@@ -20623,26 +20724,22 @@ SkadaStorageDB = {
 							["amount"] = 2873,
 							["hitamount"] = 2873,
 						},
-						["Death Coil"] = {
-							["hitmax"] = 4862,
-							["hitmin"] = 4186,
-							["criticalamount"] = 24525,
-							["id"] = 47632,
-							["count"] = 6,
+						["Icy Touch"] = {
+							["criticalamount"] = 3210,
+							["id"] = 49909,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["amount"] = 37896,
+									["amount"] = 3210,
 								},
 							},
-							["hit"] = 3,
-							["criticalmin"] = 5740,
-							["casts"] = 6,
-							["critical"] = 3,
-							["amount"] = 37896,
-							["school"] = 32,
-							["resisted"] = 1117,
-							["criticalmax"] = 10037,
-							["hitamount"] = 13371,
+							["criticalmin"] = 3210,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 3210,
+							["school"] = 16,
+							["resisted"] = 356,
+							["criticalmax"] = 3210,
+							["critical"] = 1,
 						},
 						["Unholy Blight (DoT)"] = {
 							["hitmin"] = 52,
@@ -20747,20 +20844,20 @@ SkadaStorageDB = {
 							["hitmin"] = 2473,
 							["criticalamount"] = 9030,
 							["id"] = 49930,
-							["hitmax"] = 2532,
+							["criticalmin"] = 4509,
 							["targets"] = {
 								["Maiden of Grief"] = {
 									["amount"] = 14035,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 2,
-							["casts"] = 4,
 							["critical"] = 2,
 							["amount"] = 14035,
-							["school"] = 1,
-							["criticalmin"] = 4509,
 							["criticalmax"] = 4521,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2532,
+							["casts"] = 4,
 							["hitamount"] = 5005,
 						},
 						["Melee (Earthbasher)"] = {
@@ -20818,22 +20915,21 @@ SkadaStorageDB = {
 							["amount"] = 9042,
 							["hitamount"] = 9042,
 						},
-						["Icy Touch"] = {
-							["criticalamount"] = 3210,
-							["id"] = 49909,
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1956,
+							["id"] = 50463,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["amount"] = 3210,
+									["amount"] = 1956,
 								},
 							},
-							["criticalmin"] = 3210,
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3210,
-							["school"] = 16,
-							["resisted"] = 356,
-							["criticalmax"] = 3210,
 							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1956,
+							["amount"] = 1956,
+							["hitamount"] = 1956,
 						},
 					},
 					["absorb"] = 5263,
@@ -20843,25 +20939,24 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[53365] = {
 							["overheal"] = 2282,
-							["max"] = 1141,
 							["count"] = 3,
 							["amount"] = 1141,
+							["max"] = 1141,
 							["school"] = 1,
-							["min"] = 1141,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 2282,
 									["amount"] = 1141,
 								},
 							},
+							["min"] = 1141,
 						},
 						[34299] = {
 							["overheal"] = 8542,
-							["max"] = 1523,
+							["school"] = 1,
 							["count"] = 8,
 							["amount"] = 2218,
-							["school"] = 1,
-							["min"] = 695,
+							["max"] = 1523,
 							["ishot"] = true,
 							["targets"] = {
 								["Earthbasher"] = {
@@ -20873,14 +20968,14 @@ SkadaStorageDB = {
 									["amount"] = 2218,
 								},
 							},
+							["min"] = 695,
 						},
 						[50475] = {
 							["overheal"] = 3698,
-							["max"] = 428,
+							["school"] = 1,
 							["count"] = 45,
 							["amount"] = 2967,
-							["school"] = 1,
-							["min"] = 2,
+							["max"] = 428,
 							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
@@ -20888,6 +20983,7 @@ SkadaStorageDB = {
 									["amount"] = 2967,
 								},
 							},
+							["min"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -20942,14 +21038,13 @@ SkadaStorageDB = {
 							["hitamount"] = 3821,
 						},
 					},
+					["heal"] = 6326,
+					["name"] = "Urgash",
 					["runicspells"] = {
 						[49088] = 75,
 					},
-					["heal"] = 6326,
-					["name"] = "Urgash",
 					["runic"] = 75,
 					["overheal"] = 14522,
-					["totaldamage"] = 217565,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -20958,9 +21053,9 @@ SkadaStorageDB = {
 					["class"] = "DRUID",
 					["auras"] = {
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 4,
 						},
 						[48568] = {
@@ -20970,36 +21065,29 @@ SkadaStorageDB = {
 							["refresh"] = 6,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["count"] = 1,
 									["refresh"] = 6,
+									["count"] = 1,
 									["uptime"] = 24,
 								},
 							},
 							["uptime"] = 24,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
-						[6795] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Maiden of Grief"] = {
-									["uptime"] = 9,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[57623] = {
+						[53307] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 1,
 							["uptime"] = 30,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 30,
+							["count"] = 1,
 						},
 						[64951] = {
 							["type"] = "BUFF",
@@ -21015,8 +21103,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 23,
 								},
 							},
@@ -21035,9 +21123,9 @@ SkadaStorageDB = {
 							["uptime"] = 25,
 						},
 						[5229] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[9634] = {
@@ -21057,7 +21145,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 30,
 						},
-						[53307] = {
+						[24932] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 30,
@@ -21067,162 +21155,40 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 30,
 						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 30,
+						[6795] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["targets"] = {
+								["Maiden of Grief"] = {
+									["uptime"] = 9,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 9,
 						},
 					},
 					["role"] = "TANK",
 					["time"] = 24.55,
 					["totaldamagetaken"] = 14983,
-					["overheal"] = 1141,
 					["damage"] = 59704,
-					["damagespells"] = {
-						["Lacerate (DoT)"] = {
-							["hitmin"] = 726,
-							["criticalamount"] = 6348,
-							["id"] = 48568,
-							["targets"] = {
-								["Maiden of Grief"] = {
-									["amount"] = 9024,
-								},
-							},
-							["hitmax"] = 1043,
-							["count"] = 7,
-							["criticalmax"] = 2086,
-							["critical"] = 4,
-							["amount"] = 9024,
-							["school"] = 1,
-							["hit"] = 3,
-							["criticalmin"] = 362,
-							["hitamount"] = 2676,
-						},
-						["Melee"] = {
-							["criticalamount"] = 1486,
-							["id"] = 6603,
-							["targets"] = {
-								["Maiden of Grief"] = {
-									["amount"] = 1486,
-								},
-							},
-							["criticalmax"] = 1486,
-							["critical"] = 1,
-							["amount"] = 1486,
-							["school"] = 1,
-							["criticalmin"] = 1486,
-							["count"] = 1,
-						},
-						["Faerie Fire (Feral)"] = {
-							["hitmin"] = 805,
-							["id"] = 60089,
-							["targets"] = {
-								["Maiden of Grief"] = {
-									["amount"] = 805,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 805,
-							["amount"] = 805,
-							["hitamount"] = 805,
-						},
-						["Lacerate"] = {
-							["hitmin"] = 103,
-							["criticalamount"] = 574,
-							["id"] = 48568,
-							["criticalmin"] = 266,
-							["targets"] = {
-								["Maiden of Grief"] = {
-									["amount"] = 1230,
-								},
-							},
-							["criticalmax"] = 308,
-							["critical"] = 2,
-							["casts"] = 7,
-							["count"] = 7,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 154,
-							["amount"] = 1230,
-							["hitamount"] = 656,
-						},
-						["Mangle (Bear)"] = {
-							["criticalamount"] = 8806,
-							["id"] = 48564,
-							["targets"] = {
-								["Maiden of Grief"] = {
-									["amount"] = 8806,
-								},
-							},
-							["casts"] = 4,
-							["critical"] = 3,
-							["amount"] = 8806,
-							["school"] = 1,
-							["criticalmin"] = 2672,
-							["criticalmax"] = 3098,
-							["count"] = 3,
-						},
-						["Maul"] = {
-							["hitmin"] = 1752,
-							["criticalamount"] = 28658,
-							["id"] = 48480,
-							["criticalmin"] = 4464,
-							["targets"] = {
-								["Maiden of Grief"] = {
-									["amount"] = 37895,
-								},
-							},
-							["criticalmax"] = 5290,
-							["critical"] = 6,
-							["casts"] = 10,
-							["count"] = 10,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2629,
-							["amount"] = 37895,
-							["hitamount"] = 9237,
-						},
-						["Thorns"] = {
-							["hitmin"] = 83,
-							["id"] = 53307,
-							["targets"] = {
-								["Maiden of Grief"] = {
-									["amount"] = 458,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 8,
-							["hitmax"] = 94,
-							["amount"] = 458,
-							["hitamount"] = 458,
-						},
-					},
-					["ragespells"] = {
-						[5229] = 30,
-						[59072] = 3,
-						[16959] = 60,
-					},
+					["overheal"] = 1141,
 					["damagetaken"] = 9879,
 					["id"] = "0x07000000008C6185",
 					["spec"] = 103,
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 1141,
+							["max"] = 1513,
+							["count"] = 4,
+							["amount"] = 4911,
+							["school"] = 1,
 							["targets"] = {
 								["Thirial"] = {
 									["overheal"] = 1141,
 									["amount"] = 4911,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 4911,
-							["school"] = 1,
-							["max"] = 1513,
 							["ishot"] = true,
 							["min"] = 372,
 						},
@@ -21279,9 +21245,138 @@ SkadaStorageDB = {
 							["hitamount"] = 3635,
 						},
 					},
+					["damagespells"] = {
+						["Lacerate (DoT)"] = {
+							["hitmin"] = 726,
+							["criticalamount"] = 6348,
+							["id"] = 48568,
+							["targets"] = {
+								["Maiden of Grief"] = {
+									["amount"] = 9024,
+								},
+							},
+							["criticalmin"] = 362,
+							["critical"] = 4,
+							["criticalmax"] = 2086,
+							["count"] = 7,
+							["amount"] = 9024,
+							["school"] = 1,
+							["hit"] = 3,
+							["hitmax"] = 1043,
+							["hitamount"] = 2676,
+						},
+						["Melee"] = {
+							["criticalamount"] = 1486,
+							["id"] = 6603,
+							["targets"] = {
+								["Maiden of Grief"] = {
+									["amount"] = 1486,
+								},
+							},
+							["criticalmax"] = 1486,
+							["critical"] = 1,
+							["amount"] = 1486,
+							["school"] = 1,
+							["criticalmin"] = 1486,
+							["count"] = 1,
+						},
+						["Faerie Fire (Feral)"] = {
+							["hitmin"] = 805,
+							["id"] = 60089,
+							["targets"] = {
+								["Maiden of Grief"] = {
+									["amount"] = 805,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 805,
+							["amount"] = 805,
+							["hitamount"] = 805,
+						},
+						["Lacerate"] = {
+							["hitmin"] = 103,
+							["criticalamount"] = 574,
+							["id"] = 48568,
+							["criticalmin"] = 266,
+							["targets"] = {
+								["Maiden of Grief"] = {
+									["amount"] = 1230,
+								},
+							},
+							["casts"] = 7,
+							["count"] = 7,
+							["criticalmax"] = 308,
+							["hitmax"] = 154,
+							["amount"] = 1230,
+							["school"] = 1,
+							["hit"] = 5,
+							["critical"] = 2,
+							["hitamount"] = 656,
+						},
+						["Mangle (Bear)"] = {
+							["criticalamount"] = 8806,
+							["id"] = 48564,
+							["targets"] = {
+								["Maiden of Grief"] = {
+									["amount"] = 8806,
+								},
+							},
+							["casts"] = 4,
+							["critical"] = 3,
+							["amount"] = 8806,
+							["school"] = 1,
+							["criticalmin"] = 2672,
+							["criticalmax"] = 3098,
+							["count"] = 3,
+						},
+						["Maul"] = {
+							["hitmin"] = 1752,
+							["criticalamount"] = 28658,
+							["id"] = 48480,
+							["criticalmin"] = 4464,
+							["targets"] = {
+								["Maiden of Grief"] = {
+									["amount"] = 37895,
+								},
+							},
+							["casts"] = 10,
+							["count"] = 10,
+							["criticalmax"] = 5290,
+							["hitmax"] = 2629,
+							["amount"] = 37895,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 6,
+							["hitamount"] = 9237,
+						},
+						["Thorns"] = {
+							["hitmin"] = 83,
+							["id"] = 53307,
+							["targets"] = {
+								["Maiden of Grief"] = {
+									["amount"] = 458,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 8,
+							["hitmax"] = 94,
+							["amount"] = 458,
+							["hitamount"] = 458,
+						},
+					},
+					["ragespells"] = {
+						[5229] = 30,
+						[59072] = 3,
+						[16959] = 60,
+					},
+					["name"] = "Thirial",
 					["rage"] = 93,
 					["heal"] = 4911,
-					["name"] = "Thirial",
 					["manaspells"] = {
 						[68285] = 2904,
 					},
@@ -21304,21 +21399,21 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[16886] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 3,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 30,
+							["count"] = 1,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 						[48422] = {
@@ -21334,8 +21429,8 @@ SkadaStorageDB = {
 						[67358] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 2,
 							["school"] = 8,
+							["refresh"] = 2,
 							["uptime"] = 23,
 						},
 						[24932] = {
@@ -21354,15 +21449,10 @@ SkadaStorageDB = {
 							["uptime"] = 30,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 27.51,
 					["totaldamagetaken"] = 3676,
-					["ragespells"] = {
-						[48541] = 16,
-					},
 					["overheal"] = 33848,
-					["manaspells"] = {
-						[48542] = 186,
-					},
 					["damagetaken"] = 3676,
 					["id"] = "0x070000000095B7ED",
 					["spec"] = 105,
@@ -21440,25 +21530,25 @@ SkadaStorageDB = {
 							["criticalmin"] = 6642,
 							["min"] = 1010,
 							["casts"] = 2,
-							["count"] = 11,
+							["critical"] = 1,
 							["amount"] = 14862,
 							["school"] = 8,
 							["criticalmax"] = 6642,
 							["ishot"] = true,
-							["critical"] = 1,
+							["count"] = 11,
 						},
 						[54755] = {
 							["overheal"] = 0,
+							["max"] = 971,
+							["count"] = 1,
+							["amount"] = 971,
+							["school"] = 8,
 							["targets"] = {
 								["Miracledream"] = {
 									["overheal"] = 0,
 									["amount"] = 971,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 971,
-							["school"] = 8,
-							["max"] = 971,
 							["ishot"] = true,
 							["min"] = 971,
 						},
@@ -21481,11 +21571,16 @@ SkadaStorageDB = {
 							["hitamount"] = 3676,
 						},
 					},
+					["ragespells"] = {
+						[48541] = 16,
+					},
+					["manaspells"] = {
+						[48542] = 186,
+					},
 					["mana"] = 186,
 					["heal"] = 49829,
 					["name"] = "Tumbleweed",
 					["rage"] = 16,
-					["role"] = "HEALER",
 				}, -- [3]
 				{
 					["last"] = 4746.307,
@@ -21504,8 +21599,8 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["count"] = 2,
 									["refresh"] = 4,
+									["count"] = 2,
 									["uptime"] = 22,
 								},
 							},
@@ -21517,40 +21612,40 @@ SkadaStorageDB = {
 							["uptime"] = 9,
 						},
 						[48443] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 28,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
-						[60065] = {
+						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 18,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 						[46916] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
-						[48441] = {
+						[60065] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
+							["uptime"] = 7,
 						},
 						[12970] = {
 							["type"] = "BUFF",
@@ -21565,12 +21660,13 @@ SkadaStorageDB = {
 							["uptime"] = 30,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 30,
+							["count"] = 1,
 						},
 					},
+					["totaldamage"] = 37400,
 					["time"] = 26.52,
 					["totaldamagetaken"] = 34382,
 					["damage"] = 37400,
@@ -21581,17 +21677,17 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[23880] = {
 							["overheal"] = 422,
-							["max"] = 211,
 							["count"] = 9,
 							["amount"] = 1477,
+							["max"] = 211,
 							["school"] = 1,
-							["min"] = 211,
 							["targets"] = {
 								["Miracledream"] = {
 									["overheal"] = 422,
 									["amount"] = 1477,
 								},
 							},
+							["min"] = 211,
 						},
 					},
 					["damagetakenspells"] = {
@@ -21643,11 +21739,11 @@ SkadaStorageDB = {
 							["hitamount"] = 4459,
 						},
 					},
-					["overheal"] = 422,
 					["ragespells"] = {
 						[12964] = 8,
 					},
 					["name"] = "Miracledream",
+					["overheal"] = 422,
 					["heal"] = 1477,
 					["damagespells"] = {
 						["Deep Wounds (DoT)"] = {
@@ -21734,20 +21830,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1872,
 							["criticalamount"] = 3847,
 							["id"] = 20647,
-							["hitmax"] = 1872,
+							["criticalmin"] = 3847,
 							["targets"] = {
 								["Maiden of Grief"] = {
 									["amount"] = 5719,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 5719,
-							["school"] = 1,
-							["criticalmin"] = 3847,
 							["criticalmax"] = 3847,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1872,
+							["casts"] = 1,
 							["hitamount"] = 1872,
 						},
 						["Victory Rush"] = {
@@ -21796,24 +21892,23 @@ SkadaStorageDB = {
 							["hitmin"] = 1299,
 							["criticalamount"] = 2857,
 							["id"] = 47450,
-							["criticalmax"] = 2857,
+							["hitmax"] = 1457,
 							["targets"] = {
 								["Maiden of Grief"] = {
 									["amount"] = 8359,
 								},
 							},
-							["critical"] = 1,
-							["hitmax"] = 1457,
 							["PARRY"] = 1,
-							["count"] = 6,
 							["amount"] = 8359,
-							["school"] = 1,
 							["casts"] = 6,
+							["count"] = 6,
 							["hit"] = 4,
+							["school"] = 1,
+							["critical"] = 1,
+							["criticalmax"] = 2857,
 							["hitamount"] = 5502,
 						},
 					},
-					["totaldamage"] = 37400,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -21822,41 +21917,41 @@ SkadaStorageDB = {
 							["hitmin"] = 4951,
 							["criticalamount"] = 47383,
 							["id"] = 42833,
-							["hitmax"] = 4951,
+							["criticalmin"] = 10382,
 							["targets"] = {
 								["Maiden of Grief"] = {
 									["amount"] = 52334,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 1,
-							["casts"] = 7,
 							["critical"] = 4,
 							["amount"] = 52334,
-							["school"] = 4,
-							["criticalmin"] = 10382,
 							["criticalmax"] = 12398,
+							["count"] = 5,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 4951,
+							["casts"] = 7,
 							["hitamount"] = 4951,
 						},
 						["Pyroblast"] = {
-							["hitmax"] = 7014,
-							["hitmin"] = 6684,
 							["criticalamount"] = 10475,
-							["id"] = 42891,
+							["hitmin"] = 6684,
 							["criticalmin"] = 10475,
+							["id"] = 42891,
+							["critical"] = 1,
 							["targets"] = {
 								["Maiden of Grief"] = {
 									["amount"] = 24173,
 								},
 							},
-							["criticalmax"] = 10475,
-							["critical"] = 1,
+							["hitmax"] = 7014,
+							["hit"] = 2,
 							["casts"] = 3,
 							["count"] = 3,
-							["hit"] = 2,
+							["amount"] = 24173,
 							["school"] = 4,
 							["resisted"] = 1163,
-							["amount"] = 24173,
+							["criticalmax"] = 10475,
 							["hitamount"] = 13698,
 						},
 						["Pyroblast (DoT)"] = {
@@ -21900,14 +21995,14 @@ SkadaStorageDB = {
 									["amount"] = 8840,
 								},
 							},
-							["hitmax"] = 1126,
 							["critical"] = 3,
+							["hit"] = 4,
 							["criticalmax"] = 1745,
 							["count"] = 7,
-							["hit"] = 4,
+							["amount"] = 8840,
 							["school"] = 4,
 							["resisted"] = 587,
-							["amount"] = 8840,
+							["hitmax"] = 1126,
 							["hitamount"] = 3829,
 						},
 						["Scorch"] = {
@@ -21944,15 +22039,9 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 4745.105000000001,
-					["mana"] = 1405,
-					["manaspells"] = {
-						[29077] = 1252,
-						[67545] = 325,
-						[44450] = -172,
-					},
 					["flag"] = 1298,
+					["mana"] = 1405,
 					["class"] = "MAGE",
-					["id"] = "0x07000000009E540C",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -21966,36 +22055,12 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 18,
 								},
 							},
 							["uptime"] = 18,
-						},
-						[22959] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Maiden of Grief"] = {
-									["uptime"] = 19,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 30,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 14,
 						},
 						[12654] = {
 							["type"] = "DEBUFF",
@@ -22004,17 +22069,34 @@ SkadaStorageDB = {
 							["refresh"] = 8,
 							["targets"] = {
 								["Maiden of Grief"] = {
-									["count"] = 2,
 									["refresh"] = 8,
+									["count"] = 2,
 									["uptime"] = 19,
 								},
 							},
 							["uptime"] = 19,
 						},
-						[67684] = {
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 30,
+							["count"] = 1,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 14,
+						},
+						[42995] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[67684] = {
 							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 20,
 						},
 						[55360] = {
@@ -22030,9 +22112,9 @@ SkadaStorageDB = {
 							["uptime"] = 22,
 						},
 						[48108] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[43046] = {
@@ -22052,30 +22134,44 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 30,
 						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 30,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 30,
 						},
+						[22959] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Maiden of Grief"] = {
+									["uptime"] = 19,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 19,
+						},
 					},
+					["id"] = "0x07000000009E540C",
+					["totaldamage"] = 117031,
+					["name"] = "Berdanx",
 					["spec"] = 63,
 					["time"] = 24.87,
-					["totaldamage"] = 117031,
 					["role"] = "DAMAGER",
-					["name"] = "Berdanx",
+					["manaspells"] = {
+						[29077] = 1252,
+						[67545] = 325,
+						[44450] = -172,
+					},
 					["damage"] = 117031,
 				}, -- [5]
 			},
 			["type"] = "party",
 			["damagetaken"] = 59314,
+			["gotboss"] = 27975,
 			["rage"] = 117,
 			["overheal"] = 49933,
-			["gotboss"] = 27975,
+			["success"] = true,
 			["etotaldamage"] = 69681,
 			["edamagetaken"] = 431700,
 			["heal"] = 62543,
@@ -22085,11 +22181,9 @@ SkadaStorageDB = {
 			["edamage"] = 59314,
 			["last_action"] = 1699557255,
 			["endtime"] = 1699557256,
-		}, -- [9]
+		}, -- [10]
 		{
-			["damage"] = 389539,
 			["mana"] = 5096,
-			["energy"] = 16,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -22169,14 +22263,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4373,
 						},
-						[55362] = {
-							["school"] = 4,
+						[48480] = {
+							["school"] = 1,
 							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 2243,
+								["Thirial"] = {
+									["amount"] = 13023,
 								},
 							},
-							["amount"] = 2243,
+							["amount"] = 13023,
 						},
 						[55360] = {
 							["school"] = 4,
@@ -22196,14 +22290,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2452,
 						},
-						[48480] = {
-							["school"] = 1,
+						[55362] = {
+							["school"] = 4,
 							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 13023,
+								["Berdanx"] = {
+									["amount"] = 2243,
 								},
 							},
-							["amount"] = 13023,
+							["amount"] = 2243,
 						},
 						[47520] = {
 							["school"] = 1,
@@ -22214,14 +22308,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2612,
 						},
-						[52212] = {
-							["school"] = 32,
+						[12654] = {
+							["school"] = 4,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7681,
+								["Berdanx"] = {
+									["amount"] = 1266,
 								},
 							},
-							["amount"] = 7681,
+							["amount"] = 1266,
 						},
 						[49909] = {
 							["school"] = 16,
@@ -22250,23 +22344,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2752,
 						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 1266,
-								},
-							},
-							["amount"] = 1266,
-						},
-						[47632] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 9597,
+									["amount"] = 8489,
 								},
 							},
-							["amount"] = 9597,
+							["amount"] = 8489,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4737,
+								},
+							},
+							["amount"] = 4737,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -22282,14 +22376,14 @@ SkadaStorageDB = {
 							["overkill"] = 2403,
 							["amount"] = 39592,
 						},
-						[60089] = {
-							["school"] = 8,
+						[42926] = {
+							["school"] = 4,
 							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 910,
+								["Berdanx"] = {
+									["amount"] = 4437,
 								},
 							},
-							["amount"] = 910,
+							["amount"] = 4437,
 						},
 						[50536] = {
 							["school"] = 32,
@@ -22309,23 +22403,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4089,
 						},
-						[55095] = {
-							["school"] = 16,
+						[71904] = {
+							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 4737,
+									["amount"] = 992,
 								},
 							},
-							["amount"] = 4737,
+							["amount"] = 992,
 						},
-						[42926] = {
-							["school"] = 4,
+						[60089] = {
+							["school"] = 8,
 							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 4437,
+								["Thirial"] = {
+									["amount"] = 910,
 								},
 							},
-							["amount"] = 4437,
+							["amount"] = 910,
 						},
 						[44949] = {
 							["school"] = 1,
@@ -22345,6 +22439,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4731,
 						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 7681,
+								},
+							},
+							["amount"] = 7681,
+						},
 						[48568] = {
 							["school"] = 1,
 							["sources"] = {
@@ -22353,15 +22456,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 1190,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8489,
-								},
-							},
-							["amount"] = 8489,
 						},
 						[12721] = {
 							["school"] = 1,
@@ -22372,6 +22466,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 708,
 						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 9597,
+								},
+							},
+							["amount"] = 9597,
+						},
 						[48564] = {
 							["school"] = 1,
 							["sources"] = {
@@ -22381,18 +22484,9 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1340,
 						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 992,
-								},
-							},
-							["amount"] = 992,
-						},
 					},
-					["name"] = "Dark Rune Giant",
 					["totaldamage"] = 9925,
+					["name"] = "Dark Rune Giant",
 					["totaldamagetaken"] = 135490,
 					["id"] = "0xF130006D4100005B",
 					["damage"] = 8649,
@@ -22513,14 +22607,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1328,
 						},
-						[42873] = {
+						[42891] = {
 							["school"] = 4,
 							["sources"] = {
 								["Berdanx"] = {
-									["amount"] = 5183,
+									["amount"] = 10114,
 								},
 							},
-							["amount"] = 5183,
+							["amount"] = 10114,
 						},
 						[55360] = {
 							["school"] = 4,
@@ -22531,14 +22625,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8336,
 						},
-						[42891] = {
-							["school"] = 4,
+						[50526] = {
+							["school"] = 32,
 							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 10114,
+								["Urgash"] = {
+									["amount"] = 16681,
 								},
 							},
-							["amount"] = 10114,
+							["amount"] = 16681,
 						},
 						[48480] = {
 							["school"] = 1,
@@ -22656,14 +22750,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2522,
 						},
-						[71904] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1809,
+									["amount"] = 26767,
 								},
 							},
-							["amount"] = 1809,
+							["amount"] = 26767,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -22683,6 +22777,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 20362,
 						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1809,
+								},
+							},
+							["amount"] = 1809,
+						},
 						[12654] = {
 							["school"] = 4,
 							["sources"] = {
@@ -22701,15 +22804,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 10795,
 						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 16681,
-								},
-							},
-							["amount"] = 16681,
-						},
 						[12721] = {
 							["school"] = 1,
 							["sources"] = {
@@ -22719,14 +22813,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1110,
 						},
-						[52212] = {
-							["school"] = 32,
+						[42873] = {
+							["school"] = 4,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 26767,
+								["Berdanx"] = {
+									["amount"] = 5183,
 								},
 							},
-							["amount"] = 26767,
+							["amount"] = 5183,
 						},
 						[42926] = {
 							["school"] = 4,
@@ -22738,19 +22832,23 @@ SkadaStorageDB = {
 							["amount"] = 8483,
 						},
 					},
-					["name"] = "Lightning Construct",
 					["totaldamage"] = 72453,
+					["name"] = "Lightning Construct",
 					["totaldamagetaken"] = 254049,
 					["id"] = "0xF130006D44000060",
 					["damage"] = 68067,
 				}, -- [2]
 			},
-			["etotaldamage"] = 82378,
+			["energy"] = 16,
 			["totaldamage"] = 389539,
 			["time"] = 28,
-			["runic"] = 58,
+			["etotaldamage"] = 82378,
 			["totaldamagetaken"] = 82378,
 			["etotaldamagetaken"] = 389539,
+			["damage"] = 389539,
+			["runic"] = 58,
+			["type"] = "party",
+			["damagetaken"] = 76716,
 			["last_time"] = 4714.513,
 			["players"] = {
 				{
@@ -22783,9 +22881,9 @@ SkadaStorageDB = {
 							["uptime"] = 20,
 						},
 						[48443] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 21,
 						},
 						[55078] = {
@@ -22805,23 +22903,23 @@ SkadaStorageDB = {
 							["uptime"] = 18,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 5,
 							["school"] = 1,
+							["refresh"] = 5,
 							["uptime"] = 16,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 2,
+							["type"] = "BUFF",
 							["uptime"] = 28,
+							["count"] = 1,
 						},
 						[71227] = {
 							["type"] = "BUFF",
@@ -22841,8 +22939,8 @@ SkadaStorageDB = {
 									["count"] = 2,
 								},
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 12,
 								},
 							},
@@ -22876,8 +22974,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Dark Rune Giant"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 2,
 								},
 							},
@@ -22900,15 +22998,15 @@ SkadaStorageDB = {
 							["uptime"] = 20,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[45529] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[49222] = {
@@ -22922,9 +23020,9 @@ SkadaStorageDB = {
 							["uptime"] = 28,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
 						[53365] = {
@@ -22942,12 +23040,13 @@ SkadaStorageDB = {
 							["uptime"] = 23,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 					},
+					["totaldamage"] = 225579,
 					["time"] = 20.31000000000001,
 					["totaldamagetaken"] = 25218,
 					["damage"] = 225579,
@@ -22981,22 +23080,22 @@ SkadaStorageDB = {
 									["amount"] = 7681,
 								},
 							},
-							["criticalmax"] = 2242,
-							["critical"] = 5,
 							["casts"] = 1,
 							["count"] = 27,
-							["hit"] = 22,
-							["school"] = 32,
+							["criticalmax"] = 2242,
 							["hitmax"] = 1073,
 							["amount"] = 34448,
+							["school"] = 32,
+							["hit"] = 22,
+							["critical"] = 5,
 							["hitamount"] = 23326,
 						},
 						["Blood Strike"] = {
-							["criticalmax"] = 4884,
-							["hitmin"] = 2288,
 							["criticalamount"] = 4884,
-							["id"] = 49930,
+							["hitmin"] = 2288,
 							["criticalmin"] = 4884,
+							["id"] = 49930,
+							["casts"] = 3,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["overkill"] = 1674,
@@ -23007,13 +23106,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1674,
-							["critical"] = 1,
-							["casts"] = 3,
 							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 4884,
 							["hitmax"] = 2640,
 							["amount"] = 9812,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 4928,
 						},
 						["Unholy Blight (DoT)"] = {
@@ -23081,7 +23180,7 @@ SkadaStorageDB = {
 							["hitmin"] = 3186,
 							["criticalamount"] = 36578,
 							["id"] = 6603,
-							["hitmax"] = 3777,
+							["criticalmin"] = 5508,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["amount"] = 14065,
@@ -23092,13 +23191,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 2403,
-							["count"] = 8,
-							["criticalmax"] = 8283,
 							["critical"] = 5,
+							["criticalmax"] = 8283,
+							["count"] = 8,
 							["amount"] = 47217,
 							["school"] = 1,
 							["hit"] = 3,
-							["criticalmin"] = 5508,
+							["hitmax"] = 3777,
 							["hitamount"] = 10639,
 						},
 						["Blood-Caked Strike"] = {
@@ -23130,14 +23229,14 @@ SkadaStorageDB = {
 									["amount"] = 4089,
 								},
 							},
-							["criticalmax"] = 1716,
-							["critical"] = 2,
 							["casts"] = 1,
 							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
+							["criticalmax"] = 1716,
 							["hitmax"] = 874,
 							["amount"] = 6611,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 2,
 							["hitamount"] = 3247,
 						},
 						["Scourge Strike (Shadow)"] = {
@@ -23280,9 +23379,6 @@ SkadaStorageDB = {
 							["hitamount"] = 1627,
 						},
 					},
-					["runicspells"] = {
-						[45529] = 10,
-					},
 					["damagetaken"] = 25218,
 					["id"] = "0x070000000000D01B",
 					["spec"] = 252,
@@ -23307,11 +23403,10 @@ SkadaStorageDB = {
 						},
 						[50475] = {
 							["overheal"] = 2509,
-							["max"] = 442,
+							["school"] = 1,
 							["count"] = 19,
 							["amount"] = 1342,
-							["school"] = 1,
-							["min"] = 27,
+							["max"] = 442,
 							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
@@ -23319,14 +23414,14 @@ SkadaStorageDB = {
 									["amount"] = 1342,
 								},
 							},
+							["min"] = 27,
 						},
 						[34299] = {
 							["overheal"] = 6562,
-							["max"] = 342,
+							["school"] = 1,
 							["count"] = 5,
 							["amount"] = 342,
-							["school"] = 1,
-							["min"] = 342,
+							["max"] = 342,
 							["ishot"] = true,
 							["targets"] = {
 								["Earthbasher"] = {
@@ -23338,9 +23433,25 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
+							["min"] = 342,
 						},
 					},
 					["damagetakenspells"] = {
+						["Stomp"] = {
+							["hitmin"] = 2251,
+							["id"] = 59026,
+							["sources"] = {
+								["Dark Rune Giant"] = {
+									["amount"] = 2251,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2251,
+							["amount"] = 2251,
+							["hitamount"] = 2251,
+						},
 						["Electrical Overload"] = {
 							["hitmin"] = 4772,
 							["id"] = 59038,
@@ -23357,20 +23468,21 @@ SkadaStorageDB = {
 							["amount"] = 10059,
 							["hitamount"] = 10059,
 						},
-						["Stomp"] = {
-							["hitmin"] = 2251,
-							["id"] = 59026,
+						["Chain Lightning"] = {
+							["hitmin"] = 1839,
+							["id"] = 61528,
+							["hitmax"] = 4225,
 							["sources"] = {
-								["Dark Rune Giant"] = {
-									["amount"] = 2251,
+								["Lightning Construct"] = {
+									["amount"] = 6064,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2251,
-							["amount"] = 2251,
-							["hitamount"] = 2251,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 788,
+							["amount"] = 6064,
+							["hitamount"] = 6064,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -23392,29 +23504,15 @@ SkadaStorageDB = {
 							["amount"] = 6844,
 							["hitamount"] = 6844,
 						},
-						["Chain Lightning"] = {
-							["hitmin"] = 1839,
-							["id"] = 61528,
-							["hitmax"] = 4225,
-							["sources"] = {
-								["Lightning Construct"] = {
-									["amount"] = 6064,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 788,
-							["amount"] = 6064,
-							["hitamount"] = 6064,
-						},
 					},
-					["overkill"] = 4077,
 					["heal"] = 3774,
 					["name"] = "Urgash",
+					["runicspells"] = {
+						[45529] = 10,
+					},
+					["overkill"] = 4077,
 					["runic"] = 10,
 					["overheal"] = 12114,
-					["totaldamage"] = 225579,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -23429,8 +23527,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Lightning Construct"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 5,
 								},
 								["Dark Rune Giant"] = {
@@ -23441,22 +23539,28 @@ SkadaStorageDB = {
 							["uptime"] = 17,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 8,
+						},
+						[6795] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Lightning Construct"] = {
+									["uptime"] = 5,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 5,
 						},
 						[5209] = {
 							["type"] = "DEBUFF",
@@ -23475,15 +23579,15 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 28,
+							["count"] = 1,
 						},
 						[64951] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 23,
 						},
 						[48564] = {
@@ -23514,17 +23618,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 9,
 						},
-						[6795] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Lightning Construct"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 5,
+						[53307] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
 						},
 						[9634] = {
 							["type"] = "BUFF",
@@ -23532,22 +23629,12 @@ SkadaStorageDB = {
 							["uptime"] = 28,
 						},
 						[62606] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 6,
-							["school"] = 8,
 							["uptime"] = 13,
 						},
 						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
-						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 28,
@@ -23557,35 +23644,116 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 28,
 						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 					},
 					["role"] = "TANK",
 					["time"] = 19.34,
 					["totaldamagetaken"] = 26967,
-					["overheal"] = 1512,
 					["damage"] = 44923,
-					["damagespells"] = {
-						["Lacerate (DoT)"] = {
-							["hitmin"] = 181,
-							["criticalamount"] = 725,
-							["id"] = 48568,
+					["overheal"] = 1512,
+					["damagetaken"] = 21305,
+					["id"] = "0x07000000008C6185",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 1512,
+							["max"] = 1513,
+							["count"] = 3,
+							["amount"] = 3025,
+							["school"] = 1,
 							["targets"] = {
-								["Lightning Construct"] = {
-									["amount"] = 182,
-								},
-								["Dark Rune Giant"] = {
-									["amount"] = 1088,
+								["Thirial"] = {
+									["overheal"] = 1512,
+									["amount"] = 3025,
 								},
 							},
-							["hitmax"] = 182,
-							["count"] = 5,
-							["criticalmax"] = 363,
-							["critical"] = 2,
-							["amount"] = 1270,
-							["school"] = 1,
-							["hit"] = 3,
-							["criticalmin"] = 362,
-							["hitamount"] = 545,
+							["ishot"] = true,
+							["min"] = 1512,
 						},
+					},
+					["damagetakenspells"] = {
+						["Stomp"] = {
+							["hitmin"] = 1878,
+							["id"] = 59026,
+							["sources"] = {
+								["Dark Rune Giant"] = {
+									["amount"] = 1878,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1878,
+							["amount"] = 1878,
+							["hitamount"] = 1878,
+						},
+						["Electrical Overload"] = {
+							["hitmin"] = 3302,
+							["id"] = 59038,
+							["hitmax"] = 3742,
+							["sources"] = {
+								["Lightning Construct"] = {
+									["amount"] = 7044,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 2349,
+							["amount"] = 7044,
+							["hitamount"] = 7044,
+						},
+						["Chain Lightning"] = {
+							["hitmin"] = 2921,
+							["id"] = 61528,
+							["hitmax"] = 4128,
+							["sources"] = {
+								["Lightning Construct"] = {
+									["amount"] = 7049,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 1356,
+							["amount"] = 7049,
+							["hitamount"] = 7049,
+						},
+						["Melee"] = {
+							["DODGE"] = 3,
+							["total"] = 10996,
+							["hitmin"] = 395,
+							["id"] = 6603,
+							["ABSORB"] = 4,
+							["sources"] = {
+								["Lightning Construct"] = {
+									["total"] = 7391,
+									["amount"] = 3005,
+								},
+								["Dark Rune Giant"] = {
+									["total"] = 3605,
+									["amount"] = 2329,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 1934,
+							["amount"] = 5334,
+							["hitamount"] = 5334,
+						},
+					},
+					["damagespells"] = {
 						["Swipe (Bear)"] = {
 							["hitmin"] = 418,
 							["criticalamount"] = 840,
@@ -23599,15 +23767,34 @@ SkadaStorageDB = {
 									["amount"] = 3344,
 								},
 							},
-							["criticalmax"] = 840,
-							["critical"] = 1,
 							["casts"] = 4,
 							["count"] = 11,
-							["hit"] = 10,
-							["school"] = 1,
+							["criticalmax"] = 840,
 							["hitmax"] = 420,
 							["amount"] = 5024,
+							["school"] = 1,
+							["hit"] = 10,
+							["critical"] = 1,
 							["hitamount"] = 4184,
+						},
+						["Mangle (Bear)"] = {
+							["hitmin"] = 1328,
+							["id"] = 48564,
+							["targets"] = {
+								["Lightning Construct"] = {
+									["amount"] = 1328,
+								},
+								["Dark Rune Giant"] = {
+									["amount"] = 1340,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1340,
+							["amount"] = 2668,
+							["hitamount"] = 2668,
 						},
 						["Melee"] = {
 							["glance"] = 787,
@@ -23640,6 +23827,52 @@ SkadaStorageDB = {
 							["amount"] = 910,
 							["hitamount"] = 910,
 						},
+						["Lacerate"] = {
+							["criticalamount"] = 436,
+							["hitmin"] = 102,
+							["criticalmin"] = 206,
+							["id"] = 48568,
+							["casts"] = 3,
+							["targets"] = {
+								["Lightning Construct"] = {
+									["amount"] = 436,
+								},
+								["Dark Rune Giant"] = {
+									["amount"] = 102,
+								},
+							},
+							["count"] = 3,
+							["blocked"] = 40,
+							["criticalmax"] = 230,
+							["hitmax"] = 102,
+							["amount"] = 538,
+							["school"] = 1,
+							["critical"] = 2,
+							["hit"] = 1,
+							["hitamount"] = 102,
+						},
+						["Lacerate (DoT)"] = {
+							["hitmin"] = 181,
+							["criticalamount"] = 725,
+							["id"] = 48568,
+							["targets"] = {
+								["Lightning Construct"] = {
+									["amount"] = 182,
+								},
+								["Dark Rune Giant"] = {
+									["amount"] = 1088,
+								},
+							},
+							["criticalmin"] = 362,
+							["critical"] = 2,
+							["criticalmax"] = 363,
+							["count"] = 5,
+							["amount"] = 1270,
+							["school"] = 1,
+							["hit"] = 3,
+							["hitmax"] = 182,
+							["hitamount"] = 545,
+						},
 						["Maul"] = {
 							["hitmin"] = 1446,
 							["criticalamount"] = 14984,
@@ -23653,58 +23886,15 @@ SkadaStorageDB = {
 									["amount"] = 13023,
 								},
 							},
-							["criticalmax"] = 4622,
-							["critical"] = 4,
 							["casts"] = 8,
 							["count"] = 14,
-							["hit"] = 10,
-							["school"] = 1,
+							["criticalmax"] = 4622,
 							["hitmax"] = 2284,
 							["amount"] = 33269,
+							["school"] = 1,
+							["hit"] = 10,
+							["critical"] = 4,
 							["hitamount"] = 18285,
-						},
-						["Mangle (Bear)"] = {
-							["hitmin"] = 1328,
-							["id"] = 48564,
-							["targets"] = {
-								["Lightning Construct"] = {
-									["amount"] = 1328,
-								},
-								["Dark Rune Giant"] = {
-									["amount"] = 1340,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1340,
-							["amount"] = 2668,
-							["hitamount"] = 2668,
-						},
-						["Lacerate"] = {
-							["blocked"] = 40,
-							["hitmin"] = 102,
-							["criticalamount"] = 436,
-							["id"] = 48568,
-							["criticalmin"] = 206,
-							["targets"] = {
-								["Lightning Construct"] = {
-									["amount"] = 436,
-								},
-								["Dark Rune Giant"] = {
-									["amount"] = 102,
-								},
-							},
-							["criticalmax"] = 230,
-							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 102,
-							["amount"] = 538,
-							["hitamount"] = 102,
 						},
 						["Thorns"] = {
 							["hitmin"] = 83,
@@ -23730,101 +23920,9 @@ SkadaStorageDB = {
 						[16959] = 35,
 						[59072] = 9,
 					},
-					["damagetaken"] = 21305,
-					["id"] = "0x07000000008C6185",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 1512,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 1512,
-									["amount"] = 3025,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 3025,
-							["school"] = 1,
-							["max"] = 1513,
-							["ishot"] = true,
-							["min"] = 1512,
-						},
-					},
-					["damagetakenspells"] = {
-						["Electrical Overload"] = {
-							["hitmin"] = 3302,
-							["id"] = 59038,
-							["hitmax"] = 3742,
-							["sources"] = {
-								["Lightning Construct"] = {
-									["amount"] = 7044,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 2349,
-							["amount"] = 7044,
-							["hitamount"] = 7044,
-						},
-						["Stomp"] = {
-							["hitmin"] = 1878,
-							["id"] = 59026,
-							["sources"] = {
-								["Dark Rune Giant"] = {
-									["amount"] = 1878,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1878,
-							["amount"] = 1878,
-							["hitamount"] = 1878,
-						},
-						["Melee"] = {
-							["DODGE"] = 3,
-							["total"] = 10996,
-							["hitmin"] = 395,
-							["id"] = 6603,
-							["ABSORB"] = 4,
-							["sources"] = {
-								["Lightning Construct"] = {
-									["total"] = 7391,
-									["amount"] = 3005,
-								},
-								["Dark Rune Giant"] = {
-									["total"] = 3605,
-									["amount"] = 2329,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 1934,
-							["amount"] = 5334,
-							["hitamount"] = 5334,
-						},
-						["Chain Lightning"] = {
-							["hitmin"] = 2921,
-							["id"] = 61528,
-							["hitmax"] = 4128,
-							["sources"] = {
-								["Lightning Construct"] = {
-									["amount"] = 7049,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 1356,
-							["amount"] = 7049,
-							["hitamount"] = 7049,
-						},
-					},
+					["name"] = "Thirial",
 					["rage"] = 44,
 					["heal"] = 3025,
-					["name"] = "Thirial",
 					["manaspells"] = {
 						[68285] = 2178,
 					},
@@ -23849,21 +23947,21 @@ SkadaStorageDB = {
 							["uptime"] = 28,
 						},
 						[16886] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 3,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 28,
+							["count"] = 1,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[48422] = {
@@ -23872,21 +23970,21 @@ SkadaStorageDB = {
 							["uptime"] = 28,
 						},
 						[60520] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 						[60062] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 9,
 						},
 						[67358] = {
@@ -23907,26 +24005,21 @@ SkadaStorageDB = {
 							["uptime"] = 28,
 						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 4,
 						},
 					},
 					["energyspells"] = {
 						[48540] = 16,
 					},
+					["role"] = "HEALER",
 					["time"] = 22.72,
 					["totaldamagetaken"] = 7817,
-					["ragespells"] = {
-						[48541] = 24,
-					},
 					["rage"] = 24,
-					["runic"] = 48,
-					["manaspells"] = {
-						[48542] = 1042,
-					},
 					["damagetaken"] = 7817,
+					["runic"] = 48,
 					["id"] = "0x070000000095B7ED",
 					["spec"] = 105,
 					["healspells"] = {
@@ -23986,18 +24079,22 @@ SkadaStorageDB = {
 									["amount"] = 10657,
 								},
 							},
-							["criticalmax"] = 6336,
-							["min"] = 1080,
 							["casts"] = 3,
-							["count"] = 13,
+							["min"] = 1080,
+							["criticalmax"] = 6336,
+							["critical"] = 1,
 							["amount"] = 18482,
 							["school"] = 8,
 							["criticalmin"] = 6336,
 							["ishot"] = true,
-							["critical"] = 1,
+							["count"] = 13,
 						},
 						[53251] = {
 							["overheal"] = 6526,
+							["max"] = 777,
+							["count"] = 42,
+							["amount"] = 21076,
+							["school"] = 8,
 							["targets"] = {
 								["Tumbleweed"] = {
 									["overheal"] = 704,
@@ -24024,10 +24121,6 @@ SkadaStorageDB = {
 									["amount"] = 4639,
 								},
 							},
-							["count"] = 42,
-							["amount"] = 21076,
-							["school"] = 8,
-							["max"] = 777,
 							["ishot"] = true,
 							["min"] = 19,
 						},
@@ -24066,13 +24159,18 @@ SkadaStorageDB = {
 							["hitamount"] = 4109,
 						},
 					},
-					["mana"] = 1042,
+					["last"] = 4713.631,
+					["ragespells"] = {
+						[48541] = 24,
+					},
+					["manaspells"] = {
+						[48542] = 1042,
+					},
 					["heal"] = 71212,
 					["name"] = "Tumbleweed",
 					["overheal"] = 26823,
-					["last"] = 4713.631,
 					["energy"] = 16,
-					["role"] = "HEALER",
+					["mana"] = 1042,
 				}, -- [3]
 				{
 					["last"] = 4706.49,
@@ -24091,8 +24189,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Lightning Construct"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 7,
 								},
 								["Dark Rune Giant"] = {
@@ -24103,45 +24201,45 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[12292] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 28,
+							["count"] = 1,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[48443] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 13,
 						},
 						[60305] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 16,
 						},
 						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 4,
 						},
 						[46916] = {
@@ -24152,34 +24250,34 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
 						[12970] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
-						},
-						[14202] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
 						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 28,
 						},
+						[14202] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 					},
+					["totaldamage"] = 40262,
 					["time"] = 19.94,
 					["totaldamagetaken"] = 17221,
 					["damage"] = 40262,
 					["rage"] = 35,
-					["overheal"] = 633,
 					["damagetaken"] = 17221,
 					["id"] = "0x07000000009A86E7",
 					["spec"] = 72,
@@ -24233,13 +24331,14 @@ SkadaStorageDB = {
 							["hitamount"] = 11359,
 						},
 					},
-					["overkill"] = 375,
 					["ragespells"] = {
 						[29131] = 10,
 						[2687] = 20,
 						[12964] = 5,
 					},
 					["name"] = "Miracledream",
+					["overheal"] = 633,
+					["overkill"] = 375,
 					["heal"] = 633,
 					["damagespells"] = {
 						["Bloodthirst"] = {
@@ -24299,14 +24398,14 @@ SkadaStorageDB = {
 									["amount"] = 6666,
 								},
 							},
-							["criticalmax"] = 3726,
-							["critical"] = 1,
 							["casts"] = 3,
 							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
+							["criticalmax"] = 3726,
 							["hitmax"] = 1591,
 							["amount"] = 9278,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 1,
 							["hitamount"] = 5552,
 						},
 						["Execute"] = {
@@ -24327,11 +24426,11 @@ SkadaStorageDB = {
 						},
 						["Whirlwind"] = {
 							["DODGE"] = 1,
-							["criticalmax"] = 3366,
-							["hitmin"] = 717,
 							["criticalamount"] = 6118,
-							["id"] = 1680,
+							["hitmin"] = 717,
 							["criticalmin"] = 2752,
+							["id"] = 1680,
+							["casts"] = 2,
 							["targets"] = {
 								["Dark Rune Giant"] = {
 									["amount"] = 3495,
@@ -24342,13 +24441,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 375,
-							["critical"] = 2,
-							["casts"] = 2,
 							["count"] = 10,
-							["hit"] = 7,
-							["school"] = 1,
+							["criticalmax"] = 3366,
 							["hitmax"] = 1675,
 							["amount"] = 13412,
+							["school"] = 1,
+							["hit"] = 7,
+							["critical"] = 2,
 							["hitamount"] = 7294,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -24387,7 +24486,6 @@ SkadaStorageDB = {
 							["hitamount"] = 1556,
 						},
 					},
-					["totaldamage"] = 40262,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -24413,46 +24511,33 @@ SkadaStorageDB = {
 							["uptime"] = 2,
 						},
 						[71564] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 28,
-						},
 						[12536] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 4,
 						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 4,
-							["refresh"] = 6,
-							["targets"] = {
-								["Lightning Construct"] = {
-									["count"] = 3,
-									["refresh"] = 6,
-									["uptime"] = 10,
-								},
-								["Dark Rune Giant"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 28,
+							["count"] = 1,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
 						},
 						[42925] = {
 							["type"] = "DEBUFF",
@@ -24519,17 +24604,31 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 28,
 						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 28,
 						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["refresh"] = 6,
+							["targets"] = {
+								["Lightning Construct"] = {
+									["refresh"] = 6,
+									["count"] = 3,
+									["uptime"] = 10,
+								},
+								["Dark Rune Giant"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 13,
+						},
 					},
+					["totaldamage"] = 78775,
 					["time"] = 19.7,
 					["totaldamagetaken"] = 5155,
 					["damage"] = 78775,
@@ -24615,14 +24714,14 @@ SkadaStorageDB = {
 									["amount"] = 11823,
 								},
 							},
-							["criticalmax"] = 3165,
-							["critical"] = 2,
 							["casts"] = 2,
 							["count"] = 14,
-							["hit"] = 12,
-							["school"] = 4,
+							["criticalmax"] = 3165,
 							["hitmax"] = 1937,
 							["amount"] = 17361,
+							["school"] = 4,
+							["hit"] = 12,
+							["critical"] = 2,
 							["hitamount"] = 11347,
 						},
 						["Living Bomb (DoT)"] = {
@@ -24630,7 +24729,7 @@ SkadaStorageDB = {
 							["hitmin"] = 854,
 							["criticalamount"] = 1689,
 							["id"] = 55360,
-							["criticalmax"] = 1689,
+							["hitmax"] = 966,
 							["targets"] = {
 								["Lightning Construct"] = {
 									["amount"] = 8336,
@@ -24640,13 +24739,13 @@ SkadaStorageDB = {
 								},
 							},
 							["critical"] = 1,
-							["hitmax"] = 966,
+							["hit"] = 11,
 							["casts"] = 2,
 							["count"] = 12,
-							["hit"] = 11,
+							["amount"] = 12100,
 							["school"] = 4,
 							["resisted"] = 96,
-							["amount"] = 12100,
+							["criticalmax"] = 1689,
 							["hitamount"] = 10411,
 						},
 						["Living Bomb"] = {
@@ -24662,14 +24761,14 @@ SkadaStorageDB = {
 									["amount"] = 20362,
 								},
 							},
-							["criticalmax"] = 3924,
-							["critical"] = 5,
 							["casts"] = 1,
 							["count"] = 7,
-							["hit"] = 2,
-							["school"] = 4,
+							["criticalmax"] = 3924,
 							["hitmax"] = 2243,
 							["amount"] = 22605,
+							["school"] = 4,
+							["hit"] = 2,
+							["critical"] = 5,
 							["hitamount"] = 4246,
 						},
 					},
@@ -24701,12 +24800,9 @@ SkadaStorageDB = {
 						[44450] = -167,
 					},
 					["mana"] = 1876,
-					["totaldamage"] = 78775,
 					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["type"] = "party",
-			["damagetaken"] = 76716,
 			["rage"] = 103,
 			["overheal"] = 41082,
 			["overkill"] = 4452,
@@ -24718,13 +24814,2055 @@ SkadaStorageDB = {
 			["edamage"] = 76716,
 			["last_action"] = 1699557220,
 			["endtime"] = 1699557220,
-		}, -- [10]
+		}, -- [11]
 		{
-			["ccdone"] = 1,
-			["energy"] = 8,
-			["runic"] = 48,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[49560] = {
+							["count"] = 1,
+							["targets"] = {
+								["Dark Rune Theurgist"] = 1,
+							},
+						},
+					},
+					["last"] = 4667.756,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[48470] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 40,
+							["count"] = 1,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 27,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 29,
+						},
+						[48443] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 27,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 29,
+						},
+						[57623] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 40,
+							["count"] = 1,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 15,
+									["count"] = 2,
+								},
+								["Dark Rune Theurgist"] = {
+									["refresh"] = 1,
+									["count"] = 4,
+									["uptime"] = 25,
+								},
+							},
+							["uptime"] = 25,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 32,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 10,
+									["count"] = 3,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[48792] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[9863] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 6,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 4,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[71561] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 16,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 15,
+									["count"] = 2,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 25,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 25,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 7,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[34123] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 33,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 32,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 15,
+									["count"] = 2,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 23,
+									["count"] = 4,
+								},
+							},
+							["uptime"] = 23,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[49222] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 15,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["totaldamage"] = 263458,
+					["time"] = 29.08000000000001,
+					["totaldamagetaken"] = 43064,
+					["damage"] = 263458,
+					["damagespells"] = {
+						["Chaos Bane"] = {
+							["hitmin"] = 905,
+							["id"] = 71904,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1822,
+								},
+								["Gold Beetle"] = {
+									["overkill"] = 928,
+									["amount"] = 937,
+								},
+							},
+							["overkill"] = 928,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 937,
+							["amount"] = 2759,
+							["hitamount"] = 2759,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 3215,
+							["criticalamount"] = 6802,
+							["id"] = 49924,
+							["criticalmin"] = 6802,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 10017,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 2,
+							["criticalmax"] = 6802,
+							["hitmax"] = 3215,
+							["amount"] = 10017,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
+							["hitamount"] = 3215,
+						},
+						["Melee"] = {
+							["glance"] = 7296,
+							["hitmin"] = 3925,
+							["criticalmin"] = 6703,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 41034,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 41034,
+							["glancemin"] = 3643,
+							["criticalamount"] = 29813,
+							["id"] = 6603,
+							["glancemax"] = 3653,
+							["criticalmax"] = 7976,
+							["critical"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3925,
+							["count"] = 7,
+							["hitamount"] = 3925,
+						},
+						["Death and Decay"] = {
+							["criticalmin"] = 1465,
+							["hitmin"] = 623,
+							["criticalamount"] = 11181,
+							["id"] = 52212,
+							["count"] = 32,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 9595,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 23600,
+								},
+							},
+							["hitmax"] = 968,
+							["hit"] = 26,
+							["criticalmax"] = 2023,
+							["critical"] = 6,
+							["amount"] = 33195,
+							["school"] = 32,
+							["resisted"] = 471,
+							["casts"] = 1,
+							["hitamount"] = 22014,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1665,
+							["id"] = 49909,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1665,
+								},
+							},
+							["hitmax"] = 1665,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 184,
+							["amount"] = 1665,
+							["hitamount"] = 1665,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 35,
+							["id"] = 50536,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 78,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 43,
+							["amount"] = 78,
+							["hitamount"] = 78,
+						},
+						["Claw (Earthbasher)"] = {
+							["hitmin"] = 891,
+							["criticalamount"] = 1812,
+							["id"] = 47468,
+							["criticalmin"] = 1812,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 3612,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["criticalmax"] = 1812,
+							["hitmax"] = 909,
+							["amount"] = 3612,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
+							["hitamount"] = 1800,
+						},
+						["Blood Boil"] = {
+							["hitmin"] = 1104,
+							["id"] = 49941,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1121,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 3105,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 2001,
+							["amount"] = 4226,
+							["hitamount"] = 4226,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 840,
+							["id"] = 50463,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 5633,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2425,
+							["amount"] = 5633,
+							["hitamount"] = 5633,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 728,
+							["id"] = 51460,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 6620,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["hitmax"] = 1595,
+							["amount"] = 6620,
+							["hitamount"] = 6620,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1220,
+							["id"] = 55078,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 11888,
+								},
+								["Dark Rune Theurgist"] = {
+									["overkill"] = 759,
+									["amount"] = 22522,
+								},
+							},
+							["overkill"] = 759,
+							["hitmax"] = 1525,
+							["count"] = 23,
+							["hit"] = 23,
+							["school"] = 32,
+							["resisted"] = 452,
+							["amount"] = 34410,
+							["hitamount"] = 34410,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1021,
+							["id"] = 50526,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 22804,
+								},
+								["Gold Beetle"] = {
+									["overkill"] = 1267,
+									["amount"] = 1276,
+								},
+								["Dark Rune Theurgist"] = {
+									["overkill"] = 916,
+									["amount"] = 25213,
+								},
+							},
+							["overkill"] = 2183,
+							["hitmax"] = 1887,
+							["casts"] = 1,
+							["count"] = 34,
+							["hit"] = 34,
+							["school"] = 32,
+							["resisted"] = 1222,
+							["amount"] = 49293,
+							["hitamount"] = 49293,
+						},
+						["Melee (Earthbasher)"] = {
+							["glance"] = 1078,
+							["hitmin"] = 599,
+							["id"] = 6603,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 2887,
+								},
+							},
+							["glancemin"] = 539,
+							["glancing"] = 2,
+							["glancemax"] = 539,
+							["count"] = 5,
+							["amount"] = 2887,
+							["school"] = 1,
+							["hitmax"] = 609,
+							["hit"] = 3,
+							["hitamount"] = 1809,
+						},
+						["Plague Strike"] = {
+							["criticalamount"] = 6272,
+							["id"] = 49921,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 6272,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 6272,
+							["school"] = 1,
+							["criticalmin"] = 6272,
+							["criticalmax"] = 6272,
+							["count"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1768,
+							["id"] = 55095,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 15966,
+								},
+								["Dark Rune Theurgist"] = {
+									["overkill"] = 1653,
+									["amount"] = 29135,
+								},
+							},
+							["overkill"] = 1653,
+							["hitmax"] = 1996,
+							["count"] = 23,
+							["hit"] = 23,
+							["school"] = 16,
+							["resisted"] = 199,
+							["amount"] = 45101,
+							["hitamount"] = 45101,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 3537,
+							["criticalamount"] = 8748,
+							["id"] = 47632,
+							["criticalmin"] = 8748,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 16656,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["criticalmax"] = 8748,
+							["hitmax"] = 4371,
+							["amount"] = 16656,
+							["school"] = 32,
+							["hit"] = 2,
+							["critical"] = 1,
+							["hitamount"] = 7908,
+						},
+					},
+					["damagetaken"] = 43064,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 1167,
+							["max"] = 1523,
+							["count"] = 4,
+							["amount"] = 4482,
+							["school"] = 1,
+							["targets"] = {
+								["Earthbasher"] = {
+									["overheal"] = 1167,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 4482,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 1437,
+						},
+						[45470] = {
+							["overheal"] = 0,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 11426,
+							["max"] = 5713,
+							["min"] = 5713,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 11426,
+								},
+							},
+							["school"] = 1,
+						},
+						[50475] = {
+							["overheal"] = 0,
+							["max"] = 388,
+							["count"] = 19,
+							["amount"] = 3514,
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 3514,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 1,
+						},
+					},
+					["overkill"] = 5523,
+					["interrupt"] = 2,
+					["heal"] = 19422,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["damagetakenspells"] = {
+						["Forked Lightning"] = {
+							["hitmin"] = 1511,
+							["id"] = 59152,
+							["hitmax"] = 1820,
+							["sources"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 6706,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 8,
+							["resisted"] = 1190,
+							["amount"] = 6706,
+							["hitamount"] = 6706,
+						},
+						["Lightning Bolt"] = {
+							["hitmin"] = 974,
+							["id"] = 35010,
+							["hitmax"] = 2037,
+							["amount"] = 14870,
+							["sources"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 14870,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 11,
+							["school"] = 8,
+							["resisted"] = 3434,
+							["MISS"] = 1,
+							["hitamount"] = 14870,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1444,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 4969,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 13358,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 2492,
+							["amount"] = 18327,
+							["hitamount"] = 18327,
+						},
+						["Cleave"] = {
+							["hitmin"] = 3161,
+							["id"] = 42724,
+							["sources"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 3161,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3161,
+							["amount"] = 3161,
+							["hitamount"] = 3161,
+						},
+					},
+					["overheal"] = 1167,
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[35010] = 2,
+							},
+							["count"] = 2,
+							["targets"] = {
+								["Dark Rune Theurgist"] = 2,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["last"] = 4669.833000000001,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[48470] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 40,
+							["count"] = 1,
+						},
+						[53307] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[6795] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 5,
+									["count"] = 2,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 7,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[48568] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 19,
+								},
+							},
+							["uptime"] = 19,
+						},
+						[34123] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 40,
+							["count"] = 1,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[9634] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[48564] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[64951] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[16870] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 5,
+						},
+						[9863] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[48560] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 11,
+									["count"] = 3,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[5229] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[62606] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 16,
+						},
+					},
+					["totaldamage"] = 37144,
+					["time"] = 30.20999999999999,
+					["totaldamagetaken"] = 27153,
+					["damage"] = 37144,
+					["rage"] = 104,
+					["damagetaken"] = 20193,
+					["overheal"] = 0,
+					["id"] = "0x07000000008C6185",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 0,
+							["max"] = 1513,
+							["count"] = 3,
+							["amount"] = 4537,
+							["school"] = 1,
+							["targets"] = {
+								["Thirial"] = {
+									["overheal"] = 0,
+									["amount"] = 4537,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 1512,
+						},
+					},
+					["overkill"] = 4042,
+					["damagetakenspells"] = {
+						["Forked Lightning"] = {
+							["hitmin"] = 2132,
+							["id"] = 59152,
+							["hitmax"] = 2278,
+							["sources"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 4410,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 489,
+							["amount"] = 4410,
+							["hitamount"] = 4410,
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["total"] = 16039,
+							["hitmin"] = 301,
+							["id"] = 6603,
+							["sources"] = {
+								["Dark Rune Warrior"] = {
+									["total"] = 14296,
+									["amount"] = 8757,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1743,
+								},
+							},
+							["count"] = 11,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 1893,
+							["amount"] = 10500,
+							["hitamount"] = 10500,
+						},
+						["Heroic Strike"] = {
+							["DODGE"] = 1,
+							["total"] = 6704,
+							["hitmin"] = 807,
+							["id"] = 59035,
+							["sources"] = {
+								["Dark Rune Warrior"] = {
+									["total"] = 6704,
+									["amount"] = 5283,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2262,
+							["amount"] = 5283,
+							["hitamount"] = 5283,
+						},
+					},
+					["heal"] = 4537,
+					["manaspells"] = {
+						[68285] = 2178,
+					},
+					["ragespells"] = {
+						[5229] = 30,
+						[59072] = 9,
+						[16959] = 65,
+					},
+					["name"] = "Thirial",
+					["mana"] = 2178,
+					["damagespells"] = {
+						["Swipe (Bear)"] = {
+							["criticalmin"] = 824,
+							["hit"] = 13,
+							["hitmin"] = 412,
+							["criticalamount"] = 9886,
+							["id"] = 48562,
+							["critical"] = 10,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 5032,
+								},
+								["Dark Rune Warrior"] = {
+									["overkill"] = 820,
+									["amount"] = 11666,
+								},
+							},
+							["overkill"] = 820,
+							["blocked"] = 40,
+							["criticalmax"] = 1126,
+							["hitmax"] = 563,
+							["amount"] = 16698,
+							["school"] = 1,
+							["count"] = 23,
+							["casts"] = 7,
+							["hitamount"] = 6812,
+						},
+						["Melee"] = {
+							["glance"] = 813,
+							["hitmin"] = 776,
+							["id"] = 6603,
+							["hitamount"] = 3614,
+							["glancemax"] = 813,
+							["count"] = 5,
+							["glancing"] = 1,
+							["amount"] = 4427,
+							["hitmax"] = 1053,
+							["hit"] = 4,
+							["school"] = 1,
+							["blocked"] = 80,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 2561,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1866,
+								},
+							},
+							["glancemin"] = 813,
+						},
+						["Lacerate (DoT)"] = {
+							["hitmin"] = 147,
+							["criticalamount"] = 363,
+							["id"] = 48568,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 951,
+								},
+							},
+							["criticalmin"] = 363,
+							["count"] = 5,
+							["criticalmax"] = 363,
+							["critical"] = 1,
+							["amount"] = 951,
+							["school"] = 1,
+							["hitmax"] = 147,
+							["hit"] = 4,
+							["hitamount"] = 588,
+						},
+						["Lacerate"] = {
+							["hitmin"] = 108,
+							["criticalamount"] = 468,
+							["id"] = 48568,
+							["criticalmin"] = 204,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 576,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["criticalmax"] = 264,
+							["hitmax"] = 108,
+							["amount"] = 576,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 2,
+							["hitamount"] = 108,
+						},
+						["Mangle (Bear)"] = {
+							["hitmin"] = 1351,
+							["id"] = 48564,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 1351,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1351,
+							["amount"] = 1351,
+							["hitamount"] = 1351,
+						},
+						["Maul"] = {
+							["criticalmin"] = 4416,
+							["hitmin"] = 1430,
+							["criticalamount"] = 4416,
+							["id"] = 48480,
+							["casts"] = 4,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["overkill"] = 3222,
+									["amount"] = 12330,
+								},
+							},
+							["overkill"] = 3222,
+							["count"] = 5,
+							["criticalmax"] = 4416,
+							["hitmax"] = 2282,
+							["amount"] = 12330,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 1,
+							["hitamount"] = 7914,
+						},
+						["Thorns"] = {
+							["hitmin"] = 82,
+							["id"] = 53307,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 717,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 94,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 8,
+							["hitmax"] = 94,
+							["amount"] = 811,
+							["hitamount"] = 811,
+						},
+					},
+					["role"] = "TANK",
+				}, -- [2]
+				{
+					["last"] = 4670.556000000001,
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 37,
+						},
+						[48470] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[48443] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[22812] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[48420] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48422] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[33357] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[29166] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[33891] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[9863] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[67358] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 20,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 14,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[16886] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[34123] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[60062] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[60520] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["energyspells"] = {
+						[48540] = 8,
+					},
+					["role"] = "HEALER",
+					["time"] = 22.95,
+					["totaldamagetaken"] = 7883,
+					["overheal"] = 64929,
+					["damagetaken"] = 7883,
+					["runicspells"] = {
+						[48543] = 48,
+					},
+					["id"] = "0x070000000095B7ED",
+					["spec"] = 105,
+					["healspells"] = {
+						[53251] = {
+							["overheal"] = 2905,
+							["max"] = 734,
+							["count"] = 42,
+							["amount"] = 22903,
+							["school"] = 8,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 0,
+									["amount"] = 4337,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 4335,
+								},
+								["Earthbasher"] = {
+									["overheal"] = 2905,
+									["amount"] = 1224,
+								},
+								["Thirial"] = {
+									["overheal"] = 0,
+									["amount"] = 4336,
+								},
+								["Miracledream"] = {
+									["overheal"] = 0,
+									["amount"] = 4336,
+								},
+								["Berdanx"] = {
+									["overheal"] = 0,
+									["amount"] = 4335,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 227,
+						},
+						[44207] = {
+							["overheal"] = 41580,
+							["count"] = 24,
+							["amount"] = 28408,
+							["school"] = 8,
+							["max"] = 2940,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 11758,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 11758,
+								},
+								["Earthbasher"] = {
+									["overheal"] = 11199,
+									["amount"] = 0,
+								},
+								["Berdanx"] = {
+									["overheal"] = 8301,
+									["amount"] = 3457,
+								},
+								["Miracledream"] = {
+									["overheal"] = 7643,
+									["amount"] = 4114,
+								},
+								["Thirial"] = {
+									["overheal"] = 2679,
+									["amount"] = 9079,
+								},
+							},
+							["min"] = 261,
+						},
+						[48441] = {
+							["overheal"] = 12056,
+							["max"] = 1943,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 6979,
+									["amount"] = 3724,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 10703,
+								},
+								["Thirial"] = {
+									["overheal"] = 5077,
+									["amount"] = 6578,
+								},
+							},
+							["min"] = 156,
+							["casts"] = 3,
+							["count"] = 18,
+							["amount"] = 21005,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[48443] = {
+							["overheal"] = 8388,
+							["criticalamount"] = 6747,
+							["max"] = 6747,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 6060,
+									["amount"] = 7757,
+								},
+								["Urgash"] = {
+									["overheal"] = 2328,
+									["amount"] = 15466,
+								},
+							},
+							["criticalmin"] = 6747,
+							["min"] = 913,
+							["casts"] = 3,
+							["critical"] = 1,
+							["amount"] = 23223,
+							["school"] = 8,
+							["criticalmax"] = 6747,
+							["ishot"] = true,
+							["count"] = 18,
+						},
+						[54755] = {
+							["overheal"] = 0,
+							["max"] = 892,
+							["count"] = 2,
+							["amount"] = 1783,
+							["school"] = 8,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 0,
+									["amount"] = 891,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 892,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 891,
+						},
+					},
+					["damagetakenspells"] = {
+						["Forked Lightning"] = {
+							["hitmin"] = 1694,
+							["id"] = 59152,
+							["hitmax"] = 2510,
+							["sources"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 7883,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 8,
+							["resisted"] = 2261,
+							["amount"] = 7883,
+							["hitamount"] = 7883,
+						},
+					},
+					["heal"] = 97322,
+					["ragespells"] = {
+						[48541] = 16,
+					},
+					["manaspells"] = {
+						[48542] = 614,
+						[29166] = 5502,
+					},
+					["rage"] = 16,
+					["name"] = "Tumbleweed",
+					["runic"] = 48,
+					["energy"] = 8,
+					["mana"] = 6116,
+				}, -- [3]
+				{
+					["last"] = 4669.431000000001,
+					["flag"] = 1298,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[34123] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 5,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["refresh"] = 4,
+									["count"] = 4,
+									["uptime"] = 13,
+								},
+								["Dark Rune Theurgist"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 40,
+							["count"] = 1,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[60065] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[14202] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 16,
+						},
+						[23885] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 11,
+						},
+						[46916] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 10,
+						},
+						[9863] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 33,
+						},
+						[48470] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 40,
+							["count"] = 1,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+					},
+					["totaldamage"] = 45818,
+					["time"] = 28.16,
+					["totaldamagetaken"] = 7511,
+					["damage"] = 45818,
+					["rage"] = 6,
+					["damagetaken"] = 7511,
+					["id"] = "0x07000000009A86E7",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 0,
+							["count"] = 3,
+							["amount"] = 633,
+							["school"] = 1,
+							["max"] = 211,
+							["targets"] = {
+								["Miracledream"] = {
+									["overheal"] = 0,
+									["amount"] = 633,
+								},
+							},
+							["min"] = 211,
+						},
+					},
+					["overkill"] = 2384,
+					["ragespells"] = {
+						[12964] = 6,
+					},
+					["name"] = "Miracledream",
+					["overheal"] = 0,
+					["damagetakenspells"] = {
+						["Forked Lightning"] = {
+							["hitmin"] = 2362,
+							["id"] = 59152,
+							["hitmax"] = 2680,
+							["sources"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 7511,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 1504,
+							["amount"] = 7511,
+							["hitamount"] = 7511,
+						},
+					},
+					["damagespells"] = {
+						["Bloodthirst"] = {
+							["hitmin"] = 1525,
+							["criticalamount"] = 3284,
+							["id"] = 23881,
+							["criticalmin"] = 3284,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 3284,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1525,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 2,
+							["criticalmax"] = 3284,
+							["hitmax"] = 1525,
+							["amount"] = 4809,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
+							["hitamount"] = 1525,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 85,
+							["id"] = 12721,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 3119,
+								},
+								["Dark Rune Theurgist"] = {
+									["overkill"] = 31,
+									["amount"] = 1286,
+								},
+							},
+							["overkill"] = 31,
+							["count"] = 28,
+							["hit"] = 28,
+							["school"] = 1,
+							["hitmax"] = 271,
+							["amount"] = 4405,
+							["hitamount"] = 4405,
+						},
+						["Cleave"] = {
+							["hitmin"] = 1252,
+							["criticalamount"] = 5807,
+							["id"] = 47520,
+							["criticalmin"] = 2833,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 8344,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 8344,
+							["criticalmax"] = 2974,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1285,
+							["casts"] = 2,
+							["hitamount"] = 2537,
+						},
+						["Execute"] = {
+							["hitmin"] = 1878,
+							["id"] = 20647,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1878,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1878,
+							["amount"] = 1878,
+							["hitamount"] = 1878,
+						},
+						["Whirlwind"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 767,
+							["criticalamount"] = 9318,
+							["id"] = 1680,
+							["criticalmin"] = 1546,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 5254,
+								},
+								["Dark Rune Warrior"] = {
+									["amount"] = 7012,
+								},
+							},
+							["critical"] = 4,
+							["amount"] = 12266,
+							["criticalmax"] = 3073,
+							["count"] = 8,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1382,
+							["casts"] = 1,
+							["hitamount"] = 2948,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 1091,
+							["hitmin"] = 524,
+							["criticalmin"] = 1056,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 5106,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 5959,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 11065,
+							["glancemin"] = 522,
+							["criticalamount"] = 7810,
+							["id"] = 6603,
+							["glancemax"] = 569,
+							["PARRY"] = 1,
+							["criticalmax"] = 2428,
+							["critical"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["count"] = 12,
+							["hitmax"] = 577,
+							["hitamount"] = 2164,
+						},
+						["Heroic Strike"] = {
+							["criticalamount"] = 3051,
+							["id"] = 47450,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["overkill"] = 2353,
+									["amount"] = 3051,
+								},
+							},
+							["overkill"] = 2353,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 3051,
+							["school"] = 1,
+							["criticalmin"] = 3051,
+							["criticalmax"] = 3051,
+							["count"] = 1,
+						},
+					},
+					["heal"] = 633,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["last"] = 4669.43,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[34123] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 5,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 40,
+							["count"] = 1,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[42940] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 16,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 6,
+									["count"] = 3,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[42926] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 4,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 8,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 4,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["uptime"] = 14,
+									["count"] = 2,
+								},
+								["Dark Rune Theurgist"] = {
+									["uptime"] = 22,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[48108] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 15,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[9863] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[48470] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 4,
+							["refresh"] = 9,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["refresh"] = 4,
+									["count"] = 4,
+									["uptime"] = 12,
+								},
+								["Dark Rune Theurgist"] = {
+									["refresh"] = 5,
+									["count"] = 4,
+									["uptime"] = 8,
+								},
+							},
+							["uptime"] = 13,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 25.83000000000001,
+					["totaldamagetaken"] = 7204,
+					["damage"] = 117858,
+					["damagespells"] = {
+						["Fire Blast"] = {
+							["criticalamount"] = 5044,
+							["id"] = 42873,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 5044,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 5044,
+							["school"] = 4,
+							["criticalmin"] = 5044,
+							["criticalmax"] = 5044,
+							["count"] = 1,
+						},
+						["Pyroblast"] = {
+							["hitmin"] = 5791,
+							["id"] = 42891,
+							["targets"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 5791,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 5791,
+							["amount"] = 5791,
+							["hitamount"] = 5791,
+						},
+						["Blizzard"] = {
+							["criticalmin"] = 1177,
+							["hitmax"] = 950,
+							["hitmin"] = 673,
+							["criticalamount"] = 12441,
+							["id"] = 42938,
+							["critical"] = 9,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["overkill"] = 891,
+									["amount"] = 15446,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 6004,
+								},
+							},
+							["overkill"] = 891,
+							["hit"] = 11,
+							["casts"] = 1,
+							["count"] = 20,
+							["amount"] = 21450,
+							["school"] = 16,
+							["resisted"] = 1190,
+							["criticalmax"] = 1662,
+							["hitamount"] = 9009,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 270,
+							["id"] = 12654,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 4688,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 1547,
+								},
+							},
+							["hitmax"] = 1186,
+							["count"] = 11,
+							["hit"] = 11,
+							["school"] = 4,
+							["resisted"] = 29,
+							["amount"] = 6235,
+							["hitamount"] = 6235,
+						},
+						["Living Bomb (DoT)"] = {
+							["criticalmin"] = 1495,
+							["hitmin"] = 769,
+							["criticalamount"] = 12957,
+							["id"] = 55360,
+							["hitmax"] = 966,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 8641,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 19972,
+								},
+							},
+							["critical"] = 8,
+							["hit"] = 17,
+							["casts"] = 6,
+							["count"] = 25,
+							["amount"] = 28613,
+							["school"] = 4,
+							["resisted"] = 253,
+							["criticalmax"] = 1690,
+							["hitamount"] = 15656,
+						},
+						["Flamestrike"] = {
+							["critical"] = 2,
+							["hitmin"] = 1926,
+							["criticalamount"] = 5547,
+							["id"] = 42926,
+							["criticalmin"] = 2399,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 7473,
+								},
+							},
+							["hitmax"] = 1926,
+							["hit"] = 1,
+							["criticalmax"] = 3148,
+							["count"] = 3,
+							["amount"] = 7473,
+							["school"] = 4,
+							["resisted"] = 599,
+							["casts"] = 1,
+							["hitamount"] = 1926,
+						},
+						["Flamestrike (DoT)"] = {
+							["hitmin"] = 502,
+							["id"] = 42926,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 3912,
+								},
+							},
+							["hitmax"] = 636,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 4,
+							["resisted"] = 56,
+							["amount"] = 3912,
+							["hitamount"] = 3912,
+						},
+						["Living Bomb"] = {
+							["criticalamount"] = 21539,
+							["hitmin"] = 1771,
+							["criticalmin"] = 2791,
+							["id"] = 55362,
+							["critical"] = 6,
+							["targets"] = {
+								["Dark Rune Warrior"] = {
+									["amount"] = 23723,
+								},
+								["Dark Rune Theurgist"] = {
+									["amount"] = 15617,
+								},
+							},
+							["hitmax"] = 2243,
+							["hit"] = 9,
+							["casts"] = 1,
+							["count"] = 15,
+							["amount"] = 39340,
+							["school"] = 4,
+							["resisted"] = 310,
+							["criticalmax"] = 3924,
+							["hitamount"] = 17801,
+						},
+					},
+					["damagetaken"] = 7204,
+					["id"] = "0x07000000009E540C",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Forked Lightning"] = {
+							["hitmin"] = 2129,
+							["id"] = 59152,
+							["hitmax"] = 2565,
+							["sources"] = {
+								["Dark Rune Theurgist"] = {
+									["amount"] = 7204,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 1824,
+							["amount"] = 7204,
+							["hitamount"] = 7204,
+						},
+					},
+					["name"] = "Berdanx",
+					["overkill"] = 891,
+					["manaspells"] = {
+						[29077] = 1719,
+						[67545] = 715,
+						[44450] = -132,
+					},
+					["mana"] = 2302,
+					["totaldamage"] = 117858,
+				}, -- [5]
+			},
 			["mana"] = 10596,
-			["rage"] = 126,
+			["etotaldamage"] = 92815,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -24813,15 +26951,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1525,
 						},
-						[42873] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 5044,
-								},
-							},
-							["amount"] = 5044,
-						},
 						[42891] = {
 							["school"] = 4,
 							["sources"] = {
@@ -24830,6 +26959,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 5791,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1121,
+								},
+							},
+							["amount"] = 1121,
 						},
 						[55360] = {
 							["school"] = 4,
@@ -24860,23 +26998,25 @@ SkadaStorageDB = {
 							["overkill"] = 916,
 							["amount"] = 25213,
 						},
-						[49941] = {
-							["school"] = 32,
+						[12721] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1121,
+								["Miracledream"] = {
+									["overkill"] = 31,
+									["amount"] = 1286,
 								},
 							},
-							["amount"] = 1121,
+							["overkill"] = 31,
+							["amount"] = 1286,
 						},
-						[47632] = {
+						[51460] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 16656,
+									["amount"] = 6620,
 								},
 							},
-							["amount"] = 16656,
+							["amount"] = 6620,
 						},
 						[49909] = {
 							["school"] = 16,
@@ -24887,14 +27027,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1665,
 						},
-						[51460] = {
-							["school"] = 32,
+						[42873] = {
+							["school"] = 4,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6620,
+								["Berdanx"] = {
+									["amount"] = 5044,
 								},
 							},
-							["amount"] = 6620,
+							["amount"] = 5044,
 						},
 						[1680] = {
 							["school"] = 1,
@@ -24965,14 +27105,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3612,
 						},
-						[71904] = {
-							["school"] = 32,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1822,
+									["overkill"] = 1653,
+									["amount"] = 29135,
 								},
 							},
-							["amount"] = 1822,
+							["overkill"] = 1653,
+							["amount"] = 29135,
 						},
 						[52212] = {
 							["school"] = 32,
@@ -25001,6 +27143,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6272,
 						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1822,
+								},
+							},
+							["amount"] = 1822,
+						},
 						[44949] = {
 							["school"] = 1,
 							["sources"] = {
@@ -25009,6 +27160,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 799,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 10017,
+								},
+							},
+							["amount"] = 10017,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -25021,51 +27181,29 @@ SkadaStorageDB = {
 							["overkill"] = 759,
 							["amount"] = 22522,
 						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["overkill"] = 31,
-									["amount"] = 1286,
-								},
-							},
-							["overkill"] = 31,
-							["amount"] = 1286,
-						},
-						[55095] = {
-							["school"] = 16,
+						[47632] = {
+							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 1653,
-									["amount"] = 29135,
+									["amount"] = 16656,
 								},
 							},
-							["overkill"] = 1653,
-							["amount"] = 29135,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 10017,
-								},
-							},
-							["amount"] = 10017,
+							["amount"] = 16656,
 						},
 					},
-					["name"] = "Dark Rune Theurgist",
 					["totaldamage"] = 55296,
+					["name"] = "Dark Rune Theurgist",
 					["totaldamagetaken"] = 263802,
 					["id"] = "0xF130006D3B00004E",
 					["damage"] = 55296,
 				}, -- [1]
 				{
-					["id"] = "0xF130007E0200008E",
-					["name"] = "Gold Beetle",
-					["totaldamagetaken"] = 2213,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
 					["damagetaken"] = 2213,
+					["name"] = "Gold Beetle",
+					["class"] = "MONSTER",
+					["flag"] = 2600,
+					["totaldamagetaken"] = 2213,
+					["id"] = "0xF130007E0200008E",
 					["damagetakenspells"] = {
 						[71904] = {
 							["school"] = 32,
@@ -25338,2059 +27476,17 @@ SkadaStorageDB = {
 					["damage"] = 30559,
 				}, -- [3]
 			},
+			["energy"] = 8,
 			["totaldamage"] = 464278,
 			["time"] = 40,
-			["etotaldamage"] = 92815,
+			["last_time"] = 4678.439,
 			["totaldamagetaken"] = 92815,
 			["etotaldamagetaken"] = 464278,
-			["last_time"] = 4678.439,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Dark Rune Theurgist"] = 1,
-							},
-						},
-					},
-					["last"] = 4667.756,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 40,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 27,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 29,
-						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 27,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 5,
-							["school"] = 1,
-							["uptime"] = 29,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 40,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 22,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 15,
-									["count"] = 2,
-								},
-								["Dark Rune Theurgist"] = {
-									["count"] = 4,
-									["refresh"] = 1,
-									["uptime"] = 25,
-								},
-							},
-							["uptime"] = 25,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 32,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 10,
-									["count"] = 3,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[48792] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[9863] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 4,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[71561] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 25,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 16,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 15,
-									["count"] = 2,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 25,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 25,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
-						},
-						[34123] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 33,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 32,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 15,
-									["count"] = 2,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 23,
-									["count"] = 4,
-								},
-							},
-							["uptime"] = 23,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 15,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-					},
-					["time"] = 29.08000000000001,
-					["totaldamagetaken"] = 43064,
-					["damage"] = 263458,
-					["damagespells"] = {
-						["Death and Decay"] = {
-							["criticalmin"] = 1465,
-							["hitmin"] = 623,
-							["criticalamount"] = 11181,
-							["id"] = 52212,
-							["hitmax"] = 968,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 9595,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 23600,
-								},
-							},
-							["count"] = 32,
-							["hit"] = 26,
-							["casts"] = 1,
-							["critical"] = 6,
-							["amount"] = 33195,
-							["school"] = 32,
-							["resisted"] = 471,
-							["criticalmax"] = 2023,
-							["hitamount"] = 22014,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 3537,
-							["criticalamount"] = 8748,
-							["id"] = 47632,
-							["criticalmin"] = 8748,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 16656,
-								},
-							},
-							["criticalmax"] = 8748,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 4371,
-							["amount"] = 16656,
-							["hitamount"] = 7908,
-						},
-						["Melee"] = {
-							["glance"] = 7296,
-							["hitmin"] = 3925,
-							["criticalmin"] = 6703,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 41034,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 41034,
-							["glancemin"] = 3643,
-							["criticalamount"] = 29813,
-							["id"] = 6603,
-							["glancemax"] = 3653,
-							["criticalmax"] = 7976,
-							["critical"] = 4,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3925,
-							["count"] = 7,
-							["hitamount"] = 3925,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 905,
-							["id"] = 71904,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1822,
-								},
-								["Gold Beetle"] = {
-									["overkill"] = 928,
-									["amount"] = 937,
-								},
-							},
-							["overkill"] = 928,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 937,
-							["amount"] = 2759,
-							["hitamount"] = 2759,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 840,
-							["id"] = 50463,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 5633,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 2425,
-							["amount"] = 5633,
-							["hitamount"] = 5633,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 35,
-							["id"] = 50536,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 78,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 43,
-							["amount"] = 78,
-							["hitamount"] = 78,
-						},
-						["Claw (Earthbasher)"] = {
-							["hitmin"] = 891,
-							["criticalamount"] = 1812,
-							["id"] = 47468,
-							["criticalmin"] = 1812,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 3612,
-								},
-							},
-							["criticalmax"] = 1812,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 909,
-							["amount"] = 3612,
-							["hitamount"] = 1800,
-						},
-						["Blood Boil"] = {
-							["hitmin"] = 1104,
-							["id"] = 49941,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1121,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 3105,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 2001,
-							["amount"] = 4226,
-							["hitamount"] = 4226,
-						},
-						["Death Strike"] = {
-							["hitmin"] = 3215,
-							["criticalamount"] = 6802,
-							["id"] = 49924,
-							["criticalmin"] = 6802,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 10017,
-								},
-							},
-							["criticalmax"] = 6802,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3215,
-							["amount"] = 10017,
-							["hitamount"] = 3215,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 728,
-							["id"] = 51460,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 6620,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 1595,
-							["amount"] = 6620,
-							["hitamount"] = 6620,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1220,
-							["id"] = 55078,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 11888,
-								},
-								["Dark Rune Theurgist"] = {
-									["overkill"] = 759,
-									["amount"] = 22522,
-								},
-							},
-							["overkill"] = 759,
-							["hitmax"] = 1525,
-							["count"] = 23,
-							["hit"] = 23,
-							["school"] = 32,
-							["resisted"] = 452,
-							["amount"] = 34410,
-							["hitamount"] = 34410,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1021,
-							["id"] = 50526,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 22804,
-								},
-								["Gold Beetle"] = {
-									["overkill"] = 1267,
-									["amount"] = 1276,
-								},
-								["Dark Rune Theurgist"] = {
-									["overkill"] = 916,
-									["amount"] = 25213,
-								},
-							},
-							["overkill"] = 2183,
-							["hitmax"] = 1887,
-							["casts"] = 1,
-							["count"] = 34,
-							["hit"] = 34,
-							["school"] = 32,
-							["resisted"] = 1222,
-							["amount"] = 49293,
-							["hitamount"] = 49293,
-						},
-						["Melee (Earthbasher)"] = {
-							["glance"] = 1078,
-							["hitmin"] = 599,
-							["id"] = 6603,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 2887,
-								},
-							},
-							["glancemin"] = 539,
-							["glancing"] = 2,
-							["glancemax"] = 539,
-							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 609,
-							["amount"] = 2887,
-							["hitamount"] = 1809,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 6272,
-							["id"] = 49921,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 6272,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 6272,
-							["school"] = 1,
-							["criticalmin"] = 6272,
-							["criticalmax"] = 6272,
-							["count"] = 1,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1768,
-							["id"] = 55095,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 15966,
-								},
-								["Dark Rune Theurgist"] = {
-									["overkill"] = 1653,
-									["amount"] = 29135,
-								},
-							},
-							["overkill"] = 1653,
-							["hitmax"] = 1996,
-							["count"] = 23,
-							["hit"] = 23,
-							["school"] = 16,
-							["resisted"] = 199,
-							["amount"] = 45101,
-							["hitamount"] = 45101,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1665,
-							["id"] = 49909,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1665,
-								},
-							},
-							["hitmax"] = 1665,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["resisted"] = 184,
-							["amount"] = 1665,
-							["hitamount"] = 1665,
-						},
-					},
-					["totaldamage"] = 263458,
-					["damagetaken"] = 43064,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 1167,
-							["targets"] = {
-								["Earthbasher"] = {
-									["overheal"] = 1167,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 4482,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 4482,
-							["school"] = 1,
-							["max"] = 1523,
-							["ishot"] = true,
-							["min"] = 1437,
-						},
-						[45470] = {
-							["overheal"] = 0,
-							["max"] = 5713,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 11426,
-								},
-							},
-							["min"] = 5713,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 11426,
-							["school"] = 1,
-						},
-						[50475] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 3514,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 3514,
-							["school"] = 1,
-							["max"] = 388,
-							["ishot"] = true,
-							["min"] = 1,
-						},
-					},
-					["overkill"] = 5523,
-					["interrupt"] = 2,
-					["heal"] = 19422,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["damagetakenspells"] = {
-						["Forked Lightning"] = {
-							["hitmin"] = 1511,
-							["id"] = 59152,
-							["hitmax"] = 1820,
-							["sources"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 6706,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 1190,
-							["amount"] = 6706,
-							["hitamount"] = 6706,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 974,
-							["id"] = 35010,
-							["amount"] = 14870,
-							["hitmax"] = 2037,
-							["sources"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 14870,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 11,
-							["school"] = 8,
-							["resisted"] = 3434,
-							["MISS"] = 1,
-							["hitamount"] = 14870,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1444,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 4969,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 13358,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 10,
-							["school"] = 1,
-							["hitmax"] = 2492,
-							["amount"] = 18327,
-							["hitamount"] = 18327,
-						},
-						["Cleave"] = {
-							["hitmin"] = 3161,
-							["id"] = 42724,
-							["sources"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 3161,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3161,
-							["amount"] = 3161,
-							["hitamount"] = 3161,
-						},
-					},
-					["overheal"] = 1167,
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[35010] = 2,
-							},
-							["count"] = 2,
-							["targets"] = {
-								["Dark Rune Theurgist"] = 2,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 4669.833000000001,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 40,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
-						},
-						[6795] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[48568] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 19,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[34123] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 33,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 40,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[9634] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[48564] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[64951] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 11,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 5,
-						},
-						[9863] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
-						[48560] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 11,
-									["count"] = 3,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[5229] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[62606] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 8,
-							["refresh"] = 3,
-							["uptime"] = 16,
-						},
-					},
-					["time"] = 30.20999999999999,
-					["manaspells"] = {
-						[68285] = 2178,
-					},
-					["totaldamagetaken"] = 27153,
-					["overkill"] = 4042,
-					["damage"] = 37144,
-					["rage"] = 104,
-					["overheal"] = 0,
-					["damagetaken"] = 20193,
-					["id"] = "0x07000000008C6185",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 0,
-									["amount"] = 4537,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 4537,
-							["school"] = 1,
-							["max"] = 1513,
-							["ishot"] = true,
-							["min"] = 1512,
-						},
-					},
-					["damagetakenspells"] = {
-						["Forked Lightning"] = {
-							["hitmin"] = 2132,
-							["id"] = 59152,
-							["hitmax"] = 2278,
-							["sources"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 4410,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 489,
-							["amount"] = 4410,
-							["hitamount"] = 4410,
-						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["total"] = 16039,
-							["hitmin"] = 301,
-							["id"] = 6603,
-							["sources"] = {
-								["Dark Rune Warrior"] = {
-									["total"] = 14296,
-									["amount"] = 8757,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1743,
-								},
-							},
-							["count"] = 11,
-							["hit"] = 9,
-							["school"] = 1,
-							["hitmax"] = 1893,
-							["amount"] = 10500,
-							["hitamount"] = 10500,
-						},
-						["Heroic Strike"] = {
-							["DODGE"] = 1,
-							["total"] = 6704,
-							["hitmin"] = 807,
-							["id"] = 59035,
-							["sources"] = {
-								["Dark Rune Warrior"] = {
-									["total"] = 6704,
-									["amount"] = 5283,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 2262,
-							["amount"] = 5283,
-							["hitamount"] = 5283,
-						},
-					},
-					["heal"] = 4537,
-					["ragespells"] = {
-						[5229] = 30,
-						[59072] = 9,
-						[16959] = 65,
-					},
-					["name"] = "Thirial",
-					["mana"] = 2178,
-					["damagespells"] = {
-						["Mangle (Bear)"] = {
-							["hitmin"] = 1351,
-							["id"] = 48564,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 1351,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1351,
-							["amount"] = 1351,
-							["hitamount"] = 1351,
-						},
-						["Melee"] = {
-							["glance"] = 813,
-							["hitmin"] = 776,
-							["id"] = 6603,
-							["blocked"] = 80,
-							["glancemax"] = 813,
-							["hitmax"] = 1053,
-							["glancing"] = 1,
-							["hitamount"] = 3614,
-							["count"] = 5,
-							["amount"] = 4427,
-							["school"] = 1,
-							["hit"] = 4,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 2561,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1866,
-								},
-							},
-							["glancemin"] = 813,
-						},
-						["Maul"] = {
-							["criticalmin"] = 4416,
-							["hitmin"] = 1430,
-							["criticalamount"] = 4416,
-							["id"] = 48480,
-							["criticalmax"] = 4416,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["overkill"] = 3222,
-									["amount"] = 12330,
-								},
-							},
-							["overkill"] = 3222,
-							["critical"] = 1,
-							["casts"] = 4,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2282,
-							["amount"] = 12330,
-							["hitamount"] = 7914,
-						},
-						["Lacerate"] = {
-							["hitmin"] = 108,
-							["criticalamount"] = 468,
-							["id"] = 48568,
-							["criticalmin"] = 204,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 576,
-								},
-							},
-							["criticalmax"] = 264,
-							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 108,
-							["amount"] = 576,
-							["hitamount"] = 108,
-						},
-						["Lacerate (DoT)"] = {
-							["hitmin"] = 147,
-							["criticalamount"] = 363,
-							["id"] = 48568,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 951,
-								},
-							},
-							["criticalmin"] = 363,
-							["critical"] = 1,
-							["criticalmax"] = 363,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 147,
-							["amount"] = 951,
-							["hitamount"] = 588,
-						},
-						["Swipe (Bear)"] = {
-							["count"] = 23,
-							["blocked"] = 40,
-							["hitmin"] = 412,
-							["criticalamount"] = 9886,
-							["id"] = 48562,
-							["hitmax"] = 563,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 5032,
-								},
-								["Dark Rune Warrior"] = {
-									["overkill"] = 820,
-									["amount"] = 11666,
-								},
-							},
-							["overkill"] = 820,
-							["hit"] = 13,
-							["casts"] = 7,
-							["critical"] = 10,
-							["amount"] = 16698,
-							["school"] = 1,
-							["criticalmin"] = 824,
-							["criticalmax"] = 1126,
-							["hitamount"] = 6812,
-						},
-						["Thorns"] = {
-							["hitmin"] = 82,
-							["id"] = 53307,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 717,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 94,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 8,
-							["hitmax"] = 94,
-							["amount"] = 811,
-							["hitamount"] = 811,
-						},
-					},
-					["totaldamage"] = 37144,
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 4670.556000000001,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 37,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 31,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
-						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 21,
-						},
-						[22812] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 12,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[2479] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[48420] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 33,
-						},
-						[33357] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[29166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[60520] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 14,
-						},
-						[9863] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
-						[67358] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 3,
-							["uptime"] = 20,
-						},
-						[768] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 3,
-						},
-						[34123] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 33,
-						},
-						[60062] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[33891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 33,
-						},
-					},
-					["energyspells"] = {
-						[48540] = 8,
-					},
-					["role"] = "HEALER",
-					["time"] = 22.95,
-					["totaldamagetaken"] = 7883,
-					["runicspells"] = {
-						[48543] = 48,
-					},
-					["manaspells"] = {
-						[48542] = 614,
-						[29166] = 5502,
-					},
-					["overheal"] = 64929,
-					["mana"] = 6116,
-					["damagetaken"] = 7883,
-					["id"] = "0x070000000095B7ED",
-					["spec"] = 105,
-					["healspells"] = {
-						[53251] = {
-							["overheal"] = 2905,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 0,
-									["amount"] = 4337,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 4335,
-								},
-								["Earthbasher"] = {
-									["overheal"] = 2905,
-									["amount"] = 1224,
-								},
-								["Thirial"] = {
-									["overheal"] = 0,
-									["amount"] = 4336,
-								},
-								["Miracledream"] = {
-									["overheal"] = 0,
-									["amount"] = 4336,
-								},
-								["Berdanx"] = {
-									["overheal"] = 0,
-									["amount"] = 4335,
-								},
-							},
-							["count"] = 42,
-							["amount"] = 22903,
-							["school"] = 8,
-							["max"] = 734,
-							["ishot"] = true,
-							["min"] = 227,
-						},
-						[44207] = {
-							["overheal"] = 41580,
-							["count"] = 24,
-							["amount"] = 28408,
-							["school"] = 8,
-							["max"] = 2940,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 11758,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 11758,
-								},
-								["Earthbasher"] = {
-									["overheal"] = 11199,
-									["amount"] = 0,
-								},
-								["Berdanx"] = {
-									["overheal"] = 8301,
-									["amount"] = 3457,
-								},
-								["Miracledream"] = {
-									["overheal"] = 7643,
-									["amount"] = 4114,
-								},
-								["Thirial"] = {
-									["overheal"] = 2679,
-									["amount"] = 9079,
-								},
-							},
-							["min"] = 261,
-						},
-						[54755] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 0,
-									["amount"] = 891,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 892,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1783,
-							["school"] = 8,
-							["max"] = 892,
-							["ishot"] = true,
-							["min"] = 891,
-						},
-						[48443] = {
-							["overheal"] = 8388,
-							["criticalamount"] = 6747,
-							["max"] = 6747,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 6060,
-									["amount"] = 7757,
-								},
-								["Urgash"] = {
-									["overheal"] = 2328,
-									["amount"] = 15466,
-								},
-							},
-							["criticalmin"] = 6747,
-							["min"] = 913,
-							["casts"] = 3,
-							["count"] = 18,
-							["amount"] = 23223,
-							["school"] = 8,
-							["criticalmax"] = 6747,
-							["ishot"] = true,
-							["critical"] = 1,
-						},
-						[48441] = {
-							["overheal"] = 12056,
-							["max"] = 1943,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 6979,
-									["amount"] = 3724,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 10703,
-								},
-								["Thirial"] = {
-									["overheal"] = 5077,
-									["amount"] = 6578,
-								},
-							},
-							["min"] = 156,
-							["casts"] = 3,
-							["count"] = 18,
-							["amount"] = 21005,
-							["school"] = 8,
-							["ishot"] = true,
-						},
-					},
-					["damagetakenspells"] = {
-						["Forked Lightning"] = {
-							["hitmin"] = 1694,
-							["id"] = 59152,
-							["hitmax"] = 2510,
-							["sources"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 7883,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 2261,
-							["amount"] = 7883,
-							["hitamount"] = 7883,
-						},
-					},
-					["rage"] = 16,
-					["heal"] = 97322,
-					["name"] = "Tumbleweed",
-					["runic"] = 48,
-					["ragespells"] = {
-						[48541] = 16,
-					},
-					["energy"] = 8,
-				}, -- [3]
-				{
-					["last"] = 4669.431000000001,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[34123] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 33,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["refresh"] = 5,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["count"] = 4,
-									["refresh"] = 4,
-									["uptime"] = 13,
-								},
-								["Dark Rune Theurgist"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 40,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[14202] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 16,
-						},
-						[60065] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[23885] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[9863] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 33,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 40,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-					},
-					["time"] = 28.16,
-					["totaldamagetaken"] = 7511,
-					["damage"] = 45818,
-					["rage"] = 6,
-					["overheal"] = 0,
-					["damagetaken"] = 7511,
-					["id"] = "0x07000000009A86E7",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 0,
-							["count"] = 3,
-							["amount"] = 633,
-							["school"] = 1,
-							["max"] = 211,
-							["targets"] = {
-								["Miracledream"] = {
-									["overheal"] = 0,
-									["amount"] = 633,
-								},
-							},
-							["min"] = 211,
-						},
-					},
-					["overkill"] = 2384,
-					["damagetakenspells"] = {
-						["Forked Lightning"] = {
-							["hitmin"] = 2362,
-							["id"] = 59152,
-							["hitmax"] = 2680,
-							["sources"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 7511,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["resisted"] = 1504,
-							["amount"] = 7511,
-							["hitamount"] = 7511,
-						},
-					},
-					["ragespells"] = {
-						[12964] = 6,
-					},
-					["name"] = "Miracledream",
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1525,
-							["criticalamount"] = 3284,
-							["id"] = 23881,
-							["criticalmin"] = 3284,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 3284,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1525,
-								},
-							},
-							["criticalmax"] = 3284,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1525,
-							["amount"] = 4809,
-							["hitamount"] = 1525,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 85,
-							["id"] = 12721,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 3119,
-								},
-								["Dark Rune Theurgist"] = {
-									["overkill"] = 31,
-									["amount"] = 1286,
-								},
-							},
-							["overkill"] = 31,
-							["count"] = 28,
-							["hit"] = 28,
-							["school"] = 1,
-							["hitmax"] = 271,
-							["amount"] = 4405,
-							["hitamount"] = 4405,
-						},
-						["Cleave"] = {
-							["hitmin"] = 1252,
-							["criticalamount"] = 5807,
-							["id"] = 47520,
-							["hitmax"] = 1285,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 8344,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 8344,
-							["school"] = 1,
-							["criticalmin"] = 2833,
-							["criticalmax"] = 2974,
-							["hitamount"] = 2537,
-						},
-						["Execute"] = {
-							["hitmin"] = 1878,
-							["id"] = 20647,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1878,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1878,
-							["amount"] = 1878,
-							["hitamount"] = 1878,
-						},
-						["Whirlwind"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 767,
-							["criticalamount"] = 9318,
-							["id"] = 1680,
-							["hitmax"] = 1382,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 5254,
-								},
-								["Dark Rune Warrior"] = {
-									["amount"] = 7012,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 3,
-							["casts"] = 1,
-							["critical"] = 4,
-							["amount"] = 12266,
-							["school"] = 1,
-							["criticalmin"] = 1546,
-							["criticalmax"] = 3073,
-							["hitamount"] = 2948,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 1091,
-							["hitmin"] = 524,
-							["criticalmin"] = 1056,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 5106,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 5959,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 11065,
-							["glancemin"] = 522,
-							["criticalamount"] = 7810,
-							["id"] = 6603,
-							["glancemax"] = 569,
-							["PARRY"] = 1,
-							["criticalmax"] = 2428,
-							["critical"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["count"] = 12,
-							["hitmax"] = 577,
-							["hitamount"] = 2164,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 3051,
-							["id"] = 47450,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["overkill"] = 2353,
-									["amount"] = 3051,
-								},
-							},
-							["overkill"] = 2353,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3051,
-							["school"] = 1,
-							["criticalmin"] = 3051,
-							["criticalmax"] = 3051,
-							["count"] = 1,
-						},
-					},
-					["heal"] = 633,
-					["totaldamage"] = 45818,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 4669.43,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[34123] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 33,
-						},
-						[42891] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[12536] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 5,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 4,
-							["refresh"] = 9,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["count"] = 4,
-									["refresh"] = 4,
-									["uptime"] = 12,
-								},
-								["Dark Rune Theurgist"] = {
-									["count"] = 4,
-									["refresh"] = 5,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 40,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[42940] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 16,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 6,
-									["count"] = 3,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[42926] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 4,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["uptime"] = 14,
-									["count"] = 2,
-								},
-								["Dark Rune Theurgist"] = {
-									["uptime"] = 22,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 22,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 15,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[9863] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 31,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 25.83000000000001,
-					["totaldamagetaken"] = 7204,
-					["damage"] = 117858,
-					["damagespells"] = {
-						["Fire Blast"] = {
-							["criticalamount"] = 5044,
-							["id"] = 42873,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 5044,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5044,
-							["school"] = 4,
-							["criticalmin"] = 5044,
-							["criticalmax"] = 5044,
-							["count"] = 1,
-						},
-						["Pyroblast"] = {
-							["hitmin"] = 5791,
-							["id"] = 42891,
-							["targets"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 5791,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 5791,
-							["amount"] = 5791,
-							["hitamount"] = 5791,
-						},
-						["Flamestrike (DoT)"] = {
-							["hitmin"] = 502,
-							["id"] = 42926,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 3912,
-								},
-							},
-							["hitmax"] = 636,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 4,
-							["resisted"] = 56,
-							["amount"] = 3912,
-							["hitamount"] = 3912,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 270,
-							["id"] = 12654,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 4688,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 1547,
-								},
-							},
-							["hitmax"] = 1186,
-							["count"] = 11,
-							["hit"] = 11,
-							["school"] = 4,
-							["resisted"] = 29,
-							["amount"] = 6235,
-							["hitamount"] = 6235,
-						},
-						["Blizzard"] = {
-							["critical"] = 9,
-							["criticalmin"] = 1177,
-							["hitmin"] = 673,
-							["criticalamount"] = 12441,
-							["id"] = 42938,
-							["criticalmax"] = 1662,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["overkill"] = 891,
-									["amount"] = 15446,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 6004,
-								},
-							},
-							["overkill"] = 891,
-							["hitmax"] = 950,
-							["casts"] = 1,
-							["count"] = 20,
-							["hit"] = 11,
-							["school"] = 16,
-							["resisted"] = 1190,
-							["amount"] = 21450,
-							["hitamount"] = 9009,
-						},
-						["Flamestrike"] = {
-							["hitmax"] = 1926,
-							["hitmin"] = 1926,
-							["criticalamount"] = 5547,
-							["id"] = 42926,
-							["count"] = 3,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 7473,
-								},
-							},
-							["hit"] = 1,
-							["criticalmin"] = 2399,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 7473,
-							["school"] = 4,
-							["resisted"] = 599,
-							["criticalmax"] = 3148,
-							["hitamount"] = 1926,
-						},
-						["Living Bomb (DoT)"] = {
-							["criticalmin"] = 1495,
-							["hitmin"] = 769,
-							["criticalamount"] = 12957,
-							["id"] = 55360,
-							["criticalmax"] = 1690,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 8641,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 19972,
-								},
-							},
-							["critical"] = 8,
-							["hitmax"] = 966,
-							["casts"] = 6,
-							["count"] = 25,
-							["hit"] = 17,
-							["school"] = 4,
-							["resisted"] = 253,
-							["amount"] = 28613,
-							["hitamount"] = 15656,
-						},
-						["Living Bomb"] = {
-							["hitmax"] = 2243,
-							["hitmin"] = 1771,
-							["criticalamount"] = 21539,
-							["id"] = 55362,
-							["criticalmin"] = 2791,
-							["targets"] = {
-								["Dark Rune Warrior"] = {
-									["amount"] = 23723,
-								},
-								["Dark Rune Theurgist"] = {
-									["amount"] = 15617,
-								},
-							},
-							["criticalmax"] = 3924,
-							["critical"] = 6,
-							["casts"] = 1,
-							["count"] = 15,
-							["hit"] = 9,
-							["school"] = 4,
-							["resisted"] = 310,
-							["amount"] = 39340,
-							["hitamount"] = 17801,
-						},
-					},
-					["damagetaken"] = 7204,
-					["id"] = "0x07000000009E540C",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Forked Lightning"] = {
-							["hitmin"] = 2129,
-							["id"] = 59152,
-							["hitmax"] = 2565,
-							["sources"] = {
-								["Dark Rune Theurgist"] = {
-									["amount"] = 7204,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["resisted"] = 1824,
-							["amount"] = 7204,
-							["hitamount"] = 7204,
-						},
-					},
-					["overkill"] = 891,
-					["name"] = "Berdanx",
-					["manaspells"] = {
-						[29077] = 1719,
-						[67545] = 715,
-						[44450] = -132,
-					},
-					["mana"] = 2302,
-					["totaldamage"] = 117858,
-				}, -- [5]
-			},
+			["damage"] = 464278,
+			["rage"] = 126,
 			["type"] = "party",
 			["damagetaken"] = 85855,
+			["ccdone"] = 1,
 			["interrupt"] = 2,
 			["starttime"] = 1699557144,
 			["overheal"] = 66096,
@@ -27399,17 +27495,2110 @@ SkadaStorageDB = {
 			["heal"] = 121914,
 			["name"] = "Dark Rune Theurgist",
 			["mobname"] = "Dark Rune Theurgist",
-			["damage"] = 464278,
+			["runic"] = 48,
 			["edamage"] = 85855,
 			["last_action"] = 1699557184,
 			["endtime"] = 1699557184,
-		}, -- [11]
+		}, -- [12]
 		{
-			["damage"] = 431831,
-			["success"] = true,
-			["overheal"] = 90621,
+			["etotaldamage"] = 26882,
+			["players"] = {
+				{
+					["last"] = 4586.716,
+					["friendfirespells"] = {
+						[61547] = {
+							["targets"] = {
+								["Tumbleweed"] = 9733,
+								["Thirial"] = 4810,
+								["Miracledream"] = 9359,
+								["Berdanx"] = 2795,
+							},
+							["amount"] = 26697,
+						},
+					},
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[58578] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 35,
+							["count"] = 1,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 30,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Krystallus"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 28,
+								},
+							},
+							["uptime"] = 28,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 9,
+							["uptime"] = 25,
+						},
+						[57623] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 35,
+							["count"] = 1,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 28,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 3,
+							["targets"] = {
+								["Krystallus"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 29,
+								},
+							},
+							["uptime"] = 29,
+						},
+						[48265] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[48266] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 34,
+						},
+						[50812] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Earthbasher"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Ebon Gargoyle"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Krystallus"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 29,
+								},
+							},
+							["uptime"] = 29,
+						},
+						[49206] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Krystallus"] = {
+									["uptime"] = 22,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 7,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Krystallus"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 13,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[48707] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 21,
+						},
+						[66803] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 3,
+							["uptime"] = 30,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+					},
+					["friendfire"] = 26697,
+					["totaldamage"] = 213716,
+					["time"] = 31.72,
+					["totaldamagetaken"] = 29062,
+					["damage"] = 213716,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["hitmin"] = 4083,
+							["criticalamount"] = 9245,
+							["id"] = 55271,
+							["criticalmin"] = 9245,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 17741,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["criticalmax"] = 9245,
+							["hitmax"] = 4413,
+							["amount"] = 17741,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
+							["hitamount"] = 8496,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 3012,
+							["id"] = 71904,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 3012,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3012,
+							["amount"] = 3012,
+							["hitamount"] = 3012,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 2289,
+							["criticalamount"] = 9376,
+							["id"] = 49930,
+							["criticalmin"] = 4455,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 14020,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 14020,
+							["criticalmax"] = 4921,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2355,
+							["casts"] = 4,
+							["hitamount"] = 4644,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 46,
+							["id"] = 50536,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 870,
+								},
+							},
+							["hitmax"] = 92,
+							["count"] = 12,
+							["hit"] = 12,
+							["school"] = 32,
+							["resisted"] = 58,
+							["amount"] = 870,
+							["hitamount"] = 870,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1030,
+							["id"] = 50526,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 6028,
+								},
+							},
+							["hitmax"] = 1342,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["resisted"] = 375,
+							["amount"] = 6028,
+							["hitamount"] = 6028,
+						},
+						["Melee (Earthbasher)"] = {
+							["hitmin"] = 550,
+							["criticalamount"] = 1190,
+							["id"] = 6603,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 10765,
+								},
+							},
+							["criticalmin"] = 1190,
+							["count"] = 17,
+							["criticalmax"] = 1190,
+							["critical"] = 1,
+							["amount"] = 10765,
+							["school"] = 1,
+							["hitmax"] = 639,
+							["hit"] = 16,
+							["hitamount"] = 9575,
+						},
+						["Death Strike"] = {
+							["criticalamount"] = 6509,
+							["id"] = 49924,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 6509,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 6509,
+							["school"] = 1,
+							["criticalmin"] = 6509,
+							["criticalmax"] = 6509,
+							["count"] = 1,
+						},
+						["Melee"] = {
+							["glance"] = 5698,
+							["hitmin"] = 3121,
+							["criticalmin"] = 6997,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 37373,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 37373,
+							["glancemin"] = 2709,
+							["criticalamount"] = 14394,
+							["id"] = 6603,
+							["glancemax"] = 2989,
+							["PARRY"] = 1,
+							["criticalmax"] = 7397,
+							["critical"] = 2,
+							["hit"] = 5,
+							["school"] = 1,
+							["count"] = 10,
+							["hitmax"] = 3826,
+							["hitamount"] = 17281,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1553,
+							["id"] = 50463,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 3732,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2179,
+							["amount"] = 3732,
+							["hitamount"] = 3732,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 1944,
+							["id"] = 70890,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 9166,
+								},
+							},
+							["hitmax"] = 4889,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["resisted"] = 215,
+							["amount"] = 9166,
+							["hitamount"] = 9166,
+						},
+						["Death Coil"] = {
+							["critical"] = 1,
+							["hitmin"] = 4693,
+							["criticalamount"] = 7977,
+							["id"] = 47632,
+							["criticalmin"] = 7977,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 17363,
+								},
+							},
+							["hitmax"] = 4693,
+							["hit"] = 2,
+							["criticalmax"] = 7977,
+							["count"] = 3,
+							["amount"] = 17363,
+							["school"] = 32,
+							["resisted"] = 886,
+							["casts"] = 3,
+							["hitamount"] = 9386,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 541,
+							["id"] = 51460,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 7343,
+								},
+							},
+							["hitmax"] = 1479,
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 32,
+							["resisted"] = 128,
+							["amount"] = 7343,
+							["hitamount"] = 7343,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1208,
+							["id"] = 55078,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 10413,
+								},
+							},
+							["hitmax"] = 1523,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 32,
+							["resisted"] = 688,
+							["amount"] = 10413,
+							["hitamount"] = 10413,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1589,
+							["id"] = 49909,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 3594,
+								},
+							},
+							["hitmax"] = 2005,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["resisted"] = 677,
+							["amount"] = 3594,
+							["hitamount"] = 3594,
+						},
+						["Gargoyle Strike (Ebon Gargoyle)"] = {
+							["hitmin"] = 3403,
+							["id"] = 51963,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 33325,
+								},
+							},
+							["hitmax"] = 3803,
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 8,
+							["resisted"] = 756,
+							["amount"] = 33325,
+							["hitamount"] = 33325,
+						},
+						["Plague Strike"] = {
+							["DODGE"] = 1,
+							["criticalamount"] = 12228,
+							["id"] = 49921,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 12228,
+								},
+							},
+							["casts"] = 3,
+							["critical"] = 2,
+							["amount"] = 12228,
+							["school"] = 1,
+							["criticalmin"] = 5671,
+							["criticalmax"] = 6557,
+							["count"] = 3,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1276,
+							["id"] = 55095,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 12999,
+								},
+							},
+							["hitmax"] = 1630,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 16,
+							["resisted"] = 1328,
+							["amount"] = 12999,
+							["hitamount"] = 12999,
+						},
+						["Claw (Earthbasher)"] = {
+							["hitmin"] = 833,
+							["id"] = 47468,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 7235,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 964,
+							["amount"] = 7235,
+							["hitamount"] = 7235,
+						},
+					},
+					["damagetaken"] = 29062,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 2282,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 2282,
+									["amount"] = 0,
+								},
+							},
+						},
+						[50475] = {
+							["overheal"] = 3959,
+							["school"] = 1,
+							["count"] = 36,
+							["amount"] = 796,
+							["max"] = 273,
+							["ishot"] = true,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 3959,
+									["amount"] = 796,
+								},
+							},
+							["min"] = 1,
+						},
+						[45470] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 5390,
+							["school"] = 1,
+							["max"] = 5390,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 5390,
+								},
+							},
+							["min"] = 5390,
+						},
+						[34299] = {
+							["overheal"] = 5648,
+							["school"] = 1,
+							["count"] = 5,
+							["amount"] = 1436,
+							["max"] = 1436,
+							["ishot"] = true,
+							["targets"] = {
+								["Earthbasher"] = {
+									["overheal"] = 1167,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 4481,
+									["amount"] = 1436,
+								},
+							},
+							["min"] = 1436,
+						},
+					},
+					["damagetakenspells"] = {
+						["Stomp"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Krystallus"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 50868,
+						},
+						["Shatter"] = {
+							["hitmin"] = 6335,
+							["id"] = 61547,
+							["sources"] = {
+								["Tumbleweed"] = {
+									["amount"] = 8576,
+								},
+								["Miracledream"] = {
+									["amount"] = 6335,
+								},
+								["Thirial"] = {
+									["amount"] = 7790,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 8576,
+							["amount"] = 22701,
+							["hitamount"] = 22701,
+						},
+						["Ground Spike"] = {
+							["hitmin"] = 6361,
+							["id"] = 59750,
+							["hitmax"] = 6361,
+							["sources"] = {
+								["Krystallus"] = {
+									["amount"] = 6361,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 8,
+							["amount"] = 6361,
+							["MISS"] = 1,
+							["hitamount"] = 6361,
+						},
+					},
+					["heal"] = 7622,
+					["name"] = "Urgash",
+					["overheal"] = 11889,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["last"] = 4586.224,
+					["friendfirespells"] = {
+						[61547] = {
+							["targets"] = {
+								["Tumbleweed"] = 9336,
+								["Urgash"] = 7790,
+							},
+							["amount"] = 17126,
+						},
+					},
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[53307] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 19,
+						},
+						[48568] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 6,
+							["targets"] = {
+								["Krystallus"] = {
+									["refresh"] = 6,
+									["count"] = 1,
+									["uptime"] = 30,
+								},
+							},
+							["uptime"] = 30,
+						},
+						[22812] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71564] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 35,
+							["count"] = 1,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[50812] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Thirial"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[9634] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[61336] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[64951] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 4,
+							["uptime"] = 31,
+						},
+						[71569] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[16870] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 4,
+						},
+						[48564] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["targets"] = {
+								["Krystallus"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 28,
+								},
+							},
+							["uptime"] = 28,
+						},
+						[16857] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Krystallus"] = {
+									["uptime"] = 31,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 31,
+						},
+						[5229] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[62606] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 8,
+							["refresh"] = 11,
+							["uptime"] = 28,
+						},
+					},
+					["friendfire"] = 17126,
+					["totaldamage"] = 82743,
+					["time"] = 31.2,
+					["totaldamagetaken"] = 21517,
+					["damage"] = 82743,
+					["overheal"] = 5849,
+					["damagetaken"] = 12221,
+					["id"] = "0x07000000008C6185",
+					["spec"] = 103,
+					["healspells"] = {
+						[34299] = {
+							["overheal"] = 5849,
+							["school"] = 1,
+							["count"] = 5,
+							["amount"] = 3230,
+							["max"] = 2266,
+							["ishot"] = true,
+							["targets"] = {
+								["Thirial"] = {
+									["overheal"] = 5849,
+									["amount"] = 3230,
+								},
+							},
+							["min"] = 964,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["total"] = 9314,
+							["hitmin"] = 316,
+							["id"] = 6603,
+							["hitmax"] = 510,
+							["sources"] = {
+								["Krystallus"] = {
+									["total"] = 9314,
+									["amount"] = 2084,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 2084,
+							["school"] = 1,
+							["hit"] = 5,
+							["MISS"] = 2,
+							["hitamount"] = 2084,
+						},
+						["Stomp"] = {
+							["total"] = 620,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Krystallus"] = {
+									["total"] = 620,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 50868,
+						},
+						["Boulder Toss"] = {
+							["total"] = 1695,
+							["hitmin"] = 249,
+							["id"] = 59742,
+							["sources"] = {
+								["Krystallus"] = {
+									["total"] = 1695,
+									["amount"] = 249,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 249,
+							["amount"] = 249,
+							["hitamount"] = 249,
+						},
+						["Shatter"] = {
+							["hitmin"] = 4810,
+							["id"] = 61547,
+							["sources"] = {
+								["Tumbleweed"] = {
+									["amount"] = 5078,
+								},
+								["Urgash"] = {
+									["amount"] = 4810,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 5078,
+							["amount"] = 9888,
+							["hitamount"] = 9888,
+						},
+					},
+					["damagespells"] = {
+						["Swipe (Bear)"] = {
+							["hitmin"] = 525,
+							["id"] = 48562,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 525,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 525,
+							["amount"] = 525,
+							["hitamount"] = 525,
+						},
+						["Mangle (Bear)"] = {
+							["hitmin"] = 1486,
+							["criticalamount"] = 12128,
+							["id"] = 48564,
+							["criticalmin"] = 2902,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 13614,
+								},
+							},
+							["critical"] = 4,
+							["amount"] = 13614,
+							["criticalmax"] = 3370,
+							["count"] = 5,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1486,
+							["casts"] = 5,
+							["hitamount"] = 1486,
+						},
+						["Melee"] = {
+							["criticalamount"] = 1712,
+							["id"] = 6603,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 1712,
+								},
+							},
+							["criticalmax"] = 1712,
+							["critical"] = 1,
+							["amount"] = 1712,
+							["school"] = 1,
+							["criticalmin"] = 1712,
+							["count"] = 1,
+						},
+						["Faerie Fire (Feral)"] = {
+							["hitmin"] = 731,
+							["id"] = 60089,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 731,
+								},
+							},
+							["hitmax"] = 731,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 182,
+							["amount"] = 731,
+							["hitamount"] = 731,
+						},
+						["Maul"] = {
+							["hitmin"] = 2415,
+							["criticalamount"] = 44984,
+							["id"] = 48480,
+							["criticalmin"] = 3804,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 52693,
+								},
+							},
+							["critical"] = 9,
+							["amount"] = 52693,
+							["criticalmax"] = 5646,
+							["count"] = 12,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2823,
+							["casts"] = 12,
+							["hitamount"] = 7709,
+						},
+						["Lacerate (DoT)"] = {
+							["hitmin"] = 663,
+							["criticalamount"] = 6438,
+							["id"] = 48568,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 11233,
+								},
+							},
+							["criticalmin"] = 385,
+							["critical"] = 4,
+							["criticalmax"] = 2210,
+							["count"] = 9,
+							["amount"] = 11233,
+							["school"] = 1,
+							["hit"] = 5,
+							["hitmax"] = 1105,
+							["hitamount"] = 4795,
+						},
+						["Lacerate"] = {
+							["hitmin"] = 141,
+							["criticalamount"] = 1464,
+							["id"] = 48568,
+							["criticalmin"] = 216,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 1766,
+								},
+							},
+							["critical"] = 5,
+							["amount"] = 1766,
+							["criticalmax"] = 322,
+							["count"] = 7,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 161,
+							["casts"] = 7,
+							["hitamount"] = 302,
+						},
+						["Thorns"] = {
+							["hitmin"] = 93,
+							["id"] = 53307,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 469,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 8,
+							["hitmax"] = 94,
+							["amount"] = 469,
+							["hitamount"] = 469,
+						},
+					},
+					["ragespells"] = {
+						[5229] = 30,
+						[16959] = 95,
+						[59072] = 6,
+					},
+					["name"] = "Thirial",
+					["rage"] = 131,
+					["heal"] = 3230,
+					["manaspells"] = {
+						[68285] = 3870,
+					},
+					["mana"] = 3870,
+					["role"] = "TANK",
+				}, -- [2]
+				{
+					["last"] = 4586.307,
+					["friendfirespells"] = {
+						[61547] = {
+							["targets"] = {
+								["Thirial"] = 5078,
+								["Urgash"] = 8576,
+								["Miracledream"] = 3547,
+								["Berdanx"] = 4196,
+							},
+							["amount"] = 21397,
+						},
+					},
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[22842] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[22812] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 28,
+							["count"] = 1,
+						},
+						[48418] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[67358] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 27,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[50812] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[9634] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[60520] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 4,
+						},
+						[5229] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+					},
+					["friendfire"] = 21397,
+					["totaldamage"] = 1173,
+					["time"] = 22.16,
+					["runicspells"] = {
+						[48543] = 32,
+					},
+					["totaldamagetaken"] = 25064,
+					["mana"] = 240,
+					["damage"] = 1173,
+					["overheal"] = 72461,
+					["rage"] = 50,
+					["damagetaken"] = 25064,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["time"] = 4582.888,
+									["source"] = "Urgash",
+									["amount"] = -9733,
+									["school"] = 1,
+									["hp"] = 1,
+									["spellid"] = 61547,
+									["overkill"] = 4383,
+								}, -- [1]
+								{
+									["source"] = "Thirial",
+									["amount"] = -9336,
+									["school"] = 1,
+									["spellid"] = 61547,
+									["hp"] = 5350,
+									["time"] = 4582.887000000001,
+								}, -- [2]
+								{
+									["source"] = "Miracledream",
+									["amount"] = -2725,
+									["school"] = 1,
+									["spellid"] = 61547,
+									["hp"] = 14686,
+									["time"] = 4582.887,
+								}, -- [3]
+								{
+									["source"] = "Berdanx",
+									["amount"] = -2175,
+									["school"] = 1,
+									["spellid"] = 61547,
+									["hp"] = 17411,
+									["time"] = 4582.886,
+								}, -- [4]
+								{
+									["source"] = "Krystallus",
+									["amount"] = -1095,
+									["school"] = 1,
+									["spellid"] = 50868,
+									["hp"] = 19586,
+									["time"] = 4582.765,
+								}, -- [5]
+								{
+									["overheal"] = 1833,
+									["source"] = "Tumbleweed",
+									["spellid"] = 48441,
+									["hp"] = 20681,
+									["time"] = 4581.604,
+								}, -- [6]
+								{
+									["overheal"] = 1833,
+									["time"] = 4578.615,
+									["source"] = "Tumbleweed",
+									["spellid"] = 48441,
+									["hp"] = 20681,
+								}, -- [7]
+								{
+									["overheal"] = 1832,
+									["source"] = "Tumbleweed",
+									["spellid"] = 48441,
+									["hp"] = 20681,
+									["time"] = 4575.641,
+								}, -- [8]
+								{
+									["overheal"] = 1943,
+									["source"] = "Tumbleweed",
+									["spellid"] = 48441,
+									["hp"] = 18067,
+									["time"] = 4572.634,
+								}, -- [9]
+							},
+							["time"] = 4582.893,
+							["timeod"] = 1699557089,
+							["school"] = 1,
+							["maxhp"] = 18067,
+							["spellid"] = 61547,
+							["source"] = "Urgash",
+						}, -- [1]
+					},
+					["id"] = "0x070000000095B7ED",
+					["spec"] = 105,
+					["healspells"] = {
+						[53251] = {
+							["overheal"] = 25042,
+							["max"] = 777,
+							["count"] = 42,
+							["amount"] = 1504,
+							["school"] = 8,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 4460,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 4460,
+									["amount"] = 0,
+								},
+								["Earthbasher"] = {
+									["overheal"] = 4247,
+									["amount"] = 0,
+								},
+								["Thirial"] = {
+									["overheal"] = 3733,
+									["amount"] = 727,
+								},
+								["Miracledream"] = {
+									["overheal"] = 4459,
+									["amount"] = 0,
+								},
+								["Berdanx"] = {
+									["overheal"] = 3683,
+									["amount"] = 777,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 316,
+						},
+						[48441] = {
+							["overheal"] = 44816,
+							["max"] = 1943,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 7441,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 11437,
+									["amount"] = 0,
+								},
+								["Berdanx"] = {
+									["overheal"] = 4475,
+									["amount"] = 6742,
+								},
+								["Miracledream"] = {
+									["overheal"] = 8930,
+									["amount"] = 2288,
+								},
+								["Thirial"] = {
+									["overheal"] = 12533,
+									["amount"] = 847,
+								},
+							},
+							["min"] = 399,
+							["casts"] = 6,
+							["count"] = 29,
+							["amount"] = 9877,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[22845] = {
+							["overheal"] = 2603,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Tumbleweed"] = {
+									["overheal"] = 2603,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["critical"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["count"] = 3,
+							["criticalmin"] = 0,
+						},
+					},
+					["damagetakenspells"] = {
+						["Shatter"] = {
+							["hitmin"] = 2175,
+							["id"] = 61547,
+							["overkill"] = 4383,
+							["sources"] = {
+								["Thirial"] = {
+									["amount"] = 9336,
+								},
+								["Urgash"] = {
+									["overkill"] = 4383,
+									["amount"] = 9733,
+								},
+								["Miracledream"] = {
+									["amount"] = 2725,
+								},
+								["Berdanx"] = {
+									["amount"] = 2175,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 9733,
+							["amount"] = 23969,
+							["hitamount"] = 23969,
+						},
+						["Stomp"] = {
+							["hitmin"] = 1095,
+							["id"] = 50868,
+							["sources"] = {
+								["Krystallus"] = {
+									["amount"] = 1095,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1095,
+							["amount"] = 1095,
+							["hitamount"] = 1095,
+						},
+					},
+					["heal"] = 11381,
+					["ragespells"] = {
+						[48541] = 28,
+						[5229] = 22,
+					},
+					["name"] = "Tumbleweed",
+					["death"] = 1,
+					["manaspells"] = {
+						[48542] = 240,
+					},
+					["runic"] = 32,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 336,
+							["hitmin"] = 409,
+							["id"] = 6603,
+							["glancemin"] = 336,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 1173,
+								},
+							},
+							["glancemax"] = 336,
+							["glancing"] = 1,
+							["count"] = 10,
+							["hitmax"] = 428,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 1173,
+							["MISS"] = 7,
+							["hitamount"] = 837,
+						},
+					},
+					["role"] = "HEALER",
+				}, -- [3]
+				{
+					["last"] = 4587.002,
+					["friendfirespells"] = {
+						[61547] = {
+							["targets"] = {
+								["Tumbleweed"] = 2725,
+								["Urgash"] = 6335,
+								["Berdanx"] = 4316,
+							},
+							["amount"] = 13376,
+						},
+					},
+					["flag"] = 1298,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Krystallus"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 8,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[50812] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Miracledream"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 35,
+							["count"] = 1,
+						},
+						[18499] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[29131] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[23885] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 12,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 11,
+						},
+						[60305] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[12970] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 12,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+					},
+					["friendfire"] = 13376,
+					["totaldamage"] = 20703,
+					["time"] = 23.62,
+					["totaldamagetaken"] = 15819,
+					["damage"] = 20703,
+					["rage"] = 34,
+					["damagetaken"] = 15819,
+					["id"] = "0x07000000009A86E7",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 422,
+							["count"] = 6,
+							["amount"] = 844,
+							["max"] = 211,
+							["school"] = 1,
+							["targets"] = {
+								["Miracledream"] = {
+									["overheal"] = 422,
+									["amount"] = 844,
+								},
+							},
+							["min"] = 211,
+						},
+					},
+					["damagetakenspells"] = {
+						["Shatter"] = {
+							["hitmin"] = 2913,
+							["id"] = 61547,
+							["sources"] = {
+								["Tumbleweed"] = {
+									["amount"] = 3547,
+								},
+								["Urgash"] = {
+									["amount"] = 9359,
+								},
+								["Berdanx"] = {
+									["amount"] = 2913,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 9359,
+							["amount"] = 15819,
+							["hitamount"] = 15819,
+						},
+						["Stomp"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Krystallus"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 50868,
+						},
+					},
+					["ragespells"] = {
+						[29131] = 10,
+						[2687] = 20,
+						[12964] = 4,
+					},
+					["name"] = "Miracledream",
+					["overheal"] = 422,
+					["overkill"] = 30,
+					["damagespells"] = {
+						["Bloodthirst"] = {
+							["hitmin"] = 1420,
+							["criticalamount"] = 3124,
+							["id"] = 23881,
+							["criticalmin"] = 3124,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 6189,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["criticalmax"] = 3124,
+							["hitmax"] = 1645,
+							["amount"] = 6189,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
+							["hitamount"] = 3065,
+						},
+						["Melee"] = {
+							["glance"] = 909,
+							["hitmin"] = 543,
+							["criticalmin"] = 1026,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 4100,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 4100,
+							["MISS"] = 1,
+							["glancemin"] = 429,
+							["criticalamount"] = 1026,
+							["id"] = 6603,
+							["glancemax"] = 480,
+							["criticalmax"] = 1026,
+							["hitmax"] = 1040,
+							["hit"] = 3,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 7,
+							["hitamount"] = 2165,
+						},
+						["Intercept"] = {
+							["hitmin"] = 339,
+							["id"] = 20253,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 339,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 339,
+							["amount"] = 339,
+							["hitamount"] = 339,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 184,
+							["id"] = 12721,
+							["targets"] = {
+								["Krystallus"] = {
+									["overkill"] = 30,
+									["amount"] = 1720,
+								},
+							},
+							["overkill"] = 30,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 256,
+							["amount"] = 1720,
+							["hitamount"] = 1720,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 1318,
+							["criticalamount"] = 2963,
+							["id"] = 47450,
+							["criticalmin"] = 2963,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 8355,
+								},
+							},
+							["casts"] = 5,
+							["count"] = 5,
+							["criticalmax"] = 2963,
+							["hitmax"] = 1420,
+							["amount"] = 8355,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 1,
+							["hitamount"] = 5392,
+						},
+					},
+					["heal"] = 844,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["last"] = 4585.857,
+					["friendfirespells"] = {
+						[61547] = {
+							["targets"] = {
+								["Miracledream"] = 2913,
+								["Tumbleweed"] = 2175,
+							},
+							["amount"] = 5088,
+						},
+					},
+					["flag"] = 1298,
+					["mana"] = 4385,
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[55342] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[50812] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["targets"] = {
+								["Mirror Image"] = {
+									["uptime"] = 2,
+									["count"] = 3,
+								},
+								["Berdanx"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[24932] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 32,
+						},
+						[57623] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 35,
+							["count"] = 1,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[28682] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 6,
+							["uptime"] = 13,
+						},
+						[67684] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[55360] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["targets"] = {
+								["Krystallus"] = {
+									["uptime"] = 24,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 24,
+						},
+						[48108] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 4,
+							["refresh"] = 3,
+							["targets"] = {
+								["Krystallus"] = {
+									["refresh"] = 3,
+									["count"] = 3,
+									["uptime"] = 15,
+								},
+							},
+							["uptime"] = 15,
+						},
+						[1953] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 2,
+						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[42891] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Krystallus"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
+						},
+					},
+					["friendfire"] = 5088,
+					["totaldamage"] = 113496,
+					["time"] = 27.84999999999999,
+					["totaldamagetaken"] = 19104,
+					["damage"] = 113496,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmin"] = 10978,
+							["hitmin"] = 4840,
+							["criticalamount"] = 36122,
+							["id"] = 42833,
+							["hitmax"] = 5383,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 46345,
+								},
+							},
+							["critical"] = 3,
+							["hit"] = 2,
+							["casts"] = 5,
+							["count"] = 5,
+							["amount"] = 46345,
+							["school"] = 4,
+							["resisted"] = 3026,
+							["criticalmax"] = 12618,
+							["hitamount"] = 10223,
+						},
+						["Pyroblast (DoT)"] = {
+							["hitmin"] = 652,
+							["id"] = 42891,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 2770,
+								},
+							},
+							["hitmax"] = 733,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 487,
+							["amount"] = 2770,
+							["hitamount"] = 2770,
+						},
+						["Frostbolt (Mirror Image)"] = {
+							["hitmin"] = 460,
+							["id"] = 59638,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 6961,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 16,
+							["hitmax"] = 467,
+							["amount"] = 6961,
+							["hitamount"] = 6961,
+						},
+						["Fire Blast (Mirror Image)"] = {
+							["criticalamount"] = 1070,
+							["hitmin"] = 228,
+							["criticalmin"] = 507,
+							["id"] = 59637,
+							["critical"] = 2,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 4168,
+								},
+							},
+							["hitmax"] = 312,
+							["hit"] = 11,
+							["casts"] = 1,
+							["count"] = 13,
+							["amount"] = 4168,
+							["school"] = 4,
+							["resisted"] = 235,
+							["criticalmax"] = 563,
+							["hitamount"] = 3098,
+						},
+						["Living Bomb"] = {
+							["hitmin"] = 2242,
+							["id"] = 55362,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 4589,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 2347,
+							["amount"] = 4589,
+							["hitamount"] = 4589,
+						},
+						["Pyroblast"] = {
+							["criticalamount"] = 13958,
+							["id"] = 42891,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 13958,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 13958,
+							["school"] = 4,
+							["criticalmin"] = 13958,
+							["criticalmax"] = 13958,
+							["count"] = 1,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 1756,
+							["id"] = 12654,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 19373,
+								},
+							},
+							["hitmax"] = 5498,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["resisted"] = 1427,
+							["amount"] = 19373,
+							["hitamount"] = 19373,
+						},
+						["Living Bomb (DoT)"] = {
+							["hitmin"] = 773,
+							["criticalamount"] = 3901,
+							["id"] = 55360,
+							["criticalmin"] = 1930,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 9533,
+								},
+							},
+							["critical"] = 2,
+							["hit"] = 6,
+							["criticalmax"] = 1971,
+							["count"] = 8,
+							["amount"] = 9533,
+							["school"] = 4,
+							["resisted"] = 643,
+							["hitmax"] = 1126,
+							["hitamount"] = 5632,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 2829,
+							["id"] = 42873,
+							["targets"] = {
+								["Krystallus"] = {
+									["amount"] = 5799,
+								},
+							},
+							["casts"] = 8,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 2970,
+							["amount"] = 5799,
+							["hitamount"] = 5799,
+						},
+					},
+					["damagetaken"] = 19104,
+					["id"] = "0x07000000009E540C",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Boulder Toss"] = {
+							["hitmin"] = 3854,
+							["id"] = 59742,
+							["sources"] = {
+								["Krystallus"] = {
+									["amount"] = 7797,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3943,
+							["amount"] = 7797,
+							["hitamount"] = 7797,
+						},
+						["Shatter"] = {
+							["hitmin"] = 2795,
+							["id"] = 61547,
+							["sources"] = {
+								["Tumbleweed"] = {
+									["amount"] = 4196,
+								},
+								["Urgash"] = {
+									["amount"] = 2795,
+								},
+								["Miracledream"] = {
+									["amount"] = 4316,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 4316,
+							["amount"] = 11307,
+							["hitamount"] = 11307,
+						},
+					},
+					["name"] = "Berdanx",
+					["class"] = "MAGE",
+					["manaspells"] = {
+						[29077] = 773,
+						[42987] = 3415,
+						[44450] = -128,
+						[67545] = 325,
+					},
+					["role"] = "DAMAGER",
+				}, -- [5]
+			},
 			["mana"] = 8495,
-			["death"] = 1,
+			["damage"] = 431831,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -27711,15 +29900,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 525,
 						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3732,
-								},
-							},
-							["amount"] = 3732,
-						},
 						[42891] = {
 							["school"] = 4,
 							["sources"] = {
@@ -27728,24 +29908,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 16728,
-						},
-						[53307] = {
-							["school"] = 8,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 469,
-								},
-							},
-							["amount"] = 469,
-						},
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 8355,
-								},
-							},
-							["amount"] = 8355,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -27765,23 +29927,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 55123,
 						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9166,
-								},
-							},
-							["amount"] = 9166,
-						},
-						[48480] = {
-							["school"] = 1,
+						[53307] = {
+							["school"] = 8,
 							["sources"] = {
 								["Thirial"] = {
-									["amount"] = 52693,
+									["amount"] = 469,
 								},
 							},
-							["amount"] = 52693,
+							["amount"] = 469,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Miracledream"] = {
+									["amount"] = 8355,
+								},
+							},
+							["amount"] = 8355,
 						},
 						[49909] = {
 							["school"] = 16,
@@ -27792,9 +29954,36 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3594,
 						},
+						[70890] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 9166,
+								},
+							},
+							["amount"] = 9166,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3732,
+								},
+							},
+							["amount"] = 3732,
+						},
+						[48480] = {
+							["school"] = 1,
+							["sources"] = {
+								["Thirial"] = {
+									["amount"] = 52693,
+								},
+							},
+							["amount"] = 52693,
+						},
 					},
-					["name"] = "Krystallus",
 					["totaldamage"] = 26882,
+					["name"] = "Krystallus",
 					["totaldamagetaken"] = 431831,
 					["id"] = "0xF130006D49000085",
 					["damage"] = 17586,
@@ -27803,2123 +29992,29 @@ SkadaStorageDB = {
 			["friendfire"] = 83684,
 			["totaldamage"] = 431831,
 			["time"] = 35,
-			["runic"] = 32,
+			["overheal"] = 90621,
 			["totaldamagetaken"] = 110566,
 			["etotaldamagetaken"] = 431831,
 			["last_time"] = 4589.657,
-			["players"] = {
-				{
-					["last"] = 4586.716,
-					["friendfirespells"] = {
-						[61547] = {
-							["targets"] = {
-								["Tumbleweed"] = 9733,
-								["Thirial"] = 4810,
-								["Miracledream"] = 9359,
-								["Berdanx"] = 2795,
-							},
-							["amount"] = 26697,
-						},
-					},
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 35,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 2,
-							["school"] = 1,
-							["uptime"] = 30,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Krystallus"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 28,
-								},
-							},
-							["uptime"] = 28,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 9,
-							["school"] = 1,
-							["uptime"] = 25,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 35,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 3,
-							["uptime"] = 28,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 3,
-							["targets"] = {
-								["Krystallus"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 29,
-								},
-							},
-							["uptime"] = 29,
-						},
-						[48265] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 1,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 34,
-						},
-						[50812] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Earthbasher"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Ebon Gargoyle"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 7,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Krystallus"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 29,
-								},
-							},
-							["uptime"] = 29,
-						},
-						[49206] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Krystallus"] = {
-									["uptime"] = 22,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 22,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Krystallus"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 13,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[48707] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 5,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 21,
-						},
-						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 3,
-							["uptime"] = 30,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
-						},
-					},
-					["friendfire"] = 26697,
-					["time"] = 31.72,
-					["totaldamagetaken"] = 29062,
-					["damage"] = 213716,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["hitmin"] = 4083,
-							["criticalamount"] = 9245,
-							["id"] = 55271,
-							["criticalmin"] = 9245,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 17741,
-								},
-							},
-							["criticalmax"] = 9245,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 4413,
-							["amount"] = 17741,
-							["hitamount"] = 8496,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 3012,
-							["id"] = 71904,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 3012,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3012,
-							["amount"] = 3012,
-							["hitamount"] = 3012,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 2289,
-							["criticalamount"] = 9376,
-							["id"] = 49930,
-							["hitmax"] = 2355,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 14020,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["casts"] = 4,
-							["critical"] = 2,
-							["amount"] = 14020,
-							["school"] = 1,
-							["criticalmin"] = 4455,
-							["criticalmax"] = 4921,
-							["hitamount"] = 4644,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 46,
-							["id"] = 50536,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 870,
-								},
-							},
-							["hitmax"] = 92,
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 32,
-							["resisted"] = 58,
-							["amount"] = 870,
-							["hitamount"] = 870,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1030,
-							["id"] = 50526,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 6028,
-								},
-							},
-							["hitmax"] = 1342,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 375,
-							["amount"] = 6028,
-							["hitamount"] = 6028,
-						},
-						["Melee (Earthbasher)"] = {
-							["hitmin"] = 550,
-							["criticalamount"] = 1190,
-							["id"] = 6603,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 10765,
-								},
-							},
-							["criticalmin"] = 1190,
-							["critical"] = 1,
-							["criticalmax"] = 1190,
-							["count"] = 17,
-							["hit"] = 16,
-							["school"] = 1,
-							["hitmax"] = 639,
-							["amount"] = 10765,
-							["hitamount"] = 9575,
-						},
-						["Death Strike"] = {
-							["criticalamount"] = 6509,
-							["id"] = 49924,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 6509,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 6509,
-							["school"] = 1,
-							["criticalmin"] = 6509,
-							["criticalmax"] = 6509,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["glance"] = 5698,
-							["hitmin"] = 3121,
-							["criticalmin"] = 6997,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 37373,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 37373,
-							["glancemin"] = 2709,
-							["criticalamount"] = 14394,
-							["id"] = 6603,
-							["glancemax"] = 2989,
-							["PARRY"] = 1,
-							["criticalmax"] = 7397,
-							["critical"] = 2,
-							["hit"] = 5,
-							["school"] = 1,
-							["count"] = 10,
-							["hitmax"] = 3826,
-							["hitamount"] = 17281,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1553,
-							["id"] = 50463,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 3732,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2179,
-							["amount"] = 3732,
-							["hitamount"] = 3732,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 1944,
-							["id"] = 70890,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 9166,
-								},
-							},
-							["hitmax"] = 4889,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 215,
-							["amount"] = 9166,
-							["hitamount"] = 9166,
-						},
-						["Death Coil"] = {
-							["hitmax"] = 4693,
-							["hitmin"] = 4693,
-							["criticalamount"] = 7977,
-							["id"] = 47632,
-							["count"] = 3,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 17363,
-								},
-							},
-							["hit"] = 2,
-							["criticalmin"] = 7977,
-							["casts"] = 3,
-							["critical"] = 1,
-							["amount"] = 17363,
-							["school"] = 32,
-							["resisted"] = 886,
-							["criticalmax"] = 7977,
-							["hitamount"] = 9386,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 541,
-							["id"] = 51460,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 7343,
-								},
-							},
-							["hitmax"] = 1479,
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 32,
-							["resisted"] = 128,
-							["amount"] = 7343,
-							["hitamount"] = 7343,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1208,
-							["id"] = 55078,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 10413,
-								},
-							},
-							["hitmax"] = 1523,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 32,
-							["resisted"] = 688,
-							["amount"] = 10413,
-							["hitamount"] = 10413,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1589,
-							["id"] = 49909,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 3594,
-								},
-							},
-							["hitmax"] = 2005,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["resisted"] = 677,
-							["amount"] = 3594,
-							["hitamount"] = 3594,
-						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["hitmin"] = 3403,
-							["id"] = 51963,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 33325,
-								},
-							},
-							["hitmax"] = 3803,
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 8,
-							["resisted"] = 756,
-							["amount"] = 33325,
-							["hitamount"] = 33325,
-						},
-						["Plague Strike"] = {
-							["DODGE"] = 1,
-							["criticalamount"] = 12228,
-							["id"] = 49921,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 12228,
-								},
-							},
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 12228,
-							["school"] = 1,
-							["criticalmin"] = 5671,
-							["criticalmax"] = 6557,
-							["count"] = 3,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1276,
-							["id"] = 55095,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 12999,
-								},
-							},
-							["hitmax"] = 1630,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 16,
-							["resisted"] = 1328,
-							["amount"] = 12999,
-							["hitamount"] = 12999,
-						},
-						["Claw (Earthbasher)"] = {
-							["hitmin"] = 833,
-							["id"] = 47468,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 7235,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 964,
-							["amount"] = 7235,
-							["hitamount"] = 7235,
-						},
-					},
-					["damagetaken"] = 29062,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[53365] = {
-							["overheal"] = 2282,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 2282,
-									["amount"] = 0,
-								},
-							},
-						},
-						[50475] = {
-							["overheal"] = 3959,
-							["max"] = 273,
-							["count"] = 36,
-							["amount"] = 796,
-							["school"] = 1,
-							["min"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 3959,
-									["amount"] = 796,
-								},
-							},
-						},
-						[45470] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 5390,
-							["school"] = 1,
-							["max"] = 5390,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 5390,
-								},
-							},
-							["min"] = 5390,
-						},
-						[34299] = {
-							["overheal"] = 5648,
-							["max"] = 1436,
-							["count"] = 5,
-							["amount"] = 1436,
-							["school"] = 1,
-							["min"] = 1436,
-							["ishot"] = true,
-							["targets"] = {
-								["Earthbasher"] = {
-									["overheal"] = 1167,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 4481,
-									["amount"] = 1436,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Stomp"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Krystallus"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 50868,
-						},
-						["Shatter"] = {
-							["hitmin"] = 6335,
-							["id"] = 61547,
-							["sources"] = {
-								["Tumbleweed"] = {
-									["amount"] = 8576,
-								},
-								["Miracledream"] = {
-									["amount"] = 6335,
-								},
-								["Thirial"] = {
-									["amount"] = 7790,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 8576,
-							["amount"] = 22701,
-							["hitamount"] = 22701,
-						},
-						["Ground Spike"] = {
-							["hitmin"] = 6361,
-							["id"] = 59750,
-							["hitmax"] = 6361,
-							["sources"] = {
-								["Krystallus"] = {
-									["amount"] = 6361,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 8,
-							["amount"] = 6361,
-							["MISS"] = 1,
-							["hitamount"] = 6361,
-						},
-					},
-					["heal"] = 7622,
-					["name"] = "Urgash",
-					["overheal"] = 11889,
-					["totaldamage"] = 213716,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 4586.224,
-					["friendfirespells"] = {
-						[61547] = {
-							["targets"] = {
-								["Tumbleweed"] = 9336,
-								["Urgash"] = 7790,
-							},
-							["amount"] = 17126,
-						},
-					},
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 19,
-						},
-						[48568] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 6,
-							["targets"] = {
-								["Krystallus"] = {
-									["count"] = 1,
-									["refresh"] = 6,
-									["uptime"] = 30,
-								},
-							},
-							["uptime"] = 30,
-						},
-						[22812] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 10,
-						},
-						[71564] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 35,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[50812] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Thirial"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[9634] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[61336] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[64951] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 4,
-							["uptime"] = 31,
-						},
-						[71569] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 4,
-						},
-						[48564] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["targets"] = {
-								["Krystallus"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 28,
-								},
-							},
-							["uptime"] = 28,
-						},
-						[16857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Krystallus"] = {
-									["uptime"] = 31,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 31,
-						},
-						[5229] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[62606] = {
-							["type"] = "BUFF",
-							["count"] = 8,
-							["school"] = 8,
-							["refresh"] = 11,
-							["uptime"] = 28,
-						},
-					},
-					["friendfire"] = 17126,
-					["time"] = 31.2,
-					["totaldamagetaken"] = 21517,
-					["overheal"] = 5849,
-					["damage"] = 82743,
-					["damagespells"] = {
-						["Swipe (Bear)"] = {
-							["hitmin"] = 525,
-							["id"] = 48562,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 525,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 525,
-							["amount"] = 525,
-							["hitamount"] = 525,
-						},
-						["Lacerate (DoT)"] = {
-							["hitmin"] = 663,
-							["criticalamount"] = 6438,
-							["id"] = 48568,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 11233,
-								},
-							},
-							["hitmax"] = 1105,
-							["count"] = 9,
-							["criticalmax"] = 2210,
-							["critical"] = 4,
-							["amount"] = 11233,
-							["school"] = 1,
-							["hit"] = 5,
-							["criticalmin"] = 385,
-							["hitamount"] = 4795,
-						},
-						["Melee"] = {
-							["criticalamount"] = 1712,
-							["id"] = 6603,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 1712,
-								},
-							},
-							["criticalmax"] = 1712,
-							["critical"] = 1,
-							["amount"] = 1712,
-							["school"] = 1,
-							["criticalmin"] = 1712,
-							["count"] = 1,
-						},
-						["Faerie Fire (Feral)"] = {
-							["hitmin"] = 731,
-							["id"] = 60089,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 731,
-								},
-							},
-							["hitmax"] = 731,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 182,
-							["amount"] = 731,
-							["hitamount"] = 731,
-						},
-						["Lacerate"] = {
-							["hitmin"] = 141,
-							["criticalamount"] = 1464,
-							["id"] = 48568,
-							["hitmax"] = 161,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 1766,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 2,
-							["casts"] = 7,
-							["critical"] = 5,
-							["amount"] = 1766,
-							["school"] = 1,
-							["criticalmin"] = 216,
-							["criticalmax"] = 322,
-							["hitamount"] = 302,
-						},
-						["Mangle (Bear)"] = {
-							["hitmin"] = 1486,
-							["criticalamount"] = 12128,
-							["id"] = 48564,
-							["hitmax"] = 1486,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 13614,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 1,
-							["casts"] = 5,
-							["critical"] = 4,
-							["amount"] = 13614,
-							["school"] = 1,
-							["criticalmin"] = 2902,
-							["criticalmax"] = 3370,
-							["hitamount"] = 1486,
-						},
-						["Maul"] = {
-							["hitmin"] = 2415,
-							["criticalamount"] = 44984,
-							["id"] = 48480,
-							["hitmax"] = 2823,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 52693,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 3,
-							["casts"] = 12,
-							["critical"] = 9,
-							["amount"] = 52693,
-							["school"] = 1,
-							["criticalmin"] = 3804,
-							["criticalmax"] = 5646,
-							["hitamount"] = 7709,
-						},
-						["Thorns"] = {
-							["hitmin"] = 93,
-							["id"] = 53307,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 469,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 8,
-							["hitmax"] = 94,
-							["amount"] = 469,
-							["hitamount"] = 469,
-						},
-					},
-					["ragespells"] = {
-						[5229] = 30,
-						[16959] = 95,
-						[59072] = 6,
-					},
-					["damagetaken"] = 12221,
-					["id"] = "0x07000000008C6185",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 5849,
-							["max"] = 2266,
-							["count"] = 5,
-							["amount"] = 3230,
-							["school"] = 1,
-							["min"] = 964,
-							["ishot"] = true,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 5849,
-									["amount"] = 3230,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 2,
-							["total"] = 9314,
-							["hitmin"] = 316,
-							["id"] = 6603,
-							["hitmax"] = 510,
-							["sources"] = {
-								["Krystallus"] = {
-									["total"] = 9314,
-									["amount"] = 2084,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 2084,
-							["school"] = 1,
-							["hit"] = 5,
-							["MISS"] = 2,
-							["hitamount"] = 2084,
-						},
-						["Stomp"] = {
-							["total"] = 620,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Krystallus"] = {
-									["total"] = 620,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 50868,
-						},
-						["Boulder Toss"] = {
-							["total"] = 1695,
-							["hitmin"] = 249,
-							["id"] = 59742,
-							["sources"] = {
-								["Krystallus"] = {
-									["total"] = 1695,
-									["amount"] = 249,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 249,
-							["amount"] = 249,
-							["hitamount"] = 249,
-						},
-						["Shatter"] = {
-							["hitmin"] = 4810,
-							["id"] = 61547,
-							["sources"] = {
-								["Tumbleweed"] = {
-									["amount"] = 5078,
-								},
-								["Urgash"] = {
-									["amount"] = 4810,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 5078,
-							["amount"] = 9888,
-							["hitamount"] = 9888,
-						},
-					},
-					["rage"] = 131,
-					["heal"] = 3230,
-					["name"] = "Thirial",
-					["manaspells"] = {
-						[68285] = 3870,
-					},
-					["mana"] = 3870,
-					["totaldamage"] = 82743,
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 4586.307,
-					["friendfirespells"] = {
-						[61547] = {
-							["targets"] = {
-								["Thirial"] = 5078,
-								["Urgash"] = 8576,
-								["Miracledream"] = 3547,
-								["Berdanx"] = 4196,
-							},
-							["amount"] = 21397,
-						},
-					},
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 14,
-						},
-						[22842] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[22812] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 28,
-						},
-						[48418] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 8,
-						},
-						[67358] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 3,
-							["school"] = 8,
-							["uptime"] = 27,
-						},
-						[48422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[50812] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[9634] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 8,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
-						[60520] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 4,
-						},
-						[5229] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[33891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-					},
-					["friendfire"] = 21397,
-					["time"] = 22.16,
-					["runicspells"] = {
-						[48543] = 32,
-					},
-					["ragespells"] = {
-						[48541] = 28,
-						[5229] = 22,
-					},
-					["totaldamagetaken"] = 25064,
-					["mana"] = 240,
-					["damage"] = 1173,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 336,
-							["hitmin"] = 409,
-							["id"] = 6603,
-							["glancemin"] = 336,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 1173,
-								},
-							},
-							["glancemax"] = 336,
-							["glancing"] = 1,
-							["hitmax"] = 428,
-							["count"] = 10,
-							["amount"] = 1173,
-							["school"] = 1,
-							["hit"] = 2,
-							["MISS"] = 7,
-							["hitamount"] = 837,
-						},
-					},
-					["manaspells"] = {
-						[48542] = 240,
-					},
-					["damagetaken"] = 25064,
-					["deathlog"] = {
-						{
-							["log"] = {
-								{
-									["time"] = 4582.888,
-									["source"] = "Urgash",
-									["amount"] = -9733,
-									["school"] = 1,
-									["hp"] = 1,
-									["spellid"] = 61547,
-									["overkill"] = 4383,
-								}, -- [1]
-								{
-									["source"] = "Thirial",
-									["amount"] = -9336,
-									["school"] = 1,
-									["hp"] = 5350,
-									["spellid"] = 61547,
-									["time"] = 4582.887000000001,
-								}, -- [2]
-								{
-									["source"] = "Miracledream",
-									["amount"] = -2725,
-									["school"] = 1,
-									["hp"] = 14686,
-									["spellid"] = 61547,
-									["time"] = 4582.887,
-								}, -- [3]
-								{
-									["source"] = "Berdanx",
-									["amount"] = -2175,
-									["school"] = 1,
-									["hp"] = 17411,
-									["spellid"] = 61547,
-									["time"] = 4582.886,
-								}, -- [4]
-								{
-									["source"] = "Krystallus",
-									["amount"] = -1095,
-									["school"] = 1,
-									["hp"] = 19586,
-									["spellid"] = 50868,
-									["time"] = 4582.765,
-								}, -- [5]
-								{
-									["overheal"] = 1833,
-									["source"] = "Tumbleweed",
-									["hp"] = 20681,
-									["spellid"] = 48441,
-									["time"] = 4581.604,
-								}, -- [6]
-								{
-									["overheal"] = 1833,
-									["time"] = 4578.615,
-									["source"] = "Tumbleweed",
-									["hp"] = 20681,
-									["spellid"] = 48441,
-								}, -- [7]
-								{
-									["overheal"] = 1832,
-									["source"] = "Tumbleweed",
-									["hp"] = 20681,
-									["spellid"] = 48441,
-									["time"] = 4575.641,
-								}, -- [8]
-								{
-									["overheal"] = 1943,
-									["source"] = "Tumbleweed",
-									["hp"] = 18067,
-									["spellid"] = 48441,
-									["time"] = 4572.634,
-								}, -- [9]
-							},
-							["time"] = 4582.893,
-							["timeod"] = 1699557089,
-							["school"] = 1,
-							["maxhp"] = 18067,
-							["spellid"] = 61547,
-							["source"] = "Urgash",
-						}, -- [1]
-					},
-					["id"] = "0x070000000095B7ED",
-					["spec"] = 105,
-					["healspells"] = {
-						[53251] = {
-							["overheal"] = 25042,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 4460,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 4460,
-									["amount"] = 0,
-								},
-								["Earthbasher"] = {
-									["overheal"] = 4247,
-									["amount"] = 0,
-								},
-								["Thirial"] = {
-									["overheal"] = 3733,
-									["amount"] = 727,
-								},
-								["Miracledream"] = {
-									["overheal"] = 4459,
-									["amount"] = 0,
-								},
-								["Berdanx"] = {
-									["overheal"] = 3683,
-									["amount"] = 777,
-								},
-							},
-							["count"] = 42,
-							["amount"] = 1504,
-							["school"] = 8,
-							["max"] = 777,
-							["ishot"] = true,
-							["min"] = 316,
-						},
-						[48441] = {
-							["overheal"] = 44816,
-							["max"] = 1943,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 7441,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 11437,
-									["amount"] = 0,
-								},
-								["Berdanx"] = {
-									["overheal"] = 4475,
-									["amount"] = 6742,
-								},
-								["Miracledream"] = {
-									["overheal"] = 8930,
-									["amount"] = 2288,
-								},
-								["Thirial"] = {
-									["overheal"] = 12533,
-									["amount"] = 847,
-								},
-							},
-							["min"] = 399,
-							["casts"] = 6,
-							["count"] = 29,
-							["amount"] = 9877,
-							["school"] = 8,
-							["ishot"] = true,
-						},
-						[22845] = {
-							["overheal"] = 2603,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Tumbleweed"] = {
-									["overheal"] = 2603,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["critical"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["count"] = 3,
-							["criticalmin"] = 0,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shatter"] = {
-							["hitmin"] = 2175,
-							["id"] = 61547,
-							["overkill"] = 4383,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 9336,
-								},
-								["Urgash"] = {
-									["overkill"] = 4383,
-									["amount"] = 9733,
-								},
-								["Miracledream"] = {
-									["amount"] = 2725,
-								},
-								["Berdanx"] = {
-									["amount"] = 2175,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 9733,
-							["amount"] = 23969,
-							["hitamount"] = 23969,
-						},
-						["Stomp"] = {
-							["hitmin"] = 1095,
-							["id"] = 50868,
-							["sources"] = {
-								["Krystallus"] = {
-									["amount"] = 1095,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1095,
-							["amount"] = 1095,
-							["hitamount"] = 1095,
-						},
-					},
-					["rage"] = 50,
-					["heal"] = 11381,
-					["name"] = "Tumbleweed",
-					["death"] = 1,
-					["runic"] = 32,
-					["overheal"] = 72461,
-					["totaldamage"] = 1173,
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["last"] = 4587.002,
-					["friendfirespells"] = {
-						[61547] = {
-							["targets"] = {
-								["Tumbleweed"] = 2725,
-								["Urgash"] = 6335,
-								["Berdanx"] = 4316,
-							},
-							["amount"] = 13376,
-						},
-					},
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Krystallus"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[50812] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Miracledream"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 35,
-						},
-						[18499] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[29131] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[23885] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 11,
-						},
-						[60305] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
-						},
-					},
-					["friendfire"] = 13376,
-					["time"] = 23.62,
-					["totaldamagetaken"] = 15819,
-					["damage"] = 20703,
-					["rage"] = 34,
-					["overheal"] = 422,
-					["damagetaken"] = 15819,
-					["id"] = "0x07000000009A86E7",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 422,
-							["max"] = 211,
-							["count"] = 6,
-							["amount"] = 844,
-							["school"] = 1,
-							["min"] = 211,
-							["targets"] = {
-								["Miracledream"] = {
-									["overheal"] = 422,
-									["amount"] = 844,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Shatter"] = {
-							["hitmin"] = 2913,
-							["id"] = 61547,
-							["sources"] = {
-								["Tumbleweed"] = {
-									["amount"] = 3547,
-								},
-								["Urgash"] = {
-									["amount"] = 9359,
-								},
-								["Berdanx"] = {
-									["amount"] = 2913,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 9359,
-							["amount"] = 15819,
-							["hitamount"] = 15819,
-						},
-						["Stomp"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Krystallus"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 50868,
-						},
-					},
-					["overkill"] = 30,
-					["ragespells"] = {
-						[29131] = 10,
-						[2687] = 20,
-						[12964] = 4,
-					},
-					["name"] = "Miracledream",
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1420,
-							["criticalamount"] = 3124,
-							["id"] = 23881,
-							["criticalmin"] = 3124,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 6189,
-								},
-							},
-							["criticalmax"] = 3124,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1645,
-							["amount"] = 6189,
-							["hitamount"] = 3065,
-						},
-						["Melee"] = {
-							["glance"] = 909,
-							["hitmin"] = 543,
-							["criticalmin"] = 1026,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 4100,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 4100,
-							["MISS"] = 1,
-							["glancemin"] = 429,
-							["criticalamount"] = 1026,
-							["id"] = 6603,
-							["glancemax"] = 480,
-							["criticalmax"] = 1026,
-							["hitmax"] = 1040,
-							["hit"] = 3,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 7,
-							["hitamount"] = 2165,
-						},
-						["Intercept"] = {
-							["hitmin"] = 339,
-							["id"] = 20253,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 339,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 339,
-							["amount"] = 339,
-							["hitamount"] = 339,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 184,
-							["id"] = 12721,
-							["targets"] = {
-								["Krystallus"] = {
-									["overkill"] = 30,
-									["amount"] = 1720,
-								},
-							},
-							["overkill"] = 30,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 256,
-							["amount"] = 1720,
-							["hitamount"] = 1720,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 1318,
-							["criticalamount"] = 2963,
-							["id"] = 47450,
-							["criticalmin"] = 2963,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 8355,
-								},
-							},
-							["criticalmax"] = 2963,
-							["critical"] = 1,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1420,
-							["amount"] = 8355,
-							["hitamount"] = 5392,
-						},
-					},
-					["heal"] = 844,
-					["totaldamage"] = 20703,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 4585.857,
-					["friendfirespells"] = {
-						[61547] = {
-							["targets"] = {
-								["Miracledream"] = 2913,
-								["Tumbleweed"] = 2175,
-							},
-							["amount"] = 5088,
-						},
-					},
-					["flag"] = 1298,
-					["mana"] = 4385,
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
-						},
-						[50812] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Mirror Image"] = {
-									["uptime"] = 2,
-									["count"] = 3,
-								},
-								["Berdanx"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[55342] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 30,
-						},
-						[42891] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Krystallus"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 35,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 7,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["refresh"] = 3,
-							["targets"] = {
-								["Krystallus"] = {
-									["count"] = 3,
-									["refresh"] = 3,
-									["uptime"] = 15,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[67684] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[55360] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["targets"] = {
-								["Krystallus"] = {
-									["uptime"] = 24,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 24,
-						},
-						[48108] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[28682] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 6,
-							["uptime"] = 13,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 32,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[1953] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 2,
-						},
-					},
-					["friendfire"] = 5088,
-					["time"] = 27.84999999999999,
-					["totaldamagetaken"] = 19104,
-					["damage"] = 113496,
-					["damagespells"] = {
-						["Fireball"] = {
-							["criticalmin"] = 10978,
-							["hitmin"] = 4840,
-							["criticalamount"] = 36122,
-							["id"] = 42833,
-							["criticalmax"] = 12618,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 46345,
-								},
-							},
-							["critical"] = 3,
-							["hitmax"] = 5383,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 3026,
-							["amount"] = 46345,
-							["hitamount"] = 10223,
-						},
-						["Pyroblast (DoT)"] = {
-							["hitmin"] = 652,
-							["id"] = 42891,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 2770,
-								},
-							},
-							["hitmax"] = 733,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["resisted"] = 487,
-							["amount"] = 2770,
-							["hitamount"] = 2770,
-						},
-						["Frostbolt (Mirror Image)"] = {
-							["hitmin"] = 460,
-							["id"] = 59638,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 6961,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 15,
-							["hit"] = 15,
-							["school"] = 16,
-							["hitmax"] = 467,
-							["amount"] = 6961,
-							["hitamount"] = 6961,
-						},
-						["Fire Blast (Mirror Image)"] = {
-							["hitmax"] = 312,
-							["hitmin"] = 228,
-							["criticalamount"] = 1070,
-							["id"] = 59637,
-							["criticalmin"] = 507,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 4168,
-								},
-							},
-							["criticalmax"] = 563,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 13,
-							["hit"] = 11,
-							["school"] = 4,
-							["resisted"] = 235,
-							["amount"] = 4168,
-							["hitamount"] = 3098,
-						},
-						["Living Bomb"] = {
-							["hitmin"] = 2242,
-							["id"] = 55362,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 4589,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 2347,
-							["amount"] = 4589,
-							["hitamount"] = 4589,
-						},
-						["Pyroblast"] = {
-							["criticalamount"] = 13958,
-							["id"] = 42891,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 13958,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 13958,
-							["school"] = 4,
-							["criticalmin"] = 13958,
-							["criticalmax"] = 13958,
-							["count"] = 1,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 1756,
-							["id"] = 12654,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 19373,
-								},
-							},
-							["hitmax"] = 5498,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 4,
-							["resisted"] = 1427,
-							["amount"] = 19373,
-							["hitamount"] = 19373,
-						},
-						["Living Bomb (DoT)"] = {
-							["hitmin"] = 773,
-							["criticalamount"] = 3901,
-							["id"] = 55360,
-							["criticalmin"] = 1930,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 9533,
-								},
-							},
-							["hitmax"] = 1126,
-							["critical"] = 2,
-							["criticalmax"] = 1971,
-							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 4,
-							["resisted"] = 643,
-							["amount"] = 9533,
-							["hitamount"] = 5632,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 2829,
-							["id"] = 42873,
-							["targets"] = {
-								["Krystallus"] = {
-									["amount"] = 5799,
-								},
-							},
-							["casts"] = 8,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 2970,
-							["amount"] = 5799,
-							["hitamount"] = 5799,
-						},
-					},
-					["damagetaken"] = 19104,
-					["id"] = "0x07000000009E540C",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Boulder Toss"] = {
-							["hitmin"] = 3854,
-							["id"] = 59742,
-							["sources"] = {
-								["Krystallus"] = {
-									["amount"] = 7797,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3943,
-							["amount"] = 7797,
-							["hitamount"] = 7797,
-						},
-						["Shatter"] = {
-							["hitmin"] = 2795,
-							["id"] = 61547,
-							["sources"] = {
-								["Tumbleweed"] = {
-									["amount"] = 4196,
-								},
-								["Urgash"] = {
-									["amount"] = 2795,
-								},
-								["Miracledream"] = {
-									["amount"] = 4316,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 4316,
-							["amount"] = 11307,
-							["hitamount"] = 11307,
-						},
-					},
-					["name"] = "Berdanx",
-					["totaldamage"] = 113496,
-					["class"] = "MAGE",
-					["manaspells"] = {
-						[29077] = 773,
-						[42987] = 3415,
-						[44450] = -128,
-						[67545] = 325,
-					},
-					["role"] = "DAMAGER",
-				}, -- [5]
-			},
+			["runic"] = 32,
 			["type"] = "party",
 			["damagetaken"] = 101270,
-			["etotaldamage"] = 26882,
-			["starttime"] = 1699557061,
+			["gotboss"] = 27977,
+			["death"] = 1,
+			["success"] = true,
 			["rage"] = 215,
 			["overkill"] = 30,
 			["edamagetaken"] = 431831,
 			["heal"] = 23077,
 			["name"] = "Krystallus",
 			["mobname"] = "Krystallus",
-			["gotboss"] = 27977,
+			["starttime"] = 1699557061,
 			["edamage"] = 17586,
 			["last_action"] = 1699557095,
 			["endtime"] = 1699557096,
-		}, -- [12]
+		}, -- [13]
 		{
 			["mana"] = 774,
-			["rage"] = 96,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -30022,24 +30117,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3605,
 						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 356,
-								},
-							},
-							["amount"] = 356,
-						},
-						[48480] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 4629,
-								},
-							},
-							["amount"] = 4629,
-						},
 						[52212] = {
 							["school"] = 32,
 							["sources"] = {
@@ -30051,6 +30128,15 @@ SkadaStorageDB = {
 							["overkill"] = 1065,
 							["amount"] = 46769,
 						},
+						[48480] = {
+							["school"] = 1,
+							["sources"] = {
+								["Thirial"] = {
+									["amount"] = 4629,
+								},
+							},
+							["amount"] = 4629,
+						},
 						[53307] = {
 							["school"] = 8,
 							["sources"] = {
@@ -30059,6 +30145,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 695,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Miracledream"] = {
+									["amount"] = 356,
+								},
+							},
+							["amount"] = 356,
 						},
 						[48562] = {
 							["school"] = 1,
@@ -30070,8 +30165,8 @@ SkadaStorageDB = {
 							["amount"] = 18804,
 						},
 					},
-					["name"] = "Crystalline Shardling",
 					["totaldamage"] = 2512,
+					["name"] = "Crystalline Shardling",
 					["totaldamagetaken"] = 147203,
 					["id"] = "0xF130006D4500007A",
 					["damage"] = 1788,
@@ -30188,14 +30283,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4865,
 						},
-						[48480] = {
-							["school"] = 1,
+						[53307] = {
+							["school"] = 8,
 							["sources"] = {
 								["Thirial"] = {
-									["amount"] = 7746,
+									["amount"] = 94,
 								},
 							},
-							["amount"] = 7746,
+							["amount"] = 94,
 						},
 						[49909] = {
 							["school"] = 16,
@@ -30205,15 +30300,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 3824,
-						},
-						[53307] = {
-							["school"] = 8,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 94,
-								},
-							},
-							["amount"] = 94,
 						},
 						[52212] = {
 							["school"] = 32,
@@ -30226,6 +30312,15 @@ SkadaStorageDB = {
 							["overkill"] = 404,
 							["amount"] = 7660,
 						},
+						[48480] = {
+							["school"] = 1,
+							["sources"] = {
+								["Thirial"] = {
+									["amount"] = 7746,
+								},
+							},
+							["amount"] = 7746,
+						},
 						[48562] = {
 							["school"] = 1,
 							["sources"] = {
@@ -30236,8 +30331,8 @@ SkadaStorageDB = {
 							["amount"] = 2264,
 						},
 					},
-					["name"] = "Dark Rune Controller",
 					["totaldamage"] = 4398,
+					["name"] = "Dark Rune Controller",
 					["totaldamagetaken"] = 63404,
 					["id"] = "0xF130006D3E000056",
 					["damage"] = 4398,
@@ -30245,9 +30340,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 210607,
 			["time"] = 12,
-			["damage"] = 210607,
 			["totaldamagetaken"] = 6910,
 			["etotaldamagetaken"] = 210607,
+			["damage"] = 210607,
+			["rage"] = 96,
+			["type"] = "party",
+			["damagetaken"] = 6186,
 			["last_time"] = 4545.879,
 			["players"] = {
 				{
@@ -30266,16 +30364,16 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 3,
+							["type"] = "BUFF",
 							["uptime"] = 12,
+							["count"] = 1,
 						},
 						[70657] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 5,
 							["school"] = 1,
+							["refresh"] = 5,
 							["uptime"] = 11,
 						},
 						[48443] = {
@@ -30338,9 +30436,9 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[71561] = {
@@ -30382,9 +30480,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 9,
 						},
 						[51735] = {
@@ -30398,14 +30496,15 @@ SkadaStorageDB = {
 									["count"] = 6,
 								},
 								["Dark Rune Controller"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 8,
 								},
 							},
 							["uptime"] = 10,
 						},
 					},
+					["totaldamage"] = 159570,
 					["time"] = 10.49,
 					["totaldamagetaken"] = 3357,
 					["damage"] = 159570,
@@ -30440,11 +30539,11 @@ SkadaStorageDB = {
 							["hitamount"] = 7723,
 						},
 						["Death and Decay"] = {
-							["criticalmax"] = 1809,
-							["hitmin"] = 676,
 							["criticalamount"] = 23389,
-							["id"] = 52212,
+							["hitmin"] = 676,
 							["criticalmin"] = 1413,
+							["id"] = 52212,
+							["casts"] = 1,
 							["targets"] = {
 								["Crystalline Shardling"] = {
 									["overkill"] = 1065,
@@ -30456,13 +30555,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1469,
-							["critical"] = 15,
-							["casts"] = 1,
 							["count"] = 54,
-							["hit"] = 39,
-							["school"] = 32,
+							["criticalmax"] = 1809,
 							["hitmax"] = 866,
 							["amount"] = 54429,
+							["school"] = 32,
+							["hit"] = 39,
+							["critical"] = 15,
 							["hitamount"] = 31040,
 						},
 						["Icy Touch"] = {
@@ -30551,7 +30650,7 @@ SkadaStorageDB = {
 							["hitmin"] = 4864,
 							["criticalamount"] = 10218,
 							["id"] = 47632,
-							["criticalmax"] = 10218,
+							["casts"] = 3,
 							["targets"] = {
 								["Crystalline Shardling"] = {
 									["overkill"] = 4119,
@@ -30562,25 +30661,25 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 4119,
-							["critical"] = 1,
-							["casts"] = 3,
 							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 32,
+							["criticalmax"] = 10218,
 							["hitmax"] = 4865,
 							["amount"] = 19947,
+							["school"] = 32,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 9729,
 						},
 						["Melee (Earthbasher)"] = {
 							["glance"] = 1854,
 							["hitmin"] = 586,
 							["id"] = 6603,
-							["hitmax"] = 650,
+							["hitamount"] = 2435,
 							["glancemax"] = 650,
 							["overkill"] = 337,
 							["glancing"] = 3,
-							["hitamount"] = 2435,
 							["count"] = 7,
+							["hitmax"] = 650,
 							["amount"] = 4289,
 							["school"] = 1,
 							["hit"] = 4,
@@ -30655,11 +30754,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 948,
-							["max"] = 270,
+							["school"] = 1,
 							["count"] = 10,
 							["amount"] = 774,
-							["school"] = 1,
-							["min"] = 1,
+							["max"] = 270,
 							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
@@ -30667,6 +30765,7 @@ SkadaStorageDB = {
 									["amount"] = 774,
 								},
 							},
+							["min"] = 1,
 						},
 						[34299] = {
 							["overheal"] = 1523,
@@ -30708,7 +30807,6 @@ SkadaStorageDB = {
 					["name"] = "Urgash",
 					["overkill"] = 7797,
 					["overheal"] = 2471,
-					["totaldamage"] = 159570,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -30717,16 +30815,16 @@ SkadaStorageDB = {
 					["class"] = "DRUID",
 					["auras"] = {
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 1,
 						},
 						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 12,
+							["count"] = 1,
 						},
 						[57623] = {
 							["type"] = "BUFF",
@@ -30734,9 +30832,9 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[16857] = {
@@ -30751,17 +30849,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[6795] = {
-							["type"] = "DEBUFF",
+						[72221] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Controller"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
+							["uptime"] = 12,
 						},
 						[9634] = {
 							["type"] = "BUFF",
@@ -30775,17 +30866,7 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 3,
 						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
 						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -30795,32 +30876,45 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[6795] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Dark Rune Controller"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
 					},
 					["role"] = "TANK",
 					["time"] = 9.819999999999999,
 					["totaldamagetaken"] = 3553,
-					["manaspells"] = {
-						[68285] = 774,
-					},
 					["damage"] = 35972,
 					["rage"] = 93,
-					["overheal"] = 0,
 					["damagetaken"] = 2829,
 					["id"] = "0x07000000008C6185",
 					["spec"] = 103,
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 0,
+							["max"] = 1630,
+							["count"] = 1,
+							["amount"] = 1630,
+							["school"] = 1,
 							["targets"] = {
 								["Thirial"] = {
 									["overheal"] = 0,
 									["amount"] = 1630,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1630,
-							["school"] = 1,
-							["max"] = 1630,
 							["ishot"] = true,
 							["min"] = 1630,
 						},
@@ -30849,7 +30943,11 @@ SkadaStorageDB = {
 							["hitamount"] = 2829,
 						},
 					},
+					["overheal"] = 0,
 					["heal"] = 1630,
+					["manaspells"] = {
+						[68285] = 774,
+					},
 					["ragespells"] = {
 						[59072] = 18,
 						[16959] = 75,
@@ -30892,7 +30990,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1484,
 							["criticalamount"] = 6152,
 							["id"] = 48480,
-							["hitmax"] = 1594,
+							["criticalmin"] = 2986,
 							["targets"] = {
 								["Crystalline Shardling"] = {
 									["amount"] = 4629,
@@ -30901,14 +30999,14 @@ SkadaStorageDB = {
 									["amount"] = 7746,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 4,
-							["casts"] = 3,
 							["critical"] = 2,
 							["amount"] = 12375,
-							["school"] = 1,
-							["criticalmin"] = 2986,
 							["criticalmax"] = 3166,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 1594,
+							["casts"] = 3,
 							["hitamount"] = 6223,
 						},
 						["Thorns"] = {
@@ -30931,11 +31029,11 @@ SkadaStorageDB = {
 							["hitamount"] = 789,
 						},
 						["Swipe (Bear)"] = {
-							["blocked"] = 40,
-							["hitmin"] = 424,
 							["criticalamount"] = 11362,
-							["id"] = 48562,
+							["hitmin"] = 424,
 							["criticalmin"] = 808,
+							["id"] = 48562,
+							["casts"] = 6,
 							["targets"] = {
 								["Crystalline Shardling"] = {
 									["amount"] = 18804,
@@ -30944,14 +31042,14 @@ SkadaStorageDB = {
 									["amount"] = 2264,
 								},
 							},
-							["criticalmax"] = 938,
-							["critical"] = 13,
-							["casts"] = 6,
 							["count"] = 35,
-							["hit"] = 22,
-							["school"] = 1,
+							["blocked"] = 40,
+							["criticalmax"] = 938,
 							["hitmax"] = 469,
 							["amount"] = 21068,
+							["school"] = 1,
+							["critical"] = 13,
+							["hit"] = 22,
 							["hitamount"] = 9706,
 						},
 					},
@@ -30989,11 +31087,10 @@ SkadaStorageDB = {
 						},
 						[48443] = {
 							["overheal"] = 3240,
-							["max"] = 1081,
+							["school"] = 8,
 							["count"] = 4,
 							["amount"] = 1081,
-							["school"] = 8,
-							["min"] = 1081,
+							["max"] = 1081,
 							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
@@ -31001,21 +31098,11 @@ SkadaStorageDB = {
 									["amount"] = 1081,
 								},
 							},
+							["min"] = 1081,
 						},
 					},
 					["auras"] = {
 						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -31025,15 +31112,20 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[57623] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[67358] = {
+						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 2,
+							["uptime"] = 6,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 12,
 						},
 						[48422] = {
@@ -31046,10 +31138,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
+						[67358] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 12,
+							["count"] = 1,
+						},
 					},
 					["heal"] = 2532,
-					["role"] = "HEALER",
 					["name"] = "Tumbleweed",
+					["role"] = "HEALER",
 					["flag"] = 1298,
 					["time"] = 9.879999999999999,
 					["class"] = "DRUID",
@@ -31080,9 +31178,9 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 3,
 						},
 						[12721] = {
@@ -31098,23 +31196,24 @@ SkadaStorageDB = {
 							["uptime"] = 2,
 						},
 						[12970] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 8,
+						},
+						[60065] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[60065] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
 					},
+					["totaldamage"] = 15065,
 					["time"] = 10.51,
 					["damage"] = 15065,
 					["rage"] = 3,
@@ -31135,11 +31234,11 @@ SkadaStorageDB = {
 						},
 					},
 					["overkill"] = 288,
-					["overheal"] = 633,
 					["ragespells"] = {
 						[12964] = 3,
 					},
 					["name"] = "Miracledream",
+					["overheal"] = 633,
 					["heal"] = 0,
 					["damagespells"] = {
 						["Bloodthirst"] = {
@@ -31162,12 +31261,12 @@ SkadaStorageDB = {
 							["glance"] = 1757,
 							["hitmin"] = 638,
 							["id"] = 6603,
-							["hitmax"] = 1327,
+							["hitamount"] = 2736,
 							["glancemax"] = 1121,
 							["overkill"] = 288,
 							["glancing"] = 2,
-							["hitamount"] = 2736,
 							["count"] = 5,
+							["hitmax"] = 1327,
 							["amount"] = 4493,
 							["school"] = 1,
 							["hit"] = 3,
@@ -31183,20 +31282,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1483,
 							["criticalamount"] = 3410,
 							["id"] = 47520,
-							["hitmax"] = 1483,
+							["criticalmin"] = 3410,
 							["targets"] = {
 								["Crystalline Shardling"] = {
 									["amount"] = 4893,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 4893,
-							["school"] = 1,
-							["criticalmin"] = 3410,
 							["criticalmax"] = 3410,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1483,
+							["casts"] = 1,
 							["hitamount"] = 1483,
 						},
 						["Victory Rush"] = {
@@ -31231,12 +31330,15 @@ SkadaStorageDB = {
 							["hitamount"] = 356,
 						},
 					},
-					["totaldamage"] = 15065,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
+					["time"] = 0,
 					["last"] = 4535.129,
+					["name"] = "Berdanx",
+					["role"] = "DAMAGER",
 					["id"] = "0x07000000009E540C",
+					["class"] = "MAGE",
 					["spec"] = 63,
 					["auras"] = {
 						[72221] = {
@@ -31265,14 +31367,8 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Berdanx",
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [5]
 			},
-			["type"] = "party",
-			["damagetaken"] = 6186,
 			["etotaldamage"] = 6910,
 			["overheal"] = 18493,
 			["overkill"] = 8085,
@@ -31284,9 +31380,8 @@ SkadaStorageDB = {
 			["edamage"] = 6186,
 			["last_action"] = 1699557052,
 			["endtime"] = 1699557053,
-		}, -- [13]
+		}, -- [14]
 		{
-			["starttime"] = 1699557022,
 			["mana"] = 1604,
 			["enemies"] = {
 				{
@@ -31503,8 +31598,8 @@ SkadaStorageDB = {
 							["amount"] = 2609,
 						},
 					},
-					["name"] = "Crystalline Shardling",
 					["totaldamage"] = 4185,
+					["name"] = "Crystalline Shardling",
 					["totaldamagetaken"] = 303640,
 					["id"] = "0xF130006D45000073",
 					["damage"] = 3949,
@@ -31707,8 +31802,8 @@ SkadaStorageDB = {
 							["amount"] = 1568,
 						},
 					},
-					["name"] = "Dark Rune Controller",
 					["totaldamage"] = 6433,
+					["name"] = "Dark Rune Controller",
 					["totaldamagetaken"] = 60567,
 					["id"] = "0xF130006D3E000057",
 					["damage"] = 3831,
@@ -31786,23 +31881,24 @@ SkadaStorageDB = {
 							["amount"] = 2413,
 						},
 					},
-					["name"] = "Eroded Shardling",
 					["totaldamage"] = 445,
+					["name"] = "Eroded Shardling",
 					["totaldamagetaken"] = 12272,
 					["id"] = "0xF130006D46000098",
 					["damage"] = 445,
 				}, -- [3]
 			},
-			["etotaldamage"] = 11063,
 			["totaldamage"] = 376479,
 			["time"] = 14,
-			["runic"] = 42,
+			["starttime"] = 1699557022,
 			["totaldamagetaken"] = 11063,
-			["etotaldamagetaken"] = 376479,
+			["etotaldamage"] = 11063,
 			["last_time"] = 4530.158,
-			["rage"] = 159,
+			["runic"] = 42,
 			["type"] = "party",
 			["damagetaken"] = 8225,
+			["etotaldamagetaken"] = 376479,
+			["rage"] = 159,
 			["overheal"] = 24347,
 			["players"] = {
 				{
@@ -31823,16 +31919,22 @@ SkadaStorageDB = {
 						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 3,
 							["school"] = 1,
+							["refresh"] = 3,
 							["uptime"] = 13,
 						},
 						[70657] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 2,
 							["school"] = 1,
+							["refresh"] = 2,
 							["uptime"] = 13,
+						},
+						[48443] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
 						},
 						[55078] = {
 							["type"] = "DEBUFF",
@@ -31855,9 +31957,9 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[73422] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 9,
 						},
 						[71905] = {
@@ -31884,8 +31986,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Dark Rune Controller"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 								["Crystalline Shardling"] = {
@@ -31925,9 +32027,9 @@ SkadaStorageDB = {
 							["uptime"] = 14,
 						},
 						[71561] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[55095] = {
@@ -31950,21 +32052,15 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 7,
 						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 3,
-						},
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 12,
 						},
 						[49222] = {
@@ -31987,22 +32083,22 @@ SkadaStorageDB = {
 									["amount"] = 17023,
 								},
 							},
-							["hitmax"] = 3428,
-							["count"] = 3,
-							["criticalmax"] = 7488,
+							["criticalmin"] = 6107,
 							["critical"] = 2,
+							["criticalmax"] = 7488,
+							["count"] = 3,
 							["amount"] = 17023,
 							["school"] = 1,
 							["hit"] = 1,
-							["criticalmin"] = 6107,
+							["hitmax"] = 3428,
 							["hitamount"] = 3428,
 						},
 						["Death and Decay"] = {
-							["criticalmax"] = 1522,
-							["hitmin"] = 580,
 							["criticalamount"] = 57503,
-							["id"] = 52212,
+							["hitmin"] = 580,
 							["criticalmin"] = 1212,
+							["id"] = 52212,
+							["casts"] = 1,
 							["targets"] = {
 								["Dark Rune Controller"] = {
 									["amount"] = 4848,
@@ -32016,13 +32112,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 641,
-							["critical"] = 43,
-							["casts"] = 1,
 							["count"] = 110,
-							["hit"] = 67,
-							["school"] = 32,
+							["criticalmax"] = 1522,
 							["hitmax"] = 743,
 							["amount"] = 101162,
+							["school"] = 32,
+							["hit"] = 67,
+							["critical"] = 43,
 							["hitamount"] = 43659,
 						},
 						["Icy Touch"] = {
@@ -32059,21 +32155,29 @@ SkadaStorageDB = {
 							["amount"] = 4140,
 							["hitamount"] = 4140,
 						},
-						["Claw (Earthbasher)"] = {
-							["hitmin"] = 733,
-							["id"] = 47468,
+						["Wandering Plague"] = {
+							["hitmin"] = 1299,
+							["id"] = 50526,
 							["targets"] = {
+								["Eroded Shardling"] = {
+									["amount"] = 1485,
+								},
+								["Crystalline Shardling"] = {
+									["overkill"] = 4801,
+									["amount"] = 28216,
+								},
 								["Dark Rune Controller"] = {
-									["amount"] = 1479,
+									["amount"] = 1485,
 								},
 							},
+							["overkill"] = 4801,
 							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 746,
-							["amount"] = 1479,
-							["hitamount"] = 1479,
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 32,
+							["hitmax"] = 1485,
+							["amount"] = 31186,
+							["hitamount"] = 31186,
 						},
 						["Blood Boil"] = {
 							["hitmin"] = 1526,
@@ -32085,14 +32189,14 @@ SkadaStorageDB = {
 									["amount"] = 28812,
 								},
 							},
-							["criticalmax"] = 3321,
-							["critical"] = 6,
 							["casts"] = 1,
 							["count"] = 12,
-							["hit"] = 6,
-							["school"] = 32,
+							["criticalmax"] = 3321,
 							["hitmax"] = 1551,
 							["amount"] = 28812,
+							["school"] = 32,
+							["hit"] = 6,
+							["critical"] = 6,
 							["hitamount"] = 9212,
 						},
 						["Blood-Caked Strike"] = {
@@ -32217,33 +32321,22 @@ SkadaStorageDB = {
 							["amount"] = 19412,
 							["hitamount"] = 19412,
 						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1299,
-							["id"] = 50526,
+						["Claw (Earthbasher)"] = {
+							["hitmin"] = 733,
+							["id"] = 47468,
 							["targets"] = {
-								["Eroded Shardling"] = {
-									["amount"] = 1485,
-								},
-								["Crystalline Shardling"] = {
-									["overkill"] = 4801,
-									["amount"] = 28216,
-								},
 								["Dark Rune Controller"] = {
-									["amount"] = 1485,
+									["amount"] = 1479,
 								},
 							},
-							["overkill"] = 4801,
 							["casts"] = 1,
-							["count"] = 22,
-							["hit"] = 22,
-							["school"] = 32,
-							["hitmax"] = 1485,
-							["amount"] = 31186,
-							["hitamount"] = 31186,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 746,
+							["amount"] = 1479,
+							["hitamount"] = 1479,
 						},
-					},
-					["runicspells"] = {
-						[45529] = 10,
 					},
 					["damagetaken"] = 6229,
 					["id"] = "0x070000000000D01B",
@@ -32251,16 +32344,16 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 526,
+							["max"] = 153,
+							["count"] = 18,
+							["amount"] = 1830,
+							["school"] = 1,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 526,
 									["amount"] = 1830,
 								},
 							},
-							["count"] = 18,
-							["amount"] = 1830,
-							["school"] = 1,
-							["max"] = 153,
 							["ishot"] = true,
 							["min"] = 67,
 						},
@@ -32285,10 +32378,7 @@ SkadaStorageDB = {
 							["hitmin"] = 121,
 							["criticalamount"] = 898,
 							["id"] = 6603,
-							["criticalmax"] = 316,
-							["critical"] = 3,
-							["PARRY"] = 4,
-							["amount"] = 6229,
+							["count"] = 32,
 							["sources"] = {
 								["Eroded Shardling"] = {
 									["amount"] = 445,
@@ -32300,17 +32390,23 @@ SkadaStorageDB = {
 									["amount"] = 2578,
 								},
 							},
-							["count"] = 32,
+							["critical"] = 3,
+							["amount"] = 6229,
+							["PARRY"] = 4,
+							["hitmax"] = 2578,
 							["hit"] = 19,
 							["school"] = 1,
-							["hitmax"] = 2578,
+							["criticalmax"] = 316,
 							["MISS"] = 3,
 							["hitamount"] = 5331,
 						},
 					},
-					["overkill"] = 7650,
 					["heal"] = 1830,
 					["name"] = "Urgash",
+					["runicspells"] = {
+						[45529] = 10,
+					},
+					["overkill"] = 7650,
 					["runic"] = 10,
 					["overheal"] = 2049,
 					["totaldamage"] = 232152,
@@ -32326,15 +32422,21 @@ SkadaStorageDB = {
 							["uptime"] = 14,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 8,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
+						},
+						[16870] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 1,
 						},
 						[48560] = {
 							["type"] = "DEBUFF",
@@ -32356,12 +32458,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 1,
-						},
 						[9634] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -32374,17 +32470,7 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 9,
 						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
 						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -32394,31 +32480,38 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[48443] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 					},
+					["totaldamage"] = 39011,
 					["time"] = 7.81,
 					["totaldamagetaken"] = 4834,
-					["manaspells"] = {
-						[68285] = 774,
-					},
 					["damage"] = 39011,
 					["rage"] = 126,
-					["overheal"] = 452,
 					["damagetaken"] = 1996,
 					["id"] = "0x07000000008C6185",
 					["spec"] = 103,
 					["healspells"] = {
 						[34299] = {
 							["overheal"] = 452,
+							["max"] = 1178,
+							["count"] = 1,
+							["amount"] = 1178,
+							["school"] = 1,
 							["targets"] = {
 								["Thirial"] = {
 									["overheal"] = 452,
 									["amount"] = 1178,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1178,
-							["school"] = 1,
-							["max"] = 1178,
 							["ishot"] = true,
 							["min"] = 1178,
 						},
@@ -32429,8 +32522,8 @@ SkadaStorageDB = {
 							["total"] = 4834,
 							["hitmin"] = 98,
 							["id"] = 6603,
-							["ABSORB"] = 2,
 							["hitmax"] = 821,
+							["ABSORB"] = 2,
 							["sources"] = {
 								["Crystalline Shardling"] = {
 									["total"] = 979,
@@ -32449,7 +32542,11 @@ SkadaStorageDB = {
 							["hitamount"] = 1996,
 						},
 					},
+					["overheal"] = 452,
 					["heal"] = 1178,
+					["manaspells"] = {
+						[68285] = 774,
+					},
 					["ragespells"] = {
 						[59072] = 21,
 						[16959] = 105,
@@ -32458,11 +32555,11 @@ SkadaStorageDB = {
 					["mana"] = 774,
 					["damagespells"] = {
 						["Maul"] = {
-							["blocked"] = 40,
-							["hitmin"] = 1457,
 							["criticalamount"] = 6416,
-							["id"] = 48480,
+							["hitmin"] = 1457,
 							["criticalmin"] = 2910,
+							["id"] = 48480,
+							["casts"] = 4,
 							["targets"] = {
 								["Crystalline Shardling"] = {
 									["amount"] = 8841,
@@ -32471,22 +32568,22 @@ SkadaStorageDB = {
 									["amount"] = 6734,
 								},
 							},
-							["criticalmax"] = 3506,
-							["critical"] = 2,
-							["casts"] = 4,
 							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 1,
+							["blocked"] = 40,
+							["criticalmax"] = 3506,
 							["hitmax"] = 1771,
 							["amount"] = 15575,
+							["school"] = 1,
+							["critical"] = 2,
+							["hit"] = 6,
 							["hitamount"] = 9159,
 						},
 						["Swipe (Bear)"] = {
-							["blocked"] = 80,
+							["criticalmin"] = 566,
 							["hitmin"] = 303,
 							["criticalamount"] = 12076,
 							["id"] = 48562,
-							["hitmax"] = 382,
+							["hit"] = 33,
 							["targets"] = {
 								["Eroded Shardling"] = {
 									["amount"] = 1146,
@@ -32498,14 +32595,14 @@ SkadaStorageDB = {
 									["amount"] = 1235,
 								},
 							},
-							["count"] = 52,
-							["hit"] = 33,
-							["casts"] = 5,
 							["critical"] = 19,
+							["blocked"] = 80,
+							["criticalmax"] = 764,
+							["count"] = 52,
 							["amount"] = 22761,
 							["school"] = 1,
-							["criticalmin"] = 566,
-							["criticalmax"] = 764,
+							["hitmax"] = 382,
+							["casts"] = 5,
 							["hitamount"] = 10685,
 						},
 						["Thorns"] = {
@@ -32528,7 +32625,6 @@ SkadaStorageDB = {
 							["hitamount"] = 675,
 						},
 					},
-					["totaldamage"] = 39011,
 					["role"] = "TANK",
 				}, -- [2]
 				{
@@ -32537,8 +32633,6 @@ SkadaStorageDB = {
 						[48543] = 32,
 					},
 					["id"] = "0x070000000095B7ED",
-					["overheal"] = 21846,
-					["flag"] = 1298,
 					["class"] = "DRUID",
 					["healspells"] = {
 						[48443] = {
@@ -32558,12 +32652,12 @@ SkadaStorageDB = {
 							["criticalmin"] = 237,
 							["min"] = 237,
 							["casts"] = 2,
-							["count"] = 5,
+							["critical"] = 1,
 							["amount"] = 1317,
 							["school"] = 8,
 							["criticalmax"] = 237,
 							["ishot"] = true,
-							["critical"] = 1,
+							["count"] = 5,
 						},
 						[48441] = {
 							["overheal"] = 11537,
@@ -32596,31 +32690,25 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[16886] = {
+						[33891] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 3,
+							["uptime"] = 14,
 						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[33891] = {
+						[16886] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 3,
 						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[67358] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
 							["uptime"] = 14,
 						},
 						[48422] = {
@@ -32633,98 +32721,28 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
+						[67358] = {
+							["refresh"] = 2,
+							["type"] = "BUFF",
+							["uptime"] = 14,
+							["count"] = 1,
+						},
 					},
-					["last"] = 4527.382000000001,
-					["time"] = 9.98,
-					["spec"] = 105,
-					["role"] = "HEALER",
-					["name"] = "Tumbleweed",
+					["overheal"] = 21846,
 					["heal"] = 7265,
+					["time"] = 9.98,
+					["flag"] = 1298,
+					["last"] = 4527.382000000001,
+					["spec"] = 105,
+					["name"] = "Tumbleweed",
+					["role"] = "HEALER",
 				}, -- [3]
 				{
-					["last"] = 4524.047000000001,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 2,
-							["targets"] = {
-								["Crystalline Shardling"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-								["Dark Rune Controller"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[12292] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[18499] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[29131] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 3,
-							["school"] = 1,
-							["uptime"] = 13,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 11,
-						},
-					},
-					["time"] = 7.69,
-					["damage"] = 23351,
 					["damagespells"] = {
 						["Melee"] = {
 							["glance"] = 1181,
 							["criticalamount"] = 4632,
 							["id"] = 6603,
-							["count"] = 5,
 							["targets"] = {
 								["Crystalline Shardling"] = {
 									["amount"] = 2463,
@@ -32734,6 +32752,7 @@ SkadaStorageDB = {
 								},
 							},
 							["glancemax"] = 1181,
+							["count"] = 5,
 							["glancing"] = 1,
 							["criticalmax"] = 2074,
 							["critical"] = 3,
@@ -32748,7 +32767,7 @@ SkadaStorageDB = {
 							["hitmin"] = 802,
 							["criticalamount"] = 4349,
 							["id"] = 1680,
-							["criticalmax"] = 2413,
+							["casts"] = 1,
 							["targets"] = {
 								["Dark Rune Controller"] = {
 									["amount"] = 1528,
@@ -32762,13 +32781,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 242,
-							["critical"] = 2,
-							["casts"] = 1,
 							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 1,
+							["criticalmax"] = 2413,
 							["hitmax"] = 1528,
 							["amount"] = 11966,
+							["school"] = 1,
+							["hit"] = 6,
+							["critical"] = 2,
 							["hitamount"] = 7617,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -32793,7 +32812,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1584,
 							["criticalamount"] = 3566,
 							["id"] = 47520,
-							["hitmax"] = 1584,
+							["criticalmin"] = 3566,
 							["targets"] = {
 								["Crystalline Shardling"] = {
 									["amount"] = 1584,
@@ -32802,131 +32821,108 @@ SkadaStorageDB = {
 									["amount"] = 3566,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 5150,
-							["school"] = 1,
-							["criticalmin"] = 3566,
 							["criticalmax"] = 3566,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1584,
+							["casts"] = 1,
 							["hitamount"] = 1584,
 						},
 					},
-					["id"] = "0x07000000009A86E7",
-					["spec"] = 72,
-					["overkill"] = 242,
-					["ragespells"] = {
-						[29131] = 10,
-						[12964] = 3,
-						[2687] = 20,
-					},
-					["name"] = "Miracledream",
-					["rage"] = 33,
+					["last"] = 4524.047000000001,
 					["totaldamage"] = 23351,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 4525.094,
 					["flag"] = 1298,
-					["class"] = "MAGE",
+					["class"] = "WARRIOR",
+					["id"] = "0x07000000009A86E7",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 2,
+							["targets"] = {
+								["Crystalline Shardling"] = {
+									["uptime"] = 2,
+									["count"] = 2,
+								},
+								["Dark Rune Controller"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[12292] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[12536] = {
+						[18499] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[29131] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[46916] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[12970] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
-							["uptime"] = 3,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 13,
 						},
-						[42925] = {
-							["type"] = "DEBUFF",
-							["count"] = 13,
-							["school"] = 4,
-							["targets"] = {
-								["Crystalline Shardling"] = {
-									["uptime"] = 3,
-									["count"] = 12,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[42940] = {
-							["type"] = "BUFF",
-							["count"] = 13,
-							["school"] = 16,
-							["targets"] = {
-								["Crystalline Shardling"] = {
-									["uptime"] = 2,
-									["count"] = 12,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[43046] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 10,
-							["school"] = 4,
-							["refresh"] = 2,
-							["targets"] = {
-								["Crystalline Shardling"] = {
-									["count"] = 9,
-									["refresh"] = 2,
-									["uptime"] = 5,
-								},
-								["Eroded Shardling"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[24932] = {
+						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[42926] = {
-							["type"] = "DEBUFF",
-							["count"] = 14,
-							["school"] = 4,
-							["targets"] = {
-								["Dark Rune Controller"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Crystalline Shardling"] = {
-									["uptime"] = 5,
-									["count"] = 12,
-								},
-								["Eroded Shardling"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
+							["uptime"] = 11,
 						},
 					},
-					["time"] = 8.729999999999999,
-					["damage"] = 81965,
+					["spec"] = 72,
+					["role"] = "DAMAGER",
+					["time"] = 7.69,
+					["overkill"] = 242,
+					["name"] = "Miracledream",
+					["ragespells"] = {
+						[29131] = 10,
+						[12964] = 3,
+						[2687] = 20,
+					},
+					["rage"] = 33,
+					["damage"] = 23351,
+				}, -- [4]
+				{
 					["damagespells"] = {
 						["Ignite (DoT)"] = {
 							["hitmin"] = 398,
@@ -32962,11 +32958,11 @@ SkadaStorageDB = {
 							["hitamount"] = 13176,
 						},
 						["Flamestrike"] = {
-							["count"] = 29,
+							["criticalmin"] = 1991,
 							["hitmin"] = 541,
 							["criticalamount"] = 25573,
 							["id"] = 42926,
-							["hitmax"] = 1301,
+							["critical"] = 12,
 							["targets"] = {
 								["Eroded Shardling"] = {
 									["amount"] = 2020,
@@ -32980,21 +32976,21 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 679,
-							["hit"] = 17,
-							["casts"] = 2,
-							["critical"] = 12,
 							["amount"] = 45035,
-							["school"] = 4,
-							["criticalmin"] = 1991,
 							["criticalmax"] = 2440,
+							["hitmax"] = 1301,
+							["hit"] = 17,
+							["school"] = 4,
+							["count"] = 29,
+							["casts"] = 2,
 							["hitamount"] = 19462,
 						},
 						["Blizzard"] = {
-							["hitmax"] = 950,
+							["criticalmin"] = 1237,
 							["hitmin"] = 707,
 							["criticalamount"] = 8442,
 							["id"] = 42938,
-							["count"] = 14,
+							["critical"] = 6,
 							["targets"] = {
 								["Crystalline Shardling"] = {
 									["overkill"] = 1177,
@@ -33002,13 +32998,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1177,
-							["hit"] = 8,
-							["casts"] = 1,
-							["critical"] = 6,
 							["amount"] = 14848,
-							["school"] = 16,
-							["criticalmin"] = 1237,
 							["criticalmax"] = 1663,
+							["count"] = 14,
+							["hit"] = 8,
+							["school"] = 16,
+							["hitmax"] = 950,
+							["casts"] = 1,
 							["hitamount"] = 6406,
 						},
 						["Living Bomb (DoT)"] = {
@@ -33024,28 +33020,128 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 1689,
-							["critical"] = 1,
-							["criticalmax"] = 1689,
 							["count"] = 4,
-							["hit"] = 3,
+							["criticalmax"] = 1689,
+							["critical"] = 1,
+							["amount"] = 4363,
 							["school"] = 4,
 							["hitmax"] = 965,
-							["amount"] = 4363,
+							["hit"] = 3,
 							["hitamount"] = 2674,
 						},
 					},
+					["last"] = 4525.094,
+					["mana"] = 830,
+					["flag"] = 1298,
+					["class"] = "MAGE",
 					["id"] = "0x07000000009E540C",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[12536] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 3,
+						},
+						[42925] = {
+							["type"] = "DEBUFF",
+							["count"] = 13,
+							["school"] = 4,
+							["targets"] = {
+								["Crystalline Shardling"] = {
+									["uptime"] = 3,
+									["count"] = 12,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[42940] = {
+							["type"] = "BUFF",
+							["count"] = 13,
+							["school"] = 16,
+							["targets"] = {
+								["Crystalline Shardling"] = {
+									["uptime"] = 2,
+									["count"] = 12,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[42926] = {
+							["type"] = "DEBUFF",
+							["count"] = 14,
+							["school"] = 4,
+							["targets"] = {
+								["Dark Rune Controller"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Crystalline Shardling"] = {
+									["uptime"] = 5,
+									["count"] = 12,
+								},
+								["Eroded Shardling"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[12654] = {
+							["type"] = "DEBUFF",
+							["count"] = 10,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Crystalline Shardling"] = {
+									["refresh"] = 2,
+									["count"] = 9,
+									["uptime"] = 5,
+								},
+								["Eroded Shardling"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[24932] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[42995] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[43046] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
 					["spec"] = 63,
-					["overkill"] = 1856,
-					["name"] = "Berdanx",
+					["role"] = "DAMAGER",
 					["manaspells"] = {
 						[29077] = 768,
 						[67545] = 650,
 						[44450] = -588,
 					},
-					["mana"] = 830,
+					["overkill"] = 1856,
+					["name"] = "Berdanx",
+					["time"] = 8.729999999999999,
 					["totaldamage"] = 81965,
-					["role"] = "DAMAGER",
+					["damage"] = 81965,
 				}, -- [5]
 			},
 			["overkill"] = 9748,
@@ -33057,2057 +33153,6 @@ SkadaStorageDB = {
 			["edamage"] = 8225,
 			["last_action"] = 1699557036,
 			["endtime"] = 1699557036,
-		}, -- [14]
-		{
-			["rage"] = 91,
-			["mana"] = 2748,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[43104] = {
-							["school"] = 1,
-							["total"] = 2,
-							["targets"] = {
-								["Thirial"] = {
-									["total"] = 4,
-									["amount"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 6180,
-							["targets"] = {
-								["Thirial"] = {
-									["total"] = 6180,
-									["amount"] = 4879,
-								},
-							},
-							["amount"] = 4879,
-						},
-					},
-					["damagetaken"] = 63866,
-					["id"] = "0xF130006D39000048",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[48562] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 3392,
-								},
-							},
-							["amount"] = 3392,
-						},
-						[53307] = {
-							["school"] = 8,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 364,
-								},
-							},
-							["amount"] = 364,
-						},
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 3970,
-								},
-							},
-							["amount"] = 3970,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6384,
-								},
-							},
-							["amount"] = 6384,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 3217,
-								},
-							},
-							["amount"] = 3217,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 647,
-								},
-							},
-							["amount"] = 647,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 1281,
-								},
-							},
-							["amount"] = 1281,
-						},
-						[42938] = {
-							["school"] = 16,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 7960,
-								},
-							},
-							["amount"] = 7960,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3236,
-								},
-							},
-							["amount"] = 3236,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8531,
-								},
-							},
-							["amount"] = 8531,
-						},
-						[42833] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["overkill"] = 1290,
-									["amount"] = 9600,
-								},
-							},
-							["overkill"] = 1290,
-							["amount"] = 9600,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2607,
-								},
-							},
-							["amount"] = 2607,
-						},
-						[48480] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 7081,
-								},
-							},
-							["amount"] = 7081,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1469,
-								},
-							},
-							["amount"] = 1469,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 483,
-								},
-							},
-							["amount"] = 483,
-						},
-						[48568] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 208,
-								},
-							},
-							["amount"] = 208,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3436,
-								},
-							},
-							["amount"] = 3436,
-						},
-					},
-					["totaldamage"] = 6184,
-					["name"] = "Dark Rune Worker",
-					["totaldamagetaken"] = 63866,
-					["flag"] = 2632,
-					["damage"] = 4881,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 5043,
-							["targets"] = {
-								["Urgash"] = {
-									["amount"] = 4542,
-								},
-								["Thirial"] = {
-									["total"] = 6667,
-									["amount"] = 2764,
-								},
-							},
-							["amount"] = 7306,
-						},
-						[59034] = {
-							["school"] = 32,
-							["targets"] = {
-								["Thirial"] = {
-									["amount"] = 4235,
-								},
-							},
-							["amount"] = 4235,
-						},
-					},
-					["damagetaken"] = 124150,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[48562] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 5018,
-								},
-							},
-							["amount"] = 5018,
-						},
-						[53307] = {
-							["school"] = 8,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 353,
-								},
-							},
-							["amount"] = 353,
-						},
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["overkill"] = 166,
-									["amount"] = 7277,
-								},
-							},
-							["overkill"] = 166,
-							["amount"] = 7277,
-						},
-						[55360] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 3379,
-								},
-							},
-							["amount"] = 3379,
-						},
-						[48480] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 5266,
-								},
-							},
-							["amount"] = 5266,
-						},
-						[47520] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 2545,
-								},
-							},
-							["amount"] = 2545,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3489,
-								},
-							},
-							["amount"] = 3489,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3307,
-								},
-							},
-							["amount"] = 3307,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 3900,
-								},
-							},
-							["amount"] = 3900,
-						},
-						[42938] = {
-							["school"] = 16,
-							["sources"] = {
-								["Berdanx"] = {
-									["overkill"] = 468,
-									["amount"] = 13458,
-								},
-							},
-							["overkill"] = 468,
-							["amount"] = 13458,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 19490,
-								},
-								["Miracledream"] = {
-									["amount"] = 2549,
-								},
-								["Thirial"] = {
-									["amount"] = 3200,
-								},
-							},
-							["amount"] = 25239,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 255,
-								},
-							},
-							["amount"] = 255,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2232,
-								},
-							},
-							["amount"] = 2232,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4459,
-								},
-							},
-							["amount"] = 4459,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8528,
-								},
-							},
-							["amount"] = 8528,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3902,
-								},
-							},
-							["amount"] = 3902,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2024,
-								},
-							},
-							["amount"] = 2024,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 742,
-								},
-							},
-							["amount"] = 742,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 17686,
-								},
-							},
-							["amount"] = 17686,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 768,
-								},
-							},
-							["amount"] = 768,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8958,
-								},
-							},
-							["amount"] = 8958,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 1365,
-								},
-							},
-							["amount"] = 1365,
-						},
-					},
-					["name"] = "Dark Rune Shaper",
-					["totaldamage"] = 15444,
-					["totaldamagetaken"] = 124150,
-					["id"] = "0xF130006D3D000053",
-					["damage"] = 11541,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 4430,
-							["targets"] = {
-								["Thirial"] = {
-									["total"] = 4430,
-									["amount"] = 1828,
-								},
-							},
-							["amount"] = 1828,
-						},
-					},
-					["damagetaken"] = 64387,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[48562] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 3304,
-								},
-							},
-							["amount"] = 3304,
-						},
-						[53307] = {
-							["school"] = 8,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 249,
-								},
-							},
-							["amount"] = 249,
-						},
-						[42926] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 5158,
-								},
-							},
-							["amount"] = 5158,
-						},
-						[12654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 1118,
-								},
-							},
-							["amount"] = 1118,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 6263,
-								},
-							},
-							["amount"] = 6263,
-						},
-						[47520] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 2594,
-								},
-							},
-							["amount"] = 2594,
-						},
-						[55271] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 9151,
-								},
-							},
-							["amount"] = 9151,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 2231,
-								},
-							},
-							["amount"] = 2231,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 1271,
-								},
-							},
-							["amount"] = 1271,
-						},
-						[42938] = {
-							["school"] = 16,
-							["sources"] = {
-								["Berdanx"] = {
-									["amount"] = 8075,
-								},
-							},
-							["amount"] = 8075,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1536,
-								},
-							},
-							["amount"] = 1536,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1526,
-								},
-							},
-							["amount"] = 1526,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8434,
-								},
-							},
-							["amount"] = 8434,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 519,
-									["amount"] = 1612,
-								},
-							},
-							["overkill"] = 519,
-							["amount"] = 1612,
-						},
-						[70890] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4188,
-								},
-							},
-							["amount"] = 4188,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2366,
-								},
-							},
-							["amount"] = 2366,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Miracledream"] = {
-									["amount"] = 414,
-								},
-							},
-							["amount"] = 414,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3463,
-								},
-							},
-							["amount"] = 3463,
-						},
-						[48480] = {
-							["school"] = 1,
-							["sources"] = {
-								["Thirial"] = {
-									["amount"] = 1434,
-								},
-							},
-							["amount"] = 1434,
-						},
-					},
-					["name"] = "Dark Rune Scholar",
-					["totaldamage"] = 4430,
-					["totaldamagetaken"] = 64387,
-					["id"] = "0xF130006D3C000050",
-					["damage"] = 1828,
-				}, -- [3]
-			},
-			["totaldamage"] = 252403,
-			["time"] = 20,
-			["damage"] = 252403,
-			["totaldamagetaken"] = 26058,
-			["etotaldamage"] = 26058,
-			["last_time"] = 4510.757000000001,
-			["players"] = {
-				{
-					["last"] = 4505,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 19,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 8,
-							["uptime"] = 20,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Dark Rune Shaper"] = {
-									["uptime"] = 10,
-									["count"] = 2,
-								},
-								["Dark Rune Worker"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[73422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 13,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 20,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 8,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Dark Rune Shaper"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 11,
-								},
-								["Dark Rune Worker"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 32,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Dark Rune Shaper"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-								["Dark Rune Worker"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Dark Rune Shaper"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Dark Rune Shaper"] = {
-									["uptime"] = 11,
-									["count"] = 2,
-								},
-								["Dark Rune Worker"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 4,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 13,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
-						},
-					},
-					["time"] = 13.77,
-					["totaldamagetaken"] = 4542,
-					["damage"] = 139179,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["criticalamount"] = 9151,
-							["id"] = 55271,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 9151,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 9151,
-							["school"] = 1,
-							["criticalmin"] = 9151,
-							["criticalmax"] = 9151,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["glance"] = 3603,
-							["hitmin"] = 3067,
-							["criticalmin"] = 6221,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["amount"] = 3236,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 16544,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 19780,
-							["glancemin"] = 3603,
-							["criticalamount"] = 6221,
-							["id"] = 6603,
-							["glancemax"] = 3603,
-							["criticalmax"] = 6221,
-							["hitmax"] = 3653,
-							["hit"] = 3,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 5,
-							["hitamount"] = 9956,
-						},
-						["Death and Decay"] = {
-							["hitmax"] = 888,
-							["hitmin"] = 714,
-							["criticalamount"] = 14478,
-							["id"] = 52212,
-							["criticalmin"] = 1493,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 8434,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 17686,
-								},
-								["Dark Rune Worker"] = {
-									["amount"] = 8531,
-								},
-							},
-							["criticalmax"] = 1855,
-							["critical"] = 8,
-							["casts"] = 1,
-							["count"] = 32,
-							["hit"] = 24,
-							["school"] = 32,
-							["resisted"] = 264,
-							["amount"] = 34651,
-							["hitamount"] = 20173,
-						},
-						["Icy Touch"] = {
-							["criticalamount"] = 3489,
-							["id"] = 49909,
-							["targets"] = {
-								["Dark Rune Shaper"] = {
-									["amount"] = 3489,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3489,
-							["school"] = 16,
-							["criticalmin"] = 3489,
-							["criticalmax"] = 3489,
-							["count"] = 1,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 85,
-							["id"] = 50536,
-							["targets"] = {
-								["Dark Rune Shaper"] = {
-									["amount"] = 255,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 85,
-							["amount"] = 255,
-							["hitamount"] = 255,
-						},
-						["Claw (Earthbasher)"] = {
-							["hitmin"] = 723,
-							["id"] = 47468,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 1526,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 2232,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 767,
-							["amount"] = 3758,
-							["hitamount"] = 3758,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 1469,
-							["id"] = 71904,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["amount"] = 1469,
-								},
-								["Dark Rune Scholar"] = {
-									["overkill"] = 519,
-									["amount"] = 1612,
-								},
-							},
-							["overkill"] = 519,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1612,
-							["amount"] = 3081,
-							["hitamount"] = 3081,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 4188,
-							["id"] = 70890,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 4188,
-								},
-							},
-							["hitmax"] = 4188,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 465,
-							["amount"] = 4188,
-							["hitamount"] = 4188,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 613,
-							["id"] = 51460,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["amount"] = 647,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 3307,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["hitmax"] = 1244,
-							["amount"] = 3954,
-							["hitamount"] = 3954,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1052,
-							["id"] = 55078,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 2366,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 3902,
-								},
-								["Dark Rune Worker"] = {
-									["amount"] = 2607,
-								},
-							},
-							["hitmax"] = 1314,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["resisted"] = 262,
-							["amount"] = 8875,
-							["hitamount"] = 8875,
-						},
-						["Death Coil"] = {
-							["criticalamount"] = 8528,
-							["id"] = 47632,
-							["targets"] = {
-								["Dark Rune Shaper"] = {
-									["amount"] = 8528,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 8528,
-							["school"] = 32,
-							["criticalmin"] = 8528,
-							["criticalmax"] = 8528,
-							["count"] = 1,
-						},
-						["Melee (Earthbasher)"] = {
-							["glance"] = 456,
-							["hitmin"] = 484,
-							["criticalmin"] = 1012,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 1536,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 2946,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 4482,
-							["glancemin"] = 456,
-							["criticalamount"] = 2038,
-							["id"] = 6603,
-							["glancemax"] = 456,
-							["criticalmax"] = 1026,
-							["hitmax"] = 510,
-							["hit"] = 4,
-							["school"] = 1,
-							["critical"] = 2,
-							["count"] = 7,
-							["hitamount"] = 1988,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 2024,
-							["id"] = 49921,
-							["targets"] = {
-								["Dark Rune Shaper"] = {
-									["amount"] = 2024,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2024,
-							["amount"] = 2024,
-							["hitamount"] = 2024,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1290,
-							["id"] = 55095,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 3463,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 4459,
-								},
-								["Dark Rune Worker"] = {
-									["amount"] = 3436,
-								},
-							},
-							["hitmax"] = 1732,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 16,
-							["resisted"] = 483,
-							["amount"] = 11358,
-							["hitamount"] = 11358,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1083,
-							["id"] = 50526,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["amount"] = 6384,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 8958,
-								},
-								["Dark Rune Scholar"] = {
-									["amount"] = 6263,
-								},
-							},
-							["hitmax"] = 1625,
-							["casts"] = 1,
-							["count"] = 17,
-							["hit"] = 17,
-							["school"] = 32,
-							["resisted"] = 121,
-							["amount"] = 21605,
-							["hitamount"] = 21605,
-						},
-					},
-					["totaldamage"] = 139179,
-					["damagetaken"] = 4542,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 996,
-							["max"] = 407,
-							["count"] = 12,
-							["amount"] = 923,
-							["school"] = 1,
-							["min"] = 3,
-							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 996,
-									["amount"] = 923,
-								},
-							},
-						},
-						[34299] = {
-							["overheal"] = 2334,
-							["targets"] = {
-								["Earthbasher"] = {
-									["overheal"] = 2334,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 3045,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 3045,
-							["school"] = 1,
-							["max"] = 1523,
-							["ishot"] = true,
-							["min"] = 1522,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 2169,
-							["id"] = 6603,
-							["sources"] = {
-								["Dark Rune Shaper"] = {
-									["amount"] = 4542,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2373,
-							["amount"] = 4542,
-							["hitamount"] = 4542,
-						},
-					},
-					["overkill"] = 519,
-					["heal"] = 3968,
-					["name"] = "Urgash",
-					["interrupt"] = 1,
-					["overheal"] = 3330,
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[59034] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Dark Rune Shaper"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 4504.799,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 16,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 20,
-						},
-						[48443] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 14,
-						},
-						[6795] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Shaper"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 8,
-						},
-						[9634] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[62606] = {
-							["type"] = "BUFF",
-							["count"] = 9,
-							["school"] = 8,
-							["uptime"] = 10,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48560] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Dark Rune Shaper"] = {
-									["uptime"] = 11,
-									["count"] = 2,
-								},
-								["Dark Rune Worker"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 13.56,
-					["totaldamagetaken"] = 21516,
-					["manaspells"] = {
-						[68285] = 1548,
-					},
-					["damage"] = 29869,
-					["rage"] = 84,
-					["overheal"] = 0,
-					["damagetaken"] = 13708,
-					["id"] = "0x07000000008C6185",
-					["spec"] = 103,
-					["healspells"] = {
-						[34299] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 0,
-									["amount"] = 3262,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 3262,
-							["school"] = 1,
-							["max"] = 1631,
-							["ishot"] = true,
-							["min"] = 1631,
-						},
-					},
-					["damagetakenspells"] = {
-						["Chiseling Ray"] = {
-							["hitmin"] = 4235,
-							["id"] = 59034,
-							["sources"] = {
-								["Dark Rune Shaper"] = {
-									["amount"] = 4235,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 4235,
-							["amount"] = 4235,
-							["hitamount"] = 4235,
-						},
-						["Deep Wound (DoT)"] = {
-							["total"] = 4,
-							["hitmin"] = 1,
-							["id"] = 43104,
-							["hitmax"] = 1,
-							["sources"] = {
-								["Dark Rune Worker"] = {
-									["total"] = 4,
-									["amount"] = 2,
-								},
-							},
-							["count"] = 4,
-							["ABSORB"] = 2,
-							["school"] = 1,
-							["amount"] = 2,
-							["hit"] = 2,
-							["hitamount"] = 2,
-						},
-						["Melee"] = {
-							["DODGE"] = 8,
-							["total"] = 17277,
-							["hitmin"] = 5,
-							["id"] = 6603,
-							["sources"] = {
-								["Dark Rune Scholar"] = {
-									["total"] = 4430,
-									["amount"] = 1828,
-								},
-								["Dark Rune Shaper"] = {
-									["total"] = 6667,
-									["amount"] = 2764,
-								},
-								["Dark Rune Worker"] = {
-									["total"] = 6180,
-									["amount"] = 4879,
-								},
-							},
-							["count"] = 19,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 1910,
-							["amount"] = 9471,
-							["hitamount"] = 9471,
-						},
-					},
-					["heal"] = 3262,
-					["ragespells"] = {
-						[59072] = 24,
-						[16959] = 60,
-					},
-					["name"] = "Thirial",
-					["mana"] = 1548,
-					["damagespells"] = {
-						["Melee"] = {
-							["criticalamount"] = 3200,
-							["id"] = 6603,
-							["targets"] = {
-								["Dark Rune Shaper"] = {
-									["amount"] = 3200,
-								},
-							},
-							["criticalmax"] = 1612,
-							["critical"] = 2,
-							["amount"] = 3200,
-							["school"] = 1,
-							["criticalmin"] = 1588,
-							["count"] = 2,
-						},
-						["Maul"] = {
-							["hitmin"] = 1434,
-							["criticalamount"] = 7024,
-							["id"] = 48480,
-							["hitmax"] = 1798,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["amount"] = 7081,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 5266,
-								},
-								["Dark Rune Scholar"] = {
-									["amount"] = 1434,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 4,
-							["casts"] = 4,
-							["critical"] = 2,
-							["amount"] = 13781,
-							["school"] = 1,
-							["criticalmin"] = 3498,
-							["criticalmax"] = 3526,
-							["hitamount"] = 6757,
-						},
-						["Lacerate"] = {
-							["criticalamount"] = 208,
-							["id"] = 48568,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["amount"] = 208,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 208,
-							["school"] = 1,
-							["criticalmin"] = 208,
-							["criticalmax"] = 208,
-							["count"] = 1,
-						},
-						["Swipe (Bear)"] = {
-							["blocked"] = 80,
-							["hitmin"] = 378,
-							["criticalamount"] = 5900,
-							["id"] = 48562,
-							["criticalmin"] = 836,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["amount"] = 3392,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 5018,
-								},
-								["Dark Rune Scholar"] = {
-									["amount"] = 3304,
-								},
-							},
-							["criticalmax"] = 848,
-							["critical"] = 7,
-							["casts"] = 6,
-							["count"] = 21,
-							["hit"] = 14,
-							["school"] = 1,
-							["hitmax"] = 424,
-							["amount"] = 11714,
-							["hitamount"] = 5814,
-						},
-						["Thorns"] = {
-							["hitmin"] = 83,
-							["id"] = 53307,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 249,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 353,
-								},
-								["Dark Rune Worker"] = {
-									["amount"] = 364,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 11,
-							["hit"] = 11,
-							["school"] = 8,
-							["hitmax"] = 94,
-							["amount"] = 966,
-							["hitamount"] = 966,
-						},
-					},
-					["totaldamage"] = 29869,
-				}, -- [2]
-				{
-					["rage"] = 4,
-					["last"] = 4506.599,
-					["id"] = "0x070000000095B7ED",
-					["overheal"] = 21191,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["healspells"] = {
-						[48441] = {
-							["overheal"] = 14967,
-							["max"] = 1943,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 7196,
-									["amount"] = 574,
-								},
-								["Miracledream"] = {
-									["overheal"] = 3886,
-									["amount"] = 0,
-								},
-								["Thirial"] = {
-									["overheal"] = 3885,
-									["amount"] = 5827,
-								},
-							},
-							["min"] = 574,
-							["casts"] = 3,
-							["count"] = 11,
-							["amount"] = 6401,
-							["school"] = 8,
-							["ishot"] = true,
-						},
-						[48443] = {
-							["overheal"] = 6224,
-							["criticalamount"] = 2120,
-							["max"] = 4804,
-							["targets"] = {
-								["Thirial"] = {
-									["overheal"] = 6224,
-									["amount"] = 9084,
-								},
-							},
-							["criticalmin"] = 2120,
-							["min"] = 1080,
-							["casts"] = 2,
-							["count"] = 5,
-							["amount"] = 9084,
-							["school"] = 8,
-							["criticalmax"] = 2120,
-							["ishot"] = true,
-							["critical"] = 1,
-						},
-					},
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[33891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 3,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 20,
-						},
-						[48422] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[67358] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 20,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[60062] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["ragespells"] = {
-						[48541] = 4,
-					},
-					["time"] = 13.31,
-					["spec"] = 105,
-					["role"] = "HEALER",
-					["name"] = "Tumbleweed",
-					["heal"] = 15485,
-				}, -- [3]
-				{
-					["rage"] = 3,
-					["last"] = 4504.804,
-					["spec"] = 72,
-					["damagespells"] = {
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 69,
-							["id"] = 12721,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 414,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 768,
-								},
-								["Dark Rune Worker"] = {
-									["amount"] = 483,
-								},
-							},
-							["count"] = 19,
-							["hit"] = 19,
-							["school"] = 1,
-							["hitmax"] = 128,
-							["amount"] = 1665,
-							["hitamount"] = 1665,
-						},
-						["Whirlwind"] = {
-							["DODGE"] = 1,
-							["hitmax"] = 1281,
-							["hitmin"] = 672,
-							["criticalamount"] = 7467,
-							["id"] = 1680,
-							["casts"] = 2,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 3502,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 5265,
-								},
-								["Dark Rune Worker"] = {
-									["amount"] = 4498,
-								},
-							},
-							["hit"] = 6,
-							["criticalmin"] = 1522,
-							["PARRY"] = 1,
-							["count"] = 12,
-							["amount"] = 13265,
-							["school"] = 1,
-							["criticalmax"] = 2728,
-							["critical"] = 4,
-							["hitamount"] = 5798,
-						},
-						["Melee"] = {
-							["glance"] = 532,
-							["hitmin"] = 518,
-							["glancemin"] = 532,
-							["id"] = 6603,
-							["glancemax"] = 532,
-							["targets"] = {
-								["Dark Rune Shaper"] = {
-									["amount"] = 2549,
-								},
-							},
-							["amount"] = 2549,
-							["glancing"] = 1,
-							["PARRY"] = 1,
-							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 956,
-							["MISS"] = 1,
-							["hitamount"] = 2017,
-						},
-						["Cleave"] = {
-							["hitmin"] = 1266,
-							["id"] = 47520,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 2594,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 2545,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1328,
-							["amount"] = 5139,
-							["hitamount"] = 5139,
-						},
-					},
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["ragespells"] = {
-						[12964] = 3,
-					},
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 20,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[18499] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Dark Rune Shaper"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Dark Rune Worker"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 7,
-						},
-					},
-					["id"] = "0x07000000009A86E7",
-					["time"] = 13.56,
-					["totaldamage"] = 22618,
-					["role"] = "DAMAGER",
-					["name"] = "Miracledream",
-					["damage"] = 22618,
-				}, -- [4]
-				{
-					["last"] = 4505.33,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 20,
-						},
-						[12536] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 1,
-							["uptime"] = 6,
-						},
-						[42940] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 16,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Dark Rune Shaper"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-								["Dark Rune Worker"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[43046] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[12654] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Dark Rune Shaper"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[24932] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[42995] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[42926] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 4,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Dark Rune Shaper"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-								["Dark Rune Worker"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-					},
-					["time"] = 14.07,
-					["damage"] = 60737,
-					["damagespells"] = {
-						["Fireball"] = {
-							["criticalamount"] = 9600,
-							["id"] = 42833,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["overkill"] = 1290,
-									["amount"] = 9600,
-								},
-							},
-							["overkill"] = 1290,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 9600,
-							["school"] = 4,
-							["criticalmin"] = 9600,
-							["criticalmax"] = 9600,
-							["count"] = 1,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 337,
-							["id"] = 12654,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 1118,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 742,
-								},
-							},
-							["hitmax"] = 588,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["resisted"] = 159,
-							["amount"] = 1860,
-							["hitamount"] = 1860,
-						},
-						["Blizzard"] = {
-							["critical"] = 8,
-							["criticalmin"] = 1182,
-							["hitmin"] = 679,
-							["criticalamount"] = 11610,
-							["id"] = 42938,
-							["criticalmax"] = 1663,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["amount"] = 7960,
-								},
-								["Dark Rune Shaper"] = {
-									["overkill"] = 468,
-									["amount"] = 13458,
-								},
-								["Dark Rune Scholar"] = {
-									["amount"] = 8075,
-								},
-							},
-							["overkill"] = 468,
-							["hitmax"] = 950,
-							["casts"] = 1,
-							["count"] = 29,
-							["hit"] = 21,
-							["school"] = 16,
-							["resisted"] = 616,
-							["amount"] = 29493,
-							["hitamount"] = 17883,
-						},
-						["Flamestrike"] = {
-							["hitmin"] = 1698,
-							["criticalamount"] = 2942,
-							["id"] = 42926,
-							["criticalmin"] = 2942,
-							["targets"] = {
-								["Dark Rune Worker"] = {
-									["amount"] = 1698,
-								},
-								["Dark Rune Shaper"] = {
-									["amount"] = 3597,
-								},
-								["Dark Rune Scholar"] = {
-									["amount"] = 2942,
-								},
-							},
-							["criticalmax"] = 2942,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 1807,
-							["amount"] = 8237,
-							["hitamount"] = 5295,
-						},
-						["Flamestrike (DoT)"] = {
-							["hitmin"] = 512,
-							["id"] = 42926,
-							["targets"] = {
-								["Dark Rune Scholar"] = {
-									["amount"] = 2216,
-								},
-								["Dark Rune Shaper"] = {
-									["overkill"] = 166,
-									["amount"] = 3680,
-								},
-								["Dark Rune Worker"] = {
-									["amount"] = 2272,
-								},
-							},
-							["overkill"] = 166,
-							["hitmax"] = 636,
-							["count"] = 14,
-							["hit"] = 14,
-							["school"] = 4,
-							["resisted"] = 56,
-							["amount"] = 8168,
-							["hitamount"] = 8168,
-						},
-						["Living Bomb (DoT)"] = {
-							["criticalamount"] = 3379,
-							["id"] = 55360,
-							["targets"] = {
-								["Dark Rune Shaper"] = {
-									["amount"] = 3379,
-								},
-							},
-							["criticalmax"] = 1690,
-							["critical"] = 2,
-							["amount"] = 3379,
-							["school"] = 4,
-							["criticalmin"] = 1689,
-							["count"] = 2,
-						},
-					},
-					["id"] = "0x07000000009E540C",
-					["spec"] = 63,
-					["overkill"] = 1924,
-					["name"] = "Berdanx",
-					["manaspells"] = {
-						[29077] = 1020,
-						[67545] = 260,
-						[44450] = -80,
-					},
-					["mana"] = 1200,
-					["totaldamage"] = 60737,
-					["role"] = "DAMAGER",
-				}, -- [5]
-			},
-			["type"] = "party",
-			["damagetaken"] = 18250,
-			["interrupt"] = 1,
-			["etotaldamagetaken"] = 252403,
-			["overheal"] = 24521,
-			["overkill"] = 2443,
-			["edamagetaken"] = 252403,
-			["heal"] = 22715,
-			["name"] = "Dark Rune Shaper",
-			["mobname"] = "Dark Rune Shaper",
-			["starttime"] = 1699556997,
-			["edamage"] = 18250,
-			["last_action"] = 1699557017,
-			["endtime"] = 1699557017,
 		}, -- [15]
 	},
 }
