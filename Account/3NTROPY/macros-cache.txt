@@ -92,13 +92,6 @@ MACRO 40 "missile" INV_Misc_QuestionMark
 #showtooltip arcane missiles
 /cast [nochanneling] arcane missiles
 END
-MACRO 79 "molten" INV_Misc_QuestionMark
-#showtooltip molten armor
-/equip Sunstrider's Gauntlets of Conquest
-/equip Sunstrider's Shoulderpads of Conquest
-/cast molten armor
-/equipset ttw
-END
 MACRO 32 "mouseover wand" INV_Misc_QuestionMark
 #showtooltip Shoot
 /castsequence [target=mouseover] !Shoot, !Shoot
