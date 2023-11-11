@@ -8,9 +8,9 @@ W: 232
 H: 100
 Frame: LootFrame
 FrameLevel: 9
-Anchor: RIGHT
-X: -164
-Y: -89
+Anchor: CENTER
+X: 10
+Y: -34
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -25,8 +25,8 @@ FrameLevel: 29
 Anchor: RIGHT
 X: -35
 Y: -92
-W: 269
-H: 112
+W: 260
+H: 100
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -161,7 +161,7 @@ Y: -181
 W: 100
 H: 30
 Frame: WowLuaFrame
-FrameLevel: 27
+FrameLevel: 18
 Anchor: RIGHT
 X: -86
 Y: 58
