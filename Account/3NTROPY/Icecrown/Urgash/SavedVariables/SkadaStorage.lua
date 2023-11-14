@@ -15,7 +15,7 @@ SkadaStorageDB = {
 		["heal"] = 461266,
 		["name"] = "Total",
 		["ccdone"] = 29,
-		["runic"] = 1579,
+		["starttime"] = 1699797797,
 		["players"] = {
 			{
 				["flag"] = 1298,
@@ -32,9 +32,9 @@ SkadaStorageDB = {
 				["heal"] = 85811,
 				["name"] = "Giveme",
 				["ccdone"] = 3,
-				["interrupt"] = 1,
-				["mana"] = 81918,
 				["role"] = "DAMAGER",
+				["mana"] = 81918,
+				["interrupt"] = 1,
 			}, -- [1]
 			{
 				["flag"] = 2098450,
@@ -53,8 +53,8 @@ SkadaStorageDB = {
 				["heal"] = 47073,
 				["name"] = "Guakamole",
 				["ccdone"] = 17,
-				["mana"] = 67263,
 				["role"] = "TANK",
+				["mana"] = 67263,
 			}, -- [2]
 			{
 				["flag"] = 1298,
@@ -72,8 +72,8 @@ SkadaStorageDB = {
 				["heal"] = 32191,
 				["name"] = "Xenaprincesa",
 				["ccdone"] = 2,
-				["overheal"] = 216897,
 				["role"] = "DAMAGER",
+				["overheal"] = 216897,
 			}, -- [3]
 			{
 				["flag"] = 1297,
@@ -91,9 +91,9 @@ SkadaStorageDB = {
 				["heal"] = 34097,
 				["name"] = "Urgash",
 				["ccdone"] = 7,
-				["runic"] = 503,
-				["interrupt"] = 4,
 				["role"] = "DAMAGER",
+				["interrupt"] = 4,
+				["runic"] = 503,
 			}, -- [4]
 			{
 				["flag"] = 1298,
@@ -110,18 +110,18 @@ SkadaStorageDB = {
 				["spec"] = 256,
 				["heal"] = 262094,
 				["name"] = "Niveaboy",
-				["runic"] = 288,
-				["class"] = "PRIEST",
 				["role"] = "HEALER",
+				["class"] = "PRIEST",
+				["runic"] = 288,
 			}, -- [5]
 		},
-		["starttime"] = 1699797797,
+		["runic"] = 1579,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
 			["mana"] = 59285,
-			["absorb"] = 146582,
+			["type"] = "party",
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -130,16 +130,16 @@ SkadaStorageDB = {
 							["total"] = 93038,
 							["targets"] = {
 								["Giveme"] = {
-									["total"] = 7417,
 									["amount"] = 1728,
+									["total"] = 7417,
 								},
 								["Urgash"] = {
-									["total"] = 114103,
 									["amount"] = 62716,
+									["total"] = 114103,
 								},
 								["Guakamole"] = {
-									["total"] = 57709,
 									["amount"] = 50184,
+									["total"] = 57709,
 								},
 								["Xenaprincesa"] = {
 									["amount"] = 16266,
@@ -152,8 +152,8 @@ SkadaStorageDB = {
 							["total"] = 1130,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1130,
 									["amount"] = 904,
+									["total"] = 1130,
 								},
 							},
 							["amount"] = 904,
@@ -193,14 +193,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 109676,
 						},
-						[55262] = {
-							["school"] = 1,
+						[53595] = {
+							["school"] = 2,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 24622,
+								["Guakamole"] = {
+									["amount"] = 21266,
 								},
 							},
-							["amount"] = 24622,
+							["amount"] = 21266,
 						},
 						[42463] = {
 							["school"] = 2,
@@ -289,26 +289,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 12804,
 						},
-						[47468] = {
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 71154,
+								},
+							},
+							["amount"] = 71154,
+						},
+						[35395] = {
 							["school"] = 1,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 797,
-								},
-								["Urgash"] = {
-									["amount"] = 14364,
+								["Giveme"] = {
+									["amount"] = 2104,
 								},
 							},
-							["amount"] = 15161,
-						},
-						[51963] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 54153,
-								},
-							},
-							["amount"] = 54153,
+							["amount"] = 2104,
 						},
 						[53385] = {
 							["school"] = 1,
@@ -355,14 +352,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5148,
 						},
-						[48801] = {
-							["school"] = 2,
+						[47468] = {
+							["school"] = 1,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 8493,
+								["Xenaprincesa"] = {
+									["amount"] = 797,
+								},
+								["Urgash"] = {
+									["amount"] = 14364,
 								},
 							},
-							["amount"] = 8493,
+							["amount"] = 15161,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -376,38 +376,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 179602,
 						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 5376,
-								},
-								["Urgash"] = {
-									["amount"] = 51544,
-								},
-							},
-							["amount"] = 56920,
-						},
-						[48819] = {
+						[61411] = {
 							["school"] = 2,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 12656,
-								},
 								["Guakamole"] = {
-									["amount"] = 6806,
+									["amount"] = 3734,
 								},
 							},
-							["amount"] = 19462,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 12688,
-								},
-							},
-							["amount"] = 12688,
+							["amount"] = 3734,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -424,41 +400,65 @@ SkadaStorageDB = {
 							},
 							["amount"] = 15396,
 						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 3734,
-								},
-							},
-							["amount"] = 3734,
-						},
-						[35395] = {
+						[49921] = {
 							["school"] = 1,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 2104,
-								},
-							},
-							["amount"] = 2104,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 71154,
+									["amount"] = 12688,
 								},
 							},
-							["amount"] = 71154,
+							["amount"] = 12688,
 						},
-						[53595] = {
+						[48819] = {
 							["school"] = 2,
 							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 12656,
+								},
 								["Guakamole"] = {
-									["amount"] = 21266,
+									["amount"] = 6806,
 								},
 							},
-							["amount"] = 21266,
+							["amount"] = 19462,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 5376,
+								},
+								["Urgash"] = {
+									["amount"] = 51544,
+								},
+							},
+							["amount"] = 56920,
+						},
+						[48801] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 8493,
+								},
+							},
+							["amount"] = 8493,
+						},
+						[51963] = {
+							["school"] = 8,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 54153,
+								},
+							},
+							["amount"] = 54153,
+						},
+						[55262] = {
+							["school"] = 1,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 24622,
+								},
+							},
+							["amount"] = 24622,
 						},
 					},
 					["totaldamage"] = 196625,
@@ -468,11 +468,11 @@ SkadaStorageDB = {
 					["damage"] = 131798,
 				}, -- [1]
 				{
-					["damagetaken"] = 888958,
 					["name"] = "Important targets",
-					["totaldamagetaken"] = 888958,
-					["id"] = "Important targets",
+					["damagetaken"] = 888958,
 					["class"] = "ENEMY",
+					["id"] = "Important targets",
+					["totaldamagetaken"] = 888958,
 					["fake"] = true,
 					["damagetakenspells"] = {
 						[47632] = {
@@ -505,14 +505,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 109676,
 						},
-						[55262] = {
-							["school"] = 1,
+						[53595] = {
+							["school"] = 2,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 24622,
+								["Guakamole"] = {
+									["amount"] = 21266,
 								},
 							},
-							["amount"] = 24622,
+							["amount"] = 21266,
 						},
 						[42463] = {
 							["school"] = 2,
@@ -601,26 +601,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 12804,
 						},
-						[47468] = {
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 71154,
+								},
+							},
+							["amount"] = 71154,
+						},
+						[35395] = {
 							["school"] = 1,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 797,
-								},
-								["Urgash"] = {
-									["amount"] = 14364,
+								["Giveme"] = {
+									["amount"] = 2104,
 								},
 							},
-							["amount"] = 15161,
-						},
-						[51963] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 54153,
-								},
-							},
-							["amount"] = 54153,
+							["amount"] = 2104,
 						},
 						[53385] = {
 							["school"] = 1,
@@ -667,14 +664,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5148,
 						},
-						[48801] = {
-							["school"] = 2,
+						[47468] = {
+							["school"] = 1,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 8493,
+								["Xenaprincesa"] = {
+									["amount"] = 797,
+								},
+								["Urgash"] = {
+									["amount"] = 14364,
 								},
 							},
-							["amount"] = 8493,
+							["amount"] = 15161,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -688,38 +688,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 179602,
 						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 5376,
-								},
-								["Urgash"] = {
-									["amount"] = 51544,
-								},
-							},
-							["amount"] = 56920,
-						},
-						[48819] = {
+						[61411] = {
 							["school"] = 2,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 12656,
-								},
 								["Guakamole"] = {
-									["amount"] = 6806,
+									["amount"] = 3734,
 								},
 							},
-							["amount"] = 19462,
-						},
-						[49921] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 12688,
-								},
-							},
-							["amount"] = 12688,
+							["amount"] = 3734,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -736,41 +712,65 @@ SkadaStorageDB = {
 							},
 							["amount"] = 15396,
 						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 3734,
-								},
-							},
-							["amount"] = 3734,
-						},
-						[35395] = {
+						[49921] = {
 							["school"] = 1,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 2104,
-								},
-							},
-							["amount"] = 2104,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 71154,
+									["amount"] = 12688,
 								},
 							},
-							["amount"] = 71154,
+							["amount"] = 12688,
 						},
-						[53595] = {
+						[48819] = {
 							["school"] = 2,
 							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 12656,
+								},
 								["Guakamole"] = {
-									["amount"] = 21266,
+									["amount"] = 6806,
 								},
 							},
-							["amount"] = 21266,
+							["amount"] = 19462,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 5376,
+								},
+								["Urgash"] = {
+									["amount"] = 51544,
+								},
+							},
+							["amount"] = 56920,
+						},
+						[48801] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 8493,
+								},
+							},
+							["amount"] = 8493,
+						},
+						[51963] = {
+							["school"] = 8,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 54153,
+								},
+							},
+							["amount"] = 54153,
+						},
+						[55262] = {
+							["school"] = 1,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 24622,
+								},
+							},
+							["amount"] = 24622,
 						},
 					},
 				}, -- [2]
@@ -787,8 +787,8 @@ SkadaStorageDB = {
 									["amount"] = 258,
 								},
 								["Guakamole"] = {
-									["total"] = 625,
 									["amount"] = 0,
+									["total"] = 625,
 								},
 							},
 							["amount"] = 431,
@@ -802,12 +802,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 2729,
 									["amount"] = 30085,
+									["overkill"] = 2729,
 								},
 							},
-							["overkill"] = 2729,
 							["amount"] = 30085,
+							["overkill"] = 2729,
 						},
 						[55262] = {
 							["school"] = 1,
@@ -818,14 +818,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2281,
 						},
-						[61840] = {
-							["school"] = 2,
+						[50526] = {
+							["school"] = 32,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 1271,
+								["Urgash"] = {
+									["amount"] = 13536,
 								},
 							},
-							["amount"] = 1271,
+							["amount"] = 13536,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -836,90 +836,84 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2743,
 						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["overkill"] = 1025,
-									["amount"] = 62012,
-								},
-							},
-							["overkill"] = 1025,
-							["amount"] = 62012,
-						},
-						[35395] = {
-							["school"] = 1,
-							["sources"] = {
-								["Giveme"] = {
-									["overkill"] = 2150,
-									["amount"] = 19105,
-								},
-							},
-							["overkill"] = 2150,
-							["amount"] = 19105,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["overkill"] = 1299,
-									["amount"] = 45697,
-								},
-								["Giveme"] = {
-									["amount"] = 42169,
-								},
-							},
-							["overkill"] = 1299,
-							["amount"] = 87866,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 747,
-								},
-							},
-							["amount"] = 747,
-						},
 						[31804] = {
 							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 997,
 									["amount"] = 22380,
+									["overkill"] = 997,
 								},
 								["Guakamole"] = {
 									["amount"] = 1810,
 								},
 							},
-							["overkill"] = 997,
 							["amount"] = 24190,
+							["overkill"] = 997,
 						},
-						[52212] = {
-							["school"] = 32,
+						[35395] = {
+							["school"] = 1,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["overkill"] = 3988,
-									["amount"] = 83702,
-								},
-								["Urgash"] = {
-									["overkill"] = 1757,
-									["amount"] = 74274,
+								["Giveme"] = {
+									["amount"] = 19105,
+									["overkill"] = 2150,
 								},
 							},
-							["overkill"] = 5745,
-							["amount"] = 157976,
+							["amount"] = 19105,
+							["overkill"] = 2150,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 45697,
+									["overkill"] = 1299,
+								},
+								["Giveme"] = {
+									["amount"] = 42169,
+								},
+							},
+							["amount"] = 87866,
+							["overkill"] = 1299,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 1271,
+								},
+							},
+							["amount"] = 1271,
+						},
+						[53595] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 62012,
+									["overkill"] = 1025,
+								},
+							},
+							["amount"] = 62012,
+							["overkill"] = 1025,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1309,
+								},
+							},
+							["amount"] = 1309,
 						},
 						[55271] = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 4022,
 									["amount"] = 7805,
+									["overkill"] = 4022,
 								},
 							},
-							["overkill"] = 4022,
 							["amount"] = 7805,
+							["overkill"] = 4022,
 						},
 						[49909] = {
 							["school"] = 16,
@@ -937,27 +931,21 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["overkill"] = 2120,
 									["amount"] = 10978,
+									["overkill"] = 2120,
 								},
 							},
-							["overkill"] = 2120,
 							["amount"] = 10978,
+							["overkill"] = 2120,
 						},
-						[71904] = {
-							["school"] = 32,
+						[31803] = {
+							["school"] = 2,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 2109,
-								},
-								["Urgash"] = {
-									["amount"] = 1305,
-								},
-								["Xenaprincesa"] = {
-									["amount"] = 2411,
+								["Guakamole"] = {
+									["amount"] = 3846,
 								},
 							},
-							["amount"] = 5825,
+							["amount"] = 3846,
 						},
 						[48827] = {
 							["school"] = 2,
@@ -972,19 +960,19 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 22791,
 									["amount"] = 75698,
+									["overkill"] = 22791,
 								},
 							},
-							["overkill"] = 22791,
 							["amount"] = 75698,
+							["overkill"] = 22791,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 1466,
 									["amount"] = 15891,
+									["overkill"] = 1466,
 								},
 								["Urgash"] = {
 									["amount"] = 8256,
@@ -993,12 +981,12 @@ SkadaStorageDB = {
 									["amount"] = 17672,
 								},
 								["Xenaprincesa"] = {
-									["overkill"] = 6465,
 									["amount"] = 19997,
+									["overkill"] = 6465,
 								},
 							},
-							["overkill"] = 7931,
 							["amount"] = 61816,
+							["overkill"] = 7931,
 						},
 						[71433] = {
 							["school"] = 1,
@@ -1027,25 +1015,29 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1717,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1049,
-									["amount"] = 5161,
-								},
-							},
-							["overkill"] = 1049,
-							["amount"] = 5161,
-						},
-						[49941] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 83702,
+									["overkill"] = 3988,
+								},
 								["Urgash"] = {
-									["amount"] = 7512,
+									["amount"] = 74274,
+									["overkill"] = 1757,
 								},
 							},
-							["amount"] = 7512,
+							["amount"] = 157976,
+							["overkill"] = 5745,
+						},
+						[42463] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 1183,
+								},
+							},
+							["amount"] = 1183,
 						},
 						[54043] = {
 							["school"] = 2,
@@ -1063,39 +1055,47 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 1559,
 									["amount"] = 7289,
+									["overkill"] = 1559,
 								},
 							},
-							["overkill"] = 1559,
 							["amount"] = 7289,
+							["overkill"] = 1559,
 						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1183,
-								},
-							},
-							["amount"] = 1183,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 3846,
-								},
-							},
-							["amount"] = 3846,
-						},
-						[51460] = {
+						[49941] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1309,
+									["amount"] = 7512,
 								},
 							},
-							["amount"] = 1309,
+							["amount"] = 7512,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5161,
+									["overkill"] = 1049,
+								},
+							},
+							["amount"] = 5161,
+							["overkill"] = 1049,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 2109,
+								},
+								["Urgash"] = {
+									["amount"] = 1305,
+								},
+								["Xenaprincesa"] = {
+									["amount"] = 2411,
+								},
+							},
+							["amount"] = 5825,
 						},
 						[67485] = {
 							["school"] = 2,
@@ -1106,14 +1106,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7727,
 						},
-						[50526] = {
-							["school"] = 32,
+						[50463] = {
+							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 13536,
+									["amount"] = 747,
 								},
 							},
-							["amount"] = 13536,
+							["amount"] = 747,
 						},
 					},
 					["totaldamage"] = 1056,
@@ -1129,8 +1129,8 @@ SkadaStorageDB = {
 							["total"] = 5521,
 							["targets"] = {
 								["Urgash"] = {
-									["total"] = 8960,
 									["amount"] = 4841,
+									["total"] = 8960,
 								},
 							},
 							["amount"] = 4841,
@@ -1140,8 +1140,8 @@ SkadaStorageDB = {
 							["total"] = 27198,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 31478,
 									["amount"] = 22685,
+									["total"] = 31478,
 								},
 							},
 							["amount"] = 22685,
@@ -1151,16 +1151,16 @@ SkadaStorageDB = {
 							["total"] = 18683,
 							["targets"] = {
 								["Xenaprincesa"] = {
-									["total"] = 12222,
 									["amount"] = 5966,
+									["total"] = 12222,
 								},
 								["Urgash"] = {
-									["total"] = 5588,
 									["amount"] = 0,
+									["total"] = 5588,
 								},
 								["Giveme"] = {
-									["total"] = 6111,
 									["amount"] = 422,
+									["total"] = 6111,
 								},
 							},
 							["amount"] = 6388,
@@ -1177,12 +1177,45 @@ SkadaStorageDB = {
 									["amount"] = 11175,
 								},
 								["Urgash"] = {
-									["overkill"] = 2847,
 									["amount"] = 51207,
+									["overkill"] = 2847,
 								},
 							},
-							["overkill"] = 2847,
 							["amount"] = 62382,
+							["overkill"] = 2847,
+						},
+						[42463] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 5985,
+								},
+								["Giveme"] = {
+									["amount"] = 11224,
+								},
+							},
+							["amount"] = 17209,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 10181,
+								},
+							},
+							["amount"] = 10181,
+						},
+						[31804] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 35709,
+								},
+								["Guakamole"] = {
+									["amount"] = 9453,
+								},
+							},
+							["amount"] = 45162,
 						},
 						[49930] = {
 							["school"] = 1,
@@ -1193,50 +1226,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 10262,
 						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 10456,
-								},
-								["Giveme"] = {
-									["overkill"] = 26,
-									["amount"] = 3649,
-								},
-							},
-							["overkill"] = 26,
-							["amount"] = 14105,
-						},
-						[61840] = {
-							["school"] = 2,
-							["sources"] = {
-								["Giveme"] = {
-									["overkill"] = 1540,
-									["amount"] = 8056,
-								},
-							},
-							["overkill"] = 1540,
-							["amount"] = 8056,
-						},
-						[55262] = {
-							["school"] = 1,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["overkill"] = 2037,
-									["amount"] = 50348,
-								},
-							},
-							["overkill"] = 2037,
-							["amount"] = 50348,
-						},
-						[50526] = {
+						[51460] = {
 							["school"] = 32,
 							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 5843,
+								},
 								["Urgash"] = {
-									["amount"] = 31584,
+									["amount"] = 12511,
 								},
 							},
-							["amount"] = 31584,
+							["amount"] = 18354,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -1263,42 +1263,46 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 2334,
 									["amount"] = 23240,
+									["overkill"] = 2334,
 								},
 							},
-							["overkill"] = 2334,
 							["amount"] = 23240,
+							["overkill"] = 2334,
 						},
-						[48819] = {
+						[31803] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 10181,
+									["amount"] = 10456,
+								},
+								["Giveme"] = {
+									["amount"] = 3649,
+									["overkill"] = 26,
 								},
 							},
-							["amount"] = 10181,
+							["amount"] = 14105,
+							["overkill"] = 26,
 						},
-						[50463] = {
-							["school"] = 1,
+						[61840] = {
+							["school"] = 2,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 4804,
+								["Giveme"] = {
+									["amount"] = 8056,
+									["overkill"] = 1540,
 								},
+							},
+							["amount"] = 8056,
+							["overkill"] = 1540,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 7722,
+									["amount"] = 31584,
 								},
 							},
-							["amount"] = 12526,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 47931,
-								},
-							},
-							["amount"] = 47931,
+							["amount"] = 31584,
 						},
 						[70890] = {
 							["school"] = 32,
@@ -1339,17 +1343,19 @@ SkadaStorageDB = {
 							},
 							["amount"] = 16647,
 						},
-						[52212] = {
-							["school"] = 32,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["amount"] = 20134,
+									["amount"] = 15450,
 								},
 								["Urgash"] = {
-									["amount"] = 9759,
+									["amount"] = 30197,
+									["overkill"] = 1754,
 								},
 							},
-							["amount"] = 29893,
+							["amount"] = 45647,
+							["overkill"] = 1754,
 						},
 						[48827] = {
 							["school"] = 2,
@@ -1373,8 +1379,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 4205,
 									["amount"] = 42630,
+									["overkill"] = 4205,
 								},
 								["Urgash"] = {
 									["amount"] = 85549,
@@ -1383,12 +1389,12 @@ SkadaStorageDB = {
 									["amount"] = 20073,
 								},
 								["Xenaprincesa"] = {
-									["overkill"] = 11871,
 									["amount"] = 42623,
+									["overkill"] = 11871,
 								},
 							},
-							["overkill"] = 16076,
 							["amount"] = 190875,
+							["overkill"] = 16076,
 						},
 						[71433] = {
 							["school"] = 1,
@@ -1417,19 +1423,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 19201,
 						},
-						[55095] = {
-							["school"] = 16,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["amount"] = 15450,
+									["amount"] = 20134,
 								},
 								["Urgash"] = {
-									["overkill"] = 1754,
-									["amount"] = 30197,
+									["amount"] = 9759,
 								},
 							},
-							["overkill"] = 1754,
-							["amount"] = 45647,
+							["amount"] = 29893,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -1471,39 +1475,36 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["overkill"] = 6047,
 									["amount"] = 6661,
+									["overkill"] = 6047,
 								},
 								["Giveme"] = {
 									["amount"] = 9319,
 								},
 							},
-							["overkill"] = 6047,
 							["amount"] = 15980,
+							["overkill"] = 6047,
 						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 5843,
-								},
-								["Urgash"] = {
-									["amount"] = 12511,
-								},
-							},
-							["amount"] = 18354,
-						},
-						[31804] = {
+						[53595] = {
 							["school"] = 2,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 35709,
-								},
 								["Guakamole"] = {
-									["amount"] = 9453,
+									["amount"] = 47931,
 								},
 							},
-							["amount"] = 45162,
+							["amount"] = 47931,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 4804,
+								},
+								["Urgash"] = {
+									["amount"] = 7722,
+								},
+							},
+							["amount"] = 12526,
 						},
 						[67485] = {
 							["school"] = 2,
@@ -1514,17 +1515,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4366,
 						},
-						[42463] = {
-							["school"] = 2,
+						[55262] = {
+							["school"] = 1,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 5985,
-								},
-								["Giveme"] = {
-									["amount"] = 11224,
+								["Xenaprincesa"] = {
+									["amount"] = 50348,
+									["overkill"] = 2037,
 								},
 							},
-							["amount"] = 17209,
+							["amount"] = 50348,
+							["overkill"] = 2037,
 						},
 					},
 					["totaldamage"] = 64359,
@@ -1540,16 +1540,16 @@ SkadaStorageDB = {
 							["total"] = 63571,
 							["targets"] = {
 								["Xenaprincesa"] = {
-									["total"] = 39775,
 									["amount"] = 14605,
+									["total"] = 39775,
 								},
 								["Urgash"] = {
-									["total"] = 8190,
 									["amount"] = 6483,
+									["total"] = 8190,
 								},
 								["Guakamole"] = {
-									["total"] = 23994,
 									["amount"] = 13818,
+									["total"] = 23994,
 								},
 								["Giveme"] = {
 									["amount"] = 19263,
@@ -1565,12 +1565,12 @@ SkadaStorageDB = {
 									["amount"] = 2918,
 								},
 								["Urgash"] = {
-									["total"] = 6956,
 									["amount"] = 818,
+									["total"] = 6956,
 								},
 								["Guakamole"] = {
-									["total"] = 2433,
 									["amount"] = 0,
+									["total"] = 2433,
 								},
 								["Giveme"] = {
 									["amount"] = 2673,
@@ -1586,8 +1586,8 @@ SkadaStorageDB = {
 									["amount"] = 1432,
 								},
 								["Urgash"] = {
-									["total"] = 4457,
 									["amount"] = 1468,
+									["total"] = 4457,
 								},
 							},
 							["amount"] = 2900,
@@ -1634,12 +1634,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 828,
 									["amount"] = 9261,
+									["overkill"] = 828,
 								},
 							},
-							["overkill"] = 828,
 							["amount"] = 9261,
+							["overkill"] = 828,
 						},
 						[48801] = {
 							["school"] = 2,
@@ -1819,12 +1819,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 2845,
 									["amount"] = 27447,
+									["overkill"] = 2845,
 								},
 							},
-							["overkill"] = 2845,
 							["amount"] = 27447,
+							["overkill"] = 2845,
 						},
 						[52212] = {
 							["school"] = 32,
@@ -1842,36 +1842,38 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 1342,
 									["amount"] = 21040,
+									["overkill"] = 1342,
 								},
 								["Urgash"] = {
 									["amount"] = 13241,
 								},
 							},
-							["overkill"] = 1342,
 							["amount"] = 34281,
+							["overkill"] = 1342,
 						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7990,
-								},
-							},
-							["amount"] = 7990,
-						},
-						[54043] = {
+						[53595] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 232,
-								},
-								["Urgash"] = {
-									["amount"] = 387,
+									["amount"] = 47017,
 								},
 							},
-							["amount"] = 619,
+							["amount"] = 47017,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 8577,
+									["overkill"] = 1671,
+								},
+								["Urgash"] = {
+									["amount"] = 9376,
+								},
+							},
+							["amount"] = 17953,
+							["overkill"] = 1671,
 						},
 						[48952] = {
 							["school"] = 2,
@@ -1900,17 +1902,25 @@ SkadaStorageDB = {
 							},
 							["amount"] = 25636,
 						},
-						[49909] = {
-							["school"] = 16,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 15210,
+								["Giveme"] = {
+									["amount"] = 76764,
 								},
 								["Urgash"] = {
-									["amount"] = 6058,
+									["amount"] = 97551,
+									["overkill"] = 152,
+								},
+								["Guakamole"] = {
+									["amount"] = 18745,
+								},
+								["Xenaprincesa"] = {
+									["amount"] = 122021,
 								},
 							},
-							["amount"] = 21268,
+							["amount"] = 315081,
+							["overkill"] = 152,
 						},
 						[42463] = {
 							["school"] = 2,
@@ -1933,25 +1943,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 63896,
 						},
-						[6603] = {
-							["school"] = 1,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 76764,
+								["Xenaprincesa"] = {
+									["amount"] = 15210,
 								},
 								["Urgash"] = {
-									["overkill"] = 152,
-									["amount"] = 97551,
-								},
-								["Guakamole"] = {
-									["amount"] = 18745,
-								},
-								["Xenaprincesa"] = {
-									["amount"] = 122021,
+									["amount"] = 6058,
 								},
 							},
-							["overkill"] = 152,
-							["amount"] = 315081,
+							["amount"] = 21268,
 						},
 						[70890] = {
 							["school"] = 32,
@@ -1962,28 +1964,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 11620,
 						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["overkill"] = 1671,
-									["amount"] = 8577,
-								},
-								["Urgash"] = {
-									["amount"] = 9376,
-								},
-							},
-							["overkill"] = 1671,
-							["amount"] = 17953,
-						},
-						[53595] = {
+						[54043] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 47017,
+									["amount"] = 232,
+								},
+								["Urgash"] = {
+									["amount"] = 387,
 								},
 							},
-							["amount"] = 47017,
+							["amount"] = 619,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 7990,
+								},
+							},
+							["amount"] = 7990,
 						},
 					},
 					["totaldamage"] = 112091,
@@ -1993,13 +1993,9 @@ SkadaStorageDB = {
 					["damage"] = 63478,
 				}, -- [5]
 			},
-			["runic"] = 1125,
+			["overheal"] = 303997,
 			["totaldamage"] = 3545689,
 			["time"] = 366,
-			["overheal"] = 303997,
-			["totaldamagetaken"] = 374131,
-			["etotaldamagetaken"] = 3545689,
-			["last_time"] = 13526.829,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -2212,11 +2208,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 366,
 						},
-						[71561] = {
-							["school"] = 1,
+						[49222] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 343,
 						},
 						[48111] = {
 							["type"] = "BUFF",
@@ -2231,23 +2228,16 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 366,
 						},
-						[48792] = {
-							["school"] = 1,
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 366,
 						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
+						[48266] = {
 							["school"] = 1,
-							["targets"] = {
-								["Risen Witch Doctor"] = {
-									["uptime"] = 9,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 9,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 224,
 						},
 						[47930] = {
 							["type"] = "BUFF",
@@ -2261,82 +2251,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 13,
 							["uptime"] = 340,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 6,
-							["uptime"] = 90,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 21,
-							["uptime"] = 72,
-						},
-						[49206] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["The Lich King"] = {
-									["uptime"] = 40,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 40,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 8,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 184,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 10,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 81,
-						},
-						[48263] = {
-							["school"] = 16,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 45,
-						},
-						[71559] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 30,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 366,
-						},
-						[48265] = {
-							["school"] = 32,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 97,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["refresh"] = 41,
-							["uptime"] = 184,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 22,
-							["uptime"] = 348,
 						},
 						[49938] = {
 							["type"] = "DEBUFF",
@@ -2362,23 +2276,105 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 62,
 						},
-						[48266] = {
-							["school"] = 1,
+						[70657] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["uptime"] = 224,
+							["school"] = 1,
+							["refresh"] = 21,
+							["uptime"] = 72,
 						},
-						[72221] = {
+						[63944] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 22,
+							["uptime"] = 348,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 8,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 184,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 10,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 81,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 41,
+							["uptime"] = 184,
+						},
+						[49206] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["The Lich King"] = {
+									["uptime"] = 40,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 40,
+						},
+						[48263] = {
+							["school"] = 16,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 45,
+						},
+						[48265] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 97,
+						},
+						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 366,
 						},
-						[49222] = {
+						[71559] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 343,
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 6,
+							["uptime"] = 90,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Risen Witch Doctor"] = {
+									["uptime"] = 9,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[48792] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[71561] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
 						},
 					},
 					["absorbspells"] = {
@@ -2397,15 +2393,15 @@ SkadaStorageDB = {
 					["totaldamage"] = 1502986,
 					["time"] = 269.59,
 					["totaldamagetaken"] = 148512,
-					["interrupt"] = 2,
+					["role"] = "DAMAGER",
 					["damage"] = 1502986,
 					["damagespells"] = {
 						["Scourge Strike"] = {
-							["criticalmin"] = 7805,
-							["hitmin"] = 3886,
 							["criticalamount"] = 48589,
+							["hitmin"] = 3886,
+							["criticalmin"] = 7805,
 							["id"] = 55271,
-							["criticalmax"] = 12081,
+							["count"] = 9,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 22177,
@@ -2417,18 +2413,18 @@ SkadaStorageDB = {
 									["amount"] = 13373,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 4022,
 									["amount"] = 7805,
+									["overkill"] = 4022,
 								},
 							},
 							["overkill"] = 4022,
+							["amount"] = 65848,
+							["criticalmax"] = 12081,
 							["hitmax"] = 4667,
-							["casts"] = 9,
-							["critical"] = 5,
 							["hit"] = 4,
 							["school"] = 1,
-							["amount"] = 65848,
-							["count"] = 9,
+							["critical"] = 5,
+							["casts"] = 9,
 							["hitamount"] = 17259,
 						},
 						["Chaos Bane"] = {
@@ -2472,14 +2468,14 @@ SkadaStorageDB = {
 									["amount"] = 10262,
 								},
 							},
+							["criticalmax"] = 5875,
+							["critical"] = 5,
+							["casts"] = 9,
 							["count"] = 8,
 							["hit"] = 3,
-							["casts"] = 9,
-							["hitmax"] = 3101,
-							["amount"] = 34280,
 							["school"] = 1,
-							["critical"] = 5,
-							["criticalmax"] = 5875,
+							["amount"] = 34280,
+							["hitmax"] = 3101,
 							["hitamount"] = 8283,
 						},
 						["Unholy Blight (DoT)"] = {
@@ -2499,8 +2495,8 @@ SkadaStorageDB = {
 									["amount"] = 294,
 								},
 							},
-							["hitmax"] = 242,
 							["count"] = 79,
+							["hitmax"] = 242,
 							["hit"] = 79,
 							["school"] = 32,
 							["resisted"] = 348,
@@ -2524,9 +2520,9 @@ SkadaStorageDB = {
 									["amount"] = 13536,
 								},
 							},
-							["hitmax"] = 1976,
-							["casts"] = 1,
 							["count"] = 98,
+							["casts"] = 1,
+							["hitmax"] = 1976,
 							["hit"] = 98,
 							["school"] = 32,
 							["resisted"] = 4655,
@@ -2534,11 +2530,11 @@ SkadaStorageDB = {
 							["hitamount"] = 139771,
 						},
 						["Claw (Pebblebasher)"] = {
-							["criticalamount"] = 7634,
-							["hitmin"] = 796,
 							["criticalmin"] = 1818,
+							["hitmin"] = 796,
+							["criticalamount"] = 7634,
 							["id"] = 47468,
-							["criticalmax"] = 2024,
+							["amount"] = 47239,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 19201,
@@ -2553,14 +2549,14 @@ SkadaStorageDB = {
 									["amount"] = 1717,
 								},
 							},
+							["count"] = 45,
+							["hit"] = 41,
+							["criticalmax"] = 2024,
 							["hitmax"] = 1287,
 							["blocked"] = 40,
-							["casts"] = 1,
-							["critical"] = 4,
-							["hit"] = 41,
 							["school"] = 1,
-							["count"] = 45,
-							["amount"] = 47239,
+							["critical"] = 4,
+							["casts"] = 1,
 							["hitamount"] = 39605,
 						},
 						["Melee (Pebblebasher)"] = {
@@ -2605,8 +2601,8 @@ SkadaStorageDB = {
 									["amount"] = 62585,
 								},
 								["Lumbering Abomination"] = {
-									["overkill"] = 152,
 									["amount"] = 73305,
+									["overkill"] = 152,
 								},
 								["The Lich King"] = {
 									["amount"] = 58570,
@@ -2622,13 +2618,13 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["glancemax"] = 4387,
 							["overkill"] = 152,
-							["PARRY"] = 3,
 							["criticalmax"] = 9523,
+							["PARRY"] = 3,
 							["critical"] = 15,
 							["hit"] = 16,
 							["school"] = 1,
-							["hitmax"] = 4059,
 							["count"] = 46,
+							["hitmax"] = 4059,
 							["hitamount"] = 55786,
 						},
 						["Blood-Caked Strike"] = {
@@ -2656,6 +2652,36 @@ SkadaStorageDB = {
 							["amount"] = 22907,
 							["hitamount"] = 22907,
 						},
+						["Icy Touch"] = {
+							["criticalamount"] = 27275,
+							["hitmin"] = 1629,
+							["criticalmin"] = 4064,
+							["id"] = 49909,
+							["casts"] = 15,
+							["targets"] = {
+								["Risen Witch Doctor"] = {
+									["amount"] = 24107,
+								},
+								["Lumbering Abomination"] = {
+									["amount"] = 6058,
+								},
+								["The Lich King"] = {
+									["amount"] = 11602,
+								},
+								["Raging Ghoul"] = {
+									["amount"] = 4064,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 45831,
+							["criticalmax"] = 6378,
+							["critical"] = 5,
+							["hit"] = 10,
+							["school"] = 16,
+							["resisted"] = 618,
+							["hitmax"] = 2120,
+							["hitamount"] = 18556,
+						},
 						["Scourge Strike (Shadow)"] = {
 							["hitmin"] = 2007,
 							["id"] = 70890,
@@ -2670,36 +2696,14 @@ SkadaStorageDB = {
 									["amount"] = 11620,
 								},
 							},
-							["hitmax"] = 6241,
-							["casts"] = 1,
 							["count"] = 8,
+							["casts"] = 1,
+							["hitmax"] = 6241,
 							["hit"] = 8,
 							["school"] = 32,
 							["resisted"] = 244,
 							["amount"] = 29374,
 							["hitamount"] = 29374,
-						},
-						["Retribution Aura"] = {
-							["hitmin"] = 359,
-							["id"] = 54043,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["amount"] = 387,
-								},
-								["Risen Witch Doctor"] = {
-									["amount"] = 1089,
-								},
-								["Raging Ghoul"] = {
-									["amount"] = 779,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["hitmax"] = 390,
-							["amount"] = 2255,
-							["hitamount"] = 2255,
 						},
 						["Blood Boil"] = {
 							["hitmin"] = 1019,
@@ -2711,14 +2715,14 @@ SkadaStorageDB = {
 									["amount"] = 7512,
 								},
 							},
+							["criticalmax"] = 2222,
+							["critical"] = 2,
+							["casts"] = 1,
 							["count"] = 5,
 							["hit"] = 3,
-							["casts"] = 1,
-							["hitmax"] = 1053,
-							["amount"] = 7512,
 							["school"] = 32,
-							["critical"] = 2,
-							["criticalmax"] = 2222,
+							["amount"] = 7512,
+							["hitmax"] = 1053,
 							["hitamount"] = 3108,
 						},
 						["Death and Decay"] = {
@@ -2735,8 +2739,8 @@ SkadaStorageDB = {
 									["amount"] = 51544,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 1757,
 									["amount"] = 74274,
+									["overkill"] = 1757,
 								},
 							},
 							["amount"] = 161418,
@@ -2745,13 +2749,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 75444,
 							["id"] = 52212,
 							["overkill"] = 1757,
-							["criticalmax"] = 2437,
 							["casts"] = 7,
+							["criticalmax"] = 2437,
 							["count"] = 134,
 							["hit"] = 93,
 							["school"] = 32,
-							["critical"] = 39,
 							["hitmax"] = 1193,
+							["critical"] = 39,
 							["hitamount"] = 85974,
 						},
 						["Necrosis"] = {
@@ -2771,9 +2775,9 @@ SkadaStorageDB = {
 									["amount"] = 1309,
 								},
 							},
-							["hitmax"] = 1770,
-							["casts"] = 1,
 							["count"] = 39,
+							["casts"] = 1,
+							["hitmax"] = 1770,
 							["hit"] = 39,
 							["school"] = 32,
 							["resisted"] = 699,
@@ -2797,72 +2801,20 @@ SkadaStorageDB = {
 									["amount"] = 2743,
 								},
 							},
-							["hitmax"] = 1908,
 							["count"] = 105,
+							["hitmax"] = 1908,
 							["hit"] = 105,
 							["school"] = 32,
 							["resisted"] = 7518,
 							["amount"] = 155937,
 							["hitamount"] = 155937,
 						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["hitmin"] = 2760,
-							["id"] = 51963,
-							["targets"] = {
-								["The Lich King"] = {
-									["amount"] = 54153,
-								},
-							},
-							["hitmax"] = 3916,
-							["amount"] = 54153,
-							["casts"] = 1,
-							["count"] = 17,
-							["hit"] = 16,
-							["school"] = 8,
-							["resisted"] = 5100,
-							["MISS"] = 1,
-							["hitamount"] = 54153,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 2915,
-							["criticalmin"] = 6565,
-							["targets"] = {
-								["Risen Witch Doctor"] = {
-									["overkill"] = 2847,
-									["amount"] = 51207,
-								},
-								["Lumbering Abomination"] = {
-									["amount"] = 19667,
-								},
-								["The Lich King"] = {
-									["amount"] = 52248,
-								},
-								["Raging Ghoul"] = {
-									["overkill"] = 2729,
-									["amount"] = 30085,
-								},
-							},
-							["amount"] = 153207,
-							["resisted"] = 6962,
-							["MISS"] = 2,
-							["criticalamount"] = 86640,
-							["id"] = 47632,
-							["overkill"] = 5576,
-							["hitmax"] = 5017,
-							["casts"] = 28,
-							["count"] = 28,
-							["hit"] = 16,
-							["school"] = 32,
-							["criticalmax"] = 10539,
-							["critical"] = 10,
-							["hitamount"] = 66567,
-						},
 						["Plague Strike"] = {
-							["criticalamount"] = 37940,
-							["hitmin"] = 2282,
 							["criticalmin"] = 4339,
+							["hitmin"] = 2282,
+							["criticalamount"] = 37940,
 							["id"] = 49921,
-							["casts"] = 14,
+							["critical"] = 7,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 29150,
@@ -2874,23 +2826,75 @@ SkadaStorageDB = {
 									["amount"] = 11223,
 								},
 							},
-							["PARRY"] = 1,
-							["hit"] = 6,
-							["criticalmax"] = 6467,
-							["count"] = 14,
-							["amount"] = 53061,
-							["school"] = 1,
 							["hitmax"] = 3119,
-							["critical"] = 7,
+							["amount"] = 53061,
+							["casts"] = 14,
+							["count"] = 14,
+							["hit"] = 6,
+							["school"] = 1,
+							["criticalmax"] = 6467,
+							["PARRY"] = 1,
 							["hitamount"] = 15121,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 2915,
+							["criticalmin"] = 6565,
+							["targets"] = {
+								["Risen Witch Doctor"] = {
+									["amount"] = 51207,
+									["overkill"] = 2847,
+								},
+								["Lumbering Abomination"] = {
+									["amount"] = 19667,
+								},
+								["The Lich King"] = {
+									["amount"] = 52248,
+								},
+								["Raging Ghoul"] = {
+									["amount"] = 30085,
+									["overkill"] = 2729,
+								},
+							},
+							["amount"] = 153207,
+							["resisted"] = 6962,
+							["MISS"] = 2,
+							["criticalamount"] = 86640,
+							["id"] = 47632,
+							["overkill"] = 5576,
+							["count"] = 28,
+							["casts"] = 28,
+							["hitmax"] = 5017,
+							["hit"] = 16,
+							["school"] = 32,
+							["critical"] = 10,
+							["criticalmax"] = 10539,
+							["hitamount"] = 66567,
+						},
+						["Gargoyle Strike (Ebon Gargoyle)"] = {
+							["hitmin"] = 2760,
+							["id"] = 51963,
+							["targets"] = {
+								["The Lich King"] = {
+									["amount"] = 54153,
+								},
+							},
+							["count"] = 17,
+							["hit"] = 16,
+							["casts"] = 1,
+							["hitmax"] = 3916,
+							["amount"] = 54153,
+							["school"] = 8,
+							["resisted"] = 5100,
+							["MISS"] = 1,
+							["hitamount"] = 54153,
 						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 1186,
 							["id"] = 55095,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
-									["overkill"] = 1754,
 									["amount"] = 30197,
+									["overkill"] = 1754,
 								},
 								["Lumbering Abomination"] = {
 									["amount"] = 28055,
@@ -2899,54 +2903,155 @@ SkadaStorageDB = {
 									["amount"] = 133338,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 1049,
 									["amount"] = 5161,
+									["overkill"] = 1049,
 								},
 							},
 							["overkill"] = 2803,
-							["hitmax"] = 2271,
 							["count"] = 111,
+							["hitmax"] = 2271,
 							["hit"] = 111,
 							["school"] = 16,
 							["resisted"] = 9461,
 							["amount"] = 196751,
 							["hitamount"] = 196751,
 						},
-						["Icy Touch"] = {
-							["criticalmin"] = 4064,
-							["hitmin"] = 1629,
-							["criticalamount"] = 27275,
-							["id"] = 49909,
-							["critical"] = 5,
+						["Retribution Aura"] = {
+							["hitmin"] = 359,
+							["id"] = 54043,
 							["targets"] = {
-								["Risen Witch Doctor"] = {
-									["amount"] = 24107,
-								},
 								["Lumbering Abomination"] = {
-									["amount"] = 6058,
+									["amount"] = 387,
 								},
-								["The Lich King"] = {
-									["amount"] = 11602,
+								["Risen Witch Doctor"] = {
+									["amount"] = 1089,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 4064,
+									["amount"] = 779,
 								},
 							},
-							["hitmax"] = 2120,
-							["hit"] = 10,
-							["criticalmax"] = 6378,
-							["count"] = 15,
-							["amount"] = 45831,
-							["school"] = 16,
-							["resisted"] = 618,
-							["casts"] = 15,
-							["hitamount"] = 18556,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 390,
+							["amount"] = 2255,
+							["hitamount"] = 2255,
 						},
 					},
 					["absorb"] = 38126,
 					["damagetaken"] = 76584,
-					["overkill"] = 14310,
-					["id"] = "0x070000000000D01B",
+					["damagetakenspells"] = {
+						["Curse of Doom (DoT)"] = {
+							["total"] = 5588,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 70183,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Risen Witch Doctor"] = {
+									["amount"] = 0,
+									["total"] = 5588,
+								},
+							},
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 13675,
+							["hitmin"] = 119,
+							["id"] = 6603,
+							["sources"] = {
+								["Risen Witch Doctor"] = {
+									["amount"] = 4841,
+									["total"] = 8960,
+								},
+								["Lumbering Abomination"] = {
+									["amount"] = 1468,
+									["total"] = 4457,
+								},
+								["Raging Ghoul"] = {
+									["amount"] = 258,
+								},
+							},
+							["hit"] = 6,
+							["PARRY"] = 2,
+							["count"] = 13,
+							["amount"] = 6567,
+							["school"] = 1,
+							["hitmax"] = 1752,
+							["ABSORB"] = 4,
+							["hitamount"] = 6567,
+						},
+						["Cleave"] = {
+							["DODGE"] = 1,
+							["total"] = 6956,
+							["hitmin"] = 818,
+							["id"] = 40505,
+							["count"] = 5,
+							["sources"] = {
+								["Lumbering Abomination"] = {
+									["amount"] = 818,
+									["total"] = 6956,
+								},
+							},
+							["hitmax"] = 818,
+							["ABSORB"] = 3,
+							["school"] = 1,
+							["hit"] = 1,
+							["amount"] = 818,
+							["hitamount"] = 818,
+						},
+						["Vomit Spray"] = {
+							["total"] = 8190,
+							["hitmin"] = 6483,
+							["id"] = 70181,
+							["hit"] = 1,
+							["sources"] = {
+								["Lumbering Abomination"] = {
+									["amount"] = 6483,
+									["total"] = 8190,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 6483,
+							["school"] = 8,
+							["hitmax"] = 6483,
+							["MISS"] = 1,
+							["hitamount"] = 6483,
+						},
+						["Remorseless Winter"] = {
+							["total"] = 114103,
+							["hitmin"] = 312,
+							["id"] = 69781,
+							["count"] = 20,
+							["sources"] = {
+								["The Lich King"] = {
+									["amount"] = 62716,
+									["total"] = 114103,
+								},
+							},
+							["hitmax"] = 6115,
+							["ABSORB"] = 2,
+							["school"] = 16,
+							["hit"] = 18,
+							["amount"] = 62716,
+							["hitamount"] = 62716,
+						},
+						["Curse of Doom"] = {
+							["sources"] = {
+								["Risen Witch Doctor"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["IMMUNE"] = 1,
+							["id"] = 70183,
+						},
+					},
+					["interrupt"] = 2,
 					["spec"] = 252,
 					["healspells"] = {
 						[53365] = {
@@ -2964,23 +3069,23 @@ SkadaStorageDB = {
 							["critical"] = 4,
 							["amount"] = 8101,
 							["school"] = 1,
-							["criticalmin"] = 1468,
 							["count"] = 12,
+							["criticalmin"] = 1468,
 						},
 						[50475] = {
 							["overheal"] = 10152,
-							["school"] = 1,
+							["min"] = 1,
 							["count"] = 159,
 							["amount"] = 7944,
-							["max"] = 440,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 10152,
 									["amount"] = 7944,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 1,
+							["max"] = 440,
 						},
 						[47633] = {
 							["overheal"] = 0,
@@ -2997,129 +3102,20 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 4983,
 							["school"] = 32,
+							["count"] = 1,
 							["criticalmin"] = 4983,
-							["count"] = 1,
 						},
 					},
-					["damagetakenspells"] = {
-						["Curse of Doom (DoT)"] = {
-							["total"] = 5588,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Risen Witch Doctor"] = {
-									["total"] = 5588,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 70183,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 13675,
-							["hitmin"] = 119,
-							["id"] = 6603,
-							["PARRY"] = 2,
-							["amount"] = 6567,
-							["sources"] = {
-								["Risen Witch Doctor"] = {
-									["total"] = 8960,
-									["amount"] = 4841,
-								},
-								["Lumbering Abomination"] = {
-									["total"] = 4457,
-									["amount"] = 1468,
-								},
-								["Raging Ghoul"] = {
-									["amount"] = 258,
-								},
-							},
-							["count"] = 13,
-							["ABSORB"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1752,
-							["hit"] = 6,
-							["hitamount"] = 6567,
-						},
-						["Cleave"] = {
-							["DODGE"] = 1,
-							["total"] = 6956,
-							["hitmin"] = 818,
-							["id"] = 40505,
-							["hitmax"] = 818,
-							["sources"] = {
-								["Lumbering Abomination"] = {
-									["total"] = 6956,
-									["amount"] = 818,
-								},
-							},
-							["count"] = 5,
-							["ABSORB"] = 3,
-							["school"] = 1,
-							["amount"] = 818,
-							["hit"] = 1,
-							["hitamount"] = 818,
-						},
-						["Vomit Spray"] = {
-							["total"] = 8190,
-							["hitmin"] = 6483,
-							["id"] = 70181,
-							["amount"] = 6483,
-							["sources"] = {
-								["Lumbering Abomination"] = {
-									["total"] = 8190,
-									["amount"] = 6483,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 6483,
-							["MISS"] = 1,
-							["hitamount"] = 6483,
-						},
-						["Remorseless Winter"] = {
-							["total"] = 114103,
-							["hitmin"] = 312,
-							["id"] = 69781,
-							["hitmax"] = 6115,
-							["sources"] = {
-								["The Lich King"] = {
-									["total"] = 114103,
-									["amount"] = 62716,
-								},
-							},
-							["count"] = 20,
-							["ABSORB"] = 2,
-							["school"] = 16,
-							["amount"] = 62716,
-							["hit"] = 18,
-							["hitamount"] = 62716,
-						},
-						["Curse of Doom"] = {
-							["sources"] = {
-								["Risen Witch Doctor"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["IMMUNE"] = 1,
-							["id"] = 70183,
-						},
-					},
-					["runicspells"] = {
-						[49088] = 473,
-						[45529] = 10,
-					},
+					["overkill"] = 14310,
+					["overheal"] = 18563,
 					["heal"] = 21028,
 					["name"] = "Urgash",
 					["ccdone"] = 3,
 					["runic"] = 483,
-					["overheal"] = 18563,
+					["runicspells"] = {
+						[49088] = 473,
+						[45529] = 10,
+					},
 					["interruptspells"] = {
 						[47528] = {
 							["spells"] = {
@@ -3131,7 +3127,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["id"] = "0x070000000000D01B",
 				}, -- [1]
 				{
 					["last"] = 13386.377,
@@ -3391,11 +3387,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 366,
 						},
-						[53601] = {
-							["school"] = 2,
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 61,
+							["uptime"] = 366,
 						},
 						[48066] = {
 							["type"] = "BUFF",
@@ -3417,16 +3412,40 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 20,
 						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 16,
+							["school"] = 2,
+							["refresh"] = 11,
+							["targets"] = {
+								["Risen Witch Doctor"] = {
+									["refresh"] = 3,
+									["count"] = 4,
+									["uptime"] = 22,
+								},
+								["Lumbering Abomination"] = {
+									["refresh"] = 4,
+									["count"] = 4,
+									["uptime"] = 34,
+								},
+								["The Lich King"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 12,
+								},
+								["Raging Ghoul"] = {
+									["refresh"] = 3,
+									["count"] = 7,
+									["uptime"] = 19,
+								},
+							},
+							["uptime"] = 82,
+						},
 						[31884] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 20,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 366,
 						},
 						[12179] = {
 							["type"] = "BUFF",
@@ -3439,10 +3458,10 @@ SkadaStorageDB = {
 							["uptime"] = 366,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 9,
-							["count"] = 1,
 							["uptime"] = 366,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 9,
 						},
 						[70760] = {
 							["school"] = 2,
@@ -3474,39 +3493,16 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 28,
 						},
-						[26017] = {
-							["type"] = "DEBUFF",
-							["count"] = 16,
-							["school"] = 2,
-							["refresh"] = 11,
-							["targets"] = {
-								["Risen Witch Doctor"] = {
-									["refresh"] = 3,
-									["count"] = 4,
-									["uptime"] = 22,
-								},
-								["Lumbering Abomination"] = {
-									["refresh"] = 4,
-									["count"] = 4,
-									["uptime"] = 34,
-								},
-								["The Lich King"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 12,
-								},
-								["Raging Ghoul"] = {
-									["refresh"] = 3,
-									["count"] = 7,
-									["uptime"] = 19,
-								},
-							},
-							["uptime"] = 82,
-						},
-						[72221] = {
+						[25899] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 366,
+						},
+						[53601] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 61,
 						},
 					},
 					["absorbspells"] = {
@@ -3533,11 +3529,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 43277,
-							["max"] = 1284,
+							["min"] = 148,
 							["count"] = 75,
 							["amount"] = 21116,
-							["school"] = 2,
-							["ishot"] = true,
+							["max"] = 1284,
 							["targets"] = {
 								["Pebblebasher"] = {
 									["overheal"] = 0,
@@ -3555,16 +3550,17 @@ SkadaStorageDB = {
 									["overheal"] = 5412,
 									["amount"] = 3564,
 								},
-								["Bloodworm"] = {
-									["overheal"] = 160,
-									["amount"] = 0,
-								},
 								["Giveme"] = {
 									["overheal"] = 5530,
 									["amount"] = 2371,
 								},
+								["Bloodworm"] = {
+									["overheal"] = 160,
+									["amount"] = 0,
+								},
 							},
-							["min"] = 148,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3572,12 +3568,16 @@ SkadaStorageDB = {
 							["DODGE"] = 10,
 							["total"] = 2057,
 							["hitmin"] = 1432,
-							["ABSORB"] = 6,
-							["id"] = 6603,
-							["BLOCK"] = 3,
-							["PARRY"] = 8,
 							["count"] = 31,
+							["id"] = 6603,
 							["blocked"] = 1250,
+							["hit"] = 1,
+							["hitmax"] = 1432,
+							["amount"] = 1432,
+							["PARRY"] = 8,
+							["BLOCK"] = 3,
+							["ABSORB"] = 6,
+							["school"] = 1,
 							["sources"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 1432,
@@ -3586,14 +3586,10 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 								["Raging Ghoul"] = {
-									["total"] = 625,
 									["amount"] = 0,
+									["total"] = 625,
 								},
 							},
-							["hitmax"] = 1432,
-							["amount"] = 1432,
-							["school"] = 1,
-							["hit"] = 1,
 							["MISS"] = 3,
 							["hitamount"] = 1432,
 						},
@@ -3603,45 +3599,46 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 40505,
+							["ABSORB"] = 2,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["total"] = 2433,
 									["amount"] = 0,
+									["total"] = 2433,
 								},
 							},
-							["ABSORB"] = 2,
-							["id"] = 40505,
 						},
-						["Pain and Suffering"] = {
-							["total"] = 1130,
-							["hitmin"] = 904,
-							["id"] = 74117,
-							["hitmax"] = 904,
+						["Shadow Bolt"] = {
+							["total"] = 31478,
+							["hitmin"] = 2111,
+							["id"] = 70182,
+							["count"] = 11,
+							["hit"] = 8,
 							["sources"] = {
-								["The Lich King"] = {
-									["total"] = 1130,
-									["amount"] = 904,
+								["Risen Witch Doctor"] = {
+									["amount"] = 22685,
+									["total"] = 31478,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
+							["hitmax"] = 4028,
+							["amount"] = 22685,
 							["school"] = 32,
-							["resisted"] = 483,
-							["amount"] = 904,
-							["hitamount"] = 904,
+							["resisted"] = 7497,
+							["ABSORB"] = 3,
+							["hitamount"] = 22685,
 						},
 						["Vomit Spray"] = {
 							["total"] = 23994,
 							["hitmin"] = 2077,
 							["id"] = 70181,
-							["hitmax"] = 8388,
+							["count"] = 3,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["total"] = 23994,
 									["amount"] = 13818,
+									["total"] = 23994,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 8388,
 							["hit"] = 3,
 							["school"] = 8,
 							["resisted"] = 2664,
@@ -3652,39 +3649,38 @@ SkadaStorageDB = {
 							["total"] = 57709,
 							["hitmin"] = 3469,
 							["id"] = 69781,
-							["hitmax"] = 6173,
-							["hit"] = 10,
+							["count"] = 11,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["The Lich King"] = {
-									["total"] = 57709,
 									["amount"] = 50184,
+									["total"] = 57709,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 50184,
+							["hitmax"] = 6173,
+							["hit"] = 10,
 							["school"] = 16,
 							["resisted"] = 7317,
-							["ABSORB"] = 1,
+							["amount"] = 50184,
 							["hitamount"] = 50184,
 						},
-						["Shadow Bolt"] = {
-							["total"] = 31478,
-							["hitmin"] = 2111,
-							["id"] = 70182,
-							["hitmax"] = 4028,
-							["amount"] = 22685,
+						["Pain and Suffering"] = {
+							["total"] = 1130,
+							["hitmin"] = 904,
+							["id"] = 74117,
+							["count"] = 1,
 							["sources"] = {
-								["Risen Witch Doctor"] = {
-									["total"] = 31478,
-									["amount"] = 22685,
+								["The Lich King"] = {
+									["amount"] = 904,
+									["total"] = 1130,
 								},
 							},
-							["count"] = 11,
-							["ABSORB"] = 3,
+							["hitmax"] = 904,
+							["hit"] = 1,
 							["school"] = 32,
-							["resisted"] = 7497,
-							["hit"] = 8,
-							["hitamount"] = 22685,
+							["resisted"] = 483,
+							["amount"] = 904,
+							["hitamount"] = 904,
 						},
 					},
 					["heal"] = 21116,
@@ -3693,9 +3689,7 @@ SkadaStorageDB = {
 						[54428] = 11346,
 						[57319] = 3358,
 					},
-					["overkill"] = 10491,
-					["name"] = "Guakamole",
-					["mana"] = 16651,
+					["role"] = "TANK",
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
 							["hitmin"] = 479,
@@ -3711,14 +3705,14 @@ SkadaStorageDB = {
 									["amount"] = 6806,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 1299,
 									["amount"] = 45697,
+									["overkill"] = 1299,
 								},
 							},
 							["overkill"] = 1299,
-							["hitmax"] = 718,
-							["casts"] = 7,
 							["count"] = 134,
+							["casts"] = 7,
+							["hitmax"] = 718,
 							["hit"] = 134,
 							["school"] = 2,
 							["resisted"] = 481,
@@ -3726,11 +3720,11 @@ SkadaStorageDB = {
 							["hitamount"] = 73398,
 						},
 						["Judgement of Vengeance"] = {
-							["criticalmin"] = 3290,
-							["hitmin"] = 1523,
 							["criticalamount"] = 14666,
+							["hitmin"] = 1523,
+							["criticalmin"] = 3290,
 							["id"] = 31804,
-							["critical"] = 3,
+							["casts"] = 1,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 9453,
@@ -3745,14 +3739,14 @@ SkadaStorageDB = {
 									["amount"] = 1810,
 								},
 							},
-							["hitmax"] = 2603,
-							["hit"] = 5,
-							["criticalmax"] = 5800,
 							["count"] = 8,
 							["amount"] = 24479,
+							["criticalmax"] = 5800,
+							["critical"] = 3,
+							["hit"] = 5,
 							["school"] = 2,
 							["resisted"] = 169,
-							["casts"] = 1,
+							["hitmax"] = 2603,
 							["hitamount"] = 9813,
 						},
 						["Melee"] = {
@@ -3779,14 +3773,43 @@ SkadaStorageDB = {
 							["criticalamount"] = 21066,
 							["id"] = 6603,
 							["glancemax"] = 953,
-							["blocked"] = 160,
+							["hit"] = 40,
 							["criticalmax"] = 2168,
 							["hitmax"] = 1146,
-							["hit"] = 40,
+							["blocked"] = 160,
 							["school"] = 1,
-							["critical"] = 12,
 							["count"] = 58,
+							["critical"] = 12,
 							["hitamount"] = 34704,
+						},
+						["Vindication"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["id"] = 26017,
+							["targets"] = {
+								["The Lich King"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 232,
+							["id"] = 54043,
+							["targets"] = {
+								["Lumbering Abomination"] = {
+									["amount"] = 232,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 232,
+							["amount"] = 232,
+							["hitamount"] = 232,
 						},
 						["Holy Vengeance (DoT)"] = {
 							["hitmin"] = 177,
@@ -3805,50 +3828,21 @@ SkadaStorageDB = {
 									["amount"] = 3846,
 								},
 							},
-							["hitmax"] = 1500,
 							["count"] = 60,
+							["hitmax"] = 1500,
 							["hit"] = 60,
 							["school"] = 2,
 							["resisted"] = 269,
 							["amount"] = 34746,
 							["hitamount"] = 34746,
 						},
-						["Vindication"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["The Lich King"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 26017,
-						},
-						["Retribution Aura"] = {
-							["hitmin"] = 232,
-							["id"] = 54043,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["amount"] = 232,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 232,
-							["amount"] = 232,
-							["hitamount"] = 232,
-						},
 						["Hammer of Wrath"] = {
 							["hitmin"] = 3260,
 							["id"] = 48806,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
-									["overkill"] = 6047,
 									["amount"] = 6661,
+									["overkill"] = 6047,
 								},
 							},
 							["overkill"] = 6047,
@@ -3912,23 +3906,23 @@ SkadaStorageDB = {
 									["amount"] = 21266,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 1025,
 									["amount"] = 62012,
+									["overkill"] = 1025,
 								},
 							},
 							["amount"] = 178226,
 							["resisted"] = 1771,
 							["criticalamount"] = 54914,
 							["id"] = 53595,
-							["criticalmax"] = 11450,
-							["overkill"] = 1025,
-							["hitmax"] = 5725,
 							["casts"] = 15,
-							["critical"] = 6,
+							["overkill"] = 1025,
+							["count"] = 34,
+							["criticalmax"] = 11450,
+							["hitmax"] = 5725,
 							["hit"] = 28,
 							["school"] = 2,
 							["blocked"] = 80,
-							["count"] = 34,
+							["critical"] = 6,
 							["hitamount"] = 123312,
 						},
 						["Holy Vengeance"] = {
@@ -3936,13 +3930,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
-							["PARRY"] = 1,
+							["id"] = 31803,
 							["targets"] = {
 								["The Lich King"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 31803,
+							["PARRY"] = 1,
 						},
 						["Holy Shield"] = {
 							["hitmin"] = 1292,
@@ -3974,21 +3968,21 @@ SkadaStorageDB = {
 									["amount"] = 10733,
 								},
 							},
-							["blocked"] = 40,
+							["hit"] = 7,
 							["casts"] = 3,
 							["count"] = 7,
-							["hit"] = 7,
+							["blocked"] = 40,
 							["school"] = 2,
-							["hitmax"] = 2309,
 							["amount"] = 15156,
+							["hitmax"] = 2309,
 							["hitamount"] = 15156,
 						},
 						["Shield of Righteousness"] = {
-							["criticalamount"] = 7926,
-							["hitmin"] = 3507,
 							["criticalmin"] = 7926,
+							["hitmin"] = 3507,
+							["criticalamount"] = 7926,
 							["id"] = 61411,
-							["criticalmax"] = 7926,
+							["count"] = 12,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 16647,
@@ -4000,27 +3994,27 @@ SkadaStorageDB = {
 									["amount"] = 3734,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 2120,
 									["amount"] = 10978,
+									["overkill"] = 2120,
 								},
 							},
 							["overkill"] = 2120,
+							["amount"] = 51420,
+							["criticalmax"] = 7926,
 							["hitmax"] = 4756,
-							["casts"] = 14,
-							["critical"] = 1,
 							["hit"] = 11,
 							["school"] = 2,
-							["amount"] = 51420,
-							["count"] = 12,
+							["critical"] = 1,
+							["casts"] = 14,
 							["hitamount"] = 43494,
 						},
 						["Seal of Vengeance"] = {
-							["criticalmin"] = 196,
-							["critical"] = 5,
-							["hitmin"] = 58,
 							["criticalamount"] = 3144,
+							["amount"] = 17120,
+							["hitmin"] = 58,
+							["criticalmin"] = 196,
 							["id"] = 42463,
-							["criticalmax"] = 1144,
+							["casts"] = 1,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 5985,
@@ -4035,18 +4029,20 @@ SkadaStorageDB = {
 									["amount"] = 1183,
 								},
 							},
-							["hitmax"] = 689,
-							["blocked"] = 80,
-							["casts"] = 1,
 							["count"] = 64,
 							["hit"] = 59,
+							["criticalmax"] = 1144,
+							["critical"] = 5,
+							["blocked"] = 80,
 							["school"] = 2,
 							["resisted"] = 36,
-							["amount"] = 17120,
+							["hitmax"] = 689,
 							["hitamount"] = 13976,
 						},
 					},
-					["role"] = "TANK",
+					["mana"] = 16651,
+					["name"] = "Guakamole",
+					["overkill"] = 10491,
 				}, -- [2]
 				{
 					["last"] = 13478.099,
@@ -4065,18 +4061,12 @@ SkadaStorageDB = {
 							["uptime"] = 87,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 12,
-							["count"] = 1,
 							["uptime"] = 366,
-						},
-						[47753] = {
-							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 24,
+							["count"] = 1,
+							["refresh"] = 12,
 						},
-						[53138] = {
+						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 366,
@@ -4087,6 +4077,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["refresh"] = 5,
 							["uptime"] = 365,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 24,
 						},
 						[48066] = {
 							["school"] = 2,
@@ -4160,7 +4156,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 366,
 						},
-						[48074] = {
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 366,
@@ -4225,8 +4221,8 @@ SkadaStorageDB = {
 							["count"] = 12,
 							["amount"] = 32848,
 							["school"] = 2,
-							["criticalmin"] = 1441,
 							["critical"] = 4,
+							["criticalmin"] = 1441,
 						},
 						[52985] = {
 							["overheal"] = 38874,
@@ -4255,9 +4251,9 @@ SkadaStorageDB = {
 							["count"] = 29,
 							["amount"] = 65700,
 							["school"] = 2,
-							["criticalmin"] = 0,
-							["criticalmax"] = 5058,
 							["critical"] = 7,
+							["criticalmax"] = 5058,
+							["criticalmin"] = 0,
 						},
 						[56160] = {
 							["overheal"] = 38511,
@@ -4290,8 +4286,8 @@ SkadaStorageDB = {
 							["count"] = 43,
 							["amount"] = 22449,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["critical"] = 13,
+							["criticalmin"] = 0,
 						},
 						[48063] = {
 							["overheal"] = 8703,
@@ -4332,22 +4328,22 @@ SkadaStorageDB = {
 							["critical"] = 3,
 							["amount"] = 22207,
 							["school"] = 2,
-							["criticalmin"] = 5812,
-							["casts"] = 5,
 							["count"] = 5,
+							["casts"] = 5,
+							["criticalmin"] = 5812,
 						},
 					},
 					["heal"] = 143204,
 					["name"] = "Niveaboy",
-					["runicspells"] = {
-						[63652] = 224,
-					},
-					["overheal"] = 99646,
+					["mana"] = 7712,
 					["manaspells"] = {
 						[47755] = 7128,
 						[63654] = 584,
 					},
-					["mana"] = 7712,
+					["overheal"] = 99646,
+					["runicspells"] = {
+						[63652] = 224,
+					},
 				}, -- [3]
 				{
 					["ccdonespells"] = {
@@ -4375,11 +4371,10 @@ SkadaStorageDB = {
 							["count"] = 6,
 							["uptime"] = 90,
 						},
-						[42650] = {
-							["school"] = 32,
+						[6562] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 4,
+							["uptime"] = 366,
 						},
 						[48162] = {
 							["type"] = "BUFF",
@@ -4393,11 +4388,12 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 75,
 						},
-						[15359] = {
-							["school"] = 2,
+						[71227] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 73,
 						},
 						[63944] = {
 							["type"] = "BUFF",
@@ -4417,19 +4413,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 366,
 						},
-						[57623] = {
+						[42650] = {
+							["school"] = 32,
 							["type"] = "BUFF",
-							["count"] = 7,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 366,
+							["count"] = 1,
+							["uptime"] = 4,
 						},
-						[71227] = {
+						[15359] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 73,
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[48170] = {
 							["type"] = "BUFF",
@@ -4460,12 +4454,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 44,
 						},
-						[53365] = {
+						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 84,
+							["uptime"] = 30,
 						},
 						[48111] = {
 							["type"] = "BUFF",
@@ -4501,6 +4494,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 366,
 						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Risen Witch Doctor"] = {
+									["uptime"] = 2,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[20217] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 366,
+						},
 						[47930] = {
 							["type"] = "BUFF",
 							["count"] = 2,
@@ -4508,21 +4518,12 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["uptime"] = 31,
 						},
-						[54043] = {
-							["school"] = 2,
+						[71905] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 329,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 366,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 366,
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 32,
+							["uptime"] = 151,
 						},
 						[48707] = {
 							["school"] = 32,
@@ -4563,29 +4564,21 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 235,
 						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["refresh"] = 32,
-							["uptime"] = 151,
-						},
-						[20217] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 366,
 						},
-						[49560] = {
-							["type"] = "DEBUFF",
+						[54043] = {
+							["school"] = 2,
+							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Risen Witch Doctor"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 2,
+							["uptime"] = 329,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 366,
 						},
 						[50449] = {
 							["type"] = "BUFF",
@@ -4600,11 +4593,12 @@ SkadaStorageDB = {
 							["count"] = 5,
 							["uptime"] = 57,
 						},
-						[72412] = {
-							["school"] = 1,
+						[53365] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["uptime"] = 30,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 84,
 						},
 						[50421] = {
 							["type"] = "BUFF",
@@ -4613,9 +4607,11 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 24,
 						},
-						[6562] = {
+						[57623] = {
 							["type"] = "BUFF",
-							["count"] = 1,
+							["count"] = 7,
+							["school"] = 1,
+							["refresh"] = 5,
 							["uptime"] = 366,
 						},
 					},
@@ -4637,6 +4633,44 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 71181,
 					["damage"] = 776270,
 					["damagespells"] = {
+						["Claw (Army of the Dead Ghoul)"] = {
+							["hitmin"] = 180,
+							["id"] = 47468,
+							["targets"] = {
+								["The Lich King"] = {
+									["amount"] = 797,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 206,
+							["amount"] = 797,
+							["hitamount"] = 797,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 738,
+							["id"] = 55095,
+							["targets"] = {
+								["Lumbering Abomination"] = {
+									["amount"] = 19571,
+								},
+								["The Lich King"] = {
+									["amount"] = 46264,
+								},
+								["Risen Witch Doctor"] = {
+									["amount"] = 15450,
+								},
+							},
+							["count"] = 68,
+							["hitmax"] = 1582,
+							["hit"] = 68,
+							["school"] = 16,
+							["resisted"] = 2269,
+							["amount"] = 81285,
+							["hitamount"] = 81285,
+						},
 						["Melee (Army of the Dead Ghoul)"] = {
 							["glance"] = 777,
 							["hitmin"] = 115,
@@ -4646,81 +4680,23 @@ SkadaStorageDB = {
 									["amount"] = 4430,
 								},
 							},
-							["glancemin"] = 93,
+							["hitamount"] = 3653,
 							["glancing"] = 8,
-							["glancemax"] = 102,
+							["amount"] = 4430,
 							["count"] = 37,
 							["hit"] = 29,
 							["school"] = 1,
 							["hitmax"] = 135,
-							["amount"] = 4430,
-							["hitamount"] = 3653,
-						},
-						["Death Strike"] = {
-							["hitmin"] = 5948,
-							["criticalamount"] = 34774,
-							["id"] = 49924,
-							["criticalmin"] = 15157,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["amount"] = 54433,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 3,
-							["casts"] = 9,
-							["hitmax"] = 7034,
-							["amount"] = 54433,
-							["school"] = 1,
-							["critical"] = 2,
-							["criticalmax"] = 19617,
-							["hitamount"] = 19659,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 5383,
-							["hitmin"] = 4356,
-							["criticalmin"] = 8266,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["amount"] = 116314,
-								},
-								["Risen Witch Doctor"] = {
-									["overkill"] = 11871,
-									["amount"] = 41294,
-								},
-								["The Lich King"] = {
-									["amount"] = 11196,
-								},
-								["Raging Ghoul"] = {
-									["overkill"] = 6465,
-									["amount"] = 19997,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 188801,
-							["glancemin"] = 5383,
-							["criticalamount"] = 125242,
-							["id"] = 6603,
-							["critical"] = 12,
-							["glancemax"] = 5383,
-							["overkill"] = 18336,
-							["blocked"] = 40,
-							["PARRY"] = 1,
-							["hitmax"] = 6025,
-							["hit"] = 11,
-							["school"] = 1,
-							["criticalmax"] = 12522,
-							["count"] = 26,
-							["hitamount"] = 58176,
+							["glancemax"] = 102,
+							["glancemin"] = 93,
 						},
 						["Death and Decay"] = {
-							["criticalamount"] = 55330,
-							["hitmax"] = 943,
-							["hitmin"] = 561,
 							["criticalmin"] = 1298,
+							["casts"] = 5,
+							["hitmin"] = 561,
+							["criticalamount"] = 55330,
 							["id"] = 52212,
-							["critical"] = 39,
+							["count"] = 122,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 20134,
@@ -4732,18 +4708,18 @@ SkadaStorageDB = {
 									["amount"] = 5376,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 3988,
 									["amount"] = 83702,
+									["overkill"] = 3988,
 								},
 							},
 							["overkill"] = 3988,
-							["hit"] = 83,
-							["criticalmax"] = 1970,
-							["count"] = 122,
 							["amount"] = 113388,
+							["criticalmax"] = 1970,
+							["hitmax"] = 943,
+							["hit"] = 83,
 							["school"] = 32,
 							["resisted"] = 292,
-							["casts"] = 5,
+							["critical"] = 39,
 							["hitamount"] = 58058,
 						},
 						["Blood-Caked Strike"] = {
@@ -4751,8 +4727,8 @@ SkadaStorageDB = {
 							["id"] = 50463,
 							["targets"] = {
 								["Lumbering Abomination"] = {
-									["overkill"] = 1671,
 									["amount"] = 8577,
+									["overkill"] = 1671,
 								},
 								["Risen Witch Doctor"] = {
 									["amount"] = 4804,
@@ -4767,33 +4743,37 @@ SkadaStorageDB = {
 							["amount"] = 13381,
 							["hitamount"] = 13381,
 						},
-						["Plague Strike"] = {
-							["criticalamount"] = 11405,
-							["hitmin"] = 2253,
-							["criticalmin"] = 5036,
-							["id"] = 49921,
-							["criticalmax"] = 6369,
+						["Heart Strike"] = {
+							["criticalamount"] = 102460,
+							["PARRY"] = 3,
+							["hitmin"] = 1820,
+							["criticalmin"] = 5043,
+							["id"] = 55262,
+							["hitmax"] = 5416,
 							["targets"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 19397,
+									["amount"] = 63896,
 								},
 								["Risen Witch Doctor"] = {
-									["amount"] = 5419,
+									["amount"] = 50348,
+									["overkill"] = 2037,
+								},
+								["The Lich King"] = {
+									["amount"] = 24622,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 1559,
-									["amount"] = 7289,
+									["amount"] = 2281,
 								},
 							},
-							["overkill"] = 1559,
-							["hitmax"] = 2791,
-							["casts"] = 10,
-							["critical"] = 2,
-							["hit"] = 8,
+							["overkill"] = 2037,
+							["hit"] = 10,
+							["casts"] = 16,
+							["count"] = 23,
+							["amount"] = 141147,
 							["school"] = 1,
-							["amount"] = 32105,
-							["count"] = 10,
-							["hitamount"] = 20700,
+							["critical"] = 10,
+							["criticalmax"] = 14853,
+							["hitamount"] = 38687,
 						},
 						["Chaos Bane"] = {
 							["hitmin"] = 720,
@@ -4812,9 +4792,9 @@ SkadaStorageDB = {
 									["amount"] = 2411,
 								},
 							},
-							["hitmax"] = 1669,
-							["casts"] = 1,
 							["count"] = 10,
+							["casts"] = 1,
+							["hitmax"] = 1669,
 							["hit"] = 10,
 							["school"] = 32,
 							["resisted"] = 80,
@@ -4847,43 +4827,40 @@ SkadaStorageDB = {
 							["count"] = 38,
 							["hitamount"] = 4265,
 						},
-						["Icy Touch"] = {
-							["criticalamount"] = 19764,
-							["hitmin"] = 1252,
-							["criticalmin"] = 3475,
-							["id"] = 49909,
-							["hitmax"] = 2219,
+						["Death Coil"] = {
+							["criticalamount"] = 14525,
+							["hitmin"] = 2620,
+							["criticalmin"] = 7234,
+							["id"] = 47632,
+							["criticalmax"] = 7291,
 							["targets"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 15210,
-								},
-								["Risen Witch Doctor"] = {
-									["amount"] = 6331,
+									["amount"] = 7397,
 								},
 								["The Lich King"] = {
-									["amount"] = 14275,
+									["amount"] = 15572,
 								},
-								["Raging Ghoul"] = {
-									["amount"] = 3475,
+								["Risen Witch Doctor"] = {
+									["amount"] = 11175,
 								},
 							},
-							["critical"] = 5,
-							["hit"] = 11,
-							["criticalmax"] = 4450,
-							["count"] = 16,
-							["amount"] = 39291,
-							["school"] = 16,
-							["resisted"] = 312,
-							["casts"] = 18,
-							["hitamount"] = 19527,
+							["critical"] = 2,
+							["amount"] = 34144,
+							["casts"] = 5,
+							["hitmax"] = 3884,
+							["hit"] = 6,
+							["school"] = 32,
+							["resisted"] = 1674,
+							["count"] = 8,
+							["hitamount"] = 19619,
 						},
 						["Necrosis"] = {
 							["hitmin"] = 871,
 							["id"] = 51460,
 							["targets"] = {
 								["Lumbering Abomination"] = {
-									["overkill"] = 1342,
 									["amount"] = 21040,
+									["overkill"] = 1342,
 								},
 								["The Lich King"] = {
 									["amount"] = 1792,
@@ -4893,9 +4870,9 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1342,
-							["hitmax"] = 2504,
-							["casts"] = 1,
 							["count"] = 19,
+							["casts"] = 1,
+							["hitmax"] = 2504,
 							["hit"] = 19,
 							["school"] = 32,
 							["resisted"] = 447,
@@ -4920,32 +4897,35 @@ SkadaStorageDB = {
 							["amount"] = 26135,
 							["hitamount"] = 26135,
 						},
-						["Death Coil"] = {
-							["criticalmin"] = 7234,
-							["hitmin"] = 2620,
-							["criticalamount"] = 14525,
-							["id"] = 47632,
-							["hitmax"] = 3884,
+						["Icy Touch"] = {
+							["criticalmin"] = 3475,
+							["hitmin"] = 1252,
+							["criticalamount"] = 19764,
+							["id"] = 49909,
+							["casts"] = 18,
 							["targets"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 7397,
-								},
-								["The Lich King"] = {
-									["amount"] = 15572,
+									["amount"] = 15210,
 								},
 								["Risen Witch Doctor"] = {
-									["amount"] = 11175,
+									["amount"] = 6331,
+								},
+								["The Lich King"] = {
+									["amount"] = 14275,
+								},
+								["Raging Ghoul"] = {
+									["amount"] = 3475,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 6,
-							["casts"] = 5,
-							["critical"] = 2,
-							["amount"] = 34144,
-							["school"] = 32,
-							["resisted"] = 1674,
-							["criticalmax"] = 7291,
-							["hitamount"] = 19619,
+							["count"] = 16,
+							["amount"] = 39291,
+							["criticalmax"] = 4450,
+							["hitmax"] = 2219,
+							["hit"] = 11,
+							["school"] = 16,
+							["resisted"] = 312,
+							["critical"] = 5,
+							["hitamount"] = 19527,
 						},
 						["Chains of Ice"] = {
 							["casts"] = 2,
@@ -4960,75 +4940,91 @@ SkadaStorageDB = {
 							},
 							["id"] = 45524,
 						},
-						["Heart Strike"] = {
-							["criticalmin"] = 5043,
-							["casts"] = 16,
-							["hitmin"] = 1820,
-							["criticalamount"] = 102460,
-							["id"] = 55262,
-							["count"] = 23,
+						["Plague Strike"] = {
+							["criticalmin"] = 5036,
+							["hitmin"] = 2253,
+							["criticalamount"] = 11405,
+							["id"] = 49921,
+							["count"] = 10,
 							["targets"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 63896,
+									["amount"] = 19397,
 								},
 								["Risen Witch Doctor"] = {
-									["overkill"] = 2037,
-									["amount"] = 50348,
-								},
-								["The Lich King"] = {
-									["amount"] = 24622,
+									["amount"] = 5419,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 2281,
+									["amount"] = 7289,
+									["overkill"] = 1559,
 								},
 							},
-							["overkill"] = 2037,
-							["amount"] = 141147,
-							["criticalmax"] = 14853,
-							["critical"] = 10,
-							["hit"] = 10,
+							["overkill"] = 1559,
+							["amount"] = 32105,
+							["criticalmax"] = 6369,
+							["hitmax"] = 2791,
+							["hit"] = 8,
 							["school"] = 1,
-							["hitmax"] = 5416,
-							["PARRY"] = 3,
-							["hitamount"] = 38687,
+							["critical"] = 2,
+							["casts"] = 10,
+							["hitamount"] = 20700,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 738,
-							["id"] = 55095,
+						["Death Strike"] = {
+							["hitmin"] = 5948,
+							["criticalamount"] = 34774,
+							["id"] = 49924,
+							["criticalmin"] = 15157,
 							["targets"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 19571,
+									["amount"] = 54433,
 								},
-								["The Lich King"] = {
-									["amount"] = 46264,
+							},
+							["criticalmax"] = 19617,
+							["critical"] = 2,
+							["casts"] = 9,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 54433,
+							["hitmax"] = 7034,
+							["hitamount"] = 19659,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 5383,
+							["hitmin"] = 4356,
+							["criticalmin"] = 8266,
+							["targets"] = {
+								["Lumbering Abomination"] = {
+									["amount"] = 116314,
 								},
 								["Risen Witch Doctor"] = {
-									["amount"] = 15450,
+									["amount"] = 41294,
+									["overkill"] = 11871,
 								},
-							},
-							["hitmax"] = 1582,
-							["count"] = 68,
-							["hit"] = 68,
-							["school"] = 16,
-							["resisted"] = 2269,
-							["amount"] = 81285,
-							["hitamount"] = 81285,
-						},
-						["Claw (Army of the Dead Ghoul)"] = {
-							["hitmin"] = 180,
-							["id"] = 47468,
-							["targets"] = {
 								["The Lich King"] = {
-									["amount"] = 797,
+									["amount"] = 11196,
+								},
+								["Raging Ghoul"] = {
+									["amount"] = 19997,
+									["overkill"] = 6465,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
+							["glancing"] = 1,
+							["amount"] = 188801,
+							["glancemin"] = 5383,
+							["criticalamount"] = 125242,
+							["id"] = 6603,
+							["hitmax"] = 6025,
+							["glancemax"] = 5383,
+							["overkill"] = 18336,
+							["count"] = 26,
+							["PARRY"] = 1,
+							["critical"] = 12,
+							["blocked"] = 40,
 							["school"] = 1,
-							["hitmax"] = 206,
-							["amount"] = 797,
-							["hitamount"] = 797,
+							["criticalmax"] = 12522,
+							["hit"] = 11,
+							["hitamount"] = 58176,
 						},
 					},
 					["absorb"] = 8103,
@@ -5051,23 +5047,23 @@ SkadaStorageDB = {
 							["critical"] = 4,
 							["amount"] = 1680,
 							["school"] = 1,
-							["count"] = 7,
 							["criticalmin"] = 0,
+							["count"] = 7,
 						},
 						[50475] = {
 							["overheal"] = 15079,
-							["max"] = 635,
+							["min"] = 53,
 							["count"] = 82,
 							["amount"] = 5057,
-							["school"] = 1,
-							["ishot"] = true,
+							["max"] = 635,
 							["targets"] = {
 								["Xenaprincesa"] = {
 									["overheal"] = 15079,
 									["amount"] = 5057,
 								},
 							},
-							["min"] = 53,
+							["ishot"] = true,
+							["school"] = 1,
 						},
 						[45470] = {
 							["overheal"] = 26606,
@@ -5075,28 +5071,28 @@ SkadaStorageDB = {
 							["count"] = 5,
 							["amount"] = 3305,
 							["max"] = 3305,
-							["min"] = 3305,
+							["school"] = 1,
 							["targets"] = {
 								["Xenaprincesa"] = {
 									["overheal"] = 26606,
 									["amount"] = 3305,
 								},
 							},
-							["school"] = 1,
+							["min"] = 3305,
 						},
 						[50454] = {
 							["overheal"] = 9137,
 							["count"] = 38,
 							["amount"] = 6064,
 							["max"] = 725,
-							["school"] = 32,
+							["min"] = 40,
 							["targets"] = {
 								["Xenaprincesa"] = {
 									["overheal"] = 9137,
 									["amount"] = 6064,
 								},
 							},
-							["min"] = 40,
+							["school"] = 32,
 						},
 					},
 					["damagetakenspells"] = {
@@ -5104,14 +5100,14 @@ SkadaStorageDB = {
 							["total"] = 12222,
 							["hitmin"] = 728,
 							["id"] = 70183,
-							["hitmax"] = 5238,
+							["count"] = 2,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["total"] = 12222,
 									["amount"] = 5966,
+									["total"] = 12222,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 5238,
 							["hit"] = 2,
 							["school"] = 32,
 							["resisted"] = 5238,
@@ -5123,12 +5119,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 6603,
 							["sources"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 6603,
 						},
 						["Vomit Spray"] = {
 							["total"] = 39775,
@@ -5136,8 +5132,8 @@ SkadaStorageDB = {
 							["id"] = 70181,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["total"] = 39775,
 									["amount"] = 14605,
+									["total"] = 39775,
 								},
 							},
 							["count"] = 4,
@@ -5166,32 +5162,32 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 2918,
 							["id"] = 40505,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 2918,
 								},
 							},
+							["PARRY"] = 1,
 							["count"] = 3,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 2918,
 							["amount"] = 2918,
+							["hitmax"] = 2918,
 							["hitamount"] = 2918,
 						},
 					},
-					["overkill"] = 28933,
+					["role"] = "DAMAGER",
 					["heal"] = 16106,
 					["name"] = "Xenaprincesa",
 					["ccdone"] = 2,
+					["overheal"] = 59881,
+					["runic"] = 418,
 					["runicspells"] = {
 						[50422] = 20,
 						[50163] = 280,
 						[49088] = 118,
 					},
-					["runic"] = 418,
-					["overheal"] = 59881,
-					["role"] = "DAMAGER",
+					["overkill"] = 28933,
 				}, -- [4]
 				{
 					["ccdonespells"] = {
@@ -5459,10 +5455,10 @@ SkadaStorageDB = {
 							["uptime"] = 184,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 12,
-							["count"] = 1,
 							["uptime"] = 366,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 12,
 						},
 						[25899] = {
 							["type"] = "BUFF",
@@ -5475,26 +5471,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 31,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 26,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 366,
-						},
-						[57102] = {
+						[67018] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 366,
@@ -5523,10 +5500,29 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 68,
 						},
-						[67018] = {
+						[57102] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 366,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 366,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 26,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 31,
 						},
 					},
 					["totaldamage"] = 776940,
@@ -5548,9 +5544,9 @@ SkadaStorageDB = {
 									["amount"] = 42169,
 								},
 							},
-							["hitmax"] = 956,
-							["casts"] = 5,
 							["count"] = 75,
+							["casts"] = 5,
+							["hitmax"] = 956,
 							["hit"] = 75,
 							["school"] = 2,
 							["resisted"] = 984,
@@ -5572,9 +5568,9 @@ SkadaStorageDB = {
 							["critical"] = 5,
 							["amount"] = 44849,
 							["school"] = 2,
-							["criticalmin"] = 8372,
-							["criticalmax"] = 9801,
 							["count"] = 5,
+							["criticalmax"] = 9801,
+							["criticalmin"] = 8372,
 						},
 						["Melee"] = {
 							["glance"] = 14696,
@@ -5582,8 +5578,8 @@ SkadaStorageDB = {
 							["criticalmin"] = 5656,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
-									["overkill"] = 4205,
 									["amount"] = 42630,
+									["overkill"] = 4205,
 								},
 								["Lumbering Abomination"] = {
 									["amount"] = 76764,
@@ -5592,8 +5588,8 @@ SkadaStorageDB = {
 									["amount"] = 7474,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 1466,
 									["amount"] = 15891,
+									["overkill"] = 1466,
 								},
 							},
 							["glancing"] = 5,
@@ -5628,9 +5624,9 @@ SkadaStorageDB = {
 									["amount"] = 2109,
 								},
 							},
-							["hitmax"] = 2590,
-							["casts"] = 1,
 							["count"] = 18,
+							["casts"] = 1,
+							["hitmax"] = 2590,
 							["hit"] = 18,
 							["school"] = 32,
 							["resisted"] = 318,
@@ -5648,49 +5644,54 @@ SkadaStorageDB = {
 									["amount"] = 4658,
 								},
 								["Risen Witch Doctor"] = {
-									["overkill"] = 26,
 									["amount"] = 3649,
+									["overkill"] = 26,
 								},
 							},
 							["overkill"] = 26,
-							["hitmax"] = 1745,
 							["count"] = 20,
+							["hitmax"] = 1745,
 							["hit"] = 20,
 							["school"] = 2,
 							["resisted"] = 87,
 							["amount"] = 19031,
 							["hitamount"] = 19031,
 						},
-						["Holy Wrath"] = {
-							["hitmin"] = 3059,
-							["criticalamount"] = 4813,
-							["id"] = 48817,
-							["criticalmin"] = 4813,
+						["Seal of Vengeance"] = {
+							["criticalamount"] = 37210,
+							["count"] = 38,
+							["hitmin"] = 415,
+							["criticalmin"] = 688,
+							["id"] = 42463,
+							["criticalmax"] = 3100,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 4813,
+									["amount"] = 11224,
+								},
+								["The Lich King"] = {
+									["amount"] = 3361,
 								},
 								["Lumbering Abomination"] = {
-									["amount"] = 3059,
+									["amount"] = 33799,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
+							["critical"] = 23,
+							["amount"] = 48384,
 							["casts"] = 1,
-							["hitmax"] = 3059,
-							["amount"] = 7872,
+							["hitmax"] = 1462,
+							["blocked"] = 40,
 							["school"] = 2,
-							["critical"] = 1,
-							["criticalmax"] = 4813,
-							["hitamount"] = 3059,
+							["resisted"] = 76,
+							["hit"] = 15,
+							["hitamount"] = 11174,
 						},
 						["Hammer of Wrath"] = {
 							["criticalamount"] = 36766,
 							["id"] = 48806,
 							["targets"] = {
 								["Lumbering Abomination"] = {
-									["overkill"] = 2845,
 									["amount"] = 27447,
+									["overkill"] = 2845,
 								},
 								["Risen Witch Doctor"] = {
 									["amount"] = 9319,
@@ -5701,9 +5702,9 @@ SkadaStorageDB = {
 							["critical"] = 4,
 							["amount"] = 36766,
 							["school"] = 2,
-							["criticalmin"] = 8590,
-							["criticalmax"] = 9791,
 							["count"] = 4,
+							["criticalmax"] = 9791,
+							["criticalmin"] = 8590,
 						},
 						["Retribution Aura"] = {
 							["hitmin"] = 314,
@@ -5721,74 +5722,12 @@ SkadaStorageDB = {
 							["amount"] = 314,
 							["hitamount"] = 314,
 						},
-						["Judgement of Vengeance"] = {
-							["criticalmin"] = 7403,
-							["hitmin"] = 3470,
-							["criticalamount"] = 75632,
-							["id"] = 31804,
-							["criticalmax"] = 9941,
-							["targets"] = {
-								["Risen Witch Doctor"] = {
-									["amount"] = 35709,
-								},
-								["Lumbering Abomination"] = {
-									["amount"] = 41057,
-								},
-								["The Lich King"] = {
-									["amount"] = 3470,
-								},
-								["Raging Ghoul"] = {
-									["overkill"] = 997,
-									["amount"] = 22380,
-								},
-							},
-							["overkill"] = 997,
-							["hitmax"] = 5589,
-							["casts"] = 1,
-							["critical"] = 9,
-							["hit"] = 6,
-							["school"] = 2,
-							["amount"] = 102616,
-							["count"] = 15,
-							["hitamount"] = 26984,
-						},
-						["Divine Storm"] = {
-							["criticalamount"] = 134884,
-							["hitmin"] = 3485,
-							["criticalmin"] = 7207,
-							["id"] = 53385,
-							["criticalmax"] = 9323,
-							["targets"] = {
-								["Risen Witch Doctor"] = {
-									["amount"] = 47865,
-								},
-								["Lumbering Abomination"] = {
-									["amount"] = 46593,
-								},
-								["The Lich King"] = {
-									["amount"] = 10999,
-								},
-								["Raging Ghoul"] = {
-									["overkill"] = 22791,
-									["amount"] = 75698,
-								},
-							},
-							["overkill"] = 22791,
-							["hitmax"] = 4531,
-							["casts"] = 14,
-							["critical"] = 16,
-							["hit"] = 12,
-							["school"] = 1,
-							["amount"] = 181155,
-							["count"] = 28,
-							["hitamount"] = 46271,
-						},
 						["Manifest Anger"] = {
-							["criticalamount"] = 13333,
-							["hitmin"] = 1465,
 							["criticalmin"] = 3215,
+							["hitmin"] = 1465,
+							["criticalamount"] = 13333,
 							["id"] = 71433,
-							["criticalmax"] = 3558,
+							["amount"] = 24778,
 							["targets"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 13420,
@@ -5803,46 +5742,108 @@ SkadaStorageDB = {
 									["amount"] = 3215,
 								},
 							},
+							["count"] = 11,
+							["hit"] = 7,
+							["criticalmax"] = 3558,
 							["hitmax"] = 1853,
 							["blocked"] = 80,
-							["casts"] = 1,
-							["critical"] = 4,
-							["hit"] = 7,
 							["school"] = 1,
-							["count"] = 11,
-							["amount"] = 24778,
+							["critical"] = 4,
+							["casts"] = 1,
 							["hitamount"] = 11445,
 						},
+						["Divine Storm"] = {
+							["criticalmin"] = 7207,
+							["hitmin"] = 3485,
+							["criticalamount"] = 134884,
+							["id"] = 53385,
+							["count"] = 28,
+							["targets"] = {
+								["Risen Witch Doctor"] = {
+									["amount"] = 47865,
+								},
+								["Lumbering Abomination"] = {
+									["amount"] = 46593,
+								},
+								["The Lich King"] = {
+									["amount"] = 10999,
+								},
+								["Raging Ghoul"] = {
+									["amount"] = 75698,
+									["overkill"] = 22791,
+								},
+							},
+							["overkill"] = 22791,
+							["amount"] = 181155,
+							["criticalmax"] = 9323,
+							["hitmax"] = 4531,
+							["hit"] = 12,
+							["school"] = 1,
+							["critical"] = 16,
+							["casts"] = 14,
+							["hitamount"] = 46271,
+						},
+						["Judgement of Vengeance"] = {
+							["criticalamount"] = 75632,
+							["hitmin"] = 3470,
+							["criticalmin"] = 7403,
+							["id"] = 31804,
+							["count"] = 15,
+							["targets"] = {
+								["Risen Witch Doctor"] = {
+									["amount"] = 35709,
+								},
+								["Lumbering Abomination"] = {
+									["amount"] = 41057,
+								},
+								["The Lich King"] = {
+									["amount"] = 3470,
+								},
+								["Raging Ghoul"] = {
+									["amount"] = 22380,
+									["overkill"] = 997,
+								},
+							},
+							["overkill"] = 997,
+							["amount"] = 102616,
+							["criticalmax"] = 9941,
+							["hitmax"] = 5589,
+							["hit"] = 6,
+							["school"] = 2,
+							["critical"] = 9,
+							["casts"] = 1,
+							["hitamount"] = 26984,
+						},
 						["Crusader Strike"] = {
-							["criticalmin"] = 5001,
-							["hitmin"] = 2104,
 							["criticalamount"] = 44853,
+							["hitmin"] = 2104,
+							["criticalmin"] = 5001,
 							["id"] = 35395,
-							["criticalmax"] = 6280,
+							["count"] = 17,
 							["targets"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 25636,
 								},
 								["Risen Witch Doctor"] = {
-									["overkill"] = 2334,
 									["amount"] = 23240,
+									["overkill"] = 2334,
 								},
 								["The Lich King"] = {
 									["amount"] = 2104,
 								},
 								["Raging Ghoul"] = {
-									["overkill"] = 2150,
 									["amount"] = 19105,
+									["overkill"] = 2150,
 								},
 							},
 							["overkill"] = 4484,
+							["amount"] = 70085,
+							["criticalmax"] = 6280,
 							["hitmax"] = 3127,
-							["casts"] = 17,
-							["critical"] = 8,
 							["hit"] = 9,
 							["school"] = 1,
-							["amount"] = 70085,
-							["count"] = 17,
+							["critical"] = 8,
+							["casts"] = 17,
 							["hitamount"] = 25232,
 						},
 						["Righteous Vengeance (DoT)"] = {
@@ -5850,12 +5851,12 @@ SkadaStorageDB = {
 							["id"] = 61840,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
-									["overkill"] = 1540,
 									["amount"] = 8056,
+									["overkill"] = 1540,
 								},
 								["Lumbering Abomination"] = {
-									["overkill"] = 828,
 									["amount"] = 9261,
+									["overkill"] = 828,
 								},
 								["Raging Ghoul"] = {
 									["amount"] = 1271,
@@ -5869,33 +5870,28 @@ SkadaStorageDB = {
 							["amount"] = 18588,
 							["hitamount"] = 18588,
 						},
-						["Seal of Vengeance"] = {
-							["criticalmin"] = 688,
-							["blocked"] = 40,
-							["hitmin"] = 415,
-							["criticalamount"] = 37210,
-							["id"] = 42463,
-							["casts"] = 1,
+						["Holy Wrath"] = {
+							["hitmin"] = 3059,
+							["criticalamount"] = 4813,
+							["id"] = 48817,
+							["criticalmin"] = 4813,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 11224,
-								},
-								["The Lich King"] = {
-									["amount"] = 3361,
+									["amount"] = 4813,
 								},
 								["Lumbering Abomination"] = {
-									["amount"] = 33799,
+									["amount"] = 3059,
 								},
 							},
-							["hitmax"] = 1462,
-							["hit"] = 15,
-							["criticalmax"] = 3100,
-							["critical"] = 23,
-							["amount"] = 48384,
+							["criticalmax"] = 4813,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 1,
 							["school"] = 2,
-							["resisted"] = 76,
-							["count"] = 38,
-							["hitamount"] = 11174,
+							["amount"] = 7872,
+							["hitmax"] = 3059,
+							["hitamount"] = 3059,
 						},
 					},
 					["damagetaken"] = 24259,
@@ -5904,10 +5900,11 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[54172] = {
 							["overheal"] = 130,
-							["school"] = 2,
+							["min"] = 940,
 							["count"] = 7,
 							["amount"] = 21513,
-							["max"] = 6556,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Pebblebasher"] = {
 									["overheal"] = 0,
@@ -5922,16 +5919,14 @@ SkadaStorageDB = {
 									["amount"] = 3367,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 940,
+							["max"] = 6556,
 						},
 						[20267] = {
 							["overheal"] = 78694,
-							["max"] = 806,
+							["min"] = 12,
 							["count"] = 128,
 							["amount"] = 17390,
-							["school"] = 2,
-							["ishot"] = true,
+							["max"] = 806,
 							["targets"] = {
 								["Pebblebasher"] = {
 									["overheal"] = 2671,
@@ -5949,16 +5944,17 @@ SkadaStorageDB = {
 									["overheal"] = 12636,
 									["amount"] = 770,
 								},
-								["Bloodworm"] = {
-									["overheal"] = 180,
-									["amount"] = 0,
-								},
 								["Giveme"] = {
 									["overheal"] = 32003,
 									["amount"] = 3592,
 								},
+								["Bloodworm"] = {
+									["overheal"] = 180,
+									["amount"] = 0,
+								},
 							},
-							["min"] = 12,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 						[48785] = {
 							["overheal"] = 3806,
@@ -5966,7 +5962,7 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 4526,
 							["max"] = 4104,
-							["min"] = 422,
+							["school"] = 2,
 							["targets"] = {
 								["Xenaprincesa"] = {
 									["overheal"] = 0,
@@ -5977,27 +5973,33 @@ SkadaStorageDB = {
 									["amount"] = 422,
 								},
 							},
-							["school"] = 2,
+							["min"] = 422,
 						},
 					},
 					["overkill"] = 39182,
-					["overheal"] = 82630,
+					["role"] = "DAMAGER",
 					["heal"] = 43429,
 					["name"] = "Giveme",
 					["ccdone"] = 2,
+					["manaspells"] = {
+						[31930] = 16470,
+						[57669] = 12572,
+						[54428] = 5880,
+					},
+					["class"] = "PALADIN",
 					["damagetakenspells"] = {
 						["Curse of Doom (DoT)"] = {
 							["total"] = 6111,
 							["hitmin"] = 422,
 							["id"] = 70183,
-							["hitmax"] = 422,
+							["count"] = 1,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["total"] = 6111,
 									["amount"] = 422,
+									["total"] = 6111,
 								},
 							},
-							["count"] = 1,
+							["hitmax"] = 422,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 2619,
@@ -6040,8 +6042,8 @@ SkadaStorageDB = {
 							["id"] = 69781,
 							["sources"] = {
 								["The Lich King"] = {
-									["total"] = 7417,
 									["amount"] = 1728,
+									["total"] = 7417,
 								},
 							},
 							["count"] = 1,
@@ -6067,33 +6069,4563 @@ SkadaStorageDB = {
 							["hitamount"] = 2673,
 						},
 					},
-					["class"] = "PALADIN",
-					["manaspells"] = {
-						[31930] = 16470,
-						[57669] = 12572,
-						[54428] = 5880,
-					},
-					["role"] = "DAMAGER",
+					["overheal"] = 82630,
 				}, -- [5]
 			},
-			["type"] = "party",
+			["totaldamagetaken"] = 374131,
+			["etotaldamagetaken"] = 3545689,
+			["last_time"] = 13526.829,
+			["runic"] = 1125,
+			["absorb"] = 146582,
 			["damagetaken"] = 229621,
-			["etotaldamage"] = 374131,
+			["starttime"] = 1699798473,
 			["interrupt"] = 2,
-			["ccdone"] = 7,
+			["mobname"] = "The Lich King",
 			["damage"] = 3545689,
 			["overkill"] = 92916,
 			["edamagetaken"] = 3545689,
 			["heal"] = 244883,
 			["name"] = "The Lich King",
-			["mobname"] = "The Lich King",
-			["starttime"] = 1699798473,
+			["ccdone"] = 7,
+			["etotaldamage"] = 374131,
 			["edamage"] = 229621,
 			["last_action"] = 1699798839,
 			["endtime"] = 1699798839,
 		}, -- [1]
 		{
-			["overheal"] = 261582,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[49560] = {
+							["count"] = 1,
+							["targets"] = {
+								["Phantom Mage"] = 1,
+							},
+						},
+					},
+					["last"] = 13110.463,
+					["flag"] = 1297,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[66803] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 3,
+							["uptime"] = 72,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 30,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 11,
+							["school"] = 16,
+							["refresh"] = 3,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 17,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 15,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+								["Marwyn"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 25,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 6,
+									["count"] = 4,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 57,
+						},
+						[71560] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[57623] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
+						},
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 91,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 45,
+						},
+						[48266] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 107,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 32,
+							["targets"] = {
+								["Marwyn"] = {
+									["uptime"] = 17,
+									["count"] = 2,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 24,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 11,
+							["school"] = 32,
+							["refresh"] = 7,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 17,
+								},
+								["Frostsworn General"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+								["Shadowy Mercenary"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 15,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+								["Marwyn"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 25,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 6,
+									["count"] = 4,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 57,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 11,
+							["school"] = 32,
+							["refresh"] = 3,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 17,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 15,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+								["Marwyn"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 24,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 6,
+									["count"] = 4,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 53,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 58,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 30,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[20217] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[47930] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[54043] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 96,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 17,
+							["uptime"] = 72,
+						},
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 59,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[49206] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Marwyn"] = {
+									["uptime"] = 21,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 21,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48265] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 21,
+							["uptime"] = 58,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 10,
+							["school"] = 32,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 4,
+									["count"] = 4,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 20,
+						},
+						[63944] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 7,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 87,
+						},
+					},
+					["totaldamage"] = 655324,
+					["time"] = 68.39000000000003,
+					["totaldamagetaken"] = 22766,
+					["damage"] = 655324,
+					["runic"] = 10,
+					["role"] = "DAMAGER",
+					["damagetaken"] = 15935,
+					["overheal"] = 10598,
+					["id"] = "0x070000000000D01B",
+					["spec"] = 252,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 7463,
+							["min"] = 4,
+							["count"] = 68,
+							["amount"] = 2126,
+							["max"] = 481,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 7463,
+									["amount"] = 2126,
+								},
+							},
+							["ishot"] = true,
+							["school"] = 1,
+						},
+						[53365] = {
+							["overheal"] = 3135,
+							["criticalamount"] = 0,
+							["max"] = 1140,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 3135,
+									["amount"] = 1140,
+								},
+							},
+							["min"] = 1140,
+							["criticalmax"] = 0,
+							["count"] = 4,
+							["amount"] = 1140,
+							["school"] = 1,
+							["critical"] = 1,
+							["criticalmin"] = 0,
+						},
+					},
+					["overkill"] = 1834,
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["criticalamount"] = 9996,
+							["critical"] = 1,
+							["hitmin"] = 3761,
+							["criticalmin"] = 9996,
+							["id"] = 55271,
+							["hitmax"] = 5180,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 3761,
+								},
+								["Marwyn"] = {
+									["amount"] = 14206,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 5180,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 4262,
+									["overkill"] = 424,
+								},
+							},
+							["overkill"] = 424,
+							["amount"] = 27409,
+							["casts"] = 6,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["criticalmax"] = 9996,
+							["hitamount"] = 17413,
+						},
+						["Death and Decay"] = {
+							["hitmin"] = 726,
+							["criticalamount"] = 49356,
+							["id"] = 52212,
+							["criticalmin"] = 1517,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 12021,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 1896,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 15024,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 14091,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 11413,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 22427,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 14093,
+								},
+							},
+							["count"] = 75,
+							["amount"] = 90965,
+							["criticalmax"] = 1980,
+							["hitmax"] = 948,
+							["hit"] = 48,
+							["school"] = 32,
+							["critical"] = 27,
+							["casts"] = 2,
+							["hitamount"] = 41609,
+						},
+						["Death Coil"] = {
+							["criticalamount"] = 32023,
+							["hitmin"] = 4077,
+							["criticalmin"] = 9099,
+							["id"] = 47632,
+							["criticalmax"] = 11466,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 9099,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 4315,
+								},
+								["Marwyn"] = {
+									["amount"] = 9464,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 17062,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 11458,
+								},
+							},
+							["critical"] = 3,
+							["amount"] = 51398,
+							["casts"] = 7,
+							["hitmax"] = 5596,
+							["hit"] = 4,
+							["school"] = 32,
+							["resisted"] = 1019,
+							["count"] = 7,
+							["hitamount"] = 19375,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 32,
+							["id"] = 50536,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 757,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 228,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 129,
+								},
+							},
+							["count"] = 21,
+							["hitmax"] = 114,
+							["hit"] = 21,
+							["school"] = 32,
+							["resisted"] = 13,
+							["amount"] = 1114,
+							["hitamount"] = 1114,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1278,
+							["id"] = 50526,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 8891,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 4110,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 5322,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 7613,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 10634,
+									["overkill"] = 196,
+								},
+								["Marwyn"] = {
+									["amount"] = 4195,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 19323,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 1525,
+								},
+							},
+							["overkill"] = 196,
+							["count"] = 40,
+							["casts"] = 1,
+							["hitmax"] = 1870,
+							["hit"] = 40,
+							["school"] = 32,
+							["resisted"] = 313,
+							["amount"] = 61613,
+							["hitamount"] = 61613,
+						},
+						["Claw (Pebblebasher)"] = {
+							["hitmin"] = 937,
+							["criticalamount"] = 3852,
+							["id"] = 47468,
+							["criticalmin"] = 1908,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 2855,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 1009,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 2993,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 2865,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 1085,
+								},
+								["Marwyn"] = {
+									["amount"] = 8966,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 19773,
+							["criticalmax"] = 1944,
+							["hitmax"] = 1115,
+							["hit"] = 16,
+							["school"] = 1,
+							["critical"] = 2,
+							["casts"] = 1,
+							["hitamount"] = 15921,
+						},
+						["Melee (Pebblebasher)"] = {
+							["glance"] = 2288,
+							["hitmin"] = 621,
+							["criticalmin"] = 1256,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 5181,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 698,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2000,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 4608,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 5220,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 747,
+								},
+								["Marwyn"] = {
+									["amount"] = 12504,
+								},
+							},
+							["glancing"] = 4,
+							["amount"] = 30958,
+							["glancemin"] = 500,
+							["criticalamount"] = 9262,
+							["id"] = 6603,
+							["glancemax"] = 670,
+							["criticalmax"] = 1488,
+							["hitmax"] = 747,
+							["hit"] = 29,
+							["school"] = 1,
+							["critical"] = 7,
+							["count"] = 40,
+							["hitamount"] = 19408,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 3578,
+							["hitmin"] = 3262,
+							["criticalmin"] = 6717,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 13916,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 8114,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3351,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 10207,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 22533,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 17468,
+								},
+								["Marwyn"] = {
+									["amount"] = 47413,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 123002,
+							["glancemin"] = 3578,
+							["criticalamount"] = 62881,
+							["id"] = 6603,
+							["glancemax"] = 3578,
+							["hit"] = 15,
+							["criticalmax"] = 8948,
+							["hitmax"] = 4459,
+							["blocked"] = 121,
+							["school"] = 1,
+							["count"] = 25,
+							["critical"] = 8,
+							["hitamount"] = 56543,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1842,
+							["id"] = 50463,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 1842,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2139,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 2320,
+								},
+								["Marwyn"] = {
+									["amount"] = 2678,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 2574,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 2183,
+								},
+							},
+							["casts"] = 1,
+							["PARRY"] = 1,
+							["count"] = 7,
+							["hit"] = 6,
+							["school"] = 1,
+							["amount"] = 13736,
+							["hitmax"] = 2678,
+							["hitamount"] = 13736,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 1943,
+							["id"] = 70890,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 1943,
+								},
+								["Marwyn"] = {
+									["amount"] = 7627,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 5367,
+							["amount"] = 9570,
+							["hitamount"] = 9570,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1961,
+							["id"] = 49909,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 4649,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 2372,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 1961,
+								},
+							},
+							["count"] = 4,
+							["casts"] = 4,
+							["hitmax"] = 2395,
+							["hit"] = 4,
+							["school"] = 16,
+							["resisted"] = 598,
+							["amount"] = 8982,
+							["hitamount"] = 8982,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 2493,
+							["criticalamount"] = 16483,
+							["id"] = 49930,
+							["criticalmin"] = 5220,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 16664,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 5220,
+								},
+							},
+							["criticalmax"] = 5852,
+							["critical"] = 3,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 21884,
+							["hitmax"] = 2908,
+							["hitamount"] = 5401,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 575,
+							["id"] = 51460,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 2782,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 670,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 2040,
+								},
+								["Marwyn"] = {
+									["amount"] = 8721,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 1703,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 4504,
+								},
+							},
+							["count"] = 22,
+							["casts"] = 1,
+							["hitmax"] = 1669,
+							["hit"] = 22,
+							["school"] = 32,
+							["resisted"] = 757,
+							["amount"] = 20420,
+							["hitamount"] = 20420,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1310,
+							["id"] = 55078,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 1310,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 7089,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 5547,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 6738,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 1662,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 9377,
+								},
+								["Marwyn"] = {
+									["amount"] = 10943,
+									["overkill"] = 1132,
+								},
+							},
+							["overkill"] = 1132,
+							["count"] = 28,
+							["hitmax"] = 1896,
+							["hit"] = 28,
+							["school"] = 32,
+							["resisted"] = 477,
+							["amount"] = 42666,
+							["hitamount"] = 42666,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 2314,
+							["criticalamount"] = 5552,
+							["id"] = 49921,
+							["criticalmin"] = 5552,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 5115,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 2618,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 5552,
+								},
+							},
+							["criticalmax"] = 5552,
+							["critical"] = 1,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 13285,
+							["hitmax"] = 2801,
+							["hitamount"] = 7733,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 654,
+							["id"] = 71904,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 814,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 749,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 790,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 811,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 2745,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 716,
+								},
+								["Marwyn"] = {
+									["amount"] = 3477,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 32,
+							["hitmax"] = 3477,
+							["amount"] = 10102,
+							["hitamount"] = 10102,
+						},
+						["Gargoyle Strike (Ebon Gargoyle)"] = {
+							["criticalamount"] = 6729,
+							["hitmin"] = 4036,
+							["criticalmin"] = 6729,
+							["id"] = 51963,
+							["casts"] = 1,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 49791,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 49791,
+							["criticalmax"] = 6729,
+							["critical"] = 1,
+							["hit"] = 10,
+							["school"] = 8,
+							["resisted"] = 1795,
+							["hitmax"] = 4488,
+							["hitamount"] = 43062,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1517,
+							["id"] = 55095,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 3199,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 8955,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 7069,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 8810,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 3925,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 12351,
+									["overkill"] = 82,
+								},
+								["Marwyn"] = {
+									["amount"] = 12207,
+								},
+							},
+							["overkill"] = 82,
+							["count"] = 30,
+							["hitmax"] = 2486,
+							["hit"] = 30,
+							["school"] = 16,
+							["resisted"] = 1390,
+							["amount"] = 56516,
+							["hitamount"] = 56516,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 339,
+							["id"] = 54043,
+							["targets"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 2140,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 387,
+							["amount"] = 2140,
+							["hitamount"] = 2140,
+						},
+					},
+					["heal"] = 3266,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["interrupt"] = 1,
+					["damagetakenspells"] = {
+						["Shared Suffering"] = {
+							["total"] = 1956,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 72373,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Marwyn"] = {
+									["amount"] = 0,
+									["total"] = 1956,
+								},
+							},
+						},
+						["Flamestrike"] = {
+							["total"] = 3164,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["id"] = 72170,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 0,
+									["total"] = 3164,
+								},
+							},
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["total"] = 8506,
+							["hitmin"] = 818,
+							["id"] = 6603,
+							["sources"] = {
+								["Spectral Footman"] = {
+									["amount"] = 0,
+									["total"] = 1711,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 6795,
+								},
+							},
+							["ABSORB"] = 1,
+							["PARRY"] = 2,
+							["hitmax"] = 1324,
+							["amount"] = 6795,
+							["school"] = 1,
+							["hit"] = 6,
+							["count"] = 11,
+							["hitamount"] = 6795,
+						},
+						["Baleful Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2131,
+							["id"] = 70400,
+							["count"] = 4,
+							["sources"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 9140,
+								},
+							},
+							["hitmax"] = 4043,
+							["hit"] = 3,
+							["school"] = 32,
+							["resisted"] = 3701,
+							["amount"] = 9140,
+							["hitamount"] = 9140,
+						},
+					},
+					["interruptspells"] = {
+						[47528] = {
+							["spells"] = {
+								[72164] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Phantom Mage"] = 1,
+							},
+						},
+					},
+					["runicspells"] = {
+						[45529] = 10,
+					},
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[48817] = {
+							["count"] = 4,
+							["targets"] = {
+								["Tortured Rifleman"] = 1,
+								["Phantom Mage"] = 1,
+								["Spectral Footman"] = 1,
+								["Shadowy Mercenary"] = 1,
+							},
+						},
+					},
+					["last"] = 13125.221,
+					["flag"] = 2098450,
+					["mana"] = 19188,
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[63529] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[57623] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Marwyn"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 12,
+								},
+								["Ghostly Priest"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 16,
+								},
+							},
+							["uptime"] = 39,
+						},
+						[67371] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 5,
+							["uptime"] = 91,
+						},
+						[48817] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 18,
+							["school"] = 2,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 16,
+									["count"] = 2,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Marwyn"] = {
+									["uptime"] = 22,
+									["count"] = 3,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 5,
+									["count"] = 8,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 51,
+						},
+						[54428] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 76,
+						},
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[20132] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+						[48827] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 16,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Marwyn"] = {
+									["uptime"] = 11,
+									["count"] = 3,
+								},
+								["Ghostly Priest"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 16,
+								},
+							},
+							["uptime"] = 33,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["targets"] = {
+								["Marwyn"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[31801] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[31803] = {
+							["type"] = "DEBUFF",
+							["count"] = 11,
+							["school"] = 2,
+							["refresh"] = 53,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 13,
+								},
+								["Shadowy Mercenary"] = {
+									["refresh"] = 6,
+									["count"] = 1,
+									["uptime"] = 11,
+								},
+								["Spectral Footman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 13,
+								},
+								["Frostsworn General"] = {
+									["refresh"] = 19,
+									["count"] = 1,
+									["uptime"] = 23,
+								},
+								["Spiritual Reflection"] = {
+									["refresh"] = 3,
+									["count"] = 5,
+									["uptime"] = 7,
+								},
+								["Marwyn"] = {
+									["refresh"] = 18,
+									["count"] = 1,
+									["uptime"] = 25,
+								},
+							},
+							["uptime"] = 74,
+						},
+						[71432] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 28,
+						},
+						[20217] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[28093] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 47,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 19,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 2,
+							["refresh"] = 11,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 13,
+								},
+								["Shadowy Mercenary"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 11,
+								},
+								["Spectral Footman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 6,
+								},
+								["Frostsworn General"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 23,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Marwyn"] = {
+									["refresh"] = 3,
+									["count"] = 2,
+									["uptime"] = 23,
+								},
+							},
+							["uptime"] = 68,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 67,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 21,
+						},
+						[48952] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 30,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[31884] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[63944] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[12179] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[68055] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Marwyn"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 19,
+								},
+								["Frostsworn General"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 20,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 42,
+						},
+						[31790] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[54861] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["totaldamage"] = 417683,
+					["time"] = 93.23999999999998,
+					["totaldamagetaken"] = 26982,
+					["damage"] = 417683,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 524,
+							["id"] = 48819,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 4232,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 1196,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 8809,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 4784,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 4784,
+								},
+								["Marwyn"] = {
+									["amount"] = 15029,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 9200,
+									["overkill"] = 161,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 4784,
+								},
+							},
+							["overkill"] = 161,
+							["count"] = 89,
+							["casts"] = 7,
+							["hitmax"] = 718,
+							["hit"] = 89,
+							["school"] = 2,
+							["resisted"] = 562,
+							["amount"] = 52818,
+							["hitamount"] = 52818,
+						},
+						["Melee"] = {
+							["glance"] = 2396,
+							["hitmin"] = 718,
+							["criticalmin"] = 1450,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 3346,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 5171,
+								},
+								["Marwyn"] = {
+									["amount"] = 22411,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 16930,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 5006,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 2787,
+								},
+							},
+							["glancing"] = 3,
+							["amount"] = 55651,
+							["glancemin"] = 721,
+							["criticalamount"] = 25828,
+							["id"] = 6603,
+							["glancemax"] = 898,
+							["hit"] = 31,
+							["criticalmax"] = 2198,
+							["count"] = 48,
+							["blocked"] = 81,
+							["school"] = 1,
+							["critical"] = 14,
+							["hitmax"] = 1050,
+							["hitamount"] = 27427,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 247,
+							["id"] = 31803,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 1366,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 3253,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2002,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 1500,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 6628,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 742,
+								},
+								["Marwyn"] = {
+									["amount"] = 8610,
+								},
+							},
+							["count"] = 28,
+							["hitmax"] = 1501,
+							["hit"] = 28,
+							["school"] = 2,
+							["resisted"] = 1095,
+							["amount"] = 24101,
+							["hitamount"] = 24101,
+						},
+						["Seal of Vengeance"] = {
+							["criticalmin"] = 160,
+							["amount"] = 30791,
+							["hitmin"] = 47,
+							["criticalamount"] = 7833,
+							["id"] = 42463,
+							["casts"] = 1,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 691,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 1384,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3140,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 109,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 11123,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 712,
+								},
+								["Marwyn"] = {
+									["amount"] = 13632,
+								},
+							},
+							["count"] = 67,
+							["hit"] = 55,
+							["criticalmax"] = 1092,
+							["hitmax"] = 663,
+							["blocked"] = 81,
+							["school"] = 2,
+							["resisted"] = 722,
+							["critical"] = 12,
+							["hitamount"] = 22958,
+						},
+						["Hand of Reckoning"] = {
+							["hitmin"] = 3825,
+							["criticalamount"] = 5279,
+							["id"] = 67485,
+							["criticalmin"] = 5279,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 4636,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 3977,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 3825,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 5279,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 17717,
+							["criticalmax"] = 5279,
+							["hitmax"] = 4636,
+							["hit"] = 3,
+							["school"] = 2,
+							["critical"] = 1,
+							["casts"] = 4,
+							["hitamount"] = 12438,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 204,
+							["id"] = 54043,
+							["targets"] = {
+								["Frostsworn General"] = {
+									["amount"] = 438,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 434,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 233,
+							["amount"] = 872,
+							["hitamount"] = 872,
+						},
+						["Hammer of the Righteous"] = {
+							["criticalmin"] = 8360,
+							["hitmin"] = 3729,
+							["criticalamount"] = 54972,
+							["id"] = 53595,
+							["casts"] = 12,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 14313,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 19084,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 9542,
+								},
+								["Marwyn"] = {
+									["amount"] = 20307,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 20994,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 26192,
+								},
+							},
+							["count"] = 18,
+							["amount"] = 110432,
+							["criticalmax"] = 9542,
+							["hitmax"] = 5726,
+							["hit"] = 12,
+							["school"] = 2,
+							["resisted"] = 983,
+							["critical"] = 6,
+							["hitamount"] = 55460,
+						},
+						["Judgement of Vengeance"] = {
+							["hitmin"] = 1497,
+							["criticalamount"] = 20392,
+							["id"] = 31804,
+							["criticalmin"] = 2994,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 12380,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 5576,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 1497,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 1629,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 11037,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 32119,
+							["criticalmax"] = 6246,
+							["hitmax"] = 3346,
+							["hit"] = 5,
+							["school"] = 2,
+							["critical"] = 4,
+							["casts"] = 1,
+							["hitamount"] = 11727,
+						},
+						["Holy Shield"] = {
+							["hitmin"] = 1076,
+							["id"] = 48952,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 2455,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 1076,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 1076,
+								},
+							},
+							["count"] = 4,
+							["casts"] = 3,
+							["hitmax"] = 1292,
+							["hit"] = 4,
+							["school"] = 2,
+							["resisted"] = 129,
+							["amount"] = 4607,
+							["hitamount"] = 4607,
+						},
+						["Avenger's Shield"] = {
+							["hitmin"] = 2303,
+							["criticalamount"] = 9580,
+							["id"] = 48827,
+							["criticalmin"] = 4730,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 4850,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 4730,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 2303,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2603,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 14486,
+							["criticalmax"] = 4850,
+							["hitmax"] = 2603,
+							["hit"] = 2,
+							["school"] = 2,
+							["critical"] = 2,
+							["casts"] = 2,
+							["hitamount"] = 4906,
+						},
+						["Shield of Righteousness"] = {
+							["criticalmin"] = 7014,
+							["hitmin"] = 3304,
+							["criticalamount"] = 24450,
+							["id"] = 61411,
+							["amount"] = 63754,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 3734,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3964,
+								},
+								["Marwyn"] = {
+									["amount"] = 22944,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 17789,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 7397,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 7926,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 10,
+							["criticalmax"] = 9510,
+							["hitmax"] = 4756,
+							["blocked"] = 41,
+							["school"] = 2,
+							["critical"] = 3,
+							["casts"] = 13,
+							["hitamount"] = 39304,
+						},
+						["Holy Wrath"] = {
+							["hitmin"] = 2419,
+							["criticalamount"] = 3004,
+							["id"] = 48817,
+							["criticalmin"] = 3004,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 3004,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 2487,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 2425,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2419,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 10335,
+							["criticalmax"] = 3004,
+							["hitmax"] = 2487,
+							["hit"] = 3,
+							["school"] = 2,
+							["critical"] = 1,
+							["casts"] = 1,
+							["hitamount"] = 7331,
+						},
+					},
+					["damagetaken"] = 8996,
+					["id"] = "0x0700000000690218",
+					["spec"] = 66,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 71223,
+							["min"] = 119,
+							["count"] = 123,
+							["amount"] = 17285,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Ebon Gargoyle"] = {
+									["overheal"] = 1722,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 10263,
+									["amount"] = 1521,
+								},
+								["Xenaprincesa"] = {
+									["overheal"] = 13525,
+									["amount"] = 2336,
+								},
+								["Rune Weapon"] = {
+									["overheal"] = 212,
+									["amount"] = 0,
+								},
+								["Guakamole"] = {
+									["overheal"] = 30310,
+									["amount"] = 7581,
+								},
+								["Bloodworm"] = {
+									["overheal"] = 340,
+									["amount"] = 0,
+								},
+								["Giveme"] = {
+									["overheal"] = 4779,
+									["amount"] = 5847,
+								},
+								["Pebblebasher"] = {
+									["overheal"] = 9450,
+									["amount"] = 0,
+								},
+								["Shadowfiend"] = {
+									["overheal"] = 622,
+									["amount"] = 0,
+								},
+							},
+							["max"] = 1285,
+						},
+					},
+					["overkill"] = 161,
+					["role"] = "TANK",
+					["heal"] = 17285,
+					["name"] = "Guakamole",
+					["ccdone"] = 4,
+					["manaspells"] = {
+						[57319] = 5840,
+						[54428] = 13176,
+						[31786] = 172,
+					},
+					["class"] = "PALADIN",
+					["overheal"] = 71223,
+					["damagetakenspells"] = {
+						["Cursed Arrow"] = {
+							["sources"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["MISS"] = 1,
+							["id"] = 72222,
+						},
+						["Shared Suffering (DoT)"] = {
+							["total"] = 4355,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 72369,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Marwyn"] = {
+									["amount"] = 0,
+									["total"] = 4355,
+								},
+							},
+						},
+						["Melee"] = {
+							["DODGE"] = 13,
+							["total"] = 15138,
+							["hitmin"] = 724,
+							["count"] = 54,
+							["id"] = 6603,
+							["ABSORB"] = 2,
+							["blocked"] = 12517,
+							["hitmax"] = 4048,
+							["hit"] = 4,
+							["sources"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 0,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 0,
+									["total"] = 1152,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 0,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 0,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 6833,
+									["total"] = 12522,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 1464,
+								},
+								["Marwyn"] = {
+									["amount"] = 0,
+								},
+							},
+							["BLOCK"] = 6,
+							["amount"] = 8297,
+							["school"] = 1,
+							["PARRY"] = 15,
+							["MISS"] = 14,
+							["hitamount"] = 8297,
+						},
+						["Obliterate"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Marwyn"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 72434,
+							["PARRY"] = 1,
+						},
+						["Shoot"] = {
+							["id"] = 72211,
+							["total"] = 1117,
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["sources"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 0,
+									["total"] = 1117,
+								},
+							},
+							["MISS"] = 1,
+							["amount"] = 0,
+						},
+						["Deadly Poison (DoT)"] = {
+							["total"] = 4339,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 8,
+							["id"] = 72330,
+							["ABSORB"] = 4,
+							["sources"] = {
+								["Shadowy Mercenary"] = {
+									["amount"] = 0,
+									["total"] = 4339,
+								},
+							},
+						},
+						["Flamestrike"] = {
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["MISS"] = 1,
+							["id"] = 72170,
+						},
+						["Spectral Strike"] = {
+							["PARRY"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 72688,
+							["sources"] = {
+								["Spectral Footman"] = {
+									["amount"] = 0,
+								},
+							},
+						},
+						["Shared Suffering"] = {
+							["total"] = 2033,
+							["hitmin"] = 699,
+							["id"] = 72373,
+							["count"] = 1,
+							["sources"] = {
+								["Marwyn"] = {
+									["amount"] = 699,
+									["total"] = 2033,
+								},
+							},
+							["hitmax"] = 699,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 870,
+							["amount"] = 699,
+							["hitamount"] = 699,
+						},
+					},
+				}, -- [2]
+				{
+					["last"] = 13122.638,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 38,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[586] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[63944] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[57623] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+						},
+						[15359] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 4,
+							["uptime"] = 41,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[59891] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["refresh"] = 6,
+							["uptime"] = 38,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[63619] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 8,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[20217] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 103,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 11,
+							["school"] = 2,
+							["targets"] = {
+								["Urgash"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+								["Guakamole"] = {
+									["uptime"] = 61,
+									["count"] = 3,
+								},
+								["Giveme"] = {
+									["uptime"] = 61,
+									["count"] = 2,
+								},
+								["Niveaboy"] = {
+									["uptime"] = 45,
+									["count"] = 3,
+								},
+								["Xenaprincesa"] = {
+									["uptime"] = 61,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 61,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["refresh"] = 4,
+							["uptime"] = 33,
+						},
+						[54043] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 66,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 6,
+							["uptime"] = 28,
+						},
+						[6346] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 59,
+						},
+					},
+					["absorbspells"] = {
+						[48066] = {
+							["min"] = 103,
+							["casts"] = 10,
+							["count"] = 27,
+							["amount"] = 53563,
+							["school"] = 2,
+							["targets"] = {
+								["Urgash"] = 6297,
+								["Guakamole"] = 17419,
+								["Giveme"] = 8134,
+								["Niveaboy"] = 13579,
+								["Xenaprincesa"] = 8134,
+							},
+							["max"] = 4355,
+						},
+						[47753] = {
+							["min"] = 90,
+							["casts"] = 15,
+							["count"] = 13,
+							["amount"] = 12462,
+							["school"] = 2,
+							["targets"] = {
+								["Urgash"] = 534,
+								["Guakamole"] = 567,
+								["Xenaprincesa"] = 567,
+								["Niveaboy"] = 9193,
+								["Giveme"] = 1601,
+							},
+							["max"] = 3196,
+						},
+					},
+					["totaldamage"] = 3159,
+					["time"] = 58.58,
+					["totaldamagetaken"] = 46136,
+					["damage"] = 3159,
+					["damagespells"] = {
+						["Retribution Aura"] = {
+							["hitmin"] = 203,
+							["id"] = 54043,
+							["targets"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 203,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 203,
+							["amount"] = 203,
+							["hitamount"] = 203,
+						},
+						["Melee (Shadowfiend)"] = {
+							["hitmin"] = 926,
+							["id"] = 6603,
+							["targets"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 2956,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1096,
+							["amount"] = 2956,
+							["hitamount"] = 2956,
+						},
+					},
+					["absorb"] = 66025,
+					["damagetaken"] = 23364,
+					["id"] = "0x07000000009DDD88",
+					["spec"] = 256,
+					["healspells"] = {
+						[33110] = {
+							["overheal"] = 6930,
+							["criticalamount"] = 699,
+							["max"] = 3143,
+							["targets"] = {
+								["Giveme"] = {
+									["overheal"] = 0,
+									["amount"] = 3143,
+								},
+								["Guakamole"] = {
+									["overheal"] = 5429,
+									["amount"] = 699,
+								},
+								["Xenaprincesa"] = {
+									["overheal"] = 1501,
+									["amount"] = 1643,
+								},
+							},
+							["min"] = 699,
+							["criticalmax"] = 699,
+							["count"] = 3,
+							["amount"] = 5485,
+							["school"] = 2,
+							["critical"] = 1,
+							["criticalmin"] = 699,
+						},
+						[48071] = {
+							["overheal"] = 9824,
+							["criticalamount"] = 2904,
+							["max"] = 4042,
+							["targets"] = {
+								["Giveme"] = {
+									["overheal"] = 0,
+									["amount"] = 4042,
+								},
+								["Urgash"] = {
+									["overheal"] = 275,
+									["amount"] = 3744,
+								},
+								["Niveaboy"] = {
+									["overheal"] = 9549,
+									["amount"] = 2904,
+								},
+							},
+							["min"] = 840,
+							["casts"] = 4,
+							["count"] = 4,
+							["amount"] = 10690,
+							["school"] = 2,
+							["critical"] = 2,
+							["criticalmax"] = 2064,
+							["criticalmin"] = 840,
+						},
+						[56160] = {
+							["overheal"] = 18460,
+							["criticalamount"] = 1698,
+							["max"] = 1698,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 1783,
+									["amount"] = 0,
+								},
+								["Guakamole"] = {
+									["overheal"] = 6934,
+									["amount"] = 0,
+								},
+								["Giveme"] = {
+									["overheal"] = 3151,
+									["amount"] = 0,
+								},
+								["Niveaboy"] = {
+									["overheal"] = 3001,
+									["amount"] = 1698,
+								},
+								["Xenaprincesa"] = {
+									["overheal"] = 3591,
+									["amount"] = 821,
+								},
+							},
+							["min"] = 821,
+							["criticalmax"] = 1698,
+							["count"] = 14,
+							["amount"] = 2519,
+							["school"] = 2,
+							["critical"] = 6,
+							["criticalmin"] = 0,
+						},
+						[48120] = {
+							["overheal"] = 19755,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Giveme"] = {
+									["overheal"] = 4911,
+									["amount"] = 0,
+								},
+								["Niveaboy"] = {
+									["overheal"] = 10523,
+									["amount"] = 0,
+								},
+								["Guakamole"] = {
+									["overheal"] = 4321,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 2,
+							["critical"] = 1,
+							["casts"] = 2,
+							["criticalmin"] = 0,
+						},
+						[52985] = {
+							["overheal"] = 26197,
+							["criticalamount"] = 13830,
+							["max"] = 4932,
+							["targets"] = {
+								["Giveme"] = {
+									["overheal"] = 3425,
+									["amount"] = 8407,
+								},
+								["Niveaboy"] = {
+									["overheal"] = 11344,
+									["amount"] = 11767,
+								},
+								["Guakamole"] = {
+									["overheal"] = 11428,
+									["amount"] = 0,
+								},
+							},
+							["min"] = 2869,
+							["criticalmax"] = 4932,
+							["critical"] = 5,
+							["amount"] = 20174,
+							["school"] = 2,
+							["count"] = 12,
+							["casts"] = 12,
+							["criticalmin"] = 0,
+						},
+						[48173] = {
+							["overheal"] = 5724,
+							["criticalamount"] = 4729,
+							["max"] = 4729,
+							["targets"] = {
+								["Niveaboy"] = {
+									["overheal"] = 5724,
+									["amount"] = 4729,
+								},
+							},
+							["min"] = 4729,
+							["criticalmax"] = 4729,
+							["critical"] = 1,
+							["amount"] = 4729,
+							["school"] = 2,
+							["count"] = 1,
+							["criticalmin"] = 4729,
+						},
+					},
+					["damagetakenspells"] = {
+						["Shoot"] = {
+							["total"] = 2982,
+							["hitmin"] = 936,
+							["id"] = 72211,
+							["sources"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 936,
+									["total"] = 2982,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 936,
+							["amount"] = 936,
+							["hitamount"] = 936,
+						},
+						["Melee"] = {
+							["total"] = 24177,
+							["hitmin"] = 947,
+							["id"] = 6603,
+							["count"] = 11,
+							["sources"] = {
+								["Spectral Footman"] = {
+									["amount"] = 0,
+									["total"] = 3643,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 14678,
+									["total"] = 20534,
+								},
+							},
+							["hitmax"] = 2251,
+							["ABSORB"] = 3,
+							["school"] = 1,
+							["hit"] = 8,
+							["amount"] = 14678,
+							["hitamount"] = 14678,
+						},
+						["Shared Suffering"] = {
+							["total"] = 2201,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 72373,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Marwyn"] = {
+									["amount"] = 0,
+									["total"] = 2201,
+								},
+							},
+						},
+						["Envenomed Dagger Throw (DoT)"] = {
+							["total"] = 3720,
+							["hitmin"] = 840,
+							["id"] = 72334,
+							["count"] = 4,
+							["sources"] = {
+								["Shadowy Mercenary"] = {
+									["amount"] = 840,
+									["total"] = 3720,
+								},
+							},
+							["hitmax"] = 840,
+							["ABSORB"] = 3,
+							["school"] = 8,
+							["hit"] = 1,
+							["amount"] = 840,
+							["hitamount"] = 840,
+						},
+						["Baleful Strike"] = {
+							["total"] = 13056,
+							["hitmin"] = 3218,
+							["id"] = 70400,
+							["count"] = 4,
+							["hit"] = 2,
+							["sources"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 6910,
+									["total"] = 13056,
+								},
+							},
+							["hitmax"] = 3692,
+							["amount"] = 6910,
+							["school"] = 32,
+							["resisted"] = 1726,
+							["ABSORB"] = 2,
+							["hitamount"] = 6910,
+						},
+					},
+					["role"] = "HEALER",
+					["heal"] = 43597,
+					["name"] = "Niveaboy",
+					["overheal"] = 86890,
+					["manaspells"] = {
+						[47755] = 2592,
+						[63654] = 1328,
+						[34650] = 3684,
+					},
+					["dispel"] = 1,
+					["dispelspells"] = {
+						[32375] = {
+							["spells"] = {
+								[72369] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Guakamole"] = 1,
+							},
+						},
+					},
+					["mana"] = 7604,
+				}, -- [3]
+				{
+					["last"] = 13110.085,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 44,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 10,
+							["uptime"] = 79,
+						},
+						[45529] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[63944] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 30,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 22,
+							["uptime"] = 40,
+						},
+						[57623] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+						},
+						[71227] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 62,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[49028] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Marwyn"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Marwyn"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 23,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 40,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 65,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[49016] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 44,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 16,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 18,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 14,
+									["count"] = 1,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 16,
+									["count"] = 1,
+								},
+								["Marwyn"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 25,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 13,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 63,
+						},
+						[20217] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 98,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 30,
+						},
+						[50449] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 27,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71560] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[54861] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["totaldamage"] = 638411,
+					["time"] = 77.09000000000003,
+					["totaldamagetaken"] = 12090,
+					["damage"] = 638411,
+					["overheal"] = 55835,
+					["damagetaken"] = 3389,
+					["id"] = "0x0700000000005962",
+					["spec"] = 250,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 8325,
+							["criticalamount"] = 0,
+							["max"] = 488,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 8325,
+									["amount"] = 854,
+								},
+							},
+							["min"] = 366,
+							["criticalmax"] = 0,
+							["count"] = 7,
+							["amount"] = 854,
+							["school"] = 1,
+							["critical"] = 2,
+							["criticalmin"] = 0,
+						},
+						[50454] = {
+							["overheal"] = 15498,
+							["count"] = 46,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 15498,
+									["amount"] = 0,
+								},
+							},
+						},
+						[45470] = {
+							["overheal"] = 17628,
+							["casts"] = 5,
+							["count"] = 4,
+							["amount"] = 732,
+							["max"] = 732,
+							["school"] = 1,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 17628,
+									["amount"] = 732,
+								},
+							},
+							["min"] = 732,
+						},
+						[50475] = {
+							["overheal"] = 14384,
+							["min"] = 77,
+							["count"] = 60,
+							["amount"] = 6076,
+							["max"] = 699,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 14384,
+									["amount"] = 6076,
+								},
+							},
+							["ishot"] = true,
+							["school"] = 1,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["PARRY"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 0,
+								},
+							},
+						},
+						["Shared Suffering"] = {
+							["total"] = 2445,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 72373,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Marwyn"] = {
+									["amount"] = 0,
+									["total"] = 2445,
+								},
+							},
+						},
+						["Flamestrike"] = {
+							["total"] = 4407,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["id"] = 72170,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 0,
+									["total"] = 4407,
+								},
+							},
+						},
+						["Flamestrike (DoT)"] = {
+							["total"] = 5238,
+							["hitmin"] = 1643,
+							["id"] = 72170,
+							["count"] = 3,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 3389,
+									["total"] = 5238,
+								},
+							},
+							["hitmax"] = 1746,
+							["ABSORB"] = 1,
+							["school"] = 4,
+							["hit"] = 2,
+							["amount"] = 3389,
+							["hitamount"] = 3389,
+						},
+						["Baleful Strike"] = {
+							["PARRY"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 70400,
+							["sources"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["heal"] = 7662,
+					["name"] = "Xenaprincesa",
+					["role"] = "DAMAGER",
+					["damagespells"] = {
+						["Blood-Caked Strike (Rune Weapon)"] = {
+							["hitmin"] = 472,
+							["id"] = 50463,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 1416,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 472,
+							["amount"] = 1416,
+							["hitamount"] = 1416,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 759,
+							["id"] = 71904,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 783,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 808,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 796,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 759,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 3340,
+								},
+								["Marwyn"] = {
+									["amount"] = 3063,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["hitmax"] = 3340,
+							["amount"] = 9549,
+							["hitamount"] = 9549,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 3088,
+							["id"] = 47632,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 10115,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 6533,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 3088,
+								},
+							},
+							["count"] = 6,
+							["casts"] = 4,
+							["hitmax"] = 3514,
+							["hit"] = 6,
+							["school"] = 32,
+							["resisted"] = 1171,
+							["amount"] = 19736,
+							["hitamount"] = 19736,
+						},
+						["Melee (Bloodworm)"] = {
+							["glance"] = 709,
+							["hitmin"] = 133,
+							["criticalmin"] = 272,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 2655,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 3500,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 808,
+								},
+							},
+							["glancing"] = 5,
+							["amount"] = 6963,
+							["glancemin"] = 133,
+							["criticalamount"] = 860,
+							["id"] = 6603,
+							["glancemax"] = 155,
+							["criticalmax"] = 316,
+							["hitmax"] = 158,
+							["hit"] = 38,
+							["school"] = 1,
+							["critical"] = 3,
+							["count"] = 46,
+							["hitamount"] = 5394,
+						},
+						["Heart Strike"] = {
+							["DODGE"] = 1,
+							["criticalamount"] = 132404,
+							["hitmin"] = 1945,
+							["criticalmin"] = 6171,
+							["id"] = 55262,
+							["criticalmax"] = 17542,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 10548,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 2323,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 56079,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 8982,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 20370,
+									["overkill"] = 199,
+								},
+								["Marwyn"] = {
+									["amount"] = 87032,
+								},
+							},
+							["overkill"] = 199,
+							["critical"] = 10,
+							["casts"] = 18,
+							["hitmax"] = 6248,
+							["hit"] = 12,
+							["school"] = 1,
+							["amount"] = 185334,
+							["count"] = 23,
+							["hitamount"] = 52930,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 8135,
+							["criticalamount"] = 49087,
+							["id"] = 49924,
+							["criticalmin"] = 15109,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 25794,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 16319,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 15109,
+								},
+							},
+							["criticalmax"] = 17659,
+							["critical"] = 3,
+							["casts"] = 8,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 57222,
+							["hitmax"] = 8135,
+							["hitamount"] = 8135,
+						},
+						["Death Strike (Rune Weapon)"] = {
+							["criticalamount"] = 6585,
+							["id"] = 49924,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 6585,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 6585,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 6585,
+							["criticalmin"] = 6585,
+						},
+						["Melee"] = {
+							["glance"] = 4354,
+							["hitmin"] = 4413,
+							["criticalmin"] = 8812,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 17927,
+								},
+								["Marwyn"] = {
+									["amount"] = 83318,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 52679,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 5286,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 14579,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 173789,
+							["glancemin"] = 4354,
+							["criticalamount"] = 121109,
+							["id"] = 6603,
+							["glancemax"] = 4354,
+							["criticalmax"] = 13130,
+							["hitmax"] = 6175,
+							["hit"] = 9,
+							["school"] = 1,
+							["critical"] = 11,
+							["count"] = 21,
+							["hitamount"] = 48326,
+						},
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 2000,
+							["id"] = 50463,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 14883,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 4985,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 2000,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 3134,
+							["amount"] = 21868,
+							["hitamount"] = 21868,
+						},
+						["Death Coil (Rune Weapon)"] = {
+							["criticalamount"] = 2349,
+							["hitmin"] = 1174,
+							["criticalmin"] = 2349,
+							["id"] = 47632,
+							["casts"] = 1,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 3523,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3523,
+							["criticalmax"] = 2349,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 390,
+							["hitmax"] = 1174,
+							["hitamount"] = 1174,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 696,
+							["id"] = 51460,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 2702,
+								},
+								["Marwyn"] = {
+									["amount"] = 16149,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 10533,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 1057,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 2915,
+								},
+							},
+							["count"] = 20,
+							["casts"] = 1,
+							["hitmax"] = 2626,
+							["hit"] = 20,
+							["school"] = 32,
+							["resisted"] = 511,
+							["amount"] = 33356,
+							["hitamount"] = 33356,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 771,
+							["id"] = 55078,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 9473,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 4580,
+								},
+							},
+							["count"] = 12,
+							["hitmax"] = 1468,
+							["hit"] = 12,
+							["school"] = 32,
+							["resisted"] = 732,
+							["amount"] = 14053,
+							["hitamount"] = 14053,
+						},
+						["Heart Strike (Rune Weapon)"] = {
+							["hitmin"] = 2195,
+							["criticalamount"] = 21494,
+							["id"] = 55262,
+							["criticalmin"] = 5370,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 25884,
+								},
+							},
+							["criticalmax"] = 5377,
+							["critical"] = 4,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 25884,
+							["hitmax"] = 2195,
+							["hitamount"] = 4390,
+						},
+						["Icy Touch"] = {
+							["criticalamount"] = 7324,
+							["hitmin"] = 1685,
+							["criticalmin"] = 3044,
+							["id"] = 49909,
+							["casts"] = 4,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 1831,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 1685,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 4280,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 3044,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 10840,
+							["criticalmax"] = 4280,
+							["critical"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["resisted"] = 203,
+							["hitmax"] = 1831,
+							["hitamount"] = 3516,
+						},
+						["Plague Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2303,
+							["criticalamount"] = 12456,
+							["id"] = 49921,
+							["criticalmin"] = 5721,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 5721,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 0,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 6735,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 2303,
+								},
+							},
+							["criticalmax"] = 6735,
+							["critical"] = 2,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 14759,
+							["hitmax"] = 2303,
+							["hitamount"] = 2303,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 756,
+							["id"] = 55095,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 2242,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 5608,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 4485,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 5608,
+								},
+								["Marwyn"] = {
+									["amount"] = 12219,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 5601,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 3412,
+								},
+							},
+							["count"] = 34,
+							["hitmax"] = 1639,
+							["hit"] = 34,
+							["school"] = 16,
+							["resisted"] = 468,
+							["amount"] = 39175,
+							["hitamount"] = 39175,
+						},
+						["Melee (Rune Weapon)"] = {
+							["glance"] = 3022,
+							["hitmin"] = 1889,
+							["criticalmin"] = 3778,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 14359,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 14359,
+							["glancemin"] = 1511,
+							["criticalamount"] = 7558,
+							["id"] = 6603,
+							["glancemax"] = 1511,
+							["criticalmax"] = 3780,
+							["hitmax"] = 1890,
+							["hit"] = 2,
+							["school"] = 1,
+							["critical"] = 2,
+							["count"] = 6,
+							["hitamount"] = 3779,
+						},
+					},
+					["runic"] = 70,
+					["overkill"] = 199,
+					["runicspells"] = {
+						[50422] = 20,
+						[50163] = 40,
+						[45529] = 10,
+					},
+				}, -- [4]
+				{
+					["last"] = 13125.647,
+					["flag"] = 1298,
+					["mana"] = 15761,
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 4,
+							["uptime"] = 37,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[20053] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 37,
+						},
+						[61840] = {
+							["type"] = "DEBUFF",
+							["count"] = 12,
+							["school"] = 2,
+							["refresh"] = 10,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Phantom Mage"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 10,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+								["Spectral Footman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 12,
+								},
+								["Marwyn"] = {
+									["refresh"] = 6,
+									["count"] = 1,
+									["uptime"] = 19,
+								},
+								["Spiritual Reflection"] = {
+									["refresh"] = 1,
+									["count"] = 3,
+									["uptime"] = 5,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 49,
+						},
+						[20184] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Marwyn"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 12,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 22,
+							["uptime"] = 95,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Marwyn"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[54428] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[15359] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Marwyn"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 10,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 25,
+						},
+						[71187] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 8,
+							["uptime"] = 88,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 51,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[31801] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[67018] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[71432] = {
+							["type"] = "BUFF",
+							["count"] = 11,
+							["school"] = 1,
+							["refresh"] = 36,
+							["uptime"] = 84,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[20217] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 19,
+							["uptime"] = 60,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 34,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 13,
+						},
+						[31803] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["refresh"] = 13,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 4,
+								},
+								["Marwyn"] = {
+									["refresh"] = 7,
+									["count"] = 1,
+									["uptime"] = 22,
+								},
+								["Frostsworn General"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 12,
+								},
+								["Spiritual Reflection"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 4,
+								},
+								["Phantom Mage"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 48,
+						},
+						[57102] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[31884] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 3,
+							["uptime"] = 11,
+						},
+						[57623] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[63944] = {
+							["uptime"] = 108,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+						},
+						[67773] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 30,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 108,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["targets"] = {
+								["Marwyn"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Frostsworn General"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+								["Spiritual Reflection"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+					},
+					["totaldamage"] = 569677,
+					["time"] = 78.32999999999998,
+					["totaldamagetaken"] = 40706,
+					["damage"] = 569677,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 727,
+							["id"] = 48819,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 3330,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2515,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 3330,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 875,
+								},
+								["Marwyn"] = {
+									["amount"] = 7604,
+								},
+							},
+							["count"] = 20,
+							["casts"] = 2,
+							["hitmax"] = 1044,
+							["hit"] = 20,
+							["school"] = 2,
+							["resisted"] = 52,
+							["amount"] = 17654,
+							["hitamount"] = 17654,
+						},
+						["Exorcism"] = {
+							["hitmin"] = 4813,
+							["criticalamount"] = 19143,
+							["id"] = 48801,
+							["criticalmin"] = 7698,
+							["targets"] = {
+								["Marwyn"] = {
+									["amount"] = 11445,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 4813,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 7698,
+								},
+							},
+							["criticalmax"] = 11445,
+							["critical"] = 2,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 2,
+							["amount"] = 23956,
+							["hitmax"] = 4813,
+							["hitamount"] = 4813,
+						},
+						["Judgement of Vengeance"] = {
+							["criticalamount"] = 38052,
+							["criticalmax"] = 16596,
+							["hitmin"] = 3453,
+							["criticalmin"] = 7790,
+							["id"] = 31804,
+							["critical"] = 3,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 7790,
+								},
+								["Marwyn"] = {
+									["amount"] = 29566,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 17316,
+									["overkill"] = 6528,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 3453,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 4063,
+								},
+							},
+							["overkill"] = 6528,
+							["amount"] = 62188,
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 5,
+							["school"] = 2,
+							["resisted"] = 1605,
+							["hitmax"] = 6580,
+							["hitamount"] = 24136,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 459,
+							["id"] = 71904,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 513,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 459,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 2212,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 512,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 515,
+								},
+								["Marwyn"] = {
+									["amount"] = 2979,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 2199,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 538,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 32,
+							["hitmax"] = 2979,
+							["amount"] = 9927,
+							["hitamount"] = 9927,
+						},
+						["Manifest Anger"] = {
+							["hitmin"] = 1483,
+							["criticalamount"] = 15173,
+							["id"] = 71433,
+							["criticalmin"] = 3458,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 5050,
+								},
+								["Marwyn"] = {
+									["amount"] = 10275,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 3458,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 1759,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 3619,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 24161,
+							["criticalmax"] = 4529,
+							["hitmax"] = 2190,
+							["hit"] = 5,
+							["school"] = 1,
+							["critical"] = 4,
+							["casts"] = 1,
+							["hitamount"] = 8988,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 348,
+							["id"] = 54043,
+							["targets"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 348,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 348,
+							["amount"] = 348,
+							["hitamount"] = 348,
+						},
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 18335,
+							["id"] = 48806,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 8946,
+									["overkill"] = 313,
+								},
+								["Marwyn"] = {
+									["amount"] = 9389,
+								},
+							},
+							["overkill"] = 313,
+							["casts"] = 3,
+							["critical"] = 2,
+							["amount"] = 18335,
+							["school"] = 2,
+							["count"] = 2,
+							["criticalmax"] = 9389,
+							["criticalmin"] = 8946,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 496,
+							["id"] = 31803,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 992,
+								},
+								["Marwyn"] = {
+									["amount"] = 14953,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 4975,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 797,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 496,
+								},
+							},
+							["count"] = 12,
+							["hitmax"] = 2990,
+							["hit"] = 12,
+							["school"] = 2,
+							["resisted"] = 66,
+							["amount"] = 22213,
+							["hitamount"] = 22213,
+						},
+						["Melee"] = {
+							["glance"] = 9867,
+							["hitmin"] = 2807,
+							["criticalmin"] = 6567,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 10032,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3364,
+								},
+								["Marwyn"] = {
+									["amount"] = 43945,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 25326,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 5671,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 9665,
+								},
+							},
+							["glancing"] = 3,
+							["amount"] = 98003,
+							["glancemin"] = 3064,
+							["criticalamount"] = 64826,
+							["id"] = 6603,
+							["glancemax"] = 3535,
+							["criticalmax"] = 8013,
+							["hitmax"] = 4199,
+							["hit"] = 7,
+							["school"] = 1,
+							["critical"] = 9,
+							["count"] = 19,
+							["hitamount"] = 23310,
+						},
+						["Divine Storm"] = {
+							["criticalmin"] = 7436,
+							["hitmin"] = 3786,
+							["criticalamount"] = 110842,
+							["id"] = 53385,
+							["count"] = 21,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 20281,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 15768,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 16067,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 20418,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 12797,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 28360,
+									["overkill"] = 2992,
+								},
+								["Marwyn"] = {
+									["amount"] = 29294,
+								},
+							},
+							["overkill"] = 2992,
+							["amount"] = 142985,
+							["criticalmax"] = 10858,
+							["hitmax"] = 4196,
+							["hit"] = 8,
+							["school"] = 1,
+							["critical"] = 13,
+							["casts"] = 10,
+							["hitamount"] = 32143,
+						},
+						["Crusader Strike"] = {
+							["hitmin"] = 2811,
+							["criticalamount"] = 37216,
+							["id"] = 35395,
+							["criticalmin"] = 5207,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 2811,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 5269,
+								},
+								["Marwyn"] = {
+									["amount"] = 24539,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 6038,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 8241,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 5409,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 52307,
+							["criticalmax"] = 7782,
+							["hitmax"] = 3208,
+							["hit"] = 5,
+							["school"] = 1,
+							["critical"] = 6,
+							["casts"] = 11,
+							["hitamount"] = 15091,
+						},
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 580,
+							["id"] = 61840,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 1203,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 5092,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 2744,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2496,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 4081,
+								},
+								["Marwyn"] = {
+									["amount"] = 13636,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 1629,
+									["overkill"] = 368,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 2572,
+								},
+							},
+							["overkill"] = 368,
+							["count"] = 30,
+							["hitmax"] = 3667,
+							["hit"] = 30,
+							["school"] = 2,
+							["resisted"] = 193,
+							["amount"] = 33453,
+							["hitamount"] = 33453,
+						},
+						["Seal of Vengeance"] = {
+							["criticalmin"] = 846,
+							["amount"] = 64147,
+							["hitmin"] = 392,
+							["criticalamount"] = 32802,
+							["id"] = 42463,
+							["casts"] = 1,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 3426,
+								},
+								["Marwyn"] = {
+									["amount"] = 43588,
+								},
+								["Frostsworn General"] = {
+									["amount"] = 13323,
+								},
+								["Spiritual Reflection"] = {
+									["amount"] = 1664,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 2146,
+								},
+							},
+							["count"] = 36,
+							["hit"] = 24,
+							["criticalmax"] = 5825,
+							["hitmax"] = 2970,
+							["blocked"] = 80,
+							["school"] = 2,
+							["resisted"] = 529,
+							["critical"] = 12,
+							["hitamount"] = 31345,
+						},
+					},
+					["damagetaken"] = 30971,
+					["id"] = "0x07000000000AA847",
+					["spec"] = 70,
+					["healspells"] = {
+						[54172] = {
+							["overheal"] = 95,
+							["min"] = 936,
+							["count"] = 3,
+							["amount"] = 8458,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Giveme"] = {
+									["overheal"] = 39,
+									["amount"] = 7522,
+								},
+								["Niveaboy"] = {
+									["overheal"] = 56,
+									["amount"] = 936,
+								},
+							},
+							["max"] = 5453,
+						},
+						[20267] = {
+							["overheal"] = 36941,
+							["min"] = 91,
+							["count"] = 57,
+							["amount"] = 7114,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Pebblebasher"] = {
+									["overheal"] = 5400,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 6080,
+									["amount"] = 0,
+								},
+								["Guakamole"] = {
+									["overheal"] = 11342,
+									["amount"] = 2785,
+								},
+								["Giveme"] = {
+									["overheal"] = 6222,
+									["amount"] = 3872,
+								},
+								["Xenaprincesa"] = {
+									["overheal"] = 6885,
+									["amount"] = 457,
+								},
+								["Rune Weapon"] = {
+									["overheal"] = 318,
+									["amount"] = 0,
+								},
+								["Ebon Gargoyle"] = {
+									["overheal"] = 574,
+									["amount"] = 0,
+								},
+								["Bloodworm"] = {
+									["overheal"] = 120,
+									["amount"] = 0,
+								},
+							},
+							["max"] = 1284,
+						},
+					},
+					["damagetakenspells"] = {
+						["Fireball"] = {
+							["hitmin"] = 6498,
+							["id"] = 72164,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 6498,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 6498,
+							["amount"] = 6498,
+							["hitamount"] = 6498,
+						},
+						["Melee"] = {
+							["hitmin"] = 1449,
+							["id"] = 6603,
+							["sources"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 1449,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1449,
+							["amount"] = 1449,
+							["hitamount"] = 1449,
+						},
+						["Ice Shot"] = {
+							["hitmin"] = 5551,
+							["id"] = 72269,
+							["sources"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 5551,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 5551,
+							["amount"] = 5551,
+							["hitamount"] = 5551,
+						},
+						["Baleful Strike"] = {
+							["hitmin"] = 3728,
+							["id"] = 70400,
+							["count"] = 1,
+							["sources"] = {
+								["Spiritual Reflection"] = {
+									["amount"] = 3728,
+								},
+							},
+							["hitmax"] = 3728,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 931,
+							["amount"] = 3728,
+							["hitamount"] = 3728,
+						},
+						["Shared Suffering"] = {
+							["total"] = 2445,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 72373,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Marwyn"] = {
+									["amount"] = 0,
+									["total"] = 2445,
+								},
+							},
+						},
+						["Flamestrike (DoT)"] = {
+							["total"] = 5238,
+							["hitmin"] = 1746,
+							["id"] = 72170,
+							["count"] = 3,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 3492,
+									["total"] = 5238,
+								},
+							},
+							["hitmax"] = 1746,
+							["ABSORB"] = 1,
+							["school"] = 4,
+							["hit"] = 2,
+							["amount"] = 3492,
+							["hitamount"] = 3492,
+						},
+						["Flamestrike"] = {
+							["total"] = 3932,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["id"] = 72170,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 0,
+									["total"] = 3932,
+								},
+							},
+						},
+						["Ice Spikes"] = {
+							["hitmin"] = 7732,
+							["id"] = 70399,
+							["sources"] = {
+								["Frostsworn General"] = {
+									["amount"] = 7732,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 7732,
+							["amount"] = 7732,
+							["hitamount"] = 7732,
+						},
+						["Envenomed Dagger Throw (DoT)"] = {
+							["total"] = 4133,
+							["hitmin"] = 455,
+							["id"] = 72334,
+							["hit"] = 3,
+							["sources"] = {
+								["Shadowy Mercenary"] = {
+									["amount"] = 2521,
+									["total"] = 4133,
+								},
+							},
+							["count"] = 4,
+							["ABSORB"] = 1,
+							["school"] = 8,
+							["amount"] = 2521,
+							["hitmax"] = 1033,
+							["hitamount"] = 2521,
+						},
+					},
+					["heal"] = 15572,
+					["name"] = "Giveme",
+					["role"] = "DAMAGER",
+					["manaspells"] = {
+						[31930] = 8784,
+						[57669] = 5462,
+						[54428] = 1515,
+					},
+					["class"] = "PALADIN",
+					["overkill"] = 10201,
+					["overheal"] = 37036,
+				}, -- [5]
+			},
 			["mana"] = 42553,
 			["runic"] = 80,
 			["enemies"] = {
@@ -6104,8 +10636,8 @@ SkadaStorageDB = {
 							["total"] = 1152,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1152,
 									["amount"] = 0,
+									["total"] = 1152,
 								},
 							},
 							["amount"] = 0,
@@ -6250,23 +10782,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1896,
 						},
-						[71904] = {
+						[51460] = {
 							["school"] = 32,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 2702,
+								},
+								["Urgash"] = {
+									["amount"] = 2782,
+								},
+							},
+							["amount"] = 5484,
+						},
+						[61840] = {
+							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["amount"] = 538,
+									["amount"] = 1203,
 								},
 							},
-							["amount"] = 538,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1525,
-								},
-							},
-							["amount"] = 1525,
+							["amount"] = 1203,
 						},
 						[49921] = {
 							["school"] = 1,
@@ -6276,27 +10811,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 5552,
-						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1196,
-								},
-							},
-							["amount"] = 1196,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 691,
-								},
-								["Giveme"] = {
-									["amount"] = 3426,
-								},
-							},
-							["amount"] = 4117,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -6310,26 +10824,44 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5441,
 						},
-						[61840] = {
+						[42463] = {
 							["school"] = 2,
 							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 691,
+								},
 								["Giveme"] = {
-									["amount"] = 1203,
+									["amount"] = 3426,
 								},
 							},
-							["amount"] = 1203,
+							["amount"] = 4117,
 						},
-						[51460] = {
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 1196,
+								},
+							},
+							["amount"] = 1196,
+						},
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 2702,
-								},
 								["Urgash"] = {
-									["amount"] = 2782,
+									["amount"] = 1525,
 								},
 							},
-							["amount"] = 5484,
+							["amount"] = 1525,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 538,
+								},
+							},
+							["amount"] = 538,
 						},
 					},
 					["totaldamage"] = 1152,
@@ -6345,12 +10877,12 @@ SkadaStorageDB = {
 							["total"] = 4099,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1117,
 									["amount"] = 0,
+									["total"] = 1117,
 								},
 								["Niveaboy"] = {
-									["total"] = 2982,
 									["amount"] = 936,
+									["total"] = 2982,
 								},
 							},
 							["amount"] = 936,
@@ -6492,14 +11024,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 14093,
 						},
-						[31804] = {
-							["school"] = 2,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 4063,
+								["Xenaprincesa"] = {
+									["amount"] = 5608,
+								},
+								["Urgash"] = {
+									["amount"] = 8955,
 								},
 							},
-							["amount"] = 4063,
+							["amount"] = 14563,
 						},
 						[50526] = {
 							["school"] = 32,
@@ -6509,15 +11044,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 8891,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 3253,
-								},
-							},
-							["amount"] = 3253,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -6534,6 +11060,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2110,
 						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 3253,
+								},
+							},
+							["amount"] = 3253,
+						},
 						[67485] = {
 							["school"] = 2,
 							["sources"] = {
@@ -6543,17 +11078,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3977,
 						},
-						[55095] = {
-							["school"] = 16,
+						[31804] = {
+							["school"] = 2,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 5608,
-								},
-								["Urgash"] = {
-									["amount"] = 8955,
+								["Giveme"] = {
+									["amount"] = 4063,
 								},
 							},
-							["amount"] = 14563,
+							["amount"] = 4063,
 						},
 					},
 					["totaldamage"] = 9650,
@@ -6568,13 +11100,13 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["total"] = 5354,
 							["targets"] = {
-								["Urgash"] = {
-									["total"] = 1711,
-									["amount"] = 0,
-								},
 								["Niveaboy"] = {
-									["total"] = 3643,
 									["amount"] = 0,
+									["total"] = 3643,
+								},
+								["Urgash"] = {
+									["amount"] = 0,
+									["total"] = 1711,
 								},
 							},
 							["amount"] = 0,
@@ -6737,43 +11269,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2122,
 						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1076,
-								},
-							},
-							["amount"] = 1076,
-						},
-						[50526] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 196,
-									["amount"] = 10634,
+									["amount"] = 14091,
 								},
 							},
-							["overkill"] = 196,
-							["amount"] = 10634,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1500,
-								},
-							},
-							["amount"] = 1500,
-						},
-						[61840] = {
-							["school"] = 2,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 4081,
-								},
-							},
-							["amount"] = 4081,
+							["amount"] = 14091,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -6787,14 +11290,43 @@ SkadaStorageDB = {
 							},
 							["amount"] = 14418,
 						},
-						[52212] = {
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 4081,
+								},
+							},
+							["amount"] = 4081,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 1500,
+								},
+							},
+							["amount"] = 1500,
+						},
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 14091,
+									["amount"] = 10634,
+									["overkill"] = 196,
 								},
 							},
-							["amount"] = 14091,
+							["amount"] = 10634,
+							["overkill"] = 196,
+						},
+						[48952] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 1076,
+								},
+							},
+							["amount"] = 1076,
 						},
 					},
 					["totaldamage"] = 5354,
@@ -6810,16 +11342,16 @@ SkadaStorageDB = {
 							["total"] = 16741,
 							["targets"] = {
 								["Giveme"] = {
-									["total"] = 9170,
 									["amount"] = 3492,
+									["total"] = 9170,
 								},
 								["Urgash"] = {
-									["total"] = 3164,
 									["amount"] = 0,
+									["total"] = 3164,
 								},
 								["Xenaprincesa"] = {
-									["total"] = 9645,
 									["amount"] = 3389,
+									["total"] = 9645,
 								},
 							},
 							["amount"] = 6881,
@@ -6961,34 +11493,40 @@ SkadaStorageDB = {
 							},
 							["amount"] = 12021,
 						},
-						[42463] = {
-							["school"] = 2,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 2146,
+								["Xenaprincesa"] = {
+									["amount"] = 3412,
 								},
 							},
-							["amount"] = 2146,
+							["amount"] = 3412,
 						},
-						[31803] = {
-							["school"] = 2,
+						[71904] = {
+							["school"] = 32,
 							["sources"] = {
 								["Giveme"] = {
-									["amount"] = 496,
+									["amount"] = 459,
+								},
+								["Urgash"] = {
+									["amount"] = 749,
+								},
+								["Xenaprincesa"] = {
+									["amount"] = 759,
 								},
 							},
-							["amount"] = 496,
+							["amount"] = 1967,
 						},
 						[48806] = {
 							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 313,
 									["amount"] = 8946,
+									["overkill"] = 313,
 								},
 							},
-							["overkill"] = 313,
 							["amount"] = 8946,
+							["overkill"] = 313,
 						},
 						[61840] = {
 							["school"] = 2,
@@ -7008,29 +11546,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 15109,
 						},
-						[71904] = {
-							["school"] = 32,
+						[31803] = {
+							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["amount"] = 459,
-								},
-								["Urgash"] = {
-									["amount"] = 749,
-								},
-								["Xenaprincesa"] = {
-									["amount"] = 759,
+									["amount"] = 496,
 								},
 							},
-							["amount"] = 1967,
+							["amount"] = 496,
 						},
-						[55095] = {
-							["school"] = 16,
+						[42463] = {
+							["school"] = 2,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 3412,
+								["Giveme"] = {
+									["amount"] = 2146,
 								},
 							},
-							["amount"] = 3412,
+							["amount"] = 2146,
 						},
 					},
 					["totaldamage"] = 28477,
@@ -7046,12 +11578,12 @@ SkadaStorageDB = {
 							["total"] = 5787,
 							["targets"] = {
 								["Giveme"] = {
-									["total"] = 4133,
 									["amount"] = 2521,
+									["total"] = 4133,
 								},
 								["Niveaboy"] = {
-									["total"] = 3720,
 									["amount"] = 840,
+									["total"] = 3720,
 								},
 							},
 							["amount"] = 3361,
@@ -7061,8 +11593,8 @@ SkadaStorageDB = {
 							["total"] = 4339,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 4339,
 									["amount"] = 0,
+									["total"] = 4339,
 								},
 							},
 							["amount"] = 0,
@@ -7133,12 +11665,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["overkill"] = 424,
 									["amount"] = 4262,
+									["overkill"] = 424,
 								},
 							},
-							["overkill"] = 424,
 							["amount"] = 4262,
+							["overkill"] = 424,
 						},
 						[61411] = {
 							["school"] = 2,
@@ -7197,59 +11729,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2110,
 						},
-						[35395] = {
-							["school"] = 1,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 5269,
-								},
-							},
-							["amount"] = 5269,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 5576,
-								},
-							},
-							["amount"] = 5576,
-						},
-						[50463] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2139,
-								},
-							},
-							["amount"] = 2139,
-						},
-						[50526] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 7613,
+									["amount"] = 15024,
 								},
 							},
-							["amount"] = 7613,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 2002,
-								},
-							},
-							["amount"] = 2002,
-						},
-						[51460] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 670,
-								},
-							},
-							["amount"] = 670,
+							["amount"] = 15024,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -7263,14 +11750,59 @@ SkadaStorageDB = {
 							},
 							["amount"] = 11554,
 						},
-						[52212] = {
+						[51460] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 15024,
+									["amount"] = 670,
 								},
 							},
-							["amount"] = 15024,
+							["amount"] = 670,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 2002,
+								},
+							},
+							["amount"] = 2002,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 7613,
+								},
+							},
+							["amount"] = 7613,
+						},
+						[50463] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2139,
+								},
+							},
+							["amount"] = 2139,
+						},
+						[31804] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 5576,
+								},
+							},
+							["amount"] = 5576,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 5269,
+								},
+							},
+							["amount"] = 5269,
 						},
 					},
 					["totaldamage"] = 12192,
@@ -7286,8 +11818,8 @@ SkadaStorageDB = {
 							["total"] = 4355,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 4355,
 									["amount"] = 0,
+									["total"] = 4355,
 								},
 							},
 							["amount"] = 0,
@@ -7297,24 +11829,24 @@ SkadaStorageDB = {
 							["total"] = 11080,
 							["targets"] = {
 								["Urgash"] = {
-									["total"] = 1956,
 									["amount"] = 0,
+									["total"] = 1956,
 								},
 								["Guakamole"] = {
-									["total"] = 2033,
 									["amount"] = 699,
+									["total"] = 2033,
 								},
 								["Giveme"] = {
-									["total"] = 2445,
 									["amount"] = 0,
+									["total"] = 2445,
 								},
 								["Niveaboy"] = {
-									["total"] = 2201,
 									["amount"] = 0,
+									["total"] = 2201,
 								},
 								["Xenaprincesa"] = {
-									["total"] = 2445,
 									["amount"] = 0,
+									["total"] = 2445,
 								},
 							},
 							["amount"] = 699,
@@ -7336,6 +11868,36 @@ SkadaStorageDB = {
 							},
 							["amount"] = 23102,
 						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 24539,
+								},
+							},
+							["amount"] = 24539,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 8610,
+								},
+								["Giveme"] = {
+									["amount"] = 14953,
+								},
+							},
+							["amount"] = 23563,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 13636,
+								},
+							},
+							["amount"] = 13636,
+						},
 						[55262] = {
 							["school"] = 1,
 							["sources"] = {
@@ -7344,6 +11906,53 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 112916,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 16149,
+								},
+								["Urgash"] = {
+									["amount"] = 8721,
+								},
+							},
+							["amount"] = 24870,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 9473,
+								},
+								["Urgash"] = {
+									["amount"] = 10943,
+									["overkill"] = 1132,
+								},
+							},
+							["amount"] = 20416,
+							["overkill"] = 1132,
+						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 29294,
+								},
+							},
+							["amount"] = 29294,
+						},
+						[42463] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 13632,
+								},
+								["Giveme"] = {
+									["amount"] = 43588,
+								},
+							},
+							["amount"] = 57220,
 						},
 						[48819] = {
 							["school"] = 2,
@@ -7369,15 +11978,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 18977,
 						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 16664,
-								},
-							},
-							["amount"] = 16664,
-						},
 						[31804] = {
 							["school"] = 2,
 							["sources"] = {
@@ -7389,71 +11989,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 41946,
-						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 9473,
-								},
-								["Urgash"] = {
-									["overkill"] = 1132,
-									["amount"] = 10943,
-								},
-							},
-							["overkill"] = 1132,
-							["amount"] = 20416,
-						},
-						[48801] = {
-							["school"] = 2,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 11445,
-								},
-							},
-							["amount"] = 11445,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 13632,
-								},
-								["Giveme"] = {
-									["amount"] = 43588,
-								},
-							},
-							["amount"] = 57220,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 8610,
-								},
-								["Giveme"] = {
-									["amount"] = 14953,
-								},
-							},
-							["amount"] = 23563,
-						},
-						[61840] = {
-							["school"] = 2,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 13636,
-								},
-							},
-							["amount"] = 13636,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 20307,
-								},
-							},
-							["amount"] = 20307,
 						},
 						[70890] = {
 							["school"] = 32,
@@ -7494,6 +12029,24 @@ SkadaStorageDB = {
 							},
 							["amount"] = 22944,
 						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8966,
+								},
+							},
+							["amount"] = 8966,
+						},
+						[51963] = {
+							["school"] = 8,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 49791,
+								},
+							},
+							["amount"] = 49791,
+						},
 						[48952] = {
 							["school"] = 2,
 							["sources"] = {
@@ -7502,30 +12055,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 2455,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 2979,
-								},
-								["Urgash"] = {
-									["amount"] = 3477,
-								},
-								["Xenaprincesa"] = {
-									["amount"] = 3063,
-								},
-							},
-							["amount"] = 9519,
-						},
-						[53385] = {
-							["school"] = 1,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 29294,
-								},
-							},
-							["amount"] = 29294,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -7563,14 +12092,38 @@ SkadaStorageDB = {
 							},
 							["amount"] = 757,
 						},
-						[47468] = {
-							["school"] = 1,
+						[48801] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8966,
+								["Giveme"] = {
+									["amount"] = 11445,
 								},
 							},
-							["amount"] = 8966,
+							["amount"] = 11445,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 2979,
+								},
+								["Urgash"] = {
+									["amount"] = 3477,
+								},
+								["Xenaprincesa"] = {
+									["amount"] = 3063,
+								},
+							},
+							["amount"] = 9519,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4195,
+								},
+							},
+							["amount"] = 4195,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -7583,24 +12136,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 24426,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4195,
-								},
-							},
-							["amount"] = 4195,
-						},
-						[51963] = {
-							["school"] = 8,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 49791,
-								},
-							},
-							["amount"] = 49791,
 						},
 						[49921] = {
 							["school"] = 1,
@@ -7623,17 +12158,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 9389,
 						},
-						[51460] = {
-							["school"] = 32,
+						[53595] = {
+							["school"] = 2,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 16149,
-								},
-								["Urgash"] = {
-									["amount"] = 8721,
+								["Guakamole"] = {
+									["amount"] = 20307,
 								},
 							},
-							["amount"] = 24870,
+							["amount"] = 20307,
 						},
 						[49924] = {
 							["school"] = 1,
@@ -7653,14 +12185,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4636,
 						},
-						[35395] = {
+						[49930] = {
 							["school"] = 1,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 24539,
+								["Urgash"] = {
+									["amount"] = 16664,
 								},
 							},
-							["amount"] = 24539,
+							["amount"] = 16664,
 						},
 					},
 					["totaldamage"] = 15435,
@@ -7676,8 +12208,8 @@ SkadaStorageDB = {
 							["total"] = 8474,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 12522,
 									["amount"] = 6833,
+									["total"] = 12522,
 								},
 							},
 							["amount"] = 6833,
@@ -7708,6 +12240,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 17991,
 						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 6038,
+								},
+							},
+							["amount"] = 6038,
+						},
 						[55262] = {
 							["school"] = 1,
 							["sources"] = {
@@ -7717,26 +12258,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 56079,
 						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5220,
-								},
-							},
-							["amount"] = 5220,
-						},
-						[31803] = {
+						[48819] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 6628,
-								},
-								["Giveme"] = {
-									["amount"] = 4975,
+									["amount"] = 8809,
 								},
 							},
-							["amount"] = 11603,
+							["amount"] = 8809,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -7750,14 +12279,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6242,
 						},
-						[50526] = {
-							["school"] = 32,
+						[53595] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5322,
+								["Guakamole"] = {
+									["amount"] = 26192,
 								},
 							},
-							["amount"] = 5322,
+							["amount"] = 26192,
 						},
 						[42463] = {
 							["school"] = 2,
@@ -7771,14 +12300,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 24446,
 						},
-						[48819] = {
+						[31803] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 8809,
+									["amount"] = 6628,
+								},
+								["Giveme"] = {
+									["amount"] = 4975,
 								},
 							},
-							["amount"] = 8809,
+							["amount"] = 11603,
 						},
 						[50463] = {
 							["school"] = 1,
@@ -7792,32 +12324,40 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7168,
 						},
-						[53595] = {
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5322,
+								},
+							},
+							["amount"] = 5322,
+						},
+						[31804] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 26192,
+									["amount"] = 11037,
 								},
-							},
-							["amount"] = 26192,
-						},
-						[61840] = {
-							["school"] = 2,
-							["sources"] = {
 								["Giveme"] = {
-									["amount"] = 2744,
+									["amount"] = 17316,
+									["overkill"] = 6528,
 								},
 							},
-							["amount"] = 2744,
+							["amount"] = 28353,
+							["overkill"] = 6528,
 						},
-						[48952] = {
-							["school"] = 2,
+						[51460] = {
+							["school"] = 32,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1076,
+								["Xenaprincesa"] = {
+									["amount"] = 10533,
+								},
+								["Urgash"] = {
+									["amount"] = 4504,
 								},
 							},
-							["amount"] = 1076,
+							["amount"] = 15037,
 						},
 						[49909] = {
 							["school"] = 16,
@@ -7840,14 +12380,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 17789,
 						},
-						[52212] = {
-							["school"] = 32,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 5601,
+								},
 								["Urgash"] = {
-									["amount"] = 11413,
+									["amount"] = 3925,
 								},
 							},
-							["amount"] = 11413,
+							["amount"] = 9526,
 						},
 						[48827] = {
 							["school"] = 2,
@@ -7858,14 +12401,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2303,
 						},
-						[53385] = {
-							["school"] = 1,
+						[48952] = {
+							["school"] = 2,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 12797,
+								["Guakamole"] = {
+									["amount"] = 1076,
 								},
 							},
-							["amount"] = 12797,
+							["amount"] = 1076,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -7912,17 +12455,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2865,
 						},
-						[55095] = {
-							["school"] = 16,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 5601,
-								},
 								["Urgash"] = {
-									["amount"] = 3925,
+									["amount"] = 11413,
 								},
 							},
-							["amount"] = 9526,
+							["amount"] = 11413,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -7960,31 +12500,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4921,
 						},
-						[51460] = {
-							["school"] = 32,
+						[53385] = {
+							["school"] = 1,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 10533,
-								},
-								["Urgash"] = {
-									["amount"] = 4504,
+								["Giveme"] = {
+									["amount"] = 12797,
 								},
 							},
-							["amount"] = 15037,
+							["amount"] = 12797,
 						},
-						[31804] = {
+						[61840] = {
 							["school"] = 2,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 11037,
-								},
 								["Giveme"] = {
-									["overkill"] = 6528,
-									["amount"] = 17316,
+									["amount"] = 2744,
 								},
 							},
-							["overkill"] = 6528,
-							["amount"] = 28353,
+							["amount"] = 2744,
 						},
 						[49924] = {
 							["school"] = 1,
@@ -8004,14 +12536,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5279,
 						},
-						[35395] = {
+						[49930] = {
 							["school"] = 1,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 6038,
+								["Urgash"] = {
+									["amount"] = 5220,
 								},
 							},
-							["amount"] = 6038,
+							["amount"] = 5220,
 						},
 					},
 					["totaldamage"] = 20254,
@@ -8030,8 +12562,8 @@ SkadaStorageDB = {
 									["amount"] = 1449,
 								},
 								["Niveaboy"] = {
-									["total"] = 20534,
 									["amount"] = 14678,
+									["total"] = 20534,
 								},
 								["Guakamole"] = {
 									["amount"] = 1464,
@@ -8053,8 +12585,8 @@ SkadaStorageDB = {
 									["amount"] = 9140,
 								},
 								["Niveaboy"] = {
-									["total"] = 13056,
 									["amount"] = 6910,
+									["total"] = 13056,
 								},
 							},
 							["amount"] = 19778,
@@ -8077,12 +12609,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 199,
 									["amount"] = 20370,
+									["overkill"] = 199,
 								},
 							},
-							["overkill"] = 199,
 							["amount"] = 20370,
+							["overkill"] = 199,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -8106,12 +12638,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["overkill"] = 161,
 									["amount"] = 9200,
+									["overkill"] = 161,
 								},
 							},
-							["overkill"] = 161,
 							["amount"] = 9200,
+							["overkill"] = 161,
 						},
 						[50463] = {
 							["school"] = 1,
@@ -8131,17 +12663,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 20994,
 						},
-						[31804] = {
+						[42463] = {
 							["school"] = 2,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 3453,
-								},
 								["Guakamole"] = {
-									["amount"] = 1629,
+									["amount"] = 712,
+								},
+								["Giveme"] = {
+									["amount"] = 1664,
 								},
 							},
-							["amount"] = 5082,
+							["amount"] = 2376,
 						},
 						[55271] = {
 							["school"] = 1,
@@ -8177,32 +12709,32 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 368,
 									["amount"] = 1629,
+									["overkill"] = 368,
 								},
 							},
-							["overkill"] = 368,
 							["amount"] = 1629,
+							["overkill"] = 368,
 						},
-						[48801] = {
-							["school"] = 2,
+						[50526] = {
+							["school"] = 32,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 4813,
+								["Urgash"] = {
+									["amount"] = 19323,
 								},
 							},
-							["amount"] = 4813,
+							["amount"] = 19323,
 						},
 						[53385] = {
 							["school"] = 1,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 2992,
 									["amount"] = 28360,
+									["overkill"] = 2992,
 								},
 							},
-							["overkill"] = 2992,
 							["amount"] = 28360,
+							["overkill"] = 2992,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -8234,6 +12766,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1759,
 						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 12351,
+									["overkill"] = 82,
+								},
+							},
+							["amount"] = 12351,
+							["overkill"] = 82,
+						},
+						[48801] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 4813,
+								},
+							},
+							["amount"] = 4813,
+						},
 						[52212] = {
 							["school"] = 32,
 							["sources"] = {
@@ -8243,35 +12795,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 22427,
 						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1085,
-								},
-							},
-							["amount"] = 1085,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 2199,
-								},
-								["Urgash"] = {
-									["amount"] = 2745,
-								},
-							},
-							["amount"] = 4944,
-						},
-						[61411] = {
+						[31803] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 7397,
+									["amount"] = 742,
+								},
+								["Giveme"] = {
+									["amount"] = 797,
 								},
 							},
-							["amount"] = 7397,
+							["amount"] = 1539,
 						},
 						[54043] = {
 							["school"] = 2,
@@ -8300,37 +12834,35 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6735,
 						},
-						[31803] = {
+						[61411] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 742,
-								},
-								["Giveme"] = {
-									["amount"] = 797,
+									["amount"] = 7397,
 								},
 							},
-							["amount"] = 1539,
+							["amount"] = 7397,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 82,
-									["amount"] = 12351,
-								},
-							},
-							["overkill"] = 82,
-							["amount"] = 12351,
-						},
-						[50526] = {
+						[71904] = {
 							["school"] = 32,
 							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 2199,
+								},
 								["Urgash"] = {
-									["amount"] = 19323,
+									["amount"] = 2745,
 								},
 							},
-							["amount"] = 19323,
+							["amount"] = 4944,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1085,
+								},
+							},
+							["amount"] = 1085,
 						},
 						[67485] = {
 							["school"] = 2,
@@ -8341,17 +12873,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3825,
 						},
-						[42463] = {
+						[31804] = {
 							["school"] = 2,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 712,
-								},
 								["Giveme"] = {
-									["amount"] = 1664,
+									["amount"] = 3453,
+								},
+								["Guakamole"] = {
+									["amount"] = 1629,
 								},
 							},
-							["amount"] = 2376,
+							["amount"] = 5082,
 						},
 					},
 					["totaldamage"] = 56166,
@@ -8364,10 +12896,29 @@ SkadaStorageDB = {
 			["dispel"] = 1,
 			["totaldamage"] = 2284254,
 			["time"] = 108,
-			["etotaldamage"] = 148680,
-			["totaldamagetaken"] = 148680,
 			["etotaldamagetaken"] = 2284254,
+			["totaldamagetaken"] = 148680,
+			["etotaldamage"] = 148680,
 			["last_time"] = 13127.179,
+			["overheal"] = 261582,
+			["absorb"] = 66025,
+			["damagetaken"] = 82655,
+			["damage"] = 2284254,
+			["interrupt"] = 1,
+			["mobname"] = "Ghostly Priest",
+			["starttime"] = 1699798331,
+			["overkill"] = 12395,
+			["edamagetaken"] = 2284254,
+			["heal"] = 87382,
+			["name"] = "Ghostly Priest (2)",
+			["ccdone"] = 5,
+			["type"] = "party",
+			["edamage"] = 82655,
+			["last_action"] = 1699798439,
+			["endtime"] = 1699798439,
+		}, -- [2]
+		{
+			["mana"] = 20047,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -8378,246 +12929,108 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["last"] = 13110.463,
+					["last"] = 13010.274,
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[66803] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["refresh"] = 3,
-							["uptime"] = 72,
-						},
-						[73422] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 30,
-						},
-						[53138] = {
+						[48066] = {
+							["uptime"] = 33,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 11,
-							["school"] = 16,
-							["refresh"] = 3,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 6,
-									["count"] = 4,
-								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 15,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 17,
-									["count"] = 1,
-								},
-								["Marwyn"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 25,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 17,
-								},
-							},
-							["uptime"] = 57,
-						},
-						[71560] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["refresh"] = 6,
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 91,
+							["refresh"] = 1,
 						},
 						[6562] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 45,
-						},
-						[48266] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 107,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 32,
-							["targets"] = {
-								["Marwyn"] = {
-									["uptime"] = 17,
-									["count"] = 2,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 24,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 11,
-							["school"] = 32,
-							["refresh"] = 7,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 6,
-									["count"] = 4,
-								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 15,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 17,
-									["count"] = 1,
-								},
-								["Marwyn"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 25,
-								},
-								["Frostsworn General"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 17,
-								},
-							},
-							["uptime"] = 57,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 11,
-							["school"] = 32,
-							["refresh"] = 3,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 6,
-									["count"] = 4,
-								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 15,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 17,
-									["count"] = 1,
-								},
-								["Marwyn"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 24,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 17,
-								},
-							},
 							["uptime"] = 53,
 						},
-						[72412] = {
-							["school"] = 1,
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 53,
+						},
+						[70657] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 13,
+							["uptime"] = 46,
+						},
+						[63944] = {
+							["uptime"] = 53,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 20,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 53,
 						},
 						[71227] = {
 							["type"] = "BUFF",
-							["count"] = 4,
+							["count"] = 3,
 							["school"] = 8,
-							["refresh"] = 2,
-							["uptime"] = 58,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 30,
+							["refresh"] = 1,
+							["uptime"] = 32,
 						},
 						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 32,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["uptime"] = 19,
+									["count"] = 2,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 13,
+									["count"] = 2,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 11,
+									["count"] = 2,
+								},
+								["Ghostly Priest"] = {
+									["uptime"] = 19,
+									["count"] = 2,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 20,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
 						},
 						[49560] = {
 							["type"] = "DEBUFF",
@@ -8631,893 +13044,776 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[20217] = {
+						[49222] = {
+							["uptime"] = 53,
 							["type"] = "BUFF",
+							["count"] = 1,
 							["refresh"] = 1,
-							["count"] = 1,
-							["uptime"] = 108,
 						},
-						[47930] = {
-							["school"] = 2,
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 53,
 						},
-						[54043] = {
-							["school"] = 2,
+						[53138] = {
 							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 96,
+							["count"] = 1,
+							["uptime"] = 53,
 						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 17,
-							["uptime"] = 72,
-						},
-						[48066] = {
-							["school"] = 2,
+						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["uptime"] = 59,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 47,
 						},
-						[47753] = {
-							["school"] = 2,
+						[71559] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 30,
 						},
-						[49222] = {
+						[71905] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 87,
-						},
-						[49206] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Marwyn"] = {
-									["uptime"] = 21,
-									["count"] = 1,
-								},
-							},
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 12,
 							["uptime"] = 21,
 						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[48265] = {
-							["school"] = 32,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 7,
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[49938] = {
+						[55095] = {
 							["type"] = "DEBUFF",
-							["count"] = 10,
-							["school"] = 32,
+							["count"] = 9,
+							["school"] = 16,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 10,
-									["count"] = 1,
+									["uptime"] = 19,
+									["count"] = 2,
 								},
 								["Shadowy Mercenary"] = {
-									["uptime"] = 10,
-									["count"] = 1,
+									["uptime"] = 18,
+									["count"] = 2,
 								},
 								["Spectral Footman"] = {
-									["uptime"] = 10,
-									["count"] = 1,
+									["uptime"] = 15,
+									["count"] = 2,
 								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 4,
-									["count"] = 4,
+								["Phantom Mage"] = {
+									["uptime"] = 18,
+									["count"] = 2,
 								},
-								["Frostsworn General"] = {
+								["Tortured Rifleman"] = {
 									["uptime"] = 9,
 									["count"] = 1,
 								},
+							},
+							["uptime"] = 30,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[20217] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[51735] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 19,
+									["count"] = 2,
+								},
+								["Shadowy Mercenary"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 18,
+								},
+								["Spectral Footman"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 15,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 18,
+									["count"] = 2,
+								},
 								["Tortured Rifleman"] = {
-									["uptime"] = 10,
+									["uptime"] = 9,
 									["count"] = 1,
+								},
+							},
+							["uptime"] = 30,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
 								},
 							},
 							["uptime"] = 20,
 						},
-						[48111] = {
-							["school"] = 2,
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 32,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 19,
+									["count"] = 2,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 16,
+									["count"] = 2,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 14,
+									["count"] = 2,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 18,
+									["count"] = 2,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 27,
+						},
+						[53365] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 1,
 						},
-						[71905] = {
+						[66803] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 21,
-							["uptime"] = 58,
+							["uptime"] = 37,
 						},
-						[72221] = {
+						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 					},
-					["totaldamage"] = 655324,
-					["time"] = 68.39000000000003,
-					["totaldamagetaken"] = 22766,
-					["damage"] = 655324,
-					["runic"] = 10,
-					["runicspells"] = {
-						[45529] = 10,
-					},
-					["damagetaken"] = 15935,
-					["overheal"] = 10598,
+					["totaldamage"] = 454217,
+					["time"] = 36.68999999999999,
+					["totaldamagetaken"] = 15218,
+					["damage"] = 454217,
+					["overheal"] = 3022,
+					["damagetaken"] = 10752,
 					["id"] = "0x070000000000D01B",
 					["spec"] = 252,
 					["healspells"] = {
 						[50475] = {
-							["overheal"] = 7463,
-							["max"] = 481,
-							["count"] = 68,
-							["amount"] = 2126,
-							["school"] = 1,
+							["overheal"] = 3022,
+							["min"] = 2,
+							["count"] = 43,
+							["amount"] = 2756,
+							["max"] = 473,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 3022,
+									["amount"] = 2756,
+								},
+							},
 							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 7463,
-									["amount"] = 2126,
-								},
-							},
-							["min"] = 4,
-						},
-						[53365] = {
-							["overheal"] = 3135,
-							["criticalamount"] = 0,
-							["max"] = 1140,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 3135,
-									["amount"] = 1140,
-								},
-							},
-							["min"] = 1140,
-							["criticalmax"] = 0,
-							["count"] = 4,
-							["amount"] = 1140,
 							["school"] = 1,
-							["criticalmin"] = 0,
-							["critical"] = 1,
 						},
 					},
-					["overkill"] = 1834,
 					["damagetakenspells"] = {
-						["Shared Suffering"] = {
-							["total"] = 1956,
+						["Circle of Destruction"] = {
+							["sources"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 0,
+								},
+							},
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["sources"] = {
-								["Marwyn"] = {
-									["total"] = 1956,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72373,
-						},
-						["Flamestrike"] = {
-							["total"] = 3164,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 3164,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72170,
+							["RESIST"] = 1,
+							["id"] = 72323,
 						},
 						["Melee"] = {
-							["DODGE"] = 2,
-							["total"] = 8506,
-							["hitmin"] = 818,
+							["total"] = 6243,
+							["hitmin"] = 1777,
 							["id"] = 6603,
-							["PARRY"] = 2,
-							["hitmax"] = 1324,
 							["sources"] = {
 								["Spectral Footman"] = {
-									["total"] = 1711,
 									["amount"] = 0,
 								},
-								["Spiritual Reflection"] = {
-									["amount"] = 6795,
+								["Phantom Mage"] = {
+									["amount"] = 1777,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 0,
+									["total"] = 4466,
+								},
+							},
+							["ABSORB"] = 1,
+							["PARRY"] = 3,
+							["hitmax"] = 1777,
+							["amount"] = 1777,
+							["school"] = 1,
+							["hit"] = 1,
+							["count"] = 5,
+							["hitamount"] = 1777,
+						},
+						["Flamestrike (DoT)"] = {
+							["hitmin"] = 1396,
+							["id"] = 72170,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 4188,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 1396,
+							["amount"] = 4188,
+							["hitamount"] = 4188,
+						},
+						["Flamestrike"] = {
+							["hitmin"] = 3146,
+							["id"] = 72170,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 3146,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 3146,
+							["amount"] = 3146,
+							["hitamount"] = 3146,
+						},
+						["Shoot"] = {
+							["hitmin"] = 1641,
+							["id"] = 72211,
+							["sources"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 1641,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1641,
+							["amount"] = 1641,
+							["hitamount"] = 1641,
+						},
+					},
+					["heal"] = 2756,
+					["name"] = "Urgash",
+					["ccdone"] = 1,
+					["role"] = "DAMAGER",
+					["damagespells"] = {
+						["Scourge Strike"] = {
+							["criticalamount"] = 30346,
+							["id"] = 55271,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 9002,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 21344,
+								},
+							},
+							["casts"] = 3,
+							["critical"] = 3,
+							["amount"] = 30346,
+							["school"] = 1,
+							["count"] = 3,
+							["criticalmax"] = 11251,
+							["criticalmin"] = 9002,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 791,
+							["id"] = 71904,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 1093,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 1040,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 791,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 1080,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 811,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 1093,
+							["amount"] = 4815,
+							["hitamount"] = 4815,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 3473,
+							["criticalamount"] = 9961,
+							["id"] = 47632,
+							["criticalmin"] = 9961,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 4239,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 3473,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 14966,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 22678,
+							["criticalmax"] = 9961,
+							["hitmax"] = 5005,
+							["hit"] = 3,
+							["school"] = 32,
+							["critical"] = 1,
+							["casts"] = 4,
+							["hitamount"] = 12717,
+						},
+						["Unholy Blight (DoT)"] = {
+							["hitmin"] = 34,
+							["id"] = 50536,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 252,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 204,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 944,
+								},
+							},
+							["count"] = 19,
+							["hit"] = 19,
+							["school"] = 32,
+							["hitmax"] = 149,
+							["amount"] = 1400,
+							["hitamount"] = 1400,
+						},
+						["Wandering Plague"] = {
+							["hitmin"] = 1433,
+							["id"] = 50526,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 14529,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 11003,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 10276,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 14529,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 8932,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 36,
+							["hit"] = 36,
+							["school"] = 32,
+							["hitmax"] = 2032,
+							["amount"] = 59269,
+							["hitamount"] = 59269,
+						},
+						["Claw (Pebblebasher)"] = {
+							["hitmin"] = 938,
+							["criticalamount"] = 3778,
+							["id"] = 47468,
+							["criticalmin"] = 1862,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 1998,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 5881,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 4700,
 								},
 							},
 							["count"] = 11,
-							["amount"] = 6795,
+							["amount"] = 12579,
+							["criticalmax"] = 1916,
+							["hitmax"] = 1004,
+							["hit"] = 9,
 							["school"] = 1,
-							["hit"] = 6,
-							["ABSORB"] = 1,
-							["hitamount"] = 6795,
-						},
-						["Baleful Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2131,
-							["id"] = 70400,
-							["hitmax"] = 4043,
-							["sources"] = {
-								["Spiritual Reflection"] = {
-									["amount"] = 9140,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 3701,
-							["amount"] = 9140,
-							["hitamount"] = 9140,
-						},
-					},
-					["heal"] = 3266,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["interrupt"] = 1,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["criticalmin"] = 9996,
-							["casts"] = 6,
-							["hitmin"] = 3761,
-							["criticalamount"] = 9996,
-							["id"] = 55271,
-							["criticalmax"] = 9996,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 3761,
-								},
-								["Marwyn"] = {
-									["amount"] = 14206,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 5180,
-								},
-								["Shadowy Mercenary"] = {
-									["overkill"] = 424,
-									["amount"] = 4262,
-								},
-							},
-							["overkill"] = 424,
-							["hit"] = 4,
-							["PARRY"] = 1,
-							["count"] = 6,
-							["amount"] = 27409,
-							["school"] = 1,
-							["hitmax"] = 5180,
-							["critical"] = 1,
-							["hitamount"] = 17413,
-						},
-						["Death and Decay"] = {
-							["hitmin"] = 726,
-							["criticalamount"] = 49356,
-							["id"] = 52212,
-							["criticalmin"] = 1517,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 12021,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 14093,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 15024,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 14091,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 22427,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 11413,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 1896,
-								},
-							},
-							["criticalmax"] = 1980,
-							["hitmax"] = 948,
-							["casts"] = 2,
-							["critical"] = 27,
-							["hit"] = 48,
-							["school"] = 32,
-							["amount"] = 90965,
-							["count"] = 75,
-							["hitamount"] = 41609,
-						},
-						["Death Coil"] = {
-							["criticalmin"] = 9099,
-							["hitmin"] = 4077,
-							["criticalamount"] = 32023,
-							["id"] = 47632,
-							["hitmax"] = 5596,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 9099,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 4315,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 17062,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 11458,
-								},
-								["Marwyn"] = {
-									["amount"] = 9464,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 4,
-							["casts"] = 7,
-							["critical"] = 3,
-							["amount"] = 51398,
-							["school"] = 32,
-							["resisted"] = 1019,
-							["criticalmax"] = 11466,
-							["hitamount"] = 19375,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 32,
-							["id"] = 50536,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 757,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 228,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 129,
-								},
-							},
-							["hitmax"] = 114,
-							["count"] = 21,
-							["hit"] = 21,
-							["school"] = 32,
-							["resisted"] = 13,
-							["amount"] = 1114,
-							["hitamount"] = 1114,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1278,
-							["id"] = 50526,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 8891,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 1525,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 19323,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 7613,
-								},
-								["Spectral Footman"] = {
-									["overkill"] = 196,
-									["amount"] = 10634,
-								},
-								["Marwyn"] = {
-									["amount"] = 4195,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 5322,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 4110,
-								},
-							},
-							["overkill"] = 196,
-							["hitmax"] = 1870,
-							["casts"] = 1,
-							["count"] = 40,
-							["hit"] = 40,
-							["school"] = 32,
-							["resisted"] = 313,
-							["amount"] = 61613,
-							["hitamount"] = 61613,
-						},
-						["Claw (Pebblebasher)"] = {
-							["hitmin"] = 937,
-							["criticalamount"] = 3852,
-							["id"] = 47468,
-							["criticalmin"] = 1908,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 2855,
-								},
-								["Marwyn"] = {
-									["amount"] = 8966,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 2993,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 1085,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 2865,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1009,
-								},
-							},
-							["criticalmax"] = 1944,
-							["hitmax"] = 1115,
-							["casts"] = 1,
 							["critical"] = 2,
-							["hit"] = 16,
-							["school"] = 1,
-							["amount"] = 19773,
-							["count"] = 18,
-							["hitamount"] = 15921,
+							["casts"] = 1,
+							["hitamount"] = 8801,
 						},
 						["Melee (Pebblebasher)"] = {
-							["glance"] = 2288,
+							["glance"] = 677,
 							["hitmin"] = 621,
-							["criticalmin"] = 1256,
+							["criticalmin"] = 1240,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 5181,
-								},
-								["Marwyn"] = {
-									["amount"] = 12504,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2000,
+								["Phantom Mage"] = {
+									["amount"] = 3997,
 								},
 								["Spectral Footman"] = {
-									["amount"] = 4608,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 747,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 5220,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 698,
-								},
-							},
-							["glancing"] = 4,
-							["amount"] = 30958,
-							["glancemin"] = 500,
-							["criticalamount"] = 9262,
-							["id"] = 6603,
-							["glancemax"] = 670,
-							["criticalmax"] = 1488,
-							["hitmax"] = 747,
-							["hit"] = 29,
-							["school"] = 1,
-							["critical"] = 7,
-							["count"] = 40,
-							["hitamount"] = 19408,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 3578,
-							["hitmin"] = 3262,
-							["criticalmin"] = 6717,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 13916,
-								},
-								["Marwyn"] = {
-									["amount"] = 47413,
+									["amount"] = 7302,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 3351,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 10207,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 17468,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 22533,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 8114,
+									["amount"] = 6402,
 								},
 							},
 							["glancing"] = 1,
-							["amount"] = 123002,
-							["glancemin"] = 3578,
-							["criticalamount"] = 62881,
+							["amount"] = 17701,
+							["glancemin"] = 677,
+							["criticalamount"] = 7826,
 							["id"] = 6603,
-							["glancemax"] = 3578,
-							["blocked"] = 121,
-							["criticalmax"] = 8948,
-							["hitmax"] = 4459,
-							["hit"] = 15,
+							["glancemax"] = 677,
+							["criticalmax"] = 1356,
+							["hitmax"] = 692,
+							["hit"] = 14,
 							["school"] = 1,
-							["critical"] = 8,
-							["count"] = 25,
-							["hitamount"] = 56543,
+							["critical"] = 6,
+							["count"] = 21,
+							["hitamount"] = 9198,
 						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1842,
-							["id"] = 50463,
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 3464,
+							["hitmin"] = 3167,
+							["criticalmin"] = 7144,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 1842,
+								["Phantom Mage"] = {
+									["amount"] = 7263,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 8503,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 34426,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 2139,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 2320,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 2574,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 2183,
-								},
-								["Marwyn"] = {
-									["amount"] = 2678,
+									["amount"] = 18173,
 								},
 							},
+							["glancing"] = 1,
+							["amount"] = 68365,
+							["glancemin"] = 3464,
+							["criticalamount"] = 54553,
+							["id"] = 6603,
+							["glancemax"] = 3464,
+							["criticalmax"] = 8503,
 							["PARRY"] = 1,
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 6,
+							["critical"] = 7,
+							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 2678,
-							["amount"] = 13736,
-							["hitamount"] = 13736,
+							["hitmax"] = 3799,
+							["count"] = 13,
+							["hitamount"] = 10348,
 						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 1943,
-							["id"] = 70890,
+						["Icy Touch"] = {
+							["hitmin"] = 1959,
+							["criticalamount"] = 4121,
+							["id"] = 49909,
+							["criticalmin"] = 4121,
 							["targets"] = {
 								["Spectral Footman"] = {
-									["amount"] = 1943,
+									["amount"] = 1959,
 								},
-								["Marwyn"] = {
-									["amount"] = 7627,
+								["Shadowy Mercenary"] = {
+									["amount"] = 4121,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 6080,
+							["criticalmax"] = 4121,
+							["hitmax"] = 1959,
+							["hit"] = 1,
+							["school"] = 16,
+							["critical"] = 1,
+							["casts"] = 2,
+							["hitamount"] = 1959,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 4650,
+							["id"] = 70890,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 4650,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 11026,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 3,
 							["hit"] = 3,
 							["school"] = 32,
-							["hitmax"] = 5367,
-							["amount"] = 9570,
-							["hitamount"] = 9570,
+							["hitmax"] = 5812,
+							["amount"] = 15676,
+							["hitamount"] = 15676,
 						},
-						["Retribution Aura"] = {
-							["hitmin"] = 339,
-							["id"] = 54043,
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1678,
+							["id"] = 50463,
 							["targets"] = {
-								["Spiritual Reflection"] = {
-									["amount"] = 2140,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["hitmax"] = 387,
-							["amount"] = 2140,
-							["hitamount"] = 2140,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 2493,
-							["criticalamount"] = 16483,
-							["id"] = 49930,
-							["criticalmin"] = 5220,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 16664,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 5220,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 2,
-							["casts"] = 5,
-							["hitmax"] = 2908,
-							["amount"] = 21884,
-							["school"] = 1,
-							["critical"] = 3,
-							["criticalmax"] = 5852,
-							["hitamount"] = 5401,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 575,
-							["id"] = 51460,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 2782,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 670,
-								},
 								["Spectral Footman"] = {
-									["amount"] = 2040,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 1703,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 4504,
-								},
-								["Marwyn"] = {
-									["amount"] = 8721,
-								},
-							},
-							["hitmax"] = 1669,
-							["casts"] = 1,
-							["count"] = 22,
-							["hit"] = 22,
-							["school"] = 32,
-							["resisted"] = 757,
-							["amount"] = 20420,
-							["hitamount"] = 20420,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1310,
-							["id"] = 55078,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 1310,
-								},
-								["Marwyn"] = {
-									["overkill"] = 1132,
-									["amount"] = 10943,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 5547,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 6738,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 9377,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 1662,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 7089,
-								},
-							},
-							["overkill"] = 1132,
-							["hitmax"] = 1896,
-							["count"] = 28,
-							["hit"] = 28,
-							["school"] = 32,
-							["resisted"] = 477,
-							["amount"] = 42666,
-							["hitamount"] = 42666,
-						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["criticalmin"] = 6729,
-							["hitmin"] = 4036,
-							["criticalamount"] = 6729,
-							["id"] = 51963,
-							["critical"] = 1,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 49791,
-								},
-							},
-							["hitmax"] = 4488,
-							["hit"] = 10,
-							["criticalmax"] = 6729,
-							["count"] = 11,
-							["amount"] = 49791,
-							["school"] = 8,
-							["resisted"] = 1795,
-							["casts"] = 1,
-							["hitamount"] = 43062,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 654,
-							["id"] = 71904,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 814,
-								},
-								["Marwyn"] = {
-									["amount"] = 3477,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 790,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 811,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 716,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 2745,
+									["amount"] = 3785,
 								},
 								["Phantom Mage"] = {
-									["amount"] = 749,
+									["amount"] = 2320,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2320,
+							["amount"] = 6105,
+							["hitamount"] = 6105,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 633,
+							["id"] = 51460,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 1451,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 1700,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 5407,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3634,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 10,
 							["hit"] = 10,
 							["school"] = 32,
-							["hitmax"] = 3477,
-							["amount"] = 10102,
-							["hitamount"] = 10102,
+							["hitmax"] = 1700,
+							["amount"] = 12192,
+							["hitamount"] = 12192,
 						},
-						["Plague Strike"] = {
-							["hitmin"] = 2314,
-							["criticalamount"] = 5552,
-							["id"] = 49921,
-							["criticalmin"] = 5552,
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1497,
+							["id"] = 55078,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 5115,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 2618,
-								},
 								["Ghostly Priest"] = {
-									["amount"] = 5552,
+									["amount"] = 8170,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 6275,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 6874,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 8128,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 5351,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 3,
-							["casts"] = 4,
-							["hitmax"] = 2801,
-							["amount"] = 13285,
+							["count"] = 21,
+							["hit"] = 21,
+							["school"] = 32,
+							["hitmax"] = 1798,
+							["amount"] = 34798,
+							["hitamount"] = 34798,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 2649,
+							["id"] = 49930,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 2653,
+									["overkill"] = 1508,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2649,
+								},
+							},
+							["overkill"] = 1508,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 1,
-							["critical"] = 1,
-							["criticalmax"] = 5552,
-							["hitamount"] = 7733,
+							["hitmax"] = 2653,
+							["amount"] = 5302,
+							["hitamount"] = 5302,
+						},
+						["Death and Decay"] = {
+							["hitmin"] = 932,
+							["criticalamount"] = 60511,
+							["id"] = 52212,
+							["criticalmin"] = 1949,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 28537,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 21287,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 15879,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 27350,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 14728,
+								},
+							},
+							["count"] = 76,
+							["amount"] = 107781,
+							["criticalmax"] = 2290,
+							["hitmax"] = 1096,
+							["hit"] = 47,
+							["school"] = 32,
+							["critical"] = 29,
+							["casts"] = 2,
+							["hitamount"] = 47270,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 2729,
+							["id"] = 49921,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 2729,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2791,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2791,
+							["amount"] = 5520,
+							["hitamount"] = 5520,
 						},
 						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1517,
+							["hitmin"] = 1615,
 							["id"] = 55095,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 3199,
-								},
-								["Marwyn"] = {
-									["amount"] = 12207,
+									["amount"] = 9767,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 7069,
+									["amount"] = 9289,
 								},
 								["Spectral Footman"] = {
-									["amount"] = 8810,
+									["amount"] = 7984,
 								},
-								["Spiritual Reflection"] = {
-									["overkill"] = 82,
-									["amount"] = 12351,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 3925,
+								["Phantom Mage"] = {
+									["amount"] = 9750,
 								},
 								["Tortured Rifleman"] = {
-									["amount"] = 8955,
+									["amount"] = 6419,
 								},
 							},
-							["overkill"] = 82,
-							["hitmax"] = 2486,
-							["count"] = 30,
-							["hit"] = 30,
+							["count"] = 22,
+							["hit"] = 22,
 							["school"] = 16,
-							["resisted"] = 1390,
-							["amount"] = 56516,
-							["hitamount"] = 56516,
+							["hitmax"] = 2157,
+							["amount"] = 43209,
+							["hitamount"] = 43209,
 						},
-						["Icy Touch"] = {
-							["hitmin"] = 1961,
-							["id"] = 49909,
+						["Retribution Aura"] = {
+							["hitmin"] = 401,
+							["id"] = 54043,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 4649,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 2372,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 1961,
+								["Phantom Mage"] = {
+									["amount"] = 401,
 								},
 							},
-							["hitmax"] = 2395,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["resisted"] = 598,
-							["amount"] = 8982,
-							["hitamount"] = 8982,
-						},
-					},
-					["interruptspells"] = {
-						[47528] = {
-							["spells"] = {
-								[72164] = 1,
-							},
+							["casts"] = 1,
 							["count"] = 1,
-							["targets"] = {
-								["Phantom Mage"] = 1,
-							},
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 401,
+							["amount"] = 401,
+							["hitamount"] = 401,
 						},
 					},
-					["role"] = "DAMAGER",
+					["overkill"] = 1508,
 				}, -- [1]
 				{
 					["ccdonespells"] = {
 						[48817] = {
-							["count"] = 4,
+							["count"] = 3,
 							["targets"] = {
-								["Tortured Rifleman"] = 1,
+								["Ghostly Priest"] = 1,
 								["Phantom Mage"] = 1,
-								["Spectral Footman"] = 1,
 								["Shadowy Mercenary"] = 1,
 							},
 						},
+						[10308] = {
+							["count"] = 1,
+							["targets"] = {
+								["Spectral Footman"] = 1,
+							},
+						},
 					},
-					["last"] = 13125.221,
+					["last"] = 13010.264,
 					["flag"] = 2098450,
-					["mana"] = 19188,
+					["class"] = "PALADIN",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[63529] = {
 							["type"] = "DEBUFF",
-							["count"] = 4,
+							["count"] = 6,
 							["school"] = 1,
 							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
+								["Ghostly Priest"] = {
+									["uptime"] = 6,
+									["count"] = 2,
 								},
 								["Tortured Rifleman"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
-								["Frostsworn General"] = {
-									["uptime"] = 3,
-									["count"] = 1,
+								["Phantom Mage"] = {
+									["uptime"] = 6,
+									["count"] = 2,
 								},
 								["Shadowy Mercenary"] = {
 									["uptime"] = 3,
@@ -9529,62 +13825,48 @@ SkadaStorageDB = {
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[57623] = {
 							["type"] = "BUFF",
-							["refresh"] = 2,
-							["count"] = 1,
-							["uptime"] = 108,
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 53,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
-							["count"] = 6,
+							["count"] = 2,
 							["school"] = 2,
-							["refresh"] = 2,
 							["targets"] = {
-								["Marwyn"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 12,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 3,
+								["Spectral Footman"] = {
+									["uptime"] = 1,
 									["count"] = 1,
 								},
-								["Frostsworn General"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 16,
-								},
-								["Ghostly Priest"] = {
-									["uptime"] = 8,
+								["Shadowy Mercenary"] = {
+									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 39,
+							["uptime"] = 3,
 						},
 						[67371] = {
 							["type"] = "BUFF",
 							["count"] = 3,
 							["school"] = 8,
-							["refresh"] = 5,
-							["uptime"] = 91,
+							["refresh"] = 1,
+							["uptime"] = 41,
 						},
 						[48817] = {
 							["type"] = "DEBUFF",
-							["count"] = 4,
+							["count"] = 3,
 							["school"] = 2,
 							["targets"] = {
-								["Tortured Rifleman"] = {
+								["Ghostly Priest"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
 								["Phantom Mage"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Spectral Footman"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
@@ -9593,1112 +13875,825 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 4,
+							["uptime"] = 3,
 						},
 						[48819] = {
 							["type"] = "DEBUFF",
-							["count"] = 18,
+							["count"] = 7,
 							["school"] = 2,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
 								["Phantom Mage"] = {
-									["uptime"] = 8,
+									["uptime"] = 1,
 									["count"] = 1,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 5,
-									["count"] = 8,
 								},
 								["Shadowy Mercenary"] = {
-									["uptime"] = 8,
+									["uptime"] = 2,
 									["count"] = 1,
 								},
 								["Spectral Footman"] = {
-									["uptime"] = 8,
-									["count"] = 1,
+									["uptime"] = 10,
+									["count"] = 2,
 								},
-								["Marwyn"] = {
-									["uptime"] = 22,
-									["count"] = 3,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 16,
+								["Ghostly Priest"] = {
+									["uptime"] = 6,
 									["count"] = 2,
 								},
 								["Tortured Rifleman"] = {
-									["uptime"] = 8,
+									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 51,
+							["uptime"] = 10,
 						},
 						[54428] = {
-							["type"] = "BUFF",
-							["refresh"] = 76,
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[15359] = {
+							["uptime"] = 53,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 22,
+							["refresh"] = 27,
 						},
-						[20132] = {
-							["school"] = 1,
+						[552] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 20,
+							["count"] = 1,
+							["uptime"] = 2,
 						},
 						[48827] = {
 							["type"] = "DEBUFF",
-							["count"] = 4,
+							["count"] = 6,
 							["school"] = 2,
 							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 6,
-									["count"] = 1,
+								["Ghostly Priest"] = {
+									["uptime"] = 11,
+									["count"] = 2,
 								},
 								["Tortured Rifleman"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
 									["uptime"] = 4,
 									["count"] = 1,
 								},
-							},
-							["uptime"] = 16,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Marwyn"] = {
-									["uptime"] = 11,
-									["count"] = 3,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Frostsworn General"] = {
-									["refresh"] = 1,
+								["Phantom Mage"] = {
+									["uptime"] = 10,
 									["count"] = 2,
-									["uptime"] = 16,
 								},
-								["Ghostly Priest"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 33,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["targets"] = {
-								["Marwyn"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 3,
+								["Shadowy Mercenary"] = {
+									["uptime"] = 8,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 12,
 						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[31790] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
 						[57669] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 45,
 						},
 						[31801] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[31803] = {
 							["type"] = "DEBUFF",
-							["count"] = 11,
+							["count"] = 9,
 							["school"] = 2,
-							["refresh"] = 53,
+							["refresh"] = 20,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-								["Marwyn"] = {
-									["refresh"] = 18,
-									["count"] = 1,
-									["uptime"] = 25,
+								["Phantom Mage"] = {
+									["refresh"] = 7,
+									["count"] = 2,
+									["uptime"] = 12,
 								},
 								["Shadowy Mercenary"] = {
-									["refresh"] = 6,
-									["count"] = 1,
-									["uptime"] = 11,
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 9,
 								},
 								["Spectral Footman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 13,
+									["refresh"] = 6,
+									["count"] = 2,
+									["uptime"] = 15,
 								},
-								["Spiritual Reflection"] = {
-									["refresh"] = 3,
-									["count"] = 5,
-									["uptime"] = 7,
-								},
-								["Frostsworn General"] = {
-									["refresh"] = 19,
-									["count"] = 1,
+								["Ghostly Priest"] = {
+									["refresh"] = 2,
+									["count"] = 2,
 									["uptime"] = 23,
 								},
 								["Tortured Rifleman"] = {
-									["refresh"] = 4,
+									["refresh"] = 3,
 									["count"] = 1,
-									["uptime"] = 13,
+									["uptime"] = 11,
 								},
 							},
-							["uptime"] = 74,
+							["uptime"] = 27,
 						},
 						[71432] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48111] = {
+							["uptime"] = 38,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["refresh"] = 1,
-							["uptime"] = 28,
 						},
 						[20217] = {
 							["type"] = "BUFF",
-							["refresh"] = 1,
 							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[28093] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 47,
+							["uptime"] = 53,
 						},
 						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 19,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
 						},
 						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[54861] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[31790] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 67,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 21,
-						},
-						[48952] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 30,
-						},
-						[31884] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[12179] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 3,
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[68055] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 2,
-							["refresh"] = 2,
-							["targets"] = {
-								["Marwyn"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 19,
-								},
-								["Frostsworn General"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 20,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 42,
+							["uptime"] = 53,
 						},
 						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
-						[26017] = {
+						[62124] = {
 							["type"] = "DEBUFF",
-							["count"] = 9,
+							["count"] = 1,
 							["school"] = 2,
-							["refresh"] = 11,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-								["Marwyn"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 23,
-								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
-								["Spectral Footman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-								["Spiritual Reflection"] = {
+								["Tortured Rifleman"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
-								["Frostsworn General"] = {
-									["refresh"] = 1,
+							},
+							["uptime"] = 3,
+						},
+						[20132] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 31,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[48952] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["refresh"] = 6,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["refresh"] = 5,
 									["count"] = 2,
-									["uptime"] = 23,
+									["uptime"] = 12,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 11,
+									["count"] = 2,
 								},
 								["Tortured Rifleman"] = {
-									["refresh"] = 4,
+									["refresh"] = 1,
 									["count"] = 1,
-									["uptime"] = 13,
+									["uptime"] = 5,
 								},
 							},
-							["uptime"] = 68,
+							["uptime"] = 18,
+						},
+						[25899] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[63944] = {
+							["uptime"] = 53,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[12179] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[68055] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[10308] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[53601] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
 						},
 					},
-					["totaldamage"] = 417683,
-					["time"] = 93.23999999999998,
-					["totaldamagetaken"] = 26982,
-					["damage"] = 417683,
+					["totaldamage"] = 151851,
+					["time"] = 34.10000000000002,
+					["totaldamagetaken"] = 17824,
+					["damage"] = 151851,
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
-							["hitmin"] = 524,
+							["hitmin"] = 494,
 							["id"] = 48819,
 							["targets"] = {
 								["Phantom Mage"] = {
-									["amount"] = 4232,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 4784,
-								},
-								["Spiritual Reflection"] = {
-									["overkill"] = 161,
-									["amount"] = 9200,
+									["amount"] = 598,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 4784,
+									["amount"] = 1196,
 								},
 								["Spectral Footman"] = {
-									["amount"] = 4784,
-								},
-								["Marwyn"] = {
-									["amount"] = 15029,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 8809,
+									["amount"] = 5694,
 								},
 								["Ghostly Priest"] = {
+									["amount"] = 3415,
+								},
+								["Tortured Rifleman"] = {
 									["amount"] = 1196,
 								},
 							},
-							["overkill"] = 161,
-							["hitmax"] = 718,
-							["casts"] = 7,
-							["count"] = 89,
-							["hit"] = 89,
+							["casts"] = 3,
+							["count"] = 21,
+							["hit"] = 21,
 							["school"] = 2,
-							["resisted"] = 562,
-							["amount"] = 52818,
-							["hitamount"] = 52818,
-						},
-						["Melee"] = {
-							["glance"] = 2396,
-							["hitmin"] = 718,
-							["criticalmin"] = 1450,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 3346,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 5171,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 2787,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 5006,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 16930,
-								},
-								["Marwyn"] = {
-									["amount"] = 22411,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 55651,
-							["glancemin"] = 721,
-							["criticalamount"] = 25828,
-							["id"] = 6603,
-							["glancemax"] = 898,
-							["blocked"] = 81,
-							["criticalmax"] = 2198,
-							["count"] = 48,
-							["hit"] = 31,
-							["school"] = 1,
-							["hitmax"] = 1050,
-							["critical"] = 14,
-							["hitamount"] = 27427,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 247,
-							["id"] = 31803,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 1366,
-								},
-								["Marwyn"] = {
-									["amount"] = 8610,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2002,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 1500,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 742,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 6628,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 3253,
-								},
-							},
-							["hitmax"] = 1501,
-							["count"] = 28,
-							["hit"] = 28,
-							["school"] = 2,
-							["resisted"] = 1095,
-							["amount"] = 24101,
-							["hitamount"] = 24101,
-						},
-						["Holy Wrath"] = {
-							["hitmin"] = 2419,
-							["criticalamount"] = 3004,
-							["id"] = 48817,
-							["criticalmin"] = 3004,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 3004,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 2487,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 2425,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2419,
-								},
-							},
-							["criticalmax"] = 3004,
-							["hitmax"] = 2487,
-							["casts"] = 1,
-							["critical"] = 1,
-							["hit"] = 3,
-							["school"] = 2,
-							["amount"] = 10335,
-							["count"] = 4,
-							["hitamount"] = 7331,
-						},
-						["Hand of Reckoning"] = {
-							["hitmin"] = 3825,
-							["criticalamount"] = 5279,
-							["id"] = 67485,
-							["criticalmin"] = 5279,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 4636,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 3825,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 5279,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 3977,
-								},
-							},
-							["criticalmax"] = 5279,
-							["hitmax"] = 4636,
-							["casts"] = 4,
-							["critical"] = 1,
-							["hit"] = 3,
-							["school"] = 2,
-							["amount"] = 17717,
-							["count"] = 4,
-							["hitamount"] = 12438,
-						},
-						["Retribution Aura"] = {
-							["hitmin"] = 204,
-							["id"] = 54043,
-							["targets"] = {
-								["Frostsworn General"] = {
-									["amount"] = 438,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 434,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 233,
-							["amount"] = 872,
-							["hitamount"] = 872,
-						},
-						["Hammer of the Righteous"] = {
-							["criticalamount"] = 54972,
-							["hitmin"] = 3729,
-							["criticalmin"] = 8360,
-							["id"] = 53595,
-							["hitmax"] = 5726,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 14313,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 19084,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 9542,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 20994,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 26192,
-								},
-								["Marwyn"] = {
-									["amount"] = 20307,
-								},
-							},
-							["critical"] = 6,
-							["hit"] = 12,
-							["criticalmax"] = 9542,
-							["count"] = 18,
-							["amount"] = 110432,
-							["school"] = 2,
-							["resisted"] = 983,
-							["casts"] = 12,
-							["hitamount"] = 55460,
+							["hitmax"] = 598,
+							["amount"] = 12099,
+							["hitamount"] = 12099,
 						},
 						["Judgement of Vengeance"] = {
-							["hitmin"] = 1497,
-							["criticalamount"] = 20392,
+							["hitmin"] = 1647,
+							["criticalamount"] = 4088,
 							["id"] = 31804,
-							["criticalmin"] = 2994,
+							["criticalmin"] = 4088,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 12380,
+								["Spectral Footman"] = {
+									["amount"] = 1647,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 5576,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 1629,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 11037,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 1497,
+									["amount"] = 4088,
 								},
 							},
-							["criticalmax"] = 6246,
-							["hitmax"] = 3346,
-							["casts"] = 1,
-							["critical"] = 4,
-							["hit"] = 5,
+							["count"] = 2,
+							["amount"] = 5735,
+							["criticalmax"] = 4088,
+							["hitmax"] = 1647,
+							["hit"] = 1,
 							["school"] = 2,
-							["amount"] = 32119,
-							["count"] = 9,
-							["hitamount"] = 11727,
+							["critical"] = 1,
+							["casts"] = 1,
+							["hitamount"] = 1647,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 227,
+							["id"] = 31803,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 3253,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 978,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 1867,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 2616,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 1957,
+								},
+							},
+							["count"] = 19,
+							["hit"] = 19,
+							["school"] = 2,
+							["hitmax"] = 1251,
+							["amount"] = 10671,
+							["hitamount"] = 10671,
+						},
+						["Seal of Vengeance"] = {
+							["criticalamount"] = 2030,
+							["hitmin"] = 38,
+							["criticalmin"] = 180,
+							["id"] = 42463,
+							["criticalmax"] = 790,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 361,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 95,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 2119,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 2884,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 1577,
+								},
+							},
+							["critical"] = 5,
+							["amount"] = 7036,
+							["casts"] = 1,
+							["count"] = 24,
+							["blocked"] = 40,
+							["school"] = 2,
+							["hitmax"] = 521,
+							["hit"] = 19,
+							["hitamount"] = 5006,
+						},
+						["Hammer of the Righteous"] = {
+							["hitmin"] = 3984,
+							["criticalamount"] = 9542,
+							["id"] = 53595,
+							["criticalmin"] = 9542,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 9274,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 18816,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 9273,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 17242,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 8488,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 63093,
+							["criticalmax"] = 9542,
+							["hitmax"] = 4771,
+							["hit"] = 12,
+							["school"] = 2,
+							["critical"] = 1,
+							["casts"] = 6,
+							["hitamount"] = 53551,
+						},
+						["Melee"] = {
+							["glance"] = 1577,
+							["hitmin"] = 746,
+							["criticalmin"] = 1742,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 839,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 875,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 5978,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 7744,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 1653,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 17089,
+							["glancemin"] = 757,
+							["criticalamount"] = 1742,
+							["id"] = 6603,
+							["glancemax"] = 820,
+							["criticalmax"] = 1742,
+							["hitmax"] = 952,
+							["hit"] = 16,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 19,
+							["hitamount"] = 13770,
 						},
 						["Holy Shield"] = {
 							["hitmin"] = 1076,
 							["id"] = 48952,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 2455,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 1076,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 1076,
+								["Ghostly Priest"] = {
+									["amount"] = 2152,
 								},
 							},
-							["hitmax"] = 1292,
-							["casts"] = 3,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["resisted"] = 129,
-							["amount"] = 4607,
-							["hitamount"] = 4607,
-						},
-						["Avenger's Shield"] = {
-							["hitmin"] = 2303,
-							["criticalamount"] = 9580,
-							["id"] = 48827,
-							["criticalmin"] = 4730,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 4850,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 4730,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 2303,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2603,
-								},
-							},
-							["criticalmax"] = 4850,
-							["hitmax"] = 2603,
-							["casts"] = 2,
-							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 2,
-							["amount"] = 14486,
-							["count"] = 4,
-							["hitamount"] = 4906,
+							["hitmax"] = 1076,
+							["amount"] = 2152,
+							["hitamount"] = 2152,
+						},
+						["Avenger's Shield"] = {
+							["hitmin"] = 2394,
+							["id"] = 48827,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 5009,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 2584,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 4840,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2559,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 2584,
+							["amount"] = 14992,
+							["hitamount"] = 14992,
 						},
 						["Shield of Righteousness"] = {
-							["criticalamount"] = 24450,
-							["hitmin"] = 3304,
-							["criticalmin"] = 7014,
+							["hitmin"] = 3734,
 							["id"] = 61411,
-							["criticalmax"] = 9510,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 3734,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 3964,
+								["Phantom Mage"] = {
+									["amount"] = 3963,
 								},
 								["Tortured Rifleman"] = {
-									["amount"] = 7926,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 7397,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 17789,
-								},
-								["Marwyn"] = {
-									["amount"] = 22944,
+									["amount"] = 7698,
 								},
 							},
-							["hitmax"] = 4756,
-							["blocked"] = 41,
-							["casts"] = 13,
-							["critical"] = 3,
-							["hit"] = 10,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 2,
-							["count"] = 13,
-							["amount"] = 63754,
-							["hitamount"] = 39304,
+							["hitmax"] = 3964,
+							["amount"] = 11661,
+							["hitamount"] = 11661,
 						},
-						["Seal of Vengeance"] = {
-							["criticalamount"] = 7833,
-							["hitmax"] = 663,
-							["hitmin"] = 47,
-							["criticalmin"] = 160,
-							["id"] = 42463,
-							["criticalmax"] = 1092,
+						["Holy Wrath"] = {
+							["hitmin"] = 2410,
+							["id"] = 48817,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 691,
+								["Phantom Mage"] = {
+									["amount"] = 2447,
 								},
-								["Marwyn"] = {
-									["amount"] = 13632,
+								["Ghostly Priest"] = {
+									["amount"] = 2466,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 3140,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 109,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 712,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 11123,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1384,
+									["amount"] = 2410,
 								},
 							},
-							["critical"] = 12,
-							["blocked"] = 81,
 							["casts"] = 1,
-							["count"] = 67,
-							["hit"] = 55,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 2,
-							["resisted"] = 722,
-							["amount"] = 30791,
-							["hitamount"] = 22958,
+							["hitmax"] = 2466,
+							["amount"] = 7323,
+							["hitamount"] = 7323,
 						},
 					},
-					["damagetaken"] = 8996,
+					["damagetaken"] = 7629,
 					["id"] = "0x0700000000690218",
 					["spec"] = 66,
 					["healspells"] = {
 						[20267] = {
-							["overheal"] = 71223,
+							["overheal"] = 8818,
+							["count"] = 10,
+							["amount"] = 0,
 							["school"] = 2,
-							["count"] = 123,
-							["amount"] = 17285,
-							["max"] = 1285,
+							["ishot"] = true,
 							["targets"] = {
-								["Ebon Gargoyle"] = {
-									["overheal"] = 1722,
+								["Pebblebasher"] = {
+									["overheal"] = 1350,
 									["amount"] = 0,
 								},
 								["Urgash"] = {
-									["overheal"] = 10263,
-									["amount"] = 1521,
-								},
-								["Xenaprincesa"] = {
-									["overheal"] = 13525,
-									["amount"] = 2336,
-								},
-								["Rune Weapon"] = {
-									["overheal"] = 212,
+									["overheal"] = 1521,
 									["amount"] = 0,
 								},
 								["Guakamole"] = {
-									["overheal"] = 30310,
-									["amount"] = 7581,
-								},
-								["Bloodworm"] = {
-									["overheal"] = 340,
-									["amount"] = 0,
-								},
-								["Shadowfiend"] = {
-									["overheal"] = 622,
-									["amount"] = 0,
-								},
-								["Pebblebasher"] = {
-									["overheal"] = 9450,
+									["overheal"] = 5137,
 									["amount"] = 0,
 								},
 								["Giveme"] = {
-									["overheal"] = 4779,
-									["amount"] = 5847,
+									["overheal"] = 790,
+									["amount"] = 0,
 								},
-							},
-							["ishot"] = true,
-							["min"] = 119,
-						},
-					},
-					["overkill"] = 161,
-					["damagetakenspells"] = {
-						["Cursed Arrow"] = {
-							["sources"] = {
-								["Tortured Rifleman"] = {
+								["Bloodworm"] = {
+									["overheal"] = 20,
 									["amount"] = 0,
 								},
 							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Shoot"] = {
+							["total"] = 2267,
+							["hitmin"] = 1156,
+							["id"] = 72211,
+							["count"] = 2,
+							["sources"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 1156,
+									["total"] = 2267,
+								},
+							},
+							["hitmax"] = 1156,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["hit"] = 1,
+							["amount"] = 1156,
+							["hitamount"] = 1156,
+						},
+						["Kidney Shot"] = {
+							["PARRY"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 72222,
-						},
-						["Shared Suffering (DoT)"] = {
-							["total"] = 4355,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
+							["id"] = 72335,
 							["sources"] = {
-								["Marwyn"] = {
-									["total"] = 4355,
+								["Shadowy Mercenary"] = {
 									["amount"] = 0,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 72369,
 						},
 						["Melee"] = {
-							["DODGE"] = 13,
-							["total"] = 15138,
-							["hitmin"] = 724,
-							["amount"] = 8297,
+							["DODGE"] = 4,
+							["total"] = 2691,
 							["id"] = 6603,
-							["BLOCK"] = 6,
+							["count"] = 14,
 							["sources"] = {
-								["Tortured Rifleman"] = {
+								["Ghostly Priest"] = {
 									["amount"] = 0,
-								},
-								["Marwyn"] = {
-									["amount"] = 0,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 0,
+									["total"] = 1295,
 								},
 								["Spectral Footman"] = {
 									["amount"] = 0,
 								},
-								["Spiritual Reflection"] = {
-									["amount"] = 1464,
-								},
-								["Frostsworn General"] = {
-									["total"] = 12522,
-									["amount"] = 6833,
-								},
-								["Ghostly Priest"] = {
-									["total"] = 1152,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 54,
-							["ABSORB"] = 2,
-							["PARRY"] = 15,
-							["hitmax"] = 4048,
-							["hit"] = 4,
-							["school"] = 1,
-							["blocked"] = 12517,
-							["MISS"] = 14,
-							["hitamount"] = 8297,
-						},
-						["Obliterate"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Marwyn"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["id"] = 72434,
-						},
-						["Shoot"] = {
-							["ABSORB"] = 1,
-							["total"] = 1117,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Tortured Rifleman"] = {
-									["total"] = 1117,
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 72211,
-						},
-						["Deadly Poison (DoT)"] = {
-							["total"] = 4339,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 8,
-							["sources"] = {
-								["Shadowy Mercenary"] = {
-									["total"] = 4339,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 4,
-							["id"] = 72330,
-						},
-						["Flamestrike"] = {
-							["sources"] = {
 								["Phantom Mage"] = {
 									["amount"] = 0,
 								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 0,
+									["total"] = 1396,
+								},
 							},
+							["BLOCK"] = 2,
+							["ABSORB"] = 2,
+							["school"] = 1,
+							["PARRY"] = 6,
+							["blocked"] = 2647,
+							["amount"] = 0,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["total"] = 1815,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 72319,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 0,
+									["total"] = 1815,
+								},
+							},
+						},
+						["Flamestrike"] = {
+							["total"] = 2647,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 4,
-							["MISS"] = 1,
 							["id"] = 72170,
-						},
-						["Spectral Strike"] = {
-							["PARRY"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
+							["ABSORB"] = 1,
 							["sources"] = {
-								["Spectral Footman"] = {
+								["Phantom Mage"] = {
 									["amount"] = 0,
+									["total"] = 2647,
 								},
 							},
-							["id"] = 72688,
 						},
-						["Shared Suffering"] = {
-							["total"] = 2033,
-							["hitmin"] = 699,
-							["id"] = 72373,
-							["hitmax"] = 699,
+						["Flamestrike (DoT)"] = {
+							["total"] = 4137,
+							["hitmin"] = 246,
+							["id"] = 72170,
+							["count"] = 2,
 							["sources"] = {
-								["Marwyn"] = {
-									["total"] = 2033,
-									["amount"] = 699,
+								["Phantom Mage"] = {
+									["amount"] = 2206,
+									["total"] = 4137,
+								},
+							},
+							["hitmax"] = 1960,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 217,
+							["amount"] = 2206,
+							["hitamount"] = 2206,
+						},
+						["Circle of Destruction"] = {
+							["hitmin"] = 4267,
+							["id"] = 72323,
+							["sources"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 4267,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 32,
-							["resisted"] = 870,
-							["amount"] = 699,
-							["hitamount"] = 699,
+							["hitmax"] = 4267,
+							["amount"] = 4267,
+							["hitamount"] = 4267,
 						},
 					},
-					["heal"] = 17285,
+					["heal"] = 0,
 					["name"] = "Guakamole",
 					["ccdone"] = 4,
-					["overheal"] = 71223,
-					["class"] = "PALADIN",
-					["manaspells"] = {
-						[57319] = 5840,
-						[54428] = 13176,
-						[31786] = 172,
-					},
 					["role"] = "TANK",
+					["mana"] = 8382,
+					["manaspells"] = {
+						[57319] = 1898,
+						[54428] = 6222,
+						[31786] = 262,
+					},
+					["overheal"] = 8818,
 				}, -- [2]
 				{
-					["last"] = 13122.638,
+					["last"] = 13017.022,
 					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["auras"] = {
 						[48066] = {
-							["school"] = 2,
+							["uptime"] = 35,
 							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 38,
+							["count"] = 1,
+							["refresh"] = 1,
 						},
 						[6562] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[586] = {
-							["school"] = 32,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 53,
 						},
 						[63944] = {
+							["uptime"] = 53,
 							["type"] = "BUFF",
-							["refresh"] = 4,
 							["count"] = 1,
-							["uptime"] = 108,
+							["refresh"] = 2,
 						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[57623] = {
 							["type"] = "BUFF",
-							["refresh"] = 2,
-							["count"] = 1,
-							["uptime"] = 108,
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 53,
 						},
 						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 2,
-							["refresh"] = 4,
-							["uptime"] = 41,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[59891] = {
 							["type"] = "BUFF",
-							["count"] = 6,
+							["count"] = 3,
 							["school"] = 2,
-							["refresh"] = 6,
-							["uptime"] = 38,
+							["refresh"] = 5,
+							["uptime"] = 26,
 						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[63619] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 8,
+							["uptime"] = 53,
 						},
 						[57669] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 45,
 						},
 						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 103,
+							["uptime"] = 53,
 						},
-						[6346] = {
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[47753] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 59,
-						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 6,
-							["uptime"] = 28,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 2,
-							["refresh"] = 4,
-							["uptime"] = 33,
-						},
-						[54043] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 4,
-							["uptime"] = 66,
+							["uptime"] = 12,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
-							["count"] = 11,
+							["count"] = 8,
 							["school"] = 2,
 							["targets"] = {
 								["Urgash"] = {
@@ -10706,379 +14701,183 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Guakamole"] = {
-									["uptime"] = 61,
-									["count"] = 3,
+									["uptime"] = 19,
+									["count"] = 2,
 								},
-								["Giveme"] = {
-									["uptime"] = 61,
+								["Xenaprincesa"] = {
+									["uptime"] = 24,
 									["count"] = 2,
 								},
 								["Niveaboy"] = {
-									["uptime"] = 45,
-									["count"] = 3,
+									["uptime"] = 38,
+									["count"] = 1,
 								},
-								["Xenaprincesa"] = {
-									["uptime"] = 61,
+								["Giveme"] = {
+									["uptime"] = 30,
 									["count"] = 2,
 								},
 							},
-							["uptime"] = 61,
+							["uptime"] = 38,
 						},
-						[48168] = {
+						[6346] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 49,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
 						},
 					},
 					["absorbspells"] = {
 						[48066] = {
-							["min"] = 103,
-							["casts"] = 10,
-							["count"] = 27,
-							["amount"] = 53563,
-							["school"] = 2,
-							["targets"] = {
-								["Urgash"] = 6297,
-								["Guakamole"] = 17419,
-								["Giveme"] = 8134,
-								["Niveaboy"] = 13579,
-								["Xenaprincesa"] = 8134,
-							},
-							["max"] = 4355,
-						},
-						[47753] = {
-							["min"] = 90,
-							["casts"] = 15,
+							["min"] = 238,
+							["casts"] = 5,
 							["count"] = 13,
-							["amount"] = 12462,
+							["amount"] = 26370,
 							["school"] = 2,
 							["targets"] = {
-								["Urgash"] = 534,
-								["Guakamole"] = 567,
-								["Xenaprincesa"] = 567,
-								["Niveaboy"] = 9193,
-								["Giveme"] = 1601,
+								["Xenaprincesa"] = 3442,
+								["Urgash"] = 4466,
+								["Guakamole"] = 10195,
+								["Giveme"] = 8267,
 							},
-							["max"] = 3196,
+							["max"] = 4466,
 						},
 					},
-					["totaldamage"] = 3159,
-					["time"] = 58.58,
-					["totaldamagetaken"] = 46136,
-					["damage"] = 3159,
-					["damagespells"] = {
-						["Retribution Aura"] = {
-							["hitmin"] = 203,
-							["id"] = 54043,
-							["targets"] = {
-								["Spiritual Reflection"] = {
-									["amount"] = 203,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 203,
-							["amount"] = 203,
-							["hitamount"] = 203,
-						},
-						["Melee (Shadowfiend)"] = {
-							["hitmin"] = 926,
-							["id"] = 6603,
-							["targets"] = {
-								["Spiritual Reflection"] = {
-									["amount"] = 2956,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1096,
-							["amount"] = 2956,
-							["hitamount"] = 2956,
-						},
-					},
-					["absorb"] = 66025,
-					["damagetaken"] = 23364,
+					["role"] = "HEALER",
+					["time"] = 34.55,
+					["overheal"] = 23711,
+					["absorb"] = 26370,
 					["id"] = "0x07000000009DDD88",
 					["spec"] = 256,
 					["healspells"] = {
 						[33110] = {
-							["overheal"] = 6930,
-							["criticalamount"] = 699,
-							["max"] = 3143,
-							["targets"] = {
-								["Giveme"] = {
-									["overheal"] = 0,
-									["amount"] = 3143,
-								},
-								["Guakamole"] = {
-									["overheal"] = 5429,
-									["amount"] = 699,
-								},
-								["Xenaprincesa"] = {
-									["overheal"] = 1501,
-									["amount"] = 1643,
-								},
-							},
-							["min"] = 699,
-							["criticalmax"] = 699,
-							["count"] = 3,
-							["amount"] = 5485,
+							["overheal"] = 0,
+							["count"] = 2,
+							["amount"] = 6391,
 							["school"] = 2,
-							["criticalmin"] = 699,
-							["critical"] = 1,
-						},
-						[48071] = {
-							["overheal"] = 9824,
-							["criticalamount"] = 2904,
-							["max"] = 4042,
+							["min"] = 2965,
 							["targets"] = {
 								["Giveme"] = {
 									["overheal"] = 0,
-									["amount"] = 4042,
+									["amount"] = 3426,
 								},
 								["Urgash"] = {
-									["overheal"] = 275,
-									["amount"] = 3744,
-								},
-								["Niveaboy"] = {
-									["overheal"] = 9549,
-									["amount"] = 2904,
+									["overheal"] = 0,
+									["amount"] = 2965,
 								},
 							},
-							["min"] = 840,
-							["casts"] = 4,
-							["count"] = 4,
-							["amount"] = 10690,
+							["max"] = 3426,
+						},
+						[52985] = {
+							["overheal"] = 0,
+							["casts"] = 6,
+							["count"] = 6,
+							["amount"] = 19812,
+							["max"] = 3418,
 							["school"] = 2,
-							["criticalmin"] = 840,
-							["criticalmax"] = 2064,
-							["critical"] = 2,
+							["targets"] = {
+								["Giveme"] = {
+									["overheal"] = 0,
+									["amount"] = 19812,
+								},
+							},
+							["min"] = 3183,
 						},
 						[56160] = {
-							["overheal"] = 18460,
-							["criticalamount"] = 1698,
-							["max"] = 1698,
+							["overheal"] = 12999,
+							["criticalamount"] = 0,
+							["max"] = 1261,
 							["targets"] = {
 								["Urgash"] = {
-									["overheal"] = 1783,
+									["overheal"] = 2379,
 									["amount"] = 0,
 								},
 								["Guakamole"] = {
-									["overheal"] = 6934,
+									["overheal"] = 1261,
+									["amount"] = 1261,
+								},
+								["Xenaprincesa"] = {
+									["overheal"] = 3806,
+									["amount"] = 1235,
+								},
+								["Niveaboy"] = {
+									["overheal"] = 2402,
 									["amount"] = 0,
 								},
 								["Giveme"] = {
 									["overheal"] = 3151,
-									["amount"] = 0,
-								},
-								["Niveaboy"] = {
-									["overheal"] = 3001,
-									["amount"] = 1698,
-								},
-								["Xenaprincesa"] = {
-									["overheal"] = 3591,
-									["amount"] = 821,
+									["amount"] = 1261,
 								},
 							},
-							["min"] = 821,
-							["criticalmax"] = 1698,
-							["count"] = 14,
-							["amount"] = 2519,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["critical"] = 6,
-						},
-						[48173] = {
-							["overheal"] = 5724,
-							["criticalamount"] = 4729,
-							["max"] = 4729,
-							["targets"] = {
-								["Niveaboy"] = {
-									["overheal"] = 5724,
-									["amount"] = 4729,
-								},
-							},
-							["min"] = 4729,
-							["criticalmax"] = 4729,
-							["critical"] = 1,
-							["amount"] = 4729,
-							["school"] = 2,
-							["criticalmin"] = 4729,
-							["count"] = 1,
-						},
-						[52985] = {
-							["overheal"] = 26197,
-							["criticalamount"] = 13830,
-							["max"] = 4932,
-							["targets"] = {
-								["Giveme"] = {
-									["overheal"] = 3425,
-									["amount"] = 8407,
-								},
-								["Niveaboy"] = {
-									["overheal"] = 11344,
-									["amount"] = 11767,
-								},
-								["Guakamole"] = {
-									["overheal"] = 11428,
-									["amount"] = 0,
-								},
-							},
-							["min"] = 2869,
-							["criticalmax"] = 4932,
-							["critical"] = 5,
-							["amount"] = 20174,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["casts"] = 12,
+							["min"] = 1235,
+							["criticalmax"] = 0,
 							["count"] = 12,
+							["amount"] = 3757,
+							["school"] = 2,
+							["critical"] = 3,
+							["criticalmin"] = 0,
 						},
 						[48120] = {
-							["overheal"] = 19755,
+							["overheal"] = 10712,
 							["criticalamount"] = 0,
 							["targets"] = {
-								["Giveme"] = {
-									["overheal"] = 4911,
+								["Guakamole"] = {
+									["overheal"] = 4427,
 									["amount"] = 0,
 								},
 								["Niveaboy"] = {
-									["overheal"] = 10523,
-									["amount"] = 0,
-								},
-								["Guakamole"] = {
-									["overheal"] = 4321,
+									["overheal"] = 6285,
 									["amount"] = 0,
 								},
 							},
 							["criticalmax"] = 0,
-							["count"] = 4,
+							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 2,
-							["criticalmin"] = 0,
-							["casts"] = 2,
 							["critical"] = 1,
+							["criticalmin"] = 0,
+						},
+						[48071] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 3990,
+							["school"] = 2,
+							["min"] = 3990,
+							["targets"] = {
+								["Guakamole"] = {
+									["overheal"] = 0,
+									["amount"] = 3990,
+								},
+							},
+							["max"] = 3990,
 						},
 					},
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["total"] = 2982,
-							["hitmin"] = 936,
-							["id"] = 72211,
-							["sources"] = {
-								["Tortured Rifleman"] = {
-									["total"] = 2982,
-									["amount"] = 936,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 936,
-							["amount"] = 936,
-							["hitamount"] = 936,
-						},
-						["Melee"] = {
-							["total"] = 24177,
-							["hitmin"] = 947,
-							["id"] = 6603,
-							["hitmax"] = 2251,
-							["sources"] = {
-								["Spectral Footman"] = {
-									["total"] = 3643,
-									["amount"] = 0,
-								},
-								["Spiritual Reflection"] = {
-									["total"] = 20534,
-									["amount"] = 14678,
-								},
-							},
-							["count"] = 11,
-							["ABSORB"] = 3,
-							["school"] = 1,
-							["amount"] = 14678,
-							["hit"] = 8,
-							["hitamount"] = 14678,
-						},
-						["Shared Suffering"] = {
-							["total"] = 2201,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Marwyn"] = {
-									["total"] = 2201,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72373,
-						},
-						["Envenomed Dagger Throw (DoT)"] = {
-							["total"] = 3720,
-							["hitmin"] = 840,
-							["id"] = 72334,
-							["hitmax"] = 840,
-							["sources"] = {
-								["Shadowy Mercenary"] = {
-									["total"] = 3720,
-									["amount"] = 840,
-								},
-							},
-							["count"] = 4,
-							["ABSORB"] = 3,
-							["school"] = 8,
-							["amount"] = 840,
-							["hit"] = 1,
-							["hitamount"] = 840,
-						},
-						["Baleful Strike"] = {
-							["total"] = 13056,
-							["hitmin"] = 3218,
-							["id"] = 70400,
-							["hitmax"] = 3692,
-							["amount"] = 6910,
-							["sources"] = {
-								["Spiritual Reflection"] = {
-									["total"] = 13056,
-									["amount"] = 6910,
-								},
-							},
-							["count"] = 4,
-							["ABSORB"] = 2,
-							["school"] = 32,
-							["resisted"] = 1726,
-							["hit"] = 2,
-							["hitamount"] = 6910,
-						},
-					},
-					["mana"] = 7604,
-					["heal"] = 43597,
-					["name"] = "Niveaboy",
-					["overheal"] = 86890,
-					["dispel"] = 1,
+					["heal"] = 33950,
 					["manaspells"] = {
-						[47755] = 2592,
-						[63654] = 1328,
-						[34650] = 3684,
+						[47755] = 1296,
+						[63654] = 267,
 					},
+					["mana"] = 1563,
+					["dispel"] = 2,
 					["dispelspells"] = {
-						[32375] = {
+						[988] = {
 							["spells"] = {
-								[72369] = 1,
+								[72319] = 2,
 							},
-							["count"] = 1,
+							["count"] = 2,
 							["targets"] = {
 								["Guakamole"] = 1,
+								["Xenaprincesa"] = 1,
 							},
 						},
 					},
-					["role"] = "HEALER",
+					["name"] = "Niveaboy",
 				}, -- [3]
 				{
-					["last"] = 13110.085,
+					["last"] = 13009.609,
 					["flag"] = 1298,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
@@ -11087,1000 +14886,811 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["school"] = 2,
 							["refresh"] = 1,
-							["uptime"] = 44,
+							["uptime"] = 43,
 						},
 						[6562] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[70657] = {
 							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 10,
-							["uptime"] = 79,
-						},
-						[45529] = {
-							["school"] = 1,
-							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 20,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 16,
 						},
 						[63944] = {
+							["uptime"] = 53,
 							["type"] = "BUFF",
-							["refresh"] = 4,
 							["count"] = 1,
-							["uptime"] = 108,
+							["refresh"] = 2,
 						},
 						[73422] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["uptime"] = 30,
+							["uptime"] = 22,
 						},
-						[71905] = {
+						[48074] = {
 							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 22,
-							["uptime"] = 40,
+							["count"] = 1,
+							["uptime"] = 53,
 						},
 						[57623] = {
 							["type"] = "BUFF",
-							["refresh"] = 3,
-							["count"] = 1,
-							["uptime"] = 108,
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 53,
 						},
 						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 4,
 							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 62,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 24,
 						},
 						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[54861] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 53,
 						},
 						[71560] = {
-							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 30,
+							["uptime"] = 20,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[53365] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 36,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 32,
+							["refresh"] = 7,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 22,
+								},
+								["Shadowy Mercenary"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 18,
+								},
+								["Spectral Footman"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 17,
+								},
+								["Phantom Mage"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 21,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 29,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 16,
+							["refresh"] = 7,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 22,
+								},
+								["Shadowy Mercenary"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 20,
+								},
+								["Spectral Footman"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 18,
+								},
+								["Phantom Mage"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 21,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 11,
+								},
+							},
+							["uptime"] = 32,
+						},
+						[20217] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 10,
+						},
+						[50449] = {
+							["uptime"] = 53,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 11,
+						},
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 12,
 						},
 						[72412] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[49016] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 30,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 44,
+							["uptime"] = 9,
 						},
 						[75456] = {
 							["school"] = 64,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 30,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 16,
-							["refresh"] = 2,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 14,
-									["count"] = 1,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 16,
-									["count"] = 1,
-								},
-								["Marwyn"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 25,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 18,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 16,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 63,
-						},
-						[54043] = {
-							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 98,
+							["uptime"] = 15,
 						},
-						[20217] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[50449] = {
-							["type"] = "BUFF",
-							["refresh"] = 27,
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[47753] = {
+						[48111] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 65,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Marwyn"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 23,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 17,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 40,
-						},
-						[49028] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Marwyn"] = {
-									["uptime"] = 17,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
+							["uptime"] = 10,
 						},
 					},
-					["totaldamage"] = 638411,
-					["time"] = 77.09000000000003,
-					["totaldamagetaken"] = 12090,
-					["damage"] = 638411,
-					["overheal"] = 55835,
-					["damagetaken"] = 3389,
-					["id"] = "0x0700000000005962",
-					["spec"] = 250,
-					["healspells"] = {
-						[53365] = {
-							["overheal"] = 8325,
-							["criticalamount"] = 0,
-							["max"] = 488,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 8325,
-									["amount"] = 854,
-								},
-							},
-							["min"] = 366,
-							["criticalmax"] = 0,
-							["count"] = 7,
-							["amount"] = 854,
-							["school"] = 1,
-							["criticalmin"] = 0,
-							["critical"] = 2,
-						},
-						[50454] = {
-							["overheal"] = 15498,
-							["count"] = 46,
-							["amount"] = 0,
-							["school"] = 32,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 15498,
-									["amount"] = 0,
-								},
-							},
-						},
-						[45470] = {
-							["overheal"] = 17628,
-							["casts"] = 5,
-							["count"] = 4,
-							["amount"] = 732,
-							["max"] = 732,
-							["min"] = 732,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 17628,
-									["amount"] = 732,
-								},
-							},
-							["school"] = 1,
-						},
-						[50475] = {
-							["overheal"] = 14384,
-							["max"] = 699,
-							["count"] = 60,
-							["amount"] = 6076,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 14384,
-									["amount"] = 6076,
-								},
-							},
-							["min"] = 77,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["PARRY"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Spiritual Reflection"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6603,
-						},
-						["Shared Suffering"] = {
-							["total"] = 2445,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Marwyn"] = {
-									["total"] = 2445,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72373,
-						},
-						["Flamestrike"] = {
-							["total"] = 4407,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 4407,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72170,
-						},
-						["Flamestrike (DoT)"] = {
-							["total"] = 5238,
-							["hitmin"] = 1643,
-							["id"] = 72170,
-							["hitmax"] = 1746,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 5238,
-									["amount"] = 3389,
-								},
-							},
-							["count"] = 3,
-							["ABSORB"] = 1,
-							["school"] = 4,
-							["amount"] = 3389,
-							["hit"] = 2,
-							["hitamount"] = 3389,
-						},
-						["Baleful Strike"] = {
-							["PARRY"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Spiritual Reflection"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 70400,
-						},
-					},
-					["heal"] = 7662,
-					["name"] = "Xenaprincesa",
-					["runicspells"] = {
-						[50422] = 20,
-						[50163] = 40,
-						[45529] = 10,
-					},
-					["overkill"] = 199,
-					["runic"] = 70,
+					["totaldamage"] = 319924,
+					["time"] = 37.52999999999999,
+					["totaldamagetaken"] = 14211,
+					["damage"] = 319924,
 					["damagespells"] = {
-						["Blood-Caked Strike (Rune Weapon)"] = {
-							["hitmin"] = 472,
-							["id"] = 50463,
+						["Melee"] = {
+							["glance"] = 4088,
+							["hitmin"] = 4824,
+							["criticalmin"] = 9436,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 1416,
+								["Phantom Mage"] = {
+									["amount"] = 16397,
 								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 472,
-							["amount"] = 1416,
-							["hitamount"] = 1416,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 759,
-							["id"] = 71904,
-							["targets"] = {
 								["Tortured Rifleman"] = {
-									["amount"] = 783,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 808,
+									["amount"] = 10147,
 								},
 								["Spectral Footman"] = {
-									["amount"] = 796,
+									["amount"] = 18529,
 								},
-								["Marwyn"] = {
-									["amount"] = 3063,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 3340,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 759,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 3340,
-							["amount"] = 9549,
-							["hitamount"] = 9549,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 3088,
-							["id"] = 47632,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 10115,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 6533,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 3088,
-								},
-							},
-							["hitmax"] = 3514,
-							["casts"] = 4,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["resisted"] = 1171,
-							["amount"] = 19736,
-							["hitamount"] = 19736,
-						},
-						["Melee (Bloodworm)"] = {
-							["glance"] = 709,
-							["hitmin"] = 133,
-							["criticalmin"] = 272,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 2655,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 3500,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 808,
-								},
-							},
-							["glancing"] = 5,
-							["amount"] = 6963,
-							["glancemin"] = 133,
-							["criticalamount"] = 860,
-							["id"] = 6603,
-							["glancemax"] = 155,
-							["criticalmax"] = 316,
-							["hitmax"] = 158,
-							["hit"] = 38,
-							["school"] = 1,
-							["critical"] = 3,
-							["count"] = 46,
-							["hitamount"] = 5394,
-						},
-						["Heart Strike"] = {
-							["DODGE"] = 1,
-							["criticalmin"] = 6171,
-							["hitmin"] = 1945,
-							["criticalamount"] = 132404,
-							["id"] = 55262,
-							["hitmax"] = 6248,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 10548,
-								},
-								["Marwyn"] = {
-									["amount"] = 87032,
-								},
-								["Spiritual Reflection"] = {
-									["overkill"] = 199,
-									["amount"] = 20370,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 8982,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 56079,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 2323,
-								},
-							},
-							["overkill"] = 199,
-							["hit"] = 12,
-							["casts"] = 18,
-							["count"] = 23,
-							["amount"] = 185334,
-							["school"] = 1,
-							["critical"] = 10,
-							["criticalmax"] = 17542,
-							["hitamount"] = 52930,
-						},
-						["Death Strike"] = {
-							["hitmin"] = 8135,
-							["criticalamount"] = 49087,
-							["id"] = 49924,
-							["criticalmin"] = 15109,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 25794,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 16319,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 15109,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 8,
-							["hitmax"] = 8135,
-							["amount"] = 57222,
-							["school"] = 1,
-							["critical"] = 3,
-							["criticalmax"] = 17659,
-							["hitamount"] = 8135,
-						},
-						["Death Strike (Rune Weapon)"] = {
-							["criticalamount"] = 6585,
-							["id"] = 49924,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 6585,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 6585,
-							["school"] = 1,
-							["criticalmin"] = 6585,
-							["criticalmax"] = 6585,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["glance"] = 4354,
-							["hitmin"] = 4413,
-							["criticalmin"] = 8812,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 17927,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 14579,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 5286,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 52679,
-								},
-								["Marwyn"] = {
-									["amount"] = 83318,
+								["Shadowy Mercenary"] = {
+									["amount"] = 26007,
 								},
 							},
 							["glancing"] = 1,
-							["amount"] = 173789,
-							["glancemin"] = 4354,
-							["criticalamount"] = 121109,
+							["amount"] = 71080,
+							["glancemin"] = 4088,
+							["criticalamount"] = 40328,
 							["id"] = 6603,
-							["glancemax"] = 4354,
-							["criticalmax"] = 13130,
-							["hitmax"] = 6175,
-							["hit"] = 9,
+							["glancemax"] = 4088,
+							["criticalmax"] = 10419,
+							["critical"] = 4,
+							["hit"] = 5,
 							["school"] = 1,
-							["critical"] = 11,
-							["count"] = 21,
-							["hitamount"] = 48326,
+							["hitmax"] = 5894,
+							["count"] = 10,
+							["hitamount"] = 26664,
 						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 2000,
-							["id"] = 50463,
+						["Chaos Bane"] = {
+							["hitmin"] = 522,
+							["id"] = 71904,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 14883,
+								["Ghostly Priest"] = {
+									["amount"] = 1287,
 								},
-								["Frostsworn General"] = {
-									["amount"] = 4985,
+								["Shadowy Mercenary"] = {
+									["amount"] = 1371,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 1319,
 								},
 								["Phantom Mage"] = {
-									["amount"] = 2000,
+									["amount"] = 1306,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 545,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 32,
+							["hitmax"] = 766,
+							["amount"] = 5828,
+							["hitamount"] = 5828,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1466,
+							["criticalamount"] = 3071,
+							["id"] = 49909,
+							["criticalmin"] = 3071,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 1466,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3071,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4537,
+							["criticalmax"] = 3071,
+							["hitmax"] = 1466,
+							["hit"] = 1,
+							["school"] = 16,
+							["critical"] = 1,
+							["casts"] = 2,
+							["hitamount"] = 1466,
+						},
+						["Melee (Bloodworm)"] = {
+							["glance"] = 405,
+							["hitmin"] = 133,
+							["criticalmin"] = 266,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 2959,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 536,
+								},
+							},
+							["glancing"] = 3,
+							["amount"] = 3495,
+							["glancemin"] = 133,
+							["criticalamount"] = 538,
+							["id"] = 6603,
+							["glancemax"] = 136,
+							["criticalmax"] = 272,
+							["hitmax"] = 136,
+							["hit"] = 19,
+							["school"] = 1,
+							["critical"] = 2,
+							["count"] = 24,
+							["hitamount"] = 2552,
+						},
+						["Necrosis"] = {
+							["hitmin"] = 817,
+							["id"] = 51460,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 3277,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 2704,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 5200,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 8,
 							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 3134,
-							["amount"] = 21868,
-							["hitamount"] = 21868,
-						},
-						["Death Coil (Rune Weapon)"] = {
-							["criticalmin"] = 2349,
-							["hitmin"] = 1174,
-							["criticalamount"] = 2349,
-							["id"] = 47632,
-							["critical"] = 1,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 3523,
-								},
-							},
-							["hitmax"] = 1174,
-							["hit"] = 1,
-							["criticalmax"] = 2349,
-							["count"] = 2,
-							["amount"] = 3523,
 							["school"] = 32,
-							["resisted"] = 390,
-							["casts"] = 1,
-							["hitamount"] = 1174,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 696,
-							["id"] = 51460,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 2702,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 2915,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 1057,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 10533,
-								},
-								["Marwyn"] = {
-									["amount"] = 16149,
-								},
-							},
-							["hitmax"] = 2626,
-							["casts"] = 1,
-							["count"] = 20,
-							["hit"] = 20,
-							["school"] = 32,
-							["resisted"] = 511,
-							["amount"] = 33356,
-							["hitamount"] = 33356,
+							["hitmax"] = 2083,
+							["amount"] = 11181,
+							["hitamount"] = 11181,
 						},
 						["Blood Plague (DoT)"] = {
-							["hitmin"] = 771,
+							["hitmin"] = 1154,
 							["id"] = 55078,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 9473,
+								["Ghostly Priest"] = {
+									["amount"] = 8209,
 								},
-								["Frostsworn General"] = {
-									["amount"] = 4580,
+								["Shadowy Mercenary"] = {
+									["amount"] = 6108,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 5806,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 8214,
+									["overkill"] = 51,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 4653,
 								},
 							},
-							["hitmax"] = 1468,
-							["count"] = 12,
-							["hit"] = 12,
+							["overkill"] = 51,
+							["count"] = 24,
+							["hit"] = 24,
 							["school"] = 32,
-							["resisted"] = 732,
-							["amount"] = 14053,
-							["hitamount"] = 14053,
+							["hitmax"] = 1574,
+							["amount"] = 32990,
+							["hitamount"] = 32990,
 						},
-						["Melee (Rune Weapon)"] = {
-							["glance"] = 3022,
-							["hitmin"] = 1889,
-							["criticalmin"] = 3778,
+						["Heart Strike"] = {
+							["criticalmin"] = 6668,
+							["hitmin"] = 2482,
+							["criticalamount"] = 91029,
+							["id"] = 55262,
+							["count"] = 15,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 14359,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 14359,
-							["glancemin"] = 1511,
-							["criticalamount"] = 7558,
-							["id"] = 6603,
-							["glancemax"] = 1511,
-							["criticalmax"] = 3780,
-							["hitmax"] = 1890,
-							["hit"] = 2,
-							["school"] = 1,
-							["critical"] = 2,
-							["count"] = 6,
-							["hitamount"] = 3779,
-						},
-						["Icy Touch"] = {
-							["criticalmin"] = 3044,
-							["hitmin"] = 1685,
-							["criticalamount"] = 7324,
-							["id"] = 49909,
-							["critical"] = 2,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 1831,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 4280,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 3044,
-								},
 								["Ghostly Priest"] = {
-									["amount"] = 1685,
+									["amount"] = 23693,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 54572,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 9392,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 28493,
+									["overkill"] = 8609,
 								},
 							},
-							["hitmax"] = 1831,
-							["hit"] = 2,
-							["criticalmax"] = 4280,
-							["count"] = 4,
-							["amount"] = 10840,
-							["school"] = 16,
-							["resisted"] = 203,
-							["casts"] = 4,
-							["hitamount"] = 3516,
-						},
-						["Plague Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2303,
-							["criticalamount"] = 12456,
-							["id"] = 49921,
-							["criticalmin"] = 5721,
-							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 5721,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 6735,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 2303,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 4,
-							["hitmax"] = 2303,
-							["amount"] = 14759,
+							["overkill"] = 8609,
+							["amount"] = 116150,
+							["criticalmax"] = 14899,
+							["hitmax"] = 5410,
+							["hit"] = 6,
 							["school"] = 1,
-							["critical"] = 2,
-							["criticalmax"] = 6735,
-							["hitamount"] = 2303,
+							["critical"] = 9,
+							["casts"] = 8,
+							["hitamount"] = 25121,
 						},
 						["Frost Fever (DoT)"] = {
-							["hitmin"] = 756,
+							["hitmin"] = 1142,
 							["id"] = 55095,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 2242,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 3412,
+									["amount"] = 8204,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 4485,
+									["amount"] = 7489,
 								},
 								["Spectral Footman"] = {
-									["amount"] = 5608,
+									["amount"] = 5757,
 								},
-								["Marwyn"] = {
-									["amount"] = 12219,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 5601,
+								["Phantom Mage"] = {
+									["amount"] = 6611,
 								},
 								["Tortured Rifleman"] = {
-									["amount"] = 5608,
+									["amount"] = 4650,
 								},
 							},
-							["hitmax"] = 1639,
-							["count"] = 34,
-							["hit"] = 34,
+							["count"] = 24,
+							["hit"] = 24,
 							["school"] = 16,
-							["resisted"] = 468,
-							["amount"] = 39175,
-							["hitamount"] = 39175,
+							["hitmax"] = 1562,
+							["amount"] = 32711,
+							["hitamount"] = 32711,
 						},
-						["Heart Strike (Rune Weapon)"] = {
-							["hitmin"] = 2195,
-							["criticalamount"] = 21494,
-							["id"] = 55262,
-							["criticalmin"] = 5370,
+						["Plague Strike"] = {
+							["hitmin"] = 2419,
+							["id"] = 49921,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 25884,
+								["Spectral Footman"] = {
+									["amount"] = 2419,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2488,
 								},
 							},
-							["count"] = 6,
+							["casts"] = 2,
+							["count"] = 2,
 							["hit"] = 2,
-							["casts"] = 1,
-							["hitmax"] = 2195,
-							["amount"] = 25884,
 							["school"] = 1,
-							["critical"] = 4,
-							["criticalmax"] = 5377,
-							["hitamount"] = 4390,
+							["hitmax"] = 2488,
+							["amount"] = 4907,
+							["hitamount"] = 4907,
+						},
+						["Death Strike"] = {
+							["criticalamount"] = 16725,
+							["hitmin"] = 6545,
+							["criticalmin"] = 16725,
+							["id"] = 49924,
+							["count"] = 2,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 6545,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 16725,
+									["overkill"] = 12628,
+								},
+							},
+							["overkill"] = 12628,
+							["amount"] = 23270,
+							["criticalmax"] = 16725,
+							["hitmax"] = 6545,
+							["hit"] = 1,
+							["school"] = 1,
+							["critical"] = 1,
+							["casts"] = 3,
+							["hitamount"] = 6545,
+						},
+						["Death Coil"] = {
+							["criticalmin"] = 7009,
+							["hitmin"] = 3354,
+							["criticalamount"] = 7009,
+							["id"] = 47632,
+							["count"] = 3,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 10363,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3412,
+									["overkill"] = 3304,
+								},
+							},
+							["overkill"] = 3304,
+							["amount"] = 13775,
+							["criticalmax"] = 7009,
+							["hitmax"] = 3412,
+							["hit"] = 2,
+							["school"] = 32,
+							["critical"] = 1,
+							["casts"] = 1,
+							["hitamount"] = 6766,
 						},
 					},
+					["damagetaken"] = 10769,
+					["id"] = "0x0700000000005962",
+					["spec"] = 250,
+					["healspells"] = {
+						[53365] = {
+							["overheal"] = 4284,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 4284,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["critical"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["criticalmin"] = 0,
+							["count"] = 3,
+						},
+						[50454] = {
+							["overheal"] = 7782,
+							["count"] = 24,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 7782,
+									["amount"] = 0,
+								},
+							},
+						},
+						[45470] = {
+							["overheal"] = 12240,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 12240,
+									["amount"] = 0,
+								},
+							},
+						},
+						[50475] = {
+							["overheal"] = 5749,
+							["min"] = 253,
+							["count"] = 33,
+							["amount"] = 3320,
+							["max"] = 662,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 5749,
+									["amount"] = 3320,
+								},
+							},
+							["ishot"] = true,
+							["school"] = 1,
+						},
+					},
+					["overkill"] = 24592,
+					["heal"] = 3320,
+					["name"] = "Xenaprincesa",
 					["role"] = "DAMAGER",
+					["overheal"] = 30055,
+					["runic"] = 80,
+					["damagetakenspells"] = {
+						["Circle of Destruction"] = {
+							["hitmin"] = 3226,
+							["id"] = 72323,
+							["sources"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 3226,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3226,
+							["amount"] = 3226,
+							["hitamount"] = 3226,
+						},
+						["Melee"] = {
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 1,
+							["ABSORB"] = 2,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 0,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 0,
+									["total"] = 3442,
+								},
+							},
+							["total"] = 3442,
+						},
+						["Flamestrike (DoT)"] = {
+							["hitmin"] = 1746,
+							["id"] = 72170,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 1746,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 1746,
+							["amount"] = 1746,
+							["hitamount"] = 1746,
+						},
+						["Flamestrike"] = {
+							["hitmin"] = 4099,
+							["id"] = 72170,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 4099,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 4099,
+							["amount"] = 4099,
+							["hitamount"] = 4099,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 1698,
+							["id"] = 72319,
+							["count"] = 1,
+							["sources"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 1698,
+								},
+							},
+							["hitmax"] = 1698,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 727,
+							["amount"] = 1698,
+							["hitamount"] = 1698,
+						},
+					},
+					["runicspells"] = {
+						[50163] = 80,
+					},
 				}, -- [4]
 				{
-					["last"] = 13125.647,
+					["last"] = 13008.78,
 					["flag"] = 1298,
-					["mana"] = 15761,
+					["class"] = "PALADIN",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[73422] = {
 							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 4,
-							["uptime"] = 37,
+							["count"] = 2,
+							["uptime"] = 20,
 						},
 						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[20053] = {
+							["uptime"] = 53,
 							["type"] = "BUFF",
-							["refresh"] = 37,
 							["count"] = 1,
-							["uptime"] = 108,
+							["refresh"] = 19,
 						},
 						[61840] = {
 							["type"] = "DEBUFF",
-							["count"] = 12,
+							["count"] = 9,
 							["school"] = 2,
-							["refresh"] = 10,
+							["refresh"] = 5,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 9,
-								},
-								["Spiritual Reflection"] = {
-									["refresh"] = 1,
-									["count"] = 3,
-									["uptime"] = 5,
+								["Phantom Mage"] = {
+									["uptime"] = 8,
+									["count"] = 2,
 								},
 								["Shadowy Mercenary"] = {
-									["uptime"] = 8,
+									["uptime"] = 11,
 									["count"] = 2,
 								},
 								["Spectral Footman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 12,
-								},
-								["Marwyn"] = {
-									["refresh"] = 6,
-									["count"] = 1,
-									["uptime"] = 19,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 8,
+									["uptime"] = 6,
 									["count"] = 2,
 								},
-								["Phantom Mage"] = {
-									["refresh"] = 1,
+								["Ghostly Priest"] = {
+									["refresh"] = 5,
+									["count"] = 2,
+									["uptime"] = 19,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 8,
 									["count"] = 1,
-									["uptime"] = 10,
 								},
 							},
-							["uptime"] = 49,
+							["uptime"] = 28,
 						},
-						[20184] = {
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 53,
+						},
+						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
 							["school"] = 2,
-							["refresh"] = 1,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Marwyn"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[59578] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["refresh"] = 22,
-							["uptime"] = 95,
-						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 2,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
 								["Spectral Footman"] = {
 									["uptime"] = 5,
 									["count"] = 1,
 								},
-								["Marwyn"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 2,
+								["Ghostly Priest"] = {
+									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 13,
+							["uptime"] = 8,
+						},
+						[20186] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 2,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["uptime"] = 7,
+									["count"] = 2,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 11,
+									["count"] = 2,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 7,
+									["count"] = 2,
+								},
+								["Ghostly Priest"] = {
+									["uptime"] = 12,
+									["count"] = 2,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 15,
 						},
 						[54428] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 16,
 						},
-						[15359] = {
+						[67773] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
 						},
 						[54499] = {
 							["type"] = "DEBUFF",
-							["count"] = 7,
+							["count"] = 4,
 							["school"] = 2,
-							["refresh"] = 1,
 							["targets"] = {
 								["Ghostly Priest"] = {
+									["uptime"] = 7,
+									["count"] = 2,
+								},
+								["Spectral Footman"] = {
 									["uptime"] = 5,
 									["count"] = 1,
 								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 2,
+								["Shadowy Mercenary"] = {
+									["uptime"] = 5,
 									["count"] = 1,
 								},
-								["Frostsworn General"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-								["Marwyn"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 10,
-								},
 							},
-							["uptime"] = 25,
+							["uptime"] = 17,
 						},
 						[71187] = {
 							["type"] = "BUFF",
-							["count"] = 4,
+							["count"] = 3,
 							["school"] = 8,
-							["refresh"] = 8,
-							["uptime"] = 88,
+							["refresh"] = 3,
+							["uptime"] = 43,
 						},
 						[72412] = {
 							["school"] = 1,
@@ -12090,42 +15700,42 @@ SkadaStorageDB = {
 						},
 						[59620] = {
 							["type"] = "BUFF",
-							["count"] = 4,
+							["count"] = 2,
 							["school"] = 2,
 							["refresh"] = 1,
-							["uptime"] = 51,
+							["uptime"] = 36,
 						},
 						[57669] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 45,
 						},
 						[31801] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[67018] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[71432] = {
 							["type"] = "BUFF",
-							["count"] = 11,
+							["count"] = 5,
 							["school"] = 1,
-							["refresh"] = 36,
-							["uptime"] = 84,
+							["refresh"] = 14,
+							["uptime"] = 53,
 						},
 						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48111] = {
 							["school"] = 2,
@@ -12136,798 +15746,622 @@ SkadaStorageDB = {
 						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[71905] = {
 							["type"] = "BUFF",
-							["count"] = 4,
+							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 19,
-							["uptime"] = 60,
+							["refresh"] = 9,
+							["uptime"] = 7,
 						},
 						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48066] = {
-							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 1,
 							["uptime"] = 34,
 						},
 						[47753] = {
 							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 13,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["targets"] = {
-								["Marwyn"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Frostsworn General"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-								["Spiritual Reflection"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[31884] = {
-							["school"] = 2,
-							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 20,
+							["uptime"] = 12,
 						},
 						[25899] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
-						[67773] = {
+						[31803] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
 							["school"] = 2,
+							["refresh"] = 5,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["refresh"] = 3,
+									["count"] = 2,
+									["uptime"] = 12,
+								},
+								["Spectral Footman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 5,
+								},
+								["Shadowy Mercenary"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[59578] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["uptime"] = 30,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 47,
 						},
-						[63944] = {
+						[57102] = {
 							["type"] = "BUFF",
-							["refresh"] = 3,
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 108,
+							["uptime"] = 53,
 						},
-						[57623] = {
+						[63944] = {
+							["uptime"] = 53,
 							["type"] = "BUFF",
-							["refresh"] = 3,
 							["count"] = 1,
-							["uptime"] = 108,
+							["refresh"] = 2,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 53,
 						},
 						[47930] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
-							["refresh"] = 3,
-							["uptime"] = 11,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 108,
-						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 2,
-							["refresh"] = 13,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 4,
-								},
-								["Phantom Mage"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-								["Spiritual Reflection"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 4,
-								},
-								["Frostsworn General"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 12,
-								},
-								["Marwyn"] = {
-									["refresh"] = 7,
-									["count"] = 1,
-									["uptime"] = 22,
-								},
-							},
-							["uptime"] = 48,
+							["refresh"] = 5,
+							["uptime"] = 16,
 						},
 					},
-					["totaldamage"] = 569677,
-					["time"] = 78.32999999999998,
-					["totaldamagetaken"] = 40706,
-					["damage"] = 569677,
+					["totaldamage"] = 322868,
+					["time"] = 34.39,
+					["totaldamagetaken"] = 34775,
+					["damage"] = 322868,
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
-							["hitmin"] = 727,
+							["hitmin"] = 681,
 							["id"] = 48819,
 							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 3330,
+								["Phantom Mage"] = {
+									["amount"] = 6982,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 2515,
+									["amount"] = 10479,
 								},
 								["Spectral Footman"] = {
-									["amount"] = 3330,
+									["amount"] = 6966,
 								},
-								["Marwyn"] = {
-									["amount"] = 7604,
+								["Ghostly Priest"] = {
+									["amount"] = 11044,
 								},
-								["Phantom Mage"] = {
-									["amount"] = 875,
+								["Tortured Rifleman"] = {
+									["amount"] = 4445,
 								},
 							},
-							["hitmax"] = 1044,
 							["casts"] = 2,
-							["count"] = 20,
-							["hit"] = 20,
+							["count"] = 46,
+							["hit"] = 46,
 							["school"] = 2,
-							["resisted"] = 52,
-							["amount"] = 17654,
-							["hitamount"] = 17654,
+							["hitmax"] = 971,
+							["amount"] = 39916,
+							["hitamount"] = 39916,
 						},
 						["Exorcism"] = {
-							["hitmin"] = 4813,
-							["criticalamount"] = 19143,
+							["criticalamount"] = 8613,
 							["id"] = 48801,
-							["criticalmin"] = 7698,
 							["targets"] = {
-								["Marwyn"] = {
-									["amount"] = 11445,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 4813,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 7698,
+								["Spectral Footman"] = {
+									["amount"] = 8613,
+									["overkill"] = 2813,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
-							["hitmax"] = 4813,
-							["amount"] = 23956,
+							["overkill"] = 2813,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 8613,
 							["school"] = 2,
-							["critical"] = 2,
-							["criticalmax"] = 11445,
-							["hitamount"] = 4813,
+							["count"] = 1,
+							["criticalmax"] = 8613,
+							["criticalmin"] = 8613,
 						},
 						["Judgement of Vengeance"] = {
-							["criticalmin"] = 7790,
-							["count"] = 8,
-							["hitmin"] = 3453,
-							["criticalamount"] = 38052,
+							["hitmin"] = 4879,
+							["criticalamount"] = 27637,
 							["id"] = 31804,
-							["hitmax"] = 6580,
+							["criticalmin"] = 7790,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 7790,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 4063,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 3453,
-								},
-								["Frostsworn General"] = {
-									["overkill"] = 6528,
-									["amount"] = 17316,
-								},
-								["Marwyn"] = {
-									["amount"] = 29566,
-								},
-							},
-							["overkill"] = 6528,
-							["hit"] = 5,
-							["casts"] = 1,
-							["critical"] = 3,
-							["amount"] = 62188,
-							["school"] = 2,
-							["resisted"] = 1605,
-							["criticalmax"] = 16596,
-							["hitamount"] = 24136,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 459,
-							["id"] = 71904,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 513,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 538,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 2199,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 512,
+									["amount"] = 16936,
 								},
 								["Spectral Footman"] = {
-									["amount"] = 515,
+									["amount"] = 7790,
 								},
-								["Marwyn"] = {
-									["amount"] = 2979,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 2212,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 459,
+								["Shadowy Mercenary"] = {
+									["amount"] = 7790,
 								},
 							},
+							["criticalmax"] = 12057,
+							["critical"] = 3,
 							["casts"] = 1,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 32,
-							["hitmax"] = 2979,
-							["amount"] = 9927,
-							["hitamount"] = 9927,
-						},
-						["Manifest Anger"] = {
-							["hitmin"] = 1483,
-							["criticalamount"] = 15173,
-							["id"] = 71433,
-							["criticalmin"] = 3458,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 5050,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 3619,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 1759,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 3458,
-								},
-								["Marwyn"] = {
-									["amount"] = 10275,
-								},
-							},
-							["criticalmax"] = 4529,
-							["hitmax"] = 2190,
-							["casts"] = 1,
-							["critical"] = 4,
-							["hit"] = 5,
-							["school"] = 1,
-							["amount"] = 24161,
-							["count"] = 9,
-							["hitamount"] = 8988,
-						},
-						["Retribution Aura"] = {
-							["hitmin"] = 348,
-							["id"] = 54043,
-							["targets"] = {
-								["Spiritual Reflection"] = {
-									["amount"] = 348,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
+							["count"] = 4,
 							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 348,
-							["amount"] = 348,
-							["hitamount"] = 348,
+							["amount"] = 32516,
+							["hitmax"] = 4879,
+							["hitamount"] = 4879,
 						},
-						["Hammer of Wrath"] = {
-							["criticalamount"] = 18335,
-							["id"] = 48806,
+						["Chaos Bane"] = {
+							["hitmin"] = 450,
+							["id"] = 71904,
 							["targets"] = {
-								["Phantom Mage"] = {
-									["overkill"] = 313,
-									["amount"] = 8946,
+								["Ghostly Priest"] = {
+									["amount"] = 1100,
 								},
-								["Marwyn"] = {
-									["amount"] = 9389,
+								["Shadowy Mercenary"] = {
+									["amount"] = 1196,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 1152,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 1095,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 450,
 								},
 							},
-							["overkill"] = 313,
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 18335,
+							["casts"] = 1,
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 32,
+							["hitmax"] = 680,
+							["amount"] = 4993,
+							["hitamount"] = 4993,
+						},
+						["Manifest Anger"] = {
+							["hitmin"] = 1713,
+							["criticalamount"] = 9635,
+							["id"] = 71433,
+							["criticalmin"] = 3036,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 4926,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 3386,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3036,
+								},
+							},
+							["criticalmax"] = 3386,
+							["critical"] = 3,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 11348,
+							["hitmax"] = 1713,
+							["hitamount"] = 1713,
+						},
+						["Retribution Aura"] = {
+							["hitmin"] = 335,
+							["id"] = 54043,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 336,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 402,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 679,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 389,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
 							["school"] = 2,
-							["criticalmin"] = 8946,
-							["criticalmax"] = 9389,
+							["hitmax"] = 402,
+							["amount"] = 1806,
+							["hitamount"] = 1806,
+						},
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 18587,
+							["id"] = 48806,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 8932,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 9655,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 18587,
+							["school"] = 2,
 							["count"] = 2,
+							["criticalmax"] = 9655,
+							["criticalmin"] = 8932,
+						},
+						["Divine Storm"] = {
+							["criticalmin"] = 7543,
+							["hitmin"] = 3653,
+							["criticalamount"] = 85137,
+							["id"] = 53385,
+							["count"] = 16,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 21098,
+									["overkill"] = 6926,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 20106,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 12362,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 43031,
+									["overkill"] = 17316,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 12908,
+								},
+							},
+							["overkill"] = 24242,
+							["amount"] = 109505,
+							["criticalmax"] = 9249,
+							["hitmax"] = 4607,
+							["hit"] = 6,
+							["school"] = 1,
+							["critical"] = 10,
+							["casts"] = 5,
+							["hitamount"] = 24368,
+						},
+						["Melee"] = {
+							["glance"] = 3427,
+							["hitmin"] = 2971,
+							["criticalmin"] = 6068,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 27487,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 9039,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 6745,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 43271,
+							["glancemin"] = 3427,
+							["criticalamount"] = 26595,
+							["id"] = 6603,
+							["glancemax"] = 3427,
+							["criticalmax"] = 7492,
+							["critical"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["count"] = 9,
+							["hitmax"] = 3735,
+							["hitamount"] = 13249,
 						},
 						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 496,
+							["hitmin"] = 468,
 							["id"] = 31803,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 992,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 496,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 797,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 4975,
-								},
-								["Marwyn"] = {
-									["amount"] = 14953,
-								},
-							},
-							["hitmax"] = 2990,
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 2,
-							["resisted"] = 66,
-							["amount"] = 22213,
-							["hitamount"] = 22213,
-						},
-						["Divine Storm"] = {
-							["criticalamount"] = 110842,
-							["hitmin"] = 3786,
-							["criticalmin"] = 7436,
-							["id"] = 53385,
-							["criticalmax"] = 10858,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 20281,
-								},
-								["Marwyn"] = {
-									["amount"] = 29294,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 16067,
+									["amount"] = 2210,
 								},
 								["Spectral Footman"] = {
-									["amount"] = 20418,
-								},
-								["Spiritual Reflection"] = {
-									["overkill"] = 2992,
-									["amount"] = 28360,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 12797,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 15768,
-								},
-							},
-							["overkill"] = 2992,
-							["hitmax"] = 4196,
-							["casts"] = 10,
-							["critical"] = 13,
-							["hit"] = 8,
-							["school"] = 1,
-							["amount"] = 142985,
-							["count"] = 21,
-							["hitamount"] = 32143,
-						},
-						["Melee"] = {
-							["glance"] = 9867,
-							["hitmin"] = 2807,
-							["criticalmin"] = 6567,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 10032,
+									["amount"] = 468,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 3364,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 9665,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 5671,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 25326,
-								},
-								["Marwyn"] = {
-									["amount"] = 43945,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 98003,
-							["glancemin"] = 3064,
-							["criticalamount"] = 64826,
-							["id"] = 6603,
-							["glancemax"] = 3535,
-							["criticalmax"] = 8013,
-							["hitmax"] = 4199,
-							["hit"] = 7,
-							["school"] = 1,
-							["critical"] = 9,
-							["count"] = 19,
-							["hitamount"] = 23310,
-						},
-						["Crusader Strike"] = {
-							["hitmin"] = 2811,
-							["criticalamount"] = 37216,
-							["id"] = 35395,
-							["criticalmin"] = 5207,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 2811,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 5269,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 5409,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 8241,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 6038,
-								},
-								["Marwyn"] = {
-									["amount"] = 24539,
-								},
-							},
-							["criticalmax"] = 7782,
-							["hitmax"] = 3208,
-							["casts"] = 11,
-							["critical"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
-							["amount"] = 52307,
-							["count"] = 11,
-							["hitamount"] = 15091,
-						},
-						["Righteous Vengeance (DoT)"] = {
-							["hitmin"] = 580,
-							["id"] = 61840,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 1203,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 2572,
-								},
-								["Spiritual Reflection"] = {
-									["overkill"] = 368,
-									["amount"] = 1629,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2496,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 4081,
-								},
-								["Marwyn"] = {
-									["amount"] = 13636,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 2744,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 5092,
-								},
-							},
-							["overkill"] = 368,
-							["hitmax"] = 3667,
-							["count"] = 30,
-							["hit"] = 30,
-							["school"] = 2,
-							["resisted"] = 193,
-							["amount"] = 33453,
-							["hitamount"] = 33453,
-						},
-						["Seal of Vengeance"] = {
-							["criticalamount"] = 32802,
-							["hitmax"] = 2970,
-							["hitmin"] = 392,
-							["criticalmin"] = 846,
-							["id"] = 42463,
-							["criticalmax"] = 5825,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 3426,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 2146,
-								},
-								["Spiritual Reflection"] = {
-									["amount"] = 1664,
-								},
-								["Frostsworn General"] = {
-									["amount"] = 13323,
-								},
-								["Marwyn"] = {
-									["amount"] = 43588,
-								},
-							},
-							["critical"] = 12,
-							["blocked"] = 80,
-							["casts"] = 1,
-							["count"] = 36,
-							["hit"] = 24,
-							["school"] = 2,
-							["resisted"] = 529,
-							["amount"] = 64147,
-							["hitamount"] = 31345,
-						},
-					},
-					["damagetaken"] = 30971,
-					["id"] = "0x07000000000AA847",
-					["spec"] = 70,
-					["healspells"] = {
-						[54172] = {
-							["overheal"] = 95,
-							["school"] = 2,
-							["count"] = 3,
-							["amount"] = 8458,
-							["max"] = 5453,
-							["targets"] = {
-								["Giveme"] = {
-									["overheal"] = 39,
-									["amount"] = 7522,
-								},
-								["Niveaboy"] = {
-									["overheal"] = 56,
-									["amount"] = 936,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 936,
-						},
-						[20267] = {
-							["overheal"] = 36941,
-							["school"] = 2,
-							["count"] = 57,
-							["amount"] = 7114,
-							["max"] = 1284,
-							["targets"] = {
-								["Pebblebasher"] = {
-									["overheal"] = 5400,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 6080,
-									["amount"] = 0,
-								},
-								["Guakamole"] = {
-									["overheal"] = 11342,
-									["amount"] = 2785,
-								},
-								["Xenaprincesa"] = {
-									["overheal"] = 6885,
-									["amount"] = 457,
-								},
-								["Bloodworm"] = {
-									["overheal"] = 120,
-									["amount"] = 0,
-								},
-								["Ebon Gargoyle"] = {
-									["overheal"] = 574,
-									["amount"] = 0,
-								},
-								["Rune Weapon"] = {
-									["overheal"] = 318,
-									["amount"] = 0,
-								},
-								["Giveme"] = {
-									["overheal"] = 6222,
-									["amount"] = 3872,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 91,
-						},
-					},
-					["damagetakenspells"] = {
-						["Fireball"] = {
-							["hitmin"] = 6498,
-							["id"] = 72164,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["amount"] = 6498,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 6498,
-							["amount"] = 6498,
-							["hitamount"] = 6498,
-						},
-						["Melee"] = {
-							["hitmin"] = 1449,
-							["id"] = 6603,
-							["sources"] = {
-								["Spiritual Reflection"] = {
-									["amount"] = 1449,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1449,
-							["amount"] = 1449,
-							["hitamount"] = 1449,
-						},
-						["Ice Shot"] = {
-							["hitmin"] = 5551,
-							["id"] = 72269,
-							["sources"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 5551,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 5551,
-							["amount"] = 5551,
-							["hitamount"] = 5551,
-						},
-						["Baleful Strike"] = {
-							["hitmin"] = 3728,
-							["id"] = 70400,
-							["hitmax"] = 3728,
-							["sources"] = {
-								["Spiritual Reflection"] = {
-									["amount"] = 3728,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 931,
-							["amount"] = 3728,
-							["hitamount"] = 3728,
-						},
-						["Ice Spikes"] = {
-							["hitmin"] = 7732,
-							["id"] = 70399,
-							["sources"] = {
-								["Frostsworn General"] = {
-									["amount"] = 7732,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 7732,
-							["amount"] = 7732,
-							["hitamount"] = 7732,
-						},
-						["Flamestrike (DoT)"] = {
-							["total"] = 5238,
-							["hitmin"] = 1746,
-							["id"] = 72170,
-							["hitmax"] = 1746,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 5238,
-									["amount"] = 3492,
-								},
-							},
-							["count"] = 3,
-							["ABSORB"] = 1,
-							["school"] = 4,
-							["amount"] = 3492,
-							["hit"] = 2,
-							["hitamount"] = 3492,
-						},
-						["Flamestrike"] = {
-							["total"] = 3932,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 3932,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72170,
-						},
-						["Envenomed Dagger Throw (DoT)"] = {
-							["total"] = 4133,
-							["hitmin"] = 455,
-							["id"] = 72334,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Shadowy Mercenary"] = {
-									["total"] = 4133,
-									["amount"] = 2521,
+									["amount"] = 1120,
 								},
 							},
 							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 1033,
-							["amount"] = 2521,
-							["hitamount"] = 2521,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 1205,
+							["amount"] = 3798,
+							["hitamount"] = 3798,
 						},
-						["Shared Suffering"] = {
-							["total"] = 2445,
-							["count"] = 1,
+						["Crusader Strike"] = {
+							["hitmin"] = 2709,
+							["criticalamount"] = 5986,
+							["id"] = 35395,
+							["criticalmin"] = 5986,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 12099,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 2709,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2875,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 17683,
+							["criticalmax"] = 5986,
+							["hitmax"] = 3123,
+							["hit"] = 4,
+							["school"] = 1,
+							["critical"] = 1,
+							["casts"] = 5,
+							["hitamount"] = 11697,
+						},
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 582,
+							["id"] = 61840,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 2856,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2416,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 1202,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 5684,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 2562,
+								},
+							},
+							["count"] = 20,
+							["hit"] = 20,
+							["school"] = 2,
+							["hitmax"] = 1927,
+							["amount"] = 14720,
+							["hitamount"] = 14720,
+						},
+						["Seal of Vengeance"] = {
+							["hitmin"] = 454,
+							["criticalamount"] = 11860,
+							["id"] = 42463,
+							["criticalmin"] = 873,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 7686,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 4276,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 4150,
+								},
+							},
+							["criticalmax"] = 2020,
+							["critical"] = 9,
+							["casts"] = 1,
+							["count"] = 16,
+							["hit"] = 7,
+							["school"] = 2,
+							["amount"] = 16112,
+							["hitmax"] = 1110,
+							["hitamount"] = 4252,
+						},
+					},
+					["damagetaken"] = 26508,
+					["id"] = "0x07000000000AA847",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 13933,
+							["count"] = 17,
 							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Marwyn"] = {
-									["total"] = 2445,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Pebblebasher"] = {
+									["overheal"] = 1350,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 1521,
+									["amount"] = 0,
+								},
+								["Guakamole"] = {
+									["overheal"] = 3854,
+									["amount"] = 0,
+								},
+								["Xenaprincesa"] = {
+									["overheal"] = 2448,
+									["amount"] = 0,
+								},
+								["Giveme"] = {
+									["overheal"] = 4740,
+									["amount"] = 0,
+								},
+								["Bloodworm"] = {
+									["overheal"] = 20,
 									["amount"] = 0,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 72373,
+						},
+						[54172] = {
+							["overheal"] = 0,
+							["min"] = 6214,
+							["count"] = 1,
+							["amount"] = 6214,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 0,
+									["amount"] = 6214,
+								},
+							},
+							["max"] = 6214,
 						},
 					},
-					["heal"] = 15572,
+					["overkill"] = 27055,
+					["heal"] = 6214,
 					["name"] = "Giveme",
-					["overheal"] = 37036,
-					["overkill"] = 10201,
-					["class"] = "PALADIN",
-					["manaspells"] = {
-						[31930] = 8784,
-						[57669] = 5462,
-						[54428] = 1515,
-					},
 					["role"] = "DAMAGER",
+					["mana"] = 10102,
+					["manaspells"] = {
+						[57669] = 3465,
+						[20268] = 609,
+						[54428] = 1515,
+						[57319] = 121,
+						[31930] = 4392,
+					},
+					["damagetakenspells"] = {
+						["Shoot"] = {
+							["hitmin"] = 2121,
+							["id"] = 72211,
+							["sources"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 2121,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2121,
+							["amount"] = 2121,
+							["hitamount"] = 2121,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 15018,
+							["hitmin"] = 2377,
+							["id"] = 6603,
+							["count"] = 10,
+							["amount"] = 12440,
+							["sources"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 2429,
+									["total"] = 5007,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 2489,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 5145,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2377,
+								},
+							},
+							["hitmax"] = 2700,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["hit"] = 5,
+							["MISS"] = 3,
+							["hitamount"] = 12440,
+						},
+						["Deadly Poison (DoT)"] = {
+							["total"] = 4132,
+							["hitmin"] = 795,
+							["id"] = 72330,
+							["count"] = 4,
+							["sources"] = {
+								["Shadowy Mercenary"] = {
+									["amount"] = 2861,
+									["total"] = 4132,
+								},
+							},
+							["hitmax"] = 1033,
+							["ABSORB"] = 1,
+							["school"] = 8,
+							["hit"] = 3,
+							["amount"] = 2861,
+							["hitamount"] = 2861,
+						},
+						["Flamestrike"] = {
+							["total"] = 4418,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["id"] = 72170,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 0,
+									["total"] = 4418,
+								},
+							},
+						},
+						["Frostbolt"] = {
+							["hitmin"] = 5476,
+							["id"] = 72167,
+							["sources"] = {
+								["Phantom Mage"] = {
+									["amount"] = 5476,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 5476,
+							["amount"] = 5476,
+							["hitamount"] = 5476,
+						},
+						["Circle of Destruction"] = {
+							["hitmin"] = 3610,
+							["id"] = 72323,
+							["sources"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 3610,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3610,
+							["amount"] = 3610,
+							["hitamount"] = 3610,
+						},
+					},
+					["overheal"] = 13933,
 				}, -- [5]
 			},
-			["absorb"] = 66025,
-			["damagetaken"] = 82655,
-			["type"] = "party",
-			["interrupt"] = 1,
-			["ccdone"] = 5,
-			["starttime"] = 1699798331,
-			["overkill"] = 12395,
-			["edamagetaken"] = 2284254,
-			["heal"] = 87382,
-			["name"] = "Ghostly Priest (2)",
-			["mobname"] = "Ghostly Priest",
-			["damage"] = 2284254,
-			["edamage"] = 82655,
-			["last_action"] = 1699798439,
-			["endtime"] = 1699798439,
-		}, -- [2]
-		{
-			["mana"] = 20047,
-			["overheal"] = 79539,
 			["enemies"] = {
 				{
-					["damagetaken"] = 273926,
 					["name"] = "Spectral Footman",
-					["totaldamagetaken"] = 273926,
-					["id"] = "0xF13000951D00010B",
-					["class"] = "MONSTER",
+					["damagetaken"] = 273926,
 					["flag"] = 68168,
+					["id"] = "0xF13000951D00010B",
+					["totaldamagetaken"] = 273926,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[47632] = {
 							["school"] = 32,
@@ -13043,27 +16477,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8111,
 						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 1508,
-									["amount"] = 2653,
-								},
-							},
-							["overkill"] = 1508,
-							["amount"] = 2653,
-						},
-						[48801] = {
+						[53595] = {
 							["school"] = 2,
 							["sources"] = {
-								["Giveme"] = {
-									["overkill"] = 2813,
-									["amount"] = 8613,
+								["Guakamole"] = {
+									["amount"] = 9273,
 								},
 							},
-							["overkill"] = 2813,
-							["amount"] = 8613,
+							["amount"] = 9273,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 1867,
+								},
+								["Giveme"] = {
+									["amount"] = 468,
+								},
+							},
+							["amount"] = 2335,
 						},
 						[53385] = {
 							["school"] = 1,
@@ -13110,14 +16543,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 204,
 						},
-						[47468] = {
-							["school"] = 1,
+						[48801] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5881,
+								["Giveme"] = {
+									["amount"] = 8613,
+									["overkill"] = 2813,
 								},
 							},
-							["amount"] = 5881,
+							["amount"] = 8613,
+							["overkill"] = 2813,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -13131,29 +16566,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 13741,
 						},
-						[52212] = {
-							["school"] = 32,
+						[42463] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 15879,
-								},
-							},
-							["amount"] = 15879,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 1319,
-								},
-								["Urgash"] = {
-									["amount"] = 791,
+								["Guakamole"] = {
+									["amount"] = 2119,
 								},
 								["Giveme"] = {
-									["amount"] = 1152,
+									["amount"] = 4276,
 								},
 							},
-							["amount"] = 3262,
+							["amount"] = 6395,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 1202,
+								},
+							},
+							["amount"] = 1202,
 						},
 						[49921] = {
 							["school"] = 1,
@@ -13176,47 +16608,49 @@ SkadaStorageDB = {
 							},
 							["amount"] = 10276,
 						},
-						[61840] = {
-							["school"] = 2,
+						[71904] = {
+							["school"] = 32,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 1202,
+								["Xenaprincesa"] = {
+									["amount"] = 1319,
 								},
-							},
-							["amount"] = 1202,
-						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 2119,
+								["Urgash"] = {
+									["amount"] = 791,
 								},
 								["Giveme"] = {
-									["amount"] = 4276,
+									["amount"] = 1152,
 								},
 							},
-							["amount"] = 6395,
+							["amount"] = 3262,
 						},
-						[31803] = {
-							["school"] = 2,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1867,
-								},
-								["Giveme"] = {
-									["amount"] = 468,
+								["Urgash"] = {
+									["amount"] = 15879,
 								},
 							},
-							["amount"] = 2335,
+							["amount"] = 15879,
 						},
-						[53595] = {
-							["school"] = 2,
+						[47468] = {
+							["school"] = 1,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 9273,
+								["Urgash"] = {
+									["amount"] = 5881,
 								},
 							},
-							["amount"] = 9273,
+							["amount"] = 5881,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 2653,
+									["overkill"] = 1508,
+								},
+							},
+							["amount"] = 2653,
+							["overkill"] = 1508,
 						},
 					},
 				}, -- [1]
@@ -13227,12 +16661,12 @@ SkadaStorageDB = {
 							["total"] = 3873,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1295,
 									["amount"] = 0,
+									["total"] = 1295,
 								},
 								["Giveme"] = {
-									["total"] = 5007,
 									["amount"] = 2429,
+									["total"] = 5007,
 								},
 							},
 							["amount"] = 2429,
@@ -13242,8 +16676,8 @@ SkadaStorageDB = {
 							["total"] = 1815,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1815,
 									["amount"] = 0,
+									["total"] = 1815,
 								},
 								["Xenaprincesa"] = {
 									["amount"] = 1698,
@@ -13353,12 +16787,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 17316,
 									["amount"] = 43031,
+									["overkill"] = 17316,
 								},
 							},
-							["overkill"] = 17316,
 							["amount"] = 43031,
+							["overkill"] = 17316,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -13384,14 +16818,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4926,
 						},
-						[31804] = {
-							["school"] = 2,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 16936,
+								["Urgash"] = {
+									["amount"] = 28537,
 								},
 							},
-							["amount"] = 16936,
+							["amount"] = 28537,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -13408,17 +16842,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3480,
 						},
-						[31803] = {
-							["school"] = 2,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 2616,
+								["Xenaprincesa"] = {
+									["amount"] = 8204,
 								},
-								["Giveme"] = {
-									["amount"] = 2210,
+								["Urgash"] = {
+									["amount"] = 9767,
 								},
 							},
-							["amount"] = 4826,
+							["amount"] = 17971,
 						},
 						[54043] = {
 							["school"] = 2,
@@ -13429,14 +16863,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 402,
 						},
-						[50526] = {
-							["school"] = 32,
+						[42463] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 14529,
+								["Guakamole"] = {
+									["amount"] = 361,
+								},
+								["Giveme"] = {
+									["amount"] = 7686,
 								},
 							},
-							["amount"] = 14529,
+							["amount"] = 8047,
 						},
 						[48806] = {
 							["school"] = 2,
@@ -13456,38 +16893,35 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2152,
 						},
-						[42463] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 361,
-								},
-								["Giveme"] = {
-									["amount"] = 7686,
-								},
-							},
-							["amount"] = 8047,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 8204,
-								},
-								["Urgash"] = {
-									["amount"] = 9767,
-								},
-							},
-							["amount"] = 17971,
-						},
-						[52212] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 28537,
+									["amount"] = 14529,
 								},
 							},
-							["amount"] = 28537,
+							["amount"] = 14529,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 2616,
+								},
+								["Giveme"] = {
+									["amount"] = 2210,
+								},
+							},
+							["amount"] = 4826,
+						},
+						[31804] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 16936,
+								},
+							},
+							["amount"] = 16936,
 						},
 					},
 					["totaldamage"] = 20918,
@@ -13503,16 +16937,16 @@ SkadaStorageDB = {
 							["total"] = 9304,
 							["targets"] = {
 								["Xenaprincesa"] = {
-									["total"] = 3442,
 									["amount"] = 0,
+									["total"] = 3442,
 								},
 								["Urgash"] = {
-									["total"] = 4466,
 									["amount"] = 0,
+									["total"] = 4466,
 								},
 								["Guakamole"] = {
-									["total"] = 1396,
 									["amount"] = 0,
+									["total"] = 1396,
 								},
 								["Giveme"] = {
 									["amount"] = 2377,
@@ -13525,8 +16959,8 @@ SkadaStorageDB = {
 							["total"] = 2066,
 							["targets"] = {
 								["Giveme"] = {
-									["total"] = 4132,
 									["amount"] = 2861,
+									["total"] = 4132,
 								},
 							},
 							["amount"] = 2861,
@@ -13540,23 +16974,23 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 3304,
 									["amount"] = 3412,
+									["overkill"] = 3304,
 								},
 							},
-							["overkill"] = 3304,
 							["amount"] = 3412,
+							["overkill"] = 3304,
 						},
 						[55262] = {
 							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 8609,
 									["amount"] = 28493,
+									["overkill"] = 8609,
 								},
 							},
-							["overkill"] = 8609,
 							["amount"] = 28493,
+							["overkill"] = 8609,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -13645,14 +17079,20 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8834,
 						},
-						[50526] = {
+						[71904] = {
 							["school"] = 32,
 							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 1371,
+								},
 								["Urgash"] = {
-									["amount"] = 11003,
+									["amount"] = 1040,
+								},
+								["Giveme"] = {
+									["amount"] = 1196,
 								},
 							},
-							["amount"] = 11003,
+							["amount"] = 3607,
 						},
 						[48827] = {
 							["school"] = 2,
@@ -13699,14 +17139,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3036,
 						},
-						[49930] = {
-							["school"] = 1,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 7489,
+								},
 								["Urgash"] = {
-									["amount"] = 2649,
+									["amount"] = 9289,
 								},
 							},
-							["amount"] = 2649,
+							["amount"] = 16778,
 						},
 						[47468] = {
 							["school"] = 1,
@@ -13726,14 +17169,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 21287,
 						},
-						[35395] = {
-							["school"] = 1,
+						[31804] = {
+							["school"] = 2,
 							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 4088,
+								},
 								["Giveme"] = {
-									["amount"] = 2875,
+									["amount"] = 7790,
 								},
 							},
-							["amount"] = 2875,
+							["amount"] = 11878,
 						},
 						[54043] = {
 							["school"] = 2,
@@ -13777,44 +17223,32 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2098,
 						},
-						[31804] = {
-							["school"] = 2,
+						[35395] = {
+							["school"] = 1,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 4088,
-								},
 								["Giveme"] = {
-									["amount"] = 7790,
+									["amount"] = 2875,
 								},
 							},
-							["amount"] = 11878,
+							["amount"] = 2875,
 						},
-						[55095] = {
-							["school"] = 16,
+						[49930] = {
+							["school"] = 1,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 7489,
-								},
 								["Urgash"] = {
-									["amount"] = 9289,
+									["amount"] = 2649,
 								},
 							},
-							["amount"] = 16778,
+							["amount"] = 2649,
 						},
-						[71904] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 1371,
-								},
 								["Urgash"] = {
-									["amount"] = 1040,
-								},
-								["Giveme"] = {
-									["amount"] = 1196,
+									["amount"] = 11003,
 								},
 							},
-							["amount"] = 3607,
+							["amount"] = 11003,
 						},
 					},
 					["totaldamage"] = 15813,
@@ -13830,30 +17264,21 @@ SkadaStorageDB = {
 							["total"] = 13341,
 							["targets"] = {
 								["Giveme"] = {
-									["total"] = 4418,
 									["amount"] = 0,
+									["total"] = 4418,
 								},
 								["Urgash"] = {
 									["amount"] = 7334,
 								},
 								["Guakamole"] = {
-									["total"] = 6784,
 									["amount"] = 2206,
+									["total"] = 6784,
 								},
 								["Xenaprincesa"] = {
 									["amount"] = 5845,
 								},
 							},
 							["amount"] = 15385,
-						},
-						[72167] = {
-							["school"] = 16,
-							["targets"] = {
-								["Giveme"] = {
-									["amount"] = 5476,
-								},
-							},
-							["amount"] = 5476,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -13866,6 +17291,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 6922,
+						},
+						[72167] = {
+							["school"] = 16,
+							["targets"] = {
+								["Giveme"] = {
+									["amount"] = 5476,
+								},
+							},
+							["amount"] = 5476,
 						},
 					},
 					["damagetaken"] = 271577,
@@ -13897,15 +17331,15 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 51,
 									["amount"] = 8214,
+									["overkill"] = 51,
 								},
 								["Urgash"] = {
 									["amount"] = 8128,
 								},
 							},
-							["overkill"] = 51,
 							["amount"] = 16342,
+							["overkill"] = 51,
 						},
 						[48817] = {
 							["school"] = 2,
@@ -13998,12 +17432,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 6926,
 									["amount"] = 21098,
+									["overkill"] = 6926,
 								},
 							},
-							["overkill"] = 6926,
 							["amount"] = 21098,
+							["overkill"] = 6926,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -14053,14 +17487,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3481,
 						},
-						[61840] = {
-							["school"] = 2,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 2856,
+								["Urgash"] = {
+									["amount"] = 27350,
 								},
 							},
-							["amount"] = 2856,
+							["amount"] = 27350,
 						},
 						[54043] = {
 							["school"] = 2,
@@ -14074,14 +17508,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1080,
 						},
-						[50526] = {
-							["school"] = 32,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 6611,
+								},
 								["Urgash"] = {
-									["amount"] = 14529,
+									["amount"] = 9750,
 								},
 							},
-							["amount"] = 14529,
+							["amount"] = 16361,
 						},
 						[61411] = {
 							["school"] = 2,
@@ -14110,26 +17547,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6545,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 6611,
-								},
-								["Urgash"] = {
-									["amount"] = 9750,
-								},
-							},
-							["amount"] = 16361,
-						},
-						[52212] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 27350,
+									["amount"] = 14529,
 								},
 							},
-							["amount"] = 27350,
+							["amount"] = 14529,
+						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 2856,
+								},
+							},
+							["amount"] = 2856,
 						},
 					},
 					["totaldamage"] = 36779,
@@ -14160,8 +17594,8 @@ SkadaStorageDB = {
 									["amount"] = 1641,
 								},
 								["Guakamole"] = {
-									["total"] = 2267,
 									["amount"] = 1156,
+									["total"] = 2267,
 								},
 							},
 							["amount"] = 4918,
@@ -14306,23 +17740,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 336,
 						},
-						[51460] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 1700,
+									["amount"] = 14728,
 								},
 							},
-							["amount"] = 1700,
+							["amount"] = 14728,
 						},
-						[50526] = {
-							["school"] = 32,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 4650,
+								},
 								["Urgash"] = {
-									["amount"] = 8932,
+									["amount"] = 6419,
 								},
 							},
-							["amount"] = 8932,
+							["amount"] = 11069,
 						},
 						[31803] = {
 							["school"] = 2,
@@ -14337,33 +17774,30 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 12628,
 									["amount"] = 16725,
+									["overkill"] = 12628,
 								},
 							},
-							["overkill"] = 12628,
 							["amount"] = 16725,
+							["overkill"] = 12628,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 4650,
-								},
-								["Urgash"] = {
-									["amount"] = 6419,
-								},
-							},
-							["amount"] = 11069,
-						},
-						[52212] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 14728,
+									["amount"] = 8932,
 								},
 							},
-							["amount"] = 14728,
+							["amount"] = 8932,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1700,
+								},
+							},
+							["amount"] = 1700,
 						},
 					},
 					["totaldamage"] = 8518,
@@ -14380,3453 +17814,19 @@ SkadaStorageDB = {
 			["totaldamagetaken"] = 82028,
 			["etotaldamagetaken"] = 1248860,
 			["last_time"] = 13017.864,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[49560] = {
-							["count"] = 1,
-							["targets"] = {
-								["Phantom Mage"] = 1,
-							},
-						},
-					},
-					["last"] = 13010.274,
-					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 13,
-							["uptime"] = 46,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 4,
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[73422] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 20,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 53,
-						},
-						[71227] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 32,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[49938] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["uptime"] = 19,
-									["count"] = 2,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 13,
-									["count"] = 2,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 11,
-									["count"] = 2,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Ghostly Priest"] = {
-									["uptime"] = 19,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[49222] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 19,
-									["count"] = 2,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 16,
-									["count"] = 2,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 14,
-									["count"] = 2,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 18,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 27,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[71559] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 30,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 19,
-									["count"] = 2,
-								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 18,
-								},
-								["Spectral Footman"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 15,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 18,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 30,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 16,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 19,
-									["count"] = 2,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 18,
-									["count"] = 2,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 15,
-									["count"] = 2,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 18,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 30,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 12,
-							["uptime"] = 21,
-						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 47,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[66803] = {
-							["school"] = 32,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 37,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["totaldamage"] = 454217,
-					["time"] = 36.68999999999999,
-					["totaldamagetaken"] = 15218,
-					["damage"] = 454217,
-					["overheal"] = 3022,
-					["damagetaken"] = 10752,
-					["id"] = "0x070000000000D01B",
-					["spec"] = 252,
-					["healspells"] = {
-						[50475] = {
-							["overheal"] = 3022,
-							["max"] = 473,
-							["count"] = 43,
-							["amount"] = 2756,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 3022,
-									["amount"] = 2756,
-								},
-							},
-							["min"] = 2,
-						},
-					},
-					["damagetakenspells"] = {
-						["Circle of Destruction"] = {
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["RESIST"] = 1,
-							["id"] = 72323,
-						},
-						["Melee"] = {
-							["total"] = 6243,
-							["hitmin"] = 1777,
-							["id"] = 6603,
-							["PARRY"] = 3,
-							["hitmax"] = 1777,
-							["sources"] = {
-								["Spectral Footman"] = {
-									["amount"] = 0,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 1777,
-								},
-								["Shadowy Mercenary"] = {
-									["total"] = 4466,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 1777,
-							["school"] = 1,
-							["hit"] = 1,
-							["ABSORB"] = 1,
-							["hitamount"] = 1777,
-						},
-						["Flamestrike (DoT)"] = {
-							["hitmin"] = 1396,
-							["id"] = 72170,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["amount"] = 4188,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 1396,
-							["amount"] = 4188,
-							["hitamount"] = 4188,
-						},
-						["Flamestrike"] = {
-							["hitmin"] = 3146,
-							["id"] = 72170,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["amount"] = 3146,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 3146,
-							["amount"] = 3146,
-							["hitamount"] = 3146,
-						},
-						["Shoot"] = {
-							["hitmin"] = 1641,
-							["id"] = 72211,
-							["sources"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 1641,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1641,
-							["amount"] = 1641,
-							["hitamount"] = 1641,
-						},
-					},
-					["heal"] = 2756,
-					["name"] = "Urgash",
-					["ccdone"] = 1,
-					["overkill"] = 1508,
-					["damagespells"] = {
-						["Scourge Strike"] = {
-							["criticalamount"] = 30346,
-							["id"] = 55271,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 9002,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 21344,
-								},
-							},
-							["casts"] = 3,
-							["critical"] = 3,
-							["amount"] = 30346,
-							["school"] = 1,
-							["criticalmin"] = 9002,
-							["criticalmax"] = 11251,
-							["count"] = 3,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 791,
-							["id"] = 71904,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 1093,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 1040,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 791,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 811,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 1080,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 32,
-							["hitmax"] = 1093,
-							["amount"] = 4815,
-							["hitamount"] = 4815,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 3473,
-							["criticalamount"] = 9961,
-							["id"] = 47632,
-							["criticalmin"] = 9961,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 4239,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 14966,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 3473,
-								},
-							},
-							["criticalmax"] = 9961,
-							["hitmax"] = 5005,
-							["casts"] = 4,
-							["critical"] = 1,
-							["hit"] = 3,
-							["school"] = 32,
-							["amount"] = 22678,
-							["count"] = 4,
-							["hitamount"] = 12717,
-						},
-						["Unholy Blight (DoT)"] = {
-							["hitmin"] = 34,
-							["id"] = 50536,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 252,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 944,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 204,
-								},
-							},
-							["count"] = 19,
-							["hit"] = 19,
-							["school"] = 32,
-							["hitmax"] = 149,
-							["amount"] = 1400,
-							["hitamount"] = 1400,
-						},
-						["Wandering Plague"] = {
-							["hitmin"] = 1433,
-							["id"] = 50526,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 14529,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 11003,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 10276,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 8932,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 14529,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 36,
-							["hit"] = 36,
-							["school"] = 32,
-							["hitmax"] = 2032,
-							["amount"] = 59269,
-							["hitamount"] = 59269,
-						},
-						["Claw (Pebblebasher)"] = {
-							["hitmin"] = 938,
-							["criticalamount"] = 3778,
-							["id"] = 47468,
-							["criticalmin"] = 1862,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 1998,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 5881,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 4700,
-								},
-							},
-							["criticalmax"] = 1916,
-							["hitmax"] = 1004,
-							["casts"] = 1,
-							["critical"] = 2,
-							["hit"] = 9,
-							["school"] = 1,
-							["amount"] = 12579,
-							["count"] = 11,
-							["hitamount"] = 8801,
-						},
-						["Melee (Pebblebasher)"] = {
-							["glance"] = 677,
-							["hitmin"] = 621,
-							["criticalmin"] = 1240,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 3997,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 7302,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 6402,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 17701,
-							["glancemin"] = 677,
-							["criticalamount"] = 7826,
-							["id"] = 6603,
-							["glancemax"] = 677,
-							["criticalmax"] = 1356,
-							["hitmax"] = 692,
-							["hit"] = 14,
-							["school"] = 1,
-							["critical"] = 6,
-							["count"] = 21,
-							["hitamount"] = 9198,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 3464,
-							["hitmin"] = 3167,
-							["criticalmin"] = 7144,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 7263,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 8503,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 34426,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 18173,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 68365,
-							["glancemin"] = 3464,
-							["criticalamount"] = 54553,
-							["id"] = 6603,
-							["glancemax"] = 3464,
-							["PARRY"] = 1,
-							["criticalmax"] = 8503,
-							["critical"] = 7,
-							["hit"] = 3,
-							["school"] = 1,
-							["count"] = 13,
-							["hitmax"] = 3799,
-							["hitamount"] = 10348,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1959,
-							["criticalamount"] = 4121,
-							["id"] = 49909,
-							["criticalmin"] = 4121,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 1959,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 4121,
-								},
-							},
-							["criticalmax"] = 4121,
-							["hitmax"] = 1959,
-							["casts"] = 2,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["amount"] = 6080,
-							["count"] = 2,
-							["hitamount"] = 1959,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 4650,
-							["id"] = 70890,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 4650,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 11026,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 5812,
-							["amount"] = 15676,
-							["hitamount"] = 15676,
-						},
-						["Retribution Aura"] = {
-							["hitmin"] = 401,
-							["id"] = 54043,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 401,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 401,
-							["amount"] = 401,
-							["hitamount"] = 401,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 633,
-							["id"] = 51460,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 1451,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1700,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 5407,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 3634,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 32,
-							["hitmax"] = 1700,
-							["amount"] = 12192,
-							["hitamount"] = 12192,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1497,
-							["id"] = 55078,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 8170,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 6275,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 6874,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 5351,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 8128,
-								},
-							},
-							["count"] = 21,
-							["hit"] = 21,
-							["school"] = 32,
-							["hitmax"] = 1798,
-							["amount"] = 34798,
-							["hitamount"] = 34798,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 2649,
-							["id"] = 49930,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["overkill"] = 1508,
-									["amount"] = 2653,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2649,
-								},
-							},
-							["overkill"] = 1508,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2653,
-							["amount"] = 5302,
-							["hitamount"] = 5302,
-						},
-						["Death and Decay"] = {
-							["hitmin"] = 932,
-							["criticalamount"] = 60511,
-							["id"] = 52212,
-							["criticalmin"] = 1949,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 28537,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 21287,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 15879,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 14728,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 27350,
-								},
-							},
-							["criticalmax"] = 2290,
-							["hitmax"] = 1096,
-							["casts"] = 2,
-							["critical"] = 29,
-							["hit"] = 47,
-							["school"] = 32,
-							["amount"] = 107781,
-							["count"] = 76,
-							["hitamount"] = 47270,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 2729,
-							["id"] = 49921,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 2729,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2791,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2791,
-							["amount"] = 5520,
-							["hitamount"] = 5520,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1615,
-							["id"] = 55095,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 9767,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 9289,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 7984,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 6419,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 9750,
-								},
-							},
-							["count"] = 22,
-							["hit"] = 22,
-							["school"] = 16,
-							["hitmax"] = 2157,
-							["amount"] = 43209,
-							["hitamount"] = 43209,
-						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1678,
-							["id"] = 50463,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 3785,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 2320,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 2320,
-							["amount"] = 6105,
-							["hitamount"] = 6105,
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["ccdonespells"] = {
-						[48817] = {
-							["count"] = 3,
-							["targets"] = {
-								["Ghostly Priest"] = 1,
-								["Phantom Mage"] = 1,
-								["Shadowy Mercenary"] = 1,
-							},
-						},
-						[10308] = {
-							["count"] = 1,
-							["targets"] = {
-								["Spectral Footman"] = 1,
-							},
-						},
-					},
-					["last"] = 13010.264,
-					["flag"] = 2098450,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[63529] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 53,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[67371] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 41,
-						},
-						[48817] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 2,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 10,
-									["count"] = 2,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Ghostly Priest"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["refresh"] = 27,
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[552] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[48827] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 2,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 11,
-									["count"] = 2,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 10,
-									["count"] = 2,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[31790] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 45,
-						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 2,
-							["refresh"] = 20,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["refresh"] = 7,
-									["count"] = 2,
-									["uptime"] = 12,
-								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 9,
-								},
-								["Spectral Footman"] = {
-									["refresh"] = 6,
-									["count"] = 2,
-									["uptime"] = 15,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
-								["Ghostly Priest"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 23,
-								},
-							},
-							["uptime"] = 27,
-						},
-						[71432] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
-							["uptime"] = 38,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[47930] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[53601] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[20132] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 31,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[48952] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[12179] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 2,
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[26017] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 2,
-							["refresh"] = 6,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["refresh"] = 5,
-									["count"] = 2,
-									["uptime"] = 12,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 5,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 11,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 18,
-						},
-						[68055] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[10308] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-					},
-					["totaldamage"] = 151851,
-					["time"] = 34.10000000000002,
-					["totaldamagetaken"] = 17824,
-					["damage"] = 151851,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 494,
-							["id"] = 48819,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 598,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 1196,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 5694,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1196,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 3415,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 21,
-							["hit"] = 21,
-							["school"] = 2,
-							["hitmax"] = 598,
-							["amount"] = 12099,
-							["hitamount"] = 12099,
-						},
-						["Judgement of Vengeance"] = {
-							["hitmin"] = 1647,
-							["criticalamount"] = 4088,
-							["id"] = 31804,
-							["criticalmin"] = 4088,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 1647,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 4088,
-								},
-							},
-							["criticalmax"] = 4088,
-							["hitmax"] = 1647,
-							["casts"] = 1,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["amount"] = 5735,
-							["count"] = 2,
-							["hitamount"] = 1647,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 227,
-							["id"] = 31803,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 3253,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 978,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 1867,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1957,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 2616,
-								},
-							},
-							["count"] = 19,
-							["hit"] = 19,
-							["school"] = 2,
-							["hitmax"] = 1251,
-							["amount"] = 10671,
-							["hitamount"] = 10671,
-						},
-						["Holy Wrath"] = {
-							["hitmin"] = 2410,
-							["id"] = 48817,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 2447,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 2466,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2410,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 2466,
-							["amount"] = 7323,
-							["hitamount"] = 7323,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 3984,
-							["criticalamount"] = 9542,
-							["id"] = 53595,
-							["criticalmin"] = 9542,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 9274,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 18816,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 9273,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 8488,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 17242,
-								},
-							},
-							["criticalmax"] = 9542,
-							["hitmax"] = 4771,
-							["casts"] = 6,
-							["critical"] = 1,
-							["hit"] = 12,
-							["school"] = 2,
-							["amount"] = 63093,
-							["count"] = 13,
-							["hitamount"] = 53551,
-						},
-						["Melee"] = {
-							["glance"] = 1577,
-							["hitmin"] = 746,
-							["criticalmin"] = 1742,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 839,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 875,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 5978,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1653,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 7744,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 17089,
-							["glancemin"] = 757,
-							["criticalamount"] = 1742,
-							["id"] = 6603,
-							["glancemax"] = 820,
-							["criticalmax"] = 1742,
-							["hitmax"] = 952,
-							["hit"] = 16,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 19,
-							["hitamount"] = 13770,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 1076,
-							["id"] = 48952,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 2152,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 1076,
-							["amount"] = 2152,
-							["hitamount"] = 2152,
-						},
-						["Avenger's Shield"] = {
-							["hitmin"] = 2394,
-							["id"] = 48827,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 5009,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 2584,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 4840,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2559,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["hitmax"] = 2584,
-							["amount"] = 14992,
-							["hitamount"] = 14992,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 3734,
-							["id"] = 61411,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 3963,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 7698,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 3964,
-							["amount"] = 11661,
-							["hitamount"] = 11661,
-						},
-						["Seal of Vengeance"] = {
-							["criticalmin"] = 180,
-							["hitmin"] = 38,
-							["criticalamount"] = 2030,
-							["id"] = 42463,
-							["blocked"] = 40,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 361,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 95,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 2119,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1577,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 2884,
-								},
-							},
-							["count"] = 24,
-							["hit"] = 19,
-							["casts"] = 1,
-							["hitmax"] = 521,
-							["amount"] = 7036,
-							["school"] = 2,
-							["critical"] = 5,
-							["criticalmax"] = 790,
-							["hitamount"] = 5006,
-						},
-					},
-					["damagetaken"] = 7629,
-					["id"] = "0x0700000000690218",
-					["spec"] = 66,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 8818,
-							["count"] = 10,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Pebblebasher"] = {
-									["overheal"] = 1350,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 1521,
-									["amount"] = 0,
-								},
-								["Guakamole"] = {
-									["overheal"] = 5137,
-									["amount"] = 0,
-								},
-								["Giveme"] = {
-									["overheal"] = 790,
-									["amount"] = 0,
-								},
-								["Bloodworm"] = {
-									["overheal"] = 20,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["total"] = 2267,
-							["hitmin"] = 1156,
-							["id"] = 72211,
-							["hitmax"] = 1156,
-							["sources"] = {
-								["Tortured Rifleman"] = {
-									["total"] = 2267,
-									["amount"] = 1156,
-								},
-							},
-							["count"] = 2,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["amount"] = 1156,
-							["hit"] = 1,
-							["hitamount"] = 1156,
-						},
-						["Kidney Shot"] = {
-							["PARRY"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Shadowy Mercenary"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 72335,
-						},
-						["Circle of Destruction"] = {
-							["hitmin"] = 4267,
-							["id"] = 72323,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 4267,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 4267,
-							["amount"] = 4267,
-							["hitamount"] = 4267,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["total"] = 1815,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["total"] = 1815,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72319,
-						},
-						["Flamestrike"] = {
-							["total"] = 2647,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 2647,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72170,
-						},
-						["Flamestrike (DoT)"] = {
-							["total"] = 4137,
-							["hitmin"] = 246,
-							["id"] = 72170,
-							["hitmax"] = 1960,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 4137,
-									["amount"] = 2206,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 217,
-							["amount"] = 2206,
-							["hitamount"] = 2206,
-						},
-						["Melee"] = {
-							["DODGE"] = 4,
-							["total"] = 2691,
-							["id"] = 6603,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["total"] = 1295,
-									["amount"] = 0,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 0,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 0,
-								},
-								["Shadowy Mercenary"] = {
-									["total"] = 1396,
-									["amount"] = 0,
-								},
-							},
-							["BLOCK"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["blocked"] = 2647,
-							["PARRY"] = 6,
-							["count"] = 14,
-						},
-					},
-					["heal"] = 0,
-					["name"] = "Guakamole",
-					["ccdone"] = 4,
-					["overheal"] = 8818,
-					["manaspells"] = {
-						[57319] = 1898,
-						[54428] = 6222,
-						[31786] = 262,
-					},
-					["mana"] = 8382,
-					["role"] = "TANK",
-				}, -- [2]
-				{
-					["last"] = 13017.022,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
-							["uptime"] = 35,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 2,
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 53,
-						},
-						[15359] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["refresh"] = 5,
-							["uptime"] = 26,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 45,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[6346] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 49,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 2,
-							["targets"] = {
-								["Urgash"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Guakamole"] = {
-									["uptime"] = 19,
-									["count"] = 2,
-								},
-								["Xenaprincesa"] = {
-									["uptime"] = 24,
-									["count"] = 2,
-								},
-								["Niveaboy"] = {
-									["uptime"] = 38,
-									["count"] = 1,
-								},
-								["Giveme"] = {
-									["uptime"] = 30,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 38,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 238,
-							["casts"] = 5,
-							["count"] = 13,
-							["amount"] = 26370,
-							["school"] = 2,
-							["targets"] = {
-								["Xenaprincesa"] = 3442,
-								["Urgash"] = 4466,
-								["Guakamole"] = 10195,
-								["Giveme"] = 8267,
-							},
-							["max"] = 4466,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 34.55,
-					["overheal"] = 23711,
-					["absorb"] = 26370,
-					["id"] = "0x07000000009DDD88",
-					["spec"] = 256,
-					["healspells"] = {
-						[33110] = {
-							["overheal"] = 0,
-							["count"] = 2,
-							["amount"] = 6391,
-							["school"] = 2,
-							["max"] = 3426,
-							["targets"] = {
-								["Giveme"] = {
-									["overheal"] = 0,
-									["amount"] = 3426,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 2965,
-								},
-							},
-							["min"] = 2965,
-						},
-						[52985] = {
-							["overheal"] = 0,
-							["casts"] = 6,
-							["count"] = 6,
-							["amount"] = 19812,
-							["max"] = 3418,
-							["min"] = 3183,
-							["targets"] = {
-								["Giveme"] = {
-									["overheal"] = 0,
-									["amount"] = 19812,
-								},
-							},
-							["school"] = 2,
-						},
-						[56160] = {
-							["overheal"] = 12999,
-							["criticalamount"] = 0,
-							["max"] = 1261,
-							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 2379,
-									["amount"] = 0,
-								},
-								["Guakamole"] = {
-									["overheal"] = 1261,
-									["amount"] = 1261,
-								},
-								["Xenaprincesa"] = {
-									["overheal"] = 3806,
-									["amount"] = 1235,
-								},
-								["Niveaboy"] = {
-									["overheal"] = 2402,
-									["amount"] = 0,
-								},
-								["Giveme"] = {
-									["overheal"] = 3151,
-									["amount"] = 1261,
-								},
-							},
-							["min"] = 1235,
-							["criticalmax"] = 0,
-							["count"] = 12,
-							["amount"] = 3757,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["critical"] = 3,
-						},
-						[48071] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 3990,
-							["school"] = 2,
-							["max"] = 3990,
-							["targets"] = {
-								["Guakamole"] = {
-									["overheal"] = 0,
-									["amount"] = 3990,
-								},
-							},
-							["min"] = 3990,
-						},
-						[48120] = {
-							["overheal"] = 10712,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Guakamole"] = {
-									["overheal"] = 4427,
-									["amount"] = 0,
-								},
-								["Niveaboy"] = {
-									["overheal"] = 6285,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["critical"] = 1,
-						},
-					},
-					["heal"] = 33950,
-					["manaspells"] = {
-						[47755] = 1296,
-						[63654] = 267,
-					},
-					["name"] = "Niveaboy",
-					["dispel"] = 2,
-					["dispelspells"] = {
-						[988] = {
-							["spells"] = {
-								[72319] = 2,
-							},
-							["count"] = 2,
-							["targets"] = {
-								["Guakamole"] = 1,
-								["Xenaprincesa"] = 1,
-							},
-						},
-					},
-					["mana"] = 1563,
-				}, -- [3]
-				{
-					["last"] = 13009.609,
-					["flag"] = 1298,
-					["class"] = "DEATHKNIGHT",
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 43,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[70657] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 16,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 2,
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[73422] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 22,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 53,
-						},
-						[71227] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 24,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["refresh"] = 7,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 22,
-								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 18,
-								},
-								["Spectral Footman"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 17,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
-								["Phantom Mage"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 29,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 16,
-							["refresh"] = 7,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 22,
-								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 20,
-								},
-								["Spectral Footman"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 18,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
-								["Phantom Mage"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 21,
-								},
-							},
-							["uptime"] = 32,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 8,
-							["uptime"] = 10,
-						},
-						[50449] = {
-							["type"] = "BUFF",
-							["refresh"] = 11,
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 12,
-						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 36,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[71560] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-					},
-					["totaldamage"] = 319924,
-					["time"] = 37.52999999999999,
-					["totaldamagetaken"] = 14211,
-					["damage"] = 319924,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 4088,
-							["hitmin"] = 4824,
-							["criticalmin"] = 9436,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 16397,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 10147,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 18529,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 26007,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 71080,
-							["glancemin"] = 4088,
-							["criticalamount"] = 40328,
-							["id"] = 6603,
-							["glancemax"] = 4088,
-							["criticalmax"] = 10419,
-							["critical"] = 4,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 5894,
-							["count"] = 10,
-							["hitamount"] = 26664,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 522,
-							["id"] = 71904,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 1287,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 1371,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 1319,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 545,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 1306,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 32,
-							["hitmax"] = 766,
-							["amount"] = 5828,
-							["hitamount"] = 5828,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 1466,
-							["criticalamount"] = 3071,
-							["id"] = 49909,
-							["criticalmin"] = 3071,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 1466,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 3071,
-								},
-							},
-							["criticalmax"] = 3071,
-							["hitmax"] = 1466,
-							["casts"] = 2,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["amount"] = 4537,
-							["count"] = 2,
-							["hitamount"] = 1466,
-						},
-						["Melee (Bloodworm)"] = {
-							["glance"] = 405,
-							["hitmin"] = 133,
-							["criticalmin"] = 266,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 2959,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 536,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 3495,
-							["glancemin"] = 133,
-							["criticalamount"] = 538,
-							["id"] = 6603,
-							["glancemax"] = 136,
-							["criticalmax"] = 272,
-							["hitmax"] = 136,
-							["hit"] = 19,
-							["school"] = 1,
-							["critical"] = 2,
-							["count"] = 24,
-							["hitamount"] = 2552,
-						},
-						["Necrosis"] = {
-							["hitmin"] = 817,
-							["id"] = 51460,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 3277,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 2704,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 5200,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 32,
-							["hitmax"] = 2083,
-							["amount"] = 11181,
-							["hitamount"] = 11181,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1154,
-							["id"] = 55078,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 8209,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 6108,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 5806,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 4653,
-								},
-								["Phantom Mage"] = {
-									["overkill"] = 51,
-									["amount"] = 8214,
-								},
-							},
-							["overkill"] = 51,
-							["count"] = 24,
-							["hit"] = 24,
-							["school"] = 32,
-							["hitmax"] = 1574,
-							["amount"] = 32990,
-							["hitamount"] = 32990,
-						},
-						["Death Coil"] = {
-							["criticalamount"] = 7009,
-							["hitmin"] = 3354,
-							["criticalmin"] = 7009,
-							["id"] = 47632,
-							["criticalmax"] = 7009,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 10363,
-								},
-								["Shadowy Mercenary"] = {
-									["overkill"] = 3304,
-									["amount"] = 3412,
-								},
-							},
-							["overkill"] = 3304,
-							["hitmax"] = 3412,
-							["casts"] = 1,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 32,
-							["amount"] = 13775,
-							["count"] = 3,
-							["hitamount"] = 6766,
-						},
-						["Death Strike"] = {
-							["criticalmin"] = 16725,
-							["hitmin"] = 6545,
-							["criticalamount"] = 16725,
-							["id"] = 49924,
-							["criticalmax"] = 16725,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 6545,
-								},
-								["Tortured Rifleman"] = {
-									["overkill"] = 12628,
-									["amount"] = 16725,
-								},
-							},
-							["overkill"] = 12628,
-							["hitmax"] = 6545,
-							["casts"] = 3,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 23270,
-							["count"] = 2,
-							["hitamount"] = 6545,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 2419,
-							["id"] = 49921,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 2419,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2488,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2488,
-							["amount"] = 4907,
-							["hitamount"] = 4907,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1142,
-							["id"] = 55095,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 8204,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 7489,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 5757,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 4650,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 6611,
-								},
-							},
-							["count"] = 24,
-							["hit"] = 24,
-							["school"] = 16,
-							["hitmax"] = 1562,
-							["amount"] = 32711,
-							["hitamount"] = 32711,
-						},
-						["Heart Strike"] = {
-							["criticalamount"] = 91029,
-							["hitmin"] = 2482,
-							["criticalmin"] = 6668,
-							["id"] = 55262,
-							["criticalmax"] = 14899,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 23693,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 54572,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 9392,
-								},
-								["Shadowy Mercenary"] = {
-									["overkill"] = 8609,
-									["amount"] = 28493,
-								},
-							},
-							["overkill"] = 8609,
-							["hitmax"] = 5410,
-							["casts"] = 8,
-							["critical"] = 9,
-							["hit"] = 6,
-							["school"] = 1,
-							["amount"] = 116150,
-							["count"] = 15,
-							["hitamount"] = 25121,
-						},
-					},
-					["damagetaken"] = 10769,
-					["id"] = "0x0700000000005962",
-					["spec"] = 250,
-					["healspells"] = {
-						[53365] = {
-							["overheal"] = 4284,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 4284,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["critical"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["count"] = 3,
-							["criticalmin"] = 0,
-						},
-						[50454] = {
-							["overheal"] = 7782,
-							["count"] = 24,
-							["amount"] = 0,
-							["school"] = 32,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 7782,
-									["amount"] = 0,
-								},
-							},
-						},
-						[45470] = {
-							["overheal"] = 12240,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 12240,
-									["amount"] = 0,
-								},
-							},
-						},
-						[50475] = {
-							["overheal"] = 5749,
-							["max"] = 662,
-							["count"] = 33,
-							["amount"] = 3320,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 5749,
-									["amount"] = 3320,
-								},
-							},
-							["min"] = 253,
-						},
-					},
-					["overkill"] = 24592,
-					["heal"] = 3320,
-					["name"] = "Xenaprincesa",
-					["runicspells"] = {
-						[50163] = 80,
-					},
-					["damagetakenspells"] = {
-						["Circle of Destruction"] = {
-							["hitmin"] = 3226,
-							["id"] = 72323,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 3226,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3226,
-							["amount"] = 3226,
-							["hitamount"] = 3226,
-						},
-						["Melee"] = {
-							["PARRY"] = 1,
-							["total"] = 3442,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["amount"] = 0,
-								},
-								["Shadowy Mercenary"] = {
-									["total"] = 3442,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 2,
-							["id"] = 6603,
-						},
-						["Flamestrike (DoT)"] = {
-							["hitmin"] = 1746,
-							["id"] = 72170,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["amount"] = 1746,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1746,
-							["amount"] = 1746,
-							["hitamount"] = 1746,
-						},
-						["Flamestrike"] = {
-							["hitmin"] = 4099,
-							["id"] = 72170,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["amount"] = 4099,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 4099,
-							["amount"] = 4099,
-							["hitamount"] = 4099,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 1698,
-							["id"] = 72319,
-							["hitmax"] = 1698,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 1698,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 727,
-							["amount"] = 1698,
-							["hitamount"] = 1698,
-						},
-					},
-					["runic"] = 80,
-					["overheal"] = 30055,
-					["role"] = "DAMAGER",
-				}, -- [4]
-				{
-					["last"] = 13008.78,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[73422] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 20,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[20053] = {
-							["type"] = "BUFF",
-							["refresh"] = 19,
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[61840] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 2,
-							["refresh"] = 5,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 11,
-									["count"] = 2,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Ghostly Priest"] = {
-									["refresh"] = 5,
-									["count"] = 2,
-									["uptime"] = 19,
-								},
-							},
-							["uptime"] = 28,
-						},
-						[57623] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 53,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Ghostly Priest"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 2,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 11,
-									["count"] = 2,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Ghostly Priest"] = {
-									["uptime"] = 12,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[54428] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[67773] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 7,
-									["count"] = 2,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[71187] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 3,
-							["uptime"] = 43,
-						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 36,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 45,
-						},
-						[31801] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[67018] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[71432] = {
-							["type"] = "BUFF",
-							["count"] = 5,
-							["school"] = 1,
-							["refresh"] = 14,
-							["uptime"] = 53,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 9,
-							["uptime"] = 7,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 34,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 5,
-							["uptime"] = 16,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 2,
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[57102] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 53,
-						},
-						[59578] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 12,
-							["uptime"] = 47,
-						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["refresh"] = 5,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 12,
-								},
-								["Spectral Footman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 5,
-								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 22,
-						},
-					},
-					["totaldamage"] = 322868,
-					["time"] = 34.39,
-					["totaldamagetaken"] = 34775,
-					["damage"] = 322868,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 681,
-							["id"] = 48819,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 6982,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 10479,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 6966,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 4445,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 11044,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 46,
-							["hit"] = 46,
-							["school"] = 2,
-							["hitmax"] = 971,
-							["amount"] = 39916,
-							["hitamount"] = 39916,
-						},
-						["Exorcism"] = {
-							["criticalamount"] = 8613,
-							["id"] = 48801,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["overkill"] = 2813,
-									["amount"] = 8613,
-								},
-							},
-							["overkill"] = 2813,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 8613,
-							["school"] = 2,
-							["criticalmin"] = 8613,
-							["criticalmax"] = 8613,
-							["count"] = 1,
-						},
-						["Judgement of Vengeance"] = {
-							["hitmin"] = 4879,
-							["criticalamount"] = 27637,
-							["id"] = 31804,
-							["criticalmin"] = 7790,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 16936,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 7790,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 7790,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 1,
-							["hitmax"] = 4879,
-							["amount"] = 32516,
-							["school"] = 2,
-							["critical"] = 3,
-							["criticalmax"] = 12057,
-							["hitamount"] = 4879,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 450,
-							["id"] = 71904,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 1100,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 1196,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 1152,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 450,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 1095,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 32,
-							["hitmax"] = 680,
-							["amount"] = 4993,
-							["hitamount"] = 4993,
-						},
-						["Manifest Anger"] = {
-							["hitmin"] = 1713,
-							["criticalamount"] = 9635,
-							["id"] = 71433,
-							["criticalmin"] = 3036,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 4926,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 3386,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 3036,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 1,
-							["hitmax"] = 1713,
-							["amount"] = 11348,
-							["school"] = 1,
-							["critical"] = 3,
-							["criticalmax"] = 3386,
-							["hitamount"] = 1713,
-						},
-						["Retribution Aura"] = {
-							["hitmin"] = 335,
-							["id"] = 54043,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 336,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 402,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 679,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 389,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 2,
-							["hitmax"] = 402,
-							["amount"] = 1806,
-							["hitamount"] = 1806,
-						},
-						["Hammer of Wrath"] = {
-							["criticalamount"] = 18587,
-							["id"] = 48806,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 8932,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 9655,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 18587,
-							["school"] = 2,
-							["criticalmin"] = 8932,
-							["criticalmax"] = 9655,
-							["count"] = 2,
-						},
-						["Divine Storm"] = {
-							["criticalamount"] = 85137,
-							["hitmin"] = 3653,
-							["criticalmin"] = 7543,
-							["id"] = 53385,
-							["criticalmax"] = 9249,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["overkill"] = 6926,
-									["amount"] = 21098,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 20106,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 12362,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 12908,
-								},
-								["Ghostly Priest"] = {
-									["overkill"] = 17316,
-									["amount"] = 43031,
-								},
-							},
-							["overkill"] = 24242,
-							["hitmax"] = 4607,
-							["casts"] = 5,
-							["critical"] = 10,
-							["hit"] = 6,
-							["school"] = 1,
-							["amount"] = 109505,
-							["count"] = 16,
-							["hitamount"] = 24368,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 468,
-							["id"] = 31803,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 2210,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 468,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 1120,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 1205,
-							["amount"] = 3798,
-							["hitamount"] = 3798,
-						},
-						["Melee"] = {
-							["glance"] = 3427,
-							["hitmin"] = 2971,
-							["criticalmin"] = 6068,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 27487,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 9039,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 6745,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 43271,
-							["glancemin"] = 3427,
-							["criticalamount"] = 26595,
-							["id"] = 6603,
-							["glancemax"] = 3427,
-							["criticalmax"] = 7492,
-							["critical"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["count"] = 9,
-							["hitmax"] = 3735,
-							["hitamount"] = 13249,
-						},
-						["Crusader Strike"] = {
-							["hitmin"] = 2709,
-							["criticalamount"] = 5986,
-							["id"] = 35395,
-							["criticalmin"] = 5986,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 12099,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 2709,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2875,
-								},
-							},
-							["criticalmax"] = 5986,
-							["hitmax"] = 3123,
-							["casts"] = 5,
-							["critical"] = 1,
-							["hit"] = 4,
-							["school"] = 1,
-							["amount"] = 17683,
-							["count"] = 5,
-							["hitamount"] = 11697,
-						},
-						["Righteous Vengeance (DoT)"] = {
-							["hitmin"] = 582,
-							["id"] = 61840,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 2856,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2416,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 1202,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 2562,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 5684,
-								},
-							},
-							["count"] = 20,
-							["hit"] = 20,
-							["school"] = 2,
-							["hitmax"] = 1927,
-							["amount"] = 14720,
-							["hitamount"] = 14720,
-						},
-						["Seal of Vengeance"] = {
-							["hitmin"] = 454,
-							["criticalamount"] = 11860,
-							["id"] = 42463,
-							["criticalmin"] = 873,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 7686,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 4276,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 4150,
-								},
-							},
-							["count"] = 16,
-							["hit"] = 7,
-							["casts"] = 1,
-							["hitmax"] = 1110,
-							["amount"] = 16112,
-							["school"] = 2,
-							["critical"] = 9,
-							["criticalmax"] = 2020,
-							["hitamount"] = 4252,
-						},
-					},
-					["damagetaken"] = 26508,
-					["id"] = "0x07000000000AA847",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 13933,
-							["count"] = 17,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Pebblebasher"] = {
-									["overheal"] = 1350,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 1521,
-									["amount"] = 0,
-								},
-								["Guakamole"] = {
-									["overheal"] = 3854,
-									["amount"] = 0,
-								},
-								["Xenaprincesa"] = {
-									["overheal"] = 2448,
-									["amount"] = 0,
-								},
-								["Bloodworm"] = {
-									["overheal"] = 20,
-									["amount"] = 0,
-								},
-								["Giveme"] = {
-									["overheal"] = 4740,
-									["amount"] = 0,
-								},
-							},
-						},
-						[54172] = {
-							["overheal"] = 0,
-							["school"] = 2,
-							["count"] = 1,
-							["amount"] = 6214,
-							["max"] = 6214,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 0,
-									["amount"] = 6214,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 6214,
-						},
-					},
-					["overkill"] = 27055,
-					["heal"] = 6214,
-					["name"] = "Giveme",
-					["overheal"] = 13933,
-					["damagetakenspells"] = {
-						["Shoot"] = {
-							["hitmin"] = 2121,
-							["id"] = 72211,
-							["sources"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 2121,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2121,
-							["amount"] = 2121,
-							["hitamount"] = 2121,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 15018,
-							["hitmin"] = 2377,
-							["id"] = 6603,
-							["hitmax"] = 2700,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["total"] = 5007,
-									["amount"] = 2429,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 2489,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 5145,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2377,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 12440,
-							["school"] = 1,
-							["hit"] = 5,
-							["MISS"] = 3,
-							["hitamount"] = 12440,
-						},
-						["Deadly Poison (DoT)"] = {
-							["total"] = 4132,
-							["hitmin"] = 795,
-							["id"] = 72330,
-							["hitmax"] = 1033,
-							["sources"] = {
-								["Shadowy Mercenary"] = {
-									["total"] = 4132,
-									["amount"] = 2861,
-								},
-							},
-							["count"] = 4,
-							["ABSORB"] = 1,
-							["school"] = 8,
-							["amount"] = 2861,
-							["hit"] = 3,
-							["hitamount"] = 2861,
-						},
-						["Flamestrike"] = {
-							["total"] = 4418,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 4418,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72170,
-						},
-						["Circle of Destruction"] = {
-							["hitmin"] = 3610,
-							["id"] = 72323,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 3610,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3610,
-							["amount"] = 3610,
-							["hitamount"] = 3610,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 5476,
-							["id"] = 72167,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["amount"] = 5476,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 5476,
-							["amount"] = 5476,
-							["hitamount"] = 5476,
-						},
-					},
-					["manaspells"] = {
-						[20268] = 609,
-						[31930] = 4392,
-						[57319] = 121,
-						[54428] = 1515,
-						[57669] = 3465,
-					},
-					["mana"] = 10102,
-					["role"] = "DAMAGER",
-				}, -- [5]
-			},
+			["overheal"] = 79539,
 			["type"] = "party",
 			["damagetaken"] = 55658,
 			["absorb"] = 26370,
-			["etotaldamage"] = 82028,
-			["ccdone"] = 5,
+			["starttime"] = 1699798277,
+			["mobname"] = "Spectral Footman",
 			["damage"] = 1248860,
 			["overkill"] = 53155,
 			["edamagetaken"] = 1248860,
 			["heal"] = 46240,
 			["name"] = "Spectral Footman (2)",
-			["mobname"] = "Spectral Footman",
-			["starttime"] = 1699798277,
+			["ccdone"] = 5,
+			["etotaldamage"] = 82028,
 			["edamage"] = 55658,
 			["last_action"] = 1699798330,
 			["endtime"] = 1699798330,
@@ -17841,8 +17841,8 @@ SkadaStorageDB = {
 							["total"] = 1247,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1247,
 									["amount"] = 0,
+									["total"] = 1247,
 								},
 							},
 							["amount"] = 0,
@@ -18006,12 +18006,12 @@ SkadaStorageDB = {
 									["amount"] = 3786,
 								},
 								["Urgash"] = {
-									["overkill"] = 1381,
 									["amount"] = 4359,
+									["overkill"] = 1381,
 								},
 							},
-							["overkill"] = 1381,
 							["amount"] = 8145,
+							["overkill"] = 1381,
 						},
 						[49921] = {
 							["school"] = 1,
@@ -18022,32 +18022,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2415,
 						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 635,
-								},
-							},
-							["amount"] = 635,
-						},
-						[50526] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 6117,
+									["amount"] = 7337,
 								},
 							},
-							["amount"] = 6117,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 5655,
-								},
-							},
-							["amount"] = 5655,
+							["amount"] = 7337,
 						},
 						[31803] = {
 							["school"] = 2,
@@ -18058,14 +18040,32 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2049,
 						},
-						[52212] = {
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 5655,
+								},
+							},
+							["amount"] = 5655,
+						},
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 7337,
+									["amount"] = 6117,
 								},
 							},
-							["amount"] = 7337,
+							["amount"] = 6117,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 635,
+								},
+							},
+							["amount"] = 635,
 						},
 					},
 					["totaldamage"] = 1247,
@@ -18081,8 +18081,8 @@ SkadaStorageDB = {
 							["total"] = 2192,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 2192,
 									["amount"] = 0,
+									["total"] = 2192,
 								},
 							},
 							["amount"] = 0,
@@ -18218,34 +18218,43 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8120,
 						},
-						[50526] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 7894,
+									["amount"] = 13235,
 								},
 							},
-							["amount"] = 7894,
+							["amount"] = 13235,
 						},
-						[35395] = {
-							["school"] = 1,
+						[71904] = {
+							["school"] = 32,
 							["sources"] = {
 								["Giveme"] = {
-									["amount"] = 5780,
+									["amount"] = 622,
 								},
 							},
-							["amount"] = 5780,
+							["amount"] = 622,
 						},
 						[48806] = {
 							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 2812,
 									["amount"] = 9372,
+									["overkill"] = 2812,
 								},
 							},
-							["overkill"] = 2812,
 							["amount"] = 9372,
+							["overkill"] = 2812,
+						},
+						[53595] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 13527,
+								},
+							},
+							["amount"] = 13527,
 						},
 						[31803] = {
 							["school"] = 2,
@@ -18259,32 +18268,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4874,
 						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 13527,
-								},
-							},
-							["amount"] = 13527,
-						},
-						[71904] = {
-							["school"] = 32,
+						[35395] = {
+							["school"] = 1,
 							["sources"] = {
 								["Giveme"] = {
-									["amount"] = 622,
+									["amount"] = 5780,
 								},
 							},
-							["amount"] = 622,
+							["amount"] = 5780,
 						},
-						[52212] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 13235,
+									["amount"] = 7894,
 								},
 							},
-							["amount"] = 13235,
+							["amount"] = 7894,
 						},
 					},
 					["totaldamage"] = 2192,
@@ -18300,8 +18300,8 @@ SkadaStorageDB = {
 							["total"] = 3095,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 3095,
 									["amount"] = 0,
+									["total"] = 3095,
 								},
 							},
 							["amount"] = 0,
@@ -18315,12 +18315,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 410,
 									["amount"] = 16560,
+									["overkill"] = 410,
 								},
 							},
-							["overkill"] = 410,
 							["amount"] = 16560,
+							["overkill"] = 410,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -18466,41 +18466,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 17595,
 						},
-						[49930] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3027,
-								},
-							},
-							["amount"] = 3027,
-						},
-						[35395] = {
-							["school"] = 1,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 2989,
-								},
-							},
-							["amount"] = 2989,
-						},
-						[50526] = {
+						[71904] = {
 							["school"] = 32,
 							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 662,
+								},
 								["Urgash"] = {
-									["amount"] = 9835,
+									["amount"] = 1582,
 								},
 							},
-							["amount"] = 9835,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1501,
-								},
-							},
-							["amount"] = 1501,
+							["amount"] = 2244,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -18514,17 +18490,41 @@ SkadaStorageDB = {
 							},
 							["amount"] = 11513,
 						},
-						[71904] = {
-							["school"] = 32,
+						[31803] = {
+							["school"] = 2,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 662,
-								},
-								["Urgash"] = {
-									["amount"] = 1582,
+								["Guakamole"] = {
+									["amount"] = 1501,
 								},
 							},
-							["amount"] = 2244,
+							["amount"] = 1501,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 9835,
+								},
+							},
+							["amount"] = 9835,
+						},
+						[35395] = {
+							["school"] = 1,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 2989,
+								},
+							},
+							["amount"] = 2989,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3027,
+								},
+							},
+							["amount"] = 3027,
 						},
 					},
 					["totaldamage"] = 3095,
@@ -18540,8 +18540,8 @@ SkadaStorageDB = {
 							["total"] = 3689,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 3689,
 									["amount"] = 1646,
+									["total"] = 3689,
 								},
 							},
 							["amount"] = 1646,
@@ -18698,32 +18698,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 11464,
 						},
-						[50526] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 8617,
+									["amount"] = 17594,
 								},
 							},
-							["amount"] = 8617,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 2001,
-								},
-							},
-							["amount"] = 2001,
-						},
-						[31804] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 2417,
-								},
-							},
-							["amount"] = 2417,
+							["amount"] = 17594,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -18737,14 +18719,32 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2326,
 						},
-						[52212] = {
+						[31804] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 2417,
+								},
+							},
+							["amount"] = 2417,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 2001,
+								},
+							},
+							["amount"] = 2001,
+						},
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 17594,
+									["amount"] = 8617,
 								},
 							},
-							["amount"] = 17594,
+							["amount"] = 8617,
 						},
 					},
 					["totaldamage"] = 3689,
@@ -18754,14 +18754,14 @@ SkadaStorageDB = {
 					["damage"] = 1646,
 				}, -- [4]
 			},
-			["overheal"] = 29128,
+			["runic"] = 40,
 			["totaldamage"] = 542458,
 			["time"] = 29,
-			["damage"] = 542458,
+			["last_time"] = 12964.914,
 			["totaldamagetaken"] = 10223,
 			["etotaldamagetaken"] = 542458,
-			["last_time"] = 12964.914,
-			["runic"] = 40,
+			["damage"] = 542458,
+			["overheal"] = 29128,
 			["type"] = "party",
 			["damagetaken"] = 1646,
 			["players"] = {
@@ -18807,14 +18807,14 @@ SkadaStorageDB = {
 									["amount"] = 17595,
 								},
 							},
+							["criticalmax"] = 2181,
+							["critical"] = 17,
+							["casts"] = 1,
 							["count"] = 37,
 							["hit"] = 20,
-							["casts"] = 1,
-							["hitmax"] = 1044,
-							["amount"] = 55761,
 							["school"] = 32,
-							["critical"] = 17,
-							["criticalmax"] = 2181,
+							["amount"] = 55761,
+							["hitmax"] = 1044,
 							["hitamount"] = 20123,
 						},
 						["Death Coil"] = {
@@ -18913,22 +18913,22 @@ SkadaStorageDB = {
 									["amount"] = 2182,
 								},
 							},
-							["glancemin"] = 636,
+							["hitamount"] = 6590,
 							["glancing"] = 2,
-							["glancemax"] = 758,
+							["amount"] = 7984,
 							["count"] = 12,
 							["hit"] = 10,
 							["school"] = 1,
 							["hitmax"] = 759,
-							["amount"] = 7984,
-							["hitamount"] = 6590,
+							["glancemax"] = 758,
+							["glancemin"] = 636,
 						},
 						["Melee"] = {
-							["criticalamount"] = 23732,
-							["hitmin"] = 3106,
 							["criticalmin"] = 7275,
+							["hitmin"] = 3106,
+							["criticalamount"] = 23732,
 							["id"] = 6603,
-							["PARRY"] = 1,
+							["amount"] = 30846,
 							["targets"] = {
 								["Ghostly Priest"] = {
 									["amount"] = 18081,
@@ -18940,14 +18940,14 @@ SkadaStorageDB = {
 									["amount"] = 4008,
 								},
 							},
+							["count"] = 6,
+							["hit"] = 2,
+							["PARRY"] = 1,
 							["hitmax"] = 4008,
 							["blocked"] = 40,
-							["criticalmax"] = 8757,
-							["critical"] = 3,
-							["hit"] = 2,
 							["school"] = 1,
-							["count"] = 6,
-							["amount"] = 30846,
+							["critical"] = 3,
+							["criticalmax"] = 8757,
 							["hitamount"] = 7114,
 						},
 						["Blood-Caked Strike"] = {
@@ -19028,24 +19028,21 @@ SkadaStorageDB = {
 							["amount"] = 15415,
 							["hitamount"] = 15415,
 						},
-						["Chaos Bane"] = {
-							["hitmin"] = 1582,
-							["id"] = 71904,
+						["Icy Touch"] = {
+							["hitmin"] = 1810,
+							["id"] = 49909,
 							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 1693,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 1582,
+								["Ghostly Priest"] = {
+									["amount"] = 1810,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1693,
-							["amount"] = 3275,
-							["hitamount"] = 3275,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 1810,
+							["amount"] = 1810,
+							["hitamount"] = 1810,
 						},
 						["Blood Strike"] = {
 							["hitmin"] = 3027,
@@ -19087,8 +19084,8 @@ SkadaStorageDB = {
 									["amount"] = 6114,
 								},
 								["Ghostly Priest"] = {
-									["overkill"] = 1381,
 									["amount"] = 4359,
+									["overkill"] = 1381,
 								},
 								["Tortured Rifleman"] = {
 									["amount"] = 4109,
@@ -19105,26 +19102,29 @@ SkadaStorageDB = {
 							["amount"] = 20745,
 							["hitamount"] = 20745,
 						},
-						["Icy Touch"] = {
-							["hitmin"] = 1810,
-							["id"] = 49909,
+						["Chaos Bane"] = {
+							["hitmin"] = 1582,
+							["id"] = 71904,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 1810,
+								["Phantom Mage"] = {
+									["amount"] = 1693,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 1582,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 1810,
-							["amount"] = 1810,
-							["hitamount"] = 1810,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 1693,
+							["amount"] = 3275,
+							["hitamount"] = 3275,
 						},
 					},
-					["spec"] = 252,
+					["id"] = "0x070000000000D01B",
 					["flag"] = 1297,
-					["class"] = "DEATHKNIGHT",
+					["spec"] = 252,
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 2176,
@@ -19152,8 +19152,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["count"] = 1,
 							["criticalmin"] = 0,
+							["count"] = 1,
 						},
 					},
 					["auras"] = {
@@ -19181,10 +19181,10 @@ SkadaStorageDB = {
 							["uptime"] = 20,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 4,
-							["count"] = 1,
 							["uptime"] = 29,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
 						},
 						[73422] = {
 							["school"] = 1,
@@ -19244,32 +19244,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[51735] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 16,
-							["school"] = 32,
-							["refresh"] = 2,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-								["Ghostly Priest"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 9,
-								},
-								["Phantom Mage"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["count"] = 4,
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 25,
 						},
 						[55078] = {
 							["type"] = "DEBUFF",
@@ -19300,11 +19280,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[72412] = {
+						[53365] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 14,
 						},
 						[50536] = {
 							["type"] = "DEBUFF",
@@ -19318,11 +19298,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[75456] = {
-							["school"] = 64,
+						[49222] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 29,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -19348,12 +19327,14 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 16,
 						},
-						[20217] = {
+						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 29,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 14,
 						},
-						[54043] = {
+						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 29,
@@ -19363,23 +19344,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 7,
-							["uptime"] = 14,
-						},
-						[49222] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[53365] = {
+						[75456] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[72412] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 10,
 						},
 						[66803] = {
 							["school"] = 32,
@@ -19387,21 +19367,41 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[58578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 25,
+						[51735] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 16,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+								["Ghostly Priest"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 9,
+								},
+								["Phantom Mage"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["count"] = 4,
 						},
 					},
-					["role"] = "DAMAGER",
-					["heal"] = 0,
-					["time"] = 19.74,
-					["overkill"] = 1381,
-					["name"] = "Urgash",
 					["totaldamage"] = 206531,
-					["id"] = "0x070000000000D01B",
+					["role"] = "DAMAGER",
+					["time"] = 19.74,
+					["name"] = "Urgash",
+					["overkill"] = 1381,
+					["heal"] = 0,
+					["class"] = "DEATHKNIGHT",
 					["damage"] = 206531,
 				}, -- [1]
 				{
@@ -19527,10 +19527,10 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[54428] = {
-							["type"] = "BUFF",
-							["refresh"] = 19,
-							["count"] = 1,
 							["uptime"] = 29,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 19,
 						},
 						[6562] = {
 							["type"] = "BUFF",
@@ -19662,17 +19662,33 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[552] = {
-							["school"] = 2,
+						[25780] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 2,
 							["count"] = 1,
 							["uptime"] = 29,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 14,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 10,
+								},
+								["Phantom Mage"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 9,
+								},
+							},
+							["count"] = 3,
 						},
 						[48066] = {
 							["school"] = 2,
@@ -19680,11 +19696,11 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 20,
 						},
-						[47753] = {
-							["school"] = 2,
+						[63944] = {
+							["uptime"] = 29,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 7,
+							["count"] = 1,
+							["refresh"] = 2,
 						},
 						[48952] = {
 							["school"] = 2,
@@ -19741,33 +19757,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 10,
 						},
-						[26017] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 14,
+						[47753] = {
 							["school"] = 2,
-							["refresh"] = 2,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Phantom Mage"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 9,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["count"] = 3,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 7,
 						},
-						[25780] = {
+						[552] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 29,
+							["uptime"] = 10,
 						},
 					},
 					["absorbspells"] = {
@@ -19875,44 +19875,44 @@ SkadaStorageDB = {
 									["amount"] = 9542,
 								},
 							},
+							["criticalmax"] = 9542,
+							["critical"] = 3,
+							["casts"] = 3,
 							["count"] = 6,
 							["hit"] = 3,
-							["casts"] = 3,
-							["hitmax"] = 4771,
-							["amount"] = 40579,
 							["school"] = 2,
-							["critical"] = 3,
-							["criticalmax"] = 9542,
+							["amount"] = 40579,
+							["hitmax"] = 4771,
 							["hitamount"] = 13527,
 						},
-						["Holy Wrath"] = {
-							["hitmin"] = 2258,
-							["criticalamount"] = 3559,
-							["id"] = 48817,
-							["criticalmin"] = 3559,
+						["Seal of Vengeance"] = {
+							["hitmin"] = 83,
+							["criticalamount"] = 1002,
+							["id"] = 42463,
+							["criticalmin"] = 374,
 							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 2491,
-								},
 								["Tortured Rifleman"] = {
-									["amount"] = 2258,
+									["amount"] = 618,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 2173,
 								},
 								["Ghostly Priest"] = {
-									["amount"] = 3559,
+									["amount"] = 300,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 2358,
+									["amount"] = 1383,
 								},
 							},
-							["criticalmax"] = 3559,
-							["hitmax"] = 2491,
-							["casts"] = 1,
-							["critical"] = 1,
-							["hit"] = 3,
+							["count"] = 15,
+							["amount"] = 4474,
+							["criticalmax"] = 628,
+							["hitmax"] = 538,
+							["hit"] = 13,
 							["school"] = 2,
-							["amount"] = 10666,
-							["count"] = 4,
-							["hitamount"] = 7107,
+							["critical"] = 2,
+							["casts"] = 1,
+							["hitamount"] = 3472,
 						},
 						["Melee"] = {
 							["glance"] = 768,
@@ -19976,43 +19976,43 @@ SkadaStorageDB = {
 									["amount"] = 3923,
 								},
 							},
-							["blocked"] = 40,
+							["hit"] = 1,
 							["casts"] = 1,
 							["count"] = 1,
-							["hit"] = 1,
+							["blocked"] = 40,
 							["school"] = 2,
-							["hitmax"] = 3923,
 							["amount"] = 3923,
+							["hitmax"] = 3923,
 							["hitamount"] = 3923,
 						},
-						["Seal of Vengeance"] = {
-							["hitmin"] = 83,
-							["criticalamount"] = 1002,
-							["id"] = 42463,
-							["criticalmin"] = 374,
+						["Holy Wrath"] = {
+							["hitmin"] = 2258,
+							["criticalamount"] = 3559,
+							["id"] = 48817,
+							["criticalmin"] = 3559,
 							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 618,
-								},
 								["Phantom Mage"] = {
-									["amount"] = 2173,
+									["amount"] = 2491,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 2258,
 								},
 								["Ghostly Priest"] = {
-									["amount"] = 300,
+									["amount"] = 3559,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 1383,
+									["amount"] = 2358,
 								},
 							},
-							["criticalmax"] = 628,
-							["hitmax"] = 538,
-							["casts"] = 1,
-							["critical"] = 2,
-							["hit"] = 13,
+							["count"] = 4,
+							["amount"] = 10666,
+							["criticalmax"] = 3559,
+							["hitmax"] = 2491,
+							["hit"] = 3,
 							["school"] = 2,
-							["amount"] = 4474,
-							["count"] = 15,
-							["hitamount"] = 3472,
+							["critical"] = 1,
+							["casts"] = 1,
+							["hitamount"] = 7107,
 						},
 					},
 					["absorb"] = 2321,
@@ -20031,16 +20031,16 @@ SkadaStorageDB = {
 									["overheal"] = 790,
 									["amount"] = 0,
 								},
-								["Pebblebasher"] = {
-									["overheal"] = 675,
+								["Xenaprincesa"] = {
+									["overheal"] = 2447,
 									["amount"] = 0,
 								},
 								["Guakamole"] = {
 									["overheal"] = 3852,
 									["amount"] = 0,
 								},
-								["Xenaprincesa"] = {
-									["overheal"] = 2447,
+								["Pebblebasher"] = {
+									["overheal"] = 675,
 									["amount"] = 0,
 								},
 							},
@@ -20052,32 +20052,28 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 72211,
+							["ABSORB"] = 2,
 							["sources"] = {
 								["Tortured Rifleman"] = {
-									["total"] = 2192,
 									["amount"] = 0,
+									["total"] = 2192,
 								},
 							},
-							["ABSORB"] = 2,
-							["id"] = 72211,
 						},
-						["Fireball"] = {
-							["total"] = 3689,
-							["hitmin"] = 1646,
-							["id"] = 72164,
-							["hitmax"] = 1646,
+						["Deadly Poison (DoT)"] = {
+							["total"] = 3095,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 8,
+							["id"] = 72330,
+							["ABSORB"] = 4,
 							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 3689,
-									["amount"] = 1646,
+								["Shadowy Mercenary"] = {
+									["amount"] = 0,
+									["total"] = 3095,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 1581,
-							["amount"] = 1646,
-							["hitamount"] = 1646,
 						},
 						["Melee"] = {
 							["DODGE"] = 6,
@@ -20091,8 +20087,8 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 								["Ghostly Priest"] = {
-									["total"] = 1247,
 									["amount"] = 0,
+									["total"] = 1247,
 								},
 								["Shadowy Mercenary"] = {
 									["amount"] = 0,
@@ -20101,43 +20097,47 @@ SkadaStorageDB = {
 							["count"] = 16,
 							["amount"] = 0,
 							["school"] = 1,
-							["ABSORB"] = 1,
-							["MISS"] = 1,
 							["PARRY"] = 8,
+							["MISS"] = 1,
+							["ABSORB"] = 1,
 						},
-						["Deadly Poison (DoT)"] = {
-							["total"] = 3095,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 8,
+						["Fireball"] = {
+							["total"] = 3689,
+							["hitmin"] = 1646,
+							["id"] = 72164,
+							["count"] = 1,
 							["sources"] = {
-								["Shadowy Mercenary"] = {
-									["total"] = 3095,
-									["amount"] = 0,
+								["Phantom Mage"] = {
+									["amount"] = 1646,
+									["total"] = 3689,
 								},
 							},
-							["ABSORB"] = 4,
-							["id"] = 72330,
+							["hitmax"] = 1646,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 1581,
+							["amount"] = 1646,
+							["hitamount"] = 1646,
 						},
 					},
 					["heal"] = 0,
 					["name"] = "Guakamole",
 					["ccdone"] = 4,
-					["overheal"] = 7764,
-					["totaldamage"] = 102016,
-					["class"] = "PALADIN",
 					["manaspells"] = {
 						[57319] = 2044,
 						[54428] = 3660,
 						[31786] = 80,
 					},
+					["class"] = "PALADIN",
+					["totaldamage"] = 102016,
+					["overheal"] = 7764,
 				}, -- [2]
 				{
 					["overheal"] = 7685,
 					["last"] = 12958.347,
-					["absorb"] = 6256,
+					["mana"] = 794,
+					["role"] = "HEALER",
 					["flag"] = 1298,
-					["id"] = "0x07000000009DDD88",
 					["class"] = "PRIEST",
 					["healspells"] = {
 						[56160] = {
@@ -20171,8 +20171,8 @@ SkadaStorageDB = {
 							["critical"] = 3,
 							["amount"] = 1607,
 							["school"] = 2,
-							["count"] = 6,
 							["criticalmin"] = 0,
+							["count"] = 6,
 						},
 					},
 					["auras"] = {
@@ -20187,16 +20187,21 @@ SkadaStorageDB = {
 							["uptime"] = 29,
 						},
 						[63944] = {
+							["uptime"] = 29,
 							["type"] = "BUFF",
-							["refresh"] = 2,
 							["count"] = 1,
+							["refresh"] = 2,
+						},
+						[57623] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
 							["uptime"] = 29,
 						},
-						[48066] = {
-							["school"] = 2,
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 19,
+							["uptime"] = 29,
 						},
 						[47753] = {
 							["school"] = 2,
@@ -20204,7 +20209,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[53138] = {
+						[6562] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 29,
@@ -20214,15 +20219,27 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["uptime"] = 15,
 						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 29,
-						},
 						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 29,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 29,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 29,
+						},
+						[59891] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["refresh"] = 4,
+							["uptime"] = 16,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -20252,23 +20269,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 23,
 						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 29,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 4,
-							["uptime"] = 16,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 29,
-						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -20279,11 +20279,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[57623] = {
-							["school"] = 1,
+						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 29,
+							["count"] = 1,
+							["uptime"] = 19,
 						},
 					},
 					["absorbspells"] = {
@@ -20312,14 +20312,14 @@ SkadaStorageDB = {
 					},
 					["heal"] = 1607,
 					["time"] = 13.85,
-					["spec"] = 256,
-					["name"] = "Niveaboy",
 					["manaspells"] = {
 						[47755] = 648,
 						[63654] = 146,
 					},
-					["role"] = "HEALER",
-					["mana"] = 794,
+					["name"] = "Niveaboy",
+					["spec"] = 256,
+					["id"] = "0x07000000009DDD88",
+					["absorb"] = 6256,
 				}, -- [3]
 				{
 					["last"] = 12955.964,
@@ -20344,10 +20344,10 @@ SkadaStorageDB = {
 							["uptime"] = 29,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 2,
-							["count"] = 1,
 							["uptime"] = 29,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
 						},
 						[73422] = {
 							["school"] = 1,
@@ -20415,18 +20415,17 @@ SkadaStorageDB = {
 							},
 							["count"] = 4,
 						},
-						[71560] = {
-							["school"] = 1,
+						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 29,
 						},
 						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[48074] = {
+						[6562] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 29,
@@ -20449,15 +20448,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[6562] = {
+						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 29,
 						},
-						[20217] = {
+						[71560] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 29,
+							["uptime"] = 10,
 						},
 					},
 					["totaldamage"] = 98631,
@@ -20481,13 +20481,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 8886,
-							["count"] = 5,
+							["critical"] = 2,
 							["criticalmax"] = 9665,
-							["hitmax"] = 5241,
+							["count"] = 5,
 							["amount"] = 28830,
 							["school"] = 1,
 							["hit"] = 2,
-							["critical"] = 2,
+							["hitmax"] = 5241,
 							["hitamount"] = 10279,
 						},
 						["Icy Touch"] = {
@@ -20525,81 +20525,24 @@ SkadaStorageDB = {
 							["amount"] = 3832,
 							["hitamount"] = 3832,
 						},
-						["Death Coil"] = {
-							["hitmin"] = 3543,
-							["id"] = 47632,
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1529,
+							["id"] = 50463,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 3543,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3543,
-							["amount"] = 3543,
-							["hitamount"] = 3543,
-						},
-						["Death Strike"] = {
-							["hitmin"] = 5655,
-							["id"] = 49924,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 5655,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 5655,
-							["amount"] = 5655,
-							["hitamount"] = 5655,
-						},
-						["Heart Strike"] = {
-							["criticalamount"] = 17326,
-							["hitmin"] = 2304,
-							["criticalmin"] = 5871,
-							["id"] = 55262,
-							["criticalmax"] = 11455,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 5871,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 4667,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 4507,
+									["amount"] = 3451,
 								},
 								["Shadowy Mercenary"] = {
-									["overkill"] = 410,
-									["amount"] = 16560,
+									["amount"] = 1766,
 								},
 							},
-							["overkill"] = 410,
-							["hitmax"] = 5105,
-							["casts"] = 4,
-							["critical"] = 2,
-							["hit"] = 4,
-							["school"] = 1,
-							["amount"] = 31605,
-							["count"] = 6,
-							["hitamount"] = 14279,
-						},
-						["Plague Strike"] = {
 							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 1,
-							["PARRY"] = 1,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 49921,
+							["hitmax"] = 1922,
+							["amount"] = 5217,
+							["hitamount"] = 5217,
 						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 1111,
@@ -20625,24 +20568,81 @@ SkadaStorageDB = {
 							["amount"] = 18497,
 							["hitamount"] = 18497,
 						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1529,
-							["id"] = 50463,
+						["Plague Strike"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 49921,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 3451,
+									["amount"] = 0,
+								},
+							},
+							["PARRY"] = 1,
+						},
+						["Heart Strike"] = {
+							["criticalmin"] = 5871,
+							["hitmin"] = 2304,
+							["criticalamount"] = 17326,
+							["id"] = 55262,
+							["count"] = 6,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 5871,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 4667,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 4507,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 1766,
+									["amount"] = 16560,
+									["overkill"] = 410,
+								},
+							},
+							["overkill"] = 410,
+							["amount"] = 31605,
+							["criticalmax"] = 11455,
+							["hitmax"] = 5105,
+							["hit"] = 4,
+							["school"] = 1,
+							["critical"] = 2,
+							["casts"] = 4,
+							["hitamount"] = 14279,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 5655,
+							["id"] = 49924,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 5655,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 1922,
-							["amount"] = 5217,
-							["hitamount"] = 5217,
+							["hitmax"] = 5655,
+							["amount"] = 5655,
+							["hitamount"] = 5655,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 3543,
+							["id"] = 47632,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 3543,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3543,
+							["amount"] = 3543,
+							["hitamount"] = 3543,
 						},
 					},
 					["id"] = "0x0700000000005962",
@@ -20677,12 +20677,12 @@ SkadaStorageDB = {
 					["overkill"] = 410,
 					["heal"] = 0,
 					["name"] = "Xenaprincesa",
+					["role"] = "DAMAGER",
+					["overheal"] = 5815,
+					["runic"] = 40,
 					["runicspells"] = {
 						[50163] = 40,
 					},
-					["runic"] = 40,
-					["overheal"] = 5815,
-					["role"] = "DAMAGER",
 				}, -- [4]
 				{
 					["last"] = 12955.225,
@@ -20718,10 +20718,10 @@ SkadaStorageDB = {
 							["uptime"] = 29,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 2,
-							["count"] = 1,
 							["uptime"] = 29,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
 						},
 						[20053] = {
 							["type"] = "BUFF",
@@ -20752,14 +20752,14 @@ SkadaStorageDB = {
 									["count"] = 1,
 									["uptime"] = 9,
 								},
-								["Ghostly Priest"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
 								["Tortured Rifleman"] = {
 									["refresh"] = 2,
 									["count"] = 1,
 									["uptime"] = 8,
+								},
+								["Ghostly Priest"] = {
+									["uptime"] = 2,
+									["count"] = 1,
 								},
 							},
 							["count"] = 3,
@@ -20791,93 +20791,16 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 29,
+						},
 						[67773] = {
 							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 29,
-						},
-						[73422] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[71187] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 17,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 29,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 15,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 29,
-						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 10,
-							["school"] = 2,
-							["refresh"] = 2,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["count"] = 2,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 3,
-						},
-						[59578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 7,
-							["uptime"] = 21,
-						},
-						[67018] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 29,
 						},
 						[48819] = {
 							["type"] = "DEBUFF",
@@ -20903,7 +20826,84 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[72221] = {
+						[71187] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 17,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 29,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 15,
+						},
+						[20217] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 29,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 21,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 3,
+						},
+						[31803] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 10,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["count"] = 2,
+						},
+						[67018] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 29,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 29,
@@ -20937,6 +20937,12 @@ SkadaStorageDB = {
 					["overkill"] = 2812,
 					["heal"] = 0,
 					["name"] = "Giveme",
+					["role"] = "DAMAGER",
+					["manaspells"] = {
+						[31930] = 1098,
+						[57669] = 1155,
+					},
+					["class"] = "PALADIN",
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
 							["hitmin"] = 849,
@@ -20981,14 +20987,14 @@ SkadaStorageDB = {
 									["amount"] = 7447,
 								},
 							},
+							["criticalmax"] = 8763,
+							["critical"] = 4,
+							["casts"] = 3,
 							["count"] = 8,
 							["hit"] = 4,
-							["casts"] = 3,
-							["hitmax"] = 4124,
-							["amount"] = 47443,
 							["school"] = 1,
-							["critical"] = 4,
-							["criticalmax"] = 8763,
+							["amount"] = 47443,
+							["hitmax"] = 4124,
 							["hitamount"] = 15673,
 						},
 						["Chaos Bane"] = {
@@ -21037,8 +21043,8 @@ SkadaStorageDB = {
 							["id"] = 48806,
 							["targets"] = {
 								["Tortured Rifleman"] = {
-									["overkill"] = 2812,
 									["amount"] = 9372,
+									["overkill"] = 2812,
 								},
 							},
 							["overkill"] = 2812,
@@ -21046,9 +21052,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 9372,
 							["school"] = 2,
-							["criticalmin"] = 9372,
-							["criticalmax"] = 9372,
 							["count"] = 1,
+							["criticalmax"] = 9372,
+							["criticalmin"] = 9372,
 						},
 						["Judgement of Vengeance"] = {
 							["criticalamount"] = 6324,
@@ -21062,9 +21068,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 6324,
 							["school"] = 2,
-							["criticalmin"] = 6324,
-							["criticalmax"] = 6324,
 							["count"] = 1,
+							["criticalmax"] = 6324,
+							["criticalmin"] = 6324,
 						},
 						["Holy Vengeance (DoT)"] = {
 							["hitmin"] = 1080,
@@ -21094,13 +21100,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 6837,
-							["critical"] = 2,
+							["amount"] = 19713,
 							["criticalmax"] = 7061,
-							["count"] = 4,
+							["critical"] = 2,
 							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 3201,
-							["amount"] = 19713,
+							["count"] = 4,
 							["hitamount"] = 5815,
 						},
 						["Crusader Strike"] = {
@@ -21116,14 +21122,14 @@ SkadaStorageDB = {
 									["amount"] = 2989,
 								},
 							},
+							["criticalmax"] = 5780,
+							["critical"] = 1,
+							["casts"] = 2,
 							["count"] = 2,
 							["hit"] = 1,
-							["casts"] = 2,
-							["hitmax"] = 2989,
-							["amount"] = 8769,
 							["school"] = 1,
-							["critical"] = 1,
-							["criticalmax"] = 5780,
+							["amount"] = 8769,
+							["hitmax"] = 2989,
 							["hitamount"] = 2989,
 						},
 						["Righteous Vengeance (DoT)"] = {
@@ -21157,42 +21163,36 @@ SkadaStorageDB = {
 									["amount"] = 475,
 								},
 							},
+							["criticalmax"] = 1963,
+							["critical"] = 3,
+							["casts"] = 1,
 							["count"] = 6,
 							["hit"] = 3,
-							["casts"] = 1,
-							["hitmax"] = 1618,
-							["amount"] = 7186,
 							["school"] = 2,
-							["critical"] = 3,
-							["criticalmax"] = 1963,
+							["amount"] = 7186,
+							["hitmax"] = 1618,
 							["hitamount"] = 3073,
 						},
 					},
-					["class"] = "PALADIN",
-					["manaspells"] = {
-						[31930] = 1098,
-						[57669] = 1155,
-					},
-					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["absorb"] = 8577,
-			["ccdone"] = 4,
+			["starttime"] = 1699798248,
+			["mobname"] = "Ghostly Priest",
 			["etotaldamage"] = 10223,
 			["overkill"] = 4603,
 			["edamagetaken"] = 542458,
 			["heal"] = 1607,
 			["name"] = "Ghostly Priest",
-			["mobname"] = "Ghostly Priest",
-			["starttime"] = 1699798248,
+			["ccdone"] = 4,
+			["absorb"] = 8577,
 			["edamage"] = 1646,
 			["last_action"] = 1699798277,
 			["endtime"] = 1699798277,
 		}, -- [4]
 		{
-			["absorb"] = 46823,
+			["type"] = "party",
 			["mana"] = 29459,
-			["etotaldamage"] = 100739,
+			["etotaldamagetaken"] = 1840303,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -21204,12 +21204,12 @@ SkadaStorageDB = {
 									["amount"] = 2684,
 								},
 								["Urgash"] = {
-									["total"] = 1537,
 									["amount"] = 0,
+									["total"] = 1537,
 								},
 								["Guakamole"] = {
-									["total"] = 1038,
 									["amount"] = 0,
+									["total"] = 1038,
 								},
 							},
 							["amount"] = 2684,
@@ -21219,8 +21219,8 @@ SkadaStorageDB = {
 							["total"] = 8311,
 							["targets"] = {
 								["Urgash"] = {
-									["total"] = 8311,
 									["amount"] = 1479,
+									["total"] = 8311,
 								},
 							},
 							["amount"] = 1479,
@@ -21243,12 +21243,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 2235,
 									["amount"] = 29991,
+									["overkill"] = 2235,
 								},
 							},
-							["overkill"] = 2235,
 							["amount"] = 29991,
+							["overkill"] = 2235,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -21328,14 +21328,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 10855,
 						},
-						[50526] = {
-							["school"] = 32,
+						[31803] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4404,
+								["Guakamole"] = {
+									["amount"] = 3367,
 								},
 							},
-							["amount"] = 4404,
+							["amount"] = 3367,
 						},
 						[48827] = {
 							["school"] = 2,
@@ -21373,37 +21373,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 86030,
 						},
-						[61840] = {
-							["school"] = 2,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 912,
-								},
-							},
-							["amount"] = 912,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 3982,
-								},
-								["Urgash"] = {
-									["overkill"] = 230,
-									["amount"] = 7200,
-								},
-							},
-							["overkill"] = 230,
-							["amount"] = 11182,
-						},
-						[47468] = {
+						[35395] = {
 							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 5772,
+								["Giveme"] = {
+									["amount"] = 5374,
 								},
 							},
-							["amount"] = 5772,
+							["amount"] = 5374,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -21416,6 +21393,29 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 1893,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 5772,
+								},
+							},
+							["amount"] = 5772,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 3982,
+								},
+								["Urgash"] = {
+									["amount"] = 7200,
+									["overkill"] = 230,
+								},
+							},
+							["amount"] = 11182,
+							["overkill"] = 230,
 						},
 						[52212] = {
 							["school"] = 32,
@@ -21474,23 +21474,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6435,
 						},
-						[35395] = {
-							["school"] = 1,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 5374,
-								},
-							},
-							["amount"] = 5374,
-						},
-						[31803] = {
+						[61840] = {
 							["school"] = 2,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 3367,
+								["Giveme"] = {
+									["amount"] = 912,
 								},
 							},
-							["amount"] = 3367,
+							["amount"] = 912,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 4404,
+								},
+							},
+							["amount"] = 4404,
 						},
 					},
 					["totaldamage"] = 13570,
@@ -21506,8 +21506,8 @@ SkadaStorageDB = {
 							["total"] = 1522,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1522,
 									["amount"] = 0,
+									["total"] = 1522,
 								},
 							},
 							["amount"] = 0,
@@ -21517,8 +21517,8 @@ SkadaStorageDB = {
 							["total"] = 1460,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 5673,
 									["amount"] = 4213,
+									["total"] = 5673,
 								},
 							},
 							["amount"] = 4213,
@@ -21531,8 +21531,8 @@ SkadaStorageDB = {
 									["amount"] = 2921,
 								},
 								["Niveaboy"] = {
-									["total"] = 3719,
 									["amount"] = 0,
+									["total"] = 3719,
 								},
 							},
 							["amount"] = 2921,
@@ -21620,59 +21620,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 23306,
 						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 3001,
-								},
-							},
-							["amount"] = 3001,
-						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 2152,
-								},
-							},
-							["amount"] = 2152,
-						},
-						[52212] = {
+						[51460] = {
 							["school"] = 32,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 24274,
+									["amount"] = 722,
+									["overkill"] = 710,
 								},
 							},
-							["amount"] = 24274,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 3963,
-								},
-							},
-							["amount"] = 3963,
-						},
-						[48801] = {
-							["school"] = 2,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 8461,
-								},
-							},
-							["amount"] = 8461,
-						},
-						[48827] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 2249,
-								},
-							},
-							["amount"] = 2249,
+							["amount"] = 722,
+							["overkill"] = 710,
 						},
 						[53385] = {
 							["school"] = 1,
@@ -21682,35 +21639,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 16592,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 1524,
-								},
-								["Urgash"] = {
-									["amount"] = 5103,
-								},
-								["Guakamole"] = {
-									["amount"] = 6062,
-								},
-								["Giveme"] = {
-									["overkill"] = 1382,
-									["amount"] = 15963,
-								},
-							},
-							["overkill"] = 1382,
-							["amount"] = 28652,
-						},
-						[71433] = {
-							["school"] = 1,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 2919,
-								},
-							},
-							["amount"] = 2919,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -21727,6 +21655,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2911,
 						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 3963,
+								},
+							},
+							["amount"] = 3963,
+						},
 						[47468] = {
 							["school"] = 1,
 							["sources"] = {
@@ -21735,6 +21672,53 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 2210,
+						},
+						[48827] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 2249,
+								},
+							},
+							["amount"] = 2249,
+						},
+						[48952] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 2152,
+								},
+							},
+							["amount"] = 2152,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 1524,
+								},
+								["Urgash"] = {
+									["amount"] = 5103,
+								},
+								["Guakamole"] = {
+									["amount"] = 6062,
+								},
+								["Giveme"] = {
+									["amount"] = 15963,
+									["overkill"] = 1382,
+								},
+							},
+							["amount"] = 28652,
+							["overkill"] = 1382,
+						},
+						[71433] = {
+							["school"] = 1,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 2919,
+								},
+							},
+							["amount"] = 2919,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -21748,14 +21732,32 @@ SkadaStorageDB = {
 							},
 							["amount"] = 17323,
 						},
-						[49930] = {
-							["school"] = 1,
+						[48801] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 2574,
+								["Giveme"] = {
+									["amount"] = 8461,
 								},
 							},
-							["amount"] = 2574,
+							["amount"] = 8461,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 24274,
+								},
+							},
+							["amount"] = 24274,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 11996,
+								},
+							},
+							["amount"] = 11996,
 						},
 						[35395] = {
 							["school"] = 1,
@@ -21766,14 +21768,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8474,
 						},
-						[50526] = {
-							["school"] = 32,
+						[49930] = {
+							["school"] = 1,
 							["sources"] = {
 								["Urgash"] = {
-									["amount"] = 11996,
+									["amount"] = 2574,
 								},
 							},
-							["amount"] = 11996,
+							["amount"] = 2574,
 						},
 						[48806] = {
 							["school"] = 2,
@@ -21811,16 +21813,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3519,
 						},
-						[51460] = {
-							["school"] = 32,
+						[31803] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["overkill"] = 710,
-									["amount"] = 722,
+								["Guakamole"] = {
+									["amount"] = 3001,
 								},
 							},
-							["overkill"] = 710,
-							["amount"] = 722,
+							["amount"] = 3001,
 						},
 					},
 					["totaldamage"] = 13835,
@@ -21836,8 +21836,8 @@ SkadaStorageDB = {
 							["total"] = 10979,
 							["targets"] = {
 								["Giveme"] = {
-									["total"] = 7324,
 									["amount"] = 0,
+									["total"] = 7324,
 								},
 								["Niveaboy"] = {
 									["amount"] = 3655,
@@ -21878,12 +21878,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 4010,
 									["amount"] = 12131,
+									["overkill"] = 4010,
 								},
 							},
-							["overkill"] = 4010,
 							["amount"] = 12131,
+							["overkill"] = 4010,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -22029,32 +22029,37 @@ SkadaStorageDB = {
 						[54043] = {
 							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1108,
-								},
 								["Niveaboy"] = {
 									["amount"] = 339,
+								},
+								["Urgash"] = {
+									["amount"] = 1108,
 								},
 							},
 							["amount"] = 1447,
 						},
-						[31803] = {
-							["school"] = 2,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 500,
+								["Urgash"] = {
+									["amount"] = 26067,
 								},
 							},
-							["amount"] = 500,
+							["amount"] = 26067,
 						},
-						[53595] = {
-							["school"] = 2,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 4771,
+								["Xenaprincesa"] = {
+									["amount"] = 8817,
+									["overkill"] = 668,
+								},
+								["Urgash"] = {
+									["amount"] = 11413,
 								},
 							},
-							["amount"] = 4771,
+							["amount"] = 20230,
+							["overkill"] = 668,
 						},
 						[69403] = {
 							["school"] = 2,
@@ -22074,28 +22079,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 668,
 						},
-						[55095] = {
-							["school"] = 16,
+						[53595] = {
+							["school"] = 2,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["overkill"] = 668,
-									["amount"] = 8817,
-								},
-								["Urgash"] = {
-									["amount"] = 11413,
+								["Guakamole"] = {
+									["amount"] = 4771,
 								},
 							},
-							["overkill"] = 668,
-							["amount"] = 20230,
+							["amount"] = 4771,
 						},
-						[52212] = {
-							["school"] = 32,
+						[31803] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 26067,
+								["Guakamole"] = {
+									["amount"] = 500,
 								},
 							},
-							["amount"] = 26067,
+							["amount"] = 500,
 						},
 					},
 					["totaldamage"] = 23106,
@@ -22111,8 +22111,8 @@ SkadaStorageDB = {
 							["total"] = 2075,
 							["targets"] = {
 								["Giveme"] = {
-									["total"] = 2075,
 									["amount"] = 0,
+									["total"] = 2075,
 								},
 								["Urgash"] = {
 									["amount"] = 5138,
@@ -22128,8 +22128,8 @@ SkadaStorageDB = {
 									["amount"] = 1613,
 								},
 								["Urgash"] = {
-									["total"] = 6014,
 									["amount"] = 3330,
+									["total"] = 6014,
 								},
 							},
 							["amount"] = 4943,
@@ -22142,20 +22142,20 @@ SkadaStorageDB = {
 									["amount"] = 5321,
 								},
 								["Guakamole"] = {
-									["total"] = 2639,
 									["amount"] = 0,
+									["total"] = 2639,
 								},
 								["Giveme"] = {
-									["total"] = 3373,
 									["amount"] = 2827,
+									["total"] = 3373,
 								},
 								["Niveaboy"] = {
-									["total"] = 2888,
 									["amount"] = 0,
+									["total"] = 2888,
 								},
 								["Xenaprincesa"] = {
-									["total"] = 3284,
 									["amount"] = 0,
+									["total"] = 3284,
 								},
 							},
 							["amount"] = 8148,
@@ -22178,12 +22178,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 1176,
 									["amount"] = 51058,
+									["overkill"] = 1176,
 								},
 							},
-							["overkill"] = 1176,
 							["amount"] = 51058,
+							["overkill"] = 1176,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -22249,33 +22249,33 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 581,
 									["amount"] = 3369,
+									["overkill"] = 581,
 								},
 								["Urgash"] = {
 									["amount"] = 1440,
 								},
 							},
-							["overkill"] = 581,
 							["amount"] = 4809,
+							["overkill"] = 581,
 						},
-						[61411] = {
+						[42463] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 3963,
+									["amount"] = 1295,
 								},
 							},
-							["amount"] = 3963,
+							["amount"] = 1295,
 						},
-						[31804] = {
-							["school"] = 2,
+						[53385] = {
+							["school"] = 1,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 2417,
+								["Giveme"] = {
+									["amount"] = 7194,
 								},
 							},
-							["amount"] = 2417,
+							["amount"] = 7194,
 						},
 						[48952] = {
 							["school"] = 2,
@@ -22313,24 +22313,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3615,
 						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 19021,
-								},
-							},
-							["amount"] = 19021,
-						},
-						[47468] = {
-							["school"] = 1,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1007,
-								},
-							},
-							["amount"] = 1007,
-						},
 						[71904] = {
 							["school"] = 32,
 							["sources"] = {
@@ -22345,6 +22327,24 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 4549,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1007,
+								},
+							},
+							["amount"] = 1007,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 19021,
+								},
+							},
+							["amount"] = 19021,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -22367,15 +22367,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 683,
 						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 8468,
-								},
-							},
-							["amount"] = 8468,
-						},
 						[31803] = {
 							["school"] = 2,
 							["sources"] = {
@@ -22384,6 +22375,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 1251,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 8468,
+								},
+							},
+							["amount"] = 8468,
 						},
 						[69403] = {
 							["school"] = 2,
@@ -22403,23 +22403,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3695,
 						},
-						[53385] = {
-							["school"] = 1,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 7194,
-								},
-							},
-							["amount"] = 7194,
-						},
-						[42463] = {
+						[31804] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 1295,
+									["amount"] = 2417,
 								},
 							},
-							["amount"] = 1295,
+							["amount"] = 2417,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 3963,
+								},
+							},
+							["amount"] = 3963,
 						},
 					},
 					["totaldamage"] = 32345,
@@ -22435,8 +22435,8 @@ SkadaStorageDB = {
 							["total"] = 1874,
 							["targets"] = {
 								["Urgash"] = {
-									["total"] = 1874,
 									["amount"] = 281,
+									["total"] = 1874,
 								},
 							},
 							["amount"] = 281,
@@ -22446,8 +22446,8 @@ SkadaStorageDB = {
 							["total"] = 3157,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1114,
 									["amount"] = 591,
+									["total"] = 1114,
 								},
 								["Urgash"] = {
 									["amount"] = 2043,
@@ -22473,12 +22473,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 4625,
 									["amount"] = 16915,
+									["overkill"] = 4625,
 								},
 							},
-							["overkill"] = 4625,
 							["amount"] = 16915,
+							["overkill"] = 4625,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -22609,32 +22609,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 318,
 						},
-						[51460] = {
+						[52212] = {
 							["school"] = 32,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 3193,
+								["Urgash"] = {
+									["amount"] = 13279,
 								},
 							},
-							["amount"] = 3193,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1500,
-								},
-							},
-							["amount"] = 1500,
-						},
-						[49924] = {
-							["school"] = 1,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 15845,
-								},
-							},
-							["amount"] = 15845,
+							["amount"] = 13279,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -22648,14 +22630,32 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6980,
 						},
-						[52212] = {
-							["school"] = 32,
+						[49924] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 13279,
+								["Xenaprincesa"] = {
+									["amount"] = 15845,
 								},
 							},
-							["amount"] = 13279,
+							["amount"] = 15845,
+						},
+						[31803] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 1500,
+								},
+							},
+							["amount"] = 1500,
+						},
+						[51460] = {
+							["school"] = 32,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 3193,
+								},
+							},
+							["amount"] = 3193,
 						},
 					},
 					["totaldamage"] = 5031,
@@ -22671,8 +22671,8 @@ SkadaStorageDB = {
 							["total"] = 12852,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 12852,
 									["amount"] = 5693,
+									["total"] = 12852,
 								},
 							},
 							["amount"] = 5693,
@@ -22907,14 +22907,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 437,
 						},
-						[49930] = {
-							["school"] = 1,
+						[48952] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 13933,
+								["Guakamole"] = {
+									["amount"] = 807,
 								},
 							},
-							["amount"] = 13933,
+							["amount"] = 807,
 						},
 						[42463] = {
 							["school"] = 2,
@@ -22937,14 +22937,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5911,
 						},
-						[35395] = {
-							["school"] = 1,
+						[51460] = {
+							["school"] = 32,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 15187,
+								["Xenaprincesa"] = {
+									["amount"] = 6120,
+								},
+								["Urgash"] = {
+									["amount"] = 6650,
 								},
 							},
-							["amount"] = 15187,
+							["amount"] = 12770,
 						},
 						[50463] = {
 							["school"] = 1,
@@ -22957,29 +22960,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 14895,
-						},
-						[49909] = {
-							["school"] = 16,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 3773,
-								},
-								["Urgash"] = {
-									["amount"] = 3056,
-								},
-							},
-							["amount"] = 6829,
-						},
-						[55262] = {
-							["school"] = 1,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["overkill"] = 379,
-									["amount"] = 84700,
-								},
-							},
-							["overkill"] = 379,
-							["amount"] = 84700,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -22999,6 +22979,29 @@ SkadaStorageDB = {
 							},
 							["amount"] = 132726,
 						},
+						[55262] = {
+							["school"] = 1,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 84700,
+									["overkill"] = 379,
+								},
+							},
+							["amount"] = 84700,
+							["overkill"] = 379,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 3773,
+								},
+								["Urgash"] = {
+									["amount"] = 3056,
+								},
+							},
+							["amount"] = 6829,
+						},
 						[70890] = {
 							["school"] = 32,
 							["sources"] = {
@@ -23008,26 +23011,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 13367,
 						},
-						[51460] = {
-							["school"] = 32,
+						[35395] = {
+							["school"] = 1,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 6120,
-								},
-								["Urgash"] = {
-									["amount"] = 6650,
+								["Giveme"] = {
+									["amount"] = 15187,
 								},
 							},
-							["amount"] = 12770,
+							["amount"] = 15187,
 						},
-						[48952] = {
-							["school"] = 2,
+						[49930] = {
+							["school"] = 1,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 807,
+								["Urgash"] = {
+									["amount"] = 13933,
 								},
 							},
-							["amount"] = 807,
+							["amount"] = 13933,
 						},
 					},
 					["totaldamage"] = 12852,
@@ -23040,10 +23040,6 @@ SkadaStorageDB = {
 			["dispel"] = 7,
 			["totaldamage"] = 1840303,
 			["time"] = 85,
-			["runic"] = 204,
-			["totaldamagetaken"] = 100739,
-			["etotaldamagetaken"] = 1840303,
-			["last_time"] = 12874.274,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -23094,27 +23090,27 @@ SkadaStorageDB = {
 									["uptime"] = 19,
 									["count"] = 2,
 								},
-								["Falric"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 30,
+								["Ghostly Priest"] = {
+									["uptime"] = 16,
+									["count"] = 2,
 								},
 								["Tortured Rifleman"] = {
 									["uptime"] = 9,
 									["count"] = 1,
 								},
-								["Ghostly Priest"] = {
-									["uptime"] = 16,
-									["count"] = 2,
+								["Falric"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 30,
 								},
 							},
 							["uptime"] = 62,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["refresh"] = 6,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
 						},
 						[45529] = {
 							["school"] = 1,
@@ -23191,18 +23187,18 @@ SkadaStorageDB = {
 									["uptime"] = 19,
 									["count"] = 2,
 								},
-								["Falric"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 30,
+								["Ghostly Priest"] = {
+									["uptime"] = 16,
+									["count"] = 2,
 								},
 								["Tortured Rifleman"] = {
 									["uptime"] = 9,
 									["count"] = 1,
 								},
-								["Ghostly Priest"] = {
-									["uptime"] = 16,
-									["count"] = 2,
+								["Falric"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 30,
 								},
 							},
 							["uptime"] = 62,
@@ -23225,18 +23221,18 @@ SkadaStorageDB = {
 									["uptime"] = 19,
 									["count"] = 2,
 								},
-								["Falric"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 28,
+								["Ghostly Priest"] = {
+									["uptime"] = 16,
+									["count"] = 2,
 								},
 								["Tortured Rifleman"] = {
 									["uptime"] = 9,
 									["count"] = 1,
 								},
-								["Ghostly Priest"] = {
-									["uptime"] = 16,
-									["count"] = 2,
+								["Falric"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 28,
 								},
 							},
 							["uptime"] = 58,
@@ -23295,7 +23291,7 @@ SkadaStorageDB = {
 							["refresh"] = 20,
 							["uptime"] = 77,
 						},
-						[48162] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 85,
@@ -23313,23 +23309,16 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 13,
 						},
+						[49222] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
 						[71559] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
-						},
-						[49206] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Falric"] = {
-									["uptime"] = 22,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 22,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -23342,18 +23331,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 1,
 						},
-						[47930] = {
-							["type"] = "BUFF",
+						[49560] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 16,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 8,
-							["count"] = 1,
-							["uptime"] = 85,
+							["school"] = 1,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
 						[49938] = {
 							["type"] = "DEBUFF",
@@ -23372,35 +23360,43 @@ SkadaStorageDB = {
 									["uptime"] = 18,
 									["count"] = 2,
 								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
 								["Ghostly Priest"] = {
 									["uptime"] = 15,
 									["count"] = 2,
 								},
-							},
-							["uptime"] = 20,
-						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
 								["Tortured Rifleman"] = {
-									["uptime"] = 3,
+									["uptime"] = 10,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 3,
+							["uptime"] = 20,
 						},
-						[49222] = {
+						[63944] = {
+							["uptime"] = 85,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 33,
+							["refresh"] = 8,
 						},
-						[72221] = {
+						[47930] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 16,
+						},
+						[49206] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Falric"] = {
+									["uptime"] = 22,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 85,
@@ -23411,17 +23407,15 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 42365,
 					["damage"] = 617470,
 					["runic"] = 10,
-					["runicspells"] = {
-						[45529] = 10,
-					},
+					["role"] = "DAMAGER",
 					["damagetaken"] = 29719,
 					["damagespells"] = {
 						["Scourge Strike"] = {
-							["criticalamount"] = 31487,
-							["hitmin"] = 4511,
 							["criticalmin"] = 2614,
+							["hitmin"] = 4511,
+							["criticalamount"] = 31487,
 							["id"] = 55271,
-							["casts"] = 9,
+							["critical"] = 4,
 							["targets"] = {
 								["Ghostly Priest"] = {
 									["amount"] = 0,
@@ -23433,14 +23427,14 @@ SkadaStorageDB = {
 									["amount"] = 26915,
 								},
 							},
-							["PARRY"] = 1,
-							["hit"] = 2,
-							["criticalmax"] = 11839,
-							["count"] = 7,
-							["amount"] = 40576,
-							["school"] = 1,
 							["hitmax"] = 4578,
-							["critical"] = 4,
+							["amount"] = 40576,
+							["casts"] = 9,
+							["count"] = 7,
+							["hit"] = 2,
+							["school"] = 1,
+							["criticalmax"] = 11839,
+							["PARRY"] = 1,
 							["hitamount"] = 9089,
 						},
 						["Chaos Bane"] = {
@@ -23450,14 +23444,14 @@ SkadaStorageDB = {
 								["Ghostly Priest"] = {
 									["amount"] = 1109,
 								},
-								["Falric"] = {
-									["amount"] = 3027,
+								["Shadowy Mercenary"] = {
+									["amount"] = 1133,
 								},
 								["Spectral Footman"] = {
 									["amount"] = 1031,
 								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 1133,
+								["Falric"] = {
+									["amount"] = 3027,
 								},
 							},
 							["casts"] = 1,
@@ -23469,11 +23463,11 @@ SkadaStorageDB = {
 							["hitamount"] = 6300,
 						},
 						["Death Coil"] = {
-							["criticalamount"] = 15449,
-							["hitmin"] = 914,
 							["criticalmin"] = 7199,
+							["hitmin"] = 914,
+							["criticalamount"] = 15449,
 							["id"] = 47632,
-							["hitmax"] = 5329,
+							["casts"] = 9,
 							["targets"] = {
 								["Spectral Footman"] = {
 									["amount"] = 23380,
@@ -23482,14 +23476,14 @@ SkadaStorageDB = {
 									["amount"] = 18566,
 								},
 							},
-							["critical"] = 2,
-							["hit"] = 7,
-							["criticalmax"] = 8250,
 							["count"] = 9,
 							["amount"] = 41946,
+							["criticalmax"] = 8250,
+							["hitmax"] = 5329,
+							["hit"] = 7,
 							["school"] = 32,
 							["resisted"] = 228,
-							["casts"] = 9,
+							["critical"] = 2,
 							["hitamount"] = 26497,
 						},
 						["Unholy Blight (DoT)"] = {
@@ -23503,8 +23497,8 @@ SkadaStorageDB = {
 									["amount"] = 1676,
 								},
 							},
-							["hitmax"] = 151,
 							["count"] = 23,
+							["hitmax"] = 151,
 							["hit"] = 23,
 							["school"] = 32,
 							["resisted"] = 60,
@@ -23524,19 +23518,19 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 10404,
 								},
-								["Falric"] = {
-									["amount"] = 11319,
+								["Ghostly Priest"] = {
+									["amount"] = 8468,
 								},
 								["Tortured Rifleman"] = {
 									["amount"] = 5431,
 								},
-								["Ghostly Priest"] = {
-									["amount"] = 8468,
+								["Falric"] = {
+									["amount"] = 11319,
 								},
 							},
-							["hitmax"] = 1938,
-							["casts"] = 1,
 							["count"] = 38,
+							["casts"] = 1,
+							["hitmax"] = 1938,
 							["hit"] = 38,
 							["school"] = 32,
 							["resisted"] = 1024,
@@ -23558,24 +23552,24 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 4185,
 								},
-								["Falric"] = {
-									["amount"] = 2743,
+								["Tortured Rifleman"] = {
+									["amount"] = 1874,
 								},
 								["Ghostly Priest"] = {
 									["amount"] = 1007,
 								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1874,
+								["Falric"] = {
+									["amount"] = 2743,
 								},
 							},
+							["count"] = 16,
+							["amount"] = 17791,
 							["criticalmax"] = 2210,
 							["hitmax"] = 1007,
-							["casts"] = 1,
-							["critical"] = 5,
 							["hit"] = 11,
 							["school"] = 1,
-							["amount"] = 17791,
-							["count"] = 16,
+							["critical"] = 5,
+							["casts"] = 1,
 							["hitamount"] = 9499,
 						},
 						["Melee (Pebblebasher)"] = {
@@ -23592,14 +23586,14 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 6158,
 								},
-								["Falric"] = {
-									["amount"] = 1888,
+								["Tortured Rifleman"] = {
+									["amount"] = 1938,
 								},
 								["Ghostly Priest"] = {
 									["amount"] = 649,
 								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1938,
+								["Falric"] = {
+									["amount"] = 1888,
 								},
 							},
 							["glancing"] = 2,
@@ -23608,13 +23602,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 5874,
 							["id"] = 6603,
 							["glancemax"] = 260,
-							["critical"] = 5,
-							["criticalmax"] = 1492,
 							["hitmax"] = 747,
+							["criticalmax"] = 1492,
+							["critical"] = 5,
 							["hit"] = 24,
 							["school"] = 1,
-							["blocked"] = 40,
 							["count"] = 31,
+							["blocked"] = 40,
 							["hitamount"] = 13550,
 						},
 						["Melee"] = {
@@ -23631,11 +23625,11 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 33855,
 								},
-								["Falric"] = {
-									["amount"] = 36688,
-								},
 								["Ghostly Priest"] = {
 									["amount"] = 7203,
+								},
+								["Falric"] = {
+									["amount"] = 36688,
 								},
 							},
 							["glancing"] = 3,
@@ -23644,14 +23638,14 @@ SkadaStorageDB = {
 							["criticalamount"] = 82632,
 							["id"] = 6603,
 							["glancemax"] = 3219,
+							["criticalmax"] = 8606,
+							["critical"] = 12,
 							["PARRY"] = 1,
 							["hitmax"] = 4286,
-							["criticalmax"] = 8606,
-							["count"] = 26,
 							["hit"] = 10,
 							["school"] = 1,
 							["blocked"] = 80,
-							["critical"] = 12,
+							["count"] = 26,
 							["hitamount"] = 30835,
 						},
 						["Blood-Caked Strike"] = {
@@ -23671,13 +23665,13 @@ SkadaStorageDB = {
 									["amount"] = 9677,
 								},
 							},
-							["blocked"] = 40,
+							["hit"] = 11,
 							["casts"] = 1,
 							["count"] = 11,
-							["hit"] = 11,
+							["blocked"] = 40,
 							["school"] = 1,
-							["hitmax"] = 2771,
 							["amount"] = 23084,
+							["hitmax"] = 2771,
 							["hitamount"] = 23084,
 						},
 						["Retribution Aura"] = {
@@ -23687,11 +23681,11 @@ SkadaStorageDB = {
 								["Tortured Rifleman"] = {
 									["amount"] = 318,
 								},
-								["Ghostly Priest"] = {
-									["amount"] = 683,
-								},
 								["Spectral Footman"] = {
 									["amount"] = 1108,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 683,
 								},
 							},
 							["casts"] = 1,
@@ -23702,32 +23696,25 @@ SkadaStorageDB = {
 							["amount"] = 2109,
 							["hitamount"] = 2109,
 						},
-						["Blood Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 642,
-							["criticalamount"] = 9510,
-							["id"] = 49930,
-							["criticalmin"] = 4206,
+						["Icy Touch"] = {
+							["hitmin"] = 1299,
+							["id"] = 49909,
 							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 0,
+								["Phantom Mage"] = {
+									["amount"] = 4006,
 								},
 								["Falric"] = {
-									["amount"] = 13933,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2574,
+									["amount"] = 3056,
 								},
 							},
-							["criticalmax"] = 5304,
-							["hitmax"] = 2640,
-							["casts"] = 7,
-							["critical"] = 2,
+							["count"] = 4,
+							["casts"] = 4,
+							["hitmax"] = 2019,
 							["hit"] = 4,
-							["school"] = 1,
-							["amount"] = 16507,
-							["count"] = 7,
-							["hitamount"] = 6997,
+							["school"] = 16,
+							["resisted"] = 195,
+							["amount"] = 7062,
+							["hitamount"] = 7062,
 						},
 						["Scourge Strike (Shadow)"] = {
 							["hitmin"] = 1382,
@@ -23740,9 +23727,9 @@ SkadaStorageDB = {
 									["amount"] = 13367,
 								},
 							},
-							["hitmax"] = 5634,
-							["casts"] = 1,
 							["count"] = 6,
+							["casts"] = 1,
+							["hitmax"] = 5634,
 							["hit"] = 6,
 							["school"] = 32,
 							["resisted"] = 864,
@@ -23757,23 +23744,23 @@ SkadaStorageDB = {
 									["amount"] = 5963,
 								},
 								["Shadowy Mercenary"] = {
-									["overkill"] = 710,
 									["amount"] = 722,
+									["overkill"] = 710,
 								},
 								["Spectral Footman"] = {
 									["amount"] = 6770,
 								},
-								["Falric"] = {
-									["amount"] = 6650,
-								},
 								["Ghostly Priest"] = {
 									["amount"] = 1440,
 								},
+								["Falric"] = {
+									["amount"] = 6650,
+								},
 							},
 							["overkill"] = 710,
-							["hitmax"] = 1721,
-							["casts"] = 1,
 							["count"] = 23,
+							["casts"] = 1,
+							["hitmax"] = 1721,
 							["hit"] = 23,
 							["school"] = 32,
 							["resisted"] = 340,
@@ -23793,44 +23780,46 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 9554,
 								},
-								["Falric"] = {
-									["amount"] = 11754,
+								["Ghostly Priest"] = {
+									["amount"] = 7853,
 								},
 								["Tortured Rifleman"] = {
 									["amount"] = 2938,
 								},
-								["Ghostly Priest"] = {
-									["amount"] = 7853,
+								["Falric"] = {
+									["amount"] = 11754,
 								},
 							},
-							["hitmax"] = 1792,
 							["count"] = 29,
+							["hitmax"] = 1792,
 							["hit"] = 29,
 							["school"] = 32,
 							["resisted"] = 598,
 							["amount"] = 44826,
 							["hitamount"] = 44826,
 						},
-						["Gargoyle Strike (Ebon Gargoyle)"] = {
-							["criticalamount"] = 5291,
-							["hitmin"] = 1170,
-							["criticalmin"] = 5291,
-							["id"] = 51963,
-							["hitmax"] = 3529,
+						["Plague Strike"] = {
+							["hitmin"] = 1332,
+							["criticalamount"] = 5999,
+							["id"] = 49921,
+							["criticalmin"] = 5999,
 							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 5112,
+								},
 								["Falric"] = {
-									["amount"] = 27332,
+									["amount"] = 7331,
 								},
 							},
+							["count"] = 4,
+							["amount"] = 12443,
+							["criticalmax"] = 5999,
+							["hitmax"] = 2566,
+							["hit"] = 3,
+							["school"] = 1,
 							["critical"] = 1,
-							["hit"] = 10,
-							["criticalmax"] = 5291,
-							["count"] = 11,
-							["amount"] = 27332,
-							["school"] = 8,
-							["resisted"] = 234,
-							["casts"] = 1,
-							["hitamount"] = 22041,
+							["casts"] = 4,
+							["hitamount"] = 6444,
 						},
 						["Death and Decay"] = {
 							["hitmin"] = 712,
@@ -23847,53 +23836,51 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 26067,
 								},
-								["Tortured Rifleman"] = {
-									["amount"] = 13279,
-								},
 								["Phantom Mage"] = {
 									["amount"] = 4934,
 								},
+								["Tortured Rifleman"] = {
+									["amount"] = 13279,
+								},
 							},
+							["count"] = 69,
+							["amount"] = 87575,
 							["criticalmax"] = 2297,
 							["hitmax"] = 1099,
-							["casts"] = 2,
-							["critical"] = 23,
 							["hit"] = 46,
 							["school"] = 32,
-							["amount"] = 87575,
-							["count"] = 69,
+							["critical"] = 23,
+							["casts"] = 2,
 							["hitamount"] = 44389,
 						},
-						["Plague Strike"] = {
-							["hitmin"] = 1332,
-							["criticalamount"] = 5999,
-							["id"] = 49921,
-							["criticalmin"] = 5999,
+						["Gargoyle Strike (Ebon Gargoyle)"] = {
+							["criticalmin"] = 5291,
+							["hitmin"] = 1170,
+							["criticalamount"] = 5291,
+							["id"] = 51963,
+							["casts"] = 1,
 							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 5112,
-								},
 								["Falric"] = {
-									["amount"] = 7331,
+									["amount"] = 27332,
 								},
 							},
-							["criticalmax"] = 5999,
-							["hitmax"] = 2566,
-							["casts"] = 4,
+							["count"] = 11,
+							["amount"] = 27332,
+							["criticalmax"] = 5291,
+							["hitmax"] = 3529,
+							["hit"] = 10,
+							["school"] = 8,
+							["resisted"] = 234,
 							["critical"] = 1,
-							["hit"] = 3,
-							["school"] = 1,
-							["amount"] = 12443,
-							["count"] = 4,
-							["hitamount"] = 6444,
+							["hitamount"] = 22041,
 						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 943,
 							["id"] = 55095,
 							["targets"] = {
 								["Phantom Mage"] = {
-									["overkill"] = 230,
 									["amount"] = 7200,
+									["overkill"] = 230,
 								},
 								["Shadowy Mercenary"] = {
 									["amount"] = 9640,
@@ -23901,44 +23888,51 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 11413,
 								},
-								["Falric"] = {
-									["amount"] = 13528,
+								["Ghostly Priest"] = {
+									["amount"] = 9371,
 								},
 								["Tortured Rifleman"] = {
 									["amount"] = 3524,
 								},
-								["Ghostly Priest"] = {
-									["amount"] = 9371,
+								["Falric"] = {
+									["amount"] = 13528,
 								},
 							},
 							["overkill"] = 230,
-							["hitmax"] = 2059,
 							["count"] = 31,
+							["hitmax"] = 2059,
 							["hit"] = 31,
 							["school"] = 16,
 							["resisted"] = 764,
 							["amount"] = 54676,
 							["hitamount"] = 54676,
 						},
-						["Icy Touch"] = {
-							["hitmin"] = 1299,
-							["id"] = 49909,
+						["Blood Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 642,
+							["criticalamount"] = 9510,
+							["id"] = 49930,
+							["criticalmin"] = 4206,
 							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 4006,
+								["Spectral Footman"] = {
+									["amount"] = 0,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2574,
 								},
 								["Falric"] = {
-									["amount"] = 3056,
+									["amount"] = 13933,
 								},
 							},
-							["hitmax"] = 2019,
-							["casts"] = 4,
-							["count"] = 4,
+							["count"] = 7,
+							["amount"] = 16507,
+							["criticalmax"] = 5304,
+							["hitmax"] = 2640,
 							["hit"] = 4,
-							["school"] = 16,
-							["resisted"] = 195,
-							["amount"] = 7062,
-							["hitamount"] = 7062,
+							["school"] = 1,
+							["critical"] = 2,
+							["casts"] = 7,
+							["hitamount"] = 6997,
 						},
 					},
 					["id"] = "0x070000000000D01B",
@@ -23946,32 +23940,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 3637,
-							["school"] = 1,
+							["min"] = 1,
 							["count"] = 76,
 							["amount"] = 5091,
-							["max"] = 381,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 3637,
 									["amount"] = 5091,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 1,
+							["max"] = 381,
 						},
 						[53365] = {
 							["overheal"] = 1120,
 							["count"] = 1,
 							["amount"] = 20,
 							["school"] = 1,
-							["max"] = 20,
+							["min"] = 20,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 1120,
 									["amount"] = 20,
 								},
 							},
-							["min"] = 20,
+							["max"] = 20,
 						},
 					},
 					["damagetakenspells"] = {
@@ -23995,82 +23989,82 @@ SkadaStorageDB = {
 							["total"] = 15221,
 							["hitmin"] = 281,
 							["id"] = 6603,
+							["PARRY"] = 2,
+							["count"] = 10,
 							["sources"] = {
 								["Spectral Footman"] = {
 									["amount"] = 6672,
 								},
+								["Phantom Mage"] = {
+									["amount"] = 0,
+									["total"] = 1537,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 281,
+									["total"] = 1874,
+								},
 								["Ghostly Priest"] = {
 									["amount"] = 5138,
 								},
-								["Tortured Rifleman"] = {
-									["total"] = 1874,
-									["amount"] = 281,
-								},
-								["Phantom Mage"] = {
-									["total"] = 1537,
-									["amount"] = 0,
-								},
 							},
-							["amount"] = 12091,
-							["PARRY"] = 2,
 							["hitmax"] = 2687,
-							["ABSORB"] = 1,
+							["amount"] = 12091,
 							["school"] = 1,
 							["hit"] = 6,
-							["count"] = 10,
+							["ABSORB"] = 1,
 							["hitamount"] = 12091,
 						},
 						["Shadow Word: Pain (DoT)"] = {
 							["total"] = 6014,
 							["hitmin"] = 226,
 							["id"] = 72319,
-							["hitmax"] = 1746,
-							["hit"] = 3,
+							["count"] = 4,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Ghostly Priest"] = {
-									["total"] = 6014,
 									["amount"] = 3330,
+									["total"] = 6014,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 3330,
+							["hitmax"] = 1746,
+							["hit"] = 3,
 							["school"] = 32,
 							["resisted"] = 1164,
-							["ABSORB"] = 1,
+							["amount"] = 3330,
 							["hitamount"] = 3330,
 						},
 						["Frostbolt"] = {
 							["total"] = 8311,
 							["hitmin"] = 1479,
 							["id"] = 72167,
-							["ABSORB"] = 1,
+							["hit"] = 1,
 							["sources"] = {
 								["Phantom Mage"] = {
-									["total"] = 8311,
 									["amount"] = 1479,
+									["total"] = 8311,
 								},
 							},
 							["count"] = 2,
-							["hit"] = 1,
+							["ABSORB"] = 1,
 							["school"] = 16,
-							["hitmax"] = 1479,
 							["amount"] = 1479,
+							["hitmax"] = 1479,
 							["hitamount"] = 1479,
 						},
 						["Spectral Strike"] = {
 							["hitmin"] = 5455,
 							["id"] = 72688,
-							["hitmax"] = 5455,
+							["count"] = 2,
 							["sources"] = {
 								["Spectral Footman"] = {
 									["amount"] = 5455,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 5455,
 							["hit"] = 1,
 							["school"] = 1,
-							["PARRY"] = 1,
 							["amount"] = 5455,
+							["PARRY"] = 1,
 							["hitamount"] = 5455,
 						},
 						["Circle of Destruction"] = {
@@ -24089,12 +24083,12 @@ SkadaStorageDB = {
 							["hitamount"] = 5321,
 						},
 					},
-					["overkill"] = 940,
+					["overheal"] = 4757,
 					["heal"] = 5111,
 					["name"] = "Urgash",
 					["ccdone"] = 1,
 					["interrupt"] = 1,
-					["overheal"] = 4757,
+					["overkill"] = 940,
 					["interruptspells"] = {
 						[47528] = {
 							["spells"] = {
@@ -24106,7 +24100,9 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["runicspells"] = {
+						[45529] = 10,
+					},
 				}, -- [1]
 				{
 					["ccdonespells"] = {
@@ -24153,10 +24149,10 @@ SkadaStorageDB = {
 							["uptime"] = 85,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["refresh"] = 3,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -24218,26 +24214,26 @@ SkadaStorageDB = {
 									["uptime"] = 17,
 									["count"] = 3,
 								},
-								["Falric"] = {
-									["uptime"] = 16,
-									["count"] = 2,
+								["Ghostly Priest"] = {
+									["uptime"] = 15,
+									["count"] = 3,
 								},
 								["Tortured Rifleman"] = {
 									["uptime"] = 9,
 									["count"] = 2,
 								},
-								["Ghostly Priest"] = {
-									["uptime"] = 15,
-									["count"] = 3,
+								["Falric"] = {
+									["uptime"] = 16,
+									["count"] = 2,
 								},
 							},
 							["uptime"] = 37,
 						},
 						[54428] = {
-							["type"] = "BUFF",
-							["refresh"] = 53,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 53,
 						},
 						[552] = {
 							["school"] = 2,
@@ -24332,20 +24328,20 @@ SkadaStorageDB = {
 									["uptime"] = 6,
 									["count"] = 1,
 								},
-								["Falric"] = {
-									["refresh"] = 20,
+								["Tortured Rifleman"] = {
+									["refresh"] = 1,
 									["count"] = 1,
-									["uptime"] = 30,
+									["uptime"] = 10,
 								},
 								["Ghostly Priest"] = {
 									["refresh"] = 5,
 									["count"] = 2,
 									["uptime"] = 11,
 								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 1,
+								["Falric"] = {
+									["refresh"] = 20,
 									["count"] = 1,
-									["uptime"] = 10,
+									["uptime"] = 30,
 								},
 							},
 							["uptime"] = 62,
@@ -24383,15 +24379,40 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 85,
 						},
-						[20132] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["refresh"] = 13,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 14,
+									["count"] = 2,
+								},
+								["Ghostly Priest"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 6,
+								},
+								["Phantom Mage"] = {
+									["refresh"] = 4,
+									["count"] = 2,
+									["uptime"] = 12,
+								},
+								["Falric"] = {
+									["refresh"] = 8,
+									["count"] = 1,
+									["uptime"] = 27,
+								},
+							},
+							["uptime"] = 57,
 						},
-						[63944] = {
+						[25780] = {
 							["type"] = "BUFF",
-							["refresh"] = 4,
 							["count"] = 1,
 							["uptime"] = 85,
 						},
@@ -24402,11 +24423,11 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 66,
 						},
-						[47753] = {
-							["school"] = 2,
+						[63944] = {
+							["uptime"] = 85,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 21,
+							["count"] = 1,
+							["refresh"] = 4,
 						},
 						[48952] = {
 							["school"] = 2,
@@ -24424,7 +24445,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 85,
 						},
-						[6562] = {
+						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 85,
@@ -24451,7 +24472,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[48074] = {
+						[6562] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 85,
@@ -24474,42 +24495,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 28,
 						},
-						[25780] = {
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 21,
+						},
+						[20132] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 85,
-						},
-						[26017] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 2,
-							["refresh"] = 13,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 14,
-									["count"] = 2,
-								},
-								["Falric"] = {
-									["refresh"] = 8,
-									["count"] = 1,
-									["uptime"] = 27,
-								},
-								["Phantom Mage"] = {
-									["refresh"] = 4,
-									["count"] = 2,
-									["uptime"] = 12,
-								},
-								["Ghostly Priest"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 57,
+							["uptime"] = 8,
 						},
 					},
 					["dispel"] = 2,
@@ -24531,19 +24527,19 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 9568,
 								},
-								["Falric"] = {
-									["amount"] = 6568,
+								["Phantom Mage"] = {
+									["amount"] = 3588,
 								},
 								["Tortured Rifleman"] = {
 									["amount"] = 5244,
 								},
-								["Phantom Mage"] = {
-									["amount"] = 3588,
+								["Falric"] = {
+									["amount"] = 6568,
 								},
 							},
-							["hitmax"] = 598,
-							["casts"] = 5,
 							["count"] = 78,
+							["casts"] = 5,
+							["hitmax"] = 598,
 							["hit"] = 78,
 							["school"] = 2,
 							["resisted"] = 162,
@@ -24561,14 +24557,14 @@ SkadaStorageDB = {
 								["Shadowy Mercenary"] = {
 									["amount"] = 6062,
 								},
-								["Falric"] = {
-									["amount"] = 12854,
+								["Tortured Rifleman"] = {
+									["amount"] = 1621,
 								},
 								["Ghostly Priest"] = {
 									["amount"] = 5791,
 								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1621,
+								["Falric"] = {
+									["amount"] = 12854,
 								},
 							},
 							["glancing"] = 3,
@@ -24577,33 +24573,79 @@ SkadaStorageDB = {
 							["criticalamount"] = 13254,
 							["id"] = 6603,
 							["glancemax"] = 936,
-							["count"] = 37,
-							["criticalmax"] = 1798,
 							["critical"] = 9,
+							["criticalmax"] = 1798,
+							["count"] = 37,
 							["hit"] = 25,
 							["school"] = 1,
-							["blocked"] = 80,
 							["hitmax"] = 928,
+							["blocked"] = 80,
 							["hitamount"] = 17939,
 						},
-						["Holy Wrath"] = {
-							["hitmin"] = 2288,
-							["id"] = 48817,
+						["Seal of Vengeance"] = {
+							["criticalmin"] = 192,
+							["amount"] = 14384,
+							["hitmin"] = 57,
+							["criticalamount"] = 3041,
+							["id"] = 42463,
+							["casts"] = 1,
 							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 2288,
+								["Phantom Mage"] = {
+									["amount"] = 1672,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 2350,
+									["amount"] = 2375,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 190,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 1295,
+								},
+								["Falric"] = {
+									["amount"] = 8852,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
+							["count"] = 49,
+							["hit"] = 43,
+							["criticalmax"] = 848,
+							["hitmax"] = 560,
+							["blocked"] = 122,
 							["school"] = 2,
-							["hitmax"] = 2350,
-							["amount"] = 4638,
-							["hitamount"] = 4638,
+							["resisted"] = 459,
+							["critical"] = 6,
+							["hitamount"] = 11343,
+						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 250,
+							["id"] = 31803,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 3367,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3001,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 500,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 1500,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 1251,
+								},
+								["Falric"] = {
+									["amount"] = 6806,
+								},
+							},
+							["count"] = 25,
+							["hitmax"] = 1251,
+							["hit"] = 25,
+							["school"] = 2,
+							["resisted"] = 199,
+							["amount"] = 16425,
+							["hitamount"] = 16425,
 						},
 						["Hammer of Wrath"] = {
 							["hitmin"] = 820,
@@ -24620,37 +24662,6 @@ SkadaStorageDB = {
 							["hitmax"] = 820,
 							["amount"] = 820,
 							["hitamount"] = 820,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 250,
-							["id"] = 31803,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 3367,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 3001,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 500,
-								},
-								["Falric"] = {
-									["amount"] = 6806,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 1251,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 1500,
-								},
-							},
-							["hitmax"] = 1251,
-							["count"] = 25,
-							["hit"] = 25,
-							["school"] = 2,
-							["resisted"] = 199,
-							["amount"] = 16425,
-							["hitamount"] = 16425,
 						},
 						["Retribution Aura"] = {
 							["hitmin"] = 205,
@@ -24698,9 +24709,9 @@ SkadaStorageDB = {
 									["amount"] = 5437,
 								},
 							},
-							["hitmax"] = 2417,
-							["casts"] = 1,
 							["count"] = 5,
+							["casts"] = 1,
+							["hitmax"] = 2417,
 							["hit"] = 5,
 							["school"] = 2,
 							["resisted"] = 278,
@@ -24708,11 +24719,11 @@ SkadaStorageDB = {
 							["hitamount"] = 9664,
 						},
 						["Hammer of the Righteous"] = {
-							["criticalamount"] = 28626,
-							["hitmin"] = 1073,
 							["criticalmin"] = 9542,
+							["hitmin"] = 1073,
+							["criticalamount"] = 28626,
 							["id"] = 53595,
-							["hitmax"] = 4771,
+							["casts"] = 10,
 							["targets"] = {
 								["Phantom Mage"] = {
 									["amount"] = 18815,
@@ -24723,21 +24734,21 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 4771,
 								},
-								["Falric"] = {
-									["amount"] = 15673,
-								},
 								["Ghostly Priest"] = {
 									["amount"] = 14313,
 								},
+								["Falric"] = {
+									["amount"] = 15673,
+								},
 							},
-							["critical"] = 3,
-							["hit"] = 12,
-							["criticalmax"] = 9542,
 							["count"] = 15,
 							["amount"] = 76878,
+							["criticalmax"] = 9542,
+							["hitmax"] = 4771,
+							["hit"] = 12,
 							["school"] = 2,
 							["resisted"] = 476,
-							["casts"] = 10,
+							["critical"] = 3,
 							["hitamount"] = 48252,
 						},
 						["Silenced - Shield of the Templar"] = {
@@ -24760,14 +24771,14 @@ SkadaStorageDB = {
 								["Tortured Rifleman"] = {
 									["amount"] = 1076,
 								},
-								["Falric"] = {
-									["amount"] = 807,
+								["Shadowy Mercenary"] = {
+									["amount"] = 2152,
 								},
 								["Ghostly Priest"] = {
 									["amount"] = 2152,
 								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2152,
+								["Falric"] = {
+									["amount"] = 807,
 								},
 							},
 							["casts"] = 2,
@@ -24787,24 +24798,24 @@ SkadaStorageDB = {
 								["Tortured Rifleman"] = {
 									["amount"] = 4594,
 								},
-								["Falric"] = {
-									["amount"] = 1166,
+								["Shadowy Mercenary"] = {
+									["amount"] = 2249,
 								},
 								["Phantom Mage"] = {
 									["amount"] = 2475,
 								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2249,
+								["Falric"] = {
+									["amount"] = 1166,
 								},
 							},
+							["count"] = 4,
+							["amount"] = 10484,
 							["criticalmax"] = 4594,
 							["hitmax"] = 2475,
-							["casts"] = 2,
-							["critical"] = 1,
 							["hit"] = 3,
 							["school"] = 2,
-							["amount"] = 10484,
-							["count"] = 4,
+							["critical"] = 1,
+							["casts"] = 2,
 							["hitamount"] = 5890,
 						},
 						["Shield of Righteousness"] = {
@@ -24814,58 +24825,43 @@ SkadaStorageDB = {
 								["Tortured Rifleman"] = {
 									["amount"] = 3964,
 								},
-								["Falric"] = {
-									["amount"] = 11892,
+								["Shadowy Mercenary"] = {
+									["amount"] = 3963,
 								},
 								["Ghostly Priest"] = {
 									["amount"] = 3963,
 								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 3963,
+								["Falric"] = {
+									["amount"] = 11892,
 								},
 							},
-							["hitmax"] = 3964,
-							["casts"] = 8,
 							["count"] = 8,
+							["casts"] = 8,
+							["hitmax"] = 3964,
 							["hit"] = 8,
 							["school"] = 2,
 							["resisted"] = 990,
 							["amount"] = 23782,
 							["hitamount"] = 23782,
 						},
-						["Seal of Vengeance"] = {
-							["criticalamount"] = 3041,
-							["hitmax"] = 560,
-							["hitmin"] = 57,
-							["criticalmin"] = 192,
-							["id"] = 42463,
-							["criticalmax"] = 848,
+						["Holy Wrath"] = {
+							["hitmin"] = 2288,
+							["id"] = 48817,
 							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 1672,
+								["Spectral Footman"] = {
+									["amount"] = 2288,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 2375,
-								},
-								["Falric"] = {
-									["amount"] = 8852,
-								},
-								["Ghostly Priest"] = {
-									["amount"] = 1295,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 190,
+									["amount"] = 2350,
 								},
 							},
-							["critical"] = 6,
-							["blocked"] = 122,
 							["casts"] = 1,
-							["count"] = 49,
-							["hit"] = 43,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 2,
-							["resisted"] = 459,
-							["amount"] = 14384,
-							["hitamount"] = 11343,
+							["hitmax"] = 2350,
+							["amount"] = 4638,
+							["hitamount"] = 4638,
 						},
 					},
 					["damagetaken"] = 15031,
@@ -24874,11 +24870,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 30385,
-							["max"] = 1285,
+							["min"] = 33,
 							["count"] = 76,
 							["amount"] = 8672,
-							["school"] = 2,
-							["ishot"] = true,
+							["max"] = 1285,
 							["targets"] = {
 								["Pebblebasher"] = {
 									["overheal"] = 1856,
@@ -24892,28 +24887,29 @@ SkadaStorageDB = {
 									["overheal"] = 11061,
 									["amount"] = 5314,
 								},
-								["Rune Weapon"] = {
-									["overheal"] = 636,
+								["Giveme"] = {
+									["overheal"] = 4291,
 									["amount"] = 0,
 								},
 								["Xenaprincesa"] = {
 									["overheal"] = 4666,
 									["amount"] = 841,
 								},
-								["Ebon Gargoyle"] = {
-									["overheal"] = 1579,
-									["amount"] = 0,
-								},
 								["Bloodworm"] = {
 									["overheal"] = 70,
 									["amount"] = 0,
 								},
-								["Giveme"] = {
-									["overheal"] = 4291,
+								["Ebon Gargoyle"] = {
+									["overheal"] = 1579,
+									["amount"] = 0,
+								},
+								["Rune Weapon"] = {
+									["overheal"] = 636,
 									["amount"] = 0,
 								},
 							},
-							["min"] = 33,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -24922,26 +24918,26 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
+							["id"] = 72323,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Ghostly Priest"] = {
-									["total"] = 2639,
 									["amount"] = 0,
+									["total"] = 2639,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 72323,
 						},
 						["Quivering Strike"] = {
 							["PARRY"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 72453,
 							["sources"] = {
 								["Falric"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 72453,
 						},
 						["Kidney Shot"] = {
 							["DODGE"] = 1,
@@ -24971,111 +24967,111 @@ SkadaStorageDB = {
 							["total"] = 1114,
 							["hitmin"] = 591,
 							["id"] = 72211,
-							["BLOCK"] = 1,
-							["amount"] = 591,
+							["count"] = 2,
+							["hit"] = 1,
 							["sources"] = {
 								["Tortured Rifleman"] = {
-									["total"] = 1114,
 									["amount"] = 591,
+									["total"] = 1114,
 								},
 							},
-							["count"] = 2,
-							["blocked"] = 1061,
+							["BLOCK"] = 1,
+							["amount"] = 591,
 							["school"] = 1,
 							["hitmax"] = 591,
-							["hit"] = 1,
+							["blocked"] = 1061,
 							["hitamount"] = 591,
 						},
 						["Deadly Poison (DoT)"] = {
 							["total"] = 5673,
 							["hitmin"] = 688,
 							["id"] = 72330,
-							["hitmax"] = 1203,
-							["hit"] = 5,
+							["count"] = 7,
+							["ABSORB"] = 2,
 							["sources"] = {
 								["Shadowy Mercenary"] = {
-									["total"] = 5673,
 									["amount"] = 4213,
+									["total"] = 5673,
 								},
 							},
-							["count"] = 7,
-							["amount"] = 4213,
+							["hitmax"] = 1203,
+							["hit"] = 5,
 							["school"] = 8,
 							["resisted"] = 941,
-							["ABSORB"] = 2,
+							["amount"] = 4213,
 							["hitamount"] = 4213,
 						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 1613,
-							["id"] = 72319,
-							["hitmax"] = 1613,
+						["Melee"] = {
+							["DODGE"] = 11,
+							["total"] = 15412,
+							["hitmin"] = 2692,
+							["BLOCK"] = 8,
+							["id"] = 6603,
+							["blocked"] = 9509,
+							["ABSORB"] = 6,
+							["hitmax"] = 3001,
+							["hit"] = 2,
+							["PARRY"] = 5,
+							["count"] = 41,
+							["amount"] = 5693,
+							["school"] = 1,
 							["sources"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 1613,
+									["amount"] = 0,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 0,
+									["total"] = 1522,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 0,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 0,
+									["total"] = 1038,
+								},
+								["Falric"] = {
+									["amount"] = 5693,
+									["total"] = 12852,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 403,
-							["amount"] = 1613,
-							["hitamount"] = 1613,
+							["MISS"] = 9,
+							["hitamount"] = 5693,
 						},
 						["Envenomed Dagger Throw (DoT)"] = {
 							["hitmin"] = 602,
 							["id"] = 72334,
-							["hitmax"] = 858,
+							["count"] = 4,
 							["sources"] = {
 								["Shadowy Mercenary"] = {
 									["amount"] = 2921,
 								},
 							},
-							["count"] = 4,
+							["hitmax"] = 858,
 							["hit"] = 4,
 							["school"] = 8,
 							["resisted"] = 513,
 							["amount"] = 2921,
 							["hitamount"] = 2921,
 						},
-						["Melee"] = {
-							["DODGE"] = 11,
-							["total"] = 15412,
-							["hitmin"] = 2692,
-							["amount"] = 5693,
-							["id"] = 6603,
-							["count"] = 41,
-							["PARRY"] = 5,
-							["BLOCK"] = 8,
-							["blocked"] = 9509,
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 1613,
+							["id"] = 72319,
+							["count"] = 1,
 							["sources"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 0,
-								},
-								["Shadowy Mercenary"] = {
-									["total"] = 1522,
-									["amount"] = 0,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 0,
-								},
-								["Falric"] = {
-									["total"] = 12852,
-									["amount"] = 5693,
-								},
-								["Phantom Mage"] = {
-									["total"] = 1038,
-									["amount"] = 0,
+									["amount"] = 1613,
 								},
 							},
-							["hitmax"] = 3001,
-							["hit"] = 2,
-							["school"] = 1,
-							["ABSORB"] = 6,
-							["MISS"] = 9,
-							["hitamount"] = 5693,
+							["hitmax"] = 1613,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 403,
+							["amount"] = 1613,
+							["hitamount"] = 1613,
 						},
 					},
-					["overheal"] = 30385,
+					["role"] = "TANK",
 					["heal"] = 8672,
 					["manaspells"] = {
 						[31786] = 549,
@@ -25097,7 +25093,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "TANK",
+					["overheal"] = 30385,
 				}, -- [2]
 				{
 					["last"] = 12869.752,
@@ -25122,10 +25118,10 @@ SkadaStorageDB = {
 							["uptime"] = 85,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 4,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -25133,10 +25129,10 @@ SkadaStorageDB = {
 							["uptime"] = 85,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["refresh"] = 3,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
 						},
 						[15359] = {
 							["school"] = 2,
@@ -25161,11 +25157,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 85,
 						},
-						[48111] = {
-							["school"] = 2,
+						[48168] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 85,
 						},
 						[57669] = {
 							["type"] = "BUFF",
@@ -25176,29 +25171,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 85,
-						},
-						[6346] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 40,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 85,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[552] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -25228,10 +25200,34 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 79,
 						},
-						[48168] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 85,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[552] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[6346] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 40,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 					},
 					["absorbspells"] = {
@@ -25267,7 +25263,7 @@ SkadaStorageDB = {
 					["totaldamage"] = 339,
 					["time"] = 56.27999999999999,
 					["totaldamagetaken"] = 10262,
-					["dispel"] = 5,
+					["role"] = "HEALER",
 					["damage"] = 339,
 					["overheal"] = 32046,
 					["absorb"] = 46823,
@@ -25278,24 +25274,28 @@ SkadaStorageDB = {
 					["id"] = "0x07000000009DDD88",
 					["spec"] = 256,
 					["healspells"] = {
-						[52985] = {
-							["overheal"] = 687,
-							["criticalamount"] = 12815,
-							["max"] = 4444,
+						[48120] = {
+							["overheal"] = 11066,
+							["criticalamount"] = 0,
+							["max"] = 2527,
 							["targets"] = {
-								["Urgash"] = {
-									["overheal"] = 687,
-									["amount"] = 12815,
+								["Guakamole"] = {
+									["overheal"] = 6829,
+									["amount"] = 0,
+								},
+								["Niveaboy"] = {
+									["overheal"] = 4237,
+									["amount"] = 2527,
 								},
 							},
-							["min"] = 3987,
-							["criticalmax"] = 4444,
-							["critical"] = 3,
-							["amount"] = 12815,
+							["min"] = 2527,
+							["casts"] = 2,
+							["count"] = 4,
+							["amount"] = 2527,
 							["school"] = 2,
-							["criticalmin"] = 3987,
-							["casts"] = 3,
-							["count"] = 3,
+							["critical"] = 1,
+							["criticalmax"] = 0,
+							["criticalmin"] = 0,
 						},
 						[56160] = {
 							["overheal"] = 14818,
@@ -25328,8 +25328,27 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 8947,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["count"] = 22,
+							["criticalmin"] = 0,
+						},
+						[52985] = {
+							["overheal"] = 687,
+							["criticalamount"] = 12815,
+							["max"] = 4444,
+							["targets"] = {
+								["Urgash"] = {
+									["overheal"] = 687,
+									["amount"] = 12815,
+								},
+							},
+							["min"] = 3987,
+							["criticalmax"] = 4444,
+							["critical"] = 3,
+							["amount"] = 12815,
+							["school"] = 2,
+							["count"] = 3,
+							["casts"] = 3,
+							["criticalmin"] = 3987,
 						},
 						[33110] = {
 							["overheal"] = 5475,
@@ -25354,31 +25373,8 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 9704,
 							["school"] = 2,
+							["count"] = 4,
 							["criticalmin"] = 1479,
-							["count"] = 4,
-						},
-						[48120] = {
-							["overheal"] = 11066,
-							["criticalamount"] = 0,
-							["max"] = 2527,
-							["targets"] = {
-								["Guakamole"] = {
-									["overheal"] = 6829,
-									["amount"] = 0,
-								},
-								["Niveaboy"] = {
-									["overheal"] = 4237,
-									["amount"] = 2527,
-								},
-							},
-							["min"] = 2527,
-							["casts"] = 2,
-							["count"] = 4,
-							["amount"] = 2527,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["criticalmax"] = 0,
-							["critical"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -25387,28 +25383,28 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
+							["id"] = 72323,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Ghostly Priest"] = {
-									["total"] = 2888,
 									["amount"] = 0,
+									["total"] = 2888,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 72323,
 						},
 						["Envenomed Dagger Throw (DoT)"] = {
 							["total"] = 3719,
 							["count"] = 4,
 							["amount"] = 0,
 							["school"] = 8,
+							["id"] = 72334,
+							["ABSORB"] = 4,
 							["sources"] = {
 								["Shadowy Mercenary"] = {
-									["total"] = 3719,
 									["amount"] = 0,
+									["total"] = 3719,
 								},
 							},
-							["ABSORB"] = 4,
-							["id"] = 72334,
 						},
 						["Melee"] = {
 							["hitmin"] = 3655,
@@ -25426,13 +25422,6 @@ SkadaStorageDB = {
 							["hitamount"] = 3655,
 						},
 					},
-					["runic"] = 64,
-					["heal"] = 33993,
-					["manaspells"] = {
-						[47755] = 1282,
-					},
-					["name"] = "Niveaboy",
-					["mana"] = 1282,
 					["damagespells"] = {
 						["Retribution Aura"] = {
 							["hitmin"] = 339,
@@ -25451,6 +25440,13 @@ SkadaStorageDB = {
 							["hitamount"] = 339,
 						},
 					},
+					["heal"] = 33993,
+					["manaspells"] = {
+						[47755] = 1282,
+					},
+					["mana"] = 1282,
+					["name"] = "Niveaboy",
+					["runic"] = 64,
 					["dispelspells"] = {
 						[988] = {
 							["spells"] = {
@@ -25463,12 +25459,12 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Giveme"] = 2,
 								["Urgash"] = 1,
-								["Xenaprincesa"] = 1,
 								["Niveaboy"] = 1,
+								["Xenaprincesa"] = 1,
 							},
 						},
 					},
-					["role"] = "HEALER",
+					["dispel"] = 5,
 				}, -- [3]
 				{
 					["last"] = 12869.887,
@@ -25500,10 +25496,10 @@ SkadaStorageDB = {
 							["uptime"] = 65,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 4,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
 						},
 						[73422] = {
 							["school"] = 1,
@@ -25517,10 +25513,10 @@ SkadaStorageDB = {
 							["uptime"] = 85,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["refresh"] = 3,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
 						},
 						[71227] = {
 							["type"] = "BUFF",
@@ -25539,17 +25535,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 85,
 						},
-						[49028] = {
+						[71905] = {
 							["type"] = "BUFF",
-							["count"] = 2,
+							["count"] = 3,
 							["school"] = 1,
-							["targets"] = {
-								["Falric"] = {
-									["uptime"] = 17,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
+							["refresh"] = 19,
+							["uptime"] = 37,
 						},
 						[75456] = {
 							["school"] = 64,
@@ -25574,11 +25565,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 26,
 						},
-						[72412] = {
-							["school"] = 1,
+						[53365] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 59,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -25599,23 +25591,23 @@ SkadaStorageDB = {
 									["uptime"] = 22,
 									["count"] = 2,
 								},
-								["Falric"] = {
-									["refresh"] = 1,
-									["count"] = 3,
-									["uptime"] = 31,
+								["Ghostly Priest"] = {
+									["uptime"] = 19,
+									["count"] = 2,
 								},
 								["Tortured Rifleman"] = {
 									["uptime"] = 11,
 									["count"] = 1,
 								},
-								["Ghostly Priest"] = {
-									["uptime"] = 19,
-									["count"] = 2,
+								["Falric"] = {
+									["refresh"] = 1,
+									["count"] = 3,
+									["uptime"] = 31,
 								},
 							},
 							["uptime"] = 62,
 						},
-						[72221] = {
+						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 85,
@@ -25644,39 +25636,38 @@ SkadaStorageDB = {
 									["uptime"] = 22,
 									["count"] = 2,
 								},
-								["Falric"] = {
-									["refresh"] = 1,
-									["count"] = 3,
-									["uptime"] = 29,
+								["Ghostly Priest"] = {
+									["uptime"] = 19,
+									["count"] = 2,
 								},
 								["Tortured Rifleman"] = {
 									["uptime"] = 11,
 									["count"] = 1,
 								},
-								["Ghostly Priest"] = {
-									["uptime"] = 19,
-									["count"] = 2,
+								["Falric"] = {
+									["refresh"] = 1,
+									["count"] = 3,
+									["uptime"] = 29,
 								},
 							},
 							["uptime"] = 56,
 						},
 						[50449] = {
+							["uptime"] = 85,
 							["type"] = "BUFF",
+							["count"] = 1,
 							["refresh"] = 23,
-							["count"] = 1,
-							["uptime"] = 85,
 						},
-						[20217] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 85,
 						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 3,
+						[72412] = {
 							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 59,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[50421] = {
 							["school"] = 1,
@@ -25684,12 +25675,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[71905] = {
+						[49028] = {
 							["type"] = "BUFF",
-							["count"] = 3,
+							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 19,
-							["uptime"] = 37,
+							["targets"] = {
+								["Falric"] = {
+									["uptime"] = 17,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 17,
 						},
 					},
 					["totaldamage"] = 515892,
@@ -25716,23 +25712,23 @@ SkadaStorageDB = {
 							["count"] = 6,
 							["amount"] = 524,
 							["school"] = 1,
-							["criticalmin"] = 0,
 							["critical"] = 2,
+							["criticalmin"] = 0,
 						},
 						[50475] = {
 							["overheal"] = 12288,
-							["max"] = 366,
+							["min"] = 12,
 							["count"] = 56,
 							["amount"] = 1680,
-							["school"] = 1,
-							["ishot"] = true,
+							["max"] = 366,
 							["targets"] = {
 								["Xenaprincesa"] = {
 									["overheal"] = 12288,
 									["amount"] = 1680,
 								},
 							},
-							["min"] = 12,
+							["ishot"] = true,
+							["school"] = 1,
 						},
 						[45470] = {
 							["overheal"] = 10691,
@@ -25740,54 +25736,34 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 1549,
 							["max"] = 992,
-							["min"] = 557,
+							["school"] = 1,
 							["targets"] = {
 								["Xenaprincesa"] = {
 									["overheal"] = 10691,
 									["amount"] = 1549,
 								},
 							},
-							["school"] = 1,
+							["min"] = 557,
 						},
 						[50454] = {
 							["overheal"] = 11166,
 							["count"] = 36,
 							["amount"] = 1350,
 							["max"] = 343,
-							["school"] = 32,
+							["min"] = 17,
 							["targets"] = {
 								["Xenaprincesa"] = {
 									["overheal"] = 11166,
 									["amount"] = 1350,
 								},
 							},
-							["min"] = 17,
+							["school"] = 32,
 						},
 					},
 					["overkill"] = 11439,
 					["heal"] = 5103,
 					["name"] = "Xenaprincesa",
-					["runicspells"] = {
-						[50163] = 120,
-						[50422] = 10,
-					},
-					["damagetakenspells"] = {
-						["Circle of Destruction"] = {
-							["total"] = 3284,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["total"] = 3284,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72323,
-						},
-					},
-					["runic"] = 130,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Melee (Rune Weapon)"] = {
 							["glance"] = 2523,
@@ -25825,11 +25801,11 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 2308,
 								},
-								["Falric"] = {
-									["amount"] = 1516,
-								},
 								["Ghostly Priest"] = {
 									["amount"] = 2402,
+								},
+								["Falric"] = {
+									["amount"] = 1516,
 								},
 							},
 							["casts"] = 1,
@@ -25859,14 +25835,14 @@ SkadaStorageDB = {
 									["amount"] = 9153,
 								},
 							},
+							["count"] = 7,
+							["amount"] = 27416,
 							["criticalmax"] = 7242,
 							["hitmax"] = 3880,
-							["casts"] = 4,
-							["critical"] = 2,
 							["hit"] = 5,
 							["school"] = 32,
-							["amount"] = 27416,
-							["count"] = 7,
+							["critical"] = 2,
+							["casts"] = 4,
 							["hitamount"] = 18307,
 						},
 						["Melee (Bloodworm)"] = {
@@ -25877,14 +25853,14 @@ SkadaStorageDB = {
 								["Phantom Mage"] = {
 									["amount"] = 337,
 								},
-								["Falric"] = {
-									["amount"] = 3731,
+								["Shadowy Mercenary"] = {
+									["amount"] = 1524,
 								},
 								["Spectral Footman"] = {
 									["amount"] = 318,
 								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 1524,
+								["Falric"] = {
+									["amount"] = 3731,
 								},
 							},
 							["glancing"] = 4,
@@ -25934,43 +25910,43 @@ SkadaStorageDB = {
 							["hitamount"] = 1285,
 						},
 						["Heart Strike"] = {
-							["criticalmin"] = 3794,
-							["hitmin"] = 2487,
 							["criticalamount"] = 129849,
+							["hitmin"] = 2487,
+							["criticalmin"] = 3794,
 							["id"] = 55262,
-							["hitmax"] = 6305,
+							["criticalmax"] = 16538,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["overkill"] = 1176,
 									["amount"] = 51058,
+									["overkill"] = 1176,
 								},
 								["Shadowy Mercenary"] = {
 									["amount"] = 5569,
 								},
 								["Spectral Footman"] = {
-									["overkill"] = 4010,
 									["amount"] = 12131,
-								},
-								["Falric"] = {
-									["overkill"] = 379,
-									["amount"] = 70668,
-								},
-								["Tortured Rifleman"] = {
-									["overkill"] = 4625,
-									["amount"] = 16915,
+									["overkill"] = 4010,
 								},
 								["Phantom Mage"] = {
 									["amount"] = 14439,
 								},
+								["Tortured Rifleman"] = {
+									["amount"] = 16915,
+									["overkill"] = 4625,
+								},
+								["Falric"] = {
+									["amount"] = 70668,
+									["overkill"] = 379,
+								},
 							},
 							["overkill"] = 10190,
-							["hit"] = 10,
-							["casts"] = 15,
-							["count"] = 22,
-							["amount"] = 170780,
-							["school"] = 1,
 							["critical"] = 12,
-							["criticalmax"] = 16538,
+							["casts"] = 15,
+							["hitmax"] = 6305,
+							["hit"] = 10,
+							["school"] = 1,
+							["amount"] = 170780,
+							["count"] = 22,
 							["hitamount"] = 40931,
 						},
 						["Death Strike"] = {
@@ -25988,9 +25964,9 @@ SkadaStorageDB = {
 							["critical"] = 3,
 							["amount"] = 34708,
 							["school"] = 1,
-							["criticalmin"] = 9165,
-							["criticalmax"] = 15845,
 							["count"] = 3,
+							["criticalmax"] = 15845,
+							["criticalmin"] = 9165,
 						},
 						["Death Strike (Rune Weapon)"] = {
 							["hitmin"] = 2481,
@@ -26002,14 +25978,14 @@ SkadaStorageDB = {
 									["amount"] = 8564,
 								},
 							},
+							["count"] = 2,
+							["amount"] = 8564,
 							["criticalmax"] = 6083,
 							["hitmax"] = 2481,
-							["casts"] = 1,
-							["critical"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["amount"] = 8564,
-							["count"] = 2,
+							["critical"] = 1,
+							["casts"] = 1,
 							["hitamount"] = 2481,
 						},
 						["Melee"] = {
@@ -26058,14 +26034,14 @@ SkadaStorageDB = {
 									["amount"] = 2992,
 								},
 							},
+							["count"] = 4,
+							["amount"] = 6563,
 							["criticalmax"] = 1078,
 							["hitmax"] = 1914,
-							["casts"] = 4,
-							["critical"] = 1,
 							["hit"] = 3,
 							["school"] = 16,
-							["amount"] = 6563,
-							["count"] = 4,
+							["critical"] = 1,
+							["casts"] = 4,
 							["hitamount"] = 5485,
 						},
 						["Death Coil (Rune Weapon)"] = {
@@ -26076,9 +26052,9 @@ SkadaStorageDB = {
 									["amount"] = 1291,
 								},
 							},
-							["hitmax"] = 1291,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 1291,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 143,
@@ -26090,8 +26066,8 @@ SkadaStorageDB = {
 							["id"] = 51460,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["overkill"] = 581,
 									["amount"] = 3369,
+									["overkill"] = 581,
 								},
 								["Phantom Mage"] = {
 									["amount"] = 4892,
@@ -26104,9 +26080,9 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 581,
-							["hitmax"] = 2222,
-							["casts"] = 1,
 							["count"] = 15,
+							["casts"] = 1,
+							["hitmax"] = 2222,
 							["hit"] = 15,
 							["school"] = 32,
 							["resisted"] = 839,
@@ -26126,23 +26102,99 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 8900,
 								},
-								["Falric"] = {
-									["amount"] = 9957,
+								["Ghostly Priest"] = {
+									["amount"] = 6274,
 								},
 								["Tortured Rifleman"] = {
 									["amount"] = 3462,
 								},
-								["Ghostly Priest"] = {
-									["amount"] = 6274,
+								["Falric"] = {
+									["amount"] = 9957,
 								},
 							},
-							["hitmax"] = 1465,
 							["count"] = 31,
+							["hitmax"] = 1465,
 							["hit"] = 31,
 							["school"] = 32,
 							["resisted"] = 292,
 							["amount"] = 40307,
 							["hitamount"] = 40307,
+						},
+						["Heart Strike (Rune Weapon)"] = {
+							["hitmin"] = 2032,
+							["criticalamount"] = 9968,
+							["id"] = 55262,
+							["criticalmin"] = 4983,
+							["targets"] = {
+								["Falric"] = {
+									["amount"] = 14032,
+								},
+							},
+							["criticalmax"] = 4985,
+							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 14032,
+							["hitmax"] = 2032,
+							["hitamount"] = 4064,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 2814,
+							["criticalamount"] = 13871,
+							["id"] = 49921,
+							["criticalmin"] = 1907,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 8703,
+								},
+								["Falric"] = {
+									["amount"] = 7982,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 16685,
+							["criticalmax"] = 6075,
+							["hitmax"] = 2814,
+							["hit"] = 1,
+							["school"] = 1,
+							["critical"] = 3,
+							["casts"] = 4,
+							["hitamount"] = 2814,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1142,
+							["id"] = 55095,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 3982,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 7683,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 8817,
+									["overkill"] = 668,
+								},
+								["Ghostly Priest"] = {
+									["amount"] = 6234,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 3456,
+								},
+								["Falric"] = {
+									["amount"] = 9872,
+								},
+							},
+							["overkill"] = 668,
+							["count"] = 31,
+							["hitmax"] = 1452,
+							["hit"] = 31,
+							["school"] = 16,
+							["resisted"] = 290,
+							["amount"] = 40044,
+							["hitamount"] = 40044,
 						},
 						["Blood-Caked Strike"] = {
 							["DODGE"] = 1,
@@ -26167,84 +26219,28 @@ SkadaStorageDB = {
 							["amount"] = 9201,
 							["hitamount"] = 9201,
 						},
-						["Plague Strike"] = {
-							["hitmin"] = 2814,
-							["criticalamount"] = 13871,
-							["id"] = 49921,
-							["criticalmin"] = 1907,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 8703,
-								},
-								["Falric"] = {
-									["amount"] = 7982,
-								},
-							},
-							["criticalmax"] = 6075,
-							["hitmax"] = 2814,
-							["casts"] = 4,
-							["critical"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 16685,
-							["count"] = 4,
-							["hitamount"] = 2814,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1142,
-							["id"] = 55095,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 3982,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 7683,
-								},
-								["Spectral Footman"] = {
-									["overkill"] = 668,
-									["amount"] = 8817,
-								},
-								["Falric"] = {
-									["amount"] = 9872,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 3456,
-								},
+					},
+					["runic"] = 130,
+					["damagetakenspells"] = {
+						["Circle of Destruction"] = {
+							["total"] = 3284,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 72323,
+							["ABSORB"] = 1,
+							["sources"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 6234,
+									["amount"] = 0,
+									["total"] = 3284,
 								},
 							},
-							["overkill"] = 668,
-							["hitmax"] = 1452,
-							["count"] = 31,
-							["hit"] = 31,
-							["school"] = 16,
-							["resisted"] = 290,
-							["amount"] = 40044,
-							["hitamount"] = 40044,
-						},
-						["Heart Strike (Rune Weapon)"] = {
-							["hitmin"] = 2032,
-							["criticalamount"] = 9968,
-							["id"] = 55262,
-							["criticalmin"] = 4983,
-							["targets"] = {
-								["Falric"] = {
-									["amount"] = 14032,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["casts"] = 1,
-							["hitmax"] = 2032,
-							["amount"] = 14032,
-							["school"] = 1,
-							["critical"] = 2,
-							["criticalmax"] = 4985,
-							["hitamount"] = 4064,
 						},
 					},
-					["role"] = "DAMAGER",
+					["runicspells"] = {
+						[50163] = 120,
+						[50422] = 10,
+					},
 				}, -- [4]
 				{
 					["ccdonespells"] = {
@@ -26276,10 +26272,10 @@ SkadaStorageDB = {
 							["uptime"] = 85,
 						},
 						[20053] = {
-							["type"] = "BUFF",
-							["refresh"] = 30,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 30,
 						},
 						[61840] = {
 							["type"] = "DEBUFF",
@@ -26291,29 +26287,29 @@ SkadaStorageDB = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
-								["Falric"] = {
-									["refresh"] = 2,
+								["Shadowy Mercenary"] = {
+									["refresh"] = 1,
 									["count"] = 2,
-									["uptime"] = 21,
+									["uptime"] = 6,
 								},
 								["Phantom Mage"] = {
 									["refresh"] = 1,
 									["count"] = 1,
 									["uptime"] = 5,
 								},
-								["Shadowy Mercenary"] = {
-									["refresh"] = 1,
+								["Falric"] = {
+									["refresh"] = 2,
 									["count"] = 2,
-									["uptime"] = 6,
+									["uptime"] = 21,
 								},
 							},
 							["uptime"] = 35,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["refresh"] = 3,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
 						},
 						[59578] = {
 							["type"] = "BUFF",
@@ -26350,13 +26346,13 @@ SkadaStorageDB = {
 									["uptime"] = 8,
 									["count"] = 2,
 								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
 								["Ghostly Priest"] = {
 									["uptime"] = 8,
 									["count"] = 2,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 8,
+									["count"] = 1,
 								},
 							},
 							["uptime"] = 13,
@@ -26389,18 +26385,18 @@ SkadaStorageDB = {
 									["uptime"] = 5,
 									["count"] = 1,
 								},
-								["Falric"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 9,
+								["Shadowy Mercenary"] = {
+									["uptime"] = 3,
+									["count"] = 1,
 								},
 								["Ghostly Priest"] = {
 									["uptime"] = 5,
 									["count"] = 1,
 								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 3,
-									["count"] = 1,
+								["Falric"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 9,
 								},
 							},
 							["uptime"] = 22,
@@ -26501,16 +26497,37 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 85,
 						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 85,
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["refresh"] = 1,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Ghostly Priest"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Falric"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 9,
+								},
+							},
+							["uptime"] = 22,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 4,
-							["count"] = 1,
 							["uptime"] = 85,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 4,
 						},
 						[25899] = {
 							["type"] = "BUFF",
@@ -26529,31 +26546,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Falric"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 9,
-								},
-								["Ghostly Priest"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 22,
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 85,
 						},
 					},
 					["totaldamage"] = 463039,
@@ -26561,6 +26557,136 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 15456,
 					["damage"] = 463039,
 					["overheal"] = 35972,
+					["role"] = "DAMAGER",
+					["damagetaken"] = 5511,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["total"] = 12083,
+							["hitmin"] = 2684,
+							["id"] = 6603,
+							["hit"] = 1,
+							["sources"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 0,
+									["total"] = 2075,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 2684,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 0,
+									["total"] = 7324,
+								},
+							},
+							["count"] = 4,
+							["ABSORB"] = 3,
+							["school"] = 1,
+							["amount"] = 2684,
+							["hitmax"] = 2684,
+							["hitamount"] = 2684,
+						},
+						["Circle of Destruction"] = {
+							["total"] = 3373,
+							["hitmin"] = 2827,
+							["id"] = 72323,
+							["sources"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 2827,
+									["total"] = 3373,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 2827,
+							["amount"] = 2827,
+							["hitamount"] = 2827,
+						},
+					},
+					["id"] = "0x07000000000AA847",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 35972,
+							["min"] = 112,
+							["count"] = 67,
+							["amount"] = 12340,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Pebblebasher"] = {
+									["overheal"] = 2025,
+									["amount"] = 0,
+								},
+								["Urgash"] = {
+									["overheal"] = 7225,
+									["amount"] = 2281,
+								},
+								["Guakamole"] = {
+									["overheal"] = 3201,
+									["amount"] = 6754,
+								},
+								["Giveme"] = {
+									["overheal"] = 11688,
+									["amount"] = 2939,
+								},
+								["Xenaprincesa"] = {
+									["overheal"] = 11668,
+									["amount"] = 366,
+								},
+								["Bloodworm"] = {
+									["overheal"] = 165,
+									["amount"] = 0,
+								},
+							},
+							["max"] = 1285,
+						},
+						[54172] = {
+							["overheal"] = 0,
+							["min"] = 60,
+							["count"] = 4,
+							["amount"] = 3276,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Xenaprincesa"] = {
+									["overheal"] = 0,
+									["amount"] = 299,
+								},
+								["Urgash"] = {
+									["overheal"] = 0,
+									["amount"] = 1899,
+								},
+								["Guakamole"] = {
+									["overheal"] = 0,
+									["amount"] = 1078,
+								},
+							},
+							["max"] = 1899,
+						},
+					},
+					["overkill"] = 3617,
+					["class"] = "PALADIN",
+					["heal"] = 15616,
+					["manaspells"] = {
+						[31930] = 6588,
+						[57669] = 5481,
+						[54428] = 1515,
+					},
+					["ccdone"] = 1,
+					["name"] = "Giveme",
+					["interrupt"] = 1,
+					["interruptspells"] = {
+						[32747] = {
+							["spells"] = {
+								[72321] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Ghostly Priest"] = 1,
+							},
+						},
+					},
 					["damagespells"] = {
 						["Consecration (DoT)"] = {
 							["hitmin"] = 715,
@@ -26575,11 +26701,11 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 6538,
 								},
-								["Tortured Rifleman"] = {
-									["amount"] = 6438,
-								},
 								["Ghostly Priest"] = {
 									["amount"] = 7253,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 6438,
 								},
 							},
 							["casts"] = 2,
@@ -26594,21 +26720,21 @@ SkadaStorageDB = {
 							["criticalamount"] = 16862,
 							["id"] = 48801,
 							["targets"] = {
-								["Falric"] = {
-									["amount"] = 8401,
-								},
 								["Shadowy Mercenary"] = {
 									["amount"] = 8461,
 								},
+								["Falric"] = {
+									["amount"] = 8401,
+								},
 							},
-							["criticalmin"] = 2000,
+							["count"] = 3,
 							["casts"] = 3,
 							["critical"] = 3,
 							["amount"] = 16862,
 							["school"] = 2,
 							["resisted"] = 933,
 							["criticalmax"] = 8461,
-							["count"] = 3,
+							["criticalmin"] = 2000,
 						},
 						["Melee"] = {
 							["glance"] = 6265,
@@ -26618,15 +26744,15 @@ SkadaStorageDB = {
 								["Ghostly Priest"] = {
 									["amount"] = 13555,
 								},
-								["Falric"] = {
-									["amount"] = 32350,
+								["Shadowy Mercenary"] = {
+									["amount"] = 15963,
+									["overkill"] = 1382,
 								},
 								["Phantom Mage"] = {
 									["amount"] = 9179,
 								},
-								["Shadowy Mercenary"] = {
-									["overkill"] = 1382,
-									["amount"] = 15963,
+								["Falric"] = {
+									["amount"] = 32350,
 								},
 							},
 							["glancing"] = 2,
@@ -26657,40 +26783,24 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 1004,
 								},
-								["Falric"] = {
-									["amount"] = 3557,
+								["Ghostly Priest"] = {
+									["amount"] = 1038,
 								},
 								["Tortured Rifleman"] = {
 									["amount"] = 471,
 								},
-								["Ghostly Priest"] = {
-									["amount"] = 1038,
+								["Falric"] = {
+									["amount"] = 3557,
 								},
 							},
-							["hitmax"] = 2516,
-							["casts"] = 1,
 							["count"] = 11,
+							["casts"] = 1,
+							["hitmax"] = 2516,
 							["hit"] = 11,
 							["school"] = 32,
 							["resisted"] = 260,
 							["amount"] = 8248,
 							["hitamount"] = 8248,
-						},
-						["Holy Vengeance (DoT)"] = {
-							["hitmin"] = 607,
-							["id"] = 31803,
-							["targets"] = {
-								["Falric"] = {
-									["amount"] = 10600,
-								},
-							},
-							["hitmax"] = 2074,
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 2,
-							["resisted"] = 492,
-							["amount"] = 10600,
-							["hitamount"] = 10600,
 						},
 						["Retribution Aura"] = {
 							["hitmin"] = 321,
@@ -26708,6 +26818,22 @@ SkadaStorageDB = {
 							["amount"] = 321,
 							["hitamount"] = 321,
 						},
+						["Holy Vengeance (DoT)"] = {
+							["hitmin"] = 607,
+							["id"] = 31803,
+							["targets"] = {
+								["Falric"] = {
+									["amount"] = 10600,
+								},
+							},
+							["count"] = 8,
+							["hitmax"] = 2074,
+							["hit"] = 8,
+							["school"] = 2,
+							["resisted"] = 492,
+							["amount"] = 10600,
+							["hitamount"] = 10600,
+						},
 						["Judgement of Vengeance"] = {
 							["hitmin"] = 2875,
 							["id"] = 31804,
@@ -26716,62 +26842,107 @@ SkadaStorageDB = {
 									["amount"] = 10632,
 								},
 							},
-							["hitmax"] = 4710,
-							["casts"] = 1,
 							["count"] = 3,
+							["casts"] = 1,
+							["hitmax"] = 4710,
 							["hit"] = 3,
 							["school"] = 2,
 							["resisted"] = 1080,
 							["amount"] = 10632,
 							["hitamount"] = 10632,
 						},
-						["Crusader Strike"] = {
-							["hitmin"] = 1368,
-							["criticalamount"] = 22153,
-							["id"] = 35395,
-							["criticalmin"] = 1468,
+						["Seal of Command"] = {
+							["criticalmin"] = 3728,
+							["hitmin"] = 1754,
+							["criticalamount"] = 84153,
+							["id"] = 20424,
+							["count"] = 46,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 5685,
+									["amount"] = 25889,
 								},
-								["Falric"] = {
-									["amount"] = 15187,
+								["Shadowy Mercenary"] = {
+									["amount"] = 41808,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 31275,
 								},
 								["Phantom Mage"] = {
-									["amount"] = 5374,
+									["amount"] = 34168,
+									["overkill"] = 2235,
 								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 8474,
-								},
-							},
-							["criticalmax"] = 5529,
-							["hitmax"] = 3003,
-							["casts"] = 11,
-							["critical"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["amount"] = 34720,
-							["count"] = 10,
-							["hitamount"] = 12567,
-						},
-						["Hammer of Wrath"] = {
-							["criticalamount"] = 15231,
-							["id"] = 48806,
-							["targets"] = {
-								["Falric"] = {
-									["amount"] = 6606,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 8625,
+								["Tortured Rifleman"] = {
+									["amount"] = 10550,
 								},
 							},
-							["casts"] = 3,
-							["critical"] = 3,
-							["amount"] = 15231,
+							["overkill"] = 2235,
+							["amount"] = 143690,
+							["criticalmax"] = 5145,
+							["hitmax"] = 2543,
+							["hit"] = 27,
 							["school"] = 2,
-							["criticalmin"] = 2243,
-							["criticalmax"] = 8625,
-							["count"] = 3,
+							["critical"] = 19,
+							["casts"] = 1,
+							["hitamount"] = 59537,
+						},
+						["Manifest Anger"] = {
+							["hitmin"] = 839,
+							["criticalamount"] = 10073,
+							["id"] = 71433,
+							["criticalmin"] = 756,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 3615,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2919,
+								},
+								["Falric"] = {
+									["amount"] = 5911,
+								},
+							},
+							["criticalmax"] = 3615,
+							["critical"] = 4,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 12445,
+							["hitmax"] = 1533,
+							["hitamount"] = 2372,
+						},
+						["Divine Storm"] = {
+							["criticalmin"] = 4033,
+							["hitmin"] = 869,
+							["criticalamount"] = 21443,
+							["id"] = 53385,
+							["amount"] = 52236,
+							["targets"] = {
+								["Ghostly Priest"] = {
+									["amount"] = 7194,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 16592,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 15877,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 3792,
+								},
+								["Falric"] = {
+									["amount"] = 8781,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 9,
+							["criticalmax"] = 8746,
+							["hitmax"] = 4321,
+							["blocked"] = 40,
+							["school"] = 1,
+							["critical"] = 3,
+							["casts"] = 7,
+							["hitamount"] = 30793,
 						},
 						["Judgement of Command"] = {
 							["hitmin"] = 3695,
@@ -26789,108 +26960,63 @@ SkadaStorageDB = {
 									["amount"] = 6752,
 								},
 							},
+							["count"] = 3,
+							["amount"] = 16882,
 							["criticalmax"] = 6752,
 							["hitmax"] = 3695,
-							["casts"] = 1,
-							["critical"] = 2,
 							["hit"] = 1,
 							["school"] = 2,
-							["amount"] = 16882,
-							["count"] = 3,
+							["critical"] = 2,
+							["casts"] = 1,
 							["hitamount"] = 3695,
 						},
-						["Divine Storm"] = {
-							["criticalamount"] = 21443,
-							["hitmin"] = 869,
-							["criticalmin"] = 4033,
-							["id"] = 53385,
-							["criticalmax"] = 8746,
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 15231,
+							["id"] = 48806,
 							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 7194,
-								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 16592,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 15877,
+									["amount"] = 8625,
 								},
 								["Falric"] = {
-									["amount"] = 8781,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 3792,
+									["amount"] = 6606,
 								},
 							},
-							["hitmax"] = 4321,
-							["blocked"] = 40,
-							["casts"] = 7,
+							["casts"] = 3,
 							["critical"] = 3,
-							["hit"] = 9,
-							["school"] = 1,
-							["count"] = 12,
-							["amount"] = 52236,
-							["hitamount"] = 30793,
+							["amount"] = 15231,
+							["school"] = 2,
+							["count"] = 3,
+							["criticalmax"] = 8625,
+							["criticalmin"] = 2243,
 						},
-						["Manifest Anger"] = {
-							["hitmin"] = 839,
-							["criticalamount"] = 10073,
-							["id"] = 71433,
-							["criticalmin"] = 756,
+						["Crusader Strike"] = {
+							["hitmin"] = 1368,
+							["criticalamount"] = 22153,
+							["id"] = 35395,
+							["criticalmin"] = 1468,
 							["targets"] = {
 								["Ghostly Priest"] = {
-									["amount"] = 3615,
-								},
-								["Falric"] = {
-									["amount"] = 5911,
+									["amount"] = 5685,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 2919,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 2,
-							["casts"] = 1,
-							["hitmax"] = 1533,
-							["amount"] = 12445,
-							["school"] = 1,
-							["critical"] = 4,
-							["criticalmax"] = 3615,
-							["hitamount"] = 2372,
-						},
-						["Seal of Command"] = {
-							["criticalamount"] = 84153,
-							["hitmin"] = 1754,
-							["criticalmin"] = 3728,
-							["id"] = 20424,
-							["criticalmax"] = 5145,
-							["targets"] = {
-								["Ghostly Priest"] = {
-									["amount"] = 25889,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 41808,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 31275,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 10550,
+									["amount"] = 8474,
 								},
 								["Phantom Mage"] = {
-									["overkill"] = 2235,
-									["amount"] = 34168,
+									["amount"] = 5374,
+								},
+								["Falric"] = {
+									["amount"] = 15187,
 								},
 							},
-							["overkill"] = 2235,
-							["hitmax"] = 2543,
-							["casts"] = 1,
-							["critical"] = 19,
-							["hit"] = 27,
-							["school"] = 2,
-							["amount"] = 143690,
-							["count"] = 46,
-							["hitamount"] = 59537,
+							["count"] = 10,
+							["amount"] = 34720,
+							["criticalmax"] = 5529,
+							["hitmax"] = 3003,
+							["hit"] = 5,
+							["school"] = 1,
+							["critical"] = 5,
+							["casts"] = 11,
+							["hitamount"] = 12567,
 						},
 						["Righteous Vengeance (DoT)"] = {
 							["hitmin"] = 114,
@@ -26899,18 +27025,18 @@ SkadaStorageDB = {
 								["Phantom Mage"] = {
 									["amount"] = 912,
 								},
-								["Falric"] = {
-									["amount"] = 4153,
+								["Shadowy Mercenary"] = {
+									["amount"] = 1261,
 								},
 								["Spectral Footman"] = {
 									["amount"] = 668,
 								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 1261,
+								["Falric"] = {
+									["amount"] = 4153,
 								},
 							},
-							["hitmax"] = 912,
 							["count"] = 12,
+							["hitmax"] = 912,
 							["hit"] = 12,
 							["school"] = 2,
 							["resisted"] = 240,
@@ -26918,171 +27044,45 @@ SkadaStorageDB = {
 							["hitamount"] = 6994,
 						},
 						["Seal of Vengeance"] = {
-							["criticalamount"] = 23133,
-							["hitmin"] = 415,
 							["criticalmin"] = 855,
+							["hitmin"] = 415,
+							["criticalamount"] = 23133,
 							["id"] = 42463,
-							["hitmax"] = 1282,
+							["criticalmax"] = 3295,
 							["targets"] = {
 								["Falric"] = {
 									["amount"] = 29806,
 								},
 							},
-							["critical"] = 12,
-							["hit"] = 8,
-							["casts"] = 1,
 							["count"] = 20,
 							["amount"] = 29806,
+							["casts"] = 1,
+							["hitmax"] = 1282,
+							["hit"] = 8,
 							["school"] = 2,
 							["resisted"] = 2083,
-							["criticalmax"] = 3295,
+							["critical"] = 12,
 							["hitamount"] = 6673,
 						},
 					},
-					["damagetaken"] = 5511,
-					["overkill"] = 3617,
-					["id"] = "0x07000000000AA847",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 35972,
-							["school"] = 2,
-							["count"] = 67,
-							["amount"] = 12340,
-							["max"] = 1285,
-							["targets"] = {
-								["Pebblebasher"] = {
-									["overheal"] = 2025,
-									["amount"] = 0,
-								},
-								["Urgash"] = {
-									["overheal"] = 7225,
-									["amount"] = 2281,
-								},
-								["Guakamole"] = {
-									["overheal"] = 3201,
-									["amount"] = 6754,
-								},
-								["Giveme"] = {
-									["overheal"] = 11688,
-									["amount"] = 2939,
-								},
-								["Bloodworm"] = {
-									["overheal"] = 165,
-									["amount"] = 0,
-								},
-								["Xenaprincesa"] = {
-									["overheal"] = 11668,
-									["amount"] = 366,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 112,
-						},
-						[54172] = {
-							["overheal"] = 0,
-							["school"] = 2,
-							["count"] = 4,
-							["amount"] = 3276,
-							["max"] = 1899,
-							["targets"] = {
-								["Xenaprincesa"] = {
-									["overheal"] = 0,
-									["amount"] = 299,
-								},
-								["Urgash"] = {
-									["overheal"] = 0,
-									["amount"] = 1899,
-								},
-								["Guakamole"] = {
-									["overheal"] = 0,
-									["amount"] = 1078,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 60,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["total"] = 12083,
-							["hitmin"] = 2684,
-							["id"] = 6603,
-							["ABSORB"] = 3,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["total"] = 2075,
-									["amount"] = 0,
-								},
-								["Spectral Footman"] = {
-									["total"] = 7324,
-									["amount"] = 0,
-								},
-								["Phantom Mage"] = {
-									["amount"] = 2684,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2684,
-							["amount"] = 2684,
-							["hitamount"] = 2684,
-						},
-						["Circle of Destruction"] = {
-							["total"] = 3373,
-							["hitmin"] = 2827,
-							["id"] = 72323,
-							["sources"] = {
-								["Ghostly Priest"] = {
-									["total"] = 3373,
-									["amount"] = 2827,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2827,
-							["amount"] = 2827,
-							["hitamount"] = 2827,
-						},
-					},
-					["interrupt"] = 1,
-					["heal"] = 15616,
-					["manaspells"] = {
-						[31930] = 6588,
-						[57669] = 5481,
-						[54428] = 1515,
-					},
-					["ccdone"] = 1,
-					["name"] = "Giveme",
-					["class"] = "PALADIN",
-					["interruptspells"] = {
-						[32747] = {
-							["spells"] = {
-								[72321] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Ghostly Priest"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["type"] = "party",
+			["totaldamagetaken"] = 100739,
+			["etotaldamage"] = 100739,
+			["last_time"] = 12874.274,
+			["runic"] = 204,
+			["absorb"] = 46823,
 			["damagetaken"] = 53916,
-			["overheal"] = 145043,
+			["starttime"] = 1699798101,
 			["interrupt"] = 2,
-			["ccdone"] = 4,
+			["mobname"] = "Phantom Mage",
 			["damage"] = 1840303,
 			["overkill"] = 15996,
 			["edamagetaken"] = 1840303,
 			["heal"] = 68495,
 			["name"] = "Phantom Mage (2)",
-			["mobname"] = "Phantom Mage",
-			["starttime"] = 1699798101,
+			["ccdone"] = 4,
+			["overheal"] = 145043,
 			["edamage"] = 53916,
 			["last_action"] = 1699798186,
 			["endtime"] = 1699798186,
@@ -27097,8 +27097,8 @@ SkadaStorageDB = {
 							["total"] = 2708,
 							["targets"] = {
 								["Giveme"] = {
-									["total"] = 2708,
 									["amount"] = 0,
+									["total"] = 2708,
 								},
 							},
 							["amount"] = 0,
@@ -27108,12 +27108,12 @@ SkadaStorageDB = {
 							["total"] = 11392,
 							["targets"] = {
 								["Giveme"] = {
-									["total"] = 6460,
 									["amount"] = 3508,
+									["total"] = 6460,
 								},
 								["Guakamole"] = {
-									["total"] = 4932,
 									["amount"] = 0,
+									["total"] = 4932,
 								},
 							},
 							["amount"] = 3508,
@@ -27240,14 +27240,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3634,
 						},
-						[31803] = {
-							["school"] = 2,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1954,
+								["Urgash"] = {
+									["amount"] = 16135,
 								},
 							},
-							["amount"] = 1954,
+							["amount"] = 16135,
 						},
 						[71904] = {
 							["school"] = 32,
@@ -27261,14 +27261,19 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2092,
 						},
-						[53385] = {
-							["school"] = 1,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 7949,
+								["Xenaprincesa"] = {
+									["amount"] = 2542,
+								},
+								["Urgash"] = {
+									["amount"] = 6141,
+									["overkill"] = 1272,
 								},
 							},
-							["amount"] = 7949,
+							["amount"] = 8683,
+							["overkill"] = 1272,
 						},
 						[35395] = {
 							["school"] = 1,
@@ -27315,28 +27320,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3384,
 						},
-						[55095] = {
-							["school"] = 16,
+						[53385] = {
+							["school"] = 1,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 2542,
-								},
-								["Urgash"] = {
-									["overkill"] = 1272,
-									["amount"] = 6141,
+								["Giveme"] = {
+									["amount"] = 7949,
 								},
 							},
-							["overkill"] = 1272,
-							["amount"] = 8683,
+							["amount"] = 7949,
 						},
-						[52212] = {
-							["school"] = 32,
+						[31803] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 16135,
+								["Guakamole"] = {
+									["amount"] = 1954,
 								},
 							},
-							["amount"] = 16135,
+							["amount"] = 1954,
 						},
 					},
 					["totaldamage"] = 14100,
@@ -27352,8 +27352,8 @@ SkadaStorageDB = {
 							["total"] = 3367,
 							["targets"] = {
 								["Urgash"] = {
-									["total"] = 3367,
 									["amount"] = 675,
+									["total"] = 3367,
 								},
 							},
 							["amount"] = 675,
@@ -27528,47 +27528,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8374,
 						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1794,
-								},
-								["Giveme"] = {
-									["amount"] = 762,
-								},
-							},
-							["amount"] = 2556,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Giveme"] = {
-									["overkill"] = 835,
-									["amount"] = 4577,
-								},
-							},
-							["overkill"] = 835,
-							["amount"] = 4577,
-						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3598,
-								},
-							},
-							["amount"] = 3598,
-						},
-						[52212] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 12908,
-								},
-							},
-							["amount"] = 12908,
-						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
@@ -27580,6 +27539,47 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 6245,
+						},
+						[69403] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 4577,
+									["overkill"] = 835,
+								},
+							},
+							["amount"] = 4577,
+							["overkill"] = 835,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 12908,
+								},
+							},
+							["amount"] = 12908,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3598,
+								},
+							},
+							["amount"] = 3598,
+						},
+						[48819] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 1794,
+								},
+								["Giveme"] = {
+									["amount"] = 762,
+								},
+							},
+							["amount"] = 2556,
 						},
 					},
 					["totaldamage"] = 3367,
@@ -27595,8 +27595,8 @@ SkadaStorageDB = {
 							["total"] = 2284,
 							["targets"] = {
 								["Urgash"] = {
-									["total"] = 2284,
 									["amount"] = 0,
+									["total"] = 2284,
 								},
 							},
 							["amount"] = 0,
@@ -27606,8 +27606,8 @@ SkadaStorageDB = {
 							["total"] = 996,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 996,
 									["amount"] = 0,
+									["total"] = 996,
 								},
 							},
 							["amount"] = 0,
@@ -27770,25 +27770,29 @@ SkadaStorageDB = {
 							},
 							["amount"] = 16607,
 						},
-						[48952] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 1076,
-								},
-							},
-							["amount"] = 1076,
-						},
-						[50526] = {
+						[71904] = {
 							["school"] = 32,
 							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 911,
+								},
 								["Urgash"] = {
-									["overkill"] = 1237,
-									["amount"] = 6828,
+									["amount"] = 1118,
 								},
 							},
-							["overkill"] = 1237,
-							["amount"] = 6828,
+							["amount"] = 2029,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Xenaprincesa"] = {
+									["amount"] = 2541,
+								},
+								["Urgash"] = {
+									["amount"] = 6201,
+								},
+							},
+							["amount"] = 8742,
 						},
 						[69403] = {
 							["school"] = 2,
@@ -27808,29 +27812,25 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2202,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 2541,
-								},
-								["Urgash"] = {
-									["amount"] = 6201,
-								},
-							},
-							["amount"] = 8742,
-						},
-						[71904] = {
+						[50526] = {
 							["school"] = 32,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 911,
-								},
 								["Urgash"] = {
-									["amount"] = 1118,
+									["amount"] = 6828,
+									["overkill"] = 1237,
 								},
 							},
-							["amount"] = 2029,
+							["amount"] = 6828,
+							["overkill"] = 1237,
+						},
+						[48952] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 1076,
+								},
+							},
+							["amount"] = 1076,
 						},
 					},
 					["totaldamage"] = 3280,
@@ -27846,8 +27846,8 @@ SkadaStorageDB = {
 							["total"] = 2810,
 							["targets"] = {
 								["Urgash"] = {
-									["total"] = 6756,
 									["amount"] = 5807,
+									["total"] = 6756,
 								},
 							},
 							["amount"] = 5807,
@@ -27857,8 +27857,8 @@ SkadaStorageDB = {
 							["total"] = 1375,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 2922,
 									["amount"] = 2626,
+									["total"] = 2922,
 								},
 							},
 							["amount"] = 2626,
@@ -28030,23 +28030,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1428,
 						},
-						[55262] = {
-							["school"] = 1,
+						[50536] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 314,
+								},
+							},
+							["amount"] = 314,
+						},
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["amount"] = 5141,
+									["amount"] = 2542,
+								},
+								["Urgash"] = {
+									["amount"] = 4054,
 								},
 							},
-							["amount"] = 5141,
-						},
-						[61411] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 3963,
-								},
-							},
-							["amount"] = 3963,
+							["amount"] = 6596,
 						},
 						[69403] = {
 							["school"] = 2,
@@ -28061,33 +28064,30 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["overkill"] = 160,
 									["amount"] = 5991,
+									["overkill"] = 160,
 								},
 							},
-							["overkill"] = 160,
 							["amount"] = 5991,
+							["overkill"] = 160,
 						},
-						[55095] = {
-							["school"] = 16,
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 3963,
+								},
+							},
+							["amount"] = 3963,
+						},
+						[55262] = {
+							["school"] = 1,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["amount"] = 2542,
-								},
-								["Urgash"] = {
-									["amount"] = 4054,
+									["amount"] = 5141,
 								},
 							},
-							["amount"] = 6596,
-						},
-						[50536] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 314,
-								},
-							},
-							["amount"] = 314,
+							["amount"] = 5141,
 						},
 					},
 					["totaldamage"] = 9678,
@@ -28097,13 +28097,6 @@ SkadaStorageDB = {
 					["damage"] = 8433,
 				}, -- [4]
 			},
-			["runic"] = 20,
-			["totaldamage"] = 532704,
-			["time"] = 25,
-			["overheal"] = 19793,
-			["totaldamagetaken"] = 30425,
-			["etotaldamage"] = 30425,
-			["last_time"] = 12788.141,
 			["players"] = {
 				{
 					["last"] = 12780.44,
@@ -28134,17 +28127,16 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["uptime"] = 20,
 						},
-						[57623] = {
+						[48162] = {
 							["type"] = "BUFF",
-							["refresh"] = 2,
 							["count"] = 1,
 							["uptime"] = 25,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 2,
-							["count"] = 1,
 							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 2,
 						},
 						[73422] = {
 							["school"] = 1,
@@ -28157,11 +28149,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[49222] = {
-							["school"] = 8,
+						[57623] = {
+							["uptime"] = 25,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 14,
+							["count"] = 1,
+							["refresh"] = 2,
 						},
 						[71227] = {
 							["type"] = "BUFF",
@@ -28210,11 +28202,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[72412] = {
-							["school"] = 1,
+						[53365] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 24,
 						},
 						[55078] = {
 							["type"] = "DEBUFF",
@@ -28240,12 +28233,79 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[71905] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 11,
+							["uptime"] = 25,
+						},
+						[71559] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[54043] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[50536] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Shadowy Mercenary"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[48111] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[552] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[20217] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
 						},
 						[51735] = {
 							["type"] = "DEBUFF",
@@ -28273,79 +28333,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[53138] = {
+						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[50536] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Shadowy Mercenary"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[552] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 16,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[71559] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 11,
 						},
 						[47753] = {
 							["school"] = 2,
@@ -28353,12 +28346,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[53365] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[72412] = {
 							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 24,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[66803] = {
 							["school"] = 32,
@@ -28366,10 +28358,11 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 24,
 						},
-						[48162] = {
+						[49222] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
+							["count"] = 2,
+							["uptime"] = 14,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -28392,9 +28385,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 20671,
 							["school"] = 1,
-							["criticalmin"] = 10302,
-							["criticalmax"] = 10369,
 							["count"] = 2,
+							["criticalmax"] = 10369,
+							["criticalmin"] = 10302,
 						},
 						["Death and Decay"] = {
 							["hitmin"] = 807,
@@ -28415,14 +28408,14 @@ SkadaStorageDB = {
 									["amount"] = 10320,
 								},
 							},
+							["count"] = 38,
+							["amount"] = 55970,
 							["criticalmax"] = 2161,
 							["hitmax"] = 1034,
-							["casts"] = 1,
-							["critical"] = 19,
 							["hit"] = 19,
 							["school"] = 32,
-							["amount"] = 55970,
-							["count"] = 38,
+							["critical"] = 19,
+							["casts"] = 1,
 							["hitamount"] = 17660,
 						},
 						["Death Coil"] = {
@@ -28467,8 +28460,8 @@ SkadaStorageDB = {
 									["amount"] = 3598,
 								},
 								["Spectral Footman"] = {
-									["overkill"] = 1237,
 									["amount"] = 6828,
+									["overkill"] = 1237,
 								},
 								["Shadowy Mercenary"] = {
 									["amount"] = 4880,
@@ -28548,14 +28541,14 @@ SkadaStorageDB = {
 									["amount"] = 6989,
 								},
 							},
+							["criticalmax"] = 6989,
+							["critical"] = 2,
+							["PARRY"] = 1,
 							["count"] = 6,
 							["hit"] = 1,
-							["PARRY"] = 1,
-							["hitmax"] = 4142,
-							["amount"] = 17986,
 							["school"] = 1,
-							["critical"] = 2,
-							["criticalmax"] = 6989,
+							["amount"] = 17986,
+							["hitmax"] = 4142,
 							["hitamount"] = 4142,
 						},
 						["Blood-Caked Strike"] = {
@@ -28593,24 +28586,21 @@ SkadaStorageDB = {
 							["amount"] = 1780,
 							["hitamount"] = 1780,
 						},
-						["Chaos Bane"] = {
-							["hitmin"] = 1118,
-							["id"] = 71904,
+						["Icy Touch"] = {
+							["criticalamount"] = 4369,
+							["id"] = 49909,
 							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 1163,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 1118,
+								["Tortured Rifleman"] = {
+									["amount"] = 4369,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 1163,
-							["amount"] = 2281,
-							["hitamount"] = 2281,
+							["critical"] = 1,
+							["amount"] = 4369,
+							["school"] = 16,
+							["count"] = 1,
+							["criticalmax"] = 4369,
+							["criticalmin"] = 4369,
 						},
 						["Necrosis"] = {
 							["hitmin"] = 828,
@@ -28705,17 +28695,17 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 6149,
 							["school"] = 1,
-							["criticalmin"] = 6149,
-							["criticalmax"] = 6149,
 							["count"] = 1,
+							["criticalmax"] = 6149,
+							["criticalmin"] = 6149,
 						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 1890,
 							["id"] = 55095,
 							["targets"] = {
 								["Phantom Mage"] = {
-									["overkill"] = 1272,
 									["amount"] = 6141,
+									["overkill"] = 1272,
 								},
 								["Tortured Rifleman"] = {
 									["amount"] = 3781,
@@ -28735,21 +28725,24 @@ SkadaStorageDB = {
 							["amount"] = 20177,
 							["hitamount"] = 20177,
 						},
-						["Icy Touch"] = {
-							["criticalamount"] = 4369,
-							["id"] = 49909,
+						["Chaos Bane"] = {
+							["hitmin"] = 1118,
+							["id"] = 71904,
 							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 4369,
+								["Phantom Mage"] = {
+									["amount"] = 1163,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 1118,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4369,
-							["school"] = 16,
-							["criticalmin"] = 4369,
-							["criticalmax"] = 4369,
-							["count"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 1163,
+							["amount"] = 2281,
+							["hitamount"] = 2281,
 						},
 					},
 					["damagetaken"] = 6482,
@@ -28758,32 +28751,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 1335,
-							["max"] = 434,
+							["min"] = 1,
 							["count"] = 16,
 							["amount"] = 1261,
-							["school"] = 1,
-							["ishot"] = true,
+							["max"] = 434,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 1335,
 									["amount"] = 1261,
 								},
 							},
-							["min"] = 1,
+							["ishot"] = true,
+							["school"] = 1,
 						},
 						[53365] = {
 							["overheal"] = 2745,
 							["count"] = 3,
 							["amount"] = 675,
 							["max"] = 675,
-							["school"] = 1,
+							["min"] = 675,
 							["targets"] = {
 								["Urgash"] = {
 									["overheal"] = 2745,
 									["amount"] = 675,
 								},
 							},
-							["min"] = 675,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -28791,27 +28784,27 @@ SkadaStorageDB = {
 							["total"] = 12407,
 							["hitmin"] = 675,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["hitmax"] = 1861,
-							["amount"] = 6482,
 							["sources"] = {
 								["Spectral Footman"] = {
-									["total"] = 2284,
 									["amount"] = 0,
+									["total"] = 2284,
 								},
 								["Tortured Rifleman"] = {
-									["total"] = 3367,
 									["amount"] = 675,
+									["total"] = 3367,
 								},
 								["Shadowy Mercenary"] = {
-									["total"] = 6756,
 									["amount"] = 5807,
+									["total"] = 6756,
 								},
 							},
 							["count"] = 10,
-							["hit"] = 5,
-							["school"] = 1,
 							["ABSORB"] = 3,
+							["PARRY"] = 1,
+							["hitmax"] = 1861,
+							["amount"] = 6482,
+							["school"] = 1,
+							["hit"] = 5,
 							["MISS"] = 1,
 							["hitamount"] = 6482,
 						},
@@ -28830,9 +28823,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 1936,
 					["name"] = "Urgash",
-					["overkill"] = 2509,
-					["overheal"] = 4080,
 					["totaldamage"] = 206194,
+					["overheal"] = 4080,
+					["overkill"] = 2509,
 				}, -- [1]
 				{
 					["ccdonespells"] = {
@@ -28840,8 +28833,8 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["targets"] = {
 								["Tortured Rifleman"] = 1,
-								["Spectral Footman"] = 1,
 								["Phantom Mage"] = 1,
+								["Spectral Footman"] = 1,
 							},
 						},
 					},
@@ -28875,10 +28868,10 @@ SkadaStorageDB = {
 							["uptime"] = 25,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
 							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
 						},
 						[48817] = {
 							["type"] = "DEBUFF",
@@ -28889,11 +28882,11 @@ SkadaStorageDB = {
 									["uptime"] = 4,
 									["count"] = 1,
 								},
-								["Spectral Footman"] = {
+								["Phantom Mage"] = {
 									["uptime"] = 4,
 									["count"] = 1,
 								},
-								["Phantom Mage"] = {
+								["Spectral Footman"] = {
 									["uptime"] = 4,
 									["count"] = 1,
 								},
@@ -28906,10 +28899,10 @@ SkadaStorageDB = {
 							["uptime"] = 25,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
 							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
 						},
 						[48170] = {
 							["type"] = "BUFF",
@@ -28927,40 +28920,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 1,
 						},
-						[54428] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 5,
-							["uptime"] = 13,
+							["uptime"] = 25,
 						},
-						[31803] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
+						[48066] = {
 							["school"] = 2,
-							["refresh"] = 11,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["refresh"] = 5,
-									["count"] = 1,
-									["uptime"] = 12,
-								},
-								["Tortured Rifleman"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-								["Spectral Footman"] = {
-									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 12,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 12,
 						},
 						[48827] = {
 							["type"] = "DEBUFF",
@@ -28999,40 +28968,42 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[48819] = {
+						[26017] = {
 							["type"] = "DEBUFF",
 							["count"] = 4,
 							["school"] = 2,
+							["refresh"] = 6,
 							["targets"] = {
 								["Tortured Rifleman"] = {
-									["uptime"] = 4,
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 6,
 									["count"] = 1,
 								},
 								["Phantom Mage"] = {
-									["uptime"] = 8,
+									["refresh"] = 3,
 									["count"] = 1,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 8,
-									["count"] = 1,
+									["uptime"] = 12,
 								},
 								["Shadowy Mercenary"] = {
 									["uptime"] = 8,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 8,
+							["uptime"] = 12,
 						},
 						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[67371] = {
-							["school"] = 8,
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 16,
+							["uptime"] = 25,
 						},
 						[57669] = {
 							["type"] = "BUFF",
@@ -29064,37 +29035,35 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[54043] = {
+						[67371] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 25,
+							["uptime"] = 16,
 						},
-						[26017] = {
+						[48819] = {
 							["type"] = "DEBUFF",
 							["count"] = 4,
 							["school"] = 2,
-							["refresh"] = 6,
 							["targets"] = {
 								["Tortured Rifleman"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-								["Spectral Footman"] = {
-									["uptime"] = 6,
+									["uptime"] = 4,
 									["count"] = 1,
 								},
 								["Phantom Mage"] = {
-									["refresh"] = 3,
+									["uptime"] = 8,
 									["count"] = 1,
-									["uptime"] = 12,
+								},
+								["Spectral Footman"] = {
+									["uptime"] = 8,
+									["count"] = 1,
 								},
 								["Shadowy Mercenary"] = {
 									["uptime"] = 8,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 12,
+							["uptime"] = 8,
 						},
 						[28093] = {
 							["school"] = 1,
@@ -29102,16 +29071,40 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[48066] = {
+						[31803] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
 							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 12,
+							["refresh"] = 11,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["refresh"] = 5,
+									["count"] = 1,
+									["uptime"] = 12,
+								},
+								["Tortured Rifleman"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+								["Spectral Footman"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 12,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 13,
 						},
-						[72221] = {
+						[54428] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 25,
+							["school"] = 2,
+							["refresh"] = 5,
+							["uptime"] = 13,
 						},
 					},
 					["totaldamage"] = 101452,
@@ -29182,11 +29175,11 @@ SkadaStorageDB = {
 								["Phantom Mage"] = {
 									["amount"] = 1954,
 								},
-								["Spectral Footman"] = {
-									["amount"] = 2202,
-								},
 								["Tortured Rifleman"] = {
 									["amount"] = 1822,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 2202,
 								},
 							},
 							["count"] = 9,
@@ -29215,14 +29208,14 @@ SkadaStorageDB = {
 									["amount"] = 3472,
 								},
 							},
+							["count"] = 4,
+							["amount"] = 16270,
 							["criticalmax"] = 5798,
 							["hitmax"] = 3634,
-							["casts"] = 1,
-							["critical"] = 1,
 							["hit"] = 3,
 							["school"] = 4,
-							["amount"] = 16270,
-							["count"] = 4,
+							["critical"] = 1,
+							["casts"] = 1,
 							["hitamount"] = 10472,
 						},
 						["Hammer of the Righteous"] = {
@@ -29232,10 +29225,10 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 8755,
 								},
-								["Phantom Mage"] = {
+								["Tortured Rifleman"] = {
 									["amount"] = 8756,
 								},
-								["Tortured Rifleman"] = {
+								["Phantom Mage"] = {
 									["amount"] = 8756,
 								},
 							},
@@ -29247,27 +29240,32 @@ SkadaStorageDB = {
 							["amount"] = 26267,
 							["hitamount"] = 26267,
 						},
-						["Holy Wrath"] = {
-							["hitmin"] = 2009,
-							["id"] = 48817,
+						["Seal of Vengeance"] = {
+							["criticalamount"] = 426,
+							["hitmin"] = 96,
+							["criticalmin"] = 426,
+							["id"] = 42463,
+							["amount"] = 3647,
 							["targets"] = {
 								["Spectral Footman"] = {
-									["amount"] = 2009,
+									["amount"] = 522,
 								},
 								["Tortured Rifleman"] = {
-									["amount"] = 2341,
+									["amount"] = 932,
 								},
 								["Phantom Mage"] = {
-									["amount"] = 2037,
+									["amount"] = 2193,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
+							["count"] = 12,
+							["hit"] = 11,
+							["criticalmax"] = 426,
+							["hitmax"] = 556,
+							["blocked"] = 40,
 							["school"] = 2,
-							["hitmax"] = 2341,
-							["amount"] = 6387,
-							["hitamount"] = 6387,
+							["critical"] = 1,
+							["casts"] = 1,
+							["hitamount"] = 3221,
 						},
 						["Holy Shield"] = {
 							["hitmin"] = 1076,
@@ -29304,14 +29302,14 @@ SkadaStorageDB = {
 									["amount"] = 4794,
 								},
 							},
+							["count"] = 3,
+							["amount"] = 9849,
 							["criticalmax"] = 4794,
 							["hitmax"] = 2559,
-							["casts"] = 1,
-							["critical"] = 1,
 							["hit"] = 2,
 							["school"] = 2,
-							["amount"] = 9849,
-							["count"] = 3,
+							["critical"] = 1,
+							["casts"] = 1,
 							["hitamount"] = 5055,
 						},
 						["Shield of Righteousness"] = {
@@ -29330,32 +29328,27 @@ SkadaStorageDB = {
 							["amount"] = 3963,
 							["hitamount"] = 3963,
 						},
-						["Seal of Vengeance"] = {
-							["criticalmin"] = 426,
-							["hitmin"] = 96,
-							["criticalamount"] = 426,
-							["id"] = 42463,
-							["criticalmax"] = 426,
+						["Holy Wrath"] = {
+							["hitmin"] = 2009,
+							["id"] = 48817,
 							["targets"] = {
 								["Spectral Footman"] = {
-									["amount"] = 522,
+									["amount"] = 2009,
 								},
 								["Phantom Mage"] = {
-									["amount"] = 2193,
+									["amount"] = 2037,
 								},
 								["Tortured Rifleman"] = {
-									["amount"] = 932,
+									["amount"] = 2341,
 								},
 							},
-							["hitmax"] = 556,
-							["blocked"] = 40,
 							["casts"] = 1,
-							["critical"] = 1,
-							["hit"] = 11,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 2,
-							["count"] = 12,
-							["amount"] = 3647,
-							["hitamount"] = 3221,
+							["hitmax"] = 2341,
+							["amount"] = 6387,
+							["hitamount"] = 6387,
 						},
 					},
 					["damagetaken"] = 2626,
@@ -29367,82 +29360,82 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 4,
-							["sources"] = {
-								["Phantom Mage"] = {
-									["total"] = 4932,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
 							["id"] = 72164,
-						},
-						["Melee"] = {
-							["id"] = 6603,
-							["count"] = 6,
+							["ABSORB"] = 1,
 							["sources"] = {
-								["Spectral Footman"] = {
-									["amount"] = 0,
-								},
 								["Phantom Mage"] = {
 									["amount"] = 0,
+									["total"] = 4932,
 								},
 							},
-							["BLOCK"] = 2,
-							["blocked"] = 2385,
-							["school"] = 1,
-							["PARRY"] = 3,
-							["MISS"] = 1,
-							["amount"] = 0,
-						},
-						["Spectral Strike"] = {
-							["total"] = 996,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Spectral Footman"] = {
-									["total"] = 996,
-									["amount"] = 0,
-								},
-							},
-							["ABSORB"] = 1,
-							["id"] = 72688,
 						},
 						["Envenomed Dagger Throw (DoT)"] = {
 							["total"] = 2922,
 							["hitmin"] = 306,
 							["id"] = 72334,
-							["hitmax"] = 774,
+							["count"] = 4,
 							["sources"] = {
 								["Shadowy Mercenary"] = {
-									["total"] = 2922,
 									["amount"] = 2626,
+									["total"] = 2922,
 								},
 							},
-							["count"] = 4,
+							["hitmax"] = 774,
 							["hit"] = 4,
 							["school"] = 8,
 							["resisted"] = 512,
 							["amount"] = 2626,
 							["hitamount"] = 2626,
 						},
+						["Melee"] = {
+							["id"] = 6603,
+							["amount"] = 0,
+							["sources"] = {
+								["Spectral Footman"] = {
+									["amount"] = 0,
+								},
+								["Phantom Mage"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["blocked"] = 2385,
+							["school"] = 1,
+							["PARRY"] = 3,
+							["MISS"] = 1,
+							["BLOCK"] = 2,
+						},
+						["Spectral Strike"] = {
+							["total"] = 996,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 72688,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Spectral Footman"] = {
+									["amount"] = 0,
+									["total"] = 996,
+								},
+							},
+						},
 					},
 					["name"] = "Guakamole",
 					["ccdone"] = 3,
+					["role"] = "TANK",
+					["mana"] = 2471,
 					["manaspells"] = {
 						[31786] = 131,
 						[54428] = 1464,
 						[57319] = 876,
 					},
-					["mana"] = 2471,
-					["role"] = "TANK",
 				}, -- [2]
 				{
 					["overheal"] = 4937,
 					["last"] = 12779.367,
-					["absorb"] = 19722,
+					["mana"] = 762,
+					["role"] = "HEALER",
 					["flag"] = 1298,
-					["id"] = "0x07000000009DDD88",
 					["class"] = "PRIEST",
 					["healspells"] = {
 						[33110] = {
@@ -29464,8 +29457,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 2608,
 							["school"] = 2,
-							["criticalmin"] = 1861,
 							["count"] = 2,
+							["criticalmin"] = 1861,
 						},
 						[56160] = {
 							["overheal"] = 0,
@@ -29482,8 +29475,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1881,
 							["school"] = 2,
-							["criticalmin"] = 1881,
 							["count"] = 1,
+							["criticalmin"] = 1881,
 						},
 					},
 					["auras"] = {
@@ -29507,6 +29500,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
+						[57623] = {
+							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
 						[6788] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -29519,21 +29523,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
 							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
 						},
 						[48168] = {
 							["type"] = "BUFF",
@@ -29561,9 +29555,8 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[57623] = {
+						[20217] = {
 							["type"] = "BUFF",
-							["refresh"] = 1,
 							["count"] = 1,
 							["uptime"] = 25,
 						},
@@ -29597,14 +29590,14 @@ SkadaStorageDB = {
 					},
 					["heal"] = 4489,
 					["time"] = 16.17,
-					["spec"] = 256,
-					["name"] = "Niveaboy",
 					["manaspells"] = {
 						[47755] = 641,
 						[63654] = 121,
 					},
-					["role"] = "HEALER",
-					["mana"] = 762,
+					["name"] = "Niveaboy",
+					["spec"] = 256,
+					["id"] = "0x07000000009DDD88",
+					["absorb"] = 19722,
 				}, -- [3]
 				{
 					["last"] = 12780.128,
@@ -29634,10 +29627,10 @@ SkadaStorageDB = {
 							["uptime"] = 16,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
 							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
 						},
 						[73422] = {
 							["school"] = 1,
@@ -29653,10 +29646,10 @@ SkadaStorageDB = {
 							["uptime"] = 15,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
 							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
 						},
 						[71227] = {
 							["school"] = 8,
@@ -29710,7 +29703,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 14,
 						},
-						[72221] = {
+						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
@@ -29719,6 +29712,29 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[50449] = {
+							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 3,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[53365] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
 						},
 						[55078] = {
 							["type"] = "DEBUFF",
@@ -29746,30 +29762,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 13,
 						},
-						[50449] = {
-							["type"] = "BUFF",
-							["refresh"] = 3,
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[53365] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[20217] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
@@ -29783,8 +29776,15 @@ SkadaStorageDB = {
 							["glance"] = 4936,
 							["hitmin"] = 4662,
 							["id"] = 6603,
-							["glancemin"] = 4936,
+							["hitamount"] = 10334,
 							["glancemax"] = 4936,
+							["amount"] = 15270,
+							["glancing"] = 1,
+							["PARRY"] = 1,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 5672,
 							["targets"] = {
 								["Tortured Rifleman"] = {
 									["amount"] = 9598,
@@ -29793,14 +29793,7 @@ SkadaStorageDB = {
 									["amount"] = 5672,
 								},
 							},
-							["glancing"] = 1,
-							["PARRY"] = 1,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 5672,
-							["amount"] = 15270,
-							["hitamount"] = 10334,
+							["glancemin"] = 4936,
 						},
 						["Chaos Bane"] = {
 							["hitmin"] = 911,
@@ -29809,11 +29802,11 @@ SkadaStorageDB = {
 								["Spectral Footman"] = {
 									["amount"] = 911,
 								},
-								["Tortured Rifleman"] = {
-									["amount"] = 939,
-								},
 								["Phantom Mage"] = {
 									["amount"] = 929,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 939,
 								},
 							},
 							["casts"] = 1,
@@ -29836,25 +29829,25 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3218,
 							["school"] = 16,
-							["criticalmin"] = 3218,
-							["criticalmax"] = 3218,
 							["count"] = 1,
+							["criticalmax"] = 3218,
+							["criticalmin"] = 3218,
 						},
-						["Death Coil"] = {
-							["hitmin"] = 3422,
-							["id"] = 47632,
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1680,
+							["id"] = 50463,
 							["targets"] = {
-								["Shadowy Mercenary"] = {
-									["amount"] = 3422,
+								["Tortured Rifleman"] = {
+									["amount"] = 1680,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 3422,
-							["amount"] = 3422,
-							["hitamount"] = 3422,
+							["school"] = 1,
+							["hitmax"] = 1680,
+							["amount"] = 1680,
+							["hitamount"] = 1680,
 						},
 						["Necrosis"] = {
 							["hitmin"] = 932,
@@ -29899,66 +29892,6 @@ SkadaStorageDB = {
 							["amount"] = 10194,
 							["hitamount"] = 10194,
 						},
-						["Death Strike"] = {
-							["hitmin"] = 5991,
-							["id"] = 49924,
-							["targets"] = {
-								["Shadowy Mercenary"] = {
-									["overkill"] = 160,
-									["amount"] = 5991,
-								},
-							},
-							["overkill"] = 160,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 5991,
-							["amount"] = 5991,
-							["hitamount"] = 5991,
-						},
-						["Heart Strike"] = {
-							["hitmin"] = 2024,
-							["criticalamount"] = 30733,
-							["id"] = 55262,
-							["criticalmin"] = 6551,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 13319,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 28868,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 5141,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 5,
-							["casts"] = 4,
-							["hitmax"] = 5141,
-							["amount"] = 47328,
-							["school"] = 1,
-							["critical"] = 3,
-							["criticalmax"] = 12303,
-							["hitamount"] = 16595,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 2225,
-							["id"] = 49921,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 2225,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2225,
-							["amount"] = 2225,
-							["hitamount"] = 2225,
-						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 1193,
 							["id"] = 55095,
@@ -29983,21 +29916,81 @@ SkadaStorageDB = {
 							["amount"] = 10089,
 							["hitamount"] = 10089,
 						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1680,
-							["id"] = 50463,
+						["Plague Strike"] = {
+							["hitmin"] = 2225,
+							["id"] = 49921,
 							["targets"] = {
 								["Tortured Rifleman"] = {
-									["amount"] = 1680,
+									["amount"] = 2225,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 1680,
-							["amount"] = 1680,
-							["hitamount"] = 1680,
+							["hitmax"] = 2225,
+							["amount"] = 2225,
+							["hitamount"] = 2225,
+						},
+						["Heart Strike"] = {
+							["hitmin"] = 2024,
+							["criticalamount"] = 30733,
+							["id"] = 55262,
+							["criticalmin"] = 6551,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 13319,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 28868,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 5141,
+								},
+							},
+							["criticalmax"] = 12303,
+							["critical"] = 3,
+							["casts"] = 4,
+							["count"] = 8,
+							["hit"] = 5,
+							["school"] = 1,
+							["amount"] = 47328,
+							["hitmax"] = 5141,
+							["hitamount"] = 16595,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 5991,
+							["id"] = 49924,
+							["targets"] = {
+								["Shadowy Mercenary"] = {
+									["amount"] = 5991,
+									["overkill"] = 160,
+								},
+							},
+							["overkill"] = 160,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 5991,
+							["amount"] = 5991,
+							["hitamount"] = 5991,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 3422,
+							["id"] = 47632,
+							["targets"] = {
+								["Shadowy Mercenary"] = {
+									["amount"] = 3422,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3422,
+							["amount"] = 3422,
+							["hitamount"] = 3422,
 						},
 					},
 					["id"] = "0x0700000000005962",
@@ -30044,12 +30037,12 @@ SkadaStorageDB = {
 					["overkill"] = 160,
 					["heal"] = 0,
 					["name"] = "Xenaprincesa",
+					["role"] = "DAMAGER",
+					["overheal"] = 10776,
+					["runic"] = 20,
 					["runicspells"] = {
 						[50163] = 20,
 					},
-					["runic"] = 20,
-					["overheal"] = 10776,
-					["role"] = "DAMAGER",
 				}, -- [4]
 				{
 					["last"] = 12779.701,
@@ -30079,16 +30072,16 @@ SkadaStorageDB = {
 							["uptime"] = 24,
 						},
 						[63944] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
 							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
 						},
 						[20053] = {
-							["type"] = "BUFF",
-							["refresh"] = 6,
-							["count"] = 1,
 							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 6,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -30096,10 +30089,10 @@ SkadaStorageDB = {
 							["uptime"] = 25,
 						},
 						[57623] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
 							["uptime"] = 25,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
 						},
 						[61840] = {
 							["type"] = "DEBUFF",
@@ -30191,12 +30184,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[71905] = {
+						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 13,
+							["refresh"] = 2,
+							["uptime"] = 15,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 						[48819] = {
 							["type"] = "DEBUFF",
@@ -30222,27 +30230,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 7,
 						},
-						[48066] = {
+						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[59578] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 15,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
+							["refresh"] = 6,
+							["uptime"] = 13,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -30286,8 +30279,8 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 12746,
 							["school"] = 1,
-							["criticalmin"] = 6130,
 							["count"] = 2,
+							["criticalmin"] = 6130,
 						},
 						["Manifest Anger"] = {
 							["criticalamount"] = 3098,
@@ -30301,25 +30294,25 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3098,
 							["school"] = 1,
-							["criticalmin"] = 3098,
-							["criticalmax"] = 3098,
 							["count"] = 1,
+							["criticalmax"] = 3098,
+							["criticalmin"] = 3098,
 						},
-						["Hammer of Wrath"] = {
-							["criticalamount"] = 8454,
-							["id"] = 48806,
+						["Judgement of Command"] = {
+							["hitmin"] = 3384,
+							["id"] = 20467,
 							["targets"] = {
 								["Phantom Mage"] = {
-									["amount"] = 8454,
+									["amount"] = 3384,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 8454,
-							["school"] = 2,
-							["criticalmin"] = 8454,
-							["criticalmax"] = 8454,
 							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 3384,
+							["amount"] = 3384,
+							["hitamount"] = 3384,
 						},
 						["Divine Storm"] = {
 							["hitmin"] = 3285,
@@ -30340,46 +30333,15 @@ SkadaStorageDB = {
 									["amount"] = 3308,
 								},
 							},
+							["count"] = 4,
+							["amount"] = 22244,
 							["criticalmax"] = 7949,
 							["hitmax"] = 3308,
-							["casts"] = 1,
-							["critical"] = 2,
 							["hit"] = 2,
 							["school"] = 1,
-							["amount"] = 22244,
-							["count"] = 4,
-							["hitamount"] = 6593,
-						},
-						["Seal of Command"] = {
-							["criticalmin"] = 4157,
-							["hitmin"] = 1929,
-							["criticalamount"] = 30426,
-							["id"] = 69403,
-							["hitmax"] = 2262,
-							["targets"] = {
-								["Phantom Mage"] = {
-									["amount"] = 15159,
-								},
-								["Tortured Rifleman"] = {
-									["overkill"] = 835,
-									["amount"] = 4577,
-								},
-								["Spectral Footman"] = {
-									["amount"] = 15107,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 12565,
-								},
-							},
-							["overkill"] = 835,
-							["hit"] = 8,
+							["critical"] = 2,
 							["casts"] = 1,
-							["count"] = 15,
-							["amount"] = 47408,
-							["school"] = 2,
-							["critical"] = 7,
-							["criticalmax"] = 4678,
-							["hitamount"] = 16982,
+							["hitamount"] = 6593,
 						},
 						["Crusader Strike"] = {
 							["criticalamount"] = 5166,
@@ -30393,9 +30355,40 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 5166,
 							["school"] = 1,
-							["criticalmin"] = 5166,
-							["criticalmax"] = 5166,
 							["count"] = 1,
+							["criticalmax"] = 5166,
+							["criticalmin"] = 5166,
+						},
+						["Seal of Command"] = {
+							["criticalamount"] = 30426,
+							["hitmin"] = 1929,
+							["criticalmin"] = 4157,
+							["id"] = 69403,
+							["criticalmax"] = 4678,
+							["targets"] = {
+								["Phantom Mage"] = {
+									["amount"] = 15159,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 4577,
+									["overkill"] = 835,
+								},
+								["Spectral Footman"] = {
+									["amount"] = 15107,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 12565,
+								},
+							},
+							["overkill"] = 835,
+							["critical"] = 7,
+							["casts"] = 1,
+							["hitmax"] = 2262,
+							["hit"] = 8,
+							["school"] = 2,
+							["amount"] = 47408,
+							["count"] = 15,
+							["hitamount"] = 16982,
 						},
 						["Righteous Vengeance (DoT)"] = {
 							["hitmin"] = 594,
@@ -30415,21 +30408,21 @@ SkadaStorageDB = {
 							["amount"] = 2201,
 							["hitamount"] = 2201,
 						},
-						["Judgement of Command"] = {
-							["hitmin"] = 3384,
-							["id"] = 20467,
+						["Hammer of Wrath"] = {
+							["criticalamount"] = 8454,
+							["id"] = 48806,
 							["targets"] = {
 								["Phantom Mage"] = {
-									["amount"] = 3384,
+									["amount"] = 8454,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["critical"] = 1,
+							["amount"] = 8454,
 							["school"] = 2,
-							["hitmax"] = 3384,
-							["amount"] = 3384,
-							["hitamount"] = 3384,
+							["count"] = 1,
+							["criticalmax"] = 8454,
+							["criticalmin"] = 8454,
 						},
 					},
 					["damagetaken"] = 3508,
@@ -30441,14 +30434,14 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 6603,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Phantom Mage"] = {
-									["total"] = 2708,
 									["amount"] = 0,
+									["total"] = 2708,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 6603,
 						},
 						["Fireball"] = {
 							["total"] = 6460,
@@ -30456,8 +30449,8 @@ SkadaStorageDB = {
 							["id"] = 72164,
 							["sources"] = {
 								["Phantom Mage"] = {
-									["total"] = 6460,
 									["amount"] = 3508,
+									["total"] = 6460,
 								},
 							},
 							["count"] = 1,
@@ -30469,27 +30462,34 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Giveme",
-					["overkill"] = 835,
-					["totaldamage"] = 119809,
+					["mana"] = 2022,
 					["manaspells"] = {
 						[57669] = 924,
 						[31930] = 1098,
 					},
-					["mana"] = 2022,
+					["totaldamage"] = 119809,
+					["overkill"] = 835,
 				}, -- [5]
 			},
+			["totaldamage"] = 532704,
+			["time"] = 25,
+			["overheal"] = 19793,
+			["totaldamagetaken"] = 30425,
+			["etotaldamage"] = 30425,
+			["last_time"] = 12788.141,
+			["runic"] = 20,
 			["type"] = "party",
 			["damagetaken"] = 12616,
 			["absorb"] = 19722,
-			["damage"] = 532704,
-			["ccdone"] = 3,
+			["starttime"] = 1699798075,
+			["mobname"] = "Phantom Mage",
 			["etotaldamagetaken"] = 532704,
 			["overkill"] = 3504,
 			["edamagetaken"] = 532704,
 			["heal"] = 6425,
 			["name"] = "Phantom Mage",
-			["mobname"] = "Phantom Mage",
-			["starttime"] = 1699798075,
+			["ccdone"] = 3,
+			["damage"] = 532704,
 			["edamage"] = 12616,
 			["last_action"] = 1699798100,
 			["endtime"] = 1699798100,
@@ -30507,8 +30507,8 @@ SkadaStorageDB = {
 									["amount"] = 2328,
 								},
 								["Guakamole"] = {
-									["total"] = 1501,
 									["amount"] = 0,
+									["total"] = 1501,
 								},
 							},
 							["amount"] = 2328,
@@ -30602,16 +30602,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2623,
 						},
-						[61411] = {
-							["school"] = 2,
+						[35395] = {
+							["school"] = 1,
 							["sources"] = {
-								["Guakamole"] = {
-									["overkill"] = 1113,
-									["amount"] = 4209,
+								["Giveme"] = {
+									["amount"] = 5456,
 								},
 							},
-							["overkill"] = 1113,
-							["amount"] = 4209,
+							["amount"] = 5456,
 						},
 						[48827] = {
 							["school"] = 2,
@@ -30646,23 +30644,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 29448,
 						},
-						[50526] = {
-							["school"] = 32,
-							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 1482,
-								},
-							},
-							["amount"] = 1482,
-						},
-						[49924] = {
-							["school"] = 1,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
 								["Xenaprincesa"] = {
-									["amount"] = 15274,
+									["amount"] = 1835,
 								},
 							},
-							["amount"] = 15274,
+							["amount"] = 1835,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Giveme"] = {
+									["amount"] = 5327,
+								},
+							},
+							["amount"] = 5327,
 						},
 						[48801] = {
 							["school"] = 2,
@@ -30727,32 +30725,34 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1834,
 						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 5327,
-								},
-							},
-							["amount"] = 5327,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 1835,
-								},
-							},
-							["amount"] = 1835,
-						},
-						[35395] = {
+						[49924] = {
 							["school"] = 1,
 							["sources"] = {
-								["Giveme"] = {
-									["amount"] = 5456,
+								["Xenaprincesa"] = {
+									["amount"] = 15274,
 								},
 							},
-							["amount"] = 5456,
+							["amount"] = 15274,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 1482,
+								},
+							},
+							["amount"] = 1482,
+						},
+						[61411] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 4209,
+									["overkill"] = 1113,
+								},
+							},
+							["amount"] = 4209,
+							["overkill"] = 1113,
 						},
 					},
 					["totaldamage"] = 3829,
@@ -30768,8 +30768,8 @@ SkadaStorageDB = {
 							["total"] = 1173,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1173,
 									["amount"] = 0,
+									["total"] = 1173,
 								},
 							},
 							["amount"] = 0,
@@ -30935,14 +30935,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 10714,
 						},
-						[50526] = {
-							["school"] = 32,
+						[31803] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 3240,
+								["Guakamole"] = {
+									["amount"] = 548,
 								},
 							},
-							["amount"] = 3240,
+							["amount"] = 548,
 						},
 						[49921] = {
 							["school"] = 1,
@@ -30953,14 +30953,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6113,
 						},
-						[42463] = {
-							["school"] = 2,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 388,
+								["Xenaprincesa"] = {
+									["amount"] = 2716,
+								},
+								["Urgash"] = {
+									["amount"] = 3539,
 								},
 							},
-							["amount"] = 388,
+							["amount"] = 6255,
 						},
 						[69403] = {
 							["school"] = 2,
@@ -30975,33 +30978,30 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Giveme"] = {
-									["overkill"] = 6946,
 									["amount"] = 8464,
+									["overkill"] = 6946,
 								},
 							},
-							["overkill"] = 6946,
 							["amount"] = 8464,
+							["overkill"] = 6946,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Xenaprincesa"] = {
-									["amount"] = 2716,
-								},
-								["Urgash"] = {
-									["amount"] = 3539,
-								},
-							},
-							["amount"] = 6255,
-						},
-						[31803] = {
+						[42463] = {
 							["school"] = 2,
 							["sources"] = {
 								["Guakamole"] = {
-									["amount"] = 548,
+									["amount"] = 388,
 								},
 							},
-							["amount"] = 548,
+							["amount"] = 388,
+						},
+						[50526] = {
+							["school"] = 32,
+							["sources"] = {
+								["Urgash"] = {
+									["amount"] = 3240,
+								},
+							},
+							["amount"] = 3240,
 						},
 					},
 					["totaldamage"] = 1173,
@@ -31017,12 +31017,12 @@ SkadaStorageDB = {
 							["total"] = 2666,
 							["targets"] = {
 								["Guakamole"] = {
-									["total"] = 1073,
 									["amount"] = 0,
+									["total"] = 1073,
 								},
 								["Urgash"] = {
-									["total"] = 1593,
 									["amount"] = 0,
+									["total"] = 1593,
 								},
 							},
 							["amount"] = 0,
@@ -31188,16 +31188,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1345,
 						},
-						[55262] = {
-							["school"] = 1,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Xenaprincesa"] = {
-									["overkill"] = 11048,
-									["amount"] = 11421,
+								["Urgash"] = {
+									["amount"] = 7545,
 								},
 							},
-							["overkill"] = 11048,
-							["amount"] = 11421,
+							["amount"] = 7545,
 						},
 						[42463] = {
 							["school"] = 2,
@@ -31208,23 +31206,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 115,
 						},
-						[31804] = {
-							["school"] = 2,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 2454,
+								["Urgash"] = {
+									["amount"] = 4108,
 								},
 							},
-							["amount"] = 2454,
-						},
-						[31803] = {
-							["school"] = 2,
-							["sources"] = {
-								["Guakamole"] = {
-									["amount"] = 300,
-								},
-							},
-							["amount"] = 300,
+							["amount"] = 4108,
 						},
 						[50526] = {
 							["school"] = 32,
@@ -31235,14 +31224,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6003,
 						},
-						[55095] = {
-							["school"] = 16,
+						[31803] = {
+							["school"] = 2,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 4108,
+								["Guakamole"] = {
+									["amount"] = 300,
 								},
 							},
-							["amount"] = 4108,
+							["amount"] = 300,
+						},
+						[31804] = {
+							["school"] = 2,
+							["sources"] = {
+								["Guakamole"] = {
+									["amount"] = 2454,
+								},
+							},
+							["amount"] = 2454,
 						},
 						[67485] = {
 							["school"] = 2,
@@ -31253,14 +31251,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4222,
 						},
-						[52212] = {
-							["school"] = 32,
+						[55262] = {
+							["school"] = 1,
 							["sources"] = {
-								["Urgash"] = {
-									["amount"] = 7545,
+								["Xenaprincesa"] = {
+									["amount"] = 11421,
+									["overkill"] = 11048,
 								},
 							},
-							["amount"] = 7545,
+							["amount"] = 11421,
+							["overkill"] = 11048,
 						},
 					},
 					["totaldamage"] = 2666,
@@ -31270,13 +31270,13 @@ SkadaStorageDB = {
 					["damage"] = 0,
 				}, -- [3]
 			},
-			["damage"] = 416007,
+			["last_time"] = 12755.217,
 			["totaldamage"] = 416007,
 			["time"] = 17,
-			["etotaldamage"] = 7668,
-			["totaldamagetaken"] = 7668,
 			["etotaldamagetaken"] = 416007,
-			["last_time"] = 12755.217,
+			["totaldamagetaken"] = 7668,
+			["etotaldamage"] = 7668,
+			["damage"] = 416007,
 			["runic"] = 30,
 			["type"] = "party",
 			["damagetaken"] = 2328,
@@ -31372,11 +31372,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 10,
 						},
-						[75456] = {
-							["school"] = 64,
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 17,
 						},
 						[48266] = {
 							["type"] = "BUFF",
@@ -31407,26 +31406,33 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 12,
 						},
-						[55078] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[51735] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
 							["school"] = 32,
+							["refresh"] = 1,
 							["targets"] = {
 								["Tortured Rifleman"] = {
 									["uptime"] = 7,
 									["count"] = 1,
 								},
 								["Shadowy Mercenary"] = {
-									["uptime"] = 5,
+									["refresh"] = 1,
 									["count"] = 1,
+									["uptime"] = 7,
 								},
 							},
-							["uptime"] = 9,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 11,
 						},
 						[50536] = {
 							["type"] = "DEBUFF",
@@ -31440,13 +31446,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[71559] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[54043] = {
+						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
@@ -31472,33 +31472,32 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[20217] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
 						},
-						[51735] = {
+						[71559] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[55078] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
 							["school"] = 32,
-							["refresh"] = 1,
 							["targets"] = {
 								["Tortured Rifleman"] = {
 									["uptime"] = 7,
 									["count"] = 1,
 								},
 								["Shadowy Mercenary"] = {
-									["refresh"] = 1,
+									["uptime"] = 5,
 									["count"] = 1,
-									["uptime"] = 7,
 								},
 							},
-							["uptime"] = 11,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 9,
 						},
 						[47753] = {
 							["school"] = 2,
@@ -31518,10 +31517,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 1,
 						},
-						[57623] = {
+						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 13,
 						},
 					},
 					["totaldamage"] = 122174,
@@ -31559,8 +31559,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["count"] = 1,
 							["criticalmin"] = 0,
+							["count"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -31569,35 +31569,39 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 72211,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Tortured Rifleman"] = {
-									["total"] = 1593,
 									["amount"] = 0,
+									["total"] = 1593,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 72211,
 						},
 					},
 					["heal"] = 0,
 					["name"] = "Urgash",
 					["ccdone"] = 1,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
-						["Icy Touch"] = {
-							["hitmin"] = 2104,
-							["id"] = 49909,
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 847,
+							["id"] = 50463,
 							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 2463,
+								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 2104,
+									["amount"] = 3093,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 2104,
-							["amount"] = 2104,
-							["hitamount"] = 2104,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2463,
+							["amount"] = 5556,
+							["hitamount"] = 5556,
 						},
 						["Scourge Strike"] = {
 							["hitmin"] = 4600,
@@ -31629,13 +31633,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 7436,
-							["critical"] = 2,
+							["amount"] = 23099,
 							["criticalmax"] = 8404,
-							["count"] = 5,
+							["critical"] = 2,
 							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 3659,
-							["amount"] = 23099,
+							["count"] = 5,
 							["hitamount"] = 7259,
 						},
 						["Death and Decay"] = {
@@ -31654,31 +31658,31 @@ SkadaStorageDB = {
 									["amount"] = 10714,
 								},
 							},
+							["count"] = 22,
+							["amount"] = 25064,
 							["criticalmax"] = 1804,
 							["hitmax"] = 863,
-							["casts"] = 1,
-							["critical"] = 9,
 							["hit"] = 13,
 							["school"] = 32,
-							["amount"] = 25064,
-							["count"] = 22,
+							["critical"] = 9,
+							["casts"] = 1,
 							["hitamount"] = 10093,
 						},
-						["Blood Strike"] = {
-							["criticalamount"] = 5222,
-							["id"] = 49930,
+						["Icy Touch"] = {
+							["hitmin"] = 2104,
+							["id"] = 49909,
 							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 5222,
+								["Shadowy Mercenary"] = {
+									["amount"] = 2104,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5222,
-							["school"] = 1,
-							["criticalmin"] = 5222,
-							["criticalmax"] = 5222,
 							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 2104,
+							["amount"] = 2104,
+							["hitamount"] = 2104,
 						},
 						["Unholy Blight (DoT)"] = {
 							["hitmin"] = 98,
@@ -31717,23 +31721,23 @@ SkadaStorageDB = {
 							["amount"] = 10725,
 							["hitamount"] = 10725,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1769,
-							["id"] = 55095,
+						["Melee (Pebblebasher)"] = {
+							["hitmin"] = 615,
+							["id"] = 6603,
 							["targets"] = {
 								["Tortured Rifleman"] = {
-									["amount"] = 4108,
+									["amount"] = 1283,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 3539,
+									["amount"] = 3146,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 2054,
-							["amount"] = 7647,
-							["hitamount"] = 7647,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 646,
+							["amount"] = 4429,
+							["hitamount"] = 4429,
 						},
 						["Death Coil"] = {
 							["criticalamount"] = 9895,
@@ -31747,9 +31751,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 9895,
 							["school"] = 32,
-							["criticalmin"] = 9895,
-							["criticalmax"] = 9895,
 							["count"] = 1,
+							["criticalmax"] = 9895,
+							["criticalmin"] = 9895,
 						},
 						["Necrosis"] = {
 							["hitmin"] = 720,
@@ -31783,15 +31787,31 @@ SkadaStorageDB = {
 									["amount"] = 3792,
 								},
 							},
+							["count"] = 5,
+							["amount"] = 5768,
 							["criticalmax"] = 1976,
 							["hitmax"] = 962,
-							["casts"] = 1,
-							["critical"] = 1,
 							["hit"] = 4,
 							["school"] = 1,
-							["amount"] = 5768,
-							["count"] = 5,
+							["critical"] = 1,
+							["casts"] = 1,
 							["hitamount"] = 3792,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["hitmin"] = 2376,
+							["id"] = 70890,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["amount"] = 2376,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 2376,
+							["amount"] = 2376,
+							["hitamount"] = 2376,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 1556,
@@ -31811,22 +31831,6 @@ SkadaStorageDB = {
 							["amount"] = 4762,
 							["hitamount"] = 4762,
 						},
-						["Scourge Strike (Shadow)"] = {
-							["hitmin"] = 2376,
-							["id"] = 70890,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["amount"] = 2376,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2376,
-							["amount"] = 2376,
-							["hitamount"] = 2376,
-						},
 						["Plague Strike"] = {
 							["criticalamount"] = 6113,
 							["id"] = 49921,
@@ -31839,49 +31843,45 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 6113,
 							["school"] = 1,
-							["criticalmin"] = 6113,
-							["criticalmax"] = 6113,
 							["count"] = 1,
+							["criticalmax"] = 6113,
+							["criticalmin"] = 6113,
 						},
-						["Melee (Pebblebasher)"] = {
-							["hitmin"] = 615,
-							["id"] = 6603,
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1769,
+							["id"] = 55095,
 							["targets"] = {
 								["Tortured Rifleman"] = {
-									["amount"] = 1283,
+									["amount"] = 4108,
 								},
 								["Shadowy Mercenary"] = {
-									["amount"] = 3146,
+									["amount"] = 3539,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 646,
-							["amount"] = 4429,
-							["hitamount"] = 4429,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 2054,
+							["amount"] = 7647,
+							["hitamount"] = 7647,
 						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 847,
-							["id"] = 50463,
+						["Blood Strike"] = {
+							["criticalamount"] = 5222,
+							["id"] = 49930,
 							["targets"] = {
 								["Tortured Rifleman"] = {
-									["amount"] = 2463,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 3093,
+									["amount"] = 5222,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
+							["critical"] = 1,
+							["amount"] = 5222,
 							["school"] = 1,
-							["hitmax"] = 2463,
-							["amount"] = 5556,
-							["hitamount"] = 5556,
+							["count"] = 1,
+							["criticalmax"] = 5222,
+							["criticalmin"] = 5222,
 						},
 					},
-					["role"] = "DAMAGER",
 				}, -- [1]
 				{
 					["last"] = 12753.933,
@@ -31929,187 +31929,35 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 17,
 						},
-						[68055] = {
-							["type"] = "DEBUFF",
+						[72221] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 17,
 						},
 						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
 						},
-						[31790] = {
+						[48819] = {
 							["type"] = "DEBUFF",
 							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
 							["school"] = 2,
 							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
 								["Tortured Rifleman"] = {
 									["uptime"] = 1,
 									["count"] = 1,
 								},
-							},
-							["uptime"] = 1,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[31884] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48827] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
 								["Shadowy Mercenary"] = {
-									["uptime"] = 5,
+									["uptime"] = 6,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 9,
-						},
-						[67371] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Tortured Rifleman"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[3714] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 9,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 14,
-						},
-						[63529] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[26017] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["refresh"] = 2,
-							["targets"] = {
-								["Shadowy Mercenary"] = {
-									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
+							["uptime"] = 7,
 						},
 						[31803] = {
 							["type"] = "DEBUFF",
@@ -32135,30 +31983,182 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 13,
 						},
-						[48819] = {
+						[31790] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[54499] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[48827] = {
 							["type"] = "DEBUFF",
 							["count"] = 3,
 							["school"] = 2,
 							["targets"] = {
 								["Spectral Footman"] = {
-									["uptime"] = 7,
+									["uptime"] = 2,
 									["count"] = 1,
 								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[26017] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 2,
+							["targets"] = {
+								["Shadowy Mercenary"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[20217] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
 								["Tortured Rifleman"] = {
 									["uptime"] = 1,
 									["count"] = 1,
 								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
 							},
-							["uptime"] = 7,
+							["uptime"] = 1,
 						},
-						[72221] = {
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 14,
+						},
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
+						},
+						[63529] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[3714] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 9,
+						},
+						[67371] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[31884] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[48111] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[68055] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Tortured Rifleman"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 					},
 					["totaldamage"] = 61687,
@@ -32318,8 +32318,8 @@ SkadaStorageDB = {
 							["id"] = 61411,
 							["targets"] = {
 								["Spectral Footman"] = {
-									["overkill"] = 1113,
 									["amount"] = 4209,
+									["overkill"] = 1113,
 								},
 							},
 							["overkill"] = 1113,
@@ -32345,13 +32345,13 @@ SkadaStorageDB = {
 									["amount"] = 388,
 								},
 							},
-							["blocked"] = 40,
+							["hit"] = 7,
 							["casts"] = 1,
 							["count"] = 7,
-							["hit"] = 7,
+							["blocked"] = 40,
 							["school"] = 2,
-							["hitmax"] = 408,
 							["amount"] = 1509,
+							["hitmax"] = 408,
 							["hitamount"] = 1509,
 						},
 					},
@@ -32392,46 +32392,52 @@ SkadaStorageDB = {
 					["overkill"] = 1113,
 					["heal"] = 0,
 					["name"] = "Guakamole",
+					["role"] = "TANK",
+					["mana"] = 194,
+					["manaspells"] = {
+						[31786] = 194,
+					},
+					["overheal"] = 3852,
 					["damagetakenspells"] = {
 						["Shoot"] = {
 							["total"] = 1073,
 							["id"] = 72211,
-							["ABSORB"] = 1,
+							["amount"] = 0,
 							["sources"] = {
 								["Tortured Rifleman"] = {
-									["total"] = 1073,
 									["amount"] = 0,
+									["total"] = 1073,
 								},
 							},
 							["count"] = 3,
-							["blocked"] = 1199,
+							["ABSORB"] = 1,
 							["school"] = 1,
 							["BLOCK"] = 1,
 							["MISS"] = 1,
-							["amount"] = 0,
+							["blocked"] = 1199,
 						},
 						["Melee"] = {
 							["DODGE"] = 2,
 							["total"] = 2674,
 							["id"] = 6603,
-							["BLOCK"] = 1,
-							["blocked"] = 1385,
+							["PARRY"] = 2,
+							["amount"] = 0,
 							["sources"] = {
 								["Spectral Footman"] = {
-									["total"] = 1501,
 									["amount"] = 0,
+									["total"] = 1501,
 								},
 								["Shadowy Mercenary"] = {
-									["total"] = 1173,
 									["amount"] = 0,
+									["total"] = 1173,
 								},
 							},
-							["count"] = 10,
-							["amount"] = 0,
+							["BLOCK"] = 1,
+							["blocked"] = 1385,
 							["school"] = 1,
 							["ABSORB"] = 2,
 							["MISS"] = 3,
-							["PARRY"] = 2,
+							["count"] = 10,
 						},
 						["Deadly Poison"] = {
 							["sources"] = {
@@ -32446,12 +32452,6 @@ SkadaStorageDB = {
 							["id"] = 72330,
 						},
 					},
-					["overheal"] = 3852,
-					["manaspells"] = {
-						[31786] = 194,
-					},
-					["mana"] = 194,
-					["role"] = "TANK",
 				}, -- [2]
 				{
 					["overheal"] = 7409,
@@ -32486,8 +32486,8 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["amount"] = 1254,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["critical"] = 1,
+							["criticalmin"] = 0,
 						},
 						[33110] = {
 							["overheal"] = 3125,
@@ -32523,6 +32523,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 17,
 						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[6562] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
 						[6788] = {
 							["type"] = "DEBUFF",
 							["count"] = 4,
@@ -32542,16 +32552,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 12,
-						},
-						[6562] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[20217] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
 						},
 						[63944] = {
 							["school"] = 2,
@@ -32586,7 +32586,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 17,
 						},
-						[57623] = {
+						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
@@ -32619,11 +32619,11 @@ SkadaStorageDB = {
 					},
 					["role"] = "HEALER",
 					["time"] = 9.360000000000001,
-					["last"] = 12749.062,
-					["flag"] = 1298,
-					["spec"] = 256,
-					["name"] = "Niveaboy",
 					["heal"] = 1254,
+					["name"] = "Niveaboy",
+					["spec"] = 256,
+					["flag"] = 1298,
+					["last"] = 12749.062,
 				}, -- [3]
 				{
 					["last"] = 12754.16,
@@ -32711,11 +32711,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[63944] = {
-							["school"] = 2,
+						[6562] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 17,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -32735,20 +32734,20 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 9,
 						},
-						[54043] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
 						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
 						},
-						[72221] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
+						},
+						[3714] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
 						},
 						[50449] = {
 							["type"] = "BUFF",
@@ -32762,10 +32761,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 17,
 						},
-						[3714] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 17,
 						},
 						[50421] = {
 							["school"] = 1,
@@ -32773,10 +32772,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 1,
 						},
-						[6562] = {
+						[63944] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 12,
 						},
 					},
 					["totaldamage"] = 92073,
@@ -32796,13 +32796,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 9074,
-							["critical"] = 2,
+							["amount"] = 24548,
 							["criticalmax"] = 11426,
-							["count"] = 3,
+							["critical"] = 2,
 							["hit"] = 1,
 							["school"] = 1,
 							["hitmax"] = 4048,
-							["amount"] = 24548,
+							["count"] = 3,
 							["hitamount"] = 4048,
 						},
 						["Icy Touch"] = {
@@ -32817,9 +32817,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3015,
 							["school"] = 16,
-							["criticalmin"] = 3015,
-							["criticalmax"] = 3015,
 							["count"] = 1,
+							["criticalmax"] = 3015,
+							["criticalmin"] = 3015,
 						},
 						["Melee (Bloodworm)"] = {
 							["glance"] = 125,
@@ -32839,30 +32839,30 @@ SkadaStorageDB = {
 							["criticalamount"] = 252,
 							["id"] = 6603,
 							["glancemax"] = 125,
-							["blocked"] = 40,
+							["hit"] = 10,
 							["criticalmax"] = 252,
 							["hitmax"] = 127,
-							["hit"] = 10,
+							["blocked"] = 40,
 							["school"] = 1,
-							["critical"] = 1,
 							["count"] = 12,
+							["critical"] = 1,
 							["hitamount"] = 1218,
 						},
-						["Death Coil"] = {
-							["criticalamount"] = 7424,
-							["id"] = 47632,
+						["Blood-Caked Strike"] = {
+							["hitmin"] = 1484,
+							["id"] = 50463,
 							["targets"] = {
-								["Shadowy Mercenary"] = {
-									["amount"] = 7424,
+								["Spectral Footman"] = {
+									["amount"] = 1484,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 7424,
-							["school"] = 32,
-							["criticalmin"] = 7424,
-							["criticalmax"] = 7424,
 							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1484,
+							["amount"] = 1484,
+							["hitamount"] = 1484,
 						},
 						["Necrosis"] = {
 							["hitmin"] = 809,
@@ -32898,66 +32898,6 @@ SkadaStorageDB = {
 							["amount"] = 3646,
 							["hitamount"] = 3646,
 						},
-						["Death Strike"] = {
-							["criticalamount"] = 15274,
-							["id"] = 49924,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 15274,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 15274,
-							["school"] = 1,
-							["criticalmin"] = 15274,
-							["criticalmax"] = 15274,
-							["count"] = 1,
-						},
-						["Heart Strike"] = {
-							["criticalmin"] = 11421,
-							["hitmin"] = 2354,
-							["criticalamount"] = 23053,
-							["id"] = 55262,
-							["hitmax"] = 2354,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 11632,
-								},
-								["Tortured Rifleman"] = {
-									["overkill"] = 11048,
-									["amount"] = 11421,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 2354,
-								},
-							},
-							["overkill"] = 11048,
-							["hit"] = 1,
-							["casts"] = 2,
-							["count"] = 3,
-							["amount"] = 25407,
-							["school"] = 1,
-							["critical"] = 2,
-							["criticalmax"] = 11632,
-							["hitamount"] = 2354,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 2506,
-							["id"] = 49921,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 2506,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2506,
-							["amount"] = 2506,
-							["hitamount"] = 2506,
-						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 917,
 							["id"] = 55095,
@@ -32976,21 +32916,81 @@ SkadaStorageDB = {
 							["amount"] = 4551,
 							["hitamount"] = 4551,
 						},
-						["Blood-Caked Strike"] = {
-							["hitmin"] = 1484,
-							["id"] = 50463,
+						["Plague Strike"] = {
+							["hitmin"] = 2506,
+							["id"] = 49921,
 							["targets"] = {
 								["Spectral Footman"] = {
-									["amount"] = 1484,
+									["amount"] = 2506,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 1484,
-							["amount"] = 1484,
-							["hitamount"] = 1484,
+							["hitmax"] = 2506,
+							["amount"] = 2506,
+							["hitamount"] = 2506,
+						},
+						["Heart Strike"] = {
+							["criticalamount"] = 23053,
+							["hitmin"] = 2354,
+							["criticalmin"] = 11421,
+							["id"] = 55262,
+							["criticalmax"] = 11632,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 11632,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 11421,
+									["overkill"] = 11048,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 2354,
+								},
+							},
+							["overkill"] = 11048,
+							["critical"] = 2,
+							["casts"] = 2,
+							["hitmax"] = 2354,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 25407,
+							["count"] = 3,
+							["hitamount"] = 2354,
+						},
+						["Death Strike"] = {
+							["criticalamount"] = 15274,
+							["id"] = 49924,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 15274,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 15274,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 15274,
+							["criticalmin"] = 15274,
+						},
+						["Death Coil"] = {
+							["criticalamount"] = 7424,
+							["id"] = 47632,
+							["targets"] = {
+								["Shadowy Mercenary"] = {
+									["amount"] = 7424,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 7424,
+							["school"] = 32,
+							["count"] = 1,
+							["criticalmax"] = 7424,
+							["criticalmin"] = 7424,
 						},
 					},
 					["id"] = "0x0700000000005962",
@@ -33037,13 +33037,13 @@ SkadaStorageDB = {
 					["overkill"] = 11048,
 					["heal"] = 0,
 					["name"] = "Xenaprincesa",
+					["role"] = "DAMAGER",
+					["overheal"] = 12652,
+					["runic"] = 30,
 					["runicspells"] = {
 						[50422] = 10,
 						[50163] = 20,
 					},
-					["runic"] = 30,
-					["overheal"] = 12652,
-					["role"] = "DAMAGER",
 				}, -- [4]
 				{
 					["last"] = 12753.042,
@@ -33122,11 +33122,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 1,
 						},
-						[73422] = {
-							["school"] = 1,
+						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 17,
 						},
 						[54499] = {
 							["type"] = "DEBUFF",
@@ -33141,10 +33140,30 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[53601] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
 							["uptime"] = 17,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Tortured Rifleman"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Shadowy Mercenary"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
 						},
 						[67773] = {
 							["school"] = 2,
@@ -33152,12 +33171,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[54043] = {
+						[20217] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
@@ -33186,22 +33200,10 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["uptime"] = 14,
 						},
-						[20217] = {
+						[54043] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[59578] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 10,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -33215,36 +33217,34 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 7,
 						},
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 10,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
 						[72412] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Tortured Rifleman"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Shadowy Mercenary"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[48074] = {
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
+						},
+						[73422] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -33285,9 +33285,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 8111,
 							["school"] = 2,
-							["criticalmin"] = 8111,
-							["criticalmax"] = 8111,
 							["count"] = 1,
+							["criticalmax"] = 8111,
+							["criticalmin"] = 8111,
 						},
 						["Melee"] = {
 							["glance"] = 2473,
@@ -33342,8 +33342,8 @@ SkadaStorageDB = {
 									["amount"] = 5327,
 								},
 								["Shadowy Mercenary"] = {
-									["overkill"] = 6946,
 									["amount"] = 8464,
+									["overkill"] = 6946,
 								},
 							},
 							["overkill"] = 6946,
@@ -33351,25 +33351,25 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 13791,
 							["school"] = 2,
-							["criticalmin"] = 5327,
-							["criticalmax"] = 8464,
 							["count"] = 2,
+							["criticalmax"] = 8464,
+							["criticalmin"] = 5327,
 						},
-						["Manifest Anger"] = {
-							["hitmin"] = 1788,
-							["id"] = 71433,
+						["Retribution Aura"] = {
+							["hitmin"] = 285,
+							["id"] = 54043,
 							["targets"] = {
-								["Shadowy Mercenary"] = {
-									["amount"] = 1788,
+								["Spectral Footman"] = {
+									["amount"] = 285,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1788,
-							["amount"] = 1788,
-							["hitamount"] = 1788,
+							["school"] = 2,
+							["hitmax"] = 285,
+							["amount"] = 285,
+							["hitamount"] = 285,
 						},
 						["Divine Storm"] = {
 							["hitmin"] = 3438,
@@ -33390,32 +33390,6 @@ SkadaStorageDB = {
 							["amount"] = 7062,
 							["hitamount"] = 7062,
 						},
-						["Crusader Strike"] = {
-							["hitmin"] = 3161,
-							["criticalamount"] = 5456,
-							["id"] = 35395,
-							["criticalmin"] = 5456,
-							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 5456,
-								},
-								["Tortured Rifleman"] = {
-									["amount"] = 3256,
-								},
-								["Shadowy Mercenary"] = {
-									["amount"] = 3161,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["casts"] = 3,
-							["hitmax"] = 3256,
-							["amount"] = 11873,
-							["school"] = 1,
-							["critical"] = 1,
-							["criticalmax"] = 5456,
-							["hitamount"] = 6417,
-						},
 						["Seal of Command"] = {
 							["hitmin"] = 1699,
 							["criticalamount"] = 39454,
@@ -33432,15 +33406,41 @@ SkadaStorageDB = {
 									["amount"] = 28340,
 								},
 							},
+							["count"] = 18,
+							["amount"] = 59369,
 							["criticalmax"] = 5288,
 							["hitmax"] = 2534,
-							["casts"] = 1,
-							["critical"] = 9,
 							["hit"] = 9,
 							["school"] = 2,
-							["amount"] = 59369,
-							["count"] = 18,
+							["critical"] = 9,
+							["casts"] = 1,
 							["hitamount"] = 19915,
+						},
+						["Crusader Strike"] = {
+							["hitmin"] = 3161,
+							["criticalamount"] = 5456,
+							["id"] = 35395,
+							["criticalmin"] = 5456,
+							["targets"] = {
+								["Spectral Footman"] = {
+									["amount"] = 5456,
+								},
+								["Tortured Rifleman"] = {
+									["amount"] = 3256,
+								},
+								["Shadowy Mercenary"] = {
+									["amount"] = 3161,
+								},
+							},
+							["criticalmax"] = 5456,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 11873,
+							["hitmax"] = 3256,
+							["hitamount"] = 6417,
 						},
 						["Righteous Vengeance (DoT)"] = {
 							["hitmin"] = 832,
@@ -33457,21 +33457,21 @@ SkadaStorageDB = {
 							["amount"] = 1665,
 							["hitamount"] = 1665,
 						},
-						["Retribution Aura"] = {
-							["hitmin"] = 285,
-							["id"] = 54043,
+						["Manifest Anger"] = {
+							["hitmin"] = 1788,
+							["id"] = 71433,
 							["targets"] = {
-								["Spectral Footman"] = {
-									["amount"] = 285,
+								["Shadowy Mercenary"] = {
+									["amount"] = 1788,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 285,
-							["amount"] = 285,
-							["hitamount"] = 285,
+							["school"] = 1,
+							["hitmax"] = 1788,
+							["amount"] = 1788,
+							["hitamount"] = 1788,
 						},
 					},
 					["damagetaken"] = 2328,
@@ -33480,30 +33480,30 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 9843,
-							["max"] = 1368,
+							["min"] = 767,
 							["count"] = 21,
 							["amount"] = 4980,
-							["school"] = 2,
-							["ishot"] = true,
+							["max"] = 1368,
 							["targets"] = {
 								["Xenaprincesa"] = {
 									["overheal"] = 4896,
 									["amount"] = 0,
 								},
-								["Bloodworm"] = {
-									["overheal"] = 80,
-									["amount"] = 0,
+								["Giveme"] = {
+									["overheal"] = 4694,
+									["amount"] = 2328,
 								},
 								["Guakamole"] = {
 									["overheal"] = 173,
 									["amount"] = 2652,
 								},
-								["Giveme"] = {
-									["overheal"] = 4694,
-									["amount"] = 2328,
+								["Bloodworm"] = {
+									["overheal"] = 80,
+									["amount"] = 0,
 								},
 							},
-							["min"] = 767,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -33528,22 +33528,22 @@ SkadaStorageDB = {
 						[31930] = 2196,
 						[57669] = 1078,
 					},
-					["overkill"] = 6946,
-					["name"] = "Giveme",
-					["mana"] = 3274,
-					["overheal"] = 9843,
 					["totaldamage"] = 140073,
+					["overheal"] = 9843,
+					["mana"] = 3274,
+					["name"] = "Giveme",
+					["overkill"] = 6946,
 				}, -- [5]
 			},
-			["absorb"] = 5340,
-			["ccdone"] = 1,
+			["starttime"] = 1699798050,
+			["mobname"] = "Spectral Footman",
 			["overheal"] = 37616,
 			["overkill"] = 19107,
 			["edamagetaken"] = 416007,
 			["heal"] = 6234,
 			["name"] = "Spectral Footman",
-			["mobname"] = "Spectral Footman",
-			["starttime"] = 1699798050,
+			["ccdone"] = 1,
+			["absorb"] = 5340,
 			["edamage"] = 2328,
 			["last_action"] = 1699798067,
 			["endtime"] = 1699798067,
