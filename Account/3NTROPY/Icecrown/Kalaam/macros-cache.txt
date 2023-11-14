@@ -56,6 +56,11 @@ MACRO 16777225 "stealth" INV_Misc_QuestionMark
 #showtooltip
 /cast !stealth
 END
+MACRO 16777232 "step" INV_Misc_QuestionMark
+#showtooltip shadowstep
+/targetenemyplayer [noharm]
+/cast shadowstep
+END
 MACRO 16777218 "tot" INV_Misc_QuestionMark
 #showtooltip
 /cast [@focus, help, nodead][@targettarget, help, nodead][@mouseover, help, nodead][] tricks of the trade
