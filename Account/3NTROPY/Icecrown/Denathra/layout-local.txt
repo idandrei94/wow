@@ -25,8 +25,8 @@ FrameLevel: 1
 Anchor: CENTER
 X: -7
 Y: -43
-W: 345
-H: 331
+W: 468
+H: 374
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -76,10 +76,3 @@ X: 12
 Y: -37
 W: 681
 H: 552
-Frame: SkadaBarWindowSkada
-FrameLevel: 1
-Anchor: LEFT
-X: 3
-Y: 141
-W: 221
-H: 290

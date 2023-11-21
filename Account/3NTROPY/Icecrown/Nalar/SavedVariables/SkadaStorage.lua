@@ -1,26 +1,27 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["mana"] = 96790,
-		["dispel"] = 10,
-		["totaldamage"] = 4815779,
-		["time"] = 347,
-		["totaldamagetaken"] = 722862,
-		["damage"] = 4815779,
+		["mana"] = 97390,
+		["dispel"] = 19,
+		["totaldamage"] = 4857735,
+		["time"] = 385,
+		["totaldamagetaken"] = 724403,
+		["damage"] = 4857735,
 		["starttime"] = 1700475983,
-		["absorb"] = 61173,
+		["absorb"] = 62714,
 		["damagetaken"] = 653146,
 		["interrupt"] = 2,
-		["rage"] = 798,
-		["overheal"] = 1221499,
-		["overkill"] = 168143,
+		["overkill"] = 173401,
 		["heal"] = 721645,
 		["name"] = "Total",
 		["ccdone"] = 48,
+		["rage"] = 798,
+		["overheal"] = 1236321,
 		["players"] = {
 			{
 				["flag"] = 1298,
 				["class"] = "WARRIOR",
+				["totaldamage"] = 743348,
 				["time"] = 267.85,
 				["totaldamagetaken"] = 182639,
 				["damage"] = 743348,
@@ -35,7 +36,6 @@ SkadaStorageDB = {
 				["ccdone"] = 38,
 				["interrupt"] = 2,
 				["overheal"] = 1945,
-				["totaldamage"] = 743348,
 				["role"] = "TANK",
 			}, -- [1]
 			{
@@ -44,70 +44,71 @@ SkadaStorageDB = {
 				["class"] = "WARRIOR",
 				["heal"] = 1032,
 				["totaldamage"] = 62424,
-				["role"] = "DAMAGER",
 				["time"] = 14.87,
+				["role"] = "DAMAGER",
 				["flag"] = 1298,
 				["name"] = "Batulkas",
 				["spec"] = 72,
 				["damage"] = 62424,
 			}, -- [2]
 			{
-				["flag"] = 1298,
-				["class"] = "WARRIOR",
-				["time"] = 254.1399999999999,
-				["totaldamagetaken"] = 217903,
-				["damage"] = 1443954,
 				["overheal"] = 12999,
 				["damagetaken"] = 210882,
+				["totaldamage"] = 1443954,
+				["flag"] = 1298,
+				["class"] = "WARRIOR",
 				["id"] = "0x070000000060091D",
-				["spec"] = 72,
 				["overkill"] = 53341,
 				["heal"] = 23806,
-				["name"] = "Warac",
-				["rage"] = 100,
-				["totaldamage"] = 1443954,
 				["role"] = "DAMAGER",
+				["time"] = 254.1399999999999,
+				["spec"] = 72,
+				["name"] = "Warac",
+				["totaldamagetaken"] = 217903,
+				["rage"] = 100,
+				["damage"] = 1443954,
 			}, -- [3]
 			{
 				["flag"] = 1298,
-				["mana"] = 16215,
+				["class"] = "DRUID",
+				["role"] = "HEALER",
 				["time"] = 204.8700000000001,
 				["totaldamagetaken"] = 98363,
 				["damage"] = 92354,
-				["rage"] = 208,
+				["overheal"] = 850430,
 				["damagetaken"] = 98363,
 				["id"] = "0x07000000007AA386",
 				["spec"] = 105,
 				["overkill"] = 3048,
 				["heal"] = 542321,
 				["name"] = "Elunestrasza",
+				["rage"] = 208,
+				["mana"] = 16215,
 				["totaldamage"] = 92354,
-				["overheal"] = 850430,
-				["class"] = "DRUID",
-				["role"] = "HEALER",
 			}, -- [4]
 			{
 				["flag"] = 1297,
-				["mana"] = 20528,
-				["dispel"] = 10,
-				["time"] = 227.9300000000001,
-				["totaldamagetaken"] = 103339,
-				["damage"] = 1423259,
-				["overheal"] = 350258,
-				["absorb"] = 45258,
+				["mana"] = 21128,
+				["dispel"] = 19,
+				["totaldamage"] = 1465215,
+				["time"] = 252.7400000000001,
+				["totaldamagetaken"] = 104880,
+				["damage"] = 1465215,
+				["overheal"] = 365080,
+				["absorb"] = 46799,
 				["damagetaken"] = 61928,
 				["id"] = "0x070000000027C8A1",
 				["spec"] = 258,
-				["overkill"] = 64933,
+				["overkill"] = 70191,
 				["heal"] = 102613,
 				["name"] = "Nalar",
 				["class"] = "PRIEST",
-				["totaldamage"] = 1423259,
 				["role"] = "DAMAGER",
 			}, -- [5]
 			{
 				["flag"] = 1298,
-				["class"] = "PALADIN",
+				["mana"] = 60047,
+				["role"] = "DAMAGER",
 				["time"] = 201.7599999999999,
 				["totaldamagetaken"] = 120618,
 				["damage"] = 1050440,
@@ -119,18 +120,715 @@ SkadaStorageDB = {
 				["heal"] = 37369,
 				["name"] = "Hairypaladin",
 				["ccdone"] = 10,
-				["mana"] = 60047,
 				["totaldamage"] = 1050440,
-				["role"] = "DAMAGER",
+				["class"] = "PALADIN",
 			}, -- [6]
 		},
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
-			["damage"] = 513273,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[38204] = {
+							["school"] = 64,
+							["total"] = 763,
+							["targets"] = {
+								["Nalar"] = {
+									["total"] = 763,
+									["amount"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["damagetaken"] = 10398,
+					["id"] = "0xF13000828E0408AE",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["overkill"] = 982,
+									["amount"] = 10398,
+								},
+							},
+							["overkill"] = 982,
+							["amount"] = 10398,
+						},
+					},
+					["totaldamage"] = 763,
+					["name"] = "Unbound Seer",
+					["totaldamagetaken"] = 10398,
+					["flag"] = 68168,
+					["damage"] = 0,
+				}, -- [1]
+			},
+			["totaldamage"] = 10398,
+			["time"] = 7,
+			["overheal"] = 2603,
+			["totaldamagetaken"] = 763,
+			["etotaldamage"] = 763,
+			["last_time"] = 4824.585,
+			["players"] = {
+				{
+					["last"] = 4823.794,
+					["flag"] = 1297,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[33198] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 5,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 5,
+								},
+							},
+							["count"] = 1,
+						},
+						[48156] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[75473] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[15258] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 7,
+						},
+						[15473] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[15286] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["absorbspells"] = {
+						[48066] = {
+							["min"] = 140,
+							["casts"] = 1,
+							["count"] = 4,
+							["amount"] = 763,
+							["max"] = 224,
+							["targets"] = {
+								["Nalar"] = 763,
+							},
+						},
+					},
+					["time"] = 6.09,
+					["totaldamagetaken"] = 763,
+					["damage"] = 10398,
+					["overheal"] = 2603,
+					["absorb"] = 763,
+					["damagetaken"] = 0,
+					["id"] = "0x070000000027C8A1",
+					["spec"] = 258,
+					["healspells"] = {
+						[15290] = {
+							["overheal"] = 2603,
+							["count"] = 5,
+							["amount"] = 0,
+							["school"] = 32,
+							["ishot"] = true,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 2603,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Arcane Bolt"] = {
+							["total"] = 763,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 64,
+							["sources"] = {
+								["Unbound Seer"] = {
+									["total"] = 763,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 4,
+							["id"] = 38204,
+						},
+					},
+					["heal"] = 0,
+					["name"] = "Nalar",
+					["overkill"] = 982,
+					["damagespells"] = {
+						["Mind Flay"] = {
+							["hitmin"] = 2079,
+							["id"] = 58381,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 982,
+									["amount"] = 10398,
+								},
+							},
+							["overkill"] = 982,
+							["casts"] = 2,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 2080,
+							["amount"] = 10398,
+							["hitamount"] = 10398,
+						},
+					},
+					["totaldamage"] = 10398,
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["absorb"] = 763,
+			["damagetaken"] = 0,
+			["damage"] = 10398,
+			["etotaldamagetaken"] = 10398,
+			["starttime"] = 1700563330,
+			["overkill"] = 982,
+			["edamagetaken"] = 10398,
+			["heal"] = 0,
+			["name"] = "Unbound Seer",
+			["mobname"] = "Unbound Seer",
+			["type"] = "none",
+			["edamage"] = 0,
+			["last_action"] = 1700563337,
+			["endtime"] = 1700563337,
+		}, -- [1]
+		{
+			["mana"] = 600,
+			["overheal"] = 11826,
+			["enemies"] = {
+				{
+					["id"] = "0x07000000009C4295",
+					["name"] = "Redrein",
+					["totaldamagetaken"] = 19912,
+					["flag"] = 66888,
+					["class"] = "PALADIN",
+					["damagetaken"] = 19912,
+					["damagetakenspells"] = {
+						[48160] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["amount"] = 5887,
+								},
+							},
+							["amount"] = 5887,
+						},
+						[63675] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["amount"] = 5664,
+								},
+							},
+							["amount"] = 5664,
+						},
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["amount"] = 2431,
+								},
+							},
+							["amount"] = 2431,
+						},
+						[48300] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["overkill"] = 2372,
+									["amount"] = 5930,
+								},
+							},
+							["overkill"] = 2372,
+							["amount"] = 5930,
+						},
+					},
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[38204] = {
+							["school"] = 64,
+							["total"] = 778,
+							["targets"] = {
+								["Nalar"] = {
+									["total"] = 778,
+									["amount"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["damagetaken"] = 10077,
+					["id"] = "0xF13000828E0407AD",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["overkill"] = 337,
+									["amount"] = 10077,
+								},
+							},
+							["overkill"] = 337,
+							["amount"] = 10077,
+						},
+					},
+					["totaldamage"] = 778,
+					["name"] = "Unbound Seer",
+					["totaldamagetaken"] = 10077,
+					["flag"] = 68168,
+					["damage"] = 0,
+				}, -- [2]
+			},
+			["dispel"] = 9,
+			["totaldamage"] = 29989,
+			["time"] = 31,
+			["totaldamagetaken"] = 778,
+			["etotaldamagetaken"] = 29989,
+			["last_time"] = 4816.118,
+			["players"] = {
+				{
+					["last"] = 4816.086,
+					["flag"] = 1297,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[15286] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[15258] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 7,
+							["uptime"] = 28,
+						},
+						[48156] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 32,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[48300] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Redrein"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[75473] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[48066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 17,
+						},
+						[48125] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Redrein"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Nalar"] = {
+									["uptime"] = 16,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 16,
+						},
+						[48160] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Redrein"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[33198] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 32,
+							["refresh"] = 2,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 6,
+								},
+								["Redrein"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 16,
+						},
+						[15473] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+					},
+					["dispel"] = 9,
+					["time"] = 20.57,
+					["totaldamage"] = 29989,
+					["absorbspells"] = {
+						[48066] = {
+							["min"] = 181,
+							["casts"] = 2,
+							["count"] = 4,
+							["amount"] = 778,
+							["school"] = 2,
+							["targets"] = {
+								["Nalar"] = 778,
+							},
+							["max"] = 224,
+						},
+					},
+					["totaldamagetaken"] = 778,
+					["damagetakenspells"] = {
+						["Arcane Bolt"] = {
+							["total"] = 778,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 64,
+							["sources"] = {
+								["Unbound Seer"] = {
+									["total"] = 778,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 4,
+							["id"] = 38204,
+						},
+					},
+					["damage"] = 29989,
+					["overheal"] = 11826,
+					["absorb"] = 778,
+					["damagetaken"] = 0,
+					["id"] = "0x070000000027C8A1",
+					["spec"] = 258,
+					["healspells"] = {
+						[15290] = {
+							["overheal"] = 7366,
+							["count"] = 13,
+							["amount"] = 0,
+							["school"] = 32,
+							["ishot"] = true,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 7366,
+									["amount"] = 0,
+								},
+							},
+						},
+						[75999] = {
+							["overheal"] = 1485,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 1485,
+									["amount"] = 0,
+								},
+							},
+						},
+						[56160] = {
+							["overheal"] = 2171,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 2,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 2171,
+									["amount"] = 0,
+								},
+							},
+						},
+						[48300] = {
+							["overheal"] = 804,
+							["casts"] = 4,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 804,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["overkill"] = 2709,
+					["damagespells"] = {
+						["Vampiric Touch (DoT)"] = {
+							["hitmin"] = 1942,
+							["id"] = 48160,
+							["targets"] = {
+								["Redrein"] = {
+									["amount"] = 5887,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 2002,
+							["amount"] = 5887,
+							["hitamount"] = 5887,
+						},
+						["Devouring Plague"] = {
+							["casts"] = 3,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 32,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Redrein"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 48300,
+						},
+						["Devouring Plague (DoT)"] = {
+							["hitmax"] = 1210,
+							["hitmin"] = 1210,
+							["criticalamount"] = 4720,
+							["id"] = 48300,
+							["casts"] = 2,
+							["targets"] = {
+								["Redrein"] = {
+									["overkill"] = 2372,
+									["amount"] = 5930,
+								},
+							},
+							["overkill"] = 2372,
+							["count"] = 3,
+							["criticalmax"] = 2372,
+							["critical"] = 2,
+							["amount"] = 5930,
+							["school"] = 32,
+							["hit"] = 1,
+							["criticalmin"] = 2348,
+							["hitamount"] = 1210,
+						},
+						["Mind Flay"] = {
+							["count"] = 4,
+							["hitmin"] = 2042,
+							["criticalamount"] = 5955,
+							["id"] = 58381,
+							["hitmax"] = 2080,
+							["targets"] = {
+								["Unbound Seer"] = {
+									["overkill"] = 337,
+									["amount"] = 10077,
+								},
+							},
+							["overkill"] = 337,
+							["hit"] = 2,
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 10077,
+							["school"] = 32,
+							["criticalmin"] = 2949,
+							["criticalmax"] = 3006,
+							["hitamount"] = 4122,
+						},
+						["Improved Devouring Plague"] = {
+							["hitmin"] = 2817,
+							["id"] = 63675,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Redrein"] = {
+									["amount"] = 5664,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 2847,
+							["amount"] = 5664,
+							["hitamount"] = 5664,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["criticalamount"] = 2431,
+							["id"] = 48125,
+							["targets"] = {
+								["Redrein"] = {
+									["amount"] = 2431,
+								},
+							},
+							["criticalmax"] = 2431,
+							["critical"] = 1,
+							["amount"] = 2431,
+							["school"] = 32,
+							["casts"] = 2,
+							["criticalmin"] = 2431,
+							["count"] = 1,
+						},
+					},
+					["heal"] = 0,
+					["name"] = "Nalar",
+					["manaspells"] = {
+						[55382] = 600,
+					},
+					["mana"] = 600,
+					["dispelspells"] = {
+						[988] = {
+							["spells"] = {
+								[25899] = 1,
+								[25782] = 1,
+								[48162] = 1,
+								[48170] = 1,
+								[48074] = 1,
+								[59578] = 1,
+								[20053] = 2,
+								[25898] = 1,
+							},
+							["count"] = 9,
+							["targets"] = {
+								["Redrein"] = 9,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 0,
+			["etotaldamage"] = 778,
+			["absorb"] = 778,
+			["damage"] = 29989,
+			["overkill"] = 2709,
+			["edamagetaken"] = 29989,
+			["heal"] = 0,
+			["name"] = "Redrein",
+			["mobname"] = "Redrein",
+			["starttime"] = 1700563298,
+			["edamage"] = 0,
+			["last_action"] = 1700563329,
+			["endtime"] = 1700563329,
+		}, -- [2]
+		{
 			["mana"] = 29891,
-			["success"] = true,
+			["absorb"] = 5152,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -236,23 +934,35 @@ SkadaStorageDB = {
 							},
 							["amount"] = 26617,
 						},
-						[20647] = {
-							["school"] = 1,
+						[49617] = {
+							["school"] = 32,
 							["sources"] = {
+								["Nalar"] = {
+									["amount"] = 9104,
+								},
 								["Warac"] = {
-									["amount"] = 10600,
+									["amount"] = 4698,
 								},
-							},
-							["amount"] = 10600,
-						},
-						[46968] = {
-							["school"] = 1,
-							["sources"] = {
+								["Elunestrasza"] = {
+									["amount"] = 9853,
+								},
 								["Pompeu"] = {
-									["amount"] = 3457,
+									["amount"] = 2844,
+								},
+								["Hairypaladin"] = {
+									["amount"] = 6930,
 								},
 							},
-							["amount"] = 3457,
+							["amount"] = 33429,
+						},
+						[42463] = {
+							["school"] = 2,
+							["sources"] = {
+								["Hairypaladin"] = {
+									["amount"] = 13232,
+								},
+							},
+							["amount"] = 13232,
 						},
 						[47450] = {
 							["school"] = 1,
@@ -296,35 +1006,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 17647,
 						},
-						[49617] = {
-							["school"] = 32,
+						[47488] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 9104,
-								},
-								["Warac"] = {
-									["amount"] = 4698,
-								},
-								["Elunestrasza"] = {
-									["amount"] = 9853,
-								},
 								["Pompeu"] = {
-									["amount"] = 2844,
-								},
-								["Hairypaladin"] = {
-									["amount"] = 6930,
+									["amount"] = 11726,
 								},
 							},
-							["amount"] = 33429,
+							["amount"] = 11726,
 						},
-						[42463] = {
-							["school"] = 2,
+						[64442] = {
+							["school"] = 1,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 13232,
+								["Pompeu"] = {
+									["amount"] = 658,
 								},
 							},
-							["amount"] = 13232,
+							["amount"] = 658,
 						},
 						[31803] = {
 							["school"] = 2,
@@ -344,68 +1042,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7284,
 						},
-						[47488] = {
-							["school"] = 1,
-							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 11726,
-								},
-							},
-							["amount"] = 11726,
-						},
-						[64442] = {
-							["school"] = 1,
-							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 658,
-								},
-							},
-							["amount"] = 658,
-						},
-						[35395] = {
-							["school"] = 1,
+						[31804] = {
+							["school"] = 2,
 							["sources"] = {
 								["Hairypaladin"] = {
-									["amount"] = 4058,
+									["amount"] = 14485,
 								},
 							},
-							["amount"] = 4058,
+							["amount"] = 14485,
 						},
-						[44949] = {
-							["school"] = 1,
+						[48819] = {
+							["school"] = 2,
 							["sources"] = {
-								["Warac"] = {
-									["amount"] = 6381,
+								["Hairypaladin"] = {
+									["amount"] = 5488,
 								},
 							},
-							["amount"] = 6381,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 2170,
-								},
-							},
-							["amount"] = 2170,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 6529,
-								},
-							},
-							["amount"] = 6529,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 24912,
-								},
-							},
-							["amount"] = 24912,
+							["amount"] = 5488,
 						},
 						[53385] = {
 							["school"] = 1,
@@ -415,6 +1068,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 10970,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Warac"] = {
+									["amount"] = 6381,
+								},
+							},
+							["amount"] = 6381,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -433,6 +1095,42 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 105879,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Warac"] = {
+									["amount"] = 10398,
+								},
+							},
+							["amount"] = 10398,
+						},
+						[48300] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["amount"] = 24912,
+								},
+							},
+							["amount"] = 24912,
+						},
+						[46968] = {
+							["school"] = 1,
+							["sources"] = {
+								["Pompeu"] = {
+									["amount"] = 3457,
+								},
+							},
+							["amount"] = 3457,
+						},
+						[47465] = {
+							["school"] = 1,
+							["sources"] = {
+								["Pompeu"] = {
+									["amount"] = 2170,
+								},
+							},
+							["amount"] = 2170,
 						},
 						[71433] = {
 							["school"] = 1,
@@ -490,23 +1188,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 39024,
 						},
-						[48819] = {
-							["school"] = 2,
-							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 5488,
-								},
-							},
-							["amount"] = 5488,
-						},
-						[1680] = {
+						[20647] = {
 							["school"] = 1,
 							["sources"] = {
 								["Warac"] = {
-									["amount"] = 10398,
+									["amount"] = 10600,
 								},
 							},
-							["amount"] = 10398,
+							["amount"] = 10600,
+						},
+						[63675] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["amount"] = 6529,
+								},
+							},
+							["amount"] = 6529,
 						},
 						[48125] = {
 							["school"] = 32,
@@ -538,18 +1236,18 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3978,
 						},
-						[31804] = {
-							["school"] = 2,
+						[35395] = {
+							["school"] = 1,
 							["sources"] = {
 								["Hairypaladin"] = {
-									["amount"] = 14485,
+									["amount"] = 4058,
 								},
 							},
-							["amount"] = 14485,
+							["amount"] = 4058,
 						},
 					},
-					["name"] = "The Prophet Tharon'ja",
 					["totaldamage"] = 82924,
+					["name"] = "The Prophet Tharon'ja",
 					["totaldamagetaken"] = 513273,
 					["id"] = "0xF13000680800007C",
 					["damage"] = 69229,
@@ -558,7 +1256,7 @@ SkadaStorageDB = {
 			["etotaldamage"] = 82924,
 			["totaldamage"] = 513273,
 			["time"] = 52,
-			["absorb"] = 5152,
+			["damage"] = 513273,
 			["totaldamagetaken"] = 82924,
 			["etotaldamagetaken"] = 513273,
 			["last_time"] = 12165.291,
@@ -569,9 +1267,9 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 32,
 						},
 						[15473] = {
@@ -585,22 +1283,22 @@ SkadaStorageDB = {
 							["uptime"] = 52,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 52,
 						},
 						[15258] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 16,
 							["school"] = 32,
+							["refresh"] = 16,
 							["uptime"] = 35,
 						},
 						[25898] = {
@@ -620,18 +1318,12 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
-									["count"] = 2,
 									["refresh"] = 7,
+									["count"] = 2,
 									["uptime"] = 37,
 								},
 							},
 							["uptime"] = 37,
-						},
-						[59000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 7,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -645,6 +1337,19 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
+						[72416] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[61792] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 21,
+						},
 						[49613] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -656,12 +1361,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 6,
-						},
-						[49609] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["uptime"] = 17,
 						},
 						[48300] = {
 							["type"] = "DEBUFF",
@@ -675,19 +1374,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 22,
 						},
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
-						[61792] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 21,
-						},
 						[48156] = {
 							["type"] = "BUFF",
 							["count"] = 10,
@@ -700,15 +1386,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 52,
-						},
 						[63619] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 64,
 							["uptime"] = 46,
 						},
 						[48125] = {
@@ -718,12 +1399,29 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
-									["count"] = 2,
 									["refresh"] = 5,
+									["count"] = 2,
 									["uptime"] = 26,
 								},
 							},
 							["uptime"] = 26,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 52,
+						},
+						[59000] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[49609] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 17,
 						},
 						[57669] = {
 							["type"] = "BUFF",
@@ -752,12 +1450,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 52,
 						},
-						[67016] = {
+						[15286] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 52,
 						},
-						[15286] = {
+						[67016] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 52,
@@ -786,6 +1484,7 @@ SkadaStorageDB = {
 							["school"] = 2,
 						},
 					},
+					["totaldamage"] = 157089,
 					["time"] = 41.82000000000001,
 					["totaldamagetaken"] = 10442,
 					["damage"] = 157089,
@@ -797,11 +1496,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 38377,
-							["max"] = 280,
+							["school"] = 32,
 							["count"] = 220,
 							["amount"] = 20833,
-							["school"] = 32,
-							["min"] = 3,
+							["max"] = 280,
 							["ishot"] = true,
 							["targets"] = {
 								["Pompeu"] = {
@@ -829,6 +1527,7 @@ SkadaStorageDB = {
 									["amount"] = 6030,
 								},
 							},
+							["min"] = 3,
 						},
 						[75999] = {
 							["overheal"] = 1055,
@@ -909,33 +1608,33 @@ SkadaStorageDB = {
 							["hitamount"] = 2116,
 						},
 					},
+					["heal"] = 22949,
 					["manaspells"] = {
 						[34650] = 16588,
 						[57669] = 640,
 					},
-					["heal"] = 22949,
 					["name"] = "Nalar",
 					["mana"] = 17228,
 					["damagespells"] = {
 						["Vampiric Touch (DoT)"] = {
-							["casts"] = 2,
-							["hitmin"] = 1814,
 							["criticalamount"] = 18004,
-							["id"] = 48160,
+							["hitmin"] = 1814,
 							["criticalmin"] = 4264,
+							["id"] = 48160,
+							["critical"] = 4,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
 									["amount"] = 26617,
 								},
 							},
 							["hitmax"] = 2267,
-							["critical"] = 4,
+							["hit"] = 4,
 							["criticalmax"] = 4738,
 							["count"] = 8,
-							["hit"] = 4,
+							["amount"] = 26617,
 							["school"] = 32,
 							["resisted"] = 1399,
-							["amount"] = 26617,
+							["casts"] = 2,
 							["hitamount"] = 8613,
 						},
 						["Slaying Strike"] = {
@@ -958,12 +1657,12 @@ SkadaStorageDB = {
 							["glance"] = 7062,
 							["hitmin"] = 1678,
 							["id"] = 6603,
-							["hitmax"] = 1933,
-							["glancemax"] = 1530,
 							["hitamount"] = 10627,
+							["glancemax"] = 1530,
+							["count"] = 11,
 							["glancing"] = 5,
 							["hit"] = 6,
-							["count"] = 11,
+							["hitmax"] = 1933,
 							["amount"] = 17689,
 							["school"] = 1,
 							["resisted"] = 659,
@@ -996,20 +1695,20 @@ SkadaStorageDB = {
 							["hitmin"] = 2026,
 							["criticalamount"] = 25130,
 							["id"] = 58381,
-							["hitmax"] = 2532,
+							["count"] = 11,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
 									["amount"] = 39024,
 								},
 							},
-							["count"] = 11,
+							["hitmax"] = 2532,
 							["hit"] = 6,
-							["casts"] = 5,
+							["criticalmax"] = 5317,
 							["critical"] = 5,
 							["amount"] = 39024,
 							["school"] = 32,
 							["resisted"] = 2391,
-							["criticalmax"] = 5317,
+							["casts"] = 5,
 							["hitamount"] = 13894,
 						},
 						["Mind Blast"] = {
@@ -1029,24 +1728,24 @@ SkadaStorageDB = {
 							["hitamount"] = 3978,
 						},
 						["Devouring Plague (DoT)"] = {
-							["casts"] = 2,
+							["criticalmin"] = 2962,
 							["hitmin"] = 1301,
 							["criticalamount"] = 18003,
 							["id"] = 48300,
-							["hit"] = 5,
+							["criticalmax"] = 3020,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
 									["amount"] = 24912,
 								},
 							},
 							["hitmax"] = 1445,
+							["hit"] = 5,
+							["casts"] = 2,
 							["count"] = 11,
-							["criticalmax"] = 3020,
-							["critical"] = 6,
 							["amount"] = 24912,
 							["school"] = 32,
 							["resisted"] = 288,
-							["criticalmin"] = 2962,
+							["critical"] = 6,
 							["hitamount"] = 6909,
 						},
 						["Touch of Life"] = {
@@ -1067,28 +1766,27 @@ SkadaStorageDB = {
 							["hitamount"] = 9104,
 						},
 						["Shadow Word: Pain (DoT)"] = {
-							["casts"] = 2,
+							["criticalmin"] = 2798,
 							["hitmin"] = 1487,
 							["criticalamount"] = 15170,
 							["id"] = 48125,
-							["hit"] = 2,
+							["criticalmax"] = 3108,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
 									["amount"] = 18144,
 								},
 							},
 							["hitmax"] = 1487,
+							["hit"] = 2,
+							["casts"] = 2,
 							["count"] = 7,
-							["criticalmax"] = 3108,
-							["critical"] = 5,
 							["amount"] = 18144,
 							["school"] = 32,
 							["resisted"] = 310,
-							["criticalmin"] = 2798,
+							["critical"] = 5,
 							["hitamount"] = 2974,
 						},
 					},
-					["totaldamage"] = 157089,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -1102,15 +1800,15 @@ SkadaStorageDB = {
 							["uptime"] = 52,
 						},
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[64440] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[48942] = {
@@ -1153,9 +1851,9 @@ SkadaStorageDB = {
 							["uptime"] = 52,
 						},
 						[49609] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 32,
 							["uptime"] = 17,
 						},
 						[47440] = {
@@ -1194,8 +1892,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
-									["count"] = 3,
 									["refresh"] = 3,
+									["count"] = 3,
 									["uptime"] = 16,
 								},
 							},
@@ -1219,6 +1917,7 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 					},
+					["totaldamage"] = 58204,
 					["time"] = 45.36,
 					["totaldamagetaken"] = 14714,
 					["damage"] = 58204,
@@ -1229,17 +1928,17 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[49617] = {
 							["overheal"] = 1222,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 1763,
 							["max"] = 1564,
+							["min"] = 199,
 							["targets"] = {
 								["Pompeu"] = {
 									["overheal"] = 1222,
 									["amount"] = 1763,
 								},
 							},
-							["min"] = 199,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 1763,
 							["school"] = 32,
 						},
 					},
@@ -1282,9 +1981,6 @@ SkadaStorageDB = {
 							["DODGE"] = 4,
 							["hitmin"] = 1608,
 							["id"] = 6603,
-							["hitmax"] = 1608,
-							["amount"] = 1608,
-							["hit"] = 1,
 							["sources"] = {
 								["The Prophet Tharon'ja"] = {
 									["amount"] = 1608,
@@ -1292,9 +1988,12 @@ SkadaStorageDB = {
 							},
 							["BLOCK"] = 1,
 							["blocked"] = 1679,
-							["school"] = 1,
 							["PARRY"] = 2,
 							["count"] = 8,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 1608,
+							["hitmax"] = 1608,
 							["hitamount"] = 1608,
 						},
 						["Lightning Breath"] = {
@@ -1313,11 +2012,11 @@ SkadaStorageDB = {
 							["hitamount"] = 2411,
 						},
 					},
-					["overheal"] = 1222,
 					["ragespells"] = {
 						[23602] = 35,
 					},
 					["name"] = "Pompeu",
+					["overheal"] = 1222,
 					["heal"] = 1763,
 					["damagespells"] = {
 						["Shield Slam"] = {
@@ -1330,14 +2029,14 @@ SkadaStorageDB = {
 									["amount"] = 11726,
 								},
 							},
-							["criticalmax"] = 6421,
-							["critical"] = 1,
 							["casts"] = 3,
 							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 6421,
 							["hitmax"] = 2669,
 							["amount"] = 11726,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 5305,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -1417,37 +2116,20 @@ SkadaStorageDB = {
 							},
 							["id"] = 7922,
 						},
-						["Revenge"] = {
-							["hitmin"] = 3954,
-							["id"] = 57823,
+						["Rend (DoT)"] = {
+							["hitmin"] = 434,
+							["id"] = 47465,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
-									["amount"] = 12141,
+									["amount"] = 2170,
 								},
 							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
+							["count"] = 5,
+							["hit"] = 5,
 							["school"] = 1,
-							["hitmax"] = 4213,
-							["amount"] = 12141,
-							["hitamount"] = 12141,
-						},
-						["Blade Warding"] = {
-							["hitmin"] = 658,
-							["id"] = 64442,
-							["targets"] = {
-								["The Prophet Tharon'ja"] = {
-									["amount"] = 658,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 658,
-							["amount"] = 658,
-							["hitamount"] = 658,
+							["hitmax"] = 434,
+							["amount"] = 2170,
+							["hitamount"] = 2170,
 						},
 						["Damage Shield"] = {
 							["hitmin"] = 293,
@@ -1464,6 +2146,22 @@ SkadaStorageDB = {
 							["hitmax"] = 293,
 							["amount"] = 586,
 							["hitamount"] = 586,
+						},
+						["Blade Warding"] = {
+							["hitmin"] = 658,
+							["id"] = 64442,
+							["targets"] = {
+								["The Prophet Tharon'ja"] = {
+									["amount"] = 658,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 658,
+							["amount"] = 658,
+							["hitamount"] = 658,
 						},
 						["Melee"] = {
 							["glance"] = 1880,
@@ -1489,44 +2187,44 @@ SkadaStorageDB = {
 							["count"] = 17,
 							["hitamount"] = 6128,
 						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 434,
-							["id"] = 47465,
+						["Revenge"] = {
+							["hitmin"] = 3954,
+							["id"] = 57823,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
-									["amount"] = 2170,
+									["amount"] = 12141,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 5,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 434,
-							["amount"] = 2170,
-							["hitamount"] = 2170,
+							["hitmax"] = 4213,
+							["amount"] = 12141,
+							["hitamount"] = 12141,
 						},
 						["Heroic Strike"] = {
-							["blocked"] = 41,
+							["criticalmin"] = 2358,
 							["hitmin"] = 958,
 							["criticalamount"] = 4773,
 							["id"] = 47450,
-							["hitmax"] = 1107,
+							["hit"] = 4,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
 									["amount"] = 8891,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 4,
-							["casts"] = 6,
 							["critical"] = 2,
+							["blocked"] = 41,
+							["criticalmax"] = 2415,
+							["count"] = 6,
 							["amount"] = 8891,
 							["school"] = 1,
-							["criticalmin"] = 2358,
-							["criticalmax"] = 2415,
+							["hitmax"] = 1107,
+							["casts"] = 6,
 							["hitamount"] = 4118,
 						},
 					},
-					["totaldamage"] = 58204,
 					["role"] = "TANK",
 				}, -- [2]
 				{
@@ -1564,19 +2262,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 52,
 						},
+						[67750] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 9,
+							["uptime"] = 31,
+						},
 						[71184] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[67750] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 9,
-							["school"] = 1,
-							["uptime"] = 31,
-						},
-						[48162] = {
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 52,
@@ -1586,7 +2284,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 52,
 						},
-						[48942] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 52,
@@ -1619,20 +2317,20 @@ SkadaStorageDB = {
 							["hitmin"] = 2360,
 							["criticalamount"] = 11257,
 							["id"] = 48459,
-							["criticalmax"] = 3978,
+							["hitmax"] = 2931,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
 									["amount"] = 32550,
 								},
 							},
 							["critical"] = 3,
-							["hitmax"] = 2931,
+							["hit"] = 8,
 							["casts"] = 13,
 							["count"] = 11,
-							["hit"] = 8,
+							["amount"] = 32550,
 							["school"] = 8,
 							["resisted"] = 3191,
-							["amount"] = 32550,
+							["criticalmax"] = 3978,
 							["hitamount"] = 21293,
 						},
 						["Slaying Strike"] = {
@@ -1658,17 +2356,17 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[49617] = {
 							["overheal"] = 639,
+							["casts"] = 4,
+							["count"] = 4,
+							["amount"] = 9705,
 							["max"] = 2658,
+							["min"] = 2010,
 							["targets"] = {
 								["Elunestrasza"] = {
 									["overheal"] = 639,
 									["amount"] = 9705,
 								},
 							},
-							["min"] = 2010,
-							["casts"] = 4,
-							["count"] = 4,
-							["amount"] = 9705,
 							["school"] = 32,
 						},
 					},
@@ -1720,9 +2418,9 @@ SkadaStorageDB = {
 							["hitamount"] = 6250,
 						},
 					},
-					["overheal"] = 639,
 					["heal"] = 9705,
 					["name"] = "Elunestrasza",
+					["overheal"] = 639,
 					["manaspells"] = {
 						[55382] = 600,
 						[55767] = 400,
@@ -1755,6 +2453,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 52,
 						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 52,
+						},
 						[59620] = {
 							["type"] = "BUFF",
 							["count"] = 2,
@@ -1762,39 +2465,25 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 27,
 						},
-						[47440] = {
+						[23885] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 9,
+						},
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 52,
 						},
-						[23885] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 9,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 11,
-							["targets"] = {
-								["The Prophet Tharon'ja"] = {
-									["count"] = 2,
-									["refresh"] = 11,
-									["uptime"] = 24,
-								},
-							},
-							["uptime"] = 24,
-						},
 						[12970] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 3,
 							["school"] = 1,
+							["refresh"] = 3,
 							["uptime"] = 42,
 						},
-						[48162] = {
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 52,
@@ -1804,12 +2493,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 52,
 						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 52,
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 11,
+							["targets"] = {
+								["The Prophet Tharon'ja"] = {
+									["refresh"] = 11,
+									["count"] = 2,
+									["uptime"] = 24,
+								},
+							},
+							["uptime"] = 24,
 						},
 					},
+					["totaldamage"] = 118942,
 					["time"] = 42.96999999999999,
 					["totaldamagetaken"] = 25912,
 					["damage"] = 118942,
@@ -1834,17 +2533,17 @@ SkadaStorageDB = {
 						},
 						[49617] = {
 							["overheal"] = 0,
+							["casts"] = 3,
+							["count"] = 3,
+							["amount"] = 4931,
 							["max"] = 1881,
+							["min"] = 1394,
 							["targets"] = {
 								["Warac"] = {
 									["overheal"] = 0,
 									["amount"] = 4931,
 								},
 							},
-							["min"] = 1394,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 4931,
 							["school"] = 32,
 						},
 					},
@@ -1897,53 +2596,13 @@ SkadaStorageDB = {
 							["hitamount"] = 12420,
 						},
 					},
-					["overheal"] = 0,
 					["ragespells"] = {
 						[12964] = 11,
 					},
 					["name"] = "Warac",
+					["overheal"] = 0,
 					["heal"] = 8459,
 					["damagespells"] = {
-						["Execute"] = {
-							["hitmin"] = 3240,
-							["criticalamount"] = 7360,
-							["id"] = 20647,
-							["criticalmin"] = 7360,
-							["targets"] = {
-								["The Prophet Tharon'ja"] = {
-									["amount"] = 10600,
-								},
-							},
-							["criticalmax"] = 7360,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3240,
-							["amount"] = 10600,
-							["hitamount"] = 3240,
-						},
-						["Bloodthirst"] = {
-							["hitmin"] = 3116,
-							["criticalamount"] = 14531,
-							["id"] = 23881,
-							["criticalmin"] = 7078,
-							["targets"] = {
-								["The Prophet Tharon'ja"] = {
-									["amount"] = 17647,
-								},
-							},
-							["criticalmax"] = 7453,
-							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3116,
-							["amount"] = 17647,
-							["hitamount"] = 3116,
-						},
 						["Deep Wounds (DoT)"] = {
 							["hitmin"] = 159,
 							["id"] = 12721,
@@ -1958,6 +2617,26 @@ SkadaStorageDB = {
 							["hitmax"] = 672,
 							["amount"] = 9879,
 							["hitamount"] = 9879,
+						},
+						["Bloodthirst"] = {
+							["hitmin"] = 3116,
+							["criticalamount"] = 14531,
+							["id"] = 23881,
+							["criticalmin"] = 7078,
+							["targets"] = {
+								["The Prophet Tharon'ja"] = {
+									["amount"] = 17647,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["criticalmax"] = 7453,
+							["hitmax"] = 3116,
+							["amount"] = 17647,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 2,
+							["hitamount"] = 3116,
 						},
 						["Slaying Strike"] = {
 							["hitmin"] = 513,
@@ -1992,24 +2671,44 @@ SkadaStorageDB = {
 							["amount"] = 4698,
 							["hitamount"] = 4698,
 						},
+						["Execute"] = {
+							["hitmin"] = 3240,
+							["criticalamount"] = 7360,
+							["id"] = 20647,
+							["criticalmin"] = 7360,
+							["targets"] = {
+								["The Prophet Tharon'ja"] = {
+									["amount"] = 10600,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["criticalmax"] = 7360,
+							["hitmax"] = 3240,
+							["amount"] = 10600,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
+							["hitamount"] = 3240,
+						},
 						["Whirlwind"] = {
 							["hitmin"] = 1766,
 							["criticalamount"] = 11864,
 							["id"] = 1680,
-							["hitmax"] = 3149,
+							["criticalmin"] = 4615,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
 									["amount"] = 16779,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 2,
-							["casts"] = 2,
 							["critical"] = 2,
 							["amount"] = 16779,
-							["school"] = 1,
-							["criticalmin"] = 4615,
 							["criticalmax"] = 7249,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3149,
+							["casts"] = 2,
 							["hitamount"] = 4915,
 						},
 						["Melee"] = {
@@ -2023,12 +2722,12 @@ SkadaStorageDB = {
 								},
 							},
 							["hitmax"] = 2437,
-							["count"] = 14,
-							["criticalmax"] = 5294,
 							["critical"] = 10,
-							["amount"] = 45122,
-							["school"] = 1,
+							["criticalmax"] = 5294,
+							["count"] = 14,
 							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 45122,
 							["MISS"] = 1,
 							["hitamount"] = 7171,
 						},
@@ -2042,18 +2741,17 @@ SkadaStorageDB = {
 									["amount"] = 9486,
 								},
 							},
-							["criticalmax"] = 6608,
-							["critical"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 6608,
 							["hitmax"] = 2878,
 							["amount"] = 9486,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 2878,
 						},
 					},
-					["totaldamage"] = 118942,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -2067,9 +2765,9 @@ SkadaStorageDB = {
 							["uptime"] = 52,
 						},
 						[67371] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 28,
 						},
 						[31801] = {
@@ -2078,10 +2776,10 @@ SkadaStorageDB = {
 							["uptime"] = 52,
 						},
 						[20053] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 14,
+							["type"] = "BUFF",
 							["uptime"] = 52,
+							["count"] = 1,
 						},
 						[48942] = {
 							["type"] = "BUFF",
@@ -2107,8 +2805,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
-									["count"] = 2,
 									["refresh"] = 3,
+									["count"] = 2,
 									["uptime"] = 26,
 								},
 							},
@@ -2128,23 +2826,23 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 38,
 								},
 							},
 							["uptime"] = 38,
 						},
 						[50720] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[59620] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 7,
 						},
 						[57669] = {
@@ -2158,9 +2856,9 @@ SkadaStorageDB = {
 							["uptime"] = 52,
 						},
 						[49609] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 10,
 						},
 						[72221] = {
@@ -2175,17 +2873,17 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
-									["count"] = 2,
 									["refresh"] = 7,
+									["count"] = 2,
 									["uptime"] = 37,
 								},
 							},
 							["uptime"] = 37,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[20186] = {
@@ -2195,8 +2893,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 38,
 								},
 							},
@@ -2205,11 +2903,12 @@ SkadaStorageDB = {
 						[71432] = {
 							["type"] = "BUFF",
 							["count"] = 4,
-							["refresh"] = 12,
 							["school"] = 1,
+							["refresh"] = 12,
 							["uptime"] = 52,
 						},
 					},
+					["totaldamage"] = 123890,
 					["time"] = 46.54000000000001,
 					["totaldamagetaken"] = 16162,
 					["damage"] = 123890,
@@ -2240,12 +2939,12 @@ SkadaStorageDB = {
 							},
 							["criticalmin"] = 4423,
 							["casts"] = 2,
-							["critical"] = 2,
+							["count"] = 2,
 							["amount"] = 9280,
 							["school"] = 2,
 							["resisted"] = 491,
 							["criticalmax"] = 4857,
-							["count"] = 2,
+							["critical"] = 2,
 						},
 						["Judgement of Vengeance"] = {
 							["criticalamount"] = 14485,
@@ -2257,12 +2956,12 @@ SkadaStorageDB = {
 							},
 							["criticalmin"] = 3866,
 							["casts"] = 1,
-							["critical"] = 3,
+							["count"] = 3,
 							["amount"] = 14485,
 							["school"] = 2,
 							["resisted"] = 2955,
 							["criticalmax"] = 5836,
-							["count"] = 3,
+							["critical"] = 3,
 						},
 						["Touch of Life"] = {
 							["hitmin"] = 2257,
@@ -2322,22 +3021,22 @@ SkadaStorageDB = {
 									["amount"] = 10970,
 								},
 							},
-							["criticalmax"] = 5594,
-							["critical"] = 1,
 							["casts"] = 3,
 							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 5594,
 							["hitmax"] = 2740,
 							["amount"] = 10970,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 5376,
 						},
 						["Manifest Anger"] = {
-							["hitmax"] = 1204,
+							["criticalmin"] = 2371,
 							["hitmin"] = 1204,
 							["criticalamount"] = 4873,
 							["id"] = 71433,
-							["count"] = 3,
+							["critical"] = 2,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
 									["overkill"] = 995,
@@ -2345,13 +3044,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 995,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 2,
 							["amount"] = 6077,
-							["school"] = 1,
-							["criticalmin"] = 2371,
 							["criticalmax"] = 2502,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1204,
+							["casts"] = 1,
 							["hitamount"] = 1204,
 						},
 						["Melee"] = {
@@ -2410,60 +3109,59 @@ SkadaStorageDB = {
 							["hitamount"] = 7284,
 						},
 						["Seal of Vengeance"] = {
-							["hitmax"] = 1204,
+							["critical"] = 9,
 							["hitmin"] = 558,
 							["criticalamount"] = 10415,
 							["id"] = 42463,
-							["count"] = 12,
+							["criticalmin"] = 576,
 							["targets"] = {
 								["The Prophet Tharon'ja"] = {
 									["amount"] = 13232,
 								},
 							},
+							["hitmax"] = 1204,
 							["hit"] = 3,
-							["criticalmin"] = 576,
-							["casts"] = 1,
-							["critical"] = 9,
+							["criticalmax"] = 1977,
+							["count"] = 12,
 							["amount"] = 13232,
 							["school"] = 2,
 							["resisted"] = 1187,
-							["criticalmax"] = 1977,
+							["casts"] = 1,
 							["hitamount"] = 2817,
 						},
 					},
-					["overheal"] = 3859,
 					["damagetaken"] = 13952,
 					["id"] = "0x07000000008E8B28",
 					["spec"] = 70,
 					["healspells"] = {
 						[54172] = {
 							["overheal"] = 0,
+							["max"] = 1468,
+							["count"] = 2,
+							["amount"] = 2187,
+							["school"] = 2,
 							["targets"] = {
 								["Warac"] = {
 									["overheal"] = 0,
 									["amount"] = 2187,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 2187,
-							["school"] = 2,
-							["max"] = 1468,
 							["ishot"] = true,
 							["min"] = 719,
 						},
 						[49617] = {
 							["overheal"] = 3859,
+							["casts"] = 3,
+							["count"] = 3,
+							["amount"] = 3416,
 							["max"] = 2398,
+							["min"] = 1018,
 							["targets"] = {
 								["Hairypaladin"] = {
 									["overheal"] = 3859,
 									["amount"] = 3416,
 								},
 							},
-							["min"] = 1018,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 3416,
 							["school"] = 32,
 						},
 					},
@@ -2513,10 +3211,10 @@ SkadaStorageDB = {
 							["hitamount"] = 5830,
 						},
 					},
-					["overkill"] = 995,
 					["heal"] = 5603,
 					["name"] = "Hairypaladin",
-					["totaldamage"] = 123890,
+					["overheal"] = 3859,
+					["overkill"] = 995,
 					["class"] = "PALADIN",
 					["manaspells"] = {
 						[31930] = 3294,
@@ -2528,25 +3226,24 @@ SkadaStorageDB = {
 			},
 			["type"] = "party",
 			["damagetaken"] = 69229,
+			["gotboss"] = 26632,
 			["overheal"] = 56507,
-			["starttime"] = 1700476456,
 			["rage"] = 46,
+			["success"] = true,
 			["overkill"] = 995,
 			["edamagetaken"] = 513273,
 			["heal"] = 48479,
 			["name"] = "The Prophet Tharon'ja",
 			["mobname"] = "The Prophet Tharon'ja",
-			["gotboss"] = 26632,
+			["starttime"] = 1700476456,
 			["edamage"] = 69229,
 			["last_action"] = 1700476507,
 			["endtime"] = 1700476508,
-		}, -- [1]
+		}, -- [3]
 		{
 			["overheal"] = 73821,
-			["rage"] = 122,
-			["damage"] = 518125,
 			["mana"] = 8732,
-			["absorb"] = 14943,
+			["rage"] = 122,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -2625,14 +3322,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 26492,
 						},
-						[58381] = {
-							["school"] = 32,
+						[35395] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 10754,
+								["Hairypaladin"] = {
+									["amount"] = 2109,
 								},
 							},
-							["amount"] = 10754,
+							["amount"] = 2109,
 						},
 						[20253] = {
 							["school"] = 1,
@@ -2663,14 +3360,14 @@ SkadaStorageDB = {
 							["overkill"] = 4062,
 							["amount"] = 24888,
 						},
-						[53385] = {
-							["school"] = 1,
+						[63675] = {
+							["school"] = 32,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 32523,
+								["Nalar"] = {
+									["amount"] = 6619,
 								},
 							},
-							["amount"] = 32523,
+							["amount"] = 6619,
 						},
 						[64442] = {
 							["school"] = 1,
@@ -2681,14 +3378,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 562,
 						},
-						[35395] = {
+						[12721] = {
 							["school"] = 1,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 2109,
+								["Pompeu"] = {
+									["amount"] = 4723,
+								},
+								["Warac"] = {
+									["amount"] = 12333,
 								},
 							},
-							["amount"] = 2109,
+							["amount"] = 17056,
 						},
 						[61840] = {
 							["school"] = 2,
@@ -2717,17 +3417,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 9914,
 						},
-						[12721] = {
-							["school"] = 1,
+						[69403] = {
+							["school"] = 2,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 4723,
-								},
-								["Warac"] = {
-									["amount"] = 12333,
+								["Hairypaladin"] = {
+									["amount"] = 18689,
 								},
 							},
-							["amount"] = 17056,
+							["amount"] = 18689,
 						},
 						[44949] = {
 							["school"] = 1,
@@ -2738,23 +3435,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 35459,
 						},
-						[69403] = {
-							["school"] = 2,
+						[53385] = {
+							["school"] = 1,
 							["sources"] = {
 								["Hairypaladin"] = {
-									["amount"] = 18689,
+									["amount"] = 32523,
 								},
 							},
-							["amount"] = 18689,
+							["amount"] = 32523,
 						},
-						[63675] = {
-							["school"] = 32,
+						[1680] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 6619,
+								["Warac"] = {
+									["amount"] = 59575,
 								},
 							},
-							["amount"] = 6619,
+							["amount"] = 59575,
 						},
 						[48300] = {
 							["school"] = 32,
@@ -2801,14 +3498,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1233,
 						},
-						[48466] = {
-							["school"] = 8,
+						[57823] = {
+							["school"] = 1,
 							["sources"] = {
-								["Elunestrasza"] = {
-									["amount"] = 6254,
+								["Pompeu"] = {
+									["amount"] = 20783,
 								},
 							},
-							["amount"] = 6254,
+							["amount"] = 20783,
 						},
 						[48801] = {
 							["school"] = 2,
@@ -2819,14 +3516,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5645,
 						},
-						[57823] = {
-							["school"] = 1,
+						[58381] = {
+							["school"] = 32,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 20783,
+								["Nalar"] = {
+									["amount"] = 10754,
 								},
 							},
-							["amount"] = 20783,
+							["amount"] = 10754,
 						},
 						[59653] = {
 							["school"] = 1,
@@ -2896,18 +3593,18 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4878,
 						},
-						[1680] = {
-							["school"] = 1,
+						[48466] = {
+							["school"] = 8,
 							["sources"] = {
-								["Warac"] = {
-									["amount"] = 59575,
+								["Elunestrasza"] = {
+									["amount"] = 6254,
 								},
 							},
-							["amount"] = 59575,
+							["amount"] = 6254,
 						},
 					},
-					["name"] = "Risen Drakkari Death Knight",
 					["totaldamage"] = 141995,
+					["name"] = "Risen Drakkari Death Knight",
 					["totaldamagetaken"] = 518125,
 					["id"] = "0xF1300068CE000098",
 					["damage"] = 127052,
@@ -2916,7 +3613,7 @@ SkadaStorageDB = {
 			["dispel"] = 8,
 			["totaldamage"] = 518125,
 			["time"] = 34,
-			["ccdone"] = 8,
+			["damage"] = 518125,
 			["totaldamagetaken"] = 141995,
 			["etotaldamagetaken"] = 518125,
 			["last_time"] = 12105.091,
@@ -2927,9 +3624,9 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 19,
 						},
 						[15473] = {
@@ -2937,40 +3634,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Nalar"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 34,
 						},
 						[586] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 10,
-						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Risen Drakkari Death Knight"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
 						},
 						[48156] = {
 							["type"] = "BUFF",
@@ -2984,10 +3657,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[55637] = {
-							["type"] = "BUFF",
+						[6788] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
+							["targets"] = {
+								["Nalar"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[55637] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 15,
 						},
 						[48942] = {
@@ -2995,10 +3680,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[48168] = {
+						[6346] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 34,
+							["uptime"] = 9,
 						},
 						[25898] = {
 							["type"] = "BUFF",
@@ -3017,8 +3702,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
-									["count"] = 2,
 									["refresh"] = 2,
+									["count"] = 2,
 									["uptime"] = 14,
 								},
 							},
@@ -3032,27 +3717,21 @@ SkadaStorageDB = {
 						[15258] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 12,
 							["school"] = 32,
+							["refresh"] = 12,
 							["uptime"] = 34,
 						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[48300] = {
+						[48125] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
-									["uptime"] = 11,
+									["uptime"] = 9,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 11,
+							["uptime"] = 9,
 						},
 						[53023] = {
 							["type"] = "DEBUFF",
@@ -3066,21 +3745,39 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
+						[48300] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Risen Drakkari Death Knight"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 14,
+						},
+						[75473] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
 						[57669] = {
 							["school"] = 8,
 							["type"] = "BUFF",
 							["uptime"] = 27,
 						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 14,
-						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 31,
 						},
 						[59000] = {
@@ -3135,37 +3832,21 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[15271] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 15,
 						},
-						[6346] = {
+						[48168] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 34,
 						},
 					},
 					["dispel"] = 8,
+					["totaldamage"] = 118346,
 					["time"] = 17.73,
-					["manaspells"] = {
-						[57669] = 1792,
-					},
-					["overkill"] = 1399,
 					["totaldamagetaken"] = 7711,
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 3979,
-							["casts"] = 2,
-							["count"] = 1,
-							["amount"] = 3979,
-							["max"] = 3979,
-							["targets"] = {
-								["Nalar"] = 3979,
-							},
-							["school"] = 2,
-						},
-					},
 					["damage"] = 118346,
 					["damagespells"] = {
 						["Mind Blast"] = {
@@ -3188,20 +3869,20 @@ SkadaStorageDB = {
 							["hitmin"] = 2927,
 							["criticalamount"] = 23565,
 							["id"] = 48160,
-							["casts"] = 3,
+							["criticalmin"] = 5211,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["amount"] = 26492,
 								},
 							},
-							["hitmax"] = 2927,
-							["count"] = 5,
 							["criticalmax"] = 6118,
 							["critical"] = 4,
-							["amount"] = 26492,
-							["school"] = 32,
+							["casts"] = 3,
+							["count"] = 5,
 							["hit"] = 1,
-							["criticalmin"] = 5211,
+							["school"] = 32,
+							["amount"] = 26492,
+							["hitmax"] = 2927,
 							["hitamount"] = 2927,
 						},
 						["Mind Sear"] = {
@@ -3209,59 +3890,62 @@ SkadaStorageDB = {
 							["hitmin"] = 2265,
 							["criticalamount"] = 33924,
 							["id"] = 53022,
-							["hitmax"] = 2913,
+							["count"] = 16,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["amount"] = 55304,
 								},
 							},
-							["count"] = 16,
+							["hitmax"] = 2913,
 							["hit"] = 8,
-							["casts"] = 1,
+							["criticalmax"] = 4500,
 							["critical"] = 8,
 							["amount"] = 55304,
 							["school"] = 32,
 							["resisted"] = 580,
-							["criticalmax"] = 4500,
+							["casts"] = 1,
 							["hitamount"] = 21380,
 						},
-						["Devouring Plague (DoT)"] = {
-							["hitmin"] = 1785,
-							["criticalamount"] = 3731,
-							["id"] = 48300,
+						["Shadow Word: Pain (DoT)"] = {
+							["criticalmin"] = 2440,
+							["hitmin"] = 1314,
+							["criticalamount"] = 2440,
+							["id"] = 48125,
+							["critical"] = 1,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
-									["amount"] = 9086,
+									["overkill"] = 1399,
+									["amount"] = 5213,
 								},
 							},
-							["criticalmin"] = 3731,
-							["critical"] = 1,
-							["criticalmax"] = 3731,
-							["count"] = 4,
-							["hit"] = 3,
+							["overkill"] = 1399,
+							["hit"] = 2,
+							["criticalmax"] = 2440,
+							["hitmax"] = 1459,
+							["amount"] = 5213,
 							["school"] = 32,
-							["hitmax"] = 1785,
-							["amount"] = 9086,
-							["hitamount"] = 5355,
+							["resisted"] = 754,
+							["count"] = 3,
+							["hitamount"] = 2773,
 						},
 						["Mind Flay"] = {
 							["hitmin"] = 2102,
 							["criticalamount"] = 8652,
 							["id"] = 58381,
-							["hitmax"] = 2102,
+							["criticalmin"] = 4257,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["amount"] = 10754,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 2,
 							["amount"] = 10754,
-							["school"] = 32,
-							["criticalmin"] = 4257,
 							["criticalmax"] = 4395,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 2102,
+							["casts"] = 1,
 							["hitamount"] = 2102,
 						},
 						["Improved Devouring Plague"] = {
@@ -3280,41 +3964,50 @@ SkadaStorageDB = {
 							["criticalmax"] = 6619,
 							["count"] = 1,
 						},
-						["Shadow Word: Pain (DoT)"] = {
-							["count"] = 3,
-							["hitmin"] = 1314,
-							["criticalamount"] = 2440,
-							["id"] = 48125,
-							["hitmax"] = 1459,
+						["Devouring Plague (DoT)"] = {
+							["hitmin"] = 1785,
+							["criticalamount"] = 3731,
+							["id"] = 48300,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
-									["overkill"] = 1399,
-									["amount"] = 5213,
+									["amount"] = 9086,
 								},
 							},
-							["overkill"] = 1399,
-							["hit"] = 2,
-							["criticalmax"] = 2440,
+							["criticalmin"] = 3731,
+							["count"] = 4,
+							["criticalmax"] = 3731,
 							["critical"] = 1,
-							["amount"] = 5213,
+							["amount"] = 9086,
 							["school"] = 32,
-							["resisted"] = 754,
-							["criticalmin"] = 2440,
-							["hitamount"] = 2773,
+							["hitmax"] = 1785,
+							["hit"] = 3,
+							["hitamount"] = 5355,
 						},
 					},
 					["absorb"] = 3979,
 					["damagetaken"] = 3732,
+					["absorbspells"] = {
+						[48066] = {
+							["min"] = 3979,
+							["casts"] = 2,
+							["count"] = 1,
+							["amount"] = 3979,
+							["max"] = 3979,
+							["targets"] = {
+								["Nalar"] = 3979,
+							},
+							["school"] = 2,
+						},
+					},
 					["id"] = "0x070000000027C8A1",
 					["spec"] = 258,
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 25492,
-							["max"] = 349,
+							["school"] = 32,
 							["count"] = 85,
 							["amount"] = 4338,
-							["school"] = 32,
-							["min"] = 69,
+							["max"] = 349,
 							["ishot"] = true,
 							["targets"] = {
 								["Pompeu"] = {
@@ -3338,6 +4031,7 @@ SkadaStorageDB = {
 									["amount"] = 1710,
 								},
 							},
+							["min"] = 69,
 						},
 						[75999] = {
 							["overheal"] = 532,
@@ -3364,6 +4058,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
+					["overkill"] = 1399,
 					["damagetakenspells"] = {
 						["Icy Touch"] = {
 							["total"] = 7711,
@@ -3396,8 +4091,10 @@ SkadaStorageDB = {
 							["id"] = 51240,
 						},
 					},
-					["totaldamage"] = 118346,
 					["heal"] = 4338,
+					["manaspells"] = {
+						[57669] = 1792,
+					},
 					["name"] = "Nalar",
 					["mana"] = 1792,
 					["overheal"] = 27450,
@@ -3448,15 +4145,15 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[70845] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 						[64440] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[48942] = {
@@ -3474,23 +4171,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[50227] = {
+						[23920] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[71638] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[23920] = {
+						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 18,
 						},
 						[58374] = {
 							["type"] = "BUFF",
@@ -3499,17 +4196,11 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 16,
 						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
+						[58363] = {
 							["school"] = 1,
-							["targets"] = {
-								["Risen Drakkari Death Knight"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 7,
 						},
 						[46968] = {
 							["type"] = "DEBUFF",
@@ -3523,23 +4214,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
-						},
-						[58363] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[47436] = {
-							["type"] = "BUFF",
+						[18498] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 31,
+							["targets"] = {
+								["Risen Drakkari Death Knight"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
 						[47437] = {
 							["type"] = "DEBUFF",
@@ -3553,6 +4238,23 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 9,
 						},
+						[47436] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[50227] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 34,
+						},
 						[47502] = {
 							["type"] = "DEBUFF",
 							["count"] = 3,
@@ -3560,17 +4262,12 @@ SkadaStorageDB = {
 							["refresh"] = 9,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
-									["count"] = 3,
 									["refresh"] = 9,
+									["count"] = 3,
 									["uptime"] = 18,
 								},
 							},
 							["uptime"] = 18,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 34,
 						},
 						[47440] = {
 							["type"] = "BUFF",
@@ -3578,10 +4275,10 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[57516] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 6,
+							["type"] = "BUFF",
 							["uptime"] = 34,
+							["count"] = 1,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -3589,9 +4286,9 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[12721] = {
@@ -3601,23 +4298,23 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
-									["count"] = 3,
 									["refresh"] = 7,
+									["count"] = 3,
 									["uptime"] = 24,
 								},
 							},
 							["uptime"] = 24,
 						},
 						[18499] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 					},
@@ -3634,6 +4331,7 @@ SkadaStorageDB = {
 							["max"] = 2285,
 						},
 					},
+					["totaldamage"] = 103678,
 					["time"] = 28.78,
 					["totaldamagetaken"] = 30295,
 					["damage"] = 103678,
@@ -3648,54 +4346,54 @@ SkadaStorageDB = {
 									["amount"] = 9544,
 								},
 							},
-							["criticalmax"] = 6542,
-							["critical"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 6542,
 							["hitmax"] = 3002,
 							["amount"] = 9544,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 3002,
 						},
 						["Melee"] = {
 							["hitmin"] = 659,
 							["criticalamount"] = 1400,
 							["id"] = 6603,
-							["blocked"] = 40,
+							["criticalmin"] = 1400,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["amount"] = 4145,
 								},
 							},
-							["hitmax"] = 728,
-							["count"] = 5,
-							["criticalmax"] = 1400,
 							["critical"] = 1,
 							["amount"] = 4145,
-							["school"] = 1,
+							["criticalmax"] = 1400,
+							["count"] = 5,
 							["hit"] = 4,
-							["criticalmin"] = 1400,
+							["school"] = 1,
+							["blocked"] = 40,
+							["hitmax"] = 728,
 							["hitamount"] = 2745,
 						},
 						["Cleave"] = {
 							["hitmin"] = 803,
 							["criticalamount"] = 3774,
 							["id"] = 47520,
-							["hitmax"] = 942,
+							["criticalmin"] = 1856,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["amount"] = 9914,
 								},
 							},
-							["count"] = 9,
-							["hit"] = 7,
-							["casts"] = 5,
 							["critical"] = 2,
 							["amount"] = 9914,
-							["school"] = 1,
-							["criticalmin"] = 1856,
 							["criticalmax"] = 1918,
+							["count"] = 9,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 942,
+							["casts"] = 5,
 							["hitamount"] = 6140,
 						},
 						["Thunder Clap"] = {
@@ -3708,14 +4406,14 @@ SkadaStorageDB = {
 									["amount"] = 14110,
 								},
 							},
-							["criticalmax"] = 2004,
-							["critical"] = 3,
 							["casts"] = 3,
 							["count"] = 12,
-							["hit"] = 9,
-							["school"] = 1,
+							["criticalmax"] = 2004,
 							["hitmax"] = 911,
 							["amount"] = 14110,
+							["school"] = 1,
+							["hit"] = 9,
+							["critical"] = 3,
 							["hitamount"] = 8129,
 						},
 						["Revenge"] = {
@@ -3801,20 +4499,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1020,
 							["criticalamount"] = 7070,
 							["id"] = 47450,
-							["hitmax"] = 1058,
+							["criticalmin"] = 2334,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["amount"] = 9148,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 2,
-							["casts"] = 5,
 							["critical"] = 3,
 							["amount"] = 9148,
-							["school"] = 1,
-							["criticalmin"] = 2334,
 							["criticalmax"] = 2376,
+							["count"] = 5,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1058,
+							["casts"] = 5,
 							["hitamount"] = 2078,
 						},
 					},
@@ -3827,8 +4525,8 @@ SkadaStorageDB = {
 							["total"] = 9590,
 							["hitmin"] = 3616,
 							["id"] = 59011,
+							["hit"] = 2,
 							["ABSORB"] = 1,
-							["amount"] = 7305,
 							["sources"] = {
 								["Risen Drakkari Death Knight"] = {
 									["total"] = 9590,
@@ -3836,7 +4534,7 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 4,
-							["hit"] = 2,
+							["amount"] = 7305,
 							["school"] = 16,
 							["hitmax"] = 3689,
 							["MISS"] = 1,
@@ -3846,22 +4544,22 @@ SkadaStorageDB = {
 							["DODGE"] = 4,
 							["total"] = 9954,
 							["hitmin"] = 1379,
-							["blocked"] = 6081,
-							["id"] = 6603,
-							["BLOCK"] = 4,
-							["ABSORB"] = 1,
 							["amount"] = 8069,
-							["PARRY"] = 3,
+							["id"] = 6603,
+							["count"] = 21,
 							["sources"] = {
 								["Risen Drakkari Death Knight"] = {
 									["total"] = 9954,
 									["amount"] = 8069,
 								},
 							},
-							["count"] = 21,
-							["hit"] = 5,
-							["school"] = 1,
+							["BLOCK"] = 4,
+							["blocked"] = 6081,
+							["PARRY"] = 3,
 							["hitmax"] = 1859,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["hit"] = 5,
 							["MISS"] = 4,
 							["hitamount"] = 8069,
 						},
@@ -3884,7 +4582,6 @@ SkadaStorageDB = {
 							["hitamount"] = 3957,
 						},
 					},
-					["totaldamage"] = 103678,
 					["ragespells"] = {
 						[23602] = 55,
 						[2687] = 20,
@@ -3927,11 +4624,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[48504] = {
+						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 2,
+							["uptime"] = 6,
+						},
+						[67750] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 30,
 						},
 						[71184] = {
 							["type"] = "BUFF",
@@ -3940,22 +4644,17 @@ SkadaStorageDB = {
 							["refresh"] = 16,
 							["uptime"] = 27,
 						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
-						[25898] = {
+						[48504] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 34,
+							["uptime"] = 2,
 						},
 						[48467] = {
 							["type"] = "BUFF",
@@ -3979,20 +4678,18 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["uptime"] = 27,
 						},
-						[67750] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 12,
-							["uptime"] = 30,
+							["uptime"] = 34,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 31,
 						},
-						[48162] = {
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 34,
@@ -4002,37 +4699,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[48942] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 34,
 						},
 					},
+					["totaldamage"] = 6254,
 					["time"] = 25.61,
 					["totaldamagetaken"] = 40669,
-					["ragespells"] = {
-						[48541] = 28,
-					},
 					["damage"] = 6254,
 					["rage"] = 28,
-					["damagespells"] = {
-						["Hurricane"] = {
-							["hitmin"] = 1036,
-							["id"] = 48466,
-							["targets"] = {
-								["Risen Drakkari Death Knight"] = {
-									["amount"] = 6254,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["hitmax"] = 1070,
-							["amount"] = 6254,
-							["hitamount"] = 6254,
-						},
-					},
 					["damagetaken"] = 40669,
 					["id"] = "0x07000000007AA386",
 					["spec"] = 105,
@@ -4097,12 +4774,12 @@ SkadaStorageDB = {
 									["amount"] = 27312,
 								},
 							},
-							["criticalmin"] = 8892,
 							["min"] = 4419,
 							["criticalmax"] = 8892,
 							["critical"] = 1,
 							["amount"] = 27312,
 							["school"] = 8,
+							["criticalmin"] = 8892,
 							["casts"] = 5,
 							["count"] = 4,
 						},
@@ -4181,9 +4858,29 @@ SkadaStorageDB = {
 							["hitamount"] = 13425,
 						},
 					},
-					["totaldamage"] = 6254,
-					["heal"] = 118150,
+					["damagespells"] = {
+						["Hurricane"] = {
+							["hitmin"] = 1036,
+							["id"] = 48466,
+							["targets"] = {
+								["Risen Drakkari Death Knight"] = {
+									["amount"] = 6254,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 8,
+							["hitmax"] = 1070,
+							["amount"] = 6254,
+							["hitamount"] = 6254,
+						},
+					},
+					["ragespells"] = {
+						[48541] = 28,
+					},
 					["name"] = "Elunestrasza",
+					["heal"] = 118150,
 					["overheal"] = 45580,
 					["manaspells"] = {
 						[55767] = 400,
@@ -4199,9 +4896,9 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[12970] = {
@@ -4244,16 +4941,10 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 1,
 							["uptime"] = 22,
-						},
-						[55775] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
 						},
 						[48441] = {
 							["type"] = "BUFF",
@@ -4261,6 +4952,12 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["refresh"] = 1,
 							["uptime"] = 17,
+						},
+						[55775] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
 						},
 						[71559] = {
 							["type"] = "BUFF",
@@ -4275,9 +4972,9 @@ SkadaStorageDB = {
 							["uptime"] = 24,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[48074] = {
@@ -4296,15 +4993,15 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[47436] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 31,
 						},
 						[46916] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[12721] = {
@@ -4314,8 +5011,8 @@ SkadaStorageDB = {
 							["refresh"] = 8,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
-									["count"] = 7,
 									["refresh"] = 8,
+									["count"] = 7,
 									["uptime"] = 20,
 								},
 							},
@@ -4329,17 +5026,17 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 					},
+					["totaldamage"] = 188523,
 					["time"] = 28.3,
 					["totaldamagetaken"] = 38809,
 					["damage"] = 188523,
 					["rage"] = 9,
-					["overheal"] = 784,
 					["damagetaken"] = 38809,
 					["id"] = "0x070000000060091D",
 					["spec"] = 72,
@@ -4407,19 +5104,20 @@ SkadaStorageDB = {
 							["hitamount"] = 18794,
 						},
 					},
-					["overkill"] = 5497,
 					["ragespells"] = {
 						[12964] = 9,
 					},
 					["name"] = "Warac",
+					["overheal"] = 784,
+					["overkill"] = 5497,
 					["heal"] = 3136,
 					["damagespells"] = {
 						["Bloodthirst"] = {
-							["count"] = 4,
+							["criticalmin"] = 7924,
 							["hitmin"] = 3488,
 							["criticalamount"] = 17057,
 							["id"] = 23881,
-							["hitmax"] = 4343,
+							["critical"] = 2,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["overkill"] = 4062,
@@ -4427,21 +5125,21 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 4062,
-							["hit"] = 2,
-							["casts"] = 4,
-							["critical"] = 2,
 							["amount"] = 24888,
-							["school"] = 1,
-							["criticalmin"] = 7924,
 							["criticalmax"] = 9133,
+							["hitmax"] = 4343,
+							["hit"] = 2,
+							["school"] = 1,
+							["count"] = 4,
+							["casts"] = 4,
 							["hitamount"] = 7831,
 						},
 						["Melee"] = {
-							["count"] = 12,
+							["critical"] = 9,
 							["hitmin"] = 1767,
 							["criticalamount"] = 41542,
 							["id"] = 6603,
-							["hitmax"] = 1897,
+							["criticalmin"] = 3143,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["overkill"] = 1435,
@@ -4449,12 +5147,12 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1435,
-							["hit"] = 2,
-							["criticalmax"] = 6276,
-							["critical"] = 9,
 							["amount"] = 45206,
+							["criticalmax"] = 6276,
+							["hitmax"] = 1897,
+							["hit"] = 2,
 							["school"] = 1,
-							["criticalmin"] = 3143,
+							["count"] = 12,
 							["MISS"] = 1,
 							["hitamount"] = 3664,
 						},
@@ -4478,20 +5176,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1971,
 							["criticalamount"] = 69649,
 							["id"] = 1680,
-							["hitmax"] = 3785,
+							["criticalmin"] = 4370,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["amount"] = 95034,
 								},
 							},
-							["count"] = 20,
-							["hit"] = 9,
-							["casts"] = 3,
 							["critical"] = 11,
 							["amount"] = 95034,
-							["school"] = 1,
-							["criticalmin"] = 4370,
 							["criticalmax"] = 8362,
+							["count"] = 20,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 3785,
+							["casts"] = 3,
 							["hitamount"] = 25385,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -4526,7 +5224,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 						},
 					},
-					["totaldamage"] = 188523,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -4540,22 +5237,31 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
-						[53251] = {
+						[71432] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
-							["uptime"] = 14,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 34,
 						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[61840] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
 							["school"] = 2,
-							["uptime"] = 13,
+							["refresh"] = 2,
+							["targets"] = {
+								["Risen Drakkari Death Knight"] = {
+									["refresh"] = 2,
+									["count"] = 5,
+									["uptime"] = 17,
+								},
+							},
+							["uptime"] = 17,
 						},
 						[20186] = {
 							["type"] = "DEBUFF",
@@ -4570,36 +5276,28 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[71401] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 13,
 						},
-						[71432] = {
+						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 3,
-							["school"] = 1,
-							["uptime"] = 34,
+							["uptime"] = 14,
 						},
 						[57669] = {
 							["school"] = 8,
 							["type"] = "BUFF",
 							["uptime"] = 27,
 						},
-						[61840] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 2,
+						[59578] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
 							["refresh"] = 2,
-							["targets"] = {
-								["Risen Drakkari Death Knight"] = {
-									["count"] = 5,
-									["refresh"] = 2,
-									["uptime"] = 17,
-								},
-							},
-							["uptime"] = 17,
+							["uptime"] = 29,
 						},
 						[47440] = {
 							["type"] = "BUFF",
@@ -4611,22 +5309,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[59578] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 29,
-						},
 						[48934] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 34,
 						},
+						[20053] = {
+							["refresh"] = 6,
+							["type"] = "BUFF",
+							["uptime"] = 34,
+							["count"] = 1,
+						},
 						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 34,
+						},
+						[59620] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
 						},
 						[54499] = {
 							["type"] = "DEBUFF",
@@ -4640,32 +5343,31 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[20053] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 34,
-						},
 					},
+					["totaldamage"] = 101324,
 					["time"] = 21.46,
 					["totaldamagetaken"] = 24511,
 					["damage"] = 101324,
 					["damagespells"] = {
-						["Manifest Anger"] = {
-							["hitmin"] = 1233,
-							["id"] = 71433,
+						["Divine Storm"] = {
+							["hitmin"] = 2557,
+							["criticalamount"] = 29966,
+							["id"] = 53385,
+							["criticalmin"] = 5320,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
-									["amount"] = 1233,
+									["amount"] = 32523,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
+							["critical"] = 5,
+							["amount"] = 32523,
+							["criticalmax"] = 6517,
+							["count"] = 6,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 1233,
-							["amount"] = 1233,
-							["hitamount"] = 1233,
+							["hitmax"] = 2557,
+							["casts"] = 2,
+							["hitamount"] = 2557,
 						},
 						["Exorcism"] = {
 							["criticalamount"] = 5645,
@@ -4689,7 +5391,7 @@ SkadaStorageDB = {
 							["hitmin"] = 2026,
 							["criticalamount"] = 4824,
 							["id"] = 6603,
-							["criticalmax"] = 4824,
+							["PARRY"] = 1,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
 									["overkill"] = 165,
@@ -4697,14 +5399,30 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 165,
-							["critical"] = 1,
-							["PARRY"] = 1,
 							["count"] = 4,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 4824,
 							["hitmax"] = 2026,
 							["amount"] = 6850,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 2026,
+						},
+						["Manifest Anger"] = {
+							["hitmin"] = 1233,
+							["id"] = 71433,
+							["targets"] = {
+								["Risen Drakkari Death Knight"] = {
+									["amount"] = 1233,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1233,
+							["amount"] = 1233,
+							["hitamount"] = 1233,
 						},
 						["Crusader Strike"] = {
 							["hitmin"] = 2109,
@@ -4722,29 +5440,9 @@ SkadaStorageDB = {
 							["amount"] = 2109,
 							["hitamount"] = 2109,
 						},
-						["Divine Storm"] = {
-							["hitmin"] = 2557,
-							["criticalamount"] = 29966,
-							["id"] = 53385,
-							["hitmax"] = 2557,
-							["targets"] = {
-								["Risen Drakkari Death Knight"] = {
-									["amount"] = 32523,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 5,
-							["amount"] = 32523,
-							["school"] = 1,
-							["criticalmin"] = 5320,
-							["criticalmax"] = 6517,
-							["hitamount"] = 2557,
-						},
 						["Seal of Command"] = {
-							["hitmax"] = 1609,
 							["criticalmin"] = 2939,
+							["critical"] = 9,
 							["hitmin"] = 1270,
 							["criticalamount"] = 28309,
 							["id"] = 20424,
@@ -4754,35 +5452,15 @@ SkadaStorageDB = {
 									["amount"] = 38329,
 								},
 							},
-							["critical"] = 9,
+							["hitmax"] = 1609,
 							["blocked"] = 40,
 							["casts"] = 1,
 							["count"] = 16,
-							["hit"] = 7,
+							["amount"] = 38329,
 							["school"] = 2,
 							["resisted"] = 156,
-							["amount"] = 38329,
+							["hit"] = 7,
 							["hitamount"] = 10020,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 2446,
-							["criticalamount"] = 8241,
-							["id"] = 20467,
-							["hitmax"] = 2446,
-							["targets"] = {
-								["Risen Drakkari Death Knight"] = {
-									["amount"] = 10687,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 10687,
-							["school"] = 2,
-							["criticalmin"] = 4103,
-							["criticalmax"] = 4138,
-							["hitamount"] = 2446,
 						},
 						["Righteous Vengeance (DoT)"] = {
 							["hitmin"] = 285,
@@ -4800,14 +5478,37 @@ SkadaStorageDB = {
 							["amount"] = 3948,
 							["hitamount"] = 3948,
 						},
+						["Judgement of Command"] = {
+							["hitmin"] = 2446,
+							["criticalamount"] = 8241,
+							["id"] = 20467,
+							["criticalmin"] = 4103,
+							["targets"] = {
+								["Risen Drakkari Death Knight"] = {
+									["amount"] = 10687,
+								},
+							},
+							["critical"] = 2,
+							["amount"] = 10687,
+							["criticalmax"] = 4138,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 2446,
+							["casts"] = 1,
+							["hitamount"] = 2446,
+						},
 					},
-					["overheal"] = 7,
 					["damagetaken"] = 24511,
 					["id"] = "0x07000000008E8B28",
 					["spec"] = 70,
 					["healspells"] = {
 						[54172] = {
 							["overheal"] = 7,
+							["max"] = 5121,
+							["count"] = 2,
+							["amount"] = 5121,
+							["school"] = 2,
 							["targets"] = {
 								["Pompeu"] = {
 									["overheal"] = 7,
@@ -4818,10 +5519,6 @@ SkadaStorageDB = {
 									["amount"] = 5121,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 5121,
-							["school"] = 2,
-							["max"] = 5121,
 							["ishot"] = true,
 							["min"] = 5121,
 						},
@@ -4886,10 +5583,10 @@ SkadaStorageDB = {
 							["id"] = 51240,
 						},
 					},
-					["overkill"] = 165,
 					["heal"] = 5121,
 					["name"] = "Hairypaladin",
-					["totaldamage"] = 101324,
+					["overheal"] = 7,
+					["overkill"] = 165,
 					["class"] = "PALADIN",
 					["manaspells"] = {
 						[31930] = 3294,
@@ -4899,9 +5596,11 @@ SkadaStorageDB = {
 					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["type"] = "party",
+			["absorb"] = 14943,
 			["damagetaken"] = 127052,
+			["type"] = "party",
 			["interrupt"] = 1,
+			["ccdone"] = 8,
 			["etotaldamage"] = 141995,
 			["overkill"] = 7061,
 			["edamagetaken"] = 518125,
@@ -4912,9 +5611,8 @@ SkadaStorageDB = {
 			["edamage"] = 127052,
 			["last_action"] = 1700476447,
 			["endtime"] = 1700476447,
-		}, -- [2]
+		}, -- [4]
 		{
-			["damage"] = 533202,
 			["mana"] = 8706,
 			["enemies"] = {
 				{
@@ -4993,14 +5691,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8056,
 						},
-						[61840] = {
-							["school"] = 2,
+						[53385] = {
+							["school"] = 1,
 							["sources"] = {
 								["Hairypaladin"] = {
-									["amount"] = 700,
+									["amount"] = 5308,
 								},
 							},
-							["amount"] = 700,
+							["amount"] = 5308,
 						},
 						[71433] = {
 							["school"] = 1,
@@ -5011,14 +5709,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2432,
 						},
-						[53385] = {
-							["school"] = 1,
+						[61840] = {
+							["school"] = 2,
 							["sources"] = {
 								["Hairypaladin"] = {
-									["amount"] = 5308,
+									["amount"] = 700,
 								},
 							},
-							["amount"] = 5308,
+							["amount"] = 700,
 						},
 						[48160] = {
 							["school"] = 32,
@@ -5086,8 +5784,8 @@ SkadaStorageDB = {
 							["amount"] = 2986,
 						},
 					},
-					["name"] = "Drakkari Commander",
 					["totaldamage"] = 12037,
+					["name"] = "Drakkari Commander",
 					["totaldamagetaken"] = 68508,
 					["id"] = "0xF130006B2700009C",
 					["damage"] = 12037,
@@ -5167,14 +5865,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8346,
 						},
-						[71433] = {
+						[64442] = {
 							["school"] = 1,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 1160,
+								["Pompeu"] = {
+									["amount"] = 1676,
 								},
 							},
-							["amount"] = 1160,
+							["amount"] = 1676,
 						},
 						[1680] = {
 							["school"] = 1,
@@ -5185,23 +5883,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 13822,
 						},
-						[64442] = {
+						[50783] = {
 							["school"] = 1,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 1676,
+								["Warac"] = {
+									["amount"] = 2816,
 								},
 							},
-							["amount"] = 1676,
+							["amount"] = 2816,
 						},
-						[46968] = {
+						[53385] = {
 							["school"] = 1,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 3244,
+								["Hairypaladin"] = {
+									["amount"] = 15135,
 								},
 							},
-							["amount"] = 3244,
+							["amount"] = 15135,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -5220,14 +5918,14 @@ SkadaStorageDB = {
 							["overkill"] = 3721,
 							["amount"] = 39278,
 						},
-						[50783] = {
+						[71433] = {
 							["school"] = 1,
 							["sources"] = {
-								["Warac"] = {
-									["amount"] = 2816,
+								["Hairypaladin"] = {
+									["amount"] = 1160,
 								},
 							},
-							["amount"] = 2816,
+							["amount"] = 1160,
 						},
 						[20467] = {
 							["school"] = 2,
@@ -5249,14 +5947,14 @@ SkadaStorageDB = {
 							["overkill"] = 3205,
 							["amount"] = 5311,
 						},
-						[58381] = {
-							["school"] = 32,
+						[57823] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 7230,
+								["Pompeu"] = {
+									["amount"] = 8474,
 								},
 							},
-							["amount"] = 7230,
+							["amount"] = 8474,
 						},
 						[59653] = {
 							["school"] = 1,
@@ -5317,27 +6015,27 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4840,
 						},
-						[57823] = {
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["amount"] = 7230,
+								},
+							},
+							["amount"] = 7230,
+						},
+						[46968] = {
 							["school"] = 1,
 							["sources"] = {
 								["Pompeu"] = {
-									["amount"] = 8474,
+									["amount"] = 3244,
 								},
 							},
-							["amount"] = 8474,
-						},
-						[53385] = {
-							["school"] = 1,
-							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 15135,
-								},
-							},
-							["amount"] = 15135,
+							["amount"] = 3244,
 						},
 					},
-					["name"] = "Drakkari Guardian",
 					["totaldamage"] = 10153,
+					["name"] = "Drakkari Guardian",
 					["totaldamagetaken"] = 206344,
 					["id"] = "0xF1300067FC000047",
 					["damage"] = 10153,
@@ -5702,8 +6400,8 @@ SkadaStorageDB = {
 							["amount"] = 790,
 						},
 					},
-					["name"] = "Risen Drakkari Warrior",
 					["totaldamage"] = 8268,
+					["name"] = "Risen Drakkari Warrior",
 					["totaldamagetaken"] = 84637,
 					["id"] = "0xF13000680B000043",
 					["damage"] = 8268,
@@ -5712,20 +6410,221 @@ SkadaStorageDB = {
 			["overheal"] = 77353,
 			["totaldamage"] = 533202,
 			["time"] = 34,
-			["ccdone"] = 4,
+			["damage"] = 533202,
 			["totaldamagetaken"] = 40556,
 			["etotaldamagetaken"] = 533202,
 			["last_time"] = 12059.493,
 			["players"] = {
 				{
+					["damagespells"] = {
+						["Mind Sear"] = {
+							["hitmin"] = 2304,
+							["criticalamount"] = 3571,
+							["id"] = 53022,
+							["criticalmin"] = 3571,
+							["targets"] = {
+								["Drakkari Guardian"] = {
+									["amount"] = 13988,
+								},
+								["Drakkari Shaman"] = {
+									["amount"] = 15263,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 12,
+							["criticalmax"] = 3571,
+							["hitmax"] = 2383,
+							["amount"] = 29251,
+							["school"] = 32,
+							["hit"] = 11,
+							["critical"] = 1,
+							["hitamount"] = 25680,
+						},
+						["Vampiric Touch (DoT)"] = {
+							["criticalmin"] = 5314,
+							["hitmin"] = 2543,
+							["criticalamount"] = 21333,
+							["id"] = 48160,
+							["criticalmax"] = 5390,
+							["targets"] = {
+								["Drakkari Commander"] = {
+									["overkill"] = 4262,
+									["amount"] = 18486,
+								},
+								["Risen Drakkari Warrior"] = {
+									["amount"] = 5390,
+								},
+							},
+							["overkill"] = 4262,
+							["critical"] = 4,
+							["casts"] = 2,
+							["count"] = 5,
+							["hit"] = 1,
+							["school"] = 32,
+							["amount"] = 23876,
+							["hitmax"] = 2543,
+							["hitamount"] = 2543,
+						},
+						["Devouring Plague (DoT)"] = {
+							["hitmin"] = 1556,
+							["criticalamount"] = 9792,
+							["id"] = 48300,
+							["criticalmin"] = 3250,
+							["targets"] = {
+								["Drakkari Commander"] = {
+									["amount"] = 8056,
+								},
+								["Risen Drakkari Warrior"] = {
+									["amount"] = 3292,
+								},
+							},
+							["criticalmax"] = 3292,
+							["critical"] = 3,
+							["casts"] = 2,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 32,
+							["amount"] = 11348,
+							["hitmax"] = 1556,
+							["hitamount"] = 1556,
+						},
+						["Mind Flay"] = {
+							["hitmin"] = 2207,
+							["criticalamount"] = 19244,
+							["id"] = 58381,
+							["criticalmin"] = 4613,
+							["targets"] = {
+								["Drakkari Guardian"] = {
+									["amount"] = 7230,
+								},
+								["Drakkari Shaman"] = {
+									["amount"] = 23315,
+								},
+							},
+							["critical"] = 4,
+							["amount"] = 30545,
+							["criticalmax"] = 4891,
+							["count"] = 9,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 2340,
+							["casts"] = 5,
+							["hitamount"] = 11301,
+						},
+						["Improved Devouring Plague"] = {
+							["hitmin"] = 2986,
+							["id"] = 63675,
+							["targets"] = {
+								["Drakkari Commander"] = {
+									["amount"] = 2986,
+								},
+								["Risen Drakkari Warrior"] = {
+									["amount"] = 3780,
+								},
+							},
+							["hitmax"] = 3780,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 746,
+							["amount"] = 6766,
+							["hitamount"] = 6766,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["criticalmin"] = 2880,
+							["hitmin"] = 1531,
+							["criticalamount"] = 2880,
+							["id"] = 48125,
+							["criticalmax"] = 2880,
+							["targets"] = {
+								["Drakkari Commander"] = {
+									["amount"] = 4411,
+								},
+							},
+							["hitmax"] = 1531,
+							["hit"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 4411,
+							["school"] = 32,
+							["resisted"] = 319,
+							["critical"] = 1,
+							["hitamount"] = 1531,
+						},
+					},
 					["last"] = 12052.076,
+					["totaldamage"] = 106197,
+					["id"] = "0x070000000027C8A1",
 					["flag"] = 1297,
 					["class"] = "PRIEST",
+					["healspells"] = {
+						[15290] = {
+							["overheal"] = 27681,
+							["max"] = 301,
+							["count"] = 110,
+							["amount"] = 10847,
+							["school"] = 32,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 21403,
+									["amount"] = 0,
+								},
+								["Warac"] = {
+									["overheal"] = 1340,
+									["amount"] = 2943,
+								},
+								["Elunestrasza"] = {
+									["overheal"] = 3826,
+									["amount"] = 455,
+								},
+								["Pompeu"] = {
+									["overheal"] = 0,
+									["amount"] = 4280,
+								},
+								["Hairypaladin"] = {
+									["overheal"] = 1112,
+									["amount"] = 3169,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 85,
+						},
+						[75999] = {
+							["overheal"] = 1372,
+							["criticalamount"] = 0,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 1372,
+									["amount"] = 0,
+								},
+							},
+							["criticalmax"] = 0,
+							["critical"] = 2,
+							["amount"] = 0,
+							["school"] = 32,
+							["count"] = 2,
+							["criticalmin"] = 0,
+						},
+						[48300] = {
+							["overheal"] = 1891,
+							["casts"] = 2,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 32,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 1891,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 13,
 						},
 						[15473] = {
@@ -5739,15 +6638,15 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[586] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 10,
 						},
 						[34123] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 18,
 						},
 						[48942] = {
@@ -5756,10 +6655,10 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 17,
+							["type"] = "BUFF",
 							["uptime"] = 34,
+							["count"] = 1,
 						},
 						[25898] = {
 							["type"] = "BUFF",
@@ -5778,13 +6677,13 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 3,
 								},
 								["Drakkari Shaman"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 15,
 								},
 								["Drakkari Guardian"] = {
@@ -5795,15 +6694,15 @@ SkadaStorageDB = {
 							["uptime"] = 17,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 7,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 2,
 						},
 						[6788] = {
@@ -5878,12 +6777,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[61792] = {
+						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 22,
+							["uptime"] = 10,
 						},
 						[59000] = {
 							["type"] = "BUFF",
@@ -5892,16 +6790,17 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["uptime"] = 17,
 						},
-						[72416] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 10,
-						},
 						[57669] = {
 							["school"] = 8,
 							["type"] = "BUFF",
 							["uptime"] = 28,
+						},
+						[61792] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 22,
 						},
 						[72221] = {
 							["type"] = "BUFF",
@@ -5918,11 +6817,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[67016] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 34,
-						},
 						[48125] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -5934,17 +6828,22 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Risen Drakkari Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 2,
 								},
 							},
 							["uptime"] = 9,
 						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 34,
+						},
 						[15271] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 32,
 							["uptime"] = 21,
 						},
 						[48168] = {
@@ -5953,215 +6852,14 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 					},
-					["time"] = 25.04,
-					["damage"] = 106197,
-					["damagespells"] = {
-						["Mind Sear"] = {
-							["hitmin"] = 2304,
-							["criticalamount"] = 3571,
-							["id"] = 53022,
-							["criticalmin"] = 3571,
-							["targets"] = {
-								["Drakkari Guardian"] = {
-									["amount"] = 13988,
-								},
-								["Drakkari Shaman"] = {
-									["amount"] = 15263,
-								},
-							},
-							["criticalmax"] = 3571,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 12,
-							["hit"] = 11,
-							["school"] = 32,
-							["hitmax"] = 2383,
-							["amount"] = 29251,
-							["hitamount"] = 25680,
-						},
-						["Vampiric Touch (DoT)"] = {
-							["casts"] = 2,
-							["hitmin"] = 2543,
-							["criticalamount"] = 21333,
-							["id"] = 48160,
-							["hitmax"] = 2543,
-							["targets"] = {
-								["Drakkari Commander"] = {
-									["overkill"] = 4262,
-									["amount"] = 18486,
-								},
-								["Risen Drakkari Warrior"] = {
-									["amount"] = 5390,
-								},
-							},
-							["overkill"] = 4262,
-							["count"] = 5,
-							["criticalmax"] = 5390,
-							["critical"] = 4,
-							["amount"] = 23876,
-							["school"] = 32,
-							["hit"] = 1,
-							["criticalmin"] = 5314,
-							["hitamount"] = 2543,
-						},
-						["Devouring Plague (DoT)"] = {
-							["hitmin"] = 1556,
-							["criticalamount"] = 9792,
-							["id"] = 48300,
-							["casts"] = 2,
-							["targets"] = {
-								["Drakkari Commander"] = {
-									["amount"] = 8056,
-								},
-								["Risen Drakkari Warrior"] = {
-									["amount"] = 3292,
-								},
-							},
-							["hitmax"] = 1556,
-							["count"] = 4,
-							["criticalmax"] = 3292,
-							["critical"] = 3,
-							["amount"] = 11348,
-							["school"] = 32,
-							["hit"] = 1,
-							["criticalmin"] = 3250,
-							["hitamount"] = 1556,
-						},
-						["Mind Flay"] = {
-							["hitmin"] = 2207,
-							["criticalamount"] = 19244,
-							["id"] = 58381,
-							["hitmax"] = 2340,
-							["targets"] = {
-								["Drakkari Guardian"] = {
-									["amount"] = 7230,
-								},
-								["Drakkari Shaman"] = {
-									["amount"] = 23315,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 5,
-							["casts"] = 5,
-							["critical"] = 4,
-							["amount"] = 30545,
-							["school"] = 32,
-							["criticalmin"] = 4613,
-							["criticalmax"] = 4891,
-							["hitamount"] = 11301,
-						},
-						["Improved Devouring Plague"] = {
-							["hitmin"] = 2986,
-							["id"] = 63675,
-							["targets"] = {
-								["Drakkari Commander"] = {
-									["amount"] = 2986,
-								},
-								["Risen Drakkari Warrior"] = {
-									["amount"] = 3780,
-								},
-							},
-							["hitmax"] = 3780,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 746,
-							["amount"] = 6766,
-							["hitamount"] = 6766,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["casts"] = 2,
-							["hitmin"] = 1531,
-							["criticalamount"] = 2880,
-							["id"] = 48125,
-							["hitmax"] = 1531,
-							["targets"] = {
-								["Drakkari Commander"] = {
-									["amount"] = 4411,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["criticalmax"] = 2880,
-							["critical"] = 1,
-							["amount"] = 4411,
-							["school"] = 32,
-							["resisted"] = 319,
-							["criticalmin"] = 2880,
-							["hitamount"] = 1531,
-						},
-					},
-					["id"] = "0x070000000027C8A1",
 					["spec"] = 258,
-					["healspells"] = {
-						[15290] = {
-							["overheal"] = 27681,
-							["targets"] = {
-								["Nalar"] = {
-									["overheal"] = 21403,
-									["amount"] = 0,
-								},
-								["Warac"] = {
-									["overheal"] = 1340,
-									["amount"] = 2943,
-								},
-								["Elunestrasza"] = {
-									["overheal"] = 3826,
-									["amount"] = 455,
-								},
-								["Pompeu"] = {
-									["overheal"] = 0,
-									["amount"] = 4280,
-								},
-								["Hairypaladin"] = {
-									["overheal"] = 1112,
-									["amount"] = 3169,
-								},
-							},
-							["count"] = 110,
-							["amount"] = 10847,
-							["school"] = 32,
-							["max"] = 301,
-							["ishot"] = true,
-							["min"] = 85,
-						},
-						[75999] = {
-							["overheal"] = 1372,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Nalar"] = {
-									["overheal"] = 1372,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["critical"] = 2,
-							["amount"] = 0,
-							["school"] = 32,
-							["count"] = 2,
-							["criticalmin"] = 0,
-						},
-						[48300] = {
-							["overheal"] = 1891,
-							["casts"] = 2,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 32,
-							["targets"] = {
-								["Nalar"] = {
-									["overheal"] = 1891,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["heal"] = 10847,
+					["role"] = "DAMAGER",
+					["time"] = 25.04,
 					["name"] = "Nalar",
 					["overkill"] = 4262,
+					["heal"] = 10847,
 					["overheal"] = 30944,
-					["totaldamage"] = 106197,
-					["role"] = "DAMAGER",
+					["damage"] = 106197,
 				}, -- [1]
 				{
 					["ccdonespells"] = {
@@ -6184,15 +6882,15 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 5,
 						},
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[64440] = {
@@ -6203,9 +6901,9 @@ SkadaStorageDB = {
 							["uptime"] = 15,
 						},
 						[34123] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 18,
 						},
 						[48942] = {
@@ -6251,15 +6949,15 @@ SkadaStorageDB = {
 							["uptime"] = 4,
 						},
 						[50227] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 						[48441] = {
@@ -6278,23 +6976,23 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Drakkari Shaman"] = {
-									["count"] = 2,
 									["refresh"] = 3,
+									["count"] = 2,
 									["uptime"] = 23,
 								},
 								["Drakkari Guardian"] = {
-									["count"] = 4,
 									["refresh"] = 2,
+									["count"] = 4,
 									["uptime"] = 19,
 								},
 							},
 							["uptime"] = 23,
 						},
 						[57516] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 9,
+							["type"] = "BUFF",
 							["uptime"] = 34,
+							["count"] = 1,
 						},
 						[72221] = {
 							["type"] = "BUFF",
@@ -6320,8 +7018,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Drakkari Shaman"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 8,
 								},
 								["Drakkari Guardian"] = {
@@ -6425,14 +7123,14 @@ SkadaStorageDB = {
 									["amount"] = 8381,
 								},
 							},
-							["criticalmax"] = 2728,
-							["critical"] = 2,
 							["casts"] = 5,
 							["count"] = 10,
-							["hit"] = 8,
-							["school"] = 1,
+							["criticalmax"] = 2728,
 							["hitmax"] = 1412,
 							["amount"] = 12468,
+							["school"] = 1,
+							["hit"] = 8,
+							["critical"] = 2,
 							["hitamount"] = 7635,
 						},
 						["Thunder Clap"] = {
@@ -6451,14 +7149,14 @@ SkadaStorageDB = {
 									["amount"] = 6400,
 								},
 							},
-							["criticalmax"] = 1861,
-							["critical"] = 1,
 							["casts"] = 3,
 							["count"] = 12,
-							["hit"] = 11,
-							["school"] = 1,
+							["criticalmax"] = 1861,
 							["hitmax"] = 1401,
 							["amount"] = 12730,
+							["school"] = 1,
+							["hit"] = 11,
+							["critical"] = 1,
 							["hitamount"] = 10869,
 						},
 						["Revenge"] = {
@@ -6522,20 +7220,20 @@ SkadaStorageDB = {
 							["hitmin"] = 2954,
 							["criticalamount"] = 6494,
 							["id"] = 47488,
-							["hitmax"] = 2954,
+							["criticalmin"] = 6494,
 							["targets"] = {
 								["Drakkari Shaman"] = {
 									["amount"] = 9448,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
 							["critical"] = 1,
 							["amount"] = 9448,
-							["school"] = 1,
-							["criticalmin"] = 6494,
 							["criticalmax"] = 6494,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2954,
+							["casts"] = 2,
 							["hitamount"] = 2954,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -6577,23 +7275,11 @@ SkadaStorageDB = {
 					["id"] = "0x070000000098E3C3",
 					["spec"] = 73,
 					["damagetakenspells"] = {
-						["Hamstring"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Drakkari Guardian"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 9080,
-						},
 						["Lightning Bolt"] = {
 							["hitmin"] = 818,
 							["id"] = 59006,
-							["amount"] = 10098,
 							["hitmax"] = 1313,
+							["amount"] = 10098,
 							["sources"] = {
 								["Drakkari Shaman"] = {
 									["amount"] = 10098,
@@ -6610,9 +7296,9 @@ SkadaStorageDB = {
 							["DODGE"] = 5,
 							["hitmin"] = 1035,
 							["id"] = 6603,
+							["amount"] = 7669,
 							["PARRY"] = 1,
-							["hitmax"] = 1812,
-							["count"] = 20,
+							["BLOCK"] = 2,
 							["hit"] = 5,
 							["sources"] = {
 								["Drakkari Commander"] = {
@@ -6625,12 +7311,24 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["BLOCK"] = 2,
-							["amount"] = 7669,
-							["school"] = 1,
+							["count"] = 20,
 							["blocked"] = 3296,
+							["school"] = 1,
+							["hitmax"] = 1812,
 							["MISS"] = 7,
 							["hitamount"] = 7669,
+						},
+						["Hamstring"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Drakkari Guardian"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 9080,
 						},
 					},
 					["ragespells"] = {
@@ -6664,9 +7362,9 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[33891] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 31,
 						},
 						[48074] = {
@@ -6675,27 +7373,28 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[34123] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[67750] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 18,
-						},
-						[16870] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 3,
+							["refresh"] = 2,
+							["uptime"] = 20,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 2,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 						[25898] = {
@@ -6704,10 +7403,27 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[48422] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 31,
+						},
+						[71184] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 18,
+							["count"] = 1,
+						},
+						[16870] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[57669] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["uptime"] = 28,
 						},
 						[26988] = {
 							["type"] = "DEBUFF",
@@ -6721,25 +7437,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[67750] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 20,
-						},
-						[57669] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["uptime"] = 28,
-						},
-						[71184] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 18,
-						},
-						[48942] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 34,
@@ -6749,15 +7447,94 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[48162] = {
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 34,
 						},
 					},
+					["totaldamage"] = 1959,
 					["time"] = 17.71,
 					["damage"] = 1959,
 					["overheal"] = 45874,
+					["id"] = "0x07000000007AA386",
+					["spec"] = 105,
+					["healspells"] = {
+						[53251] = {
+							["overheal"] = 40199,
+							["max"] = 1082,
+							["targets"] = {
+								["Pompeu"] = {
+									["overheal"] = 6351,
+									["amount"] = 7661,
+								},
+								["Elunestrasza"] = {
+									["overheal"] = 14012,
+									["amount"] = 0,
+								},
+								["Warac"] = {
+									["overheal"] = 12614,
+									["amount"] = 1398,
+								},
+								["Hairypaladin"] = {
+									["overheal"] = 7222,
+									["amount"] = 6792,
+								},
+							},
+							["min"] = 317,
+							["casts"] = 2,
+							["count"] = 56,
+							["amount"] = 15851,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[48441] = {
+							["overheal"] = 0,
+							["max"] = 3241,
+							["count"] = 1,
+							["amount"] = 3241,
+							["school"] = 8,
+							["targets"] = {
+								["Pompeu"] = {
+									["overheal"] = 0,
+									["amount"] = 3241,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 3241,
+						},
+						[71866] = {
+							["overheal"] = 5675,
+							["school"] = 2,
+							["count"] = 21,
+							["amount"] = 283,
+							["max"] = 283,
+							["ishot"] = true,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 851,
+									["amount"] = 0,
+								},
+								["Warac"] = {
+									["overheal"] = 1419,
+									["amount"] = 0,
+								},
+								["Elunestrasza"] = {
+									["overheal"] = 851,
+									["amount"] = 0,
+								},
+								["Pompeu"] = {
+									["overheal"] = 1418,
+									["amount"] = 0,
+								},
+								["Hairypaladin"] = {
+									["overheal"] = 1136,
+									["amount"] = 283,
+								},
+							},
+							["min"] = 283,
+						},
+					},
 					["damagespells"] = {
 						["Moonfire"] = {
 							["hitmin"] = 720,
@@ -6792,93 +7569,14 @@ SkadaStorageDB = {
 							["hitamount"] = 1239,
 						},
 					},
-					["id"] = "0x07000000007AA386",
-					["spec"] = 105,
-					["healspells"] = {
-						[53251] = {
-							["overheal"] = 40199,
-							["max"] = 1082,
-							["targets"] = {
-								["Pompeu"] = {
-									["overheal"] = 6351,
-									["amount"] = 7661,
-								},
-								["Elunestrasza"] = {
-									["overheal"] = 14012,
-									["amount"] = 0,
-								},
-								["Warac"] = {
-									["overheal"] = 12614,
-									["amount"] = 1398,
-								},
-								["Hairypaladin"] = {
-									["overheal"] = 7222,
-									["amount"] = 6792,
-								},
-							},
-							["min"] = 317,
-							["casts"] = 2,
-							["count"] = 56,
-							["amount"] = 15851,
-							["school"] = 8,
-							["ishot"] = true,
-						},
-						[48441] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Pompeu"] = {
-									["overheal"] = 0,
-									["amount"] = 3241,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 3241,
-							["school"] = 8,
-							["max"] = 3241,
-							["ishot"] = true,
-							["min"] = 3241,
-						},
-						[71866] = {
-							["overheal"] = 5675,
-							["max"] = 283,
-							["count"] = 21,
-							["amount"] = 283,
-							["school"] = 2,
-							["min"] = 283,
-							["ishot"] = true,
-							["targets"] = {
-								["Nalar"] = {
-									["overheal"] = 851,
-									["amount"] = 0,
-								},
-								["Warac"] = {
-									["overheal"] = 1419,
-									["amount"] = 0,
-								},
-								["Elunestrasza"] = {
-									["overheal"] = 851,
-									["amount"] = 0,
-								},
-								["Pompeu"] = {
-									["overheal"] = 1418,
-									["amount"] = 0,
-								},
-								["Hairypaladin"] = {
-									["overheal"] = 1136,
-									["amount"] = 283,
-								},
-							},
-						},
+					["ragespells"] = {
+						[48541] = 20,
 					},
 					["manaspells"] = {
 						[48542] = 400,
 					},
 					["mana"] = 400,
-					["ragespells"] = {
-						[48541] = 20,
-					},
 					["name"] = "Elunestrasza",
-					["totaldamage"] = 1959,
 					["rage"] = 20,
 					["heal"] = 19375,
 					["role"] = "HEALER",
@@ -6904,8 +7602,8 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Drakkari Shaman"] = {
-									["count"] = 4,
 									["refresh"] = 1,
+									["count"] = 4,
 									["uptime"] = 13,
 								},
 								["Risen Drakkari Warrior"] = {
@@ -6913,8 +7611,8 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Drakkari Guardian"] = {
-									["count"] = 3,
 									["refresh"] = 5,
+									["count"] = 3,
 									["uptime"] = 9,
 								},
 							},
@@ -6926,27 +7624,27 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[34123] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 18,
 						},
-						[71559] = {
+						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 15,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 5,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 						[25898] = {
@@ -6954,11 +7652,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[75456] = {
+						[71559] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 15,
+							["uptime"] = 8,
 						},
 						[59620] = {
 							["type"] = "BUFF",
@@ -6968,18 +7666,30 @@ SkadaStorageDB = {
 							["uptime"] = 17,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
 							["uptime"] = 13,
 						},
 						[46916] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 9,
 						},
 						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 34,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 33,
+						},
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 34,
@@ -6989,24 +7699,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 34,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["refresh"] = 5,
-							["school"] = 1,
-							["uptime"] = 33,
-						},
 					},
+					["totaldamage"] = 168212,
 					["time"] = 27.04,
 					["totaldamagetaken"] = 7285,
 					["damage"] = 168212,
 					["rage"] = 11,
-					["overheal"] = 368,
 					["damagetaken"] = 7285,
 					["id"] = "0x070000000060091D",
 					["spec"] = 72,
@@ -7058,19 +7756,20 @@ SkadaStorageDB = {
 							["hitamount"] = 3766,
 						},
 					},
-					["overkill"] = 8272,
 					["ragespells"] = {
 						[12964] = 11,
 					},
 					["name"] = "Warac",
+					["overheal"] = 368,
+					["overkill"] = 8272,
 					["heal"] = 2944,
 					["damagespells"] = {
 						["Bloodthirst"] = {
-							["hitmax"] = 3882,
+							["criticalmin"] = 7470,
 							["hitmin"] = 3882,
 							["criticalamount"] = 14940,
 							["id"] = 23881,
-							["count"] = 3,
+							["critical"] = 2,
 							["targets"] = {
 								["Drakkari Shaman"] = {
 									["overkill"] = 201,
@@ -7081,13 +7780,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 201,
-							["hit"] = 1,
-							["casts"] = 4,
-							["critical"] = 2,
 							["amount"] = 18822,
-							["school"] = 1,
-							["criticalmin"] = 7470,
 							["criticalmax"] = 7470,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3882,
+							["casts"] = 4,
 							["hitamount"] = 3882,
 						},
 						["Melee"] = {
@@ -7142,11 +7841,11 @@ SkadaStorageDB = {
 							["hitamount"] = 2816,
 						},
 						["Whirlwind"] = {
-							["count"] = 18,
+							["criticalmin"] = 4268,
 							["hitmin"] = 1790,
 							["criticalamount"] = 54334,
 							["id"] = 1680,
-							["hitmax"] = 3501,
+							["critical"] = 9,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["overkill"] = 2642,
@@ -7160,13 +7859,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 2642,
-							["hit"] = 9,
-							["casts"] = 3,
-							["critical"] = 9,
 							["amount"] = 77012,
-							["school"] = 1,
-							["criticalmin"] = 4268,
 							["criticalmax"] = 7830,
+							["hitmax"] = 3501,
+							["hit"] = 9,
+							["school"] = 1,
+							["count"] = 18,
+							["casts"] = 3,
 							["hitamount"] = 22678,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -7212,7 +7911,6 @@ SkadaStorageDB = {
 							["hitamount"] = 6978,
 						},
 					},
-					["totaldamage"] = 168212,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -7228,15 +7926,15 @@ SkadaStorageDB = {
 						[71432] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 8,
 							["school"] = 1,
+							["refresh"] = 8,
 							["uptime"] = 34,
 						},
 						[20053] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 11,
+							["type"] = "BUFF",
 							["uptime"] = 34,
+							["count"] = 1,
 						},
 						[48942] = {
 							["type"] = "BUFF",
@@ -7250,8 +7948,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Drakkari Commander"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 								["Drakkari Shaman"] = {
@@ -7259,13 +7957,13 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Risen Drakkari Warrior"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 4,
 								},
 								["Drakkari Guardian"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 4,
 								},
 							},
@@ -7295,9 +7993,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 5,
 						},
 						[72221] = {
@@ -7327,27 +8025,27 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 						[71401] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[34123] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 18,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[54428] = {
@@ -7366,28 +8064,34 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 15504,
 					["damage"] = 175233,
 					["damagespells"] = {
-						["Crusader Strike"] = {
-							["hitmin"] = 2014,
-							["criticalamount"] = 11294,
-							["id"] = 35395,
-							["criticalmin"] = 4766,
+						["Divine Storm"] = {
+							["hitmin"] = 2629,
+							["criticalamount"] = 32521,
+							["id"] = 53385,
+							["criticalmin"] = 5308,
 							["targets"] = {
+								["Drakkari Commander"] = {
+									["amount"] = 5308,
+								},
+								["Drakkari Shaman"] = {
+									["amount"] = 14000,
+								},
 								["Risen Drakkari Warrior"] = {
-									["amount"] = 4766,
+									["amount"] = 11764,
 								},
 								["Drakkari Guardian"] = {
-									["amount"] = 8542,
+									["amount"] = 15135,
 								},
 							},
-							["criticalmax"] = 6528,
-							["critical"] = 2,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 1,
+							["critical"] = 5,
+							["amount"] = 46207,
+							["criticalmax"] = 9698,
+							["count"] = 10,
+							["hit"] = 5,
 							["school"] = 1,
-							["hitmax"] = 2014,
-							["amount"] = 13308,
-							["hitamount"] = 2014,
+							["hitmax"] = 2850,
+							["casts"] = 3,
+							["hitamount"] = 13686,
 						},
 						["Exorcism"] = {
 							["criticalamount"] = 5311,
@@ -7462,34 +8166,28 @@ SkadaStorageDB = {
 							["amount"] = 2766,
 							["hitamount"] = 2766,
 						},
-						["Divine Storm"] = {
-							["hitmin"] = 2629,
-							["criticalamount"] = 32521,
-							["id"] = 53385,
-							["hitmax"] = 2850,
+						["Crusader Strike"] = {
+							["hitmin"] = 2014,
+							["criticalamount"] = 11294,
+							["id"] = 35395,
+							["criticalmin"] = 4766,
 							["targets"] = {
-								["Drakkari Commander"] = {
-									["amount"] = 5308,
-								},
-								["Drakkari Shaman"] = {
-									["amount"] = 14000,
-								},
 								["Risen Drakkari Warrior"] = {
-									["amount"] = 11764,
+									["amount"] = 4766,
 								},
 								["Drakkari Guardian"] = {
-									["amount"] = 15135,
+									["amount"] = 8542,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 5,
 							["casts"] = 3,
-							["critical"] = 5,
-							["amount"] = 46207,
+							["count"] = 3,
+							["criticalmax"] = 6528,
+							["hitmax"] = 2014,
+							["amount"] = 13308,
 							["school"] = 1,
-							["criticalmin"] = 5308,
-							["criticalmax"] = 9698,
-							["hitamount"] = 13686,
+							["hit"] = 1,
+							["critical"] = 2,
+							["hitamount"] = 2014,
 						},
 						["Seal of Command"] = {
 							["hitmin"] = 1210,
@@ -7514,24 +8212,48 @@ SkadaStorageDB = {
 							["resisted"] = 2027,
 							["criticalamount"] = 40716,
 							["id"] = 20424,
-							["count"] = 35,
-							["overkill"] = 515,
-							["blocked"] = 40,
 							["criticalmax"] = 3166,
-							["critical"] = 14,
+							["overkill"] = 515,
 							["hit"] = 21,
+							["casts"] = 1,
+							["critical"] = 14,
+							["blocked"] = 40,
 							["school"] = 2,
 							["hitmax"] = 1558,
-							["casts"] = 1,
+							["count"] = 35,
 							["hitamount"] = 30147,
 						},
+						["Manifest Anger"] = {
+							["criticalmin"] = 2432,
+							["hitmin"] = 1160,
+							["criticalamount"] = 2432,
+							["id"] = 71433,
+							["hit"] = 1,
+							["targets"] = {
+								["Drakkari Commander"] = {
+									["amount"] = 2432,
+								},
+								["Drakkari Guardian"] = {
+									["amount"] = 1160,
+								},
+							},
+							["critical"] = 1,
+							["blocked"] = 40,
+							["criticalmax"] = 2432,
+							["count"] = 2,
+							["amount"] = 3592,
+							["school"] = 1,
+							["hitmax"] = 1160,
+							["casts"] = 1,
+							["hitamount"] = 1160,
+						},
 						["Judgement of Command"] = {
-							["count"] = 3,
-							["hitmax"] = 2250,
+							["critical"] = 2,
+							["criticalmin"] = 3763,
 							["hitmin"] = 2250,
 							["criticalamount"] = 7899,
 							["id"] = 20467,
-							["hit"] = 1,
+							["count"] = 3,
 							["targets"] = {
 								["Drakkari Commander"] = {
 									["amount"] = 3763,
@@ -7545,47 +8267,26 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 870,
-							["criticalmin"] = 3763,
-							["casts"] = 1,
-							["critical"] = 2,
+							["hit"] = 1,
+							["criticalmax"] = 4136,
+							["hitmax"] = 2250,
 							["amount"] = 10149,
 							["school"] = 2,
 							["resisted"] = 877,
-							["criticalmax"] = 4136,
+							["casts"] = 1,
 							["hitamount"] = 2250,
 						},
-						["Manifest Anger"] = {
-							["blocked"] = 40,
-							["hitmin"] = 1160,
-							["criticalamount"] = 2432,
-							["id"] = 71433,
-							["hitmax"] = 1160,
-							["targets"] = {
-								["Drakkari Commander"] = {
-									["amount"] = 2432,
-								},
-								["Drakkari Guardian"] = {
-									["amount"] = 1160,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3592,
-							["school"] = 1,
-							["criticalmin"] = 2432,
-							["criticalmax"] = 2432,
-							["hitamount"] = 1160,
-						},
 					},
-					["overheal"] = 167,
 					["damagetaken"] = 15504,
 					["id"] = "0x07000000008E8B28",
 					["spec"] = 70,
 					["healspells"] = {
 						[54172] = {
 							["overheal"] = 167,
+							["max"] = 3759,
+							["count"] = 3,
+							["amount"] = 8362,
+							["school"] = 2,
 							["targets"] = {
 								["Pompeu"] = {
 									["overheal"] = 0,
@@ -7596,10 +8297,6 @@ SkadaStorageDB = {
 									["amount"] = 5237,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 8362,
-							["school"] = 2,
-							["max"] = 3759,
 							["ishot"] = true,
 							["min"] = 1478,
 						},
@@ -7664,9 +8361,10 @@ SkadaStorageDB = {
 							["hitamount"] = 3132,
 						},
 					},
-					["overkill"] = 4590,
 					["heal"] = 8362,
 					["name"] = "Hairypaladin",
+					["overheal"] = 167,
+					["overkill"] = 4590,
 					["totaldamage"] = 175233,
 					["manaspells"] = {
 						[31930] = 3294,
@@ -7679,9 +8377,10 @@ SkadaStorageDB = {
 			},
 			["type"] = "party",
 			["damagetaken"] = 40556,
-			["interrupt"] = 1,
 			["etotaldamage"] = 40556,
+			["interrupt"] = 1,
 			["rage"] = 76,
+			["ccdone"] = 4,
 			["overkill"] = 17124,
 			["edamagetaken"] = 533202,
 			["heal"] = 41528,
@@ -7691,11 +8390,9 @@ SkadaStorageDB = {
 			["edamage"] = 40556,
 			["last_action"] = 1700476401,
 			["endtime"] = 1700476401,
-		}, -- [3]
+		}, -- [5]
 		{
-			["damage"] = 297029,
 			["mana"] = 4199,
-			["ccdone"] = 5,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -7883,8 +8580,8 @@ SkadaStorageDB = {
 							["amount"] = 8610,
 						},
 					},
-					["name"] = "Risen Drakkari Soulmage",
 					["totaldamage"] = 25806,
+					["name"] = "Risen Drakkari Soulmage",
 					["totaldamagetaken"] = 48735,
 					["id"] = "0xF13000680C000081",
 					["damage"] = 23162,
@@ -7950,17 +8647,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 924,
 						},
-						[53385] = {
-							["school"] = 1,
-							["sources"] = {
-								["Hairypaladin"] = {
-									["overkill"] = 4263,
-									["amount"] = 8614,
-								},
-							},
-							["overkill"] = 4263,
-							["amount"] = 8614,
-						},
 						[35395] = {
 							["school"] = 1,
 							["sources"] = {
@@ -7972,6 +8658,17 @@ SkadaStorageDB = {
 							["overkill"] = 404,
 							["amount"] = 2245,
 						},
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Hairypaladin"] = {
+									["overkill"] = 4263,
+									["amount"] = 8614,
+								},
+							},
+							["overkill"] = 4263,
+							["amount"] = 8614,
+						},
 						[47520] = {
 							["school"] = 1,
 							["sources"] = {
@@ -7982,8 +8679,8 @@ SkadaStorageDB = {
 							["amount"] = 2967,
 						},
 					},
-					["name"] = "Drakkari Guardian",
 					["totaldamage"] = 1788,
+					["name"] = "Drakkari Guardian",
 					["totaldamagetaken"] = 29297,
 					["id"] = "0xF1300067FC000068",
 					["damage"] = 1788,
@@ -8007,14 +8704,14 @@ SkadaStorageDB = {
 					["id"] = "0xF1300068CE000096",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[23881] = {
+						[47520] = {
 							["school"] = 1,
 							["sources"] = {
-								["Warac"] = {
-									["amount"] = 3207,
+								["Pompeu"] = {
+									["amount"] = 2072,
 								},
 							},
-							["amount"] = 3207,
+							["amount"] = 2072,
 						},
 						[12721] = {
 							["school"] = 1,
@@ -8046,23 +8743,25 @@ SkadaStorageDB = {
 							},
 							["amount"] = 18212,
 						},
-						[63675] = {
+						[48300] = {
 							["school"] = 32,
 							["sources"] = {
 								["Nalar"] = {
-									["amount"] = 4678,
+									["overkill"] = 4073,
+									["amount"] = 15882,
 								},
 							},
-							["amount"] = 4678,
+							["overkill"] = 4073,
+							["amount"] = 15882,
 						},
-						[47520] = {
+						[1680] = {
 							["school"] = 1,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 2072,
+								["Warac"] = {
+									["amount"] = 6951,
 								},
 							},
-							["amount"] = 2072,
+							["amount"] = 6951,
 						},
 						[58381] = {
 							["school"] = 32,
@@ -8082,14 +8781,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1991,
 						},
-						[1680] = {
+						[23881] = {
 							["school"] = 1,
 							["sources"] = {
 								["Warac"] = {
-									["amount"] = 6951,
+									["amount"] = 3207,
 								},
 							},
-							["amount"] = 6951,
+							["amount"] = 3207,
 						},
 						[48160] = {
 							["school"] = 32,
@@ -8145,16 +8844,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3848,
 						},
-						[48300] = {
+						[63675] = {
 							["school"] = 32,
 							["sources"] = {
 								["Nalar"] = {
-									["overkill"] = 4073,
-									["amount"] = 15882,
+									["amount"] = 4678,
 								},
 							},
-							["overkill"] = 4073,
-							["amount"] = 15882,
+							["amount"] = 4678,
 						},
 					},
 					["totaldamage"] = 8963,
@@ -8227,8 +8924,8 @@ SkadaStorageDB = {
 							["amount"] = 2896,
 						},
 					},
-					["name"] = "Drakkari Shaman",
 					["totaldamage"] = 2336,
+					["name"] = "Drakkari Shaman",
 					["totaldamagetaken"] = 24165,
 					["id"] = "0xF13000680F00008D",
 					["damage"] = 2336,
@@ -8306,14 +9003,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4957,
 						},
-						[61840] = {
-							["school"] = 2,
+						[1680] = {
+							["school"] = 1,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 713,
+								["Warac"] = {
+									["amount"] = 10539,
 								},
 							},
-							["amount"] = 713,
+							["amount"] = 10539,
 						},
 						[44949] = {
 							["school"] = 1,
@@ -8324,14 +9021,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 9166,
 						},
-						[1680] = {
+						[47502] = {
 							["school"] = 1,
 							["sources"] = {
-								["Warac"] = {
-									["amount"] = 10539,
+								["Pompeu"] = {
+									["overkill"] = 1129,
+									["amount"] = 4995,
 								},
 							},
-							["amount"] = 10539,
+							["overkill"] = 1129,
+							["amount"] = 4995,
 						},
 						[35395] = {
 							["school"] = 1,
@@ -8369,17 +9068,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 5191,
 						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Pompeu"] = {
-									["overkill"] = 1129,
-									["amount"] = 4995,
-								},
-							},
-							["overkill"] = 1129,
-							["amount"] = 4995,
-						},
 						[53022] = {
 							["school"] = 32,
 							["sources"] = {
@@ -8391,6 +9079,15 @@ SkadaStorageDB = {
 							["overkill"] = 2304,
 							["amount"] = 27741,
 						},
+						[61840] = {
+							["school"] = 2,
+							["sources"] = {
+								["Hairypaladin"] = {
+									["amount"] = 713,
+								},
+							},
+							["amount"] = 713,
+						},
 						[20467] = {
 							["school"] = 2,
 							["sources"] = {
@@ -8401,13 +9098,14 @@ SkadaStorageDB = {
 							["amount"] = 2436,
 						},
 					},
-					["name"] = "Risen Drakkari Warrior",
 					["totaldamage"] = 4697,
+					["name"] = "Risen Drakkari Warrior",
 					["totaldamagetaken"] = 88666,
 					["id"] = "0xF13000680B000045",
 					["damage"] = 4697,
 				}, -- [5]
 			},
+			["damage"] = 297029,
 			["totaldamage"] = 297029,
 			["time"] = 21,
 			["etotaldamage"] = 43590,
@@ -8421,9 +9119,9 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 20,
 						},
 						[15473] = {
@@ -8437,9 +9135,9 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48942] = {
@@ -8469,22 +9167,22 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Risen Drakkari Death Knight"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 9,
 								},
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 3,
 								},
 							},
 							["count"] = 2,
 						},
 						[47585] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 2,
 						},
 						[48300] = {
@@ -8506,31 +9204,10 @@ SkadaStorageDB = {
 							["refresh"] = 15,
 							["uptime"] = 20,
 						},
-						[53023] = {
-							["type"] = "DEBUFF",
+						[48074] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Risen Drakkari Death Knight"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 7,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Risen Drakkari Death Knight"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["count"] = 1,
+							["uptime"] = 21,
 						},
 						[48160] = {
 							["type"] = "DEBUFF",
@@ -8544,6 +9221,18 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 9,
 						},
+						[53023] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Risen Drakkari Death Knight"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
 						[6788] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -8556,6 +9245,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 14,
 						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
 						[61792] = {
 							["type"] = "BUFF",
 							["count"] = 2,
@@ -8563,15 +9257,10 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["uptime"] = 18,
 						},
-						[57669] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
 						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[72221] = {
@@ -8583,23 +9272,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
-						},
-						[67016] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[15271] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 2,
-							["uptime"] = 7,
 						},
 						[48156] = {
 							["type"] = "BUFF",
@@ -8616,6 +9288,32 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 4,
+						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[15271] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 2,
+							["uptime"] = 7,
+						},
+						[48125] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 7,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Risen Drakkari Death Knight"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 7,
+								},
+							},
+							["count"] = 1,
 						},
 					},
 					["absorbspells"] = {
@@ -8637,12 +9335,12 @@ SkadaStorageDB = {
 					["damage"] = 110765,
 					["damagespells"] = {
 						["Mind Sear"] = {
-							["count"] = 14,
 							["criticalmin"] = 4221,
+							["hitmax"] = 2916,
 							["hitmin"] = 2244,
 							["criticalamount"] = 17309,
 							["id"] = 53022,
-							["hitmax"] = 2916,
+							["count"] = 14,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["overkill"] = 2304,
@@ -8658,12 +9356,12 @@ SkadaStorageDB = {
 							},
 							["overkill"] = 3307,
 							["hit"] = 10,
-							["casts"] = 1,
+							["criticalmax"] = 4498,
 							["critical"] = 4,
 							["amount"] = 44080,
 							["school"] = 32,
 							["resisted"] = 1394,
-							["criticalmax"] = 4498,
+							["casts"] = 1,
 							["hitamount"] = 26771,
 						},
 						["Vampiric Touch (DoT)"] = {
@@ -8676,13 +9374,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 6819,
-							["critical"] = 1,
-							["criticalmax"] = 6819,
 							["count"] = 4,
-							["hit"] = 3,
+							["criticalmax"] = 6819,
+							["critical"] = 1,
+							["amount"] = 16607,
 							["school"] = 32,
 							["hitmax"] = 3263,
-							["amount"] = 16607,
+							["hit"] = 3,
 							["hitamount"] = 9788,
 						},
 						["Devouring Plague (DoT)"] = {
@@ -8716,14 +9414,14 @@ SkadaStorageDB = {
 									["amount"] = 12513,
 								},
 							},
-							["criticalmax"] = 6893,
-							["critical"] = 2,
 							["casts"] = 3,
 							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 32,
+							["criticalmax"] = 6893,
 							["hitmax"] = 3132,
 							["amount"] = 25670,
+							["school"] = 32,
+							["hit"] = 6,
+							["critical"] = 2,
 							["hitamount"] = 14564,
 						},
 						["Shadow Word: Pain (DoT)"] = {
@@ -8765,11 +9463,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 28276,
-							["max"] = 384,
+							["school"] = 32,
 							["count"] = 95,
 							["amount"] = 4220,
-							["school"] = 32,
-							["min"] = 103,
+							["max"] = 384,
 							["ishot"] = true,
 							["targets"] = {
 								["Pompeu"] = {
@@ -8793,6 +9490,7 @@ SkadaStorageDB = {
 									["amount"] = 670,
 								},
 							},
+							["min"] = 103,
 						},
 						[75999] = {
 							["overheal"] = 571,
@@ -8863,10 +9561,10 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 21,
+							["count"] = 1,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -8874,9 +9572,9 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[12721] = {
@@ -8916,8 +9614,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 6,
 								},
 								["Drakkari Shaman"] = {
@@ -8929,8 +9627,8 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Risen Drakkari Death Knight"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 8,
 								},
 							},
@@ -8985,10 +9683,10 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[57516] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 5,
+							["type"] = "BUFF",
 							["uptime"] = 21,
+							["count"] = 1,
 						},
 					},
 					["role"] = "TANK",
@@ -9022,11 +9720,11 @@ SkadaStorageDB = {
 							["hitamount"] = 23085,
 						},
 						["Thunder Clap"] = {
-							["criticalmax"] = 2035,
-							["hitmin"] = 925,
 							["criticalamount"] = 4070,
-							["id"] = 47502,
+							["hitmin"] = 925,
 							["criticalmin"] = 2035,
+							["id"] = 47502,
+							["casts"] = 2,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["overkill"] = 1129,
@@ -9043,13 +9741,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1129,
-							["critical"] = 2,
-							["casts"] = 2,
 							["count"] = 7,
-							["hit"] = 5,
-							["school"] = 1,
+							["criticalmax"] = 2035,
 							["hitmax"] = 1534,
 							["amount"] = 9915,
+							["school"] = 1,
+							["hit"] = 5,
+							["critical"] = 2,
 							["hitamount"] = 5845,
 						},
 						["Melee"] = {
@@ -9086,14 +9784,14 @@ SkadaStorageDB = {
 									["amount"] = 2072,
 								},
 							},
-							["criticalmax"] = 2967,
-							["critical"] = 2,
 							["casts"] = 3,
 							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 1,
+							["criticalmax"] = 2967,
 							["hitmax"] = 1515,
 							["amount"] = 8768,
+							["school"] = 1,
+							["hit"] = 3,
+							["critical"] = 2,
 							["hitamount"] = 3729,
 						},
 						["Damage Shield"] = {
@@ -9173,24 +9871,12 @@ SkadaStorageDB = {
 					["id"] = "0x070000000098E3C3",
 					["spec"] = 73,
 					["damagetakenspells"] = {
-						["Hamstring"] = {
-							["sources"] = {
-								["Drakkari Guardian"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 9080,
-						},
 						["Melee"] = {
 							["DODGE"] = 3,
 							["hitmin"] = 1523,
 							["id"] = 6603,
-							["blocked"] = 1727,
 							["BLOCK"] = 1,
+							["hit"] = 5,
 							["sources"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 4697,
@@ -9206,11 +9892,26 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 9,
-							["hit"] = 5,
+							["amount"] = 8105,
 							["school"] = 1,
 							["hitmax"] = 1788,
-							["amount"] = 8105,
+							["blocked"] = 1727,
 							["hitamount"] = 8105,
+						},
+						["Knockdown"] = {
+							["hitmin"] = 112,
+							["id"] = 35011,
+							["sources"] = {
+								["Risen Drakkari Soulmage"] = {
+									["amount"] = 112,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 112,
+							["amount"] = 112,
+							["hitamount"] = 112,
 						},
 						["Shadow Blast"] = {
 							["hitmin"] = 3336,
@@ -9272,20 +9973,17 @@ SkadaStorageDB = {
 							["amount"] = 2336,
 							["hitamount"] = 2336,
 						},
-						["Knockdown"] = {
-							["hitmin"] = 112,
-							["id"] = 35011,
+						["Hamstring"] = {
 							["sources"] = {
-								["Risen Drakkari Soulmage"] = {
-									["amount"] = 112,
+								["Drakkari Guardian"] = {
+									["amount"] = 0,
 								},
 							},
 							["count"] = 1,
-							["hit"] = 1,
+							["amount"] = 0,
 							["school"] = 1,
-							["hitmax"] = 112,
-							["amount"] = 112,
-							["hitamount"] = 112,
+							["MISS"] = 1,
+							["id"] = 9080,
 						},
 					},
 					["ragespells"] = {
@@ -9332,31 +10030,31 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[71184] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 25,
-							["uptime"] = 21,
-						},
 						[57669] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 20,
-						},
 						[67750] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 2,
 							["school"] = 1,
+							["refresh"] = 2,
 							["uptime"] = 21,
 						},
-						[48942] = {
+						[71184] = {
+							["refresh"] = 25,
+							["type"] = "BUFF",
+							["uptime"] = 21,
+							["count"] = 1,
+						},
+						[48441] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 20,
+							["count"] = 1,
+						},
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
@@ -9366,12 +10064,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[48162] = {
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 18.97,
 					["totaldamagetaken"] = 9850,
 					["rage"] = 16,
@@ -9409,11 +10108,10 @@ SkadaStorageDB = {
 						},
 						[53251] = {
 							["overheal"] = 12885,
-							["max"] = 1087,
+							["school"] = 8,
 							["count"] = 28,
 							["amount"] = 15307,
-							["school"] = 8,
-							["min"] = 336,
+							["max"] = 1087,
 							["ishot"] = true,
 							["targets"] = {
 								["Pompeu"] = {
@@ -9433,6 +10131,7 @@ SkadaStorageDB = {
 									["amount"] = 2861,
 								},
 							},
+							["min"] = 336,
 						},
 					},
 					["damagetakenspells"] = {
@@ -9484,17 +10183,16 @@ SkadaStorageDB = {
 							["hitamount"] = 4282,
 						},
 					},
+					["heal"] = 45094,
 					["manaspells"] = {
 						[48542] = 280,
 					},
-					["heal"] = 45094,
 					["name"] = "Elunestrasza",
 					["mana"] = 280,
 					["overheal"] = 60780,
 					["ragespells"] = {
 						[48541] = 16,
 					},
-					["role"] = "HEALER",
 				}, -- [3]
 				{
 					["last"] = 12016.008,
@@ -9527,8 +10225,8 @@ SkadaStorageDB = {
 									["count"] = 2,
 								},
 								["Risen Drakkari Death Knight"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 7,
 								},
 							},
@@ -9545,34 +10243,34 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[55775] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
+						[12970] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 21,
+						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 17,
-						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
 						},
 						[72412] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[12970] = {
+						[75456] = {
 							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["uptime"] = 21,
+							["count"] = 1,
+							["uptime"] = 11,
 						},
-						[48942] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
@@ -9582,12 +10280,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[48162] = {
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
 					},
+					["totaldamage"] = 65601,
 					["time"] = 15.1,
 					["damage"] = 65601,
 					["damagespells"] = {
@@ -9656,7 +10355,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1991,
 							["criticalamount"] = 23482,
 							["id"] = 1680,
-							["hitmax"] = 3174,
+							["criticalmin"] = 4582,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 19705,
@@ -9665,14 +10364,14 @@ SkadaStorageDB = {
 									["amount"] = 8942,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 2,
-							["casts"] = 1,
 							["critical"] = 4,
 							["amount"] = 28647,
-							["school"] = 1,
-							["criticalmin"] = 4582,
 							["criticalmax"] = 7365,
+							["count"] = 6,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3174,
+							["casts"] = 1,
 							["hitamount"] = 5165,
 						},
 						["Melee"] = {
@@ -9720,14 +10419,13 @@ SkadaStorageDB = {
 						},
 					},
 					["overkill"] = 3833,
-					["overheal"] = 2208,
 					["ragespells"] = {
 						[12964] = 7,
 					},
 					["name"] = "Warac",
+					["overheal"] = 2208,
 					["heal"] = 0,
 					["rage"] = 7,
-					["totaldamage"] = 65601,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -9741,28 +10439,20 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
-						[54428] = {
+						[71401] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 1,
+							["uptime"] = 12,
 						},
-						[61840] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Risen Drakkari Warrior"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
 						},
 						[20186] = {
 							["type"] = "DEBUFF",
@@ -9776,19 +10466,40 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[71401] = {
+						[54428] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 1,
 						},
-						[71432] = {
+						[53251] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 3,
-							["school"] = 1,
-							["uptime"] = 13,
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[48934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[61840] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["targets"] = {
+								["Risen Drakkari Warrior"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[20375] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
@@ -9805,12 +10516,13 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[59620] = {
+						[20053] = {
+							["refresh"] = 5,
 							["type"] = "BUFF",
+							["uptime"] = 21,
 							["count"] = 1,
-							["uptime"] = 13,
 						},
-						[20375] = {
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
@@ -9822,26 +10534,12 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 7,
 						},
-						[48934] = {
+						[71432] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[20053] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 21,
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 13,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -9849,21 +10547,20 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 14974,
 					["damage"] = 70317,
 					["damagespells"] = {
-						["Judgement of Command"] = {
-							["hitmin"] = 2436,
-							["id"] = 20467,
+						["Melee"] = {
+							["hitmin"] = 2605,
+							["id"] = 6603,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["amount"] = 2436,
+									["amount"] = 2605,
 								},
 							},
-							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2436,
-							["amount"] = 2436,
-							["hitamount"] = 2436,
+							["school"] = 1,
+							["hitmax"] = 2605,
+							["amount"] = 2605,
+							["hitamount"] = 2605,
 						},
 						["Exorcism"] = {
 							["criticalamount"] = 4957,
@@ -9882,11 +10579,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 						},
 						["Divine Storm"] = {
-							["count"] = 5,
+							["criticalmin"] = 5191,
 							["hitmin"] = 2840,
 							["criticalamount"] = 20572,
 							["id"] = 53385,
-							["hitmax"] = 4103,
+							["critical"] = 3,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 5191,
@@ -9906,52 +10603,37 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 4263,
-							["hit"] = 2,
-							["casts"] = 2,
-							["critical"] = 3,
 							["amount"] = 27515,
-							["school"] = 1,
-							["criticalmin"] = 5191,
 							["criticalmax"] = 8614,
+							["hitmax"] = 4103,
+							["hit"] = 2,
+							["school"] = 1,
+							["count"] = 5,
+							["casts"] = 2,
 							["hitamount"] = 6943,
 						},
-						["Melee"] = {
-							["hitmin"] = 2605,
-							["id"] = 6603,
+						["Judgement of Command"] = {
+							["hitmin"] = 2436,
+							["id"] = 20467,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["amount"] = 2605,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2605,
-							["amount"] = 2605,
-							["hitamount"] = 2605,
-						},
-						["Manifest Anger"] = {
-							["criticalamount"] = 2772,
-							["id"] = 71433,
-							["targets"] = {
-								["Risen Drakkari Soulmage"] = {
-									["amount"] = 2772,
+									["amount"] = 2436,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2772,
-							["school"] = 1,
-							["criticalmin"] = 2772,
-							["criticalmax"] = 2772,
 							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 2436,
+							["amount"] = 2436,
+							["hitamount"] = 2436,
 						},
 						["Seal of Command"] = {
 							["criticalmin"] = 2887,
 							["hitmin"] = 1116,
 							["criticalamount"] = 11980,
 							["id"] = 20424,
-							["hitmax"] = 1698,
+							["count"] = 11,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 6756,
@@ -9963,15 +10645,40 @@ SkadaStorageDB = {
 									["amount"] = 8866,
 								},
 							},
-							["count"] = 11,
+							["hitmax"] = 1698,
 							["hit"] = 7,
-							["casts"] = 1,
+							["criticalmax"] = 3114,
 							["critical"] = 4,
 							["amount"] = 22131,
 							["school"] = 2,
 							["resisted"] = 1078,
-							["criticalmax"] = 3114,
+							["casts"] = 1,
 							["hitamount"] = 10151,
+						},
+						["Crusader Strike"] = {
+							["criticalmin"] = 4047,
+							["hitmin"] = 2245,
+							["criticalamount"] = 4047,
+							["id"] = 35395,
+							["casts"] = 2,
+							["targets"] = {
+								["Risen Drakkari Warrior"] = {
+									["amount"] = 4047,
+								},
+								["Drakkari Guardian"] = {
+									["overkill"] = 404,
+									["amount"] = 2245,
+								},
+							},
+							["overkill"] = 404,
+							["count"] = 2,
+							["criticalmax"] = 4047,
+							["hitmax"] = 2245,
+							["amount"] = 6292,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
+							["hitamount"] = 2245,
 						},
 						["Righteous Vengeance (DoT)"] = {
 							["hitmin"] = 312,
@@ -9991,33 +10698,23 @@ SkadaStorageDB = {
 							["amount"] = 1609,
 							["hitamount"] = 1609,
 						},
-						["Crusader Strike"] = {
-							["criticalmin"] = 4047,
-							["hitmin"] = 2245,
-							["criticalamount"] = 4047,
-							["id"] = 35395,
-							["criticalmax"] = 4047,
+						["Manifest Anger"] = {
+							["criticalamount"] = 2772,
+							["id"] = 71433,
 							["targets"] = {
-								["Risen Drakkari Warrior"] = {
-									["amount"] = 4047,
-								},
-								["Drakkari Guardian"] = {
-									["overkill"] = 404,
-									["amount"] = 2245,
+								["Risen Drakkari Soulmage"] = {
+									["amount"] = 2772,
 								},
 							},
-							["overkill"] = 404,
+							["casts"] = 1,
 							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
+							["amount"] = 2772,
 							["school"] = 1,
-							["hitmax"] = 2245,
-							["amount"] = 6292,
-							["hitamount"] = 2245,
+							["criticalmin"] = 2772,
+							["criticalmax"] = 2772,
+							["count"] = 1,
 						},
 					},
-					["overkill"] = 4667,
 					["damagetaken"] = 14974,
 					["id"] = "0x07000000008E8B28",
 					["spec"] = 70,
@@ -10037,6 +10734,9 @@ SkadaStorageDB = {
 							["min"] = 3357,
 						},
 					},
+					["overkill"] = 4667,
+					["heal"] = 3357,
+					["name"] = "Hairypaladin",
 					["damagetakenspells"] = {
 						["Blood Siphon"] = {
 							["hitmin"] = 4211,
@@ -10068,18 +10768,6 @@ SkadaStorageDB = {
 							["amount"] = 4681,
 							["hitamount"] = 4681,
 						},
-						["Hamstring"] = {
-							["sources"] = {
-								["Drakkari Guardian"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 9080,
-						},
 						["Shadow Void (DoT)"] = {
 							["hitmin"] = 3041,
 							["id"] = 59014,
@@ -10095,10 +10783,20 @@ SkadaStorageDB = {
 							["amount"] = 6082,
 							["hitamount"] = 6082,
 						},
+						["Hamstring"] = {
+							["sources"] = {
+								["Drakkari Guardian"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["MISS"] = 1,
+							["id"] = 9080,
+						},
 					},
 					["overheal"] = 0,
-					["heal"] = 3357,
-					["name"] = "Hairypaladin",
 					["manaspells"] = {
 						[31930] = 1098,
 						[57669] = 2560,
@@ -10112,6 +10810,7 @@ SkadaStorageDB = {
 			["damagetaken"] = 40946,
 			["rage"] = 48,
 			["absorb"] = 2644,
+			["ccdone"] = 5,
 			["overheal"] = 94163,
 			["overkill"] = 17009,
 			["edamagetaken"] = 297029,
@@ -10122,10 +10821,9 @@ SkadaStorageDB = {
 			["edamage"] = 40946,
 			["last_action"] = 1700476361,
 			["endtime"] = 1700476361,
-		}, -- [4]
+		}, -- [6]
 		{
 			["mana"] = 4636,
-			["damage"] = 135612,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -10342,19 +11040,19 @@ SkadaStorageDB = {
 							["amount"] = 5010,
 						},
 					},
-					["name"] = "Risen Drakkari Handler",
 					["totaldamage"] = 8254,
+					["name"] = "Risen Drakkari Handler",
 					["totaldamagetaken"] = 109467,
 					["id"] = "0xF13000680D000084",
 					["damage"] = 7401,
 				}, -- [1]
 				{
-					["id"] = "0xF1300068C80000C2",
-					["name"] = "Drakkari Raptor Mount",
-					["totaldamagetaken"] = 26145,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
 					["damagetaken"] = 26145,
+					["name"] = "Drakkari Raptor Mount",
+					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 26145,
+					["id"] = "0xF1300068C80000C2",
 					["damagetakenspells"] = {
 						[1680] = {
 							["school"] = 1,
@@ -10408,7 +11106,7 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 135612,
 			["time"] = 11,
-			["absorb"] = 853,
+			["damage"] = 135612,
 			["totaldamagetaken"] = 8254,
 			["etotaldamagetaken"] = 135612,
 			["last_time"] = 11972.625,
@@ -10434,16 +11132,16 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 6,
 						},
 						[15258] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 7,
+							["type"] = "BUFF",
 							["uptime"] = 11,
+							["count"] = 1,
 						},
 						[25898] = {
 							["type"] = "BUFF",
@@ -10462,12 +11160,39 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Risen Drakkari Handler"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 							},
 							["uptime"] = 4,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[59000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["uptime"] = 4,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
 						},
 						[48156] = {
 							["type"] = "BUFF",
@@ -10481,33 +11206,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[59000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 1,
-							["uptime"] = 4,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[57669] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[48074] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
 						[61792] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -10515,12 +11213,12 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["uptime"] = 10,
 						},
-						[67016] = {
+						[15286] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[48942] = {
+						[67016] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -10548,6 +11246,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
+					["totaldamage"] = 24210,
 					["time"] = 7.289999999999999,
 					["totaldamagetaken"] = 853,
 					["damage"] = 24210,
@@ -10557,7 +11256,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1984,
 							["criticalamount"] = 3409,
 							["id"] = 53022,
-							["hitmax"] = 1984,
+							["count"] = 2,
 							["targets"] = {
 								["Risen Drakkari Handler"] = {
 									["amount"] = 1984,
@@ -10566,14 +11265,14 @@ SkadaStorageDB = {
 									["amount"] = 3409,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 1984,
 							["hit"] = 1,
-							["casts"] = 1,
+							["criticalmax"] = 3409,
 							["critical"] = 1,
 							["amount"] = 5393,
 							["school"] = 32,
 							["resisted"] = 220,
-							["criticalmax"] = 3409,
+							["casts"] = 1,
 							["hitamount"] = 1984,
 						},
 						["Mind Flay"] = {
@@ -10581,20 +11280,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1885,
 							["criticalamount"] = 12726,
 							["id"] = 58381,
-							["criticalmax"] = 4395,
+							["hitmax"] = 2103,
 							["targets"] = {
 								["Risen Drakkari Handler"] = {
 									["amount"] = 18817,
 								},
 							},
 							["critical"] = 3,
-							["hitmax"] = 2103,
+							["hit"] = 3,
 							["casts"] = 3,
 							["count"] = 6,
-							["hit"] = 3,
+							["amount"] = 18817,
 							["school"] = 32,
 							["resisted"] = 648,
-							["amount"] = 18817,
+							["criticalmax"] = 4395,
 							["hitamount"] = 6091,
 						},
 					},
@@ -10605,11 +11304,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 8607,
-							["max"] = 245,
+							["school"] = 32,
 							["count"] = 30,
 							["amount"] = 826,
-							["school"] = 32,
-							["min"] = 117,
+							["max"] = 245,
 							["ishot"] = true,
 							["targets"] = {
 								["Pompeu"] = {
@@ -10633,6 +11331,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
+							["min"] = 117,
 						},
 					},
 					["damagetakenspells"] = {
@@ -10654,7 +11353,6 @@ SkadaStorageDB = {
 					["heal"] = 826,
 					["name"] = "Nalar",
 					["overheal"] = 8607,
-					["totaldamage"] = 24210,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -10668,10 +11366,10 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[57516] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 2,
+							["type"] = "BUFF",
 							["uptime"] = 11,
+							["count"] = 1,
 						},
 						[18498] = {
 							["type"] = "DEBUFF",
@@ -10686,9 +11384,9 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 6,
 						},
 						[25898] = {
@@ -10697,22 +11395,10 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Risen Drakkari Handler"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
@@ -10726,12 +11412,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[48942] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -10741,10 +11432,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[48162] = {
-							["type"] = "BUFF",
+						[355] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["school"] = 1,
+							["targets"] = {
+								["Risen Drakkari Handler"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
 						},
 					},
 					["role"] = "TANK",
@@ -10925,9 +11623,9 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 6,
 						},
 						[25898] = {
@@ -10945,28 +11643,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[67750] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
 						[57669] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[67750] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[71184] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -10976,7 +11664,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 					},
+					["totaldamage"] = 559,
 					["time"] = 8.470000000000001,
 					["damage"] = 559,
 					["overheal"] = 26319,
@@ -10985,11 +11684,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[53251] = {
 							["overheal"] = 26319,
-							["max"] = 1151,
+							["school"] = 8,
 							["count"] = 30,
 							["amount"] = 6207,
-							["school"] = 8,
-							["min"] = 65,
+							["max"] = 1151,
 							["ishot"] = true,
 							["targets"] = {
 								["Pompeu"] = {
@@ -11013,13 +11711,14 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
+							["min"] = 65,
 						},
 					},
+					["heal"] = 6207,
 					["manaspells"] = {
 						[48542] = 581,
 						[55767] = 400,
 					},
-					["heal"] = 6207,
 					["name"] = "Elunestrasza",
 					["mana"] = 981,
 					["damagespells"] = {
@@ -11039,7 +11738,6 @@ SkadaStorageDB = {
 							["hitamount"] = 559,
 						},
 					},
-					["totaldamage"] = 559,
 					["role"] = "HEALER",
 				}, -- [3]
 				{
@@ -11059,8 +11757,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Risen Drakkari Handler"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 6,
 								},
 							},
@@ -11072,9 +11770,9 @@ SkadaStorageDB = {
 							["uptime"] = 11,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 6,
 						},
 						[25898] = {
@@ -11090,35 +11788,35 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[23885] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 2,
-						},
-						[71560] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
 						},
 						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[71560] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[12970] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 11,
+							["count"] = 1,
+						},
 						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[12970] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 1,
 							["uptime"] = 11,
 						},
 					},
@@ -11127,6 +11825,31 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 4942,
 					["damage"] = 51985,
 					["damagespells"] = {
+						["Whirlwind"] = {
+							["criticalmin"] = 4282,
+							["hitmin"] = 2046,
+							["criticalamount"] = 19316,
+							["id"] = 1680,
+							["critical"] = 3,
+							["targets"] = {
+								["Risen Drakkari Handler"] = {
+									["amount"] = 17095,
+								},
+								["Drakkari Raptor Mount"] = {
+									["overkill"] = 2084,
+									["amount"] = 10261,
+								},
+							},
+							["overkill"] = 2084,
+							["amount"] = 27356,
+							["criticalmax"] = 7646,
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 3121,
+							["casts"] = 1,
+							["hitamount"] = 8040,
+						},
 						["Bloodthirst"] = {
 							["criticalamount"] = 7654,
 							["id"] = 23881,
@@ -11142,46 +11865,6 @@ SkadaStorageDB = {
 							["criticalmin"] = 7654,
 							["criticalmax"] = 7654,
 							["count"] = 1,
-						},
-						["Whirlwind"] = {
-							["hitmax"] = 3121,
-							["hitmin"] = 2046,
-							["criticalamount"] = 19316,
-							["id"] = 1680,
-							["count"] = 6,
-							["targets"] = {
-								["Risen Drakkari Handler"] = {
-									["amount"] = 17095,
-								},
-								["Drakkari Raptor Mount"] = {
-									["overkill"] = 2084,
-									["amount"] = 10261,
-								},
-							},
-							["overkill"] = 2084,
-							["hit"] = 3,
-							["casts"] = 1,
-							["critical"] = 3,
-							["amount"] = 27356,
-							["school"] = 1,
-							["criticalmin"] = 4282,
-							["criticalmax"] = 7646,
-							["hitamount"] = 8040,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 166,
-							["id"] = 12721,
-							["targets"] = {
-								["Risen Drakkari Handler"] = {
-									["amount"] = 4258,
-								},
-							},
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 1,
-							["hitmax"] = 610,
-							["amount"] = 4258,
-							["hitamount"] = 4258,
 						},
 						["Melee"] = {
 							["glance"] = 1534,
@@ -11206,33 +11889,48 @@ SkadaStorageDB = {
 							["count"] = 5,
 							["hitamount"] = 5920,
 						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 166,
+							["id"] = 12721,
+							["targets"] = {
+								["Risen Drakkari Handler"] = {
+									["amount"] = 4258,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 610,
+							["amount"] = 4258,
+							["hitamount"] = 4258,
+						},
 					},
-					["heal"] = 368,
 					["damagetaken"] = 4942,
 					["id"] = "0x070000000060091D",
 					["spec"] = 72,
 					["healspells"] = {
 						[23880] = {
 							["overheal"] = 736,
-							["max"] = 368,
 							["count"] = 3,
 							["amount"] = 368,
+							["max"] = 368,
 							["school"] = 1,
-							["min"] = 368,
 							["targets"] = {
 								["Warac"] = {
 									["overheal"] = 736,
 									["amount"] = 368,
 								},
 							},
+							["min"] = 368,
 						},
 					},
 					["overkill"] = 2084,
+					["heal"] = 368,
+					["name"] = "Warac",
 					["overheal"] = 736,
 					["ragespells"] = {
 						[12964] = 4,
 					},
-					["name"] = "Warac",
 					["rage"] = 4,
 					["damagetakenspells"] = {
 						["Shoot"] = {
@@ -11297,27 +11995,21 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[71432] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 4,
+							["type"] = "BUFF",
 							["uptime"] = 10,
+							["count"] = 1,
 						},
 						[57669] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[54499] = {
-							["type"] = "DEBUFF",
+						[53251] = {
+							["school"] = 8,
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Risen Drakkari Handler"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 6,
 						},
 						[61840] = {
 							["type"] = "DEBUFF",
@@ -11336,16 +12028,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[53251] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
 						[20053] = {
+							["refresh"] = 3,
+							["type"] = "BUFF",
+							["uptime"] = 11,
+							["count"] = 1,
+						},
+						[48934] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 3,
 							["uptime"] = 11,
 						},
 						[48942] = {
@@ -11353,19 +12044,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[48934] = {
-							["type"] = "BUFF",
+						[54499] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["school"] = 2,
+							["targets"] = {
+								["Risen Drakkari Handler"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 						[59578] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 1,
 							["school"] = 1,
+							["refresh"] = 1,
 							["uptime"] = 3,
 						},
 					},
+					["totaldamage"] = 47442,
 					["time"] = 9.059999999999999,
 					["damage"] = 47442,
 					["damagespells"] = {
@@ -11389,7 +12088,7 @@ SkadaStorageDB = {
 							["hitmin"] = 2685,
 							["criticalamount"] = 17115,
 							["id"] = 53385,
-							["hitmax"] = 2685,
+							["criticalmin"] = 5584,
 							["targets"] = {
 								["Risen Drakkari Handler"] = {
 									["amount"] = 11380,
@@ -11398,15 +12097,39 @@ SkadaStorageDB = {
 									["amount"] = 8420,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 3,
 							["amount"] = 19800,
-							["school"] = 1,
-							["criticalmin"] = 5584,
 							["criticalmax"] = 5796,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2685,
+							["casts"] = 1,
 							["hitamount"] = 2685,
+						},
+						["Seal of Command"] = {
+							["criticalmin"] = 2414,
+							["hitmin"] = 1263,
+							["criticalamount"] = 10556,
+							["id"] = 69403,
+							["count"] = 6,
+							["targets"] = {
+								["Risen Drakkari Handler"] = {
+									["amount"] = 9207,
+								},
+								["Drakkari Raptor Mount"] = {
+									["amount"] = 3961,
+								},
+							},
+							["hitmax"] = 1349,
+							["hit"] = 2,
+							["criticalmax"] = 2818,
+							["critical"] = 4,
+							["amount"] = 13168,
+							["school"] = 2,
+							["resisted"] = 268,
+							["casts"] = 1,
+							["hitamount"] = 2612,
 						},
 						["Judgement of Command"] = {
 							["criticalamount"] = 4134,
@@ -11439,30 +12162,6 @@ SkadaStorageDB = {
 							["hitmax"] = 1847,
 							["amount"] = 1847,
 							["hitamount"] = 1847,
-						},
-						["Seal of Command"] = {
-							["criticalmin"] = 2414,
-							["hitmin"] = 1263,
-							["criticalamount"] = 10556,
-							["id"] = 69403,
-							["hitmax"] = 1349,
-							["targets"] = {
-								["Risen Drakkari Handler"] = {
-									["amount"] = 9207,
-								},
-								["Drakkari Raptor Mount"] = {
-									["amount"] = 3961,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 2,
-							["casts"] = 1,
-							["critical"] = 4,
-							["amount"] = 13168,
-							["school"] = 2,
-							["resisted"] = 268,
-							["criticalmax"] = 2818,
-							["hitamount"] = 2612,
 						},
 						["Righteous Vengeance (DoT)"] = {
 							["hitmin"] = 430,
@@ -11497,23 +12196,23 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[54172] = {
 							["overheal"] = 194,
+							["max"] = 1719,
+							["count"] = 1,
+							["amount"] = 1719,
+							["school"] = 2,
 							["targets"] = {
 								["Pompeu"] = {
 									["overheal"] = 194,
 									["amount"] = 1719,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 1719,
-							["school"] = 2,
-							["max"] = 1719,
 							["ishot"] = true,
 							["min"] = 1719,
 						},
 					},
-					["overheal"] = 194,
 					["heal"] = 1719,
 					["name"] = "Hairypaladin",
+					["overheal"] = 194,
 					["manaspells"] = {
 						[31930] = 1098,
 						[57669] = 1280,
@@ -11521,12 +12220,12 @@ SkadaStorageDB = {
 						[20268] = 69,
 					},
 					["mana"] = 3655,
-					["totaldamage"] = 47442,
 					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["type"] = "party",
+			["absorb"] = 853,
 			["damagetaken"] = 7401,
+			["type"] = "party",
 			["rage"] = 14,
 			["etotaldamage"] = 8254,
 			["overheal"] = 35856,
@@ -11539,10 +12238,9 @@ SkadaStorageDB = {
 			["edamage"] = 7401,
 			["last_action"] = 1700476314,
 			["endtime"] = 1700476314,
-		}, -- [5]
+		}, -- [7]
 		{
 			["mana"] = 10352,
-			["damage"] = 349687,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -11628,8 +12326,8 @@ SkadaStorageDB = {
 							["amount"] = 7057,
 						},
 					},
-					["name"] = "Drakkari Bat",
 					["totaldamage"] = 721,
+					["name"] = "Drakkari Bat",
 					["totaldamagetaken"] = 67112,
 					["id"] = "0xF1300067FE00002F",
 					["damage"] = 721,
@@ -11725,16 +12423,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 372,
 						},
-						[48160] = {
-							["school"] = 32,
+						[61840] = {
+							["school"] = 2,
 							["sources"] = {
-								["Nalar"] = {
-									["overkill"] = 4660,
-									["amount"] = 7004,
+								["Hairypaladin"] = {
+									["amount"] = 1516,
 								},
 							},
-							["overkill"] = 4660,
-							["amount"] = 7004,
+							["amount"] = 1516,
 						},
 						[48819] = {
 							["school"] = 2,
@@ -11781,18 +12477,20 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2959,
 						},
-						[61840] = {
-							["school"] = 2,
+						[48160] = {
+							["school"] = 32,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 1516,
+								["Nalar"] = {
+									["overkill"] = 4660,
+									["amount"] = 7004,
 								},
 							},
-							["amount"] = 1516,
+							["overkill"] = 4660,
+							["amount"] = 7004,
 						},
 					},
-					["name"] = "Risen Drakkari Bat Rider",
 					["totaldamage"] = 1906,
+					["name"] = "Risen Drakkari Bat Rider",
 					["totaldamagetaken"] = 45542,
 					["id"] = "0xF13000680E00008A",
 					["damage"] = 1906,
@@ -12012,15 +12710,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6896,
 						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 2691,
-								},
-							},
-							["amount"] = 2691,
-						},
 						[23881] = {
 							["school"] = 1,
 							["sources"] = {
@@ -12030,14 +12719,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7079,
 						},
-						[1680] = {
-							["school"] = 1,
+						[61840] = {
+							["school"] = 2,
 							["sources"] = {
-								["Warac"] = {
-									["amount"] = 15021,
+								["Hairypaladin"] = {
+									["amount"] = 1215,
 								},
 							},
-							["amount"] = 15021,
+							["amount"] = 1215,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Pompeu"] = {
+									["amount"] = 2691,
+								},
+							},
+							["amount"] = 2691,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -12079,14 +12777,14 @@ SkadaStorageDB = {
 							["overkill"] = 3938,
 							["amount"] = 7035,
 						},
-						[61840] = {
-							["school"] = 2,
+						[1680] = {
+							["school"] = 1,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 1215,
+								["Warac"] = {
+									["amount"] = 15021,
 								},
 							},
-							["amount"] = 1215,
+							["amount"] = 15021,
 						},
 					},
 					["totaldamage"] = 19437,
@@ -12202,12 +12900,12 @@ SkadaStorageDB = {
 					["damage"] = 4639,
 				}, -- [5]
 				{
-					["id"] = "0xF13000083E00000C",
-					["name"] = "Black Rat",
-					["totaldamagetaken"] = 2801,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
 					["damagetaken"] = 2801,
+					["name"] = "Black Rat",
+					["class"] = "MONSTER",
+					["flag"] = 2600,
+					["totaldamagetaken"] = 2801,
+					["id"] = "0xF13000083E00000C",
 					["damagetakenspells"] = {
 						[53022] = {
 							["school"] = 32,
@@ -12227,22 +12925,142 @@ SkadaStorageDB = {
 			["time"] = 31,
 			["totaldamagetaken"] = 38019,
 			["etotaldamagetaken"] = 349687,
-			["last_time"] = 11955.817,
+			["damage"] = 349687,
 			["starttime"] = 1700476267,
 			["type"] = "party",
 			["damagetaken"] = 38019,
+			["last_time"] = 11955.817,
 			["rage"] = 61,
 			["etotaldamage"] = 38019,
 			["players"] = {
 				{
+					["damagespells"] = {
+						["Mind Sear"] = {
+							["criticalmin"] = 3102,
+							["hitmax"] = 2938,
+							["hitmin"] = 2011,
+							["criticalamount"] = 51372,
+							["id"] = 53022,
+							["count"] = 26,
+							["targets"] = {
+								["Drakkari Gutripper"] = {
+									["amount"] = 30929,
+								},
+								["Drakkari Bat"] = {
+									["overkill"] = 13769,
+									["amount"] = 44248,
+								},
+								["Black Rat"] = {
+									["overkill"] = 2800,
+									["amount"] = 2801,
+								},
+								["Drakkari Raptor Mount"] = {
+									["overkill"] = 2813,
+									["amount"] = 7971,
+								},
+							},
+							["overkill"] = 19382,
+							["hit"] = 13,
+							["criticalmax"] = 4544,
+							["critical"] = 13,
+							["amount"] = 85949,
+							["school"] = 32,
+							["resisted"] = 907,
+							["casts"] = 2,
+							["hitamount"] = 34577,
+						},
+						["Vampiric Touch (DoT)"] = {
+							["criticalamount"] = 13024,
+							["hitmin"] = 2267,
+							["criticalmin"] = 4737,
+							["id"] = 48160,
+							["criticalmax"] = 8287,
+							["targets"] = {
+								["Risen Drakkari Bat Rider"] = {
+									["overkill"] = 4660,
+									["amount"] = 7004,
+								},
+								["Risen Drakkari Handler"] = {
+									["amount"] = 20182,
+								},
+							},
+							["overkill"] = 4660,
+							["count"] = 6,
+							["casts"] = 2,
+							["hitmax"] = 3965,
+							["amount"] = 27186,
+							["school"] = 32,
+							["hit"] = 4,
+							["critical"] = 2,
+							["hitamount"] = 14162,
+						},
+						["Mind Flay"] = {
+							["criticalmin"] = 4573,
+							["hitmax"] = 2750,
+							["hitmin"] = 2200,
+							["criticalamount"] = 9186,
+							["id"] = 58381,
+							["critical"] = 2,
+							["targets"] = {
+								["Risen Drakkari Handler"] = {
+									["overkill"] = 4002,
+									["amount"] = 21300,
+								},
+							},
+							["overkill"] = 4002,
+							["hit"] = 5,
+							["casts"] = 3,
+							["count"] = 7,
+							["amount"] = 21300,
+							["school"] = 32,
+							["resisted"] = 549,
+							["criticalmax"] = 4613,
+							["hitamount"] = 12114,
+						},
+					},
 					["last"] = 11949.975,
+					["totaldamage"] = 134435,
+					["id"] = "0x070000000027C8A1",
 					["flag"] = 1297,
 					["class"] = "PRIEST",
+					["healspells"] = {
+						[15290] = {
+							["overheal"] = 23371,
+							["school"] = 32,
+							["count"] = 65,
+							["amount"] = 942,
+							["max"] = 221,
+							["ishot"] = true,
+							["targets"] = {
+								["Nalar"] = {
+									["overheal"] = 13510,
+									["amount"] = 0,
+								},
+								["Warac"] = {
+									["overheal"] = 2326,
+									["amount"] = 374,
+								},
+								["Elunestrasza"] = {
+									["overheal"] = 2701,
+									["amount"] = 0,
+								},
+								["Pompeu"] = {
+									["overheal"] = 2575,
+									["amount"] = 126,
+								},
+								["Hairypaladin"] = {
+									["overheal"] = 2259,
+									["amount"] = 442,
+								},
+							},
+							["min"] = 126,
+						},
+					},
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[15473] = {
@@ -12256,9 +13074,9 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48942] = {
@@ -12288,22 +13106,22 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["targets"] = {
 								["Risen Drakkari Bat Rider"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 								["Risen Drakkari Handler"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 10,
 								},
 							},
 							["uptime"] = 14,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[6788] = {
@@ -12317,24 +13135,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 6,
-						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[48156] = {
-							["type"] = "BUFF",
-							["count"] = 8,
-							["school"] = 32,
-							["targets"] = {
-								["Risen Drakkari Handler"] = {
-									["uptime"] = 5,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 5,
 						},
 						[48160] = {
 							["type"] = "DEBUFF",
@@ -12353,24 +13153,22 @@ SkadaStorageDB = {
 							["uptime"] = 14,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
-						[61792] = {
+						[48156] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 25,
-						},
-						[59000] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+							["count"] = 8,
 							["school"] = 32,
-							["refresh"] = 1,
-							["uptime"] = 8,
+							["targets"] = {
+								["Risen Drakkari Handler"] = {
+									["uptime"] = 5,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 5,
 						},
 						[53023] = {
 							["type"] = "DEBUFF",
@@ -12392,6 +13190,26 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
+						},
+						[59000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 1,
+							["uptime"] = 8,
+						},
+						[75473] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[61792] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 25,
 						},
 						[47440] = {
 							["type"] = "BUFF",
@@ -12433,133 +13251,14 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 					},
-					["time"] = 16.32,
-					["damage"] = 134435,
-					["damagespells"] = {
-						["Mind Sear"] = {
-							["criticalmin"] = 3102,
-							["count"] = 26,
-							["hitmin"] = 2011,
-							["criticalamount"] = 51372,
-							["id"] = 53022,
-							["hitmax"] = 2938,
-							["targets"] = {
-								["Drakkari Gutripper"] = {
-									["amount"] = 30929,
-								},
-								["Drakkari Bat"] = {
-									["overkill"] = 13769,
-									["amount"] = 44248,
-								},
-								["Black Rat"] = {
-									["overkill"] = 2800,
-									["amount"] = 2801,
-								},
-								["Drakkari Raptor Mount"] = {
-									["overkill"] = 2813,
-									["amount"] = 7971,
-								},
-							},
-							["overkill"] = 19382,
-							["hit"] = 13,
-							["casts"] = 2,
-							["critical"] = 13,
-							["amount"] = 85949,
-							["school"] = 32,
-							["resisted"] = 907,
-							["criticalmax"] = 4544,
-							["hitamount"] = 34577,
-						},
-						["Vampiric Touch (DoT)"] = {
-							["casts"] = 2,
-							["hitmin"] = 2267,
-							["criticalamount"] = 13024,
-							["id"] = 48160,
-							["criticalmin"] = 4737,
-							["targets"] = {
-								["Risen Drakkari Bat Rider"] = {
-									["overkill"] = 4660,
-									["amount"] = 7004,
-								},
-								["Risen Drakkari Handler"] = {
-									["amount"] = 20182,
-								},
-							},
-							["overkill"] = 4660,
-							["critical"] = 2,
-							["criticalmax"] = 8287,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 3965,
-							["amount"] = 27186,
-							["hitamount"] = 14162,
-						},
-						["Mind Flay"] = {
-							["critical"] = 2,
-							["criticalmin"] = 4573,
-							["hitmin"] = 2200,
-							["criticalamount"] = 9186,
-							["id"] = 58381,
-							["criticalmax"] = 4613,
-							["targets"] = {
-								["Risen Drakkari Handler"] = {
-									["overkill"] = 4002,
-									["amount"] = 21300,
-								},
-							},
-							["overkill"] = 4002,
-							["hitmax"] = 2750,
-							["casts"] = 3,
-							["count"] = 7,
-							["hit"] = 5,
-							["school"] = 32,
-							["resisted"] = 549,
-							["amount"] = 21300,
-							["hitamount"] = 12114,
-						},
-					},
-					["id"] = "0x070000000027C8A1",
 					["spec"] = 258,
-					["healspells"] = {
-						[15290] = {
-							["overheal"] = 23371,
-							["max"] = 221,
-							["count"] = 65,
-							["amount"] = 942,
-							["school"] = 32,
-							["min"] = 126,
-							["ishot"] = true,
-							["targets"] = {
-								["Nalar"] = {
-									["overheal"] = 13510,
-									["amount"] = 0,
-								},
-								["Warac"] = {
-									["overheal"] = 2326,
-									["amount"] = 374,
-								},
-								["Elunestrasza"] = {
-									["overheal"] = 2701,
-									["amount"] = 0,
-								},
-								["Pompeu"] = {
-									["overheal"] = 2575,
-									["amount"] = 126,
-								},
-								["Hairypaladin"] = {
-									["overheal"] = 2259,
-									["amount"] = 442,
-								},
-							},
-						},
-					},
-					["overkill"] = 28044,
-					["heal"] = 942,
-					["name"] = "Nalar",
-					["overheal"] = 23371,
-					["totaldamage"] = 134435,
 					["role"] = "DAMAGER",
+					["time"] = 16.32,
+					["overkill"] = 28044,
+					["name"] = "Nalar",
+					["heal"] = 942,
+					["overheal"] = 23371,
+					["damage"] = 134435,
 				}, -- [1]
 				{
 					["last"] = 11949.801,
@@ -12574,11 +13273,23 @@ SkadaStorageDB = {
 						[57516] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 2,
 							["school"] = 1,
+							["refresh"] = 2,
 							["uptime"] = 21,
 						},
 						[48074] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 21,
+						},
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
@@ -12594,6 +13305,11 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 2,
+						},
+						[25898] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
 						},
 						[47502] = {
 							["type"] = "DEBUFF",
@@ -12611,14 +13327,41 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
-						[53251] = {
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[18498] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Risen Drakkari Bat Rider"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[58374] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 21,
+							["uptime"] = 10,
 						},
-						[25898] = {
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
@@ -12639,51 +13382,8 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Risen Drakkari Bat Rider"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[58374] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[58363] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
 					},
+					["totaldamage"] = 20890,
 					["time"] = 17.76,
 					["totaldamagetaken"] = 2013,
 					["damage"] = 20890,
@@ -12696,8 +13396,8 @@ SkadaStorageDB = {
 							["hitmin"] = 107,
 							["id"] = 6603,
 							["PARRY"] = 1,
-							["blocked"] = 242,
-							["BLOCK"] = 2,
+							["count"] = 5,
+							["hit"] = 2,
 							["sources"] = {
 								["Risen Drakkari Bat Rider"] = {
 									["amount"] = 1740,
@@ -12709,11 +13409,11 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 1,
 							["hitmax"] = 1740,
 							["amount"] = 1847,
+							["school"] = 1,
+							["blocked"] = 242,
+							["BLOCK"] = 2,
 							["hitamount"] = 1847,
 						},
 						["Impale (DoT)"] = {
@@ -12757,7 +13457,7 @@ SkadaStorageDB = {
 							["hitmin"] = 841,
 							["criticalamount"] = 3885,
 							["id"] = 47502,
-							["hitmax"] = 841,
+							["criticalmin"] = 1850,
 							["targets"] = {
 								["Risen Drakkari Bat Rider"] = {
 									["amount"] = 2035,
@@ -12769,14 +13469,14 @@ SkadaStorageDB = {
 									["amount"] = 841,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 2,
-							["casts"] = 2,
 							["critical"] = 2,
 							["amount"] = 5567,
-							["school"] = 1,
-							["criticalmin"] = 1850,
 							["criticalmax"] = 2035,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 841,
+							["casts"] = 2,
 							["hitamount"] = 1682,
 						},
 						["Melee"] = {
@@ -12798,10 +13498,10 @@ SkadaStorageDB = {
 							["glancing"] = 1,
 							["glancemax"] = 530,
 							["count"] = 5,
-							["hit"] = 4,
+							["amount"] = 3231,
 							["school"] = 1,
 							["hitmax"] = 716,
-							["amount"] = 3231,
+							["hit"] = 4,
 							["hitamount"] = 2701,
 						},
 						["Cleave"] = {
@@ -12890,7 +13590,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 						},
 					},
-					["totaldamage"] = 20890,
 					["role"] = "TANK",
 				}, -- [2]
 				{
@@ -12914,10 +13613,17 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 2,
+						},
+						[67750] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 29,
 						},
 						[71184] = {
 							["type"] = "BUFF",
@@ -12925,12 +13631,6 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["refresh"] = 10,
 							["uptime"] = 16,
-						},
-						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 18,
 						},
 						[53251] = {
 							["type"] = "BUFF",
@@ -12954,12 +13654,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 24,
 						},
-						[67750] = {
+						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 29,
+							["count"] = 1,
+							["uptime"] = 18,
 						},
 						[57669] = {
 							["type"] = "BUFF",
@@ -12971,7 +13670,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[48942] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
@@ -12981,12 +13680,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[48162] = {
+						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 17.05,
 					["totaldamagetaken"] = 2137,
 					["rage"] = 40,
@@ -13028,6 +13728,10 @@ SkadaStorageDB = {
 						},
 						[48441] = {
 							["overheal"] = 29384,
+							["max"] = 3152,
+							["count"] = 11,
+							["amount"] = 5289,
+							["school"] = 8,
 							["targets"] = {
 								["Hairypaladin"] = {
 									["overheal"] = 12608,
@@ -13038,10 +13742,6 @@ SkadaStorageDB = {
 									["amount"] = 2137,
 								},
 							},
-							["count"] = 11,
-							["amount"] = 5289,
-							["school"] = 8,
-							["max"] = 3152,
 							["ishot"] = true,
 							["min"] = 2137,
 						},
@@ -13091,19 +13791,18 @@ SkadaStorageDB = {
 							["hitamount"] = 2137,
 						},
 					},
+					["heal"] = 31414,
 					["manaspells"] = {
 						[55767] = 400,
 						[48542] = 3984,
 						[55382] = 600,
 					},
-					["heal"] = 31414,
 					["name"] = "Elunestrasza",
 					["overheal"] = 123205,
 					["mana"] = 4984,
 					["ragespells"] = {
 						[48541] = 40,
 					},
-					["role"] = "HEALER",
 				}, -- [3]
 				{
 					["last"] = 11949.375,
@@ -13111,9 +13810,9 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[12970] = {
@@ -13129,9 +13828,9 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[71560] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[48942] = {
@@ -13150,21 +13849,21 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[55775] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 14,
 						},
 						[59620] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 16,
 						},
 						[47440] = {
@@ -13176,6 +13875,18 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
+						},
+						[72412] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[46916] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
@@ -13192,8 +13903,8 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Drakkari Gutripper"] = {
-									["count"] = 2,
 									["refresh"] = 3,
+									["count"] = 2,
 									["uptime"] = 7,
 								},
 								["Risen Drakkari Handler"] = {
@@ -13202,18 +13913,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 11,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[72412] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -13228,28 +13927,28 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 					},
+					["totaldamage"] = 84274,
 					["time"] = 17.21,
 					["totaldamagetaken"] = 3411,
 					["damage"] = 84274,
 					["rage"] = 6,
-					["heal"] = 392,
 					["damagetaken"] = 3411,
 					["id"] = "0x070000000060091D",
 					["spec"] = 72,
 					["healspells"] = {
 						[23880] = {
 							["overheal"] = 1520,
-							["max"] = 392,
 							["count"] = 5,
 							["amount"] = 392,
+							["max"] = 392,
 							["school"] = 1,
-							["min"] = 392,
 							["targets"] = {
 								["Warac"] = {
 									["overheal"] = 1520,
 									["amount"] = 392,
 								},
 							},
+							["min"] = 392,
 						},
 					},
 					["damagetakenspells"] = {
@@ -13272,11 +13971,12 @@ SkadaStorageDB = {
 							["hitamount"] = 3411,
 						},
 					},
+					["heal"] = 392,
+					["name"] = "Warac",
 					["overheal"] = 1520,
 					["ragespells"] = {
 						[12964] = 6,
 					},
-					["name"] = "Warac",
 					["overkill"] = 5199,
 					["damagespells"] = {
 						["Bloodthirst"] = {
@@ -13330,7 +14030,7 @@ SkadaStorageDB = {
 							["hitmin"] = 2082,
 							["criticalamount"] = 32626,
 							["id"] = 1680,
-							["criticalmax"] = 7896,
+							["casts"] = 2,
 							["targets"] = {
 								["Risen Drakkari Bat Rider"] = {
 									["amount"] = 12791,
@@ -13344,13 +14044,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1261,
-							["critical"] = 5,
-							["casts"] = 2,
 							["count"] = 8,
-							["hit"] = 3,
-							["school"] = 1,
+							["criticalmax"] = 7896,
 							["hitmax"] = 3475,
 							["amount"] = 41632,
+							["school"] = 1,
+							["hit"] = 3,
+							["critical"] = 5,
 							["hitamount"] = 9006,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -13375,11 +14075,11 @@ SkadaStorageDB = {
 							["hitamount"] = 1191,
 						},
 						["Heroic Strike"] = {
-							["hitmax"] = 3150,
+							["criticalmin"] = 7035,
 							["hitmin"] = 3150,
 							["criticalamount"] = 7035,
 							["id"] = 47450,
-							["count"] = 2,
+							["critical"] = 1,
 							["targets"] = {
 								["Risen Drakkari Handler"] = {
 									["amount"] = 3150,
@@ -13390,17 +14090,16 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 3938,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
 							["amount"] = 10185,
-							["school"] = 1,
-							["criticalmin"] = 7035,
 							["criticalmax"] = 7035,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3150,
+							["casts"] = 2,
 							["hitamount"] = 3150,
 						},
 					},
-					["totaldamage"] = 84274,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -13414,33 +14113,22 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 17,
 						},
-						[48819] = {
-							["type"] = "DEBUFF",
-							["count"] = 8,
-							["school"] = 2,
-							["targets"] = {
-								["Risen Drakkari Bat Rider"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Drakkari Bat"] = {
-									["uptime"] = 1,
-									["count"] = 7,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[53251] = {
+						[71432] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 21,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 29,
+						},
+						[57669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
 						},
 						[20186] = {
 							["type"] = "DEBUFF",
@@ -13459,17 +14147,28 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[71432] = {
+						[53251] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 4,
-							["school"] = 1,
-							["uptime"] = 29,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 21,
 						},
-						[57669] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
+						[48819] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 2,
+							["targets"] = {
+								["Risen Drakkari Bat Rider"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Drakkari Bat"] = {
+									["uptime"] = 1,
+									["count"] = 7,
+								},
+							},
+							["uptime"] = 3,
 						},
 						[54499] = {
 							["type"] = "DEBUFF",
@@ -13509,35 +14208,36 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[48934] = {
+						[20053] = {
+							["refresh"] = 8,
 							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 31,
+							["count"] = 1,
 						},
 						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[20053] = {
+						[48934] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 8,
 							["uptime"] = 31,
 						},
 						[59578] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 2,
 							["school"] = 1,
+							["refresh"] = 2,
 							["uptime"] = 18,
 						},
 					},
+					["totaldamage"] = 110088,
 					["time"] = 17.68,
 					["totaldamagetaken"] = 30458,
 					["damage"] = 110088,
@@ -13562,7 +14262,7 @@ SkadaStorageDB = {
 							["hitmin"] = 2865,
 							["criticalamount"] = 5340,
 							["id"] = 48801,
-							["hitmax"] = 2865,
+							["count"] = 2,
 							["targets"] = {
 								["Risen Drakkari Bat Rider"] = {
 									["amount"] = 5340,
@@ -13571,21 +14271,21 @@ SkadaStorageDB = {
 									["amount"] = 2865,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 2865,
 							["hit"] = 1,
-							["casts"] = 2,
+							["criticalmax"] = 5340,
 							["critical"] = 1,
 							["amount"] = 8205,
 							["school"] = 2,
 							["resisted"] = 318,
-							["criticalmax"] = 5340,
+							["casts"] = 2,
 							["hitamount"] = 2865,
 						},
 						["Divine Storm"] = {
 							["hitmin"] = 2699,
 							["criticalamount"] = 16248,
 							["id"] = 53385,
-							["hitmax"] = 2699,
+							["criticalmin"] = 5267,
 							["targets"] = {
 								["Drakkari Gutripper"] = {
 									["amount"] = 8110,
@@ -13597,14 +14297,14 @@ SkadaStorageDB = {
 									["amount"] = 5267,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 3,
 							["amount"] = 18947,
-							["school"] = 1,
-							["criticalmin"] = 5267,
 							["criticalmax"] = 5570,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2699,
+							["casts"] = 1,
 							["hitamount"] = 2699,
 						},
 						["Manifest Anger"] = {
@@ -13621,22 +14321,6 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["criticalmin"] = 2379,
 							["criticalmax"] = 2379,
-							["count"] = 1,
-						},
-						["Crusader Strike"] = {
-							["criticalamount"] = 4317,
-							["id"] = 35395,
-							["targets"] = {
-								["Drakkari Gutripper"] = {
-									["amount"] = 4317,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4317,
-							["school"] = 1,
-							["criticalmin"] = 4317,
-							["criticalmax"] = 4317,
 							["count"] = 1,
 						},
 						["Melee"] = {
@@ -13664,6 +14348,22 @@ SkadaStorageDB = {
 							["criticalmin"] = 4231,
 							["glancemin"] = 1991,
 						},
+						["Crusader Strike"] = {
+							["criticalamount"] = 4317,
+							["id"] = 35395,
+							["targets"] = {
+								["Drakkari Gutripper"] = {
+									["amount"] = 4317,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 4317,
+							["school"] = 1,
+							["criticalmin"] = 4317,
+							["criticalmax"] = 4317,
+							["count"] = 1,
+						},
 						["Seal of Command"] = {
 							["hitmin"] = 1352,
 							["criticalmin"] = 2612,
@@ -13689,15 +14389,15 @@ SkadaStorageDB = {
 							["resisted"] = 290,
 							["criticalamount"] = 35830,
 							["id"] = 69403,
-							["hitmax"] = 1587,
-							["overkill"] = 1918,
 							["criticalmax"] = 3221,
-							["casts"] = 1,
+							["overkill"] = 1918,
 							["count"] = 23,
-							["hit"] = 11,
+							["casts"] = 1,
+							["hitmax"] = 1587,
+							["blocked"] = 40,
 							["school"] = 2,
 							["critical"] = 12,
-							["blocked"] = 40,
+							["hit"] = 11,
 							["hitamount"] = 16089,
 						},
 						["Righteous Vengeance (DoT)"] = {
@@ -13741,13 +14441,16 @@ SkadaStorageDB = {
 							["hitamount"] = 2261,
 						},
 					},
-					["overheal"] = 307,
 					["damagetaken"] = 30458,
 					["id"] = "0x07000000008E8B28",
 					["spec"] = 70,
 					["healspells"] = {
 						[54172] = {
 							["overheal"] = 307,
+							["max"] = 5271,
+							["count"] = 2,
+							["amount"] = 7987,
+							["school"] = 2,
 							["targets"] = {
 								["Pompeu"] = {
 									["overheal"] = 307,
@@ -13758,10 +14461,6 @@ SkadaStorageDB = {
 									["amount"] = 5271,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 7987,
-							["school"] = 2,
-							["max"] = 5271,
 							["ishot"] = true,
 							["min"] = 2716,
 						},
@@ -13798,14 +14497,11 @@ SkadaStorageDB = {
 							["hitamount"] = 758,
 						},
 						["Melee"] = {
-							["PARRY"] = 1,
-							["hitmin"] = 193,
 							["criticalamount"] = 2368,
-							["id"] = 6603,
+							["hitmin"] = 193,
 							["criticalmin"] = 2368,
-							["criticalmax"] = 2368,
-							["critical"] = 1,
-							["amount"] = 23839,
+							["id"] = 6603,
+							["count"] = 14,
 							["sources"] = {
 								["Risen Drakkari Handler"] = {
 									["amount"] = 2560,
@@ -13820,24 +14516,27 @@ SkadaStorageDB = {
 									["amount"] = 4639,
 								},
 							},
-							["count"] = 14,
+							["critical"] = 1,
+							["amount"] = 23839,
+							["criticalmax"] = 2368,
+							["hitmax"] = 2923,
 							["hit"] = 11,
 							["school"] = 1,
-							["hitmax"] = 2923,
+							["PARRY"] = 1,
 							["MISS"] = 1,
 							["hitamount"] = 21471,
 						},
 					},
-					["overkill"] = 1918,
 					["heal"] = 7987,
 					["name"] = "Hairypaladin",
+					["overheal"] = 307,
+					["overkill"] = 1918,
 					["manaspells"] = {
 						[31930] = 1098,
 						[57669] = 3584,
 						[20268] = 686,
 					},
 					["mana"] = 5368,
-					["totaldamage"] = 110088,
 					["role"] = "DAMAGER",
 				}, -- [5]
 			},
@@ -13850,9 +14549,8 @@ SkadaStorageDB = {
 			["edamage"] = 38019,
 			["last_action"] = 1700476298,
 			["endtime"] = 1700476298,
-		}, -- [6]
+		}, -- [8]
 		{
-			["rage"] = 35,
 			["mana"] = 3330,
 			["enemies"] = {
 				{
@@ -14085,13 +14783,15 @@ SkadaStorageDB = {
 					["damage"] = 3788,
 				}, -- [1]
 			},
-			["absorb"] = 1749,
 			["totaldamage"] = 206092,
 			["time"] = 10,
-			["overheal"] = 24033,
+			["rage"] = 35,
 			["totaldamagetaken"] = 5537,
 			["etotaldamage"] = 5537,
 			["last_time"] = 11886.702,
+			["overheal"] = 24033,
+			["absorb"] = 1749,
+			["damagetaken"] = 3788,
 			["players"] = {
 				{
 					["last"] = 11881.561,
@@ -14134,9 +14834,9 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[47585] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
 						},
 						[15258] = {
@@ -14146,10 +14846,12 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["uptime"] = 9,
 						},
-						[72221] = {
+						[61792] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 9,
 						},
 						[57669] = {
 							["type"] = "BUFF",
@@ -14161,33 +14863,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[67016] = {
+						[15286] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
-						},
-						[61792] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 9,
-						},
-						[15271] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 6,
 						},
 						[53023] = {
 							["type"] = "DEBUFF",
@@ -14200,6 +14884,22 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 6,
+						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[15271] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 					},
 					["absorbspells"] = {
@@ -14214,17 +14914,18 @@ SkadaStorageDB = {
 							},
 						},
 					},
+					["totaldamage"] = 40832,
 					["time"] = 4.75,
 					["totaldamagetaken"] = 1749,
 					["damage"] = 40832,
 					["damagespells"] = {
 						["Mind Sear"] = {
-							["count"] = 16,
 							["criticalmin"] = 2448,
+							["hitmax"] = 2238,
 							["hitmin"] = 1796,
 							["criticalamount"] = 19437,
 							["id"] = 53022,
-							["hitmax"] = 2238,
+							["count"] = 16,
 							["targets"] = {
 								["Darkweb Recluse"] = {
 									["overkill"] = 3307,
@@ -14233,12 +14934,12 @@ SkadaStorageDB = {
 							},
 							["overkill"] = 3307,
 							["hit"] = 10,
-							["casts"] = 2,
+							["criticalmax"] = 3598,
 							["critical"] = 6,
 							["amount"] = 40832,
 							["school"] = 32,
 							["resisted"] = 1060,
-							["criticalmax"] = 3598,
+							["casts"] = 2,
 							["hitamount"] = 21395,
 						},
 					},
@@ -14264,7 +14965,6 @@ SkadaStorageDB = {
 							["id"] = 49708,
 						},
 					},
-					["totaldamage"] = 40832,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -14278,10 +14978,10 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[57516] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 5,
+							["type"] = "BUFF",
 							["uptime"] = 10,
+							["count"] = 1,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -14304,10 +15004,31 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[58374] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
+						},
+						[58363] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 4,
+						},
+						[48162] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[48942] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
@@ -14320,27 +15041,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 2,
-						},
-						[58363] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 4,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
 						},
 					},
 					["role"] = "TANK",
@@ -14396,20 +15096,20 @@ SkadaStorageDB = {
 							["hitmin"] = 925,
 							["criticalamount"] = 2035,
 							["id"] = 47502,
-							["hitmax"] = 925,
+							["criticalmin"] = 2035,
 							["targets"] = {
 								["Darkweb Recluse"] = {
 									["amount"] = 4810,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 3,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 4810,
-							["school"] = 1,
-							["criticalmin"] = 2035,
 							["criticalmax"] = 2035,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 925,
+							["casts"] = 1,
 							["hitamount"] = 2775,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -14479,7 +15179,7 @@ SkadaStorageDB = {
 							["hitmin"] = 4255,
 							["criticalamount"] = 9042,
 							["id"] = 57823,
-							["criticalmax"] = 9042,
+							["casts"] = 2,
 							["targets"] = {
 								["Darkweb Recluse"] = {
 									["overkill"] = 9020,
@@ -14487,13 +15187,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 9020,
-							["critical"] = 1,
-							["casts"] = 2,
 							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 9042,
 							["hitmax"] = 4277,
 							["amount"] = 17574,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 8532,
 						},
 						["Heroic Strike"] = {
@@ -14506,14 +15206,14 @@ SkadaStorageDB = {
 									["amount"] = 3500,
 								},
 							},
-							["criticalmax"] = 2415,
-							["critical"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 2415,
 							["hitmax"] = 1085,
 							["amount"] = 3500,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 1085,
 						},
 					},
@@ -14523,17 +15223,14 @@ SkadaStorageDB = {
 					["rage"] = 8,
 					["last"] = 11880.027,
 					["id"] = "0x07000000007AA386",
-					["overheal"] = 24033,
-					["flag"] = 1298,
 					["class"] = "DRUID",
 					["healspells"] = {
 						[53251] = {
 							["overheal"] = 11632,
-							["max"] = 1070,
+							["school"] = 8,
 							["count"] = 16,
 							["amount"] = 4858,
-							["school"] = 8,
-							["min"] = 656,
+							["max"] = 1070,
 							["ishot"] = true,
 							["targets"] = {
 								["Pompeu"] = {
@@ -14553,19 +15250,20 @@ SkadaStorageDB = {
 									["amount"] = 656,
 								},
 							},
+							["min"] = 656,
 						},
 						[48441] = {
 							["overheal"] = 12401,
+							["max"] = 903,
+							["count"] = 4,
+							["amount"] = 903,
+							["school"] = 8,
 							["targets"] = {
 								["Elunestrasza"] = {
 									["overheal"] = 12401,
 									["amount"] = 903,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 903,
-							["school"] = 8,
-							["max"] = 903,
 							["ishot"] = true,
 							["min"] = 903,
 						},
@@ -14591,17 +15289,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[57669] = {
+						[67750] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 7,
 						},
 						[53251] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[25898] = {
+						[57669] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
@@ -14616,28 +15314,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[67750] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 10,
 						},
 						[47440] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[71184] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 10,
-						},
-						[48170] = {
+						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
@@ -14647,15 +15334,28 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71184] = {
+							["refresh"] = 4,
+							["type"] = "BUFF",
+							["uptime"] = 10,
+							["count"] = 1,
+						},
 					},
-					["ragespells"] = {
-						[48541] = 8,
-					},
+					["overheal"] = 24033,
+					["heal"] = 5761,
 					["time"] = 3.23,
+					["flag"] = 1298,
 					["spec"] = 105,
 					["role"] = "HEALER",
 					["name"] = "Elunestrasza",
-					["heal"] = 5761,
+					["ragespells"] = {
+						[48541] = 8,
+					},
 				}, -- [3]
 				{
 					["last"] = 11883.594,
@@ -14674,8 +15374,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Darkweb Recluse"] = {
-									["count"] = 3,
 									["refresh"] = 3,
+									["count"] = 3,
 									["uptime"] = 4,
 								},
 							},
@@ -14697,33 +15397,22 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 2,
 							["refresh"] = 2,
-							["uptime"] = 10,
-						},
-						[47440] = {
 							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 10,
+							["count"] = 2,
 						},
 						[75456] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 10,
-						},
-						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
@@ -14733,7 +15422,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[12970] = {
+							["refresh"] = 3,
+							["type"] = "BUFF",
+							["uptime"] = 10,
+							["count"] = 1,
+						},
 					},
+					["totaldamage"] = 76688,
 					["time"] = 6.810000000000001,
 					["totaldamagetaken"] = 1438,
 					["damage"] = 76688,
@@ -14761,20 +15462,20 @@ SkadaStorageDB = {
 							["hitmin"] = 2142,
 							["criticalamount"] = 38262,
 							["id"] = 1680,
-							["hitmax"] = 2415,
+							["criticalmin"] = 5245,
 							["targets"] = {
 								["Darkweb Recluse"] = {
 									["amount"] = 45088,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 3,
-							["casts"] = 1,
 							["critical"] = 5,
 							["amount"] = 45088,
-							["school"] = 1,
-							["criticalmin"] = 5245,
 							["criticalmax"] = 8703,
+							["count"] = 8,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2415,
+							["casts"] = 1,
 							["hitamount"] = 6826,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -14793,11 +15494,11 @@ SkadaStorageDB = {
 							["hitamount"] = 3703,
 						},
 						["Cleave"] = {
-							["count"] = 4,
+							["criticalmin"] = 7830,
 							["hitmin"] = 3222,
 							["criticalamount"] = 15774,
 							["id"] = 47520,
-							["hitmax"] = 3318,
+							["critical"] = 2,
 							["targets"] = {
 								["Darkweb Recluse"] = {
 									["overkill"] = 570,
@@ -14805,13 +15506,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 570,
-							["hit"] = 2,
-							["casts"] = 2,
-							["critical"] = 2,
 							["amount"] = 22314,
-							["school"] = 1,
-							["criticalmin"] = 7830,
 							["criticalmax"] = 7944,
+							["hitmax"] = 3318,
+							["hit"] = 2,
+							["school"] = 1,
+							["count"] = 4,
+							["casts"] = 2,
 							["hitamount"] = 6540,
 						},
 					},
@@ -14841,7 +15542,6 @@ SkadaStorageDB = {
 					["name"] = "Warac",
 					["overkill"] = 570,
 					["rage"] = 2,
-					["totaldamage"] = 76688,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -14854,17 +15554,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Darkweb Recluse"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
+						[71432] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 10,
 						},
 						[20186] = {
 							["type"] = "DEBUFF",
@@ -14879,9 +15574,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[54428] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 8,
 						},
 						[53251] = {
@@ -14894,11 +15589,9 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[71432] = {
+						[48934] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["refresh"] = 2,
-							["school"] = 1,
+							["count"] = 1,
 							["uptime"] = 10,
 						},
 						[61840] = {
@@ -14919,34 +15612,42 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[48934] = {
+						[20053] = {
+							["refresh"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 10,
+							["count"] = 1,
 						},
 						[48942] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[20053] = {
-							["type"] = "BUFF",
+						[54499] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 10,
+							["school"] = 2,
+							["targets"] = {
+								["Darkweb Recluse"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
 						},
 						[59578] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 10,
+							["count"] = 1,
 						},
 					},
+					["totaldamage"] = 54458,
 					["time"] = 6.75,
 					["totaldamagetaken"] = 656,
 					["damage"] = 54458,
@@ -14967,6 +15668,41 @@ SkadaStorageDB = {
 							["amount"] = 9721,
 							["hitamount"] = 9721,
 						},
+						["Righteous Vengeance (DoT)"] = {
+							["hitmin"] = 413,
+							["id"] = 61840,
+							["targets"] = {
+								["Darkweb Recluse"] = {
+									["amount"] = 413,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 413,
+							["amount"] = 413,
+							["hitamount"] = 413,
+						},
+						["Divine Storm"] = {
+							["hitmin"] = 2907,
+							["criticalamount"] = 16959,
+							["id"] = 53385,
+							["criticalmin"] = 5508,
+							["targets"] = {
+								["Darkweb Recluse"] = {
+									["amount"] = 19866,
+								},
+							},
+							["critical"] = 3,
+							["amount"] = 19866,
+							["criticalmax"] = 5885,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2907,
+							["casts"] = 1,
+							["hitamount"] = 2907,
+						},
 						["Manifest Anger"] = {
 							["hitmin"] = 1144,
 							["id"] = 71433,
@@ -14982,21 +15718,6 @@ SkadaStorageDB = {
 							["hitmax"] = 1144,
 							["amount"] = 1144,
 							["hitamount"] = 1144,
-						},
-						["Melee"] = {
-							["hitmin"] = 2047,
-							["id"] = 6603,
-							["targets"] = {
-								["Darkweb Recluse"] = {
-									["amount"] = 4181,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2134,
-							["amount"] = 4181,
-							["hitamount"] = 4181,
 						},
 						["Crusader Strike"] = {
 							["hitmin"] = 1987,
@@ -15014,41 +15735,26 @@ SkadaStorageDB = {
 							["amount"] = 1987,
 							["hitamount"] = 1987,
 						},
-						["Righteous Vengeance (DoT)"] = {
-							["hitmin"] = 413,
-							["id"] = 61840,
-							["targets"] = {
-								["Darkweb Recluse"] = {
-									["amount"] = 413,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 413,
-							["amount"] = 413,
-							["hitamount"] = 413,
-						},
 						["Seal of Command"] = {
 							["DODGE"] = 1,
 							["criticalmin"] = 2754,
 							["hitmin"] = 1179,
 							["criticalamount"] = 8475,
 							["id"] = 20424,
-							["hitmax"] = 1515,
+							["count"] = 9,
 							["targets"] = {
 								["Darkweb Recluse"] = {
 									["amount"] = 15153,
 								},
 							},
-							["count"] = 9,
+							["hitmax"] = 1515,
 							["hit"] = 5,
-							["casts"] = 1,
+							["criticalmax"] = 2945,
 							["critical"] = 3,
 							["amount"] = 15153,
 							["school"] = 2,
 							["resisted"] = 131,
-							["criticalmax"] = 2945,
+							["casts"] = 1,
 							["hitamount"] = 6678,
 						},
 						["Judgement of Command"] = {
@@ -15067,25 +15773,20 @@ SkadaStorageDB = {
 							["amount"] = 1993,
 							["hitamount"] = 1993,
 						},
-						["Divine Storm"] = {
-							["hitmin"] = 2907,
-							["criticalamount"] = 16959,
-							["id"] = 53385,
-							["hitmax"] = 2907,
+						["Melee"] = {
+							["hitmin"] = 2047,
+							["id"] = 6603,
 							["targets"] = {
 								["Darkweb Recluse"] = {
-									["amount"] = 19866,
+									["amount"] = 4181,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 3,
-							["amount"] = 19866,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 1,
-							["criticalmin"] = 5508,
-							["criticalmax"] = 5885,
-							["hitamount"] = 2907,
+							["hitmax"] = 2134,
+							["amount"] = 4181,
+							["hitamount"] = 4181,
 						},
 					},
 					["damagetaken"] = 656,
@@ -15109,7 +15810,6 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Hairypaladin",
-					["totaldamage"] = 54458,
 					["class"] = "PALADIN",
 					["manaspells"] = {
 						[31930] = 1098,
@@ -15121,7 +15821,6 @@ SkadaStorageDB = {
 				}, -- [5]
 			},
 			["type"] = "party",
-			["damagetaken"] = 3788,
 			["damage"] = 206092,
 			["etotaldamagetaken"] = 206092,
 			["overkill"] = 12897,
@@ -15133,13 +15832,12 @@ SkadaStorageDB = {
 			["edamage"] = 3788,
 			["last_action"] = 1700476228,
 			["endtime"] = 1700476229,
-		}, -- [7]
+		}, -- [9]
 		{
-			["damage"] = 1742798,
-			["success"] = true,
-			["absorb"] = 28811,
+			["rage"] = 319,
+			["overheal"] = 559064,
 			["mana"] = 19869,
-			["gotboss"] = 26630,
+			["damage"] = 1742798,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -15382,8 +16080,8 @@ SkadaStorageDB = {
 							["amount"] = 17432,
 						},
 					},
-					["name"] = "Risen Drakkari Warrior",
 					["totaldamage"] = 47713,
+					["name"] = "Risen Drakkari Warrior",
 					["totaldamagetaken"] = 276962,
 					["id"] = "0xF13000680B000044",
 					["damage"] = 44495,
@@ -15495,14 +16193,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6404,
 						},
-						[48125] = {
-							["school"] = 32,
+						[1680] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 8827,
+								["Warac"] = {
+									["amount"] = 3152,
 								},
 							},
-							["amount"] = 8827,
+							["amount"] = 3152,
 						},
 						[58381] = {
 							["school"] = 32,
@@ -15524,14 +16222,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4041,
 						},
-						[1680] = {
-							["school"] = 1,
+						[48125] = {
+							["school"] = 32,
 							["sources"] = {
-								["Warac"] = {
-									["amount"] = 3152,
+								["Nalar"] = {
+									["amount"] = 8827,
 								},
 							},
-							["amount"] = 3152,
+							["amount"] = 8827,
 						},
 						[48160] = {
 							["school"] = 32,
@@ -15551,14 +16249,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7001,
 						},
-						[57823] = {
-							["school"] = 1,
+						[53022] = {
+							["school"] = 32,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 8329,
+								["Nalar"] = {
+									["amount"] = 13708,
 								},
 							},
-							["amount"] = 8329,
+							["amount"] = 13708,
 						},
 						[47488] = {
 							["school"] = 1,
@@ -15569,14 +16267,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 15780,
 						},
-						[53022] = {
-							["school"] = 32,
+						[47502] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 13708,
+								["Pompeu"] = {
+									["amount"] = 3879,
 								},
 							},
-							["amount"] = 13708,
+							["amount"] = 3879,
 						},
 						[47450] = {
 							["school"] = 1,
@@ -15587,14 +16285,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2054,
 						},
-						[47502] = {
+						[57823] = {
 							["school"] = 1,
 							["sources"] = {
 								["Pompeu"] = {
-									["amount"] = 3879,
+									["amount"] = 8329,
 								},
 							},
-							["amount"] = 3879,
+							["amount"] = 8329,
 						},
 					},
 					["totaldamage"] = 55717,
@@ -15604,12 +16302,12 @@ SkadaStorageDB = {
 					["damage"] = 47906,
 				}, -- [2]
 				{
-					["id"] = "0xF130003C7300001A",
-					["name"] = "Beetle",
-					["totaldamagetaken"] = 10199,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
 					["damagetaken"] = 10199,
+					["name"] = "Beetle",
+					["class"] = "MONSTER",
+					["flag"] = 2600,
+					["totaldamagetaken"] = 10199,
+					["id"] = "0xF130003C7300001A",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -16095,8 +16793,8 @@ SkadaStorageDB = {
 							["amount"] = 2651,
 						},
 					},
-					["name"] = "Ghoul Tormentor",
 					["totaldamage"] = 72185,
+					["name"] = "Ghoul Tormentor",
 					["totaldamagetaken"] = 330127,
 					["id"] = "0xF1300067FD000026",
 					["damage"] = 72185,
@@ -16273,14 +16971,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 9167,
 						},
-						[58381] = {
-							["school"] = 32,
+						[64442] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 2188,
+								["Pompeu"] = {
+									["amount"] = 601,
 								},
 							},
-							["amount"] = 2188,
+							["amount"] = 601,
 						},
 						[63675] = {
 							["school"] = 32,
@@ -16291,14 +16989,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7689,
 						},
-						[57755] = {
-							["school"] = 1,
+						[48300] = {
+							["school"] = 32,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 4076,
+								["Nalar"] = {
+									["amount"] = 9833,
 								},
 							},
-							["amount"] = 4076,
+							["amount"] = 9833,
 						},
 						[46968] = {
 							["school"] = 1,
@@ -16326,14 +17024,26 @@ SkadaStorageDB = {
 							["overkill"] = 3274,
 							["amount"] = 47875,
 						},
-						[64442] = {
+						[53385] = {
+							["school"] = 1,
+							["sources"] = {
+								["Hairypaladin"] = {
+									["amount"] = 2864,
+								},
+							},
+							["amount"] = 2864,
+						},
+						[12721] = {
 							["school"] = 1,
 							["sources"] = {
 								["Pompeu"] = {
-									["amount"] = 601,
+									["amount"] = 1547,
+								},
+								["Warac"] = {
+									["amount"] = 4839,
 								},
 							},
-							["amount"] = 601,
+							["amount"] = 6386,
 						},
 						[69403] = {
 							["school"] = 2,
@@ -16343,15 +17053,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 3022,
-						},
-						[53385] = {
-							["school"] = 1,
-							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 2864,
-								},
-							},
-							["amount"] = 2864,
 						},
 						[57823] = {
 							["school"] = 1,
@@ -16407,18 +17108,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3225,
 						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 1547,
-								},
-								["Warac"] = {
-									["amount"] = 4839,
-								},
-							},
-							["amount"] = 6386,
-						},
 						[20467] = {
 							["school"] = 2,
 							["sources"] = {
@@ -16428,14 +17117,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7982,
 						},
-						[48300] = {
+						[58381] = {
 							["school"] = 32,
 							["sources"] = {
 								["Nalar"] = {
-									["amount"] = 9833,
+									["amount"] = 2188,
 								},
 							},
-							["amount"] = 9833,
+							["amount"] = 2188,
+						},
+						[57755] = {
+							["school"] = 1,
+							["sources"] = {
+								["Pompeu"] = {
+									["amount"] = 4076,
+								},
+							},
+							["amount"] = 4076,
 						},
 					},
 					["totaldamage"] = 39077,
@@ -16537,14 +17235,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 27372,
 						},
-						[20467] = {
-							["school"] = 2,
+						[47450] = {
+							["school"] = 1,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 12376,
+								["Pompeu"] = {
+									["amount"] = 5359,
+								},
+								["Warac"] = {
+									["amount"] = 3675,
 								},
 							},
-							["amount"] = 12376,
+							["amount"] = 9034,
 						},
 						[35395] = {
 							["school"] = 1,
@@ -16591,14 +17292,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2616,
 						},
-						[57823] = {
-							["school"] = 1,
+						[58381] = {
+							["school"] = 32,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 13747,
+								["Nalar"] = {
+									["amount"] = 80524,
 								},
 							},
-							["amount"] = 13747,
+							["amount"] = 80524,
 						},
 						[44949] = {
 							["school"] = 1,
@@ -16609,26 +17310,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7713,
 						},
-						[47450] = {
-							["school"] = 1,
+						[20467] = {
+							["school"] = 2,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 5359,
-								},
-								["Warac"] = {
-									["amount"] = 3675,
+								["Hairypaladin"] = {
+									["amount"] = 12376,
 								},
 							},
-							["amount"] = 9034,
+							["amount"] = 12376,
 						},
-						[1680] = {
-							["school"] = 1,
+						[63675] = {
+							["school"] = 32,
 							["sources"] = {
-								["Warac"] = {
-									["amount"] = 7549,
+								["Nalar"] = {
+									["amount"] = 10226,
 								},
 							},
-							["amount"] = 7549,
+							["amount"] = 10226,
 						},
 						[48300] = {
 							["school"] = 32,
@@ -16692,14 +17390,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4841,
 						},
-						[58381] = {
-							["school"] = 32,
+						[57823] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 80524,
+								["Pompeu"] = {
+									["amount"] = 13747,
 								},
 							},
-							["amount"] = 80524,
+							["amount"] = 13747,
 						},
 						[59653] = {
 							["school"] = 1,
@@ -16719,14 +17417,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 884,
 						},
-						[46968] = {
-							["school"] = 1,
+						[48125] = {
+							["school"] = 32,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 3610,
+								["Nalar"] = {
+									["amount"] = 18044,
 								},
 							},
-							["amount"] = 3610,
+							["amount"] = 18044,
 						},
 						[48806] = {
 							["school"] = 2,
@@ -16737,14 +17435,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6536,
 						},
-						[48125] = {
-							["school"] = 32,
+						[69403] = {
+							["school"] = 2,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 18044,
+								["Hairypaladin"] = {
+									["amount"] = 2766,
 								},
 							},
-							["amount"] = 18044,
+							["amount"] = 2766,
 						},
 						[12721] = {
 							["school"] = 1,
@@ -16758,38 +17456,38 @@ SkadaStorageDB = {
 							},
 							["amount"] = 17345,
 						},
-						[69403] = {
-							["school"] = 2,
+						[46968] = {
+							["school"] = 1,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 2766,
+								["Pompeu"] = {
+									["amount"] = 3610,
 								},
 							},
-							["amount"] = 2766,
+							["amount"] = 3610,
 						},
-						[63675] = {
-							["school"] = 32,
+						[1680] = {
+							["school"] = 1,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 10226,
+								["Warac"] = {
+									["amount"] = 7549,
 								},
 							},
-							["amount"] = 10226,
+							["amount"] = 7549,
 						},
 					},
-					["name"] = "Trollgore",
 					["totaldamage"] = 67358,
+					["name"] = "Trollgore",
 					["totaldamagetaken"] = 434104,
 					["id"] = "0xF130006806000071",
 					["damage"] = 61592,
 				}, -- [7]
 				{
-					["id"] = "0xF130006C3D0000BD",
-					["name"] = "Drakkari Invader",
-					["totaldamagetaken"] = 11660,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
 					["damagetaken"] = 11660,
+					["name"] = "Drakkari Invader",
+					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 11660,
+					["id"] = "0xF130006C3D0000BD",
 					["damagetakenspells"] = {
 						[57823] = {
 							["school"] = 1,
@@ -16817,10 +17515,6 @@ SkadaStorageDB = {
 			["dispel"] = 2,
 			["totaldamage"] = 1742798,
 			["time"] = 103,
-			["ccdone"] = 23,
-			["totaldamagetaken"] = 312673,
-			["etotaldamagetaken"] = 1742798,
-			["last_time"] = 11857.394,
 			["players"] = {
 				{
 					["last"] = 11856.261,
@@ -16850,21 +17544,21 @@ SkadaStorageDB = {
 							["uptime"] = 99,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 5,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 30,
 						},
 						[70691] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 36,
 						},
 						[53251] = {
@@ -16875,15 +17569,15 @@ SkadaStorageDB = {
 							["uptime"] = 34,
 						},
 						[47585] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 9,
 						},
 						[15271] = {
@@ -16930,9 +17624,9 @@ SkadaStorageDB = {
 							["uptime"] = 50,
 						},
 						[586] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 32,
 							["uptime"] = 28,
 						},
 						[48168] = {
@@ -16952,8 +17646,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Wretched Belcher"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 9,
 								},
 								["Flesheating Ghoul"] = {
@@ -17000,9 +17694,9 @@ SkadaStorageDB = {
 							["uptime"] = 45,
 						},
 						[48934] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
 						[61792] = {
@@ -17013,9 +17707,9 @@ SkadaStorageDB = {
 							["uptime"] = 87,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 94,
 						},
 						[48125] = {
@@ -17025,18 +17719,18 @@ SkadaStorageDB = {
 							["refresh"] = 13,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 8,
 								},
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 1,
 									["refresh"] = 5,
+									["count"] = 1,
 									["uptime"] = 12,
 								},
 								["Trollgore"] = {
-									["count"] = 1,
 									["refresh"] = 7,
+									["count"] = 1,
 									["uptime"] = 21,
 								},
 								["Wretched Belcher"] = {
@@ -17053,44 +17747,44 @@ SkadaStorageDB = {
 							["refresh"] = 22,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 12,
 								},
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 1,
 									["refresh"] = 6,
+									["count"] = 1,
 									["uptime"] = 12,
 								},
 								["Trollgore"] = {
-									["count"] = 1,
 									["refresh"] = 11,
+									["count"] = 1,
 									["uptime"] = 25,
 								},
 								["Wretched Belcher"] = {
-									["count"] = 2,
 									["refresh"] = 2,
+									["count"] = 2,
 									["uptime"] = 9,
 								},
 							},
 							["uptime"] = 55,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 18,
 						},
 						[47440] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 28,
 						},
 						[25898] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 87,
 						},
 						[48074] = {
@@ -17099,15 +17793,15 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[48504] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 4,
 						},
 						[57669] = {
@@ -17123,14 +17817,14 @@ SkadaStorageDB = {
 						[48066] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 1,
 							["school"] = 2,
+							["refresh"] = 1,
 							["uptime"] = 50,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 20,
 						},
 						[48156] = {
@@ -17144,13 +17838,13 @@ SkadaStorageDB = {
 									["count"] = 2,
 								},
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 5,
 									["refresh"] = 2,
+									["count"] = 5,
 									["uptime"] = 6,
 								},
 								["Trollgore"] = {
-									["count"] = 8,
 									["refresh"] = 2,
+									["count"] = 8,
 									["uptime"] = 11,
 								},
 								["Wretched Belcher"] = {
@@ -17174,18 +17868,18 @@ SkadaStorageDB = {
 							["school"] = 2,
 						},
 					},
+					["totaldamage"] = 609919,
 					["time"] = 82.74999999999997,
 					["totaldamagetaken"] = 79940,
-					["dispel"] = 2,
 					["damage"] = 609919,
 					["damagespells"] = {
 						["Mind Sear"] = {
-							["count"] = 100,
 							["criticalmin"] = 2882,
+							["hitmax"] = 2644,
 							["hitmin"] = 1778,
 							["criticalamount"] = 120458,
 							["id"] = 53022,
-							["hitmax"] = 2644,
+							["count"] = 100,
 							["targets"] = {
 								["Wretched Belcher"] = {
 									["amount"] = 32565,
@@ -17208,21 +17902,21 @@ SkadaStorageDB = {
 							},
 							["overkill"] = 5675,
 							["hit"] = 65,
-							["casts"] = 6,
+							["criticalmax"] = 4084,
 							["critical"] = 35,
 							["amount"] = 265834,
 							["school"] = 32,
 							["resisted"] = 5963,
-							["criticalmax"] = 4084,
+							["casts"] = 6,
 							["hitamount"] = 145376,
 						},
 						["Vampiric Touch (DoT)"] = {
-							["hitmax"] = 3618,
-							["hit"] = 14,
-							["hitmin"] = 2035,
 							["criticalamount"] = 52608,
+							["criticalmax"] = 6844,
+							["hitmin"] = 2035,
+							["criticalmin"] = 5314,
 							["id"] = 48160,
-							["casts"] = 7,
+							["hitmax"] = 3618,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 17872,
@@ -17239,20 +17933,20 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 2191,
+							["hit"] = 14,
+							["casts"] = 7,
 							["count"] = 23,
-							["criticalmax"] = 6844,
-							["critical"] = 9,
 							["amount"] = 94287,
 							["school"] = 32,
 							["resisted"] = 2999,
-							["criticalmin"] = 5314,
+							["critical"] = 9,
 							["hitamount"] = 41679,
 						},
 						["Improved Devouring Plague"] = {
 							["hitmin"] = 3764,
 							["criticalamount"] = 12240,
 							["id"] = 63675,
-							["hitmax"] = 4460,
+							["criticalmin"] = 5766,
 							["targets"] = {
 								["Wretched Belcher"] = {
 									["amount"] = 7689,
@@ -17264,23 +17958,23 @@ SkadaStorageDB = {
 									["amount"] = 6474,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 3,
-							["casts"] = 1,
 							["critical"] = 2,
 							["amount"] = 24389,
-							["school"] = 32,
-							["criticalmin"] = 5766,
 							["criticalmax"] = 6474,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 32,
+							["hitmax"] = 4460,
+							["casts"] = 1,
 							["hitamount"] = 12149,
 						},
 						["Mind Flay"] = {
-							["criticalmax"] = 7780,
-							["hitmax"] = 3676,
-							["hitmin"] = 2188,
 							["criticalamount"] = 92850,
-							["id"] = 58381,
+							["critical"] = 15,
+							["hitmin"] = 2188,
 							["criticalmin"] = 4573,
+							["id"] = 58381,
+							["hitmax"] = 3676,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 23327,
@@ -17297,13 +17991,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 4475,
-							["critical"] = 15,
+							["hit"] = 22,
 							["casts"] = 16,
 							["count"] = 37,
-							["hit"] = 22,
+							["amount"] = 158946,
 							["school"] = 32,
 							["resisted"] = 5425,
-							["amount"] = 158946,
+							["criticalmax"] = 7780,
 							["hitamount"] = 66096,
 						},
 						["Shadow Word: Pain (DoT)"] = {
@@ -17311,7 +18005,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1520,
 							["criticalamount"] = 20462,
 							["id"] = 48125,
-							["criticalmax"] = 4511,
+							["hitmax"] = 2158,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 3242,
@@ -17327,22 +18021,22 @@ SkadaStorageDB = {
 								},
 							},
 							["critical"] = 6,
-							["hitmax"] = 2158,
+							["hit"] = 7,
 							["casts"] = 4,
 							["count"] = 13,
-							["hit"] = 7,
+							["amount"] = 33338,
 							["school"] = 32,
 							["resisted"] = 1880,
-							["amount"] = 33338,
+							["criticalmax"] = 4511,
 							["hitamount"] = 12876,
 						},
 						["Devouring Plague (DoT)"] = {
-							["hitmax"] = 1746,
-							["casts"] = 5,
-							["hitmin"] = 1244,
 							["criticalamount"] = 19332,
-							["id"] = 48300,
+							["critical"] = 6,
+							["hitmin"] = 1244,
 							["criticalmin"] = 2600,
+							["id"] = 48300,
+							["hitmax"] = 1746,
 							["targets"] = {
 								["Wretched Belcher"] = {
 									["amount"] = 9833,
@@ -17356,13 +18050,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 3649,
-							["critical"] = 6,
+							["hit"] = 9,
 							["criticalmax"] = 3649,
 							["count"] = 15,
-							["hit"] = 9,
+							["amount"] = 33125,
 							["school"] = 32,
 							["resisted"] = 1427,
-							["amount"] = 33125,
+							["casts"] = 5,
 							["hitamount"] = 13793,
 						},
 					},
@@ -17373,6 +18067,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 122605,
+							["max"] = 1804,
+							["count"] = 465,
+							["amount"] = 45128,
+							["school"] = 32,
 							["targets"] = {
 								["Nalar"] = {
 									["overheal"] = 69912,
@@ -17395,10 +18093,6 @@ SkadaStorageDB = {
 									["amount"] = 4001,
 								},
 							},
-							["count"] = 465,
-							["amount"] = 45128,
-							["school"] = 32,
-							["max"] = 1804,
 							["ishot"] = true,
 							["min"] = 23,
 						},
@@ -17418,17 +18112,17 @@ SkadaStorageDB = {
 						},
 						[48300] = {
 							["overheal"] = 3276,
+							["casts"] = 5,
+							["count"] = 15,
+							["amount"] = 1957,
 							["max"] = 546,
+							["min"] = 195,
 							["targets"] = {
 								["Nalar"] = {
 									["overheal"] = 3276,
 									["amount"] = 1957,
 								},
 							},
-							["min"] = 195,
-							["casts"] = 5,
-							["count"] = 15,
-							["amount"] = 1957,
 							["school"] = 32,
 						},
 					},
@@ -17471,10 +18165,7 @@ SkadaStorageDB = {
 							["hitmin"] = 241,
 							["criticalamount"] = 17252,
 							["id"] = 6603,
-							["criticalmax"] = 17252,
-							["critical"] = 1,
-							["ABSORB"] = 1,
-							["hitmax"] = 5655,
+							["count"] = 8,
 							["sources"] = {
 								["Wretched Belcher"] = {
 									["total"] = 3384,
@@ -17492,10 +18183,13 @@ SkadaStorageDB = {
 									["amount"] = 3275,
 								},
 							},
-							["count"] = 8,
-							["amount"] = 34408,
-							["school"] = 1,
+							["critical"] = 1,
+							["ABSORB"] = 1,
+							["criticalmax"] = 17252,
+							["hitmax"] = 5655,
 							["hit"] = 5,
+							["school"] = 1,
+							["amount"] = 34408,
 							["MISS"] = 1,
 							["hitamount"] = 17156,
 						},
@@ -17519,8 +18213,8 @@ SkadaStorageDB = {
 							["total"] = 9655,
 							["hitmin"] = 1974,
 							["id"] = 59015,
-							["amount"] = 4247,
 							["hitmax"] = 2273,
+							["ABSORB"] = 2,
 							["sources"] = {
 								["Risen Drakkari Soulmage"] = {
 									["total"] = 9655,
@@ -17528,10 +18222,10 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 4,
-							["ABSORB"] = 2,
+							["hit"] = 2,
 							["school"] = 32,
 							["resisted"] = 2290,
-							["hit"] = 2,
+							["amount"] = 4247,
 							["hitamount"] = 4247,
 						},
 						["Ghost Strike"] = {
@@ -17578,9 +18272,9 @@ SkadaStorageDB = {
 							["id"] = 59018,
 						},
 					},
-					["totaldamage"] = 609919,
 					["heal"] = 48056,
 					["name"] = "Nalar",
+					["dispel"] = 2,
 					["overheal"] = 127331,
 					["overkill"] = 15990,
 					["dispelspells"] = {
@@ -17638,15 +18332,15 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 18,
 						},
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 8,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[64440] = {
@@ -17657,9 +18351,9 @@ SkadaStorageDB = {
 							["uptime"] = 31,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 88,
 						},
 						[694] = {
@@ -17675,9 +18369,9 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[25898] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 82,
 						},
 						[48170] = {
@@ -17685,29 +18379,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 103,
 						},
-						[47440] = {
+						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 28,
+							["uptime"] = 6,
 						},
 						[552] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 12,
 						},
 						[71638] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[75493] = {
+						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 6,
+							["uptime"] = 10,
 						},
 						[58374] = {
 							["type"] = "BUFF",
@@ -17716,10 +18410,10 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["uptime"] = 73,
 						},
-						[29131] = {
+						[70845] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[46968] = {
@@ -17750,12 +18444,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 9,
 						},
-						[70845] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
 						[48441] = {
 							["type"] = "BUFF",
 							["count"] = 2,
@@ -17763,15 +18451,21 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 45,
 						},
+						[47440] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
 						[70691] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
 						[50227] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 8,
-							["school"] = 1,
 							["uptime"] = 16,
 						},
 						[48074] = {
@@ -17806,8 +18500,8 @@ SkadaStorageDB = {
 							["refresh"] = 11,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 21,
 								},
 								["Trollgore"] = {
@@ -17815,23 +18509,23 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Flesheating Ghoul"] = {
-									["count"] = 4,
 									["refresh"] = 4,
+									["count"] = 4,
 									["uptime"] = 16,
 								},
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 30,
 								},
 								["Ghoul Tormentor"] = {
-									["count"] = 4,
 									["refresh"] = 2,
+									["count"] = 4,
 									["uptime"] = 12,
 								},
 								["Wretched Belcher"] = {
-									["count"] = 2,
 									["refresh"] = 2,
+									["count"] = 2,
 									["uptime"] = 18,
 								},
 							},
@@ -17840,8 +18534,8 @@ SkadaStorageDB = {
 						[57516] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 32,
 							["school"] = 1,
+							["refresh"] = 32,
 							["uptime"] = 97,
 						},
 						[72221] = {
@@ -17868,13 +18562,13 @@ SkadaStorageDB = {
 							["refresh"] = 13,
 							["targets"] = {
 								["Wretched Belcher"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 13,
 								},
 								["Trollgore"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 10,
 								},
 								["Flesheating Ghoul"] = {
@@ -17882,18 +18576,18 @@ SkadaStorageDB = {
 									["count"] = 5,
 								},
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 2,
 									["refresh"] = 5,
+									["count"] = 2,
 									["uptime"] = 22,
 								},
 								["Ghoul Tormentor"] = {
-									["count"] = 2,
 									["refresh"] = 3,
+									["count"] = 2,
 									["uptime"] = 4,
 								},
 								["Risen Drakkari Warrior"] = {
-									["count"] = 3,
 									["refresh"] = 1,
+									["count"] = 3,
 									["uptime"] = 18,
 								},
 							},
@@ -17944,6 +18638,7 @@ SkadaStorageDB = {
 							["max"] = 2707,
 						},
 					},
+					["totaldamage"] = 265997,
 					["time"] = 80.20999999999999,
 					["totaldamagetaken"] = 75706,
 					["damage"] = 265997,
@@ -17973,12 +18668,9 @@ SkadaStorageDB = {
 							["DODGE"] = 11,
 							["total"] = 29238,
 							["hitmin"] = 1555,
-							["ABSORB"] = 1,
-							["id"] = 6603,
-							["PARRY"] = 10,
-							["amount"] = 27373,
 							["blocked"] = 15360,
-							["BLOCK"] = 7,
+							["id"] = 6603,
+							["count"] = 45,
 							["sources"] = {
 								["Wretched Belcher"] = {
 									["total"] = 1865,
@@ -18000,10 +18692,13 @@ SkadaStorageDB = {
 									["amount"] = 3270,
 								},
 							},
-							["count"] = 45,
-							["hit"] = 12,
-							["school"] = 1,
+							["BLOCK"] = 7,
+							["ABSORB"] = 1,
+							["PARRY"] = 10,
 							["hitmax"] = 4272,
+							["amount"] = 27373,
+							["school"] = 1,
+							["hit"] = 12,
 							["MISS"] = 4,
 							["hitamount"] = 27373,
 						},
@@ -18054,54 +18749,6 @@ SkadaStorageDB = {
 							["amount"] = 2028,
 							["hitamount"] = 2028,
 						},
-						["Consume"] = {
-							["hitmin"] = 2505,
-							["id"] = 59803,
-							["hitmax"] = 2505,
-							["sources"] = {
-								["Trollgore"] = {
-									["amount"] = 2505,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 1669,
-							["amount"] = 2505,
-							["hitamount"] = 2505,
-						},
-						["Disease Cloud"] = {
-							["total"] = 1029,
-							["hitmin"] = 88,
-							["id"] = 16346,
-							["ABSORB"] = 5,
-							["hitmax"] = 170,
-							["sources"] = {
-								["Wretched Belcher"] = {
-									["total"] = 1029,
-									["amount"] = 650,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 152,
-							["amount"] = 650,
-							["hitamount"] = 650,
-						},
-						["Crush"] = {
-							["DODGE"] = 1,
-							["PARRY"] = 1,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Trollgore"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 49639,
-						},
 						["Shadow Void (DoT)"] = {
 							["hitmin"] = 1900,
 							["id"] = 59014,
@@ -18118,6 +18765,38 @@ SkadaStorageDB = {
 							["amount"] = 11206,
 							["hitamount"] = 11206,
 						},
+						["Disease Cloud"] = {
+							["total"] = 1029,
+							["hitmin"] = 88,
+							["id"] = 16346,
+							["hitmax"] = 170,
+							["hit"] = 5,
+							["sources"] = {
+								["Wretched Belcher"] = {
+									["total"] = 1029,
+									["amount"] = 650,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 650,
+							["school"] = 8,
+							["resisted"] = 152,
+							["ABSORB"] = 5,
+							["hitamount"] = 650,
+						},
+						["Crush"] = {
+							["DODGE"] = 1,
+							["PARRY"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Trollgore"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 49639,
+						},
 						["Knockdown"] = {
 							["hitmin"] = 108,
 							["id"] = 35011,
@@ -18132,6 +18811,22 @@ SkadaStorageDB = {
 							["hitmax"] = 118,
 							["amount"] = 339,
 							["hitamount"] = 339,
+						},
+						["Consume"] = {
+							["hitmin"] = 2505,
+							["id"] = 59803,
+							["hitmax"] = 2505,
+							["sources"] = {
+								["Trollgore"] = {
+									["amount"] = 2505,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 1669,
+							["amount"] = 2505,
+							["hitamount"] = 2505,
 						},
 						["Flesh Rot"] = {
 							["sources"] = {
@@ -18237,14 +18932,14 @@ SkadaStorageDB = {
 									["amount"] = 3525,
 								},
 							},
-							["criticalmax"] = 7768,
-							["critical"] = 1,
 							["casts"] = 4,
 							["count"] = 13,
-							["hit"] = 12,
-							["school"] = 1,
+							["criticalmax"] = 7768,
 							["hitmax"] = 3610,
 							["amount"] = 49862,
+							["school"] = 1,
+							["hit"] = 12,
+							["critical"] = 1,
 							["hitamount"] = 42094,
 						},
 						["Melee"] = {
@@ -18274,22 +18969,22 @@ SkadaStorageDB = {
 							["criticalamount"] = 7400,
 							["id"] = 6603,
 							["glancemax"] = 646,
-							["blocked"] = 40,
 							["PARRY"] = 1,
-							["criticalmax"] = 1562,
-							["critical"] = 5,
 							["hit"] = 13,
+							["criticalmax"] = 1562,
+							["count"] = 21,
+							["blocked"] = 40,
 							["school"] = 1,
 							["hitmax"] = 776,
-							["count"] = 21,
+							["critical"] = 5,
 							["hitamount"] = 8905,
 						},
 						["Cleave"] = {
-							["blocked"] = 40,
-							["hitmin"] = 722,
 							["criticalamount"] = 9361,
-							["id"] = 47520,
+							["hitmin"] = 722,
 							["criticalmin"] = 1790,
+							["id"] = 47520,
+							["casts"] = 9,
 							["targets"] = {
 								["Wretched Belcher"] = {
 									["amount"] = 830,
@@ -18310,14 +19005,14 @@ SkadaStorageDB = {
 									["amount"] = 2722,
 								},
 							},
-							["criticalmax"] = 2004,
-							["critical"] = 5,
-							["casts"] = 9,
 							["count"] = 13,
-							["hit"] = 8,
-							["school"] = 1,
+							["blocked"] = 40,
+							["criticalmax"] = 2004,
 							["hitmax"] = 894,
 							["amount"] = 15942,
+							["school"] = 1,
+							["critical"] = 5,
+							["hit"] = 8,
 							["hitamount"] = 6581,
 						},
 						["Mocking Blow"] = {
@@ -18335,19 +19030,6 @@ SkadaStorageDB = {
 							["hitmax"] = 1146,
 							["amount"] = 1146,
 							["hitamount"] = 1146,
-						},
-						["Charge Stun"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Trollgore"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 7922,
 						},
 						["Deep Wounds (DoT)"] = {
 							["hitmin"] = 84,
@@ -18380,21 +19062,21 @@ SkadaStorageDB = {
 							["hitamount"] = 12477,
 						},
 						["Thunder Clap"] = {
-							["criticalmax"] = 3377,
-							["hitmin"] = 831,
 							["criticalamount"] = 22896,
-							["id"] = 47502,
+							["hitmin"] = 831,
 							["criticalmin"] = 1828,
+							["id"] = 47502,
+							["casts"] = 8,
 							["targets"] = {
 								["Wretched Belcher"] = {
 									["amount"] = 5628,
 								},
+								["Trollgore"] = {
+									["amount"] = 884,
+								},
 								["Beetle"] = {
 									["overkill"] = 3368,
 									["amount"] = 3377,
-								},
-								["Trollgore"] = {
-									["amount"] = 884,
 								},
 								["Flesheating Ghoul"] = {
 									["amount"] = 12340,
@@ -18410,31 +19092,44 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 3368,
-							["critical"] = 11,
-							["casts"] = 8,
 							["count"] = 27,
-							["hit"] = 16,
-							["school"] = 1,
+							["criticalmax"] = 3377,
 							["hitmax"] = 926,
 							["amount"] = 37203,
+							["school"] = 1,
+							["hit"] = 16,
+							["critical"] = 11,
 							["hitamount"] = 14307,
 						},
+						["Charge Stun"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Trollgore"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 7922,
+						},
 						["Revenge"] = {
-							["criticalmax"] = 10478,
-							["hitmin"] = 3901,
 							["criticalamount"] = 29464,
-							["id"] = 57823,
+							["hitmin"] = 3901,
 							["criticalmin"] = 9416,
+							["id"] = 57823,
+							["casts"] = 7,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 17432,
 								},
+								["Trollgore"] = {
+									["amount"] = 13747,
+								},
 								["Drakkari Invader"] = {
 									["overkill"] = 8544,
 									["amount"] = 10478,
-								},
-								["Trollgore"] = {
-									["amount"] = 13747,
 								},
 								["Flesheating Ghoul"] = {
 									["overkill"] = 2312,
@@ -18451,13 +19146,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 10856,
-							["critical"] = 3,
-							["casts"] = 7,
 							["count"] = 13,
-							["hit"] = 10,
-							["school"] = 1,
+							["criticalmax"] = 10478,
 							["hitmax"] = 4381,
 							["amount"] = 71456,
+							["school"] = 1,
+							["hit"] = 10,
+							["critical"] = 3,
 							["hitamount"] = 41992,
 						},
 						["Blade Warding"] = {
@@ -18532,14 +19227,14 @@ SkadaStorageDB = {
 									["amount"] = 2871,
 								},
 							},
-							["criticalmax"] = 6474,
-							["critical"] = 2,
 							["casts"] = 9,
 							["count"] = 9,
-							["hit"] = 7,
-							["school"] = 1,
+							["criticalmax"] = 6474,
 							["hitmax"] = 2995,
 							["amount"] = 33347,
+							["school"] = 1,
+							["hit"] = 7,
+							["critical"] = 2,
 							["hitamount"] = 20425,
 						},
 						["Heroic Throw"] = {
@@ -18562,7 +19257,7 @@ SkadaStorageDB = {
 							["hitmin"] = 994,
 							["criticalamount"] = 6889,
 							["id"] = 47450,
-							["hitmax"] = 1114,
+							["criticalmin"] = 2208,
 							["targets"] = {
 								["Wretched Belcher"] = {
 									["amount"] = 994,
@@ -18580,18 +19275,17 @@ SkadaStorageDB = {
 									["amount"] = 5713,
 								},
 							},
-							["count"] = 11,
-							["hit"] = 8,
-							["casts"] = 11,
 							["critical"] = 3,
 							["amount"] = 15217,
-							["school"] = 1,
-							["criticalmin"] = 2208,
 							["criticalmax"] = 2464,
+							["count"] = 11,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 1114,
+							["casts"] = 11,
 							["hitamount"] = 8328,
 						},
 					},
-					["totaldamage"] = 265997,
 					["role"] = "TANK",
 				}, -- [2]
 				{
@@ -18605,21 +19299,21 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[71184] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 75,
+							["type"] = "BUFF",
 							["uptime"] = 103,
+							["count"] = 1,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 100,
 						},
 						[25898] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 85,
 						},
 						[48170] = {
@@ -18638,26 +19332,21 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[75490] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
-						[33891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 79,
-						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[72221] = {
@@ -18672,15 +19361,20 @@ SkadaStorageDB = {
 							["refresh"] = 36,
 							["uptime"] = 89,
 						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 79,
+						},
 						[57669] = {
 							["school"] = 8,
 							["type"] = "BUFF",
 							["uptime"] = 40,
 						},
 						[47440] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 28,
 						},
 						[48074] = {
@@ -18689,21 +19383,21 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 9,
 						},
 						[48504] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 2,
 						},
 						[552] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 12,
 						},
 						[53251] = {
@@ -18723,21 +19417,18 @@ SkadaStorageDB = {
 					},
 					["role"] = "HEALER",
 					["time"] = 83.46000000000001,
-					["ragespells"] = {
-						[48541] = 84,
-					},
 					["totaldamagetaken"] = 27930,
-					["overkill"] = 3048,
 					["damage"] = 28434,
 					["overheal"] = 425417,
+					["damagetaken"] = 27930,
 					["damagespells"] = {
 						["Wrath"] = {
-							["critical"] = 2,
 							["criticalmin"] = 4073,
+							["hitmax"] = 3044,
 							["hitmin"] = 2690,
 							["criticalamount"] = 8564,
 							["id"] = 48459,
-							["criticalmax"] = 4491,
+							["critical"] = 2,
 							["targets"] = {
 								["Trollgore"] = {
 									["overkill"] = 3048,
@@ -18745,37 +19436,49 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 3048,
-							["hitmax"] = 3044,
+							["hit"] = 7,
 							["casts"] = 10,
 							["count"] = 9,
-							["hit"] = 7,
+							["amount"] = 28434,
 							["school"] = 8,
 							["resisted"] = 1652,
-							["amount"] = 28434,
+							["criticalmax"] = 4491,
 							["hitamount"] = 19870,
 						},
 					},
-					["damagetaken"] = 27930,
 					["id"] = "0x07000000007AA386",
 					["spec"] = 105,
 					["healspells"] = {
-						[18562] = {
-							["overheal"] = 4322,
-							["criticalamount"] = 12970,
-							["max"] = 12970,
+						[75493] = {
+							["overheal"] = 7438,
+							["school"] = 2,
+							["count"] = 25,
+							["amount"] = 2864,
+							["max"] = 412,
+							["ishot"] = true,
 							["targets"] = {
+								["Pompeu"] = {
+									["overheal"] = 1236,
+									["amount"] = 1236,
+								},
+								["Warac"] = {
+									["overheal"] = 2280,
+									["amount"] = 193,
+								},
+								["Elunestrasza"] = {
+									["overheal"] = 1236,
+									["amount"] = 1236,
+								},
 								["Nalar"] = {
-									["overheal"] = 4322,
-									["amount"] = 12970,
+									["overheal"] = 412,
+									["amount"] = 0,
+								},
+								["Hairypaladin"] = {
+									["overheal"] = 2274,
+									["amount"] = 199,
 								},
 							},
-							["min"] = 12970,
-							["criticalmax"] = 12970,
-							["critical"] = 1,
-							["amount"] = 12970,
-							["school"] = 8,
-							["criticalmin"] = 12970,
-							["count"] = 1,
+							["min"] = 193,
 						},
 						[48503] = {
 							["overheal"] = 4960,
@@ -18827,39 +19530,30 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["ishot"] = true,
 						},
-						[75493] = {
-							["overheal"] = 7438,
-							["max"] = 412,
-							["count"] = 25,
-							["amount"] = 2864,
-							["school"] = 2,
-							["min"] = 193,
-							["ishot"] = true,
+						[18562] = {
+							["overheal"] = 4322,
+							["criticalamount"] = 12970,
+							["max"] = 12970,
 							["targets"] = {
-								["Pompeu"] = {
-									["overheal"] = 1236,
-									["amount"] = 1236,
-								},
-								["Warac"] = {
-									["overheal"] = 2280,
-									["amount"] = 193,
-								},
-								["Elunestrasza"] = {
-									["overheal"] = 1236,
-									["amount"] = 1236,
-								},
 								["Nalar"] = {
-									["overheal"] = 412,
-									["amount"] = 0,
-								},
-								["Hairypaladin"] = {
-									["overheal"] = 2274,
-									["amount"] = 199,
+									["overheal"] = 4322,
+									["amount"] = 12970,
 								},
 							},
+							["min"] = 12970,
+							["criticalmax"] = 12970,
+							["critical"] = 1,
+							["amount"] = 12970,
+							["school"] = 8,
+							["criticalmin"] = 12970,
+							["count"] = 1,
 						},
 						[71866] = {
 							["overheal"] = 14137,
+							["max"] = 284,
+							["count"] = 73,
+							["amount"] = 6567,
+							["school"] = 2,
 							["targets"] = {
 								["Pompeu"] = {
 									["overheal"] = 3405,
@@ -18882,12 +19576,50 @@ SkadaStorageDB = {
 									["amount"] = 568,
 								},
 							},
-							["count"] = 73,
-							["amount"] = 6567,
-							["school"] = 2,
-							["max"] = 284,
 							["ishot"] = true,
 							["min"] = 42,
+						},
+						[50464] = {
+							["overheal"] = 66447,
+							["criticalamount"] = 28249,
+							["max"] = 14031,
+							["targets"] = {
+								["Warac"] = {
+									["overheal"] = 45622,
+									["amount"] = 34950,
+								},
+								["Elunestrasza"] = {
+									["overheal"] = 20825,
+									["amount"] = 3043,
+								},
+							},
+							["min"] = 2061,
+							["casts"] = 7,
+							["count"] = 8,
+							["amount"] = 37993,
+							["school"] = 8,
+							["criticalmin"] = 0,
+							["criticalmax"] = 14031,
+							["critical"] = 6,
+						},
+						[70691] = {
+							["overheal"] = 38084,
+							["max"] = 3445,
+							["count"] = 16,
+							["amount"] = 16325,
+							["school"] = 8,
+							["targets"] = {
+								["Pompeu"] = {
+									["overheal"] = 3273,
+									["amount"] = 10505,
+								},
+								["Nalar"] = {
+									["overheal"] = 34811,
+									["amount"] = 5820,
+								},
+							},
+							["ishot"] = true,
+							["min"] = 613,
 						},
 						[48441] = {
 							["overheal"] = 159219,
@@ -18921,49 +19653,8 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["ishot"] = true,
 						},
-						[70691] = {
-							["overheal"] = 38084,
-							["targets"] = {
-								["Pompeu"] = {
-									["overheal"] = 3273,
-									["amount"] = 10505,
-								},
-								["Nalar"] = {
-									["overheal"] = 34811,
-									["amount"] = 5820,
-								},
-							},
-							["count"] = 16,
-							["amount"] = 16325,
-							["school"] = 8,
-							["max"] = 3445,
-							["ishot"] = true,
-							["min"] = 613,
-						},
-						[50464] = {
-							["overheal"] = 66447,
-							["criticalamount"] = 28249,
-							["max"] = 14031,
-							["targets"] = {
-								["Warac"] = {
-									["overheal"] = 45622,
-									["amount"] = 34950,
-								},
-								["Elunestrasza"] = {
-									["overheal"] = 20825,
-									["amount"] = 3043,
-								},
-							},
-							["criticalmin"] = 0,
-							["min"] = 2061,
-							["casts"] = 7,
-							["count"] = 8,
-							["amount"] = 37993,
-							["school"] = 8,
-							["criticalmax"] = 14031,
-							["critical"] = 6,
-						},
 					},
+					["overkill"] = 3048,
 					["damagetakenspells"] = {
 						["Bile Vomit (DoT)"] = {
 							["hitmin"] = 1092,
@@ -18987,7 +19678,7 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["criticalmin"] = 5750,
 							["criticalmax"] = 5750,
-							["critical"] = 1,
+							["count"] = 6,
 							["amount"] = 13029,
 							["sources"] = {
 								["Wretched Belcher"] = {
@@ -19003,10 +19694,10 @@ SkadaStorageDB = {
 									["amount"] = 3765,
 								},
 							},
-							["count"] = 6,
+							["hitmax"] = 3765,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 3765,
+							["critical"] = 1,
 							["MISS"] = 2,
 							["hitamount"] = 7279,
 						},
@@ -19057,15 +19748,18 @@ SkadaStorageDB = {
 							["hitamount"] = 1865,
 						},
 					},
-					["totaldamage"] = 28434,
-					["heal"] = 219963,
-					["name"] = "Elunestrasza",
-					["rage"] = 84,
+					["ragespells"] = {
+						[48541] = 84,
+					},
 					["manaspells"] = {
 						[55767] = 800,
 						[48542] = 4038,
 						[55382] = 600,
 					},
+					["totaldamage"] = 28434,
+					["heal"] = 219963,
+					["rage"] = 84,
+					["name"] = "Elunestrasza",
 					["mana"] = 5438,
 				}, -- [3]
 				{
@@ -19074,9 +19768,9 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[12970] = {
@@ -19092,9 +19786,9 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 12,
 						},
 						[48942] = {
@@ -19103,9 +19797,9 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[25898] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 82,
 						},
 						[48170] = {
@@ -19114,15 +19808,15 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 12,
-							["school"] = 1,
 							["uptime"] = 44,
 						},
 						[12292] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 25,
 						},
 						[72221] = {
@@ -19131,15 +19825,15 @@ SkadaStorageDB = {
 							["uptime"] = 103,
 						},
 						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[71559] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 30,
 						},
 						[59620] = {
@@ -19149,25 +19843,6 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["uptime"] = 45,
 						},
-						[48504] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 18,
-						},
-						[55775] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 21,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 28,
-						},
 						[12721] = {
 							["type"] = "DEBUFF",
 							["count"] = 17,
@@ -19175,13 +19850,13 @@ SkadaStorageDB = {
 							["refresh"] = 39,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 2,
 									["refresh"] = 12,
+									["count"] = 2,
 									["uptime"] = 21,
 								},
 								["Trollgore"] = {
-									["count"] = 2,
 									["refresh"] = 9,
+									["count"] = 2,
 									["uptime"] = 21,
 								},
 								["Flesheating Ghoul"] = {
@@ -19193,17 +19868,36 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Ghoul Tormentor"] = {
-									["count"] = 6,
 									["refresh"] = 11,
+									["count"] = 6,
 									["uptime"] = 19,
 								},
 								["Wretched Belcher"] = {
-									["count"] = 3,
 									["refresh"] = 7,
+									["count"] = 3,
 									["uptime"] = 17,
 								},
 							},
 							["uptime"] = 67,
+						},
+						[55775] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 21,
+						},
+						[47440] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[48504] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 1,
+							["uptime"] = 18,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -19218,9 +19912,9 @@ SkadaStorageDB = {
 							["uptime"] = 18,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[53251] = {
@@ -19238,11 +19932,11 @@ SkadaStorageDB = {
 							["uptime"] = 62,
 						},
 					},
+					["totaldamage"] = 499356,
 					["time"] = 82.28000000000003,
 					["totaldamagetaken"] = 114636,
 					["damage"] = 499356,
 					["rage"] = 35,
-					["overheal"] = 6015,
 					["damagetaken"] = 114636,
 					["id"] = "0x070000000060091D",
 					["spec"] = 72,
@@ -19407,11 +20101,12 @@ SkadaStorageDB = {
 							["hitamount"] = 9690,
 						},
 					},
-					["overkill"] = 17760,
 					["ragespells"] = {
 						[12964] = 35,
 					},
 					["name"] = "Warac",
+					["overheal"] = 6015,
+					["overkill"] = 17760,
 					["heal"] = 6455,
 					["damagespells"] = {
 						["Intercept"] = {
@@ -19434,7 +20129,7 @@ SkadaStorageDB = {
 							["hitmin"] = 3180,
 							["criticalamount"] = 76142,
 							["id"] = 23881,
-							["hitmax"] = 3594,
+							["criticalmin"] = 6788,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 25443,
@@ -19449,14 +20144,14 @@ SkadaStorageDB = {
 									["amount"] = 13087,
 								},
 							},
-							["count"] = 12,
-							["hit"] = 3,
-							["casts"] = 12,
 							["critical"] = 9,
 							["amount"] = 86501,
-							["school"] = 1,
-							["criticalmin"] = 6788,
 							["criticalmax"] = 9546,
+							["count"] = 12,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 3594,
+							["casts"] = 12,
 							["hitamount"] = 10359,
 						},
 						["Melee"] = {
@@ -19536,12 +20231,12 @@ SkadaStorageDB = {
 							["hitamount"] = 2965,
 						},
 						["Whirlwind"] = {
-							["hit"] = 16,
-							["hitmax"] = 3866,
+							["criticalmin"] = 3834,
+							["blocked"] = 40,
 							["hitmin"] = 1738,
 							["criticalamount"] = 116661,
 							["id"] = 1680,
-							["count"] = 36,
+							["critical"] = 20,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 25172,
@@ -19564,13 +20259,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 3438,
-							["blocked"] = 40,
-							["casts"] = 9,
-							["critical"] = 20,
+							["hit"] = 16,
+							["criticalmax"] = 8128,
+							["count"] = 36,
 							["amount"] = 159786,
 							["school"] = 1,
-							["criticalmin"] = 3834,
-							["criticalmax"] = 8128,
+							["hitmax"] = 3866,
+							["casts"] = 9,
 							["hitamount"] = 43125,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -19619,18 +20314,17 @@ SkadaStorageDB = {
 									["amount"] = 13058,
 								},
 							},
-							["criticalmax"] = 7424,
-							["critical"] = 3,
 							["casts"] = 6,
 							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 1,
+							["criticalmax"] = 7424,
 							["hitmax"] = 3675,
 							["amount"] = 31269,
+							["school"] = 1,
+							["hit"] = 3,
+							["critical"] = 3,
 							["hitamount"] = 9805,
 						},
 					},
-					["totaldamage"] = 499356,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
@@ -19649,15 +20343,15 @@ SkadaStorageDB = {
 					["class"] = "PALADIN",
 					["auras"] = {
 						[48934] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 93,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 36,
 						},
 						[71432] = {
@@ -19718,8 +20412,8 @@ SkadaStorageDB = {
 									["count"] = 2,
 								},
 								["Trollgore"] = {
-									["count"] = 2,
 									["refresh"] = 3,
+									["count"] = 2,
 									["uptime"] = 17,
 								},
 								["Ghoul Tormentor"] = {
@@ -19727,8 +20421,8 @@ SkadaStorageDB = {
 									["count"] = 3,
 								},
 								["Wretched Belcher"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 6,
 								},
 							},
@@ -19757,29 +20451,29 @@ SkadaStorageDB = {
 									["count"] = 2,
 								},
 								["Trollgore"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 17,
 								},
 							},
 							["uptime"] = 21,
 						},
 						[75493] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[59620] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48817] = {
@@ -19818,8 +20512,8 @@ SkadaStorageDB = {
 									["count"] = 2,
 								},
 								["Trollgore"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 17,
 								},
 							},
@@ -19836,15 +20530,15 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[71401] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 64,
 							["uptime"] = 30,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[53251] = {
@@ -19855,9 +20549,9 @@ SkadaStorageDB = {
 							["uptime"] = 28,
 						},
 						[20375] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 95,
 						},
 					},
@@ -19933,21 +20627,21 @@ SkadaStorageDB = {
 									["amount"] = 2864,
 								},
 							},
-							["criticalmax"] = 6474,
-							["critical"] = 5,
 							["casts"] = 5,
 							["count"] = 9,
-							["hit"] = 4,
-							["school"] = 1,
+							["criticalmax"] = 6474,
 							["hitmax"] = 2899,
 							["amount"] = 42268,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 5,
 							["hitamount"] = 11079,
 						},
 						["Manifest Anger"] = {
 							["hitmin"] = 1078,
 							["criticalamount"] = 7378,
 							["id"] = 71433,
-							["hitmax"] = 1078,
+							["criticalmin"] = 2082,
 							["targets"] = {
 								["Flesheating Ghoul"] = {
 									["amount"] = 1078,
@@ -19959,14 +20653,14 @@ SkadaStorageDB = {
 									["amount"] = 4727,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 3,
 							["amount"] = 8456,
-							["school"] = 1,
-							["criticalmin"] = 2082,
 							["criticalmax"] = 2651,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1078,
+							["casts"] = 1,
 							["hitamount"] = 1078,
 						},
 						["Hammer of Wrath"] = {
@@ -19998,12 +20692,48 @@ SkadaStorageDB = {
 							},
 							["criticalmin"] = 3200,
 							["casts"] = 1,
-							["critical"] = 5,
+							["count"] = 5,
 							["amount"] = 20358,
 							["school"] = 2,
 							["resisted"] = 1230,
 							["criticalmax"] = 4593,
-							["count"] = 5,
+							["critical"] = 5,
+						},
+						["Seal of Command"] = {
+							["criticalmin"] = 2348,
+							["hitmax"] = 1670,
+							["hitmin"] = 1221,
+							["criticalamount"] = 73813,
+							["id"] = 20424,
+							["critical"] = 25,
+							["targets"] = {
+								["Wretched Belcher"] = {
+									["amount"] = 23129,
+								},
+								["Flesheating Ghoul"] = {
+									["overkill"] = 415,
+									["amount"] = 37731,
+								},
+								["Trollgore"] = {
+									["amount"] = 24938,
+								},
+								["Ghoul Tormentor"] = {
+									["amount"] = 21608,
+								},
+								["Risen Drakkari Warrior"] = {
+									["overkill"] = 33,
+									["amount"] = 1254,
+								},
+							},
+							["overkill"] = 448,
+							["hit"] = 24,
+							["casts"] = 1,
+							["count"] = 49,
+							["amount"] = 108660,
+							["school"] = 2,
+							["resisted"] = 2935,
+							["criticalmax"] = 3392,
+							["hitamount"] = 34847,
 						},
 						["Melee"] = {
 							["glance"] = 1945,
@@ -20037,47 +20767,11 @@ SkadaStorageDB = {
 							["hitmax"] = 2575,
 							["hitamount"] = 7412,
 						},
-						["Seal of Command"] = {
-							["criticalmin"] = 2348,
-							["criticalmax"] = 3392,
-							["hitmin"] = 1221,
-							["criticalamount"] = 73813,
-							["id"] = 20424,
-							["critical"] = 25,
-							["targets"] = {
-								["Wretched Belcher"] = {
-									["amount"] = 23129,
-								},
-								["Flesheating Ghoul"] = {
-									["overkill"] = 415,
-									["amount"] = 37731,
-								},
-								["Trollgore"] = {
-									["amount"] = 24938,
-								},
-								["Ghoul Tormentor"] = {
-									["amount"] = 21608,
-								},
-								["Risen Drakkari Warrior"] = {
-									["overkill"] = 33,
-									["amount"] = 1254,
-								},
-							},
-							["overkill"] = 448,
-							["hitmax"] = 1670,
-							["casts"] = 1,
-							["count"] = 49,
-							["hit"] = 24,
-							["school"] = 2,
-							["resisted"] = 2935,
-							["amount"] = 108660,
-							["hitamount"] = 34847,
-						},
 						["Crusader Strike"] = {
 							["hitmin"] = 1990,
 							["criticalamount"] = 12764,
 							["id"] = 35395,
-							["hitmax"] = 2036,
+							["criticalmin"] = 4210,
 							["targets"] = {
 								["Wretched Belcher"] = {
 									["amount"] = 6280,
@@ -20089,14 +20783,14 @@ SkadaStorageDB = {
 									["amount"] = 6300,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 2,
-							["casts"] = 5,
 							["critical"] = 3,
 							["amount"] = 16790,
-							["school"] = 1,
-							["criticalmin"] = 4210,
 							["criticalmax"] = 4290,
+							["count"] = 5,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2036,
+							["casts"] = 5,
 							["hitamount"] = 4026,
 						},
 						["Righteous Vengeance (DoT)"] = {
@@ -20125,11 +20819,11 @@ SkadaStorageDB = {
 							["hitamount"] = 7343,
 						},
 						["Holy Wrath"] = {
-							["count"] = 10,
+							["criticalmin"] = 3470,
 							["hitmin"] = 2117,
 							["criticalamount"] = 10544,
 							["id"] = 48817,
-							["hitmax"] = 2325,
+							["critical"] = 3,
 							["targets"] = {
 								["Wretched Belcher"] = {
 									["amount"] = 5587,
@@ -20143,23 +20837,26 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 1283,
-							["hit"] = 7,
-							["casts"] = 1,
-							["critical"] = 3,
 							["amount"] = 26175,
-							["school"] = 2,
-							["criticalmin"] = 3470,
 							["criticalmax"] = 3550,
+							["hitmax"] = 2325,
+							["hit"] = 7,
+							["school"] = 2,
+							["count"] = 10,
+							["casts"] = 1,
 							["hitamount"] = 15631,
 						},
 					},
-					["overheal"] = 301,
 					["damagetaken"] = 14461,
 					["id"] = "0x07000000008E8B28",
 					["spec"] = 70,
 					["healspells"] = {
 						[54172] = {
 							["overheal"] = 301,
+							["max"] = 2657,
+							["count"] = 4,
+							["amount"] = 5220,
+							["school"] = 2,
 							["targets"] = {
 								["Nalar"] = {
 									["overheal"] = 0,
@@ -20174,10 +20871,6 @@ SkadaStorageDB = {
 									["amount"] = 2657,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 5220,
-							["school"] = 2,
-							["max"] = 2657,
 							["ishot"] = true,
 							["min"] = 241,
 						},
@@ -20244,10 +20937,11 @@ SkadaStorageDB = {
 							["hitamount"] = 1547,
 						},
 					},
-					["overkill"] = 2392,
+					["overheal"] = 301,
 					["heal"] = 5220,
 					["name"] = "Hairypaladin",
 					["ccdone"] = 10,
+					["overkill"] = 2392,
 					["totaldamage"] = 339092,
 					["manaspells"] = {
 						[31930] = 5490,
@@ -20258,25 +20952,28 @@ SkadaStorageDB = {
 					["mana"] = 14431,
 				}, -- [5]
 			},
+			["totaldamagetaken"] = 312673,
+			["etotaldamagetaken"] = 1742798,
+			["last_time"] = 11857.394,
+			["starttime"] = 1700476096,
 			["type"] = "party",
 			["damagetaken"] = 283862,
-			["overheal"] = 559064,
-			["rage"] = 319,
+			["gotboss"] = 26630,
+			["ccdone"] = 23,
+			["success"] = true,
 			["etotaldamage"] = 312673,
 			["overkill"] = 53414,
 			["edamagetaken"] = 1742798,
 			["heal"] = 279694,
 			["name"] = "Trollgore",
 			["mobname"] = "Trollgore",
-			["starttime"] = 1700476096,
+			["absorb"] = 28811,
 			["edamage"] = 283862,
 			["last_action"] = 1700476199,
 			["endtime"] = 1700476199,
-		}, -- [8]
+		}, -- [10]
 		{
-			["damage"] = 378606,
 			["mana"] = 6475,
-			["absorb"] = 7021,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -20541,8 +21238,8 @@ SkadaStorageDB = {
 							["amount"] = 8457,
 						},
 					},
-					["name"] = "Risen Drakkari Soulmage",
 					["totaldamage"] = 28581,
+					["name"] = "Risen Drakkari Soulmage",
 					["totaldamagetaken"] = 192411,
 					["id"] = "0xF13000680C00007D",
 					["damage"] = 24267,
@@ -20766,12 +21463,12 @@ SkadaStorageDB = {
 					["damage"] = 10671,
 				}, -- [2]
 				{
-					["id"] = "0xF130000FEB00000D",
-					["name"] = "Rat",
-					["totaldamagetaken"] = 3264,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
 					["damagetaken"] = 3264,
+					["name"] = "Rat",
+					["class"] = "MONSTER",
+					["flag"] = 2600,
+					["totaldamagetaken"] = 3264,
+					["id"] = "0xF130000FEB00000D",
 					["damagetakenspells"] = {
 						[47502] = {
 							["school"] = 1,
@@ -20820,14 +21517,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6130,
 						},
-						[48819] = {
-							["school"] = 2,
+						[57823] = {
+							["school"] = 1,
 							["sources"] = {
-								["Hairypaladin"] = {
-									["amount"] = 1317,
+								["Pompeu"] = {
+									["amount"] = 3948,
 								},
 							},
-							["amount"] = 1317,
+							["amount"] = 3948,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -20853,14 +21550,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3437,
 						},
-						[57823] = {
-							["school"] = 1,
+						[48819] = {
+							["school"] = 2,
 							["sources"] = {
-								["Pompeu"] = {
-									["amount"] = 3948,
+								["Hairypaladin"] = {
+									["amount"] = 1317,
 								},
 							},
-							["amount"] = 3948,
+							["amount"] = 1317,
 						},
 						[61411] = {
 							["school"] = 2,
@@ -20958,16 +21655,17 @@ SkadaStorageDB = {
 							["amount"] = 2616,
 						},
 					},
-					["name"] = "Scourge Reanimator",
 					["totaldamage"] = 7355,
+					["name"] = "Scourge Reanimator",
 					["totaldamagetaken"] = 65202,
 					["id"] = "0xF13000680200006D",
 					["damage"] = 7355,
 				}, -- [4]
 			},
+			["absorb"] = 7021,
 			["totaldamage"] = 378606,
 			["time"] = 39,
-			["ccdone"] = 6,
+			["damage"] = 378606,
 			["totaldamagetaken"] = 49314,
 			["etotaldamagetaken"] = 378606,
 			["last_time"] = 11740.352,
@@ -20978,9 +21676,9 @@ SkadaStorageDB = {
 					["class"] = "PRIEST",
 					["auras"] = {
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[15473] = {
@@ -20994,15 +21692,15 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 2,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48074] = {
@@ -21015,24 +21713,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 39,
 						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["refresh"] = 7,
-							["targets"] = {
-								["Risen Drakkari Warrior"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 6,
-								},
-								["Risen Drakkari Soulmage"] = {
-									["count"] = 1,
-									["refresh"] = 4,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 14,
+						[48942] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
 						},
 						[48170] = {
 							["type"] = "BUFF",
@@ -21046,23 +21731,17 @@ SkadaStorageDB = {
 							["refresh"] = 9,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 4,
+									["count"] = 1,
 									["uptime"] = 6,
 								},
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 2,
 									["refresh"] = 5,
+									["count"] = 2,
 									["uptime"] = 12,
 								},
 							},
 							["count"] = 3,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 18,
 						},
 						[48066] = {
 							["type"] = "BUFF",
@@ -21070,12 +21749,6 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["refresh"] = 1,
 							["uptime"] = 20,
-						},
-						[47585] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -21092,6 +21765,31 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 27,
+						},
+						[47585] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[48125] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["refresh"] = 7,
+							["targets"] = {
+								["Risen Drakkari Warrior"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 6,
+								},
+								["Risen Drakkari Soulmage"] = {
+									["refresh"] = 4,
+									["count"] = 1,
+									["uptime"] = 8,
+								},
+							},
+							["uptime"] = 14,
 						},
 						[48300] = {
 							["type"] = "DEBUFF",
@@ -21112,17 +21810,17 @@ SkadaStorageDB = {
 							["refresh"] = 24,
 							["uptime"] = 37,
 						},
-						[63619] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 5,
-						},
 						[34123] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
+						},
+						[63619] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 						[47436] = {
 							["type"] = "BUFF",
@@ -21137,9 +21835,9 @@ SkadaStorageDB = {
 							["uptime"] = 23,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 						[61792] = {
@@ -21150,9 +21848,9 @@ SkadaStorageDB = {
 							["uptime"] = 29,
 						},
 						[75473] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[72221] = {
@@ -21161,11 +21859,6 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[67016] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 39,
@@ -21186,10 +21879,15 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
 						[15271] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 32,
 							["uptime"] = 17,
 						},
 						[48160] = {
@@ -21222,6 +21920,7 @@ SkadaStorageDB = {
 							["max"] = 3088,
 						},
 					},
+					["totaldamage"] = 120142,
 					["time"] = 23.66,
 					["damage"] = 120142,
 					["overheal"] = 50593,
@@ -21231,6 +21930,10 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 49186,
+							["max"] = 324,
+							["count"] = 167,
+							["amount"] = 10435,
+							["school"] = 32,
 							["targets"] = {
 								["Nalar"] = {
 									["overheal"] = 32867,
@@ -21261,10 +21964,6 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 167,
-							["amount"] = 10435,
-							["school"] = 32,
-							["max"] = 324,
 							["ishot"] = true,
 							["min"] = 67,
 						},
@@ -21282,19 +21981,19 @@ SkadaStorageDB = {
 						},
 					},
 					["overkill"] = 4551,
+					["heal"] = 10435,
 					["manaspells"] = {
 						[34650] = 1508,
 					},
-					["heal"] = 10435,
 					["name"] = "Nalar",
 					["mana"] = 1508,
 					["damagespells"] = {
 						["Vampiric Touch (DoT)"] = {
-							["casts"] = 2,
-							["hitmin"] = 2244,
 							["criticalamount"] = 10494,
-							["id"] = 48160,
+							["hitmin"] = 2244,
 							["criticalmin"] = 4690,
+							["id"] = 48160,
+							["criticalmax"] = 5804,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 6934,
@@ -21305,13 +22004,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 2281,
-							["critical"] = 2,
-							["criticalmax"] = 5804,
 							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 32,
+							["casts"] = 2,
 							["hitmax"] = 2778,
 							["amount"] = 15516,
+							["school"] = 32,
+							["hit"] = 2,
+							["critical"] = 2,
 							["hitamount"] = 5022,
 						},
 						["Melee (Shadowfiend)"] = {
@@ -21346,12 +22045,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 						},
 						["Mind Flay"] = {
-							["count"] = 21,
 							["criticalmin"] = 4130,
+							["hitmax"] = 2517,
 							["hitmin"] = 1976,
 							["criticalamount"] = 59367,
 							["id"] = 58381,
-							["hitmax"] = 2517,
+							["count"] = 21,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 28782,
@@ -21363,20 +22062,20 @@ SkadaStorageDB = {
 							},
 							["overkill"] = 2270,
 							["hit"] = 9,
-							["casts"] = 8,
+							["criticalmax"] = 5162,
 							["critical"] = 12,
 							["amount"] = 80612,
 							["school"] = 32,
 							["resisted"] = 2530,
-							["criticalmax"] = 5162,
+							["casts"] = 8,
 							["hitamount"] = 21245,
 						},
 						["Shadow Word: Pain (DoT)"] = {
-							["casts"] = 2,
-							["hitmin"] = 1204,
 							["criticalamount"] = 5767,
+							["hitmin"] = 1204,
+							["criticalmin"] = 2624,
 							["id"] = 48125,
-							["hitmax"] = 1394,
+							["critical"] = 2,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 4018,
@@ -21385,14 +22084,14 @@ SkadaStorageDB = {
 									["amount"] = 4347,
 								},
 							},
-							["criticalmin"] = 2624,
-							["critical"] = 2,
+							["hitmax"] = 1394,
+							["hit"] = 2,
 							["criticalmax"] = 3143,
 							["count"] = 4,
-							["hit"] = 2,
+							["amount"] = 8365,
 							["school"] = 32,
 							["resisted"] = 591,
-							["amount"] = 8365,
+							["casts"] = 2,
 							["hitamount"] = 2598,
 						},
 						["Devouring Plague (DoT)"] = {
@@ -21411,7 +22110,6 @@ SkadaStorageDB = {
 							["count"] = 3,
 						},
 					},
-					["totaldamage"] = 120142,
 					["role"] = "DAMAGER",
 				}, -- [1]
 				{
@@ -21459,15 +22157,15 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 4,
 						},
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 11,
 						},
 						[48074] = {
@@ -21504,13 +22202,13 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["school"] = 1,
 							["targets"] = {
-								["Risen Drakkari Soulmage"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
 								["Scourge Reanimator"] = {
 									["uptime"] = 2,
 									["count"] = 1,
+								},
+								["Risen Drakkari Soulmage"] = {
+									["uptime"] = 6,
+									["count"] = 2,
 								},
 							},
 							["uptime"] = 6,
@@ -21521,15 +22219,15 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[50227] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 18,
 						},
 						[47502] = {
@@ -21543,13 +22241,13 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 15,
 								},
 								["Scourge Reanimator"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 14,
 								},
 							},
@@ -21558,8 +22256,8 @@ SkadaStorageDB = {
 						[57516] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 1,
 							["school"] = 1,
+							["refresh"] = 1,
 							["uptime"] = 32,
 						},
 						[72221] = {
@@ -21612,12 +22310,13 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 27,
 						},
 					},
+					["totaldamage"] = 78958,
 					["time"] = 32.31999999999999,
 					["totaldamagetaken"] = 21869,
 					["damage"] = 78958,
@@ -21630,9 +22329,9 @@ SkadaStorageDB = {
 							["DODGE"] = 2,
 							["hitmin"] = 1632,
 							["id"] = 6603,
+							["BLOCK"] = 1,
 							["count"] = 7,
-							["hitmax"] = 1852,
-							["amount"] = 5228,
+							["blocked"] = 1557,
 							["sources"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 3376,
@@ -21644,10 +22343,10 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["BLOCK"] = 1,
-							["blocked"] = 1557,
-							["school"] = 1,
+							["hitmax"] = 1852,
 							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 5228,
 							["MISS"] = 1,
 							["hitamount"] = 5228,
 						},
@@ -21722,11 +22421,11 @@ SkadaStorageDB = {
 					["overkill"] = 7403,
 					["damagespells"] = {
 						["Shockwave"] = {
-							["criticalmax"] = 7704,
-							["hitmin"] = 3502,
 							["criticalamount"] = 15399,
-							["id"] = 46968,
+							["hitmin"] = 3502,
 							["criticalmin"] = 7695,
+							["id"] = 46968,
+							["casts"] = 2,
 							["targets"] = {
 								["Scourge Reanimator"] = {
 									["amount"] = 3502,
@@ -21740,13 +22439,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 4148,
-							["critical"] = 2,
-							["casts"] = 2,
 							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
+							["criticalmax"] = 7704,
 							["hitmax"] = 3641,
 							["amount"] = 22542,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 2,
 							["hitamount"] = 7143,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -21783,14 +22482,14 @@ SkadaStorageDB = {
 									["amount"] = 3437,
 								},
 							},
-							["criticalmax"] = 1898,
-							["critical"] = 1,
 							["casts"] = 3,
 							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
+							["criticalmax"] = 1898,
 							["hitmax"] = 811,
 							["amount"] = 5826,
+							["school"] = 1,
+							["hit"] = 5,
+							["critical"] = 1,
 							["hitamount"] = 3928,
 						},
 						["Concussion Blow"] = {
@@ -21810,11 +22509,11 @@ SkadaStorageDB = {
 							["hitamount"] = 1465,
 						},
 						["Thunder Clap"] = {
-							["hitmax"] = 890,
+							["criticalmin"] = 1958,
 							["hitmin"] = 889,
 							["criticalamount"] = 5222,
 							["id"] = 47502,
-							["count"] = 6,
+							["critical"] = 2,
 							["targets"] = {
 								["Scourge Reanimator"] = {
 									["amount"] = 2848,
@@ -21831,13 +22530,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 3255,
-							["hit"] = 4,
-							["casts"] = 3,
-							["critical"] = 2,
 							["amount"] = 8781,
-							["school"] = 1,
-							["criticalmin"] = 1958,
 							["criticalmax"] = 3264,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 890,
+							["casts"] = 3,
 							["hitamount"] = 3559,
 						},
 						["Revenge"] = {
@@ -21866,7 +22565,7 @@ SkadaStorageDB = {
 							["glance"] = 1360,
 							["hitmin"] = 618,
 							["id"] = 6603,
-							["blocked"] = 40,
+							["glancemin"] = 646,
 							["targets"] = {
 								["Scourge Reanimator"] = {
 									["amount"] = 1281,
@@ -21878,14 +22577,14 @@ SkadaStorageDB = {
 									["amount"] = 627,
 								},
 							},
-							["glancemin"] = 646,
-							["glancing"] = 2,
 							["glancemax"] = 714,
-							["count"] = 7,
+							["glancing"] = 2,
 							["hit"] = 5,
-							["school"] = 1,
 							["hitmax"] = 736,
 							["amount"] = 4693,
+							["school"] = 1,
+							["blocked"] = 40,
+							["count"] = 7,
 							["hitamount"] = 3333,
 						},
 						["Damage Shield"] = {
@@ -21949,7 +22648,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1007,
 							["criticalamount"] = 4672,
 							["id"] = 47450,
-							["hitmax"] = 1007,
+							["criticalmin"] = 2235,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 1007,
@@ -21958,18 +22657,17 @@ SkadaStorageDB = {
 									["amount"] = 4672,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
 							["critical"] = 2,
 							["amount"] = 5679,
-							["school"] = 1,
-							["criticalmin"] = 2235,
 							["criticalmax"] = 2437,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1007,
+							["casts"] = 3,
 							["hitamount"] = 1007,
 						},
 					},
-					["totaldamage"] = 78958,
 					["role"] = "TANK",
 				}, -- [2]
 				{
@@ -21993,22 +22691,23 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[70691] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 8,
 							["uptime"] = 14,
 						},
-						[48942] = {
+						[67750] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 18,
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 6,
+							["uptime"] = 33,
 						},
 						[48422] = {
 							["type"] = "BUFF",
@@ -22020,24 +22719,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 39,
 						},
-						[16870] = {
+						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["uptime"] = 14,
+							["count"] = 1,
+							["uptime"] = 18,
 						},
-						[67750] = {
+						[16870] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 6,
-							["school"] = 1,
-							["uptime"] = 33,
+							["uptime"] = 14,
 						},
 						[71184] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 16,
 							["school"] = 8,
+							["refresh"] = 16,
 							["uptime"] = 37,
 						},
 						[48162] = {
@@ -22056,6 +22754,7 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 					},
+					["role"] = "HEALER",
 					["time"] = 31.04,
 					["totaldamagetaken"] = 2083,
 					["rage"] = 12,
@@ -22109,26 +22808,30 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["ishot"] = true,
 						},
-						[70691] = {
-							["overheal"] = 13416,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 8,
-							["ishot"] = true,
+						[18562] = {
+							["overheal"] = 0,
+							["criticalamount"] = 19351,
+							["max"] = 19351,
 							["targets"] = {
-								["Elunestrasza"] = {
-									["overheal"] = 13416,
-									["amount"] = 0,
+								["Hairypaladin"] = {
+									["overheal"] = 0,
+									["amount"] = 19351,
 								},
 							},
+							["min"] = 19351,
+							["criticalmax"] = 19351,
+							["critical"] = 1,
+							["amount"] = 19351,
+							["school"] = 8,
+							["criticalmin"] = 19351,
+							["count"] = 1,
 						},
 						[71866] = {
 							["overheal"] = 1973,
-							["max"] = 284,
+							["school"] = 2,
 							["count"] = 11,
 							["amount"] = 1135,
-							["school"] = 2,
-							["min"] = 283,
+							["max"] = 284,
 							["ishot"] = true,
 							["targets"] = {
 								["Nalar"] = {
@@ -22149,6 +22852,38 @@ SkadaStorageDB = {
 								},
 								["Batulkas"] = {
 									["overheal"] = 852,
+									["amount"] = 0,
+								},
+							},
+							["min"] = 283,
+						},
+						[50464] = {
+							["overheal"] = 3575,
+							["criticalamount"] = 10267,
+							["max"] = 10267,
+							["targets"] = {
+								["Hairypaladin"] = {
+									["overheal"] = 3575,
+									["amount"] = 10267,
+								},
+							},
+							["min"] = 10267,
+							["criticalmax"] = 10267,
+							["critical"] = 1,
+							["amount"] = 10267,
+							["school"] = 8,
+							["criticalmin"] = 10267,
+							["count"] = 1,
+						},
+						[70691] = {
+							["overheal"] = 13416,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 8,
+							["ishot"] = true,
+							["targets"] = {
+								["Elunestrasza"] = {
+									["overheal"] = 13416,
 									["amount"] = 0,
 								},
 							},
@@ -22177,42 +22912,6 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["ishot"] = true,
 						},
-						[18562] = {
-							["overheal"] = 0,
-							["criticalamount"] = 19351,
-							["max"] = 19351,
-							["targets"] = {
-								["Hairypaladin"] = {
-									["overheal"] = 0,
-									["amount"] = 19351,
-								},
-							},
-							["min"] = 19351,
-							["criticalmax"] = 19351,
-							["critical"] = 1,
-							["amount"] = 19351,
-							["school"] = 8,
-							["criticalmin"] = 19351,
-							["count"] = 1,
-						},
-						[50464] = {
-							["overheal"] = 3575,
-							["criticalamount"] = 10267,
-							["max"] = 10267,
-							["targets"] = {
-								["Hairypaladin"] = {
-									["overheal"] = 3575,
-									["amount"] = 10267,
-								},
-							},
-							["min"] = 10267,
-							["criticalmax"] = 10267,
-							["critical"] = 1,
-							["amount"] = 10267,
-							["school"] = 8,
-							["criticalmin"] = 10267,
-							["count"] = 1,
-						},
 					},
 					["damagetakenspells"] = {
 						["Shadow Void (DoT)"] = {
@@ -22232,17 +22931,16 @@ SkadaStorageDB = {
 							["hitamount"] = 2083,
 						},
 					},
+					["heal"] = 69917,
 					["manaspells"] = {
 						[48542] = 1072,
 					},
-					["heal"] = 69917,
 					["name"] = "Elunestrasza",
 					["overheal"] = 92132,
 					["mana"] = 1072,
 					["ragespells"] = {
 						[48541] = 12,
 					},
-					["role"] = "HEALER",
 				}, -- [3]
 				{
 					["last"] = 11738.285,
@@ -22250,22 +22948,22 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 15,
 						},
 						[12970] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["refresh"] = 5,
 							["school"] = 1,
+							["refresh"] = 5,
 							["uptime"] = 38,
 						},
 						[48162] = {
@@ -22286,9 +22984,9 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[48170] = {
@@ -22297,9 +22995,9 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 4,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[47436] = {
@@ -22310,27 +23008,26 @@ SkadaStorageDB = {
 						[59620] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 1,
 							["school"] = 2,
+							["refresh"] = 1,
 							["uptime"] = 29,
 						},
 						[55775] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 2,
 						},
 						[48942] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 18,
 						},
-						[48441] = {
+						[72412] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 10,
+							["uptime"] = 6,
 						},
 						[72221] = {
 							["type"] = "BUFF",
@@ -22343,21 +23040,10 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[72412] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[71866] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 4,
+							["uptime"] = 5,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
@@ -22366,13 +23052,13 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 9,
 								},
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 2,
 									["refresh"] = 2,
+									["count"] = 2,
 									["uptime"] = 10,
 								},
 								["Scourge Reanimator"] = {
@@ -22382,17 +23068,30 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
+						[48441] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71866] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 4,
+						},
 					},
+					["totaldamage"] = 129308,
 					["time"] = 28,
 					["totaldamagetaken"] = 21470,
 					["damage"] = 129308,
 					["damagespells"] = {
 						["Bloodthirst"] = {
-							["hitmax"] = 3131,
+							["criticalmin"] = 7349,
 							["hitmin"] = 3131,
 							["criticalamount"] = 23731,
 							["id"] = 23881,
-							["count"] = 4,
+							["critical"] = 3,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["overkill"] = 3077,
@@ -22407,13 +23106,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 3114,
-							["hit"] = 1,
-							["casts"] = 5,
-							["critical"] = 3,
 							["amount"] = 26862,
-							["school"] = 1,
-							["criticalmin"] = 7349,
 							["criticalmax"] = 8400,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3131,
+							["casts"] = 5,
 							["hitamount"] = 3131,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -22473,7 +23172,7 @@ SkadaStorageDB = {
 							["hitmin"] = 1796,
 							["criticalamount"] = 26076,
 							["id"] = 1680,
-							["hitmax"] = 3203,
+							["criticalmin"] = 4019,
 							["targets"] = {
 								["Scourge Reanimator"] = {
 									["amount"] = 12275,
@@ -22485,14 +23184,14 @@ SkadaStorageDB = {
 									["amount"] = 4403,
 								},
 							},
-							["count"] = 10,
-							["hit"] = 5,
-							["casts"] = 2,
 							["critical"] = 5,
 							["amount"] = 38600,
-							["school"] = 1,
-							["criticalmin"] = 4019,
 							["criticalmax"] = 7206,
+							["count"] = 10,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 3203,
+							["casts"] = 2,
 							["hitamount"] = 12524,
 						},
 						["Melee"] = {
@@ -22529,7 +23228,7 @@ SkadaStorageDB = {
 							["hitmin"] = 3147,
 							["criticalamount"] = 12651,
 							["id"] = 47450,
-							["hitmax"] = 3147,
+							["criticalmin"] = 6293,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 9505,
@@ -22538,18 +23237,17 @@ SkadaStorageDB = {
 									["amount"] = 6293,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["casts"] = 3,
 							["critical"] = 2,
 							["amount"] = 15798,
-							["school"] = 1,
-							["criticalmin"] = 6293,
 							["criticalmax"] = 6358,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3147,
+							["casts"] = 3,
 							["hitamount"] = 3147,
 						},
 					},
-					["heal"] = 1026,
 					["damagetaken"] = 14449,
 					["id"] = "0x070000000060091D",
 					["spec"] = 72,
@@ -22609,20 +23307,36 @@ SkadaStorageDB = {
 							["hitamount"] = 3218,
 						},
 					},
+					["heal"] = 1026,
+					["name"] = "Warac",
 					["overheal"] = 1368,
 					["ragespells"] = {
 						[12964] = 9,
 					},
-					["name"] = "Warac",
 					["overkill"] = 3114,
 					["rage"] = 9,
-					["totaldamage"] = 129308,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
+					["overheal"] = 1032,
 					["last"] = 11707.295,
+					["totaldamage"] = 21602,
 					["flag"] = 1298,
 					["class"] = "WARRIOR",
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 1032,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Batulkas"] = {
+									["overheal"] = 1032,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -22640,9 +23354,9 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[71866] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 31,
 						},
 						[42976] = {
@@ -22651,22 +23365,38 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 37,
 						},
 						[46916] = {
+							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 7,
+							["count"] = 1,
+						},
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[12970] = {
 							["refresh"] = 1,
-							["uptime"] = 7,
+							["type"] = "BUFF",
+							["uptime"] = 39,
+							["count"] = 1,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
@@ -22675,50 +23405,18 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Risen Drakkari Soulmage"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 							},
 							["count"] = 1,
 						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 39,
-						},
 					},
-					["time"] = 5.860000000000001,
-					["damage"] = 21602,
-					["overheal"] = 1032,
 					["id"] = "0x07000000009E14B8",
+					["role"] = "DAMAGER",
+					["time"] = 5.860000000000001,
 					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 1032,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Batulkas"] = {
-									["overheal"] = 1032,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["heal"] = 0,
 					["name"] = "Batulkas",
 					["damagespells"] = {
 						["Melee"] = {
@@ -22790,8 +23488,8 @@ SkadaStorageDB = {
 							["hitamount"] = 2193,
 						},
 					},
-					["totaldamage"] = 21602,
-					["role"] = "DAMAGER",
+					["heal"] = 0,
+					["damage"] = 21602,
 				}, -- [5]
 				{
 					["last"] = 11737.995,
@@ -22799,33 +23497,33 @@ SkadaStorageDB = {
 					["mana"] = 3895,
 					["auras"] = {
 						[34123] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 18,
 						},
 						[48441] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 18,
 						},
 						[67378] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 10,
 						},
 						[71401] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 12,
 						},
 						[53251] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 7,
 						},
 						[48504] = {
@@ -22856,9 +23554,9 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[63529] = {
@@ -22898,6 +23596,7 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 28596,
 					["time"] = 13.12,
 					["totaldamagetaken"] = 3892,
 					["damage"] = 28596,
@@ -22956,14 +23655,14 @@ SkadaStorageDB = {
 									["amount"] = 1914,
 								},
 							},
-							["criticalmax"] = 3848,
-							["critical"] = 1,
 							["casts"] = 1,
 							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 2,
+							["criticalmax"] = 3848,
 							["hitmax"] = 1914,
 							["amount"] = 7520,
+							["school"] = 2,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 3672,
 						},
 						["Shield of Righteousness"] = {
@@ -23030,7 +23729,6 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Hairypaladin",
-					["totaldamage"] = 28596,
 					["class"] = "PALADIN",
 					["manaspells"] = {
 						[31786] = 3895,
@@ -23042,6 +23740,7 @@ SkadaStorageDB = {
 			["damagetaken"] = 42293,
 			["overheal"] = 145125,
 			["rage"] = 36,
+			["ccdone"] = 6,
 			["etotaldamage"] = 49314,
 			["overkill"] = 15068,
 			["edamagetaken"] = 378606,
@@ -23052,17 +23751,17 @@ SkadaStorageDB = {
 			["edamage"] = 42293,
 			["last_action"] = 1700476082,
 			["endtime"] = 1700476082,
-		}, -- [9]
+		}, -- [11]
 		{
 			["mana"] = 600,
 			["enemies"] = {
 				{
-					["id"] = "0xF13000680B0000BB",
-					["name"] = "Risen Drakkari Warrior",
-					["totaldamagetaken"] = 141355,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
 					["damagetaken"] = 141355,
+					["name"] = "Risen Drakkari Warrior",
+					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 141355,
+					["id"] = "0xF13000680B0000BB",
 					["damagetakenspells"] = {
 						[57823] = {
 							["school"] = 1,
@@ -23218,12 +23917,11 @@ SkadaStorageDB = {
 					},
 				}, -- [1]
 			},
-			["damage"] = 141355,
 			["totaldamage"] = 141355,
 			["time"] = 12,
 			["totaldamagetaken"] = 0,
 			["etotaldamagetaken"] = 141355,
-			["last_time"] = 11681.328,
+			["damage"] = 141355,
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -23254,7 +23952,6 @@ SkadaStorageDB = {
 					["last"] = 11675.835,
 					["id"] = "0x070000000027C8A1",
 					["spec"] = 258,
-					["class"] = "PRIEST",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -23277,10 +23974,10 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 12,
+							["count"] = 1,
 						},
 						[15473] = {
 							["type"] = "BUFF",
@@ -23304,8 +24001,9 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamage"] = 1324,
-					["role"] = "DAMAGER",
 					["name"] = "Nalar",
+					["class"] = "PRIEST",
+					["role"] = "DAMAGER",
 					["flag"] = 1297,
 					["time"] = 6.41,
 					["damage"] = 1324,
@@ -23329,10 +24027,10 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[48441] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 12,
+							["count"] = 1,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -23345,9 +24043,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[57516] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 2,
 						},
 						[55694] = {
@@ -23362,8 +24060,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 2,
 								},
 							},
@@ -23377,15 +24075,15 @@ SkadaStorageDB = {
 							["uptime"] = 9,
 						},
 						[48504] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 9,
 						},
 						[58363] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 1,
 						},
 						[46968] = {
@@ -23401,10 +24099,10 @@ SkadaStorageDB = {
 							["uptime"] = 4,
 						},
 						[2893] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 2,
+							["type"] = "BUFF",
 							["uptime"] = 12,
+							["count"] = 1,
 						},
 						[2565] = {
 							["type"] = "BUFF",
@@ -23422,12 +24120,13 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 12,
+							["count"] = 1,
 						},
 					},
+					["totaldamage"] = 38144,
 					["time"] = 10.15,
 					["totaldamagetaken"] = 0,
 					["damage"] = 38144,
@@ -23438,16 +24137,16 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[55694] = {
 							["overheal"] = 723,
+							["max"] = 1683,
+							["count"] = 8,
+							["amount"] = 12741,
+							["school"] = 1,
 							["targets"] = {
 								["Pompeu"] = {
 									["overheal"] = 723,
 									["amount"] = 12741,
 								},
 							},
-							["count"] = 8,
-							["amount"] = 12741,
-							["school"] = 1,
-							["max"] = 1683,
 							["ishot"] = true,
 							["min"] = 960,
 						},
@@ -23481,26 +24180,26 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["DODGE"] = 1,
 							["id"] = 6603,
-							["blocked"] = 1527,
-							["PARRY"] = 3,
-							["count"] = 6,
 							["amount"] = 0,
-							["school"] = 1,
-							["BLOCK"] = 1,
-							["MISS"] = 1,
 							["sources"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 0,
 								},
 							},
+							["count"] = 6,
+							["blocked"] = 1527,
+							["school"] = 1,
+							["BLOCK"] = 1,
+							["MISS"] = 1,
+							["PARRY"] = 3,
 						},
 					},
 					["ragespells"] = {
 						[23602] = 35,
 					},
-					["heal"] = 12741,
 					["name"] = "Pompeu",
 					["ccdone"] = 2,
+					["heal"] = 12741,
 					["rage"] = 35,
 					["damagespells"] = {
 						["Shield Slam"] = {
@@ -23513,14 +24212,14 @@ SkadaStorageDB = {
 									["amount"] = 9756,
 								},
 							},
-							["criticalmax"] = 5849,
-							["critical"] = 1,
 							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 5849,
 							["hitmax"] = 3907,
 							["amount"] = 9756,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 3907,
 						},
 						["Melee"] = {
@@ -23535,52 +24234,52 @@ SkadaStorageDB = {
 							},
 							["glancemax"] = 731,
 							["glancing"] = 1,
-							["blocked"] = 40,
-							["count"] = 4,
 							["hit"] = 3,
-							["school"] = 1,
 							["hitmax"] = 684,
 							["amount"] = 2610,
+							["school"] = 1,
+							["blocked"] = 40,
+							["count"] = 4,
 							["hitamount"] = 1879,
 						},
 						["Cleave"] = {
 							["hitmin"] = 765,
 							["criticalamount"] = 1821,
 							["id"] = 47520,
-							["hitmax"] = 765,
+							["criticalmin"] = 1821,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 2586,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 2586,
-							["school"] = 1,
-							["criticalmin"] = 1821,
 							["criticalmax"] = 1821,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 765,
+							["casts"] = 1,
 							["hitamount"] = 765,
 						},
 						["Thunder Clap"] = {
 							["hitmin"] = 834,
 							["criticalamount"] = 1834,
 							["id"] = 47502,
-							["hitmax"] = 834,
+							["criticalmin"] = 1834,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 2668,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 2668,
-							["school"] = 1,
-							["criticalmin"] = 1834,
 							["criticalmax"] = 1834,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 834,
+							["casts"] = 1,
 							["hitamount"] = 834,
 						},
 						["Revenge"] = {
@@ -23664,18 +24363,13 @@ SkadaStorageDB = {
 							["hitamount"] = 2030,
 						},
 					},
-					["totaldamage"] = 38144,
 					["role"] = "TANK",
 				}, -- [2]
 				{
 					["overheal"] = 6451,
 					["last"] = 11672.261,
-					["spec"] = 105,
-					["manaspells"] = {
-						[55382] = 600,
-					},
 					["flag"] = 1298,
-					["class"] = "DRUID",
+					["spec"] = 105,
 					["healspells"] = {
 						[48441] = {
 							["overheal"] = 6451,
@@ -23728,12 +24422,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[67750] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 12,
-						},
 						[16870] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -23741,13 +24429,19 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 7,
 						},
-						[47436] = {
+						[67750] = {
+							["refresh"] = 5,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
 							["uptime"] = 12,
+							["count"] = 1,
 						},
-						[2479] = {
+						[71184] = {
+							["refresh"] = 3,
+							["type"] = "BUFF",
+							["uptime"] = 12,
+							["count"] = 1,
+						},
+						[48422] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -23757,22 +24451,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[71184] = {
+						[47436] = {
+							["refresh"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 3,
 							["uptime"] = 12,
+							["count"] = 1,
 						},
 						[2893] = {
+							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
 							["uptime"] = 3,
 						},
 						[58984] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
 						},
 						[48162] = {
@@ -23785,18 +24479,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[48422] = {
+						[2479] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
 					},
+					["class"] = "DRUID",
+					["heal"] = 16735,
+					["manaspells"] = {
+						[55382] = 600,
+					},
 					["id"] = "0x07000000007AA386",
 					["time"] = 2.82,
 					["mana"] = 600,
-					["role"] = "HEALER",
 					["name"] = "Elunestrasza",
-					["heal"] = 16735,
+					["role"] = "HEALER",
 				}, -- [3]
 				{
 					["last"] = 11679.747,
@@ -23809,27 +24507,27 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 12,
+							["count"] = 1,
 						},
 						[48074] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[55775] = {
+						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 9,
 						},
-						[23885] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[55775] = {
 							["school"] = 1,
-							["uptime"] = 4,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 						[2479] = {
 							["type"] = "BUFF",
@@ -23843,25 +24541,11 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 9,
 						},
-						[75456] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 9,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
+						[23885] = {
 							["school"] = 1,
-							["refresh"] = 4,
-							["targets"] = {
-								["Risen Drakkari Warrior"] = {
-									["count"] = 2,
-									["refresh"] = 4,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 4,
 						},
 						[12970] = {
 							["type"] = "BUFF",
@@ -23870,23 +24554,38 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 10,
 						},
-						[71559] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
 							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
+							["refresh"] = 4,
+							["targets"] = {
+								["Risen Drakkari Warrior"] = {
+									["refresh"] = 4,
+									["count"] = 2,
+									["uptime"] = 7,
+								},
+							},
+							["uptime"] = 7,
 						},
 						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[71559] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 					},
+					["totaldamage"] = 61065,
 					["time"] = 10.31,
 					["damage"] = 61065,
 					["rage"] = 6,
@@ -23909,18 +24608,18 @@ SkadaStorageDB = {
 						},
 					},
 					["overkill"] = 7012,
-					["overheal"] = 0,
 					["ragespells"] = {
 						[12964] = 6,
 					},
 					["name"] = "Warac",
+					["overheal"] = 0,
 					["damagespells"] = {
 						["Bloodthirst"] = {
 							["criticalmin"] = 8878,
 							["hitmin"] = 3736,
 							["criticalamount"] = 8878,
 							["id"] = 23881,
-							["criticalmax"] = 8878,
+							["casts"] = 2,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["overkill"] = 3552,
@@ -23928,13 +24627,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 3552,
-							["critical"] = 1,
-							["casts"] = 2,
 							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
+							["criticalmax"] = 8878,
 							["hitmax"] = 3736,
 							["amount"] = 12614,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 1,
 							["hitamount"] = 3736,
 						},
 						["Deep Wounds (DoT)"] = {
@@ -23953,24 +24652,24 @@ SkadaStorageDB = {
 							["hitamount"] = 3585,
 						},
 						["Whirlwind"] = {
-							["blocked"] = 40,
-							["hitmin"] = 1880,
 							["criticalamount"] = 10971,
-							["id"] = 1680,
+							["hitmin"] = 1880,
 							["criticalmin"] = 4341,
+							["id"] = 1680,
+							["casts"] = 1,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 15617,
 								},
 							},
-							["criticalmax"] = 6630,
-							["critical"] = 2,
-							["casts"] = 1,
 							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
+							["blocked"] = 40,
+							["criticalmax"] = 6630,
 							["hitmax"] = 2766,
 							["amount"] = 15617,
+							["school"] = 1,
+							["critical"] = 2,
+							["hit"] = 2,
 							["hitamount"] = 4646,
 						},
 						["Melee"] = {
@@ -24012,13 +24711,30 @@ SkadaStorageDB = {
 						},
 					},
 					["heal"] = 1026,
-					["totaldamage"] = 61065,
 					["role"] = "DAMAGER",
 				}, -- [4]
 				{
+					["overheal"] = 0,
 					["last"] = 11679.745,
+					["totaldamage"] = 40822,
 					["flag"] = 1298,
 					["class"] = "WARRIOR",
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 0,
+							["count"] = 3,
+							["amount"] = 1032,
+							["school"] = 1,
+							["max"] = 344,
+							["targets"] = {
+								["Batulkas"] = {
+									["overheal"] = 0,
+									["amount"] = 1032,
+								},
+							},
+							["min"] = 344,
+						},
+					},
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -24026,10 +24742,10 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
 							["uptime"] = 12,
+							["count"] = 1,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -24050,17 +24766,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 3,
 								},
 							},
 							["uptime"] = 3,
 						},
 						[23885] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 4,
 						},
 						[72412] = {
@@ -24068,21 +24784,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
 						[12970] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 3,
 							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+							["refresh"] = 3,
 							["uptime"] = 12,
 						},
 						[48162] = {
@@ -24090,29 +24796,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-					},
-					["time"] = 10.33,
-					["damage"] = 40822,
-					["overheal"] = 0,
-					["id"] = "0x07000000009E14B8",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 0,
-							["count"] = 3,
-							["amount"] = 1032,
-							["school"] = 1,
-							["max"] = 344,
-							["targets"] = {
-								["Batulkas"] = {
-									["overheal"] = 0,
-									["amount"] = 1032,
-								},
-							},
-							["min"] = 344,
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
 						},
 					},
-					["heal"] = 1032,
+					["id"] = "0x07000000009E14B8",
+					["role"] = "DAMAGER",
+					["time"] = 10.33,
+					["spec"] = 72,
 					["name"] = "Batulkas",
 					["damagespells"] = {
 						["Bloodthirst"] = {
@@ -24150,20 +24848,20 @@ SkadaStorageDB = {
 							["hitmin"] = 2222,
 							["criticalamount"] = 4747,
 							["id"] = 47520,
-							["hitmax"] = 2222,
+							["criticalmin"] = 4747,
 							["targets"] = {
 								["Risen Drakkari Warrior"] = {
 									["amount"] = 6969,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
 							["critical"] = 1,
 							["amount"] = 6969,
-							["school"] = 1,
-							["criticalmin"] = 4747,
 							["criticalmax"] = 4747,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2222,
+							["casts"] = 1,
 							["hitamount"] = 2222,
 						},
 						["Slam"] = {
@@ -24192,14 +24890,14 @@ SkadaStorageDB = {
 									["amount"] = 9974,
 								},
 							},
-							["criticalmax"] = 5066,
-							["critical"] = 1,
 							["casts"] = 1,
 							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
+							["criticalmax"] = 5066,
 							["hitmax"] = 2284,
 							["amount"] = 9974,
+							["school"] = 1,
+							["hit"] = 3,
+							["critical"] = 1,
 							["hitamount"] = 4908,
 						},
 						["Melee"] = {
@@ -24226,23 +24924,24 @@ SkadaStorageDB = {
 							["hitamount"] = 3887,
 						},
 					},
-					["totaldamage"] = 40822,
-					["role"] = "DAMAGER",
+					["heal"] = 1032,
+					["damage"] = 40822,
 				}, -- [5]
 			},
 			["type"] = "party",
 			["damagetaken"] = 0,
+			["last_time"] = 11681.328,
 			["overheal"] = 7174,
-			["ccdone"] = 2,
 			["rage"] = 41,
 			["overkill"] = 7012,
 			["edamagetaken"] = 141355,
 			["heal"] = 31534,
 			["name"] = "Risen Drakkari Warrior",
+			["ccdone"] = 2,
 			["mobname"] = "Risen Drakkari Warrior",
 			["starttime"] = 1700476011,
 			["last_action"] = 1700476023,
 			["endtime"] = 1700476023,
-		}, -- [10]
+		}, -- [12]
 	},
 }
