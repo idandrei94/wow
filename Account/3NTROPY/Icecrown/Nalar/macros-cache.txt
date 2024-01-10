@@ -10,10 +10,6 @@ MACRO 16777230 "bauble" INV_Misc_QuestionMark
 /cast [modifier:alt,target=party1] Bauble of True Blood
 /cast [nomodifier:alt, target=Nalar] Bauble of True Blood
 END
-MACRO 16777219 "dp" INV_Misc_QuestionMark
-#showtooltip devouring plague
-/cast [nochanneling] devouring plague
-END
 MACRO 16777227 "heal" INV_Misc_QuestionMark
 #showtooltip
 /castsequence reset=13 power word: shield, renew, flash heal, flash heal, flash heal, flash heal, flash heal, flash heal
@@ -55,10 +51,6 @@ END
 MACRO 16777217 "sf" INV_Misc_QuestionMark
 #showtooltip shadowform
 /cast !shadowform
-END
-MACRO 16777220 "swp" INV_Misc_QuestionMark
-#showtooltip shadow word: pain
-/cast [nochanneling] shadow word: pain
 END
 MACRO 16777222 "VT" INV_Misc_QuestionMark
 #showtooltip vampiric touch
