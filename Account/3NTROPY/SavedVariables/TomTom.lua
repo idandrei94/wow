@@ -12,6 +12,7 @@ TomTomDB = {
 		["Kalaam - Icecrown"] = "Default",
 		["Lingurita - Lordaeron"] = "Default",
 		["Pufarin - Icecrown"] = "Default",
+		["Ylath - Icecrown"] = "Default",
 		["Praxia - Icecrown"] = "Default",
 		["Nalar - Icecrown"] = "Default",
 		["Flocius - Icecrown"] = "Default",
@@ -56,6 +57,7 @@ TomTomWaypoints = {
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Ylath - Icecrown"] = "Ylath - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
@@ -104,6 +106,8 @@ TomTomWaypoints = {
 		["Lingurita - Lordaeron"] = {
 		},
 		["Pufarin - Icecrown"] = {
+		},
+		["Ylath - Icecrown"] = {
 		},
 		["Praxia - Icecrown"] = {
 		},

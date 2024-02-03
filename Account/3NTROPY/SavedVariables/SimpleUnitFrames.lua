@@ -17,6 +17,7 @@ SimpleUnitFramesDB = {
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Ylath - Icecrown"] = "Ylath - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
@@ -65,6 +66,8 @@ SimpleUnitFramesDB = {
 		["Lingurita - Lordaeron"] = {
 		},
 		["Pufarin - Icecrown"] = {
+		},
+		["Ylath - Icecrown"] = {
 		},
 		["Praxia - Icecrown"] = {
 			["pet"] = {

@@ -12,6 +12,7 @@ Icicledb = {
 		["Kalaam - Icecrown"] = "Default",
 		["Lingurita - Lordaeron"] = "Default",
 		["Pufarin - Icecrown"] = "Default",
+		["Ylath - Icecrown"] = "Default",
 		["Praxia - Icecrown"] = "Default",
 		["Izanagi - Icecrown"] = "Default",
 		["Flocius - Icecrown"] = "Default",

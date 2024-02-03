@@ -13,10 +13,11 @@ SkadaDB = {
 		["Eutanasie - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
 		["Urgash - Icecrown"] = "Default",
+		["Ylath - Icecrown"] = "Default",
 		["Pocaitoru - Icecrown"] = "Default",
-		["Glacianos - Icecrown"] = "Default",
-		["Lingurita - Icecrown"] = "Default",
 		["Elgorath - Icecrown"] = "Default",
+		["Lingurita - Icecrown"] = "Default",
+		["Glacianos - Icecrown"] = "Default",
 		["Pocaitorul - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
 		["Sculatru - Icecrown"] = "Default",
@@ -33,7 +34,7 @@ SkadaDB = {
 		["nicknames"] = {
 			["cache"] = {
 			},
-			["reset"] = 1706105069,
+			["reset"] = 1708259020,
 		},
 		["version"] = 1878,
 	},

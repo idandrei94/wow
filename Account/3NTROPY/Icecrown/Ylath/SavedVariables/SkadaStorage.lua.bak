@@ -1,0 +1,2236 @@
+
+SkadaStorageDB = {
+	["total"] = {
+		["starttime"] = 1706963633,
+		["damagetaken"] = 164,
+		["overkill"] = 91,
+		["totaldamage"] = 1271,
+		["name"] = "Total",
+		["players"] = {
+			{
+				["damagetaken"] = 164,
+				["id"] = "0x0700000000A393A4",
+				["class"] = "PALADIN",
+				["overkill"] = 91,
+				["flag"] = 1297,
+				["time"] = 301.8500000000001,
+				["role"] = "NONE",
+				["name"] = "Ylath",
+				["totaldamagetaken"] = 164,
+				["totaldamage"] = 1271,
+				["damage"] = 1271,
+			}, -- [1]
+		},
+		["totaldamagetaken"] = 164,
+		["time"] = 373,
+		["damage"] = 1271,
+	},
+	["sets"] = {
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["damagetaken"] = 64,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 1,
+									["amount"] = 12,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 12,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+					["name"] = "Kobold Worker",
+					["totaldamage"] = 12,
+					["totaldamagetaken"] = 64,
+					["id"] = "0xF130000101133798",
+					["damage"] = 12,
+				}, -- [1]
+			},
+			["totaldamage"] = 64,
+			["time"] = 16,
+			["totaldamagetaken"] = 12,
+			["etotaldamagetaken"] = 64,
+			["last_time"] = 1511.422,
+			["players"] = {
+				{
+					["last"] = 1511.397,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[465] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["time"] = 14.76,
+					["totaldamagetaken"] = 12,
+					["damage"] = 64,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["overkill"] = 1,
+									["amount"] = 12,
+								},
+							},
+							["overkill"] = 1,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+						["Melee"] = {
+							["glance"] = 9,
+							["hitmin"] = 8,
+							["criticalmin"] = 16,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["amount"] = 52,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 52,
+							["glancemin"] = 9,
+							["criticalamount"] = 16,
+							["id"] = 6603,
+							["glancemax"] = 9,
+							["criticalmax"] = 16,
+							["critical"] = 1,
+							["hit"] = 3,
+							["school"] = 1,
+							["count"] = 5,
+							["hitmax"] = 10,
+							["hitamount"] = 27,
+						},
+					},
+					["damagetaken"] = 12,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Worker"] = {
+									["amount"] = 12,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 1,
+					["totaldamage"] = 64,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 12,
+			["damage"] = 64,
+			["etotaldamage"] = 12,
+			["overkill"] = 1,
+			["edamagetaken"] = 64,
+			["name"] = "Kobold Worker (8)",
+			["mobname"] = "Kobold Worker",
+			["starttime"] = 1706964193,
+			["edamage"] = 12,
+			["last_action"] = 1706964208,
+			["endtime"] = 1706964209,
+		}, -- [1]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["damagetaken"] = 65,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 3,
+									["amount"] = 55,
+								},
+							},
+							["overkill"] = 3,
+							["amount"] = 55,
+						},
+					},
+					["name"] = "Kobold Worker",
+					["totaldamage"] = 9,
+					["totaldamagetaken"] = 65,
+					["id"] = "0xF13000010113374B",
+					["damage"] = 9,
+				}, -- [1]
+			},
+			["totaldamage"] = 65,
+			["time"] = 16,
+			["totaldamagetaken"] = 9,
+			["etotaldamagetaken"] = 65,
+			["last_time"] = 1488.205,
+			["players"] = {
+				{
+					["last"] = 1488.023,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[465] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["time"] = 14.46,
+					["totaldamagetaken"] = 9,
+					["damage"] = 65,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["amount"] = 10,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 10,
+							["hitamount"] = 10,
+						},
+						["Melee"] = {
+							["glance"] = 9,
+							["hitmin"] = 9,
+							["criticalmin"] = 18,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["overkill"] = 3,
+									["amount"] = 55,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 55,
+							["glancemin"] = 9,
+							["criticalamount"] = 18,
+							["id"] = 6603,
+							["glancemax"] = 9,
+							["overkill"] = 3,
+							["criticalmax"] = 18,
+							["hitmax"] = 10,
+							["hit"] = 3,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 5,
+							["hitamount"] = 28,
+						},
+					},
+					["damagetaken"] = 9,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Worker"] = {
+									["amount"] = 9,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["amount"] = 9,
+							["hitamount"] = 9,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 3,
+					["totaldamage"] = 65,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 9,
+			["damage"] = 65,
+			["etotaldamage"] = 9,
+			["overkill"] = 3,
+			["edamagetaken"] = 65,
+			["name"] = "Kobold Worker (7)",
+			["mobname"] = "Kobold Worker",
+			["starttime"] = 1706964170,
+			["edamage"] = 9,
+			["last_action"] = 1706964185,
+			["endtime"] = 1706964186,
+		}, -- [2]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["damagetaken"] = 66,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 4,
+									["amount"] = 54,
+								},
+							},
+							["overkill"] = 4,
+							["amount"] = 54,
+						},
+					},
+					["name"] = "Kobold Worker",
+					["totaldamage"] = 13,
+					["totaldamagetaken"] = 66,
+					["id"] = "0xF1300001011336DA",
+					["damage"] = 13,
+				}, -- [1]
+			},
+			["totaldamage"] = 66,
+			["time"] = 19,
+			["totaldamagetaken"] = 13,
+			["etotaldamagetaken"] = 66,
+			["last_time"] = 1470.789,
+			["players"] = {
+				{
+					["last"] = 1470.639,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[465] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["time"] = 17.38,
+					["totaldamagetaken"] = 13,
+					["damage"] = 66,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["amount"] = 12,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+						["Melee"] = {
+							["hitmin"] = 8,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["overkill"] = 4,
+									["amount"] = 54,
+								},
+							},
+							["overkill"] = 4,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 10,
+							["amount"] = 54,
+							["hitamount"] = 54,
+						},
+					},
+					["damagetaken"] = 13,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1,
+							["criticalamount"] = 4,
+							["id"] = 6603,
+							["criticalmin"] = 4,
+							["criticalmax"] = 4,
+							["critical"] = 1,
+							["amount"] = 13,
+							["sources"] = {
+								["Kobold Worker"] = {
+									["amount"] = 13,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 9,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 4,
+					["totaldamage"] = 66,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 13,
+			["damage"] = 66,
+			["etotaldamage"] = 13,
+			["overkill"] = 4,
+			["edamagetaken"] = 66,
+			["name"] = "Kobold Worker (6)",
+			["mobname"] = "Kobold Worker",
+			["starttime"] = 1706964150,
+			["edamage"] = 13,
+			["last_action"] = 1706964168,
+			["endtime"] = 1706964169,
+		}, -- [3]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["damagetaken"] = 64,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 1,
+									["amount"] = 52,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 52,
+						},
+					},
+					["name"] = "Kobold Worker",
+					["totaldamage"] = 5,
+					["totaldamagetaken"] = 64,
+					["id"] = "0xF130000101133699",
+					["damage"] = 5,
+				}, -- [1]
+			},
+			["totaldamage"] = 64,
+			["time"] = 19,
+			["totaldamagetaken"] = 5,
+			["etotaldamagetaken"] = 64,
+			["last_time"] = 1450.514,
+			["players"] = {
+				{
+					["last"] = 1450.322,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[465] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["time"] = 17.36,
+					["totaldamagetaken"] = 5,
+					["damage"] = 64,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["amount"] = 12,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+						["Melee"] = {
+							["hitmin"] = 7,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["overkill"] = 1,
+									["amount"] = 52,
+								},
+							},
+							["overkill"] = 1,
+							["blocked"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 10,
+							["amount"] = 52,
+							["hitamount"] = 52,
+						},
+					},
+					["damagetaken"] = 5,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["amount"] = 5,
+							["sources"] = {
+								["Kobold Worker"] = {
+									["amount"] = 5,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 1,
+							["MISS"] = 2,
+							["hitamount"] = 5,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 1,
+					["totaldamage"] = 64,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 5,
+			["damage"] = 64,
+			["etotaldamage"] = 5,
+			["overkill"] = 1,
+			["edamagetaken"] = 64,
+			["name"] = "Kobold Worker (5)",
+			["mobname"] = "Kobold Worker",
+			["starttime"] = 1706964130,
+			["edamage"] = 5,
+			["last_action"] = 1706964147,
+			["endtime"] = 1706964149,
+		}, -- [4]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["damagetaken"] = 65,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 1,
+									["amount"] = 12,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 12,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 53,
+								},
+							},
+							["amount"] = 53,
+						},
+					},
+					["name"] = "Kobold Worker",
+					["totaldamage"] = 10,
+					["totaldamagetaken"] = 65,
+					["id"] = "0xF13000010113363C",
+					["damage"] = 10,
+				}, -- [1]
+			},
+			["totaldamage"] = 65,
+			["time"] = 16,
+			["totaldamagetaken"] = 10,
+			["etotaldamagetaken"] = 65,
+			["last_time"] = 1430.24,
+			["players"] = {
+				{
+					["last"] = 1430.215,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[465] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+					},
+					["time"] = 14.67,
+					["totaldamagetaken"] = 10,
+					["damage"] = 65,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["overkill"] = 1,
+									["amount"] = 12,
+								},
+							},
+							["overkill"] = 1,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+						["Melee"] = {
+							["glance"] = 8,
+							["hitmin"] = 8,
+							["criticalmin"] = 18,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["amount"] = 53,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 53,
+							["glancemin"] = 8,
+							["criticalamount"] = 18,
+							["id"] = 6603,
+							["glancemax"] = 8,
+							["criticalmax"] = 18,
+							["critical"] = 1,
+							["hit"] = 3,
+							["school"] = 1,
+							["count"] = 5,
+							["hitmax"] = 10,
+							["hitamount"] = 27,
+						},
+					},
+					["damagetaken"] = 10,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Worker"] = {
+									["amount"] = 10,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["amount"] = 10,
+							["hitamount"] = 10,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 1,
+					["totaldamage"] = 65,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 10,
+			["damage"] = 65,
+			["etotaldamage"] = 10,
+			["overkill"] = 1,
+			["edamagetaken"] = 65,
+			["name"] = "Kobold Worker (4)",
+			["mobname"] = "Kobold Worker",
+			["starttime"] = 1706964112,
+			["edamage"] = 10,
+			["last_action"] = 1706964127,
+			["endtime"] = 1706964128,
+		}, -- [5]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["damagetaken"] = 69,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 6,
+									["amount"] = 57,
+								},
+							},
+							["overkill"] = 6,
+							["amount"] = 57,
+						},
+					},
+					["name"] = "Kobold Worker",
+					["totaldamage"] = 14,
+					["totaldamagetaken"] = 69,
+					["id"] = "0xF1300001011335F1",
+					["damage"] = 14,
+				}, -- [1]
+			},
+			["totaldamage"] = 69,
+			["time"] = 19,
+			["totaldamagetaken"] = 14,
+			["etotaldamagetaken"] = 69,
+			["last_time"] = 1413.757,
+			["players"] = {
+				{
+					["last"] = 1412.407,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[465] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["time"] = 17.37,
+					["totaldamagetaken"] = 14,
+					["damage"] = 69,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["amount"] = 12,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+						["Melee"] = {
+							["hitmin"] = 9,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["overkill"] = 6,
+									["amount"] = 57,
+								},
+							},
+							["overkill"] = 6,
+							["blocked"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 10,
+							["amount"] = 57,
+							["hitamount"] = 57,
+						},
+					},
+					["damagetaken"] = 14,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["criticalamount"] = 4,
+							["id"] = 6603,
+							["criticalmin"] = 4,
+							["criticalmax"] = 4,
+							["critical"] = 1,
+							["sources"] = {
+								["Kobold Worker"] = {
+									["amount"] = 14,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["amount"] = 14,
+							["hitamount"] = 10,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 6,
+					["totaldamage"] = 69,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 14,
+			["damage"] = 69,
+			["etotaldamage"] = 14,
+			["overkill"] = 6,
+			["edamagetaken"] = 69,
+			["name"] = "Kobold Worker (3)",
+			["mobname"] = "Kobold Worker",
+			["starttime"] = 1706964092,
+			["edamage"] = 14,
+			["last_action"] = 1706964111,
+			["endtime"] = 1706964111,
+		}, -- [6]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["damagetaken"] = 59,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 13,
+									["amount"] = 51,
+								},
+							},
+							["overkill"] = 13,
+							["amount"] = 51,
+						},
+					},
+					["name"] = "Kobold Vermin",
+					["totaldamage"] = 4,
+					["totaldamagetaken"] = 59,
+					["id"] = "0xF130000006131D47",
+					["damage"] = 4,
+				}, -- [1]
+			},
+			["totaldamage"] = 59,
+			["time"] = 13,
+			["totaldamagetaken"] = 4,
+			["etotaldamagetaken"] = 59,
+			["last_time"] = 1391.357,
+			["players"] = {
+				{
+					["last"] = 1390.148,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[465] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["time"] = 11.56,
+					["totaldamagetaken"] = 4,
+					["damage"] = 59,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Vermin"] = {
+									["amount"] = 8,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 8,
+							["hitamount"] = 8,
+						},
+						["Melee"] = {
+							["glance"] = 11,
+							["hitmin"] = 9,
+							["criticalmin"] = 22,
+							["targets"] = {
+								["Kobold Vermin"] = {
+									["overkill"] = 13,
+									["amount"] = 51,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 51,
+							["glancemin"] = 11,
+							["criticalamount"] = 22,
+							["id"] = 6603,
+							["glancemax"] = 11,
+							["overkill"] = 13,
+							["criticalmax"] = 22,
+							["hitmax"] = 9,
+							["hit"] = 2,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 4,
+							["hitamount"] = 18,
+						},
+					},
+					["damagetaken"] = 4,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Vermin"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 1,
+							["amount"] = 4,
+							["hitamount"] = 4,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 13,
+					["totaldamage"] = 59,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 4,
+			["damage"] = 59,
+			["etotaldamage"] = 4,
+			["overkill"] = 13,
+			["edamagetaken"] = 59,
+			["name"] = "Kobold Vermin (9)",
+			["mobname"] = "Kobold Vermin",
+			["starttime"] = 1706964075,
+			["edamage"] = 4,
+			["last_action"] = 1706964088,
+			["endtime"] = 1706964088,
+		}, -- [7]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["damagetaken"] = 59,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 4,
+									["amount"] = 47,
+								},
+							},
+							["overkill"] = 4,
+							["amount"] = 47,
+						},
+					},
+					["name"] = "Kobold Worker",
+					["totaldamage"] = 9,
+					["totaldamagetaken"] = 59,
+					["id"] = "0xF130000101133538",
+					["damage"] = 9,
+				}, -- [1]
+			},
+			["totaldamage"] = 59,
+			["time"] = 19,
+			["totaldamagetaken"] = 9,
+			["etotaldamagetaken"] = 59,
+			["last_time"] = 1375.798,
+			["players"] = {
+				{
+					["last"] = 1375.665,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[465] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["time"] = 17.36,
+					["totaldamagetaken"] = 9,
+					["damage"] = 59,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["amount"] = 12,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+						["Melee"] = {
+							["glance"] = 15,
+							["hitmin"] = 7,
+							["glancemin"] = 7,
+							["id"] = 6603,
+							["blocked"] = 1,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["overkill"] = 4,
+									["amount"] = 47,
+								},
+							},
+							["overkill"] = 4,
+							["glancing"] = 2,
+							["glancemax"] = 8,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 9,
+							["amount"] = 47,
+							["hitamount"] = 32,
+						},
+					},
+					["damagetaken"] = 9,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["amount"] = 9,
+							["sources"] = {
+								["Kobold Worker"] = {
+									["amount"] = 9,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 9,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 4,
+					["totaldamage"] = 59,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 9,
+			["damage"] = 59,
+			["etotaldamage"] = 9,
+			["overkill"] = 4,
+			["edamagetaken"] = 59,
+			["name"] = "Kobold Worker (2)",
+			["mobname"] = "Kobold Worker",
+			["starttime"] = 1706964055,
+			["edamage"] = 9,
+			["last_action"] = 1706964073,
+			["endtime"] = 1706964074,
+		}, -- [8]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["damagetaken"] = 65,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 2,
+									["amount"] = 53,
+								},
+							},
+							["overkill"] = 2,
+							["amount"] = 53,
+						},
+					},
+					["name"] = "Kobold Worker",
+					["totaldamage"] = 9,
+					["totaldamagetaken"] = 65,
+					["id"] = "0xF13000010113356B",
+					["damage"] = 9,
+				}, -- [1]
+			},
+			["totaldamage"] = 65,
+			["time"] = 19,
+			["totaldamagetaken"] = 9,
+			["etotaldamagetaken"] = 65,
+			["last_time"] = 1356.265,
+			["players"] = {
+				{
+					["last"] = 1355.373,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[465] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 7,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 17.36,
+					["totaldamagetaken"] = 9,
+					["damage"] = 65,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["amount"] = 12,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+						["Melee"] = {
+							["glance"] = 8,
+							["hitmin"] = 8,
+							["glancemax"] = 8,
+							["id"] = 6603,
+							["glancemin"] = 8,
+							["targets"] = {
+								["Kobold Worker"] = {
+									["overkill"] = 2,
+									["amount"] = 53,
+								},
+							},
+							["overkill"] = 2,
+							["glancing"] = 1,
+							["blocked"] = 2,
+							["count"] = 6,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 10,
+							["amount"] = 53,
+							["hitamount"] = 45,
+						},
+					},
+					["damagetaken"] = 9,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Worker"] = {
+									["amount"] = 9,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["amount"] = 9,
+							["hitamount"] = 9,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 2,
+					["totaldamage"] = 65,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 9,
+			["damage"] = 65,
+			["etotaldamage"] = 9,
+			["overkill"] = 2,
+			["edamagetaken"] = 65,
+			["name"] = "Kobold Worker",
+			["mobname"] = "Kobold Worker",
+			["starttime"] = 1706964035,
+			["edamage"] = 9,
+			["last_action"] = 1706964053,
+			["endtime"] = 1706964054,
+		}, -- [9]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["damagetaken"] = 58,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 16,
+									["amount"] = 52,
+								},
+							},
+							["overkill"] = 16,
+							["amount"] = 52,
+						},
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["name"] = "Diseased Young Wolf",
+					["totaldamage"] = 4,
+					["totaldamagetaken"] = 58,
+					["id"] = "0xF13000012B1335E4",
+					["damage"] = 4,
+				}, -- [1]
+			},
+			["totaldamage"] = 58,
+			["time"] = 11,
+			["totaldamagetaken"] = 4,
+			["etotaldamagetaken"] = 58,
+			["last_time"] = 1218.525,
+			["players"] = {
+				{
+					["last"] = 1216.783,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+					},
+					["time"] = 8.93,
+					["totaldamagetaken"] = 4,
+					["damage"] = 58,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 10,
+							["criticalamount"] = 20,
+							["id"] = 6603,
+							["criticalmin"] = 20,
+							["targets"] = {
+								["Diseased Young Wolf"] = {
+									["overkill"] = 16,
+									["amount"] = 52,
+								},
+							},
+							["overkill"] = 16,
+							["critical"] = 1,
+							["criticalmax"] = 20,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 11,
+							["amount"] = 52,
+							["hitamount"] = 32,
+						},
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Diseased Young Wolf"] = {
+									["amount"] = 6,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 6,
+							["hitamount"] = 6,
+						},
+					},
+					["damagetaken"] = 4,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["hitmax"] = 1,
+							["sources"] = {
+								["Diseased Young Wolf"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["amount"] = 4,
+							["hitamount"] = 4,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 16,
+					["totaldamage"] = 58,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 4,
+			["damage"] = 58,
+			["etotaldamage"] = 4,
+			["overkill"] = 16,
+			["edamagetaken"] = 58,
+			["starttime"] = 1706963905,
+			["name"] = "Diseased Young Wolf (6)",
+			["mobname"] = "Diseased Young Wolf",
+			["edamage"] = 4,
+			["last_action"] = 1706963915,
+			["endtime"] = 1706963916,
+		}, -- [10]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["damagetaken"] = 38,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 7,
+									["amount"] = 32,
+								},
+							},
+							["overkill"] = 7,
+							["amount"] = 32,
+						},
+					},
+					["name"] = "Diseased Young Wolf",
+					["totaldamage"] = 3,
+					["totaldamagetaken"] = 38,
+					["id"] = "0xF13000012B1332C0",
+					["damage"] = 3,
+				}, -- [1]
+			},
+			["totaldamage"] = 38,
+			["time"] = 10,
+			["totaldamagetaken"] = 3,
+			["etotaldamagetaken"] = 38,
+			["last_time"] = 1195.224,
+			["players"] = {
+				{
+					["last"] = 1194.2,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 8.68,
+					["totaldamagetaken"] = 3,
+					["damage"] = 38,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Diseased Young Wolf"] = {
+									["amount"] = 6,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 6,
+							["hitamount"] = 6,
+						},
+						["Melee"] = {
+							["glance"] = 11,
+							["hitmin"] = 10,
+							["id"] = 6603,
+							["glancemin"] = 11,
+							["targets"] = {
+								["Diseased Young Wolf"] = {
+									["overkill"] = 7,
+									["amount"] = 32,
+								},
+							},
+							["overkill"] = 7,
+							["glancing"] = 1,
+							["glancemax"] = 11,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 11,
+							["amount"] = 32,
+							["hitamount"] = 21,
+						},
+					},
+					["damagetaken"] = 3,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["hitmax"] = 1,
+							["sources"] = {
+								["Diseased Young Wolf"] = {
+									["amount"] = 3,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 3,
+							["MISS"] = 1,
+							["hitamount"] = 3,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 7,
+					["totaldamage"] = 38,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 3,
+			["damage"] = 38,
+			["etotaldamage"] = 3,
+			["overkill"] = 7,
+			["edamagetaken"] = 38,
+			["name"] = "Diseased Young Wolf (5)",
+			["mobname"] = "Diseased Young Wolf",
+			["starttime"] = 1706963882,
+			["edamage"] = 3,
+			["last_action"] = 1706963892,
+			["endtime"] = 1706963892,
+		}, -- [11]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["damagetaken"] = 32,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["name"] = "Kobold Vermin",
+					["totaldamage"] = 4,
+					["totaldamagetaken"] = 32,
+					["id"] = "0xF130000006132CF5",
+					["damage"] = 4,
+				}, -- [1]
+			},
+			["totaldamage"] = 32,
+			["time"] = 13,
+			["totaldamagetaken"] = 4,
+			["etotaldamagetaken"] = 32,
+			["last_time"] = 1174.201,
+			["players"] = {
+				{
+					["last"] = 1173.375,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 9.67,
+					["totaldamagetaken"] = 4,
+					["damage"] = 32,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Vermin"] = {
+									["amount"] = 6,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 6,
+							["hitamount"] = 6,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 8,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Vermin"] = {
+									["amount"] = 26,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 10,
+							["amount"] = 26,
+							["hitamount"] = 26,
+						},
+					},
+					["damagetaken"] = 4,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["amount"] = 4,
+							["sources"] = {
+								["Kobold Vermin"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 4,
+						},
+					},
+					["name"] = "Ylath",
+					["totaldamage"] = 32,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 4,
+			["damage"] = 32,
+			["etotaldamage"] = 4,
+			["edamagetaken"] = 32,
+			["name"] = "Kobold Vermin (8)",
+			["mobname"] = "Kobold Vermin",
+			["starttime"] = 1706963859,
+			["edamage"] = 4,
+			["last_action"] = 1706963871,
+			["endtime"] = 1706963872,
+		}, -- [12]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["damagetaken"] = 32,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["name"] = "Kobold Vermin",
+					["totaldamage"] = 2,
+					["totaldamagetaken"] = 32,
+					["id"] = "0xF130000006132B76",
+					["damage"] = 2,
+				}, -- [1]
+			},
+			["totaldamage"] = 32,
+			["time"] = 8,
+			["totaldamagetaken"] = 2,
+			["etotaldamagetaken"] = 32,
+			["last_time"] = 1159.308,
+			["players"] = {
+				{
+					["last"] = 1157.875,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 6.06,
+					["totaldamagetaken"] = 2,
+					["damage"] = 32,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Kobold Vermin"] = {
+									["amount"] = 6,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 6,
+							["hitamount"] = 6,
+						},
+						["Melee"] = {
+							["hitmin"] = 10,
+							["criticalamount"] = 16,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Vermin"] = {
+									["amount"] = 26,
+								},
+							},
+							["criticalmin"] = 16,
+							["critical"] = 1,
+							["criticalmax"] = 16,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 10,
+							["amount"] = 26,
+							["hitamount"] = 10,
+						},
+					},
+					["damagetaken"] = 2,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Vermin"] = {
+									["amount"] = 2,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1,
+							["amount"] = 2,
+							["hitamount"] = 2,
+						},
+					},
+					["name"] = "Ylath",
+					["totaldamage"] = 32,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 2,
+			["damage"] = 32,
+			["etotaldamage"] = 2,
+			["edamagetaken"] = 32,
+			["name"] = "Kobold Vermin (7)",
+			["mobname"] = "Kobold Vermin",
+			["starttime"] = 1706963849,
+			["edamage"] = 2,
+			["last_action"] = 1706963856,
+			["endtime"] = 1706963857,
+		}, -- [13]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["damagetaken"] = 50,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 4,
+									["amount"] = 40,
+								},
+							},
+							["overkill"] = 4,
+							["amount"] = 40,
+						},
+					},
+					["name"] = "Diseased Timber Wolf",
+					["totaldamage"] = 9,
+					["totaldamagetaken"] = 50,
+					["id"] = "0xF130000045131B51",
+					["damage"] = 9,
+				}, -- [1]
+			},
+			["totaldamage"] = 50,
+			["time"] = 25,
+			["totaldamagetaken"] = 9,
+			["etotaldamagetaken"] = 50,
+			["last_time"] = 1136.759,
+			["players"] = {
+				{
+					["last"] = 1136.567,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 16.23,
+					["totaldamagetaken"] = 9,
+					["damage"] = 50,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Diseased Timber Wolf"] = {
+									["amount"] = 10,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 10,
+							["hitamount"] = 10,
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["glance"] = 15,
+							["hitmin"] = 8,
+							["hitmax"] = 9,
+							["id"] = 6603,
+							["hitamount"] = 25,
+							["glancemax"] = 8,
+							["overkill"] = 4,
+							["glancing"] = 2,
+							["PARRY"] = 1,
+							["count"] = 8,
+							["amount"] = 40,
+							["school"] = 1,
+							["hit"] = 3,
+							["targets"] = {
+								["Diseased Timber Wolf"] = {
+									["overkill"] = 4,
+									["amount"] = 40,
+								},
+							},
+							["glancemin"] = 7,
+						},
+					},
+					["damagetaken"] = 9,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["amount"] = 9,
+							["sources"] = {
+								["Diseased Timber Wolf"] = {
+									["amount"] = 9,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 1,
+							["MISS"] = 2,
+							["hitamount"] = 9,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 4,
+					["totaldamage"] = 50,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 9,
+			["damage"] = 50,
+			["etotaldamage"] = 9,
+			["overkill"] = 4,
+			["edamagetaken"] = 50,
+			["name"] = "Diseased Timber Wolf (2)",
+			["mobname"] = "Diseased Timber Wolf",
+			["starttime"] = 1706963810,
+			["edamage"] = 9,
+			["last_action"] = 1706963834,
+			["endtime"] = 1706963835,
+		}, -- [14]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ylath"] = {
+									["amount"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["damagetaken"] = 33,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[25742] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 1,
+									["amount"] = 8,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 8,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 25,
+								},
+							},
+							["amount"] = 25,
+						},
+					},
+					["name"] = "Diseased Young Wolf",
+					["totaldamage"] = 5,
+					["totaldamagetaken"] = 33,
+					["id"] = "0xF13000012B131B59",
+					["damage"] = 5,
+				}, -- [1]
+			},
+			["totaldamage"] = 33,
+			["time"] = 13,
+			["totaldamagetaken"] = 5,
+			["etotaldamagetaken"] = 33,
+			["last_time"] = 1109.275,
+			["players"] = {
+				{
+					["last"] = 1108.734,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[21084] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 9.680000000000002,
+					["totaldamagetaken"] = 5,
+					["damage"] = 33,
+					["damagespells"] = {
+						["Seal of Righteousness"] = {
+							["hitmin"] = 2,
+							["id"] = 25742,
+							["targets"] = {
+								["Diseased Young Wolf"] = {
+									["overkill"] = 1,
+									["amount"] = 8,
+								},
+							},
+							["overkill"] = 1,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 2,
+							["amount"] = 8,
+							["hitamount"] = 8,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 8,
+							["id"] = 6603,
+							["targets"] = {
+								["Diseased Young Wolf"] = {
+									["amount"] = 25,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 9,
+							["amount"] = 25,
+							["hitamount"] = 25,
+						},
+					},
+					["damagetaken"] = 5,
+					["id"] = "0x0700000000A393A4",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 1,
+							["id"] = 6603,
+							["sources"] = {
+								["Diseased Young Wolf"] = {
+									["amount"] = 5,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 1,
+							["amount"] = 5,
+							["hitamount"] = 5,
+						},
+					},
+					["name"] = "Ylath",
+					["overkill"] = 1,
+					["totaldamage"] = 33,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["damagetaken"] = 5,
+			["damage"] = 33,
+			["etotaldamage"] = 5,
+			["overkill"] = 1,
+			["edamagetaken"] = 33,
+			["name"] = "Diseased Young Wolf (4)",
+			["mobname"] = "Diseased Young Wolf",
+			["starttime"] = 1706963794,
+			["edamage"] = 5,
+			["last_action"] = 1706963806,
+			["endtime"] = 1706963807,
+		}, -- [15]
+	},
+	["version"] = 1878,
+}

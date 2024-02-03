@@ -1,0 +1,3127 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Ylath"] = {
+			["GUID"] = "0x0700000000A393A4",
+			["LastEventHealth"] = {
+				"78 (90%)", -- [1]
+				"78 (90%)", -- [2]
+				"77 (89%)", -- [3]
+				"77 (89%)", -- [4]
+				"77 (89%)", -- [5]
+				"76 (88%)", -- [6]
+				"76 (88%)", -- [7]
+				"76 (88%)", -- [8]
+				"76 (88%)", -- [9]
+				"75 (87%)", -- [10]
+				"86 (100%)", -- [11]
+				"86 (100%)", -- [12]
+				"85 (98%)", -- [13]
+				"85 (98%)", -- [14]
+				"83 (96%)", -- [15]
+				"83 (96%)", -- [16]
+				"83 (96%)", -- [17]
+				"81 (94%)", -- [18]
+				"81 (94%)", -- [19]
+				"81 (94%)", -- [20]
+				"79 (91%)", -- [21]
+				"78 (90%)", -- [22]
+				"78 (90%)", -- [23]
+				"78 (90%)", -- [24]
+				"77 (89%)", -- [25]
+				"77 (89%)", -- [26]
+				"77 (89%)", -- [27]
+				"75 (87%)", -- [28]
+				"73 (84%)", -- [29]
+				"73 (84%)", -- [30]
+				"79 (91%)", -- [31]
+				"79 (91%)", -- [32]
+				"79 (91%)", -- [33]
+				"79 (91%)", -- [34]
+				"79 (91%)", -- [35]
+				"79 (91%)", -- [36]
+				"77 (89%)", -- [37]
+				"75 (87%)", -- [38]
+				"75 (87%)", -- [39]
+				"75 (87%)", -- [40]
+				"71 (82%)", -- [41]
+				"84 (97%)", -- [42]
+				"84 (97%)", -- [43]
+				"84 (97%)", -- [44]
+				"84 (97%)", -- [45]
+				"82 (95%)", -- [46]
+				"82 (95%)", -- [47]
+				"82 (95%)", -- [48]
+				"80 (93%)", -- [49]
+				"80 (93%)", -- [50]
+			},
+			["LastAttackedBy"] = "Kobold Worker",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					412.7000000000001, -- [1]
+				},
+				["Damage"] = {
+					1464, -- [1]
+				},
+				["DamageTaken"] = {
+					189, -- [1]
+				},
+				["ActiveTime"] = {
+					412.7000000000001, -- [1]
+				},
+			},
+			["enClass"] = "PALADIN",
+			["unit"] = "Ylath",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 24,
+			["LastEventNum"] = {
+				[14] = 2.325581395348837,
+				[17] = 2.325581395348837,
+				[36] = 2.325581395348837,
+				[37] = 2.325581395348837,
+				[40] = 4.651162790697675,
+				[20] = 2.325581395348837,
+				[21] = 1.162790697674419,
+				[2] = 1.162790697674419,
+				[5] = 1.162790697674419,
+				[45] = 2.325581395348837,
+				[48] = 2.325581395348837,
+				[12] = 1.162790697674419,
+				[50] = 2.325581395348837,
+				[24] = 1.162790697674419,
+				[27] = 2.325581395348837,
+				[28] = 2.325581395348837,
+				[9] = 1.162790697674419,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 2,
+			["TimeLast"] = {
+				["ActiveTime"] = 1706964208,
+				["TimeDamage"] = 1706964208,
+				["OVERALL"] = 1706964208,
+				["DamageTaken"] = 1706964207,
+				["Damage"] = 1706964208,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 1511.397,
+			["NextEventNum"] = 31,
+			["LastEventHealthNum"] = {
+				90.69767441860465, -- [1]
+				90.69767441860465, -- [2]
+				89.53488372093024, -- [3]
+				89.53488372093024, -- [4]
+				89.53488372093024, -- [5]
+				88.37209302325582, -- [6]
+				88.37209302325582, -- [7]
+				88.37209302325582, -- [8]
+				88.37209302325582, -- [9]
+				87.20930232558139, -- [10]
+				100, -- [11]
+				100, -- [12]
+				98.83720930232558, -- [13]
+				98.83720930232558, -- [14]
+				96.51162790697674, -- [15]
+				96.51162790697674, -- [16]
+				96.51162790697674, -- [17]
+				94.18604651162791, -- [18]
+				94.18604651162791, -- [19]
+				94.18604651162791, -- [20]
+				91.86046511627907, -- [21]
+				90.69767441860465, -- [22]
+				90.69767441860465, -- [23]
+				90.69767441860465, -- [24]
+				89.53488372093024, -- [25]
+				89.53488372093024, -- [26]
+				89.53488372093024, -- [27]
+				87.20930232558139, -- [28]
+				84.88372093023256, -- [29]
+				84.88372093023256, -- [30]
+				91.86046511627907, -- [31]
+				91.86046511627907, -- [32]
+				91.86046511627907, -- [33]
+				91.86046511627907, -- [34]
+				91.86046511627907, -- [35]
+				91.86046511627907, -- [36]
+				89.53488372093024, -- [37]
+				87.20930232558139, -- [38]
+				87.20930232558139, -- [39]
+				87.20930232558139, -- [40]
+				82.55813953488372, -- [41]
+				97.67441860465117, -- [42]
+				97.67441860465117, -- [43]
+				97.67441860465117, -- [44]
+				97.67441860465117, -- [45]
+				95.34883720930233, -- [46]
+				95.34883720930233, -- [47]
+				95.34883720930233, -- [48]
+				93.02325581395348, -- [49]
+				93.02325581395348, -- [50]
+			},
+			["LastEvents"] = {
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [1]
+				"Kobold Worker Melee Ylath Hit -1 (Physical)", -- [2]
+				"Ylath Melee Kobold Worker Crit -18 (Physical)", -- [3]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [4]
+				"Kobold Worker Melee Ylath Hit -1 (Physical)", -- [5]
+				"Ylath Melee Kobold Worker Hit -9 (Physical)", -- [6]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [7]
+				"Kobold Worker Melee Ylath Dodge", -- [8]
+				"Kobold Worker Melee Ylath Hit -1 (Physical)", -- [9]
+				"Ylath Melee Kobold Worker Hit -9 (Physical)", -- [10]
+				"Ylath Melee Kobold Worker Hit -8 (Physical)", -- [11]
+				"Kobold Worker Melee Ylath Hit -1 (Physical)", -- [12]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [13]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [14]
+				"Ylath Melee Kobold Worker Crit -16 (Physical)", -- [15]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [16]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [17]
+				"Ylath Melee Kobold Worker Hit -8 (Physical)", -- [18]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [19]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [20]
+				"Kobold Worker Melee Ylath Hit -1 (Physical)", -- [21]
+				"Ylath Melee Kobold Worker Glancing -9 (Physical)", -- [22]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [23]
+				"Kobold Worker Melee Ylath Hit -1 (Physical)", -- [24]
+				"Ylath Melee Kobold Worker Hit -10 (Physical)", -- [25]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [26]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [27]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [28]
+				"Ylath Melee Kobold Worker Hit -9 (Physical)", -- [29]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [30]
+				"Ylath Melee Kobold Worker Hit -10 (Physical)", -- [31]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [32]
+				"Kobold Worker Melee Ylath Miss", -- [33]
+				"Ylath Melee Kobold Worker Hit -8 (Physical)", -- [34]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [35]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [36]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [37]
+				"Ylath Melee Kobold Worker Hit -8 (Physical)", -- [38]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [39]
+				"Kobold Worker Melee Ylath Crit -4 (Physical)", -- [40]
+				"Ylath Melee Kobold Worker Hit -10 (Physical)", -- [41]
+				"Ylath Melee Kobold Worker Hit -9 (Physical)", -- [42]
+				"Kobold Worker Melee Ylath Miss", -- [43]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [44]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [45]
+				"Ylath Melee Kobold Worker Hit -10 (Physical)", -- [46]
+				"Ylath Seal of Righteousness Kobold Worker Hit -2 (Holy)", -- [47]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [48]
+				"Ylath Melee Kobold Worker Glancing -9 (Physical)", -- [49]
+				"Kobold Worker Melee Ylath Hit -2 (Physical)", -- [50]
+			},
+			["Name"] = "Ylath",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				true, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				false, -- [35]
+				true, -- [36]
+				true, -- [37]
+				false, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				false, -- [47]
+				true, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				1479.605, -- [1]
+				1481.564, -- [2]
+				1482.238, -- [3]
+				1482.522, -- [4]
+				1483.555, -- [5]
+				1485.122, -- [6]
+				1485.48, -- [7]
+				1485.564, -- [8]
+				1487.573, -- [9]
+				1488.023, -- [10]
+				1496.605, -- [11]
+				1496.622, -- [12]
+				1496.922, -- [13]
+				1498.639, -- [14]
+				1499.522, -- [15]
+				1499.823, -- [16]
+				1500.613, -- [17]
+				1502.438, -- [18]
+				1502.622, -- [19]
+				1502.638, -- [20]
+				1504.622, -- [21]
+				1505.33, -- [22]
+				1505.68, -- [23]
+				1506.613, -- [24]
+				1508.238, -- [25]
+				1508.555, -- [26]
+				1508.639, -- [27]
+				1510.639, -- [28]
+				1511.122, -- [29]
+				1511.397, -- [30]
+				1461.947, -- [31]
+				1462.172, -- [32]
+				1463.255, -- [33]
+				1464.839, -- [34]
+				1465.13, -- [35]
+				1465.28, -- [36]
+				1467.255, -- [37]
+				1467.755, -- [38]
+				1467.989, -- [39]
+				1469.265, -- [40]
+				1470.639, -- [41]
+				1473.531, -- [42]
+				1473.531, -- [43]
+				1473.847, -- [44]
+				1475.539, -- [45]
+				1476.43, -- [46]
+				1476.722, -- [47]
+				1477.572, -- [48]
+				1479.338, -- [49]
+				1479.563, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 10,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 10,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 72,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 60,
+						["Holy"] = 12,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 60,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.24,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.58,
+								},
+							},
+							["amount"] = 17.82,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 17.82,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 15,
+								},
+								["Crit"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 18,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 27,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 60,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 12,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 12,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 17.82,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.24,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.58,
+								},
+							},
+							["amount"] = 17.82,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 9,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 9,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 74,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 64,
+						["Holy"] = 10,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 64,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 74,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.86,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.52,
+								},
+							},
+							["amount"] = 17.38,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 17.38,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 37,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 18,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 64,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 10,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 17.38,
+					["TimeDamaging"] = {
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15.86,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.52,
+								},
+							},
+							["amount"] = 17.38,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 15,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 15,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 75,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 63,
+						["Holy"] = 12,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 63,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 75,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.77,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.54,
+								},
+							},
+							["amount"] = 20.31,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 20.31,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 63,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 63,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 12,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 12,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 20.31,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.77,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.54,
+								},
+							},
+							["amount"] = 20.31,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 7,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 7,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 72,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 60,
+						["Holy"] = 12,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 60,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 1,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.45,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.67,
+								},
+							},
+							["amount"] = 20.12,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 20.12,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 7,
+									["min"] = 7,
+									["count"] = 1,
+									["amount"] = 7,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 53,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 60,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 12,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 12,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 20.12,
+					["TimeDamaging"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.45,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.67,
+								},
+							},
+							["amount"] = 20.12,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 35,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 60,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 12,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 12,
+						},
+					},
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.56,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.74,
+								},
+							},
+							["amount"] = 18.3,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 13,
+					["WhoDamaged"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 60,
+						["Holy"] = 12,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 60,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 18.3,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.56,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.74,
+								},
+							},
+							["amount"] = 18.3,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 13,
+					},
+					["ActiveTime"] = 18.3,
+					["Damage"] = 72,
+				},
+				["Fight1"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 9,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 35,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 60,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 12,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 12,
+						},
+					},
+					["TimeSpent"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.56,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.74,
+								},
+							},
+							["amount"] = 18.3,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 13,
+					["WhoDamaged"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 60,
+						["Holy"] = 12,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DamagedWho"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 60,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 72,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 18.3,
+					["TimeDamaging"] = {
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.56,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.74,
+								},
+							},
+							["amount"] = 18.3,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 13,
+					},
+					["ActiveTime"] = 18.3,
+					["Damage"] = 72,
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Melee"] = 6,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 151,
+								},
+								["Dodge"] = {
+									["count"] = 10,
+								},
+								["Miss"] = {
+									["count"] = 14,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 181,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 181,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 181,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 181,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 181,
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 11,
+									["min"] = 7,
+									["count"] = 20,
+									["amount"] = 169,
+								},
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 8,
+									["count"] = 89,
+									["amount"] = 814,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 9,
+									["min"] = 7,
+									["count"] = 6,
+									["amount"] = 49,
+								},
+								["Dodge"] = {
+									["count"] = 7,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 22,
+									["min"] = 16,
+									["count"] = 12,
+									["amount"] = 212,
+								},
+								["Parry"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 139,
+							["amount"] = 1244,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2,
+									["min"] = 2,
+									["count"] = 110,
+									["amount"] = 220,
+								},
+							},
+							["count"] = 110,
+							["amount"] = 220,
+						},
+					},
+					["TimeSpent"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 142.8,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 13.21,
+								},
+							},
+							["amount"] = 156.0100000000001,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 73.09000000000002,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 5.169999999999999,
+								},
+							},
+							["amount"] = 78.26000000000002,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 35.85,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2.45,
+								},
+							},
+							["amount"] = 38.3,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 130.6,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 9.529999999999999,
+								},
+							},
+							["amount"] = 140.13,
+						},
+					},
+					["DamageTaken"] = 189,
+					["WhoDamaged"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 89,
+								},
+							},
+							["amount"] = 89,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 31,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 1244,
+						["Holy"] = 220,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 20,
+								},
+								["Hit"] = {
+									["count"] = 95,
+								},
+								["Dodge"] = {
+									["count"] = 7,
+								},
+								["Crit"] = {
+									["count"] = 12,
+								},
+								["Parry"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 139,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 110,
+								},
+							},
+							["amount"] = 110,
+						},
+					},
+					["DamagedWho"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 496,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 94,
+								},
+							},
+							["amount"] = 590,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 245,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 285,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 97,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 115,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 406,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 68,
+								},
+							},
+							["amount"] = 474,
+						},
+					},
+					["TimeDamage"] = 412.7000000000001,
+					["TimeDamaging"] = {
+						["Kobold Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 142.8,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 13.21,
+								},
+							},
+							["amount"] = 156.0100000000001,
+						},
+						["Diseased Young Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 73.09000000000002,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 5.169999999999999,
+								},
+							},
+							["amount"] = 78.26000000000002,
+						},
+						["Diseased Timber Wolf"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 35.85,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2.45,
+								},
+							},
+							["amount"] = 38.3,
+						},
+						["Kobold Vermin"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 130.6,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 9.529999999999999,
+								},
+							},
+							["amount"] = 140.13,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 189,
+					},
+					["ActiveTime"] = 412.7000000000001,
+					["Damage"] = 1464,
+				},
+			},
+			["UnitLockout"] = 1706963632,
+			["LastActive"] = 1706964208,
+		},
+	},
+	["FightNum"] = 25,
+	["CombatTimes"] = {
+		{
+			1706963632, -- [1]
+			1706963646, -- [2]
+			"13:33:53", -- [3]
+			"13:34:06", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [1]
+		{
+			1706963646, -- [1]
+			1706963661, -- [2]
+			"13:34:07", -- [3]
+			"13:34:21", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [2]
+		{
+			1706963661, -- [1]
+			1706963669, -- [2]
+			"13:34:22", -- [3]
+			"13:34:29", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [3]
+		{
+			1706963670, -- [1]
+			1706963681, -- [2]
+			"13:34:31", -- [3]
+			"13:34:41", -- [4]
+			"Diseased Timber Wolf", -- [5]
+		}, -- [4]
+		{
+			1706963686, -- [1]
+			1706963694, -- [2]
+			"13:34:47", -- [3]
+			"13:34:54", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [5]
+		{
+			1706963695, -- [1]
+			1706963717, -- [2]
+			"13:34:55", -- [3]
+			"13:35:17", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [6]
+		{
+			1706963718, -- [1]
+			1706963741, -- [2]
+			"13:35:19", -- [3]
+			"13:35:41", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [7]
+		{
+			1706963746, -- [1]
+			1706963760, -- [2]
+			"13:35:47", -- [3]
+			"13:36:00", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [8]
+		{
+			1706963761, -- [1]
+			1706963772, -- [2]
+			"13:36:01", -- [3]
+			"13:36:12", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [9]
+		{
+			1706963774, -- [1]
+			1706963791, -- [2]
+			"13:36:15", -- [3]
+			"13:36:31", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [10]
+		{
+			1706963793, -- [1]
+			1706963807, -- [2]
+			"13:36:34", -- [3]
+			"13:36:47", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [11]
+		{
+			1706963810, -- [1]
+			1706963835, -- [2]
+			"13:36:50", -- [3]
+			"13:37:15", -- [4]
+			"Diseased Timber Wolf", -- [5]
+		}, -- [12]
+		{
+			1706963848, -- [1]
+			1706963856, -- [2]
+			"13:37:29", -- [3]
+			"13:37:36", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [13]
+		{
+			1706963858, -- [1]
+			1706963872, -- [2]
+			"13:37:39", -- [3]
+			"13:37:52", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [14]
+		{
+			1706963882, -- [1]
+			1706963893, -- [2]
+			"13:38:02", -- [3]
+			"13:38:13", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [15]
+		{
+			1706963904, -- [1]
+			1706963915, -- [2]
+			"13:38:25", -- [3]
+			"13:38:35", -- [4]
+			"Diseased Young Wolf", -- [5]
+		}, -- [16]
+		{
+			1706964034, -- [1]
+			1706964054, -- [2]
+			"13:40:35", -- [3]
+			"13:40:54", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [17]
+		{
+			1706964055, -- [1]
+			1706964074, -- [2]
+			"13:40:55", -- [3]
+			"13:41:14", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [18]
+		{
+			1706964075, -- [1]
+			1706964089, -- [2]
+			"13:41:15", -- [3]
+			"13:41:29", -- [4]
+			"Kobold Vermin", -- [5]
+		}, -- [19]
+		{
+			1706964091, -- [1]
+			1706964111, -- [2]
+			"13:41:32", -- [3]
+			"13:41:51", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [20]
+		{
+			1706964112, -- [1]
+			1706964128, -- [2]
+			"13:41:52", -- [3]
+			"13:42:08", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [21]
+		{
+			1706964129, -- [1]
+			1706964149, -- [2]
+			"13:42:10", -- [3]
+			"13:42:29", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [22]
+		{
+			1706964149, -- [1]
+			1706964169, -- [2]
+			"13:42:30", -- [3]
+			"13:42:49", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [23]
+		{
+			1706964170, -- [1]
+			1706964187, -- [2]
+			"13:42:50", -- [3]
+			"13:43:07", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [24]
+		{
+			1706964193, -- [1]
+			1706964210, -- [2]
+			"13:43:13", -- [3]
+			"13:43:30", -- [4]
+			"Kobold Worker", -- [5]
+		}, -- [25]
+	},
+	["FoughtWho"] = {
+		"Kobold Worker 13:43:13-13:43:30", -- [1]
+		"Kobold Worker 13:42:50-13:43:07", -- [2]
+		"Kobold Worker 13:42:30-13:42:49", -- [3]
+		"Kobold Worker 13:42:10-13:42:29", -- [4]
+		"Kobold Worker 13:41:52-13:42:08", -- [5]
+	},
+}

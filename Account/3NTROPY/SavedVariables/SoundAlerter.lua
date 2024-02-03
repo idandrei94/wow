@@ -12,6 +12,7 @@ sadb = {
 		["Kalaam - Icecrown"] = "Default",
 		["Lingurita - Lordaeron"] = "Default",
 		["Pufarin - Icecrown"] = "Default",
+		["Ylath - Icecrown"] = "Default",
 		["Praxia - Icecrown"] = "Default",
 		["Nalar - Icecrown"] = "Default",
 		["Flocius - Icecrown"] = "Default",

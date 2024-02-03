@@ -12,6 +12,7 @@ GladiusDB = {
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Ylath - Icecrown"] = "Ylath - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
@@ -75,8 +76,8 @@ GladiusDB = {
 		},
 		["Urgash - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 531.2111095225328,
 			["x"] = 1078.949820798114,
+			["y"] = 531.2111095225328,
 		},
 		["Kalaam - Icecrown"] = {
 			["locked"] = true,
@@ -87,6 +88,11 @@ GladiusDB = {
 			["locked"] = true,
 		},
 		["Pufarin - Icecrown"] = {
+		},
+		["Ylath - Icecrown"] = {
+			["locked"] = true,
+			["y"] = 567.2999279982746,
+			["x"] = 1172.283413208229,
 		},
 		["Praxia - Icecrown"] = {
 			["locked"] = true,
