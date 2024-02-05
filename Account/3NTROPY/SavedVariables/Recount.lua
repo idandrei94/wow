@@ -50,10 +50,7 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = 58.00000341936197,
-			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -16.99999979483828,
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -64,9 +61,12 @@ RecountDB = {
 					},
 				},
 			},
+			["DetailWindowY"] = -16.99999979483828,
+			["DetailWindowX"] = 58.00000341936197,
 			["GraphWindowX"] = 0,
-			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Violet Hold",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowHeight"] = 310.8518969696999,
 		},
@@ -564,8 +564,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "Vault of Archavon",
-			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Gundrak",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {

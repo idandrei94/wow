@@ -76,7 +76,7 @@ SkadaDB = {
 						},
 						["height"] = 290,
 					},
-					["hidden"] = true,
+					["hidden"] = false,
 					["y"] = 140.7405098856832,
 					["x"] = -644.7408003946764,
 					["strata"] = "HIGH",

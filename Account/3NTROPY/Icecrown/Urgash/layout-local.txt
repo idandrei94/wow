@@ -7,7 +7,7 @@ Y: 223
 W: 232
 H: 100
 Frame: LootFrame
-FrameLevel: 29
+FrameLevel: 11
 Anchor: TOP
 X: -247
 Y: -104
