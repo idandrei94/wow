@@ -51,10 +51,7 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
-			["DetailWindowX"] = 58.00000341936197,
-			["LastInstanceName"] = "Violet Hold",
-			["MainWindowHeight"] = 310.8518969696999,
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 1,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -66,10 +63,13 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -16.99999979483828,
-			["MainWindowWidth"] = 251.4197662784027,
-			["MainWindowVis"] = false,
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 58.00000341936197,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "The Culling of Stratholme",
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -83,7 +83,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = -115.0000081380815,
 			["LastInstanceName"] = "Trial of the Crusader",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -60.00000082064688,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -95,7 +95,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -60.00000082064688,
+			["GraphWindowX"] = 0,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 244.5308668882732,
@@ -150,11 +150,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 23.44438869364712,
 			["MainWindowWidth"] = 238.9999938458702,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["DetailWindowY"] = 23.44438869364712,
+			["GraphWindowX"] = 0,
 		},
 		["Flokus - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -255,6 +255,9 @@ RecountDB = {
 					["h"] = 200.0000027354896,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Pit of Saron",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -263,10 +266,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -280,7 +281,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 825.6666588477257,
 			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -289,10 +290,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -167.2591599407247,
-			["MainWindowHeight"] = 329.1730069274222,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 253.0123901948838,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 329.1730069274222,
 		},
 		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
@@ -616,11 +617,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -296.7037172773043,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 2,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -296.7037172773043,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -660,7 +661,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -672,7 +673,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
@@ -937,8 +938,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "Gundrak",
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -950,10 +951,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -165.0369795107044,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 317.6297135990283,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 247.3703663456547,
-			["MainWindowHeight"] = 317.6297135990283,
+			["GraphWindowX"] = 0,
 		},
 		["Vhalanor - Icecrown"] = {
 			["GraphWindowY"] = 0,

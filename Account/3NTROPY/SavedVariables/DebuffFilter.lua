@@ -827,13 +827,13 @@ DebuffFilter_Config = {
 		},
 		["all_pdebuffs"] = false,
 		["buffs"] = false,
-		["count"] = false,
 		["buff_layout"] = {
 			["grow"] = "rightdown",
 			["per_row"] = 8,
 			["time_lr"] = "right",
 			["time_tb"] = "bottom",
 		},
+		["count"] = false,
 		["fbuffs"] = false,
 		["buff_list"] = {
 			["Renew"] = {

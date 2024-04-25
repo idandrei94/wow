@@ -8,9 +8,9 @@ W: 232
 H: 100
 Frame: LootFrame
 FrameLevel: 9
-Anchor: BOTTOM
-X: -20
-Y: 94
+Anchor: CENTER
+X: 77
+Y: -70
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -42,7 +42,7 @@ Y: 10
 W: 488
 H: 716
 Frame: PowaOptionsFrame
-FrameLevel: 20
+FrameLevel: 18
 Anchor: TOPLEFT
 X: 91
 Y: -74

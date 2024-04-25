@@ -41,7 +41,7 @@ MACRO 16777222 "sap" INV_Misc_QuestionMark
 END
 MACRO 16777228 "sap" INV_Misc_QuestionMark
 #showtooltip Sap
-/cleartarget
+/cleartarget [noharm]
 /targetenemyplayer
 /cast [harm, nodead] sap
 /stopattack
