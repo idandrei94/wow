@@ -9,8 +9,8 @@ H: 100
 Frame: LootFrame
 FrameLevel: 13
 Anchor: CENTER
-X: -17
-Y: 90
+X: 89
+Y: -24
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
@@ -69,10 +69,3 @@ X: -3
 Y: -178
 W: 100
 H: 30
-Frame: GridLayoutFrame
-FrameLevel: 0
-Anchor: RIGHT
-X: -295
-Y: -65
-W: 57
-H: 56

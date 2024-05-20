@@ -51,7 +51,10 @@ RecountDB = {
 					["h"] = 311.0000073174346,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = 58.00000341936197,
+			["LastInstanceName"] = "Pit of Saron",
+			["MainWindowHeight"] = 310.8518969696999,
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -63,13 +66,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -16.99999979483828,
-			["DetailWindowX"] = 58.00000341936197,
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "The Culling of Stratholme",
-			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 251.4197662784027,
-			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowVis"] = false,
+			["ReportLines"] = 1,
+			["GraphWindowX"] = 0,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -95,11 +95,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -60.00000082064688,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -60.00000082064688,
 		},
 		["Rakhnis - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -138,7 +138,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 62.09879535193817,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 23.44438869364712,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -150,7 +150,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 23.44438869364712,
+			["GraphWindowX"] = 0,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 238.9999938458702,
@@ -266,8 +266,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -279,9 +279,6 @@ RecountDB = {
 					["x"] = -633.4630771481236,
 				},
 			},
-			["DetailWindowX"] = 825.6666588477257,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -290,10 +287,13 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -167.2591599407247,
-			["MainWindowHeight"] = 329.1730069274222,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 253.0123901948838,
+			["DetailWindowX"] = 825.6666588477257,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["CurDataSet"] = "CurrentFightData",
+			["MainWindowWidth"] = 253.0123901948838,
+			["MainWindowHeight"] = 329.1730069274222,
 		},
 		["Lingurita - Lordaeron"] = {
 			["GraphWindowY"] = 0,
@@ -587,7 +587,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "Trial of the Crusader",
+			["LastInstanceName"] = "The Nexus",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -661,7 +661,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Vault of Archavon",
+			["LastInstanceName"] = "Halls of Reflection",
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
@@ -671,8 +671,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
 		},
 		["Pocaitoru - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -686,7 +686,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 655.7037672683764,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -296.7037172773043,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -698,7 +698,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -296.7037172773043,
 			["ReportLines"] = 2,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 260.0000123097031,
@@ -912,11 +912,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 		},
 		["Pubianus - Icecrown"] = {
 			["GraphWindowY"] = 0,
