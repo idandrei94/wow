@@ -34,8 +34,9 @@ SkadaDB = {
 	["global"] = {
 		["nicknames"] = {
 			["cache"] = {
+				["0x07000000005F0C37"] = "Trupagram",
 			},
-			["reset"] = 1717492753,
+			["reset"] = 1724584859,
 		},
 		["version"] = 1878,
 	},

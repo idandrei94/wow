@@ -52,9 +52,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 58.00000341936197,
-			["LastInstanceName"] = "Pit of Saron",
-			["MainWindowHeight"] = 310.8518969696999,
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "Trial of the Crusader",
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -65,11 +65,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 251.4197662784027,
-			["MainWindowVis"] = false,
-			["ReportLines"] = 1,
 			["DetailWindowY"] = -16.99999979483828,
+			["ReportLines"] = 1,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 251.4197662784027,
+			["MainWindowHeight"] = 310.8518969696999,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -81,7 +81,10 @@ RecountDB = {
 					["h"] = 323.0000267394107,
 				},
 			},
-			["ReportLines"] = 1,
+			["DetailWindowX"] = -115.0000081380815,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["DetailWindowY"] = -60.00000082064688,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -92,12 +95,9 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -60.00000082064688,
-			["DetailWindowX"] = -115.0000081380815,
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowHeight"] = 323.4446028824811,
 		},
@@ -256,7 +256,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Pit of Saron",
+			["LastInstanceName"] = "Utgarde Pinnacle",
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
@@ -266,8 +266,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
 		},
 		["Kalaam - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -586,9 +586,6 @@ RecountDB = {
 					["x"] = -635.0186428401877,
 				},
 			},
-			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "The Nexus",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -600,8 +597,11 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -165.0369795107044,
+			["DetailWindowX"] = 74.40742614297815,
 			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
+			["LastInstanceName"] = "The Nexus",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 247.3703663456547,
 			["MainWindowHeight"] = 317.6297135990283,
 		},

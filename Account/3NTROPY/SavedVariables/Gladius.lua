@@ -47,8 +47,8 @@ GladiusDB = {
 		},
 		["Vrael - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 534.3400596661643,
 			["x"] = 941.2586748758234,
+			["y"] = 534.3400596661643,
 		},
 		["Rakhnis - Icecrown"] = {
 			["locked"] = true,
@@ -77,8 +77,8 @@ GladiusDB = {
 		},
 		["Urgash - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1078.949820798114,
 			["y"] = 531.2111095225328,
+			["x"] = 1078.949820798114,
 		},
 		["Elrath - Icecrown"] = {
 			["locked"] = true,
