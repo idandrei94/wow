@@ -31,17 +31,17 @@ XPerlConfigNew = {
 					["top"] = 842.5333799025663,
 					["left"] = 20.70000012867092,
 				},
-				["XPerl_Target"] = {
-					["top"] = 843.7334167368844,
-					["left"] = 216.8000086468412,
+				["XPerl_FocusTarget"] = {
+					["top"] = 693.3333426803894,
+					["left"] = 414.6999959399009,
 				},
 				["XPerl_TargetTarget"] = {
 					["top"] = 844.9333426973719,
 					["left"] = 412.9999832966964,
 				},
-				["XPerl_FocusTarget"] = {
-					["top"] = 693.3333426803894,
-					["left"] = 414.6999959399009,
+				["XPerl_Target"] = {
+					["top"] = 843.7334167368844,
+					["left"] = 216.8000086468412,
 				},
 			},
 			["Urgash"] = {
@@ -67,17 +67,17 @@ XPerlConfigNew = {
 					["top"] = 791.9233457600143,
 					["left"] = 71.07000404846362,
 				},
-				["XPerl_Target"] = {
-					["top"] = 843.7334167368844,
-					["left"] = 216.8000086468412,
+				["XPerl_FocusTarget"] = {
+					["top"] = 693.3333426803894,
+					["left"] = 414.6999959399009,
 				},
 				["XPerl_TargetTarget"] = {
 					["top"] = 844.9333426973719,
 					["left"] = 412.9999832966964,
 				},
-				["XPerl_FocusTarget"] = {
-					["top"] = 693.3333426803894,
-					["left"] = 414.6999959399009,
+				["XPerl_Target"] = {
+					["top"] = 843.7334167368844,
+					["left"] = 216.8000086468412,
 				},
 			},
 			["Maciucaru"] = {
@@ -604,19 +604,22 @@ XPerlConfigNew = {
 		},
 		["rangeFinder"] = {
 			["StatsFrame"] = {
+				["spell"] = "Holy Light",
 				["FadeAmount"] = 0.5,
-				["item"] = "Heavy Frostweave Bandage",
+				["item"] = "Heavy Netherweave Bandage",
 				["HealthLowPoint"] = 0.85,
 			},
 			["Main"] = {
 				["enabled"] = true,
-				["item"] = "Heavy Frostweave Bandage",
+				["spell"] = "Holy Light",
+				["item"] = "Heavy Netherweave Bandage",
 				["FadeAmount"] = 0.5,
 				["HealthLowPoint"] = 0.85,
 			},
 			["NameFrame"] = {
+				["spell"] = "Holy Light",
 				["FadeAmount"] = 0.5,
-				["item"] = "Heavy Frostweave Bandage",
+				["item"] = "Heavy Netherweave Bandage",
 				["HealthLowPoint"] = 0.85,
 			},
 		},
@@ -853,6 +856,12 @@ XPerlConfigNew = {
 			},
 			["classbarBright"] = 1,
 			["class"] = 1,
+			["frame"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
 			["gradient"] = {
 				["enable"] = 1,
 				["s"] = {
@@ -867,12 +876,6 @@ XPerlConfigNew = {
 					["g"] = 0.1,
 					["r"] = 0.1,
 				},
-			},
-			["frame"] = {
-				["a"] = 1,
-				["b"] = 0,
-				["g"] = 0,
-				["r"] = 0,
 			},
 			["bar"] = {
 				["rage"] = {
@@ -900,14 +903,14 @@ XPerlConfigNew = {
 					["g"] = 0,
 					["r"] = 0,
 				},
-				["energy"] = {
-					["b"] = 0,
-					["g"] = 1,
-					["r"] = 1,
-				},
 				["healthEmpty"] = {
 					["b"] = 0,
 					["g"] = 0,
+					["r"] = 1,
+				},
+				["energy"] = {
+					["b"] = 0,
+					["g"] = 1,
 					["r"] = 1,
 				},
 			},
@@ -943,10 +946,32 @@ XPerlConfigNew = {
 				["width"] = 0,
 			},
 		},
-		["tooltip"] = {
+		["focustarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
 			["enable"] = 1,
-			["enableBuffs"] = 1,
-			["modifier"] = "all",
+			["mana"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["scale"] = 0.7,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
+				["enable"] = 1,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
 		},
 		["pettarget"] = {
 			["debuffs"] = {
@@ -1021,32 +1046,10 @@ XPerlConfigNew = {
 			["percent"] = 1,
 			["classIcon"] = 1,
 		},
-		["focustarget"] = {
-			["debuffs"] = {
-				["enable"] = 1,
-				["curable"] = 0,
-				["size"] = 29,
-			},
-			["values"] = 1,
-			["pvpIcon"] = 1,
+		["tooltip"] = {
 			["enable"] = 1,
-			["mana"] = 1,
-			["healerMode"] = {
-				["type"] = 1,
-			},
-			["scale"] = 0.7,
-			["buffs"] = {
-				["maxrows"] = 2,
-				["castable"] = 0,
-				["enable"] = 1,
-				["rows"] = 3,
-				["wrap"] = 1,
-				["size"] = 22,
-			},
-			["percent"] = 1,
-			["size"] = {
-				["width"] = 0,
-			},
+			["enableBuffs"] = 1,
+			["modifier"] = "all",
 		},
 		["pet"] = {
 			["threat"] = 1,
@@ -1063,16 +1066,16 @@ XPerlConfigNew = {
 				["size"] = 18,
 			},
 			["values"] = 1,
-			["happiness"] = {
-				["enabled"] = 1,
-				["flashWhenSad"] = 1,
-				["onlyWhenSad"] = 1,
+			["castBar"] = {
+				["enable"] = 1,
 			},
 			["threatMode"] = "portraitFrame",
 			["name"] = 1,
 			["hitIndicator"] = 1,
-			["castBar"] = {
-				["enable"] = 1,
+			["happiness"] = {
+				["enabled"] = 1,
+				["flashWhenSad"] = 1,
+				["onlyWhenSad"] = 1,
 			},
 			["level"] = 1,
 			["healerMode"] = {
