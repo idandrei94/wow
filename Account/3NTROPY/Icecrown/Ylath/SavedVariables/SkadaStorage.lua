@@ -5,7 +5,7 @@ SkadaStorageDB = {
 		["time"] = 4986,
 		["totaldamagetaken"] = 902431,
 		["damage"] = 14170604,
-		["starttime"] = 1706963633,
+		["overheal"] = 305271,
 		["absorb"] = 57823,
 		["damagetaken"] = 844608,
 		["interrupt"] = 13,
@@ -13,8 +13,8 @@ SkadaStorageDB = {
 		["heal"] = 207565,
 		["potion"] = 3,
 		["ccdone"] = 84,
-		["overheal"] = 305271,
-		["name"] = "Total",
+		["starttime"] = 1706963633,
+		["runic"] = 625,
 		["players"] = {
 			{
 				["flag"] = 1297,
@@ -32,19 +32,17 @@ SkadaStorageDB = {
 				["heal"] = 207565,
 				["potion"] = 3,
 				["ccdone"] = 84,
-				["totaldamage"] = 14170604,
-				["name"] = "Ylath",
-				["interrupt"] = 13,
 				["runic"] = 625,
+				["interrupt"] = 13,
+				["name"] = "Ylath",
+				["totaldamage"] = 14170604,
 			}, -- [1]
 		},
-		["runic"] = 625,
+		["name"] = "Total",
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
-			["starttime"] = 1727287508,
-			["etotaldamagetaken"] = 358506,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -98,27 +96,27 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4075,
 						},
-						[55078] = {
-							["school"] = 32,
-							["sources"] = {
-								["Ylath"] = {
-									["overkill"] = 3825,
-									["amount"] = 87341,
-								},
-							},
-							["overkill"] = 3825,
-							["amount"] = 87341,
-						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["overkill"] = 2425,
 									["amount"] = 78747,
+									["overkill"] = 2425,
 								},
 							},
-							["overkill"] = 2425,
 							["amount"] = 78747,
+							["overkill"] = 2425,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 87341,
+									["overkill"] = 3825,
+								},
+							},
+							["amount"] = 87341,
+							["overkill"] = 3825,
 						},
 					},
 					["totaldamage"] = 41555,
@@ -165,12 +163,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["overkill"] = 1237,
 									["amount"] = 5676,
+									["overkill"] = 1237,
 								},
 							},
-							["overkill"] = 1237,
 							["amount"] = 5676,
+							["overkill"] = 1237,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -185,12 +183,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Ylath"] = {
-									["overkill"] = 799,
 									["amount"] = 4599,
+									["overkill"] = 799,
 								},
 							},
-							["overkill"] = 799,
 							["amount"] = 4599,
+							["overkill"] = 799,
 						},
 					},
 					["totaldamage"] = 4838,
@@ -224,14 +222,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 7057,
 						},
-						[49998] = {
-							["school"] = 1,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 38729,
+									["amount"] = 13943,
 								},
 							},
-							["amount"] = 38729,
+							["amount"] = 13943,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -242,14 +240,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 15696,
 						},
-						[45462] = {
+						[49998] = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 5372,
+									["amount"] = 38729,
 								},
 							},
-							["amount"] = 5372,
+							["amount"] = 38729,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -273,21 +271,21 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["overkill"] = 1332,
 									["amount"] = 1721,
+									["overkill"] = 1332,
 								},
 							},
-							["overkill"] = 1332,
 							["amount"] = 1721,
+							["overkill"] = 1332,
 						},
-						[55095] = {
-							["school"] = 16,
+						[45462] = {
+							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 13943,
+									["amount"] = 5372,
 								},
 							},
-							["amount"] = 13943,
+							["amount"] = 5372,
 						},
 					},
 					["totaldamage"] = 61651,
@@ -334,12 +332,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Ylath"] = {
-									["overkill"] = 411,
 									["amount"] = 6613,
+									["overkill"] = 411,
 								},
 							},
-							["overkill"] = 411,
 							["amount"] = 6613,
+							["overkill"] = 411,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -358,13 +356,6 @@ SkadaStorageDB = {
 					["damage"] = 9053,
 				}, -- [4]
 			},
-			["ccdone"] = 2,
-			["totaldamage"] = 358506,
-			["time"] = 123,
-			["absorb"] = 1144,
-			["totaldamagetaken"] = 133247,
-			["etotaldamage"] = 117097,
-			["last_time"] = 12292.107,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -393,9 +384,9 @@ SkadaStorageDB = {
 							["uptime"] = 116,
 						},
 						[52424] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[55095] = {
@@ -405,23 +396,23 @@ SkadaStorageDB = {
 							["refresh"] = 65,
 							["targets"] = {
 								["Terrifying Abomination"] = {
-									["count"] = 16,
 									["refresh"] = 54,
+									["count"] = 16,
 									["uptime"] = 43,
 								},
 								["Val'kyr Battle-maiden"] = {
-									["count"] = 4,
 									["refresh"] = 6,
+									["count"] = 4,
 									["uptime"] = 60,
 								},
 								["Scourge Necromancer"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 32,
 								},
 								["Patchwerk"] = {
-									["count"] = 3,
 									["refresh"] = 4,
+									["count"] = 3,
 									["uptime"] = 87,
 								},
 							},
@@ -437,33 +428,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 123,
 						},
-						[49560] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Scourge Necromancer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Patchwerk"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[64859] = {
+						[58361] = {
 							["type"] = "BUFF",
-							["count"] = 3,
+							["count"] = 1,
+							["uptime"] = 123,
+						},
+						[49016] = {
 							["school"] = 1,
-							["refresh"] = 23,
-							["uptime"] = 83,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
 						},
 						[55233] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[48266] = {
@@ -485,38 +464,50 @@ SkadaStorageDB = {
 							["refresh"] = 66,
 							["targets"] = {
 								["Terrifying Abomination"] = {
-									["count"] = 15,
 									["refresh"] = 54,
+									["count"] = 15,
 									["uptime"] = 39,
 								},
 								["Val'kyr Battle-maiden"] = {
-									["count"] = 4,
 									["refresh"] = 6,
+									["count"] = 4,
 									["uptime"] = 60,
 								},
 								["Scourge Necromancer"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 32,
 								},
 								["Patchwerk"] = {
-									["count"] = 2,
 									["refresh"] = 5,
+									["count"] = 2,
 									["uptime"] = 86,
 								},
 							},
 							["count"] = 23,
 						},
-						[49016] = {
+						[64859] = {
 							["type"] = "BUFF",
-							["count"] = 1,
+							["count"] = 3,
 							["school"] = 1,
-							["uptime"] = 30,
+							["refresh"] = 23,
+							["uptime"] = 83,
 						},
-						[58361] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 123,
+						[49560] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Scourge Necromancer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Patchwerk"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
 						},
 					},
 					["absorbspells"] = {
@@ -531,9 +522,9 @@ SkadaStorageDB = {
 							["max"] = 156,
 						},
 					},
+					["totaldamage"] = 358506,
 					["time"] = 117.32,
 					["totaldamagetaken"] = 133247,
-					["overkill"] = 10029,
 					["damage"] = 358506,
 					["overheal"] = 226598,
 					["absorb"] = 1144,
@@ -546,48 +537,52 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 197,
 							["school"] = 32,
-							["max"] = 197,
+							["min"] = 197,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 3747,
 									["amount"] = 197,
 								},
 							},
-							["min"] = 197,
+							["max"] = 197,
 						},
 						[50475] = {
 							["overheal"] = 2284,
+							["min"] = 15,
+							["count"] = 49,
+							["amount"] = 2451,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 2284,
 									["amount"] = 2451,
 								},
 							},
-							["count"] = 49,
-							["amount"] = 2451,
-							["school"] = 1,
 							["max"] = 190,
-							["ishot"] = true,
-							["min"] = 15,
 						},
 						[58361] = {
 							["overheal"] = 195596,
+							["min"] = 340,
+							["count"] = 58,
+							["amount"] = 117584,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 195596,
 									["amount"] = 117584,
 								},
 							},
-							["count"] = 58,
-							["amount"] = 117584,
-							["school"] = 1,
 							["max"] = 4930,
-							["ishot"] = true,
-							["min"] = 340,
 						},
 						[45470] = {
 							["overheal"] = 24971,
+							["casts"] = 14,
+							["count"] = 14,
+							["amount"] = 18071,
 							["max"] = 2958,
+							["school"] = 1,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 24971,
@@ -595,21 +590,244 @@ SkadaStorageDB = {
 								},
 							},
 							["min"] = 197,
-							["casts"] = 14,
-							["count"] = 14,
-							["amount"] = 18071,
-							["school"] = 1,
 						},
+					},
+					["overkill"] = 10029,
+					["role"] = "DAMAGER",
+					["heal"] = 138303,
+					["name"] = "Ylath",
+					["ccdone"] = 2,
+					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["glance"] = 22831,
+							["hitmin"] = 1999,
+							["criticalmin"] = 4344,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 12368,
+								},
+								["Val'kyr Battle-maiden"] = {
+									["amount"] = 8708,
+								},
+								["Patchwerk"] = {
+									["amount"] = 26906,
+								},
+							},
+							["glancing"] = 14,
+							["amount"] = 47982,
+							["MISS"] = 4,
+							["glancemin"] = 1326,
+							["criticalamount"] = 13464,
+							["id"] = 6603,
+							["glancemax"] = 1931,
+							["criticalmax"] = 4756,
+							["count"] = 38,
+							["PARRY"] = 10,
+							["critical"] = 3,
+							["hit"] = 5,
+							["school"] = 1,
+							["blocked"] = 91,
+							["hitmax"] = 2905,
+							["hitamount"] = 11687,
+						},
+						["Icy Touch"] = {
+							["criticalamount"] = 4075,
+							["count"] = 10,
+							["hitmin"] = 1388,
+							["criticalmin"] = 4075,
+							["id"] = 45477,
+							["casts"] = 10,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 4075,
+								},
+								["Patchwerk"] = {
+									["amount"] = 7057,
+								},
+							},
+							["critical"] = 1,
+							["amount"] = 11132,
+							["criticalmax"] = 4075,
+							["hitmax"] = 2030,
+							["hit"] = 4,
+							["school"] = 16,
+							["resisted"] = 997,
+							["MISS"] = 5,
+							["hitamount"] = 7057,
+						},
+						["Pestilence"] = {
+							["casts"] = 9,
+							["count"] = 6,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 50842,
+							["targets"] = {
+								["Val'kyr Battle-maiden"] = {
+									["amount"] = 0,
+								},
+								["Patchwerk"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 6,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 498,
+							["id"] = 55078,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 87341,
+									["overkill"] = 3825,
+								},
+								["Val'kyr Battle-maiden"] = {
+									["amount"] = 16857,
+								},
+								["Scourge Necromancer"] = {
+									["amount"] = 6613,
+									["overkill"] = 411,
+								},
+								["Patchwerk"] = {
+									["amount"] = 15696,
+								},
+							},
+							["overkill"] = 4236,
+							["count"] = 191,
+							["hitmax"] = 838,
+							["hit"] = 191,
+							["school"] = 32,
+							["resisted"] = 9956,
+							["amount"] = 126507,
+							["hitamount"] = 126507,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 2251,
+							["criticalmin"] = 4390,
+							["targets"] = {
+								["Val'kyr Battle-maiden"] = {
+									["amount"] = 5676,
+									["overkill"] = 1237,
+								},
+								["Patchwerk"] = {
+									["amount"] = 38729,
+								},
+							},
+							["amount"] = 44405,
+							["MISS"] = 2,
+							["criticalamount"] = 18692,
+							["id"] = 49998,
+							["PARRY"] = 2,
+							["overkill"] = 1237,
+							["casts"] = 32,
+							["criticalmax"] = 4994,
+							["critical"] = 4,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 3050,
+							["count"] = 18,
+							["hitamount"] = 25713,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 2178,
+							["id"] = 47632,
+							["count"] = 6,
+							["targets"] = {
+								["Val'kyr Battle-maiden"] = {
+									["amount"] = 4599,
+									["overkill"] = 799,
+								},
+								["Patchwerk"] = {
+									["amount"] = 2448,
+								},
+							},
+							["overkill"] = 799,
+							["hit"] = 3,
+							["casts"] = 6,
+							["hitmax"] = 2448,
+							["amount"] = 7047,
+							["school"] = 32,
+							["resisted"] = 514,
+							["MISS"] = 3,
+							["hitamount"] = 7047,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1216,
+							["id"] = 45462,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 5372,
+								},
+							},
+							["casts"] = 5,
+							["PARRY"] = 1,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["amount"] = 5372,
+							["hitmax"] = 1509,
+							["hitamount"] = 5372,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 474,
+							["id"] = 55095,
+							["targets"] = {
+								["Terrifying Abomination"] = {
+									["amount"] = 78747,
+									["overkill"] = 2425,
+								},
+								["Val'kyr Battle-maiden"] = {
+									["amount"] = 15900,
+								},
+								["Scourge Necromancer"] = {
+									["amount"] = 5750,
+								},
+								["Patchwerk"] = {
+									["amount"] = 13943,
+								},
+							},
+							["overkill"] = 2425,
+							["count"] = 182,
+							["hitmax"] = 677,
+							["hit"] = 182,
+							["school"] = 16,
+							["resisted"] = 8744,
+							["amount"] = 114340,
+							["hitamount"] = 114340,
+						},
+						["Blood Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1721,
+							["id"] = 45902,
+							["targets"] = {
+								["Patchwerk"] = {
+									["amount"] = 1721,
+									["overkill"] = 1332,
+								},
+							},
+							["overkill"] = 1332,
+							["count"] = 4,
+							["PARRY"] = 2,
+							["hitmax"] = 1721,
+							["amount"] = 1721,
+							["school"] = 1,
+							["hit"] = 1,
+							["casts"] = 4,
+							["hitamount"] = 1721,
+						},
+					},
+					["runic"] = 220,
+					["runicspells"] = {
+						[50422] = 220,
 					},
 					["damagetakenspells"] = {
 						["Touch of the Val'kyr"] = {
 							["total"] = 16150,
 							["hitmin"] = 142,
 							["id"] = 57548,
-							["amount"] = 15006,
-							["hitmax"] = 372,
 							["count"] = 50,
 							["hit"] = 49,
+							["hitmax"] = 372,
+							["amount"] = 15006,
 							["school"] = 32,
 							["resisted"] = 290,
 							["MISS"] = 1,
@@ -650,28 +868,28 @@ SkadaStorageDB = {
 							["criticalamount"] = 12522,
 							["id"] = 6603,
 							["crushing"] = 69,
+							["count"] = 349,
 							["criticalmax"] = 966,
-							["PARRY"] = 40,
 							["hitmax"] = 481,
 							["hit"] = 186,
 							["school"] = 1,
 							["critical"] = 23,
-							["count"] = 349,
+							["PARRY"] = 40,
 							["hitamount"] = 36032,
 						},
 						["Cleave"] = {
 							["DODGE"] = 6,
 							["hitmin"] = 154,
 							["id"] = 15496,
-							["amount"] = 8392,
-							["PARRY"] = 6,
 							["sources"] = {
 								["Terrifying Abomination"] = {
 									["amount"] = 8392,
 								},
 							},
-							["count"] = 62,
 							["hit"] = 48,
+							["PARRY"] = 6,
+							["count"] = 62,
+							["amount"] = 8392,
 							["school"] = 1,
 							["hitmax"] = 190,
 							["MISS"] = 2,
@@ -723,251 +941,33 @@ SkadaStorageDB = {
 							["hitamount"] = 7791,
 						},
 					},
-					["runicspells"] = {
-						[50422] = 220,
-					},
-					["heal"] = 138303,
-					["name"] = "Ylath",
-					["ccdone"] = 2,
-					["runic"] = 220,
-					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 2,
-							["glance"] = 22831,
-							["hitmin"] = 1999,
-							["criticalmin"] = 4344,
-							["targets"] = {
-								["Terrifying Abomination"] = {
-									["amount"] = 12368,
-								},
-								["Val'kyr Battle-maiden"] = {
-									["amount"] = 8708,
-								},
-								["Patchwerk"] = {
-									["amount"] = 26906,
-								},
-							},
-							["glancing"] = 14,
-							["amount"] = 47982,
-							["MISS"] = 4,
-							["glancemin"] = 1326,
-							["criticalamount"] = 13464,
-							["id"] = 6603,
-							["glancemax"] = 1931,
-							["PARRY"] = 10,
-							["critical"] = 3,
-							["criticalmax"] = 4756,
-							["hitmax"] = 2905,
-							["hit"] = 5,
-							["school"] = 1,
-							["blocked"] = 91,
-							["count"] = 38,
-							["hitamount"] = 11687,
-						},
-						["Icy Touch"] = {
-							["criticalmin"] = 4075,
-							["hitmax"] = 2030,
-							["hitmin"] = 1388,
-							["criticalamount"] = 4075,
-							["id"] = 45477,
-							["count"] = 10,
-							["targets"] = {
-								["Terrifying Abomination"] = {
-									["amount"] = 4075,
-								},
-								["Patchwerk"] = {
-									["amount"] = 7057,
-								},
-							},
-							["hit"] = 4,
-							["criticalmax"] = 4075,
-							["casts"] = 10,
-							["critical"] = 1,
-							["amount"] = 11132,
-							["school"] = 16,
-							["resisted"] = 997,
-							["MISS"] = 5,
-							["hitamount"] = 7057,
-						},
-						["Pestilence"] = {
-							["casts"] = 9,
-							["count"] = 6,
-							["amount"] = 0,
-							["school"] = 32,
-							["targets"] = {
-								["Val'kyr Battle-maiden"] = {
-									["amount"] = 0,
-								},
-								["Patchwerk"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 6,
-							["id"] = 50842,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 498,
-							["id"] = 55078,
-							["targets"] = {
-								["Terrifying Abomination"] = {
-									["overkill"] = 3825,
-									["amount"] = 87341,
-								},
-								["Val'kyr Battle-maiden"] = {
-									["amount"] = 16857,
-								},
-								["Scourge Necromancer"] = {
-									["overkill"] = 411,
-									["amount"] = 6613,
-								},
-								["Patchwerk"] = {
-									["amount"] = 15696,
-								},
-							},
-							["overkill"] = 4236,
-							["hitmax"] = 838,
-							["count"] = 191,
-							["hit"] = 191,
-							["school"] = 32,
-							["resisted"] = 9956,
-							["amount"] = 126507,
-							["hitamount"] = 126507,
-						},
-						["Blood Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1721,
-							["id"] = 45902,
-							["targets"] = {
-								["Patchwerk"] = {
-									["overkill"] = 1332,
-									["amount"] = 1721,
-								},
-							},
-							["overkill"] = 1332,
-							["hitmax"] = 1721,
-							["PARRY"] = 2,
-							["count"] = 4,
-							["amount"] = 1721,
-							["school"] = 1,
-							["casts"] = 4,
-							["hit"] = 1,
-							["hitamount"] = 1721,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 2178,
-							["id"] = 47632,
-							["amount"] = 7047,
-							["targets"] = {
-								["Val'kyr Battle-maiden"] = {
-									["overkill"] = 799,
-									["amount"] = 4599,
-								},
-								["Patchwerk"] = {
-									["amount"] = 2448,
-								},
-							},
-							["overkill"] = 799,
-							["hitmax"] = 2448,
-							["casts"] = 6,
-							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 32,
-							["resisted"] = 514,
-							["MISS"] = 3,
-							["hitamount"] = 7047,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 1216,
-							["id"] = 45462,
-							["targets"] = {
-								["Patchwerk"] = {
-									["amount"] = 5372,
-								},
-							},
-							["PARRY"] = 1,
-							["casts"] = 5,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1509,
-							["amount"] = 5372,
-							["hitamount"] = 5372,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 474,
-							["id"] = 55095,
-							["targets"] = {
-								["Terrifying Abomination"] = {
-									["overkill"] = 2425,
-									["amount"] = 78747,
-								},
-								["Val'kyr Battle-maiden"] = {
-									["amount"] = 15900,
-								},
-								["Scourge Necromancer"] = {
-									["amount"] = 5750,
-								},
-								["Patchwerk"] = {
-									["amount"] = 13943,
-								},
-							},
-							["overkill"] = 2425,
-							["hitmax"] = 677,
-							["count"] = 182,
-							["hit"] = 182,
-							["school"] = 16,
-							["resisted"] = 8744,
-							["amount"] = 114340,
-							["hitamount"] = 114340,
-						},
-						["Death Strike"] = {
-							["hitmin"] = 2251,
-							["criticalmin"] = 4390,
-							["targets"] = {
-								["Val'kyr Battle-maiden"] = {
-									["overkill"] = 1237,
-									["amount"] = 5676,
-								},
-								["Patchwerk"] = {
-									["amount"] = 38729,
-								},
-							},
-							["amount"] = 44405,
-							["MISS"] = 2,
-							["criticalamount"] = 18692,
-							["id"] = 49998,
-							["criticalmax"] = 4994,
-							["overkill"] = 1237,
-							["critical"] = 4,
-							["PARRY"] = 2,
-							["count"] = 18,
-							["hit"] = 10,
-							["school"] = 1,
-							["hitmax"] = 3050,
-							["casts"] = 32,
-							["hitamount"] = 25713,
-						},
-					},
-					["totaldamage"] = 358506,
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
-			["type"] = "none",
+			["totaldamage"] = 358506,
+			["time"] = 123,
+			["etotaldamage"] = 117097,
+			["totaldamagetaken"] = 133247,
+			["etotaldamagetaken"] = 358506,
+			["last_time"] = 12292.107,
+			["starttime"] = 1727287508,
+			["absorb"] = 1144,
 			["damagetaken"] = 132103,
-			["runic"] = 220,
+			["type"] = "none",
+			["overheal"] = 226598,
+			["mobname"] = "Terrifying Abomination",
 			["damage"] = 358506,
 			["overkill"] = 10029,
 			["edamagetaken"] = 358506,
 			["heal"] = 138303,
 			["name"] = "Terrifying Abomination",
-			["mobname"] = "Terrifying Abomination",
-			["overheal"] = 226598,
+			["ccdone"] = 2,
+			["runic"] = 220,
 			["edamage"] = 117097,
 			["last_action"] = 1727287631,
 			["endtime"] = 1727287631,
 		}, -- [1]
 		{
-			["type"] = "none",
+			["absorb"] = 56464,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -976,8 +976,8 @@ SkadaStorageDB = {
 							["total"] = 139637,
 							["targets"] = {
 								["Ylath"] = {
-									["amount"] = 638547,
 									["total"] = 695011,
+									["amount"] = 638547,
 								},
 							},
 							["amount"] = 638547,
@@ -1000,23 +1000,23 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 289256,
 									["overkill"] = 1338,
+									["amount"] = 289256,
 								},
 							},
-							["amount"] = 289256,
 							["overkill"] = 1338,
+							["amount"] = 289256,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 432487,
 									["overkill"] = 7631,
+									["amount"] = 432487,
 								},
 							},
-							["amount"] = 432487,
 							["overkill"] = 7631,
+							["amount"] = 432487,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -1058,21 +1058,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 76027,
 									["overkill"] = 4431,
+									["amount"] = 76027,
 								},
 							},
-							["amount"] = 76027,
 							["overkill"] = 4431,
-						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Ylath"] = {
-									["amount"] = 224340,
-								},
-							},
-							["amount"] = 224340,
+							["amount"] = 76027,
 						},
 						[47632] = {
 							["school"] = 32,
@@ -1082,6 +1073,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 35562,
+						},
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 224340,
+								},
+							},
+							["amount"] = 224340,
 						},
 					},
 					["totaldamage"] = 697107,
@@ -1110,12 +1110,12 @@ SkadaStorageDB = {
 					["damage"] = 14269,
 				}, -- [2]
 				{
-					["flag"] = 68168,
-					["name"] = "Leonid Barthalomew the Revered",
 					["damagetaken"] = 9963,
-					["id"] = "0xF1300071FB0572AD",
-					["totaldamagetaken"] = 9963,
+					["name"] = "Leonid Barthalomew the Revered",
 					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 9963,
+					["id"] = "0xF1300071FB0572AD",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -1138,9 +1138,6 @@ SkadaStorageDB = {
 					},
 				}, -- [3]
 			},
-			["runic"] = 255,
-			["totaldamage"] = 1429746,
-			["time"] = 301,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -1199,19 +1196,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 301,
 						},
-						[55095] = {
+						[51714] = {
 							["type"] = "DEBUFF",
-							["count"] = 101,
+							["count"] = 33,
 							["school"] = 16,
-							["refresh"] = 4,
+							["refresh"] = 27,
 							["targets"] = {
 								["Defender of the Light"] = {
-									["refresh"] = 4,
-									["count"] = 101,
-									["uptime"] = 181,
+									["refresh"] = 27,
+									["count"] = 33,
+									["uptime"] = 116,
 								},
 							},
-							["uptime"] = 181,
+							["uptime"] = 116,
 						},
 						[52419] = {
 							["school"] = 1,
@@ -1219,23 +1216,22 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["uptime"] = 20,
 						},
-						[49560] = {
+						[50613] = {
 							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
+							["count"] = 13,
+							["school"] = 64,
 							["targets"] = {
 								["Defender of the Light"] = {
-									["uptime"] = 3,
-									["count"] = 4,
+									["uptime"] = 6,
+									["count"] = 13,
 								},
 							},
-							["uptime"] = 3,
+							["uptime"] = 6,
 						},
-						[52424] = {
-							["school"] = 1,
+						[48266] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 20,
+							["count"] = 1,
+							["uptime"] = 301,
 						},
 						[55233] = {
 							["school"] = 1,
@@ -1256,36 +1252,37 @@ SkadaStorageDB = {
 							["refresh"] = 15,
 							["uptime"] = 267,
 						},
-						[48266] = {
+						[52424] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 301,
+							["count"] = 2,
+							["uptime"] = 20,
 						},
-						[50613] = {
+						[49560] = {
 							["type"] = "DEBUFF",
-							["count"] = 13,
-							["school"] = 64,
+							["count"] = 4,
+							["school"] = 1,
 							["targets"] = {
 								["Defender of the Light"] = {
-									["uptime"] = 6,
-									["count"] = 13,
+									["uptime"] = 3,
+									["count"] = 4,
 								},
 							},
-							["uptime"] = 6,
+							["uptime"] = 3,
 						},
-						[51714] = {
+						[55095] = {
 							["type"] = "DEBUFF",
-							["count"] = 33,
+							["count"] = 101,
 							["school"] = 16,
-							["refresh"] = 27,
+							["refresh"] = 4,
 							["targets"] = {
 								["Defender of the Light"] = {
-									["refresh"] = 27,
-									["count"] = 33,
-									["uptime"] = 116,
+									["refresh"] = 4,
+									["count"] = 101,
+									["uptime"] = 181,
 								},
 							},
-							["uptime"] = 116,
+							["uptime"] = 181,
 						},
 					},
 					["absorbspells"] = {
@@ -1313,7 +1310,10 @@ SkadaStorageDB = {
 					["totaldamage"] = 1429746,
 					["time"] = 245.94,
 					["totaldamagetaken"] = 711376,
-					["role"] = "DAMAGER",
+					["runicspells"] = {
+						[50613] = 45,
+						[50422] = 210,
+					},
 					["damage"] = 1429746,
 					["damagespells"] = {
 						["Melee"] = {
@@ -1322,8 +1322,8 @@ SkadaStorageDB = {
 							["criticalmin"] = 9960,
 							["targets"] = {
 								["Defender of the Light"] = {
-									["amount"] = 432487,
 									["overkill"] = 7631,
+									["amount"] = 432487,
 								},
 								["Duke Nicholas Zverenhoff"] = {
 									["amount"] = 0,
@@ -1340,22 +1340,22 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["glancemax"] = 8394,
 							["overkill"] = 7631,
-							["criticalmax"] = 17848,
 							["PARRY"] = 1,
+							["criticalmax"] = 17848,
 							["critical"] = 12,
 							["hit"] = 25,
 							["school"] = 1,
-							["count"] = 48,
 							["hitmax"] = 9636,
+							["count"] = 48,
 							["hitamount"] = 204989,
 						},
 						["Icy Touch"] = {
-							["criticalamount"] = 60666,
-							["hitmax"] = 6868,
-							["hitmin"] = 4904,
 							["criticalmin"] = 11968,
+							["count"] = 37,
+							["hitmin"] = 4904,
+							["criticalamount"] = 60666,
 							["id"] = 45477,
-							["casts"] = 37,
+							["criticalmax"] = 12454,
 							["targets"] = {
 								["Defender of the Light"] = {
 									["amount"] = 224340,
@@ -1367,15 +1367,163 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 37,
-							["hit"] = 27,
-							["criticalmax"] = 12454,
 							["critical"] = 5,
 							["amount"] = 224340,
+							["casts"] = 37,
+							["hitmax"] = 6868,
+							["hit"] = 27,
 							["school"] = 16,
 							["resisted"] = 3102,
 							["MISS"] = 5,
 							["hitamount"] = 163674,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 8372,
+							["id"] = 47632,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 35562,
+								},
+							},
+							["casts"] = 5,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 9409,
+							["amount"] = 35562,
+							["hitamount"] = 35562,
+						},
+						["Frost Vulnerability"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["MISS"] = 1,
+							["targets"] = {
+								["Leonid Barthalomew the Revered"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 51714,
+						},
+						["Pestilence"] = {
+							["casts"] = 14,
+							["count"] = 9,
+							["amount"] = 0,
+							["school"] = 32,
+							["MISS"] = 9,
+							["targets"] = {
+								["Lord Maxwell Tyrosus"] = {
+									["amount"] = 0,
+								},
+								["Korfax, Champion of the Light"] = {
+									["amount"] = 0,
+								},
+								["Rimblat Earthshatter"] = {
+									["amount"] = 0,
+								},
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 0,
+								},
+								["Commander Eligor Dawnbringer"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 50842,
+						},
+						["Arcane Torrent"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 64,
+							["MISS"] = 1,
+							["targets"] = {
+								["Rayne"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 50613,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 1966,
+							["id"] = 55078,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["overkill"] = 1338,
+									["amount"] = 289256,
+								},
+							},
+							["overkill"] = 1338,
+							["hitmax"] = 2895,
+							["count"] = 120,
+							["hit"] = 120,
+							["school"] = 32,
+							["resisted"] = 7848,
+							["amount"] = 289256,
+							["hitamount"] = 289256,
+						},
+						["Razor Frost"] = {
+							["hitmin"] = 2,
+							["id"] = 50401,
+							["targets"] = {
+								["Leonid Barthalomew the Revered"] = {
+									["amount"] = 3,
+								},
+								["Defender of the Light"] = {
+									["amount"] = 195,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 56,
+							["hit"] = 56,
+							["school"] = 16,
+							["hitmax"] = 5,
+							["amount"] = 198,
+							["hitamount"] = 198,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 1870,
+							["id"] = 55095,
+							["targets"] = {
+								["Defender of the Light"] = {
+									["amount"] = 315111,
+								},
+							},
+							["hitmax"] = 2829,
+							["count"] = 136,
+							["hit"] = 136,
+							["school"] = 16,
+							["resisted"] = 7659,
+							["amount"] = 315111,
+							["hitamount"] = 315111,
+						},
+						["Plague Strike"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 4950,
+							["criticalmin"] = 9144,
+							["targets"] = {
+								["Duke Nicholas Zverenhoff"] = {
+									["amount"] = 0,
+								},
+								["Defender of the Light"] = {
+									["overkill"] = 4431,
+									["amount"] = 76027,
+								},
+							},
+							["amount"] = 76027,
+							["MISS"] = 2,
+							["criticalamount"] = 29047,
+							["id"] = 45462,
+							["criticalmax"] = 9980,
+							["overkill"] = 4431,
+							["hit"] = 9,
+							["casts"] = 19,
+							["count"] = 16,
+							["blocked"] = 29,
+							["school"] = 1,
+							["critical"] = 3,
+							["hitmax"] = 5557,
+							["hitamount"] = 46980,
 						},
 						["Death Strike"] = {
 							["hitmin"] = 9960,
@@ -1392,94 +1540,6 @@ SkadaStorageDB = {
 							["hitmax"] = 10865,
 							["amount"] = 41511,
 							["hitamount"] = 41511,
-						},
-						["Frost Vulnerability"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 51714,
-							["targets"] = {
-								["Leonid Barthalomew the Revered"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-						},
-						["Pestilence"] = {
-							["casts"] = 14,
-							["count"] = 9,
-							["amount"] = 0,
-							["school"] = 32,
-							["id"] = 50842,
-							["targets"] = {
-								["Lord Maxwell Tyrosus"] = {
-									["amount"] = 0,
-								},
-								["Commander Eligor Dawnbringer"] = {
-									["amount"] = 0,
-								},
-								["Rimblat Earthshatter"] = {
-									["amount"] = 0,
-								},
-								["Duke Nicholas Zverenhoff"] = {
-									["amount"] = 0,
-								},
-								["Korfax, Champion of the Light"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 9,
-						},
-						["Arcane Torrent"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 64,
-							["id"] = 50613,
-							["targets"] = {
-								["Rayne"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 1966,
-							["id"] = 55078,
-							["targets"] = {
-								["Defender of the Light"] = {
-									["amount"] = 289256,
-									["overkill"] = 1338,
-								},
-							},
-							["overkill"] = 1338,
-							["count"] = 120,
-							["hitmax"] = 2895,
-							["hit"] = 120,
-							["school"] = 32,
-							["resisted"] = 7848,
-							["amount"] = 289256,
-							["hitamount"] = 289256,
-						},
-						["Razor Frost"] = {
-							["hitmin"] = 2,
-							["id"] = 50401,
-							["targets"] = {
-								["Defender of the Light"] = {
-									["amount"] = 195,
-								},
-								["Leonid Barthalomew the Revered"] = {
-									["amount"] = 3,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 56,
-							["hit"] = 56,
-							["school"] = 16,
-							["hitmax"] = 5,
-							["amount"] = 198,
-							["hitamount"] = 198,
 						},
 						["Blood Strike"] = {
 							["DODGE"] = 1,
@@ -1498,69 +1558,73 @@ SkadaStorageDB = {
 							["amount"] = 5294,
 							["hitamount"] = 5294,
 						},
-						["Plague Strike"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 4950,
-							["criticalmin"] = 9144,
-							["targets"] = {
-								["Duke Nicholas Zverenhoff"] = {
-									["amount"] = 0,
-								},
-								["Defender of the Light"] = {
-									["amount"] = 76027,
-									["overkill"] = 4431,
-								},
-							},
-							["amount"] = 76027,
-							["MISS"] = 2,
-							["criticalamount"] = 29047,
-							["id"] = 45462,
-							["casts"] = 19,
-							["overkill"] = 4431,
-							["count"] = 16,
-							["criticalmax"] = 9980,
-							["hitmax"] = 5557,
-							["blocked"] = 29,
-							["school"] = 1,
-							["critical"] = 3,
-							["hit"] = 9,
-							["hitamount"] = 46980,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 1870,
-							["id"] = 55095,
-							["targets"] = {
-								["Defender of the Light"] = {
-									["amount"] = 315111,
-								},
-							},
-							["count"] = 136,
-							["hitmax"] = 2829,
-							["hit"] = 136,
-							["school"] = 16,
-							["resisted"] = 7659,
-							["amount"] = 315111,
-							["hitamount"] = 315111,
-						},
-						["Death Coil"] = {
-							["hitmin"] = 8372,
-							["id"] = 47632,
-							["targets"] = {
-								["Defender of the Light"] = {
-									["amount"] = 35562,
-								},
-							},
-							["casts"] = 5,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 9409,
-							["amount"] = 35562,
-							["hitamount"] = 35562,
-						},
 					},
 					["absorb"] = 56464,
 					["damagetaken"] = 654912,
+					["overkill"] = 13400,
+					["id"] = "0x0700000000B016D1",
+					["spec"] = 250,
+					["healspells"] = {
+						[48982] = {
+							["overheal"] = 18576,
+							["casts"] = 5,
+							["count"] = 5,
+							["amount"] = 19900,
+							["max"] = 6930,
+							["min"] = 1074,
+							["targets"] = {
+								["Ylath"] = {
+									["overheal"] = 18576,
+									["amount"] = 19900,
+								},
+							},
+							["school"] = 32,
+						},
+						[50475] = {
+							["overheal"] = 25549,
+							["school"] = 1,
+							["count"] = 95,
+							["amount"] = 7185,
+							["max"] = 962,
+							["ishot"] = true,
+							["targets"] = {
+								["Ylath"] = {
+									["overheal"] = 25549,
+									["amount"] = 7185,
+								},
+							},
+							["min"] = 144,
+						},
+						[45470] = {
+							["overheal"] = 9704,
+							["casts"] = 3,
+							["count"] = 3,
+							["amount"] = 5884,
+							["max"] = 4279,
+							["min"] = 1605,
+							["targets"] = {
+								["Ylath"] = {
+									["overheal"] = 9704,
+									["amount"] = 5884,
+								},
+							},
+							["school"] = 1,
+						},
+						[47633] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 520,
+							["school"] = 32,
+							["max"] = 520,
+							["targets"] = {
+								["Volatile Ghoul"] = {
+									["overheal"] = 0,
+									["amount"] = 520,
+								},
+							},
+							["min"] = 520,
+						},
+					},
 					["damagetakenspells"] = {
 						["Holy Strike"] = {
 							["DODGE"] = 3,
@@ -1568,15 +1632,15 @@ SkadaStorageDB = {
 							["hitmin"] = 4095,
 							["DEFLECT"] = 8,
 							["id"] = 53643,
-							["hit"] = 84,
+							["amount"] = 638547,
 							["sources"] = {
 								["Defender of the Light"] = {
-									["amount"] = 638547,
 									["total"] = 695011,
+									["amount"] = 638547,
 								},
 							},
 							["count"] = 100,
-							["amount"] = 638547,
+							["hit"] = 84,
 							["school"] = 2,
 							["hitmax"] = 9391,
 							["MISS"] = 5,
@@ -1587,18 +1651,18 @@ SkadaStorageDB = {
 							["criticalamount"] = 666,
 							["id"] = 6603,
 							["criticalmin"] = 666,
-							["amount"] = 2096,
-							["hitmax"] = 368,
-							["criticalmax"] = 666,
-							["critical"] = 1,
-							["hit"] = 4,
-							["school"] = 1,
-							["count"] = 5,
 							["sources"] = {
 								["Defender of the Light"] = {
 									["amount"] = 2096,
 								},
 							},
+							["count"] = 5,
+							["criticalmax"] = 666,
+							["hitmax"] = 368,
+							["amount"] = 2096,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 1,
 							["hitamount"] = 1430,
 						},
 						["Thunder"] = {
@@ -1617,76 +1681,12 @@ SkadaStorageDB = {
 							["hitamount"] = 14269,
 						},
 					},
-					["id"] = "0x0700000000B016D1",
-					["spec"] = 250,
-					["healspells"] = {
-						[48982] = {
-							["overheal"] = 18576,
-							["casts"] = 5,
-							["count"] = 5,
-							["amount"] = 19900,
-							["max"] = 6930,
-							["school"] = 32,
-							["targets"] = {
-								["Ylath"] = {
-									["overheal"] = 18576,
-									["amount"] = 19900,
-								},
-							},
-							["min"] = 1074,
-						},
-						[50475] = {
-							["overheal"] = 25549,
-							["targets"] = {
-								["Ylath"] = {
-									["overheal"] = 25549,
-									["amount"] = 7185,
-								},
-							},
-							["count"] = 95,
-							["amount"] = 7185,
-							["max"] = 962,
-							["min"] = 144,
-							["ishot"] = true,
-							["school"] = 1,
-						},
-						[45470] = {
-							["overheal"] = 9704,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 5884,
-							["max"] = 4279,
-							["school"] = 1,
-							["targets"] = {
-								["Ylath"] = {
-									["overheal"] = 9704,
-									["amount"] = 5884,
-								},
-							},
-							["min"] = 1605,
-						},
-						[47633] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 520,
-							["school"] = 32,
-							["min"] = 520,
-							["targets"] = {
-								["Volatile Ghoul"] = {
-									["overheal"] = 0,
-									["amount"] = 520,
-								},
-							},
-							["max"] = 520,
-						},
-					},
-					["overkill"] = 13400,
-					["overheal"] = 53829,
+					["runic"] = 255,
 					["heal"] = 33489,
 					["name"] = "Ylath",
 					["ccdone"] = 17,
 					["interrupt"] = 3,
-					["runic"] = 255,
+					["overheal"] = 53829,
 					["interruptspells"] = {
 						[32747] = {
 							["spells"] = {
@@ -1698,36 +1698,33 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["runicspells"] = {
-						[50613] = 45,
-						[50422] = 210,
-					},
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
+			["totaldamage"] = 1429746,
+			["time"] = 301,
+			["overheal"] = 53829,
 			["totaldamagetaken"] = 711376,
 			["etotaldamagetaken"] = 1429746,
 			["last_time"] = 11350.486,
-			["overheal"] = 53829,
-			["absorb"] = 56464,
+			["runic"] = 255,
+			["type"] = "none",
 			["damagetaken"] = 654912,
-			["starttime"] = 1727286388,
+			["etotaldamage"] = 711376,
 			["interrupt"] = 3,
-			["mobname"] = "Defender of the Light",
+			["ccdone"] = 17,
 			["damage"] = 1429746,
 			["overkill"] = 13400,
 			["edamagetaken"] = 1429746,
 			["heal"] = 33489,
 			["name"] = "Defender of the Light",
-			["ccdone"] = 17,
-			["etotaldamage"] = 711376,
+			["mobname"] = "Defender of the Light",
+			["starttime"] = 1727286388,
 			["edamage"] = 654912,
 			["last_action"] = 1727286689,
 			["endtime"] = 1727286689,
 		}, -- [2]
 		{
-			["starttime"] = 1727285554,
-			["type"] = "none",
-			["time"] = 7,
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -1736,8 +1733,8 @@ SkadaStorageDB = {
 							["id"] = 53115,
 							["targets"] = {
 								["Scarlet Ballista"] = {
-									["amount"] = 57053,
 									["overkill"] = 32144,
+									["amount"] = 57053,
 								},
 							},
 							["overkill"] = 32144,
@@ -1757,11 +1754,8 @@ SkadaStorageDB = {
 					["spec"] = 250,
 					["totaldamage"] = 57053,
 					["name"] = "Ylath",
-					["time"] = 0,
-					["flag"] = 4369,
-					["role"] = "DAMAGER",
 					["auras"] = {
-						[53138] = {
+						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -1771,58 +1765,61 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 						[52196] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 					},
+					["role"] = "DAMAGER",
+					["flag"] = 4369,
+					["time"] = 0,
 					["damage"] = 57053,
 				}, -- [1]
 			},
+			["type"] = "none",
 			["enemies"] = {
 				{
-					["flag"] = 2632,
-					["name"] = "Scarlet Ballista",
 					["damagetaken"] = 57053,
-					["id"] = "0xF1300071B00557E8",
-					["totaldamagetaken"] = 57053,
+					["name"] = "Scarlet Ballista",
 					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 57053,
+					["id"] = "0xF1300071B00557E8",
 					["damagetakenspells"] = {
 						[53115] = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 57053,
 									["overkill"] = 32144,
+									["amount"] = 57053,
 								},
 							},
-							["amount"] = 57053,
 							["overkill"] = 32144,
+							["amount"] = 57053,
 						},
 					},
 				}, -- [1]
 			},
-			["last_action"] = 1727285560,
-			["endtime"] = 1727285561,
+			["starttime"] = 1727285554,
+			["name"] = "Scarlet Ballista (3)",
+			["etotaldamagetaken"] = 57053,
+			["last_time"] = 10221.454,
 			["overkill"] = 32144,
 			["edamagetaken"] = 57053,
 			["totaldamage"] = 57053,
-			["name"] = "Scarlet Ballista (3)",
+			["time"] = 7,
 			["mobname"] = "Scarlet Ballista",
 			["damage"] = 57053,
-			["etotaldamagetaken"] = 57053,
-			["last_time"] = 10221.454,
+			["last_action"] = 1727285560,
+			["endtime"] = 1727285561,
 		}, -- [3]
 		{
-			["starttime"] = 1727285530,
-			["type"] = "none",
-			["time"] = 20,
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -1831,8 +1828,8 @@ SkadaStorageDB = {
 							["id"] = 53115,
 							["targets"] = {
 								["Scarlet Ballista"] = {
-									["amount"] = 429343,
 									["overkill"] = 69553,
+									["amount"] = 429343,
 								},
 							},
 							["overkill"] = 69553,
@@ -1852,11 +1849,8 @@ SkadaStorageDB = {
 					["spec"] = 250,
 					["totaldamage"] = 429343,
 					["name"] = "Ylath",
-					["time"] = 0,
-					["flag"] = 4369,
-					["role"] = "DAMAGER",
 					["auras"] = {
-						[53138] = {
+						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 20,
@@ -1866,58 +1860,61 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 20,
 						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
 						[52196] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 20,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
 					},
+					["role"] = "DAMAGER",
+					["flag"] = 4369,
+					["time"] = 0,
 					["damage"] = 429343,
 				}, -- [1]
 			},
+			["type"] = "none",
 			["enemies"] = {
 				{
-					["flag"] = 2632,
-					["name"] = "Scarlet Ballista",
 					["damagetaken"] = 429343,
-					["id"] = "0xF1300071B0055924",
-					["totaldamagetaken"] = 429343,
+					["name"] = "Scarlet Ballista",
 					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 429343,
+					["id"] = "0xF1300071B0055924",
 					["damagetakenspells"] = {
 						[53115] = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 429343,
 									["overkill"] = 69553,
+									["amount"] = 429343,
 								},
 							},
-							["amount"] = 429343,
 							["overkill"] = 69553,
+							["amount"] = 429343,
 						},
 					},
 				}, -- [1]
 			},
-			["last_action"] = 1727285548,
-			["endtime"] = 1727285550,
+			["starttime"] = 1727285530,
+			["name"] = "Scarlet Ballista (2)",
+			["etotaldamagetaken"] = 429343,
+			["last_time"] = 10208.779,
 			["overkill"] = 69553,
 			["edamagetaken"] = 429343,
 			["totaldamage"] = 429343,
-			["name"] = "Scarlet Ballista (2)",
+			["time"] = 20,
 			["mobname"] = "Scarlet Ballista",
 			["damage"] = 429343,
-			["etotaldamagetaken"] = 429343,
-			["last_time"] = 10208.779,
+			["last_action"] = 1727285548,
+			["endtime"] = 1727285550,
 		}, -- [4]
 		{
-			["starttime"] = 1727285344,
-			["type"] = "none",
-			["time"] = 179,
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -1926,16 +1923,16 @@ SkadaStorageDB = {
 							["id"] = 53115,
 							["targets"] = {
 								["Hearthglen Crusader"] = {
-									["amount"] = 6025071,
 									["overkill"] = 4480821,
+									["amount"] = 6025071,
 								},
 								["Tirisfal Crusader"] = {
-									["amount"] = 3238195,
 									["overkill"] = 2428815,
+									["amount"] = 3238195,
 								},
 								["Scarlet Ballista"] = {
-									["amount"] = 1990098,
 									["overkill"] = 154742,
+									["amount"] = 1990098,
 								},
 							},
 							["overkill"] = 7064378,
@@ -1955,11 +1952,8 @@ SkadaStorageDB = {
 					["spec"] = 250,
 					["totaldamage"] = 11253364,
 					["name"] = "Ylath",
-					["time"] = 0,
-					["flag"] = 4369,
-					["role"] = "DAMAGER",
 					["auras"] = {
-						[53138] = {
+						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 179,
@@ -1969,95 +1963,101 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 179,
 						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 179,
+						},
 						[52196] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 179,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 179,
-						},
 					},
+					["role"] = "DAMAGER",
+					["flag"] = 4369,
+					["time"] = 0,
 					["damage"] = 11253364,
 				}, -- [1]
 			},
+			["type"] = "none",
 			["enemies"] = {
 				{
-					["flag"] = 2632,
-					["name"] = "Scarlet Ballista",
 					["damagetaken"] = 1990098,
-					["id"] = "0xF1300071B00557ED",
-					["totaldamagetaken"] = 1990098,
+					["name"] = "Scarlet Ballista",
 					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 1990098,
+					["id"] = "0xF1300071B00557ED",
 					["damagetakenspells"] = {
 						[53115] = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 1990098,
 									["overkill"] = 154742,
+									["amount"] = 1990098,
 								},
 							},
-							["amount"] = 1990098,
 							["overkill"] = 154742,
+							["amount"] = 1990098,
 						},
 					},
 				}, -- [1]
 				{
-					["flag"] = 2632,
-					["name"] = "Hearthglen Crusader",
 					["damagetaken"] = 6025071,
-					["id"] = "0xF1300071AE05615F",
-					["totaldamagetaken"] = 6025071,
+					["name"] = "Hearthglen Crusader",
 					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 6025071,
+					["id"] = "0xF1300071AE05615F",
 					["damagetakenspells"] = {
 						[53115] = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 6025071,
 									["overkill"] = 4480821,
+									["amount"] = 6025071,
 								},
 							},
-							["amount"] = 6025071,
 							["overkill"] = 4480821,
+							["amount"] = 6025071,
 						},
 					},
 				}, -- [2]
 				{
-					["flag"] = 2632,
-					["name"] = "Tirisfal Crusader",
 					["damagetaken"] = 3238195,
-					["id"] = "0xF1300071AF05615D",
-					["totaldamagetaken"] = 3238195,
+					["name"] = "Tirisfal Crusader",
 					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 3238195,
+					["id"] = "0xF1300071AF05615D",
 					["damagetakenspells"] = {
 						[53115] = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 3238195,
 									["overkill"] = 2428815,
+									["amount"] = 3238195,
 								},
 							},
-							["amount"] = 3238195,
 							["overkill"] = 2428815,
+							["amount"] = 3238195,
 						},
 					},
 				}, -- [3]
 			},
-			["last_action"] = 1727285522,
-			["endtime"] = 1727285523,
+			["starttime"] = 1727285344,
+			["name"] = "Scarlet Ballista",
+			["etotaldamagetaken"] = 11253364,
+			["last_time"] = 10183.547,
 			["overkill"] = 7064378,
 			["edamagetaken"] = 11253364,
 			["totaldamage"] = 11253364,
-			["name"] = "Scarlet Ballista",
+			["time"] = 179,
 			["mobname"] = "Scarlet Ballista",
 			["damage"] = 11253364,
-			["etotaldamagetaken"] = 11253364,
-			["last_time"] = 10183.547,
+			["last_action"] = 1727285522,
+			["endtime"] = 1727285523,
 		}, -- [5]
 		{
 			["enemies"] = {
@@ -2081,12 +2081,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 32950,
 									["overkill"] = 184,
+									["amount"] = 32950,
 								},
 							},
-							["amount"] = 32950,
 							["overkill"] = 184,
+							["amount"] = 32950,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -2101,23 +2101,23 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 34621,
 									["overkill"] = 90,
+									["amount"] = 34621,
 								},
 							},
-							["amount"] = 34621,
 							["overkill"] = 90,
+							["amount"] = 34621,
 						},
 						[50401] = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 390,
 									["overkill"] = 1,
+									["amount"] = 390,
 								},
 							},
-							["amount"] = 390,
 							["overkill"] = 1,
+							["amount"] = 390,
 						},
 						[45902] = {
 							["school"] = 1,
@@ -2146,6 +2146,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1995,
 						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 353,
+									["amount"] = 6773,
+								},
+							},
+							["overkill"] = 353,
+							["amount"] = 6773,
+						},
 						[45477] = {
 							["school"] = 16,
 							["sources"] = {
@@ -2154,17 +2165,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 2897,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Ylath"] = {
-									["amount"] = 6773,
-									["overkill"] = 353,
-								},
-							},
-							["amount"] = 6773,
-							["overkill"] = 353,
 						},
 					},
 					["totaldamage"] = 3837,
@@ -2202,23 +2202,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 16495,
 									["overkill"] = 591,
+									["amount"] = 16495,
 								},
 							},
-							["amount"] = 16495,
 							["overkill"] = 591,
+							["amount"] = 16495,
 						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 23391,
 									["overkill"] = 65,
+									["amount"] = 23391,
 								},
 							},
-							["amount"] = 23391,
 							["overkill"] = 65,
+							["amount"] = 23391,
 						},
 						[50401] = {
 							["school"] = 16,
@@ -2256,17 +2256,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1782,
 						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Ylath"] = {
-									["amount"] = 4638,
-									["overkill"] = 169,
-								},
-							},
-							["amount"] = 4638,
-							["overkill"] = 169,
-						},
 						[45477] = {
 							["school"] = 16,
 							["sources"] = {
@@ -2275,6 +2264,17 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 2671,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 169,
+									["amount"] = 4638,
+								},
+							},
+							["overkill"] = 169,
+							["amount"] = 4638,
 						},
 					},
 					["totaldamage"] = 2376,
@@ -2344,24 +2344,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 356,
 						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 58,
-							["school"] = 32,
-							["refresh"] = 76,
-							["targets"] = {
-								["Hearthglen Crusader"] = {
-									["refresh"] = 50,
-									["count"] = 34,
-									["uptime"] = 302,
-								},
-								["Tirisfal Crusader"] = {
-									["refresh"] = 26,
-									["count"] = 24,
-									["uptime"] = 278,
-								},
-							},
-							["uptime"] = 306,
+						[52424] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 30,
+						},
+						[49016] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 60,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -2382,17 +2375,24 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 332,
 						},
-						[49016] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 60,
-						},
-						[52424] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 30,
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 58,
+							["school"] = 32,
+							["refresh"] = 76,
+							["targets"] = {
+								["Hearthglen Crusader"] = {
+									["refresh"] = 50,
+									["count"] = 34,
+									["uptime"] = 302,
+								},
+								["Tirisfal Crusader"] = {
+									["refresh"] = 26,
+									["count"] = 24,
+									["uptime"] = 278,
+								},
+							},
+							["uptime"] = 306,
 						},
 					},
 					["totaldamage"] = 201191,
@@ -2409,29 +2409,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 565,
 							["school"] = 32,
-							["min"] = 565,
+							["max"] = 565,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 357,
 									["amount"] = 565,
 								},
 							},
-							["max"] = 565,
+							["min"] = 565,
 						},
 						[50475] = {
 							["overheal"] = 1454,
-							["min"] = 1,
+							["max"] = 33,
 							["count"] = 230,
 							["amount"] = 1908,
 							["school"] = 1,
-							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 1454,
 									["amount"] = 1908,
 								},
 							},
-							["max"] = 33,
+							["ishot"] = true,
+							["min"] = 1,
 						},
 						[45470] = {
 							["overheal"] = 11790,
@@ -2439,45 +2439,38 @@ SkadaStorageDB = {
 							["count"] = 41,
 							["amount"] = 6380,
 							["max"] = 460,
-							["school"] = 1,
+							["min"] = 3,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 11790,
 									["amount"] = 6380,
 								},
 							},
-							["min"] = 3,
+							["school"] = 1,
 						},
 						[47633] = {
 							["overheal"] = 0,
 							["count"] = 7,
 							["amount"] = 3648,
 							["school"] = 32,
-							["min"] = 512,
+							["max"] = 576,
 							["targets"] = {
 								["Rampaging Abomination"] = {
 									["overheal"] = 0,
 									["amount"] = 3648,
 								},
 							},
-							["max"] = 576,
+							["min"] = 512,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 10,
-							["criticalmin"] = 90,
-							["hitmin"] = 44,
 							["criticalamount"] = 486,
+							["hitmin"] = 44,
+							["criticalmin"] = 90,
 							["id"] = 6603,
-							["criticalmax"] = 108,
-							["hitmax"] = 59,
 							["count"] = 154,
-							["hit"] = 112,
-							["PARRY"] = 19,
-							["critical"] = 5,
-							["amount"] = 6213,
-							["school"] = 1,
 							["sources"] = {
 								["Hearthglen Crusader"] = {
 									["amount"] = 3837,
@@ -2486,13 +2479,20 @@ SkadaStorageDB = {
 									["amount"] = 2376,
 								},
 							},
+							["critical"] = 5,
+							["amount"] = 6213,
+							["criticalmax"] = 108,
+							["hitmax"] = 59,
+							["hit"] = 112,
+							["school"] = 1,
+							["PARRY"] = 19,
 							["MISS"] = 8,
 							["hitamount"] = 5727,
 						},
 					},
 					["heal"] = 12501,
 					["name"] = "Ylath",
-					["role"] = "DAMAGER",
+					["overkill"] = 1453,
 					["damagespells"] = {
 						["Melee"] = {
 							["DODGE"] = 6,
@@ -2504,8 +2504,8 @@ SkadaStorageDB = {
 									["amount"] = 22788,
 								},
 								["Tirisfal Crusader"] = {
-									["amount"] = 16495,
 									["overkill"] = 591,
+									["amount"] = 16495,
 								},
 							},
 							["glancing"] = 13,
@@ -2514,16 +2514,16 @@ SkadaStorageDB = {
 							["glancemin"] = 241,
 							["criticalamount"] = 15484,
 							["id"] = 6603,
-							["criticalmax"] = 826,
+							["PARRY"] = 2,
 							["glancemax"] = 353,
 							["overkill"] = 591,
+							["hit"] = 58,
+							["criticalmax"] = 826,
 							["critical"] = 23,
-							["PARRY"] = 2,
-							["count"] = 106,
 							["blocked"] = 84,
 							["school"] = 1,
 							["hitmax"] = 463,
-							["hit"] = 58,
+							["count"] = 106,
 							["hitamount"] = 20032,
 						},
 						["Blood Strike"] = {
@@ -2542,14 +2542,14 @@ SkadaStorageDB = {
 							["MISS"] = 4,
 							["criticalamount"] = 1220,
 							["id"] = 45902,
+							["PARRY"] = 1,
+							["casts"] = 42,
 							["criticalmax"] = 630,
 							["count"] = 42,
-							["PARRY"] = 1,
-							["hitmax"] = 362,
 							["hit"] = 33,
 							["school"] = 1,
 							["critical"] = 2,
-							["casts"] = 42,
+							["hitmax"] = 362,
 							["hitamount"] = 9813,
 						},
 						["Pestilence"] = {
@@ -2557,53 +2557,56 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["id"] = 50842,
+							["MISS"] = 1,
 							["targets"] = {
 								["Hearthglen Crusader"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 50842,
 						},
-						["Icy Touch"] = {
-							["criticalamount"] = 1183,
-							["hitmin"] = 255,
-							["criticalmin"] = 564,
-							["id"] = 45477,
-							["amount"] = 5568,
+						["Death Coil"] = {
+							["criticalamount"] = 2358,
+							["critical"] = 3,
+							["hitmin"] = 315,
+							["criticalmin"] = 786,
+							["id"] = 47632,
+							["hitmax"] = 399,
 							["targets"] = {
 								["Hearthglen Crusader"] = {
-									["amount"] = 2897,
+									["overkill"] = 353,
+									["amount"] = 6773,
 								},
 								["Tirisfal Crusader"] = {
-									["amount"] = 2671,
+									["overkill"] = 169,
+									["amount"] = 4638,
 								},
 							},
-							["casts"] = 17,
-							["count"] = 17,
-							["criticalmax"] = 619,
-							["critical"] = 2,
-							["hit"] = 15,
-							["school"] = 16,
-							["resisted"] = 186,
-							["hitmax"] = 320,
-							["hitamount"] = 4385,
+							["overkill"] = 522,
+							["hit"] = 24,
+							["casts"] = 34,
+							["count"] = 27,
+							["amount"] = 11411,
+							["school"] = 32,
+							["resisted"] = 478,
+							["criticalmax"] = 786,
+							["hitamount"] = 9053,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 92,
 							["id"] = 55078,
 							["targets"] = {
 								["Hearthglen Crusader"] = {
-									["amount"] = 32950,
 									["overkill"] = 184,
+									["amount"] = 32950,
 								},
 								["Tirisfal Crusader"] = {
 									["amount"] = 21486,
 								},
 							},
 							["overkill"] = 184,
-							["count"] = 483,
 							["hitmax"] = 136,
+							["count"] = 483,
 							["hit"] = 483,
 							["school"] = 32,
 							["resisted"] = 1678,
@@ -2615,68 +2618,22 @@ SkadaStorageDB = {
 							["id"] = 50401,
 							["targets"] = {
 								["Hearthglen Crusader"] = {
-									["amount"] = 390,
 									["overkill"] = 1,
+									["amount"] = 390,
 								},
 								["Tirisfal Crusader"] = {
 									["amount"] = 252,
 								},
 							},
 							["overkill"] = 1,
-							["count"] = 183,
-							["casts"] = 1,
 							["hitmax"] = 5,
+							["casts"] = 1,
+							["count"] = 183,
 							["hit"] = 183,
 							["school"] = 16,
 							["resisted"] = 2,
 							["amount"] = 642,
 							["hitamount"] = 642,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 87,
-							["id"] = 55095,
-							["targets"] = {
-								["Hearthglen Crusader"] = {
-									["amount"] = 34621,
-									["overkill"] = 90,
-								},
-								["Tirisfal Crusader"] = {
-									["amount"] = 23391,
-									["overkill"] = 65,
-								},
-							},
-							["overkill"] = 155,
-							["count"] = 531,
-							["hitmax"] = 143,
-							["hit"] = 531,
-							["school"] = 16,
-							["resisted"] = 1761,
-							["amount"] = 58012,
-							["hitamount"] = 58012,
-						},
-						["Plague Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 196,
-							["criticalamount"] = 966,
-							["id"] = 45462,
-							["criticalmin"] = 418,
-							["targets"] = {
-								["Hearthglen Crusader"] = {
-									["amount"] = 1995,
-								},
-								["Tirisfal Crusader"] = {
-									["amount"] = 1782,
-								},
-							},
-							["amount"] = 3777,
-							["hitmax"] = 265,
-							["criticalmax"] = 548,
-							["critical"] = 2,
-							["hit"] = 13,
-							["school"] = 1,
-							["count"] = 16,
-							["casts"] = 16,
-							["hitamount"] = 2811,
 						},
 						["Death Strike"] = {
 							["DODGE"] = 2,
@@ -2694,45 +2651,88 @@ SkadaStorageDB = {
 							["MISS"] = 2,
 							["criticalamount"] = 6862,
 							["id"] = 49998,
+							["criticalmax"] = 782,
+							["hitmax"] = 436,
 							["casts"] = 87,
 							["count"] = 46,
-							["criticalmax"] = 782,
-							["critical"] = 10,
 							["hit"] = 32,
 							["school"] = 1,
 							["blocked"] = 29,
-							["hitmax"] = 436,
+							["critical"] = 10,
 							["hitamount"] = 10167,
 						},
-						["Death Coil"] = {
-							["criticalmin"] = 786,
-							["amount"] = 11411,
-							["hitmin"] = 315,
-							["criticalamount"] = 2358,
-							["id"] = 47632,
-							["casts"] = 34,
+						["Plague Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 196,
+							["criticalamount"] = 966,
+							["id"] = 45462,
+							["criticalmin"] = 418,
 							["targets"] = {
 								["Hearthglen Crusader"] = {
-									["amount"] = 6773,
-									["overkill"] = 353,
+									["amount"] = 1995,
 								},
 								["Tirisfal Crusader"] = {
-									["amount"] = 4638,
-									["overkill"] = 169,
+									["amount"] = 1782,
 								},
 							},
-							["overkill"] = 522,
-							["count"] = 27,
-							["criticalmax"] = 786,
-							["hitmax"] = 399,
-							["hit"] = 24,
-							["school"] = 32,
-							["resisted"] = 478,
-							["critical"] = 3,
-							["hitamount"] = 9053,
+							["casts"] = 16,
+							["count"] = 16,
+							["criticalmax"] = 548,
+							["hitmax"] = 265,
+							["amount"] = 3777,
+							["school"] = 1,
+							["hit"] = 13,
+							["critical"] = 2,
+							["hitamount"] = 2811,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 87,
+							["id"] = 55095,
+							["targets"] = {
+								["Hearthglen Crusader"] = {
+									["overkill"] = 90,
+									["amount"] = 34621,
+								},
+								["Tirisfal Crusader"] = {
+									["overkill"] = 65,
+									["amount"] = 23391,
+								},
+							},
+							["overkill"] = 155,
+							["hitmax"] = 143,
+							["count"] = 531,
+							["hit"] = 531,
+							["school"] = 16,
+							["resisted"] = 1761,
+							["amount"] = 58012,
+							["hitamount"] = 58012,
+						},
+						["Icy Touch"] = {
+							["criticalmin"] = 564,
+							["hitmin"] = 255,
+							["criticalamount"] = 1183,
+							["id"] = 45477,
+							["hitmax"] = 320,
+							["targets"] = {
+								["Hearthglen Crusader"] = {
+									["amount"] = 2897,
+								},
+								["Tirisfal Crusader"] = {
+									["amount"] = 2671,
+								},
+							},
+							["critical"] = 2,
+							["hit"] = 15,
+							["casts"] = 17,
+							["count"] = 17,
+							["amount"] = 5568,
+							["school"] = 16,
+							["resisted"] = 186,
+							["criticalmax"] = 619,
+							["hitamount"] = 4385,
 						},
 					},
-					["overkill"] = 1453,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["damage"] = 201191,
@@ -2827,12 +2827,12 @@ SkadaStorageDB = {
 					["damage"] = 52,
 				}, -- [1]
 				{
-					["flag"] = 2632,
-					["name"] = "Hearthglen Crusader",
 					["damagetaken"] = 5395,
-					["id"] = "0xF1300071AE054C68",
-					["totaldamagetaken"] = 5395,
+					["name"] = "Hearthglen Crusader",
 					["class"] = "MONSTER",
+					["flag"] = 2632,
+					["totaldamagetaken"] = 5395,
+					["id"] = "0xF1300071AE054C68",
 					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
@@ -2865,12 +2865,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 571,
 									["overkill"] = 262,
+									["amount"] = 571,
 								},
 							},
-							["amount"] = 571,
 							["overkill"] = 262,
+							["amount"] = 571,
 						},
 						[50401] = {
 							["school"] = 16,
@@ -2967,22 +2967,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["targets"] = {
-								["Tirisfal Crusader"] = {
-									["uptime"] = 15,
-									["count"] = 4,
-								},
-								["Hearthglen Crusader"] = {
-									["uptime"] = 13,
-									["count"] = 5,
-								},
-							},
-							["uptime"] = 15,
-						},
 						[55095] = {
 							["type"] = "DEBUFF",
 							["count"] = 9,
@@ -3001,6 +2985,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 16,
 						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 32,
+							["targets"] = {
+								["Tirisfal Crusader"] = {
+									["uptime"] = 15,
+									["count"] = 4,
+								},
+								["Hearthglen Crusader"] = {
+									["uptime"] = 13,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 15,
+						},
 					},
 					["totaldamage"] = 9901,
 					["time"] = 17.52,
@@ -3013,46 +3013,46 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 35,
-							["min"] = 8,
+							["max"] = 12,
 							["count"] = 8,
 							["amount"] = 41,
 							["school"] = 1,
-							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 35,
 									["amount"] = 41,
 								},
 							},
-							["max"] = 12,
+							["ishot"] = true,
+							["min"] = 8,
 						},
 						[45470] = {
 							["overheal"] = 449,
 							["count"] = 1,
 							["amount"] = 11,
 							["school"] = 1,
-							["min"] = 11,
+							["max"] = 11,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 449,
 									["amount"] = 11,
 								},
 							},
-							["max"] = 11,
+							["min"] = 11,
 						},
 						[47633] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 512,
 							["school"] = 32,
-							["min"] = 512,
+							["max"] = 512,
 							["targets"] = {
 								["Rampaging Abomination"] = {
 									["overheal"] = 0,
 									["amount"] = 512,
 								},
 							},
-							["max"] = 512,
+							["min"] = 512,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3074,8 +3074,43 @@ SkadaStorageDB = {
 					},
 					["heal"] = 564,
 					["name"] = "Ylath",
-					["role"] = "DAMAGER",
+					["overkill"] = 262,
 					["damagespells"] = {
+						["Icy Touch"] = {
+							["hitmin"] = 284,
+							["id"] = 45477,
+							["targets"] = {
+								["Tirisfal Crusader"] = {
+									["amount"] = 290,
+								},
+								["Hearthglen Crusader"] = {
+									["amount"] = 284,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 290,
+							["amount"] = 574,
+							["hitamount"] = 574,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 316,
+							["id"] = 49998,
+							["targets"] = {
+								["Hearthglen Crusader"] = {
+									["amount"] = 316,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 316,
+							["amount"] = 316,
+							["hitamount"] = 316,
+						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 92,
 							["id"] = 55078,
@@ -3087,56 +3122,13 @@ SkadaStorageDB = {
 									["amount"] = 2011,
 								},
 							},
-							["count"] = 34,
 							["hitmax"] = 115,
+							["count"] = 34,
 							["hit"] = 34,
 							["school"] = 32,
 							["resisted"] = 56,
 							["amount"] = 3844,
 							["hitamount"] = 3844,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 88,
-							["id"] = 55095,
-							["targets"] = {
-								["Tirisfal Crusader"] = {
-									["amount"] = 1844,
-								},
-								["Hearthglen Crusader"] = {
-									["amount"] = 1912,
-								},
-							},
-							["count"] = 35,
-							["hitmax"] = 114,
-							["hit"] = 35,
-							["school"] = 16,
-							["resisted"] = 84,
-							["amount"] = 3756,
-							["hitamount"] = 3756,
-						},
-						["Melee"] = {
-							["glance"] = 271,
-							["hitmin"] = 300,
-							["id"] = 6603,
-							["hitamount"] = 612,
-							["targets"] = {
-								["Tirisfal Crusader"] = {
-									["amount"] = 312,
-								},
-								["Hearthglen Crusader"] = {
-									["amount"] = 571,
-									["overkill"] = 262,
-								},
-							},
-							["overkill"] = 262,
-							["glancing"] = 1,
-							["amount"] = 883,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 312,
-							["glancemax"] = 271,
-							["glancemin"] = 271,
 						},
 						["Razor Frost"] = {
 							["hitmin"] = 3,
@@ -3189,43 +3181,51 @@ SkadaStorageDB = {
 							["amount"] = 220,
 							["hitamount"] = 220,
 						},
-						["Death Strike"] = {
-							["hitmin"] = 316,
-							["id"] = 49998,
-							["targets"] = {
-								["Hearthglen Crusader"] = {
-									["amount"] = 316,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 316,
-							["amount"] = 316,
-							["hitamount"] = 316,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 284,
-							["id"] = 45477,
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 88,
+							["id"] = 55095,
 							["targets"] = {
 								["Tirisfal Crusader"] = {
-									["amount"] = 290,
+									["amount"] = 1844,
 								},
 								["Hearthglen Crusader"] = {
-									["amount"] = 284,
+									["amount"] = 1912,
 								},
 							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
+							["hitmax"] = 114,
+							["count"] = 35,
+							["hit"] = 35,
 							["school"] = 16,
-							["hitmax"] = 290,
-							["amount"] = 574,
-							["hitamount"] = 574,
+							["resisted"] = 84,
+							["amount"] = 3756,
+							["hitamount"] = 3756,
+						},
+						["Melee"] = {
+							["glance"] = 271,
+							["hitmin"] = 300,
+							["id"] = 6603,
+							["glancemin"] = 271,
+							["targets"] = {
+								["Tirisfal Crusader"] = {
+									["amount"] = 312,
+								},
+								["Hearthglen Crusader"] = {
+									["overkill"] = 262,
+									["amount"] = 571,
+								},
+							},
+							["overkill"] = 262,
+							["glancing"] = 1,
+							["glancemax"] = 271,
+							["count"] = 3,
+							["amount"] = 883,
+							["school"] = 1,
+							["hitmax"] = 312,
+							["hit"] = 2,
+							["hitamount"] = 612,
 						},
 					},
-					["overkill"] = 262,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["damage"] = 9901,
@@ -3280,12 +3280,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 454,
 									["overkill"] = 32,
+									["amount"] = 454,
 								},
 							},
-							["amount"] = 454,
 							["overkill"] = 32,
+							["amount"] = 454,
 						},
 						[50401] = {
 							["school"] = 16,
@@ -3323,15 +3323,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 218,
 						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Ylath"] = {
-									["amount"] = 570,
-								},
-							},
-							["amount"] = 570,
-						},
 						[47632] = {
 							["school"] = 32,
 							["sources"] = {
@@ -3340,6 +3331,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 383,
+						},
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 570,
+								},
+							},
+							["amount"] = 570,
 						},
 					},
 					["totaldamage"] = 303,
@@ -3392,21 +3392,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
 						[55095] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -3418,6 +3403,21 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 13,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[51915] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
 						},
 					},
 					["totaldamage"] = 4081,
@@ -3448,30 +3448,30 @@ SkadaStorageDB = {
 									["amount"] = 554,
 								},
 							},
-							["hit"] = 2,
+							["blocked"] = 28,
 							["casts"] = 2,
 							["count"] = 2,
-							["blocked"] = 28,
+							["hit"] = 2,
 							["school"] = 1,
-							["amount"] = 554,
 							["hitmax"] = 283,
+							["amount"] = 554,
 							["hitamount"] = 554,
 						},
-						["Icy Touch"] = {
-							["criticalamount"] = 570,
-							["id"] = 45477,
+						["Death Coil"] = {
+							["hitmin"] = 383,
+							["id"] = 47632,
 							["targets"] = {
 								["Scarlet Courier"] = {
-									["amount"] = 570,
+									["amount"] = 383,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 570,
-							["school"] = 16,
 							["count"] = 1,
-							["criticalmax"] = 570,
-							["criticalmin"] = 570,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 383,
+							["amount"] = 383,
+							["hitamount"] = 383,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 111,
@@ -3504,22 +3504,21 @@ SkadaStorageDB = {
 							["amount"] = 29,
 							["hitamount"] = 29,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 109,
-							["id"] = 55095,
+						["Death Strike"] = {
+							["hitmin"] = 297,
+							["id"] = 49998,
 							["targets"] = {
 								["Scarlet Courier"] = {
-									["amount"] = 454,
-									["overkill"] = 32,
+									["amount"] = 297,
 								},
 							},
-							["overkill"] = 32,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 115,
-							["amount"] = 454,
-							["hitamount"] = 454,
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 297,
+							["amount"] = 297,
+							["hitamount"] = 297,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 218,
@@ -3537,37 +3536,38 @@ SkadaStorageDB = {
 							["amount"] = 218,
 							["hitamount"] = 218,
 						},
-						["Death Strike"] = {
-							["hitmin"] = 297,
-							["id"] = 49998,
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 109,
+							["id"] = 55095,
 							["targets"] = {
 								["Scarlet Courier"] = {
-									["amount"] = 297,
+									["overkill"] = 32,
+									["amount"] = 454,
 								},
 							},
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 297,
-							["amount"] = 297,
-							["hitamount"] = 297,
+							["overkill"] = 32,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 115,
+							["amount"] = 454,
+							["hitamount"] = 454,
 						},
-						["Death Coil"] = {
-							["hitmin"] = 383,
-							["id"] = 47632,
+						["Icy Touch"] = {
+							["criticalamount"] = 570,
+							["id"] = 45477,
 							["targets"] = {
 								["Scarlet Courier"] = {
-									["amount"] = 383,
+									["amount"] = 570,
 								},
 							},
 							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 570,
+							["school"] = 16,
+							["criticalmin"] = 570,
+							["criticalmax"] = 570,
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 383,
-							["amount"] = 383,
-							["hitamount"] = 383,
 						},
 					},
 					["damagetaken"] = 303,
@@ -3576,32 +3576,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 11,
-							["min"] = 8,
+							["max"] = 22,
 							["count"] = 10,
 							["amount"] = 114,
 							["school"] = 1,
-							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 11,
 									["amount"] = 114,
 								},
 							},
-							["max"] = 22,
+							["ishot"] = true,
+							["min"] = 8,
 						},
 						[45470] = {
 							["overheal"] = 312,
 							["count"] = 1,
 							["amount"] = 144,
 							["school"] = 1,
-							["min"] = 144,
+							["max"] = 144,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 312,
 									["amount"] = 144,
 								},
 							},
-							["max"] = 144,
+							["min"] = 144,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3610,26 +3610,26 @@ SkadaStorageDB = {
 							["criticalamount"] = 102,
 							["id"] = 6603,
 							["criticalmin"] = 102,
-							["amount"] = 303,
-							["hitmax"] = 56,
-							["criticalmax"] = 102,
-							["critical"] = 1,
-							["hit"] = 4,
-							["school"] = 1,
-							["count"] = 5,
 							["sources"] = {
 								["Scarlet Courier"] = {
 									["amount"] = 303,
 								},
 							},
+							["count"] = 5,
+							["criticalmax"] = 102,
+							["hitmax"] = 56,
+							["amount"] = 303,
+							["school"] = 1,
+							["hit"] = 4,
+							["critical"] = 1,
 							["hitamount"] = 201,
 						},
 					},
 					["heal"] = 258,
 					["name"] = "Ylath",
-					["role"] = "DAMAGER",
-					["overheal"] = 323,
 					["overkill"] = 32,
+					["overheal"] = 323,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -3728,6 +3728,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 10,
 						},
+						[49998] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ylath"] = {
+									["overkill"] = 27,
+									["amount"] = 648,
+								},
+							},
+							["overkill"] = 27,
+							["amount"] = 648,
+						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
@@ -3736,17 +3747,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 111,
-						},
-						[49998] = {
-							["school"] = 1,
-							["sources"] = {
-								["Ylath"] = {
-									["amount"] = 648,
-									["overkill"] = 27,
-								},
-							},
-							["amount"] = 648,
-							["overkill"] = 27,
 						},
 					},
 					["totaldamage"] = 384,
@@ -3829,12 +3829,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 317,
 									["overkill"] = 115,
+									["amount"] = 317,
 								},
 							},
-							["amount"] = 317,
 							["overkill"] = 115,
+							["amount"] = 317,
 						},
 					},
 					["totaldamage"] = 212,
@@ -3913,17 +3913,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[49560] = {
+						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
+							["count"] = 2,
+							["school"] = 32,
 							["targets"] = {
 								["Scarlet Marksman"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
+								["Scarlet Crusader"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
 							},
-							["uptime"] = 3,
+							["uptime"] = 10,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -3941,21 +3945,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[55078] = {
+						[49560] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
+							["count"] = 1,
+							["school"] = 1,
 							["targets"] = {
 								["Scarlet Marksman"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
-								["Scarlet Crusader"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
 							},
-							["uptime"] = 10,
+							["uptime"] = 3,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -3969,18 +3969,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 39,
-							["min"] = 8,
+							["max"] = 19,
 							["count"] = 11,
 							["amount"] = 114,
 							["school"] = 1,
-							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 39,
 									["amount"] = 114,
 								},
 							},
-							["max"] = 19,
+							["ishot"] = true,
+							["min"] = 8,
 						},
 						[45470] = {
 							["overheal"] = 456,
@@ -3988,14 +3988,14 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 456,
 							["max"] = 456,
-							["school"] = 1,
+							["min"] = 456,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 456,
 									["amount"] = 456,
 								},
 							},
-							["min"] = 456,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -4034,13 +4034,7 @@ SkadaStorageDB = {
 							["criticalamount"] = 108,
 							["id"] = 6603,
 							["criticalmin"] = 108,
-							["amount"] = 254,
-							["hitmax"] = 54,
-							["count"] = 7,
-							["criticalmax"] = 108,
-							["critical"] = 1,
-							["hit"] = 3,
-							["school"] = 1,
+							["PARRY"] = 3,
 							["sources"] = {
 								["Scarlet Marksman"] = {
 									["amount"] = 42,
@@ -4049,14 +4043,20 @@ SkadaStorageDB = {
 									["amount"] = 212,
 								},
 							},
-							["PARRY"] = 3,
+							["hit"] = 3,
+							["criticalmax"] = 108,
+							["hitmax"] = 54,
+							["amount"] = 254,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 7,
 							["hitamount"] = 146,
 						},
 					},
 					["heal"] = 570,
 					["name"] = "Ylath",
 					["ccdone"] = 1,
-					["totaldamage"] = 4782,
+					["overkill"] = 142,
 					["damagespells"] = {
 						["Melee"] = {
 							["hitmin"] = 299,
@@ -4071,13 +4071,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 650,
-							["amount"] = 1969,
+							["count"] = 5,
 							["criticalmax"] = 650,
 							["critical"] = 1,
-							["hit"] = 4,
+							["amount"] = 1969,
 							["school"] = 1,
 							["hitmax"] = 348,
-							["count"] = 5,
+							["hit"] = 4,
 							["hitamount"] = 1319,
 						},
 						["Icy Touch"] = {
@@ -4096,31 +4096,21 @@ SkadaStorageDB = {
 							["amount"] = 277,
 							["hitamount"] = 277,
 						},
-						["Death Strike"] = {
-							["count"] = 2,
-							["hitmin"] = 317,
-							["criticalamount"] = 648,
-							["id"] = 49998,
-							["criticalmax"] = 648,
+						["Death Coil"] = {
+							["hitmin"] = 383,
+							["id"] = 47632,
 							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 648,
-									["overkill"] = 27,
-								},
 								["Scarlet Crusader"] = {
-									["amount"] = 317,
-									["overkill"] = 115,
+									["amount"] = 383,
 								},
 							},
-							["overkill"] = 142,
-							["criticalmin"] = 648,
-							["casts"] = 3,
-							["hitmax"] = 317,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 965,
-							["critical"] = 1,
-							["hitamount"] = 317,
+							["school"] = 32,
+							["hitmax"] = 383,
+							["amount"] = 383,
+							["hitamount"] = 383,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 110,
@@ -4159,38 +4149,6 @@ SkadaStorageDB = {
 							["amount"] = 26,
 							["hitamount"] = 26,
 						},
-						["Blood Strike"] = {
-							["hitmin"] = 286,
-							["id"] = 45902,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 286,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 286,
-							["amount"] = 286,
-							["hitamount"] = 286,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 219,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 219,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 219,
-							["amount"] = 219,
-							["hitamount"] = 219,
-						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 104,
 							["id"] = 55095,
@@ -4209,34 +4167,76 @@ SkadaStorageDB = {
 							["amount"] = 326,
 							["hitamount"] = 326,
 						},
-						["Death Coil"] = {
-							["hitmin"] = 383,
-							["id"] = 47632,
+						["Plague Strike"] = {
+							["hitmin"] = 219,
+							["id"] = 45462,
 							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 383,
+								["Scarlet Marksman"] = {
+									["amount"] = 219,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 383,
-							["amount"] = 383,
-							["hitamount"] = 383,
+							["school"] = 1,
+							["hitmax"] = 219,
+							["amount"] = 219,
+							["hitamount"] = 219,
+						},
+						["Death Strike"] = {
+							["criticalmin"] = 648,
+							["hitmin"] = 317,
+							["criticalamount"] = 648,
+							["id"] = 49998,
+							["critical"] = 1,
+							["targets"] = {
+								["Scarlet Marksman"] = {
+									["overkill"] = 27,
+									["amount"] = 648,
+								},
+								["Scarlet Crusader"] = {
+									["overkill"] = 115,
+									["amount"] = 317,
+								},
+							},
+							["overkill"] = 142,
+							["amount"] = 965,
+							["criticalmax"] = 648,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 317,
+							["casts"] = 3,
+							["hitamount"] = 317,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 286,
+							["id"] = 45902,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["amount"] = 286,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 286,
+							["amount"] = 286,
+							["hitamount"] = 286,
 						},
 					},
-					["overkill"] = 142,
+					["totaldamage"] = 4782,
 				}, -- [1]
 			},
 			["etotaldamagetaken"] = 4782,
-			["ccdone"] = 1,
+			["damage"] = 4782,
 			["overkill"] = 142,
 			["edamagetaken"] = 4782,
 			["heal"] = 570,
 			["name"] = "Scarlet Marksman (30)",
+			["ccdone"] = 1,
 			["mobname"] = "Scarlet Marksman",
-			["damage"] = 4782,
 			["edamage"] = 596,
 			["last_action"] = 1727284314,
 			["endtime"] = 1727284316,
@@ -4295,15 +4295,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 15,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Ylath"] = {
-									["amount"] = 109,
-								},
-							},
-							["amount"] = 109,
-						},
 						[49998] = {
 							["school"] = 1,
 							["sources"] = {
@@ -4312,6 +4303,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 305,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 109,
+								},
+							},
+							["amount"] = 109,
 						},
 					},
 					["totaldamage"] = 140,
@@ -4367,12 +4367,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 931,
 									["overkill"] = 61,
+									["amount"] = 931,
 								},
 							},
-							["amount"] = 931,
 							["overkill"] = 61,
+							["amount"] = 931,
 						},
 						[50401] = {
 							["school"] = 16,
@@ -4462,21 +4462,6 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["uptime"] = 8,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
 						[55095] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -4493,6 +4478,21 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 13,
 						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[51915] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
 					},
 					["totaldamage"] = 4685,
 					["time"] = 14.11,
@@ -4507,8 +4507,8 @@ SkadaStorageDB = {
 									["amount"] = 682,
 								},
 								["Scarlet Crusader"] = {
-									["amount"] = 931,
 									["overkill"] = 61,
+									["amount"] = 931,
 								},
 							},
 							["overkill"] = 61,
@@ -4531,27 +4531,25 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 554,
 							["school"] = 16,
-							["count"] = 1,
-							["criticalmax"] = 554,
 							["criticalmin"] = 554,
+							["criticalmax"] = 554,
+							["count"] = 1,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 105,
-							["id"] = 55095,
+						["Death Coil"] = {
+							["hitmin"] = 383,
+							["id"] = 47632,
 							["targets"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 109,
-								},
 								["Scarlet Crusader"] = {
-									["amount"] = 327,
+									["amount"] = 383,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 16,
-							["hitmax"] = 113,
-							["amount"] = 436,
-							["hitamount"] = 436,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 383,
+							["amount"] = 383,
+							["hitamount"] = 383,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 110,
@@ -4587,38 +4585,6 @@ SkadaStorageDB = {
 							["amount"] = 28,
 							["hitamount"] = 28,
 						},
-						["Blood Strike"] = {
-							["hitmin"] = 296,
-							["id"] = 45902,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 296,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 296,
-							["amount"] = 296,
-							["hitamount"] = 296,
-						},
-						["Plague Strike"] = {
-							["criticalamount"] = 426,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 426,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 426,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 426,
-							["criticalmin"] = 426,
-						},
 						["Death Strike"] = {
 							["hitmin"] = 305,
 							["id"] = 49998,
@@ -4638,21 +4604,55 @@ SkadaStorageDB = {
 							["amount"] = 618,
 							["hitamount"] = 618,
 						},
-						["Death Coil"] = {
-							["hitmin"] = 383,
-							["id"] = 47632,
+						["Plague Strike"] = {
+							["criticalamount"] = 426,
+							["id"] = 45462,
+							["targets"] = {
+								["Scarlet Commander"] = {
+									["amount"] = 426,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 426,
+							["school"] = 1,
+							["criticalmin"] = 426,
+							["criticalmax"] = 426,
+							["count"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 105,
+							["id"] = 55095,
+							["targets"] = {
+								["Scarlet Commander"] = {
+									["amount"] = 109,
+								},
+								["Scarlet Crusader"] = {
+									["amount"] = 327,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 113,
+							["amount"] = 436,
+							["hitamount"] = 436,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 296,
+							["id"] = 45902,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 383,
+									["amount"] = 296,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 383,
-							["amount"] = 383,
-							["hitamount"] = 383,
+							["school"] = 1,
+							["hitmax"] = 296,
+							["amount"] = 296,
+							["hitamount"] = 296,
 						},
 					},
 					["damagetaken"] = 395,
@@ -4661,18 +4661,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 33,
-							["min"] = 11,
+							["max"] = 22,
 							["count"] = 11,
 							["amount"] = 115,
 							["school"] = 1,
-							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 33,
 									["amount"] = 115,
 								},
 							},
-							["max"] = 22,
+							["ishot"] = true,
+							["min"] = 11,
 						},
 						[45470] = {
 							["overheal"] = 632,
@@ -4680,20 +4680,21 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 280,
 							["max"] = 181,
-							["school"] = 1,
+							["min"] = 99,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 632,
 									["amount"] = 280,
 								},
 							},
-							["min"] = 99,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 45,
 							["id"] = 6603,
+							["PARRY"] = 1,
 							["sources"] = {
 								["Scarlet Commander"] = {
 									["amount"] = 140,
@@ -4702,20 +4703,19 @@ SkadaStorageDB = {
 									["amount"] = 255,
 								},
 							},
-							["PARRY"] = 1,
 							["count"] = 9,
 							["hit"] = 8,
 							["school"] = 1,
-							["amount"] = 395,
 							["hitmax"] = 54,
+							["amount"] = 395,
 							["hitamount"] = 395,
 						},
 					},
 					["heal"] = 395,
 					["name"] = "Ylath",
-					["role"] = "DAMAGER",
-					["overheal"] = 665,
 					["overkill"] = 61,
+					["overheal"] = 665,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -4760,14 +4760,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 269,
 						},
-						[55095] = {
-							["school"] = 16,
+						[45462] = {
+							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 204,
+									["amount"] = 209,
 								},
 							},
-							["amount"] = 204,
+							["amount"] = 209,
 						},
 						[55078] = {
 							["school"] = 32,
@@ -4791,12 +4791,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 897,
 									["overkill"] = 6,
+									["amount"] = 897,
 								},
 							},
-							["amount"] = 897,
 							["overkill"] = 6,
+							["amount"] = 897,
 						},
 						[50401] = {
 							["school"] = 16,
@@ -4816,14 +4816,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 550,
 						},
-						[45462] = {
-							["school"] = 1,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 209,
+									["amount"] = 204,
 								},
 							},
-							["amount"] = 209,
+							["amount"] = 204,
 						},
 					},
 					["totaldamage"] = 143,
@@ -4869,28 +4869,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[55095] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
 						[55078] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -4903,43 +4881,65 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[51915] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
 					},
 					["totaldamage"] = 2539,
 					["time"] = 8.859999999999999,
 					["totaldamagetaken"] = 143,
 					["damage"] = 2539,
 					["damagespells"] = {
-						["Death Strike"] = {
-							["hitmin"] = 286,
-							["id"] = 49998,
+						["Melee"] = {
+							["hitmin"] = 270,
+							["id"] = 6603,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 286,
+									["overkill"] = 6,
+									["amount"] = 897,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["overkill"] = 6,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 286,
-							["amount"] = 286,
-							["hitamount"] = 286,
+							["hitmax"] = 321,
+							["amount"] = 897,
+							["hitamount"] = 897,
 						},
-						["Icy Touch"] = {
-							["hitmin"] = 269,
-							["id"] = 45477,
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 100,
+							["id"] = 55095,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 269,
+									["amount"] = 204,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 16,
-							["hitmax"] = 269,
-							["amount"] = 269,
-							["hitamount"] = 269,
+							["hitmax"] = 104,
+							["amount"] = 204,
+							["hitamount"] = 204,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 101,
@@ -4972,22 +4972,21 @@ SkadaStorageDB = {
 							["amount"] = 23,
 							["hitamount"] = 23,
 						},
-						["Blood Strike"] = {
-							["hitmin"] = 261,
-							["id"] = 45902,
+						["Icy Touch"] = {
+							["hitmin"] = 269,
+							["id"] = 45477,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 550,
+									["amount"] = 269,
 								},
 							},
-							["hit"] = 2,
-							["casts"] = 2,
-							["count"] = 2,
-							["blocked"] = 27,
-							["school"] = 1,
-							["amount"] = 550,
-							["hitmax"] = 289,
-							["hitamount"] = 550,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 269,
+							["amount"] = 269,
+							["hitamount"] = 269,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 209,
@@ -5005,37 +5004,38 @@ SkadaStorageDB = {
 							["amount"] = 209,
 							["hitamount"] = 209,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 100,
-							["id"] = 55095,
+						["Death Strike"] = {
+							["hitmin"] = 286,
+							["id"] = 49998,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 204,
+									["amount"] = 286,
 								},
 							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 286,
+							["amount"] = 286,
+							["hitamount"] = 286,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 261,
+							["id"] = 45902,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["amount"] = 550,
+								},
+							},
+							["blocked"] = 27,
+							["casts"] = 2,
 							["count"] = 2,
 							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 104,
-							["amount"] = 204,
-							["hitamount"] = 204,
-						},
-						["Melee"] = {
-							["hitmin"] = 270,
-							["id"] = 6603,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 897,
-									["overkill"] = 6,
-								},
-							},
-							["overkill"] = 6,
-							["count"] = 3,
-							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 321,
-							["amount"] = 897,
-							["hitamount"] = 897,
+							["hitmax"] = 289,
+							["amount"] = 550,
+							["hitamount"] = 550,
 						},
 					},
 					["damagetaken"] = 143,
@@ -5044,57 +5044,57 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 53,
+							["school"] = 1,
+							["count"] = 8,
+							["amount"] = 31,
+							["max"] = 12,
+							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 53,
 									["amount"] = 31,
 								},
 							},
-							["count"] = 8,
-							["amount"] = 31,
-							["max"] = 12,
 							["min"] = 8,
-							["ishot"] = true,
-							["school"] = 1,
 						},
 						[45470] = {
 							["overheal"] = 369,
 							["count"] = 1,
 							["amount"] = 87,
 							["school"] = 1,
-							["min"] = 87,
+							["max"] = 87,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 369,
 									["amount"] = 87,
 								},
 							},
-							["max"] = 87,
+							["min"] = 87,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 47,
 							["id"] = 6603,
-							["count"] = 4,
+							["hitmax"] = 48,
 							["sources"] = {
 								["Scarlet Crusader"] = {
 									["amount"] = 143,
 								},
 							},
-							["hitmax"] = 48,
+							["count"] = 4,
 							["hit"] = 3,
 							["school"] = 1,
-							["amount"] = 143,
 							["PARRY"] = 1,
+							["amount"] = 143,
 							["hitamount"] = 143,
 						},
 					},
 					["heal"] = 118,
 					["name"] = "Ylath",
-					["role"] = "DAMAGER",
-					["overheal"] = 422,
 					["overkill"] = 6,
+					["overheal"] = 422,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -5143,12 +5143,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 96,
 									["overkill"] = 2,
+									["amount"] = 96,
 								},
 							},
-							["amount"] = 96,
 							["overkill"] = 2,
+							["amount"] = 96,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -5177,15 +5177,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 16,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Ylath"] = {
-									["amount"] = 99,
-								},
-							},
-							["amount"] = 99,
-						},
 						[49998] = {
 							["school"] = 1,
 							["sources"] = {
@@ -5194,6 +5185,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 626,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 99,
+								},
+							},
+							["amount"] = 99,
 						},
 					},
 					["totaldamage"] = 47,
@@ -5273,29 +5273,32 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 47,
 					["damage"] = 2093,
 					["damagespells"] = {
-						["Death Strike"] = {
-							["criticalamount"] = 626,
-							["id"] = 49998,
+						["Melee"] = {
+							["glance"] = 285,
+							["hitmin"] = 314,
+							["id"] = 6603,
+							["glancemax"] = 285,
+							["hitamount"] = 314,
+							["glancing"] = 1,
+							["count"] = 2,
+							["hitmax"] = 314,
+							["amount"] = 599,
+							["school"] = 1,
+							["hit"] = 1,
 							["targets"] = {
 								["Scarlet Commander"] = {
-									["amount"] = 626,
+									["amount"] = 599,
 								},
 							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 626,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 626,
-							["criticalmin"] = 626,
+							["glancemin"] = 285,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 96,
 							["id"] = 55078,
 							["targets"] = {
 								["Scarlet Commander"] = {
-									["amount"] = 96,
 									["overkill"] = 2,
+									["amount"] = 96,
 								},
 							},
 							["overkill"] = 2,
@@ -5350,9 +5353,25 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 396,
 							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 396,
 							["criticalmin"] = 396,
+							["criticalmax"] = 396,
+							["count"] = 1,
+						},
+						["Death Strike"] = {
+							["criticalamount"] = 626,
+							["id"] = 49998,
+							["targets"] = {
+								["Scarlet Commander"] = {
+									["amount"] = 626,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 626,
+							["school"] = 1,
+							["criticalmin"] = 626,
+							["criticalmax"] = 626,
+							["count"] = 1,
 						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 99,
@@ -5369,25 +5388,6 @@ SkadaStorageDB = {
 							["amount"] = 99,
 							["hitamount"] = 99,
 						},
-						["Melee"] = {
-							["glance"] = 285,
-							["hitmin"] = 314,
-							["id"] = 6603,
-							["glancemax"] = 285,
-							["glancemin"] = 285,
-							["glancing"] = 1,
-							["targets"] = {
-								["Scarlet Commander"] = {
-									["amount"] = 599,
-								},
-							},
-							["hitmax"] = 314,
-							["amount"] = 599,
-							["school"] = 1,
-							["hit"] = 1,
-							["count"] = 2,
-							["hitamount"] = 314,
-						},
 					},
 					["damagetaken"] = 47,
 					["id"] = "0x0700000000B016D1",
@@ -5395,18 +5395,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 26,
-							["min"] = 10,
+							["max"] = 15,
 							["count"] = 5,
 							["amount"] = 47,
 							["school"] = 1,
-							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 26,
 									["amount"] = 47,
 								},
 							},
-							["max"] = 15,
+							["ishot"] = true,
+							["min"] = 10,
 						},
 						[45470] = {
 							["overheal"] = 438,
@@ -5426,25 +5426,25 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 47,
 							["id"] = 6603,
+							["PARRY"] = 1,
 							["sources"] = {
 								["Scarlet Commander"] = {
 									["amount"] = 47,
 								},
 							},
-							["PARRY"] = 1,
 							["count"] = 3,
 							["hit"] = 1,
 							["school"] = 1,
-							["amount"] = 47,
 							["hitmax"] = 47,
+							["amount"] = 47,
 							["hitamount"] = 47,
 						},
 					},
 					["heal"] = 47,
 					["name"] = "Ylath",
-					["role"] = "DAMAGER",
-					["overheal"] = 464,
 					["overkill"] = 2,
+					["overheal"] = 464,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -5493,12 +5493,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 387,
 									["overkill"] = 87,
+									["amount"] = 387,
 								},
 							},
-							["amount"] = 387,
 							["overkill"] = 87,
+							["amount"] = 387,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -5527,15 +5527,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 16,
 						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Ylath"] = {
-									["amount"] = 391,
-								},
-							},
-							["amount"] = 391,
-						},
 						[49998] = {
 							["school"] = 1,
 							["sources"] = {
@@ -5544,6 +5535,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 276,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 391,
+								},
+							},
+							["amount"] = 391,
 						},
 					},
 					["totaldamage"] = 230,
@@ -5617,12 +5617,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 550,
 									["overkill"] = 75,
+									["amount"] = 550,
 								},
 							},
-							["amount"] = 550,
 							["overkill"] = 75,
+							["amount"] = 550,
 						},
 						[49998] = {
 							["school"] = 1,
@@ -5680,6 +5680,32 @@ SkadaStorageDB = {
 							["refresh"] = 4,
 							["uptime"] = 9,
 						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Scarlet Marksman"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+								["Scarlet Crusader"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[51915] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
 						[51714] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -5699,32 +5725,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 14,
 						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[51915] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[55078] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Scarlet Crusader"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
 					},
 					["totaldamage"] = 4786,
 					["time"] = 17.27,
@@ -5735,7 +5735,7 @@ SkadaStorageDB = {
 							["glance"] = 329,
 							["hitmin"] = 271,
 							["id"] = 6603,
-							["hitamount"] = 1168,
+							["glancemin"] = 329,
 							["targets"] = {
 								["Scarlet Marksman"] = {
 									["amount"] = 650,
@@ -5744,15 +5744,15 @@ SkadaStorageDB = {
 									["amount"] = 847,
 								},
 							},
-							["amount"] = 1497,
-							["glancing"] = 1,
-							["hitmax"] = 321,
-							["count"] = 5,
-							["blocked"] = 27,
-							["school"] = 1,
-							["hit"] = 4,
 							["glancemax"] = 329,
-							["glancemin"] = 329,
+							["glancing"] = 1,
+							["hit"] = 4,
+							["hitmax"] = 321,
+							["amount"] = 1497,
+							["school"] = 1,
+							["blocked"] = 27,
+							["count"] = 5,
+							["hitamount"] = 1168,
 						},
 						["Icy Touch"] = {
 							["hitmin"] = 252,
@@ -5770,33 +5770,29 @@ SkadaStorageDB = {
 							["amount"] = 252,
 							["hitamount"] = 252,
 						},
-						["Death Strike"] = {
-							["hitmin"] = 267,
-							["id"] = 49998,
+						["Death Coil"] = {
+							["hitmin"] = 350,
+							["id"] = 47632,
 							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 276,
-								},
 								["Scarlet Crusader"] = {
-									["amount"] = 267,
+									["amount"] = 350,
 								},
 							},
-							["hit"] = 2,
-							["casts"] = 3,
-							["count"] = 2,
-							["blocked"] = 27,
-							["school"] = 1,
-							["amount"] = 543,
-							["hitmax"] = 276,
-							["hitamount"] = 543,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 350,
+							["amount"] = 350,
+							["hitamount"] = 350,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 96,
 							["id"] = 55078,
 							["targets"] = {
 								["Scarlet Marksman"] = {
-									["amount"] = 387,
 									["overkill"] = 87,
+									["amount"] = 387,
 								},
 								["Scarlet Crusader"] = {
 									["amount"] = 291,
@@ -5829,40 +5825,6 @@ SkadaStorageDB = {
 							["amount"] = 36,
 							["hitamount"] = 36,
 						},
-						["Blood Strike"] = {
-							["hitmin"] = 270,
-							["id"] = 45902,
-							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 550,
-									["overkill"] = 75,
-								},
-							},
-							["overkill"] = 75,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 280,
-							["amount"] = 550,
-							["hitamount"] = 550,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 206,
-							["id"] = 45462,
-							["targets"] = {
-								["Scarlet Marksman"] = {
-									["amount"] = 206,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 206,
-							["amount"] = 206,
-							["hitamount"] = 206,
-						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 91,
 							["id"] = 55095,
@@ -5881,21 +5843,59 @@ SkadaStorageDB = {
 							["amount"] = 674,
 							["hitamount"] = 674,
 						},
-						["Death Coil"] = {
-							["hitmin"] = 350,
-							["id"] = 47632,
+						["Plague Strike"] = {
+							["hitmin"] = 206,
+							["id"] = 45462,
 							["targets"] = {
-								["Scarlet Crusader"] = {
-									["amount"] = 350,
+								["Scarlet Marksman"] = {
+									["amount"] = 206,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 350,
-							["amount"] = 350,
-							["hitamount"] = 350,
+							["school"] = 1,
+							["hitmax"] = 206,
+							["amount"] = 206,
+							["hitamount"] = 206,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 267,
+							["id"] = 49998,
+							["targets"] = {
+								["Scarlet Marksman"] = {
+									["amount"] = 276,
+								},
+								["Scarlet Crusader"] = {
+									["amount"] = 267,
+								},
+							},
+							["blocked"] = 27,
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 276,
+							["amount"] = 543,
+							["hitamount"] = 543,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 270,
+							["id"] = 45902,
+							["targets"] = {
+								["Scarlet Crusader"] = {
+									["overkill"] = 75,
+									["amount"] = 550,
+								},
+							},
+							["overkill"] = 75,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 280,
+							["amount"] = 550,
+							["hitamount"] = 550,
 						},
 					},
 					["damagetaken"] = 474,
@@ -5904,18 +5904,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 32,
-							["min"] = 7,
+							["max"] = 14,
 							["count"] = 12,
 							["amount"] = 96,
 							["school"] = 1,
-							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 32,
 									["amount"] = 96,
 								},
 							},
-							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 7,
 						},
 						[45470] = {
 							["overheal"] = 454,
@@ -5923,14 +5923,14 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 422,
 							["max"] = 227,
-							["school"] = 1,
+							["min"] = 195,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 454,
 									["amount"] = 422,
 								},
 							},
-							["min"] = 195,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -5938,7 +5938,7 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 43,
 							["id"] = 6603,
-							["hit"] = 10,
+							["amount"] = 474,
 							["sources"] = {
 								["Scarlet Marksman"] = {
 									["amount"] = 230,
@@ -5948,7 +5948,7 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 12,
-							["amount"] = 474,
+							["hit"] = 10,
 							["school"] = 1,
 							["hitmax"] = 52,
 							["MISS"] = 1,
@@ -5959,19 +5959,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 32915,
 							["sources"] = {
 								["Scarlet Marksman"] = {
 									["amount"] = 0,
 								},
 							},
+							["id"] = 32915,
 						},
 					},
 					["heal"] = 518,
 					["name"] = "Ylath",
-					["role"] = "DAMAGER",
-					["overheal"] = 486,
 					["overkill"] = 162,
+					["overheal"] = 486,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -6015,10 +6015,6 @@ SkadaStorageDB = {
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Ylath",
-					["class"] = "DEATHKNIGHT",
-					["time"] = 0,
-					["totaldamagetaken"] = 91,
-					["flag"] = 1297,
 					["damagetakenspells"] = {
 						["Shoot"] = {
 							["hitmin"] = 91,
@@ -6036,13 +6032,17 @@ SkadaStorageDB = {
 							["hitamount"] = 91,
 						},
 					},
+					["flag"] = 1297,
+					["totaldamagetaken"] = 91,
+					["time"] = 0,
+					["class"] = "DEATHKNIGHT",
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 91,
 			["starttime"] = 1727283878,
-			["last_time"] = 8548.981,
-			["last_action"] = 1727283888,
+			["endtime"] = 1727283891,
+			["etotaldamage"] = 91,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -6064,13 +6064,13 @@ SkadaStorageDB = {
 					["damage"] = 91,
 				}, -- [1]
 			},
-			["edamage"] = 91,
-			["name"] = "Scarlet Marksman (28)",
-			["time"] = 13,
-			["mobname"] = "Scarlet Marksman",
 			["totaldamagetaken"] = 91,
-			["etotaldamage"] = 91,
-			["endtime"] = 1727283891,
+			["time"] = 13,
+			["name"] = "Scarlet Marksman (28)",
+			["mobname"] = "Scarlet Marksman",
+			["edamage"] = 91,
+			["last_action"] = 1727283888,
+			["last_time"] = 8548.981,
 		}, -- [14]
 		{
 			["enemies"] = {
@@ -6103,12 +6103,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 1454,
 									["overkill"] = 89,
+									["amount"] = 1454,
 								},
 							},
-							["amount"] = 1454,
 							["overkill"] = 89,
+							["amount"] = 1454,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -6141,12 +6141,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Ylath"] = {
-									["amount"] = 533,
 									["overkill"] = 103,
+									["amount"] = 533,
 								},
 							},
-							["amount"] = 533,
 							["overkill"] = 103,
+							["amount"] = 533,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -6157,15 +6157,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 186,
 						},
-						[45477] = {
-							["school"] = 16,
-							["sources"] = {
-								["Ylath"] = {
-									["amount"] = 252,
-								},
-							},
-							["amount"] = 252,
-						},
 						[47632] = {
 							["school"] = 32,
 							["sources"] = {
@@ -6174,6 +6165,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 350,
+						},
+						[45477] = {
+							["school"] = 16,
+							["sources"] = {
+								["Ylath"] = {
+									["amount"] = 252,
+								},
+							},
+							["amount"] = 252,
 						},
 					},
 					["totaldamage"] = 594,
@@ -6263,8 +6263,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 1454,
 									["overkill"] = 89,
+									["amount"] = 1454,
 								},
 							},
 							["overkill"] = 89,
@@ -6291,20 +6291,21 @@ SkadaStorageDB = {
 							["amount"] = 252,
 							["hitamount"] = 252,
 						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 94,
-							["id"] = 55095,
+						["Death Coil"] = {
+							["hitmin"] = 350,
+							["id"] = 47632,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 674,
+									["amount"] = 350,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 16,
-							["hitmax"] = 100,
-							["amount"] = 674,
-							["hitamount"] = 674,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 350,
+							["amount"] = 350,
+							["hitamount"] = 350,
 						},
 						["Blood Plague (DoT)"] = {
 							["hitmin"] = 96,
@@ -6337,21 +6338,24 @@ SkadaStorageDB = {
 							["amount"] = 30,
 							["hitamount"] = 30,
 						},
-						["Blood Strike"] = {
-							["hitmin"] = 262,
-							["id"] = 45902,
+						["Death Strike"] = {
+							["hitmin"] = 263,
+							["id"] = 49998,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 535,
+									["overkill"] = 103,
+									["amount"] = 533,
 								},
 							},
-							["casts"] = 2,
+							["overkill"] = 103,
+							["blocked"] = 27,
+							["casts"] = 3,
 							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 273,
-							["amount"] = 535,
-							["hitamount"] = 535,
+							["hitmax"] = 270,
+							["amount"] = 533,
+							["hitamount"] = 533,
 						},
 						["Plague Strike"] = {
 							["hitmin"] = 186,
@@ -6369,40 +6373,36 @@ SkadaStorageDB = {
 							["amount"] = 186,
 							["hitamount"] = 186,
 						},
-						["Death Strike"] = {
-							["hitmin"] = 263,
-							["id"] = 49998,
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 94,
+							["id"] = 55095,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 533,
-									["overkill"] = 103,
+									["amount"] = 674,
 								},
 							},
-							["overkill"] = 103,
-							["hit"] = 2,
-							["casts"] = 3,
-							["count"] = 2,
-							["blocked"] = 27,
-							["school"] = 1,
-							["amount"] = 533,
-							["hitmax"] = 270,
-							["hitamount"] = 533,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 16,
+							["hitmax"] = 100,
+							["amount"] = 674,
+							["hitamount"] = 674,
 						},
-						["Death Coil"] = {
-							["hitmin"] = 350,
-							["id"] = 47632,
+						["Blood Strike"] = {
+							["hitmin"] = 262,
+							["id"] = 45902,
 							["targets"] = {
 								["Scarlet Crusader"] = {
-									["amount"] = 350,
+									["amount"] = 535,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 350,
-							["amount"] = 350,
-							["hitamount"] = 350,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 273,
+							["amount"] = 535,
+							["hitamount"] = 535,
 						},
 					},
 					["damagetaken"] = 594,
@@ -6411,18 +6411,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 43,
+							["school"] = 1,
+							["count"] = 12,
+							["amount"] = 76,
+							["max"] = 14,
+							["ishot"] = true,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 43,
 									["amount"] = 76,
 								},
 							},
-							["count"] = 12,
-							["amount"] = 76,
-							["max"] = 14,
 							["min"] = 8,
-							["ishot"] = true,
-							["school"] = 1,
 						},
 						[45470] = {
 							["overheal"] = 390,
@@ -6430,14 +6430,14 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 486,
 							["max"] = 344,
-							["school"] = 1,
+							["min"] = 142,
 							["targets"] = {
 								["Ylath"] = {
 									["overheal"] = 390,
 									["amount"] = 486,
 								},
 							},
-							["min"] = 142,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -6446,26 +6446,26 @@ SkadaStorageDB = {
 							["criticalamount"] = 104,
 							["id"] = 6603,
 							["criticalmin"] = 104,
-							["amount"] = 594,
-							["hitmax"] = 55,
-							["criticalmax"] = 104,
-							["critical"] = 1,
-							["hit"] = 10,
-							["school"] = 1,
-							["count"] = 11,
 							["sources"] = {
 								["Scarlet Crusader"] = {
 									["amount"] = 594,
 								},
 							},
+							["count"] = 11,
+							["criticalmax"] = 104,
+							["hitmax"] = 55,
+							["amount"] = 594,
+							["school"] = 1,
+							["hit"] = 10,
+							["critical"] = 1,
 							["hitamount"] = 490,
 						},
 					},
 					["heal"] = 562,
 					["name"] = "Ylath",
-					["role"] = "DAMAGER",
-					["overheal"] = 433,
 					["overkill"] = 192,
+					["overheal"] = 433,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["etotaldamage"] = 594,
