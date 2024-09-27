@@ -22,8 +22,8 @@ GladiusDB = {
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
-		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
@@ -83,8 +83,8 @@ GladiusDB = {
 		},
 		["Elrath - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1067.923352342603,
 			["y"] = 539.2999511163254,
+			["x"] = 1067.923352342603,
 		},
 		["Kalaam - Icecrown"] = {
 			["locked"] = true,
@@ -139,15 +139,15 @@ GladiusDB = {
 			["x"] = 1091.03865008566,
 			["y"] = 533.3444026788393,
 		},
-		["Elgorath - Icecrown"] = {
-			["locked"] = true,
-			["x"] = 1168.703932839543,
-			["y"] = 515.2998358767728,
-		},
 		["Pocaitoru - Icecrown"] = {
 			["locked"] = true,
 			["x"] = 1068.283355016582,
 			["y"] = 591.6555710886522,
+		},
+		["Elgorath - Icecrown"] = {
+			["locked"] = true,
+			["x"] = 1168.703932839543,
+			["y"] = 515.2998358767728,
 		},
 		["Ulrezaj - Icecrown"] = {
 			["locked"] = true,
@@ -166,8 +166,8 @@ GladiusDB = {
 		},
 		["Mahkloompah - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 539.2998880906472,
 			["x"] = 1159.905548160378,
+			["y"] = 539.2998880906472,
 		},
 		["Glacianos - Icecrown"] = {
 		},
