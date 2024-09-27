@@ -1,6 +1,13 @@
 
 GridDB = {
 	["namespaces"] = {
+		["GridRoster"] = {
+			["profiles"] = {
+				["Default"] = {
+					["party_state"] = "party",
+				},
+			},
+		},
 		["GridStatus"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -80,9 +87,9 @@ GridDB = {
 					["layouts"] = {
 						["heroic_raid"] = "By Group 40",
 					},
-					["PosY"] = -416.6205945172833,
+					["PosY"] = -428.8872192430806,
 					["layout"] = "By Group 5",
-					["PosX"] = 1025.721295182475,
+					["PosX"] = 995.3211744226464,
 				},
 			},
 		},
@@ -167,18 +174,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 46 yards away",
 					},
-					["alert_range_30"] = {
-						["enable"] = false,
-						["text"] = "30 yards",
+					["alert_range_60"] = {
+						["enable"] = true,
+						["text"] = "60 yards",
 						["color"] = {
-							["a"] = 0.4545454545454546,
-							["r"] = 0.3,
-							["g"] = 0.6,
-							["b"] = 0.9,
+							["a"] = 0.8363636363636364,
+							["r"] = 0.6,
+							["g"] = 0.2,
+							["b"] = 0.8,
 						},
-						["priority"] = 83,
+						["priority"] = 86,
 						["range"] = false,
-						["desc"] = "More than 30 yards away",
+						["desc"] = "More than 60 yards away",
 					},
 					["alert_range_28"] = {
 						["enable"] = false,
@@ -193,18 +200,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 28 yards away",
 					},
-					["alert_range_60"] = {
-						["enable"] = true,
-						["text"] = "60 yards",
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
 						["color"] = {
-							["a"] = 0.8363636363636364,
-							["r"] = 0.6,
-							["g"] = 0.2,
-							["b"] = 0.8,
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
 						},
-						["priority"] = 86,
+						["priority"] = 83,
 						["range"] = false,
-						["desc"] = "More than 60 yards away",
+						["desc"] = "More than 30 yards away",
 					},
 					["alert_range_36"] = {
 						["enable"] = true,

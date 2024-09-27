@@ -66,11 +66,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -16.99999979483828,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -16.99999979483828,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -84,7 +84,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = -115.0000081380815,
 			["LastInstanceName"] = "Trial of the Crusader",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -60.00000082064688,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -96,7 +96,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -60.00000082064688,
+			["GraphWindowX"] = 0,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 244.5308668882732,
@@ -138,8 +138,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = 23.44438869364712,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -151,7 +151,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 23.44438869364712,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 238.9999938458702,
@@ -252,10 +252,13 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000027354896,
 					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "The Nexus",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -264,10 +267,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Utgarde Pinnacle",
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 		},
 		["Kalaam - Icecrown"] = {
@@ -563,8 +563,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 74.40742614297815,
-			["LastInstanceName"] = "The Nexus",
-			["CurDataSet"] = "CurrentFightData",
+			["LastInstanceName"] = "Drak'Tharon Keep",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -576,10 +576,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -165.0369795107044,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 317.6297135990283,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 247.3703663456547,
-			["MainWindowHeight"] = 317.6297135990283,
+			["GraphWindowX"] = 0,
 		},
 		["Aevie - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -709,7 +709,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 655.7037672683764,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -296.7037172773043,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -721,7 +721,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -296.7037172773043,
 			["ReportLines"] = 2,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 260.0000123097031,
@@ -935,11 +935,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 		},
 		["Pubianus - Icecrown"] = {
 			["GraphWindowY"] = 0,
