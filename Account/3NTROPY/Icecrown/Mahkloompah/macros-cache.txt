@@ -1,3 +1,9 @@
+MACRO 16777220 "hor" INV_Misc_QuestionMark
+#showtooltip hand of reckoning
+/target [@mouseover, harm,nodead]
+/startattack
+/cast hand of reckoning
+END
 MACRO 16777217 "jol" INV_Misc_QuestionMark
 #showtooltip
 /startattack
