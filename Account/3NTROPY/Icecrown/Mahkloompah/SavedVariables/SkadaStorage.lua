@@ -9,126 +9,97 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Mahkloompah"] = {
-									["amount"] = 28,
-								},
-							},
-							["amount"] = 28,
-						},
-						[11639] = {
-							["school"] = 32,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-					},
-					["damagetaken"] = 530,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 50,
-								},
-							},
-							["amount"] = 50,
-						},
-						[2136] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
 									["amount"] = 33,
 								},
 							},
 							["amount"] = 33,
 						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 85,
-								},
-							},
-							["amount"] = 85,
-						},
-						[25742] = {
+					},
+					["damagetaken"] = 379,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[20467] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 30,
+									["amount"] = 28,
 								},
 							},
-							["amount"] = 30,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 131,
-								},
-							},
-							["amount"] = 131,
+							["amount"] = 28,
 						},
 						[67485] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 102,
+									["amount"] = 107,
 								},
 							},
-							["amount"] = 102,
+							["amount"] = 107,
 						},
-						[8045] = {
-							["school"] = 8,
+						[20424] = {
+							["school"] = 2,
 							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 99,
+								["Mahkloompah"] = {
+									["overkill"] = 28,
+									["amount"] = 95,
 								},
 							},
-							["amount"] = 99,
+							["overkill"] = 28,
+							["amount"] = 95,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 31,
+									["amount"] = 149,
+								},
+							},
+							["overkill"] = 31,
+							["amount"] = 149,
 						},
 					},
-					["name"] = "Jurion the Deceiver",
-					["totaldamage"] = 52,
-					["totaldamagetaken"] = 530,
-					["id"] = "0xF130003F782674D9",
-					["damage"] = 52,
+					["name"] = "Zhevra Runner",
+					["totaldamage"] = 33,
+					["totaldamagetaken"] = 379,
+					["id"] = "0xF130000CAA17779E",
+					["damage"] = 33,
 				}, -- [1]
 			},
-			["totaldamage"] = 530,
-			["time"] = 10,
-			["totaldamagetaken"] = 52,
-			["etotaldamagetaken"] = 530,
-			["last_time"] = 18305.43,
+			["totaldamage"] = 379,
+			["time"] = 8,
+			["damage"] = 379,
+			["totaldamagetaken"] = 33,
+			["etotaldamagetaken"] = 379,
+			["last_time"] = 42565.732,
 			["players"] = {
 				{
-					["ccdonespells"] = {
-						[853] = {
-							["count"] = 1,
-							["targets"] = {
-								["Jurion the Deceiver"] = 1,
-							},
-						},
-					},
-					["last"] = 18303.322,
+					["last"] = 42565.699,
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
 						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 8,
 						},
-						[853] = {
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["targets"] = {
-								["Jurion the Deceiver"] = {
+								["Zhevra Runner"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
@@ -138,360 +109,230 @@ SkadaStorageDB = {
 						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 8,
 						},
-						[29348] = {
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Zhevra Runner"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[20375] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 8,
 						},
 						[25037] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
+							["uptime"] = 8,
 						},
 					},
 					["role"] = "DAMAGER",
-					["time"] = 7.12,
-					["totaldamagetaken"] = 52,
-					["damage"] = 263,
+					["time"] = 7.69,
+					["totaldamagetaken"] = 33,
+					["damage"] = 379,
 					["damagespells"] = {
 						["Hand of Reckoning"] = {
-							["hitmin"] = 102,
+							["hitmin"] = 107,
 							["id"] = 67485,
 							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["amount"] = 102,
+								["Zhevra Runner"] = {
+									["amount"] = 107,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 102,
-							["amount"] = 102,
-							["hitamount"] = 102,
+							["hitmax"] = 107,
+							["amount"] = 107,
+							["hitamount"] = 107,
 						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 15,
-							["id"] = 25742,
+						["Seal of Command"] = {
+							["criticalmin"] = 48,
+							["hitmin"] = 21,
+							["criticalamount"] = 48,
+							["id"] = 20424,
+							["criticalmax"] = 48,
 							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["amount"] = 30,
+								["Zhevra Runner"] = {
+									["overkill"] = 28,
+									["amount"] = 95,
 								},
 							},
+							["overkill"] = 28,
+							["critical"] = 1,
 							["casts"] = 1,
-							["count"] = 2,
+							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 2,
-							["hitmax"] = 15,
-							["amount"] = 30,
-							["hitamount"] = 30,
+							["hitmax"] = 26,
+							["amount"] = 95,
+							["hitamount"] = 47,
 						},
-						["Judgement of Light"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 20271,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 56,
-							["hitmin"] = 75,
-							["id"] = 6603,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["amount"] = 131,
-								},
-							},
-							["glancemin"] = 56,
-							["glancing"] = 1,
-							["glancemax"] = 56,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 75,
-							["amount"] = 131,
-							["hitamount"] = 75,
-						},
-					},
-					["damagetaken"] = 52,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["damagetakenspells"] = {
-						["Melee"] = {
+						["Judgement of Command"] = {
 							["hitmin"] = 28,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Jurion the Deceiver"] = {
+							["id"] = 20467,
+							["targets"] = {
+								["Zhevra Runner"] = {
 									["amount"] = 28,
 								},
 							},
-							["count"] = 2,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 1,
+							["school"] = 2,
 							["hitmax"] = 28,
 							["amount"] = 28,
 							["hitamount"] = 28,
 						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 24,
-							["id"] = 11639,
+						["Melee"] = {
+							["hitmin"] = 44,
+							["id"] = 6603,
+							["targets"] = {
+								["Zhevra Runner"] = {
+									["overkill"] = 31,
+									["amount"] = 149,
+								},
+							},
+							["overkill"] = 31,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 54,
+							["amount"] = 149,
+							["hitamount"] = 149,
+						},
+					},
+					["damagetaken"] = 33,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 19,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 19,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 26,
+							["school"] = 2,
+							["max"] = 15,
+							["ishot"] = true,
+							["min"] = 11,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 11,
+							["criticalamount"] = 22,
+							["id"] = 6603,
+							["criticalmin"] = 22,
+							["criticalmax"] = 22,
+							["critical"] = 1,
 							["sources"] = {
-								["Jurion the Deceiver"] = {
-									["amount"] = 24,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 24,
-							["amount"] = 24,
-							["hitamount"] = 24,
-						},
-					},
-					["name"] = "Mahkloompah",
-					["ccdone"] = 1,
-					["totaldamage"] = 263,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Lightning Bolt"] = {
-							["criticalamount"] = 85,
-							["id"] = 548,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["amount"] = 85,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 85,
-							["school"] = 8,
-							["criticalmin"] = 85,
-							["criticalmax"] = 85,
-							["count"] = 1,
-						},
-						["Earth Shock"] = {
-							["criticalamount"] = 99,
-							["id"] = 8045,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["amount"] = 99,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 99,
-							["school"] = 8,
-							["criticalmin"] = 99,
-							["criticalmax"] = 99,
-							["count"] = 1,
-						},
-					},
-					["last"] = 18300.263,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["totaldamage"] = 184,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 4.08,
-					["damage"] = 184,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 49,
-							["id"] = 143,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["amount"] = 49,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 49,
-							["amount"] = 49,
-							["hitamount"] = 49,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 143,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 33,
-							["id"] = 2136,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
+								["Zhevra Runner"] = {
 									["amount"] = 33,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
+							["count"] = 3,
 							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 33,
+							["school"] = 1,
+							["hitmax"] = 11,
 							["amount"] = 33,
-							["hitamount"] = 33,
+							["hitamount"] = 11,
 						},
 					},
-					["last"] = 18302.613,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["class"] = "MAGE",
+					["heal"] = 26,
+					["name"] = "Mahkloompah",
+					["overkill"] = 59,
+					["overheal"] = 19,
+					["totaldamage"] = 379,
+				}, -- [1]
+				{
+					["last"] = 42558.007,
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
 					["auras"] = {
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Jurion the Deceiver"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[168] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 8,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
+					["flag"] = 1298,
+					["time"] = 0,
+					["class"] = "SHAMAN",
+				}, -- [2]
+				{
+					["last"] = 42558.007,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 4,
 						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 8,
 						},
 					},
-					["totaldamage"] = 83,
 					["role"] = "DAMAGER",
 					["name"] = "Woolhead",
 					["flag"] = 1298,
-					["time"] = 5.779999999999999,
-					["damage"] = 83,
+					["time"] = 0,
+					["class"] = "MAGE",
 				}, -- [3]
 			},
 			["type"] = "group",
-			["damagetaken"] = 52,
-			["damage"] = 530,
-			["ccdone"] = 1,
-			["etotaldamage"] = 52,
-			["edamagetaken"] = 530,
-			["name"] = "Jurion the Deceiver",
-			["mobname"] = "Jurion the Deceiver",
-			["starttime"] = 1727536722,
-			["edamage"] = 52,
-			["last_action"] = 1727536731,
-			["endtime"] = 1727536732,
+			["damagetaken"] = 33,
+			["etotaldamage"] = 33,
+			["overheal"] = 19,
+			["overkill"] = 59,
+			["edamagetaken"] = 379,
+			["heal"] = 26,
+			["name"] = "Zhevra Runner",
+			["mobname"] = "Zhevra Runner",
+			["starttime"] = 1727560984,
+			["edamage"] = 33,
+			["last_action"] = 1727560992,
+			["endtime"] = 1727560992,
 		}, -- [1]
 		{
 			["enemies"] = {
@@ -501,1197 +342,105 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Mahkloompah"] = {
-									["amount"] = 19,
+									["amount"] = 38,
 								},
 							},
-							["amount"] = 19,
+							["amount"] = 38,
 						},
 					},
-					["damagetaken"] = 349,
+					["damagetaken"] = 371,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[20187] = {
+						[879] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 41,
+									["amount"] = 140,
 								},
 							},
-							["amount"] = 41,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["overkill"] = 39,
-									["amount"] = 45,
-								},
-							},
-							["overkill"] = 39,
-							["amount"] = 45,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 53,
-								},
-							},
-							["amount"] = 53,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 102,
-								},
-							},
-							["amount"] = 102,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-					},
-					["name"] = "Wailer",
-					["totaldamage"] = 19,
-					["totaldamagetaken"] = 349,
-					["id"] = "0xF130003FC1266637",
-					["damage"] = 19,
-				}, -- [1]
-			},
-			["totaldamage"] = 349,
-			["time"] = 6,
-			["damage"] = 349,
-			["totaldamagetaken"] = 19,
-			["etotaldamagetaken"] = 349,
-			["last_time"] = 18278.971,
-			["players"] = {
-				{
-					["last"] = 18275.188,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Wailer"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[25037] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Wailer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 1.09,
-					["totaldamagetaken"] = 19,
-					["damage"] = 251,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 102,
-							["id"] = 67485,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 102,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 102,
-							["amount"] = 102,
-							["hitamount"] = 102,
-						},
-						["Melee"] = {
-							["hitmin"] = 78,
-							["id"] = 6603,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 78,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 78,
-							["amount"] = 78,
-							["hitamount"] = 78,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 15,
-							["id"] = 25742,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 30,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 15,
-							["amount"] = 30,
-							["hitamount"] = 30,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 41,
-							["id"] = 20187,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 41,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 41,
-							["amount"] = 41,
-							["hitamount"] = 41,
-						},
-					},
-					["damagetaken"] = 19,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 34,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Woolhead"] = {
-									["overheal"] = 8,
-									["amount"] = 0,
-								},
-								["Jegjegos"] = {
-									["overheal"] = 10,
-									["amount"] = 0,
-								},
-								["Mahkloompah"] = {
-									["overheal"] = 16,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 19,
-							["id"] = 6603,
-							["sources"] = {
-								["Wailer"] = {
-									["amount"] = 19,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 19,
-							["amount"] = 19,
-							["hitamount"] = 19,
-						},
-					},
-					["heal"] = 0,
-					["name"] = "Mahkloompah",
-					["overheal"] = 34,
-					["totaldamage"] = 251,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Lightning Bolt"] = {
-							["hitmin"] = 53,
-							["id"] = 548,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 53,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 53,
-							["amount"] = 53,
-							["hitamount"] = 53,
-						},
-					},
-					["last"] = 18276.213,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["totaldamage"] = 53,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 2.12,
-					["damage"] = 53,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 45,
-							["id"] = 143,
-							["targets"] = {
-								["Wailer"] = {
-									["overkill"] = 39,
-									["amount"] = 45,
-								},
-							},
-							["overkill"] = 39,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 45,
-							["amount"] = 45,
-							["hitamount"] = 45,
-						},
-					},
-					["last"] = 18278.405,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["overkill"] = 39,
-					["auras"] = {
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["totaldamage"] = 45,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 3.5,
-					["damage"] = 45,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 19,
-			["overheal"] = 34,
-			["etotaldamage"] = 19,
-			["overkill"] = 39,
-			["edamagetaken"] = 349,
-			["heal"] = 0,
-			["name"] = "Wailer (7)",
-			["mobname"] = "Wailer",
-			["starttime"] = 1727536700,
-			["edamage"] = 19,
-			["last_action"] = 1727536705,
-			["endtime"] = 1727536706,
-		}, -- [2]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 82,
-								},
-							},
-							["amount"] = 82,
-						},
-					},
-					["damagetaken"] = 435,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 41,
-								},
-							},
-							["amount"] = 41,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 78,
-								},
-							},
-							["amount"] = 78,
-						},
-						[116] = {
-							["school"] = 16,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-						[26365] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 57,
-									["amount"] = 144,
-								},
-							},
-							["overkill"] = 57,
-							["amount"] = 144,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 103,
-								},
-							},
-							["amount"] = 103,
-						},
-					},
-					["name"] = "Wailer",
-					["totaldamage"] = 82,
-					["totaldamagetaken"] = 435,
-					["id"] = "0xF130003FC126534E",
-					["damage"] = 82,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 71,
-								},
-							},
-							["amount"] = 71,
-						},
-						[14868] = {
-							["school"] = 32,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 17,
-								},
-							},
-							["amount"] = 17,
-						},
-					},
-					["damagetaken"] = 458,
-					["id"] = "0xF130003FC02653DD",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 39,
-								},
-							},
-							["amount"] = 39,
+							["amount"] = 140,
 						},
 						[8045] = {
 							["school"] = 8,
 							["sources"] = {
 								["Jegjegos"] = {
-									["amount"] = 69,
+									["overkill"] = 15,
+									["amount"] = 75,
 								},
 							},
-							["amount"] = 69,
+							["overkill"] = 15,
+							["amount"] = 75,
+						},
+						[3606] = {
+							["school"] = 4,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 10,
-									["amount"] = 233,
+									["amount"] = 50,
 								},
 							},
-							["overkill"] = 10,
-							["amount"] = 233,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 62,
-								},
-							},
-							["amount"] = 62,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 55,
-								},
-							},
-							["amount"] = 55,
+							["amount"] = 50,
 						},
 					},
-					["totaldamage"] = 88,
-					["name"] = "Eye of Dar'Khan",
-					["totaldamagetaken"] = 458,
-					["flag"] = 68168,
-					["damage"] = 88,
-				}, -- [2]
-			},
-			["totaldamage"] = 893,
-			["time"] = 14,
-			["damage"] = 893,
-			["totaldamagetaken"] = 170,
-			["etotaldamagetaken"] = 893,
-			["last_time"] = 18175.14,
-			["players"] = {
-				{
-					["last"] = 18173.523,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Wailer"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[25037] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Wailer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-					},
-					["time"] = 11.45,
-					["totaldamagetaken"] = 170,
-					["damage"] = 486,
-					["overheal"] = 32,
-					["damagetaken"] = 170,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 32,
-							["max"] = 16,
-							["count"] = 6,
-							["amount"] = 41,
-							["school"] = 2,
-							["min"] = 11,
-							["ishot"] = true,
-							["targets"] = {
-								["Woolhead"] = {
-									["overheal"] = 16,
-									["amount"] = 0,
-								},
-								["Mahkloompah"] = {
-									["overheal"] = 16,
-									["amount"] = 30,
-								},
-								["Jegjegos"] = {
-									["overheal"] = 0,
-									["amount"] = 11,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 16,
-							["criticalamount"] = 44,
-							["id"] = 6603,
-							["hitmax"] = 20,
-							["count"] = 7,
-							["hit"] = 6,
-							["criticalmax"] = 44,
-							["critical"] = 1,
-							["amount"] = 153,
-							["school"] = 1,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 71,
-								},
-								["Wailer"] = {
-									["amount"] = 82,
-								},
-							},
-							["criticalmin"] = 44,
-							["hitamount"] = 109,
-						},
-						["Curse of Agony (DoT)"] = {
-							["hitmin"] = 17,
-							["id"] = 14868,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 17,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 17,
-							["amount"] = 17,
-							["hitamount"] = 17,
-						},
-					},
-					["heal"] = 41,
-					["name"] = "Mahkloompah",
-					["overkill"] = 10,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 103,
-							["id"] = 67485,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 103,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 103,
-							["amount"] = 103,
-							["hitamount"] = 103,
-						},
-						["Melee"] = {
-							["hitmin"] = 72,
-							["id"] = 6603,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["overkill"] = 10,
-									["amount"] = 233,
-								},
-								["Wailer"] = {
-									["amount"] = 0,
-								},
-							},
-							["overkill"] = 10,
-							["PARRY"] = 1,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 83,
-							["amount"] = 233,
-							["hitamount"] = 233,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 12,
-							["id"] = 25742,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 55,
-								},
-								["Wailer"] = {
-									["amount"] = 15,
-								},
-							},
-							["hitmax"] = 15,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 2,
-							["resisted"] = 2,
-							["amount"] = 70,
-							["hitamount"] = 70,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 39,
-							["id"] = 20187,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 39,
-								},
-								["Wailer"] = {
-									["amount"] = 41,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 41,
-							["amount"] = 80,
-							["hitamount"] = 80,
-						},
-					},
-					["totaldamage"] = 486,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Lightning Bolt"] = {
-							["criticalmin"] = 87,
-							["hitmin"] = 57,
-							["criticalamount"] = 87,
-							["id"] = 548,
-							["criticalmax"] = 87,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 62,
-								},
-								["Wailer"] = {
-									["overkill"] = 57,
-									["amount"] = 144,
-								},
-							},
-							["overkill"] = 57,
-							["critical"] = 1,
-							["casts"] = 4,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 62,
-							["amount"] = 206,
-							["hitamount"] = 119,
-						},
-						["Lightning Shield"] = {
-							["hitmin"] = 32,
-							["id"] = 26365,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 32,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 32,
-							["amount"] = 32,
-							["hitamount"] = 32,
-						},
-						["Wind Shear"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 8,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 57994,
-						},
-						["Earth Shock"] = {
-							["hitmin"] = 69,
-							["id"] = 8045,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 69,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 69,
-							["amount"] = 69,
-							["hitamount"] = 69,
-						},
-					},
-					["last"] = 18173.464,
-					["class"] = "SHAMAN",
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["overkill"] = 57,
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[325] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["totaldamage"] = 307,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 8.07,
-					["damage"] = 307,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 38,
-							["id"] = 143,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 77,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 39,
-							["amount"] = 77,
-							["hitamount"] = 77,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 22,
-							["id"] = 116,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 22,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 22,
-							["amount"] = 22,
-							["hitamount"] = 22,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 143,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["last"] = 18166.648,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["class"] = "MAGE",
-					["auras"] = {
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Wailer"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[116] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Wailer"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["totaldamage"] = 100,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 5.12,
-					["damage"] = 100,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 170,
-			["overheal"] = 32,
-			["etotaldamage"] = 170,
-			["overkill"] = 67,
-			["edamagetaken"] = 893,
-			["heal"] = 41,
-			["name"] = "Wailer (6)",
-			["mobname"] = "Wailer",
-			["starttime"] = 1727536587,
-			["edamage"] = 170,
-			["last_action"] = 1727536601,
-			["endtime"] = 1727536601,
-		}, -- [3]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["damagetaken"] = 501,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 41,
-								},
-							},
-							["amount"] = 41,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						[26365] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 38,
-									["amount"] = 236,
-								},
-							},
-							["overkill"] = 38,
-							["amount"] = 236,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 44,
-								},
-							},
-							["amount"] = 44,
-						},
-					},
-					["name"] = "Wailer",
-					["totaldamage"] = 18,
-					["totaldamagetaken"] = 501,
-					["id"] = "0xF130003FC120394F",
-					["damage"] = 18,
+					["name"] = "Barak Kodobane",
+					["totaldamage"] = 38,
+					["totaldamagetaken"] = 371,
+					["id"] = "0xF130000D42183F40",
+					["damage"] = 38,
 				}, -- [1]
 			},
-			["totaldamage"] = 501,
+			["totaldamage"] = 371,
 			["time"] = 7,
-			["damage"] = 501,
-			["totaldamagetaken"] = 18,
-			["etotaldamagetaken"] = 501,
-			["last_time"] = 18122.698,
+			["overheal"] = 15,
+			["totaldamagetaken"] = 38,
+			["etotaldamagetaken"] = 371,
+			["last_time"] = 42487.195,
 			["players"] = {
 				{
-					["last"] = 18121.665,
+					["last"] = 42486.008,
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["targets"] = {
-								["Wailer"] = {
-									["uptime"] = 3,
+								["Barak Kodobane"] = {
+									["uptime"] = 6,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 3,
+							["uptime"] = 6,
 						},
-						[8099] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -1701,7 +450,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[10290] = {
+						[1044] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 4,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -1711,6063 +471,235 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[29348] = {
+						[8076] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
 					},
-					["time"] = 5.45,
-					["totaldamagetaken"] = 18,
-					["damage"] = 321,
+					["time"] = 5.73,
+					["totaldamagetaken"] = 38,
+					["damage"] = 282,
 					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 74,
-							["criticalamount"] = 162,
-							["id"] = 6603,
-							["criticalmin"] = 162,
-							["targets"] = {
-								["Wailer"] = {
-									["overkill"] = 38,
-									["amount"] = 236,
-								},
-							},
-							["overkill"] = 38,
-							["critical"] = 1,
-							["criticalmax"] = 162,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 74,
-							["amount"] = 236,
-							["hitamount"] = 74,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 14,
-							["id"] = 25742,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 44,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 15,
-							["amount"] = 44,
-							["hitamount"] = 44,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 41,
-							["id"] = 20187,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 41,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 41,
-							["amount"] = 41,
-							["hitamount"] = 41,
-						},
-					},
-					["damagetaken"] = 18,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 11,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Jegjegos"] = {
-									["overheal"] = 11,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 18,
-							["id"] = 6603,
-							["hitmax"] = 18,
-							["sources"] = {
-								["Wailer"] = {
-									["amount"] = 18,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["amount"] = 18,
-							["hitamount"] = 18,
-						},
-					},
-					["heal"] = 0,
-					["name"] = "Mahkloompah",
-					["overkill"] = 38,
-					["overheal"] = 11,
-					["totaldamage"] = 321,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Lightning Shield"] = {
-							["hitmin"] = 33,
-							["id"] = 26365,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 33,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 33,
-							["amount"] = 33,
-							["hitamount"] = 33,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 45,
-							["id"] = 548,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 45,
-								},
-							},
-							["hitmax"] = 45,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 11,
-							["amount"] = 45,
-							["hitamount"] = 45,
-						},
-						["Earth Shock"] = {
-							["hitmin"] = 70,
-							["id"] = 8045,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 70,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 70,
-							["amount"] = 70,
-							["hitamount"] = 70,
-						},
-					},
-					["last"] = 18120.581,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[325] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Wailer"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 148,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 3.77,
-					["damage"] = 148,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 32,
-							["id"] = 143,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 32,
-								},
-							},
-							["hitmax"] = 32,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 3,
-							["amount"] = 32,
-							["hitamount"] = 32,
-						},
-					},
-					["last"] = 18121.265,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["class"] = "MAGE",
-					["auras"] = {
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 32,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 3.5,
-					["damage"] = 32,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 18,
-			["etotaldamage"] = 18,
-			["overheal"] = 11,
-			["starttime"] = 1727536542,
-			["overkill"] = 38,
-			["edamagetaken"] = 501,
-			["heal"] = 0,
-			["name"] = "Wailer (5)",
-			["mobname"] = "Wailer",
-			["edamage"] = 18,
-			["last_action"] = 1727536548,
-			["endtime"] = 1727536549,
-		}, -- [4]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["damagetaken"] = 304,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 48,
-								},
-							},
-							["amount"] = 48,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 33,
-									["amount"] = 52,
-								},
-							},
-							["overkill"] = 33,
-							["amount"] = 52,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 83,
-								},
-							},
-							["amount"] = 83,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 64,
-								},
-							},
-							["amount"] = 64,
-						},
-					},
-					["name"] = "Eye of Dar'Khan",
-					["totaldamage"] = 20,
-					["totaldamagetaken"] = 304,
-					["id"] = "0xF130003FC023AA1A",
-					["damage"] = 20,
-				}, -- [1]
-			},
-			["totaldamage"] = 304,
-			["time"] = 5,
-			["damage"] = 304,
-			["totaldamagetaken"] = 20,
-			["etotaldamagetaken"] = 304,
-			["last_time"] = 18092.407,
-			["players"] = {
-				{
-					["last"] = 18090.332,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 1,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["time"] = 1.72,
-					["totaldamagetaken"] = 20,
-					["damage"] = 204,
-					["overheal"] = 8,
-					["damagetaken"] = 20,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 8,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["overheal"] = 0,
-									["amount"] = 15,
-								},
-								["Woolhead"] = {
-									["overheal"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 15,
-							["school"] = 2,
-							["max"] = 15,
-							["ishot"] = true,
-							["min"] = 15,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 20,
-							["id"] = 6603,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 20,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 20,
-							["amount"] = 20,
-							["hitamount"] = 20,
-						},
-					},
-					["heal"] = 15,
-					["name"] = "Mahkloompah",
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 83,
-							["id"] = 67485,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 83,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 83,
-							["amount"] = 83,
-							["hitamount"] = 83,
-						},
-						["Melee"] = {
-							["hitmin"] = 64,
-							["id"] = 6603,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 64,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 64,
-							["amount"] = 64,
-							["hitamount"] = 64,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 12,
-							["id"] = 25742,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 24,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 12,
-							["amount"] = 24,
-							["hitamount"] = 24,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 33,
-							["id"] = 20187,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 33,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 33,
-							["amount"] = 33,
-							["hitamount"] = 33,
-						},
-					},
-					["totaldamage"] = 204,
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Lightning Bolt"] = {
-							["hitmin"] = 52,
-							["id"] = 548,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["overkill"] = 33,
-									["amount"] = 52,
-								},
-							},
-							["overkill"] = 33,
-							["hitmax"] = 52,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 5,
-							["amount"] = 52,
-							["hitamount"] = 52,
-						},
-						["Attack (Searing Totem)"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 3606,
-						},
-					},
-					["last"] = 18092.374,
-					["class"] = "SHAMAN",
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["overkill"] = 33,
-					["auras"] = {
-						[325] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 52,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 4370,
-					["time"] = 3.5,
-					["damage"] = 52,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 48,
-							["id"] = 143,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 48,
-								},
-							},
-							["hitmax"] = 48,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 48,
-							["school"] = 4,
-							["hit"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 48,
-						},
-					},
-					["last"] = 18091.207,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["class"] = "MAGE",
-					["auras"] = {
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 48,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 2.6,
-					["damage"] = 48,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 20,
-			["overheal"] = 8,
-			["etotaldamage"] = 20,
-			["overkill"] = 33,
-			["edamagetaken"] = 304,
-			["heal"] = 15,
-			["name"] = "Eye of Dar'Khan (9)",
-			["mobname"] = "Eye of Dar'Khan",
-			["starttime"] = 1727536514,
-			["edamage"] = 20,
-			["last_action"] = 1727536518,
-			["endtime"] = 1727536519,
-		}, -- [5]
-		{
-			["damage"] = 890,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 100,
-								},
-							},
-							["amount"] = 100,
-						},
-					},
-					["damagetaken"] = 890,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 99,
-								},
-							},
-							["amount"] = 99,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 94,
-								},
-							},
-							["amount"] = 94,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 72,
-								},
-							},
-							["amount"] = 72,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 8,
-									["amount"] = 299,
-								},
-							},
-							["overkill"] = 8,
-							["amount"] = 299,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 83,
-								},
-							},
-							["amount"] = 83,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 58,
-									["amount"] = 173,
-								},
-							},
-							["overkill"] = 58,
-							["amount"] = 173,
-						},
-					},
-					["name"] = "Nerubis Centurion",
-					["totaldamage"] = 100,
-					["totaldamagetaken"] = 890,
-					["id"] = "0xF130003FBF1F9079",
-					["damage"] = 100,
-				}, -- [1]
-			},
-			["dispel"] = 1,
-			["totaldamage"] = 890,
-			["time"] = 16,
-			["overheal"] = 52,
-			["totaldamagetaken"] = 100,
-			["etotaldamagetaken"] = 890,
-			["last_time"] = 18074.865,
-			["players"] = {
-				{
-					["last"] = 18071.982,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["uptime"] = 9,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[31790] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-					},
-					["dispel"] = 1,
-					["time"] = 11.37,
-					["totaldamagetaken"] = 100,
-					["damage"] = 553,
-					["overheal"] = 52,
-					["damagetaken"] = 100,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 52,
-							["max"] = 15,
-							["count"] = 6,
-							["amount"] = 30,
-							["school"] = 2,
-							["min"] = 15,
-							["ishot"] = true,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["overheal"] = 30,
-									["amount"] = 30,
-								},
-								["Jegjegos"] = {
-									["overheal"] = 22,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 19,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 100,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 22,
-							["amount"] = 100,
-							["hitamount"] = 100,
-						},
-					},
-					["totaldamage"] = 553,
-					["heal"] = 30,
-					["name"] = "Mahkloompah",
-					["overkill"] = 8,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 83,
-							["id"] = 67485,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 83,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 83,
-							["amount"] = 83,
-							["hitamount"] = 83,
-						},
-						["Melee"] = {
-							["hitmin"] = 70,
-							["id"] = 6603,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["overkill"] = 8,
-									["amount"] = 299,
-								},
-							},
-							["overkill"] = 8,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 79,
-							["amount"] = 299,
-							["hitamount"] = 299,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 12,
-							["id"] = 25742,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 72,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["hitmax"] = 12,
-							["amount"] = 72,
-							["hitamount"] = 72,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 33,
-							["criticalamount"] = 66,
-							["id"] = 20187,
-							["hitmax"] = 33,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 99,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 99,
-							["school"] = 2,
-							["criticalmin"] = 66,
-							["criticalmax"] = 66,
-							["hitamount"] = 33,
-						},
-					},
-					["dispelspells"] = {
-						[1152] = {
-							["spells"] = {
-								[21787] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Jegjegos"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 18074.291,
-					["flag"] = 1298,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["time"] = 8.960000000000001,
-					["damage"] = 243,
-					["damagespells"] = {
-						["Lightning Bolt"] = {
-							["hitmin"] = 54,
-							["id"] = 548,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["overkill"] = 58,
-									["amount"] = 173,
-								},
-							},
-							["overkill"] = 58,
-							["hitmax"] = 62,
-							["casts"] = 4,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["resisted"] = 5,
-							["amount"] = 173,
-							["hitamount"] = 173,
-						},
-						["Earth Shock"] = {
-							["hitmin"] = 70,
-							["id"] = 8045,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 70,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 70,
-							["amount"] = 70,
-							["hitamount"] = 70,
-						},
-					},
-					["interrupt"] = 1,
-					["spec"] = 262,
-					["overkill"] = 58,
-					["name"] = "Jegjegos",
-					["id"] = "0x0700000000B02488",
-					["totaldamage"] = 243,
-					["interruptspells"] = {
-						[57994] = {
-							["spells"] = {
-								[21787] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Nerubis Centurion"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 44,
-							["id"] = 143,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 93,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 49,
-							["amount"] = 93,
-							["hitamount"] = 93,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 143,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["last"] = 18072.674,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["class"] = "MAGE",
-					["auras"] = {
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 4,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["totaldamage"] = 94,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 5.98,
-					["damage"] = 94,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 100,
-			["interrupt"] = 1,
-			["etotaldamage"] = 100,
-			["overkill"] = 66,
-			["edamagetaken"] = 890,
-			["heal"] = 30,
-			["name"] = "Nerubis Centurion (3)",
-			["mobname"] = "Nerubis Centurion",
-			["starttime"] = 1727536486,
-			["edamage"] = 100,
-			["last_action"] = 1727536501,
-			["endtime"] = 1727536502,
-		}, -- [6]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 65,
-								},
-							},
-							["amount"] = 65,
-						},
-						[11972] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["damagetaken"] = 593,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 61,
-									["amount"] = 117,
-								},
-							},
-							["overkill"] = 61,
-							["amount"] = 117,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 63,
-								},
-							},
-							["amount"] = 63,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 44,
-								},
-							},
-							["amount"] = 44,
-						},
-						[2136] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 117,
-								},
-							},
-							["amount"] = 117,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 139,
-								},
-							},
-							["amount"] = 139,
-						},
-					},
-					["name"] = "Mirdoran the Fallen",
-					["totaldamage"] = 72,
-					["totaldamagetaken"] = 593,
-					["id"] = "0xF130003F7A264E09",
-					["damage"] = 72,
-				}, -- [1]
-			},
-			["totaldamage"] = 593,
-			["time"] = 10,
-			["damage"] = 593,
-			["totaldamagetaken"] = 72,
-			["etotaldamagetaken"] = 593,
-			["last_time"] = 18032.891,
-			["players"] = {
-				{
-					["last"] = 18029.482,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 6.39,
-					["totaldamagetaken"] = 72,
-					["damage"] = 347,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 117,
-							["id"] = 67485,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["amount"] = 117,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 117,
-							["amount"] = 117,
-							["hitamount"] = 117,
-						},
-						["Melee"] = {
-							["glance"] = 58,
-							["hitmin"] = 81,
-							["id"] = 6603,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["amount"] = 139,
-								},
-							},
-							["glancemin"] = 58,
-							["glancing"] = 1,
-							["glancemax"] = 58,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 81,
-							["amount"] = 139,
-							["hitamount"] = 81,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 11,
-							["id"] = 25742,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["amount"] = 44,
-								},
-							},
-							["hitmax"] = 17,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["resisted"] = 2,
-							["amount"] = 44,
-							["hitamount"] = 44,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 47,
-							["id"] = 20187,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["amount"] = 47,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 47,
-							["amount"] = 47,
-							["hitamount"] = 47,
-						},
-					},
-					["damagetaken"] = 72,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 8,
-							["targets"] = {
-								["Jegjegos"] = {
-									["overheal"] = 0,
-									["amount"] = 24,
-								},
-								["Woolhead"] = {
-									["overheal"] = 8,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 24,
-							["school"] = 2,
-							["max"] = 12,
-							["ishot"] = true,
-							["min"] = 12,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 21,
-							["id"] = 6603,
-							["sources"] = {
-								["Mirdoran the Fallen"] = {
-									["amount"] = 65,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 23,
-							["amount"] = 65,
-							["hitamount"] = 65,
-						},
-						["Shield Bash"] = {
-							["hitmin"] = 7,
-							["id"] = 11972,
-							["sources"] = {
-								["Mirdoran the Fallen"] = {
-									["amount"] = 7,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 7,
-							["amount"] = 7,
-							["hitamount"] = 7,
-						},
-					},
-					["heal"] = 24,
-					["name"] = "Mahkloompah",
-					["overheal"] = 8,
-					["totaldamage"] = 347,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Lightning Bolt"] = {
-							["hitmin"] = 55,
-							["id"] = 548,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["overkill"] = 61,
-									["amount"] = 117,
-								},
-							},
-							["overkill"] = 61,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 62,
-							["amount"] = 117,
-							["hitamount"] = 117,
-						},
-						["Earth Shock"] = {
-							["hitmin"] = 63,
-							["id"] = 8045,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["amount"] = 63,
-								},
-							},
-							["hitmax"] = 63,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 6,
-							["amount"] = 63,
-							["hitamount"] = 63,
-						},
-					},
-					["last"] = 18031.725,
-					["class"] = "SHAMAN",
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["overkill"] = 61,
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["totaldamage"] = 180,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 7.32,
-					["damage"] = 180,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 36,
-							["id"] = 143,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["amount"] = 36,
-								},
-							},
-							["hitmax"] = 36,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 9,
-							["amount"] = 36,
-							["hitamount"] = 36,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 30,
-							["id"] = 2136,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["amount"] = 30,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 30,
-							["amount"] = 30,
-							["hitamount"] = 30,
-						},
-					},
-					["last"] = 18030.741,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["class"] = "MAGE",
-					["auras"] = {
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Mirdoran the Fallen"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["totaldamage"] = 66,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 7,
-					["damage"] = 66,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 72,
-			["etotaldamage"] = 72,
-			["overheal"] = 8,
-			["overkill"] = 61,
-			["edamagetaken"] = 593,
-			["heal"] = 24,
-			["name"] = "Mirdoran the Fallen",
-			["mobname"] = "Mirdoran the Fallen",
-			["starttime"] = 1727536449,
-			["edamage"] = 72,
-			["last_action"] = 1727536459,
-			["endtime"] = 1727536459,
-		}, -- [7]
-		{
-			["mana"] = 76,
-			["starttime"] = 1727536409,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Woolhead"] = {
-									["amount"] = 19,
-								},
-								["Mahkloompah"] = {
-									["amount"] = 144,
-								},
-								["Jegjegos"] = {
-									["amount"] = 34,
-								},
-							},
-							["amount"] = 197,
-						},
-						[14868] = {
-							["school"] = 32,
-							["targets"] = {
-								["Jegjegos"] = {
-									["amount"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-					},
-					["damagetaken"] = 851,
-					["id"] = "0xF130003FC0261A66",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-						[8349] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 126,
-								},
-							},
-							["amount"] = 126,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 85,
-								},
-							},
-							["amount"] = 85,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 9,
-									["amount"] = 339,
-								},
-							},
-							["overkill"] = 9,
-							["amount"] = 339,
-						},
-						[2136] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-						[3606] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 117,
-								},
-							},
-							["amount"] = 117,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 100,
-								},
-							},
-							["amount"] = 100,
-						},
-					},
-					["totaldamage"] = 257,
-					["name"] = "Eye of Dar'Khan",
-					["totaldamagetaken"] = 851,
-					["flag"] = 2632,
-					["damage"] = 257,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[11976] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-					},
-					["damagetaken"] = 235,
-					["id"] = "0xF130003FAF26191B",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 91,
-								},
-							},
-							["amount"] = 91,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 34,
-								},
-							},
-							["amount"] = 34,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-						[8349] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 13,
-									["amount"] = 63,
-								},
-							},
-							["overkill"] = 13,
-							["amount"] = 63,
-						},
-					},
-					["totaldamage"] = 22,
-					["name"] = "Dreadbone Skeleton",
-					["totaldamagetaken"] = 235,
-					["flag"] = 68168,
-					["damage"] = 22,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 56,
-								},
-								["Jegjegos"] = {
-									["amount"] = 68,
-								},
-							},
-							["amount"] = 124,
-						},
-					},
-					["damagetaken"] = 452,
-					["id"] = "0xF130003FBF265F29",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 122,
-								},
-							},
-							["amount"] = 122,
-						},
-						[116] = {
-							["school"] = 16,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 174,
-								},
-							},
-							["amount"] = 174,
-						},
-						[3606] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 3,
-									["amount"] = 64,
-								},
-							},
-							["overkill"] = 3,
-							["amount"] = 64,
-						},
-					},
-					["totaldamage"] = 124,
-					["name"] = "Nerubis Centurion",
-					["totaldamagetaken"] = 452,
-					["flag"] = 2632,
-					["damage"] = 124,
-				}, -- [3]
-			},
-			["dispel"] = 1,
-			["totaldamage"] = 1538,
-			["time"] = 21,
-			["totaldamagetaken"] = 403,
-			["etotaldamage"] = 403,
-			["last_time"] = 18003.52,
-			["players"] = {
-				{
-					["last"] = 18003.491,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Dreadbone Skeleton"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[31790] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["dispel"] = 1,
-					["time"] = 18.44,
-					["totaldamagetaken"] = 222,
-					["damage"] = 760,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 117,
-							["id"] = 67485,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 117,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 117,
-							["amount"] = 117,
-							["hitamount"] = 117,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 69,
-							["hitmin"] = 81,
-							["id"] = 6603,
-							["glancemin"] = 69,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["overkill"] = 9,
-									["amount"] = 339,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 91,
-								},
-							},
-							["overkill"] = 9,
-							["glancing"] = 1,
-							["glancemax"] = 69,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 95,
-							["amount"] = 430,
-							["hitamount"] = 361,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 17,
-							["id"] = 25742,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 85,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 34,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 17,
-							["amount"] = 119,
-							["hitamount"] = 119,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 47,
-							["id"] = 20187,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 47,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 47,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 47,
-							["amount"] = 94,
-							["hitamount"] = 94,
-						},
-					},
-					["damagetaken"] = 222,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["overheal"] = 0,
-									["amount"] = 30,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 30,
-							["school"] = 2,
-							["max"] = 15,
-							["ishot"] = true,
-							["min"] = 15,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 14,
-							["id"] = 6603,
-							["PARRY"] = 3,
-							["sources"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 56,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 144,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 16,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 20,
-							["amount"] = 200,
-							["hitamount"] = 200,
-						},
-						["Strike"] = {
-							["hitmin"] = 22,
-							["id"] = 11976,
-							["sources"] = {
-								["Dreadbone Skeleton"] = {
-									["amount"] = 22,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 22,
-							["amount"] = 22,
-							["hitamount"] = 22,
-						},
-					},
-					["totaldamage"] = 760,
-					["heal"] = 30,
-					["name"] = "Mahkloompah",
-					["overkill"] = 9,
-					["overheal"] = 0,
-					["dispelspells"] = {
-						[1152] = {
-							["spells"] = {
-								[21787] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-				{
-					["last"] = 18002.616,
-					["flag"] = 1298,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-					},
-					["time"] = 15.73,
-					["totaldamagetaken"] = 162,
-					["damage"] = 510,
-					["damagespells"] = {
-						["Fire Nova"] = {
-							["hitmin"] = 59,
-							["id"] = 8349,
-							["targets"] = {
-								["Dreadbone Skeleton"] = {
-									["overkill"] = 13,
-									["amount"] = 63,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 126,
-								},
-							},
-							["overkill"] = 13,
-							["hitmax"] = 67,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 4,
-							["resisted"] = 14,
-							["amount"] = 189,
-							["hitamount"] = 189,
-						},
-						["Earth Shock"] = {
-							["hitmin"] = 70,
-							["id"] = 8045,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 70,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 70,
-							["amount"] = 70,
-							["hitamount"] = 70,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 57,
-							["id"] = 548,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 174,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 60,
-							["amount"] = 174,
-							["hitamount"] = 174,
-						},
-						["Attack (Searing Totem)"] = {
-							["hitmin"] = 12,
-							["id"] = 3606,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["overkill"] = 3,
-									["amount"] = 64,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 13,
-								},
-							},
-							["overkill"] = 3,
-							["hitmax"] = 13,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 4,
-							["resisted"] = 1,
-							["amount"] = 77,
-							["hitamount"] = 77,
-						},
-					},
-					["damagetaken"] = 162,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["overkill"] = 16,
-					["name"] = "Jegjegos",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 17,
-							["id"] = 6603,
-							["sources"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 68,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 34,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 24,
-							["amount"] = 102,
-							["hitamount"] = 102,
-						},
-						["Curse of Agony (DoT)"] = {
-							["hitmin"] = 15,
-							["id"] = 14868,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 60,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 15,
-							["amount"] = 60,
-							["hitamount"] = 60,
-						},
-					},
-					["totaldamage"] = 510,
-					["role"] = "DAMAGER",
-				}, -- [2]
-				{
-					["last"] = 18002.266,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[116] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["refresh"] = 3,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 9,
-								},
-								["Eye of Dar'Khan"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 4,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 16.57,
-					["totaldamagetaken"] = 19,
-					["damage"] = 268,
-					["damagespells"] = {
-						["Fireball"] = {
-							["criticalmin"] = 62,
-							["hitmin"] = 34,
-							["criticalamount"] = 62,
-							["id"] = 143,
-							["hitmax"] = 48,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 119,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 100,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 4,
-							["casts"] = 6,
-							["critical"] = 1,
-							["amount"] = 219,
-							["school"] = 4,
-							["resisted"] = 4,
-							["criticalmax"] = 62,
-							["hitamount"] = 157,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 22,
-							["id"] = 116,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 22,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 22,
-							["amount"] = 22,
-							["hitamount"] = 22,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 143,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 3,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 3,
-							["hitamount"] = 3,
-						},
-						["Fire Blast"] = {
+						["Seal of Command"] = {
 							["hitmin"] = 24,
-							["id"] = 2136,
+							["id"] = 20424,
 							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 0,
-								},
-								["Eye of Dar'Khan"] = {
+								["Barak Kodobane"] = {
 									["amount"] = 24,
 								},
 							},
-							["amount"] = 24,
-							["hitmax"] = 24,
-							["casts"] = 2,
-							["count"] = 2,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 5,
-							["MISS"] = 1,
+							["school"] = 2,
+							["hitmax"] = 24,
+							["amount"] = 24,
 							["hitamount"] = 24,
 						},
-					},
-					["damagetaken"] = 19,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 19,
-							["id"] = 6603,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 19,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 19,
-							["amount"] = 19,
-							["hitamount"] = 19,
-						},
-					},
-					["name"] = "Woolhead",
-					["manaspells"] = {
-						[28730] = 76,
-					},
-					["mana"] = 76,
-					["totaldamage"] = 268,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 403,
-			["overheal"] = 0,
-			["etotaldamagetaken"] = 1538,
-			["overkill"] = 25,
-			["edamagetaken"] = 1538,
-			["heal"] = 30,
-			["name"] = "Eye of Dar'Khan (8)",
-			["mobname"] = "Eye of Dar'Khan",
-			["damage"] = 1538,
-			["edamage"] = 403,
-			["last_action"] = 1727536429,
-			["endtime"] = 1727536430,
-		}, -- [8]
-		{
-			["damage"] = 3731,
-			["mana"] = 160,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
+						["Exorcism"] = {
+							["hitmin"] = 140,
+							["id"] = 879,
 							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 49,
-								},
-							},
-							["amount"] = 49,
-						},
-						[14868] = {
-							["school"] = 32,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 121,
-								},
-							},
-							["amount"] = 121,
-						},
-					},
-					["damagetaken"] = 919,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 94,
-								},
-							},
-							["amount"] = 94,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 83,
-								},
-							},
-							["amount"] = 83,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 54,
-								},
-							},
-							["amount"] = 54,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 63,
-								},
-							},
-							["amount"] = 63,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 117,
-								},
-							},
-							["amount"] = 117,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 43,
-									["amount"] = 410,
-								},
-							},
-							["overkill"] = 43,
-							["amount"] = 410,
-						},
-					},
-					["name"] = "Eye of Dar'Khan",
-					["totaldamage"] = 170,
-					["totaldamagetaken"] = 919,
-					["id"] = "0xF130003FC026586C",
-					["damage"] = 170,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[11976] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 59,
-								},
-							},
-							["amount"] = 59,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 136,
-								},
-							},
-							["amount"] = 136,
-						},
-					},
-					["damagetaken"] = 899,
-					["id"] = "0xF130003FAF266A35",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 132,
-								},
-							},
-							["amount"] = 132,
-						},
-						[116] = {
-							["school"] = 16,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						[2136] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["overkill"] = 24,
-									["amount"] = 27,
-								},
-							},
-							["overkill"] = 24,
-							["amount"] = 27,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 142,
-								},
-							},
-							["amount"] = 142,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 399,
-								},
-							},
-							["amount"] = 399,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 9,
-									["amount"] = 61,
-								},
-							},
-							["overkill"] = 9,
-							["amount"] = 61,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 68,
-								},
-							},
-							["amount"] = 68,
-						},
-					},
-					["totaldamage"] = 195,
-					["name"] = "Dreadbone Skeleton",
-					["totaldamagetaken"] = 899,
-					["flag"] = 4680,
-					["damage"] = 195,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 134,
-								},
-							},
-							["amount"] = 134,
-						},
-						[9613] = {
-							["school"] = 32,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 353,
-								},
-							},
-							["amount"] = 353,
-						},
-					},
-					["damagetaken"] = 1324,
-					["id"] = "0xF130003FBD265A12",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 94,
-								},
-							},
-							["amount"] = 94,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 223,
-								},
-							},
-							["amount"] = 223,
-						},
-						[2136] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-						[8050] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 34,
-								},
-							},
-							["amount"] = 34,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 11,
-									["amount"] = 147,
-								},
-							},
-							["overkill"] = 11,
-							["amount"] = 147,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 8,
-									["amount"] = 68,
-								},
-							},
-							["overkill"] = 8,
-							["amount"] = 68,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 32,
-									["amount"] = 117,
-								},
-							},
-							["overkill"] = 32,
-							["amount"] = 117,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 82,
-									["amount"] = 611,
-								},
-							},
-							["overkill"] = 82,
-							["amount"] = 611,
-						},
-					},
-					["totaldamage"] = 487,
-					["name"] = "Deatholme Necromancer",
-					["totaldamagetaken"] = 1324,
-					["flag"] = 2632,
-					["damage"] = 487,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-						[20792] = {
-							["school"] = 16,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 154,
-								},
-							},
-							["amount"] = 154,
-						},
-						[16568] = {
-							["school"] = 32,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 108,
-								},
-							},
-							["amount"] = 108,
-						},
-					},
-					["damagetaken"] = 589,
-					["id"] = "0xF130003F792651CB",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 86,
-									["amount"] = 469,
-								},
-							},
-							["overkill"] = 86,
-							["amount"] = 469,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 3,
-									["amount"] = 82,
-								},
-							},
-							["overkill"] = 3,
-							["amount"] = 82,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-					},
-					["totaldamage"] = 280,
-					["name"] = "Masophet the Black",
-					["totaldamagetaken"] = 589,
-					["flag"] = 2632,
-					["damage"] = 280,
-				}, -- [4]
-			},
-			["potion"] = 2,
-			["totaldamage"] = 3731,
-			["time"] = 66,
-			["overheal"] = 209,
-			["totaldamagetaken"] = 1132,
-			["etotaldamagetaken"] = 3731,
-			["last_time"] = 17932.633,
-			["players"] = {
-				{
-					["last"] = 17932.326,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[19706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[25771] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["uptime"] = 38,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 38,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 2,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["uptime"] = 15,
-									["count"] = 2,
-								},
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 5,
-									["count"] = 2,
-								},
-								["Masophet the Black"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Dreadbone Skeleton"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 27,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[498] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 12,
-						},
-						[32787] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["uptime"] = 12,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 58.7,
-					["totaldamagetaken"] = 1132,
-					["damage"] = 2674,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 117,
-							["id"] = 67485,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 117,
+								["Barak Kodobane"] = {
+									["amount"] = 140,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 117,
-							["amount"] = 117,
-							["hitamount"] = 117,
+							["hitmax"] = 140,
+							["amount"] = 140,
+							["hitamount"] = 140,
 						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 14,
-							["id"] = 25742,
+						["Melee"] = {
+							["hitmin"] = 50,
+							["id"] = 6603,
 							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["overkill"] = 11,
-									["amount"] = 147,
+								["Barak Kodobane"] = {
+									["amount"] = 50,
 								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 98,
-								},
-								["Masophet the Black"] = {
-									["overkill"] = 3,
-									["amount"] = 82,
-								},
-								["Dreadbone Skeleton"] = {
+							},
+							["PARRY"] = 1,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 50,
+							["amount"] = 50,
+							["hitamount"] = 50,
+						},
+						["Judgement of Command"] = {
+							["criticalamount"] = 68,
+							["id"] = 20467,
+							["targets"] = {
+								["Barak Kodobane"] = {
 									["amount"] = 68,
 								},
 							},
-							["overkill"] = 14,
-							["hitmax"] = 17,
 							["casts"] = 1,
-							["count"] = 24,
-							["hit"] = 24,
+							["critical"] = 1,
+							["amount"] = 68,
 							["school"] = 2,
-							["resisted"] = 13,
-							["amount"] = 395,
-							["hitamount"] = 395,
-						},
-						["Melee"] = {
-							["glance"] = 220,
-							["hitmin"] = 69,
-							["criticalmin"] = 158,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["overkill"] = 82,
-									["amount"] = 611,
-								},
-								["Eye of Dar'Khan"] = {
-									["overkill"] = 43,
-									["amount"] = 410,
-								},
-								["Masophet the Black"] = {
-									["overkill"] = 86,
-									["amount"] = 469,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 399,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 1889,
-							["glancemin"] = 61,
-							["criticalamount"] = 682,
-							["id"] = 6603,
-							["glancemax"] = 81,
-							["overkill"] = 211,
-							["blocked"] = 10,
-							["criticalmax"] = 176,
-							["critical"] = 4,
-							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 99,
-							["count"] = 18,
-							["hitamount"] = 987,
-						},
-						["Judgement of Light"] = {
-							["casts"] = 3,
+							["criticalmin"] = 68,
+							["criticalmax"] = 68,
 							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Dreadbone Skeleton"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 20271,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 38,
-							["id"] = 20187,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 94,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 94,
-								},
-								["Masophet the Black"] = {
-									["amount"] = 38,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 47,
-								},
-							},
-							["hitmax"] = 47,
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["resisted"] = 9,
-							["amount"] = 273,
-							["hitamount"] = 273,
 						},
 					},
-					["potion"] = 1,
-					["damagetaken"] = 1132,
+					["damagetaken"] = 38,
 					["id"] = "0x0700000000B01AF6",
 					["spec"] = 70,
 					["healspells"] = {
-						[440] = {
-							["overheal"] = 96,
-							["count"] = 1,
-							["amount"] = 74,
-							["school"] = 1,
-							["max"] = 74,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["overheal"] = 96,
-									["amount"] = 74,
-								},
-							},
-							["min"] = 74,
-						},
 						[20267] = {
-							["overheal"] = 100,
-							["targets"] = {
-								["Woolhead"] = {
-									["overheal"] = 16,
-									["amount"] = 0,
-								},
-								["Jegjegos"] = {
-									["overheal"] = 84,
-									["amount"] = 0,
-								},
-								["Mahkloompah"] = {
-									["overheal"] = 0,
-									["amount"] = 144,
-								},
-							},
-							["count"] = 18,
-							["amount"] = 144,
-							["school"] = 2,
-							["max"] = 16,
-							["ishot"] = true,
-							["min"] = 16,
-						},
-						[647] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 242,
-							["school"] = 2,
-							["max"] = 242,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["overheal"] = 0,
-									["amount"] = 242,
-								},
-							},
-							["min"] = 242,
-						},
-						[32787] = {
-							["overheal"] = 13,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["overheal"] = 13,
-									["amount"] = 167,
-								},
-							},
-							["count"] = 12,
-							["amount"] = 167,
-							["school"] = 32,
+							["overheal"] = 15,
 							["max"] = 15,
-							["ishot"] = true,
-							["min"] = 2,
-						},
-					},
-					["damagetakenspells"] = {
-						["Strike"] = {
-							["hitmin"] = 19,
-							["id"] = 11976,
-							["sources"] = {
-								["Dreadbone Skeleton"] = {
-									["amount"] = 59,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 40,
-							["amount"] = 59,
-							["hitamount"] = 59,
-						},
-						["Melee"] = {
-							["DODGE"] = 3,
-							["hitmin"] = 7,
-							["criticalamount"] = 50,
-							["id"] = 6603,
-							["criticalmin"] = 18,
-							["criticalmax"] = 32,
-							["critical"] = 2,
-							["PARRY"] = 2,
-							["sources"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 134,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 49,
-								},
-								["Masophet the Black"] = {
-									["amount"] = 18,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 136,
-								},
-							},
-							["count"] = 28,
-							["hit"] = 21,
-							["school"] = 1,
-							["hitmax"] = 20,
-							["amount"] = 337,
-							["hitamount"] = 287,
-						},
-						["Mind Flay (DoT)"] = {
-							["hitmin"] = 12,
-							["id"] = 16568,
-							["sources"] = {
-								["Masophet the Black"] = {
-									["amount"] = 108,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 24,
-							["amount"] = 108,
-							["hitamount"] = 108,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 32,
-							["id"] = 20792,
-							["sources"] = {
-								["Masophet the Black"] = {
-									["amount"] = 154,
-								},
-							},
 							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 16,
-							["hitmax"] = 66,
-							["amount"] = 154,
-							["hitamount"] = 154,
-						},
-						["Shadow Bolt"] = {
-							["hitmin"] = 32,
-							["id"] = 9613,
-							["amount"] = 353,
-							["sources"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 353,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 76,
-							["MISS"] = 1,
-							["hitamount"] = 353,
-						},
-						["Curse of Agony (DoT)"] = {
-							["hitmin"] = 7,
-							["id"] = 14868,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 121,
-								},
-							},
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 32,
-							["hitmax"] = 15,
-							["amount"] = 121,
-							["hitamount"] = 121,
-						},
-					},
-					["potionspells"] = {
-						[4596] = 1,
-					},
-					["heal"] = 627,
-					["name"] = "Mahkloompah",
-					["overkill"] = 225,
-					["overheal"] = 209,
-					["totaldamage"] = 2674,
-				}, -- [1]
-				{
-					["last"] = 17931.208,
-					["flag"] = 1298,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[8050] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["targets"] = {
-								["Dreadbone Skeleton"] = {
-									["uptime"] = 1,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-					},
-					["time"] = 24.84,
-					["overheal"] = 0,
-					["manaspells"] = {
-						[437] = 160,
-					},
-					["damage"] = 539,
-					["damagespells"] = {
-						["Flame Shock (DoT)"] = {
-							["hitmin"] = 7,
-							["id"] = 8050,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 7,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 7,
-							["amount"] = 7,
-							["hitamount"] = 7,
-						},
-						["Flame Shock"] = {
-							["hitmin"] = 27,
-							["id"] = 8050,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 27,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 27,
-							["amount"] = 27,
-							["hitamount"] = 27,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 54,
-							["id"] = 548,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["overkill"] = 32,
-									["amount"] = 117,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 54,
-								},
-								["Dreadbone Skeleton"] = {
-									["overkill"] = 9,
-									["amount"] = 61,
-								},
-							},
-							["overkill"] = 41,
-							["hitmax"] = 61,
-							["casts"] = 9,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 5,
-							["amount"] = 232,
-							["hitamount"] = 232,
-						},
-						["Earth Shock"] = {
-							["hitmin"] = 63,
-							["id"] = 8045,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["overkill"] = 8,
-									["amount"] = 68,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 63,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 142,
-								},
-							},
-							["overkill"] = 8,
-							["hitmax"] = 72,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 7,
-							["amount"] = 273,
-							["hitamount"] = 273,
-						},
-					},
-					["mana"] = 160,
-					["potion"] = 1,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["healspells"] = {
-						[547] = {
-							["overheal"] = 0,
-							["max"] = 145,
+							["amount"] = 30,
+							["school"] = 2,
+							["min"] = 15,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
-									["overheal"] = 0,
-									["amount"] = 426,
-								},
-							},
-							["min"] = 140,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 426,
-							["school"] = 8,
-						},
-					},
-					["overkill"] = 49,
-					["potionspells"] = {
-						[2455] = 1,
-					},
-					["heal"] = 426,
-					["name"] = "Jegjegos",
-					["interrupt"] = 3,
-					["totaldamage"] = 539,
-					["interruptspells"] = {
-						[57994] = {
-							["spells"] = {
-								[9613] = 2,
-								[20792] = 1,
-							},
-							["count"] = 3,
-							["targets"] = {
-								["Deatholme Necromancer"] = 2,
-								["Masophet the Black"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["criticalmin"] = 61,
-							["hitmin"] = 34,
-							["criticalamount"] = 61,
-							["id"] = 143,
-							["criticalmax"] = 61,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 219,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 82,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 130,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 46,
-							["casts"] = 16,
-							["count"] = 10,
-							["hit"] = 9,
-							["school"] = 4,
-							["resisted"] = 4,
-							["amount"] = 431,
-							["hitamount"] = 370,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 23,
-							["id"] = 116,
-							["targets"] = {
-								["Dreadbone Skeleton"] = {
-									["amount"] = 23,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 23,
-							["amount"] = 23,
-							["hitamount"] = 23,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 27,
-							["id"] = 2136,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
+									["overheal"] = 15,
 									["amount"] = 30,
 								},
-								["Dreadbone Skeleton"] = {
-									["overkill"] = 24,
-									["amount"] = 27,
-								},
 							},
-							["overkill"] = 24,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 30,
-							["amount"] = 57,
-							["hitamount"] = 57,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 143,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 4,
-								},
-								["Eye of Dar'Khan"] = {
-									["amount"] = 1,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 2,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 7,
-							["hitamount"] = 7,
 						},
 					},
-					["last"] = 17931.558,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["overkill"] = 24,
-					["auras"] = {
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 4,
-							["refresh"] = 4,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 13,
-								},
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-								["Dreadbone Skeleton"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 24,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 66,
-						},
-					},
-					["totaldamage"] = 518,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 39.87,
-					["damage"] = 518,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 1132,
-			["interrupt"] = 3,
-			["etotaldamage"] = 1132,
-			["overkill"] = 298,
-			["edamagetaken"] = 3731,
-			["heal"] = 1053,
-			["name"] = "Eye of Dar'Khan (7)",
-			["mobname"] = "Eye of Dar'Khan",
-			["starttime"] = 1727536293,
-			["edamage"] = 1132,
-			["last_action"] = 1727536358,
-			["endtime"] = 1727536359,
-		}, -- [9]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
-					},
-					["damagetaken"] = 456,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-						[2136] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 34,
-								},
-							},
-							["amount"] = 34,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 51,
-								},
-							},
-							["amount"] = 51,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 6,
-									["amount"] = 160,
-								},
-							},
-							["overkill"] = 6,
-							["amount"] = 160,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 117,
-								},
-							},
-							["amount"] = 117,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 56,
-								},
-							},
-							["amount"] = 56,
-						},
-					},
-					["name"] = "Eye of Dar'Khan",
-					["totaldamage"] = 36,
-					["totaldamagetaken"] = 456,
-					["id"] = "0xF130003FC0265CD4",
-					["damage"] = 36,
-				}, -- [1]
-			},
-			["totaldamage"] = 456,
-			["time"] = 7,
-			["damage"] = 456,
-			["totaldamagetaken"] = 36,
-			["etotaldamagetaken"] = 456,
-			["last_time"] = 17862.771,
-			["players"] = {
-				{
-					["last"] = 17862.726,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[19706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 5.22,
-					["totaldamagetaken"] = 36,
-					["damage"] = 366,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 117,
-							["id"] = 67485,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 117,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 117,
-							["amount"] = 117,
-							["hitamount"] = 117,
-						},
 						["Melee"] = {
-							["hitmin"] = 76,
-							["id"] = 6603,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["overkill"] = 6,
-									["amount"] = 160,
-								},
-							},
-							["overkill"] = 6,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 84,
-							["amount"] = 160,
-							["hitamount"] = 160,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 17,
-							["id"] = 25742,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 51,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 17,
-							["amount"] = 51,
-							["hitamount"] = 51,
-						},
-						["Judgement of Righteousness"] = {
 							["hitmin"] = 38,
-							["id"] = 20187,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Barak Kodobane"] = {
 									["amount"] = 38,
 								},
 							},
-							["hitmax"] = 38,
-							["casts"] = 1,
-							["count"] = 1,
+							["count"] = 2,
 							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 9,
+							["school"] = 1,
+							["hitmax"] = 38,
 							["amount"] = 38,
 							["hitamount"] = 38,
 						},
 					},
-					["damagetaken"] = 36,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Jegjegos"] = {
-									["overheal"] = 0,
-									["amount"] = 24,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 24,
-							["school"] = 2,
-							["max"] = 12,
-							["ishot"] = true,
-							["min"] = 12,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 18,
-							["id"] = 6603,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 36,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 18,
-							["amount"] = 36,
-							["hitamount"] = 36,
-						},
-					},
-					["heal"] = 24,
+					["heal"] = 30,
 					["name"] = "Mahkloompah",
-					["overkill"] = 6,
-					["overheal"] = 0,
-					["totaldamage"] = 366,
+					["overheal"] = 15,
+					["totaldamage"] = 282,
+					["role"] = "DAMAGER",
 				}, -- [1]
 				{
 					["damagespells"] = {
 						["Earth Shock"] = {
-							["hitmin"] = 56,
-							["id"] = 8045,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 56,
-								},
-							},
-							["hitmax"] = 56,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 13,
-							["amount"] = 56,
-							["hitamount"] = 56,
-						},
-					},
-					["last"] = 17858.968,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 56,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 1.46,
-					["damage"] = 56,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fire Blast"] = {
-							["hitmin"] = 34,
-							["id"] = 2136,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 34,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 34,
-							["amount"] = 34,
-							["hitamount"] = 34,
-						},
-					},
-					["last"] = 17859.359,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["class"] = "MAGE",
-					["auras"] = {
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 34,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 1.85,
-					["damage"] = 34,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 36,
-			["etotaldamage"] = 36,
-			["overheal"] = 0,
-			["overkill"] = 6,
-			["edamagetaken"] = 456,
-			["heal"] = 24,
-			["name"] = "Eye of Dar'Khan (6)",
-			["mobname"] = "Eye of Dar'Khan",
-			["starttime"] = 1727536283,
-			["edamage"] = 36,
-			["last_action"] = 1727536289,
-			["endtime"] = 1727536290,
-		}, -- [10]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 153,
-								},
-							},
-							["amount"] = 153,
-						},
-					},
-					["damagetaken"] = 948,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 88,
-								},
-							},
-							["amount"] = 88,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 63,
-								},
-							},
-							["amount"] = 63,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 24,
-									["amount"] = 413,
-								},
-							},
-							["overkill"] = 24,
-							["amount"] = 413,
-						},
-						[8349] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 109,
-								},
-							},
-							["amount"] = 109,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 10,
-									["amount"] = 139,
-								},
-							},
-							["overkill"] = 10,
-							["amount"] = 139,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 98,
-								},
-							},
-							["amount"] = 98,
-						},
-					},
-					["name"] = "Wailer",
-					["totaldamage"] = 153,
-					["totaldamagetaken"] = 948,
-					["id"] = "0xF130003FC125D7FD",
-					["damage"] = 153,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Jegjegos"] = {
-									["amount"] = 41,
-								},
-								["Mahkloompah"] = {
-									["amount"] = 63,
-								},
-							},
-							["amount"] = 104,
-						},
-						[14868] = {
-							["school"] = 32,
-							["targets"] = {
-								["Jegjegos"] = {
-									["amount"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-					},
-					["damagetaken"] = 514,
-					["id"] = "0xF130003FC025DAA9",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 132,
-								},
-							},
-							["amount"] = 132,
-						},
-						[116] = {
-							["school"] = 16,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 16,
-									["amount"] = 17,
-								},
-							},
-							["overkill"] = 16,
-							["amount"] = 17,
-						},
-						[3606] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 73,
-								},
-							},
-							["amount"] = 73,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 93,
-									["amount"] = 94,
-								},
-							},
-							["overkill"] = 93,
-							["amount"] = 94,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 111,
-								},
-							},
-							["amount"] = 111,
-						},
-						[8349] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 66,
-								},
-							},
-							["amount"] = 66,
-						},
-					},
-					["totaldamage"] = 149,
-					["name"] = "Eye of Dar'Khan",
-					["totaldamagetaken"] = 514,
-					["flag"] = 2632,
-					["damage"] = 149,
-				}, -- [2]
-			},
-			["totaldamage"] = 1462,
-			["time"] = 19,
-			["totaldamagetaken"] = 302,
-			["etotaldamagetaken"] = 1462,
-			["last_time"] = 17830.085,
-			["players"] = {
-				{
-					["last"] = 17829.485,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[19706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[31790] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Wailer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[8156] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Wailer"] = {
-									["uptime"] = 12,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 17.51,
-					["totaldamagetaken"] = 216,
-					["damage"] = 821,
-					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 111,
-							["id"] = 67485,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 111,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 111,
-							["amount"] = 111,
-							["hitamount"] = 111,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
 							["hitmin"] = 75,
-							["criticalamount"] = 164,
-							["id"] = 6603,
-							["criticalmin"] = 164,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["overkill"] = 93,
-									["amount"] = 94,
-								},
-								["Wailer"] = {
-									["overkill"] = 24,
-									["amount"] = 413,
-								},
-							},
-							["overkill"] = 117,
-							["critical"] = 1,
-							["criticalmax"] = 164,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 94,
-							["amount"] = 507,
-							["hitamount"] = 343,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 16,
-							["id"] = 25742,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["overkill"] = 16,
-									["amount"] = 17,
-								},
-								["Wailer"] = {
-									["amount"] = 98,
-								},
-							},
-							["overkill"] = 16,
-							["casts"] = 1,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 17,
-							["amount"] = 115,
-							["hitamount"] = 115,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 41,
-							["id"] = 20187,
-							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 88,
-								},
-							},
-							["hitmax"] = 47,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["resisted"] = 4,
-							["amount"] = 88,
-							["hitamount"] = 88,
-						},
-					},
-					["damagetaken"] = 216,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["overheal"] = 0,
-									["amount"] = 30,
-								},
-								["Jegjegos"] = {
-									["overheal"] = 0,
-									["amount"] = 24,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 54,
-							["school"] = 2,
-							["max"] = 16,
-							["ishot"] = true,
-							["min"] = 12,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 14,
-							["criticalamount"] = 32,
-							["id"] = 6603,
-							["criticalmin"] = 32,
-							["criticalmax"] = 32,
-							["critical"] = 1,
-							["PARRY"] = 4,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 63,
-								},
-								["Wailer"] = {
-									["amount"] = 153,
-								},
-							},
-							["count"] = 17,
-							["hit"] = 10,
-							["school"] = 1,
-							["hitmax"] = 22,
-							["amount"] = 216,
-							["hitamount"] = 184,
-						},
-					},
-					["heal"] = 54,
-					["name"] = "Mahkloompah",
-					["overheal"] = 0,
-					["overkill"] = 133,
-					["totaldamage"] = 821,
-				}, -- [1]
-				{
-					["last"] = 17827.652,
-					["flag"] = 1298,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Wailer"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-					},
-					["time"] = 10.5,
-					["totaldamagetaken"] = 86,
-					["damage"] = 450,
-					["damagespells"] = {
-						["Fire Nova"] = {
-							["criticalmin"] = 109,
-							["hitmin"] = 66,
-							["criticalamount"] = 109,
-							["id"] = 8349,
-							["criticalmax"] = 109,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 66,
-								},
-								["Wailer"] = {
-									["amount"] = 109,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 66,
-							["casts"] = 1,
-							["count"] = 3,
-							["amount"] = 175,
-							["school"] = 4,
-							["hit"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 66,
-						},
-						["Earth Shock"] = {
-							["hitmin"] = 63,
 							["id"] = 8045,
 							["targets"] = {
-								["Wailer"] = {
-									["amount"] = 63,
+								["Barak Kodobane"] = {
+									["overkill"] = 15,
+									["amount"] = 75,
 								},
 							},
-							["hitmax"] = 63,
+							["overkill"] = 15,
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 8,
-							["resisted"] = 7,
-							["amount"] = 63,
-							["hitamount"] = 63,
-						},
-						["Lightning Bolt"] = {
-							["count"] = 2,
-							["hitmax"] = 61,
-							["hitmin"] = 61,
-							["criticalamount"] = 78,
-							["id"] = 548,
-							["hit"] = 1,
-							["targets"] = {
-								["Wailer"] = {
-									["overkill"] = 10,
-									["amount"] = 139,
-								},
-							},
-							["overkill"] = 10,
-							["criticalmin"] = 78,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 139,
-							["school"] = 8,
-							["resisted"] = 8,
-							["criticalmax"] = 78,
-							["hitamount"] = 61,
+							["hitmax"] = 75,
+							["amount"] = 75,
+							["hitamount"] = 75,
 						},
 						["Attack (Searing Totem)"] = {
-							["criticalmin"] = 19,
-							["hitmin"] = 13,
-							["criticalamount"] = 19,
+							["hitmin"] = 14,
 							["id"] = 3606,
-							["criticalmax"] = 19,
 							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 73,
+								["Barak Kodobane"] = {
+									["amount"] = 14,
 								},
 							},
-							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
 							["hitmax"] = 14,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 4,
-							["resisted"] = 3,
-							["amount"] = 73,
-							["hitamount"] = 54,
+							["amount"] = 14,
+							["hitamount"] = 14,
 						},
 					},
-					["damagetaken"] = 86,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 20,
-							["id"] = 6603,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 41,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 21,
-							["amount"] = 41,
-							["hitamount"] = 41,
-						},
-						["Curse of Agony (DoT)"] = {
-							["hitmin"] = 15,
-							["id"] = 14868,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 45,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 15,
-							["amount"] = 45,
-							["hitamount"] = 45,
-						},
-					},
-					["name"] = "Jegjegos",
-					["overkill"] = 10,
-					["totaldamage"] = 450,
-					["role"] = "DAMAGER",
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 36,
-							["id"] = 143,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 130,
-								},
-								["Wailer"] = {
-									["amount"] = 36,
-								},
-							},
-							["amount"] = 166,
-							["casts"] = 7,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 4,
-							["hitmax"] = 47,
-							["MISS"] = 1,
-							["hitamount"] = 166,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 21,
-							["id"] = 116,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 21,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 21,
-							["amount"] = 21,
-							["hitamount"] = 21,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 143,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 2,
-								},
-								["Wailer"] = {
-									["amount"] = 2,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 4,
-							["hitamount"] = 4,
-						},
-					},
-					["last"] = 17829.151,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["class"] = "MAGE",
-					["auras"] = {
-						[8156] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["refresh"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["count"] = 1,
-									["refresh"] = 2,
-									["uptime"] = 6,
-								},
-								["Wailer"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[116] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-					},
-					["totaldamage"] = 191,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 16.46,
-					["damage"] = 191,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 302,
-			["damage"] = 1462,
-			["overheal"] = 0,
-			["etotaldamage"] = 302,
-			["overkill"] = 143,
-			["edamagetaken"] = 1462,
-			["heal"] = 54,
-			["name"] = "Wailer (4)",
-			["mobname"] = "Wailer",
-			["starttime"] = 1727536238,
-			["edamage"] = 302,
-			["last_action"] = 1727536256,
-			["endtime"] = 1727536257,
-		}, -- [11]
-		{
-			["damage"] = 1402,
-			["mana"] = 42,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-					},
-					["damagetaken"] = 478,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 48,
-								},
-							},
-							["amount"] = 48,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 51,
-								},
-							},
-							["amount"] = 51,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 71,
-								},
-							},
-							["amount"] = 71,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 84,
-									["amount"] = 261,
-								},
-							},
-							["overkill"] = 84,
-							["amount"] = 261,
-						},
-					},
-					["name"] = "Deatholme Necromancer",
-					["totaldamage"] = 29,
-					["totaldamagetaken"] = 478,
-					["id"] = "0xF130003FBD2627D5",
-					["damage"] = 29,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[11976] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 15,
-								},
-								["Jegjegos"] = {
-									["amount"] = 20,
-								},
-							},
-							["amount"] = 35,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 6,
-								},
-								["Jegjegos"] = {
-									["amount"] = 36,
-								},
-							},
-							["amount"] = 42,
-						},
-					},
-					["damagetaken"] = 250,
-					["id"] = "0xF130003FAF2628AF",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[2136] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 51,
-								},
-							},
-							["amount"] = 51,
-						},
-						[116] = {
-							["school"] = 16,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 52,
-									["amount"] = 177,
-								},
-							},
-							["overkill"] = 52,
-							["amount"] = 177,
-						},
-					},
-					["totaldamage"] = 77,
-					["name"] = "Dreadbone Skeleton",
-					["totaldamagetaken"] = 250,
-					["flag"] = 2632,
-					["damage"] = 77,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[14868] = {
-							["school"] = 32,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 106,
-								},
-							},
-							["amount"] = 106,
-						},
-					},
-					["name"] = "Eye of Dar'Khan",
-					["totaldamage"] = 106,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["id"] = "0xF130003FC0265BEA",
-					["damage"] = 106,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 43,
-								},
-							},
-							["amount"] = 43,
-						},
-					},
-					["damagetaken"] = 674,
-					["id"] = "0xF130003F7726228A",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 410,
-								},
-							},
-							["amount"] = 410,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 101,
-								},
-							},
-							["amount"] = 101,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 94,
-								},
-							},
-							["amount"] = 94,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 45,
-									["amount"] = 69,
-								},
-							},
-							["overkill"] = 45,
-							["amount"] = 69,
-						},
-					},
-					["totaldamage"] = 43,
-					["name"] = "Borgoth the Bloodletter",
-					["totaldamagetaken"] = 674,
-					["flag"] = 68168,
-					["damage"] = 43,
-				}, -- [4]
-			},
-			["totaldamage"] = 1402,
-			["time"] = 23,
-			["etotaldamage"] = 255,
-			["totaldamagetaken"] = 255,
-			["etotaldamagetaken"] = 1402,
-			["last_time"] = 17803.864,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[28730] = {
-							["count"] = 2,
-							["targets"] = {
-								["Deatholme Necromancer"] = 1,
-								["Dreadbone Skeleton"] = 1,
-							},
-						},
-						[853] = {
-							["count"] = 1,
-							["targets"] = {
-								["Borgoth the Bloodletter"] = 1,
-							},
-						},
-					},
-					["last"] = 17802.36,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[853] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Borgoth the Bloodletter"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[19706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[28730] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Dreadbone Skeleton"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[8156] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-								["Borgoth the Bloodletter"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 18.63,
-					["overkill"] = 84,
-					["totaldamagetaken"] = 199,
-					["manaspells"] = {
-						[28730] = 42,
-					},
-					["damage"] = 964,
-					["damagespells"] = {
-						["Melee"] = {
-							["blocked"] = 10,
-							["hitmin"] = 75,
-							["criticalamount"] = 360,
-							["id"] = 6603,
-							["criticalmin"] = 178,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["overkill"] = 84,
-									["amount"] = 261,
-								},
-								["Borgoth the Bloodletter"] = {
-									["amount"] = 410,
-								},
-							},
-							["overkill"] = 84,
-							["critical"] = 2,
-							["criticalmax"] = 182,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 79,
-							["amount"] = 671,
-							["hitamount"] = 311,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 16,
-							["id"] = 25742,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 51,
-								},
-								["Borgoth the Bloodletter"] = {
-									["amount"] = 101,
-								},
-							},
-							["hitmax"] = 17,
-							["casts"] = 1,
-							["count"] = 9,
-							["hit"] = 9,
-							["school"] = 2,
-							["resisted"] = 1,
-							["amount"] = 152,
-							["hitamount"] = 152,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 47,
-							["id"] = 20187,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 47,
-								},
-								["Borgoth the Bloodletter"] = {
-									["amount"] = 94,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 47,
-							["amount"] = 141,
-							["hitamount"] = 141,
-						},
-					},
-					["overheal"] = 12,
-					["damagetaken"] = 199,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 12,
-							["max"] = 16,
-							["count"] = 4,
-							["amount"] = 46,
-							["school"] = 2,
-							["min"] = 15,
-							["ishot"] = true,
-							["targets"] = {
-								["Jegjegos"] = {
-									["overheal"] = 12,
-									["amount"] = 0,
-								},
-								["Mahkloompah"] = {
-									["overheal"] = 0,
-									["amount"] = 46,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Strike"] = {
-							["hitmin"] = 15,
-							["id"] = 11976,
-							["sources"] = {
-								["Dreadbone Skeleton"] = {
-									["amount"] = 15,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 15,
-							["amount"] = 15,
-							["hitamount"] = 15,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 6,
-							["id"] = 6603,
-							["sources"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 29,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 6,
-								},
-								["Borgoth the Bloodletter"] = {
-									["amount"] = 43,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 22,
-							["amount"] = 78,
-							["hitamount"] = 78,
-						},
-						["Curse of Agony (DoT)"] = {
-							["hitmin"] = 15,
-							["id"] = 14868,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 106,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 32,
-							["hitmax"] = 16,
-							["amount"] = 106,
-							["hitamount"] = 106,
-						},
-					},
-					["mana"] = 42,
-					["heal"] = 46,
-					["name"] = "Mahkloompah",
-					["ccdone"] = 3,
-					["interrupt"] = 1,
-					["interruptspells"] = {
-						[32747] = {
-							["spells"] = {
-								[9613] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Deatholme Necromancer"] = 1,
-							},
-						},
-					},
-					["totaldamage"] = 964,
-				}, -- [1]
-				{
-					["last"] = 17803.819,
-					["flag"] = 1298,
+					["last"] = 42486.009,
 					["class"] = "SHAMAN",
-					["auras"] = {
-						[8156] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 13.73,
-					["totaldamagetaken"] = 56,
-					["damage"] = 317,
-					["damagespells"] = {
-						["Lightning Bolt"] = {
-							["hitmin"] = 56,
-							["id"] = 548,
-							["targets"] = {
-								["Dreadbone Skeleton"] = {
-									["overkill"] = 52,
-									["amount"] = 177,
-								},
-							},
-							["overkill"] = 52,
-							["casts"] = 6,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 63,
-							["amount"] = 177,
-							["hitamount"] = 177,
-						},
-						["Earth Shock"] = {
-							["hitmin"] = 69,
-							["id"] = 8045,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 71,
-								},
-								["Borgoth the Bloodletter"] = {
-									["overkill"] = 45,
-									["amount"] = 69,
-								},
-							},
-							["overkill"] = 45,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 71,
-							["amount"] = 140,
-							["hitamount"] = 140,
-						},
-					},
-					["damagetaken"] = 56,
 					["id"] = "0x0700000000B02488",
 					["spec"] = 262,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 7,
-							["id"] = 6603,
-							["sources"] = {
-								["Dreadbone Skeleton"] = {
-									["amount"] = 36,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 8,
-							["amount"] = 36,
-							["hitamount"] = 36,
-						},
-						["Strike"] = {
-							["hitmin"] = 20,
-							["id"] = 11976,
-							["sources"] = {
-								["Dreadbone Skeleton"] = {
-									["amount"] = 20,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 20,
-							["amount"] = 20,
-							["hitamount"] = 20,
-						},
-					},
-					["name"] = "Jegjegos",
-					["overkill"] = 97,
-					["totaldamage"] = 317,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 48,
-							["id"] = 143,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["amount"] = 48,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 48,
-							["amount"] = 48,
-							["hitamount"] = 48,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 22,
-							["id"] = 116,
-							["targets"] = {
-								["Dreadbone Skeleton"] = {
-									["amount"] = 22,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 22,
-							["amount"] = 22,
-							["hitamount"] = 22,
-						},
-						["Fire Blast"] = {
-							["criticalamount"] = 51,
-							["id"] = 2136,
-							["targets"] = {
-								["Borgoth the Bloodletter"] = {
-									["amount"] = 0,
-								},
-								["Dreadbone Skeleton"] = {
-									["amount"] = 51,
-								},
-							},
-							["criticalmax"] = 51,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 51,
-							["school"] = 4,
-							["criticalmin"] = 51,
-							["MISS"] = 1,
-							["count"] = 2,
-						},
-					},
-					["last"] = 17794.693,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["class"] = "MAGE",
+					["overkill"] = 15,
 					["auras"] = {
-						[8156] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Deatholme Necromancer"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[116] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Dreadbone Skeleton"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-					},
-					["totaldamage"] = 121,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 10.5,
-					["damage"] = 121,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 255,
-			["interrupt"] = 1,
-			["overheal"] = 12,
-			["ccdone"] = 3,
-			["overkill"] = 181,
-			["edamagetaken"] = 1402,
-			["heal"] = 46,
-			["name"] = "Deatholme Necromancer",
-			["mobname"] = "Deatholme Necromancer",
-			["starttime"] = 1727536208,
-			["edamage"] = 255,
-			["last_action"] = 1727536230,
-			["endtime"] = 1727536231,
-		}, -- [12]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["damagetaken"] = 421,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 241,
-								},
-							},
-							["amount"] = 241,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 68,
-								},
-							},
-							["amount"] = 68,
-						},
-						[20187] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 47,
-								},
-							},
-							["amount"] = 47,
-						},
-						[8045] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 65,
-								},
-							},
-							["amount"] = 65,
-						},
-					},
-					["name"] = "Eye of Dar'Khan",
-					["totaldamage"] = 15,
-					["totaldamagetaken"] = 421,
-					["id"] = "0xF130003FC0265BEA",
-					["damage"] = 15,
-				}, -- [1]
-			},
-			["totaldamage"] = 421,
-			["time"] = 9,
-			["totaldamagetaken"] = 15,
-			["etotaldamagetaken"] = 421,
-			["last_time"] = 17775.356,
-			["players"] = {
-				{
-					["last"] = 17775.303,
-					["flag"] = 1297,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[19706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
 							["uptime"] = 7,
 						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 8.77,
-					["totaldamagetaken"] = 15,
-					["damage"] = 356,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 154,
-							["hitmin"] = 87,
-							["id"] = 6603,
-							["glancemin"] = 71,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 241,
-								},
-							},
-							["glancemax"] = 83,
-							["glancing"] = 2,
-							["blocked"] = 9,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 87,
-							["amount"] = 241,
-							["hitamount"] = 87,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 17,
-							["id"] = 25742,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 68,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 17,
-							["amount"] = 68,
-							["hitamount"] = 68,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 47,
-							["id"] = 20187,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 47,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 47,
-							["amount"] = 47,
-							["hitamount"] = 47,
-						},
-					},
-					["damagetaken"] = 15,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 28,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["overheal"] = 16,
-									["amount"] = 16,
-								},
-								["Jegjegos"] = {
-									["overheal"] = 12,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 16,
-							["school"] = 2,
-							["max"] = 15,
-							["ishot"] = true,
-							["min"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 3,
-							["hitmin"] = 15,
-							["id"] = 6603,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 15,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 15,
-							["amount"] = 15,
-							["hitamount"] = 15,
-						},
-					},
-					["heal"] = 16,
-					["name"] = "Mahkloompah",
-					["overheal"] = 28,
-					["totaldamage"] = 356,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Earth Shock"] = {
-							["hitmin"] = 65,
-							["id"] = 8045,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 65,
-								},
-							},
-							["hitmax"] = 65,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 7,
-							["amount"] = 65,
-							["hitamount"] = 65,
-						},
-					},
-					["last"] = 17770.918,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 7,
 						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[29348] = {
+						[8395] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 7,
 						},
-						[8112] = {
+						[8076] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 7,
 						},
 					},
-					["totaldamage"] = 65,
+					["totaldamage"] = 89,
 					["role"] = "DAMAGER",
 					["name"] = "Jegjegos",
-					["flag"] = 1298,
+					["flag"] = 4370,
 					["time"] = 3.5,
-					["damage"] = 65,
+					["damage"] = 89,
 				}, -- [2]
 				{
-					["last"] = 17766.535,
+					["last"] = 42480.283,
 					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
 					["auras"] = {
-						[168] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 7,
+						},
+						[8076] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 7,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -7777,21 +709,22 @@ SkadaStorageDB = {
 				}, -- [3]
 			},
 			["type"] = "group",
-			["damagetaken"] = 15,
-			["damage"] = 421,
-			["etotaldamage"] = 15,
-			["overheal"] = 28,
-			["edamagetaken"] = 421,
-			["heal"] = 16,
-			["name"] = "Eye of Dar'Khan (5)",
-			["mobname"] = "Eye of Dar'Khan",
-			["starttime"] = 1727536192,
-			["edamage"] = 15,
-			["last_action"] = 1727536201,
-			["endtime"] = 1727536201,
-		}, -- [13]
+			["damagetaken"] = 38,
+			["damage"] = 371,
+			["etotaldamage"] = 38,
+			["overkill"] = 15,
+			["edamagetaken"] = 371,
+			["heal"] = 30,
+			["name"] = "Barak Kodobane",
+			["mobname"] = "Barak Kodobane",
+			["starttime"] = 1727560906,
+			["edamage"] = 38,
+			["last_action"] = 1727560913,
+			["endtime"] = 1727560913,
+		}, -- [2]
 		{
-			["damage"] = 912,
+			["damage"] = 326,
+			["mana"] = 52,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -7799,656 +732,880 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Mahkloompah"] = {
-									["amount"] = 82,
+									["amount"] = 19,
 								},
 							},
-							["amount"] = 82,
+							["amount"] = 19,
 						},
 					},
-					["damagetaken"] = 912,
+					["damagetaken"] = 326,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[20187] = {
+						[20467] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 43,
+									["amount"] = 31,
 								},
 							},
-							["amount"] = 43,
-						},
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["overkill"] = 41,
-									["amount"] = 170,
-								},
-							},
-							["overkill"] = 41,
-							["amount"] = 170,
-						},
-						[2136] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 35,
-								},
-							},
-							["amount"] = 35,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 5,
-									["amount"] = 178,
-								},
-							},
-							["overkill"] = 5,
-							["amount"] = 178,
-						},
-						[25742] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 68,
-								},
-							},
-							["amount"] = 68,
+							["amount"] = 31,
 						},
 						[8045] = {
 							["school"] = 8,
 							["sources"] = {
 								["Jegjegos"] = {
-									["amount"] = 68,
+									["amount"] = 74,
 								},
 							},
-							["amount"] = 68,
+							["amount"] = 74,
 						},
-						[67485] = {
+						[879] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 117,
+									["overkill"] = 73,
+									["amount"] = 139,
 								},
 							},
-							["amount"] = 117,
+							["overkill"] = 73,
+							["amount"] = 139,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 25,
+								},
+							},
+							["amount"] = 25,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 233,
+									["amount"] = 57,
 								},
 							},
-							["amount"] = 233,
+							["amount"] = 57,
 						},
 					},
-					["name"] = "Nerubis Centurion",
-					["totaldamage"] = 82,
-					["totaldamagetaken"] = 912,
-					["id"] = "0xF130003FBF265B84",
-					["damage"] = 82,
+					["name"] = "Kolkar Stormer",
+					["totaldamage"] = 19,
+					["totaldamagetaken"] = 326,
+					["id"] = "0xF130000CC9183CF4",
+					["damage"] = 19,
+				}, -- [1]
+			},
+			["etotaldamage"] = 19,
+			["totaldamage"] = 326,
+			["time"] = 6,
+			["ccdone"] = 1,
+			["totaldamagetaken"] = 19,
+			["etotaldamagetaken"] = 326,
+			["last_time"] = 42384.518,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[28730] = {
+							["count"] = 1,
+							["targets"] = {
+								["Kolkar Stormer"] = 1,
+							},
+						},
+					},
+					["last"] = 42384.485,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[28730] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[25037] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["time"] = 4.42,
+					["overkill"] = 73,
+					["totaldamagetaken"] = 19,
+					["overheal"] = 22,
+					["damage"] = 252,
+					["damagespells"] = {
+						["Exorcism"] = {
+							["hitmin"] = 139,
+							["id"] = 879,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["overkill"] = 73,
+									["amount"] = 139,
+								},
+							},
+							["overkill"] = 73,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 139,
+							["amount"] = 139,
+							["hitamount"] = 139,
+						},
+						["Seal of Command"] = {
+							["hitmin"] = 25,
+							["id"] = 20424,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 25,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 25,
+							["amount"] = 25,
+							["hitamount"] = 25,
+						},
+						["Melee"] = {
+							["hitmin"] = 57,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 57,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 57,
+							["amount"] = 57,
+							["hitamount"] = 57,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 31,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 31,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 31,
+							["amount"] = 31,
+							["hitamount"] = 31,
+						},
+					},
+					["manaspells"] = {
+						[28730] = 52,
+					},
+					["damagetaken"] = 19,
+					["interrupt"] = 1,
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 22,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 11,
+									["amount"] = 19,
+								},
+								["Jegjegos"] = {
+									["overheal"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 19,
+							["school"] = 2,
+							["max"] = 10,
+							["ishot"] = true,
+							["min"] = 9,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 9,
+							["id"] = 6603,
+							["sources"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 19,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 10,
+							["amount"] = 19,
+							["hitamount"] = 19,
+						},
+					},
+					["mana"] = 52,
+					["heal"] = 19,
+					["name"] = "Mahkloompah",
+					["ccdone"] = 1,
+					["id"] = "0x0700000000B01AF6",
+					["totaldamage"] = 252,
+					["interruptspells"] = {
+						[32747] = {
+							["spells"] = {
+								[6535] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Kolkar Stormer"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
 				}, -- [1]
 				{
 					["damagespells"] = {
-						[14868] = {
-							["school"] = 32,
+						["Earth Shock"] = {
+							["hitmin"] = 74,
+							["id"] = 8045,
 							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 51,
+								["Kolkar Stormer"] = {
+									["amount"] = 74,
 								},
 							},
-							["amount"] = 51,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 74,
+							["amount"] = 74,
+							["hitamount"] = 74,
 						},
 					},
-					["name"] = "Eye of Dar'Khan",
-					["totaldamage"] = 51,
-					["flag"] = 2632,
+					["last"] = 42382.434,
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["totaldamage"] = 74,
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
+					["flag"] = 1298,
+					["time"] = 2.38,
+					["damage"] = 74,
+				}, -- [2]
+				{
+					["last"] = 42380.059,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 19,
+			["interrupt"] = 1,
+			["overheal"] = 22,
+			["overkill"] = 73,
+			["edamagetaken"] = 326,
+			["heal"] = 19,
+			["name"] = "Kolkar Stormer (2)",
+			["mobname"] = "Kolkar Stormer",
+			["starttime"] = 1727560806,
+			["edamage"] = 19,
+			["last_action"] = 1727560810,
+			["endtime"] = 1727560812,
+		}, -- [3]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF130000CCA182E00",
+					["name"] = "Kolkar Pack Runner",
+					["totaldamagetaken"] = 318,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["id"] = "0xF130003FC02627DA",
-					["damage"] = 51,
+					["damagetaken"] = 318,
+					["damagetakenspells"] = {
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 106,
+								},
+							},
+							["amount"] = 106,
+						},
+						[8045] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+						[879] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 18,
+									["amount"] = 142,
+								},
+							},
+							["overkill"] = 18,
+							["amount"] = 142,
+						},
+					},
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+					["damagetaken"] = 309,
+					["id"] = "0xF1300010DC182E08",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 150,
+								},
+							},
+							["amount"] = 150,
+						},
+						[548] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 71,
+								},
+							},
+							["amount"] = 71,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["totaldamage"] = 17,
+					["name"] = "Kolkar Packhound",
+					["totaldamagetaken"] = 309,
+					["flag"] = 68168,
+					["damage"] = 17,
 				}, -- [2]
 			},
-			["dispel"] = 1,
-			["totaldamage"] = 912,
-			["time"] = 17,
-			["overheal"] = 32,
-			["totaldamagetaken"] = 133,
-			["etotaldamagetaken"] = 912,
-			["last_time"] = 17756.785,
+			["totaldamage"] = 627,
+			["time"] = 8,
+			["totaldamagetaken"] = 17,
+			["etotaldamagetaken"] = 627,
+			["last_time"] = 41763.327,
 			["players"] = {
 				{
-					["last"] = 17749.436,
+					["last"] = 41763.307,
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
 						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 8,
 						},
-						[1459] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 8,
 						},
-						[19706] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[21084] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[20185] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[8099] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 8,
 						},
 						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["targets"] = {
-								["Nerubis Centurion"] = {
-									["uptime"] = 3,
+								["Kolkar Pack Runner"] = {
+									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 3,
+							["uptime"] = 2,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
 						},
 					},
-					["dispel"] = 1,
-					["role"] = "DAMAGER",
-					["time"] = 9.380000000000001,
-					["totaldamagetaken"] = 133,
-					["damage"] = 461,
+					["time"] = 7.44,
+					["totaldamagetaken"] = 17,
+					["damage"] = 497,
 					["damagespells"] = {
 						["Hand of Reckoning"] = {
-							["hitmin"] = 117,
+							["hitmin"] = 106,
 							["id"] = 67485,
 							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 117,
+								["Kolkar Pack Runner"] = {
+									["amount"] = 106,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 117,
-							["amount"] = 117,
-							["hitamount"] = 117,
+							["hitmax"] = 106,
+							["amount"] = 106,
+							["hitamount"] = 106,
+						},
+						["Exorcism"] = {
+							["hitmin"] = 142,
+							["id"] = 879,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["overkill"] = 18,
+									["amount"] = 142,
+								},
+							},
+							["overkill"] = 18,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 142,
+							["amount"] = 142,
+							["hitamount"] = 142,
 						},
 						["Melee"] = {
-							["glance"] = 79,
-							["hitmin"] = 75,
+							["hitmin"] = 54,
+							["criticalamount"] = 96,
 							["id"] = 6603,
-							["glancemax"] = 79,
 							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 233,
+								["Kolkar Packhound"] = {
+									["amount"] = 150,
 								},
 							},
-							["glancemin"] = 79,
-							["glancing"] = 1,
-							["PARRY"] = 2,
-							["count"] = 5,
-							["hit"] = 2,
+							["criticalmin"] = 96,
+							["critical"] = 1,
+							["criticalmax"] = 96,
+							["count"] = 2,
+							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 79,
-							["amount"] = 233,
-							["hitamount"] = 154,
+							["hitmax"] = 54,
+							["amount"] = 150,
+							["hitamount"] = 54,
 						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 17,
-							["id"] = 25742,
+						["Seal of Command"] = {
+							["hitmin"] = 25,
+							["criticalamount"] = 46,
+							["id"] = 20424,
+							["criticalmin"] = 46,
 							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 68,
+								["Kolkar Packhound"] = {
+									["amount"] = 71,
 								},
 							},
+							["criticalmax"] = 46,
+							["critical"] = 1,
 							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
+							["count"] = 2,
+							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 17,
-							["amount"] = 68,
-							["hitamount"] = 68,
+							["hitmax"] = 25,
+							["amount"] = 71,
+							["hitamount"] = 25,
 						},
-						["Judgement of Light"] = {
-							["casts"] = 2,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
+						["Judgement of Command"] = {
+							["hitmin"] = 28,
+							["id"] = 20467,
 							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 0,
+								["Kolkar Packhound"] = {
+									["amount"] = 28,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 20271,
-						},
-						["Judgement of Righteousness"] = {
-							["hitmin"] = 43,
-							["id"] = 20187,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 43,
-								},
-							},
-							["hitmax"] = 43,
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
-							["resisted"] = 4,
-							["amount"] = 43,
-							["hitamount"] = 43,
+							["hitmax"] = 28,
+							["amount"] = 28,
+							["hitamount"] = 28,
 						},
 					},
-					["damagetaken"] = 133,
+					["damagetaken"] = 17,
 					["id"] = "0x0700000000B01AF6",
 					["spec"] = 70,
 					["healspells"] = {
 						[20267] = {
-							["overheal"] = 32,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 2,
-							["ishot"] = true,
+							["overheal"] = 5,
 							["targets"] = {
-								["Jegjegos"] = {
-									["overheal"] = 24,
-									["amount"] = 0,
-								},
-								["Woolhead"] = {
-									["overheal"] = 8,
-									["amount"] = 0,
+								["Mahkloompah"] = {
+									["overheal"] = 5,
+									["amount"] = 37,
 								},
 							},
+							["count"] = 3,
+							["amount"] = 37,
+							["school"] = 2,
+							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 9,
 						},
 					},
+					["overkill"] = 18,
+					["heal"] = 37,
+					["name"] = "Mahkloompah",
+					["overheal"] = 5,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 19,
+							["hitmin"] = 8,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["amount"] = 82,
 							["sources"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 82,
+								["Kolkar Packhound"] = {
+									["amount"] = 17,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 4,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 23,
-							["MISS"] = 1,
-							["hitamount"] = 82,
-						},
-						["Curse of Agony (DoT)"] = {
-							["hitmin"] = 17,
-							["id"] = 14868,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 51,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 17,
-							["amount"] = 51,
-							["hitamount"] = 51,
+							["hitmax"] = 9,
+							["amount"] = 17,
+							["hitamount"] = 17,
 						},
 					},
-					["heal"] = 0,
-					["name"] = "Mahkloompah",
-					["overheal"] = 32,
-					["dispelspells"] = {
-						[1152] = {
-							["spells"] = {
-								[21787] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Mahkloompah"] = 1,
-							},
-						},
-					},
-					["totaldamage"] = 461,
+					["totaldamage"] = 497,
+					["role"] = "DAMAGER",
 				}, -- [1]
 				{
-					["last"] = 17755.936,
-					["flag"] = 1298,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[25694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[8156] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[8112] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[26297] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["time"] = 12.59,
-					["damage"] = 246,
 					["damagespells"] = {
 						["Lightning Bolt"] = {
-							["hitmin"] = 58,
+							["hitmin"] = 60,
 							["id"] = 548,
 							["targets"] = {
-								["Nerubis Centurion"] = {
-									["overkill"] = 5,
-									["amount"] = 178,
+								["Kolkar Packhound"] = {
+									["amount"] = 60,
 								},
 							},
-							["overkill"] = 5,
-							["casts"] = 2,
-							["count"] = 3,
-							["hit"] = 3,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 8,
-							["hitmax"] = 61,
-							["amount"] = 178,
-							["hitamount"] = 178,
+							["hitmax"] = 60,
+							["amount"] = 60,
+							["hitamount"] = 60,
 						},
 						["Earth Shock"] = {
-							["hitmin"] = 68,
+							["hitmin"] = 70,
 							["id"] = 8045,
 							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 68,
+								["Kolkar Pack Runner"] = {
+									["amount"] = 70,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 8,
-							["hitmax"] = 68,
-							["amount"] = 68,
-							["hitamount"] = 68,
+							["hitmax"] = 70,
+							["amount"] = 70,
+							["hitamount"] = 70,
 						},
 					},
-					["interrupt"] = 1,
-					["spec"] = 262,
-					["overkill"] = 5,
-					["name"] = "Jegjegos",
-					["totaldamage"] = 246,
+					["last"] = 41761.79,
 					["id"] = "0x0700000000B02488",
-					["interruptspells"] = {
-						[57994] = {
-							["spells"] = {
-								[21787] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Nerubis Centurion"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 38,
-							["id"] = 143,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["overkill"] = 41,
-									["amount"] = 169,
-								},
-							},
-							["overkill"] = 41,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["hitmax"] = 46,
-							["amount"] = 169,
-							["hitamount"] = 169,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 143,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 35,
-							["id"] = 2136,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["amount"] = 35,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 35,
-							["amount"] = 35,
-							["hitamount"] = 35,
-						},
-					},
-					["last"] = 17754.476,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["overkill"] = 41,
+					["spec"] = 262,
+					["class"] = "SHAMAN",
 					["auras"] = {
-						[8156] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[143] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Nerubis Centurion"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 8,
 						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 8,
 						},
-						[10290] = {
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
+							["uptime"] = 8,
 						},
 					},
-					["totaldamage"] = 205,
+					["totaldamage"] = 130,
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
+					["flag"] = 1298,
+					["time"] = 4.48,
+					["damage"] = 130,
+				}, -- [2]
+				{
+					["last"] = 41755.857,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
 					["role"] = "DAMAGER",
 					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 12.91,
-					["damage"] = 205,
+					["time"] = 0,
+					["class"] = "MAGE",
 				}, -- [3]
 			},
 			["type"] = "group",
-			["damagetaken"] = 133,
-			["interrupt"] = 1,
-			["etotaldamage"] = 133,
-			["overkill"] = 46,
-			["edamagetaken"] = 912,
-			["heal"] = 0,
-			["name"] = "Nerubis Centurion (2)",
-			["mobname"] = "Nerubis Centurion",
-			["starttime"] = 1727536166,
-			["edamage"] = 133,
-			["last_action"] = 1727536183,
-			["endtime"] = 1727536183,
-		}, -- [14]
+			["damagetaken"] = 17,
+			["damage"] = 627,
+			["overheal"] = 5,
+			["etotaldamage"] = 17,
+			["overkill"] = 18,
+			["edamagetaken"] = 627,
+			["heal"] = 37,
+			["name"] = "Kolkar Pack Runner (5)",
+			["mobname"] = "Kolkar Pack Runner",
+			["starttime"] = 1727560182,
+			["edamage"] = 17,
+			["last_action"] = 1727560189,
+			["endtime"] = 1727560190,
+		}, -- [4]
 		{
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[14868] = {
-							["school"] = 32,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["amount"] = 34,
-								},
-							},
-							["amount"] = 34,
-						},
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
+								["Jegjegos"] = {
+									["amount"] = 96,
+								},
 								["Mahkloompah"] = {
-									["amount"] = 35,
+									["amount"] = 65,
 								},
 							},
-							["amount"] = 35,
+							["amount"] = 161,
+						},
+						[11976] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 26,
+								},
+							},
+							["amount"] = 26,
 						},
 					},
-					["damagetaken"] = 481,
+					["damagetaken"] = 837,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[143] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 48,
-								},
-							},
-							["amount"] = 48,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 48,
-									["amount"] = 88,
-								},
-							},
-							["overkill"] = 48,
-							["amount"] = 88,
-						},
-						[25742] = {
+						[879] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 34,
+									["amount"] = 138,
 								},
 							},
-							["amount"] = 34,
+							["amount"] = 138,
 						},
-						[6603] = {
-							["school"] = 1,
+						[20467] = {
+							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 146,
+									["amount"] = 28,
 								},
 							},
-							["amount"] = 146,
+							["amount"] = 28,
 						},
 						[67485] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 94,
+									["amount"] = 106,
 								},
 							},
-							["amount"] = 94,
+							["amount"] = 106,
 						},
 						[8045] = {
 							["school"] = 8,
@@ -8459,200 +1616,394 @@ SkadaStorageDB = {
 							},
 							["amount"] = 71,
 						},
+						[548] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+						[2120] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["overkill"] = 54,
+									["amount"] = 63,
+								},
+							},
+							["overkill"] = 54,
+							["amount"] = 63,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 20,
+									["amount"] = 93,
+								},
+							},
+							["overkill"] = 20,
+							["amount"] = 93,
+						},
+						[2137] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 50,
+									["amount"] = 210,
+								},
+							},
+							["overkill"] = 50,
+							["amount"] = 210,
+						},
 					},
-					["name"] = "Eye of Dar'Khan",
-					["totaldamage"] = 69,
-					["totaldamagetaken"] = 481,
-					["id"] = "0xF130003FC02628BC",
-					["damage"] = 69,
+					["name"] = "Kolkar Marauder",
+					["totaldamage"] = 187,
+					["totaldamagetaken"] = 837,
+					["id"] = "0xF130000CCB182D4D",
+					["damage"] = 187,
 				}, -- [1]
 			},
-			["totaldamage"] = 481,
-			["time"] = 8,
-			["totaldamagetaken"] = 69,
-			["etotaldamagetaken"] = 481,
-			["last_time"] = 17738.31,
+			["damage"] = 837,
+			["totaldamage"] = 837,
+			["time"] = 12,
+			["totaldamagetaken"] = 187,
+			["etotaldamagetaken"] = 837,
+			["last_time"] = 41747.973,
 			["players"] = {
 				{
-					["last"] = 17736.819,
+					["ccdonespells"] = {
+						[853] = {
+							["count"] = 1,
+							["targets"] = {
+								["Kolkar Marauder"] = 1,
+							},
+						},
+					},
+					["last"] = 41747.35,
 					["flag"] = 1297,
 					["class"] = "PALADIN",
 					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
+						[20185] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
 						},
-						[1459] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 12,
 						},
-						[19706] = {
+						[8091] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[8156] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 12,
 						},
 						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["targets"] = {
-								["Eye of Dar'Khan"] = {
+								["Kolkar Marauder"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 3,
 						},
-						[8099] = {
+						[20375] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 12,
 						},
-						[21084] = {
+						[853] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 12,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
 						},
 					},
 					["role"] = "DAMAGER",
-					["time"] = 4.97,
-					["totaldamagetaken"] = 69,
-					["damage"] = 274,
+					["time"] = 10.67,
+					["totaldamagetaken"] = 91,
+					["damage"] = 575,
 					["damagespells"] = {
 						["Hand of Reckoning"] = {
-							["hitmin"] = 94,
+							["hitmin"] = 106,
 							["id"] = 67485,
 							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 94,
+								["Kolkar Marauder"] = {
+									["amount"] = 106,
 								},
 							},
-							["hitmax"] = 94,
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
-							["resisted"] = 23,
-							["amount"] = 94,
-							["hitamount"] = 94,
+							["hitmax"] = 106,
+							["amount"] = 106,
+							["hitamount"] = 106,
 						},
-						["Melee"] = {
-							["glance"] = 64,
-							["hitmin"] = 82,
-							["id"] = 6603,
+						["Exorcism"] = {
+							["hitmin"] = 138,
+							["id"] = 879,
 							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 146,
-								},
-							},
-							["glancemin"] = 64,
-							["glancing"] = 1,
-							["glancemax"] = 64,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 82,
-							["amount"] = 146,
-							["hitamount"] = 82,
-						},
-						["Seal of Righteousness"] = {
-							["hitmin"] = 17,
-							["id"] = 25742,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 34,
+								["Kolkar Marauder"] = {
+									["amount"] = 138,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 17,
-							["amount"] = 34,
-							["hitamount"] = 34,
+							["hitmax"] = 138,
+							["amount"] = 138,
+							["hitamount"] = 138,
 						},
-					},
-					["damagetaken"] = 69,
-					["id"] = "0x0700000000B01AF6",
-					["spec"] = 70,
-					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 17,
+							["hitmin"] = 51,
+							["criticalamount"] = 106,
 							["id"] = 6603,
-							["hitmax"] = 18,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 35,
+							["criticalmin"] = 106,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["overkill"] = 50,
+									["amount"] = 210,
 								},
 							},
+							["overkill"] = 50,
+							["critical"] = 1,
+							["criticalmax"] = 106,
 							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 1,
-							["amount"] = 35,
-							["MISS"] = 1,
-							["hitamount"] = 35,
+							["hitmax"] = 53,
+							["amount"] = 210,
+							["hitamount"] = 104,
 						},
-						["Curse of Agony (DoT)"] = {
-							["hitmin"] = 17,
-							["id"] = 14868,
-							["sources"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 34,
+						["Seal of Command"] = {
+							["hitmin"] = 21,
+							["id"] = 20424,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["overkill"] = 20,
+									["amount"] = 93,
+								},
+							},
+							["overkill"] = 20,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 25,
+							["amount"] = 93,
+							["hitamount"] = 93,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 28,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 28,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 28,
+							["amount"] = 28,
+							["hitamount"] = 28,
+						},
+					},
+					["damagetaken"] = 91,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 0,
+									["amount"] = 28,
 								},
 							},
 							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 17,
-							["amount"] = 34,
-							["hitamount"] = 34,
+							["amount"] = 28,
+							["school"] = 2,
+							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 14,
 						},
 					},
-					["name"] = "Mahkloompah",
-					["totaldamage"] = 274,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Lightning Bolt"] = {
-							["criticalamount"] = 88,
-							["id"] = 548,
-							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["overkill"] = 48,
-									["amount"] = 88,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 39,
+							["criticalamount"] = 26,
+							["id"] = 6603,
+							["criticalmin"] = 26,
+							["criticalmax"] = 26,
+							["critical"] = 1,
+							["sources"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 65,
 								},
 							},
-							["overkill"] = 48,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 88,
-							["school"] = 8,
-							["criticalmin"] = 88,
-							["criticalmax"] = 88,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 39,
+							["amount"] = 65,
+							["hitamount"] = 39,
+						},
+						["Strike"] = {
+							["hitmin"] = 26,
+							["id"] = 11976,
+							["sources"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 26,
+								},
+							},
 							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 26,
+							["amount"] = 26,
+							["hitamount"] = 26,
+						},
+					},
+					["heal"] = 28,
+					["name"] = "Mahkloompah",
+					["ccdone"] = 1,
+					["overkill"] = 70,
+					["overheal"] = 0,
+					["totaldamage"] = 575,
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[3600] = {
+							["count"] = 7,
+							["targets"] = {
+								["Kolkar Marauder"] = 7,
+							},
+						},
+					},
+					["last"] = 41746.807,
+					["flag"] = 4370,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[8395] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[3600] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 5,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["count"] = 2,
+									["refresh"] = 5,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 6.82,
+					["totaldamagetaken"] = 96,
+					["damage"] = 129,
+					["damagespells"] = {
+						["Lightning Bolt"] = {
+							["hitmin"] = 58,
+							["id"] = 548,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 58,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 58,
+							["amount"] = 58,
+							["hitamount"] = 58,
 						},
 						["Earth Shock"] = {
 							["hitmin"] = 71,
 							["id"] = 8045,
 							["targets"] = {
-								["Eye of Dar'Khan"] = {
+								["Kolkar Marauder"] = {
 									["amount"] = 71,
 								},
 							},
@@ -8665,234 +2016,5824 @@ SkadaStorageDB = {
 							["hitamount"] = 71,
 						},
 					},
-					["last"] = 17738.269,
-					["class"] = "SHAMAN",
+					["damagetaken"] = 96,
 					["id"] = "0x0700000000B02488",
 					["spec"] = 262,
-					["overkill"] = 48,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 17,
+							["id"] = 6603,
+							["sources"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 96,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 59,
+							["amount"] = 96,
+							["hitamount"] = 96,
+						},
+					},
+					["name"] = "Jegjegos",
+					["ccdone"] = 7,
+					["totaldamage"] = 129,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Fire Blast"] = {
+							["hitmin"] = 70,
+							["id"] = 2137,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 70,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 70,
+							["amount"] = 70,
+							["hitamount"] = 70,
+						},
+						["Flamestrike"] = {
+							["hitmin"] = 63,
+							["id"] = 2120,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["overkill"] = 54,
+									["amount"] = 63,
+								},
+							},
+							["overkill"] = 54,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 63,
+							["amount"] = 63,
+							["hitamount"] = 63,
+						},
+					},
+					["last"] = 41746.473,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["overkill"] = 54,
 					["auras"] = {
-						[8156] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[35022] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+					},
+					["totaldamage"] = 133,
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
+					["flag"] = 1298,
+					["time"] = 6.87,
+					["damage"] = 133,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 187,
+			["overheal"] = 0,
+			["ccdone"] = 8,
+			["etotaldamage"] = 187,
+			["overkill"] = 124,
+			["edamagetaken"] = 837,
+			["heal"] = 28,
+			["name"] = "Kolkar Marauder (8)",
+			["mobname"] = "Kolkar Marauder",
+			["starttime"] = 1727560162,
+			["edamage"] = 187,
+			["last_action"] = 1727560174,
+			["endtime"] = 1727560174,
+		}, -- [5]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+						[11976] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["damagetaken"] = 411,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 106,
+								},
+							},
+							["amount"] = 106,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 9,
+									["amount"] = 71,
+								},
+							},
+							["overkill"] = 9,
+							["amount"] = 71,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 31,
+									["amount"] = 205,
+								},
+							},
+							["overkill"] = 31,
+							["amount"] = 205,
+						},
+					},
+					["name"] = "Kolkar Marauder",
+					["totaldamage"] = 94,
+					["totaldamagetaken"] = 411,
+					["id"] = "0xF130000CCB182BBB",
+					["damage"] = 94,
+				}, -- [1]
+			},
+			["totaldamage"] = 411,
+			["time"] = 10,
+			["damage"] = 411,
+			["totaldamagetaken"] = 94,
+			["etotaldamagetaken"] = 411,
+			["last_time"] = 41712.116,
+			["players"] = {
+				{
+					["last"] = 41712.091,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 9.900000000000002,
+					["totaldamagetaken"] = 94,
+					["damage"] = 411,
+					["damagespells"] = {
+						["Hand of Reckoning"] = {
+							["hitmin"] = 106,
+							["id"] = 67485,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 106,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 106,
+							["amount"] = 106,
+							["hitamount"] = 106,
+						},
+						["Seal of Command"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 23,
+							["id"] = 20424,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["overkill"] = 9,
+									["amount"] = 71,
+								},
+							},
+							["overkill"] = 9,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 24,
+							["amount"] = 71,
+							["hitamount"] = 71,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 29,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 29,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 29,
+							["amount"] = 29,
+							["hitamount"] = 29,
+						},
+						["Melee"] = {
+							["hitmin"] = 46,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["overkill"] = 31,
+									["amount"] = 205,
+								},
+							},
+							["overkill"] = 31,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 54,
+							["amount"] = 205,
+							["hitamount"] = 205,
+						},
+					},
+					["damagetaken"] = 94,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 0,
+									["amount"] = 56,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 56,
+							["school"] = 2,
+							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 14,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 14,
+							["id"] = 6603,
+							["sources"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 68,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 40,
+							["amount"] = 68,
+							["hitamount"] = 68,
+						},
+						["Strike"] = {
+							["hitmin"] = 26,
+							["id"] = 11976,
+							["sources"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 26,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 26,
+							["amount"] = 26,
+							["hitamount"] = 26,
+						},
+					},
+					["heal"] = 56,
+					["name"] = "Mahkloompah",
+					["overkill"] = 40,
+					["overheal"] = 0,
+					["totaldamage"] = 411,
+				}, -- [1]
+				{
+					["last"] = 41702.182,
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 1,
+						},
+						[8395] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
+					["flag"] = 1298,
+					["time"] = 0,
+					["class"] = "SHAMAN",
+				}, -- [2]
+				{
+					["last"] = 41702.182,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 94,
+			["etotaldamage"] = 94,
+			["overheal"] = 0,
+			["overkill"] = 40,
+			["edamagetaken"] = 411,
+			["heal"] = 56,
+			["name"] = "Kolkar Marauder (7)",
+			["mobname"] = "Kolkar Marauder",
+			["starttime"] = 1727560128,
+			["edamage"] = 94,
+			["last_action"] = 1727560138,
+			["endtime"] = 1727560138,
+		}, -- [6]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 117,
+								},
+							},
+							["amount"] = 117,
+						},
+						[172] = {
+							["school"] = 32,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 35,
+								},
+							},
+							["amount"] = 35,
+						},
+					},
+					["damagetaken"] = 563,
+					["id"] = "0xF130000D45182BD5",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 31,
+									["amount"] = 138,
+								},
+							},
+							["overkill"] = 31,
+							["amount"] = 138,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 16,
+									["amount"] = 289,
+								},
+							},
+							["overkill"] = 16,
+							["amount"] = 289,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 12,
+									["amount"] = 108,
+								},
+							},
+							["overkill"] = 12,
+							["amount"] = 108,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["totaldamage"] = 152,
+					["name"] = "Kolkar Bloodcharger",
+					["totaldamagetaken"] = 563,
+					["flag"] = 2632,
+					["damage"] = 152,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 55,
+								},
+							},
+							["amount"] = 55,
+						},
+					},
+					["name"] = "Kolkar Marauder",
+					["totaldamage"] = 55,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["id"] = "0xF130000CCB182BBB",
+					["damage"] = 55,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 107,
+								},
+							},
+							["amount"] = 107,
+						},
+					},
+					["damagetaken"] = 579,
+					["id"] = "0xF1300010DC182BE5",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 101,
+								},
+							},
+							["amount"] = 101,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 10,
+									["amount"] = 357,
+								},
+							},
+							["overkill"] = 10,
+							["amount"] = 357,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 121,
+								},
+							},
+							["amount"] = 121,
+						},
+					},
+					["totaldamage"] = 107,
+					["name"] = "Kolkar Packhound",
+					["totaldamagetaken"] = 579,
+					["flag"] = 2632,
+					["damage"] = 107,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 197,
+								},
+							},
+							["amount"] = 197,
+						},
+					},
+					["damagetaken"] = 610,
+					["id"] = "0xF130000CCA182BD6",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 10,
+									["amount"] = 408,
+								},
+							},
+							["overkill"] = 10,
+							["amount"] = 408,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 157,
+								},
+							},
+							["amount"] = 157,
+						},
+					},
+					["totaldamage"] = 197,
+					["name"] = "Kolkar Pack Runner",
+					["totaldamagetaken"] = 610,
+					["flag"] = 2632,
+					["damage"] = 197,
+				}, -- [4]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Woolhead"] = {
+									["amount"] = 39,
+								},
+							},
+							["amount"] = 39,
+						},
+					},
+					["name"] = "Hecklefang Hyena",
+					["totaldamage"] = 39,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF13000101F1738DD",
+					["damage"] = 39,
+				}, -- [5]
+			},
+			["totaldamage"] = 1752,
+			["time"] = 26,
+			["starttime"] = 1727560093,
+			["totaldamagetaken"] = 550,
+			["etotaldamage"] = 550,
+			["last_time"] = 41693.074,
+			["players"] = {
+				{
+					["last"] = 41692.558,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[34769] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[25694] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 26,
 						},
-						[1459] = {
+						[8091] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[26573] = {
+							["type"] = "DEBUFF",
+							["count"] = 11,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["uptime"] = 13,
+									["count"] = 4,
+								},
+								["Kolkar Packhound"] = {
+									["uptime"] = 11,
+									["count"] = 4,
+								},
+								["Kolkar Bloodcharger"] = {
+									["uptime"] = 11,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+					},
+					["time"] = 18.44000000000001,
+					["totaldamagetaken"] = 511,
+					["damage"] = 1752,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 17,
+							["id"] = 26573,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["overkill"] = 16,
+									["amount"] = 289,
+								},
+								["Kolkar Packhound"] = {
+									["overkill"] = 10,
+									["amount"] = 357,
+								},
+								["Kolkar Pack Runner"] = {
+									["overkill"] = 10,
+									["amount"] = 408,
+								},
+							},
+							["overkill"] = 36,
+							["casts"] = 2,
+							["count"] = 62,
+							["hit"] = 62,
+							["school"] = 2,
+							["hitmax"] = 17,
+							["amount"] = 1054,
+							["hitamount"] = 1054,
+						},
+						["Melee"] = {
+							["hitmin"] = 44,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 45,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 101,
+								},
+								["Kolkar Bloodcharger"] = {
+									["overkill"] = 31,
+									["amount"] = 138,
+								},
+							},
+							["overkill"] = 31,
+							["blocked"] = 6,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 52,
+							["amount"] = 284,
+							["hitamount"] = 284,
+						},
+						["Seal of Command"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 21,
+							["criticalmin"] = 40,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 157,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 121,
+								},
+								["Kolkar Bloodcharger"] = {
+									["overkill"] = 12,
+									["amount"] = 108,
+								},
+							},
+							["amount"] = 386,
+							["MISS"] = 1,
+							["criticalamount"] = 126,
+							["id"] = 20424,
+							["overkill"] = 12,
+							["criticalmax"] = 44,
+							["casts"] = 1,
+							["critical"] = 3,
+							["hit"] = 11,
+							["school"] = 2,
+							["hitmax"] = 25,
+							["count"] = 16,
+							["hitamount"] = 260,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 28,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 28,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 28,
+							["amount"] = 28,
+							["hitamount"] = 28,
+						},
+						["Judgement of Light"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 20271,
+						},
+					},
+					["damagetaken"] = 511,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 0,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14,
+							["school"] = 2,
+							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 14,
+						},
+						[19750] = {
+							["overheal"] = 0,
+							["max"] = 100,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 0,
+									["amount"] = 192,
+								},
+							},
+							["min"] = 92,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 192,
+							["school"] = 2,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 8,
+							["criticalmin"] = 20,
+							["sources"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 117,
+								},
+								["Kolkar Pack Runner"] = {
+									["amount"] = 197,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 107,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 55,
+								},
+							},
+							["amount"] = 476,
+							["MISS"] = 2,
+							["criticalamount"] = 20,
+							["id"] = 6603,
+							["blocked"] = 18,
+							["BLOCK"] = 2,
+							["criticalmax"] = 20,
+							["PARRY"] = 9,
+							["hitmax"] = 42,
+							["hit"] = 39,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 55,
+							["hitamount"] = 456,
+						},
+						["Corruption (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 172,
+							["hitmax"] = 10,
+							["sources"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 35,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["resisted"] = 5,
+							["amount"] = 35,
+							["hitamount"] = 35,
+						},
+					},
+					["heal"] = 206,
+					["name"] = "Mahkloompah",
+					["overkill"] = 79,
+					["overheal"] = 0,
+					["totaldamage"] = 1752,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["last"] = 41667.483,
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
+					["auras"] = {
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
+					["time"] = 0,
+					["class"] = "SHAMAN",
+				}, -- [2]
+				{
+					["last"] = 41667.483,
+					["damagetaken"] = 39,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Hecklefang Hyena"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 8,
+								},
+							},
 							["uptime"] = 8,
 						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 26,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 18,
+							["id"] = 6603,
+							["sources"] = {
+								["Hecklefang Hyena"] = {
+									["amount"] = 39,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 21,
+							["amount"] = 39,
+							["hitamount"] = 39,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
+					["flag"] = 1298,
+					["totaldamagetaken"] = 39,
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 550,
+			["damage"] = 1752,
+			["overheal"] = 0,
+			["etotaldamagetaken"] = 1752,
+			["overkill"] = 79,
+			["edamagetaken"] = 1752,
+			["heal"] = 206,
+			["name"] = "Kolkar Bloodcharger",
+			["mobname"] = "Kolkar Bloodcharger",
+			["edamage"] = 550,
+			["last_action"] = 1727560119,
+			["endtime"] = 1727560119,
+		}, -- [7]
+		{
+			["starttime"] = 1727560038,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 190,
+								},
+							},
+							["amount"] = 190,
+						},
+						[11976] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["damagetaken"] = 704,
+					["id"] = "0xF130000CCB167130",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[2120] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["overkill"] = 1,
+									["amount"] = 229,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 229,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+						[122] = {
+							["school"] = 16,
+							["sources"] = {
+								["Woolhead"] = {
+									["overkill"] = 19,
+									["amount"] = 48,
+								},
+							},
+							["overkill"] = 19,
+							["amount"] = 48,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 142,
+								},
+							},
+							["amount"] = 142,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 238,
+								},
+							},
+							["amount"] = 238,
+						},
+					},
+					["totaldamage"] = 202,
+					["name"] = "Kolkar Marauder",
+					["totaldamagetaken"] = 704,
+					["flag"] = 2632,
+					["damage"] = 202,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["damagetaken"] = 334,
+					["id"] = "0xF130000CCA180350",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 6,
+									["amount"] = 119,
+								},
+							},
+							["overkill"] = 6,
+							["amount"] = 119,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						[122] = {
+							["school"] = 16,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						[2120] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 99,
+								},
+							},
+							["amount"] = 99,
+						},
+					},
+					["totaldamage"] = 33,
+					["name"] = "Kolkar Pack Runner",
+					["totaldamagetaken"] = 334,
+					["flag"] = 68168,
+					["damage"] = 33,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["damagetaken"] = 306,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 119,
+								},
+							},
+							["amount"] = 119,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 8,
+									["amount"] = 45,
+								},
+							},
+							["overkill"] = 8,
+							["amount"] = 45,
+						},
+						[122] = {
+							["school"] = 16,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+						[2120] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["name"] = "Kolkar Packhound",
+					["totaldamage"] = 12,
+					["totaldamagetaken"] = 306,
+					["id"] = "0xF1300010DC18034C",
+					["damage"] = 12,
+				}, -- [3]
+			},
+			["dispel"] = 1,
+			["totaldamage"] = 1344,
+			["time"] = 17,
+			["ccdone"] = 3,
+			["totaldamagetaken"] = 247,
+			["etotaldamage"] = 247,
+			["last_time"] = 41628.718,
+			["players"] = {
+				{
+					["last"] = 41624.684,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[34769] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[26573] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+								["Kolkar Packhound"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Kolkar Marauder"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
 							["uptime"] = 8,
 						},
-						[8045] = {
+						[25771] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 8,
+							["school"] = 2,
 							["targets"] = {
-								["Eye of Dar'Khan"] = {
+								["Mahkloompah"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
 									["uptime"] = 5,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 5,
 						},
-						[29348] = {
+						[498] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 2,
 							["uptime"] = 8,
 						},
-						[8112] = {
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 17,
 						},
 					},
-					["totaldamage"] = 159,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 5.29,
-					["damage"] = 159,
-				}, -- [2]
-				{
+					["dispel"] = 1,
+					["time"] = 11.09,
+					["totaldamagetaken"] = 247,
+					["damage"] = 849,
 					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 48,
-							["id"] = 143,
+						["Consecration (DoT)"] = {
+							["hitmin"] = 17,
+							["id"] = 26573,
 							["targets"] = {
-								["Eye of Dar'Khan"] = {
-									["amount"] = 48,
+								["Kolkar Pack Runner"] = {
+									["overkill"] = 6,
+									["amount"] = 119,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 119,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 238,
 								},
 							},
-							["casts"] = 2,
+							["overkill"] = 6,
+							["count"] = 28,
+							["hit"] = 28,
+							["school"] = 2,
+							["hitmax"] = 17,
+							["amount"] = 476,
+							["hitamount"] = 476,
+						},
+						["Seal of Command"] = {
+							["hitmin"] = 20,
+							["criticalamount"] = 48,
+							["id"] = 20424,
+							["criticalmin"] = 48,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 21,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 45,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 142,
+								},
+							},
+							["criticalmax"] = 48,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 7,
+							["school"] = 2,
+							["hitmax"] = 25,
+							["amount"] = 208,
+							["hitamount"] = 160,
+						},
+						["Melee"] = {
+							["hitmin"] = 44,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 44,
+								},
+								["Kolkar Packhound"] = {
+									["overkill"] = 8,
+									["amount"] = 45,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 47,
+								},
+							},
+							["overkill"] = 8,
+							["amount"] = 136,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 47,
+							["MISS"] = 1,
+							["hitamount"] = 136,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 29,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 29,
+								},
+							},
+							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 48,
-							["amount"] = 48,
-							["hitamount"] = 48,
+							["school"] = 2,
+							["hitmax"] = 29,
+							["amount"] = 29,
+							["hitamount"] = 29,
 						},
 					},
-					["last"] = 17736.718,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
+					["damagetaken"] = 247,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 8,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 0,
+									["amount"] = 28,
+								},
+								["Woolhead"] = {
+									["overheal"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 28,
+							["school"] = 2,
+							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 14,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 4,
+							["criticalmin"] = 78,
+							["sources"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 33,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 12,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 190,
+								},
+							},
+							["amount"] = 235,
+							["MISS"] = 1,
+							["criticalamount"] = 78,
+							["id"] = 6603,
+							["blocked"] = 9,
+							["BLOCK"] = 1,
+							["criticalmax"] = 78,
+							["hitmax"] = 41,
+							["hit"] = 14,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 18,
+							["hitamount"] = 157,
+						},
+						["Strike"] = {
+							["hitmin"] = 12,
+							["id"] = 11976,
+							["hitmax"] = 12,
+							["amount"] = 12,
+							["sources"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 12,
+								},
+							},
+							["BLOCK"] = 1,
+							["blocked"] = 27,
+							["school"] = 1,
+							["hit"] = 1,
+							["count"] = 2,
+							["hitamount"] = 12,
+						},
+					},
+					["totaldamage"] = 849,
+					["heal"] = 28,
+					["name"] = "Mahkloompah",
+					["overkill"] = 14,
+					["overheal"] = 8,
+					["dispelspells"] = {
+						[1152] = {
+							["spells"] = {
+								[8014] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = 1,
+							},
+						},
+					},
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[122] = {
+							["count"] = 3,
+							["targets"] = {
+								["Kolkar Pack Runner"] = 1,
+								["Kolkar Packhound"] = 1,
+								["Kolkar Marauder"] = 1,
+							},
+						},
+					},
+					["last"] = 41628.717,
+					["flag"] = 1298,
 					["class"] = "MAGE",
 					["auras"] = {
-						[8156] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 17,
 						},
-						[143] = {
+						[2120] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 4,
 							["school"] = 4,
 							["targets"] = {
-								["Eye of Dar'Khan"] = {
+								["Kolkar Pack Runner"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Kolkar Packhound"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Kolkar Marauder"] = {
+									["uptime"] = 9,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[122] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 16,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Kolkar Marauder"] = {
 									["uptime"] = 1,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 1,
 						},
-						[168] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["school"] = 2,
+							["uptime"] = 15,
 						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[10290] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 17,
 						},
 					},
-					["totaldamage"] = 48,
+					["time"] = 11.53,
+					["damage"] = 495,
+					["damagespells"] = {
+						["Flamestrike (DoT)"] = {
+							["hitmin"] = 13,
+							["id"] = 2120,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 13,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 13,
+								},
+								["Kolkar Marauder"] = {
+									["overkill"] = 1,
+									["amount"] = 65,
+								},
+							},
+							["overkill"] = 1,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 4,
+							["hitmax"] = 13,
+							["amount"] = 91,
+							["hitamount"] = 91,
+						},
+						["Flamestrike"] = {
+							["hitmin"] = 62,
+							["criticalamount"] = 178,
+							["id"] = 2120,
+							["criticalmin"] = 86,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 86,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 62,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 164,
+								},
+							},
+							["criticalmax"] = 92,
+							["critical"] = 2,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 72,
+							["amount"] = 312,
+							["hitamount"] = 134,
+						},
+						["Frost Nova"] = {
+							["hitmin"] = 22,
+							["id"] = 122,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 22,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 22,
+								},
+								["Kolkar Marauder"] = {
+									["overkill"] = 19,
+									["amount"] = 48,
+								},
+							},
+							["overkill"] = 19,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 25,
+							["amount"] = 92,
+							["hitamount"] = 92,
+						},
+					},
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["overkill"] = 20,
+					["name"] = "Woolhead",
+					["ccdone"] = 3,
+					["totaldamage"] = 495,
+					["role"] = "DAMAGER",
+				}, -- [2]
+			},
+			["type"] = "group",
+			["damagetaken"] = 247,
+			["damage"] = 1344,
+			["overheal"] = 8,
+			["etotaldamagetaken"] = 1344,
+			["overkill"] = 34,
+			["edamagetaken"] = 1344,
+			["heal"] = 28,
+			["name"] = "Kolkar Marauder (6)",
+			["mobname"] = "Kolkar Marauder",
+			["edamage"] = 247,
+			["last_action"] = 1727560055,
+			["endtime"] = 1727560055,
+		}, -- [8]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Woolhead"] = {
+									["amount"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+					},
+					["damagetaken"] = 573,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["overkill"] = 23,
+									["amount"] = 248,
+								},
+							},
+							["overkill"] = 23,
+							["amount"] = 248,
+						},
+						[548] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["overkill"] = 25,
+									["amount"] = 51,
+								},
+							},
+							["overkill"] = 25,
+							["amount"] = 51,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						[8045] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 107,
+								},
+							},
+							["amount"] = 107,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["name"] = "Kolkar Pack Runner",
+					["totaldamage"] = 58,
+					["totaldamagetaken"] = 573,
+					["id"] = "0xF130000CCA1816B1",
+					["damage"] = 58,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 29,
+								},
+								["Woolhead"] = {
+									["amount"] = 76,
+								},
+							},
+							["amount"] = 105,
+						},
+					},
+					["damagetaken"] = 661,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["overkill"] = 81,
+									["amount"] = 236,
+								},
+							},
+							["overkill"] = 81,
+							["amount"] = 236,
+						},
+						[8045] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 71,
+								},
+							},
+							["amount"] = 71,
+						},
+						[2137] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 118,
+								},
+							},
+							["amount"] = 118,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 96,
+								},
+							},
+							["amount"] = 96,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 11,
+									["amount"] = 140,
+								},
+							},
+							["overkill"] = 11,
+							["amount"] = 140,
+						},
+					},
+					["name"] = "Kolkar Packhound",
+					["totaldamage"] = 105,
+					["totaldamagetaken"] = 661,
+					["id"] = "0xF1300010DC1816BA",
+					["damage"] = 105,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6660] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+					["damagetaken"] = 280,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 106,
+								},
+							},
+							["amount"] = 106,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+					},
+					["name"] = "Kolkar Wrangler",
+					["totaldamage"] = 17,
+					["totaldamagetaken"] = 280,
+					["id"] = "0xF130000CC8180991",
+					["damage"] = 17,
+				}, -- [3]
+			},
+			["totaldamage"] = 1514,
+			["time"] = 25,
+			["damage"] = 1514,
+			["totaldamagetaken"] = 180,
+			["etotaldamagetaken"] = 1514,
+			["last_time"] = 41539.817,
+			["players"] = {
+				{
+					["last"] = 41539.801,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Wrangler"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[34769] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Kolkar Packhound"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Kolkar Wrangler"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[1044] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 2,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+					},
+					["time"] = 19.32,
+					["totaldamagetaken"] = 46,
+					["damage"] = 720,
+					["overheal"] = 47,
+					["damagetaken"] = 46,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 47,
+							["max"] = 14,
+							["count"] = 5,
+							["amount"] = 17,
+							["school"] = 2,
+							["min"] = 3,
+							["ishot"] = true,
+							["targets"] = {
+								["Jegjegos"] = {
+									["overheal"] = 22,
+									["amount"] = 0,
+								},
+								["Mahkloompah"] = {
+									["overheal"] = 25,
+									["amount"] = 17,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 9,
+							["id"] = 6603,
+							["amount"] = 29,
+							["blocked"] = 10,
+							["BLOCK"] = 1,
+							["hitmax"] = 10,
+							["sources"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 0,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 29,
+								},
+								["Kolkar Wrangler"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 29,
+						},
+						["Shoot"] = {
+							["hitmin"] = 8,
+							["id"] = 6660,
+							["sources"] = {
+								["Kolkar Wrangler"] = {
+									["amount"] = 17,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 9,
+							["amount"] = 17,
+							["hitamount"] = 17,
+						},
+					},
+					["heal"] = 17,
+					["name"] = "Mahkloompah",
+					["overkill"] = 11,
+					["damagespells"] = {
+						["Hand of Reckoning"] = {
+							["hitmin"] = 106,
+							["id"] = 67485,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 107,
+								},
+								["Kolkar Wrangler"] = {
+									["amount"] = 106,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 107,
+							["amount"] = 213,
+							["hitamount"] = 213,
+						},
+						["Seal of Command"] = {
+							["hitmin"] = 21,
+							["id"] = 20424,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 24,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 96,
+								},
+								["Kolkar Wrangler"] = {
+									["amount"] = 44,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 2,
+							["hitmax"] = 25,
+							["amount"] = 164,
+							["hitamount"] = 164,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 29,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 29,
+								},
+								["Kolkar Wrangler"] = {
+									["amount"] = 30,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 30,
+							["amount"] = 59,
+							["hitamount"] = 59,
+						},
+						["Melee"] = {
+							["hitmin"] = 44,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 44,
+								},
+								["Kolkar Packhound"] = {
+									["overkill"] = 11,
+									["amount"] = 140,
+								},
+								["Kolkar Wrangler"] = {
+									["amount"] = 100,
+								},
+							},
+							["overkill"] = 11,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 56,
+							["amount"] = 284,
+							["hitamount"] = 284,
+						},
+					},
+					["totaldamage"] = 720,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Lightning Bolt"] = {
+							["hitmin"] = 51,
+							["id"] = 548,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["overkill"] = 25,
+									["amount"] = 51,
+								},
+							},
+							["overkill"] = 25,
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 51,
+							["amount"] = 51,
+							["hitamount"] = 51,
+						},
+						["Earth Shock"] = {
+							["hitmin"] = 70,
+							["id"] = 8045,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 70,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 71,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 71,
+							["amount"] = 141,
+							["hitamount"] = 141,
+						},
+					},
+					["last"] = 41523.334,
+					["class"] = "SHAMAN",
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
+					["overkill"] = 25,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[325] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+					},
+					["totaldamage"] = 192,
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
+					["flag"] = 1298,
+					["time"] = 5.55,
+					["damage"] = 192,
+				}, -- [2]
+				{
+					["last"] = 41534.393,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[3140] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 16,
+							["refresh"] = 6,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 5,
+								},
+								["Kolkar Packhound"] = {
+									["count"] = 1,
+									["refresh"] = 4,
+									["uptime"] = 12,
+								},
+							},
+							["uptime"] = 15,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 25,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 17.6,
+					["totaldamagetaken"] = 134,
+					["damage"] = 602,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 109,
+							["id"] = 3140,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["overkill"] = 23,
+									["amount"] = 236,
+								},
+								["Kolkar Packhound"] = {
+									["overkill"] = 81,
+									["amount"] = 233,
+								},
+							},
+							["overkill"] = 104,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 127,
+							["amount"] = 469,
+							["hitamount"] = 469,
+						},
+						["Fire Blast"] = {
+							["criticalamount"] = 118,
+							["id"] = 2137,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 118,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 118,
+							["school"] = 4,
+							["criticalmin"] = 118,
+							["criticalmax"] = 118,
+							["count"] = 1,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 3,
+							["id"] = 3140,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 12,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 3,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["hitmax"] = 3,
+							["amount"] = 15,
+							["hitamount"] = 15,
+						},
+					},
+					["damagetaken"] = 134,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 14,
+							["id"] = 6603,
+							["sources"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 58,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 76,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 20,
+							["amount"] = 134,
+							["hitamount"] = 134,
+						},
+					},
+					["name"] = "Woolhead",
+					["overkill"] = 104,
+					["totaldamage"] = 602,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 180,
+			["etotaldamage"] = 180,
+			["overheal"] = 47,
+			["overkill"] = 140,
+			["edamagetaken"] = 1514,
+			["heal"] = 17,
+			["name"] = "Kolkar Pack Runner (4)",
+			["mobname"] = "Kolkar Pack Runner",
+			["starttime"] = 1727559941,
+			["edamage"] = 180,
+			["last_action"] = 1727559966,
+			["endtime"] = 1727559966,
+		}, -- [9]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						[9532] = {
+							["school"] = 8,
+							["targets"] = {
+								["Woolhead"] = {
+									["amount"] = 66,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["damagetaken"] = 572,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 25,
+									["amount"] = 104,
+								},
+							},
+							["overkill"] = 25,
+							["amount"] = 104,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+						[2137] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 74,
+								},
+							},
+							["amount"] = 74,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["overkill"] = 41,
+									["amount"] = 297,
+								},
+							},
+							["overkill"] = 41,
+							["amount"] = 297,
+						},
+					},
+					["name"] = "Kolkar Stormer",
+					["totaldamage"] = 76,
+					["totaldamagetaken"] = 572,
+					["id"] = "0xF130000CC917EC56",
+					["damage"] = 76,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						[172] = {
+							["school"] = 32,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 27,
+								},
+							},
+							["amount"] = 27,
+						},
+					},
+					["damagetaken"] = 484,
+					["id"] = "0xF130000D4517EC8E",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 194,
+								},
+							},
+							["amount"] = 194,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 104,
+								},
+							},
+							["amount"] = 104,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 12,
+									["amount"] = 117,
+								},
+							},
+							["overkill"] = 12,
+							["amount"] = 117,
+						},
+						[8045] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+					},
+					["totaldamage"] = 57,
+					["name"] = "Kolkar Bloodcharger",
+					["totaldamagetaken"] = 484,
+					["flag"] = 2632,
+					["damage"] = 57,
+				}, -- [2]
+			},
+			["totaldamage"] = 1056,
+			["time"] = 21,
+			["damage"] = 1056,
+			["totaldamagetaken"] = 133,
+			["etotaldamagetaken"] = 1056,
+			["last_time"] = 41443.06,
+			["players"] = {
+				{
+					["last"] = 41441.86,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[34769] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 6,
+						},
+					},
+					["time"] = 17.35,
+					["totaldamagetaken"] = 67,
+					["damage"] = 616,
+					["damagespells"] = {
+						["Hand of Reckoning"] = {
+							["hitmin"] = 104,
+							["id"] = 67485,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 104,
+								},
+								["Kolkar Stormer"] = {
+									["overkill"] = 25,
+									["amount"] = 104,
+								},
+							},
+							["overkill"] = 25,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 104,
+							["amount"] = 208,
+							["hitamount"] = 208,
+						},
+						["Seal of Command"] = {
+							["blocked"] = 14,
+							["criticalmax"] = 40,
+							["hitmin"] = 14,
+							["criticalamount"] = 40,
+							["id"] = 20424,
+							["criticalmin"] = 40,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 24,
+								},
+								["Kolkar Bloodcharger"] = {
+									["overkill"] = 12,
+									["amount"] = 117,
+								},
+							},
+							["overkill"] = 12,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 24,
+							["amount"] = 141,
+							["hitamount"] = 101,
+						},
+						["Melee"] = {
+							["hitmin"] = 45,
+							["criticalamount"] = 100,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 45,
+								},
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 194,
+								},
+							},
+							["criticalmin"] = 100,
+							["critical"] = 1,
+							["criticalmax"] = 100,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 49,
+							["amount"] = 239,
+							["hitamount"] = 139,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 28,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 28,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 28,
+							["amount"] = 28,
+							["hitamount"] = 28,
+						},
+					},
+					["damagetaken"] = 67,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 11,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 3,
+									["amount"] = 11,
+								},
+								["Woolhead"] = {
+									["overheal"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 11,
+							["school"] = 2,
+							["max"] = 11,
+							["ishot"] = true,
+							["min"] = 11,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 9,
+							["id"] = 6603,
+							["blocked"] = 32,
+							["BLOCK"] = 3,
+							["amount"] = 40,
+							["sources"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 30,
+								},
+								["Kolkar Stormer"] = {
+									["amount"] = 10,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 11,
+							["MISS"] = 1,
+							["hitamount"] = 40,
+						},
+						["Corruption (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 172,
+							["hitmax"] = 10,
+							["sources"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 27,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 32,
+							["resisted"] = 3,
+							["amount"] = 27,
+							["hitamount"] = 27,
+						},
+					},
+					["heal"] = 11,
+					["name"] = "Mahkloompah",
+					["overkill"] = 37,
+					["overheal"] = 11,
+					["totaldamage"] = 616,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Earth Shock"] = {
+							["hitmin"] = 69,
+							["id"] = 8045,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 69,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 69,
+							["amount"] = 69,
+							["hitamount"] = 69,
+						},
+					},
+					["last"] = 41429.201,
+					["time"] = 3.5,
+					["totaldamage"] = 69,
+					["flag"] = 1298,
+					["class"] = "SHAMAN",
+					["id"] = "0x0700000000B02488",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[325] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+					},
+					["spec"] = 262,
+					["name"] = "Jegjegos",
+					["role"] = "DAMAGER",
+					["interrupt"] = 1,
+					["interruptspells"] = {
+						[57994] = {
+							["spells"] = {
+								[6535] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Kolkar Stormer"] = 1,
+							},
+						},
+					},
+					["damage"] = 69,
+				}, -- [2]
+				{
+					["last"] = 41440.735,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[3140] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+					},
+					["time"] = 16.53,
+					["totaldamagetaken"] = 66,
+					["damage"] = 371,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmin"] = 162,
+							["hitmin"] = 123,
+							["criticalamount"] = 162,
+							["id"] = 3140,
+							["criticalmax"] = 162,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["overkill"] = 41,
+									["amount"] = 285,
+								},
+							},
+							["overkill"] = 41,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 123,
+							["amount"] = 285,
+							["hitamount"] = 123,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 3,
+							["id"] = 3140,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 12,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 3,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 74,
+							["id"] = 2137,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 74,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 74,
+							["amount"] = 74,
+							["hitamount"] = 74,
+						},
+					},
+					["damagetaken"] = 66,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["overkill"] = 41,
+					["name"] = "Woolhead",
+					["damagetakenspells"] = {
+						["Lightning Bolt"] = {
+							["hitmin"] = 33,
+							["id"] = 9532,
+							["hitmax"] = 33,
+							["sources"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 8,
+							["amount"] = 66,
+							["hitamount"] = 66,
+						},
+					},
+					["totaldamage"] = 371,
+					["role"] = "DAMAGER",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 133,
+			["interrupt"] = 1,
+			["etotaldamage"] = 133,
+			["overheal"] = 11,
+			["overkill"] = 78,
+			["edamagetaken"] = 1056,
+			["heal"] = 11,
+			["name"] = "Kolkar Stormer",
+			["mobname"] = "Kolkar Stormer",
+			["starttime"] = 1727559848,
+			["edamage"] = 133,
+			["last_action"] = 1727559869,
+			["endtime"] = 1727559869,
+		}, -- [10]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["damagetaken"] = 328,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 105,
+								},
+							},
+							["amount"] = 105,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 1,
+									["amount"] = 39,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 39,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 37,
+									["amount"] = 154,
+								},
+							},
+							["overkill"] = 37,
+							["amount"] = 154,
+						},
+					},
+					["name"] = "Kolkar Packhound",
+					["totaldamage"] = 11,
+					["totaldamagetaken"] = 328,
+					["id"] = "0xF1300010DC17ED5F",
+					["damage"] = 11,
+				}, -- [1]
+				{
+					["id"] = "0xF130000CCA17ECFD",
+					["name"] = "Kolkar Pack Runner",
+					["totaldamagetaken"] = 28,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 28,
+					["damagetakenspells"] = {
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 4,
+									["amount"] = 25,
+								},
+							},
+							["overkill"] = 4,
+							["amount"] = 25,
+						},
+					},
+				}, -- [2]
+			},
+			["totaldamage"] = 356,
+			["time"] = 5,
+			["damage"] = 356,
+			["totaldamagetaken"] = 11,
+			["etotaldamagetaken"] = 356,
+			["last_time"] = 41410.619,
+			["players"] = {
+				{
+					["last"] = 41410.21,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["time"] = 4.23,
+					["totaldamagetaken"] = 11,
+					["damage"] = 353,
+					["overheal"] = 0,
+					["damagetaken"] = 11,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 0,
+									["amount"] = 42,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 42,
+							["school"] = 2,
+							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 14,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 11,
+							["id"] = 6603,
+							["blocked"] = 10,
+							["BLOCK"] = 1,
+							["sources"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 11,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 11,
+							["amount"] = 11,
+							["hitamount"] = 11,
+						},
+					},
+					["heal"] = 42,
+					["name"] = "Mahkloompah",
+					["overkill"] = 42,
+					["damagespells"] = {
+						["Hand of Reckoning"] = {
+							["hitmin"] = 105,
+							["id"] = 67485,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 105,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 105,
+							["amount"] = 105,
+							["hitamount"] = 105,
+						},
+						["Seal of Command"] = {
+							["hitmin"] = 18,
+							["id"] = 20424,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["overkill"] = 1,
+									["amount"] = 39,
+								},
+								["Kolkar Pack Runner"] = {
+									["overkill"] = 4,
+									["amount"] = 25,
+								},
+							},
+							["overkill"] = 5,
+							["blocked"] = 6,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 25,
+							["amount"] = 64,
+							["hitamount"] = 64,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 30,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 30,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 30,
+							["amount"] = 30,
+							["hitamount"] = 30,
+						},
+						["Melee"] = {
+							["hitmin"] = 54,
+							["criticalamount"] = 100,
+							["id"] = 6603,
+							["hitmax"] = 54,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["overkill"] = 37,
+									["amount"] = 154,
+								},
+							},
+							["overkill"] = 37,
+							["count"] = 2,
+							["criticalmax"] = 100,
+							["critical"] = 1,
+							["amount"] = 154,
+							["school"] = 1,
+							["hit"] = 1,
+							["criticalmin"] = 100,
+							["hitamount"] = 54,
+						},
+					},
+					["totaldamage"] = 353,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["last"] = 41405.986,
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
+					["auras"] = {
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[325] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
+					["time"] = 0,
+					["class"] = "SHAMAN",
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Fireball (DoT)"] = {
+							["hitmin"] = 3,
+							["id"] = 3140,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 3,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 3,
+							["amount"] = 3,
+							["hitamount"] = 3,
+						},
+					},
+					["last"] = 41407.643,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["class"] = "MAGE",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["totaldamage"] = 3,
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
+					["flag"] = 1298,
+					["time"] = 1.66,
+					["damage"] = 3,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 11,
+			["overheal"] = 0,
+			["etotaldamage"] = 11,
+			["overkill"] = 42,
+			["edamagetaken"] = 356,
+			["heal"] = 42,
+			["name"] = "Kolkar Packhound",
+			["mobname"] = "Kolkar Packhound",
+			["starttime"] = 1727559832,
+			["edamage"] = 11,
+			["last_action"] = 1727559836,
+			["endtime"] = 1727559837,
+		}, -- [11]
+		{
+			["mana"] = 144,
+			["damage"] = 1136,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 89,
+								},
+							},
+							["amount"] = 89,
+						},
+					},
+					["damagetaken"] = 866,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						[8349] = {
+							["school"] = 4,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 139,
+								},
+							},
+							["amount"] = 139,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 204,
+								},
+							},
+							["amount"] = 204,
+						},
+						[8045] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 71,
+								},
+							},
+							["amount"] = 71,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 93,
+								},
+							},
+							["amount"] = 93,
+						},
+						[2137] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["overkill"] = 32,
+									["amount"] = 75,
+								},
+							},
+							["overkill"] = 32,
+							["amount"] = 75,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 119,
+								},
+							},
+							["amount"] = 119,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 105,
+								},
+							},
+							["amount"] = 105,
+						},
+					},
+					["name"] = "Verog the Dervish",
+					["totaldamage"] = 89,
+					["totaldamagetaken"] = 866,
+					["id"] = "0xF130000D4317B96A",
+					["damage"] = 89,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["damagetaken"] = 270,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 15,
+									["amount"] = 96,
+								},
+							},
+							["overkill"] = 15,
+							["amount"] = 96,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						[879] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 137,
+								},
+							},
+							["amount"] = 137,
+						},
+					},
+					["name"] = "Kolkar Bloodcharger",
+					["totaldamage"] = 10,
+					["totaldamagetaken"] = 270,
+					["id"] = "0xF130000D451794B8",
+					["damage"] = 10,
+				}, -- [2]
+			},
+			["totaldamage"] = 1136,
+			["time"] = 13,
+			["potion"] = 1,
+			["totaldamagetaken"] = 99,
+			["etotaldamagetaken"] = 1136,
+			["last_time"] = 41388.235,
+			["players"] = {
+				{
+					["last"] = 41387.01,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[26573] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["time"] = 11.62,
+					["totaldamagetaken"] = 99,
+					["damage"] = 851,
+					["overheal"] = 0,
+					["damagetaken"] = 99,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 0,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 28,
+							["school"] = 2,
+							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 14,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 10,
+							["id"] = 6603,
+							["amount"] = 99,
+							["sources"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 10,
+								},
+								["Verog the Dervish"] = {
+									["amount"] = 89,
+								},
+							},
+							["count"] = 11,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 14,
+							["MISS"] = 2,
+							["hitamount"] = 99,
+						},
+					},
+					["heal"] = 28,
+					["name"] = "Mahkloompah",
+					["overkill"] = 15,
+					["damagespells"] = {
+						["Hand of Reckoning"] = {
+							["hitmin"] = 105,
+							["id"] = 67485,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["amount"] = 105,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 105,
+							["amount"] = 105,
+							["hitamount"] = 105,
+						},
+						["Exorcism"] = {
+							["hitmin"] = 137,
+							["id"] = 879,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 137,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 137,
+							["amount"] = 137,
+							["hitamount"] = 137,
+						},
+						["Melee"] = {
+							["hitmin"] = 42,
+							["criticalamount"] = 96,
+							["id"] = 6603,
+							["criticalmin"] = 96,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["overkill"] = 15,
+									["amount"] = 96,
+								},
+								["Verog the Dervish"] = {
+									["amount"] = 93,
+								},
+							},
+							["overkill"] = 15,
+							["critical"] = 1,
+							["criticalmax"] = 96,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 51,
+							["amount"] = 189,
+							["hitamount"] = 93,
+						},
+						["Seal of Command"] = {
+							["hitmin"] = 20,
+							["id"] = 20424,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 20,
+								},
+								["Verog the Dervish"] = {
+									["amount"] = 119,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 25,
+							["amount"] = 139,
+							["hitamount"] = 139,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 29,
+							["id"] = 20467,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["amount"] = 60,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 31,
+							["amount"] = 60,
+							["hitamount"] = 60,
+						},
+						["Consecration (DoT)"] = {
+							["hitmin"] = 17,
+							["id"] = 26573,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 17,
+								},
+								["Verog the Dervish"] = {
+									["amount"] = 204,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 2,
+							["hitmax"] = 17,
+							["amount"] = 221,
+							["hitamount"] = 221,
+						},
+					},
+					["totaldamage"] = 851,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["last"] = 41384.144,
+					["flag"] = 1298,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[325] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["time"] = 5.83,
+					["damage"] = 210,
+					["damagespells"] = {
+						["Fire Nova"] = {
+							["hitmin"] = 68,
+							["id"] = 8349,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["amount"] = 139,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 71,
+							["amount"] = 139,
+							["hitamount"] = 139,
+						},
+						["Earth Shock"] = {
+							["hitmin"] = 71,
+							["id"] = 8045,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["amount"] = 71,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 71,
+							["amount"] = 71,
+							["hitamount"] = 71,
+						},
+					},
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
+					["potionspells"] = {
+						[2455] = 1,
+					},
+					["potion"] = 1,
+					["name"] = "Jegjegos",
+					["manaspells"] = {
+						[437] = 144,
+					},
+					["mana"] = 144,
+					["totaldamage"] = 210,
+					["role"] = "DAMAGER",
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Fire Blast"] = {
+							["hitmin"] = 75,
+							["id"] = 2137,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["overkill"] = 32,
+									["amount"] = 75,
+								},
+							},
+							["overkill"] = 32,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 75,
+							["amount"] = 75,
+							["hitamount"] = 75,
+						},
+					},
+					["last"] = 41387.203,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["overkill"] = 32,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[35022] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["totaldamage"] = 75,
 					["role"] = "DAMAGER",
 					["name"] = "Woolhead",
 					["flag"] = 1298,
 					["time"] = 3.5,
-					["damage"] = 48,
+					["damage"] = 75,
 				}, -- [3]
 			},
 			["type"] = "group",
-			["damagetaken"] = 69,
-			["damage"] = 481,
-			["etotaldamage"] = 69,
+			["damagetaken"] = 99,
+			["overheal"] = 0,
+			["etotaldamage"] = 99,
+			["overkill"] = 47,
+			["edamagetaken"] = 1136,
+			["heal"] = 28,
+			["name"] = "Verog the Dervish",
+			["mobname"] = "Verog the Dervish",
+			["starttime"] = 1727559801,
+			["edamage"] = 99,
+			["last_action"] = 1727559814,
+			["endtime"] = 1727559814,
+		}, -- [12]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 73,
+								},
+							},
+							["amount"] = 73,
+						},
+						[11976] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["damagetaken"] = 390,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 20,
+									["amount"] = 144,
+								},
+							},
+							["overkill"] = 20,
+							["amount"] = 144,
+						},
+						[879] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 131,
+								},
+							},
+							["amount"] = 131,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 9,
+									["amount"] = 86,
+								},
+							},
+							["overkill"] = 9,
+							["amount"] = 86,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["name"] = "Kolkar Marauder",
+					["totaldamage"] = 99,
+					["totaldamagetaken"] = 390,
+					["id"] = "0xF130000CCB17EFF5",
+					["damage"] = 99,
+				}, -- [1]
+			},
+			["dispel"] = 1,
+			["totaldamage"] = 390,
+			["time"] = 12,
+			["damage"] = 390,
+			["totaldamagetaken"] = 99,
+			["etotaldamagetaken"] = 390,
+			["last_time"] = 41368.369,
+			["players"] = {
+				{
+					["last"] = 41368.337,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+					},
+					["dispel"] = 1,
+					["role"] = "DAMAGER",
+					["time"] = 9.84,
+					["totaldamagetaken"] = 99,
+					["damage"] = 390,
+					["damagespells"] = {
+						["Exorcism"] = {
+							["hitmin"] = 131,
+							["id"] = 879,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 131,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 131,
+							["amount"] = 131,
+							["hitamount"] = 131,
+						},
+						["Seal of Command"] = {
+							["criticalmin"] = 42,
+							["hitmin"] = 21,
+							["criticalamount"] = 42,
+							["id"] = 20424,
+							["criticalmax"] = 42,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["overkill"] = 9,
+									["amount"] = 86,
+								},
+							},
+							["overkill"] = 9,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 23,
+							["amount"] = 86,
+							["hitamount"] = 44,
+						},
+						["Melee"] = {
+							["hitmin"] = 42,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["overkill"] = 20,
+									["amount"] = 144,
+								},
+							},
+							["overkill"] = 20,
+							["PARRY"] = 1,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 53,
+							["amount"] = 144,
+							["hitamount"] = 144,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 29,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 29,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 29,
+							["amount"] = 29,
+							["hitamount"] = 29,
+						},
+					},
+					["damagetaken"] = 99,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 28,
+							["max"] = 14,
+							["count"] = 4,
+							["amount"] = 27,
+							["school"] = 2,
+							["min"] = 13,
+							["ishot"] = true,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 28,
+									["amount"] = 27,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 11,
+							["id"] = 6603,
+							["sources"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 73,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 39,
+							["amount"] = 73,
+							["hitamount"] = 73,
+						},
+						["Strike"] = {
+							["hitmin"] = 26,
+							["id"] = 11976,
+							["sources"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 26,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 26,
+							["amount"] = 26,
+							["hitamount"] = 26,
+						},
+					},
+					["overkill"] = 29,
+					["heal"] = 27,
+					["name"] = "Mahkloompah",
+					["overheal"] = 28,
+					["dispelspells"] = {
+						[1152] = {
+							["spells"] = {
+								[8014] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = 1,
+							},
+						},
+					},
+					["totaldamage"] = 390,
+				}, -- [1]
+				{
+					["last"] = 41357.003,
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[8395] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[325] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
+					["time"] = 0,
+					["class"] = "SHAMAN",
+				}, -- [2]
+				{
+					["last"] = 41357.003,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 99,
+			["overheal"] = 28,
+			["etotaldamage"] = 99,
+			["overkill"] = 29,
+			["edamagetaken"] = 390,
+			["heal"] = 27,
+			["name"] = "Kolkar Marauder (5)",
+			["mobname"] = "Kolkar Marauder",
+			["starttime"] = 1727559783,
+			["edamage"] = 99,
+			["last_action"] = 1727559794,
+			["endtime"] = 1727559795,
+		}, -- [13]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Jegjegos"] = {
+									["amount"] = 93,
+								},
+							},
+							["amount"] = 93,
+						},
+					},
+					["damagetaken"] = 316,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[26365] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						[8045] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 69,
+								},
+							},
+							["amount"] = 69,
+						},
+						[548] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["overkill"] = 48,
+									["amount"] = 166,
+								},
+							},
+							["overkill"] = 48,
+							["amount"] = 166,
+						},
+					},
+					["name"] = "Kolkar Pack Runner",
+					["totaldamage"] = 93,
+					["totaldamagetaken"] = 316,
+					["id"] = "0xF130000CCA161CB9",
+					["damage"] = 93,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Jegjegos"] = {
+									["amount"] = 15,
+								},
+								["Mahkloompah"] = {
+									["amount"] = 9,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["damagetaken"] = 300,
+					["id"] = "0xF1300010DC137FBA",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 105,
+								},
+							},
+							["amount"] = 105,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 64,
+								},
+							},
+							["amount"] = 64,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+					},
+					["totaldamage"] = 24,
+					["name"] = "Kolkar Packhound",
+					["totaldamagetaken"] = 300,
+					["flag"] = 2632,
+					["damage"] = 24,
+				}, -- [2]
+			},
+			["totaldamage"] = 616,
+			["time"] = 11,
+			["totaldamagetaken"] = 117,
+			["etotaldamagetaken"] = 616,
+			["last_time"] = 41334.636,
+			["players"] = {
+				{
+					["last"] = 41333.095,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[62124] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[20185] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 7.92,
+					["totaldamagetaken"] = 9,
+					["damage"] = 321,
+					["damagespells"] = {
+						["Hand of Reckoning"] = {
+							["hitmin"] = 105,
+							["id"] = 67485,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 105,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 105,
+							["amount"] = 105,
+							["hitamount"] = 105,
+						},
+						["Seal of Command"] = {
+							["criticalmin"] = 44,
+							["hitmin"] = 20,
+							["criticalamount"] = 44,
+							["id"] = 20424,
+							["criticalmax"] = 44,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 21,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 64,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 21,
+							["PARRY"] = 1,
+							["count"] = 4,
+							["amount"] = 85,
+							["school"] = 2,
+							["casts"] = 1,
+							["hit"] = 2,
+							["hitamount"] = 41,
+						},
+						["Judgement of Command"] = {
+							["hitmin"] = 29,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 29,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 29,
+							["amount"] = 29,
+							["hitamount"] = 29,
+						},
+						["Melee"] = {
+							["hitmin"] = 49,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 102,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 53,
+							["amount"] = 102,
+							["hitamount"] = 102,
+						},
+					},
+					["damagetaken"] = 9,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 24,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 24,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 18,
+							["school"] = 2,
+							["max"] = 9,
+							["ishot"] = true,
+							["min"] = 9,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 9,
+							["id"] = 6603,
+							["hitmax"] = 9,
+							["amount"] = 9,
+							["sources"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 9,
+								},
+							},
+							["BLOCK"] = 1,
+							["blocked"] = 9,
+							["school"] = 1,
+							["hit"] = 1,
+							["count"] = 2,
+							["hitamount"] = 9,
+						},
+					},
+					["heal"] = 18,
+					["name"] = "Mahkloompah",
+					["overheal"] = 24,
+					["totaldamage"] = 321,
+				}, -- [1]
+				{
+					["last"] = 41334.595,
+					["flag"] = 66834,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[325] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 6,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 6.6,
+					["totaldamagetaken"] = 108,
+					["damage"] = 295,
+					["damagespells"] = {
+						["Lightning Shield"] = {
+							["hitmin"] = 30,
+							["id"] = 26365,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 60,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 30,
+							["amount"] = 60,
+							["hitamount"] = 60,
+						},
+						["Lightning Bolt"] = {
+							["hitmin"] = 54,
+							["id"] = 548,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["overkill"] = 48,
+									["amount"] = 166,
+								},
+							},
+							["overkill"] = 48,
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["hitmax"] = 58,
+							["amount"] = 166,
+							["hitamount"] = 166,
+						},
+						["Earth Shock"] = {
+							["hitmin"] = 69,
+							["id"] = 8045,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 69,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 69,
+							["amount"] = 69,
+							["hitamount"] = 69,
+						},
+					},
+					["damagetaken"] = 108,
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 15,
+							["id"] = 6603,
+							["sources"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 93,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 15,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 25,
+							["amount"] = 108,
+							["hitamount"] = 108,
+						},
+					},
+					["name"] = "Jegjegos",
+					["overkill"] = 48,
+					["totaldamage"] = 295,
+				}, -- [2]
+				{
+					["last"] = 41325.019,
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["auras"] = {
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 9,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
+					["flag"] = 66834,
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 117,
+			["damage"] = 616,
+			["etotaldamage"] = 117,
+			["overheal"] = 24,
 			["overkill"] = 48,
-			["edamagetaken"] = 481,
-			["name"] = "Eye of Dar'Khan (4)",
-			["mobname"] = "Eye of Dar'Khan",
-			["starttime"] = 1727536158,
-			["edamage"] = 69,
-			["last_action"] = 1727536164,
-			["endtime"] = 1727536166,
+			["edamagetaken"] = 616,
+			["heal"] = 18,
+			["name"] = "Kolkar Pack Runner (3)",
+			["mobname"] = "Kolkar Pack Runner",
+			["starttime"] = 1727559751,
+			["edamage"] = 117,
+			["last_action"] = 1727559760,
+			["endtime"] = 1727559762,
+		}, -- [14]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Jegjegos"] = {
+									["amount"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["damagetaken"] = 408,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[3140] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 124,
+								},
+							},
+							["amount"] = 124,
+						},
+						[8349] = {
+							["school"] = 4,
+							["sources"] = {
+								["Jegjegos"] = {
+									["overkill"] = 52,
+									["amount"] = 69,
+								},
+							},
+							["overkill"] = 52,
+							["amount"] = 69,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 34,
+								},
+							},
+							["amount"] = 34,
+						},
+						[8045] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 67,
+								},
+							},
+							["amount"] = 67,
+						},
+						[548] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 56,
+								},
+							},
+							["amount"] = 56,
+						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 58,
+								},
+							},
+							["amount"] = 58,
+						},
+					},
+					["name"] = "Kolkar Marauder",
+					["totaldamage"] = 75,
+					["totaldamagetaken"] = 408,
+					["id"] = "0xF130000CCB133D1D",
+					["damage"] = 75,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["damagetaken"] = 333,
+					["id"] = "0xF130000CCA1751CF",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8349] = {
+							["school"] = 4,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 63,
+								},
+							},
+							["amount"] = 63,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 85,
+								},
+							},
+							["amount"] = 85,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+						[2120] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["overkill"] = 5,
+									["amount"] = 72,
+								},
+							},
+							["overkill"] = 5,
+							["amount"] = 72,
+						},
+					},
+					["totaldamage"] = 22,
+					["name"] = "Kolkar Pack Runner",
+					["totaldamagetaken"] = 333,
+					["flag"] = 2632,
+					["damage"] = 22,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 62,
+								},
+							},
+							["amount"] = 62,
+						},
+					},
+					["damagetaken"] = 550,
+					["id"] = "0xF130000D45118905",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8349] = {
+							["school"] = 4,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 153,
+								},
+							},
+							["amount"] = 153,
+						},
+						[2120] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["overkill"] = 48,
+									["amount"] = 65,
+								},
+							},
+							["overkill"] = 48,
+							["amount"] = 65,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+						[8045] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["overkill"] = 11,
+									["amount"] = 64,
+								},
+							},
+							["overkill"] = 11,
+							["amount"] = 64,
+						},
+						[3606] = {
+							["school"] = 4,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["totaldamage"] = 62,
+					["name"] = "Kolkar Bloodcharger",
+					["totaldamagetaken"] = 550,
+					["flag"] = 68168,
+					["damage"] = 62,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["amount"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["damagetaken"] = 310,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 102,
+								},
+							},
+							["amount"] = 102,
+						},
+						[548] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["overkill"] = 37,
+									["amount"] = 56,
+								},
+							},
+							["overkill"] = 37,
+							["amount"] = 56,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 46,
+								},
+							},
+							["amount"] = 46,
+						},
+						[3606] = {
+							["school"] = 4,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						[20424] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						[2120] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 73,
+								},
+							},
+							["amount"] = 73,
+						},
+					},
+					["name"] = "Kolkar Packhound",
+					["totaldamage"] = 28,
+					["totaldamagetaken"] = 310,
+					["id"] = "0xF1300010DC1751CC",
+					["damage"] = 28,
+				}, -- [4]
+			},
+			["totaldamage"] = 1601,
+			["time"] = 15,
+			["damage"] = 1601,
+			["totaldamagetaken"] = 187,
+			["etotaldamagetaken"] = 1601,
+			["last_time"] = 41303.878,
+			["players"] = {
+				{
+					["last"] = 41302.694,
+					["flag"] = 1297,
+					["class"] = "PALADIN",
+					["auras"] = {
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[34769] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[26573] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 2,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Kolkar Bloodcharger"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+								["Kolkar Packhound"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+								["Kolkar Marauder"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[31790] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["time"] = 10.47,
+					["totaldamagetaken"] = 112,
+					["damage"] = 730,
+					["damagespells"] = {
+						["Consecration (DoT)"] = {
+							["hitmin"] = 17,
+							["id"] = 26573,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 85,
+								},
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 153,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 102,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 34,
+								},
+							},
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 2,
+							["hitmax"] = 17,
+							["amount"] = 374,
+							["hitamount"] = 374,
+						},
+						["Seal of Command"] = {
+							["DODGE"] = 1,
+							["criticalmax"] = 44,
+							["hitmin"] = 21,
+							["criticalamount"] = 44,
+							["id"] = 20424,
+							["criticalmin"] = 44,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 65,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 21,
+								},
+								["Kolkar Bloodcharger"] = {
+									["overkill"] = 11,
+									["amount"] = 64,
+								},
+							},
+							["overkill"] = 11,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 22,
+							["amount"] = 150,
+							["hitamount"] = 106,
+						},
+						["Judgement of Command"] = {
+							["criticalamount"] = 58,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 58,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 58,
+							["school"] = 2,
+							["criticalmin"] = 58,
+							["criticalmax"] = 58,
+							["count"] = 1,
+						},
+						["Melee"] = {
+							["hitmin"] = 46,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 48,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 46,
+								},
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 54,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 54,
+							["amount"] = 148,
+							["hitamount"] = 148,
+						},
+					},
+					["damagetaken"] = 112,
+					["id"] = "0x0700000000B01AF6",
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 0,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14,
+							["school"] = 2,
+							["max"] = 14,
+							["ishot"] = true,
+							["min"] = 14,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 9,
+							["id"] = 6603,
+							["blocked"] = 12,
+							["BLOCK"] = 1,
+							["hitmax"] = 11,
+							["sources"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 22,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 28,
+								},
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 62,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 11,
+							["school"] = 1,
+							["PARRY"] = 4,
+							["amount"] = 112,
+							["hitamount"] = 112,
+						},
+					},
+					["heal"] = 14,
+					["name"] = "Mahkloompah",
+					["overkill"] = 11,
+					["overheal"] = 0,
+					["totaldamage"] = 730,
+					["role"] = "DAMAGER",
+				}, -- [1]
+				{
+					["last"] = 41303.853,
+					["flag"] = 1298,
+					["class"] = "SHAMAN",
+					["auras"] = {
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 10.3,
+					["totaldamagetaken"] = 75,
+					["damage"] = 537,
+					["damagespells"] = {
+						["Fire Nova"] = {
+							["hitmin"] = 63,
+							["id"] = 8349,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 63,
+								},
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 132,
+								},
+								["Kolkar Marauder"] = {
+									["overkill"] = 52,
+									["amount"] = 69,
+								},
+							},
+							["overkill"] = 52,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 69,
+							["amount"] = 264,
+							["hitamount"] = 264,
+						},
+						["Attack (Searing Totem)"] = {
+							["hitmin"] = 12,
+							["id"] = 3606,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 12,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 12,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 12,
+							["amount"] = 24,
+							["hitamount"] = 24,
+						},
+						["Lightning Bolt"] = {
+							["hitmin"] = 56,
+							["id"] = 548,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["overkill"] = 37,
+									["amount"] = 56,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 56,
+								},
+							},
+							["overkill"] = 37,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 56,
+							["amount"] = 112,
+							["hitamount"] = 112,
+						},
+						["Earth Shock"] = {
+							["hitmin"] = 67,
+							["id"] = 8045,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 70,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 67,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 70,
+							["amount"] = 137,
+							["hitamount"] = 137,
+						},
+					},
+					["damagetaken"] = 75,
+					["id"] = "0x0700000000B02488",
+					["spec"] = 262,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 16,
+							["id"] = 6603,
+							["sources"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 75,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 59,
+							["amount"] = 75,
+							["hitamount"] = 75,
+						},
+					},
+					["name"] = "Jegjegos",
+					["overkill"] = 89,
+					["totaldamage"] = 537,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 124,
+							["id"] = 3140,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 124,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 124,
+							["amount"] = 124,
+							["hitamount"] = 124,
+						},
+						["Flamestrike"] = {
+							["hitmin"] = 60,
+							["id"] = 2120,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["overkill"] = 5,
+									["amount"] = 72,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 60,
+								},
+								["Kolkar Bloodcharger"] = {
+									["overkill"] = 48,
+									["amount"] = 65,
+								},
+							},
+							["overkill"] = 53,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 72,
+							["amount"] = 197,
+							["hitamount"] = 197,
+						},
+						["Flamestrike (DoT)"] = {
+							["hitmin"] = 13,
+							["id"] = 2120,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 13,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 13,
+							["amount"] = 13,
+							["hitamount"] = 13,
+						},
+					},
+					["last"] = 41301.87,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000B02309",
+					["spec"] = 63,
+					["overkill"] = 53,
+					["auras"] = {
+						[3140] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[2120] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[2374] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[35022] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["totaldamage"] = 334,
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
+					["flag"] = 1298,
+					["time"] = 9.039999999999999,
+					["damage"] = 334,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 187,
+			["etotaldamage"] = 187,
+			["overheal"] = 0,
+			["overkill"] = 153,
+			["edamagetaken"] = 1601,
+			["heal"] = 14,
+			["name"] = "Kolkar Marauder (4)",
+			["mobname"] = "Kolkar Marauder",
+			["starttime"] = 1727559716,
+			["edamage"] = 187,
+			["last_action"] = 1727559730,
+			["endtime"] = 1727559731,
 		}, -- [15]
 	},
 	["version"] = 1878,
 	["total"] = {
-		["mana"] = 1813,
-		["dispel"] = 11,
-		["totaldamage"] = 123085,
-		["time"] = 2251,
-		["totaldamagetaken"] = 19510,
-		["damage"] = 123085,
+		["mana"] = 960,
+		["dispel"] = 2,
+		["totaldamage"] = 70768,
+		["time"] = 1224,
+		["totaldamagetaken"] = 12395,
+		["damage"] = 70768,
+		["overheal"] = 1566,
+		["damagetaken"] = 12395,
+		["interrupt"] = 53,
+		["overkill"] = 5912,
+		["heal"] = 6152,
+		["potion"] = 4,
+		["ccdone"] = 35,
+		["name"] = "Total",
+		["starttime"] = 1727557522,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "PALADIN",
-				["dispel"] = 11,
-				["time"] = 1662.83,
-				["totaldamagetaken"] = 17122,
-				["damage"] = 75295,
-				["overheal"] = 3538,
-				["damagetaken"] = 17122,
+				["dispel"] = 2,
+				["time"] = 892.9799999999977,
+				["totaldamagetaken"] = 10391,
+				["damage"] = 46348,
+				["overheal"] = 978,
+				["damagetaken"] = 10391,
 				["id"] = "0x0700000000B01AF6",
 				["spec"] = 70,
-				["overkill"] = 4782,
-				["potion"] = 3,
-				["heal"] = 7110,
+				["overkill"] = 2279,
+				["heal"] = 3778,
 				["name"] = "Mahkloompah",
-				["ccdone"] = 26,
-				["mana"] = 539,
-				["interrupt"] = 17,
-				["totaldamage"] = 75295,
+				["ccdone"] = 12,
+				["mana"] = 340,
+				["interrupt"] = 10,
+				["totaldamage"] = 46348,
 				["role"] = "DAMAGER",
 			}, -- [1]
 			{
+				["damagetaken"] = 535,
 				["flag"] = 1298,
-				["class"] = "MAGE",
-				["time"] = 677.5500000000001,
-				["totaldamagetaken"] = 327,
-				["damage"] = 16549,
-				["overheal"] = 164,
-				["damagetaken"] = 327,
 				["id"] = "0x0700000000B02309",
-				["spec"] = 63,
-				["overkill"] = 1309,
-				["heal"] = 0,
+				["class"] = "MAGE",
 				["name"] = "Woolhead",
-				["ccdone"] = 2,
-				["mana"] = 143,
-				["potion"] = 1,
-				["totaldamage"] = 16549,
+				["overkill"] = 2520,
+				["totaldamage"] = 10331,
 				["role"] = "DAMAGER",
+				["time"] = 154.1600000000001,
+				["ccdone"] = 12,
+				["totaldamagetaken"] = 535,
+				["spec"] = 63,
+				["damage"] = 10331,
 			}, -- [2]
 			{
 				["flag"] = 1298,
 				["class"] = "SHAMAN",
-				["time"] = 696.23,
-				["totaldamagetaken"] = 2061,
-				["damage"] = 31241,
-				["overheal"] = 157,
-				["damagetaken"] = 2061,
+				["time"] = 305.0600000000001,
+				["totaldamagetaken"] = 1469,
+				["damage"] = 14089,
+				["overheal"] = 588,
+				["damagetaken"] = 1469,
 				["id"] = "0x0700000000B02488",
 				["spec"] = 262,
-				["overkill"] = 2860,
-				["potion"] = 7,
-				["heal"] = 1986,
+				["overkill"] = 1113,
+				["potion"] = 4,
+				["heal"] = 2374,
 				["name"] = "Jegjegos",
-				["ccdone"] = 20,
-				["mana"] = 1131,
-				["interrupt"] = 30,
-				["totaldamage"] = 31241,
+				["ccdone"] = 11,
+				["mana"] = 620,
+				["interrupt"] = 43,
+				["totaldamage"] = 14089,
 				["role"] = "DAMAGER",
 			}, -- [3]
 		},
-		["damagetaken"] = 19510,
-		["interrupt"] = 47,
-		["potion"] = 11,
-		["overkill"] = 8951,
-		["overheal"] = 3859,
-		["heal"] = 9096,
-		["name"] = "Total",
-		["ccdone"] = 48,
-		["starttime"] = 1727528723,
 	},
 }

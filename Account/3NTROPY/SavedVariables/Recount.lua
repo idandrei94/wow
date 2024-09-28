@@ -26,16 +26,16 @@ RecountDB = {
 		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Glacianos - Icecrown"] = "Glacianos - Icecrown",
-		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
 		["Mahkloompah - Icecrown"] = "Mahkloompah - Icecrown",
+		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
-		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
+		["Glacianos - Icecrown"] = "Glacianos - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
@@ -54,7 +54,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 58.00000341936197,
 			["LastInstanceName"] = "Halls of Reflection",
-			["DetailWindowY"] = -16.99999979483828,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -66,7 +66,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -16.99999979483828,
 			["ReportLines"] = 1,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 251.4197662784027,
@@ -96,11 +96,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -60.00000082064688,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -60.00000082064688,
 		},
 		["Rakhnis - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -151,11 +151,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 23.44438869364712,
 			["MainWindowWidth"] = 238.9999938458702,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["DetailWindowY"] = 23.44438869364712,
+			["GraphWindowX"] = 0,
 		},
 		["Flokus - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -618,11 +618,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -296.7037172773043,
 			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 2,
-			["DetailWindowY"] = -296.7037172773043,
+			["GraphWindowX"] = 0,
 		},
 		["Mirceabravo - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -636,7 +636,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -648,7 +648,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
@@ -680,10 +680,11 @@ RecountDB = {
 			["MainWindowWidth"] = 227.3745989945492,
 			["MainWindowHeight"] = 290.5111306622856,
 		},
-		["Glacianos - Icecrown"] = {
+		["Mahkloompah - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
+					["x"] = -6.22105477605885,
 					["w"] = 140.0000106684094,
 					["h"] = 200.0000027354896,
 				},
@@ -696,9 +697,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
 			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["DetailWindowX"] = 0,
 		},
 		["Lingurita - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -721,11 +723,10 @@ RecountDB = {
 			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
 		},
-		["Mahkloompah - Icecrown"] = {
+		["Elgorath - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["x"] = -6.22105477605885,
 					["w"] = 140.0000106684094,
 					["h"] = 200.0000027354896,
 				},
@@ -738,10 +739,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Sculatru - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -886,7 +887,7 @@ RecountDB = {
 			["MainWindowWidth"] = 254.3704360322517,
 			["GraphWindowX"] = 0,
 		},
-		["Elgorath - Icecrown"] = {
+		["Glacianos - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
@@ -902,9 +903,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
-			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
 		["Inarya - Icecrown"] = {

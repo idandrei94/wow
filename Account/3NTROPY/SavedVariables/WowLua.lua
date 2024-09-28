@@ -1,6 +1,6 @@
 
 WowLua_DB = {
-	["currentPage"] = 7,
+	["currentPage"] = 9,
 	["fontSize"] = 14,
 	["pages"] = {
 		{
@@ -38,23 +38,9 @@ WowLua_DB = {
 			["content"] = "local f = CreateFrame(\"Frame\")\nlocal isEnabled = true;\nif(UnitInRaid(\"player\")) then\n   print(\"HalloGuyz: Player already in raid, troll go sleep...\");\n   isEnabled = false;\nend\nf:RegisterEvent(\"RAID_ROSTER_UPDATE\")\n\nf:SetScript(\"OnEvent\", function() \n      if(isEnabled and UnitInRaid(\"player\")) then\n         isEnabled = false;\n         SendChatMessage(\"hallo guyz\", \"RAID\", nil, nil)\n         SendChatMessage(\"dis dungeon hard?\", \"RAID\", nil, nil)\n      elseif (not UnitInRaid(\"player\")) then\n         print(\"HalloGuyz: Player left the raid, waking up the troll...\");\n         isEnabled = true;\n      end\n   end\n)",
 		}, -- [8]
 		{
-			["name"] = "itemid",
-			["content"] = "",
+			["name"] = "gold me",
+			["content"] = "delay = 5\n\nflood_msg = \"GOLD ME PLEASE\"\nif (flood_frame == nil) then\n   flood_frame = CreateFrame(\"Frame\");\nend\n\nflood_frame:SetScript(\"OnUpdate\", function(self, sinceLastUpdate) flood_frame:onUpdate(sinceLastUpdate); end);\n\n\nfunction flood_frame:onUpdate(sinceLastUpdate)\n   self.sinceLastUpdate = (self.sinceLastUpdate or 0) + sinceLastUpdate;\n   if ( self.sinceLastUpdate >= delay ) then -- in seconds\n      -- do stuff here\n      self.sinceLastUpdate = 0;\n      SendChatMessage(flood_msg,GUILD,nil,nil)\n   end\nend",
 		}, -- [9]
-		{
-			["name"] = "error clear",
-			["content"] = "UIErrorsFrame: UnregisterEvent(\"UI_ERROR_MESSAGE\");",
-		}, -- [10]
-		{
-			["untitled"] = true,
-			["name"] = "Untitled 11",
-			["content"] = "",
-		}, -- [11]
-		{
-			["untitled"] = true,
-			["name"] = "Untitled 12",
-			["content"] = "",
-		}, -- [12]
 	},
-	["untitled"] = 13,
+	["untitled"] = 14,
 }
