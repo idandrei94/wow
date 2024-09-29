@@ -16,14 +16,14 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
 					["x"] = 557.6666906585209,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -45,9 +45,9 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Mirror"] = {
-		},
 		["Range"] = {
+		},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -60,6 +60,7 @@ Quartz3DB = {
 		["Flokus - Icecrown"] = "Default",
 		["Noobschmoq - Icecrown"] = "Default",
 		["Muiex - Icecrown"] = "Default",
+		["Maciucus - Icecrown"] = "Default",
 		["Morridin - Icecrown"] = "Default",
 		["Elrath - Icecrown"] = "Default",
 		["Kalaam - Icecrown"] = "Default",
@@ -72,26 +73,26 @@ Quartz3DB = {
 		["Eutanasie - Icecrown"] = "Default",
 		["Drext - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
-		["Vhalanor - Icecrown"] = "Default",
-		["Urgash - Icecrown"] = "Default",
+		["Glacion - Icecrown"] = "Default",
+		["Pocaitorul - Icecrown"] = "Default",
 		["Aevie - Icecrown"] = "Default",
 		["Izanagi - Icecrown"] = "Default",
-		["Inarya - Icecrown"] = "Default",
+		["Mirceabravo - Icecrown"] = "Default",
 		["Ulrezaj - Icecrown"] = "Default",
+		["Elgorath - Icecrown"] = "Default",
 		["Lingurita - Icecrown"] = "Default",
-		["Pocaitoru - Icecrown"] = "Default",
 		["Mahkloompah - Icecrown"] = "Default",
-		["Sculatru - Icecrown"] = "Default",
+		["Glacianos - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
 		["Gligor - Icecrown"] = "Default",
 		["Mirceabravo - Blackrock [PvP only]"] = "Default",
 		["Maciucaru - Icecrown"] = "Default",
-		["Glacianos - Icecrown"] = "Default",
-		["Elgorath - Icecrown"] = "Default",
-		["Mirceabravo - Icecrown"] = "Default",
+		["Sculatru - Icecrown"] = "Default",
+		["Pocaitoru - Icecrown"] = "Default",
+		["Inarya - Icecrown"] = "Default",
 		["Pubianus - Icecrown"] = "Default",
-		["Pocaitorul - Icecrown"] = "Default",
-		["Glacion - Icecrown"] = "Default",
+		["Urgash - Icecrown"] = "Default",
+		["Vhalanor - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
