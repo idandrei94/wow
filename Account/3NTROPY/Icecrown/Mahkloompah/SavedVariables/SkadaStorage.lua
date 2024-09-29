@@ -41,27 +41,27 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 28,
 									["amount"] = 95,
+									["overkill"] = 28,
 								},
 							},
-							["overkill"] = 28,
 							["amount"] = 95,
+							["overkill"] = 28,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 31,
 									["amount"] = 149,
+									["overkill"] = 31,
 								},
 							},
-							["overkill"] = 31,
 							["amount"] = 149,
+							["overkill"] = 31,
 						},
 					},
-					["name"] = "Zhevra Runner",
 					["totaldamage"] = 33,
+					["name"] = "Zhevra Runner",
 					["totaldamagetaken"] = 379,
 					["id"] = "0xF130000CAA17779E",
 					["damage"] = 33,
@@ -69,10 +69,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 379,
 			["time"] = 8,
-			["damage"] = 379,
 			["totaldamagetaken"] = 33,
 			["etotaldamagetaken"] = 379,
-			["last_time"] = 42565.732,
+			["damage"] = 379,
 			["players"] = {
 				{
 					["last"] = 42565.699,
@@ -89,7 +88,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[1460] = {
+						[25037] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
@@ -105,11 +109,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -128,7 +127,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[25037] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
@@ -156,25 +155,25 @@ SkadaStorageDB = {
 							["hitamount"] = 107,
 						},
 						["Seal of Command"] = {
-							["criticalmin"] = 48,
-							["hitmin"] = 21,
 							["criticalamount"] = 48,
+							["hitmin"] = 21,
+							["criticalmin"] = 48,
 							["id"] = 20424,
-							["criticalmax"] = 48,
+							["amount"] = 95,
 							["targets"] = {
 								["Zhevra Runner"] = {
-									["overkill"] = 28,
 									["amount"] = 95,
+									["overkill"] = 28,
 								},
 							},
 							["overkill"] = 28,
+							["hitmax"] = 26,
+							["criticalmax"] = 48,
 							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 2,
-							["hitmax"] = 26,
-							["amount"] = 95,
+							["count"] = 3,
+							["casts"] = 1,
 							["hitamount"] = 47,
 						},
 						["Judgement of Command"] = {
@@ -198,8 +197,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Zhevra Runner"] = {
-									["overkill"] = 31,
 									["amount"] = 149,
+									["overkill"] = 31,
 								},
 							},
 							["overkill"] = 31,
@@ -217,18 +216,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 19,
+							["min"] = 11,
+							["count"] = 3,
+							["amount"] = 26,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 19,
 									["amount"] = 26,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 26,
-							["school"] = 2,
 							["max"] = 15,
-							["ishot"] = true,
-							["min"] = 11,
 						},
 					},
 					["damagetakenspells"] = {
@@ -238,26 +237,26 @@ SkadaStorageDB = {
 							["criticalamount"] = 22,
 							["id"] = 6603,
 							["criticalmin"] = 22,
+							["amount"] = 33,
+							["hitmax"] = 11,
 							["criticalmax"] = 22,
 							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 3,
 							["sources"] = {
 								["Zhevra Runner"] = {
 									["amount"] = 33,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 11,
-							["amount"] = 33,
 							["hitamount"] = 11,
 						},
 					},
 					["heal"] = 26,
 					["name"] = "Mahkloompah",
-					["overkill"] = 59,
-					["overheal"] = 19,
 					["totaldamage"] = 379,
+					["overheal"] = 19,
+					["overkill"] = 59,
 				}, -- [1]
 				{
 					["last"] = 42558.007,
@@ -277,9 +276,9 @@ SkadaStorageDB = {
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "SHAMAN",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [2]
 				{
 					["last"] = 42558.007,
@@ -301,27 +300,28 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 4,
-						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
+						[643] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 4,
+						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "MAGE",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 33,
+			["last_time"] = 42565.732,
 			["etotaldamage"] = 33,
 			["overheal"] = 19,
 			["overkill"] = 59,
@@ -361,25 +361,25 @@ SkadaStorageDB = {
 							},
 							["amount"] = 140,
 						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
 						[8045] = {
 							["school"] = 8,
 							["sources"] = {
 								["Jegjegos"] = {
-									["overkill"] = 15,
 									["amount"] = 75,
+									["overkill"] = 15,
 								},
 							},
-							["overkill"] = 15,
 							["amount"] = 75,
-						},
-						[3606] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 14,
-								},
-							},
-							["amount"] = 14,
+							["overkill"] = 15,
 						},
 						[20467] = {
 							["school"] = 2,
@@ -399,18 +399,18 @@ SkadaStorageDB = {
 							},
 							["amount"] = 24,
 						},
-						[6603] = {
-							["school"] = 1,
+						[3606] = {
+							["school"] = 4,
 							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 50,
+								["Jegjegos"] = {
+									["amount"] = 14,
 								},
 							},
-							["amount"] = 50,
+							["amount"] = 14,
 						},
 					},
-					["name"] = "Barak Kodobane",
 					["totaldamage"] = 38,
+					["name"] = "Barak Kodobane",
 					["totaldamagetaken"] = 371,
 					["id"] = "0xF130000D42183F40",
 					["damage"] = 38,
@@ -418,10 +418,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 371,
 			["time"] = 7,
-			["overheal"] = 15,
 			["totaldamagetaken"] = 38,
 			["etotaldamagetaken"] = 371,
 			["last_time"] = 42487.195,
+			["overheal"] = 15,
+			["type"] = "group",
+			["damagetaken"] = 38,
 			["players"] = {
 				{
 					["last"] = 42486.008,
@@ -451,9 +453,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[1044] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 4,
 						},
 						[20375] = {
@@ -461,7 +463,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[25780] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
@@ -476,16 +478,33 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[1460] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
 					},
+					["totaldamage"] = 282,
 					["time"] = 5.73,
 					["totaldamagetaken"] = 38,
 					["damage"] = 282,
 					["damagespells"] = {
+						["Judgement of Command"] = {
+							["criticalamount"] = 68,
+							["id"] = 20467,
+							["targets"] = {
+								["Barak Kodobane"] = {
+									["amount"] = 68,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 68,
+							["school"] = 2,
+							["count"] = 1,
+							["criticalmax"] = 68,
+							["criticalmin"] = 68,
+						},
 						["Seal of Command"] = {
 							["hitmin"] = 24,
 							["id"] = 20424,
@@ -501,22 +520,6 @@ SkadaStorageDB = {
 							["hitmax"] = 24,
 							["amount"] = 24,
 							["hitamount"] = 24,
-						},
-						["Exorcism"] = {
-							["hitmin"] = 140,
-							["id"] = 879,
-							["targets"] = {
-								["Barak Kodobane"] = {
-									["amount"] = 140,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 140,
-							["amount"] = 140,
-							["hitamount"] = 140,
 						},
 						["Melee"] = {
 							["hitmin"] = 50,
@@ -534,21 +537,21 @@ SkadaStorageDB = {
 							["amount"] = 50,
 							["hitamount"] = 50,
 						},
-						["Judgement of Command"] = {
-							["criticalamount"] = 68,
-							["id"] = 20467,
+						["Exorcism"] = {
+							["hitmin"] = 140,
+							["id"] = 879,
 							["targets"] = {
 								["Barak Kodobane"] = {
-									["amount"] = 68,
+									["amount"] = 140,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 68,
-							["school"] = 2,
-							["criticalmin"] = 68,
-							["criticalmax"] = 68,
 							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 140,
+							["amount"] = 140,
+							["hitamount"] = 140,
 						},
 					},
 					["damagetaken"] = 38,
@@ -557,64 +560,45 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 15,
-							["max"] = 15,
-							["count"] = 3,
-							["amount"] = 30,
-							["school"] = 2,
-							["min"] = 15,
-							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 15,
 									["amount"] = 30,
 								},
 							},
+							["count"] = 3,
+							["amount"] = 30,
+							["max"] = 15,
+							["min"] = 15,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 38,
 							["id"] = 6603,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Barak Kodobane"] = {
 									["amount"] = 38,
 								},
 							},
+							["PARRY"] = 1,
 							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 38,
 							["amount"] = 38,
+							["hitmax"] = 38,
 							["hitamount"] = 38,
 						},
 					},
 					["heal"] = 30,
 					["name"] = "Mahkloompah",
-					["overheal"] = 15,
-					["totaldamage"] = 282,
 					["role"] = "DAMAGER",
+					["overheal"] = 15,
 				}, -- [1]
 				{
 					["damagespells"] = {
-						["Earth Shock"] = {
-							["hitmin"] = 75,
-							["id"] = 8045,
-							["targets"] = {
-								["Barak Kodobane"] = {
-									["overkill"] = 15,
-									["amount"] = 75,
-								},
-							},
-							["overkill"] = 15,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 75,
-							["amount"] = 75,
-							["hitamount"] = 75,
-						},
 						["Attack (Searing Totem)"] = {
 							["hitmin"] = 14,
 							["id"] = 3606,
@@ -631,12 +615,35 @@ SkadaStorageDB = {
 							["amount"] = 14,
 							["hitamount"] = 14,
 						},
+						["Earth Shock"] = {
+							["hitmin"] = 75,
+							["id"] = 8045,
+							["targets"] = {
+								["Barak Kodobane"] = {
+									["amount"] = 75,
+									["overkill"] = 15,
+								},
+							},
+							["overkill"] = 15,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 75,
+							["amount"] = 75,
+							["hitamount"] = 75,
+						},
 					},
 					["last"] = 42486.009,
-					["class"] = "SHAMAN",
 					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
+					["class"] = "SHAMAN",
 					["overkill"] = 15,
+					["spec"] = 262,
+					["totaldamage"] = 89,
+					["name"] = "Jegjegos",
+					["time"] = 3.5,
+					["flag"] = 4370,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[643] = {
 							["type"] = "BUFF",
@@ -648,28 +655,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[8395] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 						[8076] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
+						[8395] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 					},
-					["totaldamage"] = 89,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 4370,
-					["time"] = 3.5,
 					["damage"] = 89,
 				}, -- [2]
 				{
+					["class"] = "MAGE",
 					["last"] = 42480.283,
+					["name"] = "Woolhead",
+					["time"] = 0,
 					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -691,25 +697,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [3]
 			},
-			["type"] = "group",
-			["damagetaken"] = 38,
 			["damage"] = 371,
 			["etotaldamage"] = 38,
 			["overkill"] = 15,
@@ -723,7 +723,6 @@ SkadaStorageDB = {
 			["endtime"] = 1727560913,
 		}, -- [2]
 		{
-			["damage"] = 326,
 			["mana"] = 52,
 			["enemies"] = {
 				{
@@ -760,16 +759,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 74,
 						},
-						[879] = {
-							["school"] = 2,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 73,
-									["amount"] = 139,
+									["amount"] = 57,
 								},
 							},
-							["overkill"] = 73,
-							["amount"] = 139,
+							["amount"] = 57,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -780,30 +777,31 @@ SkadaStorageDB = {
 							},
 							["amount"] = 25,
 						},
-						[6603] = {
-							["school"] = 1,
+						[879] = {
+							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 57,
+									["amount"] = 139,
+									["overkill"] = 73,
 								},
 							},
-							["amount"] = 57,
+							["amount"] = 139,
+							["overkill"] = 73,
 						},
 					},
-					["name"] = "Kolkar Stormer",
 					["totaldamage"] = 19,
+					["name"] = "Kolkar Stormer",
 					["totaldamagetaken"] = 326,
 					["id"] = "0xF130000CC9183CF4",
 					["damage"] = 19,
 				}, -- [1]
 			},
-			["etotaldamage"] = 19,
 			["totaldamage"] = 326,
 			["time"] = 6,
-			["ccdone"] = 1,
-			["totaldamagetaken"] = 19,
 			["etotaldamagetaken"] = 326,
-			["last_time"] = 42384.518,
+			["totaldamagetaken"] = 19,
+			["etotaldamage"] = 19,
+			["damage"] = 326,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -845,6 +843,26 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[25037] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[28730] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -857,126 +875,14 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[25037] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
 					},
+					["totaldamage"] = 252,
 					["time"] = 4.42,
-					["overkill"] = 73,
 					["totaldamagetaken"] = 19,
-					["overheal"] = 22,
 					["damage"] = 252,
-					["damagespells"] = {
-						["Exorcism"] = {
-							["hitmin"] = 139,
-							["id"] = 879,
-							["targets"] = {
-								["Kolkar Stormer"] = {
-									["overkill"] = 73,
-									["amount"] = 139,
-								},
-							},
-							["overkill"] = 73,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 139,
-							["amount"] = 139,
-							["hitamount"] = 139,
-						},
-						["Seal of Command"] = {
-							["hitmin"] = 25,
-							["id"] = 20424,
-							["targets"] = {
-								["Kolkar Stormer"] = {
-									["amount"] = 25,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 25,
-							["amount"] = 25,
-							["hitamount"] = 25,
-						},
-						["Melee"] = {
-							["hitmin"] = 57,
-							["id"] = 6603,
-							["targets"] = {
-								["Kolkar Stormer"] = {
-									["amount"] = 57,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 57,
-							["amount"] = 57,
-							["hitamount"] = 57,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 31,
-							["id"] = 20467,
-							["targets"] = {
-								["Kolkar Stormer"] = {
-									["amount"] = 31,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 31,
-							["amount"] = 31,
-							["hitamount"] = 31,
-						},
-					},
-					["manaspells"] = {
-						[28730] = 52,
-					},
+					["overheal"] = 22,
+					["role"] = "DAMAGER",
 					["damagetaken"] = 19,
-					["interrupt"] = 1,
-					["spec"] = 70,
-					["healspells"] = {
-						[20267] = {
-							["overheal"] = 22,
-							["targets"] = {
-								["Mahkloompah"] = {
-									["overheal"] = 11,
-									["amount"] = 19,
-								},
-								["Jegjegos"] = {
-									["overheal"] = 11,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 19,
-							["school"] = 2,
-							["max"] = 10,
-							["ishot"] = true,
-							["min"] = 9,
-						},
-					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 9,
@@ -994,12 +900,38 @@ SkadaStorageDB = {
 							["hitamount"] = 19,
 						},
 					},
-					["mana"] = 52,
-					["heal"] = 19,
-					["name"] = "Mahkloompah",
-					["ccdone"] = 1,
+					["interrupt"] = 1,
+					["spec"] = 70,
+					["healspells"] = {
+						[20267] = {
+							["overheal"] = 22,
+							["min"] = 9,
+							["count"] = 3,
+							["amount"] = 19,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Mahkloompah"] = {
+									["overheal"] = 11,
+									["amount"] = 19,
+								},
+								["Jegjegos"] = {
+									["overheal"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["max"] = 10,
+						},
+					},
+					["overkill"] = 73,
 					["id"] = "0x0700000000B01AF6",
-					["totaldamage"] = 252,
+					["heal"] = 19,
+					["manaspells"] = {
+						[28730] = 52,
+					},
+					["ccdone"] = 1,
+					["name"] = "Mahkloompah",
+					["mana"] = 52,
 					["interruptspells"] = {
 						[32747] = {
 							["spells"] = {
@@ -1011,7 +943,73 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["damagespells"] = {
+						["Judgement of Command"] = {
+							["hitmin"] = 31,
+							["id"] = 20467,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 31,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 31,
+							["amount"] = 31,
+							["hitamount"] = 31,
+						},
+						["Exorcism"] = {
+							["hitmin"] = 139,
+							["id"] = 879,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 139,
+									["overkill"] = 73,
+								},
+							},
+							["overkill"] = 73,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 139,
+							["amount"] = 139,
+							["hitamount"] = 139,
+						},
+						["Melee"] = {
+							["hitmin"] = 57,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 57,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 57,
+							["amount"] = 57,
+							["hitamount"] = 57,
+						},
+						["Seal of Command"] = {
+							["hitmin"] = 25,
+							["id"] = 20424,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 25,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 25,
+							["amount"] = 25,
+							["hitamount"] = 25,
+						},
+					},
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -1035,7 +1033,6 @@ SkadaStorageDB = {
 					["last"] = 42382.434,
 					["id"] = "0x0700000000B02488",
 					["spec"] = 262,
-					["class"] = "SHAMAN",
 					["auras"] = {
 						[643] = {
 							["type"] = "BUFF",
@@ -1061,16 +1058,21 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamage"] = 74,
-					["role"] = "DAMAGER",
 					["name"] = "Jegjegos",
-					["flag"] = 1298,
+					["class"] = "SHAMAN",
 					["time"] = 2.38,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["damage"] = 74,
 				}, -- [2]
 				{
+					["class"] = "MAGE",
 					["last"] = 42380.059,
+					["name"] = "Woolhead",
+					["time"] = 0,
 					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -1087,33 +1089,31 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 19,
+			["last_time"] = 42384.518,
 			["interrupt"] = 1,
 			["overheal"] = 22,
+			["starttime"] = 1727560806,
 			["overkill"] = 73,
 			["edamagetaken"] = 326,
 			["heal"] = 19,
 			["name"] = "Kolkar Stormer (2)",
+			["ccdone"] = 1,
 			["mobname"] = "Kolkar Stormer",
-			["starttime"] = 1727560806,
 			["edamage"] = 19,
 			["last_action"] = 1727560810,
 			["endtime"] = 1727560812,
@@ -1121,12 +1121,12 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF130000CCA182E00",
-					["name"] = "Kolkar Pack Runner",
-					["totaldamagetaken"] = 318,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Kolkar Pack Runner",
 					["damagetaken"] = 318,
+					["id"] = "0xF130000CCA182E00",
+					["totaldamagetaken"] = 318,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[67485] = {
 							["school"] = 2,
@@ -1150,12 +1150,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 18,
 									["amount"] = 142,
+									["overkill"] = 18,
 								},
 							},
-							["overkill"] = 18,
 							["amount"] = 142,
+							["overkill"] = 18,
 						},
 					},
 				}, -- [1]
@@ -1184,6 +1184,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 150,
 						},
+						[20467] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
 						[548] = {
 							["school"] = 8,
 							["sources"] = {
@@ -1201,15 +1210,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 71,
-						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 28,
-								},
-							},
-							["amount"] = 28,
 						},
 					},
 					["totaldamage"] = 17,
@@ -1240,7 +1240,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[1460] = {
+						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
@@ -1256,11 +1261,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 2,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -1279,12 +1279,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[8091] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
 					},
+					["totaldamage"] = 497,
 					["time"] = 7.44,
 					["totaldamagetaken"] = 17,
 					["damage"] = 497,
@@ -1310,8 +1311,8 @@ SkadaStorageDB = {
 							["id"] = 879,
 							["targets"] = {
 								["Kolkar Pack Runner"] = {
-									["overkill"] = 18,
 									["amount"] = 142,
+									["overkill"] = 18,
 								},
 							},
 							["overkill"] = 18,
@@ -1333,13 +1334,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 96,
-							["critical"] = 1,
+							["amount"] = 150,
 							["criticalmax"] = 96,
-							["count"] = 2,
+							["critical"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
 							["hitmax"] = 54,
-							["amount"] = 150,
+							["count"] = 2,
 							["hitamount"] = 54,
 						},
 						["Seal of Command"] = {
@@ -1352,14 +1353,14 @@ SkadaStorageDB = {
 									["amount"] = 71,
 								},
 							},
+							["amount"] = 71,
+							["hitmax"] = 25,
 							["criticalmax"] = 46,
 							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 2,
-							["hitmax"] = 25,
-							["amount"] = 71,
+							["count"] = 2,
+							["casts"] = 1,
 							["hitamount"] = 25,
 						},
 						["Judgement of Command"] = {
@@ -1385,24 +1386,24 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 5,
+							["min"] = 9,
+							["count"] = 3,
+							["amount"] = 37,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 5,
 									["amount"] = 37,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 37,
-							["school"] = 2,
 							["max"] = 14,
-							["ishot"] = true,
-							["min"] = 9,
 						},
 					},
 					["overkill"] = 18,
 					["heal"] = 37,
 					["name"] = "Mahkloompah",
-					["overheal"] = 5,
+					["role"] = "DAMAGER",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 8,
@@ -1420,8 +1421,7 @@ SkadaStorageDB = {
 							["hitamount"] = 17,
 						},
 					},
-					["totaldamage"] = 497,
-					["role"] = "DAMAGER",
+					["overheal"] = 5,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -1461,7 +1461,6 @@ SkadaStorageDB = {
 					["last"] = 41761.79,
 					["id"] = "0x0700000000B02488",
 					["spec"] = 262,
-					["class"] = "SHAMAN",
 					["auras"] = {
 						[643] = {
 							["type"] = "BUFF",
@@ -1492,16 +1491,21 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamage"] = 130,
-					["role"] = "DAMAGER",
 					["name"] = "Jegjegos",
-					["flag"] = 1298,
+					["class"] = "SHAMAN",
 					["time"] = 4.48,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["damage"] = 130,
 				}, -- [2]
 				{
+					["class"] = "MAGE",
 					["last"] = 41755.857,
+					["name"] = "Woolhead",
+					["time"] = 0,
 					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -1518,21 +1522,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [3]
 			},
 			["type"] = "group",
@@ -1629,23 +1629,23 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Woolhead"] = {
-									["overkill"] = 54,
 									["amount"] = 63,
+									["overkill"] = 54,
 								},
 							},
-							["overkill"] = 54,
 							["amount"] = 63,
+							["overkill"] = 54,
 						},
 						[20424] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 20,
 									["amount"] = 93,
+									["overkill"] = 20,
 								},
 							},
-							["overkill"] = 20,
 							["amount"] = 93,
+							["overkill"] = 20,
 						},
 						[2137] = {
 							["school"] = 4,
@@ -1660,27 +1660,26 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 50,
 									["amount"] = 210,
+									["overkill"] = 50,
 								},
 							},
-							["overkill"] = 50,
 							["amount"] = 210,
+							["overkill"] = 50,
 						},
 					},
-					["name"] = "Kolkar Marauder",
 					["totaldamage"] = 187,
+					["name"] = "Kolkar Marauder",
 					["totaldamagetaken"] = 837,
 					["id"] = "0xF130000CCB182D4D",
 					["damage"] = 187,
 				}, -- [1]
 			},
-			["damage"] = 837,
 			["totaldamage"] = 837,
 			["time"] = 12,
 			["totaldamagetaken"] = 187,
 			["etotaldamagetaken"] = 837,
-			["last_time"] = 41747.973,
+			["damage"] = 837,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -1734,6 +1733,21 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[25780] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 						[853] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1745,21 +1759,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -1806,18 +1805,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 106,
 							["targets"] = {
 								["Kolkar Marauder"] = {
-									["overkill"] = 50,
 									["amount"] = 210,
+									["overkill"] = 50,
 								},
 							},
 							["overkill"] = 50,
-							["critical"] = 1,
+							["amount"] = 210,
 							["criticalmax"] = 106,
-							["count"] = 3,
+							["critical"] = 1,
 							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 53,
-							["amount"] = 210,
+							["count"] = 3,
 							["hitamount"] = 104,
 						},
 						["Seal of Command"] = {
@@ -1825,8 +1824,8 @@ SkadaStorageDB = {
 							["id"] = 20424,
 							["targets"] = {
 								["Kolkar Marauder"] = {
-									["overkill"] = 20,
 									["amount"] = 93,
+									["overkill"] = 20,
 								},
 							},
 							["overkill"] = 20,
@@ -1861,18 +1860,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 14,
+							["count"] = 2,
+							["amount"] = 28,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 0,
 									["amount"] = 28,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 28,
-							["school"] = 2,
 							["max"] = 14,
-							["ishot"] = true,
-							["min"] = 14,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1881,18 +1880,18 @@ SkadaStorageDB = {
 							["criticalamount"] = 26,
 							["id"] = 6603,
 							["criticalmin"] = 26,
+							["amount"] = 65,
+							["hitmax"] = 39,
 							["criticalmax"] = 26,
 							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 2,
 							["sources"] = {
 								["Kolkar Marauder"] = {
 									["amount"] = 65,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 39,
-							["amount"] = 65,
 							["hitamount"] = 39,
 						},
 						["Strike"] = {
@@ -1914,9 +1913,9 @@ SkadaStorageDB = {
 					["heal"] = 28,
 					["name"] = "Mahkloompah",
 					["ccdone"] = 1,
-					["overkill"] = 70,
-					["overheal"] = 0,
 					["totaldamage"] = 575,
+					["overheal"] = 0,
+					["overkill"] = 70,
 				}, -- [1]
 				{
 					["ccdonespells"] = {
@@ -1965,8 +1964,8 @@ SkadaStorageDB = {
 							["refresh"] = 5,
 							["targets"] = {
 								["Kolkar Marauder"] = {
-									["count"] = 2,
 									["refresh"] = 5,
+									["count"] = 2,
 									["uptime"] = 10,
 								},
 							},
@@ -2042,6 +2041,24 @@ SkadaStorageDB = {
 				}, -- [2]
 				{
 					["damagespells"] = {
+						["Flamestrike"] = {
+							["hitmin"] = 63,
+							["id"] = 2120,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 63,
+									["overkill"] = 54,
+								},
+							},
+							["overkill"] = 54,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 63,
+							["amount"] = 63,
+							["hitamount"] = 63,
+						},
 						["Fire Blast"] = {
 							["hitmin"] = 70,
 							["id"] = 2137,
@@ -2058,30 +2075,17 @@ SkadaStorageDB = {
 							["amount"] = 70,
 							["hitamount"] = 70,
 						},
-						["Flamestrike"] = {
-							["hitmin"] = 63,
-							["id"] = 2120,
-							["targets"] = {
-								["Kolkar Marauder"] = {
-									["overkill"] = 54,
-									["amount"] = 63,
-								},
-							},
-							["overkill"] = 54,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 63,
-							["amount"] = 63,
-							["hitamount"] = 63,
-						},
 					},
 					["last"] = 41746.473,
-					["class"] = "MAGE",
 					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
+					["class"] = "MAGE",
 					["overkill"] = 54,
+					["spec"] = 63,
+					["totaldamage"] = 133,
+					["name"] = "Woolhead",
+					["time"] = 6.87,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -2103,36 +2107,32 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
 						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 					},
-					["totaldamage"] = 133,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 6.87,
 					["damage"] = 133,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 187,
+			["last_time"] = 41747.973,
 			["overheal"] = 0,
-			["ccdone"] = 8,
 			["etotaldamage"] = 187,
+			["starttime"] = 1727560162,
 			["overkill"] = 124,
 			["edamagetaken"] = 837,
 			["heal"] = 28,
 			["name"] = "Kolkar Marauder (8)",
+			["ccdone"] = 8,
 			["mobname"] = "Kolkar Marauder",
-			["starttime"] = 1727560162,
 			["edamage"] = 187,
 			["last_action"] = 1727560174,
 			["endtime"] = 1727560174,
@@ -2186,27 +2186,27 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 9,
 									["amount"] = 71,
+									["overkill"] = 9,
 								},
 							},
-							["overkill"] = 9,
 							["amount"] = 71,
+							["overkill"] = 9,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 31,
 									["amount"] = 205,
+									["overkill"] = 31,
 								},
 							},
-							["overkill"] = 31,
 							["amount"] = 205,
+							["overkill"] = 31,
 						},
 					},
-					["name"] = "Kolkar Marauder",
 					["totaldamage"] = 94,
+					["name"] = "Kolkar Marauder",
 					["totaldamagetaken"] = 411,
 					["id"] = "0xF130000CCB182BBB",
 					["damage"] = 94,
@@ -2214,10 +2214,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 411,
 			["time"] = 10,
-			["damage"] = 411,
 			["totaldamagetaken"] = 94,
 			["etotaldamagetaken"] = 411,
-			["last_time"] = 41712.116,
+			["damage"] = 411,
 			["players"] = {
 				{
 					["last"] = 41712.091,
@@ -2234,7 +2233,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[1460] = {
+						[8091] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
@@ -2250,11 +2254,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -2273,7 +2272,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[8091] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
@@ -2306,8 +2305,8 @@ SkadaStorageDB = {
 							["id"] = 20424,
 							["targets"] = {
 								["Kolkar Marauder"] = {
-									["overkill"] = 9,
 									["amount"] = 71,
+									["overkill"] = 9,
 								},
 							},
 							["overkill"] = 9,
@@ -2340,8 +2339,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Kolkar Marauder"] = {
-									["overkill"] = 31,
 									["amount"] = 205,
+									["overkill"] = 31,
 								},
 							},
 							["overkill"] = 31,
@@ -2359,18 +2358,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 14,
+							["count"] = 4,
+							["amount"] = 56,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 0,
 									["amount"] = 56,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 56,
-							["school"] = 2,
 							["max"] = 14,
-							["ishot"] = true,
-							["min"] = 14,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2408,9 +2407,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 56,
 					["name"] = "Mahkloompah",
-					["overkill"] = 40,
-					["overheal"] = 0,
 					["totaldamage"] = 411,
+					["overheal"] = 0,
+					["overkill"] = 40,
 				}, -- [1]
 				{
 					["last"] = 41702.182,
@@ -2427,28 +2426,32 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 1,
-						},
 						[8395] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
 						},
+						[643] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "SHAMAN",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [2]
 				{
+					["class"] = "MAGE",
 					["last"] = 41702.182,
+					["name"] = "Woolhead",
+					["time"] = 0,
 					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -2465,25 +2468,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
 						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 94,
+			["last_time"] = 41712.116,
 			["etotaldamage"] = 94,
 			["overheal"] = 0,
 			["overkill"] = 40,
@@ -2527,34 +2527,34 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 31,
 									["amount"] = 138,
+									["overkill"] = 31,
 								},
 							},
-							["overkill"] = 31,
 							["amount"] = 138,
+							["overkill"] = 31,
 						},
 						[26573] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 16,
 									["amount"] = 289,
+									["overkill"] = 16,
 								},
 							},
-							["overkill"] = 16,
 							["amount"] = 289,
+							["overkill"] = 16,
 						},
 						[20424] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 12,
 									["amount"] = 108,
+									["overkill"] = 12,
 								},
 							},
-							["overkill"] = 12,
 							["amount"] = 108,
+							["overkill"] = 12,
 						},
 						[20467] = {
 							["school"] = 2,
@@ -2584,8 +2584,8 @@ SkadaStorageDB = {
 							["amount"] = 55,
 						},
 					},
-					["name"] = "Kolkar Marauder",
 					["totaldamage"] = 55,
+					["name"] = "Kolkar Marauder",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["id"] = "0xF130000CCB182BBB",
@@ -2620,12 +2620,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 10,
 									["amount"] = 357,
+									["overkill"] = 10,
 								},
 							},
-							["overkill"] = 10,
 							["amount"] = 357,
+							["overkill"] = 10,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -2672,12 +2672,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 10,
 									["amount"] = 408,
+									["overkill"] = 10,
 								},
 							},
-							["overkill"] = 10,
 							["amount"] = 408,
+							["overkill"] = 10,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -2707,8 +2707,8 @@ SkadaStorageDB = {
 							["amount"] = 39,
 						},
 					},
-					["name"] = "Hecklefang Hyena",
 					["totaldamage"] = 39,
+					["name"] = "Hecklefang Hyena",
 					["flag"] = 2632,
 					["class"] = "MONSTER",
 					["id"] = "0xF13000101F1738DD",
@@ -2717,10 +2717,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1752,
 			["time"] = 26,
-			["starttime"] = 1727560093,
 			["totaldamagetaken"] = 550,
 			["etotaldamage"] = 550,
 			["last_time"] = 41693.074,
+			["starttime"] = 1727560093,
+			["type"] = "group",
+			["damagetaken"] = 550,
 			["players"] = {
 				{
 					["last"] = 41692.558,
@@ -2772,6 +2774,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 26,
 						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -2784,17 +2796,8 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
 					},
+					["totaldamage"] = 1752,
 					["time"] = 18.44000000000001,
 					["totaldamagetaken"] = 511,
 					["damage"] = 1752,
@@ -2804,16 +2807,16 @@ SkadaStorageDB = {
 							["id"] = 26573,
 							["targets"] = {
 								["Kolkar Bloodcharger"] = {
-									["overkill"] = 16,
 									["amount"] = 289,
+									["overkill"] = 16,
 								},
 								["Kolkar Packhound"] = {
-									["overkill"] = 10,
 									["amount"] = 357,
+									["overkill"] = 10,
 								},
 								["Kolkar Pack Runner"] = {
-									["overkill"] = 10,
 									["amount"] = 408,
+									["overkill"] = 10,
 								},
 							},
 							["overkill"] = 36,
@@ -2836,17 +2839,17 @@ SkadaStorageDB = {
 									["amount"] = 101,
 								},
 								["Kolkar Bloodcharger"] = {
-									["overkill"] = 31,
 									["amount"] = 138,
+									["overkill"] = 31,
 								},
 							},
 							["overkill"] = 31,
-							["blocked"] = 6,
-							["count"] = 6,
 							["hit"] = 6,
+							["count"] = 6,
+							["blocked"] = 6,
 							["school"] = 1,
-							["hitmax"] = 52,
 							["amount"] = 284,
+							["hitmax"] = 52,
 							["hitamount"] = 284,
 						},
 						["Seal of Command"] = {
@@ -2861,8 +2864,8 @@ SkadaStorageDB = {
 									["amount"] = 121,
 								},
 								["Kolkar Bloodcharger"] = {
-									["overkill"] = 12,
 									["amount"] = 108,
+									["overkill"] = 12,
 								},
 							},
 							["amount"] = 386,
@@ -2870,13 +2873,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 126,
 							["id"] = 20424,
 							["overkill"] = 12,
-							["criticalmax"] = 44,
 							["casts"] = 1,
+							["criticalmax"] = 44,
 							["critical"] = 3,
 							["hit"] = 11,
 							["school"] = 2,
-							["hitmax"] = 25,
 							["count"] = 16,
+							["hitmax"] = 25,
 							["hitamount"] = 260,
 						},
 						["Judgement of Command"] = {
@@ -2900,13 +2903,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 20271,
 							["targets"] = {
 								["Kolkar Packhound"] = {
 									["amount"] = 0,
 								},
 							},
 							["MISS"] = 1,
-							["id"] = 20271,
 						},
 					},
 					["damagetaken"] = 511,
@@ -2915,22 +2918,26 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 14,
+							["count"] = 1,
+							["amount"] = 14,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 0,
 									["amount"] = 14,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 14,
-							["school"] = 2,
 							["max"] = 14,
-							["ishot"] = true,
-							["min"] = 14,
 						},
 						[19750] = {
 							["overheal"] = 0,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 192,
 							["max"] = 100,
+							["school"] = 2,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 0,
@@ -2938,10 +2945,6 @@ SkadaStorageDB = {
 								},
 							},
 							["min"] = 92,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 192,
-							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2967,27 +2970,27 @@ SkadaStorageDB = {
 							["MISS"] = 2,
 							["criticalamount"] = 20,
 							["id"] = 6603,
-							["blocked"] = 18,
-							["BLOCK"] = 2,
-							["criticalmax"] = 20,
 							["PARRY"] = 9,
-							["hitmax"] = 42,
-							["hit"] = 39,
-							["school"] = 1,
-							["critical"] = 1,
 							["count"] = 55,
+							["critical"] = 1,
+							["criticalmax"] = 20,
+							["BLOCK"] = 2,
+							["blocked"] = 18,
+							["school"] = 1,
+							["hit"] = 39,
+							["hitmax"] = 42,
 							["hitamount"] = 456,
 						},
 						["Corruption (DoT)"] = {
 							["hitmin"] = 8,
 							["id"] = 172,
-							["hitmax"] = 10,
+							["count"] = 4,
 							["sources"] = {
 								["Kolkar Bloodcharger"] = {
 									["amount"] = 35,
 								},
 							},
-							["count"] = 4,
+							["hitmax"] = 10,
 							["hit"] = 4,
 							["school"] = 32,
 							["resisted"] = 5,
@@ -2997,15 +3000,18 @@ SkadaStorageDB = {
 					},
 					["heal"] = 206,
 					["name"] = "Mahkloompah",
-					["overkill"] = 79,
-					["overheal"] = 0,
-					["totaldamage"] = 1752,
 					["role"] = "DAMAGER",
+					["overheal"] = 0,
+					["overkill"] = 79,
 				}, -- [1]
 				{
+					["class"] = "SHAMAN",
 					["last"] = 41667.483,
+					["name"] = "Jegjegos",
+					["time"] = 0,
 					["id"] = "0x0700000000B02488",
 					["spec"] = 262,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[19742] = {
 							["type"] = "BUFF",
@@ -3018,10 +3024,6 @@ SkadaStorageDB = {
 							["uptime"] = 26,
 						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["time"] = 0,
-					["class"] = "SHAMAN",
 				}, -- [2]
 				{
 					["last"] = 41667.483,
@@ -3051,8 +3053,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Hecklefang Hyena"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 8,
 								},
 							},
@@ -3064,6 +3066,12 @@ SkadaStorageDB = {
 							["uptime"] = 26,
 						},
 					},
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
+					["class"] = "MAGE",
+					["time"] = 0,
+					["totaldamagetaken"] = 39,
+					["flag"] = 1298,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 18,
@@ -3081,30 +3089,21 @@ SkadaStorageDB = {
 							["hitamount"] = 39,
 						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["totaldamagetaken"] = 39,
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [3]
 			},
-			["type"] = "group",
-			["damagetaken"] = 550,
 			["damage"] = 1752,
 			["overheal"] = 0,
-			["etotaldamagetaken"] = 1752,
 			["overkill"] = 79,
 			["edamagetaken"] = 1752,
 			["heal"] = 206,
 			["name"] = "Kolkar Bloodcharger",
 			["mobname"] = "Kolkar Bloodcharger",
+			["etotaldamagetaken"] = 1752,
 			["edamage"] = 550,
 			["last_action"] = 1727560119,
 			["endtime"] = 1727560119,
 		}, -- [7]
 		{
-			["starttime"] = 1727560038,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -3135,12 +3134,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Woolhead"] = {
-									["overkill"] = 1,
 									["amount"] = 229,
+									["overkill"] = 1,
 								},
 							},
-							["overkill"] = 1,
 							["amount"] = 229,
+							["overkill"] = 1,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -3155,12 +3154,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Woolhead"] = {
-									["overkill"] = 19,
 									["amount"] = 48,
+									["overkill"] = 19,
 								},
 							},
-							["overkill"] = 19,
 							["amount"] = 48,
+							["overkill"] = 19,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -3216,12 +3215,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 6,
 									["amount"] = 119,
+									["overkill"] = 6,
 								},
 							},
-							["overkill"] = 6,
 							["amount"] = 119,
+							["overkill"] = 6,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -3295,12 +3294,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 8,
 									["amount"] = 45,
+									["overkill"] = 8,
 								},
 							},
-							["overkill"] = 8,
 							["amount"] = 45,
+							["overkill"] = 8,
 						},
 						[122] = {
 							["school"] = 16,
@@ -3330,8 +3329,8 @@ SkadaStorageDB = {
 							["amount"] = 75,
 						},
 					},
-					["name"] = "Kolkar Packhound",
 					["totaldamage"] = 12,
+					["name"] = "Kolkar Packhound",
 					["totaldamagetaken"] = 306,
 					["id"] = "0xF1300010DC18034C",
 					["damage"] = 12,
@@ -3340,10 +3339,12 @@ SkadaStorageDB = {
 			["dispel"] = 1,
 			["totaldamage"] = 1344,
 			["time"] = 17,
-			["ccdone"] = 3,
 			["totaldamagetaken"] = 247,
 			["etotaldamage"] = 247,
 			["last_time"] = 41628.718,
+			["starttime"] = 1727560038,
+			["type"] = "group",
+			["damagetaken"] = 247,
 			["players"] = {
 				{
 					["last"] = 41624.684,
@@ -3407,7 +3408,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 17,
 						},
-						[1460] = {
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
@@ -3425,18 +3426,19 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 						[498] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 8,
 						},
-						[19834] = {
+						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
 						},
 					},
 					["dispel"] = 1,
+					["totaldamage"] = 849,
 					["time"] = 11.09,
 					["totaldamagetaken"] = 247,
 					["damage"] = 849,
@@ -3446,8 +3448,8 @@ SkadaStorageDB = {
 							["id"] = 26573,
 							["targets"] = {
 								["Kolkar Pack Runner"] = {
-									["overkill"] = 6,
 									["amount"] = 119,
+									["overkill"] = 6,
 								},
 								["Kolkar Packhound"] = {
 									["amount"] = 119,
@@ -3480,14 +3482,14 @@ SkadaStorageDB = {
 									["amount"] = 142,
 								},
 							},
+							["amount"] = 208,
+							["hitmax"] = 25,
 							["criticalmax"] = 48,
 							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 8,
 							["hit"] = 7,
 							["school"] = 2,
-							["hitmax"] = 25,
-							["amount"] = 208,
+							["count"] = 8,
+							["casts"] = 1,
 							["hitamount"] = 160,
 						},
 						["Melee"] = {
@@ -3498,17 +3500,17 @@ SkadaStorageDB = {
 									["amount"] = 44,
 								},
 								["Kolkar Packhound"] = {
-									["overkill"] = 8,
 									["amount"] = 45,
+									["overkill"] = 8,
 								},
 								["Kolkar Marauder"] = {
 									["amount"] = 47,
 								},
 							},
 							["overkill"] = 8,
-							["amount"] = 136,
-							["count"] = 4,
 							["hit"] = 3,
+							["count"] = 4,
+							["amount"] = 136,
 							["school"] = 1,
 							["hitmax"] = 47,
 							["MISS"] = 1,
@@ -3537,6 +3539,11 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 8,
+							["min"] = 14,
+							["count"] = 3,
+							["amount"] = 28,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 0,
@@ -3547,12 +3554,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 28,
-							["school"] = 2,
 							["max"] = 14,
-							["ishot"] = true,
-							["min"] = 14,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3575,38 +3577,37 @@ SkadaStorageDB = {
 							["MISS"] = 1,
 							["criticalamount"] = 78,
 							["id"] = 6603,
-							["blocked"] = 9,
-							["BLOCK"] = 1,
-							["criticalmax"] = 78,
 							["hitmax"] = 41,
-							["hit"] = 14,
+							["count"] = 18,
+							["criticalmax"] = 78,
+							["BLOCK"] = 1,
+							["blocked"] = 9,
 							["school"] = 1,
 							["critical"] = 1,
-							["count"] = 18,
+							["hit"] = 14,
 							["hitamount"] = 157,
 						},
 						["Strike"] = {
 							["hitmin"] = 12,
 							["id"] = 11976,
-							["hitmax"] = 12,
-							["amount"] = 12,
+							["BLOCK"] = 1,
+							["count"] = 2,
 							["sources"] = {
 								["Kolkar Marauder"] = {
 									["amount"] = 12,
 								},
 							},
-							["BLOCK"] = 1,
-							["blocked"] = 27,
+							["hitmax"] = 12,
+							["amount"] = 12,
 							["school"] = 1,
 							["hit"] = 1,
-							["count"] = 2,
+							["blocked"] = 27,
 							["hitamount"] = 12,
 						},
 					},
-					["totaldamage"] = 849,
 					["heal"] = 28,
 					["name"] = "Mahkloompah",
-					["overkill"] = 14,
+					["role"] = "DAMAGER",
 					["overheal"] = 8,
 					["dispelspells"] = {
 						[1152] = {
@@ -3619,7 +3620,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["overkill"] = 14,
 				}, -- [1]
 				{
 					["ccdonespells"] = {
@@ -3633,8 +3634,10 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 41628.717,
+					["role"] = "DAMAGER",
 					["flag"] = 1298,
 					["class"] = "MAGE",
+					["name"] = "Woolhead",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -3687,20 +3690,24 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 15,
-						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 17,
 						},
+						[643] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
 					},
+					["overkill"] = 20,
+					["totaldamage"] = 495,
 					["time"] = 11.53,
-					["damage"] = 495,
+					["ccdone"] = 3,
+					["spec"] = 63,
+					["id"] = "0x0700000000B02309",
 					["damagespells"] = {
 						["Flamestrike (DoT)"] = {
 							["hitmin"] = 13,
@@ -3713,8 +3720,8 @@ SkadaStorageDB = {
 									["amount"] = 13,
 								},
 								["Kolkar Marauder"] = {
-									["overkill"] = 1,
 									["amount"] = 65,
+									["overkill"] = 1,
 								},
 							},
 							["overkill"] = 1,
@@ -3741,14 +3748,14 @@ SkadaStorageDB = {
 									["amount"] = 164,
 								},
 							},
+							["amount"] = 312,
+							["hitmax"] = 72,
 							["criticalmax"] = 92,
 							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 4,
 							["hit"] = 2,
 							["school"] = 4,
-							["hitmax"] = 72,
-							["amount"] = 312,
+							["count"] = 4,
+							["casts"] = 1,
 							["hitamount"] = 134,
 						},
 						["Frost Nova"] = {
@@ -3762,8 +3769,8 @@ SkadaStorageDB = {
 									["amount"] = 22,
 								},
 								["Kolkar Marauder"] = {
-									["overkill"] = 19,
 									["amount"] = 48,
+									["overkill"] = 19,
 								},
 							},
 							["overkill"] = 19,
@@ -3776,25 +3783,18 @@ SkadaStorageDB = {
 							["hitamount"] = 92,
 						},
 					},
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["overkill"] = 20,
-					["name"] = "Woolhead",
-					["ccdone"] = 3,
-					["totaldamage"] = 495,
-					["role"] = "DAMAGER",
+					["damage"] = 495,
 				}, -- [2]
 			},
-			["type"] = "group",
-			["damagetaken"] = 247,
 			["damage"] = 1344,
 			["overheal"] = 8,
-			["etotaldamagetaken"] = 1344,
+			["mobname"] = "Kolkar Marauder",
 			["overkill"] = 34,
 			["edamagetaken"] = 1344,
 			["heal"] = 28,
 			["name"] = "Kolkar Marauder (6)",
-			["mobname"] = "Kolkar Marauder",
+			["ccdone"] = 3,
+			["etotaldamagetaken"] = 1344,
 			["edamage"] = 247,
 			["last_action"] = 1727560055,
 			["endtime"] = 1727560055,
@@ -3821,32 +3821,30 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Woolhead"] = {
-									["overkill"] = 23,
 									["amount"] = 248,
+									["overkill"] = 23,
 								},
 							},
-							["overkill"] = 23,
 							["amount"] = 248,
+							["overkill"] = 23,
 						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 25,
-									["amount"] = 51,
-								},
-							},
-							["overkill"] = 25,
-							["amount"] = 51,
-						},
-						[20424] = {
+						[20467] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 24,
+									["amount"] = 29,
 								},
 							},
-							["amount"] = 24,
+							["amount"] = 29,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 107,
+								},
+							},
+							["amount"] = 107,
 						},
 						[8045] = {
 							["school"] = 8,
@@ -3866,27 +3864,29 @@ SkadaStorageDB = {
 							},
 							["amount"] = 44,
 						},
-						[67485] = {
-							["school"] = 2,
+						[548] = {
+							["school"] = 8,
 							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 107,
+								["Jegjegos"] = {
+									["amount"] = 51,
+									["overkill"] = 25,
 								},
 							},
-							["amount"] = 107,
+							["amount"] = 51,
+							["overkill"] = 25,
 						},
-						[20467] = {
+						[20424] = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 29,
+									["amount"] = 24,
 								},
 							},
-							["amount"] = 29,
+							["amount"] = 24,
 						},
 					},
-					["name"] = "Kolkar Pack Runner",
 					["totaldamage"] = 58,
+					["name"] = "Kolkar Pack Runner",
 					["totaldamagetaken"] = 573,
 					["id"] = "0xF130000CCA1816B1",
 					["damage"] = 58,
@@ -3914,12 +3914,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Woolhead"] = {
-									["overkill"] = 81,
 									["amount"] = 236,
+									["overkill"] = 81,
 								},
 							},
-							["overkill"] = 81,
 							["amount"] = 236,
+							["overkill"] = 81,
 						},
 						[8045] = {
 							["school"] = 8,
@@ -3952,16 +3952,16 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 11,
 									["amount"] = 140,
+									["overkill"] = 11,
 								},
 							},
-							["overkill"] = 11,
 							["amount"] = 140,
+							["overkill"] = 11,
 						},
 					},
-					["name"] = "Kolkar Packhound",
 					["totaldamage"] = 105,
+					["name"] = "Kolkar Packhound",
 					["totaldamagetaken"] = 661,
 					["id"] = "0xF1300010DC1816BA",
 					["damage"] = 105,
@@ -4019,8 +4019,8 @@ SkadaStorageDB = {
 							["amount"] = 100,
 						},
 					},
-					["name"] = "Kolkar Wrangler",
 					["totaldamage"] = 17,
+					["name"] = "Kolkar Wrangler",
 					["totaldamagetaken"] = 280,
 					["id"] = "0xF130000CC8180991",
 					["damage"] = 17,
@@ -4028,10 +4028,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1514,
 			["time"] = 25,
-			["damage"] = 1514,
 			["totaldamagetaken"] = 180,
 			["etotaldamagetaken"] = 1514,
-			["last_time"] = 41539.817,
+			["damage"] = 1514,
 			["players"] = {
 				{
 					["last"] = 41539.801,
@@ -4051,9 +4050,9 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 						[34769] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[643] = {
@@ -4091,14 +4090,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[1044] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 2,
-						},
-						[25780] = {
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
@@ -4108,12 +4100,20 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 25,
 						},
-						[19834] = {
+						[25780] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
 						},
+						[1044] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 2,
+						},
 					},
+					["totaldamage"] = 720,
 					["time"] = 19.32,
 					["totaldamagetaken"] = 46,
 					["damage"] = 720,
@@ -4124,12 +4124,6 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 47,
-							["max"] = 14,
-							["count"] = 5,
-							["amount"] = 17,
-							["school"] = 2,
-							["min"] = 3,
-							["ishot"] = true,
 							["targets"] = {
 								["Jegjegos"] = {
 									["overheal"] = 22,
@@ -4140,16 +4134,22 @@ SkadaStorageDB = {
 									["amount"] = 17,
 								},
 							},
+							["count"] = 5,
+							["amount"] = 17,
+							["max"] = 14,
+							["min"] = 3,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 9,
 							["id"] = 6603,
-							["amount"] = 29,
 							["blocked"] = 10,
-							["BLOCK"] = 1,
 							["hitmax"] = 10,
+							["PARRY"] = 1,
+							["hit"] = 3,
 							["sources"] = {
 								["Kolkar Pack Runner"] = {
 									["amount"] = 0,
@@ -4161,10 +4161,10 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 3,
+							["BLOCK"] = 1,
+							["amount"] = 29,
 							["school"] = 1,
-							["PARRY"] = 1,
+							["count"] = 6,
 							["MISS"] = 1,
 							["hitamount"] = 29,
 						},
@@ -4186,7 +4186,7 @@ SkadaStorageDB = {
 					},
 					["heal"] = 17,
 					["name"] = "Mahkloompah",
-					["overkill"] = 11,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Hand of Reckoning"] = {
 							["hitmin"] = 106,
@@ -4256,8 +4256,8 @@ SkadaStorageDB = {
 									["amount"] = 44,
 								},
 								["Kolkar Packhound"] = {
-									["overkill"] = 11,
 									["amount"] = 140,
+									["overkill"] = 11,
 								},
 								["Kolkar Wrangler"] = {
 									["amount"] = 100,
@@ -4272,8 +4272,7 @@ SkadaStorageDB = {
 							["hitamount"] = 284,
 						},
 					},
-					["totaldamage"] = 720,
-					["role"] = "DAMAGER",
+					["overkill"] = 11,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -4282,8 +4281,8 @@ SkadaStorageDB = {
 							["id"] = 548,
 							["targets"] = {
 								["Kolkar Pack Runner"] = {
-									["overkill"] = 25,
 									["amount"] = 51,
+									["overkill"] = 25,
 								},
 							},
 							["overkill"] = 25,
@@ -4316,10 +4315,15 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 41523.334,
-					["class"] = "SHAMAN",
 					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
+					["class"] = "SHAMAN",
 					["overkill"] = 25,
+					["spec"] = 262,
+					["totaldamage"] = 192,
+					["name"] = "Jegjegos",
+					["time"] = 5.55,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -4343,28 +4347,84 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
 						[325] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 25,
 						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
 					},
-					["totaldamage"] = 192,
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["flag"] = 1298,
-					["time"] = 5.55,
 					["damage"] = 192,
 				}, -- [2]
 				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 109,
+							["id"] = 3140,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 236,
+									["overkill"] = 23,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 233,
+									["overkill"] = 81,
+								},
+							},
+							["overkill"] = 104,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 127,
+							["amount"] = 469,
+							["hitamount"] = 469,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 3,
+							["id"] = 3140,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 12,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 3,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["hitmax"] = 3,
+							["amount"] = 15,
+							["hitamount"] = 15,
+						},
+						["Fire Blast"] = {
+							["criticalamount"] = 118,
+							["id"] = 2137,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 118,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 118,
+							["school"] = 4,
+							["count"] = 1,
+							["criticalmax"] = 118,
+							["criticalmin"] = 118,
+						},
+					},
 					["last"] = 41534.393,
+					["damagetaken"] = 134,
+					["totaldamage"] = 602,
 					["flag"] = 1298,
 					["class"] = "MAGE",
+					["overkill"] = 104,
 					["auras"] = {
 						[3140] = {
 							["type"] = "DEBUFF",
@@ -4400,13 +4460,13 @@ SkadaStorageDB = {
 							["refresh"] = 6,
 							["targets"] = {
 								["Kolkar Pack Runner"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 5,
 								},
 								["Kolkar Packhound"] = {
-									["count"] = 1,
 									["refresh"] = 4,
+									["count"] = 1,
 									["uptime"] = 12,
 								},
 							},
@@ -4418,71 +4478,9 @@ SkadaStorageDB = {
 							["uptime"] = 25,
 						},
 					},
+					["name"] = "Woolhead",
 					["role"] = "DAMAGER",
 					["time"] = 17.6,
-					["totaldamagetaken"] = 134,
-					["damage"] = 602,
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 109,
-							["id"] = 3140,
-							["targets"] = {
-								["Kolkar Pack Runner"] = {
-									["overkill"] = 23,
-									["amount"] = 236,
-								},
-								["Kolkar Packhound"] = {
-									["overkill"] = 81,
-									["amount"] = 233,
-								},
-							},
-							["overkill"] = 104,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["hitmax"] = 127,
-							["amount"] = 469,
-							["hitamount"] = 469,
-						},
-						["Fire Blast"] = {
-							["criticalamount"] = 118,
-							["id"] = 2137,
-							["targets"] = {
-								["Kolkar Packhound"] = {
-									["amount"] = 118,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 118,
-							["school"] = 4,
-							["criticalmin"] = 118,
-							["criticalmax"] = 118,
-							["count"] = 1,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 3,
-							["id"] = 3140,
-							["targets"] = {
-								["Kolkar Pack Runner"] = {
-									["amount"] = 12,
-								},
-								["Kolkar Packhound"] = {
-									["amount"] = 3,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 4,
-							["hitmax"] = 3,
-							["amount"] = 15,
-							["hitamount"] = 15,
-						},
-					},
-					["damagetaken"] = 134,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 14,
@@ -4503,13 +4501,15 @@ SkadaStorageDB = {
 							["hitamount"] = 134,
 						},
 					},
-					["name"] = "Woolhead",
-					["overkill"] = 104,
-					["totaldamage"] = 602,
+					["spec"] = 63,
+					["totaldamagetaken"] = 134,
+					["id"] = "0x0700000000B02309",
+					["damage"] = 602,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 180,
+			["last_time"] = 41539.817,
 			["etotaldamage"] = 180,
 			["overheal"] = 47,
 			["overkill"] = 140,
@@ -4558,16 +4558,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 28,
 						},
-						[67485] = {
-							["school"] = 2,
+						[3140] = {
+							["school"] = 4,
 							["sources"] = {
-								["Mahkloompah"] = {
-									["overkill"] = 25,
-									["amount"] = 104,
+								["Woolhead"] = {
+									["amount"] = 297,
+									["overkill"] = 41,
 								},
 							},
-							["overkill"] = 25,
-							["amount"] = 104,
+							["amount"] = 297,
+							["overkill"] = 41,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -4587,6 +4587,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 74,
 						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 104,
+									["overkill"] = 25,
+								},
+							},
+							["amount"] = 104,
+							["overkill"] = 25,
+						},
 						[20424] = {
 							["school"] = 2,
 							["sources"] = {
@@ -4596,20 +4607,9 @@ SkadaStorageDB = {
 							},
 							["amount"] = 24,
 						},
-						[3140] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["overkill"] = 41,
-									["amount"] = 297,
-								},
-							},
-							["overkill"] = 41,
-							["amount"] = 297,
-						},
 					},
-					["name"] = "Kolkar Stormer",
 					["totaldamage"] = 76,
+					["name"] = "Kolkar Stormer",
 					["totaldamagetaken"] = 572,
 					["id"] = "0xF130000CC917EC56",
 					["damage"] = 76,
@@ -4661,12 +4661,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 12,
 									["amount"] = 117,
+									["overkill"] = 12,
 								},
 							},
-							["overkill"] = 12,
 							["amount"] = 117,
+							["overkill"] = 12,
 						},
 						[8045] = {
 							["school"] = 8,
@@ -4687,10 +4687,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1056,
 			["time"] = 21,
-			["damage"] = 1056,
 			["totaldamagetaken"] = 133,
 			["etotaldamagetaken"] = 1056,
-			["last_time"] = 41443.06,
+			["damage"] = 1056,
 			["players"] = {
 				{
 					["last"] = 41441.86,
@@ -4707,6 +4706,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
+						[34769] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 6,
+						},
+						[19834] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
 						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -4718,16 +4728,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
-						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -4746,13 +4746,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[34769] = {
+						[1460] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 6,
+							["count"] = 1,
+							["uptime"] = 21,
 						},
 					},
+					["totaldamage"] = 616,
 					["time"] = 17.35,
 					["totaldamagetaken"] = 67,
 					["damage"] = 616,
@@ -4765,8 +4765,8 @@ SkadaStorageDB = {
 									["amount"] = 104,
 								},
 								["Kolkar Stormer"] = {
-									["overkill"] = 25,
 									["amount"] = 104,
+									["overkill"] = 25,
 								},
 							},
 							["overkill"] = 25,
@@ -4779,29 +4779,29 @@ SkadaStorageDB = {
 							["hitamount"] = 208,
 						},
 						["Seal of Command"] = {
-							["blocked"] = 14,
-							["criticalmax"] = 40,
+							["criticalmin"] = 40,
+							["amount"] = 141,
 							["hitmin"] = 14,
 							["criticalamount"] = 40,
 							["id"] = 20424,
-							["criticalmin"] = 40,
+							["hitmax"] = 24,
 							["targets"] = {
 								["Kolkar Stormer"] = {
 									["amount"] = 24,
 								},
 								["Kolkar Bloodcharger"] = {
-									["overkill"] = 12,
 									["amount"] = 117,
+									["overkill"] = 12,
 								},
 							},
 							["overkill"] = 12,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 6,
 							["hit"] = 5,
+							["criticalmax"] = 40,
+							["critical"] = 1,
+							["blocked"] = 14,
 							["school"] = 2,
-							["hitmax"] = 24,
-							["amount"] = 141,
+							["count"] = 6,
+							["casts"] = 1,
 							["hitamount"] = 101,
 						},
 						["Melee"] = {
@@ -4817,13 +4817,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 100,
-							["critical"] = 1,
+							["amount"] = 239,
 							["criticalmax"] = 100,
-							["count"] = 4,
+							["critical"] = 1,
 							["hit"] = 3,
 							["school"] = 1,
 							["hitmax"] = 49,
-							["amount"] = 239,
+							["count"] = 4,
 							["hitamount"] = 139,
 						},
 						["Judgement of Command"] = {
@@ -4849,6 +4849,11 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 11,
+							["min"] = 11,
+							["count"] = 2,
+							["amount"] = 11,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 3,
@@ -4859,21 +4864,16 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 11,
-							["school"] = 2,
 							["max"] = 11,
-							["ishot"] = true,
-							["min"] = 11,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 9,
 							["id"] = 6603,
-							["blocked"] = 32,
-							["BLOCK"] = 3,
 							["amount"] = 40,
+							["count"] = 8,
+							["hitmax"] = 11,
 							["sources"] = {
 								["Kolkar Bloodcharger"] = {
 									["amount"] = 30,
@@ -4882,23 +4882,23 @@ SkadaStorageDB = {
 									["amount"] = 10,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 4,
+							["BLOCK"] = 3,
+							["blocked"] = 32,
 							["school"] = 1,
-							["hitmax"] = 11,
+							["hit"] = 4,
 							["MISS"] = 1,
 							["hitamount"] = 40,
 						},
 						["Corruption (DoT)"] = {
 							["hitmin"] = 8,
 							["id"] = 172,
-							["hitmax"] = 10,
+							["count"] = 3,
 							["sources"] = {
 								["Kolkar Bloodcharger"] = {
 									["amount"] = 27,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 10,
 							["hit"] = 3,
 							["school"] = 32,
 							["resisted"] = 3,
@@ -4908,10 +4908,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 11,
 					["name"] = "Mahkloompah",
-					["overkill"] = 37,
-					["overheal"] = 11,
-					["totaldamage"] = 616,
 					["role"] = "DAMAGER",
+					["overheal"] = 11,
+					["overkill"] = 37,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -4933,8 +4932,6 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 41429.201,
-					["time"] = 3.5,
-					["totaldamage"] = 69,
 					["flag"] = 1298,
 					["class"] = "SHAMAN",
 					["id"] = "0x0700000000B02488",
@@ -4961,21 +4958,23 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[643] = {
+						[325] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[325] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
 					},
 					["spec"] = 262,
-					["name"] = "Jegjegos",
-					["role"] = "DAMAGER",
+					["totaldamage"] = 69,
+					["time"] = 3.5,
 					["interrupt"] = 1,
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
 					["interruptspells"] = {
 						[57994] = {
 							["spells"] = {
@@ -4990,9 +4989,67 @@ SkadaStorageDB = {
 					["damage"] = 69,
 				}, -- [2]
 				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalamount"] = 162,
+							["hitmin"] = 123,
+							["criticalmin"] = 162,
+							["id"] = 3140,
+							["amount"] = 285,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 285,
+									["overkill"] = 41,
+								},
+							},
+							["overkill"] = 41,
+							["hitmax"] = 123,
+							["criticalmax"] = 162,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["count"] = 2,
+							["casts"] = 3,
+							["hitamount"] = 123,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 74,
+							["id"] = 2137,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 74,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 74,
+							["amount"] = 74,
+							["hitamount"] = 74,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 3,
+							["id"] = 3140,
+							["targets"] = {
+								["Kolkar Stormer"] = {
+									["amount"] = 12,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 3,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+					},
 					["last"] = 41440.735,
+					["damagetaken"] = 66,
+					["role"] = "DAMAGER",
 					["flag"] = 1298,
 					["class"] = "MAGE",
+					["name"] = "Woolhead",
 					["auras"] = {
 						[3140] = {
 							["type"] = "DEBUFF",
@@ -5021,91 +5078,28 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
 						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-					},
-					["time"] = 16.53,
-					["totaldamagetaken"] = 66,
-					["damage"] = 371,
-					["damagespells"] = {
-						["Fireball"] = {
-							["criticalmin"] = 162,
-							["hitmin"] = 123,
-							["criticalamount"] = 162,
-							["id"] = 3140,
-							["criticalmax"] = 162,
-							["targets"] = {
-								["Kolkar Stormer"] = {
-									["overkill"] = 41,
-									["amount"] = 285,
-								},
-							},
-							["overkill"] = 41,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 123,
-							["amount"] = 285,
-							["hitamount"] = 123,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 3,
-							["id"] = 3140,
-							["targets"] = {
-								["Kolkar Stormer"] = {
-									["amount"] = 12,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["hitmax"] = 3,
-							["amount"] = 12,
-							["hitamount"] = 12,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 74,
-							["id"] = 2137,
-							["targets"] = {
-								["Kolkar Stormer"] = {
-									["amount"] = 74,
-								},
-							},
-							["casts"] = 1,
+						[643] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 74,
-							["amount"] = 74,
-							["hitamount"] = 74,
+							["uptime"] = 21,
 						},
 					},
-					["damagetaken"] = 66,
-					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
-					["overkill"] = 41,
-					["name"] = "Woolhead",
 					["damagetakenspells"] = {
 						["Lightning Bolt"] = {
 							["hitmin"] = 33,
 							["id"] = 9532,
-							["hitmax"] = 33,
+							["count"] = 2,
 							["sources"] = {
 								["Kolkar Stormer"] = {
 									["amount"] = 66,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 33,
 							["hit"] = 2,
 							["school"] = 8,
 							["resisted"] = 8,
@@ -5114,11 +5108,17 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamage"] = 371,
-					["role"] = "DAMAGER",
+					["time"] = 16.53,
+					["overkill"] = 41,
+					["spec"] = 63,
+					["totaldamagetaken"] = 66,
+					["id"] = "0x0700000000B02309",
+					["damage"] = 371,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 133,
+			["last_time"] = 41443.06,
 			["interrupt"] = 1,
 			["etotaldamage"] = 133,
 			["overheal"] = 11,
@@ -5172,38 +5172,38 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 1,
 									["amount"] = 39,
+									["overkill"] = 1,
 								},
 							},
-							["overkill"] = 1,
 							["amount"] = 39,
+							["overkill"] = 1,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 37,
 									["amount"] = 154,
+									["overkill"] = 37,
 								},
 							},
-							["overkill"] = 37,
 							["amount"] = 154,
+							["overkill"] = 37,
 						},
 					},
-					["name"] = "Kolkar Packhound",
 					["totaldamage"] = 11,
+					["name"] = "Kolkar Packhound",
 					["totaldamagetaken"] = 328,
 					["id"] = "0xF1300010DC17ED5F",
 					["damage"] = 11,
 				}, -- [1]
 				{
-					["id"] = "0xF130000CCA17ECFD",
-					["name"] = "Kolkar Pack Runner",
-					["totaldamagetaken"] = 28,
 					["flag"] = 2632,
-					["class"] = "MONSTER",
+					["name"] = "Kolkar Pack Runner",
 					["damagetaken"] = 28,
+					["id"] = "0xF130000CCA17ECFD",
+					["totaldamagetaken"] = 28,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[3140] = {
 							["school"] = 4,
@@ -5218,22 +5218,21 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 4,
 									["amount"] = 25,
+									["overkill"] = 4,
 								},
 							},
-							["overkill"] = 4,
 							["amount"] = 25,
+							["overkill"] = 4,
 						},
 					},
 				}, -- [2]
 			},
 			["totaldamage"] = 356,
 			["time"] = 5,
-			["damage"] = 356,
 			["totaldamagetaken"] = 11,
 			["etotaldamagetaken"] = 356,
-			["last_time"] = 41410.619,
+			["damage"] = 356,
 			["players"] = {
 				{
 					["last"] = 41410.21,
@@ -5250,6 +5249,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -5261,11 +5265,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -5284,12 +5283,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[1460] = {
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 353,
 					["time"] = 4.23,
 					["totaldamagetaken"] = 11,
 					["damage"] = 353,
@@ -5300,42 +5300,42 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 14,
+							["count"] = 3,
+							["amount"] = 42,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 0,
 									["amount"] = 42,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 42,
-							["school"] = 2,
 							["max"] = 14,
-							["ishot"] = true,
-							["min"] = 14,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 11,
 							["id"] = 6603,
-							["blocked"] = 10,
-							["BLOCK"] = 1,
+							["count"] = 2,
+							["amount"] = 11,
 							["sources"] = {
 								["Kolkar Packhound"] = {
 									["amount"] = 11,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
+							["BLOCK"] = 1,
+							["blocked"] = 10,
 							["school"] = 1,
 							["hitmax"] = 11,
-							["amount"] = 11,
+							["hit"] = 1,
 							["hitamount"] = 11,
 						},
 					},
 					["heal"] = 42,
 					["name"] = "Mahkloompah",
-					["overkill"] = 42,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Hand of Reckoning"] = {
 							["hitmin"] = 105,
@@ -5358,22 +5358,22 @@ SkadaStorageDB = {
 							["id"] = 20424,
 							["targets"] = {
 								["Kolkar Packhound"] = {
-									["overkill"] = 1,
 									["amount"] = 39,
+									["overkill"] = 1,
 								},
 								["Kolkar Pack Runner"] = {
-									["overkill"] = 4,
 									["amount"] = 25,
+									["overkill"] = 4,
 								},
 							},
 							["overkill"] = 5,
-							["blocked"] = 6,
+							["hit"] = 3,
 							["casts"] = 1,
 							["count"] = 3,
-							["hit"] = 3,
+							["blocked"] = 6,
 							["school"] = 2,
-							["hitmax"] = 25,
 							["amount"] = 64,
+							["hitmax"] = 25,
 							["hitamount"] = 64,
 						},
 						["Judgement of Command"] = {
@@ -5396,31 +5396,34 @@ SkadaStorageDB = {
 							["hitmin"] = 54,
 							["criticalamount"] = 100,
 							["id"] = 6603,
-							["hitmax"] = 54,
+							["count"] = 2,
 							["targets"] = {
 								["Kolkar Packhound"] = {
-									["overkill"] = 37,
 									["amount"] = 154,
+									["overkill"] = 37,
 								},
 							},
 							["overkill"] = 37,
-							["count"] = 2,
+							["criticalmin"] = 100,
 							["criticalmax"] = 100,
-							["critical"] = 1,
+							["hitmax"] = 54,
 							["amount"] = 154,
 							["school"] = 1,
 							["hit"] = 1,
-							["criticalmin"] = 100,
+							["critical"] = 1,
 							["hitamount"] = 54,
 						},
 					},
-					["totaldamage"] = 353,
-					["role"] = "DAMAGER",
+					["overkill"] = 42,
 				}, -- [1]
 				{
+					["class"] = "SHAMAN",
 					["last"] = 41405.986,
+					["name"] = "Jegjegos",
+					["time"] = 0,
 					["id"] = "0x0700000000B02488",
 					["spec"] = 262,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[643] = {
 							["type"] = "BUFF",
@@ -5432,21 +5435,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[325] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
+						[325] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["time"] = 0,
-					["class"] = "SHAMAN",
 				}, -- [2]
 				{
 					["damagespells"] = {
@@ -5469,7 +5468,6 @@ SkadaStorageDB = {
 					["last"] = 41407.643,
 					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
-					["class"] = "MAGE",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -5486,27 +5484,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[643] = {
+						[19742] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[19742] = {
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
 					},
 					["totaldamage"] = 3,
-					["role"] = "DAMAGER",
 					["name"] = "Woolhead",
-					["flag"] = 1298,
+					["class"] = "MAGE",
 					["time"] = 1.66,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["damage"] = 3,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 11,
+			["last_time"] = 41410.619,
 			["overheal"] = 0,
 			["etotaldamage"] = 11,
 			["overkill"] = 42,
@@ -5521,7 +5521,6 @@ SkadaStorageDB = {
 		}, -- [11]
 		{
 			["mana"] = 144,
-			["damage"] = 1136,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -5566,6 +5565,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 204,
 						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 105,
+								},
+							},
+							["amount"] = 105,
+						},
 						[8045] = {
 							["school"] = 8,
 							["sources"] = {
@@ -5575,25 +5583,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 71,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 93,
-								},
-							},
-							["amount"] = 93,
-						},
 						[2137] = {
 							["school"] = 4,
 							["sources"] = {
 								["Woolhead"] = {
-									["overkill"] = 32,
 									["amount"] = 75,
+									["overkill"] = 32,
 								},
 							},
-							["overkill"] = 32,
 							["amount"] = 75,
+							["overkill"] = 32,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -5604,18 +5603,18 @@ SkadaStorageDB = {
 							},
 							["amount"] = 119,
 						},
-						[67485] = {
-							["school"] = 2,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["amount"] = 105,
+									["amount"] = 93,
 								},
 							},
-							["amount"] = 105,
+							["amount"] = 93,
 						},
 					},
-					["name"] = "Verog the Dervish",
 					["totaldamage"] = 89,
+					["name"] = "Verog the Dervish",
 					["totaldamagetaken"] = 866,
 					["id"] = "0xF130000D4317B96A",
 					["damage"] = 89,
@@ -5640,12 +5639,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 15,
 									["amount"] = 96,
+									["overkill"] = 15,
 								},
 							},
-							["overkill"] = 15,
 							["amount"] = 96,
+							["overkill"] = 15,
 						},
 						[26573] = {
 							["school"] = 2,
@@ -5675,8 +5674,8 @@ SkadaStorageDB = {
 							["amount"] = 137,
 						},
 					},
-					["name"] = "Kolkar Bloodcharger",
 					["totaldamage"] = 10,
+					["name"] = "Kolkar Bloodcharger",
 					["totaldamagetaken"] = 270,
 					["id"] = "0xF130000D451794B8",
 					["damage"] = 10,
@@ -5684,10 +5683,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1136,
 			["time"] = 13,
-			["potion"] = 1,
 			["totaldamagetaken"] = 99,
 			["etotaldamagetaken"] = 1136,
-			["last_time"] = 41388.235,
+			["damage"] = 1136,
 			["players"] = {
 				{
 					["last"] = 41387.01,
@@ -5716,6 +5714,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
 						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -5727,11 +5730,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -5750,12 +5748,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[1460] = {
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
 						},
 					},
+					["totaldamage"] = 851,
 					["time"] = 11.62,
 					["totaldamagetaken"] = 99,
 					["damage"] = 851,
@@ -5766,18 +5765,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 14,
+							["count"] = 2,
+							["amount"] = 28,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 0,
 									["amount"] = 28,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 28,
-							["school"] = 2,
 							["max"] = 14,
-							["ishot"] = true,
-							["min"] = 14,
 						},
 					},
 					["damagetakenspells"] = {
@@ -5785,7 +5784,7 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 10,
 							["id"] = 6603,
-							["amount"] = 99,
+							["hit"] = 8,
 							["sources"] = {
 								["Kolkar Bloodcharger"] = {
 									["amount"] = 10,
@@ -5795,7 +5794,7 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 11,
-							["hit"] = 8,
+							["amount"] = 99,
 							["school"] = 1,
 							["hitmax"] = 14,
 							["MISS"] = 2,
@@ -5804,7 +5803,7 @@ SkadaStorageDB = {
 					},
 					["heal"] = 28,
 					["name"] = "Mahkloompah",
-					["overkill"] = 15,
+					["role"] = "DAMAGER",
 					["damagespells"] = {
 						["Hand of Reckoning"] = {
 							["hitmin"] = 105,
@@ -5845,21 +5844,21 @@ SkadaStorageDB = {
 							["criticalmin"] = 96,
 							["targets"] = {
 								["Kolkar Bloodcharger"] = {
-									["overkill"] = 15,
 									["amount"] = 96,
+									["overkill"] = 15,
 								},
 								["Verog the Dervish"] = {
 									["amount"] = 93,
 								},
 							},
 							["overkill"] = 15,
-							["critical"] = 1,
+							["amount"] = 189,
 							["criticalmax"] = 96,
-							["count"] = 3,
+							["critical"] = 1,
 							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 51,
-							["amount"] = 189,
+							["count"] = 3,
 							["hitamount"] = 93,
 						},
 						["Seal of Command"] = {
@@ -5916,49 +5915,9 @@ SkadaStorageDB = {
 							["hitamount"] = 221,
 						},
 					},
-					["totaldamage"] = 851,
-					["role"] = "DAMAGER",
+					["overkill"] = 15,
 				}, -- [1]
 				{
-					["last"] = 41384.144,
-					["flag"] = 1298,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Verog the Dervish"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[325] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["time"] = 5.83,
-					["damage"] = 210,
 					["damagespells"] = {
 						["Fire Nova"] = {
 							["hitmin"] = 68,
@@ -5993,19 +5952,58 @@ SkadaStorageDB = {
 							["hitamount"] = 71,
 						},
 					},
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
-					["potionspells"] = {
-						[2455] = 1,
-					},
-					["potion"] = 1,
-					["name"] = "Jegjegos",
+					["last"] = 41384.144,
+					["role"] = "DAMAGER",
 					["manaspells"] = {
 						[437] = 144,
 					},
+					["flag"] = 1298,
+					["class"] = "SHAMAN",
 					["mana"] = 144,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Verog the Dervish"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[325] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["potionspells"] = {
+						[2455] = 1,
+					},
 					["totaldamage"] = 210,
-					["role"] = "DAMAGER",
+					["time"] = 5.83,
+					["name"] = "Jegjegos",
+					["potion"] = 1,
+					["spec"] = 262,
+					["id"] = "0x0700000000B02488",
+					["damage"] = 210,
 				}, -- [2]
 				{
 					["damagespells"] = {
@@ -6014,8 +6012,8 @@ SkadaStorageDB = {
 							["id"] = 2137,
 							["targets"] = {
 								["Verog the Dervish"] = {
-									["overkill"] = 32,
 									["amount"] = 75,
+									["overkill"] = 32,
 								},
 							},
 							["overkill"] = 32,
@@ -6029,10 +6027,15 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 41387.203,
-					["class"] = "MAGE",
 					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
+					["class"] = "MAGE",
 					["overkill"] = 32,
+					["spec"] = 63,
+					["totaldamage"] = 75,
+					["name"] = "Woolhead",
+					["time"] = 3.5,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -6054,35 +6057,32 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
 						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
 						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
 					},
-					["totaldamage"] = 75,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 3.5,
 					["damage"] = 75,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 99,
+			["last_time"] = 41388.235,
 			["overheal"] = 0,
 			["etotaldamage"] = 99,
+			["starttime"] = 1727559801,
 			["overkill"] = 47,
 			["edamagetaken"] = 1136,
 			["heal"] = 28,
-			["name"] = "Verog the Dervish",
+			["potion"] = 1,
 			["mobname"] = "Verog the Dervish",
-			["starttime"] = 1727559801,
+			["name"] = "Verog the Dervish",
 			["edamage"] = 99,
 			["last_action"] = 1727559814,
 			["endtime"] = 1727559814,
@@ -6118,12 +6118,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 20,
 									["amount"] = 144,
+									["overkill"] = 20,
 								},
 							},
-							["overkill"] = 20,
 							["amount"] = 144,
+							["overkill"] = 20,
 						},
 						[879] = {
 							["school"] = 2,
@@ -6138,12 +6138,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 9,
 									["amount"] = 86,
+									["overkill"] = 9,
 								},
 							},
-							["overkill"] = 9,
 							["amount"] = 86,
+							["overkill"] = 9,
 						},
 						[20467] = {
 							["school"] = 2,
@@ -6155,8 +6155,8 @@ SkadaStorageDB = {
 							["amount"] = 29,
 						},
 					},
-					["name"] = "Kolkar Marauder",
 					["totaldamage"] = 99,
+					["name"] = "Kolkar Marauder",
 					["totaldamagetaken"] = 390,
 					["id"] = "0xF130000CCB17EFF5",
 					["damage"] = 99,
@@ -6165,10 +6165,9 @@ SkadaStorageDB = {
 			["dispel"] = 1,
 			["totaldamage"] = 390,
 			["time"] = 12,
-			["damage"] = 390,
 			["totaldamagetaken"] = 99,
 			["etotaldamagetaken"] = 390,
-			["last_time"] = 41368.369,
+			["damage"] = 390,
 			["players"] = {
 				{
 					["last"] = 41368.337,
@@ -6181,11 +6180,6 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -6212,6 +6206,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 					},
 					["dispel"] = 1,
 					["role"] = "DAMAGER",
@@ -6219,62 +6218,6 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 99,
 					["damage"] = 390,
 					["damagespells"] = {
-						["Exorcism"] = {
-							["hitmin"] = 131,
-							["id"] = 879,
-							["targets"] = {
-								["Kolkar Marauder"] = {
-									["amount"] = 131,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 131,
-							["amount"] = 131,
-							["hitamount"] = 131,
-						},
-						["Seal of Command"] = {
-							["criticalmin"] = 42,
-							["hitmin"] = 21,
-							["criticalamount"] = 42,
-							["id"] = 20424,
-							["criticalmax"] = 42,
-							["targets"] = {
-								["Kolkar Marauder"] = {
-									["overkill"] = 9,
-									["amount"] = 86,
-								},
-							},
-							["overkill"] = 9,
-							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 23,
-							["amount"] = 86,
-							["hitamount"] = 44,
-						},
-						["Melee"] = {
-							["hitmin"] = 42,
-							["id"] = 6603,
-							["targets"] = {
-								["Kolkar Marauder"] = {
-									["overkill"] = 20,
-									["amount"] = 144,
-								},
-							},
-							["overkill"] = 20,
-							["PARRY"] = 1,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 53,
-							["amount"] = 144,
-							["hitamount"] = 144,
-						},
 						["Judgement of Command"] = {
 							["hitmin"] = 29,
 							["id"] = 20467,
@@ -6291,6 +6234,62 @@ SkadaStorageDB = {
 							["amount"] = 29,
 							["hitamount"] = 29,
 						},
+						["Exorcism"] = {
+							["hitmin"] = 131,
+							["id"] = 879,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 131,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 131,
+							["amount"] = 131,
+							["hitamount"] = 131,
+						},
+						["Melee"] = {
+							["hitmin"] = 42,
+							["id"] = 6603,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 144,
+									["overkill"] = 20,
+								},
+							},
+							["overkill"] = 20,
+							["PARRY"] = 1,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 53,
+							["amount"] = 144,
+							["hitamount"] = 144,
+						},
+						["Seal of Command"] = {
+							["criticalamount"] = 42,
+							["hitmin"] = 21,
+							["criticalmin"] = 42,
+							["id"] = 20424,
+							["amount"] = 86,
+							["targets"] = {
+								["Kolkar Marauder"] = {
+									["amount"] = 86,
+									["overkill"] = 9,
+								},
+							},
+							["overkill"] = 9,
+							["hitmax"] = 23,
+							["criticalmax"] = 42,
+							["critical"] = 1,
+							["hit"] = 2,
+							["school"] = 2,
+							["count"] = 3,
+							["casts"] = 1,
+							["hitamount"] = 44,
+						},
 					},
 					["damagetaken"] = 99,
 					["id"] = "0x0700000000B01AF6",
@@ -6298,18 +6297,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 28,
-							["max"] = 14,
-							["count"] = 4,
-							["amount"] = 27,
-							["school"] = 2,
-							["min"] = 13,
-							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 28,
 									["amount"] = 27,
 								},
 							},
+							["count"] = 4,
+							["amount"] = 27,
+							["max"] = 14,
+							["min"] = 13,
+							["ishot"] = true,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -6345,9 +6344,9 @@ SkadaStorageDB = {
 							["hitamount"] = 26,
 						},
 					},
-					["overkill"] = 29,
 					["heal"] = 27,
 					["name"] = "Mahkloompah",
+					["totaldamage"] = 390,
 					["overheal"] = 28,
 					["dispelspells"] = {
 						[1152] = {
@@ -6360,12 +6359,16 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["totaldamage"] = 390,
+					["overkill"] = 29,
 				}, -- [1]
 				{
+					["class"] = "SHAMAN",
 					["last"] = 41357.003,
+					["name"] = "Jegjegos",
+					["time"] = 0,
 					["id"] = "0x0700000000B02488",
 					["spec"] = 262,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -6377,26 +6380,26 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[8395] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
 						[325] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
+						[8395] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Jegjegos",
-					["time"] = 0,
-					["class"] = "SHAMAN",
 				}, -- [2]
 				{
+					["class"] = "MAGE",
 					["last"] = 41357.003,
+					["name"] = "Woolhead",
+					["time"] = 0,
 					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -6419,14 +6422,11 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 99,
+			["last_time"] = 41368.369,
 			["overheal"] = 28,
 			["etotaldamage"] = 99,
 			["overkill"] = 29,
@@ -6466,6 +6466,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 60,
 						},
+						[548] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 166,
+									["overkill"] = 48,
+								},
+							},
+							["amount"] = 166,
+							["overkill"] = 48,
+						},
 						[20424] = {
 							["school"] = 2,
 							["sources"] = {
@@ -6484,20 +6495,9 @@ SkadaStorageDB = {
 							},
 							["amount"] = 69,
 						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 48,
-									["amount"] = 166,
-								},
-							},
-							["overkill"] = 48,
-							["amount"] = 166,
-						},
 					},
-					["name"] = "Kolkar Pack Runner",
 					["totaldamage"] = 93,
+					["name"] = "Kolkar Pack Runner",
 					["totaldamagetaken"] = 316,
 					["id"] = "0xF130000CCA161CB9",
 					["damage"] = 93,
@@ -6586,6 +6586,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 						[62124] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -6597,11 +6602,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 4,
-						},
-						[19834] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
 						},
 						[20185] = {
 							["type"] = "DEBUFF",
@@ -6620,7 +6620,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[1460] = {
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -6648,11 +6648,11 @@ SkadaStorageDB = {
 							["hitamount"] = 105,
 						},
 						["Seal of Command"] = {
-							["criticalmin"] = 44,
-							["hitmin"] = 20,
 							["criticalamount"] = 44,
+							["hitmin"] = 20,
+							["criticalmin"] = 44,
 							["id"] = 20424,
-							["criticalmax"] = 44,
+							["hit"] = 2,
 							["targets"] = {
 								["Kolkar Pack Runner"] = {
 									["amount"] = 21,
@@ -6661,14 +6661,14 @@ SkadaStorageDB = {
 									["amount"] = 64,
 								},
 							},
-							["critical"] = 1,
-							["hitmax"] = 21,
-							["PARRY"] = 1,
+							["casts"] = 1,
 							["count"] = 4,
+							["criticalmax"] = 44,
+							["critical"] = 1,
 							["amount"] = 85,
 							["school"] = 2,
-							["casts"] = 1,
-							["hit"] = 2,
+							["PARRY"] = 1,
+							["hitmax"] = 21,
 							["hitamount"] = 41,
 						},
 						["Judgement of Command"] = {
@@ -6709,87 +6709,45 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 24,
+							["min"] = 9,
+							["count"] = 3,
+							["amount"] = 18,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 24,
 									["amount"] = 18,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 18,
-							["school"] = 2,
 							["max"] = 9,
-							["ishot"] = true,
-							["min"] = 9,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 9,
 							["id"] = 6603,
-							["hitmax"] = 9,
-							["amount"] = 9,
+							["BLOCK"] = 1,
+							["count"] = 2,
 							["sources"] = {
 								["Kolkar Packhound"] = {
 									["amount"] = 9,
 								},
 							},
-							["BLOCK"] = 1,
-							["blocked"] = 9,
+							["hitmax"] = 9,
+							["amount"] = 9,
 							["school"] = 1,
 							["hit"] = 1,
-							["count"] = 2,
+							["blocked"] = 9,
 							["hitamount"] = 9,
 						},
 					},
 					["heal"] = 18,
 					["name"] = "Mahkloompah",
-					["overheal"] = 24,
 					["totaldamage"] = 321,
+					["overheal"] = 24,
 				}, -- [1]
 				{
-					["last"] = 41334.595,
-					["flag"] = 66834,
-					["class"] = "SHAMAN",
-					["auras"] = {
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Kolkar Pack Runner"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[325] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["uptime"] = 6,
-						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 6.6,
-					["totaldamagetaken"] = 108,
-					["damage"] = 295,
 					["damagespells"] = {
 						["Lightning Shield"] = {
 							["hitmin"] = 30,
@@ -6812,8 +6770,8 @@ SkadaStorageDB = {
 							["id"] = 548,
 							["targets"] = {
 								["Kolkar Pack Runner"] = {
-									["overkill"] = 48,
 									["amount"] = 166,
+									["overkill"] = 48,
 								},
 							},
 							["overkill"] = 48,
@@ -6842,9 +6800,50 @@ SkadaStorageDB = {
 							["hitamount"] = 69,
 						},
 					},
+					["last"] = 41334.595,
 					["damagetaken"] = 108,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
+					["totaldamage"] = 295,
+					["flag"] = 66834,
+					["class"] = "SHAMAN",
+					["overkill"] = 48,
+					["auras"] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[19742] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[325] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["name"] = "Jegjegos",
+					["role"] = "DAMAGER",
+					["time"] = 6.6,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 15,
@@ -6865,9 +6864,10 @@ SkadaStorageDB = {
 							["hitamount"] = 108,
 						},
 					},
-					["name"] = "Jegjegos",
-					["overkill"] = 48,
-					["totaldamage"] = 295,
+					["spec"] = 262,
+					["totaldamagetaken"] = 108,
+					["id"] = "0x0700000000B02488",
+					["damage"] = 295,
 				}, -- [2]
 				{
 					["last"] = 41325.019,
@@ -6889,23 +6889,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[19742] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
 						[1460] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[19742] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Woolhead",
-					["flag"] = 66834,
-					["time"] = 0,
 					["class"] = "MAGE",
+					["time"] = 0,
+					["flag"] = 66834,
 				}, -- [3]
 			},
 			["type"] = "group",
@@ -6954,12 +6954,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Jegjegos"] = {
-									["overkill"] = 52,
 									["amount"] = 69,
+									["overkill"] = 52,
 								},
 							},
-							["overkill"] = 52,
 							["amount"] = 69,
+							["overkill"] = 52,
 						},
 						[26573] = {
 							["school"] = 2,
@@ -6998,8 +6998,8 @@ SkadaStorageDB = {
 							["amount"] = 58,
 						},
 					},
-					["name"] = "Kolkar Marauder",
 					["totaldamage"] = 75,
+					["name"] = "Kolkar Marauder",
 					["totaldamagetaken"] = 408,
 					["id"] = "0xF130000CCB133D1D",
 					["damage"] = 75,
@@ -7060,12 +7060,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Woolhead"] = {
-									["overkill"] = 5,
 									["amount"] = 72,
+									["overkill"] = 5,
 								},
 							},
-							["overkill"] = 5,
 							["amount"] = 72,
+							["overkill"] = 5,
 						},
 					},
 					["totaldamage"] = 22,
@@ -7108,16 +7108,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 153,
 						},
-						[2120] = {
+						[3606] = {
 							["school"] = 4,
 							["sources"] = {
-								["Woolhead"] = {
-									["overkill"] = 48,
-									["amount"] = 65,
+								["Jegjegos"] = {
+									["amount"] = 12,
 								},
 							},
-							["overkill"] = 48,
-							["amount"] = 65,
+							["amount"] = 12,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -7141,21 +7139,23 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Mahkloompah"] = {
-									["overkill"] = 11,
 									["amount"] = 64,
+									["overkill"] = 11,
 								},
 							},
-							["overkill"] = 11,
 							["amount"] = 64,
+							["overkill"] = 11,
 						},
-						[3606] = {
+						[2120] = {
 							["school"] = 4,
 							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 12,
+								["Woolhead"] = {
+									["amount"] = 65,
+									["overkill"] = 48,
 								},
 							},
-							["amount"] = 12,
+							["amount"] = 65,
+							["overkill"] = 48,
 						},
 					},
 					["totaldamage"] = 62,
@@ -7189,16 +7189,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 102,
 						},
-						[548] = {
-							["school"] = 8,
+						[2120] = {
+							["school"] = 4,
 							["sources"] = {
-								["Jegjegos"] = {
-									["overkill"] = 37,
-									["amount"] = 56,
+								["Woolhead"] = {
+									["amount"] = 73,
 								},
 							},
-							["overkill"] = 37,
-							["amount"] = 56,
+							["amount"] = 73,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -7209,15 +7207,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 46,
 						},
-						[3606] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
 						[20424] = {
 							["school"] = 2,
 							["sources"] = {
@@ -7227,18 +7216,29 @@ SkadaStorageDB = {
 							},
 							["amount"] = 21,
 						},
-						[2120] = {
-							["school"] = 4,
+						[548] = {
+							["school"] = 8,
 							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 73,
+								["Jegjegos"] = {
+									["amount"] = 56,
+									["overkill"] = 37,
 								},
 							},
-							["amount"] = 73,
+							["amount"] = 56,
+							["overkill"] = 37,
+						},
+						[3606] = {
+							["school"] = 4,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
 						},
 					},
-					["name"] = "Kolkar Packhound",
 					["totaldamage"] = 28,
+					["name"] = "Kolkar Packhound",
 					["totaldamagetaken"] = 310,
 					["id"] = "0xF1300010DC1751CC",
 					["damage"] = 28,
@@ -7246,10 +7246,9 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1601,
 			["time"] = 15,
-			["damage"] = 1601,
 			["totaldamagetaken"] = 187,
 			["etotaldamagetaken"] = 1601,
-			["last_time"] = 41303.878,
+			["damage"] = 1601,
 			["players"] = {
 				{
 					["last"] = 41302.694,
@@ -7265,16 +7264,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 4,
-						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[1460] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
 						},
 						[26573] = {
 							["type"] = "DEBUFF",
@@ -7300,7 +7289,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[20375] = {
+						[19834] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
@@ -7317,12 +7306,23 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[19834] = {
+						[1460] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
 						},
 					},
+					["totaldamage"] = 730,
 					["time"] = 10.47,
 					["totaldamagetaken"] = 112,
 					["damage"] = 730,
@@ -7353,11 +7353,11 @@ SkadaStorageDB = {
 						},
 						["Seal of Command"] = {
 							["DODGE"] = 1,
-							["criticalmax"] = 44,
+							["criticalmin"] = 44,
 							["hitmin"] = 21,
 							["criticalamount"] = 44,
 							["id"] = 20424,
-							["criticalmin"] = 44,
+							["amount"] = 150,
 							["targets"] = {
 								["Kolkar Pack Runner"] = {
 									["amount"] = 65,
@@ -7366,18 +7366,18 @@ SkadaStorageDB = {
 									["amount"] = 21,
 								},
 								["Kolkar Bloodcharger"] = {
-									["overkill"] = 11,
 									["amount"] = 64,
+									["overkill"] = 11,
 								},
 							},
 							["overkill"] = 11,
+							["hitmax"] = 22,
+							["criticalmax"] = 44,
 							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 7,
 							["hit"] = 5,
 							["school"] = 2,
-							["hitmax"] = 22,
-							["amount"] = 150,
+							["count"] = 7,
+							["casts"] = 1,
 							["hitamount"] = 106,
 						},
 						["Judgement of Command"] = {
@@ -7392,9 +7392,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 58,
 							["school"] = 2,
-							["criticalmin"] = 58,
-							["criticalmax"] = 58,
 							["count"] = 1,
+							["criticalmax"] = 58,
+							["criticalmin"] = 58,
 						},
 						["Melee"] = {
 							["hitmin"] = 46,
@@ -7424,27 +7424,27 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[20267] = {
 							["overheal"] = 0,
+							["min"] = 14,
+							["count"] = 1,
+							["amount"] = 14,
+							["school"] = 2,
+							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
 									["overheal"] = 0,
 									["amount"] = 14,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 14,
-							["school"] = 2,
 							["max"] = 14,
-							["ishot"] = true,
-							["min"] = 14,
 						},
 					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 9,
 							["id"] = 6603,
-							["blocked"] = 12,
-							["BLOCK"] = 1,
 							["hitmax"] = 11,
+							["amount"] = 112,
+							["PARRY"] = 4,
 							["sources"] = {
 								["Kolkar Pack Runner"] = {
 									["amount"] = 22,
@@ -7456,25 +7456,112 @@ SkadaStorageDB = {
 									["amount"] = 62,
 								},
 							},
-							["count"] = 16,
-							["hit"] = 11,
+							["BLOCK"] = 1,
+							["blocked"] = 12,
 							["school"] = 1,
-							["PARRY"] = 4,
-							["amount"] = 112,
+							["hit"] = 11,
+							["count"] = 16,
 							["hitamount"] = 112,
 						},
 					},
 					["heal"] = 14,
 					["name"] = "Mahkloompah",
-					["overkill"] = 11,
-					["overheal"] = 0,
-					["totaldamage"] = 730,
 					["role"] = "DAMAGER",
+					["overheal"] = 0,
+					["overkill"] = 11,
 				}, -- [1]
 				{
+					["damagespells"] = {
+						["Fire Nova"] = {
+							["hitmin"] = 63,
+							["id"] = 8349,
+							["targets"] = {
+								["Kolkar Pack Runner"] = {
+									["amount"] = 63,
+								},
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 132,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 69,
+									["overkill"] = 52,
+								},
+							},
+							["overkill"] = 52,
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 69,
+							["amount"] = 264,
+							["hitamount"] = 264,
+						},
+						["Earth Shock"] = {
+							["hitmin"] = 67,
+							["id"] = 8045,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 70,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 67,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 70,
+							["amount"] = 137,
+							["hitamount"] = 137,
+						},
+						["Lightning Bolt"] = {
+							["hitmin"] = 56,
+							["id"] = 548,
+							["targets"] = {
+								["Kolkar Packhound"] = {
+									["amount"] = 56,
+									["overkill"] = 37,
+								},
+								["Kolkar Marauder"] = {
+									["amount"] = 56,
+								},
+							},
+							["overkill"] = 37,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 56,
+							["amount"] = 112,
+							["hitamount"] = 112,
+						},
+						["Attack (Searing Totem)"] = {
+							["hitmin"] = 12,
+							["id"] = 3606,
+							["targets"] = {
+								["Kolkar Bloodcharger"] = {
+									["amount"] = 12,
+								},
+								["Kolkar Packhound"] = {
+									["amount"] = 12,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 12,
+							["amount"] = 24,
+							["hitamount"] = 24,
+						},
+					},
 					["last"] = 41303.853,
+					["damagetaken"] = 75,
+					["totaldamage"] = 537,
 					["flag"] = 1298,
 					["class"] = "SHAMAN",
+					["overkill"] = 89,
 					["auras"] = {
 						[643] = {
 							["type"] = "BUFF",
@@ -7504,98 +7591,9 @@ SkadaStorageDB = {
 							["uptime"] = 15,
 						},
 					},
+					["name"] = "Jegjegos",
 					["role"] = "DAMAGER",
 					["time"] = 10.3,
-					["totaldamagetaken"] = 75,
-					["damage"] = 537,
-					["damagespells"] = {
-						["Fire Nova"] = {
-							["hitmin"] = 63,
-							["id"] = 8349,
-							["targets"] = {
-								["Kolkar Pack Runner"] = {
-									["amount"] = 63,
-								},
-								["Kolkar Bloodcharger"] = {
-									["amount"] = 132,
-								},
-								["Kolkar Marauder"] = {
-									["overkill"] = 52,
-									["amount"] = 69,
-								},
-							},
-							["overkill"] = 52,
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 4,
-							["hitmax"] = 69,
-							["amount"] = 264,
-							["hitamount"] = 264,
-						},
-						["Attack (Searing Totem)"] = {
-							["hitmin"] = 12,
-							["id"] = 3606,
-							["targets"] = {
-								["Kolkar Bloodcharger"] = {
-									["amount"] = 12,
-								},
-								["Kolkar Packhound"] = {
-									["amount"] = 12,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 12,
-							["amount"] = 24,
-							["hitamount"] = 24,
-						},
-						["Lightning Bolt"] = {
-							["hitmin"] = 56,
-							["id"] = 548,
-							["targets"] = {
-								["Kolkar Packhound"] = {
-									["overkill"] = 37,
-									["amount"] = 56,
-								},
-								["Kolkar Marauder"] = {
-									["amount"] = 56,
-								},
-							},
-							["overkill"] = 37,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 56,
-							["amount"] = 112,
-							["hitamount"] = 112,
-						},
-						["Earth Shock"] = {
-							["hitmin"] = 67,
-							["id"] = 8045,
-							["targets"] = {
-								["Kolkar Bloodcharger"] = {
-									["amount"] = 70,
-								},
-								["Kolkar Marauder"] = {
-									["amount"] = 67,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 70,
-							["amount"] = 137,
-							["hitamount"] = 137,
-						},
-					},
-					["damagetaken"] = 75,
-					["id"] = "0x0700000000B02488",
-					["spec"] = 262,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -7614,9 +7612,10 @@ SkadaStorageDB = {
 							["hitamount"] = 75,
 						},
 					},
-					["name"] = "Jegjegos",
-					["overkill"] = 89,
-					["totaldamage"] = 537,
+					["spec"] = 262,
+					["totaldamagetaken"] = 75,
+					["id"] = "0x0700000000B02488",
+					["damage"] = 537,
 				}, -- [2]
 				{
 					["damagespells"] = {
@@ -7641,15 +7640,15 @@ SkadaStorageDB = {
 							["id"] = 2120,
 							["targets"] = {
 								["Kolkar Pack Runner"] = {
-									["overkill"] = 5,
 									["amount"] = 72,
+									["overkill"] = 5,
 								},
 								["Kolkar Packhound"] = {
 									["amount"] = 60,
 								},
 								["Kolkar Bloodcharger"] = {
-									["overkill"] = 48,
 									["amount"] = 65,
+									["overkill"] = 48,
 								},
 							},
 							["overkill"] = 53,
@@ -7678,10 +7677,15 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 41301.87,
-					["class"] = "MAGE",
 					["id"] = "0x0700000000B02309",
-					["spec"] = 63,
+					["class"] = "MAGE",
 					["overkill"] = 53,
+					["spec"] = 63,
+					["totaldamage"] = 334,
+					["name"] = "Woolhead",
+					["time"] = 9.039999999999999,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[3140] = {
 							["type"] = "DEBUFF",
@@ -7727,27 +7731,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[7301] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
 						[643] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
 						},
+						[7301] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
 					},
-					["totaldamage"] = 334,
-					["role"] = "DAMAGER",
-					["name"] = "Woolhead",
-					["flag"] = 1298,
-					["time"] = 9.039999999999999,
 					["damage"] = 334,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 187,
+			["last_time"] = 41303.878,
 			["etotaldamage"] = 187,
 			["overheal"] = 0,
 			["overkill"] = 153,
@@ -7769,20 +7769,20 @@ SkadaStorageDB = {
 		["time"] = 1224,
 		["totaldamagetaken"] = 12395,
 		["damage"] = 70768,
-		["overheal"] = 1566,
+		["starttime"] = 1727557522,
 		["damagetaken"] = 12395,
 		["interrupt"] = 53,
 		["overkill"] = 5912,
 		["heal"] = 6152,
 		["potion"] = 4,
 		["ccdone"] = 35,
-		["name"] = "Total",
-		["starttime"] = 1727557522,
+		["overheal"] = 1566,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "PALADIN",
 				["dispel"] = 2,
+				["totaldamage"] = 46348,
 				["time"] = 892.9799999999977,
 				["totaldamagetaken"] = 10391,
 				["damage"] = 46348,
@@ -7794,29 +7794,29 @@ SkadaStorageDB = {
 				["heal"] = 3778,
 				["name"] = "Mahkloompah",
 				["ccdone"] = 12,
-				["mana"] = 340,
-				["interrupt"] = 10,
-				["totaldamage"] = 46348,
 				["role"] = "DAMAGER",
+				["interrupt"] = 10,
+				["mana"] = 340,
 			}, -- [1]
 			{
 				["damagetaken"] = 535,
 				["flag"] = 1298,
-				["id"] = "0x0700000000B02309",
 				["class"] = "MAGE",
-				["name"] = "Woolhead",
+				["id"] = "0x0700000000B02309",
 				["overkill"] = 2520,
-				["totaldamage"] = 10331,
-				["role"] = "DAMAGER",
-				["time"] = 154.1600000000001,
-				["ccdone"] = 12,
-				["totaldamagetaken"] = 535,
 				["spec"] = 63,
+				["totaldamage"] = 10331,
+				["name"] = "Woolhead",
+				["ccdone"] = 12,
+				["time"] = 154.1600000000001,
+				["totaldamagetaken"] = 535,
+				["role"] = "DAMAGER",
 				["damage"] = 10331,
 			}, -- [2]
 			{
 				["flag"] = 1298,
 				["class"] = "SHAMAN",
+				["totaldamage"] = 14089,
 				["time"] = 305.0600000000001,
 				["totaldamagetaken"] = 1469,
 				["damage"] = 14089,
@@ -7825,15 +7825,15 @@ SkadaStorageDB = {
 				["id"] = "0x0700000000B02488",
 				["spec"] = 262,
 				["overkill"] = 1113,
-				["potion"] = 4,
 				["heal"] = 2374,
-				["name"] = "Jegjegos",
+				["potion"] = 4,
 				["ccdone"] = 11,
-				["mana"] = 620,
-				["interrupt"] = 43,
-				["totaldamage"] = 14089,
 				["role"] = "DAMAGER",
+				["interrupt"] = 43,
+				["mana"] = 620,
+				["name"] = "Jegjegos",
 			}, -- [3]
 		},
+		["name"] = "Total",
 	},
 }

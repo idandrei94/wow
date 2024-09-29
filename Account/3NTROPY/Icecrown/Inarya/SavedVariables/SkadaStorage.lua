@@ -14,7 +14,7 @@ SkadaStorageDB = {
 		["overkill"] = 148884,
 		["heal"] = 84975,
 		["name"] = "Total",
-		["overheal"] = 208766,
+		["rage"] = 116,
 		["players"] = {
 			{
 				["flag"] = 1298,
@@ -31,41 +31,41 @@ SkadaStorageDB = {
 				["spec"] = 256,
 				["heal"] = 72787,
 				["name"] = "Ilynyssa",
-				["role"] = "HEALER",
-				["class"] = "PRIEST",
 				["overheal"] = 171770,
+				["class"] = "PRIEST",
+				["role"] = "HEALER",
 			}, -- [1]
 			{
 				["overheal"] = 4074,
-				["role"] = "DAMAGER",
-				["damagetaken"] = 27902,
 				["totaldamage"] = 1666436,
+				["damagetaken"] = 27902,
+				["id"] = "0x070000000089BE9F",
 				["flag"] = 1297,
 				["mana"] = 23303,
-				["class"] = "SHAMAN",
-				["overkill"] = 21459,
 				["interrupt"] = 4,
-				["heal"] = 8148,
+				["overkill"] = 21459,
+				["spec"] = 262,
+				["role"] = "DAMAGER",
 				["time"] = 301.4200000000002,
 				["name"] = "Inarya",
-				["spec"] = 262,
+				["heal"] = 8148,
 				["totaldamagetaken"] = 70842,
-				["id"] = "0x070000000089BE9F",
+				["class"] = "SHAMAN",
 				["damage"] = 1666436,
 			}, -- [2]
 			{
-				["role"] = "DAMAGER",
-				["damagetaken"] = 4844,
-				["id"] = "0x07000000008B367F",
 				["flag"] = 1298,
-				["class"] = "DRUID",
+				["damagetaken"] = 4844,
 				["mana"] = 17645,
+				["id"] = "0x07000000008B367F",
+				["class"] = "DRUID",
+				["totaldamage"] = 810053,
 				["overkill"] = 60305,
 				["dispel"] = 5,
-				["totaldamage"] = 810053,
+				["role"] = "DAMAGER",
 				["time"] = 165.7099999999999,
-				["name"] = "Tikkylol",
 				["spec"] = 102,
+				["name"] = "Tikkylol",
 				["totaldamagetaken"] = 21259,
 				["energy"] = 100,
 				["damage"] = 810053,
@@ -73,45 +73,1578 @@ SkadaStorageDB = {
 			{
 				["overheal"] = 14883,
 				["damagetaken"] = 13428,
-				["role"] = "DAMAGER",
+				["totaldamage"] = 520611,
 				["flag"] = 1298,
 				["class"] = "PRIEST",
-				["totaldamage"] = 520611,
-				["overkill"] = 5790,
-				["mana"] = 28272,
-				["heal"] = 183,
-				["time"] = 156.9599999999999,
-				["name"] = "Chirrishadow",
-				["spec"] = 258,
-				["totaldamagetaken"] = 18533,
 				["id"] = "0x0700000000A7BAA4",
+				["overkill"] = 5790,
+				["heal"] = 183,
+				["role"] = "DAMAGER",
+				["time"] = 156.9599999999999,
+				["spec"] = 258,
+				["name"] = "Chirrishadow",
+				["totaldamagetaken"] = 18533,
+				["mana"] = 28272,
 				["damage"] = 520611,
 			}, -- [4]
 			{
 				["overheal"] = 18039,
-				["role"] = "TANK",
-				["damagetaken"] = 32326,
 				["totaldamage"] = 937128,
+				["damagetaken"] = 32326,
+				["id"] = "0x07000000006D9D41",
 				["flag"] = 1298,
 				["class"] = "WARRIOR",
-				["interrupt"] = 1,
-				["overkill"] = 61330,
 				["rage"] = 92,
-				["heal"] = 3857,
+				["overkill"] = 61330,
+				["spec"] = 72,
+				["role"] = "TANK",
 				["time"] = 137.47,
 				["name"] = "Roxces",
-				["spec"] = 72,
+				["heal"] = 3857,
 				["totaldamagetaken"] = 74647,
-				["id"] = "0x07000000006D9D41",
+				["interrupt"] = 1,
 				["damage"] = 937128,
 			}, -- [5]
 		},
 		["energy"] = 100,
-		["rage"] = 116,
+		["overheal"] = 208766,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
+			["overheal"] = 208766,
+			["mana"] = 77510,
+			["rage"] = 116,
+			["enemies"] = {
+				{
+					["damagetaken"] = 1440574,
+					["name"] = "The Lich King",
+					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 1440574,
+					["id"] = "0xF13000905A000136",
+					["damagetakenspells"] = {
+						[48160] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 39352,
+								},
+							},
+							["amount"] = 39352,
+						},
+						[48135] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 31554,
+								},
+							},
+							["amount"] = 31554,
+						},
+						[53190] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 20239,
+								},
+							},
+							["amount"] = 20239,
+						},
+						[61654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 9177,
+								},
+							},
+							["amount"] = 9177,
+						},
+						[60043] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 156541,
+								},
+							},
+							["amount"] = 156541,
+						},
+						[63675] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 8616,
+								},
+							},
+							["amount"] = 8616,
+						},
+						[48127] = {
+							["school"] = 32,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 2713,
+								},
+								["Chirrishadow"] = {
+									["amount"] = 3760,
+								},
+							},
+							["amount"] = 6473,
+						},
+						[53195] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 36117,
+								},
+							},
+							["amount"] = 36117,
+						},
+						[53227] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 8356,
+								},
+							},
+							["amount"] = 8356,
+						},
+						[3018] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 1491,
+								},
+							},
+							["amount"] = 1491,
+						},
+						[48300] = {
+							["school"] = 32,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 72106,
+								},
+								["Chirrishadow"] = {
+									["amount"] = 39579,
+								},
+							},
+							["amount"] = 111685,
+						},
+						[48461] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 7232,
+								},
+							},
+							["amount"] = 7232,
+						},
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 7728,
+								},
+							},
+							["amount"] = 7728,
+						},
+						[49233] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 209036,
+								},
+							},
+							["amount"] = 209036,
+						},
+						[48465] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 25032,
+								},
+							},
+							["amount"] = 25032,
+						},
+						[49269] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 4120,
+								},
+							},
+							["amount"] = 4120,
+						},
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 70940,
+								},
+							},
+							["amount"] = 70940,
+						},
+						[48463] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 10999,
+								},
+							},
+							["amount"] = 10999,
+						},
+						[49238] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 314443,
+								},
+							},
+							["amount"] = 314443,
+						},
+						[48123] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 39393,
+								},
+							},
+							["amount"] = 39393,
+						},
+						[49240] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 62084,
+								},
+							},
+							["amount"] = 62084,
+						},
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 63554,
+								},
+								["Chirrishadow"] = {
+									["amount"] = 44429,
+								},
+							},
+							["amount"] = 107983,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 1526,
+								},
+							},
+							["amount"] = 1526,
+						},
+						[48468] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 21713,
+								},
+							},
+							["amount"] = 21713,
+						},
+						[49271] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 128744,
+								},
+							},
+							["amount"] = 128744,
+						},
+					},
+				}, -- [1]
+				{
+					["damagetaken"] = 1440574,
+					["name"] = "Important targets",
+					["totaldamagetaken"] = 1440574,
+					["id"] = "Important targets",
+					["class"] = "ENEMY",
+					["fake"] = true,
+					["damagetakenspells"] = {
+						[48160] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 39352,
+								},
+							},
+							["amount"] = 39352,
+						},
+						[48135] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 31554,
+								},
+							},
+							["amount"] = 31554,
+						},
+						[53190] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 20239,
+								},
+							},
+							["amount"] = 20239,
+						},
+						[61654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 9177,
+								},
+							},
+							["amount"] = 9177,
+						},
+						[60043] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 156541,
+								},
+							},
+							["amount"] = 156541,
+						},
+						[63675] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 8616,
+								},
+							},
+							["amount"] = 8616,
+						},
+						[48127] = {
+							["school"] = 32,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 2713,
+								},
+								["Chirrishadow"] = {
+									["amount"] = 3760,
+								},
+							},
+							["amount"] = 6473,
+						},
+						[53195] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 36117,
+								},
+							},
+							["amount"] = 36117,
+						},
+						[53227] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 8356,
+								},
+							},
+							["amount"] = 8356,
+						},
+						[3018] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 1491,
+								},
+							},
+							["amount"] = 1491,
+						},
+						[48300] = {
+							["school"] = 32,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 72106,
+								},
+								["Chirrishadow"] = {
+									["amount"] = 39579,
+								},
+							},
+							["amount"] = 111685,
+						},
+						[48461] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 7232,
+								},
+							},
+							["amount"] = 7232,
+						},
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 7728,
+								},
+							},
+							["amount"] = 7728,
+						},
+						[49233] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 209036,
+								},
+							},
+							["amount"] = 209036,
+						},
+						[48465] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 25032,
+								},
+							},
+							["amount"] = 25032,
+						},
+						[49269] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 4120,
+								},
+							},
+							["amount"] = 4120,
+						},
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 70940,
+								},
+							},
+							["amount"] = 70940,
+						},
+						[48463] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 10999,
+								},
+							},
+							["amount"] = 10999,
+						},
+						[49238] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 314443,
+								},
+							},
+							["amount"] = 314443,
+						},
+						[48123] = {
+							["school"] = 2,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 39393,
+								},
+							},
+							["amount"] = 39393,
+						},
+						[49240] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 62084,
+								},
+							},
+							["amount"] = 62084,
+						},
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Ilynyssa"] = {
+									["amount"] = 63554,
+								},
+								["Chirrishadow"] = {
+									["amount"] = 44429,
+								},
+							},
+							["amount"] = 107983,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 1526,
+								},
+							},
+							["amount"] = 1526,
+						},
+						[48468] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 21713,
+								},
+							},
+							["amount"] = 21713,
+						},
+						[49271] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 128744,
+								},
+							},
+							["amount"] = 128744,
+						},
+					},
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 2025,
+							["targets"] = {
+								["Tikkylol"] = {
+									["total"] = 375,
+									["amount"] = 0,
+								},
+								["Inarya"] = {
+									["total"] = 1124,
+									["amount"] = 179,
+								},
+								["Roxces"] = {
+									["total"] = 910,
+									["amount"] = 205,
+								},
+							},
+							["amount"] = 384,
+						},
+					},
+					["damagetaken"] = 659835,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 4561,
+									["amount"] = 9326,
+								},
+							},
+							["overkill"] = 4561,
+							["amount"] = 9326,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 8018,
+									["amount"] = 47227,
+								},
+							},
+							["overkill"] = 8018,
+							["amount"] = 47227,
+						},
+						[53190] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 24040,
+								},
+							},
+							["amount"] = 24040,
+						},
+						[61654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["overkill"] = 4573,
+									["amount"] = 12246,
+								},
+							},
+							["overkill"] = 4573,
+							["amount"] = 12246,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 7934,
+									["amount"] = 12990,
+								},
+							},
+							["overkill"] = 7934,
+							["amount"] = 12990,
+						},
+						[53195] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["overkill"] = 4925,
+									["amount"] = 32587,
+								},
+							},
+							["overkill"] = 4925,
+							["amount"] = 32587,
+						},
+						[53227] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["overkill"] = 10402,
+									["amount"] = 21332,
+								},
+							},
+							["overkill"] = 10402,
+							["amount"] = 21332,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 15565,
+									["amount"] = 116885,
+								},
+							},
+							["overkill"] = 15565,
+							["amount"] = 116885,
+						},
+						[57755] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 1060,
+									["amount"] = 4169,
+								},
+							},
+							["overkill"] = 1060,
+							["amount"] = 4169,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 7939,
+									["amount"] = 47442,
+								},
+							},
+							["overkill"] = 7939,
+							["amount"] = 47442,
+						},
+						[49233] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["overkill"] = 1208,
+									["amount"] = 7519,
+								},
+							},
+							["overkill"] = 1208,
+							["amount"] = 7519,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 2177,
+								},
+							},
+							["amount"] = 2177,
+						},
+						[49238] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 9248,
+								},
+							},
+							["amount"] = 9248,
+						},
+						[49269] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 4449,
+								},
+							},
+							["amount"] = 4449,
+						},
+						[59159] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["overkill"] = 3675,
+									["amount"] = 45926,
+								},
+							},
+							["overkill"] = 3675,
+							["amount"] = 45926,
+						},
+						[49271] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["overkill"] = 7701,
+									["amount"] = 80356,
+								},
+							},
+							["overkill"] = 7701,
+							["amount"] = 80356,
+						},
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["overkill"] = 8101,
+									["amount"] = 94045,
+								},
+							},
+							["overkill"] = 8101,
+							["amount"] = 94045,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 165,
+									["amount"] = 3730,
+								},
+							},
+							["overkill"] = 165,
+							["amount"] = 3730,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 4042,
+									["amount"] = 52251,
+								},
+							},
+							["overkill"] = 4042,
+							["amount"] = 52251,
+						},
+						[53022] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["overkill"] = 376,
+									["amount"] = 31890,
+								},
+							},
+							["overkill"] = 376,
+							["amount"] = 31890,
+						},
+					},
+					["totaldamage"] = 2409,
+					["name"] = "Raging Ghoul",
+					["totaldamagetaken"] = 659835,
+					["id"] = "0xF13000904C000164",
+					["damage"] = 384,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 4126,
+							["targets"] = {
+								["Tikkylol"] = {
+									["amount"] = 2146,
+								},
+								["Inarya"] = {
+									["total"] = 4262,
+									["amount"] = 2298,
+								},
+								["Roxces"] = {
+									["total"] = 4995,
+									["amount"] = 2833,
+								},
+							},
+							["amount"] = 7277,
+						},
+						[70182] = {
+							["school"] = 32,
+							["total"] = 19421,
+							["targets"] = {
+								["Inarya"] = {
+									["total"] = 14990,
+									["amount"] = 8604,
+								},
+								["Tikkylol"] = {
+									["total"] = 3874,
+									["amount"] = 2698,
+								},
+								["Roxces"] = {
+									["total"] = 12456,
+									["amount"] = 6326,
+								},
+								["Ilynyssa"] = {
+									["amount"] = 3316,
+								},
+								["Chirrishadow"] = {
+									["total"] = 8132,
+									["amount"] = 5554,
+								},
+							},
+							["amount"] = 26498,
+						},
+						[70183] = {
+							["school"] = 32,
+							["total"] = 14458,
+							["targets"] = {
+								["Inarya"] = {
+									["total"] = 7386,
+									["amount"] = 0,
+								},
+								["Ilynyssa"] = {
+									["total"] = 7072,
+									["amount"] = 0,
+								},
+								["Chirrishadow"] = {
+									["amount"] = 5195,
+								},
+							},
+							["amount"] = 5195,
+						},
+						[70184] = {
+							["school"] = 32,
+							["total"] = 11091,
+							["targets"] = {
+								["Inarya"] = {
+									["total"] = 6656,
+									["amount"] = 4445,
+								},
+								["Tikkylol"] = {
+									["total"] = 5187,
+									["amount"] = 0,
+								},
+								["Roxces"] = {
+									["amount"] = 6419,
+								},
+								["Ilynyssa"] = {
+									["amount"] = 3159,
+								},
+								["Chirrishadow"] = {
+									["total"] = 5206,
+									["amount"] = 2679,
+								},
+							},
+							["amount"] = 16702,
+						},
+					},
+					["damagetaken"] = 893053,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 19176,
+								},
+							},
+							["amount"] = 19176,
+						},
+						[48468] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 13926,
+								},
+							},
+							["amount"] = 13926,
+						},
+						[53195] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 62654,
+								},
+							},
+							["amount"] = 62654,
+						},
+						[49238] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 95819,
+								},
+							},
+							["amount"] = 95819,
+						},
+						[49240] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 20194,
+								},
+							},
+							["amount"] = 20194,
+						},
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 40087,
+								},
+							},
+							["amount"] = 40087,
+						},
+						[63675] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 5165,
+								},
+							},
+							["amount"] = 5165,
+						},
+						[57755] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 15041,
+								},
+							},
+							["amount"] = 15041,
+						},
+						[53227] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 4957,
+								},
+							},
+							["amount"] = 4957,
+						},
+						[59159] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 5494,
+								},
+							},
+							["amount"] = 5494,
+						},
+						[60043] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 49368,
+								},
+							},
+							["amount"] = 49368,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 48264,
+								},
+							},
+							["amount"] = 48264,
+						},
+						[48461] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["overkill"] = 17881,
+									["amount"] = 57326,
+								},
+							},
+							["overkill"] = 17881,
+							["amount"] = 57326,
+						},
+						[48463] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 16753,
+								},
+							},
+							["amount"] = 16753,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 4869,
+								},
+							},
+							["amount"] = 4869,
+						},
+						[48160] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 19774,
+								},
+							},
+							["amount"] = 19774,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 6746,
+								},
+							},
+							["amount"] = 6746,
+						},
+						[61654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 4614,
+								},
+							},
+							["amount"] = 4614,
+						},
+						[48300] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 10550,
+								},
+							},
+							["amount"] = 10550,
+						},
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 5803,
+								},
+							},
+							["amount"] = 5803,
+						},
+						[48127] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["overkill"] = 3216,
+									["amount"] = 16222,
+								},
+							},
+							["overkill"] = 3216,
+							["amount"] = 16222,
+						},
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 4722,
+									["amount"] = 8964,
+								},
+							},
+							["overkill"] = 4722,
+							["amount"] = 8964,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 1055,
+									["amount"] = 7845,
+								},
+							},
+							["overkill"] = 1055,
+							["amount"] = 7845,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 42495,
+								},
+							},
+							["amount"] = 42495,
+						},
+						[49271] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 77688,
+								},
+							},
+							["amount"] = 77688,
+						},
+						[50783] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 9425,
+								},
+							},
+							["amount"] = 9425,
+						},
+						[53190] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["overkill"] = 32,
+									["amount"] = 26527,
+								},
+							},
+							["overkill"] = 32,
+							["amount"] = 26527,
+						},
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 73,
+								},
+							},
+							["amount"] = 73,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 5124,
+									["amount"] = 38442,
+								},
+							},
+							["overkill"] = 5124,
+							["amount"] = 38442,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 50075,
+								},
+							},
+							["amount"] = 50075,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 26904,
+								},
+							},
+							["amount"] = 26904,
+						},
+						[49233] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["overkill"] = 910,
+									["amount"] = 58746,
+								},
+							},
+							["overkill"] = 910,
+							["amount"] = 58746,
+						},
+						[48465] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["overkill"] = 9613,
+									["amount"] = 23067,
+								},
+							},
+							["overkill"] = 9613,
+							["amount"] = 23067,
+						},
+					},
+					["totaldamage"] = 100451,
+					["name"] = "Risen Witch Doctor",
+					["totaldamagetaken"] = 893053,
+					["id"] = "0xF13000904D00016C",
+					["damage"] = 55672,
+				}, -- [4]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 26949,
+							["targets"] = {
+								["Roxces"] = {
+									["total"] = 22684,
+									["amount"] = 4020,
+								},
+								["Inarya"] = {
+									["total"] = 13078,
+									["amount"] = 6407,
+								},
+							},
+							["amount"] = 10427,
+						},
+						[40505] = {
+							["school"] = 1,
+							["total"] = 18144,
+							["targets"] = {
+								["Tikkylol"] = {
+									["total"] = 2497,
+									["amount"] = 0,
+								},
+								["Roxces"] = {
+									["total"] = 9234,
+									["amount"] = 2011,
+								},
+								["Inarya"] = {
+									["total"] = 8375,
+									["amount"] = 1962,
+								},
+							},
+							["amount"] = 3973,
+						},
+						[70181] = {
+							["school"] = 8,
+							["total"] = 40100,
+							["targets"] = {
+								["Tikkylol"] = {
+									["total"] = 7180,
+									["amount"] = 0,
+								},
+								["Roxces"] = {
+									["total"] = 17949,
+									["amount"] = 10512,
+								},
+								["Inarya"] = {
+									["total"] = 14971,
+									["amount"] = 4007,
+								},
+							},
+							["amount"] = 14519,
+						},
+					},
+					["damagetaken"] = 1150086,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 24344,
+								},
+							},
+							["amount"] = 24344,
+						},
+						[48468] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 30945,
+								},
+							},
+							["amount"] = 30945,
+						},
+						[53195] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 38111,
+								},
+							},
+							["amount"] = 38111,
+						},
+						[49238] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 85838,
+								},
+							},
+							["amount"] = 85838,
+						},
+						[49240] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 17324,
+								},
+							},
+							["amount"] = 17324,
+						},
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["overkill"] = 2198,
+									["amount"] = 71447,
+								},
+							},
+							["overkill"] = 2198,
+							["amount"] = 71447,
+						},
+						[63675] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 18105,
+								},
+							},
+							["amount"] = 18105,
+						},
+						[20253] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 817,
+								},
+							},
+							["amount"] = 817,
+						},
+						[53227] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 5253,
+								},
+							},
+							["amount"] = 5253,
+						},
+						[60043] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 71384,
+								},
+							},
+							["amount"] = 71384,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 57989,
+								},
+							},
+							["amount"] = 57989,
+						},
+						[48461] = {
+							["school"] = 8,
+							["sources"] = {
+								["Tikkylol"] = {
+									["overkill"] = 9351,
+									["amount"] = 86053,
+								},
+							},
+							["overkill"] = 9351,
+							["amount"] = 86053,
+						},
+						[48463] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 21134,
+								},
+							},
+							["amount"] = 21134,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 6458,
+								},
+							},
+							["amount"] = 6458,
+						},
+						[20647] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 7082,
+								},
+							},
+							["amount"] = 7082,
+						},
+						[48160] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 38049,
+								},
+							},
+							["amount"] = 38049,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 702,
+									["amount"] = 20062,
+								},
+							},
+							["overkill"] = 702,
+							["amount"] = 20062,
+						},
+						[61654] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 2170,
+								},
+							},
+							["amount"] = 2170,
+						},
+						[48300] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 20408,
+								},
+							},
+							["amount"] = 20408,
+						},
+						[48125] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 8356,
+								},
+							},
+							["amount"] = 8356,
+						},
+						[48127] = {
+							["school"] = 32,
+							["sources"] = {
+								["Chirrishadow"] = {
+									["amount"] = 28079,
+								},
+							},
+							["amount"] = 28079,
+						},
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 16408,
+								},
+							},
+							["amount"] = 16408,
+						},
+						[49271] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["overkill"] = 3392,
+									["amount"] = 71486,
+								},
+							},
+							["overkill"] = 3392,
+							["amount"] = 71486,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 84473,
+								},
+							},
+							["amount"] = 84473,
+						},
+						[49269] = {
+							["school"] = 8,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 1349,
+								},
+							},
+							["amount"] = 1349,
+						},
+						[50783] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 14307,
+								},
+							},
+							["amount"] = 14307,
+						},
+						[48465] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 53348,
+								},
+							},
+							["amount"] = 53348,
+						},
+						[53190] = {
+							["school"] = 64,
+							["sources"] = {
+								["Tikkylol"] = {
+									["amount"] = 16986,
+								},
+							},
+							["amount"] = 16986,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["overkill"] = 443,
+									["amount"] = 35173,
+								},
+							},
+							["overkill"] = 443,
+							["amount"] = 35173,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 76056,
+								},
+							},
+							["amount"] = 76056,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 29390,
+								},
+							},
+							["amount"] = 29390,
+						},
+						[49233] = {
+							["school"] = 4,
+							["sources"] = {
+								["Inarya"] = {
+									["amount"] = 61073,
+								},
+							},
+							["amount"] = 61073,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Roxces"] = {
+									["amount"] = 30629,
+								},
+							},
+							["amount"] = 30629,
+						},
+					},
+					["totaldamage"] = 95968,
+					["name"] = "Lumbering Abomination",
+					["totaldamagetaken"] = 1150086,
+					["id"] = "0xF1300090CD000175",
+					["damage"] = 28919,
+				}, -- [5]
+			},
+			["dispel"] = 10,
+			["totaldamage"] = 4143548,
+			["time"] = 322,
+			["energy"] = 100,
+			["totaldamagetaken"] = 198828,
+			["etotaldamagetaken"] = 4143548,
+			["last_time"] = 27057.081,
 			["players"] = {
 				{
 					["last"] = 27055.356,
@@ -147,10 +1680,10 @@ SkadaStorageDB = {
 							["uptime"] = 255,
 						},
 						[63944] = {
-							["uptime"] = 322,
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 14,
+							["type"] = "BUFF",
+							["uptime"] = 322,
+							["count"] = 1,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -180,11 +1713,11 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["uptime"] = 9,
 						},
-						[75473] = {
+						[54861] = {
 							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 5,
-							["uptime"] = 74,
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 						[28878] = {
 							["type"] = "BUFF",
@@ -232,45 +1765,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 55,
 						},
-						[54758] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 5,
-							["uptime"] = 60,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 322,
-						},
-						[57669] = {
+						[64701] = {
 							["school"] = 8,
 							["type"] = "BUFF",
-							["uptime"] = 124,
-						},
-						[51470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 322,
-						},
-						[72416] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 5,
-							["uptime"] = 50,
-						},
-						[71199] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 156,
-							["uptime"] = 319,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 7,
-							["uptime"] = 58,
+							["count"] = 3,
+							["uptime"] = 45,
 						},
 						[16246] = {
 							["type"] = "BUFF",
@@ -279,17 +1778,51 @@ SkadaStorageDB = {
 							["refresh"] = 29,
 							["uptime"] = 225,
 						},
-						[64701] = {
+						[57669] = {
 							["school"] = 8,
 							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 45,
+							["uptime"] = 124,
 						},
-						[54861] = {
+						[75473] = {
 							["school"] = 1,
 							["type"] = "BUFF",
+							["count"] = 5,
+							["uptime"] = 74,
+						},
+						[71199] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["school"] = 8,
+							["refresh"] = 156,
+							["uptime"] = 319,
+						},
+						[54758] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 5,
+							["uptime"] = 60,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 7,
+							["uptime"] = 58,
+						},
+						[72416] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 5,
+							["uptime"] = 50,
+						},
+						[51470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 322,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 322,
 						},
 					},
 					["totaldamage"] = 1666436,
@@ -298,12 +1831,12 @@ SkadaStorageDB = {
 					["damage"] = 1666436,
 					["damagespells"] = {
 						["Fire Nova"] = {
-							["criticalmin"] = 4140,
-							["amount"] = 28207,
-							["hitmin"] = 2170,
 							["criticalamount"] = 23705,
+							["critical"] = 5,
+							["hitmin"] = 2170,
+							["criticalmin"] = 4140,
 							["id"] = 61654,
-							["casts"] = 3,
+							["hitmax"] = 2332,
 							["targets"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 2170,
@@ -315,18 +1848,18 @@ SkadaStorageDB = {
 									["amount"] = 9177,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 12246,
 									["overkill"] = 4573,
+									["amount"] = 12246,
 								},
 							},
 							["overkill"] = 4573,
-							["count"] = 7,
-							["criticalmax"] = 5053,
-							["hitmax"] = 2332,
 							["hit"] = 2,
+							["casts"] = 3,
+							["count"] = 7,
+							["amount"] = 28207,
 							["school"] = 4,
 							["resisted"] = 459,
-							["critical"] = 5,
+							["criticalmax"] = 5053,
 							["hitamount"] = 4502,
 						},
 						["Lava Burst"] = {
@@ -343,26 +1876,26 @@ SkadaStorageDB = {
 									["amount"] = 49368,
 								},
 							},
-							["count"] = 24,
-							["casts"] = 24,
-							["criticalmax"] = 15013,
+							["criticalmin"] = 9122,
 							["critical"] = 23,
+							["casts"] = 24,
+							["count"] = 24,
 							["amount"] = 277293,
 							["school"] = 4,
 							["resisted"] = 8452,
 							["MISS"] = 1,
-							["criticalmin"] = 9122,
+							["criticalmax"] = 15013,
 						},
 						["Flame Shock (DoT)"] = {
-							["criticalmin"] = 1436,
-							["hitmin"] = 688,
 							["criticalamount"] = 170634,
+							["hitmin"] = 688,
+							["criticalmin"] = 1436,
 							["id"] = 49233,
-							["amount"] = 246260,
+							["critical"] = 82,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 33254,
 									["overkill"] = 910,
+									["amount"] = 33254,
 								},
 								["Lumbering Abomination"] = {
 									["amount"] = 47389,
@@ -371,85 +1904,51 @@ SkadaStorageDB = {
 									["amount"] = 163823,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 1794,
 									["overkill"] = 1208,
+									["amount"] = 1794,
 								},
 							},
 							["overkill"] = 2118,
-							["count"] = 157,
-							["criticalmax"] = 2798,
-							["hitmax"] = 1339,
 							["hit"] = 75,
+							["criticalmax"] = 2798,
+							["count"] = 157,
+							["amount"] = 246260,
 							["school"] = 4,
 							["resisted"] = 9894,
-							["critical"] = 82,
+							["hitmax"] = 1339,
 							["hitamount"] = 75626,
 						},
 						["Thunderstorm"] = {
-							["hitmax"] = 3368,
+							["criticalmin"] = 5494,
 							["hitmin"] = 2907,
 							["criticalamount"] = 32406,
 							["id"] = 59159,
-							["criticalmax"] = 7127,
+							["critical"] = 5,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 5494,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 45926,
 									["overkill"] = 3675,
+									["amount"] = 45926,
 								},
 							},
 							["overkill"] = 3675,
-							["criticalmin"] = 5494,
-							["casts"] = 6,
-							["count"] = 11,
+							["amount"] = 51420,
+							["criticalmax"] = 7127,
+							["hitmax"] = 3368,
 							["hit"] = 6,
 							["school"] = 8,
-							["amount"] = 51420,
-							["critical"] = 5,
+							["count"] = 11,
+							["casts"] = 6,
 							["hitamount"] = 19014,
 						},
-						["Chain Lightning"] = {
-							["hitmin"] = 1349,
-							["criticalmin"] = 4159,
-							["targets"] = {
-								["Risen Witch Doctor"] = {
-									["amount"] = 77688,
-								},
-								["Lumbering Abomination"] = {
-									["amount"] = 72835,
-									["overkill"] = 3392,
-								},
-								["The Lich King"] = {
-									["amount"] = 132864,
-								},
-								["Raging Ghoul"] = {
-									["amount"] = 84805,
-									["overkill"] = 7701,
-								},
-							},
-							["amount"] = 368192,
-							["resisted"] = 8947,
-							["MISS"] = 2,
-							["criticalamount"] = 276981,
-							["id"] = 49271,
-							["overkill"] = 11093,
-							["casts"] = 39,
-							["criticalmax"] = 11349,
-							["critical"] = 37,
-							["hit"] = 27,
-							["school"] = 8,
-							["count"] = 66,
-							["hitmax"] = 5343,
-							["hitamount"] = 91211,
-						},
 						["Lightning Bolt"] = {
-							["criticalamount"] = 422684,
-							["hitmin"] = 1872,
 							["criticalmin"] = 3943,
+							["hitmin"] = 1872,
+							["criticalamount"] = 422684,
 							["id"] = 49238,
-							["amount"] = 604950,
+							["hitmax"] = 5899,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 116013,
@@ -464,22 +1963,56 @@ SkadaStorageDB = {
 									["amount"] = 9248,
 								},
 							},
-							["casts"] = 72,
-							["count"] = 91,
-							["criticalmax"] = 12946,
 							["critical"] = 48,
 							["hit"] = 43,
+							["casts"] = 72,
+							["count"] = 91,
+							["amount"] = 604950,
 							["school"] = 8,
 							["resisted"] = 18068,
-							["hitmax"] = 5899,
+							["criticalmax"] = 12946,
 							["hitamount"] = 182266,
 						},
+						["Chain Lightning"] = {
+							["hitmin"] = 1349,
+							["criticalmin"] = 4159,
+							["targets"] = {
+								["Risen Witch Doctor"] = {
+									["amount"] = 77688,
+								},
+								["Lumbering Abomination"] = {
+									["overkill"] = 3392,
+									["amount"] = 72835,
+								},
+								["The Lich King"] = {
+									["amount"] = 132864,
+								},
+								["Raging Ghoul"] = {
+									["overkill"] = 7701,
+									["amount"] = 84805,
+								},
+							},
+							["amount"] = 368192,
+							["resisted"] = 8947,
+							["MISS"] = 2,
+							["criticalamount"] = 276981,
+							["id"] = 49271,
+							["overkill"] = 11093,
+							["criticalmax"] = 11349,
+							["casts"] = 39,
+							["critical"] = 37,
+							["hit"] = 27,
+							["school"] = 8,
+							["hitmax"] = 5343,
+							["count"] = 66,
+							["hitamount"] = 91211,
+						},
 						["Flame Shock"] = {
-							["criticalamount"] = 46061,
-							["hitmin"] = 1643,
 							["criticalmin"] = 3196,
+							["hitmin"] = 1643,
+							["criticalamount"] = 46061,
 							["id"] = 49233,
-							["amount"] = 90114,
+							["hitmax"] = 2461,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 25492,
@@ -494,19 +2027,19 @@ SkadaStorageDB = {
 									["amount"] = 5725,
 								},
 							},
-							["casts"] = 34,
-							["count"] = 34,
-							["criticalmax"] = 5151,
 							["critical"] = 11,
 							["hit"] = 23,
+							["casts"] = 34,
+							["count"] = 34,
+							["amount"] = 90114,
 							["school"] = 4,
 							["resisted"] = 1553,
-							["hitmax"] = 2461,
+							["criticalmax"] = 5151,
 							["hitamount"] = 44053,
 						},
 					},
 					["damagetaken"] = 27902,
-					["role"] = "DAMAGER",
+					["overheal"] = 4074,
 					["interrupt"] = 4,
 					["spec"] = 262,
 					["healspells"] = {
@@ -529,9 +2062,9 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 8148,
 							["school"] = 8,
-							["critical"] = 1,
-							["criticalmax"] = 4221,
 							["criticalmin"] = 4221,
+							["criticalmax"] = 4221,
+							["critical"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -540,54 +2073,54 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["id"] = 70183,
-							["ABSORB"] = 1,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 0,
 									["total"] = 7386,
+									["amount"] = 0,
 								},
 							},
+							["ABSORB"] = 1,
+							["id"] = 70183,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
 							["total"] = 18464,
 							["hitmin"] = 179,
 							["id"] = 6603,
-							["count"] = 16,
+							["hitmax"] = 2336,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 2298,
 									["total"] = 4262,
+									["amount"] = 2298,
 								},
 								["Lumbering Abomination"] = {
-									["amount"] = 6407,
 									["total"] = 13078,
+									["amount"] = 6407,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 179,
 									["total"] = 1124,
+									["amount"] = 179,
 								},
 							},
-							["hitmax"] = 2336,
+							["count"] = 16,
 							["ABSORB"] = 10,
 							["school"] = 1,
-							["hit"] = 5,
 							["amount"] = 8884,
+							["hit"] = 5,
 							["hitamount"] = 8884,
 						},
 						["Vomit Spray"] = {
 							["total"] = 14971,
 							["hitmin"] = 984,
 							["id"] = 70181,
-							["count"] = 2,
+							["hitmax"] = 3023,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 4007,
 									["total"] = 14971,
+									["amount"] = 4007,
 								},
 							},
-							["hitmax"] = 3023,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 8,
 							["resisted"] = 2616,
@@ -598,14 +2131,14 @@ SkadaStorageDB = {
 							["total"] = 6656,
 							["hitmin"] = 1166,
 							["id"] = 70184,
-							["count"] = 2,
+							["hitmax"] = 3279,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 4445,
 									["total"] = 6656,
+									["amount"] = 4445,
 								},
 							},
-							["hitmax"] = 3279,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 32,
 							["resisted"] = 2265,
@@ -616,50 +2149,50 @@ SkadaStorageDB = {
 							["total"] = 8375,
 							["hitmin"] = 1962,
 							["id"] = 40505,
-							["hit"] = 1,
+							["ABSORB"] = 3,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 1962,
 									["total"] = 8375,
+									["amount"] = 1962,
 								},
 							},
 							["count"] = 4,
-							["ABSORB"] = 3,
+							["hit"] = 1,
 							["school"] = 1,
-							["amount"] = 1962,
 							["hitmax"] = 1962,
+							["amount"] = 1962,
 							["hitamount"] = 1962,
 						},
 						["Shadow Bolt"] = {
 							["total"] = 14990,
 							["hitmin"] = 400,
 							["id"] = 70182,
-							["count"] = 5,
-							["hit"] = 4,
+							["hitmax"] = 2883,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 8604,
 									["total"] = 14990,
+									["amount"] = 8604,
 								},
 							},
-							["hitmax"] = 2883,
-							["amount"] = 8604,
+							["count"] = 5,
+							["hit"] = 4,
 							["school"] = 32,
 							["resisted"] = 4491,
-							["ABSORB"] = 1,
+							["amount"] = 8604,
 							["hitamount"] = 8604,
 						},
 					},
 					["id"] = "0x070000000089BE9F",
 					["heal"] = 8148,
 					["name"] = "Inarya",
-					["mana"] = 23303,
+					["overkill"] = 21459,
 					["manaspells"] = {
 						[57961] = 5837,
 						[59159] = 15942,
 						[39104] = 1524,
 					},
-					["overkill"] = 21459,
+					["mana"] = 23303,
 					["interruptspells"] = {
 						[57994] = {
 							["spells"] = {
@@ -671,7 +2204,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["overheal"] = 4074,
+					["role"] = "DAMAGER",
 				}, -- [1]
 				{
 					["last"] = 26997.75,
@@ -792,10 +2325,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 322,
 						},
-						[51470] = {
+						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 322,
+							["uptime"] = 4,
 						},
 						[48111] = {
 							["school"] = 2,
@@ -808,17 +2342,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 322,
 						},
-						[75456] = {
-							["school"] = 64,
+						[71905] = {
 							["type"] = "BUFF",
-							["count"] = 5,
-							["uptime"] = 75,
+							["count"] = 7,
+							["school"] = 1,
+							["refresh"] = 39,
+							["uptime"] = 112,
 						},
-						[48068] = {
-							["school"] = 2,
+						[46916] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 30,
+							["count"] = 8,
+							["uptime"] = 37,
 						},
 						[47930] = {
 							["type"] = "BUFF",
@@ -827,22 +2362,10 @@ SkadaStorageDB = {
 							["refresh"] = 6,
 							["uptime"] = 39,
 						},
-						[46916] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 8,
-							["uptime"] = 37,
-						},
-						[57371] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 322,
-						},
-						[47436] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 258,
 						},
 						[70772] = {
 							["school"] = 2,
@@ -856,17 +2379,29 @@ SkadaStorageDB = {
 							["count"] = 9,
 							["uptime"] = 193,
 						},
-						[2458] = {
+						[47753] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 48,
+						},
+						[47436] = {
 							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 34,
+							["count"] = 2,
+							["uptime"] = 258,
 						},
-						[63944] = {
-							["uptime"] = 322,
+						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 322,
+						},
+						[63944] = {
 							["refresh"] = 14,
+							["type"] = "BUFF",
+							["uptime"] = 322,
+							["count"] = 1,
 						},
 						[71559] = {
 							["school"] = 1,
@@ -879,12 +2414,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 322,
 						},
-						[47753] = {
+						[2458] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 7,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 48,
+							["count"] = 1,
+							["uptime"] = 34,
 						},
 						[23885] = {
 							["school"] = 1,
@@ -898,7 +2432,7 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["uptime"] = 47,
 						},
-						[48162] = {
+						[57371] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 322,
@@ -909,18 +2443,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 30,
 						},
-						[71905] = {
+						[48068] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 7,
-							["school"] = 1,
-							["refresh"] = 39,
-							["uptime"] = 112,
+							["count"] = 2,
+							["uptime"] = 30,
 						},
-						[71] = {
-							["school"] = 1,
+						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
+							["count"] = 5,
+							["uptime"] = 75,
 						},
 					},
 					["totaldamage"] = 937128,
@@ -929,7 +2462,7 @@ SkadaStorageDB = {
 					["damage"] = 937128,
 					["rage"] = 92,
 					["damagetaken"] = 32326,
-					["role"] = "TANK",
+					["overheal"] = 18039,
 					["id"] = "0x07000000006D9D41",
 					["spec"] = 72,
 					["healspells"] = {
@@ -938,14 +2471,14 @@ SkadaStorageDB = {
 							["count"] = 56,
 							["amount"] = 3857,
 							["max"] = 391,
-							["min"] = 53,
+							["school"] = 1,
 							["targets"] = {
 								["Roxces"] = {
 									["overheal"] = 18039,
 									["amount"] = 3857,
 								},
 							},
-							["school"] = 1,
+							["min"] = 53,
 						},
 					},
 					["damagetakenspells"] = {
@@ -954,24 +2487,24 @@ SkadaStorageDB = {
 							["total"] = 28589,
 							["hitmin"] = 205,
 							["id"] = 6603,
-							["ABSORB"] = 11,
 							["hit"] = 4,
+							["amount"] = 7058,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 4020,
 									["total"] = 22684,
+									["amount"] = 4020,
 								},
 								["Risen Witch Doctor"] = {
-									["amount"] = 2833,
 									["total"] = 4995,
+									["amount"] = 2833,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 205,
 									["total"] = 910,
+									["amount"] = 205,
 								},
 							},
 							["count"] = 17,
-							["amount"] = 7058,
+							["ABSORB"] = 11,
 							["school"] = 1,
 							["hitmax"] = 2833,
 							["MISS"] = 1,
@@ -981,30 +2514,30 @@ SkadaStorageDB = {
 							["total"] = 9234,
 							["hitmin"] = 2011,
 							["id"] = 40505,
-							["count"] = 3,
+							["hitmax"] = 2011,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 2011,
 									["total"] = 9234,
+									["amount"] = 2011,
 								},
 							},
-							["hitmax"] = 2011,
+							["count"] = 3,
 							["ABSORB"] = 2,
 							["school"] = 1,
-							["hit"] = 1,
 							["amount"] = 2011,
+							["hit"] = 1,
 							["hitamount"] = 2011,
 						},
 						["Shadow Bolt Volley"] = {
 							["hitmin"] = 2820,
 							["id"] = 70184,
-							["count"] = 2,
+							["hitmax"] = 3599,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 6419,
 								},
 							},
-							["hitmax"] = 3599,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 32,
 							["resisted"] = 2779,
@@ -1015,14 +2548,14 @@ SkadaStorageDB = {
 							["total"] = 17949,
 							["hitmin"] = 3357,
 							["id"] = 70181,
-							["count"] = 2,
+							["hitmax"] = 7155,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 10512,
 									["total"] = 17949,
+									["amount"] = 10512,
 								},
 							},
-							["hitmax"] = 7155,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 8,
 							["resisted"] = 1993,
@@ -1033,25 +2566,30 @@ SkadaStorageDB = {
 							["total"] = 12456,
 							["hitmin"] = 53,
 							["id"] = 70182,
-							["count"] = 4,
-							["hit"] = 3,
+							["hitmax"] = 3562,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 6326,
 									["total"] = 12456,
+									["amount"] = 6326,
 								},
 							},
-							["hitmax"] = 3562,
-							["amount"] = 6326,
+							["count"] = 4,
+							["hit"] = 3,
 							["school"] = 32,
 							["resisted"] = 4576,
-							["ABSORB"] = 1,
+							["amount"] = 6326,
 							["hitamount"] = 6326,
 						},
 					},
 					["overkill"] = 61330,
 					["heal"] = 3857,
 					["name"] = "Roxces",
+					["ragespells"] = {
+						[12964] = 22,
+						[58362] = 70,
+					},
+					["interrupt"] = 1,
 					["damagespells"] = {
 						["Deep Wounds (DoT)"] = {
 							["hitmin"] = 166,
@@ -1061,12 +2599,12 @@ SkadaStorageDB = {
 									["amount"] = 6746,
 								},
 								["Lumbering Abomination"] = {
-									["amount"] = 20062,
 									["overkill"] = 702,
+									["amount"] = 20062,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 3730,
 									["overkill"] = 165,
+									["amount"] = 3730,
 								},
 							},
 							["overkill"] = 867,
@@ -1078,33 +2616,33 @@ SkadaStorageDB = {
 							["hitamount"] = 30538,
 						},
 						["Cleave"] = {
-							["hitmax"] = 4978,
-							["criticalmax"] = 8248,
+							["criticalmin"] = 8012,
+							["blocked"] = 40,
 							["hitmin"] = 3854,
 							["criticalamount"] = 24395,
 							["id"] = 47520,
-							["criticalmin"] = 8012,
+							["critical"] = 3,
 							["targets"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 29390,
 								},
 								["Risen Witch Doctor"] = {
-									["amount"] = 7845,
 									["overkill"] = 1055,
+									["amount"] = 7845,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 12990,
 									["overkill"] = 7934,
+									["amount"] = 12990,
 								},
 							},
 							["overkill"] = 8989,
-							["amount"] = 50225,
-							["casts"] = 6,
-							["count"] = 9,
 							["hit"] = 6,
+							["criticalmax"] = 8248,
+							["hitmax"] = 4978,
+							["amount"] = 50225,
 							["school"] = 1,
-							["critical"] = 3,
-							["blocked"] = 40,
+							["count"] = 9,
+							["casts"] = 6,
 							["hitamount"] = 25830,
 						},
 						["Execute"] = {
@@ -1124,12 +2662,12 @@ SkadaStorageDB = {
 							["hitamount"] = 7082,
 						},
 						["Whirlwind"] = {
-							["hitmax"] = 4565,
-							["criticalmax"] = 12102,
+							["criticalmin"] = 4930,
+							["hit"] = 15,
 							["hitmin"] = 2239,
 							["criticalamount"] = 285183,
 							["id"] = 1680,
-							["criticalmin"] = 4930,
+							["critical"] = 34,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 75168,
@@ -1138,18 +2676,18 @@ SkadaStorageDB = {
 									["amount"] = 88618,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 169136,
 									["overkill"] = 19607,
+									["amount"] = 169136,
 								},
 							},
 							["overkill"] = 19607,
-							["amount"] = 332922,
-							["casts"] = 14,
-							["count"] = 49,
 							["blocked"] = 80,
+							["criticalmax"] = 12102,
+							["hitmax"] = 4565,
+							["amount"] = 332922,
 							["school"] = 1,
-							["critical"] = 34,
-							["hit"] = 15,
+							["count"] = 49,
+							["casts"] = 14,
 							["hitamount"] = 47739,
 						},
 						["Intercept"] = {
@@ -1185,11 +2723,11 @@ SkadaStorageDB = {
 							["hitamount"] = 1491,
 						},
 						["Bloodthirst"] = {
-							["hitmax"] = 6095,
+							["criticalmin"] = 9075,
 							["hitmin"] = 3933,
 							["criticalamount"] = 129903,
 							["id"] = 23881,
-							["criticalmax"] = 13928,
+							["critical"] = 12,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 42495,
@@ -1198,25 +2736,25 @@ SkadaStorageDB = {
 									["amount"] = 84473,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 47227,
 									["overkill"] = 8018,
+									["amount"] = 47227,
 								},
 							},
 							["overkill"] = 8018,
-							["criticalmin"] = 9075,
-							["casts"] = 21,
-							["count"] = 21,
+							["amount"] = 174195,
+							["criticalmax"] = 13928,
+							["hitmax"] = 6095,
 							["hit"] = 9,
 							["school"] = 1,
-							["amount"] = 174195,
-							["critical"] = 12,
+							["count"] = 21,
+							["casts"] = 21,
 							["hitamount"] = 44292,
 						},
 						["Slam"] = {
 							["hitmin"] = 3989,
 							["criticalamount"] = 19743,
 							["id"] = 50783,
-							["count"] = 3,
+							["criticalmin"] = 9425,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 9425,
@@ -1225,14 +2763,14 @@ SkadaStorageDB = {
 									["amount"] = 14307,
 								},
 							},
+							["critical"] = 2,
+							["amount"] = 23732,
 							["criticalmax"] = 10318,
-							["criticalmin"] = 9425,
-							["casts"] = 1,
-							["hitmax"] = 3989,
+							["count"] = 3,
 							["hit"] = 1,
 							["school"] = 1,
-							["amount"] = 23732,
-							["critical"] = 2,
+							["hitmax"] = 3989,
+							["casts"] = 1,
 							["hitamount"] = 3989,
 						},
 						["Chaos Bane"] = {
@@ -1252,9 +2790,9 @@ SkadaStorageDB = {
 									["amount"] = 2177,
 								},
 							},
-							["count"] = 13,
-							["casts"] = 1,
 							["hitmax"] = 2463,
+							["casts"] = 1,
+							["count"] = 13,
 							["hit"] = 13,
 							["school"] = 32,
 							["resisted"] = 245,
@@ -1273,8 +2811,8 @@ SkadaStorageDB = {
 									["amount"] = 76056,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 47442,
 									["overkill"] = 7939,
+									["amount"] = 47442,
 								},
 							},
 							["glancing"] = 2,
@@ -1285,13 +2823,13 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["glancemax"] = 3279,
 							["overkill"] = 7939,
-							["hit"] = 9,
+							["blocked"] = 160,
 							["criticalmax"] = 8069,
 							["critical"] = 27,
-							["blocked"] = 160,
+							["hit"] = 9,
 							["school"] = 1,
-							["hitmax"] = 4322,
 							["count"] = 41,
+							["hitmax"] = 4322,
 							["hitamount"] = 24075,
 						},
 						["Victory Rush"] = {
@@ -1302,8 +2840,8 @@ SkadaStorageDB = {
 									["amount"] = 16408,
 								},
 								["Risen Witch Doctor"] = {
-									["amount"] = 8964,
 									["overkill"] = 4722,
+									["amount"] = 8964,
 								},
 							},
 							["overkill"] = 4722,
@@ -1311,70 +2849,65 @@ SkadaStorageDB = {
 							["critical"] = 3,
 							["amount"] = 25372,
 							["school"] = 1,
-							["count"] = 3,
-							["criticalmax"] = 8964,
 							["criticalmin"] = 7455,
+							["criticalmax"] = 8964,
+							["count"] = 3,
 						},
 						["Heroic Throw"] = {
-							["criticalamount"] = 10993,
-							["hitmin"] = 4048,
 							["criticalmin"] = 10993,
+							["hitmin"] = 4048,
+							["criticalamount"] = 10993,
 							["id"] = 57755,
-							["amount"] = 19210,
+							["casts"] = 3,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 15041,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 4169,
 									["overkill"] = 1060,
+									["amount"] = 4169,
 								},
 							},
 							["overkill"] = 1060,
-							["hitmax"] = 4169,
-							["criticalmax"] = 10993,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 1,
 							["count"] = 3,
-							["casts"] = 3,
+							["criticalmax"] = 10993,
+							["hitmax"] = 4169,
+							["amount"] = 19210,
+							["school"] = 1,
+							["hit"] = 2,
+							["critical"] = 1,
 							["hitamount"] = 8217,
 						},
 						["Heroic Strike"] = {
-							["count"] = 12,
+							["criticalmin"] = 8233,
 							["hitmin"] = 3305,
 							["criticalamount"] = 63867,
 							["id"] = 47450,
-							["criticalmax"] = 9871,
+							["critical"] = 7,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 38442,
 									["overkill"] = 5124,
+									["amount"] = 38442,
 								},
 								["Lumbering Abomination"] = {
-									["amount"] = 35173,
 									["overkill"] = 443,
+									["amount"] = 35173,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 9326,
 									["overkill"] = 4561,
+									["amount"] = 9326,
 								},
 							},
 							["overkill"] = 10128,
-							["criticalmin"] = 8233,
-							["casts"] = 12,
-							["hitmax"] = 4400,
+							["amount"] = 82941,
+							["criticalmax"] = 9871,
+							["count"] = 12,
 							["hit"] = 5,
 							["school"] = 1,
-							["amount"] = 82941,
-							["critical"] = 7,
+							["hitmax"] = 4400,
+							["casts"] = 12,
 							["hitamount"] = 19074,
 						},
-					},
-					["interrupt"] = 1,
-					["ragespells"] = {
-						[12964] = 22,
-						[58362] = 70,
 					},
 					["interruptspells"] = {
 						[6552] = {
@@ -1387,7 +2920,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["overheal"] = 18039,
+					["role"] = "TANK",
 				}, -- [2]
 				{
 					["last"] = 27011.623,
@@ -1411,10 +2944,10 @@ SkadaStorageDB = {
 							["uptime"] = 322,
 						},
 						[63944] = {
-							["uptime"] = 322,
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 14,
+							["type"] = "BUFF",
+							["uptime"] = 322,
+							["count"] = 1,
 						},
 						[55637] = {
 							["school"] = 2,
@@ -1485,6 +3018,46 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 322,
 						},
+						[48135] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 2,
+							["targets"] = {
+								["The Lich King"] = {
+									["uptime"] = 41,
+									["count"] = 6,
+								},
+							},
+							["uptime"] = 41,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 36,
+						},
+						[48125] = {
+							["type"] = "DEBUFF",
+							["count"] = 11,
+							["school"] = 32,
+							["targets"] = {
+								["The Lich King"] = {
+									["uptime"] = 197,
+									["count"] = 11,
+								},
+							},
+							["uptime"] = 197,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 322,
+						},
+						[28878] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 322,
+						},
 						[6788] = {
 							["type"] = "DEBUFF",
 							["count"] = 40,
@@ -1513,46 +3086,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 255,
 						},
-						[28878] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 322,
-						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 11,
-							["school"] = 32,
-							["targets"] = {
-								["The Lich King"] = {
-									["uptime"] = 197,
-									["count"] = 11,
-								},
-							},
-							["uptime"] = 197,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 322,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 36,
-						},
-						[48135] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 2,
-							["targets"] = {
-								["The Lich King"] = {
-									["uptime"] = 41,
-									["count"] = 6,
-								},
-							},
-							["uptime"] = 41,
-						},
 					},
 					["absorbspells"] = {
 						[48066] = {
@@ -1577,8 +3110,8 @@ SkadaStorageDB = {
 							["amount"] = 12693,
 							["school"] = 2,
 							["targets"] = {
-								["Inarya"] = 6129,
 								["Roxces"] = 6564,
+								["Inarya"] = 6129,
 							},
 							["max"] = 1972,
 						},
@@ -1586,7 +3119,7 @@ SkadaStorageDB = {
 					["totaldamage"] = 209320,
 					["time"] = 125.5800000000001,
 					["totaldamagetaken"] = 13547,
-					["role"] = "HEALER",
+					["dispel"] = 5,
 					["damage"] = 209320,
 					["damagespells"] = {
 						["Mind Blast"] = {
@@ -1606,45 +3139,45 @@ SkadaStorageDB = {
 							["hitamount"] = 2713,
 						},
 						["Holy Fire"] = {
-							["count"] = 6,
+							["critical"] = 4,
 							["hitmin"] = 3093,
 							["criticalamount"] = 19799,
 							["id"] = 48135,
-							["criticalmax"] = 5284,
+							["criticalmin"] = 4722,
 							["targets"] = {
 								["The Lich King"] = {
 									["amount"] = 26136,
 								},
 							},
-							["critical"] = 4,
-							["amount"] = 26136,
-							["casts"] = 6,
 							["hitmax"] = 3244,
 							["hit"] = 2,
+							["criticalmax"] = 5284,
+							["count"] = 6,
+							["amount"] = 26136,
 							["school"] = 2,
 							["resisted"] = 1399,
-							["criticalmin"] = 4722,
+							["casts"] = 6,
 							["hitamount"] = 6337,
 						},
 						["Smite"] = {
-							["criticalamount"] = 22169,
-							["hitmin"] = 3190,
 							["criticalmin"] = 5052,
+							["hitmin"] = 3190,
+							["criticalamount"] = 22169,
 							["id"] = 48123,
-							["amount"] = 39393,
+							["hitmax"] = 3746,
 							["targets"] = {
 								["The Lich King"] = {
 									["amount"] = 39393,
 								},
 							},
-							["casts"] = 11,
-							["count"] = 9,
-							["criticalmax"] = 5948,
 							["critical"] = 4,
 							["hit"] = 5,
+							["casts"] = 11,
+							["count"] = 9,
+							["amount"] = 39393,
 							["school"] = 2,
 							["resisted"] = 2365,
-							["hitmax"] = 3746,
+							["criticalmax"] = 5948,
 							["hitamount"] = 17224,
 						},
 						["Shadow Word: Pain (DoT)"] = {
@@ -1655,31 +3188,27 @@ SkadaStorageDB = {
 									["amount"] = 63554,
 								},
 							},
-							["count"] = 64,
-							["casts"] = 11,
 							["hitmax"] = 1181,
+							["casts"] = 11,
+							["count"] = 64,
 							["hit"] = 64,
 							["school"] = 32,
 							["resisted"] = 3967,
 							["amount"] = 63554,
 							["hitamount"] = 63554,
 						},
-						["Devouring Plague (DoT)"] = {
-							["hitmin"] = 790,
-							["id"] = 48300,
+						["Mana Burn"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["MISS"] = 1,
 							["targets"] = {
 								["The Lich King"] = {
-									["amount"] = 72106,
+									["amount"] = 0,
 								},
 							},
-							["count"] = 76,
-							["casts"] = 10,
-							["hitmax"] = 1116,
-							["hit"] = 76,
-							["school"] = 32,
-							["resisted"] = 3935,
-							["amount"] = 72106,
-							["hitamount"] = 72106,
+							["id"] = 8129,
 						},
 						["Holy Fire (DoT)"] = {
 							["hitmin"] = 116,
@@ -1689,26 +3218,30 @@ SkadaStorageDB = {
 									["amount"] = 5418,
 								},
 							},
-							["count"] = 38,
 							["hitmax"] = 153,
+							["count"] = 38,
 							["hit"] = 38,
 							["school"] = 2,
 							["resisted"] = 296,
 							["amount"] = 5418,
 							["hitamount"] = 5418,
 						},
-						["Mana Burn"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["id"] = 8129,
+						["Devouring Plague (DoT)"] = {
+							["hitmin"] = 790,
+							["id"] = 48300,
 							["targets"] = {
 								["The Lich King"] = {
-									["amount"] = 0,
+									["amount"] = 72106,
 								},
 							},
-							["MISS"] = 1,
+							["hitmax"] = 1116,
+							["casts"] = 10,
+							["count"] = 76,
+							["hit"] = 76,
+							["school"] = 32,
+							["resisted"] = 3935,
+							["amount"] = 72106,
+							["hitamount"] = 72106,
 						},
 					},
 					["absorb"] = 113853,
@@ -1736,14 +3269,14 @@ SkadaStorageDB = {
 							["count"] = 76,
 							["amount"] = 492,
 							["max"] = 164,
-							["school"] = 32,
+							["min"] = 164,
 							["targets"] = {
 								["Ilynyssa"] = {
 									["overheal"] = 10796,
 									["amount"] = 492,
 								},
 							},
-							["min"] = 164,
+							["school"] = 32,
 						},
 						[48071] = {
 							["overheal"] = 18455,
@@ -1758,9 +3291,9 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 2,
-							["criticalmin"] = 0,
-							["casts"] = 2,
 							["critical"] = 2,
+							["casts"] = 2,
+							["criticalmin"] = 0,
 						},
 						[48068] = {
 							["overheal"] = 30375,
@@ -1785,6 +3318,59 @@ SkadaStorageDB = {
 							["amount"] = 6997,
 							["school"] = 2,
 							["ishot"] = true,
+						},
+						[33110] = {
+							["overheal"] = 21186,
+							["criticalamount"] = 12795,
+							["max"] = 6382,
+							["targets"] = {
+								["Tikkylol"] = {
+									["overheal"] = 5226,
+									["amount"] = 2146,
+								},
+								["Roxces"] = {
+									["overheal"] = 4494,
+									["amount"] = 18152,
+								},
+								["Inarya"] = {
+									["overheal"] = 11466,
+									["amount"] = 12310,
+								},
+							},
+							["min"] = 984,
+							["criticalmax"] = 6382,
+							["count"] = 9,
+							["amount"] = 32608,
+							["school"] = 2,
+							["criticalmin"] = 984,
+							["critical"] = 4,
+						},
+						[47750] = {
+							["overheal"] = 17470,
+							["criticalamount"] = 5435,
+							["max"] = 2711,
+							["targets"] = {
+								["Roxces"] = {
+									["overheal"] = 9577,
+									["amount"] = 4325,
+								},
+								["Inarya"] = {
+									["overheal"] = 7893,
+									["amount"] = 6752,
+								},
+								["Chirrishadow"] = {
+									["overheal"] = 0,
+									["amount"] = 6534,
+								},
+							},
+							["min"] = 474,
+							["criticalmax"] = 2711,
+							["count"] = 15,
+							["amount"] = 17611,
+							["school"] = 2,
+							["casts"] = 14,
+							["criticalmin"] = 474,
+							["critical"] = 3,
 						},
 						[56160] = {
 							["overheal"] = 70582,
@@ -1817,61 +3403,8 @@ SkadaStorageDB = {
 							["critical"] = 18,
 							["amount"] = 15079,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["count"] = 40,
-						},
-						[47750] = {
-							["overheal"] = 17470,
-							["criticalamount"] = 5435,
-							["max"] = 2711,
-							["targets"] = {
-								["Roxces"] = {
-									["overheal"] = 9577,
-									["amount"] = 4325,
-								},
-								["Inarya"] = {
-									["overheal"] = 7893,
-									["amount"] = 6752,
-								},
-								["Chirrishadow"] = {
-									["overheal"] = 0,
-									["amount"] = 6534,
-								},
-							},
-							["min"] = 474,
-							["criticalmax"] = 2711,
-							["count"] = 15,
-							["amount"] = 17611,
-							["school"] = 2,
-							["critical"] = 3,
-							["criticalmin"] = 474,
-							["casts"] = 14,
-						},
-						[33110] = {
-							["overheal"] = 21186,
-							["criticalamount"] = 12795,
-							["max"] = 6382,
-							["targets"] = {
-								["Tikkylol"] = {
-									["overheal"] = 5226,
-									["amount"] = 2146,
-								},
-								["Roxces"] = {
-									["overheal"] = 4494,
-									["amount"] = 18152,
-								},
-								["Inarya"] = {
-									["overheal"] = 11466,
-									["amount"] = 12310,
-								},
-							},
-							["min"] = 984,
-							["criticalmax"] = 6382,
-							["count"] = 9,
-							["amount"] = 32608,
-							["school"] = 2,
-							["critical"] = 4,
-							["criticalmin"] = 984,
+							["criticalmin"] = 0,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1880,25 +3413,25 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["id"] = 70183,
-							["ABSORB"] = 1,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 0,
 									["total"] = 7072,
+									["amount"] = 0,
 								},
 							},
+							["ABSORB"] = 1,
+							["id"] = 70183,
 						},
 						["Shadow Bolt Volley"] = {
 							["hitmin"] = 3159,
 							["id"] = 70184,
-							["count"] = 1,
+							["hitmax"] = 3159,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 3159,
 								},
 							},
-							["hitmax"] = 3159,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 789,
@@ -1908,13 +3441,13 @@ SkadaStorageDB = {
 						["Shadow Bolt"] = {
 							["hitmin"] = 3316,
 							["id"] = 70182,
-							["count"] = 1,
+							["hitmax"] = 3316,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 3316,
 								},
 							},
-							["hitmax"] = 3316,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 829,
@@ -1922,19 +3455,19 @@ SkadaStorageDB = {
 							["hitamount"] = 3316,
 						},
 					},
+					["overheal"] = 171770,
+					["ragespells"] = {
+						[63653] = 24,
+					},
 					["manaspells"] = {
 						[47755] = 4205,
 						[63654] = 1328,
 						[55382] = 1800,
 						[71566] = 957,
 					},
-					["ragespells"] = {
-						[63653] = 24,
-					},
-					["name"] = "Ilynyssa",
-					["heal"] = 72787,
 					["rage"] = 24,
-					["overheal"] = 171770,
+					["heal"] = 72787,
+					["name"] = "Ilynyssa",
 					["dispelspells"] = {
 						[528] = {
 							["spells"] = {
@@ -1948,7 +3481,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["dispel"] = 5,
+					["role"] = "HEALER",
 				}, -- [3]
 				{
 					["last"] = 27002.798,
@@ -1972,10 +3505,10 @@ SkadaStorageDB = {
 							["uptime"] = 322,
 						},
 						[63944] = {
-							["uptime"] = 322,
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 14,
+							["type"] = "BUFF",
+							["uptime"] = 322,
+							["count"] = 1,
 						},
 						[48074] = {
 							["type"] = "BUFF",
@@ -1989,10 +3522,10 @@ SkadaStorageDB = {
 							["refresh"] = 99,
 							["uptime"] = 223,
 						},
-						[47440] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 145,
+							["uptime"] = 322,
 						},
 						[48170] = {
 							["type"] = "BUFF",
@@ -2023,35 +3556,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 132,
 						},
-						[48156] = {
-							["type"] = "DEBUFF",
-							["count"] = 48,
-							["school"] = 32,
-							["refresh"] = 6,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["refresh"] = 1,
-									["count"] = 8,
-									["uptime"] = 21,
-								},
-								["The Lich King"] = {
-									["uptime"] = 20,
-									["count"] = 10,
-								},
-								["Risen Witch Doctor"] = {
-									["refresh"] = 3,
-									["count"] = 5,
-									["uptime"] = 13,
-								},
-							},
-							["uptime"] = 54,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 8,
-							["uptime"] = 242,
-						},
 						[53023] = {
 							["type"] = "DEBUFF",
 							["count"] = 5,
@@ -2064,10 +3568,55 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 13,
 						},
-						[72221] = {
+						[48125] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 32,
+							["refresh"] = 22,
+							["targets"] = {
+								["Lumbering Abomination"] = {
+									["refresh"] = 6,
+									["count"] = 3,
+									["uptime"] = 18,
+								},
+								["The Lich King"] = {
+									["refresh"] = 10,
+									["count"] = 2,
+									["uptime"] = 74,
+								},
+								["Risen Witch Doctor"] = {
+									["refresh"] = 6,
+									["count"] = 2,
+									["uptime"] = 15,
+								},
+							},
+							["uptime"] = 101,
+						},
+						[47753] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 322,
+							["count"] = 3,
+							["uptime"] = 36,
+						},
+						[48160] = {
+							["type"] = "DEBUFF",
+							["count"] = 12,
+							["school"] = 32,
+							["targets"] = {
+								["Risen Witch Doctor"] = {
+									["uptime"] = 24,
+									["count"] = 4,
+								},
+								["The Lich King"] = {
+									["uptime"] = 36,
+									["count"] = 3,
+								},
+								["Lumbering Abomination"] = {
+									["uptime"] = 39,
+									["count"] = 5,
+								},
+							},
+							["uptime"] = 99,
 						},
 						[48300] = {
 							["type"] = "DEBUFF",
@@ -2103,12 +3652,12 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 9,
 						},
-						[71570] = {
+						[61792] = {
 							["type"] = "BUFF",
-							["count"] = 4,
+							["count"] = 10,
 							["school"] = 1,
-							["refresh"] = 178,
-							["uptime"] = 204,
+							["refresh"] = 27,
+							["uptime"] = 159,
 						},
 						[47436] = {
 							["school"] = 1,
@@ -2133,67 +3682,50 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["uptime"] = 124,
 						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 145,
+						},
 						[51470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 322,
 						},
-						[61792] = {
+						[71570] = {
 							["type"] = "BUFF",
-							["count"] = 10,
+							["count"] = 4,
 							["school"] = 1,
-							["refresh"] = 27,
-							["uptime"] = 159,
+							["refresh"] = 178,
+							["uptime"] = 204,
 						},
-						[48160] = {
+						[48156] = {
 							["type"] = "DEBUFF",
-							["count"] = 12,
+							["count"] = 48,
 							["school"] = 32,
+							["refresh"] = 6,
 							["targets"] = {
-								["Risen Witch Doctor"] = {
-									["uptime"] = 24,
-									["count"] = 4,
+								["Lumbering Abomination"] = {
+									["refresh"] = 1,
+									["count"] = 8,
+									["uptime"] = 21,
 								},
 								["The Lich King"] = {
-									["uptime"] = 36,
-									["count"] = 3,
+									["uptime"] = 20,
+									["count"] = 10,
 								},
-								["Lumbering Abomination"] = {
-									["uptime"] = 39,
+								["Risen Witch Doctor"] = {
+									["refresh"] = 3,
 									["count"] = 5,
+									["uptime"] = 13,
 								},
 							},
-							["uptime"] = 99,
+							["uptime"] = 54,
 						},
-						[47753] = {
-							["school"] = 2,
+						[72221] = {
 							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 36,
-						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 32,
-							["refresh"] = 22,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["refresh"] = 6,
-									["count"] = 3,
-									["uptime"] = 18,
-								},
-								["The Lich King"] = {
-									["refresh"] = 10,
-									["count"] = 2,
-									["uptime"] = 74,
-								},
-								["Risen Witch Doctor"] = {
-									["refresh"] = 6,
-									["count"] = 2,
-									["uptime"] = 15,
-								},
-							},
-							["uptime"] = 101,
+							["count"] = 1,
+							["uptime"] = 322,
 						},
 						[15271] = {
 							["school"] = 32,
@@ -2201,10 +3733,11 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["uptime"] = 60,
 						},
-						[48470] = {
+						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 322,
+							["count"] = 8,
+							["uptime"] = 242,
 						},
 					},
 					["totaldamage"] = 520611,
@@ -2213,33 +3746,33 @@ SkadaStorageDB = {
 					["damage"] = 520611,
 					["damagespells"] = {
 						["Mind Sear"] = {
-							["hitmax"] = 2024,
+							["criticalmin"] = 1876,
 							["hitmin"] = 1201,
 							["criticalamount"] = 12836,
 							["id"] = 53022,
-							["criticalmax"] = 3044,
+							["critical"] = 5,
 							["targets"] = {
 								["Raging Ghoul"] = {
-									["amount"] = 31890,
 									["overkill"] = 376,
+									["amount"] = 31890,
 								},
 							},
 							["overkill"] = 376,
-							["criticalmin"] = 1876,
-							["casts"] = 5,
-							["count"] = 17,
+							["amount"] = 31890,
+							["criticalmax"] = 3044,
+							["hitmax"] = 2024,
 							["hit"] = 12,
 							["school"] = 32,
-							["amount"] = 31890,
-							["critical"] = 5,
+							["count"] = 17,
+							["casts"] = 5,
 							["hitamount"] = 19054,
 						},
 						["Vampiric Touch (DoT)"] = {
-							["count"] = 37,
+							["criticalmin"] = 3192,
 							["hitmin"] = 1474,
 							["criticalamount"] = 49992,
 							["id"] = 48160,
-							["criticalmin"] = 3192,
+							["criticalmax"] = 4944,
 							["targets"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 38049,
@@ -2251,134 +3784,22 @@ SkadaStorageDB = {
 									["amount"] = 19774,
 								},
 							},
-							["critical"] = 12,
-							["amount"] = 97175,
-							["casts"] = 14,
 							["hitmax"] = 2366,
 							["hit"] = 25,
+							["casts"] = 14,
+							["count"] = 37,
+							["amount"] = 97175,
 							["school"] = 32,
 							["resisted"] = 791,
-							["criticalmax"] = 4944,
+							["critical"] = 12,
 							["hitamount"] = 47183,
 						},
-						["Mind Blast"] = {
-							["criticalamount"] = 33301,
-							["criticalmax"] = 7860,
-							["hitmin"] = 3473,
-							["criticalmin"] = 6174,
-							["id"] = 48127,
-							["critical"] = 5,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["amount"] = 28079,
-								},
-								["The Lich King"] = {
-									["amount"] = 3760,
-								},
-								["Risen Witch Doctor"] = {
-									["amount"] = 16222,
-									["overkill"] = 3216,
-								},
-							},
-							["overkill"] = 3216,
-							["amount"] = 48061,
-							["casts"] = 9,
-							["count"] = 9,
-							["hit"] = 4,
-							["school"] = 32,
-							["resisted"] = 417,
-							["hitmax"] = 3767,
-							["hitamount"] = 14760,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["criticalamount"] = 37531,
-							["hitmin"] = 1066,
-							["criticalmin"] = 1876,
-							["id"] = 48125,
-							["amount"] = 58588,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["amount"] = 8356,
-								},
-								["The Lich King"] = {
-									["amount"] = 44429,
-								},
-								["Risen Witch Doctor"] = {
-									["amount"] = 5803,
-								},
-							},
-							["casts"] = 7,
-							["count"] = 32,
-							["criticalmax"] = 3239,
-							["critical"] = 15,
-							["hit"] = 17,
-							["school"] = 32,
-							["resisted"] = 3675,
-							["hitmax"] = 1435,
-							["hitamount"] = 21057,
-						},
-						["Mind Flay"] = {
-							["criticalmin"] = 3546,
-							["amount"] = 182474,
-							["hitmin"] = 1676,
-							["criticalamount"] = 117838,
-							["id"] = 58381,
-							["casts"] = 25,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["amount"] = 71447,
-									["overkill"] = 2198,
-								},
-								["The Lich King"] = {
-									["amount"] = 70940,
-								},
-								["Risen Witch Doctor"] = {
-									["amount"] = 40087,
-								},
-							},
-							["overkill"] = 2198,
-							["count"] = 60,
-							["criticalmax"] = 5530,
-							["hitmax"] = 2646,
-							["hit"] = 33,
-							["school"] = 32,
-							["resisted"] = 5222,
-							["critical"] = 27,
-							["hitamount"] = 64636,
-						},
-						["Devouring Plague (DoT)"] = {
-							["count"] = 40,
-							["hitmin"] = 961,
-							["criticalamount"] = 40021,
-							["id"] = 48300,
-							["criticalmin"] = 2008,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["amount"] = 20408,
-								},
-								["The Lich King"] = {
-									["amount"] = 39579,
-								},
-								["Risen Witch Doctor"] = {
-									["amount"] = 10550,
-								},
-							},
-							["critical"] = 15,
-							["amount"] = 70537,
-							["casts"] = 10,
-							["hitmax"] = 1454,
-							["hit"] = 25,
-							["school"] = 32,
-							["resisted"] = 3025,
-							["criticalmax"] = 3271,
-							["hitamount"] = 30516,
-						},
 						["Improved Devouring Plague"] = {
-							["criticalamount"] = 8644,
-							["hitmin"] = 2350,
 							["criticalmin"] = 3860,
+							["hitmin"] = 2350,
+							["criticalamount"] = 8644,
 							["id"] = 63675,
-							["amount"] = 31886,
+							["hitmax"] = 3490,
 							["targets"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 18105,
@@ -2390,15 +3811,127 @@ SkadaStorageDB = {
 									["amount"] = 5165,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 10,
-							["criticalmax"] = 4784,
 							["critical"] = 2,
 							["hit"] = 8,
+							["casts"] = 1,
+							["count"] = 10,
+							["amount"] = 31886,
 							["school"] = 32,
 							["resisted"] = 569,
-							["hitmax"] = 3490,
+							["criticalmax"] = 4784,
 							["hitamount"] = 23242,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["criticalmin"] = 1876,
+							["hitmin"] = 1066,
+							["criticalamount"] = 37531,
+							["id"] = 48125,
+							["hitmax"] = 1435,
+							["targets"] = {
+								["Lumbering Abomination"] = {
+									["amount"] = 8356,
+								},
+								["The Lich King"] = {
+									["amount"] = 44429,
+								},
+								["Risen Witch Doctor"] = {
+									["amount"] = 5803,
+								},
+							},
+							["critical"] = 15,
+							["hit"] = 17,
+							["casts"] = 7,
+							["count"] = 32,
+							["amount"] = 58588,
+							["school"] = 32,
+							["resisted"] = 3675,
+							["criticalmax"] = 3239,
+							["hitamount"] = 21057,
+						},
+						["Mind Flay"] = {
+							["criticalamount"] = 117838,
+							["critical"] = 27,
+							["hitmin"] = 1676,
+							["criticalmin"] = 3546,
+							["id"] = 58381,
+							["hitmax"] = 2646,
+							["targets"] = {
+								["Lumbering Abomination"] = {
+									["overkill"] = 2198,
+									["amount"] = 71447,
+								},
+								["The Lich King"] = {
+									["amount"] = 70940,
+								},
+								["Risen Witch Doctor"] = {
+									["amount"] = 40087,
+								},
+							},
+							["overkill"] = 2198,
+							["hit"] = 33,
+							["casts"] = 25,
+							["count"] = 60,
+							["amount"] = 182474,
+							["school"] = 32,
+							["resisted"] = 5222,
+							["criticalmax"] = 5530,
+							["hitamount"] = 64636,
+						},
+						["Devouring Plague (DoT)"] = {
+							["criticalmin"] = 2008,
+							["hitmin"] = 961,
+							["criticalamount"] = 40021,
+							["id"] = 48300,
+							["criticalmax"] = 3271,
+							["targets"] = {
+								["Lumbering Abomination"] = {
+									["amount"] = 20408,
+								},
+								["The Lich King"] = {
+									["amount"] = 39579,
+								},
+								["Risen Witch Doctor"] = {
+									["amount"] = 10550,
+								},
+							},
+							["hitmax"] = 1454,
+							["hit"] = 25,
+							["casts"] = 10,
+							["count"] = 40,
+							["amount"] = 70537,
+							["school"] = 32,
+							["resisted"] = 3025,
+							["critical"] = 15,
+							["hitamount"] = 30516,
+						},
+						["Mind Blast"] = {
+							["criticalmin"] = 6174,
+							["hitmax"] = 3767,
+							["hitmin"] = 3473,
+							["criticalamount"] = 33301,
+							["id"] = 48127,
+							["count"] = 9,
+							["targets"] = {
+								["Lumbering Abomination"] = {
+									["amount"] = 28079,
+								},
+								["The Lich King"] = {
+									["amount"] = 3760,
+								},
+								["Risen Witch Doctor"] = {
+									["overkill"] = 3216,
+									["amount"] = 16222,
+								},
+							},
+							["overkill"] = 3216,
+							["hit"] = 4,
+							["criticalmax"] = 7860,
+							["critical"] = 5,
+							["amount"] = 48061,
+							["school"] = 32,
+							["resisted"] = 417,
+							["casts"] = 9,
+							["hitamount"] = 14760,
 						},
 					},
 					["damagetaken"] = 13428,
@@ -2418,8 +3951,8 @@ SkadaStorageDB = {
 							["count"] = 10,
 							["amount"] = 0,
 							["school"] = 32,
-							["critical"] = 3,
 							["criticalmin"] = 0,
+							["critical"] = 3,
 						},
 						[48300] = {
 							["overheal"] = 10880,
@@ -2427,14 +3960,14 @@ SkadaStorageDB = {
 							["count"] = 40,
 							["amount"] = 183,
 							["max"] = 183,
-							["school"] = 32,
+							["min"] = 183,
 							["targets"] = {
 								["Chirrishadow"] = {
 									["overheal"] = 10880,
 									["amount"] = 183,
 								},
 							},
-							["min"] = 183,
+							["school"] = 32,
 						},
 					},
 					["overkill"] = 5790,
@@ -2442,40 +3975,36 @@ SkadaStorageDB = {
 					["manaspells"] = {
 						[57669] = 28272,
 					},
-					["role"] = "DAMAGER",
-					["overheal"] = 14883,
-					["mana"] = 28272,
-					["name"] = "Chirrishadow",
 					["damagetakenspells"] = {
 						["Shadow Bolt Volley"] = {
 							["total"] = 5206,
 							["hitmin"] = 2679,
 							["id"] = 70184,
-							["count"] = 2,
-							["hit"] = 1,
+							["hitmax"] = 2679,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 2679,
 									["total"] = 5206,
+									["amount"] = 2679,
 								},
 							},
-							["hitmax"] = 2679,
-							["amount"] = 2679,
+							["count"] = 2,
+							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 1148,
-							["ABSORB"] = 1,
+							["amount"] = 2679,
 							["hitamount"] = 2679,
 						},
 						["Curse of Doom (DoT)"] = {
 							["hitmin"] = 5195,
 							["id"] = 70183,
-							["count"] = 1,
+							["hitmax"] = 5195,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 5195,
 								},
 							},
-							["hitmax"] = 5195,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 2226,
@@ -2486,22 +4015,26 @@ SkadaStorageDB = {
 							["total"] = 8132,
 							["hitmin"] = 2674,
 							["id"] = 70182,
-							["count"] = 3,
-							["hit"] = 2,
+							["hitmax"] = 2880,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 5554,
 									["total"] = 8132,
+									["amount"] = 5554,
 								},
 							},
-							["hitmax"] = 2880,
-							["amount"] = 5554,
+							["count"] = 3,
+							["hit"] = 2,
 							["school"] = 32,
 							["resisted"] = 1865,
-							["ABSORB"] = 1,
+							["amount"] = 5554,
 							["hitamount"] = 5554,
 						},
 					},
+					["name"] = "Chirrishadow",
+					["mana"] = 28272,
+					["overheal"] = 14883,
+					["role"] = "DAMAGER",
 				}, -- [4]
 				{
 					["last"] = 27003.094,
@@ -2688,6 +4221,118 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 322,
 						},
+						[48518] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[770] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Lumbering Abomination"] = {
+									["uptime"] = 11,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 11,
+						},
+						[29166] = {
+							["school"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[48066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 9,
+							["uptime"] = 231,
+						},
+						[48161] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 322,
+						},
+						[47753] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 6,
+							["uptime"] = 71,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 145,
+						},
+						[16886] = {
+							["type"] = "BUFF",
+							["count"] = 18,
+							["school"] = 8,
+							["refresh"] = 20,
+							["uptime"] = 82,
+						},
+						[48068] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[71177] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 63,
+							["uptime"] = 180,
+						},
+						[63944] = {
+							["refresh"] = 14,
+							["type"] = "BUFF",
+							["uptime"] = 322,
+							["count"] = 1,
+						},
+						[71564] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[48517] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 3,
+							["uptime"] = 45,
+						},
+						[3411] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[67669] = {
+							["school"] = 64,
+							["type"] = "BUFF",
+							["count"] = 5,
+							["uptime"] = 50,
+						},
+						[47436] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 55,
+						},
+						[48169] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 322,
+						},
+						[24907] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 281,
+						},
 						[60433] = {
 							["type"] = "DEBUFF",
 							["count"] = 10,
@@ -2712,118 +4357,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 45,
 						},
-						[71177] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 8,
-							["refresh"] = 63,
-							["uptime"] = 180,
-						},
-						[29166] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48068] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 281,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 18,
-							["school"] = 8,
-							["refresh"] = 20,
-							["uptime"] = 82,
-						},
-						[48169] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 322,
-						},
-						[47436] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 55,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 6,
-							["uptime"] = 71,
-						},
-						[3411] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[63944] = {
-							["uptime"] = 322,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 14,
-						},
-						[71564] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48517] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 45,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 145,
-						},
-						[67669] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 5,
-							["uptime"] = 50,
-						},
-						[48161] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 322,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 9,
-							["uptime"] = 231,
-						},
-						[770] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Lumbering Abomination"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[48518] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
 					},
 					["dispel"] = 5,
 					["role"] = "DAMAGER",
@@ -2845,9 +4378,9 @@ SkadaStorageDB = {
 									["amount"] = 13926,
 								},
 							},
-							["count"] = 43,
-							["casts"] = 12,
 							["hitmax"] = 1876,
+							["casts"] = 12,
+							["count"] = 43,
 							["hit"] = 43,
 							["school"] = 8,
 							["resisted"] = 1344,
@@ -2855,15 +4388,15 @@ SkadaStorageDB = {
 							["hitamount"] = 66584,
 						},
 						["Starfire"] = {
-							["criticalmin"] = 13750,
-							["hitmin"] = 6764,
 							["criticalamount"] = 61987,
+							["hitmin"] = 6764,
+							["criticalmin"] = 13750,
 							["id"] = 48465,
-							["amount"] = 101447,
+							["casts"] = 11,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 23067,
 									["overkill"] = 9613,
+									["amount"] = 23067,
 								},
 								["The Lich King"] = {
 									["amount"] = 25032,
@@ -2873,22 +4406,22 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 9613,
-							["hitmax"] = 8684,
-							["criticalmax"] = 18120,
-							["critical"] = 4,
-							["hit"] = 5,
-							["school"] = 64,
 							["count"] = 9,
-							["casts"] = 11,
+							["criticalmax"] = 18120,
+							["hitmax"] = 8684,
+							["amount"] = 101447,
+							["school"] = 64,
+							["hit"] = 5,
+							["critical"] = 4,
 							["hitamount"] = 39460,
 						},
 						["Hurricane"] = {
-							["criticalamount"] = 78427,
-							["criticalmax"] = 2692,
-							["hitmin"] = 1239,
 							["criticalmin"] = 1991,
+							["hitmax"] = 1743,
+							["hitmin"] = 1239,
+							["criticalamount"] = 78427,
 							["id"] = 48466,
-							["critical"] = 34,
+							["count"] = 80,
 							["targets"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 24344,
@@ -2900,26 +4433,26 @@ SkadaStorageDB = {
 									["amount"] = 7728,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 94045,
 									["overkill"] = 8101,
+									["amount"] = 94045,
 								},
 							},
 							["overkill"] = 8101,
-							["amount"] = 145293,
-							["casts"] = 9,
-							["count"] = 80,
 							["hit"] = 46,
+							["criticalmax"] = 2692,
+							["critical"] = 34,
+							["amount"] = 145293,
 							["school"] = 8,
 							["resisted"] = 857,
-							["hitmax"] = 1743,
+							["casts"] = 9,
 							["hitamount"] = 66866,
 						},
 						["Moonfire"] = {
-							["criticalamount"] = 15751,
-							["hitmin"] = 1207,
 							["criticalmin"] = 2402,
+							["hitmin"] = 1207,
+							["criticalamount"] = 15751,
 							["id"] = 48463,
-							["criticalmax"] = 2754,
+							["count"] = 13,
 							["targets"] = {
 								["Lumbering Abomination"] = {
 									["amount"] = 10424,
@@ -2931,22 +4464,22 @@ SkadaStorageDB = {
 									["amount"] = 11020,
 								},
 							},
-							["critical"] = 6,
-							["amount"] = 25296,
-							["casts"] = 13,
 							["hitmax"] = 1517,
 							["hit"] = 7,
+							["criticalmax"] = 2754,
+							["critical"] = 6,
+							["amount"] = 25296,
 							["school"] = 64,
 							["resisted"] = 594,
-							["count"] = 13,
+							["casts"] = 13,
 							["hitamount"] = 9545,
 						},
 						["Typhoon"] = {
-							["count"] = 9,
+							["criticalmin"] = 4956,
 							["hitmin"] = 2786,
 							["criticalamount"] = 30926,
 							["id"] = 53227,
-							["criticalmax"] = 5254,
+							["critical"] = 6,
 							["targets"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 4957,
@@ -2958,48 +4491,48 @@ SkadaStorageDB = {
 									["amount"] = 8356,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 21332,
 									["overkill"] = 10402,
+									["amount"] = 21332,
 								},
 							},
 							["overkill"] = 10402,
-							["criticalmin"] = 4956,
-							["casts"] = 3,
-							["hitmax"] = 3400,
+							["amount"] = 39898,
+							["criticalmax"] = 5254,
+							["count"] = 9,
 							["hit"] = 3,
 							["school"] = 8,
-							["amount"] = 39898,
-							["critical"] = 6,
+							["hitmax"] = 3400,
+							["casts"] = 3,
 							["hitamount"] = 8972,
 						},
 						["Wrath"] = {
-							["count"] = 19,
-							["criticalmax"] = 13305,
+							["critical"] = 9,
+							["criticalmin"] = 7232,
 							["hitmin"] = 3761,
 							["criticalamount"] = 97566,
 							["id"] = 48461,
-							["critical"] = 9,
+							["hitmax"] = 6764,
 							["targets"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 86053,
 									["overkill"] = 9351,
+									["amount"] = 86053,
 								},
 								["The Lich King"] = {
 									["amount"] = 7232,
 								},
 								["Risen Witch Doctor"] = {
-									["amount"] = 57326,
 									["overkill"] = 17881,
+									["amount"] = 57326,
 								},
 							},
 							["overkill"] = 27232,
-							["amount"] = 150611,
-							["casts"] = 25,
-							["hitmax"] = 6764,
 							["hit"] = 10,
+							["criticalmax"] = 13305,
+							["count"] = 19,
+							["amount"] = 150611,
 							["school"] = 8,
 							["resisted"] = 1808,
-							["criticalmin"] = 7232,
+							["casts"] = 25,
 							["hitamount"] = 53045,
 						},
 						["Moonfire (DoT)"] = {
@@ -3016,8 +4549,8 @@ SkadaStorageDB = {
 									["amount"] = 5733,
 								},
 							},
-							["count"] = 25,
 							["hitmax"] = 1195,
+							["count"] = 25,
 							["hit"] = 25,
 							["school"] = 64,
 							["resisted"] = 544,
@@ -3032,15 +4565,15 @@ SkadaStorageDB = {
 									["amount"] = 55097,
 								},
 								["Risen Witch Doctor"] = {
-									["amount"] = 89181,
 									["overkill"] = 32,
+									["amount"] = 89181,
 								},
 								["The Lich King"] = {
 									["amount"] = 56356,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 56627,
 									["overkill"] = 4925,
+									["amount"] = 56627,
 								},
 							},
 							["amount"] = 257261,
@@ -3049,13 +4582,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 154432,
 							["id"] = 53195,
 							["overkill"] = 4957,
-							["critical"] = 57,
-							["criticalmax"] = 5863,
 							["count"] = 126,
+							["criticalmax"] = 5863,
+							["critical"] = 57,
 							["hit"] = 67,
 							["school"] = 64,
-							["casts"] = 4,
 							["hitmax"] = 2923,
+							["casts"] = 4,
 							["hitamount"] = 102829,
 						},
 						["Thorns"] = {
@@ -3083,78 +4616,78 @@ SkadaStorageDB = {
 							["total"] = 2521,
 							["hitmin"] = 2146,
 							["id"] = 6603,
-							["count"] = 3,
+							["hitmax"] = 2146,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
 									["amount"] = 2146,
 								},
 								["Raging Ghoul"] = {
-									["amount"] = 0,
 									["total"] = 375,
+									["amount"] = 0,
 								},
 							},
-							["hitmax"] = 2146,
+							["count"] = 3,
 							["ABSORB"] = 2,
 							["school"] = 1,
-							["hit"] = 1,
 							["amount"] = 2146,
+							["hit"] = 1,
 							["hitamount"] = 2146,
 						},
 						["Cleave"] = {
-							["id"] = 40505,
+							["amount"] = 0,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 0,
 									["total"] = 2497,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 2,
 							["ABSORB"] = 1,
-							["school"] = 1,
+							["id"] = 40505,
 							["total"] = 2497,
 							["MISS"] = 1,
-							["amount"] = 0,
+							["school"] = 1,
 						},
 						["Shadow Bolt Volley"] = {
 							["total"] = 5187,
 							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 32,
-							["id"] = 70184,
-							["ABSORB"] = 2,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 0,
 									["total"] = 5187,
+									["amount"] = 0,
 								},
 							},
+							["ABSORB"] = 2,
+							["id"] = 70184,
 						},
 						["Vomit Spray"] = {
 							["total"] = 7180,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 8,
-							["id"] = 70181,
-							["ABSORB"] = 1,
 							["sources"] = {
 								["Lumbering Abomination"] = {
-									["amount"] = 0,
 									["total"] = 7180,
+									["amount"] = 0,
 								},
 							},
+							["ABSORB"] = 1,
+							["id"] = 70181,
 						},
 						["Shadow Bolt"] = {
 							["total"] = 3874,
 							["hitmin"] = 2698,
 							["id"] = 70182,
-							["count"] = 1,
+							["hitmax"] = 2698,
 							["sources"] = {
 								["Risen Witch Doctor"] = {
-									["amount"] = 2698,
 									["total"] = 3874,
+									["amount"] = 2698,
 								},
 							},
-							["hitmax"] = 2698,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 968,
@@ -3162,7 +4695,17 @@ SkadaStorageDB = {
 							["hitamount"] = 2698,
 						},
 					},
-					["totaldamage"] = 810053,
+					["energyspells"] = {
+						[17099] = 100,
+					},
+					["energy"] = 100,
+					["manaspells"] = {
+						[53506] = 9785,
+						[29166] = 7860,
+					},
+					["name"] = "Tikkylol",
+					["mana"] = 17645,
+					["overkill"] = 60305,
 					["dispelspells"] = {
 						[2782] = {
 							["spells"] = {
@@ -3175,1555 +4718,12 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["manaspells"] = {
-						[53506] = 9785,
-						[29166] = 7860,
-					},
-					["overkill"] = 60305,
-					["mana"] = 17645,
-					["name"] = "Tikkylol",
-					["energy"] = 100,
-					["energyspells"] = {
-						[17099] = 100,
-					},
+					["totaldamage"] = 810053,
 				}, -- [5]
 			},
-			["mana"] = 77510,
-			["rage"] = 116,
-			["enemies"] = {
-				{
-					["flag"] = 68168,
-					["name"] = "The Lich King",
-					["damagetaken"] = 1440574,
-					["id"] = "0xF13000905A000136",
-					["totaldamagetaken"] = 1440574,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[48160] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 39352,
-								},
-							},
-							["amount"] = 39352,
-						},
-						[48135] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 31554,
-								},
-							},
-							["amount"] = 31554,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 20239,
-								},
-							},
-							["amount"] = 20239,
-						},
-						[61654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 9177,
-								},
-							},
-							["amount"] = 9177,
-						},
-						[60043] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 156541,
-								},
-							},
-							["amount"] = 156541,
-						},
-						[49240] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 62084,
-								},
-							},
-							["amount"] = 62084,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 21713,
-								},
-							},
-							["amount"] = 21713,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 36117,
-								},
-							},
-							["amount"] = 36117,
-						},
-						[53227] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 8356,
-								},
-							},
-							["amount"] = 8356,
-						},
-						[3018] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 1491,
-								},
-							},
-							["amount"] = 1491,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 72106,
-								},
-								["Chirrishadow"] = {
-									["amount"] = 39579,
-								},
-							},
-							["amount"] = 111685,
-						},
-						[49238] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 314443,
-								},
-							},
-							["amount"] = 314443,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 63554,
-								},
-								["Chirrishadow"] = {
-									["amount"] = 44429,
-								},
-							},
-							["amount"] = 107983,
-						},
-						[49233] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 209036,
-								},
-							},
-							["amount"] = 209036,
-						},
-						[49271] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 128744,
-								},
-							},
-							["amount"] = 128744,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 70940,
-								},
-							},
-							["amount"] = 70940,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 1526,
-								},
-							},
-							["amount"] = 1526,
-						},
-						[49269] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 4120,
-								},
-							},
-							["amount"] = 4120,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 10999,
-								},
-							},
-							["amount"] = 10999,
-						},
-						[48123] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 39393,
-								},
-							},
-							["amount"] = 39393,
-						},
-						[48465] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 25032,
-								},
-							},
-							["amount"] = 25032,
-						},
-						[48466] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 7728,
-								},
-							},
-							["amount"] = 7728,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 7232,
-								},
-							},
-							["amount"] = 7232,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 2713,
-								},
-								["Chirrishadow"] = {
-									["amount"] = 3760,
-								},
-							},
-							["amount"] = 6473,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 8616,
-								},
-							},
-							["amount"] = 8616,
-						},
-					},
-				}, -- [1]
-				{
-					["name"] = "Important targets",
-					["damagetaken"] = 1440574,
-					["class"] = "ENEMY",
-					["id"] = "Important targets",
-					["totaldamagetaken"] = 1440574,
-					["fake"] = true,
-					["damagetakenspells"] = {
-						[48160] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 39352,
-								},
-							},
-							["amount"] = 39352,
-						},
-						[48135] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 31554,
-								},
-							},
-							["amount"] = 31554,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 20239,
-								},
-							},
-							["amount"] = 20239,
-						},
-						[61654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 9177,
-								},
-							},
-							["amount"] = 9177,
-						},
-						[60043] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 156541,
-								},
-							},
-							["amount"] = 156541,
-						},
-						[49240] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 62084,
-								},
-							},
-							["amount"] = 62084,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 21713,
-								},
-							},
-							["amount"] = 21713,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 36117,
-								},
-							},
-							["amount"] = 36117,
-						},
-						[53227] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 8356,
-								},
-							},
-							["amount"] = 8356,
-						},
-						[3018] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 1491,
-								},
-							},
-							["amount"] = 1491,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 72106,
-								},
-								["Chirrishadow"] = {
-									["amount"] = 39579,
-								},
-							},
-							["amount"] = 111685,
-						},
-						[49238] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 314443,
-								},
-							},
-							["amount"] = 314443,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 63554,
-								},
-								["Chirrishadow"] = {
-									["amount"] = 44429,
-								},
-							},
-							["amount"] = 107983,
-						},
-						[49233] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 209036,
-								},
-							},
-							["amount"] = 209036,
-						},
-						[49271] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 128744,
-								},
-							},
-							["amount"] = 128744,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 70940,
-								},
-							},
-							["amount"] = 70940,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 1526,
-								},
-							},
-							["amount"] = 1526,
-						},
-						[49269] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 4120,
-								},
-							},
-							["amount"] = 4120,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 10999,
-								},
-							},
-							["amount"] = 10999,
-						},
-						[48123] = {
-							["school"] = 2,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 39393,
-								},
-							},
-							["amount"] = 39393,
-						},
-						[48465] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 25032,
-								},
-							},
-							["amount"] = 25032,
-						},
-						[48466] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 7728,
-								},
-							},
-							["amount"] = 7728,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 7232,
-								},
-							},
-							["amount"] = 7232,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Ilynyssa"] = {
-									["amount"] = 2713,
-								},
-								["Chirrishadow"] = {
-									["amount"] = 3760,
-								},
-							},
-							["amount"] = 6473,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 8616,
-								},
-							},
-							["amount"] = 8616,
-						},
-					},
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 2025,
-							["targets"] = {
-								["Tikkylol"] = {
-									["amount"] = 0,
-									["total"] = 375,
-								},
-								["Inarya"] = {
-									["amount"] = 179,
-									["total"] = 1124,
-								},
-								["Roxces"] = {
-									["amount"] = 205,
-									["total"] = 910,
-								},
-							},
-							["amount"] = 384,
-						},
-					},
-					["damagetaken"] = 659835,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 9326,
-									["overkill"] = 4561,
-								},
-							},
-							["amount"] = 9326,
-							["overkill"] = 4561,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 47227,
-									["overkill"] = 8018,
-								},
-							},
-							["amount"] = 47227,
-							["overkill"] = 8018,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 24040,
-								},
-							},
-							["amount"] = 24040,
-						},
-						[61654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 12246,
-									["overkill"] = 4573,
-								},
-							},
-							["amount"] = 12246,
-							["overkill"] = 4573,
-						},
-						[47520] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 12990,
-									["overkill"] = 7934,
-								},
-							},
-							["amount"] = 12990,
-							["overkill"] = 7934,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 32587,
-									["overkill"] = 4925,
-								},
-							},
-							["amount"] = 32587,
-							["overkill"] = 4925,
-						},
-						[53227] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 21332,
-									["overkill"] = 10402,
-								},
-							},
-							["amount"] = 21332,
-							["overkill"] = 10402,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 116885,
-									["overkill"] = 15565,
-								},
-							},
-							["amount"] = 116885,
-							["overkill"] = 15565,
-						},
-						[57755] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 4169,
-									["overkill"] = 1060,
-								},
-							},
-							["amount"] = 4169,
-							["overkill"] = 1060,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 47442,
-									["overkill"] = 7939,
-								},
-							},
-							["amount"] = 47442,
-							["overkill"] = 7939,
-						},
-						[49233] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 7519,
-									["overkill"] = 1208,
-								},
-							},
-							["amount"] = 7519,
-							["overkill"] = 1208,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 2177,
-								},
-							},
-							["amount"] = 2177,
-						},
-						[49271] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 80356,
-									["overkill"] = 7701,
-								},
-							},
-							["amount"] = 80356,
-							["overkill"] = 7701,
-						},
-						[49269] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 4449,
-								},
-							},
-							["amount"] = 4449,
-						},
-						[59159] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 45926,
-									["overkill"] = 3675,
-								},
-							},
-							["amount"] = 45926,
-							["overkill"] = 3675,
-						},
-						[53022] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 31890,
-									["overkill"] = 376,
-								},
-							},
-							["amount"] = 31890,
-							["overkill"] = 376,
-						},
-						[48466] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 94045,
-									["overkill"] = 8101,
-								},
-							},
-							["amount"] = 94045,
-							["overkill"] = 8101,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 3730,
-									["overkill"] = 165,
-								},
-							},
-							["amount"] = 3730,
-							["overkill"] = 165,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 52251,
-									["overkill"] = 4042,
-								},
-							},
-							["amount"] = 52251,
-							["overkill"] = 4042,
-						},
-						[49238] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 9248,
-								},
-							},
-							["amount"] = 9248,
-						},
-					},
-					["totaldamage"] = 2409,
-					["name"] = "Raging Ghoul",
-					["totaldamagetaken"] = 659835,
-					["id"] = "0xF13000904C000164",
-					["damage"] = 384,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 4126,
-							["targets"] = {
-								["Tikkylol"] = {
-									["amount"] = 2146,
-								},
-								["Inarya"] = {
-									["amount"] = 2298,
-									["total"] = 4262,
-								},
-								["Roxces"] = {
-									["amount"] = 2833,
-									["total"] = 4995,
-								},
-							},
-							["amount"] = 7277,
-						},
-						[70182] = {
-							["school"] = 32,
-							["total"] = 19421,
-							["targets"] = {
-								["Inarya"] = {
-									["amount"] = 8604,
-									["total"] = 14990,
-								},
-								["Tikkylol"] = {
-									["amount"] = 2698,
-									["total"] = 3874,
-								},
-								["Roxces"] = {
-									["amount"] = 6326,
-									["total"] = 12456,
-								},
-								["Ilynyssa"] = {
-									["amount"] = 3316,
-								},
-								["Chirrishadow"] = {
-									["amount"] = 5554,
-									["total"] = 8132,
-								},
-							},
-							["amount"] = 26498,
-						},
-						[70183] = {
-							["school"] = 32,
-							["total"] = 14458,
-							["targets"] = {
-								["Inarya"] = {
-									["amount"] = 0,
-									["total"] = 7386,
-								},
-								["Ilynyssa"] = {
-									["amount"] = 0,
-									["total"] = 7072,
-								},
-								["Chirrishadow"] = {
-									["amount"] = 5195,
-								},
-							},
-							["amount"] = 5195,
-						},
-						[70184] = {
-							["school"] = 32,
-							["total"] = 11091,
-							["targets"] = {
-								["Inarya"] = {
-									["amount"] = 4445,
-									["total"] = 6656,
-								},
-								["Tikkylol"] = {
-									["amount"] = 0,
-									["total"] = 5187,
-								},
-								["Roxces"] = {
-									["amount"] = 6419,
-								},
-								["Ilynyssa"] = {
-									["amount"] = 3159,
-								},
-								["Chirrishadow"] = {
-									["amount"] = 2679,
-									["total"] = 5206,
-								},
-							},
-							["amount"] = 16702,
-						},
-					},
-					["damagetaken"] = 893053,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[48466] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 19176,
-								},
-							},
-							["amount"] = 19176,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 13926,
-								},
-							},
-							["amount"] = 13926,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 62654,
-								},
-							},
-							["amount"] = 62654,
-						},
-						[49238] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 95819,
-								},
-							},
-							["amount"] = 95819,
-						},
-						[49240] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 20194,
-								},
-							},
-							["amount"] = 20194,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 40087,
-								},
-							},
-							["amount"] = 40087,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 5165,
-								},
-							},
-							["amount"] = 5165,
-						},
-						[57755] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 15041,
-								},
-							},
-							["amount"] = 15041,
-						},
-						[53227] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 4957,
-								},
-							},
-							["amount"] = 4957,
-						},
-						[59159] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 5494,
-								},
-							},
-							["amount"] = 5494,
-						},
-						[60043] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 49368,
-								},
-							},
-							["amount"] = 49368,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 48264,
-								},
-							},
-							["amount"] = 48264,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 57326,
-									["overkill"] = 17881,
-								},
-							},
-							["amount"] = 57326,
-							["overkill"] = 17881,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 16753,
-								},
-							},
-							["amount"] = 16753,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 4869,
-								},
-							},
-							["amount"] = 4869,
-						},
-						[48160] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 19774,
-								},
-							},
-							["amount"] = 19774,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 6746,
-								},
-							},
-							["amount"] = 6746,
-						},
-						[61654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 4614,
-								},
-							},
-							["amount"] = 4614,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 10550,
-								},
-							},
-							["amount"] = 10550,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 5803,
-								},
-							},
-							["amount"] = 5803,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 16222,
-									["overkill"] = 3216,
-								},
-							},
-							["amount"] = 16222,
-							["overkill"] = 3216,
-						},
-						[48465] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 23067,
-									["overkill"] = 9613,
-								},
-							},
-							["amount"] = 23067,
-							["overkill"] = 9613,
-						},
-						[49233] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 58746,
-									["overkill"] = 910,
-								},
-							},
-							["amount"] = 58746,
-							["overkill"] = 910,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 42495,
-								},
-							},
-							["amount"] = 42495,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 26904,
-								},
-							},
-							["amount"] = 26904,
-						},
-						[50783] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 9425,
-								},
-							},
-							["amount"] = 9425,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 26527,
-									["overkill"] = 32,
-								},
-							},
-							["amount"] = 26527,
-							["overkill"] = 32,
-						},
-						[53307] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 73,
-								},
-							},
-							["amount"] = 73,
-						},
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 38442,
-									["overkill"] = 5124,
-								},
-							},
-							["amount"] = 38442,
-							["overkill"] = 5124,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 50075,
-								},
-							},
-							["amount"] = 50075,
-						},
-						[49271] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 77688,
-								},
-							},
-							["amount"] = 77688,
-						},
-						[47520] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 7845,
-									["overkill"] = 1055,
-								},
-							},
-							["amount"] = 7845,
-							["overkill"] = 1055,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 8964,
-									["overkill"] = 4722,
-								},
-							},
-							["amount"] = 8964,
-							["overkill"] = 4722,
-						},
-					},
-					["totaldamage"] = 100451,
-					["name"] = "Risen Witch Doctor",
-					["totaldamagetaken"] = 893053,
-					["id"] = "0xF13000904D00016C",
-					["damage"] = 55672,
-				}, -- [4]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 26949,
-							["targets"] = {
-								["Inarya"] = {
-									["amount"] = 6407,
-									["total"] = 13078,
-								},
-								["Roxces"] = {
-									["amount"] = 4020,
-									["total"] = 22684,
-								},
-							},
-							["amount"] = 10427,
-						},
-						[40505] = {
-							["school"] = 1,
-							["total"] = 18144,
-							["targets"] = {
-								["Tikkylol"] = {
-									["amount"] = 0,
-									["total"] = 2497,
-								},
-								["Roxces"] = {
-									["amount"] = 2011,
-									["total"] = 9234,
-								},
-								["Inarya"] = {
-									["amount"] = 1962,
-									["total"] = 8375,
-								},
-							},
-							["amount"] = 3973,
-						},
-						[70181] = {
-							["school"] = 8,
-							["total"] = 40100,
-							["targets"] = {
-								["Tikkylol"] = {
-									["amount"] = 0,
-									["total"] = 7180,
-								},
-								["Roxces"] = {
-									["amount"] = 10512,
-									["total"] = 17949,
-								},
-								["Inarya"] = {
-									["amount"] = 4007,
-									["total"] = 14971,
-								},
-							},
-							["amount"] = 14519,
-						},
-					},
-					["damagetaken"] = 1150086,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[48466] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 24344,
-								},
-							},
-							["amount"] = 24344,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 30945,
-								},
-							},
-							["amount"] = 30945,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 38111,
-								},
-							},
-							["amount"] = 38111,
-						},
-						[49238] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 85838,
-								},
-							},
-							["amount"] = 85838,
-						},
-						[49240] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 17324,
-								},
-							},
-							["amount"] = 17324,
-						},
-						[58381] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 71447,
-									["overkill"] = 2198,
-								},
-							},
-							["amount"] = 71447,
-							["overkill"] = 2198,
-						},
-						[63675] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 18105,
-								},
-							},
-							["amount"] = 18105,
-						},
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 817,
-								},
-							},
-							["amount"] = 817,
-						},
-						[53227] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 5253,
-								},
-							},
-							["amount"] = 5253,
-						},
-						[60043] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 71384,
-								},
-							},
-							["amount"] = 71384,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 57989,
-								},
-							},
-							["amount"] = 57989,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 86053,
-									["overkill"] = 9351,
-								},
-							},
-							["amount"] = 86053,
-							["overkill"] = 9351,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 21134,
-								},
-							},
-							["amount"] = 21134,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 6458,
-								},
-							},
-							["amount"] = 6458,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 7082,
-								},
-							},
-							["amount"] = 7082,
-						},
-						[48160] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 38049,
-								},
-							},
-							["amount"] = 38049,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 20062,
-									["overkill"] = 702,
-								},
-							},
-							["amount"] = 20062,
-							["overkill"] = 702,
-						},
-						[61654] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 2170,
-								},
-							},
-							["amount"] = 2170,
-						},
-						[48300] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 20408,
-								},
-							},
-							["amount"] = 20408,
-						},
-						[48125] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 8356,
-								},
-							},
-							["amount"] = 8356,
-						},
-						[48127] = {
-							["school"] = 32,
-							["sources"] = {
-								["Chirrishadow"] = {
-									["amount"] = 28079,
-								},
-							},
-							["amount"] = 28079,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 30629,
-								},
-							},
-							["amount"] = 30629,
-						},
-						[49233] = {
-							["school"] = 4,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 61073,
-								},
-							},
-							["amount"] = 61073,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 84473,
-								},
-							},
-							["amount"] = 84473,
-						},
-						[49269] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 1349,
-								},
-							},
-							["amount"] = 1349,
-						},
-						[50783] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 14307,
-								},
-							},
-							["amount"] = 14307,
-						},
-						[47520] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 29390,
-								},
-							},
-							["amount"] = 29390,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 16986,
-								},
-							},
-							["amount"] = 16986,
-						},
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 35173,
-									["overkill"] = 443,
-								},
-							},
-							["amount"] = 35173,
-							["overkill"] = 443,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 76056,
-								},
-							},
-							["amount"] = 76056,
-						},
-						[48465] = {
-							["school"] = 64,
-							["sources"] = {
-								["Tikkylol"] = {
-									["amount"] = 53348,
-								},
-							},
-							["amount"] = 53348,
-						},
-						[49271] = {
-							["school"] = 8,
-							["sources"] = {
-								["Inarya"] = {
-									["amount"] = 71486,
-									["overkill"] = 3392,
-								},
-							},
-							["amount"] = 71486,
-							["overkill"] = 3392,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Roxces"] = {
-									["amount"] = 16408,
-								},
-							},
-							["amount"] = 16408,
-						},
-					},
-					["totaldamage"] = 95968,
-					["name"] = "Lumbering Abomination",
-					["totaldamagetaken"] = 1150086,
-					["id"] = "0xF1300090CD000175",
-					["damage"] = 28919,
-				}, -- [5]
-			},
-			["dispel"] = 10,
-			["totaldamage"] = 4143548,
-			["time"] = 322,
-			["last_action"] = 1716223414,
-			["totaldamagetaken"] = 198828,
-			["etotaldamagetaken"] = 4143548,
-			["last_time"] = 27057.081,
-			["overheal"] = 208766,
 			["absorb"] = 113853,
 			["damagetaken"] = 84975,
-			["damage"] = 4143548,
+			["type"] = "party",
 			["interrupt"] = 5,
 			["etotaldamage"] = 198828,
 			["starttime"] = 1716223093,
@@ -4732,9 +4732,9 @@ SkadaStorageDB = {
 			["heal"] = 84975,
 			["name"] = "The Lich King",
 			["mobname"] = "The Lich King",
-			["type"] = "party",
+			["damage"] = 4143548,
 			["edamage"] = 84975,
-			["energy"] = 100,
+			["last_action"] = 1716223414,
 			["endtime"] = 1716223415,
 		}, -- [1]
 	},

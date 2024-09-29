@@ -125,20 +125,20 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					16310, -- [1]
 				},
-				["HOT_Time"] = {
-					1221, -- [1]
-				},
-				["TimeDamage"] = {
-					1928.83, -- [1]
-				},
-				["HealingTaken"] = {
-					8231, -- [1]
-				},
 				["Overhealing"] = {
 					2134, -- [1]
 				},
 				["ActiveTime"] = {
 					2087.030000000001, -- [1]
+				},
+				["HealingTaken"] = {
+					8231, -- [1]
+				},
+				["HOT_Time"] = {
+					1221, -- [1]
+				},
+				["TimeDamage"] = {
+					1928.83, -- [1]
 				},
 				["Interrupts"] = {
 					12, -- [1]
@@ -178,8237 +178,242 @@ RecountPerCharDB = {
 				[49] = 1.93298969072165,
 				[6] = 4.896907216494846,
 				[13] = 1.93298969072165,
-				[21] = 2.835051546391753,
 				[32] = 1.928374655647383,
+				[21] = 2.835051546391753,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
-			["LastActive"] = 1727560991,
-			["UnitLockout"] = 1727551263,
+			["LastAbility"] = 217.891,
+			["LastEventTimes"] = {
+				42383.784, -- [1]
+				42384.484, -- [2]
+				42384.485, -- [3]
+				42480.591, -- [4]
+				42480.592, -- [5]
+				42481.149, -- [6]
+				42481.199, -- [7]
+				42483.341, -- [8]
+				42485.541, -- [9]
+				42485.841, -- [10]
+				42486.008, -- [11]
+				42486.008, -- [12]
+				42486.008, -- [13]
+				42558.049, -- [14]
+				42559.599, -- [15]
+				42560.207, -- [16]
+				42560.249, -- [17]
+				42560.424, -- [18]
+				42560.424, -- [19]
+				42560.425, -- [20]
+				42562.232, -- [21]
+				42562.865, -- [22]
+				42563.04, -- [23]
+				42563.041, -- [24]
+				42564.257, -- [25]
+				42565.49, -- [26]
+				42565.699, -- [27]
+				41759.541, -- [28]
+				41760.623, -- [29]
+				41760.716, -- [30]
+				41760.716, -- [31]
+				41760.717, -- [32]
+				41761.39, -- [33]
+				41763.256, -- [34]
+				41763.307, -- [35]
+				42219.769, -- [36]
+				42221.927, -- [37]
+				42222.018, -- [38]
+				42222.152, -- [39]
+				42222.152, -- [40]
+				42222.153, -- [41]
+				42222.153, -- [42]
+				42222.154, -- [43]
+				42380.425, -- [44]
+				42381.1, -- [45]
+				42381.392, -- [46]
+				42381.626, -- [47]
+				42381.634, -- [48]
+				42381.709, -- [49]
+				42382.434, -- [50]
+			},
 			["Owner"] = false,
+			["LastDamageTaken"] = 22,
+			["NextEventNum"] = 28,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				95.10309278350516, -- [7]
+				95.10309278350516, -- [8]
+				95.10309278350516, -- [9]
+				95.10309278350516, -- [10]
+				97.0360824742268, -- [11]
+				97.0360824742268, -- [12]
+				98.96907216494846, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				98.58247422680412, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				97.16494845360825, -- [22]
+				99.0979381443299, -- [23]
+				99.0979381443299, -- [24]
+				99.0979381443299, -- [25]
+				99.0979381443299, -- [26]
+				99.0979381443299, -- [27]
+				96.83195592286502, -- [28]
+				96.83195592286502, -- [29]
+				98.7603305785124, -- [30]
+				98.7603305785124, -- [31]
+				100, -- [32]
+				100, -- [33]
+				98.89807162534436, -- [34]
+				98.89807162534436, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Kolkar Stormer Melee Mahkloompah Hit -9 (Physical)", -- [1]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (6 overheal)", -- [2]
+				"Mahkloompah Exorcism Kolkar Stormer Hit -139 (Holy)", -- [3]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (15 overheal)", -- [4]
+				"Mahkloompah Judgement of Command Barak Kodobane Crit -68 (Holy)", -- [5]
+				"Barak Kodobane Melee Mahkloompah Hit -38 (Physical)", -- [6]
+				"Mahkloompah Melee Barak Kodobane Parry", -- [7]
+				"Mahkloompah Exorcism Barak Kodobane Hit -140 (Holy)", -- [8]
+				"Barak Kodobane Melee Mahkloompah Parry", -- [9]
+				"Mahkloompah Melee Barak Kodobane Hit -50 (Physical)", -- [10]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15", -- [11]
+				"Mahkloompah Seal of Command Barak Kodobane Hit -24 (Holy)", -- [12]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15", -- [13]
+				"Mahkloompah Hand of Reckoning Zhevra Runner Hit -107 (Holy)", -- [14]
+				"Mahkloompah Judgement of Command Zhevra Runner Hit -28 (Holy)", -- [15]
+				"Zhevra Runner Melee Mahkloompah Hit -11 (Physical)", -- [16]
+				"Mahkloompah Melee Zhevra Runner Hit -44 (Physical)", -- [17]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (4 overheal)", -- [18]
+				"Mahkloompah Seal of Command Zhevra Runner Hit -21 (Holy)", -- [19]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (15 overheal)", -- [20]
+				"Zhevra Runner Melee Mahkloompah Crit -22 (Physical)", -- [21]
+				"Mahkloompah Melee Zhevra Runner Hit -54 (Physical)", -- [22]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15", -- [23]
+				"Mahkloompah Seal of Command Zhevra Runner Hit -26 (Holy)", -- [24]
+				"Zhevra Runner Melee Mahkloompah Dodge", -- [25]
+				"Mahkloompah Melee Zhevra Runner Hit -51 (Physical)", -- [26]
+				"Mahkloompah Seal of Command Zhevra Runner Crit -48 (Holy)", -- [27]
+				"Mahkloompah Judgement of Command Kolkar Packhound Hit -28 (Holy)", -- [28]
+				"Mahkloompah Melee Kolkar Packhound Hit -54 (Physical)", -- [29]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +14", -- [30]
+				"Mahkloompah Seal of Command Kolkar Packhound Hit -25 (Holy)", -- [31]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +14 (5 overheal)", -- [32]
+				"Kolkar Packhound Melee Mahkloompah Hit -8 (Physical)", -- [33]
+				"Mahkloompah Melee Kolkar Packhound Crit -96 (Physical)", -- [34]
+				"Mahkloompah Seal of Command Kolkar Packhound Crit -46 (Holy)", -- [35]
+				"Mahkloompah Hand of Reckoning Kolkar Wrangler Hit -107 (Holy)", -- [36]
+				"Mahkloompah Melee Kolkar Wrangler Crit -112 (Physical)", -- [37]
+				"Kolkar Wrangler Melee Mahkloompah Hit -8 (Physical)", -- [38]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (7 overheal)", -- [39]
+				"Mahkloompah Seal of Command Kolkar Wrangler Hit -21 (Holy)", -- [40]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (15 overheal)", -- [41]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (15 overheal)", -- [42]
+				"Mahkloompah Judgement of Command Kolkar Wrangler Hit -30 (Holy)", -- [43]
+				"Mahkloompah Judgement of Command Kolkar Stormer Hit -31 (Holy)", -- [44]
+				"Mahkloompah Melee Kolkar Stormer Hit -57 (Physical)", -- [45]
+				"Mahkloompah Seal of Command Kolkar Stormer Hit -25 (Holy)", -- [46]
+				"Mahkloompah interrupts Kolkar Stormer Lightning Cloud (Interrupt)", -- [47]
+				"Kolkar Stormer Melee Mahkloompah Hit -10 (Physical)", -- [48]
+				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (5 overheal)", -- [49]
+				"Mahkloompah Judgement of Light Jegjegos Tick +11 (11 overheal)", -- [50]
+			},
+			["Name"] = "Mahkloompah",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+				true, -- [41]
+				true, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				true, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 1727560988,
+				["Dispelled"] = 1727560051,
+				["Dispels"] = 1727560051,
+				["ActiveTime"] = 1727560991,
+				["OVERALL"] = 1727560991,
+				["DamageTaken"] = 1727560987,
+				["HOT_Time"] = 1727560988,
+				["TimeDamage"] = 1727560991,
+				["HealingTaken"] = 1727560988,
+				["Overhealing"] = 1727560985,
+				["Interrupts"] = 1727560807,
+				["Healing"] = 1727560988,
+				["ManaGain"] = 1727560807,
+				["DOT_Time"] = 1727560117,
+				["Damage"] = 1727560991,
+			},
 			["Fights"] = {
-				["Fight3"] = {
-					["DOTs"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Kolkar Packhound"] = {
-									["count"] = 0,
-								},
-								["Kolkar Marauder"] = {
-									["count"] = 0,
-								},
-								["Kolkar Bloodcharger"] = {
-									["count"] = 0,
-								},
-								["Bristleback Water Seeker"] = {
-									["count"] = 0,
-								},
-								["Bristleback Hunter"] = {
-									["count"] = 0,
-								},
-								["Kolkar Pack Runner"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 19,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 9,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Frost"] = 0,
-						["Melee"] = 19,
-						["Shadow"] = 0,
-						["Fire"] = 0,
-						["Physical"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 252,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["TimeHeal"] = 3.1,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Shadow"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 57,
-						["Holy"] = 195,
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Tetanus"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Scytheclaw"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 139,
-								},
-								["Seal of Command"] = {
-									["count"] = 25,
-								},
-								["Melee"] = {
-									["count"] = 57,
-								},
-								["Judgement of Command"] = {
-									["count"] = 31,
-								},
-							},
-							["amount"] = 252,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormsnout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Scytheclaw"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Wrath"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Thorns"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 19,
-								},
-							},
-							["amount"] = 19,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormsnout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Tetanus"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["TimeHealing"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 3.1,
-								},
-							},
-							["amount"] = 3.1,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 11,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 22,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 22,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Arcane Torrent"] = {
-									["count"] = 52,
-								},
-							},
-							["amount"] = 52,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 19,
-								},
-							},
-							["amount"] = 19,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Arcane Torrent"] = {
-							["Details"] = {
-								["Mahkloompah"] = {
-									["count"] = 52,
-								},
-							},
-							["amount"] = 52,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 1,
-					["Overhealing"] = 22,
-					["TimeSpent"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Scytheclaw"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0.29,
-								},
-								["Melee"] = {
-									["count"] = 0.67,
-								},
-								["Judgement of Command"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 4.46,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 3.1,
-								},
-							},
-							["amount"] = 3.1,
-						},
-						["Stormsnout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Tetanus (Purify)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["InterruptData"] = {
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Lightning Cloud (Interrupt)"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Stormsnout"] = {
-							["Details"] = {
-								["Lizard Bolt (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 10,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 19,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 19,
-						},
-					},
-					["WhoHealed"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 19,
-								},
-							},
-							["amount"] = 19,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 7.560000000000001,
-					["Healing"] = 19,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 139,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 139,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 139,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 57,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 57,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 57,
-						},
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Command"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 25,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 25,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 25,
-						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 31,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 31,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 31,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 19,
-					["RageGain"] = 0,
-					["TimeDamage"] = 4.46,
-					["TimeDamaging"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Scytheclaw"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0.29,
-								},
-								["Melee"] = {
-									["count"] = 0.67,
-								},
-								["Judgement of Command"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 4.46,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stormsnout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 52,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Woolhead"] = {
-									["count"] = 0,
-								},
-								["Jegjegos"] = {
-									["count"] = 3,
-								},
-								["Mahkloompah"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["DispelledWho"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Tetanus (Purify)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 17,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 9,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 17,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 497,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 1.57,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 150,
-						["Holy"] = 347,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 106,
-								},
-								["Exorcism"] = {
-									["count"] = 142,
-								},
-							},
-							["amount"] = 248,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 71,
-								},
-								["Melee"] = {
-									["count"] = 150,
-								},
-								["Judgement of Command"] = {
-									["count"] = 28,
-								},
-							},
-							["amount"] = 249,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 17,
-								},
-							},
-							["amount"] = 17,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 1.57,
-								},
-							},
-							["amount"] = 1.57,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 5,
-									["count"] = 1,
-									["amount"] = 5,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 5,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 37,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 5,
-					["TimeSpent"] = {
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Exorcism"] = {
-									["count"] = 2.13,
-								},
-							},
-							["amount"] = 5.63,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 1.57,
-								},
-							},
-							["amount"] = 1.57,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 0.05,
-								},
-								["Melee"] = {
-									["count"] = 3.62,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.67,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 14,
-									["min"] = 9,
-									["count"] = 3,
-									["amount"] = 37,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 37,
-						},
-					},
-					["WhoHealed"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 37,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 10.87,
-					["Healing"] = 37,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 106,
-									["min"] = 106,
-									["count"] = 1,
-									["amount"] = 106,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 106,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 142,
-									["min"] = 142,
-									["count"] = 1,
-									["amount"] = 142,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 142,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 96,
-									["min"] = 96,
-									["count"] = 1,
-									["amount"] = 96,
-								},
-								["Hit"] = {
-									["max"] = 54,
-									["min"] = 54,
-									["count"] = 1,
-									["amount"] = 54,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 150,
-						},
-						["Seal of Command"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 46,
-									["min"] = 46,
-									["count"] = 1,
-									["amount"] = 46,
-								},
-								["Hit"] = {
-									["max"] = 25,
-									["min"] = 25,
-									["count"] = 1,
-									["amount"] = 25,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 71,
-						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 28,
-									["min"] = 28,
-									["count"] = 1,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 28,
-						},
-					},
-					["HealingTaken"] = 37,
-					["RageGain"] = 0,
-					["TimeDamage"] = 9.300000000000001,
-					["TimeDamaging"] = {
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Exorcism"] = {
-									["count"] = 2.13,
-								},
-							},
-							["amount"] = 5.63,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 0.05,
-								},
-								["Melee"] = {
-									["count"] = 3.62,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3.67,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Mahkloompah"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Command"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Mahkloompah"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Kolkar Packhound"] = {
-									["count"] = 0,
-								},
-								["Kolkar Bloodcharger"] = {
-									["count"] = 0,
-								},
-								["Bristleback Water Seeker"] = {
-									["count"] = 0,
-								},
-								["Bristleback Hunter"] = {
-									["count"] = 0,
-								},
-								["Kolkar Pack Runner"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 38,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 6,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Fire"] = 0,
-						["Melee"] = 38,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 282,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0.17,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Shadow"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 50,
-						["Holy"] = 232,
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 24,
-								},
-								["Exorcism"] = {
-									["count"] = 140,
-								},
-								["Judgement of Command"] = {
-									["count"] = 68,
-								},
-								["Melee"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 282,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Wrath"] = {
-									["count"] = 0,
-								},
-								["Thorns"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-						["Holy"] = 0,
-					},
-					["TimeHealing"] = {
-						["Woolhead"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0.17,
-								},
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.17,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Arcane Torrent"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Woolhead"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 30,
-								},
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Arcane Torrent"] = {
-							["Details"] = {
-								["Mahkloompah"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0.17,
-								},
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.17,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Woolhead"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 2.14,
-								},
-								["Melee"] = {
-									["count"] = 3.11,
-								},
-								["Judgement of Command"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 8.75,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Wrath (Interrupt)"] = {
-									["count"] = 0,
-								},
-								["Entangling Roots (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 30,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 30,
-						},
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 30,
-								},
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 30,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 8.92,
-					["Healing"] = 30,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 140,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 140,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 140,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 68,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 68,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 68,
-						},
-						["Seal of Command"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 24,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 24,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 24,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 50,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 50,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 50,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 30,
-					["RageGain"] = 0,
-					["TimeDamage"] = 8.75,
-					["TimeDamaging"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 2.14,
-								},
-								["Melee"] = {
-									["count"] = 3.11,
-								},
-								["Judgement of Command"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 8.75,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Woolhead"] = {
-									["count"] = 0,
-								},
-								["Mahkloompah"] = {
-									["count"] = 6,
-								},
-								["Jegjegos"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Bristleback Geomancer"] = {
-									["count"] = 0,
-								},
-								["Bristleback Thornweaver"] = {
-									["count"] = 0,
-								},
-								["Kolkar Bloodcharger"] = {
-									["count"] = 0,
-								},
-								["Verog the Dervish"] = {
-									["count"] = 0,
-								},
-								["Kolkar Marauder"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 8,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Resist"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 9,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Fire"] = 0,
-						["Melee"] = 8,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 270,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0.22,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 112,
-						["Holy"] = 158,
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wandering Barrens Giraffe"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 107,
-								},
-								["Seal of Command"] = {
-									["count"] = 21,
-								},
-								["Melee"] = {
-									["count"] = 112,
-								},
-								["Judgement of Command"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 270,
-						},
-						["Verog the Dervish"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Verog the Dervish"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Wrath"] = {
-									["count"] = 0,
-								},
-								["Thorns"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0.22,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.22,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 37,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 37,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 8,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 37,
-					["TimeSpent"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0.22,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0.22,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wandering Barrens Giraffe"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 2.16,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5.66,
-						},
-						["Verog the Dervish"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Fireball (Interrupt)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 8,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 8,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 8,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 8,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 5.88,
-					["Healing"] = 8,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 107,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 107,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 107,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 112,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 112,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 112,
-						},
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Command"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 21,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 21,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 21,
-						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 30,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 30,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 30,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 8,
-					["RageGain"] = 0,
-					["TimeDamage"] = 5.66,
-					["TimeDamaging"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Wandering Barrens Giraffe"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 2.16,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5.66,
-						},
-						["Verog the Dervish"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Woolhead"] = {
-									["count"] = 0,
-								},
-								["Jegjegos"] = {
-									["count"] = 0,
-								},
-								["Mahkloompah"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Bristleback Geomancer"] = {
-									["count"] = 0,
-								},
-								["Kolkar Packhound"] = {
-									["count"] = 0,
-								},
-								["Kolkar Marauder"] = {
-									["count"] = 0,
-								},
-								["Kolkar Pack Runner"] = {
-									["count"] = 0,
-								},
-								["Bristleback Water Seeker"] = {
-									["count"] = 0,
-								},
-								["Bristleback Hunter"] = {
-									["count"] = 0,
-								},
-								["Kolkar Bloodcharger"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 33,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 9,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 33,
-						["Shadow"] = 0,
-						["Fire"] = 0,
-						["Frost"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 379,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0.35,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Shadow"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 149,
-						["Holy"] = 230,
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Entangling Roots"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flamestrike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flamestrike (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 107,
-								},
-								["Seal of Command"] = {
-									["count"] = 95,
-								},
-								["Judgement of Command"] = {
-									["count"] = 28,
-								},
-								["Melee"] = {
-									["count"] = 149,
-								},
-							},
-							["amount"] = 379,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Flamestrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Wrath"] = {
-									["count"] = 0,
-								},
-								["Thorns"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Entangling Roots"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flamestrike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flamestrike (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.35,
-								},
-							},
-							["amount"] = 0.35,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 19,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 19,
-						},
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 19,
-					["TimeSpent"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.35,
-								},
-							},
-							["amount"] = 0.35,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Command"] = {
-									["count"] = 0.21,
-								},
-								["Judgement of Command"] = {
-									["count"] = 1.55,
-								},
-								["Melee"] = {
-									["count"] = 5.54,
-								},
-							},
-							["amount"] = 10.8,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 26,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 26,
-						},
-					},
-					["WhoHealed"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 11.15,
-					["Healing"] = 26,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 107,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 107,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 107,
-						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 28,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 28,
-						},
-						["Seal of Command"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 48,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 48,
-								},
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 47,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 95,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 54,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 149,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 149,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 26,
-					["RageGain"] = 0,
-					["TimeDamage"] = 10.8,
-					["TimeDamaging"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Command"] = {
-									["count"] = 0.21,
-								},
-								["Judgement of Command"] = {
-									["count"] = 1.55,
-								},
-								["Melee"] = {
-									["count"] = 5.54,
-								},
-							},
-							["amount"] = 10.8,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Woolhead"] = {
-									["count"] = 0,
-								},
-								["Jegjegos"] = {
-									["count"] = 0,
-								},
-								["Mahkloompah"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Bristleback Geomancer"] = {
-									["count"] = 0,
-								},
-								["Kolkar Packhound"] = {
-									["count"] = 0,
-								},
-								["Kolkar Marauder"] = {
-									["count"] = 0,
-								},
-								["Kolkar Pack Runner"] = {
-									["count"] = 0,
-								},
-								["Bristleback Water Seeker"] = {
-									["count"] = 0,
-								},
-								["Bristleback Hunter"] = {
-									["count"] = 0,
-								},
-								["Kolkar Bloodcharger"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 33,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Block"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 9,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 33,
-						["Shadow"] = 0,
-						["Fire"] = 0,
-						["Frost"] = 0,
-						["Nature"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 379,
-					["ElementTakenBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHeal"] = 0.35,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Shadow"] = 0,
-						["Nature"] = 0,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 149,
-						["Holy"] = 230,
-					},
-					["PartialAbsorb"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Entangling Roots"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flamestrike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flamestrike (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 107,
-								},
-								["Seal of Command"] = {
-									["count"] = 95,
-								},
-								["Judgement of Command"] = {
-									["count"] = 28,
-								},
-								["Melee"] = {
-									["count"] = 149,
-								},
-							},
-							["amount"] = 379,
-						},
-					},
-					["PartialBlock"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Blocked"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoDamaged"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0,
-								},
-								["Flamestrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Wrath"] = {
-									["count"] = 0,
-								},
-								["Thorns"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Fireball"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Wrath"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Entangling Roots"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Frost Nova"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flamestrike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flamestrike (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.35,
-								},
-							},
-							["amount"] = 0.35,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 19,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 19,
-						},
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 19,
-					["TimeSpent"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0.35,
-								},
-							},
-							["amount"] = 0.35,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Command"] = {
-									["count"] = 0.21,
-								},
-								["Judgement of Command"] = {
-									["count"] = 1.55,
-								},
-								["Melee"] = {
-									["count"] = 5.54,
-								},
-							},
-							["amount"] = 10.8,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-						["Flash of Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Holy Light"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 26,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 26,
-						},
-					},
-					["WhoHealed"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Flash of Light"] = {
-									["count"] = 0,
-								},
-								["Holy Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 11.15,
-					["Healing"] = 26,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Consecration (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Exorcism"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Hand of Reckoning"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 107,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 107,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 107,
-						},
-						["Judgement of Command"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 28,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 28,
-						},
-						["Seal of Command"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 48,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 48,
-								},
-								["Hit"] = {
-									["max"] = 26,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 47,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 95,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 54,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 149,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 149,
-						},
-						["Judgement of Righteousness"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 26,
-					["RageGain"] = 0,
-					["TimeDamage"] = 10.8,
-					["TimeDamaging"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Consecration (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Light"] = {
-									["count"] = 0,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 0,
-								},
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Judgement of Command"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.5,
-								},
-								["Seal of Command"] = {
-									["count"] = 0.21,
-								},
-								["Judgement of Command"] = {
-									["count"] = 1.55,
-								},
-								["Melee"] = {
-									["count"] = 5.54,
-								},
-							},
-							["amount"] = 10.8,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Judgement of Light"] = {
-							["Details"] = {
-								["Woolhead"] = {
-									["count"] = 0,
-								},
-								["Jegjegos"] = {
-									["count"] = 0,
-								},
-								["Mahkloompah"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["OverallData"] = {
 					["PartialBlock"] = {
 						["Shoot"] = {
@@ -8483,11 +488,11 @@ RecountPerCharDB = {
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 37,
-								},
 								["Dodge"] = {
 									["count"] = 53,
+								},
+								["Miss"] = {
+									["count"] = 37,
 								},
 								["Hit"] = {
 									["count"] = 413,
@@ -8506,11 +511,11 @@ RecountPerCharDB = {
 						},
 						["Arcane"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
 								["Hit"] = {
 									["count"] = 7,
+								},
+								["Miss"] = {
+									["count"] = 2,
 								},
 							},
 							["amount"] = 9,
@@ -8525,8 +530,8 @@ RecountPerCharDB = {
 						},
 						["Fire"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 51,
+								["Miss"] = {
+									["count"] = 4,
 								},
 								["Tick"] = {
 									["count"] = 34,
@@ -8534,19 +539,19 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["count"] = 2,
 								},
-								["Miss"] = {
-									["count"] = 4,
+								["Hit"] = {
+									["count"] = 51,
 								},
 							},
 							["amount"] = 91,
 						},
 						["Shadow"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 12,
-								},
 								["Miss"] = {
 									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 12,
 								},
 							},
 							["amount"] = 13,
@@ -8556,14 +561,14 @@ RecountPerCharDB = {
 								["Resist"] = {
 									["count"] = 9,
 								},
-								["Miss"] = {
-									["count"] = 14,
+								["Tick"] = {
+									["count"] = 3,
 								},
 								["Hit"] = {
 									["count"] = 237,
 								},
-								["Tick"] = {
-									["count"] = 3,
+								["Miss"] = {
+									["count"] = 14,
 								},
 							},
 							["amount"] = 263,
@@ -8611,14 +616,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 12,
 						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 181,
-								},
-							},
-							["amount"] = 181,
-						},
 						["Alonetokyo"] = {
 							["Details"] = {
 								["Flash of Light"] = {
@@ -8627,10 +624,18 @@ RecountPerCharDB = {
 							},
 							["amount"] = 129,
 						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 181,
+								},
+							},
+							["amount"] = 181,
+						},
 					},
 					["ElementTakenResist"] = {
-						["Shadow"] = 16,
 						["Nature"] = 82,
+						["Shadow"] = 16,
 					},
 					["HOT_Time"] = 1221,
 					["ElementTaken"] = {
@@ -8645,17 +650,17 @@ RecountPerCharDB = {
 					["HOTs"] = {
 						["Judgement of Light"] = {
 							["Details"] = {
-								["Mahkloompah"] = {
-									["count"] = 909,
+								["Woolhead"] = {
+									["count"] = 84,
 								},
 								["Kaya Flathoof"] = {
 									["count"] = 6,
 								},
+								["Mahkloompah"] = {
+									["count"] = 909,
+								},
 								["Jegjegos"] = {
 									["count"] = 222,
-								},
-								["Woolhead"] = {
-									["count"] = 84,
 								},
 							},
 							["amount"] = 1221,
@@ -8675,11 +680,11 @@ RecountPerCharDB = {
 					["ElementHitsDone"] = {
 						["Holy"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 23,
-								},
 								["Tick"] = {
 									["count"] = 318,
+								},
+								["Miss"] = {
+									["count"] = 23,
 								},
 								["Dodge"] = {
 									["count"] = 11,
@@ -8756,14 +761,14 @@ RecountPerCharDB = {
 						},
 						["Kolkar Stormer"] = {
 							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 41,
-								},
 								["Melee"] = {
 									["count"] = 71,
 								},
 								["Lightning Cloud"] = {
 									["count"] = 87,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 41,
 								},
 								["Lightning Cloud (DoT)"] = {
 									["count"] = 126,
@@ -8773,11 +778,11 @@ RecountPerCharDB = {
 						},
 						["Bristleback Thornweaver"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 301,
-								},
 								["Wrath"] = {
 									["count"] = 2099,
+								},
+								["Melee"] = {
+									["count"] = 301,
 								},
 								["Thorns"] = {
 									["count"] = 1026,
@@ -8834,16 +839,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 223,
 						},
-						["Stormsnout"] = {
+						["Greater Plainstrider"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 47,
-								},
-								["Lizard Bolt"] = {
-									["count"] = 28,
+									["count"] = 22,
 								},
 							},
-							["amount"] = 75,
+							["amount"] = 22,
 						},
 						["Paria"] = {
 							["Details"] = {
@@ -8853,13 +855,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1068,
 						},
-						["Barak Kodobane"] = {
+						["Verog the Dervish"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 38,
+									["count"] = 89,
 								},
 							},
-							["amount"] = 38,
+							["amount"] = 89,
 						},
 						["Kolkar Pack Runner"] = {
 							["Details"] = {
@@ -8883,13 +885,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 116,
 						},
-						["Verog the Dervish"] = {
+						["Witchwing Harpy"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 89,
+									["count"] = 279,
 								},
 							},
-							["amount"] = 89,
+							["amount"] = 279,
 						},
 						["Zhevra Runner"] = {
 							["Details"] = {
@@ -8907,24 +909,21 @@ RecountPerCharDB = {
 							},
 							["amount"] = 54,
 						},
-						["Witchwing Roguefeather"] = {
+						["Sunscale Scytheclaw"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 343,
-								},
-								["Exploit Weakness"] = {
-									["count"] = 145,
+									["count"] = 46,
 								},
 							},
-							["amount"] = 488,
+							["amount"] = 46,
 						},
-						["Witchwing Harpy"] = {
+						["Barak Kodobane"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 279,
+									["count"] = 38,
 								},
 							},
-							["amount"] = 279,
+							["amount"] = 38,
 						},
 						["Kolkar Marauder"] = {
 							["Details"] = {
@@ -8937,24 +936,35 @@ RecountPerCharDB = {
 							},
 							["amount"] = 863,
 						},
-						["Kolkar Bloodcharger"] = {
+						["Witchwing Roguefeather"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 362,
+									["count"] = 343,
 								},
-								["Corruption (DoT)"] = {
-									["count"] = 104,
+								["Exploit Weakness"] = {
+									["count"] = 145,
 								},
 							},
-							["amount"] = 466,
+							["amount"] = 488,
 						},
-						["Kolkar Packhound"] = {
+						["Environment"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 283,
+								["Falling"] = {
+									["count"] = 93,
+								},
+								["Fire"] = {
+									["count"] = 15,
 								},
 							},
-							["amount"] = 283,
+							["amount"] = 108,
+						},
+						["Grundig Darkcloud"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
 						},
 						["Grimtotem Mercenary"] = {
 							["Details"] = {
@@ -8967,32 +977,21 @@ RecountPerCharDB = {
 							},
 							["amount"] = 472,
 						},
-						["Grundig Darkcloud"] = {
+						["Kolkar Packhound"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 36,
+									["count"] = 283,
 								},
 							},
-							["amount"] = 36,
-						},
-						["Grimtotem Ruffian"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 222,
-								},
-								["Lightning Shield"] = {
-									["count"] = 214,
-								},
-							},
-							["amount"] = 436,
+							["amount"] = 283,
 						},
 						["Woolhead"] = {
 							["Details"] = {
 								["Fireball"] = {
 									["count"] = 868,
 								},
-								["Frostbolt"] = {
-									["count"] = 105,
+								["Arcane Missiles"] = {
+									["count"] = 210,
 								},
 								["Melee"] = {
 									["count"] = 175,
@@ -9003,8 +1002,8 @@ RecountPerCharDB = {
 								["Frost Nova"] = {
 									["count"] = 23,
 								},
-								["Arcane Missiles"] = {
-									["count"] = 210,
+								["Frostbolt"] = {
+									["count"] = 105,
 								},
 								["Arcane Explosion"] = {
 									["count"] = 36,
@@ -9023,24 +1022,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 79,
 						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 93,
-								},
-								["Fire"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 108,
-						},
-						["Sunscale Scytheclaw"] = {
+						["Grimtotem Ruffian"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 46,
+									["count"] = 222,
+								},
+								["Lightning Shield"] = {
+									["count"] = 214,
 								},
 							},
-							["amount"] = 46,
+							["amount"] = 436,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 362,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 104,
+								},
+							},
+							["amount"] = 466,
 						},
 						["Witchwing Slayer"] = {
 							["Details"] = {
@@ -9058,13 +1060,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 44,
 						},
-						["Greater Plainstrider"] = {
+						["Stormsnout"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 22,
+									["count"] = 47,
+								},
+								["Lizard Bolt"] = {
+									["count"] = 28,
 								},
 							},
-							["amount"] = 22,
+							["amount"] = 75,
 						},
 					},
 					["ElementDoneBlock"] = {
@@ -9113,14 +1118,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2.92,
 						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 14.08,
-								},
-							},
-							["amount"] = 14.08,
-						},
 						["Alonetokyo"] = {
 							["Details"] = {
 								["Flash of Light"] = {
@@ -9128,6 +1125,14 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 5.51,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 14.08,
+								},
+							},
+							["amount"] = 14.08,
 						},
 					},
 					["OverHeals"] = {
@@ -9220,17 +1225,17 @@ RecountPerCharDB = {
 						},
 						["Corruption (DoT)"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
 								["25%Resist"] = {
 									["max"] = 2,
 									["min"] = 1,
 									["count"] = 10,
 									["amount"] = 16,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 12,
@@ -9250,17 +1255,17 @@ RecountPerCharDB = {
 						},
 						["Lightning Cloud (DoT)"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 2,
-									["amount"] = 18,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 1,
 									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 2,
+									["amount"] = 18,
 								},
 							},
 							["count"] = 3,
@@ -9326,18 +1331,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Flamestrike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Entangling Roots"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -9349,6 +1342,24 @@ RecountPerCharDB = {
 							},
 							["count"] = 1,
 							["amount"] = 0,
+						},
+						["Lizard Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 3,
+									["min"] = 3,
+									["count"] = 1,
+									["amount"] = 3,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 3,
 						},
 						["Damage Shield"] = {
 							["Details"] = {
@@ -9362,14 +1373,8 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Lizard Bolt"] = {
+						["Flamestrike"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 3,
-									["min"] = 3,
-									["count"] = 1,
-									["amount"] = 3,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -9377,22 +1382,22 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 3,
+							["count"] = 1,
+							["amount"] = 0,
 						},
 						["Lightning Cloud"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
 								["25%Resist"] = {
 									["max"] = 3,
 									["min"] = 3,
 									["count"] = 3,
 									["amount"] = 9,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 4,
@@ -9422,16 +1427,16 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Lightning Bolt"] = {
+						["Slowing Poison"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Melee"] = {
@@ -9458,16 +1463,16 @@ RecountPerCharDB = {
 							["count"] = 31,
 							["amount"] = 0,
 						},
-						["Eviscerate"] = {
+						["Sinister Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Arcane Missiles"] = {
@@ -9482,28 +1487,28 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Sinister Strike"] = {
+						["Lightning Bolt"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Throw"] = {
+						["Eviscerate"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 30,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 30,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Falling"] = {
@@ -9520,17 +1525,17 @@ RecountPerCharDB = {
 						},
 						["Lightning Shield"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 6,
-									["min"] = 1,
-									["count"] = 5,
-									["amount"] = 16,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 4,
 									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 6,
+									["min"] = 1,
+									["count"] = 5,
+									["amount"] = 16,
 								},
 							},
 							["count"] = 9,
@@ -9538,32 +1543,32 @@ RecountPerCharDB = {
 						},
 						["Wrath"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 50,
-									["amount"] = 0,
-								},
 								["25%Resist"] = {
 									["max"] = 7,
 									["min"] = 2,
 									["count"] = 9,
 									["amount"] = 36,
 								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 50,
+									["amount"] = 0,
+								},
 							},
 							["count"] = 59,
 							["amount"] = 36,
 						},
-						["Slowing Poison"] = {
+						["Throw"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 30,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 30,
 							["amount"] = 0,
 						},
 						["Frost Nova"] = {
@@ -9742,7 +1747,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Flamestrike"] = {
+						["Entangling Roots"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -9754,16 +1759,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Entangling Roots"] = {
+						["Lizard Bolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Damage Shield"] = {
@@ -9778,16 +1783,16 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
-						["Lizard Bolt"] = {
+						["Flamestrike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Lightning Cloud"] = {
@@ -9826,16 +1831,16 @@ RecountPerCharDB = {
 							["count"] = 6,
 							["amount"] = 0,
 						},
-						["Lightning Bolt"] = {
+						["Slowing Poison"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Melee"] = {
@@ -9862,16 +1867,16 @@ RecountPerCharDB = {
 							["count"] = 31,
 							["amount"] = 0,
 						},
-						["Eviscerate"] = {
+						["Sinister Strike"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 5,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 5,
 							["amount"] = 0,
 						},
 						["Arcane Missiles"] = {
@@ -9886,28 +1891,28 @@ RecountPerCharDB = {
 							["count"] = 8,
 							["amount"] = 0,
 						},
-						["Sinister Strike"] = {
+						["Lightning Bolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 5,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 5,
+							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Throw"] = {
+						["Eviscerate"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 30,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 30,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Falling"] = {
@@ -9946,16 +1951,16 @@ RecountPerCharDB = {
 							["count"] = 59,
 							["amount"] = 0,
 						},
-						["Slowing Poison"] = {
+						["Throw"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 30,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["count"] = 30,
 							["amount"] = 0,
 						},
 						["Frost Nova"] = {
@@ -10008,8 +2013,21 @@ RecountPerCharDB = {
 						},
 					},
 					["ActiveTime"] = 2087.030000000001,
-					["Damage"] = 67270,
+					["DOT_Time"] = 954,
 					["Dispelled"] = 4,
+					["WhoDispelled"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Slowing Poison (Purify)"] = {
+									["count"] = 2,
+								},
+								["Tetanus (Purify)"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
 					["InterruptData"] = {
 						["Bristleback Geomancer"] = {
 							["Details"] = {
@@ -10040,11 +2058,11 @@ RecountPerCharDB = {
 						},
 						["Bristleback Thornweaver"] = {
 							["Details"] = {
-								["Entangling Roots (Interrupt)"] = {
-									["count"] = 1,
-								},
 								["Wrath (Interrupt)"] = {
 									["count"] = 3,
+								},
+								["Entangling Roots (Interrupt)"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 4,
@@ -10056,19 +2074,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 1,
-						},
-					},
-					["WhoDispelled"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Tetanus (Purify)"] = {
-									["count"] = 2,
-								},
-								["Slowing Poison (Purify)"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 4,
 						},
 					},
 					["DamagedWho"] = {
@@ -10146,11 +2151,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 99,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 22,
-								},
 								["Melee"] = {
 									["count"] = 46,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 22,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 80,
@@ -10179,11 +2184,11 @@ RecountPerCharDB = {
 						},
 						["Csontmetxo"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 64,
-								},
 								["Melee"] = {
 									["count"] = 189,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 64,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 86,
@@ -10193,17 +2198,17 @@ RecountPerCharDB = {
 						},
 						["Hecklefang Hyena"] = {
 							["Details"] = {
-								["Thorns"] = {
-									["count"] = 24,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 54,
+								["Judgement of Righteousness"] = {
+									["count"] = 62,
 								},
 								["Melee"] = {
 									["count"] = 166,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 62,
+								["Seal of Righteousness"] = {
+									["count"] = 54,
+								},
+								["Thorns"] = {
+									["count"] = 24,
 								},
 							},
 							["amount"] = 306,
@@ -10216,14 +2221,14 @@ RecountPerCharDB = {
 								["Seal of Righteousness"] = {
 									["count"] = 224,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 319,
+								["Thorns"] = {
+									["count"] = 150,
 								},
 								["Melee"] = {
 									["count"] = 791,
 								},
-								["Thorns"] = {
-									["count"] = 150,
+								["Judgement of Righteousness"] = {
+									["count"] = 319,
 								},
 							},
 							["amount"] = 2163,
@@ -10270,11 +2275,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 99,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 110,
-								},
 								["Melee"] = {
 									["count"] = 335,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 110,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 120,
@@ -10287,11 +2292,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 590,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 341,
-								},
 								["Melee"] = {
 									["count"] = 1268,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 341,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 438,
@@ -10304,11 +2309,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 99,
 								},
-								["Melee"] = {
-									["count"] = 43,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 11,
+								},
+								["Melee"] = {
+									["count"] = 43,
 								},
 								["Thorns"] = {
 									["count"] = 12,
@@ -10445,11 +2450,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 99,
 								},
-								["Melee"] = {
-									["count"] = 144,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 44,
+								},
+								["Melee"] = {
+									["count"] = 144,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 79,
@@ -10580,20 +2585,116 @@ RecountPerCharDB = {
 						},
 						["Barak Kodobane"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 50,
+								},
 								["Seal of Command"] = {
 									["count"] = 24,
-								},
-								["Exorcism"] = {
-									["count"] = 140,
 								},
 								["Judgement of Command"] = {
 									["count"] = 68,
 								},
-								["Melee"] = {
-									["count"] = 50,
+								["Exorcism"] = {
+									["count"] = 140,
 								},
 							},
 							["amount"] = 282,
+						},
+						["Grimtotem Mercenary"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 941,
+								},
+								["Melee"] = {
+									["count"] = 1353,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 363,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 520,
+								},
+							},
+							["amount"] = 3177,
+						},
+						["Woolhead"] = {
+							["Details"] = {
+								["Seal of Command"] = {
+									["count"] = 63,
+								},
+								["Melee"] = {
+									["count"] = 360,
+								},
+								["Judgement of Command"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 454,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 81,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 44,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 80,
+								},
+							},
+							["amount"] = 205,
+						},
+						["Paria"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 161,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 117,
+								},
+							},
+							["amount"] = 278,
+						},
+						["Witchwing Roguefeather"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 762,
+								},
+								["Melee"] = {
+									["count"] = 1429,
+								},
+								["Thorns"] = {
+									["count"] = 150,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 413,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 510,
+								},
+							},
+							["amount"] = 3264,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 226,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 93,
+								},
+								["Thorns"] = {
+									["count"] = 24,
+								},
+								["Melee"] = {
+									["count"] = 315,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 151,
+								},
+							},
+							["amount"] = 809,
 						},
 						["Bristleback Water Seeker"] = {
 							["Details"] = {
@@ -10623,102 +2724,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 5832,
-						},
-						["Woolhead"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 63,
-								},
-								["Melee"] = {
-									["count"] = 360,
-								},
-								["Judgement of Command"] = {
-									["count"] = 31,
-								},
-							},
-							["amount"] = 454,
-						},
-						["Paria"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 161,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 117,
-								},
-							},
-							["amount"] = 278,
-						},
-						["Witchwing Roguefeather"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 762,
-								},
-								["Melee"] = {
-									["count"] = 1429,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 510,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 413,
-								},
-								["Thorns"] = {
-									["count"] = 150,
-								},
-							},
-							["amount"] = 3264,
-						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 226,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 93,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 151,
-								},
-								["Melee"] = {
-									["count"] = 315,
-								},
-								["Thorns"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 809,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 44,
-								},
-								["Melee"] = {
-									["count"] = 81,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 80,
-								},
-							},
-							["amount"] = 205,
-						},
-						["Grimtotem Mercenary"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 941,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 363,
-								},
-								["Melee"] = {
-									["count"] = 1353,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 520,
-								},
-							},
-							["amount"] = 3177,
 						},
 						["Greater Plainstrider"] = {
 							["Details"] = {
@@ -10782,7 +2787,19 @@ RecountPerCharDB = {
 							["amount"] = 3740,
 						},
 					},
-					["Interrupts"] = 12,
+					["ManaGainedFrom"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Restore Mana"] = {
+									["count"] = 151,
+								},
+								["Arcane Torrent"] = {
+									["count"] = 456,
+								},
+							},
+							["amount"] = 607,
+						},
+					},
 					["WhoHealed"] = {
 						["Mahkloompah"] = {
 							["Details"] = {
@@ -10809,7 +2826,6 @@ RecountPerCharDB = {
 					},
 					["Overhealing"] = 2134,
 					["Healing"] = 6833,
-					["DamageTaken"] = 16310,
 					["TimeSpent"] = {
 						["Grimtotem Sorcerer"] = {
 							["Details"] = {
@@ -10864,11 +2880,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 1.27,
-								},
 								["Melee"] = {
 									["count"] = 0.96,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.27,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -10897,11 +2913,11 @@ RecountPerCharDB = {
 						},
 						["Csontmetxo"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 2.92,
-								},
 								["Melee"] = {
 									["count"] = 14.3,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2.92,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -10911,17 +2927,17 @@ RecountPerCharDB = {
 						},
 						["Hecklefang Hyena"] = {
 							["Details"] = {
-								["Thorns"] = {
-									["count"] = 8.93,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 4.07,
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
 								},
 								["Melee"] = {
 									["count"] = 8.1,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Seal of Righteousness"] = {
+									["count"] = 4.07,
+								},
+								["Thorns"] = {
+									["count"] = 8.93,
 								},
 							},
 							["amount"] = 21.1,
@@ -10948,14 +2964,14 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 51.15,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Thorns"] = {
+									["count"] = 16.03,
 								},
 								["Seal of Righteousness"] = {
 									["count"] = 16.66,
 								},
-								["Thorns"] = {
-									["count"] = 16.03,
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 111.21,
@@ -10965,11 +2981,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 29.12,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 22.62,
-								},
 								["Melee"] = {
 									["count"] = 43.67,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 22.62,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -10982,11 +2998,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 5.120000000000001,
-								},
 								["Melee"] = {
 									["count"] = 13.67,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 5.120000000000001,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -11166,11 +3182,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
-								["Melee"] = {
-									["count"] = 1.35,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 2.14,
+								},
+								["Melee"] = {
+									["count"] = 1.35,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -11237,23 +3253,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 10.8,
 						},
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 2.14,
-								},
-								["Melee"] = {
-									["count"] = 3.11,
-								},
-								["Judgement of Command"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 8.75,
-						},
 						["Sunscale Scytheclaw"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
@@ -11279,6 +3278,23 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 24.36,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Judgement of Command"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 3.11,
+								},
+								["Exorcism"] = {
+									["count"] = 2.14,
+								},
+							},
+							["amount"] = 8.75,
 						},
 						["Kolkar Marauder"] = {
 							["Details"] = {
@@ -11309,25 +3325,124 @@ RecountPerCharDB = {
 							},
 							["amount"] = 76.94999999999999,
 						},
-						["Verog the Dervish"] = {
+						["Grundig Darkcloud"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 3.5,
+									["count"] = 3.69,
 								},
 								["Melee"] = {
-									["count"] = 3.01,
+									["count"] = 3.1,
 								},
-								["Seal of Command"] = {
-									["count"] = 0.16,
+								["Seal of Righteousness"] = {
+									["count"] = 0.64,
 								},
-								["Judgement of Command"] = {
+								["Judgement of Righteousness"] = {
 									["count"] = 0,
 								},
-								["Consecration (DoT)"] = {
-									["count"] = 5.069999999999999,
+							},
+							["amount"] = 7.43,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.54,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 7.25,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 11.74,
+							["amount"] = 9.790000000000001,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 10.39,
+								},
+								["Exorcism"] = {
+									["count"] = 1,
+								},
+								["Melee"] = {
+									["count"] = 19.99,
+								},
+								["Seal of Command"] = {
+									["count"] = 2.12,
+								},
+								["Judgement of Command"] = {
+									["count"] = 3.71,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 1.39,
+								},
+							},
+							["amount"] = 38.6,
+						},
+						["Witchwing Harpy"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 24.34,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 11.94,
+								},
+								["Thorns"] = {
+									["count"] = 24.15000000000001,
+								},
+								["Melee"] = {
+									["count"] = 18.82,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 79.24999999999999,
+						},
+						["Grimtotem Ruffian"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 21,
+								},
+								["Melee"] = {
+									["count"] = 41.8,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 18.79,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 81.58999999999998,
+						},
+						["Woolhead"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 21.73,
+								},
+								["Flash of Light"] = {
+									["count"] = 3.46,
+								},
+								["Seal of Command"] = {
+									["count"] = 0.69,
+								},
+								["Judgement of Command"] = {
+									["count"] = 3.12,
+								},
+								["Judgement of Light"] = {
+									["count"] = 1.1,
+								},
+							},
+							["amount"] = 30.1,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 14.08,
+								},
+							},
+							["amount"] = 14.08,
 						},
 						["Bristleback Thornweaver"] = {
 							["Details"] = {
@@ -11366,14 +3481,14 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 10.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 0.28,
+								["Seal of Righteousness"] = {
+									["count"] = 0.2,
 								},
 								["Melee"] = {
 									["count"] = 27.09,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 0.2,
+								["Judgement of Command"] = {
+									["count"] = 1.27,
 								},
 								["Consecration (DoT)"] = {
 									["count"] = 3.06,
@@ -11381,8 +3496,8 @@ RecountPerCharDB = {
 								["Seal of Command"] = {
 									["count"] = 1.13,
 								},
-								["Judgement of Command"] = {
-									["count"] = 1.27,
+								["Judgement of Light"] = {
+									["count"] = 0.28,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -11398,136 +3513,37 @@ RecountPerCharDB = {
 								["Seal of Righteousness"] = {
 									["count"] = 4.17,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Thorns"] = {
+									["count"] = 4.17,
 								},
 								["Melee"] = {
 									["count"] = 7.970000000000001,
 								},
-								["Thorns"] = {
-									["count"] = 4.17,
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 22.62,
 						},
-						["Grimtotem Ruffian"] = {
+						["Verog the Dervish"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
-									["count"] = 21,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 18.79,
+									["count"] = 3.5,
 								},
 								["Melee"] = {
-									["count"] = 41.8,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 81.58999999999998,
-						},
-						["Woolhead"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 21.73,
-								},
-								["Flash of Light"] = {
-									["count"] = 3.46,
+									["count"] = 3.01,
 								},
 								["Seal of Command"] = {
-									["count"] = 0.69,
+									["count"] = 0.16,
 								},
 								["Judgement of Command"] = {
-									["count"] = 3.12,
-								},
-								["Judgement of Light"] = {
-									["count"] = 1.1,
-								},
-							},
-							["amount"] = 30.1,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 14.08,
-								},
-							},
-							["amount"] = 14.08,
-						},
-						["Witchwing Harpy"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 24.34,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 11.94,
-								},
-								["Judgement of Righteousness"] = {
 									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 18.82,
-								},
-								["Thorns"] = {
-									["count"] = 24.15000000000001,
-								},
-							},
-							["amount"] = 79.24999999999999,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 10.39,
-								},
-								["Exorcism"] = {
-									["count"] = 1,
-								},
-								["Melee"] = {
-									["count"] = 19.99,
-								},
-								["Seal of Command"] = {
-									["count"] = 2.12,
-								},
-								["Judgement of Command"] = {
-									["count"] = 3.71,
 								},
 								["Consecration (DoT)"] = {
-									["count"] = 1.39,
+									["count"] = 5.069999999999999,
 								},
 							},
-							["amount"] = 38.6,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 7.25,
-								},
-								["Melee"] = {
-									["count"] = 2.54,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9.790000000000001,
-						},
-						["Grundig Darkcloud"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 3.69,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 0.64,
-								},
-								["Melee"] = {
-									["count"] = 3.1,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.43,
+							["amount"] = 11.74,
 						},
 						["Greater Plainstrider"] = {
 							["Details"] = {
@@ -11553,6 +3569,7 @@ RecountPerCharDB = {
 							["amount"] = 13.85,
 						},
 					},
+					["DamageTaken"] = 16310,
 					["Attacks"] = {
 						["Consecration (DoT)"] = {
 							["Details"] = {
@@ -11592,15 +3609,15 @@ RecountPerCharDB = {
 									["count"] = 7,
 									["amount"] = 359,
 								},
+								["Miss"] = {
+									["count"] = 21,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 95,
 									["min"] = 8,
 									["count"] = 399,
 									["amount"] = 18552,
-								},
-								["Miss"] = {
-									["count"] = 21,
-									["amount"] = 0,
 								},
 								["Hit (Blocked)"] = {
 									["max"] = 49,
@@ -11638,11 +3655,9 @@ RecountPerCharDB = {
 						},
 						["Hand of Reckoning"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 107,
-									["min"] = 75,
-									["count"] = 118,
-									["amount"] = 11416,
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
 								},
 								["Crit"] = {
 									["max"] = 157,
@@ -11650,55 +3665,57 @@ RecountPerCharDB = {
 									["count"] = 7,
 									["amount"] = 1008,
 								},
-								["Miss"] = {
-									["count"] = 2,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 107,
+									["min"] = 75,
+									["count"] = 118,
+									["amount"] = 11416,
 								},
 							},
 							["count"] = 127,
 							["amount"] = 12424,
 						},
-						["Judgement of Righteousness"] = {
+						["Thorns"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 6,
+									["min"] = 6,
+									["count"] = 60,
+									["amount"] = 360,
+								},
+							},
+							["count"] = 60,
+							["amount"] = 360,
+						},
+						["Judgement of Command"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 88,
-									["min"] = 60,
-									["count"] = 15,
-									["amount"] = 1138,
+									["max"] = 68,
+									["min"] = 46,
+									["count"] = 14,
+									["amount"] = 796,
 								},
 								["Hit"] = {
-									["max"] = 44,
-									["min"] = 30,
-									["count"] = 87,
-									["amount"] = 3403,
+									["max"] = 31,
+									["min"] = 14,
+									["count"] = 85,
+									["amount"] = 2425,
 								},
 							},
-							["count"] = 102,
-							["amount"] = 4541,
-						},
-						["Seal of Righteousness"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 16,
-									["min"] = 6,
-									["count"] = 339,
-									["amount"] = 3765,
-								},
-							},
-							["count"] = 339,
-							["amount"] = 3765,
+							["count"] = 99,
+							["amount"] = 3221,
 						},
 						["Seal of Command"] = {
 							["Details"] = {
+								["Miss"] = {
+									["count"] = 14,
+									["amount"] = 0,
+								},
 								["Hit"] = {
 									["max"] = 26,
 									["min"] = 7,
 									["count"] = 230,
 									["amount"] = 5080,
-								},
-								["Miss"] = {
-									["count"] = 14,
-									["amount"] = 0,
 								},
 								["Hit (Blocked)"] = {
 									["max"] = 18,
@@ -11724,51 +3741,39 @@ RecountPerCharDB = {
 							["count"] = 300,
 							["amount"] = 6767,
 						},
-						["Judgement of Command"] = {
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 6,
+									["count"] = 339,
+									["amount"] = 3765,
+								},
+							},
+							["count"] = 339,
+							["amount"] = 3765,
+						},
+						["Judgement of Righteousness"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 68,
-									["min"] = 46,
-									["count"] = 14,
-									["amount"] = 796,
+									["max"] = 88,
+									["min"] = 60,
+									["count"] = 15,
+									["amount"] = 1138,
 								},
 								["Hit"] = {
-									["max"] = 31,
-									["min"] = 14,
-									["count"] = 85,
-									["amount"] = 2425,
+									["max"] = 44,
+									["min"] = 30,
+									["count"] = 87,
+									["amount"] = 3403,
 								},
 							},
-							["count"] = 99,
-							["amount"] = 3221,
-						},
-						["Thorns"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 6,
-									["min"] = 6,
-									["count"] = 60,
-									["amount"] = 360,
-								},
-							},
-							["count"] = 60,
-							["amount"] = 360,
+							["count"] = 102,
+							["amount"] = 4541,
 						},
 					},
 					["HealingTaken"] = 8231,
-					["ManaGainedFrom"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Restore Mana"] = {
-									["count"] = 151,
-								},
-								["Arcane Torrent"] = {
-									["count"] = 456,
-								},
-							},
-							["amount"] = 607,
-						},
-					},
+					["Interrupts"] = 12,
 					["TimeDamage"] = 1928.83,
 					["TimeDamaging"] = {
 						["Grimtotem Sorcerer"] = {
@@ -11848,11 +3853,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 1.27,
-								},
 								["Melee"] = {
 									["count"] = 0.96,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 1.27,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -11881,11 +3886,11 @@ RecountPerCharDB = {
 						},
 						["Csontmetxo"] = {
 							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 2.92,
-								},
 								["Melee"] = {
 									["count"] = 14.3,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2.92,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -11895,17 +3900,17 @@ RecountPerCharDB = {
 						},
 						["Hecklefang Hyena"] = {
 							["Details"] = {
-								["Thorns"] = {
-									["count"] = 8.93,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 4.07,
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
 								},
 								["Melee"] = {
 									["count"] = 8.1,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Seal of Righteousness"] = {
+									["count"] = 4.07,
+								},
+								["Thorns"] = {
+									["count"] = 8.93,
 								},
 							},
 							["amount"] = 21.1,
@@ -11918,14 +3923,14 @@ RecountPerCharDB = {
 								["Seal of Righteousness"] = {
 									["count"] = 11.94,
 								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
+								["Thorns"] = {
+									["count"] = 24.15000000000001,
 								},
 								["Melee"] = {
 									["count"] = 18.82,
 								},
-								["Thorns"] = {
-									["count"] = 24.15000000000001,
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
 								},
 							},
 							["amount"] = 79.24999999999999,
@@ -11958,11 +3963,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.69,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 0.64,
-								},
 								["Melee"] = {
 									["count"] = 3.1,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0.64,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -11975,11 +3980,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 5.120000000000001,
-								},
 								["Melee"] = {
 									["count"] = 13.67,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 5.120000000000001,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -11992,11 +3997,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 21,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 18.79,
-								},
 								["Melee"] = {
 									["count"] = 41.8,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 18.79,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -12156,11 +4161,11 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 3.5,
 								},
-								["Melee"] = {
-									["count"] = 1.35,
-								},
 								["Seal of Righteousness"] = {
 									["count"] = 2.14,
+								},
+								["Melee"] = {
+									["count"] = 1.35,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -12173,14 +4178,14 @@ RecountPerCharDB = {
 								["Hand of Reckoning"] = {
 									["count"] = 10.5,
 								},
-								["Judgement of Light"] = {
-									["count"] = 0.28,
+								["Seal of Righteousness"] = {
+									["count"] = 0.2,
 								},
 								["Melee"] = {
 									["count"] = 27.09,
 								},
-								["Seal of Righteousness"] = {
-									["count"] = 0.2,
+								["Judgement of Command"] = {
+									["count"] = 1.27,
 								},
 								["Consecration (DoT)"] = {
 									["count"] = 3.06,
@@ -12188,8 +4193,8 @@ RecountPerCharDB = {
 								["Seal of Command"] = {
 									["count"] = 1.13,
 								},
-								["Judgement of Command"] = {
-									["count"] = 1.27,
+								["Judgement of Light"] = {
+									["count"] = 0.28,
 								},
 								["Judgement of Righteousness"] = {
 									["count"] = 0,
@@ -12294,20 +4299,116 @@ RecountPerCharDB = {
 						},
 						["Barak Kodobane"] = {
 							["Details"] = {
+								["Judgement of Command"] = {
+									["count"] = 3.5,
+								},
 								["Seal of Command"] = {
 									["count"] = 0,
-								},
-								["Exorcism"] = {
-									["count"] = 2.14,
 								},
 								["Melee"] = {
 									["count"] = 3.11,
 								},
-								["Judgement of Command"] = {
-									["count"] = 3.5,
+								["Exorcism"] = {
+									["count"] = 2.14,
 								},
 							},
 							["amount"] = 8.75,
+						},
+						["Grimtotem Mercenary"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 29.12,
+								},
+								["Melee"] = {
+									["count"] = 43.67,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 22.62,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 95.40999999999998,
+						},
+						["Woolhead"] = {
+							["Details"] = {
+								["Seal of Command"] = {
+									["count"] = 0.69,
+								},
+								["Melee"] = {
+									["count"] = 21.73,
+								},
+								["Judgement of Command"] = {
+									["count"] = 3.12,
+								},
+							},
+							["amount"] = 25.54,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.54,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 7.25,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.790000000000001,
+						},
+						["Paria"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 58.47999999999999,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 2.43,
+								},
+							},
+							["amount"] = 60.90999999999998,
+						},
+						["Witchwing Roguefeather"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 27.37,
+								},
+								["Melee"] = {
+									["count"] = 51.15,
+								},
+								["Thorns"] = {
+									["count"] = 16.03,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 16.66,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 111.21,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 6.310000000000001,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 4.17,
+								},
+								["Thorns"] = {
+									["count"] = 4.17,
+								},
+								["Melee"] = {
+									["count"] = 7.970000000000001,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 22.62,
 						},
 						["Bristleback Water Seeker"] = {
 							["Details"] = {
@@ -12341,102 +4442,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 151.34,
 						},
-						["Woolhead"] = {
-							["Details"] = {
-								["Seal of Command"] = {
-									["count"] = 0.69,
-								},
-								["Melee"] = {
-									["count"] = 21.73,
-								},
-								["Judgement of Command"] = {
-									["count"] = 3.12,
-								},
-							},
-							["amount"] = 25.54,
-						},
-						["Paria"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 58.47999999999999,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 2.43,
-								},
-							},
-							["amount"] = 60.90999999999998,
-						},
-						["Witchwing Roguefeather"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 27.37,
-								},
-								["Melee"] = {
-									["count"] = 51.15,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 16.66,
-								},
-								["Thorns"] = {
-									["count"] = 16.03,
-								},
-							},
-							["amount"] = 111.21,
-						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 6.310000000000001,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 4.17,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 7.970000000000001,
-								},
-								["Thorns"] = {
-									["count"] = 4.17,
-								},
-							},
-							["amount"] = 22.62,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Seal of Righteousness"] = {
-									["count"] = 7.25,
-								},
-								["Melee"] = {
-									["count"] = 2.54,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9.790000000000001,
-						},
-						["Grimtotem Mercenary"] = {
-							["Details"] = {
-								["Hand of Reckoning"] = {
-									["count"] = 29.12,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 22.62,
-								},
-								["Melee"] = {
-									["count"] = 43.67,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 95.40999999999998,
-						},
 						["Greater Plainstrider"] = {
 							["Details"] = {
 								["Hand of Reckoning"] = {
@@ -12462,14 +4467,14 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 607,
-					["DOT_Time"] = 954,
+					["Damage"] = 67270,
 					["DispelledWho"] = {
 						["Mahkloompah"] = {
 							["Details"] = {
-								["Tetanus (Purify)"] = {
+								["Slowing Poison (Purify)"] = {
 									["count"] = 2,
 								},
-								["Slowing Poison (Purify)"] = {
+								["Tetanus (Purify)"] = {
 									["count"] = 2,
 								},
 							},
@@ -12477,236 +4482,8231 @@ RecountPerCharDB = {
 						},
 					},
 				},
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 17,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 9,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Mahkloompah"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 17,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 497,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 1.57,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 150,
+						["Holy"] = 347,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 1.57,
+								},
+							},
+							["amount"] = 1.57,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 5,
+									["count"] = 1,
+									["amount"] = 5,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 5,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 10.87,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 37,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 5,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Exorcism"] = {
+									["count"] = 2.13,
+								},
+							},
+							["amount"] = 5.63,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 1.57,
+								},
+							},
+							["amount"] = 1.57,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Seal of Command"] = {
+									["count"] = 0.05,
+								},
+								["Melee"] = {
+									["count"] = 3.62,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.67,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 14,
+									["min"] = 9,
+									["count"] = 3,
+									["amount"] = 37,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 37,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 37,
+						},
+					},
+					["Healing"] = 37,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 106,
+									["min"] = 106,
+									["count"] = 1,
+									["amount"] = 106,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 106,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 142,
+									["min"] = 142,
+									["count"] = 1,
+									["amount"] = 142,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 142,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 96,
+									["min"] = 96,
+									["count"] = 1,
+									["amount"] = 96,
+								},
+								["Hit"] = {
+									["max"] = 54,
+									["min"] = 54,
+									["count"] = 1,
+									["amount"] = 54,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 150,
+						},
+						["Seal of Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 46,
+									["min"] = 46,
+									["count"] = 1,
+									["amount"] = 46,
+								},
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 25,
+									["count"] = 1,
+									["amount"] = 25,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 71,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 28,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+					},
+					["HealingTaken"] = 37,
+					["DamagedWho"] = {
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 106,
+								},
+								["Exorcism"] = {
+									["count"] = 142,
+								},
+							},
+							["amount"] = 248,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Seal of Command"] = {
+									["count"] = 71,
+								},
+								["Melee"] = {
+									["count"] = 150,
+								},
+								["Judgement of Command"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 249,
+						},
+					},
+					["TimeDamage"] = 9.300000000000001,
+					["TimeDamaging"] = {
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Exorcism"] = {
+									["count"] = 2.13,
+								},
+							},
+							["amount"] = 5.63,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Seal of Command"] = {
+									["count"] = 0.05,
+								},
+								["Melee"] = {
+									["count"] = 3.62,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.67,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Mahkloompah"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Bristleback Geomancer"] = {
+									["count"] = 0,
+								},
+								["Kolkar Packhound"] = {
+									["count"] = 0,
+								},
+								["Kolkar Marauder"] = {
+									["count"] = 0,
+								},
+								["Kolkar Pack Runner"] = {
+									["count"] = 0,
+								},
+								["Bristleback Water Seeker"] = {
+									["count"] = 0,
+								},
+								["Bristleback Hunter"] = {
+									["count"] = 0,
+								},
+								["Kolkar Bloodcharger"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 33,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 9,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Woolhead"] = {
+									["count"] = 0,
+								},
+								["Jegjegos"] = {
+									["count"] = 0,
+								},
+								["Mahkloompah"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 33,
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Frost"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 379,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.35,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flamestrike (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flamestrike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Entangling Roots"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 149,
+						["Holy"] = 230,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Flamestrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Thorns"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.35,
+								},
+							},
+							["amount"] = 0.35,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 19,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 19,
+						},
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 11.15,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flamestrike (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flamestrike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Entangling Roots"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 19,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+						["Shadow"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.35,
+								},
+							},
+							["amount"] = 0.35,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Command"] = {
+									["count"] = 0.21,
+								},
+								["Judgement of Command"] = {
+									["count"] = 1.55,
+								},
+								["Melee"] = {
+									["count"] = 5.54,
+								},
+							},
+							["amount"] = 10.8,
+						},
+					},
+					["Heals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 26,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 26,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 107,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 107,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 107,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+						["Seal of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 47,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 48,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 95,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 54,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 149,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 149,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 26,
+					["DamagedWho"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 107,
+								},
+								["Seal of Command"] = {
+									["count"] = 95,
+								},
+								["Judgement of Command"] = {
+									["count"] = 28,
+								},
+								["Melee"] = {
+									["count"] = 149,
+								},
+							},
+							["amount"] = 379,
+						},
+					},
+					["TimeDamage"] = 10.8,
+					["TimeDamaging"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Command"] = {
+									["count"] = 0.21,
+								},
+								["Judgement of Command"] = {
+									["count"] = 1.55,
+								},
+								["Melee"] = {
+									["count"] = 5.54,
+								},
+							},
+							["amount"] = 10.8,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Bristleback Geomancer"] = {
+									["count"] = 0,
+								},
+								["Bristleback Thornweaver"] = {
+									["count"] = 0,
+								},
+								["Kolkar Bloodcharger"] = {
+									["count"] = 0,
+								},
+								["Verog the Dervish"] = {
+									["count"] = 0,
+								},
+								["Kolkar Marauder"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 8,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 9,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Woolhead"] = {
+									["count"] = 0,
+								},
+								["Jegjegos"] = {
+									["count"] = 0,
+								},
+								["Mahkloompah"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 8,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 270,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.22,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 112,
+						["Holy"] = 158,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Thorns"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Verog the Dervish"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0.22,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.22,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 37,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 37,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 5.88,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 8,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 37,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+					},
+					["InterruptData"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fireball (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0.22,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.22,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wandering Barrens Giraffe"] = {
+							["Details"] = {
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Verog the Dervish"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 2.16,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.66,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 8,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 8,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 8,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 8,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["Healing"] = 8,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 107,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 107,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 107,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 112,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 112,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 112,
+						},
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 21,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 21,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 21,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 30,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 30,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 8,
+					["DamagedWho"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wandering Barrens Giraffe"] = {
+							["Details"] = {
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Verog the Dervish"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 107,
+								},
+								["Seal of Command"] = {
+									["count"] = 21,
+								},
+								["Melee"] = {
+									["count"] = 112,
+								},
+								["Judgement of Command"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 270,
+						},
+					},
+					["TimeDamage"] = 5.66,
+					["TimeDamaging"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Wandering Barrens Giraffe"] = {
+							["Details"] = {
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Verog the Dervish"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 2.16,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5.66,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Bristleback Geomancer"] = {
+									["count"] = 0,
+								},
+								["Kolkar Packhound"] = {
+									["count"] = 0,
+								},
+								["Kolkar Marauder"] = {
+									["count"] = 0,
+								},
+								["Kolkar Pack Runner"] = {
+									["count"] = 0,
+								},
+								["Bristleback Water Seeker"] = {
+									["count"] = 0,
+								},
+								["Bristleback Hunter"] = {
+									["count"] = 0,
+								},
+								["Kolkar Bloodcharger"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 33,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 9,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Woolhead"] = {
+									["count"] = 0,
+								},
+								["Jegjegos"] = {
+									["count"] = 0,
+								},
+								["Mahkloompah"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 33,
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Frost"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 379,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.35,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flamestrike (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flamestrike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Entangling Roots"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 149,
+						["Holy"] = 230,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Flamestrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Thorns"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.35,
+								},
+							},
+							["amount"] = 0.35,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 19,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 19,
+						},
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 11.15,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flamestrike (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flamestrike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Entangling Roots"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 19,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+						["Shadow"] = 0,
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0.35,
+								},
+							},
+							["amount"] = 0.35,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Command"] = {
+									["count"] = 0.21,
+								},
+								["Judgement of Command"] = {
+									["count"] = 1.55,
+								},
+								["Melee"] = {
+									["count"] = 5.54,
+								},
+							},
+							["amount"] = 10.8,
+						},
+					},
+					["Heals"] = {
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Holy Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 26,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 26,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+								["Holy Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 26,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 107,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 107,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 107,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+						["Seal of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 47,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 48,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 95,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 54,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 149,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 149,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 26,
+					["DamagedWho"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 107,
+								},
+								["Seal of Command"] = {
+									["count"] = 95,
+								},
+								["Judgement of Command"] = {
+									["count"] = 28,
+								},
+								["Melee"] = {
+									["count"] = 149,
+								},
+							},
+							["amount"] = 379,
+						},
+					},
+					["TimeDamage"] = 10.8,
+					["TimeDamaging"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Command"] = {
+									["count"] = 0.21,
+								},
+								["Judgement of Command"] = {
+									["count"] = 1.55,
+								},
+								["Melee"] = {
+									["count"] = 5.54,
+								},
+							},
+							["amount"] = 10.8,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Kolkar Packhound"] = {
+									["count"] = 0,
+								},
+								["Kolkar Bloodcharger"] = {
+									["count"] = 0,
+								},
+								["Bristleback Water Seeker"] = {
+									["count"] = 0,
+								},
+								["Bristleback Hunter"] = {
+									["count"] = 0,
+								},
+								["Kolkar Pack Runner"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 38,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 6,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Woolhead"] = {
+									["count"] = 0,
+								},
+								["Mahkloompah"] = {
+									["count"] = 6,
+								},
+								["Jegjegos"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+						["Shadow"] = 0,
+						["Melee"] = 38,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 282,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0.17,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 50,
+						["Holy"] = 232,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Wrath"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Thorns"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["TimeHealing"] = {
+						["Woolhead"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0.17,
+								},
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.17,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 8.92,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 30,
+								},
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Arcane Torrent"] = {
+							["Details"] = {
+								["Mahkloompah"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+						["Shadow"] = 0,
+					},
+					["InterruptData"] = {
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Entangling Roots (Interrupt)"] = {
+									["count"] = 0,
+								},
+								["Wrath (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0.17,
+								},
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.17,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Woolhead"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Judgement of Command"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 3.11,
+								},
+								["Exorcism"] = {
+									["count"] = 2.14,
+								},
+							},
+							["amount"] = 8.75,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 30,
+						},
+						["Flash of Light"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Woolhead"] = {
+							["Details"] = {
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 30,
+								},
+								["Flash of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["Healing"] = 30,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Arcane Torrent"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 140,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 140,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 140,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 68,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 68,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 68,
+						},
+						["Seal of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 24,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 24,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 50,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 50,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 50,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 30,
+					["DamagedWho"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 50,
+								},
+								["Seal of Command"] = {
+									["count"] = 24,
+								},
+								["Judgement of Command"] = {
+									["count"] = 68,
+								},
+								["Exorcism"] = {
+									["count"] = 140,
+								},
+							},
+							["amount"] = 282,
+						},
+					},
+					["TimeDamage"] = 8.75,
+					["TimeDamaging"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Judgement of Command"] = {
+									["count"] = 3.5,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 3.11,
+								},
+								["Exorcism"] = {
+									["count"] = 2.14,
+								},
+							},
+							["amount"] = 8.75,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Kolkar Packhound"] = {
+									["count"] = 0,
+								},
+								["Kolkar Marauder"] = {
+									["count"] = 0,
+								},
+								["Kolkar Bloodcharger"] = {
+									["count"] = 0,
+								},
+								["Bristleback Water Seeker"] = {
+									["count"] = 0,
+								},
+								["Bristleback Hunter"] = {
+									["count"] = 0,
+								},
+								["Kolkar Pack Runner"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 19,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Block"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Resist"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 9,
+					["HOTs"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Woolhead"] = {
+									["count"] = 0,
+								},
+								["Jegjegos"] = {
+									["count"] = 3,
+								},
+								["Mahkloompah"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["ManaGain"] = 52,
+					["ElementTaken"] = {
+						["Frost"] = 0,
+						["Melee"] = 19,
+						["Shadow"] = 0,
+						["Fire"] = 0,
+						["Physical"] = 0,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 252,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 3.1,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Tetanus"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 57,
+						["Holy"] = 195,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Scytheclaw"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Wrath"] = {
+									["count"] = 0,
+								},
+								["Thorns"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormsnout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+						["Holy"] = 0,
+					},
+					["TimeHealing"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 3.1,
+								},
+							},
+							["amount"] = 3.1,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 22,
+						},
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 7.560000000000001,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Fireball"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Tetanus"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Wrath"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Thorns"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Arcane Torrent"] = {
+							["Details"] = {
+								["Mahkloompah"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 1,
+					["Overhealing"] = 22,
+					["ElementTakenResist"] = {
+						["Nature"] = 0,
+						["Shadow"] = 0,
+					},
+					["InterruptData"] = {
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Lightning Cloud (Interrupt)"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Stormsnout"] = {
+							["Details"] = {
+								["Lizard Bolt (Interrupt)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Tetanus (Purify)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Scytheclaw"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Judgement of Command"] = {
+									["count"] = 3.5,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0.67,
+								},
+								["Seal of Command"] = {
+									["count"] = 0.29,
+								},
+							},
+							["amount"] = 4.46,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 3.1,
+								},
+							},
+							["amount"] = 3.1,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormsnout"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+						["Judgement of Light"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 19,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 19,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Judgement of Light"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Healing"] = 19,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Arcane Torrent"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+					["Attacks"] = {
+						["Consecration (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Exorcism"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 139,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 139,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 139,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 57,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 57,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 57,
+						},
+						["Hand of Reckoning"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Seal of Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 25,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 25,
+						},
+						["Judgement of Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 31,
+						},
+						["Judgement of Righteousness"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 19,
+					["DamagedWho"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Scytheclaw"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Judgement of Command"] = {
+									["count"] = 31,
+								},
+								["Exorcism"] = {
+									["count"] = 139,
+								},
+								["Melee"] = {
+									["count"] = 57,
+								},
+								["Seal of Command"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 252,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormsnout"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 4.46,
+					["TimeDamaging"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Scytheclaw"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Hand of Reckoning"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Judgement of Command"] = {
+									["count"] = 3.5,
+								},
+								["Exorcism"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0.67,
+								},
+								["Seal of Command"] = {
+									["count"] = 0.29,
+								},
+							},
+							["amount"] = 4.46,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Consecration (DoT)"] = {
+									["count"] = 0,
+								},
+								["Seal of Command"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stormsnout"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["DispelledWho"] = {
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Tetanus (Purify)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
 			},
-			["NextEventNum"] = 28,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				95.10309278350516, -- [7]
-				95.10309278350516, -- [8]
-				95.10309278350516, -- [9]
-				95.10309278350516, -- [10]
-				97.0360824742268, -- [11]
-				97.0360824742268, -- [12]
-				98.96907216494846, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				98.58247422680412, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				100, -- [21]
-				97.16494845360825, -- [22]
-				99.0979381443299, -- [23]
-				99.0979381443299, -- [24]
-				99.0979381443299, -- [25]
-				99.0979381443299, -- [26]
-				99.0979381443299, -- [27]
-				96.83195592286502, -- [28]
-				96.83195592286502, -- [29]
-				98.7603305785124, -- [30]
-				98.7603305785124, -- [31]
-				100, -- [32]
-				100, -- [33]
-				98.89807162534436, -- [34]
-				98.89807162534436, -- [35]
-				100, -- [36]
-				100, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				100, -- [41]
-				100, -- [42]
-				100, -- [43]
-				100, -- [44]
-				100, -- [45]
-				100, -- [46]
-				100, -- [47]
-				100, -- [48]
-				100, -- [49]
-				100, -- [50]
-			},
-			["LastEvents"] = {
-				"Kolkar Stormer Melee Mahkloompah Hit -9 (Physical)", -- [1]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (6 overheal)", -- [2]
-				"Mahkloompah Exorcism Kolkar Stormer Hit -139 (Holy)", -- [3]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (15 overheal)", -- [4]
-				"Mahkloompah Judgement of Command Barak Kodobane Crit -68 (Holy)", -- [5]
-				"Barak Kodobane Melee Mahkloompah Hit -38 (Physical)", -- [6]
-				"Mahkloompah Melee Barak Kodobane Parry", -- [7]
-				"Mahkloompah Exorcism Barak Kodobane Hit -140 (Holy)", -- [8]
-				"Barak Kodobane Melee Mahkloompah Parry", -- [9]
-				"Mahkloompah Melee Barak Kodobane Hit -50 (Physical)", -- [10]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15", -- [11]
-				"Mahkloompah Seal of Command Barak Kodobane Hit -24 (Holy)", -- [12]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15", -- [13]
-				"Mahkloompah Hand of Reckoning Zhevra Runner Hit -107 (Holy)", -- [14]
-				"Mahkloompah Judgement of Command Zhevra Runner Hit -28 (Holy)", -- [15]
-				"Zhevra Runner Melee Mahkloompah Hit -11 (Physical)", -- [16]
-				"Mahkloompah Melee Zhevra Runner Hit -44 (Physical)", -- [17]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (4 overheal)", -- [18]
-				"Mahkloompah Seal of Command Zhevra Runner Hit -21 (Holy)", -- [19]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (15 overheal)", -- [20]
-				"Zhevra Runner Melee Mahkloompah Crit -22 (Physical)", -- [21]
-				"Mahkloompah Melee Zhevra Runner Hit -54 (Physical)", -- [22]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15", -- [23]
-				"Mahkloompah Seal of Command Zhevra Runner Hit -26 (Holy)", -- [24]
-				"Zhevra Runner Melee Mahkloompah Dodge", -- [25]
-				"Mahkloompah Melee Zhevra Runner Hit -51 (Physical)", -- [26]
-				"Mahkloompah Seal of Command Zhevra Runner Crit -48 (Holy)", -- [27]
-				"Mahkloompah Judgement of Command Kolkar Packhound Hit -28 (Holy)", -- [28]
-				"Mahkloompah Melee Kolkar Packhound Hit -54 (Physical)", -- [29]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +14", -- [30]
-				"Mahkloompah Seal of Command Kolkar Packhound Hit -25 (Holy)", -- [31]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +14 (5 overheal)", -- [32]
-				"Kolkar Packhound Melee Mahkloompah Hit -8 (Physical)", -- [33]
-				"Mahkloompah Melee Kolkar Packhound Crit -96 (Physical)", -- [34]
-				"Mahkloompah Seal of Command Kolkar Packhound Crit -46 (Holy)", -- [35]
-				"Mahkloompah Hand of Reckoning Kolkar Wrangler Hit -107 (Holy)", -- [36]
-				"Mahkloompah Melee Kolkar Wrangler Crit -112 (Physical)", -- [37]
-				"Kolkar Wrangler Melee Mahkloompah Hit -8 (Physical)", -- [38]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (7 overheal)", -- [39]
-				"Mahkloompah Seal of Command Kolkar Wrangler Hit -21 (Holy)", -- [40]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (15 overheal)", -- [41]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (15 overheal)", -- [42]
-				"Mahkloompah Judgement of Command Kolkar Wrangler Hit -30 (Holy)", -- [43]
-				"Mahkloompah Judgement of Command Kolkar Stormer Hit -31 (Holy)", -- [44]
-				"Mahkloompah Melee Kolkar Stormer Hit -57 (Physical)", -- [45]
-				"Mahkloompah Seal of Command Kolkar Stormer Hit -25 (Holy)", -- [46]
-				"Mahkloompah interrupts Kolkar Stormer Lightning Cloud (Interrupt)", -- [47]
-				"Kolkar Stormer Melee Mahkloompah Hit -10 (Physical)", -- [48]
-				"Mahkloompah Judgement of Light Mahkloompah Tick +15 (5 overheal)", -- [49]
-				"Mahkloompah Judgement of Light Jegjegos Tick +11 (11 overheal)", -- [50]
-			},
-			["Name"] = "Mahkloompah",
-			["TimeLast"] = {
-				["TimeHeal"] = 1727560988,
-				["Dispelled"] = 1727560051,
-				["Dispels"] = 1727560051,
-				["Interrupts"] = 1727560807,
-				["OVERALL"] = 1727560991,
-				["DamageTaken"] = 1727560987,
-				["Overhealing"] = 1727560985,
-				["ActiveTime"] = 1727560991,
-				["HealingTaken"] = 1727560988,
-				["HOT_Time"] = 1727560988,
-				["TimeDamage"] = 1727560991,
-				["Healing"] = 1727560988,
-				["ManaGain"] = 1727560807,
-				["DOT_Time"] = 1727560117,
-				["Damage"] = 1727560991,
-			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				false, -- [3]
-				true, -- [4]
-				false, -- [5]
-				true, -- [6]
-				false, -- [7]
-				false, -- [8]
-				true, -- [9]
-				false, -- [10]
-				true, -- [11]
-				false, -- [12]
-				true, -- [13]
-				false, -- [14]
-				false, -- [15]
-				true, -- [16]
-				false, -- [17]
-				true, -- [18]
-				false, -- [19]
-				true, -- [20]
-				true, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				true, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				true, -- [33]
-				false, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				true, -- [38]
-				true, -- [39]
-				false, -- [40]
-				true, -- [41]
-				true, -- [42]
-				false, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				true, -- [48]
-				true, -- [49]
-				false, -- [50]
-			},
-			["LastDamageTaken"] = 22,
-			["LastEventTimes"] = {
-				42383.784, -- [1]
-				42384.484, -- [2]
-				42384.485, -- [3]
-				42480.591, -- [4]
-				42480.592, -- [5]
-				42481.149, -- [6]
-				42481.199, -- [7]
-				42483.341, -- [8]
-				42485.541, -- [9]
-				42485.841, -- [10]
-				42486.008, -- [11]
-				42486.008, -- [12]
-				42486.008, -- [13]
-				42558.049, -- [14]
-				42559.599, -- [15]
-				42560.207, -- [16]
-				42560.249, -- [17]
-				42560.424, -- [18]
-				42560.424, -- [19]
-				42560.425, -- [20]
-				42562.232, -- [21]
-				42562.865, -- [22]
-				42563.04, -- [23]
-				42563.041, -- [24]
-				42564.257, -- [25]
-				42565.49, -- [26]
-				42565.699, -- [27]
-				41759.541, -- [28]
-				41760.623, -- [29]
-				41760.716, -- [30]
-				41760.716, -- [31]
-				41760.717, -- [32]
-				41761.39, -- [33]
-				41763.256, -- [34]
-				41763.307, -- [35]
-				42219.769, -- [36]
-				42221.927, -- [37]
-				42222.018, -- [38]
-				42222.152, -- [39]
-				42222.152, -- [40]
-				42222.153, -- [41]
-				42222.153, -- [42]
-				42222.154, -- [43]
-				42380.425, -- [44]
-				42381.1, -- [45]
-				42381.392, -- [46]
-				42381.626, -- [47]
-				42381.634, -- [48]
-				42381.709, -- [49]
-				42382.434, -- [50]
-			},
-			["LastAbility"] = 42565.699,
+			["UnitLockout"] = 1727551263,
+			["LastActive"] = 1727560991,
 		},
 		["Stoneskin Totem II <Jegjegos>"] = {
 			["DeathLogs"] = {
@@ -12723,12 +12723,12 @@ RecountPerCharDB = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 						"Stoneskin Totem II <Jegjegos> dies.", -- [2]
 					},
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 						0, -- [2]
 					},
 					["DeathAt"] = 1727560841,
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 						0, -- [2]
 					},
@@ -12751,11 +12751,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727560836,
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12775,11 +12775,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727559150,
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12799,11 +12799,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727558735,
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12823,11 +12823,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727557788,
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12847,11 +12847,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727555095,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12871,11 +12871,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727554704,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12895,11 +12895,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727553227,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12919,11 +12919,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727552989,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12943,11 +12943,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727552949,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12967,11 +12967,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Stoneskin Totem II <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727551903,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -12983,8 +12983,8 @@ RecountPerCharDB = {
 				}, -- [11]
 			},
 			["TimeLast"] = {
-				["DeathCount"] = 1727560839,
 				["OVERALL"] = 1727560839,
+				["DeathCount"] = 1727560839,
 			},
 			["LastEventType"] = {
 				"MISC", -- [1]
@@ -13006,320 +13006,23 @@ RecountPerCharDB = {
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
 			["GUID"] = "0xF13000171F183DD0",
-			["UnitLockout"] = 1727560839,
+			["LastEventTimes"] = {
+				33475.447, -- [1]
+				34521.379, -- [2]
+				34561.128, -- [3]
+				34799.451, -- [4]
+				36276.445, -- [5]
+				36667.706, -- [6]
+				39361.13, -- [7]
+				40308.438, -- [8]
+				40722.975, -- [9]
+				42409.359, -- [10]
+				42413.617, -- [11]
+			},
 			["Owner"] = "Jegjegos",
-			["Fights"] = {
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 2,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["DeathCount"] = 11,
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					11, -- [1]
 				},
 			},
 			["NextEventNum"] = 12,
@@ -13362,6 +13065,7 @@ RecountPerCharDB = {
 				true, -- [10]
 				true, -- [11]
 			},
+			["Name"] = "Stoneskin Totem II",
 			["LastEventHealth"] = {
 				"???", -- [1]
 				"???", -- [2]
@@ -13375,34 +13079,6 @@ RecountPerCharDB = {
 				"???", -- [10]
 				"???", -- [11]
 			},
-			["Name"] = "Stoneskin Totem II",
-			["TimeWindows"] = {
-				["DeathCount"] = {
-					11, -- [1]
-				},
-			},
-			["LastEventTimes"] = {
-				33475.447, -- [1]
-				34521.379, -- [2]
-				34561.128, -- [3]
-				34799.451, -- [4]
-				36276.445, -- [5]
-				36667.706, -- [6]
-				39361.13, -- [7]
-				40308.438, -- [8]
-				40722.975, -- [9]
-				42409.359, -- [10]
-				42413.617, -- [11]
-			},
-			["LastAbility"] = 39093.02,
-		},
-		["Searing Totem"] = {
-			["GUID"] = "0xF1300009DB17A845",
-			["LastAbility"] = 39093.02,
-			["FightsSaved"] = 5,
-			["Name"] = "Searing Totem",
-			["UnitLockout"] = 1727554361,
-			["Owner"] = false,
 			["Fights"] = {
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -13417,43 +13093,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -13461,48 +13134,154 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 2,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -13520,43 +13299,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -13564,54 +13340,278 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DeathCount"] = 11,
+				},
+			},
+			["UnitLockout"] = 1727560839,
+			["LastAbility"] = 217.891,
+		},
+		["Searing Totem"] = {
+			["GUID"] = "0xF1300009DB17A845",
+			["LastFightIn"] = 57,
+			["FightsSaved"] = 5,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["LastFightIn"] = 57,
+			["Name"] = "Searing Totem",
+			["Owner"] = false,
+			["UnitLockout"] = 1727554361,
+			["LastAbility"] = 217.891,
 		},
 		["Woolhead"] = {
 			["GUID"] = "0x0700000000B02309",
@@ -13724,20 +13724,20 @@ RecountPerCharDB = {
 				["HealingTaken"] = {
 					103, -- [1]
 				},
-				["DamageTaken"] = {
-					1012, -- [1]
+				["TimeDamage"] = {
+					659.2199999999998, -- [1]
 				},
 				["ActiveTime"] = {
 					659.2199999999998, -- [1]
 				},
-				["TimeDamage"] = {
-					659.2199999999998, -- [1]
+				["DOT_Time"] = {
+					132, -- [1]
 				},
 				["ManaGain"] = {
 					179, -- [1]
 				},
-				["DOT_Time"] = {
-					132, -- [1]
+				["DamageTaken"] = {
+					1012, -- [1]
 				},
 				["Damage"] = {
 					18911, -- [1]
@@ -13745,7 +13745,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "MAGE",
 			["unit"] = "Woolhead",
-			["lazysync"] = true,
+			["LastAbility"] = 217.891,
 			["level"] = 19,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 201,
@@ -13757,189 +13757,239 @@ RecountPerCharDB = {
 				[38] = 4.07673860911271,
 				[40] = 3.357314148681055,
 				[30] = 4.556354916067146,
-				[32] = 4.796163069544365,
+				[12] = 4.316546762589928,
 				[18] = 1.918465227817746,
 				[36] = 4.556354916067146,
 				[13] = 5.035971223021583,
 				[41] = 3.836930455635492,
 				[43] = 3.357314148681055,
-				[12] = 4.316546762589928,
+				[32] = 4.796163069544365,
 			},
-			["type"] = "Grouped",
+			["lazysync"] = true,
 			["FightsSaved"] = 5,
-			["LastActive"] = 1727560172,
-			["UnitLockout"] = 1727552498,
+			["LastEventTimes"] = {
+				41622.741, -- [1]
+				41622.741, -- [2]
+				41622.742, -- [3]
+				41622.742, -- [4]
+				41622.85, -- [5]
+				41622.85, -- [6]
+				41622.851, -- [7]
+				41622.851, -- [8]
+				41624.708, -- [9]
+				41626.725, -- [10]
+				41628.717, -- [11]
+				41681.316, -- [12]
+				41683.816, -- [13]
+				41743.1, -- [14]
+				41746.473, -- [15]
+				41407.643, -- [16]
+				41423.802, -- [17]
+				41427.793, -- [18]
+				41427.794, -- [19]
+				41432.685, -- [20]
+				41434.71, -- [21]
+				41436.702, -- [22]
+				41437.776, -- [23]
+				41438.71, -- [24]
+				41440.735, -- [25]
+				41441.543, -- [26]
+				41515.151, -- [27]
+				41517.217, -- [28]
+				41517.452, -- [29]
+				41518.776, -- [30]
+				41519.476, -- [31]
+				41521.342, -- [32]
+				41521.484, -- [33]
+				41522.059, -- [34]
+				41523.467, -- [35]
+				41523.784, -- [36]
+				41524.559, -- [37]
+				41524.584, -- [38]
+				41526.559, -- [39]
+				41527.075, -- [40]
+				41529.609, -- [41]
+				41531.334, -- [42]
+				41532.093, -- [43]
+				41533.359, -- [44]
+				41534.393, -- [45]
+				41620.691, -- [46]
+				41620.692, -- [47]
+				41620.692, -- [48]
+				41620.692, -- [49]
+				41620.693, -- [50]
+			},
+			["LastDamageTaken"] = 21,
 			["Owner"] = false,
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+				true, -- [32]
+				false, -- [33]
+				true, -- [34]
+				false, -- [35]
+				true, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["NextEventNum"] = 16,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				95.68345323741008, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				92.08633093525179, -- [23]
+				92.08633093525179, -- [24]
+				92.08633093525179, -- [25]
+				84.1726618705036, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				95.44364508393285, -- [31]
+				95.44364508393285, -- [32]
+				90.64748201438849, -- [33]
+				90.64748201438849, -- [34]
+				87.05035971223022, -- [35]
+				87.05035971223022, -- [36]
+				82.49400479616307, -- [37]
+				82.49400479616307, -- [38]
+				78.41726618705036, -- [39]
+				78.41726618705036, -- [40]
+				75.0599520383693, -- [41]
+				71.22302158273381, -- [42]
+				71.22302158273381, -- [43]
+				67.86570743405275, -- [44]
+				67.86570743405275, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Woolhead Flamestrike (DoT) Kolkar Pack Runner Tick -13 (Fire)", -- [1]
+				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [2]
+				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [3]
+				"Woolhead Flamestrike (DoT) Kolkar Packhound Tick -13 (Fire)", -- [4]
+				"Woolhead Frost Nova Kolkar Packhound Hit -22 (Frost)", -- [5]
+				"Woolhead Frost Nova Kolkar Pack Runner Hit -22 (Frost)", -- [6]
+				"Woolhead Frost Nova Kolkar Marauder Hit -23 (Frost)", -- [7]
+				"Woolhead Frost Nova Kolkar Marauder Hit -25 (Frost)", -- [8]
+				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [9]
+				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [10]
+				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [11]
+				"Hecklefang Hyena Melee Woolhead Hit -18 (Physical)", -- [12]
+				"Hecklefang Hyena Melee Woolhead Hit -21 (Physical)", -- [13]
+				"Woolhead Flamestrike Kolkar Marauder Hit -63 (Fire)", -- [14]
+				"Woolhead Fire Blast Kolkar Marauder Hit -70 (Fire)", -- [15]
+				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [16]
+				"Woolhead Fire Blast Kolkar Stormer Hit -74 (Fire)", -- [17]
+				"Mahkloompah Judgement of Light Woolhead Tick +8 (8 overheal)", -- [18]
+				"Woolhead Fireball Kolkar Stormer Hit -123 (Fire)", -- [19]
+				"Woolhead Fireball Kolkar Stormer Crit -162 (Fire)", -- [20]
+				"Woolhead Fireball (DoT) Kolkar Stormer Tick -3 (Fire)", -- [21]
+				"Woolhead Fireball (DoT) Kolkar Stormer Tick -3 (Fire)", -- [22]
+				"Kolkar Stormer Lightning Bolt Woolhead Hit -33 (8 resisted) (Nature)", -- [23]
+				"Woolhead Fireball (DoT) Kolkar Stormer Tick -3 (Fire)", -- [24]
+				"Woolhead Fireball (DoT) Kolkar Stormer Tick -3 (Fire)", -- [25]
+				"Kolkar Stormer Lightning Bolt Woolhead Hit -33 (Nature)", -- [26]
+				"Woolhead Fireball Kolkar Pack Runner Hit -103 (Fire)", -- [27]
+				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [28]
+				"Woolhead Fireball Kolkar Pack Runner Hit -109 (Fire)", -- [29]
+				"Kolkar Pack Runner Melee Woolhead Hit -19 (Physical)", -- [30]
+				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [31]
+				"Kolkar Pack Runner Melee Woolhead Hit -20 (Physical)", -- [32]
+				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [33]
+				"Kolkar Packhound Melee Woolhead Hit -15 (Physical)", -- [34]
+				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [35]
+				"Kolkar Pack Runner Melee Woolhead Hit -19 (Physical)", -- [36]
+				"Woolhead Fireball Kolkar Pack Runner Hit -127 (Fire)", -- [37]
+				"Kolkar Packhound Melee Woolhead Hit -17 (Physical)", -- [38]
+				"Woolhead Fire Blast Kolkar Packhound Crit -118 (Fire)", -- [39]
+				"Kolkar Packhound Melee Woolhead Hit -14 (Physical)", -- [40]
+				"Kolkar Packhound Melee Woolhead Hit -16 (Physical)", -- [41]
+				"Woolhead Fireball Kolkar Packhound Hit -124 (Fire)", -- [42]
+				"Kolkar Packhound Melee Woolhead Hit -14 (Physical)", -- [43]
+				"Woolhead Fireball (DoT) Kolkar Packhound Tick -3 (Fire)", -- [44]
+				"Woolhead Fireball Kolkar Packhound Hit -109 (Fire)", -- [45]
+				"Woolhead Flamestrike Kolkar Packhound Hit -62 (Fire)", -- [46]
+				"Mahkloompah Judgement of Light Woolhead Tick +8 (8 overheal)", -- [47]
+				"Woolhead Flamestrike Kolkar Pack Runner Crit -86 (Fire)", -- [48]
+				"Woolhead Flamestrike Kolkar Marauder Crit -92 (Fire)", -- [49]
+				"Woolhead Flamestrike Kolkar Marauder Hit -72 (Fire)", -- [50]
+			},
+			["Name"] = "Woolhead",
+			["TimeLast"] = {
+				["ActiveTime"] = 1727560172,
+				["HealingTaken"] = 1727559331,
+				["DOT_Time"] = 1727560054,
+				["TimeDamage"] = 1727560172,
+				["OVERALL"] = 1727560172,
+				["ManaGain"] = 1727559742,
+				["DamageTaken"] = 1727560109,
+				["Damage"] = 1727560172,
+			},
 			["Fights"] = {
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Fire"] = 0,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Flamestrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Flamestrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Fire Blast"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Flamestrike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 0,
-								},
-								["Flamestrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["LastFightData"] = {
 					["DOTs"] = {
 					},
@@ -13953,43 +14003,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -13997,48 +14044,220 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Flamestrike"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Flamestrike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Flamestrike"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Flamestrike"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -14094,8 +14313,8 @@ RecountPerCharDB = {
 								["Kolkar Packhound"] = {
 									["count"] = 2,
 								},
-								["Bristleback Thornweaver"] = {
-									["count"] = 18,
+								["Kolkar Stormer"] = {
+									["count"] = 10,
 								},
 								["Kolkar Pack Runner"] = {
 									["count"] = 12,
@@ -14106,8 +14325,8 @@ RecountPerCharDB = {
 								["Witchwing Windcaller"] = {
 									["count"] = 2,
 								},
-								["Kolkar Stormer"] = {
-									["count"] = 10,
+								["Bristleback Thornweaver"] = {
+									["count"] = 18,
 								},
 							},
 							["amount"] = 102,
@@ -14145,11 +14364,11 @@ RecountPerCharDB = {
 								["Fireball"] = {
 									["count"] = 3.61,
 								},
-								["Fire Blast"] = {
-									["count"] = 3.5,
-								},
 								["Fireball (DoT)"] = {
 									["count"] = 2.02,
+								},
+								["Fire Blast"] = {
+									["count"] = 3.5,
 								},
 							},
 							["amount"] = 9.129999999999999,
@@ -14159,11 +14378,11 @@ RecountPerCharDB = {
 								["Fireball"] = {
 									["count"] = 14.08,
 								},
-								["Fire Blast"] = {
-									["count"] = 7,
-								},
 								["Fireball (DoT)"] = {
 									["count"] = 10.1,
+								},
+								["Fire Blast"] = {
+									["count"] = 7,
 								},
 							},
 							["amount"] = 31.18,
@@ -14201,14 +14420,14 @@ RecountPerCharDB = {
 								["Fireball"] = {
 									["count"] = 41.19,
 								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 2.03,
+								["Frost Nova"] = {
+									["count"] = 3.5,
 								},
 								["Fireball (DoT)"] = {
 									["count"] = 7.370000000000001,
 								},
-								["Frost Nova"] = {
-									["count"] = 3.5,
+								["Flamestrike (DoT)"] = {
+									["count"] = 2.03,
 								},
 								["Frostbolt"] = {
 									["count"] = 0.6800000000000001,
@@ -14284,14 +14503,14 @@ RecountPerCharDB = {
 								["Fireball"] = {
 									["count"] = 11.82,
 								},
-								["Frost Nova"] = {
-									["count"] = 0,
+								["Flamestrike (DoT)"] = {
+									["count"] = 2.05,
 								},
 								["Fireball (DoT)"] = {
 									["count"] = 10.2,
 								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 2.05,
+								["Frost Nova"] = {
+									["count"] = 0,
 								},
 								["Frostbolt"] = {
 									["count"] = 1.86,
@@ -14310,11 +14529,11 @@ RecountPerCharDB = {
 								["Fireball"] = {
 									["count"] = 3.5,
 								},
-								["Fire Blast"] = {
-									["count"] = 4.2,
-								},
 								["Fireball (DoT)"] = {
 									["count"] = 1.4,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.2,
 								},
 							},
 							["amount"] = 9.1,
@@ -14324,14 +14543,14 @@ RecountPerCharDB = {
 								["Fireball"] = {
 									["count"] = 21.17,
 								},
-								["Fire Blast"] = {
-									["count"] = 4.26,
+								["Fireball (DoT)"] = {
+									["count"] = 4.69,
 								},
 								["Frost Nova"] = {
 									["count"] = 1.42,
 								},
-								["Fireball (DoT)"] = {
-									["count"] = 4.69,
+								["Fire Blast"] = {
+									["count"] = 4.26,
 								},
 							},
 							["amount"] = 31.54,
@@ -14341,14 +14560,14 @@ RecountPerCharDB = {
 								["Fireball"] = {
 									["count"] = 7,
 								},
-								["Frost Nova"] = {
-									["count"] = 0,
+								["Flamestrike (DoT)"] = {
+									["count"] = 5.87,
 								},
 								["Fireball (DoT)"] = {
 									["count"] = 2.05,
 								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 5.87,
+								["Frost Nova"] = {
+									["count"] = 0,
 								},
 								["Frostbolt"] = {
 									["count"] = 0.23,
@@ -14397,36 +14616,36 @@ RecountPerCharDB = {
 								["Fireball"] = {
 									["count"] = 31.64,
 								},
-								["Fireball (DoT)"] = {
-									["count"] = 6.199999999999999,
-								},
 								["Fire Blast"] = {
 									["count"] = 7,
 								},
+								["Fireball (DoT)"] = {
+									["count"] = 6.199999999999999,
+								},
 							},
 							["amount"] = 44.84,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
 						},
 						["Kolkar Wrangler"] = {
 							["Details"] = {
 								["Fireball"] = {
 									["count"] = 9.16,
 								},
-								["Fire Blast"] = {
-									["count"] = 3.5,
-								},
 								["Fireball (DoT)"] = {
 									["count"] = 10.19,
 								},
-							},
-							["amount"] = 22.85,
-						},
-						["Sunscale Scytheclaw"] = {
-							["Details"] = {
-								["Fireball"] = {
+								["Fire Blast"] = {
 									["count"] = 3.5,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 22.85,
 						},
 						["Ornery Plainstrider"] = {
 							["Details"] = {
@@ -14450,6 +14669,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 15.03,
 						},
+						["Sunscale Scytheclaw"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
 						["Sunscale Screecher"] = {
 							["Details"] = {
 								["Fire Blast"] = {
@@ -14458,24 +14685,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 3.5,
 						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
 						["Witchwing Windcaller"] = {
 							["Details"] = {
 								["Fireball"] = {
 									["count"] = 3.83,
 								},
-								["Fire Blast"] = {
-									["count"] = 1.63,
-								},
 								["Fireball (DoT)"] = {
 									["count"] = 0.46,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.63,
 								},
 							},
 							["amount"] = 5.92,
@@ -14520,17 +14739,17 @@ RecountPerCharDB = {
 						},
 						["Lightning Bolt"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 8,
-									["min"] = 8,
-									["count"] = 1,
-									["amount"] = 8,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 2,
 									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 8,
+									["min"] = 8,
+									["count"] = 1,
+									["amount"] = 8,
 								},
 							},
 							["count"] = 3,
@@ -14562,17 +14781,17 @@ RecountPerCharDB = {
 						},
 						["Wrath"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 3,
-									["min"] = 3,
-									["count"] = 2,
-									["amount"] = 6,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 3,
 									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 3,
+									["min"] = 3,
+									["count"] = 2,
+									["amount"] = 6,
 								},
 							},
 							["count"] = 5,
@@ -14769,37 +14988,817 @@ RecountPerCharDB = {
 					},
 					["ActiveTime"] = 659.2199999999998,
 					["ElementTaken"] = {
-						["Frost"] = 60,
 						["Physical"] = 247,
+						["Frost"] = 60,
 						["Melee"] = 289,
 						["Nature"] = 416,
 					},
 					["DOT_Time"] = 132,
 					["Damage"] = 18911,
-					["ManaGainedFrom"] = {
+					["WhoHealed"] = {
 						["Mahkloompah"] = {
 							["Details"] = {
-								["Judgement of Wisdom"] = {
+								["Judgement of Light"] = {
+									["count"] = 11,
+								},
+								["Flash of Light"] = {
+									["count"] = 92,
+								},
+							},
+							["amount"] = 103,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["DamagedWho"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 1848,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 9,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 13,
+								},
+								["Flamestrike"] = {
+									["count"] = 333,
+								},
+								["Frost Nova"] = {
+									["count"] = 48,
+								},
+								["Fire Blast"] = {
+									["count"] = 788,
+								},
+							},
+							["amount"] = 3039,
+						},
+						["Grimtotem Sorcerer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 201,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+								["Fire Blast"] = {
+									["count"] = 67,
+								},
+							},
+							["amount"] = 271,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 589,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 15,
+								},
+								["Fire Blast"] = {
+									["count"] = 148,
+								},
+							},
+							["amount"] = 752,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 2195,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 27,
+								},
+								["Frost Nova"] = {
+									["count"] = 46,
+								},
+								["Flamestrike"] = {
+									["count"] = 187,
+								},
+								["Fire Blast"] = {
+									["count"] = 352,
+								},
+							},
+							["amount"] = 2807,
+						},
+						["Cliff Stormer"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 77,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 1403,
+								},
+								["Frost Nova"] = {
+									["count"] = 69,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 12,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 13,
+								},
+								["Frostbolt"] = {
+									["count"] = 60,
+								},
+								["Flamestrike"] = {
+									["count"] = 333,
+								},
+								["Fire Blast"] = {
+									["count"] = 299,
+								},
+							},
+							["amount"] = 2189,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 1251,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 24,
+								},
+								["Frost Nova"] = {
+									["count"] = 49,
+								},
+								["Frostbolt"] = {
+									["count"] = 61,
+								},
+								["Flamestrike"] = {
+									["count"] = 190,
+								},
+								["Fire Blast"] = {
+									["count"] = 348,
+								},
+							},
+							["amount"] = 1923,
+						},
+						["Grimtotem Brute"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 93,
+								},
+								["Fire Blast"] = {
+									["count"] = 138,
+								},
+							},
+							["amount"] = 231,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 336,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 26,
+								},
+								["Flamestrike"] = {
+									["count"] = 122,
+								},
+								["Frost Nova"] = {
+									["count"] = 22,
+								},
+								["Fire Blast"] = {
+									["count"] = 118,
+								},
+							},
+							["amount"] = 627,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 566,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 13,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 18,
+								},
+								["Frost Nova"] = {
+									["count"] = 22,
+								},
+								["Frostbolt"] = {
+									["count"] = 62,
+								},
+								["Flamestrike"] = {
+									["count"] = 158,
+								},
+								["Fire Blast"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 917,
+						},
+						["Hecklefang Hyena"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 95,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+								["Fire Blast"] = {
+									["count"] = 141,
+								},
+							},
+							["amount"] = 239,
+						},
+						["Witchwing Harpy"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 828,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 9,
+								},
+								["Frost Nova"] = {
+									["count"] = 84,
+								},
+								["Fire Blast"] = {
+									["count"] = 137,
+								},
+							},
+							["amount"] = 1058,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 223,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 65,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+								["Frost Nova"] = {
+									["count"] = 48,
+								},
+								["Frostbolt"] = {
+									["count"] = 65,
+								},
+								["Flamestrike"] = {
+									["count"] = 227,
+								},
+								["Fire Blast"] = {
+									["count"] = 141,
+								},
+							},
+							["amount"] = 772,
+						},
+						["Witchwing Roguefeather"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 80,
+								},
+								["Fireball"] = {
+									["count"] = 409,
+								},
+								["Fire Blast"] = {
+									["count"] = 73,
+								},
+							},
+							["amount"] = 562,
+						},
+						["Verog the Dervish"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Flamestrike"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+						["Grimtotem Mercenary"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 1128,
+								},
+								["Fire Blast"] = {
+									["count"] = 151,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 1288,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 214,
+								},
+							},
+							["amount"] = 214,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 321,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 10,
+								},
+								["Fire Blast"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 359,
+						},
+						["Ornery Plainstrider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 215,
+								},
+								["Fire Blast"] = {
+									["count"] = 132,
+								},
+							},
+							["amount"] = 347,
+						},
+						["Grimtotem Ruffian"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 357,
+								},
+								["Fire Blast"] = {
+									["count"] = 130,
+								},
+							},
+							["amount"] = 487,
+						},
+						["Sunscale Scytheclaw"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 179,
+								},
+							},
+							["amount"] = 179,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+						["Witchwing Windcaller"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 191,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 194,
+						},
+						["Stormsnout"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 169,
+								},
+							},
+							["amount"] = 169,
+						},
+					},
+					["TimeDamaging"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 66.94,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 5,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 2.07,
+								},
+								["Flamestrike"] = {
+									["count"] = 10.5,
+								},
+								["Frost Nova"] = {
+									["count"] = 0.11,
+								},
+								["Fire Blast"] = {
+									["count"] = 35.12,
+								},
+							},
+							["amount"] = 119.74,
+						},
+						["Grimtotem Sorcerer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.61,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 2.02,
+								},
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 9.129999999999999,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 14.08,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 10.1,
+								},
+								["Fire Blast"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 31.18,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 66.12000000000001,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 18.3,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.47,
+								},
+								["Flamestrike"] = {
+									["count"] = 3.5,
+								},
+								["Fire Blast"] = {
+									["count"] = 17.5,
+								},
+							},
+							["amount"] = 106.89,
+						},
+						["Cliff Stormer"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 41.19,
+								},
+								["Frost Nova"] = {
+									["count"] = 3.5,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 7.370000000000001,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 2.03,
+								},
+								["Frostbolt"] = {
+									["count"] = 0.6800000000000001,
+								},
+								["Flamestrike"] = {
+									["count"] = 7,
+								},
+								["Fire Blast"] = {
+									["count"] = 9.1,
+								},
+							},
+							["amount"] = 70.87000000000001,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 29.45,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 15.4,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0.49,
+								},
+								["Flamestrike"] = {
+									["count"] = 3.5,
+								},
+								["Fire Blast"] = {
+									["count"] = 12.73,
+								},
+							},
+							["amount"] = 61.57000000000001,
+						},
+						["Grimtotem Brute"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 0.43,
+								},
+								["Fire Blast"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7.43,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 8.029999999999999,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 2.03,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 2.04,
+								},
+								["Flamestrike"] = {
+									["count"] = 7,
+								},
+								["Frost Nova"] = {
+									["count"] = 0.11,
+								},
+								["Fire Blast"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 21.21,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 11.82,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 2.05,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 10.2,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 1.86,
+								},
+								["Flamestrike"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0.04,
+								},
+							},
+							["amount"] = 25.97,
+						},
+						["Hecklefang Hyena"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 1.4,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.2,
+								},
+							},
+							["amount"] = 9.1,
+						},
+						["Witchwing Harpy"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 21.17,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 4.69,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.42,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.26,
+								},
+							},
+							["amount"] = 31.54,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 7,
+								},
+								["Flamestrike (DoT)"] = {
+									["count"] = 5.87,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 2.05,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostbolt"] = {
+									["count"] = 0.23,
+								},
+								["Flamestrike"] = {
+									["count"] = 3.5,
+								},
+								["Fire Blast"] = {
+									["count"] = 3.37,
+								},
+							},
+							["amount"] = 22.02,
+						},
+						["Witchwing Roguefeather"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Fireball"] = {
+									["count"] = 14,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.01,
+								},
+							},
+							["amount"] = 15.01,
+						},
+						["Verog the Dervish"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Flamestrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grimtotem Mercenary"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 31.64,
+								},
+								["Fire Blast"] = {
+									["count"] = 7,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 6.199999999999999,
+								},
+							},
+							["amount"] = 44.84,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Fireball"] = {
 									["count"] = 7,
 								},
 							},
 							["amount"] = 7,
 						},
-						["Woolhead"] = {
+						["Kolkar Wrangler"] = {
 							["Details"] = {
-								["Restore Mana"] = {
-									["count"] = 172,
+								["Fireball"] = {
+									["count"] = 9.16,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 10.19,
+								},
+								["Fire Blast"] = {
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 172,
+							["amount"] = 22.85,
+						},
+						["Ornery Plainstrider"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 7,
+								},
+								["Fire Blast"] = {
+									["count"] = 7.42,
+								},
+							},
+							["amount"] = 14.42,
+						},
+						["Grimtotem Ruffian"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 10.5,
+								},
+								["Fire Blast"] = {
+									["count"] = 4.53,
+								},
+							},
+							["amount"] = 15.03,
+						},
+						["Sunscale Scytheclaw"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Fire Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Witchwing Windcaller"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.83,
+								},
+								["Fireball (DoT)"] = {
+									["count"] = 0.46,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.63,
+								},
+							},
+							["amount"] = 5.92,
+						},
+						["Stormsnout"] = {
+							["Details"] = {
+								["Fireball"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
 						},
 					},
 					["Attacks"] = {
 						["Fireball"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 3,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 127,
+									["min"] = 35,
+									["count"] = 111,
+									["amount"] = 11569,
 								},
 								["Immune"] = {
 									["count"] = 1,
@@ -14811,39 +15810,13 @@ RecountPerCharDB = {
 									["count"] = 8,
 									["amount"] = 1242,
 								},
-								["Hit"] = {
-									["max"] = 127,
-									["min"] = 35,
-									["count"] = 111,
-									["amount"] = 11569,
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 123,
 							["amount"] = 12811,
-						},
-						["Flamestrike (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 13,
-									["min"] = 13,
-									["count"] = 10,
-									["amount"] = 130,
-								},
-							},
-							["count"] = 10,
-							["amount"] = 130,
-						},
-						["Fireball (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 3,
-									["min"] = 2,
-									["count"] = 51,
-									["amount"] = 148,
-								},
-							},
-							["count"] = 51,
-							["amount"] = 148,
 						},
 						["Frost Nova"] = {
 							["Details"] = {
@@ -14862,6 +15835,30 @@ RecountPerCharDB = {
 							},
 							["count"] = 19,
 							["amount"] = 468,
+						},
+						["Fireball (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 3,
+									["min"] = 2,
+									["count"] = 51,
+									["amount"] = 148,
+								},
+							},
+							["count"] = 51,
+							["amount"] = 148,
+						},
+						["Flamestrike (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 13,
+									["min"] = 13,
+									["count"] = 10,
+									["amount"] = 130,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 130,
 						},
 						["Frostbolt"] = {
 							["Details"] = {
@@ -14895,11 +15892,9 @@ RecountPerCharDB = {
 						},
 						["Fire Blast"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 79,
-									["min"] = 28,
-									["count"] = 46,
-									["amount"] = 3257,
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
 								},
 								["Crit"] = {
 									["max"] = 118,
@@ -14907,48 +15902,37 @@ RecountPerCharDB = {
 									["count"] = 2,
 									["amount"] = 234,
 								},
-								["Miss"] = {
-									["count"] = 4,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 79,
+									["min"] = 28,
+									["count"] = 46,
+									["amount"] = 3257,
 								},
 							},
 							["count"] = 52,
 							["amount"] = 3491,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
+					["HealingTaken"] = 103,
+					["ManaGainedFrom"] = {
+						["Mahkloompah"] = {
 							["Details"] = {
-								["Immune"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
+								["Judgement of Wisdom"] = {
 									["count"] = 7,
 								},
-								["Hit"] = {
-									["count"] = 179,
-								},
-								["Crit"] = {
-									["count"] = 12,
-								},
-								["Tick"] = {
-									["count"] = 61,
-								},
 							},
-							["amount"] = 260,
+							["amount"] = 7,
 						},
-						["Frost"] = {
+						["Woolhead"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 21,
+								["Restore Mana"] = {
+									["count"] = 172,
 								},
 							},
-							["amount"] = 23,
+							["amount"] = 172,
 						},
 					},
+					["TimeDamage"] = 659.2199999999998,
 					["WhoDamaged"] = {
 						["Hecklefang Hyena"] = {
 							["Details"] = {
@@ -15041,11 +16025,11 @@ RecountPerCharDB = {
 						},
 						["Kolkar Stormer"] = {
 							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 102,
-								},
 								["Lightning Cloud"] = {
 									["count"] = 29,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 102,
 								},
 								["Lightning Cloud (DoT)"] = {
 									["count"] = 48,
@@ -15054,1033 +16038,49 @@ RecountPerCharDB = {
 							["amount"] = 179,
 						},
 					},
+					["ManaGain"] = 179,
 					["ElementDone"] = {
-						["Fire"] = 18195,
 						["Frost"] = 716,
+						["Fire"] = 18195,
 					},
-					["HealingTaken"] = 103,
-					["DamagedWho"] = {
-						["Bristleback Geomancer"] = {
+					["ElementHitsDone"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Fireball"] = {
-									["count"] = 1848,
+								["Crit"] = {
+									["count"] = 2,
 								},
-								["Fireball (DoT)"] = {
-									["count"] = 9,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 13,
-								},
-								["Flamestrike"] = {
-									["count"] = 333,
-								},
-								["Frost Nova"] = {
-									["count"] = 48,
-								},
-								["Fire Blast"] = {
-									["count"] = 788,
+								["Hit"] = {
+									["count"] = 21,
 								},
 							},
-							["amount"] = 3039,
+							["amount"] = 23,
 						},
-						["Grimtotem Sorcerer"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Fireball"] = {
-									["count"] = 201,
+								["Immune"] = {
+									["count"] = 1,
 								},
-								["Fire Blast"] = {
-									["count"] = 67,
+								["Miss"] = {
+									["count"] = 7,
 								},
-								["Fireball (DoT)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 271,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 589,
-								},
-								["Fire Blast"] = {
-									["count"] = 148,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 752,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 2195,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 27,
-								},
-								["Frost Nova"] = {
-									["count"] = 46,
-								},
-								["Flamestrike"] = {
-									["count"] = 187,
-								},
-								["Fire Blast"] = {
-									["count"] = 352,
-								},
-							},
-							["amount"] = 2807,
-						},
-						["Cliff Stormer"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 77,
-								},
-							},
-							["amount"] = 77,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 1403,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 13,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 12,
-								},
-								["Frost Nova"] = {
-									["count"] = 69,
-								},
-								["Frostbolt"] = {
-									["count"] = 60,
-								},
-								["Flamestrike"] = {
-									["count"] = 333,
-								},
-								["Fire Blast"] = {
-									["count"] = 299,
-								},
-							},
-							["amount"] = 2189,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 1251,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 24,
-								},
-								["Frost Nova"] = {
-									["count"] = 49,
-								},
-								["Frostbolt"] = {
+								["Tick"] = {
 									["count"] = 61,
 								},
-								["Flamestrike"] = {
-									["count"] = 190,
+								["Crit"] = {
+									["count"] = 12,
 								},
-								["Fire Blast"] = {
-									["count"] = 348,
-								},
-							},
-							["amount"] = 1923,
-						},
-						["Grimtotem Brute"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 93,
-								},
-								["Fire Blast"] = {
-									["count"] = 138,
-								},
-							},
-							["amount"] = 231,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 336,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 3,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 26,
-								},
-								["Flamestrike"] = {
-									["count"] = 122,
-								},
-								["Frost Nova"] = {
-									["count"] = 22,
-								},
-								["Fire Blast"] = {
-									["count"] = 118,
-								},
-							},
-							["amount"] = 627,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 566,
-								},
-								["Frost Nova"] = {
-									["count"] = 22,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 18,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 13,
-								},
-								["Frostbolt"] = {
-									["count"] = 62,
-								},
-								["Flamestrike"] = {
-									["count"] = 158,
-								},
-								["Fire Blast"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 917,
-						},
-						["Hecklefang Hyena"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 95,
-								},
-								["Fire Blast"] = {
-									["count"] = 141,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 239,
-						},
-						["Witchwing Harpy"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 828,
-								},
-								["Fire Blast"] = {
-									["count"] = 137,
-								},
-								["Frost Nova"] = {
-									["count"] = 84,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 1058,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 223,
-								},
-								["Frost Nova"] = {
-									["count"] = 48,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 3,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 65,
-								},
-								["Frostbolt"] = {
-									["count"] = 65,
-								},
-								["Flamestrike"] = {
-									["count"] = 227,
-								},
-								["Fire Blast"] = {
-									["count"] = 141,
-								},
-							},
-							["amount"] = 772,
-						},
-						["Witchwing Roguefeather"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 80,
-								},
-								["Fireball"] = {
-									["count"] = 409,
-								},
-								["Fire Blast"] = {
-									["count"] = 73,
-								},
-							},
-							["amount"] = 562,
-						},
-						["Verog the Dervish"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Flamestrike"] = {
-									["count"] = 65,
-								},
-							},
-							["amount"] = 65,
-						},
-						["Grimtotem Mercenary"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 1128,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 9,
-								},
-								["Fire Blast"] = {
-									["count"] = 151,
-								},
-							},
-							["amount"] = 1288,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 321,
-								},
-								["Fire Blast"] = {
-									["count"] = 28,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 359,
-						},
-						["Sunscale Scytheclaw"] = {
-							["Details"] = {
-								["Fireball"] = {
+								["Hit"] = {
 									["count"] = 179,
 								},
 							},
-							["amount"] = 179,
-						},
-						["Ornery Plainstrider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 215,
-								},
-								["Fire Blast"] = {
-									["count"] = 132,
-								},
-							},
-							["amount"] = 347,
-						},
-						["Grimtotem Ruffian"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 357,
-								},
-								["Fire Blast"] = {
-									["count"] = 130,
-								},
-							},
-							["amount"] = 487,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 214,
-								},
-							},
-							["amount"] = 214,
-						},
-						["Witchwing Windcaller"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 191,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 194,
-						},
-						["Stormsnout"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 169,
-								},
-							},
-							["amount"] = 169,
-						},
-					},
-					["TimeDamage"] = 659.2199999999998,
-					["TimeDamaging"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 66.94,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 5,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 2.07,
-								},
-								["Flamestrike"] = {
-									["count"] = 10.5,
-								},
-								["Frost Nova"] = {
-									["count"] = 0.11,
-								},
-								["Fire Blast"] = {
-									["count"] = 35.12,
-								},
-							},
-							["amount"] = 119.74,
-						},
-						["Grimtotem Sorcerer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.61,
-								},
-								["Fire Blast"] = {
-									["count"] = 3.5,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 2.02,
-								},
-							},
-							["amount"] = 9.129999999999999,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 14.08,
-								},
-								["Fire Blast"] = {
-									["count"] = 7,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 10.1,
-								},
-							},
-							["amount"] = 31.18,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 66.12000000000001,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 18.3,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.47,
-								},
-								["Flamestrike"] = {
-									["count"] = 3.5,
-								},
-								["Fire Blast"] = {
-									["count"] = 17.5,
-								},
-							},
-							["amount"] = 106.89,
-						},
-						["Cliff Stormer"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 41.19,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 2.03,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 7.370000000000001,
-								},
-								["Frost Nova"] = {
-									["count"] = 3.5,
-								},
-								["Frostbolt"] = {
-									["count"] = 0.6800000000000001,
-								},
-								["Flamestrike"] = {
-									["count"] = 7,
-								},
-								["Fire Blast"] = {
-									["count"] = 9.1,
-								},
-							},
-							["amount"] = 70.87000000000001,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 29.45,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 15.4,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Frostbolt"] = {
-									["count"] = 0.49,
-								},
-								["Flamestrike"] = {
-									["count"] = 3.5,
-								},
-								["Fire Blast"] = {
-									["count"] = 12.73,
-								},
-							},
-							["amount"] = 61.57000000000001,
-						},
-						["Grimtotem Brute"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 0.43,
-								},
-								["Fire Blast"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7.43,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 8.029999999999999,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 2.03,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 2.04,
-								},
-								["Flamestrike"] = {
-									["count"] = 7,
-								},
-								["Frost Nova"] = {
-									["count"] = 0.11,
-								},
-								["Fire Blast"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 21.21,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 11.82,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 10.2,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 2.05,
-								},
-								["Frostbolt"] = {
-									["count"] = 1.86,
-								},
-								["Flamestrike"] = {
-									["count"] = 0,
-								},
-								["Fire Blast"] = {
-									["count"] = 0.04,
-								},
-							},
-							["amount"] = 25.97,
-						},
-						["Hecklefang Hyena"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.5,
-								},
-								["Fire Blast"] = {
-									["count"] = 4.2,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 1.4,
-								},
-							},
-							["amount"] = 9.1,
-						},
-						["Witchwing Harpy"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 21.17,
-								},
-								["Fire Blast"] = {
-									["count"] = 4.26,
-								},
-								["Frost Nova"] = {
-									["count"] = 1.42,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 4.69,
-								},
-							},
-							["amount"] = 31.54,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 7,
-								},
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 2.05,
-								},
-								["Flamestrike (DoT)"] = {
-									["count"] = 5.87,
-								},
-								["Frostbolt"] = {
-									["count"] = 0.23,
-								},
-								["Flamestrike"] = {
-									["count"] = 3.5,
-								},
-								["Fire Blast"] = {
-									["count"] = 3.37,
-								},
-							},
-							["amount"] = 22.02,
-						},
-						["Witchwing Roguefeather"] = {
-							["Details"] = {
-								["Frost Nova"] = {
-									["count"] = 0,
-								},
-								["Fireball"] = {
-									["count"] = 14,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.01,
-								},
-							},
-							["amount"] = 15.01,
-						},
-						["Verog the Dervish"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Flamestrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grimtotem Mercenary"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 31.64,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 6.199999999999999,
-								},
-								["Fire Blast"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 44.84,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 9.16,
-								},
-								["Fire Blast"] = {
-									["count"] = 3.5,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 10.19,
-								},
-							},
-							["amount"] = 22.85,
-						},
-						["Sunscale Scytheclaw"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Ornery Plainstrider"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 7,
-								},
-								["Fire Blast"] = {
-									["count"] = 7.42,
-								},
-							},
-							["amount"] = 14.42,
-						},
-						["Grimtotem Ruffian"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 10.5,
-								},
-								["Fire Blast"] = {
-									["count"] = 4.53,
-								},
-							},
-							["amount"] = 15.03,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Fire Blast"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Witchwing Windcaller"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.83,
-								},
-								["Fire Blast"] = {
-									["count"] = 1.63,
-								},
-								["Fireball (DoT)"] = {
-									["count"] = 0.46,
-								},
-							},
-							["amount"] = 5.92,
-						},
-						["Stormsnout"] = {
-							["Details"] = {
-								["Fireball"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ManaGain"] = 179,
-					["ElementHitsTaken"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 11,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 16,
-								},
-							},
-							["amount"] = 16,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 10,
-								},
-								["Tick"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["WhoHealed"] = {
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Light"] = {
-									["count"] = 11,
-								},
-								["Flash of Light"] = {
-									["count"] = 92,
-								},
-							},
-							["amount"] = 103,
+							["amount"] = 260,
 						},
 					},
 				},
 			},
-			["NextEventNum"] = 16,
-			["LastEventHealthNum"] = {
-				100, -- [1]
-				100, -- [2]
-				100, -- [3]
-				100, -- [4]
-				100, -- [5]
-				100, -- [6]
-				100, -- [7]
-				100, -- [8]
-				100, -- [9]
-				100, -- [10]
-				100, -- [11]
-				100, -- [12]
-				95.68345323741008, -- [13]
-				100, -- [14]
-				100, -- [15]
-				100, -- [16]
-				100, -- [17]
-				100, -- [18]
-				100, -- [19]
-				100, -- [20]
-				100, -- [21]
-				100, -- [22]
-				92.08633093525179, -- [23]
-				92.08633093525179, -- [24]
-				92.08633093525179, -- [25]
-				84.1726618705036, -- [26]
-				100, -- [27]
-				100, -- [28]
-				100, -- [29]
-				100, -- [30]
-				95.44364508393285, -- [31]
-				95.44364508393285, -- [32]
-				90.64748201438849, -- [33]
-				90.64748201438849, -- [34]
-				87.05035971223022, -- [35]
-				87.05035971223022, -- [36]
-				82.49400479616307, -- [37]
-				82.49400479616307, -- [38]
-				78.41726618705036, -- [39]
-				78.41726618705036, -- [40]
-				75.0599520383693, -- [41]
-				71.22302158273381, -- [42]
-				71.22302158273381, -- [43]
-				67.86570743405275, -- [44]
-				67.86570743405275, -- [45]
-				100, -- [46]
-				100, -- [47]
-				100, -- [48]
-				100, -- [49]
-				100, -- [50]
-			},
-			["LastEvents"] = {
-				"Woolhead Flamestrike (DoT) Kolkar Pack Runner Tick -13 (Fire)", -- [1]
-				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [2]
-				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [3]
-				"Woolhead Flamestrike (DoT) Kolkar Packhound Tick -13 (Fire)", -- [4]
-				"Woolhead Frost Nova Kolkar Packhound Hit -22 (Frost)", -- [5]
-				"Woolhead Frost Nova Kolkar Pack Runner Hit -22 (Frost)", -- [6]
-				"Woolhead Frost Nova Kolkar Marauder Hit -23 (Frost)", -- [7]
-				"Woolhead Frost Nova Kolkar Marauder Hit -25 (Frost)", -- [8]
-				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [9]
-				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [10]
-				"Woolhead Flamestrike (DoT) Kolkar Marauder Tick -13 (Fire)", -- [11]
-				"Hecklefang Hyena Melee Woolhead Hit -18 (Physical)", -- [12]
-				"Hecklefang Hyena Melee Woolhead Hit -21 (Physical)", -- [13]
-				"Woolhead Flamestrike Kolkar Marauder Hit -63 (Fire)", -- [14]
-				"Woolhead Fire Blast Kolkar Marauder Hit -70 (Fire)", -- [15]
-				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [16]
-				"Woolhead Fire Blast Kolkar Stormer Hit -74 (Fire)", -- [17]
-				"Mahkloompah Judgement of Light Woolhead Tick +8 (8 overheal)", -- [18]
-				"Woolhead Fireball Kolkar Stormer Hit -123 (Fire)", -- [19]
-				"Woolhead Fireball Kolkar Stormer Crit -162 (Fire)", -- [20]
-				"Woolhead Fireball (DoT) Kolkar Stormer Tick -3 (Fire)", -- [21]
-				"Woolhead Fireball (DoT) Kolkar Stormer Tick -3 (Fire)", -- [22]
-				"Kolkar Stormer Lightning Bolt Woolhead Hit -33 (8 resisted) (Nature)", -- [23]
-				"Woolhead Fireball (DoT) Kolkar Stormer Tick -3 (Fire)", -- [24]
-				"Woolhead Fireball (DoT) Kolkar Stormer Tick -3 (Fire)", -- [25]
-				"Kolkar Stormer Lightning Bolt Woolhead Hit -33 (Nature)", -- [26]
-				"Woolhead Fireball Kolkar Pack Runner Hit -103 (Fire)", -- [27]
-				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [28]
-				"Woolhead Fireball Kolkar Pack Runner Hit -109 (Fire)", -- [29]
-				"Kolkar Pack Runner Melee Woolhead Hit -19 (Physical)", -- [30]
-				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [31]
-				"Kolkar Pack Runner Melee Woolhead Hit -20 (Physical)", -- [32]
-				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [33]
-				"Kolkar Packhound Melee Woolhead Hit -15 (Physical)", -- [34]
-				"Woolhead Fireball (DoT) Kolkar Pack Runner Tick -3 (Fire)", -- [35]
-				"Kolkar Pack Runner Melee Woolhead Hit -19 (Physical)", -- [36]
-				"Woolhead Fireball Kolkar Pack Runner Hit -127 (Fire)", -- [37]
-				"Kolkar Packhound Melee Woolhead Hit -17 (Physical)", -- [38]
-				"Woolhead Fire Blast Kolkar Packhound Crit -118 (Fire)", -- [39]
-				"Kolkar Packhound Melee Woolhead Hit -14 (Physical)", -- [40]
-				"Kolkar Packhound Melee Woolhead Hit -16 (Physical)", -- [41]
-				"Woolhead Fireball Kolkar Packhound Hit -124 (Fire)", -- [42]
-				"Kolkar Packhound Melee Woolhead Hit -14 (Physical)", -- [43]
-				"Woolhead Fireball (DoT) Kolkar Packhound Tick -3 (Fire)", -- [44]
-				"Woolhead Fireball Kolkar Packhound Hit -109 (Fire)", -- [45]
-				"Woolhead Flamestrike Kolkar Packhound Hit -62 (Fire)", -- [46]
-				"Mahkloompah Judgement of Light Woolhead Tick +8 (8 overheal)", -- [47]
-				"Woolhead Flamestrike Kolkar Pack Runner Crit -86 (Fire)", -- [48]
-				"Woolhead Flamestrike Kolkar Marauder Crit -92 (Fire)", -- [49]
-				"Woolhead Flamestrike Kolkar Marauder Hit -72 (Fire)", -- [50]
-			},
-			["Name"] = "Woolhead",
-			["TimeLast"] = {
-				["ManaGain"] = 1727559742,
-				["HealingTaken"] = 1727559331,
-				["TimeDamage"] = 1727560172,
-				["ActiveTime"] = 1727560172,
-				["DamageTaken"] = 1727560109,
-				["OVERALL"] = 1727560172,
-				["DOT_Time"] = 1727560054,
-				["Damage"] = 1727560172,
-			},
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				false, -- [8]
-				false, -- [9]
-				false, -- [10]
-				false, -- [11]
-				true, -- [12]
-				true, -- [13]
-				false, -- [14]
-				false, -- [15]
-				false, -- [16]
-				false, -- [17]
-				true, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				true, -- [30]
-				false, -- [31]
-				true, -- [32]
-				false, -- [33]
-				true, -- [34]
-				false, -- [35]
-				true, -- [36]
-				false, -- [37]
-				true, -- [38]
-				false, -- [39]
-				true, -- [40]
-				true, -- [41]
-				false, -- [42]
-				true, -- [43]
-				false, -- [44]
-				false, -- [45]
-				false, -- [46]
-				true, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["LastDamageTaken"] = 21,
-			["LastEventTimes"] = {
-				41622.741, -- [1]
-				41622.741, -- [2]
-				41622.742, -- [3]
-				41622.742, -- [4]
-				41622.85, -- [5]
-				41622.85, -- [6]
-				41622.851, -- [7]
-				41622.851, -- [8]
-				41624.708, -- [9]
-				41626.725, -- [10]
-				41628.717, -- [11]
-				41681.316, -- [12]
-				41683.816, -- [13]
-				41743.1, -- [14]
-				41746.473, -- [15]
-				41407.643, -- [16]
-				41423.802, -- [17]
-				41427.793, -- [18]
-				41427.794, -- [19]
-				41432.685, -- [20]
-				41434.71, -- [21]
-				41436.702, -- [22]
-				41437.776, -- [23]
-				41438.71, -- [24]
-				41440.735, -- [25]
-				41441.543, -- [26]
-				41515.151, -- [27]
-				41517.217, -- [28]
-				41517.452, -- [29]
-				41518.776, -- [30]
-				41519.476, -- [31]
-				41521.342, -- [32]
-				41521.484, -- [33]
-				41522.059, -- [34]
-				41523.467, -- [35]
-				41523.784, -- [36]
-				41524.559, -- [37]
-				41524.584, -- [38]
-				41526.559, -- [39]
-				41527.075, -- [40]
-				41529.609, -- [41]
-				41531.334, -- [42]
-				41532.093, -- [43]
-				41533.359, -- [44]
-				41534.393, -- [45]
-				41620.691, -- [46]
-				41620.692, -- [47]
-				41620.692, -- [48]
-				41620.692, -- [49]
-				41620.693, -- [50]
-			},
-			["LastAbility"] = 41746.473,
+			["type"] = "Ungrouped",
+			["UnitLockout"] = 1727552498,
+			["LastActive"] = 1727560172,
 		},
 		["Jegjegos"] = {
 			["GUID"] = "0x0700000000B02488",
@@ -16199,8 +16199,8 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					3515, -- [1]
 				},
-				["TimeDamage"] = {
-					1148.149999999999, -- [1]
+				["Interrupts"] = {
+					54, -- [1]
 				},
 				["HealingTaken"] = {
 					442, -- [1]
@@ -16208,8 +16208,8 @@ RecountPerCharDB = {
 				["Overhealing"] = {
 					920, -- [1]
 				},
-				["Interrupts"] = {
-					54, -- [1]
+				["TimeDamage"] = {
+					1148.149999999999, -- [1]
 				},
 				["ActiveTime"] = {
 					1184.519999999999, -- [1]
@@ -16226,8 +16226,320 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "SHAMAN",
 			["unit"] = "Jegjegos",
-			["LastActive"] = 1727561227,
-			["UnitLockout"] = 1727551606,
+			["LastAbility"] = 217.891,
+			["LastEventTimes"] = {
+				41564.61, -- [1]
+				41584.917, -- [2]
+				41586.842, -- [3]
+				41587.967, -- [4]
+				41736.265, -- [5]
+				41738.324, -- [6]
+				41740.015, -- [7]
+				41740.365, -- [8]
+				41742.899, -- [9]
+				41746.807, -- [10]
+				41756.84, -- [11]
+				41761.79, -- [12]
+				42382.434, -- [13]
+				42382.434, -- [14]
+				42486.009, -- [15]
+				41293.544, -- [16]
+				41295.72, -- [17]
+				41297.197, -- [18]
+				41297.197, -- [19]
+				41297.197, -- [20]
+				41297.198, -- [21]
+				41298.953, -- [22]
+				41303.853, -- [23]
+				41323.019, -- [24]
+				41325.078, -- [25]
+				41325.836, -- [26]
+				41327.219, -- [27]
+				41327.87, -- [28]
+				41328.019, -- [29]
+				41328.119, -- [30]
+				41330.086, -- [31]
+				41330.111, -- [32]
+				41332.244, -- [33]
+				41334.436, -- [34]
+				41334.527, -- [35]
+				41334.595, -- [36]
+				41381.81, -- [37]
+				41381.81, -- [38]
+				41384.144, -- [39]
+				41405.752, -- [40]
+				41424.41, -- [41]
+				41429.201, -- [42]
+				41517.084, -- [43]
+				41517.085, -- [44]
+				41517.55, -- [45]
+				41517.552, -- [46]
+				41523.334, -- [47]
+				41562.084, -- [48]
+				41563.309, -- [49]
+				41563.425, -- [50]
+			},
+			["lazysync"] = true,
+			["level"] = 19,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 205,
+			["LastEventNum"] = {
+				[45] = 1.903114186851211,
+				[34] = 4.325259515570934,
+				[13] = 1.903114186851211,
+				[27] = 2.59515570934256,
+				[28] = 2.59515570934256,
+				[26] = 2.768166089965398,
+				[31] = 2.59515570934256,
+				[33] = 3.806228373702422,
+				[9] = 3.460207612456748,
+				[17] = 2.768166089965398,
+				[6] = 10.20761245674741,
+				[49] = 2.59515570934256,
+				[43] = 1.903114186851211,
+				[8] = 2.941176470588236,
+			},
+			["type"] = "Ungrouped",
+			["FightsSaved"] = 5,
+			["GuardianReverseGUIDs"] = {
+				["Stoneskin Totem II"] = {
+					["LatestGuardian"] = 10,
+					["GUIDs"] = {
+						"0xF13000171F178674", -- [1]
+						"0xF13000171F1787E1", -- [2]
+						"0xF13000171F178A93", -- [3]
+						"0xF13000171F17AF12", -- [4]
+						"0xF13000171F17B8DC", -- [5]
+						"0xF13000171F17F678", -- [6]
+						"0xF13000171F180D56", -- [7]
+						"0xF13000171F181194", -- [8]
+						"0xF13000171F183DAD", -- [9]
+						"0xF13000171F183DD0", -- [10]
+						[0] = "0xF13000171F177027",
+					},
+				},
+				["Strength of Earth Totem"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF1300016F2183DE0",
+					},
+				},
+				["Searing Totem"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						"0xF1300009DB17FC93", -- [1]
+						"0xF1300009DB1809C2", -- [2]
+						"0xF1300009DB180D49", -- [3]
+						"0xF1300009DB18128A", -- [4]
+						"0xF1300009DB18130D", -- [5]
+						"0xF1300009DB181337", -- [6]
+						"0xF1300009DB1815E4", -- [7]
+						"0xF1300009DB181E91", -- [8]
+						"0xF1300009DB1820E1", -- [9]
+						"0xF1300009DB18257E", -- [10]
+						"0xF1300009DB182776", -- [11]
+						"0xF1300009DB183D86", -- [12]
+						"0xF1300009DB183F57", -- [13]
+						[0] = "0xF1300009DB177038",
+					},
+				},
+				["Earthbind Totem"] = {
+					["LatestGuardian"] = 10,
+					["GUIDs"] = {
+						"0xF130000A46178815", -- [1]
+						"0xF130000A461797D1", -- [2]
+						"0xF130000A46179875", -- [3]
+						"0xF130000A4617A1EC", -- [4]
+						"0xF130000A4617B0BB", -- [5]
+						"0xF130000A4617E589", -- [6]
+						"0xF130000A4617EDF3", -- [7]
+						"0xF130000A46180DE3", -- [8]
+						"0xF130000A46182F44", -- [9]
+						"0xF130000A46182FD5", -- [10]
+						[0] = "0xF130000A46178710",
+					},
+				},
+			},
+			["TimeLast"] = {
+				["TimeHeal"] = 1727559320,
+				["OVERALL"] = 1727561227,
+				["DamageTaken"] = 1727560168,
+				["Healing"] = 1727559320,
+				["TimeDamage"] = 1727560911,
+				["HealingTaken"] = 1727559198,
+				["Overhealing"] = 1727559320,
+				["Interrupts"] = 1727559849,
+				["ActiveTime"] = 1727560911,
+				["ManaGain"] = 1727561227,
+				["DOT_Time"] = 1727559186,
+				["Damage"] = 1727560911,
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Stoneskin Totem II <Jegjegos>", -- [1]
+				"Searing Totem <Jegjegos>", -- [2]
+				"Earthbind Totem <Jegjegos>", -- [3]
+				"Strength of Earth Totem <Jegjegos>", -- [4]
+			},
+			["NextEventNum"] = 16,
+			["LastEventHealthNum"] = {
+				97.40484429065744, -- [1]
+				86.85121107266436, -- [2]
+				87.0242214532872, -- [3]
+				84.25605536332181, -- [4]
+				100, -- [5]
+				100, -- [6]
+				89.96539792387543, -- [7]
+				89.96539792387543, -- [8]
+				87.19723183391004, -- [9]
+				83.91003460207612, -- [10]
+				90.31141868512111, -- [11]
+				92.21453287197232, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				89.96539792387543, -- [16]
+				90.31141868512111, -- [17]
+				87.54325259515571, -- [18]
+				87.54325259515571, -- [19]
+				87.54325259515571, -- [20]
+				87.54325259515571, -- [21]
+				87.54325259515571, -- [22]
+				89.44636678200692, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				97.2318339100346, -- [27]
+				94.80968858131487, -- [28]
+				92.21453287197232, -- [29]
+				92.21453287197232, -- [30]
+				92.21453287197232, -- [31]
+				89.61937716262976, -- [32]
+				89.7923875432526, -- [33]
+				86.159169550173, -- [34]
+				81.83391003460207, -- [35]
+				81.83391003460207, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				97.40484429065744, -- [49]
+				97.40484429065744, -- [50]
+			},
+			["LastEvents"] = {
+				"Jegjegos Lightning Bolt Kolkar Wrangler Hit -56 (Nature)", -- [1]
+				"Jegjegos Lightning Bolt Kolkar Wrangler Hit -55 (Nature)", -- [2]
+				"Jegjegos Earth Shock Kolkar Wrangler Crit -100 (Nature)", -- [3]
+				"Jegjegos Lightning Bolt Kolkar Wrangler Hit -51 (Nature)", -- [4]
+				"Kolkar Marauder Melee Jegjegos Miss", -- [5]
+				"Kolkar Marauder Melee Jegjegos Hit -59 (Physical)", -- [6]
+				"Jegjegos Earth Shock Kolkar Marauder Hit -71 (Nature)", -- [7]
+				"Kolkar Marauder Melee Jegjegos Hit -17 (Physical)", -- [8]
+				"Kolkar Marauder Melee Jegjegos Hit -20 (Physical)", -- [9]
+				"Jegjegos Lightning Bolt Kolkar Marauder Hit -58 (Nature)", -- [10]
+				"Jegjegos Earth Shock Kolkar Pack Runner Hit -70 (Nature)", -- [11]
+				"Jegjegos Lightning Bolt Kolkar Packhound Hit -60 (Nature)", -- [12]
+				"Mahkloompah Judgement of Light Jegjegos Tick +11 (11 overheal)", -- [13]
+				"Jegjegos Earth Shock Kolkar Stormer Hit -74 (Nature)", -- [14]
+				"Jegjegos Earth Shock Barak Kodobane Hit -75 (Nature)", -- [15]
+				"Kolkar Marauder Melee Jegjegos Dodge", -- [16]
+				"Kolkar Marauder Melee Jegjegos Hit -16 (Physical)", -- [17]
+				"Jegjegos Fire Nova Kolkar Marauder Hit -69 (Fire)", -- [18]
+				"Jegjegos Fire Nova Kolkar Pack Runner Hit -63 (Fire)", -- [19]
+				"Jegjegos Fire Nova Kolkar Bloodcharger Hit -65 (Fire)", -- [20]
+				"Jegjegos Fire Nova Kolkar Bloodcharger Hit -67 (Fire)", -- [21]
+				"Jegjegos Earth Shock Kolkar Bloodcharger Hit -70 (Nature)", -- [22]
+				"Jegjegos Lightning Bolt Kolkar Packhound Hit -56 (Nature)", -- [23]
+				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -60 (Nature)", -- [24]
+				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -54 (Nature)", -- [25]
+				"Kolkar Pack Runner Melee Jegjegos Hit -16 (Physical)", -- [26]
+				"Kolkar Packhound Melee Jegjegos Hit -15 (Physical)", -- [27]
+				"Kolkar Pack Runner Melee Jegjegos Hit -15 (Physical)", -- [28]
+				"Jegjegos Earth Shock Kolkar Pack Runner Hit -69 (Nature)", -- [29]
+				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -54 (Nature)", -- [30]
+				"Kolkar Pack Runner Melee Jegjegos Hit -15 (Physical)", -- [31]
+				"Jegjegos Lightning Shield Kolkar Pack Runner Hit -30 (Nature)", -- [32]
+				"Kolkar Pack Runner Melee Jegjegos Hit -22 (Physical)", -- [33]
+				"Kolkar Pack Runner Melee Jegjegos Hit -25 (Physical)", -- [34]
+				"Jegjegos Lightning Shield Kolkar Pack Runner Hit -30 (Nature)", -- [35]
+				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -58 (Nature)", -- [36]
+				"Jegjegos Fire Nova Verog the Dervish Hit -68 (Fire)", -- [37]
+				"Jegjegos Fire Nova Verog the Dervish Hit -71 (Fire)", -- [38]
+				"Jegjegos Earth Shock Verog the Dervish Hit -71 (Nature)", -- [39]
+				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -54 (Nature)", -- [40]
+				"Jegjegos interrupts Kolkar Stormer Lightning Cloud (Wind Shear)", -- [41]
+				"Jegjegos Earth Shock Kolkar Bloodcharger Hit -69 (Nature)", -- [42]
+				"Mahkloompah Judgement of Light Jegjegos Tick +11 (11 overheal)", -- [43]
+				"Jegjegos Earth Shock Kolkar Pack Runner Hit -70 (Nature)", -- [44]
+				"Mahkloompah Judgement of Light Jegjegos Tick +11 (11 overheal)", -- [45]
+				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -51 (Nature)", -- [46]
+				"Jegjegos Earth Shock Kolkar Packhound Hit -71 (Nature)", -- [47]
+				"Jegjegos Lightning Bolt Kolkar Wrangler Hit -56 (Nature)", -- [48]
+				"Kolkar Wrangler Shoot Jegjegos Hit -15 (Physical)", -- [49]
+				"Jegjegos Lightning Shield Kolkar Wrangler Hit -30 (Nature)", -- [50]
+			},
+			["Name"] = "Jegjegos",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				true, -- [6]
+				false, -- [7]
+				true, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				true, -- [33]
+				true, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["LastDamageTaken"] = 20,
 			["Fights"] = {
 				["Fight5"] = {
 					["DOTs"] = {
@@ -16242,6 +16554,31 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 130,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 130,
+					},
+					["CCBroken"] = {
+					},
 					["ElementHitsDone"] = {
 						["Nature"] = {
 							["Details"] = {
@@ -16255,69 +16592,14 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 130,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Nature"] = 130,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Earth Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -16325,21 +16607,27 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 7,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
 					["TimeSpent"] = {
 						["Kolkar Pack Runner"] = {
 							["Details"] = {
@@ -16369,22 +16657,18 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 7,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 						["Lightning Bolt"] = {
 							["Details"] = {
@@ -16418,7 +16702,35 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["TimeDamage"] = 7,
 					["TimeDamaging"] = {
 						["Kolkar Pack Runner"] = {
@@ -16449,8 +16761,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -16475,10 +16787,10 @@ RecountPerCharDB = {
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Miss"] = {
+								["Hit"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
+								["Miss"] = {
 									["count"] = 0,
 								},
 							},
@@ -16495,21 +16807,9 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 151,
 					["ElementTaken"] = {
 						["Fire"] = 0,
 						["Melee"] = 0,
@@ -16517,23 +16817,12 @@ RecountPerCharDB = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Nature"] = 0,
-					},
 					["PartialAbsorb"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -16572,57 +16861,30 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Earth Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Earth Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0,
-								},
-								["Earth Shock"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 						["Bristleback Geomancer"] = {
 							["Details"] = {
@@ -16667,6 +16929,23 @@ RecountPerCharDB = {
 					},
 					["EnergyGainedFrom"] = {
 					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
 					["PartialResist"] = {
 						["Fireball"] = {
 							["Details"] = {
@@ -16705,32 +16984,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-						["Jegjegos"] = {
-							["Details"] = {
-								["Restore Mana"] = {
-									["count"] = 151,
-								},
-							},
-							["amount"] = 151,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
 					["ManaGained"] = {
 						["Restore Mana"] = {
 							["Details"] = {
@@ -16741,9 +16994,24 @@ RecountPerCharDB = {
 							["amount"] = 151,
 						},
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fireball (Wind Shear)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
 					["TimeSpent"] = {
 						["Kolkar Pack Runner"] = {
 							["Details"] = {
@@ -16793,30 +17061,26 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Fireball (Wind Shear)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+						["Jegjegos"] = {
+							["Details"] = {
+								["Restore Mana"] = {
+									["count"] = 151,
+								},
+							},
+							["amount"] = 151,
+						},
+					},
 					["Attacks"] = {
 						["Lightning Shield"] = {
 							["Details"] = {
@@ -16862,7 +17126,55 @@ RecountPerCharDB = {
 						},
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 						["Kolkar Pack Runner"] = {
@@ -16913,407 +17225,8 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ManaGain"] = 151,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 74,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Nature"] = 74,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 74,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
 					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 3.5,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Earth Shock"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 74,
-									["min"] = 74,
-									["count"] = 1,
-									["amount"] = 74,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 74,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 3.5,
-					["TimeDamaging"] = {
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 75,
 					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Nature"] = 75,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 3.5,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Earth Shock"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 75,
-									["min"] = 75,
-									["count"] = 1,
-									["amount"] = 75,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 75,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 3.5,
-					["TimeDamaging"] = {
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -17325,14 +17238,14 @@ RecountPerCharDB = {
 								["Witchwing Roguefeather"] = {
 									["count"] = 6,
 								},
+								["Kolkar Wrangler"] = {
+									["count"] = 9,
+								},
 								["Bristleback Hunter"] = {
 									["count"] = 6,
 								},
 								["Sunscale Scytheclaw"] = {
 									["count"] = 6,
-								},
-								["Kolkar Wrangler"] = {
-									["count"] = 9,
 								},
 							},
 							["amount"] = 27,
@@ -17344,19 +17257,19 @@ RecountPerCharDB = {
 					["ElementHitsTaken"] = {
 						["Physical"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 38,
-								},
 								["Miss"] = {
 									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 38,
 								},
 							},
 							["amount"] = 39,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["count"] = 90,
+								["Dodge"] = {
+									["count"] = 4,
 								},
 								["Miss"] = {
 									["count"] = 12,
@@ -17364,8 +17277,8 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["count"] = 7,
 								},
-								["Dodge"] = {
-									["count"] = 4,
+								["Hit"] = {
+									["count"] = 90,
 								},
 							},
 							["amount"] = 113,
@@ -17388,13 +17301,13 @@ RecountPerCharDB = {
 						},
 						["Nature"] = {
 							["Details"] = {
-								["Miss"] = {
+								["Tick"] = {
 									["count"] = 1,
 								},
 								["Hit"] = {
 									["count"] = 14,
 								},
-								["Tick"] = {
+								["Miss"] = {
 									["count"] = 1,
 								},
 							},
@@ -17424,8 +17337,8 @@ RecountPerCharDB = {
 					},
 					["Overhealing"] = 920,
 					["ElementTaken"] = {
-						["Fire"] = 163,
 						["Physical"] = 843,
+						["Fire"] = 163,
 						["Melee"] = 1982,
 						["Nature"] = 527,
 					},
@@ -17440,8 +17353,8 @@ RecountPerCharDB = {
 					["ElementHitsDone"] = {
 						["Fire"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
+								["Tick"] = {
+									["count"] = 8,
 								},
 								["Hit"] = {
 									["count"] = 35,
@@ -17449,8 +17362,8 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["count"] = 2,
 								},
-								["Tick"] = {
-									["count"] = 8,
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 46,
@@ -17468,14 +17381,14 @@ RecountPerCharDB = {
 						},
 						["Nature"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 7,
+								["Hit"] = {
+									["count"] = 367,
 								},
 								["Crit"] = {
 									["count"] = 30,
 								},
-								["Hit"] = {
-									["count"] = 367,
+								["Miss"] = {
+									["count"] = 7,
 								},
 							},
 							["amount"] = 404,
@@ -17495,11 +17408,11 @@ RecountPerCharDB = {
 						},
 						["Kolkar Stormer"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 45,
-								},
 								["Lightning Cloud"] = {
 									["count"] = 32,
+								},
+								["Melee"] = {
+									["count"] = 45,
 								},
 								["Lightning Cloud (DoT)"] = {
 									["count"] = 41,
@@ -17509,11 +17422,11 @@ RecountPerCharDB = {
 						},
 						["Bristleback Thornweaver"] = {
 							["Details"] = {
-								["Wrath"] = {
-									["count"] = 341,
-								},
 								["Melee"] = {
 									["count"] = 146,
+								},
+								["Wrath"] = {
+									["count"] = 341,
 								},
 								["Thorns"] = {
 									["count"] = 6,
@@ -17745,18 +17658,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Mortal Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Hamstring"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -17781,19 +17682,31 @@ RecountPerCharDB = {
 							["count"] = 26,
 							["amount"] = 0,
 						},
-						["Lightning Shield"] = {
+						["Mortal Strike"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 3,
+									["count"] = 1,
 									["amount"] = 0,
 								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Lightning Shield"] = {
+							["Details"] = {
 								["25%Resist"] = {
 									["max"] = 5,
 									["min"] = 5,
 									["count"] = 1,
 									["amount"] = 5,
+								},
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 4,
@@ -17801,17 +17714,17 @@ RecountPerCharDB = {
 						},
 						["Wrath"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 8,
-									["min"] = 4,
-									["count"] = 2,
-									["amount"] = 12,
-								},
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 7,
 									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 8,
+									["min"] = 4,
+									["count"] = 2,
+									["amount"] = 12,
 								},
 							},
 							["count"] = 9,
@@ -17933,18 +17846,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Mortal Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Hamstring"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -17967,6 +17868,18 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 26,
+							["amount"] = 0,
+						},
+						["Mortal Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Lightning Shield"] = {
@@ -18109,6 +18022,932 @@ RecountPerCharDB = {
 							["amount"] = 2638,
 						},
 					},
+					["HealedWho"] = {
+						["Kaya Flathoof"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 264,
+								},
+							},
+							["amount"] = 264,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 2113,
+								},
+							},
+							["amount"] = 2113,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 261,
+								},
+							},
+							["amount"] = 261,
+						},
+					},
+					["Healing"] = 2638,
+					["TimeSpent"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 3.65,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 64.03,
+								},
+								["Earth Shock"] = {
+									["count"] = 68.72,
+								},
+							},
+							["amount"] = 136.4,
+						},
+						["Grimtotem Sorcerer"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 27.19,
+								},
+								["Earth Shock"] = {
+									["count"] = 20.98,
+								},
+							},
+							["amount"] = 48.17,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Flametongue Attack"] = {
+									["count"] = 0.35,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 81.49000000000001,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Earth Shock"] = {
+									["count"] = 88.72000000000001,
+								},
+							},
+							["amount"] = 174.06,
+						},
+						["Cliff Stormer"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 10.5,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 60.44,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Earth Shock"] = {
+									["count"] = 74.09999999999999,
+								},
+							},
+							["amount"] = 148.54,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 4.23,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Earth Shock"] = {
+									["count"] = 67.52,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 6.07,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 43.86,
+								},
+								["Flame Shock"] = {
+									["count"] = 0.12,
+								},
+							},
+							["amount"] = 125.3,
+						},
+						["Grimtotem Brute"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 14.82,
+								},
+								["Earth Shock"] = {
+									["count"] = 7.91,
+								},
+							},
+							["amount"] = 22.73,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 7.24,
+								},
+								["Earth Shock"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 17.74,
+						},
+						["Verog the Dervish"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 3.5,
+								},
+								["Earth Shock"] = {
+									["count"] = 2.33,
+								},
+							},
+							["amount"] = 5.83,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 5.49,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 19.18,
+								},
+								["Earth Shock"] = {
+									["count"] = 18.79,
+								},
+							},
+							["amount"] = 43.46,
+						},
+						["Kaya Flathoof"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Sunscale Scytheclaw"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 3.79,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 6.04,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 16.83,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 4.17,
+								},
+								["Earth Shock"] = {
+									["count"] = 1.53,
+								},
+							},
+							["amount"] = 5.7,
+						},
+						["Hecklefang Hyena"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 16.51,
+								},
+								["Earth Shock"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 27.01,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 1.34,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 8.92,
+								},
+								["Earth Shock"] = {
+									["count"] = 17.08,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 14.45,
+								},
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 45.29000000000001,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 3.5,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 23.77,
+								},
+								["Earth Shock"] = {
+									["count"] = 19.45,
+								},
+							},
+							["amount"] = 46.72,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0.89,
+								},
+								["Earth Shock"] = {
+									["count"] = 8.75,
+								},
+							},
+							["amount"] = 9.640000000000001,
+						},
+						["Witchwing Roguefeather"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 1.33,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 4.62,
+								},
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 26.07,
+								},
+								["Earth Shock"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 63.52,
+						},
+						["Ornery Plainstrider"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 6.12,
+								},
+								["Earth Shock"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 16.62,
+						},
+						["Grimtotem Mercenary"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 1.96,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 31.64,
+								},
+								["Earth Shock"] = {
+									["count"] = 40.21,
+								},
+							},
+							["amount"] = 73.80999999999999,
+						},
+						["Grundig Darkcloud"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 9.42,
+								},
+								["Earth Shock"] = {
+									["count"] = 1.36,
+								},
+							},
+							["amount"] = 10.78,
+						},
+						["Witchwing Harpy"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 6.470000000000001,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 12.62,
+								},
+								["Earth Shock"] = {
+									["count"] = 17.84,
+								},
+							},
+							["amount"] = 36.93000000000001,
+						},
+						["Jegjegos"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Grimtotem Ruffian"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 12.83,
+								},
+								["Earth Shock"] = {
+									["count"] = 23.85,
+								},
+							},
+							["amount"] = 36.68,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 29.37,
+								},
+							},
+							["amount"] = 29.37,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 7.43,
+								},
+								["Earth Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 10.93,
+						},
+						["Witchwing Windcaller"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Stormsnout"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0.96,
+								},
+								["Earth Shock"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7.96,
+						},
+					},
+					["DamageTaken"] = 3515,
+					["Attacks"] = {
+						["Fire Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 74,
+									["min"] = 63,
+									["count"] = 29,
+									["amount"] = 1979,
+								},
+								["Crit"] = {
+									["max"] = 107,
+									["min"] = 107,
+									["count"] = 1,
+									["amount"] = 107,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 31,
+							["amount"] = 2086,
+						},
+						["Lightning Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 30,
+									["min"] = 30,
+									["count"] = 3,
+									["amount"] = 90,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 90,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 19,
+									["min"] = 19,
+									["count"] = 1,
+									["amount"] = 19,
+								},
+								["Tick"] = {
+									["max"] = 14,
+									["min"] = 6,
+									["count"] = 8,
+									["amount"] = 88,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 107,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 53,
+									["min"] = 19,
+									["count"] = 5,
+									["amount"] = 221,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 221,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 53,
+									["min"] = 48,
+									["count"] = 2,
+									["amount"] = 101,
+								},
+								["Hit (Blocked)"] = {
+									["max"] = 54,
+									["min"] = 54,
+									["count"] = 1,
+									["amount"] = 54,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 155,
+						},
+						["Flametongue Attack"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 68,
+									["min"] = 51,
+									["count"] = 193,
+									["amount"] = 11587,
+								},
+								["Crit"] = {
+									["max"] = 105,
+									["min"] = 80,
+									["count"] = 12,
+									["amount"] = 1117,
+								},
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 209,
+							["amount"] = 12704,
+						},
+						["Earth Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 79,
+									["min"] = 67,
+									["count"] = 171,
+									["amount"] = 12288,
+								},
+								["Crit"] = {
+									["max"] = 118,
+									["min"] = 100,
+									["count"] = 18,
+									["amount"] = 1948,
+								},
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 192,
+							["amount"] = 14236,
+						},
+					},
+					["HealingTaken"] = 442,
+					["ActiveTime"] = 1184.519999999999,
+					["TimeDamage"] = 1148.149999999999,
+					["TimeDamaging"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 3.65,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 64.03,
+								},
+								["Earth Shock"] = {
+									["count"] = 68.72,
+								},
+							},
+							["amount"] = 136.4,
+						},
+						["Grimtotem Sorcerer"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Kolkar Stormer"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 27.19,
+								},
+								["Earth Shock"] = {
+									["count"] = 20.98,
+								},
+							},
+							["amount"] = 48.17,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Flametongue Attack"] = {
+									["count"] = 0.35,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 81.49000000000001,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Earth Shock"] = {
+									["count"] = 88.72000000000001,
+								},
+							},
+							["amount"] = 174.06,
+						},
+						["Cliff Stormer"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 10.5,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 60.44,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Earth Shock"] = {
+									["count"] = 74.09999999999999,
+								},
+							},
+							["amount"] = 148.54,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 4.23,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Earth Shock"] = {
+									["count"] = 67.52,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 6.07,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 43.86,
+								},
+								["Flame Shock"] = {
+									["count"] = 0.12,
+								},
+							},
+							["amount"] = 125.3,
+						},
+						["Grimtotem Brute"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 14.82,
+								},
+								["Earth Shock"] = {
+									["count"] = 7.91,
+								},
+							},
+							["amount"] = 22.73,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 7.24,
+								},
+								["Earth Shock"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 17.74,
+						},
+						["Kolkar Pack Runner"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 5.49,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 19.18,
+								},
+								["Earth Shock"] = {
+									["count"] = 18.79,
+								},
+							},
+							["amount"] = 43.46,
+						},
+						["Verog the Dervish"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 3.5,
+								},
+								["Earth Shock"] = {
+									["count"] = 2.33,
+								},
+							},
+							["amount"] = 5.83,
+						},
+						["Hecklefang Hyena"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 16.51,
+								},
+								["Earth Shock"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 27.01,
+						},
+						["Sunscale Scytheclaw"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 3.79,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 6.04,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 16.83,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Kolkar Marauder"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 3.5,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 23.77,
+								},
+								["Earth Shock"] = {
+									["count"] = 19.45,
+								},
+							},
+							["amount"] = 46.72,
+						},
+						["Witchwing Roguefeather"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 1.33,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 4.62,
+								},
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 26.07,
+								},
+								["Earth Shock"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 63.52,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 4.17,
+								},
+								["Earth Shock"] = {
+									["count"] = 1.53,
+								},
+							},
+							["amount"] = 5.7,
+						},
+						["Kolkar Wrangler"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 1.34,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 8.92,
+								},
+								["Earth Shock"] = {
+									["count"] = 17.08,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 14.45,
+								},
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 45.29000000000001,
+						},
+						["Grimtotem Mercenary"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 1.96,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 31.64,
+								},
+								["Earth Shock"] = {
+									["count"] = 40.21,
+								},
+							},
+							["amount"] = 73.80999999999999,
+						},
+						["Witchwing Harpy"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 6.470000000000001,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 12.62,
+								},
+								["Earth Shock"] = {
+									["count"] = 17.84,
+								},
+							},
+							["amount"] = 36.93000000000001,
+						},
+						["Grundig Darkcloud"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 9.42,
+								},
+								["Earth Shock"] = {
+									["count"] = 1.36,
+								},
+							},
+							["amount"] = 10.78,
+						},
+						["Ornery Plainstrider"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 6.12,
+								},
+								["Earth Shock"] = {
+									["count"] = 10.5,
+								},
+							},
+							["amount"] = 16.62,
+						},
+						["Grimtotem Ruffian"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 12.83,
+								},
+								["Earth Shock"] = {
+									["count"] = 23.85,
+								},
+							},
+							["amount"] = 36.68,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 0.89,
+								},
+								["Earth Shock"] = {
+									["count"] = 8.75,
+								},
+							},
+							["amount"] = 9.640000000000001,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 7.43,
+								},
+								["Earth Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 10.93,
+						},
+						["Witchwing Windcaller"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Stormsnout"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0.96,
+								},
+								["Earth Shock"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7.96,
+						},
+					},
+					["ManaGain"] = 1455,
+					["ManaGainedFrom"] = {
+						["Jegjegos"] = {
+							["Details"] = {
+								["Restore Mana"] = {
+									["count"] = 1434,
+								},
+							},
+							["amount"] = 1434,
+						},
+						["Mahkloompah"] = {
+							["Details"] = {
+								["Judgement of Wisdom"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+					},
 					["DamagedWho"] = {
 						["Bristleback Geomancer"] = {
 							["Details"] = {
@@ -18148,11 +18987,11 @@ RecountPerCharDB = {
 								["Flametongue Attack"] = {
 									["count"] = 16,
 								},
-								["Melee"] = {
-									["count"] = 54,
-								},
 								["Lightning Bolt"] = {
 									["count"] = 2082,
+								},
+								["Melee"] = {
+									["count"] = 54,
 								},
 								["Earth Shock"] = {
 									["count"] = 2006,
@@ -18173,11 +19012,11 @@ RecountPerCharDB = {
 								["Fire Nova"] = {
 									["count"] = 336,
 								},
-								["Melee"] = {
-									["count"] = 53,
-								},
 								["Lightning Bolt"] = {
 									["count"] = 1595,
+								},
+								["Melee"] = {
+									["count"] = 53,
 								},
 								["Earth Shock"] = {
 									["count"] = 1786,
@@ -18193,17 +19032,17 @@ RecountPerCharDB = {
 								["Melee"] = {
 									["count"] = 48,
 								},
+								["Earth Shock"] = {
+									["count"] = 1697,
+								},
 								["Flame Shock (DoT)"] = {
 									["count"] = 32,
-								},
-								["Flame Shock"] = {
-									["count"] = 49,
 								},
 								["Lightning Bolt"] = {
 									["count"] = 1186,
 								},
-								["Earth Shock"] = {
-									["count"] = 1697,
+								["Flame Shock"] = {
+									["count"] = 49,
 								},
 							},
 							["amount"] = 3465,
@@ -18247,13 +19086,16 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1156,
 						},
-						["Barak Kodobane"] = {
+						["Verog the Dervish"] = {
 							["Details"] = {
+								["Fire Nova"] = {
+									["count"] = 139,
+								},
 								["Earth Shock"] = {
-									["count"] = 75,
+									["count"] = 71,
 								},
 							},
-							["amount"] = 75,
+							["amount"] = 210,
 						},
 						["Hecklefang Hyena"] = {
 							["Details"] = {
@@ -18266,33 +19108,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 593,
 						},
-						["Verog the Dervish"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 139,
-								},
-								["Earth Shock"] = {
-									["count"] = 71,
-								},
-							},
-							["amount"] = 210,
-						},
 						["Sunscale Scytheclaw"] = {
 							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 155,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 28,
+								},
 								["Lightning Bolt"] = {
 									["count"] = 67,
 								},
 								["Flame Shock"] = {
 									["count"] = 53,
 								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 28,
-								},
-								["Earth Shock"] = {
-									["count"] = 155,
-								},
 							},
 							["amount"] = 303,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
 						},
 						["Kolkar Marauder"] = {
 							["Details"] = {
@@ -18316,53 +19155,59 @@ RecountPerCharDB = {
 								["Flame Shock (DoT)"] = {
 									["count"] = 28,
 								},
-								["Earth Shock"] = {
-									["count"] = 573,
+								["Flame Shock"] = {
+									["count"] = 50,
 								},
 								["Lightning Bolt"] = {
 									["count"] = 788,
 								},
-								["Flame Shock"] = {
-									["count"] = 50,
+								["Earth Shock"] = {
+									["count"] = 573,
 								},
 							},
 							["amount"] = 1859,
 						},
-						["Kolkar Bloodcharger"] = {
+						["Witchwing Slayer"] = {
 							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 132,
-								},
 								["Lightning Bolt"] = {
-									["count"] = 61,
+									["count"] = 118,
 								},
 								["Earth Shock"] = {
-									["count"] = 211,
+									["count"] = 142,
 								},
 							},
-							["amount"] = 404,
+							["amount"] = 260,
 						},
-						["Sunscale Screecher"] = {
+						["Kolkar Wrangler"] = {
 							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 231,
+								["Lightning Shield"] = {
+									["count"] = 30,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 19,
 								},
 								["Earth Shock"] = {
-									["count"] = 151,
+									["count"] = 482,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 438,
+								},
+								["Flame Shock"] = {
+									["count"] = 19,
 								},
 							},
-							["amount"] = 382,
+							["amount"] = 988,
 						},
 						["Grimtotem Mercenary"] = {
 							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 1135,
+								["Flame Shock"] = {
+									["count"] = 50,
 								},
 								["Lightning Bolt"] = {
 									["count"] = 699,
 								},
-								["Flame Shock"] = {
-									["count"] = 50,
+								["Earth Shock"] = {
+									["count"] = 1135,
 								},
 							},
 							["amount"] = 1884,
@@ -18414,36 +19259,30 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1156,
 						},
-						["Kolkar Wrangler"] = {
+						["Kolkar Bloodcharger"] = {
 							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 30,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 19,
-								},
-								["Flame Shock"] = {
-									["count"] = 19,
+								["Fire Nova"] = {
+									["count"] = 132,
 								},
 								["Lightning Bolt"] = {
-									["count"] = 438,
+									["count"] = 61,
 								},
 								["Earth Shock"] = {
-									["count"] = 482,
+									["count"] = 211,
 								},
 							},
-							["amount"] = 988,
+							["amount"] = 404,
 						},
-						["Witchwing Slayer"] = {
+						["Sunscale Screecher"] = {
 							["Details"] = {
 								["Lightning Bolt"] = {
-									["count"] = 118,
+									["count"] = 231,
 								},
 								["Earth Shock"] = {
-									["count"] = 142,
+									["count"] = 151,
 								},
 							},
-							["amount"] = 260,
+							["amount"] = 382,
 						},
 						["Witchwing Windcaller"] = {
 							["Details"] = {
@@ -18465,307 +19304,243 @@ RecountPerCharDB = {
 							["amount"] = 252,
 						},
 					},
-					["Healing"] = 2638,
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
 					["ManaGainedFrom"] = {
-						["Jegjegos"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 75,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 75,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
 							["Details"] = {
-								["Restore Mana"] = {
-									["count"] = 1434,
+								["Hit"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 1434,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Judgement of Wisdom"] = {
-									["count"] = 21,
-								},
-							},
-							["amount"] = 21,
+							["amount"] = 1,
 						},
 					},
-					["DamageTaken"] = 3515,
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
-						["Fire Nova"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 107,
-									["min"] = 107,
-									["count"] = 1,
-									["amount"] = 107,
-								},
-								["Hit"] = {
-									["max"] = 74,
-									["min"] = 63,
-									["count"] = 29,
-									["amount"] = 1979,
-								},
-							},
-							["count"] = 31,
-							["amount"] = 2086,
-						},
-						["Lightning Shield"] = {
+						["Earth Shock"] = {
 							["Details"] = {
 								["Hit"] = {
-									["max"] = 30,
-									["min"] = 30,
-									["count"] = 3,
-									["amount"] = 90,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 90,
-						},
-						["Flame Shock (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 19,
-									["min"] = 19,
+									["max"] = 75,
+									["min"] = 75,
 									["count"] = 1,
-									["amount"] = 19,
-								},
-								["Tick"] = {
-									["max"] = 14,
-									["min"] = 6,
-									["count"] = 8,
-									["amount"] = 88,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 107,
-						},
-						["Flametongue Attack"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 16,
-									["min"] = 16,
-									["count"] = 1,
-									["amount"] = 16,
+									["amount"] = 75,
 								},
 							},
 							["count"] = 1,
-							["amount"] = 16,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 53,
-									["min"] = 48,
-									["count"] = 2,
-									["amount"] = 101,
-								},
-								["Hit (Blocked)"] = {
-									["max"] = 54,
-									["min"] = 54,
-									["count"] = 1,
-									["amount"] = 54,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 155,
-						},
-						["Earth Shock"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 3,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 118,
-									["min"] = 100,
-									["count"] = 18,
-									["amount"] = 1948,
-								},
-								["Hit"] = {
-									["max"] = 79,
-									["min"] = 67,
-									["count"] = 171,
-									["amount"] = 12288,
-								},
-							},
-							["count"] = 192,
-							["amount"] = 14236,
-						},
-						["Lightning Bolt"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 4,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 105,
-									["min"] = 80,
-									["count"] = 12,
-									["amount"] = 1117,
-								},
-								["Hit"] = {
-									["max"] = 68,
-									["min"] = 51,
-									["count"] = 193,
-									["amount"] = 11587,
-								},
-							},
-							["count"] = 209,
-							["amount"] = 12704,
-						},
-						["Flame Shock"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 53,
-									["min"] = 19,
-									["count"] = 5,
-									["amount"] = 221,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 221,
+							["amount"] = 75,
 						},
 					},
-					["HealingTaken"] = 442,
-					["ActiveTime"] = 1184.519999999999,
-					["TimeDamage"] = 1148.149999999999,
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+					},
+					["TimeDamage"] = 3.5,
 					["TimeDamaging"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 3.65,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 64.03,
-								},
-								["Earth Shock"] = {
-									["count"] = 68.72,
-								},
-							},
-							["amount"] = 136.4,
-						},
-						["Grimtotem Sorcerer"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Kolkar Stormer"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 27.19,
-								},
-								["Earth Shock"] = {
-									["count"] = 20.98,
-								},
-							},
-							["amount"] = 48.17,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Flametongue Attack"] = {
-									["count"] = 0.35,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 81.49000000000001,
-								},
-								["Earth Shock"] = {
-									["count"] = 88.72000000000001,
-								},
-							},
-							["amount"] = 174.06,
-						},
-						["Cliff Stormer"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 10.5,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 60.44,
-								},
-								["Earth Shock"] = {
-									["count"] = 74.09999999999999,
-								},
-							},
-							["amount"] = 148.54,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 4.23,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 6.07,
-								},
-								["Flame Shock"] = {
-									["count"] = 0.12,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 43.86,
-								},
-								["Earth Shock"] = {
-									["count"] = 67.52,
-								},
-							},
-							["amount"] = 125.3,
-						},
-						["Grimtotem Brute"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 14.82,
-								},
-								["Earth Shock"] = {
-									["count"] = 7.91,
-								},
-							},
-							["amount"] = 22.73,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 7.24,
-								},
-								["Earth Shock"] = {
-									["count"] = 10.5,
-								},
-							},
-							["amount"] = 17.74,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 5.49,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 19.18,
-								},
-								["Earth Shock"] = {
-									["count"] = 18.79,
-								},
-							},
-							["amount"] = 43.46,
-						},
 						["Barak Kodobane"] = {
 							["Details"] = {
 								["Earth Shock"] = {
@@ -18773,940 +19548,165 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 3.5,
-						},
-						["Hecklefang Hyena"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 16.51,
-								},
-								["Earth Shock"] = {
-									["count"] = 10.5,
-								},
-							},
-							["amount"] = 27.01,
-						},
-						["Verog the Dervish"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 3.5,
-								},
-								["Earth Shock"] = {
-									["count"] = 2.33,
-								},
-							},
-							["amount"] = 5.83,
-						},
-						["Sunscale Scytheclaw"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 3.5,
-								},
-								["Flame Shock"] = {
-									["count"] = 3.5,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 6.04,
-								},
-								["Earth Shock"] = {
-									["count"] = 3.79,
-								},
-							},
-							["amount"] = 16.83,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 3.5,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 23.77,
-								},
-								["Earth Shock"] = {
-									["count"] = 19.45,
-								},
-							},
-							["amount"] = 46.72,
-						},
-						["Witchwing Roguefeather"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 1.33,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 4.62,
-								},
-								["Earth Shock"] = {
-									["count"] = 28,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 26.07,
-								},
-								["Flame Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 63.52,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0.89,
-								},
-								["Earth Shock"] = {
-									["count"] = 8.75,
-								},
-							},
-							["amount"] = 9.640000000000001,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 7.43,
-								},
-								["Earth Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 10.93,
-						},
-						["Grimtotem Mercenary"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 40.21,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 31.64,
-								},
-								["Flame Shock"] = {
-									["count"] = 1.96,
-								},
-							},
-							["amount"] = 73.80999999999999,
-						},
-						["Witchwing Harpy"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 6.470000000000001,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 12.62,
-								},
-								["Earth Shock"] = {
-									["count"] = 17.84,
-								},
-							},
-							["amount"] = 36.93000000000001,
-						},
-						["Grundig Darkcloud"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 9.42,
-								},
-								["Earth Shock"] = {
-									["count"] = 1.36,
-								},
-							},
-							["amount"] = 10.78,
-						},
-						["Ornery Plainstrider"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 6.12,
-								},
-								["Earth Shock"] = {
-									["count"] = 10.5,
-								},
-							},
-							["amount"] = 16.62,
-						},
-						["Grimtotem Ruffian"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 12.83,
-								},
-								["Earth Shock"] = {
-									["count"] = 23.85,
-								},
-							},
-							["amount"] = 36.68,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 1.34,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 8.92,
-								},
-								["Flame Shock"] = {
-									["count"] = 3.5,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 14.45,
-								},
-								["Earth Shock"] = {
-									["count"] = 17.08,
-								},
-							},
-							["amount"] = 45.29000000000001,
-						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 4.17,
-								},
-								["Earth Shock"] = {
-									["count"] = 1.53,
-								},
-							},
-							["amount"] = 5.7,
-						},
-						["Witchwing Windcaller"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Stormsnout"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0.96,
-								},
-								["Earth Shock"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7.96,
 						},
 					},
-					["ManaGain"] = 1455,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 74,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 74,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
 					["TimeSpent"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 3.65,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 64.03,
-								},
-								["Earth Shock"] = {
-									["count"] = 68.72,
-								},
-							},
-							["amount"] = 136.4,
-						},
-						["Grimtotem Sorcerer"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
 						["Kolkar Stormer"] = {
 							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 27.19,
-								},
-								["Earth Shock"] = {
-									["count"] = 20.98,
-								},
-							},
-							["amount"] = 48.17,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Flametongue Attack"] = {
-									["count"] = 0.35,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 81.49000000000001,
-								},
-								["Earth Shock"] = {
-									["count"] = 88.72000000000001,
-								},
-							},
-							["amount"] = 174.06,
-						},
-						["Cliff Stormer"] = {
-							["Details"] = {
 								["Earth Shock"] = {
 									["count"] = 3.5,
 								},
 							},
 							["amount"] = 3.5,
 						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 10.5,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 60.44,
-								},
-								["Earth Shock"] = {
-									["count"] = 74.09999999999999,
-								},
-							},
-							["amount"] = 148.54,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 4.23,
-								},
-								["Melee"] = {
-									["count"] = 3.5,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 6.07,
-								},
-								["Flame Shock"] = {
-									["count"] = 0.12,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 43.86,
-								},
-								["Earth Shock"] = {
-									["count"] = 67.52,
-								},
-							},
-							["amount"] = 125.3,
-						},
-						["Grimtotem Brute"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 14.82,
-								},
-								["Earth Shock"] = {
-									["count"] = 7.91,
-								},
-							},
-							["amount"] = 22.73,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 7.24,
-								},
-								["Earth Shock"] = {
-									["count"] = 10.5,
-								},
-							},
-							["amount"] = 17.74,
-						},
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Kolkar Pack Runner"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 5.49,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 19.18,
-								},
-								["Earth Shock"] = {
-									["count"] = 18.79,
-								},
-							},
-							["amount"] = 43.46,
-						},
-						["Kaya Flathoof"] = {
-							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Verog the Dervish"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 3.5,
-								},
-								["Earth Shock"] = {
-									["count"] = 2.33,
-								},
-							},
-							["amount"] = 5.83,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 0,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 0.89,
-								},
-								["Earth Shock"] = {
-									["count"] = 8.75,
-								},
-							},
-							["amount"] = 9.640000000000001,
-						},
-						["Hecklefang Hyena"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 16.51,
-								},
-								["Earth Shock"] = {
-									["count"] = 10.5,
-								},
-							},
-							["amount"] = 27.01,
-						},
-						["Jegjegos"] = {
-							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Sunscale Scytheclaw"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 3.5,
-								},
-								["Flame Shock"] = {
-									["count"] = 3.5,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 6.04,
-								},
-								["Earth Shock"] = {
-									["count"] = 3.79,
-								},
-							},
-							["amount"] = 16.83,
-						},
-						["Kolkar Marauder"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 3.5,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 23.77,
-								},
-								["Earth Shock"] = {
-									["count"] = 19.45,
-								},
-							},
-							["amount"] = 46.72,
-						},
-						["Witchwing Roguefeather"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 1.33,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 4.62,
-								},
-								["Earth Shock"] = {
-									["count"] = 28,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 26.07,
-								},
-								["Flame Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 63.52,
-						},
-						["Mahkloompah"] = {
-							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 29.37,
-								},
-							},
-							["amount"] = 29.37,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 7.43,
-								},
-								["Earth Shock"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 10.93,
-						},
-						["Grimtotem Mercenary"] = {
-							["Details"] = {
-								["Earth Shock"] = {
-									["count"] = 40.21,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 31.64,
-								},
-								["Flame Shock"] = {
-									["count"] = 1.96,
-								},
-							},
-							["amount"] = 73.80999999999999,
-						},
-						["Witchwing Harpy"] = {
-							["Details"] = {
-								["Fire Nova"] = {
-									["count"] = 6.470000000000001,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 12.62,
-								},
-								["Earth Shock"] = {
-									["count"] = 17.84,
-								},
-							},
-							["amount"] = 36.93000000000001,
-						},
-						["Grundig Darkcloud"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 9.42,
-								},
-								["Earth Shock"] = {
-									["count"] = 1.36,
-								},
-							},
-							["amount"] = 10.78,
-						},
-						["Ornery Plainstrider"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 6.12,
-								},
-								["Earth Shock"] = {
-									["count"] = 10.5,
-								},
-							},
-							["amount"] = 16.62,
-						},
-						["Grimtotem Ruffian"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 12.83,
-								},
-								["Earth Shock"] = {
-									["count"] = 23.85,
-								},
-							},
-							["amount"] = 36.68,
-						},
-						["Kolkar Wrangler"] = {
-							["Details"] = {
-								["Lightning Shield"] = {
-									["count"] = 1.34,
-								},
-								["Flame Shock (DoT)"] = {
-									["count"] = 8.92,
-								},
-								["Flame Shock"] = {
-									["count"] = 3.5,
-								},
-								["Lightning Bolt"] = {
-									["count"] = 14.45,
-								},
-								["Earth Shock"] = {
-									["count"] = 17.08,
-								},
-							},
-							["amount"] = 45.29000000000001,
-						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 4.17,
-								},
-								["Earth Shock"] = {
-									["count"] = 1.53,
-								},
-							},
-							["amount"] = 5.7,
-						},
-						["Witchwing Windcaller"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Stormsnout"] = {
-							["Details"] = {
-								["Lightning Bolt"] = {
-									["count"] = 0.96,
-								},
-								["Earth Shock"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7.96,
-						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
 					},
 					["HealedWho"] = {
-						["Kaya Flathoof"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Earth Shock"] = {
 							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 264,
+								["Hit"] = {
+									["max"] = 74,
+									["min"] = 74,
+									["count"] = 1,
+									["amount"] = 74,
 								},
 							},
-							["amount"] = 264,
+							["count"] = 1,
+							["amount"] = 74,
 						},
-						["Mahkloompah"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Kolkar Stormer"] = {
 							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 2113,
+								["Earth Shock"] = {
+									["count"] = 74,
 								},
 							},
-							["amount"] = 2113,
+							["amount"] = 74,
 						},
-						["Jegjegos"] = {
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Kolkar Stormer"] = {
 							["Details"] = {
-								["Healing Wave"] = {
-									["count"] = 261,
+								["Earth Shock"] = {
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 261,
+							["amount"] = 3.5,
 						},
 					},
-				},
-			},
-			["level"] = 19,
-			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 205,
-			["LastEventNum"] = {
-				[31] = 2.59515570934256,
-				[33] = 3.806228373702422,
-				[34] = 4.325259515570934,
-				[9] = 3.460207612456748,
-				[43] = 1.903114186851211,
-				[45] = 1.903114186851211,
-				[8] = 2.941176470588236,
-				[49] = 2.59515570934256,
-				[6] = 10.20761245674741,
-				[13] = 1.903114186851211,
-				[27] = 2.59515570934256,
-				[17] = 2.768166089965398,
-				[28] = 2.59515570934256,
-				[26] = 2.768166089965398,
-			},
-			["type"] = "Grouped",
-			["FightsSaved"] = 5,
-			["GuardianReverseGUIDs"] = {
-				["Stoneskin Totem II"] = {
-					["LatestGuardian"] = 10,
-					["GUIDs"] = {
-						"0xF13000171F178674", -- [1]
-						"0xF13000171F1787E1", -- [2]
-						"0xF13000171F178A93", -- [3]
-						"0xF13000171F17AF12", -- [4]
-						"0xF13000171F17B8DC", -- [5]
-						"0xF13000171F17F678", -- [6]
-						"0xF13000171F180D56", -- [7]
-						"0xF13000171F181194", -- [8]
-						"0xF13000171F183DAD", -- [9]
-						"0xF13000171F183DD0", -- [10]
-						[0] = "0xF13000171F177027",
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
-				},
-				["Strength of Earth Totem"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						[0] = "0xF1300016F2183DE0",
-					},
-				},
-				["Searing Totem"] = {
-					["LatestGuardian"] = 0,
-					["GUIDs"] = {
-						"0xF1300009DB17FC93", -- [1]
-						"0xF1300009DB1809C2", -- [2]
-						"0xF1300009DB180D49", -- [3]
-						"0xF1300009DB18128A", -- [4]
-						"0xF1300009DB18130D", -- [5]
-						"0xF1300009DB181337", -- [6]
-						"0xF1300009DB1815E4", -- [7]
-						"0xF1300009DB181E91", -- [8]
-						"0xF1300009DB1820E1", -- [9]
-						"0xF1300009DB18257E", -- [10]
-						"0xF1300009DB182776", -- [11]
-						"0xF1300009DB183D86", -- [12]
-						"0xF1300009DB183F57", -- [13]
-						[0] = "0xF1300009DB177038",
-					},
-				},
-				["Earthbind Totem"] = {
-					["LatestGuardian"] = 10,
-					["GUIDs"] = {
-						"0xF130000A46178815", -- [1]
-						"0xF130000A461797D1", -- [2]
-						"0xF130000A46179875", -- [3]
-						"0xF130000A4617A1EC", -- [4]
-						"0xF130000A4617B0BB", -- [5]
-						"0xF130000A4617E589", -- [6]
-						"0xF130000A4617EDF3", -- [7]
-						"0xF130000A46180DE3", -- [8]
-						"0xF130000A46182F44", -- [9]
-						"0xF130000A46182FD5", -- [10]
-						[0] = "0xF130000A46178710",
+					["DispelledWho"] = {
 					},
 				},
 			},
-			["LastDamageTaken"] = 20,
-			["Owner"] = false,
-			["Pet"] = {
-				"Stoneskin Totem II <Jegjegos>", -- [1]
-				"Searing Totem <Jegjegos>", -- [2]
-				"Earthbind Totem <Jegjegos>", -- [3]
-				"Strength of Earth Totem <Jegjegos>", -- [4]
-			},
-			["NextEventNum"] = 16,
-			["LastEventHealthNum"] = {
-				97.40484429065744, -- [1]
-				86.85121107266436, -- [2]
-				87.0242214532872, -- [3]
-				84.25605536332181, -- [4]
-				100, -- [5]
-				100, -- [6]
-				89.96539792387543, -- [7]
-				89.96539792387543, -- [8]
-				87.19723183391004, -- [9]
-				83.91003460207612, -- [10]
-				90.31141868512111, -- [11]
-				92.21453287197232, -- [12]
-				100, -- [13]
-				100, -- [14]
-				100, -- [15]
-				89.96539792387543, -- [16]
-				90.31141868512111, -- [17]
-				87.54325259515571, -- [18]
-				87.54325259515571, -- [19]
-				87.54325259515571, -- [20]
-				87.54325259515571, -- [21]
-				87.54325259515571, -- [22]
-				89.44636678200692, -- [23]
-				100, -- [24]
-				100, -- [25]
-				100, -- [26]
-				97.2318339100346, -- [27]
-				94.80968858131487, -- [28]
-				92.21453287197232, -- [29]
-				92.21453287197232, -- [30]
-				92.21453287197232, -- [31]
-				89.61937716262976, -- [32]
-				89.7923875432526, -- [33]
-				86.159169550173, -- [34]
-				81.83391003460207, -- [35]
-				81.83391003460207, -- [36]
-				100, -- [37]
-				100, -- [38]
-				100, -- [39]
-				100, -- [40]
-				100, -- [41]
-				100, -- [42]
-				100, -- [43]
-				100, -- [44]
-				100, -- [45]
-				100, -- [46]
-				100, -- [47]
-				100, -- [48]
-				97.40484429065744, -- [49]
-				97.40484429065744, -- [50]
-			},
-			["LastEvents"] = {
-				"Jegjegos Lightning Bolt Kolkar Wrangler Hit -56 (Nature)", -- [1]
-				"Jegjegos Lightning Bolt Kolkar Wrangler Hit -55 (Nature)", -- [2]
-				"Jegjegos Earth Shock Kolkar Wrangler Crit -100 (Nature)", -- [3]
-				"Jegjegos Lightning Bolt Kolkar Wrangler Hit -51 (Nature)", -- [4]
-				"Kolkar Marauder Melee Jegjegos Miss", -- [5]
-				"Kolkar Marauder Melee Jegjegos Hit -59 (Physical)", -- [6]
-				"Jegjegos Earth Shock Kolkar Marauder Hit -71 (Nature)", -- [7]
-				"Kolkar Marauder Melee Jegjegos Hit -17 (Physical)", -- [8]
-				"Kolkar Marauder Melee Jegjegos Hit -20 (Physical)", -- [9]
-				"Jegjegos Lightning Bolt Kolkar Marauder Hit -58 (Nature)", -- [10]
-				"Jegjegos Earth Shock Kolkar Pack Runner Hit -70 (Nature)", -- [11]
-				"Jegjegos Lightning Bolt Kolkar Packhound Hit -60 (Nature)", -- [12]
-				"Mahkloompah Judgement of Light Jegjegos Tick +11 (11 overheal)", -- [13]
-				"Jegjegos Earth Shock Kolkar Stormer Hit -74 (Nature)", -- [14]
-				"Jegjegos Earth Shock Barak Kodobane Hit -75 (Nature)", -- [15]
-				"Kolkar Marauder Melee Jegjegos Dodge", -- [16]
-				"Kolkar Marauder Melee Jegjegos Hit -16 (Physical)", -- [17]
-				"Jegjegos Fire Nova Kolkar Marauder Hit -69 (Fire)", -- [18]
-				"Jegjegos Fire Nova Kolkar Pack Runner Hit -63 (Fire)", -- [19]
-				"Jegjegos Fire Nova Kolkar Bloodcharger Hit -65 (Fire)", -- [20]
-				"Jegjegos Fire Nova Kolkar Bloodcharger Hit -67 (Fire)", -- [21]
-				"Jegjegos Earth Shock Kolkar Bloodcharger Hit -70 (Nature)", -- [22]
-				"Jegjegos Lightning Bolt Kolkar Packhound Hit -56 (Nature)", -- [23]
-				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -60 (Nature)", -- [24]
-				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -54 (Nature)", -- [25]
-				"Kolkar Pack Runner Melee Jegjegos Hit -16 (Physical)", -- [26]
-				"Kolkar Packhound Melee Jegjegos Hit -15 (Physical)", -- [27]
-				"Kolkar Pack Runner Melee Jegjegos Hit -15 (Physical)", -- [28]
-				"Jegjegos Earth Shock Kolkar Pack Runner Hit -69 (Nature)", -- [29]
-				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -54 (Nature)", -- [30]
-				"Kolkar Pack Runner Melee Jegjegos Hit -15 (Physical)", -- [31]
-				"Jegjegos Lightning Shield Kolkar Pack Runner Hit -30 (Nature)", -- [32]
-				"Kolkar Pack Runner Melee Jegjegos Hit -22 (Physical)", -- [33]
-				"Kolkar Pack Runner Melee Jegjegos Hit -25 (Physical)", -- [34]
-				"Jegjegos Lightning Shield Kolkar Pack Runner Hit -30 (Nature)", -- [35]
-				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -58 (Nature)", -- [36]
-				"Jegjegos Fire Nova Verog the Dervish Hit -68 (Fire)", -- [37]
-				"Jegjegos Fire Nova Verog the Dervish Hit -71 (Fire)", -- [38]
-				"Jegjegos Earth Shock Verog the Dervish Hit -71 (Nature)", -- [39]
-				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -54 (Nature)", -- [40]
-				"Jegjegos interrupts Kolkar Stormer Lightning Cloud (Wind Shear)", -- [41]
-				"Jegjegos Earth Shock Kolkar Bloodcharger Hit -69 (Nature)", -- [42]
-				"Mahkloompah Judgement of Light Jegjegos Tick +11 (11 overheal)", -- [43]
-				"Jegjegos Earth Shock Kolkar Pack Runner Hit -70 (Nature)", -- [44]
-				"Mahkloompah Judgement of Light Jegjegos Tick +11 (11 overheal)", -- [45]
-				"Jegjegos Lightning Bolt Kolkar Pack Runner Hit -51 (Nature)", -- [46]
-				"Jegjegos Earth Shock Kolkar Packhound Hit -71 (Nature)", -- [47]
-				"Jegjegos Lightning Bolt Kolkar Wrangler Hit -56 (Nature)", -- [48]
-				"Kolkar Wrangler Shoot Jegjegos Hit -15 (Physical)", -- [49]
-				"Jegjegos Lightning Shield Kolkar Wrangler Hit -30 (Nature)", -- [50]
-			},
-			["Name"] = "Jegjegos",
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				false, -- [4]
-				true, -- [5]
-				true, -- [6]
-				false, -- [7]
-				true, -- [8]
-				true, -- [9]
-				false, -- [10]
-				false, -- [11]
-				false, -- [12]
-				true, -- [13]
-				false, -- [14]
-				false, -- [15]
-				true, -- [16]
-				true, -- [17]
-				false, -- [18]
-				false, -- [19]
-				false, -- [20]
-				false, -- [21]
-				false, -- [22]
-				false, -- [23]
-				false, -- [24]
-				false, -- [25]
-				true, -- [26]
-				true, -- [27]
-				true, -- [28]
-				false, -- [29]
-				false, -- [30]
-				true, -- [31]
-				false, -- [32]
-				true, -- [33]
-				true, -- [34]
-				false, -- [35]
-				false, -- [36]
-				false, -- [37]
-				false, -- [38]
-				false, -- [39]
-				false, -- [40]
-				false, -- [41]
-				false, -- [42]
-				true, -- [43]
-				false, -- [44]
-				true, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				true, -- [49]
-				false, -- [50]
-			},
-			["TimeLast"] = {
-				["TimeHeal"] = 1727559320,
-				["OVERALL"] = 1727561227,
-				["DamageTaken"] = 1727560168,
-				["Healing"] = 1727559320,
-				["Interrupts"] = 1727559849,
-				["HealingTaken"] = 1727559198,
-				["Overhealing"] = 1727559320,
-				["TimeDamage"] = 1727560911,
-				["ActiveTime"] = 1727560911,
-				["ManaGain"] = 1727561227,
-				["DOT_Time"] = 1727559186,
-				["Damage"] = 1727560911,
-			},
-			["lazysync"] = true,
-			["LastEventTimes"] = {
-				41564.61, -- [1]
-				41584.917, -- [2]
-				41586.842, -- [3]
-				41587.967, -- [4]
-				41736.265, -- [5]
-				41738.324, -- [6]
-				41740.015, -- [7]
-				41740.365, -- [8]
-				41742.899, -- [9]
-				41746.807, -- [10]
-				41756.84, -- [11]
-				41761.79, -- [12]
-				42382.434, -- [13]
-				42382.434, -- [14]
-				42486.009, -- [15]
-				41293.544, -- [16]
-				41295.72, -- [17]
-				41297.197, -- [18]
-				41297.197, -- [19]
-				41297.197, -- [20]
-				41297.198, -- [21]
-				41298.953, -- [22]
-				41303.853, -- [23]
-				41323.019, -- [24]
-				41325.078, -- [25]
-				41325.836, -- [26]
-				41327.219, -- [27]
-				41327.87, -- [28]
-				41328.019, -- [29]
-				41328.119, -- [30]
-				41330.086, -- [31]
-				41330.111, -- [32]
-				41332.244, -- [33]
-				41334.436, -- [34]
-				41334.527, -- [35]
-				41334.595, -- [36]
-				41381.81, -- [37]
-				41381.81, -- [38]
-				41384.144, -- [39]
-				41405.752, -- [40]
-				41424.41, -- [41]
-				41429.201, -- [42]
-				41517.084, -- [43]
-				41517.085, -- [44]
-				41517.55, -- [45]
-				41517.552, -- [46]
-				41523.334, -- [47]
-				41562.084, -- [48]
-				41563.309, -- [49]
-				41563.425, -- [50]
-			},
-			["LastAbility"] = 42486.009,
+			["UnitLockout"] = 1727551606,
+			["LastActive"] = 1727561227,
 		},
 		["Strength of Earth Totem <Jegjegos>"] = {
 			["GUID"] = "0xF1300016F2183DE0",
@@ -19737,11 +19737,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Strength of Earth Totem <Jegjegos> dies.", -- [1]
 					},
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727560934,
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -19753,27 +19753,8 @@ RecountPerCharDB = {
 				}, -- [1]
 			},
 			["Owner"] = "Jegjegos",
-			["NextEventNum"] = 2,
-			["LastEventHealthNum"] = {
-				0, -- [1]
-			},
-			["LastEvents"] = {
-				"Strength of Earth Totem <Jegjegos> dies.", -- [1]
-			},
-			["Name"] = "Strength of Earth Totem",
-			["TimeLast"] = {
-				["OVERALL"] = 1727560932,
-				["DeathCount"] = 1727560932,
-			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-			},
-			["LastEventTimes"] = {
-				42506.624, -- [1]
-			},
-			["UnitLockout"] = 1727560932,
 			["Fights"] = {
-				["Fight1"] = {
+				["OverallData"] = {
 					["DeathCount"] = 1,
 				},
 				["LastFightData"] = {
@@ -19792,43 +19773,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -19836,56 +19814,79 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
-				["OverallData"] = {
+				["Fight1"] = {
 					["DeathCount"] = 1,
 				},
 			},
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+			},
+			["LastEvents"] = {
+				"Strength of Earth Totem <Jegjegos> dies.", -- [1]
+			},
+			["Name"] = "Strength of Earth Totem",
+			["UnitLockout"] = 1727560932,
+			["TimeLast"] = {
+				["DeathCount"] = 1727560932,
+				["OVERALL"] = 1727560932,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				42506.624, -- [1]
+			},
+			["LastAbility"] = 217.891,
 		},
 		["Searing Totem <Jegjegos>"] = {
 			["GUID"] = "0xF1300009DB183F57",
@@ -19994,8 +19995,8 @@ RecountPerCharDB = {
 				"MISC", -- [50]
 			},
 			["TimeWindows"] = {
-				["ActiveTime"] = {
-					116.82, -- [1]
+				["Damage"] = {
+					531, -- [1]
 				},
 				["DeathCount"] = {
 					27, -- [1]
@@ -20003,728 +20004,816 @@ RecountPerCharDB = {
 				["TimeDamage"] = {
 					116.82, -- [1]
 				},
-				["Damage"] = {
-					531, -- [1]
+				["ActiveTime"] = {
+					116.82, -- [1]
 				},
 			},
 			["enClass"] = "PET",
 			["level"] = 1,
 			["LastFightIn"] = 206,
-			["DeathLogs"] = {
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727560934,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [1]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727560859,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [2]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727559838,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [3]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727559753,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [4]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727559553,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [5]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727559454,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [6]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727559111,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [7]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727558993,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [8]
-				{
-					["MessageTimes"] = {
-						-9.599999999998545, -- [1]
-						-6.474000000001979, -- [2]
-						0, -- [3]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-						false, -- [2]
-						true, -- [3]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-						"Searing Totem <Jegjegos> Attack Bristleback Water Seeker Hit -14 (Fire)", -- [2]
-						"Searing Totem <Jegjegos> dies.", -- [3]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-					},
-					["DeathAt"] = 1727558963,
-					["HealthNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-					},
-					["Health"] = {
-						"???", -- [1]
-						"???", -- [2]
-						"???", -- [3]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-						"DAMAGE", -- [2]
-						"MISC", -- [3]
-					},
-				}, -- [9]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727558953,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [10]
-				{
-					["MessageTimes"] = {
-						-5.841999999996915, -- [1]
-						-3.599999999998545, -- [2]
-						-1.309000000001106, -- [3]
-						0, -- [4]
-					},
-					["MessageIncoming"] = {
-						false, -- [1]
-						false, -- [2]
-						false, -- [3]
-						true, -- [4]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> Attack Bristleback Thornweaver Hit -12 (Fire)", -- [1]
-						"Searing Totem <Jegjegos> Attack Bristleback Thornweaver Hit -11 (Fire)", -- [2]
-						"Searing Totem <Jegjegos> Attack Bristleback Thornweaver Hit -11 (Fire)", -- [3]
-						"Searing Totem <Jegjegos> dies.", -- [4]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-					},
-					["DeathAt"] = 1727558743,
-					["HealthNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-					},
-					["Health"] = {
-						"???", -- [1]
-						"???", -- [2]
-						"???", -- [3]
-						"???", -- [4]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"DAMAGE", -- [3]
-						"MISC", -- [4]
-					},
-				}, -- [11]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727558587,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [12]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727557966,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [13]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727557936,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [14]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727557848,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [15]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727557734,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [16]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727557704,
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [17]
-				{
-					["MessageTimes"] = {
-						-13.89199999999983, -- [1]
-						0, -- [2]
-					},
-					["MessageIncoming"] = {
-						false, -- [1]
-						true, -- [2]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> Attack Bristleback Hunter Hit -12 (Fire)", -- [1]
-						"Searing Totem <Jegjegos> dies.", -- [2]
-					},
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-					},
-					["DeathAt"] = 1727557670,
-					["HealthNum"] = {
-						0, -- [1]
-						0, -- [2]
-					},
-					["Health"] = {
-						"???", -- [1]
-						"???", -- [2]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"MISC", -- [2]
-					},
-				}, -- [18]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727556999,
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [19]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727553798,
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [20]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727553603,
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [21]
-				{
-					["MessageTimes"] = {
-						-10.08399999999529, -- [1]
-						0, -- [2]
-					},
-					["MessageIncoming"] = {
-						false, -- [1]
-						true, -- [2]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> Attack Witchwing Slayer Hit -15 (Fire)", -- [1]
-						"Searing Totem <Jegjegos> dies.", -- [2]
-					},
-					["HealthNum"] = {
-						0, -- [1]
-						0, -- [2]
-					},
-					["DeathAt"] = 1727553365,
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-					},
-					["Health"] = {
-						"???", -- [1]
-						"???", -- [2]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"MISC", -- [2]
-					},
-				}, -- [22]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727553148,
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [23]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727553118,
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [24]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727553083,
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [25]
-				{
-					["MessageTimes"] = {
-						-13.50800000000163, -- [1]
-						-9.608000000000175, -- [2]
-						0, -- [3]
-					},
-					["MessageIncoming"] = {
-						false, -- [1]
-						false, -- [2]
-						true, -- [3]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> Attack Witchwing Harpy Hit -12 (Fire)", -- [1]
-						"Searing Totem <Jegjegos> Attack Witchwing Roguefeather Hit -14 (Fire)", -- [2]
-						"Searing Totem <Jegjegos> dies.", -- [3]
-					},
-					["HealthNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-					},
-					["DeathAt"] = 1727553017,
-					["EventNum"] = {
-						0, -- [1]
-						0, -- [2]
-						0, -- [3]
-					},
-					["Health"] = {
-						"???", -- [1]
-						"???", -- [2]
-						"???", -- [3]
-					},
-					["MessageType"] = {
-						"DAMAGE", -- [1]
-						"DAMAGE", -- [2]
-						"MISC", -- [3]
-					},
-				}, -- [26]
-				{
-					["MessageTimes"] = {
-						0, -- [1]
-					},
-					["MessageIncoming"] = {
-						true, -- [1]
-					},
-					["Messages"] = {
-						"Searing Totem <Jegjegos> dies.", -- [1]
-					},
-					["HealthNum"] = {
-						0, -- [1]
-					},
-					["DeathAt"] = 1727551906,
-					["EventNum"] = {
-						0, -- [1]
-					},
-					["Health"] = {
-						"???", -- [1]
-					},
-					["MessageType"] = {
-						"MISC", -- [1]
-					},
-				}, -- [27]
-			},
+			["LastAbility"] = 217.891,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 1,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 14,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Fire"] = 14,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Attack"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 14,
+									["min"] = 14,
+									["count"] = 1,
+									["amount"] = 14,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 14,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 1,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeSpent"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 15.09,
+								},
+							},
+							["amount"] = 15.09,
+						},
+						["Witchwing Harpy"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 17.27,
+								},
+							},
+							["amount"] = 17.27,
+						},
+						["Witchwing Roguefeather"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 23.29,
+								},
+							},
+							["amount"] = 23.29,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 19.87,
+								},
+							},
+							["amount"] = 19.87,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 14.48,
+								},
+							},
+							["amount"] = 14.48,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 9.32,
+								},
+							},
+							["amount"] = 9.32,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 40,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 531,
+					},
+					["DeathCount"] = 27,
+					["DamagedWho"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 73,
+								},
+							},
+							["amount"] = 73,
+						},
+						["Witchwing Harpy"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 75,
+								},
+							},
+							["amount"] = 75,
+						},
+						["Witchwing Roguefeather"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 108,
+								},
+							},
+							["amount"] = 108,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 64,
+								},
+							},
+							["amount"] = 64,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 41,
+								},
+							},
+							["amount"] = 41,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["TimeDamage"] = 116.82,
+					["TimeDamaging"] = {
+						["Bristleback Geomancer"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 15.09,
+								},
+							},
+							["amount"] = 15.09,
+						},
+						["Witchwing Harpy"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 17.27,
+								},
+							},
+							["amount"] = 17.27,
+						},
+						["Witchwing Roguefeather"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 23.29,
+								},
+							},
+							["amount"] = 23.29,
+						},
+						["Bristleback Water Seeker"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 19.87,
+								},
+							},
+							["amount"] = 19.87,
+						},
+						["Bristleback Hunter"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 14.48,
+								},
+							},
+							["amount"] = 14.48,
+						},
+						["Kolkar Packhound"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Witchwing Slayer"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 9.32,
+								},
+							},
+							["amount"] = 9.32,
+						},
+						["Kolkar Bloodcharger"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Barak Kodobane"] = {
+							["Details"] = {
+								["Attack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Attack"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 20,
+									["min"] = 19,
+									["count"] = 2,
+									["amount"] = 39,
+								},
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 11,
+									["count"] = 38,
+									["amount"] = 492,
+								},
+							},
+							["count"] = 40,
+							["amount"] = 531,
+						},
+					},
+					["ActiveTime"] = 116.82,
+					["Damage"] = 531,
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 1,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+			},
+			["LastEventTimes"] = {
+				40565.776, -- [1]
+				40657.567, -- [2]
+				40659.159, -- [3]
+				40661.242, -- [4]
+				40684.134, -- [5]
+				40999.431, -- [6]
+				41001.597, -- [7]
+				41003.847, -- [8]
+				41026.905, -- [9]
+				41126.363, -- [10]
+				41298.677, -- [11]
+				41303.128, -- [12]
+				41326.094, -- [13]
+				41410.543, -- [14]
+				42431.883, -- [15]
+				42483.982, -- [16]
+				42506.607, -- [17]
+				34926.857, -- [18]
+				34936.941, -- [19]
+				35175.105, -- [20]
+				35370.503, -- [21]
+				38570.814, -- [22]
+				39215.474, -- [23]
+				39217.69, -- [24]
+				39219.948, -- [25]
+				39222.599, -- [26]
+				39226.84, -- [27]
+				39229.082, -- [28]
+				39242.974, -- [29]
+				39258.532, -- [30]
+				39260.773, -- [31]
+				39277.248, -- [32]
+				39279.789, -- [33]
+				39282.231, -- [34]
+				39285.031, -- [35]
+				39307.315, -- [36]
+				39420.635, -- [37]
+				39508.954, -- [38]
+				39511.495, -- [39]
+				39538.945, -- [40]
+				40132.773, -- [41]
+				40135.014, -- [42]
+				40159.564, -- [43]
+				40310.196, -- [44]
+				40312.438, -- [45]
+				40314.729, -- [46]
+				40316.038, -- [47]
+				40526.152, -- [48]
+				40529.278, -- [49]
+				40535.752, -- [50]
+			},
+			["Owner"] = "Jegjegos",
 			["TimeLast"] = {
 				["DeathCount"] = 1727560932,
 				["ActiveTime"] = 1727560909,
@@ -20732,9 +20821,6 @@ RecountPerCharDB = {
 				["TimeDamage"] = 1727560909,
 				["Damage"] = 1727560909,
 			},
-			["LastFlags"] = 4370,
-			["Owner"] = "Jegjegos",
-			["LastActive"] = 1727560909,
 			["NextEventNum"] = 18,
 			["LastEventHealthNum"] = {
 				0, -- [1]
@@ -20893,807 +20979,722 @@ RecountPerCharDB = {
 				false, -- [49]
 				true, -- [50]
 			},
+			["DeathLogs"] = {
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727560934,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [1]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727560859,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [2]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727559838,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [3]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727559753,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [4]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727559553,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [5]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727559454,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [6]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727559111,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [7]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727558993,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [8]
+				{
+					["MessageTimes"] = {
+						-9.599999999998545, -- [1]
+						-6.474000000001979, -- [2]
+						0, -- [3]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+						false, -- [2]
+						true, -- [3]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+						"Searing Totem <Jegjegos> Attack Bristleback Water Seeker Hit -14 (Fire)", -- [2]
+						"Searing Totem <Jegjegos> dies.", -- [3]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+					},
+					["DeathAt"] = 1727558963,
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+					},
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+						"DAMAGE", -- [2]
+						"MISC", -- [3]
+					},
+				}, -- [9]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727558953,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [10]
+				{
+					["MessageTimes"] = {
+						-5.841999999996915, -- [1]
+						-3.599999999998545, -- [2]
+						-1.309000000001106, -- [3]
+						0, -- [4]
+					},
+					["MessageIncoming"] = {
+						false, -- [1]
+						false, -- [2]
+						false, -- [3]
+						true, -- [4]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> Attack Bristleback Thornweaver Hit -12 (Fire)", -- [1]
+						"Searing Totem <Jegjegos> Attack Bristleback Thornweaver Hit -11 (Fire)", -- [2]
+						"Searing Totem <Jegjegos> Attack Bristleback Thornweaver Hit -11 (Fire)", -- [3]
+						"Searing Totem <Jegjegos> dies.", -- [4]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+					},
+					["DeathAt"] = 1727558743,
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+					},
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+						"???", -- [4]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"MISC", -- [4]
+					},
+				}, -- [11]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727558587,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [12]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727557966,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [13]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727557936,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [14]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727557848,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [15]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727557734,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [16]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727557704,
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [17]
+				{
+					["MessageTimes"] = {
+						-13.89199999999983, -- [1]
+						0, -- [2]
+					},
+					["MessageIncoming"] = {
+						false, -- [1]
+						true, -- [2]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> Attack Bristleback Hunter Hit -12 (Fire)", -- [1]
+						"Searing Totem <Jegjegos> dies.", -- [2]
+					},
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+					},
+					["DeathAt"] = 1727557670,
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+					},
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"MISC", -- [2]
+					},
+				}, -- [18]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727556999,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [19]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727553798,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [20]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727553603,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [21]
+				{
+					["MessageTimes"] = {
+						-10.08399999999529, -- [1]
+						0, -- [2]
+					},
+					["MessageIncoming"] = {
+						false, -- [1]
+						true, -- [2]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> Attack Witchwing Slayer Hit -15 (Fire)", -- [1]
+						"Searing Totem <Jegjegos> dies.", -- [2]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+					},
+					["DeathAt"] = 1727553365,
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+					},
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"MISC", -- [2]
+					},
+				}, -- [22]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727553148,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [23]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727553118,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [24]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727553083,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [25]
+				{
+					["MessageTimes"] = {
+						-13.50800000000163, -- [1]
+						-9.608000000000175, -- [2]
+						0, -- [3]
+					},
+					["MessageIncoming"] = {
+						false, -- [1]
+						false, -- [2]
+						true, -- [3]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> Attack Witchwing Harpy Hit -12 (Fire)", -- [1]
+						"Searing Totem <Jegjegos> Attack Witchwing Roguefeather Hit -14 (Fire)", -- [2]
+						"Searing Totem <Jegjegos> dies.", -- [3]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+					},
+					["DeathAt"] = 1727553017,
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+					},
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"MISC", -- [3]
+					},
+				}, -- [26]
+				{
+					["MessageTimes"] = {
+						0, -- [1]
+					},
+					["MessageIncoming"] = {
+						true, -- [1]
+					},
+					["Messages"] = {
+						"Searing Totem <Jegjegos> dies.", -- [1]
+					},
+					["EventNum"] = {
+						0, -- [1]
+					},
+					["DeathAt"] = 1727551906,
+					["HealthNum"] = {
+						0, -- [1]
+					},
+					["Health"] = {
+						"???", -- [1]
+					},
+					["MessageType"] = {
+						"MISC", -- [1]
+					},
+				}, -- [27]
+			},
+			["LastFlags"] = 4370,
 			["UnitLockout"] = 1727560932,
-			["LastEventTimes"] = {
-				40565.776, -- [1]
-				40657.567, -- [2]
-				40659.159, -- [3]
-				40661.242, -- [4]
-				40684.134, -- [5]
-				40999.431, -- [6]
-				41001.597, -- [7]
-				41003.847, -- [8]
-				41026.905, -- [9]
-				41126.363, -- [10]
-				41298.677, -- [11]
-				41303.128, -- [12]
-				41326.094, -- [13]
-				41410.543, -- [14]
-				42431.883, -- [15]
-				42483.982, -- [16]
-				42506.607, -- [17]
-				34926.857, -- [18]
-				34936.941, -- [19]
-				35175.105, -- [20]
-				35370.503, -- [21]
-				38570.814, -- [22]
-				39215.474, -- [23]
-				39217.69, -- [24]
-				39219.948, -- [25]
-				39222.599, -- [26]
-				39226.84, -- [27]
-				39229.082, -- [28]
-				39242.974, -- [29]
-				39258.532, -- [30]
-				39260.773, -- [31]
-				39277.248, -- [32]
-				39279.789, -- [33]
-				39282.231, -- [34]
-				39285.031, -- [35]
-				39307.315, -- [36]
-				39420.635, -- [37]
-				39508.954, -- [38]
-				39511.495, -- [39]
-				39538.945, -- [40]
-				40132.773, -- [41]
-				40135.014, -- [42]
-				40159.564, -- [43]
-				40310.196, -- [44]
-				40312.438, -- [45]
-				40314.729, -- [46]
-				40316.038, -- [47]
-				40526.152, -- [48]
-				40529.278, -- [49]
-				40535.752, -- [50]
-			},
-			["Fights"] = {
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 1,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 14,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Fire"] = 14,
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 3.5,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Attack"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 14,
-									["min"] = 14,
-									["count"] = 1,
-									["amount"] = 14,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 14,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 3.5,
-					["TimeDamaging"] = {
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 1,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 1,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeSpent"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 15.09,
-								},
-							},
-							["amount"] = 15.09,
-						},
-						["Witchwing Harpy"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 17.27,
-								},
-							},
-							["amount"] = 17.27,
-						},
-						["Witchwing Roguefeather"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 23.29,
-								},
-							},
-							["amount"] = 23.29,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 19.87,
-								},
-							},
-							["amount"] = 19.87,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 14.48,
-								},
-							},
-							["amount"] = 14.48,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 9.32,
-								},
-							},
-							["amount"] = 9.32,
-						},
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["DamagedWho"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 73,
-								},
-							},
-							["amount"] = 73,
-						},
-						["Witchwing Harpy"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 75,
-								},
-							},
-							["amount"] = 75,
-						},
-						["Witchwing Roguefeather"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 108,
-								},
-							},
-							["amount"] = 108,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 100,
-								},
-							},
-							["amount"] = 100,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 64,
-								},
-							},
-							["amount"] = 64,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 41,
-								},
-							},
-							["amount"] = 41,
-						},
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["ElementDone"] = {
-						["Fire"] = 531,
-					},
-					["DeathCount"] = 27,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 40,
-						},
-					},
-					["TimeDamage"] = 116.82,
-					["TimeDamaging"] = {
-						["Bristleback Geomancer"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 15.09,
-								},
-							},
-							["amount"] = 15.09,
-						},
-						["Witchwing Harpy"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 17.27,
-								},
-							},
-							["amount"] = 17.27,
-						},
-						["Witchwing Roguefeather"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 23.29,
-								},
-							},
-							["amount"] = 23.29,
-						},
-						["Bristleback Water Seeker"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 19.87,
-								},
-							},
-							["amount"] = 19.87,
-						},
-						["Bristleback Hunter"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 14.48,
-								},
-							},
-							["amount"] = 14.48,
-						},
-						["Kolkar Packhound"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Witchwing Slayer"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 9.32,
-								},
-							},
-							["amount"] = 9.32,
-						},
-						["Barak Kodobane"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Kolkar Bloodcharger"] = {
-							["Details"] = {
-								["Attack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["ActiveTime"] = 116.82,
-					["Attacks"] = {
-						["Attack"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 20,
-									["min"] = 19,
-									["count"] = 2,
-									["amount"] = 39,
-								},
-								["Hit"] = {
-									["max"] = 15,
-									["min"] = 11,
-									["count"] = 38,
-									["amount"] = 492,
-								},
-							},
-							["count"] = 40,
-							["amount"] = 531,
-						},
-					},
-					["Damage"] = 531,
-				},
-			},
-			["LastAbility"] = 42483.982,
+			["LastActive"] = 1727560909,
 		},
 		["Earthbind Totem <Jegjegos>"] = {
 			["DeathLogs"] = {
@@ -21707,11 +21708,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727560211,
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21731,11 +21732,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727560190,
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21755,11 +21756,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727558780,
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21779,11 +21780,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727557398,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21803,11 +21804,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727557093,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21827,11 +21828,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727554749,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21851,11 +21852,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727554108,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21875,11 +21876,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727553721,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21899,11 +21900,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727553682,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21923,11 +21924,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727553034,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21947,11 +21948,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Earthbind Totem <Jegjegos> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1727552980,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -21963,10 +21964,10 @@ RecountPerCharDB = {
 				}, -- [11]
 			},
 			["TimeLast"] = {
-				["TimeDamage"] = 1727558737,
+				["ActiveTime"] = 1727558737,
 				["OVERALL"] = 1727560209,
 				["DeathCount"] = 1727560209,
-				["ActiveTime"] = 1727558737,
+				["TimeDamage"] = 1727558737,
 			},
 			["LastEventType"] = {
 				"MISC", -- [1]
@@ -21986,473 +21987,36 @@ RecountPerCharDB = {
 			["enClass"] = "PET",
 			["level"] = 1,
 			["LastFightIn"] = 203,
-			["LastActive"] = 1727558737,
+			["LastAbility"] = 217.891,
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["GUID"] = "0xF130000A46182FD5",
-			["UnitLockout"] = 1727560209,
-			["Owner"] = "Jegjegos",
-			["Fights"] = {
-				["Fight5"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 1,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
+			["LastEventTimes"] = {
+				34552.387, -- [1]
+				34606.188, -- [2]
+				35254.021, -- [3]
+				35293.171, -- [4]
+				35680.175, -- [5]
+				36321.519, -- [6]
+				38665.029, -- [7]
+				38969.926, -- [8]
+				40311.488, -- [9]
+				40353.447, -- [10]
+				41763.257, -- [11]
+				41783.814, -- [12]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					11, -- [1]
 				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
+				["ActiveTime"] = {
+					3.5, -- [1]
 				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 1,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["DamagedWho"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["Attacks"] = {
-						["Earthbind"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 11,
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["ActiveTime"] = 3.5,
-					["TimeDamaging"] = {
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Earthbind"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["TimeSpent"] = {
-						["Bristleback Thornweaver"] = {
-							["Details"] = {
-								["Earthbind"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["TimeDamage"] = 3.5,
+				["TimeDamage"] = {
+					3.5, -- [1]
 				},
 			},
+			["Owner"] = "Jegjegos",
+			["Name"] = "Earthbind Totem",
 			["NextEventNum"] = 13,
 			["LastEventHealthNum"] = {
 				0, -- [1]
@@ -22510,44 +22074,8 @@ RecountPerCharDB = {
 				"???", -- [11]
 				"???", -- [12]
 			},
-			["Name"] = "Earthbind Totem",
-			["TimeWindows"] = {
-				["DeathCount"] = {
-					11, -- [1]
-				},
-				["TimeDamage"] = {
-					3.5, -- [1]
-				},
-				["ActiveTime"] = {
-					3.5, -- [1]
-				},
-			},
-			["LastEventTimes"] = {
-				34552.387, -- [1]
-				34606.188, -- [2]
-				35254.021, -- [3]
-				35293.171, -- [4]
-				35680.175, -- [5]
-				36321.519, -- [6]
-				38665.029, -- [7]
-				38969.926, -- [8]
-				40311.488, -- [9]
-				40353.447, -- [10]
-				41763.257, -- [11]
-				41783.814, -- [12]
-			},
-			["LastAbility"] = 40311.488,
-		},
-		["Earthbind Totem"] = {
-			["GUID"] = "0xF130000A46179D4D",
-			["FightsSaved"] = 5,
-			["Owner"] = false,
-			["Name"] = "Earthbind Totem",
-			["LastFightIn"] = 48,
-			["UnitLockout"] = 1727553889,
-			["LastActive"] = 1727553889,
 			["Fights"] = {
-				["LastFightData"] = {
+				["Fight5"] = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
@@ -22558,45 +22086,42 @@ RecountPerCharDB = {
 					},
 					["ElementHitsTaken"] = {
 					},
-					["DeathCount"] = 0,
+					["DeathCount"] = 1,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -22604,48 +22129,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -22663,43 +22191,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -22707,54 +22232,530 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 1,
+					["HOT_Time"] = 0,
 					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["Attacks"] = {
+						["Earthbind"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 11,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["TimeDamaging"] = {
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Earthbind"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeSpent"] = {
+						["Bristleback Thornweaver"] = {
+							["Details"] = {
+								["Earthbind"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamage"] = 3.5,
+				},
+			},
+			["GUID"] = "0xF130000A46182FD5",
+			["UnitLockout"] = 1727560209,
+			["LastActive"] = 1727558737,
+		},
+		["Earthbind Totem"] = {
+			["GUID"] = "0xF130000A46179D4D",
+			["FightsSaved"] = 5,
+			["Owner"] = false,
+			["Name"] = "Earthbind Totem",
+			["LastAbility"] = 217.891,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
 			},
-			["LastAbility"] = 39093.02,
+			["LastActive"] = 1727553889,
+			["UnitLockout"] = 1727553889,
+			["LastFightIn"] = 48,
 		},
 	},
 	["FightNum"] = 207,

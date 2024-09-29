@@ -53,8 +53,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 58.00000341936197,
-			["LastInstanceName"] = "Halls of Reflection",
-			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["MainWindowHeight"] = 310.8518969696999,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -66,11 +66,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -16.99999979483828,
-			["ReportLines"] = 1,
-			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 251.4197662784027,
-			["MainWindowHeight"] = 310.8518969696999,
+			["MainWindowVis"] = false,
+			["ReportLines"] = 1,
+			["DetailWindowY"] = -16.99999979483828,
 		},
 		["Vrael - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -96,11 +96,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -60.00000082064688,
 			["MainWindowWidth"] = 244.5308668882732,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["DetailWindowY"] = -60.00000082064688,
+			["GraphWindowX"] = 0,
 		},
 		["Rakhnis - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -138,8 +138,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 62.09879535193817,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["MainWindowHeight"] = 289.9999422879386,
+			["LastInstanceName"] = "Blackrock Depths",
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -152,10 +152,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 23.44438869364712,
-			["MainWindowWidth"] = 238.9999938458702,
-			["MainWindowVis"] = false,
 			["ReportLines"] = 1,
-			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 238.9999938458702,
+			["MainWindowHeight"] = 289.9999422879386,
 		},
 		["Flokus - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -369,9 +369,6 @@ RecountDB = {
 					["h"] = 336.9999910412716,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -383,8 +380,11 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 3.999978116083373,
-			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["LastInstanceName"] = "Utgarde Pinnacle",
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 260.8889019888445,
 			["MainWindowHeight"] = 337.3333968878745,
 		},
@@ -399,7 +399,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 867.5926716507743,
-			["LastInstanceName"] = "Vault of Archavon",
+			["LastInstanceName"] = "Blackrock Depths",
 			["RealtimeWindows"] = {
 				["Realtime_Nalar_DAMAGE"] = {
 					"Nalar", -- [1]
@@ -434,10 +434,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -152.7036942991919,
-			["MainWindowHeight"] = 345.0444837792649,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowWidth"] = 243.3555780154447,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 345.0444837792649,
 		},
 		["Flocius - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -618,11 +618,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -296.7037172773043,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 260.0000123097031,
 			["MainWindowVis"] = false,
 			["ReportLines"] = 2,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -296.7037172773043,
 		},
 		["Mirceabravo - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -636,7 +636,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 112.9876419471188,
 			["LastInstanceName"] = "Vault of Archavon",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = -124.0493402990752,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -648,7 +648,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -124.0493402990752,
+			["GraphWindowX"] = 0,
 			["MainWindowVis"] = false,
 			["MainWindowMode"] = 5,
 			["MainWindowWidth"] = 256.148530518934,
@@ -697,10 +697,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Lingurita - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -926,8 +926,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
 		},
 		["Pubianus - Icecrown"] = {
 			["GraphWindowY"] = 0,
