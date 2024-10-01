@@ -7,10 +7,10 @@ Y: 177
 W: 232
 H: 100
 Frame: LootFrame
-FrameLevel: 11
-Anchor: CENTER
-X: 51
-Y: -8
+FrameLevel: 10
+Anchor: TOPRIGHT
+X: -264
+Y: -41
 W: 256
 H: 256
 Frame: WorldMapScreenAnchor
