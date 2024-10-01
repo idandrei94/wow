@@ -179,9 +179,9 @@ SkadaStorageDB = {
 					["totaldamage"] = 67,
 					["name"] = "Foulweald Totemic",
 					["damage"] = 67,
-					["id"] = "0xF130000EA61D01B5",
-					["class"] = "MONSTER",
 					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF130000EA61D01B5",
 					["overkill"] = 8,
 				}, -- [2]
 				{
@@ -201,9 +201,9 @@ SkadaStorageDB = {
 					["totaldamage"] = 153,
 					["name"] = "Foulweald Warrior",
 					["damage"] = 153,
-					["id"] = "0xF130000E9F1A1A19",
-					["class"] = "MONSTER",
 					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF130000E9F1A1A19",
 					["overkill"] = 2,
 				}, -- [3]
 			},
@@ -349,13 +349,13 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["glancemax"] = 29,
 							["PARRY"] = 3,
-							["hitmax"] = 41,
-							["criticalmax"] = 74,
 							["critical"] = 3,
+							["criticalmax"] = 74,
+							["count"] = 39,
 							["hit"] = 18,
 							["school"] = 1,
 							["blocked"] = 36,
-							["count"] = 39,
+							["hitmax"] = 41,
 							["hitamount"] = 606,
 						},
 						["Consecration"] = {
@@ -364,12 +364,12 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 2,
 							["id"] = 26573,
+							["MISS"] = 3,
 							["targets"] = {
 								["Enraged Foulweald"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 3,
 						},
 						["Seal of Command"] = {
 							["DODGE"] = 7,
@@ -386,35 +386,35 @@ SkadaStorageDB = {
 							["criticalamount"] = 101,
 							["id"] = 20424,
 							["criticalmax"] = 35,
-							["hitmax"] = 20,
-							["critical"] = 3,
 							["PARRY"] = 9,
 							["count"] = 81,
-							["blocked"] = 23,
-							["school"] = 2,
-							["hit"] = 59,
 							["casts"] = 1,
+							["critical"] = 3,
+							["hit"] = 59,
+							["school"] = 2,
+							["blocked"] = 23,
+							["hitmax"] = 20,
 							["hitamount"] = 966,
 						},
 						["Judgement of Command"] = {
-							["count"] = 6,
+							["criticalmin"] = 34,
 							["hitmin"] = 17,
 							["criticalamount"] = 72,
 							["id"] = 20467,
-							["criticalmax"] = 38,
+							["casts"] = 1,
 							["targets"] = {
 								["Enraged Foulweald"] = {
 									["amount"] = 156,
 								},
 							},
-							["critical"] = 2,
+							["count"] = 6,
 							["amount"] = 156,
-							["casts"] = 1,
-							["hitmax"] = 25,
+							["criticalmax"] = 38,
+							["critical"] = 2,
 							["hit"] = 4,
 							["school"] = 2,
 							["resisted"] = 20,
-							["criticalmin"] = 34,
+							["hitmax"] = 25,
 							["hitamount"] = 84,
 						},
 					},
@@ -437,104 +437,104 @@ SkadaStorageDB = {
 									["amount"] = -19,
 									["school"] = 1,
 									["time"] = 30250.192,
-									["hp"] = 30,
 									["spellid"] = 6603,
+									["hp"] = 30,
 								}, -- [2]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -21,
 									["school"] = 1,
 									["time"] = 30245.009,
-									["hp"] = 51,
 									["spellid"] = 6603,
+									["hp"] = 51,
 								}, -- [3]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -34,
 									["school"] = 1,
 									["time"] = 30243.869,
-									["hp"] = 85,
 									["spellid"] = 6603,
+									["hp"] = 85,
 								}, -- [4]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -40,
 									["school"] = 1,
 									["time"] = 30243.436,
-									["hp"] = 125,
 									["spellid"] = 6603,
+									["hp"] = 125,
 								}, -- [5]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -19,
 									["school"] = 1,
 									["time"] = 30243.162,
-									["hp"] = 144,
 									["spellid"] = 6603,
+									["hp"] = 144,
 								}, -- [6]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -40,
 									["school"] = 1,
 									["time"] = 30242.947,
-									["hp"] = 184,
 									["spellid"] = 6603,
+									["hp"] = 184,
 								}, -- [7]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -19,
 									["school"] = 1,
 									["time"] = 30241.931,
-									["hp"] = 203,
 									["spellid"] = 6603,
+									["hp"] = 203,
 								}, -- [8]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -17,
 									["school"] = 1,
 									["time"] = 30241.699,
-									["hp"] = 220,
 									["spellid"] = 6603,
+									["hp"] = 220,
 								}, -- [9]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -21,
 									["school"] = 1,
 									["time"] = 30241.55,
-									["hp"] = 241,
 									["spellid"] = 6603,
+									["hp"] = 241,
 								}, -- [10]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -18,
 									["school"] = 1,
 									["time"] = 30241.151,
-									["hp"] = 169,
 									["spellid"] = 6603,
+									["hp"] = 169,
 								}, -- [11]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -19,
 									["school"] = 1,
 									["time"] = 30240.11,
-									["hp"] = 188,
 									["spellid"] = 6603,
+									["hp"] = 188,
 								}, -- [12]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -17,
 									["school"] = 1,
 									["time"] = 30239.953,
-									["hp"] = 205,
 									["spellid"] = 6603,
+									["hp"] = 205,
 								}, -- [13]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -21,
 									["school"] = 1,
 									["time"] = 30239.779,
-									["hp"] = 226,
 									["spellid"] = 6603,
+									["hp"] = 226,
 								}, -- [14]
 							},
 							["time"] = 30250.442,
@@ -553,7 +553,7 @@ SkadaStorageDB = {
 							["min"] = 9,
 							["count"] = 26,
 							["amount"] = 402,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
@@ -565,7 +565,7 @@ SkadaStorageDB = {
 									["amount"] = 18,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 						[19750] = {
 							["overheal"] = 0,
@@ -608,16 +608,16 @@ SkadaStorageDB = {
 							["total"] = 3175,
 							["criticalamount"] = 444,
 							["id"] = 6603,
-							["criticalmax"] = 40,
-							["count"] = 210,
-							["overkill"] = 5,
-							["BLOCK"] = 6,
-							["PARRY"] = 16,
-							["critical"] = 15,
-							["blocked"] = 109,
-							["school"] = 1,
-							["hit"] = 155,
 							["hitmax"] = 21,
+							["PARRY"] = 16,
+							["overkill"] = 5,
+							["critical"] = 15,
+							["criticalmax"] = 40,
+							["BLOCK"] = 6,
+							["hit"] = 155,
+							["school"] = 1,
+							["blocked"] = 109,
+							["count"] = 210,
 							["hitamount"] = 2721,
 						},
 						["Corrupted Strength"] = {
@@ -637,13 +637,13 @@ SkadaStorageDB = {
 						[3385] = 1,
 					},
 					["heal"] = 823,
-					["manaspells"] = {
-						[438] = 336,
-					},
+					["potion"] = 1,
 					["death"] = 1,
 					["overkill"] = 23,
 					["name"] = "Mahkloompah",
-					["potion"] = 1,
+					["manaspells"] = {
+						[438] = 336,
+					},
 					["mana"] = 336,
 				}, -- [1]
 				{
@@ -768,7 +768,7 @@ SkadaStorageDB = {
 						},
 						["Flamestrike"] = {
 							["criticalamount"] = 182,
-							["hitmax"] = 72,
+							["critical"] = 2,
 							["hitmin"] = 50,
 							["criticalmin"] = 84,
 							["id"] = 2120,
@@ -778,10 +778,10 @@ SkadaStorageDB = {
 									["amount"] = 1120,
 								},
 							},
-							["count"] = 18,
+							["hitmax"] = 72,
 							["hit"] = 15,
 							["criticalmax"] = 98,
-							["critical"] = 2,
+							["count"] = 18,
 							["amount"] = 1120,
 							["school"] = 4,
 							["resisted"] = 45,
@@ -841,104 +841,104 @@ SkadaStorageDB = {
 									["amount"] = -28,
 									["school"] = 1,
 									["time"] = 30258.75,
-									["hp"] = 87,
 									["spellid"] = 6603,
+									["hp"] = 87,
 								}, -- [2]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -31,
 									["school"] = 1,
 									["time"] = 30258.734,
-									["hp"] = 87,
 									["spellid"] = 6603,
+									["hp"] = 87,
 								}, -- [3]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -29,
 									["school"] = 1,
 									["time"] = 30256.977,
-									["hp"] = 174,
 									["spellid"] = 6603,
+									["hp"] = 174,
 								}, -- [4]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -28,
 									["school"] = 1,
 									["time"] = 30256.963,
-									["hp"] = 174,
 									["spellid"] = 6603,
+									["hp"] = 174,
 								}, -- [5]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -30,
 									["school"] = 1,
 									["time"] = 30256.964,
-									["hp"] = 174,
 									["spellid"] = 6603,
+									["hp"] = 174,
 								}, -- [6]
 								{
 									["source"] = "Foulweald Totemic",
 									["amount"] = -31,
 									["school"] = 1,
 									["time"] = 30255.252,
-									["hp"] = 205,
 									["spellid"] = 6603,
+									["hp"] = 205,
 								}, -- [7]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -28,
 									["school"] = 1,
 									["time"] = 30255.185,
-									["hp"] = 293,
 									["spellid"] = 6603,
+									["hp"] = 293,
 								}, -- [8]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -28,
 									["school"] = 1,
 									["time"] = 30255.153,
-									["hp"] = 293,
 									["spellid"] = 6603,
+									["hp"] = 293,
 								}, -- [9]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -32,
 									["school"] = 1,
 									["time"] = 30255.154,
-									["hp"] = 293,
 									["spellid"] = 6603,
+									["hp"] = 293,
 								}, -- [10]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -25,
 									["school"] = 1,
 									["time"] = 30247.334,
-									["hp"] = 318,
 									["spellid"] = 6603,
+									["hp"] = 318,
 								}, -- [11]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -24,
 									["school"] = 1,
 									["time"] = 30245.51,
-									["hp"] = 342,
 									["spellid"] = 6603,
+									["hp"] = 342,
 								}, -- [12]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -24,
 									["school"] = 1,
 									["time"] = 30243.786,
-									["hp"] = 366,
 									["spellid"] = 6603,
+									["hp"] = 366,
 								}, -- [13]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -23,
 									["school"] = 1,
 									["time"] = 30242.02,
-									["hp"] = 389,
 									["spellid"] = 6603,
+									["hp"] = 389,
 								}, -- [14]
 							},
 							["time"] = 30259.265,
@@ -952,18 +952,6 @@ SkadaStorageDB = {
 					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
 					["role"] = "DAMAGER",
-					["overkill"] = 12,
-					["potionspells"] = {
-						[3385] = 1,
-					},
-					["mana"] = 338,
-					["potion"] = 1,
-					["death"] = 1,
-					["manaspells"] = {
-						[438] = 338,
-					},
-					["ccdone"] = 2,
-					["name"] = "Woolhead",
 					["damagetakenspells"] = {
 						["Fire"] = {
 							["hitmin"] = 13,
@@ -1014,6 +1002,18 @@ SkadaStorageDB = {
 							["id"] = 6816,
 						},
 					},
+					["potionspells"] = {
+						[3385] = 1,
+					},
+					["mana"] = 338,
+					["name"] = "Woolhead",
+					["death"] = 1,
+					["manaspells"] = {
+						[438] = 338,
+					},
+					["ccdone"] = 2,
+					["potion"] = 1,
+					["overkill"] = 12,
 				}, -- [2]
 				{
 					["ccdonespells"] = {
@@ -1033,6 +1033,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 105,
 						},
+						[8156] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 119,
+						},
 						[8045] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1044,11 +1049,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 8,
-						},
-						[8156] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 119,
 						},
 						[3600] = {
 							["type"] = "DEBUFF",
@@ -1069,8 +1069,6 @@ SkadaStorageDB = {
 					["time"] = 14.5,
 					["totaldamage"] = 578,
 					["totaldamagetaken"] = 649,
-					["overheal"] = 273,
-					["damage"] = 578,
 					["damagespells"] = {
 						["Fire Nova"] = {
 							["hitmin"] = 65,
@@ -1095,16 +1093,16 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 8,
 							["id"] = 3600,
+							["MISS"] = 1,
 							["targets"] = {
 								["Enraged Foulweald"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
 						},
 						["Attack (Searing Totem)"] = {
 							["criticalamount"] = 57,
-							["hitmax"] = 15,
+							["critical"] = 3,
 							["hitmin"] = 10,
 							["criticalmin"] = 19,
 							["id"] = 3606,
@@ -1114,10 +1112,10 @@ SkadaStorageDB = {
 									["amount"] = 198,
 								},
 							},
-							["count"] = 17,
+							["hitmax"] = 15,
 							["amount"] = 198,
 							["criticalmax"] = 19,
-							["critical"] = 3,
+							["count"] = 17,
 							["hit"] = 11,
 							["school"] = 4,
 							["resisted"] = 11,
@@ -1162,7 +1160,36 @@ SkadaStorageDB = {
 							["hitamount"] = 71,
 						},
 					},
-					["overkill"] = 7,
+					["damage"] = 578,
+					["overheal"] = 273,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["criticalmin"] = 54,
+							["hitmin"] = 20,
+							["criticalamount"] = 54,
+							["id"] = 6603,
+							["sources"] = {
+								["Enraged Foulweald"] = {
+									["amount"] = 496,
+								},
+								["Foulweald Warrior"] = {
+									["amount"] = 153,
+									["overkill"] = 2,
+								},
+							},
+							["critical"] = 1,
+							["overkill"] = 2,
+							["hit"] = 23,
+							["criticalmax"] = 54,
+							["count"] = 29,
+							["amount"] = 649,
+							["school"] = 1,
+							["hitmax"] = 33,
+							["MISS"] = 4,
+							["hitamount"] = 595,
+						},
+					},
 					["damagetaken"] = 649,
 					["deathlog"] = {
 						{
@@ -1181,79 +1208,79 @@ SkadaStorageDB = {
 									["amount"] = -27,
 									["school"] = 1,
 									["time"] = 30263.733,
-									["hp"] = 56,
 									["spellid"] = 6603,
+									["hp"] = 56,
 								}, -- [2]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -26,
 									["school"] = 1,
 									["time"] = 30262.276,
-									["hp"] = 106,
 									["spellid"] = 6603,
+									["hp"] = 106,
 								}, -- [3]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -24,
 									["school"] = 1,
 									["time"] = 30262.269,
-									["hp"] = 106,
 									["spellid"] = 6603,
+									["hp"] = 106,
 								}, -- [4]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -26,
 									["school"] = 1,
 									["time"] = 30261.953,
-									["hp"] = 131,
 									["spellid"] = 6603,
+									["hp"] = 131,
 								}, -- [5]
 								{
 									["source"] = "Foulweald Warrior",
 									["amount"] = -31,
 									["school"] = 1,
 									["time"] = 30261.912,
-									["hp"] = 162,
 									["spellid"] = 6603,
+									["hp"] = 162,
 								}, -- [6]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -25,
 									["school"] = 1,
 									["time"] = 30260.53,
-									["hp"] = 241,
 									["spellid"] = 6603,
+									["hp"] = 241,
 								}, -- [7]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -54,
 									["school"] = 1,
 									["time"] = 30260.489,
-									["hp"] = 241,
 									["spellid"] = 6603,
+									["hp"] = 241,
 								}, -- [8]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -25,
 									["school"] = 1,
 									["time"] = 30260.223,
-									["hp"] = 266,
 									["spellid"] = 6603,
+									["hp"] = 266,
 								}, -- [9]
 								{
 									["source"] = "Foulweald Warrior",
 									["amount"] = -33,
 									["school"] = 1,
 									["time"] = 30259.916,
-									["hp"] = 299,
 									["spellid"] = 6603,
+									["hp"] = 299,
 								}, -- [10]
 								{
 									["time"] = 30259.501,
 									["amount"] = -24,
 									["school"] = 1,
-									["spellid"] = 6603,
 									["hp"] = 323,
+									["spellid"] = 6603,
 									["source"] = "Enraged Foulweald",
 								}, -- [11]
 								{
@@ -1261,24 +1288,24 @@ SkadaStorageDB = {
 									["amount"] = -23,
 									["school"] = 1,
 									["time"] = 30258.451,
-									["hp"] = 346,
 									["spellid"] = 6603,
+									["hp"] = 346,
 								}, -- [12]
 								{
 									["source"] = "Foulweald Warrior",
 									["amount"] = -31,
 									["school"] = 1,
 									["time"] = 30257.927,
-									["hp"] = 376,
 									["spellid"] = 6603,
+									["hp"] = 376,
 								}, -- [13]
 								{
 									["source"] = "Enraged Foulweald",
 									["amount"] = -23,
 									["school"] = 1,
 									["time"] = 30257.77,
-									["hp"] = 399,
 									["spellid"] = 6603,
+									["hp"] = 399,
 								}, -- [14]
 							},
 							["time"] = 30263.967,
@@ -1312,53 +1339,26 @@ SkadaStorageDB = {
 							["criticalmin"] = 182,
 						},
 					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["criticalmin"] = 54,
-							["hitmin"] = 20,
-							["criticalamount"] = 54,
-							["id"] = 6603,
-							["sources"] = {
-								["Enraged Foulweald"] = {
-									["amount"] = 496,
-								},
-								["Foulweald Warrior"] = {
-									["amount"] = 153,
-									["overkill"] = 2,
-								},
-							},
-							["hitmax"] = 33,
-							["overkill"] = 2,
-							["hit"] = 23,
-							["criticalmax"] = 54,
-							["critical"] = 1,
-							["amount"] = 649,
-							["school"] = 1,
-							["count"] = 29,
-							["MISS"] = 4,
-							["hitamount"] = 595,
-						},
-					},
+					["overkill"] = 7,
 					["potionspells"] = {
 						[3385] = 1,
 					},
 					["heal"] = 1689,
+					["potion"] = 1,
+					["death"] = 1,
+					["ccdone"] = 19,
 					["manaspells"] = {
 						[438] = 307,
 					},
-					["death"] = 1,
-					["ccdone"] = 19,
 					["name"] = "Jegjegos",
-					["potion"] = 1,
 					["mana"] = 307,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 4276,
-			["ccdone"] = 21,
 			["starttime"] = 1727635059,
 			["mobname"] = "Enraged Foulweald",
+			["ccdone"] = 21,
 			["name"] = "Enraged Foulweald (2)",
 			["overkill"] = 42,
 			["edamagetaken"] = 7509,
@@ -1436,15 +1436,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 52,
 						},
-						[2120] = {
-							["school"] = 4,
-							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 1224,
-								},
-							},
-							["amount"] = 1224,
-						},
 						[3140] = {
 							["school"] = 4,
 							["sources"] = {
@@ -1455,6 +1446,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 232,
 							["overkill"] = 91,
+						},
+						[2120] = {
+							["school"] = 4,
+							["sources"] = {
+								["Woolhead"] = {
+									["amount"] = 1224,
+								},
+							},
+							["amount"] = 1224,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -1639,12 +1639,12 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 2,
 							["id"] = 26573,
+							["MISS"] = 1,
 							["targets"] = {
 								["Enraged Foulweald"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
 						},
 						["Seal of Command"] = {
 							["DODGE"] = 2,
@@ -1661,14 +1661,14 @@ SkadaStorageDB = {
 							["criticalamount"] = 140,
 							["id"] = 20424,
 							["criticalmax"] = 40,
-							["hitmax"] = 21,
-							["critical"] = 4,
 							["PARRY"] = 2,
 							["count"] = 32,
-							["blocked"] = 33,
-							["school"] = 2,
-							["hit"] = 22,
 							["casts"] = 1,
+							["critical"] = 4,
+							["hit"] = 22,
+							["school"] = 2,
+							["blocked"] = 33,
+							["hitmax"] = 21,
 							["hitamount"] = 357,
 						},
 						["Judgement of Command"] = {
@@ -1698,7 +1698,7 @@ SkadaStorageDB = {
 							["min"] = 9,
 							["count"] = 11,
 							["amount"] = 153,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
@@ -1710,7 +1710,7 @@ SkadaStorageDB = {
 									["amount"] = 27,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 						[19750] = {
 							["overheal"] = 0,
@@ -1748,15 +1748,15 @@ SkadaStorageDB = {
 							["total"] = 754,
 							["criticalamount"] = 144,
 							["id"] = 6603,
-							["criticalmax"] = 38,
-							["count"] = 49,
-							["hitmax"] = 20,
+							["critical"] = 4,
 							["PARRY"] = 4,
 							["BLOCK"] = 1,
-							["blocked"] = 16,
-							["school"] = 1,
+							["criticalmax"] = 38,
+							["hitmax"] = 20,
 							["hit"] = 35,
-							["critical"] = 4,
+							["school"] = 1,
+							["blocked"] = 16,
+							["count"] = 49,
 							["hitamount"] = 600,
 						},
 						["Corrupted Strength"] = {
@@ -1857,11 +1857,11 @@ SkadaStorageDB = {
 					["damagespells"] = {
 						["Fireball"] = {
 							["criticalamount"] = 130,
-							["amount"] = 220,
+							["criticalmax"] = 130,
 							["hitmin"] = 90,
 							["criticalmin"] = 130,
 							["id"] = 3140,
-							["casts"] = 2,
+							["count"] = 2,
 							["targets"] = {
 								["Enraged Foulweald"] = {
 									["amount"] = 220,
@@ -1869,13 +1869,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 91,
-							["count"] = 2,
-							["criticalmax"] = 130,
-							["critical"] = 1,
+							["amount"] = 220,
+							["casts"] = 2,
+							["hitmax"] = 90,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 24,
-							["hitmax"] = 90,
+							["critical"] = 1,
 							["hitamount"] = 90,
 						},
 						["Fireball (DoT)"] = {
@@ -1910,24 +1910,24 @@ SkadaStorageDB = {
 							["hitamount"] = 211,
 						},
 						["Flamestrike"] = {
-							["count"] = 15,
+							["criticalmin"] = 87,
 							["hitmin"] = 48,
 							["criticalamount"] = 277,
 							["id"] = 2120,
-							["criticalmax"] = 95,
+							["casts"] = 6,
 							["targets"] = {
 								["Enraged Foulweald"] = {
 									["amount"] = 1013,
 								},
 							},
-							["critical"] = 3,
+							["count"] = 15,
 							["amount"] = 1013,
-							["casts"] = 6,
-							["hitmax"] = 69,
+							["criticalmax"] = 95,
+							["critical"] = 3,
 							["hit"] = 12,
 							["school"] = 4,
 							["resisted"] = 66,
-							["criticalmin"] = 87,
+							["hitmax"] = 69,
 							["hitamount"] = 736,
 						},
 						["Frost Nova"] = {
@@ -2035,11 +2035,11 @@ SkadaStorageDB = {
 							["hitamount"] = 277,
 						},
 						["Earth Shock"] = {
-							["count"] = 2,
-							["hitmin"] = 75,
 							["criticalamount"] = 112,
+							["hitmin"] = 75,
+							["criticalmin"] = 112,
 							["id"] = 8045,
-							["criticalmax"] = 112,
+							["casts"] = 2,
 							["targets"] = {
 								["Enraged Foulweald"] = {
 									["amount"] = 187,
@@ -2047,13 +2047,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 23,
-							["criticalmin"] = 112,
-							["casts"] = 2,
 							["hitmax"] = 75,
-							["hit"] = 1,
-							["school"] = 8,
-							["amount"] = 187,
+							["criticalmax"] = 112,
 							["critical"] = 1,
+							["amount"] = 187,
+							["school"] = 8,
+							["hit"] = 1,
+							["count"] = 2,
 							["hitamount"] = 75,
 						},
 						["Lightning Bolt"] = {
@@ -2078,20 +2078,20 @@ SkadaStorageDB = {
 							["hitmin"] = 13,
 							["criticalamount"] = 18,
 							["id"] = 3606,
-							["amount"] = 75,
+							["criticalmax"] = 18,
 							["targets"] = {
 								["Enraged Foulweald"] = {
 									["amount"] = 75,
 								},
 							},
-							["casts"] = 1,
 							["count"] = 5,
-							["criticalmax"] = 18,
-							["hitmax"] = 15,
+							["amount"] = 75,
+							["casts"] = 1,
+							["critical"] = 1,
 							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 1,
-							["critical"] = 1,
+							["hitmax"] = 15,
 							["hitamount"] = 57,
 						},
 					},
@@ -2148,8 +2148,8 @@ SkadaStorageDB = {
 			["edamagetaken"] = 4244,
 			["heal"] = 682,
 			["name"] = "Enraged Foulweald",
-			["ccdone"] = 3,
 			["mobname"] = "Enraged Foulweald",
+			["ccdone"] = 3,
 			["edamage"] = 835,
 			["last_action"] = 1727635048,
 			["endtime"] = 1727635048,
@@ -2194,15 +2194,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 48,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 82,
-								},
-							},
-							["amount"] = 82,
-						},
 						[8045] = {
 							["school"] = 8,
 							["sources"] = {
@@ -2211,6 +2202,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 147,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 82,
+								},
+							},
+							["amount"] = 82,
 						},
 						[548] = {
 							["school"] = 8,
@@ -2450,6 +2450,8 @@ SkadaStorageDB = {
 							["hitamount"] = 26,
 						},
 					},
+					["id"] = "0x0700000000B01AF6",
+					["damagetaken"] = 37,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 17,
@@ -2468,9 +2470,7 @@ SkadaStorageDB = {
 							["hitamount"] = 37,
 						},
 					},
-					["damagetaken"] = 37,
 					["interrupt"] = 1,
-					["id"] = "0x0700000000B01AF6",
 					["spec"] = 70,
 					["healspells"] = {
 						[20267] = {
@@ -2478,7 +2478,7 @@ SkadaStorageDB = {
 							["min"] = 4,
 							["count"] = 4,
 							["amount"] = 48,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
@@ -2490,7 +2490,7 @@ SkadaStorageDB = {
 									["amount"] = 12,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["overkill"] = 79,
@@ -2577,7 +2577,7 @@ SkadaStorageDB = {
 					["damagetaken"] = 24,
 					["flag"] = 1298,
 					["class"] = "SHAMAN",
-					["totaldamage"] = 278,
+					["id"] = "0x0700000000B02488",
 					["auras"] = {
 						[643] = {
 							["type"] = "BUFF",
@@ -2602,9 +2602,9 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 					},
-					["name"] = "Jegjegos",
-					["role"] = "DAMAGER",
 					["time"] = 9.26,
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 24,
@@ -2624,7 +2624,7 @@ SkadaStorageDB = {
 					},
 					["spec"] = 262,
 					["totaldamagetaken"] = 24,
-					["id"] = "0x0700000000B02488",
+					["totaldamage"] = 278,
 					["damage"] = 278,
 				}, -- [3]
 			},
@@ -2635,8 +2635,8 @@ SkadaStorageDB = {
 			["edamagetaken"] = 611,
 			["heal"] = 48,
 			["name"] = "Rotting Slime",
-			["ccdone"] = 2,
 			["mobname"] = "Rotting Slime",
+			["ccdone"] = 2,
 			["edamage"] = 61,
 			["last_action"] = 1727634886,
 			["endtime"] = 1727634887,
@@ -2717,12 +2717,12 @@ SkadaStorageDB = {
 					},
 				}, -- [1]
 				{
-					["class"] = "MAGE",
-					["last"] = 29332.734,
 					["name"] = "Woolhead",
+					["last"] = 29332.734,
 					["time"] = 0,
-					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
+					["id"] = "0x0700000000B02309",
+					["class"] = "MAGE",
 					["role"] = "DAMAGER",
 					["auras"] = {
 						[643] = {
@@ -2753,12 +2753,12 @@ SkadaStorageDB = {
 					},
 				}, -- [2]
 				{
-					["class"] = "SHAMAN",
-					["last"] = 29332.734,
 					["name"] = "Jegjegos",
+					["last"] = 29332.734,
 					["time"] = 0,
-					["id"] = "0x0700000000B02488",
 					["spec"] = 262,
+					["id"] = "0x0700000000B02488",
+					["class"] = "SHAMAN",
 					["role"] = "DAMAGER",
 					["auras"] = {
 						[643] = {
@@ -2781,7 +2781,7 @@ SkadaStorageDB = {
 			},
 			["type"] = "group",
 			["damagetaken"] = 36,
-			["name"] = "Ashenvale Bear",
+			["starttime"] = 1727634246,
 			["endtime"] = 1727634271,
 			["last_action"] = 1727634263,
 			["enemies"] = {
@@ -2825,7 +2825,7 @@ SkadaStorageDB = {
 				}, -- [2]
 			},
 			["edamage"] = 36,
-			["starttime"] = 1727634246,
+			["name"] = "Ashenvale Bear",
 			["time"] = 25,
 			["mobname"] = "Ashenvale Bear",
 			["totaldamagetaken"] = 36,
@@ -2901,12 +2901,12 @@ SkadaStorageDB = {
 					},
 				}, -- [1]
 				{
-					["class"] = "MAGE",
-					["last"] = 29305.459,
 					["name"] = "Woolhead",
+					["last"] = 29305.459,
 					["time"] = 0,
-					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
+					["id"] = "0x0700000000B02309",
+					["class"] = "MAGE",
 					["role"] = "DAMAGER",
 					["auras"] = {
 						[643] = {
@@ -3034,15 +3034,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 138,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 68,
-								},
-							},
-							["amount"] = 68,
-						},
 						[8045] = {
 							["school"] = 8,
 							["sources"] = {
@@ -3051,6 +3042,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 144,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 68,
+								},
+							},
+							["amount"] = 68,
 						},
 						[548] = {
 							["school"] = 8,
@@ -3165,6 +3165,22 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 73,
 					["damage"] = 276,
 					["damagespells"] = {
+						["Exorcism"] = {
+							["hitmin"] = 138,
+							["id"] = 879,
+							["targets"] = {
+								["Thistlefur Pathfinder"] = {
+									["amount"] = 138,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 138,
+							["amount"] = 138,
+							["hitamount"] = 138,
+						},
 						["Seal of Command"] = {
 							["hitmin"] = 20,
 							["id"] = 20424,
@@ -3182,21 +3198,24 @@ SkadaStorageDB = {
 							["amount"] = 42,
 							["hitamount"] = 42,
 						},
-						["Exorcism"] = {
-							["hitmin"] = 138,
-							["id"] = 879,
+						["Melee"] = {
+							["glance"] = 29,
+							["hitmin"] = 39,
+							["id"] = 6603,
+							["glancemax"] = 29,
+							["glancemin"] = 29,
+							["glancing"] = 1,
 							["targets"] = {
 								["Thistlefur Pathfinder"] = {
-									["amount"] = 138,
+									["amount"] = 68,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
+							["count"] = 2,
+							["amount"] = 68,
+							["school"] = 1,
 							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 138,
-							["amount"] = 138,
-							["hitamount"] = 138,
+							["hitmax"] = 39,
+							["hitamount"] = 39,
 						},
 						["Judgement of Command"] = {
 							["hitmin"] = 28,
@@ -3215,25 +3234,6 @@ SkadaStorageDB = {
 							["amount"] = 28,
 							["hitamount"] = 28,
 						},
-						["Melee"] = {
-							["glance"] = 29,
-							["hitmin"] = 39,
-							["id"] = 6603,
-							["glancemax"] = 29,
-							["glancemin"] = 29,
-							["glancing"] = 1,
-							["targets"] = {
-								["Thistlefur Pathfinder"] = {
-									["amount"] = 68,
-								},
-							},
-							["hitmax"] = 39,
-							["amount"] = 68,
-							["school"] = 1,
-							["hit"] = 1,
-							["count"] = 2,
-							["hitamount"] = 39,
-						},
 					},
 					["damagetaken"] = 73,
 					["id"] = "0x0700000000B01AF6",
@@ -3244,7 +3244,7 @@ SkadaStorageDB = {
 							["min"] = 16,
 							["count"] = 5,
 							["amount"] = 48,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
@@ -3256,7 +3256,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3297,12 +3297,12 @@ SkadaStorageDB = {
 					["overheal"] = 24,
 				}, -- [1]
 				{
-					["class"] = "MAGE",
-					["last"] = 29281.876,
 					["name"] = "Woolhead",
+					["last"] = 29281.876,
 					["time"] = 0,
-					["id"] = "0x0700000000B02309",
 					["spec"] = 63,
+					["id"] = "0x0700000000B02309",
+					["class"] = "MAGE",
 					["role"] = "DAMAGER",
 					["auras"] = {
 						[643] = {
@@ -3510,6 +3510,15 @@ SkadaStorageDB = {
 							},
 							["amount"] = 64,
 						},
+						[548] = {
+							["school"] = 8,
+							["sources"] = {
+								["Jegjegos"] = {
+									["amount"] = 122,
+								},
+							},
+							["amount"] = 122,
+						},
 						[67485] = {
 							["school"] = 2,
 							["sources"] = {
@@ -3520,15 +3529,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 91,
 							["overkill"] = 49,
-						},
-						[548] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 122,
-								},
-							},
-							["amount"] = 122,
 						},
 					},
 					["totaldamage"] = 138,
@@ -3669,6 +3669,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 17,
 						},
+						[29348] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -3685,16 +3695,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
 					},
 					["role"] = "DAMAGER",
 					["time"] = 15.71,
@@ -3710,7 +3710,7 @@ SkadaStorageDB = {
 							["min"] = 16,
 							["count"] = 9,
 							["amount"] = 96,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Woolhead"] = {
@@ -3726,7 +3726,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -4124,14 +4124,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 27,
 						},
-						[6603] = {
-							["school"] = 1,
+						[3140] = {
+							["school"] = 4,
 							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 105,
+								["Woolhead"] = {
+									["amount"] = 196,
 								},
 							},
-							["amount"] = 105,
+							["amount"] = 196,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -4142,14 +4142,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 42,
 						},
-						[3140] = {
-							["school"] = 4,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
-								["Woolhead"] = {
-									["amount"] = 196,
+								["Mahkloompah"] = {
+									["amount"] = 105,
 								},
 							},
-							["amount"] = 196,
+							["amount"] = 105,
 						},
 						[8045] = {
 							["school"] = 8,
@@ -4256,6 +4256,45 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 183,
 					["damage"] = 387,
 					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 33,
+							["hitmin"] = 29,
+							["hitamount"] = 72,
+							["id"] = 6603,
+							["count"] = 4,
+							["targets"] = {
+								["Thistlefur Ursa"] = {
+									["amount"] = 105,
+								},
+							},
+							["blocked"] = 12,
+							["glancing"] = 1,
+							["PARRY"] = 1,
+							["hitmax"] = 43,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 105,
+							["glancemax"] = 33,
+							["glancemin"] = 33,
+						},
+						["Seal of Command"] = {
+							["hitmin"] = 20,
+							["id"] = 20424,
+							["targets"] = {
+								["Thistlefur Ursa"] = {
+									["amount"] = 42,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["casts"] = 1,
+							["hitmax"] = 22,
+							["amount"] = 42,
+							["school"] = 2,
+							["resisted"] = 4,
+							["MISS"] = 1,
+							["hitamount"] = 42,
+						},
 						["Judgement of Command"] = {
 							["hitmin"] = 27,
 							["id"] = 20467,
@@ -4291,45 +4330,6 @@ SkadaStorageDB = {
 							["criticalmax"] = 213,
 							["criticalmin"] = 213,
 						},
-						["Melee"] = {
-							["glance"] = 33,
-							["hitmin"] = 29,
-							["hitamount"] = 72,
-							["id"] = 6603,
-							["amount"] = 105,
-							["glancemax"] = 33,
-							["hitmax"] = 43,
-							["glancing"] = 1,
-							["PARRY"] = 1,
-							["count"] = 4,
-							["blocked"] = 12,
-							["school"] = 1,
-							["hit"] = 2,
-							["targets"] = {
-								["Thistlefur Ursa"] = {
-									["amount"] = 105,
-								},
-							},
-							["glancemin"] = 33,
-						},
-						["Seal of Command"] = {
-							["hitmin"] = 20,
-							["id"] = 20424,
-							["targets"] = {
-								["Thistlefur Ursa"] = {
-									["amount"] = 42,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["casts"] = 1,
-							["hitmax"] = 22,
-							["amount"] = 42,
-							["school"] = 2,
-							["resisted"] = 4,
-							["MISS"] = 1,
-							["hitamount"] = 42,
-						},
 					},
 					["damagetaken"] = 183,
 					["id"] = "0x0700000000B01AF6",
@@ -4340,7 +4340,7 @@ SkadaStorageDB = {
 							["min"] = 9,
 							["count"] = 8,
 							["amount"] = 73,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Woolhead"] = {
@@ -4356,7 +4356,7 @@ SkadaStorageDB = {
 									["amount"] = 73,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -4777,15 +4777,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 28,
 						},
-						[26573] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 68,
-								},
-							},
-							["amount"] = 68,
-						},
 						[2120] = {
 							["school"] = 4,
 							["sources"] = {
@@ -4794,6 +4785,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 208,
+						},
+						[26573] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 68,
+								},
+							},
+							["amount"] = 68,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -4804,14 +4804,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 37,
 						},
-						[3606] = {
-							["school"] = 4,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 14,
+								["Mahkloompah"] = {
+									["amount"] = 146,
+									["overkill"] = 43,
 								},
 							},
-							["amount"] = 14,
+							["amount"] = 146,
+							["overkill"] = 43,
 						},
 						[8045] = {
 							["school"] = 8,
@@ -4833,16 +4835,14 @@ SkadaStorageDB = {
 							["amount"] = 114,
 							["overkill"] = 50,
 						},
-						[6603] = {
-							["school"] = 1,
+						[3606] = {
+							["school"] = 4,
 							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 146,
-									["overkill"] = 43,
+								["Jegjegos"] = {
+									["amount"] = 14,
 								},
 							},
-							["amount"] = 146,
-							["overkill"] = 43,
+							["amount"] = 14,
 						},
 					},
 					["totaldamage"] = 110,
@@ -4894,10 +4894,10 @@ SkadaStorageDB = {
 							["uptime"] = 24,
 						},
 						[19834] = {
-							["uptime"] = 24,
-							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
+							["uptime"] = 24,
+							["type"] = "BUFF",
 						},
 						[62124] = {
 							["type"] = "DEBUFF",
@@ -4957,7 +4957,7 @@ SkadaStorageDB = {
 							["min"] = 16,
 							["count"] = 12,
 							["amount"] = 80,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Woolhead"] = {
@@ -4973,7 +4973,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -5058,12 +5058,12 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 2,
 							["id"] = 879,
+							["MISS"] = 1,
 							["targets"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
 						},
 						["Melee"] = {
 							["hitamount"] = 91,
@@ -5079,15 +5079,15 @@ SkadaStorageDB = {
 								},
 							},
 							["id"] = 6603,
-							["hitmax"] = 47,
+							["count"] = 7,
 							["glancemax"] = 36,
 							["overkill"] = 43,
 							["glancing"] = 3,
 							["PARRY"] = 1,
-							["count"] = 7,
-							["amount"] = 190,
-							["school"] = 1,
+							["hitmax"] = 47,
 							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 190,
 							["MISS"] = 1,
 							["glancemin"] = 30,
 						},
@@ -5104,13 +5104,13 @@ SkadaStorageDB = {
 								},
 							},
 							["PARRY"] = 2,
-							["hit"] = 3,
-							["casts"] = 1,
-							["hitmax"] = 22,
 							["amount"] = 59,
+							["casts"] = 1,
+							["count"] = 6,
+							["hit"] = 3,
 							["school"] = 2,
 							["resisted"] = 5,
-							["count"] = 6,
+							["hitmax"] = 22,
 							["hitamount"] = 59,
 						},
 						["Judgement of Command"] = {
@@ -5204,12 +5204,12 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 4,
 							["id"] = 3140,
+							["MISS"] = 1,
 							["targets"] = {
 								["Thistlefur Totemic"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
 						},
 						["Fire Blast"] = {
 							["hitmin"] = 69,
@@ -5290,67 +5290,6 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 29092.879,
-					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["class"] = "SHAMAN",
-					["name"] = "Jegjegos",
-					["auras"] = {
-						[325] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[19706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[8045] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Thistlefur Ursa"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 14,
-								},
-								["Thistlefur Totemic"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[3600] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["targets"] = {
-								["Thistlefur Ursa"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Thistlefur Totemic"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[643] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-					},
-					["overkill"] = 50,
-					["totaldamage"] = 400,
-					["time"] = 13.35,
-					["ccdone"] = 2,
-					["spec"] = 262,
-					["id"] = "0x0700000000B02488",
 					["damagespells"] = {
 						["Fire Nova"] = {
 							["casts"] = 1,
@@ -5358,6 +5297,7 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 4,
 							["id"] = 8349,
+							["MISS"] = 2,
 							["targets"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 0,
@@ -5366,7 +5306,6 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 2,
 						},
 						["Earthbind (Earthbind Totem)"] = {
 							["casts"] = 1,
@@ -5374,12 +5313,12 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 8,
 							["id"] = 3600,
+							["MISS"] = 2,
 							["targets"] = {
 								["Thistlefur Totemic"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 2,
 						},
 						["Attack (Searing Totem)"] = {
 							["hitmin"] = 11,
@@ -5445,6 +5384,67 @@ SkadaStorageDB = {
 							["hitamount"] = 201,
 						},
 					},
+					["flag"] = 1298,
+					["class"] = "SHAMAN",
+					["totaldamage"] = 400,
+					["overkill"] = 50,
+					["time"] = 13.35,
+					["role"] = "DAMAGER",
+					["name"] = "Jegjegos",
+					["ccdone"] = 2,
+					["spec"] = 262,
+					["id"] = "0x0700000000B02488",
+					["auras"] = {
+						[325] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[19706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+						[8045] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Thistlefur Ursa"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 14,
+								},
+								["Thistlefur Totemic"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 19,
+						},
+						[3600] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["targets"] = {
+								["Thistlefur Ursa"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Thistlefur Totemic"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[643] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 24,
+						},
+					},
 					["damage"] = 400,
 				}, -- [3]
 			},
@@ -5454,8 +5454,8 @@ SkadaStorageDB = {
 			["edamagetaken"] = 1362,
 			["heal"] = 80,
 			["name"] = "Thistlefur Ursa (8)",
-			["ccdone"] = 2,
 			["mobname"] = "Thistlefur Ursa",
+			["ccdone"] = 2,
 			["edamage"] = 262,
 			["last_action"] = 1727634007,
 			["endtime"] = 1727634007,
@@ -5514,14 +5514,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 80,
 						},
-						[8045] = {
-							["school"] = 8,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 68,
+								["Mahkloompah"] = {
+									["amount"] = 162,
 								},
 							},
-							["amount"] = 68,
+							["amount"] = 162,
 						},
 						[2137] = {
 							["school"] = 4,
@@ -5543,14 +5543,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 66,
 						},
-						[6603] = {
-							["school"] = 1,
+						[8045] = {
+							["school"] = 8,
 							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 162,
+								["Jegjegos"] = {
+									["amount"] = 68,
 								},
 							},
-							["amount"] = 162,
+							["amount"] = 68,
 						},
 					},
 					["totaldamage"] = 171,
@@ -5630,7 +5630,7 @@ SkadaStorageDB = {
 							["min"] = 16,
 							["count"] = 9,
 							["amount"] = 128,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
@@ -5642,7 +5642,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -5681,19 +5681,19 @@ SkadaStorageDB = {
 							["criticalamount"] = 46,
 							["id"] = 6603,
 							["criticalmin"] = 46,
-							["amount"] = 111,
-							["hitmax"] = 24,
 							["count"] = 5,
-							["PARRY"] = 1,
 							["critical"] = 1,
+							["amount"] = 111,
+							["criticalmax"] = 46,
+							["hitmax"] = 24,
 							["hit"] = 3,
 							["school"] = 1,
+							["PARRY"] = 1,
 							["sources"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 111,
 								},
 							},
-							["criticalmax"] = 46,
 							["hitamount"] = 65,
 						},
 						["Heroic Strike"] = {
@@ -5713,43 +5713,6 @@ SkadaStorageDB = {
 					["name"] = "Mahkloompah",
 					["role"] = "DAMAGER",
 					["damagespells"] = {
-						["Judgement of Command"] = {
-							["criticalamount"] = 60,
-							["hitmin"] = 24,
-							["criticalmin"] = 60,
-							["id"] = 20467,
-							["criticalmax"] = 60,
-							["targets"] = {
-								["Thistlefur Ursa"] = {
-									["amount"] = 84,
-								},
-							},
-							["critical"] = 1,
-							["amount"] = 84,
-							["casts"] = 1,
-							["hitmax"] = 24,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 5,
-							["count"] = 2,
-							["hitamount"] = 24,
-						},
-						["Exorcism"] = {
-							["hitmin"] = 144,
-							["id"] = 879,
-							["targets"] = {
-								["Thistlefur Ursa"] = {
-									["amount"] = 144,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 144,
-							["amount"] = 144,
-							["hitamount"] = 144,
-						},
 						["Melee"] = {
 							["DODGE"] = 1,
 							["glance"] = 72,
@@ -5764,11 +5727,11 @@ SkadaStorageDB = {
 							},
 							["glancing"] = 2,
 							["PARRY"] = 1,
-							["hitmax"] = 47,
+							["count"] = 6,
 							["amount"] = 162,
 							["school"] = 1,
 							["hit"] = 2,
-							["count"] = 6,
+							["hitmax"] = 47,
 							["hitamount"] = 90,
 						},
 						["Seal of Command"] = {
@@ -5787,6 +5750,43 @@ SkadaStorageDB = {
 							["resisted"] = 6,
 							["amount"] = 80,
 							["hitamount"] = 80,
+						},
+						["Judgement of Command"] = {
+							["criticalamount"] = 60,
+							["hitmin"] = 24,
+							["criticalmin"] = 60,
+							["id"] = 20467,
+							["casts"] = 1,
+							["targets"] = {
+								["Thistlefur Ursa"] = {
+									["amount"] = 84,
+								},
+							},
+							["critical"] = 1,
+							["amount"] = 84,
+							["criticalmax"] = 60,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 2,
+							["resisted"] = 5,
+							["hitmax"] = 24,
+							["hitamount"] = 24,
+						},
+						["Exorcism"] = {
+							["hitmin"] = 144,
+							["id"] = 879,
+							["targets"] = {
+								["Thistlefur Ursa"] = {
+									["amount"] = 144,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 144,
+							["amount"] = 144,
+							["hitamount"] = 144,
 						},
 					},
 				}, -- [1]
@@ -6195,6 +6195,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
+						[29348] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -6206,16 +6216,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 8,
-						},
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
 						},
 					},
 					["totaldamage"] = 640,
@@ -6284,12 +6284,12 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 2,
 							["id"] = 26573,
+							["MISS"] = 1,
 							["targets"] = {
 								["Thistlefur Totemic"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
 						},
 						["Seal of Command"] = {
 							["DODGE"] = 1,
@@ -6338,7 +6338,7 @@ SkadaStorageDB = {
 							["min"] = 16,
 							["count"] = 4,
 							["amount"] = 16,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Woolhead"] = {
@@ -6354,7 +6354,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -6363,13 +6363,14 @@ SkadaStorageDB = {
 							["criticalamount"] = 40,
 							["id"] = 6603,
 							["criticalmin"] = 40,
-							["amount"] = 213,
-							["hitmax"] = 24,
 							["count"] = 10,
-							["PARRY"] = 1,
 							["critical"] = 1,
+							["amount"] = 213,
+							["criticalmax"] = 40,
+							["hitmax"] = 24,
 							["hit"] = 8,
 							["school"] = 1,
+							["PARRY"] = 1,
 							["sources"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 126,
@@ -6378,7 +6379,6 @@ SkadaStorageDB = {
 									["amount"] = 87,
 								},
 							},
-							["criticalmax"] = 40,
 							["hitamount"] = 173,
 						},
 						["Coat of Thistlefur"] = {
@@ -6654,8 +6654,8 @@ SkadaStorageDB = {
 			["edamagetaken"] = 1211,
 			["heal"] = 339,
 			["name"] = "Thistlefur Ursa (6)",
-			["ccdone"] = 6,
 			["mobname"] = "Thistlefur Ursa",
+			["ccdone"] = 6,
 			["edamage"] = 276,
 			["last_action"] = 1727633940,
 			["endtime"] = 1727633941,
@@ -6707,24 +6707,6 @@ SkadaStorageDB = {
 							["amount"] = 121,
 							["overkill"] = 7,
 						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 113,
-								},
-							},
-							["amount"] = 113,
-						},
-						[3606] = {
-							["school"] = 4,
-							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
 						[2120] = {
 							["school"] = 4,
 							["sources"] = {
@@ -6733,6 +6715,24 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 148,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 41,
+								},
+							},
+							["amount"] = 41,
+						},
+						[67485] = {
+							["school"] = 2,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 113,
+								},
+							},
+							["amount"] = 113,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -6743,14 +6743,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 63,
 						},
-						[6603] = {
-							["school"] = 1,
+						[3606] = {
+							["school"] = 4,
 							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 41,
+								["Jegjegos"] = {
+									["amount"] = 13,
 								},
 							},
-							["amount"] = 41,
+							["amount"] = 13,
 						},
 					},
 					["totaldamage"] = 72,
@@ -6802,15 +6802,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 86,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 156,
-								},
-							},
-							["amount"] = 156,
-						},
 						[8045] = {
 							["school"] = 8,
 							["sources"] = {
@@ -6819,6 +6810,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 68,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Mahkloompah"] = {
+									["amount"] = 156,
+								},
+							},
+							["amount"] = 156,
 						},
 						[3140] = {
 							["school"] = 4,
@@ -6955,7 +6955,7 @@ SkadaStorageDB = {
 							["min"] = 16,
 							["count"] = 8,
 							["amount"] = 64,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Mahkloompah"] = {
@@ -6967,7 +6967,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -7105,13 +7105,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 44,
 							["id"] = 20424,
 							["PARRY"] = 2,
-							["hitmax"] = 19,
-							["criticalmax"] = 44,
 							["critical"] = 1,
+							["criticalmax"] = 44,
+							["count"] = 6,
 							["hit"] = 1,
 							["school"] = 2,
 							["casts"] = 1,
-							["count"] = 6,
+							["hitmax"] = 19,
 							["hitamount"] = 19,
 						},
 						["Judgement of Command"] = {
@@ -7313,6 +7313,7 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 4,
 							["id"] = 8349,
+							["MISS"] = 2,
 							["targets"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 0,
@@ -7321,7 +7322,6 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 2,
 						},
 						["Earthbind (Earthbind Totem)"] = {
 							["casts"] = 1,
@@ -7329,12 +7329,12 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 8,
 							["id"] = 3600,
+							["MISS"] = 2,
 							["targets"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 2,
 						},
 						["Attack (Searing Totem)"] = {
 							["hitmin"] = 13,
@@ -7438,9 +7438,9 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 					},
-					["name"] = "Jegjegos",
-					["totaldamage"] = 140,
 					["time"] = 0.76,
+					["totaldamage"] = 140,
+					["name"] = "Jegjegos",
 					["ccdone"] = 4,
 					["role"] = "DAMAGER",
 					["spec"] = 262,
@@ -7458,8 +7458,8 @@ SkadaStorageDB = {
 			["edamagetaken"] = 1358,
 			["heal"] = 64,
 			["name"] = "Thistlefur Den Watcher",
-			["ccdone"] = 4,
 			["mobname"] = "Thistlefur Den Watcher",
+			["ccdone"] = 4,
 			["edamage"] = 121,
 			["last_action"] = 1727633913,
 			["endtime"] = 1727633913,
@@ -7796,7 +7796,7 @@ SkadaStorageDB = {
 							["min"] = 16,
 							["count"] = 11,
 							["amount"] = 128,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Woolhead"] = {
@@ -7812,7 +7812,7 @@ SkadaStorageDB = {
 									["amount"] = 128,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -7836,11 +7836,11 @@ SkadaStorageDB = {
 						},
 						["Melee"] = {
 							["criticalmin"] = 42,
-							["amount"] = 290,
+							["hit"] = 10,
 							["hitmin"] = 18,
 							["criticalamount"] = 84,
 							["id"] = 6603,
-							["hitmax"] = 22,
+							["count"] = 16,
 							["sources"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 42,
@@ -7849,14 +7849,14 @@ SkadaStorageDB = {
 									["amount"] = 248,
 								},
 							},
-							["hit"] = 10,
-							["count"] = 16,
-							["PARRY"] = 2,
-							["BLOCK"] = 2,
+							["amount"] = 290,
+							["hitmax"] = 22,
+							["criticalmax"] = 42,
+							["critical"] = 2,
 							["blocked"] = 40,
 							["school"] = 1,
-							["critical"] = 2,
-							["criticalmax"] = 42,
+							["BLOCK"] = 2,
+							["PARRY"] = 2,
 							["hitamount"] = 206,
 						},
 						["Heroic Strike"] = {
@@ -7939,13 +7939,13 @@ SkadaStorageDB = {
 							["id"] = 20424,
 							["casts"] = 1,
 							["overkill"] = 14,
-							["PARRY"] = 1,
 							["criticalmax"] = 48,
-							["critical"] = 1,
+							["PARRY"] = 1,
+							["count"] = 12,
 							["hit"] = 6,
 							["school"] = 2,
 							["hitmax"] = 25,
-							["count"] = 12,
+							["critical"] = 1,
 							["hitamount"] = 131,
 						},
 						["Judgement of Command"] = {
@@ -7953,7 +7953,7 @@ SkadaStorageDB = {
 							["hitmin"] = 28,
 							["criticalmin"] = 56,
 							["id"] = 20467,
-							["criticalmax"] = 56,
+							["casts"] = 1,
 							["targets"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 32,
@@ -7964,12 +7964,12 @@ SkadaStorageDB = {
 							},
 							["critical"] = 1,
 							["amount"] = 116,
-							["casts"] = 1,
-							["hitmax"] = 32,
+							["criticalmax"] = 56,
+							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 2,
 							["resisted"] = 3,
-							["count"] = 3,
+							["hitmax"] = 32,
 							["hitamount"] = 60,
 						},
 						["Hand of Reckoning"] = {
@@ -8320,14 +8320,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 164,
 						},
-						[8045] = {
-							["school"] = 8,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 109,
+								["Mahkloompah"] = {
+									["amount"] = 119,
+									["overkill"] = 5,
 								},
 							},
-							["amount"] = 109,
+							["amount"] = 119,
+							["overkill"] = 5,
 						},
 						[67485] = {
 							["school"] = 2,
@@ -8347,16 +8349,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 64,
 						},
-						[6603] = {
-							["school"] = 1,
+						[8045] = {
+							["school"] = 8,
 							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 119,
-									["overkill"] = 5,
+								["Jegjegos"] = {
+									["amount"] = 109,
 								},
 							},
-							["amount"] = 119,
-							["overkill"] = 5,
+							["amount"] = 109,
 						},
 					},
 					["totaldamage"] = 143,
@@ -8390,14 +8390,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 89,
 						},
-						[548] = {
-							["school"] = 8,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jegjegos"] = {
-									["amount"] = 102,
+								["Mahkloompah"] = {
+									["amount"] = 89,
 								},
 							},
-							["amount"] = 102,
+							["amount"] = 89,
 						},
 						[8045] = {
 							["school"] = 8,
@@ -8408,14 +8408,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 65,
 						},
-						[6603] = {
-							["school"] = 1,
+						[548] = {
+							["school"] = 8,
 							["sources"] = {
-								["Mahkloompah"] = {
-									["amount"] = 89,
+								["Jegjegos"] = {
+									["amount"] = 102,
 								},
 							},
-							["amount"] = 89,
+							["amount"] = 102,
 						},
 						[20424] = {
 							["school"] = 2,
@@ -8492,6 +8492,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
+						[29348] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[20375] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
 						[20185] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -8503,16 +8513,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 10,
-						},
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[29348] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -8545,12 +8545,12 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 2,
 							["id"] = 879,
+							["MISS"] = 1,
 							["targets"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
 						},
 						["Melee"] = {
 							["glance"] = 32,
@@ -8569,18 +8569,18 @@ SkadaStorageDB = {
 									["amount"] = 89,
 								},
 							},
-							["hitmax"] = 49,
+							["count"] = 5,
 							["amount"] = 208,
 							["school"] = 1,
 							["hit"] = 4,
-							["count"] = 5,
+							["hitmax"] = 49,
 							["hitamount"] = 176,
 						},
 						["Seal of Command"] = {
 							["hitmin"] = 10,
-							["PARRY"] = 3,
+							["blocked"] = 11,
 							["id"] = 20424,
-							["hit"] = 6,
+							["casts"] = 1,
 							["targets"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 64,
@@ -8591,13 +8591,13 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 16,
+							["hit"] = 6,
+							["PARRY"] = 3,
+							["count"] = 9,
 							["amount"] = 115,
-							["casts"] = 1,
-							["hitmax"] = 25,
-							["blocked"] = 11,
 							["school"] = 2,
 							["resisted"] = 4,
-							["count"] = 9,
+							["hitmax"] = 25,
 							["hitamount"] = 115,
 						},
 						["Judgement of Command"] = {
@@ -8644,7 +8644,7 @@ SkadaStorageDB = {
 							["min"] = 16,
 							["count"] = 5,
 							["amount"] = 48,
-							["school"] = 2,
+							["max"] = 16,
 							["ishot"] = true,
 							["targets"] = {
 								["Woolhead"] = {
@@ -8660,7 +8660,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["max"] = 16,
+							["school"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -8744,7 +8744,7 @@ SkadaStorageDB = {
 						},
 						["Flamestrike"] = {
 							["criticalmin"] = 79,
-							["critical"] = 1,
+							["hitmax"] = 73,
 							["hitmin"] = 62,
 							["criticalamount"] = 79,
 							["id"] = 2120,
@@ -8757,10 +8757,10 @@ SkadaStorageDB = {
 									["amount"] = 152,
 								},
 							},
-							["count"] = 5,
+							["critical"] = 1,
 							["hit"] = 3,
 							["criticalmax"] = 79,
-							["hitmax"] = 73,
+							["count"] = 5,
 							["amount"] = 279,
 							["school"] = 4,
 							["resisted"] = 26,
@@ -8841,7 +8841,7 @@ SkadaStorageDB = {
 							["hitmin"] = 65,
 							["criticalmin"] = 109,
 							["id"] = 8045,
-							["amount"] = 174,
+							["criticalmax"] = 109,
 							["targets"] = {
 								["Thistlefur Ursa"] = {
 									["amount"] = 109,
@@ -8850,14 +8850,14 @@ SkadaStorageDB = {
 									["amount"] = 65,
 								},
 							},
-							["casts"] = 2,
 							["count"] = 2,
-							["criticalmax"] = 109,
-							["critical"] = 1,
+							["amount"] = 174,
+							["casts"] = 2,
+							["hitmax"] = 65,
 							["hit"] = 1,
 							["school"] = 8,
 							["resisted"] = 7,
-							["hitmax"] = 65,
+							["critical"] = 1,
 							["hitamount"] = 65,
 						},
 					},
@@ -8935,12 +8935,12 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["flag"] = 68168,
 					["name"] = "Thistlefur Avenger",
 					["damagetaken"] = 113,
 					["id"] = "0xF130000F551D9E5E",
-					["totaldamagetaken"] = 113,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
+					["totaldamagetaken"] = 113,
 					["damagetakenspells"] = {
 						[67485] = {
 							["school"] = 2,
@@ -8956,12 +8956,12 @@ SkadaStorageDB = {
 					},
 				}, -- [1]
 				{
-					["flag"] = 4424,
 					["name"] = "Cat",
 					["damagetaken"] = 88,
 					["id"] = "0xF1404C37680342D9",
-					["totaldamagetaken"] = 88,
+					["flag"] = 4424,
 					["class"] = "PET",
+					["totaldamagetaken"] = 88,
 					["damagetakenspells"] = {
 						[2120] = {
 							["school"] = 4,
@@ -8994,12 +8994,12 @@ SkadaStorageDB = {
 					["damage"] = 26,
 				}, -- [3]
 				{
-					["flag"] = 2632,
 					["name"] = "Ashenvale Bear",
 					["damagetaken"] = 199,
 					["id"] = "0xF130000EE118FAC4",
-					["totaldamagetaken"] = 199,
+					["flag"] = 2632,
 					["class"] = "MONSTER",
+					["totaldamagetaken"] = 199,
 					["damagetakenspells"] = {
 						[2120] = {
 							["school"] = 4,
@@ -9140,7 +9140,7 @@ SkadaStorageDB = {
 					["damagetaken"] = 26,
 					["flag"] = 1298,
 					["class"] = "MAGE",
-					["totaldamage"] = 211,
+					["id"] = "0x0700000000B02309",
 					["auras"] = {
 						[1460] = {
 							["type"] = "BUFF",
@@ -9179,9 +9179,9 @@ SkadaStorageDB = {
 							["uptime"] = 19,
 						},
 					},
-					["name"] = "Woolhead",
-					["role"] = "DAMAGER",
 					["time"] = 13.12,
+					["role"] = "DAMAGER",
+					["name"] = "Woolhead",
 					["damagetakenspells"] = {
 						["Auto Shot"] = {
 							["hitmin"] = 26,
@@ -9201,7 +9201,7 @@ SkadaStorageDB = {
 					},
 					["spec"] = 63,
 					["totaldamagetaken"] = 26,
-					["id"] = "0x0700000000B02309",
+					["totaldamage"] = 211,
 					["damage"] = 211,
 				}, -- [2]
 				{
@@ -9314,12 +9314,12 @@ SkadaStorageDB = {
 				["overkill"] = 1789,
 				["role"] = "DAMAGER",
 				["heal"] = 6868,
-				["potion"] = 1,
+				["name"] = "Mahkloompah",
 				["death"] = 1,
 				["interrupt"] = 9,
 				["mana"] = 738,
 				["ccdone"] = 18,
-				["name"] = "Mahkloompah",
+				["potion"] = 1,
 			}, -- [1]
 			{
 				["flag"] = 1298,
@@ -9343,21 +9343,21 @@ SkadaStorageDB = {
 				["interrupt"] = 1,
 			}, -- [2]
 			{
-				["role"] = "DAMAGER",
-				["name"] = "Woolhead",
-				["damagetaken"] = 792,
-				["mana"] = 524,
 				["flag"] = 1298,
-				["class"] = "MAGE",
 				["potion"] = 1,
+				["damagetaken"] = 792,
+				["spec"] = 63,
+				["id"] = "0x0700000000B02309",
+				["class"] = "MAGE",
+				["time"] = 511.2199999999998,
 				["overkill"] = 1243,
 				["ccdone"] = 25,
 				["totaldamage"] = 20674,
-				["time"] = 511.2199999999998,
+				["name"] = "Woolhead",
 				["death"] = 1,
-				["spec"] = 63,
+				["role"] = "DAMAGER",
 				["totaldamagetaken"] = 792,
-				["id"] = "0x0700000000B02309",
+				["mana"] = 524,
 				["damage"] = 20674,
 			}, -- [3]
 		},

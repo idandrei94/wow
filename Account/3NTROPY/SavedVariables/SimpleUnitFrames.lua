@@ -1,5 +1,10 @@
 
 SimpleUnitFramesDB = {
+	["global"] = {
+		["overlayfont"] = {
+			["fontsize"] = 12,
+		},
+	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Rimgar - Icecrown",
 		["Vrael - Icecrown"] = "Vrael - Icecrown",
@@ -14,6 +19,7 @@ SimpleUnitFramesDB = {
 		["Kalaam - Icecrown"] = "Kalaam - Icecrown",
 		["Lingurita - Lordaeron"] = "Lingurita - Lordaeron",
 		["Pufarin - Icecrown"] = "Pufarin - Icecrown",
+		["Omoratorul - Icecrown"] = "Omoratorul - Icecrown",
 		["Ylath - Icecrown"] = "Ylath - Icecrown",
 		["Praxia - Icecrown"] = "Praxia - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
@@ -21,31 +27,26 @@ SimpleUnitFramesDB = {
 		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
-		["Glacion - Icecrown"] = "Glacion - Icecrown",
-		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
+		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
+		["Urgash - Icecrown"] = "Urgash - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
-		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
+		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
 		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
-		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Glacianos - Icecrown"] = "Glacianos - Icecrown",
-		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
+		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
-		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
+		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
 		["Mahkloompah - Icecrown"] = "Mahkloompah - Icecrown",
-		["Inarya - Icecrown"] = "Inarya - Icecrown",
+		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
-		["Urgash - Icecrown"] = "Urgash - Icecrown",
-		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
-	},
-	["global"] = {
-		["overlayfont"] = {
-			["fontsize"] = 12,
-		},
+		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
+		["Glacion - Icecrown"] = "Glacion - Icecrown",
 	},
 	["profiles"] = {
 		["Rimgar - Icecrown"] = {
@@ -74,14 +75,16 @@ SimpleUnitFramesDB = {
 		},
 		["Pufarin - Icecrown"] = {
 		},
+		["Omoratorul - Icecrown"] = {
+		},
 		["Ylath - Icecrown"] = {
 		},
 		["Praxia - Icecrown"] = {
 			["pet"] = {
 				["rmp"] = "MPpercent",
-				["mmp"] = "MPcurrmax",
-				["rhp"] = "HPpercent",
 				["mhp"] = "HPcurrmax",
+				["rhp"] = "HPpercent",
+				["mmp"] = "MPcurrmax",
 			},
 		},
 		["Nalar - Icecrown"] = {
@@ -94,25 +97,25 @@ SimpleUnitFramesDB = {
 		},
 		["Sculamare - Icecrown"] = {
 		},
-		["Glacion - Icecrown"] = {
+		["Vhalanor - Icecrown"] = {
 		},
-		["Pocaitorul - Icecrown"] = {
+		["Urgash - Icecrown"] = {
 		},
 		["Aevie - Icecrown"] = {
 		},
-		["Pocaitoru - Icecrown"] = {
+		["Lingurita - Icecrown"] = {
 		},
-		["Mirceabravo - Icecrown"] = {
+		["Inarya - Icecrown"] = {
 		},
 		["Ulrezaj - Icecrown"] = {
 		},
 		["Elgorath - Icecrown"] = {
 		},
-		["Lingurita - Icecrown"] = {
+		["Pocaitoru - Icecrown"] = {
 		},
 		["Glacianos - Icecrown"] = {
 		},
-		["Sculatru - Icecrown"] = {
+		["Izanagi - Icecrown"] = {
 		},
 		["Flocparlit - Icecrown"] = {
 		},
@@ -122,17 +125,17 @@ SimpleUnitFramesDB = {
 		},
 		["Maciucaru - Icecrown"] = {
 		},
-		["Izanagi - Icecrown"] = {
+		["Sculatru - Icecrown"] = {
 		},
 		["Mahkloompah - Icecrown"] = {
 		},
-		["Inarya - Icecrown"] = {
+		["Mirceabravo - Icecrown"] = {
 		},
 		["Pubianus - Icecrown"] = {
 		},
-		["Urgash - Icecrown"] = {
+		["Pocaitorul - Icecrown"] = {
 		},
-		["Vhalanor - Icecrown"] = {
+		["Glacion - Icecrown"] = {
 		},
 	},
 }
