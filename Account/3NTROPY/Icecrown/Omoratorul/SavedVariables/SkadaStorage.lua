@@ -1,56 +1,70 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["starttime"] = 1727805538,
-		["damagetaken"] = 265,
-		["overkill"] = 665,
-		["totaldamage"] = 4562,
-		["time"] = 390,
+		["starttime"] = 1727810428,
+		["damagetaken"] = 3104,
 		["players"] = {
 			{
-				["damagetaken"] = 180,
-				["id"] = "0x0700000000B06B5A",
-				["class"] = "WARRIOR",
-				["overkill"] = 320,
-				["flag"] = 1297,
-				["time"] = 213.46,
-				["totaldamage"] = 1949,
-				["name"] = "Omoratorul",
-				["totaldamagetaken"] = 180,
-				["role"] = "TANK",
-				["damage"] = 1949,
+				["overheal"] = 115,
+				["damagetaken"] = 1002,
+				["flag"] = 1298,
+				["class"] = "PRIEST",
+				["id"] = "0x0700000000B06C58",
+				["overkill"] = 384,
+				["heal"] = 1076,
+				["totaldamage"] = 4898,
+				["name"] = "Popasfant",
+				["role"] = "NONE",
+				["time"] = 513.4700000000001,
+				["totaldamagetaken"] = 1002,
+				["damage"] = 4898,
 			}, -- [1]
 			{
-				["damagetaken"] = 68,
-				["id"] = "0x0700000000B06B12",
-				["class"] = "PRIEST",
-				["overkill"] = 174,
-				["flag"] = 1298,
-				["totaldamage"] = 1704,
-				["time"] = 136.4700000000001,
-				["name"] = "Popasfant",
-				["totaldamagetaken"] = 68,
-				["role"] = "NONE",
-				["damage"] = 1704,
+				["flag"] = 1297,
+				["class"] = "WARRIOR",
+				["totaldamage"] = 7986,
+				["time"] = 922.3899999999992,
+				["totaldamagetaken"] = 1732,
+				["damage"] = 7986,
+				["overheal"] = 88,
+				["damagetaken"] = 1732,
+				["id"] = "0x0700000000B06C55",
+				["overkill"] = 503,
+				["heal"] = 170,
+				["name"] = "Omoratorul",
+				["ccdone"] = 26,
+				["potion"] = 3,
+				["role"] = "TANK",
 			}, -- [2]
 			{
-				["damagetaken"] = 17,
 				["flag"] = 1298,
 				["class"] = "MAGE",
-				["overkill"] = 171,
-				["id"] = "0x0700000000B06B0B",
-				["name"] = "Vrajadefoc",
 				["role"] = "DAMAGER",
-				["time"] = 56.33000000000002,
-				["totaldamagetaken"] = 17,
-				["totaldamage"] = 909,
-				["damage"] = 909,
+				["time"] = 502.1299999999997,
+				["totaldamagetaken"] = 370,
+				["damage"] = 4218,
+				["overheal"] = 36,
+				["damagetaken"] = 370,
+				["id"] = "0x0700000000B06C60",
+				["overkill"] = 478,
+				["heal"] = 44,
+				["name"] = "Vrajadefoc",
+				["potion"] = 1,
+				["totaldamage"] = 4218,
 			}, -- [3]
 		},
-		["totaldamagetaken"] = 265,
+		["potion"] = 4,
+		["overheal"] = 239,
+		["overkill"] = 1365,
+		["heal"] = 1290,
+		["totaldamage"] = 17102,
+		["time"] = 1353,
+		["ccdone"] = 26,
+		["totaldamagetaken"] = 3104,
 		["name"] = "Total",
-		["damage"] = 4562,
+		["damage"] = 17102,
 	},
+	["version"] = 1878,
 	["sets"] = {
 		{
 			["enemies"] = {
@@ -59,195 +73,1077 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 6,
-								},
 								["Omoratorul"] = {
-									["amount"] = 2,
+									["amount"] = 23,
 								},
 							},
-							["amount"] = 8,
+							["amount"] = 23,
 						},
 					},
-					["damagetaken"] = 110,
-					["flag"] = 68136,
+					["damagetaken"] = 126,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[78] = {
+						[772] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 8,
-									["amount"] = 42,
+									["overkill"] = 6,
+									["amount"] = 32,
 								},
 							},
-							["overkill"] = 8,
-							["amount"] = 42,
+							["overkill"] = 6,
+							["amount"] = 32,
 						},
 						[133] = {
 							["school"] = 4,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["amount"] = 55,
+									["amount"] = 24,
 								},
 							},
-							["amount"] = 55,
+							["amount"] = 24,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 23,
+								},
+							},
+							["amount"] = 23,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 13,
+									["amount"] = 47,
 								},
 							},
-							["amount"] = 13,
+							["amount"] = 47,
 						},
 					},
-					["name"] = "Garrick Padfoot",
+					["name"] = "Mangy Wolf",
+					["totaldamage"] = 23,
+					["totaldamagetaken"] = 126,
+					["id"] = "0xF13000020D334E37",
+					["damage"] = 23,
+				}, -- [1]
+			},
+			["totaldamage"] = 126,
+			["time"] = 15,
+			["totaldamagetaken"] = 23,
+			["etotaldamagetaken"] = 126,
+			["last_time"] = 52382.744,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Mangy Wolf"] = 1,
+							},
+						},
+					},
+					["last"] = 52382.728,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["uptime"] = 13,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 13,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["totaldamage"] = 102,
+					["time"] = 13.07,
+					["totaldamagetaken"] = 23,
+					["damage"] = 102,
+					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 15,
+							["hitmin"] = 15,
+							["id"] = 6603,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["amount"] = 47,
+								},
+							},
+							["glancemin"] = 15,
+							["glancing"] = 1,
+							["glancemax"] = 15,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 17,
+							["amount"] = 47,
+							["hitamount"] = 32,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["overkill"] = 6,
+									["amount"] = 32,
+								},
+							},
+							["overkill"] = 6,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 32,
+							["hitamount"] = 32,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 23,
+							["id"] = 78,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["amount"] = 23,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 23,
+							["amount"] = 23,
+							["hitamount"] = 23,
+						},
+					},
+					["damagetaken"] = 23,
+					["id"] = "0x0700000000B06C55",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 3,
+							["id"] = 6603,
+							["sources"] = {
+								["Mangy Wolf"] = {
+									["amount"] = 23,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 4,
+							["amount"] = 23,
+							["hitamount"] = 23,
+						},
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["overkill"] = 6,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 52369.66,
+					["id"] = "0x0700000000B06C58",
+					["class"] = "PRIEST",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[589] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+					},
+					["role"] = "NONE",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 24,
+							["id"] = 133,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["amount"] = 24,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 24,
+							["amount"] = 24,
+							["hitamount"] = 24,
+						},
+					},
+					["last"] = 52380.786,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Mangy Wolf"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["totaldamage"] = 24,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 3.5,
+					["damage"] = 24,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 23,
+			["mobname"] = "Mangy Wolf",
+			["etotaldamage"] = 23,
+			["overkill"] = 6,
+			["edamagetaken"] = 126,
+			["starttime"] = 1727815006,
+			["name"] = "Mangy Wolf",
+			["ccdone"] = 1,
+			["damage"] = 126,
+			["edamage"] = 23,
+			["last_action"] = 1727815020,
+			["endtime"] = 1727815021,
+		}, -- [1]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["damagetaken"] = 106,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 25,
+								},
+							},
+							["amount"] = 25,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 4,
+									["amount"] = 32,
+								},
+							},
+							["overkill"] = 4,
+							["amount"] = 32,
+						},
+					},
+					["name"] = "Kobold Tunneler",
 					["totaldamage"] = 8,
-					["totaldamagetaken"] = 110,
-					["id"] = "0xF130000067326ADD",
+					["totaldamagetaken"] = 106,
+					["id"] = "0xF1300001DB334740",
 					["damage"] = 8,
 				}, -- [1]
 			},
-			["totaldamage"] = 110,
-			["time"] = 9,
+			["totaldamage"] = 106,
+			["time"] = 12,
 			["totaldamagetaken"] = 8,
-			["etotaldamagetaken"] = 110,
-			["last_time"] = 44315.648,
+			["etotaldamagetaken"] = 106,
+			["last_time"] = 52277.111,
 			["players"] = {
 				{
-					["last"] = 44315.607,
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = 1,
+							},
+						},
+					},
+					["last"] = 52275.454,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 12,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["totaldamage"] = 73,
+					["time"] = 8.15,
+					["totaldamagetaken"] = 8,
+					["damage"] = 73,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 16,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 4,
+									["amount"] = 32,
+								},
+							},
+							["overkill"] = 4,
+							["PARRY"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 32,
+							["hitamount"] = 32,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 16,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 16,
+							["hitamount"] = 16,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 25,
+							["id"] = 78,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 25,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 25,
+							["amount"] = 25,
+							["hitamount"] = 25,
+						},
+					},
+					["damagetaken"] = 8,
+					["id"] = "0x0700000000B06C55",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 2,
+							["id"] = 6603,
+							["amount"] = 8,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 8,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 3,
+							["MISS"] = 1,
+							["hitamount"] = 8,
+						},
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["overkill"] = 4,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 52267.303,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 12,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 0,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 15,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 33,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 18,
+							["amount"] = 33,
+							["hitamount"] = 33,
+						},
+					},
+					["last"] = 52274.636,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["totaldamage"] = 33,
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["role"] = "NONE",
+					["name"] = "Popasfant",
+					["id"] = "0x0700000000B06C58",
+					["time"] = 1.44,
+					["damage"] = 33,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 8,
+			["mobname"] = "Kobold Tunneler",
+			["etotaldamage"] = 8,
+			["overkill"] = 4,
+			["edamagetaken"] = 106,
+			["starttime"] = 1727814904,
+			["name"] = "Kobold Tunneler (21)",
+			["ccdone"] = 1,
+			["damage"] = 106,
+			["edamage"] = 8,
+			["last_action"] = 1727814914,
+			["endtime"] = 1727814916,
+		}, -- [2]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["damagetaken"] = 228,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 35,
+								},
+							},
+							["amount"] = 35,
+						},
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 6,
+									["amount"] = 50,
+								},
+							},
+							["overkill"] = 6,
+							["amount"] = 50,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 103,
+								},
+							},
+							["amount"] = 103,
+						},
+					},
+					["name"] = "Kobold Tunneler",
+					["totaldamage"] = 24,
+					["totaldamagetaken"] = 228,
+					["id"] = "0xF1300001DB33439A",
+					["damage"] = 24,
+				}, -- [1]
+			},
+			["totaldamage"] = 228,
+			["time"] = 17,
+			["totaldamagetaken"] = 24,
+			["etotaldamagetaken"] = 228,
+			["last_time"] = 52264.039,
+			["players"] = {
+				{
+					["last"] = 52262.578,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[6673] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 17,
 						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 14,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 14,
 						},
 					},
-					["time"] = 6.27,
-					["totaldamagetaken"] = 2,
-					["damage"] = 55,
+					["time"] = 14.5,
+					["totaldamagetaken"] = 24,
+					["damage"] = 143,
 					["damagespells"] = {
 						["Melee"] = {
-							["DODGE"] = 1,
 							["hitmin"] = 13,
+							["criticalamount"] = 58,
 							["id"] = 6603,
 							["targets"] = {
-								["Garrick Padfoot"] = {
-									["amount"] = 13,
+								["Kobold Tunneler"] = {
+									["amount"] = 103,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
+							["hitmax"] = 17,
+							["count"] = 5,
+							["criticalmax"] = 32,
+							["critical"] = 2,
+							["amount"] = 103,
 							["school"] = 1,
-							["hitmax"] = 13,
-							["amount"] = 13,
-							["hitamount"] = 13,
+							["hit"] = 3,
+							["criticalmin"] = 26,
+							["hitamount"] = 45,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 40,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 40,
+							["hitamount"] = 40,
 						},
 						["Heroic Strike"] = {
-							["hitmin"] = 20,
-							["id"] = 78,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
 							["targets"] = {
-								["Garrick Padfoot"] = {
-									["overkill"] = 8,
-									["amount"] = 42,
+								["Kobold Tunneler"] = {
+									["amount"] = 0,
 								},
 							},
-							["overkill"] = 8,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 22,
-							["amount"] = 42,
-							["hitamount"] = 42,
+							["MISS"] = 1,
+							["id"] = 78,
 						},
 					},
-					["damagetaken"] = 2,
-					["id"] = "0x0700000000B06B5A",
+					["damagetaken"] = 24,
+					["id"] = "0x0700000000B06C55",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 2,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 24,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 4,
+							["amount"] = 24,
+							["hitamount"] = 24,
+						},
+					},
+					["name"] = "Omoratorul",
+					["totaldamage"] = 143,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 9,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 34,
+								},
+							},
+							["amount"] = 34,
+							["hitmax"] = 14,
+							["casts"] = 3,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 23,
+							["MISS"] = 1,
+							["hitamount"] = 34,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 1,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 1,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 1,
+							["amount"] = 1,
+							["hitamount"] = 1,
+						},
+					},
+					["last"] = 52261.845,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 3,
+						},
+					},
+					["totaldamage"] = 35,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 9.42,
+					["damage"] = 35,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 15,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 6,
+									["amount"] = 50,
+								},
+							},
+							["overkill"] = 6,
+							["casts"] = 4,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 19,
+							["amount"] = 50,
+							["hitamount"] = 50,
+						},
+					},
+					["last"] = 52262.745,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["totaldamage"] = 50,
+					["overkill"] = 6,
+					["role"] = "NONE",
+					["name"] = "Popasfant",
+					["id"] = "0x0700000000B06C58",
+					["time"] = 6.720000000000001,
+					["damage"] = 50,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 24,
+			["damage"] = 228,
+			["etotaldamage"] = 24,
+			["overkill"] = 6,
+			["edamagetaken"] = 228,
+			["starttime"] = 1727814885,
+			["name"] = "Kobold Tunneler (20)",
+			["mobname"] = "Kobold Tunneler",
+			["edamage"] = 24,
+			["last_action"] = 1727814901,
+			["endtime"] = 1727814902,
+		}, -- [3]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Popasfant"] = {
+									["amount"] = 11,
+								},
+								["Omoratorul"] = {
+									["amount"] = 23,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
+					["damagetaken"] = 251,
+					["id"] = "0xF1300001DB334463",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 15,
+									["amount"] = 90,
+								},
+							},
+							["overkill"] = 15,
+							["amount"] = 90,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 7,
+									["amount"] = 75,
+								},
+							},
+							["overkill"] = 7,
+							["amount"] = 75,
+						},
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["totaldamage"] = 34,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 251,
+					["flag"] = 68168,
+					["damage"] = 34,
+				}, -- [1]
+			},
+			["totaldamage"] = 251,
+			["time"] = 16,
+			["totaldamagetaken"] = 34,
+			["etotaldamage"] = 34,
+			["last_time"] = 52247.47,
+			["players"] = {
+				{
+					["last"] = 52245.946,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 16,
+						},
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+					},
+					["time"] = 14.19,
+					["totaldamagetaken"] = 23,
+					["damage"] = 123,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 14,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 7,
+									["amount"] = 75,
+								},
+							},
+							["overkill"] = 7,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 17,
+							["amount"] = 75,
+							["hitamount"] = 75,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 24,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 24,
+							["hitamount"] = 24,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 24,
+							["id"] = 78,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 24,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 24,
+							["amount"] = 24,
+							["hitamount"] = 24,
+						},
+					},
+					["damagetaken"] = 23,
+					["id"] = "0x0700000000B06C55",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
 							["id"] = 6603,
 							["sources"] = {
-								["Garrick Padfoot"] = {
-									["amount"] = 2,
+								["Kobold Tunneler"] = {
+									["amount"] = 23,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 4,
+							["amount"] = 23,
+							["hitamount"] = 23,
+						},
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 7,
+					["totaldamage"] = 123,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 9,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 37,
+								},
+							},
+							["hitmax"] = 15,
+							["casts"] = 4,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 23,
+							["amount"] = 37,
+							["hitamount"] = 37,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 1,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 1,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2,
-							["amount"] = 2,
-							["hitamount"] = 2,
+							["school"] = 4,
+							["hitmax"] = 1,
+							["amount"] = 1,
+							["hitamount"] = 1,
 						},
 					},
-					["name"] = "Omoratorul",
-					["overkill"] = 8,
-					["totaldamage"] = 55,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["last"] = 44307.957,
-					["id"] = "0x0700000000B06B12",
-					["class"] = "PRIEST",
+					["last"] = 52240.286,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
 					["auras"] = {
 						[6673] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["role"] = "NONE",
-					["name"] = "Popasfant",
-					["time"] = 0,
-				}, -- [2]
-				{
-					["last"] = 44313.581,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 16,
 						},
 						[168] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[6136] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 1,
-							["targets"] = {
-								["Garrick Padfoot"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 16,
 						},
 						[133] = {
 							["type"] = "DEBUFF",
@@ -255,7 +1151,7 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["refresh"] = 2,
 							["targets"] = {
-								["Garrick Padfoot"] = {
+								["Kobold Tunneler"] = {
 									["count"] = 1,
 									["refresh"] = 2,
 									["uptime"] = 6,
@@ -264,31 +1160,1221 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 					},
-					["time"] = 5.64,
-					["totaldamagetaken"] = 6,
-					["damage"] = 55,
+					["totaldamage"] = 38,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 7.310000000000001,
+					["damage"] = 38,
+				}, -- [2]
+				{
+					["last"] = 52245.996,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["role"] = "NONE",
+					["time"] = 8.800000000000001,
+					["totaldamagetaken"] = 11,
+					["damage"] = 90,
 					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 16,
-							["id"] = 133,
+						["Smite"] = {
+							["criticalmax"] = 25,
+							["hitmin"] = 15,
+							["criticalamount"] = 25,
+							["id"] = 585,
+							["criticalmin"] = 25,
 							["targets"] = {
-								["Garrick Padfoot"] = {
-									["amount"] = 53,
+								["Kobold Tunneler"] = {
+									["overkill"] = 15,
+									["amount"] = 90,
 								},
 							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
+							["overkill"] = 15,
+							["critical"] = 1,
+							["casts"] = 4,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 17,
+							["amount"] = 90,
+							["hitamount"] = 65,
+						},
+					},
+					["damagetaken"] = 11,
+					["id"] = "0x0700000000B06C58",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 5,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 11,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 6,
+							["amount"] = 11,
+							["hitamount"] = 11,
+						},
+					},
+					["name"] = "Popasfant",
+					["overkill"] = 15,
+					["totaldamage"] = 90,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 34,
+			["starttime"] = 1727814869,
+			["overkill"] = 22,
+			["edamagetaken"] = 251,
+			["damage"] = 251,
+			["name"] = "Kobold Tunneler (19)",
+			["mobname"] = "Kobold Tunneler",
+			["etotaldamagetaken"] = 251,
+			["edamage"] = 34,
+			["last_action"] = 1727814884,
+			["endtime"] = 1727814885,
+		}, -- [4]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 7,
+								},
+								["Popasfant"] = {
+									["amount"] = 7,
+								},
+								["Omoratorul"] = {
+									["amount"] = 4,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["damagetaken"] = 214,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
+						[133] = {
 							["school"] = 4,
-							["hitmax"] = 20,
-							["amount"] = 53,
-							["hitamount"] = 53,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 10,
+									["amount"] = 72,
+								},
+							},
+							["overkill"] = 10,
+							["amount"] = 72,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+					},
+					["name"] = "Kobold Tunneler",
+					["totaldamage"] = 18,
+					["totaldamagetaken"] = 214,
+					["id"] = "0xF1300001DB33414D",
+					["damage"] = 18,
+				}, -- [1]
+			},
+			["totaldamage"] = 214,
+			["time"] = 18,
+			["totaldamagetaken"] = 18,
+			["etotaldamagetaken"] = 214,
+			["last_time"] = 52221.686,
+			["players"] = {
+				{
+					["last"] = 52221.662,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 8,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 6,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 12.77,
+					["totaldamagetaken"] = 7,
+					["damage"] = 72,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmin"] = 21,
+							["criticalmax"] = 21,
+							["hitmin"] = 10,
+							["criticalamount"] = 21,
+							["id"] = 133,
+							["critical"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 10,
+									["amount"] = 71,
+								},
+							},
+							["overkill"] = 10,
+							["hitmax"] = 14,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 42,
+							["amount"] = 71,
+							["hitamount"] = 50,
 						},
 						["Fireball (DoT)"] = {
 							["hitmin"] = 1,
 							["id"] = 133,
 							["targets"] = {
-								["Garrick Padfoot"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 1,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 1,
+							["amount"] = 1,
+							["hitamount"] = 1,
+						},
+					},
+					["damagetaken"] = 7,
+					["id"] = "0x0700000000B06C60",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 3,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 7,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 4,
+							["amount"] = 7,
+							["hitamount"] = 7,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["overkill"] = 10,
+					["totaldamage"] = 72,
+				}, -- [1]
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = 1,
+							},
+						},
+					},
+					["last"] = 52221.495,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 15,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 15,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["totaldamage"] = 90,
+					["time"] = 13.22,
+					["totaldamagetaken"] = 4,
+					["damage"] = 90,
+					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 15,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 30,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 15,
+							["amount"] = 30,
+							["hitamount"] = 30,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 32,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 32,
+							["hitamount"] = 32,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 28,
+							["id"] = 78,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 28,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 28,
+							["amount"] = 28,
+							["hitamount"] = 28,
+						},
+					},
+					["damagetaken"] = 4,
+					["id"] = "0x0700000000B06C55",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2,
+							["id"] = 6603,
+							["amount"] = 4,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 4,
+						},
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["role"] = "TANK",
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 16,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 52,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 19,
+							["amount"] = 52,
+							["hitamount"] = 52,
+						},
+					},
+					["last"] = 52221.578,
+					["damagetaken"] = 7,
+					["id"] = "0x0700000000B06C58",
+					["class"] = "PRIEST",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 3,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 7,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 4,
+							["amount"] = 7,
+							["hitamount"] = 7,
+						},
+					},
+					["flag"] = 1298,
+					["totaldamage"] = 52,
+					["time"] = 3.99,
+					["role"] = "NONE",
+					["totaldamagetaken"] = 7,
+					["name"] = "Popasfant",
+					["damage"] = 52,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 18,
+			["mobname"] = "Kobold Tunneler",
+			["etotaldamage"] = 18,
+			["overkill"] = 10,
+			["edamagetaken"] = 214,
+			["starttime"] = 1727814842,
+			["name"] = "Kobold Tunneler (18)",
+			["ccdone"] = 1,
+			["damage"] = 214,
+			["edamage"] = 18,
+			["last_action"] = 1727814858,
+			["endtime"] = 1727814860,
+		}, -- [5]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Popasfant"] = {
+									["amount"] = 15,
+								},
+								["Omoratorul"] = {
+									["amount"] = 83,
+								},
+							},
+							["amount"] = 98,
+						},
+					},
+					["damagetaken"] = 467,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 133,
+								},
+							},
+							["amount"] = 133,
+						},
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 23,
+									["amount"] = 170,
+								},
+							},
+							["overkill"] = 23,
+							["amount"] = 170,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 96,
+								},
+							},
+							["amount"] = 96,
+						},
+					},
+					["name"] = "Kobold Tunneler",
+					["totaldamage"] = 98,
+					["totaldamagetaken"] = 467,
+					["id"] = "0xF1300001DB3341B0",
+					["damage"] = 98,
+				}, -- [1]
+			},
+			["totaldamage"] = 467,
+			["time"] = 34,
+			["damage"] = 467,
+			["totaldamagetaken"] = 98,
+			["etotaldamagetaken"] = 467,
+			["last_time"] = 52193.945,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 9,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 68,
+								},
+							},
+							["amount"] = 68,
+							["hitmax"] = 14,
+							["casts"] = 10,
+							["count"] = 7,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 48,
+							["MISS"] = 1,
+							["hitamount"] = 68,
+						},
+					},
+					["last"] = 52190.304,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["auras"] = {
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 34,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 7,
+								},
+							},
+							["uptime"] = 7,
+						},
+					},
+					["totaldamage"] = 68,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 17.72,
+					["damage"] = 68,
+				}, -- [1]
+				{
+					["last"] = 52190.896,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 29,
+								},
+							},
+							["uptime"] = 29,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 28.91,
+					["totaldamagetaken"] = 83,
+					["damage"] = 229,
+					["damagespells"] = {
+						["Melee"] = {
+							["PARRY"] = 1,
+							["hitmin"] = 9,
+							["criticalamount"] = 50,
+							["id"] = 6603,
+							["criticalmin"] = 22,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 133,
+								},
+							},
+							["blocked"] = 5,
+							["critical"] = 2,
+							["criticalmax"] = 28,
+							["count"] = 10,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 15,
+							["amount"] = 133,
+							["hitamount"] = 83,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 96,
+								},
+							},
+							["casts"] = 6,
+							["count"] = 12,
+							["hit"] = 12,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 96,
+							["hitamount"] = 96,
+						},
+						["Heroic Strike"] = {
+							["DODGE"] = 2,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 78,
+						},
+					},
+					["damagetaken"] = 83,
+					["id"] = "0x0700000000B06C55",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 3,
+							["id"] = 6603,
+							["amount"] = 83,
+							["blocked"] = 4,
+							["BLOCK"] = 1,
+							["hitmax"] = 5,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 83,
+								},
+							},
+							["count"] = 23,
+							["hit"] = 19,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 83,
+						},
+					},
+					["name"] = "Omoratorul",
+					["totaldamage"] = 229,
+				}, -- [2]
+				{
+					["last"] = 52192.121,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["role"] = "NONE",
+					["time"] = 22.89,
+					["totaldamagetaken"] = 15,
+					["damage"] = 170,
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 15,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 23,
+									["amount"] = 170,
+								},
+							},
+							["overkill"] = 23,
+							["amount"] = 170,
+							["casts"] = 11,
+							["count"] = 11,
+							["hit"] = 10,
+							["school"] = 2,
+							["hitmax"] = 19,
+							["MISS"] = 1,
+							["hitamount"] = 170,
+						},
+					},
+					["damagetaken"] = 15,
+					["id"] = "0x0700000000B06C58",
+					["healspells"] = {
+						[2052] = {
+							["overheal"] = 15,
+							["count"] = 1,
+							["amount"] = 60,
+							["school"] = 2,
+							["max"] = 60,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 15,
+									["amount"] = 60,
+								},
+							},
+							["min"] = 60,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 4,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 15,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 6,
+							["amount"] = 15,
+							["hitamount"] = 15,
+						},
+					},
+					["heal"] = 60,
+					["name"] = "Popasfant",
+					["overheal"] = 15,
+					["overkill"] = 23,
+					["totaldamage"] = 170,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 98,
+			["overheal"] = 15,
+			["starttime"] = 1727814797,
+			["etotaldamage"] = 98,
+			["overkill"] = 23,
+			["edamagetaken"] = 467,
+			["heal"] = 60,
+			["name"] = "Kobold Tunneler (17)",
+			["mobname"] = "Kobold Tunneler",
+			["edamage"] = 98,
+			["last_action"] = 1727814831,
+			["endtime"] = 1727814831,
+		}, -- [6]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["damagetaken"] = 156,
+					["id"] = "0xF13000002833413E",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 9,
+									["amount"] = 50,
+								},
+							},
+							["overkill"] = 9,
+							["amount"] = 50,
+						},
+						[589] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 3,
+									["amount"] = 47,
+								},
+							},
+							["overkill"] = 3,
+							["amount"] = 47,
+						},
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["totaldamage"] = 24,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 156,
+					["flag"] = 68168,
+					["damage"] = 24,
+				}, -- [1]
+			},
+			["totaldamage"] = 156,
+			["time"] = 11,
+			["totaldamagetaken"] = 24,
+			["etotaldamage"] = 24,
+			["last_time"] = 52156.729,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 10,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 32,
+								},
+							},
+							["hitmax"] = 12,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 23,
+							["amount"] = 32,
+							["hitamount"] = 32,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 1,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 1,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 1,
+							["amount"] = 1,
+							["hitamount"] = 1,
+						},
+					},
+					["last"] = 52155.921,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["auras"] = {
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
+						},
+					},
+					["totaldamage"] = 33,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 7.71,
+					["damage"] = 33,
+				}, -- [1]
+				{
+					["last"] = 52156.629,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 7.79,
+					["totaldamagetaken"] = 24,
+					["damage"] = 63,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 10,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 3,
+									["amount"] = 47,
+								},
+							},
+							["overkill"] = 3,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 13,
+							["amount"] = 47,
+							["hitamount"] = 47,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 16,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 16,
+							["hitamount"] = 16,
+						},
+					},
+					["damagetaken"] = 24,
+					["id"] = "0x0700000000B06C55",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 6,
+							["criticalamount"] = 12,
+							["id"] = 6603,
+							["criticalmin"] = 12,
+							["criticalmax"] = 12,
+							["critical"] = 1,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 24,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 6,
+							["amount"] = 24,
+							["hitamount"] = 12,
+						},
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 3,
+					["totaldamage"] = 63,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 5,
+							["id"] = 589,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 10,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 5,
+							["amount"] = 10,
+							["hitamount"] = 10,
+						},
+						["Smite"] = {
+							["hitmin"] = 16,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 9,
+									["amount"] = 50,
+								},
+							},
+							["overkill"] = 9,
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 18,
+							["amount"] = 50,
+							["hitamount"] = 50,
+						},
+					},
+					["last"] = 52156.689,
+					["id"] = "0x0700000000B06C58",
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["overkill"] = 9,
+					["auras"] = {
+						[589] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+					},
+					["totaldamage"] = 60,
+					["role"] = "NONE",
+					["name"] = "Popasfant",
+					["time"] = 7.460000000000001,
+					["damage"] = 60,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 24,
+			["starttime"] = 1727814784,
+			["overkill"] = 12,
+			["edamagetaken"] = 156,
+			["damage"] = 156,
+			["name"] = "Kobold Miner (5)",
+			["mobname"] = "Kobold Miner",
+			["etotaldamagetaken"] = 156,
+			["edamage"] = 24,
+			["last_action"] = 1727814794,
+			["endtime"] = 1727814795,
+		}, -- [7]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 10,
+								},
+								["Omoratorul"] = {
+									["amount"] = 9,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["damagetaken"] = 120,
+					["id"] = "0xF130000028334089",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 46,
+								},
+							},
+							["amount"] = 46,
+						},
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 23,
+								},
+							},
+							["amount"] = 23,
+						},
+					},
+					["totaldamage"] = 19,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 120,
+					["flag"] = 68168,
+					["damage"] = 19,
+				}, -- [1]
+			},
+			["totaldamage"] = 120,
+			["time"] = 12,
+			["totaldamagetaken"] = 19,
+			["etotaldamage"] = 19,
+			["last_time"] = 52144.138,
+			["players"] = {
+				{
+					["last"] = 52144.129,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 9.33,
+					["totaldamagetaken"] = 10,
+					["damage"] = 46,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 11,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 44,
+								},
+							},
+							["hitmax"] = 17,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 20,
+							["amount"] = 44,
+							["hitamount"] = 44,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 1,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Miner"] = {
 									["amount"] = 2,
 								},
 							},
@@ -300,14 +2386,2290 @@ SkadaStorageDB = {
 							["hitamount"] = 2,
 						},
 					},
+					["damagetaken"] = 10,
+					["id"] = "0x0700000000B06C60",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 5,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 10,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 5,
+							["amount"] = 10,
+							["hitamount"] = 10,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["totaldamage"] = 46,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 13,
+							["hitmin"] = 8,
+							["id"] = 6603,
+							["blocked"] = 3,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 33,
+								},
+							},
+							["glancemin"] = 13,
+							["glancing"] = 1,
+							["glancemax"] = 13,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 12,
+							["amount"] = 33,
+							["hitamount"] = 20,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 23,
+							["id"] = 78,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 23,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 23,
+							["amount"] = 23,
+							["hitamount"] = 23,
+						},
+					},
+					["last"] = 52143.646,
+					["damagetaken"] = 9,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["totaldamage"] = 56,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 4,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 9,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 5,
+							["amount"] = 9,
+							["hitamount"] = 9,
+						},
+					},
+					["id"] = "0x0700000000B06C55",
+					["role"] = "TANK",
+					["name"] = "Omoratorul",
+					["totaldamagetaken"] = 9,
+					["time"] = 7.59,
+					["damage"] = 56,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 18,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 18,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 18,
+							["amount"] = 18,
+							["hitamount"] = 18,
+						},
+					},
+					["last"] = 52143.779,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["totaldamage"] = 18,
+					["role"] = "NONE",
+					["name"] = "Popasfant",
+					["id"] = "0x0700000000B06C58",
+					["time"] = 0,
+					["damage"] = 18,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 19,
+			["starttime"] = 1727814770,
+			["edamagetaken"] = 120,
+			["damage"] = 120,
+			["name"] = "Kobold Miner (4)",
+			["mobname"] = "Kobold Miner",
+			["etotaldamagetaken"] = 120,
+			["edamage"] = 19,
+			["last_action"] = 1727814781,
+			["endtime"] = 1727814782,
+		}, -- [8]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Popasfant"] = {
+									["amount"] = 11,
+								},
+								["Omoratorul"] = {
+									["amount"] = 4,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["damagetaken"] = 131,
+					["id"] = "0xF13000002833413D",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 72,
+								},
+							},
+							["amount"] = 72,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 11,
+									["amount"] = 47,
+								},
+							},
+							["overkill"] = 11,
+							["amount"] = 47,
+						},
+					},
+					["totaldamage"] = 15,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 131,
+					["flag"] = 68168,
+					["damage"] = 15,
+				}, -- [1]
+			},
+			["totaldamage"] = 131,
+			["time"] = 11,
+			["totaldamagetaken"] = 15,
+			["etotaldamage"] = 15,
+			["last_time"] = 52104.738,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 10,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 11,
+									["amount"] = 47,
+								},
+							},
+							["overkill"] = 11,
+							["hitmax"] = 13,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["resisted"] = 40,
+							["amount"] = 47,
+							["hitamount"] = 47,
+						},
+					},
+					["last"] = 52104.696,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["overkill"] = 11,
+					["auras"] = {
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 5,
+						},
+					},
+					["totaldamage"] = 47,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 8.949999999999999,
+					["damage"] = 47,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 12,
+							["id"] = 6603,
+							["glancemax"] = 12,
+							["glancing"] = 1,
+							["count"] = 1,
+							["amount"] = 12,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 12,
+								},
+							},
+							["glancemin"] = 12,
+						},
+					},
+					["last"] = 52096.706,
+					["damagetaken"] = 4,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["totaldamage"] = 12,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 4,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4,
+							["amount"] = 4,
+							["hitamount"] = 4,
+						},
+					},
+					["id"] = "0x0700000000B06C55",
+					["role"] = "TANK",
+					["name"] = "Omoratorul",
+					["totaldamagetaken"] = 4,
+					["time"] = 0.03,
+					["damage"] = 12,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 16,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 72,
+								},
+							},
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 2,
+							["hitmax"] = 20,
+							["amount"] = 72,
+							["hitamount"] = 72,
+						},
+					},
+					["last"] = 52103.88000000001,
+					["damagetaken"] = 11,
+					["id"] = "0x0700000000B06C58",
+					["class"] = "PRIEST",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 5,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 11,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 6,
+							["amount"] = 11,
+							["hitamount"] = 11,
+						},
+					},
+					["flag"] = 1298,
+					["totaldamage"] = 72,
+					["time"] = 6,
+					["role"] = "NONE",
+					["totaldamagetaken"] = 11,
+					["name"] = "Popasfant",
+					["damage"] = 72,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 15,
+			["starttime"] = 1727814732,
+			["overkill"] = 11,
+			["edamagetaken"] = 131,
+			["damage"] = 131,
+			["name"] = "Kobold Miner (3)",
+			["mobname"] = "Kobold Miner",
+			["etotaldamagetaken"] = 131,
+			["edamage"] = 15,
+			["last_action"] = 1727814742,
+			["endtime"] = 1727814743,
+		}, -- [9]
+		{
+			["mobname"] = "Kobold Tunneler",
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 17,
+								},
+								["Omoratorul"] = {
+									["amount"] = 77,
+								},
+							},
+							["amount"] = 94,
+						},
+					},
+					["damagetaken"] = 259,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 1,
+									["amount"] = 88,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 88,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 97,
+								},
+							},
+							["amount"] = 97,
+						},
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 18,
+									["amount"] = 28,
+								},
+							},
+							["overkill"] = 18,
+							["amount"] = 28,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 46,
+								},
+							},
+							["amount"] = 46,
+						},
+					},
+					["name"] = "Kobold Tunneler",
+					["totaldamage"] = 94,
+					["totaldamagetaken"] = 259,
+					["id"] = "0xF1300001DB333F2F",
+					["damage"] = 94,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 87,
+								},
+							},
+							["amount"] = 87,
+						},
+					},
+					["damagetaken"] = 262,
+					["id"] = "0xF130000028333EF5",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 16,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 88,
+								},
+							},
+							["amount"] = 88,
+						},
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 72,
+								},
+							},
+							["amount"] = 72,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 21,
+									["amount"] = 69,
+								},
+							},
+							["overkill"] = 21,
+							["amount"] = 69,
+						},
+					},
+					["totaldamage"] = 87,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 262,
+					["flag"] = 2632,
+					["damage"] = 87,
+				}, -- [2]
+			},
+			["potion"] = 1,
+			["totaldamage"] = 521,
+			["time"] = 31,
+			["overheal"] = 53,
+			["totaldamagetaken"] = 181,
+			["etotaldamagetaken"] = 521,
+			["last_time"] = 52091.597,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = 1,
+							},
+						},
+					},
+					["last"] = 52090.846,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 15,
+									["count"] = 2,
+								},
+								["Kobold Tunneler"] = {
+									["uptime"] = 20,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["totaldamage"] = 363,
+					["time"] = 28.34,
+					["totaldamagetaken"] = 164,
+					["damage"] = 363,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 30,
+							["hitmin"] = 13,
+							["id"] = 6603,
+							["glancemax"] = 17,
+							["hitmax"] = 17,
+							["glancing"] = 2,
+							["hitamount"] = 104,
+							["count"] = 9,
+							["amount"] = 134,
+							["school"] = 1,
+							["hit"] = 7,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 88,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 46,
+								},
+							},
+							["glancemin"] = 13,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 72,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 1,
+									["amount"] = 88,
+								},
+							},
+							["overkill"] = 1,
+							["casts"] = 4,
+							["count"] = 20,
+							["hit"] = 20,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 160,
+							["hitamount"] = 160,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 21,
+							["id"] = 78,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 21,
+									["amount"] = 69,
+								},
+							},
+							["overkill"] = 21,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 25,
+							["amount"] = 69,
+							["hitamount"] = 69,
+						},
+					},
+					["overheal"] = 53,
+					["damagetaken"] = 164,
+					["id"] = "0x0700000000B06C55",
+					["healspells"] = {
+						[439] = {
+							["overheal"] = 53,
+							["count"] = 1,
+							["amount"] = 37,
+							["school"] = 1,
+							["max"] = 37,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 53,
+									["amount"] = 37,
+								},
+							},
+							["min"] = 37,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 4,
+							["criticalamount"] = 20,
+							["id"] = 6603,
+							["amount"] = 164,
+							["criticalmin"] = 10,
+							["criticalmax"] = 10,
+							["critical"] = 2,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 87,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 77,
+								},
+							},
+							["count"] = 36,
+							["hit"] = 30,
+							["school"] = 1,
+							["hitmax"] = 5,
+							["MISS"] = 1,
+							["hitamount"] = 144,
+						},
+					},
+					["potionspells"] = {
+						[118] = 1,
+					},
+					["heal"] = 37,
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["potion"] = 1,
+					["overkill"] = 22,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 52090.688,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 6.33,
+					["damage"] = 45,
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmax"] = 17,
+							["hitmin"] = 17,
+							["criticalamount"] = 28,
+							["id"] = 585,
+							["count"] = 2,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 17,
+								},
+								["Kobold Tunneler"] = {
+									["overkill"] = 18,
+									["amount"] = 28,
+								},
+							},
+							["overkill"] = 18,
+							["hit"] = 1,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 45,
+							["school"] = 2,
+							["criticalmin"] = 28,
+							["criticalmax"] = 28,
+							["hitamount"] = 17,
+						},
+					},
+					["id"] = "0x0700000000B06C58",
+					["healspells"] = {
+						[2052] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 87,
+							["school"] = 2,
+							["max"] = 87,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 87,
+								},
+							},
+							["min"] = 87,
+						},
+					},
+					["overkill"] = 18,
+					["heal"] = 87,
+					["name"] = "Popasfant",
+					["overheal"] = 0,
+					["totaldamage"] = 45,
+				}, -- [2]
+				{
+					["last"] = 52091.573,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 7,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 26,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 4,
+							["refresh"] = 7,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 2,
+									["refresh"] = 7,
+									["uptime"] = 16,
+								},
+							},
+							["uptime"] = 16,
+						},
+					},
+					["time"] = 23.11,
+					["totaldamagetaken"] = 17,
+					["damage"] = 113,
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 8,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 1,
+									["amount"] = 16,
+								},
+								["Kobold Tunneler"] = {
+									["amount"] = 97,
+								},
+							},
+							["overkill"] = 1,
+							["hitmax"] = 16,
+							["casts"] = 12,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 4,
+							["resisted"] = 80,
+							["amount"] = 113,
+							["hitamount"] = 113,
+						},
+					},
+					["damagetaken"] = 17,
+					["id"] = "0x0700000000B06C60",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 5,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 17,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 6,
+							["amount"] = 17,
+							["hitamount"] = 17,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["overkill"] = 1,
+					["totaldamage"] = 113,
+					["role"] = "DAMAGER",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 181,
+			["starttime"] = 1727814699,
+			["etotaldamage"] = 181,
+			["overkill"] = 41,
+			["edamagetaken"] = 521,
+			["heal"] = 124,
+			["name"] = "Kobold Tunneler (16)",
+			["ccdone"] = 1,
+			["damage"] = 521,
+			["edamage"] = 181,
+			["last_action"] = 1727814728,
+			["endtime"] = 1727814730,
+		}, -- [10]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Popasfant"] = {
+									["amount"] = 21,
+								},
+								["Omoratorul"] = {
+									["amount"] = 4,
+								},
+							},
+							["amount"] = 25,
+						},
+					},
+					["damagetaken"] = 121,
+					["id"] = "0xF1300001DB33400E",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 1,
+									["amount"] = 80,
+								},
+							},
+							["overkill"] = 1,
+							["amount"] = 80,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 41,
+								},
+							},
+							["amount"] = 41,
+						},
+					},
+					["totaldamage"] = 25,
+					["name"] = "Kobold Tunneler",
+					["totaldamagetaken"] = 121,
+					["flag"] = 68168,
+					["damage"] = 25,
+				}, -- [1]
+			},
+			["totaldamage"] = 121,
+			["time"] = 14,
+			["totaldamagetaken"] = 25,
+			["etotaldamage"] = 25,
+			["last_time"] = 52043.981,
+			["players"] = {
+				{
+					["last"] = 52030.956,
+					["damagetaken"] = 4,
+					["id"] = "0x0700000000B06C55",
+					["class"] = "WARRIOR",
+					["flag"] = 1297,
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 4,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 4,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4,
+							["amount"] = 4,
+							["hitamount"] = 4,
+						},
+					},
+					["role"] = "TANK",
+					["name"] = "Omoratorul",
+					["totaldamagetaken"] = 4,
+					["time"] = 0,
+				}, -- [1]
+				{
+					["last"] = 52043.556,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 11.88,
+					["totaldamagetaken"] = 21,
+					["damage"] = 80,
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 15,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 1,
+									["amount"] = 80,
+								},
+							},
+							["overkill"] = 1,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 17,
+							["amount"] = 80,
+							["hitamount"] = 80,
+						},
+					},
+					["damagetaken"] = 21,
+					["id"] = "0x0700000000B06C58",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 5,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 21,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 6,
+							["amount"] = 21,
+							["hitamount"] = 21,
+						},
+					},
+					["name"] = "Popasfant",
+					["overkill"] = 1,
+					["totaldamage"] = 80,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 11,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 39,
+								},
+							},
+							["amount"] = 39,
+							["hitmax"] = 14,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 4,
+							["resisted"] = 21,
+							["MISS"] = 1,
+							["hitamount"] = 39,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 1,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 2,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 1,
+							["amount"] = 2,
+							["hitamount"] = 2,
+						},
+					},
+					["last"] = 52043.372,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 2,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 6,
+						},
+					},
+					["totaldamage"] = 41,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 9.969999999999999,
+					["damage"] = 41,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 25,
+			["starttime"] = 1727814668,
+			["overkill"] = 1,
+			["edamagetaken"] = 121,
+			["damage"] = 121,
+			["name"] = "Kobold Tunneler (15)",
+			["mobname"] = "Kobold Tunneler",
+			["etotaldamagetaken"] = 121,
+			["edamage"] = 25,
+			["last_action"] = 1727814681,
+			["endtime"] = 1727814682,
+		}, -- [11]
+		{
+			["mobname"] = "Kobold Miner",
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 16,
+								},
+								["Omoratorul"] = {
+									["amount"] = 103,
+								},
+							},
+							["amount"] = 119,
+						},
+					},
+					["damagetaken"] = 435,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 28,
+									["amount"] = 145,
+								},
+							},
+							["overkill"] = 28,
+							["amount"] = 145,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 65,
+								},
+							},
+							["amount"] = 65,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 109,
+								},
+							},
+							["amount"] = 109,
+						},
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 72,
+								},
+							},
+							["amount"] = 72,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+					},
+					["name"] = "Kobold Miner",
+					["totaldamage"] = 119,
+					["totaldamagetaken"] = 435,
+					["id"] = "0xF130000028334243",
+					["damage"] = 119,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Popasfant"] = {
+									["amount"] = 27,
+								},
+								["Omoratorul"] = {
+									["amount"] = 47,
+								},
+							},
+							["amount"] = 74,
+						},
+					},
+					["damagetaken"] = 163,
+					["id"] = "0xF130000147333E6A",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 7,
+									["amount"] = 23,
+								},
+							},
+							["overkill"] = 7,
+							["amount"] = 23,
+						},
+					},
+					["totaldamage"] = 74,
+					["name"] = "Goldtooth",
+					["totaldamagetaken"] = 163,
+					["flag"] = 2632,
+					["damage"] = 74,
+				}, -- [2]
+			},
+			["potion"] = 1,
+			["totaldamage"] = 598,
+			["time"] = 31,
+			["overheal"] = 34,
+			["totaldamagetaken"] = 193,
+			["etotaldamagetaken"] = 598,
+			["last_time"] = 52021.105,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = 1,
+							},
+						},
+					},
+					["last"] = 52020.672,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 23,
+									["count"] = 3,
+								},
+								["Goldtooth"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 13,
+								},
+							},
+							["uptime"] = 24,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
+					["totaldamage"] = 296,
+					["time"] = 29.97999999999999,
+					["totaldamagetaken"] = 150,
+					["damage"] = 296,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 24,
+							["hitmin"] = 13,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 109,
+								},
+								["Goldtooth"] = {
+									["amount"] = 24,
+								},
+							},
+							["glancemin"] = 11,
+							["glancing"] = 2,
+							["glancemax"] = 13,
+							["count"] = 10,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 133,
+							["hitamount"] = 109,
+						},
+						["Rend"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 772,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 72,
+								},
+								["Goldtooth"] = {
+									["amount"] = 24,
+								},
+							},
+							["casts"] = 6,
+							["count"] = 12,
+							["hit"] = 12,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 96,
+							["hitamount"] = 96,
+						},
+						["Heroic Strike"] = {
+							["criticalmin"] = 44,
+							["hitmin"] = 23,
+							["criticalamount"] = 44,
+							["id"] = 78,
+							["criticalmax"] = 44,
+							["targets"] = {
+								["Goldtooth"] = {
+									["overkill"] = 7,
+									["amount"] = 23,
+								},
+								["Kobold Miner"] = {
+									["amount"] = 44,
+								},
+							},
+							["overkill"] = 7,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 23,
+							["amount"] = 67,
+							["hitamount"] = 23,
+						},
+					},
+					["overheal"] = 18,
+					["damagetaken"] = 150,
+					["id"] = "0x0700000000B06C55",
+					["healspells"] = {
+						[439] = {
+							["overheal"] = 18,
+							["count"] = 1,
+							["amount"] = 71,
+							["school"] = 1,
+							["max"] = 71,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 18,
+									["amount"] = 71,
+								},
+							},
+							["min"] = 71,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["blocked"] = 6,
+							["hitmin"] = 6,
+							["criticalamount"] = 58,
+							["id"] = 6603,
+							["BLOCK"] = 1,
+							["criticalmin"] = 12,
+							["criticalmax"] = 18,
+							["critical"] = 4,
+							["sources"] = {
+								["Goldtooth"] = {
+									["amount"] = 47,
+								},
+								["Kobold Miner"] = {
+									["amount"] = 103,
+								},
+							},
+							["count"] = 21,
+							["hit"] = 14,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 150,
+							["hitamount"] = 92,
+						},
+					},
+					["potionspells"] = {
+						[118] = 1,
+					},
+					["heal"] = 71,
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["potion"] = 1,
+					["overkill"] = 7,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 52020.714,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[1243] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["time"] = 24.28,
+					["totaldamagetaken"] = 27,
+					["damage"] = 193,
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmax"] = 20,
+							["criticalmin"] = 27,
+							["hitmin"] = 12,
+							["criticalamount"] = 57,
+							["id"] = 585,
+							["criticalmax"] = 30,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 28,
+									["amount"] = 145,
+								},
+								["Goldtooth"] = {
+									["amount"] = 48,
+								},
+							},
+							["overkill"] = 28,
+							["critical"] = 2,
+							["casts"] = 12,
+							["count"] = 10,
+							["hit"] = 8,
+							["school"] = 2,
+							["resisted"] = 3,
+							["amount"] = 193,
+							["hitamount"] = 136,
+						},
+					},
+					["damagetaken"] = 27,
+					["id"] = "0x0700000000B06C58",
+					["healspells"] = {
+						[2052] = {
+							["overheal"] = 16,
+							["casts"] = 2,
+							["count"] = 1,
+							["amount"] = 59,
+							["school"] = 2,
+							["max"] = 59,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 16,
+									["amount"] = 59,
+								},
+							},
+							["min"] = 59,
+						},
+					},
+					["overkill"] = 28,
+					["heal"] = 59,
+					["name"] = "Popasfant",
+					["overheal"] = 16,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 8,
+							["id"] = 6603,
+							["sources"] = {
+								["Goldtooth"] = {
+									["amount"] = 27,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 10,
+							["amount"] = 27,
+							["hitamount"] = 27,
+						},
+					},
+					["totaldamage"] = 193,
+					["role"] = "NONE",
+				}, -- [2]
+				{
+					["last"] = 52016.289,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["refresh"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 7,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 31,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 4,
+							["refresh"] = 3,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 6,
+								},
+								["Goldtooth"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 8,
+								},
+							},
+							["uptime"] = 14,
+						},
+					},
+					["time"] = 25.07,
+					["totaldamagetaken"] = 16,
+					["damage"] = 109,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmin"] = 16,
+							["hitmin"] = 11,
+							["criticalamount"] = 16,
+							["id"] = 133,
+							["criticalmax"] = 16,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 64,
+								},
+								["Goldtooth"] = {
+									["amount"] = 42,
+								},
+							},
+							["critical"] = 1,
+							["hitmax"] = 17,
+							["casts"] = 10,
+							["count"] = 8,
+							["hit"] = 7,
+							["school"] = 4,
+							["resisted"] = 68,
+							["amount"] = 106,
+							["hitamount"] = 90,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 1,
+							["id"] = 133,
+							["targets"] = {
+								["Goldtooth"] = {
+									["amount"] = 2,
+								},
+								["Kobold Miner"] = {
+									["amount"] = 1,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 1,
+							["amount"] = 3,
+							["hitamount"] = 3,
+						},
+					},
+					["damagetaken"] = 16,
+					["id"] = "0x0700000000B06C60",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 8,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 16,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 16,
+							["hitamount"] = 16,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["totaldamage"] = 109,
+					["role"] = "DAMAGER",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 193,
+			["starttime"] = 1727814628,
+			["etotaldamage"] = 193,
+			["overkill"] = 35,
+			["edamagetaken"] = 598,
+			["heal"] = 130,
+			["name"] = "Kobold Miner (2)",
+			["ccdone"] = 1,
+			["damage"] = 598,
+			["edamage"] = 193,
+			["last_action"] = 1727814658,
+			["endtime"] = 1727814659,
+		}, -- [12]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 8,
+								},
+								["Popasfant"] = {
+									["amount"] = 27,
+								},
+								["Omoratorul"] = {
+									["amount"] = 42,
+								},
+							},
+							["amount"] = 77,
+						},
+					},
+					["damagetaken"] = 433,
+					["id"] = "0xF13000002833403C",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 16,
+									["amount"] = 107,
+								},
+							},
+							["overkill"] = 16,
+							["amount"] = 107,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 27,
+									["amount"] = 116,
+								},
+							},
+							["overkill"] = 27,
+							["amount"] = 116,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 2,
+									["amount"] = 96,
+								},
+							},
+							["overkill"] = 2,
+							["amount"] = 96,
+						},
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 88,
+								},
+							},
+							["amount"] = 88,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["totaldamage"] = 77,
+					["name"] = "Kobold Miner",
+					["totaldamagetaken"] = 433,
+					["flag"] = 68168,
+					["damage"] = 77,
+				}, -- [1]
+			},
+			["totaldamage"] = 433,
+			["time"] = 22,
+			["totaldamagetaken"] = 77,
+			["etotaldamage"] = 77,
+			["last_time"] = 51983.43,
+			["players"] = {
+				{
+					["last"] = 51981.24,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[1243] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 16.45,
+					["totaldamagetaken"] = 27,
+					["damage"] = 107,
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 16,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 16,
+									["amount"] = 107,
+								},
+							},
+							["overkill"] = 16,
+							["amount"] = 107,
+							["casts"] = 7,
+							["count"] = 7,
+							["hit"] = 6,
+							["school"] = 2,
+							["hitmax"] = 20,
+							["MISS"] = 1,
+							["hitamount"] = 107,
+						},
+					},
+					["damagetaken"] = 27,
+					["id"] = "0x0700000000B06C58",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 5,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 27,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 6,
+							["amount"] = 27,
+							["hitamount"] = 27,
+						},
+					},
+					["name"] = "Popasfant",
+					["overkill"] = 16,
+					["totaldamage"] = 107,
+				}, -- [1]
+				{
+					["last"] = 51982.156,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[6136] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["refresh"] = 4,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["count"] = 1,
+									["refresh"] = 4,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 16.55,
+					["totaldamagetaken"] = 8,
+					["damage"] = 116,
+					["damagespells"] = {
+						["Fireball"] = {
+							["criticalmin"] = 24,
+							["criticalmax"] = 24,
+							["hitmin"] = 11,
+							["criticalamount"] = 24,
+							["id"] = 133,
+							["critical"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 27,
+									["amount"] = 114,
+								},
+							},
+							["overkill"] = 27,
+							["hitmax"] = 20,
+							["casts"] = 6,
+							["count"] = 7,
+							["hit"] = 6,
+							["school"] = 4,
+							["resisted"] = 57,
+							["amount"] = 114,
+							["hitamount"] = 90,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 1,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 2,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 1,
+							["amount"] = 2,
+							["hitamount"] = 2,
+						},
+					},
+					["damagetaken"] = 8,
+					["id"] = "0x0700000000B06C60",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 8,
+							["id"] = 6603,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 8,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 8,
+							["hitamount"] = 8,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["overkill"] = 27,
+					["totaldamage"] = 116,
+				}, -- [2]
+				{
+					["last"] = 51982.106,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["uptime"] = 20,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 20,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 20.08,
+					["totaldamagetaken"] = 42,
+					["damage"] = 210,
+					["damagespells"] = {
+						["Melee"] = {
+							["glance"] = 13,
+							["hitmin"] = 13,
+							["glancemax"] = 13,
+							["id"] = 6603,
+							["glancemin"] = 13,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["overkill"] = 2,
+									["amount"] = 96,
+								},
+							},
+							["overkill"] = 2,
+							["glancing"] = 1,
+							["PARRY"] = 1,
+							["count"] = 8,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 96,
+							["hitamount"] = 83,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 88,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 11,
+							["hit"] = 11,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 88,
+							["hitamount"] = 88,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 26,
+							["id"] = 78,
+							["targets"] = {
+								["Kobold Miner"] = {
+									["amount"] = 26,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 26,
+							["amount"] = 26,
+							["hitamount"] = 26,
+						},
+					},
+					["damagetaken"] = 42,
+					["id"] = "0x0700000000B06C55",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 4,
+							["id"] = 6603,
+							["amount"] = 42,
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 42,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 6,
+							["MISS"] = 2,
+							["hitamount"] = 42,
+						},
+						["Pierce Armor"] = {
+							["sources"] = {
+								["Kobold Miner"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["MISS"] = 1,
+							["id"] = 6016,
+						},
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 2,
+					["totaldamage"] = 210,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 77,
+			["starttime"] = 1727814598,
+			["overkill"] = 45,
+			["edamagetaken"] = 433,
+			["damage"] = 433,
+			["name"] = "Kobold Miner",
+			["mobname"] = "Kobold Miner",
+			["etotaldamagetaken"] = 433,
+			["edamage"] = 77,
+			["last_action"] = 1727814620,
+			["endtime"] = 1727814620,
+		}, -- [13]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 13,
+								},
+								["Popasfant"] = {
+									["amount"] = 6,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["damagetaken"] = 289,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[585] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 90,
+								},
+							},
+							["amount"] = 90,
+						},
+						[133] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 12,
+									["amount"] = 56,
+								},
+							},
+							["overkill"] = 12,
+							["amount"] = 56,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 68,
+								},
+							},
+							["amount"] = 68,
+						},
+						[772] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						[78] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["name"] = "Kobold Tunneler",
+					["totaldamage"] = 19,
+					["totaldamagetaken"] = 289,
+					["id"] = "0xF1300001DB3340A2",
+					["damage"] = 19,
+				}, -- [1]
+			},
+			["totaldamage"] = 289,
+			["time"] = 21,
+			["totaldamagetaken"] = 19,
+			["etotaldamagetaken"] = 289,
+			["last_time"] = 51955.665,
+			["players"] = {
+				{
+					["last"] = 51953.965,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 10,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 18.56,
+					["totaldamagetaken"] = 13,
+					["damage"] = 143,
+					["damagespells"] = {
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 24,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 8,
+							["amount"] = 24,
+							["hitamount"] = 24,
+						},
+						["Melee"] = {
+							["glance"] = 12,
+							["hitmin"] = 12,
+							["id"] = 6603,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 68,
+								},
+							},
+							["glancemin"] = 12,
+							["glancing"] = 1,
+							["glancemax"] = 12,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 15,
+							["amount"] = 68,
+							["hitamount"] = 56,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 24,
+							["id"] = 78,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 51,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 27,
+							["amount"] = 51,
+							["hitamount"] = 51,
+						},
+					},
+					["damagetaken"] = 13,
+					["id"] = "0x0700000000B06C55",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 4,
+							["id"] = 6603,
+							["amount"] = 13,
+							["sources"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 13,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 5,
+							["MISS"] = 1,
+							["hitamount"] = 13,
+						},
+					},
+					["name"] = "Omoratorul",
+					["totaldamage"] = 143,
+				}, -- [1]
+				{
+					["last"] = 51952.364,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[1243] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+					},
+					["role"] = "NONE",
+					["time"] = 12.31,
+					["totaldamagetaken"] = 6,
+					["damage"] = 90,
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 16,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 90,
+								},
+							},
+							["casts"] = 7,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 2,
+							["hitmax"] = 20,
+							["amount"] = 90,
+							["hitamount"] = 90,
+						},
+					},
 					["damagetaken"] = 6,
-					["id"] = "0x0700000000B06B0B",
+					["id"] = "0x0700000000B06C58",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 3,
 							["id"] = 6603,
 							["sources"] = {
-								["Garrick Padfoot"] = {
+								["Kobold Tunneler"] = {
 									["amount"] = 6,
 								},
 							},
@@ -319,862 +4681,90 @@ SkadaStorageDB = {
 							["hitamount"] = 6,
 						},
 					},
-					["name"] = "Vrajadefoc",
-					["totaldamage"] = 55,
-					["role"] = "DAMAGER",
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 8,
-			["damage"] = 110,
-			["etotaldamage"] = 8,
-			["overkill"] = 8,
-			["edamagetaken"] = 110,
-			["name"] = "Garrick Padfoot (2)",
-			["mobname"] = "Garrick Padfoot",
-			["starttime"] = 1727806945,
-			["edamage"] = 8,
-			["last_action"] = 1727806952,
-			["endtime"] = 1727806954,
-		}, -- [1]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 2,
-								},
-								["Popasfant"] = {
-									["amount"] = 5,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["damagetaken"] = 131,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[585] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 3,
-									["amount"] = 49,
-								},
-							},
-							["overkill"] = 3,
-							["amount"] = 49,
-						},
-						[589] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 6,
-									["amount"] = 28,
-								},
-							},
-							["overkill"] = 6,
-							["amount"] = 28,
-						},
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						[78] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-					},
-					["name"] = "Defias Thug",
-					["totaldamage"] = 7,
-					["totaldamagetaken"] = 131,
-					["id"] = "0xF130000026326A89",
-					["damage"] = 7,
-				}, -- [1]
-			},
-			["totaldamage"] = 131,
-			["time"] = 6,
-			["totaldamagetaken"] = 7,
-			["etotaldamagetaken"] = 131,
-			["last_time"] = 44305.632,
-			["players"] = {
-				{
-					["last"] = 44305.431,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6673] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["time"] = 5,
-					["totaldamagetaken"] = 2,
-					["damage"] = 54,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 13,
-							["id"] = 6603,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 6,
-									["amount"] = 28,
-								},
-							},
-							["overkill"] = 6,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 15,
-							["amount"] = 28,
-							["hitamount"] = 28,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 26,
-							["id"] = 78,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 26,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 26,
-							["amount"] = 26,
-							["hitamount"] = 26,
-						},
-					},
-					["damagetaken"] = 2,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 1,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 2,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1,
-							["amount"] = 2,
-							["hitamount"] = 2,
-						},
-					},
-					["name"] = "Omoratorul",
-					["overkill"] = 6,
-					["totaldamage"] = 54,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["last"] = 44304.498,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[6673] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["time"] = 4.07,
-					["totaldamagetaken"] = 5,
-					["damage"] = 54,
-					["damagespells"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 5,
-							["id"] = 589,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 5,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 5,
-							["amount"] = 5,
-							["hitamount"] = 5,
-						},
-						["Smite"] = {
-							["hitmin"] = 16,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 3,
-									["amount"] = 49,
-								},
-							},
-							["overkill"] = 3,
-							["casts"] = 2,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 17,
-							["amount"] = 49,
-							["hitamount"] = 49,
-						},
-					},
-					["damagetaken"] = 5,
-					["id"] = "0x0700000000B06B12",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 5,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 5,
-							["hitamount"] = 5,
-						},
-					},
 					["name"] = "Popasfant",
-					["overkill"] = 3,
-					["totaldamage"] = 54,
-					["role"] = "NONE",
+					["totaldamage"] = 90,
 				}, -- [2]
 				{
 					["damagespells"] = {
 						["Fireball"] = {
-							["hitmin"] = 23,
+							["hitmin"] = 9,
 							["id"] = 133,
 							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 23,
+								["Kobold Tunneler"] = {
+									["overkill"] = 12,
+									["amount"] = 55,
 								},
 							},
-							["casts"] = 2,
+							["overkill"] = 12,
+							["hitmax"] = 14,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 4,
+							["resisted"] = 43,
+							["amount"] = 55,
+							["hitamount"] = 55,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 1,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 1,
+								},
+							},
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
-							["hitmax"] = 23,
-							["amount"] = 23,
-							["hitamount"] = 23,
+							["hitmax"] = 1,
+							["amount"] = 1,
+							["hitamount"] = 1,
 						},
 					},
-					["last"] = 44303.623,
-					["id"] = "0x0700000000B06B0B",
+					["last"] = 51954.148,
+					["id"] = "0x0700000000B06C60",
 					["class"] = "MAGE",
+					["overkill"] = 12,
 					["auras"] = {
-						[1459] = {
+						[168] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
+							["uptime"] = 21,
 						},
 						[133] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["school"] = 4,
 							["targets"] = {
-								["Defias Thug"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["totaldamage"] = 23,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 3.19,
-					["damage"] = 23,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 7,
-			["damage"] = 131,
-			["etotaldamage"] = 7,
-			["overkill"] = 9,
-			["edamagetaken"] = 131,
-			["name"] = "Defias Thug (16)",
-			["mobname"] = "Defias Thug",
-			["starttime"] = 1727806937,
-			["edamage"] = 7,
-			["last_action"] = 1727806942,
-			["endtime"] = 1727806943,
-		}, -- [2]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 5,
-								},
-								["Omoratorul"] = {
-									["amount"] = 6,
-								},
-							},
-							["amount"] = 11,
-						},
-					},
-					["damagetaken"] = 149,
-					["id"] = "0xF130000026323540",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 14,
-									["amount"] = 46,
-								},
-							},
-							["overkill"] = 14,
-							["amount"] = 46,
-						},
-						[585] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 6,
-									["amount"] = 67,
-								},
-							},
-							["overkill"] = 6,
-							["amount"] = 67,
-						},
-						[78] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-						[589] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["totaldamage"] = 11,
-					["name"] = "Defias Thug",
-					["totaldamagetaken"] = 149,
-					["flag"] = 68136,
-					["damage"] = 11,
-				}, -- [1]
-			},
-			["totaldamage"] = 149,
-			["time"] = 13,
-			["totaldamagetaken"] = 11,
-			["etotaldamage"] = 11,
-			["last_time"] = 44292.632,
-			["players"] = {
-				{
-					["last"] = 44292.44,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6673] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["time"] = 11.06,
-					["totaldamagetaken"] = 6,
-					["damage"] = 72,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 13,
-							["id"] = 6603,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 14,
-									["amount"] = 46,
-								},
-							},
-							["overkill"] = 14,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 17,
-							["amount"] = 46,
-							["hitamount"] = 46,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 26,
-							["id"] = 78,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 26,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 26,
-							["amount"] = 26,
-							["hitamount"] = 26,
-						},
-					},
-					["damagetaken"] = 6,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1,
-							["criticalamount"] = 2,
-							["id"] = 6603,
-							["criticalmin"] = 2,
-							["criticalmax"] = 2,
-							["critical"] = 1,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 6,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1,
-							["amount"] = 6,
-							["hitamount"] = 4,
-						},
-					},
-					["name"] = "Omoratorul",
-					["overkill"] = 14,
-					["totaldamage"] = 72,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["last"] = 44291.782,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[589] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Defias Thug"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[6673] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["time"] = 10.4,
-					["totaldamagetaken"] = 5,
-					["damage"] = 77,
-					["damagespells"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 5,
-							["id"] = 589,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 10,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 5,
-							["amount"] = 10,
-							["hitamount"] = 10,
-						},
-						["Smite"] = {
-							["hitmin"] = 14,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 6,
-									["amount"] = 67,
-								},
-							},
-							["overkill"] = 6,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 18,
-							["amount"] = 67,
-							["hitamount"] = 67,
-						},
-					},
-					["damagetaken"] = 5,
-					["id"] = "0x0700000000B06B12",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 1,
-							["criticalamount"] = 2,
-							["id"] = 6603,
-							["hitmax"] = 2,
-							["count"] = 3,
-							["hit"] = 2,
-							["criticalmax"] = 2,
-							["critical"] = 1,
-							["amount"] = 5,
-							["school"] = 1,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 5,
-								},
-							},
-							["criticalmin"] = 2,
-							["hitamount"] = 3,
-						},
-					},
-					["name"] = "Popasfant",
-					["overkill"] = 6,
-					["totaldamage"] = 77,
-					["role"] = "NONE",
-				}, -- [2]
-				{
-					["last"] = 44280.14,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["auras"] = {
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["time"] = 0,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 11,
-			["starttime"] = 1727806917,
-			["overkill"] = 20,
-			["edamagetaken"] = 149,
-			["damage"] = 149,
-			["name"] = "Defias Thug (15)",
-			["mobname"] = "Defias Thug",
-			["etotaldamagetaken"] = 149,
-			["edamage"] = 11,
-			["last_action"] = 1727806929,
-			["endtime"] = 1727806930,
-		}, -- [3]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["damagetaken"] = 92,
-					["id"] = "0xF1300000673266FA",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[589] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-						[585] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 5,
-									["amount"] = 15,
-								},
-							},
-							["overkill"] = 5,
-							["amount"] = 15,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 73,
-								},
-							},
-							["amount"] = 73,
-						},
-					},
-					["totaldamage"] = 12,
-					["name"] = "Garrick Padfoot",
-					["totaldamagetaken"] = 92,
-					["flag"] = 68136,
-					["damage"] = 12,
-				}, -- [1]
-			},
-			["totaldamage"] = 92,
-			["time"] = 14,
-			["totaldamagetaken"] = 12,
-			["etotaldamage"] = 12,
-			["last_time"] = 44240.041,
-			["players"] = {
-				{
-					["last"] = 44239.516,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6673] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["time"] = 12.48,
-					["totaldamagetaken"] = 12,
-					["damage"] = 73,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 18,
-							["hitmin"] = 11,
-							["criticalmin"] = 22,
-							["targets"] = {
-								["Garrick Padfoot"] = {
-									["amount"] = 73,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 73,
-							["glancemin"] = 9,
-							["criticalamount"] = 44,
-							["id"] = 6603,
-							["glancemax"] = 9,
-							["criticalmax"] = 22,
-							["critical"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 11,
-							["count"] = 5,
-							["hitamount"] = 11,
-						},
-					},
-					["damagetaken"] = 12,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["sources"] = {
-								["Garrick Padfoot"] = {
-									["amount"] = 12,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 12,
-							["hitamount"] = 12,
-						},
-					},
-					["name"] = "Omoratorul",
-					["totaldamage"] = 73,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 4,
-							["id"] = 589,
-							["targets"] = {
-								["Garrick Padfoot"] = {
-									["amount"] = 4,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 4,
-							["amount"] = 4,
-							["hitamount"] = 4,
-						},
-						["Smite"] = {
-							["hitmin"] = 15,
-							["id"] = 585,
-							["targets"] = {
-								["Garrick Padfoot"] = {
-									["overkill"] = 5,
-									["amount"] = 15,
-								},
-							},
-							["overkill"] = 5,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 15,
-							["amount"] = 15,
-							["hitamount"] = 15,
-						},
-					},
-					["last"] = 44240.008,
-					["id"] = "0x0700000000B06B12",
-					["class"] = "PRIEST",
-					["overkill"] = 5,
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[589] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["targets"] = {
-								["Garrick Padfoot"] = {
+								["Kobold Tunneler"] = {
 									["uptime"] = 4,
-									["count"] = 1,
+									["count"] = 2,
 								},
 							},
 							["uptime"] = 4,
 						},
 					},
-					["totaldamage"] = 19,
-					["role"] = "NONE",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 4.11,
-					["damage"] = 19,
-				}, -- [2]
-				{
-					["last"] = 44227.041,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["auras"] = {
-						[1459] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
+					["totaldamage"] = 56,
 					["role"] = "DAMAGER",
 					["name"] = "Vrajadefoc",
 					["flag"] = 1298,
-					["time"] = 0,
+					["time"] = 14.54,
+					["damage"] = 56,
 				}, -- [3]
 			},
 			["type"] = "group",
-			["damagetaken"] = 12,
-			["starttime"] = 1727806864,
-			["overkill"] = 5,
-			["edamagetaken"] = 92,
-			["damage"] = 92,
-			["name"] = "Garrick Padfoot",
-			["mobname"] = "Garrick Padfoot",
-			["etotaldamagetaken"] = 92,
-			["edamage"] = 12,
-			["last_action"] = 1727806877,
-			["endtime"] = 1727806878,
-		}, -- [4]
+			["damagetaken"] = 19,
+			["damage"] = 289,
+			["etotaldamage"] = 19,
+			["overkill"] = 12,
+			["edamagetaken"] = 289,
+			["name"] = "Kobold Tunneler (14)",
+			["mobname"] = "Kobold Tunneler",
+			["starttime"] = 1727814572,
+			["edamage"] = 19,
+			["last_action"] = 1727814592,
+			["endtime"] = 1727814593,
+		}, -- [14]
 		{
 			["enemies"] = {
 				{
@@ -1183,1060 +4773,35 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Omoratorul"] = {
-									["amount"] = 10,
+									["amount"] = 5,
 								},
 							},
-							["amount"] = 10,
+							["amount"] = 5,
 						},
 					},
-					["damagetaken"] = 111,
-					["id"] = "0xF130000026326160",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[78] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 38,
-									["amount"] = 81,
-								},
-							},
-							["overkill"] = 38,
-							["amount"] = 81,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
-					["totaldamage"] = 10,
-					["name"] = "Defias Thug",
-					["totaldamagetaken"] = 111,
-					["flag"] = 68136,
-					["damage"] = 10,
-				}, -- [1]
-			},
-			["totaldamage"] = 111,
-			["time"] = 12,
-			["totaldamagetaken"] = 10,
-			["etotaldamage"] = 10,
-			["last_time"] = 44151.524,
-			["players"] = {
-				{
-					["last"] = 44150.508,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6673] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["time"] = 8.460000000000001,
-					["totaldamagetaken"] = 10,
-					["damage"] = 111,
-					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["criticalamount"] = 30,
-							["id"] = 6603,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 30,
-								},
-							},
-							["criticalmax"] = 30,
-							["critical"] = 1,
-							["amount"] = 30,
-							["school"] = 1,
-							["criticalmin"] = 30,
-							["count"] = 2,
-						},
-						["Heroic Strike"] = {
-							["criticalmin"] = 54,
-							["hitmin"] = 27,
-							["criticalamount"] = 54,
-							["id"] = 78,
-							["criticalmax"] = 54,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 38,
-									["amount"] = 81,
-								},
-							},
-							["overkill"] = 38,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 27,
-							["amount"] = 81,
-							["hitamount"] = 27,
-						},
-					},
-					["damagetaken"] = 10,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["amount"] = 10,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 10,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["MISS"] = 1,
-							["hitamount"] = 10,
-						},
-					},
-					["name"] = "Omoratorul",
-					["overkill"] = 38,
-					["totaldamage"] = 111,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["last"] = 44140.43300000001,
-					["id"] = "0x0700000000B06B12",
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["role"] = "NONE",
-					["name"] = "Popasfant",
-					["time"] = 0,
-				}, -- [2]
-			},
-			["type"] = "group",
-			["damagetaken"] = 10,
-			["starttime"] = 1727806777,
-			["etotaldamagetaken"] = 111,
-			["overkill"] = 38,
-			["edamagetaken"] = 111,
-			["name"] = "Defias Thug (14)",
-			["mobname"] = "Defias Thug",
-			["damage"] = 111,
-			["edamage"] = 10,
-			["last_action"] = 1727806788,
-			["endtime"] = 1727806789,
-		}, -- [5]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
-					["damagetaken"] = 81,
-					["id"] = "0xF1300000263260CC",
+					["damagetaken"] = 107,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 8,
-									["amount"] = 55,
+									["amount"] = 48,
 								},
 							},
-							["overkill"] = 8,
-							["amount"] = 55,
-						},
-						[78] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 26,
-								},
-							},
-							["amount"] = 26,
-						},
-					},
-					["totaldamage"] = 13,
-					["name"] = "Defias Thug",
-					["totaldamagetaken"] = 81,
-					["flag"] = 68136,
-					["damage"] = 13,
-				}, -- [1]
-			},
-			["totaldamage"] = 81,
-			["time"] = 11,
-			["totaldamagetaken"] = 13,
-			["etotaldamage"] = 13,
-			["last_time"] = 44136.225,
-			["players"] = {
-				{
-					["last"] = 44136.149,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[6673] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["time"] = 9.969999999999999,
-					["totaldamagetaken"] = 13,
-					["damage"] = 81,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 15,
-							["hitmin"] = 16,
-							["criticalmin"] = 24,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 8,
-									["amount"] = 55,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 55,
-							["glancemin"] = 15,
-							["criticalamount"] = 24,
-							["id"] = 6603,
-							["glancemax"] = 15,
-							["overkill"] = 8,
-							["criticalmax"] = 24,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 16,
-							["count"] = 3,
-							["hitamount"] = 16,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 26,
-							["id"] = 78,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 26,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 26,
-							["amount"] = 26,
-							["hitamount"] = 26,
-						},
-					},
-					["damagetaken"] = 13,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 13,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 13,
-							["hitamount"] = 13,
-						},
-					},
-					["name"] = "Omoratorul",
-					["overkill"] = 8,
-					["totaldamage"] = 81,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["last"] = 44126.191,
-					["id"] = "0x0700000000B06B12",
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-					},
-					["role"] = "NONE",
-					["name"] = "Popasfant",
-					["time"] = 0,
-				}, -- [2]
-				{
-					["last"] = 44126.191,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["time"] = 0,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 13,
-			["starttime"] = 1727806763,
-			["overkill"] = 8,
-			["edamagetaken"] = 81,
-			["damage"] = 81,
-			["name"] = "Defias Thug (13)",
-			["mobname"] = "Defias Thug",
-			["etotaldamagetaken"] = 81,
-			["edamage"] = 13,
-			["last_action"] = 1727806773,
-			["endtime"] = 1727806774,
-		}, -- [6]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 1,
-								},
-								["Omoratorul"] = {
-									["amount"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["damagetaken"] = 82,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 18,
-								},
-							},
-							["amount"] = 18,
+							["amount"] = 48,
 						},
 						[585] = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["amount"] = 17,
+									["amount"] = 32,
 								},
 							},
-							["amount"] = 17,
+							["amount"] = 32,
 						},
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 20,
-									["amount"] = 47,
-								},
-							},
-							["overkill"] = 20,
-							["amount"] = 47,
-						},
-					},
-					["name"] = "Defias Thug",
-					["totaldamage"] = 2,
-					["totaldamagetaken"] = 82,
-					["id"] = "0xF130000026326023",
-					["damage"] = 2,
-				}, -- [1]
-			},
-			["totaldamage"] = 82,
-			["time"] = 7,
-			["totaldamagetaken"] = 2,
-			["etotaldamagetaken"] = 82,
-			["last_time"] = 43931.06,
-			["players"] = {
-				{
-					["last"] = 43929.101,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["time"] = 3.7,
-					["totaldamagetaken"] = 1,
-					["damage"] = 18,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 9,
-							["id"] = 6603,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 18,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 9,
-							["amount"] = 18,
-							["hitamount"] = 18,
-						},
-					},
-					["damagetaken"] = 1,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 1,
-							["id"] = 6603,
-							["hitmax"] = 1,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["name"] = "Omoratorul",
-					["totaldamage"] = 18,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Smite"] = {
-							["hitmin"] = 17,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 17,
-								},
-							},
-							["amount"] = 17,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 17,
-							["MISS"] = 1,
-							["hitamount"] = 17,
-						},
-					},
-					["last"] = 43928.118,
-					["id"] = "0x0700000000B06B12",
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 17,
-					["role"] = "NONE",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 2.72,
-					["damage"] = 17,
-				}, -- [2]
-				{
-					["last"] = 43931.011,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[133] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Defias Thug"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 5.609999999999999,
-					["totaldamagetaken"] = 1,
-					["damage"] = 47,
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 23,
-							["id"] = 133,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 20,
-									["amount"] = 46,
-								},
-							},
-							["overkill"] = 20,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 23,
-							["amount"] = 46,
-							["hitamount"] = 46,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 133,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["damagetaken"] = 1,
-					["id"] = "0x0700000000B06B0B",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 1,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["name"] = "Vrajadefoc",
-					["overkill"] = 20,
-					["totaldamage"] = 47,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 2,
-			["damage"] = 82,
-			["etotaldamage"] = 2,
-			["overkill"] = 20,
-			["edamagetaken"] = 82,
-			["starttime"] = 1727806562,
-			["name"] = "Defias Thug (12)",
-			["mobname"] = "Defias Thug",
-			["edamage"] = 2,
-			["last_action"] = 1727806568,
-			["endtime"] = 1727806569,
-		}, -- [7]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 1,
-								},
-								["Omoratorul"] = {
-									["amount"] = 15,
-								},
-							},
-							["amount"] = 16,
-						},
-					},
-					["damagetaken"] = 167,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 23,
-								},
-							},
-							["amount"] = 23,
-						},
-						[585] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 13,
-									["amount"] = 68,
-								},
-							},
-							["overkill"] = 13,
-							["amount"] = 68,
-						},
-						[78] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 6,
-									["amount"] = 40,
-								},
-							},
-							["overkill"] = 6,
-							["amount"] = 40,
-						},
-					},
-					["name"] = "Defias Thug",
-					["totaldamage"] = 16,
-					["totaldamagetaken"] = 167,
-					["id"] = "0xF1300000263237F8",
-					["damage"] = 16,
-				}, -- [1]
-			},
-			["totaldamage"] = 167,
-			["time"] = 16,
-			["totaldamagetaken"] = 16,
-			["etotaldamagetaken"] = 167,
-			["last_time"] = 43874.319,
-			["players"] = {
-				{
-					["last"] = 43871.26,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 12.38,
-					["totaldamagetaken"] = 15,
-					["damage"] = 59,
-					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 7,
-							["id"] = 6603,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 23,
-								},
-							},
-							["blocked"] = 2,
-							["PARRY"] = 1,
-							["count"] = 5,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 9,
-							["amount"] = 23,
-							["hitamount"] = 23,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 17,
-							["id"] = 78,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 36,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 19,
-							["amount"] = 36,
-							["hitamount"] = 36,
-						},
-					},
-					["damagetaken"] = 15,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 15,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 15,
-							["hitamount"] = 15,
-						},
-					},
-					["name"] = "Omoratorul",
-					["totaldamage"] = 59,
-				}, -- [1]
-				{
-					["last"] = 43873.06,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["role"] = "NONE",
-					["time"] = 10.8,
-					["totaldamagetaken"] = 1,
-					["damage"] = 68,
-					["damagespells"] = {
-						["Smite"] = {
-							["hitmin"] = 15,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 13,
-									["amount"] = 68,
-								},
-							},
-							["overkill"] = 13,
-							["casts"] = 6,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 19,
-							["amount"] = 68,
-							["hitamount"] = 68,
-						},
-					},
-					["damagetaken"] = 1,
-					["id"] = "0x0700000000B06B12",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 1,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["name"] = "Popasfant",
-					["overkill"] = 13,
-					["totaldamage"] = 68,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 19,
-							["id"] = 133,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 6,
-									["amount"] = 39,
-								},
-							},
-							["overkill"] = 6,
-							["casts"] = 3,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 20,
-							["amount"] = 39,
-							["hitamount"] = 39,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 133,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["last"] = 43864.527,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["overkill"] = 6,
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[133] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Defias Thug"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["totaldamage"] = 40,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 5.58,
-					["damage"] = 40,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 16,
-			["damage"] = 167,
-			["etotaldamage"] = 16,
-			["overkill"] = 19,
-			["edamagetaken"] = 167,
-			["name"] = "Defias Thug (11)",
-			["mobname"] = "Defias Thug",
-			["starttime"] = 1727806495,
-			["edamage"] = 16,
-			["last_action"] = 1727806511,
-			["endtime"] = 1727806511,
-		}, -- [8]
-		{
-			["enemies"] = {
-				{
-					["id"] = "0xF13000002632393D",
-					["name"] = "Defias Thug",
-					["totaldamagetaken"] = 68,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetaken"] = 68,
-					["damagetakenspells"] = {
-						[585] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 6,
-									["amount"] = 33,
-								},
-							},
-							["overkill"] = 6,
-							["amount"] = 33,
-						},
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 35,
-								},
-							},
-							["amount"] = 35,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 68,
-			["time"] = 5,
-			["etotaldamagetaken"] = 68,
-			["last_time"] = 43856.728,
-			["players"] = {
-				{
-					["last"] = 43853.002,
-					["id"] = "0x0700000000B06B5A",
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Omoratorul",
-					["time"] = 0,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Smite"] = {
-							["hitmin"] = 15,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 6,
-									["amount"] = 33,
-								},
-							},
-							["overkill"] = 6,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 18,
-							["amount"] = 33,
-							["hitamount"] = 33,
-						},
-					},
-					["last"] = 43856.686,
-					["id"] = "0x0700000000B06B12",
-					["class"] = "PRIEST",
-					["overkill"] = 6,
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 33,
-					["role"] = "NONE",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 3.69,
-					["damage"] = 33,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 16,
-							["id"] = 133,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 35,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 19,
-							["amount"] = 35,
-							["hitamount"] = 35,
-						},
-					},
-					["last"] = 43856.586,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[133] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 4,
-							["refresh"] = 1,
-							["targets"] = {
-								["Defias Thug"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-					},
-					["totaldamage"] = 35,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 3.59,
-					["damage"] = 35,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["overkill"] = 6,
-			["edamagetaken"] = 68,
-			["damage"] = 68,
-			["name"] = "Defias Thug (10)",
-			["mobname"] = "Defias Thug",
-			["starttime"] = 1727806490,
-			["last_action"] = 1727806494,
-			["endtime"] = 1727806495,
-		}, -- [9]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["damagetaken"] = 62,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
+						[772] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
@@ -2245,47 +4810,99 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8,
 						},
-						[585] = {
-							["school"] = 2,
+						[133] = {
+							["school"] = 4,
 							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 35,
-								},
-							},
-							["amount"] = 35,
-						},
-						[78] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 18,
+								["Vrajadefoc"] = {
+									["overkill"] = 5,
 									["amount"] = 19,
 								},
 							},
-							["overkill"] = 18,
+							["overkill"] = 5,
 							["amount"] = 19,
 						},
 					},
-					["name"] = "Defias Thug",
-					["totaldamage"] = 1,
-					["totaldamagetaken"] = 62,
-					["id"] = "0xF130000026324771",
-					["damage"] = 1,
+					["name"] = "Kobold Tunneler",
+					["totaldamage"] = 5,
+					["totaldamagetaken"] = 107,
+					["id"] = "0xF1300001DB3340F1",
+					["damage"] = 5,
 				}, -- [1]
 			},
-			["totaldamage"] = 62,
-			["time"] = 6,
-			["totaldamagetaken"] = 1,
-			["etotaldamagetaken"] = 62,
-			["last_time"] = 43849.085,
+			["totaldamage"] = 107,
+			["time"] = 7,
+			["totaldamagetaken"] = 5,
+			["etotaldamagetaken"] = 107,
+			["last_time"] = 51931.598,
 			["players"] = {
 				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = 1,
+							},
+						},
+					},
+					["last"] = 51931.381,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[772] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[6673] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
+					["totaldamage"] = 56,
+					["time"] = 5.609999999999999,
+					["totaldamagetaken"] = 5,
+					["damage"] = 56,
 					["damagespells"] = {
 						["Melee"] = {
-							["hitmin"] = 8,
+							["hitmin"] = 15,
 							["id"] = 6603,
 							["targets"] = {
-								["Defias Thug"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 48,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 17,
+							["amount"] = 48,
+							["hitamount"] = 48,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 8,
+							["id"] = 772,
+							["targets"] = {
+								["Kobold Tunneler"] = {
 									["amount"] = 8,
 								},
 							},
@@ -2296,1145 +4913,15 @@ SkadaStorageDB = {
 							["amount"] = 8,
 							["hitamount"] = 8,
 						},
-						["Heroic Strike"] = {
-							["hitmin"] = 19,
-							["id"] = 78,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 18,
-									["amount"] = 19,
-								},
-							},
-							["overkill"] = 18,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 19,
-							["amount"] = 19,
-							["hitamount"] = 19,
-						},
-					},
-					["last"] = 43848.044,
-					["id"] = "0x0700000000B06B5A",
-					["class"] = "WARRIOR",
-					["overkill"] = 18,
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["totaldamage"] = 27,
-					["role"] = "TANK",
-					["name"] = "Omoratorul",
-					["flag"] = 1297,
-					["time"] = 3.98,
-					["damage"] = 27,
-				}, -- [1]
-				{
-					["last"] = 43847.985,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["role"] = "NONE",
-					["time"] = 3.91,
-					["totaldamagetaken"] = 1,
-					["damage"] = 35,
-					["damagespells"] = {
-						["Smite"] = {
-							["hitmin"] = 17,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 35,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 18,
-							["amount"] = 35,
-							["hitamount"] = 35,
-						},
-					},
-					["damagetaken"] = 1,
-					["id"] = "0x0700000000B06B12",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 1,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 1,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1,
-							["amount"] = 1,
-							["hitamount"] = 1,
-						},
-					},
-					["name"] = "Popasfant",
-					["totaldamage"] = 35,
-				}, -- [2]
-				{
-					["last"] = 43844.069,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["time"] = 0,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 1,
-			["damage"] = 62,
-			["etotaldamage"] = 1,
-			["overkill"] = 18,
-			["edamagetaken"] = 62,
-			["name"] = "Defias Thug (9)",
-			["mobname"] = "Defias Thug",
-			["starttime"] = 1727806481,
-			["edamage"] = 1,
-			["last_action"] = 1727806486,
-			["endtime"] = 1727806487,
-		}, -- [10]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["damagetaken"] = 78,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[78] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-						[585] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 31,
-								},
-							},
-							["amount"] = 31,
-						},
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 16,
-									["amount"] = 22,
-								},
-							},
-							["overkill"] = 16,
-							["amount"] = 22,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-					},
-					["name"] = "Defias Thug",
-					["totaldamage"] = 2,
-					["totaldamagetaken"] = 78,
-					["id"] = "0xF1300000263239FA",
-					["damage"] = 2,
-				}, -- [1]
-			},
-			["totaldamage"] = 78,
-			["time"] = 7,
-			["totaldamagetaken"] = 2,
-			["etotaldamagetaken"] = 78,
-			["last_time"] = 43842.177,
-			["players"] = {
-				{
-					["last"] = 43839.46,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 3.8,
-					["totaldamagetaken"] = 2,
-					["damage"] = 25,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 7,
-							["id"] = 6603,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 7,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 7,
-							["amount"] = 7,
-							["hitamount"] = 7,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 18,
-							["id"] = 78,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 18,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 18,
-							["amount"] = 18,
-							["hitamount"] = 18,
-						},
-					},
-					["damagetaken"] = 2,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 2,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2,
-							["amount"] = 2,
-							["hitamount"] = 2,
-						},
-					},
-					["name"] = "Omoratorul",
-					["totaldamage"] = 25,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Smite"] = {
-							["hitmin"] = 14,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 31,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 17,
-							["amount"] = 31,
-							["hitamount"] = 31,
-						},
-					},
-					["last"] = 43840.585,
-					["id"] = "0x0700000000B06B12",
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 31,
-					["role"] = "NONE",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 4.93,
-					["damage"] = 31,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 22,
-							["id"] = 133,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 16,
-									["amount"] = 22,
-								},
-							},
-							["overkill"] = 16,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 22,
-							["amount"] = 22,
-							["hitamount"] = 22,
-						},
-					},
-					["last"] = 43840.902,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["overkill"] = 16,
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 22,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 3.5,
-					["damage"] = 22,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 2,
-			["damage"] = 78,
-			["etotaldamage"] = 2,
-			["overkill"] = 16,
-			["edamagetaken"] = 78,
-			["name"] = "Defias Thug (8)",
-			["mobname"] = "Defias Thug",
-			["starttime"] = 1727806472,
-			["edamage"] = 2,
-			["last_action"] = 1727806479,
-			["endtime"] = 1727806479,
-		}, -- [11]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["damagetaken"] = 88,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[78] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-						[585] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 49,
-								},
-							},
-							["amount"] = 49,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 18,
-								},
-							},
-							["amount"] = 18,
-						},
-					},
-					["name"] = "Defias Thug",
-					["totaldamage"] = 3,
-					["totaldamagetaken"] = 88,
-					["id"] = "0xF130000026323B89",
-					["damage"] = 3,
-				}, -- [1]
-			},
-			["totaldamage"] = 88,
-			["time"] = 5,
-			["totaldamagetaken"] = 3,
-			["etotaldamagetaken"] = 88,
-			["last_time"] = 43830.411,
-			["players"] = {
-				{
-					["last"] = 43830.277,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 3.78,
-					["totaldamagetaken"] = 3,
-					["damage"] = 39,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 18,
-							["id"] = 6603,
-							["glancemax"] = 9,
-							["glancing"] = 2,
-							["count"] = 2,
-							["amount"] = 18,
-							["school"] = 1,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 18,
-								},
-							},
-							["glancemin"] = 9,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 21,
-							["id"] = 78,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 21,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 21,
-							["amount"] = 21,
-							["hitamount"] = 21,
-						},
-					},
-					["damagetaken"] = 3,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 3,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 3,
-							["hitamount"] = 3,
-						},
-					},
-					["name"] = "Omoratorul",
-					["totaldamage"] = 39,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Smite"] = {
-							["hitmin"] = 15,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 49,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 19,
-							["amount"] = 49,
-							["hitamount"] = 49,
-						},
-					},
-					["last"] = 43830.278,
-					["id"] = "0x0700000000B06B12",
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 49,
-					["role"] = "NONE",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 3.78,
-					["damage"] = 49,
-				}, -- [2]
-				{
-					["last"] = 43826.495,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["time"] = 0,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 3,
-			["damage"] = 88,
-			["etotaldamage"] = 3,
-			["edamagetaken"] = 88,
-			["name"] = "Defias Thug (7)",
-			["mobname"] = "Defias Thug",
-			["starttime"] = 1727806463,
-			["edamage"] = 3,
-			["last_action"] = 1727806467,
-			["endtime"] = 1727806468,
-		}, -- [12]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["damagetaken"] = 52,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-					},
-					["name"] = "Defias Thug",
-					["totaldamage"] = 3,
-					["totaldamagetaken"] = 52,
-					["id"] = "0xF130000026324F49",
-					["damage"] = 3,
-				}, -- [1]
-			},
-			["totaldamage"] = 52,
-			["time"] = 5,
-			["totaldamagetaken"] = 3,
-			["etotaldamagetaken"] = 52,
-			["last_time"] = 43820.911,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Melee"] = {
-							["criticalamount"] = 20,
-							["id"] = 6603,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 20,
-								},
-							},
-							["criticalmax"] = 20,
-							["critical"] = 1,
-							["amount"] = 20,
-							["school"] = 1,
-							["criticalmin"] = 20,
-							["count"] = 1,
-						},
-					},
-					["last"] = 43818.644,
-					["damagetaken"] = 3,
-					["id"] = "0x0700000000B06B5A",
-					["class"] = "WARRIOR",
-					["flag"] = 1297,
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 3,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 3,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 3,
-							["hitamount"] = 3,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Omoratorul",
-					["time"] = 1.83,
-					["totaldamagetaken"] = 3,
-					["totaldamage"] = 20,
-					["damage"] = 20,
-				}, -- [1]
-				{
-					["last"] = 43816.811,
-					["id"] = "0x0700000000B06B12",
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "NONE",
-					["name"] = "Popasfant",
-					["time"] = 0,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["criticalamount"] = 32,
-							["id"] = 133,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 32,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 32,
-							["school"] = 4,
-							["criticalmin"] = 32,
-							["criticalmax"] = 32,
-							["count"] = 1,
-						},
-					},
-					["last"] = 43819.936,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 32,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 3.13,
-					["damage"] = 32,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 3,
-			["damage"] = 52,
-			["etotaldamage"] = 3,
-			["edamagetaken"] = 52,
-			["name"] = "Defias Thug (6)",
-			["mobname"] = "Defias Thug",
-			["starttime"] = 1727806454,
-			["edamage"] = 3,
-			["last_action"] = 1727806458,
-			["endtime"] = 1727806459,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 20,
-								},
-								["Popasfant"] = {
-									["amount"] = 17,
-								},
-							},
-							["amount"] = 37,
-						},
-					},
-					["damagetaken"] = 417,
-					["flag"] = 2600,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 12,
-									["amount"] = 100,
-								},
-							},
-							["overkill"] = 12,
-							["amount"] = 100,
-						},
-						[585] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 25,
-									["amount"] = 164,
-								},
-							},
-							["overkill"] = 25,
-							["amount"] = 164,
-						},
-						[133] = {
-							["school"] = 4,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 91,
-								},
-							},
-							["amount"] = 91,
-						},
-						[78] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 62,
-								},
-							},
-							["amount"] = 62,
-						},
-					},
-					["name"] = "Defias Thug",
-					["totaldamage"] = 37,
-					["totaldamagetaken"] = 417,
-					["id"] = "0xF130000026325912",
-					["damage"] = 37,
-				}, -- [1]
-			},
-			["totaldamage"] = 417,
-			["time"] = 27,
-			["totaldamagetaken"] = 37,
-			["etotaldamagetaken"] = 417,
-			["last_time"] = 43814.102,
-			["players"] = {
-				{
-					["last"] = 43813.511,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 24.3,
-					["totaldamagetaken"] = 20,
-					["damage"] = 162,
-					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 9,
-							["criticalamount"] = 38,
-							["id"] = 6603,
-							["hitmax"] = 11,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 12,
-									["amount"] = 100,
-								},
-							},
-							["overkill"] = 12,
-							["count"] = 9,
-							["criticalmax"] = 20,
-							["critical"] = 2,
-							["amount"] = 100,
-							["school"] = 1,
-							["hit"] = 6,
-							["criticalmin"] = 18,
-							["hitamount"] = 62,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 19,
-							["id"] = 78,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 62,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 22,
-							["amount"] = 62,
-							["hitamount"] = 62,
-						},
-					},
-					["damagetaken"] = 20,
-					["id"] = "0x0700000000B06B5A",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1,
-							["criticalamount"] = 4,
-							["id"] = 6603,
-							["criticalmin"] = 4,
-							["criticalmax"] = 4,
-							["critical"] = 1,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 20,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 20,
-							["hitamount"] = 16,
-						},
-					},
-					["name"] = "Omoratorul",
-					["overkill"] = 12,
-					["totaldamage"] = 162,
-				}, -- [1]
-				{
-					["last"] = 43810.786,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-					},
-					["role"] = "NONE",
-					["time"] = 19.34,
-					["totaldamagetaken"] = 17,
-					["damage"] = 164,
-					["damagespells"] = {
-						["Smite"] = {
-							["hitmin"] = 15,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 25,
-									["amount"] = 164,
-								},
-							},
-							["overkill"] = 25,
-							["casts"] = 10,
-							["count"] = 10,
-							["hit"] = 10,
-							["school"] = 2,
-							["hitmax"] = 19,
-							["amount"] = 164,
-							["hitamount"] = 164,
-						},
-					},
-					["damagetaken"] = 17,
-					["id"] = "0x0700000000B06B12",
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 2,
-							["id"] = 6603,
-							["sources"] = {
-								["Defias Thug"] = {
-									["amount"] = 17,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 3,
-							["amount"] = 17,
-							["hitamount"] = 17,
-						},
-					},
-					["name"] = "Popasfant",
-					["overkill"] = 25,
-					["totaldamage"] = 164,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Fireball"] = {
-							["hitmin"] = 15,
-							["id"] = 133,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 89,
-								},
-							},
-							["hitmax"] = 23,
-							["casts"] = 6,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 4,
-							["resisted"] = 6,
-							["amount"] = 89,
-							["hitamount"] = 89,
-						},
-						["Fireball (DoT)"] = {
-							["hitmin"] = 1,
-							["id"] = 133,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 2,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 1,
-							["amount"] = 2,
-							["hitamount"] = 2,
-						},
-					},
-					["last"] = 43813.136,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-						[133] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 4,
-							["refresh"] = 2,
-							["targets"] = {
-								["Defias Thug"] = {
-									["count"] = 3,
-									["refresh"] = 2,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-					},
-					["totaldamage"] = 91,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 16.48,
-					["damage"] = 91,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 37,
-			["damage"] = 417,
-			["etotaldamage"] = 37,
-			["overkill"] = 37,
-			["edamagetaken"] = 417,
-			["name"] = "Defias Thug (5)",
-			["mobname"] = "Defias Thug",
-			["starttime"] = 1727806424,
-			["edamage"] = 37,
-			["last_action"] = 1727806451,
-			["endtime"] = 1727806451,
-		}, -- [14]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["damagetaken"] = 69,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[585] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 49,
-								},
-							},
-							["amount"] = 49,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 9,
-									["amount"] = 20,
-								},
-							},
-							["overkill"] = 9,
-							["amount"] = 20,
-						},
-					},
-					["name"] = "Defias Thug",
-					["totaldamage"] = 5,
-					["totaldamagetaken"] = 69,
-					["id"] = "0xF130000026325937",
-					["damage"] = 5,
-				}, -- [1]
-			},
-			["totaldamage"] = 69,
-			["time"] = 5,
-			["totaldamagetaken"] = 5,
-			["etotaldamagetaken"] = 69,
-			["last_time"] = 43775.903,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 9,
-							["id"] = 6603,
-							["targets"] = {
-								["Defias Thug"] = {
-									["overkill"] = 9,
-									["amount"] = 20,
-								},
-							},
-							["overkill"] = 9,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 11,
-							["amount"] = 20,
-							["hitamount"] = 20,
-						},
-					},
-					["last"] = 43775.811,
-					["id"] = "0x0700000000B06B5A",
-					["class"] = "WARRIOR",
-					["overkill"] = 9,
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 20,
-					["role"] = "TANK",
-					["name"] = "Omoratorul",
-					["flag"] = 1297,
-					["time"] = 3.78,
-					["damage"] = 20,
-				}, -- [1]
-				{
-					["last"] = 43775.661,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1243] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "NONE",
-					["time"] = 3.64,
-					["totaldamagetaken"] = 5,
-					["damage"] = 49,
-					["damagespells"] = {
-						["Smite"] = {
-							["hitmin"] = 15,
-							["id"] = 585,
-							["targets"] = {
-								["Defias Thug"] = {
-									["amount"] = 49,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 18,
-							["amount"] = 49,
-							["hitamount"] = 49,
-						},
 					},
 					["damagetaken"] = 5,
-					["id"] = "0x0700000000B06B12",
+					["id"] = "0x0700000000B06C55",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 2,
 							["id"] = 6603,
 							["sources"] = {
-								["Defias Thug"] = {
+								["Kobold Tunneler"] = {
 									["amount"] = 5,
 								},
 							},
@@ -3446,38 +4933,127 @@ SkadaStorageDB = {
 							["hitamount"] = 5,
 						},
 					},
-					["name"] = "Popasfant",
-					["totaldamage"] = 49,
-				}, -- [2]
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["role"] = "TANK",
+				}, -- [1]
 				{
-					["last"] = 43772.028,
-					["id"] = "0x0700000000B06B0B",
-					["class"] = "MAGE",
+					["damagespells"] = {
+						["Smite"] = {
+							["hitmin"] = 16,
+							["id"] = 585,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 32,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 16,
+							["amount"] = 32,
+							["hitamount"] = 32,
+						},
+					},
+					["last"] = 51930.839,
+					["id"] = "0x0700000000B06C58",
+					["class"] = "PRIEST",
 					["auras"] = {
 						[1243] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 7,
 						},
 					},
+					["totaldamage"] = 32,
+					["role"] = "NONE",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 5.07,
+					["damage"] = 32,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Fireball"] = {
+							["hitmin"] = 7,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["overkill"] = 5,
+									["amount"] = 18,
+								},
+							},
+							["overkill"] = 5,
+							["hitmax"] = 11,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 20,
+							["amount"] = 18,
+							["hitamount"] = 18,
+						},
+						["Fireball (DoT)"] = {
+							["hitmin"] = 1,
+							["id"] = 133,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["amount"] = 1,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["hitmax"] = 1,
+							["amount"] = 1,
+							["hitamount"] = 1,
+						},
+					},
+					["last"] = 51931.573,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["overkill"] = 5,
+					["auras"] = {
+						[168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[133] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 4,
+							["targets"] = {
+								["Kobold Tunneler"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["totaldamage"] = 19,
 					["role"] = "DAMAGER",
 					["name"] = "Vrajadefoc",
-					["time"] = 0,
+					["flag"] = 1298,
+					["time"] = 5.7,
+					["damage"] = 19,
 				}, -- [3]
 			},
 			["type"] = "group",
 			["damagetaken"] = 5,
-			["damage"] = 69,
+			["mobname"] = "Kobold Tunneler",
 			["etotaldamage"] = 5,
-			["overkill"] = 9,
-			["edamagetaken"] = 69,
-			["name"] = "Defias Thug (4)",
-			["mobname"] = "Defias Thug",
-			["starttime"] = 1727806409,
+			["overkill"] = 5,
+			["edamagetaken"] = 107,
+			["starttime"] = 1727814563,
+			["name"] = "Kobold Tunneler (13)",
+			["ccdone"] = 1,
+			["damage"] = 107,
 			["edamage"] = 5,
-			["last_action"] = 1727806413,
-			["endtime"] = 1727806414,
+			["last_action"] = 1727814568,
+			["endtime"] = 1727814570,
 		}, -- [15]
 	},
-	["version"] = 1878,
 }
