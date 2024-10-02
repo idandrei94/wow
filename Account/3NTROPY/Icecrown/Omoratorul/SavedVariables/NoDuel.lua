@@ -1,5 +1,6 @@
 
 NoDuelData = {
-	["minimappos"] = 45,
+	["duelok"] = 1,
 	["whisper"] = "No thanks, no duels please!",
+	["minimappos"] = 45,
 }
