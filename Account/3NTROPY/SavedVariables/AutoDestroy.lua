@@ -1,8 +1,8 @@
 
 AutoDestroyCFG = {
-	["zone"] = "Elwynn Forest",
+	["zone"] = "Darkshore",
 	["minlevel"] = 20,
-	["weapons"] = 2,
-	["list"] = "Shiny Red Apple\nKobold Mining Shovel\nRefreshing Spring Water\nLinen Cloth\nMinor Healing Potion\nJourneyman's Pants\nRagged Leather Bracers\nWorn Leather Gloves\nRough Stone\nA Gold Tooth\nBurnt Leather Bracers\nFlimsy Chain Boots\nFine Scimitar\nRagged Leather Vest\nTough Jerky\nRagged Leather Pants\nRagged Leather Gloves\nLoose Chain Cloak\nFrayed Gloves\nMalachite\nShadowgem\nFlimsy Chain Gloves\nFrayed Shoes\nFrayed Bracers\nTigerseye\nEarthroot\nTough Hunk of Bread\nPatchwork Cloak\nMageroyal\nDarnassian Bleu\n",
-	["armor"] = 2,
+	["weapons"] = 1,
+	["list"] = "Raw Longjaw Mud Snapper\nRaw Slitherskin Mackerel\nRaw Rainbow Fin Albacore\nDarkshore Grouper\nRaw Brilliant Smallfish\nBolt of Linen Cloth\nBolt of Woolen Cloth\nDamp Diary Page (Day 4)\nScroll of Agility\nScroll of Spirit\nMinor Mana Potion\nRumsey Rum Light\n",
+	["armor"] = 1,
 }

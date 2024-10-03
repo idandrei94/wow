@@ -90,6 +90,11 @@ MACRO 16777221 "rend" INV_Misc_QuestionMark
 /cast [stance: 3]  battle stance
 /cast rend
 END
+MACRO 16777237 "sb" INV_Misc_QuestionMark
+#showtooltip shield block
+/cast defensive stance
+/cast shield block
+END
 MACRO 16777230 "shieldslam" INV_Misc_QuestionMark
 #showtooltip shield slam
 /equipslot 16 Wrathful Gladiator's Truncheon
@@ -109,6 +114,5 @@ MACRO 16777236 "taunt" INV_Misc_QuestionMark
 #showtooltip taunt
 /cast defensive stance
 /cast [harm,@mouseovertarget] taunt
-/cast [harm, @mouseover] taunt
-/cast taunt
+/cast [harm,@mouseover] taunt
 END
