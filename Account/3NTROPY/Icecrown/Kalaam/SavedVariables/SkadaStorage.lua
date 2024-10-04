@@ -3,51 +3,154 @@ SkadaStorageDB = {
 	["total"] = {
 		["players"] = {
 			{
-				["name"] = "Kalaam",
 				["damagetaken"] = 0,
-				["spec"] = 261,
-				["id"] = "0x070000000000104C",
 				["class"] = "ROGUE",
-				["totaldamage"] = 21527,
-				["overkill"] = 2590,
+				["id"] = "0x070000000000104C",
+				["spec"] = 261,
 				["flag"] = 1297,
+				["overkill"] = 13317,
 				["role"] = "DAMAGER",
-				["time"] = 9.77,
-				["ccdone"] = 1,
+				["totaldamage"] = 32640,
+				["name"] = "Kalaam",
+				["ccdone"] = 2,
+				["time"] = 13.27,
 				["totaldamagetaken"] = 0,
 				["energy"] = 25,
-				["damage"] = 19411,
+				["damage"] = 30524,
 			}, -- [1]
 		},
 		["damagetaken"] = 0,
-		["starttime"] = 1716227070,
-		["overkill"] = 2590,
-		["time"] = 12,
-		["totaldamage"] = 21527,
 		["name"] = "Total",
-		["ccdone"] = 1,
+		["overkill"] = 13317,
+		["starttime"] = 1716227070,
+		["totaldamage"] = 32640,
+		["time"] = 17,
+		["ccdone"] = 2,
 		["totaldamagetaken"] = 0,
 		["energy"] = 25,
-		["damage"] = 19411,
+		["damage"] = 30524,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0x0700000000A6EAE9",
-					["name"] = "Ottosham",
-					["totaldamagetaken"] = 18924,
+					["id"] = "0xF130000223064547",
+					["name"] = "Great Goretusk",
+					["totaldamagetaken"] = 11113,
+					["flag"] = 68136,
+					["class"] = "MONSTER",
+					["damagetaken"] = 11113,
+					["damagetakenspells"] = {
+						[48691] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["overkill"] = 10727,
+									["amount"] = 11113,
+								},
+							},
+							["overkill"] = 10727,
+							["amount"] = 11113,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 11113,
+			["time"] = 5,
+			["etotaldamagetaken"] = 11113,
+			["last_time"] = 642.649,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[2094] = {
+							["count"] = 1,
+							["targets"] = {
+								["Great Goretusk"] = 1,
+							},
+						},
+					},
+					["last"] = 642.6270000000001,
+					["flag"] = 1297,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[2094] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Great Goretusk"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[51713] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+					},
+					["time"] = 3.5,
+					["damage"] = 11113,
+					["damagespells"] = {
+						["Ambush"] = {
+							["criticalamount"] = 11113,
+							["id"] = 48691,
+							["targets"] = {
+								["Great Goretusk"] = {
+									["overkill"] = 10727,
+									["amount"] = 11113,
+								},
+							},
+							["overkill"] = 10727,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 11113,
+							["school"] = 1,
+							["criticalmin"] = 11113,
+							["criticalmax"] = 11113,
+							["count"] = 1,
+						},
+					},
+					["id"] = "0x070000000000104C",
+					["spec"] = 261,
+					["overkill"] = 10727,
+					["name"] = "Kalaam",
+					["ccdone"] = 1,
+					["totaldamage"] = 11113,
+					["role"] = "DAMAGER",
+				}, -- [1]
+			},
+			["type"] = "none",
+			["mobname"] = "Great Goretusk",
+			["overkill"] = 10727,
+			["edamagetaken"] = 11113,
+			["starttime"] = 1728032371,
+			["name"] = "Great Goretusk",
+			["ccdone"] = 1,
+			["damage"] = 11113,
+			["last_action"] = 1728032375,
+			["endtime"] = 1728032376,
+		}, -- [1]
+		{
+			["enemies"] = {
+				{
 					["flag"] = 66888,
-					["class"] = "SHAMAN",
+					["name"] = "Ottosham",
 					["damagetaken"] = 16808,
+					["id"] = "0x0700000000A6EAE9",
+					["totaldamagetaken"] = 18924,
+					["class"] = "SHAMAN",
 					["damagetakenspells"] = {
 						[48657] = {
 							["school"] = 1,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 7130,
 									["amount"] = 6362,
+									["total"] = 7130,
 								},
 							},
 							["total"] = 7130,
@@ -78,8 +181,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Kalaam"] = {
 									["total"] = 2749,
-									["overkill"] = 163,
 									["amount"] = 2341,
+									["overkill"] = 163,
 								},
 							},
 							["overkill"] = 163,
@@ -88,8 +191,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 4966,
 									["amount"] = 4026,
+									["total"] = 4966,
 								},
 							},
 							["total"] = 4966,
@@ -117,9 +220,9 @@ SkadaStorageDB = {
 					["class"] = "ROGUE",
 					["auras"] = {
 						[71556] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 11,
 						},
 						[8643] = {
@@ -135,9 +238,9 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 12,
 						},
 						[3409] = {
@@ -147,8 +250,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Ottosham"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 6,
 								},
 							},
@@ -161,8 +264,8 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["targets"] = {
 								["Ottosham"] = {
-									["count"] = 1,
 									["refresh"] = 7,
+									["count"] = 1,
 									["uptime"] = 9,
 								},
 							},
@@ -175,8 +278,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Ottosham"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 10,
 								},
 							},
@@ -186,6 +289,7 @@ SkadaStorageDB = {
 					["energyspells"] = {
 						[14181] = 25,
 					},
+					["totaldamage"] = 18924,
 					["time"] = 9.649999999999999,
 					["damage"] = 16808,
 					["damagespells"] = {
@@ -201,9 +305,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 3120,
 							["school"] = 1,
-							["criticalmin"] = 3120,
-							["criticalmax"] = 3120,
 							["count"] = 1,
+							["criticalmax"] = 3120,
+							["criticalmin"] = 3120,
 						},
 						["Melee"] = {
 							["total"] = 4966,
@@ -213,17 +317,17 @@ SkadaStorageDB = {
 							["criticalmin"] = 236,
 							["targets"] = {
 								["Ottosham"] = {
-									["total"] = 4966,
 									["amount"] = 4026,
+									["total"] = 4966,
 								},
 							},
-							["hitmax"] = 458,
 							["critical"] = 5,
+							["hit"] = 6,
 							["criticalmax"] = 940,
-							["count"] = 13,
+							["hitmax"] = 458,
 							["amount"] = 4026,
 							["school"] = 1,
-							["hit"] = 6,
+							["count"] = 13,
 							["MISS"] = 2,
 							["hitamount"] = 1944,
 						},
@@ -233,17 +337,17 @@ SkadaStorageDB = {
 							["id"] = 48657,
 							["targets"] = {
 								["Ottosham"] = {
-									["total"] = 7130,
 									["amount"] = 6362,
+									["total"] = 7130,
 								},
 							},
 							["casts"] = 3,
 							["critical"] = 3,
 							["amount"] = 6362,
 							["school"] = 1,
-							["criticalmin"] = 1793,
-							["criticalmax"] = 2396,
 							["count"] = 3,
+							["criticalmax"] = 2396,
+							["criticalmin"] = 1793,
 						},
 						["Sinister Strike"] = {
 							["criticalamount"] = 959,
@@ -257,32 +361,32 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 959,
 							["school"] = 1,
-							["criticalmin"] = 959,
-							["criticalmax"] = 959,
 							["count"] = 1,
+							["criticalmax"] = 959,
+							["criticalmin"] = 959,
 						},
 						["Wound Poison VII"] = {
-							["criticalmin"] = 354,
+							["criticalamount"] = 354,
 							["total"] = 2749,
 							["hitmin"] = 240,
-							["criticalamount"] = 354,
+							["criticalmin"] = 354,
 							["id"] = 57975,
-							["criticalmax"] = 354,
+							["amount"] = 2341,
 							["targets"] = {
 								["Ottosham"] = {
 									["total"] = 2749,
-									["overkill"] = 163,
 									["amount"] = 2341,
+									["overkill"] = 163,
 								},
 							},
 							["overkill"] = 163,
+							["hitmax"] = 343,
+							["criticalmax"] = 354,
 							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 8,
 							["hit"] = 7,
 							["school"] = 8,
-							["hitmax"] = 343,
-							["amount"] = 2341,
+							["count"] = 8,
+							["casts"] = 1,
 							["hitamount"] = 1987,
 						},
 					},
@@ -291,22 +395,21 @@ SkadaStorageDB = {
 					["overkill"] = 163,
 					["name"] = "Kalaam",
 					["ccdone"] = 1,
-					["totaldamage"] = 18924,
 					["energy"] = 25,
 					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damage"] = 16808,
-			["ccdone"] = 1,
 			["overkill"] = 163,
 			["edamagetaken"] = 16808,
-			["energy"] = 25,
-			["name"] = "Ottosham",
-			["mobname"] = "Ottosham",
-			["starttime"] = 1727883317,
 			["last_action"] = 1727883329,
+			["name"] = "Ottosham",
+			["ccdone"] = 1,
+			["starttime"] = 1727883317,
+			["mobname"] = "Ottosham",
+			["energy"] = 25,
 			["endtime"] = 1727883329,
-		}, -- [1]
+		}, -- [2]
 	},
 }
