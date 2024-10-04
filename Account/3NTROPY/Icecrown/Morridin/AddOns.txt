@@ -1,2 +1,0 @@
-XPerl_TeamSpeak: disabled
-Bagnon: enabled

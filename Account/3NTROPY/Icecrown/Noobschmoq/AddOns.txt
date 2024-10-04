@@ -1,2 +1,0 @@
-OmniCC_Pulse: disabled
-OmniCC_Shine: disabled

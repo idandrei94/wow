@@ -1,5 +1,0 @@
-MACRO 16777232 "jol" INV_Misc_QuestionMark
-#showtooltip
-/startattack
-/cast judgement of light
-END

@@ -6,10 +6,10 @@ X: -136
 Y: -115
 W: 32
 H: 32
-Frame: GladiusFrame
+Frame: BagnonFrameinventory
 FrameLevel: 1
 Anchor: RIGHT
-X: -23
-Y: 4
-W: 205
-H: 307
+X: -181
+Y: -72
+W: 504
+H: 304
