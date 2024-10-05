@@ -1,14 +1,19 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["mana"] = 15990,
+		["rage"] = 175,
+		["absorb"] = 377,
+		["damagetaken"] = 2202,
+		["name"] = "Total",
+		["overheal"] = 109873,
 		["sunder"] = 4,
+		["starttime"] = 1727605607,
+		["overkill"] = 14335,
+		["mana"] = 15990,
 		["totaldamage"] = 447992,
 		["time"] = 23,
-		["overheal"] = 109873,
+		["heal"] = 16878,
 		["totaldamagetaken"] = 2727,
-		["rage"] = 175,
-		["damage"] = 447992,
 		["players"] = {
 			{
 				["rage"] = 175,
@@ -16,97 +21,91 @@ SkadaStorageDB = {
 				["id"] = "0x0700000000AED2EA",
 				["class"] = "WARRIOR",
 				["sunder"] = 4,
+				["spec"] = 73,
 				["totaldamage"] = 47839,
-				["flag"] = 1298,
-				["role"] = "TANK",
 				["time"] = 22.12,
+				["role"] = "TANK",
 				["name"] = "Bullrage",
 				["totaldamagetaken"] = 636,
-				["spec"] = 73,
+				["flag"] = 1298,
 				["damage"] = 47839,
 			}, -- [1]
 			{
 				["overheal"] = 21401,
 				["id"] = "0x0700000000636250",
 				["class"] = "WARLOCK",
-				["heal"] = 1960,
 				["overkill"] = 3898,
 				["totaldamage"] = 127162,
-				["role"] = "DAMAGER",
+				["heal"] = 1960,
 				["time"] = 22.34,
-				["flag"] = 4370,
-				["name"] = "Secolla",
 				["spec"] = 267,
+				["name"] = "Secolla",
+				["flag"] = 4370,
+				["role"] = "DAMAGER",
 				["damage"] = 127162,
 			}, -- [2]
 			{
-				["flag"] = 1297,
-				["mana"] = 15990,
-				["time"] = 20.9,
-				["totaldamagetaken"] = 217,
-				["damage"] = 236955,
 				["overheal"] = 87984,
 				["absorb"] = 217,
 				["damagetaken"] = 0,
-				["id"] = "0x070000000027C8A1",
-				["spec"] = 258,
-				["overkill"] = 10437,
-				["heal"] = 13221,
-				["name"] = "Nalar",
-				["class"] = "PRIEST",
-				["totaldamage"] = 236955,
 				["role"] = "DAMAGER",
+				["flag"] = 1297,
+				["mana"] = 15990,
+				["totaldamage"] = 236955,
+				["overkill"] = 10437,
+				["class"] = "PRIEST",
+				["heal"] = 13221,
+				["time"] = 20.9,
+				["name"] = "Nalar",
+				["spec"] = 258,
+				["totaldamagetaken"] = 217,
+				["id"] = "0x070000000027C8A1",
+				["damage"] = 236955,
 			}, -- [3]
 			{
 				["overheal"] = 488,
+				["absorb"] = 160,
 				["id"] = "0x0700000000A6AE5D",
 				["class"] = "PRIEST",
-				["absorb"] = 160,
-				["heal"] = 1697,
 				["totaldamage"] = 27366,
-				["role"] = "HEALER",
+				["heal"] = 1697,
 				["time"] = 4.44,
-				["flag"] = 1298,
-				["name"] = "Madigan",
 				["spec"] = 256,
+				["name"] = "Madigan",
+				["flag"] = 1298,
+				["role"] = "HEALER",
 				["damage"] = 27366,
 			}, -- [4]
 			{
 				["damagetaken"] = 1874,
 				["id"] = "0x07000000008EAF60",
 				["class"] = "WARRIOR",
-				["totaldamage"] = 8670,
 				["flag"] = 1298,
-				["role"] = "DAMAGER",
+				["totaldamage"] = 8670,
 				["time"] = 4.810000000000001,
+				["spec"] = 72,
 				["name"] = "Tuochmyblade",
 				["totaldamagetaken"] = 1874,
-				["spec"] = 72,
+				["role"] = "DAMAGER",
 				["damage"] = 8670,
 			}, -- [5]
 		},
-		["absorb"] = 377,
-		["damagetaken"] = 2202,
-		["name"] = "Total",
-		["overkill"] = 14335,
-		["heal"] = 16878,
-		["starttime"] = 1727605607,
+		["damage"] = 447992,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
-			["rage"] = 175,
-			["success"] = true,
+			["starttime"] = 1727605617,
 			["mana"] = 15990,
-			["damage"] = 447992,
+			["sunder"] = 4,
 			["enemies"] = {
 				{
-					["id"] = "0xF130005D40000270",
-					["name"] = "Coren Direbrew",
-					["totaldamagetaken"] = 381898,
 					["flag"] = 68168,
-					["class"] = "BOSS",
+					["name"] = "Coren Direbrew",
 					["damagetaken"] = 381898,
+					["id"] = "0xF130005D40000270",
+					["totaldamagetaken"] = 381898,
+					["class"] = "BOSS",
 					["damagetakenspells"] = {
 						[48160] = {
 							["school"] = 32,
@@ -130,12 +129,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Secolla"] = {
-									["overkill"] = 3898,
 									["amount"] = 12030,
+									["overkill"] = 3898,
 								},
 							},
-							["overkill"] = 3898,
 							["amount"] = 12030,
+							["overkill"] = 3898,
 						},
 						[17962] = {
 							["school"] = 4,
@@ -164,23 +163,23 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3563,
 						},
-						[5019] = {
+						[57755] = {
 							["school"] = 1,
 							["sources"] = {
-								["Madigan"] = {
-									["amount"] = 3972,
+								["Bullrage"] = {
+									["amount"] = 892,
 								},
 							},
-							["amount"] = 3972,
+							["amount"] = 892,
 						},
-						[58381] = {
-							["school"] = 32,
+						[47811] = {
+							["school"] = 4,
 							["sources"] = {
-								["Nalar"] = {
-									["amount"] = 87203,
+								["Secolla"] = {
+									["amount"] = 13842,
 								},
 							},
-							["amount"] = 87203,
+							["amount"] = 13842,
 						},
 						[63675] = {
 							["school"] = 32,
@@ -239,6 +238,24 @@ SkadaStorageDB = {
 							},
 							["amount"] = 8491,
 						},
+						[47813] = {
+							["school"] = 32,
+							["sources"] = {
+								["Secolla"] = {
+									["amount"] = 5341,
+								},
+							},
+							["amount"] = 5341,
+						},
+						[58381] = {
+							["school"] = 32,
+							["sources"] = {
+								["Nalar"] = {
+									["amount"] = 87203,
+								},
+							},
+							["amount"] = 87203,
+						},
 						[59653] = {
 							["school"] = 1,
 							["sources"] = {
@@ -247,24 +264,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 1274,
-						},
-						[57823] = {
-							["school"] = 1,
-							["sources"] = {
-								["Bullrage"] = {
-									["amount"] = 9443,
-								},
-							},
-							["amount"] = 9443,
-						},
-						[47811] = {
-							["school"] = 4,
-							["sources"] = {
-								["Secolla"] = {
-									["amount"] = 13842,
-								},
-							},
-							["amount"] = 13842,
 						},
 						[47502] = {
 							["school"] = 1,
@@ -275,14 +274,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 427,
 						},
-						[47813] = {
-							["school"] = 32,
+						[5019] = {
+							["school"] = 1,
 							["sources"] = {
-								["Secolla"] = {
-									["amount"] = 5341,
+								["Madigan"] = {
+									["amount"] = 3972,
 								},
 							},
-							["amount"] = 5341,
+							["amount"] = 3972,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -329,14 +328,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 6511,
 						},
-						[57755] = {
+						[57823] = {
 							["school"] = 1,
 							["sources"] = {
 								["Bullrage"] = {
-									["amount"] = 892,
+									["amount"] = 9443,
 								},
 							},
-							["amount"] = 892,
+							["amount"] = 9443,
 						},
 					},
 				}, -- [1]
@@ -347,12 +346,12 @@ SkadaStorageDB = {
 							["total"] = 853,
 							["targets"] = {
 								["Nalar"] = {
-									["total"] = 217,
 									["amount"] = 0,
+									["total"] = 217,
 								},
 								["Bullrage"] = {
-									["total"] = 636,
 									["amount"] = 328,
+									["total"] = 636,
 								},
 							},
 							["amount"] = 328,
@@ -411,16 +410,16 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Nalar"] = {
-									["overkill"] = 10437,
 									["amount"] = 39314,
+									["overkill"] = 10437,
 								},
 							},
-							["overkill"] = 10437,
 							["amount"] = 39314,
+							["overkill"] = 10437,
 						},
 					},
-					["name"] = "Dark Iron Antagonist",
 					["totaldamage"] = 853,
+					["name"] = "Dark Iron Antagonist",
 					["totaldamagetaken"] = 48237,
 					["id"] = "0xF130005CF3000271",
 					["damage"] = 328,
@@ -469,8 +468,8 @@ SkadaStorageDB = {
 							["amount"] = 246,
 						},
 					},
-					["name"] = "Ilsa Direbrew",
 					["totaldamage"] = 1649,
+					["name"] = "Ilsa Direbrew",
 					["totaldamagetaken"] = 9187,
 					["id"] = "0xF13000688C00043A",
 					["damage"] = 1649,
@@ -508,12 +507,12 @@ SkadaStorageDB = {
 					["damage"] = 225,
 				}, -- [4]
 				{
-					["id"] = "0xF1300068C600043C",
-					["name"] = "Ursula Direbrew",
-					["totaldamagetaken"] = 3648,
 					["flag"] = 2632,
-					["class"] = "MONSTER",
+					["name"] = "Ursula Direbrew",
 					["damagetaken"] = 3648,
+					["id"] = "0xF1300068C600043C",
+					["totaldamagetaken"] = 3648,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -536,13 +535,9 @@ SkadaStorageDB = {
 					},
 				}, -- [5]
 			},
-			["absorb"] = 377,
+			["last_time"] = 727.578,
 			["totaldamage"] = 447992,
 			["time"] = 23,
-			["sunder"] = 4,
-			["totaldamagetaken"] = 2727,
-			["etotaldamagetaken"] = 447992,
-			["last_time"] = 727.578,
 			["players"] = {
 				{
 					["last"] = 726.369,
@@ -565,15 +560,15 @@ SkadaStorageDB = {
 							["uptime"] = 23,
 						},
 						[586] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 10,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48074] = {
@@ -603,25 +598,23 @@ SkadaStorageDB = {
 							["refresh"] = 7,
 							["targets"] = {
 								["Coren Direbrew"] = {
-									["count"] = 1,
 									["refresh"] = 7,
+									["count"] = 1,
 									["uptime"] = 21,
 								},
 							},
 							["uptime"] = 21,
 						},
 						[71636] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 17,
 						},
-						[59000] = {
+						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 3,
-							["uptime"] = 11,
+							["uptime"] = 23,
 						},
 						[48300] = {
 							["type"] = "DEBUFF",
@@ -635,57 +628,53 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 21,
 						},
-						[48125] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 32,
-							["refresh"] = 5,
-							["targets"] = {
-								["Coren Direbrew"] = {
-									["count"] = 1,
-									["refresh"] = 5,
-									["uptime"] = 19,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[48156] = {
-							["type"] = "DEBUFF",
-							["count"] = 9,
-							["school"] = 32,
-							["refresh"] = 1,
-							["targets"] = {
-								["Coren Direbrew"] = {
-									["count"] = 4,
-									["refresh"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
-						[48160] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Coren Direbrew"] = {
-									["uptime"] = 20,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[63619] = {
+						[15258] = {
 							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 64,
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 23,
+							["uptime"] = 22,
+						},
+						[15286] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[50682] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[59000] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["refresh"] = 3,
+							["uptime"] = 11,
+						},
+						[67016] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[61792] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 10,
 							["uptime"] = 17,
+						},
+						[75473] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
 						},
 						[53023] = {
 							["type"] = "DEBUFF",
@@ -699,40 +688,37 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[61792] = {
+						[63619] = {
+							["school"] = 64,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 10,
+							["count"] = 3,
 							["uptime"] = 17,
 						},
-						[75473] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[67016] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[50682] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[15286] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[15258] = {
-							["type"] = "BUFF",
+						[48125] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 32,
-							["refresh"] = 23,
-							["uptime"] = 22,
+							["refresh"] = 5,
+							["targets"] = {
+								["Coren Direbrew"] = {
+									["refresh"] = 5,
+									["count"] = 1,
+									["uptime"] = 19,
+								},
+							},
+							["uptime"] = 19,
+						},
+						[48160] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["targets"] = {
+								["Coren Direbrew"] = {
+									["uptime"] = 20,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 20,
 						},
 						[15271] = {
 							["type"] = "BUFF",
@@ -741,10 +727,19 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["uptime"] = 16,
 						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
+						[48156] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 32,
+							["refresh"] = 1,
+							["targets"] = {
+								["Coren Direbrew"] = {
+									["refresh"] = 1,
+									["count"] = 4,
+									["uptime"] = 10,
+								},
+							},
+							["uptime"] = 10,
 						},
 					},
 					["absorbspells"] = {
@@ -759,53 +754,51 @@ SkadaStorageDB = {
 							},
 						},
 					},
+					["totaldamage"] = 236955,
 					["time"] = 22.68,
 					["totaldamagetaken"] = 217,
-					["manaspells"] = {
-						[34650] = 15990,
-					},
 					["damage"] = 236955,
 					["damagespells"] = {
 						["Mind Sear"] = {
-							["count"] = 11,
+							["hitmax"] = 3160,
 							["hitmin"] = 2169,
 							["criticalamount"] = 25031,
 							["id"] = 53022,
-							["hitmax"] = 3160,
+							["criticalmax"] = 4877,
 							["targets"] = {
 								["Dark Iron Antagonist"] = {
-									["overkill"] = 10437,
 									["amount"] = 39314,
+									["overkill"] = 10437,
 								},
 							},
 							["overkill"] = 10437,
-							["hit"] = 5,
-							["casts"] = 2,
-							["critical"] = 6,
-							["amount"] = 39314,
-							["school"] = 32,
 							["criticalmin"] = 3361,
-							["criticalmax"] = 4877,
+							["casts"] = 2,
+							["count"] = 11,
+							["hit"] = 5,
+							["school"] = 32,
+							["amount"] = 39314,
+							["critical"] = 6,
 							["hitamount"] = 14283,
 						},
 						["Vampiric Touch (DoT)"] = {
 							["hitmin"] = 2207,
 							["criticalamount"] = 18449,
 							["id"] = 48160,
-							["casts"] = 2,
+							["count"] = 9,
 							["targets"] = {
 								["Coren Direbrew"] = {
 									["amount"] = 37535,
 								},
 							},
+							["criticalmin"] = 4612,
+							["hit"] = 5,
+							["casts"] = 2,
 							["hitmax"] = 4220,
-							["count"] = 9,
-							["criticalmax"] = 4613,
-							["critical"] = 4,
 							["amount"] = 37535,
 							["school"] = 32,
-							["hit"] = 5,
-							["criticalmin"] = 4612,
+							["critical"] = 4,
+							["criticalmax"] = 4613,
 							["hitamount"] = 19086,
 						},
 						["Melee (Shadowfiend)"] = {
@@ -835,20 +828,20 @@ SkadaStorageDB = {
 							["hitmin"] = 1379,
 							["criticalamount"] = 13417,
 							["id"] = 48300,
-							["casts"] = 2,
+							["criticalmin"] = 2883,
 							["targets"] = {
 								["Coren Direbrew"] = {
 									["amount"] = 20314,
 								},
 							},
-							["criticalmin"] = 2883,
+							["amount"] = 20314,
+							["hitmax"] = 1380,
+							["casts"] = 2,
 							["critical"] = 4,
-							["criticalmax"] = 4768,
-							["count"] = 9,
 							["hit"] = 5,
 							["school"] = 32,
-							["hitmax"] = 1380,
-							["amount"] = 20314,
+							["count"] = 9,
+							["criticalmax"] = 4768,
 							["hitamount"] = 6897,
 						},
 						["Mind Flay"] = {
@@ -861,34 +854,15 @@ SkadaStorageDB = {
 									["amount"] = 87203,
 								},
 							},
+							["amount"] = 87203,
+							["hitmax"] = 4074,
 							["criticalmax"] = 8513,
 							["critical"] = 7,
-							["casts"] = 5,
-							["count"] = 15,
 							["hit"] = 8,
 							["school"] = 32,
-							["hitmax"] = 4074,
-							["amount"] = 87203,
+							["count"] = 15,
+							["casts"] = 5,
 							["hitamount"] = 31294,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["hitmin"] = 1468,
-							["criticalamount"] = 16403,
-							["id"] = 48125,
-							["targets"] = {
-								["Coren Direbrew"] = {
-									["amount"] = 19948,
-								},
-							},
-							["hitmax"] = 2077,
-							["count"] = 6,
-							["criticalmax"] = 4678,
-							["critical"] = 4,
-							["amount"] = 19948,
-							["school"] = 32,
-							["hit"] = 2,
-							["criticalmin"] = 3068,
-							["hitamount"] = 3545,
 						},
 						["Improved Devouring Plague"] = {
 							["hitmin"] = 3245,
@@ -906,6 +880,25 @@ SkadaStorageDB = {
 							["amount"] = 8720,
 							["hitamount"] = 8720,
 						},
+						["Shadow Word: Pain (DoT)"] = {
+							["hitmin"] = 1468,
+							["criticalamount"] = 16403,
+							["id"] = 48125,
+							["targets"] = {
+								["Coren Direbrew"] = {
+									["amount"] = 19948,
+								},
+							},
+							["count"] = 6,
+							["criticalmin"] = 3068,
+							["criticalmax"] = 4678,
+							["hitmax"] = 2077,
+							["amount"] = 19948,
+							["school"] = 32,
+							["hit"] = 2,
+							["critical"] = 4,
+							["hitamount"] = 3545,
+						},
 					},
 					["absorb"] = 217,
 					["damagetaken"] = 0,
@@ -914,6 +907,11 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[15290] = {
 							["overheal"] = 83820,
+							["min"] = 39,
+							["count"] = 274,
+							["amount"] = 12587,
+							["school"] = 32,
+							["ishot"] = true,
 							["targets"] = {
 								["Nalar"] = {
 									["overheal"] = 43782,
@@ -944,12 +942,7 @@ SkadaStorageDB = {
 									["amount"] = 1750,
 								},
 							},
-							["count"] = 274,
-							["amount"] = 12587,
-							["school"] = 32,
 							["max"] = 952,
-							["ishot"] = true,
-							["min"] = 39,
 						},
 						[75999] = {
 							["overheal"] = 973,
@@ -966,8 +959,8 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 634,
 							["school"] = 32,
-							["criticalmin"] = 0,
 							["count"] = 2,
+							["criticalmin"] = 0,
 						},
 						[48300] = {
 							["overheal"] = 3191,
@@ -989,23 +982,25 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 6603,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Dark Iron Antagonist"] = {
-									["total"] = 217,
 									["amount"] = 0,
+									["total"] = 217,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 6603,
 						},
 					},
-					["overkill"] = 10437,
 					["heal"] = 13221,
-					["name"] = "Nalar",
-					["mana"] = 15990,
-					["overheal"] = 87984,
-					["totaldamage"] = 236955,
+					["manaspells"] = {
+						[34650] = 15990,
+					},
 					["role"] = "DAMAGER",
+					["overheal"] = 87984,
+					["mana"] = 15990,
+					["name"] = "Nalar",
+					["overkill"] = 10437,
 				}, -- [1]
 				{
 					["last"] = 725.961,
@@ -1020,8 +1015,8 @@ SkadaStorageDB = {
 						[57516] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["refresh"] = 26,
 							["school"] = 1,
+							["refresh"] = 26,
 							["uptime"] = 23,
 						},
 						[48074] = {
@@ -1036,23 +1031,21 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 7,
 						},
-						[68443] = {
+						[50682] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 19,
+							["uptime"] = 23,
 						},
 						[48066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 18,
 						},
-						[2565] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 23,
 						},
 						[58374] = {
 							["type"] = "BUFF",
@@ -1067,9 +1060,9 @@ SkadaStorageDB = {
 							["uptime"] = 23,
 						},
 						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[1161] = {
@@ -1085,16 +1078,22 @@ SkadaStorageDB = {
 									["uptime"] = 5,
 									["count"] = 1,
 								},
-								["Ilsa Direbrew"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
 								["Coren Direbrew"] = {
 									["uptime"] = 4,
 									["count"] = 1,
 								},
+								["Ilsa Direbrew"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
 							},
 							["uptime"] = 5,
+						},
+						[2565] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[58567] = {
 							["type"] = "DEBUFF",
@@ -1103,8 +1102,8 @@ SkadaStorageDB = {
 							["refresh"] = 3,
 							["targets"] = {
 								["Coren Direbrew"] = {
-									["count"] = 1,
 									["refresh"] = 3,
+									["count"] = 1,
 									["uptime"] = 18,
 								},
 							},
@@ -1115,31 +1114,27 @@ SkadaStorageDB = {
 							["count"] = 4,
 							["school"] = 1,
 							["targets"] = {
-								["Coren Direbrew"] = {
-									["uptime"] = 21,
-									["count"] = 1,
-								},
 								["Dark Iron Antagonist"] = {
 									["uptime"] = 9,
 									["count"] = 3,
 								},
+								["Coren Direbrew"] = {
+									["uptime"] = 21,
+									["count"] = 1,
+								},
 							},
 							["uptime"] = 21,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
 						},
 						[48170] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[50682] = {
+						[68443] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 23,
+							["uptime"] = 19,
 						},
 					},
 					["role"] = "TANK",
@@ -1155,16 +1150,20 @@ SkadaStorageDB = {
 							["DODGE"] = 10,
 							["total"] = 636,
 							["hitmin"] = 159,
-							["blocked"] = 5723,
-							["id"] = 6603,
-							["BLOCK"] = 6,
 							["ABSORB"] = 2,
+							["id"] = 6603,
 							["hitmax"] = 169,
+							["hit"] = 2,
+							["count"] = 36,
+							["amount"] = 328,
 							["PARRY"] = 11,
+							["BLOCK"] = 6,
+							["blocked"] = 5723,
+							["school"] = 1,
 							["sources"] = {
 								["Dark Iron Antagonist"] = {
-									["total"] = 636,
 									["amount"] = 328,
+									["total"] = 636,
 								},
 								["Direbrew Minion"] = {
 									["amount"] = 0,
@@ -1179,25 +1178,20 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 36,
-							["amount"] = 328,
-							["school"] = 1,
-							["hit"] = 2,
 							["MISS"] = 5,
 							["hitamount"] = 328,
 						},
 					},
-					["sundertargets"] = {
-						["Coren Direbrew"] = 4,
-					},
 					["ragespells"] = {
 						[23602] = 135,
 						[2687] = 25,
-						[29131] = 10,
 						[12964] = 5,
+						[29131] = 10,
 					},
-					["name"] = "Bullrage",
-					["sunder"] = 4,
+					["sundertargets"] = {
+						["Coren Direbrew"] = 4,
+					},
+					["totaldamage"] = 47839,
 					["damagespells"] = {
 						["Shield Slam"] = {
 							["hitmin"] = 2054,
@@ -1224,28 +1218,28 @@ SkadaStorageDB = {
 									["amount"] = 3899,
 								},
 							},
-							["glancemin"] = 439,
+							["hitamount"] = 2959,
 							["glancing"] = 2,
-							["glancemax"] = 501,
+							["amount"] = 3899,
 							["count"] = 9,
 							["hit"] = 7,
 							["school"] = 1,
 							["hitmax"] = 478,
-							["amount"] = 3899,
-							["hitamount"] = 2959,
+							["glancemax"] = 501,
+							["glancemin"] = 439,
 						},
 						["Cleave"] = {
 							["hitmin"] = 561,
 							["id"] = 47520,
 							["targets"] = {
-								["Ilsa Direbrew"] = {
-									["amount"] = 2996,
+								["Coren Direbrew"] = {
+									["amount"] = 3563,
 								},
 								["Dark Iron Antagonist"] = {
 									["amount"] = 589,
 								},
-								["Coren Direbrew"] = {
-									["amount"] = 3563,
+								["Ilsa Direbrew"] = {
+									["amount"] = 2996,
 								},
 							},
 							["casts"] = 6,
@@ -1261,46 +1255,46 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 47465,
 							["targets"] = {
 								["Coren Direbrew"] = {
 									["amount"] = 0,
 								},
 							},
 							["MISS"] = 1,
-							["id"] = 47465,
 						},
 						["Thunder Clap"] = {
 							["hitmin"] = 387,
 							["id"] = 47502,
 							["targets"] = {
-								["Coren Direbrew"] = {
-									["amount"] = 427,
-								},
 								["Dark Iron Antagonist"] = {
 									["amount"] = 1241,
 								},
+								["Coren Direbrew"] = {
+									["amount"] = 427,
+								},
 							},
-							["blocked"] = 40,
+							["hit"] = 4,
 							["casts"] = 1,
 							["count"] = 4,
-							["hit"] = 4,
+							["blocked"] = 40,
 							["school"] = 1,
-							["hitmax"] = 427,
 							["amount"] = 1668,
+							["hitmax"] = 427,
 							["hitamount"] = 1668,
 						},
 						["Revenge"] = {
 							["hitmin"] = 2914,
 							["id"] = 57823,
 							["targets"] = {
-								["Ilsa Direbrew"] = {
-									["amount"] = 5945,
+								["Coren Direbrew"] = {
+									["amount"] = 9443,
 								},
 								["Dark Iron Antagonist"] = {
 									["amount"] = 3095,
 								},
-								["Coren Direbrew"] = {
-									["amount"] = 9443,
+								["Ilsa Direbrew"] = {
+									["amount"] = 5945,
 								},
 							},
 							["casts"] = 3,
@@ -1315,14 +1309,14 @@ SkadaStorageDB = {
 							["hitmin"] = 133,
 							["id"] = 59653,
 							["targets"] = {
-								["Ilsa Direbrew"] = {
-									["amount"] = 246,
+								["Dark Iron Antagonist"] = {
+									["amount"] = 266,
 								},
 								["Coren Direbrew"] = {
 									["amount"] = 1274,
 								},
-								["Dark Iron Antagonist"] = {
-									["amount"] = 266,
+								["Ilsa Direbrew"] = {
+									["amount"] = 246,
 								},
 							},
 							["casts"] = 1,
@@ -1334,24 +1328,24 @@ SkadaStorageDB = {
 							["hitamount"] = 1786,
 						},
 						["Devastate"] = {
-							["criticalmin"] = 3160,
-							["hitmin"] = 763,
 							["criticalamount"] = 6640,
+							["hitmin"] = 763,
+							["criticalmin"] = 3160,
 							["id"] = 47498,
-							["criticalmax"] = 3480,
+							["amount"] = 8491,
 							["targets"] = {
 								["Coren Direbrew"] = {
 									["amount"] = 8491,
 								},
 							},
+							["hitmax"] = 1088,
+							["hit"] = 2,
+							["criticalmax"] = 3480,
 							["critical"] = 2,
 							["blocked"] = 40,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 1088,
-							["amount"] = 8491,
+							["count"] = 4,
+							["casts"] = 4,
 							["hitamount"] = 1851,
 						},
 						["Heroic Throw"] = {
@@ -1387,7 +1381,8 @@ SkadaStorageDB = {
 							["hitamount"] = 1285,
 						},
 					},
-					["totaldamage"] = 47839,
+					["sunder"] = 4,
+					["name"] = "Bullrage",
 				}, -- [2]
 				{
 					["last"] = 713.203,
@@ -1421,23 +1416,42 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 19,
 						},
-						[48135] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Coren Direbrew"] = {
-									["uptime"] = 8,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[55637] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[48170] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[55637] = {
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 15,
+						},
+						[51010] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[48168] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 23,
+						},
+						[59891] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -1451,26 +1465,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 14,
 						},
-						[2479] = {
+						[50682] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
-						},
-						[51010] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 3,
 						},
 						[48125] = {
 							["type"] = "DEBUFF",
@@ -1484,20 +1482,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 18,
 						},
-						[50682] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
+						[48135] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Coren Direbrew"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 8,
 						},
 					},
 					["absorbspells"] = {
@@ -1513,6 +1508,7 @@ SkadaStorageDB = {
 							["max"] = 160,
 						},
 					},
+					["totaldamage"] = 27366,
 					["time"] = 7.85,
 					["damage"] = 27366,
 					["overheal"] = 488,
@@ -1525,51 +1521,52 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 1453,
 							["school"] = 2,
-							["max"] = 1453,
+							["min"] = 1453,
 							["targets"] = {
 								["Bullrage"] = {
 									["overheal"] = 0,
 									["amount"] = 1453,
 								},
 							},
-							["min"] = 1453,
+							["max"] = 1453,
 						},
 						[48300] = {
 							["overheal"] = 488,
 							["count"] = 6,
 							["amount"] = 244,
 							["school"] = 32,
-							["max"] = 122,
+							["min"] = 122,
 							["targets"] = {
 								["Madigan"] = {
 									["overheal"] = 488,
 									["amount"] = 244,
 								},
 							},
-							["min"] = 122,
+							["max"] = 122,
 						},
 					},
 					["heal"] = 1697,
 					["name"] = "Madigan",
+					["role"] = "HEALER",
 					["damagespells"] = {
 						["Mind Blast"] = {
 							["hitmin"] = 2604,
 							["criticalamount"] = 3907,
 							["id"] = 48127,
-							["hitmax"] = 2604,
+							["count"] = 2,
 							["targets"] = {
 								["Coren Direbrew"] = {
 									["amount"] = 6511,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 6511,
-							["school"] = 32,
-							["criticalmin"] = 3907,
 							["criticalmax"] = 3907,
+							["criticalmin"] = 3907,
+							["casts"] = 2,
+							["hitmax"] = 2604,
+							["hit"] = 1,
+							["school"] = 32,
+							["amount"] = 6511,
+							["critical"] = 1,
 							["hitamount"] = 2604,
 						},
 						["Holy Fire"] = {
@@ -1618,26 +1615,6 @@ SkadaStorageDB = {
 							["amount"] = 5036,
 							["hitamount"] = 5036,
 						},
-						["Shoot"] = {
-							["hitmin"] = 946,
-							["criticalamount"] = 3026,
-							["id"] = 5019,
-							["criticalmin"] = 1421,
-							["targets"] = {
-								["Coren Direbrew"] = {
-									["amount"] = 3972,
-								},
-							},
-							["criticalmax"] = 1605,
-							["critical"] = 2,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 946,
-							["amount"] = 3972,
-							["hitamount"] = 946,
-						},
 						["Devouring Plague (DoT)"] = {
 							["hitmin"] = 783,
 							["id"] = 48300,
@@ -1653,19 +1630,71 @@ SkadaStorageDB = {
 							["amount"] = 4698,
 							["hitamount"] = 4698,
 						},
+						["Shoot"] = {
+							["hitmin"] = 946,
+							["criticalamount"] = 3026,
+							["id"] = 5019,
+							["criticalmin"] = 1421,
+							["targets"] = {
+								["Coren Direbrew"] = {
+									["amount"] = 3972,
+								},
+							},
+							["amount"] = 3972,
+							["hitmax"] = 946,
+							["criticalmax"] = 1605,
+							["critical"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["count"] = 3,
+							["casts"] = 1,
+							["hitamount"] = 946,
+						},
 					},
-					["totaldamage"] = 27366,
-					["role"] = "HEALER",
 				}, -- [3]
 				{
+					["overheal"] = 21401,
 					["last"] = 726.54,
+					["role"] = "DAMAGER",
+					["totaldamage"] = 127162,
 					["flag"] = 4370,
 					["class"] = "WARLOCK",
+					["healspells"] = {
+						[54181] = {
+							["overheal"] = 17130,
+							["count"] = 35,
+							["amount"] = 1561,
+							["school"] = 2,
+							["min"] = 133,
+							["targets"] = {
+								["Fiethea"] = {
+									["overheal"] = 17130,
+									["amount"] = 1561,
+								},
+							},
+							["max"] = 1173,
+						},
+						[47893] = {
+							["overheal"] = 4271,
+							["min"] = 399,
+							["count"] = 5,
+							["amount"] = 399,
+							["school"] = 32,
+							["ishot"] = true,
+							["targets"] = {
+								["Secolla"] = {
+									["overheal"] = 4271,
+									["amount"] = 399,
+								},
+							},
+							["max"] = 399,
+						},
+					},
 					["auras"] = {
 						[72416] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 10,
 						},
 						[57399] = {
@@ -1691,9 +1720,9 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[55637] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[48074] = {
@@ -1738,8 +1767,8 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Coren Direbrew"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 20,
 								},
 							},
@@ -1763,16 +1792,15 @@ SkadaStorageDB = {
 							["uptime"] = 18,
 						},
 						[54758] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
-						[54277] = {
+						[48170] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["uptime"] = 8,
+							["count"] = 1,
+							["uptime"] = 23,
 						},
 						[47847] = {
 							["type"] = "DEBUFF",
@@ -1798,51 +1826,13 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[48170] = {
+						[54277] = {
+							["school"] = 1,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 23,
+							["count"] = 2,
+							["uptime"] = 8,
 						},
 					},
-					["time"] = 22.84,
-					["damage"] = 127162,
-					["overheal"] = 21401,
-					["id"] = "0x0700000000636250",
-					["spec"] = 267,
-					["healspells"] = {
-						[54181] = {
-							["overheal"] = 17130,
-							["count"] = 35,
-							["amount"] = 1561,
-							["school"] = 2,
-							["max"] = 1173,
-							["targets"] = {
-								["Fiethea"] = {
-									["overheal"] = 17130,
-									["amount"] = 1561,
-								},
-							},
-							["min"] = 133,
-						},
-						[47893] = {
-							["overheal"] = 4271,
-							["targets"] = {
-								["Secolla"] = {
-									["overheal"] = 4271,
-									["amount"] = 399,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 399,
-							["school"] = 32,
-							["max"] = 399,
-							["ishot"] = true,
-							["min"] = 399,
-						},
-					},
-					["overkill"] = 3898,
-					["heal"] = 1960,
-					["name"] = "Secolla",
 					["damagespells"] = {
 						["Conflagrate (DoT)"] = {
 							["hitmin"] = 1049,
@@ -1853,14 +1843,14 @@ SkadaStorageDB = {
 									["amount"] = 10186,
 								},
 							},
-							["hitmax"] = 1198,
 							["count"] = 6,
+							["criticalmin"] = 2098,
 							["criticalmax"] = 2396,
-							["critical"] = 3,
+							["hitmax"] = 1198,
 							["amount"] = 10186,
 							["school"] = 4,
 							["hit"] = 3,
-							["criticalmin"] = 2098,
+							["critical"] = 3,
 							["hitamount"] = 3296,
 						},
 						["Melee (Fiethea)"] = {
@@ -1911,20 +1901,20 @@ SkadaStorageDB = {
 							["hitmin"] = 4465,
 							["criticalamount"] = 7820,
 							["id"] = 17962,
-							["hitmax"] = 4465,
+							["count"] = 2,
 							["targets"] = {
 								["Coren Direbrew"] = {
 									["amount"] = 12285,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 12285,
-							["school"] = 4,
-							["criticalmin"] = 7820,
 							["criticalmax"] = 7820,
+							["criticalmin"] = 7820,
+							["casts"] = 2,
+							["hitmax"] = 4465,
+							["hit"] = 1,
+							["school"] = 4,
+							["amount"] = 12285,
+							["critical"] = 1,
 							["hitamount"] = 4465,
 						},
 						["Seduction (Fiethea)"] = {
@@ -1945,8 +1935,8 @@ SkadaStorageDB = {
 							["id"] = 59172,
 							["targets"] = {
 								["Coren Direbrew"] = {
-									["overkill"] = 3898,
 									["amount"] = 12030,
+									["overkill"] = 3898,
 								},
 							},
 							["overkill"] = 3898,
@@ -1958,24 +1948,20 @@ SkadaStorageDB = {
 							["amount"] = 12030,
 							["hitamount"] = 12030,
 						},
-						["Shadowfury"] = {
-							["hitmin"] = 1838,
-							["id"] = 47847,
+						["Corruption (DoT)"] = {
+							["hitmin"] = 890,
+							["id"] = 47813,
 							["targets"] = {
 								["Coren Direbrew"] = {
-									["amount"] = 1949,
-								},
-								["Dark Iron Antagonist"] = {
-									["amount"] = 3732,
+									["amount"] = 5341,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
+							["count"] = 6,
+							["hit"] = 6,
 							["school"] = 32,
-							["hitmax"] = 1949,
-							["amount"] = 5681,
-							["hitamount"] = 5681,
+							["hitmax"] = 891,
+							["amount"] = 5341,
+							["hitamount"] = 5341,
 						},
 						["Lash of Pain (Fiethea)"] = {
 							["hitmin"] = 448,
@@ -2003,13 +1989,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 2607,
-							["critical"] = 1,
+							["amount"] = 8376,
 							["criticalmax"] = 2607,
-							["count"] = 5,
+							["critical"] = 1,
 							["hit"] = 4,
 							["school"] = 4,
 							["hitmax"] = 1489,
-							["amount"] = 8376,
+							["count"] = 5,
 							["hitamount"] = 5769,
 						},
 						["Incinerate"] = {
@@ -2022,39 +2008,98 @@ SkadaStorageDB = {
 									["amount"] = 65360,
 								},
 							},
+							["amount"] = 65360,
+							["hitmax"] = 5693,
 							["criticalmax"] = 11524,
 							["critical"] = 4,
-							["casts"] = 7,
-							["count"] = 8,
 							["hit"] = 4,
 							["school"] = 4,
-							["hitmax"] = 5693,
-							["amount"] = 65360,
+							["count"] = 8,
+							["casts"] = 7,
 							["hitamount"] = 21787,
 						},
-						["Corruption (DoT)"] = {
-							["hitmin"] = 890,
-							["id"] = 47813,
+						["Shadowfury"] = {
+							["hitmin"] = 1838,
+							["id"] = 47847,
 							["targets"] = {
+								["Dark Iron Antagonist"] = {
+									["amount"] = 3732,
+								},
 								["Coren Direbrew"] = {
-									["amount"] = 5341,
+									["amount"] = 1949,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 6,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 32,
-							["hitmax"] = 891,
-							["amount"] = 5341,
-							["hitamount"] = 5341,
+							["hitmax"] = 1949,
+							["amount"] = 5681,
+							["hitamount"] = 5681,
 						},
 					},
-					["totaldamage"] = 127162,
-					["role"] = "DAMAGER",
+					["heal"] = 1960,
+					["time"] = 22.84,
+					["name"] = "Secolla",
+					["overkill"] = 3898,
+					["spec"] = 267,
+					["id"] = "0x0700000000636250",
+					["damage"] = 127162,
 				}, -- [4]
 				{
+					["damagespells"] = {
+						["Bloodthirst"] = {
+							["criticalamount"] = 5022,
+							["id"] = 23881,
+							["targets"] = {
+								["Direbrew Minion"] = {
+									["amount"] = 5022,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 5022,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 5022,
+							["criticalmin"] = 5022,
+						},
+						["Melee"] = {
+							["criticalamount"] = 3471,
+							["id"] = 6603,
+							["targets"] = {
+								["Ursula Direbrew"] = {
+									["amount"] = 3471,
+								},
+							},
+							["criticalmax"] = 3471,
+							["critical"] = 1,
+							["amount"] = 3471,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 3471,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 177,
+							["id"] = 12721,
+							["targets"] = {
+								["Ursula Direbrew"] = {
+									["amount"] = 177,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 177,
+							["amount"] = 177,
+							["hitamount"] = 177,
+						},
+					},
 					["last"] = 726.37,
+					["damagetaken"] = 1874,
 					["flag"] = 1298,
 					["class"] = "WARRIOR",
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
@@ -2083,9 +2128,9 @@ SkadaStorageDB = {
 							["uptime"] = 23,
 						},
 						[54758] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 2,
 						},
 						[2479] = {
@@ -2094,29 +2139,30 @@ SkadaStorageDB = {
 							["uptime"] = 23,
 						},
 						[59620] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 2,
 						},
 						[23885] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[12970] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
+							["refresh"] = 1,
 							["uptime"] = 2,
 						},
-						[71401] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["uptime"] = 2,
-						},
-						[48162] = {
+						[50682] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[50682] = {
+						[48162] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 23,
@@ -2126,68 +2172,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 23,
 						},
-						[12970] = {
+						[71401] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
 							["uptime"] = 2,
 						},
 					},
+					["name"] = "Tuochmyblade",
+					["totaldamage"] = 8670,
 					["time"] = 4.82,
-					["totaldamagetaken"] = 1874,
-					["damage"] = 8670,
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["criticalamount"] = 5022,
-							["id"] = 23881,
-							["targets"] = {
-								["Direbrew Minion"] = {
-									["amount"] = 5022,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5022,
-							["school"] = 1,
-							["criticalmin"] = 5022,
-							["criticalmax"] = 5022,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["criticalamount"] = 3471,
-							["id"] = 6603,
-							["targets"] = {
-								["Ursula Direbrew"] = {
-									["amount"] = 3471,
-								},
-							},
-							["criticalmax"] = 3471,
-							["critical"] = 1,
-							["amount"] = 3471,
-							["school"] = 1,
-							["criticalmin"] = 3471,
-							["count"] = 1,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 177,
-							["id"] = 12721,
-							["targets"] = {
-								["Ursula Direbrew"] = {
-									["amount"] = 177,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 177,
-							["amount"] = 177,
-							["hitamount"] = 177,
-						},
-					},
-					["damagetaken"] = 1874,
-					["id"] = "0x07000000008EAF60",
-					["spec"] = 72,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 225,
@@ -2220,22 +2214,28 @@ SkadaStorageDB = {
 							["hitamount"] = 1649,
 						},
 					},
-					["name"] = "Tuochmyblade",
-					["totaldamage"] = 8670,
-					["role"] = "DAMAGER",
+					["spec"] = 72,
+					["totaldamagetaken"] = 1874,
+					["id"] = "0x07000000008EAF60",
+					["damage"] = 8670,
 				}, -- [5]
 			},
-			["type"] = "party",
+			["totaldamagetaken"] = 2727,
+			["etotaldamagetaken"] = 447992,
+			["damage"] = 447992,
+			["rage"] = 175,
+			["absorb"] = 377,
 			["damagetaken"] = 2202,
 			["gotboss"] = 23872,
 			["etotaldamage"] = 2727,
+			["name"] = "Coren Direbrew",
 			["overheal"] = 109873,
 			["overkill"] = 14335,
 			["edamagetaken"] = 447992,
 			["heal"] = 16878,
-			["name"] = "Coren Direbrew",
+			["success"] = true,
 			["mobname"] = "Coren Direbrew",
-			["starttime"] = 1727605617,
+			["type"] = "party",
 			["edamage"] = 2202,
 			["last_action"] = 1727605640,
 			["endtime"] = 1727605640,
