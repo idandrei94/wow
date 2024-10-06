@@ -6,56 +6,482 @@ SkadaStorageDB = {
 				["flag"] = 1297,
 				["class"] = "ROGUE",
 				["role"] = "DAMAGER",
-				["time"] = 98.30999999999993,
+				["time"] = 107.6299999999999,
 				["cctaken"] = 14,
 				["totaldamagetaken"] = 158001,
-				["damage"] = 405979,
+				["damage"] = 466732,
 				["absorb"] = 18432,
 				["damagetaken"] = 139569,
 				["id"] = "0x070000000000104C",
 				["spec"] = 261,
-				["overkill"] = 45401,
+				["overkill"] = 54486,
 				["name"] = "Kalaam",
-				["ccdone"] = 20,
-				["death"] = 5,
+				["ccdone"] = 23,
+				["totaldamage"] = 550755,
 				["energy"] = 125,
-				["totaldamage"] = 489030,
+				["death"] = 5,
 			}, -- [1]
 		},
 		["absorb"] = 18432,
 		["damagetaken"] = 139569,
-		["death"] = 5,
 		["starttime"] = 1716227070,
-		["overkill"] = 45401,
-		["time"] = 204,
-		["totaldamage"] = 489030,
 		["name"] = "Total",
-		["ccdone"] = 20,
+		["overkill"] = 54486,
+		["ccdone"] = 23,
+		["totaldamage"] = 550755,
+		["time"] = 225,
+		["death"] = 5,
 		["cctaken"] = 14,
 		["totaldamagetaken"] = 158001,
 		["energy"] = 125,
-		["damage"] = 405979,
+		["damage"] = 466732,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
+			["enemies"] = {
+				{
+					["damagetaken"] = 26789,
+					["name"] = "Asherogue",
+					["class"] = "ROGUE",
+					["flag"] = 66888,
+					["totaldamagetaken"] = 27761,
+					["id"] = "0x0700000000ACB35F",
+					["damagetakenspells"] = {
+						[6603] = {
+							["total"] = 13358,
+							["amount"] = 12386,
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["total"] = 13358,
+									["overkill"] = 1135,
+									["amount"] = 12386,
+								},
+							},
+							["overkill"] = 1135,
+						},
+						[57975] = {
+							["school"] = 8,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 4083,
+								},
+							},
+							["amount"] = 4083,
+						},
+						[48691] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 10320,
+								},
+							},
+							["amount"] = 10320,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 27761,
+			["time"] = 12,
+			["etotaldamagetaken"] = 27761,
+			["last_time"] = 27957.641,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[1833] = {
+							["count"] = 2,
+							["targets"] = {
+								["Asherogue"] = 2,
+							},
+						},
+					},
+					["last"] = 27953.008,
+					["overkill"] = 1135,
+					["flag"] = 1297,
+					["class"] = "ROGUE",
+					["damagespells"] = {
+						["Ambush"] = {
+							["criticalamount"] = 10320,
+							["id"] = 48691,
+							["targets"] = {
+								["Asherogue"] = {
+									["amount"] = 10320,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 10320,
+							["school"] = 1,
+							["criticalmin"] = 10320,
+							["criticalmax"] = 10320,
+							["count"] = 1,
+						},
+						["Melee"] = {
+							["hitmin"] = 1159,
+							["criticalmin"] = 840,
+							["targets"] = {
+								["Asherogue"] = {
+									["total"] = 13358,
+									["overkill"] = 1135,
+									["amount"] = 12386,
+								},
+							},
+							["amount"] = 12386,
+							["MISS"] = 2,
+							["total"] = 13358,
+							["criticalamount"] = 8740,
+							["id"] = 6603,
+							["overkill"] = 1135,
+							["ABSORB"] = 1,
+							["criticalmax"] = 2568,
+							["hitmax"] = 1295,
+							["hit"] = 3,
+							["school"] = 1,
+							["critical"] = 6,
+							["count"] = 12,
+							["hitamount"] = 3646,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 472,
+							["criticalamount"] = 2192,
+							["id"] = 57975,
+							["criticalmin"] = 730,
+							["targets"] = {
+								["Asherogue"] = {
+									["amount"] = 4083,
+								},
+							},
+							["critical"] = 3,
+							["amount"] = 4083,
+							["criticalmax"] = 731,
+							["count"] = 7,
+							["hit"] = 4,
+							["school"] = 8,
+							["hitmax"] = 473,
+							["casts"] = 1,
+							["hitamount"] = 1891,
+						},
+					},
+					["auras"] = {
+						[51693] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Asherogue"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[6774] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[51713] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[54758] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[57975] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 6,
+							["school"] = 8,
+							["refresh"] = 6,
+							["targets"] = {
+								["Asherogue"] = {
+									["refresh"] = 6,
+									["count"] = 1,
+									["uptime"] = 6,
+								},
+							},
+							["count"] = 1,
+						},
+						[3409] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Asherogue"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[1833] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 5,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Asherogue"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 5,
+								},
+							},
+							["count"] = 1,
+						},
+					},
+					["id"] = "0x070000000000104C",
+					["role"] = "DAMAGER",
+					["name"] = "Kalaam",
+					["ccdone"] = 2,
+					["spec"] = 261,
+					["time"] = 6.220000000000001,
+					["totaldamage"] = 27761,
+					["damage"] = 26789,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["overkill"] = 1135,
+			["edamagetaken"] = 26789,
+			["starttime"] = 1728236797,
+			["name"] = "Asherogue (2)",
+			["ccdone"] = 2,
+			["mobname"] = "Asherogue",
+			["damage"] = 26789,
+			["last_action"] = 1728236807,
+			["endtime"] = 1728236809,
+		}, -- [1]
+		{
+			["enemies"] = {
+				{
+					["name"] = "Asherogue",
+					["damagetaken"] = 33964,
+					["id"] = "0x0700000000ACB35F",
+					["flag"] = 66888,
+					["class"] = "ROGUE",
+					["totaldamagetaken"] = 33964,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 8917,
+								},
+							},
+							["amount"] = 8917,
+						},
+						[57975] = {
+							["school"] = 8,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 946,
+								},
+							},
+							["amount"] = 946,
+						},
+						[48691] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 24101,
+									["overkill"] = 7950,
+								},
+							},
+							["amount"] = 24101,
+							["overkill"] = 7950,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 33964,
+			["time"] = 9,
+			["etotaldamagetaken"] = 33964,
+			["last_time"] = 27422.964,
+			["starttime"] = 1728236264,
+			["type"] = "none",
+			["overkill"] = 7950,
+			["edamagetaken"] = 33964,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[1833] = {
+							["count"] = 1,
+							["targets"] = {
+								["Asherogue"] = 1,
+							},
+						},
+					},
+					["last"] = 27417.758,
+					["damagespells"] = {
+						["Ambush"] = {
+							["criticalamount"] = 24101,
+							["id"] = 48691,
+							["targets"] = {
+								["Asherogue"] = {
+									["amount"] = 24101,
+									["overkill"] = 7950,
+								},
+							},
+							["overkill"] = 7950,
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 24101,
+							["school"] = 1,
+							["count"] = 2,
+							["criticalmax"] = 13297,
+							["criticalmin"] = 10804,
+						},
+						["Melee"] = {
+							["hitmin"] = 453,
+							["criticalamount"] = 7236,
+							["id"] = 6603,
+							["targets"] = {
+								["Asherogue"] = {
+									["amount"] = 8917,
+								},
+							},
+							["criticalmin"] = 945,
+							["hitmax"] = 1228,
+							["criticalmax"] = 2645,
+							["critical"] = 4,
+							["amount"] = 8917,
+							["school"] = 1,
+							["hit"] = 2,
+							["count"] = 6,
+							["hitamount"] = 1681,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 473,
+							["id"] = 57975,
+							["targets"] = {
+								["Asherogue"] = {
+									["amount"] = 946,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 473,
+							["amount"] = 946,
+							["hitamount"] = 946,
+						},
+					},
+					["flag"] = 1297,
+					["class"] = "ROGUE",
+					["totaldamage"] = 33964,
+					["overkill"] = 7950,
+					["time"] = 3.219999999999999,
+					["role"] = "DAMAGER",
+					["name"] = "Kalaam",
+					["ccdone"] = 1,
+					["spec"] = 261,
+					["id"] = "0x070000000000104C",
+					["auras"] = {
+						[51693] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Asherogue"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 2,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[6774] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[51713] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[59620] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[1833] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Asherogue"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[3409] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Asherogue"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 2,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[57975] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Asherogue"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
+						},
+					},
+					["damage"] = 33964,
+				}, -- [1]
+			},
+			["name"] = "Asherogue",
+			["ccdone"] = 1,
+			["mobname"] = "Asherogue",
+			["damage"] = 33964,
+			["last_action"] = 1728236273,
+			["endtime"] = 1728236273,
+		}, -- [2]
+		{
 			["eoverkill"] = 254,
 			["enemies"] = {
 				{
-					["id"] = "0x0700000000AF2EE3",
 					["name"] = "Slithisis",
-					["totaldamagetaken"] = 4834,
-					["flag"] = 66888,
-					["class"] = "WARLOCK",
 					["damagetaken"] = 3869,
+					["flag"] = 66888,
+					["id"] = "0x0700000000AF2EE3",
+					["totaldamagetaken"] = 4834,
+					["class"] = "WARLOCK",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["total"] = 3790,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 3790,
 									["amount"] = 3033,
+									["total"] = 3790,
 								},
 							},
 							["amount"] = 3033,
@@ -65,8 +491,8 @@ SkadaStorageDB = {
 							["total"] = 1044,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 1044,
 									["amount"] = 836,
+									["total"] = 1044,
 								},
 							},
 							["amount"] = 836,
@@ -77,64 +503,64 @@ SkadaStorageDB = {
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
-							["overkill"] = 100,
+							["amount"] = 2606,
 							["targets"] = {
 								["Kalaam"] = {
-									["overkill"] = 100,
 									["amount"] = 2606,
+									["overkill"] = 100,
 								},
 							},
-							["amount"] = 2606,
+							["overkill"] = 100,
 						},
 						[48691] = {
 							["school"] = 1,
 							["total"] = 15584,
 							["targets"] = {
 								["Kalaam"] = {
-									["total"] = 15584,
 									["amount"] = 10118,
+									["total"] = 15584,
 								},
 							},
 							["amount"] = 10118,
 						},
 					},
-					["id"] = "0x0700000000A66CCD",
-					["class"] = "ROGUE",
-					["overkill"] = 100,
 					["totaldamage"] = 18190,
 					["name"] = "Uzumakii",
+					["overkill"] = 100,
 					["flag"] = 1352,
+					["class"] = "ROGUE",
+					["id"] = "0x0700000000A66CCD",
 					["damage"] = 12724,
 				}, -- [2]
 				{
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
-							["overkill"] = 154,
+							["amount"] = 998,
 							["targets"] = {
 								["Kalaam"] = {
-									["overkill"] = 154,
 									["amount"] = 998,
+									["overkill"] = 154,
 								},
 							},
-							["amount"] = 998,
+							["overkill"] = 154,
 						},
 					},
-					["id"] = "0x0700000000A66CA8",
-					["class"] = "ROGUE",
-					["overkill"] = 154,
 					["totaldamage"] = 998,
 					["name"] = "Uciha",
+					["overkill"] = 154,
 					["flag"] = 1352,
+					["class"] = "ROGUE",
+					["id"] = "0x0700000000A66CA8",
 					["damage"] = 998,
 				}, -- [3]
 			},
 			["totaldamage"] = 4834,
 			["time"] = 5,
-			["damage"] = 3869,
+			["cctaken"] = 2,
 			["totaldamagetaken"] = 19188,
 			["etotaldamagetaken"] = 4834,
-			["last_time"] = 46340.984,
+			["damage"] = 3869,
 			["players"] = {
 				{
 					["last"] = 46336.726,
@@ -142,9 +568,9 @@ SkadaStorageDB = {
 					["class"] = "ROGUE",
 					["auras"] = {
 						[71560] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[75456] = {
@@ -163,9 +589,9 @@ SkadaStorageDB = {
 							["uptime"] = 4,
 						},
 						[45182] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
 						},
 					},
@@ -193,16 +619,16 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Slithisis"] = {
-									["total"] = 3790,
 									["amount"] = 3033,
+									["total"] = 3790,
 								},
 							},
 							["criticalmax"] = 2248,
 							["critical"] = 2,
 							["amount"] = 3033,
 							["school"] = 1,
-							["criticalmin"] = 785,
 							["count"] = 2,
+							["criticalmin"] = 785,
 						},
 						["Wound Poison VII"] = {
 							["total"] = 1044,
@@ -210,8 +636,8 @@ SkadaStorageDB = {
 							["id"] = 57975,
 							["targets"] = {
 								["Slithisis"] = {
-									["total"] = 1044,
 									["amount"] = 836,
+									["total"] = 1044,
 								},
 							},
 							["casts"] = 1,
@@ -229,102 +655,102 @@ SkadaStorageDB = {
 						{
 							["log"] = {
 								{
-									["time"] = 46340.70299999999,
 									["source"] = "Uzumakii",
+									["time"] = 46340.70299999999,
 									["amount"] = -211,
 									["school"] = 1,
-									["hp"] = 111,
 									["spellid"] = 6603,
+									["hp"] = 111,
 									["overkill"] = 100,
 								}, -- [1]
 								{
-									["time"] = 46340.703,
 									["source"] = "Uciha",
+									["time"] = 46340.703,
 									["amount"] = -265,
 									["school"] = 1,
-									["hp"] = 111,
 									["spellid"] = 6603,
+									["hp"] = 111,
 									["overkill"] = 154,
 								}, -- [2]
 								{
 									["source"] = "Uzumakii",
 									["time"] = 46340.147,
 									["school"] = 1,
-									["hp"] = 844,
 									["spellid"] = 48691,
+									["hp"] = 844,
 									["absorbed"] = 5466,
 								}, -- [3]
 								{
 									["source"] = "Uciha",
 									["amount"] = -733,
 									["school"] = 1,
+									["time"] = 46340.031,
 									["hp"] = 844,
 									["spellid"] = 6603,
-									["time"] = 46340.031,
 								}, -- [4]
 								{
 									["source"] = "Uzumakii",
 									["amount"] = -862,
 									["school"] = 1,
+									["time"] = 46339.639,
 									["hp"] = 1706,
 									["spellid"] = 6603,
-									["time"] = 46339.639,
 								}, -- [5]
 								{
 									["source"] = "Uzumakii",
 									["amount"] = -217,
 									["school"] = 1,
+									["time"] = 46339.265,
 									["hp"] = 1923,
 									["spellid"] = 6603,
-									["time"] = 46339.265,
 								}, -- [6]
 								{
 									["source"] = "Uzumakii",
 									["amount"] = -5822,
 									["school"] = 1,
+									["time"] = 46338.958,
 									["hp"] = 1923,
 									["spellid"] = 48691,
-									["time"] = 46338.958,
 								}, -- [7]
 								{
 									["source"] = "Uzumakii",
 									["amount"] = -418,
 									["school"] = 1,
+									["time"] = 46338.184,
 									["hp"] = 8163,
 									["spellid"] = 6603,
-									["time"] = 46338.184,
 								}, -- [8]
 								{
 									["source"] = "Uzumakii",
 									["amount"] = -4296,
 									["school"] = 1,
+									["time"] = 46337.935,
 									["hp"] = 8609,
 									["spellid"] = 48691,
-									["time"] = 46337.935,
 								}, -- [9]
 								{
 									["source"] = "Uzumakii",
 									["amount"] = -446,
 									["school"] = 1,
+									["time"] = 46337.82700000001,
 									["hp"] = 12905,
 									["spellid"] = 6603,
-									["time"] = 46337.82700000001,
 								}, -- [10]
 								{
 									["source"] = "Uzumakii",
 									["amount"] = -452,
 									["school"] = 1,
+									["time"] = 46336.737,
 									["hp"] = 13357,
 									["spellid"] = 6603,
-									["time"] = 46336.737,
 								}, -- [11]
 							},
 							["time"] = 46340.845,
-							["timeod"] = 1728161430,
+							["source"] = "Uzumakii",
 							["school"] = 1,
 							["maxhp"] = 26714,
 							["spellid"] = 6603,
-							["source"] = "Uzumakii",
+							["timeod"] = 1728161430,
 						}, -- [1]
 					},
 					["id"] = "0x070000000000104C",
@@ -346,43 +772,43 @@ SkadaStorageDB = {
 							["total"] = 15584,
 							["criticalamount"] = 10118,
 							["id"] = 48691,
-							["ABSORB"] = 1,
+							["count"] = 3,
 							["criticalmax"] = 5822,
 							["critical"] = 2,
-							["amount"] = 10118,
+							["ABSORB"] = 1,
 							["school"] = 1,
+							["criticalmin"] = 4296,
 							["sources"] = {
 								["Uzumakii"] = {
-									["total"] = 15584,
 									["amount"] = 10118,
+									["total"] = 15584,
 								},
 							},
-							["criticalmin"] = 4296,
-							["count"] = 3,
+							["amount"] = 10118,
 						},
 						["Melee"] = {
 							["hitmin"] = 211,
 							["criticalamount"] = 1308,
 							["id"] = 6603,
-							["criticalmax"] = 862,
 							["criticalmin"] = 446,
+							["count"] = 8,
 							["overkill"] = 254,
+							["amount"] = 3604,
+							["criticalmax"] = 862,
+							["hitmax"] = 733,
+							["hit"] = 6,
+							["school"] = 1,
 							["critical"] = 2,
 							["sources"] = {
 								["Uciha"] = {
-									["overkill"] = 154,
 									["amount"] = 998,
+									["overkill"] = 154,
 								},
 								["Uzumakii"] = {
-									["overkill"] = 100,
 									["amount"] = 2606,
+									["overkill"] = 100,
 								},
 							},
-							["count"] = 8,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 733,
-							["amount"] = 3604,
 							["hitamount"] = 2296,
 						},
 						["Wound Poison VII"] = {
@@ -414,19 +840,177 @@ SkadaStorageDB = {
 			},
 			["type"] = "none",
 			["damagetaken"] = 13722,
-			["death"] = 1,
+			["last_time"] = 46340.984,
 			["absorb"] = 5466,
-			["cctaken"] = 2,
 			["etotaldamage"] = 19188,
 			["edamagetaken"] = 3869,
-			["name"] = "Slithisis",
-			["mobname"] = "Slithisis",
 			["starttime"] = 1728161425,
+			["name"] = "Slithisis",
+			["death"] = 1,
+			["mobname"] = "Slithisis",
 			["edamage"] = 13722,
 			["last_action"] = 1728161430,
 			["endtime"] = 1728161430,
-		}, -- [1]
+		}, -- [3]
 		{
+			["starttime"] = 1728161243,
+			["absorb"] = 4496,
+			["damagetaken"] = 12364,
+			["edamage"] = 12364,
+			["players"] = {
+				{
+					["absorb"] = 4496,
+					["damagetaken"] = 12364,
+					["id"] = "0x070000000000104C",
+					["class"] = "ROGUE",
+					["name"] = "Kalaam",
+					["damagetakenspells"] = {
+						["Ambush"] = {
+							["total"] = 10536,
+							["criticalamount"] = 6040,
+							["id"] = 48691,
+							["criticalmax"] = 6040,
+							["critical"] = 1,
+							["amount"] = 6040,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 6040,
+							["sources"] = {
+								["Lollolz"] = {
+									["amount"] = 6040,
+									["total"] = 10536,
+								},
+							},
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 289,
+							["criticalamount"] = 1470,
+							["id"] = 6603,
+							["criticalmin"] = 1470,
+							["criticalmax"] = 1470,
+							["count"] = 5,
+							["amount"] = 2564,
+							["sources"] = {
+								["Uciha"] = {
+									["amount"] = 1759,
+								},
+								["Lollolz"] = {
+									["amount"] = 805,
+								},
+							},
+							["hitmax"] = 805,
+							["hit"] = 2,
+							["school"] = 1,
+							["critical"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 1094,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 471,
+							["id"] = 57975,
+							["sources"] = {
+								["Uciha"] = {
+									["amount"] = 471,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 471,
+							["amount"] = 471,
+							["hitamount"] = 471,
+						},
+						["Hemorrhage"] = {
+							["criticalamount"] = 2323,
+							["id"] = 48660,
+							["criticalmax"] = 2323,
+							["critical"] = 1,
+							["amount"] = 2323,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 2323,
+							["sources"] = {
+								["Uciha"] = {
+									["amount"] = 2323,
+								},
+							},
+						},
+						["Rupture (DoT)"] = {
+							["criticalamount"] = 966,
+							["id"] = 48672,
+							["criticalmax"] = 966,
+							["critical"] = 1,
+							["amount"] = 966,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 966,
+							["sources"] = {
+								["Uciha"] = {
+									["amount"] = 966,
+								},
+							},
+						},
+					},
+					["absorbspells"] = {
+						[31230] = {
+							["min"] = 1825,
+							["count"] = 2,
+							["amount"] = 4496,
+							["school"] = 1,
+							["targets"] = {
+								["Kalaam"] = 4496,
+							},
+							["max"] = 2671,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 0,
+					["auras"] = {
+						[71556] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[36554] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[54861] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[45182] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[1784] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[36563] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+					},
+					["spec"] = 261,
+					["totaldamagetaken"] = 16860,
+					["last"] = 46154.612,
+					["flag"] = 1297,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["name"] = "Uciha (3)",
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -448,15 +1032,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 2323,
 						},
-						[48672] = {
-							["school"] = 1,
-							["targets"] = {
-								["Kalaam"] = {
-									["amount"] = 966,
-								},
-							},
-							["amount"] = 966,
-						},
 						[57975] = {
 							["school"] = 8,
 							["targets"] = {
@@ -466,9 +1041,18 @@ SkadaStorageDB = {
 							},
 							["amount"] = 471,
 						},
+						[48672] = {
+							["school"] = 1,
+							["targets"] = {
+								["Kalaam"] = {
+									["amount"] = 966,
+								},
+							},
+							["amount"] = 966,
+						},
 					},
-					["name"] = "Uciha",
 					["totaldamage"] = 5519,
+					["name"] = "Uciha",
 					["flag"] = 1352,
 					["class"] = "ROGUE",
 					["id"] = "0x0700000000A66CA8",
@@ -481,8 +1065,8 @@ SkadaStorageDB = {
 							["total"] = 10536,
 							["targets"] = {
 								["Kalaam"] = {
-									["total"] = 10536,
 									["amount"] = 6040,
+									["total"] = 10536,
 								},
 							},
 							["amount"] = 6040,
@@ -497,190 +1081,32 @@ SkadaStorageDB = {
 							["amount"] = 805,
 						},
 					},
-					["name"] = "Lollolz",
 					["totaldamage"] = 11341,
+					["name"] = "Lollolz",
 					["flag"] = 1320,
 					["class"] = "ROGUE",
 					["id"] = "0x0700000000AEAF81",
 					["damage"] = 6845,
 				}, -- [2]
 			},
+			["endtime"] = 1728161249,
+			["last_action"] = 1728161249,
 			["time"] = 6,
+			["mobname"] = "Uciha",
 			["totaldamagetaken"] = 16860,
 			["etotaldamage"] = 16860,
 			["last_time"] = 46160.497,
-			["players"] = {
-				{
-					["id"] = "0x070000000000104C",
-					["absorb"] = 4496,
-					["damagetaken"] = 12364,
-					["damagetakenspells"] = {
-						["Ambush"] = {
-							["total"] = 10536,
-							["criticalamount"] = 6040,
-							["id"] = 48691,
-							["criticalmax"] = 6040,
-							["critical"] = 1,
-							["amount"] = 6040,
-							["school"] = 1,
-							["sources"] = {
-								["Lollolz"] = {
-									["total"] = 10536,
-									["amount"] = 6040,
-								},
-							},
-							["criticalmin"] = 6040,
-							["count"] = 1,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 289,
-							["criticalamount"] = 1470,
-							["id"] = 6603,
-							["criticalmin"] = 1470,
-							["criticalmax"] = 1470,
-							["critical"] = 1,
-							["hitmax"] = 805,
-							["sources"] = {
-								["Uciha"] = {
-									["amount"] = 1759,
-								},
-								["Lollolz"] = {
-									["amount"] = 805,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 2,
-							["school"] = 1,
-							["amount"] = 2564,
-							["MISS"] = 1,
-							["hitamount"] = 1094,
-						},
-						["Rupture (DoT)"] = {
-							["criticalamount"] = 966,
-							["id"] = 48672,
-							["criticalmax"] = 966,
-							["critical"] = 1,
-							["amount"] = 966,
-							["school"] = 1,
-							["sources"] = {
-								["Uciha"] = {
-									["amount"] = 966,
-								},
-							},
-							["criticalmin"] = 966,
-							["count"] = 1,
-						},
-						["Hemorrhage"] = {
-							["criticalamount"] = 2323,
-							["id"] = 48660,
-							["criticalmax"] = 2323,
-							["critical"] = 1,
-							["amount"] = 2323,
-							["school"] = 1,
-							["sources"] = {
-								["Uciha"] = {
-									["amount"] = 2323,
-								},
-							},
-							["criticalmin"] = 2323,
-							["count"] = 1,
-						},
-						["Wound Poison VII"] = {
-							["hitmin"] = 471,
-							["id"] = 57975,
-							["sources"] = {
-								["Uciha"] = {
-									["amount"] = 471,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 471,
-							["amount"] = 471,
-							["hitamount"] = 471,
-						},
-					},
-					["flag"] = 1297,
-					["class"] = "ROGUE",
-					["last"] = 46154.612,
-					["auras"] = {
-						[71556] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[36554] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[54861] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[45182] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[1784] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[36563] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-					},
-					["absorbspells"] = {
-						[31230] = {
-							["min"] = 1825,
-							["count"] = 2,
-							["amount"] = 4496,
-							["school"] = 1,
-							["targets"] = {
-								["Kalaam"] = 4496,
-							},
-							["max"] = 2671,
-						},
-					},
-					["time"] = 0,
-					["spec"] = 261,
-					["totaldamagetaken"] = 16860,
-					["role"] = "DAMAGER",
-					["name"] = "Kalaam",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 12364,
-			["starttime"] = 1728161243,
-			["name"] = "Uciha (3)",
-			["mobname"] = "Uciha",
-			["absorb"] = 4496,
-			["edamage"] = 12364,
-			["last_action"] = 1728161249,
-			["endtime"] = 1728161249,
-		}, -- [2]
+		}, -- [4]
 		{
 			["eoverkill"] = 262,
 			["enemies"] = {
 				{
-					["id"] = "0x0700000000A66CCD",
 					["name"] = "Uzumakii",
-					["totaldamagetaken"] = 24439,
-					["flag"] = 66888,
-					["class"] = "ROGUE",
 					["damagetaken"] = 19093,
+					["flag"] = 66888,
+					["id"] = "0x0700000000A66CCD",
+					["totaldamagetaken"] = 24439,
+					["class"] = "ROGUE",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -704,8 +1130,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 18851,
 									["amount"] = 13505,
+									["total"] = 18851,
 								},
 							},
 							["total"] = 18851,
@@ -717,14 +1143,14 @@ SkadaStorageDB = {
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
-							["overkill"] = 262,
+							["amount"] = 5426,
 							["targets"] = {
 								["Kalaam"] = {
-									["overkill"] = 262,
 									["amount"] = 5426,
+									["overkill"] = 262,
 								},
 							},
-							["amount"] = 5426,
+							["overkill"] = 262,
 						},
 						[57975] = {
 							["school"] = 8,
@@ -735,17 +1161,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 3601,
 						},
-						[48660] = {
-							["school"] = 1,
-							["total"] = 3225,
-							["targets"] = {
-								["Kalaam"] = {
-									["total"] = 3225,
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						[48657] = {
 							["school"] = 1,
 							["targets"] = {
@@ -755,20 +1170,30 @@ SkadaStorageDB = {
 							},
 							["amount"] = 4746,
 						},
+						[48660] = {
+							["school"] = 1,
+							["total"] = 3225,
+							["targets"] = {
+								["Kalaam"] = {
+									["amount"] = 0,
+									["total"] = 3225,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
-					["id"] = "0x0700000000A66CA8",
-					["class"] = "ROGUE",
-					["overkill"] = 262,
 					["totaldamage"] = 16998,
 					["name"] = "Uciha",
-					["flag"] = 1352,
 					["damage"] = 13773,
+					["id"] = "0x0700000000A66CA8",
+					["class"] = "ROGUE",
+					["flag"] = 1352,
+					["overkill"] = 262,
 				}, -- [2]
 			},
-			["ccdone"] = 1,
 			["totaldamage"] = 24439,
 			["time"] = 7,
-			["death"] = 1,
+			["cctaken"] = 2,
 			["totaldamagetaken"] = 16998,
 			["etotaldamagetaken"] = 24439,
 			["last_time"] = 45992.813,
@@ -793,17 +1218,17 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Uzumakii"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 4,
 								},
 							},
 							["uptime"] = 4,
 						},
 						[51713] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[3409] = {
@@ -824,15 +1249,15 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 6,
 						},
 						[72412] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[1833] = {
@@ -848,9 +1273,9 @@ SkadaStorageDB = {
 							["uptime"] = 4,
 						},
 						[71560] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[51693] = {
@@ -860,8 +1285,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Uzumakii"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 6,
 								},
 							},
@@ -880,6 +1305,7 @@ SkadaStorageDB = {
 							["max"] = 2671,
 						},
 					},
+					["totaldamage"] = 24439,
 					["time"] = 2.28,
 					["cctaken"] = 2,
 					["totaldamagetaken"] = 16998,
@@ -891,17 +1317,17 @@ SkadaStorageDB = {
 							["id"] = 48691,
 							["targets"] = {
 								["Uzumakii"] = {
-									["total"] = 18851,
 									["amount"] = 13505,
+									["total"] = 18851,
 								},
 							},
 							["casts"] = 2,
 							["critical"] = 2,
 							["amount"] = 13505,
 							["school"] = 1,
-							["criticalmin"] = 3949,
-							["criticalmax"] = 9556,
 							["count"] = 2,
+							["criticalmax"] = 9556,
+							["criticalmin"] = 3949,
 						},
 						["Melee"] = {
 							["hitmin"] = 521,
@@ -911,9 +1337,9 @@ SkadaStorageDB = {
 									["amount"] = 4267,
 								},
 							},
-							["amount"] = 4267,
-							["count"] = 6,
 							["hit"] = 4,
+							["count"] = 6,
+							["amount"] = 4267,
 							["school"] = 1,
 							["hitmax"] = 1367,
 							["MISS"] = 2,
@@ -942,175 +1368,175 @@ SkadaStorageDB = {
 						{
 							["log"] = {
 								{
-									["time"] = 45992.005,
 									["source"] = "Uciha",
+									["time"] = 45992.005,
 									["amount"] = -1617,
 									["school"] = 1,
-									["hp"] = 1355,
 									["spellid"] = 6603,
+									["hp"] = 1355,
 									["overkill"] = 262,
 								}, -- [1]
 								{
 									["source"] = "Uciha",
 									["amount"] = -472,
 									["school"] = 8,
+									["time"] = 45991.716,
 									["hp"] = 1355,
 									["spellid"] = 57975,
-									["time"] = 45991.716,
 								}, -- [2]
 								{
 									["source"] = "Uciha",
 									["time"] = 45991.717,
 									["school"] = 1,
-									["hp"] = 1827,
 									["spellid"] = 48660,
+									["hp"] = 1827,
 									["absorbed"] = 3225,
 								}, -- [3]
 								{
 									["source"] = "Uciha",
 									["amount"] = -613,
 									["school"] = 1,
+									["time"] = 45990.658,
 									["hp"] = 2440,
 									["spellid"] = 6603,
-									["time"] = 45990.658,
 								}, -- [4]
 								{
 									["source"] = "Uciha",
 									["amount"] = -729,
 									["school"] = 8,
+									["time"] = 45990.518,
 									["hp"] = 2440,
 									["spellid"] = 57975,
-									["time"] = 45990.518,
 								}, -- [5]
 								{
 									["source"] = "Uciha",
 									["amount"] = -728,
 									["school"] = 8,
+									["time"] = 45990.353,
 									["hp"] = 4617,
 									["spellid"] = 57975,
-									["time"] = 45990.353,
 								}, -- [6]
 								{
 									["source"] = "Uciha",
 									["amount"] = -1448,
 									["school"] = 1,
+									["time"] = 45990.244,
 									["hp"] = 5345,
 									["spellid"] = 6603,
-									["time"] = 45990.244,
 								}, -- [7]
 								{
 									["source"] = "Uciha",
 									["amount"] = -729,
 									["school"] = 8,
+									["time"] = 45989.588,
 									["hp"] = 5345,
 									["spellid"] = 57975,
-									["time"] = 45989.588,
 								}, -- [8]
 								{
 									["source"] = "Uciha",
 									["amount"] = -4746,
 									["school"] = 1,
+									["time"] = 45989.589,
 									["hp"] = 6074,
 									["spellid"] = 48657,
-									["time"] = 45989.589,
 								}, -- [9]
 								{
 									["source"] = "Uciha",
 									["amount"] = -269,
 									["school"] = 1,
+									["time"] = 45989.22300000001,
 									["hp"] = 11089,
 									["spellid"] = 6603,
-									["time"] = 45989.22300000001,
 								}, -- [10]
 								{
 									["source"] = "Uciha",
 									["amount"] = -471,
 									["school"] = 8,
+									["time"] = 45988.649,
 									["hp"] = 12568,
 									["spellid"] = 57975,
-									["time"] = 45988.649,
 								}, -- [11]
 								{
 									["source"] = "Uciha",
 									["amount"] = -1479,
 									["school"] = 1,
+									["time"] = 45988.45,
 									["hp"] = 13039,
 									["spellid"] = 6603,
-									["time"] = 45988.45,
 								}, -- [12]
 								{
 									["source"] = "Uciha",
 									["amount"] = -472,
 									["school"] = 8,
+									["time"] = 45988.451,
 									["hp"] = 13039,
 									["spellid"] = 57975,
-									["time"] = 45988.451,
 								}, -- [13]
 							},
 							["time"] = 45992.084,
-							["timeod"] = 1728161081,
+							["source"] = "Uciha",
 							["school"] = 1,
 							["maxhp"] = 26714,
 							["spellid"] = 6603,
-							["source"] = "Uciha",
+							["timeod"] = 1728161081,
 						}, -- [1]
 					},
 					["id"] = "0x070000000000104C",
 					["spec"] = 261,
 					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 269,
+							["criticalamount"] = 5157,
+							["id"] = 6603,
+							["criticalmin"] = 613,
+							["sources"] = {
+								["Uciha"] = {
+									["amount"] = 5426,
+									["overkill"] = 262,
+								},
+							},
+							["overkill"] = 262,
+							["critical"] = 4,
+							["criticalmax"] = 1617,
+							["hitmax"] = 269,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 5426,
+							["count"] = 5,
+							["hitamount"] = 269,
+						},
 						["Hemorrhage"] = {
 							["total"] = 3225,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 48660,
+							["ABSORB"] = 1,
 							["sources"] = {
 								["Uciha"] = {
-									["total"] = 3225,
 									["amount"] = 0,
+									["total"] = 3225,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 48660,
 						},
 						["Wound Poison VII"] = {
 							["hitmin"] = 471,
 							["criticalamount"] = 2186,
 							["id"] = 57975,
 							["criticalmin"] = 728,
+							["count"] = 6,
+							["amount"] = 3601,
 							["criticalmax"] = 729,
+							["hitmax"] = 472,
+							["hit"] = 3,
+							["school"] = 8,
 							["critical"] = 3,
 							["sources"] = {
 								["Uciha"] = {
 									["amount"] = 3601,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 472,
-							["amount"] = 3601,
 							["hitamount"] = 1415,
-						},
-						["Melee"] = {
-							["hitmin"] = 269,
-							["criticalamount"] = 5157,
-							["id"] = 6603,
-							["count"] = 5,
-							["hitmax"] = 269,
-							["overkill"] = 262,
-							["hit"] = 1,
-							["criticalmax"] = 1617,
-							["critical"] = 4,
-							["amount"] = 5426,
-							["school"] = 1,
-							["sources"] = {
-								["Uciha"] = {
-									["overkill"] = 262,
-									["amount"] = 5426,
-								},
-							},
-							["criticalmin"] = 613,
-							["hitamount"] = 269,
 						},
 						["Backstab"] = {
 							["criticalamount"] = 4746,
@@ -1119,19 +1545,18 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 4746,
 							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 4746,
 							["sources"] = {
 								["Uciha"] = {
 									["amount"] = 4746,
 								},
 							},
-							["criticalmin"] = 4746,
-							["count"] = 1,
 						},
 					},
 					["name"] = "Kalaam",
 					["ccdone"] = 1,
-					["death"] = 1,
-					["totaldamage"] = 24439,
+					["role"] = "DAMAGER",
 					["cctakenspells"] = {
 						[1833] = {
 							["count"] = 1,
@@ -1146,23 +1571,24 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["death"] = 1,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 13773,
 			["absorb"] = 3225,
-			["cctaken"] = 2,
 			["etotaldamage"] = 16998,
-			["edamagetaken"] = 19093,
-			["starttime"] = 1728161075,
-			["name"] = "Uzumakii (3)",
-			["mobname"] = "Uzumakii",
 			["damage"] = 19093,
+			["death"] = 1,
+			["edamagetaken"] = 19093,
+			["mobname"] = "Uzumakii",
+			["name"] = "Uzumakii (3)",
+			["ccdone"] = 1,
+			["starttime"] = 1728161075,
 			["edamage"] = 13773,
 			["last_action"] = 1728161082,
 			["endtime"] = 1728161082,
-		}, -- [3]
+		}, -- [5]
 		{
 			["starttime"] = 1728160968,
 			["type"] = "none",
@@ -1192,40 +1618,40 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[31224] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
 						[51713] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 4,
 						},
+						[31224] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Kalaam",
-					["flag"] = 1297,
-					["time"] = 0,
 					["class"] = "ROGUE",
+					["time"] = 0,
+					["flag"] = 1297,
 				}, -- [1]
 			},
-			["endtime"] = 1728160975,
+			["last_time"] = 45885.807,
 			["name"] = "Aphorat (3)",
 			["mobname"] = "Aphorat",
 			["time"] = 7,
 			["last_action"] = 1728160975,
-			["last_time"] = 45885.807,
-		}, -- [4]
+			["endtime"] = 1728160975,
+		}, -- [6]
 		{
 			["enemies"] = {
 				{
-					["id"] = "0x0700000000AA6084",
 					["name"] = "Aphorat",
-					["totaldamagetaken"] = 9108,
-					["flag"] = 66888,
-					["class"] = "ROGUE",
 					["damagetaken"] = 9108,
+					["flag"] = 66888,
+					["id"] = "0x0700000000AA6084",
+					["totaldamagetaken"] = 9108,
+					["class"] = "ROGUE",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -1286,8 +1712,8 @@ SkadaStorageDB = {
 							["amount"] = 4543,
 						},
 					},
-					["name"] = "Lollolz",
 					["totaldamage"] = 8630,
+					["name"] = "Lollolz",
 					["flag"] = 1352,
 					["class"] = "ROGUE",
 					["id"] = "0x0700000000AEAF81",
@@ -1296,6 +1722,7 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 9108,
 			["time"] = 6,
+			["cctaken"] = 1,
 			["totaldamagetaken"] = 8630,
 			["etotaldamagetaken"] = 9108,
 			["last_time"] = 45878.055,
@@ -1320,17 +1747,17 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Aphorat"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 5,
 								},
 							},
 							["uptime"] = 5,
 						},
 						[54758] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 4,
 						},
 						[3409] = {
@@ -1345,23 +1772,22 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
-						[51713] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 3,
-						},
 						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 64,
 							["uptime"] = 4,
 						},
 						[31224] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
+						},
+						[11305] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
 						},
 						[1833] = {
 							["type"] = "DEBUFF",
@@ -1376,22 +1802,65 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[71560] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 4,
 						},
-						[11305] = {
+						[51713] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
+							["uptime"] = 3,
 						},
 					},
+					["totaldamage"] = 9108,
 					["time"] = 4.419999999999999,
 					["cctaken"] = 1,
 					["totaldamagetaken"] = 8630,
 					["damage"] = 9108,
 					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1136,
+							["criticalamount"] = 4222,
+							["id"] = 6603,
+							["criticalmin"] = 585,
+							["targets"] = {
+								["Aphorat"] = {
+									["amount"] = 5358,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 1,
+							["criticalmax"] = 1923,
+							["hitmax"] = 1136,
+							["amount"] = 5358,
+							["school"] = 1,
+							["critical"] = 3,
+							["MISS"] = 1,
+							["hitamount"] = 1136,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 390,
+							["criticalamount"] = 485,
+							["id"] = 57975,
+							["criticalmin"] = 485,
+							["targets"] = {
+								["Aphorat"] = {
+									["amount"] = 1319,
+								},
+							},
+							["criticalmax"] = 485,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 8,
+							["amount"] = 1319,
+							["hitmax"] = 444,
+							["hitamount"] = 834,
+						},
 						["Sinister Strike"] = {
 							["hitmin"] = 1198,
 							["id"] = 48638,
@@ -1407,47 +1876,6 @@ SkadaStorageDB = {
 							["hitmax"] = 1233,
 							["amount"] = 2431,
 							["hitamount"] = 2431,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1136,
-							["criticalamount"] = 4222,
-							["id"] = 6603,
-							["criticalmin"] = 585,
-							["targets"] = {
-								["Aphorat"] = {
-									["amount"] = 5358,
-								},
-							},
-							["hitmax"] = 1136,
-							["count"] = 6,
-							["criticalmax"] = 1923,
-							["critical"] = 3,
-							["amount"] = 5358,
-							["school"] = 1,
-							["hit"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 1136,
-						},
-						["Wound Poison VII"] = {
-							["hitmin"] = 390,
-							["criticalamount"] = 485,
-							["id"] = 57975,
-							["hitmax"] = 444,
-							["targets"] = {
-								["Aphorat"] = {
-									["amount"] = 1319,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1319,
-							["school"] = 8,
-							["criticalmin"] = 485,
-							["criticalmax"] = 485,
-							["hitamount"] = 834,
 						},
 					},
 					["damagetaken"] = 8630,
@@ -1488,25 +1916,24 @@ SkadaStorageDB = {
 							["hitmin"] = 314,
 							["criticalamount"] = 2399,
 							["id"] = 6603,
-							["hitmax"] = 933,
-							["count"] = 4,
-							["hit"] = 2,
-							["criticalmax"] = 1769,
-							["critical"] = 2,
-							["amount"] = 3646,
-							["school"] = 1,
+							["criticalmin"] = 630,
 							["sources"] = {
 								["Lollolz"] = {
 									["amount"] = 3646,
 								},
 							},
-							["criticalmin"] = 630,
+							["critical"] = 2,
+							["criticalmax"] = 1769,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["amount"] = 3646,
+							["hitmax"] = 933,
 							["hitamount"] = 1247,
 						},
 					},
 					["name"] = "Kalaam",
 					["ccdone"] = 1,
-					["totaldamage"] = 9108,
 					["cctakenspells"] = {
 						[1833] = {
 							["count"] = 1,
@@ -1521,17 +1948,16 @@ SkadaStorageDB = {
 			["type"] = "none",
 			["damagetaken"] = 8630,
 			["damage"] = 9108,
-			["cctaken"] = 1,
 			["etotaldamage"] = 8630,
 			["edamagetaken"] = 9108,
-			["ccdone"] = 1,
-			["name"] = "Aphorat (2)",
 			["mobname"] = "Aphorat",
+			["name"] = "Aphorat (2)",
+			["ccdone"] = 1,
 			["starttime"] = 1728160961,
 			["edamage"] = 8630,
 			["last_action"] = 1728160967,
 			["endtime"] = 1728160967,
-		}, -- [5]
+		}, -- [7]
 		{
 			["eoverkill"] = 887,
 			["enemies"] = {
@@ -1564,8 +1990,8 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 1262,
 									["amount"] = 1057,
+									["total"] = 1262,
 								},
 							},
 							["total"] = 1262,
@@ -1576,8 +2002,8 @@ SkadaStorageDB = {
 							["total"] = 1543,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 1543,
 									["amount"] = 0,
+									["total"] = 1543,
 								},
 							},
 							["amount"] = 0,
@@ -1589,15 +2015,15 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Kalaam"] = {
 									["total"] = 4231,
-									["overkill"] = 336,
 									["amount"] = 3084,
+									["overkill"] = 336,
 								},
 							},
 							["overkill"] = 336,
 						},
 					},
-					["name"] = "Uzumakii",
 					["totaldamage"] = 882,
+					["name"] = "Uzumakii",
 					["totaldamagetaken"] = 14987,
 					["id"] = "0x0700000000A66CCD",
 					["damage"] = 882,
@@ -1615,14 +2041,14 @@ SkadaStorageDB = {
 						},
 						[6603] = {
 							["school"] = 1,
-							["overkill"] = 413,
+							["amount"] = 3121,
 							["targets"] = {
 								["Kalaam"] = {
-									["overkill"] = 413,
 									["amount"] = 3121,
+									["overkill"] = 413,
 								},
 							},
-							["amount"] = 3121,
+							["overkill"] = 413,
 						},
 						[57975] = {
 							["school"] = 8,
@@ -1652,34 +2078,34 @@ SkadaStorageDB = {
 							["amount"] = 1325,
 						},
 					},
-					["id"] = "0x0700000000A66CA8",
-					["class"] = "ROGUE",
-					["overkill"] = 413,
 					["totaldamage"] = 6835,
 					["name"] = "Uciha",
-					["flag"] = 1352,
 					["damage"] = 6835,
+					["id"] = "0x0700000000A66CA8",
+					["class"] = "ROGUE",
+					["flag"] = 1352,
+					["overkill"] = 413,
 				}, -- [2]
 				{
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
-							["overkill"] = 474,
+							["amount"] = 3128,
 							["targets"] = {
 								["Kalaam"] = {
-									["overkill"] = 474,
 									["amount"] = 3128,
+									["overkill"] = 474,
 								},
 							},
-							["amount"] = 3128,
+							["overkill"] = 474,
 						},
 						[57975] = {
 							["school"] = 8,
 							["total"] = 1364,
 							["targets"] = {
 								["Kalaam"] = {
-									["total"] = 1364,
 									["amount"] = 682,
+									["total"] = 1364,
 								},
 							},
 							["amount"] = 682,
@@ -1694,22 +2120,21 @@ SkadaStorageDB = {
 							["amount"] = 16540,
 						},
 					},
-					["id"] = "0x0700000000AEAF81",
-					["class"] = "ROGUE",
-					["overkill"] = 474,
 					["totaldamage"] = 21032,
 					["name"] = "Lollolz",
-					["flag"] = 1352,
 					["damage"] = 20350,
+					["id"] = "0x0700000000AEAF81",
+					["class"] = "ROGUE",
+					["flag"] = 1352,
+					["overkill"] = 474,
 				}, -- [3]
 			},
-			["damage"] = 12092,
 			["totaldamage"] = 14987,
 			["time"] = 14,
-			["death"] = 1,
+			["cctaken"] = 4,
 			["totaldamagetaken"] = 28749,
 			["etotaldamagetaken"] = 14987,
-			["last_time"] = 45747.174,
+			["damage"] = 12092,
 			["players"] = {
 				{
 					["last"] = 45737.198,
@@ -1729,9 +2154,9 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[54861] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[3409] = {
@@ -1741,18 +2166,18 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Uzumakii"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 3,
 								},
 							},
 							["uptime"] = 3,
 						},
-						[45182] = {
+						[31224] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
+							["uptime"] = 5,
 						},
 						[57975] = {
 							["type"] = "DEBUFF",
@@ -1761,24 +2186,24 @@ SkadaStorageDB = {
 							["refresh"] = 2,
 							["targets"] = {
 								["Uzumakii"] = {
-									["count"] = 1,
 									["refresh"] = 2,
+									["count"] = 1,
 									["uptime"] = 3,
 								},
 							},
 							["uptime"] = 3,
 						},
 						[1784] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
 						},
-						[31224] = {
+						[45182] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 2,
 						},
 					},
 					["absorbspells"] = {
@@ -1793,25 +2218,29 @@ SkadaStorageDB = {
 							["max"] = 682,
 						},
 					},
+					["totaldamage"] = 14987,
 					["time"] = 3.45,
 					["cctaken"] = 4,
 					["totaldamagetaken"] = 28749,
 					["damage"] = 12092,
 					["damagespells"] = {
-						["Sinister Strike"] = {
-							["total"] = 1543,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["ABSORB"] = 1,
+						["Wound Poison VII"] = {
+							["total"] = 1262,
+							["hitmin"] = 216,
+							["id"] = 57975,
 							["targets"] = {
 								["Uzumakii"] = {
-									["total"] = 1543,
-									["amount"] = 0,
+									["amount"] = 1057,
+									["total"] = 1262,
 								},
 							},
-							["id"] = 48638,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["hitmax"] = 421,
+							["amount"] = 1057,
+							["hitamount"] = 1057,
 						},
 						["Ambush"] = {
 							["criticalamount"] = 7951,
@@ -1825,27 +2254,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 7951,
 							["school"] = 1,
-							["criticalmin"] = 7951,
-							["criticalmax"] = 7951,
 							["count"] = 1,
-						},
-						["Wound Poison VII"] = {
-							["total"] = 1262,
-							["hitmin"] = 216,
-							["id"] = 57975,
-							["targets"] = {
-								["Uzumakii"] = {
-									["total"] = 1262,
-									["amount"] = 1057,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 421,
-							["amount"] = 1057,
-							["hitamount"] = 1057,
+							["criticalmax"] = 7951,
+							["criticalmin"] = 7951,
 						},
 						["Melee"] = {
 							["total"] = 4231,
@@ -1856,19 +2267,34 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Uzumakii"] = {
 									["total"] = 4231,
-									["overkill"] = 336,
 									["amount"] = 3084,
+									["overkill"] = 336,
 								},
 							},
 							["overkill"] = 336,
-							["critical"] = 2,
+							["amount"] = 3084,
 							["criticalmax"] = 1000,
-							["count"] = 4,
+							["critical"] = 2,
 							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 1132,
-							["amount"] = 3084,
+							["count"] = 4,
 							["hitamount"] = 1340,
+						},
+						["Sinister Strike"] = {
+							["id"] = 48638,
+							["total"] = 1543,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["ABSORB"] = 1,
+							["targets"] = {
+								["Uzumakii"] = {
+									["amount"] = 0,
+									["total"] = 1543,
+								},
+							},
+							["casts"] = 1,
 						},
 					},
 					["absorb"] = 682,
@@ -1877,127 +2303,127 @@ SkadaStorageDB = {
 						{
 							["log"] = {
 								{
-									["time"] = 45746.749,
 									["source"] = "Lollolz",
+									["time"] = 45746.749,
 									["amount"] = -933,
 									["school"] = 1,
-									["hp"] = 459,
 									["spellid"] = 6603,
+									["hp"] = 459,
 									["overkill"] = 474,
 								}, -- [1]
 								{
-									["time"] = 45746.642,
 									["source"] = "Uciha",
+									["time"] = 45746.642,
 									["amount"] = -605,
 									["school"] = 1,
-									["hp"] = 459,
 									["spellid"] = 6603,
+									["hp"] = 459,
 									["overkill"] = 146,
 								}, -- [2]
 								{
-									["time"] = 45746.594,
 									["source"] = "Uciha",
+									["time"] = 45746.594,
 									["amount"] = -726,
 									["school"] = 1,
-									["hp"] = 459,
 									["spellid"] = 6603,
+									["hp"] = 459,
 									["overkill"] = 267,
 								}, -- [3]
 								{
 									["source"] = "Lollolz",
 									["time"] = 45745.47,
 									["school"] = 8,
-									["hp"] = 1250,
 									["spellid"] = 57975,
+									["hp"] = 1250,
 									["absorbed"] = 682,
 								}, -- [4]
 								{
 									["source"] = "Lollolz",
 									["amount"] = -791,
 									["school"] = 1,
+									["time"] = 45745.33,
 									["hp"] = 1250,
 									["spellid"] = 6603,
-									["time"] = 45745.33,
 								}, -- [5]
 								{
 									["source"] = "Lollolz",
 									["amount"] = -7512,
 									["school"] = 1,
+									["time"] = 45745.279,
 									["hp"] = 1857,
 									["spellid"] = 48691,
-									["time"] = 45745.279,
 								}, -- [6]
 								{
 									["source"] = "Uciha",
 									["amount"] = -607,
 									["school"] = 1,
+									["time"] = 45745.164,
 									["hp"] = 9369,
 									["spellid"] = 6603,
-									["time"] = 45745.164,
 								}, -- [7]
 								{
 									["source"] = "Uciha",
 									["amount"] = -1325,
 									["school"] = 1,
+									["time"] = 45744.423,
 									["hp"] = 9369,
 									["spellid"] = 48660,
-									["time"] = 45744.423,
 								}, -- [8]
 								{
 									["source"] = "Lollolz",
 									["amount"] = -9028,
 									["school"] = 1,
+									["time"] = 45744.107,
 									["hp"] = 11640,
 									["spellid"] = 48691,
-									["time"] = 45744.107,
 								}, -- [9]
 								{
 									["source"] = "Lollolz",
 									["amount"] = -946,
 									["school"] = 1,
+									["time"] = 45743.926,
 									["hp"] = 21126,
 									["spellid"] = 6603,
-									["time"] = 45743.926,
 								}, -- [10]
 								{
 									["source"] = "Lollolz",
 									["amount"] = -682,
 									["school"] = 8,
+									["time"] = 45743.926,
 									["hp"] = 21126,
 									["spellid"] = 57975,
-									["time"] = 45743.926,
 								}, -- [11]
 								{
 									["source"] = "Lollolz",
 									["amount"] = -458,
 									["school"] = 1,
+									["time"] = 45743.86,
 									["hp"] = 21808,
 									["spellid"] = 6603,
-									["time"] = 45743.86,
 								}, -- [12]
 								{
 									["source"] = "Uciha",
 									["amount"] = -568,
 									["school"] = 1,
+									["time"] = 45739.581,
 									["hp"] = 21808,
 									["spellid"] = 52874,
-									["time"] = 45739.581,
 								}, -- [13]
 								{
 									["source"] = "Uciha",
 									["amount"] = -877,
 									["school"] = 1,
+									["time"] = 45739.58100000001,
 									["hp"] = 22376,
 									["spellid"] = 51723,
-									["time"] = 45739.58100000001,
 								}, -- [14]
 							},
 							["time"] = 45746.784,
-							["timeod"] = 1728160836,
+							["source"] = "Lollolz",
 							["school"] = 1,
 							["maxhp"] = 26714,
 							["spellid"] = 6603,
-							["source"] = "Lollolz",
+							["timeod"] = 1728160836,
 						}, -- [1]
 					},
 					["id"] = "0x070000000000104C",
@@ -2010,62 +2436,43 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 16540,
 							["school"] = 1,
+							["count"] = 2,
+							["criticalmin"] = 7512,
 							["sources"] = {
 								["Lollolz"] = {
 									["amount"] = 16540,
 								},
 							},
-							["criticalmin"] = 7512,
-							["count"] = 2,
 						},
 						["Melee"] = {
 							["DODGE"] = 2,
-							["critical"] = 4,
+							["criticalmin"] = 605,
 							["hitmin"] = 352,
 							["criticalamount"] = 2936,
 							["id"] = 6603,
-							["criticalmin"] = 605,
 							["criticalmax"] = 933,
+							["count"] = 13,
 							["overkill"] = 887,
-							["hitmax"] = 946,
+							["amount"] = 6249,
 							["sources"] = {
 								["Uciha"] = {
-									["overkill"] = 413,
 									["amount"] = 3121,
+									["overkill"] = 413,
 								},
 								["Uzumakii"] = {
 									["amount"] = 0,
 								},
 								["Lollolz"] = {
-									["overkill"] = 474,
 									["amount"] = 3128,
+									["overkill"] = 474,
 								},
 							},
-							["count"] = 13,
+							["hitmax"] = 946,
 							["hit"] = 5,
 							["school"] = 1,
-							["amount"] = 6249,
+							["critical"] = 4,
 							["MISS"] = 2,
 							["hitamount"] = 3313,
-						},
-						["Fan of Knives"] = {
-							["hitmin"] = 877,
-							["criticalamount"] = 568,
-							["id"] = 51723,
-							["criticalmin"] = 568,
-							["criticalmax"] = 568,
-							["critical"] = 1,
-							["sources"] = {
-								["Uciha"] = {
-									["amount"] = 1445,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 877,
-							["amount"] = 1445,
-							["hitamount"] = 877,
 						},
 						["Rupture"] = {
 							["DODGE"] = 1,
@@ -2078,6 +2485,31 @@ SkadaStorageDB = {
 							["amount"] = 0,
 							["school"] = 1,
 							["id"] = 48672,
+						},
+						["Wound Poison VII"] = {
+							["total"] = 2308,
+							["hitmin"] = 472,
+							["criticalamount"] = 682,
+							["id"] = 57975,
+							["criticalmin"] = 682,
+							["amount"] = 1626,
+							["count"] = 4,
+							["hit"] = 2,
+							["criticalmax"] = 682,
+							["hitmax"] = 472,
+							["ABSORB"] = 1,
+							["school"] = 8,
+							["critical"] = 1,
+							["sources"] = {
+								["Uciha"] = {
+									["amount"] = 944,
+								},
+								["Lollolz"] = {
+									["amount"] = 682,
+									["total"] = 1364,
+								},
+							},
+							["hitamount"] = 944,
 						},
 						["Hemorrhage"] = {
 							["hitmin"] = 882,
@@ -2097,36 +2529,29 @@ SkadaStorageDB = {
 							["amount"] = 2207,
 							["hitamount"] = 2207,
 						},
-						["Wound Poison VII"] = {
-							["total"] = 2308,
-							["hitmin"] = 472,
-							["criticalamount"] = 682,
-							["id"] = 57975,
-							["ABSORB"] = 1,
-							["criticalmin"] = 682,
-							["criticalmax"] = 682,
+						["Fan of Knives"] = {
+							["hitmin"] = 877,
+							["criticalamount"] = 568,
+							["id"] = 51723,
+							["criticalmin"] = 568,
+							["count"] = 2,
+							["amount"] = 1445,
+							["criticalmax"] = 568,
+							["hitmax"] = 877,
+							["hit"] = 1,
+							["school"] = 1,
 							["critical"] = 1,
 							["sources"] = {
 								["Uciha"] = {
-									["amount"] = 944,
-								},
-								["Lollolz"] = {
-									["total"] = 1364,
-									["amount"] = 682,
+									["amount"] = 1445,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 472,
-							["amount"] = 1626,
-							["hitamount"] = 944,
+							["hitamount"] = 877,
 						},
 					},
 					["name"] = "Kalaam",
 					["death"] = 1,
-					["overkill"] = 336,
-					["totaldamage"] = 14987,
+					["role"] = "DAMAGER",
 					["cctakenspells"] = {
 						[2094] = {
 							["count"] = 1,
@@ -2148,32 +2573,175 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["overkill"] = 336,
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 28067,
+			["last_time"] = 45747.174,
 			["absorb"] = 682,
 			["etotaldamage"] = 28749,
-			["cctaken"] = 4,
 			["overkill"] = 336,
 			["edamagetaken"] = 12092,
-			["name"] = "Uzumakii (2)",
-			["mobname"] = "Uzumakii",
 			["starttime"] = 1728160823,
+			["name"] = "Uzumakii (2)",
+			["death"] = 1,
+			["mobname"] = "Uzumakii",
 			["edamage"] = 28067,
 			["last_action"] = 1728160836,
 			["endtime"] = 1728160837,
-		}, -- [6]
+		}, -- [8]
 		{
+			["starttime"] = 1728160805,
+			["type"] = "none",
+			["time"] = 9,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Melee"] = {
+							["criticalamount"] = 4981,
+							["id"] = 6603,
+							["targets"] = {
+								["Uzumakii"] = {
+									["amount"] = 4981,
+								},
+							},
+							["criticalmax"] = 2155,
+							["critical"] = 3,
+							["amount"] = 4981,
+							["school"] = 1,
+							["count"] = 4,
+							["criticalmin"] = 784,
+							["PARRY"] = 1,
+						},
+						["Wound Poison VII"] = {
+							["hitmin"] = 420,
+							["id"] = 57975,
+							["targets"] = {
+								["Uzumakii"] = {
+									["amount"] = 841,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 421,
+							["amount"] = 841,
+							["hitamount"] = 841,
+						},
+						["Backstab"] = {
+							["criticalamount"] = 4921,
+							["id"] = 48657,
+							["targets"] = {
+								["Uzumakii"] = {
+									["amount"] = 4921,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 4921,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 4921,
+							["criticalmin"] = 4921,
+						},
+					},
+					["last"] = 45717.64,
+					["flag"] = 1297,
+					["class"] = "ROGUE",
+					["ccdonespells"] = {
+						[1833] = {
+							["count"] = 1,
+							["targets"] = {
+								["Uzumakii"] = 1,
+							},
+						},
+					},
+					["auras"] = {
+						[11305] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[57975] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Uzumakii"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 2,
+								},
+							},
+							["count"] = 1,
+						},
+						[51713] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[1833] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Uzumakii"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[1784] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[3409] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["targets"] = {
+								["Uzumakii"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[54758] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["name"] = "Kalaam",
+					["totaldamage"] = 10743,
+					["time"] = 1.84,
+					["ccdone"] = 1,
+					["role"] = "DAMAGER",
+					["spec"] = 261,
+					["id"] = "0x070000000000104C",
+					["damage"] = 10743,
+				}, -- [1]
+			},
+			["mobname"] = "Uzumakii",
+			["last_action"] = 1728160813,
+			["endtime"] = 1728160814,
 			["enemies"] = {
 				{
-					["id"] = "0x0700000000A66CCD",
 					["name"] = "Uzumakii",
-					["totaldamagetaken"] = 10743,
-					["flag"] = 66888,
-					["class"] = "ROGUE",
 					["damagetaken"] = 10743,
+					["flag"] = 66888,
+					["id"] = "0x0700000000A66CCD",
+					["totaldamagetaken"] = 10743,
+					["class"] = "ROGUE",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -2205,156 +2773,14 @@ SkadaStorageDB = {
 					},
 				}, -- [1]
 			},
+			["edamagetaken"] = 10743,
 			["totaldamage"] = 10743,
-			["time"] = 9,
+			["name"] = "Uzumakii",
+			["ccdone"] = 1,
+			["damage"] = 10743,
 			["etotaldamagetaken"] = 10743,
 			["last_time"] = 45724.049,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Wound Poison VII"] = {
-							["hitmin"] = 420,
-							["id"] = 57975,
-							["targets"] = {
-								["Uzumakii"] = {
-									["amount"] = 841,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 421,
-							["amount"] = 841,
-							["hitamount"] = 841,
-						},
-						["Melee"] = {
-							["criticalamount"] = 4981,
-							["id"] = 6603,
-							["targets"] = {
-								["Uzumakii"] = {
-									["amount"] = 4981,
-								},
-							},
-							["criticalmax"] = 2155,
-							["critical"] = 3,
-							["amount"] = 4981,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["criticalmin"] = 784,
-							["count"] = 4,
-						},
-						["Backstab"] = {
-							["criticalamount"] = 4921,
-							["id"] = 48657,
-							["targets"] = {
-								["Uzumakii"] = {
-									["amount"] = 4921,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4921,
-							["school"] = 1,
-							["criticalmin"] = 4921,
-							["criticalmax"] = 4921,
-							["count"] = 1,
-						},
-					},
-					["last"] = 45717.64,
-					["ccdonespells"] = {
-						[1833] = {
-							["count"] = 1,
-							["targets"] = {
-								["Uzumakii"] = 1,
-							},
-						},
-					},
-					["flag"] = 1297,
-					["class"] = "ROGUE",
-					["id"] = "0x070000000000104C",
-					["auras"] = {
-						[1784] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[54758] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[3409] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Uzumakii"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[51713] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[11305] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1833] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Uzumakii"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[57975] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Uzumakii"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 2,
-								},
-							},
-							["count"] = 1,
-						},
-					},
-					["spec"] = 261,
-					["time"] = 1.84,
-					["ccdone"] = 1,
-					["totaldamage"] = 10743,
-					["role"] = "DAMAGER",
-					["name"] = "Kalaam",
-					["damage"] = 10743,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["ccdone"] = 1,
-			["edamagetaken"] = 10743,
-			["starttime"] = 1728160805,
-			["name"] = "Uzumakii",
-			["mobname"] = "Uzumakii",
-			["damage"] = 10743,
-			["last_action"] = 1728160813,
-			["endtime"] = 1728160814,
-		}, -- [7]
+		}, -- [9]
 		{
 			["enemies"] = {
 				{
@@ -2398,8 +2824,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Kalaam"] = {
 									["total"] = 5096,
-									["amount"] = 3678,
 									["overkill"] = 144,
+									["amount"] = 3678,
 								},
 							},
 							["overkill"] = 144,
@@ -2506,47 +2932,21 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 1315,
 					["damage"] = 8677,
 					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 412,
-							["criticalmin"] = 2251,
+						["Sinister Strike"] = {
+							["criticalamount"] = 2233,
+							["id"] = 48638,
 							["targets"] = {
 								["Uciha"] = {
-									["total"] = 5096,
-									["amount"] = 3678,
-									["overkill"] = 144,
-								},
-							},
-							["amount"] = 3678,
-							["total"] = 5096,
-							["criticalamount"] = 2251,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["overkill"] = 144,
-							["count"] = 7,
-							["criticalmax"] = 2251,
-							["hitmax"] = 533,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["critical"] = 1,
-							["hit"] = 3,
-							["hitamount"] = 1427,
-						},
-						["Fan of Knives"] = {
-							["criticalamount"] = 2311,
-							["id"] = 51723,
-							["targets"] = {
-								["Uciha"] = {
-									["amount"] = 2311,
+									["amount"] = 2233,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 2311,
+							["critical"] = 1,
+							["amount"] = 2233,
 							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 1793,
-							["criticalmin"] = 518,
+							["criticalmin"] = 2233,
+							["criticalmax"] = 2233,
+							["count"] = 1,
 						},
 						["Wound Poison VII"] = {
 							["hitmin"] = 455,
@@ -2564,21 +2964,47 @@ SkadaStorageDB = {
 							["amount"] = 455,
 							["hitamount"] = 455,
 						},
-						["Sinister Strike"] = {
-							["criticalamount"] = 2233,
-							["id"] = 48638,
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 412,
+							["criticalmin"] = 2251,
 							["targets"] = {
 								["Uciha"] = {
-									["amount"] = 2233,
+									["total"] = 5096,
+									["overkill"] = 144,
+									["amount"] = 3678,
+								},
+							},
+							["amount"] = 3678,
+							["total"] = 5096,
+							["criticalamount"] = 2251,
+							["id"] = 6603,
+							["criticalmax"] = 2251,
+							["overkill"] = 144,
+							["hit"] = 3,
+							["PARRY"] = 1,
+							["count"] = 7,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["critical"] = 1,
+							["hitmax"] = 533,
+							["hitamount"] = 1427,
+						},
+						["Fan of Knives"] = {
+							["criticalamount"] = 2311,
+							["id"] = 51723,
+							["targets"] = {
+								["Uciha"] = {
+									["amount"] = 2311,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2233,
+							["critical"] = 2,
+							["amount"] = 2311,
 							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 2233,
-							["criticalmin"] = 2233,
+							["criticalmin"] = 518,
+							["criticalmax"] = 1793,
+							["count"] = 2,
 						},
 					},
 					["damagetaken"] = 1315,
@@ -2603,43 +3029,43 @@ SkadaStorageDB = {
 					},
 					["name"] = "Kalaam",
 					["ccdone"] = 1,
-					["role"] = "DAMAGER",
-					["energy"] = 25,
 					["overkill"] = 144,
+					["energy"] = 25,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
 			["damagetaken"] = 1315,
 			["last_time"] = 44766.134,
-			["last_action"] = 1728159855,
+			["energy"] = 25,
 			["etotaldamage"] = 1315,
 			["overkill"] = 144,
 			["edamagetaken"] = 8677,
-			["starttime"] = 1728159844,
+			["mobname"] = "Uciha",
 			["name"] = "Uciha (2)",
 			["ccdone"] = 1,
-			["mobname"] = "Uciha",
+			["starttime"] = 1728159844,
 			["edamage"] = 1315,
-			["energy"] = 25,
+			["last_action"] = 1728159855,
 			["endtime"] = 1728159855,
-		}, -- [8]
+		}, -- [10]
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 11142,
 					["name"] = "Bloodstryke",
-					["class"] = "ROGUE",
-					["flag"] = 66888,
-					["totaldamagetaken"] = 23871,
+					["damagetaken"] = 11142,
 					["id"] = "0x0700000000ADDDEB",
+					["flag"] = 66888,
+					["class"] = "ROGUE",
+					["totaldamagetaken"] = 23871,
 					["damagetakenspells"] = {
 						[48691] = {
 							["school"] = 1,
 							["total"] = 12542,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 12542,
 									["amount"] = 0,
+									["total"] = 12542,
 								},
 							},
 							["amount"] = 0,
@@ -2649,11 +3075,22 @@ SkadaStorageDB = {
 							["total"] = 1196,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 1196,
 									["amount"] = 1175,
+									["total"] = 1196,
 								},
 							},
 							["amount"] = 1175,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 1711,
+									["total"] = 1720,
+								},
+							},
+							["total"] = 1720,
+							["amount"] = 1711,
 						},
 						[48657] = {
 							["total"] = 8413,
@@ -2662,32 +3099,21 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Kalaam"] = {
 									["total"] = 8413,
-									["overkill"] = 7481,
 									["amount"] = 8256,
+									["overkill"] = 7481,
 								},
 							},
 							["overkill"] = 7481,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["total"] = 1720,
-									["amount"] = 1711,
-								},
-							},
-							["total"] = 1720,
-							["amount"] = 1711,
-						},
 					},
 				}, -- [1]
 				{
-					["damagetaken"] = 8466,
 					["name"] = "Aphorat",
-					["class"] = "ROGUE",
-					["flag"] = 66888,
-					["totaldamagetaken"] = 14459,
+					["damagetaken"] = 8466,
 					["id"] = "0x0700000000AA6084",
+					["flag"] = 66888,
+					["class"] = "ROGUE",
+					["totaldamagetaken"] = 14459,
 					["damagetakenspells"] = {
 						[6603] = {
 							["total"] = 6697,
@@ -2696,8 +3122,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Kalaam"] = {
 									["total"] = 6697,
-									["overkill"] = 1042,
 									["amount"] = 5272,
+									["overkill"] = 1042,
 								},
 							},
 							["overkill"] = 1042,
@@ -2711,17 +3137,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 925,
 						},
-						[48657] = {
-							["school"] = 1,
-							["total"] = 5224,
-							["sources"] = {
-								["Kalaam"] = {
-									["total"] = 5224,
-									["amount"] = 656,
-								},
-							},
-							["amount"] = 656,
-						},
 						[1776] = {
 							["school"] = 1,
 							["sources"] = {
@@ -2730,6 +3145,17 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 1613,
+						},
+						[48657] = {
+							["school"] = 1,
+							["total"] = 5224,
+							["sources"] = {
+								["Kalaam"] = {
+									["amount"] = 656,
+									["total"] = 5224,
+								},
+							},
+							["amount"] = 656,
 						},
 					},
 				}, -- [2]
@@ -2776,8 +3202,8 @@ SkadaStorageDB = {
 							["total"] = 8482,
 							["targets"] = {
 								["Kalaam"] = {
-									["total"] = 8482,
 									["amount"] = 6928,
+									["total"] = 8482,
 								},
 							},
 							["amount"] = 6928,
@@ -2823,11 +3249,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[36563] = {
-							["school"] = 1,
+						[54758] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 7,
 						},
 						[57975] = {
 							["type"] = "DEBUFF",
@@ -2847,48 +3272,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 14,
 						},
-						[54758] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[3409] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 2,
-							["targets"] = {
-								["Aphorat"] = {
-									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[1776] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Aphorat"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[45182] = {
+						[51713] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 1,
+							["uptime"] = 8,
 						},
-						[31224] = {
-							["school"] = 1,
+						[75456] = {
+							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["uptime"] = 15,
 						},
 						[51693] = {
 							["type"] = "DEBUFF",
@@ -2906,11 +3300,43 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
+						[3409] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 2,
+							["targets"] = {
+								["Aphorat"] = {
+									["refresh"] = 2,
+									["count"] = 1,
+									["uptime"] = 12,
+								},
+							},
+							["uptime"] = 12,
+						},
 						[72412] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
+						},
+						[1776] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Aphorat"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[31224] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 						[1784] = {
 							["school"] = 1,
@@ -2930,13 +3356,13 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
-						[75456] = {
-							["school"] = 64,
+						[45182] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 1,
 						},
-						[51713] = {
+						[36563] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -2962,19 +3388,19 @@ SkadaStorageDB = {
 					["damage"] = 19608,
 					["damagespells"] = {
 						["Ambush"] = {
+							["school"] = 1,
 							["casts"] = 1,
-							["total"] = 12542,
 							["count"] = 1,
 							["amount"] = 0,
 							["id"] = 48691,
 							["ABSORB"] = 1,
 							["targets"] = {
 								["Bloodstryke"] = {
-									["total"] = 12542,
 									["amount"] = 0,
+									["total"] = 12542,
 								},
 							},
-							["school"] = 1,
+							["total"] = 12542,
 						},
 						["Melee"] = {
 							["DODGE"] = 3,
@@ -2982,13 +3408,13 @@ SkadaStorageDB = {
 							["criticalmin"] = 167,
 							["targets"] = {
 								["Bloodstryke"] = {
-									["total"] = 1720,
 									["amount"] = 1711,
+									["total"] = 1720,
 								},
 								["Aphorat"] = {
 									["total"] = 6697,
-									["overkill"] = 1042,
 									["amount"] = 5272,
+									["overkill"] = 1042,
 								},
 							},
 							["amount"] = 6983,
@@ -3012,12 +3438,12 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Bloodstryke"] = {
 									["total"] = 8413,
-									["overkill"] = 7481,
 									["amount"] = 8256,
+									["overkill"] = 7481,
 								},
 								["Aphorat"] = {
-									["total"] = 5224,
 									["amount"] = 656,
+									["total"] = 5224,
 								},
 							},
 							["overkill"] = 7481,
@@ -3025,9 +3451,9 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 8912,
 							["school"] = 1,
-							["criticalmin"] = 656,
-							["criticalmax"] = 8256,
 							["critical"] = 2,
+							["criticalmax"] = 8256,
+							["criticalmin"] = 656,
 						},
 						["Waylay"] = {
 							["casts"] = 1,
@@ -3050,21 +3476,21 @@ SkadaStorageDB = {
 							["criticalmin"] = 712,
 							["targets"] = {
 								["Bloodstryke"] = {
-									["total"] = 1196,
 									["amount"] = 1175,
+									["total"] = 1196,
 								},
 								["Aphorat"] = {
 									["amount"] = 925,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 4,
-							["criticalmax"] = 712,
 							["hitmax"] = 463,
+							["hit"] = 3,
+							["casts"] = 1,
+							["critical"] = 1,
 							["amount"] = 2100,
 							["school"] = 8,
-							["hit"] = 3,
-							["critical"] = 1,
+							["count"] = 4,
+							["criticalmax"] = 712,
 							["hitamount"] = 1388,
 						},
 						["Gouge"] = {
@@ -3091,6 +3517,15 @@ SkadaStorageDB = {
 					["overkill"] = 8523,
 					["name"] = "Kalaam",
 					["ccdone"] = 2,
+					["role"] = "DAMAGER",
+					["cctakenspells"] = {
+						[1833] = {
+							["count"] = 1,
+							["sources"] = {
+								["Uciha"] = 1,
+							},
+						},
+					},
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 2,
@@ -3098,18 +3533,18 @@ SkadaStorageDB = {
 							["criticalamount"] = 3743,
 							["id"] = 6603,
 							["criticalmin"] = 624,
+							["criticalmax"] = 1662,
+							["count"] = 13,
+							["amount"] = 5160,
 							["sources"] = {
 								["Uciha"] = {
 									["amount"] = 5160,
 								},
 							},
-							["critical"] = 4,
-							["hit"] = 3,
-							["criticalmax"] = 1662,
-							["count"] = 13,
-							["amount"] = 5160,
-							["school"] = 1,
 							["hitmax"] = 803,
+							["hit"] = 3,
+							["school"] = 1,
+							["critical"] = 4,
 							["MISS"] = 4,
 							["hitamount"] = 1417,
 						},
@@ -3128,56 +3563,11 @@ SkadaStorageDB = {
 							["amount"] = 4400,
 							["hitamount"] = 4400,
 						},
-						["Rupture (DoT)"] = {
-							["total"] = 8482,
-							["hitmin"] = 755,
-							["criticalamount"] = 4663,
-							["id"] = 48672,
-							["criticalmin"] = 1554,
-							["sources"] = {
-								["Uciha"] = {
-									["total"] = 8482,
-									["amount"] = 6928,
-								},
-							},
-							["count"] = 7,
-							["ABSORB"] = 1,
-							["criticalmax"] = 1555,
-							["hitmax"] = 755,
-							["amount"] = 6928,
-							["school"] = 1,
-							["critical"] = 3,
-							["hit"] = 3,
-							["hitamount"] = 2265,
-						},
-						["Hemorrhage"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1196,
-							["criticalamount"] = 5540,
-							["id"] = 48660,
-							["criticalmin"] = 2603,
-							["critical"] = 2,
-							["amount"] = 6736,
-							["sources"] = {
-								["Uciha"] = {
-									["amount"] = 6736,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1196,
-							["criticalmax"] = 2937,
-							["hitamount"] = 1196,
-						},
 						["Wound Poison VII"] = {
 							["hitmin"] = 448,
 							["criticalamount"] = 776,
 							["id"] = 57975,
 							["criticalmin"] = 776,
-							["criticalmax"] = 776,
-							["count"] = 6,
-							["amount"] = 2731,
 							["sources"] = {
 								["Uciha"] = {
 									["amount"] = 2731,
@@ -3185,21 +3575,57 @@ SkadaStorageDB = {
 							},
 							["hitmax"] = 503,
 							["hit"] = 4,
-							["school"] = 8,
+							["criticalmax"] = 776,
 							["critical"] = 1,
+							["amount"] = 2731,
+							["school"] = 8,
+							["count"] = 6,
 							["MISS"] = 1,
 							["hitamount"] = 1955,
 						},
-					},
-					["cctakenspells"] = {
-						[1833] = {
-							["count"] = 1,
+						["Hemorrhage"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1196,
+							["criticalamount"] = 5540,
+							["id"] = 48660,
+							["criticalmin"] = 2603,
+							["criticalmax"] = 2937,
+							["count"] = 4,
 							["sources"] = {
-								["Uciha"] = 1,
+								["Uciha"] = {
+									["amount"] = 6736,
+								},
 							},
+							["hitmax"] = 1196,
+							["amount"] = 6736,
+							["school"] = 1,
+							["hit"] = 1,
+							["critical"] = 2,
+							["hitamount"] = 1196,
+						},
+						["Rupture (DoT)"] = {
+							["total"] = 8482,
+							["hitmin"] = 755,
+							["criticalamount"] = 4663,
+							["id"] = 48672,
+							["criticalmin"] = 1554,
+							["hit"] = 3,
+							["hitmax"] = 755,
+							["amount"] = 6928,
+							["sources"] = {
+								["Uciha"] = {
+									["amount"] = 6928,
+									["total"] = 8482,
+								},
+							},
+							["critical"] = 3,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["count"] = 7,
+							["criticalmax"] = 1555,
+							["hitamount"] = 2265,
 						},
 					},
-					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -3209,15 +3635,18 @@ SkadaStorageDB = {
 			["etotaldamage"] = 27509,
 			["overkill"] = 8523,
 			["edamagetaken"] = 19608,
-			["mobname"] = "Bloodstryke",
-			["name"] = "Bloodstryke (4)",
-			["ccdone"] = 2,
 			["starttime"] = 1728158253,
+			["name"] = "Bloodstryke (4)",
+			["mobname"] = "Bloodstryke",
+			["ccdone"] = 2,
 			["edamage"] = 25955,
 			["last_action"] = 1728158277,
 			["endtime"] = 1728158277,
-		}, -- [9]
+		}, -- [11]
 		{
+			["starttime"] = 1728157934,
+			["type"] = "none",
+			["time"] = 12,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -3232,6 +3661,30 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "ROGUE",
 					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1065,
+							["criticalamount"] = 4657,
+							["id"] = 6603,
+							["criticalmin"] = 667,
+							["targets"] = {
+								["Uciha"] = {
+									["amount"] = 3440,
+								},
+								["Bloodstryke"] = {
+									["amount"] = 2282,
+								},
+							},
+							["count"] = 6,
+							["critical"] = 3,
+							["criticalmax"] = 2282,
+							["hitmax"] = 1065,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 5722,
+							["MISS"] = 1,
+							["hitamount"] = 1065,
+						},
 						["Wound Poison VII"] = {
 							["hitmin"] = 398,
 							["id"] = 57975,
@@ -3248,30 +3701,6 @@ SkadaStorageDB = {
 							["amount"] = 797,
 							["hitamount"] = 797,
 						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1065,
-							["criticalamount"] = 4657,
-							["id"] = 6603,
-							["criticalmin"] = 667,
-							["targets"] = {
-								["Uciha"] = {
-									["amount"] = 3440,
-								},
-								["Bloodstryke"] = {
-									["amount"] = 2282,
-								},
-							},
-							["hitmax"] = 1065,
-							["hit"] = 1,
-							["criticalmax"] = 2282,
-							["count"] = 6,
-							["amount"] = 5722,
-							["school"] = 1,
-							["critical"] = 3,
-							["MISS"] = 1,
-							["hitamount"] = 1065,
-						},
 						["Backstab"] = {
 							["criticalamount"] = 9243,
 							["id"] = 48657,
@@ -3284,9 +3713,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 9243,
 							["school"] = 1,
-							["criticalmin"] = 4278,
-							["criticalmax"] = 4965,
 							["count"] = 2,
+							["criticalmax"] = 4965,
+							["criticalmin"] = 4278,
 						},
 					},
 					["auras"] = {
@@ -3315,10 +3744,22 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[11305] = {
-							["type"] = "BUFF",
-							["refresh"] = 1,
-							["count"] = 1,
 							["uptime"] = 12,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+						},
+						[1833] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Uciha"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
 						[57975] = {
 							["type"] = "DEBUFF",
@@ -3334,43 +3775,28 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[1833] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Uciha"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
 					},
-					["id"] = "0x070000000000104C",
+					["name"] = "Kalaam",
 					["totaldamage"] = 15762,
 					["time"] = 5.41,
 					["ccdone"] = 1,
-					["spec"] = 261,
 					["role"] = "DAMAGER",
-					["name"] = "Kalaam",
+					["spec"] = 261,
+					["id"] = "0x070000000000104C",
 					["damage"] = 15762,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["time"] = 12,
-			["starttime"] = 1728157934,
-			["mobname"] = "Uciha",
-			["etotaldamagetaken"] = 15762,
-			["last_time"] = 42857.26,
+			["ccdone"] = 1,
+			["last_action"] = 1728157946,
+			["endtime"] = 1728157946,
 			["enemies"] = {
 				{
-					["damagetaken"] = 13480,
 					["name"] = "Uciha",
-					["totaldamagetaken"] = 13480,
-					["id"] = "0x0700000000A66CA8",
-					["class"] = "ROGUE",
+					["damagetaken"] = 13480,
 					["flag"] = 66888,
+					["id"] = "0x0700000000A66CA8",
+					["totaldamagetaken"] = 13480,
+					["class"] = "ROGUE",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -3402,12 +3828,12 @@ SkadaStorageDB = {
 					},
 				}, -- [1]
 				{
-					["damagetaken"] = 2282,
 					["name"] = "Bloodstryke",
-					["totaldamagetaken"] = 2282,
-					["id"] = "0x0700000000ADDDEB",
-					["class"] = "ROGUE",
+					["damagetaken"] = 2282,
 					["flag"] = 66888,
+					["id"] = "0x0700000000ADDDEB",
+					["totaldamagetaken"] = 2282,
+					["class"] = "ROGUE",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -3424,20 +3850,20 @@ SkadaStorageDB = {
 			["edamagetaken"] = 15762,
 			["totaldamage"] = 15762,
 			["name"] = "Uciha",
-			["ccdone"] = 1,
+			["mobname"] = "Uciha",
 			["damage"] = 15762,
-			["last_action"] = 1728157946,
-			["endtime"] = 1728157946,
-		}, -- [10]
+			["etotaldamagetaken"] = 15762,
+			["last_time"] = 42857.26,
+		}, -- [12]
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 27584,
 					["name"] = "Aphorat",
-					["totaldamagetaken"] = 37448,
-					["id"] = "0x0700000000AA6084",
-					["class"] = "ROGUE",
+					["damagetaken"] = 27584,
 					["flag"] = 66888,
+					["id"] = "0x0700000000AA6084",
+					["totaldamagetaken"] = 37448,
+					["class"] = "ROGUE",
 					["damagetakenspells"] = {
 						[6603] = {
 							["total"] = 12078,
@@ -3446,8 +3872,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Kalaam"] = {
 									["total"] = 12078,
-									["overkill"] = 425,
 									["amount"] = 9495,
+									["overkill"] = 425,
 								},
 							},
 							["overkill"] = 425,
@@ -3456,8 +3882,8 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 2432,
 									["amount"] = 1828,
+									["total"] = 2432,
 								},
 							},
 							["total"] = 2432,
@@ -3468,8 +3894,8 @@ SkadaStorageDB = {
 							["total"] = 9360,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 9360,
 									["amount"] = 2683,
+									["total"] = 9360,
 								},
 							},
 							["amount"] = 2683,
@@ -3518,42 +3944,22 @@ SkadaStorageDB = {
 							},
 							["count"] = 1,
 						},
-						[3409] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 6,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Aphorat"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 6,
-								},
-							},
-							["count"] = 2,
-						},
-						[54861] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
 						[51713] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
 						},
-						[1833] = {
-							["type"] = "DEBUFF",
+						[54861] = {
+							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[54758] = {
 							["school"] = 1,
-							["targets"] = {
-								["Aphorat"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 						[1784] = {
 							["school"] = 1,
@@ -3575,11 +3981,31 @@ SkadaStorageDB = {
 							},
 							["count"] = 1,
 						},
-						[54758] = {
-							["school"] = 1,
-							["type"] = "BUFF",
+						[1833] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["school"] = 1,
+							["targets"] = {
+								["Aphorat"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[3409] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 6,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Aphorat"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 6,
+								},
+							},
+							["count"] = 2,
 						},
 					},
 					["energyspells"] = {
@@ -3597,18 +4023,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 2409,
 							["targets"] = {
 								["Aphorat"] = {
-									["total"] = 9360,
 									["amount"] = 2683,
+									["total"] = 9360,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["hitmax"] = 274,
-							["amount"] = 2683,
-							["school"] = 1,
-							["critical"] = 1,
 							["criticalmax"] = 2409,
+							["hitmax"] = 274,
+							["casts"] = 2,
+							["critical"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 2683,
+							["count"] = 2,
 							["hitamount"] = 274,
 						},
 						["Ambush"] = {
@@ -3623,9 +4049,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 13578,
 							["school"] = 1,
-							["criticalmin"] = 6536,
-							["criticalmax"] = 7042,
 							["count"] = 2,
+							["criticalmax"] = 7042,
+							["criticalmin"] = 6536,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -3637,18 +4063,18 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Aphorat"] = {
 									["total"] = 12078,
-									["overkill"] = 425,
 									["amount"] = 9495,
+									["overkill"] = 425,
 								},
 							},
 							["overkill"] = 425,
-							["count"] = 15,
-							["criticalmax"] = 1567,
 							["hitmax"] = 1035,
+							["criticalmax"] = 1567,
+							["critical"] = 6,
 							["amount"] = 9495,
 							["school"] = 1,
 							["hit"] = 8,
-							["critical"] = 6,
+							["count"] = 15,
 							["hitamount"] = 4047,
 						},
 						["Wound Poison VII"] = {
@@ -3659,18 +4085,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 484,
 							["targets"] = {
 								["Aphorat"] = {
-									["total"] = 2432,
 									["amount"] = 1828,
+									["total"] = 2432,
 								},
 							},
-							["criticalmax"] = 484,
-							["hitmax"] = 390,
-							["casts"] = 1,
 							["critical"] = 1,
+							["amount"] = 1828,
+							["criticalmax"] = 484,
+							["count"] = 6,
 							["hit"] = 5,
 							["school"] = 8,
-							["amount"] = 1828,
-							["count"] = 6,
+							["hitmax"] = 390,
+							["casts"] = 1,
 							["hitamount"] = 1344,
 						},
 						["Crippling Poison"] = {
@@ -3678,13 +4104,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 8,
+							["id"] = 3409,
 							["targets"] = {
 								["Aphorat"] = {
 									["amount"] = 0,
 								},
 							},
 							["MISS"] = 1,
-							["id"] = 3409,
 						},
 					},
 					["id"] = "0x070000000000104C",
@@ -3700,14 +4126,14 @@ SkadaStorageDB = {
 			["damage"] = 27584,
 			["overkill"] = 425,
 			["edamagetaken"] = 27584,
-			["energy"] = 25,
+			["last_action"] = 1728157927,
 			["name"] = "Aphorat",
 			["ccdone"] = 1,
-			["mobname"] = "Aphorat",
 			["starttime"] = 1728157914,
-			["last_action"] = 1728157927,
+			["mobname"] = "Aphorat",
+			["energy"] = 25,
 			["endtime"] = 1728157927,
-		}, -- [11]
+		}, -- [13]
 		{
 			["enemies"] = {
 				{
@@ -3733,8 +4159,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Kalaam"] = {
 									["total"] = 6978,
-									["amount"] = 5739,
 									["overkill"] = 1771,
+									["amount"] = 5739,
 								},
 							},
 							["overkill"] = 1771,
@@ -3743,8 +4169,8 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["sources"] = {
 								["Kalaam"] = {
-									["amount"] = 1911,
 									["total"] = 1919,
+									["amount"] = 1911,
 								},
 							},
 							["total"] = 1919,
@@ -3840,16 +4266,27 @@ SkadaStorageDB = {
 							},
 							["count"] = 1,
 						},
-						[11305] = {
+						[54758] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 4,
 						},
 						[1784] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 1,
+						},
+						[11305] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[36563] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
 						},
 						[1833] = {
 							["type"] = "DEBUFF",
@@ -3861,17 +4298,6 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 4,
-						},
-						[36563] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[54758] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 4,
 						},
 					},
@@ -3893,9 +4319,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 22615,
 							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 12081,
 							["criticalmin"] = 10534,
+							["criticalmax"] = 12081,
+							["count"] = 2,
 						},
 						["Wound Poison VII"] = {
 							["total"] = 1919,
@@ -3905,18 +4331,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 724,
 							["targets"] = {
 								["Bloodstryke"] = {
-									["amount"] = 1911,
 									["total"] = 1919,
+									["amount"] = 1911,
 								},
 							},
-							["criticalmax"] = 724,
-							["critical"] = 2,
-							["casts"] = 1,
 							["count"] = 3,
+							["amount"] = 1911,
+							["criticalmax"] = 724,
+							["hitmax"] = 463,
 							["hit"] = 1,
 							["school"] = 8,
-							["amount"] = 1911,
-							["hitmax"] = 463,
+							["critical"] = 2,
+							["casts"] = 1,
 							["hitamount"] = 463,
 						},
 						["Melee"] = {
@@ -3925,8 +4351,8 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Bloodstryke"] = {
 									["total"] = 6978,
-									["amount"] = 5739,
 									["overkill"] = 1771,
+									["amount"] = 5739,
 								},
 							},
 							["amount"] = 5739,
@@ -3935,13 +4361,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 1690,
 							["id"] = 6603,
 							["overkill"] = 1771,
-							["hit"] = 4,
+							["ABSORB"] = 1,
 							["criticalmax"] = 859,
 							["hitmax"] = 1218,
-							["ABSORB"] = 1,
+							["hit"] = 4,
 							["school"] = 1,
-							["count"] = 8,
 							["critical"] = 2,
+							["count"] = 8,
 							["hitamount"] = 4049,
 						},
 					},
@@ -3967,7 +4393,7 @@ SkadaStorageDB = {
 					},
 					["name"] = "Kalaam",
 					["ccdone"] = 1,
-					["role"] = "DAMAGER",
+					["overkill"] = 1771,
 					["cctakenspells"] = {
 						[1776] = {
 							["count"] = 1,
@@ -3976,7 +4402,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["overkill"] = 1771,
+					["role"] = "DAMAGER",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -3985,14 +4411,14 @@ SkadaStorageDB = {
 			["etotaldamage"] = 1167,
 			["overkill"] = 1771,
 			["edamagetaken"] = 30265,
-			["mobname"] = "Bloodstryke",
-			["name"] = "Bloodstryke (3)",
 			["ccdone"] = 1,
+			["name"] = "Bloodstryke (3)",
+			["mobname"] = "Bloodstryke",
 			["starttime"] = 1728157077,
 			["edamage"] = 1167,
 			["last_action"] = 1728157084,
 			["endtime"] = 1728157085,
-		}, -- [12]
+		}, -- [14]
 		{
 			["enemies"] = {
 				{
@@ -4027,8 +4453,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Kalaam"] = {
 									["total"] = 1528,
-									["overkill"] = 315,
 									["amount"] = 1514,
+									["overkill"] = 315,
 								},
 							},
 							["overkill"] = 315,
@@ -4046,8 +4472,8 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 13138,
 									["amount"] = 10260,
+									["total"] = 13138,
 								},
 							},
 							["total"] = 13138,
@@ -4057,8 +4483,8 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["sources"] = {
 								["Kalaam"] = {
-									["total"] = 2494,
 									["amount"] = 2483,
+									["total"] = 2494,
 								},
 							},
 							["total"] = 2494,
@@ -4161,18 +4587,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[51693] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodstryke"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
 						[1330] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -4184,6 +4598,18 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
+						},
+						[51693] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodstryke"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
 						},
 					},
 					["totaldamage"] = 24143,
@@ -4198,8 +4624,8 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Bloodstryke"] = {
 									["total"] = 1528,
-									["overkill"] = 315,
 									["amount"] = 1514,
+									["overkill"] = 315,
 								},
 							},
 							["overkill"] = 315,
@@ -4216,8 +4642,8 @@ SkadaStorageDB = {
 							["criticalmin"] = 1117,
 							["targets"] = {
 								["Bloodstryke"] = {
-									["total"] = 13138,
 									["amount"] = 10260,
+									["total"] = 13138,
 								},
 							},
 							["amount"] = 10260,
@@ -4225,13 +4651,13 @@ SkadaStorageDB = {
 							["total"] = 13138,
 							["criticalamount"] = 9714,
 							["id"] = 6603,
-							["ABSORB"] = 1,
+							["hit"] = 1,
 							["criticalmax"] = 2990,
 							["critical"] = 4,
-							["hit"] = 1,
+							["ABSORB"] = 1,
 							["school"] = 1,
-							["hitmax"] = 546,
 							["count"] = 9,
+							["hitmax"] = 546,
 							["hitamount"] = 546,
 						},
 						["Backstab"] = {
@@ -4246,9 +4672,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 6233,
 							["school"] = 1,
-							["criticalmin"] = 6233,
-							["criticalmax"] = 6233,
 							["count"] = 1,
+							["criticalmax"] = 6233,
+							["criticalmin"] = 6233,
 						},
 						["Shiv"] = {
 							["hitmin"] = 750,
@@ -4274,18 +4700,18 @@ SkadaStorageDB = {
 							["criticalmin"] = 822,
 							["targets"] = {
 								["Bloodstryke"] = {
-									["total"] = 2494,
 									["amount"] = 2483,
+									["total"] = 2494,
 								},
 							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["criticalmax"] = 822,
 							["count"] = 4,
+							["hit"] = 3,
+							["casts"] = 1,
+							["hitmax"] = 593,
 							["amount"] = 2483,
 							["school"] = 8,
-							["hit"] = 3,
-							["hitmax"] = 593,
+							["critical"] = 1,
+							["criticalmax"] = 822,
 							["hitamount"] = 1661,
 						},
 					},
@@ -4300,19 +4726,19 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 3214,
 							["school"] = 1,
+							["count"] = 2,
+							["criticalmin"] = 613,
 							["sources"] = {
 								["Bloodstryke"] = {
 									["amount"] = 3214,
 								},
 							},
-							["criticalmin"] = 613,
-							["count"] = 2,
 						},
 					},
 					["name"] = "Kalaam",
 					["ccdone"] = 2,
-					["overkill"] = 315,
 					["role"] = "DAMAGER",
+					["overkill"] = 315,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -4321,448 +4747,13 @@ SkadaStorageDB = {
 			["etotaldamage"] = 3214,
 			["overkill"] = 315,
 			["edamagetaken"] = 21240,
-			["ccdone"] = 2,
-			["name"] = "Bloodstryke (2)",
 			["mobname"] = "Bloodstryke",
+			["name"] = "Bloodstryke (2)",
+			["ccdone"] = 2,
 			["starttime"] = 1728152309,
 			["edamage"] = 3214,
 			["last_action"] = 1728152319,
 			["endtime"] = 1728152319,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagetaken"] = 35939,
-					["name"] = "Bortragon",
-					["class"] = "ROGUE",
-					["flag"] = 66888,
-					["totaldamagetaken"] = 35939,
-					["id"] = "0x0700000000602A93",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 8680,
-								},
-							},
-							["amount"] = 8680,
-						},
-						[57975] = {
-							["school"] = 8,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 2225,
-								},
-							},
-							["amount"] = 2225,
-						},
-						[48691] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["overkill"] = 9139,
-									["amount"] = 25034,
-								},
-							},
-							["overkill"] = 9139,
-							["amount"] = 25034,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 35939,
-			["time"] = 10,
-			["etotaldamagetaken"] = 35939,
-			["last_time"] = 37210.507,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[8643] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bortragon"] = 1,
-							},
-						},
-						[1833] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bortragon"] = 1,
-							},
-						},
-					},
-					["last"] = 37207.25,
-					["flag"] = 1297,
-					["class"] = "ROGUE",
-					["auras"] = {
-						[8643] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bortragon"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[57975] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 3,
-							["targets"] = {
-								["Bortragon"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[51713] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[71558] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[1784] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[1833] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bortragon"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[51693] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bortragon"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[54758] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["energyspells"] = {
-						[14181] = 25,
-					},
-					["totaldamage"] = 35939,
-					["time"] = 5.85,
-					["damage"] = 35939,
-					["damagespells"] = {
-						["Ambush"] = {
-							["criticalamount"] = 25034,
-							["id"] = 48691,
-							["targets"] = {
-								["Bortragon"] = {
-									["overkill"] = 9139,
-									["amount"] = 25034,
-								},
-							},
-							["overkill"] = 9139,
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 25034,
-							["school"] = 1,
-							["criticalmin"] = 11104,
-							["criticalmax"] = 13930,
-							["count"] = 2,
-						},
-						["Wound Poison VII"] = {
-							["hitmin"] = 433,
-							["criticalamount"] = 688,
-							["id"] = 57975,
-							["criticalmin"] = 688,
-							["targets"] = {
-								["Bortragon"] = {
-									["amount"] = 2225,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["criticalmax"] = 688,
-							["count"] = 4,
-							["amount"] = 2225,
-							["school"] = 8,
-							["hit"] = 3,
-							["hitmax"] = 552,
-							["hitamount"] = 1537,
-						},
-						["Melee"] = {
-							["hitmin"] = 543,
-							["criticalamount"] = 6805,
-							["id"] = 6603,
-							["criticalmin"] = 930,
-							["targets"] = {
-								["Bortragon"] = {
-									["amount"] = 8680,
-								},
-							},
-							["hitmax"] = 1332,
-							["critical"] = 4,
-							["criticalmax"] = 2703,
-							["count"] = 7,
-							["hit"] = 2,
-							["school"] = 1,
-							["amount"] = 8680,
-							["MISS"] = 1,
-							["hitamount"] = 1875,
-						},
-					},
-					["id"] = "0x070000000000104C",
-					["spec"] = 261,
-					["overkill"] = 9139,
-					["name"] = "Kalaam",
-					["ccdone"] = 2,
-					["energy"] = 25,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damage"] = 35939,
-			["overkill"] = 9139,
-			["edamagetaken"] = 35939,
-			["energy"] = 25,
-			["name"] = "Bortragon (2)",
-			["ccdone"] = 2,
-			["mobname"] = "Bortragon",
-			["starttime"] = 1728152290,
-			["last_action"] = 1728152299,
-			["endtime"] = 1728152300,
-		}, -- [14]
-		{
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Ambush"] = {
-							["total"] = 18179,
-							["criticalamount"] = 8337,
-							["id"] = 48691,
-							["targets"] = {
-								["Bortragon"] = {
-									["total"] = 18179,
-									["amount"] = 8337,
-								},
-							},
-							["amount"] = 8337,
-							["casts"] = 2,
-							["count"] = 2,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["criticalmin"] = 8337,
-							["criticalmax"] = 8337,
-							["critical"] = 1,
-						},
-						["Melee"] = {
-							["hitmin"] = 447,
-							["criticalamount"] = 2117,
-							["id"] = 6603,
-							["targets"] = {
-								["Bortragon"] = {
-									["amount"] = 2564,
-								},
-							},
-							["criticalmin"] = 2117,
-							["hitmax"] = 447,
-							["criticalmax"] = 2117,
-							["critical"] = 1,
-							["amount"] = 2564,
-							["school"] = 1,
-							["hit"] = 1,
-							["count"] = 2,
-							["hitamount"] = 447,
-						},
-						["Wound Poison VII"] = {
-							["total"] = 1040,
-							["hitmin"] = 433,
-							["criticalamount"] = 383,
-							["id"] = 57975,
-							["criticalmin"] = 383,
-							["targets"] = {
-								["Bortragon"] = {
-									["total"] = 1040,
-									["amount"] = 816,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["criticalmax"] = 383,
-							["count"] = 2,
-							["amount"] = 816,
-							["school"] = 8,
-							["hit"] = 1,
-							["hitmax"] = 433,
-							["hitamount"] = 433,
-						},
-					},
-					["last"] = 36994.259,
-					["id"] = "0x070000000000104C",
-					["class"] = "ROGUE",
-					["auras"] = {
-						[51693] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bortragon"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["count"] = 1,
-						},
-						[51713] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[57975] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bortragon"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[1784] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[3409] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Bortragon"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[14183] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-					},
-					["totaldamage"] = 21783,
-					["time"] = 1.35,
-					["flag"] = 1297,
-					["role"] = "DAMAGER",
-					["name"] = "Kalaam",
-					["spec"] = 261,
-					["damage"] = 11717,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["time"] = 9,
-			["last_time"] = 37000.726,
-			["etotaldamagetaken"] = 21783,
-			["damage"] = 11717,
-			["enemies"] = {
-				{
-					["damagetaken"] = 11717,
-					["name"] = "Bortragon",
-					["class"] = "ROGUE",
-					["flag"] = 66888,
-					["totaldamagetaken"] = 21783,
-					["id"] = "0x0700000000602A93",
-					["damagetakenspells"] = {
-						[48691] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["total"] = 18179,
-									["amount"] = 8337,
-								},
-							},
-							["total"] = 18179,
-							["amount"] = 8337,
-						},
-						[57975] = {
-							["school"] = 8,
-							["sources"] = {
-								["Kalaam"] = {
-									["total"] = 1040,
-									["amount"] = 816,
-								},
-							},
-							["total"] = 1040,
-							["amount"] = 816,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Kalaam"] = {
-									["amount"] = 2564,
-								},
-							},
-							["amount"] = 2564,
-						},
-					},
-				}, -- [1]
-			},
-			["edamagetaken"] = 11717,
-			["totaldamage"] = 21783,
-			["name"] = "Bortragon",
-			["mobname"] = "Bortragon",
-			["starttime"] = 1728152082,
-			["last_action"] = 1728152090,
-			["endtime"] = 1728152091,
 		}, -- [15]
 	},
 }

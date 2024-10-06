@@ -31,9 +31,6 @@ MACRO 16777234 "disarm" INV_Misc_QuestionMark
 /cast defensive stance
 /cast disarm
 END
-MACRO 16777235 "fish" INV_Misc_QuestionMark
-#showtooltip oily blackmouth
-END
 MACRO 16777231 "hamstring" INV_Misc_QuestionMark
 #showtooltip hamstring
 /startattack
@@ -75,6 +72,10 @@ MACRO 16777217 "mount" INV_Misc_QuestionMark
 /cancelaura strength of the taunka
 /cancelaura aim of the iron dwarves
 /userandom [flyable] Invincible; invincible
+END
+MACRO 16777238 "picture" Ability_Ambush
+/say Omoratorul
+/roar
 END
 MACRO 16777222 "reflect" INV_Misc_QuestionMark
 #showtooltip spell reflection
