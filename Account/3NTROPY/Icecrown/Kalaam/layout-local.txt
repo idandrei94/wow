@@ -7,9 +7,9 @@ Y: 157
 W: 232
 H: 100
 Frame: LootFrame
-FrameLevel: 8
+FrameLevel: 31
 Anchor: BOTTOM
-X: -21
+X: -14
 Y: 94
 W: 256
 H: 256
@@ -42,7 +42,7 @@ Y: 10
 W: 488
 H: 716
 Frame: PowaOptionsFrame
-FrameLevel: 16
+FrameLevel: 15
 Anchor: TOPLEFT
 X: 91
 Y: -74
@@ -69,3 +69,10 @@ X: 0
 Y: -167
 W: 100
 H: 30
+Frame: WowLuaFrame
+FrameLevel: 9
+Anchor: CENTER
+X: 0
+Y: 0
+W: 640
+H: 512
