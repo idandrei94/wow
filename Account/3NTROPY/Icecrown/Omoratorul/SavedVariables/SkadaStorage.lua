@@ -15,7 +15,8 @@ SkadaStorageDB = {
 		["heal"] = 6194,
 		["potion"] = 7,
 		["ccdone"] = 25,
-		["starttime"] = 1728245752,
+		["overheal"] = 19766,
+		["name"] = "Total",
 		["players"] = {
 			{
 				["flag"] = 1297,
@@ -32,9 +33,9 @@ SkadaStorageDB = {
 				["heal"] = 99,
 				["name"] = "Omoratorul",
 				["ccdone"] = 23,
-				["role"] = "TANK",
-				["id"] = "0x0700000000B06C55",
 				["overheal"] = 13,
+				["id"] = "0x0700000000B06C55",
+				["role"] = "TANK",
 			}, -- [1]
 			{
 				["flag"] = 1298,
@@ -53,31 +54,30 @@ SkadaStorageDB = {
 				["heal"] = 5654,
 				["name"] = "Popasfant",
 				["ccdone"] = 2,
-				["totaldamage"] = 30102,
-				["mana"] = 3036,
 				["potion"] = 5,
+				["mana"] = 3036,
+				["totaldamage"] = 30102,
 			}, -- [2]
 			{
 				["overheal"] = 250,
-				["flag"] = 1298,
-				["damagetaken"] = 982,
-				["mana"] = 3734,
 				["id"] = "0x0700000000B06C60",
-				["class"] = "MAGE",
-				["role"] = "DAMAGER",
-				["overkill"] = 2607,
-				["potion"] = 2,
-				["heal"] = 441,
-				["time"] = 209.62,
-				["name"] = "Vrajadefoc",
-				["totaldamage"] = 32668,
-				["totaldamagetaken"] = 1172,
+				["damagetaken"] = 982,
 				["spec"] = 63,
+				["flag"] = 1298,
+				["mana"] = 3734,
+				["heal"] = 441,
+				["overkill"] = 2607,
+				["totaldamage"] = 32668,
+				["role"] = "DAMAGER",
+				["potion"] = 2,
+				["name"] = "Vrajadefoc",
+				["time"] = 209.62,
+				["totaldamagetaken"] = 1172,
+				["class"] = "MAGE",
 				["damage"] = 32668,
 			}, -- [3]
 		},
-		["name"] = "Total",
-		["overheal"] = 19766,
+		["starttime"] = 1728245752,
 	},
 	["version"] = 1878,
 	["sets"] = {
@@ -85,8 +85,8 @@ SkadaStorageDB = {
 			["starttime"] = 1728248278,
 			["type"] = "group",
 			["damagetaken"] = 0,
-			["name"] = "Giant Plains Creeper (2)",
-			["last_time"] = 39434.431,
+			["time"] = 12,
+			["endtime"] = 1728248290,
 			["players"] = {
 				{
 					["rage"] = 5,
@@ -100,22 +100,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 6603,
 							["sources"] = {
 								["Giant Plains Creeper"] = {
 									["amount"] = 0,
 								},
 							},
+							["id"] = 6603,
 						},
 					},
-					["name"] = "Omoratorul",
+					["id"] = "0x0700000000B06C55",
 					["ragespells"] = {
 						[23602] = 5,
 					},
-					["time"] = 0,
-					["role"] = "TANK",
-					["spec"] = 73,
-					["totaldamagetaken"] = 0,
+					["name"] = "Omoratorul",
 					["auras"] = {
 						[458] = {
 							["type"] = "BUFF",
@@ -142,29 +139,32 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
 						[8094] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
+						[1245] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 					},
-					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["totaldamagetaken"] = 0,
+					["role"] = "TANK",
+					["time"] = 0,
 				}, -- [1]
 				{
-					["name"] = "Popasfant",
-					["last"] = 39428.056,
 					["time"] = 0,
-					["role"] = "HEALER",
+					["last"] = 39428.056,
+					["name"] = "Popasfant",
+					["class"] = "PRIEST",
 					["id"] = "0x0700000000B06C58",
 					["spec"] = 256,
-					["class"] = "PRIEST",
+					["role"] = "HEALER",
 					["auras"] = {
-						[602] = {
+						[458] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -174,12 +174,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[3166] = {
+						[602] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[458] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -187,15 +187,15 @@ SkadaStorageDB = {
 					},
 				}, -- [2]
 				{
-					["name"] = "Vrajadefoc",
-					["last"] = 39428.056,
 					["time"] = 0,
-					["role"] = "DAMAGER",
+					["last"] = 39428.056,
+					["name"] = "Vrajadefoc",
+					["class"] = "MAGE",
 					["id"] = "0x0700000000B06C60",
 					["spec"] = 63,
-					["class"] = "MAGE",
+					["role"] = "DAMAGER",
 					["auras"] = {
-						[1461] = {
+						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -205,12 +205,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[3166] = {
+						[1245] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[7301] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -220,17 +220,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 12,
+						},
 						[63729] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[976] = {
+						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -239,11 +239,11 @@ SkadaStorageDB = {
 				}, -- [3]
 			},
 			["rage"] = 5,
-			["time"] = 12,
+			["name"] = "Giant Plains Creeper (2)",
 			["mobname"] = "Giant Plains Creeper",
 			["totaldamagetaken"] = 0,
 			["last_action"] = 1728248284,
-			["endtime"] = 1728248290,
+			["last_time"] = 39434.431,
 		}, -- [1]
 		{
 			["players"] = {
@@ -278,12 +278,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[1245] = {
+						[8094] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[8094] = {
+						[1245] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -291,10 +291,6 @@ SkadaStorageDB = {
 					},
 					["role"] = "TANK",
 					["name"] = "Omoratorul",
-					["class"] = "WARRIOR",
-					["time"] = 0,
-					["totaldamagetaken"] = 30,
-					["flag"] = 1297,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 30,
@@ -312,17 +308,21 @@ SkadaStorageDB = {
 							["hitamount"] = 30,
 						},
 					},
+					["flag"] = 1297,
+					["totaldamagetaken"] = 30,
+					["time"] = 0,
+					["class"] = "WARRIOR",
 				}, -- [1]
 				{
-					["name"] = "Popasfant",
-					["last"] = 39414.232,
 					["time"] = 0,
-					["class"] = "PRIEST",
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
+					["last"] = 39414.232,
+					["name"] = "Popasfant",
 					["role"] = "HEALER",
+					["id"] = "0x0700000000B06C58",
+					["class"] = "PRIEST",
+					["spec"] = 256,
 					["auras"] = {
-						[602] = {
+						[458] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -332,12 +332,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[3166] = {
+						[602] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[458] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -345,15 +345,15 @@ SkadaStorageDB = {
 					},
 				}, -- [2]
 				{
-					["name"] = "Vrajadefoc",
-					["last"] = 39414.232,
 					["time"] = 0,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 63,
+					["last"] = 39414.232,
+					["name"] = "Vrajadefoc",
 					["role"] = "DAMAGER",
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["spec"] = 63,
 					["auras"] = {
-						[1461] = {
+						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -363,12 +363,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[3166] = {
+						[1245] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[7301] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -378,17 +378,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
 						[63729] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[976] = {
+						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -399,8 +399,8 @@ SkadaStorageDB = {
 			["type"] = "group",
 			["damagetaken"] = 30,
 			["starttime"] = 1728248264,
-			["last_time"] = 39416.441,
-			["last_action"] = 1728248266,
+			["endtime"] = 1728248273,
+			["etotaldamage"] = 30,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -422,13 +422,13 @@ SkadaStorageDB = {
 					["damage"] = 30,
 				}, -- [1]
 			},
-			["edamage"] = 30,
-			["name"] = "Giant Plains Creeper",
-			["time"] = 9,
-			["mobname"] = "Giant Plains Creeper",
 			["totaldamagetaken"] = 30,
-			["etotaldamage"] = 30,
-			["endtime"] = 1728248273,
+			["time"] = 9,
+			["name"] = "Giant Plains Creeper",
+			["mobname"] = "Giant Plains Creeper",
+			["edamage"] = 30,
+			["last_action"] = 1728248266,
+			["last_time"] = 39416.441,
 		}, -- [2]
 		{
 			["players"] = {
@@ -463,12 +463,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[1245] = {
+						[8094] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[8094] = {
+						[1245] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -476,10 +476,6 @@ SkadaStorageDB = {
 					},
 					["role"] = "TANK",
 					["name"] = "Omoratorul",
-					["class"] = "WARRIOR",
-					["time"] = 0,
-					["totaldamagetaken"] = 42,
-					["flag"] = 1297,
 					["damagetakenspells"] = {
 						["Throw"] = {
 							["hitmin"] = 42,
@@ -497,17 +493,21 @@ SkadaStorageDB = {
 							["hitamount"] = 42,
 						},
 					},
+					["flag"] = 1297,
+					["totaldamagetaken"] = 42,
+					["time"] = 0,
+					["class"] = "WARRIOR",
 				}, -- [1]
 				{
-					["name"] = "Popasfant",
-					["last"] = 39368.098,
 					["time"] = 0,
-					["class"] = "PRIEST",
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
+					["last"] = 39368.098,
+					["name"] = "Popasfant",
 					["role"] = "HEALER",
+					["id"] = "0x0700000000B06C58",
+					["class"] = "PRIEST",
+					["spec"] = 256,
 					["auras"] = {
-						[602] = {
+						[458] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -517,12 +517,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[3166] = {
+						[602] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[458] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -530,15 +530,15 @@ SkadaStorageDB = {
 					},
 				}, -- [2]
 				{
-					["name"] = "Vrajadefoc",
-					["last"] = 39368.098,
 					["time"] = 0,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 63,
+					["last"] = 39368.098,
+					["name"] = "Vrajadefoc",
 					["role"] = "DAMAGER",
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["spec"] = 63,
 					["auras"] = {
-						[1461] = {
+						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -548,12 +548,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[3166] = {
+						[1245] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[7301] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -563,17 +563,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 						[63729] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[976] = {
+						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -584,8 +584,8 @@ SkadaStorageDB = {
 			["type"] = "group",
 			["damagetaken"] = 42,
 			["starttime"] = 1728248218,
-			["last_time"] = 39378.523,
-			["last_action"] = 1728248228,
+			["endtime"] = 1728248229,
+			["etotaldamage"] = 42,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -607,23 +607,23 @@ SkadaStorageDB = {
 					["damage"] = 42,
 				}, -- [1]
 			},
-			["edamage"] = 42,
-			["name"] = "Witherbark Axe Thrower (4)",
-			["time"] = 11,
-			["mobname"] = "Witherbark Axe Thrower",
 			["totaldamagetaken"] = 42,
-			["etotaldamage"] = 42,
-			["endtime"] = 1728248229,
+			["time"] = 11,
+			["name"] = "Witherbark Axe Thrower (4)",
+			["mobname"] = "Witherbark Axe Thrower",
+			["edamage"] = 42,
+			["last_action"] = 1728248228,
+			["last_time"] = 39378.523,
 		}, -- [3]
 		{
 			["enemies"] = {
 				{
-					["name"] = "Witherbark Headhunter",
 					["damagetaken"] = 1372,
-					["flag"] = 68168,
-					["id"] = "0xF1300009FC18CDF5",
-					["totaldamagetaken"] = 1372,
+					["name"] = "Witherbark Headhunter",
 					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 1372,
+					["id"] = "0xF1300009FC18CDF5",
 					["damagetakenspells"] = {
 						[6574] = {
 							["school"] = 1,
@@ -656,12 +656,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 91,
 									["overkill"] = 30,
+									["amount"] = 91,
 								},
 							},
-							["amount"] = 91,
 							["overkill"] = 30,
+							["amount"] = 91,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -681,15 +681,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 81,
 						},
-						[9782] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 39,
-								},
-							},
-							["amount"] = 39,
-						},
 						[15263] = {
 							["school"] = 2,
 							["sources"] = {
@@ -698,6 +689,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 236,
+						},
+						[9782] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 39,
+								},
+							},
+							["amount"] = 39,
 						},
 					},
 				}, -- [1]
@@ -787,11 +787,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[12976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 						[8204] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -803,6 +798,11 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 3,
+						},
+						[12976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
 						},
 					},
 					["totaldamage"] = 959,
@@ -830,21 +830,21 @@ SkadaStorageDB = {
 							["glance"] = 48,
 							["hitmin"] = 79,
 							["id"] = 6603,
-							["hitamount"] = 79,
+							["glancemin"] = 48,
 							["glancemax"] = 48,
-							["amount"] = 127,
-							["glancing"] = 1,
-							["PARRY"] = 1,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 79,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 127,
 								},
 							},
-							["glancemin"] = 48,
+							["glancing"] = 1,
+							["PARRY"] = 1,
+							["count"] = 3,
+							["amount"] = 127,
+							["school"] = 1,
+							["hitmax"] = 79,
+							["hit"] = 1,
+							["hitamount"] = 79,
 						},
 						["Rend (DoT)"] = {
 							["hitmin"] = 34,
@@ -873,9 +873,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 552,
 							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 552,
 							["criticalmin"] = 552,
+							["criticalmax"] = 552,
+							["count"] = 1,
 						},
 						["Mithril Shield Spike"] = {
 							["hitmin"] = 13,
@@ -898,8 +898,8 @@ SkadaStorageDB = {
 							["id"] = 1608,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 91,
 									["overkill"] = 30,
+									["amount"] = 91,
 								},
 							},
 							["overkill"] = 30,
@@ -925,9 +925,9 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 6603,
-							["BLOCK"] = 3,
 							["blocked"] = 97,
+							["BLOCK"] = 3,
+							["id"] = 6603,
 						},
 					},
 					["ragespells"] = {
@@ -935,9 +935,9 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["role"] = "TANK",
-					["rage"] = 15,
 					["overkill"] = 30,
+					["rage"] = 15,
+					["role"] = "TANK",
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -949,9 +949,9 @@ SkadaStorageDB = {
 									["amount"] = 177,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 177,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 19,
@@ -966,9 +966,9 @@ SkadaStorageDB = {
 									["amount"] = 222,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 222,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 24,
@@ -983,8 +983,8 @@ SkadaStorageDB = {
 									["amount"] = 14,
 								},
 							},
-							["count"] = 2,
 							["hitmax"] = 8,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 2,
 							["resisted"] = 1,
@@ -1001,27 +1001,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[586] = {
-							["school"] = 32,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[602] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[19709] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
 						[15263] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1034,25 +1013,46 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
+						[586] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 					},
 					["totaldamage"] = 413,
 					["name"] = "Popasfant",
 					["class"] = "PRIEST",
-					["time"] = 0,
-					["flag"] = 1298,
 					["role"] = "HEALER",
+					["flag"] = 1298,
+					["time"] = 0,
 					["damage"] = 413,
 				}, -- [2]
 				{
-					["name"] = "Vrajadefoc",
-					["last"] = 39345.682,
 					["time"] = 0,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 63,
+					["last"] = 39345.682,
+					["name"] = "Vrajadefoc",
 					["role"] = "DAMAGER",
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["spec"] = 63,
 					["auras"] = {
-						[1461] = {
+						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -1062,12 +1062,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[3166] = {
+						[1245] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[7301] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -1077,17 +1077,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
 						[63729] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[976] = {
+						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -1103,8 +1103,8 @@ SkadaStorageDB = {
 			["starttime"] = 1728248195,
 			["name"] = "Witherbark Headhunter (10)",
 			["mobname"] = "Witherbark Headhunter",
-			["damage"] = 1372,
 			["ccdone"] = 1,
+			["damage"] = 1372,
 			["last_action"] = 1728248206,
 			["endtime"] = 1728248206,
 		}, -- [4]
@@ -1148,21 +1148,21 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 140,
 									["overkill"] = 25,
+									["amount"] = 140,
 								},
 							},
-							["amount"] = 140,
 							["overkill"] = 25,
+							["amount"] = 140,
 						},
-						[6603] = {
+						[12809] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 157,
+									["amount"] = 78,
 								},
 							},
-							["amount"] = 157,
+							["amount"] = 78,
 						},
 						[5019] = {
 							["school"] = 1,
@@ -1173,14 +1173,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 28,
 						},
-						[9782] = {
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 28,
+									["amount"] = 157,
 								},
 							},
-							["amount"] = 28,
+							["amount"] = 157,
 						},
 						[8204] = {
 							["school"] = 1,
@@ -1200,14 +1200,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 445,
 						},
-						[12809] = {
+						[9782] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 78,
+									["amount"] = 28,
 								},
 							},
-							["amount"] = 78,
+							["amount"] = 28,
 						},
 					},
 					["totaldamage"] = 165,
@@ -1302,12 +1302,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[2565] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 						[12809] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -1319,6 +1313,12 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 1,
+						},
+						[2565] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 					},
 					["totaldamage"] = 760,
@@ -1346,40 +1346,39 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["glance"] = 98,
 							["hitmin"] = 59,
-							["glancemin"] = 45,
+							["hitamount"] = 59,
 							["id"] = 6603,
+							["glancemax"] = 53,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 157,
 								},
 							},
-							["glancemax"] = 53,
-							["count"] = 6,
+							["amount"] = 157,
 							["glancing"] = 2,
 							["PARRY"] = 1,
-							["hitmax"] = 59,
+							["count"] = 6,
 							["hit"] = 1,
 							["school"] = 1,
-							["amount"] = 157,
+							["hitmax"] = 59,
 							["MISS"] = 1,
-							["hitamount"] = 59,
+							["glancemin"] = 45,
 						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 35,
-							["id"] = 6548,
+						["Concussion Blow"] = {
+							["hitmin"] = 78,
+							["id"] = 12809,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
-									["amount"] = 140,
-									["overkill"] = 25,
+									["amount"] = 78,
 								},
 							},
-							["overkill"] = 25,
-							["count"] = 4,
-							["hit"] = 4,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 35,
-							["amount"] = 140,
-							["hitamount"] = 140,
+							["hitmax"] = 78,
+							["amount"] = 78,
+							["hitamount"] = 78,
 						},
 						["Revenge"] = {
 							["DODGE"] = 1,
@@ -1414,21 +1413,22 @@ SkadaStorageDB = {
 							["amount"] = 28,
 							["hitamount"] = 28,
 						},
-						["Concussion Blow"] = {
-							["hitmin"] = 78,
-							["id"] = 12809,
+						["Rend (DoT)"] = {
+							["hitmin"] = 35,
+							["id"] = 6548,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
-									["amount"] = 78,
+									["overkill"] = 25,
+									["amount"] = 140,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["overkill"] = 25,
+							["count"] = 4,
+							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 78,
-							["amount"] = 78,
-							["hitamount"] = 78,
+							["hitmax"] = 35,
+							["amount"] = 140,
+							["hitamount"] = 140,
 						},
 					},
 					["damagetaken"] = 165,
@@ -1440,18 +1440,18 @@ SkadaStorageDB = {
 							["hitmin"] = 27,
 							["crushing"] = 1,
 							["id"] = 6603,
-							["count"] = 6,
 							["hitmax"] = 27,
-							["amount"] = 69,
+							["BLOCK"] = 2,
+							["hit"] = 1,
 							["sources"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 69,
 								},
 							},
-							["BLOCK"] = 2,
-							["blocked"] = 61,
+							["count"] = 6,
+							["amount"] = 69,
 							["school"] = 1,
-							["hit"] = 1,
+							["blocked"] = 61,
 							["MISS"] = 1,
 							["hitamount"] = 27,
 						},
@@ -1476,9 +1476,9 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["role"] = "TANK",
-					["rage"] = 15,
 					["overkill"] = 25,
+					["rage"] = 15,
+					["role"] = "TANK",
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -1487,26 +1487,26 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["id"] = 8104,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 8104,
 						},
 						["Holy Fire"] = {
 							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
-							["id"] = 15263,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 15263,
 						},
 						["Shoot"] = {
 							["hitmin"] = 28,
@@ -1516,11 +1516,11 @@ SkadaStorageDB = {
 									["amount"] = 28,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 28,
-							["casts"] = 1,
 							["hitmax"] = 28,
 							["hit"] = 1,
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 28,
 							["school"] = 1,
 							["resisted"] = 3,
 							["MISS"] = 1,
@@ -1555,9 +1555,9 @@ SkadaStorageDB = {
 					["totaldamage"] = 28,
 					["name"] = "Popasfant",
 					["class"] = "PRIEST",
-					["time"] = 0,
-					["flag"] = 1298,
 					["role"] = "HEALER",
+					["flag"] = 1298,
+					["time"] = 0,
 					["damage"] = 28,
 				}, -- [2]
 				{
@@ -1570,27 +1570,14 @@ SkadaStorageDB = {
 									["amount"] = 431,
 								},
 							},
-							["count"] = 2,
-							["casts"] = 2,
 							["hitmax"] = 216,
+							["casts"] = 2,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 77,
 							["amount"] = 431,
 							["hitamount"] = 431,
-						},
-						["Fire Blast"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["id"] = 8412,
-							["targets"] = {
-								["Witherbark Shadow Hunter"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
 						},
 						["Fireball (DoT)"] = {
 							["hitmin"] = 7,
@@ -1606,6 +1593,19 @@ SkadaStorageDB = {
 							["hitmax"] = 7,
 							["amount"] = 14,
 							["hitamount"] = 14,
+						},
+						["Fire Blast"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["MISS"] = 1,
+							["targets"] = {
+								["Witherbark Shadow Hunter"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 8412,
 						},
 					},
 					["last"] = 39248.908,
@@ -1626,12 +1626,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 7,
 						},
-						[1245] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[3166] = {
+						[6192] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -1646,17 +1646,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
+						[1245] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 						[63729] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[6192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1461] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -1665,9 +1665,9 @@ SkadaStorageDB = {
 					["totaldamage"] = 445,
 					["name"] = "Vrajadefoc",
 					["class"] = "MAGE",
-					["time"] = 9.32,
-					["flag"] = 1298,
 					["role"] = "DAMAGER",
+					["flag"] = 1298,
+					["time"] = 9.32,
 					["damage"] = 445,
 				}, -- [3]
 			},
@@ -1678,10 +1678,10 @@ SkadaStorageDB = {
 			["etotaldamagetaken"] = 1233,
 			["overkill"] = 25,
 			["edamagetaken"] = 1233,
-			["starttime"] = 1728248087,
+			["mobname"] = "Witherbark Shadow Hunter",
 			["name"] = "Witherbark Shadow Hunter (2)",
 			["ccdone"] = 1,
-			["mobname"] = "Witherbark Shadow Hunter",
+			["starttime"] = 1728248087,
 			["edamage"] = 165,
 			["last_action"] = 1728248100,
 			["endtime"] = 1728248101,
@@ -1694,11 +1694,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 59,
-								},
 								["Popasfant"] = {
 									["amount"] = 82,
+								},
+								["Omoratorul"] = {
+									["amount"] = 59,
 								},
 							},
 							["amount"] = 141,
@@ -1739,21 +1739,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 144,
 									["overkill"] = 51,
+									["amount"] = 144,
 								},
 							},
-							["amount"] = 144,
 							["overkill"] = 51,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 298,
-								},
-							},
-							["amount"] = 298,
+							["amount"] = 144,
 						},
 						[12654] = {
 							["school"] = 4,
@@ -1763,6 +1754,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 39,
+						},
+						[15263] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 298,
+								},
+							},
+							["amount"] = 298,
 						},
 					},
 					["totaldamage"] = 141,
@@ -1785,13 +1785,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 355,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 355,
 						},
 						["Rend"] = {
 							["DODGE"] = 1,
@@ -1811,15 +1811,15 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 144,
 									["overkill"] = 51,
+									["amount"] = 144,
 								},
 							},
 							["overkill"] = 51,
-							["hit"] = 2,
+							["amount"] = 144,
 							["PARRY"] = 1,
 							["count"] = 4,
-							["amount"] = 144,
+							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 77,
 							["MISS"] = 1,
@@ -1843,10 +1843,10 @@ SkadaStorageDB = {
 					},
 					["last"] = 39230.925,
 					["damagetaken"] = 59,
-					["id"] = "0x0700000000B06C55",
 					["flag"] = 1297,
+					["id"] = "0x0700000000B06C55",
 					["class"] = "WARRIOR",
-					["role"] = "TANK",
+					["overkill"] = 51,
 					["auras"] = {
 						[6548] = {
 							["type"] = "DEBUFF",
@@ -1865,7 +1865,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[63729] = {
+						[14752] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -1875,7 +1875,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[1245] = {
+						[63729] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -1885,15 +1885,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[14752] = {
+						[1245] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
 					},
-					["name"] = "Omoratorul",
-					["totaldamage"] = 179,
 					["time"] = 7.220000000000001,
+					["role"] = "TANK",
+					["name"] = "Omoratorul",
+					["spec"] = 73,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 28,
@@ -1911,9 +1912,8 @@ SkadaStorageDB = {
 							["hitamount"] = 59,
 						},
 					},
-					["spec"] = 73,
 					["totaldamagetaken"] = 59,
-					["overkill"] = 51,
+					["totaldamage"] = 179,
 					["damage"] = 179,
 				}, -- [1]
 				{
@@ -1923,13 +1923,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["id"] = 8104,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 8104,
 						},
 						["Holy Fire"] = {
 							["hitmin"] = 259,
@@ -1947,22 +1947,6 @@ SkadaStorageDB = {
 							["amount"] = 259,
 							["hitamount"] = 259,
 						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 6,
-							["id"] = 15263,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 39,
-								},
-							},
-							["count"] = 6,
-							["hitmax"] = 7,
-							["hit"] = 6,
-							["school"] = 2,
-							["resisted"] = 3,
-							["amount"] = 39,
-							["hitamount"] = 39,
-						},
 						["Smite"] = {
 							["hitmin"] = 179,
 							["id"] = 1004,
@@ -1971,14 +1955,30 @@ SkadaStorageDB = {
 									["amount"] = 179,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 2,
 							["hitmax"] = 179,
+							["casts"] = 2,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 19,
 							["amount"] = 179,
 							["hitamount"] = 179,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 6,
+							["id"] = 15263,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["amount"] = 39,
+								},
+							},
+							["hitmax"] = 7,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["resisted"] = 3,
+							["amount"] = 39,
+							["hitamount"] = 39,
 						},
 					},
 					["last"] = 39219.725,
@@ -1992,7 +1992,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 4,
 						},
-						[602] = {
+						[6192] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -2009,7 +2009,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[3166] = {
+						[602] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -2019,15 +2019,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[6192] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
 					},
-					["name"] = "Popasfant",
+					["role"] = "HEALER",
 					["totaldamage"] = 477,
-					["time"] = 0,
+					["name"] = "Popasfant",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 40,
@@ -2047,7 +2047,7 @@ SkadaStorageDB = {
 					},
 					["spec"] = 256,
 					["totaldamagetaken"] = 82,
-					["role"] = "HEALER",
+					["time"] = 0,
 					["damage"] = 477,
 				}, -- [2]
 				{
@@ -2062,15 +2062,31 @@ SkadaStorageDB = {
 									["amount"] = 691,
 								},
 							},
+							["hitmax"] = 287,
+							["amount"] = 691,
 							["criticalmax"] = 404,
 							["critical"] = 1,
-							["casts"] = 1,
-							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 4,
-							["amount"] = 691,
-							["hitmax"] = 287,
+							["count"] = 2,
+							["casts"] = 1,
 							["hitamount"] = 287,
+						},
+						["Ignite (DoT)"] = {
+							["hitmin"] = 39,
+							["id"] = 12654,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["amount"] = 39,
+								},
+							},
+							["hitmax"] = 39,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 9,
+							["amount"] = 39,
+							["hitamount"] = 39,
 						},
 						["Fireball (DoT)"] = {
 							["hitmin"] = 7,
@@ -2086,22 +2102,6 @@ SkadaStorageDB = {
 							["hitmax"] = 7,
 							["amount"] = 7,
 							["hitamount"] = 7,
-						},
-						["Ignite (DoT)"] = {
-							["hitmin"] = 39,
-							["id"] = 12654,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 39,
-								},
-							},
-							["count"] = 1,
-							["hitmax"] = 39,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 9,
-							["amount"] = 39,
-							["hitamount"] = 39,
 						},
 					},
 					["last"] = 39230.792,
@@ -2171,15 +2171,15 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 					},
-					["name"] = "Vrajadefoc",
+					["id"] = "0x0700000000B06C60",
 					["totaldamage"] = 737,
-					["time"] = 6.34,
-					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["spec"] = 63,
 					["manaspells"] = {
 						[29077] = 36,
 					},
-					["spec"] = 63,
-					["id"] = "0x0700000000B06C60",
+					["role"] = "DAMAGER",
+					["time"] = 6.34,
 					["damage"] = 737,
 				}, -- [3]
 			},
@@ -2208,12 +2208,12 @@ SkadaStorageDB = {
 								["Vrajadefoc"] = {
 									["amount"] = 43,
 								},
-								["Omoratorul"] = {
-									["amount"] = 28,
-									["total"] = 117,
-								},
 								["Popasfant"] = {
 									["amount"] = 44,
+								},
+								["Omoratorul"] = {
+									["total"] = 117,
+									["amount"] = 28,
 								},
 							},
 							["amount"] = 115,
@@ -2227,12 +2227,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 802,
 									["overkill"] = 276,
+									["amount"] = 802,
 								},
 							},
-							["amount"] = 802,
 							["overkill"] = 276,
+							["amount"] = 802,
 						},
 						[6548] = {
 							["school"] = 1,
@@ -2247,12 +2247,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["amount"] = 450,
 									["overkill"] = 37,
+									["amount"] = 450,
 								},
 							},
-							["amount"] = 450,
 							["overkill"] = 37,
+							["amount"] = 450,
 						},
 						[2121] = {
 							["school"] = 4,
@@ -2281,15 +2281,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 316,
 						},
-						[8401] = {
-							["school"] = 4,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 287,
-								},
-							},
-							["amount"] = 287,
-						},
 						[7369] = {
 							["school"] = 1,
 							["sources"] = {
@@ -2298,6 +2289,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 224,
+						},
+						[8401] = {
+							["school"] = 4,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 287,
+								},
+							},
+							["amount"] = 287,
 						},
 					},
 					["totaldamage"] = 204,
@@ -2313,8 +2313,8 @@ SkadaStorageDB = {
 							["total"] = 228,
 							["targets"] = {
 								["Popasfant"] = {
-									["amount"] = 132,
 									["total"] = 228,
+									["amount"] = 132,
 								},
 							},
 							["amount"] = 132,
@@ -2324,8 +2324,8 @@ SkadaStorageDB = {
 							["total"] = 210,
 							["targets"] = {
 								["Popasfant"] = {
-									["amount"] = 70,
 									["total"] = 210,
+									["amount"] = 70,
 								},
 							},
 							["amount"] = 70,
@@ -2380,16 +2380,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 14,
 						},
-						[6574] = {
+						[7369] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 554,
-									["overkill"] = 198,
+									["amount"] = 88,
 								},
 							},
-							["amount"] = 554,
-							["overkill"] = 198,
+							["amount"] = 88,
 						},
 						[2121] = {
 							["school"] = 4,
@@ -2418,14 +2416,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 24,
 						},
-						[7369] = {
+						[6574] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 88,
+									["overkill"] = 198,
+									["amount"] = 554,
 								},
 							},
-							["amount"] = 88,
+							["overkill"] = 198,
+							["amount"] = 554,
 						},
 					},
 					["totaldamage"] = 438,
@@ -2441,8 +2441,8 @@ SkadaStorageDB = {
 							["total"] = 81,
 							["targets"] = {
 								["Omoratorul"] = {
-									["amount"] = 53,
 									["total"] = 81,
+									["amount"] = 53,
 								},
 							},
 							["amount"] = 53,
@@ -2465,12 +2465,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["amount"] = 315,
 									["overkill"] = 44,
+									["amount"] = 315,
 								},
 							},
-							["amount"] = 315,
 							["overkill"] = 44,
+							["amount"] = 315,
 						},
 						[2121] = {
 							["school"] = 4,
@@ -2524,12 +2524,12 @@ SkadaStorageDB = {
 								["Vrajadefoc"] = {
 									["amount"] = 114,
 								},
+								["Omoratorul"] = {
+									["total"] = 102,
+									["amount"] = 0,
+								},
 								["Popasfant"] = {
 									["amount"] = 114,
-								},
-								["Omoratorul"] = {
-									["amount"] = 0,
-									["total"] = 102,
 								},
 							},
 							["amount"] = 228,
@@ -2543,12 +2543,12 @@ SkadaStorageDB = {
 					["damage"] = 228,
 				}, -- [4]
 			},
-			["type"] = "group",
+			["absorb"] = 455,
 			["totaldamage"] = 5228,
 			["time"] = 31,
-			["etotaldamage"] = 1053,
-			["totaldamagetaken"] = 1053,
 			["etotaldamagetaken"] = 5228,
+			["totaldamagetaken"] = 1053,
+			["etotaldamage"] = 1053,
 			["last_time"] = 39208.917,
 			["players"] = {
 				{
@@ -2657,7 +2657,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[29131] = {
+						[2565] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -2669,7 +2669,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 26,
 						},
-						[2565] = {
+						[29131] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -2697,14 +2697,14 @@ SkadaStorageDB = {
 									["amount"] = 328,
 								},
 							},
+							["hitmax"] = 82,
+							["amount"] = 724,
 							["criticalmax"] = 164,
 							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 8,
 							["hit"] = 7,
 							["school"] = 1,
-							["amount"] = 724,
-							["hitmax"] = 82,
+							["count"] = 8,
+							["casts"] = 3,
 							["hitamount"] = 560,
 						},
 						["Rend (DoT)"] = {
@@ -2730,12 +2730,12 @@ SkadaStorageDB = {
 							["hitamount"] = 417,
 						},
 						["Cleave"] = {
-							["criticalamount"] = 141,
-							["blocked"] = 17,
-							["hitmin"] = 83,
 							["criticalmin"] = 141,
+							["count"] = 4,
+							["hitmin"] = 83,
+							["criticalamount"] = 141,
 							["id"] = 7369,
-							["PARRY"] = 1,
+							["casts"] = 2,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 88,
@@ -2744,49 +2744,51 @@ SkadaStorageDB = {
 									["amount"] = 224,
 								},
 							},
-							["critical"] = 1,
-							["amount"] = 312,
-							["criticalmax"] = 141,
 							["hitmax"] = 88,
 							["hit"] = 2,
+							["PARRY"] = 1,
+							["critical"] = 1,
+							["blocked"] = 17,
 							["school"] = 1,
-							["casts"] = 2,
-							["count"] = 4,
+							["criticalmax"] = 141,
+							["amount"] = 312,
 							["hitamount"] = 171,
 						},
-						["Melee"] = {
+						["Revenge"] = {
 							["DODGE"] = 1,
-							["hitmin"] = 56,
-							["id"] = 6603,
+							["hitmin"] = 262,
+							["id"] = 6574,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
-									["amount"] = 117,
+									["overkill"] = 198,
+									["amount"] = 554,
 								},
-								["Witherbark Witch Doctor"] = {
-									["amount"] = 152,
+								["Witherbark Headhunter"] = {
+									["overkill"] = 276,
+									["amount"] = 802,
 								},
 							},
-							["count"] = 7,
-							["PARRY"] = 1,
-							["hitmax"] = 78,
-							["amount"] = 269,
+							["overkill"] = 474,
+							["casts"] = 3,
+							["count"] = 6,
+							["hit"] = 5,
 							["school"] = 1,
-							["hit"] = 4,
-							["MISS"] = 1,
-							["hitamount"] = 269,
+							["hitmax"] = 286,
+							["amount"] = 1356,
+							["hitamount"] = 1356,
 						},
 						["Challenging Shout"] = {
 							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 1161,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 1161,
 						},
 						["Mithril Shield Spike"] = {
 							["hitmin"] = 14,
@@ -2810,28 +2812,26 @@ SkadaStorageDB = {
 							["amount"] = 126,
 							["hitamount"] = 126,
 						},
-						["Revenge"] = {
+						["Melee"] = {
 							["DODGE"] = 1,
-							["hitmin"] = 262,
-							["id"] = 6574,
+							["hitmin"] = 56,
+							["id"] = 6603,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
-									["amount"] = 554,
-									["overkill"] = 198,
+									["amount"] = 117,
 								},
-								["Witherbark Headhunter"] = {
-									["amount"] = 802,
-									["overkill"] = 276,
+								["Witherbark Witch Doctor"] = {
+									["amount"] = 152,
 								},
 							},
-							["overkill"] = 474,
-							["casts"] = 3,
-							["count"] = 6,
-							["hit"] = 5,
+							["hitmax"] = 78,
+							["PARRY"] = 1,
+							["count"] = 7,
+							["amount"] = 269,
 							["school"] = 1,
-							["hitmax"] = 286,
-							["amount"] = 1356,
-							["hitamount"] = 1356,
+							["hit"] = 4,
+							["MISS"] = 1,
+							["hitamount"] = 269,
 						},
 					},
 					["damagetaken"] = 81,
@@ -2843,27 +2843,27 @@ SkadaStorageDB = {
 							["total"] = 198,
 							["hitmin"] = 25,
 							["id"] = 6603,
-							["ABSORB"] = 4,
-							["count"] = 17,
 							["amount"] = 81,
+							["BLOCK"] = 9,
+							["hit"] = 3,
 							["sources"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 0,
 								},
 								["Witherbark Headhunter"] = {
-									["amount"] = 28,
 									["total"] = 117,
+									["amount"] = 28,
 								},
 								["Witherbark Witch Doctor"] = {
-									["amount"] = 53,
 									["total"] = 81,
+									["amount"] = 53,
 								},
 							},
-							["hitmax"] = 28,
-							["blocked"] = 254,
+							["count"] = 17,
+							["ABSORB"] = 4,
 							["school"] = 1,
-							["hit"] = 3,
-							["BLOCK"] = 9,
+							["blocked"] = 254,
+							["hitmax"] = 28,
 							["hitamount"] = 81,
 						},
 						["Magma Totem"] = {
@@ -2871,14 +2871,14 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 0,
 							["school"] = 4,
-							["id"] = 8187,
-							["ABSORB"] = 3,
 							["sources"] = {
 								["Magma Totem"] = {
-									["amount"] = 0,
 									["total"] = 102,
+									["amount"] = 0,
 								},
 							},
+							["ABSORB"] = 3,
+							["id"] = 8187,
 						},
 					},
 					["ragespells"] = {
@@ -2887,9 +2887,9 @@ SkadaStorageDB = {
 						[23602] = 50,
 					},
 					["name"] = "Omoratorul",
-					["role"] = "TANK",
-					["rage"] = 80,
 					["overkill"] = 474,
+					["rage"] = 80,
+					["role"] = "TANK",
 				}, -- [1]
 				{
 					["last"] = 39204.317,
@@ -2907,23 +2907,23 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["school"] = 2,
 							["targets"] = {
-								["Omoratorul"] = {
+								["Popasfant"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
-								["Popasfant"] = {
+								["Omoratorul"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 25,
 						},
-						[602] = {
+						[6192] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[3166] = {
+						[602] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
@@ -2933,7 +2933,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[6192] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 31,
@@ -2947,8 +2947,8 @@ SkadaStorageDB = {
 							["amount"] = 455,
 							["school"] = 2,
 							["targets"] = {
-								["Omoratorul"] = 219,
 								["Popasfant"] = 236,
+								["Omoratorul"] = 219,
 							},
 							["max"] = 57,
 						},
@@ -2960,7 +2960,7 @@ SkadaStorageDB = {
 					["overheal"] = 1780,
 					["absorb"] = 455,
 					["damagetaken"] = 360,
-					["role"] = "HEALER",
+					["potion"] = 1,
 					["id"] = "0x0700000000B06C58",
 					["spec"] = 256,
 					["healspells"] = {
@@ -2969,18 +2969,18 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 165,
 							["school"] = 2,
-							["min"] = 82,
+							["max"] = 83,
 							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 83,
-								},
 								["Popasfant"] = {
 									["overheal"] = 0,
 									["amount"] = 82,
 								},
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 83,
+								},
 							},
-							["max"] = 83,
+							["min"] = 82,
 						},
 						[23458] = {
 							["overheal"] = 1780,
@@ -2991,13 +2991,13 @@ SkadaStorageDB = {
 									["overheal"] = 346,
 									["amount"] = 113,
 								},
-								["Popasfant"] = {
-									["overheal"] = 576,
-									["amount"] = 278,
-								},
 								["Omoratorul"] = {
 									["overheal"] = 858,
 									["amount"] = 0,
+								},
+								["Popasfant"] = {
+									["overheal"] = 576,
+									["amount"] = 278,
 								},
 							},
 							["min"] = 56,
@@ -3005,8 +3005,8 @@ SkadaStorageDB = {
 							["count"] = 18,
 							["amount"] = 391,
 							["school"] = 2,
-							["critical"] = 2,
 							["criticalmin"] = 0,
+							["critical"] = 2,
 						},
 					},
 					["overkill"] = 81,
@@ -3017,29 +3017,92 @@ SkadaStorageDB = {
 					["manaspells"] = {
 						[2023] = 527,
 					},
+					["damagetakenspells"] = {
+						["Magma Totem"] = {
+							["hitmin"] = 38,
+							["id"] = 8187,
+							["sources"] = {
+								["Magma Totem"] = {
+									["amount"] = 114,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 38,
+							["amount"] = 114,
+							["hitamount"] = 114,
+						},
+						["Melee"] = {
+							["criticalmin"] = 88,
+							["total"] = 272,
+							["hitmin"] = 44,
+							["criticalamount"] = 88,
+							["id"] = 6603,
+							["critical"] = 1,
+							["sources"] = {
+								["Witherbark Shadow Hunter"] = {
+									["total"] = 228,
+									["amount"] = 132,
+								},
+								["Witherbark Headhunter"] = {
+									["amount"] = 44,
+								},
+							},
+							["hitmax"] = 44,
+							["ABSORB"] = 2,
+							["criticalmax"] = 88,
+							["count"] = 6,
+							["amount"] = 176,
+							["school"] = 1,
+							["hit"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 88,
+						},
+						["Shadow Word: Pain (DoT)"] = {
+							["total"] = 210,
+							["hitmin"] = 35,
+							["id"] = 992,
+							["ABSORB"] = 4,
+							["sources"] = {
+								["Witherbark Shadow Hunter"] = {
+									["total"] = 210,
+									["amount"] = 70,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 35,
+							["amount"] = 70,
+							["hitamount"] = 70,
+						},
+					},
+					["name"] = "Popasfant",
+					["mana"] = 527,
 					["damagespells"] = {
 						["Holy Nova"] = {
 							["hitmin"] = 52,
 							["id"] = 15430,
-							["count"] = 20,
+							["hitmax"] = 71,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 182,
 								},
 								["Witherbark Headhunter"] = {
-									["amount"] = 450,
 									["overkill"] = 37,
+									["amount"] = 450,
 								},
 								["Witherbark Witch Doctor"] = {
-									["amount"] = 315,
 									["overkill"] = 44,
+									["amount"] = 315,
 								},
 							},
 							["overkill"] = 81,
-							["amount"] = 947,
-							["casts"] = 7,
-							["hitmax"] = 71,
 							["hit"] = 15,
+							["casts"] = 7,
+							["count"] = 20,
+							["amount"] = 947,
 							["school"] = 2,
 							["resisted"] = 43,
 							["MISS"] = 5,
@@ -3069,81 +3132,18 @@ SkadaStorageDB = {
 									["amount"] = 24,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 3,
-							["casts"] = 1,
 							["hitmax"] = 11,
 							["amount"] = 24,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 3,
 							["school"] = 2,
 							["resisted"] = 2,
 							["MISS"] = 2,
 							["hitamount"] = 24,
 						},
 					},
-					["mana"] = 527,
-					["name"] = "Popasfant",
-					["damagetakenspells"] = {
-						["Magma Totem"] = {
-							["hitmin"] = 38,
-							["id"] = 8187,
-							["sources"] = {
-								["Magma Totem"] = {
-									["amount"] = 114,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 38,
-							["amount"] = 114,
-							["hitamount"] = 114,
-						},
-						["Melee"] = {
-							["criticalamount"] = 88,
-							["total"] = 272,
-							["hitmin"] = 44,
-							["criticalmin"] = 88,
-							["id"] = 6603,
-							["count"] = 6,
-							["amount"] = 176,
-							["critical"] = 1,
-							["hit"] = 2,
-							["criticalmax"] = 88,
-							["hitmax"] = 44,
-							["ABSORB"] = 2,
-							["school"] = 1,
-							["sources"] = {
-								["Witherbark Shadow Hunter"] = {
-									["amount"] = 132,
-									["total"] = 228,
-								},
-								["Witherbark Headhunter"] = {
-									["amount"] = 44,
-								},
-							},
-							["MISS"] = 1,
-							["hitamount"] = 88,
-						},
-						["Shadow Word: Pain (DoT)"] = {
-							["total"] = 210,
-							["hitmin"] = 35,
-							["id"] = 992,
-							["hit"] = 2,
-							["sources"] = {
-								["Witherbark Shadow Hunter"] = {
-									["amount"] = 70,
-									["total"] = 210,
-								},
-							},
-							["count"] = 6,
-							["ABSORB"] = 4,
-							["school"] = 32,
-							["amount"] = 70,
-							["hitmax"] = 35,
-							["hitamount"] = 70,
-						},
-					},
-					["potion"] = 1,
+					["role"] = "HEALER",
 				}, -- [2]
 				{
 					["last"] = 39200.567,
@@ -3191,17 +3191,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 31,
 						},
-						[6136] = {
-							["type"] = "DEBUFF",
+						[12051] = {
+							["school"] = 64,
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
+							["uptime"] = 8,
 						},
 						[2121] = {
 							["type"] = "DEBUFF",
@@ -3223,11 +3217,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[12051] = {
-							["school"] = 64,
-							["type"] = "BUFF",
+						[6136] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["school"] = 16,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
 						},
 					},
 					["totaldamage"] = 854,
@@ -3243,10 +3243,10 @@ SkadaStorageDB = {
 									["amount"] = 246,
 								},
 							},
-							["hit"] = 1,
+							["amount"] = 246,
 							["casts"] = 2,
 							["count"] = 2,
-							["amount"] = 246,
+							["hit"] = 1,
 							["school"] = 4,
 							["hitmax"] = 246,
 							["MISS"] = 1,
@@ -3260,9 +3260,9 @@ SkadaStorageDB = {
 									["amount"] = 41,
 								},
 							},
-							["count"] = 6,
-							["casts"] = 2,
 							["hitmax"] = 7,
+							["casts"] = 2,
+							["count"] = 6,
 							["hit"] = 6,
 							["school"] = 4,
 							["resisted"] = 1,
@@ -3283,8 +3283,8 @@ SkadaStorageDB = {
 									["amount"] = 74,
 								},
 							},
-							["count"] = 10,
 							["hitmax"] = 26,
+							["count"] = 10,
 							["hit"] = 10,
 							["school"] = 4,
 							["resisted"] = 10,
@@ -3305,11 +3305,11 @@ SkadaStorageDB = {
 									["amount"] = 89,
 								},
 							},
-							["count"] = 4,
-							["amount"] = 317,
-							["casts"] = 1,
 							["hitmax"] = 116,
 							["hit"] = 3,
+							["casts"] = 1,
+							["count"] = 4,
+							["amount"] = 317,
 							["school"] = 4,
 							["resisted"] = 46,
 							["MISS"] = 1,
@@ -3320,13 +3320,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 4,
-							["id"] = 8412,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 8412,
 						},
 					},
 					["damagetaken"] = 157,
@@ -3338,14 +3338,14 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 200,
 							["school"] = 1,
-							["min"] = 200,
+							["max"] = 200,
 							["targets"] = {
 								["Vrajadefoc"] = {
 									["overheal"] = 151,
 									["amount"] = 200,
 								},
 							},
-							["max"] = 200,
+							["min"] = 200,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3387,25 +3387,25 @@ SkadaStorageDB = {
 					["manaspells"] = {
 						[12051] = 1508,
 					},
-					["role"] = "DAMAGER",
-					["potion"] = 1,
-					["overheal"] = 151,
-					["name"] = "Vrajadefoc",
 					["mana"] = 1508,
+					["name"] = "Vrajadefoc",
+					["overheal"] = 151,
+					["potion"] = 1,
+					["role"] = "DAMAGER",
 				}, -- [3]
 			},
-			["absorb"] = 455,
+			["type"] = "group",
 			["damagetaken"] = 598,
 			["overheal"] = 1931,
-			["starttime"] = 1728248029,
+			["damage"] = 5228,
 			["rage"] = 80,
-			["name"] = "Witherbark Headhunter (8)",
+			["potion"] = 2,
 			["overkill"] = 555,
 			["edamagetaken"] = 5228,
 			["heal"] = 756,
-			["potion"] = 2,
+			["name"] = "Witherbark Headhunter (8)",
 			["mobname"] = "Witherbark Headhunter",
-			["damage"] = 5228,
+			["starttime"] = 1728248029,
 			["edamage"] = 598,
 			["last_action"] = 1728248059,
 			["endtime"] = 1728248060,
@@ -3459,12 +3459,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Popasfant"] = {
-									["amount"] = 81,
 									["overkill"] = 4,
+									["amount"] = 81,
 								},
 							},
-							["amount"] = 81,
 							["overkill"] = 4,
+							["amount"] = 81,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -3585,9 +3585,9 @@ SkadaStorageDB = {
 							["uptime"] = 12,
 						},
 					},
-					["name"] = "Omoratorul",
+					["totaldamage"] = 313,
 					["role"] = "TANK",
-					["time"] = 9,
+					["name"] = "Omoratorul",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["sources"] = {
@@ -3598,13 +3598,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 57,
 							["school"] = 1,
-							["id"] = 6603,
 							["crushing"] = 1,
+							["id"] = 6603,
 						},
 					},
 					["spec"] = 73,
 					["totaldamagetaken"] = 57,
-					["totaldamage"] = 313,
+					["time"] = 9,
 					["damage"] = 313,
 				}, -- [1]
 				{
@@ -3646,14 +3646,14 @@ SkadaStorageDB = {
 							["id"] = 5019,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 81,
 									["overkill"] = 4,
+									["amount"] = 81,
 								},
 							},
 							["overkill"] = 4,
-							["count"] = 3,
-							["casts"] = 1,
 							["hitmax"] = 38,
+							["casts"] = 1,
+							["count"] = 3,
 							["hit"] = 3,
 							["school"] = 1,
 							["resisted"] = 2,
@@ -3668,8 +3668,8 @@ SkadaStorageDB = {
 									["amount"] = 41,
 								},
 							},
-							["count"] = 6,
 							["hitmax"] = 7,
+							["count"] = 6,
 							["hit"] = 6,
 							["school"] = 2,
 							["resisted"] = 2,
@@ -3681,7 +3681,7 @@ SkadaStorageDB = {
 					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["auras"] = {
-						[602] = {
+						[6192] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -3698,7 +3698,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 7,
 						},
-						[3166] = {
+						[602] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -3708,19 +3708,19 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[6192] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
 					},
-					["totaldamage"] = 569,
 					["role"] = "HEALER",
+					["totaldamage"] = 569,
 					["time"] = 0,
-					["overkill"] = 4,
-					["name"] = "Popasfant",
-					["spec"] = 256,
 					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["name"] = "Popasfant",
+					["overkill"] = 4,
 					["damage"] = 569,
 				}, -- [2]
 				{
@@ -3741,23 +3741,6 @@ SkadaStorageDB = {
 							["amount"] = 270,
 							["hitamount"] = 270,
 						},
-						["Fire Blast"] = {
-							["hitmin"] = 180,
-							["id"] = 8412,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 180,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 1,
-							["hitmax"] = 180,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 19,
-							["amount"] = 180,
-							["hitamount"] = 180,
-						},
 						["Fireball (DoT)"] = {
 							["hitmin"] = 7,
 							["id"] = 8401,
@@ -3772,6 +3755,23 @@ SkadaStorageDB = {
 							["hitmax"] = 7,
 							["amount"] = 14,
 							["hitamount"] = 14,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 180,
+							["id"] = 8412,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["amount"] = 180,
+								},
+							},
+							["hitmax"] = 180,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 19,
+							["amount"] = 180,
+							["hitamount"] = 180,
 						},
 					},
 					["last"] = 39163.225,
@@ -3847,9 +3847,9 @@ SkadaStorageDB = {
 					["totaldamage"] = 464,
 					["name"] = "Vrajadefoc",
 					["class"] = "MAGE",
-					["time"] = 7.560000000000001,
-					["flag"] = 1298,
 					["role"] = "DAMAGER",
+					["flag"] = 1298,
+					["time"] = 7.560000000000001,
 					["damage"] = 464,
 				}, -- [3]
 			},
@@ -3876,8 +3876,8 @@ SkadaStorageDB = {
 							["total"] = 189,
 							["targets"] = {
 								["Omoratorul"] = {
-									["amount"] = 142,
 									["total"] = 189,
+									["amount"] = 142,
 								},
 							},
 							["amount"] = 142,
@@ -3887,8 +3887,8 @@ SkadaStorageDB = {
 							["total"] = 221,
 							["targets"] = {
 								["Omoratorul"] = {
-									["amount"] = 159,
 									["total"] = 285,
+									["amount"] = 159,
 								},
 							},
 							["amount"] = 159,
@@ -3911,12 +3911,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["amount"] = 237,
 									["overkill"] = 167,
+									["amount"] = 237,
 								},
 							},
-							["amount"] = 237,
 							["overkill"] = 167,
+							["amount"] = 237,
 						},
 						[42209] = {
 							["school"] = 16,
@@ -3972,16 +3972,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 206,
 						},
-						[6574] = {
-							["school"] = 1,
+						[15263] = {
+							["school"] = 2,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 565,
-									["overkill"] = 111,
+								["Popasfant"] = {
+									["amount"] = 300,
 								},
 							},
-							["amount"] = 565,
-							["overkill"] = 111,
+							["amount"] = 300,
 						},
 						[8412] = {
 							["school"] = 4,
@@ -3992,14 +3990,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 177,
 						},
-						[15263] = {
-							["school"] = 2,
+						[6574] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 300,
+								["Omoratorul"] = {
+									["overkill"] = 111,
+									["amount"] = 565,
 								},
 							},
-							["amount"] = 300,
+							["overkill"] = 111,
+							["amount"] = 565,
 						},
 					},
 					["totaldamage"] = 474,
@@ -4013,11 +4013,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 59,
-								},
 								["Vrajadefoc"] = {
 									["amount"] = 241,
+								},
+								["Omoratorul"] = {
+									["amount"] = 59,
 								},
 							},
 							["amount"] = 300,
@@ -4040,12 +4040,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["amount"] = 248,
 									["overkill"] = 176,
+									["amount"] = 248,
 								},
 							},
-							["amount"] = 248,
 							["overkill"] = 176,
+							["amount"] = 248,
 						},
 						[42209] = {
 							["school"] = 16,
@@ -4123,12 +4123,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 550,
 									["overkill"] = 249,
+									["amount"] = 550,
 								},
 							},
-							["amount"] = 550,
 							["overkill"] = 249,
+							["amount"] = 550,
 						},
 					},
 					["totaldamage"] = 300,
@@ -4175,12 +4175,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["amount"] = 139,
 									["overkill"] = 15,
+									["amount"] = 139,
 								},
 							},
-							["amount"] = 139,
 							["overkill"] = 15,
+							["amount"] = 139,
 						},
 						[42209] = {
 							["school"] = 16,
@@ -4200,6 +4200,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 411,
 						},
+						[15430] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 13,
+									["amount"] = 56,
+								},
+							},
+							["overkill"] = 13,
+							["amount"] = 56,
+						},
 						[9782] = {
 							["school"] = 1,
 							["sources"] = {
@@ -4208,17 +4219,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 28,
-						},
-						[15430] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 56,
-									["overkill"] = 13,
-								},
-							},
-							["amount"] = 56,
-							["overkill"] = 13,
 						},
 					},
 					["totaldamage"] = 163,
@@ -4233,12 +4233,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["total"] = 377,
 							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 137,
-									["total"] = 377,
-								},
 								["Popasfant"] = {
 									["amount"] = 38,
+								},
+								["Omoratorul"] = {
+									["total"] = 377,
+									["amount"] = 137,
 								},
 							},
 							["amount"] = 175,
@@ -4252,6 +4252,13 @@ SkadaStorageDB = {
 					["damage"] = 175,
 				}, -- [4]
 			},
+			["rage"] = 83,
+			["totaldamage"] = 7741,
+			["time"] = 34,
+			["etotaldamagetaken"] = 7741,
+			["totaldamagetaken"] = 1352,
+			["etotaldamage"] = 1352,
+			["last_time"] = 39120.618,
 			["players"] = {
 				{
 					["last"] = 39118.201,
@@ -4324,10 +4331,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[8094] = {
+						[6065] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 34,
+							["uptime"] = 13,
 						},
 						[2565] = {
 							["school"] = 1,
@@ -4335,11 +4343,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[6065] = {
-							["school"] = 2,
+						[8094] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 34,
 						},
 					},
 					["role"] = "TANK",
@@ -4355,18 +4362,18 @@ SkadaStorageDB = {
 							["total"] = 285,
 							["hitmin"] = 31,
 							["id"] = 992,
-							["hit"] = 5,
+							["ABSORB"] = 4,
 							["sources"] = {
 								["Witherbark Shadow Hunter"] = {
-									["amount"] = 159,
 									["total"] = 285,
+									["amount"] = 159,
 								},
 							},
 							["count"] = 9,
-							["ABSORB"] = 4,
+							["hit"] = 5,
 							["school"] = 32,
-							["amount"] = 159,
 							["hitmax"] = 32,
+							["amount"] = 159,
 							["hitamount"] = 159,
 						},
 						["Melee"] = {
@@ -4375,19 +4382,11 @@ SkadaStorageDB = {
 							["hitmin"] = 24,
 							["crushing"] = 1,
 							["id"] = 6603,
-							["amount"] = 364,
 							["blocked"] = 315,
-							["count"] = 29,
-							["ABSORB"] = 1,
-							["PARRY"] = 3,
-							["hitmax"] = 32,
-							["hit"] = 12,
-							["school"] = 1,
-							["BLOCK"] = 11,
 							["sources"] = {
 								["Witherbark Shadow Hunter"] = {
-									["amount"] = 142,
 									["total"] = 189,
+									["amount"] = 142,
 								},
 								["Witherbark Headhunter"] = {
 									["amount"] = 59,
@@ -4396,24 +4395,32 @@ SkadaStorageDB = {
 									["amount"] = 163,
 								},
 							},
+							["BLOCK"] = 11,
+							["hit"] = 12,
+							["PARRY"] = 3,
+							["count"] = 29,
+							["amount"] = 364,
+							["school"] = 1,
+							["hitmax"] = 32,
+							["ABSORB"] = 1,
 							["hitamount"] = 324,
 						},
 						["Magma Totem"] = {
 							["total"] = 377,
 							["hitmin"] = 34,
 							["id"] = 8187,
-							["hit"] = 4,
+							["ABSORB"] = 7,
 							["sources"] = {
 								["Magma Totem"] = {
-									["amount"] = 137,
 									["total"] = 377,
+									["amount"] = 137,
 								},
 							},
 							["count"] = 11,
-							["ABSORB"] = 7,
+							["hit"] = 4,
 							["school"] = 4,
-							["amount"] = 137,
 							["hitmax"] = 35,
+							["amount"] = 137,
 							["hitamount"] = 137,
 						},
 					},
@@ -4422,7 +4429,7 @@ SkadaStorageDB = {
 						[23602] = 75,
 					},
 					["name"] = "Omoratorul",
-					["totaldamage"] = 3793,
+					["overkill"] = 360,
 					["damagespells"] = {
 						["Thunder Clap"] = {
 							["hitmin"] = 64,
@@ -4438,20 +4445,20 @@ SkadaStorageDB = {
 									["amount"] = 411,
 								},
 							},
-							["hit"] = 14,
+							["blocked"] = 34,
 							["casts"] = 4,
 							["count"] = 14,
-							["blocked"] = 34,
+							["hit"] = 14,
 							["school"] = 1,
-							["amount"] = 1130,
 							["hitmax"] = 91,
+							["amount"] = 1130,
 							["hitamount"] = 1130,
 						},
 						["Melee"] = {
 							["glance"] = 143,
 							["hitmin"] = 56,
 							["id"] = 6603,
-							["glancemin"] = 43,
+							["hitamount"] = 117,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 204,
@@ -4463,22 +4470,22 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["glancemax"] = 57,
+							["count"] = 6,
 							["glancing"] = 3,
 							["PARRY"] = 1,
 							["hitmax"] = 61,
 							["amount"] = 260,
 							["school"] = 1,
 							["hit"] = 2,
-							["count"] = 6,
-							["hitamount"] = 117,
+							["glancemax"] = 57,
+							["glancemin"] = 43,
 						},
 						["Cleave"] = {
-							["criticalamount"] = 184,
-							["hitmin"] = 81,
 							["criticalmin"] = 184,
+							["hitmin"] = 81,
+							["criticalamount"] = 184,
 							["id"] = 7369,
-							["casts"] = 4,
+							["criticalmax"] = 184,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 87,
@@ -4490,42 +4497,31 @@ SkadaStorageDB = {
 									["amount"] = 536,
 								},
 							},
+							["hitmax"] = 92,
+							["hit"] = 6,
+							["casts"] = 4,
 							["critical"] = 1,
 							["amount"] = 715,
-							["criticalmax"] = 184,
-							["count"] = 8,
-							["hit"] = 6,
 							["school"] = 1,
-							["hitmax"] = 92,
+							["count"] = 8,
 							["MISS"] = 1,
 							["hitamount"] = 531,
 						},
-						["Revenge"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 273,
-							["id"] = 6574,
+						["Rend (DoT)"] = {
+							["hitmin"] = 32,
+							["id"] = 6548,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
-									["amount"] = 565,
-									["overkill"] = 111,
-								},
-								["Witherbark Headhunter"] = {
-									["amount"] = 550,
-									["overkill"] = 249,
-								},
-								["Witherbark Witch Doctor"] = {
-									["amount"] = 323,
+									["amount"] = 96,
 								},
 							},
-							["overkill"] = 360,
-							["count"] = 7,
-							["PARRY"] = 1,
-							["hitmax"] = 323,
-							["amount"] = 1438,
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 1,
-							["hit"] = 5,
-							["casts"] = 4,
-							["hitamount"] = 1438,
+							["hitmax"] = 32,
+							["amount"] = 96,
+							["hitamount"] = 96,
 						},
 						["Mithril Shield Spike"] = {
 							["hitmin"] = 14,
@@ -4549,24 +4545,35 @@ SkadaStorageDB = {
 							["amount"] = 154,
 							["hitamount"] = 154,
 						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 32,
-							["id"] = 6548,
+						["Revenge"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 273,
+							["id"] = 6574,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
-									["amount"] = 96,
+									["overkill"] = 111,
+									["amount"] = 565,
+								},
+								["Witherbark Headhunter"] = {
+									["overkill"] = 249,
+									["amount"] = 550,
+								},
+								["Witherbark Witch Doctor"] = {
+									["amount"] = 323,
 								},
 							},
-							["casts"] = 2,
-							["count"] = 3,
-							["hit"] = 3,
+							["overkill"] = 360,
+							["hitmax"] = 323,
+							["PARRY"] = 1,
+							["count"] = 7,
+							["amount"] = 1438,
 							["school"] = 1,
-							["hitmax"] = 32,
-							["amount"] = 96,
-							["hitamount"] = 96,
+							["casts"] = 4,
+							["hit"] = 5,
+							["hitamount"] = 1438,
 						},
 					},
-					["overkill"] = 360,
+					["totaldamage"] = 3793,
 				}, -- [1]
 				{
 					["last"] = 39115.343,
@@ -4617,11 +4624,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[5007] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 34,
-						},
 						[15263] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -4633,6 +4635,11 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 7,
+						},
+						[5007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 34,
 						},
 					},
 					["absorbspells"] = {
@@ -4663,36 +4670,36 @@ SkadaStorageDB = {
 							["count"] = 6,
 							["amount"] = 259,
 							["max"] = 111,
-							["min"] = 38,
+							["school"] = 2,
 							["targets"] = {
 								["Vrajadefoc"] = {
 									["overheal"] = 225,
 									["amount"] = 0,
 								},
-								["Popasfant"] = {
-									["overheal"] = 184,
-									["amount"] = 38,
-								},
 								["Omoratorul"] = {
 									["overheal"] = 0,
 									["amount"] = 221,
 								},
+								["Popasfant"] = {
+									["overheal"] = 184,
+									["amount"] = 38,
+								},
 							},
-							["school"] = 2,
+							["min"] = 38,
 						},
 						[56160] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 83,
 							["school"] = 2,
-							["min"] = 83,
+							["max"] = 83,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 0,
 									["amount"] = 83,
 								},
 							},
-							["max"] = 83,
+							["min"] = 83,
 						},
 						[2053] = {
 							["overheal"] = 0,
@@ -4709,8 +4716,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 256,
 							["school"] = 2,
-							["count"] = 1,
 							["criticalmin"] = 256,
+							["count"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -4732,26 +4739,26 @@ SkadaStorageDB = {
 					},
 					["heal"] = 598,
 					["name"] = "Popasfant",
-					["role"] = "HEALER",
+					["overkill"] = 13,
 					["damagespells"] = {
 						["Holy Nova"] = {
 							["hitmin"] = 56,
 							["id"] = 15430,
-							["count"] = 3,
+							["hitmax"] = 56,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 56,
 								},
 								["Witherbark Witch Doctor"] = {
-									["amount"] = 56,
 									["overkill"] = 13,
+									["amount"] = 56,
 								},
 							},
 							["overkill"] = 13,
-							["amount"] = 112,
-							["casts"] = 2,
-							["hitmax"] = 56,
 							["hit"] = 2,
+							["casts"] = 2,
+							["count"] = 3,
+							["amount"] = 112,
 							["school"] = 2,
 							["resisted"] = 20,
 							["MISS"] = 1,
@@ -4765,9 +4772,9 @@ SkadaStorageDB = {
 									["amount"] = 252,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 252,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 27,
@@ -4782,8 +4789,8 @@ SkadaStorageDB = {
 									["amount"] = 48,
 								},
 							},
-							["count"] = 7,
 							["hitmax"] = 7,
+							["count"] = 7,
 							["hit"] = 7,
 							["school"] = 2,
 							["resisted"] = 1,
@@ -4791,7 +4798,7 @@ SkadaStorageDB = {
 							["hitamount"] = 48,
 						},
 					},
-					["overkill"] = 13,
+					["role"] = "HEALER",
 				}, -- [2]
 				{
 					["last"] = 39120.569,
@@ -4844,19 +4851,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 34,
 						},
-						[6136] = {
+						[12654] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 16,
-							["refresh"] = 3,
+							["school"] = 4,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["refresh"] = 3,
+									["uptime"] = 4,
 									["count"] = 1,
-									["uptime"] = 12,
 								},
 							},
-							["uptime"] = 12,
+							["uptime"] = 4,
 						},
 						[1461] = {
 							["type"] = "BUFF",
@@ -4905,17 +4910,19 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 11,
 						},
-						[12654] = {
+						[6136] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 4,
+							["school"] = 16,
+							["refresh"] = 3,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["uptime"] = 4,
+									["refresh"] = 3,
 									["count"] = 1,
+									["uptime"] = 12,
 								},
 							},
-							["uptime"] = 4,
+							["uptime"] = 12,
 						},
 					},
 					["totaldamage"] = 3536,
@@ -4928,18 +4935,18 @@ SkadaStorageDB = {
 							["id"] = 8401,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 248,
 									["overkill"] = 176,
+									["amount"] = 248,
 								},
 								["Witherbark Shadow Hunter"] = {
-									["amount"] = 237,
 									["overkill"] = 167,
+									["amount"] = 237,
 								},
 							},
 							["overkill"] = 343,
-							["count"] = 2,
-							["casts"] = 2,
 							["hitmax"] = 248,
+							["casts"] = 2,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 53,
@@ -4954,8 +4961,8 @@ SkadaStorageDB = {
 									["amount"] = 67,
 								},
 							},
-							["count"] = 2,
 							["hitmax"] = 35,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 3,
@@ -4976,8 +4983,8 @@ SkadaStorageDB = {
 									["amount"] = 24,
 								},
 							},
-							["count"] = 7,
 							["hitmax"] = 26,
+							["count"] = 7,
 							["hit"] = 7,
 							["school"] = 4,
 							["resisted"] = 11,
@@ -4987,7 +4994,7 @@ SkadaStorageDB = {
 						["Flamestrike"] = {
 							["hitmin"] = 100,
 							["id"] = 2121,
-							["count"] = 8,
+							["hitmax"] = 135,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 135,
@@ -4996,27 +5003,27 @@ SkadaStorageDB = {
 									["amount"] = 448,
 								},
 								["Witherbark Witch Doctor"] = {
-									["amount"] = 115,
 									["overkill"] = 15,
+									["amount"] = 115,
 								},
 							},
 							["overkill"] = 15,
-							["amount"] = 698,
-							["casts"] = 2,
-							["hitmax"] = 135,
 							["hit"] = 6,
+							["casts"] = 2,
+							["count"] = 8,
+							["amount"] = 698,
 							["school"] = 4,
 							["resisted"] = 36,
 							["MISS"] = 2,
 							["hitamount"] = 698,
 						},
 						["Blizzard"] = {
-							["criticalmin"] = 83,
-							["count"] = 25,
-							["hitmin"] = 56,
 							["criticalamount"] = 363,
+							["hitmax"] = 69,
+							["hitmin"] = 56,
+							["criticalmin"] = 83,
 							["id"] = 42209,
-							["casts"] = 1,
+							["criticalmax"] = 103,
 							["targets"] = {
 								["Witherbark Shadow Hunter"] = {
 									["amount"] = 356,
@@ -5028,22 +5035,22 @@ SkadaStorageDB = {
 									["amount"] = 663,
 								},
 							},
-							["hitmax"] = 69,
-							["hit"] = 20,
-							["criticalmax"] = 103,
 							["critical"] = 4,
 							["amount"] = 1641,
+							["casts"] = 1,
+							["count"] = 25,
+							["hit"] = 20,
 							["school"] = 16,
 							["resisted"] = 148,
 							["MISS"] = 1,
 							["hitamount"] = 1278,
 						},
 						["Fire Blast"] = {
-							["criticalamount"] = 297,
-							["hitmin"] = 177,
 							["criticalmin"] = 297,
+							["hitmin"] = 177,
+							["criticalamount"] = 297,
 							["id"] = 8412,
-							["criticalmax"] = 297,
+							["count"] = 2,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 297,
@@ -5052,19 +5059,19 @@ SkadaStorageDB = {
 									["amount"] = 177,
 								},
 							},
-							["critical"] = 1,
-							["amount"] = 474,
-							["casts"] = 2,
 							["hitmax"] = 177,
 							["hit"] = 1,
+							["criticalmax"] = 297,
+							["critical"] = 1,
+							["amount"] = 474,
 							["school"] = 4,
 							["resisted"] = 19,
-							["count"] = 2,
+							["casts"] = 2,
 							["hitamount"] = 177,
 						},
 					},
 					["damagetaken"] = 241,
-					["role"] = "DAMAGER",
+					["overheal"] = 99,
 					["id"] = "0x0700000000B06C60",
 					["spec"] = 63,
 					["healspells"] = {
@@ -5073,14 +5080,14 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 241,
 							["school"] = 1,
-							["min"] = 241,
+							["max"] = 241,
 							["targets"] = {
 								["Vrajadefoc"] = {
 									["overheal"] = 99,
 									["amount"] = 241,
 								},
 							},
-							["max"] = 241,
+							["min"] = 241,
 						},
 					},
 					["overkill"] = 358,
@@ -5089,54 +5096,47 @@ SkadaStorageDB = {
 					},
 					["heal"] = 241,
 					["potion"] = 1,
-					["mana"] = 90,
-					["manaspells"] = {
-						[29077] = 90,
-					},
-					["name"] = "Vrajadefoc",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 47,
 							["criticalamount"] = 94,
 							["id"] = 6603,
 							["criticalmin"] = 94,
-							["count"] = 4,
-							["amount"] = 241,
-							["criticalmax"] = 94,
-							["hitmax"] = 50,
-							["hit"] = 3,
-							["school"] = 1,
-							["critical"] = 1,
 							["sources"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 241,
 								},
 							},
+							["critical"] = 1,
+							["criticalmax"] = 94,
+							["count"] = 4,
+							["amount"] = 241,
+							["school"] = 1,
+							["hit"] = 3,
+							["hitmax"] = 50,
 							["hitamount"] = 147,
 						},
 					},
-					["overheal"] = 99,
+					["name"] = "Vrajadefoc",
+					["manaspells"] = {
+						[29077] = 90,
+					},
+					["mana"] = 90,
+					["role"] = "DAMAGER",
 				}, -- [3]
 			},
-			["totaldamage"] = 7741,
-			["time"] = 34,
-			["etotaldamage"] = 1352,
-			["totaldamagetaken"] = 1352,
-			["etotaldamagetaken"] = 7741,
-			["last_time"] = 39120.618,
-			["rage"] = 83,
 			["absorb"] = 413,
 			["damagetaken"] = 939,
 			["type"] = "group",
-			["starttime"] = 1728247938,
+			["overheal"] = 508,
 			["damage"] = 7741,
-			["name"] = "Witherbark Shadow Hunter",
+			["potion"] = 1,
 			["overkill"] = 731,
 			["edamagetaken"] = 7741,
 			["heal"] = 839,
-			["potion"] = 1,
+			["name"] = "Witherbark Shadow Hunter",
 			["mobname"] = "Witherbark Shadow Hunter",
-			["overheal"] = 508,
+			["starttime"] = 1728247938,
 			["edamage"] = 939,
 			["last_action"] = 1728247970,
 			["endtime"] = 1728247972,
@@ -5153,12 +5153,12 @@ SkadaStorageDB = {
 								["Vrajadefoc"] = {
 									["amount"] = 270,
 								},
-								["Omoratorul"] = {
-									["amount"] = 161,
-									["total"] = 236,
-								},
 								["Popasfant"] = {
 									["amount"] = 84,
+								},
+								["Omoratorul"] = {
+									["total"] = 236,
+									["amount"] = 161,
 								},
 							},
 							["amount"] = 515,
@@ -5172,12 +5172,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 567,
 									["overkill"] = 74,
+									["amount"] = 567,
 								},
 							},
-							["amount"] = 567,
 							["overkill"] = 74,
+							["amount"] = 567,
 						},
 						[8401] = {
 							["school"] = 4,
@@ -5192,23 +5192,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 352,
 									["overkill"] = 68,
+									["amount"] = 352,
 								},
 							},
-							["amount"] = 352,
 							["overkill"] = 68,
+							["amount"] = 352,
 						},
 						[6574] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 1390,
 									["overkill"] = 442,
+									["amount"] = 1390,
 								},
 							},
-							["amount"] = 1390,
 							["overkill"] = 442,
+							["amount"] = 1390,
 						},
 						[12654] = {
 							["school"] = 4,
@@ -5228,14 +5228,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 123,
 						},
-						[7369] = {
-							["school"] = 1,
+						[15430] = {
+							["school"] = 2,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 184,
+								["Popasfant"] = {
+									["amount"] = 1734,
 								},
 							},
-							["amount"] = 184,
+							["amount"] = 1734,
 						},
 						[2121] = {
 							["school"] = 4,
@@ -5250,12 +5250,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 93,
 									["overkill"] = 9,
+									["amount"] = 93,
 								},
 							},
-							["amount"] = 93,
 							["overkill"] = 9,
+							["amount"] = 93,
 						},
 						[8412] = {
 							["school"] = 4,
@@ -5266,14 +5266,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 305,
 						},
-						[15430] = {
-							["school"] = 2,
+						[7369] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 1734,
+								["Omoratorul"] = {
+									["amount"] = 184,
 								},
 							},
-							["amount"] = 1734,
+							["amount"] = 184,
 						},
 					},
 					["totaldamage"] = 590,
@@ -5289,8 +5289,8 @@ SkadaStorageDB = {
 							["total"] = 57,
 							["targets"] = {
 								["Omoratorul"] = {
-									["amount"] = 0,
 									["total"] = 57,
+									["amount"] = 0,
 								},
 							},
 							["amount"] = 0,
@@ -5340,12 +5340,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 170,
 									["overkill"] = 47,
+									["amount"] = 170,
 								},
 							},
-							["amount"] = 170,
 							["overkill"] = 47,
+							["amount"] = 170,
 						},
 						[9782] = {
 							["school"] = 1,
@@ -5369,12 +5369,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["total"] = 103,
 							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 0,
-									["total"] = 103,
-								},
 								["Popasfant"] = {
 									["amount"] = 114,
+								},
+								["Omoratorul"] = {
+									["total"] = 103,
+									["amount"] = 0,
 								},
 							},
 							["amount"] = 114,
@@ -5388,14 +5388,14 @@ SkadaStorageDB = {
 					["damage"] = 114,
 				}, -- [3]
 			},
-			["overheal"] = 2842,
+			["rage"] = 65,
 			["totaldamage"] = 6886,
 			["time"] = 36,
-			["last_time"] = 39077.948,
+			["damage"] = 6886,
 			["totaldamagetaken"] = 864,
 			["etotaldamagetaken"] = 6886,
-			["damage"] = 6886,
-			["rage"] = 65,
+			["last_time"] = 39077.948,
+			["overheal"] = 2842,
 			["type"] = "group",
 			["damagetaken"] = 629,
 			["players"] = {
@@ -5509,17 +5509,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 30,
 						},
-						[6065] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 30,
-						},
 						[2565] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
+						},
+						[6065] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
 						},
 					},
 					["totaldamage"] = 3343,
@@ -5527,60 +5527,14 @@ SkadaStorageDB = {
 					["totaldamagetaken"] = 396,
 					["damage"] = 3343,
 					["damagespells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 65,
-							["id"] = 6603,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 352,
-									["overkill"] = 68,
-								},
-								["Witherbark Witch Doctor"] = {
-									["amount"] = 148,
-								},
-							},
-							["overkill"] = 68,
-							["hit"] = 7,
-							["PARRY"] = 1,
-							["count"] = 10,
-							["amount"] = 500,
-							["school"] = 1,
-							["hitmax"] = 81,
-							["MISS"] = 1,
-							["hitamount"] = 500,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 81,
-							["id"] = 8204,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 567,
-									["overkill"] = 74,
-								},
-								["Witherbark Witch Doctor"] = {
-									["amount"] = 170,
-									["overkill"] = 47,
-								},
-							},
-							["overkill"] = 121,
-							["hit"] = 9,
-							["casts"] = 3,
-							["count"] = 10,
-							["amount"] = 737,
-							["school"] = 1,
-							["hitmax"] = 85,
-							["MISS"] = 1,
-							["hitamount"] = 737,
-						},
 						["Revenge"] = {
 							["DODGE"] = 1,
 							["hitmin"] = 265,
 							["criticalmin"] = 584,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 1390,
 									["overkill"] = 442,
+									["amount"] = 1390,
 								},
 								["Witherbark Witch Doctor"] = {
 									["amount"] = 302,
@@ -5589,16 +5543,62 @@ SkadaStorageDB = {
 							["amount"] = 1692,
 							["criticalamount"] = 584,
 							["id"] = 6574,
-							["casts"] = 4,
-							["overkill"] = 442,
-							["hitmax"] = 302,
 							["criticalmax"] = 584,
-							["count"] = 7,
+							["overkill"] = 442,
+							["critical"] = 1,
+							["casts"] = 4,
+							["hitmax"] = 302,
 							["hit"] = 4,
 							["school"] = 1,
 							["PARRY"] = 1,
-							["critical"] = 1,
+							["count"] = 7,
 							["hitamount"] = 1108,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 81,
+							["id"] = 8204,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["overkill"] = 74,
+									["amount"] = 567,
+								},
+								["Witherbark Witch Doctor"] = {
+									["overkill"] = 47,
+									["amount"] = 170,
+								},
+							},
+							["overkill"] = 121,
+							["amount"] = 737,
+							["casts"] = 3,
+							["count"] = 10,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 85,
+							["MISS"] = 1,
+							["hitamount"] = 737,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 65,
+							["id"] = 6603,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["overkill"] = 68,
+									["amount"] = 352,
+								},
+								["Witherbark Witch Doctor"] = {
+									["amount"] = 148,
+								},
+							},
+							["overkill"] = 68,
+							["amount"] = 500,
+							["PARRY"] = 1,
+							["count"] = 10,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 81,
+							["MISS"] = 1,
+							["hitamount"] = 500,
 						},
 						["Cleave"] = {
 							["DODGE"] = 1,
@@ -5625,26 +5625,26 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 6190,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 6190,
 						},
 						["Rend"] = {
 							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 6548,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 6548,
 						},
 						["Mithril Shield Spike"] = {
 							["hitmin"] = 13,
@@ -5670,8 +5670,8 @@ SkadaStorageDB = {
 							["id"] = 1608,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 93,
 									["overkill"] = 9,
+									["amount"] = 93,
 								},
 							},
 							["overkill"] = 9,
@@ -5693,14 +5693,14 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 0,
 							["school"] = 4,
-							["id"] = 8187,
-							["ABSORB"] = 3,
 							["sources"] = {
 								["Magma Totem"] = {
-									["amount"] = 0,
 									["total"] = 103,
+									["amount"] = 0,
 								},
 							},
+							["ABSORB"] = 3,
+							["id"] = 8187,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
@@ -5708,12 +5708,12 @@ SkadaStorageDB = {
 							["criticalmin"] = 64,
 							["sources"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 161,
 									["total"] = 236,
+									["amount"] = 161,
 								},
 								["Witherbark Witch Doctor"] = {
-									["amount"] = 0,
 									["total"] = 57,
+									["amount"] = 0,
 								},
 							},
 							["amount"] = 161,
@@ -5721,16 +5721,16 @@ SkadaStorageDB = {
 							["total"] = 293,
 							["criticalamount"] = 64,
 							["id"] = 6603,
+							["critical"] = 1,
+							["criticalmax"] = 64,
+							["hitmax"] = 35,
+							["blocked"] = 267,
+							["PARRY"] = 1,
 							["count"] = 23,
 							["ABSORB"] = 4,
-							["critical"] = 1,
-							["hit"] = 3,
-							["PARRY"] = 1,
-							["BLOCK"] = 10,
-							["blocked"] = 267,
 							["school"] = 1,
-							["hitmax"] = 35,
-							["criticalmax"] = 64,
+							["BLOCK"] = 10,
+							["hit"] = 3,
 							["hitamount"] = 97,
 						},
 						["Wither Touch"] = {
@@ -5751,30 +5751,15 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["role"] = "TANK",
-					["rage"] = 65,
 					["overkill"] = 640,
+					["rage"] = 65,
+					["role"] = "TANK",
 				}, -- [1]
 				{
 					["last"] = 39071.86,
 					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["auras"] = {
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 36,
-						},
-						[458] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 36,
-						},
-						[602] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 36,
-						},
 						[6788] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -5786,6 +5771,21 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 15,
+						},
+						[458] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 36,
 						},
 					},
 					["absorbspells"] = {
@@ -5826,8 +5826,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 123,
 							["school"] = 2,
-							["count"] = 1,
 							["criticalmin"] = 123,
+							["count"] = 1,
 						},
 						[23458] = {
 							["overheal"] = 2842,
@@ -5838,13 +5838,13 @@ SkadaStorageDB = {
 									["overheal"] = 750,
 									["amount"] = 270,
 								},
-								["Omoratorul"] = {
-									["overheal"] = 1096,
-									["amount"] = 38,
-								},
 								["Popasfant"] = {
 									["overheal"] = 996,
 									["amount"] = 198,
+								},
+								["Omoratorul"] = {
+									["overheal"] = 1096,
+									["amount"] = 38,
 								},
 							},
 							["min"] = 38,
@@ -5852,8 +5852,8 @@ SkadaStorageDB = {
 							["count"] = 28,
 							["amount"] = 506,
 							["school"] = 2,
-							["critical"] = 3,
 							["criticalmin"] = 0,
+							["critical"] = 3,
 						},
 					},
 					["damagetakenspells"] = {
@@ -5890,15 +5890,14 @@ SkadaStorageDB = {
 					},
 					["heal"] = 629,
 					["name"] = "Popasfant",
-					["role"] = "HEALER",
 					["damagespells"] = {
 						["Holy Nova"] = {
-							["criticalamount"] = 104,
-							["count"] = 37,
-							["hitmin"] = 50,
 							["criticalmin"] = 104,
+							["critical"] = 1,
+							["hitmin"] = 50,
+							["criticalamount"] = 104,
 							["id"] = 15430,
-							["casts"] = 10,
+							["criticalmax"] = 104,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 1734,
@@ -5907,11 +5906,11 @@ SkadaStorageDB = {
 									["amount"] = 367,
 								},
 							},
-							["critical"] = 1,
-							["hit"] = 32,
-							["criticalmax"] = 104,
 							["hitmax"] = 70,
 							["amount"] = 2101,
+							["casts"] = 10,
+							["count"] = 37,
+							["hit"] = 32,
 							["school"] = 2,
 							["resisted"] = 125,
 							["MISS"] = 4,
@@ -5921,15 +5920,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 6603,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 6603,
 						},
 					},
+					["role"] = "HEALER",
 				}, -- [2]
 				{
 					["last"] = 39068.027,
@@ -5973,17 +5973,11 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 36,
 						},
-						[8401] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
+						[64343] = {
 							["school"] = 4,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
 						},
 						[1461] = {
 							["type"] = "BUFF",
@@ -6037,11 +6031,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 18,
 						},
-						[64343] = {
-							["school"] = 4,
-							["type"] = "BUFF",
+						[8401] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["school"] = 4,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -6057,9 +6057,9 @@ SkadaStorageDB = {
 									["amount"] = 206,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 3,
 							["hitmax"] = 206,
+							["casts"] = 3,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 51,
@@ -6074,8 +6074,8 @@ SkadaStorageDB = {
 									["amount"] = 27,
 								},
 							},
-							["count"] = 4,
 							["hitmax"] = 7,
+							["count"] = 4,
 							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 1,
@@ -6090,8 +6090,8 @@ SkadaStorageDB = {
 									["amount"] = 177,
 								},
 							},
-							["count"] = 7,
 							["hitmax"] = 26,
+							["count"] = 7,
 							["hit"] = 7,
 							["school"] = 4,
 							["resisted"] = 5,
@@ -6099,12 +6099,12 @@ SkadaStorageDB = {
 							["hitamount"] = 177,
 						},
 						["Flamestrike"] = {
-							["criticalamount"] = 151,
-							["count"] = 7,
-							["hitmin"] = 102,
 							["criticalmin"] = 151,
+							["critical"] = 1,
+							["hitmin"] = 102,
+							["criticalamount"] = 151,
 							["id"] = 2121,
-							["casts"] = 2,
+							["criticalmax"] = 151,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 585,
@@ -6113,11 +6113,11 @@ SkadaStorageDB = {
 									["amount"] = 110,
 								},
 							},
-							["critical"] = 1,
-							["hit"] = 5,
-							["criticalmax"] = 151,
 							["hitmax"] = 120,
 							["amount"] = 695,
+							["casts"] = 2,
+							["count"] = 7,
+							["hit"] = 5,
 							["school"] = 4,
 							["resisted"] = 50,
 							["MISS"] = 1,
@@ -6131,8 +6131,8 @@ SkadaStorageDB = {
 									["amount"] = 32,
 								},
 							},
-							["count"] = 2,
 							["hitmax"] = 17,
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 4,
 							["resisted"] = 4,
@@ -6147,14 +6147,14 @@ SkadaStorageDB = {
 									["amount"] = 305,
 								},
 							},
-							["critical"] = 1,
+							["criticalmin"] = 305,
 							["casts"] = 2,
-							["count"] = 2,
+							["critical"] = 1,
 							["amount"] = 305,
 							["school"] = 4,
 							["criticalmax"] = 305,
 							["MISS"] = 1,
-							["criticalmin"] = 305,
+							["count"] = 2,
 						},
 					},
 					["damagetaken"] = 270,
@@ -6179,22 +6179,22 @@ SkadaStorageDB = {
 						},
 					},
 					["name"] = "Vrajadefoc",
-					["totaldamage"] = 1442,
-					["mana"] = 105,
 					["manaspells"] = {
 						[29077] = 105,
 					},
+					["mana"] = 105,
+					["totaldamage"] = 1442,
 				}, -- [3]
 			},
-			["absorb"] = 235,
-			["ccdone"] = 1,
+			["starttime"] = 1728247892,
+			["mobname"] = "Witherbark Headhunter",
 			["etotaldamage"] = 864,
 			["overkill"] = 640,
 			["edamagetaken"] = 6886,
 			["heal"] = 629,
 			["name"] = "Witherbark Headhunter (6)",
-			["mobname"] = "Witherbark Headhunter",
-			["starttime"] = 1728247892,
+			["ccdone"] = 1,
+			["absorb"] = 235,
 			["edamage"] = 629,
 			["last_action"] = 1728247928,
 			["endtime"] = 1728247928,
@@ -6203,12 +6203,12 @@ SkadaStorageDB = {
 			["mana"] = 1508,
 			["enemies"] = {
 				{
-					["name"] = "Witherbark Headhunter",
 					["damagetaken"] = 1060,
-					["flag"] = 68168,
-					["id"] = "0xF1300009FC189749",
-					["totaldamagetaken"] = 1060,
+					["name"] = "Witherbark Headhunter",
 					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 1060,
+					["id"] = "0xF1300009FC189749",
 					["damagetakenspells"] = {
 						[8401] = {
 							["school"] = 4,
@@ -6259,12 +6259,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 280,
 									["overkill"] = 202,
+									["amount"] = 280,
 								},
 							},
-							["amount"] = 280,
 							["overkill"] = 202,
+							["amount"] = 280,
 						},
 					},
 				}, -- [1]
@@ -6320,6 +6320,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 91,
 						},
+						[15263] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 137,
+									["amount"] = 214,
+								},
+							},
+							["overkill"] = 137,
+							["amount"] = 214,
+						},
 						[8412] = {
 							["school"] = 4,
 							["sources"] = {
@@ -6328,17 +6339,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 189,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 214,
-									["overkill"] = 137,
-								},
-							},
-							["amount"] = 214,
-							["overkill"] = 137,
 						},
 					},
 					["totaldamage"] = 104,
@@ -6353,12 +6353,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["total"] = 106,
 							["targets"] = {
+								["Vrajadefoc"] = {
+									["total"] = 38,
+									["amount"] = 0,
+								},
 								["Omoratorul"] = {
 									["amount"] = 102,
-								},
-								["Vrajadefoc"] = {
-									["amount"] = 0,
-									["total"] = 38,
 								},
 							},
 							["amount"] = 102,
@@ -6372,6 +6372,13 @@ SkadaStorageDB = {
 					["damage"] = 102,
 				}, -- [3]
 			},
+			["overheal"] = 68,
+			["totaldamage"] = 2219,
+			["time"] = 21,
+			["starttime"] = 1728247757,
+			["totaldamagetaken"] = 244,
+			["etotaldamagetaken"] = 2219,
+			["last_time"] = 38926.831,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -6464,16 +6471,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[6065] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
 						[12809] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -6485,6 +6482,16 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 5,
+						},
+						[6065] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
 						},
 					},
 					["totaldamage"] = 1385,
@@ -6515,8 +6522,15 @@ SkadaStorageDB = {
 							["glance"] = 253,
 							["hitmin"] = 69,
 							["id"] = 6603,
-							["glancemin"] = 57,
+							["hitamount"] = 309,
 							["glancemax"] = 67,
+							["count"] = 9,
+							["glancing"] = 4,
+							["PARRY"] = 1,
+							["hitmax"] = 82,
+							["amount"] = 562,
+							["school"] = 1,
+							["hit"] = 4,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 139,
@@ -6525,36 +6539,23 @@ SkadaStorageDB = {
 									["amount"] = 423,
 								},
 							},
-							["glancing"] = 4,
-							["PARRY"] = 1,
-							["hitmax"] = 82,
-							["amount"] = 562,
-							["school"] = 1,
-							["hit"] = 4,
-							["count"] = 9,
-							["hitamount"] = 309,
+							["glancemin"] = 57,
 						},
-						["Revenge"] = {
-							["hitmin"] = 280,
-							["id"] = 6574,
+						["Concussion Blow"] = {
+							["hitmin"] = 102,
+							["id"] = 12809,
 							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 280,
-									["overkill"] = 202,
-								},
 								["Witherbark Witch Doctor"] = {
-									["amount"] = 0,
+									["amount"] = 102,
 								},
 							},
-							["overkill"] = 202,
-							["count"] = 2,
 							["casts"] = 1,
-							["hitmax"] = 280,
-							["amount"] = 280,
-							["school"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
-							["MISS"] = 1,
-							["hitamount"] = 280,
+							["school"] = 1,
+							["hitmax"] = 102,
+							["amount"] = 102,
+							["hitamount"] = 102,
 						},
 						["Victory Rush"] = {
 							["hitmin"] = 124,
@@ -6587,21 +6588,27 @@ SkadaStorageDB = {
 							["amount"] = 140,
 							["hitamount"] = 140,
 						},
-						["Concussion Blow"] = {
-							["hitmin"] = 102,
-							["id"] = 12809,
+						["Revenge"] = {
+							["hitmin"] = 280,
+							["id"] = 6574,
 							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["overkill"] = 202,
+									["amount"] = 280,
+								},
 								["Witherbark Witch Doctor"] = {
-									["amount"] = 102,
+									["amount"] = 0,
 								},
 							},
+							["overkill"] = 202,
+							["hitmax"] = 280,
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
+							["count"] = 2,
+							["amount"] = 280,
 							["school"] = 1,
-							["hitmax"] = 102,
-							["amount"] = 102,
-							["hitamount"] = 102,
+							["hit"] = 1,
+							["MISS"] = 1,
+							["hitamount"] = 280,
 						},
 					},
 					["damagetaken"] = 206,
@@ -6613,6 +6620,9 @@ SkadaStorageDB = {
 							["criticalamount"] = 50,
 							["id"] = 6603,
 							["criticalmin"] = 50,
+							["criticalmax"] = 50,
+							["critical"] = 1,
+							["hit"] = 2,
 							["sources"] = {
 								["Witherbark Witch Doctor"] = {
 									["amount"] = 104,
@@ -6620,12 +6630,9 @@ SkadaStorageDB = {
 							},
 							["hitmax"] = 27,
 							["amount"] = 104,
-							["PARRY"] = 1,
-							["count"] = 4,
-							["hit"] = 2,
 							["school"] = 1,
-							["critical"] = 1,
-							["criticalmax"] = 50,
+							["count"] = 4,
+							["PARRY"] = 1,
 							["hitamount"] = 54,
 						},
 						["Magma Totem"] = {
@@ -6649,9 +6656,9 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 2,
-					["role"] = "TANK",
-					["rage"] = 5,
 					["overkill"] = 202,
+					["rage"] = 5,
+					["role"] = "TANK",
 				}, -- [1]
 				{
 					["last"] = 38926.764,
@@ -6662,26 +6669,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
-						},
-						[1133] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[602] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[6192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -6694,6 +6681,26 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 5,
+						},
+						[6192] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[1133] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
 						},
 					},
 					["absorbspells"] = {
@@ -6722,34 +6729,33 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 14,
 							["school"] = 2,
-							["min"] = 14,
+							["max"] = 14,
 							["targets"] = {
 								["Vrajadefoc"] = {
 									["overheal"] = 68,
 									["amount"] = 14,
 								},
 							},
-							["max"] = 14,
+							["min"] = 14,
 						},
 					},
 					["overkill"] = 137,
 					["heal"] = 14,
 					["name"] = "Popasfant",
-					["role"] = "HEALER",
 					["damagespells"] = {
 						["Holy Fire"] = {
 							["hitmin"] = 214,
 							["id"] = 15263,
 							["targets"] = {
 								["Witherbark Witch Doctor"] = {
-									["amount"] = 214,
 									["overkill"] = 137,
+									["amount"] = 214,
 								},
 							},
 							["overkill"] = 137,
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 214,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 53,
@@ -6757,6 +6763,7 @@ SkadaStorageDB = {
 							["hitamount"] = 214,
 						},
 					},
+					["role"] = "HEALER",
 				}, -- [2]
 				{
 					["last"] = 38924.889,
@@ -6804,16 +6811,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
 						[12051] = {
 							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 8,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
 						},
 					},
 					["totaldamage"] = 620,
@@ -6829,34 +6836,14 @@ SkadaStorageDB = {
 									["amount"] = 223,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 223,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 24,
 							["amount"] = 223,
 							["hitamount"] = 223,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 187,
-							["id"] = 8412,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 187,
-								},
-								["Witherbark Witch Doctor"] = {
-									["amount"] = 189,
-								},
-							},
-							["count"] = 2,
-							["casts"] = 2,
-							["hitmax"] = 189,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 20,
-							["amount"] = 376,
-							["hitamount"] = 376,
 						},
 						["Fireball (DoT)"] = {
 							["hitmin"] = 7,
@@ -6873,6 +6860,26 @@ SkadaStorageDB = {
 							["amount"] = 21,
 							["hitamount"] = 21,
 						},
+						["Fire Blast"] = {
+							["hitmin"] = 187,
+							["id"] = 8412,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["amount"] = 187,
+								},
+								["Witherbark Witch Doctor"] = {
+									["amount"] = 189,
+								},
+							},
+							["hitmax"] = 189,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 20,
+							["amount"] = 376,
+							["hitamount"] = 376,
+						},
 					},
 					["damagetaken"] = 0,
 					["id"] = "0x0700000000B06C60",
@@ -6883,43 +6890,36 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 4,
-							["id"] = 8187,
-							["ABSORB"] = 1,
 							["sources"] = {
 								["Magma Totem"] = {
-									["amount"] = 0,
 									["total"] = 38,
+									["amount"] = 0,
 								},
 							},
+							["ABSORB"] = 1,
+							["id"] = 8187,
 						},
 					},
 					["name"] = "Vrajadefoc",
-					["role"] = "DAMAGER",
-					["mana"] = 1508,
 					["manaspells"] = {
 						[12051] = 1508,
 					},
+					["mana"] = 1508,
+					["role"] = "DAMAGER",
 				}, -- [3]
 			},
-			["totaldamage"] = 2219,
-			["time"] = 21,
-			["starttime"] = 1728247757,
-			["totaldamagetaken"] = 244,
-			["etotaldamagetaken"] = 2219,
-			["last_time"] = 38926.831,
-			["overheal"] = 68,
 			["absorb"] = 38,
 			["damagetaken"] = 206,
 			["type"] = "group",
-			["etotaldamage"] = 244,
-			["ccdone"] = 2,
+			["rage"] = 5,
+			["mobname"] = "Witherbark Headhunter",
 			["damage"] = 2219,
 			["overkill"] = 339,
 			["edamagetaken"] = 2219,
 			["heal"] = 14,
 			["name"] = "Witherbark Headhunter (5)",
-			["mobname"] = "Witherbark Headhunter",
-			["rage"] = 5,
+			["ccdone"] = 2,
+			["etotaldamage"] = 244,
 			["edamage"] = 206,
 			["last_action"] = 1728247777,
 			["endtime"] = 1728247778,
@@ -6932,12 +6932,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["total"] = 105,
 							["targets"] = {
+								["Vrajadefoc"] = {
+									["total"] = 73,
+									["amount"] = 0,
+								},
 								["Omoratorul"] = {
 									["amount"] = 59,
-								},
-								["Vrajadefoc"] = {
-									["amount"] = 0,
-									["total"] = 73,
 								},
 							},
 							["amount"] = 59,
@@ -6969,12 +6969,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 360,
 									["overkill"] = 3,
+									["amount"] = 360,
 								},
 							},
-							["amount"] = 360,
 							["overkill"] = 3,
+							["amount"] = 360,
 						},
 						[8104] = {
 							["school"] = 32,
@@ -6994,14 +6994,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 70,
 						},
-						[12809] = {
-							["school"] = 1,
+						[15430] = {
+							["school"] = 2,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 98,
+								["Popasfant"] = {
+									["amount"] = 63,
 								},
 							},
-							["amount"] = 98,
+							["amount"] = 63,
 						},
 						[15263] = {
 							["school"] = 2,
@@ -7025,21 +7025,21 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["amount"] = 401,
 									["overkill"] = 120,
+									["amount"] = 401,
 								},
 							},
-							["amount"] = 401,
 							["overkill"] = 120,
+							["amount"] = 401,
 						},
-						[15430] = {
-							["school"] = 2,
+						[12809] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 63,
+								["Omoratorul"] = {
+									["amount"] = 98,
 								},
 							},
-							["amount"] = 63,
+							["amount"] = 98,
 						},
 					},
 					["totaldamage"] = 132,
@@ -7049,6 +7049,13 @@ SkadaStorageDB = {
 					["damage"] = 59,
 				}, -- [1]
 			},
+			["overheal"] = 359,
+			["totaldamage"] = 2745,
+			["time"] = 19,
+			["damage"] = 2745,
+			["totaldamagetaken"] = 132,
+			["etotaldamagetaken"] = 2745,
+			["last_time"] = 38891.079,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -7126,21 +7133,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 19,
 						},
+						[6065] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
-						},
-						[6192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
 						},
 						[12809] = {
 							["type"] = "DEBUFF",
@@ -7154,11 +7156,16 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 5,
 						},
-						[6065] = {
-							["school"] = 2,
+						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 10,
+						},
+						[6192] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
 						},
 					},
 					["totaldamage"] = 807,
@@ -7174,9 +7181,9 @@ SkadaStorageDB = {
 									["amount"] = 174,
 								},
 							},
-							["count"] = 3,
-							["casts"] = 2,
 							["hitmax"] = 87,
+							["casts"] = 2,
+							["count"] = 3,
 							["amount"] = 174,
 							["school"] = 1,
 							["hit"] = 2,
@@ -7184,25 +7191,25 @@ SkadaStorageDB = {
 							["hitamount"] = 174,
 						},
 						["Melee"] = {
-							["criticalamount"] = 134,
-							["hitmin"] = 72,
 							["criticalmin"] = 134,
+							["hitmin"] = 72,
+							["criticalamount"] = 134,
 							["id"] = 6603,
-							["critical"] = 1,
+							["criticalmax"] = 134,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 360,
 									["overkill"] = 3,
+									["amount"] = 360,
 								},
 							},
 							["overkill"] = 3,
-							["hit"] = 3,
-							["PARRY"] = 1,
-							["count"] = 5,
-							["amount"] = 360,
-							["school"] = 1,
 							["hitmax"] = 79,
-							["criticalmax"] = 134,
+							["PARRY"] = 1,
+							["critical"] = 1,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 360,
+							["count"] = 5,
 							["hitamount"] = 226,
 						},
 						["Rend (DoT)"] = {
@@ -7279,9 +7286,9 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["role"] = "TANK",
-					["rage"] = 30,
 					["overkill"] = 3,
+					["rage"] = 30,
+					["role"] = "TANK",
 				}, -- [1]
 				{
 					["last"] = 38879.887,
@@ -7300,10 +7307,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 8,
 						},
-						[3166] = {
+						[14751] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 19,
+							["uptime"] = 3,
 						},
 						[15263] = {
 							["type"] = "DEBUFF",
@@ -7317,7 +7325,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[602] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
@@ -7327,11 +7335,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[14751] = {
-							["school"] = 1,
+						[602] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 3,
+							["uptime"] = 19,
 						},
 					},
 					["absorbspells"] = {
@@ -7359,10 +7366,10 @@ SkadaStorageDB = {
 									["amount"] = 202,
 								},
 							},
-							["hit"] = 1,
+							["amount"] = 202,
 							["casts"] = 2,
 							["count"] = 2,
-							["amount"] = 202,
+							["hit"] = 1,
 							["school"] = 32,
 							["hitmax"] = 202,
 							["MISS"] = 1,
@@ -7376,9 +7383,9 @@ SkadaStorageDB = {
 									["amount"] = 251,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 251,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 27,
@@ -7430,13 +7437,13 @@ SkadaStorageDB = {
 									["overheal"] = 108,
 									["amount"] = 0,
 								},
-								["Omoratorul"] = {
-									["overheal"] = 49,
-									["amount"] = 123,
-								},
 								["Popasfant"] = {
 									["overheal"] = 120,
 									["amount"] = 0,
+								},
+								["Omoratorul"] = {
+									["overheal"] = 49,
+									["amount"] = 123,
 								},
 							},
 							["min"] = 123,
@@ -7444,8 +7451,8 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 123,
 							["school"] = 2,
-							["critical"] = 1,
 							["criticalmin"] = 123,
+							["critical"] = 1,
 						},
 						[56160] = {
 							["overheal"] = 82,
@@ -7462,8 +7469,8 @@ SkadaStorageDB = {
 					},
 					["heal"] = 123,
 					["name"] = "Popasfant",
-					["role"] = "HEALER",
 					["overheal"] = 359,
+					["role"] = "HEALER",
 				}, -- [2]
 				{
 					["damagespells"] = {
@@ -7475,14 +7482,46 @@ SkadaStorageDB = {
 									["amount"] = 987,
 								},
 							},
-							["count"] = 4,
-							["casts"] = 3,
 							["hitmax"] = 278,
+							["casts"] = 3,
+							["count"] = 4,
 							["hit"] = 4,
 							["school"] = 4,
 							["resisted"] = 76,
 							["amount"] = 987,
 							["hitamount"] = 987,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 194,
+							["id"] = 8412,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["overkill"] = 120,
+									["amount"] = 401,
+								},
+							},
+							["overkill"] = 120,
+							["hitmax"] = 207,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["resisted"] = 21,
+							["amount"] = 401,
+							["hitamount"] = 401,
+						},
+						["Chilled"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 16,
+							["MISS"] = 1,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 6136,
 						},
 						["Fireball (DoT)"] = {
 							["hitmin"] = 6,
@@ -7492,75 +7531,20 @@ SkadaStorageDB = {
 									["amount"] = 20,
 								},
 							},
-							["count"] = 3,
 							["hitmax"] = 7,
+							["count"] = 3,
 							["hit"] = 3,
 							["school"] = 4,
 							["resisted"] = 1,
 							["amount"] = 20,
 							["hitamount"] = 20,
 						},
-						["Chilled"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 6136,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-						},
-						["Fire Blast"] = {
-							["hitmin"] = 194,
-							["id"] = 8412,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 401,
-									["overkill"] = 120,
-								},
-							},
-							["overkill"] = 120,
-							["count"] = 2,
-							["casts"] = 2,
-							["hitmax"] = 207,
-							["hit"] = 2,
-							["school"] = 4,
-							["resisted"] = 21,
-							["amount"] = 401,
-							["hitamount"] = 401,
-						},
 					},
 					["last"] = 38889.195,
 					["damagetaken"] = 0,
-					["id"] = "0x0700000000B06C60",
 					["flag"] = 1298,
+					["id"] = "0x0700000000B06C60",
 					["class"] = "MAGE",
-					["totaldamage"] = 1408,
-					["overkill"] = 120,
-					["name"] = "Vrajadefoc",
-					["role"] = "DAMAGER",
-					["time"] = 12.58,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["total"] = 73,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 6603,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 0,
-									["total"] = 73,
-								},
-							},
-						},
-					},
-					["spec"] = 63,
-					["totaldamagetaken"] = 73,
 					["auras"] = {
 						[1245] = {
 							["type"] = "BUFF",
@@ -7602,11 +7586,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
 						[8401] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -7621,29 +7600,50 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 10,
 						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
 					},
+					["overkill"] = 120,
+					["time"] = 12.58,
+					["totaldamage"] = 1408,
+					["name"] = "Vrajadefoc",
+					["spec"] = 63,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["total"] = 73,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Witherbark Headhunter"] = {
+									["total"] = 73,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 6603,
+						},
+					},
+					["totaldamagetaken"] = 73,
+					["role"] = "DAMAGER",
 					["damage"] = 1408,
 				}, -- [3]
 			},
-			["totaldamage"] = 2745,
-			["time"] = 19,
-			["last_time"] = 38891.079,
-			["totaldamagetaken"] = 132,
-			["etotaldamagetaken"] = 2745,
-			["damage"] = 2745,
-			["overheal"] = 359,
 			["type"] = "group",
 			["damagetaken"] = 59,
 			["etotaldamage"] = 132,
-			["starttime"] = 1728247722,
-			["mobname"] = "Witherbark Headhunter",
+			["absorb"] = 73,
+			["ccdone"] = 1,
 			["rage"] = 30,
 			["overkill"] = 123,
 			["edamagetaken"] = 2745,
 			["heal"] = 123,
 			["name"] = "Witherbark Headhunter (4)",
-			["ccdone"] = 1,
-			["absorb"] = 73,
+			["mobname"] = "Witherbark Headhunter",
+			["starttime"] = 1728247722,
 			["edamage"] = 59,
 			["last_action"] = 1728247741,
 			["endtime"] = 1728247741,
@@ -7658,8 +7658,8 @@ SkadaStorageDB = {
 							["total"] = 40,
 							["targets"] = {
 								["Vrajadefoc"] = {
-									["amount"] = 0,
 									["total"] = 40,
+									["amount"] = 0,
 								},
 							},
 							["amount"] = 0,
@@ -7700,12 +7700,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["amount"] = 172,
 									["overkill"] = 79,
+									["amount"] = 172,
 								},
 							},
-							["amount"] = 172,
 							["overkill"] = 79,
+							["amount"] = 172,
 						},
 					},
 					["totaldamage"] = 40,
@@ -7784,6 +7784,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 87,
 						},
+						[15263] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 30,
+									["amount"] = 243,
+								},
+							},
+							["overkill"] = 30,
+							["amount"] = 243,
+						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
@@ -7793,17 +7804,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 257,
 						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 243,
-									["overkill"] = 30,
-								},
-							},
-							["amount"] = 243,
-							["overkill"] = 30,
-						},
 					},
 					["totaldamage"] = 90,
 					["name"] = "Witherbark Headhunter",
@@ -7812,6 +7812,13 @@ SkadaStorageDB = {
 					["damage"] = 90,
 				}, -- [2]
 			},
+			["rage"] = 5,
+			["totaldamage"] = 2175,
+			["time"] = 15,
+			["starttime"] = 1728247701,
+			["totaldamagetaken"] = 130,
+			["etotaldamagetaken"] = 2175,
+			["last_time"] = 38864.723,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -7946,8 +7953,13 @@ SkadaStorageDB = {
 							["hitmin"] = 67,
 							["id"] = 6603,
 							["glancemax"] = 60,
-							["glancemin"] = 60,
+							["hitamount"] = 137,
 							["glancing"] = 3,
+							["count"] = 5,
+							["hitmax"] = 70,
+							["amount"] = 317,
+							["school"] = 1,
+							["hit"] = 2,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 257,
@@ -7956,12 +7968,36 @@ SkadaStorageDB = {
 									["amount"] = 60,
 								},
 							},
-							["hitmax"] = 70,
-							["amount"] = 317,
+							["glancemin"] = 60,
+						},
+						["Revenge"] = {
+							["DODGE"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
 							["school"] = 1,
-							["hit"] = 2,
-							["count"] = 5,
-							["hitamount"] = 137,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 6574,
+						},
+						["Mithril Shield Spike"] = {
+							["hitmin"] = 14,
+							["id"] = 9782,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["amount"] = 14,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 14,
+							["amount"] = 14,
+							["hitamount"] = 14,
 						},
 						["Rend (DoT)"] = {
 							["hitmin"] = 35,
@@ -7982,35 +8018,6 @@ SkadaStorageDB = {
 							["amount"] = 107,
 							["hitamount"] = 107,
 						},
-						["Mithril Shield Spike"] = {
-							["hitmin"] = 14,
-							["id"] = 9782,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 14,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 14,
-							["amount"] = 14,
-							["hitamount"] = 14,
-						},
-						["Revenge"] = {
-							["DODGE"] = 1,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6574,
-						},
 					},
 					["damagetaken"] = 90,
 					["id"] = "0x0700000000B06C55",
@@ -8019,18 +8026,18 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 29,
 							["id"] = 6603,
-							["BLOCK"] = 1,
 							["count"] = 4,
+							["blocked"] = 26,
 							["sources"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 90,
 								},
 							},
-							["hitmax"] = 31,
+							["BLOCK"] = 1,
 							["amount"] = 90,
 							["school"] = 1,
 							["hit"] = 3,
-							["blocked"] = 26,
+							["hitmax"] = 31,
 							["hitamount"] = 90,
 						},
 					},
@@ -8039,8 +8046,8 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["role"] = "TANK",
 					["rage"] = 5,
+					["role"] = "TANK",
 				}, -- [1]
 				{
 					["last"] = 38853.679,
@@ -8069,12 +8076,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[3166] = {
+						[6192] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[6192] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 15,
@@ -8117,7 +8124,6 @@ SkadaStorageDB = {
 					["overkill"] = 30,
 					["heal"] = 0,
 					["name"] = "Popasfant",
-					["role"] = "HEALER",
 					["damagespells"] = {
 						["Mind Blast"] = {
 							["hitmin"] = 179,
@@ -8127,9 +8133,9 @@ SkadaStorageDB = {
 									["amount"] = 179,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 179,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 19,
@@ -8141,8 +8147,8 @@ SkadaStorageDB = {
 							["id"] = 15263,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 243,
 									["overkill"] = 30,
+									["amount"] = 243,
 								},
 							},
 							["overkill"] = 30,
@@ -8171,6 +8177,7 @@ SkadaStorageDB = {
 							["hitamount"] = 205,
 						},
 					},
+					["role"] = "HEALER",
 				}, -- [2]
 				{
 					["last"] = 38863.512,
@@ -8218,10 +8225,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 15,
 						},
-						[976] = {
-							["type"] = "BUFF",
+						[8401] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 15,
+							["school"] = 4,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
 						[6136] = {
 							["type"] = "DEBUFF",
@@ -8235,17 +8249,10 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[8401] = {
-							["type"] = "DEBUFF",
+						[976] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 4,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
+							["uptime"] = 15,
 						},
 					},
 					["role"] = "DAMAGER",
@@ -8254,11 +8261,11 @@ SkadaStorageDB = {
 					["damage"] = 1023,
 					["damagespells"] = {
 						["Fireball"] = {
-							["criticalamount"] = 361,
-							["hitmin"] = 221,
 							["criticalmin"] = 361,
+							["hitmin"] = 221,
+							["criticalamount"] = 361,
 							["id"] = 8401,
-							["casts"] = 4,
+							["hitmax"] = 248,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 248,
@@ -8267,15 +8274,34 @@ SkadaStorageDB = {
 									["amount"] = 582,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 830,
-							["criticalmax"] = 361,
 							["critical"] = 1,
 							["hit"] = 2,
+							["casts"] = 4,
+							["count"] = 3,
+							["amount"] = 830,
 							["school"] = 4,
 							["resisted"] = 64,
-							["hitmax"] = 248,
+							["criticalmax"] = 361,
 							["hitamount"] = 469,
+						},
+						["Fire Blast"] = {
+							["hitmin"] = 172,
+							["id"] = 8412,
+							["targets"] = {
+								["Witherbark Witch Doctor"] = {
+									["overkill"] = 79,
+									["amount"] = 172,
+								},
+							},
+							["overkill"] = 79,
+							["hitmax"] = 172,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 19,
+							["amount"] = 172,
+							["hitamount"] = 172,
 						},
 						["Fireball (DoT)"] = {
 							["hitmin"] = 7,
@@ -8295,25 +8321,6 @@ SkadaStorageDB = {
 							["amount"] = 21,
 							["hitamount"] = 21,
 						},
-						["Fire Blast"] = {
-							["hitmin"] = 172,
-							["id"] = 8412,
-							["targets"] = {
-								["Witherbark Witch Doctor"] = {
-									["amount"] = 172,
-									["overkill"] = 79,
-								},
-							},
-							["overkill"] = 79,
-							["count"] = 1,
-							["casts"] = 1,
-							["hitmax"] = 172,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 19,
-							["amount"] = 172,
-							["hitamount"] = 172,
-						},
 					},
 					["damagetaken"] = 0,
 					["id"] = "0x0700000000B06C60",
@@ -8324,44 +8331,37 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["id"] = 6603,
-							["ABSORB"] = 1,
 							["sources"] = {
 								["Witherbark Witch Doctor"] = {
-									["amount"] = 0,
 									["total"] = 40,
+									["amount"] = 0,
 								},
 							},
+							["ABSORB"] = 1,
+							["id"] = 6603,
 						},
 					},
 					["name"] = "Vrajadefoc",
-					["totaldamage"] = 1023,
-					["mana"] = 36,
+					["overkill"] = 79,
 					["manaspells"] = {
 						[29077] = 36,
 					},
-					["overkill"] = 79,
+					["mana"] = 36,
+					["totaldamage"] = 1023,
 				}, -- [3]
 			},
-			["totaldamage"] = 2175,
-			["time"] = 15,
-			["starttime"] = 1728247701,
-			["totaldamagetaken"] = 130,
-			["etotaldamagetaken"] = 2175,
-			["last_time"] = 38864.723,
-			["rage"] = 5,
 			["absorb"] = 40,
 			["damagetaken"] = 90,
 			["type"] = "group",
-			["damage"] = 2175,
-			["ccdone"] = 1,
+			["etotaldamage"] = 130,
+			["mobname"] = "Witherbark Witch Doctor",
 			["overheal"] = 82,
 			["overkill"] = 109,
 			["edamagetaken"] = 2175,
 			["heal"] = 0,
 			["name"] = "Witherbark Witch Doctor (3)",
-			["mobname"] = "Witherbark Witch Doctor",
-			["etotaldamage"] = 130,
+			["ccdone"] = 1,
+			["damage"] = 2175,
 			["edamage"] = 90,
 			["last_action"] = 1728247715,
 			["endtime"] = 1728247716,
@@ -8384,14 +8384,14 @@ SkadaStorageDB = {
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[6603] = {
+						[34428] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 214,
+									["amount"] = 124,
 								},
 							},
-							["amount"] = 214,
+							["amount"] = 124,
 						},
 						[8412] = {
 							["school"] = 4,
@@ -8420,16 +8420,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 110,
 						},
-						[15263] = {
-							["school"] = 2,
+						[6603] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 266,
-									["overkill"] = 1,
+								["Omoratorul"] = {
+									["amount"] = 214,
 								},
 							},
-							["amount"] = 266,
-							["overkill"] = 1,
+							["amount"] = 214,
 						},
 						[8204] = {
 							["school"] = 1,
@@ -8449,14 +8447,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 200,
 						},
-						[34428] = {
-							["school"] = 1,
+						[15263] = {
+							["school"] = 2,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 124,
+								["Popasfant"] = {
+									["overkill"] = 1,
+									["amount"] = 266,
 								},
 							},
-							["amount"] = 124,
+							["overkill"] = 1,
+							["amount"] = 266,
 						},
 					},
 					["totaldamage"] = 52,
@@ -8468,11 +8468,11 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1343,
 			["time"] = 9,
-			["overheal"] = 235,
+			["starttime"] = 1728247651,
 			["totaldamagetaken"] = 52,
 			["etotaldamagetaken"] = 1343,
 			["damage"] = 1343,
-			["starttime"] = 1728247651,
+			["overheal"] = 235,
 			["type"] = "group",
 			["damagetaken"] = 52,
 			["last_time"] = 38810.013,
@@ -8544,12 +8544,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[976] = {
+						[8094] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[8094] = {
+						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -8569,13 +8569,13 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 52,
 							["school"] = 1,
-							["id"] = 6603,
+							["crushing"] = 1,
 							["sources"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 52,
 								},
 							},
-							["crushing"] = 1,
+							["id"] = 6603,
 						},
 					},
 					["ragespells"] = {
@@ -8584,8 +8584,23 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["role"] = "TANK",
 					["damagespells"] = {
+						["Thunder Clap"] = {
+							["criticalamount"] = 188,
+							["id"] = 8204,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["amount"] = 188,
+								},
+							},
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 188,
+							["school"] = 1,
+							["criticalmin"] = 188,
+							["criticalmax"] = 188,
+							["count"] = 1,
+						},
 						["Victory Rush"] = {
 							["hitmin"] = 124,
 							["id"] = 34428,
@@ -8602,22 +8617,6 @@ SkadaStorageDB = {
 							["amount"] = 124,
 							["hitamount"] = 124,
 						},
-						["Thunder Clap"] = {
-							["criticalamount"] = 188,
-							["id"] = 8204,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 188,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 188,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 188,
-							["criticalmin"] = 188,
-						},
 						["Melee"] = {
 							["hitmin"] = 72,
 							["criticalamount"] = 142,
@@ -8628,13 +8627,13 @@ SkadaStorageDB = {
 									["amount"] = 214,
 								},
 							},
-							["count"] = 3,
 							["hitmax"] = 72,
+							["hit"] = 1,
 							["criticalmax"] = 142,
-							["critical"] = 1,
+							["count"] = 3,
 							["amount"] = 214,
 							["school"] = 1,
-							["hit"] = 1,
+							["critical"] = 1,
 							["MISS"] = 1,
 							["hitamount"] = 72,
 						},
@@ -8655,6 +8654,7 @@ SkadaStorageDB = {
 							["hitamount"] = 110,
 						},
 					},
+					["role"] = "TANK",
 				}, -- [1]
 				{
 					["overheal"] = 235,
@@ -8684,9 +8684,9 @@ SkadaStorageDB = {
 									["amount"] = 224,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 224,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 24,
@@ -8701,9 +8701,9 @@ SkadaStorageDB = {
 									["amount"] = 58,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 58,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 6,
@@ -8715,13 +8715,13 @@ SkadaStorageDB = {
 							["id"] = 15263,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
-									["amount"] = 42,
 									["overkill"] = 1,
+									["amount"] = 42,
 								},
 							},
 							["overkill"] = 1,
-							["count"] = 6,
 							["hitmax"] = 8,
+							["count"] = 6,
 							["hit"] = 6,
 							["school"] = 2,
 							["resisted"] = 1,
@@ -8729,8 +8729,8 @@ SkadaStorageDB = {
 							["hitamount"] = 42,
 						},
 					},
+					["class"] = "PRIEST",
 					["id"] = "0x0700000000B06C58",
-					["flag"] = 1298,
 					["spec"] = 256,
 					["healspells"] = {
 						[23458] = {
@@ -8738,46 +8738,25 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 113,
 							["max"] = 113,
-							["min"] = 113,
+							["school"] = 2,
 							["targets"] = {
 								["Vrajadefoc"] = {
 									["overheal"] = 119,
-									["amount"] = 0,
-								},
-								["Popasfant"] = {
-									["overheal"] = 116,
 									["amount"] = 0,
 								},
 								["Omoratorul"] = {
 									["overheal"] = 0,
 									["amount"] = 113,
 								},
+								["Popasfant"] = {
+									["overheal"] = 116,
+									["amount"] = 0,
+								},
 							},
-							["school"] = 2,
+							["min"] = 113,
 						},
 					},
 					["auras"] = {
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[586] = {
-							["school"] = 32,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[602] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[6192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
 						[15263] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -8790,14 +8769,35 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
+						[586] = {
+							["school"] = 32,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[6192] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
 					},
-					["totaldamage"] = 524,
-					["role"] = "HEALER",
-					["time"] = 3.5,
-					["name"] = "Popasfant",
-					["overkill"] = 1,
 					["heal"] = 113,
-					["class"] = "PRIEST",
+					["totaldamage"] = 524,
+					["time"] = 3.5,
+					["overkill"] = 1,
+					["name"] = "Popasfant",
+					["role"] = "HEALER",
+					["flag"] = 1298,
 					["damage"] = 524,
 				}, -- [2]
 				{
@@ -8807,13 +8807,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 4,
-							["id"] = 8401,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 8401,
 						},
 						["Fire Blast"] = {
 							["hitmin"] = 183,
@@ -8823,9 +8823,9 @@ SkadaStorageDB = {
 									["amount"] = 183,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 1,
 							["hitmax"] = 183,
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 4,
 							["resisted"] = 20,
@@ -8837,17 +8837,17 @@ SkadaStorageDB = {
 					["id"] = "0x0700000000B06C60",
 					["spec"] = 63,
 					["auras"] = {
-						[3166] = {
+						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[63729] = {
+						[7301] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[6192] = {
+						[1245] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -8862,17 +8862,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[1245] = {
+						[3166] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[7301] = {
+						[6192] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[976] = {
+						[63729] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -8881,20 +8881,20 @@ SkadaStorageDB = {
 					["totaldamage"] = 183,
 					["name"] = "Vrajadefoc",
 					["class"] = "MAGE",
-					["time"] = 3.5,
-					["flag"] = 1298,
 					["role"] = "DAMAGER",
+					["flag"] = 1298,
+					["time"] = 3.5,
 					["damage"] = 183,
 				}, -- [3]
 			},
-			["etotaldamage"] = 52,
-			["ccdone"] = 1,
+			["rage"] = 8,
+			["mobname"] = "Witherbark Headhunter",
 			["overkill"] = 1,
 			["edamagetaken"] = 1343,
 			["heal"] = 113,
 			["name"] = "Witherbark Headhunter (3)",
-			["mobname"] = "Witherbark Headhunter",
-			["rage"] = 8,
+			["ccdone"] = 1,
+			["etotaldamage"] = 52,
 			["edamage"] = 52,
 			["last_action"] = 1728247660,
 			["endtime"] = 1728247660,
@@ -8953,15 +8953,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 168,
 						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 315,
-								},
-							},
-							["amount"] = 315,
-						},
 						[8412] = {
 							["school"] = 4,
 							["sources"] = {
@@ -8970,6 +8961,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 188,
+						},
+						[15263] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 315,
+								},
+							},
+							["amount"] = 315,
 						},
 					},
 					["totaldamage"] = 87,
@@ -9072,13 +9072,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[29131] = {
+						[6192] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[6192] = {
+						[29131] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -9172,8 +9172,8 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["role"] = "TANK",
 					["rage"] = 26,
+					["role"] = "TANK",
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -9182,13 +9182,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
-							["id"] = 8104,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 8104,
 						},
 						["Holy Fire"] = {
 							["hitmin"] = 274,
@@ -9206,22 +9206,6 @@ SkadaStorageDB = {
 							["amount"] = 274,
 							["hitamount"] = 274,
 						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 6,
-							["id"] = 15263,
-							["targets"] = {
-								["Witherbark Headhunter"] = {
-									["amount"] = 41,
-								},
-							},
-							["count"] = 6,
-							["hitmax"] = 7,
-							["hit"] = 6,
-							["school"] = 2,
-							["resisted"] = 1,
-							["amount"] = 41,
-							["hitamount"] = 41,
-						},
 						["Smite"] = {
 							["hitmin"] = 168,
 							["id"] = 1004,
@@ -9230,14 +9214,30 @@ SkadaStorageDB = {
 									["amount"] = 168,
 								},
 							},
-							["count"] = 1,
-							["casts"] = 2,
 							["hitmax"] = 168,
+							["casts"] = 2,
+							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 18,
 							["amount"] = 168,
 							["hitamount"] = 168,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 6,
+							["id"] = 15263,
+							["targets"] = {
+								["Witherbark Headhunter"] = {
+									["amount"] = 41,
+								},
+							},
+							["hitmax"] = 7,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 2,
+							["resisted"] = 1,
+							["amount"] = 41,
+							["hitamount"] = 41,
 						},
 					},
 					["last"] = 38786.172,
@@ -9266,24 +9266,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
 						[6192] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 					},
 					["totaldamage"] = 483,
 					["name"] = "Popasfant",
 					["class"] = "PRIEST",
-					["time"] = 0,
-					["flag"] = 1298,
 					["role"] = "HEALER",
+					["flag"] = 1298,
+					["time"] = 0,
 					["damage"] = 483,
 				}, -- [2]
 				{
@@ -9293,13 +9293,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 4,
-							["id"] = 8401,
+							["MISS"] = 1,
 							["targets"] = {
 								["Witherbark Headhunter"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
+							["id"] = 8401,
 						},
 						["Fire Blast"] = {
 							["hitmin"] = 188,
@@ -9372,9 +9372,9 @@ SkadaStorageDB = {
 					["totaldamage"] = 188,
 					["name"] = "Vrajadefoc",
 					["class"] = "MAGE",
-					["time"] = 3.5,
-					["flag"] = 1298,
 					["role"] = "DAMAGER",
+					["flag"] = 1298,
+					["time"] = 3.5,
 					["damage"] = 188,
 				}, -- [3]
 			},
@@ -9384,10 +9384,10 @@ SkadaStorageDB = {
 			["etotaldamage"] = 87,
 			["damage"] = 1280,
 			["edamagetaken"] = 1280,
-			["ccdone"] = 1,
-			["name"] = "Witherbark Headhunter (2)",
-			["mobname"] = "Witherbark Headhunter",
 			["starttime"] = 1728247636,
+			["name"] = "Witherbark Headhunter (2)",
+			["ccdone"] = 1,
+			["mobname"] = "Witherbark Headhunter",
 			["edamage"] = 87,
 			["last_action"] = 1728247650,
 			["endtime"] = 1728247650,

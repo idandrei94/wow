@@ -80,8 +80,8 @@ GladiusDB = {
 		},
 		["Maciucus - Icecrown"] = {
 			["locked"] = true,
-			["x"] = 1159.905548160378,
 			["y"] = 525.699860603641,
+			["x"] = 1159.905548160378,
 		},
 		["Urgash - Icecrown"] = {
 			["locked"] = true,
@@ -90,8 +90,8 @@ GladiusDB = {
 		},
 		["Elrath - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 539.2999511163254,
 			["x"] = 1067.923352342603,
+			["y"] = 539.2999511163254,
 		},
 		["Kalaam - Icecrown"] = {
 			["locked"] = true,
