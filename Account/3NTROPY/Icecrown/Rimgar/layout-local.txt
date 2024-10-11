@@ -1,6 +1,6 @@
 Version: 1
 Frame: LootFrame
-FrameLevel: 15
+FrameLevel: 10
 Anchor: CENTER
 X: 114
 Y: -22
@@ -69,10 +69,3 @@ X: -62
 Y: 26
 W: 1164
 H: 513
-Frame: GridLayoutFrame
-FrameLevel: 0
-Anchor: RIGHT
-X: -354
-Y: -78
-W: 57
-H: 56
