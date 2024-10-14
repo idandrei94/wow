@@ -1,15870 +1,5450 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["rage"] = 537,
-		["absorb"] = 214916,
-		["damagetaken"] = 145335,
+		["mana"] = 6812,
+		["totaldamage"] = 3487627,
+		["time"] = 262,
+		["totaldamagetaken"] = 739354,
+		["damage"] = 3487627,
+		["rage"] = 249,
+		["absorb"] = 7276,
+		["damagetaken"] = 732078,
+		["overkill"] = 180865,
+		["death"] = 2,
+		["heal"] = 651447,
 		["name"] = "Total",
-		["starttime"] = 1728655015,
-		["mana"] = 84895,
+		["ccdone"] = 6,
 		["players"] = {
 			{
-				["overheal"] = 1600,
-				["role"] = "DAMAGER",
-				["damagetaken"] = 79537,
-				["totaldamage"] = 2258059,
-				["flag"] = 1297,
+				["flag"] = 1298,
 				["class"] = "WARRIOR",
-				["rage"] = 107,
-				["overkill"] = 82687,
-				["name"] = "Rimgar",
-				["heal"] = 2800,
-				["time"] = 223.8799999999996,
-				["ccdone"] = 6,
-				["spec"] = 71,
-				["totaldamagetaken"] = 146193,
-				["id"] = "0x070000000040A064",
-				["damage"] = 2258059,
+				["time"] = 141.99,
+				["totaldamagetaken"] = 107562,
+				["damage"] = 1028160,
+				["overheal"] = 3984,
+				["damagetaken"] = 107562,
+				["id"] = "0x0700000000AFB138",
+				["spec"] = 72,
+				["overkill"] = 47586,
+				["heal"] = 17097,
+				["name"] = "Ranoow",
+				["ccdone"] = 1,
+				["death"] = 1,
+				["rage"] = 79,
+				["totaldamage"] = 1028160,
+				["role"] = "DAMAGER",
 			}, -- [1]
 			{
-				["rage"] = 40,
-				["absorb"] = 214916,
-				["damagetaken"] = 13334,
-				["mana"] = 20972,
 				["flag"] = 1298,
-				["class"] = "PRIEST",
-				["overheal"] = 122194,
-				["totaldamage"] = 8159,
-				["name"] = "Aandra",
-				["role"] = "HEALER",
-				["time"] = 198.6000000000001,
-				["heal"] = 94073,
-				["spec"] = 256,
-				["totaldamagetaken"] = 32579,
-				["id"] = "0x0700000000AD81EB",
-				["damage"] = 8159,
+				["class"] = "DEATHKNIGHT",
+				["time"] = 160.63,
+				["totaldamagetaken"] = 48371,
+				["damage"] = 259584,
+				["overheal"] = 4315,
+				["damagetaken"] = 48371,
+				["id"] = "0x07000000004E52D5",
+				["spec"] = 251,
+				["overkill"] = 7753,
+				["heal"] = 6315,
+				["name"] = "Azgards",
+				["runic"] = 10,
+				["totaldamage"] = 259584,
+				["role"] = "DAMAGER",
 			}, -- [2]
 			{
-				["damagetaken"] = 26048,
-				["flag"] = 1298,
-				["class"] = "PALADIN",
-				["id"] = "0x0700000000ACF706",
-				["overkill"] = 5087,
-				["spec"] = 66,
-				["totaldamage"] = 596912,
-				["time"] = 184.28,
-				["role"] = "TANK",
-				["name"] = "Jhosah",
-				["totaldamagetaken"] = 94531,
-				["mana"] = 40536,
-				["damage"] = 596912,
+				["flag"] = 1297,
+				["class"] = "WARRIOR",
+				["time"] = 151.2299999999999,
+				["totaldamagetaken"] = 137300,
+				["damage"] = 1389935,
+				["rage"] = 122,
+				["damagetaken"] = 137300,
+				["id"] = "0x070000000040A064",
+				["spec"] = 71,
+				["overkill"] = 106442,
+				["heal"] = 40312,
+				["name"] = "Rimgar",
+				["ccdone"] = 2,
+				["death"] = 1,
+				["overheal"] = 728,
+				["totaldamage"] = 1389935,
+				["role"] = "DAMAGER",
 			}, -- [3]
 			{
-				["overheal"] = 2592,
-				["role"] = "DAMAGER",
-				["damagetaken"] = 13776,
-				["class"] = "DRUID",
 				["flag"] = 1298,
-				["mana"] = 23387,
-				["totaldamage"] = 829750,
-				["overkill"] = 13554,
-				["name"] = "Scrakekf",
-				["heal"] = 3889,
-				["time"] = 178.9199999999999,
-				["ccdone"] = 1,
-				["spec"] = 102,
-				["totaldamagetaken"] = 44827,
-				["id"] = "0x0700000000ABE036",
-				["damage"] = 829750,
+				["class"] = "DEATHKNIGHT",
+				["time"] = 211.6400000000003,
+				["totaldamagetaken"] = 339115,
+				["damage"] = 706645,
+				["runic"] = 450,
+				["absorb"] = 7276,
+				["damagetaken"] = 331839,
+				["id"] = "0x0700000000A950A4",
+				["spec"] = 250,
+				["overkill"] = 16986,
+				["heal"] = 341,
+				["name"] = "Banze",
+				["ccdone"] = 3,
+				["overheal"] = 9286,
+				["totaldamage"] = 706645,
+				["role"] = "TANK",
 			}, -- [4]
 			{
-				["overheal"] = 21120,
-				["damagetaken"] = 12640,
-				["role"] = "DAMAGER",
 				["flag"] = 1298,
-				["class"] = "WARRIOR",
-				["totaldamage"] = 536626,
-				["overkill"] = 5526,
-				["rage"] = 390,
-				["heal"] = 3944,
-				["time"] = 201.0000000000001,
-				["name"] = "Supdawgx",
-				["spec"] = 72,
-				["totaldamagetaken"] = 43255,
-				["id"] = "0x0700000000B0209B",
-				["damage"] = 536626,
+				["mana"] = 6812,
+				["time"] = 204.56,
+				["totaldamagetaken"] = 107006,
+				["damage"] = 103303,
+				["runic"] = 448,
+				["damagetaken"] = 107006,
+				["id"] = "0x07000000006149CA",
+				["spec"] = 105,
+				["overkill"] = 2098,
+				["heal"] = 587382,
+				["name"] = "Strichy",
+				["totaldamage"] = 103303,
+				["overheal"] = 410672,
+				["class"] = "DRUID",
+				["rage"] = 48,
+				["role"] = "HEALER",
 			}, -- [5]
 		},
-		["overkill"] = 106854,
-		["heal"] = 104706,
-		["totaldamage"] = 4229506,
-		["time"] = 340,
-		["ccdone"] = 7,
-		["totaldamagetaken"] = 361385,
-		["overheal"] = 147506,
-		["damage"] = 4229506,
+		["runic"] = 908,
+		["starttime"] = 1728900878,
+		["overheal"] = 428985,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
-			["mana"] = 19906,
-			["players"] = {
-				{
-					["last"] = 13069.848,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[48066] = {
-							["uptime"] = 31,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[46924] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[63944] = {
-							["uptime"] = 31,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 13,
-							["uptime"] = 28,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 22,
-								},
-							},
-							["uptime"] = 22,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48942] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 28,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 14,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["refresh"] = 14,
-									["count"] = 1,
-									["uptime"] = 22,
-								},
-							},
-							["uptime"] = 22,
-						},
-						[60503] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 8,
-						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 14,
-							["uptime"] = 28,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["uptime"] = 21,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[47502] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[70940] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[64205] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 15,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["refresh"] = 15,
-									["count"] = 1,
-									["uptime"] = 22,
-								},
-							},
-							["uptime"] = 22,
-						},
-						[71541] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 24.43,
-					["totaldamagetaken"] = 2641,
-					["damage"] = 206560,
-					["damagespells"] = {
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 781,
-							["id"] = 12721,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 27955,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 3483,
-							["amount"] = 27955,
-							["hitamount"] = 27955,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 2345,
-							["id"] = 71904,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 4749,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 2404,
-							["amount"] = 4749,
-							["hitamount"] = 4749,
-						},
-						["Execute"] = {
-							["hitmin"] = 3956,
-							["id"] = 20647,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 8559,
-									["overkill"] = 1238,
-								},
-							},
-							["overkill"] = 1238,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 4603,
-							["amount"] = 8559,
-							["hitamount"] = 8559,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 3208,
-							["criticalamount"] = 39222,
-							["id"] = 50622,
-							["criticalmin"] = 7100,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 46059,
-								},
-							},
-							["amount"] = 46059,
-							["hitmax"] = 3629,
-							["criticalmax"] = 8806,
-							["critical"] = 5,
-							["hit"] = 2,
-							["school"] = 1,
-							["count"] = 7,
-							["casts"] = 1,
-							["hitamount"] = 6837,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 4199,
-							["criticalamount"] = 32532,
-							["id"] = 47486,
-							["count"] = 4,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 36731,
-								},
-							},
-							["criticalmax"] = 13431,
-							["criticalmin"] = 9498,
-							["casts"] = 4,
-							["hitmax"] = 4199,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 36731,
-							["critical"] = 3,
-							["hitamount"] = 4199,
-						},
-						["Thunder Clap"] = {
-							["criticalamount"] = 2701,
-							["id"] = 47502,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 2701,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2701,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 2701,
-							["criticalmin"] = 2701,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1737,
-							["id"] = 47465,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 10422,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 1737,
-							["amount"] = 10422,
-							["hitamount"] = 10422,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 19604,
-							["id"] = 7384,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 19604,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 19604,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 9805,
-							["criticalmin"] = 9799,
-						},
-						["Melee"] = {
-							["glance"] = 5496,
-							["criticalamount"] = 24321,
-							["id"] = 6603,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 29817,
-								},
-							},
-							["critical"] = 3,
-							["glancing"] = 2,
-							["criticalmax"] = 9272,
-							["count"] = 5,
-							["amount"] = 29817,
-							["school"] = 1,
-							["criticalmin"] = 7321,
-							["glancemax"] = 2799,
-							["glancemin"] = 2697,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 19963,
-							["id"] = 47450,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 19963,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 19963,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 10449,
-							["criticalmin"] = 9514,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["total"] = 2641,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 6603,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Cyanigosa"] = {
-									["amount"] = 0,
-									["total"] = 2641,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 10,
-					},
-					["name"] = "Rimgar",
-					["totaldamage"] = 206560,
-					["rage"] = 30,
-					["overkill"] = 1238,
-				}, -- [1]
-				{
-					["last"] = 13068.945,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48068] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 17,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[63944] = {
-							["uptime"] = 31,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[20132] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 13,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["uptime"] = 6,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[48951] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 7,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[24907] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 28,
-						},
-						[60215] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[70940] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[48818] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 4,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 10,
-							["uptime"] = 18,
-						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 7,
-						},
-						[64205] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["totaldamage"] = 50168,
-					["time"] = 21.5,
-					["totaldamagetaken"] = 16459,
-					["damage"] = 50168,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 299,
-							["id"] = 48818,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 2725,
-								},
-							},
-							["count"] = 8,
-							["hitmax"] = 373,
-							["hit"] = 8,
-							["school"] = 2,
-							["resisted"] = 259,
-							["amount"] = 2725,
-							["hitamount"] = 2725,
-						},
-						["Melee"] = {
-							["glance"] = 2223,
-							["hitmin"] = 486,
-							["criticalmin"] = 1182,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 6725,
-								},
-							},
-							["glancing"] = 5,
-							["amount"] = 6725,
-							["glancemin"] = 400,
-							["criticalamount"] = 1182,
-							["id"] = 6603,
-							["glancemax"] = 480,
-							["criticalmax"] = 1182,
-							["count"] = 12,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 588,
-							["critical"] = 1,
-							["hitamount"] = 3320,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 753,
-							["id"] = 20467,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 753,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 1,
-							["hitmax"] = 753,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 83,
-							["amount"] = 753,
-							["hitamount"] = 753,
-						},
-						["Hand of Reckoning"] = {
-							["hitmin"] = 2098,
-							["id"] = 67485,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 4458,
-								},
-							},
-							["count"] = 2,
-							["casts"] = 2,
-							["hitmax"] = 2360,
-							["hit"] = 2,
-							["school"] = 2,
-							["resisted"] = 786,
-							["amount"] = 4458,
-							["hitamount"] = 4458,
-						},
-						["Silenced - Shield of the Templar"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 63529,
-						},
-						["Hammer of the Righteous"] = {
-							["count"] = 3,
-							["hitmin"] = 2214,
-							["criticalamount"] = 9348,
-							["id"] = 53595,
-							["criticalmax"] = 4920,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 11562,
-								},
-							},
-							["critical"] = 2,
-							["amount"] = 11562,
-							["casts"] = 3,
-							["hitmax"] = 2214,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 738,
-							["criticalmin"] = 4428,
-							["hitamount"] = 2214,
-						},
-						["Seal of Command"] = {
-							["criticalamount"] = 2765,
-							["hitmin"] = 281,
-							["criticalmin"] = 602,
-							["id"] = 20424,
-							["amount"] = 7201,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 7201,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 17,
-							["criticalmax"] = 764,
-							["critical"] = 4,
-							["hit"] = 13,
-							["school"] = 2,
-							["resisted"] = 327,
-							["hitmax"] = 377,
-							["hitamount"] = 4436,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 715,
-							["id"] = 48951,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 1430,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 715,
-							["amount"] = 1430,
-							["hitamount"] = 1430,
-						},
-						["Avenger's Shield"] = {
-							["criticalamount"] = 3874,
-							["id"] = 48826,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 3874,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3874,
-							["school"] = 2,
-							["count"] = 1,
-							["criticalmax"] = 3874,
-							["criticalmin"] = 3874,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 3445,
-							["id"] = 53600,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 6890,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 3445,
-							["amount"] = 6890,
-							["hitamount"] = 6890,
-						},
-						["Hammer of Wrath"] = {
-							["criticalamount"] = 4550,
-							["id"] = 48805,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 4550,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4550,
-							["school"] = 2,
-							["count"] = 1,
-							["criticalmax"] = 4550,
-							["criticalmin"] = 4550,
-						},
-					},
-					["damagetaken"] = 8152,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Blizzard (DoT)"] = {
-							["total"] = 5994,
-							["hitmin"] = 2419,
-							["id"] = 59369,
-							["count"] = 3,
-							["sources"] = {
-								["Cyanigosa"] = {
-									["amount"] = 2419,
-									["total"] = 5994,
-								},
-							},
-							["hitmax"] = 2419,
-							["ABSORB"] = 2,
-							["school"] = 16,
-							["hit"] = 1,
-							["amount"] = 2419,
-							["hitamount"] = 2419,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 2084,
-							["hitmin"] = 105,
-							["id"] = 6603,
-							["count"] = 7,
-							["PARRY"] = 1,
-							["blocked"] = 6229,
-							["sources"] = {
-								["Cyanigosa"] = {
-									["amount"] = 105,
-									["total"] = 2084,
-								},
-							},
-							["hitmax"] = 105,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 105,
-							["BLOCK"] = 4,
-							["hitamount"] = 105,
-						},
-						["Uncontrollable Energy (DoT)"] = {
-							["total"] = 2904,
-							["hitmin"] = 151,
-							["id"] = 59281,
-							["count"] = 2,
-							["hit"] = 1,
-							["sources"] = {
-								["Cyanigosa"] = {
-									["amount"] = 151,
-									["total"] = 2904,
-								},
-							},
-							["hitmax"] = 151,
-							["amount"] = 151,
-							["school"] = 64,
-							["resisted"] = 161,
-							["ABSORB"] = 1,
-							["hitamount"] = 151,
-						},
-						["Uncontrollable Energy"] = {
-							["hitmin"] = 5333,
-							["id"] = 59281,
-							["count"] = 1,
-							["sources"] = {
-								["Cyanigosa"] = {
-									["amount"] = 5333,
-								},
-							},
-							["hitmax"] = 5333,
-							["hit"] = 1,
-							["school"] = 64,
-							["resisted"] = 592,
-							["amount"] = 5333,
-							["hitamount"] = 5333,
-						},
-						["Divine Sacrifice"] = {
-							["hitmin"] = 45,
-							["id"] = 64205,
-							["sources"] = {
-								["Treant"] = {
-									["amount"] = 144,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 50,
-							["amount"] = 144,
-							["hitamount"] = 144,
-						},
-					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["mana"] = 5342,
-					["manaspells"] = {
-						[57319] = 930,
-						[54428] = 2334,
-						[20268] = 1269,
-						[31786] = 809,
-					},
-				}, -- [2]
-				{
-					["last"] = 13075.437,
-					["flag"] = 4370,
-					["mana"] = 10847,
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 29,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[70940] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 6,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48942] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 28,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 3,
-							["uptime"] = 22,
-						},
-						[64205] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[63619] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 28,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["targets"] = {
-								["Scrakekf"] = {
-									["uptime"] = 16,
-									["count"] = 1,
-								},
-								["Rimgar"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Jhosah"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Supdawgx"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 31,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 1397,
-							["casts"] = 5,
-							["count"] = 8,
-							["amount"] = 17758,
-							["max"] = 2959,
-							["targets"] = {
-								["Scrakekf"] = 9563,
-								["Rimgar"] = 2641,
-								["Jhosah"] = 5554,
-							},
-							["school"] = 2,
-						},
-						[47753] = {
-							["min"] = 1301,
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 2753,
-							["school"] = 2,
-							["targets"] = {
-								["Jhosah"] = 2753,
-							},
-							["max"] = 1452,
-						},
-					},
-					["totaldamage"] = 8159,
-					["time"] = 26.41,
-					["damage"] = 8159,
-					["damagespells"] = {
-						["Melee (Shadowfiend)"] = {
-							["hitmin"] = 717,
-							["id"] = 6603,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 8159,
-								},
-							},
-							["count"] = 8,
-							["hitmax"] = 1168,
-							["hit"] = 8,
-							["school"] = 1,
-							["resisted"] = 507,
-							["amount"] = 8159,
-							["hitamount"] = 8159,
-						},
-					},
-					["absorb"] = 20511,
-					["id"] = "0x0700000000AD81EB",
-					["spec"] = 256,
-					["healspells"] = {
-						[33110] = {
-							["overheal"] = 2952,
-							["count"] = 2,
-							["amount"] = 3161,
-							["school"] = 2,
-							["min"] = 105,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 2952,
-									["amount"] = 3161,
-								},
-							},
-							["max"] = 3056,
-						},
-						[56160] = {
-							["overheal"] = 3077,
-							["criticalamount"] = 0,
-							["max"] = 1231,
-							["targets"] = {
-								["Scrakekf"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 1161,
-								},
-								["Jhosah"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Supdawgx"] = {
-									["overheal"] = 1846,
-									["amount"] = 0,
-								},
-							},
-							["min"] = 1161,
-							["criticalmax"] = 0,
-							["count"] = 4,
-							["amount"] = 2392,
-							["school"] = 2,
-							["critical"] = 1,
-							["criticalmin"] = 0,
-						},
-						[52985] = {
-							["overheal"] = 10493,
-							["criticalamount"] = 2014,
-							["max"] = 2014,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 10493,
-									["amount"] = 2014,
-								},
-							},
-							["min"] = 2014,
-							["criticalmax"] = 2014,
-							["critical"] = 2,
-							["amount"] = 2014,
-							["school"] = 2,
-							["count"] = 3,
-							["casts"] = 3,
-							["criticalmin"] = 0,
-						},
-						[48068] = {
-							["overheal"] = 4011,
-							["max"] = 1341,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 4011,
-									["amount"] = 2939,
-								},
-							},
-							["min"] = 113,
-							["casts"] = 2,
-							["count"] = 5,
-							["amount"] = 2939,
-							["school"] = 2,
-							["ishot"] = true,
-						},
-					},
-					["heal"] = 10506,
-					["name"] = "Aandra",
-					["role"] = "HEALER",
-					["manaspells"] = {
-						[47755] = 1070,
-						[34650] = 8560,
-						[67666] = 500,
-						[63654] = 717,
-					},
-					["class"] = "PRIEST",
-					["overheal"] = 20533,
-				}, -- [3]
-				{
-					["last"] = 13068.204,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 24,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 31,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48942] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 4,
-							["uptime"] = 25,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[48391] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48518] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[64205] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 4,
-							["uptime"] = 10,
-						},
-						[53201] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[67684] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[70940] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 4,
-							["uptime"] = 6,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 7,
-							["uptime"] = 21,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 10,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["refresh"] = 10,
-									["count"] = 1,
-									["uptime"] = 23,
-								},
-							},
-							["uptime"] = 23,
-						},
-						[67360] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 11,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 22.8,
-					["totaldamagetaken"] = 12183,
-					["damage"] = 145376,
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1282,
-							["id"] = 48468,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 8402,
-								},
-							},
-							["count"] = 6,
-							["hitmax"] = 1424,
-							["hit"] = 6,
-							["school"] = 8,
-							["resisted"] = 142,
-							["amount"] = 8402,
-							["hitamount"] = 8402,
-						},
-						["Melee (Treant)"] = {
-							["DODGE"] = 3,
-							["glance"] = 2171,
-							["hitmin"] = 457,
-							["criticalmin"] = 1090,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 18918,
-								},
-							},
-							["glancing"] = 5,
-							["amount"] = 18918,
-							["MISS"] = 3,
-							["glancemin"] = 404,
-							["criticalamount"] = 5650,
-							["id"] = 6603,
-							["glancemax"] = 466,
-							["criticalmax"] = 1184,
-							["hitmax"] = 583,
-							["hit"] = 21,
-							["school"] = 1,
-							["critical"] = 5,
-							["count"] = 37,
-							["hitamount"] = 11097,
-						},
-						["Wrath"] = {
-							["criticalamount"] = 16160,
-							["hitmin"] = 3480,
-							["criticalmin"] = 7578,
-							["id"] = 48461,
-							["amount"] = 35367,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 35367,
-								},
-							},
-							["casts"] = 8,
-							["count"] = 7,
-							["criticalmax"] = 8582,
-							["critical"] = 2,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 1669,
-							["hitmax"] = 4253,
-							["hitamount"] = 19207,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 870,
-							["criticalamount"] = 5220,
-							["id"] = 48463,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 6960,
-								},
-							},
-							["count"] = 5,
-							["criticalmin"] = 1740,
-							["criticalmax"] = 1740,
-							["hitmax"] = 870,
-							["amount"] = 6960,
-							["school"] = 64,
-							["hit"] = 2,
-							["critical"] = 3,
-							["hitamount"] = 1740,
-						},
-						["Starfall"] = {
-							["criticalamount"] = 14979,
-							["hitmin"] = 643,
-							["criticalmin"] = 1287,
-							["id"] = 53195,
-							["criticalmax"] = 4534,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 27931,
-								},
-							},
-							["critical"] = 5,
-							["amount"] = 27931,
-							["casts"] = 1,
-							["hitmax"] = 2486,
-							["hit"] = 9,
-							["school"] = 64,
-							["resisted"] = 289,
-							["count"] = 14,
-							["hitamount"] = 12952,
-						},
-						["Starfire"] = {
-							["criticalamount"] = 47370,
-							["id"] = 48465,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 47370,
-								},
-							},
-							["count"] = 4,
-							["casts"] = 5,
-							["critical"] = 4,
-							["amount"] = 47370,
-							["school"] = 64,
-							["resisted"] = 2628,
-							["criticalmax"] = 12824,
-							["criticalmin"] = 10840,
-						},
-						["Thorns"] = {
-							["hitmin"] = 204,
-							["id"] = 53307,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 428,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 224,
-							["amount"] = 428,
-							["hitamount"] = 428,
-						},
-					},
-					["damagetaken"] = 2620,
-					["id"] = "0x0700000000ABE036",
-					["spec"] = 102,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["total"] = 8174,
-							["hitmin"] = 38,
-							["id"] = 6603,
-							["count"] = 3,
-							["sources"] = {
-								["Cyanigosa"] = {
-									["amount"] = 2620,
-									["total"] = 8174,
-								},
-							},
-							["hitmax"] = 2582,
-							["ABSORB"] = 1,
-							["school"] = 1,
-							["hit"] = 2,
-							["amount"] = 2620,
-							["hitamount"] = 2620,
-						},
-						["Blizzard (DoT)"] = {
-							["total"] = 4009,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 59369,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Cyanigosa"] = {
-									["amount"] = 0,
-									["total"] = 4009,
-								},
-							},
-						},
-					},
-					["name"] = "Scrakekf",
-					["totaldamage"] = 145376,
-					["mana"] = 3717,
-					["manaspells"] = {
-						[48391] = 345,
-						[53506] = 3372,
-					},
-				}, -- [4]
-				{
-					["last"] = 13069.836,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[48066] = {
-							["uptime"] = 31,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 29,
-						},
-						[70940] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[48942] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 25,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 5,
-							["uptime"] = 19,
-						},
-						[12292] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[64205] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 31,
-						},
-						[1719] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[60305] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[63944] = {
-							["uptime"] = 31,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 6,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 11,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["refresh"] = 11,
-									["count"] = 1,
-									["uptime"] = 23,
-								},
-							},
-							["uptime"] = 23,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[61619] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["totaldamage"] = 76002,
-					["time"] = 24.43999999999999,
-					["damage"] = 76002,
-					["overheal"] = 2892,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 2892,
-							["count"] = 12,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 2892,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[29131] = 10,
-						[2687] = 20,
-						[58362] = 10,
-					},
-					["name"] = "Supdawgx",
-					["role"] = "DAMAGER",
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1886,
-							["criticalamount"] = 19208,
-							["id"] = 23881,
-							["count"] = 5,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 21094,
-								},
-							},
-							["criticalmax"] = 4802,
-							["criticalmin"] = 4802,
-							["casts"] = 5,
-							["hitmax"] = 1886,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 21094,
-							["critical"] = 4,
-							["hitamount"] = 1886,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 628,
-							["id"] = 47465,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 4025,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 850,
-							["amount"] = 4025,
-							["hitamount"] = 4025,
-						},
-						["Melee"] = {
-							["glance"] = 740,
-							["hitmin"] = 775,
-							["criticalmin"] = 1334,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 16734,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 16734,
-							["MISS"] = 3,
-							["glancemin"] = 740,
-							["criticalamount"] = 11608,
-							["id"] = 6603,
-							["glancemax"] = 740,
-							["criticalmax"] = 3378,
-							["hitmax"] = 1506,
-							["hit"] = 4,
-							["school"] = 1,
-							["critical"] = 5,
-							["count"] = 13,
-							["hitamount"] = 4386,
-						},
-						["Slam"] = {
-							["hitmin"] = 1955,
-							["id"] = 50783,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 1955,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1955,
-							["amount"] = 1955,
-							["hitamount"] = 1955,
-						},
-						["Whirlwind"] = {
-							["criticalamount"] = 13108,
-							["id"] = 1680,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 13108,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 4,
-							["amount"] = 13108,
-							["school"] = 1,
-							["count"] = 4,
-							["criticalmax"] = 4298,
-							["criticalmin"] = 2424,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 109,
-							["id"] = 12721,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 10602,
-								},
-							},
-							["count"] = 17,
-							["hit"] = 17,
-							["school"] = 1,
-							["hitmax"] = 1099,
-							["amount"] = 10602,
-							["hitamount"] = 10602,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 2017,
-							["criticalamount"] = 4393,
-							["id"] = 47450,
-							["count"] = 3,
-							["targets"] = {
-								["Cyanigosa"] = {
-									["amount"] = 8484,
-								},
-							},
-							["criticalmax"] = 4393,
-							["criticalmin"] = 4393,
-							["casts"] = 3,
-							["hitmax"] = 2074,
-							["hit"] = 2,
-							["school"] = 1,
-							["amount"] = 8484,
-							["critical"] = 1,
-							["hitamount"] = 4091,
-						},
-					},
-					["rage"] = 40,
-					["heal"] = 0,
-				}, -- [5]
-			},
+			["overheal"] = 245013,
+			["eoverkill"] = 6270,
+			["ccdone"] = 1,
+			["mana"] = 5942,
+			["etotaldamage"] = 382989,
 			["enemies"] = {
 				{
 					["damagespells"] = {
+						[59344] = {
+							["school"] = 1,
+							["targets"] = {
+								["Strichy"] = {
+									["amount"] = 1730,
+								},
+								["Banze"] = {
+									["amount"] = 9921,
+								},
+								["Rimgar"] = {
+									["amount"] = 1483,
+								},
+								["Azgards"] = {
+									["amount"] = 1582,
+								},
+							},
+							["amount"] = 14716,
+						},
+						[59343] = {
+							["school"] = 1,
+							["overkill"] = 5183,
+							["targets"] = {
+								["Rimgar"] = {
+									["overkill"] = 5183,
+									["amount"] = 33210,
+								},
+								["Banze"] = {
+									["amount"] = 54793,
+								},
+								["Ranoow"] = {
+									["amount"] = 17850,
+								},
+								["Azgards"] = {
+									["amount"] = 10000,
+								},
+							},
+							["amount"] = 115853,
+						},
 						[6603] = {
 							["school"] = 1,
-							["total"] = 10317,
 							["targets"] = {
-								["Scrakekf"] = {
-									["amount"] = 2620,
-									["total"] = 8174,
+								["Azgards"] = {
+									["amount"] = 3587,
+								},
+								["Strichy"] = {
+									["amount"] = 2981,
+								},
+								["Banze"] = {
+									["amount"] = 6791,
+								},
+								["Ranoow"] = {
+									["amount"] = 2709,
 								},
 								["Rimgar"] = {
-									["amount"] = 0,
-									["total"] = 2641,
-								},
-								["Jhosah"] = {
-									["amount"] = 105,
-									["total"] = 2084,
+									["amount"] = 4783,
 								},
 							},
-							["amount"] = 2725,
-						},
-						[59369] = {
-							["school"] = 16,
-							["total"] = 7584,
-							["targets"] = {
-								["Scrakekf"] = {
-									["amount"] = 0,
-									["total"] = 4009,
-								},
-								["Jhosah"] = {
-									["amount"] = 2419,
-									["total"] = 5994,
-								},
-							},
-							["amount"] = 2419,
-						},
-						[59281] = {
-							["school"] = 64,
-							["total"] = 8237,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 5484,
-									["total"] = 8237,
-								},
-							},
-							["amount"] = 5484,
+							["amount"] = 20851,
 						},
 					},
-					["damagetaken"] = 486265,
-					["flag"] = 68168,
-					["class"] = "BOSS",
+					["damagetaken"] = 369343,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[71904] = {
+						[47632] = {
 							["school"] = 32,
 							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 4749,
+								["Banze"] = {
+									["amount"] = 1727,
 								},
 							},
-							["amount"] = 4749,
+							["amount"] = 1727,
 						},
 						[53307] = {
 							["school"] = 8,
 							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 428,
+								["Banze"] = {
+									["amount"] = 8147,
 								},
 							},
-							["amount"] = 428,
+							["amount"] = 8147,
 						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 8402,
-								},
-							},
-							["amount"] = 8402,
-						},
-						[47450] = {
+						[49930] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 8484,
-								},
-								["Rimgar"] = {
-									["amount"] = 19963,
+								["Banze"] = {
+									["amount"] = 1161,
 								},
 							},
-							["amount"] = 28447,
+							["amount"] = 1161,
 						},
-						[20424] = {
-							["school"] = 2,
+						[55078] = {
+							["school"] = 32,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 6219,
+								["Banze"] = {
+									["amount"] = 3430,
 								},
 							},
-							["amount"] = 6219,
+							["amount"] = 3430,
 						},
-						[23881] = {
+						[56815] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 21094,
+								["Banze"] = {
+									["amount"] = 3676,
 								},
 							},
-							["amount"] = 21094,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 10602,
-								},
-								["Rimgar"] = {
-									["amount"] = 27955,
-								},
-							},
-							["amount"] = 38557,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2725,
-								},
-							},
-							["amount"] = 2725,
+							["amount"] = 3676,
 						},
 						[47486] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 36731,
+									["amount"] = 11770,
 								},
 							},
-							["amount"] = 36731,
+							["amount"] = 11770,
+						},
+						[51425] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 3526,
+								},
+							},
+							["amount"] = 3526,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["overkill"] = 520,
+									["amount"] = 36489,
+								},
+								["Rimgar"] = {
+									["amount"] = 10460,
+								},
+							},
+							["overkill"] = 520,
+							["amount"] = 46949,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 5398,
+								},
+							},
+							["amount"] = 5398,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["overkill"] = 699,
+									["amount"] = 8327,
+								},
+							},
+							["overkill"] = 699,
+							["amount"] = 8327,
 						},
 						[1680] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 8209,
+								["Ranoow"] = {
+									["amount"] = 32203,
 								},
-							},
-							["amount"] = 8209,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 11562,
-								},
-							},
-							["amount"] = 11562,
-						},
-						[48951] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1430,
-								},
-							},
-							["amount"] = 1430,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 19604,
+									["amount"] = 3262,
 								},
 							},
-							["amount"] = 19604,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 21781,
-								},
-							},
-							["amount"] = 21781,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 6960,
-								},
-							},
-							["amount"] = 6960,
-						},
-						[48826] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 3874,
-								},
-							},
-							["amount"] = 3874,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 8559,
-									["overkill"] = 1238,
-								},
-							},
-							["amount"] = 8559,
-							["overkill"] = 1238,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 6890,
-								},
-							},
-							["amount"] = 6890,
+							["amount"] = 35465,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 16734,
-								},
-								["Aandra"] = {
-									["amount"] = 8159,
-								},
 								["Rimgar"] = {
-									["amount"] = 29817,
+									["amount"] = 14473,
 								},
-								["Scrakekf"] = {
-									["amount"] = 18918,
+								["Banze"] = {
+									["amount"] = 12247,
 								},
-								["Jhosah"] = {
-									["amount"] = 6725,
+								["Ranoow"] = {
+									["overkill"] = 1634,
+									["amount"] = 7321,
+								},
+								["Azgards"] = {
+									["amount"] = 5576,
 								},
 							},
-							["amount"] = 80353,
+							["overkill"] = 1634,
+							["amount"] = 39617,
 						},
-						[50783] = {
+						[57823] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1955,
+								["Rimgar"] = {
+									["overkill"] = 1120,
+									["amount"] = 14039,
 								},
 							},
-							["amount"] = 1955,
+							["overkill"] = 1120,
+							["amount"] = 14039,
 						},
-						[44949] = {
+						[47488] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 4899,
+								["Rimgar"] = {
+									["amount"] = 2875,
 								},
 							},
-							["amount"] = 4899,
+							["amount"] = 2875,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2511,
+								},
+							},
+							["amount"] = 2511,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 28618,
+								},
+							},
+							["amount"] = 28618,
 						},
 						[50622] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 46059,
+									["overkill"] = 10321,
+									["amount"] = 55346,
 								},
 							},
-							["amount"] = 46059,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 35367,
-								},
-							},
-							["amount"] = 35367,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 4025,
-								},
-								["Rimgar"] = {
-									["amount"] = 10422,
-								},
-							},
-							["amount"] = 14447,
+							["overkill"] = 10321,
+							["amount"] = 55346,
 						},
 						[47502] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 2701,
+									["amount"] = 25084,
 								},
 							},
-							["amount"] = 2701,
+							["amount"] = 25084,
 						},
-						[48805] = {
-							["school"] = 2,
+						[49184] = {
+							["school"] = 16,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4550,
+								["Azgards"] = {
+									["overkill"] = 1842,
+									["amount"] = 29503,
 								},
 							},
-							["amount"] = 4550,
+							["overkill"] = 1842,
+							["amount"] = 29503,
 						},
-						[48465] = {
-							["school"] = 64,
+						[55095] = {
+							["school"] = 16,
 							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 47370,
+								["Banze"] = {
+									["amount"] = 6424,
 								},
 							},
-							["amount"] = 47370,
+							["amount"] = 6424,
 						},
-						[69403] = {
-							["school"] = 2,
+						[44949] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 982,
+								["Ranoow"] = {
+									["overkill"] = 3239,
+									["amount"] = 15326,
 								},
 							},
-							["amount"] = 982,
+							["overkill"] = 3239,
+							["amount"] = 15326,
 						},
-						[20467] = {
-							["school"] = 2,
+						[12721] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 753,
+								["Ranoow"] = {
+									["overkill"] = 29,
+									["amount"] = 4605,
+								},
+								["Rimgar"] = {
+									["amount"] = 12103,
 								},
 							},
-							["amount"] = 753,
+							["overkill"] = 29,
+							["amount"] = 16708,
 						},
-						[67485] = {
-							["school"] = 2,
+						[71904] = {
+							["school"] = 32,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4458,
+								["Rimgar"] = {
+									["amount"] = 1122,
 								},
 							},
-							["amount"] = 4458,
+							["amount"] = 1122,
 						},
-						[53190] = {
-							["school"] = 64,
+						[49143] = {
+							["school"] = 16,
 							["sources"] = {
-								["Scrakekf"] = {
+								["Azgards"] = {
+									["amount"] = 2594,
+								},
+							},
+							["amount"] = 2594,
+						},
+					},
+					["name"] = "Anub'ar Champion",
+					["overkill"] = 5183,
+					["totaldamage"] = 151420,
+					["totaldamagetaken"] = 369343,
+					["id"] = "0xF1300071BD000074",
+					["damage"] = 151420,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Strichy"] = {
+									["amount"] = 5622,
+								},
+								["Banze"] = {
+									["amount"] = 92822,
+								},
+							},
+							["amount"] = 98444,
+						},
+						[53318] = {
+							["school"] = 1,
+							["targets"] = {
+								["Banze"] = {
+									["amount"] = 27051,
+								},
+							},
+							["amount"] = 27051,
+						},
+					},
+					["damagetaken"] = 283447,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 13462,
+								},
+							},
+							["amount"] = 13462,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 25174,
+								},
+							},
+							["amount"] = 25174,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1485,
+								},
+								["Banze"] = {
+									["overkill"] = 3974,
+									["amount"] = 62242,
+								},
+							},
+							["overkill"] = 3974,
+							["amount"] = 63727,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 22011,
+								},
+							},
+							["amount"] = 22011,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 6075,
+								},
+							},
+							["amount"] = 6075,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 5330,
+								},
+							},
+							["amount"] = 5330,
+						},
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Strichy"] = {
+									["amount"] = 46141,
+								},
+							},
+							["amount"] = 46141,
+						},
+						[56815] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 52709,
+								},
+							},
+							["amount"] = 52709,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 2180,
+								},
+							},
+							["amount"] = 2180,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 585,
+								},
+								["Banze"] = {
+									["amount"] = 9990,
+								},
+							},
+							["amount"] = 10575,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 16915,
+								},
+							},
+							["amount"] = 16915,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 8569,
+								},
+							},
+							["amount"] = 8569,
+						},
+						[51425] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2251,
+								},
+							},
+							["amount"] = 2251,
+						},
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 8328,
+								},
+							},
+							["amount"] = 8328,
+						},
+					},
+					["name"] = "Anub'ar Crusher",
+					["totaldamage"] = 125495,
+					["totaldamagetaken"] = 283447,
+					["id"] = "0xF1300070FA00002A",
+					["damage"] = 125495,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Strichy"] = {
+									["amount"] = 5433,
+								},
+								["Azgards"] = {
+									["amount"] = 924,
+								},
+								["Rimgar"] = {
+									["amount"] = 5236,
+								},
+								["Ranoow"] = {
+									["amount"] = 2306,
+								},
+								["Banze"] = {
+									["amount"] = 4863,
+								},
+							},
+							["amount"] = 18762,
+						},
+						[59347] = {
+							["school"] = 1,
+							["targets"] = {
+								["Strichy"] = {
+									["amount"] = 4066,
+								},
+								["Azgards"] = {
+									["amount"] = 264,
+								},
+								["Banze"] = {
+									["amount"] = 6323,
+								},
+								["Ranoow"] = {
+									["amount"] = 3999,
+								},
+								["Rimgar"] = {
+									["amount"] = 810,
+								},
+							},
+							["amount"] = 15462,
+						},
+					},
+					["damagetaken"] = 387202,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 3453,
+								},
+								["Azgards"] = {
+									["amount"] = 2075,
+								},
+							},
+							["amount"] = 5528,
+						},
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 5433,
+								},
+							},
+							["amount"] = 5433,
+						},
+						[26654] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 3962,
+								},
+							},
+							["amount"] = 3962,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 3481,
+								},
+							},
+							["amount"] = 3481,
+						},
+						[12723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 15161,
+								},
+							},
+							["amount"] = 15161,
+						},
+						[56815] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["overkill"] = 2624,
+									["amount"] = 14470,
+								},
+							},
+							["overkill"] = 2624,
+							["amount"] = 14470,
+						},
+						[51425] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 946,
+								},
+							},
+							["amount"] = 946,
+						},
+						[47486] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 19809,
+								},
+							},
+							["amount"] = 19809,
+						},
+						[49143] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2799,
+								},
+							},
+							["amount"] = 2799,
+						},
+						[47488] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 1918,
+								},
+							},
+							["amount"] = 1918,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["overkill"] = 1216,
+									["amount"] = 29235,
+								},
+							},
+							["overkill"] = 1216,
+							["amount"] = 29235,
+						},
+						[49924] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 3528,
+								},
+							},
+							["amount"] = 3528,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 14914,
+								},
+							},
+							["amount"] = 14914,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 16636,
+								},
+							},
+							["amount"] = 16636,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["overkill"] = 627,
+									["amount"] = 30216,
+								},
+								["Rimgar"] = {
+									["amount"] = 1608,
+								},
+							},
+							["overkill"] = 627,
+							["amount"] = 31824,
+						},
+						[20647] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 8289,
+									["amount"] = 9756,
+								},
+							},
+							["overkill"] = 8289,
+							["amount"] = 9756,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 3294,
+								},
+							},
+							["amount"] = 3294,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["overkill"] = 1691,
+									["amount"] = 8565,
+								},
+								["Rimgar"] = {
+									["overkill"] = 1441,
+									["amount"] = 30548,
+								},
+								["Ranoow"] = {
+									["overkill"] = 1040,
+									["amount"] = 17297,
+								},
+								["Azgards"] = {
+									["amount"] = 11861,
+								},
+							},
+							["overkill"] = 4172,
+							["amount"] = 68271,
+						},
+						[50783] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["overkill"] = 2655,
+									["amount"] = 5960,
+								},
+							},
+							["overkill"] = 2655,
+							["amount"] = 5960,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4571,
+								},
+							},
+							["amount"] = 4571,
+						},
+						[47468] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1366,
+								},
+							},
+							["amount"] = 1366,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 18480,
+								},
+							},
+							["amount"] = 18480,
+						},
+						[50622] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 8435,
+									["amount"] = 32191,
+								},
+							},
+							["overkill"] = 8435,
+							["amount"] = 32191,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 21246,
+								},
+							},
+							["amount"] = 21246,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1346,
+								},
+								["Azgards"] = {
+									["amount"] = 551,
+								},
+							},
+							["amount"] = 1897,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 10119,
+								},
+							},
+							["amount"] = 10119,
+						},
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Strichy"] = {
+									["amount"] = 2887,
+								},
+							},
+							["amount"] = 2887,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 2815,
+								},
+								["Rimgar"] = {
+									["amount"] = 9631,
+								},
+							},
+							["amount"] = 12446,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 18316,
+								},
+							},
+							["amount"] = 18316,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 6758,
+								},
+							},
+							["amount"] = 6758,
+						},
+					},
+					["name"] = "Anub'ar Crypt Fiend",
+					["totaldamage"] = 34224,
+					["totaldamagetaken"] = 387202,
+					["id"] = "0xF1300071BE00002B",
+					["damage"] = 34224,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Strichy"] = {
+									["amount"] = 1186,
+								},
+								["Azgards"] = {
+									["amount"] = 1483,
+								},
+								["Banze"] = {
+									["amount"] = 501,
+								},
+								["Ranoow"] = {
+									["amount"] = 1140,
+								},
+								["Rimgar"] = {
+									["amount"] = 2798,
+								},
+							},
+							["amount"] = 7108,
+						},
+						[53333] = {
+							["school"] = 32,
+							["total"] = 8907,
+							["targets"] = {
+								["Strichy"] = {
+									["amount"] = 8286,
+								},
+								["Azgards"] = {
+									["amount"] = 3825,
+								},
+								["Rimgar"] = {
+									["amount"] = 11859,
+								},
+								["Ranoow"] = {
+									["amount"] = 9319,
+								},
+								["Banze"] = {
+									["total"] = 23337,
+									["amount"] = 21311,
+								},
+							},
+							["amount"] = 54600,
+						},
+					},
+					["damagetaken"] = 307299,
+					["id"] = "0xF1300071AA00013F",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 724,
+								},
+							},
+							["amount"] = 724,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1377,
+								},
+								["Azgards"] = {
+									["amount"] = 2426,
+								},
+							},
+							["amount"] = 3803,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 8426,
+								},
+							},
+							["amount"] = 8426,
+						},
+						[56815] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4656,
+								},
+							},
+							["amount"] = 4656,
+						},
+						[47486] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 2457,
+								},
+							},
+							["amount"] = 2457,
+						},
+						[51425] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 5197,
+								},
+							},
+							["amount"] = 5197,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["overkill"] = 9863,
+									["amount"] = 26434,
+								},
+								["Rimgar"] = {
+									["amount"] = 3931,
+								},
+							},
+							["overkill"] = 9863,
+							["amount"] = 30365,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 30718,
+								},
+							},
+							["amount"] = 30718,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 13097,
+								},
+							},
+							["amount"] = 13097,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 38866,
+								},
+								["Rimgar"] = {
+									["amount"] = 5288,
+								},
+							},
+							["amount"] = 44154,
+						},
+						[12723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 9488,
+								},
+							},
+							["amount"] = 9488,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 2597,
+								},
+								["Azgards"] = {
+									["overkill"] = 574,
+									["amount"] = 14277,
+								},
+								["Ranoow"] = {
+									["overkill"] = 2867,
+									["amount"] = 13552,
+								},
+								["Rimgar"] = {
+									["overkill"] = 1100,
+									["amount"] = 7342,
+								},
+							},
+							["overkill"] = 4541,
+							["amount"] = 37768,
+						},
+						[47488] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 7071,
+								},
+							},
+							["amount"] = 7071,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 2716,
+								},
+							},
+							["amount"] = 2716,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1496,
+								},
+							},
+							["amount"] = 1496,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 11691,
+								},
+							},
+							["amount"] = 11691,
+						},
+						[49143] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 4938,
+								},
+							},
+							["amount"] = 4938,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 15984,
+								},
+							},
+							["amount"] = 15984,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["overkill"] = 468,
+									["amount"] = 645,
+								},
+							},
+							["overkill"] = 468,
+							["amount"] = 645,
+						},
+						[50622] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 3751,
+									["amount"] = 23027,
+								},
+							},
+							["overkill"] = 3751,
+							["amount"] = 23027,
+						},
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Strichy"] = {
+									["overkill"] = 567,
+									["amount"] = 16602,
+								},
+							},
+							["overkill"] = 567,
+							["amount"] = 16602,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 2731,
+								},
+								["Rimgar"] = {
+									["overkill"] = 137,
+									["amount"] = 8211,
+								},
+							},
+							["overkill"] = 137,
+							["amount"] = 10942,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["overkill"] = 1725,
+									["amount"] = 18725,
+								},
+							},
+							["overkill"] = 1725,
+							["amount"] = 18725,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 2609,
+								},
+							},
+							["amount"] = 2609,
+						},
+					},
+					["totaldamage"] = 63734,
+					["name"] = "Anub'ar Necromancer",
+					["totaldamagetaken"] = 307299,
+					["flag"] = 68168,
+					["damage"] = 61708,
+				}, -- [4]
+				{
+					["id"] = "0xF130003A21000044",
+					["name"] = "Spider",
+					["totaldamagetaken"] = 5108,
+					["flag"] = 2600,
+					["class"] = "MONSTER",
+					["damagetaken"] = 5108,
+					["damagetakenspells"] = {
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 3048,
+									["amount"] = 3057,
+								},
+							},
+							["overkill"] = 3048,
+							["amount"] = 3057,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["overkill"] = 2042,
+									["amount"] = 2051,
+								},
+							},
+							["overkill"] = 2042,
+							["amount"] = 2051,
+						},
+					},
+				}, -- [5]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Banze"] = {
+									["amount"] = 286,
+								},
+							},
+							["amount"] = 286,
+						},
+					},
+					["damagetaken"] = 11196,
+					["flag"] = 4680,
+					["class"] = "PET",
+					["damagetakenspells"] = {
+						[56815] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 5790,
+								},
+							},
+							["amount"] = 5790,
+						},
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 362,
+								},
+							},
+							["amount"] = 362,
+						},
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Strichy"] = {
+									["overkill"] = 710,
+									["amount"] = 1828,
+								},
+							},
+							["overkill"] = 710,
+							["amount"] = 1828,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 3216,
+								},
+							},
+							["amount"] = 3216,
+						},
+					},
+					["name"] = "Animated Bones",
+					["totaldamage"] = 286,
+					["totaldamagetaken"] = 11196,
+					["id"] = "0xF1300071E1000168",
+					["damage"] = 286,
+				}, -- [6]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ranoow"] = {
 									["amount"] = 6150,
 								},
 							},
 							["amount"] = 6150,
 						},
-					},
-					["totaldamage"] = 31139,
-					["name"] = "Cyanigosa",
-					["totaldamagetaken"] = 486265,
-					["id"] = "0xF13000799E000085",
-					["damage"] = 10628,
-				}, -- [1]
-			},
-			["etotaldamagetaken"] = 486265,
-			["totaldamage"] = 486265,
-			["time"] = 31,
-			["last_time"] = 13076.287,
-			["totaldamagetaken"] = 31283,
-			["etotaldamage"] = 31139,
-			["damage"] = 486265,
-			["rage"] = 70,
-			["type"] = "party",
-			["damagetaken"] = 10772,
-			["gotboss"] = 31134,
-			["starttime"] = 1728655768,
-			["name"] = "Cyanigosa",
-			["absorb"] = 20511,
-			["overkill"] = 1238,
-			["edamagetaken"] = 486265,
-			["heal"] = 10506,
-			["success"] = true,
-			["mobname"] = "Cyanigosa",
-			["overheal"] = 23425,
-			["edamage"] = 10628,
-			["last_action"] = 1728655799,
-			["endtime"] = 1728655799,
-		}, -- [1]
-		{
-			["mana"] = 2721,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[61591] = {
-							["school"] = 64,
-							["total"] = 18024,
+						[59417] = {
+							["school"] = 8,
+							["overkill"] = 1087,
 							["targets"] = {
-								["Scrakekf"] = {
-									["amount"] = 3361,
-									["total"] = 6809,
-								},
-								["Rimgar"] = {
-									["amount"] = 815,
-									["total"] = 8034,
-								},
-								["Aandra"] = {
-									["amount"] = 4056,
-									["total"] = 7560,
-								},
-								["Supdawgx"] = {
-									["amount"] = 3448,
-									["total"] = 6486,
+								["Ranoow"] = {
+									["overkill"] = 1087,
+									["amount"] = 1680,
 								},
 							},
-							["amount"] = 11680,
+							["amount"] = 1680,
 						},
 					},
-					["damagetaken"] = 163414,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["damagetaken"] = 20892,
+					["flag"] = 2632,
+					["class"] = "BOSS",
 					["damagetakenspells"] = {
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 4746,
-								},
-							},
-							["amount"] = 4746,
-						},
-						[12721] = {
+						[1680] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 2745,
-								},
-								["Rimgar"] = {
-									["amount"] = 5644,
+								["Ranoow"] = {
+									["amount"] = 7354,
 								},
 							},
-							["amount"] = 8389,
-						},
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 323,
-								},
-							},
-							["amount"] = 323,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 14409,
-								},
-								["Supdawgx"] = {
-									["amount"] = 5448,
-								},
-							},
-							["amount"] = 19857,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 20051,
-								},
-							},
-							["amount"] = 20051,
-						},
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 14048,
-								},
-								["Supdawgx"] = {
-									["amount"] = 3588,
-									["overkill"] = 501,
-								},
-							},
-							["amount"] = 17636,
-							["overkill"] = 501,
+							["amount"] = 7354,
 						},
 						[44949] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 2741,
+								["Ranoow"] = {
+									["amount"] = 1860,
 								},
 							},
-							["amount"] = 2741,
+							["amount"] = 1860,
 						},
-						[1680] = {
+						[20253] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 4589,
+								["Ranoow"] = {
+									["amount"] = 629,
 								},
 							},
-							["amount"] = 4589,
+							["amount"] = 629,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 6604,
+								},
+							},
+							["amount"] = 6604,
 						},
 						[23881] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 8466,
+								["Ranoow"] = {
+									["amount"] = 3053,
 								},
 							},
-							["amount"] = 8466,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 5360,
-								},
-							},
-							["amount"] = 5360,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 30317,
-								},
-							},
-							["amount"] = 30317,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 19904,
-								},
-							},
-							["amount"] = 19904,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2405,
-								},
-							},
-							["amount"] = 2405,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 6520,
-								},
-							},
-							["amount"] = 6520,
-						},
-						[48465] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 12110,
-								},
-							},
-							["amount"] = 12110,
-						},
-					},
-					["totaldamage"] = 28889,
-					["name"] = "Portal Keeper",
-					["totaldamagetaken"] = 163414,
-					["id"] = "0xF1300078AD00007F",
-					["damage"] = 11680,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 2366,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 5505,
-									["total"] = 7733,
-								},
-							},
-							["amount"] = 5505,
-						},
-					},
-					["damagetaken"] = 36663,
-					["id"] = "0xF1300078F2000083",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 6209,
-								},
-							},
-							["amount"] = 6209,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 5710,
-								},
-							},
-							["amount"] = 5710,
+							["amount"] = 3053,
 						},
 						[12721] = {
 							["school"] = 1,
 							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1104,
+								["Ranoow"] = {
+									["amount"] = 1392,
 								},
 							},
-							["amount"] = 1104,
-						},
-						[47520] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 12933,
-									["overkill"] = 4326,
-								},
-							},
-							["amount"] = 12933,
-							["overkill"] = 4326,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1214,
-								},
-							},
-							["amount"] = 1214,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1593,
-									["overkill"] = 837,
-								},
-							},
-							["amount"] = 1593,
-							["overkill"] = 837,
-						},
-						[12723] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 5194,
-								},
-							},
-							["amount"] = 5194,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 2706,
-								},
-							},
-							["amount"] = 2706,
+							["amount"] = 1392,
 						},
 					},
-					["totaldamage"] = 7733,
-					["name"] = "Azure Spellbreaker",
-					["totaldamagetaken"] = 36663,
-					["flag"] = 2632,
-					["damage"] = 5505,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 12564,
-								},
-							},
-							["amount"] = 12564,
-						},
-						[58460] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 3649,
-								},
-							},
-							["amount"] = 3649,
-						},
-					},
-					["damagetaken"] = 45582,
-					["id"] = "0xF1300078F1000081",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 5670,
-								},
-							},
-							["amount"] = 5670,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1472,
-								},
-							},
-							["amount"] = 1472,
-						},
-						[47520] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 5195,
-								},
-							},
-							["amount"] = 5195,
-						},
-						[12723] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 19141,
-									["overkill"] = 8751,
-								},
-							},
-							["amount"] = 19141,
-							["overkill"] = 8751,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 14104,
-									["overkill"] = 11631,
-								},
-							},
-							["amount"] = 14104,
-							["overkill"] = 11631,
-						},
-					},
-					["totaldamage"] = 16213,
-					["name"] = "Azure Invader",
-					["totaldamagetaken"] = 45582,
-					["flag"] = 2632,
-					["damage"] = 16213,
-				}, -- [3]
+					["name"] = "Hadronox",
+					["overkill"] = 1087,
+					["totaldamage"] = 7830,
+					["totaldamagetaken"] = 20892,
+					["id"] = "0xF1300070F9000029",
+					["damage"] = 7830,
+				}, -- [7]
 			},
+			["death"] = 2,
+			["totaldamage"] = 1384487,
+			["time"] = 138,
+			["absorb"] = 2026,
+			["totaldamagetaken"] = 382989,
+			["etotaldamagetaken"] = 1384487,
+			["last_time"] = 1388.994,
+			["rage"] = 60,
+			["type"] = "party",
+			["damagetaken"] = 380963,
+			["gotboss"] = 28921,
+			["damage"] = 1384487,
+			["starttime"] = 1728901100,
+			["runic"] = 522,
+			["overkill"] = 78248,
+			["edamagetaken"] = 1384487,
+			["heal"] = 309898,
+			["name"] = "Hadronox",
+			["mobname"] = "Hadronox",
 			["players"] = {
 				{
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 3338,
-							["criticalamount"] = 7371,
-							["id"] = 6603,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 14409,
-								},
-							},
-							["criticalmin"] = 7371,
-							["amount"] = 14409,
-							["criticalmax"] = 7371,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 3700,
-							["count"] = 3,
-							["hitamount"] = 7038,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 2405,
-							["id"] = 71904,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2405,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2405,
-							["amount"] = 2405,
-							["hitamount"] = 2405,
-						},
-						["Sweeping Strikes"] = {
-							["hitmin"] = 5194,
-							["id"] = 12723,
-							["targets"] = {
-								["Azure Invader"] = {
-									["amount"] = 19141,
-									["overkill"] = 8751,
-								},
-								["Azure Spellbreaker"] = {
-									["amount"] = 5194,
-								},
-							},
-							["overkill"] = 8751,
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 12933,
-							["amount"] = 24335,
-							["hitamount"] = 24335,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 6209,
-							["criticalamount"] = 30317,
-							["id"] = 47486,
-							["count"] = 4,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 30317,
-								},
-								["Azure Spellbreaker"] = {
-									["amount"] = 6209,
-								},
-							},
-							["criticalmax"] = 10740,
-							["criticalmin"] = 9720,
-							["casts"] = 4,
-							["hitmax"] = 6209,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 36526,
-							["critical"] = 3,
-							["hitamount"] = 6209,
-						},
-						["Thunder Clap"] = {
-							["criticalamount"] = 11380,
-							["id"] = 47502,
-							["targets"] = {
-								["Azure Spellbreaker"] = {
-									["amount"] = 5710,
-								},
-								["Azure Invader"] = {
-									["amount"] = 5670,
-								},
-							},
-							["count"] = 4,
-							["casts"] = 1,
-							["critical"] = 4,
-							["blocked"] = 40,
-							["school"] = 1,
-							["criticalmax"] = 2855,
-							["criticalmin"] = 2815,
-							["amount"] = 11380,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1630,
-							["id"] = 47465,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 6520,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1630,
-							["amount"] = 6520,
-							["hitamount"] = 6520,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 368,
-							["id"] = 12721,
-							["targets"] = {
-								["Azure Invader"] = {
-									["amount"] = 1472,
-								},
-								["Portal Keeper"] = {
-									["amount"] = 5644,
-								},
-								["Azure Spellbreaker"] = {
-									["amount"] = 1104,
-								},
-							},
-							["count"] = 13,
-							["hit"] = 13,
-							["school"] = 1,
-							["hitmax"] = 1289,
-							["amount"] = 8220,
-							["hitamount"] = 8220,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 20051,
-							["id"] = 7384,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 20051,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 20051,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 10652,
-							["criticalmin"] = 9399,
-						},
-						["Victory Rush"] = {
-							["criticalamount"] = 14104,
-							["id"] = 34428,
-							["targets"] = {
-								["Azure Invader"] = {
-									["amount"] = 14104,
-									["overkill"] = 11631,
-								},
-							},
-							["overkill"] = 11631,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 14104,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 14104,
-							["criticalmin"] = 14104,
-						},
-						["Cleave"] = {
-							["count"] = 2,
-							["hitmin"] = 5195,
-							["criticalamount"] = 12933,
-							["id"] = 47520,
-							["criticalmax"] = 12933,
-							["targets"] = {
-								["Azure Spellbreaker"] = {
-									["amount"] = 12933,
-									["overkill"] = 4326,
-								},
-								["Azure Invader"] = {
-									["amount"] = 5195,
-								},
-							},
-							["overkill"] = 4326,
-							["criticalmin"] = 12933,
-							["casts"] = 1,
-							["hitmax"] = 5195,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 18128,
-							["critical"] = 1,
-							["hitamount"] = 5195,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 4153,
-							["criticalamount"] = 9895,
-							["id"] = 47450,
-							["criticalmin"] = 9895,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 14048,
-								},
-							},
-							["amount"] = 14048,
-							["hitmax"] = 4153,
-							["criticalmax"] = 9895,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["count"] = 2,
-							["casts"] = 2,
-							["hitamount"] = 4153,
-						},
-					},
-					["last"] = 13023.765,
-					["damagetaken"] = 22533,
-					["totaldamage"] = 170126,
+					["last"] = 1331.246,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
-					["overkill"] = 24708,
 					["auras"] = {
-						[48066] = {
-							["school"] = 2,
+						[52437] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 7,
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 32,
 						},
-						[48470] = {
+						[57522] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 14,
+							["school"] = 1,
+							["uptime"] = 43,
+						},
+						[55694] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
+							["school"] = 1,
 							["refresh"] = 1,
+							["uptime"] = 10,
+						},
+						[70855] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 11,
+						},
+						[46924] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[2565] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
 						},
 						[12328] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
+							["school"] = 1,
+							["uptime"] = 9,
 						},
 						[71905] = {
 							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 10,
+							["school"] = 1,
+							["uptime"] = 43,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 67,
+						},
+						[71] = {
+							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 11,
+							["uptime"] = 81,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[71541] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
 							["uptime"] = 17,
 						},
-						[65156] = {
+						[16491] = {
+							["type"] = "BUFF",
+							["count"] = 4,
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 21,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
+							["refresh"] = 4,
+							["uptime"] = 28,
 						},
 						[46857] = {
 							["type"] = "DEBUFF",
-							["count"] = 3,
+							["count"] = 14,
 							["school"] = 1,
-							["refresh"] = 6,
+							["refresh"] = 10,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 6,
-									["count"] = 1,
+								["Anub'ar Crypt Fiend"] = {
+									["count"] = 4,
+									["refresh"] = 4,
 									["uptime"] = 11,
 								},
-							},
-							["uptime"] = 11,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
+								["Anub'ar Champion"] = {
+									["count"] = 7,
+									["refresh"] = 4,
+									["uptime"] = 24,
+								},
+								["Anub'ar Necromancer"] = {
+									["count"] = 3,
 									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 11,
+									["uptime"] = 88,
 								},
 							},
-							["uptime"] = 11,
+							["uptime"] = 101,
 						},
-						[47465] = {
-							["type"] = "DEBUFF",
+						[2458] = {
+							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
+							["uptime"] = 8,
 						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
+						[871] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 6,
+							["uptime"] = 12,
+						},
+						[64568] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 27,
+						},
+						[47502] = {
+							["type"] = "DEBUFF",
+							["count"] = 26,
+							["school"] = 1,
+							["refresh"] = 8,
 							["targets"] = {
-								["Azure Invader"] = {
-									["uptime"] = 4,
-									["count"] = 2,
+								["Anub'ar Champion"] = {
+									["count"] = 10,
+									["refresh"] = 3,
+									["uptime"] = 99,
 								},
-								["Portal Keeper"] = {
-									["refresh"] = 6,
-									["count"] = 1,
-									["uptime"] = 11,
+								["Anub'ar Crypt Fiend"] = {
+									["count"] = 9,
+									["refresh"] = 3,
+									["uptime"] = 88,
 								},
-								["Azure Spellbreaker"] = {
-									["uptime"] = 2,
-									["count"] = 2,
+								["Anub'ar Necromancer"] = {
+									["count"] = 7,
+									["refresh"] = 2,
+									["uptime"] = 79,
 								},
 							},
-							["uptime"] = 15,
+							["uptime"] = 99,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
 						},
 						[47436] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
+							["uptime"] = 28,
 						},
 						[59620] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["refresh"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 20,
 						},
 						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 8,
-							["uptime"] = 18,
-						},
-						[47502] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Invader"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-								["Azure Spellbreaker"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[60503] = {
-							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["uptime"] = 2,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[70855] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[71541] = {
 							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-					},
-					["name"] = "Rimgar",
-					["role"] = "DAMAGER",
-					["time"] = 19.73,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["total"] = 20297,
-							["hitmin"] = 138,
-							["id"] = 6603,
-							["sources"] = {
-								["Azure Spellbreaker"] = {
-									["amount"] = 5505,
-									["total"] = 7733,
-								},
-								["Azure Invader"] = {
-									["amount"] = 12564,
-								},
-							},
-							["PARRY"] = 1,
-							["count"] = 9,
-							["hit"] = 8,
-							["school"] = 1,
-							["amount"] = 18069,
-							["hitmax"] = 2840,
-							["hitamount"] = 18069,
-						},
-						["Arcane Volley"] = {
-							["total"] = 8034,
-							["hitmin"] = 815,
-							["id"] = 61591,
-							["hit"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 815,
-									["total"] = 8034,
-								},
-							},
-							["count"] = 2,
-							["ABSORB"] = 1,
-							["school"] = 64,
-							["amount"] = 815,
-							["hitmax"] = 815,
-							["hitamount"] = 815,
-						},
-						["Sunder Armor"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Azure Invader"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 58461,
-						},
-						["Frostbolt"] = {
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["RESIST"] = 1,
-							["id"] = 61590,
-						},
-						["Brutal Strike"] = {
-							["hitmin"] = 3649,
-							["id"] = 58460,
-							["sources"] = {
-								["Azure Invader"] = {
-									["amount"] = 3649,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3649,
-							["amount"] = 3649,
-							["hitamount"] = 3649,
-						},
-					},
-					["spec"] = 71,
-					["totaldamagetaken"] = 31980,
-					["id"] = "0x070000000040A064",
-					["damage"] = 170126,
-				}, -- [1]
-				{
-					["last"] = 13004.026,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 21,
 						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["school"] = 8,
+						[29842] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["uptime"] = 18,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["role"] = "TANK",
-					["name"] = "Jhosah",
-					["class"] = "PALADIN",
-					["time"] = 0,
-					["flag"] = 1298,
-				}, -- [2]
-				{
-					["last"] = 13018.162,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[60062] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[43183] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 3,
-							["uptime"] = 13,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["targets"] = {
-								["Aandra"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Rimgar"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Scrakekf"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Supdawgx"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 1706,
-							["casts"] = 5,
-							["count"] = 6,
-							["amount"] = 18915,
-							["max"] = 3848,
-							["targets"] = {
-								["Scrakekf"] = 3448,
-								["Rimgar"] = 8925,
-								["Aandra"] = 3504,
-								["Supdawgx"] = 3038,
-							},
-							["school"] = 2,
-						},
-						[47753] = {
-							["min"] = 522,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 522,
-							["school"] = 2,
-							["targets"] = {
-								["Rimgar"] = 522,
-							},
-							["max"] = 522,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 14.12,
-					["totaldamagetaken"] = 7560,
-					["rage"] = 8,
-					["absorb"] = 19437,
-					["damagetaken"] = 4056,
-					["id"] = "0x0700000000AD81EB",
-					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 926,
-							["criticalamount"] = 815,
-							["max"] = 1231,
-							["targets"] = {
-								["Aandra"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Rimgar"] = {
-									["overheal"] = 926,
-									["amount"] = 815,
-								},
-								["Scrakekf"] = {
-									["overheal"] = 0,
-									["amount"] = 1161,
-								},
-								["Supdawgx"] = {
-									["overheal"] = 0,
-									["amount"] = 1161,
-								},
-							},
-							["min"] = 815,
-							["criticalmax"] = 815,
-							["count"] = 4,
-							["amount"] = 4368,
-							["school"] = 2,
-							["critical"] = 1,
-							["criticalmin"] = 815,
-						},
-					},
-					["damagetakenspells"] = {
-						["Arcane Volley"] = {
-							["total"] = 7560,
-							["hitmin"] = 4056,
-							["id"] = 61591,
-							["count"] = 2,
-							["amount"] = 4056,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4056,
-									["total"] = 7560,
-								},
-							},
-							["hitmax"] = 4056,
-							["ABSORB"] = 1,
-							["school"] = 64,
-							["resisted"] = 450,
-							["hit"] = 1,
-							["hitamount"] = 4056,
-						},
-					},
-					["ragespells"] = {
-						[63653] = 8,
-					},
-					["name"] = "Aandra",
-					["mana"] = 1035,
-					["manaspells"] = {
-						[47755] = 535,
-						[67666] = 500,
-					},
-					["heal"] = 4368,
-					["overheal"] = 926,
-				}, -- [3]
-				{
-					["ccdonespells"] = {
-						[53308] = {
-							["count"] = 1,
-							["targets"] = {
-								["Azure Invader"] = 1,
-							},
-						},
-					},
-					["last"] = 13016.854,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 14,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48518] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
 							["refresh"] = 2,
-							["uptime"] = 9,
+							["school"] = 1,
+							["uptime"] = 18,
 						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 4,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48468] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[67360] = {
-							["school"] = 8,
+						[47440] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["refresh"] = 1,
+							["uptime"] = 79,
 						},
-					},
-					["totaldamage"] = 42120,
-					["time"] = 12.52,
-					["totaldamagetaken"] = 6809,
-					["damage"] = 42120,
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 864,
-							["id"] = 48468,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5360,
-								},
-							},
-							["count"] = 5,
-							["hitmax"] = 1220,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 460,
-							["amount"] = 5360,
-							["hitamount"] = 5360,
-						},
-						["Wrath"] = {
-							["hitmin"] = 3022,
-							["criticalamount"] = 13485,
-							["id"] = 48461,
-							["criticalmin"] = 6728,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 19904,
-								},
-							},
-							["amount"] = 19904,
-							["hitmax"] = 3397,
-							["criticalmax"] = 6757,
-							["critical"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["count"] = 4,
-							["casts"] = 3,
-							["hitamount"] = 6419,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 671,
-							["criticalamount"] = 3031,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3702,
-								},
-							},
-							["criticalmin"] = 1515,
-							["amount"] = 3702,
-							["criticalmax"] = 1516,
-							["critical"] = 2,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 671,
-							["count"] = 3,
-							["hitamount"] = 671,
-						},
-						["Moonfire"] = {
-							["hitmin"] = 1044,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1044,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 1044,
-							["amount"] = 1044,
-							["hitamount"] = 1044,
-						},
-						["Starfire"] = {
-							["criticalamount"] = 12110,
-							["id"] = 48465,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 12110,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 12110,
-							["school"] = 64,
-							["count"] = 1,
-							["criticalmax"] = 12110,
-							["criticalmin"] = 12110,
-						},
-					},
-					["damagetaken"] = 3361,
-					["id"] = "0x0700000000ABE036",
-					["spec"] = 102,
-					["damagetakenspells"] = {
-						["Arcane Volley"] = {
-							["total"] = 6809,
-							["hitmin"] = 3361,
-							["id"] = 61591,
-							["count"] = 2,
-							["hit"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3361,
-									["total"] = 6809,
-								},
-							},
-							["hitmax"] = 3361,
-							["amount"] = 3361,
-							["school"] = 64,
-							["resisted"] = 840,
-							["ABSORB"] = 1,
-							["hitamount"] = 3361,
-						},
-						["Polymorph"] = {
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 64,
-							["IMMUNE"] = 1,
-							["id"] = 58537,
-						},
-					},
-					["name"] = "Scrakekf",
-					["ccdone"] = 1,
-					["role"] = "DAMAGER",
-					["mana"] = 1686,
-					["manaspells"] = {
-						[53506] = 1686,
-					},
-				}, -- [4]
-				{
-					["last"] = 13022.639,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 12,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 4,
-							["uptime"] = 14,
-						},
-						[46916] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 16,
+							["uptime"] = 138,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
+							["uptime"] = 39,
 							["school"] = 1,
-							["refresh"] = 3,
+							["refresh"] = 8,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 11,
+								["Anub'ar Crypt Fiend"] = {
+									["count"] = 8,
+									["refresh"] = 2,
+									["uptime"] = 25,
+								},
+								["Anub'ar Champion"] = {
+									["count"] = 12,
+									["refresh"] = 4,
+									["uptime"] = 33,
+								},
+								["Anub'ar Necromancer"] = {
+									["count"] = 7,
+									["refresh"] = 2,
+									["uptime"] = 26,
 								},
 							},
-							["uptime"] = 11,
+							["count"] = 27,
 						},
-						[61619] = {
-							["school"] = 1,
+						[29131] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[47486] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 15,
+							["school"] = 1,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 8,
+									["count"] = 2,
+								},
+								["Anub'ar Champion"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Anub'ar Necromancer"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["count"] = 4,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 79,
 						},
 					},
-					["role"] = "DAMAGER",
-					["time"] = 18.63,
-					["totaldamagetaken"] = 6486,
-					["damage"] = 33413,
+					["time"] = 60.08999999999999,
+					["totaldamagetaken"] = 60179,
+					["damage"] = 384829,
+					["overheal"] = 0,
 					["damagespells"] = {
-						["Intercept"] = {
-							["hitmin"] = 323,
-							["id"] = 20253,
+						["Shield Slam"] = {
+							["hitmin"] = 1918,
+							["criticalamount"] = 7071,
+							["id"] = 47488,
+							["hitmax"] = 2875,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 323,
+								["Anub'ar Champion"] = {
+									["amount"] = 2875,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1918,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 7071,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 323,
-							["amount"] = 323,
-							["hitamount"] = 323,
-						},
-						["Bloodthirst"] = {
-							["hitmax"] = 1593,
-							["hitmin"] = 1568,
-							["criticalamount"] = 6898,
-							["id"] = 23881,
-							["criticalmax"] = 3449,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 8466,
-								},
-								["Azure Spellbreaker"] = {
-									["amount"] = 1593,
-									["overkill"] = 837,
-								},
-							},
-							["overkill"] = 837,
-							["criticalmin"] = 3449,
-							["casts"] = 4,
-							["count"] = 4,
+							["count"] = 3,
 							["hit"] = 2,
+							["casts"] = 3,
+							["critical"] = 1,
+							["amount"] = 11864,
 							["school"] = 1,
-							["amount"] = 10059,
-							["critical"] = 2,
-							["hitamount"] = 3161,
+							["criticalmin"] = 7071,
+							["criticalmax"] = 7071,
+							["hitamount"] = 4793,
 						},
 						["Melee"] = {
-							["glance"] = 1320,
-							["hitmin"] = 690,
-							["criticalmin"] = 1410,
+							["glance"] = 3340,
+							["hitmin"] = 1550,
+							["criticalmin"] = 3876,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5448,
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 1441,
+									["amount"] = 30548,
 								},
-								["Azure Spellbreaker"] = {
-									["amount"] = 1214,
+								["Anub'ar Champion"] = {
+									["amount"] = 14473,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 1100,
+									["amount"] = 7342,
 								},
 							},
 							["glancing"] = 2,
-							["amount"] = 6662,
-							["MISS"] = 3,
-							["glancemin"] = 639,
-							["criticalamount"] = 1410,
+							["amount"] = 52363,
+							["glancemin"] = 1659,
+							["criticalamount"] = 39745,
 							["id"] = 6603,
-							["glancemax"] = 681,
-							["criticalmax"] = 1410,
-							["count"] = 10,
+							["glancemax"] = 1681,
+							["overkill"] = 2541,
+							["criticalmax"] = 8762,
+							["critical"] = 6,
 							["hit"] = 4,
 							["school"] = 1,
-							["critical"] = 1,
-							["hitmax"] = 1284,
-							["hitamount"] = 3932,
+							["count"] = 12,
+							["hitmax"] = 3997,
+							["hitamount"] = 9278,
 						},
-						["Pummel"] = {
+						["Chaos Bane"] = {
+							["hitmin"] = 369,
+							["id"] = 71904,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 1122,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 2609,
+								},
+							},
+							["hitmax"] = 723,
+							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 32,
+							["resisted"] = 40,
+							["amount"] = 3731,
+							["hitamount"] = 3731,
+						},
+						["Execute"] = {
+							["criticalamount"] = 9756,
+							["id"] = 20647,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 8289,
+									["amount"] = 9756,
+								},
+							},
+							["overkill"] = 8289,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 9756,
+							["school"] = 1,
+							["criticalmin"] = 9756,
+							["criticalmax"] = 9756,
+							["count"] = 1,
+						},
+						["Whirlwind"] = {
+							["blocked"] = 40,
+							["hitmax"] = 4592,
+							["hitmin"] = 1608,
+							["criticalamount"] = 92677,
+							["id"] = 50622,
+							["count"] = 19,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 8435,
+									["amount"] = 33799,
+								},
+								["Anub'ar Champion"] = {
+									["overkill"] = 10321,
+									["amount"] = 58608,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 3751,
+									["amount"] = 28315,
+								},
+							},
+							["overkill"] = 22507,
+							["hit"] = 8,
+							["casts"] = 2,
+							["critical"] = 11,
+							["amount"] = 120722,
+							["school"] = 1,
+							["criticalmin"] = 3262,
+							["criticalmax"] = 10858,
+							["hitamount"] = 28045,
+						},
+						["Sweeping Strikes"] = {
+							["hitmin"] = 3844,
+							["id"] = 12723,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 19123,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 9488,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 11317,
+							["amount"] = 28611,
+							["hitamount"] = 28611,
+						},
+						["Thunder Clap"] = {
+							["blocked"] = 80,
+							["criticalmax"] = 3687,
+							["hitmin"] = 840,
+							["criticalamount"] = 48327,
+							["id"] = 47502,
+							["criticalmin"] = 1908,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 21246,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 25084,
+								},
+								["Spider"] = {
+									["overkill"] = 3048,
+									["amount"] = 3057,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 15984,
+								},
+							},
+							["overkill"] = 3048,
+							["critical"] = 19,
+							["casts"] = 5,
+							["count"] = 35,
+							["hit"] = 16,
+							["school"] = 1,
+							["hitmax"] = 1385,
+							["amount"] = 65371,
+							["hitamount"] = 17044,
+						},
+						["Revenge"] = {
+							["criticalmin"] = 9989,
+							["hitmin"] = 4050,
+							["criticalamount"] = 9989,
+							["id"] = 57823,
+							["criticalmax"] = 9989,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["overkill"] = 1120,
+									["amount"] = 14039,
+								},
+							},
+							["overkill"] = 1120,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4050,
+							["amount"] = 14039,
+							["hitamount"] = 4050,
+						},
+						["Cleave"] = {
+							["hitmin"] = 1564,
+							["criticalamount"] = 12827,
+							["id"] = 47520,
+							["criticalmin"] = 3931,
+							["targets"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 3931,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 10460,
+								},
+							},
+							["criticalmax"] = 4727,
+							["critical"] = 3,
+							["casts"] = 2,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1564,
+							["amount"] = 14391,
+							["hitamount"] = 1564,
+						},
+						["Hamstring"] = {
 							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
 							["IMMUNE"] = 1,
 							["targets"] = {
-								["Portal Keeper"] = {
+								["Anub'ar Crypt Fiend"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 6552,
+							["id"] = 1715,
+						},
+						["Mortal Strike"] = {
+							["hitmin"] = 2457,
+							["criticalamount"] = 31579,
+							["id"] = 47486,
+							["hitmax"] = 2457,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 19809,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 11770,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 2457,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 1,
+							["casts"] = 4,
+							["critical"] = 3,
+							["amount"] = 34036,
+							["school"] = 1,
+							["criticalmin"] = 9698,
+							["criticalmax"] = 11770,
+							["hitamount"] = 2457,
 						},
 						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 184,
+							["hitmin"] = 156,
 							["id"] = 12721,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2745,
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 9631,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 12103,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 137,
+									["amount"] = 8211,
+								},
+							},
+							["overkill"] = 137,
+							["count"] = 110,
+							["hit"] = 110,
+							["school"] = 1,
+							["hitmax"] = 889,
+							["amount"] = 29945,
+							["hitamount"] = 29945,
+						},
+					},
+					["damagetaken"] = 60179,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["source"] = "Anub'ar Champion",
+									["time"] = 1331.577,
+									["amount"] = -8100,
+									["school"] = 1,
+									["hp"] = 1,
+									["spellid"] = 59343,
+									["overkill"] = 5183,
+								}, -- [1]
+								{
+									["source"] = "Anub'ar Champion",
+									["amount"] = -235,
+									["school"] = 1,
+									["hp"] = 3152,
+									["spellid"] = 6603,
+									["time"] = 1331.457,
+								}, -- [2]
+								{
+									["source"] = "Anub'ar Crypt Fiend",
+									["amount"] = -246,
+									["school"] = 1,
+									["hp"] = 3018,
+									["spellid"] = 6603,
+									["time"] = 1331.145,
+								}, -- [3]
+								{
+									["hp"] = 3217,
+									["source"] = "Anub'ar Champion",
+									["amount"] = -199,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["time"] = 1330.874,
+								}, -- [4]
+								{
+									["source"] = "Anub'ar Crypt Fiend",
+									["amount"] = -236,
+									["school"] = 1,
+									["hp"] = 3453,
+									["spellid"] = 6603,
+									["time"] = 1330.82,
+								}, -- [5]
+								{
+									["hp"] = 3623,
+									["source"] = "Anub'ar Necromancer",
+									["amount"] = -170,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["time"] = 1330.608,
+								}, -- [6]
+								{
+									["hp"] = 3785,
+									["source"] = "Anub'ar Necromancer",
+									["amount"] = -162,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["time"] = 1330.366,
+								}, -- [7]
+								{
+									["hp"] = 3785,
+									["source"] = "Anub'ar Champion",
+									["amount"] = -1483,
+									["school"] = 1,
+									["spellid"] = 59344,
+									["time"] = 1330.317,
+								}, -- [8]
+								{
+									["hp"] = 5720,
+									["source"] = "Anub'ar Champion",
+									["amount"] = -232,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["time"] = 1330.228,
+								}, -- [9]
+								{
+									["source"] = "Anub'ar Crypt Fiend",
+									["amount"] = -220,
+									["school"] = 1,
+									["hp"] = 5720,
+									["spellid"] = 6603,
+									["time"] = 1330.228,
+								}, -- [10]
+								{
+									["hp"] = 5933,
+									["source"] = "Anub'ar Crypt Fiend",
+									["amount"] = -213,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["time"] = 1330.151,
+								}, -- [11]
+								{
+									["hp"] = 6157,
+									["source"] = "Anub'ar Champion",
+									["amount"] = -224,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["time"] = 1330.085,
+								}, -- [12]
+								{
+									["source"] = "Anub'ar Champion",
+									["amount"] = -230,
+									["school"] = 1,
+									["hp"] = 6387,
+									["spellid"] = 6603,
+									["time"] = 1330.056,
+								}, -- [13]
+								{
+									["hp"] = 6007,
+									["source"] = "Anub'ar Necromancer",
+									["amount"] = -783,
+									["school"] = 32,
+									["resisted"] = 87,
+									["spellid"] = 53333,
+									["time"] = 1329.067,
+								}, -- [14]
+							},
+							["time"] = 1331.579,
+							["timeod"] = 1728901179,
+							["school"] = 1,
+							["maxhp"] = 35118,
+							["spellid"] = 59343,
+							["source"] = "Anub'ar Champion",
+						}, -- [1]
+					},
+					["id"] = "0x070000000040A064",
+					["spec"] = 71,
+					["healspells"] = {
+						[29842] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 6090,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 6090,
+							["school"] = 1,
+							["max"] = 767,
+							["ishot"] = true,
+							["min"] = 744,
+						},
+						[64569] = {
+							["overheal"] = 0,
+							["criticalamount"] = 1705,
+							["max"] = 1705,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 1705,
+								},
+							},
+							["min"] = 1705,
+							["criticalmax"] = 1705,
+							["critical"] = 1,
+							["amount"] = 1705,
+							["school"] = 1,
+							["criticalmin"] = 1705,
+							["count"] = 1,
+						},
+						[16491] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 9866,
+								},
+							},
+							["count"] = 26,
+							["amount"] = 9866,
+							["school"] = 1,
+							["max"] = 383,
+							["ishot"] = true,
+							["min"] = 372,
+						},
+						[55694] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 11510,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 11510,
+							["school"] = 1,
+							["max"] = 1151,
+							["ishot"] = true,
+							["min"] = 1151,
+						},
+					},
+					["damagetakenspells"] = {
+						["Crushing Webs (DoT)"] = {
+							["hitmin"] = 81,
+							["id"] = 59347,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 810,
 								},
 							},
 							["count"] = 10,
 							["hit"] = 10,
 							["school"] = 1,
-							["hitmax"] = 356,
-							["amount"] = 2745,
-							["hitamount"] = 2745,
-						},
-						["Victory Rush"] = {
-							["criticalamount"] = 2706,
-							["id"] = 34428,
-							["targets"] = {
-								["Azure Spellbreaker"] = {
-									["amount"] = 2706,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2706,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 2706,
-							["criticalmin"] = 2706,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 931,
-							["criticalamount"] = 4942,
-							["id"] = 1680,
-							["criticalmin"] = 1810,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 7330,
-								},
-							},
-							["amount"] = 7330,
-							["hitmax"] = 1457,
-							["criticalmax"] = 3132,
-							["critical"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["count"] = 4,
-							["casts"] = 2,
-							["hitamount"] = 2388,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 3588,
-							["id"] = 47450,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3588,
-									["overkill"] = 501,
-								},
-							},
-							["overkill"] = 501,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3588,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 3588,
-							["criticalmin"] = 3588,
-						},
-					},
-					["damagetaken"] = 3448,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 964,
-							["count"] = 9,
-							["amount"] = 1205,
-							["max"] = 241,
-							["min"] = 241,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 964,
-									["amount"] = 1205,
-								},
-							},
-							["school"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Arcane Volley"] = {
-							["total"] = 6486,
-							["hitmin"] = 3448,
-							["id"] = 61591,
-							["count"] = 2,
-							["hit"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3448,
-									["total"] = 6486,
-								},
-							},
-							["hitmax"] = 3448,
-							["amount"] = 3448,
-							["school"] = 64,
-							["resisted"] = 862,
-							["ABSORB"] = 1,
-							["hitamount"] = 3448,
-						},
-					},
-					["ragespells"] = {
-						[12964] = 5,
-						[58362] = 10,
-					},
-					["name"] = "Supdawgx",
-					["totaldamage"] = 33413,
-					["overheal"] = 964,
-					["rage"] = 15,
-					["heal"] = 1205,
-					["overkill"] = 1338,
-				}, -- [5]
-			},
-			["totaldamage"] = 245659,
-			["time"] = 21,
-			["last_time"] = 13023.953,
-			["totaldamagetaken"] = 52835,
-			["etotaldamagetaken"] = 245659,
-			["damage"] = 245659,
-			["overheal"] = 1890,
-			["type"] = "party",
-			["damagetaken"] = 33398,
-			["rage"] = 23,
-			["starttime"] = 1728655727,
-			["mobname"] = "Portal Keeper",
-			["etotaldamage"] = 52835,
-			["overkill"] = 26046,
-			["edamagetaken"] = 245659,
-			["heal"] = 5573,
-			["name"] = "Portal Keeper (5)",
-			["ccdone"] = 1,
-			["absorb"] = 19437,
-			["edamage"] = 33398,
-			["last_action"] = 1728655747,
-			["endtime"] = 1728655748,
-		}, -- [2]
-		{
-			["mana"] = 3575,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[61594] = {
-							["school"] = 16,
-							["total"] = 18707,
-							["targets"] = {
-								["Supdawgx"] = {
-									["amount"] = 0,
-									["total"] = 4166,
-								},
-								["Scrakekf"] = {
-									["amount"] = 0,
-									["total"] = 3663,
-								},
-								["Rimgar"] = {
-									["amount"] = 3866,
-								},
-								["Aandra"] = {
-									["amount"] = 0,
-									["total"] = 3846,
-								},
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 3166,
-								},
-							},
-							["amount"] = 3866,
-						},
-						[61593] = {
-							["school"] = 64,
-							["total"] = 2183,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 0,
-									["total"] = 2183,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["damagetaken"] = 170148,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 24930,
-								},
-								["Supdawgx"] = {
-									["amount"] = 3511,
-								},
-							},
-							["amount"] = 28441,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2844,
-								},
-							},
-							["amount"] = 2844,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 8564,
-								},
-							},
-							["amount"] = 8564,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2023,
-								},
-							},
-							["amount"] = 2023,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 12847,
-								},
-							},
-							["amount"] = 12847,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4391,
-								},
-							},
-							["amount"] = 4391,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 852,
-								},
-							},
-							["amount"] = 852,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 9615,
-								},
-							},
-							["amount"] = 9615,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 5315,
-								},
-							},
-							["amount"] = 5315,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 3348,
-								},
-							},
-							["amount"] = 3348,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3321,
-								},
-							},
-							["amount"] = 3321,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 15918,
-								},
-							},
-							["amount"] = 15918,
-						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 754,
-								},
-							},
-							["amount"] = 754,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1610,
-								},
-							},
-							["amount"] = 1610,
-						},
-						[48805] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2263,
-								},
-							},
-							["amount"] = 2263,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 17039,
-								},
-								["Jhosah"] = {
-									["amount"] = 4426,
-								},
-								["Supdawgx"] = {
-									["amount"] = 6426,
-								},
-							},
-							["amount"] = 27891,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 621,
-								},
-							},
-							["amount"] = 621,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 8975,
-								},
-								["Supdawgx"] = {
-									["amount"] = 2122,
-								},
-							},
-							["amount"] = 11097,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 4600,
-								},
-							},
-							["amount"] = 4600,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 23833,
-									["overkill"] = 7532,
-								},
-							},
-							["amount"] = 23833,
-							["overkill"] = 7532,
-						},
-					},
-					["totaldamage"] = 20890,
-					["name"] = "Portal Keeper",
-					["totaldamagetaken"] = 170148,
-					["id"] = "0xF1300077E700007D",
-					["damage"] = 3866,
-				}, -- [1]
-			},
-			["totaldamage"] = 170148,
-			["time"] = 19,
-			["rage"] = 42,
-			["totaldamagetaken"] = 20890,
-			["etotaldamagetaken"] = 170148,
-			["damage"] = 170148,
-			["overheal"] = 9389,
-			["type"] = "party",
-			["damagetaken"] = 3866,
-			["last_time"] = 12991.354,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["criticalamount"] = 12847,
-							["id"] = 47486,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 12847,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 12847,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 12847,
-							["criticalmin"] = 12847,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 1610,
-							["id"] = 47502,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1610,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1610,
-							["amount"] = 1610,
-							["hitamount"] = 1610,
+							["hitmax"] = 81,
+							["amount"] = 810,
+							["hitamount"] = 810,
 						},
 						["Melee"] = {
-							["criticalamount"] = 17039,
+							["DODGE"] = 8,
+							["hitmin"] = 48,
+							["criticalmin"] = 96,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 5236,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 4783,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 2798,
+								},
+							},
+							["amount"] = 12817,
+							["MISS"] = 5,
+							["criticalamount"] = 1408,
 							["id"] = 6603,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 17039,
-								},
-							},
-							["criticalmax"] = 9791,
-							["critical"] = 2,
-							["amount"] = 17039,
+							["blocked"] = 1829,
+							["BLOCK"] = 13,
+							["PARRY"] = 6,
+							["criticalmax"] = 470,
+							["hitmax"] = 246,
+							["hit"] = 72,
 							["school"] = 1,
-							["count"] = 2,
-							["criticalmin"] = 7248,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 402,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 8975,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 1721,
-							["amount"] = 8975,
-							["hitamount"] = 8975,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 23833,
-							["id"] = 7384,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 23833,
-									["overkill"] = 7532,
-								},
-							},
-							["overkill"] = 7532,
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 23833,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 12318,
-							["criticalmin"] = 11515,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1771,
-							["id"] = 47465,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5315,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1772,
-							["amount"] = 5315,
-							["hitamount"] = 5315,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 24930,
-							["id"] = 47450,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 24930,
-								},
-							},
-							["count"] = 2,
-							["casts"] = 2,
-							["critical"] = 2,
-							["blocked"] = 40,
-							["school"] = 1,
-							["criticalmax"] = 12601,
-							["criticalmin"] = 12329,
-							["amount"] = 24930,
-						},
-					},
-					["last"] = 12983.098,
-					["damagetaken"] = 3866,
-					["totaldamage"] = 94549,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["overkill"] = 7532,
-					["auras"] = {
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 6,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 6,
-									["count"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48068] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[12328] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[71905] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 4,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 19,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 16,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[60503] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 3,
-						},
-						[47502] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 18,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 5,
-									["count"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[71541] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-					},
-					["name"] = "Rimgar",
-					["role"] = "DAMAGER",
-					["time"] = 10.65,
-					["damagetakenspells"] = {
-						["Frostbolt Volley"] = {
-							["hitmin"] = 3866,
-							["id"] = 61594,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3866,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 3866,
-							["amount"] = 3866,
-							["hitamount"] = 3866,
-						},
-						["Arcane Missiles"] = {
-							["total"] = 2183,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 64,
-							["id"] = 61593,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 2183,
-								},
-							},
-						},
-					},
-					["spec"] = 71,
-					["totaldamagetaken"] = 6049,
-					["id"] = "0x070000000040A064",
-					["damage"] = 94549,
-				}, -- [1]
-				{
-					["last"] = 12982.255,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48951] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48066] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[54428] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 11,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-					},
-					["totaldamage"] = 26937,
-					["time"] = 9.779999999999999,
-					["totaldamagetaken"] = 3166,
-					["damage"] = 26937,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 330,
-							["id"] = 48818,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2023,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["hitmax"] = 373,
-							["amount"] = 2023,
-							["hitamount"] = 2023,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2177,
-							["id"] = 53595,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4391,
-								},
-							},
-							["count"] = 2,
-							["casts"] = 2,
-							["hitmax"] = 2214,
-							["hit"] = 2,
-							["school"] = 2,
-							["resisted"] = 246,
-							["amount"] = 4391,
-							["hitamount"] = 4391,
-						},
-						["Melee"] = {
-							["glance"] = 1034,
-							["hitmin"] = 534,
-							["criticalmin"] = 1116,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4426,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 4426,
-							["glancemin"] = 507,
-							["criticalamount"] = 1116,
-							["id"] = 6603,
-							["glancemax"] = 527,
-							["criticalmax"] = 1116,
-							["hitmax"] = 601,
-							["hit"] = 4,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 7,
-							["hitamount"] = 2276,
-						},
-						["Shield of Righteousness"] = {
-							["criticalamount"] = 9615,
-							["id"] = 53600,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 9615,
-								},
-							},
-							["count"] = 2,
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 9615,
-							["school"] = 2,
-							["resisted"] = 473,
-							["criticalmax"] = 5352,
-							["criticalmin"] = 4263,
-						},
-						["Seal of Command"] = {
-							["hitmin"] = 289,
-							["id"] = 20424,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3465,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 11,
-							["hit"] = 11,
-							["school"] = 2,
-							["hitmax"] = 365,
-							["amount"] = 3465,
-							["hitamount"] = 3465,
-						},
-						["Hammer of Wrath"] = {
-							["hitmin"] = 2263,
-							["id"] = 48805,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2263,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2263,
-							["amount"] = 2263,
-							["hitamount"] = 2263,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 754,
-							["id"] = 20467,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 754,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 754,
-							["amount"] = 754,
-							["hitamount"] = 754,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Frostbolt Volley"] = {
-							["total"] = 3166,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 61594,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 3166,
-								},
-							},
-						},
-					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["mana"] = 3575,
-					["manaspells"] = {
-						[54428] = 2723,
-						[20268] = 852,
-					},
-				}, -- [2]
-				{
-					["last"] = 12988.038,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 2,
-							["targets"] = {
-								["Supdawgx"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-								["Scrakekf"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Rimgar"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Aandra"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Jhosah"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 17,
-						},
-						[48066] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 4,
-							["uptime"] = 12,
-						},
-						[586] = {
-							["school"] = 32,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 2183,
-							["casts"] = 5,
-							["count"] = 5,
-							["amount"] = 17024,
-							["max"] = 4166,
-							["targets"] = {
-								["Supdawgx"] = 4166,
-								["Aandra"] = 3846,
-								["Rimgar"] = 2183,
-								["Scrakekf"] = 3663,
-								["Jhosah"] = 3166,
-							},
-							["school"] = 2,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 13.64,
-					["totaldamagetaken"] = 3846,
-					["overheal"] = 7702,
-					["absorb"] = 17024,
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000AD81EB",
-					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 6154,
-							["criticalamount"] = 0,
-							["max"] = 1231,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 1846,
-									["amount"] = 0,
-								},
-								["Scrakekf"] = {
-									["overheal"] = 1846,
-									["amount"] = 0,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Aandra"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Jhosah"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-							},
-							["min"] = 1231,
-							["criticalmax"] = 0,
-							["count"] = 5,
-							["amount"] = 1231,
-							["school"] = 2,
-							["critical"] = 2,
-							["criticalmin"] = 0,
-						},
-						[48068] = {
-							["overheal"] = 1548,
-							["min"] = 1134,
-							["count"] = 3,
-							["amount"] = 2476,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 1548,
-									["amount"] = 2476,
-								},
-							},
-							["max"] = 1342,
-						},
-					},
-					["damagetakenspells"] = {
-						["Frostbolt Volley"] = {
-							["total"] = 3846,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 61594,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 3846,
-								},
-							},
-						},
-					},
-					["heal"] = 3707,
-					["name"] = "Aandra",
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1080,
-							["id"] = 48468,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4600,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["hitmax"] = 1220,
-							["amount"] = 4600,
-							["hitamount"] = 4600,
-						},
-						["Moonfire"] = {
-							["hitmin"] = 1048,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1048,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 1048,
-							["amount"] = 1048,
-							["hitamount"] = 1048,
-						},
-						["Wrath"] = {
-							["hitmin"] = 2720,
-							["id"] = 48461,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 15918,
-								},
-							},
-							["count"] = 5,
-							["casts"] = 5,
-							["hitmax"] = 3425,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 680,
-							["amount"] = 15918,
-							["hitamount"] = 15918,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 758,
-							["criticalamount"] = 1515,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2273,
-								},
-							},
-							["count"] = 2,
-							["criticalmin"] = 1515,
-							["criticalmax"] = 1515,
-							["hitmax"] = 758,
-							["amount"] = 2273,
-							["school"] = 64,
-							["hit"] = 1,
-							["critical"] = 1,
-							["hitamount"] = 758,
-						},
-					},
-					["last"] = 12982.929,
-					["damagetaken"] = 0,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["totaldamage"] = 23839,
-					["auras"] = {
-						[48066] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 4,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[48468] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-					},
-					["name"] = "Scrakekf",
-					["role"] = "DAMAGER",
-					["time"] = 10.46,
-					["damagetakenspells"] = {
-						["Frostbolt Volley"] = {
-							["total"] = 3663,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 61594,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 3663,
-								},
-							},
-						},
-					},
-					["spec"] = 102,
-					["totaldamagetaken"] = 3663,
-					["id"] = "0x0700000000ABE036",
-					["damage"] = 23839,
-				}, -- [4]
-				{
-					["last"] = 12982.821,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48066] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 16,
-						},
-						[46916] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[12970] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 17,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 10.37,
-					["totaldamagetaken"] = 4166,
-					["damage"] = 24823,
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1586,
-							["criticalamount"] = 6978,
-							["id"] = 23881,
-							["count"] = 3,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 8564,
-								},
-							},
-							["criticalmax"] = 3489,
-							["criticalmin"] = 3489,
-							["casts"] = 3,
-							["hitmax"] = 1586,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 8564,
-							["critical"] = 2,
-							["hitamount"] = 1586,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 1095,
-							["hitmin"] = 718,
-							["criticalmin"] = 1430,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 6426,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 6426,
-							["glancemin"] = 1095,
-							["criticalamount"] = 3868,
-							["id"] = 6603,
-							["glancemax"] = 1095,
-							["criticalmax"] = 2438,
-							["PARRY"] = 1,
-							["critical"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["count"] = 7,
-							["hitmax"] = 745,
-							["hitamount"] = 1463,
+							["critical"] = 5,
+							["count"] = 109,
+							["hitamount"] = 11409,
 						},
 						["Pummel"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
+							["DODGE"] = 1,
+							["hitmin"] = 1483,
+							["id"] = 59344,
+							["hitmax"] = 1483,
+							["amount"] = 1483,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 1483,
+								},
+							},
+							["BLOCK"] = 1,
+							["blocked"] = 399,
 							["school"] = 1,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6552,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 852,
-							["criticalamount"] = 3348,
-							["id"] = 1680,
-							["count"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4200,
-								},
-							},
-							["criticalmax"] = 3348,
-							["criticalmin"] = 3348,
-							["casts"] = 1,
-							["hitmax"] = 852,
 							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 4200,
-							["critical"] = 1,
-							["hitamount"] = 852,
+							["count"] = 3,
+							["hitamount"] = 1483,
 						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 188,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2122,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 416,
-							["amount"] = 2122,
-							["hitamount"] = 2122,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 3511,
-							["id"] = 47450,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3511,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3511,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 3511,
-							["criticalmin"] = 3511,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 1687,
-							["count"] = 7,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 1687,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Frostbolt Volley"] = {
-							["total"] = 4166,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 61594,
-							["ABSORB"] = 1,
+						["Crushing Webs"] = {
 							["sources"] = {
-								["Portal Keeper"] = {
+								["Anub'ar Crypt Fiend"] = {
 									["amount"] = 0,
-									["total"] = 4166,
 								},
 							},
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 2,
+							["id"] = 59347,
+						},
+						["Rend"] = {
+							["PARRY"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 59343,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 420,
+							["id"] = 59343,
+							["overkill"] = 5183,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["overkill"] = 5183,
+									["amount"] = 33210,
+								},
+							},
+							["count"] = 9,
+							["hit"] = 9,
+							["school"] = 1,
+							["hitmax"] = 8100,
+							["amount"] = 33210,
+							["hitamount"] = 33210,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 332,
+							["id"] = 53333,
+							["hitmax"] = 947,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 11859,
+								},
+							},
+							["count"] = 17,
+							["hit"] = 17,
+							["school"] = 32,
+							["resisted"] = 2046,
+							["amount"] = 11859,
+							["hitamount"] = 11859,
 						},
 					},
+					["overkill"] = 37642,
 					["ragespells"] = {
-						[29131] = 10,
+						[29842] = 32,
 						[2687] = 20,
-						[12964] = 2,
-						[58362] = 10,
 					},
-					["name"] = "Supdawgx",
-					["totaldamage"] = 24823,
-					["rage"] = 42,
-					["heal"] = 0,
-					["overheal"] = 1687,
-				}, -- [5]
-			},
-			["starttime"] = 1728655695,
-			["etotaldamage"] = 20890,
-			["overkill"] = 7532,
-			["edamagetaken"] = 170148,
-			["heal"] = 3707,
-			["name"] = "Portal Keeper (4)",
-			["mobname"] = "Portal Keeper",
-			["absorb"] = 17024,
-			["edamage"] = 3866,
-			["last_action"] = 1728655714,
-			["endtime"] = 1728655714,
-		}, -- [3]
-		{
-			["mana"] = 1624,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 1797,
-								},
-							},
-							["amount"] = 1797,
-						},
-					},
-					["damagetaken"] = 59742,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 736,
-								},
-							},
-							["amount"] = 736,
-						},
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 332,
-								},
-							},
-							["amount"] = 332,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 15051,
-								},
-								["Supdawgx"] = {
-									["amount"] = 1941,
-								},
-							},
-							["amount"] = 16992,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 5446,
-									["overkill"] = 330,
-								},
-							},
-							["amount"] = 5446,
-							["overkill"] = 330,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1911,
-								},
-							},
-							["amount"] = 1911,
-						},
-						[26654] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 7183,
-								},
-							},
-							["amount"] = 7183,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 590,
-								},
-							},
-							["amount"] = 590,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 533,
-								},
-							},
-							["amount"] = 533,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 620,
-								},
-							},
-							["amount"] = 620,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1540,
-								},
-							},
-							["amount"] = 1540,
-						},
-						[50622] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 18192,
-								},
-							},
-							["amount"] = 18192,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3490,
-								},
-							},
-							["amount"] = 3490,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2177,
-								},
-							},
-							["amount"] = 2177,
-						},
-					},
-					["totaldamage"] = 1797,
-					["name"] = "Azure Sorceror",
-					["totaldamagetaken"] = 59742,
-					["id"] = "0xF1300077CB000079",
-					["damage"] = 1797,
+					["name"] = "Rimgar",
+					["death"] = 1,
+					["totaldamage"] = 384829,
+					["rage"] = 52,
+					["heal"] = 29171,
+					["role"] = "DAMAGER",
 				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 4975,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 348,
-									["total"] = 4975,
-								},
-								["Jhosah"] = {
-									["amount"] = 1927,
-								},
-							},
-							["amount"] = 2275,
-						},
-						[32736] = {
-							["school"] = 1,
-							["total"] = 4304,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 2319,
-									["total"] = 2635,
-								},
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 1669,
-								},
-							},
-							["amount"] = 2319,
-						},
-						[41057] = {
-							["school"] = 1,
-							["total"] = 5185,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 2753,
-								},
-								["Supdawgx"] = {
-									["amount"] = 0,
-									["total"] = 3352,
-								},
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 1833,
-								},
-							},
-							["amount"] = 2753,
-						},
-					},
-					["damagetaken"] = 128384,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1334,
-								},
-							},
-							["amount"] = 1334,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1251,
-								},
-								["Supdawgx"] = {
-									["amount"] = 407,
-								},
-							},
-							["amount"] = 1658,
-						},
-						[12723] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 7124,
-								},
-							},
-							["amount"] = 7124,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1949,
-									["overkill"] = 796,
-								},
-							},
-							["amount"] = 1949,
-							["overkill"] = 796,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 11271,
-								},
-							},
-							["amount"] = 11271,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 330,
-								},
-							},
-							["amount"] = 330,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4354,
-								},
-							},
-							["amount"] = 4354,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 2689,
-								},
-							},
-							["amount"] = 2689,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2922,
-								},
-							},
-							["amount"] = 2922,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 3312,
-								},
-							},
-							["amount"] = 3312,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 587,
-								},
-							},
-							["amount"] = 587,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 5786,
-								},
-							},
-							["amount"] = 5786,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 3249,
-								},
-							},
-							["amount"] = 3249,
-						},
-						[50622] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 68869,
-									["overkill"] = 2094,
-								},
-							},
-							["amount"] = 68869,
-							["overkill"] = 2094,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 10105,
-								},
-							},
-							["amount"] = 10105,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1431,
-								},
-								["Supdawgx"] = {
-									["amount"] = 1414,
-								},
-							},
-							["amount"] = 2845,
-						},
-					},
-					["totaldamage"] = 19144,
-					["name"] = "Azure Captain",
-					["totaldamagetaken"] = 128384,
-					["id"] = "0xF1300077CA00007B",
-					["damage"] = 7347,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 2512,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 1365,
-									["total"] = 3877,
-								},
-							},
-							["amount"] = 1365,
-						},
-					},
-					["damagetaken"] = 63600,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[26654] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2990,
-								},
-							},
-							["amount"] = 2990,
-						},
-						[12723] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 7810,
-								},
-							},
-							["amount"] = 7810,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1090,
-								},
-							},
-							["amount"] = 1090,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 6204,
-								},
-							},
-							["amount"] = 6204,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 904,
-								},
-							},
-							["amount"] = 904,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1940,
-									["overkill"] = 600,
-								},
-							},
-							["amount"] = 1940,
-							["overkill"] = 600,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4736,
-								},
-							},
-							["amount"] = 4736,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 542,
-								},
-							},
-							["amount"] = 542,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 5892,
-								},
-							},
-							["amount"] = 5892,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1329,
-								},
-							},
-							["amount"] = 1329,
-						},
-						[50622] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 27079,
-								},
-							},
-							["amount"] = 27079,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 1725,
-								},
-							},
-							["amount"] = 1725,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1359,
-								},
-							},
-							["amount"] = 1359,
-						},
-					},
-					["totaldamage"] = 3877,
-					["name"] = "Azure Stalker",
-					["totaldamagetaken"] = 63600,
-					["id"] = "0xF130007DBF00007A",
-					["damage"] = 1365,
-				}, -- [3]
-			},
-			["starttime"] = 1728655667,
-			["totaldamage"] = 251726,
-			["time"] = 9,
-			["overheal"] = 3416,
-			["totaldamagetaken"] = 24818,
-			["etotaldamagetaken"] = 251726,
-			["damage"] = 251726,
-			["rage"] = 5,
-			["type"] = "party",
-			["damagetaken"] = 10509,
-			["last_time"] = 12952.838,
-			["ccdone"] = 1,
-			["etotaldamage"] = 24818,
-			["absorb"] = 14309,
-			["overkill"] = 3820,
-			["edamagetaken"] = 251726,
-			["heal"] = 2660,
-			["name"] = "Azure Sorceror (2)",
-			["mobname"] = "Azure Sorceror",
-			["players"] = {
 				{
 					["ccdonespells"] = {
-						[7922] = {
+						[49560] = {
 							["count"] = 1,
 							["targets"] = {
-								["Azure Sorceror"] = 1,
+								["Anub'ar Champion"] = 1,
 							},
 						},
 					},
-					["last"] = 12951.254,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
+					["last"] = 1386.437,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 4,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 138,
 						},
-						[48162] = {
+						[53307] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["uptime"] = 138,
 						},
-						[46924] = {
+						[58578] = {
+							["type"] = "BUFF",
+							["count"] = 2,
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
+							["refresh"] = 16,
+							["uptime"] = 135,
 						},
-						[63944] = {
-							["uptime"] = 9,
+						[48504] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
+							["count"] = 7,
+							["school"] = 8,
+							["uptime"] = 8,
 						},
-						[12328] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[71905] = {
+						[48443] = {
 							["type"] = "BUFF",
 							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 7,
-							["uptime"] = 7,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 121,
 						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 6,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[7922] = {
+						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 5,
-							["targets"] = {
-								["Azure Captain"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 6,
-								},
-								["Azure Sorceror"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 3,
-								},
-								["Azure Stalker"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 4,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 1,
-							["refresh"] = 6,
-							["targets"] = {
-								["Azure Captain"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 6,
-								},
-								["Azure Sorceror"] = {
-									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 3,
-								},
-								["Azure Stalker"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 4,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[29131] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 7,
-							["uptime"] = 8,
-						},
-						[52437] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 8,
-						},
-					},
-					["totaldamage"] = 162222,
-					["time"] = 7.290000000000001,
-					["totaldamagetaken"] = 14240,
-					["damage"] = 162222,
-					["rage"] = 3,
-					["damagetaken"] = 6785,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Mortal Strike"] = {
-							["total"] = 2635,
-							["hitmin"] = 2319,
-							["id"] = 32736,
-							["sources"] = {
-								["Azure Captain"] = {
-									["amount"] = 2319,
-									["total"] = 2635,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2319,
-							["amount"] = 2319,
-							["hitamount"] = 2319,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 2753,
-							["id"] = 41057,
-							["sources"] = {
-								["Azure Captain"] = {
-									["amount"] = 2753,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2753,
-							["amount"] = 2753,
-							["hitamount"] = 2753,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 8852,
-							["hitmin"] = 348,
-							["id"] = 6603,
-							["count"] = 6,
-							["amount"] = 1713,
-							["sources"] = {
-								["Azure Captain"] = {
-									["amount"] = 348,
-									["total"] = 4975,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 1365,
-									["total"] = 3877,
-								},
-							},
-							["hitmax"] = 1365,
-							["ABSORB"] = 2,
-							["school"] = 1,
-							["hit"] = 2,
-							["MISS"] = 1,
-							["hitamount"] = 1713,
-						},
-					},
-					["ragespells"] = {
-						[29131] = 3,
-					},
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["role"] = "DAMAGER",
-					["damagespells"] = {
-						["Sweeping Strikes"] = {
-							["hitmin"] = 2990,
-							["id"] = 12723,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 7124,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 7183,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 10800,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 7810,
-							["amount"] = 25107,
-							["hitamount"] = 25107,
-						},
-						["Melee"] = {
-							["criticalamount"] = 15051,
-							["id"] = 6603,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 15051,
-								},
-							},
-							["criticalmax"] = 7808,
-							["critical"] = 2,
-							["amount"] = 15051,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmin"] = 7243,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 530,
-							["id"] = 71904,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 2922,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 533,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 542,
-								},
-							},
-							["count"] = 5,
-							["casts"] = 1,
-							["hitmax"] = 1848,
-							["hit"] = 5,
+							["count"] = 8,
 							["school"] = 32,
-							["resisted"] = 205,
-							["amount"] = 3997,
-							["hitamount"] = 3997,
-						},
-						["Whirlwind"] = {
-							["hitmax"] = 3966,
-							["hitmin"] = 2998,
-							["criticalamount"] = 66150,
-							["id"] = 50622,
-							["criticalmax"] = 9275,
 							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 68869,
-									["overkill"] = 2094,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 18192,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 27079,
-								},
-							},
-							["overkill"] = 2094,
-							["criticalmin"] = 7251,
-							["casts"] = 1,
-							["count"] = 22,
-							["hit"] = 14,
-							["school"] = 1,
-							["amount"] = 114140,
-							["critical"] = 8,
-							["hitamount"] = 47990,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 368,
-							["id"] = 12721,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 1251,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 736,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 1940,
-									["overkill"] = 600,
-								},
-							},
-							["overkill"] = 600,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 812,
-							["amount"] = 3927,
-							["hitamount"] = 3927,
-						},
-					},
-					["overkill"] = 2694,
-				}, -- [1]
-				{
-					["last"] = 12950.595,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[63944] = {
-							["uptime"] = 9,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48068] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Azure Captain"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["totaldamage"] = 20493,
-					["time"] = 6.629999999999999,
-					["totaldamagetaken"] = 7226,
-					["damage"] = 20493,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 330,
-							["id"] = 48818,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 330,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 330,
-							["amount"] = 330,
-							["hitamount"] = 330,
-						},
-						["Melee"] = {
-							["hitmin"] = 487,
-							["criticalamount"] = 944,
-							["id"] = 6603,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 1431,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 1090,
-								},
-							},
-							["criticalmin"] = 944,
-							["amount"] = 2521,
-							["criticalmax"] = 944,
-							["critical"] = 1,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 566,
-							["count"] = 4,
-							["hitamount"] = 1577,
-						},
-						["Seal of Command"] = {
-							["criticalmin"] = 554,
-							["hitmin"] = 257,
-							["criticalamount"] = 2364,
-							["id"] = 20424,
-							["amount"] = 6375,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 3836,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 1210,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 1329,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 17,
-							["criticalmax"] = 620,
-							["hitmax"] = 378,
-							["hit"] = 13,
-							["school"] = 2,
-							["resisted"] = 57,
-							["critical"] = 4,
-							["hitamount"] = 4011,
-						},
-						["Shield of Righteousness"] = {
-							["criticalamount"] = 4736,
-							["id"] = 53600,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 4736,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4736,
-							["school"] = 2,
-							["count"] = 1,
-							["criticalmax"] = 4736,
-							["criticalmin"] = 4736,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2177,
-							["id"] = 53595,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 4354,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 2177,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 2177,
-							["amount"] = 6531,
-							["hitamount"] = 6531,
-						},
-					},
-					["damagetaken"] = 3724,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Mortal Strike"] = {
-							["total"] = 1669,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 32736,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Azure Captain"] = {
-									["amount"] = 0,
-									["total"] = 1669,
-								},
-							},
-						},
-						["Whirlwind"] = {
-							["total"] = 1833,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 41057,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Azure Captain"] = {
-									["amount"] = 0,
-									["total"] = 1833,
-								},
-							},
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1797,
-							["id"] = 6603,
-							["sources"] = {
-								["Azure Captain"] = {
-									["amount"] = 1927,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 1797,
-								},
-							},
-							["PARRY"] = 1,
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["amount"] = 3724,
-							["hitmax"] = 1927,
-							["hitamount"] = 3724,
-						},
-					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["mana"] = 500,
-					["manaspells"] = {
-						[57319] = 310,
-						[31786] = 190,
-					},
-				}, -- [2]
-				{
-					["overheal"] = 2934,
-					["absorb"] = 14309,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 2934,
-							["count"] = 4,
-							["amount"] = 1990,
-							["school"] = 2,
-							["min"] = 759,
-							["targets"] = {
-								["Aandra"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Rimgar"] = {
-									["overheal"] = 472,
-									["amount"] = 759,
-								},
-								["Jhosah"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Supdawgx"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-							},
-							["max"] = 1231,
-						},
-						[48068] = {
-							["overheal"] = 0,
-							["min"] = 670,
-							["count"] = 1,
-							["amount"] = 670,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 0,
-									["amount"] = 670,
-								},
-							},
-							["max"] = 670,
-						},
-					},
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[63944] = {
-							["uptime"] = 9,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["targets"] = {
-								["Aandra"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Rimgar"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Jhosah"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Supdawgx"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 3,
-							["uptime"] = 7,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 3,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 316,
-							["casts"] = 5,
-							["count"] = 7,
-							["amount"] = 14309,
-							["max"] = 3352,
-							["targets"] = {
-								["Rimgar"] = 7455,
-								["Jhosah"] = 3502,
-								["Supdawgx"] = 3352,
-							},
-							["school"] = 2,
-						},
-					},
-					["heal"] = 2660,
-					["time"] = 8.600000000000001,
-					["name"] = "Aandra",
-					["role"] = "HEALER",
-					["spec"] = 256,
-					["id"] = "0x0700000000AD81EB",
-					["last"] = 12952.555,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Starfall"] = {
-							["criticalmin"] = 981,
-							["amount"] = 38241,
-							["hitmin"] = 490,
-							["criticalamount"] = 12014,
-							["id"] = 53195,
-							["casts"] = 1,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 21376,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 8936,
-									["overkill"] = 330,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 7929,
-								},
-							},
-							["overkill"] = 330,
-							["count"] = 40,
-							["criticalmax"] = 1230,
-							["hitmax"] = 1791,
-							["hit"] = 29,
-							["school"] = 64,
-							["resisted"] = 506,
-							["critical"] = 11,
-							["hitamount"] = 26227,
-						},
-						["Wrath"] = {
-							["criticalamount"] = 11678,
-							["id"] = 48461,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 5786,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 5892,
-								},
-							},
-							["casts"] = 3,
-							["critical"] = 2,
-							["amount"] = 11678,
-							["school"] = 8,
-							["count"] = 2,
-							["criticalmax"] = 5892,
-							["criticalmin"] = 5786,
-						},
-					},
-					["last"] = 12951.054,
-					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["manaspells"] = {
-						[53506] = 1124,
-					},
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[63944] = {
-							["uptime"] = 9,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[53201] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 2,
-							["uptime"] = 5,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["mana"] = 1124,
-					["totaldamage"] = 49919,
-					["time"] = 7.100000000000001,
-					["name"] = "Scrakekf",
-					["overkill"] = 330,
-					["spec"] = 102,
-					["id"] = "0x0700000000ABE036",
-					["damage"] = 49919,
-				}, -- [4]
-				{
-					["last"] = 12951.3,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48066] = {
-							["uptime"] = 9,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 9,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[20253] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[12970] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Captain"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[61619] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-					},
-					["totaldamage"] = 19092,
-					["time"] = 7.369999999999999,
-					["totaldamagetaken"] = 3352,
-					["damage"] = 19092,
-					["rage"] = 2,
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 482,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 482,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Whirlwind"] = {
-							["total"] = 3352,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 41057,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Azure Captain"] = {
-									["amount"] = 0,
-									["total"] = 3352,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[12964] = 2,
-					},
-					["name"] = "Supdawgx",
-					["role"] = "DAMAGER",
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["criticalamount"] = 3312,
-							["id"] = 23881,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 3312,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["blocked"] = 40,
-							["school"] = 1,
-							["criticalmax"] = 3312,
-							["criticalmin"] = 3312,
-							["amount"] = 3312,
-						},
-						["Melee"] = {
-							["glance"] = 1941,
-							["criticalamount"] = 1414,
-							["id"] = 6603,
-							["criticalmin"] = 1414,
-							["glancemax"] = 1211,
-							["count"] = 4,
-							["glancing"] = 2,
-							["criticalmax"] = 1414,
-							["critical"] = 1,
-							["amount"] = 3355,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 1414,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 1941,
-								},
-							},
-							["MISS"] = 1,
-							["glancemin"] = 730,
-						},
-						["Execute"] = {
-							["hitmin"] = 1949,
-							["id"] = 20647,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 1949,
-									["overkill"] = 796,
-								},
-							},
-							["overkill"] = 796,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1949,
-							["amount"] = 1949,
-							["hitamount"] = 1949,
-						},
-						["Whirlwind"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 824,
-							["criticalamount"] = 3776,
-							["id"] = 1680,
-							["criticalmin"] = 1865,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 4023,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 3451,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 2263,
-								},
-							},
-							["amount"] = 9737,
-							["hitmax"] = 1540,
-							["criticalmax"] = 1911,
-							["critical"] = 2,
-							["hit"] = 5,
-							["school"] = 1,
-							["count"] = 8,
-							["casts"] = 1,
-							["hitamount"] = 5961,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 110,
-							["id"] = 12721,
-							["targets"] = {
-								["Azure Captain"] = {
-									["amount"] = 407,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 187,
-							["amount"] = 407,
-							["hitamount"] = 407,
-						},
-						["Intercept"] = {
-							["hitmin"] = 332,
-							["id"] = 20253,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 332,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 332,
-							["amount"] = 332,
-							["hitamount"] = 332,
-						},
-					},
-					["heal"] = 0,
-					["overkill"] = 796,
-					["overheal"] = 482,
-				}, -- [5]
-			},
-			["edamage"] = 10509,
-			["last_action"] = 1728655676,
-			["endtime"] = 1728655676,
-		}, -- [4]
-		{
-			["mana"] = 4077,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[61591] = {
-							["school"] = 64,
-							["total"] = 20962,
-							["targets"] = {
-								["Supdawgx"] = {
-									["amount"] = 4752,
-								},
-								["Scrakekf"] = {
-									["amount"] = 3667,
-									["total"] = 7045,
-								},
-								["Rimgar"] = {
-									["amount"] = 0,
-									["total"] = 6771,
-								},
-								["Aandra"] = {
-									["amount"] = 0,
-									["total"] = 7572,
-								},
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 3241,
-								},
-							},
-							["amount"] = 8419,
-						},
-						[61590] = {
-							["school"] = 16,
-							["total"] = 4678,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 3940,
-									["total"] = 4678,
-								},
-							},
-							["amount"] = 3940,
-						},
-					},
-					["damagetaken"] = 164523,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 327,
-								},
-							},
-							["amount"] = 327,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 3925,
-								},
-							},
-							["amount"] = 3925,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 5075,
-								},
-							},
-							["amount"] = 5075,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 25384,
-								},
-							},
-							["amount"] = 25384,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4637,
-								},
-							},
-							["amount"] = 4637,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 880,
-								},
-							},
-							["amount"] = 880,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 9939,
-								},
-							},
-							["amount"] = 9939,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1951,
-								},
-							},
-							["amount"] = 1951,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 5424,
-								},
-							},
-							["amount"] = 5424,
-						},
-						[50783] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 3242,
-								},
-							},
-							["amount"] = 3242,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 8762,
-								},
-							},
-							["amount"] = 8762,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3949,
-								},
-							},
-							["amount"] = 3949,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 26039,
-									["overkill"] = 1610,
-								},
-							},
-							["amount"] = 26039,
-							["overkill"] = 1610,
-						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1474,
-								},
-							},
-							["amount"] = 1474,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3219,
-								},
-							},
-							["amount"] = 3219,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 16609,
-								},
-								["Jhosah"] = {
-									["amount"] = 4227,
-								},
-								["Supdawgx"] = {
-									["amount"] = 8277,
-								},
-							},
-							["amount"] = 29113,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 3069,
-								},
-							},
-							["amount"] = 3069,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 539,
-								},
-							},
-							["amount"] = 539,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 8940,
-								},
-								["Supdawgx"] = {
-									["amount"] = 2122,
-								},
-							},
-							["amount"] = 11062,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 5820,
-								},
-							},
-							["amount"] = 5820,
-						},
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 10693,
-								},
-							},
-							["amount"] = 10693,
-						},
-					},
-					["totaldamage"] = 34059,
-					["name"] = "Portal Keeper",
-					["totaldamagetaken"] = 164523,
-					["id"] = "0xF1300078AD000076",
-					["damage"] = 12359,
-				}, -- [1]
-			},
-			["totaldamage"] = 164523,
-			["time"] = 20,
-			["etotaldamagetaken"] = 164523,
-			["totaldamagetaken"] = 34059,
-			["etotaldamage"] = 34059,
-			["damage"] = 164523,
-			["overheal"] = 6806,
-			["type"] = "party",
-			["damagetaken"] = 12359,
-			["last_time"] = 12931.556,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["criticalamount"] = 25384,
-							["id"] = 47486,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 25384,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 25384,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 13869,
-							["criticalmin"] = 11515,
-						},
-						["Thunder Clap"] = {
-							["criticalamount"] = 3219,
-							["id"] = 47502,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3219,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3219,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 3219,
-							["criticalmin"] = 3219,
-						},
-						["Melee"] = {
-							["criticalamount"] = 16609,
-							["id"] = 6603,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 16609,
-								},
-							},
-							["criticalmax"] = 9329,
-							["critical"] = 2,
-							["amount"] = 16609,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmin"] = 7280,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 369,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 8940,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 2454,
-							["amount"] = 8940,
-							["hitamount"] = 8940,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 8762,
-							["id"] = 7384,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 8762,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 8762,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 8762,
-							["criticalmin"] = 8762,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1808,
-							["id"] = 47465,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5424,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1808,
-							["amount"] = 5424,
-							["hitamount"] = 5424,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 10693,
-							["id"] = 47450,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 10693,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 10693,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 10693,
-							["criticalmin"] = 10693,
-						},
-					},
-					["last"] = 12922.672,
-					["damagetaken"] = 3940,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["totaldamage"] = 79031,
-					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 19,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[63944] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[12328] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 18,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 20,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 5,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[47930] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[60503] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 11,
-						},
-						[47436] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 18,
-						},
-						[64568] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[47502] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[71541] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 6,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 6,
-									["count"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[70855] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["name"] = "Rimgar",
-					["role"] = "DAMAGER",
-					["time"] = 10.96,
-					["damagetakenspells"] = {
-						["Arcane Volley"] = {
-							["total"] = 6771,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 64,
-							["id"] = 61591,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 6771,
-								},
-							},
-						},
-						["Frostbolt"] = {
-							["total"] = 4678,
-							["hitmin"] = 3940,
-							["id"] = 61590,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3940,
-									["total"] = 4678,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 3940,
-							["amount"] = 3940,
-							["hitamount"] = 3940,
-						},
-					},
-					["spec"] = 71,
-					["totaldamagetaken"] = 11449,
-					["id"] = "0x070000000040A064",
-					["damage"] = 79031,
-				}, -- [1]
-				{
-					["last"] = 12922.138,
-					["flag"] = 1298,
-					["mana"] = 1356,
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[63944] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[48951] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[60215] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-					},
-					["totaldamage"] = 24741,
-					["time"] = 10.43,
-					["totaldamagetaken"] = 3241,
-					["damage"] = 24741,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 488,
-							["criticalamount"] = 1060,
-							["id"] = 6603,
-							["criticalmin"] = 1060,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4227,
-								},
-							},
-							["amount"] = 4227,
-							["hitmax"] = 601,
-							["criticalmax"] = 1060,
-							["critical"] = 1,
-							["blocked"] = 40,
-							["school"] = 1,
-							["hit"] = 6,
-							["count"] = 7,
-							["hitamount"] = 3167,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 3049,
-							["criticalamount"] = 6890,
-							["id"] = 53600,
-							["criticalmin"] = 6890,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 9939,
-								},
-							},
-							["amount"] = 9939,
-							["hitmax"] = 3049,
-							["criticalmax"] = 6890,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["count"] = 2,
-							["casts"] = 2,
-							["hitamount"] = 3049,
-						},
-						["Seal of Command"] = {
-							["criticalmin"] = 553,
-							["amount"] = 4464,
-							["hitmin"] = 212,
-							["criticalamount"] = 1812,
-							["id"] = 20424,
-							["casts"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4464,
-								},
-							},
-							["count"] = 11,
-							["hit"] = 8,
-							["criticalmax"] = 663,
-							["hitmax"] = 384,
-							["blocked"] = 80,
-							["school"] = 2,
-							["resisted"] = 186,
-							["critical"] = 3,
-							["hitamount"] = 2652,
-						},
-						["Judgement of Command"] = {
-							["criticalamount"] = 1474,
-							["id"] = 20467,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1474,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1474,
-							["school"] = 2,
-							["count"] = 1,
-							["criticalmax"] = 1474,
-							["criticalmin"] = 1474,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2177,
-							["id"] = 53595,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4637,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 2460,
-							["amount"] = 4637,
-							["hitamount"] = 4637,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Arcane Volley"] = {
-							["id"] = 61591,
-							["total"] = 3241,
-							["count"] = 2,
-							["ABSORB"] = 1,
-							["school"] = 64,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 3241,
-								},
-							},
-							["MISS"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["manaspells"] = {
-						[20268] = 1356,
-					},
-					["class"] = "PALADIN",
-				}, -- [2]
-				{
-					["last"] = 12923.155,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[47436] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48066] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["targets"] = {
-								["Aandra"] = {
+								["Anub'ar Crusher"] = {
+									["uptime"] = 49,
+									["count"] = 5,
+								},
+								["Anub'ar Champion"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
-								["Rimgar"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Scrakekf"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-								["Supdawgx"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 16,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 11,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 738,
-							["casts"] = 5,
-							["count"] = 7,
-							["amount"] = 21700,
-							["max"] = 4090,
-							["targets"] = {
-								["Aandra"] = 7572,
-								["Rimgar"] = 7509,
-								["Scrakekf"] = 3378,
-								["Jhosah"] = 3241,
-							},
-							["school"] = 2,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 11.47,
-					["totaldamagetaken"] = 7572,
-					["overheal"] = 6083,
-					["absorb"] = 21700,
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000AD81EB",
-					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 2462,
-							["count"] = 4,
-							["amount"] = 2462,
-							["max"] = 1231,
-							["min"] = 1231,
-							["targets"] = {
-								["Aandra"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Scrakekf"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Supdawgx"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-							},
-							["school"] = 2,
-						},
-						[48071] = {
-							["overheal"] = 3621,
-							["criticalamount"] = 4029,
-							["max"] = 4113,
-							["targets"] = {
-								["Scrakekf"] = {
-									["overheal"] = 1508,
-									["amount"] = 2436,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 4113,
-								},
-								["Supdawgx"] = {
-									["overheal"] = 2113,
-									["amount"] = 4029,
-								},
-							},
-							["min"] = 2436,
-							["casts"] = 2,
-							["count"] = 3,
-							["amount"] = 10578,
-							["school"] = 2,
-							["critical"] = 1,
-							["criticalmax"] = 4029,
-							["criticalmin"] = 4029,
-						},
-					},
-					["damagetakenspells"] = {
-						["Arcane Volley"] = {
-							["total"] = 7572,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 64,
-							["id"] = 61591,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 7572,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[63653] = 8,
-					},
-					["name"] = "Aandra",
-					["mana"] = 1035,
-					["manaspells"] = {
-						[67666] = 500,
-						[47755] = 535,
-					},
-					["rage"] = 8,
-					["heal"] = 13040,
-				}, -- [3]
-				{
-					["last"] = 12922.752,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[63944] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48518] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[47930] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[47436] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[67360] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 2,
-							["uptime"] = 6,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 4,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[48468] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 11.06,
-					["totaldamagetaken"] = 7045,
-					["damage"] = 35808,
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1079,
-							["id"] = 48468,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5820,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 8,
-							["hitmax"] = 1221,
-							["amount"] = 5820,
-							["hitamount"] = 5820,
-						},
-						["Moonfire"] = {
-							["hitmin"] = 1072,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1072,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 1072,
-							["amount"] = 1072,
-							["hitamount"] = 1072,
-						},
-						["Wrath"] = {
-							["criticalamount"] = 20261,
-							["amount"] = 26039,
-							["hitmin"] = 2744,
-							["criticalmin"] = 6652,
-							["id"] = 48461,
-							["casts"] = 5,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 26039,
-									["overkill"] = 1610,
-								},
-							},
-							["overkill"] = 1610,
-							["count"] = 5,
-							["criticalmax"] = 6831,
-							["critical"] = 3,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 685,
-							["hitmax"] = 3034,
-							["hitamount"] = 5778,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 603,
-							["criticalamount"] = 1516,
-							["id"] = 48463,
-							["criticalmin"] = 1516,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2877,
-								},
-							},
-							["amount"] = 2877,
-							["count"] = 3,
-							["criticalmax"] = 1516,
-							["hitmax"] = 758,
-							["hit"] = 2,
-							["school"] = 64,
-							["resisted"] = 67,
-							["critical"] = 1,
-							["hitamount"] = 1361,
-						},
-					},
-					["damagetaken"] = 3667,
-					["id"] = "0x0700000000ABE036",
-					["spec"] = 102,
-					["damagetakenspells"] = {
-						["Arcane Volley"] = {
-							["total"] = 7045,
-							["hitmin"] = 3667,
-							["id"] = 61591,
-							["count"] = 2,
-							["amount"] = 3667,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3667,
-									["total"] = 7045,
-								},
-							},
-							["hitmax"] = 3667,
-							["ABSORB"] = 1,
-							["school"] = 64,
-							["resisted"] = 407,
-							["hit"] = 1,
-							["hitamount"] = 3667,
-						},
-					},
-					["name"] = "Scrakekf",
-					["totaldamage"] = 35808,
-					["mana"] = 1686,
-					["manaspells"] = {
-						[53506] = 1686,
-					},
-					["overkill"] = 1610,
-				}, -- [4]
-				{
-					["last"] = 12922.671,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[47436] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 20,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 15,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 5,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 4,
-						},
-						[46916] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[15359] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[47930] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["totaldamage"] = 24943,
-					["time"] = 10.81,
-					["totaldamagetaken"] = 4752,
-					["damage"] = 24943,
-					["damagespells"] = {
-						["Slam"] = {
-							["criticalamount"] = 3242,
-							["id"] = 50783,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3242,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3242,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 3242,
-							["criticalmin"] = 3242,
-						},
-						["Bloodthirst"] = {
-							["hitmin"] = 1586,
-							["criticalamount"] = 3489,
-							["id"] = 23881,
-							["count"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5075,
-								},
-							},
-							["criticalmax"] = 3489,
-							["criticalmin"] = 3489,
-							["casts"] = 2,
-							["hitmax"] = 1586,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 5075,
-							["critical"] = 1,
-							["hitamount"] = 1586,
-						},
-						["Melee"] = {
-							["glance"] = 1099,
-							["hitmin"] = 732,
-							["criticalmin"] = 1452,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 8277,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 8277,
-							["MISS"] = 1,
-							["glancemin"] = 1099,
-							["criticalamount"] = 6446,
-							["id"] = 6603,
-							["glancemax"] = 1099,
-							["criticalmax"] = 2512,
-							["critical"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 732,
-							["count"] = 6,
-							["hitamount"] = 732,
-						},
-						["Pummel"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6552,
-						},
-						["Execute"] = {
-							["hitmin"] = 1951,
-							["id"] = 20647,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1951,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1951,
-							["amount"] = 1951,
-							["hitamount"] = 1951,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 880,
-							["criticalamount"] = 3069,
-							["id"] = 1680,
-							["count"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3949,
-								},
-							},
-							["criticalmax"] = 3069,
-							["criticalmin"] = 3069,
-							["casts"] = 1,
-							["hitmax"] = 880,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 3949,
-							["critical"] = 1,
-							["hitamount"] = 880,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 374,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2122,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 874,
-							["amount"] = 2122,
-							["hitamount"] = 2122,
-						},
-						["Intercept"] = {
-							["hitmin"] = 327,
-							["id"] = 20253,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 327,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 327,
-							["amount"] = 327,
-							["hitamount"] = 327,
-						},
-					},
-					["damagetaken"] = 4752,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 723,
-							["count"] = 6,
-							["amount"] = 723,
-							["max"] = 241,
-							["min"] = 241,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 723,
-									["amount"] = 723,
-								},
-							},
-							["school"] = 1,
-						},
-					},
-					["damagetakenspells"] = {
-						["Arcane Volley"] = {
-							["hitmin"] = 4752,
-							["id"] = 61591,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4752,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 4752,
-							["amount"] = 4752,
-							["hitamount"] = 4752,
-						},
-					},
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 10,
-					},
-					["name"] = "Supdawgx",
-					["role"] = "DAMAGER",
-					["heal"] = 723,
-					["rage"] = 30,
-					["overheal"] = 723,
-				}, -- [5]
-			},
-			["starttime"] = 1728655634,
-			["absorb"] = 21700,
-			["overkill"] = 1610,
-			["edamagetaken"] = 164523,
-			["heal"] = 13763,
-			["name"] = "Portal Keeper (3)",
-			["mobname"] = "Portal Keeper",
-			["rage"] = 38,
-			["edamage"] = 12359,
-			["last_action"] = 1728655654,
-			["endtime"] = 1728655654,
-		}, -- [5]
-		{
-			["mana"] = 924,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[61594] = {
-							["school"] = 16,
-							["total"] = 8537,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 372,
-									["total"] = 3986,
-								},
-								["Supdawgx"] = {
-									["amount"] = 0,
-									["total"] = 4551,
-								},
-							},
-							["amount"] = 372,
-						},
-						[61593] = {
-							["school"] = 64,
-							["total"] = 3638,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 0,
-									["total"] = 3638,
-								},
-							},
-							["amount"] = 0,
-						},
-						[58534] = {
-							["school"] = 16,
-							["total"] = 686,
-							["targets"] = {
-								["Scrakekf"] = {
-									["amount"] = 0,
-									["total"] = 686,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["damagetaken"] = 164513,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 4945,
-								},
-							},
-							["amount"] = 4945,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1390,
-								},
-							},
-							["amount"] = 1390,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 6643,
-								},
-							},
-							["amount"] = 6643,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 15059,
-								},
-							},
-							["amount"] = 15059,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2460,
-								},
-							},
-							["amount"] = 2460,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 2889,
-								},
-							},
-							["amount"] = 2889,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 4776,
-								},
-							},
-							["amount"] = 4776,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 4292,
-								},
-							},
-							["amount"] = 4292,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 8634,
-								},
-							},
-							["amount"] = 8634,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 37214,
-									["overkill"] = 1600,
-								},
-							},
-							["amount"] = 37214,
-							["overkill"] = 1600,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 3445,
-								},
-							},
-							["amount"] = 3445,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 9120,
-								},
-							},
-							["amount"] = 9120,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1857,
-								},
-							},
-							["amount"] = 1857,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3725,
-								},
-							},
-							["amount"] = 3725,
-						},
-						[48805] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2208,
-								},
-							},
-							["amount"] = 2208,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 25136,
-								},
-								["Supdawgx"] = {
-									["amount"] = 9531,
-								},
-								["Jhosah"] = {
-									["amount"] = 1079,
-								},
-							},
-							["amount"] = 35746,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 742,
-								},
-							},
-							["amount"] = 742,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 9844,
-								},
-								["Supdawgx"] = {
-									["amount"] = 3502,
-								},
-							},
-							["amount"] = 13346,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 5699,
-								},
-							},
-							["amount"] = 5699,
-						},
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 323,
-								},
-							},
-							["amount"] = 323,
-						},
-					},
-					["totaldamage"] = 12861,
-					["name"] = "Portal Keeper",
-					["totaldamagetaken"] = 164513,
-					["id"] = "0xF1300077E7000073",
-					["damage"] = 372,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 7286,
-								},
-							},
-							["amount"] = 7286,
-						},
-					},
-					["damagetaken"] = 19977,
-					["id"] = "0xF1300078F1000074",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 3088,
-								},
-							},
-							["amount"] = 3088,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 4120,
-								},
-							},
-							["amount"] = 4120,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 878,
-								},
-							},
-							["amount"] = 878,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 864,
-								},
-								["Supdawgx"] = {
-									["amount"] = 144,
-								},
-							},
-							["amount"] = 1008,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 517,
-								},
-								["Rimgar"] = {
-									["amount"] = 5402,
-									["overkill"] = 2703,
-								},
-							},
-							["amount"] = 5919,
-							["overkill"] = 2703,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 290,
-								},
-							},
-							["amount"] = 290,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4354,
-									["overkill"] = 1975,
-								},
-							},
-							["amount"] = 4354,
-							["overkill"] = 1975,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 320,
-								},
-							},
-							["amount"] = 320,
-						},
-					},
-					["totaldamage"] = 7286,
-					["name"] = "Azure Invader",
-					["totaldamagetaken"] = 19977,
-					["flag"] = 2632,
-					["damage"] = 7286,
-				}, -- [2]
-			},
-			["totaldamage"] = 184490,
-			["time"] = 26,
-			["last_time"] = 12898.112,
-			["totaldamagetaken"] = 20147,
-			["etotaldamagetaken"] = 184490,
-			["damage"] = 184490,
-			["overheal"] = 10724,
-			["type"] = "party",
-			["damagetaken"] = 7658,
-			["players"] = {
-				{
-					["last"] = 12890.47,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 16,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[12328] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 26,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 26,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[71541] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[16491] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 16,
-							["school"] = 1,
-							["refresh"] = 5,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 5,
-									["count"] = 1,
+								["Anub'ar Crypt Fiend"] = {
 									["uptime"] = 16,
-								},
-							},
-							["count"] = 1,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 14,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[47930] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 12,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47436] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 25,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 25,
-						},
-						[47502] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Azure Invader"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[60503] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 5,
-						},
-						[48942] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[70855] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 15,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 3,
 									["count"] = 2,
-									["uptime"] = 15,
-								},
-								["Azure Invader"] = {
-									["uptime"] = 2,
-									["count"] = 1,
 								},
 							},
-							["count"] = 3,
+							["uptime"] = 50,
 						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 16,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 16,
-								},
-							},
-							["count"] = 1,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 17.42,
-					["totaldamagetaken"] = 14910,
-					["damage"] = 113075,
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["count"] = 3,
-							["hitmin"] = 5349,
-							["criticalamount"] = 9710,
-							["id"] = 47486,
-							["criticalmax"] = 9710,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 15059,
-								},
-								["Azure Invader"] = {
-									["amount"] = 0,
-								},
-							},
-							["criticalmin"] = 9710,
-							["amount"] = 15059,
-							["PARRY"] = 1,
-							["hitmax"] = 5349,
-							["hit"] = 1,
-							["school"] = 1,
-							["critical"] = 1,
-							["casts"] = 3,
-							["hitamount"] = 5349,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 1857,
-							["criticalamount"] = 4120,
-							["id"] = 47502,
-							["count"] = 2,
-							["targets"] = {
-								["Azure Invader"] = {
-									["amount"] = 4120,
-								},
-								["Portal Keeper"] = {
-									["amount"] = 1857,
-								},
-							},
-							["criticalmax"] = 4120,
-							["criticalmin"] = 4120,
-							["casts"] = 1,
-							["hitmax"] = 1857,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 5977,
-							["critical"] = 1,
-							["hitamount"] = 1857,
-						},
-						["Melee"] = {
-							["glance"] = 6760,
-							["hitmin"] = 5402,
-							["criticalmin"] = 8825,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 25136,
-								},
-								["Azure Invader"] = {
-									["amount"] = 5402,
-									["overkill"] = 2703,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 30538,
-							["glancemin"] = 2601,
-							["criticalamount"] = 18376,
-							["id"] = 6603,
-							["glancemax"] = 4159,
-							["overkill"] = 2703,
-							["criticalmax"] = 9551,
-							["critical"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 5402,
-							["count"] = 5,
-							["hitamount"] = 5402,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 2158,
-							["id"] = 47465,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 8634,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2159,
-							["amount"] = 8634,
-							["hitamount"] = 8634,
-						},
-						["Execute"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 20647,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-								},
-							},
-							["PARRY"] = 1,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 37214,
-							["id"] = 7384,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 37214,
-									["overkill"] = 1600,
-								},
-							},
-							["overkill"] = 1600,
-							["casts"] = 3,
-							["critical"] = 3,
-							["amount"] = 37214,
-							["school"] = 1,
-							["count"] = 3,
-							["criticalmax"] = 13781,
-							["criticalmin"] = 10664,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 432,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 9844,
-								},
-								["Azure Invader"] = {
-									["amount"] = 864,
-								},
-							},
-							["count"] = 15,
-							["hit"] = 15,
-							["school"] = 1,
-							["hitmax"] = 1077,
-							["amount"] = 10708,
-							["hitamount"] = 10708,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 4945,
-							["id"] = 47450,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4945,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 4945,
-							["amount"] = 4945,
-							["hitamount"] = 4945,
-						},
-					},
-					["damagetaken"] = 7658,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["healspells"] = {
-						[16491] = {
-							["overheal"] = 1600,
-							["min"] = 400,
-							["count"] = 6,
-							["amount"] = 800,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 1600,
-									["amount"] = 800,
-								},
-							},
-							["max"] = 400,
-						},
-					},
-					["damagetakenspells"] = {
-						["Arcane Missiles"] = {
-							["id"] = 61593,
-							["total"] = 3638,
-							["count"] = 3,
-							["ABSORB"] = 2,
-							["school"] = 64,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 3638,
-								},
-							},
-							["MISS"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["hitmin"] = 2296,
-							["criticalamount"] = 4990,
-							["id"] = 6603,
-							["criticalmin"] = 4990,
-							["amount"] = 7286,
-							["hitmax"] = 2296,
-							["criticalmax"] = 4990,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["count"] = 2,
-							["sources"] = {
-								["Azure Invader"] = {
-									["amount"] = 7286,
-								},
-							},
-							["hitamount"] = 2296,
-						},
-						["Frostbolt Volley"] = {
-							["total"] = 3986,
-							["hitmin"] = 372,
-							["id"] = 61594,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 372,
-									["total"] = 3986,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 372,
-							["amount"] = 372,
-							["hitamount"] = 372,
-						},
-					},
-					["heal"] = 800,
-					["name"] = "Rimgar",
-					["totaldamage"] = 113075,
-					["overheal"] = 1600,
-					["overkill"] = 4303,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Hammer of the Righteous"] = {
-							["count"] = 2,
-							["hitmin"] = 2460,
-							["criticalamount"] = 4354,
-							["id"] = 53595,
-							["criticalmax"] = 4354,
-							["targets"] = {
-								["Azure Invader"] = {
-									["amount"] = 4354,
-									["overkill"] = 1975,
-								},
-								["Portal Keeper"] = {
-									["amount"] = 2460,
-								},
-							},
-							["overkill"] = 1975,
-							["criticalmin"] = 4354,
-							["casts"] = 1,
-							["hitmax"] = 2460,
-							["hit"] = 1,
-							["school"] = 2,
-							["amount"] = 6814,
-							["critical"] = 1,
-							["hitamount"] = 2460,
-						},
-						["Melee"] = {
-							["glance"] = 1042,
-							["hitmin"] = 554,
-							["id"] = 6603,
-							["glancemax"] = 525,
-							["glancemin"] = 517,
-							["glancing"] = 2,
-							["targets"] = {
-								["Azure Invader"] = {
-									["amount"] = 517,
-								},
-								["Portal Keeper"] = {
-									["amount"] = 1079,
-								},
-							},
-							["hitmax"] = 554,
-							["amount"] = 1596,
-							["school"] = 1,
-							["hit"] = 1,
-							["count"] = 3,
-							["hitamount"] = 554,
-						},
-						["Seal of Command"] = {
-							["hitmin"] = 290,
-							["criticalamount"] = 742,
-							["id"] = 20424,
-							["criticalmin"] = 742,
-							["targets"] = {
-								["Azure Invader"] = {
-									["amount"] = 610,
-								},
-								["Portal Keeper"] = {
-									["amount"] = 2132,
-								},
-							},
-							["amount"] = 2742,
-							["hitmax"] = 395,
-							["criticalmax"] = 742,
-							["critical"] = 1,
-							["hit"] = 6,
-							["school"] = 2,
-							["count"] = 7,
-							["casts"] = 1,
-							["hitamount"] = 2000,
-						},
-						["Hammer of Wrath"] = {
-							["hitmin"] = 2208,
-							["id"] = 48805,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2208,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2208,
-							["amount"] = 2208,
-							["hitamount"] = 2208,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 3445,
-							["id"] = 53600,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3445,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 3445,
-							["amount"] = 3445,
-							["hitamount"] = 3445,
-						},
-					},
-					["last"] = 12889.596,
-					["role"] = "TANK",
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["manaspells"] = {
-						[54428] = 389,
-					},
-					["auras"] = {
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47436] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[54428] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[60215] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-					},
-					["mana"] = 389,
-					["totaldamage"] = 16805,
-					["time"] = 6.74,
-					["name"] = "Jhosah",
-					["overkill"] = 1975,
-					["spec"] = 66,
-					["id"] = "0x0700000000ACF706",
-					["damage"] = 16805,
-				}, -- [2]
-				{
-					["last"] = 12887.905,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47436] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[60062] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 22,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Scrakekf"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Rimgar"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Aandra"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[48942] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 20,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 164,
-							["casts"] = 4,
-							["count"] = 5,
-							["amount"] = 11967,
-							["max"] = 4551,
-							["targets"] = {
-								["Scrakekf"] = 164,
-								["Rimgar"] = 7252,
-								["Supdawgx"] = 4551,
-							},
-							["school"] = 2,
-						},
-						[47753] = {
-							["min"] = 522,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 522,
-							["school"] = 2,
-							["targets"] = {
-								["Scrakekf"] = 522,
-							},
-							["max"] = 522,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 9.68,
-					["rage"] = 8,
-					["absorb"] = 12489,
-					["id"] = "0x0700000000AD81EB",
-					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 2972,
-							["criticalamount"] = 0,
-							["max"] = 1231,
-							["targets"] = {
-								["Scrakekf"] = {
-									["overheal"] = 1741,
-									["amount"] = 0,
-								},
-								["Rimgar"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Aandra"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-							},
-							["min"] = 1231,
-							["criticalmax"] = 0,
-							["critical"] = 1,
-							["amount"] = 1231,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["count"] = 3,
-						},
-						[52985] = {
-							["overheal"] = 3983,
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 5627,
-							["max"] = 3032,
-							["school"] = 2,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 3983,
-									["amount"] = 5627,
-								},
-							},
-							["min"] = 2595,
-						},
-					},
-					["ragespells"] = {
-						[63653] = 8,
-					},
-					["name"] = "Aandra",
-					["mana"] = 535,
-					["manaspells"] = {
-						[47755] = 535,
-					},
-					["heal"] = 6858,
-					["overheal"] = 6955,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1080,
-							["id"] = 48468,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5699,
-								},
-							},
-							["count"] = 5,
-							["hitmax"] = 1221,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 122,
-							["amount"] = 5699,
-							["hitamount"] = 5699,
-						},
-						["Moonfire"] = {
-							["hitmin"] = 1071,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1071,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 1071,
-							["amount"] = 1071,
-							["hitamount"] = 1071,
-						},
-						["Wrath"] = {
-							["hitmin"] = 3015,
-							["id"] = 48461,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 9120,
-								},
-							},
-							["count"] = 3,
-							["casts"] = 4,
-							["hitmax"] = 3072,
-							["hit"] = 3,
-							["school"] = 8,
-							["resisted"] = 678,
-							["amount"] = 9120,
-							["hitamount"] = 9120,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 683,
-							["criticalamount"] = 1213,
-							["id"] = 48463,
-							["criticalmin"] = 1213,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2654,
-								},
-							},
-							["amount"] = 2654,
-							["count"] = 3,
-							["criticalmax"] = 1213,
-							["hitmax"] = 758,
-							["hit"] = 2,
-							["school"] = 64,
-							["resisted"] = 378,
-							["critical"] = 1,
-							["hitamount"] = 1441,
-						},
-					},
-					["last"] = 12890.221,
-					["damagetaken"] = 0,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["totaldamage"] = 18544,
-					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48942] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 23,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47436] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 7,
-							["school"] = 64,
-							["refresh"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["count"] = 1,
-						},
-						[48468] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[67360] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["name"] = "Scrakekf",
-					["role"] = "DAMAGER",
-					["time"] = 13.59,
-					["damagetakenspells"] = {
-						["Deep Freeze"] = {
-							["total"] = 686,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 58534,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 686,
-								},
-							},
-						},
-					},
-					["spec"] = 102,
-					["totaldamagetaken"] = 686,
-					["id"] = "0x0700000000ABE036",
-					["damage"] = 18544,
-				}, -- [4]
-				{
-					["last"] = 12889.529,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[29131] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 6,
-						},
-						[47436] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[61619] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[12970] = {
+						[34123] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 23,
+							["uptime"] = 55,
 						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 14,
-							["school"] = 1,
-							["refresh"] = 5,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 5,
-									["count"] = 1,
-									["uptime"] = 14,
-								},
-								["Azure Invader"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["count"] = 2,
-						},
-					},
-					["totaldamage"] = 36066,
-					["time"] = 16.52,
-					["totaldamagetaken"] = 4551,
-					["damage"] = 36066,
-					["damagespells"] = {
-						["Intercept"] = {
-							["hitmin"] = 323,
-							["id"] = 20253,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 323,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 323,
-							["amount"] = 323,
-							["hitamount"] = 323,
-						},
-						["Bloodthirst"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 1568,
-							["criticalamount"] = 3489,
-							["id"] = 23881,
-							["criticalmin"] = 3489,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 6643,
-								},
-							},
-							["amount"] = 6643,
-							["hitmax"] = 1586,
-							["criticalmax"] = 3489,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 1,
-							["count"] = 4,
-							["casts"] = 4,
-							["hitamount"] = 3154,
-						},
-						["Melee"] = {
-							["glance"] = 1321,
-							["hitmin"] = 759,
-							["criticalmin"] = 1370,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 9531,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 9531,
-							["glancemin"] = 653,
-							["criticalamount"] = 2744,
-							["id"] = 6603,
-							["glancemax"] = 668,
-							["criticalmax"] = 1374,
-							["count"] = 10,
-							["PARRY"] = 1,
-							["critical"] = 2,
-							["hit"] = 5,
-							["school"] = 1,
-							["blocked"] = 40,
-							["hitmax"] = 1190,
-							["hitamount"] = 5466,
-						},
-						["Pummel"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6552,
-						},
-						["Execute"] = {
-							["criticalamount"] = 4292,
-							["id"] = 20647,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4292,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4292,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 4292,
-							["criticalmin"] = 4292,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 821,
-							["criticalamount"] = 8530,
-							["id"] = 1680,
-							["count"] = 6,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 7665,
-								},
-								["Azure Invader"] = {
-									["amount"] = 3966,
-								},
-							},
-							["criticalmax"] = 3374,
-							["criticalmin"] = 2068,
-							["casts"] = 2,
-							["hitmax"] = 1402,
-							["hit"] = 3,
-							["school"] = 1,
-							["amount"] = 11631,
-							["critical"] = 3,
-							["hitamount"] = 3101,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 144,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3502,
-								},
-								["Azure Invader"] = {
-									["amount"] = 144,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 351,
-							["amount"] = 3646,
-							["hitamount"] = 3646,
-						},
-						["Heroic Strike"] = {
-							["DODGE"] = 1,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 47450,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 2169,
+						[53251] = {
+							["type"] = "BUFF",
 							["count"] = 9,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 2169,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Frostbolt Volley"] = {
-							["total"] = 4551,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 61594,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 4551,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[29131] = 10,
-					},
-					["name"] = "Supdawgx",
-					["role"] = "DAMAGER",
-					["rage"] = 10,
-					["heal"] = 0,
-					["overheal"] = 2169,
-				}, -- [5]
-			},
-			["rage"] = 18,
-			["starttime"] = 1728655596,
-			["etotaldamage"] = 20147,
-			["overkill"] = 6278,
-			["edamagetaken"] = 184490,
-			["heal"] = 7658,
-			["name"] = "Portal Keeper (2)",
-			["mobname"] = "Portal Keeper",
-			["absorb"] = 12489,
-			["edamage"] = 7658,
-			["last_action"] = 1728655621,
-			["endtime"] = 1728655622,
-		}, -- [6]
-		{
-			["mana"] = 7305,
-			["type"] = "party",
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 2073,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 2073,
-								},
-							},
-							["amount"] = 0,
-						},
-						[59743] = {
-							["school"] = 32,
-							["total"] = 6055,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 658,
-									["total"] = 6055,
-								},
-							},
-							["amount"] = 658,
-						},
-					},
-					["damagetaken"] = 433295,
-					["flag"] = 68168,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 24370,
-								},
-								["Supdawgx"] = {
-									["amount"] = 4439,
-								},
-							},
-							["amount"] = 28809,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 9471,
-								},
-							},
-							["amount"] = 9471,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 19148,
-								},
-							},
-							["amount"] = 19148,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 23722,
-								},
-								["Supdawgx"] = {
-									["amount"] = 13870,
-								},
-								["Jhosah"] = {
-									["amount"] = 13113,
-								},
-							},
-							["amount"] = 50705,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 7024,
-								},
-							},
-							["amount"] = 7024,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 27530,
-								},
-							},
-							["amount"] = 27530,
-						},
-						[48816] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2291,
-								},
-							},
-							["amount"] = 2291,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 12545,
-								},
-							},
-							["amount"] = 12545,
-						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2292,
-								},
-							},
-							["amount"] = 2292,
-						},
-						[48951] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 882,
-								},
-							},
-							["amount"] = 882,
-						},
-						[50622] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 47897,
-								},
-							},
-							["amount"] = 47897,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 9313,
-								},
-							},
-							["amount"] = 9313,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 11861,
-								},
-							},
-							["amount"] = 11861,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 4725,
-								},
-								["Supdawgx"] = {
-									["amount"] = 5066,
-								},
-							},
-							["amount"] = 9791,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 25009,
-								},
-							},
-							["amount"] = 25009,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 9863,
-								},
-							},
-							["amount"] = 9863,
-						},
-						[50783] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1993,
-								},
-							},
-							["amount"] = 1993,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 3584,
-								},
-							},
-							["amount"] = 3584,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 8113,
-								},
-							},
-							["amount"] = 8113,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3093,
-								},
-							},
-							["amount"] = 3093,
-						},
-						[48461] = {
 							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 17026,
-								},
-							},
-							["amount"] = 17026,
+							["refresh"] = 2,
+							["uptime"] = 65,
 						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 6920,
-								},
-							},
-							["amount"] = 6920,
-						},
-						[48805] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 5924,
-								},
-							},
-							["amount"] = 5924,
-						},
-						[48465] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 43052,
-								},
-							},
-							["amount"] = 43052,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1644,
-								},
-							},
-							["amount"] = 1644,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 7878,
-								},
-								["Rimgar"] = {
-									["amount"] = 23877,
-									["overkill"] = 1903,
-								},
-							},
-							["amount"] = 31755,
-							["overkill"] = 1903,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 10498,
-								},
-							},
-							["amount"] = 10498,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 25262,
-								},
-							},
-							["amount"] = 25262,
-						},
-					},
-					["totaldamage"] = 8128,
-					["name"] = "Zuramat the Obliterator",
-					["totaldamagetaken"] = 433295,
-					["id"] = "0xF13000728200000D",
-					["damage"] = 658,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[59748] = {
-							["school"] = 32,
-							["total"] = 13972,
-							["targets"] = {
-								["Supdawgx"] = {
-									["amount"] = 0,
-									["total"] = 3711,
-								},
-								["Scrakekf"] = {
-									["amount"] = 0,
-									["total"] = 2089,
-								},
-								["Rimgar"] = {
-									["amount"] = 0,
-									["total"] = 2960,
-								},
-								["Aandra"] = {
-									["amount"] = 0,
-									["total"] = 2383,
-								},
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 2829,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["damagetaken"] = 1394,
-					["id"] = "0xF1300072B500006F",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1394,
-								},
-							},
-							["amount"] = 1394,
-						},
-					},
-					["totaldamage"] = 13972,
-					["name"] = "Void Sentry",
-					["totaldamagetaken"] = 1394,
-					["flag"] = 2632,
-					["damage"] = 0,
-				}, -- [2]
-			},
-			["last_time"] = 12822.13,
-			["totaldamage"] = 434689,
-			["time"] = 26,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 7174,
-							["criticalamount"] = 16548,
-							["id"] = 6603,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 23722,
-								},
-							},
-							["critical"] = 2,
-							["glancing"] = 2,
-							["criticalmax"] = 10313,
-							["count"] = 4,
-							["amount"] = 23722,
-							["school"] = 1,
-							["criticalmin"] = 6235,
-							["glancemax"] = 3644,
-							["glancemin"] = 3530,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 666,
-							["id"] = 71904,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 3093,
-								},
-								["Void Sentry"] = {
-									["amount"] = 1394,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 2307,
-							["amount"] = 4487,
-							["hitamount"] = 4487,
-						},
-						["Execute"] = {
-							["hitmin"] = 4725,
-							["id"] = 20647,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 4725,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 4725,
-							["amount"] = 4725,
-							["hitamount"] = 4725,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 3946,
-							["criticalamount"] = 31631,
-							["id"] = 50622,
-							["count"] = 7,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 47897,
-								},
-							},
-							["criticalmax"] = 10940,
-							["criticalmin"] = 9819,
-							["casts"] = 1,
-							["hitmax"] = 4302,
-							["hit"] = 4,
-							["school"] = 1,
-							["amount"] = 47897,
-							["critical"] = 3,
-							["hitamount"] = 16266,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 5883,
-							["criticalamount"] = 21647,
-							["id"] = 47486,
-							["count"] = 3,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 27530,
-								},
-							},
-							["criticalmax"] = 10832,
-							["criticalmin"] = 10815,
-							["casts"] = 3,
-							["hitmax"] = 5883,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 27530,
-							["critical"] = 2,
-							["hitamount"] = 5883,
-						},
-						["Charge Stun"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["IMMUNE"] = 1,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 7922,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1643,
-							["id"] = 47465,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 9863,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 1644,
-							["amount"] = 9863,
-							["hitamount"] = 9863,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 25262,
-							["id"] = 7384,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 25262,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 25262,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 12746,
-							["criticalmin"] = 12516,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 369,
-							["id"] = 12721,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 23877,
-									["overkill"] = 1903,
-								},
-							},
-							["overkill"] = 1903,
-							["count"] = 14,
-							["hit"] = 14,
-							["school"] = 1,
-							["hitmax"] = 2848,
-							["amount"] = 23877,
-							["hitamount"] = 23877,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 24370,
-							["id"] = 47450,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 24370,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 24370,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 13282,
-							["criticalmin"] = 11088,
-						},
-					},
-					["last"] = 12817.89,
-					["damagetaken"] = 658,
-					["totaldamage"] = 191733,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["overkill"] = 1903,
-					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 26,
-						},
-						[48470] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 26,
+							["uptime"] = 67,
 						},
-						[48162] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[46924] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 10,
-							["uptime"] = 21,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[64850] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[52437] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 13,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["uptime"] = 19,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 19,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 19,
-							["school"] = 1,
-							["refresh"] = 10,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["refresh"] = 10,
-									["count"] = 1,
-									["uptime"] = 19,
-								},
-							},
-							["count"] = 1,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 10,
-							["uptime"] = 24,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 19,
-							["school"] = 1,
-							["refresh"] = 10,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["refresh"] = 10,
-									["count"] = 1,
-									["uptime"] = 19,
-								},
-							},
-							["count"] = 1,
+							["uptime"] = 138,
 						},
 						[71541] = {
+							["type"] = "BUFF",
+							["count"] = 3,
 							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 44,
 						},
-						[47753] = {
-							["school"] = 2,
+						[48451] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 7,
+							["uptime"] = 35,
+							["school"] = 8,
+							["refresh"] = 5,
+							["count"] = 3,
 						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[60503] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 10,
-						},
-						[47486] = {
+						[49560] = {
 							["type"] = "DEBUFF",
-							["uptime"] = 18,
+							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 2,
 							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["refresh"] = 2,
+								["Anub'ar Champion"] = {
+									["uptime"] = 3,
 									["count"] = 1,
-									["uptime"] = 18,
 								},
 							},
-							["count"] = 1,
-						},
-					},
-					["name"] = "Rimgar",
-					["role"] = "DAMAGER",
-					["time"] = 21.07,
-					["damagetakenspells"] = {
-						["Shadow Bolt Volley"] = {
-							["total"] = 2960,
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 32,
-							["id"] = 59748,
-							["ABSORB"] = 5,
-							["sources"] = {
-								["Void Sentry"] = {
-									["amount"] = 0,
-									["total"] = 2960,
-								},
-							},
-						},
-						["Void Shift (DoT)"] = {
-							["total"] = 6055,
-							["hitmin"] = 658,
-							["id"] = 59743,
-							["count"] = 5,
-							["hit"] = 1,
-							["sources"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 658,
-									["total"] = 6055,
-								},
-							},
-							["hitmax"] = 658,
-							["amount"] = 658,
-							["school"] = 32,
-							["resisted"] = 310,
-							["ABSORB"] = 4,
-							["hitamount"] = 658,
-						},
-						["Void Shifted (DoT)"] = {
-							["total"] = 2447,
-							["count"] = 11,
-							["amount"] = 0,
-							["school"] = 32,
-							["id"] = 54343,
-							["ABSORB"] = 11,
-						},
-					},
-					["spec"] = 71,
-					["totaldamagetaken"] = 11462,
-					["id"] = "0x070000000040A064",
-					["damage"] = 191733,
-				}, -- [1]
-				{
-					["last"] = 12817.73,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[15359] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
+							["uptime"] = 3,
 						},
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 26,
+							["uptime"] = 138,
 						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 13,
-						},
-						[31884] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48951] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 18,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[20186] = {
+						[56222] = {
 							["type"] = "DEBUFF",
-							["uptime"] = 17,
-							["school"] = 2,
-							["refresh"] = 1,
+							["uptime"] = 12,
+							["school"] = 1,
 							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["refresh"] = 1,
+								["Animated Bones"] = {
+									["uptime"] = 3,
 									["count"] = 1,
-									["uptime"] = 17,
 								},
-							},
-							["count"] = 1,
-						},
-						[48066] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["uptime"] = 15,
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Anub'ar Crusher"] = {
+									["uptime"] = 6,
 									["count"] = 2,
 								},
 							},
-							["uptime"] = 15,
+							["count"] = 4,
 						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 7,
-						},
-						[67695] = {
-							["school"] = 64,
+						[70654] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 10,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[42650] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 1,
+						},
+						[45529] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["uptime"] = 20,
 						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 17,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 17,
-								},
-							},
-							["count"] = 1,
-						},
-						[24907] = {
+						[64859] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-					},
-					["totaldamage"] = 67047,
-					["time"] = 20.97,
-					["totaldamagetaken"] = 4902,
-					["damage"] = 67047,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 423,
-							["id"] = 48818,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 7024,
-								},
-							},
-							["count"] = 14,
-							["casts"] = 2,
-							["hitmax"] = 530,
-							["hit"] = 14,
-							["school"] = 2,
-							["resisted"] = 152,
-							["amount"] = 7024,
-							["hitamount"] = 7024,
-						},
-						["Melee"] = {
-							["glance"] = 1176,
-							["hitmin"] = 713,
-							["criticalmin"] = 1224,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 13113,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 13113,
-							["glancemin"] = 573,
-							["criticalamount"] = 5686,
-							["id"] = 6603,
-							["glancemax"] = 603,
-							["hit"] = 8,
-							["criticalmax"] = 1544,
-							["count"] = 14,
-							["blocked"] = 41,
-							["school"] = 1,
-							["critical"] = 4,
-							["hitmax"] = 841,
-							["hitamount"] = 6251,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 1067,
-							["id"] = 20467,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 2292,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 1225,
-							["amount"] = 2292,
-							["hitamount"] = 2292,
-						},
-						["Hammer of the Righteous"] = {
-							["criticalamount"] = 6240,
-							["criticalmax"] = 6240,
-							["hitmin"] = 2820,
-							["criticalmin"] = 6240,
-							["id"] = 53595,
-							["hit"] = 2,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 12545,
-								},
-							},
-							["critical"] = 1,
-							["amount"] = 12545,
-							["casts"] = 3,
-							["hitmax"] = 3485,
-							["blocked"] = 41,
-							["school"] = 2,
-							["resisted"] = 705,
-							["count"] = 3,
-							["hitamount"] = 6305,
-						},
-						["Hammer of Wrath"] = {
-							["criticalamount"] = 5924,
-							["id"] = 48805,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 5924,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5924,
-							["school"] = 2,
-							["count"] = 1,
-							["criticalmax"] = 5924,
-							["criticalmin"] = 5924,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 882,
-							["id"] = 48951,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 882,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 2,
-							["hitmax"] = 882,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 97,
-							["amount"] = 882,
-							["hitamount"] = 882,
-						},
-						["Seal of Command"] = {
-							["criticalamount"] = 4129,
-							["amount"] = 11115,
-							["hitmin"] = 378,
-							["criticalmin"] = 591,
-							["id"] = 20424,
-							["casts"] = 1,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 11115,
-								},
-							},
-							["count"] = 20,
-							["hit"] = 15,
-							["criticalmax"] = 1050,
-							["critical"] = 5,
-							["blocked"] = 41,
-							["school"] = 2,
-							["resisted"] = 752,
-							["hitmax"] = 547,
-							["hitamount"] = 6986,
-						},
-						["Shield of Righteousness"] = {
-							["criticalamount"] = 5955,
-							["hitmin"] = 2928,
-							["criticalmin"] = 5955,
-							["id"] = 53600,
-							["amount"] = 11861,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 11861,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 3,
-							["criticalmax"] = 5955,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 2,
-							["resisted"] = 991,
-							["hitmax"] = 2978,
-							["hitamount"] = 5906,
-						},
-						["Holy Wrath"] = {
-							["hitmin"] = 2291,
-							["id"] = 48816,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 2291,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2291,
-							["amount"] = 2291,
-							["hitamount"] = 2291,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["id"] = 6603,
-							["PARRY"] = 1,
 							["count"] = 4,
-							["ABSORB"] = 3,
 							["school"] = 1,
-							["sources"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 0,
-									["total"] = 2073,
-								},
-							},
-							["total"] = 2073,
-							["amount"] = 0,
+							["refresh"] = 35,
+							["uptime"] = 111,
 						},
-						["Shadow Bolt Volley"] = {
-							["total"] = 2829,
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 32,
-							["id"] = 59748,
-							["ABSORB"] = 5,
-							["sources"] = {
-								["Void Sentry"] = {
-									["amount"] = 0,
-									["total"] = 2829,
-								},
-							},
-						},
-					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["mana"] = 2898,
-					["manaspells"] = {
-						[57319] = 465,
-						[20268] = 2433,
-					},
-				}, -- [2]
-				{
-					["last"] = 12821.805,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 11,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[6788] = {
+						[55095] = {
 							["type"] = "DEBUFF",
-							["count"] = 5,
-							["school"] = 2,
+							["count"] = 12,
+							["school"] = 16,
+							["refresh"] = 8,
 							["targets"] = {
-								["Supdawgx"] = {
-									["uptime"] = 11,
-									["count"] = 1,
+								["Anub'ar Crusher"] = {
+									["count"] = 5,
+									["refresh"] = 6,
+									["uptime"] = 94,
 								},
-								["Scrakekf"] = {
+								["Anub'ar Champion"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 49,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 49,
+								},
+								["Anub'ar Necromancer"] = {
 									["uptime"] = 12,
 									["count"] = 1,
 								},
-								["Rimgar"] = {
-									["uptime"] = 13,
-									["count"] = 1,
+							},
+							["uptime"] = 121,
+						},
+						[71229] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 11,
+							["uptime"] = 110,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 101,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 12,
+							["school"] = 32,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["uptime"] = 2,
+									["count"] = 2,
 								},
-								["Aandra"] = {
+								["Anub'ar Champion"] = {
+									["uptime"] = 10,
+									["count"] = 3,
+								},
+								["Anub'ar Crypt Fiend"] = {
 									["uptime"] = 9,
-									["count"] = 1,
+									["count"] = 3,
 								},
-								["Jhosah"] = {
-									["uptime"] = 15,
-									["count"] = 1,
+								["Anub'ar Necromancer"] = {
+									["uptime"] = 12,
+									["count"] = 3,
 								},
 							},
-							["uptime"] = 14,
+							["count"] = 11,
 						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[59891] = {
+						[50449] = {
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 4,
-							["uptime"] = 16,
+							["school"] = 1,
+							["refresh"] = 21,
+							["uptime"] = 129,
 						},
-						[24907] = {
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 95,
+						},
+						[72412] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 26,
+							["school"] = 1,
+							["uptime"] = 10,
 						},
-						[48942] = {
+						[50421] = {
+							["type"] = "BUFF",
+							["count"] = 16,
+							["school"] = 1,
+							["refresh"] = 21,
+							["uptime"] = 75,
+						},
+						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48066] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
+							["uptime"] = 138,
 						},
 					},
 					["absorbspells"] = {
-						[48066] = {
-							["min"] = 23,
-							["casts"] = 6,
-							["count"] = 41,
-							["amount"] = 20443,
-							["max"] = 1397,
-							["targets"] = {
-								["Supdawgx"] = 3711,
-								["Scrakekf"] = 2089,
-								["Rimgar"] = 10251,
-								["Aandra"] = 1830,
-								["Jhosah"] = 2562,
-							},
-							["school"] = 2,
-						},
-						[47753] = {
-							["min"] = 1,
-							["casts"] = 4,
-							["count"] = 5,
-							["amount"] = 3446,
-							["school"] = 2,
-							["targets"] = {
-								["Aandra"] = 553,
-								["Rimgar"] = 553,
-								["Jhosah"] = 2340,
-							},
-							["max"] = 1787,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 21.57999999999999,
-					["totaldamagetaken"] = 2383,
-					["overheal"] = 13301,
-					["absorb"] = 23889,
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000AD81EB",
-					["spec"] = 256,
-					["healspells"] = {
-						[33110] = {
-							["overheal"] = 5959,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 5959,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["critical"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["count"] = 1,
-						},
-						[56160] = {
-							["overheal"] = 7342,
-							["criticalamount"] = 658,
-							["max"] = 658,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Scrakekf"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Rimgar"] = {
-									["overheal"] = 1188,
-									["amount"] = 658,
-								},
-								["Aandra"] = {
-									["overheal"] = 1846,
-									["amount"] = 0,
-								},
-								["Jhosah"] = {
-									["overheal"] = 1846,
-									["amount"] = 0,
-								},
-							},
-							["min"] = 658,
-							["criticalmax"] = 658,
-							["critical"] = 3,
-							["amount"] = 658,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["count"] = 5,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shadow Bolt Volley"] = {
-							["id"] = 59748,
-							["total"] = 2383,
+						[49497] = {
+							["min"] = 261,
 							["count"] = 6,
-							["ABSORB"] = 4,
-							["school"] = 32,
-							["sources"] = {
-								["Void Sentry"] = {
-									["amount"] = 0,
-									["total"] = 2383,
-								},
-							},
-							["MISS"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ragespells"] = {
-						[63653] = 8,
-					},
-					["name"] = "Aandra",
-					["mana"] = 1035,
-					["manaspells"] = {
-						[67666] = 500,
-						[47755] = 535,
-					},
-					["rage"] = 8,
-					["heal"] = 658,
-				}, -- [3]
-				{
-					["last"] = 12816.83,
-					["flag"] = 1298,
-					["mana"] = 3372,
-					["auras"] = {
-						[48066] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48518] = {
+							["amount"] = 2026,
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[53201] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
 							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
+								["Banze"] = 2026,
 							},
-							["uptime"] = 15,
-						},
-						[67684] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[67360] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 21,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 5,
-							["uptime"] = 18,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 16,
-							["school"] = 64,
-							["refresh"] = 6,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["refresh"] = 6,
-									["count"] = 1,
-									["uptime"] = 16,
-								},
-							},
-							["count"] = 1,
-						},
-						[48468] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["uptime"] = 20,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 20,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
+							["max"] = 368,
 						},
 					},
-					["totaldamage"] = 111818,
-					["time"] = 20.06,
-					["totaldamagetaken"] = 2089,
-					["damage"] = 111818,
+					["role"] = "TANK",
+					["time"] = 130.9,
+					["totaldamagetaken"] = 226688,
+					["overheal"] = 9286,
+					["damage"] = 442868,
 					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 976,
-							["id"] = 48468,
+						["Melee"] = {
+							["glance"] = 19399,
+							["hitmin"] = 2025,
+							["criticalmin"] = 4194,
 							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 10498,
+								["Anub'ar Crusher"] = {
+									["overkill"] = 3974,
+									["amount"] = 62242,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 12247,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 1691,
+									["amount"] = 8565,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 2597,
 								},
 							},
-							["count"] = 9,
+							["glancing"] = 9,
+							["amount"] = 85651,
+							["glancemin"] = 1773,
+							["criticalamount"] = 36484,
+							["id"] = 6603,
+							["glancemax"] = 2516,
+							["overkill"] = 5665,
+							["criticalmax"] = 5068,
+							["critical"] = 8,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 2597,
+							["count"] = 30,
+							["hitamount"] = 29768,
+						},
+						["Death and Decay"] = {
+							["criticalmin"] = 876,
+							["hitmin"] = 438,
+							["criticalamount"] = 16741,
+							["id"] = 52212,
+							["criticalmax"] = 1151,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 8569,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 28618,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 18480,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 11691,
+								},
+							},
+							["critical"] = 16,
+							["hitmax"] = 576,
 							["casts"] = 2,
-							["hitmax"] = 1424,
-							["hit"] = 9,
-							["school"] = 8,
-							["resisted"] = 610,
-							["amount"] = 10498,
-							["hitamount"] = 10498,
+							["count"] = 109,
+							["hit"] = 93,
+							["school"] = 32,
+							["resisted"] = 2098,
+							["amount"] = 67358,
+							["hitamount"] = 50617,
 						},
-						["Wrath"] = {
-							["criticalamount"] = 13815,
-							["hitmin"] = 3211,
-							["criticalmin"] = 5931,
-							["id"] = 48461,
-							["criticalmax"] = 7884,
+						["Icy Touch"] = {
+							["hitmax"] = 1863,
+							["hitmin"] = 1041,
+							["criticalamount"] = 5680,
+							["id"] = 49909,
+							["criticalmin"] = 2583,
 							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 17026,
+								["Anub'ar Crusher"] = {
+									["amount"] = 16915,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 5398,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 4571,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 1496,
 								},
 							},
+							["criticalmax"] = 3097,
 							["critical"] = 2,
-							["amount"] = 17026,
-							["casts"] = 3,
-							["hitmax"] = 3211,
-							["hit"] = 1,
-							["school"] = 8,
-							["resisted"] = 802,
-							["count"] = 3,
-							["hitamount"] = 3211,
+							["casts"] = 18,
+							["count"] = 17,
+							["hit"] = 15,
+							["school"] = 16,
+							["resisted"] = 260,
+							["amount"] = 28380,
+							["hitamount"] = 22700,
 						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 670,
-							["criticalamount"] = 2880,
-							["id"] = 48463,
-							["criticalmin"] = 1364,
+						["Rune Strike"] = {
+							["criticalmax"] = 9710,
+							["hitmin"] = 3676,
+							["criticalamount"] = 27442,
+							["id"] = 56815,
+							["criticalmin"] = 8690,
 							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 4991,
+								["Animated Bones"] = {
+									["amount"] = 5790,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 3676,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 2624,
+									["amount"] = 14470,
+								},
+								["Anub'ar Crusher"] = {
+									["amount"] = 52709,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 4656,
 								},
 							},
-							["amount"] = 4991,
-							["count"] = 5,
-							["criticalmax"] = 1516,
-							["hitmax"] = 758,
-							["hit"] = 3,
-							["school"] = 64,
-							["resisted"] = 226,
-							["critical"] = 2,
-							["hitamount"] = 2111,
-						},
-						["Starfall"] = {
-							["criticalamount"] = 13660,
-							["hitmin"] = 582,
-							["criticalmin"] = 1164,
-							["id"] = 53195,
-							["amount"] = 34322,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 34322,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 20,
-							["criticalmax"] = 4373,
-							["critical"] = 6,
-							["hit"] = 14,
-							["school"] = 64,
-							["resisted"] = 2427,
-							["hitmax"] = 2266,
-							["hitamount"] = 20662,
-						},
-						["Moonfire"] = {
-							["criticalamount"] = 1929,
-							["id"] = 48463,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 1929,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1929,
-							["school"] = 64,
-							["resisted"] = 214,
-							["criticalmax"] = 1929,
-							["criticalmin"] = 1929,
-						},
-						["Starfire"] = {
-							["count"] = 4,
-							["hitmin"] = 5592,
-							["criticalamount"] = 37460,
-							["id"] = 48465,
-							["criticalmax"] = 13742,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 43052,
-								},
-							},
+							["overkill"] = 2624,
 							["critical"] = 3,
-							["amount"] = 43052,
-							["casts"] = 4,
-							["hitmax"] = 5592,
+							["casts"] = 15,
+							["count"] = 15,
+							["hit"] = 12,
+							["school"] = 1,
+							["hitmax"] = 5790,
+							["amount"] = 81301,
+							["hitamount"] = 53859,
+						},
+						["Blood Boil"] = {
+							["criticalmax"] = 2751,
+							["hitmax"] = 1355,
+							["hitmin"] = 628,
+							["criticalamount"] = 15348,
+							["id"] = 49941,
+							["criticalmin"] = 1356,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 25174,
+								},
+								["Animated Bones"] = {
+									["amount"] = 3216,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 16636,
+								},
+								["Anub'ar Champion"] = {
+									["overkill"] = 699,
+									["amount"] = 8327,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 13097,
+								},
+							},
+							["overkill"] = 699,
+							["critical"] = 8,
+							["casts"] = 9,
+							["count"] = 66,
+							["hit"] = 58,
+							["school"] = 32,
+							["resisted"] = 1405,
+							["amount"] = 66450,
+							["hitamount"] = 51102,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 2180,
+							["id"] = 49924,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 2180,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 64,
-							["resisted"] = 5600,
-							["criticalmin"] = 11296,
-							["hitamount"] = 5592,
+							["school"] = 1,
+							["hitmax"] = 2180,
+							["amount"] = 2180,
+							["hitamount"] = 2180,
 						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000ABE036",
-					["spec"] = 102,
-					["damagetakenspells"] = {
-						["Shadow Bolt Volley"] = {
-							["id"] = 59748,
-							["total"] = 2089,
-							["count"] = 6,
-							["ABSORB"] = 4,
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 554,
+							["id"] = 55078,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 13462,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 3430,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 3294,
+								},
+							},
+							["hitmax"] = 686,
+							["count"] = 31,
+							["hit"] = 31,
 							["school"] = 32,
-							["sources"] = {
-								["Void Sentry"] = {
-									["amount"] = 0,
-									["total"] = 2089,
-								},
-							},
-							["MISS"] = 2,
-							["amount"] = 0,
+							["resisted"] = 136,
+							["amount"] = 20186,
+							["hitamount"] = 20186,
 						},
-					},
-					["name"] = "Scrakekf",
-					["role"] = "DAMAGER",
-					["manaspells"] = {
-						[53506] = 3372,
-					},
-					["class"] = "DRUID",
-				}, -- [4]
-				{
-					["last"] = 12817.63,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[48066] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 13,
-						},
-						[12292] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 24,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[1719] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[60305] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 9,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 9,
+						["Blood Strike"] = {
+							["hitmin"] = 1140,
+							["criticalamount"] = 2402,
+							["id"] = 49930,
+							["criticalmin"] = 2402,
 							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["refresh"] = 9,
-									["count"] = 1,
-									["uptime"] = 21,
+								["Anub'ar Crusher"] = {
+									["amount"] = 9990,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 1161,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 1377,
 								},
 							},
-							["uptime"] = 21,
-						},
-						[18499] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[61619] = {
+							["criticalmax"] = 2402,
+							["critical"] = 1,
+							["casts"] = 9,
+							["count"] = 9,
+							["hit"] = 8,
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
+							["hitmax"] = 1377,
+							["amount"] = 12528,
+							["hitamount"] = 10126,
 						},
-					},
-					["totaldamage"] = 64091,
-					["time"] = 20.85,
-					["totaldamagetaken"] = 3711,
-					["damage"] = 64091,
-					["rage"] = 45,
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 2651,
-							["count"] = 11,
-							["amount"] = 0,
-							["school"] = 1,
+						["Death Coil"] = {
+							["hitmin"] = 1726,
+							["criticalamount"] = 7057,
+							["id"] = 47632,
+							["hitmax"] = 1727,
 							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 2651,
-									["amount"] = 0,
+								["Anub'ar Crusher"] = {
+									["amount"] = 5330,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 3453,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 1727,
 								},
 							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Shadow Bolt Volley"] = {
-							["total"] = 3711,
-							["count"] = 5,
-							["amount"] = 0,
-							["school"] = 32,
-							["id"] = 59748,
-							["ABSORB"] = 5,
-							["sources"] = {
-								["Void Sentry"] = {
-									["amount"] = 0,
-									["total"] = 3711,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[29131] = 10,
-						[2687] = 20,
-						[58362] = 10,
-						[12964] = 5,
-					},
-					["name"] = "Supdawgx",
-					["role"] = "DAMAGER",
-					["heal"] = 0,
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["criticalamount"] = 19148,
-							["id"] = 23881,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 19148,
-								},
-							},
-							["casts"] = 4,
-							["critical"] = 4,
-							["amount"] = 19148,
-							["school"] = 1,
 							["count"] = 4,
-							["criticalmax"] = 4787,
-							["criticalmin"] = 4787,
+							["hit"] = 2,
+							["casts"] = 4,
+							["critical"] = 2,
+							["amount"] = 10510,
+							["school"] = 32,
+							["criticalmin"] = 3453,
+							["criticalmax"] = 3604,
+							["hitamount"] = 3453,
 						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 144,
-							["id"] = 12721,
+						["Plague Strike"] = {
+							["hitmin"] = 1188,
+							["criticalamount"] = 2422,
+							["id"] = 49921,
+							["criticalmin"] = 2422,
 							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 7878,
+								["Anub'ar Crusher"] = {
+									["amount"] = 6075,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1346,
+								},
+							},
+							["criticalmax"] = 2422,
+							["critical"] = 1,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 1346,
+							["amount"] = 7421,
+							["hitamount"] = 4999,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 463,
+							["id"] = 55095,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 22011,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 6424,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 6758,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 2716,
+								},
+							},
+							["hitmax"] = 718,
+							["count"] = 61,
+							["hit"] = 61,
+							["school"] = 16,
+							["resisted"] = 865,
+							["amount"] = 37909,
+							["hitamount"] = 37909,
+						},
+						["Thorns"] = {
+							["hitmin"] = 181,
+							["id"] = 53307,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 8328,
+								},
+								["Animated Bones"] = {
+									["amount"] = 362,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 5433,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 8147,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 724,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 127,
+							["hit"] = 127,
+							["school"] = 8,
+							["hitmax"] = 182,
+							["amount"] = 22994,
+							["hitamount"] = 22994,
+						},
+					},
+					["absorb"] = 2026,
+					["damagetaken"] = 224662,
+					["id"] = "0x0700000000A950A4",
+					["spec"] = 250,
+					["healspells"] = {
+						[45470] = {
+							["overheal"] = 9286,
+							["count"] = 1,
+							["amount"] = 341,
+							["school"] = 1,
+							["max"] = 341,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 9286,
+									["amount"] = 341,
+								},
+							},
+							["min"] = 341,
+						},
+					},
+					["damagetakenspells"] = {
+						["Crushing Webs (DoT)"] = {
+							["hitmin"] = 133,
+							["id"] = 59347,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 6323,
+								},
+							},
+							["count"] = 35,
+							["hit"] = 35,
+							["school"] = 1,
+							["hitmax"] = 212,
+							["amount"] = 6323,
+							["hitamount"] = 6323,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 1153,
+							["id"] = 59343,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 54793,
 								},
 							},
 							["count"] = 16,
 							["hit"] = 16,
 							["school"] = 1,
-							["hitmax"] = 709,
-							["amount"] = 7878,
-							["hitamount"] = 7878,
-						},
-						["Slam"] = {
-							["hitmin"] = 1993,
-							["id"] = 50783,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 1993,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1993,
-							["amount"] = 1993,
-							["hitamount"] = 1993,
-						},
-						["Execute"] = {
-							["criticalamount"] = 5066,
-							["id"] = 20647,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 5066,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5066,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 5066,
-							["criticalmin"] = 5066,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 1136,
-							["criticalamount"] = 10561,
-							["id"] = 1680,
-							["count"] = 4,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 11697,
-								},
-							},
-							["criticalmax"] = 4063,
-							["criticalmin"] = 2448,
-							["casts"] = 2,
-							["hitmax"] = 1136,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 11697,
-							["critical"] = 3,
-							["hitamount"] = 1136,
+							["hitmax"] = 8253,
+							["amount"] = 54793,
+							["hitamount"] = 54793,
 						},
 						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 2196,
-							["hitmin"] = 925,
-							["criticalmin"] = 1862,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 13870,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 13870,
-							["MISS"] = 5,
-							["glancemin"] = 715,
-							["criticalamount"] = 7556,
+							["DODGE"] = 40,
+							["hitmin"] = 71,
 							["id"] = 6603,
-							["glancemax"] = 762,
-							["criticalmax"] = 3234,
-							["critical"] = 3,
-							["hit"] = 3,
+							["amount"] = 105263,
+							["PARRY"] = 36,
+							["sources"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 92822,
+								},
+								["Animated Bones"] = {
+									["amount"] = 286,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 4863,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 6791,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 501,
+								},
+							},
+							["count"] = 226,
+							["hit"] = 127,
 							["school"] = 1,
-							["hitmax"] = 1641,
-							["count"] = 15,
-							["hitamount"] = 4118,
+							["hitmax"] = 2668,
+							["MISS"] = 23,
+							["hitamount"] = 105263,
 						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 4439,
-							["id"] = 47450,
-							["targets"] = {
-								["Zuramat the Obliterator"] = {
-									["amount"] = 4439,
+						["Pummel"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 790,
+							["id"] = 59344,
+							["PARRY"] = 1,
+							["amount"] = 9921,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 9921,
 								},
 							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4439,
+							["count"] = 14,
+							["hit"] = 9,
 							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 4439,
-							["criticalmin"] = 4439,
+							["hitmax"] = 1279,
+							["MISS"] = 2,
+							["hitamount"] = 9921,
 						},
-					},
-					["overheal"] = 2651,
-				}, -- [5]
-			},
-			["totaldamagetaken"] = 24547,
-			["etotaldamagetaken"] = 434689,
-			["damage"] = 434689,
-			["rage"] = 53,
-			["absorb"] = 23889,
-			["damagetaken"] = 658,
-			["gotboss"] = 29314,
-			["starttime"] = 1728655520,
-			["overheal"] = 15952,
-			["name"] = "Zuramat the Obliterator",
-			["overkill"] = 1903,
-			["edamagetaken"] = 434689,
-			["heal"] = 658,
-			["success"] = true,
-			["mobname"] = "Zuramat the Obliterator",
-			["etotaldamage"] = 22100,
-			["edamage"] = 658,
-			["last_action"] = 1728655545,
-			["endtime"] = 1728655546,
-		}, -- [7]
-		{
-			["mana"] = 2730,
-			["enemies"] = {
-				{
-					["flag"] = 2632,
-					["name"] = "Azure Raider",
-					["damagetaken"] = 62637,
-					["id"] = "0xF1300077CC000069",
-					["totaldamagetaken"] = 62637,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[69403] = {
-							["school"] = 2,
+						["Crushing Webs"] = {
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 322,
-								},
-							},
-							["amount"] = 322,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1031,
-								},
-								["Rimgar"] = {
-									["amount"] = 1976,
-								},
-							},
-							["amount"] = 3007,
-						},
-						[12723] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 21362,
-								},
-							},
-							["amount"] = 21362,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1178,
-								},
-								["Supdawgx"] = {
-									["amount"] = 4533,
-									["overkill"] = 480,
-								},
-							},
-							["amount"] = 5711,
-							["overkill"] = 480,
-						},
-						[47520] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 11010,
-								},
-							},
-							["amount"] = 11010,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2310,
-								},
-							},
-							["amount"] = 2310,
-						},
-						[48826] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1622,
-								},
-							},
-							["amount"] = 1622,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 856,
-								},
-							},
-							["amount"] = 856,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1576,
-								},
-							},
-							["amount"] = 1576,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1611,
-								},
-							},
-							["amount"] = 1611,
-						},
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 479,
-								},
-							},
-							["amount"] = 479,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2903,
-								},
-							},
-							["amount"] = 2903,
-						},
-						[53227] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3781,
-								},
-							},
-							["amount"] = 3781,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1542,
-								},
-							},
-							["amount"] = 1542,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2368,
-								},
-							},
-							["amount"] = 2368,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2177,
-								},
-							},
-							["amount"] = 2177,
-						},
-					},
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[60205] = {
-							["school"] = 64,
-							["total"] = 7857,
-							["targets"] = {
-								["Rimgar"] = {
+								["Anub'ar Crypt Fiend"] = {
 									["amount"] = 0,
-									["total"] = 2732,
-								},
-								["Supdawgx"] = {
-									["amount"] = 0,
-									["total"] = 2733,
-								},
-								["Jhosah"] = {
-									["amount"] = 1844,
-									["total"] = 2392,
 								},
 							},
-							["amount"] = 1844,
-						},
-						[60204] = {
-							["school"] = 64,
-							["total"] = 1304,
-							["targets"] = {
-								["Supdawgx"] = {
-									["amount"] = 0,
-									["total"] = 1304,
-								},
-							},
+							["count"] = 5,
 							["amount"] = 0,
-						},
-						[6603] = {
 							["school"] = 1,
-							["total"] = 3278,
-							["targets"] = {
-								["Jhosah"] = {
+							["IMMUNE"] = 5,
+							["id"] = 59347,
+						},
+						["Rend"] = {
+							["DODGE"] = 2,
+							["sources"] = {
+								["Anub'ar Champion"] = {
 									["amount"] = 0,
-									["total"] = 3278,
 								},
 							},
+							["count"] = 6,
 							["amount"] = 0,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["MISS"] = 3,
+							["id"] = 59343,
+						},
+						["Shadow Bolt"] = {
+							["total"] = 23337,
+							["hitmin"] = 320,
+							["id"] = 53333,
+							["amount"] = 21311,
+							["hitmax"] = 919,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["total"] = 23337,
+									["amount"] = 21311,
+								},
+							},
+							["count"] = 34,
+							["hit"] = 32,
+							["school"] = 32,
+							["resisted"] = 4574,
+							["MISS"] = 2,
+							["hitamount"] = 21311,
+						},
+						["Smash"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 991,
+							["id"] = 53318,
+							["PARRY"] = 3,
+							["sources"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 27051,
+								},
+							},
+							["count"] = 17,
+							["hit"] = 12,
+							["school"] = 1,
+							["hitmax"] = 2526,
+							["amount"] = 27051,
+							["hitamount"] = 27051,
 						},
 					},
-					["damagetaken"] = 63504,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1378,
-								},
-							},
-							["amount"] = 1378,
-						},
-						[12723] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 14275,
-								},
-							},
-							["amount"] = 14275,
-						},
-						[53227] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 2520,
-								},
-							},
-							["amount"] = 2520,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 9274,
-								},
-							},
-							["amount"] = 9274,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2310,
-								},
-							},
-							["amount"] = 2310,
-						},
-						[48826] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1556,
-								},
-							},
-							["amount"] = 1556,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 902,
-								},
-							},
-							["amount"] = 902,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 653,
-								},
-							},
-							["amount"] = 653,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1535,
-								},
-								["Rimgar"] = {
-									["amount"] = 4216,
-								},
-							},
-							["amount"] = 5751,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 11103,
-								},
-							},
-							["amount"] = 11103,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4023,
-								},
-							},
-							["amount"] = 4023,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 6123,
-									["overkill"] = 834,
-								},
-							},
-							["amount"] = 6123,
-							["overkill"] = 834,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1542,
-								},
-							},
-							["amount"] = 1542,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1597,
-								},
-							},
-							["amount"] = 1597,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 497,
-								},
-							},
-							["amount"] = 497,
-						},
+					["overkill"] = 8988,
+					["heal"] = 341,
+					["name"] = "Banze",
+					["ccdone"] = 1,
+					["runicspells"] = {
+						[50422] = 310,
+						[45529] = 10,
 					},
-					["totaldamage"] = 12439,
-					["name"] = "Azure Sorceror",
-					["totaldamagetaken"] = 63504,
-					["id"] = "0xF1300077CB00006A",
-					["damage"] = 1844,
+					["runic"] = 320,
+					["totaldamage"] = 442868,
 				}, -- [2]
 				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 1728,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 1728,
-								},
-							},
-							["amount"] = 0,
-						},
+					["runicspells"] = {
+						[48543] = 192,
 					},
-					["damagetaken"] = 63974,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2874,
-								},
-							},
-							["amount"] = 2874,
-						},
-						[12723] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 4216,
-									["overkill"] = 1304,
-								},
-							},
-							["amount"] = 4216,
-							["overkill"] = 1304,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2310,
-								},
-							},
-							["amount"] = 2310,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 11230,
-								},
-							},
-							["amount"] = 11230,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2177,
-								},
-							},
-							["amount"] = 2177,
-						},
-						[47520] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 10538,
-								},
-							},
-							["amount"] = 10538,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 922,
-								},
-							},
-							["amount"] = 922,
-						},
-						[53227] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 2520,
-								},
-							},
-							["amount"] = 2520,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1535,
-								},
-							},
-							["amount"] = 1535,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3265,
-								},
-								["Jhosah"] = {
-									["amount"] = 1084,
-								},
-							},
-							["amount"] = 4349,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 5945,
-								},
-							},
-							["amount"] = 5945,
-						},
-						[48826] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1517,
-								},
-							},
-							["amount"] = 1517,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1603,
-								},
-							},
-							["amount"] = 1603,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 1743,
-								},
-							},
-							["amount"] = 1743,
-						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 757,
-								},
-							},
-							["amount"] = 757,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 347,
-								},
-							},
-							["amount"] = 347,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3475,
-								},
-							},
-							["amount"] = 3475,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3239,
-								},
-							},
-							["amount"] = 3239,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2677,
-								},
-							},
-							["amount"] = 2677,
-						},
-					},
-					["totaldamage"] = 1728,
-					["name"] = "Azure Stalker",
-					["totaldamagetaken"] = 63974,
-					["id"] = "0xF130007DBF00006B",
-					["damage"] = 0,
-				}, -- [3]
-			},
-			["last_time"] = 12765.448,
-			["totaldamage"] = 190115,
-			["time"] = 13,
-			["etotaldamagetaken"] = 190115,
-			["totaldamagetaken"] = 14167,
-			["etotaldamage"] = 14167,
-			["damage"] = 190115,
-			["rage"] = 39,
-			["absorb"] = 12323,
-			["damagetaken"] = 1844,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Azure Stalker"] = 1,
-							},
-						},
-					},
-					["last"] = 12763.997,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
+					["flag"] = 1298,
+					["class"] = "DRUID",
 					["auras"] = {
-						[48066] = {
-							["uptime"] = 13,
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[12328] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[71905] = {
-							["uptime"] = 13,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 5,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 13,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 138,
 						},
 						[47436] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 28,
 						},
-						[7922] = {
-							["type"] = "DEBUFF",
+						[34123] = {
+							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
+							["uptime"] = 55,
+						},
+						[48467] = {
+							["type"] = "DEBUFF",
+							["count"] = 17,
+							["school"] = 8,
 							["targets"] = {
-								["Azure Stalker"] = {
+								["Anub'ar Crusher"] = {
+									["uptime"] = 16,
+									["count"] = 6,
+								},
+								["Anub'ar Necromancer"] = {
+									["uptime"] = 11,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 16,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 67,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 6,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 55,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 6,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 123,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 101,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[71584] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 37,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 123,
+						},
+						[71184] = {
+							["type"] = "BUFF",
+							["uptime"] = 122,
+							["school"] = 8,
+							["refresh"] = 27,
+							["count"] = 3,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+					},
+					["time"] = 126.99,
+					["manaspells"] = {
+						[48542] = 2030,
+						[64372] = 3912,
+					},
+					["totaldamagetaken"] = 29304,
+					["overkill"] = 1277,
+					["damage"] = 67458,
+					["runic"] = 192,
+					["damagespells"] = {
+						["Hurricane"] = {
+							["hitmin"] = 770,
+							["criticalmin"] = 1299,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 46141,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 2887,
+								},
+								["Animated Bones"] = {
+									["overkill"] = 710,
+									["amount"] = 1828,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 567,
+									["amount"] = 16602,
+								},
+							},
+							["amount"] = 67458,
+							["resisted"] = 1344,
+							["MISS"] = 1,
+							["criticalamount"] = 21361,
+							["id"] = 48466,
+							["overkill"] = 1277,
+							["criticalmax"] = 1444,
+							["casts"] = 2,
+							["count"] = 65,
+							["hit"] = 49,
+							["school"] = 8,
+							["hitmax"] = 963,
+							["critical"] = 15,
+							["hitamount"] = 46097,
+						},
+					},
+					["damagetaken"] = 29304,
+					["id"] = "0x07000000006149CA",
+					["spec"] = 105,
+					["healspells"] = {
+						[48503] = {
+							["min"] = 122,
+							["count"] = 9,
+							["amount"] = 11256,
+							["max"] = 3839,
+							["overheal"] = 16683,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 11819,
+									["amount"] = 8021,
+								},
+								["Strichy"] = {
+									["overheal"] = 2349,
+									["amount"] = 274,
+								},
+								["Azgards"] = {
+									["overheal"] = 2515,
+									["amount"] = 2961,
+								},
+							},
+							["school"] = 8,
+						},
+						[53251] = {
+							["overheal"] = 59063,
+							["max"] = 1031,
+							["targets"] = {
+								["Strichy"] = {
+									["overheal"] = 33466,
+									["amount"] = 16933,
+								},
+								["Azgards"] = {
+									["overheal"] = 7263,
+									["amount"] = 1266,
+								},
+								["Banze"] = {
+									["overheal"] = 18334,
+									["amount"] = 40592,
+								},
+							},
+							["min"] = 99,
+							["casts"] = 10,
+							["count"] = 126,
+							["amount"] = 58791,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[48451] = {
+							["overheal"] = 22953,
+							["max"] = 1805,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 22953,
+									["amount"] = 23295,
+								},
+							},
+							["min"] = 50,
+							["casts"] = 8,
+							["count"] = 32,
+							["amount"] = 23295,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[33778] = {
+							["min"] = 2239,
+							["count"] = 3,
+							["amount"] = 4837,
+							["school"] = 8,
+							["overheal"] = 23691,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 23691,
+									["amount"] = 4837,
+								},
+							},
+							["max"] = 2598,
+						},
+						[48441] = {
+							["overheal"] = 32893,
+							["max"] = 2879,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 32893,
+									["amount"] = 50301,
+								},
+							},
+							["min"] = 133,
+							["casts"] = 6,
+							["count"] = 30,
+							["amount"] = 50301,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[48443] = {
+							["overheal"] = 47891,
+							["criticalamount"] = 764,
+							["max"] = 5770,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 47891,
+									["amount"] = 48248,
+								},
+							},
+							["casts"] = 6,
+							["min"] = 145,
+							["criticalmax"] = 764,
+							["critical"] = 2,
+							["amount"] = 48248,
+							["school"] = 8,
+							["criticalmin"] = 0,
+							["ishot"] = true,
+							["count"] = 44,
+						},
+						[50464] = {
+							["overheal"] = 32233,
+							["criticalamount"] = 52013,
+							["max"] = 11497,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 22115,
+									["amount"] = 45444,
+								},
+								["Strichy"] = {
+									["overheal"] = 1930,
+									["amount"] = 5927,
+								},
+								["Azgards"] = {
+									["overheal"] = 8188,
+									["amount"] = 13684,
+								},
+							},
+							["criticalmin"] = 0,
+							["min"] = 325,
+							["casts"] = 11,
+							["count"] = 11,
+							["amount"] = 65055,
+							["school"] = 8,
+							["criticalmax"] = 11497,
+							["critical"] = 8,
+						},
+					},
+					["damagetakenspells"] = {
+						["Crushing Webs (DoT)"] = {
+							["hitmin"] = 270,
+							["id"] = 59347,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 4066,
+								},
+							},
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 1,
+							["hitmax"] = 406,
+							["amount"] = 4066,
+							["hitamount"] = 4066,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 213,
+							["criticalamount"] = 7210,
+							["id"] = 6603,
+							["amount"] = 15222,
+							["criticalmin"] = 428,
+							["criticalmax"] = 5622,
+							["critical"] = 4,
+							["sources"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 5622,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 5433,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 2981,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 1186,
+								},
+							},
+							["count"] = 35,
+							["hit"] = 29,
+							["school"] = 1,
+							["hitmax"] = 390,
+							["MISS"] = 1,
+							["hitamount"] = 8012,
+						},
+						["Pummel"] = {
+							["hitmin"] = 1730,
+							["id"] = 59344,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 1730,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1730,
+							["amount"] = 1730,
+							["hitamount"] = 1730,
+						},
+						["Infected Wound"] = {
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["MISS"] = 1,
+							["id"] = 59348,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 719,
+							["id"] = 53333,
+							["hitmax"] = 987,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 8286,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 32,
+							["resisted"] = 1716,
+							["amount"] = 8286,
+							["hitamount"] = 8286,
+						},
+					},
+					["totaldamage"] = 67458,
+					["heal"] = 261783,
+					["name"] = "Strichy",
+					["mana"] = 5942,
+					["overheal"] = 235407,
+					["last"] = 1388.719,
+					["role"] = "HEALER",
+				}, -- [3]
+				{
+					["last"] = 1388.994,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[48504] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 3,
+						},
+						[45529] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
 									["uptime"] = 1,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 1,
 						},
-						[57522] = {
+						[34123] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 12,
+							["uptime"] = 49,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 10,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 67,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[59052] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["uptime"] = 9,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[53386] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["uptime"] = 31,
+						},
+						[51124] = {
+							["type"] = "BUFF",
+							["uptime"] = 25,
+							["school"] = 1,
+							["refresh"] = 1,
+							["count"] = 4,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 138,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
 						},
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 138,
 						},
-						[47502] = {
-							["type"] = "DEBUFF",
+						[50489] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 32,
+							["uptime"] = 36,
+						},
+						[49796] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["uptime"] = 1,
+						},
+						[60196] = {
+							["type"] = "BUFF",
 							["count"] = 3,
+							["refresh"] = 63,
 							["school"] = 1,
+							["uptime"] = 117,
+						},
+					},
+					["time"] = 91.93000000000002,
+					["totaldamagetaken"] = 21665,
+					["damage"] = 141213,
+					["overheal"] = 320,
+					["runic"] = 10,
+					["damagetaken"] = 21665,
+					["id"] = "0x07000000004E52D5",
+					["spec"] = 251,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 320,
 							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 9,
-									["count"] = 1,
+								["Azgards"] = {
+									["overheal"] = 320,
+									["amount"] = 5135,
 								},
-								["Azure Raider"] = {
-									["uptime"] = 8,
-									["count"] = 1,
+							},
+							["count"] = 92,
+							["amount"] = 5135,
+							["school"] = 1,
+							["max"] = 131,
+							["ishot"] = true,
+							["min"] = 8,
+						},
+					},
+					["overkill"] = 6651,
+					["runicspells"] = {
+						[45529] = 10,
+					},
+					["heal"] = 5135,
+					["name"] = "Azgards",
+					["damagetakenspells"] = {
+						["Crushing Webs (DoT)"] = {
+							["hitmin"] = 264,
+							["id"] = 59347,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 264,
 								},
-								["Azure Stalker"] = {
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 264,
+							["amount"] = 264,
+							["hitamount"] = 264,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 1000,
+							["id"] = 59343,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 10000,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 1000,
+							["amount"] = 10000,
+							["hitamount"] = 10000,
+						},
+						["Pummel"] = {
+							["hitmin"] = 1582,
+							["id"] = 59344,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 1582,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1582,
+							["amount"] = 1582,
+							["hitamount"] = 1582,
+						},
+						["Crushing Webs"] = {
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["MISS"] = 1,
+							["id"] = 59347,
+						},
+						["Melee"] = {
+							["hitmin"] = 162,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["amount"] = 5994,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 3587,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 924,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 1483,
+								},
+							},
+							["count"] = 34,
+							["hit"] = 28,
+							["school"] = 1,
+							["hitmax"] = 254,
+							["MISS"] = 5,
+							["hitamount"] = 5994,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 717,
+							["id"] = 53333,
+							["hitmax"] = 812,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 3825,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["resisted"] = 1213,
+							["amount"] = 3825,
+							["hitamount"] = 3825,
+						},
+					},
+					["damagespells"] = {
+						["Howling Blast"] = {
+							["criticalmin"] = 1627,
+							["criticalmax"] = 2618,
+							["hitmin"] = 824,
+							["criticalamount"] = 64909,
+							["id"] = 49184,
+							["critical"] = 33,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["overkill"] = 1842,
+									["amount"] = 29503,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 18316,
+								},
+								["Spider"] = {
+									["overkill"] = 2042,
+									["amount"] = 2051,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 1725,
+									["amount"] = 18725,
+								},
+							},
+							["overkill"] = 5609,
+							["hitmax"] = 1030,
+							["casts"] = 4,
+							["count"] = 37,
+							["hit"] = 4,
+							["school"] = 16,
+							["resisted"] = 3327,
+							["amount"] = 68595,
+							["hitamount"] = 3686,
+						},
+						["Melee (Risen Ghoul)"] = {
+							["glance"] = 671,
+							["hitmin"] = 146,
+							["criticalmin"] = 390,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 2344,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1680,
+								},
+							},
+							["glancing"] = 4,
+							["amount"] = 4024,
+							["glancemin"] = 161,
+							["criticalamount"] = 390,
+							["id"] = 6603,
+							["glancemax"] = 173,
+							["blocked"] = 40,
+							["criticalmax"] = 390,
+							["hitmax"] = 199,
+							["hit"] = 16,
+							["school"] = 1,
+							["critical"] = 1,
+							["count"] = 21,
+							["hitamount"] = 2963,
+						},
+						["Blood Strike"] = {
+							["DODGE"] = 1,
+							["criticalmin"] = 1531,
+							["hitmin"] = 585,
+							["criticalamount"] = 3265,
+							["id"] = 49930,
+							["criticalmax"] = 1734,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 585,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 3481,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 0,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 2426,
+								},
+							},
+							["critical"] = 2,
+							["PARRY"] = 1,
+							["casts"] = 9,
+							["count"] = 9,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 722,
+							["amount"] = 6492,
+							["hitamount"] = 3227,
+						},
+						["Obliterate"] = {
+							["hitmin"] = 917,
+							["criticalamount"] = 7829,
+							["id"] = 51425,
+							["criticalmin"] = 2251,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 2251,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 3526,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 946,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 5197,
+								},
+							},
+							["criticalmax"] = 2969,
+							["critical"] = 3,
+							["casts"] = 7,
+							["count"] = 7,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 1210,
+							["amount"] = 11920,
+							["hitamount"] = 4091,
+						},
+						["Frost Strike"] = {
+							["criticalmin"] = 2594,
+							["blocked"] = 40,
+							["hitmin"] = 900,
+							["criticalamount"] = 5293,
+							["id"] = 49143,
+							["hitmax"] = 1150,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 2594,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 2799,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 4938,
+								},
+							},
+							["count"] = 7,
+							["hit"] = 5,
+							["casts"] = 8,
+							["critical"] = 2,
+							["amount"] = 10331,
+							["school"] = 16,
+							["resisted"] = 99,
+							["criticalmax"] = 2699,
+							["hitamount"] = 5038,
+						},
+						["Claw (Risen Ghoul)"] = {
+							["criticalmin"] = 534,
+							["hitmin"] = 228,
+							["criticalamount"] = 1136,
+							["id"] = 47468,
+							["criticalmax"] = 602,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 2511,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1366,
+								},
+							},
+							["critical"] = 2,
+							["blocked"] = 80,
+							["casts"] = 1,
+							["count"] = 12,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 301,
+							["amount"] = 3877,
+							["hitamount"] = 2741,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 999,
+							["id"] = 47632,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 2075,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 1076,
+							["amount"] = 2075,
+							["hitamount"] = 2075,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 551,
+							["id"] = 49921,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 551,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 468,
+									["amount"] = 645,
+								},
+							},
+							["overkill"] = 468,
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 645,
+							["amount"] = 1196,
+							["hitamount"] = 1196,
+						},
+						["Death Strike"] = {
+							["hitmin"] = 682,
+							["criticalamount"] = 1398,
+							["id"] = 49924,
+							["criticalmin"] = 1398,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 3528,
+								},
+							},
+							["criticalmax"] = 1398,
+							["critical"] = 1,
+							["casts"] = 8,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 735,
+							["amount"] = 3528,
+							["hitamount"] = 2130,
+						},
+						["Melee"] = {
+							["DODGE"] = 3,
+							["glance"] = 3994,
+							["hitmin"] = 707,
+							["criticalmin"] = 1610,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 1485,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 10181,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 3232,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 574,
+									["amount"] = 14277,
+								},
+							},
+							["glancing"] = 5,
+							["amount"] = 29175,
+							["glancemin"] = 641,
+							["criticalamount"] = 12312,
+							["id"] = 6603,
+							["glancemax"] = 977,
+							["overkill"] = 574,
+							["criticalmax"] = 2054,
+							["critical"] = 7,
+							["hit"] = 16,
+							["school"] = 1,
+							["hitmax"] = 920,
+							["count"] = 31,
+							["hitamount"] = 12869,
+						},
+					},
+					["totaldamage"] = 141213,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["last"] = 1376.304,
+					["flag"] = 1298,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 126,
+						},
+						[75458] = {
+							["type"] = "BUFF",
+							["uptime"] = 33,
+							["school"] = 64,
+							["count"] = 3,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 40,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 67,
+						},
+						[70855] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 10,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[23885] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[18499] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 47,
+						},
+						[55694] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 10,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 138,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["refresh"] = 2,
+							["school"] = 1,
+							["uptime"] = 126,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[14204] = {
+							["type"] = "BUFF",
+							["uptime"] = 38,
+							["school"] = 1,
+							["refresh"] = 4,
+							["count"] = 3,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 18,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 31,
+							["school"] = 1,
+							["refresh"] = 2,
+							["targets"] = {
+								["Hadronox"] = {
 									["uptime"] = 6,
 									["count"] = 1,
 								},
+								["Anub'ar Champion"] = {
+									["uptime"] = 9,
+									["count"] = 6,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["count"] = 6,
+									["refresh"] = 1,
+									["uptime"] = 12,
+								},
+								["Anub'ar Necromancer"] = {
+									["count"] = 6,
+									["refresh"] = 1,
+									["uptime"] = 16,
+								},
 							},
-							["uptime"] = 9,
+							["count"] = 19,
 						},
-						[71541] = {
-							["school"] = 64,
+						[71484] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[29131] = {
+						[12970] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
+							["uptime"] = 81,
+							["school"] = 1,
+							["refresh"] = 5,
 							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Azure Raider"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Azure Stalker"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Azure Raider"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Azure Stalker"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[60503] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
 						},
 					},
-					["totaldamage"] = 103447,
-					["time"] = 11.11,
-					["totaldamagetaken"] = 2732,
-					["damage"] = 103447,
-					["rage"] = 9,
-					["damagetaken"] = 0,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["overkill"] = 1304,
-					["ragespells"] = {
-						[29131] = 9,
+					["time"] = 65.22999999999999,
+					["totaldamagetaken"] = 45153,
+					["damage"] = 348119,
+					["rage"] = 8,
+					["overheal"] = 0,
+					["damagetaken"] = 45153,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["hp"] = 1,
+									["time"] = 1378.655,
+									["source"] = "Hadronox",
+									["amount"] = -840,
+									["school"] = 8,
+									["resisted"] = 210,
+									["spellid"] = 59417,
+									["overkill"] = 840,
+								}, -- [1]
+								{
+									["hp"] = 593,
+									["source"] = "Hadronox",
+									["time"] = 1377.639,
+									["amount"] = -840,
+									["school"] = 8,
+									["resisted"] = 210,
+									["spellid"] = 59417,
+									["overkill"] = 247,
+								}, -- [2]
+								{
+									["hp"] = 1433,
+									["source"] = "Anub'ar Necromancer",
+									["amount"] = -914,
+									["school"] = 32,
+									["resisted"] = 101,
+									["spellid"] = 53333,
+									["time"] = 1376.056,
+								}, -- [3]
+								{
+									["time"] = 1373.091,
+									["amount"] = -203,
+									["school"] = 1,
+									["hp"] = 2550,
+									["spellid"] = 6603,
+									["source"] = "Anub'ar Necromancer",
+								}, -- [4]
+								{
+									["hp"] = 8700,
+									["source"] = "Hadronox",
+									["amount"] = -6150,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["time"] = 1370.025,
+								}, -- [5]
+								{
+									["hp"] = 8700,
+									["source"] = "Anub'ar Necromancer",
+									["amount"] = -978,
+									["school"] = 32,
+									["resisted"] = 108,
+									["spellid"] = 53333,
+									["time"] = 1367.835,
+								}, -- [6]
+								{
+									["time"] = 1365.043,
+									["source"] = "Anub'ar Necromancer",
+									["amount"] = -738,
+									["school"] = 32,
+									["resisted"] = 315,
+									["spellid"] = 53333,
+									["hp"] = 9678,
+								}, -- [7]
+								{
+									["hp"] = 10618,
+									["source"] = "Anub'ar Necromancer",
+									["amount"] = -202,
+									["school"] = 1,
+									["spellid"] = 6603,
+									["time"] = 1362.137,
+								}, -- [8]
+								{
+									["hp"] = 10618,
+									["source"] = "Anub'ar Necromancer",
+									["amount"] = -901,
+									["school"] = 32,
+									["resisted"] = 100,
+									["spellid"] = 53333,
+									["time"] = 1357.171,
+								}, -- [9]
+								{
+									["hp"] = 11516,
+									["source"] = "Anub'ar Necromancer",
+									["amount"] = -823,
+									["school"] = 32,
+									["resisted"] = 205,
+									["spellid"] = 53333,
+									["time"] = 1349.339,
+								}, -- [10]
+								{
+									["hp"] = 11933,
+									["source"] = "Ranoow",
+									["amount"] = 1048,
+									["spellid"] = 55694,
+									["time"] = 1332.365,
+								}, -- [11]
+								{
+									["source"] = "Ranoow",
+									["amount"] = 1048,
+									["hp"] = 10885,
+									["spellid"] = 55694,
+									["time"] = 1331.366,
+								}, -- [12]
+								{
+									["hp"] = 9837,
+									["source"] = "Ranoow",
+									["amount"] = 1048,
+									["spellid"] = 55694,
+									["time"] = 1330.352,
+								}, -- [13]
+								{
+									["hp"] = 8789,
+									["source"] = "Ranoow",
+									["amount"] = 1048,
+									["spellid"] = 55694,
+									["time"] = 1329.34,
+								}, -- [14]
+							},
+							["time"] = 1378.655,
+							["timeod"] = 1728901226,
+							["school"] = 8,
+							["maxhp"] = 33280,
+							["spellid"] = 59417,
+							["source"] = "Hadronox",
+						}, -- [1]
 					},
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["role"] = "DAMAGER",
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["criticalamount"] = 11230,
-							["id"] = 47486,
+					["id"] = "0x0700000000AFB138",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 0,
+							["count"] = 9,
+							["amount"] = 2988,
+							["school"] = 1,
+							["max"] = 332,
 							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 11230,
+								["Ranoow"] = {
+									["overheal"] = 0,
+									["amount"] = 2988,
 								},
 							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 11230,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 11230,
-							["criticalmin"] = 11230,
+							["min"] = 332,
 						},
-						["Thunder Clap"] = {
-							["hitmin"] = 1542,
-							["id"] = 47502,
+						[55694] = {
+							["overheal"] = 0,
 							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 1542,
-								},
-								["Azure Raider"] = {
-									["amount"] = 1542,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 1603,
+								["Ranoow"] = {
+									["overheal"] = 0,
+									["amount"] = 10480,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
+							["count"] = 10,
+							["amount"] = 10480,
 							["school"] = 1,
-							["hitmax"] = 1603,
-							["amount"] = 4687,
-							["hitamount"] = 4687,
+							["max"] = 1048,
+							["ishot"] = true,
+							["min"] = 1048,
+						},
+					},
+					["damagetakenspells"] = {
+						["Crushing Webs (DoT)"] = {
+							["hitmin"] = 264,
+							["id"] = 59347,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 3999,
+								},
+							},
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 1,
+							["hitmax"] = 271,
+							["amount"] = 3999,
+							["hitamount"] = 3999,
 						},
 						["Melee"] = {
-							["glance"] = 3265,
-							["hitmin"] = 4216,
+							["DODGE"] = 6,
+							["criticalmin"] = 434,
+							["hitmin"] = 171,
+							["criticalamount"] = 7020,
 							["id"] = 6603,
-							["glancemax"] = 3265,
-							["glancemin"] = 3265,
-							["glancing"] = 1,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 3265,
+							["criticalmax"] = 6150,
+							["critical"] = 3,
+							["amount"] = 12305,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Hadronox"] = {
+									["amount"] = 6150,
 								},
-								["Azure Sorceror"] = {
-									["amount"] = 4216,
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 2306,
 								},
-							},
-							["hitmax"] = 4216,
-							["amount"] = 7481,
-							["school"] = 1,
-							["hit"] = 1,
-							["count"] = 2,
-							["hitamount"] = 4216,
-						},
-						["Cleave"] = {
-							["criticalamount"] = 21548,
-							["id"] = 47520,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 11010,
+								["Anub'ar Champion"] = {
+									["amount"] = 2709,
 								},
-								["Azure Stalker"] = {
-									["amount"] = 10538,
+								["Anub'ar Necromancer"] = {
+									["amount"] = 1140,
 								},
 							},
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 21548,
+							["count"] = 37,
+							["hit"] = 24,
 							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 11010,
-							["criticalmin"] = 10538,
+							["hitmax"] = 262,
+							["MISS"] = 3,
+							["hitamount"] = 5285,
 						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 444,
-							["id"] = 12721,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 497,
+						["Pummel"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 0,
 								},
-								["Azure Raider"] = {
-									["amount"] = 1976,
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 59344,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 1050,
+							["id"] = 59343,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 17850,
 								},
-								["Azure Stalker"] = {
-									["amount"] = 3475,
+							},
+							["count"] = 12,
+							["hit"] = 12,
+							["school"] = 1,
+							["hitmax"] = 2100,
+							["amount"] = 17850,
+							["hitamount"] = 17850,
+						},
+						["Leech Poison (DoT)"] = {
+							["hitmin"] = 840,
+							["id"] = 59417,
+							["overkill"] = 1087,
+							["hitmax"] = 840,
+							["sources"] = {
+								["Hadronox"] = {
+									["overkill"] = 1087,
+									["amount"] = 1680,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 420,
+							["amount"] = 1680,
+							["hitamount"] = 1680,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 735,
+							["id"] = 53333,
+							["hitmax"] = 978,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 9319,
 								},
 							},
 							["count"] = 11,
 							["hit"] = 11,
-							["school"] = 1,
-							["hitmax"] = 714,
-							["amount"] = 5948,
-							["hitamount"] = 5948,
-						},
-						["Victory Rush"] = {
-							["criticalamount"] = 11103,
-							["id"] = 34428,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 11103,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 11103,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 11103,
-							["criticalmin"] = 11103,
-						},
-						["Sweeping Strikes"] = {
-							["hitmin"] = 3265,
-							["id"] = 12723,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 14275,
-								},
-								["Azure Raider"] = {
-									["amount"] = 21362,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 4216,
-									["overkill"] = 1304,
-								},
-							},
-							["overkill"] = 1304,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 11228,
-							["amount"] = 39853,
-							["hitamount"] = 39853,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1597,
-							["id"] = 47465,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 1597,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1597,
-							["amount"] = 1597,
-							["hitamount"] = 1597,
+							["school"] = 32,
+							["resisted"] = 2071,
+							["amount"] = 9319,
+							["hitamount"] = 9319,
 						},
 					},
-					["damagetakenspells"] = {
-						["Mana Detonation"] = {
-							["total"] = 2732,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 64,
-							["id"] = 60205,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 0,
-									["total"] = 2732,
-								},
-							},
-						},
+					["overkill"] = 23690,
+					["ragespells"] = {
+						[12964] = 8,
 					},
-				}, -- [1]
-				{
-					["last"] = 12763.422,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48111] = {
-							["uptime"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48826] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Azure Raider"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Azure Stalker"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[63529] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Azure Raider"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-								["Azure Stalker"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 10.51,
-					["totaldamagetaken"] = 7398,
-					["damage"] = 45974,
+					["name"] = "Ranoow",
+					["death"] = 1,
+					["heal"] = 13468,
 					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 330,
-							["id"] = 48818,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 2310,
-								},
-								["Azure Raider"] = {
-									["amount"] = 2310,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 2310,
-								},
-							},
-							["count"] = 21,
-							["hit"] = 21,
-							["school"] = 2,
-							["hitmax"] = 330,
-							["amount"] = 6930,
-							["hitamount"] = 6930,
-						},
 						["Melee"] = {
-							["glance"] = 476,
-							["hitmin"] = 498,
-							["criticalmin"] = 1178,
+							["glance"] = 4132,
+							["hitmin"] = 1529,
+							["criticalmin"] = 2770,
 							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 1535,
+								["Hadronox"] = {
+									["amount"] = 6604,
 								},
-								["Azure Raider"] = {
-									["amount"] = 1178,
+								["Anub'ar Champion"] = {
+									["overkill"] = 1634,
+									["amount"] = 7321,
 								},
-								["Azure Stalker"] = {
-									["amount"] = 1084,
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 1040,
+									["amount"] = 17297,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 2867,
+									["amount"] = 13552,
 								},
 							},
-							["glancing"] = 1,
-							["amount"] = 3797,
-							["glancemin"] = 476,
-							["criticalamount"] = 1178,
+							["glancing"] = 3,
+							["amount"] = 44774,
+							["glancemin"] = 1148,
+							["criticalamount"] = 27868,
 							["id"] = 6603,
-							["glancemax"] = 476,
-							["criticalmax"] = 1178,
-							["critical"] = 1,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 561,
-							["count"] = 6,
-							["hitamount"] = 2143,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2177,
-							["criticalamount"] = 9274,
-							["id"] = 53595,
-							["criticalmin"] = 4354,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 9274,
-								},
-								["Azure Raider"] = {
-									["amount"] = 2177,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 2177,
-								},
-							},
-							["amount"] = 13628,
-							["hitmax"] = 2177,
-							["criticalmax"] = 4920,
-							["critical"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["count"] = 4,
-							["casts"] = 2,
-							["hitamount"] = 4354,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 2368,
-							["id"] = 53600,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 2368,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 2677,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 2677,
-							["amount"] = 5045,
-							["hitamount"] = 5045,
-						},
-						["Avenger's Shield"] = {
-							["hitmin"] = 1517,
-							["id"] = 48826,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 1556,
-								},
-								["Azure Raider"] = {
-									["amount"] = 1622,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 1517,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 1622,
-							["amount"] = 4695,
-							["hitamount"] = 4695,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 757,
-							["id"] = 20467,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 757,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 757,
-							["amount"] = 757,
-							["hitamount"] = 757,
-						},
-						["Seal of Command"] = {
-							["hitmin"] = 276,
-							["criticalamount"] = 4384,
-							["id"] = 20424,
-							["criticalmin"] = 570,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 4676,
-								},
-								["Azure Raider"] = {
-									["amount"] = 3225,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 3221,
-								},
-							},
-							["amount"] = 11122,
-							["hitmax"] = 349,
-							["criticalmax"] = 678,
-							["critical"] = 7,
-							["hit"] = 21,
-							["school"] = 2,
-							["count"] = 28,
-							["casts"] = 1,
-							["hitamount"] = 6738,
-						},
-					},
-					["damagetaken"] = 1844,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Mana Detonation"] = {
-							["total"] = 2392,
-							["hitmin"] = 1844,
-							["id"] = 60205,
-							["count"] = 1,
-							["sources"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 1844,
-									["total"] = 2392,
-								},
-							},
-							["hitmax"] = 1844,
-							["hit"] = 1,
-							["school"] = 64,
-							["resisted"] = 598,
-							["amount"] = 1844,
-							["hitamount"] = 1844,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 5006,
-							["id"] = 6603,
-							["sources"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 0,
-									["total"] = 3278,
-								},
-								["Azure Raider"] = {
-									["amount"] = 0,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 0,
-									["total"] = 1728,
-								},
-							},
-							["count"] = 7,
-							["ABSORB"] = 3,
-							["school"] = 1,
-							["amount"] = 0,
-							["MISS"] = 1,
-							["PARRY"] = 2,
-						},
-						["Concussion Blow"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Azure Raider"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 52719,
-						},
-					},
-					["name"] = "Jhosah",
-					["totaldamage"] = 45974,
-					["mana"] = 978,
-					["manaspells"] = {
-						[57319] = 620,
-						[20268] = 174,
-						[31786] = 184,
-					},
-				}, -- [2]
-				{
-					["overheal"] = 6752,
-					["last"] = 12763.797,
-					["role"] = "HEALER",
-					["mana"] = 1190,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 5539,
-							["criticalamount"] = 0,
-							["targets"] = {
-								["Scrakekf"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Rimgar"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Aandra"] = {
-									["overheal"] = 1846,
-									["amount"] = 0,
-								},
-								["Supdawgx"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-							},
-							["criticalmax"] = 0,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 2,
-							["critical"] = 1,
-							["criticalmin"] = 0,
-						},
-						[33110] = {
-							["overheal"] = 1213,
-							["count"] = 1,
-							["amount"] = 1844,
-							["school"] = 2,
-							["min"] = 1844,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 1213,
-									["amount"] = 1844,
-								},
-							},
-							["max"] = 1844,
-						},
-					},
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["targets"] = {
-								["Scrakekf"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-								["Rimgar"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Aandra"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-								["Supdawgx"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[59891] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 4,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 548,
-							["casts"] = 4,
-							["count"] = 7,
-							["amount"] = 12323,
-							["max"] = 2733,
-							["targets"] = {
-								["Rimgar"] = 2732,
-								["Jhosah"] = 5554,
-								["Supdawgx"] = 4037,
-							},
-							["school"] = 2,
-						},
-					},
-					["heal"] = 1844,
-					["time"] = 10.89,
-					["manaspells"] = {
-						[47755] = 535,
-						[63654] = 155,
-						[67666] = 500,
-					},
-					["name"] = "Aandra",
-					["spec"] = 256,
-					["id"] = "0x0700000000AD81EB",
-					["absorb"] = 12323,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1079,
-							["id"] = 48468,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 3239,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 1080,
-							["amount"] = 3239,
-							["hitamount"] = 3239,
-						},
-						["Wrath"] = {
-							["hitmax"] = 3247,
-							["hitmin"] = 2876,
-							["criticalamount"] = 5945,
-							["id"] = 48461,
-							["criticalmax"] = 5945,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 5945,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 6123,
-									["overkill"] = 834,
-								},
-							},
-							["overkill"] = 834,
-							["criticalmin"] = 5945,
-							["casts"] = 4,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 8,
-							["amount"] = 12068,
-							["critical"] = 1,
-							["hitamount"] = 6123,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 671,
-							["id"] = 48463,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 671,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 671,
-							["amount"] = 671,
-							["hitamount"] = 671,
-						},
-						["Moonfire"] = {
-							["hitmin"] = 1072,
-							["id"] = 48463,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 1072,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 1072,
-							["amount"] = 1072,
-							["hitamount"] = 1072,
-						},
-						["Typhoon"] = {
-							["hitmin"] = 2520,
-							["criticalamount"] = 3781,
-							["id"] = 53227,
-							["criticalmin"] = 3781,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 2520,
-								},
-								["Azure Raider"] = {
-									["amount"] = 3781,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 2520,
-								},
-							},
-							["amount"] = 8821,
-							["hitmax"] = 2520,
-							["criticalmax"] = 3781,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 8,
-							["count"] = 3,
-							["casts"] = 1,
-							["hitamount"] = 5040,
-						},
-					},
-					["last"] = 12764.086,
-					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["manaspells"] = {
-						[53506] = 562,
-					},
-					["auras"] = {
-						[48066] = {
-							["uptime"] = 13,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[53227] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Azure Raider"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Azure Stalker"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[67360] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[16886] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 5,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 64,
-							["refresh"] = 1,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-								["Azure Sorceror"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48468] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["mana"] = 562,
-					["totaldamage"] = 25871,
-					["time"] = 11.17,
-					["name"] = "Scrakekf",
-					["overkill"] = 834,
-					["spec"] = 102,
-					["id"] = "0x0700000000ABE036",
-					["damage"] = 25871,
-				}, -- [4]
-				{
-					["last"] = 12762.639,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[48066] = {
-							["uptime"] = 13,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[20253] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Raider"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Azure Raider"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[12970] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[61619] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 14823,
-					["time"] = 9.34,
-					["totaldamagetaken"] = 4037,
-					["damage"] = 14823,
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1611,
-							["id"] = 23881,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 1611,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1611,
-							["amount"] = 1611,
-							["hitamount"] = 1611,
-						},
-						["Melee"] = {
-							["hitmin"] = 720,
-							["criticalamount"] = 1416,
-							["id"] = 6603,
-							["criticalmin"] = 1416,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 4533,
-									["overkill"] = 480,
-								},
-							},
-							["overkill"] = 480,
-							["amount"] = 4533,
-							["criticalmax"] = 1416,
-							["critical"] = 1,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1265,
-							["count"] = 4,
-							["hitamount"] = 3117,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 856,
-							["id"] = 1680,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 2280,
-								},
-								["Azure Raider"] = {
-									["amount"] = 2432,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 2457,
-								},
-							},
+							["glancemax"] = 1687,
+							["overkill"] = 5541,
+							["criticalmax"] = 5969,
+							["critical"] = 6,
 							["hit"] = 6,
-							["casts"] = 1,
-							["count"] = 6,
-							["blocked"] = 40,
 							["school"] = 1,
-							["amount"] = 7169,
-							["hitmax"] = 1576,
-							["hitamount"] = 7169,
+							["count"] = 15,
+							["hitmax"] = 3178,
+							["hitamount"] = 12774,
+						},
+						["Bloodthirst"] = {
+							["PARRY"] = 1,
+							["hitmin"] = 3053,
+							["criticalamount"] = 10119,
+							["id"] = 23881,
+							["criticalmin"] = 10119,
+							["targets"] = {
+								["Hadronox"] = {
+									["amount"] = 3053,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 10119,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 0,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 8426,
+								},
+							},
+							["criticalmax"] = 10119,
+							["critical"] = 1,
+							["casts"] = 5,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 4638,
+							["amount"] = 21598,
+							["hitamount"] = 11479,
 						},
 						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 187,
+							["hitmin"] = 131,
 							["id"] = 12721,
 							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 1031,
+								["Hadronox"] = {
+									["amount"] = 1392,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 2815,
+								},
+								["Anub'ar Champion"] = {
+									["overkill"] = 29,
+									["amount"] = 4605,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 2731,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 5,
+							["overkill"] = 29,
+							["count"] = 54,
+							["hit"] = 54,
 							["school"] = 1,
-							["hitmax"] = 235,
-							["amount"] = 1031,
-							["hitamount"] = 1031,
+							["hitmax"] = 475,
+							["amount"] = 11543,
+							["hitamount"] = 11543,
+						},
+						["Cleave"] = {
+							["count"] = 17,
+							["hitmin"] = 2987,
+							["criticalamount"] = 62744,
+							["id"] = 47520,
+							["hitmax"] = 3580,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 1216,
+									["amount"] = 29235,
+								},
+								["Anub'ar Champion"] = {
+									["overkill"] = 520,
+									["amount"] = 36489,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 9863,
+									["amount"] = 26434,
+								},
+							},
+							["overkill"] = 11599,
+							["hit"] = 9,
+							["casts"] = 6,
+							["critical"] = 8,
+							["amount"] = 92158,
+							["school"] = 1,
+							["criticalmin"] = 6835,
+							["criticalmax"] = 9442,
+							["hitamount"] = 29414,
+						},
+						["Slam"] = {
+							["hitmin"] = 2920,
+							["id"] = 50783,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 2655,
+									["amount"] = 5960,
+								},
+							},
+							["overkill"] = 2655,
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 3040,
+							["amount"] = 5960,
+							["hitamount"] = 5960,
+						},
+						["Whirlwind"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1693,
+							["criticalmin"] = 4177,
+							["targets"] = {
+								["Hadronox"] = {
+									["amount"] = 9214,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 627,
+									["amount"] = 45130,
+								},
+								["Anub'ar Champion"] = {
+									["overkill"] = 3239,
+									["amount"] = 47529,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 69584,
+								},
+							},
+							["amount"] = 171457,
+							["criticalamount"] = 113215,
+							["id"] = 1680,
+							["blocked"] = 40,
+							["PARRY"] = 1,
+							["overkill"] = 3866,
+							["criticalmax"] = 9619,
+							["casts"] = 7,
+							["hitmax"] = 3511,
+							["hit"] = 22,
+							["school"] = 1,
+							["critical"] = 18,
+							["count"] = 42,
+							["hitamount"] = 58242,
+						},
+						["Intimidating Shout"] = {
+							["casts"] = 1,
+							["count"] = 6,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 6,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 0,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 5246,
 						},
 						["Intercept"] = {
-							["criticalamount"] = 479,
+							["hitmin"] = 629,
 							["id"] = 20253,
 							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 479,
+								["Hadronox"] = {
+									["amount"] = 629,
 								},
 							},
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 479,
+							["count"] = 1,
+							["hit"] = 1,
 							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 479,
-							["criticalmin"] = 479,
+							["hitmax"] = 629,
+							["amount"] = 629,
+							["hitamount"] = 629,
 						},
 					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 482,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 482,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Arcane Stream (DoT)"] = {
-							["total"] = 1304,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 64,
-							["id"] = 60204,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 0,
-									["total"] = 1304,
-								},
-							},
-						},
-						["Mana Detonation"] = {
-							["total"] = 2733,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 64,
-							["id"] = 60205,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 0,
-									["total"] = 2733,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[29131] = 9,
-						[2687] = 20,
-						[12964] = 1,
-					},
-					["name"] = "Supdawgx",
+					["totaldamage"] = 348119,
 					["role"] = "DAMAGER",
-					["rage"] = 30,
-					["heal"] = 0,
-					["overkill"] = 480,
-					["overheal"] = 482,
 				}, -- [5]
 			},
-			["starttime"] = 1728655476,
-			["mobname"] = "Azure Raider",
-			["overheal"] = 7234,
-			["overkill"] = 2618,
-			["edamagetaken"] = 190115,
-			["heal"] = 1844,
-			["name"] = "Azure Raider (2)",
-			["ccdone"] = 1,
-			["type"] = "party",
-			["edamage"] = 1844,
-			["last_action"] = 1728655488,
-			["endtime"] = 1728655489,
-		}, -- [8]
+			["edamage"] = 380963,
+			["last_action"] = 1728901237,
+			["endtime"] = 1728901238,
+		}, -- [1]
 		{
-			["mana"] = 6518,
+			["damage"] = 127334,
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[61594] = {
-							["school"] = 16,
+						[6603] = {
+							["school"] = 1,
 							["targets"] = {
-								["Scrakekf"] = {
-									["amount"] = 4128,
+								["Rimgar"] = {
+									["amount"] = 393,
+								},
+								["Ranoow"] = {
+									["amount"] = 477,
+								},
+								["Azgards"] = {
+									["amount"] = 683,
+								},
+							},
+							["amount"] = 1553,
+						},
+						[59347] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ranoow"] = {
+									["amount"] = 1572,
 								},
 								["Rimgar"] = {
-									["amount"] = 4171,
-								},
-								["Supdawgx"] = {
-									["amount"] = 4250,
+									["amount"] = 500,
 								},
 							},
-							["amount"] = 12549,
-						},
-						[61593] = {
-							["school"] = 64,
-							["total"] = 2016,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 2233,
-									["total"] = 3428,
-								},
-							},
-							["amount"] = 2233,
-						},
-						[58534] = {
-							["school"] = 16,
-							["total"] = 912,
-							["targets"] = {
-								["Scrakekf"] = {
-									["amount"] = 0,
-									["total"] = 912,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 2072,
 						},
 					},
-					["damagetaken"] = 160029,
-					["id"] = "0xF1300077E7000067",
+					["damagetaken"] = 41059,
+					["id"] = "0xF13000718700012C",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[47450] = {
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 7890,
+								},
+							},
+							["amount"] = 7890,
+						},
+						[47502] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 10964,
+									["amount"] = 5974,
 								},
 							},
-							["amount"] = 10964,
+							["amount"] = 5974,
 						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 3110,
-								},
-							},
-							["amount"] = 3110,
-						},
-						[23881] = {
+						[44949] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 5075,
+								["Ranoow"] = {
+									["amount"] = 2247,
 								},
 							},
-							["amount"] = 5075,
+							["amount"] = 2247,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 902,
+								},
+								["Rimgar"] = {
+									["overkill"] = 8198,
+									["amount"] = 16579,
+								},
+							},
+							["overkill"] = 8198,
+							["amount"] = 17481,
 						},
 						[47486] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 23546,
+									["amount"] = 5527,
 								},
 							},
-							["amount"] = 23546,
+							["amount"] = 5527,
 						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2460,
-								},
-							},
-							["amount"] = 2460,
-						},
-						[44949] = {
+						[12721] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 877,
+								["Ranoow"] = {
+									["amount"] = 762,
 								},
-							},
-							["amount"] = 877,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2132,
-								},
-							},
-							["amount"] = 2132,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 13883,
-								},
-								["Supdawgx"] = {
-									["amount"] = 1951,
+									["amount"] = 1178,
 								},
 							},
-							["amount"] = 15834,
+							["amount"] = 1940,
 						},
-						[1680] = {
+					},
+					["totaldamage"] = 3625,
+					["name"] = "Anub'ar Crypt Fiend",
+					["totaldamagetaken"] = 41059,
+					["flag"] = 2632,
+					["damage"] = 3625,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
 							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1373,
+							["targets"] = {
+								["Azgards"] = {
+									["amount"] = 367,
 								},
-							},
-							["amount"] = 1373,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 5368,
+									["amount"] = 531,
 								},
 							},
-							["amount"] = 5368,
+							["amount"] = 898,
 						},
-						[50783] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1493,
-								},
-							},
-							["amount"] = 1493,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 5701,
-								},
-							},
-							["amount"] = 5701,
-						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1603,
-								},
-							},
-							["amount"] = 1603,
-						},
-						[71904] = {
+						[53333] = {
 							["school"] = 32,
-							["sources"] = {
+							["targets"] = {
+								["Azgards"] = {
+									["amount"] = 1601,
+								},
 								["Rimgar"] = {
-									["amount"] = 2384,
+									["amount"] = 3304,
 								},
 							},
-							["amount"] = 2384,
+							["amount"] = 4905,
 						},
-						[7384] = {
+					},
+					["damagetaken"] = 67716,
+					["id"] = "0xF13000718800012E",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[47486] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 11175,
+									["overkill"] = 15439,
+									["amount"] = 16413,
 								},
 							},
-							["amount"] = 11175,
+							["overkill"] = 15439,
+							["amount"] = 16413,
 						},
-						[48463] = {
-							["school"] = 64,
+						[47502] = {
+							["school"] = 1,
 							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 4382,
+								["Rimgar"] = {
+									["amount"] = 10458,
 								},
 							},
-							["amount"] = 4382,
+							["amount"] = 10458,
 						},
-						[48805] = {
-							["school"] = 2,
+						[49184] = {
+							["school"] = 16,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2260,
+								["Azgards"] = {
+									["amount"] = 6281,
 								},
 							},
-							["amount"] = 2260,
+							["amount"] = 6281,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 23923,
+								},
+							},
+							["amount"] = 23923,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 15036,
-								},
-								["Jhosah"] = {
-									["amount"] = 5665,
-								},
-								["Supdawgx"] = {
-									["amount"] = 7777,
-									["overkill"] = 373,
+									["amount"] = 4839,
 								},
 							},
-							["amount"] = 28478,
-							["overkill"] = 373,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 322,
-								},
-							},
-							["amount"] = 322,
+							["amount"] = 4839,
 						},
 						[12721] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 7604,
-								},
-								["Supdawgx"] = {
-									["amount"] = 1655,
+									["amount"] = 5802,
 								},
 							},
-							["amount"] = 9259,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2622,
-								},
-							},
-							["amount"] = 2622,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 19611,
-								},
-							},
-							["amount"] = 19611,
+							["amount"] = 5802,
 						},
 					},
-					["totaldamage"] = 16889,
-					["name"] = "Portal Keeper",
-					["totaldamagetaken"] = 160029,
+					["totaldamage"] = 5803,
+					["name"] = "Anub'ar Necromancer",
+					["totaldamagetaken"] = 67716,
 					["flag"] = 68168,
-					["damage"] = 14782,
-				}, -- [1]
-			},
-			["totaldamage"] = 160029,
-			["time"] = 19,
-			["overheal"] = 13694,
-			["totaldamagetaken"] = 16889,
-			["etotaldamage"] = 16889,
-			["damage"] = 160029,
-			["starttime"] = 1728655444,
-			["type"] = "party",
-			["damagetaken"] = 14782,
-			["last_time"] = 12739.505,
-			["players"] = {
+					["damage"] = 5803,
+				}, -- [2]
 				{
 					["damagespells"] = {
-						["Mortal Strike"] = {
-							["criticalamount"] = 23546,
-							["id"] = 47486,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 23546,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 23546,
+						[6603] = {
 							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 12258,
-							["criticalmin"] = 11288,
-						},
-						["Melee"] = {
-							["glance"] = 3723,
-							["hitmin"] = 4052,
-							["criticalmin"] = 7261,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 15036,
+								["Azgards"] = {
+									["amount"] = 247,
+								},
+								["Rimgar"] = {
+									["amount"] = 1674,
 								},
 							},
-							["glancing"] = 1,
-							["amount"] = 15036,
-							["glancemin"] = 3723,
-							["criticalamount"] = 7261,
-							["id"] = 6603,
-							["glancemax"] = 3723,
-							["hit"] = 1,
-							["criticalmax"] = 7261,
-							["critical"] = 1,
-							["blocked"] = 40,
+							["amount"] = 1921,
+						},
+						[59343] = {
 							["school"] = 1,
-							["count"] = 3,
-							["hitmax"] = 4052,
-							["hitamount"] = 4052,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 366,
-							["id"] = 12721,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 7604,
+								["Rimgar"] = {
+									["amount"] = 3000,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 2037,
-							["amount"] = 7604,
-							["hitamount"] = 7604,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 2384,
-							["id"] = 71904,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2384,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2384,
-							["amount"] = 2384,
-							["hitamount"] = 2384,
-						},
-						["Execute"] = {
-							["hitmin"] = 3777,
-							["criticalamount"] = 10106,
-							["id"] = 20647,
-							["count"] = 2,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 13883,
-								},
-							},
-							["criticalmax"] = 10106,
-							["criticalmin"] = 10106,
-							["casts"] = 1,
-							["hitmax"] = 3777,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 13883,
-							["critical"] = 1,
-							["hitamount"] = 3777,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 11175,
-							["id"] = 7384,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 11175,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 11175,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 11175,
-							["criticalmin"] = 11175,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1789,
-							["id"] = 47465,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5368,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1790,
-							["amount"] = 5368,
-							["hitamount"] = 5368,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 10964,
-							["id"] = 47450,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 10964,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 10964,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 10964,
-							["criticalmin"] = 10964,
+							["amount"] = 3000,
 						},
 					},
-					["last"] = 12731.539,
-					["damagetaken"] = 4171,
+					["damagetaken"] = 18559,
+					["id"] = "0xF13000718600012F",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 9886,
+								},
+							},
+							["amount"] = 9886,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1913,
+								},
+							},
+							["amount"] = 1913,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1078,
+								},
+							},
+							["amount"] = 1078,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 3654,
+								},
+							},
+							["amount"] = 3654,
+						},
+						[51425] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1116,
+								},
+							},
+							["amount"] = 1116,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 912,
+								},
+							},
+							["amount"] = 912,
+						},
+					},
+					["totaldamage"] = 4921,
+					["name"] = "Anub'ar Champion",
+					["totaldamagetaken"] = 18559,
+					["flag"] = 2632,
+					["damage"] = 4921,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[59419] = {
+							["school"] = 8,
+							["targets"] = {
+								["Ranoow"] = {
+									["amount"] = 1315,
+								},
+							},
+							["amount"] = 1315,
+						},
+					},
+					["name"] = "Hadronox",
+					["totaldamage"] = 1315,
+					["flag"] = 2632,
+					["class"] = "BOSS",
+					["id"] = "0xF1300070F9000029",
+					["damage"] = 1315,
+				}, -- [4]
+			},
+			["ccdone"] = 1,
+			["totaldamage"] = 127334,
+			["time"] = 19,
+			["overheal"] = 322,
+			["totaldamagetaken"] = 15664,
+			["etotaldamage"] = 15664,
+			["last_time"] = 1247.039,
+			["players"] = {
+				{
+					["last"] = 1245.812,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
-					["role"] = "DAMAGER",
 					["auras"] = {
 						[46857] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 3,
 							["school"] = 1,
-							["refresh"] = 5,
+							["refresh"] = 2,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 5,
+								["Anub'ar Necromancer"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 8,
+								},
+								["Anub'ar Crypt Fiend"] = {
 									["count"] = 1,
-									["uptime"] = 10,
+									["refresh"] = 1,
+									["uptime"] = 3,
 								},
 							},
-							["uptime"] = 10,
+							["uptime"] = 11,
 						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
 						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 2,
+							["refresh"] = 4,
 							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 18,
+							["uptime"] = 16,
 						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 19,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 18,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 11,
-						},
-						[72221] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
 						},
 						[70855] = {
-							["school"] = 8,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["school"] = 8,
+							["uptime"] = 7,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[71541] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 12,
+						},
+						[16491] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[47465] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Anub'ar Necromancer"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+						[29842] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[47502] = {
+							["type"] = "DEBUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 9,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+								["Anub'ar Necromancer"] = {
+									["uptime"] = 7,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[57522] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 3,
+							["uptime"] = 14,
 						},
 						[12721] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 7,
 							["school"] = 1,
-							["refresh"] = 5,
+							["refresh"] = 1,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 5,
-									["count"] = 1,
-									["uptime"] = 10,
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+								["Anub'ar Champion"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+								["Anub'ar Necromancer"] = {
+									["count"] = 3,
+									["refresh"] = 1,
+									["uptime"] = 9,
 								},
 							},
-							["uptime"] = 10,
+							["uptime"] = 12,
 						},
-						[60503] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 11,
-						},
-						[48066] = {
-							["school"] = 2,
+						[75456] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 64,
 							["uptime"] = 13,
 						},
-					},
-					["name"] = "Rimgar",
-					["totaldamage"] = 89960,
-					["time"] = 10.51,
-					["damagetakenspells"] = {
-						["Frostbolt Volley"] = {
-							["hitmin"] = 4171,
-							["id"] = 61594,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4171,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 4171,
-							["amount"] = 4171,
-							["hitamount"] = 4171,
-						},
-					},
-					["spec"] = 71,
-					["totaldamagetaken"] = 4171,
-					["id"] = "0x070000000040A064",
-					["damage"] = 89960,
-				}, -- [1]
-				{
-					["last"] = 12731.722,
-					["flag"] = 1298,
-					["mana"] = 4142,
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[15359] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
+						[47486] = {
+							["type"] = "DEBUFF",
 							["count"] = 2,
-							["uptime"] = 5,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
+							["school"] = 1,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 3,
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 1,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 3,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[48951] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 7,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 7,
-						},
-						[54428] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 9,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
+							["uptime"] = 1,
 						},
 					},
-					["totaldamage"] = 20174,
-					["time"] = 10.68,
-					["totaldamagetaken"] = 3428,
-					["damage"] = 20174,
+					["time"] = 16.39,
+					["totaldamagetaken"] = 9402,
+					["damage"] = 101491,
 					["damagespells"] = {
-						["Hand of Reckoning"] = {
-							["hitmin"] = 2622,
-							["id"] = 67485,
+						["Mortal Strike"] = {
+							["criticalmin"] = 16413,
+							["hitmin"] = 5527,
+							["criticalamount"] = 16413,
+							["id"] = 47486,
+							["criticalmax"] = 16413,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2622,
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 15439,
+									["amount"] = 16413,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 5527,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 1,
+							["overkill"] = 15439,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
 							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2622,
-							["amount"] = 2622,
-							["hitamount"] = 2622,
+							["school"] = 1,
+							["hitmax"] = 5527,
+							["amount"] = 21940,
+							["hitamount"] = 5527,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 1590,
+							["criticalamount"] = 20847,
+							["id"] = 47502,
+							["hitmax"] = 2055,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 9886,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 5974,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 10458,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 3,
+							["casts"] = 2,
+							["critical"] = 5,
+							["amount"] = 26318,
+							["school"] = 1,
+							["criticalmin"] = 3912,
+							["criticalmax"] = 4491,
+							["hitamount"] = 5471,
 						},
 						["Melee"] = {
-							["hitmin"] = 543,
-							["criticalamount"] = 3386,
+							["glance"] = 4839,
+							["criticalamount"] = 16579,
 							["id"] = 6603,
-							["criticalmin"] = 1038,
+							["count"] = 3,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5665,
+								["Anub'ar Necromancer"] = {
+									["amount"] = 4839,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 8198,
+									["amount"] = 16579,
 								},
 							},
-							["amount"] = 5665,
-							["hitmax"] = 589,
-							["criticalmax"] = 1214,
-							["critical"] = 3,
-							["blocked"] = 40,
-							["school"] = 1,
-							["hit"] = 4,
-							["count"] = 7,
-							["hitamount"] = 2279,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 2132,
-							["id"] = 53600,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2132,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 1,
-							["hitmax"] = 2132,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 236,
-							["amount"] = 2132,
-							["hitamount"] = 2132,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 755,
-							["id"] = 20467,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1603,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 848,
-							["amount"] = 1603,
-							["hitamount"] = 1603,
-						},
-						["Seal of Command"] = {
-							["criticalamount"] = 1159,
-							["amount"] = 3432,
-							["hitmin"] = 261,
-							["criticalmin"] = 515,
-							["id"] = 20424,
-							["casts"] = 1,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 3432,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 7,
-							["criticalmax"] = 644,
+							["overkill"] = 8198,
+							["glancing"] = 1,
+							["criticalmax"] = 9463,
 							["critical"] = 2,
-							["blocked"] = 40,
-							["school"] = 2,
-							["resisted"] = 154,
-							["hitmax"] = 373,
-							["hitamount"] = 2273,
+							["amount"] = 21418,
+							["school"] = 1,
+							["glancemax"] = 4839,
+							["criticalmin"] = 7116,
+							["glancemin"] = 4839,
 						},
-						["Hammer of Wrath"] = {
-							["hitmin"] = 2260,
-							["id"] = 48805,
+						["Cleave"] = {
+							["criticalamount"] = 23923,
+							["id"] = 47520,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2260,
+								["Anub'ar Necromancer"] = {
+									["amount"] = 23923,
 								},
 							},
 							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2260,
-							["amount"] = 2260,
-							["hitamount"] = 2260,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2460,
-							["id"] = 53595,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2460,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2460,
-							["amount"] = 2460,
-							["hitamount"] = 2460,
-						},
-					},
-					["damagetaken"] = 2233,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Arcane Missiles"] = {
-							["total"] = 3428,
-							["hitmin"] = 821,
-							["id"] = 61593,
+							["critical"] = 2,
+							["amount"] = 23923,
+							["school"] = 1,
+							["criticalmin"] = 11883,
+							["criticalmax"] = 12040,
 							["count"] = 2,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2233,
-									["total"] = 3428,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 369,
+							["id"] = 12721,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1178,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 912,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 5802,
 								},
 							},
-							["hitmax"] = 1412,
-							["hit"] = 2,
-							["school"] = 64,
-							["resisted"] = 605,
-							["amount"] = 2233,
-							["hitamount"] = 2233,
+							["count"] = 15,
+							["hit"] = 15,
+							["school"] = 1,
+							["hitmax"] = 936,
+							["amount"] = 7892,
+							["hitamount"] = 7892,
 						},
 					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["manaspells"] = {
-						[31786] = 219,
-						[20268] = 1200,
-						[54428] = 2723,
-					},
-					["class"] = "PALADIN",
-				}, -- [2]
-				{
-					["overheal"] = 13694,
-					["last"] = 12733.482,
-					["role"] = "HEALER",
-					["mana"] = 690,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
+					["damagetaken"] = 9402,
+					["id"] = "0x070000000040A064",
+					["spec"] = 71,
 					["healspells"] = {
-						[56160] = {
-							["overheal"] = 1846,
-							["criticalamount"] = 0,
-							["max"] = 1231,
+						[16491] = {
+							["overheal"] = 0,
 							["targets"] = {
-								["Scrakekf"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
 								["Rimgar"] = {
 									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Supdawgx"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Jhosah"] = {
-									["overheal"] = 1846,
-									["amount"] = 0,
+									["amount"] = 2232,
 								},
 							},
-							["min"] = 1231,
-							["criticalmax"] = 0,
-							["count"] = 4,
-							["amount"] = 3693,
-							["school"] = 2,
+							["count"] = 6,
+							["amount"] = 2232,
+							["school"] = 1,
+							["max"] = 372,
+							["ishot"] = true,
+							["min"] = 372,
+						},
+					},
+					["damagetakenspells"] = {
+						["Crushing Webs (DoT)"] = {
+							["hitmin"] = 500,
+							["id"] = 59347,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 500,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 500,
+							["amount"] = 500,
+							["hitamount"] = 500,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 1000,
+							["id"] = 59343,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 3000,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1000,
+							["amount"] = 3000,
+							["hitamount"] = 3000,
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 172,
+							["criticalamount"] = 380,
+							["id"] = 6603,
+							["criticalmin"] = 380,
+							["criticalmax"] = 380,
 							["critical"] = 1,
-							["criticalmin"] = 0,
-						},
-						[33110] = {
-							["overheal"] = 2235,
-							["count"] = 1,
-							["amount"] = 821,
-							["school"] = 2,
-							["min"] = 821,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 2235,
-									["amount"] = 821,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 393,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 1674,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 531,
 								},
 							},
-							["max"] = 821,
-						},
-						[48072] = {
-							["overheal"] = 9613,
-							["criticalamount"] = 2810,
-							["max"] = 2940,
-							["targets"] = {
-								["Scrakekf"] = {
-									["overheal"] = 756,
-									["amount"] = 2831,
-								},
-								["Rimgar"] = {
-									["overheal"] = 716,
-									["amount"] = 2940,
-								},
-								["Supdawgx"] = {
-									["overheal"] = 4057,
-									["amount"] = 1436,
-								},
-								["Jhosah"] = {
-									["overheal"] = 4084,
-									["amount"] = 1374,
-								},
-							},
-							["min"] = 1374,
-							["criticalmax"] = 1436,
-							["critical"] = 2,
-							["amount"] = 8581,
-							["school"] = 2,
-							["count"] = 4,
-							["criticalmin"] = 1374,
-						},
-					},
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 4,
-							["school"] = 2,
-							["targets"] = {
-								["Scrakekf"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Rimgar"] = {
-									["uptime"] = 13,
-									["count"] = 1,
-								},
-								["Supdawgx"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-								["Jhosah"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 13,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[60062] = {
+							["count"] = 15,
+							["hit"] = 11,
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["hitmax"] = 234,
+							["amount"] = 2598,
+							["hitamount"] = 2218,
 						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[14751] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["refresh"] = 2,
-							["uptime"] = 9,
-						},
-						[48942] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 16,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 912,
-							["casts"] = 5,
-							["count"] = 2,
-							["amount"] = 2107,
-							["max"] = 1195,
-							["targets"] = {
-								["Scrakekf"] = 912,
-								["Jhosah"] = 1195,
+						["Shadow Bolt"] = {
+							["hitmin"] = 722,
+							["id"] = 53333,
+							["hitmax"] = 917,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 3304,
+								},
 							},
-							["school"] = 2,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["resisted"] = 825,
+							["amount"] = 3304,
+							["hitamount"] = 3304,
 						},
 					},
-					["heal"] = 13095,
-					["time"] = 11.59,
-					["manaspells"] = {
-						[47755] = 535,
-						[63654] = 155,
-					},
-					["name"] = "Aandra",
-					["spec"] = 256,
-					["id"] = "0x0700000000AD81EB",
-					["absorb"] = 2107,
-				}, -- [3]
+					["heal"] = 2232,
+					["name"] = "Rimgar",
+					["overheal"] = 0,
+					["overkill"] = 23637,
+					["totaldamage"] = 101491,
+					["role"] = "DAMAGER",
+				}, -- [1]
 				{
-					["last"] = 12731.165,
-					["flag"] = 1298,
-					["class"] = "DRUID",
+					["last"] = 1228.314,
+					["id"] = "0x0700000000A950A4",
+					["spec"] = 250,
 					["auras"] = {
-						[48066] = {
-							["school"] = 2,
+						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 19,
 						},
 						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
@@ -15874,232 +5454,311 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[48162] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
+						[47440] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[48942] = {
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48518] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 7,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 3,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
 						},
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[67360] = {
-							["school"] = 8,
+					},
+					["role"] = "TANK",
+					["name"] = "Banze",
+					["time"] = 0,
+					["class"] = "DEATHKNIGHT",
+				}, -- [2]
+				{
+					["last"] = 1228.314,
+					["id"] = "0x07000000006149CA",
+					["spec"] = 105,
+					["auras"] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 12,
+							["uptime"] = 19,
 						},
-					},
-					["totaldamage"] = 29694,
-					["time"] = 10.14,
-					["totaldamagetaken"] = 5040,
-					["damage"] = 29694,
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1080,
-							["id"] = 48468,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5701,
-								},
-							},
-							["count"] = 5,
-							["hitmax"] = 1221,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 122,
-							["amount"] = 5701,
-							["hitamount"] = 5701,
-						},
-						["Moonfire"] = {
-							["criticalamount"] = 1723,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1723,
-								},
-							},
+						[47436] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1723,
-							["school"] = 64,
-							["resisted"] = 430,
-							["criticalmax"] = 1723,
-							["criticalmin"] = 1723,
+							["uptime"] = 19,
 						},
-						["Wrath"] = {
-							["criticalamount"] = 13512,
-							["hitmin"] = 2675,
-							["criticalmin"] = 6681,
-							["id"] = 48461,
-							["amount"] = 19611,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 19611,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 4,
-							["criticalmax"] = 6831,
-							["critical"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["resisted"] = 297,
-							["hitmax"] = 3424,
-							["hitamount"] = 6099,
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
 						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 537,
-							["criticalamount"] = 1365,
-							["id"] = 48463,
-							["criticalmin"] = 1365,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2659,
-								},
-							},
-							["amount"] = 2659,
-							["count"] = 3,
-							["criticalmax"] = 1365,
-							["hitmax"] = 757,
-							["hit"] = 2,
-							["school"] = 64,
-							["resisted"] = 285,
-							["critical"] = 1,
-							["hitamount"] = 1294,
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
 						},
 					},
-					["damagetaken"] = 4128,
-					["id"] = "0x0700000000ABE036",
-					["spec"] = 102,
-					["damagetakenspells"] = {
-						["Frostbolt Volley"] = {
-							["hitmin"] = 4128,
-							["id"] = 61594,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4128,
+					["role"] = "HEALER",
+					["name"] = "Strichy",
+					["time"] = 0,
+					["class"] = "DRUID",
+				}, -- [3]
+				{
+					["last"] = 1243.188,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[60196] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 10,
+							["uptime"] = 13,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[51124] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 2,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+					},
+					["time"] = 12.41,
+					["totaldamagetaken"] = 2898,
+					["damage"] = 14944,
+					["overheal"] = 322,
+					["damagetaken"] = 2898,
+					["id"] = "0x07000000004E52D5",
+					["spec"] = 251,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 322,
+							["max"] = 87,
+							["count"] = 10,
+							["amount"] = 340,
+							["school"] = 1,
+							["min"] = 36,
+							["ishot"] = true,
+							["targets"] = {
+								["Azgards"] = {
+									["overheal"] = 322,
+									["amount"] = 340,
 								},
 							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 169,
+							["id"] = 6603,
+							["amount"] = 1297,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 683,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 247,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 367,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 247,
+							["MISS"] = 2,
+							["hitamount"] = 1297,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 770,
+							["id"] = 53333,
+							["hitmax"] = 831,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 1601,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 399,
+							["amount"] = 1601,
+							["hitamount"] = 1601,
+						},
+					},
+					["heal"] = 340,
+					["name"] = "Azgards",
+					["damagespells"] = {
+						["Death Coil"] = {
+							["hitmin"] = 1078,
+							["id"] = 47632,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 1078,
+								},
+							},
+							["hitmax"] = 1078,
+							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 4128,
-							["amount"] = 4128,
-							["hitamount"] = 4128,
+							["school"] = 32,
+							["resisted"] = 119,
+							["amount"] = 1078,
+							["hitamount"] = 1078,
 						},
-						["Deep Freeze"] = {
-							["total"] = 912,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 16,
-							["id"] = 58534,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 0,
-									["total"] = 912,
+						["Howling Blast"] = {
+							["criticalamount"] = 8194,
+							["id"] = 49184,
+							["targets"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 6281,
 								},
+								["Anub'ar Champion"] = {
+									["amount"] = 1913,
+								},
+							},
+							["criticalmin"] = 1913,
+							["casts"] = 1,
+							["critical"] = 4,
+							["amount"] = 8194,
+							["school"] = 16,
+							["resisted"] = 1446,
+							["criticalmax"] = 2403,
+							["count"] = 4,
+						},
+						["Obliterate"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1116,
+							["id"] = 51425,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 1116,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 0,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1116,
+							["amount"] = 1116,
+							["hitamount"] = 1116,
+						},
+						["Melee"] = {
+							["glance"] = 1710,
+							["hitmin"] = 886,
+							["criticalmin"] = 1960,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 3654,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 902,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 4556,
+							["glancemin"] = 808,
+							["criticalamount"] = 1960,
+							["id"] = 6603,
+							["glancemax"] = 902,
+							["criticalmax"] = 1960,
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 886,
+							["critical"] = 1,
+							["hitamount"] = 886,
+						},
+					},
+					["totaldamage"] = 14944,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["ccdonespells"] = {
+						[12323] = {
+							["count"] = 1,
+							["targets"] = {
+								["Roach"] = 1,
 							},
 						},
 					},
-					["name"] = "Scrakekf",
-					["role"] = "DAMAGER",
-					["mana"] = 1686,
-					["manaspells"] = {
-						[53506] = 1686,
-					},
-				}, -- [4]
-				{
-					["last"] = 12731.906,
+					["last"] = 1235.905,
 					["flag"] = 1298,
 					["class"] = "WARRIOR",
 					["auras"] = {
@@ -16109,29 +5768,6 @@ SkadaStorageDB = {
 							["uptime"] = 19,
 						},
 						[47436] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 19,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[25898] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
@@ -16140,4654 +5776,5014 @@ SkadaStorageDB = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 2,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["refresh"] = 2,
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 2,
 									["count"] = 1,
-									["uptime"] = 9,
 								},
 							},
-							["uptime"] = 9,
+							["uptime"] = 2,
 						},
-						[48942] = {
+						[75458] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 12,
+						},
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 19,
 						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 5,
-						},
-						[46916] = {
-							["school"] = 1,
+						[18499] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[12970] = {
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 15,
+							["uptime"] = 10,
 						},
-						[48066] = {
-							["school"] = 2,
+						[71484] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["school"] = 1,
+							["uptime"] = 13,
 						},
-						[15359] = {
-							["school"] = 2,
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[29131] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
+						[14204] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[12323] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Roach"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 19,
+						},
 					},
-					["totaldamage"] = 20201,
-					["time"] = 10.86,
-					["totaldamagetaken"] = 4250,
-					["damage"] = 20201,
+					["time"] = 5.66,
+					["totaldamagetaken"] = 3364,
+					["damage"] = 10899,
 					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1586,
-							["criticalamount"] = 3489,
-							["id"] = 23881,
-							["criticalmin"] = 3489,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 5075,
-								},
-							},
-							["amount"] = 5075,
-							["hitmax"] = 1586,
-							["criticalmax"] = 3489,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["count"] = 2,
-							["casts"] = 2,
-							["hitamount"] = 1586,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 187,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1655,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 360,
-							["amount"] = 1655,
-							["hitamount"] = 1655,
-						},
-						["Slam"] = {
-							["hitmin"] = 1493,
-							["id"] = 50783,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1493,
-								},
-							},
+						["Piercing Howl"] = {
 							["casts"] = 1,
 							["count"] = 1,
-							["hit"] = 1,
+							["amount"] = 0,
 							["school"] = 1,
-							["hitmax"] = 1493,
-							["amount"] = 1493,
-							["hitamount"] = 1493,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 877,
-							["id"] = 1680,
+							["IMMUNE"] = 1,
 							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 2250,
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 0,
 								},
 							},
+							["id"] = 12323,
+						},
+						["Whirlwind"] = {
+							["blocked"] = 40,
+							["hitmin"] = 2247,
+							["criticalamount"] = 7890,
+							["id"] = 1680,
+							["hitmax"] = 2247,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 10137,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
 							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 10137,
+							["school"] = 1,
+							["criticalmin"] = 7890,
+							["criticalmax"] = 7890,
+							["hitamount"] = 2247,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 381,
+							["id"] = 12721,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 762,
+								},
+							},
 							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 1373,
-							["amount"] = 2250,
-							["hitamount"] = 2250,
+							["hitmax"] = 381,
+							["amount"] = 762,
+							["hitamount"] = 762,
+						},
+					},
+					["damagetaken"] = 3364,
+					["id"] = "0x0700000000AFB138",
+					["spec"] = 72,
+					["damagetakenspells"] = {
+						["Crushing Webs (DoT)"] = {
+							["hitmin"] = 262,
+							["id"] = 59347,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1572,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 262,
+							["amount"] = 1572,
+							["hitamount"] = 1572,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
-							["glance"] = 1069,
-							["hitmin"] = 690,
-							["criticalmin"] = 1506,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 7777,
-									["overkill"] = 373,
+							["hitmin"] = 229,
+							["id"] = 6603,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 0,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 477,
 								},
 							},
-							["glancing"] = 1,
-							["amount"] = 7777,
-							["glancemin"] = 1069,
-							["criticalamount"] = 5326,
-							["id"] = 6603,
-							["glancemax"] = 1069,
-							["overkill"] = 373,
-							["criticalmax"] = 2306,
-							["critical"] = 3,
+							["count"] = 3,
 							["hit"] = 2,
 							["school"] = 1,
-							["count"] = 7,
-							["hitmax"] = 692,
-							["hitamount"] = 1382,
+							["hitmax"] = 248,
+							["amount"] = 477,
+							["hitamount"] = 477,
 						},
-						["Execute"] = {
-							["hitmin"] = 1951,
-							["id"] = 20647,
-							["targets"] = {
-								["Portal Keeper"] = {
-									["amount"] = 1951,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1951,
-							["amount"] = 1951,
-							["hitamount"] = 1951,
-						},
-					},
-					["damagetaken"] = 4250,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 0,
-							["count"] = 6,
-							["amount"] = 1446,
-							["school"] = 1,
-							["min"] = 241,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 0,
-									["amount"] = 1446,
-								},
-							},
-							["max"] = 241,
-						},
-					},
-					["damagetakenspells"] = {
-						["Frostbolt Volley"] = {
-							["hitmin"] = 4250,
-							["id"] = 61594,
+						["Acid Cloud (DoT)"] = {
+							["hitmin"] = 1315,
+							["id"] = 59419,
+							["hitmax"] = 1315,
 							["sources"] = {
-								["Portal Keeper"] = {
-									["amount"] = 4250,
+								["Hadronox"] = {
+									["amount"] = 1315,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 4250,
-							["amount"] = 4250,
-							["hitamount"] = 4250,
+							["school"] = 8,
+							["resisted"] = 328,
+							["amount"] = 1315,
+							["hitamount"] = 1315,
 						},
 					},
 					["ragespells"] = {
-						[12964] = 3,
+						[29131] = 8,
 					},
-					["name"] = "Supdawgx",
+					["name"] = "Ranoow",
+					["ccdone"] = 1,
+					["rage"] = 8,
+					["totaldamage"] = 10899,
 					["role"] = "DAMAGER",
-					["rage"] = 3,
-					["heal"] = 1446,
-					["overkill"] = 373,
-					["overheal"] = 0,
 				}, -- [5]
 			},
-			["absorb"] = 2107,
-			["rage"] = 3,
-			["overkill"] = 373,
-			["edamagetaken"] = 160029,
-			["heal"] = 14541,
-			["name"] = "Portal Keeper",
-			["mobname"] = "Portal Keeper",
-			["etotaldamagetaken"] = 160029,
-			["edamage"] = 14782,
-			["last_action"] = 1728655462,
-			["endtime"] = 1728655463,
-		}, -- [9]
+			["type"] = "party",
+			["damagetaken"] = 15664,
+			["starttime"] = 1728901076,
+			["etotaldamagetaken"] = 127334,
+			["rage"] = 8,
+			["overkill"] = 23637,
+			["edamagetaken"] = 127334,
+			["heal"] = 2572,
+			["name"] = "Anub'ar Crypt Fiend",
+			["mobname"] = "Anub'ar Crypt Fiend",
+			["edamage"] = 15664,
+			["last_action"] = 1728901095,
+			["endtime"] = 1728901095,
+		}, -- [2]
 		{
-			["mana"] = 1730,
+			["damage"] = 557046,
+			["runic"] = 62,
 			["enemies"] = {
 				{
 					["damagespells"] = {
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 457,
+								["Banze"] = {
+									["amount"] = 5266,
+								},
+								["Ranoow"] = {
+									["amount"] = 2627,
+								},
+								["Rimgar"] = {
+									["amount"] = 2622,
 								},
 							},
-							["amount"] = 457,
+							["amount"] = 10515,
+						},
+						[53318] = {
+							["school"] = 1,
+							["targets"] = {
+								["Banze"] = {
+									["amount"] = 1442,
+								},
+							},
+							["amount"] = 1442,
 						},
 					},
-					["damagetaken"] = 188531,
+					["damagetaken"] = 384892,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[48463] = {
-							["school"] = 64,
+						[47632] = {
+							["school"] = 32,
 							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 2703,
+								["Azgards"] = {
+									["amount"] = 2394,
+								},
+								["Banze"] = {
+									["amount"] = 2074,
 								},
 							},
-							["amount"] = 2703,
+							["amount"] = 4468,
 						},
-						[26654] = {
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 724,
+								},
+							},
+							["amount"] = 724,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1639,
+								},
+							},
+							["amount"] = 1639,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 13461,
+								},
+							},
+							["amount"] = 13461,
+						},
+						[47486] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 15838,
+									["overkill"] = 4154,
+									["amount"] = 21343,
 								},
 							},
-							["amount"] = 15838,
+							["overkill"] = 4154,
+							["amount"] = 21343,
 						},
-						[69403] = {
-							["school"] = 2,
+						[51425] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1145,
+								["Azgards"] = {
+									["amount"] = 2614,
 								},
 							},
-							["amount"] = 1145,
+							["amount"] = 2614,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 48942,
+								},
+								["Rimgar"] = {
+									["amount"] = 19727,
+								},
+							},
+							["amount"] = 68669,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4519,
+								},
+							},
+							["amount"] = 4519,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 26352,
+								},
+							},
+							["amount"] = 26352,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2980,
+								},
 								["Rimgar"] = {
-									["amount"] = 16914,
+									["amount"] = 38022,
 								},
-								["Jhosah"] = {
-									["amount"] = 1532,
+								["Ranoow"] = {
+									["amount"] = 11924,
 								},
-								["Supdawgx"] = {
-									["amount"] = 1238,
-								},
-							},
-							["amount"] = 19684,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 10885,
+								["Banze"] = {
+									["amount"] = 17035,
 								},
 							},
-							["amount"] = 10885,
-						},
-						[48951] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2532,
-								},
-							},
-							["amount"] = 2532,
-						},
-						[48826] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4626,
-								},
-							},
-							["amount"] = 4626,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 3713,
-									["overkill"] = 94,
-								},
-							},
-							["amount"] = 3713,
-							["overkill"] = 94,
+							["amount"] = 69961,
 						},
 						[50622] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 109682,
-									["overkill"] = 5040,
+									["amount"] = 95484,
 								},
 							},
-							["amount"] = 109682,
-							["overkill"] = 5040,
+							["amount"] = 95484,
 						},
-						[53307] = {
-							["school"] = 8,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 542,
+								["Banze"] = {
+									["amount"] = 11193,
 								},
 							},
-							["amount"] = 542,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 1080,
-								},
-							},
-							["amount"] = 1080,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 3556,
-								},
-							},
-							["amount"] = 3556,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1501,
-								},
-							},
-							["amount"] = 1501,
+							["amount"] = 11193,
 						},
 						[71904] = {
 							["school"] = 32,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 4216,
+									["amount"] = 2854,
 								},
 							},
-							["amount"] = 4216,
+							["amount"] = 2854,
 						},
-						[20467] = {
-							["school"] = 2,
+						[47502] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 752,
+								["Rimgar"] = {
+									["amount"] = 3378,
 								},
 							},
-							["amount"] = 752,
+							["amount"] = 3378,
 						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 3903,
+								},
+							},
+							["amount"] = 3903,
+						},
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 6688,
+								},
+								["Rimgar"] = {
+									["overkill"] = 3194,
+									["amount"] = 11611,
+								},
+							},
+							["overkill"] = 3194,
+							["amount"] = 18299,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["overkill"] = 722,
+									["amount"] = 19030,
+								},
+							},
+							["overkill"] = 722,
+							["amount"] = 19030,
+						},
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 3487,
+								},
+							},
+							["amount"] = 3487,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 9367,
+								},
+							},
+							["amount"] = 9367,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4147,
+								},
+							},
+							["amount"] = 4147,
+						},
+					},
+					["name"] = "Anub'ar Crusher",
+					["totaldamage"] = 11957,
+					["totaldamagetaken"] = 384892,
+					["id"] = "0xF1300070FA00002A",
+					["damage"] = 11957,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Rimgar"] = {
+									["amount"] = 415,
+								},
+								["Banze"] = {
+									["amount"] = 238,
+								},
+							},
+							["amount"] = 653,
+						},
+					},
+					["damagetaken"] = 66493,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 527,
+								},
+							},
+							["amount"] = 527,
+						},
+						[12723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 19220,
+								},
+							},
+							["amount"] = 19220,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1020,
+								},
+							},
+							["amount"] = 1020,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["overkill"] = 4849,
+									["amount"] = 15641,
+								},
+							},
+							["overkill"] = 4849,
+							["amount"] = 15641,
+						},
+						[49921] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 645,
+								},
+							},
+							["amount"] = 645,
+						},
+						[50622] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 9512,
+									["amount"] = 24408,
+								},
+							},
+							["overkill"] = 9512,
+							["amount"] = 24408,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 1462,
+								},
+							},
+							["amount"] = 1462,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 320,
+								},
+							},
+							["amount"] = 320,
+						},
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 363,
+								},
+							},
+							["amount"] = 363,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 2887,
+								},
+							},
+							["amount"] = 2887,
+						},
+					},
+					["name"] = "Anub'ar Champion",
+					["totaldamage"] = 653,
+					["totaldamagetaken"] = 66493,
+					["id"] = "0xF1300071BD000074",
+					["damage"] = 653,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Strichy"] = {
+									["amount"] = 437,
+								},
+								["Banze"] = {
+									["amount"] = 103,
+								},
+							},
+							["amount"] = 540,
+						},
+						[59347] = {
+							["school"] = 1,
+							["targets"] = {
+								["Strichy"] = {
+									["amount"] = 1350,
+								},
+							},
+							["amount"] = 1350,
+						},
+					},
+					["damagetaken"] = 54863,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
 						[1680] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 6076,
-									["overkill"] = 1366,
+								["Ranoow"] = {
+									["overkill"] = 1325,
+									["amount"] = 8351,
 								},
 							},
-							["amount"] = 6076,
-							["overkill"] = 1366,
+							["overkill"] = 1325,
+							["amount"] = 8351,
+						},
+						[12723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 2467,
+									["amount"] = 18116,
+								},
+							},
+							["overkill"] = 2467,
+							["amount"] = 18116,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 2713,
+								},
+							},
+							["amount"] = 2713,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 10692,
+								},
+							},
+							["amount"] = 10692,
+						},
+						[50622] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 10186,
+								},
+							},
+							["amount"] = 10186,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 1462,
+								},
+							},
+							["amount"] = 1462,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1305,
+								},
+							},
+							["amount"] = 1305,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1178,
+								},
+							},
+							["amount"] = 1178,
+						},
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 181,
+								},
+							},
+							["amount"] = 181,
+						},
+						[20253] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 679,
+								},
+							},
+							["amount"] = 679,
 						},
 					},
-					["totaldamage"] = 457,
-					["name"] = "Azure Raider",
-					["totaldamagetaken"] = 188531,
-					["id"] = "0xF1300077CC000064",
-					["damage"] = 457,
-				}, -- [1]
+					["name"] = "Anub'ar Crypt Fiend",
+					["totaldamage"] = 1890,
+					["totaldamagetaken"] = 54863,
+					["id"] = "0xF1300071BE00002B",
+					["damage"] = 1890,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[53333] = {
+							["school"] = 32,
+							["targets"] = {
+								["Rimgar"] = {
+									["amount"] = 796,
+								},
+								["Banze"] = {
+									["amount"] = 666,
+								},
+							},
+							["amount"] = 1462,
+						},
+					},
+					["damagetaken"] = 50112,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[50622] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 8168,
+									["amount"] = 25619,
+								},
+							},
+							["overkill"] = 8168,
+							["amount"] = 25619,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 1576,
+								},
+							},
+							["amount"] = 1576,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 626,
+								},
+							},
+							["amount"] = 626,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4123,
+								},
+							},
+							["amount"] = 4123,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1010,
+								},
+							},
+							["amount"] = 1010,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 776,
+								},
+							},
+							["amount"] = 776,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 3782,
+								},
+								["Rimgar"] = {
+									["amount"] = 12600,
+								},
+							},
+							["amount"] = 16382,
+						},
+					},
+					["name"] = "Anub'ar Necromancer",
+					["totaldamage"] = 1462,
+					["totaldamagetaken"] = 50112,
+					["id"] = "0xF1300071BF000102",
+					["damage"] = 1462,
+				}, -- [4]
+				{
+					["id"] = "0xF130000FEC000002",
+					["name"] = "Roach",
+					["totaldamagetaken"] = 686,
+					["flag"] = 2600,
+					["class"] = "MONSTER",
+					["damagetaken"] = 686,
+					["damagetakenspells"] = {
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["overkill"] = 677,
+									["amount"] = 686,
+								},
+							},
+							["overkill"] = 677,
+							["amount"] = 686,
+						},
+					},
+				}, -- [5]
 			},
-			["totaldamage"] = 188531,
-			["time"] = 10,
+			["ccdone"] = 1,
+			["totaldamage"] = 557046,
+			["time"] = 22,
+			["etotaldamage"] = 15962,
+			["totaldamagetaken"] = 15962,
+			["etotaldamagetaken"] = 557046,
+			["last_time"] = 1173.823,
 			["players"] = {
 				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Azure Raider"] = 1,
-							},
-						},
-					},
-					["last"] = 12697.103,
-					["role"] = "DAMAGER",
+					["last"] = 1170.601,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
-					["name"] = "Rimgar",
 					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+						[46857] = {
+							["type"] = "DEBUFF",
+							["count"] = 6,
+							["school"] = 1,
+							["refresh"] = 11,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["count"] = 3,
+									["refresh"] = 9,
+									["uptime"] = 13,
+								},
+								["Anub'ar Champion"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 2,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Anub'ar Necromancer"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 16,
 						},
-						[48470] = {
+						[75456] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["school"] = 64,
+							["uptime"] = 15,
 						},
 						[46924] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[12328] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
-						},
-						[63944] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[12328] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
 						},
 						[71905] = {
 							["type"] = "BUFF",
 							["count"] = 3,
+							["refresh"] = 9,
 							["school"] = 1,
-							["refresh"] = 7,
-							["uptime"] = 9,
+							["uptime"] = 18,
 						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 10,
-						},
-						[25898] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["refresh"] = 1,
+							["uptime"] = 22,
 						},
-						[48170] = {
+						[55610] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Raider"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 22,
 						},
 						[71541] = {
-							["school"] = 64,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
 							["uptime"] = 9,
 						},
-						[57522] = {
+						[72412] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 5,
 							["uptime"] = 10,
 						},
-						[72221] = {
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 6,
-							["targets"] = {
-								["Azure Raider"] = {
-									["refresh"] = 6,
-									["count"] = 3,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Azure Raider"] = {
-									["refresh"] = 3,
-									["count"] = 3,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
+							["uptime"] = 22,
 						},
 						[52437] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 8,
-						},
-						[70855] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["overkill"] = 5040,
-					["totaldamage"] = 148151,
-					["time"] = 6.140000000000001,
-					["ccdone"] = 1,
-					["spec"] = 71,
-					["id"] = "0x070000000040A064",
-					["damagespells"] = {
-						["Sweeping Strikes"] = {
-							["hitmin"] = 3374,
-							["id"] = 26654,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 15838,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 4535,
-							["amount"] = 15838,
-							["hitamount"] = 15838,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 373,
-							["id"] = 12721,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 1501,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 755,
-							["amount"] = 1501,
-							["hitamount"] = 1501,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 678,
-							["id"] = 71904,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 4216,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 32,
-							["hitmax"] = 726,
-							["amount"] = 4216,
-							["hitamount"] = 4216,
-						},
-						["Whirlwind"] = {
-							["criticalmin"] = 9931,
-							["hitmin"] = 3067,
-							["criticalamount"] = 75269,
-							["id"] = 50622,
-							["amount"] = 109682,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 109682,
-									["overkill"] = 5040,
-								},
-							},
-							["overkill"] = 5040,
-							["hitmax"] = 4638,
-							["criticalmax"] = 11685,
-							["critical"] = 7,
-							["hit"] = 9,
-							["school"] = 1,
-							["count"] = 16,
-							["casts"] = 1,
-							["hitamount"] = 34413,
-						},
-						["Melee"] = {
-							["criticalamount"] = 16914,
-							["id"] = 6603,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 16914,
-								},
-							},
-							["criticalmax"] = 9714,
-							["critical"] = 2,
-							["amount"] = 16914,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmin"] = 7200,
-						},
-					},
-					["damage"] = 148151,
-				}, -- [1]
-				{
-					["last"] = 12695.999,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
+							["refresh"] = 2,
 							["uptime"] = 10,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[63944] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Azure Raider"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48951] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
 						},
 						[47436] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 22,
 						},
-						[25780] = {
+						[59620] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
 							["school"] = 2,
+							["refresh"] = 1,
+							["uptime"] = 7,
+						},
+						[47486] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
 							["targets"] = {
-								["Azure Raider"] = {
-									["uptime"] = 2,
+								["Anub'ar Crusher"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 7,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[57522] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 12,
+							["uptime"] = 20,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Anub'ar Necromancer"] = {
+									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 2,
+							["uptime"] = 4,
 						},
-						[48170] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 22,
 						},
-						[24907] = {
+						[65156] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[63529] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
+							["count"] = 2,
 							["school"] = 1,
-							["targets"] = {
-								["Azure Raider"] = {
-									["uptime"] = 1,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[48826] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Azure Raider"] = {
-									["uptime"] = 1,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 22,
 						},
 					},
-					["totaldamage"] = 25570,
-					["time"] = 5.08,
-					["totaldamagetaken"] = 457,
-					["damage"] = 25570,
+					["role"] = "DAMAGER",
+					["time"] = 18.62,
+					["totaldamagetaken"] = 3833,
+					["damage"] = 308541,
 					["damagespells"] = {
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2177,
-							["criticalamount"] = 8708,
-							["id"] = 53595,
-							["count"] = 3,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 10885,
-								},
-							},
-							["criticalmax"] = 4354,
-							["criticalmin"] = 4354,
-							["casts"] = 1,
-							["hitmax"] = 2177,
-							["hit"] = 1,
-							["school"] = 2,
-							["amount"] = 10885,
-							["critical"] = 2,
-							["hitamount"] = 2177,
-						},
 						["Melee"] = {
-							["hitmin"] = 494,
+							["hitmin"] = 3636,
+							["criticalamount"] = 29725,
 							["id"] = 6603,
 							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 1532,
+								["Anub'ar Crusher"] = {
+									["amount"] = 38022,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 524,
-							["amount"] = 1532,
-							["hitamount"] = 1532,
-						},
-						["Seal of Command"] = {
-							["hitmin"] = 286,
-							["criticalamount"] = 1848,
-							["id"] = 20424,
-							["criticalmin"] = 562,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 4701,
-								},
-							},
-							["amount"] = 4701,
-							["hitmax"] = 349,
-							["criticalmax"] = 668,
+							["criticalmin"] = 9186,
 							["critical"] = 3,
-							["hit"] = 9,
-							["school"] = 2,
-							["count"] = 12,
-							["casts"] = 1,
-							["hitamount"] = 2853,
+							["criticalmax"] = 10371,
+							["count"] = 5,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 4661,
+							["amount"] = 38022,
+							["hitamount"] = 8297,
 						},
-						["Holy Shield"] = {
-							["hitmin"] = 633,
-							["id"] = 48951,
+						["Chaos Bane"] = {
+							["hitmin"] = 276,
+							["id"] = 71904,
 							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 2532,
+								["Anub'ar Crusher"] = {
+									["amount"] = 2854,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 320,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 626,
 								},
 							},
+							["hitmax"] = 1086,
 							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 32,
+							["resisted"] = 103,
+							["amount"] = 3800,
+							["hitamount"] = 3800,
+						},
+						["Rend"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 47465,
+						},
+						["Sweeping Strikes"] = {
+							["hitmin"] = 3576,
+							["id"] = 12723,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 19220,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 2467,
+									["amount"] = 18116,
+								},
+							},
+							["overkill"] = 2467,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 10543,
+							["amount"] = 37336,
+							["hitamount"] = 37336,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 1462,
+							["criticalamount"] = 3378,
+							["id"] = 47502,
+							["criticalmin"] = 3378,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 3378,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 1462,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1462,
+								},
+							},
+							["criticalmax"] = 3378,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 1462,
+							["amount"] = 6302,
+							["hitamount"] = 2924,
+						},
+						["Whirlwind"] = {
+							["criticalmin"] = 9490,
+							["hitmin"] = 3709,
+							["criticalamount"] = 126421,
+							["id"] = 50622,
+							["criticalmax"] = 11430,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 95484,
+								},
+								["Anub'ar Champion"] = {
+									["overkill"] = 9512,
+									["amount"] = 24408,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 10186,
+								},
+								["Anub'ar Necromancer"] = {
+									["overkill"] = 8168,
+									["amount"] = 25619,
+								},
+							},
+							["overkill"] = 17680,
+							["critical"] = 12,
+							["casts"] = 1,
+							["count"] = 19,
+							["hit"] = 7,
+							["school"] = 1,
+							["hitmax"] = 4658,
+							["amount"] = 155697,
+							["hitamount"] = 29276,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 525,
+							["id"] = 12721,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 527,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 1576,
+								},
+							},
 							["count"] = 4,
 							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 633,
-							["amount"] = 2532,
-							["hitamount"] = 2532,
+							["school"] = 1,
+							["hitmax"] = 527,
+							["amount"] = 2103,
+							["hitamount"] = 2103,
 						},
-						["Avenger's Shield"] = {
-							["hitmin"] = 1507,
-							["id"] = 48826,
+						["Victory Rush"] = {
+							["criticalamount"] = 11611,
+							["id"] = 34428,
 							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 4626,
+								["Anub'ar Crusher"] = {
+									["overkill"] = 3194,
+									["amount"] = 11611,
 								},
 							},
+							["overkill"] = 3194,
 							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 1596,
-							["amount"] = 4626,
-							["hitamount"] = 4626,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 752,
-							["id"] = 20467,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 752,
-								},
-							},
-							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 11611,
+							["school"] = 1,
+							["criticalmin"] = 11611,
+							["criticalmax"] = 11611,
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 752,
-							["amount"] = 752,
-							["hitamount"] = 752,
 						},
-						["Thorns"] = {
-							["hitmin"] = 180,
-							["id"] = 53307,
+						["Mortal Strike"] = {
+							["count"] = 3,
+							["hitmin"] = 5334,
+							["criticalamount"] = 10355,
+							["id"] = 47486,
+							["hitmax"] = 5654,
 							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 542,
+								["Anub'ar Crusher"] = {
+									["overkill"] = 4154,
+									["amount"] = 21343,
 								},
 							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 181,
-							["amount"] = 542,
-							["hitamount"] = 542,
+							["overkill"] = 4154,
+							["hit"] = 2,
+							["casts"] = 3,
+							["critical"] = 1,
+							["amount"] = 21343,
+							["school"] = 1,
+							["criticalmin"] = 10355,
+							["criticalmax"] = 10355,
+							["hitamount"] = 10988,
+						},
+						["Cleave"] = {
+							["hitmin"] = 4065,
+							["criticalamount"] = 23319,
+							["id"] = 47520,
+							["hitmax"] = 4943,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 19727,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 12600,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 2,
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 32327,
+							["school"] = 1,
+							["criticalmin"] = 10719,
+							["criticalmax"] = 12600,
+							["hitamount"] = 9008,
 						},
 					},
-					["damagetaken"] = 457,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
+					["damagetaken"] = 3833,
+					["id"] = "0x070000000040A064",
+					["spec"] = 71,
+					["overkill"] = 27495,
+					["name"] = "Rimgar",
 					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 146,
-							["id"] = 6603,
+						["Smash"] = {
+							["DODGE"] = 1,
 							["sources"] = {
-								["Azure Raider"] = {
-									["amount"] = 457,
-								},
-							},
-							["amount"] = 457,
-							["hitmax"] = 161,
-							["PARRY"] = 1,
-							["BLOCK"] = 1,
-							["blocked"] = 6374,
-							["school"] = 1,
-							["hit"] = 3,
-							["count"] = 5,
-							["hitamount"] = 457,
-						},
-						["Concussion Blow"] = {
-							["sources"] = {
-								["Azure Raider"] = {
+								["Anub'ar Crusher"] = {
 									["amount"] = 0,
 								},
 							},
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
-							["MISS"] = 1,
-							["id"] = 52719,
+							["id"] = 53318,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 199,
+							["id"] = 6603,
+							["sources"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 2622,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 415,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 2622,
+							["amount"] = 3037,
+							["hitamount"] = 3037,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 796,
+							["id"] = 53333,
+							["hitmax"] = 796,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 796,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 198,
+							["amount"] = 796,
+							["hitamount"] = 796,
 						},
 					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["mana"] = 1168,
-					["manaspells"] = {
-						[57319] = 775,
-						[20268] = 348,
-						[31786] = 45,
-					},
-				}, -- [2]
+					["totaldamage"] = 308541,
+				}, -- [1]
 				{
-					["overheal"] = 774,
-					["last"] = 12694.889,
-					["id"] = "0x0700000000AD81EB",
-					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 774,
+					["ccdonespells"] = {
+						[49560] = {
 							["count"] = 1,
-							["amount"] = 457,
-							["school"] = 2,
-							["min"] = 457,
 							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 774,
-									["amount"] = 457,
-								},
+								["Anub'ar Crusher"] = 1,
 							},
-							["max"] = 457,
 						},
 					},
+					["last"] = 1170.298,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[63944] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Jhosah"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[59891] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 9,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 22,
 						},
-						[24907] = {
+						[53307] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 22,
 						},
-					},
-					["heal"] = 457,
-					["name"] = "Aandra",
-					["class"] = "PRIEST",
-					["time"] = 3.5,
-					["flag"] = 1298,
-					["role"] = "HEALER",
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1080,
-							["id"] = 48468,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 1080,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 1080,
-							["amount"] = 1080,
-							["hitamount"] = 1080,
-						},
-						["Moonfire"] = {
-							["criticalamount"] = 2032,
-							["id"] = 48463,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 2032,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 2032,
-							["school"] = 64,
-							["count"] = 1,
-							["criticalmax"] = 2032,
-							["criticalmin"] = 2032,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 671,
-							["id"] = 48463,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 671,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 671,
-							["amount"] = 671,
-							["hitamount"] = 671,
-						},
-					},
-					["last"] = 12696.389,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["mana"] = 562,
-					["auras"] = {
-						[72221] = {
+						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 21,
 						},
-						[47436] = {
+						[45529] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["school"] = 1,
+							["uptime"] = 13,
 						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[16886] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48463] = {
+						[55078] = {
 							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 32,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["uptime"] = 14,
+									["count"] = 3,
+								},
+								["Roach"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Anub'ar Champion"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+								["Anub'ar Necromancer"] = {
+									["uptime"] = 1,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 14,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 9,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[71541] = {
+							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[48451] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 10,
+						},
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 11,
+						},
+						[70654] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 10,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48443] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 13,
+						},
+						[53760] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[64859] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 5,
+							["uptime"] = 18,
+						},
+						[55095] = {
+							["type"] = "DEBUFF",
+							["count"] = 10,
+							["school"] = 16,
 							["targets"] = {
-								["Azure Raider"] = {
-									["uptime"] = 4,
+								["Anub'ar Crusher"] = {
+									["uptime"] = 17,
+									["count"] = 3,
+								},
+								["Roach"] = {
+									["uptime"] = 3,
 									["count"] = 1,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+								["Anub'ar Champion"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+								["Anub'ar Necromancer"] = {
+									["uptime"] = 1,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 17,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 5,
+							["school"] = 32,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+								["Anub'ar Champion"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Anub'ar Necromancer"] = {
+									["uptime"] = 4,
+									["count"] = 2,
 								},
 							},
 							["uptime"] = 4,
 						},
-						[48162] = {
+						[47440] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["refresh"] = 1,
+							["uptime"] = 22,
 						},
-						[48468] = {
+						[56222] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[50449] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 2,
+							["uptime"] = 13,
+						},
+						[49560] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 8,
+							["school"] = 1,
 							["targets"] = {
-								["Azure Raider"] = {
+								["Anub'ar Crusher"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 3,
 						},
-						[53307] = {
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 22,
 						},
-						[63944] = {
-							["uptime"] = 10,
+						[50421] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 4,
 						},
-						[48942] = {
+						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 22,
 						},
 					},
-					["name"] = "Scrakekf",
-					["totaldamage"] = 3783,
-					["time"] = 5.47,
-					["role"] = "DAMAGER",
-					["manaspells"] = {
-						[53506] = 562,
-					},
-					["spec"] = 102,
-					["id"] = "0x0700000000ABE036",
-					["damage"] = 3783,
-				}, -- [4]
-				{
+					["role"] = "TANK",
+					["time"] = 18.34,
+					["totaldamagetaken"] = 7715,
+					["damage"] = 57805,
 					["damagespells"] = {
 						["Melee"] = {
-							["hitmin"] = 1238,
+							["hitmin"] = 2285,
+							["criticalamount"] = 5134,
 							["id"] = 6603,
 							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 1238,
+								["Anub'ar Crusher"] = {
+									["amount"] = 17035,
+								},
+							},
+							["criticalmin"] = 5134,
+							["critical"] = 1,
+							["criticalmax"] = 5134,
+							["count"] = 6,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 2503,
+							["amount"] = 17035,
+							["hitamount"] = 11901,
+						},
+						["Death and Decay"] = {
+							["hitmax"] = 590,
+							["hitmin"] = 531,
+							["criticalamount"] = 7069,
+							["id"] = 52212,
+							["criticalmin"] = 1178,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 11193,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 2887,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1178,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 4123,
+								},
+							},
+							["criticalmax"] = 1179,
+							["critical"] = 6,
+							["casts"] = 1,
+							["count"] = 27,
+							["hit"] = 21,
+							["school"] = 32,
+							["resisted"] = 58,
+							["amount"] = 19381,
+							["hitamount"] = 12312,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1305,
+							["criticalamount"] = 2999,
+							["id"] = 49909,
+							["criticalmin"] = 2999,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 4519,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1305,
+								},
+							},
+							["criticalmax"] = 2999,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 1520,
+							["amount"] = 5824,
+							["hitamount"] = 2825,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 686,
+							["id"] = 55078,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 3487,
+								},
+								["Roach"] = {
+									["overkill"] = 677,
+									["amount"] = 686,
+								},
+							},
+							["overkill"] = 677,
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["hitmax"] = 701,
+							["amount"] = 4173,
+							["hitamount"] = 4173,
+						},
+						["Death Grip"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 49576,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 2074,
+							["id"] = 47632,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 2074,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 2074,
+							["amount"] = 2074,
+							["hitamount"] = 2074,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1199,
+							["criticalamount"] = 2704,
+							["id"] = 49921,
+							["criticalmin"] = 2704,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 3903,
+								},
+							},
+							["criticalmax"] = 2704,
+							["critical"] = 1,
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1199,
+							["amount"] = 3903,
+							["hitamount"] = 1199,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 679,
+							["id"] = 55095,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 4147,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 16,
+							["hitmax"] = 694,
+							["amount"] = 4147,
+							["hitamount"] = 4147,
+						},
+						["Thorns"] = {
+							["hitmin"] = 181,
+							["id"] = 53307,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 724,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 363,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 181,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 7,
+							["hit"] = 7,
+							["school"] = 8,
+							["hitmax"] = 182,
+							["amount"] = 1268,
+							["hitamount"] = 1268,
+						},
+					},
+					["damagetaken"] = 7715,
+					["id"] = "0x0700000000A950A4",
+					["spec"] = 250,
+					["damagetakenspells"] = {
+						["Smash"] = {
+							["hitmin"] = 1442,
+							["id"] = 53318,
+							["sources"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 1442,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 1238,
-							["amount"] = 1238,
-							["hitamount"] = 1238,
+							["hitmax"] = 1442,
+							["amount"] = 1442,
+							["hitamount"] = 1442,
 						},
-						["Whirlwind"] = {
-							["criticalamount"] = 6751,
-							["hitmin"] = 1519,
-							["criticalmin"] = 1854,
-							["id"] = 1680,
-							["amount"] = 9789,
-							["targets"] = {
-								["Azure Raider"] = {
-									["amount"] = 9789,
-									["overkill"] = 1460,
+						["Rend"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 0,
 								},
 							},
-							["overkill"] = 1460,
-							["hitmax"] = 1519,
-							["criticalmax"] = 3038,
-							["critical"] = 3,
-							["hit"] = 2,
+							["count"] = 1,
+							["amount"] = 0,
 							["school"] = 1,
-							["count"] = 5,
-							["casts"] = 1,
-							["hitamount"] = 3038,
+							["id"] = 59343,
+						},
+						["Melee"] = {
+							["DODGE"] = 6,
+							["hitmin"] = 103,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["hitmax"] = 1504,
+							["sources"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 5266,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 238,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 103,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 16,
+							["hit"] = 7,
+							["school"] = 1,
+							["amount"] = 5607,
+							["MISS"] = 2,
+							["hitamount"] = 5607,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 666,
+							["id"] = 53333,
+							["hitmax"] = 666,
+							["sources"] = {
+								["Anub'ar Necromancer"] = {
+									["amount"] = 666,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 73,
+							["amount"] = 666,
+							["hitamount"] = 666,
 						},
 					},
-					["last"] = 12696.269,
-					["role"] = "DAMAGER",
+					["overkill"] = 677,
+					["name"] = "Banze",
+					["ccdone"] = 1,
+					["runicspells"] = {
+						[50422] = 20,
+						[45529] = 10,
+					},
+					["runic"] = 30,
+					["totaldamage"] = 57805,
+				}, -- [2]
+				{
+					["last"] = 1172.982,
 					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["totaldamage"] = 11027,
+					["class"] = "DRUID",
 					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 22,
 						},
 						[47436] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 22,
 						},
-						[63944] = {
-							["uptime"] = 10,
+						[71584] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[29131] = {
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[46916] = {
-							["school"] = 1,
+						[71184] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 8,
 						},
-						[61619] = {
-							["school"] = 1,
+						[48420] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[48942] = {
+						[57623] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 2,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 16,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[33357] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[768] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+					},
+					["time"] = 14.22,
+					["totaldamagetaken"] = 1787,
+					["rage"] = 20,
+					["damagetaken"] = 1787,
+					["id"] = "0x07000000006149CA",
+					["spec"] = 105,
+					["healspells"] = {
+						[53251] = {
+							["overheal"] = 20862,
+							["max"] = 1001,
+							["targets"] = {
+								["Azgards"] = {
+									["overheal"] = 7323,
+									["amount"] = 0,
+								},
+								["Strichy"] = {
+									["overheal"] = 0,
+									["amount"] = 1001,
+								},
+								["Banze"] = {
+									["overheal"] = 5357,
+									["amount"] = 1965,
+								},
+								["Ranoow"] = {
+									["overheal"] = 4694,
+									["amount"] = 2627,
+								},
+								["Rimgar"] = {
+									["overheal"] = 3488,
+									["amount"] = 3833,
+								},
+							},
+							["min"] = 25,
+							["casts"] = 2,
+							["count"] = 33,
+							["amount"] = 9426,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[48441] = {
+							["overheal"] = 8116,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 8,
+							["ishot"] = true,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 8116,
+									["amount"] = 0,
+								},
+							},
+						},
+						[48443] = {
+							["overheal"] = 5697,
+							["ishot"] = true,
+							["count"] = 5,
+							["amount"] = 5750,
+							["school"] = 8,
+							["max"] = 3161,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 5697,
+									["amount"] = 5750,
+								},
+							},
+							["min"] = 1172,
+						},
+						[48451] = {
+							["overheal"] = 14164,
+							["casts"] = 2,
+							["count"] = 9,
+							["amount"] = 0,
+							["school"] = 8,
+							["ishot"] = true,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 14164,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 211,
+							["id"] = 6603,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 437,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 226,
+							["amount"] = 437,
+							["hitamount"] = 437,
+						},
+						["Crushing Webs (DoT)"] = {
+							["hitmin"] = 270,
+							["id"] = 59347,
+							["sources"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 1350,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 270,
+							["amount"] = 1350,
+							["hitamount"] = 1350,
+						},
+					},
+					["runicspells"] = {
+						[48543] = 32,
+					},
+					["heal"] = 15176,
+					["name"] = "Strichy",
+					["runic"] = 32,
+					["overheal"] = 48839,
+					["ragespells"] = {
+						[48541] = 20,
+					},
+					["role"] = "HEALER",
+				}, -- [3]
+				{
+					["last"] = 1169.581,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[53386] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["uptime"] = 3,
+						},
+						[60196] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 7,
+							["uptime"] = 19,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 9,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[51124] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+					},
+					["time"] = 17.39,
+					["damage"] = 22445,
+					["overheal"] = 972,
+					["id"] = "0x07000000004E52D5",
+					["spec"] = 251,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 972,
+							["count"] = 15,
+							["amount"] = 0,
+							["school"] = 1,
+							["ishot"] = true,
+							["targets"] = {
+								["Azgards"] = {
+									["overheal"] = 972,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["heal"] = 0,
+					["name"] = "Azgards",
+					["damagespells"] = {
+						["Howling Blast"] = {
+							["hitmin"] = 1294,
+							["criticalamount"] = 6522,
+							["id"] = 49184,
+							["criticalmin"] = 3249,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 9367,
+								},
+							},
+							["criticalmax"] = 3273,
+							["critical"] = 2,
+							["casts"] = 2,
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 1551,
+							["amount"] = 9367,
+							["hitamount"] = 2845,
+						},
+						["Melee"] = {
+							["glance"] = 963,
+							["hitmin"] = 986,
+							["id"] = 6603,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 2980,
+								},
+								["Anub'ar Champion"] = {
+									["amount"] = 1020,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 1010,
+								},
+							},
+							["glancemin"] = 963,
+							["glancing"] = 1,
+							["glancemax"] = 963,
+							["count"] = 5,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 1031,
+							["amount"] = 5010,
+							["hitamount"] = 4047,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 776,
+							["criticalamount"] = 1639,
+							["id"] = 49930,
+							["hitmax"] = 776,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 1639,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 776,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 2415,
+							["school"] = 1,
+							["criticalmin"] = 1639,
+							["criticalmax"] = 1639,
+							["hitamount"] = 776,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 645,
+							["id"] = 49921,
+							["targets"] = {
+								["Anub'ar Champion"] = {
+									["amount"] = 645,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 645,
+							["amount"] = 645,
+							["hitamount"] = 645,
+						},
+						["Obliterate"] = {
+							["criticalamount"] = 2614,
+							["id"] = 51425,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 2614,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 2614,
+							["school"] = 1,
+							["criticalmin"] = 2614,
+							["criticalmax"] = 2614,
+							["count"] = 1,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 1197,
+							["id"] = 47632,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 2394,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 1197,
+							["amount"] = 2394,
+							["hitamount"] = 2394,
+						},
+					},
+					["totaldamage"] = 22445,
+					["role"] = "DAMAGER",
+				}, -- [4]
+				{
+					["last"] = 1170.436,
+					["flag"] = 1298,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
 						},
 						[12970] = {
-							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 5,
+							["school"] = 1,
+							["refresh"] = 4,
+							["uptime"] = 19,
 						},
-						[12721] = {
+						[20253] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Azure Raider"] = {
-									["uptime"] = 1,
+								["Anub'ar Crypt Fiend"] = {
+									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 1,
+							["uptime"] = 3,
+						},
+						[34123] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 16,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 9,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[23885] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 22,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 9,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 22,
+						},
+						[75458] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
 						},
 					},
-					["rage"] = 28,
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 8,
-					},
-					["time"] = 4.5,
-					["name"] = "Supdawgx",
-					["overkill"] = 1460,
+					["time"] = 17.29,
+					["totaldamagetaken"] = 2627,
+					["damage"] = 168255,
+					["rage"] = 4,
+					["overheal"] = 1992,
+					["damagetaken"] = 2627,
+					["id"] = "0x0700000000AFB138",
 					["spec"] = 72,
-					["id"] = "0x0700000000B0209B",
-					["damage"] = 11027,
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 1992,
+							["count"] = 6,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Ranoow"] = {
+									["overheal"] = 1992,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["overkill"] = 6896,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 2627,
+							["id"] = 6603,
+							["sources"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 2627,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2627,
+							["amount"] = 2627,
+							["hitamount"] = 2627,
+						},
+					},
+					["ragespells"] = {
+						[12964] = 4,
+					},
+					["name"] = "Ranoow",
+					["damagespells"] = {
+						["Bloodthirst"] = {
+							["hitmin"] = 4255,
+							["criticalamount"] = 9206,
+							["id"] = 23881,
+							["hitmax"] = 4255,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 13461,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["casts"] = 2,
+							["critical"] = 1,
+							["amount"] = 13461,
+							["school"] = 1,
+							["criticalmin"] = 9206,
+							["criticalmax"] = 9206,
+							["hitamount"] = 4255,
+						},
+						["Melee"] = {
+							["hitmin"] = 1636,
+							["criticalamount"] = 10288,
+							["id"] = 6603,
+							["criticalmin"] = 3269,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 11924,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 2713,
+								},
+							},
+							["blocked"] = 40,
+							["critical"] = 3,
+							["criticalmax"] = 3728,
+							["count"] = 5,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 2713,
+							["amount"] = 14637,
+							["hitamount"] = 4349,
+						},
+						["Cleave"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 3143,
+							["criticalmin"] = 7549,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 48942,
+								},
+								["Anub'ar Champion"] = {
+									["overkill"] = 4849,
+									["amount"] = 15641,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 10692,
+								},
+								["Anub'ar Necromancer"] = {
+									["amount"] = 3782,
+								},
+							},
+							["amount"] = 79057,
+							["criticalamount"] = 62001,
+							["id"] = 47520,
+							["blocked"] = 80,
+							["overkill"] = 4849,
+							["hitmax"] = 3782,
+							["criticalmax"] = 8085,
+							["critical"] = 8,
+							["hit"] = 5,
+							["school"] = 1,
+							["count"] = 14,
+							["casts"] = 5,
+							["hitamount"] = 17056,
+						},
+						["Whirlwind"] = {
+							["count"] = 11,
+							["hitmin"] = 1962,
+							["criticalamount"] = 39530,
+							["id"] = 1680,
+							["hitmax"] = 3494,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["overkill"] = 722,
+									["amount"] = 45382,
+								},
+								["Anub'ar Crypt Fiend"] = {
+									["overkill"] = 1325,
+									["amount"] = 8351,
+								},
+							},
+							["overkill"] = 2047,
+							["hit"] = 5,
+							["casts"] = 2,
+							["critical"] = 6,
+							["amount"] = 53733,
+							["school"] = 1,
+							["criticalmin"] = 4891,
+							["criticalmax"] = 8374,
+							["hitamount"] = 14203,
+						},
+						["Victory Rush"] = {
+							["criticalamount"] = 6688,
+							["id"] = 34428,
+							["targets"] = {
+								["Anub'ar Crusher"] = {
+									["amount"] = 6688,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 6688,
+							["school"] = 1,
+							["criticalmin"] = 6688,
+							["criticalmax"] = 6688,
+							["count"] = 1,
+						},
+						["Intercept"] = {
+							["hitmin"] = 679,
+							["id"] = 20253,
+							["targets"] = {
+								["Anub'ar Crypt Fiend"] = {
+									["amount"] = 679,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 679,
+							["amount"] = 679,
+							["hitamount"] = 679,
+						},
+					},
+					["heal"] = 0,
+					["totaldamage"] = 168255,
+					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["totaldamagetaken"] = 457,
-			["etotaldamagetaken"] = 188531,
-			["last_time"] = 12700.74,
-			["overheal"] = 774,
 			["type"] = "party",
-			["damagetaken"] = 457,
-			["starttime"] = 1728655414,
-			["rage"] = 28,
-			["damage"] = 188531,
-			["mobname"] = "Azure Raider",
-			["overkill"] = 6500,
-			["edamagetaken"] = 188531,
-			["heal"] = 457,
-			["name"] = "Azure Raider",
-			["ccdone"] = 1,
-			["etotaldamage"] = 457,
-			["edamage"] = 457,
-			["last_action"] = 1728655424,
-			["endtime"] = 1728655424,
-		}, -- [10]
+			["damagetaken"] = 15962,
+			["overheal"] = 51803,
+			["rage"] = 24,
+			["overkill"] = 35068,
+			["edamagetaken"] = 557046,
+			["heal"] = 15176,
+			["name"] = "Anub'ar Crusher",
+			["mobname"] = "Anub'ar Crusher",
+			["starttime"] = 1728901000,
+			["edamage"] = 15962,
+			["last_action"] = 1728901022,
+			["endtime"] = 1728901022,
+		}, -- [3]
 		{
-			["mana"] = 5663,
+			["damage"] = 1418760,
+			["success"] = true,
+			["absorb"] = 5250,
+			["mana"] = 870,
+			["gotboss"] = 28684,
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[58504] = {
-							["school"] = 1,
-							["total"] = 111,
+						[59362] = {
+							["school"] = 8,
 							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 111,
+								["Ranoow"] = {
+									["amount"] = 3780,
 								},
 							},
-							["amount"] = 0,
-						},
-						[58508] = {
-							["school"] = 1,
-							["total"] = 1510,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 0,
-									["total"] = 1510,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 3780,
 						},
 						[6603] = {
 							["school"] = 1,
-							["total"] = 383,
 							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 383,
+								["Banze"] = {
+									["amount"] = 1246,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 1246,
 						},
 					},
-					["damagetaken"] = 157940,
-					["flag"] = 68168,
+					["damagetaken"] = 76122,
+					["flag"] = 2632,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[47450] = {
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 697,
+								},
+							},
+							["amount"] = 697,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 1226,
+								},
+								["Rimgar"] = {
+									["amount"] = 829,
+								},
+							},
+							["amount"] = 2055,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1304,
+								},
+							},
+							["amount"] = 1304,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 5088,
+								},
+								["Ranoow"] = {
+									["amount"] = 1577,
+								},
+								["Rimgar"] = {
+									["overkill"] = 6653,
+									["amount"] = 17492,
+								},
+							},
+							["overkill"] = 6653,
+							["amount"] = 24157,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["overkill"] = 205,
+									["amount"] = 1255,
+								},
+							},
+							["overkill"] = 205,
+							["amount"] = 1255,
+						},
+						[26654] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 3991,
+									["amount"] = 4871,
 								},
 							},
-							["amount"] = 3991,
+							["amount"] = 4871,
 						},
-						[20424] = {
-							["school"] = 2,
+						[50622] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2871,
-									["overkill"] = 247,
+								["Rimgar"] = {
+									["amount"] = 18429,
 								},
 							},
-							["amount"] = 2871,
-							["overkill"] = 247,
+							["amount"] = 18429,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 4739,
+								},
+							},
+							["amount"] = 4739,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 3145,
+								},
+							},
+							["amount"] = 3145,
 						},
 						[23881] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 6657,
+								["Ranoow"] = {
+									["amount"] = 3355,
 								},
 							},
-							["amount"] = 6657,
+							["amount"] = 3355,
 						},
-						[48818] = {
-							["school"] = 2,
+						[49930] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2326,
+								["Azgards"] = {
+									["amount"] = 1761,
 								},
 							},
-							["amount"] = 2326,
+							["amount"] = 1761,
+						},
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 181,
+								},
+							},
+							["amount"] = 181,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1193,
+								},
+							},
+							["amount"] = 1193,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1120,
+								},
+							},
+							["amount"] = 1120,
+						},
+						[51425] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1177,
+								},
+							},
+							["amount"] = 1177,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 6683,
+								},
+							},
+							["amount"] = 6683,
+						},
+					},
+					["name"] = "Anub'ar Webspinner",
+					["totaldamage"] = 5026,
+					["totaldamagetaken"] = 76122,
+					["id"] = "0xF13000729700002D",
+					["damage"] = 5026,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 16907,
+							["targets"] = {
+								["Ranoow"] = {
+									["amount"] = 2853,
+								},
+								["Banze"] = {
+									["total"] = 18128,
+									["amount"] = 17592,
+								},
+							},
+							["amount"] = 20445,
+						},
+						[49806] = {
+							["school"] = 1,
+							["targets"] = {
+								["Azgards"] = {
+									["amount"] = 4944,
+								},
+								["Ranoow"] = {
+									["amount"] = 10478,
+								},
+								["Banze"] = {
+									["amount"] = 2391,
+								},
+							},
+							["amount"] = 17813,
+						},
+						[52532] = {
+							["school"] = 1,
+							["total"] = 8500,
+							["targets"] = {
+								["Banze"] = {
+									["total"] = 8500,
+									["amount"] = 7854,
+								},
+							},
+							["amount"] = 7854,
+						},
+					},
+					["damagetaken"] = 244686,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1999,
+								},
+							},
+							["amount"] = 1999,
+						},
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1810,
+								},
+							},
+							["amount"] = 1810,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 10562,
+								},
+							},
+							["amount"] = 10562,
+						},
+						[12723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 20874,
+								},
+							},
+							["amount"] = 20874,
+						},
+						[56815] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 8862,
+								},
+							},
+							["amount"] = 8862,
 						},
 						[47486] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 19536,
+									["amount"] = 11313,
 								},
 							},
-							["amount"] = 19536,
+							["amount"] = 11313,
 						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4354,
-								},
-							},
-							["amount"] = 4354,
-						},
-						[44949] = {
+						[51425] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 907,
+								["Azgards"] = {
+									["amount"] = 1183,
 								},
 							},
-							["amount"] = 907,
+							["amount"] = 1183,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 37134,
+								},
+								["Rimgar"] = {
+									["amount"] = 9939,
+								},
+							},
+							["amount"] = 47073,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 2801,
+								},
+							},
+							["amount"] = 2801,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 5691,
+								},
+							},
+							["amount"] = 5691,
 						},
 						[1680] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 2970,
+								["Ranoow"] = {
+									["amount"] = 13530,
 								},
 							},
-							["amount"] = 2970,
+							["amount"] = 13530,
 						},
-						[20647] = {
+						[57755] = {
 							["school"] = 1,
 							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 19064,
+								["Ranoow"] = {
+									["amount"] = 8394,
 								},
 							},
-							["amount"] = 19064,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 8803,
-								},
-							},
-							["amount"] = 8803,
+							["amount"] = 8394,
 						},
 						[47465] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 4977,
+									["amount"] = 911,
 								},
 							},
-							["amount"] = 4977,
+							["amount"] = 911,
 						},
-						[50783] = {
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1779,
+								},
+							},
+							["amount"] = 1779,
+						},
+						[50622] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1430,
+								["Rimgar"] = {
+									["amount"] = 11960,
 								},
 							},
-							["amount"] = 1430,
+							["amount"] = 11960,
 						},
-						[48951] = {
-							["school"] = 2,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 715,
+								["Banze"] = {
+									["amount"] = 17741,
 								},
 							},
-							["amount"] = 715,
-						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2208,
-								},
-							},
-							["amount"] = 2208,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 21879,
-								},
-							},
-							["amount"] = 21879,
+							["amount"] = 17741,
 						},
 						[71904] = {
 							["school"] = 32,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 2202,
+									["amount"] = 1141,
 								},
 							},
-							["amount"] = 2202,
+							["amount"] = 1141,
 						},
-						[48463] = {
-							["school"] = 64,
+						[47502] = {
+							["school"] = 1,
 							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 4028,
+								["Rimgar"] = {
+									["amount"] = 13861,
 								},
 							},
-							["amount"] = 4028,
+							["amount"] = 13861,
 						},
-						[48805] = {
-							["school"] = 2,
+						[49930] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4442,
+								["Azgards"] = {
+									["amount"] = 656,
 								},
 							},
-							["amount"] = 4442,
+							["amount"] = 656,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2839,
+								},
 								["Rimgar"] = {
-									["amount"] = 10252,
+									["amount"] = 5970,
 								},
-								["Jhosah"] = {
-									["amount"] = 7501,
-									["overkill"] = 970,
+								["Ranoow"] = {
+									["overkill"] = 2936,
+									["amount"] = 5900,
 								},
-								["Supdawgx"] = {
-									["amount"] = 8188,
+								["Banze"] = {
+									["overkill"] = 817,
+									["amount"] = 14585,
 								},
 							},
-							["amount"] = 25941,
-							["overkill"] = 970,
+							["overkill"] = 3753,
+							["amount"] = 29294,
 						},
-						[69403] = {
-							["school"] = 2,
+						[49184] = {
+							["school"] = 16,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 328,
+								["Azgards"] = {
+									["amount"] = 8526,
 								},
 							},
-							["amount"] = 328,
+							["amount"] = 8526,
 						},
 						[12721] = {
 							["school"] = 1,
 							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 8348,
+								},
 								["Rimgar"] = {
-									["amount"] = 7184,
-								},
-								["Supdawgx"] = {
-									["amount"] = 1939,
+									["overkill"] = 320,
+									["amount"] = 8578,
 								},
 							},
-							["amount"] = 9123,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 6552,
-								},
-							},
-							["amount"] = 6552,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2636,
-								},
-							},
-							["amount"] = 2636,
-						},
-					},
-					["totaldamage"] = 2004,
-					["name"] = "Portal Guardian",
-					["totaldamagetaken"] = 157940,
-					["id"] = "0xF1300077C4000061",
-					["damage"] = 0,
-				}, -- [1]
-			},
-			["totaldamage"] = 157940,
-			["time"] = 14,
-			["etotaldamagetaken"] = 157940,
-			["totaldamagetaken"] = 2004,
-			["etotaldamage"] = 2004,
-			["damage"] = 157940,
-			["overheal"] = 2677,
-			["type"] = "party",
-			["damagetaken"] = 0,
-			["last_time"] = 12670.622,
-			["players"] = {
-				{
-					["last"] = 12668.999,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[12328] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 8,
-							["uptime"] = 13,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 14,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[60503] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 4,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 11,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 10,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["totaldamage"] = 76009,
-					["time"] = 11.92,
-					["totaldamagetaken"] = 1510,
-					["damage"] = 76009,
-					["rage"] = 27,
-					["damagetaken"] = 0,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Side Swipe"] = {
-							["total"] = 1510,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 58508,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Guardian"] = {
-									["amount"] = 0,
-									["total"] = 1510,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 7,
-					},
-					["name"] = "Rimgar",
-					["role"] = "DAMAGER",
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["criticalamount"] = 19536,
-							["id"] = 47486,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 19536,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 19536,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 10252,
-							["criticalmin"] = 9284,
-						},
-						["Melee"] = {
-							["glance"] = 6974,
-							["hitmin"] = 3278,
-							["id"] = 6603,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 10252,
-								},
-							},
-							["hitamount"] = 3278,
-							["glancing"] = 2,
-							["amount"] = 10252,
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3278,
-							["glancemax"] = 3596,
-							["glancemin"] = 3378,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 356,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 7184,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 1189,
-							["amount"] = 7184,
-							["hitamount"] = 7184,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 2202,
-							["id"] = 71904,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2202,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2202,
-							["amount"] = 2202,
-							["hitamount"] = 2202,
-						},
-						["Execute"] = {
-							["criticalamount"] = 19064,
-							["id"] = 20647,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 19064,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 19064,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 9710,
-							["criticalmin"] = 9354,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 8803,
-							["id"] = 7384,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 8803,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 8803,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 8803,
-							["criticalmin"] = 8803,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1659,
-							["id"] = 47465,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 4977,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 1659,
-							["amount"] = 4977,
-							["hitamount"] = 4977,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 3991,
-							["id"] = 47450,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 3991,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3991,
-							["amount"] = 3991,
-							["hitamount"] = 3991,
-						},
-					},
-				}, -- [1]
-				{
-					["last"] = 12669.388,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[20132] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[48951] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[54428] = {
-							["uptime"] = 14,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 10,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["totaldamage"] = 27381,
-					["time"] = 12.32,
-					["totaldamagetaken"] = 494,
-					["damage"] = 27381,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 297,
-							["id"] = 48818,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2326,
-								},
-							},
-							["count"] = 7,
-							["hitmax"] = 373,
-							["hit"] = 7,
-							["school"] = 2,
-							["resisted"] = 70,
-							["amount"] = 2326,
-							["hitamount"] = 2326,
-						},
-						["Hammer of the Righteous"] = {
-							["criticalamount"] = 4354,
-							["id"] = 53595,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 4354,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4354,
-							["school"] = 2,
-							["count"] = 1,
-							["criticalmax"] = 4354,
-							["criticalmin"] = 4354,
-						},
-						["Melee"] = {
-							["glance"] = 446,
-							["hitmin"] = 555,
-							["criticalmin"] = 984,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 7501,
-									["overkill"] = 970,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 7501,
-							["glancemin"] = 446,
-							["criticalamount"] = 6500,
-							["id"] = 6603,
-							["glancemax"] = 446,
-							["overkill"] = 970,
-							["criticalmax"] = 1156,
-							["hitmax"] = 555,
-							["hit"] = 1,
-							["school"] = 1,
-							["critical"] = 6,
-							["count"] = 8,
-							["hitamount"] = 555,
-						},
-						["Judgement of Command"] = {
-							["criticalmin"] = 1484,
-							["hitmin"] = 724,
-							["criticalamount"] = 1484,
-							["id"] = 20467,
-							["amount"] = 2208,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2208,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 1484,
-							["hitmax"] = 724,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 164,
-							["critical"] = 1,
-							["hitamount"] = 724,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 715,
-							["id"] = 48951,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 715,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 715,
-							["amount"] = 715,
-							["hitamount"] = 715,
-						},
-						["Seal of Command"] = {
-							["hitmin"] = 265,
-							["id"] = 20424,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 3199,
-									["overkill"] = 247,
-								},
-							},
-							["overkill"] = 247,
-							["count"] = 10,
-							["casts"] = 1,
-							["hitmax"] = 363,
-							["hit"] = 10,
-							["school"] = 2,
-							["resisted"] = 139,
-							["amount"] = 3199,
-							["hitamount"] = 3199,
-						},
-						["Hammer of Wrath"] = {
-							["criticalamount"] = 4442,
-							["id"] = 48805,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 4442,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 4442,
-							["school"] = 2,
-							["count"] = 1,
-							["criticalmax"] = 4442,
-							["criticalmin"] = 4442,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 2636,
-							["id"] = 53600,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2636,
-								},
-							},
-							["hit"] = 1,
-							["casts"] = 1,
-							["count"] = 1,
-							["blocked"] = 40,
-							["school"] = 2,
-							["amount"] = 2636,
-							["hitmax"] = 2636,
-							["hitamount"] = 2636,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 383,
-							["id"] = 6603,
-							["sources"] = {
-								["Portal Guardian"] = {
-									["amount"] = 0,
-									["total"] = 383,
-								},
-							},
-							["count"] = 6,
-							["ABSORB"] = 2,
-							["school"] = 1,
-							["amount"] = 0,
-							["MISS"] = 1,
-							["PARRY"] = 2,
-						},
-						["Agonizing Strike"] = {
-							["total"] = 111,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 58504,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Guardian"] = {
-									["amount"] = 0,
-									["total"] = 111,
-								},
-							},
-						},
-					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["mana"] = 4039,
-					["manaspells"] = {
-						[57319] = 930,
-						[54428] = 1945,
-						[20268] = 1164,
-					},
-					["overkill"] = 1217,
-				}, -- [2]
-				{
-					["overheal"] = 1231,
-					["last"] = 12663.783,
-					["role"] = "HEALER",
-					["mana"] = 500,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 1231,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Rimgar"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[59891] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 8,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 27,
-							["casts"] = 2,
-							["count"] = 4,
-							["amount"] = 2004,
-							["max"] = 1510,
-							["targets"] = {
-								["Jhosah"] = 494,
-								["Rimgar"] = 1510,
-							},
-							["school"] = 2,
-						},
-					},
-					["heal"] = 0,
-					["time"] = 6.209999999999999,
-					["manaspells"] = {
-						[67666] = 500,
-					},
-					["name"] = "Aandra",
-					["spec"] = 256,
-					["id"] = "0x0700000000AD81EB",
-					["absorb"] = 2004,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 976,
-							["id"] = 48468,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 6552,
-								},
-							},
-							["count"] = 6,
-							["hitmax"] = 1220,
-							["hit"] = 6,
-							["school"] = 8,
-							["resisted"] = 488,
-							["amount"] = 6552,
-							["hitamount"] = 6552,
-						},
-						["Moonfire"] = {
-							["criticalamount"] = 1916,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 1916,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 1916,
-							["school"] = 64,
-							["resisted"] = 212,
-							["criticalmax"] = 1916,
-							["criticalmin"] = 1916,
-						},
-						["Wrath"] = {
-							["criticalamount"] = 6680,
-							["hitmin"] = 2732,
-							["criticalmin"] = 6680,
-							["id"] = 48461,
-							["amount"] = 21879,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 21879,
-								},
-							},
-							["casts"] = 5,
-							["count"] = 6,
-							["criticalmax"] = 6680,
-							["critical"] = 1,
-							["hit"] = 5,
-							["school"] = 8,
-							["resisted"] = 1366,
-							["hitmax"] = 3384,
-							["hitamount"] = 15199,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 671,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2112,
-								},
-							},
-							["count"] = 3,
-							["hitmax"] = 758,
-							["hit"] = 3,
-							["school"] = 64,
-							["resisted"] = 75,
-							["amount"] = 2112,
-							["hitamount"] = 2112,
-						},
-					},
-					["last"] = 12669.065,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["mana"] = 1124,
-					["auras"] = {
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[16886] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 6,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 5,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 5,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[67360] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["name"] = "Scrakekf",
-					["totaldamage"] = 32459,
-					["time"] = 12,
-					["role"] = "DAMAGER",
-					["manaspells"] = {
-						[53506] = 1124,
-					},
-					["spec"] = 102,
-					["id"] = "0x0700000000ABE036",
-					["damage"] = 32459,
-				}, -- [4]
-				{
-					["last"] = 12669.032,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 9,
-						},
-						[46916] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[12970] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 10,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["totaldamage"] = 22091,
-					["time"] = 11.94,
-					["damage"] = 22091,
-					["rage"] = 2,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 1446,
-							["count"] = 6,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 1446,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[12964] = 2,
-					},
-					["name"] = "Supdawgx",
-					["role"] = "DAMAGER",
-					["heal"] = 0,
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1585,
-							["criticalamount"] = 3487,
-							["id"] = 23881,
-							["criticalmin"] = 3487,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 6657,
-								},
-							},
-							["amount"] = 6657,
-							["hitmax"] = 1585,
-							["criticalmax"] = 3487,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 1,
-							["count"] = 3,
-							["casts"] = 3,
-							["hitamount"] = 3170,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 187,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 1939,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 323,
-							["amount"] = 1939,
-							["hitamount"] = 1939,
-						},
-						["Slam"] = {
-							["hitmin"] = 1430,
-							["id"] = 50783,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 1430,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1430,
-							["amount"] = 1430,
-							["hitamount"] = 1430,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 907,
-							["criticalamount"] = 2970,
-							["id"] = 1680,
-							["count"] = 2,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 3877,
-								},
-							},
-							["criticalmax"] = 2970,
-							["criticalmin"] = 2970,
-							["casts"] = 1,
-							["hitmax"] = 907,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 3877,
-							["critical"] = 1,
-							["hitamount"] = 907,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 1092,
-							["hitmin"] = 764,
-							["criticalmin"] = 1438,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 8188,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 8188,
-							["MISS"] = 2,
-							["glancemin"] = 1092,
-							["criticalamount"] = 6332,
-							["id"] = 6603,
-							["glancemax"] = 1092,
-							["criticalmax"] = 2518,
-							["critical"] = 3,
-							["hit"] = 1,
-							["school"] = 1,
-							["count"] = 8,
-							["hitmax"] = 764,
-							["hitamount"] = 764,
-						},
-					},
-					["overheal"] = 1446,
-				}, -- [5]
-			},
-			["starttime"] = 1728655380,
-			["absorb"] = 2004,
-			["overkill"] = 1217,
-			["edamagetaken"] = 157940,
-			["heal"] = 0,
-			["name"] = "Portal Guardian (4)",
-			["mobname"] = "Portal Guardian",
-			["rage"] = 29,
-			["edamage"] = 0,
-			["last_action"] = 1728655393,
-			["endtime"] = 1728655394,
-		}, -- [11]
-		{
-			["mana"] = 2889,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 2282,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 2282,
-								},
-							},
-							["amount"] = 0,
-						},
-						[58516] = {
-							["school"] = 1,
-							["total"] = 1271,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 1271,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["damagetaken"] = 165615,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 327,
-								},
-							},
-							["amount"] = 327,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4493,
-								},
-							},
-							["amount"] = 4493,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 6657,
-								},
-							},
-							["amount"] = 6657,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4185,
-								},
-							},
-							["amount"] = 4185,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 16617,
-								},
-							},
-							["amount"] = 16617,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4637,
-								},
-							},
-							["amount"] = 4637,
+							["overkill"] = 320,
+							["amount"] = 16926,
 						},
 						[44949] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 861,
+								["Ranoow"] = {
+									["amount"] = 3863,
 								},
 							},
-							["amount"] = 861,
+							["amount"] = 3863,
 						},
-						[53227] = {
+						[49143] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 3936,
+								},
+							},
+							["amount"] = 3936,
+						},
+					},
+					["name"] = "Anub'ar Warrior",
+					["totaldamage"] = 47294,
+					["totaldamagetaken"] = 244686,
+					["id"] = "0xF13000703C000024",
+					["damage"] = 46112,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Banze"] = {
+									["amount"] = 6031,
+								},
+								["Rimgar"] = {
+									["amount"] = 2622,
+								},
+								["Ranoow"] = {
+									["amount"] = 13071,
+								},
+								["Strichy"] = {
+									["amount"] = 5322,
+								},
+							},
+							["amount"] = 27046,
+						},
+						[52540] = {
+							["school"] = 1,
+							["targets"] = {
+								["Banze"] = {
+									["amount"] = 12040,
+								},
+							},
+							["amount"] = 12040,
+						},
+					},
+					["damagetaken"] = 202110,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[53307] = {
 							["school"] = 8,
 							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3781,
+								["Banze"] = {
+									["amount"] = 544,
 								},
 							},
-							["amount"] = 3781,
+							["amount"] = 544,
 						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 7413,
-								},
-							},
-							["amount"] = 7413,
-						},
-						[48951] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1266,
-								},
-							},
-							["amount"] = 1266,
-						},
-						[47465] = {
+						[26654] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 5310,
+									["amount"] = 7870,
 								},
 							},
-							["amount"] = 5310,
+							["amount"] = 7870,
 						},
-						[50783] = {
+						[47450] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 3491,
+								["Ranoow"] = {
+									["overkill"] = 6174,
+									["amount"] = 6951,
 								},
 							},
-							["amount"] = 3491,
+							["overkill"] = 6174,
+							["amount"] = 6951,
+						},
+						[12723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 11368,
+								},
+							},
+							["amount"] = 11368,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["overkill"] = 6936,
+									["amount"] = 47851,
+								},
+							},
+							["overkill"] = 6936,
+							["amount"] = 47851,
+						},
+						[50622] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 37964,
+								},
+							},
+							["amount"] = 37964,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1564,
+								},
+							},
+							["amount"] = 1564,
 						},
 						[1680] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1390,
+								["Ranoow"] = {
+									["amount"] = 14749,
 								},
 							},
-							["amount"] = 1390,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 26249,
-									["overkill"] = 2880,
-								},
-							},
-							["amount"] = 26249,
-							["overkill"] = 2880,
+							["amount"] = 14749,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 11471,
+								},
+								["Banze"] = {
+									["amount"] = 2274,
+								},
+							},
+							["amount"] = 13745,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 21095,
-								},
-								["Jhosah"] = {
-									["amount"] = 6091,
-								},
-								["Supdawgx"] = {
-									["amount"] = 9520,
+									["amount"] = 1170,
 								},
 							},
-							["amount"] = 36706,
+							["amount"] = 1170,
 						},
-						[48463] = {
-							["school"] = 64,
+						[23881] = {
+							["school"] = 1,
 							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 2467,
+								["Ranoow"] = {
+									["amount"] = 14813,
 								},
 							},
-							["amount"] = 2467,
+							["amount"] = 14813,
 						},
-						[48805] = {
-							["school"] = 2,
+						[47502] = {
+							["school"] = 1,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2186,
+								["Rimgar"] = {
+									["amount"] = 5785,
 								},
 							},
-							["amount"] = 2186,
+							["amount"] = 5785,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 7375,
+								},
+							},
+							["amount"] = 7375,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 593,
+								},
+							},
+							["amount"] = 593,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 13637,
+								},
+							},
+							["amount"] = 13637,
 						},
 						[12721] = {
 							["school"] = 1,
 							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1496,
+								["Ranoow"] = {
+									["amount"] = 3869,
 								},
 								["Rimgar"] = {
-									["amount"] = 7284,
+									["amount"] = 340,
 								},
 							},
-							["amount"] = 8780,
+							["amount"] = 4209,
 						},
-						[69403] = {
-							["school"] = 2,
+						[52212] = {
+							["school"] = 32,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1330,
+								["Banze"] = {
+									["amount"] = 10604,
 								},
 							},
-							["amount"] = 1330,
+							["amount"] = 10604,
 						},
-						[20467] = {
-							["school"] = 2,
+						[49909] = {
+							["school"] = 16,
 							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 648,
+								["Banze"] = {
+									["amount"] = 1318,
 								},
 							},
-							["amount"] = 648,
+							["amount"] = 1318,
 						},
-						[48468] = {
+					},
+					["name"] = "Anub'ar Skirmisher",
+					["totaldamage"] = 39086,
+					["totaldamagetaken"] = 202110,
+					["id"] = "0xF13000703E000073",
+					["damage"] = 39086,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[59364] = {
+							["school"] = 8,
+							["targets"] = {
+								["Ranoow"] = {
+									["amount"] = 8622,
+								},
+							},
+							["amount"] = 8622,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Rimgar"] = {
+									["amount"] = 5471,
+								},
+							},
+							["amount"] = 5471,
+						},
+					},
+					["damagetaken"] = 131284,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 232,
+								},
+							},
+							["amount"] = 232,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 8595,
+								},
+								["Rimgar"] = {
+									["amount"] = 6960,
+								},
+							},
+							["amount"] = 15555,
+						},
+						[20253] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 1049,
+								},
+							},
+							["amount"] = 1049,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 2572,
+								},
+								["Rimgar"] = {
+									["amount"] = 13095,
+								},
+								["Ranoow"] = {
+									["amount"] = 9057,
+								},
+								["Azgards"] = {
+									["amount"] = 3898,
+								},
+							},
+							["amount"] = 28622,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 7542,
+								},
+								["Rimgar"] = {
+									["amount"] = 20850,
+								},
+							},
+							["amount"] = 28392,
+						},
+						[49143] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2381,
+								},
+							},
+							["amount"] = 2381,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 689,
+								},
+							},
+							["amount"] = 689,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["overkill"] = 954,
+									["amount"] = 4196,
+								},
+							},
+							["overkill"] = 954,
+							["amount"] = 4196,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2873,
+								},
+							},
+							["amount"] = 2873,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 3773,
+								},
+							},
+							["amount"] = 3773,
+						},
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 9950,
+								},
+							},
+							["amount"] = 9950,
+						},
+						[47486] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 12617,
+								},
+							},
+							["amount"] = 12617,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 3041,
+								},
+							},
+							["amount"] = 3041,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 7658,
+								},
+							},
+							["amount"] = 7658,
+						},
+						[51425] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2778,
+								},
+							},
+							["amount"] = 2778,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 7478,
+								},
+							},
+							["amount"] = 7478,
+						},
+					},
+					["name"] = "Watcher Gashra",
+					["totaldamage"] = 14093,
+					["totaldamagetaken"] = 131284,
+					["id"] = "0xF13000703A000023",
+					["damage"] = 14093,
+				}, -- [4]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 7673,
+							["targets"] = {
+								["Banze"] = {
+									["total"] = 11624,
+									["amount"] = 11374,
+								},
+							},
+							["amount"] = 11374,
+						},
+						[59364] = {
+							["school"] = 8,
+							["total"] = 13510,
+							["targets"] = {
+								["Banze"] = {
+									["total"] = 17357,
+									["amount"] = 16423,
+								},
+							},
+							["amount"] = 16423,
+						},
+						[59366] = {
+							["school"] = 8,
+							["total"] = 2925,
+							["targets"] = {
+								["Azgards"] = {
+									["amount"] = 6499,
+								},
+								["Strichy"] = {
+									["amount"] = 7105,
+								},
+								["Rimgar"] = {
+									["amount"] = 6039,
+								},
+								["Ranoow"] = {
+									["amount"] = 6126,
+								},
+								["Banze"] = {
+									["total"] = 6766,
+									["amount"] = 6328,
+								},
+							},
+							["amount"] = 32097,
+						},
+					},
+					["damagetaken"] = 136629,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[53307] = {
 							["school"] = 8,
 							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 4601,
+								["Banze"] = {
+									["amount"] = 1086,
 								},
 							},
-							["amount"] = 4601,
+							["amount"] = 1086,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 3995,
+								},
+							},
+							["amount"] = 3995,
+						},
+						[12723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 9923,
+								},
+							},
+							["amount"] = 9923,
+						},
+						[56815] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["overkill"] = 6299,
+									["amount"] = 10048,
+								},
+							},
+							["overkill"] = 6299,
+							["amount"] = 10048,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 16457,
+								},
+								["Rimgar"] = {
+									["amount"] = 10511,
+								},
+							},
+							["amount"] = 26968,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 2831,
+								},
+							},
+							["amount"] = 2831,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 3574,
+								},
+							},
+							["amount"] = 3574,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 13439,
+								},
+							},
+							["amount"] = 13439,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 5995,
+								},
+								["Banze"] = {
+									["amount"] = 7213,
+								},
+							},
+							["amount"] = 13208,
+						},
+						[50783] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 4831,
+								},
+							},
+							["amount"] = 4831,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4712,
+								},
+							},
+							["amount"] = 4712,
+						},
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 6153,
+								},
+							},
+							["amount"] = 6153,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 7518,
+								},
+							},
+							["amount"] = 7518,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 5204,
+								},
+							},
+							["amount"] = 5204,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 3599,
+								},
+							},
+							["amount"] = 3599,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 2790,
+								},
+							},
+							["amount"] = 2790,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 5515,
+								},
+								["Rimgar"] = {
+									["amount"] = 6647,
+								},
+							},
+							["amount"] = 12162,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 241,
+								},
+							},
+							["amount"] = 241,
+						},
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 4347,
+								},
+							},
+							["amount"] = 4347,
+						},
+					},
+					["name"] = "Watcher Silthik",
+					["totaldamage"] = 61516,
+					["totaldamagetaken"] = 136629,
+					["id"] = "0xF13000703B00006F",
+					["damage"] = 59894,
+				}, -- [5]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Ranoow"] = {
+									["amount"] = 4304,
+								},
+								["Rimgar"] = {
+									["amount"] = 5181,
+								},
+							},
+							["amount"] = 9485,
+						},
+					},
+					["damagetaken"] = 131104,
+					["id"] = "0xF130007039000022",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1836,
+								},
+							},
+							["amount"] = 1836,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2897,
+								},
+							},
+							["amount"] = 2897,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 4701,
+								},
+							},
+							["amount"] = 4701,
+						},
+						[22858] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 9989,
+								},
+							},
+							["amount"] = 9989,
+						},
+						[56815] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4300,
+								},
+							},
+							["amount"] = 4300,
+						},
+						[47486] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 17228,
+								},
+							},
+							["amount"] = 17228,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 774,
+									["amount"] = 32249,
+								},
+							},
+							["overkill"] = 774,
+							["amount"] = 32249,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 5513,
+								},
+							},
+							["amount"] = 5513,
+						},
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1892,
+								},
+							},
+							["amount"] = 1892,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 3506,
+								},
+							},
+							["amount"] = 3506,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1894,
+								},
+								["Banze"] = {
+									["amount"] = 5114,
+								},
+							},
+							["amount"] = 7008,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 5832,
+								},
+							},
+							["amount"] = 5832,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 6103,
+								},
+							},
+							["amount"] = 6103,
+						},
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 1328,
+								},
+							},
+							["amount"] = 1328,
+						},
+						[49143] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 1187,
+								},
+							},
+							["amount"] = 1187,
+						},
+						[12723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 12132,
+								},
+							},
+							["amount"] = 12132,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 821,
+								},
+								["Rimgar"] = {
+									["amount"] = 9926,
+								},
+							},
+							["amount"] = 10747,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 228,
+								},
+							},
+							["amount"] = 228,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2428,
+								},
+							},
+							["amount"] = 2428,
+						},
+					},
+					["totaldamage"] = 9485,
+					["name"] = "Watcher Narjil",
+					["totaldamagetaken"] = 131104,
+					["flag"] = 2632,
+					["damage"] = 9485,
+				}, -- [6]
+				{
+					["damagespells"] = {
+						[59357] = {
+							["school"] = 32,
+							["targets"] = {
+								["Rimgar"] = {
+									["amount"] = 31223,
+								},
+								["Strichy"] = {
+									["amount"] = 26470,
+								},
+							},
+							["amount"] = 57693,
+						},
+						[59358] = {
+							["school"] = 32,
+							["targets"] = {
+								["Rimgar"] = {
+									["amount"] = 7675,
+								},
+								["Banze"] = {
+									["amount"] = 3903,
+								},
+								["Ranoow"] = {
+									["amount"] = 7184,
+								},
+								["Azgards"] = {
+									["amount"] = 6027,
+								},
+							},
+							["amount"] = 24789,
+						},
+					},
+					["damagetaken"] = 114996,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[49941] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4768,
+								},
+							},
+							["amount"] = 4768,
+						},
+						[12723] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 10387,
+								},
+							},
+							["amount"] = 10387,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["overkill"] = 449,
+									["amount"] = 3025,
+								},
+								["Banze"] = {
+									["amount"] = 2837,
+								},
+								["Rimgar"] = {
+									["amount"] = 4946,
+								},
+							},
+							["overkill"] = 449,
+							["amount"] = 10808,
+						},
+						[47520] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 4459,
+								},
+							},
+							["amount"] = 4459,
+						},
+						[1680] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 24960,
+								},
+							},
+							["amount"] = 24960,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 9653,
+								},
+							},
+							["amount"] = 9653,
+						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 2075,
+								},
+							},
+							["amount"] = 2075,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 7861,
+								},
+							},
+							["amount"] = 7861,
+						},
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 9687,
+									["amount"] = 11393,
+								},
+							},
+							["overkill"] = 9687,
+							["amount"] = 11393,
+						},
+						[47486] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 15043,
+								},
+							},
+							["amount"] = 15043,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 5347,
+								},
+							},
+							["amount"] = 5347,
+						},
+						[52212] = {
+							["school"] = 32,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4066,
+								},
+							},
+							["amount"] = 4066,
+						},
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 240,
+								},
+							},
+							["amount"] = 240,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 1923,
+								},
+								["Rimgar"] = {
+									["amount"] = 2013,
+								},
+							},
+							["amount"] = 3936,
+						},
+					},
+					["name"] = "Anub'ar Shadowcaster",
+					["totaldamage"] = 82482,
+					["totaldamagetaken"] = 114996,
+					["id"] = "0xF13000703D000027",
+					["damage"] = 82482,
+				}, -- [7]
+				{
+					["id"] = "0xF130003A2100001B",
+					["name"] = "Spider",
+					["totaldamagetaken"] = 243,
+					["flag"] = 2600,
+					["class"] = "MONSTER",
+					["damagetaken"] = 243,
+					["damagetakenspells"] = {
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 234,
+									["amount"] = 243,
+								},
+							},
+							["overkill"] = 234,
+							["amount"] = 243,
+						},
+					},
+				}, -- [8]
+				{
+					["damagespells"] = {
+						[59368] = {
+							["school"] = 32,
+							["total"] = 16992,
+							["targets"] = {
+								["Azgards"] = {
+									["amount"] = 5880,
+								},
+								["Banze"] = {
+									["total"] = 5437,
+									["amount"] = 2991,
+								},
+								["Rimgar"] = {
+									["amount"] = 5675,
+								},
+							},
+							["amount"] = 14546,
+						},
+						[59367] = {
+							["school"] = 32,
+							["targets"] = {
+								["Banze"] = {
+									["amount"] = 8478,
+								},
+							},
+							["amount"] = 8478,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Banze"] = {
+									["amount"] = 2811,
+								},
+							},
+							["amount"] = 2811,
+						},
+					},
+					["damagetaken"] = 345741,
+					["flag"] = 68168,
+					["class"] = "BOSS",
+					["damagetakenspells"] = {
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Azgards"] = {
+									["overkill"] = 653,
+									["amount"] = 1197,
+								},
+								["Banze"] = {
+									["amount"] = 1927,
+								},
+							},
+							["overkill"] = 653,
+							["amount"] = 3124,
+						},
+						[53307] = {
+							["school"] = 8,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 362,
+								},
+							},
+							["amount"] = 362,
+						},
+						[49930] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 4474,
+								},
+							},
+							["amount"] = 4474,
 						},
 						[7384] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 22220,
+									["amount"] = 24134,
 								},
 							},
-							["amount"] = 22220,
+							["amount"] = 24134,
 						},
-					},
-					["totaldamage"] = 3553,
-					["name"] = "Portal Guardian",
-					["totaldamagetaken"] = 165615,
-					["id"] = "0xF1300078AC00005F",
-					["damage"] = 0,
-				}, -- [1]
-			},
-			["totaldamage"] = 165615,
-			["time"] = 21,
-			["last_time"] = 12642.49,
-			["totaldamagetaken"] = 3553,
-			["etotaldamagetaken"] = 165615,
-			["damage"] = 165615,
-			["overheal"] = 6589,
-			["type"] = "party",
-			["damagetaken"] = 0,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["hitmin"] = 5109,
-							["criticalamount"] = 11508,
-							["id"] = 47486,
-							["count"] = 2,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 16617,
+						[23881] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 19452,
 								},
 							},
-							["criticalmax"] = 11508,
-							["criticalmin"] = 11508,
-							["casts"] = 2,
-							["hitmax"] = 5109,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 16617,
-							["critical"] = 1,
-							["hitamount"] = 5109,
+							["amount"] = 19452,
 						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 406,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 7284,
+						[56815] = {
+							["school"] = 1,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 10290,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 1235,
-							["amount"] = 7284,
-							["hitamount"] = 7284,
+							["amount"] = 10290,
 						},
-						["Overpower"] = {
-							["criticalamount"] = 22220,
-							["id"] = 7384,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 22220,
+						[47486] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 30640,
 								},
 							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 22220,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 12361,
-							["criticalmin"] = 9859,
+							["amount"] = 30640,
 						},
-						["Melee"] = {
-							["hitmin"] = 2940,
-							["criticalamount"] = 18155,
-							["id"] = 6603,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 21095,
+						[51425] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 6420,
 								},
 							},
-							["criticalmin"] = 7866,
-							["amount"] = 21095,
-							["criticalmax"] = 10289,
-							["critical"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2940,
-							["count"] = 3,
-							["hitamount"] = 2940,
+							["amount"] = 6420,
 						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1770,
-							["id"] = 47465,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 5310,
+						[49909] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 6481,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 3,
+							["amount"] = 6481,
+						},
+						[1680] = {
 							["school"] = 1,
-							["hitmax"] = 1770,
-							["amount"] = 5310,
-							["hitamount"] = 5310,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 7888,
+								},
+							},
+							["amount"] = 7888,
 						},
-					},
-					["last"] = 12635.208,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[71905] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 4,
-						},
-						[65156] = {
+						[20647] = {
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 21,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 18746,
+								},
+								["Rimgar"] = {
+									["amount"] = 5098,
+								},
+							},
+							["amount"] = 23844,
 						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
+						[55078] = {
+							["school"] = 32,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 304,
+								},
+								["Banze"] = {
+									["amount"] = 2293,
+								},
+							},
+							["amount"] = 2597,
 						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 3661,
+								},
+								["Banze"] = {
+									["amount"] = 13124,
+								},
+								["Ranoow"] = {
+									["amount"] = 41363,
+								},
+								["Rimgar"] = {
+									["amount"] = 22398,
+								},
+							},
+							["amount"] = 80546,
 						},
-						[71541] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
+						[50783] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 11819,
+								},
+							},
+							["amount"] = 11819,
 						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
+						[71904] = {
+							["school"] = 32,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 1885,
+								},
+							},
+							["amount"] = 1885,
+						},
+						[49184] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 3106,
+								},
+							},
+							["amount"] = 3106,
+						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Banze"] = {
+									["amount"] = 2580,
+								},
+							},
+							["amount"] = 2580,
 						},
 						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
 							["school"] = 1,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["uptime"] = 11,
-									["count"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 8531,
 								},
 							},
-							["uptime"] = 11,
+							["amount"] = 8531,
 						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
+						[47502] = {
 							["school"] = 1,
-							["refresh"] = 4,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 9,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 1767,
 								},
 							},
-							["uptime"] = 9,
+							["amount"] = 1767,
 						},
-						[47436] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[60503] = {
+						[49921] = {
 							["school"] = 1,
-							["type"] = "BUFF",
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 630,
+								},
+								["Banze"] = {
+									["amount"] = 5409,
+								},
+							},
+							["amount"] = 6039,
+						},
+						[44949] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 4644,
+								},
+							},
+							["amount"] = 4644,
+						},
+						[49143] = {
+							["school"] = 16,
+							["sources"] = {
+								["Azgards"] = {
+									["amount"] = 2995,
+								},
+							},
+							["amount"] = 2995,
+						},
+						[12721] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 10740,
+								},
+								["Rimgar"] = {
+									["amount"] = 17463,
+								},
+							},
+							["amount"] = 28203,
+						},
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 8178,
+								},
+								["Rimgar"] = {
+									["amount"] = 11277,
+								},
+							},
+							["amount"] = 19455,
+						},
+						[47450] = {
+							["school"] = 1,
+							["sources"] = {
+								["Ranoow"] = {
+									["amount"] = 9019,
+								},
+								["Rimgar"] = {
+									["amount"] = 25446,
+								},
+							},
+							["amount"] = 34465,
+						},
+					},
+					["name"] = "Krik'thir the Gatewatcher",
+					["totaldamage"] = 28281,
+					["totaldamagetaken"] = 345741,
+					["id"] = "0xF13000700C000021",
+					["damage"] = 25835,
+				}, -- [9]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Strichy"] = {
+									["amount"] = 14871,
+								},
+							},
+							["amount"] = 14871,
+						},
+					},
+					["damagetaken"] = 28464,
+					["id"] = "0xF1300070400000BB",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Strichy"] = {
+									["amount"] = 28464,
+								},
+							},
+							["amount"] = 28464,
+						},
+					},
+					["totaldamage"] = 14871,
+					["name"] = "Skittering Infector",
+					["totaldamagetaken"] = 28464,
+					["flag"] = 2632,
+					["damage"] = 14871,
+				}, -- [10]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Azgards"] = {
+									["amount"] = 458,
+								},
+								["Strichy"] = {
+									["amount"] = 22147,
+								},
+							},
+							["amount"] = 22605,
+						},
+					},
+					["damagetaken"] = 7381,
+					["id"] = "0xF13000703F0000AF",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[48466] = {
+							["school"] = 8,
+							["sources"] = {
+								["Strichy"] = {
+									["overkill"] = 821,
+									["amount"] = 7381,
+								},
+							},
+							["overkill"] = 821,
+							["amount"] = 7381,
+						},
+					},
+					["totaldamage"] = 22605,
+					["name"] = "Skittering Swarmer",
+					["totaldamagetaken"] = 7381,
+					["flag"] = 2632,
+					["damage"] = 22605,
+				}, -- [11]
+			},
+			["runic"] = 324,
+			["totaldamage"] = 1418760,
+			["time"] = 83,
+			["etotaldamage"] = 324739,
+			["totaldamagetaken"] = 324739,
+			["etotaldamagetaken"] = 1418760,
+			["last_time"] = 1130.852,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
 							["count"] = 2,
-							["uptime"] = 3,
+							["targets"] = {
+								["Watcher Gashra"] = 1,
+								["Anub'ar Warrior"] = 1,
+							},
 						},
+					},
+					["last"] = 1122.598,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 21,
+							["uptime"] = 83,
+						},
+						[73422] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[60503] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 11,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[12328] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 45,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 76,
+						},
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
 						},
 						[47486] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 18,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 9,
-								},
-							},
-							["uptime"] = 9,
-						},
-						[59752] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-					},
-					["totaldamage"] = 72526,
-					["name"] = "Rimgar",
-					["class"] = "WARRIOR",
-					["time"] = 11.71,
-					["flag"] = 1297,
-					["role"] = "DAMAGER",
-					["damage"] = 72526,
-				}, -- [1]
-				{
-					["last"] = 12635.523,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[48951] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 17,
-						},
-						[48066] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48818] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-					},
-					["totaldamage"] = 32249,
-					["time"] = 11.98,
-					["totaldamagetaken"] = 3553,
-					["damage"] = 32249,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 297,
-							["id"] = 48818,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 4185,
-								},
-							},
-							["count"] = 12,
-							["casts"] = 2,
-							["hitmax"] = 373,
-							["hit"] = 12,
-							["school"] = 2,
-							["resisted"] = 33,
-							["amount"] = 4185,
-							["hitamount"] = 4185,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2177,
-							["id"] = 53595,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 4637,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 2460,
-							["amount"] = 4637,
-							["hitamount"] = 4637,
-						},
-						["Melee"] = {
-							["glance"] = 950,
-							["hitmin"] = 453,
-							["criticalmin"] = 1006,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 6091,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 6091,
-							["glancemin"] = 446,
-							["criticalamount"] = 3108,
-							["id"] = 6603,
-							["glancemax"] = 504,
-							["hitmax"] = 558,
-							["criticalmax"] = 1088,
-							["critical"] = 3,
-							["hit"] = 4,
-							["school"] = 1,
-							["count"] = 9,
-							["blocked"] = 40,
-							["hitamount"] = 2033,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 2677,
-							["criticalamount"] = 4736,
-							["id"] = 53600,
-							["count"] = 2,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 7413,
-								},
-							},
-							["criticalmax"] = 4736,
-							["criticalmin"] = 4736,
-							["casts"] = 2,
-							["hitmax"] = 2677,
-							["hit"] = 1,
-							["school"] = 2,
-							["amount"] = 7413,
-							["critical"] = 1,
-							["hitamount"] = 2677,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 633,
-							["id"] = 48951,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 1266,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 633,
-							["amount"] = 1266,
-							["hitamount"] = 1266,
-						},
-						["Seal of Command"] = {
-							["criticalmin"] = 517,
-							["hitmin"] = 287,
-							["criticalamount"] = 3085,
-							["id"] = 20424,
-							["amount"] = 5823,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 5823,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 13,
-							["criticalmax"] = 684,
-							["hitmax"] = 391,
-							["hit"] = 8,
-							["school"] = 2,
-							["resisted"] = 205,
-							["critical"] = 5,
-							["hitamount"] = 2738,
-						},
-						["Hammer of Wrath"] = {
-							["hitmin"] = 2186,
-							["id"] = 48805,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2186,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2186,
-							["amount"] = 2186,
-							["hitamount"] = 2186,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 648,
-							["id"] = 20467,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 648,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 1,
-							["hitmax"] = 648,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 71,
-							["amount"] = 648,
-							["hitamount"] = 648,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 2282,
-							["id"] = 6603,
-							["sources"] = {
-								["Portal Guardian"] = {
-									["amount"] = 0,
-									["total"] = 2282,
-								},
-							},
-							["count"] = 6,
-							["ABSORB"] = 3,
-							["school"] = 1,
-							["amount"] = 0,
-							["PARRY"] = 2,
-						},
-						["Overpower"] = {
-							["total"] = 1271,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 58516,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Guardian"] = {
-									["amount"] = 0,
-									["total"] = 1271,
-								},
-							},
-						},
-					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["mana"] = 1765,
-					["manaspells"] = {
-						[57319] = 775,
-						[20268] = 990,
-					},
-				}, -- [2]
-				{
-					["overheal"] = 4902,
-					["absorb"] = 3553,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["healspells"] = {
-						[33110] = {
-							["overheal"] = 3056,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 3056,
-									["amount"] = 0,
-								},
-							},
-						},
-						[56160] = {
-							["overheal"] = 1846,
-							["criticalamount"] = 0,
-							["max"] = 1231,
-							["targets"] = {
-								["Scrakekf"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-								["Jhosah"] = {
-									["overheal"] = 1846,
-									["amount"] = 0,
-								},
-							},
-							["min"] = 1231,
-							["criticalmax"] = 0,
-							["count"] = 2,
-							["amount"] = 1231,
-							["school"] = 2,
-							["critical"] = 1,
-							["criticalmin"] = 0,
-						},
-					},
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[47436] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Scrakekf"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-								["Jhosah"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[59891] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 14,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 202,
-							["casts"] = 3,
-							["count"] = 4,
-							["amount"] = 3553,
-							["max"] = 1859,
-							["targets"] = {
-								["Jhosah"] = 3553,
-							},
-							["school"] = 2,
-						},
-					},
-					["heal"] = 1231,
-					["time"] = 10.45,
-					["name"] = "Aandra",
-					["role"] = "HEALER",
-					["spec"] = 256,
-					["id"] = "0x0700000000AD81EB",
-					["last"] = 12635.09,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1080,
-							["id"] = 48468,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 4601,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 8,
-							["hitmax"] = 1221,
-							["amount"] = 4601,
-							["hitamount"] = 4601,
-						},
-						["Wrath"] = {
-							["hitmax"] = 3429,
-							["hitmin"] = 3355,
-							["criticalamount"] = 12711,
-							["id"] = 48461,
-							["criticalmax"] = 6726,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 26249,
-									["overkill"] = 2880,
-								},
-							},
-							["overkill"] = 2880,
-							["criticalmin"] = 5985,
-							["casts"] = 6,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 8,
-							["amount"] = 26249,
-							["critical"] = 2,
-							["hitamount"] = 13538,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 683,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 1441,
-								},
-							},
-							["count"] = 2,
-							["hitmax"] = 758,
-							["hit"] = 2,
-							["school"] = 64,
-							["resisted"] = 75,
-							["amount"] = 1441,
-							["hitamount"] = 1441,
-						},
-						["Moonfire"] = {
-							["hitmin"] = 1026,
-							["id"] = 48463,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 1026,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 1026,
-							["amount"] = 1026,
-							["hitamount"] = 1026,
-						},
-						["Typhoon"] = {
-							["criticalamount"] = 3781,
-							["id"] = 53227,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 3781,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3781,
-							["school"] = 8,
-							["count"] = 1,
-							["criticalmax"] = 3781,
-							["criticalmin"] = 3781,
-						},
-					},
-					["last"] = 12635.639,
-					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["manaspells"] = {
-						[53506] = 1124,
-					},
-					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[48518] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[47436] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[16886] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 9,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["refresh"] = 5,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 5,
-									["count"] = 1,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[48468] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
-						[67360] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
-						},
-					},
-					["mana"] = 1124,
-					["totaldamage"] = 37098,
-					["time"] = 12.15,
-					["name"] = "Scrakekf",
-					["overkill"] = 2880,
-					["spec"] = 102,
-					["id"] = "0x0700000000ABE036",
-					["damage"] = 37098,
-				}, -- [4]
-				{
-					["last"] = 12634.483,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[47436] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 21,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
-							["uptime"] = 16,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 6,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 16,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 21,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
+							["uptime"] = 30,
 							["school"] = 1,
 							["refresh"] = 3,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 9,
+								["Krik'thir the Gatewatcher"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 16,
+								},
+								["Watcher Gashra"] = {
+									["uptime"] = 7,
+									["count"] = 1,
+								},
+								["Anub'ar Warrior"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Watcher Narjil"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 6,
 								},
 							},
-							["uptime"] = 9,
+							["count"] = 5,
 						},
-					},
-					["totaldamage"] = 23742,
-					["time"] = 10.97,
-					["damage"] = 23742,
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1585,
-							["criticalamount"] = 3487,
-							["id"] = 23881,
-							["criticalmin"] = 3487,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 6657,
-								},
-							},
-							["amount"] = 6657,
-							["hitmax"] = 1585,
-							["criticalmax"] = 3487,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 1,
-							["count"] = 3,
-							["casts"] = 3,
-							["hitamount"] = 3170,
-						},
-						["Melee"] = {
-							["hitmin"] = 764,
-							["criticalamount"] = 6282,
-							["id"] = 6603,
-							["count"] = 8,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 9520,
-								},
-							},
-							["critical"] = 3,
-							["criticalmin"] = 1444,
-							["criticalmax"] = 2466,
-							["hitmax"] = 1248,
-							["hit"] = 3,
-							["school"] = 1,
-							["amount"] = 9520,
-							["MISS"] = 2,
-							["hitamount"] = 3238,
-						},
-						["Slam"] = {
-							["criticalamount"] = 3491,
-							["id"] = 50783,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 3491,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 3491,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 3491,
-							["criticalmin"] = 3491,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 861,
-							["id"] = 1680,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2251,
-								},
-							},
-							["casts"] = 2,
+						[71541] = {
+							["type"] = "BUFF",
 							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1390,
-							["amount"] = 2251,
-							["hitamount"] = 2251,
+							["school"] = 64,
+							["uptime"] = 30,
 						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 187,
-							["id"] = 12721,
+						[47502] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 18,
+							["school"] = 1,
+							["refresh"] = 5,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 1496,
+								["Watcher Narjil"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 8,
+								},
+								["Watcher Gashra"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Anub'ar Warrior"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 12,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 18,
+								},
+								["Anub'ar Skirmisher"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 10,
 								},
 							},
 							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 187,
-							["amount"] = 1496,
-							["hitamount"] = 1496,
 						},
-						["Intercept"] = {
-							["hitmin"] = 327,
-							["id"] = 20253,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 327,
-								},
-							},
-							["casts"] = 1,
+						[65156] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 8,
+						},
+						[29842] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[72412] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 327,
-							["amount"] = 327,
-							["hitamount"] = 327,
+							["uptime"] = 10,
 						},
-					},
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 1687,
-							["count"] = 7,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 1687,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 10,
-					},
-					["name"] = "Supdawgx",
-					["role"] = "DAMAGER",
-					["heal"] = 0,
-					["rage"] = 30,
-					["overheal"] = 1687,
-				}, -- [5]
-			},
-			["rage"] = 30,
-			["starttime"] = 1728655346,
-			["etotaldamage"] = 3553,
-			["overkill"] = 2880,
-			["edamagetaken"] = 165615,
-			["heal"] = 1231,
-			["name"] = "Portal Guardian (3)",
-			["mobname"] = "Portal Guardian",
-			["absorb"] = 3553,
-			["edamage"] = 0,
-			["last_action"] = 1728655365,
-			["endtime"] = 1728655367,
-		}, -- [12]
-		{
-			["mana"] = 10143,
-			["players"] = {
-				{
-					["last"] = 12572.233,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[48066] = {
+						[59620] = {
 							["type"] = "BUFF",
 							["count"] = 2,
 							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 25,
+							["refresh"] = 5,
+							["uptime"] = 57,
 						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 11,
-							["uptime"] = 24,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[64850] = {
+						[47465] = {
 							["type"] = "DEBUFF",
-							["uptime"] = 16,
+							["uptime"] = 18,
 							["school"] = 1,
-							["refresh"] = 1,
 							["targets"] = {
-								["Lavanthor"] = {
-									["refresh"] = 1,
-									["count"] = 2,
-									["uptime"] = 16,
+								["Krik'thir the Gatewatcher"] = {
+									["uptime"] = 13,
+									["count"] = 1,
+								},
+								["Anub'ar Warrior"] = {
+									["uptime"] = 5,
+									["count"] = 1,
 								},
 							},
 							["count"] = 2,
 						},
 						[75456] = {
-							["school"] = 64,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 30,
 						},
-						[47465] = {
+						[64850] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Lavanthor"] = {
-									["uptime"] = 21,
+								["Krik'thir the Gatewatcher"] = {
+									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 21,
+							["uptime"] = 3,
 						},
-						[48942] = {
+						[1719] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Watcher Gashra"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+								["Anub'ar Warrior"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["count"] = 2,
+						},
+						[2457] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["uptime"] = 26,
+						},
+						[46857] = {
+							["type"] = "DEBUFF",
+							["count"] = 9,
+							["school"] = 1,
+							["refresh"] = 20,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["count"] = 1,
+									["refresh"] = 7,
+									["uptime"] = 16,
+								},
+								["Watcher Narjil"] = {
+									["count"] = 1,
+									["refresh"] = 3,
+									["uptime"] = 8,
+								},
+								["Watcher Silthik"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Anub'ar Webspinner"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 3,
+								},
+								["Watcher Gashra"] = {
+									["count"] = 1,
+									["refresh"] = 4,
+									["uptime"] = 10,
+								},
+								["Anub'ar Warrior"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 2,
+								},
+								["Anub'ar Skirmisher"] = {
+									["count"] = 1,
+									["refresh"] = 3,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 43,
+						},
+						[71905] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 26,
+							["uptime"] = 74,
+						},
+						[46924] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[52437] = {
+							["type"] = "BUFF",
+							["uptime"] = 22,
+							["school"] = 1,
+							["refresh"] = 1,
+							["count"] = 2,
+						},
+						[48447] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 6,
 						},
 						[47436] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 26,
+							["uptime"] = 83,
 						},
-						[59620] = {
-							["school"] = 2,
+						[2458] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 19,
 							["school"] = 1,
-							["refresh"] = 2,
-							["targets"] = {
-								["Lavanthor"] = {
-									["refresh"] = 2,
-									["count"] = 1,
-									["uptime"] = 19,
-								},
-							},
-							["count"] = 1,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 17,
-							["school"] = 1,
-							["refresh"] = 10,
-							["targets"] = {
-								["Lavanthor"] = {
-									["refresh"] = 10,
-									["count"] = 1,
-									["uptime"] = 17,
-								},
-							},
-							["count"] = 1,
-						},
-						[47502] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 16,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Lavanthor"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 16,
-								},
-							},
-							["count"] = 1,
-						},
-						[60503] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 3,
 							["uptime"] = 1,
 						},
-						[72221] = {
+						[47440] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[29131] = {
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 17,
-							["school"] = 1,
-							["refresh"] = 11,
-							["targets"] = {
-								["Lavanthor"] = {
-									["refresh"] = 11,
-									["count"] = 1,
-									["uptime"] = 17,
-								},
-							},
-							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 70,
 						},
 						[57522] = {
 							["type"] = "BUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 10,
-							["uptime"] = 21,
+							["refresh"] = 24,
+							["uptime"] = 76,
 						},
-						[71541] = {
-							["school"] = 64,
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["uptime"] = 83,
+						},
+						[20230] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[70855] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 25,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[16491] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 28,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 14,
+							["school"] = 1,
+							["refresh"] = 23,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["count"] = 1,
+									["refresh"] = 7,
+									["uptime"] = 16,
+								},
+								["Watcher Silthik"] = {
+									["uptime"] = 18,
+									["count"] = 3,
+								},
+								["Watcher Narjil"] = {
+									["count"] = 1,
+									["refresh"] = 5,
+									["uptime"] = 10,
+								},
+								["Anub'ar Webspinner"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 3,
+								},
+								["Watcher Gashra"] = {
+									["count"] = 1,
+									["refresh"] = 5,
+									["uptime"] = 9,
+								},
+								["Anub'ar Warrior"] = {
+									["count"] = 4,
+									["refresh"] = 2,
+									["uptime"] = 16,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 5,
+								},
+								["Anub'ar Skirmisher"] = {
+									["count"] = 2,
+									["refresh"] = 2,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 42,
 						},
 					},
-					["role"] = "DAMAGER",
-					["time"] = 22.05,
-					["totaldamagetaken"] = 13650,
-					["damage"] = 183324,
+					["time"] = 57.24000000000002,
+					["totaldamagetaken"] = 63886,
+					["damage"] = 595074,
 					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 3250,
-							["criticalamount"] = 19892,
-							["id"] = 6603,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 23142,
-								},
-							},
-							["criticalmin"] = 9538,
-							["amount"] = 23142,
-							["criticalmax"] = 10354,
-							["critical"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3250,
-							["count"] = 3,
-							["hitamount"] = 3250,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 1953,
-							["id"] = 71904,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 4439,
-								},
-							},
-							["count"] = 2,
-							["casts"] = 1,
-							["hitmax"] = 2486,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 217,
-							["amount"] = 4439,
-							["hitamount"] = 4439,
-						},
-						["Execute"] = {
-							["criticalamount"] = 19723,
-							["id"] = 20647,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 19723,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 19723,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 9916,
-							["criticalmin"] = 9807,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 4082,
-							["criticalamount"] = 27402,
-							["id"] = 47486,
-							["criticalmin"] = 13146,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 31484,
-								},
-							},
-							["amount"] = 31484,
-							["hitmax"] = 4082,
-							["criticalmax"] = 14256,
-							["critical"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["count"] = 3,
-							["casts"] = 3,
-							["hitamount"] = 4082,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 1455,
-							["criticalamount"] = 3747,
-							["id"] = 47502,
-							["criticalmin"] = 3747,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 5202,
-								},
-							},
-							["amount"] = 5202,
-							["hitmax"] = 1455,
-							["criticalmax"] = 3747,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["count"] = 2,
-							["casts"] = 2,
-							["hitamount"] = 1455,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1630,
-							["id"] = 47465,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 9780,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 1,
-							["hitmax"] = 1630,
-							["amount"] = 9780,
-							["hitamount"] = 9780,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 759,
-							["id"] = 12721,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 23361,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 2933,
-							["amount"] = 23361,
-							["hitamount"] = 23361,
-						},
 						["Overpower"] = {
-							["criticalamount"] = 35001,
+							["criticalamount"] = 24134,
 							["id"] = 7384,
 							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 35001,
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 24134,
 								},
 							},
-							["casts"] = 3,
-							["critical"] = 3,
-							["amount"] = 35001,
+							["casts"] = 2,
+							["critical"] = 2,
+							["amount"] = 24134,
 							["school"] = 1,
-							["count"] = 3,
-							["criticalmax"] = 12895,
-							["criticalmin"] = 10647,
+							["criticalmin"] = 11994,
+							["criticalmax"] = 12140,
+							["count"] = 2,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 328,
+							["id"] = 12721,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 17463,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 9926,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 340,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 829,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 6960,
+								},
+								["Anub'ar Warrior"] = {
+									["overkill"] = 320,
+									["amount"] = 8578,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 2013,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 6647,
+								},
+							},
+							["overkill"] = 320,
+							["count"] = 67,
+							["hit"] = 67,
+							["school"] = 1,
+							["hitmax"] = 2048,
+							["amount"] = 52756,
+							["hitamount"] = 52756,
+						},
+						["Chaos Bane"] = {
+							["hitmin"] = 201,
+							["id"] = 71904,
+							["targets"] = {
+								["Spider"] = {
+									["overkill"] = 234,
+									["amount"] = 243,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 1141,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 240,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 1170,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 697,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 232,
+								},
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 1885,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 228,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 241,
+								},
+							},
+							["overkill"] = 234,
+							["hitmax"] = 1885,
+							["casts"] = 1,
+							["count"] = 13,
+							["hit"] = 13,
+							["school"] = 32,
+							["resisted"] = 231,
+							["amount"] = 6077,
+							["hitamount"] = 6077,
+						},
+						["Execute"] = {
+							["hitmin"] = 5098,
+							["id"] = 20647,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 5098,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 5098,
+							["amount"] = 5098,
+							["hitamount"] = 5098,
+						},
+						["Whirlwind"] = {
+							["hitmin"] = 3680,
+							["criticalamount"] = 47555,
+							["id"] = 50622,
+							["criticalmin"] = 8147,
+							["targets"] = {
+								["Anub'ar Warrior"] = {
+									["amount"] = 11960,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 37964,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 18429,
+								},
+							},
+							["criticalmax"] = 10317,
+							["critical"] = 5,
+							["casts"] = 1,
+							["count"] = 10,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 4615,
+							["amount"] = 68353,
+							["hitamount"] = 20798,
 						},
 						["Charge Stun"] = {
 							["casts"] = 1,
@@ -20796,4295 +10792,2829 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["IMMUNE"] = 1,
 							["targets"] = {
-								["Lavanthor"] = {
+								["Krik'thir the Gatewatcher"] = {
 									["amount"] = 0,
 								},
 							},
 							["id"] = 7922,
 						},
-						["Heroic Strike"] = {
-							["hitmin"] = 4610,
-							["criticalamount"] = 21734,
-							["id"] = 47450,
-							["count"] = 4,
+						["Melee"] = {
+							["glance"] = 18516,
+							["hitmin"] = 4450,
+							["criticalmin"] = 7432,
 							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 31192,
+								["Anub'ar Webspinner"] = {
+									["overkill"] = 6653,
+									["amount"] = 17492,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 13095,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 5970,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 4946,
+								},
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 22398,
 								},
 							},
-							["criticalmax"] = 12073,
-							["criticalmin"] = 9661,
-							["casts"] = 4,
-							["hitmax"] = 4848,
+							["glancing"] = 5,
+							["amount"] = 63901,
+							["glancemin"] = 2902,
+							["criticalamount"] = 36069,
+							["id"] = 6603,
+							["glancemax"] = 4946,
+							["overkill"] = 6653,
+							["blocked"] = 40,
+							["criticalmax"] = 10060,
+							["critical"] = 4,
 							["hit"] = 2,
 							["school"] = 1,
-							["amount"] = 31192,
+							["hitmax"] = 4866,
+							["count"] = 11,
+							["hitamount"] = 9316,
+						},
+						["Sweeping Strikes"] = {
+							["hitmin"] = 3846,
+							["id"] = 12723,
+							["targets"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 9923,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 4871,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 12132,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 20874,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 10387,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 19238,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 10,
+							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 12132,
+							["amount"] = 77425,
+							["hitamount"] = 77425,
+						},
+						["Thunder Clap"] = {
+							["blocked"] = 41,
+							["hitmin"] = 1309,
+							["criticalamount"] = 34386,
+							["id"] = 47502,
+							["hitmax"] = 1767,
+							["targets"] = {
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 5785,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 7518,
+								},
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 1767,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 3041,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 13861,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 7861,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 6103,
+								},
+							},
+							["count"] = 19,
+							["hit"] = 8,
+							["casts"] = 4,
+							["critical"] = 11,
+							["amount"] = 45936,
+							["school"] = 1,
+							["criticalmin"] = 2926,
+							["criticalmax"] = 3479,
+							["hitamount"] = 11550,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 911,
+							["id"] = 47465,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 8531,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 911,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 2133,
+							["amount"] = 9442,
+							["hitamount"] = 9442,
+						},
+						["Retaliation"] = {
+							["criticalamount"] = 9989,
+							["id"] = 22858,
+							["targets"] = {
+								["Watcher Narjil"] = {
+									["amount"] = 9989,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 9989,
+							["school"] = 1,
+							["criticalmin"] = 9989,
+							["criticalmax"] = 9989,
+							["count"] = 1,
+						},
+						["Cleave"] = {
+							["hitmax"] = 4459,
+							["hitmin"] = 4459,
+							["criticalamount"] = 73549,
+							["id"] = 47520,
+							["count"] = 8,
+							["targets"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 10511,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 20850,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 9939,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 4459,
+								},
+								["Watcher Narjil"] = {
+									["overkill"] = 774,
+									["amount"] = 32249,
+								},
+							},
+							["overkill"] = 774,
+							["hit"] = 1,
+							["casts"] = 4,
+							["critical"] = 7,
+							["amount"] = 78008,
+							["school"] = 1,
+							["criticalmin"] = 9922,
+							["criticalmax"] = 11302,
+							["hitamount"] = 4459,
+						},
+						["Victory Rush"] = {
+							["count"] = 4,
+							["hitmin"] = 4347,
+							["criticalamount"] = 32620,
+							["id"] = 34428,
+							["hitmax"] = 4347,
+							["targets"] = {
+								["Watcher Gashra"] = {
+									["amount"] = 9950,
+								},
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 11277,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["overkill"] = 9687,
+									["amount"] = 11393,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 4347,
+								},
+							},
+							["overkill"] = 9687,
+							["hit"] = 1,
+							["casts"] = 4,
+							["critical"] = 3,
+							["amount"] = 36967,
+							["school"] = 1,
+							["criticalmin"] = 9950,
+							["criticalmax"] = 11393,
+							["hitamount"] = 4347,
+						},
+						["Mortal Strike"] = {
+							["blocked"] = 41,
+							["hitmin"] = 5139,
+							["criticalamount"] = 76264,
+							["id"] = 47486,
+							["hitmax"] = 5438,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 30640,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 12617,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 11313,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 15043,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 17228,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 2,
+							["casts"] = 8,
+							["critical"] = 6,
+							["amount"] = 86841,
+							["school"] = 1,
+							["criticalmin"] = 11313,
+							["criticalmax"] = 15043,
+							["hitamount"] = 10577,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 4701,
+							["criticalamount"] = 25446,
+							["id"] = 47450,
+							["criticalmin"] = 12415,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 25446,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 4701,
+								},
+							},
+							["criticalmax"] = 13031,
 							["critical"] = 2,
-							["hitamount"] = 9458,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4701,
+							["amount"] = 30147,
+							["hitamount"] = 4701,
 						},
 					},
-					["damagetaken"] = 1469,
+					["overheal"] = 728,
+					["damagetaken"] = 63886,
 					["id"] = "0x070000000040A064",
 					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Lava Burn (DoT)"] = {
-							["total"] = 5091,
-							["count"] = 11,
-							["amount"] = 0,
-							["school"] = 4,
-							["id"] = 54251,
-							["ABSORB"] = 11,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 0,
-									["total"] = 5091,
+					["healspells"] = {
+						[16491] = {
+							["overheal"] = 0,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 2232,
 								},
 							},
+							["count"] = 6,
+							["amount"] = 2232,
+							["school"] = 1,
+							["max"] = 372,
+							["ishot"] = true,
+							["min"] = 372,
 						},
-						["Cauterizing Flames"] = {
-							["total"] = 4464,
-							["hitmin"] = 1469,
-							["id"] = 59466,
-							["count"] = 2,
-							["hit"] = 1,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 1469,
-									["total"] = 4464,
+						[29842] = {
+							["overheal"] = 728,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 728,
+									["amount"] = 6677,
 								},
 							},
-							["hitmax"] = 1469,
-							["amount"] = 1469,
-							["school"] = 4,
-							["resisted"] = 473,
-							["ABSORB"] = 1,
-							["hitamount"] = 1469,
-						},
-						["Lava Burn"] = {
-							["total"] = 904,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["id"] = 59594,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 0,
-									["total"] = 904,
-								},
-							},
-						},
-						["Flame Breath"] = {
-							["total"] = 3191,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["id"] = 59469,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 0,
-									["total"] = 3191,
-								},
-							},
+							["count"] = 10,
+							["amount"] = 6677,
+							["school"] = 1,
+							["max"] = 744,
+							["ishot"] = true,
+							["min"] = 9,
 						},
 					},
+					["damagetakenspells"] = {
+						["Poison Spray (DoT)"] = {
+							["hitmin"] = 1028,
+							["id"] = 59366,
+							["hitmax"] = 1157,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 3213,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 642,
+							["amount"] = 3213,
+							["hitamount"] = 3213,
+						},
+						["Melee"] = {
+							["DODGE"] = 4,
+							["hitmin"] = 1350,
+							["criticalamount"] = 2742,
+							["id"] = 6603,
+							["amount"] = 13274,
+							["criticalmin"] = 2742,
+							["criticalmax"] = 2742,
+							["critical"] = 1,
+							["sources"] = {
+								["Watcher Gashra"] = {
+									["amount"] = 5471,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 0,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 5181,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 2622,
+								},
+							},
+							["count"] = 12,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 2622,
+							["MISS"] = 2,
+							["hitamount"] = 10532,
+						},
+						["Curse of Fatigue"] = {
+							["hitmin"] = 5675,
+							["id"] = 59368,
+							["sources"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 5675,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 5675,
+							["amount"] = 5675,
+							["hitamount"] = 5675,
+						},
+						["Infected Bite"] = {
+							["sources"] = {
+								["Watcher Narjil"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 8,
+							["MISS"] = 1,
+							["id"] = 59364,
+						},
+						["Shadow Nova"] = {
+							["hitmin"] = 3814,
+							["id"] = 59358,
+							["hitmax"] = 3861,
+							["sources"] = {
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 7675,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 429,
+							["amount"] = 7675,
+							["hitamount"] = 7675,
+						},
+						["Poison Spray"] = {
+							["hitmin"] = 2826,
+							["id"] = 59366,
+							["hitmax"] = 2826,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 2826,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 706,
+							["amount"] = 2826,
+							["hitamount"] = 2826,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 4120,
+							["id"] = 59357,
+							["hitmax"] = 5688,
+							["sources"] = {
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 31223,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 32,
+							["resisted"] = 4860,
+							["amount"] = 31223,
+							["hitamount"] = 31223,
+						},
+					},
+					["heal"] = 8909,
 					["ragespells"] = {
-						[2687] = 20,
 						[29131] = 10,
+						[2687] = 20,
+						[29842] = 40,
 					},
 					["name"] = "Rimgar",
-					["totaldamage"] = 183324,
-					["rage"] = 30,
-				}, -- [1]
-				{
-					["last"] = 12572.408,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[15359] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[62124] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Lavanthor"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[31884] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[48951] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 17,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 12,
-						},
-						[48818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Lavanthor"] = {
-									["uptime"] = 14,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[20186] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 18,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Lavanthor"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 18,
-								},
-							},
-							["count"] = 1,
-						},
-						[54499] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 18,
-							["school"] = 2,
-							["refresh"] = 1,
-							["targets"] = {
-								["Lavanthor"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 18,
-								},
-							},
-							["count"] = 1,
-						},
-						[67695] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[60302] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[54428] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 7,
-							["uptime"] = 10,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 22.18,
-					["totaldamagetaken"] = 10543,
-					["damage"] = 66229,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 364,
-							["id"] = 48818,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 6412,
-								},
-							},
-							["count"] = 14,
-							["casts"] = 2,
-							["hitmax"] = 514,
-							["hit"] = 14,
-							["school"] = 2,
-							["resisted"] = 430,
-							["amount"] = 6412,
-							["hitamount"] = 6412,
-						},
-						["Melee"] = {
-							["glance"] = 1819,
-							["hitmin"] = 471,
-							["criticalmin"] = 1434,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 14080,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 14080,
-							["glancemin"] = 583,
-							["criticalamount"] = 6080,
-							["id"] = 6603,
-							["glancemax"] = 628,
-							["criticalmax"] = 1566,
-							["hitmax"] = 825,
-							["hit"] = 9,
-							["school"] = 1,
-							["critical"] = 4,
-							["count"] = 16,
-							["hitamount"] = 6181,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 1058,
-							["id"] = 20467,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 2241,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 1183,
-							["amount"] = 2241,
-							["hitamount"] = 2241,
-						},
-						["Hand of Reckoning"] = {
-							["hitmin"] = 2622,
-							["id"] = 67485,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 2622,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2622,
-							["amount"] = 2622,
-							["hitamount"] = 2622,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2727,
-							["id"] = 53595,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 9573,
-								},
-							},
-							["count"] = 3,
-							["casts"] = 3,
-							["hitmax"] = 3423,
-							["hit"] = 3,
-							["school"] = 2,
-							["resisted"] = 302,
-							["amount"] = 9573,
-							["hitamount"] = 9573,
-						},
-						["Hammer of Wrath"] = {
-							["criticalamount"] = 5145,
-							["id"] = 48805,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 5145,
-								},
-							},
-							["count"] = 1,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 5145,
-							["school"] = 2,
-							["resisted"] = 571,
-							["criticalmax"] = 5145,
-							["criticalmin"] = 5145,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 950,
-							["id"] = 48951,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 950,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 950,
-							["amount"] = 950,
-							["hitamount"] = 950,
-						},
-						["Seal of Command"] = {
-							["criticalmin"] = 515,
-							["hitmin"] = 279,
-							["criticalamount"] = 6802,
-							["id"] = 20424,
-							["amount"] = 13330,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 13330,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 23,
-							["criticalmax"] = 990,
-							["hitmax"] = 511,
-							["hit"] = 15,
-							["school"] = 2,
-							["resisted"] = 557,
-							["critical"] = 8,
-							["hitamount"] = 6528,
-						},
-						["Shield of Righteousness"] = {
-							["hitmin"] = 2368,
-							["id"] = 53600,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 11468,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 3212,
-							["amount"] = 11468,
-							["hitamount"] = 11468,
-						},
-						["Thorns"] = {
-							["hitmin"] = 204,
-							["id"] = 53307,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 408,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 204,
-							["amount"] = 408,
-							["hitamount"] = 408,
-						},
-					},
-					["damagetaken"] = 3805,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Cauterizing Flames"] = {
-							["total"] = 3938,
-							["hitmin"] = 1143,
-							["id"] = 59466,
-							["count"] = 2,
-							["amount"] = 1143,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 1143,
-									["total"] = 3938,
-								},
-							},
-							["hitmax"] = 1143,
-							["ABSORB"] = 1,
-							["school"] = 4,
-							["resisted"] = 279,
-							["hit"] = 1,
-							["hitamount"] = 1143,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 4040,
-							["hitmin"] = 320,
-							["id"] = 6603,
-							["count"] = 4,
-							["hit"] = 2,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 1884,
-									["total"] = 4040,
-								},
-							},
-							["hitmax"] = 1564,
-							["blocked"] = 1601,
-							["school"] = 1,
-							["amount"] = 1884,
-							["ABSORB"] = 1,
-							["hitamount"] = 1884,
-						},
-						["Flame Breath"] = {
-							["total"] = 2565,
-							["hitmin"] = 778,
-							["id"] = 59469,
-							["count"] = 1,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 778,
-									["total"] = 2565,
-								},
-							},
-							["hitmax"] = 778,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 1099,
-							["amount"] = 778,
-							["hitamount"] = 778,
-						},
-					},
-					["name"] = "Jhosah",
-					["totaldamage"] = 66229,
-					["mana"] = 3922,
-					["manaspells"] = {
-						[31786] = 237,
-						[57319] = 310,
-						[54428] = 1167,
-						[20268] = 2208,
-					},
-				}, -- [2]
-				{
-					["last"] = 12575.361,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 20,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48068] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[59891] = {
-							["type"] = "BUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["refresh"] = 5,
-							["uptime"] = 25,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 15,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 7,
-							["school"] = 2,
-							["targets"] = {
-								["Supdawgx"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Scrakekf"] = {
-									["uptime"] = 14,
-									["count"] = 1,
-								},
-								["Rimgar"] = {
-									["uptime"] = 21,
-									["count"] = 2,
-								},
-								["Aandra"] = {
-									["uptime"] = 18,
-									["count"] = 2,
-								},
-								["Jhosah"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 21,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 17,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 361,
-							["casts"] = 8,
-							["count"] = 24,
-							["amount"] = 31186,
-							["max"] = 3634,
-							["targets"] = {
-								["Supdawgx"] = 6385,
-								["Scrakekf"] = 7312,
-								["Rimgar"] = 10598,
-								["Aandra"] = 1940,
-								["Jhosah"] = 4951,
-							},
-							["school"] = 2,
-						},
-						[47753] = {
-							["min"] = 553,
-							["casts"] = 6,
-							["count"] = 4,
-							["amount"] = 4268,
-							["school"] = 2,
-							["targets"] = {
-								["Rimgar"] = 1106,
-								["Jhosah"] = 1787,
-								["Supdawgx"] = 1375,
-							},
-							["max"] = 1787,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 25.17999999999999,
-					["totaldamagetaken"] = 8064,
-					["overheal"] = 18171,
-					["absorb"] = 35454,
-					["damagetaken"] = 6124,
-					["id"] = "0x0700000000AD81EB",
-					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 6531,
-							["criticalamount"] = 3315,
-							["max"] = 1846,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Scrakekf"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-								["Rimgar"] = {
-									["overheal"] = 2223,
-									["amount"] = 1469,
-								},
-								["Aandra"] = {
-									["overheal"] = 1846,
-									["amount"] = 1846,
-								},
-								["Jhosah"] = {
-									["overheal"] = 0,
-									["amount"] = 1231,
-								},
-							},
-							["min"] = 1231,
-							["criticalmax"] = 1846,
-							["critical"] = 4,
-							["amount"] = 4546,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["count"] = 7,
-						},
-						[33110] = {
-							["overheal"] = 9210,
-							["criticalamount"] = 1333,
-							["max"] = 1143,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 4816,
-									["amount"] = 1143,
-								},
-								["Supdawgx"] = {
-									["overheal"] = 4394,
-									["amount"] = 190,
-								},
-							},
-							["min"] = 190,
-							["criticalmax"] = 1143,
-							["critical"] = 2,
-							["amount"] = 1333,
-							["school"] = 2,
-							["count"] = 2,
-							["criticalmin"] = 190,
-						},
-						[48068] = {
-							["overheal"] = 2430,
-							["min"] = 253,
-							["count"] = 5,
-							["amount"] = 4278,
-							["school"] = 2,
-							["ishot"] = true,
-							["targets"] = {
-								["Aandra"] = {
-									["overheal"] = 2430,
-									["amount"] = 4278,
-								},
-							},
-							["max"] = 1342,
-						},
-					},
-					["damagetakenspells"] = {
-						["Firebolt"] = {
-							["hitmin"] = 2875,
-							["id"] = 59468,
-							["count"] = 1,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 2875,
-								},
-							},
-							["hitmax"] = 2875,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 718,
-							["amount"] = 2875,
-							["hitamount"] = 2875,
-						},
-						["Cauterizing Flames"] = {
-							["total"] = 5189,
-							["hitmin"] = 3249,
-							["id"] = 59466,
-							["count"] = 2,
-							["amount"] = 3249,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 3249,
-									["total"] = 5189,
-								},
-							},
-							["hitmax"] = 3249,
-							["ABSORB"] = 1,
-							["school"] = 4,
-							["resisted"] = 360,
-							["hit"] = 1,
-							["hitamount"] = 3249,
-						},
-					},
-					["ragespells"] = {
-						[63653] = 8,
-					},
-					["name"] = "Aandra",
-					["mana"] = 1725,
-					["manaspells"] = {
-						[47755] = 1070,
-						[63654] = 155,
-						[67666] = 500,
-					},
-					["rage"] = 8,
-					["heal"] = 10157,
-				}, -- [3]
-				{
-					["last"] = 12572.53,
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["auras"] = {
-						[48066] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48518] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[67684] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48463] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 64,
-							["targets"] = {
-								["Lavanthor"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[67360] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["uptime"] = 18,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 6,
-							["uptime"] = 18,
-						},
-						[60433] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 16,
-							["school"] = 64,
-							["refresh"] = 8,
-							["targets"] = {
-								["Lavanthor"] = {
-									["refresh"] = 8,
-									["count"] = 1,
-									["uptime"] = 16,
-								},
-							},
-							["count"] = 1,
-						},
-						[48468] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Lavanthor"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 15,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-					},
+					["ccdone"] = 2,
+					["overkill"] = 17668,
+					["rage"] = 70,
+					["totaldamage"] = 595074,
 					["role"] = "DAMAGER",
-					["time"] = 22.36,
-					["totaldamagetaken"] = 7312,
-					["damage"] = 115269,
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1134,
-							["id"] = 48468,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 8819,
-								},
-							},
-							["count"] = 7,
-							["hitmax"] = 1424,
-							["hit"] = 7,
-							["school"] = 8,
-							["resisted"] = 820,
-							["amount"] = 8819,
-							["hitamount"] = 8819,
-						},
-						["Wrath"] = {
-							["criticalamount"] = 14917,
-							["id"] = 48461,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 14917,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 14917,
-							["school"] = 8,
-							["count"] = 2,
-							["criticalmax"] = 7938,
-							["criticalmin"] = 6979,
-						},
-						["Moonfire (DoT)"] = {
-							["hitmin"] = 616,
-							["criticalamount"] = 1739,
-							["id"] = 48463,
-							["criticalmin"] = 1739,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 4789,
-								},
-							},
-							["amount"] = 4789,
-							["count"] = 5,
-							["criticalmax"] = 1739,
-							["hitmax"] = 869,
-							["hit"] = 4,
-							["school"] = 64,
-							["resisted"] = 327,
-							["critical"] = 1,
-							["hitamount"] = 3050,
-						},
-						["Moonfire"] = {
-							["hitmin"] = 1164,
-							["id"] = 48463,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 1164,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 64,
-							["hitmax"] = 1164,
-							["amount"] = 1164,
-							["hitamount"] = 1164,
-						},
-						["Starfire"] = {
-							["hitmax"] = 5901,
-							["criticalmax"] = 14061,
-							["hitmin"] = 5901,
-							["criticalamount"] = 79679,
-							["id"] = 48465,
-							["critical"] = 6,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 85580,
-									["overkill"] = 474,
-								},
-							},
-							["overkill"] = 474,
-							["amount"] = 85580,
-							["casts"] = 7,
-							["count"] = 7,
-							["hit"] = 1,
-							["school"] = 64,
-							["resisted"] = 4201,
-							["criticalmin"] = 12414,
-							["hitamount"] = 5901,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000ABE036",
-					["spec"] = 102,
-					["damagetakenspells"] = {
-						["Cauterizing Flames"] = {
-							["total"] = 5035,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 4,
-							["id"] = 59466,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 0,
-									["total"] = 5035,
-								},
-							},
-						},
-						["Firebolt"] = {
-							["total"] = 2277,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
-							["id"] = 59468,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 0,
-									["total"] = 2277,
-								},
-							},
-						},
-					},
-					["name"] = "Scrakekf",
-					["totaldamage"] = 115269,
-					["mana"] = 4496,
-					["manaspells"] = {
-						[53506] = 4496,
-					},
-					["overkill"] = 474,
-				}, -- [4]
-				{
-					["last"] = 12572.232,
-					["flag"] = 1298,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[48066] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 21,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 21,
-						},
-						[63944] = {
-							["uptime"] = 26,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[48111] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[12292] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 22,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 26,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 5,
-							["uptime"] = 17,
-						},
-						[1719] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[60305] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 20,
-						},
-						[15359] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 15,
-						},
-						[29131] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47753] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["uptime"] = 17,
-							["school"] = 1,
-							["refresh"] = 10,
-							["targets"] = {
-								["Lavanthor"] = {
-									["refresh"] = 10,
-									["count"] = 1,
-									["uptime"] = 17,
-								},
-							},
-							["count"] = 1,
-						},
-						[18499] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[61619] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 22.05,
-					["totaldamagetaken"] = 7950,
-					["damage"] = 67044,
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 2176,
-							["criticalamount"] = 14361,
-							["id"] = 23881,
-							["count"] = 5,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 18713,
-								},
-							},
-							["criticalmax"] = 4787,
-							["criticalmin"] = 4787,
-							["casts"] = 5,
-							["hitmax"] = 2176,
-							["hit"] = 2,
-							["school"] = 1,
-							["amount"] = 18713,
-							["critical"] = 3,
-							["hitamount"] = 4352,
-						},
-						["Melee"] = {
-							["glance"] = 2243,
-							["hitmin"] = 788,
-							["criticalmin"] = 1840,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 13799,
-								},
-							},
-							["glancing"] = 3,
-							["amount"] = 13799,
-							["glancemin"] = 715,
-							["criticalamount"] = 7068,
-							["id"] = 6603,
-							["glancemax"] = 776,
-							["criticalmax"] = 3294,
-							["hitmax"] = 1516,
-							["hit"] = 4,
-							["school"] = 1,
-							["critical"] = 3,
-							["count"] = 10,
-							["hitamount"] = 4488,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 1999,
-							["criticalamount"] = 9536,
-							["id"] = 1680,
-							["count"] = 4,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 11535,
-								},
-							},
-							["criticalmax"] = 4384,
-							["criticalmin"] = 2479,
-							["casts"] = 3,
-							["hitmax"] = 1999,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 11535,
-							["critical"] = 3,
-							["hitamount"] = 1999,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 492,
-							["id"] = 12721,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 7728,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 12,
-							["school"] = 1,
-							["hitmax"] = 824,
-							["amount"] = 7728,
-							["hitamount"] = 7728,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 1986,
-							["criticalamount"] = 13283,
-							["id"] = 47450,
-							["count"] = 4,
-							["targets"] = {
-								["Lavanthor"] = {
-									["amount"] = 15269,
-								},
-							},
-							["criticalmax"] = 4589,
-							["criticalmin"] = 4279,
-							["casts"] = 5,
-							["hitmax"] = 1986,
-							["hit"] = 1,
-							["school"] = 1,
-							["amount"] = 15269,
-							["critical"] = 3,
-							["hitamount"] = 1986,
-						},
-					},
-					["damagetaken"] = 190,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 2892,
-							["count"] = 12,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 2892,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Cauterizing Flames"] = {
-							["total"] = 5840,
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 4,
-							["id"] = 59466,
-							["ABSORB"] = 2,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 0,
-									["total"] = 5840,
-								},
-							},
-						},
-						["Firebolt"] = {
-							["total"] = 2110,
-							["hitmin"] = 190,
-							["id"] = 59468,
-							["count"] = 1,
-							["sources"] = {
-								["Lavanthor"] = {
-									["amount"] = 190,
-									["total"] = 2110,
-								},
-							},
-							["hitmax"] = 190,
-							["hit"] = 1,
-							["school"] = 4,
-							["resisted"] = 527,
-							["amount"] = 190,
-							["hitamount"] = 190,
-						},
-					},
-					["ragespells"] = {
-						[29131] = 10,
-						[2687] = 20,
-						[58362] = 30,
-						[12964] = 4,
-					},
-					["name"] = "Supdawgx",
-					["totaldamage"] = 67044,
-					["rage"] = 64,
-					["heal"] = 0,
-					["overheal"] = 2892,
-				}, -- [5]
-			},
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[59594] = {
-							["school"] = 4,
-							["total"] = 904,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 0,
-									["total"] = 904,
-								},
-							},
-							["amount"] = 0,
-						},
-						[59469] = {
-							["school"] = 4,
-							["total"] = 5756,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 778,
-									["total"] = 2565,
-								},
-								["Rimgar"] = {
-									["amount"] = 0,
-									["total"] = 3191,
-								},
-							},
-							["amount"] = 778,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 2156,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 1884,
-									["total"] = 4040,
-								},
-							},
-							["amount"] = 1884,
-						},
-						[54251] = {
-							["school"] = 4,
-							["total"] = 5091,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 0,
-									["total"] = 5091,
-								},
-							},
-							["amount"] = 0,
-						},
-						[59468] = {
-							["school"] = 4,
-							["total"] = 7262,
-							["targets"] = {
-								["Aandra"] = {
-									["amount"] = 2875,
-								},
-								["Scrakekf"] = {
-									["amount"] = 0,
-									["total"] = 2277,
-								},
-								["Supdawgx"] = {
-									["amount"] = 190,
-									["total"] = 2110,
-								},
-							},
-							["amount"] = 3065,
-						},
-						[59466] = {
-							["school"] = 4,
-							["total"] = 21217,
-							["targets"] = {
-								["Supdawgx"] = {
-									["amount"] = 0,
-									["total"] = 5840,
-								},
-								["Aandra"] = {
-									["amount"] = 3249,
-									["total"] = 5189,
-								},
-								["Rimgar"] = {
-									["amount"] = 1469,
-									["total"] = 4464,
-								},
-								["Scrakekf"] = {
-									["amount"] = 0,
-									["total"] = 5035,
-								},
-								["Jhosah"] = {
-									["amount"] = 1143,
-									["total"] = 3938,
-								},
-							},
-							["amount"] = 5861,
-						},
-					},
-					["damagetaken"] = 431866,
-					["flag"] = 68168,
-					["class"] = "BOSS",
-					["damagetakenspells"] = {
-						[53307] = {
-							["school"] = 8,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 408,
-								},
-							},
-							["amount"] = 408,
-						},
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 31192,
-								},
-								["Supdawgx"] = {
-									["amount"] = 15269,
-								},
-							},
-							["amount"] = 46461,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 11113,
-								},
-							},
-							["amount"] = 11113,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 18713,
-								},
-							},
-							["amount"] = 18713,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 6412,
-								},
-							},
-							["amount"] = 6412,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 31484,
-								},
-							},
-							["amount"] = 31484,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 9573,
-								},
-							},
-							["amount"] = 9573,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 35001,
-								},
-							},
-							["amount"] = 35001,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 5152,
-								},
-							},
-							["amount"] = 5152,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 8819,
-								},
-							},
-							["amount"] = 8819,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 11468,
-								},
-							},
-							["amount"] = 11468,
-						},
-						[48951] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 950,
-								},
-							},
-							["amount"] = 950,
-						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2241,
-								},
-							},
-							["amount"] = 2241,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 9780,
-								},
-							},
-							["amount"] = 9780,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 6383,
-								},
-							},
-							["amount"] = 6383,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 23142,
-								},
-								["Jhosah"] = {
-									["amount"] = 14080,
-								},
-								["Supdawgx"] = {
-									["amount"] = 13799,
-								},
-							},
-							["amount"] = 51021,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 4439,
-								},
-							},
-							["amount"] = 4439,
-						},
-						[48461] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 14917,
-								},
-							},
-							["amount"] = 14917,
-						},
-						[48463] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 5953,
-								},
-							},
-							["amount"] = 5953,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 5202,
-								},
-							},
-							["amount"] = 5202,
-						},
-						[48805] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 5145,
-								},
-							},
-							["amount"] = 5145,
-						},
-						[48465] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 85580,
-									["overkill"] = 474,
-								},
-							},
-							["amount"] = 85580,
-							["overkill"] = 474,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2217,
-								},
-							},
-							["amount"] = 2217,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 23361,
-								},
-								["Supdawgx"] = {
-									["amount"] = 7728,
-								},
-							},
-							["amount"] = 31089,
-						},
-						[67485] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2622,
-								},
-							},
-							["amount"] = 2622,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 19723,
-								},
-							},
-							["amount"] = 19723,
-						},
-					},
-					["totaldamage"] = 47519,
-					["name"] = "Lavanthor",
-					["totaldamagetaken"] = 431866,
-					["id"] = "0xF13000728000000B",
-					["damage"] = 11588,
 				}, -- [1]
-			},
-			["etotaldamagetaken"] = 431866,
-			["totaldamage"] = 431866,
-			["time"] = 26,
-			["last_time"] = 12575.702,
-			["totaldamagetaken"] = 47519,
-			["etotaldamage"] = 47519,
-			["damage"] = 431866,
-			["rage"] = 102,
-			["type"] = "party",
-			["damagetaken"] = 11588,
-			["gotboss"] = 29312,
-			["starttime"] = 1728655273,
-			["absorb"] = 35454,
-			["name"] = "Lavanthor",
-			["overkill"] = 474,
-			["edamagetaken"] = 431866,
-			["heal"] = 10157,
-			["success"] = true,
-			["mobname"] = "Lavanthor",
-			["overheal"] = 21063,
-			["edamage"] = 11588,
-			["last_action"] = 1728655298,
-			["endtime"] = 1728655299,
-		}, -- [13]
-		{
-			["mana"] = 1243,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 55,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 55,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["damagetaken"] = 66377,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1550,
-								},
-							},
-							["amount"] = 1550,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 348,
-								},
-							},
-							["amount"] = 348,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4354,
-								},
-							},
-							["amount"] = 4354,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 660,
-								},
-							},
-							["amount"] = 660,
-						},
-						[48826] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 3044,
-								},
-							},
-							["amount"] = 3044,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 962,
-								},
-							},
-							["amount"] = 962,
-						},
-						[50622] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 44555,
-									["overkill"] = 4991,
-								},
-							},
-							["amount"] = 44555,
-							["overkill"] = 4991,
-						},
-						[48951] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 633,
-								},
-							},
-							["amount"] = 633,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 973,
-								},
-							},
-							["amount"] = 973,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3813,
-								},
-							},
-							["amount"] = 3813,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 712,
-								},
-							},
-							["amount"] = 712,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3461,
-								},
-							},
-							["amount"] = 3461,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1312,
-								},
-							},
-							["amount"] = 1312,
-						},
-					},
-					["totaldamage"] = 55,
-					["name"] = "Azure Sorceror",
-					["totaldamagetaken"] = 66377,
-					["id"] = "0xF1300077CB000053",
-					["damage"] = 0,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 1993,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 1993,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["damagetaken"] = 125246,
-					["flag"] = 2632,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[26654] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 15356,
-								},
-							},
-							["amount"] = 15356,
-						},
-						[20253] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 332,
-								},
-							},
-							["amount"] = 332,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1142,
-								},
-							},
-							["amount"] = 1142,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1611,
-								},
-							},
-							["amount"] = 1611,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1650,
-								},
-							},
-							["amount"] = 1650,
-						},
-						[53190] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 4901,
-								},
-							},
-							["amount"] = 4901,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4354,
-								},
-							},
-							["amount"] = 4354,
-						},
-						[53195] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 6756,
-									["overkill"] = 42,
-								},
-							},
-							["amount"] = 6756,
-							["overkill"] = 42,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 4866,
-								},
-							},
-							["amount"] = 4866,
-						},
-						[48951] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 633,
-								},
-							},
-							["amount"] = 633,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 13484,
-									["overkill"] = 5228,
-								},
-								["Jhosah"] = {
-									["amount"] = 1764,
-								},
-								["Supdawgx"] = {
-									["amount"] = 2529,
-								},
-							},
-							["amount"] = 17777,
-							["overkill"] = 5228,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1352,
-								},
-							},
-							["amount"] = 1352,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 2765,
-								},
-							},
-							["amount"] = 2765,
-						},
-						[50622] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 54079,
-								},
-							},
-							["amount"] = 54079,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1012,
-								},
-							},
-							["amount"] = 1012,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2714,
-								},
-								["Supdawgx"] = {
-									["amount"] = 221,
-								},
-							},
-							["amount"] = 2935,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 2159,
-								},
-							},
-							["amount"] = 2159,
-						},
-						[48826] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 1566,
-								},
-							},
-							["amount"] = 1566,
-						},
-					},
-					["totaldamage"] = 1993,
-					["name"] = "Azure Stalker",
-					["totaldamagetaken"] = 125246,
-					["id"] = "0xF130007DBF000055",
-					["damage"] = 0,
-				}, -- [2]
-			},
-			["totaldamage"] = 191623,
-			["time"] = 7,
-			["totaldamagetaken"] = 2048,
-			["etotaldamagetaken"] = 191623,
-			["last_time"] = 12521.799,
-			["players"] = {
 				{
 					["ccdonespells"] = {
-						[7922] = {
+						[49560] = {
 							["count"] = 1,
 							["targets"] = {
-								["Azure Stalker"] = 1,
+								["Anub'ar Skirmisher"] = 1,
 							},
 						},
 					},
-					["last"] = 12519.933,
-					["role"] = "DAMAGER",
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["name"] = "Rimgar",
-					["auras"] = {
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[46924] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[12328] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 8,
-							["uptime"] = 6,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 7,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[71541] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 7,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 5,
-								},
-								["Azure Stalker"] = {
-									["refresh"] = 3,
-									["count"] = 2,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["refresh"] = 5,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 4,
-								},
-								["Azure Stalker"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 6,
-							["uptime"] = 6,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-					},
-					["overkill"] = 10219,
-					["totaldamage"] = 133564,
-					["time"] = 4.87,
-					["ccdone"] = 1,
-					["spec"] = 71,
-					["id"] = "0x070000000040A064",
-					["damagespells"] = {
-						["Sweeping Strikes"] = {
-							["hitmin"] = 3508,
-							["id"] = 26654,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 15356,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 4223,
-							["amount"] = 15356,
-							["hitamount"] = 15356,
-						},
-						["Melee"] = {
-							["hitmin"] = 3902,
-							["criticalamount"] = 9582,
-							["id"] = 6603,
-							["criticalmin"] = 9582,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 13484,
-									["overkill"] = 5228,
-								},
-							},
-							["overkill"] = 5228,
-							["amount"] = 13484,
-							["criticalmax"] = 9582,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3902,
-							["count"] = 2,
-							["hitamount"] = 3902,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 675,
-							["id"] = 71904,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 712,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 1352,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 32,
-							["hitmax"] = 712,
-							["amount"] = 2064,
-							["hitamount"] = 2064,
-						},
-						["Whirlwind"] = {
-							["hitmax"] = 4195,
-							["hitmin"] = 3112,
-							["criticalamount"] = 80418,
-							["id"] = 50622,
-							["criticalmax"] = 9924,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 44555,
-									["overkill"] = 4991,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 54079,
-								},
-							},
-							["overkill"] = 4991,
-							["criticalmin"] = 6688,
-							["casts"] = 1,
-							["count"] = 14,
-							["hit"] = 5,
-							["school"] = 1,
-							["amount"] = 98634,
-							["critical"] = 9,
-							["hitamount"] = 18216,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 448,
-							["id"] = 12721,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 2714,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 1312,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 1312,
-							["amount"] = 4026,
-							["hitamount"] = 4026,
-						},
-					},
-					["damage"] = 133564,
-				}, -- [1]
-				{
-					["last"] = 12520.057,
+					["last"] = 1122.914,
 					["flag"] = 1298,
-					["class"] = "PALADIN",
+					["class"] = "DEATHKNIGHT",
 					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 83,
 						},
 						[53307] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 83,
 						},
-						[48162] = {
+						[58578] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["refresh"] = 11,
+							["uptime"] = 83,
 						},
-						[63944] = {
+						[48504] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[20132] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48951] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[54428] = {
-							["uptime"] = 7,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 4,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48818] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 2,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-								["Azure Stalker"] = {
-									["uptime"] = 2,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["totaldamage"] = 22133,
-					["time"] = 4.989999999999999,
-					["totaldamagetaken"] = 2048,
-					["damage"] = 22133,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 330,
-							["id"] = 48818,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 660,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 1650,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 330,
-							["amount"] = 2310,
-							["hitamount"] = 2310,
-						},
-						["Melee"] = {
-							["hitmin"] = 558,
-							["criticalamount"] = 1206,
-							["id"] = 6603,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 1764,
-								},
-							},
-							["criticalmin"] = 1206,
-							["amount"] = 1764,
-							["criticalmax"] = 1206,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 558,
 							["count"] = 2,
-							["hitamount"] = 558,
-						},
-						["Holy Shield"] = {
-							["hitmin"] = 633,
-							["id"] = 48951,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 633,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 633,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 633,
-							["amount"] = 1266,
-							["hitamount"] = 1266,
-						},
-						["Seal of Command"] = {
-							["hitmin"] = 279,
-							["criticalamount"] = 1352,
-							["id"] = 20424,
-							["criticalmin"] = 664,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 2154,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 1321,
-								},
-							},
-							["amount"] = 3475,
-							["hitmax"] = 348,
-							["criticalmax"] = 688,
-							["critical"] = 2,
-							["hit"] = 7,
-							["school"] = 2,
-							["count"] = 9,
-							["casts"] = 1,
-							["hitamount"] = 2123,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2177,
-							["criticalamount"] = 4354,
-							["id"] = 53595,
-							["criticalmin"] = 4354,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 4354,
-								},
-								["Azure Sorceror"] = {
-									["amount"] = 4354,
-								},
-							},
-							["amount"] = 8708,
-							["hitmax"] = 2177,
-							["criticalmax"] = 4354,
-							["critical"] = 1,
-							["hit"] = 2,
-							["school"] = 2,
-							["count"] = 3,
-							["casts"] = 1,
-							["hitamount"] = 4354,
-						},
-						["Avenger's Shield"] = {
-							["hitmin"] = 1566,
-							["criticalamount"] = 3044,
-							["id"] = 48826,
-							["count"] = 2,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 3044,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 1566,
-								},
-							},
-							["criticalmax"] = 3044,
-							["criticalmin"] = 3044,
-							["casts"] = 1,
-							["hitmax"] = 1566,
-							["hit"] = 1,
-							["school"] = 2,
-							["amount"] = 4610,
-							["critical"] = 1,
-							["hitamount"] = 1566,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 2048,
-							["id"] = 6603,
-							["sources"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 0,
-									["total"] = 55,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 0,
-									["total"] = 1993,
-								},
-							},
-							["count"] = 6,
-							["ABSORB"] = 3,
-							["school"] = 1,
-							["MISS"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["name"] = "Jhosah",
-					["role"] = "TANK",
-					["mana"] = 1243,
-					["manaspells"] = {
-						[57319] = 465,
-						[54428] = 778,
-					},
-				}, -- [2]
-				{
-					["last"] = 12518.391,
-					["id"] = "0x0700000000AD81EB",
-					["spec"] = 256,
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48168] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["absorbspells"] = {
-						[48066] = {
-							["min"] = 55,
-							["casts"] = 1,
-							["count"] = 3,
-							["amount"] = 2048,
-							["max"] = 1700,
-							["targets"] = {
-								["Jhosah"] = 2048,
-							},
-						},
-					},
-					["role"] = "HEALER",
-					["name"] = "Aandra",
-					["class"] = "PRIEST",
-					["time"] = 3.33,
-					["absorb"] = 2048,
-					["flag"] = 1298,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1079,
-							["id"] = 48468,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 2159,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
 							["school"] = 8,
-							["hitmax"] = 1080,
-							["amount"] = 2159,
-							["hitamount"] = 2159,
+							["uptime"] = 11,
 						},
-						["Starfall"] = {
-							["hitmax"] = 1713,
-							["hitmin"] = 544,
-							["criticalamount"] = 13350,
-							["id"] = 53195,
-							["criticalmax"] = 3461,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 7274,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 11657,
-									["overkill"] = 42,
-								},
-							},
-							["overkill"] = 42,
-							["criticalmin"] = 1089,
-							["casts"] = 1,
-							["count"] = 14,
-							["hit"] = 6,
-							["school"] = 64,
-							["amount"] = 18931,
-							["critical"] = 8,
-							["hitamount"] = 5581,
-						},
-					},
-					["last"] = 12520.135,
-					["id"] = "0x0700000000ABE036",
-					["class"] = "DRUID",
-					["overkill"] = 42,
-					["spec"] = 102,
-					["totaldamage"] = 21090,
-					["name"] = "Scrakekf",
-					["time"] = 5.07,
-					["flag"] = 1298,
-					["role"] = "DAMAGER",
-					["auras"] = {
-						[48066] = {
+						[45529] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["uptime"] = 18,
 						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[53201] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[16886] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 2,
-							["uptime"] = 4,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[48468] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["damage"] = 21090,
-				}, -- [4]
-				{
-					["rage"] = 1,
-					["last"] = 12519.783,
-					["flag"] = 1298,
-					["spec"] = 72,
-					["damagespells"] = {
-						["Bloodthirst"] = {
-							["hitmin"] = 1611,
-							["id"] = 23881,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 1611,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1611,
-							["amount"] = 1611,
-							["hitamount"] = 1611,
-						},
-						["Melee"] = {
-							["glance"] = 1151,
-							["criticalamount"] = 1378,
-							["id"] = 6603,
-							["glancemax"] = 1151,
-							["criticalmin"] = 1378,
-							["glancing"] = 1,
-							["criticalmax"] = 1378,
-							["count"] = 2,
-							["amount"] = 2529,
-							["school"] = 1,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 2529,
-								},
-							},
-							["critical"] = 1,
-							["glancemin"] = 1151,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 904,
-							["criticalamount"] = 5172,
-							["id"] = 1680,
-							["criticalmin"] = 1861,
-							["targets"] = {
-								["Azure Sorceror"] = {
-									["amount"] = 2512,
-								},
-								["Azure Stalker"] = {
-									["amount"] = 7631,
-								},
-							},
-							["amount"] = 10143,
-							["hitmax"] = 1555,
-							["criticalmax"] = 3311,
-							["critical"] = 2,
-							["hit"] = 4,
-							["school"] = 1,
-							["count"] = 6,
-							["casts"] = 1,
-							["hitamount"] = 4971,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 221,
-							["id"] = 12721,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 221,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 221,
-							["amount"] = 221,
-							["hitamount"] = 221,
-						},
-						["Intercept"] = {
-							["hitmin"] = 332,
-							["id"] = 20253,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["amount"] = 332,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 332,
-							["amount"] = 332,
-							["hitamount"] = 332,
-						},
-					},
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[47436] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[20253] = {
+						[49560] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Azure Stalker"] = {
+								["Anub'ar Skirmisher"] = {
 									["uptime"] = 3,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 3,
 						},
-						[24907] = {
+						[53251] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[46916] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 4,
-						},
-						[63944] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 4,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Azure Stalker"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["name"] = "Supdawgx",
-					["ragespells"] = {
-						[12964] = 1,
-					},
-					["time"] = 4.72,
-					["role"] = "DAMAGER",
-					["totaldamage"] = 14836,
-					["id"] = "0x0700000000B0209B",
-					["class"] = "WARRIOR",
-					["damage"] = 14836,
-				}, -- [5]
-			},
-			["type"] = "party",
-			["damagetaken"] = 0,
-			["rage"] = 1,
-			["absorb"] = 2048,
-			["etotaldamage"] = 2048,
-			["damage"] = 191623,
-			["overkill"] = 10261,
-			["edamagetaken"] = 191623,
-			["ccdone"] = 1,
-			["name"] = "Azure Stalker (2)",
-			["mobname"] = "Azure Stalker",
-			["starttime"] = 1728655238,
-			["edamage"] = 0,
-			["last_action"] = 1728655245,
-			["endtime"] = 1728655245,
-		}, -- [14]
-		{
-			["mana"] = 1551,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 5464,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 5464,
-								},
-							},
-							["amount"] = 0,
-						},
-						[58516] = {
-							["school"] = 1,
-							["total"] = 1336,
-							["targets"] = {
-								["Jhosah"] = {
-									["amount"] = 0,
-									["total"] = 1336,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["damagetaken"] = 143471,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 10186,
-								},
-							},
-							["amount"] = 10186,
-						},
-						[20424] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 4405,
-								},
-							},
-							["amount"] = 4405,
-						},
-						[23881] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 3487,
-								},
-							},
-							["amount"] = 3487,
-						},
-						[48818] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2611,
-								},
-							},
-							["amount"] = 2611,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 27116,
-								},
-							},
-							["amount"] = 27116,
-						},
-						[53595] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 2460,
-								},
-							},
-							["amount"] = 2460,
-						},
-						[44949] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 862,
-								},
-							},
-							["amount"] = 862,
-						},
-						[53600] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 7493,
-								},
-							},
-							["amount"] = 7493,
-						},
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3596,
-								},
-							},
-							["amount"] = 3596,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 10717,
-								},
-							},
-							["amount"] = 10717,
-						},
-						[48461] = {
+							["count"] = 3,
 							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 3360,
-								},
-							},
-							["amount"] = 3360,
+							["uptime"] = 21,
 						},
-						[6603] = {
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 16380,
-								},
-								["Jhosah"] = {
-									["amount"] = 4145,
-								},
-								["Supdawgx"] = {
-									["amount"] = 5290,
-								},
-							},
-							["amount"] = 25815,
+							["uptime"] = 76,
 						},
-						[48463] = {
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[71541] = {
+							["type"] = "BUFF",
+							["count"] = 2,
 							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 2881,
-								},
-							},
-							["amount"] = 2881,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 2498,
-								},
-								["Rimgar"] = {
-									["amount"] = 4375,
-								},
-							},
-							["amount"] = 6873,
-						},
-						[48465] = {
-							["school"] = 64,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 23916,
-									["overkill"] = 6459,
-								},
-							},
-							["amount"] = 23916,
-							["overkill"] = 6459,
-						},
-						[69403] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 720,
-								},
-							},
-							["amount"] = 720,
-						},
-						[20467] = {
-							["school"] = 2,
-							["sources"] = {
-								["Jhosah"] = {
-									["amount"] = 845,
-								},
-							},
-							["amount"] = 845,
-						},
-						[48468] = {
-							["school"] = 8,
-							["sources"] = {
-								["Scrakekf"] = {
-									["amount"] = 4759,
-								},
-							},
-							["amount"] = 4759,
-						},
-						[1680] = {
-							["school"] = 1,
-							["sources"] = {
-								["Supdawgx"] = {
-									["amount"] = 1369,
-								},
-							},
-							["amount"] = 1369,
-						},
-					},
-					["totaldamage"] = 6800,
-					["name"] = "Portal Guardian",
-					["totaldamagetaken"] = 143471,
-					["id"] = "0xF1300078AC000051",
-					["damage"] = 0,
-				}, -- [1]
-			},
-			["totaldamage"] = 143471,
-			["time"] = 10,
-			["rage"] = 8,
-			["totaldamagetaken"] = 6800,
-			["etotaldamagetaken"] = 143471,
-			["damage"] = 143471,
-			["overheal"] = 1954,
-			["type"] = "party",
-			["damagetaken"] = 0,
-			["last_time"] = 12495.725,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["criticalamount"] = 27116,
-							["id"] = 47486,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 27116,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 27116,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmax"] = 14133,
-							["criticalmin"] = 12983,
-						},
-						["Melee"] = {
-							["criticalamount"] = 16380,
-							["id"] = 6603,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 16380,
-								},
-							},
-							["criticalmax"] = 9768,
-							["critical"] = 2,
-							["amount"] = 16380,
-							["school"] = 1,
-							["count"] = 2,
-							["criticalmin"] = 6612,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 409,
-							["id"] = 12721,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 4375,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 1587,
-							["amount"] = 4375,
-							["hitamount"] = 4375,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 10717,
-							["id"] = 7384,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 10717,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 10717,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 10717,
-							["criticalmin"] = 10717,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1798,
-							["id"] = 47465,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 3596,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1798,
-							["amount"] = 3596,
-							["hitamount"] = 3596,
-						},
-						["Heroic Strike"] = {
-							["criticalamount"] = 10186,
-							["id"] = 47450,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 10186,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 10186,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 10186,
-							["criticalmin"] = 10186,
-						},
-					},
-					["last"] = 12493.586,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["auras"] = {
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 5,
-									["count"] = 1,
-									["uptime"] = 8,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[63944] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[71905] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 3,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 10,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[47436] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[75456] = {
-							["school"] = 64,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 29,
 						},
 						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 83,
 						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 9,
-						},
-						[12721] = {
+						[55078] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 5,
+							["uptime"] = 15,
+							["school"] = 32,
+							["refresh"] = 2,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 5,
+								["Krik'thir the Gatewatcher"] = {
 									["count"] = 1,
-									["uptime"] = 7,
+									["refresh"] = 2,
+									["uptime"] = 15,
 								},
 							},
-							["uptime"] = 7,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
+						},
+						[48443] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 24,
+						},
+						[48447] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 6,
+						},
+						[70654] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[49938] = {
+							["type"] = "DEBUFF",
+							["count"] = 8,
+							["school"] = 32,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["refresh"] = 1,
+								["Watcher Narjil"] = {
+									["uptime"] = 7,
 									["count"] = 1,
+								},
+								["Watcher Silthik"] = {
 									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Watcher Gashra"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+								["Anub'ar Warrior"] = {
+									["uptime"] = 10,
+									["count"] = 2,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Anub'ar Skirmisher"] = {
+									["uptime"] = 10,
+									["count"] = 2,
 								},
 							},
-							["uptime"] = 6,
-						},
-						[70855] = {
-							["school"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-					},
-					["totaldamage"] = 72370,
-					["name"] = "Rimgar",
-					["class"] = "WARRIOR",
-					["time"] = 7.4,
-					["flag"] = 1297,
-					["role"] = "DAMAGER",
-					["damage"] = 72370,
-				}, -- [1]
-				{
-					["last"] = 12494.216,
-					["flag"] = 1298,
-					["class"] = "PALADIN",
-					["auras"] = {
-						[20375] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[48470] = {
+						[53760] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 83,
 						},
-						[53307] = {
+						[64859] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[63944] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[15359] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[25899] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48951] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 8,
-						},
-						[25780] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47753] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48066] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[60302] = {
+							["count"] = 3,
+							["refresh"] = 12,
 							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 47,
 						},
-					},
-					["role"] = "TANK",
-					["time"] = 8.050000000000001,
-					["totaldamagetaken"] = 6800,
-					["damage"] = 22679,
-					["damagespells"] = {
-						["Consecration (DoT)"] = {
-							["hitmin"] = 373,
-							["id"] = 48818,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2611,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 373,
-							["amount"] = 2611,
-							["hitamount"] = 2611,
-						},
-						["Melee"] = {
-							["glance"] = 464,
-							["hitmin"] = 497,
-							["criticalmin"] = 1022,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 4145,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 4145,
-							["glancemin"] = 464,
-							["criticalamount"] = 1022,
-							["id"] = 6603,
-							["glancemax"] = 464,
-							["criticalmax"] = 1022,
-							["hitmax"] = 583,
-							["hit"] = 5,
-							["school"] = 1,
-							["critical"] = 1,
-							["count"] = 7,
-							["hitamount"] = 2659,
-						},
-						["Hammer of the Righteous"] = {
-							["hitmin"] = 2460,
-							["id"] = 53595,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2460,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 2460,
-							["amount"] = 2460,
-							["hitamount"] = 2460,
-						},
-						["Seal of Command"] = {
-							["criticalamount"] = 4183,
-							["hitmin"] = 264,
-							["criticalmin"] = 640,
-							["id"] = 20424,
-							["criticalmax"] = 764,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 5125,
-								},
-							},
-							["critical"] = 6,
-							["amount"] = 5125,
-							["casts"] = 1,
-							["hitmax"] = 354,
-							["hit"] = 3,
-							["school"] = 2,
-							["resisted"] = 138,
-							["count"] = 9,
-							["hitamount"] = 942,
-						},
-						["Judgement of Command"] = {
-							["hitmin"] = 845,
-							["id"] = 20467,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 845,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 845,
-							["amount"] = 845,
-							["hitamount"] = 845,
-						},
-						["Shield of Righteousness"] = {
-							["criticalamount"] = 5352,
-							["hitmin"] = 2141,
-							["criticalmin"] = 5352,
-							["id"] = 53600,
-							["amount"] = 7493,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 7493,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["criticalmax"] = 5352,
-							["critical"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["resisted"] = 535,
-							["hitmax"] = 2141,
-							["hitamount"] = 2141,
-						},
-					},
-					["damagetaken"] = 0,
-					["id"] = "0x0700000000ACF706",
-					["spec"] = 66,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["count"] = 4,
-							["amount"] = 0,
-							["school"] = 1,
-							["ABSORB"] = 3,
-							["sources"] = {
-								["Portal Guardian"] = {
-									["amount"] = 0,
-									["total"] = 5464,
-								},
-							},
-							["total"] = 5464,
-						},
-						["Overpower"] = {
-							["total"] = 1336,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["id"] = 58516,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Portal Guardian"] = {
-									["amount"] = 0,
-									["total"] = 1336,
-								},
-							},
-						},
-					},
-					["name"] = "Jhosah",
-					["totaldamage"] = 22679,
-					["mana"] = 989,
-					["manaspells"] = {
-						[20268] = 834,
-						[57319] = 155,
-					},
-				}, -- [2]
-				{
-					["overheal"] = 1231,
-					["absorb"] = 6800,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 1231,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["targets"] = {
-								["Jhosah"] = {
-									["overheal"] = 1231,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["auras"] = {
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[63944] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48937] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[6788] = {
+						[55095] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
+							["uptime"] = 44,
+							["school"] = 16,
+							["refresh"] = 3,
 							["targets"] = {
-								["Jhosah"] = {
-									["uptime"] = 7,
+								["Krik'thir the Gatewatcher"] = {
+									["count"] = 1,
+									["refresh"] = 3,
+									["uptime"] = 18,
+								},
+								["Anub'ar Webspinner"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Watcher Narjil"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+								["Anub'ar Warrior"] = {
+									["uptime"] = 11,
+									["count"] = 2,
+								},
+								["Watcher Silthik"] = {
+									["uptime"] = 20,
+									["count"] = 2,
+								},
+								["Anub'ar Skirmisher"] = {
+									["uptime"] = 5,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 7,
+							["count"] = 8,
 						},
-						[72221] = {
+						[48441] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 36,
+						},
+						[47440] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 70,
+						},
+						[71229] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 3,
+							["uptime"] = 55,
+						},
+						[50449] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 9,
+							["uptime"] = 83,
+						},
+						[56222] = {
+							["type"] = "DEBUFF",
+							["uptime"] = 15,
+							["school"] = 1,
+							["targets"] = {
+								["Watcher Gashra"] = {
+									["uptime"] = 6,
+									["count"] = 2,
+								},
+								["Anub'ar Warrior"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Krik'thir the Gatewatcher"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Watcher Silthik"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["count"] = 5,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["uptime"] = 10,
 						},
-						[48168] = {
+						[50421] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 17,
+							["school"] = 1,
+							["refresh"] = 3,
+							["count"] = 7,
 						},
-						[59891] = {
-							["school"] = 2,
+						[48263] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 83,
 						},
 					},
 					["absorbspells"] = {
-						[48066] = {
-							["min"] = 1336,
-							["casts"] = 2,
-							["count"] = 4,
-							["amount"] = 6800,
-							["max"] = 1861,
+						[50150] = {
+							["min"] = 208,
+							["count"] = 7,
+							["amount"] = 2804,
+							["school"] = 1,
 							["targets"] = {
-								["Jhosah"] = 6800,
+								["Banze"] = 2804,
 							},
-							["school"] = 2,
+							["max"] = 714,
+						},
+						[49497] = {
+							["min"] = 2446,
+							["count"] = 1,
+							["amount"] = 2446,
+							["school"] = 1,
+							["targets"] = {
+								["Banze"] = 2446,
+							},
+							["max"] = 2446,
 						},
 					},
-					["heal"] = 0,
-					["time"] = 4.67,
-					["name"] = "Aandra",
-					["role"] = "HEALER",
-					["spec"] = 256,
-					["id"] = "0x0700000000AD81EB",
-					["last"] = 12490.85,
-				}, -- [3]
-				{
+					["role"] = "TANK",
+					["time"] = 63.39,
+					["totaldamagetaken"] = 104712,
+					["damage"] = 205972,
 					["damagespells"] = {
-						["Insect Swarm (DoT)"] = {
-							["hitmin"] = 1098,
-							["id"] = 48468,
+						["Melee"] = {
+							["glance"] = 2429,
+							["hitmin"] = 2274,
+							["criticalmin"] = 4638,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 4759,
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 13124,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 2274,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 5114,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 5088,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 2572,
+								},
+								["Anub'ar Warrior"] = {
+									["overkill"] = 817,
+									["amount"] = 14585,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 2837,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 7213,
+								},
+							},
+							["glancing"] = 1,
+							["amount"] = 52807,
+							["glancemin"] = 2429,
+							["criticalamount"] = 24546,
+							["id"] = 6603,
+							["glancemax"] = 2429,
+							["overkill"] = 817,
+							["blocked"] = 41,
+							["criticalmax"] = 5114,
+							["critical"] = 5,
+							["hit"] = 10,
+							["school"] = 1,
+							["count"] = 16,
+							["hitmax"] = 2837,
+							["hitamount"] = 25832,
+						},
+						["Death and Decay"] = {
+							["hitmax"] = 590,
+							["hitmin"] = 504,
+							["criticalamount"] = 17265,
+							["id"] = 52212,
+							["criticalmin"] = 943,
+							["targets"] = {
+								["Watcher Narjil"] = {
+									["amount"] = 5832,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 4712,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 1120,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 7658,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 17741,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 4066,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 10604,
+								},
+							},
+							["criticalmax"] = 1179,
+							["critical"] = 15,
+							["casts"] = 2,
+							["count"] = 74,
+							["hit"] = 59,
+							["school"] = 32,
+							["resisted"] = 407,
+							["amount"] = 51733,
+							["hitamount"] = 34468,
+						},
+						["Death Coil"] = {
+							["hitmin"] = 1836,
+							["id"] = 47632,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 1927,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 1999,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 2075,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 1836,
+								},
+							},
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 2075,
+							["amount"] = 7837,
+							["hitamount"] = 7837,
+						},
+						["Rune Strike"] = {
+							["count"] = 5,
+							["hitmin"] = 4300,
+							["criticalamount"] = 18910,
+							["id"] = 56815,
+							["hitmax"] = 5309,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 10290,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 8862,
+								},
+								["Watcher Silthik"] = {
+									["overkill"] = 6299,
+									["amount"] = 10048,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 4300,
+								},
+							},
+							["overkill"] = 6299,
+							["hit"] = 3,
+							["casts"] = 5,
+							["critical"] = 2,
+							["amount"] = 33500,
+							["school"] = 1,
+							["criticalmin"] = 8862,
+							["criticalmax"] = 10048,
+							["hitamount"] = 14590,
+						},
+						["Blood Boil"] = {
+							["hitmin"] = 689,
+							["id"] = 49941,
+							["targets"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 3574,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 1564,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 689,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 5691,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 4768,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 1892,
+								},
+							},
+							["hitmax"] = 1339,
+							["casts"] = 3,
+							["count"] = 20,
+							["hit"] = 20,
+							["school"] = 32,
+							["resisted"] = 194,
+							["amount"] = 18178,
+							["hitamount"] = 18178,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 480,
+							["id"] = 55078,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 2293,
+								},
+							},
+							["hitmax"] = 638,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["resisted"] = 183,
+							["amount"] = 2293,
+							["hitamount"] = 2293,
+						},
+						["Blood Strike"] = {
+							["blocked"] = 41,
+							["hitmin"] = 1551,
+							["criticalamount"] = 2923,
+							["id"] = 49930,
+							["criticalmin"] = 2923,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 4474,
+								},
+							},
+							["criticalmax"] = 2923,
+							["critical"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 1551,
+							["amount"] = 4474,
+							["hitamount"] = 1551,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 1193,
+							["id"] = 49909,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 6481,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 1193,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 1328,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 2801,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 2831,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 1318,
+								},
+							},
+							["hitmax"] = 1679,
+							["casts"] = 11,
+							["count"] = 11,
+							["hit"] = 11,
+							["school"] = 16,
+							["resisted"] = 313,
+							["amount"] = 15952,
+							["hitamount"] = 15952,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 1349,
+							["criticalamount"] = 2592,
+							["id"] = 49921,
+							["hitmax"] = 1468,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 5409,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["casts"] = 3,
+							["critical"] = 1,
+							["amount"] = 5409,
+							["school"] = 1,
+							["criticalmin"] = 2592,
+							["criticalmax"] = 2592,
+							["hitamount"] = 2817,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 534,
+							["id"] = 55095,
+							["targets"] = {
+								["Anub'ar Webspinner"] = {
+									["overkill"] = 205,
+									["amount"] = 1255,
+								},
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 2580,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 1779,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 3599,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 593,
+								},
+							},
+							["overkill"] = 205,
+							["hitmax"] = 693,
+							["count"] = 16,
+							["hit"] = 16,
+							["school"] = 16,
+							["resisted"] = 191,
+							["amount"] = 9806,
+							["hitamount"] = 9806,
+						},
+						["Thorns"] = {
+							["hitmin"] = 181,
+							["id"] = 53307,
+							["targets"] = {
+								["Anub'ar Webspinner"] = {
+									["amount"] = 181,
+								},
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 362,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 1810,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 1086,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 544,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 22,
+							["hit"] = 22,
+							["school"] = 8,
+							["hitmax"] = 182,
+							["amount"] = 3983,
+							["hitamount"] = 3983,
+						},
+					},
+					["absorb"] = 5250,
+					["damagetaken"] = 99462,
+					["id"] = "0x0700000000A950A4",
+					["spec"] = 250,
+					["damagetakenspells"] = {
+						["Strike"] = {
+							["total"] = 8500,
+							["hitmin"] = 3666,
+							["id"] = 52532,
+							["sources"] = {
+								["Anub'ar Warrior"] = {
+									["total"] = 8500,
+									["amount"] = 7854,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 4188,
+							["amount"] = 7854,
+							["hitamount"] = 7854,
+						},
+						["Melee"] = {
+							["DODGE"] = 9,
+							["total"] = 39840,
+							["hitmin"] = 1181,
+							["id"] = 6603,
+							["amount"] = 39054,
+							["hitmax"] = 2161,
+							["sources"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 2811,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 0,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 1246,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 0,
+								},
+								["Anub'ar Warrior"] = {
+									["total"] = 18128,
+									["amount"] = 17592,
+								},
+								["Watcher Silthik"] = {
+									["total"] = 11624,
+									["amount"] = 11374,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 6031,
+								},
+							},
+							["count"] = 42,
+							["hit"] = 22,
+							["school"] = 1,
+							["PARRY"] = 6,
+							["MISS"] = 5,
+							["hitamount"] = 39054,
+						},
+						["Cleave"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 2391,
+							["id"] = 49806,
+							["PARRY"] = 1,
+							["hitmax"] = 2391,
+							["sources"] = {
+								["Anub'ar Warrior"] = {
+									["amount"] = 2391,
 								},
 							},
 							["count"] = 4,
-							["hitmax"] = 1221,
-							["hit"] = 4,
-							["school"] = 8,
-							["resisted"] = 122,
-							["amount"] = 4759,
-							["hitamount"] = 4759,
+							["hit"] = 1,
+							["school"] = 1,
+							["amount"] = 2391,
+							["MISS"] = 1,
+							["hitamount"] = 2391,
 						},
-						["Wrath"] = {
-							["hitmin"] = 3360,
-							["id"] = 48461,
+						["Infected Bite"] = {
+							["total"] = 8726,
+							["hitmin"] = 3964,
+							["id"] = 59364,
+							["hitmax"] = 4048,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["total"] = 8726,
+									["amount"] = 8012,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["resisted"] = 440,
+							["amount"] = 8012,
+							["hitamount"] = 8012,
+						},
+						["Poison Spray"] = {
+							["total"] = 2925,
+							["hitmin"] = 2487,
+							["id"] = 59366,
+							["hitmax"] = 2487,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["total"] = 2925,
+									["amount"] = 2487,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 324,
+							["amount"] = 2487,
+							["hitamount"] = 2487,
+						},
+						["Mind Flay (DoT)"] = {
+							["hitmin"] = 4239,
+							["id"] = 59367,
+							["sources"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 8478,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["hitmax"] = 4239,
+							["amount"] = 8478,
+							["hitamount"] = 8478,
+						},
+						["Poison Spray (DoT)"] = {
+							["hitmin"] = 1034,
+							["id"] = 59366,
+							["hitmax"] = 1477,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 3841,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 590,
+							["amount"] = 3841,
+							["hitamount"] = 3841,
+						},
+						["Curse of Fatigue"] = {
+							["total"] = 5437,
+							["hitmin"] = 2991,
+							["id"] = 59368,
+							["sources"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["total"] = 5437,
+									["amount"] = 2991,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 2991,
+							["amount"] = 2991,
+							["hitamount"] = 2991,
+						},
+						["Infected Bite (DoT)"] = {
+							["total"] = 8631,
+							["hitmin"] = 1224,
+							["id"] = 59364,
+							["hitmax"] = 1656,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["total"] = 8631,
+									["amount"] = 8411,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 8,
+							["resisted"] = 2133,
+							["amount"] = 8411,
+							["hitamount"] = 8411,
+						},
+						["Backstab"] = {
+							["hitmin"] = 5728,
+							["id"] = 52540,
+							["sources"] = {
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 12040,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 6312,
+							["amount"] = 12040,
+							["hitamount"] = 12040,
+						},
+						["Shadow Nova"] = {
+							["hitmin"] = 3903,
+							["id"] = 59358,
+							["amount"] = 3903,
+							["sources"] = {
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 3903,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 3903,
+							["MISS"] = 1,
+							["hitamount"] = 3903,
+						},
+					},
+					["runicspells"] = {
+						[50422] = 100,
+					},
+					["name"] = "Banze",
+					["ccdone"] = 1,
+					["runic"] = 100,
+					["overkill"] = 7321,
+					["totaldamage"] = 205972,
+				}, -- [2]
+				{
+					["runicspells"] = {
+						[48543] = 224,
+					},
+					["flag"] = 1298,
+					["class"] = "DRUID",
+					["auras"] = {
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[71184] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 10,
+							["uptime"] = 51,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["uptime"] = 14,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 75,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 69,
+						},
+						[71584] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 23,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 69,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 70,
+						},
+						[16870] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["uptime"] = 11,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[48467] = {
+							["type"] = "DEBUFF",
+							["count"] = 29,
+							["school"] = 8,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 3360,
+								["Skittering Infector"] = {
+									["uptime"] = 3,
+									["count"] = 8,
+								},
+								["Skittering Swarmer"] = {
+									["uptime"] = 1,
+									["count"] = 20,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[48447] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 6,
+						},
+						[48504] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 10,
+						},
+					},
+					["ragespells"] = {
+						[48541] = 28,
+					},
+					["time"] = 73.86000000000001,
+					["overkill"] = 821,
+					["damagespells"] = {
+						["Hurricane"] = {
+							["criticalmin"] = 503,
+							["hitmin"] = 335,
+							["criticalamount"] = 11488,
+							["id"] = 48466,
+							["criticalmax"] = 1416,
+							["targets"] = {
+								["Skittering Infector"] = {
+									["amount"] = 28464,
+								},
+								["Skittering Swarmer"] = {
+									["overkill"] = 821,
+									["amount"] = 7381,
+								},
+							},
+							["overkill"] = 821,
+							["critical"] = 12,
+							["casts"] = 1,
+							["count"] = 52,
+							["hit"] = 40,
+							["school"] = 8,
+							["hitmax"] = 945,
+							["amount"] = 35845,
+							["hitamount"] = 24357,
+						},
+					},
+					["totaldamagetaken"] = 75915,
+					["totaldamage"] = 35845,
+					["damage"] = 35845,
+					["runic"] = 224,
+					["manaspells"] = {
+						[48542] = 870,
+					},
+					["damagetaken"] = 75915,
+					["id"] = "0x07000000006149CA",
+					["spec"] = 105,
+					["healspells"] = {
+						[48445] = {
+							["overheal"] = 44655,
+							["count"] = 15,
+							["amount"] = 104160,
+							["school"] = 8,
+							["max"] = 9921,
+							["targets"] = {
+								["Strichy"] = {
+									["overheal"] = 11689,
+									["amount"] = 18074,
+								},
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 29763,
+								},
+								["Banze"] = {
+									["overheal"] = 0,
+									["amount"] = 29763,
+								},
+								["Ranoow"] = {
+									["overheal"] = 12029,
+									["amount"] = 17734,
+								},
+								["Azgards"] = {
+									["overheal"] = 20937,
+									["amount"] = 8826,
+								},
+							},
+							["min"] = 997,
+						},
+						[48503] = {
+							["overheal"] = 0,
+							["count"] = 7,
+							["amount"] = 18651,
+							["school"] = 8,
+							["max"] = 2837,
+							["targets"] = {
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 2737,
+								},
+								["Banze"] = {
+									["overheal"] = 0,
+									["amount"] = 5496,
+								},
+								["Ranoow"] = {
+									["overheal"] = 0,
+									["amount"] = 2699,
+								},
+								["Strichy"] = {
+									["overheal"] = 0,
+									["amount"] = 7719,
+								},
+							},
+							["min"] = 2203,
+						},
+						[53251] = {
+							["overheal"] = 62757,
+							["max"] = 1019,
+							["targets"] = {
+								["Azgards"] = {
+									["overheal"] = 15978,
+									["amount"] = 8897,
+								},
+								["Strichy"] = {
+									["overheal"] = 6320,
+									["amount"] = 6566,
+								},
+								["Banze"] = {
+									["overheal"] = 11924,
+									["amount"] = 6379,
+								},
+								["Ranoow"] = {
+									["overheal"] = 12076,
+									["amount"] = 12798,
+								},
+								["Rimgar"] = {
+									["overheal"] = 16459,
+									["amount"] = 8416,
+								},
+							},
+							["min"] = 1,
+							["casts"] = 4,
+							["count"] = 119,
+							["amount"] = 43056,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+						[50464] = {
+							["overheal"] = 10998,
+							["criticalamount"] = 60984,
+							["max"] = 8499,
+							["targets"] = {
+								["Azgards"] = {
+									["overheal"] = 3472,
+									["amount"] = 4769,
+								},
+								["Rimgar"] = {
+									["overheal"] = 0,
+									["amount"] = 13737,
+								},
+								["Banze"] = {
+									["overheal"] = 3705,
+									["amount"] = 23961,
+								},
+								["Ranoow"] = {
+									["overheal"] = 0,
+									["amount"] = 19196,
+								},
+								["Strichy"] = {
+									["overheal"] = 3821,
+									["amount"] = 43556,
+								},
+							},
+							["criticalmin"] = 3656,
+							["min"] = 3656,
+							["criticalmax"] = 8499,
+							["critical"] = 9,
+							["amount"] = 105219,
+							["school"] = 8,
+							["casts"] = 17,
+							["count"] = 17,
+						},
+						[48443] = {
+							["overheal"] = 1337,
+							["ishot"] = true,
+							["count"] = 8,
+							["amount"] = 14014,
+							["school"] = 8,
+							["max"] = 5751,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 1337,
+									["amount"] = 14014,
+								},
+							},
+							["min"] = 1337,
+						},
+						[48441] = {
+							["overheal"] = 6679,
+							["max"] = 2706,
+							["targets"] = {
+								["Banze"] = {
+									["overheal"] = 6679,
+									["amount"] = 25323,
+								},
+							},
+							["min"] = 1847,
+							["casts"] = 2,
+							["count"] = 12,
+							["amount"] = 25323,
+							["school"] = 8,
+							["ishot"] = true,
+						},
+					},
+					["damagetakenspells"] = {
+						["Poison Spray"] = {
+							["hitmin"] = 3067,
+							["id"] = 59366,
+							["hitmax"] = 3067,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 3067,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 340,
+							["amount"] = 3067,
+							["hitamount"] = 3067,
+						},
+						["Poison Spray (DoT)"] = {
+							["hitmin"] = 1178,
+							["id"] = 59366,
+							["hitmax"] = 1682,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 4038,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 1008,
+							["amount"] = 4038,
+							["hitamount"] = 4038,
+						},
+						["Melee"] = {
+							["DODGE"] = 10,
+							["hitmin"] = 198,
+							["criticalamount"] = 9960,
+							["id"] = 6603,
+							["criticalmin"] = 418,
+							["hitmax"] = 345,
+							["count"] = 164,
+							["hit"] = 135,
+							["criticalmax"] = 5322,
+							["critical"] = 10,
+							["amount"] = 42340,
+							["school"] = 1,
+							["sources"] = {
+								["Skittering Infector"] = {
+									["amount"] = 14871,
+								},
+								["Skittering Swarmer"] = {
+									["amount"] = 22147,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 5322,
+								},
+							},
+							["MISS"] = 9,
+							["hitamount"] = 32380,
+						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 4089,
+							["id"] = 59357,
+							["hitmax"] = 6829,
+							["sources"] = {
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 26470,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["resisted"] = 4758,
+							["amount"] = 26470,
+							["hitamount"] = 26470,
+						},
+					},
+					["mana"] = 870,
+					["heal"] = 310423,
+					["name"] = "Strichy",
+					["overheal"] = 126426,
+					["last"] = 1130.774,
+					["rage"] = 28,
+					["role"] = "HEALER",
+				}, -- [3]
+				{
+					["last"] = 1122.948,
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
+					["auras"] = {
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[48504] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 15,
+						},
+						[50489] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 14,
+						},
+						[55078] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 28,
+						},
+						[48447] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 6,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[59052] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["uptime"] = 2,
+						},
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[51124] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[47436] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 70,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[53386] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 16,
+							["uptime"] = 47,
+						},
+						[60196] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 25,
+							["school"] = 1,
+							["uptime"] = 79,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 76,
+						},
+					},
+					["time"] = 48.84,
+					["totaldamagetaken"] = 23808,
+					["damage"] = 80982,
+					["damagespells"] = {
+						["Death Coil"] = {
+							["hitmin"] = 1197,
+							["id"] = 47632,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["overkill"] = 653,
+									["amount"] = 1197,
+								},
+							},
+							["overkill"] = 653,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 1197,
+							["amount"] = 1197,
+							["hitamount"] = 1197,
+						},
+						["Frost Strike"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 1166,
+							["criticalamount"] = 2653,
+							["id"] = 49143,
+							["criticalmin"] = 2653,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 2995,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 2381,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 3936,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 0,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 1187,
+								},
+							},
+							["criticalmax"] = 2653,
+							["critical"] = 1,
+							["casts"] = 8,
+							["count"] = 8,
+							["hit"] = 6,
+							["school"] = 16,
+							["hitmax"] = 1682,
+							["amount"] = 10499,
+							["hitamount"] = 7846,
+						},
+						["Melee"] = {
+							["glance"] = 1588,
+							["hitmin"] = 924,
+							["criticalmin"] = 1986,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 3661,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 3898,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 2839,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["overkill"] = 449,
+									["amount"] = 3025,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 1894,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 15317,
+							["glancemin"] = 791,
+							["criticalamount"] = 3980,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["glancemax"] = 797,
+							["overkill"] = 449,
+							["blocked"] = 40,
+							["criticalmax"] = 1994,
+							["hitmax"] = 1104,
+							["hit"] = 10,
+							["school"] = 1,
+							["critical"] = 2,
+							["count"] = 15,
+							["hitamount"] = 9749,
+						},
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 304,
+							["id"] = 55078,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 304,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 304,
+							["amount"] = 304,
+							["hitamount"] = 304,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 656,
+							["criticalamount"] = 3507,
+							["id"] = 49930,
+							["hitmax"] = 682,
+							["targets"] = {
+								["Anub'ar Warrior"] = {
+									["amount"] = 656,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 2428,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 1761,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 2,
+							["casts"] = 4,
+							["critical"] = 2,
+							["amount"] = 4845,
+							["school"] = 1,
+							["criticalmin"] = 1746,
+							["criticalmax"] = 1761,
+							["hitamount"] = 1338,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 630,
+							["id"] = 49921,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 630,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 3360,
-							["amount"] = 3360,
-							["hitamount"] = 3360,
+							["school"] = 1,
+							["hitmax"] = 630,
+							["amount"] = 630,
+							["hitamount"] = 630,
 						},
-						["Starfire"] = {
-							["criticalamount"] = 11984,
-							["hitmin"] = 5851,
-							["criticalmin"] = 11984,
-							["id"] = 48465,
-							["amount"] = 23916,
+						["Obliterate"] = {
+							["hitmin"] = 1177,
+							["criticalamount"] = 9198,
+							["id"] = 51425,
+							["criticalmin"] = 2778,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 23916,
-									["overkill"] = 6459,
+								["Watcher Gashra"] = {
+									["amount"] = 2778,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 1183,
+								},
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 6420,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 1177,
 								},
 							},
-							["overkill"] = 6459,
-							["hitmax"] = 6081,
-							["criticalmax"] = 11984,
-							["critical"] = 1,
+							["criticalmax"] = 3525,
+							["critical"] = 3,
+							["casts"] = 5,
+							["count"] = 5,
 							["hit"] = 2,
-							["school"] = 64,
-							["count"] = 3,
-							["casts"] = 3,
-							["hitamount"] = 11932,
+							["school"] = 1,
+							["hitmax"] = 1183,
+							["amount"] = 11558,
+							["hitamount"] = 2360,
 						},
-						["Moonfire (DoT)"] = {
-							["criticalamount"] = 2881,
-							["id"] = 48463,
+						["Howling Blast"] = {
+							["hitmax"] = 1757,
+							["hitmin"] = 1179,
+							["criticalamount"] = 26474,
+							["id"] = 49184,
+							["criticalmin"] = 2608,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2881,
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 3106,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 5204,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 2897,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 1304,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 2873,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 8526,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 5347,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 7375,
 								},
 							},
-							["criticalmax"] = 1516,
-							["critical"] = 2,
-							["amount"] = 2881,
-							["school"] = 64,
-							["resisted"] = 151,
-							["count"] = 2,
-							["criticalmin"] = 1365,
+							["criticalmax"] = 3447,
+							["critical"] = 9,
+							["casts"] = 4,
+							["count"] = 16,
+							["hit"] = 7,
+							["school"] = 16,
+							["resisted"] = 928,
+							["amount"] = 36632,
+							["hitamount"] = 10158,
 						},
 					},
-					["last"] = 12494.233,
-					["role"] = "DAMAGER",
-					["flag"] = 1298,
-					["class"] = "DRUID",
-					["manaspells"] = {
-						[53506] = 562,
+					["damagetaken"] = 23808,
+					["id"] = "0x07000000004E52D5",
+					["spec"] = 251,
+					["healspells"] = {
+						[50475] = {
+							["overheal"] = 2701,
+							["max"] = 149,
+							["count"] = 49,
+							["amount"] = 840,
+							["school"] = 1,
+							["min"] = 22,
+							["ishot"] = true,
+							["targets"] = {
+								["Azgards"] = {
+									["overheal"] = 2701,
+									["amount"] = 840,
+								},
+							},
+						},
 					},
-					["auras"] = {
-						[72221] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[47436] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[24858] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[16886] = {
+					["damagetakenspells"] = {
+						["Poison Spray (DoT)"] = {
+							["hitmin"] = 1036,
+							["id"] = 59366,
+							["hitmax"] = 1332,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 3700,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
 							["school"] = 8,
-							["type"] = "BUFF",
+							["resisted"] = 737,
+							["amount"] = 3700,
+							["hitamount"] = 3700,
+						},
+						["Melee"] = {
+							["hitmin"] = 225,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Skittering Swarmer"] = {
+									["amount"] = 458,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 233,
+							["amount"] = 458,
+							["hitamount"] = 458,
+						},
+						["Cleave"] = {
+							["hitmin"] = 4944,
+							["id"] = 49806,
+							["sources"] = {
+								["Anub'ar Warrior"] = {
+									["amount"] = 4944,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 4944,
+							["amount"] = 4944,
+							["hitamount"] = 4944,
+						},
+						["Curse of Fatigue"] = {
+							["hitmin"] = 5880,
+							["id"] = 59368,
+							["sources"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 5880,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 5880,
+							["amount"] = 5880,
+							["hitamount"] = 5880,
+						},
+						["Poison Spray"] = {
+							["hitmin"] = 2799,
+							["id"] = 59366,
+							["hitmax"] = 2799,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 2799,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 311,
+							["amount"] = 2799,
+							["hitamount"] = 2799,
+						},
+						["Shadow Nova"] = {
+							["hitmin"] = 2984,
+							["id"] = 59358,
+							["hitmax"] = 3043,
+							["sources"] = {
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 6027,
+								},
+							},
 							["count"] = 2,
-							["uptime"] = 4,
-						},
-						[48518] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48421] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48170] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48073] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48162] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[53307] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[63944] = {
-							["uptime"] = 10,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["refresh"] = 1,
-						},
-						[48942] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48470] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[48111] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 2038,
+							["amount"] = 6027,
+							["hitamount"] = 6027,
 						},
 					},
-					["mana"] = 562,
-					["totaldamage"] = 34916,
-					["time"] = 8.049999999999999,
-					["name"] = "Scrakekf",
-					["overkill"] = 6459,
-					["spec"] = 102,
-					["id"] = "0x0700000000ABE036",
-					["damage"] = 34916,
+					["heal"] = 840,
+					["name"] = "Azgards",
+					["overkill"] = 1102,
+					["overheal"] = 2701,
+					["totaldamage"] = 80982,
+					["role"] = "DAMAGER",
 				}, -- [4]
 				{
-					["last"] = 12493.618,
+					["last"] = 1122.714,
 					["flag"] = 1298,
 					["class"] = "WARRIOR",
 					["auras"] = {
-						[72221] = {
+						[48470] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[12970] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["refresh"] = 14,
+							["school"] = 1,
+							["uptime"] = 81,
+						},
+						[20253] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Watcher Gashra"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[53251] = {
+							["type"] = "BUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["uptime"] = 28,
+						},
+						[14204] = {
+							["type"] = "BUFF",
+							["uptime"] = 40,
+							["school"] = 1,
+							["refresh"] = 3,
+							["count"] = 2,
+						},
+						[70855] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 19,
+						},
+						[55610] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[23885] = {
+							["type"] = "BUFF",
+							["count"] = 7,
+							["school"] = 1,
+							["uptime"] = 23,
+						},
+						[71491] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[47436] = {
-							["uptime"] = 10,
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 2,
+							["refresh"] = 2,
+							["uptime"] = 33,
+						},
+						[48447] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 2,
+							["uptime"] = 6,
+						},
+						[48504] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["uptime"] = 1,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
 							["refresh"] = 1,
+							["uptime"] = 70,
 						},
-						[63944] = {
-							["uptime"] = 10,
+						[72221] = {
 							["type"] = "BUFF",
 							["count"] = 1,
+							["uptime"] = 83,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 75,
+						},
+						[46916] = {
+							["type"] = "BUFF",
+							["uptime"] = 29,
+							["school"] = 1,
 							["refresh"] = 1,
+							["count"] = 5,
 						},
-						[24907] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[25898] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 14,
+							["school"] = 1,
+							["refresh"] = 27,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["count"] = 1,
+									["refresh"] = 9,
+									["uptime"] = 14,
+								},
+								["Watcher Silthik"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 10,
+								},
+								["Watcher Narjil"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+								["Anub'ar Webspinner"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+								["Watcher Gashra"] = {
+									["count"] = 1,
+									["refresh"] = 4,
+									["uptime"] = 9,
+								},
+								["Anub'ar Warrior"] = {
+									["count"] = 4,
+									["refresh"] = 4,
+									["uptime"] = 22,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["uptime"] = 8,
+									["count"] = 3,
+								},
+								["Anub'ar Skirmisher"] = {
+									["count"] = 2,
+									["refresh"] = 8,
+									["uptime"] = 14,
+								},
+							},
+							["uptime"] = 42,
 						},
 						[29131] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[23885] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 4,
-						},
-						[46916] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
 							["uptime"] = 6,
 						},
-						[48942] = {
+						[75458] = {
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-						[12970] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 10,
-						},
-					},
-					["totaldamage"] = 13506,
-					["time"] = 7.420000000000001,
-					["damage"] = 13506,
-					["overheal"] = 723,
-					["id"] = "0x0700000000B0209B",
-					["spec"] = 72,
-					["healspells"] = {
-						[23880] = {
-							["overheal"] = 723,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Supdawgx"] = {
-									["overheal"] = 723,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["ragespells"] = {
-						[29131] = 7,
-						[12964] = 1,
-					},
-					["name"] = "Supdawgx",
-					["role"] = "DAMAGER",
-					["damagespells"] = {
-						["Melee"] = {
-							["criticalamount"] = 5290,
-							["id"] = 6603,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 5290,
-								},
-							},
-							["criticalmax"] = 2494,
-							["critical"] = 3,
-							["amount"] = 5290,
-							["school"] = 1,
-							["count"] = 3,
-							["criticalmin"] = 1392,
-						},
-						["Whirlwind"] = {
-							["hitmin"] = 862,
-							["id"] = 1680,
-							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2231,
-								},
-							},
-							["casts"] = 1,
 							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 1369,
-							["amount"] = 2231,
-							["hitamount"] = 2231,
+							["school"] = 64,
+							["uptime"] = 30,
 						},
+					},
+					["time"] = 58.87000000000003,
+					["totaldamagetaken"] = 56418,
+					["damage"] = 500887,
+					["damagespells"] = {
 						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 252,
+							["hitmin"] = 128,
 							["id"] = 12721,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 2498,
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 10740,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 5515,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 821,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 1226,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 8595,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 8348,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 1923,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 3869,
 								},
 							},
-							["count"] = 7,
-							["hit"] = 7,
+							["count"] = 80,
+							["hit"] = 80,
 							["school"] = 1,
-							["hitmax"] = 397,
-							["amount"] = 2498,
-							["hitamount"] = 2498,
+							["hitmax"] = 2162,
+							["amount"] = 41037,
+							["hitamount"] = 41037,
 						},
-						["Bloodthirst"] = {
-							["criticalamount"] = 3487,
-							["id"] = 23881,
+						["Cleave"] = {
+							["count"] = 15,
+							["hitmin"] = 3131,
+							["criticalamount"] = 98619,
+							["id"] = 47520,
+							["hitmax"] = 4026,
 							["targets"] = {
-								["Portal Guardian"] = {
-									["amount"] = 3487,
+								["Watcher Gashra"] = {
+									["amount"] = 7542,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 37134,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 16457,
+								},
+								["Anub'ar Skirmisher"] = {
+									["overkill"] = 6936,
+									["amount"] = 47851,
+								},
+							},
+							["overkill"] = 6936,
+							["hit"] = 3,
+							["casts"] = 5,
+							["critical"] = 12,
+							["amount"] = 108984,
+							["school"] = 1,
+							["criticalmin"] = 7390,
+							["criticalmax"] = 9517,
+							["hitamount"] = 10365,
+						},
+						["Slam"] = {
+							["hitmin"] = 3582,
+							["criticalamount"] = 8237,
+							["id"] = 50783,
+							["criticalmin"] = 8237,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 11819,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 4831,
+								},
+							},
+							["criticalmax"] = 8237,
+							["critical"] = 1,
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 4831,
+							["amount"] = 16650,
+							["hitamount"] = 8413,
+						},
+						["Whirlwind"] = {
+							["criticalmax"] = 11358,
+							["hitmin"] = 1889,
+							["criticalamount"] = 84055,
+							["id"] = 1680,
+							["criticalmin"] = 4184,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 12532,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 16229,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 9019,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 7884,
+								},
+								["Watcher Gashra"] = {
+									["overkill"] = 954,
+									["amount"] = 11674,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 17393,
+								},
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 34613,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 28386,
+								},
+							},
+							["overkill"] = 954,
+							["critical"] = 12,
+							["casts"] = 6,
+							["count"] = 30,
+							["hit"] = 18,
+							["school"] = 1,
+							["hitmax"] = 5247,
+							["amount"] = 137730,
+							["hitamount"] = 53675,
+						},
+						["Intercept"] = {
+							["criticalamount"] = 1049,
+							["id"] = 20253,
+							["targets"] = {
+								["Watcher Gashra"] = {
+									["amount"] = 1049,
 								},
 							},
 							["casts"] = 1,
 							["critical"] = 1,
-							["amount"] = 3487,
+							["amount"] = 1049,
 							["school"] = 1,
+							["criticalmin"] = 1049,
+							["criticalmax"] = 1049,
 							["count"] = 1,
-							["criticalmax"] = 3487,
-							["criticalmin"] = 3487,
+						},
+						["Bloodthirst"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 3355,
+							["criticalamount"] = 30352,
+							["id"] = 23881,
+							["criticalmin"] = 8857,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 19452,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 3355,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 3773,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 0,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 6153,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 14813,
+								},
+							},
+							["criticalmax"] = 10900,
+							["critical"] = 3,
+							["casts"] = 8,
+							["count"] = 8,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 6153,
+							["amount"] = 47546,
+							["hitamount"] = 17194,
+						},
+						["Execute"] = {
+							["hitmin"] = 3382,
+							["criticalamount"] = 15364,
+							["id"] = 20647,
+							["hitmax"] = 3382,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 18746,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 1,
+							["casts"] = 1,
+							["critical"] = 2,
+							["amount"] = 18746,
+							["school"] = 1,
+							["criticalmin"] = 7682,
+							["criticalmax"] = 7682,
+							["hitamount"] = 3382,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 9149,
+							["hitmin"] = 1507,
+							["criticalmin"] = 3491,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 41363,
+								},
+								["Anub'ar Webspinner"] = {
+									["amount"] = 1577,
+								},
+								["Watcher Gashra"] = {
+									["amount"] = 9057,
+								},
+								["Anub'ar Warrior"] = {
+									["overkill"] = 2936,
+									["amount"] = 5900,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 5995,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 11471,
+								},
+							},
+							["glancing"] = 5,
+							["amount"] = 75363,
+							["glancemin"] = 1269,
+							["criticalamount"] = 51103,
+							["id"] = 6603,
+							["blocked"] = 121,
+							["glancemax"] = 2224,
+							["overkill"] = 2936,
+							["PARRY"] = 1,
+							["criticalmax"] = 6550,
+							["hitmax"] = 3855,
+							["hit"] = 7,
+							["school"] = 1,
+							["critical"] = 11,
+							["count"] = 25,
+							["hitamount"] = 15111,
+						},
+						["Victory Rush"] = {
+							["criticalamount"] = 8178,
+							["id"] = 34428,
+							["targets"] = {
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 8178,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 8178,
+							["school"] = 1,
+							["criticalmin"] = 8178,
+							["criticalmax"] = 8178,
+							["count"] = 1,
+						},
+						["Heroic Throw"] = {
+							["criticalamount"] = 8394,
+							["id"] = 57755,
+							["targets"] = {
+								["Anub'ar Warrior"] = {
+									["amount"] = 8394,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 8394,
+							["school"] = 1,
+							["criticalmin"] = 8394,
+							["criticalmax"] = 8394,
+							["count"] = 1,
+						},
+						["Heroic Strike"] = {
+							["count"] = 6,
+							["blocked"] = 40,
+							["hitmin"] = 3628,
+							["criticalamount"] = 29587,
+							["id"] = 47450,
+							["hitmax"] = 3995,
+							["targets"] = {
+								["Anub'ar Webspinner"] = {
+									["amount"] = 6683,
+								},
+								["Krik'thir the Gatewatcher"] = {
+									["amount"] = 9019,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 10562,
+								},
+								["Watcher Silthik"] = {
+									["amount"] = 3995,
+								},
+								["Anub'ar Skirmisher"] = {
+									["overkill"] = 6174,
+									["amount"] = 6951,
+								},
+							},
+							["overkill"] = 6174,
+							["hit"] = 2,
+							["casts"] = 6,
+							["critical"] = 4,
+							["amount"] = 37210,
+							["school"] = 1,
+							["criticalmin"] = 6683,
+							["criticalmax"] = 9019,
+							["hitamount"] = 7623,
 						},
 					},
-					["rage"] = 8,
-					["heal"] = 0,
+					["overheal"] = 1992,
+					["damagetaken"] = 56418,
+					["id"] = "0x0700000000AFB138",
+					["spec"] = 72,
+					["healspells"] = {
+						[23880] = {
+							["overheal"] = 1992,
+							["count"] = 17,
+							["amount"] = 3629,
+							["school"] = 1,
+							["max"] = 332,
+							["targets"] = {
+								["Ranoow"] = {
+									["overheal"] = 1992,
+									["amount"] = 3629,
+								},
+							},
+							["min"] = 309,
+						},
+					},
+					["damagetakenspells"] = {
+						["Web Shot"] = {
+							["hitmin"] = 3780,
+							["id"] = 59362,
+							["hitmax"] = 3780,
+							["sources"] = {
+								["Anub'ar Webspinner"] = {
+									["amount"] = 3780,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 420,
+							["amount"] = 3780,
+							["hitamount"] = 3780,
+						},
+						["Poison Spray (DoT)"] = {
+							["hitmin"] = 1180,
+							["id"] = 59366,
+							["hitmax"] = 1180,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 3540,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 393,
+							["amount"] = 3540,
+							["hitamount"] = 3540,
+						},
+						["Melee"] = {
+							["DODGE"] = 3,
+							["hitmin"] = 2853,
+							["id"] = 6603,
+							["amount"] = 20228,
+							["sources"] = {
+								["Watcher Gashra"] = {
+									["amount"] = 0,
+								},
+								["Anub'ar Warrior"] = {
+									["amount"] = 2853,
+								},
+								["Watcher Narjil"] = {
+									["amount"] = 4304,
+								},
+								["Anub'ar Skirmisher"] = {
+									["amount"] = 13071,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 4304,
+							["MISS"] = 1,
+							["hitamount"] = 20228,
+						},
+						["Cleave"] = {
+							["hitmin"] = 4637,
+							["id"] = 49806,
+							["sources"] = {
+								["Anub'ar Warrior"] = {
+									["amount"] = 10478,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 5841,
+							["amount"] = 10478,
+							["hitamount"] = 10478,
+						},
+						["Infected Bite"] = {
+							["hitmin"] = 3792,
+							["id"] = 59364,
+							["hitmax"] = 3792,
+							["sources"] = {
+								["Watcher Gashra"] = {
+									["amount"] = 3792,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 1624,
+							["amount"] = 3792,
+							["hitamount"] = 3792,
+						},
+						["Infected Bite (DoT)"] = {
+							["hitmin"] = 1470,
+							["id"] = 59364,
+							["hitmax"] = 1890,
+							["sources"] = {
+								["Watcher Gashra"] = {
+									["amount"] = 4830,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 8,
+							["resisted"] = 1470,
+							["amount"] = 4830,
+							["hitamount"] = 4830,
+						},
+						["Poison Spray"] = {
+							["hitmin"] = 2586,
+							["id"] = 59366,
+							["hitmax"] = 2586,
+							["sources"] = {
+								["Watcher Silthik"] = {
+									["amount"] = 2586,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["resisted"] = 646,
+							["amount"] = 2586,
+							["hitamount"] = 2586,
+						},
+						["Shadow Nova"] = {
+							["hitmin"] = 3579,
+							["id"] = 59358,
+							["hitmax"] = 3605,
+							["sources"] = {
+								["Anub'ar Shadowcaster"] = {
+									["amount"] = 7184,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 797,
+							["amount"] = 7184,
+							["hitamount"] = 7184,
+						},
+					},
+					["overkill"] = 17000,
+					["ragespells"] = {
+						[29131] = 7,
+						[58362] = 40,
+						[12964] = 12,
+					},
+					["name"] = "Ranoow",
+					["heal"] = 3629,
+					["rage"] = 59,
+					["totaldamage"] = 500887,
+					["role"] = "DAMAGER",
 				}, -- [5]
 			},
-			["starttime"] = 1728655209,
-			["etotaldamage"] = 6800,
-			["overkill"] = 6459,
-			["edamagetaken"] = 143471,
-			["heal"] = 0,
-			["name"] = "Portal Guardian (2)",
-			["mobname"] = "Portal Guardian",
-			["absorb"] = 6800,
-			["edamage"] = 0,
-			["last_action"] = 1728655219,
-			["endtime"] = 1728655219,
-		}, -- [15]
+			["type"] = "party",
+			["damagetaken"] = 319489,
+			["rage"] = 157,
+			["ccdone"] = 3,
+			["overheal"] = 131847,
+			["overkill"] = 43912,
+			["edamagetaken"] = 1418760,
+			["heal"] = 323801,
+			["name"] = "Krik'thir the Gatewatcher",
+			["mobname"] = "Krik'thir the Gatewatcher",
+			["starttime"] = 1728900896,
+			["edamage"] = 319489,
+			["last_action"] = 1728900979,
+			["endtime"] = 1728900979,
+		}, -- [4]
 	},
 }
