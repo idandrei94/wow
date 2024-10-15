@@ -1,94 +1,78 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["totaldamage"] = 203073,
-		["time"] = 1282,
-		["totaldamagetaken"] = 20195,
-		["damage"] = 203046,
-		["rage"] = 700,
-		["absorb"] = 2038,
-		["damagetaken"] = 18157,
-		["interrupt"] = 5,
-		["overheal"] = 10454,
-		["overkill"] = 20937,
+		["totaldamage"] = 59266,
+		["time"] = 397,
+		["cctaken"] = 1,
+		["totaldamagetaken"] = 4728,
+		["damage"] = 59266,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "WARRIOR",
-				["time"] = 768.6599999999994,
-				["totaldamagetaken"] = 10469,
-				["damage"] = 83812,
-				["rage"] = 700,
-				["damagetaken"] = 9519,
+				["time"] = 310.5600000000001,
+				["totaldamagetaken"] = 3410,
+				["damage"] = 33623,
+				["rage"] = 263,
+				["damagetaken"] = 2487,
 				["id"] = "0x0700000000B06C55",
 				["spec"] = 73,
-				["overkill"] = 7635,
-				["heal"] = 584,
+				["overkill"] = 3744,
+				["heal"] = 422,
 				["name"] = "Omoratorul",
-				["ccdone"] = 45,
-				["interrupt"] = 5,
-				["overheal"] = 717,
-				["totaldamage"] = 83812,
+				["ccdone"] = 21,
+				["overheal"] = 485,
+				["interrupt"] = 4,
+				["totaldamage"] = 33623,
 				["role"] = "TANK",
 			}, -- [1]
 			{
 				["flag"] = 1298,
 				["class"] = "PRIEST",
-				["time"] = 193.53,
-				["totaldamagetaken"] = 1957,
-				["damage"] = 41332,
-				["overheal"] = 9737,
-				["absorb"] = 2038,
-				["damagetaken"] = 1583,
+				["role"] = "HEALER",
+				["time"] = 77,
+				["cctaken"] = 1,
+				["totaldamagetaken"] = 965,
+				["damage"] = 12013,
+				["overheal"] = 4242,
+				["absorb"] = 1591,
+				["damagetaken"] = 391,
 				["id"] = "0x0700000000B06C58",
 				["spec"] = 256,
-				["overkill"] = 3861,
-				["heal"] = 5607,
+				["overkill"] = 515,
+				["heal"] = 1438,
 				["name"] = "Popasfant",
-				["ccdone"] = 8,
-				["totaldamage"] = 41359,
-				["role"] = "HEALER",
+				["ccdone"] = 3,
+				["totaldamage"] = 12013,
 			}, -- [2]
 			{
 				["flag"] = 1298,
 				["class"] = "MAGE",
-				["time"] = 158.06,
-				["totaldamagetaken"] = 1673,
-				["damage"] = 36191,
-				["overheal"] = 0,
-				["damagetaken"] = 1473,
+				["time"] = 80.70999999999999,
+				["totaldamagetaken"] = 353,
+				["damage"] = 13630,
+				["overheal"] = 458,
+				["damagetaken"] = 259,
 				["id"] = "0x0700000000B06C60",
 				["spec"] = 64,
-				["overkill"] = 5935,
-				["heal"] = 77,
+				["overkill"] = 2002,
+				["heal"] = 37,
 				["name"] = "Vrajadefoc",
-				["potion"] = 1,
-				["totaldamage"] = 36191,
+				["interrupt"] = 1,
+				["totaldamage"] = 13630,
 				["role"] = "DAMAGER",
 			}, -- [3]
-			{
-				["flag"] = 1298,
-				["class"] = "ROGUE",
-				["time"] = 341.7099999999998,
-				["totaldamagetaken"] = 6096,
-				["damage"] = 41711,
-				["overheal"] = 0,
-				["damagetaken"] = 5582,
-				["id"] = "0x0700000000B0D62C",
-				["spec"] = 260,
-				["overkill"] = 3506,
-				["heal"] = 714,
-				["name"] = "Slavcul",
-				["potion"] = 1,
-				["totaldamage"] = 41711,
-				["role"] = "DAMAGER",
-			}, -- [4]
 		},
-		["heal"] = 6982,
-		["potion"] = 2,
-		["ccdone"] = 53,
+		["absorb"] = 1591,
+		["damagetaken"] = 3137,
+		["interrupt"] = 5,
+		["overkill"] = 6261,
+		["heal"] = 1897,
 		["name"] = "Total",
-		["starttime"] = 1728996612,
+		["ccdone"] = 24,
+		["starttime"] = 1729019367,
+		["rage"] = 263,
+		["overheal"] = 5185,
 	},
 	["version"] = 1878,
 	["sets"] = {
@@ -96,1019 +80,48 @@ SkadaStorageDB = {
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 95,
-								},
-							},
-							["amount"] = 95,
-						},
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
 								["Omoratorul"] = {
-									["amount"] = 58,
+									["amount"] = 24,
 								},
 							},
-							["amount"] = 58,
+							["amount"] = 24,
 						},
 					},
-					["damagetaken"] = 1369,
-					["id"] = "0xF13000112D01C97A",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 488,
-								},
-							},
-							["amount"] = 488,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 143,
-								},
-							},
-							["amount"] = 143,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 314,
-								},
-							},
-							["amount"] = 314,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 35,
-									["amount"] = 291,
-								},
-							},
-							["overkill"] = 35,
-							["amount"] = 291,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 93,
-								},
-							},
-							["amount"] = 93,
-						},
-					},
-					["totaldamage"] = 153,
-					["name"] = "Mudrock Spikeshell",
-					["totaldamagetaken"] = 1369,
-					["flag"] = 68136,
-					["damage"] = 153,
-				}, -- [1]
-			},
-			["totaldamage"] = 1369,
-			["time"] = 7,
-			["totaldamagetaken"] = 153,
-			["etotaldamage"] = 153,
-			["last_time"] = 15472.615,
-			["players"] = {
-				{
-					["last"] = 15471.298,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["time"] = 3.93,
-					["totaldamagetaken"] = 153,
-					["damage"] = 276,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 93,
-							["id"] = 8204,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 93,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 93,
-							["amount"] = 93,
-							["hitamount"] = 93,
-						},
-						["Melee"] = {
-							["hitmin"] = 68,
-							["id"] = 6603,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 143,
-								},
-							},
-							["blocked"] = 17,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 75,
-							["amount"] = 143,
-							["hitamount"] = 143,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 40,
-							["id"] = 6548,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 40,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 40,
-							["amount"] = 40,
-							["hitamount"] = 40,
-						},
-					},
-					["damagetaken"] = 153,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 31,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 95,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 32,
-							["amount"] = 95,
-							["hitamount"] = 95,
-						},
-						["Melee"] = {
-							["hitmin"] = 27,
-							["id"] = 6603,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 58,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 31,
-							["amount"] = 58,
-							["hitamount"] = 58,
-						},
-					},
-					["name"] = "Omoratorul",
-					["totaldamage"] = 276,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 291,
-							["id"] = 8105,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 35,
-									["amount"] = 291,
-								},
-							},
-							["overkill"] = 35,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 291,
-							["amount"] = 291,
-							["hitamount"] = 291,
-						},
-						["Holy Fire"] = {
-							["criticalamount"] = 479,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 479,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 479,
-							["school"] = 2,
-							["criticalmin"] = 479,
-							["criticalmax"] = 479,
-							["count"] = 1,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 9,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 9,
-							["amount"] = 9,
-							["hitamount"] = 9,
-						},
-					},
-					["last"] = 15467.365,
-					["class"] = "PRIEST",
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["overkill"] = 35,
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-					},
-					["totaldamage"] = 779,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 779,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 314,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 314,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 314,
-							["amount"] = 314,
-							["hitamount"] = 314,
-						},
-					},
-					["last"] = 15470.614,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["class"] = "MAGE",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 314,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 3.25,
-					["damage"] = 314,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 153,
-			["damage"] = 1369,
-			["overkill"] = 35,
-			["edamagetaken"] = 1369,
-			["etotaldamagetaken"] = 1369,
-			["name"] = "Mudrock Spikeshell (18)",
-			["mobname"] = "Mudrock Spikeshell",
-			["starttime"] = 1729002991,
-			["edamage"] = 153,
-			["last_action"] = 1729002996,
-			["endtime"] = 1729002998,
-		}, -- [1]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 101,
-								},
-							},
-							["amount"] = 101,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 29,
-								},
-							},
-							["amount"] = 29,
-						},
-					},
-					["damagetaken"] = 1501,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8492] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 32,
-									["amount"] = 187,
-								},
-							},
-							["overkill"] = 32,
-							["amount"] = 187,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 307,
-								},
-							},
-							["amount"] = 307,
-						},
-						[5019] = {
-							["school"] = 1,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 34,
-								},
-							},
-							["amount"] = 34,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 228,
-								},
-							},
-							["amount"] = 228,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 99,
-								},
-							},
-							["amount"] = 99,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 286,
-								},
-							},
-							["amount"] = 286,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 360,
-								},
-							},
-							["amount"] = 360,
-						},
-					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 130,
-					["totaldamagetaken"] = 1501,
-					["id"] = "0xF13000112D01C985",
-					["damage"] = 130,
-				}, -- [1]
-			},
-			["totaldamage"] = 1501,
-			["time"] = 7,
-			["totaldamagetaken"] = 130,
-			["etotaldamagetaken"] = 1501,
-			["last_time"] = 15461.282,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = 1,
-							},
-						},
-					},
-					["last"] = 15460.523,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["time"] = 4.810000000000001,
-					["totaldamagetaken"] = 130,
-					["damage"] = 327,
-					["damagespells"] = {
-						["Melee"] = {
-							["glance"] = 73,
-							["hitmin"] = 68,
-							["id"] = 6603,
-							["glancemax"] = 73,
-							["hitmax"] = 87,
-							["glancing"] = 1,
-							["hitamount"] = 155,
-							["count"] = 3,
-							["amount"] = 228,
-							["school"] = 1,
-							["hit"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 228,
-								},
-							},
-							["glancemin"] = 73,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 99,
-							["id"] = 8204,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 99,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 99,
-							["amount"] = 99,
-							["hitamount"] = 99,
-						},
-					},
-					["damagetaken"] = 130,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 32,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 101,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 36,
-							["amount"] = 101,
-							["hitamount"] = 101,
-						},
-						["Melee"] = {
-							["hitmin"] = 29,
-							["id"] = 6603,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 29,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 29,
-							["amount"] = 29,
-							["hitamount"] = 29,
-						},
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["totaldamage"] = 327,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 286,
-							["id"] = 8105,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 286,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 286,
-							["amount"] = 286,
-							["hitamount"] = 286,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 321,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 321,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 321,
-							["amount"] = 321,
-							["hitamount"] = 321,
-						},
-						["Shoot"] = {
-							["hitmin"] = 34,
-							["id"] = 5019,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 34,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 34,
-							["amount"] = 34,
-							["hitamount"] = 34,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 39,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 39,
-							["hitamount"] = 39,
-						},
-					},
-					["last"] = 15455.723,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-					},
-					["totaldamage"] = 680,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 680,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Cone of Cold"] = {
-							["hitmin"] = 187,
-							["id"] = 8492,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 32,
-									["amount"] = 187,
-								},
-							},
-							["overkill"] = 32,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 187,
-							["amount"] = 187,
-							["hitamount"] = 187,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 307,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 307,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 307,
-							["amount"] = 307,
-							["hitamount"] = 307,
-						},
-					},
-					["last"] = 15461.249,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["overkill"] = 32,
-					["auras"] = {
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[10793] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 494,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 4.49,
-					["damage"] = 494,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 130,
-			["mobname"] = "Mudrock Spikeshell",
-			["etotaldamage"] = 130,
-			["overkill"] = 32,
-			["edamagetaken"] = 1501,
-			["starttime"] = 1729002980,
-			["name"] = "Mudrock Spikeshell (17)",
-			["ccdone"] = 1,
-			["damage"] = 1501,
-			["edamage"] = 130,
-			["last_action"] = 1729002985,
-			["endtime"] = 1729002987,
-		}, -- [2]
-		{
-			["mobname"] = "Mudrock Spikeshell",
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 192,
-								},
-							},
-							["amount"] = 192,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 26,
-								},
-								["Popasfant"] = {
-									["amount"] = 205,
-								},
-							},
-							["amount"] = 231,
-						},
-					},
-					["damagetaken"] = 2995,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 186,
-								},
-							},
-							["amount"] = 186,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 322,
-								},
-							},
-							["amount"] = 322,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 259,
-									["amount"] = 634,
-								},
-							},
-							["overkill"] = 259,
-							["amount"] = 634,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 277,
-								},
-							},
-							["amount"] = 277,
-						},
-						[9782] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 152,
-								},
-							},
-							["amount"] = 152,
-						},
-						[1004] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 574,
-								},
-							},
-							["amount"] = 574,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["total"] = 755,
-									["amount"] = 728,
-								},
-							},
-							["total"] = 755,
-							["amount"] = 728,
-						},
-						[11564] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 110,
-								},
-							},
-							["amount"] = 110,
-						},
-					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 423,
-					["totaldamagetaken"] = 3022,
-					["id"] = "0xF13000112D01C771",
-					["damage"] = 423,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 91,
-								},
-								["Popasfant"] = {
-									["amount"] = 50,
-								},
-							},
-							["amount"] = 141,
-						},
-					},
-					["damagetaken"] = 1495,
-					["id"] = "0xF130005C2501C72E",
+					["damagetaken"] = 1479,
+					["id"] = "0xF13000185E033009",
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[7379] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 874,
+									["overkill"] = 348,
+									["amount"] = 898,
 								},
 							},
-							["amount"] = 874,
+							["overkill"] = 348,
+							["amount"] = 898,
 						},
-						[5019] = {
-							["school"] = 1,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 34,
-								},
-							},
-							["amount"] = 34,
-						},
-						[6603] = {
+						[6548] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 26,
-									["amount"] = 324,
+									["amount"] = 78,
 								},
 							},
-							["overkill"] = 26,
-							["amount"] = 324,
+							["amount"] = 78,
 						},
-						[8204] = {
+						[12809] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 250,
+									["amount"] = 142,
 								},
 							},
-							["amount"] = 250,
+							["amount"] = 142,
 						},
 						[9782] = {
 							["school"] = 1,
@@ -1119,3360 +132,60 @@ SkadaStorageDB = {
 							},
 							["amount"] = 13,
 						},
-					},
-					["totaldamage"] = 141,
-					["name"] = "Defias Rummager",
-					["totaldamagetaken"] = 1495,
-					["flag"] = 2632,
-					["damage"] = 141,
-				}, -- [2]
-			},
-			["totaldamage"] = 4517,
-			["time"] = 27,
-			["overheal"] = 0,
-			["totaldamagetaken"] = 564,
-			["etotaldamagetaken"] = 4517,
-			["last_time"] = 15420.057,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = 1,
-							},
-						},
-					},
-					["last"] = 15419.89,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[2565] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-						[20007] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 25,
-						},
-						[18075] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 10,
-									["count"] = 2,
-								},
-								["Defias Rummager"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-					},
-					["time"] = 22.65,
-					["totaldamagetaken"] = 309,
-					["damage"] = 2243,
-					["damagespells"] = {
-						["Taunt"] = {
-							["casts"] = 2,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["EVADE"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 355,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 93,
-							["criticalamount"] = 250,
-							["id"] = 8204,
-							["criticalmin"] = 250,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 186,
-								},
-								["Defias Rummager"] = {
-									["amount"] = 250,
-								},
-							},
-							["criticalmax"] = 250,
-							["critical"] = 1,
-							["casts"] = 3,
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 93,
-							["amount"] = 436,
-							["hitamount"] = 186,
-						},
-						["Melee"] = {
-							["criticalmin"] = 216,
-							["criticalmax"] = 216,
-							["hitmin"] = 73,
-							["criticalamount"] = 216,
-							["id"] = 6603,
-							["critical"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 322,
-								},
-								["Defias Rummager"] = {
-									["overkill"] = 26,
-									["amount"] = 324,
-								},
-							},
-							["overkill"] = 26,
-							["hitmax"] = 108,
-							["PARRY"] = 1,
-							["count"] = 10,
-							["amount"] = 646,
-							["school"] = 1,
-							["hit"] = 5,
-							["MISS"] = 3,
-							["hitamount"] = 430,
-						},
-						["Revenge"] = {
-							["hitmin"] = 395,
-							["id"] = 7379,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 874,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 479,
-							["amount"] = 874,
-							["hitamount"] = 874,
-						},
-						["Concussion Blow"] = {
-							["DODGE"] = 1,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 12809,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 152,
-							["id"] = 34428,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 152,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 152,
-							["amount"] = 152,
-							["hitamount"] = 152,
-						},
-						["Mithril Shield Spike"] = {
-							["hitmin"] = 12,
-							["id"] = 9782,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 12,
-								},
-								["Defias Rummager"] = {
-									["amount"] = 13,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 13,
-							["amount"] = 25,
-							["hitamount"] = 25,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 110,
-							["id"] = 11564,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 110,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 110,
-							["amount"] = 110,
-							["hitamount"] = 110,
-						},
-					},
-					["overkill"] = 26,
-					["damagetaken"] = 309,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["healspells"] = {
-						[20007] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 97,
-							["school"] = 1,
-							["max"] = 97,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 97,
-								},
-							},
-							["min"] = 97,
-						},
-					},
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 31,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 192,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["hitmax"] = 35,
-							["amount"] = 192,
-							["hitamount"] = 192,
-						},
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 26,
-							["criticalmin"] = 64,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 26,
-								},
-								["Defias Rummager"] = {
-									["amount"] = 91,
-								},
-							},
-							["amount"] = 117,
-							["MISS"] = 1,
-							["criticalamount"] = 64,
-							["id"] = 6603,
-							["hitmax"] = 27,
-							["critical"] = 1,
-							["criticalmax"] = 64,
-							["BLOCK"] = 2,
-							["blocked"] = 56,
-							["school"] = 1,
-							["hit"] = 2,
-							["count"] = 8,
-							["hitamount"] = 53,
-						},
-					},
-					["overheal"] = 0,
-					["ragespells"] = {
-						[23602] = 20,
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["heal"] = 97,
-					["rage"] = 20,
-					["totaldamage"] = 2243,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["ccdonespells"] = {
-						[8124] = {
-							["count"] = 2,
-							["targets"] = {
-								["Defias Rummager"] = 1,
-								["Mudrock Spikeshell"] = 1,
-							},
-						},
-					},
-					["last"] = 15394.033,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[8124] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 32,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["uptime"] = 8,
-									["count"] = 1,
-								},
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 14,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 0,
-					["totaldamagetaken"] = 255,
-					["damage"] = 1613,
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 277,
-							["id"] = 8105,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 277,
-								},
-							},
-							["hitmax"] = 277,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 277,
-							["school"] = 32,
-							["EVADE"] = 1,
-							["hit"] = 1,
-							["hitamount"] = 277,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 314,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 636,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 322,
-							["amount"] = 636,
-							["hitamount"] = 636,
-						},
-						["Holy Fire (DoT)"] = {
-							["total"] = 119,
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["total"] = 119,
-									["amount"] = 92,
-								},
-							},
-							["ABSORB"] = 3,
-							["count"] = 13,
-							["hit"] = 10,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 92,
-							["hitamount"] = 92,
-						},
-						["Shoot"] = {
-							["hitmin"] = 34,
-							["id"] = 5019,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 34,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 34,
-							["amount"] = 34,
-							["hitamount"] = 34,
-						},
-						["Smite"] = {
-							["hitmin"] = 253,
-							["id"] = 1004,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 574,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 2,
-							["hitmax"] = 321,
-							["amount"] = 574,
-							["hitamount"] = 574,
-						},
-					},
-					["damagetaken"] = 255,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 48,
-							["criticalamount"] = 106,
-							["id"] = 6603,
-							["criticalmin"] = 106,
-							["criticalmax"] = 106,
-							["critical"] = 1,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 205,
-								},
-								["Defias Rummager"] = {
-									["amount"] = 50,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 51,
-							["amount"] = 255,
-							["hitamount"] = 149,
-						},
-					},
-					["name"] = "Popasfant",
-					["ccdone"] = 2,
-					["totaldamage"] = 1640,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 310,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 259,
-									["amount"] = 634,
-								},
-							},
-							["overkill"] = 259,
-							["hitmax"] = 324,
-							["casts"] = 5,
-							["count"] = 5,
-							["amount"] = 634,
-							["school"] = 16,
-							["EVADE"] = 3,
-							["hit"] = 2,
-							["hitamount"] = 634,
-						},
-					},
-					["last"] = 15416.233,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["overkill"] = 259,
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 27,
-						},
-					},
-					["totaldamage"] = 634,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 7,
-					["damage"] = 634,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 564,
-			["starttime"] = 1729002918,
-			["rage"] = 20,
-			["etotaldamage"] = 564,
-			["overkill"] = 285,
-			["edamagetaken"] = 4490,
-			["heal"] = 97,
-			["name"] = "Mudrock Spikeshell (16)",
-			["ccdone"] = 3,
-			["damage"] = 4490,
-			["edamage"] = 564,
-			["last_action"] = 1729002944,
-			["endtime"] = 1729002945,
-		}, -- [3]
-		{
-			["mobname"] = "Mudrock Spikeshell",
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 203,
-								},
-							},
-							["amount"] = 203,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 58,
-								},
-							},
-							["amount"] = 58,
-						},
-					},
-					["damagetaken"] = 1674,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[7379] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 774,
-								},
-							},
-							["amount"] = 774,
-						},
-						[694] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 90,
-								},
-							},
-							["amount"] = 90,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 205,
-									["amount"] = 460,
+									["amount"] = 348,
 								},
 							},
-							["overkill"] = 205,
-							["amount"] = 460,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 339,
-								},
-							},
-							["amount"] = 339,
-						},
-						[9782] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 11,
-								},
-							},
-							["amount"] = 11,
+							["amount"] = 348,
 						},
 					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 261,
-					["totaldamagetaken"] = 1674,
-					["id"] = "0xF13000112D01C7AB",
-					["damage"] = 261,
+					["totaldamage"] = 24,
+					["name"] = "Big Will",
+					["totaldamagetaken"] = 1479,
+					["flag"] = 68168,
+					["damage"] = 24,
 				}, -- [1]
 			},
-			["totaldamage"] = 1674,
-			["time"] = 13,
-			["rage"] = 5,
-			["totaldamagetaken"] = 261,
-			["etotaldamagetaken"] = 1674,
-			["last_time"] = 15383.233,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = 1,
-							},
-						},
-					},
-					["last"] = 15383.032,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[694] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[1706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 11,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[20007] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 12,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["time"] = 6.870000000000001,
-					["totaldamagetaken"] = 261,
-					["damage"] = 1335,
-					["damagespells"] = {
-						["Revenge"] = {
-							["criticalamount"] = 774,
-							["id"] = 7379,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 774,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 774,
-							["school"] = 1,
-							["criticalmin"] = 774,
-							["criticalmax"] = 774,
-							["count"] = 1,
-						},
-						["Mithril Shield Spike"] = {
-							["hitmin"] = 11,
-							["id"] = 9782,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 11,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 11,
-							["amount"] = 11,
-							["hitamount"] = 11,
-						},
-						["Melee"] = {
-							["hitmin"] = 78,
-							["criticalamount"] = 206,
-							["id"] = 6603,
-							["criticalmin"] = 206,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 205,
-									["amount"] = 460,
-								},
-							},
-							["overkill"] = 205,
-							["critical"] = 1,
-							["criticalmax"] = 206,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 89,
-							["amount"] = 460,
-							["hitamount"] = 254,
-						},
-						["Mocking Blow"] = {
-							["hitmin"] = 90,
-							["id"] = 694,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 90,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 90,
-							["amount"] = 90,
-							["hitamount"] = 90,
-						},
-					},
-					["overkill"] = 205,
-					["damagetaken"] = 261,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["healspells"] = {
-						[20007] = {
-							["overheal"] = 21,
-							["count"] = 1,
-							["amount"] = 71,
-							["school"] = 1,
-							["max"] = 71,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 21,
-									["amount"] = 71,
-								},
-							},
-							["min"] = 71,
-						},
-					},
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 32,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 203,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["hitmax"] = 36,
-							["amount"] = 203,
-							["hitamount"] = 203,
-						},
-						["Melee"] = {
-							["hitmin"] = 27,
-							["id"] = 6603,
-							["hitmax"] = 31,
-							["amount"] = 58,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 58,
-								},
-							},
-							["BLOCK"] = 1,
-							["blocked"] = 27,
-							["school"] = 1,
-							["hit"] = 2,
-							["count"] = 3,
-							["hitamount"] = 58,
-						},
-					},
-					["ragespells"] = {
-						[23602] = 5,
-					},
-					["heal"] = 71,
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["rage"] = 5,
-					["overheal"] = 21,
-					["totaldamage"] = 1335,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 9,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 9,
-							["amount"] = 9,
-							["hitamount"] = 9,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 330,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 330,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 330,
-							["amount"] = 330,
-							["hitamount"] = 330,
-						},
-					},
-					["last"] = 15376.166,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[1706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["totaldamage"] = 339,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 339,
-				}, -- [2]
-				{
-					["last"] = 15376.166,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["auras"] = {
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "MAGE",
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 261,
-			["overheal"] = 21,
-			["starttime"] = 1729002900,
-			["etotaldamage"] = 261,
-			["overkill"] = 205,
-			["edamagetaken"] = 1674,
-			["heal"] = 71,
-			["name"] = "Mudrock Spikeshell (15)",
-			["ccdone"] = 1,
-			["damage"] = 1674,
-			["edamage"] = 261,
-			["last_action"] = 1729002907,
-			["endtime"] = 1729002913,
-		}, -- [4]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 95,
-								},
-							},
-							["amount"] = 95,
-						},
-					},
-					["damagetaken"] = 1490,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[7379] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 334,
-								},
-							},
-							["amount"] = 334,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 85,
-								},
-							},
-							["amount"] = 85,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 141,
-								},
-							},
-							["amount"] = 141,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 169,
-									["amount"] = 630,
-								},
-							},
-							["overkill"] = 169,
-							["amount"] = 630,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 288,
-								},
-							},
-							["amount"] = 288,
-						},
-						[9782] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 95,
-					["totaldamagetaken"] = 1490,
-					["id"] = "0xF13000112D01C455",
-					["damage"] = 95,
-				}, -- [1]
-			},
-			["totaldamage"] = 1490,
-			["time"] = 9,
-			["totaldamagetaken"] = 95,
-			["etotaldamagetaken"] = 1490,
-			["last_time"] = 15370.307,
-			["players"] = {
-				{
-					["last"] = 15368.184,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[1706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["time"] = 6.41,
-					["totaldamagetaken"] = 95,
-					["damage"] = 572,
-					["damagespells"] = {
-						["Revenge"] = {
-							["hitmin"] = 334,
-							["id"] = 7379,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 334,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 334,
-							["amount"] = 334,
-							["hitamount"] = 334,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 85,
-							["id"] = 8204,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 85,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 85,
-							["amount"] = 85,
-							["hitamount"] = 85,
-						},
-						["Melee"] = {
-							["hitmin"] = 68,
-							["id"] = 6603,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 141,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 73,
-							["amount"] = 141,
-							["hitamount"] = 141,
-						},
-						["Mithril Shield Spike"] = {
-							["hitmin"] = 12,
-							["id"] = 9782,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 12,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 12,
-							["amount"] = 12,
-							["hitamount"] = 12,
-						},
-					},
-					["damagetaken"] = 95,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 1,
-							["blocked"] = 31,
-							["BLOCK"] = 1,
-							["id"] = 6603,
-						},
-						["Barbs"] = {
-							["hitmin"] = 31,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 95,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 32,
-							["amount"] = 95,
-							["hitamount"] = 95,
-						},
-					},
-					["ragespells"] = {
-						[23602] = 10,
-					},
-					["name"] = "Omoratorul",
-					["rage"] = 10,
-					["totaldamage"] = 572,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 311,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 169,
-									["amount"] = 630,
-								},
-							},
-							["overkill"] = 169,
-							["hitmax"] = 319,
-							["casts"] = 2,
-							["count"] = 3,
-							["amount"] = 630,
-							["school"] = 16,
-							["EVADE"] = 1,
-							["hit"] = 2,
-							["hitamount"] = 630,
-						},
-					},
-					["last"] = 15369.325,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["overkill"] = 169,
-					["auras"] = {
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[12472] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["totaldamage"] = 630,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 6.82,
-					["damage"] = 630,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 288,
-							["id"] = 8105,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 288,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 288,
-							["amount"] = 288,
-							["hitamount"] = 288,
-						},
-						["Holy Fire"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 2,
-							["EVADE"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 15263,
-						},
-					},
-					["last"] = 15364.691,
-					["id"] = "0x0700000000B06C58",
-					["class"] = "PRIEST",
-					["flag"] = 1298,
-					["totaldamage"] = 288,
-					["role"] = "HEALER",
-					["time"] = 0,
-					["name"] = "Popasfant",
-					["spec"] = 256,
-					["damage"] = 288,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 95,
-			["rage"] = 10,
-			["etotaldamage"] = 95,
-			["overkill"] = 169,
-			["edamagetaken"] = 1490,
-			["starttime"] = 1729002885,
-			["name"] = "Mudrock Spikeshell (14)",
-			["mobname"] = "Mudrock Spikeshell",
-			["damage"] = 1490,
-			["edamage"] = 95,
-			["last_action"] = 1729002894,
-			["endtime"] = 1729002894,
-		}, -- [5]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 66,
-								},
-							},
-							["amount"] = 66,
-						},
-					},
-					["damagetaken"] = 821,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 27,
-								},
-							},
-							["amount"] = 27,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 25,
-									["amount"] = 313,
-								},
-							},
-							["overkill"] = 25,
-							["amount"] = 313,
-						},
-						[1004] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 306,
-								},
-							},
-							["amount"] = 306,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 175,
-								},
-							},
-							["amount"] = 175,
-						},
-					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 66,
-					["totaldamagetaken"] = 821,
-					["id"] = "0xF13000112D01C696",
-					["damage"] = 66,
-				}, -- [1]
-			},
-			["totaldamage"] = 821,
-			["time"] = 5,
-			["totaldamagetaken"] = 66,
-			["etotaldamagetaken"] = 821,
-			["last_time"] = 15330.034,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = 1,
-							},
-						},
-					},
-					["last"] = 15329.71,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 1,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["time"] = 3.3,
-					["totaldamagetaken"] = 66,
-					["damage"] = 175,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 77,
-							["id"] = 6603,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 175,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 98,
-							["amount"] = 175,
-							["hitamount"] = 175,
-						},
-					},
-					["damagetaken"] = 66,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 31,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 66,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 35,
-							["amount"] = 66,
-							["hitamount"] = 66,
-						},
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["totaldamage"] = 175,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Smite"] = {
-							["hitmin"] = 306,
-							["id"] = 1004,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 306,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 306,
-							["amount"] = 306,
-							["hitamount"] = 306,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 27,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 9,
-							["amount"] = 27,
-							["hitamount"] = 27,
-						},
-					},
-					["last"] = 15326.41,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["spec"] = 256,
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["id"] = "0x0700000000B06C58",
-					["role"] = "HEALER",
-					["time"] = 0,
-					["totaldamage"] = 333,
-					["name"] = "Popasfant",
-					["damage"] = 333,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 313,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 25,
-									["amount"] = 313,
-								},
-							},
-							["overkill"] = 25,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 313,
-							["amount"] = 313,
-							["hitamount"] = 313,
-						},
-					},
-					["last"] = 15330.025,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["overkill"] = 25,
-					["auras"] = {
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[10793] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 313,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 3.5,
-					["damage"] = 313,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 66,
-			["mobname"] = "Mudrock Spikeshell",
-			["etotaldamage"] = 66,
-			["overkill"] = 25,
-			["edamagetaken"] = 821,
-			["starttime"] = 1729002850,
-			["name"] = "Mudrock Spikeshell (13)",
-			["ccdone"] = 1,
-			["damage"] = 821,
-			["edamage"] = 66,
-			["last_action"] = 1729002854,
-			["endtime"] = 1729002855,
-		}, -- [6]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 63,
-								},
-							},
-							["amount"] = 63,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 27,
-								},
-							},
-							["amount"] = 27,
-						},
-					},
-					["damagetaken"] = 1665,
-					["id"] = "0xF13000112D01C684",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[5019] = {
-							["school"] = 1,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 320,
-								},
-							},
-							["amount"] = 320,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 341,
-									["amount"] = 950,
-								},
-							},
-							["overkill"] = 341,
-							["amount"] = 950,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 282,
-								},
-							},
-							["amount"] = 282,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 83,
-								},
-							},
-							["amount"] = 83,
-						},
-					},
-					["totaldamage"] = 90,
-					["name"] = "Mudrock Spikeshell",
-					["totaldamagetaken"] = 1665,
-					["flag"] = 68136,
-					["damage"] = 90,
-				}, -- [1]
-			},
-			["totaldamage"] = 1665,
-			["time"] = 6,
-			["totaldamagetaken"] = 90,
-			["etotaldamage"] = 90,
-			["last_time"] = 15265.925,
-			["players"] = {
-				{
-					["last"] = 15264.65,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[2565] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 3,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["time"] = 3.5,
-					["totaldamagetaken"] = 90,
-					["damage"] = 83,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 83,
-							["id"] = 6603,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 83,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 83,
-							["amount"] = 83,
-							["hitamount"] = 83,
-						},
-					},
-					["damagetaken"] = 90,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 31,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 63,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 32,
-							["amount"] = 63,
-							["hitamount"] = 63,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 27,
-							["id"] = 6603,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 27,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 27,
-							["amount"] = 27,
-							["hitamount"] = 27,
-						},
-					},
-					["ragespells"] = {
-						[23602] = 5,
-					},
-					["name"] = "Omoratorul",
-					["rage"] = 5,
-					["totaldamage"] = 83,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 282,
-							["id"] = 8105,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 282,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 282,
-							["amount"] = 282,
-							["hitamount"] = 282,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 292,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 292,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 292,
-							["amount"] = 292,
-							["hitamount"] = 292,
-						},
-						["Shoot"] = {
-							["hitmin"] = 30,
-							["id"] = 5019,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 30,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 30,
-							["amount"] = 30,
-							["hitamount"] = 30,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 28,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 28,
-							["hitamount"] = 28,
-						},
-					},
-					["last"] = 15261.085,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-					},
-					["totaldamage"] = 632,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 632,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["criticalmin"] = 639,
-							["hitmin"] = 311,
-							["criticalamount"] = 639,
-							["id"] = 8407,
-							["criticalmax"] = 639,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 341,
-									["amount"] = 950,
-								},
-							},
-							["overkill"] = 341,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 311,
-							["amount"] = 950,
-							["hitamount"] = 311,
-						},
-					},
-					["last"] = 15265.543,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["overkill"] = 341,
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["totaldamage"] = 950,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 4.45,
-					["damage"] = 950,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 90,
-			["starttime"] = 1729002785,
-			["rage"] = 5,
-			["overkill"] = 341,
-			["edamagetaken"] = 1665,
-			["damage"] = 1665,
-			["name"] = "Mudrock Spikeshell (12)",
-			["mobname"] = "Mudrock Spikeshell",
-			["etotaldamagetaken"] = 1665,
-			["edamage"] = 90,
-			["last_action"] = 1729002790,
-			["endtime"] = 1729002791,
-		}, -- [7]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 101,
-								},
-							},
-							["amount"] = 101,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 104,
-								},
-							},
-							["amount"] = 104,
-						},
-					},
-					["damagetaken"] = 1335,
-					["id"] = "0xF13000112D01C650",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 170,
-								},
-							},
-							["amount"] = 170,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 24,
-									["amount"] = 638,
-								},
-							},
-							["overkill"] = 24,
-							["amount"] = 638,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 186,
-								},
-							},
-							["amount"] = 186,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 341,
-								},
-							},
-							["amount"] = 341,
-						},
-					},
-					["totaldamage"] = 205,
-					["name"] = "Mudrock Spikeshell",
-					["totaldamagetaken"] = 1335,
-					["flag"] = 68136,
-					["damage"] = 205,
-				}, -- [1]
-			},
-			["totaldamage"] = 1335,
-			["time"] = 6,
-			["totaldamagetaken"] = 205,
-			["etotaldamage"] = 205,
-			["last_time"] = 15246.001,
-			["players"] = {
-				{
-					["last"] = 15245.425,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 3,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["time"] = 4.29,
-					["totaldamagetaken"] = 101,
-					["damage"] = 356,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 83,
-							["id"] = 6603,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 170,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 87,
-							["amount"] = 170,
-							["hitamount"] = 170,
-						},
-						["Thunder Clap"] = {
-							["criticalamount"] = 186,
-							["id"] = 8204,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 186,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 186,
-							["school"] = 1,
-							["criticalmin"] = 186,
-							["criticalmax"] = 186,
-							["count"] = 1,
-						},
-					},
-					["damagetaken"] = 101,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 31,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 101,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 35,
-							["amount"] = 101,
-							["hitamount"] = 101,
-						},
-					},
-					["name"] = "Omoratorul",
-					["totaldamage"] = 356,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 10,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 10,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 10,
-							["hitamount"] = 10,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 331,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 331,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 331,
-							["amount"] = 331,
-							["hitamount"] = 331,
-						},
-					},
-					["last"] = 15241.135,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[458] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["totaldamage"] = 341,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 341,
-				}, -- [2]
-				{
-					["last"] = 15245.985,
-					["flag"] = 1298,
-					["class"] = "MAGE",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 4.85,
-					["totaldamagetaken"] = 104,
-					["damage"] = 638,
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 317,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 24,
-									["amount"] = 638,
-								},
-							},
-							["overkill"] = 24,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 321,
-							["amount"] = 638,
-							["hitamount"] = 638,
-						},
-					},
-					["damagetaken"] = 104,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["criticalamount"] = 104,
-							["id"] = 6603,
-							["criticalmax"] = 104,
-							["critical"] = 1,
-							["amount"] = 104,
-							["school"] = 1,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 104,
-								},
-							},
-							["criticalmin"] = 104,
-							["count"] = 1,
-						},
-					},
-					["name"] = "Vrajadefoc",
-					["overkill"] = 24,
-					["totaldamage"] = 638,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 205,
-			["starttime"] = 1729002765,
-			["overkill"] = 24,
-			["edamagetaken"] = 1335,
-			["damage"] = 1335,
-			["name"] = "Mudrock Spikeshell (11)",
-			["mobname"] = "Mudrock Spikeshell",
-			["etotaldamagetaken"] = 1335,
-			["edamage"] = 205,
-			["last_action"] = 1729002770,
-			["endtime"] = 1729002771,
-		}, -- [8]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 54,
-								},
-							},
-							["amount"] = 54,
-						},
-					},
-					["damagetaken"] = 1608,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 364,
-								},
-							},
-							["amount"] = 364,
-						},
-						[5019] = {
-							["school"] = 1,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 35,
-								},
-							},
-							["amount"] = 35,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 173,
-								},
-							},
-							["amount"] = 173,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 102,
-								},
-							},
-							["amount"] = 102,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 286,
-								},
-							},
-							["amount"] = 286,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 204,
-									["amount"] = 648,
-								},
-							},
-							["overkill"] = 204,
-							["amount"] = 648,
-						},
-					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 124,
-					["totaldamagetaken"] = 1608,
-					["id"] = "0xF13000112D01C605",
-					["damage"] = 124,
-				}, -- [1]
-			},
-			["totaldamage"] = 1608,
-			["time"] = 6,
-			["totaldamagetaken"] = 124,
-			["etotaldamagetaken"] = 1608,
-			["last_time"] = 15225.084,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = 1,
-							},
-						},
-					},
-					["last"] = 15223.292,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[18075] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["time"] = 2.42,
-					["totaldamagetaken"] = 70,
-					["damage"] = 275,
-					["damagespells"] = {
-						["Execute"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 20647,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 102,
-							["id"] = 8204,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 102,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 102,
-							["amount"] = 102,
-							["hitamount"] = 102,
-						},
-						["Melee"] = {
-							["hitmin"] = 85,
-							["id"] = 6603,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 173,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 88,
-							["amount"] = 173,
-							["hitamount"] = 173,
-						},
-					},
-					["damagetaken"] = 70,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 35,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 70,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 35,
-							["amount"] = 70,
-							["hitamount"] = 70,
-						},
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["totaldamage"] = 275,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["last"] = 15220.876,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 0,
-					["totaldamagetaken"] = 54,
-					["damage"] = 685,
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 286,
-							["id"] = 8105,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 286,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 286,
-							["amount"] = 286,
-							["hitamount"] = 286,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 337,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 337,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 337,
-							["amount"] = 337,
-							["hitamount"] = 337,
-						},
-						["Shoot"] = {
-							["hitmin"] = 35,
-							["id"] = 5019,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 35,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 35,
-							["amount"] = 35,
-							["hitamount"] = 35,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 27,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 2,
-							["hitmax"] = 9,
-							["amount"] = 27,
-							["hitamount"] = 27,
-						},
-					},
-					["damagetaken"] = 54,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 54,
-							["id"] = 6603,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 54,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 54,
-							["amount"] = 54,
-							["hitamount"] = 54,
-						},
-					},
-					["name"] = "Popasfant",
-					["totaldamage"] = 685,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 324,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 204,
-									["amount"] = 648,
-								},
-							},
-							["overkill"] = 204,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 324,
-							["amount"] = 648,
-							["hitamount"] = 648,
-						},
-					},
-					["last"] = 15225.068,
-					["class"] = "MAGE",
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["overkill"] = 204,
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[12472] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-					},
-					["totaldamage"] = 648,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 4.19,
-					["damage"] = 648,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 124,
-			["mobname"] = "Mudrock Spikeshell",
-			["etotaldamage"] = 124,
-			["overkill"] = 204,
-			["edamagetaken"] = 1608,
-			["starttime"] = 1729002745,
-			["name"] = "Mudrock Spikeshell (10)",
-			["ccdone"] = 1,
-			["damage"] = 1608,
-			["edamage"] = 124,
-			["last_action"] = 1729002749,
-			["endtime"] = 1729002751,
-		}, -- [9]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 72,
-								},
-							},
-							["amount"] = 72,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
-					},
-					["damagetaken"] = 1638,
-					["id"] = "0xF13000112D01C5BE",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8492] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 187,
-								},
-							},
-							["amount"] = 187,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 83,
-								},
-							},
-							["amount"] = 83,
-						},
-						[1004] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 254,
-									["amount"] = 324,
-								},
-							},
-							["overkill"] = 254,
-							["amount"] = 324,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 93,
-								},
-							},
-							["amount"] = 93,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 320,
-								},
-							},
-							["amount"] = 320,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 288,
-								},
-							},
-							["amount"] = 288,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 343,
-								},
-							},
-							["amount"] = 343,
-						},
-					},
-					["totaldamage"] = 108,
-					["name"] = "Mudrock Spikeshell",
-					["totaldamagetaken"] = 1638,
-					["flag"] = 68136,
-					["damage"] = 108,
-				}, -- [1]
-			},
-			["totaldamage"] = 1638,
-			["time"] = 9,
-			["totaldamagetaken"] = 108,
-			["etotaldamage"] = 108,
-			["last_time"] = 15209.318,
-			["players"] = {
-				{
-					["last"] = 15208.676,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-					},
-					["time"] = 6.44,
-					["totaldamagetaken"] = 108,
-					["damage"] = 176,
-					["damagespells"] = {
-						["Victory Rush"] = {
-							["DODGE"] = 1,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 34428,
-						},
-						["Melee"] = {
-							["hitmin"] = 93,
-							["id"] = 6603,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 93,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 93,
-							["amount"] = 93,
-							["hitamount"] = 93,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 41,
-							["id"] = 6548,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 83,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 42,
-							["amount"] = 83,
-							["hitamount"] = 83,
-						},
-					},
-					["damagetaken"] = 108,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 36,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 72,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 36,
-							["amount"] = 72,
-							["hitamount"] = 72,
-						},
-						["Melee"] = {
-							["hitmin"] = 36,
-							["id"] = 6603,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 36,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 36,
-							["amount"] = 36,
-							["hitamount"] = 36,
-						},
-					},
-					["name"] = "Omoratorul",
-					["totaldamage"] = 176,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 288,
-							["id"] = 8105,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 288,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 288,
-							["amount"] = 288,
-							["hitamount"] = 288,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 305,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 305,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 305,
-							["amount"] = 305,
-							["hitamount"] = 305,
-						},
-						["Smite"] = {
-							["hitmin"] = 324,
-							["id"] = 1004,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 254,
-									["amount"] = 324,
-								},
-							},
-							["overkill"] = 254,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 324,
-							["amount"] = 324,
-							["hitamount"] = 324,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 38,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 38,
-							["hitamount"] = 38,
-						},
-					},
-					["last"] = 15202.235,
-					["class"] = "PRIEST",
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["overkill"] = 254,
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[458] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-					},
-					["totaldamage"] = 955,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 955,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Cone of Cold"] = {
-							["hitmin"] = 187,
-							["id"] = 8492,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 187,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 187,
-							["amount"] = 187,
-							["hitamount"] = 187,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 320,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 320,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 320,
-							["amount"] = 320,
-							["hitamount"] = 320,
-						},
-					},
-					["last"] = 15207.176,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["class"] = "MAGE",
-					["auras"] = {
-						[8492] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[12472] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["uptime"] = 7,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["totaldamage"] = 507,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 4,
-					["damage"] = 507,
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 108,
-			["etotaldamagetaken"] = 1638,
-			["overkill"] = 254,
-			["edamagetaken"] = 1638,
-			["damage"] = 1638,
-			["name"] = "Mudrock Spikeshell (9)",
-			["mobname"] = "Mudrock Spikeshell",
-			["starttime"] = 1729002726,
-			["edamage"] = 108,
-			["last_action"] = 1729002733,
-			["endtime"] = 1729002735,
-		}, -- [10]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 210,
-								},
-							},
-							["amount"] = 210,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 52,
-								},
-								["Omoratorul"] = {
-									["amount"] = 69,
-								},
-							},
-							["amount"] = 121,
-						},
-					},
-					["damagetaken"] = 1570,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 84,
-								},
-							},
-							["amount"] = 84,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 210,
-								},
-							},
-							["amount"] = 210,
-						},
-						[5019] = {
-							["school"] = 1,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 166,
-									["amount"] = 518,
-								},
-							},
-							["overkill"] = 166,
-							["amount"] = 518,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 102,
-								},
-							},
-							["amount"] = 102,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 286,
-								},
-							},
-							["amount"] = 286,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 338,
-								},
-							},
-							["amount"] = 338,
-						},
-					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 331,
-					["totaldamagetaken"] = 1570,
-					["id"] = "0xF13000112D01C566",
-					["damage"] = 331,
-				}, -- [1]
-			},
-			["totaldamage"] = 1570,
+			["totaldamage"] = 1479,
 			["time"] = 11,
-			["totaldamagetaken"] = 331,
-			["etotaldamagetaken"] = 1570,
-			["last_time"] = 15193.06,
+			["totaldamagetaken"] = 24,
+			["etotaldamage"] = 24,
+			["last_time"] = 7301.38,
 			["players"] = {
 				{
 					["ccdonespells"] = {
-						[7922] = {
+						[12809] = {
 							["count"] = 1,
 							["targets"] = {
-								["Mudrock Spikeshell"] = 1,
+								["Big Will"] = 1,
 							},
 						},
 					},
-					["last"] = 15193.009,
+					["last"] = 7301.348,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
 					["auras"] = {
-						[11349] = {
+						[12809] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Big Will"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8120] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -4482,19 +195,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[63729] = {
+						[14752] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 11,
@@ -4504,1734 +205,80 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
-								["Mudrock Spikeshell"] = {
+								["Big Will"] = {
 									["uptime"] = 8,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 8,
 						},
-						[7922] = {
-							["type"] = "DEBUFF",
+						[2565] = {
+							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
+							["uptime"] = 9,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
 						},
 					},
-					["time"] = 8.770000000000001,
-					["totaldamagetaken"] = 279,
-					["damage"] = 914,
+					["time"] = 9.17,
+					["totaldamagetaken"] = 24,
+					["damage"] = 1479,
 					["damagespells"] = {
-						["Execute"] = {
-							["hitmin"] = 210,
-							["id"] = 20647,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 210,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 210,
-							["amount"] = 210,
-							["hitamount"] = 210,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 102,
-							["id"] = 8204,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 102,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 102,
-							["amount"] = 102,
-							["hitamount"] = 102,
-						},
 						["Melee"] = {
-							["hitmin"] = 75,
-							["criticalamount"] = 170,
+							["hitmin"] = 82,
 							["id"] = 6603,
-							["criticalmin"] = 170,
 							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 166,
-									["amount"] = 518,
+								["Big Will"] = {
+									["amount"] = 348,
 								},
 							},
-							["overkill"] = 166,
-							["critical"] = 1,
-							["criticalmax"] = 170,
-							["count"] = 5,
+							["count"] = 4,
 							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 97,
-							["amount"] = 518,
+							["hitmax"] = 93,
+							["amount"] = 348,
 							["hitamount"] = 348,
 						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 42,
-							["id"] = 6548,
+						["Concussion Blow"] = {
+							["hitmin"] = 142,
+							["id"] = 12809,
 							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 84,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 42,
-							["amount"] = 84,
-							["hitamount"] = 84,
-						},
-					},
-					["damagetaken"] = 279,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 35,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 210,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["hitmax"] = 35,
-							["amount"] = 210,
-							["hitamount"] = 210,
-						},
-						["Melee"] = {
-							["hitmin"] = 34,
-							["id"] = 6603,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 69,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 35,
-							["amount"] = 69,
-							["hitamount"] = 69,
-						},
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["overkill"] = 166,
-					["totaldamage"] = 914,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["last"] = 15184.244,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[458] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 0,
-					["totaldamagetaken"] = 52,
-					["damage"] = 656,
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 286,
-							["id"] = 8105,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 286,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 286,
-							["amount"] = 286,
-							["hitamount"] = 286,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 301,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 301,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 301,
-							["amount"] = 301,
-							["hitamount"] = 301,
-						},
-						["Shoot"] = {
-							["hitmin"] = 32,
-							["id"] = 5019,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 32,
+								["Big Will"] = {
+									["amount"] = 142,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 32,
-							["amount"] = 32,
-							["hitamount"] = 32,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 37,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 37,
-							["hitamount"] = 37,
-						},
-					},
-					["damagetaken"] = 52,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 52,
-							["id"] = 6603,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 52,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 52,
-							["amount"] = 52,
-							["hitamount"] = 52,
-						},
-					},
-					["name"] = "Popasfant",
-					["totaldamage"] = 656,
-				}, -- [2]
-				{
-					["last"] = 15184.244,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[10793] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["time"] = 0,
-					["class"] = "MAGE",
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 331,
-			["mobname"] = "Mudrock Spikeshell",
-			["etotaldamage"] = 331,
-			["overkill"] = 166,
-			["edamagetaken"] = 1570,
-			["starttime"] = 1729002708,
-			["name"] = "Mudrock Spikeshell (8)",
-			["ccdone"] = 1,
-			["damage"] = 1570,
-			["edamage"] = 331,
-			["last_action"] = 1729002717,
-			["endtime"] = 1729002719,
-		}, -- [11]
-		{
-			["mobname"] = "Mudrock Spikeshell",
-			["absorb"] = 27,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 202,
-								},
-							},
-							["amount"] = 202,
-						},
-						[6603] = {
-							["school"] = 1,
-							["total"] = 60,
-							["targets"] = {
-								["Omoratorul"] = {
-									["total"] = 60,
-									["amount"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-					},
-					["damagetaken"] = 1477,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[7379] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 654,
-								},
-							},
-							["amount"] = 654,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 122,
-								},
-							},
-							["amount"] = 122,
-						},
-						[9782] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 33,
-								},
-							},
-							["amount"] = 33,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 82,
-								},
-							},
-							["amount"] = 82,
-						},
-						[11564] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 95,
-								},
-							},
-							["amount"] = 95,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 8,
-									["amount"] = 491,
-								},
-							},
-							["overkill"] = 8,
-							["amount"] = 491,
-						},
-					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 262,
-					["totaldamagetaken"] = 1477,
-					["id"] = "0xF13000112D01A5A2",
-					["damage"] = 235,
-				}, -- [1]
-			},
-			["totaldamage"] = 1477,
-			["time"] = 19,
-			["overheal"] = 0,
-			["totaldamagetaken"] = 262,
-			["etotaldamagetaken"] = 1477,
-			["last_time"] = 15111.869,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = 1,
-							},
-						},
-					},
-					["last"] = 15109.119,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[2565] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 17,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[6077] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 7,
-						},
-						[6065] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-					},
-					["time"] = 14.6,
-					["totaldamagetaken"] = 262,
-					["damage"] = 1477,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 82,
-							["id"] = 8204,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 82,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 82,
-							["amount"] = 82,
-							["hitamount"] = 82,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 69,
-							["hitmin"] = 58,
-							["criticalmin"] = 148,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 8,
-									["amount"] = 491,
-								},
-							},
-							["glancing"] = 1,
-							["amount"] = 491,
-							["glancemin"] = 69,
-							["criticalamount"] = 148,
-							["id"] = 6603,
-							["glancemax"] = 69,
-							["overkill"] = 8,
-							["critical"] = 1,
-							["criticalmax"] = 148,
-							["hitmax"] = 75,
-							["hit"] = 4,
-							["school"] = 1,
-							["blocked"] = 18,
-							["count"] = 7,
-							["hitamount"] = 274,
-						},
-						["Revenge"] = {
-							["hitmin"] = 318,
-							["id"] = 7379,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 654,
-								},
-							},
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 336,
-							["amount"] = 654,
-							["hitamount"] = 654,
-						},
-						["Victory Rush"] = {
-							["hitmin"] = 122,
-							["id"] = 34428,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 122,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 122,
-							["amount"] = 122,
-							["hitamount"] = 122,
-						},
-						["Mithril Shield Spike"] = {
-							["hitmin"] = 11,
-							["id"] = 9782,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 33,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 11,
-							["amount"] = 33,
-							["hitamount"] = 33,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 95,
-							["id"] = 11564,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 95,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 95,
-							["amount"] = 95,
-							["hitamount"] = 95,
-						},
-					},
-					["damagetaken"] = 235,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 32,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 202,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 8,
-							["hitmax"] = 36,
-							["amount"] = 202,
-							["hitamount"] = 202,
-						},
-						["Melee"] = {
-							["total"] = 60,
-							["hitmin"] = 33,
-							["id"] = 6603,
-							["ABSORB"] = 1,
-							["PARRY"] = 1,
-							["blocked"] = 89,
-							["BLOCK"] = 3,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["total"] = 60,
-									["amount"] = 33,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 33,
-							["amount"] = 33,
-							["hitamount"] = 33,
-						},
-					},
-					["ragespells"] = {
-						[23602] = 20,
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["overkill"] = 8,
-					["rage"] = 20,
-					["totaldamage"] = 1477,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["overheal"] = 0,
-					["absorb"] = 27,
-					["id"] = "0x0700000000B06C58",
-					["last"] = 15111.869,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 100,
-							["school"] = 2,
-							["max"] = 100,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 100,
-								},
-							},
-							["min"] = 100,
-						},
-						[6077] = {
-							["overheal"] = 0,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 238,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 238,
-							["school"] = 2,
-							["max"] = 119,
-							["ishot"] = true,
-							["min"] = 119,
-						},
-					},
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[458] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Omoratorul"] = {
-									["uptime"] = 9,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 9,
-						},
-					},
-					["absorbspells"] = {
-						[6065] = {
-							["min"] = 27,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 27,
-							["school"] = 2,
-							["targets"] = {
-								["Omoratorul"] = 27,
-							},
-							["max"] = 27,
-						},
-					},
-					["time"] = 10.04,
-					["spec"] = 256,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["heal"] = 338,
-				}, -- [2]
-				{
-					["last"] = 15094.522,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["auras"] = {
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[1706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "MAGE",
-				}, -- [3]
-			},
-			["type"] = "group",
-			["damagetaken"] = 235,
-			["starttime"] = 1729002618,
-			["rage"] = 20,
-			["etotaldamage"] = 262,
-			["overkill"] = 8,
-			["edamagetaken"] = 1477,
-			["heal"] = 338,
-			["name"] = "Mudrock Spikeshell (7)",
-			["ccdone"] = 1,
-			["damage"] = 1477,
-			["edamage"] = 235,
-			["last_action"] = 1729002636,
-			["endtime"] = 1729002637,
-		}, -- [12]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 274,
-								},
-							},
-							["amount"] = 274,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 93,
-								},
-								["Omoratorul"] = {
-									["amount"] = 165,
-								},
-							},
-							["amount"] = 258,
-						},
-					},
-					["damagetaken"] = 2988,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 344,
-								},
-							},
-							["amount"] = 344,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 402,
-								},
-							},
-							["amount"] = 402,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 162,
-								},
-							},
-							["amount"] = 162,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 277,
-								},
-							},
-							["amount"] = 277,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 153,
-								},
-							},
-							["amount"] = 153,
-						},
-						[8492] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 192,
-								},
-							},
-							["amount"] = 192,
-						},
-						[11564] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 32,
-									["amount"] = 107,
-								},
-							},
-							["overkill"] = 32,
-							["amount"] = 107,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 366,
-								},
-							},
-							["amount"] = 366,
-						},
-						[5019] = {
-							["school"] = 1,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 18,
-									["amount"] = 23,
-								},
-							},
-							["overkill"] = 18,
-							["amount"] = 23,
-						},
-						[7379] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 333,
-								},
-							},
-							["amount"] = 333,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 629,
-								},
-							},
-							["amount"] = 629,
-						},
-					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 532,
-					["totaldamagetaken"] = 2988,
-					["id"] = "0xF13000112D002075",
-					["damage"] = 532,
-				}, -- [1]
-			},
-			["totaldamage"] = 2988,
-			["time"] = 16,
-			["mobname"] = "Mudrock Spikeshell",
-			["totaldamagetaken"] = 532,
-			["etotaldamagetaken"] = 2988,
-			["last_time"] = 15083.444,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = 1,
-							},
-						},
-					},
-					["last"] = 15083.429,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 14,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 14,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 9,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 12,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["time"] = 14.96,
-					["totaldamagetaken"] = 439,
-					["damage"] = 1501,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["criticalamount"] = 344,
-							["id"] = 8204,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 344,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 344,
-							["school"] = 1,
-							["criticalmin"] = 164,
-							["criticalmax"] = 180,
-							["count"] = 2,
+							["hitmax"] = 142,
+							["amount"] = 142,
+							["hitamount"] = 142,
 						},
 						["Rend (DoT)"] = {
-							["hitmin"] = 38,
+							["hitmin"] = 39,
 							["id"] = 6548,
 							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 153,
+								["Big Will"] = {
+									["amount"] = 78,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 4,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 39,
-							["amount"] = 153,
-							["hitamount"] = 153,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 83,
-							["hitmin"] = 78,
-							["id"] = 6603,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 402,
-								},
-							},
-							["glancemin"] = 83,
-							["glancing"] = 1,
-							["glancemax"] = 83,
-							["count"] = 6,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 85,
-							["amount"] = 402,
-							["hitamount"] = 319,
-						},
-						["Revenge"] = {
-							["hitmin"] = 333,
-							["id"] = 7379,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 333,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 333,
-							["amount"] = 333,
-							["hitamount"] = 333,
-						},
-						["Rend"] = {
-							["DODGE"] = 1,
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 18075,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 162,
-							["id"] = 7384,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 162,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 162,
-							["school"] = 1,
-							["criticalmin"] = 162,
-							["criticalmax"] = 162,
-							["count"] = 1,
-						},
-						["Heroic Strike"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 107,
-							["id"] = 11564,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 32,
-									["amount"] = 107,
-								},
-							},
-							["overkill"] = 32,
-							["casts"] = 2,
-							["count"] = 2,
-							["amount"] = 107,
-							["school"] = 1,
-							["hitmax"] = 107,
-							["hit"] = 1,
-							["hitamount"] = 107,
-						},
-					},
-					["damagetaken"] = 439,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 32,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 274,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 8,
-							["school"] = 8,
-							["hitmax"] = 36,
-							["amount"] = 274,
-							["hitamount"] = 274,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 27,
-							["id"] = 6603,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 165,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 38,
-							["amount"] = 165,
-							["hitamount"] = 165,
-						},
-					},
-					["ragespells"] = {
-						[23602] = 5,
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["overkill"] = 32,
-					["rage"] = 5,
-					["totaldamage"] = 1501,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["last"] = 15068.486,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[15263] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 0,
-					["totaldamagetaken"] = 93,
-					["damage"] = 666,
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 277,
-							["id"] = 8105,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 277,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 277,
-							["amount"] = 277,
-							["hitamount"] = 277,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 302,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 302,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 302,
-							["amount"] = 302,
-							["hitamount"] = 302,
-						},
-						["Shoot"] = {
-							["hitmin"] = 23,
-							["id"] = 5019,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 18,
-									["amount"] = 23,
-								},
-							},
-							["overkill"] = 18,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 23,
-							["amount"] = 23,
-							["hitamount"] = 23,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 64,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 64,
-							["hitamount"] = 64,
-						},
-					},
-					["damagetaken"] = 93,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 46,
-							["id"] = 6603,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 93,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 47,
-							["amount"] = 93,
-							["hitamount"] = 93,
-						},
-					},
-					["name"] = "Popasfant",
-					["overkill"] = 18,
-					["totaldamage"] = 666,
-				}, -- [2]
-				{
-					["last"] = 15068.486,
-					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
-					["auras"] = {
-						[1245] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[6065] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
-						},
-					},
-					["role"] = "DAMAGER",
-					["name"] = "Slavcul",
-					["flag"] = 1298,
-					["time"] = 0,
-					["class"] = "ROGUE",
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Cone of Cold"] = {
-							["hitmin"] = 192,
-							["id"] = 8492,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 192,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 192,
-							["amount"] = 192,
-							["hitamount"] = 192,
-						},
-						["Frostbolt"] = {
-							["hitmin"] = 311,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 629,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 318,
-							["amount"] = 629,
-							["hitamount"] = 629,
-						},
-					},
-					["last"] = 15078.077,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["class"] = "MAGE",
-					["auras"] = {
-						[12472] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[1706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 16,
-						},
-					},
-					["totaldamage"] = 821,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 6.71,
-					["damage"] = 821,
-				}, -- [4]
-			},
-			["type"] = "group",
-			["damagetaken"] = 532,
-			["rage"] = 5,
-			["etotaldamage"] = 532,
-			["overkill"] = 50,
-			["edamagetaken"] = 2988,
-			["starttime"] = 1729002592,
-			["name"] = "Mudrock Spikeshell (6)",
-			["ccdone"] = 1,
-			["damage"] = 2988,
-			["edamage"] = 532,
-			["last_action"] = 1729002607,
-			["endtime"] = 1729002608,
-		}, -- [13]
-		{
-			["mobname"] = "Mudrock Spikeshell",
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[8393] = {
-							["school"] = 8,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 72,
-								},
-								["Omoratorul"] = {
-									["amount"] = 104,
-								},
-							},
-							["amount"] = 176,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 91,
-								},
-							},
-							["amount"] = 91,
-						},
-					},
-					["damagetaken"] = 1483,
-					["flag"] = 68136,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 124,
-								},
-							},
-							["amount"] = 124,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 281,
-								},
-								["Omoratorul"] = {
-									["amount"] = 252,
-								},
-							},
-							["amount"] = 533,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 180,
-								},
-							},
-							["amount"] = 180,
-						},
-						[15263] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 14,
-									["amount"] = 328,
-								},
-							},
-							["overkill"] = 14,
-							["amount"] = 328,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 318,
-								},
-							},
-							["amount"] = 318,
-						},
-					},
-					["name"] = "Mudrock Spikeshell",
-					["totaldamage"] = 267,
-					["totaldamagetaken"] = 1483,
-					["id"] = "0xF13000112D002047",
-					["damage"] = 267,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 31,
-								},
-							},
-							["amount"] = 31,
-						},
-					},
-					["damagetaken"] = 1612,
-					["id"] = "0xF130005C2500204E",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[7379] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 438,
-								},
-							},
-							["amount"] = 438,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 43,
-								},
-							},
-							["amount"] = 43,
-						},
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 320,
-								},
-							},
-							["amount"] = 320,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 62,
-								},
-							},
-							["amount"] = 62,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 32,
-									["amount"] = 143,
-								},
-								["Omoratorul"] = {
-									["amount"] = 197,
-								},
-							},
-							["overkill"] = 32,
-							["amount"] = 340,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 114,
-								},
-							},
-							["amount"] = 114,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 75,
-									["amount"] = 282,
-								},
-							},
-							["overkill"] = 75,
-							["amount"] = 282,
-						},
-						[9782] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-					},
-					["totaldamage"] = 31,
-					["name"] = "Defias Rummager",
-					["totaldamagetaken"] = 1612,
-					["flag"] = 68168,
-					["damage"] = 31,
-				}, -- [2]
-			},
-			["rage"] = 5,
-			["totaldamage"] = 3095,
-			["time"] = 13,
-			["totaldamagetaken"] = 298,
-			["etotaldamagetaken"] = 3095,
-			["last_time"] = 15058.952,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = 1,
-							},
-						},
-					},
-					["last"] = 15058.861,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[20007] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[1706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 9,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-								["Defias Rummager"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[11349] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-					},
-					["time"] = 11.71,
-					["totaldamagetaken"] = 226,
-					["damage"] = 1237,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 114,
-							["criticalamount"] = 180,
-							["id"] = 8204,
-							["hitmax"] = 114,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 180,
-								},
-								["Defias Rummager"] = {
-									["amount"] = 114,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 294,
-							["school"] = 1,
-							["criticalmin"] = 180,
-							["criticalmax"] = 180,
-							["hitamount"] = 114,
-						},
-						["Melee"] = {
-							["glance"] = 91,
-							["hitmin"] = 77,
-							["id"] = 6603,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 252,
-								},
-								["Defias Rummager"] = {
-									["amount"] = 197,
-								},
-							},
-							["glancemin"] = 91,
-							["glancing"] = 1,
-							["glancemax"] = 91,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 106,
-							["amount"] = 449,
-							["hitamount"] = 358,
-						},
-						["Revenge"] = {
-							["hitmin"] = 438,
-							["id"] = 7379,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 438,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 438,
-							["amount"] = 438,
-							["hitamount"] = 438,
+							["amount"] = 78,
+							["hitamount"] = 78,
 						},
 						["Mithril Shield Spike"] = {
 							["hitmin"] = 13,
 							["id"] = 9782,
 							["targets"] = {
-								["Defias Rummager"] = {
+								["Big Will"] = {
 									["amount"] = 13,
 								},
 							},
@@ -6243,361 +290,162 @@ SkadaStorageDB = {
 							["amount"] = 13,
 							["hitamount"] = 13,
 						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 43,
-							["id"] = 6548,
+						["Revenge"] = {
+							["hitmin"] = 449,
+							["id"] = 7379,
 							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 43,
+								["Big Will"] = {
+									["overkill"] = 348,
+									["amount"] = 898,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
+							["overkill"] = 348,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
 							["school"] = 1,
-							["hitmax"] = 43,
-							["amount"] = 43,
-							["hitamount"] = 43,
+							["hitmax"] = 449,
+							["amount"] = 898,
+							["hitamount"] = 898,
 						},
 					},
-					["damagetaken"] = 226,
+					["damagetaken"] = 24,
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
-					["healspells"] = {
-						[20007] = {
-							["overheal"] = 67,
-							["count"] = 1,
-							["amount"] = 36,
-							["school"] = 1,
-							["max"] = 36,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 67,
-									["amount"] = 36,
-								},
-							},
-							["min"] = 36,
-						},
-					},
 					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 32,
-							["id"] = 8393,
+						["Melee"] = {
+							["hitmin"] = 24,
+							["id"] = 6603,
+							["blocked"] = 20,
+							["BLOCK"] = 1,
+							["PARRY"] = 1,
 							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 104,
+								["Big Will"] = {
+									["amount"] = 24,
 								},
 							},
 							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 36,
-							["amount"] = 104,
-							["hitamount"] = 104,
-						},
-						["Melee"] = {
-							["blocked"] = 32,
-							["hitmin"] = 31,
-							["criticalamount"] = 60,
-							["id"] = 6603,
-							["BLOCK"] = 1,
-							["hitmax"] = 31,
-							["count"] = 4,
-							["hit"] = 2,
-							["criticalmax"] = 60,
-							["critical"] = 1,
-							["amount"] = 122,
+							["hit"] = 1,
 							["school"] = 1,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 91,
-								},
-								["Defias Rummager"] = {
-									["amount"] = 31,
-								},
-							},
-							["criticalmin"] = 60,
-							["hitamount"] = 62,
+							["hitmax"] = 24,
+							["amount"] = 24,
+							["hitamount"] = 24,
 						},
 					},
 					["ragespells"] = {
-						[23602] = 5,
+						[23602] = 10,
 					},
-					["heal"] = 36,
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["rage"] = 5,
-					["overheal"] = 67,
-					["totaldamage"] = 1237,
+					["overkill"] = 348,
+					["rage"] = 10,
+					["totaldamage"] = 1479,
 					["role"] = "TANK",
 				}, -- [1]
 				{
-					["last"] = 15049.386,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[1706] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Slavcul"] = {
-									["uptime"] = 11,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 11,
-						},
-					},
-					["time"] = 2.24,
-					["damage"] = 610,
-					["overheal"] = 0,
+					["last"] = 7292.172000000001,
 					["id"] = "0x0700000000B06C58",
 					["spec"] = 256,
-					["healspells"] = {
-						[56160] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 101,
-							["school"] = 2,
-							["max"] = 101,
-							["targets"] = {
-								["Slavcul"] = {
-									["overheal"] = 0,
-									["amount"] = 101,
-								},
-							},
-							["min"] = 101,
-						},
-					},
-					["overkill"] = 89,
-					["heal"] = 101,
-					["name"] = "Popasfant",
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 282,
-							["id"] = 8105,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["overkill"] = 75,
-									["amount"] = 282,
-								},
-							},
-							["overkill"] = 75,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 282,
-							["amount"] = 282,
-							["hitamount"] = 282,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 328,
-							["id"] = 15263,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["overkill"] = 14,
-									["amount"] = 328,
-								},
-							},
-							["overkill"] = 14,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 328,
-							["amount"] = 328,
-							["hitamount"] = 328,
-						},
-					},
-					["totaldamage"] = 610,
-					["role"] = "HEALER",
-				}, -- [2]
-				{
-					["last"] = 15058.952,
-					["flag"] = 1298,
-					["class"] = "ROGUE",
 					["auras"] = {
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[1245] = {
+						[2791] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 11,
 						},
-						[5171] = {
+						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 1,
+							["uptime"] = 11,
 						},
-						[6065] = {
+						[14752] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
+							["uptime"] = 11,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 11,
 						},
 					},
-					["role"] = "DAMAGER",
-					["time"] = 8.58,
-					["totaldamagetaken"] = 72,
-					["damage"] = 610,
-					["damagespells"] = {
-						["Melee"] = {
-							["criticalmin"] = 52,
-							["hitmin"] = 32,
-							["criticalamount"] = 106,
-							["id"] = 6603,
-							["amount"] = 424,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 281,
-								},
-								["Defias Rummager"] = {
-									["overkill"] = 32,
-									["amount"] = 143,
-								},
-							},
-							["overkill"] = 32,
-							["critical"] = 2,
-							["criticalmax"] = 54,
-							["count"] = 7,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 111,
-							["MISS"] = 1,
-							["hitamount"] = 318,
-						},
-						["Instant Poison II"] = {
-							["hitmin"] = 61,
-							["id"] = 8685,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 124,
-								},
-								["Defias Rummager"] = {
-									["amount"] = 62,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 63,
-							["amount"] = 186,
-							["hitamount"] = 186,
-						},
-					},
-					["damagetaken"] = 72,
-					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
-					["damagetakenspells"] = {
-						["Barbs"] = {
-							["hitmin"] = 36,
-							["id"] = 8393,
-							["sources"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 72,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 36,
-							["amount"] = 72,
-							["hitamount"] = 72,
-						},
-					},
-					["name"] = "Slavcul",
-					["overkill"] = 32,
-					["totaldamage"] = 610,
-				}, -- [3]
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+					["class"] = "PRIEST",
+				}, -- [2]
 				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 318,
-							["id"] = 8407,
-							["targets"] = {
-								["Mudrock Spikeshell"] = {
-									["amount"] = 318,
-								},
-								["Defias Rummager"] = {
-									["amount"] = 320,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 320,
-							["amount"] = 638,
-							["hitamount"] = 638,
-						},
-					},
-					["last"] = 15058.761,
+					["last"] = 7292.172000000001,
 					["id"] = "0x0700000000B06C60",
 					["spec"] = 64,
-					["class"] = "MAGE",
 					["auras"] = {
-						[6117] = {
+						[6066] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 11,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
 						},
 						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[12472] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 16,
 							["uptime"] = 11,
 						},
-						[1706] = {
+						[14752] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 13,
+							["uptime"] = 11,
+						},
+						[10969] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
 						},
 					},
-					["totaldamage"] = 638,
 					["role"] = "DAMAGER",
 					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 7,
-					["damage"] = 638,
-				}, -- [4]
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
 			},
 			["type"] = "group",
-			["damagetaken"] = 298,
-			["overheal"] = 67,
-			["starttime"] = 1729002571,
-			["etotaldamage"] = 298,
-			["overkill"] = 121,
-			["edamagetaken"] = 3095,
-			["heal"] = 137,
-			["name"] = "Mudrock Spikeshell (5)",
+			["damagetaken"] = 24,
+			["damage"] = 1479,
 			["ccdone"] = 1,
-			["damage"] = 3095,
-			["edamage"] = 298,
-			["last_action"] = 1729002583,
-			["endtime"] = 1729002584,
-		}, -- [14]
+			["rage"] = 10,
+			["overkill"] = 348,
+			["edamagetaken"] = 1479,
+			["etotaldamagetaken"] = 1479,
+			["name"] = "Big Will",
+			["mobname"] = "Big Will",
+			["starttime"] = 1729021346,
+			["edamage"] = 24,
+			["last_action"] = 1729021355,
+			["endtime"] = 1729021357,
+		}, -- [1]
 		{
 			["enemies"] = {
 				{
@@ -6606,106 +454,4057 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Omoratorul"] = {
-									["amount"] = 183,
+									["amount"] = 49,
 								},
 							},
-							["amount"] = 183,
+							["amount"] = 49,
 						},
 					},
-					["damagetaken"] = 2093,
-					["id"] = "0xF130005C2501C21E",
+					["damagetaken"] = 810,
+					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[8407] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 556,
-									["amount"] = 558,
-								},
-							},
-							["overkill"] = 556,
-							["amount"] = 558,
-						},
-						[11564] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 132,
-								},
-							},
-							["amount"] = 132,
-						},
-						[5019] = {
-							["school"] = 1,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 52,
-								},
-							},
-							["amount"] = 52,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 318,
+									["overkill"] = 22,
+									["amount"] = 578,
 								},
 							},
-							["amount"] = 318,
+							["overkill"] = 22,
+							["amount"] = 578,
 						},
 						[8204] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 202,
+									["amount"] = 232,
 								},
 							},
-							["amount"] = 202,
+							["amount"] = 232,
+						},
+					},
+					["name"] = "Affray Challenger",
+					["totaldamage"] = 49,
+					["totaldamagetaken"] = 810,
+					["id"] = "0xF130001860032DF8",
+					["damage"] = 49,
+				}, -- [1]
+			},
+			["totaldamage"] = 810,
+			["time"] = 8,
+			["totaldamagetaken"] = 49,
+			["etotaldamagetaken"] = 810,
+			["last_time"] = 7276.306000000001,
+			["players"] = {
+				{
+					["last"] = 7276.131,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 7.37,
+					["totaldamagetaken"] = 49,
+					["damage"] = 810,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 101,
+							["criticalamount"] = 372,
+							["id"] = 6603,
+							["hitmax"] = 105,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["overkill"] = 22,
+									["amount"] = 578,
+								},
+							},
+							["overkill"] = 22,
+							["count"] = 4,
+							["criticalmax"] = 188,
+							["critical"] = 2,
+							["amount"] = 578,
+							["school"] = 1,
+							["hit"] = 2,
+							["criticalmin"] = 184,
+							["hitamount"] = 206,
+						},
+						["Thunder Clap"] = {
+							["criticalamount"] = 232,
+							["id"] = 8204,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 232,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 232,
+							["school"] = 1,
+							["criticalmin"] = 232,
+							["criticalmax"] = 232,
+							["count"] = 1,
+						},
+					},
+					["damagetaken"] = 49,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 15,
+							["id"] = 6603,
+							["hitmax"] = 18,
+							["sources"] = {
+								["Affray Challenger"] = {
+									["amount"] = 49,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["amount"] = 49,
+							["MISS"] = 1,
+							["hitamount"] = 49,
+						},
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 22,
+					["totaldamage"] = 810,
+				}, -- [1]
+				{
+					["last"] = 7268.757000000001,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+					["class"] = "PRIEST",
+				}, -- [2]
+				{
+					["last"] = 7268.757000000001,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[10969] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 49,
+			["damage"] = 810,
+			["etotaldamage"] = 49,
+			["overkill"] = 22,
+			["edamagetaken"] = 810,
+			["name"] = "Affray Challenger (5)",
+			["mobname"] = "Affray Challenger",
+			["starttime"] = 1729021323,
+			["edamage"] = 49,
+			["last_action"] = 1729021330,
+			["endtime"] = 1729021331,
+		}, -- [2]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["damagetaken"] = 903,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[9782] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 63,
+									["amount"] = 115,
+								},
+							},
+							["overkill"] = 63,
+							["amount"] = 115,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 468,
+								},
+							},
+							["amount"] = 468,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 307,
+								},
+							},
+							["amount"] = 307,
+						},
+					},
+					["name"] = "Affray Challenger",
+					["totaldamage"] = 16,
+					["totaldamagetaken"] = 903,
+					["id"] = "0xF130001860032DF7",
+					["damage"] = 16,
+				}, -- [1]
+			},
+			["totaldamage"] = 903,
+			["time"] = 7,
+			["totaldamagetaken"] = 16,
+			["etotaldamagetaken"] = 903,
+			["last_time"] = 7258.923,
+			["players"] = {
+				{
+					["last"] = 7258.748000000001,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[18075] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[552] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 7,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 6.539999999999999,
+					["totaldamagetaken"] = 16,
+					["damage"] = 903,
+					["damagespells"] = {
+						["Revenge"] = {
+							["hitmin"] = 468,
+							["id"] = 7379,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 468,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 468,
+							["amount"] = 468,
+							["hitamount"] = 468,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 115,
+							["id"] = 8204,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["overkill"] = 63,
+									["amount"] = 115,
+								},
+							},
+							["overkill"] = 63,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 115,
+							["amount"] = 115,
+							["hitamount"] = 115,
+						},
+						["Mithril Shield Spike"] = {
+							["hitmin"] = 13,
+							["id"] = 9782,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 13,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 13,
+							["amount"] = 13,
+							["hitamount"] = 13,
+						},
+						["Melee"] = {
+							["hitmin"] = 90,
+							["id"] = 6603,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 307,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 110,
+							["amount"] = 307,
+							["hitamount"] = 307,
+						},
+					},
+					["damagetaken"] = 16,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 16,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["blocked"] = 19,
+							["BLOCK"] = 1,
+							["sources"] = {
+								["Affray Challenger"] = {
+									["amount"] = 16,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 16,
+							["hitamount"] = 16,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 10,
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 63,
+					["rage"] = 10,
+					["totaldamage"] = 903,
+				}, -- [1]
+				{
+					["last"] = 7252.208000000001,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["time"] = 0,
+					["class"] = "PRIEST",
+				}, -- [2]
+				{
+					["last"] = 7252.208000000001,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[10969] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 16,
+			["damage"] = 903,
+			["etotaldamage"] = 16,
+			["rage"] = 10,
+			["overkill"] = 63,
+			["edamagetaken"] = 903,
+			["name"] = "Affray Challenger (4)",
+			["mobname"] = "Affray Challenger",
+			["starttime"] = 1729021306,
+			["edamage"] = 16,
+			["last_action"] = 1729021313,
+			["endtime"] = 1729021313,
+		}, -- [3]
+		{
+			["enemies"] = {
+				{
+					["id"] = "0xF130001860032DF5",
+					["name"] = "Affray Challenger",
+					["totaldamagetaken"] = 835,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["damagetaken"] = 835,
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 179,
+								},
+							},
+							["amount"] = 179,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 47,
+									["amount"] = 139,
+								},
+							},
+							["overkill"] = 47,
+							["amount"] = 139,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 478,
+								},
+							},
+							["amount"] = 478,
+						},
+						[9782] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 39,
+								},
+							},
+							["amount"] = 39,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 835,
+			["time"] = 5,
+			["totaldamagetaken"] = 0,
+			["etotaldamagetaken"] = 835,
+			["last_time"] = 7228.936000000001,
+			["players"] = {
+				{
+					["last"] = 7228.915,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[2565] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["time"] = 4.46,
+					["totaldamagetaken"] = 0,
+					["damage"] = 835,
+					["damagespells"] = {
+						["Revenge"] = {
+							["hitmin"] = 478,
+							["id"] = 7379,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 478,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 478,
+							["amount"] = 478,
+							["hitamount"] = 478,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 139,
+							["id"] = 8204,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["overkill"] = 47,
+									["amount"] = 139,
+								},
+							},
+							["overkill"] = 47,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 139,
+							["amount"] = 139,
+							["hitamount"] = 139,
+						},
+						["Melee"] = {
+							["hitmin"] = 87,
+							["id"] = 6603,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 179,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 92,
+							["amount"] = 179,
+							["hitamount"] = 179,
+						},
+						["Mithril Shield Spike"] = {
+							["hitmin"] = 13,
+							["id"] = 9782,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 39,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 13,
+							["amount"] = 39,
+							["hitamount"] = 39,
+						},
+					},
+					["overheal"] = 125,
+					["damagetaken"] = 0,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 125,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 125,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["sources"] = {
+								["Affray Challenger"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 1,
+							["blocked"] = 50,
+							["BLOCK"] = 3,
+							["id"] = 6603,
+						},
+					},
+					["overkill"] = 47,
+					["ragespells"] = {
+						[23602] = 15,
+					},
+					["name"] = "Omoratorul",
+					["heal"] = 0,
+					["rage"] = 15,
+					["totaldamage"] = 835,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 7224.466,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[458] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["time"] = 0,
+					["class"] = "PRIEST",
+				}, -- [2]
+				{
+					["last"] = 7224.466,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[10969] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 0,
+			["damage"] = 835,
+			["overheal"] = 125,
+			["overkill"] = 47,
+			["edamagetaken"] = 835,
+			["heal"] = 0,
+			["name"] = "Affray Challenger (3)",
+			["mobname"] = "Affray Challenger",
+			["starttime"] = 1729021278,
+			["rage"] = 15,
+			["last_action"] = 1729021283,
+			["endtime"] = 1729021283,
+		}, -- [4]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["damagetaken"] = 1192,
+					["id"] = "0xF130001860032DF4",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[9782] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 352,
+									["amount"] = 908,
+								},
+							},
+							["overkill"] = 352,
+							["amount"] = 908,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 271,
+								},
+							},
+							["amount"] = 271,
+						},
+					},
+					["totaldamage"] = 20,
+					["name"] = "Affray Challenger",
+					["totaldamagetaken"] = 1192,
+					["flag"] = 68168,
+					["damage"] = 20,
+				}, -- [1]
+			},
+			["totaldamage"] = 1192,
+			["time"] = 6,
+			["totaldamagetaken"] = 20,
+			["etotaldamage"] = 20,
+			["last_time"] = 7214.489000000001,
+			["players"] = {
+				{
+					["last"] = 7214.482,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[18075] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["time"] = 4.04,
+					["totaldamagetaken"] = 20,
+					["damage"] = 1192,
+					["damagespells"] = {
+						["Revenge"] = {
+							["criticalamount"] = 908,
+							["id"] = 7379,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["overkill"] = 352,
+									["amount"] = 908,
+								},
+							},
+							["overkill"] = 352,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 908,
+							["school"] = 1,
+							["criticalmin"] = 908,
+							["criticalmax"] = 908,
+							["count"] = 1,
+						},
+						["Mithril Shield Spike"] = {
+							["hitmin"] = 13,
+							["id"] = 9782,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 13,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 13,
+							["amount"] = 13,
+							["hitamount"] = 13,
+						},
+						["Melee"] = {
+							["hitmin"] = 89,
+							["criticalamount"] = 182,
+							["id"] = 6603,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 271,
+								},
+							},
+							["criticalmin"] = 182,
+							["critical"] = 1,
+							["criticalmax"] = 182,
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 89,
+							["amount"] = 271,
+							["hitamount"] = 89,
+						},
+					},
+					["damagetaken"] = 20,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 20,
+							["id"] = 6603,
+							["amount"] = 20,
+							["blocked"] = 19,
+							["BLOCK"] = 1,
+							["sources"] = {
+								["Affray Challenger"] = {
+									["amount"] = 20,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 20,
+							["MISS"] = 1,
+							["hitamount"] = 20,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 5,
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 352,
+					["rage"] = 5,
+					["totaldamage"] = 1192,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 7210.448,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[458] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["time"] = 0,
+					["class"] = "PRIEST",
+				}, -- [2]
+				{
+					["last"] = 7210.448,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[10969] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 20,
+			["starttime"] = 1729021264,
+			["rage"] = 5,
+			["overkill"] = 352,
+			["edamagetaken"] = 1192,
+			["damage"] = 1192,
+			["name"] = "Affray Challenger (2)",
+			["mobname"] = "Affray Challenger",
+			["etotaldamagetaken"] = 1192,
+			["edamage"] = 20,
+			["last_action"] = 1729021268,
+			["endtime"] = 1729021270,
+		}, -- [5]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+					},
+					["damagetaken"] = 1297,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 372,
+								},
+							},
+							["amount"] = 372,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 457,
+									["amount"] = 899,
+								},
+							},
+							["overkill"] = 457,
+							["amount"] = 899,
+						},
+						[9782] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+					},
+					["name"] = "Affray Challenger",
+					["totaldamage"] = 16,
+					["totaldamagetaken"] = 1297,
+					["id"] = "0xF130001860032DF3",
+					["damage"] = 16,
+				}, -- [1]
+			},
+			["totaldamage"] = 1297,
+			["time"] = 10,
+			["totaldamagetaken"] = 16,
+			["etotaldamagetaken"] = 1297,
+			["last_time"] = 7200.448,
+			["players"] = {
+				{
+					["last"] = 7200.424,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 8.619999999999999,
+					["totaldamagetaken"] = 16,
+					["damage"] = 1297,
+					["rage"] = 20,
+					["damagetaken"] = 16,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 16,
+							["id"] = 6603,
+							["blocked"] = 36,
+							["BLOCK"] = 2,
+							["sources"] = {
+								["Affray Challenger"] = {
+									["amount"] = 16,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 16,
+							["hitamount"] = 16,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 20,
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 457,
+					["damagespells"] = {
+						["Mithril Shield Spike"] = {
+							["hitmin"] = 13,
+							["id"] = 9782,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 26,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 13,
+							["amount"] = 26,
+							["hitamount"] = 26,
+						},
+						["Revenge"] = {
+							["hitmin"] = 422,
+							["id"] = 7379,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["overkill"] = 457,
+									["amount"] = 899,
+								},
+							},
+							["overkill"] = 457,
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 477,
+							["amount"] = 899,
+							["hitamount"] = 899,
+						},
+						["Melee"] = {
+							["hitmin"] = 87,
+							["id"] = 6603,
+							["targets"] = {
+								["Affray Challenger"] = {
+									["amount"] = 372,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 102,
+							["amount"] = 372,
+							["hitamount"] = 372,
+						},
+					},
+					["totaldamage"] = 1297,
+				}, -- [1]
+				{
+					["last"] = 7191.791,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[458] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 0,
+					["class"] = "PRIEST",
+				}, -- [2]
+				{
+					["last"] = 7191.791,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 4,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[10969] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 16,
+			["rage"] = 20,
+			["starttime"] = 1729021246,
+			["etotaldamage"] = 16,
+			["overkill"] = 457,
+			["edamagetaken"] = 1297,
+			["name"] = "Affray Challenger",
+			["mobname"] = "Affray Challenger",
+			["damage"] = 1297,
+			["edamage"] = 16,
+			["last_action"] = 1729021254,
+			["endtime"] = 1729021256,
+		}, -- [6]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 62,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 99,
+								},
+								["Omoratorul"] = {
+									["total"] = 62,
+									["amount"] = 0,
+								},
+							},
+							["amount"] = 99,
+						},
+					},
+					["damagetaken"] = 1446,
+					["id"] = "0xF130005C95032652",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8492] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 182,
+								},
+							},
+							["amount"] = 182,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 84,
+								},
+							},
+							["amount"] = 84,
+						},
+						[8407] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 940,
+								},
+							},
+							["amount"] = 940,
+						},
+						[11564] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 67,
+									["amount"] = 134,
+								},
+							},
+							["overkill"] = 67,
+							["amount"] = 134,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 106,
+								},
+							},
+							["amount"] = 106,
+						},
+					},
+					["totaldamage"] = 161,
+					["name"] = "Mirefin Ambusher",
+					["totaldamagetaken"] = 1446,
+					["flag"] = 68168,
+					["damage"] = 99,
+				}, -- [1]
+			},
+			["totaldamage"] = 1446,
+			["time"] = 10,
+			["overheal"] = 0,
+			["totaldamagetaken"] = 161,
+			["etotaldamage"] = 161,
+			["last_time"] = 6765.737,
+			["players"] = {
+				{
+					["last"] = 6764.687,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[355] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+					},
+					["time"] = 8.17,
+					["totaldamagetaken"] = 62,
+					["damage"] = 324,
+					["damagespells"] = {
+						["Thunder Clap"] = {
+							["hitmin"] = 106,
+							["id"] = 8204,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 106,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 106,
+							["amount"] = 106,
+							["hitamount"] = 106,
+						},
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 84,
+							["id"] = 6603,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 84,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 84,
+							["amount"] = 84,
+							["hitamount"] = 84,
+						},
+						["Heroic Strike"] = {
+							["hitmin"] = 134,
+							["id"] = 11564,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["overkill"] = 67,
+									["amount"] = 134,
+								},
+							},
+							["overkill"] = 67,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 134,
+							["amount"] = 134,
+							["hitamount"] = 134,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["total"] = 62,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["total"] = 62,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 2,
+							["id"] = 6603,
+						},
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 67,
+					["totaldamage"] = 324,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["overheal"] = 0,
+					["absorb"] = 62,
+					["heal"] = 117,
+					["last"] = 6765.737,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["healspells"] = {
+						[56160] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 117,
+							["school"] = 2,
+							["max"] = 117,
+							["targets"] = {
+								["Yolix"] = {
+									["overheal"] = 0,
+									["amount"] = 117,
+								},
+							},
+							["min"] = 117,
+						},
+					},
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Yolix"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+					},
+					["absorbspells"] = {
+						[6066] = {
+							["min"] = 28,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 62,
+							["max"] = 34,
+							["targets"] = {
+								["Omoratorul"] = 62,
+							},
+							["school"] = 2,
+						},
+					},
+					["time"] = 6.68,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+				}, -- [2]
+				{
+					["last"] = 6764.144,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[12472] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[42275] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 7.64,
+					["totaldamagetaken"] = 99,
+					["damage"] = 1122,
+					["damagespells"] = {
+						["Cone of Cold"] = {
+							["hitmin"] = 182,
+							["id"] = 8492,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 182,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 182,
+							["amount"] = 182,
+							["hitamount"] = 182,
+						},
+						["Frostbolt"] = {
+							["hitmin"] = 312,
+							["id"] = 8407,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 940,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["hitmax"] = 315,
+							["amount"] = 940,
+							["hitamount"] = 940,
+						},
+					},
+					["damagetaken"] = 99,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 47,
+							["id"] = 6603,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 99,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 52,
+							["amount"] = 99,
+							["hitamount"] = 99,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["totaldamage"] = 1122,
+				}, -- [3]
+			},
+			["absorb"] = 62,
+			["damagetaken"] = 99,
+			["starttime"] = 1729020810,
+			["etotaldamagetaken"] = 1446,
+			["damage"] = 1446,
+			["overkill"] = 67,
+			["edamagetaken"] = 1446,
+			["heal"] = 117,
+			["name"] = "Mirefin Ambusher (5)",
+			["mobname"] = "Mirefin Ambusher",
+			["type"] = "group",
+			["edamage"] = 99,
+			["last_action"] = 1729020820,
+			["endtime"] = 1729020820,
+		}, -- [7]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 54,
+								},
+							},
+							["amount"] = 54,
+						},
+					},
+					["damagetaken"] = 1644,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8105] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 257,
+								},
+							},
+							["amount"] = 257,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 505,
+								},
+							},
+							["amount"] = 505,
+						},
+						[8407] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 282,
+								},
+							},
+							["amount"] = 282,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 488,
+								},
+							},
+							["amount"] = 488,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+					},
+					["name"] = "Defias Diver",
+					["totaldamage"] = 54,
+					["totaldamagetaken"] = 1644,
+					["id"] = "0xF130005C2703248D",
+					["damage"] = 54,
+				}, -- [1]
+			},
+			["overheal"] = 204,
+			["totaldamage"] = 1644,
+			["time"] = 8,
+			["rage"] = 10,
+			["totaldamagetaken"] = 54,
+			["etotaldamagetaken"] = 1644,
+			["last_time"] = 6694.204,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Defias Diver"] = 1,
+							},
+						},
+					},
+					["last"] = 6693.995,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 5,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[71] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 3,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 3,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["time"] = 5.890000000000001,
+					["totaldamagetaken"] = 54,
+					["damage"] = 617,
+					["damagespells"] = {
+						["Melee"] = {
+							["hitmin"] = 94,
+							["criticalamount"] = 192,
+							["id"] = 6603,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 505,
+								},
+							},
+							["criticalmin"] = 192,
+							["critical"] = 1,
+							["criticalmax"] = 192,
+							["count"] = 4,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 121,
+							["amount"] = 505,
+							["hitamount"] = 313,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 112,
+							["id"] = 8204,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 112,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 112,
+							["amount"] = 112,
+							["hitamount"] = 112,
+						},
+					},
+					["damagetaken"] = 54,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 87,
+							["count"] = 1,
+							["amount"] = 35,
+							["school"] = 1,
+							["max"] = 35,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 87,
+									["amount"] = 35,
+								},
+							},
+							["min"] = 35,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 19,
+							["id"] = 6603,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Defias Diver"] = {
+									["amount"] = 54,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 35,
+							["amount"] = 54,
+							["hitamount"] = 54,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 10,
+					},
+					["heal"] = 35,
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["rage"] = 10,
+					["overheal"] = 87,
+					["totaldamage"] = 617,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 6688.096000000001,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+					},
+					["time"] = 0,
+					["damage"] = 745,
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["hitmin"] = 257,
+							["id"] = 8105,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 257,
+								},
+							},
+							["hitmax"] = 257,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 28,
+							["amount"] = 257,
+							["hitamount"] = 257,
+						},
+						["Holy Fire"] = {
+							["criticalamount"] = 476,
+							["id"] = 15264,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 476,
+								},
+							},
+							["criticalmin"] = 476,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 476,
+							["school"] = 2,
+							["resisted"] = 52,
+							["criticalmax"] = 476,
+							["count"] = 1,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 12,
+							["id"] = 15264,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 12,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 12,
+							["amount"] = 12,
+							["hitamount"] = 12,
+						},
+					},
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["healspells"] = {
+						[56160] = {
+							["overheal"] = 117,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["overheal"] = 117,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["heal"] = 0,
+					["name"] = "Popasfant",
+					["overheal"] = 117,
+					["totaldamage"] = 745,
+					["role"] = "HEALER",
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 282,
+							["id"] = 8407,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 282,
+								},
+							},
+							["hitmax"] = 282,
+							["casts"] = 2,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 31,
+							["amount"] = 282,
+							["hitamount"] = 282,
+						},
+					},
+					["last"] = 6691.279000000001,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["class"] = "MAGE",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 8,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[42275] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+					},
+					["totaldamage"] = 282,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 3.18,
+					["damage"] = 282,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 54,
+			["etotaldamage"] = 54,
+			["mobname"] = "Defias Diver",
+			["damage"] = 1644,
+			["starttime"] = 1729020742,
+			["edamagetaken"] = 1644,
+			["heal"] = 35,
+			["name"] = "Defias Diver (6)",
+			["ccdone"] = 1,
+			["edamage"] = 54,
+			["last_action"] = 1729020748,
+			["endtime"] = 1729020750,
+		}, -- [8]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 117,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["total"] = 49,
+									["amount"] = 0,
+								},
+								["Omoratorul"] = {
+									["amount"] = 31,
+								},
+								["Popasfant"] = {
+									["amount"] = 37,
+								},
+							},
+							["amount"] = 68,
+						},
+					},
+					["damagetaken"] = 1699,
+					["id"] = "0xF130005C9503246B",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8492] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 195,
+								},
+							},
+							["amount"] = 195,
+						},
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 117,
+								},
+							},
+							["amount"] = 117,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 246,
+								},
+							},
+							["amount"] = 246,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 206,
+								},
+							},
+							["amount"] = 206,
+						},
+						[8407] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 162,
+									["amount"] = 935,
+								},
+							},
+							["overkill"] = 162,
+							["amount"] = 935,
+						},
+					},
+					["totaldamage"] = 117,
+					["name"] = "Mirefin Ambusher",
+					["totaldamagetaken"] = 1699,
+					["flag"] = 68168,
+					["damage"] = 68,
+				}, -- [1]
+			},
+			["totaldamage"] = 1699,
+			["time"] = 14,
+			["starttime"] = 1729020712,
+			["totaldamagetaken"] = 117,
+			["etotaldamage"] = 117,
+			["last_time"] = 6672.362,
+			["players"] = {
+				{
+					["last"] = 6670.386,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 7,
+								},
+							},
+							["uptime"] = 7,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[18075] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["count"] = 1,
+									["refresh"] = 1,
+									["uptime"] = 4,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 12,
+					["totaldamagetaken"] = 31,
+					["damage"] = 569,
+					["damagespells"] = {
+						["Revenge"] = {
+							["DODGE"] = 1,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 7379,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 103,
+							["id"] = 8204,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 206,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 103,
+							["amount"] = 206,
+							["hitamount"] = 206,
+						},
+						["Melee"] = {
+							["glance"] = 72,
+							["hitmin"] = 83,
+							["id"] = 6603,
+							["hitmax"] = 91,
+							["glancemax"] = 72,
+							["hitamount"] = 174,
+							["glancing"] = 1,
+							["PARRY"] = 3,
+							["count"] = 6,
+							["amount"] = 246,
+							["school"] = 1,
+							["hit"] = 2,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 246,
+								},
+							},
+							["glancemin"] = 72,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 39,
+							["id"] = 6548,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 117,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 39,
+							["amount"] = 117,
+							["hitamount"] = 117,
+						},
+					},
+					["damagetaken"] = 31,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 2,
+							["hitmin"] = 31,
+							["id"] = 6603,
+							["amount"] = 31,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 31,
+								},
+							},
+							["count"] = 4,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 31,
+							["MISS"] = 1,
+							["hitamount"] = 31,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 10,
+					},
+					["name"] = "Omoratorul",
+					["rage"] = 10,
+					["totaldamage"] = 569,
+				}, -- [1]
+				{
+					["id"] = "0x0700000000B06C58",
+					["absorb"] = 49,
+					["damagetaken"] = 37,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 37,
+							["id"] = 6603,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 37,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 37,
+							["amount"] = 37,
+							["hitamount"] = 37,
+						},
+					},
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["last"] = 6662.92,
+					["auras"] = {
+						[586] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 32,
+							["uptime"] = 10,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["absorbspells"] = {
+						[6066] = {
+							["min"] = 49,
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 49,
+							["max"] = 49,
+							["targets"] = {
+								["Vrajadefoc"] = 49,
+							},
+						},
+					},
+					["time"] = 3.5,
+					["spec"] = 256,
+					["totaldamagetaken"] = 37,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+				}, -- [2]
+				{
+					["last"] = 6670.647,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 7,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8492] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[42275] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 11.35,
+					["totaldamagetaken"] = 49,
+					["damage"] = 1130,
+					["damagespells"] = {
+						["Cone of Cold"] = {
+							["hitmin"] = 195,
+							["id"] = 8492,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 195,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 195,
+							["amount"] = 195,
+							["hitamount"] = 195,
+						},
+						["Frostbolt"] = {
+							["hitmin"] = 305,
+							["id"] = 8407,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["overkill"] = 162,
+									["amount"] = 935,
+								},
+							},
+							["overkill"] = 162,
+							["casts"] = 3,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["hitmax"] = 322,
+							["amount"] = 935,
+							["hitamount"] = 935,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["total"] = 49,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["total"] = 49,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 1,
+							["id"] = 6603,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["overkill"] = 162,
+					["totaldamage"] = 1130,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 68,
+			["rage"] = 10,
+			["absorb"] = 49,
+			["overkill"] = 162,
+			["edamagetaken"] = 1699,
+			["damage"] = 1699,
+			["name"] = "Mirefin Ambusher (4)",
+			["mobname"] = "Mirefin Ambusher",
+			["etotaldamagetaken"] = 1699,
+			["edamage"] = 68,
+			["last_action"] = 1729020726,
+			["endtime"] = 1729020726,
+		}, -- [9]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 100,
+								},
+							},
+							["amount"] = 100,
+						},
+					},
+					["damagetaken"] = 1559,
+					["id"] = "0xF130005C9503238E",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 804,
+								},
+							},
+							["amount"] = 804,
+						},
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 22,
+									["amount"] = 117,
+								},
+							},
+							["overkill"] = 22,
+							["amount"] = 117,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 499,
+								},
+							},
+							["amount"] = 499,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 103,
+								},
+							},
+							["amount"] = 103,
+						},
+						[9782] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+					},
+					["totaldamage"] = 100,
+					["name"] = "Mirefin Ambusher",
+					["totaldamagetaken"] = 1559,
+					["flag"] = 2632,
+					["damage"] = 100,
+				}, -- [1]
+			},
+			["starttime"] = 1729020658,
+			["totaldamage"] = 1559,
+			["time"] = 14,
+			["etotaldamagetaken"] = 1559,
+			["totaldamagetaken"] = 100,
+			["etotaldamage"] = 100,
+			["last_time"] = 6617.712,
+			["players"] = {
+				{
+					["last"] = 6617.529000000001,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[2565] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 8,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["time"] = 13.33,
+					["totaldamagetaken"] = 100,
+					["damage"] = 1559,
+					["damagespells"] = {
+						["Thunder Clap"] = {
+							["hitmin"] = 103,
+							["id"] = 8204,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 103,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 103,
+							["amount"] = 103,
+							["hitamount"] = 103,
+						},
+						["Melee"] = {
+							["glance"] = 148,
+							["hitmin"] = 78,
+							["id"] = 6603,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 499,
+								},
+							},
+							["glancemin"] = 72,
+							["glancing"] = 2,
+							["glancemax"] = 76,
+							["count"] = 6,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 96,
+							["amount"] = 499,
+							["hitamount"] = 351,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 39,
+							["id"] = 6548,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["overkill"] = 22,
+									["amount"] = 117,
+								},
+							},
+							["overkill"] = 22,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 39,
+							["amount"] = 117,
+							["hitamount"] = 117,
+						},
+						["Mithril Shield Spike"] = {
+							["hitmin"] = 12,
+							["id"] = 9782,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 36,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 12,
+							["amount"] = 36,
+							["hitamount"] = 36,
+						},
+						["Revenge"] = {
+							["hitmin"] = 393,
+							["id"] = 7379,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 804,
+								},
+							},
+							["casts"] = 2,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 411,
+							["amount"] = 804,
+							["hitamount"] = 804,
+						},
+					},
+					["damagetaken"] = 100,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 31,
+							["id"] = 6603,
+							["blocked"] = 105,
+							["BLOCK"] = 3,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 100,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 36,
+							["amount"] = 100,
+							["hitamount"] = 100,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 15,
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 22,
+					["rage"] = 15,
+					["totaldamage"] = 1559,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["overheal"] = 382,
+					["last"] = 6608.722,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["healspells"] = {
+						[6077] = {
+							["overheal"] = 382,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["overheal"] = 382,
+									["amount"] = 212,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 212,
+							["school"] = 2,
+							["max"] = 119,
+							["ishot"] = true,
+							["min"] = 93,
+						},
+					},
+					["auras"] = {
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["heal"] = 212,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["flag"] = 1298,
+					["time"] = 4.520000000000001,
+					["class"] = "PRIEST",
+				}, -- [2]
+				{
+					["last"] = 6604.204,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6077] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[12472] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[42275] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 100,
+			["rage"] = 15,
+			["damage"] = 1559,
+			["overkill"] = 22,
+			["edamagetaken"] = 1559,
+			["heal"] = 212,
+			["name"] = "Mirefin Ambusher (3)",
+			["mobname"] = "Mirefin Ambusher",
+			["overheal"] = 382,
+			["edamage"] = 100,
+			["last_action"] = 1729020672,
+			["endtime"] = 1729020672,
+		}, -- [10]
+		{
+			["overheal"] = 472,
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 91,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 57,
+								},
+								["Omoratorul"] = {
+									["total"] = 91,
+									["amount"] = 0,
+								},
+							},
+							["amount"] = 57,
+						},
+					},
+					["damagetaken"] = 1761,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8492] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 148,
+								},
+							},
+							["amount"] = 148,
+						},
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 79,
+								},
+							},
+							["amount"] = 79,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 411,
+								},
+							},
+							["amount"] = 411,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 103,
+								},
+							},
+							["amount"] = 103,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 224,
+									["amount"] = 398,
+								},
+							},
+							["overkill"] = 224,
+							["amount"] = 398,
+						},
+						[8407] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 622,
+								},
+							},
+							["amount"] = 622,
+						},
+					},
+					["name"] = "Mirefin Ambusher",
+					["totaldamage"] = 148,
+					["totaldamagetaken"] = 1761,
+					["id"] = "0xF130005C950322AD",
+					["damage"] = 57,
+				}, -- [1]
+			},
+			["starttime"] = 1729020612,
+			["totaldamage"] = 1761,
+			["time"] = 14,
+			["rage"] = 5,
+			["totaldamagetaken"] = 148,
+			["etotaldamagetaken"] = 1761,
+			["last_time"] = 6571.022,
+			["players"] = {
+				{
+					["last"] = 6571.006,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 12,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[71] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 8,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[6077] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 10,
+						},
+					},
+					["role"] = "TANK",
+					["time"] = 12.34,
+					["totaldamagetaken"] = 91,
+					["damage"] = 991,
+					["damagespells"] = {
+						["Taunt"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 355,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 103,
+							["id"] = 8204,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 103,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 103,
+							["amount"] = 103,
+							["hitamount"] = 103,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 39,
+							["id"] = 6548,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 79,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 40,
+							["amount"] = 79,
+							["hitamount"] = 79,
+						},
+						["Revenge"] = {
+							["hitmin"] = 398,
+							["id"] = 7379,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["overkill"] = 224,
+									["amount"] = 398,
+								},
+							},
+							["overkill"] = 224,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 398,
+							["amount"] = 398,
+							["hitamount"] = 398,
+						},
+						["Melee"] = {
+							["glance"] = 169,
+							["hitmin"] = 76,
+							["id"] = 6603,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 411,
+								},
+							},
+							["glancemin"] = 81,
+							["glancing"] = 2,
+							["glancemax"] = 88,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 87,
+							["amount"] = 411,
+							["hitamount"] = 242,
+						},
+					},
+					["damagetaken"] = 0,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 91,
+							["count"] = 4,
+							["amount"] = 0,
+							["school"] = 1,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["total"] = 91,
+									["amount"] = 0,
+								},
+							},
+							["ABSORB"] = 3,
+							["id"] = 6603,
+						},
+					},
+					["ragespells"] = {
+						[23602] = 5,
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 224,
+					["rage"] = 5,
+					["totaldamage"] = 991,
+				}, -- [1]
+				{
+					["overheal"] = 472,
+					["absorb"] = 91,
+					["id"] = "0x0700000000B06C58",
+					["last"] = 6567.738,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["healspells"] = {
+						[56160] = {
+							["overheal"] = 117,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 117,
+									["amount"] = 0,
+								},
+							},
+						},
+						[6077] = {
+							["overheal"] = 355,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 355,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["auras"] = {
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 12,
+						},
+					},
+					["absorbspells"] = {
+						[6066] = {
+							["min"] = 29,
+							["casts"] = 1,
+							["count"] = 3,
+							["amount"] = 91,
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = 91,
+							},
+							["max"] = 33,
+						},
+					},
+					["time"] = 8.529999999999999,
+					["spec"] = 256,
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["heal"] = 0,
+				}, -- [2]
+				{
+					["last"] = 6566.954,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[8492] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[42275] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["role"] = "DAMAGER",
+					["time"] = 7.609999999999999,
+					["totaldamagetaken"] = 57,
+					["damage"] = 770,
+					["damagespells"] = {
+						["Cone of Cold"] = {
+							["hitmin"] = 148,
+							["id"] = 8492,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 148,
+								},
+							},
+							["hitmax"] = 148,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 37,
+							["amount"] = 148,
+							["hitamount"] = 148,
+						},
+						["Frostbolt"] = {
+							["hitmin"] = 307,
+							["id"] = 8407,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 622,
+								},
+							},
+							["casts"] = 3,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 315,
+							["amount"] = 622,
+							["hitamount"] = 622,
+						},
+					},
+					["damagetaken"] = 57,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 57,
+							["id"] = 6603,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 57,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 57,
+							["amount"] = 57,
+							["hitamount"] = 57,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["totaldamage"] = 770,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 57,
+			["etotaldamage"] = 148,
+			["absorb"] = 91,
+			["overkill"] = 224,
+			["edamagetaken"] = 1761,
+			["heal"] = 0,
+			["name"] = "Mirefin Ambusher (2)",
+			["mobname"] = "Mirefin Ambusher",
+			["damage"] = 1761,
+			["edamage"] = 57,
+			["last_action"] = 1729020625,
+			["endtime"] = 1729020626,
+		}, -- [11]
+		{
+			["mobname"] = "Defias Diver",
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 135,
+								},
+							},
+							["amount"] = 135,
+						},
+					},
+					["damagetaken"] = 1731,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 112,
+								},
+							},
+							["amount"] = 112,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 391,
+								},
+							},
+							["amount"] = 391,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 398,
+								},
+							},
+							["amount"] = 398,
+						},
+						[694] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 106,
+								},
+							},
+							["amount"] = 106,
+						},
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 84,
+								},
+							},
+							["amount"] = 84,
+						},
+						[9782] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						[20647] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 194,
+									["amount"] = 210,
+								},
+							},
+							["overkill"] = 194,
+							["amount"] = 210,
 						},
 						[8105] = {
 							["school"] = 32,
 							["sources"] = {
 								["Popasfant"] = {
-									["amount"] = 278,
+									["amount"] = 288,
 								},
 							},
-							["amount"] = 278,
+							["amount"] = 288,
 						},
-						[15263] = {
-							["school"] = 2,
+						[11564] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 553,
+								["Omoratorul"] = {
+									["amount"] = 129,
 								},
 							},
-							["amount"] = 553,
+							["amount"] = 129,
 						},
 					},
-					["totaldamage"] = 183,
-					["name"] = "Defias Rummager",
-					["totaldamagetaken"] = 2093,
-					["flag"] = 68168,
-					["damage"] = 183,
+					["name"] = "Defias Diver",
+					["totaldamage"] = 135,
+					["totaldamagetaken"] = 1731,
+					["id"] = "0xF130005C270266C8",
+					["damage"] = 135,
 				}, -- [1]
 			},
-			["totaldamage"] = 2093,
+			["starttime"] = 1729020585,
+			["totaldamage"] = 1731,
 			["time"] = 13,
-			["totaldamagetaken"] = 183,
-			["etotaldamage"] = 183,
-			["last_time"] = 15002.853,
+			["etotaldamage"] = 135,
+			["totaldamagetaken"] = 135,
+			["etotaldamagetaken"] = 1731,
+			["last_time"] = 6542.755,
 			["players"] = {
 				{
-					["last"] = 14998.711,
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Defias Diver"] = 1,
+							},
+						},
+					},
+					["last"] = 6542.74,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
 					["auras"] = {
-						[458] = {
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 10,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 10,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[14752] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[11349] = {
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[694] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 9,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 9,
+						},
+						[2791] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
@@ -6713,198 +4512,183 @@ SkadaStorageDB = {
 						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
-						},
-						[63729] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 7,
-						},
 					},
-					["time"] = 8.780000000000001,
-					["totaldamagetaken"] = 183,
-					["damage"] = 652,
+					["time"] = 11.32,
+					["totaldamagetaken"] = 135,
+					["damage"] = 1045,
 					["damagespells"] = {
 						["Thunder Clap"] = {
-							["criticalamount"] = 202,
+							["hitmin"] = 112,
 							["id"] = 8204,
 							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 202,
+								["Defias Diver"] = {
+									["amount"] = 112,
 								},
 							},
+							["amount"] = 112,
 							["casts"] = 2,
-							["critical"] = 1,
-							["amount"] = 202,
+							["count"] = 2,
+							["hit"] = 1,
 							["school"] = 1,
-							["criticalmin"] = 202,
-							["criticalmax"] = 202,
-							["count"] = 1,
+							["hitmax"] = 112,
+							["MISS"] = 1,
+							["hitamount"] = 112,
 						},
 						["Melee"] = {
-							["glance"] = 153,
-							["hitmin"] = 69,
-							["blocked"] = 18,
+							["glance"] = 90,
+							["hitmin"] = 94,
 							["id"] = 6603,
-							["glancemin"] = 75,
+							["glancemax"] = 90,
 							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 318,
+								["Defias Diver"] = {
+									["amount"] = 391,
 								},
 							},
-							["glancemax"] = 78,
-							["glancing"] = 2,
+							["glancemin"] = 90,
+							["glancing"] = 1,
 							["PARRY"] = 1,
 							["count"] = 5,
-							["hit"] = 2,
+							["hit"] = 3,
 							["school"] = 1,
-							["hitmax"] = 96,
-							["amount"] = 318,
-							["hitamount"] = 165,
+							["hitmax"] = 104,
+							["amount"] = 391,
+							["hitamount"] = 301,
 						},
 						["Heroic Strike"] = {
-							["hitmin"] = 132,
+							["hitmin"] = 129,
 							["id"] = 11564,
 							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 132,
+								["Defias Diver"] = {
+									["amount"] = 129,
 								},
 							},
 							["casts"] = 1,
 							["count"] = 1,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 132,
-							["amount"] = 132,
-							["hitamount"] = 132,
+							["hitmax"] = 129,
+							["amount"] = 129,
+							["hitamount"] = 129,
+						},
+						["Execute"] = {
+							["hitmin"] = 210,
+							["id"] = 20647,
+							["targets"] = {
+								["Defias Diver"] = {
+									["overkill"] = 194,
+									["amount"] = 210,
+								},
+							},
+							["overkill"] = 194,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 210,
+							["amount"] = 210,
+							["hitamount"] = 210,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 42,
+							["id"] = 6548,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 84,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 42,
+							["amount"] = 84,
+							["hitamount"] = 84,
+						},
+						["Mithril Shield Spike"] = {
+							["hitmin"] = 13,
+							["id"] = 9782,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 13,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 13,
+							["amount"] = 13,
+							["hitamount"] = 13,
+						},
+						["Mocking Blow"] = {
+							["hitmin"] = 106,
+							["id"] = 694,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 106,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 106,
+							["amount"] = 106,
+							["hitamount"] = 106,
 						},
 					},
-					["damagetaken"] = 183,
+					["damagetaken"] = 135,
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["hitmin"] = 28,
-							["criticalamount"] = 58,
+							["DODGE"] = 1,
+							["hitmin"] = 15,
 							["id"] = 6603,
-							["criticalmin"] = 58,
-							["criticalmax"] = 58,
-							["critical"] = 1,
+							["count"] = 9,
+							["PARRY"] = 1,
+							["hitmax"] = 37,
+							["amount"] = 135,
 							["sources"] = {
-								["Defias Rummager"] = {
-									["amount"] = 183,
+								["Defias Diver"] = {
+									["amount"] = 135,
 								},
 							},
-							["count"] = 5,
-							["hit"] = 4,
+							["BLOCK"] = 1,
+							["blocked"] = 17,
 							["school"] = 1,
-							["hitmax"] = 33,
-							["amount"] = 183,
-							["hitamount"] = 125,
+							["hit"] = 5,
+							["MISS"] = 1,
+							["hitamount"] = 135,
 						},
 					},
+					["ragespells"] = {
+						[23602] = 15,
+					},
 					["name"] = "Omoratorul",
-					["totaldamage"] = 652,
+					["ccdone"] = 1,
+					["overkill"] = 194,
+					["rage"] = 15,
+					["totaldamage"] = 1045,
 					["role"] = "TANK",
 				}, -- [1]
 				{
-					["damagespells"] = {
-						["Psychic Scream"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 8124,
-						},
-						["Holy Fire"] = {
-							["criticalamount"] = 489,
-							["id"] = 15263,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 489,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 489,
-							["school"] = 2,
-							["criticalmin"] = 489,
-							["criticalmax"] = 489,
-							["count"] = 1,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 9,
-							["id"] = 15263,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 64,
-								},
-							},
-							["count"] = 7,
-							["hit"] = 7,
-							["school"] = 2,
-							["hitmax"] = 10,
-							["amount"] = 64,
-							["hitamount"] = 64,
-						},
-						["Shoot"] = {
-							["hitmin"] = 17,
-							["id"] = 5019,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 52,
-								},
-							},
-							["hitmax"] = 35,
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["resisted"] = 7,
-							["amount"] = 52,
-							["hitamount"] = 52,
-						},
-						["Mind Blast"] = {
-							["hitmin"] = 278,
-							["id"] = 8105,
-							["targets"] = {
-								["Defias Rummager"] = {
-									["amount"] = 278,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 278,
-							["amount"] = 278,
-							["hitamount"] = 278,
-						},
-					},
-					["last"] = 14989.937,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
+					["last"] = 6531.431000000001,
+					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["auras"] = {
 						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[2791] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
@@ -6914,70 +4698,154 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[1245] = {
+						[602] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[15263] = {
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[15264] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 2,
 							["targets"] = {
-								["Defias Rummager"] = {
-									["uptime"] = 7,
+								["Defias Diver"] = {
+									["uptime"] = 4,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 7,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 4,
 						},
 					},
-					["totaldamage"] = 883,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
 					["time"] = 0,
-					["damage"] = 883,
-				}, -- [2]
-				{
+					["damage"] = 686,
 					["damagespells"] = {
-						["Frostbolt"] = {
-							["criticalamount"] = 558,
-							["id"] = 8407,
+						["Mind Blast"] = {
+							["hitmin"] = 288,
+							["id"] = 8105,
 							["targets"] = {
-								["Defias Rummager"] = {
-									["overkill"] = 556,
-									["amount"] = 558,
+								["Defias Diver"] = {
+									["amount"] = 288,
 								},
 							},
-							["overkill"] = 556,
-							["criticalmin"] = 558,
 							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 558,
-							["school"] = 16,
-							["resisted"] = 61,
-							["criticalmax"] = 558,
 							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 288,
+							["amount"] = 288,
+							["hitamount"] = 288,
+						},
+						["Holy Fire"] = {
+							["hitmin"] = 364,
+							["id"] = 15264,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 364,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 364,
+							["amount"] = 364,
+							["hitamount"] = 364,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 11,
+							["id"] = 15264,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 34,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 12,
+							["amount"] = 34,
+							["hitamount"] = 34,
 						},
 					},
-					["last"] = 15001.379,
-					["class"] = "MAGE",
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["healspells"] = {
+						[6077] = {
+							["overheal"] = 119,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["overheal"] = 119,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["heal"] = 0,
+					["name"] = "Popasfant",
+					["overheal"] = 119,
+					["totaldamage"] = 686,
+					["role"] = "HEALER",
+				}, -- [2]
+				{
+					["last"] = 6531.431000000001,
 					["id"] = "0x0700000000B06C60",
 					["spec"] = 64,
-					["overkill"] = 556,
 					["auras"] = {
-						[11549] = {
+						[2791] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 11,
+							["uptime"] = 13,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
 						},
 						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[6077] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+						[42275] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
@@ -6988,26 +4856,1822 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 					},
-					["totaldamage"] = 558,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 0,
+					["class"] = "MAGE",
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 135,
+			["rage"] = 15,
+			["overheal"] = 119,
+			["overkill"] = 194,
+			["edamagetaken"] = 1731,
+			["heal"] = 0,
+			["name"] = "Defias Diver (5)",
+			["ccdone"] = 1,
+			["damage"] = 1731,
+			["edamage"] = 135,
+			["last_action"] = 1729020597,
+			["endtime"] = 1729020598,
+		}, -- [12]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 166,
+								},
+							},
+							["amount"] = 166,
+						},
+					},
+					["damagetaken"] = 1720,
+					["id"] = "0xF130005C950321F2",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 39,
+								},
+							},
+							["amount"] = 39,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 84,
+									["amount"] = 102,
+								},
+							},
+							["overkill"] = 84,
+							["amount"] = 102,
+						},
+						[8407] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 308,
+								},
+							},
+							["amount"] = 308,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 81,
+									["amount"] = 450,
+								},
+							},
+							["overkill"] = 81,
+							["amount"] = 450,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 103,
+								},
+							},
+							["amount"] = 103,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 430,
+								},
+							},
+							["amount"] = 430,
+						},
+						[8105] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 288,
+								},
+							},
+							["amount"] = 288,
+						},
+					},
+					["totaldamage"] = 166,
+					["name"] = "Mirefin Ambusher",
+					["totaldamagetaken"] = 1720,
+					["flag"] = 68168,
+					["damage"] = 166,
+				}, -- [1]
+			},
+			["totaldamage"] = 1720,
+			["time"] = 11,
+			["starttime"] = 1729020572,
+			["totaldamagetaken"] = 166,
+			["etotaldamage"] = 166,
+			["last_time"] = 6528.181000000001,
+			["players"] = {
+				{
+					["last"] = 6528.146,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+					},
+					["time"] = 9.970000000000001,
+					["totaldamagetaken"] = 166,
+					["damage"] = 592,
+					["damagespells"] = {
+						["Rend (DoT)"] = {
+							["hitmin"] = 39,
+							["id"] = 6548,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 39,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 39,
+							["amount"] = 39,
+							["hitamount"] = 39,
+						},
+						["Rend"] = {
+							["casts"] = 2,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+							["id"] = 6548,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 83,
+							["criticalamount"] = 170,
+							["id"] = 6603,
+							["criticalmin"] = 170,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["overkill"] = 81,
+									["amount"] = 450,
+								},
+							},
+							["overkill"] = 81,
+							["critical"] = 1,
+							["criticalmax"] = 170,
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 99,
+							["amount"] = 450,
+							["hitamount"] = 280,
+						},
+						["Thunder Clap"] = {
+							["hitmin"] = 103,
+							["id"] = 8204,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 103,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 103,
+							["amount"] = 103,
+							["hitamount"] = 103,
+						},
+					},
+					["damagetaken"] = 166,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 28,
+							["id"] = 6603,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 166,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 36,
+							["amount"] = 166,
+							["hitamount"] = 166,
+						},
+					},
+					["name"] = "Omoratorul",
+					["overkill"] = 81,
+					["totaldamage"] = 592,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 6528.148,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+					},
+					["time"] = 3.5,
+					["damage"] = 820,
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["hitmin"] = 288,
+							["id"] = 8105,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 288,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 288,
+							["amount"] = 288,
+							["hitamount"] = 288,
+						},
+						["Holy Fire"] = {
+							["hitmin"] = 397,
+							["id"] = 15264,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 397,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 397,
+							["amount"] = 397,
+							["hitamount"] = 397,
+						},
+						["Holy Nova"] = {
+							["hitmin"] = 102,
+							["id"] = 15431,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["overkill"] = 84,
+									["amount"] = 102,
+								},
+							},
+							["overkill"] = 84,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 102,
+							["amount"] = 102,
+							["hitamount"] = 102,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 11,
+							["id"] = 15264,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 33,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 2,
+							["hitmax"] = 11,
+							["amount"] = 33,
+							["hitamount"] = 33,
+						},
+					},
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["healspells"] = {
+						[6077] = {
+							["overheal"] = 357,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 2,
+							["ishot"] = true,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["overheal"] = 357,
+									["amount"] = 0,
+								},
+							},
+						},
+						[23459] = {
+							["overheal"] = 190,
+							["max"] = 166,
+							["count"] = 2,
+							["amount"] = 166,
+							["school"] = 2,
+							["min"] = 166,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 12,
+									["amount"] = 166,
+								},
+								["Popasfant"] = {
+									["overheal"] = 178,
+									["amount"] = 0,
+								},
+							},
+						},
+					},
+					["overkill"] = 84,
+					["heal"] = 166,
+					["name"] = "Popasfant",
+					["overheal"] = 547,
+					["totaldamage"] = 820,
+					["role"] = "HEALER",
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 308,
+							["id"] = 8407,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 308,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 308,
+							["amount"] = 308,
+							["hitamount"] = 308,
+						},
+					},
+					["last"] = 6528.03,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["class"] = "MAGE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[6077] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[42275] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 11,
+						},
+					},
+					["totaldamage"] = 308,
 					["role"] = "DAMAGER",
 					["name"] = "Vrajadefoc",
 					["flag"] = 1298,
 					["time"] = 3.5,
-					["damage"] = 558,
+					["damage"] = 308,
 				}, -- [3]
 			},
 			["type"] = "group",
-			["damagetaken"] = 183,
-			["starttime"] = 1729002514,
-			["overkill"] = 556,
-			["edamagetaken"] = 2093,
-			["damage"] = 2093,
-			["name"] = "Defias Rummager (5)",
-			["mobname"] = "Defias Rummager",
-			["etotaldamagetaken"] = 2093,
-			["edamage"] = 183,
-			["last_action"] = 1729002527,
-			["endtime"] = 1729002527,
+			["damagetaken"] = 166,
+			["overheal"] = 547,
+			["damage"] = 1720,
+			["overkill"] = 165,
+			["edamagetaken"] = 1720,
+			["heal"] = 166,
+			["name"] = "Mirefin Ambusher",
+			["mobname"] = "Mirefin Ambusher",
+			["etotaldamagetaken"] = 1720,
+			["edamage"] = 166,
+			["last_action"] = 1729020582,
+			["endtime"] = 1729020583,
+		}, -- [13]
+		{
+			["mobname"] = "Defias Diver",
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 45,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["total"] = 148,
+									["amount"] = 103,
+								},
+								["Omoratorul"] = {
+									["amount"] = 139,
+								},
+								["Popasfant"] = {
+									["amount"] = 82,
+								},
+							},
+							["amount"] = 324,
+						},
+					},
+					["damagetaken"] = 2775,
+					["id"] = "0xF130005C95032033",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8492] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 152,
+								},
+							},
+							["amount"] = 152,
+						},
+						[694] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 114,
+								},
+							},
+							["amount"] = 114,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 125,
+								},
+							},
+							["amount"] = 125,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 277,
+								},
+							},
+							["amount"] = 277,
+						},
+						[8407] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 71,
+									["amount"] = 1249,
+								},
+							},
+							["overkill"] = 71,
+							["amount"] = 1249,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["overkill"] = 4,
+									["amount"] = 574,
+								},
+							},
+							["overkill"] = 4,
+							["amount"] = 574,
+						},
+						[8105] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 284,
+								},
+							},
+							["amount"] = 284,
+						},
+					},
+					["totaldamage"] = 369,
+					["name"] = "Mirefin Ambusher",
+					["totaldamagetaken"] = 2775,
+					["flag"] = 2632,
+					["damage"] = 324,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 212,
+								},
+							},
+							["amount"] = 212,
+						},
+					},
+					["damagetaken"] = 1575,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 187,
+								},
+							},
+							["amount"] = 187,
+						},
+						[18075] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 47,
+								},
+							},
+							["amount"] = 47,
+						},
+						[12809] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 133,
+								},
+							},
+							["amount"] = 133,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 22,
+									["amount"] = 901,
+								},
+							},
+							["overkill"] = 22,
+							["amount"] = 901,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 307,
+								},
+							},
+							["amount"] = 307,
+						},
+					},
+					["name"] = "Defias Diver",
+					["totaldamage"] = 212,
+					["totaldamagetaken"] = 1575,
+					["id"] = "0xF130005C2702EE02",
+					["damage"] = 212,
+				}, -- [2]
+			},
+			["overheal"] = 2,
+			["totaldamage"] = 4350,
+			["time"] = 35,
+			["type"] = "group",
+			["totaldamagetaken"] = 581,
+			["etotaldamage"] = 581,
+			["last_time"] = 6483.606,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Defias Diver"] = 1,
+							},
+						},
+						[12809] = {
+							["count"] = 1,
+							["targets"] = {
+								["Defias Diver"] = 1,
+							},
+						},
+					},
+					["last"] = 6480.322,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["targets"] = {
+								["Defias Diver"] = {
+									["count"] = 1,
+									["refresh"] = 2,
+									["uptime"] = 18,
+								},
+								["Mirefin Ambusher"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 22,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 1,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[694] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[355] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 8,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[12809] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 29,
+						},
+						[71] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 33,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 15,
+						},
+						[18075] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 18,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 18,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+					},
+					["time"] = 26.46,
+					["totaldamagetaken"] = 351,
+					["damage"] = 2091,
+					["damagespells"] = {
+						["Thunder Clap"] = {
+							["hitmin"] = 101,
+							["id"] = 8204,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 307,
+								},
+								["Mirefin Ambusher"] = {
+									["amount"] = 125,
+								},
+							},
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 125,
+							["amount"] = 432,
+							["hitamount"] = 432,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 37,
+							["id"] = 6548,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 187,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 38,
+							["amount"] = 187,
+							["hitamount"] = 187,
+						},
+						["Melee"] = {
+							["glance"] = 485,
+							["hitmin"] = 86,
+							["criticalmin"] = 156,
+							["targets"] = {
+								["Defias Diver"] = {
+									["overkill"] = 22,
+									["amount"] = 901,
+								},
+								["Mirefin Ambusher"] = {
+									["amount"] = 277,
+								},
+							},
+							["glancing"] = 6,
+							["amount"] = 1178,
+							["glancemin"] = 70,
+							["criticalamount"] = 326,
+							["id"] = 6603,
+							["glancemax"] = 89,
+							["overkill"] = 22,
+							["hitmax"] = 102,
+							["PARRY"] = 1,
+							["critical"] = 2,
+							["hit"] = 4,
+							["school"] = 1,
+							["count"] = 13,
+							["criticalmax"] = 170,
+							["hitamount"] = 367,
+						},
+						["Rend"] = {
+							["hitmin"] = 15,
+							["id"] = 18075,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 47,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 47,
+							["hitamount"] = 47,
+						},
+						["Concussion Blow"] = {
+							["hitmin"] = 133,
+							["id"] = 12809,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 133,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 133,
+							["amount"] = 133,
+							["hitamount"] = 133,
+						},
+						["Mocking Blow"] = {
+							["hitmin"] = 114,
+							["id"] = 694,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 114,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 114,
+							["amount"] = 114,
+							["hitamount"] = 114,
+						},
+					},
+					["damagetaken"] = 351,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 0,
+							["count"] = 2,
+							["amount"] = 207,
+							["school"] = 1,
+							["max"] = 115,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 207,
+								},
+							},
+							["min"] = 92,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 15,
+							["criticalamount"] = 138,
+							["id"] = 6603,
+							["criticalmin"] = 66,
+							["criticalmax"] = 72,
+							["critical"] = 2,
+							["amount"] = 351,
+							["sources"] = {
+								["Defias Diver"] = {
+									["amount"] = 212,
+								},
+								["Mirefin Ambusher"] = {
+									["amount"] = 139,
+								},
+							},
+							["count"] = 14,
+							["hit"] = 8,
+							["school"] = 1,
+							["hitmax"] = 35,
+							["MISS"] = 4,
+							["hitamount"] = 213,
+						},
+					},
+					["heal"] = 207,
+					["name"] = "Omoratorul",
+					["ccdone"] = 2,
+					["overheal"] = 0,
+					["overkill"] = 22,
+					["totaldamage"] = 2091,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 6483.606,
+					["flag"] = 1298,
+					["class"] = "PRIEST",
+					["auras"] = {
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 10,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[14751] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 13,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Omoratorul"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["absorbspells"] = {
+						[6066] = {
+							["min"] = 45,
+							["casts"] = 2,
+							["count"] = 1,
+							["amount"] = 45,
+							["max"] = 45,
+							["targets"] = {
+								["Vrajadefoc"] = 45,
+							},
+							["school"] = 2,
+						},
+					},
+					["time"] = 3.61,
+					["totaldamagetaken"] = 82,
+					["damage"] = 858,
+					["damagespells"] = {
+						["Mind Blast"] = {
+							["hitmin"] = 284,
+							["id"] = 8105,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 284,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 32,
+							["hitmax"] = 284,
+							["amount"] = 284,
+							["hitamount"] = 284,
+						},
+						["Holy Fire"] = {
+							["criticalamount"] = 552,
+							["id"] = 15264,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 552,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 552,
+							["school"] = 2,
+							["criticalmin"] = 552,
+							["criticalmax"] = 552,
+							["count"] = 1,
+						},
+						["Holy Fire (DoT)"] = {
+							["hitmin"] = 11,
+							["id"] = 15264,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["overkill"] = 4,
+									["amount"] = 22,
+								},
+							},
+							["overkill"] = 4,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 2,
+							["hitmax"] = 11,
+							["amount"] = 22,
+							["hitamount"] = 22,
+						},
+					},
+					["absorb"] = 45,
+					["damagetaken"] = 82,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["healspells"] = {
+						[56160] = {
+							["overheal"] = 2,
+							["count"] = 1,
+							["amount"] = 115,
+							["school"] = 2,
+							["max"] = 115,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 2,
+									["amount"] = 115,
+								},
+							},
+							["min"] = 115,
+						},
+					},
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["criticalamount"] = 82,
+							["id"] = 6603,
+							["criticalmax"] = 82,
+							["critical"] = 1,
+							["amount"] = 82,
+							["school"] = 1,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 82,
+								},
+							},
+							["criticalmin"] = 82,
+							["count"] = 1,
+						},
+					},
+					["heal"] = 115,
+					["name"] = "Popasfant",
+					["overheal"] = 2,
+					["overkill"] = 4,
+					["totaldamage"] = 858,
+					["role"] = "HEALER",
+				}, -- [2]
+				{
+					["last"] = 6482.189,
+					["flag"] = 1298,
+					["class"] = "MAGE",
+					["auras"] = {
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
+						[8492] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 16,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[12472] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 17,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[42275] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 35,
+						},
+					},
+					["time"] = 12.8,
+					["totaldamagetaken"] = 148,
+					["damage"] = 1401,
+					["damagespells"] = {
+						["Cone of Cold"] = {
+							["hitmin"] = 152,
+							["id"] = 8492,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["amount"] = 152,
+								},
+							},
+							["hitmax"] = 152,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["resisted"] = 37,
+							["amount"] = 152,
+							["hitamount"] = 152,
+						},
+						["Frostbolt"] = {
+							["hitmin"] = 307,
+							["id"] = 8407,
+							["targets"] = {
+								["Mirefin Ambusher"] = {
+									["overkill"] = 71,
+									["amount"] = 1249,
+								},
+							},
+							["overkill"] = 71,
+							["casts"] = 4,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 16,
+							["hitmax"] = 323,
+							["amount"] = 1249,
+							["hitamount"] = 1249,
+						},
+					},
+					["damagetaken"] = 103,
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["total"] = 148,
+							["hitmin"] = 49,
+							["id"] = 6603,
+							["hitmax"] = 54,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Mirefin Ambusher"] = {
+									["total"] = 148,
+									["amount"] = 103,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 103,
+							["school"] = 1,
+							["hit"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 103,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["overkill"] = 71,
+					["totaldamage"] = 1401,
+					["role"] = "DAMAGER",
+				}, -- [3]
+			},
+			["absorb"] = 45,
+			["damagetaken"] = 536,
+			["starttime"] = 1729020503,
+			["damage"] = 4350,
+			["etotaldamagetaken"] = 4350,
+			["overkill"] = 97,
+			["edamagetaken"] = 4350,
+			["heal"] = 322,
+			["name"] = "Defias Diver (4)",
+			["ccdone"] = 2,
+			["edamage"] = 536,
+			["last_action"] = 1729020537,
+			["endtime"] = 1729020538,
+		}, -- [14]
+		{
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 132,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["damagetaken"] = 1889,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 166,
+								},
+							},
+							["amount"] = 166,
+						},
+						[12809] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 260,
+								},
+							},
+							["amount"] = 260,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 491,
+								},
+							},
+							["amount"] = 491,
+						},
+						[8407] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["overkill"] = 284,
+									["amount"] = 871,
+								},
+							},
+							["overkill"] = 284,
+							["amount"] = 871,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 101,
+								},
+							},
+							["amount"] = 101,
+						},
+					},
+					["name"] = "Defias Diver",
+					["totaldamage"] = 132,
+					["totaldamagetaken"] = 1889,
+					["id"] = "0xF130005C2700CDDC",
+					["damage"] = 132,
+				}, -- [1]
+			},
+			["totaldamage"] = 1889,
+			["time"] = 14,
+			["totaldamagetaken"] = 132,
+			["etotaldamagetaken"] = 1889,
+			["last_time"] = 6322.366,
+			["players"] = {
+				{
+					["ccdonespells"] = {
+						[7922] = {
+							["count"] = 1,
+							["targets"] = {
+								["Defias Diver"] = 1,
+							},
+						},
+						[12809] = {
+							["count"] = 1,
+							["targets"] = {
+								["Defias Diver"] = 1,
+							},
+						},
+					},
+					["last"] = 6320.715,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[7922] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8120] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[71] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[18075] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[12809] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Defias Diver"] = {
+									["uptime"] = 5,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["time"] = 10.78,
+					["totaldamagetaken"] = 132,
+					["damage"] = 1018,
+					["damagespells"] = {
+						["Thunder Clap"] = {
+							["hitmin"] = 101,
+							["id"] = 8204,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 101,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 101,
+							["amount"] = 101,
+							["hitamount"] = 101,
+						},
+						["Victory Rush"] = {
+							["hitmin"] = 166,
+							["id"] = 34428,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 166,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 166,
+							["amount"] = 166,
+							["hitamount"] = 166,
+						},
+						["Melee"] = {
+							["glance"] = 68,
+							["hitmin"] = 76,
+							["id"] = 6603,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 491,
+								},
+							},
+							["glancemin"] = 68,
+							["glancing"] = 1,
+							["glancemax"] = 68,
+							["count"] = 6,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 90,
+							["amount"] = 491,
+							["hitamount"] = 423,
+						},
+						["Concussion Blow"] = {
+							["criticalamount"] = 260,
+							["id"] = 12809,
+							["targets"] = {
+								["Defias Diver"] = {
+									["amount"] = 260,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 260,
+							["school"] = 1,
+							["criticalmin"] = 260,
+							["criticalmax"] = 260,
+							["count"] = 1,
+						},
+					},
+					["damagetaken"] = 132,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 16,
+							["id"] = 6603,
+							["sources"] = {
+								["Defias Diver"] = {
+									["amount"] = 132,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 37,
+							["amount"] = 132,
+							["hitamount"] = 132,
+						},
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 2,
+					["totaldamage"] = 1018,
+					["role"] = "TANK",
+				}, -- [1]
+				{
+					["last"] = 6309.942,
+					["id"] = "0x0700000000B06C58",
+					["spec"] = 256,
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[19709] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[602] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[7178] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["role"] = "HEALER",
+					["name"] = "Popasfant",
+					["time"] = 0,
+					["class"] = "PRIEST",
+				}, -- [2]
+				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["hitmin"] = 275,
+							["id"] = 8407,
+							["targets"] = {
+								["Defias Diver"] = {
+									["overkill"] = 284,
+									["amount"] = 871,
+								},
+							},
+							["overkill"] = 284,
+							["hitmax"] = 316,
+							["casts"] = 2,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 16,
+							["resisted"] = 61,
+							["amount"] = 871,
+							["hitamount"] = 871,
+						},
+					},
+					["last"] = 6322.342000000001,
+					["class"] = "MAGE",
+					["id"] = "0x0700000000B06C60",
+					["spec"] = 64,
+					["overkill"] = 284,
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[2791] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[14752] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[12472] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8119] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[1706] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[42275] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+					},
+					["totaldamage"] = 871,
+					["role"] = "DAMAGER",
+					["name"] = "Vrajadefoc",
+					["flag"] = 1298,
+					["time"] = 9.720000000000001,
+					["damage"] = 871,
+				}, -- [3]
+			},
+			["type"] = "group",
+			["damagetaken"] = 132,
+			["mobname"] = "Defias Diver",
+			["etotaldamage"] = 132,
+			["overkill"] = 284,
+			["edamagetaken"] = 1889,
+			["starttime"] = 1729020364,
+			["name"] = "Defias Diver (3)",
+			["ccdone"] = 2,
+			["damage"] = 1889,
+			["edamage"] = 132,
+			["last_action"] = 1729020376,
+			["endtime"] = 1729020378,
 		}, -- [15]
 	},
 }
