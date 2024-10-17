@@ -4,6 +4,14 @@ SkadaDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
+	["global"] = {
+		["version"] = 1878,
+		["nicknames"] = {
+			["reset"] = 1729939228,
+			["cache"] = {
+			},
+		},
+	},
 	["profileKeys"] = {
 		["Rimgar - Icecrown"] = "Default",
 		["Praxia - Icecrown"] = "Default",
@@ -11,36 +19,28 @@ SkadaDB = {
 		["Flocius - Icecrown"] = "Default",
 		["Denathra - Icecrown"] = "Default",
 		["Eutanasie - Icecrown"] = "Default",
-		["Ylath - Icecrown"] = "Default",
+		["Vrael - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
-		["Kalaam - Icecrown"] = "Default",
-		["Mahkloompah - Icecrown"] = "Default",
+		["Glacion - Icecrown"] = "Default",
+		["Elgorath - Icecrown"] = "Default",
 		["Maciucus - Icecrown"] = "Default",
 		["Urgash - Icecrown"] = "Default",
-		["Pocaitoru - Icecrown"] = "Default",
-		["Elgorath - Icecrown"] = "Default",
-		["Elrath - Icecrown"] = "Default",
 		["Lingurita - Icecrown"] = "Default",
 		["Glacianos - Icecrown"] = "Default",
-		["Pocaitorul - Icecrown"] = "Default",
+		["Elrath - Icecrown"] = "Default",
+		["Kalaam - Icecrown"] = "Default",
+		["Mahkloompah - Icecrown"] = "Default",
+		["Morridin - Icecrown"] = "Default",
 		["Flocparlit - Icecrown"] = "Default",
 		["Sculatru - Icecrown"] = "Default",
 		["Flokus - Icecrown"] = "Default",
 		["Maciucaru - Icecrown"] = "Default",
-		["Morridin - Icecrown"] = "Default",
+		["Pocaitorul - Icecrown"] = "Default",
 		["Omoratorul - Icecrown"] = "Default",
 		["Inarya - Icecrown"] = "Default",
 		["Pubianus - Icecrown"] = "Default",
-		["Glacion - Icecrown"] = "Default",
-		["Vrael - Icecrown"] = "Default",
-	},
-	["global"] = {
-		["nicknames"] = {
-			["cache"] = {
-			},
-			["reset"] = 1729939228,
-		},
-		["version"] = 1878,
+		["Pocaitoru - Icecrown"] = "Default",
+		["Ylath - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -51,7 +51,7 @@ SkadaDB = {
 			},
 			["namedisplay"] = 2,
 			["modules"] = {
-				["sunderchannel"] = "SAY",
+				["deathlogthreshold"] = 1000,
 				["threat"] = {
 					["soundfile"] = "Fel Nova",
 					["ignorePets"] = true,
@@ -59,8 +59,8 @@ SkadaDB = {
 					["threshold"] = 90,
 					["notankwarnings"] = true,
 					["output"] = 1,
-					["sound"] = true,
 					["showAggroBar"] = true,
+					["sound"] = true,
 					["frequency"] = 2,
 				},
 				["failschannel"] = "AUTO",
@@ -68,25 +68,25 @@ SkadaDB = {
 				["deathchannel"] = "AUTO",
 				["interruptchannel"] = "SAY",
 				["parrychannel"] = "AUTO",
-				["deathlogthreshold"] = 1000,
+				["sunderchannel"] = "SAY",
 			},
 			["prepotion"] = true,
 			["windows"] = {
 				{
 					["barslocked"] = true,
-					["background"] = {
-						["color"] = {
-							["a"] = 0.9000000059604645,
-						},
-						["height"] = 290,
-					},
-					["hidden"] = false,
+					["hidden"] = true,
 					["y"] = 140.7405098856832,
 					["x"] = -644.7408003946764,
 					["strata"] = "HIGH",
 					["mode"] = "Damage",
 					["snapto"] = true,
 					["barwidth"] = 221.0367141682152,
+					["background"] = {
+						["height"] = 290,
+						["color"] = {
+							["a"] = 0.9000000059604645,
+						},
+					},
 				}, -- [1]
 			},
 			["report"] = {
