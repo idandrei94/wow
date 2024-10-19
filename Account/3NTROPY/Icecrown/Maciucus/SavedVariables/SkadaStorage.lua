@@ -4,23 +4,23 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF1300008C9034D65",
-					["name"] = "Ferocious Yeti",
-					["totaldamagetaken"] = 1642,
 					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["name"] = "Ferocious Yeti",
 					["damagetaken"] = 1642,
+					["id"] = "0xF1300008C9034D65",
+					["totaldamagetaken"] = 1642,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 535,
 									["amount"] = 1042,
+									["overkill"] = 535,
 								},
 							},
-							["overkill"] = 535,
 							["amount"] = 1042,
+							["overkill"] = 535,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -71,28 +71,30 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 66,
 									["amount"] = 824,
+									["overkill"] = 66,
 								},
 							},
-							["overkill"] = 66,
 							["amount"] = 824,
+							["overkill"] = 66,
 						},
 					},
-					["name"] = "Cave Yeti",
 					["totaldamage"] = 19,
+					["name"] = "Cave Yeti",
 					["totaldamagetaken"] = 1117,
 					["id"] = "0xF1300008C8037256",
 					["damage"] = 19,
 				}, -- [2]
 			},
-			["overheal"] = 44,
 			["totaldamage"] = 2759,
 			["time"] = 7,
-			["etotaldamage"] = 19,
 			["totaldamagetaken"] = 19,
-			["etotaldamagetaken"] = 2759,
+			["etotaldamage"] = 19,
 			["last_time"] = 4824.539,
+			["overheal"] = 44,
+			["type"] = "none",
+			["damagetaken"] = 19,
+			["etotaldamagetaken"] = 2759,
 			["players"] = {
 				{
 					["last"] = 4824.506,
@@ -116,16 +118,16 @@ SkadaStorageDB = {
 							["uptime"] = 3,
 						},
 						[50421] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 7,
 						},
 						[50448] = {
+							["uptime"] = 7,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 2,
-							["uptime"] = 7,
 						},
 						[48266] = {
 							["type"] = "BUFF",
@@ -138,6 +140,7 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
+					["totaldamage"] = 2759,
 					["time"] = 5.51,
 					["totaldamagetaken"] = 19,
 					["damage"] = 2759,
@@ -182,8 +185,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["overkill"] = 535,
 									["amount"] = 1042,
+									["overkill"] = 535,
 								},
 							},
 							["overkill"] = 535,
@@ -191,16 +194,16 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1042,
 							["school"] = 1,
-							["criticalmin"] = 1042,
 							["count"] = 1,
+							["criticalmin"] = 1042,
 						},
 						["Blood Strike"] = {
 							["criticalamount"] = 824,
 							["id"] = 45902,
 							["targets"] = {
 								["Cave Yeti"] = {
-									["overkill"] = 66,
 									["amount"] = 824,
+									["overkill"] = 66,
 								},
 							},
 							["overkill"] = 66,
@@ -208,30 +211,29 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 824,
 							["school"] = 1,
-							["criticalmin"] = 824,
-							["criticalmax"] = 824,
 							["count"] = 1,
+							["criticalmax"] = 824,
+							["criticalmin"] = 824,
 						},
 					},
-					["runic"] = 10,
 					["damagetaken"] = 19,
 					["id"] = "0x0700000000B05273",
 					["spec"] = 250,
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 44,
+							["min"] = 10,
+							["count"] = 5,
+							["amount"] = 40,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 44,
 									["amount"] = 40,
 								},
 							},
-							["count"] = 5,
-							["amount"] = 40,
-							["school"] = 1,
 							["max"] = 19,
-							["ishot"] = true,
-							["min"] = 10,
 						},
 					},
 					["damagetakenspells"] = {
@@ -239,7 +241,7 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 19,
 							["id"] = 6603,
-							["hitmax"] = 19,
+							["count"] = 3,
 							["sources"] = {
 								["Cave Yeti"] = {
 									["amount"] = 19,
@@ -248,7 +250,7 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 19,
 							["hit"] = 1,
 							["school"] = 1,
 							["amount"] = 19,
@@ -256,27 +258,25 @@ SkadaStorageDB = {
 							["hitamount"] = 19,
 						},
 					},
+					["heal"] = 40,
+					["name"] = "Maciucus",
+					["role"] = "TANK",
+					["overheal"] = 44,
+					["overkill"] = 601,
 					["runicspells"] = {
 						[50422] = 10,
 					},
-					["heal"] = 40,
-					["name"] = "Maciucus",
-					["overkill"] = 601,
-					["overheal"] = 44,
-					["totaldamage"] = 2759,
-					["role"] = "TANK",
+					["runic"] = 10,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 19,
 			["damage"] = 2759,
-			["runic"] = 10,
+			["starttime"] = 1729018873,
 			["overkill"] = 601,
 			["edamagetaken"] = 2759,
 			["heal"] = 40,
 			["name"] = "Ferocious Yeti (11)",
 			["mobname"] = "Ferocious Yeti",
-			["starttime"] = 1729018873,
+			["runic"] = 10,
 			["edamage"] = 19,
 			["last_action"] = 1729018878,
 			["endtime"] = 1729018880,
@@ -312,12 +312,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 86,
 									["amount"] = 116,
+									["overkill"] = 86,
 								},
 							},
-							["overkill"] = 86,
 							["amount"] = 116,
+							["overkill"] = 86,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -347,8 +347,8 @@ SkadaStorageDB = {
 							["amount"] = 286,
 						},
 					},
-					["name"] = "Ferocious Yeti",
 					["totaldamage"] = 32,
+					["name"] = "Ferocious Yeti",
 					["totaldamagetaken"] = 1249,
 					["id"] = "0xF1300008C903611E",
 					["damage"] = 32,
@@ -356,10 +356,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1249,
 			["time"] = 6,
-			["overheal"] = 40,
 			["totaldamagetaken"] = 32,
 			["etotaldamagetaken"] = 1249,
 			["last_time"] = 4766.665,
+			["overheal"] = 40,
+			["type"] = "none",
+			["damagetaken"] = 32,
 			["players"] = {
 				{
 					["last"] = 4766.656,
@@ -406,6 +408,7 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 					},
+					["totaldamage"] = 1249,
 					["time"] = 4.98,
 					["totaldamagetaken"] = 32,
 					["damage"] = 1249,
@@ -477,8 +480,8 @@ SkadaStorageDB = {
 							["id"] = 55078,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["overkill"] = 86,
 									["amount"] = 116,
+									["overkill"] = 86,
 								},
 							},
 							["overkill"] = 86,
@@ -512,13 +515,13 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 32,
 							["id"] = 6603,
-							["hitmax"] = 32,
+							["count"] = 2,
 							["sources"] = {
 								["Ferocious Yeti"] = {
 									["amount"] = 32,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 32,
 							["hit"] = 1,
 							["school"] = 1,
 							["amount"] = 32,
@@ -528,14 +531,11 @@ SkadaStorageDB = {
 					},
 					["heal"] = 0,
 					["name"] = "Maciucus",
-					["overkill"] = 86,
-					["overheal"] = 40,
-					["totaldamage"] = 1249,
 					["role"] = "TANK",
+					["overheal"] = 40,
+					["overkill"] = 86,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 32,
 			["etotaldamage"] = 32,
 			["damage"] = 1249,
 			["overkill"] = 86,
@@ -579,12 +579,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 87,
 									["amount"] = 115,
+									["overkill"] = 87,
 								},
 							},
-							["overkill"] = 87,
 							["amount"] = 115,
+							["overkill"] = 87,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -614,8 +614,8 @@ SkadaStorageDB = {
 							["amount"] = 286,
 						},
 					},
-					["name"] = "Ferocious Yeti",
 					["totaldamage"] = 27,
+					["name"] = "Ferocious Yeti",
 					["totaldamagetaken"] = 1250,
 					["id"] = "0xF1300008C90372B7",
 					["damage"] = 27,
@@ -623,10 +623,12 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 1250,
 			["time"] = 5,
-			["overheal"] = 39,
 			["totaldamagetaken"] = 27,
 			["etotaldamagetaken"] = 1250,
 			["last_time"] = 4712.107,
+			["overheal"] = 39,
+			["type"] = "none",
+			["damagetaken"] = 27,
 			["players"] = {
 				{
 					["last"] = 4712.082,
@@ -673,6 +675,7 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 1250,
 					["time"] = 4.810000000000001,
 					["totaldamagetaken"] = 27,
 					["damage"] = 1250,
@@ -716,13 +719,13 @@ SkadaStorageDB = {
 									["amount"] = 273,
 								},
 							},
-							["blocked"] = 16,
+							["hit"] = 1,
 							["casts"] = 1,
 							["count"] = 1,
-							["hit"] = 1,
+							["blocked"] = 16,
 							["school"] = 1,
-							["hitmax"] = 273,
 							["amount"] = 273,
+							["hitmax"] = 273,
 							["hitamount"] = 273,
 						},
 						["Frost Fever (DoT)"] = {
@@ -745,8 +748,8 @@ SkadaStorageDB = {
 							["id"] = 55078,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["overkill"] = 87,
 									["amount"] = 115,
+									["overkill"] = 87,
 								},
 							},
 							["overkill"] = 87,
@@ -780,13 +783,13 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 27,
 							["id"] = 6603,
-							["hitmax"] = 27,
+							["count"] = 2,
 							["sources"] = {
 								["Ferocious Yeti"] = {
 									["amount"] = 27,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 27,
 							["hit"] = 1,
 							["school"] = 1,
 							["amount"] = 27,
@@ -796,14 +799,11 @@ SkadaStorageDB = {
 					},
 					["heal"] = 0,
 					["name"] = "Maciucus",
-					["overkill"] = 87,
-					["overheal"] = 39,
-					["totaldamage"] = 1250,
 					["role"] = "TANK",
+					["overheal"] = 39,
+					["overkill"] = 87,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["damagetaken"] = 27,
 			["etotaldamage"] = 27,
 			["damage"] = 1250,
 			["overkill"] = 87,
@@ -856,12 +856,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["amount"] = 440,
 									["overkill"] = 290,
+									["amount"] = 440,
 								},
 							},
-							["amount"] = 440,
 							["overkill"] = 290,
+							["amount"] = 440,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -880,12 +880,12 @@ SkadaStorageDB = {
 					["damage"] = 42,
 				}, -- [1]
 				{
-					["flag"] = 68168,
-					["name"] = "Ferocious Yeti",
 					["damagetaken"] = 1993,
-					["id"] = "0xF1300008C9035540",
-					["totaldamagetaken"] = 1993,
+					["name"] = "Ferocious Yeti",
 					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 1993,
+					["id"] = "0xF1300008C9035540",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -900,12 +900,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["amount"] = 1086,
 									["overkill"] = 830,
+									["amount"] = 1086,
 								},
 							},
-							["amount"] = 1086,
 							["overkill"] = 830,
+							["amount"] = 1086,
 						},
 						[47632] = {
 							["school"] = 32,
@@ -949,10 +949,10 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[50448] = {
-							["uptime"] = 8,
-							["type"] = "BUFF",
-							["count"] = 1,
 							["refresh"] = 1,
+							["type"] = "BUFF",
+							["uptime"] = 8,
+							["count"] = 1,
 						},
 						[48266] = {
 							["type"] = "BUFF",
@@ -988,73 +988,6 @@ SkadaStorageDB = {
 							["amount"] = 969,
 							["hitamount"] = 969,
 						},
-						["Icy Touch"] = {
-							["hitmin"] = 282,
-							["id"] = 45477,
-							["targets"] = {
-								["Cave Yeti"] = {
-									["amount"] = 282,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 282,
-							["amount"] = 282,
-							["hitamount"] = 282,
-						},
-						["Blood Strike"] = {
-							["hitmin"] = 440,
-							["id"] = 45902,
-							["targets"] = {
-								["Cave Yeti"] = {
-									["amount"] = 440,
-									["overkill"] = 290,
-								},
-							},
-							["overkill"] = 290,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 440,
-							["amount"] = 440,
-							["hitamount"] = 440,
-						},
-						["Frost Fever (DoT)"] = {
-							["hitmin"] = 109,
-							["id"] = 55095,
-							["targets"] = {
-								["Cave Yeti"] = {
-									["amount"] = 218,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 109,
-							["amount"] = 218,
-							["hitamount"] = 218,
-						},
-						["Death Strike"] = {
-							["criticalamount"] = 1086,
-							["id"] = 49998,
-							["targets"] = {
-								["Ferocious Yeti"] = {
-									["amount"] = 1086,
-									["overkill"] = 830,
-								},
-							},
-							["overkill"] = 830,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1086,
-							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 1086,
-							["criticalmin"] = 1086,
-						},
 						["Death Coil"] = {
 							["hitmin"] = 395,
 							["id"] = 47632,
@@ -1071,6 +1004,73 @@ SkadaStorageDB = {
 							["amount"] = 395,
 							["hitamount"] = 395,
 						},
+						["Icy Touch"] = {
+							["hitmin"] = 282,
+							["id"] = 45477,
+							["targets"] = {
+								["Cave Yeti"] = {
+									["amount"] = 282,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 282,
+							["amount"] = 282,
+							["hitamount"] = 282,
+						},
+						["Death Strike"] = {
+							["criticalamount"] = 1086,
+							["id"] = 49998,
+							["targets"] = {
+								["Ferocious Yeti"] = {
+									["overkill"] = 830,
+									["amount"] = 1086,
+								},
+							},
+							["overkill"] = 830,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 1086,
+							["school"] = 1,
+							["criticalmin"] = 1086,
+							["criticalmax"] = 1086,
+							["count"] = 1,
+						},
+						["Frost Fever (DoT)"] = {
+							["hitmin"] = 109,
+							["id"] = 55095,
+							["targets"] = {
+								["Cave Yeti"] = {
+									["amount"] = 218,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 16,
+							["hitmax"] = 109,
+							["amount"] = 218,
+							["hitamount"] = 218,
+						},
+						["Blood Strike"] = {
+							["hitmin"] = 440,
+							["id"] = 45902,
+							["targets"] = {
+								["Cave Yeti"] = {
+									["overkill"] = 290,
+									["amount"] = 440,
+								},
+							},
+							["overkill"] = 290,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 440,
+							["amount"] = 440,
+							["hitamount"] = 440,
+						},
 					},
 					["damagetaken"] = 42,
 					["id"] = "0x0700000000B05273",
@@ -1078,18 +1078,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 44,
+							["school"] = 1,
+							["count"] = 6,
+							["amount"] = 36,
+							["max"] = 18,
+							["ishot"] = true,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 44,
 									["amount"] = 36,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 36,
-							["max"] = 18,
 							["min"] = 2,
-							["ishot"] = true,
-							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1097,6 +1097,7 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 20,
 							["id"] = 6603,
+							["PARRY"] = 1,
 							["sources"] = {
 								["Cave Yeti"] = {
 									["amount"] = 42,
@@ -1105,20 +1106,19 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["PARRY"] = 1,
 							["count"] = 4,
 							["hit"] = 2,
 							["school"] = 1,
-							["amount"] = 42,
 							["hitmax"] = 22,
+							["amount"] = 42,
 							["hitamount"] = 42,
 						},
 					},
 					["heal"] = 36,
 					["name"] = "Maciucus",
-					["role"] = "TANK",
-					["overheal"] = 44,
 					["overkill"] = 1120,
+					["overheal"] = 44,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1167,12 +1167,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Maciucus"] = {
-									["amount"] = 116,
 									["overkill"] = 93,
+									["amount"] = 116,
 								},
 							},
-							["amount"] = 116,
 							["overkill"] = 93,
+							["amount"] = 116,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -1335,8 +1335,8 @@ SkadaStorageDB = {
 							["id"] = 55078,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["amount"] = 116,
 									["overkill"] = 93,
+									["amount"] = 116,
 								},
 							},
 							["overkill"] = 93,
@@ -1354,18 +1354,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
-							["min"] = 11,
+							["max"] = 17,
 							["count"] = 3,
 							["amount"] = 39,
 							["school"] = 1,
-							["ishot"] = true,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 0,
 									["amount"] = 39,
 								},
 							},
-							["max"] = 17,
+							["ishot"] = true,
+							["min"] = 11,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1387,9 +1387,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 39,
 					["name"] = "Maciucus",
-					["role"] = "TANK",
-					["overheal"] = 0,
 					["overkill"] = 93,
+					["overheal"] = 0,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["etotaldamage"] = 50,
@@ -1407,23 +1407,23 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["flag"] = 68168,
-					["name"] = "Ferocious Yeti",
 					["damagetaken"] = 2303,
-					["id"] = "0xF1300008C9034F03",
-					["totaldamagetaken"] = 2303,
+					["name"] = "Ferocious Yeti",
 					["class"] = "MONSTER",
+					["flag"] = 68168,
+					["totaldamagetaken"] = 2303,
+					["id"] = "0xF1300008C9034F03",
 					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
 								["Maciucus"] = {
-									["amount"] = 110,
 									["overkill"] = 10,
+									["amount"] = 110,
 								},
 							},
-							["amount"] = 110,
 							["overkill"] = 10,
+							["amount"] = 110,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -1438,12 +1438,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["amount"] = 947,
 									["overkill"] = 23,
+									["amount"] = 947,
 								},
 							},
-							["amount"] = 947,
 							["overkill"] = 23,
+							["amount"] = 947,
 						},
 						[45902] = {
 							["school"] = 1,
@@ -1528,8 +1528,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["amount"] = 947,
 									["overkill"] = 23,
+									["amount"] = 947,
 								},
 							},
 							["overkill"] = 23,
@@ -1577,8 +1577,8 @@ SkadaStorageDB = {
 							["id"] = 55095,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["amount"] = 110,
 									["overkill"] = 10,
+									["amount"] = 110,
 								},
 							},
 							["overkill"] = 10,
@@ -1601,9 +1601,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 676,
 							["school"] = 1,
-							["count"] = 1,
-							["criticalmax"] = 676,
 							["criticalmin"] = 676,
+							["criticalmax"] = 676,
+							["count"] = 1,
 						},
 					},
 					["damagetaken"] = 0,
@@ -1640,13 +1640,13 @@ SkadaStorageDB = {
 					},
 					["heal"] = 0,
 					["name"] = "Maciucus",
-					["role"] = "TANK",
-					["overheal"] = 85,
-					["runic"] = 10,
-					["overkill"] = 33,
 					["runicspells"] = {
 						[50422] = 10,
 					},
+					["overkill"] = 33,
+					["runic"] = 10,
+					["overheal"] = 85,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1658,8 +1658,8 @@ SkadaStorageDB = {
 			["heal"] = 0,
 			["name"] = "Ferocious Yeti (7)",
 			["mobname"] = "Ferocious Yeti",
-			["damage"] = 2303,
 			["starttime"] = 1729017172,
+			["damage"] = 2303,
 			["last_action"] = 1729017178,
 			["endtime"] = 1729017178,
 		}, -- [6]
@@ -1699,6 +1699,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 291,
 						},
+						[55095] = {
+							["school"] = 16,
+							["sources"] = {
+								["Maciucus"] = {
+									["overkill"] = 71,
+									["amount"] = 110,
+								},
+							},
+							["overkill"] = 71,
+							["amount"] = 110,
+						},
 						[45462] = {
 							["school"] = 1,
 							["sources"] = {
@@ -1707,17 +1718,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 270,
-						},
-						[55095] = {
-							["school"] = 16,
-							["sources"] = {
-								["Maciucus"] = {
-									["amount"] = 110,
-									["overkill"] = 71,
-								},
-							},
-							["amount"] = 110,
-							["overkill"] = 71,
 						},
 					},
 					["totaldamage"] = 37,
@@ -1836,8 +1836,8 @@ SkadaStorageDB = {
 							["id"] = 55095,
 							["targets"] = {
 								["Cave Yeti"] = {
-									["amount"] = 110,
 									["overkill"] = 71,
+									["amount"] = 110,
 								},
 							},
 							["overkill"] = 71,
@@ -1855,18 +1855,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 9,
-							["min"] = 2,
+							["max"] = 18,
 							["count"] = 3,
 							["amount"] = 30,
 							["school"] = 1,
-							["ishot"] = true,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 9,
 									["amount"] = 30,
 								},
 							},
-							["max"] = 18,
+							["ishot"] = true,
+							["min"] = 2,
 						},
 					},
 					["damagetakenspells"] = {
@@ -1889,13 +1889,13 @@ SkadaStorageDB = {
 					},
 					["heal"] = 30,
 					["name"] = "Maciucus",
-					["role"] = "TANK",
-					["overheal"] = 9,
-					["runic"] = 10,
-					["overkill"] = 71,
 					["runicspells"] = {
 						[50422] = 10,
 					},
+					["overkill"] = 71,
+					["runic"] = 10,
+					["overheal"] = 9,
+					["role"] = "TANK",
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -1903,13 +1903,13 @@ SkadaStorageDB = {
 			["last_time"] = 2440.296,
 			["runic"] = 10,
 			["overheal"] = 9,
-			["starttime"] = 1729016489,
+			["etotaldamagetaken"] = 1122,
 			["overkill"] = 71,
 			["edamagetaken"] = 1122,
 			["heal"] = 30,
 			["name"] = "Cave Yeti (3)",
 			["mobname"] = "Cave Yeti",
-			["etotaldamagetaken"] = 1122,
+			["starttime"] = 1729016489,
 			["edamage"] = 37,
 			["last_action"] = 1729016494,
 			["endtime"] = 1729016494,
@@ -1919,16 +1919,16 @@ SkadaStorageDB = {
 			["enemies"] = {
 				{
 					["damagespells"] = {
-						[30356] = {
+						[59653] = {
 							["school"] = 1,
-							["total"] = 2308,
+							["total"] = 549,
 							["targets"] = {
 								["Maciucus"] = {
-									["total"] = 2308,
-									["amount"] = 1962,
+									["amount"] = 532,
+									["total"] = 549,
 								},
 							},
-							["amount"] = 1962,
+							["amount"] = 532,
 						},
 						[25264] = {
 							["total"] = 369,
@@ -1937,8 +1937,8 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Maciucus"] = {
 									["total"] = 369,
-									["overkill"] = 262,
 									["amount"] = 314,
+									["overkill"] = 262,
 								},
 							},
 							["overkill"] = 262,
@@ -1961,16 +1961,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1586,
 						},
-						[46845] = {
+						[30356] = {
 							["school"] = 1,
-							["total"] = 984,
+							["total"] = 2308,
 							["targets"] = {
 								["Maciucus"] = {
-									["total"] = 984,
-									["amount"] = 949,
+									["amount"] = 1962,
+									["total"] = 2308,
 								},
 							},
-							["amount"] = 949,
+							["amount"] = 1962,
 						},
 						[30357] = {
 							["school"] = 1,
@@ -1981,16 +1981,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 1807,
 						},
-						[59653] = {
+						[46845] = {
 							["school"] = 1,
-							["total"] = 549,
+							["total"] = 984,
 							["targets"] = {
 								["Maciucus"] = {
-									["total"] = 549,
-									["amount"] = 532,
+									["amount"] = 949,
+									["total"] = 984,
 								},
 							},
-							["amount"] = 532,
+							["amount"] = 949,
 						},
 					},
 					["damagetaken"] = 905,
@@ -2035,11 +2035,11 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 905,
 			["time"] = 16,
-			["damage"] = 905,
+			["last_time"] = 7637.043000000001,
 			["cctaken"] = 1,
 			["totaldamagetaken"] = 8061,
 			["etotaldamage"] = 8061,
-			["last_time"] = 7637.043000000001,
+			["damage"] = 905,
 			["players"] = {
 				{
 					["last"] = 7637.026,
@@ -2094,18 +2094,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 16,
 						},
-						[52424] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
 						[50448] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["school"] = 1,
 							["refresh"] = 2,
 							["uptime"] = 14,
+						},
+						[52424] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
 						},
 					},
 					["absorbspells"] = {
@@ -2134,39 +2134,47 @@ SkadaStorageDB = {
 									["amount"] = 256,
 								},
 							},
-							["hitmax"] = 69,
 							["count"] = 4,
+							["hitmax"] = 69,
 							["hit"] = 4,
 							["school"] = 32,
 							["resisted"] = 135,
 							["amount"] = 256,
 							["hitamount"] = 256,
 						},
+						["Melee"] = {
+							["criticalamount"] = 290,
+							["hitmin"] = 167,
+							["criticalmin"] = 290,
+							["id"] = 6603,
+							["hit"] = 1,
+							["targets"] = {
+								["Arraun"] = {
+									["amount"] = 457,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 457,
+							["criticalmax"] = 290,
+							["critical"] = 1,
+							["blocked"] = 265,
+							["school"] = 1,
+							["BLOCK"] = 2,
+							["hitmax"] = 167,
+							["hitamount"] = 167,
+						},
 						["Death Coil"] = {
 							["casts"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
+							["id"] = 47541,
 							["targets"] = {
 								["Arraun"] = {
 									["amount"] = 0,
 								},
 							},
 							["MISS"] = 1,
-							["id"] = 47541,
-						},
-						["Icy Touch"] = {
-							["casts"] = 3,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 16,
-							["targets"] = {
-								["Arraun"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 3,
-							["id"] = 45477,
 						},
 						["Plague Strike"] = {
 							["DODGE"] = 1,
@@ -2181,14 +2189,14 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 192,
 							["school"] = 1,
-							["criticalmin"] = 192,
-							["criticalmax"] = 192,
 							["count"] = 2,
+							["criticalmax"] = 192,
+							["criticalmin"] = 192,
 						},
 						["Death Strike"] = {
-							["BLOCK"] = 1,
+							["id"] = 49998,
 							["casts"] = 1,
-							["count"] = 1,
+							["BLOCK"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
 							["blocked"] = 308,
@@ -2197,28 +2205,20 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 49998,
+							["count"] = 1,
 						},
-						["Melee"] = {
-							["criticalmin"] = 290,
-							["hitmin"] = 167,
-							["criticalamount"] = 290,
-							["id"] = 6603,
-							["critical"] = 1,
+						["Icy Touch"] = {
+							["casts"] = 3,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 16,
+							["id"] = 45477,
 							["targets"] = {
 								["Arraun"] = {
-									["amount"] = 457,
+									["amount"] = 0,
 								},
 							},
-							["hitmax"] = 167,
-							["blocked"] = 265,
-							["criticalmax"] = 290,
-							["BLOCK"] = 2,
-							["amount"] = 457,
-							["school"] = 1,
-							["count"] = 4,
-							["hit"] = 1,
-							["hitamount"] = 167,
+							["MISS"] = 3,
 						},
 					},
 					["absorb"] = 453,
@@ -2227,129 +2227,129 @@ SkadaStorageDB = {
 						{
 							["log"] = {
 								{
-									["absorbed"] = 55,
-									["hp"] = 1,
+									["overkill"] = 262,
+									["spellid"] = 25264,
 									["time"] = 7637.027,
 									["amount"] = -314,
 									["school"] = 1,
 									["source"] = "Arraun",
-									["spellid"] = 25264,
-									["overkill"] = 262,
+									["hp"] = 1,
+									["absorbed"] = 55,
 								}, -- [1]
 								{
-									["time"] = 7635.376,
 									["source"] = "Arraun",
+									["time"] = 7635.376,
 									["amount"] = -102,
 									["school"] = 1,
-									["hp"] = 52,
 									["spellid"] = 59653,
+									["hp"] = 52,
 									["absorbed"] = 17,
 								}, -- [2]
 								{
-									["time"] = 7634.686,
 									["source"] = "Arraun",
+									["time"] = 7634.686,
 									["amount"] = -202,
 									["school"] = 1,
-									["hp"] = 154,
 									["spellid"] = 46845,
+									["hp"] = 154,
 									["absorbed"] = 35,
 								}, -- [3]
 								{
-									["time"] = 7634.161,
 									["source"] = "Arraun",
+									["time"] = 7634.161,
 									["amount"] = -1962,
 									["school"] = 1,
-									["hp"] = 356,
 									["spellid"] = 30356,
+									["hp"] = 356,
 									["absorbed"] = 346,
 								}, -- [4]
 								{
-									["blocked"] = 190,
-									["source"] = "Arraun",
-									["amount"] = -1807,
-									["school"] = 1,
-									["hp"] = 2318,
-									["spellid"] = 30357,
 									["time"] = 7632.545,
+									["source"] = "Arraun",
+									["blocked"] = 190,
+									["school"] = 1,
+									["spellid"] = 30357,
+									["hp"] = 2318,
+									["amount"] = -1807,
 								}, -- [5]
 								{
 									["source"] = "Maciucus",
 									["amount"] = 1479,
+									["time"] = 7632.255,
 									["hp"] = 4125,
 									["spellid"] = 48982,
-									["time"] = 7632.255,
 								}, -- [6]
 								{
 									["source"] = "Arraun",
 									["amount"] = -249,
 									["school"] = 1,
+									["time"] = 7631.69,
 									["hp"] = 2646,
 									["spellid"] = 46845,
-									["time"] = 7631.69,
 								}, -- [7]
 								{
 									["source"] = "Arraun",
 									["amount"] = -125,
 									["school"] = 1,
+									["time"] = 7631.066,
 									["hp"] = 3315,
 									["spellid"] = 59653,
-									["time"] = 7631.066,
 								}, -- [8]
 								{
 									["source"] = "Arraun",
 									["amount"] = -420,
 									["school"] = 1,
+									["time"] = 7630.942,
 									["hp"] = 3440,
 									["spellid"] = 6603,
-									["time"] = 7630.942,
 								}, -- [9]
 								{
 									["source"] = "Arraun",
 									["amount"] = -458,
 									["school"] = 1,
+									["time"] = 7630.918000000001,
 									["hp"] = 3440,
 									["spellid"] = 12809,
-									["time"] = 7630.918000000001,
 								}, -- [10]
 								{
 									["source"] = "Arraun",
 									["amount"] = -113,
 									["school"] = 1,
+									["time"] = 7629.935,
 									["hp"] = 3183,
 									["spellid"] = 59653,
-									["time"] = 7629.935,
 								}, -- [11]
 								{
 									["source"] = "Arraun",
 									["amount"] = -249,
 									["school"] = 1,
+									["time"] = 7628.702,
 									["hp"] = 2939,
 									["spellid"] = 46845,
-									["time"] = 7628.702,
 								}, -- [12]
 								{
 									["source"] = "Arraun",
 									["amount"] = -392,
 									["school"] = 1,
+									["time"] = 7628.37,
 									["hp"] = 3580,
 									["spellid"] = 6603,
-									["time"] = 7628.37,
 								}, -- [13]
 								{
 									["source"] = "Arraun",
 									["amount"] = -64,
 									["school"] = 1,
+									["time"] = 7626.821,
 									["hp"] = 3580,
 									["spellid"] = 59653,
-									["time"] = 7626.821,
 								}, -- [14]
 							},
 							["time"] = 7637.043000000001,
-							["timeod"] = 1728995161,
+							["source"] = "Arraun",
 							["school"] = 1,
 							["maxhp"] = 4771,
 							["spellid"] = 25264,
-							["source"] = "Arraun",
+							["timeod"] = 1728995161,
 						}, -- [1]
 					},
 					["id"] = "0x0700000000B05273",
@@ -2360,43 +2360,43 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 1479,
 							["school"] = 32,
-							["max"] = 1479,
+							["min"] = 1479,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 0,
 									["amount"] = 1479,
 								},
 							},
-							["min"] = 1479,
+							["max"] = 1479,
 						},
 						[50475] = {
 							["overheal"] = 0,
-							["school"] = 1,
+							["min"] = 6,
 							["count"] = 3,
 							["amount"] = 24,
-							["max"] = 11,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 0,
 									["amount"] = 24,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 6,
+							["max"] = 11,
 						},
 						[45470] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 357,
 							["school"] = 1,
-							["max"] = 357,
+							["min"] = 357,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 0,
 									["amount"] = 357,
 								},
 							},
-							["min"] = 357,
+							["max"] = 357,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2408,14 +2408,14 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1962,
 							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 1962,
 							["sources"] = {
 								["Arraun"] = {
-									["total"] = 2308,
 									["amount"] = 1962,
+									["total"] = 2308,
 								},
 							},
-							["criticalmin"] = 1962,
-							["count"] = 1,
 						},
 						["Thunder Clap"] = {
 							["total"] = 369,
@@ -2425,8 +2425,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Arraun"] = {
 									["total"] = 369,
-									["overkill"] = 262,
 									["amount"] = 314,
+									["overkill"] = 262,
 								},
 							},
 							["count"] = 1,
@@ -2442,8 +2442,8 @@ SkadaStorageDB = {
 							["id"] = 46845,
 							["sources"] = {
 								["Arraun"] = {
-									["total"] = 984,
 									["amount"] = 949,
+									["total"] = 984,
 								},
 							},
 							["count"] = 4,
@@ -2456,17 +2456,17 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 384,
 							["id"] = 6603,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Arraun"] = {
 									["amount"] = 1586,
 								},
 							},
+							["PARRY"] = 1,
 							["count"] = 5,
 							["hit"] = 4,
 							["school"] = 1,
-							["hitmax"] = 420,
 							["amount"] = 1586,
+							["hitmax"] = 420,
 							["hitamount"] = 1586,
 						},
 						["Damage Shield"] = {
@@ -2475,8 +2475,8 @@ SkadaStorageDB = {
 							["id"] = 59653,
 							["sources"] = {
 								["Arraun"] = {
-									["total"] = 549,
 									["amount"] = 532,
+									["total"] = 549,
 								},
 							},
 							["count"] = 6,
@@ -2485,22 +2485,6 @@ SkadaStorageDB = {
 							["hitmax"] = 125,
 							["amount"] = 532,
 							["hitamount"] = 532,
-						},
-						["Revenge"] = {
-							["hitmin"] = 1807,
-							["id"] = 30357,
-							["blocked"] = 190,
-							["sources"] = {
-								["Arraun"] = {
-									["amount"] = 1807,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1807,
-							["amount"] = 1807,
-							["hitamount"] = 1807,
 						},
 						["Concussion Blow"] = {
 							["hitmin"] = 458,
@@ -2517,22 +2501,36 @@ SkadaStorageDB = {
 							["amount"] = 458,
 							["hitamount"] = 458,
 						},
+						["Revenge"] = {
+							["hitmin"] = 1807,
+							["id"] = 30357,
+							["hit"] = 1,
+							["sources"] = {
+								["Arraun"] = {
+									["amount"] = 1807,
+								},
+							},
+							["count"] = 1,
+							["blocked"] = 190,
+							["school"] = 1,
+							["amount"] = 1807,
+							["hitmax"] = 1807,
+							["hitamount"] = 1807,
+						},
 						["Heroic Strike"] = {
 							["PARRY"] = 1,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 47449,
 							["sources"] = {
 								["Arraun"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 47449,
 						},
 					},
-					["runicspells"] = {
-						[50422] = 10,
-					},
+					["role"] = "TANK",
 					["heal"] = 1860,
 					["name"] = "Maciucus",
 					["death"] = 1,
@@ -2546,21 +2544,23 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "TANK",
+					["runicspells"] = {
+						[50422] = 10,
+					},
 				}, -- [1]
 			},
 			["absorb"] = 453,
 			["damagetaken"] = 7608,
 			["type"] = "none",
 			["runic"] = 10,
-			["overheal"] = 0,
-			["death"] = 1,
+			["starttime"] = 1728995145,
+			["mobname"] = "Arraun",
 			["etotaldamagetaken"] = 905,
 			["edamagetaken"] = 905,
 			["heal"] = 1860,
 			["name"] = "Arraun (2)",
-			["mobname"] = "Arraun",
-			["starttime"] = 1728995145,
+			["death"] = 1,
+			["overheal"] = 0,
 			["edamage"] = 7608,
 			["last_action"] = 1728995161,
 			["endtime"] = 1728995161,
@@ -2579,35 +2579,33 @@ SkadaStorageDB = {
 							},
 							["amount"] = 904,
 						},
-						[30356] = {
+						[59653] = {
 							["school"] = 1,
-							["total"] = 1748,
 							["targets"] = {
 								["Maciucus"] = {
-									["total"] = 1748,
-									["amount"] = 1486,
+									["amount"] = 70,
 								},
 							},
-							["amount"] = 1486,
+							["amount"] = 70,
 						},
-						[47519] = {
+						[30357] = {
 							["school"] = 1,
-							["total"] = 574,
+							["total"] = 1967,
 							["targets"] = {
 								["Maciucus"] = {
-									["total"] = 574,
-									["amount"] = 488,
+									["amount"] = 1672,
+									["total"] = 1967,
 								},
 							},
-							["amount"] = 488,
+							["amount"] = 1672,
 						},
 						[12809] = {
 							["school"] = 1,
 							["total"] = 870,
 							["targets"] = {
 								["Maciucus"] = {
-									["total"] = 870,
 									["amount"] = 740,
+									["total"] = 870,
 								},
 							},
 							["amount"] = 740,
@@ -2621,6 +2619,28 @@ SkadaStorageDB = {
 							},
 							["amount"] = 744,
 						},
+						[30356] = {
+							["school"] = 1,
+							["total"] = 1748,
+							["targets"] = {
+								["Maciucus"] = {
+									["amount"] = 1486,
+									["total"] = 1748,
+								},
+							},
+							["amount"] = 1486,
+						},
+						[47519] = {
+							["school"] = 1,
+							["total"] = 574,
+							["targets"] = {
+								["Maciucus"] = {
+									["amount"] = 488,
+									["total"] = 574,
+								},
+							},
+							["amount"] = 488,
+						},
 						[46845] = {
 							["total"] = 723,
 							["amount"] = 653,
@@ -2628,31 +2648,11 @@ SkadaStorageDB = {
 							["targets"] = {
 								["Maciucus"] = {
 									["total"] = 723,
-									["overkill"] = 180,
 									["amount"] = 653,
+									["overkill"] = 180,
 								},
 							},
 							["overkill"] = 180,
-						},
-						[30357] = {
-							["school"] = 1,
-							["total"] = 1967,
-							["targets"] = {
-								["Maciucus"] = {
-									["total"] = 1967,
-									["amount"] = 1672,
-								},
-							},
-							["amount"] = 1672,
-						},
-						[59653] = {
-							["school"] = 1,
-							["targets"] = {
-								["Maciucus"] = {
-									["amount"] = 70,
-								},
-							},
-							["amount"] = 70,
 						},
 					},
 					["damagetaken"] = 164,
@@ -2702,27 +2702,27 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["uptime"] = 5,
 						},
-						[55233] = {
-							["school"] = 1,
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 6,
+							["uptime"] = 10,
 						},
 						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
 						},
-						[52419] = {
+						[55233] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[53138] = {
+						[52419] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 10,
+							["uptime"] = 6,
 						},
 					},
 					["absorbspells"] = {
@@ -2749,114 +2749,114 @@ SkadaStorageDB = {
 						{
 							["log"] = {
 								{
-									["absorbed"] = 35,
-									["hp"] = 1,
+									["overkill"] = 180,
+									["spellid"] = 46845,
 									["time"] = 7441.320000000001,
 									["amount"] = -202,
 									["school"] = 1,
 									["source"] = "Arraun",
-									["spellid"] = 46845,
-									["overkill"] = 180,
+									["hp"] = 1,
+									["absorbed"] = 35,
 								}, -- [1]
 								{
-									["time"] = 7439.495000000001,
 									["source"] = "Arraun",
+									["time"] = 7439.495000000001,
 									["amount"] = -488,
 									["school"] = 1,
-									["hp"] = 22,
 									["spellid"] = 47519,
+									["hp"] = 22,
 									["absorbed"] = 86,
 								}, -- [2]
 								{
-									["time"] = 7438.654000000001,
 									["source"] = "Arraun",
+									["time"] = 7438.654000000001,
 									["amount"] = -740,
 									["school"] = 1,
-									["hp"] = 510,
 									["spellid"] = 12809,
+									["hp"] = 510,
 									["absorbed"] = 130,
 								}, -- [3]
 								{
-									["time"] = 7438.355000000001,
 									["source"] = "Arraun",
+									["time"] = 7438.355000000001,
 									["amount"] = -202,
 									["school"] = 1,
-									["hp"] = 1250,
 									["spellid"] = 46845,
+									["hp"] = 1250,
 									["absorbed"] = 35,
 								}, -- [4]
 								{
-									["time"] = 7437.006,
 									["source"] = "Arraun",
+									["time"] = 7437.006,
 									["amount"] = -1486,
 									["school"] = 1,
-									["hp"] = 1832,
 									["spellid"] = 30356,
+									["hp"] = 1832,
 									["absorbed"] = 262,
 								}, -- [5]
 								{
 									["source"] = "Arraun",
 									["amount"] = -380,
 									["school"] = 1,
+									["time"] = 7436.874000000001,
 									["hp"] = 3318,
 									["spellid"] = 6603,
-									["time"] = 7436.874000000001,
 								}, -- [6]
 								{
 									["source"] = "Maciucus",
 									["amount"] = 1480,
+									["time"] = 7436.517,
 									["hp"] = 3318,
 									["spellid"] = 48982,
-									["time"] = 7436.517,
 								}, -- [7]
 								{
-									["time"] = 7435.509,
 									["source"] = "Arraun",
+									["time"] = 7435.509,
 									["amount"] = -1672,
 									["school"] = 1,
-									["hp"] = 1123,
 									["spellid"] = 30357,
+									["hp"] = 1123,
 									["absorbed"] = 295,
 								}, -- [8]
 								{
 									["source"] = "Arraun",
 									["amount"] = -249,
 									["school"] = 1,
+									["time"] = 7435.326,
 									["hp"] = 2795,
 									["spellid"] = 46845,
-									["time"] = 7435.326,
 								}, -- [9]
 								{
 									["source"] = "Arraun",
 									["amount"] = -364,
 									["school"] = 1,
+									["time"] = 7434.311000000001,
 									["hp"] = 3408,
 									["spellid"] = 6603,
-									["time"] = 7434.311000000001,
 								}, -- [10]
 								{
 									["source"] = "Arraun",
 									["amount"] = -904,
 									["school"] = 1,
+									["time"] = 7433.829000000001,
 									["hp"] = 3408,
 									["spellid"] = 46968,
-									["time"] = 7433.829000000001,
 								}, -- [11]
 								{
 									["source"] = "Arraun",
 									["amount"] = -70,
 									["school"] = 1,
+									["time"] = 7432.988,
 									["hp"] = 4312,
 									["spellid"] = 59653,
-									["time"] = 7432.988,
 								}, -- [12]
 							},
 							["time"] = 7441.336,
-							["timeod"] = 1728994965,
+							["source"] = "Arraun",
 							["school"] = 1,
 							["maxhp"] = 4771,
 							["spellid"] = 46845,
-							["source"] = "Arraun",
+							["timeod"] = 1728994965,
 						}, -- [1]
 					},
 					["id"] = "0x0700000000B05273",
@@ -2864,32 +2864,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 0,
-							["school"] = 1,
+							["min"] = 6,
 							["count"] = 1,
 							["amount"] = 6,
-							["max"] = 6,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 0,
 									["amount"] = 6,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 6,
+							["max"] = 6,
 						},
 						[48982] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 1480,
 							["school"] = 32,
-							["max"] = 1480,
+							["min"] = 1480,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 0,
 									["amount"] = 1480,
 								},
 							},
-							["min"] = 1480,
+							["max"] = 1480,
 						},
 					},
 					["damagetakenspells"] = {
@@ -2908,6 +2908,21 @@ SkadaStorageDB = {
 							["amount"] = 904,
 							["hitamount"] = 904,
 						},
+						["Melee"] = {
+							["hitmin"] = 364,
+							["id"] = 6603,
+							["sources"] = {
+								["Arraun"] = {
+									["amount"] = 744,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 380,
+							["amount"] = 744,
+							["hitamount"] = 744,
+						},
 						["Rend (DoT)"] = {
 							["total"] = 723,
 							["hitmin"] = 202,
@@ -2916,8 +2931,8 @@ SkadaStorageDB = {
 							["sources"] = {
 								["Arraun"] = {
 									["total"] = 723,
-									["overkill"] = 180,
 									["amount"] = 653,
+									["overkill"] = 180,
 								},
 							},
 							["count"] = 3,
@@ -2927,31 +2942,14 @@ SkadaStorageDB = {
 							["amount"] = 653,
 							["hitamount"] = 653,
 						},
-						["Concussion Blow"] = {
-							["total"] = 870,
-							["criticalamount"] = 740,
-							["id"] = 12809,
-							["criticalmax"] = 740,
-							["critical"] = 1,
-							["amount"] = 740,
-							["school"] = 1,
-							["sources"] = {
-								["Arraun"] = {
-									["total"] = 870,
-									["amount"] = 740,
-								},
-							},
-							["criticalmin"] = 740,
-							["count"] = 1,
-						},
 						["Cleave"] = {
 							["total"] = 574,
 							["hitmin"] = 488,
 							["id"] = 47519,
 							["sources"] = {
 								["Arraun"] = {
-									["total"] = 574,
 									["amount"] = 488,
+									["total"] = 574,
 								},
 							},
 							["count"] = 1,
@@ -2976,31 +2974,14 @@ SkadaStorageDB = {
 							["amount"] = 70,
 							["hitamount"] = 70,
 						},
-						["Shield Slam"] = {
-							["total"] = 1748,
-							["criticalamount"] = 1486,
-							["id"] = 30356,
-							["criticalmax"] = 1486,
-							["critical"] = 1,
-							["amount"] = 1486,
-							["school"] = 1,
-							["sources"] = {
-								["Arraun"] = {
-									["total"] = 1748,
-									["amount"] = 1486,
-								},
-							},
-							["criticalmin"] = 1486,
-							["count"] = 1,
-						},
 						["Revenge"] = {
 							["total"] = 1967,
 							["hitmin"] = 1672,
 							["id"] = 30357,
 							["sources"] = {
 								["Arraun"] = {
-									["total"] = 1967,
 									["amount"] = 1672,
+									["total"] = 1967,
 								},
 							},
 							["count"] = 1,
@@ -3010,38 +2991,72 @@ SkadaStorageDB = {
 							["amount"] = 1672,
 							["hitamount"] = 1672,
 						},
-						["Melee"] = {
-							["hitmin"] = 364,
-							["id"] = 6603,
+						["Shield Slam"] = {
+							["total"] = 1748,
+							["criticalamount"] = 1486,
+							["id"] = 30356,
+							["criticalmax"] = 1486,
+							["critical"] = 1,
+							["amount"] = 1486,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmin"] = 1486,
 							["sources"] = {
 								["Arraun"] = {
-									["amount"] = 744,
+									["amount"] = 1486,
+									["total"] = 1748,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
+						},
+						["Concussion Blow"] = {
+							["total"] = 870,
+							["criticalamount"] = 740,
+							["id"] = 12809,
+							["criticalmax"] = 740,
+							["critical"] = 1,
+							["amount"] = 740,
 							["school"] = 1,
-							["hitmax"] = 380,
-							["amount"] = 744,
-							["hitamount"] = 744,
+							["count"] = 1,
+							["criticalmin"] = 740,
+							["sources"] = {
+								["Arraun"] = {
+									["amount"] = 740,
+									["total"] = 870,
+								},
+							},
 						},
 					},
 					["heal"] = 1486,
 					["name"] = "Maciucus",
 					["death"] = 1,
+					["role"] = "TANK",
+					["cctakenspells"] = {
+						[46968] = {
+							["count"] = 1,
+							["sources"] = {
+								["Arraun"] = 1,
+							},
+						},
+						[12809] = {
+							["count"] = 1,
+							["sources"] = {
+								["Arraun"] = 1,
+							},
+						},
+					},
 					["damagespells"] = {
 						["Icy Touch"] = {
 							["casts"] = 2,
 							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 16,
+							["id"] = 45477,
 							["targets"] = {
 								["Arraun"] = {
 									["amount"] = 0,
 								},
 							},
 							["MISS"] = 2,
-							["id"] = 45477,
 						},
 						["Melee"] = {
 							["DODGE"] = 2,
@@ -3060,21 +3075,6 @@ SkadaStorageDB = {
 							["hitamount"] = 164,
 						},
 					},
-					["cctakenspells"] = {
-						[46968] = {
-							["count"] = 1,
-							["sources"] = {
-								["Arraun"] = 1,
-							},
-						},
-						[12809] = {
-							["count"] = 1,
-							["sources"] = {
-								["Arraun"] = 1,
-							},
-						},
-					},
-					["role"] = "TANK",
 				}, -- [1]
 			},
 			["absorb"] = 843,
@@ -3082,13 +3082,13 @@ SkadaStorageDB = {
 			["last_time"] = 7441.667,
 			["type"] = "none",
 			["etotaldamage"] = 7600,
-			["overheal"] = 0,
-			["death"] = 1,
+			["starttime"] = 1728994956,
+			["mobname"] = "Arraun",
 			["edamagetaken"] = 164,
 			["heal"] = 1486,
 			["name"] = "Arraun",
-			["mobname"] = "Arraun",
-			["starttime"] = 1728994956,
+			["death"] = 1,
+			["overheal"] = 0,
 			["edamage"] = 6757,
 			["last_action"] = 1728994965,
 			["endtime"] = 1728994966,
@@ -3129,17 +3129,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 290,
 						},
-						[45462] = {
-							["school"] = 1,
-							["sources"] = {
-								["Maciucus"] = {
-									["overkill"] = 209,
-									["amount"] = 552,
-								},
-							},
-							["overkill"] = 209,
-							["amount"] = 552,
-						},
 						[55095] = {
 							["school"] = 16,
 							["sources"] = {
@@ -3148,6 +3137,17 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 110,
+						},
+						[45462] = {
+							["school"] = 1,
+							["sources"] = {
+								["Maciucus"] = {
+									["amount"] = 552,
+									["overkill"] = 209,
+								},
+							},
+							["amount"] = 552,
+							["overkill"] = 209,
 						},
 					},
 					["totaldamage"] = 23,
@@ -3171,11 +3171,21 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[48266] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[50448] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 1,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
 						},
 						[55095] = {
 							["type"] = "DEBUFF",
@@ -3188,16 +3198,6 @@ SkadaStorageDB = {
 								},
 							},
 							["uptime"] = 4,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[48266] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
 						},
 					},
 					["totaldamage"] = 1372,
@@ -3226,8 +3226,8 @@ SkadaStorageDB = {
 							["id"] = 45462,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["overkill"] = 209,
 									["amount"] = 552,
+									["overkill"] = 209,
 								},
 							},
 							["overkill"] = 209,
@@ -3235,9 +3235,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 552,
 							["school"] = 1,
-							["criticalmin"] = 552,
-							["criticalmax"] = 552,
 							["count"] = 1,
+							["criticalmax"] = 552,
+							["criticalmin"] = 552,
 						},
 						["Melee"] = {
 							["hitmin"] = 420,
@@ -3276,18 +3276,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 17,
-							["max"] = 16,
+							["min"] = 7,
 							["count"] = 3,
 							["amount"] = 23,
-							["school"] = 1,
-							["ishot"] = true,
+							["max"] = 16,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 17,
 									["amount"] = 23,
 								},
 							},
-							["min"] = 7,
+							["ishot"] = true,
+							["school"] = 1,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3310,9 +3310,9 @@ SkadaStorageDB = {
 					},
 					["heal"] = 23,
 					["name"] = "Maciucus",
-					["overkill"] = 209,
-					["overheal"] = 17,
 					["role"] = "TANK",
+					["overheal"] = 17,
+					["overkill"] = 209,
 				}, -- [1]
 			},
 			["etotaldamage"] = 23,
@@ -3367,23 +3367,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 37,
 									["amount"] = 1144,
+									["overkill"] = 37,
 								},
 							},
-							["overkill"] = 37,
 							["amount"] = 1144,
-						},
-						[47632] = {
-							["school"] = 32,
-							["sources"] = {
-								["Maciucus"] = {
-									["overkill"] = 107,
-									["amount"] = 444,
-								},
-							},
-							["overkill"] = 107,
-							["amount"] = 444,
+							["overkill"] = 37,
 						},
 						[45477] = {
 							["school"] = 16,
@@ -3394,6 +3383,17 @@ SkadaStorageDB = {
 							},
 							["amount"] = 316,
 						},
+						[47632] = {
+							["school"] = 32,
+							["sources"] = {
+								["Maciucus"] = {
+									["amount"] = 444,
+									["overkill"] = 107,
+								},
+							},
+							["amount"] = 444,
+							["overkill"] = 107,
+						},
 					},
 					["totaldamage"] = 79,
 					["name"] = "Ferocious Yeti",
@@ -3402,12 +3402,12 @@ SkadaStorageDB = {
 					["damage"] = 79,
 				}, -- [1]
 				{
-					["damagetaken"] = 1409,
 					["name"] = "Cave Yeti",
-					["totaldamagetaken"] = 1409,
-					["id"] = "0xF1300008C8015482",
-					["class"] = "MONSTER",
+					["damagetaken"] = 1409,
 					["flag"] = 68168,
+					["id"] = "0xF1300008C8015482",
+					["totaldamagetaken"] = 1409,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[45477] = {
 							["school"] = 16,
@@ -3422,12 +3422,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 358,
 									["amount"] = 1084,
+									["overkill"] = 358,
 								},
 							},
-							["overkill"] = 358,
 							["amount"] = 1084,
+							["overkill"] = 358,
 						},
 					},
 				}, -- [2]
@@ -3482,12 +3482,17 @@ SkadaStorageDB = {
 							["uptime"] = 2,
 						},
 						[50448] = {
+							["uptime"] = 12,
 							["type"] = "BUFF",
+							["count"] = 1,
 							["refresh"] = 2,
+						},
+						[48266] = {
+							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
 						},
-						[48266] = {
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 12,
@@ -3497,11 +3502,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 10,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 12,
 						},
 					},
 					["totaldamage"] = 3767,
@@ -3515,18 +3515,18 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 24,
-							["school"] = 1,
+							["min"] = 10,
 							["count"] = 6,
 							["amount"] = 99,
-							["max"] = 29,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 24,
 									["amount"] = 99,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 10,
+							["max"] = 29,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3534,8 +3534,8 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 18,
 							["id"] = 6603,
-							["hitmax"] = 22,
-							["amount"] = 79,
+							["count"] = 9,
+							["hit"] = 4,
 							["sources"] = {
 								["Ferocious Yeti"] = {
 									["amount"] = 79,
@@ -3544,8 +3544,8 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 							},
-							["count"] = 9,
-							["hit"] = 4,
+							["hitmax"] = 22,
+							["amount"] = 79,
 							["school"] = 1,
 							["PARRY"] = 3,
 							["MISS"] = 1,
@@ -3554,23 +3554,19 @@ SkadaStorageDB = {
 					},
 					["heal"] = 99,
 					["name"] = "Maciucus",
-					["runic"] = 10,
-					["runicspells"] = {
-						[50422] = 10,
-					},
-					["overkill"] = 502,
+					["role"] = "TANK",
 					["damagespells"] = {
 						["Melee"] = {
 							["criticalamount"] = 2228,
 							["id"] = 6603,
 							["targets"] = {
 								["Cave Yeti"] = {
-									["overkill"] = 358,
 									["amount"] = 1084,
+									["overkill"] = 358,
 								},
 								["Ferocious Yeti"] = {
-									["overkill"] = 37,
 									["amount"] = 1144,
+									["overkill"] = 37,
 								},
 							},
 							["overkill"] = 395,
@@ -3578,8 +3574,8 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 2228,
 							["school"] = 1,
-							["criticalmin"] = 1084,
 							["count"] = 2,
+							["criticalmin"] = 1084,
 						},
 						["Icy Touch"] = {
 							["hitmin"] = 316,
@@ -3636,8 +3632,8 @@ SkadaStorageDB = {
 							["id"] = 47632,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["overkill"] = 107,
 									["amount"] = 444,
+									["overkill"] = 107,
 								},
 							},
 							["overkill"] = 107,
@@ -3650,17 +3646,21 @@ SkadaStorageDB = {
 							["hitamount"] = 444,
 						},
 					},
-					["role"] = "TANK",
+					["overkill"] = 502,
+					["runicspells"] = {
+						[50422] = 10,
+					},
+					["runic"] = 10,
 				}, -- [1]
 			},
 			["damage"] = 3767,
-			["etotaldamagetaken"] = 3767,
+			["overheal"] = 24,
 			["overkill"] = 502,
 			["edamagetaken"] = 3767,
 			["heal"] = 99,
 			["name"] = "Ferocious Yeti (5)",
 			["mobname"] = "Ferocious Yeti",
-			["overheal"] = 24,
+			["etotaldamagetaken"] = 3767,
 			["edamage"] = 79,
 			["last_action"] = 1728993143,
 			["endtime"] = 1728993145,
@@ -3714,23 +3714,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 444,
 									["amount"] = 1814,
+									["overkill"] = 444,
 								},
 							},
-							["overkill"] = 444,
 							["amount"] = 1814,
+							["overkill"] = 444,
 						},
 						[45902] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 170,
 									["amount"] = 468,
+									["overkill"] = 170,
 								},
 							},
-							["overkill"] = 170,
 							["amount"] = 468,
+							["overkill"] = 170,
 						},
 						[55095] = {
 							["school"] = 16,
@@ -3786,12 +3786,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 537,
 									["amount"] = 1048,
+									["overkill"] = 537,
 								},
 							},
-							["overkill"] = 537,
 							["amount"] = 1048,
+							["overkill"] = 537,
 						},
 					},
 					["totaldamage"] = 21,
@@ -3887,32 +3887,32 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 55,
-							["school"] = 1,
+							["min"] = 11,
 							["count"] = 7,
 							["amount"] = 70,
-							["max"] = 30,
+							["school"] = 1,
+							["ishot"] = true,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 55,
 									["amount"] = 70,
 								},
 							},
-							["ishot"] = true,
-							["min"] = 11,
+							["max"] = 30,
 						},
 						[45470] = {
 							["overheal"] = 96,
 							["count"] = 1,
 							["amount"] = 618,
 							["school"] = 1,
-							["max"] = 618,
+							["min"] = 618,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 96,
 									["amount"] = 618,
 								},
 							},
-							["min"] = 618,
+							["max"] = 618,
 						},
 					},
 					["damagetakenspells"] = {
@@ -3920,8 +3920,6 @@ SkadaStorageDB = {
 							["DODGE"] = 7,
 							["hitmin"] = 18,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["amount"] = 150,
 							["sources"] = {
 								["Ferocious Yeti"] = {
 									["amount"] = 129,
@@ -3930,8 +3928,10 @@ SkadaStorageDB = {
 									["amount"] = 21,
 								},
 							},
-							["count"] = 23,
 							["hit"] = 7,
+							["PARRY"] = 1,
+							["count"] = 23,
+							["amount"] = 150,
 							["school"] = 1,
 							["hitmax"] = 23,
 							["MISS"] = 8,
@@ -3940,29 +3940,22 @@ SkadaStorageDB = {
 					},
 					["heal"] = 688,
 					["name"] = "Maciucus",
-					["runic"] = 10,
-					["runicspells"] = {
-						[50422] = 10,
-					},
-					["overkill"] = 1151,
+					["role"] = "TANK",
 					["damagespells"] = {
-						["Blood Strike"] = {
-							["hitmin"] = 468,
-							["id"] = 45902,
+						["Blood Plague (DoT)"] = {
+							["hitmin"] = 115,
+							["id"] = 55078,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["overkill"] = 170,
-									["amount"] = 468,
+									["amount"] = 463,
 								},
 							},
-							["overkill"] = 170,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 468,
-							["amount"] = 468,
-							["hitamount"] = 468,
+							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 32,
+							["hitmax"] = 116,
+							["amount"] = 463,
+							["hitamount"] = 463,
 						},
 						["Melee"] = {
 							["hitmin"] = 430,
@@ -3971,72 +3964,22 @@ SkadaStorageDB = {
 							["criticalmin"] = 880,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["overkill"] = 444,
 									["amount"] = 1814,
+									["overkill"] = 444,
 								},
 								["Cave Yeti"] = {
 									["amount"] = 430,
 								},
 							},
 							["overkill"] = 444,
-							["count"] = 3,
+							["critical"] = 2,
 							["criticalmax"] = 934,
-							["hitmax"] = 430,
+							["count"] = 3,
 							["amount"] = 2244,
 							["school"] = 1,
 							["hit"] = 1,
-							["critical"] = 2,
+							["hitmax"] = 430,
 							["hitamount"] = 430,
-						},
-						["Death Strike"] = {
-							["criticalamount"] = 1048,
-							["id"] = 49998,
-							["targets"] = {
-								["Cave Yeti"] = {
-									["overkill"] = 537,
-									["amount"] = 1048,
-								},
-							},
-							["overkill"] = 537,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 1048,
-							["school"] = 1,
-							["criticalmin"] = 1048,
-							["criticalmax"] = 1048,
-							["count"] = 1,
-						},
-						["Icy Touch"] = {
-							["hitmin"] = 287,
-							["id"] = 45477,
-							["targets"] = {
-								["Ferocious Yeti"] = {
-									["amount"] = 287,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["hitmax"] = 287,
-							["amount"] = 287,
-							["hitamount"] = 287,
-						},
-						["Plague Strike"] = {
-							["hitmin"] = 305,
-							["id"] = 45462,
-							["targets"] = {
-								["Ferocious Yeti"] = {
-									["amount"] = 305,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 305,
-							["amount"] = 305,
-							["hitamount"] = 305,
 						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 109,
@@ -4056,33 +3999,90 @@ SkadaStorageDB = {
 							["amount"] = 876,
 							["hitamount"] = 876,
 						},
-						["Blood Plague (DoT)"] = {
-							["hitmin"] = 115,
-							["id"] = 55078,
+						["Blood Strike"] = {
+							["hitmin"] = 468,
+							["id"] = 45902,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["amount"] = 463,
+									["amount"] = 468,
+									["overkill"] = 170,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 32,
-							["hitmax"] = 116,
-							["amount"] = 463,
-							["hitamount"] = 463,
+							["overkill"] = 170,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 468,
+							["amount"] = 468,
+							["hitamount"] = 468,
+						},
+						["Plague Strike"] = {
+							["hitmin"] = 305,
+							["id"] = 45462,
+							["targets"] = {
+								["Ferocious Yeti"] = {
+									["amount"] = 305,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 305,
+							["amount"] = 305,
+							["hitamount"] = 305,
+						},
+						["Death Strike"] = {
+							["criticalamount"] = 1048,
+							["id"] = 49998,
+							["targets"] = {
+								["Cave Yeti"] = {
+									["amount"] = 1048,
+									["overkill"] = 537,
+								},
+							},
+							["overkill"] = 537,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 1048,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 1048,
+							["criticalmin"] = 1048,
+						},
+						["Icy Touch"] = {
+							["hitmin"] = 287,
+							["id"] = 45477,
+							["targets"] = {
+								["Ferocious Yeti"] = {
+									["amount"] = 287,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 16,
+							["hitmax"] = 287,
+							["amount"] = 287,
+							["hitamount"] = 287,
 						},
 					},
-					["role"] = "TANK",
+					["overkill"] = 1151,
+					["runicspells"] = {
+						[50422] = 10,
+					},
+					["runic"] = 10,
 				}, -- [1]
 			},
 			["damage"] = 5691,
-			["etotaldamagetaken"] = 5691,
+			["overheal"] = 151,
 			["overkill"] = 1151,
 			["edamagetaken"] = 5691,
 			["heal"] = 688,
 			["name"] = "Ferocious Yeti (4)",
 			["mobname"] = "Ferocious Yeti",
-			["overheal"] = 151,
+			["etotaldamagetaken"] = 5691,
 			["edamage"] = 150,
 			["last_action"] = 1728992827,
 			["endtime"] = 1728992827,
@@ -4118,12 +4118,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 132,
 									["amount"] = 136,
+									["overkill"] = 132,
 								},
 							},
-							["overkill"] = 132,
 							["amount"] = 136,
+							["overkill"] = 132,
 						},
 						[45462] = {
 							["school"] = 1,
@@ -4200,16 +4200,16 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 						[52424] = {
 							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 4,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
 						},
 					},
 					["totaldamage"] = 1295,
@@ -4284,8 +4284,8 @@ SkadaStorageDB = {
 							["id"] = 55078,
 							["targets"] = {
 								["Ferocious Yeti"] = {
-									["overkill"] = 132,
 									["amount"] = 136,
+									["overkill"] = 132,
 								},
 							},
 							["overkill"] = 132,
@@ -4319,25 +4319,25 @@ SkadaStorageDB = {
 						["Melee"] = {
 							["hitmin"] = 27,
 							["id"] = 6603,
-							["hitmax"] = 27,
+							["count"] = 2,
 							["sources"] = {
 								["Ferocious Yeti"] = {
 									["amount"] = 27,
 								},
 							},
-							["count"] = 2,
+							["hitmax"] = 27,
 							["hit"] = 1,
 							["school"] = 1,
-							["PARRY"] = 1,
 							["amount"] = 27,
+							["PARRY"] = 1,
 							["hitamount"] = 27,
 						},
 					},
 					["heal"] = 0,
 					["name"] = "Maciucus",
-					["overkill"] = 132,
-					["overheal"] = 40,
 					["role"] = "TANK",
+					["overheal"] = 40,
+					["overkill"] = 132,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -4358,12 +4358,12 @@ SkadaStorageDB = {
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 3981,
 					["name"] = "Giant Yeti",
-					["totaldamagetaken"] = 3981,
-					["id"] = "0xF1300008CB011103",
-					["class"] = "MONSTER",
+					["damagetaken"] = 3981,
 					["flag"] = 68168,
+					["id"] = "0xF1300008CB011103",
+					["totaldamagetaken"] = 3981,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[55095] = {
 							["school"] = 16,
@@ -4387,23 +4387,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 493,
 									["amount"] = 2158,
+									["overkill"] = 493,
 								},
 							},
-							["overkill"] = 493,
 							["amount"] = 2158,
+							["overkill"] = 493,
 						},
 						[45902] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 930,
 									["amount"] = 940,
+									["overkill"] = 930,
 								},
 							},
-							["overkill"] = 930,
 							["amount"] = 940,
+							["overkill"] = 930,
 						},
 						[45477] = {
 							["school"] = 16,
@@ -4465,12 +4465,17 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[50448] = {
+							["uptime"] = 6,
 							["type"] = "BUFF",
+							["count"] = 1,
 							["refresh"] = 4,
+						},
+						[48266] = {
+							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[48266] = {
+						[53138] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
@@ -4480,11 +4485,6 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 3,
-						},
-						[53138] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
 						},
 					},
 					["totaldamage"] = 3981,
@@ -4497,8 +4497,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Giant Yeti"] = {
-									["overkill"] = 493,
 									["amount"] = 2158,
+									["overkill"] = 493,
 								},
 							},
 							["overkill"] = 493,
@@ -4506,8 +4506,8 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 2158,
 							["school"] = 1,
-							["criticalmin"] = 998,
 							["count"] = 2,
+							["criticalmin"] = 998,
 						},
 						["Icy Touch"] = {
 							["hitmin"] = 205,
@@ -4517,9 +4517,9 @@ SkadaStorageDB = {
 									["amount"] = 205,
 								},
 							},
-							["hitmax"] = 205,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 205,
 							["hit"] = 1,
 							["school"] = 16,
 							["resisted"] = 87,
@@ -4538,9 +4538,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 612,
 							["school"] = 1,
-							["criticalmin"] = 612,
-							["criticalmax"] = 612,
 							["count"] = 1,
+							["criticalmax"] = 612,
+							["criticalmin"] = 612,
 						},
 						["Frost Fever (DoT)"] = {
 							["hitmin"] = 66,
@@ -4550,8 +4550,8 @@ SkadaStorageDB = {
 									["amount"] = 66,
 								},
 							},
-							["hitmax"] = 66,
 							["count"] = 1,
+							["hitmax"] = 66,
 							["hit"] = 1,
 							["school"] = 16,
 							["resisted"] = 44,
@@ -4563,8 +4563,8 @@ SkadaStorageDB = {
 							["id"] = 45902,
 							["targets"] = {
 								["Giant Yeti"] = {
-									["overkill"] = 930,
 									["amount"] = 940,
+									["overkill"] = 930,
 								},
 							},
 							["overkill"] = 930,
@@ -4572,9 +4572,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 940,
 							["school"] = 1,
-							["criticalmin"] = 940,
-							["criticalmax"] = 940,
 							["count"] = 1,
+							["criticalmax"] = 940,
+							["criticalmin"] = 940,
 						},
 					},
 					["damagetaken"] = 0,
@@ -4602,23 +4602,23 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 6603,
 							["sources"] = {
 								["Giant Yeti"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 6603,
 						},
 					},
 					["heal"] = 0,
 					["name"] = "Maciucus",
-					["runic"] = 10,
+					["role"] = "TANK",
+					["overheal"] = 97,
+					["overkill"] = 1423,
 					["runicspells"] = {
 						[50422] = 10,
 					},
-					["overkill"] = 1423,
-					["overheal"] = 97,
-					["role"] = "TANK",
+					["runic"] = 10,
 				}, -- [1]
 			},
 			["type"] = "none",
@@ -4630,20 +4630,20 @@ SkadaStorageDB = {
 			["heal"] = 0,
 			["name"] = "Giant Yeti",
 			["mobname"] = "Giant Yeti",
-			["starttime"] = 1728991426,
 			["damage"] = 3981,
+			["starttime"] = 1728991426,
 			["last_action"] = 1728991431,
 			["endtime"] = 1728991432,
 		}, -- [14]
 		{
 			["enemies"] = {
 				{
-					["damagetaken"] = 1987,
 					["name"] = "Cave Yeti",
-					["totaldamagetaken"] = 1987,
-					["id"] = "0xF1300008C8010940",
-					["class"] = "MONSTER",
+					["damagetaken"] = 1987,
 					["flag"] = 68168,
+					["id"] = "0xF1300008C8010940",
+					["totaldamagetaken"] = 1987,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[47632] = {
 							["school"] = 32,
@@ -4658,23 +4658,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 379,
 									["amount"] = 596,
+									["overkill"] = 379,
 								},
 							},
-							["overkill"] = 379,
 							["amount"] = 596,
+							["overkill"] = 379,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 340,
 									["amount"] = 996,
+									["overkill"] = 340,
 								},
 							},
-							["overkill"] = 340,
 							["amount"] = 996,
+							["overkill"] = 340,
 						},
 					},
 				}, -- [1]
@@ -4716,12 +4716,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Maciucus"] = {
-									["overkill"] = 314,
 									["amount"] = 636,
+									["overkill"] = 314,
 								},
 							},
-							["overkill"] = 314,
 							["amount"] = 636,
+							["overkill"] = 314,
 						},
 					},
 					["totaldamage"] = 22,
@@ -4746,6 +4746,11 @@ SkadaStorageDB = {
 					["flag"] = 1297,
 					["class"] = "DEATHKNIGHT",
 					["auras"] = {
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 7,
+						},
 						[55095] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -4758,21 +4763,16 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[50448] = {
-							["type"] = "BUFF",
-							["refresh"] = 4,
-							["count"] = 1,
-							["uptime"] = 7,
-						},
 						[48266] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 7,
 						},
-						[53138] = {
+						[50448] = {
+							["uptime"] = 7,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 7,
+							["refresh"] = 4,
 						},
 					},
 					["totaldamage"] = 3408,
@@ -4786,48 +4786,24 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[50475] = {
 							["overheal"] = 104,
-							["max"] = 19,
+							["min"] = 3,
 							["count"] = 7,
 							["amount"] = 22,
-							["school"] = 1,
-							["ishot"] = true,
+							["max"] = 19,
 							["targets"] = {
 								["Maciucus"] = {
 									["overheal"] = 104,
 									["amount"] = 22,
 								},
 							},
-							["min"] = 3,
+							["ishot"] = true,
+							["school"] = 1,
 						},
 					},
 					["overkill"] = 1033,
 					["heal"] = 22,
 					["name"] = "Maciucus",
-					["runic"] = 10,
-					["runicspells"] = {
-						[50422] = 10,
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 22,
-							["id"] = 6603,
-							["sources"] = {
-								["Cave Yeti"] = {
-									["amount"] = 0,
-								},
-								["Ferocious Yeti"] = {
-									["amount"] = 22,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 22,
-							["amount"] = 22,
-							["hitamount"] = 22,
-						},
-					},
+					["role"] = "TANK",
 					["damagespells"] = {
 						["Death Coil"] = {
 							["hitmin"] = 395,
@@ -4850,12 +4826,12 @@ SkadaStorageDB = {
 							["id"] = 45462,
 							["targets"] = {
 								["Cave Yeti"] = {
-									["overkill"] = 379,
 									["amount"] = 596,
+									["overkill"] = 379,
 								},
 								["Ferocious Yeti"] = {
-									["overkill"] = 314,
 									["amount"] = 636,
+									["overkill"] = 314,
 								},
 							},
 							["overkill"] = 693,
@@ -4863,9 +4839,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 1232,
 							["school"] = 1,
-							["criticalmin"] = 596,
-							["criticalmax"] = 636,
 							["count"] = 2,
+							["criticalmax"] = 636,
+							["criticalmin"] = 596,
 						},
 						["Melee"] = {
 							["hitmin"] = 494,
@@ -4874,21 +4850,21 @@ SkadaStorageDB = {
 							["criticalmin"] = 996,
 							["targets"] = {
 								["Cave Yeti"] = {
-									["overkill"] = 340,
 									["amount"] = 996,
+									["overkill"] = 340,
 								},
 								["Ferocious Yeti"] = {
 									["amount"] = 494,
 								},
 							},
 							["overkill"] = 340,
-							["count"] = 2,
+							["critical"] = 1,
 							["criticalmax"] = 996,
-							["hitmax"] = 494,
+							["count"] = 2,
 							["amount"] = 1490,
 							["school"] = 1,
 							["hit"] = 1,
-							["critical"] = 1,
+							["hitmax"] = 494,
 							["hitamount"] = 494,
 						},
 						["Icy Touch"] = {
@@ -4908,17 +4884,41 @@ SkadaStorageDB = {
 							["hitamount"] = 291,
 						},
 					},
-					["role"] = "TANK",
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 22,
+							["id"] = 6603,
+							["sources"] = {
+								["Cave Yeti"] = {
+									["amount"] = 0,
+								},
+								["Ferocious Yeti"] = {
+									["amount"] = 22,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 22,
+							["amount"] = 22,
+							["hitamount"] = 22,
+						},
+					},
+					["runicspells"] = {
+						[50422] = 10,
+					},
+					["runic"] = 10,
 				}, -- [1]
 			},
 			["damage"] = 3408,
-			["runic"] = 10,
+			["starttime"] = 1728991171,
 			["overkill"] = 1033,
 			["edamagetaken"] = 3408,
 			["heal"] = 22,
 			["name"] = "Cave Yeti (2)",
 			["mobname"] = "Cave Yeti",
-			["starttime"] = 1728991171,
+			["runic"] = 10,
 			["edamage"] = 22,
 			["last_action"] = 1728991177,
 			["endtime"] = 1728991178,
@@ -4926,10 +4926,6 @@ SkadaStorageDB = {
 	},
 	["version"] = 1878,
 	["total"] = {
-		["starttime"] = 1728414713,
-		["absorb"] = 1296,
-		["damagetaken"] = 16156,
-		["overheal"] = 5374,
 		["players"] = {
 			{
 				["flag"] = 1297,
@@ -4948,19 +4944,23 @@ SkadaStorageDB = {
 				["heal"] = 5568,
 				["name"] = "Maciucus",
 				["death"] = 2,
-				["runic"] = 260,
 				["role"] = "TANK",
+				["runic"] = 260,
 			}, -- [1]
 		},
-		["totaldamage"] = 175653,
+		["absorb"] = 1296,
+		["damagetaken"] = 16156,
+		["starttime"] = 1728414713,
+		["overheal"] = 5374,
+		["name"] = "Total",
 		["overkill"] = 26009,
 		["runic"] = 260,
-		["heal"] = 5568,
+		["totaldamage"] = 175653,
 		["time"] = 143,
 		["death"] = 2,
 		["cctaken"] = 3,
 		["totaldamagetaken"] = 17452,
-		["name"] = "Total",
+		["heal"] = 5568,
 		["damage"] = 175653,
 	},
 }
