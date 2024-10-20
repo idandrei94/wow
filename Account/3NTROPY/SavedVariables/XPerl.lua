@@ -2,6 +2,7 @@
 XPerlConfig = nil
 XPerlConfig_Global = nil
 XPerlConfigNew = {
+	["ConfigVersion"] = "3.0.9",
 	["global"] = {
 		["highlight"] = {
 			["enable"] = 1,
@@ -20,18 +21,18 @@ XPerlConfigNew = {
 		["rangeFinder"] = {
 			["StatsFrame"] = {
 				["FadeAmount"] = 0.5,
-				["item"] = "Heavy Runecloth Bandage",
+				["item"] = "Heavy Silk Bandage",
 				["HealthLowPoint"] = 0.85,
 			},
 			["Main"] = {
 				["enabled"] = true,
-				["item"] = "Heavy Runecloth Bandage",
+				["item"] = "Heavy Silk Bandage",
 				["FadeAmount"] = 0.5,
 				["HealthLowPoint"] = 0.85,
 			},
 			["NameFrame"] = {
 				["FadeAmount"] = 0.5,
-				["item"] = "Heavy Runecloth Bandage",
+				["item"] = "Heavy Silk Bandage",
 				["HealthLowPoint"] = 0.85,
 			},
 		},
@@ -385,31 +386,40 @@ XPerlConfigNew = {
 				["width"] = 0,
 			},
 		},
-		["targettarget"] = {
+		["pet"] = {
+			["threat"] = 1,
+			["portrait"] = 1,
 			["debuffs"] = {
 				["enable"] = 1,
-				["curable"] = 0,
-				["size"] = 29,
+				["size"] = 20,
+			},
+			["scale"] = 0.66,
+			["portrait3D"] = 1,
+			["buffs"] = {
+				["enable"] = 1,
+				["maxrows"] = 2,
+				["size"] = 18,
 			},
 			["values"] = 1,
-			["pvpIcon"] = 1,
-			["enable"] = 1,
-			["mana"] = 1,
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["threatMode"] = "portraitFrame",
+			["name"] = 1,
+			["hitIndicator"] = 1,
+			["happiness"] = {
+				["enabled"] = 1,
+				["flashWhenSad"] = 1,
+				["onlyWhenSad"] = 1,
+			},
+			["level"] = 1,
 			["healerMode"] = {
 				["type"] = 1,
 			},
-			["scale"] = 0.7,
-			["buffs"] = {
-				["maxrows"] = 2,
-				["castable"] = 0,
-				["enable"] = 1,
-				["rows"] = 3,
-				["wrap"] = 1,
-				["size"] = 22,
-			},
-			["percent"] = 1,
 			["size"] = {
-				["width"] = 0,
+				["enable"] = 1,
+				["size"] = 20,
+				["width"] = 82,
 			},
 		},
 		["player"] = {
@@ -463,7 +473,7 @@ XPerlConfigNew = {
 			["enableBuffs"] = 1,
 			["modifier"] = "all",
 		},
-		["pettarget"] = {
+		["targettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
 				["curable"] = 0,
@@ -522,40 +532,31 @@ XPerlConfigNew = {
 			["text"] = 1,
 			["frame"] = 1,
 		},
-		["pet"] = {
-			["threat"] = 1,
-			["portrait"] = 1,
+		["pettarget"] = {
 			["debuffs"] = {
 				["enable"] = 1,
-				["size"] = 20,
-			},
-			["scale"] = 0.66,
-			["portrait3D"] = 1,
-			["buffs"] = {
-				["enable"] = 1,
-				["maxrows"] = 2,
-				["size"] = 18,
+				["curable"] = 0,
+				["size"] = 29,
 			},
 			["values"] = 1,
-			["castBar"] = {
-				["enable"] = 1,
-			},
-			["threatMode"] = "portraitFrame",
-			["name"] = 1,
-			["hitIndicator"] = 1,
-			["happiness"] = {
-				["enabled"] = 1,
-				["flashWhenSad"] = 1,
-				["onlyWhenSad"] = 1,
-			},
-			["level"] = 1,
+			["pvpIcon"] = 1,
+			["enable"] = 1,
+			["mana"] = 1,
 			["healerMode"] = {
 				["type"] = 1,
 			},
-			["size"] = {
+			["scale"] = 0.7,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
 				["enable"] = 1,
-				["size"] = 20,
-				["width"] = 82,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
 			},
 		},
 		["party"] = {
@@ -1202,6 +1203,5 @@ XPerlConfigNew = {
 			},
 		},
 	},
-	["ConfigVersion"] = "3.0.9",
 }
 XPerlConfigSavePerCharacter = nil
