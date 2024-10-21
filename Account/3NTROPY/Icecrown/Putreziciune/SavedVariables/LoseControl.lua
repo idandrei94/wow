@@ -1,16 +1,7 @@
 
 LoseControlDB = {
-	["noCooldownCount"] = false,
 	["version"] = 3.32,
-	["tracking"] = {
-		["Immune"] = false,
-		["CC"] = true,
-		["Snare"] = false,
-		["Silence"] = true,
-		["Root"] = false,
-		["Disarm"] = true,
-		["PvE"] = true,
-	},
+	["noCooldownCount"] = false,
 	["frames"] = {
 		["party3"] = {
 			["anchor"] = "Blizzard",
@@ -44,7 +35,7 @@ LoseControlDB = {
 		},
 		["player"] = {
 			["anchor"] = "None",
-			["enabled"] = true,
+			["enabled"] = 1,
 			["alpha"] = 1,
 			["size"] = 36,
 		},
@@ -84,5 +75,14 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 28,
 		},
+	},
+	["tracking"] = {
+		["Immune"] = false,
+		["CC"] = true,
+		["Snare"] = false,
+		["Silence"] = true,
+		["Root"] = false,
+		["Disarm"] = true,
+		["PvE"] = true,
 	},
 }

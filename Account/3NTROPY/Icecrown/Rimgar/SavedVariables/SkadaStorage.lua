@@ -1,130 +1,96 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["mana"] = 34234,
-		["totaldamage"] = 5915143,
-		["time"] = 539,
-		["totaldamagetaken"] = 912486,
-		["damage"] = 5915143,
-		["overheal"] = 210296,
-		["absorb"] = 57439,
-		["damagetaken"] = 796864,
-		["interrupt"] = 3,
-		["overkill"] = 620992,
-		["heal"] = 598894,
-		["name"] = "Total",
-		["death"] = 5,
-		["rage"] = 888,
-		["ccdone"] = 108,
 		["players"] = {
 			{
 				["flag"] = 1297,
 				["class"] = "WARRIOR",
-				["totaldamage"] = 3858745,
-				["time"] = 495.4500000000002,
-				["totaldamagetaken"] = 280692,
-				["damage"] = 3858745,
-				["overheal"] = 13587,
-				["absorb"] = 2338,
-				["damagetaken"] = 268028,
+				["time"] = 42.48,
+				["totaldamagetaken"] = 21836,
+				["damage"] = 229636,
+				["overheal"] = 0,
+				["damagetaken"] = 21836,
 				["id"] = "0x070000000040A064",
 				["spec"] = 71,
-				["overkill"] = 585098,
-				["heal"] = 28554,
+				["overkill"] = 15296,
+				["heal"] = 11740,
 				["name"] = "Rimgar",
-				["death"] = 2,
-				["ccdone"] = 103,
-				["rage"] = 91,
-				["interrupt"] = 2,
+				["ccdone"] = 1,
+				["totaldamage"] = 229636,
 				["role"] = "DAMAGER",
 			}, -- [1]
 			{
+				["damagetaken"] = 10990,
+				["name"] = "Src",
+				["id"] = "0x07000000009AB00B",
+				["class"] = "ROGUE",
+				["spec"] = 260,
+				["overkill"] = 4657,
+				["totaldamage"] = 254510,
+				["role"] = "DAMAGER",
+				["time"] = 56.26000000000001,
 				["flag"] = 1298,
-				["class"] = "DRUID",
-				["totaldamage"] = 760930,
-				["time"] = 271.9799999999999,
-				["totaldamagetaken"] = 377046,
-				["damage"] = 760930,
-				["overheal"] = 19313,
-				["damagetaken"] = 277650,
-				["id"] = "0x0700000000517C3F",
-				["spec"] = 102,
-				["overkill"] = 15156,
-				["heal"] = 114647,
-				["name"] = "Bloomy",
-				["ccdone"] = 3,
-				["interrupt"] = 1,
-				["rage"] = 797,
-				["mana"] = 11726,
-				["role"] = "TANK",
+				["totaldamagetaken"] = 10990,
+				["energy"] = 90,
+				["damage"] = 254510,
 			}, -- [2]
 			{
-				["class"] = "MAGE",
-				["damagetaken"] = 78039,
-				["id"] = "0x0700000000B0105C",
+				["damagetaken"] = 7923,
+				["id"] = "0x070000000039B8D1",
+				["class"] = "DRUID",
+				["role"] = "HEALER",
+				["time"] = 0,
+				["name"] = "Shpakoina",
+				["totaldamagetaken"] = 7923,
+				["spec"] = 105,
 				["flag"] = 1298,
-				["mana"] = 12201,
-				["time"] = 164.8700000000001,
-				["overkill"] = 17107,
-				["spec"] = 63,
-				["role"] = "DAMAGER",
-				["name"] = "Upsee",
-				["death"] = 1,
-				["ccdone"] = 1,
-				["totaldamagetaken"] = 78039,
-				["totaldamage"] = 821891,
-				["damage"] = 821891,
 			}, -- [3]
 			{
-				["absorb"] = 3562,
-				["damagetaken"] = 67340,
-				["id"] = "0x0700000000AFF79B",
-				["spec"] = 62,
-				["flag"] = 1298,
-				["overkill"] = 3631,
-				["name"] = "Elitesheep",
+				["damagetaken"] = 13732,
+				["id"] = "0x0700000000173299",
+				["class"] = "WARLOCK",
+				["name"] = "Blackdeatth",
 				["role"] = "DAMAGER",
-				["time"] = 156.3500000000001,
+				["time"] = 0,
 				["death"] = 1,
-				["totaldamage"] = 463036,
-				["totaldamagetaken"] = 70902,
-				["class"] = "MAGE",
-				["damage"] = 463036,
+				["totaldamagetaken"] = 13732,
+				["spec"] = 267,
+				["flag"] = 1298,
 			}, -- [4]
 			{
+				["damagetaken"] = 5472,
+				["id"] = "0x0700000000A0BBB7",
+				["class"] = "DEATHKNIGHT",
+				["absorb"] = 1013,
+				["role"] = "TANK",
+				["time"] = 3.5,
+				["name"] = "Lnf",
+				["totaldamagetaken"] = 6485,
+				["spec"] = 250,
 				["flag"] = 1298,
-				["class"] = "PALADIN",
-				["totaldamage"] = 10541,
-				["time"] = 167.6699999999999,
-				["totaldamagetaken"] = 105807,
-				["damage"] = 10541,
-				["overheal"] = 177396,
-				["absorb"] = 51539,
-				["damagetaken"] = 105807,
-				["id"] = "0x0700000000A65FDF",
-				["spec"] = 65,
-				["heal"] = 455693,
-				["name"] = "Crazylazy",
-				["ccdone"] = 1,
-				["death"] = 1,
-				["mana"] = 10307,
-				["role"] = "HEALER",
 			}, -- [5]
-			{
-				["totaldamage"] = 0,
-				["time"] = 0,
-				["name"] = "Earth Elemental Totem",
-				["flag"] = 4424,
-				["class"] = "PET",
-				["id"] = "0xF130003C460CF972",
-				["damage"] = 0,
-			}, -- [6]
 		},
-		["starttime"] = 1729190728,
+		["absorb"] = 1013,
+		["damagetaken"] = 59953,
+		["name"] = "Total",
+		["starttime"] = 1729526483,
+		["death"] = 1,
+		["overheal"] = 0,
+		["overkill"] = 19953,
+		["heal"] = 11740,
+		["totaldamage"] = 484146,
+		["time"] = 64,
+		["ccdone"] = 1,
+		["totaldamagetaken"] = 60966,
+		["energy"] = 90,
+		["damage"] = 484146,
 	},
 	["version"] = 1878,
 	["sets"] = {
 		{
+			["eoverkill"] = 1294,
+			["damage"] = 477067,
+			["death"] = 1,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -132,3615 +98,1640 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Rimgar"] = {
-									["amount"] = 1706,
+									["amount"] = 16713,
 								},
 							},
-							["amount"] = 1706,
+							["amount"] = 16713,
 						},
-						[52474] = {
+						[42380] = {
+							["school"] = 4,
+							["targets"] = {
+								["Src"] = {
+									["amount"] = 6040,
+								},
+							},
+							["amount"] = 6040,
+						},
+						[42587] = {
 							["school"] = 1,
 							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 1059,
+								["Shpakoina"] = {
+									["amount"] = 2204,
+								},
+								["Blackdeatth"] = {
+									["amount"] = 3849,
+								},
+								["Src"] = {
+									["amount"] = 2454,
 								},
 							},
-							["amount"] = 1059,
+							["amount"] = 8507,
+						},
+						[43118] = {
+							["school"] = 1,
+							["overkill"] = 1294,
+							["targets"] = {
+								["Lnf"] = {
+									["amount"] = 1839,
+								},
+								["Blackdeatth"] = {
+									["overkill"] = 1294,
+									["amount"] = 7333,
+								},
+								["Shpakoina"] = {
+									["amount"] = 3414,
+								},
+								["Src"] = {
+									["amount"] = 2266,
+								},
+							},
+							["amount"] = 14852,
 						},
 					},
-					["damagetaken"] = 21227,
-					["id"] = "0xF1403E8B5300777D",
-					["class"] = "PET",
+					["damagetaken"] = 387205,
+					["flag"] = 68168,
+					["class"] = "BOSS",
 					["damagetakenspells"] = {
-						[6603] = {
+						[12721] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["overkill"] = 1073,
-									["amount"] = 3519,
+									["amount"] = 13745,
 								},
 							},
-							["overkill"] = 1073,
-							["amount"] = 3519,
+							["amount"] = 13745,
+						},
+						[47465] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 1339,
+									["amount"] = 5295,
+								},
+							},
+							["overkill"] = 1339,
+							["amount"] = 5295,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Src"] = {
+									["amount"] = 71048,
+								},
+								["Rimgar"] = {
+									["amount"] = 66665,
+								},
+							},
+							["amount"] = 137713,
+						},
+						[7384] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 11265,
+								},
+							},
+							["amount"] = 11265,
+						},
+						[48638] = {
+							["school"] = 1,
+							["sources"] = {
+								["Src"] = {
+									["amount"] = 54732,
+								},
+							},
+							["amount"] = 54732,
+						},
+						[57841] = {
+							["school"] = 1,
+							["sources"] = {
+								["Src"] = {
+									["amount"] = 13237,
+								},
+							},
+							["amount"] = 13237,
+						},
+						[20647] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["overkill"] = 5427,
+									["amount"] = 11235,
+								},
+							},
+							["overkill"] = 5427,
+							["amount"] = 11235,
+						},
+						[57842] = {
+							["school"] = 1,
+							["sources"] = {
+								["Src"] = {
+									["amount"] = 4713,
+								},
+							},
+							["amount"] = 4713,
+						},
+						[57970] = {
+							["school"] = 8,
+							["sources"] = {
+								["Src"] = {
+									["amount"] = 9643,
+								},
+							},
+							["amount"] = 9643,
 						},
 						[71904] = {
 							["school"] = 32,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 695,
+									["amount"] = 2785,
 								},
 							},
-							["amount"] = 695,
+							["amount"] = 2785,
 						},
-						[12721] = {
+						[47486] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 3005,
+									["amount"] = 50373,
 								},
 							},
-							["amount"] = 3005,
+							["amount"] = 50373,
+						},
+						[47502] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 2862,
+								},
+							},
+							["amount"] = 2862,
 						},
 						[50622] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 14008,
+									["amount"] = 38046,
 								},
 							},
-							["amount"] = 14008,
+							["amount"] = 38046,
+						},
+						[57965] = {
+							["school"] = 8,
+							["sources"] = {
+								["Src"] = {
+									["amount"] = 23341,
+								},
+							},
+							["amount"] = 23341,
+						},
+						[48668] = {
+							["school"] = 1,
+							["sources"] = {
+								["Src"] = {
+									["overkill"] = 2439,
+									["amount"] = 8220,
+								},
+							},
+							["overkill"] = 2439,
+							["amount"] = 8220,
 						},
 					},
-					["totaldamage"] = 2765,
-					["name"] = "Valjamdop",
-					["totaldamagetaken"] = 21227,
-					["flag"] = 4424,
-					["damage"] = 2765,
+					["name"] = "Headless Horseman",
+					["overkill"] = 1294,
+					["totaldamage"] = 46112,
+					["totaldamagetaken"] = 387205,
+					["id"] = "0xF130005C8200008A",
+					["damage"] = 46112,
 				}, -- [1]
 				{
-					["damagetaken"] = 15035,
-					["name"] = "Valjamspid",
-					["class"] = "HUNTER",
-					["flag"] = 66888,
-					["totaldamagetaken"] = 15035,
-					["id"] = "0x070000000065DA28",
-					["damagetakenspells"] = {
+					["damagespells"] = {
 						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Rimgar"] = {
+									["amount"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["damagetaken"] = 7487,
+					["id"] = "0xF13000191A000077",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[50622] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 6994,
+									["overkill"] = 4469,
+									["amount"] = 7487,
 								},
 							},
-							["amount"] = 6994,
+							["overkill"] = 4469,
+							["amount"] = 7487,
+						},
+					},
+					["totaldamage"] = 20,
+					["name"] = "Anguished Dead",
+					["totaldamagetaken"] = 7487,
+					["flag"] = 2632,
+					["damage"] = 20,
+				}, -- [2]
+				{
+					["id"] = "0xF130005CDF00008C",
+					["name"] = "Head of the Horseman",
+					["totaldamagetaken"] = 80533,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetaken"] = 80533,
+					["damagetakenspells"] = {
+						[57965] = {
+							["school"] = 8,
+							["sources"] = {
+								["Src"] = {
+									["amount"] = 9071,
+								},
+							},
+							["amount"] = 9071,
+						},
+						[48638] = {
+							["school"] = 1,
+							["sources"] = {
+								["Src"] = {
+									["overkill"] = 2218,
+									["amount"] = 23684,
+								},
+							},
+							["overkill"] = 2218,
+							["amount"] = 23684,
+						},
+						[48668] = {
+							["school"] = 1,
+							["sources"] = {
+								["Src"] = {
+									["amount"] = 2652,
+								},
+							},
+							["amount"] = 2652,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Src"] = {
+									["amount"] = 34169,
+								},
+							},
+							["amount"] = 34169,
 						},
 						[12721] = {
 							["school"] = 1,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 3430,
+									["amount"] = 1716,
 								},
 							},
-							["amount"] = 3430,
+							["amount"] = 1716,
 						},
+						[57755] = {
+							["school"] = 1,
+							["sources"] = {
+								["Rimgar"] = {
+									["amount"] = 9241,
+								},
+							},
+							["amount"] = 9241,
+						},
+					},
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Src"] = {
+									["amount"] = 230,
+								},
+								["Rimgar"] = {
+									["amount"] = 166,
+								},
+							},
+							["amount"] = 396,
+						},
+					},
+					["damagetaken"] = 1842,
+					["id"] = "0xF130005C8E00008F",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
 						[71904] = {
 							["school"] = 32,
 							["sources"] = {
 								["Rimgar"] = {
-									["amount"] = 967,
+									["amount"] = 1842,
 								},
 							},
-							["amount"] = 967,
-						},
-						[50622] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3644,
-								},
-							},
-							["amount"] = 3644,
+							["amount"] = 1842,
 						},
 					},
-				}, -- [2]
+					["totaldamage"] = 396,
+					["name"] = "Pulsing Pumpkin",
+					["totaldamagetaken"] = 1842,
+					["flag"] = 2632,
+					["damage"] = 396,
+				}, -- [4]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Lnf"] = {
+									["amount"] = 127,
+								},
+							},
+							["amount"] = 127,
+						},
+					},
+					["name"] = "Pumpkin Fiend",
+					["totaldamage"] = 127,
+					["flag"] = 2632,
+					["class"] = "MONSTER",
+					["id"] = "0xF130005BF9000095",
+					["damage"] = 127,
+				}, -- [5]
 			},
-			["totaldamage"] = 36262,
-			["time"] = 19,
-			["totaldamagetaken"] = 2765,
-			["etotaldamage"] = 2765,
-			["damage"] = 36262,
+			["overheal"] = 0,
+			["totaldamage"] = 477067,
+			["time"] = 64,
+			["totaldamagetaken"] = 60966,
+			["etotaldamagetaken"] = 477067,
+			["last_time"] = 37451.022,
 			["players"] = {
 				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Valjamspid"] = 1,
-							},
-						},
-						[676] = {
-							["count"] = 1,
-							["targets"] = {
-								["Valjamspid"] = 1,
-							},
-						},
-					},
-					["last"] = 9897.656000000001,
+					["last"] = 37444.169,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
 					["auras"] = {
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["targets"] = {
-								["Valjamdop"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-								["Valjamspid"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 11,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Valjamspid"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 19,
-						},
-						[16491] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 18,
-						},
-						[2457] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[46924] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[71] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[676] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Valjamspid"] = {
-									["uptime"] = 10,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 10,
-						},
 						[46857] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
 							["school"] = 1,
-							["refresh"] = 3,
+							["refresh"] = 14,
 							["targets"] = {
-								["Valjamdop"] = {
-									["refresh"] = 2,
+								["Headless Horseman"] = {
 									["count"] = 1,
-									["uptime"] = 8,
-								},
-								["Valjamspid"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 18,
+									["refresh"] = 14,
+									["uptime"] = 62,
 								},
 							},
-							["uptime"] = 18,
+							["uptime"] = 62,
+						},
+						[57522] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 8,
+							["uptime"] = 26,
+						},
+						[55694] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 10,
+						},
+						[46924] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 6,
+						},
+						[60503] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[73422] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 1,
 						},
 						[71905] = {
 							["type"] = "BUFF",
-							["count"] = 3,
+							["count"] = 2,
+							["refresh"] = 14,
 							["school"] = 1,
-							["refresh"] = 7,
-							["uptime"] = 16,
+							["uptime"] = 53,
 						},
 						[65156] = {
-							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 9,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[71541] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[47465] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["uptime"] = 16,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 16,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 15,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[52437] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 11,
+						},
+						[44185] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[47486] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 3,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["count"] = 3,
+									["refresh"] = 3,
+									["uptime"] = 54,
+								},
+							},
+							["uptime"] = 54,
+						},
+						[75456] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 64,
+							["uptime"] = 15,
+						},
+						[47502] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["uptime"] = 30,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 30,
+						},
+						[12721] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 1,
+							["refresh"] = 12,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Headless Horseman"] = {
+									["count"] = 3,
+									["refresh"] = 12,
+									["uptime"] = 43,
+								},
+							},
+							["uptime"] = 49,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[57933] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 12,
 						},
 					},
 					["role"] = "DAMAGER",
-					["time"] = 12.14,
-					["totaldamagetaken"] = 2765,
-					["damage"] = 36262,
+					["time"] = 42.63,
+					["totaldamagetaken"] = 21836,
+					["damage"] = 222557,
 					["damagespells"] = {
 						["Melee"] = {
-							["criticalamount"] = 10513,
+							["glance"] = 7592,
+							["hitmin"] = 3808,
+							["criticalmin"] = 6084,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 66665,
+								},
+							},
+							["glancing"] = 2,
+							["amount"] = 66665,
+							["glancemin"] = 3558,
+							["criticalamount"] = 55265,
 							["id"] = 6603,
-							["targets"] = {
-								["Valjamdop"] = {
-									["overkill"] = 1073,
-									["amount"] = 3519,
-								},
-								["Valjamspid"] = {
-									["amount"] = 6994,
-								},
-							},
-							["overkill"] = 1073,
-							["criticalmax"] = 3590,
-							["critical"] = 3,
-							["amount"] = 10513,
+							["glancemax"] = 4034,
+							["criticalmax"] = 9318,
+							["critical"] = 7,
+							["hit"] = 1,
 							["school"] = 1,
-							["criticalmin"] = 3404,
-							["count"] = 3,
-						},
-						["Whirlwind"] = {
-							["DODGE"] = 3,
-							["hitmin"] = 1349,
-							["criticalamount"] = 6771,
-							["id"] = 50622,
-							["criticalmin"] = 3125,
-							["targets"] = {
-								["Valjamdop"] = {
-									["amount"] = 14008,
-								},
-								["Valjamspid"] = {
-									["amount"] = 3644,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 12,
-							["criticalmax"] = 3646,
-							["hitmax"] = 1831,
-							["amount"] = 17652,
-							["school"] = 1,
-							["hit"] = 7,
-							["critical"] = 2,
-							["hitamount"] = 10881,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 275,
-							["id"] = 12721,
-							["targets"] = {
-								["Valjamdop"] = {
-									["amount"] = 3005,
-								},
-								["Valjamspid"] = {
-									["amount"] = 3430,
-								},
-							},
-							["count"] = 16,
-							["hit"] = 16,
-							["school"] = 1,
-							["hitmax"] = 543,
-							["amount"] = 6435,
-							["hitamount"] = 6435,
+							["count"] = 11,
+							["hitmax"] = 3808,
+							["hitamount"] = 3808,
 						},
 						["Chaos Bane"] = {
-							["hitmin"] = 695,
+							["hitmin"] = 584,
 							["id"] = 71904,
 							["targets"] = {
-								["Valjamdop"] = {
-									["amount"] = 695,
+								["Pulsing Pumpkin"] = {
+									["amount"] = 1842,
 								},
-								["Valjamspid"] = {
-									["amount"] = 967,
+								["Headless Horseman"] = {
+									["amount"] = 2785,
 								},
 							},
-							["hitmax"] = 967,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 32,
+							["hitmax"] = 2159,
+							["amount"] = 4627,
+							["hitamount"] = 4627,
+						},
+						["Execute"] = {
+							["criticalamount"] = 11235,
+							["id"] = 20647,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["overkill"] = 5427,
+									["amount"] = 11235,
+								},
+							},
+							["overkill"] = 5427,
+							["blocked"] = 40,
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 11235,
+							["school"] = 1,
+							["criticalmin"] = 11235,
+							["criticalmax"] = 11235,
+							["count"] = 1,
+						},
+						["Whirlwind"] = {
+							["blocked"] = 55,
+							["criticalmin"] = 7189,
+							["hitmin"] = 3150,
+							["criticalamount"] = 31981,
+							["id"] = 50622,
+							["criticalmax"] = 8900,
+							["targets"] = {
+								["Anguished Dead"] = {
+									["overkill"] = 4469,
+									["amount"] = 7487,
+								},
+								["Headless Horseman"] = {
+									["amount"] = 38046,
+								},
+							},
+							["overkill"] = 4469,
+							["critical"] = 4,
+							["casts"] = 1,
+							["count"] = 8,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 3698,
+							["amount"] = 45533,
+							["hitamount"] = 13552,
+						},
+						["Rend"] = {
 							["casts"] = 1,
 							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 297,
-							["amount"] = 1662,
-							["hitamount"] = 1662,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 2,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 47465,
+						},
+						["Mortal Strike"] = {
+							["blocked"] = 40,
+							["hitmin"] = 3568,
+							["criticalamount"] = 38166,
+							["id"] = 47486,
+							["criticalmin"] = 12099,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 50373,
+								},
+							},
+							["criticalmax"] = 13345,
+							["critical"] = 3,
+							["casts"] = 6,
+							["count"] = 6,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 4611,
+							["amount"] = 50373,
+							["hitamount"] = 12207,
+						},
+						["Thunder Clap"] = {
+							["criticalamount"] = 2862,
+							["id"] = 47502,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 2862,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 2862,
+							["school"] = 1,
+							["criticalmin"] = 2862,
+							["criticalmax"] = 2862,
+							["count"] = 1,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 1765,
+							["id"] = 47465,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["overkill"] = 1339,
+									["amount"] = 5295,
+								},
+							},
+							["overkill"] = 1339,
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 1765,
+							["amount"] = 5295,
+							["hitamount"] = 5295,
+						},
+						["Deep Wounds"] = {
+							["casts"] = 1,
+							["count"] = 18,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 18,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 12721,
+						},
+						["Charge Stun"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 7922,
+						},
+						["Overpower"] = {
+							["criticalamount"] = 11265,
+							["id"] = 7384,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 11265,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 11265,
+							["school"] = 1,
+							["criticalmin"] = 11265,
+							["criticalmax"] = 11265,
+							["count"] = 1,
+						},
+						["Heroic Throw"] = {
+							["criticalamount"] = 9241,
+							["id"] = 57755,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["amount"] = 9241,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 9241,
+							["school"] = 1,
+							["criticalmin"] = 9241,
+							["criticalmax"] = 9241,
+							["count"] = 1,
+						},
+						["Deep Wounds (DoT)"] = {
+							["hitmin"] = 286,
+							["id"] = 12721,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["amount"] = 1716,
+								},
+								["Headless Horseman"] = {
+									["amount"] = 13745,
+								},
+							},
+							["count"] = 26,
+							["hit"] = 26,
+							["school"] = 1,
+							["hitmax"] = 1786,
+							["amount"] = 15461,
+							["hitamount"] = 15461,
 						},
 					},
-					["damagetaken"] = 2765,
+					["damagetaken"] = 21836,
 					["id"] = "0x070000000040A064",
 					["spec"] = 71,
 					["healspells"] = {
-						[16491] = {
+						[55694] = {
 							["overheal"] = 0,
-							["max"] = 407,
-							["count"] = 6,
-							["amount"] = 2442,
-							["school"] = 1,
 							["targets"] = {
 								["Rimgar"] = {
 									["overheal"] = 0,
-									["amount"] = 2442,
+									["amount"] = 11740,
 								},
 							},
+							["count"] = 10,
+							["amount"] = 11740,
+							["school"] = 1,
+							["max"] = 1174,
 							["ishot"] = true,
-							["min"] = 407,
+							["min"] = 1174,
 						},
 					},
 					["damagetakenspells"] = {
+						["Horseman's Conflagration"] = {
+							["hitmin"] = 2464,
+							["hitmax"] = 2473,
+							["count"] = 2,
+							["amount"] = 4937,
+							["school"] = 4,
+							["id"] = 42381,
+							["hit"] = 2,
+							["hitamount"] = 4937,
+						},
 						["Melee"] = {
-							["hitmin"] = 200,
+							["DODGE"] = 1,
+							["hitmin"] = 20,
 							["id"] = 6603,
+							["amount"] = 16899,
+							["hitmax"] = 1718,
 							["sources"] = {
-								["Valjamdop"] = {
-									["amount"] = 1706,
+								["Headless Horseman"] = {
+									["amount"] = 16713,
+								},
+								["Pulsing Pumpkin"] = {
+									["amount"] = 166,
+								},
+								["Anguished Dead"] = {
+									["amount"] = 20,
+								},
+							},
+							["count"] = 18,
+							["hit"] = 14,
+							["school"] = 1,
+							["PARRY"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 16899,
+						},
+						["Horseman's Cleave"] = {
+							["DODGE"] = 1,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 42587,
+						},
+					},
+					["heal"] = 11740,
+					["name"] = "Rimgar",
+					["overheal"] = 0,
+					["overkill"] = 11235,
+					["totaldamage"] = 222557,
+				}, -- [1]
+				{
+					["id"] = "0x0700000000A0BBB7",
+					["absorb"] = 1013,
+					["damagetaken"] = 5472,
+					["damagetakenspells"] = {
+						["Horseman's Conflagration"] = {
+							["total"] = 4519,
+							["hitmin"] = 1239,
+							["id"] = 42381,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 2267,
+							["amount"] = 3506,
+							["hitamount"] = 3506,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 57,
+							["id"] = 6603,
+							["amount"] = 127,
+							["hitmax"] = 70,
+							["sources"] = {
+								["Pumpkin Fiend"] = {
+									["amount"] = 127,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 2,
+							["school"] = 1,
+							["PARRY"] = 1,
+							["MISS"] = 2,
+							["hitamount"] = 127,
+						},
+						["Horseman's Whirl"] = {
+							["hitmin"] = 319,
+							["id"] = 43118,
+							["amount"] = 1839,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 1839,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 402,
+							["MISS"] = 3,
+							["hitamount"] = 1839,
+						},
+					},
+					["flag"] = 1298,
+					["class"] = "DEATHKNIGHT",
+					["last"] = 37416.996,
+					["auras"] = {
+						[48263] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[44185] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 1,
+						},
+						[67631] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["uptime"] = 10,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[57623] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 52,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[2479] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+					},
+					["absorbspells"] = {
+						[49497] = {
+							["min"] = 1013,
+							["count"] = 1,
+							["amount"] = 1013,
+							["school"] = 1,
+							["targets"] = {
+								["Lnf"] = 1013,
+							},
+							["max"] = 1013,
+						},
+					},
+					["time"] = 3.5,
+					["spec"] = 250,
+					["totaldamagetaken"] = 6485,
+					["role"] = "TANK",
+					["name"] = "Lnf",
+				}, -- [2]
+				{
+					["last"] = 37387.457,
+					["damagetaken"] = 7923,
+					["id"] = "0x070000000039B8D1",
+					["spec"] = 105,
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[48470] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[33891] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[48422] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[44185] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 39,
+						},
+					},
+					["damagetakenspells"] = {
+						["Horseman's Conflagration"] = {
+							["hitmin"] = 2305,
+							["id"] = 42381,
+							["hitmax"] = 2305,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 4,
+							["resisted"] = 256,
+							["amount"] = 2305,
+							["hitamount"] = 2305,
+						},
+						["Horseman's Whirl"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 619,
+							["id"] = 43118,
+							["hitmax"] = 777,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 3414,
+								},
+							},
+							["count"] = 8,
+							["hit"] = 5,
+							["school"] = 1,
+							["amount"] = 3414,
+							["MISS"] = 2,
+							["hitamount"] = 3414,
+						},
+						["Horseman's Cleave"] = {
+							["hitmin"] = 2204,
+							["id"] = 42587,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 2204,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2204,
+							["amount"] = 2204,
+							["hitamount"] = 2204,
+						},
+					},
+					["role"] = "HEALER",
+					["name"] = "Shpakoina",
+					["flag"] = 1298,
+					["totaldamagetaken"] = 7923,
+					["time"] = 0,
+					["class"] = "DRUID",
+				}, -- [3]
+				{
+					["last"] = 37387.457,
+					["damagetaken"] = 13732,
+					["deathlog"] = {
+						{
+							["log"] = {
+								{
+									["time"] = 37428.941,
+									["source"] = "Headless Horseman",
+									["amount"] = -1323,
+									["school"] = 1,
+									["hp"] = 1,
+									["spellid"] = 43118,
+									["overkill"] = 1294,
+								}, -- [1]
+								{
+									["source"] = "Headless Horseman",
+									["amount"] = -1100,
+									["school"] = 1,
+									["hp"] = 29,
+									["spellid"] = 43118,
+									["time"] = 37427.907,
+								}, -- [2]
+								{
+									["source"] = "Headless Horseman",
+									["amount"] = -1255,
+									["school"] = 1,
+									["hp"] = 1129,
+									["spellid"] = 43118,
+									["time"] = 37426.856,
+								}, -- [3]
+								{
+									["source"] = "Headless Horseman",
+									["amount"] = -1267,
+									["school"] = 1,
+									["hp"] = 2384,
+									["spellid"] = 43118,
+									["time"] = 37425.89,
+								}, -- [4]
+								{
+									["time"] = 37417.001,
+									["amount"] = -2550,
+									["school"] = 4,
+									["spellid"] = 42381,
+									["hp"] = 3651,
+								}, -- [5]
+								{
+									["source"] = "Headless Horseman",
+									["amount"] = -1174,
+									["school"] = 1,
+									["hp"] = 6201,
+									["spellid"] = 43118,
+									["time"] = 37406.29300000001,
+								}, -- [6]
+								{
+									["source"] = "Headless Horseman",
+									["amount"] = -1214,
+									["school"] = 1,
+									["hp"] = 7375,
+									["spellid"] = 43118,
+									["time"] = 37405.277,
+								}, -- [7]
+								{
+									["source"] = "Headless Horseman",
+									["amount"] = -3849,
+									["school"] = 1,
+									["hp"] = 8589,
+									["spellid"] = 42587,
+									["time"] = 37394.52,
+								}, -- [8]
+							},
+							["time"] = 37428.94,
+							["timeod"] = 1729526551,
+							["school"] = 1,
+							["maxhp"] = 13365,
+							["spellid"] = 43118,
+							["source"] = "Headless Horseman",
+						}, -- [1]
+					},
+					["id"] = "0x0700000000173299",
+					["spec"] = 267,
+					["auras"] = {
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[44185] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 64,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 41,
+						},
+					},
+					["damagetakenspells"] = {
+						["Horseman's Conflagration"] = {
+							["hitmin"] = 2550,
+							["hitmax"] = 2550,
+							["count"] = 1,
+							["amount"] = 2550,
+							["school"] = 4,
+							["id"] = 42381,
+							["hit"] = 1,
+							["hitamount"] = 2550,
+						},
+						["Horseman's Whirl"] = {
+							["hitmin"] = 1100,
+							["id"] = 43118,
+							["overkill"] = 1294,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["overkill"] = 1294,
+									["amount"] = 7333,
+								},
+							},
+							["count"] = 6,
+							["hit"] = 6,
+							["school"] = 1,
+							["hitmax"] = 1323,
+							["amount"] = 7333,
+							["hitamount"] = 7333,
+						},
+						["Horseman's Cleave"] = {
+							["hitmin"] = 3849,
+							["id"] = 42587,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 3849,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 3849,
+							["amount"] = 3849,
+							["hitamount"] = 3849,
+						},
+					},
+					["role"] = "DAMAGER",
+					["name"] = "Blackdeatth",
+					["death"] = 1,
+					["flag"] = 1298,
+					["totaldamagetaken"] = 13732,
+					["time"] = 0,
+					["class"] = "WARLOCK",
+				}, -- [4]
+				{
+					["last"] = 37450.361,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["auras"] = {
+						[75458] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 64,
+							["uptime"] = 27,
+						},
+						[13877] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[71560] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 30,
+						},
+						[57934] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 4,
+						},
+						[72221] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[58683] = {
+							["type"] = "DEBUFF",
+							["count"] = 16,
+							["school"] = 1,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["uptime"] = 6,
+									["count"] = 3,
+								},
+								["Headless Horseman"] = {
+									["uptime"] = 32,
+									["count"] = 13,
+								},
+							},
+							["uptime"] = 32,
+						},
+						[53138] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[26669] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 11,
+						},
+						[13750] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 20,
+						},
+						[6774] = {
+							["type"] = "BUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 54,
+						},
+						[59620] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["uptime"] = 30,
+						},
+						[47440] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+						[20572] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 15,
+						},
+						[57970] = {
+							["type"] = "DEBUFF",
+							["count"] = 4,
+							["school"] = 8,
+							["refresh"] = 13,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["count"] = 2,
+									["refresh"] = 1,
+									["uptime"] = 6,
+								},
+								["Headless Horseman"] = {
+									["count"] = 2,
+									["refresh"] = 12,
+									["uptime"] = 48,
+								},
+							},
+							["uptime"] = 48,
+						},
+						[51690] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 2,
+						},
+						[72412] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["uptime"] = 10,
+						},
+						[59628] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["uptime"] = 12,
+						},
+						[44185] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 64,
+						},
+					},
+					["energyspells"] = {
+						[35548] = 75,
+						[70804] = 15,
+					},
+					["time"] = 59.76000000000001,
+					["totaldamagetaken"] = 10990,
+					["damage"] = 254510,
+					["damagespells"] = {
+						["Ruthlessness"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 14157,
+						},
+						["Melee"] = {
+							["glance"] = 6066,
+							["hitmin"] = 642,
+							["criticalmin"] = 1406,
+							["IMMUNE"] = 11,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["amount"] = 34169,
+								},
+								["Headless Horseman"] = {
+									["amount"] = 71048,
+								},
+							},
+							["glancing"] = 4,
+							["amount"] = 105217,
+							["MISS"] = 2,
+							["glancemin"] = 743,
+							["criticalamount"] = 73405,
+							["id"] = 6603,
+							["glancemax"] = 1901,
+							["criticalmax"] = 4783,
+							["critical"] = 27,
+							["hit"] = 24,
+							["school"] = 1,
+							["count"] = 68,
+							["hitmax"] = 1766,
+							["hitamount"] = 25746,
+						},
+						["Blade Twisting"] = {
+							["casts"] = 1,
+							["count"] = 8,
+							["amount"] = 0,
+							["school"] = 1,
+							["IMMUNE"] = 8,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+								["Head of the Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 51585,
+						},
+						["Sinister Strike"] = {
+							["count"] = 19,
+							["hitmax"] = 2753,
+							["hitmin"] = 1874,
+							["criticalamount"] = 59777,
+							["id"] = 48638,
+							["IMMUNE"] = 1,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["overkill"] = 2218,
+									["amount"] = 23684,
+								},
+								["Headless Horseman"] = {
+									["amount"] = 54732,
+								},
+							},
+							["overkill"] = 2218,
+							["hit"] = 8,
+							["casts"] = 19,
+							["critical"] = 10,
+							["amount"] = 78416,
+							["school"] = 1,
+							["criticalmin"] = 4717,
+							["criticalmax"] = 7361,
+							["hitamount"] = 18639,
+						},
+						["Killing Spree"] = {
+							["hitmin"] = 746,
+							["criticalamount"] = 11415,
+							["id"] = 57841,
+							["hitmax"] = 1758,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 17950,
+								},
+							},
+							["count"] = 10,
+							["hit"] = 6,
+							["casts"] = 1,
+							["critical"] = 4,
+							["amount"] = 17950,
+							["school"] = 1,
+							["criticalmin"] = 1623,
+							["criticalmax"] = 3386,
+							["hitamount"] = 6535,
+						},
+						["Eviscerate"] = {
+							["hitmax"] = 3210,
+							["hitmin"] = 3210,
+							["criticalamount"] = 7662,
+							["id"] = 48668,
+							["count"] = 3,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["amount"] = 2652,
+								},
+								["Headless Horseman"] = {
+									["overkill"] = 2439,
+									["amount"] = 8220,
+								},
+							},
+							["overkill"] = 2439,
+							["hit"] = 1,
+							["casts"] = 3,
+							["critical"] = 2,
+							["amount"] = 10872,
+							["school"] = 1,
+							["criticalmin"] = 2652,
+							["criticalmax"] = 5010,
+							["hitamount"] = 3210,
+						},
+						["Instant Poison IX"] = {
+							["hitmin"] = 904,
+							["criticalamount"] = 13674,
+							["id"] = 57965,
+							["criticalmin"] = 1582,
+							["targets"] = {
+								["Head of the Horseman"] = {
+									["amount"] = 9071,
+								},
+								["Headless Horseman"] = {
+									["amount"] = 23341,
+								},
+							},
+							["criticalmax"] = 2407,
+							["critical"] = 7,
+							["casts"] = 1,
+							["count"] = 24,
+							["hit"] = 17,
+							["school"] = 8,
+							["hitmax"] = 1299,
+							["amount"] = 32412,
+							["hitamount"] = 18738,
+						},
+						["Deadly Poison IX"] = {
+							["casts"] = 1,
+							["count"] = 7,
+							["amount"] = 0,
+							["school"] = 8,
+							["IMMUNE"] = 7,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 57970,
+						},
+						["Deadly Poison IX (DoT)"] = {
+							["hitmin"] = 530,
+							["id"] = 57970,
+							["targets"] = {
+								["Headless Horseman"] = {
+									["amount"] = 9643,
 								},
 							},
 							["count"] = 8,
 							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 237,
-							["amount"] = 1706,
-							["hitamount"] = 1706,
-						},
-						["Bite"] = {
-							["hitmin"] = 162,
-							["id"] = 52474,
-							["sources"] = {
-								["Valjamdop"] = {
-									["amount"] = 1059,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 279,
-							["amount"] = 1059,
-							["hitamount"] = 1059,
+							["school"] = 8,
+							["hitmax"] = 1590,
+							["amount"] = 9643,
+							["hitamount"] = 9643,
 						},
 					},
-					["heal"] = 2442,
-					["name"] = "Rimgar",
-					["ccdone"] = 2,
-					["overkill"] = 1073,
-					["overheal"] = 0,
-					["totaldamage"] = 36262,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 2765,
-			["last_time"] = 9904.429,
-			["overheal"] = 0,
-			["starttime"] = 1729197207,
-			["etotaldamagetaken"] = 36262,
-			["overkill"] = 1073,
-			["edamagetaken"] = 36262,
-			["heal"] = 2442,
-			["name"] = "Valjamspid",
-			["ccdone"] = 2,
-			["mobname"] = "Valjamspid",
-			["edamage"] = 2765,
-			["last_action"] = 1729197226,
-			["endtime"] = 1729197226,
-		}, -- [1]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 191,
-								},
-							},
-							["amount"] = 191,
-						},
-					},
-					["damagetaken"] = 7583,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
+					["damagetaken"] = 10990,
+					["id"] = "0x07000000009AB00B",
+					["spec"] = 260,
+					["overkill"] = 4657,
+					["name"] = "Src",
 					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
+						["Conflagration (DoT)"] = {
+							["hitmin"] = 1510,
+							["id"] = 42380,
 							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 597,
-									["amount"] = 4586,
-								},
-							},
-							["overkill"] = 597,
-							["amount"] = 4586,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2997,
-								},
-							},
-							["amount"] = 2997,
-						},
-					},
-					["totaldamage"] = 191,
-					["name"] = "Plagued Scavenger",
-					["totaldamagetaken"] = 7583,
-					["id"] = "0xF1300064320D2B8A",
-					["damage"] = 191,
-				}, -- [1]
-			},
-			["totaldamage"] = 7583,
-			["time"] = 5,
-			["totaldamagetaken"] = 191,
-			["etotaldamagetaken"] = 7583,
-			["last_time"] = 9867.346,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 2116,
-							["id"] = 6603,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["overkill"] = 597,
-									["amount"] = 4586,
-								},
-							},
-							["overkill"] = 597,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2470,
-							["amount"] = 4586,
-							["hitamount"] = 4586,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 2997,
-							["id"] = 47486,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 2997,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2997,
-							["amount"] = 2997,
-							["hitamount"] = 2997,
-						},
-					},
-					["last"] = 9866.969999999999,
-					["damagetaken"] = 191,
-					["auras"] = {
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[71905] = {
-							["refresh"] = 3,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-					},
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["id"] = "0x070000000040A064",
-					["overkill"] = 597,
-					["time"] = 4.220000000000001,
-					["totaldamage"] = 7583,
-					["name"] = "Rimgar",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 91,
-							["id"] = 6603,
-							["sources"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 191,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 100,
-							["amount"] = 191,
-							["hitamount"] = 191,
-						},
-					},
-					["totaldamagetaken"] = 191,
-					["role"] = "DAMAGER",
-					["damage"] = 7583,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 191,
-			["damage"] = 7583,
-			["overkill"] = 597,
-			["edamagetaken"] = 7583,
-			["etotaldamage"] = 191,
-			["name"] = "Plagued Scavenger (9)",
-			["mobname"] = "Plagued Scavenger",
-			["starttime"] = 1729197185,
-			["edamage"] = 191,
-			["last_action"] = 1729197189,
-			["endtime"] = 1729197190,
-		}, -- [2]
-		{
-			["enemies"] = {
-				{
-					["damagetaken"] = 8987,
-					["name"] = "Plagued Scavenger",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 8987,
-					["id"] = "0xF1300064320D1400",
-					["damagetakenspells"] = {
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3582,
-								},
-							},
-							["amount"] = 3582,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 3244,
-									["amount"] = 5405,
-								},
-							},
-							["overkill"] = 3244,
-							["amount"] = 5405,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 8987,
-			["time"] = 5,
-			["totaldamagetaken"] = 0,
-			["etotaldamagetaken"] = 8987,
-			["last_time"] = 8358.746999999999,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["hitmin"] = 3582,
-							["id"] = 47486,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 3582,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3582,
-							["amount"] = 3582,
-							["hitamount"] = 3582,
-						},
-						["Melee"] = {
-							["criticalamount"] = 5405,
-							["id"] = 6603,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["overkill"] = 3244,
-									["amount"] = 5405,
-								},
-							},
-							["overkill"] = 3244,
-							["criticalmax"] = 5405,
-							["critical"] = 1,
-							["amount"] = 5405,
-							["school"] = 1,
-							["criticalmin"] = 5405,
-							["count"] = 1,
-						},
-					},
-					["last"] = 8356.74,
-					["damagetaken"] = 0,
-					["overkill"] = 3244,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["id"] = "0x070000000040A064",
-					["auras"] = {
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[71905] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[57522] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-					},
-					["time"] = 2.77,
-					["role"] = "DAMAGER",
-					["name"] = "Rimgar",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["PARRY"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["sources"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 0,
-								},
-							},
-							["id"] = 6603,
-						},
-					},
-					["totaldamagetaken"] = 0,
-					["totaldamage"] = 8987,
-					["damage"] = 8987,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 0,
-			["overkill"] = 3244,
-			["edamagetaken"] = 8987,
-			["name"] = "Plagued Scavenger (8)",
-			["mobname"] = "Plagued Scavenger",
-			["damage"] = 8987,
-			["starttime"] = 1729195676,
-			["last_action"] = 1729195681,
-			["endtime"] = 1729195681,
-		}, -- [3]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 170,
-								},
-							},
-							["amount"] = 170,
-						},
-					},
-					["damagetaken"] = 33738,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 4752,
-								},
-							},
-							["amount"] = 4752,
-						},
-						[50622] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 8309,
-									["amount"] = 27641,
-								},
-							},
-							["overkill"] = 8309,
-							["amount"] = 27641,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1345,
-								},
-							},
-							["amount"] = 1345,
-						},
-					},
-					["totaldamage"] = 170,
-					["name"] = "Cultist Necrolyte",
-					["totaldamagetaken"] = 33738,
-					["id"] = "0xF1300064330D16E5",
-					["damage"] = 170,
-				}, -- [1]
-			},
-			["totaldamage"] = 33738,
-			["time"] = 5,
-			["totaldamagetaken"] = 170,
-			["etotaldamagetaken"] = 33738,
-			["last_time"] = 8222.167,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Cultist Necrolyte"] = 1,
-							},
-						},
-					},
-					["last"] = 8222.166000000001,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[12328] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 5,
-						},
-						[46924] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 4,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 3,
-						},
-					},
-					["totaldamage"] = 33738,
-					["time"] = 4.7,
-					["totaldamagetaken"] = 170,
-					["damage"] = 33738,
-					["damagespells"] = {
-						["Whirlwind"] = {
-							["criticalmin"] = 5830,
-							["hitmin"] = 2124,
-							["criticalamount"] = 18091,
-							["id"] = 50622,
-							["critical"] = 3,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["overkill"] = 8309,
-									["amount"] = 27641,
-								},
-							},
-							["overkill"] = 8309,
-							["amount"] = 27641,
-							["criticalmax"] = 6352,
-							["count"] = 7,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 2686,
-							["casts"] = 1,
-							["hitamount"] = 9550,
-						},
-						["Melee"] = {
-							["criticalamount"] = 4752,
-							["id"] = 6603,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["amount"] = 4752,
-								},
-							},
-							["criticalmax"] = 4752,
-							["critical"] = 1,
-							["amount"] = 4752,
-							["school"] = 1,
-							["criticalmin"] = 4752,
-							["count"] = 1,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 665,
-							["id"] = 71904,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["amount"] = 1345,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["hitmax"] = 680,
-							["amount"] = 1345,
-							["hitamount"] = 1345,
-						},
-					},
-					["damagetaken"] = 170,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 84,
-							["id"] = 6603,
-							["hitmax"] = 86,
-							["sources"] = {
-								["Cultist Necrolyte"] = {
-									["amount"] = 170,
+								["Headless Horseman"] = {
+									["amount"] = 6040,
 								},
 							},
 							["count"] = 4,
+							["hit"] = 4,
+							["school"] = 4,
+							["hitmax"] = 1510,
+							["amount"] = 6040,
+							["hitamount"] = 6040,
+						},
+						["Horseman's Cleave"] = {
+							["hitmin"] = 2454,
+							["id"] = 42587,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 2454,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 2454,
+							["amount"] = 2454,
+							["hitamount"] = 2454,
+						},
+						["Melee"] = {
+							["hitmin"] = 113,
+							["id"] = 6603,
+							["sources"] = {
+								["Pulsing Pumpkin"] = {
+									["amount"] = 230,
+								},
+							},
+							["count"] = 2,
 							["hit"] = 2,
 							["school"] = 1,
-							["amount"] = 170,
+							["hitmax"] = 117,
+							["amount"] = 230,
+							["hitamount"] = 230,
+						},
+						["Horseman's Whirl"] = {
+							["hitmin"] = 708,
+							["id"] = 43118,
+							["amount"] = 2266,
+							["PARRY"] = 1,
+							["sources"] = {
+								["Headless Horseman"] = {
+									["amount"] = 2266,
+								},
+							},
+							["count"] = 5,
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 836,
 							["MISS"] = 1,
-							["hitamount"] = 170,
+							["hitamount"] = 2266,
 						},
 					},
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["overkill"] = 8309,
+					["totaldamage"] = 254510,
+					["energy"] = 90,
 					["role"] = "DAMAGER",
-				}, -- [1]
+				}, -- [5]
 			},
-			["type"] = "none",
-			["damagetaken"] = 170,
-			["etotaldamage"] = 170,
-			["damage"] = 33738,
-			["overkill"] = 8309,
-			["edamagetaken"] = 33738,
-			["starttime"] = 1729195539,
-			["name"] = "Cultist Necrolyte (2)",
-			["mobname"] = "Cultist Necrolyte",
-			["ccdone"] = 1,
-			["edamage"] = 170,
-			["last_action"] = 1729195544,
-			["endtime"] = 1729195544,
-		}, -- [4]
-		{
-			["enemies"] = {
-				{
-					["damagetaken"] = 11450,
-					["name"] = "Plagued Scavenger",
-					["class"] = "MONSTER",
-					["flag"] = 68168,
-					["totaldamagetaken"] = 11450,
-					["id"] = "0xF1300064320D0C85",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2144,
-								},
-							},
-							["amount"] = 2144,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2887,
-								},
-							},
-							["amount"] = 2887,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 3466,
-									["amount"] = 6419,
-								},
-							},
-							["overkill"] = 3466,
-							["amount"] = 6419,
-						},
-					},
-				}, -- [1]
-			},
-			["totaldamage"] = 11450,
-			["time"] = 5,
-			["etotaldamagetaken"] = 11450,
-			["last_time"] = 8023.218,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = 1,
-							},
-						},
-					},
-					["last"] = 8021.395,
-					["overkill"] = 3466,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["hitmin"] = 2887,
-							["id"] = 47486,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 2887,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2887,
-							["amount"] = 2887,
-							["hitamount"] = 2887,
-						},
-						["Melee"] = {
-							["hitmin"] = 2144,
-							["id"] = 6603,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 2144,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2144,
-							["amount"] = 2144,
-							["hitamount"] = 2144,
-						},
-						["Execute"] = {
-							["criticalamount"] = 6419,
-							["id"] = 20647,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["overkill"] = 3466,
-									["amount"] = 6419,
-								},
-							},
-							["overkill"] = 3466,
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 6419,
-							["school"] = 1,
-							["criticalmin"] = 6419,
-							["criticalmax"] = 6419,
-							["count"] = 1,
-						},
-					},
-					["auras"] = {
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 5,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[47440] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-						[57522] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[71905] = {
-							["refresh"] = 3,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-					},
-					["id"] = "0x070000000040A064",
-					["role"] = "DAMAGER",
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["spec"] = 71,
-					["time"] = 2.98,
-					["totaldamage"] = 11450,
-					["damage"] = 11450,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["overkill"] = 3466,
-			["edamagetaken"] = 11450,
-			["starttime"] = 1729195340,
-			["name"] = "Plagued Scavenger (7)",
-			["mobname"] = "Plagued Scavenger",
-			["ccdone"] = 1,
-			["damage"] = 11450,
-			["last_action"] = 1729195345,
-			["endtime"] = 1729195345,
-		}, -- [5]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 84,
-								},
-							},
-							["amount"] = 84,
-						},
-					},
-					["damagetaken"] = 37389,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 4806,
-								},
-							},
-							["amount"] = 4806,
-						},
-						[50622] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 14238,
-									["amount"] = 32583,
-								},
-							},
-							["overkill"] = 14238,
-							["amount"] = 32583,
-						},
-					},
-					["totaldamage"] = 84,
-					["name"] = "Cultist Necrolyte",
-					["totaldamagetaken"] = 37389,
-					["id"] = "0xF1300064330D01CB",
-					["damage"] = 84,
-				}, -- [1]
-			},
-			["totaldamage"] = 37389,
-			["time"] = 5,
-			["totaldamagetaken"] = 84,
-			["etotaldamagetaken"] = 37389,
-			["last_time"] = 7895.362,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Cultist Necrolyte"] = 1,
-							},
-						},
-					},
-					["last"] = 7894.247,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["uptime"] = 1,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 5,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[12328] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[72412] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[46924] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["refresh"] = 2,
-									["count"] = 2,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[71905] = {
-							["refresh"] = 4,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 3,
-						},
-					},
-					["totaldamage"] = 37389,
-					["time"] = 3.67,
-					["totaldamagetaken"] = 84,
-					["damage"] = 37389,
-					["damagespells"] = {
-						["Melee"] = {
-							["criticalamount"] = 4806,
-							["id"] = 6603,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["amount"] = 4806,
-								},
-							},
-							["criticalmax"] = 4806,
-							["critical"] = 1,
-							["amount"] = 4806,
-							["school"] = 1,
-							["criticalmin"] = 4806,
-							["count"] = 1,
-						},
-						["Whirlwind"] = {
-							["criticalamount"] = 32583,
-							["id"] = 50622,
-							["targets"] = {
-								["Cultist Necrolyte"] = {
-									["overkill"] = 14238,
-									["amount"] = 32583,
-								},
-							},
-							["overkill"] = 14238,
-							["casts"] = 1,
-							["critical"] = 5,
-							["amount"] = 32583,
-							["school"] = 1,
-							["criticalmin"] = 5933,
-							["criticalmax"] = 7512,
-							["count"] = 5,
-						},
-					},
-					["damagetaken"] = 84,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 84,
-							["id"] = 6603,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Cultist Necrolyte"] = {
-									["amount"] = 84,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 84,
-							["amount"] = 84,
-							["hitamount"] = 84,
-						},
-					},
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["overkill"] = 14238,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 84,
-			["damage"] = 37389,
-			["etotaldamage"] = 84,
-			["overkill"] = 14238,
-			["edamagetaken"] = 37389,
-			["starttime"] = 1729195212,
-			["name"] = "Cultist Necrolyte",
-			["mobname"] = "Cultist Necrolyte",
-			["ccdone"] = 1,
-			["edamage"] = 84,
-			["last_action"] = 1729195217,
-			["endtime"] = 1729195217,
-		}, -- [6]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 209,
-								},
-							},
-							["amount"] = 209,
-						},
-					},
-					["damagetaken"] = 10516,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 4162,
-								},
-							},
-							["amount"] = 4162,
-						},
-						[47502] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 733,
-								},
-							},
-							["amount"] = 733,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2984,
-								},
-							},
-							["amount"] = 2984,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 2532,
-									["amount"] = 2637,
-								},
-							},
-							["overkill"] = 2532,
-							["amount"] = 2637,
-						},
-					},
-					["totaldamage"] = 209,
-					["name"] = "Plagued Scavenger",
-					["totaldamagetaken"] = 10516,
-					["id"] = "0xF1300064320D0A1E",
-					["damage"] = 209,
-				}, -- [1]
-			},
-			["totaldamage"] = 10516,
-			["time"] = 7,
-			["totaldamagetaken"] = 209,
-			["etotaldamagetaken"] = 10516,
-			["last_time"] = 7843.22,
-			["overheal"] = 205,
-			["type"] = "none",
-			["damagetaken"] = 209,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = 1,
-							},
-						},
-					},
-					["last"] = 7841.821,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 7,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-						[16491] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 2,
-							["uptime"] = 6,
-						},
-						[47502] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 7,
-						},
-					},
-					["totaldamage"] = 10516,
-					["time"] = 5.53,
-					["totaldamagetaken"] = 209,
-					["damage"] = 10516,
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["hitmin"] = 2984,
-							["id"] = 47486,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 2984,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2984,
-							["amount"] = 2984,
-							["hitamount"] = 2984,
-						},
-						["Thunder Clap"] = {
-							["hitmin"] = 733,
-							["id"] = 47502,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 733,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 733,
-							["amount"] = 733,
-							["hitamount"] = 733,
-						},
-						["Melee"] = {
-							["hitmin"] = 2022,
-							["id"] = 6603,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 4162,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2140,
-							["amount"] = 4162,
-							["hitamount"] = 4162,
-						},
-						["Execute"] = {
-							["hitmin"] = 2637,
-							["id"] = 20647,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["overkill"] = 2532,
-									["amount"] = 2637,
-								},
-							},
-							["overkill"] = 2532,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2637,
-							["amount"] = 2637,
-							["hitamount"] = 2637,
-						},
-					},
-					["damagetaken"] = 209,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["healspells"] = {
-						[16491] = {
-							["overheal"] = 205,
-							["max"] = 209,
-							["count"] = 1,
-							["amount"] = 209,
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 205,
-									["amount"] = 209,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 209,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 96,
-							["id"] = 6603,
-							["sources"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 209,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 113,
-							["amount"] = 209,
-							["hitamount"] = 209,
-						},
-					},
-					["heal"] = 209,
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["overheal"] = 205,
-					["overkill"] = 2532,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["starttime"] = 1729195158,
-			["damage"] = 10516,
-			["etotaldamage"] = 209,
-			["overkill"] = 2532,
-			["edamagetaken"] = 10516,
-			["heal"] = 209,
-			["name"] = "Plagued Scavenger (6)",
-			["ccdone"] = 1,
-			["mobname"] = "Plagued Scavenger",
-			["edamage"] = 209,
-			["last_action"] = 1729195165,
-			["endtime"] = 1729195165,
-		}, -- [7]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 96,
-								},
-							},
-							["amount"] = 96,
-						},
-					},
-					["damagetaken"] = 8276,
-					["id"] = "0xF1300064320D0DE3",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2733,
-								},
-							},
-							["amount"] = 2733,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 292,
-									["amount"] = 3164,
-								},
-							},
-							["overkill"] = 292,
-							["amount"] = 3164,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2379,
-								},
-							},
-							["amount"] = 2379,
-						},
-					},
-					["totaldamage"] = 96,
-					["name"] = "Plagued Scavenger",
-					["totaldamagetaken"] = 8276,
-					["flag"] = 68168,
-					["damage"] = 96,
-				}, -- [1]
-			},
-			["totaldamage"] = 8276,
-			["time"] = 5,
-			["totaldamagetaken"] = 96,
-			["etotaldamage"] = 96,
-			["last_time"] = 7793.288000000001,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Execute"] = {
-							["hitmin"] = 2379,
-							["id"] = 20647,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 2379,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2379,
-							["amount"] = 2379,
-							["hitamount"] = 2379,
-						},
-						["Melee"] = {
-							["hitmin"] = 2733,
-							["id"] = 6603,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 2733,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2733,
-							["amount"] = 2733,
-							["hitamount"] = 2733,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 3164,
-							["id"] = 47486,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["overkill"] = 292,
-									["amount"] = 3164,
-								},
-							},
-							["overkill"] = 292,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3164,
-							["amount"] = 3164,
-							["hitamount"] = 3164,
-						},
-					},
-					["last"] = 7793.198,
-					["damagetaken"] = 96,
-					["overkill"] = 292,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["id"] = "0x070000000040A064",
-					["auras"] = {
-						[52437] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 5,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[71905] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-					},
-					["time"] = 3.97,
-					["role"] = "DAMAGER",
-					["name"] = "Rimgar",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 96,
-							["id"] = 6603,
-							["sources"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 96,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 96,
-							["amount"] = 96,
-							["hitamount"] = 96,
-						},
-					},
-					["totaldamagetaken"] = 96,
-					["totaldamage"] = 8276,
-					["damage"] = 8276,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 96,
-			["damage"] = 8276,
-			["overkill"] = 292,
-			["edamagetaken"] = 8276,
-			["etotaldamagetaken"] = 8276,
-			["name"] = "Plagued Scavenger (5)",
-			["mobname"] = "Plagued Scavenger",
-			["starttime"] = 1729195111,
-			["edamage"] = 96,
-			["last_action"] = 1729195115,
-			["endtime"] = 1729195116,
-		}, -- [8]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 106,
-								},
-							},
-							["amount"] = 106,
-						},
-					},
-					["damagetaken"] = 6372,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 386,
-									["amount"] = 5604,
-								},
-							},
-							["overkill"] = 386,
-							["amount"] = 5604,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 768,
-								},
-							},
-							["amount"] = 768,
-						},
-					},
-					["totaldamage"] = 106,
-					["name"] = "Plagued Scavenger",
-					["totaldamagetaken"] = 6372,
-					["id"] = "0xF1300064320D080B",
-					["damage"] = 106,
-				}, -- [1]
-			},
-			["totaldamage"] = 6372,
-			["time"] = 5,
-			["totaldamagetaken"] = 106,
-			["etotaldamagetaken"] = 6372,
-			["last_time"] = 7623.698,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 2657,
-							["id"] = 6603,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["overkill"] = 386,
-									["amount"] = 5604,
-								},
-							},
-							["overkill"] = 386,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 2947,
-							["amount"] = 5604,
-							["hitamount"] = 5604,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 256,
-							["id"] = 12721,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 768,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 256,
-							["amount"] = 768,
-							["hitamount"] = 768,
-						},
-					},
-					["last"] = 7623.139,
-					["damagetaken"] = 106,
-					["auras"] = {
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[71905] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["id"] = "0x070000000040A064",
-					["overkill"] = 386,
-					["time"] = 4.01,
-					["totaldamage"] = 6372,
-					["name"] = "Rimgar",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 106,
-							["id"] = 6603,
-							["sources"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 106,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 106,
-							["amount"] = 106,
-							["hitamount"] = 106,
-						},
-					},
-					["totaldamagetaken"] = 106,
-					["role"] = "DAMAGER",
-					["damage"] = 6372,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 106,
-			["damage"] = 6372,
-			["overkill"] = 386,
-			["edamagetaken"] = 6372,
-			["etotaldamage"] = 106,
-			["name"] = "Plagued Scavenger (4)",
-			["mobname"] = "Plagued Scavenger",
-			["starttime"] = 1729194941,
-			["edamage"] = 106,
-			["last_action"] = 1729194945,
-			["endtime"] = 1729194946,
-		}, -- [9]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 234,
-								},
-							},
-							["amount"] = 234,
-						},
-					},
-					["damagetaken"] = 8976,
-					["id"] = "0xF1300064320D0808",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3318,
-								},
-							},
-							["amount"] = 3318,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 3621,
-									["amount"] = 5658,
-								},
-							},
-							["overkill"] = 3621,
-							["amount"] = 5658,
-						},
-					},
-					["totaldamage"] = 234,
-					["name"] = "Plagued Scavenger",
-					["totaldamagetaken"] = 8976,
-					["flag"] = 68168,
-					["damage"] = 234,
-				}, -- [1]
-			},
-			["totaldamage"] = 8976,
-			["time"] = 5,
-			["totaldamagetaken"] = 234,
-			["etotaldamage"] = 234,
-			["last_time"] = 7410.659000000001,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["hitmin"] = 3318,
-							["id"] = 47486,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 3318,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3318,
-							["amount"] = 3318,
-							["hitamount"] = 3318,
-						},
-						["Melee"] = {
-							["criticalamount"] = 5658,
-							["id"] = 6603,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["overkill"] = 3621,
-									["amount"] = 5658,
-								},
-							},
-							["overkill"] = 3621,
-							["criticalmax"] = 5658,
-							["critical"] = 1,
-							["amount"] = 5658,
-							["school"] = 1,
-							["criticalmin"] = 5658,
-							["count"] = 1,
-						},
-					},
-					["last"] = 7409.625,
-					["damagetaken"] = 234,
-					["overkill"] = 3621,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["id"] = "0x070000000040A064",
-					["auras"] = {
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[71905] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[57522] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 5,
-							["count"] = 1,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["time"] = 3.35,
-					["role"] = "DAMAGER",
-					["name"] = "Rimgar",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 112,
-							["id"] = 6603,
-							["sources"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 234,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 122,
-							["amount"] = 234,
-							["hitamount"] = 234,
-						},
-					},
-					["totaldamagetaken"] = 234,
-					["totaldamage"] = 8976,
-					["damage"] = 8976,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 234,
-			["damage"] = 8976,
-			["overkill"] = 3621,
-			["edamagetaken"] = 8976,
-			["etotaldamagetaken"] = 8976,
-			["name"] = "Plagued Scavenger (3)",
-			["mobname"] = "Plagued Scavenger",
-			["starttime"] = 1729194728,
-			["edamage"] = 234,
-			["last_action"] = 1729194732,
-			["endtime"] = 1729194733,
-		}, -- [10]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 214,
-								},
-							},
-							["amount"] = 214,
-						},
-					},
-					["damagetaken"] = 10841,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2913,
-								},
-							},
-							["amount"] = 2913,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 2857,
-									["amount"] = 7928,
-								},
-							},
-							["overkill"] = 2857,
-							["amount"] = 7928,
-						},
-					},
-					["totaldamage"] = 214,
-					["name"] = "Plagued Scavenger",
-					["totaldamagetaken"] = 10841,
-					["id"] = "0xF1300064320CFF9F",
-					["damage"] = 214,
-				}, -- [1]
-			},
-			["totaldamage"] = 10841,
-			["time"] = 6,
-			["totaldamagetaken"] = 214,
-			["etotaldamagetaken"] = 10841,
-			["damage"] = 10841,
-			["players"] = {
-				{
-					["last"] = 6944.747,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[71905] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 6,
-							["count"] = 1,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[57522] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
-							["uptime"] = 6,
-							["count"] = 1,
-						},
-						[16491] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 4.33,
-					["totaldamagetaken"] = 214,
-					["damage"] = 10841,
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["hitmin"] = 2913,
-							["id"] = 47486,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 2913,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 2913,
-							["amount"] = 2913,
-							["hitamount"] = 2913,
-						},
-						["Melee"] = {
-							["hitmin"] = 2517,
-							["criticalamount"] = 5411,
-							["id"] = 6603,
-							["criticalmin"] = 5411,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["overkill"] = 2857,
-									["amount"] = 7928,
-								},
-							},
-							["overkill"] = 2857,
-							["count"] = 2,
-							["criticalmax"] = 5411,
-							["critical"] = 1,
-							["amount"] = 7928,
-							["school"] = 1,
-							["hitmax"] = 2517,
-							["hit"] = 1,
-							["hitamount"] = 2517,
-						},
-					},
-					["damagetaken"] = 214,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["healspells"] = {
-						[16491] = {
-							["overheal"] = 1028,
-							["max"] = 110,
-							["count"] = 3,
-							["amount"] = 214,
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 1028,
-									["amount"] = 214,
-								},
-							},
-							["ishot"] = true,
-							["min"] = 104,
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 104,
-							["id"] = 6603,
-							["sources"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 214,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 110,
-							["amount"] = 214,
-							["hitamount"] = 214,
-						},
-					},
-					["heal"] = 214,
-					["name"] = "Rimgar",
-					["overkill"] = 2857,
-					["overheal"] = 1028,
-					["totaldamage"] = 10841,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 214,
-			["last_time"] = 6946.139,
-			["etotaldamage"] = 214,
-			["overheal"] = 1028,
-			["overkill"] = 2857,
-			["edamagetaken"] = 10841,
-			["heal"] = 214,
-			["name"] = "Plagued Scavenger (2)",
-			["mobname"] = "Plagued Scavenger",
-			["starttime"] = 1729194262,
-			["edamage"] = 214,
-			["last_action"] = 1729194268,
-			["endtime"] = 1729194268,
-		}, -- [11]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 104,
-								},
-							},
-							["amount"] = 104,
-						},
-					},
-					["damagetaken"] = 10599,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 3613,
-									["amount"] = 7431,
-								},
-							},
-							["overkill"] = 3613,
-							["amount"] = 7431,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3168,
-								},
-							},
-							["amount"] = 3168,
-						},
-					},
-					["totaldamage"] = 104,
-					["name"] = "Plagued Scavenger",
-					["totaldamagetaken"] = 10599,
-					["id"] = "0xF1300064320CFF08",
-					["damage"] = 104,
-				}, -- [1]
-			},
-			["totaldamage"] = 10599,
-			["time"] = 6,
-			["totaldamagetaken"] = 104,
-			["etotaldamagetaken"] = 10599,
-			["last_time"] = 6908.047000000001,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = 1,
-							},
-						},
-					},
-					["last"] = 6906.472,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 6,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[59620] = {
-							["school"] = 2,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[57522] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 5,
-						},
-					},
-					["totaldamage"] = 10599,
-					["time"] = 4.279999999999999,
-					["totaldamagetaken"] = 104,
-					["damage"] = 10599,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 2191,
-							["criticalamount"] = 5240,
-							["id"] = 6603,
-							["criticalmin"] = 5240,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["overkill"] = 3613,
-									["amount"] = 7431,
-								},
-							},
-							["overkill"] = 3613,
-							["count"] = 2,
-							["criticalmax"] = 5240,
-							["critical"] = 1,
-							["amount"] = 7431,
-							["school"] = 1,
-							["hitmax"] = 2191,
-							["hit"] = 1,
-							["hitamount"] = 2191,
-						},
-						["Mortal Strike"] = {
-							["hitmin"] = 3168,
-							["id"] = 47486,
-							["targets"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 3168,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3168,
-							["amount"] = 3168,
-							["hitamount"] = 3168,
-						},
-					},
-					["damagetaken"] = 104,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 104,
-							["id"] = 6603,
-							["sources"] = {
-								["Plagued Scavenger"] = {
-									["amount"] = 104,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 104,
-							["amount"] = 104,
-							["hitamount"] = 104,
-						},
-					},
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["overkill"] = 3613,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 104,
-			["damage"] = 10599,
-			["etotaldamage"] = 104,
-			["overkill"] = 3613,
-			["edamagetaken"] = 10599,
-			["starttime"] = 1729194224,
-			["name"] = "Plagued Scavenger",
-			["mobname"] = "Plagued Scavenger",
-			["ccdone"] = 1,
-			["edamage"] = 104,
-			["last_action"] = 1729194230,
-			["endtime"] = 1729194230,
-		}, -- [12]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 989,
-								},
-							},
-							["amount"] = 989,
-						},
-					},
-					["damagetaken"] = 40929,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1083,
-								},
-							},
-							["amount"] = 1083,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2068,
-								},
-							},
-							["amount"] = 2068,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 1009,
-									["amount"] = 2005,
-								},
-							},
-							["overkill"] = 1009,
-							["amount"] = 2005,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 13546,
-								},
-							},
-							["amount"] = 13546,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 7331,
-								},
-							},
-							["amount"] = 7331,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 14896,
-								},
-							},
-							["amount"] = 14896,
-						},
-					},
-					["totaldamage"] = 989,
-					["name"] = "Magnataur Huntress",
-					["totaldamagetaken"] = 40929,
-					["id"] = "0xF130005F950C07E1",
-					["damage"] = 989,
-				}, -- [1]
-			},
-			["totaldamage"] = 40929,
-			["time"] = 9,
-			["totaldamagetaken"] = 989,
-			["etotaldamagetaken"] = 40929,
-			["last_time"] = 6763.009,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Magnataur Huntress"] = 1,
-							},
-						},
-					},
-					["last"] = 6762.585,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[60503] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 4,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["refresh"] = 1,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 9,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 7,
-								},
-							},
-							["uptime"] = 7,
-						},
-						[71905] = {
-							["refresh"] = 3,
-							["type"] = "BUFF",
-							["uptime"] = 7,
-							["count"] = 1,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["uptime"] = 9,
-						},
-					},
-					["totaldamage"] = 40929,
-					["time"] = 7.839999999999999,
-					["totaldamagetaken"] = 989,
-					["damage"] = 40929,
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["criticalamount"] = 14896,
-							["id"] = 47486,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 14896,
-								},
-							},
-							["casts"] = 2,
-							["critical"] = 2,
-							["amount"] = 14896,
-							["school"] = 1,
-							["criticalmin"] = 6620,
-							["criticalmax"] = 8276,
-							["count"] = 2,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 292,
-							["id"] = 12721,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 2068,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 1,
-							["hitmax"] = 719,
-							["amount"] = 2068,
-							["hitamount"] = 2068,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 2005,
-							["id"] = 71904,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["overkill"] = 1009,
-									["amount"] = 2005,
-								},
-							},
-							["overkill"] = 1009,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2005,
-							["amount"] = 2005,
-							["hitamount"] = 2005,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 7331,
-							["id"] = 7384,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 7331,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 7331,
-							["school"] = 1,
-							["criticalmin"] = 7331,
-							["criticalmax"] = 7331,
-							["count"] = 1,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1083,
-							["id"] = 47465,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 1083,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1083,
-							["amount"] = 1083,
-							["hitamount"] = 1083,
-						},
-						["Melee"] = {
-							["hitmin"] = 2515,
-							["criticalamount"] = 11031,
-							["id"] = 6603,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 13546,
-								},
-							},
-							["criticalmin"] = 5481,
-							["critical"] = 2,
-							["criticalmax"] = 5550,
-							["count"] = 3,
-							["amount"] = 13546,
-							["school"] = 1,
-							["hit"] = 1,
-							["hitmax"] = 2515,
-							["hitamount"] = 2515,
-						},
-					},
-					["damagetaken"] = 989,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 471,
-							["id"] = 6603,
-							["count"] = 3,
-							["blocked"] = 518,
-							["sources"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 989,
-								},
-							},
-							["BLOCK"] = 1,
-							["amount"] = 989,
-							["school"] = 1,
-							["hit"] = 2,
-							["hitmax"] = 518,
-							["hitamount"] = 989,
-						},
-					},
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["overkill"] = 1009,
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 989,
-			["damage"] = 40929,
-			["etotaldamage"] = 989,
-			["overkill"] = 1009,
-			["edamagetaken"] = 40929,
-			["starttime"] = 1729194077,
-			["name"] = "Magnataur Huntress (12)",
-			["mobname"] = "Magnataur Huntress",
-			["ccdone"] = 1,
-			["edamage"] = 989,
-			["last_action"] = 1729194085,
-			["endtime"] = 1729194086,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 1070,
-								},
-							},
-							["amount"] = 1070,
-						},
-					},
-					["damagetaken"] = 37400,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[47465] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1461,
-								},
-							},
-							["amount"] = 1461,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 1654,
-								},
-							},
-							["amount"] = 1654,
-						},
-						[47450] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 3090,
-								},
-							},
-							["amount"] = 3090,
-						},
-						[71904] = {
-							["school"] = 32,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 2094,
-								},
-							},
-							["amount"] = 2094,
-						},
-						[20647] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 2009,
-									["amount"] = 13790,
-								},
-							},
-							["overkill"] = 2009,
-							["amount"] = 13790,
-						},
-						[7384] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 7432,
-								},
-							},
-							["amount"] = 7432,
-						},
-						[47486] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 7879,
-								},
-							},
-							["amount"] = 7879,
-						},
-					},
-					["totaldamage"] = 1070,
-					["name"] = "Magnataur Huntress",
-					["totaldamagetaken"] = 37400,
-					["id"] = "0xF130005F950CFD02",
-					["damage"] = 1070,
-				}, -- [1]
-			},
-			["totaldamage"] = 37400,
-			["time"] = 8,
-			["totaldamagetaken"] = 1070,
-			["etotaldamagetaken"] = 37400,
-			["last_time"] = 6719.692,
-			["players"] = {
-				{
-					["damagespells"] = {
-						["Mortal Strike"] = {
-							["criticalamount"] = 7879,
-							["id"] = 47486,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 7879,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 7879,
-							["school"] = 1,
-							["criticalmin"] = 7879,
-							["criticalmax"] = 7879,
-							["count"] = 1,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 293,
-							["id"] = 12721,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 1654,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 794,
-							["amount"] = 1654,
-							["hitamount"] = 1654,
-						},
-						["Chaos Bane"] = {
-							["hitmin"] = 2094,
-							["id"] = 71904,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 2094,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 2094,
-							["amount"] = 2094,
-							["hitamount"] = 2094,
-						},
-						["Execute"] = {
-							["criticalamount"] = 13790,
-							["id"] = 20647,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["overkill"] = 2009,
-									["amount"] = 13790,
-								},
-							},
-							["overkill"] = 2009,
-							["casts"] = 1,
-							["critical"] = 2,
-							["amount"] = 13790,
-							["school"] = 1,
-							["criticalmin"] = 6204,
-							["criticalmax"] = 7586,
-							["count"] = 2,
-						},
-						["Overpower"] = {
-							["criticalamount"] = 7432,
-							["id"] = 7384,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 7432,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 7432,
-							["school"] = 1,
-							["criticalmin"] = 7432,
-							["criticalmax"] = 7432,
-							["count"] = 1,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 1461,
-							["id"] = 47465,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 1461,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 1461,
-							["amount"] = 1461,
-							["hitamount"] = 1461,
-						},
-						["Heroic Strike"] = {
-							["hitmin"] = 3090,
-							["id"] = 47450,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 3090,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 3090,
-							["amount"] = 3090,
-							["hitamount"] = 3090,
-						},
-					},
-					["last"] = 6719.537,
-					["damagetaken"] = 1070,
-					["auras"] = {
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 3,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["refresh"] = 3,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[60503] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[47465] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[52437] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
-						[59620] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["refresh"] = 1,
-							["uptime"] = 5,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[65156] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 2,
-						},
-						[47486] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["targets"] = {
-								["Magnataur Huntress"] = {
-									["refresh"] = 4,
-									["count"] = 1,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[71905] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 5,
-							["uptime"] = 8,
-						},
-						[57522] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 4,
-							["uptime"] = 8,
-						},
-					},
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["id"] = "0x070000000040A064",
-					["overkill"] = 2009,
-					["time"] = 6.339999999999999,
-					["totaldamage"] = 37400,
-					["name"] = "Rimgar",
-					["spec"] = 71,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 521,
-							["id"] = 6603,
-							["BLOCK"] = 1,
-							["hit"] = 2,
-							["sources"] = {
-								["Magnataur Huntress"] = {
-									["amount"] = 1070,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 1070,
-							["school"] = 1,
-							["hitmax"] = 549,
-							["blocked"] = 485,
-							["hitamount"] = 1070,
-						},
-					},
-					["totaldamagetaken"] = 1070,
-					["role"] = "DAMAGER",
-					["damage"] = 37400,
-				}, -- [1]
-			},
-			["type"] = "none",
-			["damagetaken"] = 1070,
-			["damage"] = 37400,
-			["overkill"] = 2009,
-			["edamagetaken"] = 37400,
-			["etotaldamage"] = 1070,
-			["name"] = "Magnataur Huntress (11)",
-			["mobname"] = "Magnataur Huntress",
-			["starttime"] = 1729194035,
-			["edamage"] = 1070,
-			["last_action"] = 1729194041,
-			["endtime"] = 1729194043,
-		}, -- [14]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Rimgar"] = {
-									["amount"] = 215,
-								},
-							},
-							["amount"] = 215,
-						},
-					},
-					["damagetaken"] = 8139,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["amount"] = 6985,
-								},
-							},
-							["amount"] = 6985,
-						},
-						[12721] = {
-							["school"] = 1,
-							["sources"] = {
-								["Rimgar"] = {
-									["overkill"] = 155,
-									["amount"] = 1154,
-								},
-							},
-							["overkill"] = 155,
-							["amount"] = 1154,
-						},
-					},
-					["totaldamage"] = 215,
-					["name"] = "Den Vermin",
-					["totaldamagetaken"] = 8139,
-					["id"] = "0xF130005FF70CFCD7",
-					["damage"] = 215,
-				}, -- [1]
-			},
-			["totaldamage"] = 8139,
-			["time"] = 6,
-			["totaldamagetaken"] = 215,
-			["etotaldamagetaken"] = 8139,
-			["last_time"] = 6710.751,
-			["starttime"] = 1729194027,
-			["type"] = "none",
-			["damagetaken"] = 215,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Den Vermin"] = 1,
-							},
-						},
-					},
-					["last"] = 6710.744,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[55694] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 3,
-						},
-						[65156] = {
-							["school"] = 1,
-							["type"] = "BUFF",
-							["count"] = 2,
-							["uptime"] = 6,
-						},
-						[12721] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Den Vermin"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[48101] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[46857] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Den Vermin"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[47440] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Den Vermin"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[71905] = {
-							["refresh"] = 2,
-							["type"] = "BUFF",
-							["uptime"] = 6,
-							["count"] = 1,
-						},
-					},
-					["totaldamage"] = 8139,
-					["time"] = 5.37,
-					["totaldamagetaken"] = 215,
-					["damage"] = 8139,
-					["overheal"] = 3726,
-					["damagetaken"] = 215,
-					["id"] = "0x070000000040A064",
-					["spec"] = 71,
-					["healspells"] = {
-						[55694] = {
-							["overheal"] = 3726,
-							["count"] = 3,
-							["amount"] = 0,
-							["school"] = 1,
-							["ishot"] = true,
-							["targets"] = {
-								["Rimgar"] = {
-									["overheal"] = 3726,
-									["amount"] = 0,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["DODGE"] = 2,
-							["hitmin"] = 96,
-							["id"] = 6603,
-							["sources"] = {
-								["Den Vermin"] = {
-									["amount"] = 215,
-								},
-							},
-							["count"] = 4,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 119,
-							["amount"] = 215,
-							["hitamount"] = 215,
-						},
-					},
-					["heal"] = 0,
-					["name"] = "Rimgar",
-					["ccdone"] = 1,
-					["overkill"] = 155,
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 2638,
-							["criticalamount"] = 4347,
-							["id"] = 6603,
-							["targets"] = {
-								["Den Vermin"] = {
-									["amount"] = 6985,
-								},
-							},
-							["criticalmin"] = 4347,
-							["critical"] = 1,
-							["criticalmax"] = 4347,
-							["count"] = 2,
-							["amount"] = 6985,
-							["school"] = 1,
-							["hit"] = 1,
-							["hitmax"] = 2638,
-							["hitamount"] = 2638,
-						},
-						["Deep Wounds (DoT)"] = {
-							["hitmin"] = 288,
-							["id"] = 12721,
-							["targets"] = {
-								["Den Vermin"] = {
-									["overkill"] = 155,
-									["amount"] = 1154,
-								},
-							},
-							["overkill"] = 155,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 289,
-							["amount"] = 1154,
-							["hitamount"] = 1154,
-						},
-					},
-					["role"] = "DAMAGER",
-				}, -- [1]
-			},
-			["etotaldamage"] = 215,
-			["overheal"] = 3726,
-			["ccdone"] = 1,
-			["overkill"] = 155,
-			["edamagetaken"] = 8139,
-			["heal"] = 0,
-			["name"] = "Den Vermin (2)",
-			["mobname"] = "Den Vermin",
-			["damage"] = 8139,
-			["edamage"] = 215,
-			["last_action"] = 1729194033,
-			["endtime"] = 1729194033,
-		}, -- [15]
+			["type"] = "party",
+			["damagetaken"] = 59953,
+			["gotboss"] = 23682,
+			["absorb"] = 1013,
+			["energy"] = 90,
+			["etotaldamage"] = 46655,
+			["overkill"] = 15892,
+			["edamagetaken"] = 477067,
+			["heal"] = 11740,
+			["name"] = "Headless Horseman",
+			["mobname"] = "Headless Horseman",
+			["starttime"] = 1729526510,
+			["edamage"] = 46655,
+			["last_action"] = 1729526573,
+			["endtime"] = 1729526574,
+		}, -- [1]
 	},
 }
