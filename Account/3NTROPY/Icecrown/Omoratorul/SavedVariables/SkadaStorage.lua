@@ -1,29 +1,23 @@
 
 SkadaStorageDB = {
 	["total"] = {
-		["death"] = 4,
 		["mana"] = 1587,
-		["potion"] = 7,
-		["overheal"] = 71235,
 		["dispel"] = 9,
-		["totaldamage"] = 417000,
-		["time"] = 1812,
-		["rage"] = 1539,
+		["totaldamage"] = 420405,
+		["time"] = 1939,
 		["totaldamagetaken"] = 84608,
-		["damage"] = 417000,
-		["starttime"] = 1729449154,
+		["damage"] = 420405,
+		["overheal"] = 71235,
 		["absorb"] = 25320,
 		["damagetaken"] = 59236,
 		["interrupt"] = 60,
-		["overkill"] = 30728,
-		["heal"] = 34854,
-		["name"] = "Total",
-		["ccdone"] = 61,
+		["overkill"] = 34106,
 		["players"] = {
 			{
 				["flag"] = 1298,
 				["class"] = "PRIEST",
 				["dispel"] = 7,
+				["totaldamage"] = 75394,
 				["time"] = 755.2500000000002,
 				["totaldamagetaken"] = 15740,
 				["damage"] = 75394,
@@ -33,57 +27,57 @@ SkadaStorageDB = {
 				["id"] = "0x0700000000B06C58",
 				["spec"] = 256,
 				["overkill"] = 4985,
-				["ccdone"] = 2,
 				["heal"] = 31055,
 				["name"] = "Popasfant",
-				["death"] = 1,
-				["potion"] = 3,
-				["mana"] = 1587,
-				["totaldamage"] = 75394,
+				["ccdone"] = 2,
 				["role"] = "HEALER",
+				["mana"] = 1587,
+				["potion"] = 3,
+				["death"] = 1,
 			}, -- [1]
 			{
-				["flag"] = 1298,
-				["class"] = "ROGUE",
-				["time"] = 806.1300000000005,
-				["totaldamagetaken"] = 10198,
-				["damage"] = 108729,
-				["damagetaken"] = 8942,
 				["id"] = "0x0700000000B0D62C",
+				["damagetaken"] = 8942,
+				["totaldamage"] = 108729,
+				["interrupt"] = 11,
+				["class"] = "ROGUE",
 				["spec"] = 260,
 				["overkill"] = 5414,
-				["name"] = "Slavcul",
 				["death"] = 1,
-				["ccdone"] = 1,
-				["interrupt"] = 11,
-				["totaldamage"] = 108729,
 				["role"] = "DAMAGER",
+				["time"] = 806.1300000000005,
+				["ccdone"] = 1,
+				["name"] = "Slavcul",
+				["totaldamagetaken"] = 10198,
+				["flag"] = 1298,
+				["damage"] = 108729,
 			}, -- [2]
 			{
 				["flag"] = 1297,
 				["class"] = "WARRIOR",
-				["time"] = 1397.54,
+				["totaldamage"] = 166412,
+				["time"] = 1464.24,
 				["totaldamagetaken"] = 45327,
-				["damage"] = 163007,
-				["rage"] = 1539,
+				["damage"] = 166412,
+				["rage"] = 1569,
 				["damagetaken"] = 27781,
 				["id"] = "0x0700000000B06C55",
 				["spec"] = 73,
-				["potion"] = 1,
-				["overkill"] = 10850,
-				["death"] = 1,
+				["overkill"] = 14228,
+				["role"] = "TANK",
 				["heal"] = 2277,
 				["name"] = "Omoratorul",
-				["ccdone"] = 58,
-				["overheal"] = 1696,
+				["death"] = 1,
 				["interrupt"] = 49,
-				["totaldamage"] = 163007,
-				["role"] = "TANK",
+				["overheal"] = 1696,
+				["ccdone"] = 58,
+				["potion"] = 1,
 			}, -- [3]
 			{
 				["flag"] = 1298,
 				["class"] = "MAGE",
 				["dispel"] = 2,
+				["totaldamage"] = 69870,
 				["time"] = 330.9599999999999,
 				["totaldamagetaken"] = 13343,
 				["damage"] = 69870,
@@ -95,14 +89,223 @@ SkadaStorageDB = {
 				["heal"] = 1522,
 				["name"] = "Vrajadefoc",
 				["death"] = 1,
-				["potion"] = 3,
-				["totaldamage"] = 69870,
 				["role"] = "DAMAGER",
+				["potion"] = 3,
 			}, -- [4]
 		},
+		["heal"] = 34854,
+		["potion"] = 7,
+		["death"] = 4,
+		["ccdone"] = 61,
+		["name"] = "Total",
+		["starttime"] = 1729449154,
+		["rage"] = 1569,
 	},
 	["version"] = 1878,
 	["sets"] = {
+		{
+			["starttime"] = 1729513592,
+			["type"] = "none",
+			["time"] = 13,
+			["last_time"] = 24483.913,
+			["players"] = {
+				{
+					["damagespells"] = {
+						["Melee"] = {
+							["DODGE"] = 1,
+							["PARRY"] = 1,
+							["count"] = 3,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 6603,
+							["targets"] = {
+								["Expert's Training Dummy"] = {
+									["amount"] = 0,
+								},
+							},
+							["MISS"] = 1,
+						},
+					},
+					["last"] = 24471.256,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
+					},
+					["totaldamage"] = 0,
+					["name"] = "Omoratorul",
+					["class"] = "WARRIOR",
+					["time"] = 0,
+					["flag"] = 1297,
+					["role"] = "TANK",
+					["damage"] = 0,
+				}, -- [1]
+			},
+			["totaldamage"] = 0,
+			["name"] = "Expert's Training Dummy (2)",
+			["mobname"] = "Expert's Training Dummy",
+			["damage"] = 0,
+			["last_action"] = 1729513605,
+			["endtime"] = 1729513605,
+		}, -- [1]
+		{
+			["enemies"] = {
+				{
+					["damagetaken"] = 3405,
+					["name"] = "Expert's Training Dummy",
+					["class"] = "MONSTER",
+					["flag"] = 68136,
+					["totaldamagetaken"] = 3405,
+					["id"] = "0xF130007F9A001D54",
+					["damagetakenspells"] = {
+						[23922] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 2430,
+									["amount"] = 2439,
+								},
+							},
+							["overkill"] = 2430,
+							["amount"] = 2439,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["overkill"] = 948,
+									["amount"] = 966,
+								},
+							},
+							["overkill"] = 948,
+							["amount"] = 966,
+						},
+					},
+				}, -- [1]
+			},
+			["totaldamage"] = 3405,
+			["time"] = 114,
+			["etotaldamagetaken"] = 3405,
+			["last_time"] = 23777.87,
+			["players"] = {
+				{
+					["rage"] = 30,
+					["last"] = 23770.27,
+					["totaldamage"] = 3405,
+					["flag"] = 1297,
+					["class"] = "WARRIOR",
+					["id"] = "0x0700000000B06C55",
+					["auras"] = {
+						[29131] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[2565] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 10,
+						},
+						[71] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 113,
+						},
+						[11549] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 86,
+						},
+					},
+					["spec"] = 73,
+					["role"] = "TANK",
+					["time"] = 66.69999999999999,
+					["overkill"] = 3378,
+					["name"] = "Omoratorul",
+					["ragespells"] = {
+						[2687] = 20,
+						[29131] = 10,
+					},
+					["damagespells"] = {
+						["Shield Slam"] = {
+							["hitmin"] = 254,
+							["id"] = 23922,
+							["targets"] = {
+								["Expert's Training Dummy"] = {
+									["overkill"] = 2430,
+									["amount"] = 2439,
+								},
+							},
+							["overkill"] = 2430,
+							["hitmax"] = 319,
+							["casts"] = 14,
+							["count"] = 14,
+							["amount"] = 2439,
+							["school"] = 1,
+							["hit"] = 9,
+							["MISS"] = 5,
+							["hitamount"] = 2439,
+						},
+						["Rend"] = {
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 1,
+							["MISS"] = 2,
+							["targets"] = {
+								["Expert's Training Dummy"] = {
+									["amount"] = 0,
+								},
+							},
+							["id"] = 18075,
+						},
+						["Melee"] = {
+							["DODGE"] = 9,
+							["glance"] = 893,
+							["hitmin"] = 73,
+							["targets"] = {
+								["Expert's Training Dummy"] = {
+									["overkill"] = 948,
+									["amount"] = 966,
+								},
+							},
+							["glancing"] = 17,
+							["amount"] = 966,
+							["MISS"] = 24,
+							["glancemin"] = 45,
+							["id"] = 6603,
+							["glancemax"] = 58,
+							["overkill"] = 948,
+							["PARRY"] = 3,
+							["count"] = 54,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 73,
+							["hitamount"] = 73,
+						},
+					},
+					["damage"] = 3405,
+				}, -- [1]
+			},
+			["type"] = "none",
+			["overkill"] = 3378,
+			["edamagetaken"] = 3405,
+			["rage"] = 30,
+			["name"] = "Expert's Training Dummy",
+			["mobname"] = "Expert's Training Dummy",
+			["starttime"] = 1729512785,
+			["damage"] = 3405,
+			["last_action"] = 1729512899,
+			["endtime"] = 1729512899,
+		}, -- [2]
 		{
 			["enemies"] = {
 				{
@@ -133,16 +336,16 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 149,
-									["amount"] = 622,
-								},
 								["Omoratorul"] = {
 									["amount"] = 350,
 								},
+								["Slavcul"] = {
+									["amount"] = 622,
+									["overkill"] = 149,
+								},
 							},
-							["overkill"] = 149,
 							["amount"] = 972,
+							["overkill"] = 149,
 						},
 						[15264] = {
 							["school"] = 2,
@@ -171,16 +374,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 330,
 						},
-						[6060] = {
-							["school"] = 2,
+						[16624] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 73,
-									["amount"] = 325,
+								["Omoratorul"] = {
+									["amount"] = 16,
 								},
 							},
-							["overkill"] = 73,
-							["amount"] = 325,
+							["amount"] = 16,
 						},
 						[12809] = {
 							["school"] = 1,
@@ -209,18 +410,20 @@ SkadaStorageDB = {
 							},
 							["amount"] = 863,
 						},
-						[16624] = {
-							["school"] = 1,
+						[6060] = {
+							["school"] = 2,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 16,
+								["Popasfant"] = {
+									["amount"] = 325,
+									["overkill"] = 73,
 								},
 							},
-							["amount"] = 16,
+							["amount"] = 325,
+							["overkill"] = 73,
 						},
 					},
-					["name"] = "Bloodsail Swashbuckler",
 					["totaldamage"] = 67,
+					["name"] = "Bloodsail Swashbuckler",
 					["totaldamagetaken"] = 3880,
 					["id"] = "0xF13000061B246BDB",
 					["damage"] = 67,
@@ -228,7 +431,6 @@ SkadaStorageDB = {
 			},
 			["totaldamage"] = 3880,
 			["time"] = 14,
-			["mobname"] = "Bloodsail Swashbuckler",
 			["totaldamagetaken"] = 67,
 			["etotaldamagetaken"] = 3880,
 			["last_time"] = 12123.995,
@@ -292,9 +494,9 @@ SkadaStorageDB = {
 							["uptime"] = 14,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[976] = {
@@ -302,17 +504,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[12809] = {
-							["type"] = "DEBUFF",
+						[8117] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
+							["uptime"] = 14,
 						},
 						[8204] = {
 							["type"] = "DEBUFF",
@@ -326,12 +521,20 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[8117] = {
-							["type"] = "BUFF",
+						[12809] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 14,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
 						},
 					},
+					["totaldamage"] = 1670,
 					["time"] = 10.45,
 					["totaldamagetaken"] = 67,
 					["damage"] = 1670,
@@ -383,6 +586,22 @@ SkadaStorageDB = {
 							["amount"] = 145,
 							["hitamount"] = 145,
 						},
+						["Revenge"] = {
+							["hitmin"] = 430,
+							["id"] = 7379,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 863,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 433,
+							["amount"] = 863,
+							["hitamount"] = 863,
+						},
 						["Melee"] = {
 							["DODGE"] = 1,
 							["hitmin"] = 79,
@@ -399,22 +618,6 @@ SkadaStorageDB = {
 							["hitmax"] = 103,
 							["amount"] = 350,
 							["hitamount"] = 350,
-						},
-						["Revenge"] = {
-							["hitmin"] = 430,
-							["id"] = 7379,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 863,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 433,
-							["amount"] = 863,
-							["hitamount"] = 863,
 						},
 						["Thorium Shield Spike"] = {
 							["hitmin"] = 16,
@@ -441,14 +644,14 @@ SkadaStorageDB = {
 							["DODGE"] = 1,
 							["hitmin"] = 31,
 							["id"] = 6603,
+							["count"] = 4,
 							["blocked"] = 31,
-							["BLOCK"] = 1,
 							["sources"] = {
 								["Bloodsail Swashbuckler"] = {
 									["amount"] = 67,
 								},
 							},
-							["count"] = 4,
+							["BLOCK"] = 1,
 							["hit"] = 2,
 							["school"] = 1,
 							["hitmax"] = 36,
@@ -461,9 +664,8 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 2,
-					["rage"] = 10,
-					["totaldamage"] = 1670,
 					["role"] = "TANK",
+					["rage"] = 10,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -475,32 +677,14 @@ SkadaStorageDB = {
 									["amount"] = 366,
 								},
 							},
-							["hitmax"] = 366,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 366,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 40,
 							["amount"] = 366,
 							["hitamount"] = 366,
-						},
-						["Smite"] = {
-							["hitmin"] = 325,
-							["id"] = 6060,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 73,
-									["amount"] = 325,
-								},
-							},
-							["overkill"] = 73,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 325,
-							["amount"] = 325,
-							["hitamount"] = 325,
 						},
 						["Holy Fire (DoT)"] = {
 							["hitmin"] = 12,
@@ -517,13 +701,56 @@ SkadaStorageDB = {
 							["amount"] = 12,
 							["hitamount"] = 12,
 						},
+						["Smite"] = {
+							["hitmin"] = 325,
+							["id"] = 6060,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 325,
+									["overkill"] = 73,
+								},
+							},
+							["overkill"] = 73,
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 2,
+							["hitmax"] = 325,
+							["amount"] = 325,
+							["hitamount"] = 325,
+						},
 					},
 					["last"] = 12110.079,
-					["class"] = "PRIEST",
 					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
+					["class"] = "PRIEST",
 					["overkill"] = 73,
+					["spec"] = 256,
+					["totaldamage"] = 703,
+					["name"] = "Popasfant",
+					["time"] = 0,
+					["flag"] = 1298,
+					["role"] = "HEALER",
 					["auras"] = {
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 						[15264] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -536,37 +763,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
 						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
 					},
-					["totaldamage"] = 703,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 0,
 					["damage"] = 703,
 				}, -- [2]
 				{
@@ -575,20 +777,20 @@ SkadaStorageDB = {
 							["hitmin"] = 72,
 							["criticalamount"] = 107,
 							["id"] = 8685,
-							["hitmax"] = 76,
+							["criticalmin"] = 107,
 							["targets"] = {
 								["Bloodsail Swashbuckler"] = {
 									["amount"] = 330,
 								},
 							},
-							["count"] = 4,
-							["hit"] = 3,
 							["casts"] = 1,
+							["hitmax"] = 76,
+							["criticalmax"] = 107,
 							["critical"] = 1,
 							["amount"] = 330,
 							["school"] = 8,
-							["criticalmin"] = 107,
-							["criticalmax"] = 107,
+							["hit"] = 3,
+							["count"] = 4,
 							["hitamount"] = 223,
 						},
 						["Melee"] = {
@@ -597,8 +799,8 @@ SkadaStorageDB = {
 							["criticalmin"] = 240,
 							["targets"] = {
 								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 149,
 									["amount"] = 622,
+									["overkill"] = 149,
 								},
 							},
 							["glancing"] = 2,
@@ -635,12 +837,22 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 12122.154,
-					["class"] = "ROGUE",
 					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
+					["class"] = "ROGUE",
 					["overkill"] = 149,
+					["spec"] = 260,
+					["totaldamage"] = 1507,
+					["name"] = "Slavcul",
+					["time"] = 11.32,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -655,25 +867,29 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
+					},
+					["damage"] = 1507,
+				}, -- [3]
+				{
+					["name"] = "Vrajadefoc",
+					["last"] = 12110.079,
+					["time"] = 0,
+					["spec"] = 64,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
 						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-					},
-					["totaldamage"] = 1507,
-					["role"] = "DAMAGER",
-					["name"] = "Slavcul",
-					["flag"] = 1298,
-					["time"] = 11.32,
-					["damage"] = 1507,
-				}, -- [3]
-				{
-					["last"] = 12110.079,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["auras"] = {
-						[11549] = {
+						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 14,
@@ -688,21 +904,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 14,
 						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [4]
 			},
 			["type"] = "group",
@@ -712,17 +914,16 @@ SkadaStorageDB = {
 			["etotaldamage"] = 67,
 			["overkill"] = 222,
 			["edamagetaken"] = 3880,
-			["starttime"] = 1729453385,
+			["mobname"] = "Bloodsail Swashbuckler",
 			["name"] = "Bloodsail Swashbuckler (16)",
 			["ccdone"] = 2,
+			["starttime"] = 1729453385,
 			["edamage"] = 67,
 			["last_action"] = 1729453399,
 			["endtime"] = 1729453399,
-		}, -- [1]
+		}, -- [3]
 		{
-			["overheal"] = 1238,
-			["rage"] = 5,
-			["ccdone"] = 1,
+			["type"] = "group",
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -730,12 +931,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["total"] = 413,
 							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 204,
+									["total"] = 413,
+								},
 								["Slavcul"] = {
 									["amount"] = 229,
-								},
-								["Omoratorul"] = {
-									["total"] = 413,
-									["amount"] = 204,
 								},
 							},
 							["amount"] = 433,
@@ -745,8 +946,8 @@ SkadaStorageDB = {
 							["total"] = 169,
 							["targets"] = {
 								["Omoratorul"] = {
-									["total"] = 169,
 									["amount"] = 143,
+									["total"] = 169,
 								},
 							},
 							["amount"] = 143,
@@ -768,11 +969,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 304,
-								},
 								["Omoratorul"] = {
 									["amount"] = 1567,
+								},
+								["Slavcul"] = {
+									["amount"] = 304,
 								},
 							},
 							["amount"] = 1871,
@@ -781,12 +982,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 7,
 									["amount"] = 561,
+									["overkill"] = 7,
 								},
 							},
-							["overkill"] = 7,
 							["amount"] = 561,
+							["overkill"] = 7,
 						},
 						[8685] = {
 							["school"] = 8,
@@ -806,36 +1007,38 @@ SkadaStorageDB = {
 							},
 							["amount"] = 257,
 						},
-						[694] = {
+						[1760] = {
 							["school"] = 1,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 130,
+								["Slavcul"] = {
+									["amount"] = 562,
+									["overkill"] = 39,
 								},
 							},
-							["amount"] = 130,
+							["amount"] = 562,
+							["overkill"] = 39,
 						},
 						[8408] = {
 							["school"] = 16,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["overkill"] = 209,
 									["amount"] = 788,
+									["overkill"] = 209,
 								},
 							},
-							["overkill"] = 209,
 							["amount"] = 788,
+							["overkill"] = 209,
 						},
 						[6548] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 5,
 									["amount"] = 228,
+									["overkill"] = 5,
 								},
 							},
-							["overkill"] = 5,
 							["amount"] = 228,
+							["overkill"] = 5,
 						},
 						[7379] = {
 							["school"] = 1,
@@ -846,20 +1049,18 @@ SkadaStorageDB = {
 							},
 							["amount"] = 523,
 						},
-						[1760] = {
+						[694] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 39,
-									["amount"] = 562,
+								["Omoratorul"] = {
+									["amount"] = 130,
 								},
 							},
-							["overkill"] = 39,
-							["amount"] = 562,
+							["amount"] = 130,
 						},
 					},
-					["name"] = "Bloodsail Warlock",
 					["totaldamage"] = 811,
+					["name"] = "Bloodsail Warlock",
 					["totaldamagetaken"] = 5549,
 					["id"] = "0xF13000061C246994",
 					["damage"] = 576,
@@ -870,12 +1071,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["total"] = 256,
 							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 90,
+									["total"] = 171,
+								},
 								["Slavcul"] = {
 									["amount"] = 252,
-								},
-								["Omoratorul"] = {
-									["total"] = 171,
-									["amount"] = 90,
 								},
 							},
 							["amount"] = 342,
@@ -894,50 +1095,19 @@ SkadaStorageDB = {
 							},
 							["amount"] = 58,
 						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 226,
-									["amount"] = 296,
-								},
-							},
-							["overkill"] = 226,
-							["amount"] = 296,
-						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 423,
-								},
-							},
-							["amount"] = 423,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 222,
+									["overkill"] = 152,
+								},
 								["Omoratorul"] = {
 									["amount"] = 105,
 								},
-								["Slavcul"] = {
-									["overkill"] = 152,
-									["amount"] = 222,
-								},
 							},
-							["overkill"] = 152,
 							["amount"] = 327,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 92,
-									["amount"] = 402,
-								},
-							},
-							["overkill"] = 92,
-							["amount"] = 402,
+							["overkill"] = 152,
 						},
 						[1760] = {
 							["school"] = 1,
@@ -952,16 +1122,47 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 48,
 									["amount"] = 407,
+									["overkill"] = 48,
 								},
 							},
-							["overkill"] = 48,
 							["amount"] = 407,
+							["overkill"] = 48,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 402,
+									["overkill"] = 92,
+								},
+							},
+							["amount"] = 402,
+							["overkill"] = 92,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 423,
+								},
+							},
+							["amount"] = 423,
+						},
+						[8105] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 296,
+									["overkill"] = 226,
+								},
+							},
+							["amount"] = 296,
+							["overkill"] = 226,
 						},
 					},
-					["name"] = "Imp Minion",
 					["totaldamage"] = 423,
+					["name"] = "Imp Minion",
 					["totaldamagetaken"] = 2039,
 					["id"] = "0xF13000327A2469B1",
 					["damage"] = 342,
@@ -971,11 +1172,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 38,
-								},
 								["Omoratorul"] = {
 									["amount"] = 30,
+								},
+								["Slavcul"] = {
+									["amount"] = 38,
 								},
 							},
 							["amount"] = 68,
@@ -1016,12 +1217,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["overkill"] = 34,
 									["amount"] = 408,
+									["overkill"] = 34,
 								},
 							},
-							["overkill"] = 34,
 							["amount"] = 408,
+							["overkill"] = 34,
 						},
 					},
 					["totaldamage"] = 347,
@@ -1031,9 +1232,10 @@ SkadaStorageDB = {
 					["damage"] = 347,
 				}, -- [3]
 			},
-			["absorb"] = 316,
+			["overheal"] = 1238,
 			["totaldamage"] = 8512,
 			["time"] = 37,
+			["rage"] = 5,
 			["totaldamagetaken"] = 1581,
 			["etotaldamagetaken"] = 8512,
 			["last_time"] = 12080.023,
@@ -1071,14 +1273,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 2,
 						},
-						[6548] = {
+						[8204] = {
 							["type"] = "DEBUFF",
-							["count"] = 3,
+							["count"] = 6,
 							["school"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["uptime"] = 14,
-									["count"] = 3,
+									["uptime"] = 12,
+									["count"] = 4,
+								},
+								["Imp Minion"] = {
+									["uptime"] = 11,
+									["count"] = 2,
 								},
 							},
 							["uptime"] = 14,
@@ -1096,9 +1302,74 @@ SkadaStorageDB = {
 							["uptime"] = 4,
 						},
 						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
+							["uptime"] = 14,
+						},
+						[12976] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 20,
+						},
+						[20007] = {
+							["type"] = "BUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 31,
+						},
+						[18498] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 8,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 8,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[71] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[694] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 3,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 14,
+									["count"] = 3,
+								},
+							},
 							["uptime"] = 14,
 						},
 						[7922] = {
@@ -1113,83 +1384,130 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
+					},
+					["totaldamage"] = 3767,
+					["time"] = 34.65,
+					["totaldamagetaken"] = 1062,
+					["damage"] = 3767,
+					["rage"] = 5,
+					["role"] = "TANK",
+					["damagetaken"] = 746,
+					["overkill"] = 97,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
 						[20007] = {
-							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 31,
-						},
-						[694] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
+							["overheal"] = 216,
 							["count"] = 3,
-							["school"] = 1,
+							["amount"] = 111,
+							["max"] = 111,
+							["min"] = 111,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 8,
-									["count"] = 3,
+								["Omoratorul"] = {
+									["overheal"] = 216,
+									["amount"] = 111,
 								},
 							},
-							["uptime"] = 8,
-						},
-						[12976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 20,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 6,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 12,
-									["count"] = 4,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 11,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 14,
 						},
 					},
-					["time"] = 34.65,
+					["damagetakenspells"] = {
+						["Firebolt"] = {
+							["total"] = 171,
+							["hitmin"] = 90,
+							["id"] = 20801,
+							["count"] = 3,
+							["hit"] = 1,
+							["sources"] = {
+								["Imp Minion"] = {
+									["amount"] = 90,
+									["total"] = 171,
+								},
+							},
+							["hitmax"] = 90,
+							["ABSORB"] = 1,
+							["school"] = 4,
+							["amount"] = 90,
+							["MISS"] = 1,
+							["hitamount"] = 90,
+						},
+						["Shadow Bolt"] = {
+							["total"] = 413,
+							["hitmin"] = 204,
+							["id"] = 20825,
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 204,
+									["total"] = 413,
+								},
+							},
+							["hitmax"] = 204,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 51,
+							["amount"] = 204,
+							["hitamount"] = 204,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 199,
+							["hitmin"] = 21,
+							["id"] = 6603,
+							["hit"] = 7,
+							["sources"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 143,
+									["total"] = 169,
+								},
+								["Succubus Minion"] = {
+									["amount"] = 30,
+								},
+							},
+							["count"] = 9,
+							["ABSORB"] = 1,
+							["school"] = 1,
+							["amount"] = 173,
+							["hitmax"] = 30,
+							["hitamount"] = 173,
+						},
+						["Lash of Pain"] = {
+							["hitmin"] = 279,
+							["id"] = 32202,
+							["count"] = 1,
+							["sources"] = {
+								["Succubus Minion"] = {
+									["amount"] = 279,
+								},
+							},
+							["hitmax"] = 279,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 31,
+							["amount"] = 279,
+							["hitamount"] = 279,
+						},
+					},
+					["overheal"] = 216,
+					["heal"] = 111,
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["interrupt"] = 3,
 					["ragespells"] = {
 						[23602] = 5,
 					},
-					["totaldamagetaken"] = 1062,
-					["rage"] = 5,
-					["damage"] = 3767,
+					["interruptspells"] = {
+						[72] = {
+							["spells"] = {
+								[20825] = 3,
+							},
+							["count"] = 3,
+							["targets"] = {
+								["Bloodsail Warlock"] = 3,
+							},
+						},
+					},
 					["damagespells"] = {
 						["Thunder Clap"] = {
 							["hitmin"] = 123,
@@ -1199,18 +1517,18 @@ SkadaStorageDB = {
 									["amount"] = 555,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 92,
 									["amount"] = 402,
+									["overkill"] = 92,
 								},
 							},
 							["overkill"] = 92,
-							["blocked"] = 20,
+							["hit"] = 7,
 							["casts"] = 4,
 							["count"] = 7,
-							["hit"] = 7,
+							["blocked"] = 20,
 							["school"] = 1,
-							["hitmax"] = 146,
 							["amount"] = 957,
+							["hitmax"] = 146,
 							["hitamount"] = 957,
 						},
 						["Melee"] = {
@@ -1276,8 +1594,8 @@ SkadaStorageDB = {
 							["id"] = 6548,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 5,
 									["amount"] = 228,
+									["overkill"] = 5,
 								},
 							},
 							["overkill"] = 5,
@@ -1306,122 +1624,6 @@ SkadaStorageDB = {
 							["hitamount"] = 130,
 						},
 					},
-					["totaldamage"] = 3767,
-					["damagetaken"] = 746,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["healspells"] = {
-						[20007] = {
-							["overheal"] = 216,
-							["max"] = 111,
-							["count"] = 3,
-							["amount"] = 111,
-							["school"] = 1,
-							["min"] = 111,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 216,
-									["amount"] = 111,
-								},
-							},
-						},
-					},
-					["damagetakenspells"] = {
-						["Lash of Pain"] = {
-							["hitmin"] = 279,
-							["id"] = 32202,
-							["hitmax"] = 279,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 279,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 31,
-							["amount"] = 279,
-							["hitamount"] = 279,
-						},
-						["Shadow Bolt"] = {
-							["total"] = 413,
-							["hitmin"] = 204,
-							["id"] = 20825,
-							["ABSORB"] = 1,
-							["hitmax"] = 204,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 413,
-									["amount"] = 204,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 51,
-							["amount"] = 204,
-							["hitamount"] = 204,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 199,
-							["hitmin"] = 21,
-							["id"] = 6603,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 169,
-									["amount"] = 143,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 30,
-								},
-							},
-							["count"] = 9,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 30,
-							["amount"] = 173,
-							["hitamount"] = 173,
-						},
-						["Firebolt"] = {
-							["total"] = 171,
-							["hitmin"] = 90,
-							["id"] = 20801,
-							["ABSORB"] = 1,
-							["hitmax"] = 90,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 171,
-									["amount"] = 90,
-								},
-							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 4,
-							["amount"] = 90,
-							["MISS"] = 1,
-							["hitamount"] = 90,
-						},
-					},
-					["overkill"] = 97,
-					["heal"] = 111,
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["interrupt"] = 3,
-					["overheal"] = 216,
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[20825] = 3,
-							},
-							["count"] = 3,
-							["targets"] = {
-								["Bloodsail Warlock"] = 3,
-							},
-						},
-					},
-					["role"] = "TANK",
 				}, -- [1]
 				{
 					["last"] = 12071.405,
@@ -1501,6 +1703,7 @@ SkadaStorageDB = {
 							["max"] = 209,
 						},
 					},
+					["totaldamage"] = 1687,
 					["time"] = 8.01,
 					["damage"] = 1687,
 					["overheal"] = 1022,
@@ -1526,67 +1729,68 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 124,
 							["school"] = 2,
-							["max"] = 124,
+							["min"] = 124,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 0,
 									["amount"] = 124,
 								},
 							},
-							["min"] = 124,
+							["max"] = 124,
 						},
 						[23459] = {
 							["overheal"] = 877,
-							["max"] = 194,
 							["count"] = 8,
 							["amount"] = 610,
-							["school"] = 2,
+							["max"] = 194,
 							["min"] = 99,
 							["targets"] = {
-								["Slavcul"] = {
-									["overheal"] = 265,
-									["amount"] = 99,
+								["Popasfant"] = {
+									["overheal"] = 556,
+									["amount"] = 0,
 								},
 								["Omoratorul"] = {
 									["overheal"] = 56,
 									["amount"] = 511,
 								},
-								["Popasfant"] = {
-									["overheal"] = 556,
-									["amount"] = 0,
+								["Slavcul"] = {
+									["overheal"] = 265,
+									["amount"] = 99,
 								},
 							},
+							["school"] = 2,
 						},
 					},
 					["overkill"] = 281,
 					["heal"] = 734,
 					["name"] = "Popasfant",
+					["role"] = "HEALER",
 					["damagespells"] = {
 						["Holy Nova"] = {
-							["criticalmin"] = 172,
+							["criticalamount"] = 172,
 							["criticalmax"] = 172,
 							["hitmin"] = 108,
-							["criticalamount"] = 172,
+							["criticalmin"] = 172,
 							["id"] = 15431,
-							["critical"] = 1,
+							["count"] = 8,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 7,
 									["amount"] = 561,
+									["overkill"] = 7,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 48,
 									["amount"] = 407,
+									["overkill"] = 48,
 								},
 							},
 							["overkill"] = 55,
-							["hitmax"] = 119,
+							["amount"] = 968,
 							["casts"] = 3,
-							["count"] = 8,
+							["hitmax"] = 119,
 							["hit"] = 7,
 							["school"] = 2,
 							["resisted"] = 24,
-							["amount"] = 968,
+							["critical"] = 1,
 							["hitamount"] = 796,
 						},
 						["Holy Fire"] = {
@@ -1610,8 +1814,8 @@ SkadaStorageDB = {
 							["id"] = 8105,
 							["targets"] = {
 								["Imp Minion"] = {
-									["overkill"] = 226,
 									["amount"] = 296,
+									["overkill"] = 226,
 								},
 							},
 							["overkill"] = 226,
@@ -1639,8 +1843,6 @@ SkadaStorageDB = {
 							["hitamount"] = 12,
 						},
 					},
-					["totaldamage"] = 1687,
-					["role"] = "HEALER",
 				}, -- [2]
 				{
 					["last"] = 12071.771,
@@ -1669,17 +1871,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
 						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
 						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
 					},
+					["totaldamage"] = 2270,
 					["time"] = 19.07,
 					["totaldamagetaken"] = 519,
 					["damage"] = 2270,
@@ -1698,9 +1901,9 @@ SkadaStorageDB = {
 									["amount"] = 58,
 								},
 							},
-							["hitmax"] = 76,
-							["casts"] = 1,
 							["count"] = 5,
+							["casts"] = 1,
+							["hitmax"] = 76,
 							["hit"] = 5,
 							["school"] = 8,
 							["resisted"] = 14,
@@ -1708,31 +1911,31 @@ SkadaStorageDB = {
 							["hitamount"] = 353,
 						},
 						["Sinister Strike"] = {
-							["PARRY"] = 1,
-							["hitmax"] = 161,
-							["hitmin"] = 126,
 							["criticalamount"] = 270,
+							["PARRY"] = 1,
+							["hitmin"] = 126,
+							["criticalmin"] = 270,
 							["id"] = 1760,
-							["count"] = 7,
+							["hitmax"] = 161,
 							["targets"] = {
 								["Succubus Minion"] = {
 									["amount"] = 295,
 								},
 								["Bloodsail Warlock"] = {
-									["overkill"] = 39,
 									["amount"] = 562,
+									["overkill"] = 39,
 								},
 								["Imp Minion"] = {
 									["amount"] = 126,
 								},
 							},
 							["overkill"] = 39,
-							["hit"] = 5,
+							["amount"] = 983,
 							["casts"] = 7,
 							["critical"] = 1,
-							["amount"] = 983,
+							["hit"] = 5,
 							["school"] = 1,
-							["criticalmin"] = 270,
+							["count"] = 7,
 							["criticalmax"] = 270,
 							["hitamount"] = 713,
 						},
@@ -1742,15 +1945,15 @@ SkadaStorageDB = {
 							["criticalmin"] = 194,
 							["targets"] = {
 								["Succubus Minion"] = {
-									["overkill"] = 34,
 									["amount"] = 408,
+									["overkill"] = 34,
 								},
 								["Bloodsail Warlock"] = {
 									["amount"] = 304,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 152,
 									["amount"] = 222,
+									["overkill"] = 152,
 								},
 							},
 							["glancing"] = 4,
@@ -1774,22 +1977,35 @@ SkadaStorageDB = {
 					["id"] = "0x0700000000B0D62C",
 					["spec"] = 260,
 					["overkill"] = 225,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 229,
-							["id"] = 20825,
-							["hitmax"] = 229,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 229,
-								},
+					["name"] = "Slavcul",
+					["role"] = "DAMAGER",
+					["interrupt"] = 1,
+					["interruptspells"] = {
+						[1766] = {
+							["spells"] = {
+								[20801] = 1,
 							},
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 57,
-							["amount"] = 229,
-							["hitamount"] = 229,
+							["targets"] = {
+								["Imp Minion"] = 1,
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["Firebolt"] = {
+							["hitmin"] = 81,
+							["id"] = 20801,
+							["sources"] = {
+								["Imp Minion"] = {
+									["amount"] = 252,
+								},
+							},
+							["count"] = 3,
+							["hit"] = 3,
+							["school"] = 4,
+							["hitmax"] = 86,
+							["amount"] = 252,
+							["hitamount"] = 252,
 						},
 						["Melee"] = {
 							["DODGE"] = 2,
@@ -1807,37 +2023,23 @@ SkadaStorageDB = {
 							["amount"] = 38,
 							["hitamount"] = 38,
 						},
-						["Firebolt"] = {
-							["hitmin"] = 81,
-							["id"] = 20801,
+						["Shadow Bolt"] = {
+							["hitmin"] = 229,
+							["id"] = 20825,
+							["count"] = 1,
 							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 252,
+								["Bloodsail Warlock"] = {
+									["amount"] = 229,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 4,
-							["hitmax"] = 86,
-							["amount"] = 252,
-							["hitamount"] = 252,
+							["hitmax"] = 229,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 57,
+							["amount"] = 229,
+							["hitamount"] = 229,
 						},
 					},
-					["name"] = "Slavcul",
-					["interrupt"] = 1,
-					["totaldamage"] = 2270,
-					["interruptspells"] = {
-						[1766] = {
-							["spells"] = {
-								[20801] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Imp Minion"] = 1,
-							},
-						},
-					},
-					["role"] = "DAMAGER",
 				}, -- [3]
 				{
 					["damagespells"] = {
@@ -1846,8 +2048,8 @@ SkadaStorageDB = {
 							["id"] = 8408,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 209,
 									["amount"] = 788,
+									["overkill"] = 209,
 								},
 							},
 							["overkill"] = 209,
@@ -1861,12 +2063,27 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 12079.989,
-					["class"] = "MAGE",
 					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
+					["class"] = "MAGE",
 					["overkill"] = 209,
+					["spec"] = 64,
+					["totaldamage"] = 788,
+					["name"] = "Vrajadefoc",
+					["time"] = 7,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
@@ -1881,43 +2098,27 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
 					},
-					["totaldamage"] = 788,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 7,
 					["damage"] = 788,
 				}, -- [4]
 			},
-			["type"] = "group",
+			["absorb"] = 316,
 			["damagetaken"] = 1265,
+			["starttime"] = 1729453319,
 			["interrupt"] = 4,
-			["etotaldamage"] = 1581,
+			["mobname"] = "Bloodsail Warlock",
 			["damage"] = 8512,
 			["overkill"] = 812,
 			["edamagetaken"] = 8512,
 			["heal"] = 845,
 			["name"] = "Bloodsail Warlock (15)",
-			["mobname"] = "Bloodsail Warlock",
-			["starttime"] = 1729453319,
+			["ccdone"] = 1,
+			["etotaldamage"] = 1581,
 			["edamage"] = 1265,
 			["last_action"] = 1729453355,
 			["endtime"] = 1729453356,
-		}, -- [2]
+		}, -- [4]
 		{
-			["damage"] = 9240,
-			["etotaldamage"] = 2234,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -1934,13 +2135,13 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["total"] = 820,
 							["targets"] = {
-								["Omoratorul"] = {
-									["total"] = 369,
-									["amount"] = 0,
-								},
 								["Popasfant"] = {
-									["total"] = 626,
 									["amount"] = 175,
+									["total"] = 626,
+								},
+								["Omoratorul"] = {
+									["amount"] = 0,
+									["total"] = 369,
 								},
 							},
 							["amount"] = 175,
@@ -1954,12 +2155,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 88,
 									["amount"] = 466,
+									["overkill"] = 88,
 								},
 							},
-							["overkill"] = 88,
 							["amount"] = 466,
+							["overkill"] = 88,
 						},
 						[20253] = {
 							["school"] = 1,
@@ -1973,11 +2174,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 348,
-								},
 								["Omoratorul"] = {
 									["amount"] = 1166,
+								},
+								["Slavcul"] = {
+									["amount"] = 348,
 								},
 							},
 							["amount"] = 1514,
@@ -2004,12 +2205,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["overkill"] = 127,
 									["amount"] = 413,
+									["overkill"] = 127,
 								},
 							},
-							["overkill"] = 127,
 							["amount"] = 413,
+							["overkill"] = 127,
 						},
 						[6548] = {
 							["school"] = 1,
@@ -2033,12 +2234,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["overkill"] = 140,
 									["amount"] = 1564,
+									["overkill"] = 140,
 								},
 							},
-							["overkill"] = 140,
 							["amount"] = 1564,
+							["overkill"] = 140,
 						},
 						[8685] = {
 							["school"] = 8,
@@ -2050,8 +2251,8 @@ SkadaStorageDB = {
 							["amount"] = 73,
 						},
 					},
-					["name"] = "Bloodsail Warlock",
 					["totaldamage"] = 1018,
+					["name"] = "Bloodsail Warlock",
 					["totaldamagetaken"] = 5552,
 					["id"] = "0xF13000061C24684F",
 					["damage"] = 198,
@@ -2062,16 +2263,16 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["total"] = 151,
 							["targets"] = {
-								["Popasfant"] = {
-									["total"] = 180,
-									["amount"] = 90,
+								["Omoratorul"] = {
+									["amount"] = 31,
+									["total"] = 92,
 								},
 								["Slavcul"] = {
 									["amount"] = 79,
 								},
-								["Omoratorul"] = {
-									["total"] = 92,
-									["amount"] = 31,
+								["Popasfant"] = {
+									["amount"] = 90,
+									["total"] = 180,
 								},
 							},
 							["amount"] = 200,
@@ -2080,13 +2281,13 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["total"] = 775,
 							["targets"] = {
-								["Popasfant"] = {
-									["total"] = 310,
-									["amount"] = 187,
-								},
 								["Omoratorul"] = {
-									["total"] = 465,
 									["amount"] = 215,
+									["total"] = 465,
+								},
+								["Popasfant"] = {
+									["amount"] = 187,
+									["total"] = 310,
 								},
 							},
 							["amount"] = 402,
@@ -2118,37 +2319,37 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 3,
 									["amount"] = 194,
+									["overkill"] = 3,
 								},
 							},
-							["overkill"] = 3,
 							["amount"] = 194,
+							["overkill"] = 3,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 56,
-									["amount"] = 154,
-								},
 								["Slavcul"] = {
 									["amount"] = 559,
 								},
+								["Omoratorul"] = {
+									["amount"] = 154,
+									["overkill"] = 56,
+								},
 							},
-							["overkill"] = 56,
 							["amount"] = 713,
+							["overkill"] = 56,
 						},
 						[8204] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 160,
 									["amount"] = 597,
+									["overkill"] = 160,
 								},
 							},
-							["overkill"] = 160,
 							["amount"] = 597,
+							["overkill"] = 160,
 						},
 						[1760] = {
 							["school"] = 1,
@@ -2200,16 +2401,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 224,
 						},
-						[1760] = {
+						[8204] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 218,
-									["amount"] = 288,
+								["Omoratorul"] = {
+									["amount"] = 103,
 								},
 							},
-							["overkill"] = 218,
-							["amount"] = 288,
+							["amount"] = 103,
 						},
 						[8685] = {
 							["school"] = 8,
@@ -2220,14 +2419,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 74,
 						},
-						[8204] = {
+						[1760] = {
 							["school"] = 1,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 103,
+								["Slavcul"] = {
+									["amount"] = 288,
+									["overkill"] = 218,
 								},
 							},
-							["amount"] = 103,
+							["amount"] = 288,
+							["overkill"] = 218,
 						},
 					},
 					["totaldamage"] = 90,
@@ -2237,12 +2438,16 @@ SkadaStorageDB = {
 					["damage"] = 90,
 				}, -- [3]
 			},
+			["last_time"] = 12039.996,
 			["totaldamage"] = 9240,
 			["time"] = 37,
-			["overheal"] = 262,
-			["totaldamagetaken"] = 2234,
 			["etotaldamagetaken"] = 9240,
-			["last_time"] = 12039.996,
+			["totaldamagetaken"] = 2234,
+			["etotaldamage"] = 2234,
+			["damage"] = 9240,
+			["overheal"] = 262,
+			["type"] = "group",
+			["damagetaken"] = 890,
 			["players"] = {
 				{
 					["last"] = 12038.547,
@@ -2250,9 +2455,9 @@ SkadaStorageDB = {
 					["class"] = "WARRIOR",
 					["auras"] = {
 						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 21,
 						},
 						[8204] = {
@@ -2262,8 +2467,8 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Succubus Minion"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 10,
 								},
 								["Bloodsail Warlock"] = {
@@ -2307,9 +2512,9 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[6548] = {
@@ -2330,9 +2535,9 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[2458] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 1,
 						},
 						[18075] = {
@@ -2352,16 +2557,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[6078] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 9,
-						},
 						[19709] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
+						},
+						[29131] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
 						},
 						[18498] = {
 							["type"] = "DEBUFF",
@@ -2381,15 +2585,16 @@ SkadaStorageDB = {
 							["uptime"] = 37,
 						},
 						[2457] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
-						[29131] = {
+						[6078] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["uptime"] = 8,
+							["uptime"] = 9,
 						},
 					},
 					["role"] = "TANK",
@@ -2398,30 +2603,30 @@ SkadaStorageDB = {
 					["damage"] = 3615,
 					["damagespells"] = {
 						["Thunder Clap"] = {
-							["critical"] = 3,
-							["criticalmin"] = 224,
-							["hitmin"] = 103,
 							["criticalamount"] = 698,
+							["casts"] = 3,
+							["hitmin"] = 103,
+							["criticalmin"] = 224,
 							["id"] = 8204,
-							["criticalmax"] = 246,
+							["critical"] = 3,
 							["targets"] = {
 								["Succubus Minion"] = {
-									["overkill"] = 160,
 									["amount"] = 597,
+									["overkill"] = 160,
 								},
 								["Bloodsail Warlock"] = {
-									["overkill"] = 88,
 									["amount"] = 466,
+									["overkill"] = 88,
 								},
 								["Imp Minion"] = {
 									["amount"] = 103,
 								},
 							},
 							["overkill"] = 248,
-							["amount"] = 1166,
-							["casts"] = 3,
-							["count"] = 9,
 							["hit"] = 4,
+							["criticalmax"] = 246,
+							["count"] = 9,
+							["amount"] = 1166,
 							["school"] = 1,
 							["hitmax"] = 123,
 							["MISS"] = 2,
@@ -2453,8 +2658,8 @@ SkadaStorageDB = {
 									["amount"] = 1166,
 								},
 								["Succubus Minion"] = {
-									["overkill"] = 56,
 									["amount"] = 154,
+									["overkill"] = 56,
 								},
 							},
 							["glancing"] = 1,
@@ -2472,22 +2677,6 @@ SkadaStorageDB = {
 							["count"] = 15,
 							["hitamount"] = 1047,
 						},
-						["Revenge"] = {
-							["hitmin"] = 445,
-							["id"] = 7379,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 445,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 445,
-							["amount"] = 445,
-							["hitamount"] = 445,
-						},
 						["Victory Rush"] = {
 							["hitmin"] = 191,
 							["id"] = 34428,
@@ -2496,8 +2685,8 @@ SkadaStorageDB = {
 									["amount"] = 191,
 								},
 								["Succubus Minion"] = {
-									["overkill"] = 3,
 									["amount"] = 194,
+									["overkill"] = 3,
 								},
 							},
 							["overkill"] = 3,
@@ -2525,6 +2714,22 @@ SkadaStorageDB = {
 							["amount"] = 95,
 							["hitamount"] = 95,
 						},
+						["Revenge"] = {
+							["hitmin"] = 445,
+							["id"] = 7379,
+							["targets"] = {
+								["Succubus Minion"] = {
+									["amount"] = 445,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 445,
+							["amount"] = 445,
+							["hitamount"] = 445,
+						},
 						["Intercept"] = {
 							["hitmin"] = 46,
 							["id"] = 20253,
@@ -2546,19 +2751,23 @@ SkadaStorageDB = {
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 369,
+						["Lash of Pain"] = {
+							["total"] = 465,
+							["hitmin"] = 29,
+							["id"] = 32202,
 							["count"] = 2,
-							["amount"] = 0,
-							["school"] = 32,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 369,
-									["amount"] = 0,
+								["Succubus Minion"] = {
+									["amount"] = 215,
+									["total"] = 465,
 								},
 							},
-							["ABSORB"] = 2,
-							["id"] = 20825,
+							["hitmax"] = 186,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 155,
+							["amount"] = 215,
+							["hitamount"] = 215,
 						},
 						["Firebolt"] = {
 							["hitmin"] = 70,
@@ -2580,13 +2789,10 @@ SkadaStorageDB = {
 							["total"] = 135,
 							["hitmin"] = 20,
 							["id"] = 6603,
-							["PARRY"] = 2,
-							["hitmax"] = 31,
-							["amount"] = 74,
 							["sources"] = {
 								["Succubus Minion"] = {
-									["total"] = 92,
 									["amount"] = 31,
+									["total"] = 92,
 								},
 								["Bloodsail Warlock"] = {
 									["amount"] = 23,
@@ -2596,37 +2802,36 @@ SkadaStorageDB = {
 								},
 							},
 							["count"] = 10,
+							["amount"] = 74,
+							["PARRY"] = 2,
+							["hitmax"] = 31,
 							["ABSORB"] = 2,
 							["school"] = 1,
 							["hit"] = 3,
 							["MISS"] = 2,
 							["hitamount"] = 74,
 						},
-						["Lash of Pain"] = {
-							["total"] = 465,
-							["hitmin"] = 29,
-							["id"] = 32202,
-							["hitmax"] = 186,
+						["Shadow Bolt"] = {
+							["total"] = 369,
+							["count"] = 2,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 20825,
+							["ABSORB"] = 2,
 							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 465,
-									["amount"] = 215,
+								["Bloodsail Warlock"] = {
+									["amount"] = 0,
+									["total"] = 369,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 155,
-							["amount"] = 215,
-							["hitamount"] = 215,
 						},
 					},
-					["overkill"] = 307,
 					["ragespells"] = {
 						[29131] = 8,
 						[23602] = 15,
 					},
 					["name"] = "Omoratorul",
+					["totaldamage"] = 3615,
 					["interrupt"] = 2,
 					["rage"] = 23,
 					["interruptspells"] = {
@@ -2640,51 +2845,38 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["totaldamage"] = 3615,
+					["overkill"] = 307,
 				}, -- [1]
 				{
 					["last"] = 12039.996,
 					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["auras"] = {
-						[15264] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 4,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[6066] = {
+						[976] = {
 							["type"] = "BUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["uptime"] = 26,
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
 							["count"] = 3,
 							["school"] = 2,
 							["targets"] = {
-								["Omoratorul"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
 								["Popasfant"] = {
 									["uptime"] = 29,
 									["count"] = 2,
 								},
+								["Omoratorul"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
 							},
 							["uptime"] = 31,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
 						},
 						[11549] = {
 							["type"] = "BUFF",
@@ -2696,10 +2888,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[8098] = {
+						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
+							["count"] = 2,
+							["uptime"] = 26,
+						},
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 4,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 4,
 						},
 						[1461] = {
 							["type"] = "BUFF",
@@ -2715,12 +2920,13 @@ SkadaStorageDB = {
 							["amount"] = 1344,
 							["max"] = 233,
 							["targets"] = {
-								["Popasfant"] = 664,
 								["Omoratorul"] = 680,
+								["Popasfant"] = 664,
 							},
 							["school"] = 2,
 						},
 					},
+					["totaldamage"] = 1032,
 					["time"] = 30.2,
 					["totaldamagetaken"] = 1116,
 					["damage"] = 1032,
@@ -2732,47 +2938,84 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[56160] = {
 							["overheal"] = 123,
-							["max"] = 123,
 							["count"] = 3,
 							["amount"] = 246,
-							["school"] = 2,
+							["max"] = 123,
 							["min"] = 123,
 							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 123,
-								},
 								["Popasfant"] = {
 									["overheal"] = 123,
 									["amount"] = 123,
 								},
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 123,
+								},
 							},
+							["school"] = 2,
 						},
 						[6078] = {
 							["overheal"] = 139,
+							["min"] = 6,
+							["count"] = 3,
+							["amount"] = 296,
+							["max"] = 145,
+							["ishot"] = true,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 139,
 									["amount"] = 296,
 								},
 							},
-							["count"] = 3,
-							["amount"] = 296,
 							["school"] = 2,
-							["max"] = 145,
-							["ishot"] = true,
-							["min"] = 6,
 						},
 					},
 					["damagetakenspells"] = {
+						["Shadow Bolt"] = {
+							["total"] = 626,
+							["hitmin"] = 175,
+							["id"] = 20825,
+							["count"] = 3,
+							["amount"] = 175,
+							["sources"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 175,
+									["total"] = 626,
+								},
+							},
+							["hitmax"] = 175,
+							["ABSORB"] = 2,
+							["school"] = 32,
+							["resisted"] = 74,
+							["hit"] = 1,
+							["hitamount"] = 175,
+						},
+						["Melee"] = {
+							["total"] = 180,
+							["hitmin"] = 44,
+							["id"] = 6603,
+							["count"] = 4,
+							["sources"] = {
+								["Succubus Minion"] = {
+									["amount"] = 90,
+									["total"] = 180,
+								},
+							},
+							["hitmax"] = 46,
+							["ABSORB"] = 2,
+							["school"] = 1,
+							["hit"] = 2,
+							["amount"] = 90,
+							["hitamount"] = 90,
+						},
 						["Lash of Pain"] = {
 							["total"] = 310,
 							["hitmin"] = 187,
 							["id"] = 32202,
 							["sources"] = {
 								["Succubus Minion"] = {
-									["total"] = 310,
 									["amount"] = 187,
+									["total"] = 310,
 								},
 							},
 							["count"] = 1,
@@ -2782,47 +3025,31 @@ SkadaStorageDB = {
 							["amount"] = 187,
 							["hitamount"] = 187,
 						},
-						["Melee"] = {
-							["total"] = 180,
-							["hitmin"] = 44,
-							["id"] = 6603,
-							["hitmax"] = 46,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 180,
-									["amount"] = 90,
-								},
-							},
-							["count"] = 4,
-							["ABSORB"] = 2,
-							["school"] = 1,
-							["amount"] = 90,
-							["hit"] = 2,
-							["hitamount"] = 90,
-						},
-						["Shadow Bolt"] = {
-							["total"] = 626,
-							["hitmin"] = 175,
-							["id"] = 20825,
-							["amount"] = 175,
-							["hitmax"] = 175,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 626,
-									["amount"] = 175,
-								},
-							},
-							["count"] = 3,
-							["ABSORB"] = 2,
-							["school"] = 32,
-							["resisted"] = 74,
-							["hit"] = 1,
-							["hitamount"] = 175,
-						},
 					},
 					["heal"] = 542,
 					["name"] = "Popasfant",
+					["role"] = "HEALER",
 					["damagespells"] = {
+						["Holy Fire"] = {
+							["hitmin"] = 377,
+							["criticalamount"] = 632,
+							["id"] = 15264,
+							["criticalmin"] = 632,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 1009,
+								},
+							},
+							["critical"] = 1,
+							["hit"] = 1,
+							["casts"] = 2,
+							["count"] = 2,
+							["amount"] = 1009,
+							["school"] = 2,
+							["hitmax"] = 377,
+							["criticalmax"] = 632,
+							["hitamount"] = 377,
+						},
 						["Holy Fire (DoT)"] = {
 							["hitmin"] = 11,
 							["id"] = 15264,
@@ -2838,93 +3065,9 @@ SkadaStorageDB = {
 							["amount"] = 23,
 							["hitamount"] = 23,
 						},
-						["Holy Fire"] = {
-							["hitmin"] = 377,
-							["criticalamount"] = 632,
-							["id"] = 15264,
-							["criticalmin"] = 632,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 1009,
-								},
-							},
-							["criticalmax"] = 632,
-							["critical"] = 1,
-							["casts"] = 2,
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 377,
-							["amount"] = 1009,
-							["hitamount"] = 377,
-						},
 					},
-					["totaldamage"] = 1032,
-					["role"] = "HEALER",
 				}, -- [2]
 				{
-					["last"] = 12038.546,
-					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["auras"] = {
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 8,
-							["refresh"] = 2,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-								["Succubus Minion"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 3,
-								},
-							},
-							["uptime"] = 6,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Imp Minion"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 30.03000000000001,
-					["totaldamagetaken"] = 79,
-					["damage"] = 3029,
 					["damagespells"] = {
 						["Instant Poison II"] = {
 							["hitmin"] = 58,
@@ -2940,9 +3083,9 @@ SkadaStorageDB = {
 									["amount"] = 74,
 								},
 							},
-							["hitmax"] = 74,
-							["casts"] = 1,
 							["count"] = 6,
+							["casts"] = 1,
+							["hitmax"] = 74,
 							["hit"] = 6,
 							["school"] = 8,
 							["resisted"] = 14,
@@ -2950,39 +3093,39 @@ SkadaStorageDB = {
 							["hitamount"] = 427,
 						},
 						["Sinister Strike"] = {
-							["criticalmax"] = 302,
+							["criticalmin"] = 288,
 							["hitmin"] = 130,
 							["criticalamount"] = 590,
 							["id"] = 1760,
-							["criticalmin"] = 288,
+							["critical"] = 2,
 							["targets"] = {
 								["Succubus Minion"] = {
 									["amount"] = 770,
 								},
 								["Bloodsail Warlock"] = {
-									["overkill"] = 127,
 									["amount"] = 413,
+									["overkill"] = 127,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 218,
 									["amount"] = 288,
+									["overkill"] = 218,
 								},
 							},
 							["overkill"] = 345,
-							["critical"] = 2,
+							["hit"] = 6,
 							["casts"] = 8,
 							["count"] = 8,
-							["hit"] = 6,
+							["amount"] = 1471,
 							["school"] = 1,
 							["hitmax"] = 162,
-							["amount"] = 1471,
+							["criticalmax"] = 302,
 							["hitamount"] = 881,
 						},
 						["Melee"] = {
 							["glance"] = 73,
 							["hitmin"] = 34,
 							["id"] = 6603,
-							["amount"] = 1131,
+							["hitamount"] = 1058,
 							["targets"] = {
 								["Succubus Minion"] = {
 									["amount"] = 559,
@@ -2994,42 +3137,104 @@ SkadaStorageDB = {
 									["amount"] = 224,
 								},
 							},
-							["glancemin"] = 36,
-							["glancing"] = 2,
 							["glancemax"] = 37,
+							["glancing"] = 2,
 							["count"] = 23,
+							["hitmax"] = 127,
 							["hit"] = 14,
 							["school"] = 1,
-							["hitmax"] = 127,
+							["amount"] = 1131,
 							["MISS"] = 7,
-							["hitamount"] = 1058,
+							["glancemin"] = 36,
 						},
 					},
+					["last"] = 12038.546,
 					["damagetaken"] = 79,
 					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[2818] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 8,
+							["refresh"] = 2,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["refresh"] = 1,
+									["count"] = 2,
+									["uptime"] = 3,
+								},
+								["Succubus Minion"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 3,
+								},
+							},
+							["uptime"] = 6,
+						},
+						[51585] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["refresh"] = 1,
+							["targets"] = {
+								["Imp Minion"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 2,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+					},
+					["name"] = "Slavcul",
+					["totaldamage"] = 3029,
+					["time"] = 30.03000000000001,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
 							["hitmin"] = 38,
 							["id"] = 6603,
-							["amount"] = 79,
+							["hit"] = 2,
 							["sources"] = {
 								["Succubus Minion"] = {
 									["amount"] = 79,
 								},
 							},
 							["count"] = 4,
-							["hit"] = 2,
+							["amount"] = 79,
 							["school"] = 1,
 							["hitmax"] = 41,
 							["MISS"] = 1,
 							["hitamount"] = 79,
 						},
 					},
-					["name"] = "Slavcul",
+					["spec"] = 260,
+					["totaldamagetaken"] = 79,
 					["overkill"] = 345,
-					["totaldamage"] = 3029,
+					["damage"] = 3029,
 				}, -- [3]
 				{
 					["damagespells"] = {
@@ -3038,8 +3243,8 @@ SkadaStorageDB = {
 							["id"] = 8408,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 140,
 									["amount"] = 1564,
+									["overkill"] = 140,
 								},
 							},
 							["overkill"] = 140,
@@ -3053,18 +3258,33 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 12035.596,
-					["class"] = "MAGE",
 					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
+					["class"] = "MAGE",
 					["overkill"] = 140,
+					["spec"] = 64,
+					["totaldamage"] = 1564,
+					["name"] = "Vrajadefoc",
+					["time"] = 13.18,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[12472] = {
+							["school"] = 16,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 16,
 							["uptime"] = 20,
 						},
 						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 37,
+						},
+						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 37,
@@ -3079,44 +3299,25 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 37,
 						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 37,
-						},
 					},
-					["totaldamage"] = 1564,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 13.18,
 					["damage"] = 1564,
 				}, -- [4]
 			},
-			["type"] = "group",
-			["damagetaken"] = 890,
 			["interrupt"] = 2,
-			["rage"] = 23,
+			["starttime"] = 1729453278,
 			["absorb"] = 1344,
 			["overkill"] = 792,
 			["edamagetaken"] = 9240,
 			["heal"] = 542,
 			["name"] = "Bloodsail Warlock (14)",
 			["mobname"] = "Bloodsail Warlock",
-			["starttime"] = 1729453278,
+			["rage"] = 23,
 			["edamage"] = 890,
 			["last_action"] = 1729453315,
 			["endtime"] = 1729453315,
-		}, -- [3]
+		}, -- [5]
 		{
-			["mobname"] = "Bloodsail Warlock",
-			["potion"] = 1,
-			["damage"] = 10548,
+			["type"] = "group",
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -3124,12 +3325,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["total"] = 21,
 							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 44,
+									["total"] = 65,
+								},
 								["Popasfant"] = {
 									["amount"] = 71,
-								},
-								["Omoratorul"] = {
-									["total"] = 65,
-									["amount"] = 44,
 								},
 							},
 							["amount"] = 115,
@@ -3141,13 +3342,13 @@ SkadaStorageDB = {
 								["Vrajadefoc"] = {
 									["amount"] = 192,
 								},
-								["Omoratorul"] = {
-									["total"] = 469,
-									["amount"] = 0,
-								},
 								["Popasfant"] = {
-									["total"] = 261,
 									["amount"] = 0,
+									["total"] = 261,
+								},
+								["Omoratorul"] = {
+									["amount"] = 0,
+									["total"] = 469,
 								},
 							},
 							["amount"] = 192,
@@ -3169,11 +3370,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 241,
-								},
 								["Omoratorul"] = {
 									["amount"] = 1123,
+								},
+								["Slavcul"] = {
+									["amount"] = 241,
 								},
 							},
 							["amount"] = 1364,
@@ -3200,12 +3401,12 @@ SkadaStorageDB = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 61,
 									["amount"] = 682,
+									["overkill"] = 61,
 								},
 							},
-							["overkill"] = 61,
 							["amount"] = 682,
+							["overkill"] = 61,
 						},
 						[22482] = {
 							["school"] = 1,
@@ -3216,16 +3417,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 289,
 						},
-						[11564] = {
+						[1760] = {
 							["school"] = 1,
 							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 30,
-									["amount"] = 123,
+								["Slavcul"] = {
+									["amount"] = 254,
 								},
 							},
-							["overkill"] = 30,
-							["amount"] = 123,
+							["amount"] = 254,
 						},
 						[34428] = {
 							["school"] = 1,
@@ -3236,37 +3435,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 237,
 						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 84,
-								},
-							},
-							["amount"] = 84,
-						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 34,
-									["amount"] = 797,
-								},
-							},
-							["overkill"] = 34,
-							["amount"] = 797,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 145,
-									["amount"] = 244,
-								},
-							},
-							["overkill"] = 145,
-							["amount"] = 244,
-						},
 						[8685] = {
 							["school"] = 8,
 							["sources"] = {
@@ -3276,18 +3444,51 @@ SkadaStorageDB = {
 							},
 							["amount"] = 126,
 						},
-						[1760] = {
-							["school"] = 1,
+						[8408] = {
+							["school"] = 16,
 							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 254,
+								["Vrajadefoc"] = {
+									["amount"] = 797,
+									["overkill"] = 34,
 								},
 							},
-							["amount"] = 254,
+							["amount"] = 797,
+							["overkill"] = 34,
+						},
+						[8105] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 244,
+									["overkill"] = 145,
+								},
+							},
+							["amount"] = 244,
+							["overkill"] = 145,
+						},
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 84,
+								},
+							},
+							["amount"] = 84,
+						},
+						[11564] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 123,
+									["overkill"] = 30,
+								},
+							},
+							["amount"] = 123,
+							["overkill"] = 30,
 						},
 					},
-					["name"] = "Bloodsail Warlock",
 					["totaldamage"] = 1058,
+					["name"] = "Bloodsail Warlock",
 					["totaldamagetaken"] = 5565,
 					["id"] = "0xF13000061C246539",
 					["damage"] = 307,
@@ -3298,12 +3499,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["total"] = 60,
 							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 0,
+									["total"] = 60,
+								},
 								["Slavcul"] = {
 									["amount"] = 150,
-								},
-								["Omoratorul"] = {
-									["total"] = 60,
-									["amount"] = 0,
 								},
 							},
 							["amount"] = 150,
@@ -3331,14 +3532,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 57,
 						},
-						[15431] = {
-							["school"] = 2,
+						[1760] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 228,
+								["Slavcul"] = {
+									["amount"] = 390,
+									["overkill"] = 3,
 								},
 							},
-							["amount"] = 228,
+							["amount"] = 390,
+							["overkill"] = 3,
 						},
 						[6603] = {
 							["school"] = 1,
@@ -3358,17 +3561,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 98,
 						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 3,
-									["amount"] = 390,
-								},
-							},
-							["overkill"] = 3,
-							["amount"] = 390,
-						},
 						[22482] = {
 							["school"] = 1,
 							["sources"] = {
@@ -3377,6 +3569,15 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 493,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 228,
+								},
+							},
+							["amount"] = 228,
 						},
 					},
 					["totaldamage"] = 210,
@@ -3391,12 +3592,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["total"] = 52,
 							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 15,
+									["total"] = 52,
+								},
 								["Slavcul"] = {
 									["amount"] = 196,
-								},
-								["Omoratorul"] = {
-									["total"] = 52,
-									["amount"] = 15,
 								},
 							},
 							["amount"] = 211,
@@ -3405,12 +3606,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["total"] = 252,
 							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 0,
+									["total"] = 252,
+								},
 								["Slavcul"] = {
 									["amount"] = 217,
-								},
-								["Omoratorul"] = {
-									["total"] = 252,
-									["amount"] = 0,
 								},
 							},
 							["amount"] = 217,
@@ -3433,21 +3634,21 @@ SkadaStorageDB = {
 							["school"] = 8,
 							["sources"] = {
 								["Slavcul"] = {
-									["overkill"] = 31,
 									["amount"] = 133,
+									["overkill"] = 31,
 								},
 							},
-							["overkill"] = 31,
 							["amount"] = 133,
+							["overkill"] = 31,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 105,
-								},
 								["Slavcul"] = {
 									["amount"] = 906,
+								},
+								["Omoratorul"] = {
+									["amount"] = 105,
 								},
 							},
 							["amount"] = 1011,
@@ -3465,12 +3666,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["overkill"] = 108,
 									["amount"] = 288,
+									["overkill"] = 108,
 								},
 							},
-							["overkill"] = 108,
 							["amount"] = 288,
+							["overkill"] = 108,
 						},
 						[15431] = {
 							["school"] = 2,
@@ -3497,13 +3698,13 @@ SkadaStorageDB = {
 								["Vrajadefoc"] = {
 									["amount"] = 83,
 								},
-								["Omoratorul"] = {
-									["total"] = 179,
-									["amount"] = 88,
-								},
 								["Popasfant"] = {
-									["total"] = 163,
 									["amount"] = 85,
+									["total"] = 163,
+								},
+								["Omoratorul"] = {
+									["amount"] = 88,
+									["total"] = 179,
 								},
 							},
 							["amount"] = 256,
@@ -3517,32 +3718,12 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 43,
 									["amount"] = 165,
+									["overkill"] = 43,
 								},
 							},
-							["overkill"] = 43,
 							["amount"] = 165,
-						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 225,
-									["amount"] = 386,
-								},
-							},
-							["overkill"] = 225,
-							["amount"] = 386,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 104,
-								},
-							},
-							["amount"] = 104,
+							["overkill"] = 43,
 						},
 						[15431] = {
 							["school"] = 2,
@@ -3553,21 +3734,41 @@ SkadaStorageDB = {
 							},
 							["amount"] = 577,
 						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 104,
+								},
+							},
+							["amount"] = 104,
+						},
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 386,
+									["overkill"] = 225,
+								},
+							},
+							["amount"] = 386,
+							["overkill"] = 225,
+						},
 					},
-					["name"] = "Imp Minion",
 					["totaldamage"] = 425,
+					["name"] = "Imp Minion",
 					["totaldamagetaken"] = 1232,
 					["id"] = "0xF13000327A2466C0",
 					["damage"] = 256,
 				}, -- [4]
 			},
-			["etotaldamage"] = 2410,
+			["etotaldamagetaken"] = 10548,
 			["totaldamage"] = 10548,
 			["time"] = 39,
-			["absorb"] = 1269,
-			["totaldamagetaken"] = 2410,
-			["etotaldamagetaken"] = 10548,
 			["last_time"] = 11992.514,
+			["totaldamagetaken"] = 2410,
+			["etotaldamage"] = 2410,
+			["damage"] = 10548,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -3587,13 +3788,13 @@ SkadaStorageDB = {
 							["count"] = 6,
 							["school"] = 1,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 12,
-									["count"] = 3,
-								},
 								["Bloodsail Swashbuckler"] = {
 									["uptime"] = 8,
 									["count"] = 1,
+								},
+								["Bloodsail Warlock"] = {
+									["uptime"] = 12,
+									["count"] = 3,
 								},
 								["Imp Minion"] = {
 									["uptime"] = 8,
@@ -3618,9 +3819,9 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 2,
 							["uptime"] = 17,
 						},
 						[20007] = {
@@ -3629,9 +3830,9 @@ SkadaStorageDB = {
 							["uptime"] = 5,
 						},
 						[2457] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 17,
 						},
 						[1461] = {
@@ -3640,39 +3841,15 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 20,
 						},
 						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 39,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 11,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 11,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 3,
-									["count"] = 2,
-								},
-							},
-							["uptime"] = 3,
 						},
 						[7922] = {
 							["type"] = "DEBUFF",
@@ -3686,6 +3863,30 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 4,
 						},
+						[18498] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 3,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 3,
+						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 11,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 11,
+						},
 					},
 					["role"] = "TANK",
 					["time"] = 37.04000000000001,
@@ -3698,35 +3899,34 @@ SkadaStorageDB = {
 							["id"] = 8204,
 							["criticalmin"] = 210,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 435,
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 98,
 								},
 								["Succubus Minion"] = {
 									["amount"] = 214,
 								},
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 98,
+								["Bloodsail Warlock"] = {
+									["amount"] = 435,
 								},
 								["Imp Minion"] = {
 									["amount"] = 104,
 								},
 							},
-							["criticalmax"] = 214,
 							["critical"] = 2,
+							["hit"] = 4,
 							["casts"] = 3,
 							["count"] = 6,
-							["hit"] = 4,
+							["amount"] = 851,
 							["school"] = 1,
 							["hitmax"] = 114,
-							["amount"] = 851,
+							["criticalmax"] = 214,
 							["hitamount"] = 427,
 						},
 						["Melee"] = {
 							["glance"] = 421,
 							["hitmin"] = 73,
-							["glancemax"] = 90,
+							["hitamount"] = 972,
 							["id"] = 6603,
-							["glancemin"] = 77,
 							["targets"] = {
 								["Succubus Minion"] = {
 									["amount"] = 105,
@@ -3735,19 +3935,20 @@ SkadaStorageDB = {
 									["amount"] = 1123,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 43,
 									["amount"] = 165,
+									["overkill"] = 43,
 								},
 							},
+							["glancemax"] = 90,
 							["overkill"] = 43,
 							["glancing"] = 5,
-							["hitmax"] = 121,
-							["count"] = 16,
 							["amount"] = 1393,
-							["school"] = 1,
+							["count"] = 16,
 							["hit"] = 10,
+							["school"] = 1,
+							["hitmax"] = 121,
 							["MISS"] = 1,
-							["hitamount"] = 972,
+							["glancemin"] = 77,
 						},
 						["Cleave"] = {
 							["hitmin"] = 96,
@@ -3757,13 +3958,13 @@ SkadaStorageDB = {
 									["amount"] = 194,
 								},
 							},
-							["blocked"] = 20,
+							["hit"] = 2,
 							["casts"] = 1,
 							["count"] = 2,
-							["hit"] = 2,
+							["blocked"] = 20,
 							["school"] = 1,
-							["hitmax"] = 98,
 							["amount"] = 194,
+							["hitmax"] = 98,
 							["hitamount"] = 194,
 						},
 						["Victory Rush"] = {
@@ -3802,8 +4003,8 @@ SkadaStorageDB = {
 							["id"] = 11564,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 30,
 									["amount"] = 123,
+									["overkill"] = 30,
 								},
 							},
 							["overkill"] = 30,
@@ -3820,81 +4021,80 @@ SkadaStorageDB = {
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 469,
-							["count"] = 2,
+						["Lash of Pain"] = {
+							["total"] = 252,
+							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 32,
+							["id"] = 32202,
+							["ABSORB"] = 1,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 469,
+								["Succubus Minion"] = {
 									["amount"] = 0,
+									["total"] = 252,
 								},
 							},
-							["ABSORB"] = 2,
-							["id"] = 20825,
 						},
 						["Firebolt"] = {
 							["total"] = 179,
 							["hitmin"] = 88,
 							["id"] = 20801,
-							["ABSORB"] = 1,
+							["hit"] = 1,
 							["sources"] = {
 								["Imp Minion"] = {
-									["total"] = 179,
 									["amount"] = 88,
+									["total"] = 179,
 								},
 							},
 							["count"] = 2,
-							["hit"] = 1,
+							["ABSORB"] = 1,
 							["school"] = 4,
-							["hitmax"] = 88,
 							["amount"] = 88,
+							["hitmax"] = 88,
 							["hitamount"] = 88,
 						},
 						["Melee"] = {
 							["total"] = 177,
 							["hitmin"] = 15,
 							["id"] = 6603,
-							["hitmax"] = 22,
-							["ABSORB"] = 4,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 52,
-									["amount"] = 15,
-								},
-								["Bloodsail Swashbuckler"] = {
-									["total"] = 60,
-									["amount"] = 0,
-								},
-								["Bloodsail Warlock"] = {
-									["total"] = 65,
-									["amount"] = 44,
-								},
-							},
 							["count"] = 8,
 							["amount"] = 59,
+							["sources"] = {
+								["Succubus Minion"] = {
+									["amount"] = 15,
+									["total"] = 52,
+								},
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 0,
+									["total"] = 60,
+								},
+								["Bloodsail Warlock"] = {
+									["amount"] = 44,
+									["total"] = 65,
+								},
+							},
+							["hitmax"] = 22,
+							["ABSORB"] = 4,
 							["school"] = 1,
 							["hit"] = 3,
 							["MISS"] = 1,
 							["hitamount"] = 59,
 						},
-						["Lash of Pain"] = {
-							["total"] = 252,
-							["count"] = 1,
+						["Shadow Bolt"] = {
+							["total"] = 469,
+							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 32,
+							["id"] = 20825,
+							["ABSORB"] = 2,
 							["sources"] = {
-								["Succubus Minion"] = {
-									["total"] = 252,
+								["Bloodsail Warlock"] = {
 									["amount"] = 0,
+									["total"] = 469,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 32202,
 						},
 					},
-					["overkill"] = 73,
 					["name"] = "Omoratorul",
 					["ccdone"] = 2,
 					["totaldamage"] = 2882,
@@ -3910,12 +4110,49 @@ SkadaStorageDB = {
 							},
 						},
 					},
+					["overkill"] = 73,
 				}, -- [1]
 				{
 					["last"] = 11991.372,
 					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["auras"] = {
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[6788] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 2,
+							["targets"] = {
+								["Popasfant"] = {
+									["uptime"] = 15,
+									["count"] = 1,
+								},
+								["Omoratorul"] = {
+									["uptime"] = 12,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 27,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
 						[15264] = {
 							["type"] = "DEBUFF",
 							["count"] = 2,
@@ -3928,47 +4165,11 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 1,
 						},
-						[6788] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 2,
-							["targets"] = {
-								["Omoratorul"] = {
-									["uptime"] = 12,
-									["count"] = 1,
-								},
-								["Popasfant"] = {
-									["uptime"] = 15,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 27,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
 						[6066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
 							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
 							["uptime"] = 28,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
 						},
 					},
 					["absorbspells"] = {
@@ -3979,12 +4180,13 @@ SkadaStorageDB = {
 							["amount"] = 1269,
 							["max"] = 261,
 							["targets"] = {
-								["Popasfant"] = 339,
 								["Omoratorul"] = 930,
+								["Popasfant"] = 339,
 							},
 							["school"] = 2,
 						},
 					},
+					["totaldamage"] = 2703,
 					["time"] = 27.53000000000001,
 					["totaldamagetaken"] = 495,
 					["damage"] = 2703,
@@ -3996,35 +4198,35 @@ SkadaStorageDB = {
 					["healspells"] = {
 						[6078] = {
 							["overheal"] = 399,
-							["max"] = 37,
+							["min"] = 37,
 							["count"] = 3,
 							["amount"] = 37,
 							["school"] = 2,
-							["min"] = 37,
-							["ishot"] = true,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 399,
 									["amount"] = 37,
 								},
 							},
+							["ishot"] = true,
+							["max"] = 37,
 						},
 						[23459] = {
 							["overheal"] = 4882,
 							["criticalamount"] = 32,
 							["max"] = 195,
 							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 1781,
-									["amount"] = 22,
+								["Popasfant"] = {
+									["overheal"] = 2209,
+									["amount"] = 32,
 								},
 								["Slavcul"] = {
 									["overheal"] = 892,
 									["amount"] = 425,
 								},
-								["Popasfant"] = {
-									["overheal"] = 2209,
-									["amount"] = 32,
+								["Omoratorul"] = {
+									["overheal"] = 1781,
+									["amount"] = 22,
 								},
 							},
 							["min"] = 22,
@@ -4032,42 +4234,46 @@ SkadaStorageDB = {
 							["count"] = 27,
 							["amount"] = 479,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["critical"] = 3,
+							["criticalmin"] = 0,
 						},
 						[56160] = {
 							["overheal"] = 35,
 							["count"] = 2,
 							["amount"] = 212,
 							["school"] = 2,
-							["max"] = 124,
+							["min"] = 88,
 							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 35,
-									["amount"] = 88,
-								},
 								["Popasfant"] = {
 									["overheal"] = 0,
 									["amount"] = 124,
 								},
+								["Omoratorul"] = {
+									["overheal"] = 35,
+									["amount"] = 88,
+								},
 							},
-							["min"] = 88,
+							["max"] = 124,
 						},
 					},
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 261,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 32,
+						["Firebolt"] = {
+							["total"] = 163,
+							["hitmin"] = 85,
+							["id"] = 20801,
+							["hit"] = 1,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 261,
-									["amount"] = 0,
+								["Imp Minion"] = {
+									["amount"] = 85,
+									["total"] = 163,
 								},
 							},
+							["count"] = 2,
 							["ABSORB"] = 1,
-							["id"] = 20825,
+							["school"] = 4,
+							["amount"] = 85,
+							["hitmax"] = 85,
+							["hitamount"] = 85,
 						},
 						["Melee"] = {
 							["hitmin"] = 33,
@@ -4084,51 +4290,47 @@ SkadaStorageDB = {
 							["amount"] = 71,
 							["hitamount"] = 71,
 						},
-						["Firebolt"] = {
-							["total"] = 163,
-							["hitmin"] = 85,
-							["id"] = 20801,
+						["Shadow Bolt"] = {
+							["total"] = 261,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 32,
+							["id"] = 20825,
 							["ABSORB"] = 1,
 							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 163,
-									["amount"] = 85,
+								["Bloodsail Warlock"] = {
+									["amount"] = 0,
+									["total"] = 261,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 85,
-							["amount"] = 85,
-							["hitamount"] = 85,
 						},
 					},
 					["heal"] = 728,
 					["name"] = "Popasfant",
-					["overkill"] = 206,
+					["role"] = "HEALER",
 					["damagespells"] = {
 						["Holy Nova"] = {
 							["hitmin"] = 108,
 							["id"] = 15431,
 							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 228,
+								["Bloodsail Warlock"] = {
+									["amount"] = 682,
+									["overkill"] = 61,
 								},
 								["Succubus Minion"] = {
 									["amount"] = 236,
 								},
-								["Bloodsail Warlock"] = {
-									["overkill"] = 61,
-									["amount"] = 682,
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 228,
 								},
 								["Imp Minion"] = {
 									["amount"] = 577,
 								},
 							},
 							["overkill"] = 61,
-							["hitmax"] = 119,
-							["casts"] = 11,
 							["count"] = 15,
+							["casts"] = 11,
+							["hitmax"] = 119,
 							["hit"] = 15,
 							["school"] = 2,
 							["resisted"] = 12,
@@ -4143,9 +4345,9 @@ SkadaStorageDB = {
 									["amount"] = 726,
 								},
 							},
-							["hitmax"] = 426,
-							["casts"] = 2,
 							["count"] = 2,
+							["casts"] = 2,
+							["hitmax"] = 426,
 							["hit"] = 2,
 							["school"] = 2,
 							["resisted"] = 74,
@@ -4157,14 +4359,14 @@ SkadaStorageDB = {
 							["id"] = 8105,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 145,
 									["amount"] = 244,
+									["overkill"] = 145,
 								},
 							},
 							["overkill"] = 145,
-							["hitmax"] = 244,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 244,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 60,
@@ -4179,8 +4381,8 @@ SkadaStorageDB = {
 									["amount"] = 10,
 								},
 							},
-							["hitmax"] = 10,
 							["count"] = 1,
+							["hitmax"] = 10,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 2,
@@ -4188,83 +4390,9 @@ SkadaStorageDB = {
 							["hitamount"] = 10,
 						},
 					},
-					["totaldamage"] = 2703,
-					["role"] = "HEALER",
+					["overkill"] = 206,
 				}, -- [2]
 				{
-					["last"] = 11988.255,
-					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 28,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 3,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 6,
-									["count"] = 1,
-								},
-								["Succubus Minion"] = {
-									["count"] = 1,
-									["refresh"] = 3,
-									["uptime"] = 6,
-								},
-							},
-							["uptime"] = 12,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 2,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["count"] = 2,
-									["refresh"] = 2,
-									["uptime"] = 5,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[13877] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 15,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[5171] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 14,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 28.31,
-					["totaldamagetaken"] = 563,
-					["damage"] = 3780,
 					["damagespells"] = {
 						["Blade Flurry"] = {
 							["hitmin"] = 33,
@@ -4321,8 +4449,8 @@ SkadaStorageDB = {
 							["id"] = 8685,
 							["targets"] = {
 								["Succubus Minion"] = {
-									["overkill"] = 31,
 									["amount"] = 133,
+									["overkill"] = 31,
 								},
 								["Bloodsail Swashbuckler"] = {
 									["amount"] = 57,
@@ -4332,9 +4460,9 @@ SkadaStorageDB = {
 								},
 							},
 							["overkill"] = 31,
-							["hitmax"] = 67,
-							["casts"] = 1,
 							["count"] = 5,
+							["casts"] = 1,
+							["hitmax"] = 67,
 							["hit"] = 5,
 							["school"] = 8,
 							["resisted"] = 12,
@@ -4346,25 +4474,25 @@ SkadaStorageDB = {
 							["id"] = 1760,
 							["targets"] = {
 								["Succubus Minion"] = {
-									["overkill"] = 108,
 									["amount"] = 288,
+									["overkill"] = 108,
 								},
 								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 3,
 									["amount"] = 390,
+									["overkill"] = 3,
 								},
 								["Bloodsail Warlock"] = {
 									["amount"] = 254,
 								},
 							},
 							["overkill"] = 111,
-							["PARRY"] = 1,
 							["casts"] = 8,
+							["PARRY"] = 1,
 							["count"] = 8,
 							["hit"] = 7,
 							["school"] = 1,
-							["hitmax"] = 145,
 							["amount"] = 932,
+							["hitmax"] = 145,
 							["hitamount"] = 932,
 						},
 						["Deadly Poison (DoT)"] = {
@@ -4386,9 +4514,81 @@ SkadaStorageDB = {
 							["hitamount"] = 74,
 						},
 					},
+					["last"] = 11988.255,
 					["damagetaken"] = 563,
 					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[18192] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 28,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[51585] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["refresh"] = 2,
+							["targets"] = {
+								["Succubus Minion"] = {
+									["refresh"] = 2,
+									["count"] = 2,
+									["uptime"] = 5,
+								},
+							},
+							["uptime"] = 5,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[13877] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 15,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[5171] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 14,
+						},
+						[2818] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 3,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["uptime"] = 6,
+									["count"] = 1,
+								},
+								["Succubus Minion"] = {
+									["refresh"] = 3,
+									["count"] = 1,
+									["uptime"] = 6,
+								},
+							},
+							["uptime"] = 12,
+						},
+					},
+					["name"] = "Slavcul",
+					["totaldamage"] = 3780,
+					["time"] = 28.31,
 					["damagetakenspells"] = {
 						["Disarm"] = {
 							["DODGE"] = 1,
@@ -4402,6 +4602,46 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["id"] = 6713,
 						},
+						["Lash of Pain"] = {
+							["hitmin"] = 217,
+							["id"] = 32202,
+							["count"] = 1,
+							["sources"] = {
+								["Succubus Minion"] = {
+									["amount"] = 217,
+								},
+							},
+							["hitmax"] = 217,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 93,
+							["amount"] = 217,
+							["hitamount"] = 217,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 38,
+							["criticalamount"] = 178,
+							["id"] = 6603,
+							["criticalmin"] = 78,
+							["count"] = 8,
+							["critical"] = 2,
+							["amount"] = 346,
+							["PARRY"] = 1,
+							["hitmax"] = 50,
+							["hit"] = 4,
+							["school"] = 1,
+							["criticalmax"] = 100,
+							["sources"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 150,
+								},
+								["Succubus Minion"] = {
+									["amount"] = 196,
+								},
+							},
+							["hitamount"] = 168,
+						},
 						["Shadow Bolt"] = {
 							["sources"] = {
 								["Bloodsail Warlock"] = {
@@ -4414,50 +4654,11 @@ SkadaStorageDB = {
 							["MISS"] = 1,
 							["id"] = 20825,
 						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 38,
-							["criticalamount"] = 178,
-							["id"] = 6603,
-							["criticalmin"] = 78,
-							["criticalmax"] = 100,
-							["critical"] = 2,
-							["PARRY"] = 1,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 150,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 196,
-								},
-							},
-							["count"] = 8,
-							["hit"] = 4,
-							["school"] = 1,
-							["hitmax"] = 50,
-							["amount"] = 346,
-							["hitamount"] = 168,
-						},
-						["Lash of Pain"] = {
-							["hitmin"] = 217,
-							["id"] = 32202,
-							["hitmax"] = 217,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 217,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 93,
-							["amount"] = 217,
-							["hitamount"] = 217,
-						},
 					},
-					["name"] = "Slavcul",
+					["spec"] = 260,
+					["totaldamagetaken"] = 563,
 					["overkill"] = 142,
-					["totaldamage"] = 3780,
+					["damage"] = 3780,
 				}, -- [3]
 				{
 					["last"] = 11987.572,
@@ -4474,17 +4675,18 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 39,
 						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
 						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 39,
 						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
 					},
+					["totaldamage"] = 1183,
 					["time"] = 9.75,
 					["totaldamagetaken"] = 275,
 					["damage"] = 1183,
@@ -4494,12 +4696,12 @@ SkadaStorageDB = {
 							["id"] = 8408,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 34,
 									["amount"] = 797,
+									["overkill"] = 34,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 225,
 									["amount"] = 386,
+									["overkill"] = 225,
 								},
 							},
 							["overkill"] = 259,
@@ -4512,7 +4714,6 @@ SkadaStorageDB = {
 							["hitamount"] = 1183,
 						},
 					},
-					["overheal"] = 138,
 					["damagetaken"] = 275,
 					["id"] = "0x0700000000B06C60",
 					["spec"] = 64,
@@ -4522,14 +4723,14 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 390,
 							["school"] = 1,
-							["max"] = 390,
+							["min"] = 390,
 							["targets"] = {
 								["Vrajadefoc"] = {
 									["overheal"] = 138,
 									["amount"] = 390,
 								},
 							},
-							["min"] = 390,
+							["max"] = 390,
 						},
 					},
 					["overkill"] = 259,
@@ -4538,24 +4739,8 @@ SkadaStorageDB = {
 					},
 					["heal"] = 390,
 					["name"] = "Vrajadefoc",
-					["potion"] = 1,
+					["role"] = "DAMAGER",
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 192,
-							["id"] = 20825,
-							["hitmax"] = 192,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 192,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 48,
-							["amount"] = 192,
-							["hitamount"] = 192,
-						},
 						["Firebolt"] = {
 							["hitmin"] = 83,
 							["id"] = 20801,
@@ -4571,28 +4756,44 @@ SkadaStorageDB = {
 							["amount"] = 83,
 							["hitamount"] = 83,
 						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 192,
+							["id"] = 20825,
+							["count"] = 1,
+							["sources"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 192,
+								},
+							},
+							["hitmax"] = 192,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 48,
+							["amount"] = 192,
+							["hitamount"] = 192,
+						},
 					},
-					["totaldamage"] = 1183,
-					["role"] = "DAMAGER",
+					["potion"] = 1,
+					["overheal"] = 138,
 				}, -- [4]
 			},
-			["type"] = "group",
+			["absorb"] = 1269,
 			["damagetaken"] = 1141,
-			["interrupt"] = 1,
-			["overheal"] = 5454,
 			["starttime"] = 1729453230,
+			["interrupt"] = 1,
+			["ccdone"] = 2,
+			["name"] = "Bloodsail Warlock (13)",
 			["overkill"] = 680,
 			["edamagetaken"] = 10548,
 			["heal"] = 1118,
-			["name"] = "Bloodsail Warlock (13)",
-			["ccdone"] = 2,
+			["potion"] = 1,
+			["mobname"] = "Bloodsail Warlock",
+			["overheal"] = 5454,
 			["edamage"] = 1141,
 			["last_action"] = 1729453267,
 			["endtime"] = 1729453269,
-		}, -- [4]
+		}, -- [6]
 		{
-			["damage"] = 6841,
-			["absorb"] = 250,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -4609,12 +4810,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["total"] = 583,
 							["targets"] = {
-								["Omoratorul"] = {
-									["total"] = 367,
-									["amount"] = 191,
-								},
 								["Vrajadefoc"] = {
 									["amount"] = 216,
+								},
+								["Omoratorul"] = {
+									["amount"] = 191,
+									["total"] = 367,
 								},
 							},
 							["amount"] = 407,
@@ -4628,23 +4829,23 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["overkill"] = 532,
 									["amount"] = 2292,
+									["overkill"] = 532,
 								},
 							},
-							["overkill"] = 532,
 							["amount"] = 2292,
+							["overkill"] = 532,
 						},
 						[6548] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 10,
 									["amount"] = 129,
+									["overkill"] = 10,
 								},
 							},
-							["overkill"] = 10,
 							["amount"] = 129,
+							["overkill"] = 10,
 						},
 						[34428] = {
 							["school"] = 1,
@@ -4658,16 +4859,16 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 49,
-									["amount"] = 408,
-								},
 								["Omoratorul"] = {
 									["amount"] = 882,
 								},
+								["Slavcul"] = {
+									["amount"] = 408,
+									["overkill"] = 49,
+								},
 							},
-							["overkill"] = 49,
 							["amount"] = 1290,
+							["overkill"] = 49,
 						},
 						[8204] = {
 							["school"] = 1,
@@ -4697,8 +4898,8 @@ SkadaStorageDB = {
 							["amount"] = 128,
 						},
 					},
-					["name"] = "Bloodsail Warlock",
 					["totaldamage"] = 652,
+					["name"] = "Bloodsail Warlock",
 					["totaldamagetaken"] = 4509,
 					["id"] = "0xF13000061C24655F",
 					["damage"] = 476,
@@ -4731,34 +4932,14 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 169,
-								},
 								["Slavcul"] = {
 									["amount"] = 388,
 								},
+								["Omoratorul"] = {
+									["amount"] = 169,
+								},
 							},
 							["amount"] = 557,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 791,
-								},
-							},
-							["amount"] = 791,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 40,
-									["amount"] = 130,
-								},
-							},
-							["overkill"] = 40,
-							["amount"] = 130,
 						},
 						[8204] = {
 							["school"] = 1,
@@ -4769,9 +4950,29 @@ SkadaStorageDB = {
 							},
 							["amount"] = 380,
 						},
+						[8685] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 130,
+									["overkill"] = 40,
+								},
+							},
+							["amount"] = 130,
+							["overkill"] = 40,
+						},
+						[1760] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 791,
+								},
+							},
+							["amount"] = 791,
+						},
 					},
-					["name"] = "Succubus Minion",
 					["totaldamage"] = 648,
+					["name"] = "Succubus Minion",
 					["totaldamagetaken"] = 1858,
 					["id"] = "0xF130002AB0246563",
 					["damage"] = 648,
@@ -4783,8 +4984,8 @@ SkadaStorageDB = {
 							["total"] = 150,
 							["targets"] = {
 								["Omoratorul"] = {
-									["total"] = 150,
 									["amount"] = 76,
+									["total"] = 150,
 								},
 							},
 							["amount"] = 76,
@@ -4803,26 +5004,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 130,
 						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 127,
-								},
-							},
-							["amount"] = 127,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 3,
-									["amount"] = 120,
-								},
-							},
-							["overkill"] = 3,
-							["amount"] = 120,
-						},
 						[8204] = {
 							["school"] = 1,
 							["sources"] = {
@@ -4832,6 +5013,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 97,
 						},
+						[8685] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 120,
+									["overkill"] = 3,
+								},
+							},
+							["amount"] = 120,
+							["overkill"] = 3,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 127,
+								},
+							},
+							["amount"] = 127,
+						},
 					},
 					["totaldamage"] = 150,
 					["name"] = "Imp Minion",
@@ -4840,13 +5041,16 @@ SkadaStorageDB = {
 					["damage"] = 76,
 				}, -- [3]
 			},
-			["overheal"] = 0,
+			["last_time"] = 11950.231,
 			["totaldamage"] = 6841,
 			["time"] = 33,
-			["etotaldamage"] = 1450,
-			["totaldamagetaken"] = 1450,
 			["etotaldamagetaken"] = 6841,
-			["last_time"] = 11950.231,
+			["totaldamagetaken"] = 1450,
+			["etotaldamage"] = 1450,
+			["damage"] = 6841,
+			["overheal"] = 0,
+			["absorb"] = 250,
+			["damagetaken"] = 1200,
 			["players"] = {
 				{
 					["last"] = 11945.605,
@@ -4884,21 +5088,21 @@ SkadaStorageDB = {
 							["uptime"] = 33,
 						},
 						[6078] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 4,
 						},
 						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 6,
 						},
 						[20007] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 12,
 						},
 						[1461] = {
@@ -4907,27 +5111,15 @@ SkadaStorageDB = {
 							["uptime"] = 33,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 16,
 						},
 						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 33,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 3,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 8,
 						},
 						[6548] = {
 							["type"] = "DEBUFF",
@@ -4941,19 +5133,149 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 9,
 						},
+						[18498] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 8,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 8,
+						},
 					},
 					["role"] = "TANK",
 					["time"] = 25.79,
-					["rage"] = 15,
 					["totaldamagetaken"] = 1234,
-					["heal"] = 99,
 					["damage"] = 2327,
+					["rage"] = 15,
+					["damagetaken"] = 984,
+					["totaldamage"] = 2327,
+					["id"] = "0x0700000000B06C55",
+					["spec"] = 73,
+					["healspells"] = {
+						[20007] = {
+							["overheal"] = 0,
+							["count"] = 1,
+							["amount"] = 99,
+							["school"] = 1,
+							["min"] = 99,
+							["targets"] = {
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 99,
+								},
+							},
+							["max"] = 99,
+						},
+					},
+					["damagetakenspells"] = {
+						["Lash of Pain"] = {
+							["hitmin"] = 217,
+							["id"] = 32202,
+							["count"] = 2,
+							["sources"] = {
+								["Succubus Minion"] = {
+									["amount"] = 478,
+								},
+							},
+							["hitmax"] = 261,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 122,
+							["amount"] = 478,
+							["hitamount"] = 478,
+						},
+						["Firebolt"] = {
+							["total"] = 150,
+							["hitmin"] = 76,
+							["id"] = 20801,
+							["hit"] = 1,
+							["sources"] = {
+								["Imp Minion"] = {
+									["amount"] = 76,
+									["total"] = 150,
+								},
+							},
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["school"] = 4,
+							["amount"] = 76,
+							["hitmax"] = 76,
+							["hitamount"] = 76,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["criticalamount"] = 54,
+							["hitmin"] = 22,
+							["criticalmin"] = 54,
+							["id"] = 6603,
+							["critical"] = 1,
+							["criticalmax"] = 54,
+							["hitmax"] = 30,
+							["hit"] = 7,
+							["sources"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 69,
+								},
+								["Succubus Minion"] = {
+									["amount"] = 170,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 239,
+							["school"] = 1,
+							["PARRY"] = 2,
+							["MISS"] = 1,
+							["hitamount"] = 185,
+						},
+						["Shadow Bolt"] = {
+							["total"] = 367,
+							["hitmin"] = 191,
+							["id"] = 20825,
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["sources"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 191,
+									["total"] = 367,
+								},
+							},
+							["hitmax"] = 191,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 21,
+							["amount"] = 191,
+							["hitamount"] = 191,
+						},
+					},
+					["overheal"] = 0,
+					["heal"] = 99,
+					["name"] = "Omoratorul",
+					["interrupt"] = 3,
+					["ragespells"] = {
+						[23602] = 15,
+					},
+					["overkill"] = 10,
+					["interruptspells"] = {
+						[72] = {
+							["spells"] = {
+								[20825] = 3,
+							},
+							["count"] = 3,
+							["targets"] = {
+								["Bloodsail Warlock"] = 3,
+							},
+						},
+					},
 					["damagespells"] = {
 						["Thunder Clap"] = {
 							["hitmin"] = 97,
 							["criticalamount"] = 274,
 							["id"] = 8204,
-							["hitmax"] = 134,
+							["criticalmin"] = 274,
 							["targets"] = {
 								["Succubus Minion"] = {
 									["amount"] = 380,
@@ -4965,14 +5287,14 @@ SkadaStorageDB = {
 									["amount"] = 97,
 								},
 							},
-							["count"] = 6,
-							["hit"] = 5,
 							["casts"] = 3,
+							["hitmax"] = 134,
+							["criticalmax"] = 274,
 							["critical"] = 1,
 							["amount"] = 818,
 							["school"] = 1,
-							["criticalmin"] = 274,
-							["criticalmax"] = 274,
+							["hit"] = 5,
+							["count"] = 6,
 							["hitamount"] = 544,
 						},
 						["Melee"] = {
@@ -4994,13 +5316,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 236,
 							["id"] = 6603,
 							["glancemax"] = 75,
-							["criticalmax"] = 236,
 							["PARRY"] = 1,
+							["criticalmax"] = 236,
 							["hitmax"] = 107,
 							["hit"] = 7,
 							["school"] = 1,
-							["critical"] = 1,
 							["count"] = 12,
+							["critical"] = 1,
 							["hitamount"] = 671,
 						},
 						["Victory Rush"] = {
@@ -5019,23 +5341,6 @@ SkadaStorageDB = {
 							["amount"] = 237,
 							["hitamount"] = 237,
 						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 43,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 10,
-									["amount"] = 129,
-								},
-							},
-							["overkill"] = 10,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 43,
-							["amount"] = 129,
-							["hitamount"] = 129,
-						},
 						["Overpower"] = {
 							["hitmin"] = 92,
 							["id"] = 7384,
@@ -5052,176 +5357,73 @@ SkadaStorageDB = {
 							["amount"] = 92,
 							["hitamount"] = 92,
 						},
-					},
-					["overheal"] = 0,
-					["damagetaken"] = 984,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["healspells"] = {
-						[20007] = {
-							["overheal"] = 0,
-							["count"] = 1,
-							["amount"] = 99,
-							["school"] = 1,
-							["max"] = 99,
+						["Rend (DoT)"] = {
+							["hitmin"] = 43,
+							["id"] = 6548,
 							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 99,
-								},
-							},
-							["min"] = 99,
-						},
-					},
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 367,
-							["hitmin"] = 191,
-							["id"] = 20825,
-							["ABSORB"] = 1,
-							["hitmax"] = 191,
-							["sources"] = {
 								["Bloodsail Warlock"] = {
-									["total"] = 367,
-									["amount"] = 191,
+									["amount"] = 129,
+									["overkill"] = 10,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 21,
-							["amount"] = 191,
-							["hitamount"] = 191,
-						},
-						["Firebolt"] = {
-							["total"] = 150,
-							["hitmin"] = 76,
-							["id"] = 20801,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 150,
-									["amount"] = 76,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 76,
-							["amount"] = 76,
-							["hitamount"] = 76,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["criticalmin"] = 54,
-							["hitmin"] = 22,
-							["criticalamount"] = 54,
-							["id"] = 6603,
-							["criticalmax"] = 54,
-							["critical"] = 1,
-							["amount"] = 239,
-							["PARRY"] = 2,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 69,
-								},
-								["Succubus Minion"] = {
-									["amount"] = 170,
-								},
-							},
-							["count"] = 12,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 30,
-							["MISS"] = 1,
-							["hitamount"] = 185,
-						},
-						["Lash of Pain"] = {
-							["hitmin"] = 217,
-							["id"] = 32202,
-							["hitmax"] = 261,
-							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 478,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 122,
-							["amount"] = 478,
-							["hitamount"] = 478,
-						},
-					},
-					["overkill"] = 10,
-					["ragespells"] = {
-						[23602] = 15,
-					},
-					["name"] = "Omoratorul",
-					["interrupt"] = 3,
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[20825] = 3,
-							},
+							["overkill"] = 10,
 							["count"] = 3,
-							["targets"] = {
-								["Bloodsail Warlock"] = 3,
-							},
+							["hit"] = 3,
+							["school"] = 1,
+							["hitmax"] = 43,
+							["amount"] = 129,
+							["hitamount"] = 129,
 						},
 					},
-					["totaldamage"] = 2327,
 				}, -- [1]
 				{
 					["overheal"] = 0,
 					["absorb"] = 250,
 					["id"] = "0x0700000000B06C58",
-					["last"] = 11950.231,
-					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["healspells"] = {
 						[6078] = {
 							["overheal"] = 0,
+							["min"] = 146,
+							["count"] = 1,
+							["amount"] = 146,
+							["max"] = 146,
+							["ishot"] = true,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 0,
 									["amount"] = 146,
 								},
 							},
-							["count"] = 1,
-							["amount"] = 146,
 							["school"] = 2,
-							["max"] = 146,
-							["ishot"] = true,
-							["min"] = 146,
 						},
 						[56160] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 123,
 							["school"] = 2,
-							["max"] = 123,
+							["min"] = 123,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 0,
 									["amount"] = 123,
 								},
 							},
-							["min"] = 123,
+							["max"] = 123,
 						},
 						[9474] = {
 							["overheal"] = 0,
 							["count"] = 1,
 							["amount"] = 599,
 							["school"] = 2,
-							["max"] = 599,
+							["min"] = 599,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 0,
 									["amount"] = 599,
 								},
 							},
-							["min"] = 599,
+							["max"] = 599,
 						},
 					},
 					["auras"] = {
@@ -5271,88 +5473,33 @@ SkadaStorageDB = {
 							["max"] = 176,
 						},
 					},
-					["time"] = 8.109999999999999,
-					["spec"] = 256,
 					["role"] = "HEALER",
-					["name"] = "Popasfant",
+					["time"] = 8.109999999999999,
 					["heal"] = 868,
+					["name"] = "Popasfant",
+					["spec"] = 256,
+					["flag"] = 1298,
+					["last"] = 11950.231,
 				}, -- [2]
 				{
-					["last"] = 11950.157,
-					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 2,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-					},
-					["time"] = 23.00999999999999,
-					["damage"] = 2222,
 					["damagespells"] = {
 						["Instant Poison II"] = {
 							["hitmin"] = 54,
 							["id"] = 8685,
 							["targets"] = {
-								["Imp Minion"] = {
-									["overkill"] = 3,
-									["amount"] = 120,
-								},
 								["Succubus Minion"] = {
-									["overkill"] = 40,
 									["amount"] = 130,
+									["overkill"] = 40,
+								},
+								["Imp Minion"] = {
+									["amount"] = 120,
+									["overkill"] = 3,
 								},
 							},
 							["overkill"] = 43,
-							["hitmax"] = 66,
-							["casts"] = 1,
 							["count"] = 4,
+							["casts"] = 1,
+							["hitmax"] = 66,
 							["hit"] = 4,
 							["school"] = 8,
 							["resisted"] = 13,
@@ -5390,8 +5537,8 @@ SkadaStorageDB = {
 									["amount"] = 388,
 								},
 								["Bloodsail Warlock"] = {
-									["overkill"] = 49,
 									["amount"] = 408,
+									["overkill"] = 49,
 								},
 								["Imp Minion"] = {
 									["amount"] = 127,
@@ -5414,12 +5561,69 @@ SkadaStorageDB = {
 							["hitamount"] = 600,
 						},
 					},
+					["last"] = 11950.157,
+					["flag"] = 1298,
 					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
-					["overkill"] = 92,
-					["name"] = "Slavcul",
+					["class"] = "ROGUE",
 					["interrupt"] = 1,
+					["auras"] = {
+						[18192] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[51585] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Succubus Minion"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[2818] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 2,
+								},
+								["Imp Minion"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 3,
+						},
+					},
 					["totaldamage"] = 2222,
+					["role"] = "DAMAGER",
+					["time"] = 23.00999999999999,
+					["name"] = "Slavcul",
+					["overkill"] = 92,
+					["spec"] = 260,
 					["interruptspells"] = {
 						[1766] = {
 							["spells"] = {
@@ -5431,12 +5635,64 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["damage"] = 2222,
 				}, -- [3]
 				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["criticalamount"] = 767,
+							["criticalmax"] = 767,
+							["hitmin"] = 362,
+							["criticalmin"] = 767,
+							["id"] = 8408,
+							["count"] = 5,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 2292,
+									["overkill"] = 532,
+								},
+							},
+							["overkill"] = 532,
+							["amount"] = 2292,
+							["casts"] = 9,
+							["critical"] = 1,
+							["hit"] = 4,
+							["school"] = 16,
+							["resisted"] = 40,
+							["hitmax"] = 397,
+							["hitamount"] = 1525,
+						},
+					},
 					["last"] = 11945.547,
+					["damagetaken"] = 216,
+					["id"] = "0x0700000000B06C60",
 					["flag"] = 1298,
 					["class"] = "MAGE",
+					["totaldamage"] = 2292,
+					["damagetakenspells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 216,
+							["id"] = 20825,
+							["count"] = 1,
+							["sources"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 216,
+								},
+							},
+							["hitmax"] = 216,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 24,
+							["amount"] = 216,
+							["hitamount"] = 216,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["role"] = "DAMAGER",
+					["time"] = 15.42,
+					["overkill"] = 532,
+					["spec"] = 64,
+					["totaldamagetaken"] = 216,
 					["auras"] = {
 						[976] = {
 							["type"] = "BUFF",
@@ -5448,88 +5704,34 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 33,
 						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
 						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 33,
 						},
-					},
-					["time"] = 15.42,
-					["totaldamagetaken"] = 216,
-					["damage"] = 2292,
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmax"] = 397,
-							["criticalmin"] = 767,
-							["hitmin"] = 362,
-							["criticalamount"] = 767,
-							["id"] = 8408,
-							["criticalmax"] = 767,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 532,
-									["amount"] = 2292,
-								},
-							},
-							["overkill"] = 532,
-							["critical"] = 1,
-							["casts"] = 9,
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 16,
-							["resisted"] = 40,
-							["amount"] = 2292,
-							["hitamount"] = 1525,
-						},
-					},
-					["damagetaken"] = 216,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["overkill"] = 532,
-					["name"] = "Vrajadefoc",
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 216,
-							["id"] = 20825,
-							["hitmax"] = 216,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 216,
-								},
-							},
+						[8098] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 24,
-							["amount"] = 216,
-							["hitamount"] = 216,
+							["uptime"] = 33,
 						},
 					},
-					["totaldamage"] = 2292,
-					["role"] = "DAMAGER",
+					["damage"] = 2292,
 				}, -- [4]
 			},
-			["type"] = "group",
-			["damagetaken"] = 1200,
 			["interrupt"] = 4,
+			["starttime"] = 1729453193,
 			["rage"] = 15,
 			["overkill"] = 634,
 			["edamagetaken"] = 6841,
 			["heal"] = 967,
 			["name"] = "Bloodsail Warlock (12)",
 			["mobname"] = "Bloodsail Warlock",
-			["starttime"] = 1729453193,
+			["type"] = "group",
 			["edamage"] = 1200,
 			["last_action"] = 1729453225,
 			["endtime"] = 1729453226,
-		}, -- [5]
+		}, -- [7]
 		{
-			["mobname"] = "Bloodsail Swashbuckler",
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -5559,11 +5761,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 293,
-								},
 								["Omoratorul"] = {
 									["amount"] = 253,
+								},
+								["Slavcul"] = {
+									["amount"] = 293,
 								},
 							},
 							["amount"] = 546,
@@ -5604,16 +5806,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 211,
 						},
-						[11564] = {
-							["school"] = 1,
+						[6060] = {
+							["school"] = 2,
 							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 9,
-									["amount"] = 136,
+								["Popasfant"] = {
+									["amount"] = 272,
 								},
 							},
-							["overkill"] = 9,
-							["amount"] = 136,
+							["amount"] = 272,
 						},
 						[8685] = {
 							["school"] = 8,
@@ -5624,30 +5824,34 @@ SkadaStorageDB = {
 							},
 							["amount"] = 57,
 						},
-						[6060] = {
-							["school"] = 2,
+						[11564] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 272,
+								["Omoratorul"] = {
+									["amount"] = 136,
+									["overkill"] = 9,
 								},
 							},
-							["amount"] = 272,
+							["amount"] = 136,
+							["overkill"] = 9,
 						},
 					},
-					["name"] = "Bloodsail Swashbuckler",
 					["totaldamage"] = 81,
+					["name"] = "Bloodsail Swashbuckler",
 					["totaldamagetaken"] = 1912,
 					["id"] = "0xF13000061B2464EE",
 					["damage"] = 81,
 				}, -- [1]
 			},
-			["starttime"] = 1729453183,
 			["totaldamage"] = 1912,
 			["time"] = 9,
-			["etotaldamage"] = 81,
-			["totaldamagetaken"] = 81,
 			["etotaldamagetaken"] = 1912,
+			["totaldamagetaken"] = 81,
+			["etotaldamage"] = 81,
 			["last_time"] = 11915.374,
+			["starttime"] = 1729453183,
+			["type"] = "group",
+			["damagetaken"] = 81,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -5723,12 +5927,6 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[20007] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 8,
-						},
 						[7922] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -5741,12 +5939,18 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
+						[20007] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 8,
+						},
 					},
+					["totaldamage"] = 769,
 					["time"] = 7.05,
 					["totaldamagetaken"] = 81,
 					["damage"] = 769,
 					["overheal"] = 15,
-					["overkill"] = 9,
 					["damagetaken"] = 81,
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
@@ -5756,40 +5960,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 97,
 							["school"] = 1,
-							["max"] = 97,
+							["min"] = 97,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 15,
 									["amount"] = 97,
 								},
 							},
-							["min"] = 97,
+							["max"] = 97,
 						},
 					},
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 39,
-							["id"] = 6603,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 81,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 42,
-							["amount"] = 81,
-							["hitamount"] = 81,
-						},
-					},
+					["overkill"] = 9,
+					["role"] = "TANK",
 					["ragespells"] = {
 						[29131] = 2,
 					},
-					["heal"] = 97,
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["rage"] = 2,
 					["damagespells"] = {
 						["Thunder Clap"] = {
 							["hitmin"] = 124,
@@ -5858,8 +6045,8 @@ SkadaStorageDB = {
 							["id"] = 11564,
 							["targets"] = {
 								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 9,
 									["amount"] = 136,
+									["overkill"] = 9,
 								},
 							},
 							["overkill"] = 9,
@@ -5872,8 +6059,25 @@ SkadaStorageDB = {
 							["hitamount"] = 136,
 						},
 					},
-					["totaldamage"] = 769,
-					["role"] = "TANK",
+					["rage"] = 2,
+					["heal"] = 97,
+					["damagetakenspells"] = {
+						["Melee"] = {
+							["hitmin"] = 39,
+							["id"] = 6603,
+							["sources"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 81,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 42,
+							["amount"] = 81,
+							["hitamount"] = 81,
+						},
+					},
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -5885,9 +6089,9 @@ SkadaStorageDB = {
 									["amount"] = 262,
 								},
 							},
-							["hitmax"] = 262,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 262,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 29,
@@ -5899,13 +6103,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 15264,
+							["MISS"] = 1,
 							["targets"] = {
 								["Bloodsail Swashbuckler"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 15264,
 						},
 						["Smite"] = {
 							["hitmin"] = 272,
@@ -5915,9 +6119,9 @@ SkadaStorageDB = {
 									["amount"] = 272,
 								},
 							},
-							["hitmax"] = 272,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 272,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 67,
@@ -5928,7 +6132,6 @@ SkadaStorageDB = {
 					["last"] = 11908.281,
 					["id"] = "0x0700000000B06C58",
 					["spec"] = 256,
-					["class"] = "PRIEST",
 					["auras"] = {
 						[976] = {
 							["type"] = "BUFF",
@@ -5952,10 +6155,11 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamage"] = 534,
-					["role"] = "HEALER",
 					["name"] = "Popasfant",
-					["flag"] = 1298,
+					["class"] = "PRIEST",
 					["time"] = 0,
+					["flag"] = 1298,
+					["role"] = "HEALER",
 					["damage"] = 534,
 				}, -- [2]
 				{
@@ -5968,9 +6172,9 @@ SkadaStorageDB = {
 									["amount"] = 57,
 								},
 							},
-							["hitmax"] = 57,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 57,
 							["hit"] = 1,
 							["school"] = 8,
 							["resisted"] = 6,
@@ -5987,13 +6191,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 66,
-							["critical"] = 1,
+							["hit"] = 3,
 							["criticalmax"] = 66,
 							["count"] = 4,
-							["hit"] = 3,
+							["amount"] = 293,
 							["school"] = 1,
 							["hitmax"] = 96,
-							["amount"] = 293,
+							["critical"] = 1,
 							["hitamount"] = 227,
 						},
 						["Sinister Strike"] = {
@@ -6016,7 +6220,6 @@ SkadaStorageDB = {
 					["last"] = 11914.989,
 					["id"] = "0x0700000000B0D62C",
 					["spec"] = 260,
-					["class"] = "ROGUE",
 					["auras"] = {
 						[18192] = {
 							["type"] = "BUFF",
@@ -6052,10 +6255,11 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamage"] = 609,
-					["role"] = "DAMAGER",
 					["name"] = "Slavcul",
-					["flag"] = 1298,
+					["class"] = "ROGUE",
 					["time"] = 6.020000000000001,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["damage"] = 609,
 				}, -- [3]
 				{
@@ -6068,7 +6272,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[976] = {
+						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -6078,12 +6282,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 6,
 						},
-						[6117] = {
+						[8098] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[8098] = {
+						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -6091,369 +6295,25 @@ SkadaStorageDB = {
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "MAGE",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [4]
 			},
-			["type"] = "group",
-			["damagetaken"] = 81,
 			["overheal"] = 15,
-			["rage"] = 2,
+			["damage"] = 1912,
+			["ccdone"] = 1,
 			["overkill"] = 9,
 			["edamagetaken"] = 1912,
 			["heal"] = 97,
 			["name"] = "Bloodsail Swashbuckler (15)",
-			["ccdone"] = 1,
-			["damage"] = 1912,
+			["mobname"] = "Bloodsail Swashbuckler",
+			["rage"] = 2,
 			["edamage"] = 81,
 			["last_action"] = 1729453190,
 			["endtime"] = 1729453192,
-		}, -- [6]
+		}, -- [8]
 		{
-			["mobname"] = "Bloodsail Warlock",
-			["rage"] = 24,
-			["absorb"] = 620,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-						[20801] = {
-							["school"] = 4,
-							["total"] = 252,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 171,
-								},
-								["Slavcul"] = {
-									["total"] = 165,
-									["amount"] = 0,
-								},
-								["Omoratorul"] = {
-									["amount"] = 87,
-								},
-							},
-							["amount"] = 258,
-						},
-					},
-					["damagetaken"] = 2153,
-					["id"] = "0xF13000327A2463DB",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 376,
-									["amount"] = 712,
-								},
-							},
-							["overkill"] = 376,
-							["amount"] = 712,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 260,
-									["amount"] = 297,
-								},
-							},
-							["overkill"] = 260,
-							["amount"] = 297,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 466,
-								},
-							},
-							["amount"] = 466,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 135,
-								},
-							},
-							["amount"] = 135,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 82,
-									["amount"] = 109,
-								},
-							},
-							["overkill"] = 82,
-							["amount"] = 109,
-						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 434,
-								},
-							},
-							["amount"] = 434,
-						},
-					},
-					["totaldamage"] = 447,
-					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 2153,
-					["flag"] = 4680,
-					["damage"] = 282,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[20825] = {
-							["school"] = 32,
-							["total"] = 1055,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 233,
-								},
-								["Vrajadefoc"] = {
-									["amount"] = 178,
-								},
-								["Slavcul"] = {
-									["total"] = 642,
-									["amount"] = 187,
-								},
-								["Omoratorul"] = {
-									["amount"] = 235,
-								},
-							},
-							["amount"] = 833,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 33,
-								},
-								["Omoratorul"] = {
-									["amount"] = 46,
-								},
-							},
-							["amount"] = 79,
-						},
-					},
-					["damagetaken"] = 5536,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 255,
-								},
-							},
-							["amount"] = 255,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 811,
-								},
-								["Omoratorul"] = {
-									["overkill"] = 57,
-									["amount"] = 968,
-								},
-							},
-							["overkill"] = 57,
-							["amount"] = 1779,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 531,
-								},
-							},
-							["amount"] = 531,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 215,
-								},
-							},
-							["amount"] = 215,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 190,
-								},
-							},
-							["amount"] = 190,
-						},
-						[2818] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 21,
-								},
-							},
-							["amount"] = 21,
-						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 268,
-									["amount"] = 1506,
-								},
-							},
-							["overkill"] = 268,
-							["amount"] = 1506,
-						},
-						[6060] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 331,
-								},
-							},
-							["amount"] = 331,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 567,
-								},
-							},
-							["amount"] = 567,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 141,
-								},
-							},
-							["amount"] = 141,
-						},
-					},
-					["name"] = "Bloodsail Warlock",
-					["totaldamage"] = 1367,
-					["totaldamagetaken"] = 5536,
-					["id"] = "0xF13000061C2463C2",
-					["damage"] = 912,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[32202] = {
-							["school"] = 32,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 252,
-								},
-								["Slavcul"] = {
-									["amount"] = 311,
-								},
-							},
-							["amount"] = 563,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 26,
-								},
-								["Popasfant"] = {
-									["amount"] = 92,
-								},
-								["Slavcul"] = {
-									["amount"] = 39,
-								},
-							},
-							["amount"] = 157,
-						},
-					},
-					["damagetaken"] = 910,
-					["id"] = "0xF130002AB024643B",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 60,
-								},
-							},
-							["amount"] = 60,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 20,
-									["amount"] = 461,
-								},
-							},
-							["overkill"] = 20,
-							["amount"] = 461,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 113,
-								},
-							},
-							["amount"] = 113,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 140,
-								},
-							},
-							["amount"] = 140,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 136,
-								},
-							},
-							["amount"] = 136,
-						},
-					},
-					["totaldamage"] = 720,
-					["name"] = "Succubus Minion",
-					["totaldamagetaken"] = 910,
-					["flag"] = 4680,
-					["damage"] = 720,
-				}, -- [3]
-			},
-			["overheal"] = 1709,
-			["totaldamage"] = 8599,
-			["time"] = 33,
-			["starttime"] = 1729453147,
-			["totaldamagetaken"] = 2534,
-			["etotaldamage"] = 2534,
-			["last_time"] = 11904.223,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -6483,33 +6343,39 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 33,
 						},
-						[29131] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 5,
-						},
-						[18498] = {
+						[7922] = {
 							["type"] = "DEBUFF",
-							["count"] = 3,
+							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["uptime"] = 6,
-									["count"] = 3,
+									["uptime"] = 1,
+									["count"] = 1,
 								},
 							},
-							["uptime"] = 6,
+							["uptime"] = 1,
 						},
 						[20007] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 6,
 						},
+						[6548] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 9,
+									["count"] = 2,
+								},
+							},
+							["uptime"] = 9,
+						},
 						[2457] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 5,
 						},
 						[1461] = {
@@ -6518,9 +6384,9 @@ SkadaStorageDB = {
 							["uptime"] = 33,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 2,
-							["school"] = 1,
 							["uptime"] = 21,
 						},
 						[976] = {
@@ -6548,29 +6414,23 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 12,
 						},
-						[7922] = {
-							["type"] = "DEBUFF",
+						[29131] = {
+							["school"] = 1,
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 5,
 						},
-						[6548] = {
+						[18498] = {
 							["type"] = "DEBUFF",
-							["count"] = 2,
+							["count"] = 3,
 							["school"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["uptime"] = 9,
-									["count"] = 2,
+									["uptime"] = 6,
+									["count"] = 3,
 								},
 							},
-							["uptime"] = 9,
+							["uptime"] = 6,
 						},
 					},
 					["role"] = "TANK",
@@ -6592,10 +6452,10 @@ SkadaStorageDB = {
 									["amount"] = 135,
 								},
 							},
-							["amount"] = 503,
+							["hit"] = 4,
 							["casts"] = 2,
 							["count"] = 5,
-							["hit"] = 4,
+							["amount"] = 503,
 							["school"] = 1,
 							["hitmax"] = 146,
 							["MISS"] = 1,
@@ -6632,62 +6492,81 @@ SkadaStorageDB = {
 							["amount"] = 190,
 							["hitamount"] = 190,
 						},
+						["Melee"] = {
+							["glance"] = 207,
+							["hitmin"] = 71,
+							["hitamount"] = 761,
+							["id"] = 6603,
+							["glancemax"] = 79,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 968,
+									["overkill"] = 57,
+								},
+							},
+							["overkill"] = 57,
+							["glancing"] = 3,
+							["count"] = 12,
+							["hitmax"] = 124,
+							["hit"] = 8,
+							["school"] = 1,
+							["amount"] = 968,
+							["MISS"] = 1,
+							["glancemin"] = 64,
+						},
 						["Rend"] = {
 							["casts"] = 2,
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 18075,
+							["MISS"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 18075,
-						},
-						["Melee"] = {
-							["glance"] = 207,
-							["hitmin"] = 71,
-							["glancemin"] = 64,
-							["id"] = 6603,
-							["amount"] = 968,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 57,
-									["amount"] = 968,
-								},
-							},
-							["overkill"] = 57,
-							["glancing"] = 3,
-							["glancemax"] = 79,
-							["count"] = 12,
-							["hit"] = 8,
-							["school"] = 1,
-							["hitmax"] = 124,
-							["MISS"] = 1,
-							["hitamount"] = 761,
 						},
 					},
 					["damagetaken"] = 670,
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
 					["overkill"] = 57,
+					["rage"] = 24,
+					["ragespells"] = {
+						[2687] = 20,
+						[29131] = 4,
+					},
+					["name"] = "Omoratorul",
+					["ccdone"] = 1,
+					["interrupt"] = 1,
+					["totaldamage"] = 1802,
+					["interruptspells"] = {
+						[72] = {
+							["spells"] = {
+								[20825] = 1,
+							},
+							["count"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = 1,
+							},
+						},
+					},
 					["damagetakenspells"] = {
-						["Lash of Pain"] = {
-							["hitmin"] = 252,
-							["id"] = 32202,
-							["hitmax"] = 252,
+						["Firebolt"] = {
+							["hitmin"] = 87,
+							["id"] = 20801,
 							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 252,
+								["Imp Minion"] = {
+									["amount"] = 87,
 								},
 							},
 							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 28,
-							["amount"] = 252,
-							["hitamount"] = 252,
+							["school"] = 4,
+							["hitmax"] = 87,
+							["amount"] = 87,
+							["hitamount"] = 87,
 						},
 						["Shadow Bolt"] = {
 							["hitmin"] = 235,
@@ -6725,40 +6604,21 @@ SkadaStorageDB = {
 							["amount"] = 96,
 							["hitamount"] = 96,
 						},
-						["Firebolt"] = {
-							["hitmin"] = 87,
-							["id"] = 20801,
+						["Lash of Pain"] = {
+							["hitmin"] = 252,
+							["id"] = 32202,
+							["count"] = 1,
 							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 87,
+								["Succubus Minion"] = {
+									["amount"] = 252,
 								},
 							},
-							["count"] = 1,
+							["hitmax"] = 252,
 							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 87,
-							["amount"] = 87,
-							["hitamount"] = 87,
-						},
-					},
-					["rage"] = 24,
-					["ragespells"] = {
-						[2687] = 20,
-						[29131] = 4,
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["totaldamage"] = 1802,
-					["interrupt"] = 1,
-					["interruptspells"] = {
-						[72] = {
-							["spells"] = {
-								[20825] = 1,
-							},
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = 1,
-							},
+							["school"] = 32,
+							["resisted"] = 28,
+							["amount"] = 252,
+							["hitamount"] = 252,
 						},
 					},
 				}, -- [1]
@@ -6767,19 +6627,12 @@ SkadaStorageDB = {
 					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["auras"] = {
-						[15264] = {
-							["type"] = "DEBUFF",
+						[976] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Imp Minion"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
+							["uptime"] = 33,
 						},
-						[24707] = {
+						[8098] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 33,
@@ -6789,21 +6642,16 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["school"] = 2,
 							["targets"] = {
-								["Slavcul"] = {
+								["Vrajadefoc"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
-								["Vrajadefoc"] = {
+								["Slavcul"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
 							},
 							["uptime"] = 17,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
 						},
 						[11549] = {
 							["type"] = "BUFF",
@@ -6815,10 +6663,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 33,
 						},
-						[8098] = {
+						[24707] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 33,
+						},
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Imp Minion"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
 						},
 						[1461] = {
 							["type"] = "BUFF",
@@ -6839,6 +6699,7 @@ SkadaStorageDB = {
 							["max"] = 224,
 						},
 					},
+					["totaldamage"] = 2556,
 					["time"] = 19.39,
 					["totaldamagetaken"] = 496,
 					["damage"] = 2556,
@@ -6853,35 +6714,35 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 248,
 							["school"] = 2,
-							["max"] = 124,
+							["min"] = 124,
 							["targets"] = {
-								["Slavcul"] = {
-									["overheal"] = 0,
-									["amount"] = 124,
-								},
 								["Vrajadefoc"] = {
 									["overheal"] = 0,
 									["amount"] = 124,
 								},
+								["Slavcul"] = {
+									["overheal"] = 0,
+									["amount"] = 124,
+								},
 							},
-							["min"] = 124,
+							["max"] = 124,
 						},
 						[23459] = {
 							["overheal"] = 1709,
 							["criticalamount"] = 259,
 							["max"] = 259,
 							["targets"] = {
-								["Popasfant"] = {
-									["overheal"] = 528,
-									["amount"] = 415,
+								["Omoratorul"] = {
+									["overheal"] = 381,
+									["amount"] = 558,
 								},
 								["Slavcul"] = {
 									["overheal"] = 800,
 									["amount"] = 259,
 								},
-								["Omoratorul"] = {
-									["overheal"] = 381,
-									["amount"] = 558,
+								["Popasfant"] = {
+									["overheal"] = 528,
+									["amount"] = 415,
 								},
 							},
 							["min"] = 66,
@@ -6889,26 +6750,25 @@ SkadaStorageDB = {
 							["count"] = 15,
 							["amount"] = 1232,
 							["school"] = 2,
-							["criticalmin"] = 259,
 							["critical"] = 1,
+							["criticalmin"] = 259,
 						},
 					},
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 233,
-							["id"] = 20825,
-							["hitmax"] = 233,
+						["Firebolt"] = {
+							["hitmin"] = 81,
+							["id"] = 20801,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 233,
+								["Imp Minion"] = {
+									["amount"] = 171,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 58,
-							["amount"] = 233,
-							["hitamount"] = 233,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 4,
+							["hitmax"] = 90,
+							["amount"] = 171,
+							["hitamount"] = 171,
 						},
 						["Melee"] = {
 							["hitmin"] = 45,
@@ -6925,33 +6785,34 @@ SkadaStorageDB = {
 							["amount"] = 92,
 							["hitamount"] = 92,
 						},
-						["Firebolt"] = {
-							["hitmin"] = 81,
-							["id"] = 20801,
+						["Shadow Bolt"] = {
+							["hitmin"] = 233,
+							["id"] = 20825,
+							["count"] = 1,
 							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 171,
+								["Bloodsail Warlock"] = {
+									["amount"] = 233,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 4,
-							["hitmax"] = 90,
-							["amount"] = 171,
-							["hitamount"] = 171,
+							["hitmax"] = 233,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 58,
+							["amount"] = 233,
+							["hitamount"] = 233,
 						},
 					},
 					["heal"] = 1480,
 					["name"] = "Popasfant",
-					["overkill"] = 280,
+					["role"] = "HEALER",
 					["damagespells"] = {
 						["Mind Blast"] = {
 							["hitmin"] = 297,
 							["id"] = 8105,
 							["targets"] = {
 								["Imp Minion"] = {
-									["overkill"] = 260,
 									["amount"] = 297,
+									["overkill"] = 260,
 								},
 							},
 							["overkill"] = 260,
@@ -6999,8 +6860,8 @@ SkadaStorageDB = {
 							["id"] = 15431,
 							["targets"] = {
 								["Succubus Minion"] = {
-									["overkill"] = 20,
 									["amount"] = 461,
+									["overkill"] = 20,
 								},
 								["Bloodsail Warlock"] = {
 									["amount"] = 567,
@@ -7035,8 +6896,7 @@ SkadaStorageDB = {
 							["hitamount"] = 331,
 						},
 					},
-					["totaldamage"] = 2556,
-					["role"] = "HEALER",
+					["overkill"] = 280,
 				}, -- [2]
 				{
 					["last"] = 11903.631,
@@ -7066,9 +6926,9 @@ SkadaStorageDB = {
 							["uptime"] = 1,
 						},
 						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[18192] = {
@@ -7099,10 +6959,10 @@ SkadaStorageDB = {
 							["uptime"] = 33,
 						},
 						[5171] = {
-							["type"] = "BUFF",
 							["count"] = 1,
 							["refresh"] = 1,
 							["uptime"] = 23,
+							["type"] = "BUFF",
 						},
 					},
 					["role"] = "DAMAGER",
@@ -7121,29 +6981,14 @@ SkadaStorageDB = {
 									["amount"] = 60,
 								},
 							},
-							["hitmax"] = 76,
-							["casts"] = 1,
 							["count"] = 4,
+							["casts"] = 1,
+							["hitmax"] = 76,
 							["hit"] = 4,
 							["school"] = 8,
 							["resisted"] = 14,
 							["amount"] = 275,
 							["hitamount"] = 275,
-						},
-						["Deadly Poison (DoT)"] = {
-							["hitmin"] = 21,
-							["id"] = 2818,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 21,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 21,
-							["amount"] = 21,
-							["hitamount"] = 21,
 						},
 						["Melee"] = {
 							["glance"] = 409,
@@ -7167,14 +7012,14 @@ SkadaStorageDB = {
 							["criticalamount"] = 86,
 							["id"] = 6603,
 							["glancemax"] = 106,
-							["PARRY"] = 1,
-							["blocked"] = 20,
 							["criticalmax"] = 86,
 							["hitmax"] = 130,
+							["PARRY"] = 1,
+							["count"] = 19,
 							["hit"] = 6,
 							["school"] = 1,
 							["critical"] = 1,
-							["count"] = 19,
+							["blocked"] = 20,
 							["hitamount"] = 452,
 						},
 						["Sinister Strike"] = {
@@ -7188,57 +7033,68 @@ SkadaStorageDB = {
 									["amount"] = 531,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 82,
 									["amount"] = 109,
+									["overkill"] = 82,
 								},
 							},
 							["overkill"] = 82,
-							["blocked"] = 20,
+							["hit"] = 6,
 							["casts"] = 6,
 							["count"] = 6,
-							["hit"] = 6,
+							["blocked"] = 20,
 							["school"] = 1,
-							["hitmax"] = 155,
 							["amount"] = 780,
+							["hitmax"] = 155,
 							["hitamount"] = 780,
+						},
+						["Deadly Poison (DoT)"] = {
+							["hitmin"] = 21,
+							["id"] = 2818,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 21,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 21,
+							["amount"] = 21,
+							["hitamount"] = 21,
 						},
 					},
 					["damagetaken"] = 570,
 					["id"] = "0x0700000000B0D62C",
 					["spec"] = 260,
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 642,
-							["hitmin"] = 187,
-							["id"] = 20825,
-							["amount"] = 187,
-							["hitmax"] = 187,
+						["Lash of Pain"] = {
+							["hitmin"] = 311,
+							["id"] = 32202,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 642,
-									["amount"] = 187,
+								["Succubus Minion"] = {
+									["amount"] = 311,
 								},
 							},
-							["count"] = 3,
-							["ABSORB"] = 2,
-							["school"] = 32,
-							["resisted"] = 50,
+							["count"] = 1,
 							["hit"] = 1,
-							["hitamount"] = 187,
+							["school"] = 32,
+							["hitmax"] = 311,
+							["amount"] = 311,
+							["hitamount"] = 311,
 						},
 						["Firebolt"] = {
 							["total"] = 165,
 							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 4,
+							["id"] = 20801,
+							["ABSORB"] = 2,
 							["sources"] = {
 								["Imp Minion"] = {
-									["total"] = 165,
 									["amount"] = 0,
+									["total"] = 165,
 								},
 							},
-							["ABSORB"] = 2,
-							["id"] = 20801,
 						},
 						["Melee"] = {
 							["DODGE"] = 3,
@@ -7259,24 +7115,28 @@ SkadaStorageDB = {
 							["amount"] = 72,
 							["hitamount"] = 72,
 						},
-						["Lash of Pain"] = {
-							["hitmin"] = 311,
-							["id"] = 32202,
+						["Shadow Bolt"] = {
+							["total"] = 642,
+							["hitmin"] = 187,
+							["id"] = 20825,
+							["count"] = 3,
+							["amount"] = 187,
 							["sources"] = {
-								["Succubus Minion"] = {
-									["amount"] = 311,
+								["Bloodsail Warlock"] = {
+									["amount"] = 187,
+									["total"] = 642,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
+							["hitmax"] = 187,
+							["ABSORB"] = 2,
 							["school"] = 32,
-							["hitmax"] = 311,
-							["amount"] = 311,
-							["hitamount"] = 311,
+							["resisted"] = 50,
+							["hit"] = 1,
+							["hitamount"] = 187,
 						},
 					},
-					["overkill"] = 82,
 					["name"] = "Slavcul",
+					["totaldamage"] = 2023,
 					["interrupt"] = 2,
 					["interruptspells"] = {
 						[1766] = {
@@ -7289,20 +7149,92 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["totaldamage"] = 2023,
+					["overkill"] = 82,
 				}, -- [3]
 				{
+					["damagespells"] = {
+						["Frostbolt"] = {
+							["criticalamount"] = 712,
+							["casts"] = 8,
+							["hitmin"] = 348,
+							["criticalmin"] = 712,
+							["id"] = 8408,
+							["hitmax"] = 389,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 1506,
+									["overkill"] = 268,
+								},
+								["Imp Minion"] = {
+									["amount"] = 712,
+									["overkill"] = 376,
+								},
+							},
+							["overkill"] = 644,
+							["amount"] = 2218,
+							["criticalmax"] = 712,
+							["critical"] = 1,
+							["hit"] = 4,
+							["school"] = 16,
+							["resisted"] = 117,
+							["count"] = 5,
+							["hitamount"] = 1506,
+						},
+					},
 					["last"] = 11901.523,
+					["damagetaken"] = 178,
+					["id"] = "0x0700000000B06C60",
 					["flag"] = 1298,
 					["class"] = "MAGE",
+					["totaldamage"] = 2218,
+					["damagetakenspells"] = {
+						["Shadow Bolt"] = {
+							["hitmin"] = 178,
+							["id"] = 20825,
+							["count"] = 1,
+							["sources"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 178,
+								},
+							},
+							["hitmax"] = 178,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 76,
+							["amount"] = 178,
+							["hitamount"] = 178,
+						},
+					},
+					["name"] = "Vrajadefoc",
+					["role"] = "DAMAGER",
+					["time"] = 17.5,
+					["overkill"] = 644,
+					["spec"] = 64,
+					["totaldamagetaken"] = 178,
 					["auras"] = {
 						[12472] = {
+							["school"] = 16,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 16,
 							["uptime"] = 20,
 						},
 						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 33,
+						},
+						[6066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
+						},
+						[8098] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 33,
@@ -7312,96 +7244,367 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 33,
 						},
-						[6066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 21,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 33,
-						},
 					},
-					["time"] = 17.5,
-					["totaldamagetaken"] = 178,
 					["damage"] = 2218,
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["count"] = 5,
-							["hitmax"] = 389,
-							["hitmin"] = 348,
-							["criticalamount"] = 712,
-							["id"] = 8408,
-							["hit"] = 4,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 268,
-									["amount"] = 1506,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 376,
-									["amount"] = 712,
-								},
-							},
-							["overkill"] = 644,
-							["criticalmin"] = 712,
-							["casts"] = 8,
-							["critical"] = 1,
-							["amount"] = 2218,
-							["school"] = 16,
-							["resisted"] = 117,
-							["criticalmax"] = 712,
-							["hitamount"] = 1506,
-						},
-					},
-					["damagetaken"] = 178,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["overkill"] = 644,
-					["name"] = "Vrajadefoc",
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 178,
-							["id"] = 20825,
-							["hitmax"] = 178,
-							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 178,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 76,
-							["amount"] = 178,
-							["hitamount"] = 178,
-						},
-					},
-					["totaldamage"] = 2218,
-					["role"] = "DAMAGER",
 				}, -- [4]
 			},
-			["type"] = "group",
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+						[20801] = {
+							["school"] = 4,
+							["total"] = 252,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 87,
+								},
+								["Slavcul"] = {
+									["amount"] = 0,
+									["total"] = 165,
+								},
+								["Popasfant"] = {
+									["amount"] = 171,
+								},
+							},
+							["amount"] = 258,
+						},
+					},
+					["damagetaken"] = 2153,
+					["id"] = "0xF13000327A2463DB",
+					["class"] = "PET",
+					["damagetakenspells"] = {
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 712,
+									["overkill"] = 376,
+								},
+							},
+							["amount"] = 712,
+							["overkill"] = 376,
+						},
+						[8105] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 297,
+									["overkill"] = 260,
+								},
+							},
+							["amount"] = 297,
+							["overkill"] = 260,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 466,
+								},
+							},
+							["amount"] = 466,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 135,
+								},
+							},
+							["amount"] = 135,
+						},
+						[1760] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 109,
+									["overkill"] = 82,
+								},
+							},
+							["amount"] = 109,
+							["overkill"] = 82,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 434,
+								},
+							},
+							["amount"] = 434,
+						},
+					},
+					["totaldamage"] = 447,
+					["name"] = "Imp Minion",
+					["totaldamagetaken"] = 2153,
+					["flag"] = 4680,
+					["damage"] = 282,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[20825] = {
+							["school"] = 32,
+							["total"] = 1055,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 235,
+								},
+								["Vrajadefoc"] = {
+									["amount"] = 178,
+								},
+								["Slavcul"] = {
+									["amount"] = 187,
+									["total"] = 642,
+								},
+								["Popasfant"] = {
+									["amount"] = 233,
+								},
+							},
+							["amount"] = 833,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 46,
+								},
+								["Slavcul"] = {
+									["amount"] = 33,
+								},
+							},
+							["amount"] = 79,
+						},
+					},
+					["damagetaken"] = 5536,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 255,
+								},
+							},
+							["amount"] = 255,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 968,
+									["overkill"] = 57,
+								},
+								["Slavcul"] = {
+									["amount"] = 811,
+								},
+							},
+							["amount"] = 1779,
+							["overkill"] = 57,
+						},
+						[1760] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 531,
+								},
+							},
+							["amount"] = 531,
+						},
+						[8685] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 215,
+								},
+							},
+							["amount"] = 215,
+						},
+						[34428] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 190,
+								},
+							},
+							["amount"] = 190,
+						},
+						[2818] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 1506,
+									["overkill"] = 268,
+								},
+							},
+							["amount"] = 1506,
+							["overkill"] = 268,
+						},
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 141,
+								},
+							},
+							["amount"] = 141,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 567,
+								},
+							},
+							["amount"] = 567,
+						},
+						[6060] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 331,
+								},
+							},
+							["amount"] = 331,
+						},
+					},
+					["totaldamage"] = 1367,
+					["name"] = "Bloodsail Warlock",
+					["totaldamagetaken"] = 5536,
+					["id"] = "0xF13000061C2463C2",
+					["damage"] = 912,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[32202] = {
+							["school"] = 32,
+							["targets"] = {
+								["Slavcul"] = {
+									["amount"] = 311,
+								},
+								["Omoratorul"] = {
+									["amount"] = 252,
+								},
+							},
+							["amount"] = 563,
+						},
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Slavcul"] = {
+									["amount"] = 39,
+								},
+								["Popasfant"] = {
+									["amount"] = 92,
+								},
+								["Omoratorul"] = {
+									["amount"] = 26,
+								},
+							},
+							["amount"] = 157,
+						},
+					},
+					["damagetaken"] = 910,
+					["id"] = "0xF130002AB024643B",
+					["class"] = "PET",
+					["damagetakenspells"] = {
+						[8685] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 461,
+									["overkill"] = 20,
+								},
+							},
+							["amount"] = 461,
+							["overkill"] = 20,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 113,
+								},
+							},
+							["amount"] = 113,
+						},
+						[1760] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 140,
+								},
+							},
+							["amount"] = 140,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 136,
+								},
+							},
+							["amount"] = 136,
+						},
+					},
+					["totaldamage"] = 720,
+					["name"] = "Succubus Minion",
+					["totaldamagetaken"] = 910,
+					["flag"] = 4680,
+					["damage"] = 720,
+				}, -- [3]
+			},
+			["overheal"] = 1709,
+			["totaldamage"] = 8599,
+			["time"] = 33,
+			["starttime"] = 1729453147,
+			["totaldamagetaken"] = 2534,
+			["etotaldamage"] = 2534,
+			["last_time"] = 11904.223,
+			["rage"] = 24,
+			["absorb"] = 620,
 			["damagetaken"] = 1914,
-			["interrupt"] = 3,
 			["damage"] = 8599,
+			["interrupt"] = 3,
+			["ccdone"] = 1,
 			["etotaldamagetaken"] = 8599,
 			["overkill"] = 1063,
 			["edamagetaken"] = 8599,
 			["heal"] = 1480,
 			["name"] = "Bloodsail Warlock (11)",
-			["ccdone"] = 1,
+			["mobname"] = "Bloodsail Warlock",
+			["type"] = "group",
 			["edamage"] = 1914,
 			["last_action"] = 1729453179,
 			["endtime"] = 1729453180,
-		}, -- [7]
+		}, -- [9]
 		{
 			["enemies"] = {
 				{
@@ -7429,47 +7632,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 144,
 						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 94,
-								},
-							},
-							["amount"] = 94,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 267,
-								},
-							},
-							["amount"] = 267,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 203,
-								},
-								["Omoratorul"] = {
-									["overkill"] = 104,
-									["amount"] = 378,
-								},
-							},
-							["overkill"] = 104,
-							["amount"] = 581,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 268,
-								},
-							},
-							["amount"] = 268,
-						},
 						[15264] = {
 							["school"] = 2,
 							["sources"] = {
@@ -7488,38 +7650,74 @@ SkadaStorageDB = {
 							},
 							["amount"] = 263,
 						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 378,
+									["overkill"] = 104,
+								},
+								["Slavcul"] = {
+									["amount"] = 203,
+								},
+							},
+							["amount"] = 581,
+							["overkill"] = 104,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 268,
+								},
+							},
+							["amount"] = 268,
+						},
+						[8105] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 267,
+								},
+							},
+							["amount"] = 267,
+						},
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 94,
+								},
+							},
+							["amount"] = 94,
+						},
 					},
-					["name"] = "Bloodsail Swashbuckler",
 					["totaldamage"] = 55,
+					["name"] = "Bloodsail Swashbuckler",
 					["totaldamagetaken"] = 2007,
 					["id"] = "0xF13000061B24634B",
 					["damage"] = 55,
 				}, -- [1]
 			},
-			["rage"] = 5,
 			["totaldamage"] = 2007,
 			["time"] = 9,
-			["starttime"] = 1729453135,
 			["totaldamagetaken"] = 55,
 			["etotaldamagetaken"] = 2007,
 			["last_time"] = 11869.515,
+			["rage"] = 5,
+			["type"] = "group",
+			["damagetaken"] = 55,
+			["starttime"] = 1729453135,
 			["players"] = {
 				{
 					["last"] = 11869.406,
 					["flag"] = 1297,
 					["class"] = "WARRIOR",
 					["auras"] = {
-						[8204] = {
-							["type"] = "DEBUFF",
+						[976] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 9,
 						},
 						[6548] = {
 							["type"] = "DEBUFF",
@@ -7534,22 +7732,12 @@ SkadaStorageDB = {
 							["uptime"] = 6,
 						},
 						[20007] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[19709] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -7559,7 +7747,24 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[1461] = {
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[8204] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["uptime"] = 1,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 1,
+						},
+						[19709] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -7569,60 +7774,6 @@ SkadaStorageDB = {
 					["time"] = 8.700000000000001,
 					["damage"] = 740,
 					["rage"] = 5,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["criticalamount"] = 268,
-							["id"] = 8204,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 268,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 268,
-							["school"] = 1,
-							["criticalmin"] = 268,
-							["criticalmax"] = 268,
-							["count"] = 1,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 47,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 94,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 47,
-							["amount"] = 94,
-							["hitamount"] = 94,
-						},
-						["Melee"] = {
-							["glance"] = 88,
-							["hitmin"] = 83,
-							["id"] = 6603,
-							["glancemin"] = 88,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 104,
-									["amount"] = 378,
-								},
-							},
-							["overkill"] = 104,
-							["glancing"] = 1,
-							["glancemax"] = 88,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 114,
-							["amount"] = 378,
-							["hitamount"] = 290,
-						},
-					},
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
 					["healspells"] = {
@@ -7644,9 +7795,63 @@ SkadaStorageDB = {
 						[23602] = 5,
 					},
 					["name"] = "Omoratorul",
-					["totaldamage"] = 740,
-					["overheal"] = 94,
 					["heal"] = 0,
+					["overheal"] = 94,
+					["totaldamage"] = 740,
+					["damagespells"] = {
+						["Thunder Clap"] = {
+							["criticalamount"] = 268,
+							["id"] = 8204,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 268,
+								},
+							},
+							["casts"] = 1,
+							["critical"] = 1,
+							["amount"] = 268,
+							["school"] = 1,
+							["count"] = 1,
+							["criticalmax"] = 268,
+							["criticalmin"] = 268,
+						},
+						["Rend (DoT)"] = {
+							["hitmin"] = 47,
+							["id"] = 6548,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 94,
+								},
+							},
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 1,
+							["hitmax"] = 47,
+							["amount"] = 94,
+							["hitamount"] = 94,
+						},
+						["Melee"] = {
+							["glance"] = 88,
+							["hitmin"] = 83,
+							["id"] = 6603,
+							["hitamount"] = 290,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 378,
+									["overkill"] = 104,
+								},
+							},
+							["overkill"] = 104,
+							["glancing"] = 1,
+							["hit"] = 3,
+							["count"] = 4,
+							["amount"] = 378,
+							["school"] = 1,
+							["hitmax"] = 114,
+							["glancemax"] = 88,
+							["glancemin"] = 88,
+						},
+					},
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -7658,9 +7863,9 @@ SkadaStorageDB = {
 									["amount"] = 267,
 								},
 							},
-							["hitmax"] = 267,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 267,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 29,
@@ -7675,9 +7880,9 @@ SkadaStorageDB = {
 									["amount"] = 355,
 								},
 							},
-							["hitmax"] = 355,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 355,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 39,
@@ -7692,8 +7897,8 @@ SkadaStorageDB = {
 									["amount"] = 35,
 								},
 							},
-							["hitmax"] = 12,
 							["count"] = 3,
+							["hitmax"] = 12,
 							["hit"] = 3,
 							["school"] = 2,
 							["resisted"] = 1,
@@ -7704,26 +7909,13 @@ SkadaStorageDB = {
 					["last"] = 11860.698,
 					["id"] = "0x0700000000B06C58",
 					["spec"] = 256,
-					["class"] = "PRIEST",
 					["auras"] = {
-						[15264] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[6066] = {
+						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[976] = {
+						[8098] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
@@ -7738,10 +7930,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[8098] = {
+						[6066] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
+						},
+						[15264] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 2,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["uptime"] = 4,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 4,
 						},
 						[1461] = {
 							["type"] = "BUFF",
@@ -7750,67 +7954,14 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamage"] = 657,
-					["role"] = "HEALER",
 					["name"] = "Popasfant",
-					["flag"] = 1298,
+					["class"] = "PRIEST",
 					["time"] = 0,
+					["flag"] = 1298,
+					["role"] = "HEALER",
 					["damage"] = 657,
 				}, -- [2]
 				{
-					["last"] = 11869.165,
-					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[5171] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 2,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 2,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 8.470000000000001,
-					["totaldamagetaken"] = 55,
-					["damage"] = 610,
 					["damagespells"] = {
 						["Instant Poison II"] = {
 							["hitmin"] = 69,
@@ -7820,9 +7971,9 @@ SkadaStorageDB = {
 									["amount"] = 144,
 								},
 							},
-							["hitmax"] = 75,
-							["casts"] = 1,
 							["count"] = 2,
+							["casts"] = 1,
+							["hitmax"] = 75,
 							["hit"] = 2,
 							["school"] = 8,
 							["resisted"] = 7,
@@ -7871,34 +8022,92 @@ SkadaStorageDB = {
 							["hitamount"] = 34,
 						},
 					},
+					["last"] = 11869.165,
 					["damagetaken"] = 55,
+					["flag"] = 1298,
+					["class"] = "ROGUE",
 					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
+					["auras"] = {
+						[18192] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[5171] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 2,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
+						[2818] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 2,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["time"] = 8.470000000000001,
+					["role"] = "DAMAGER",
+					["name"] = "Slavcul",
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["hitmin"] = 55,
 							["id"] = 6603,
-							["PARRY"] = 1,
 							["sources"] = {
 								["Bloodsail Swashbuckler"] = {
 									["amount"] = 55,
 								},
 							},
+							["PARRY"] = 1,
 							["count"] = 2,
 							["hit"] = 1,
 							["school"] = 1,
-							["hitmax"] = 55,
 							["amount"] = 55,
+							["hitmax"] = 55,
 							["hitamount"] = 55,
 						},
 					},
-					["name"] = "Slavcul",
+					["spec"] = 260,
+					["totaldamagetaken"] = 55,
 					["totaldamage"] = 610,
+					["damage"] = 610,
 				}, -- [3]
 				{
+					["name"] = "Vrajadefoc",
 					["last"] = 11860.698,
-					["id"] = "0x0700000000B06C60",
+					["time"] = 0,
 					["spec"] = 64,
+					["id"] = "0x0700000000B06C60",
+					["class"] = "MAGE",
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[976] = {
 							["type"] = "BUFF",
@@ -7910,307 +8119,32 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 9,
 						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 9,
-						},
 						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 9,
 						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 9,
+						},
 					},
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["time"] = 0,
-					["class"] = "MAGE",
 				}, -- [4]
 			},
-			["type"] = "group",
-			["damagetaken"] = 55,
 			["etotaldamage"] = 55,
-			["overheal"] = 94,
+			["damage"] = 2007,
 			["overkill"] = 104,
 			["edamagetaken"] = 2007,
 			["heal"] = 0,
 			["name"] = "Bloodsail Swashbuckler (14)",
 			["mobname"] = "Bloodsail Swashbuckler",
-			["damage"] = 2007,
+			["overheal"] = 94,
 			["edamage"] = 55,
 			["last_action"] = 1729453144,
 			["endtime"] = 1729453144,
-		}, -- [8]
+		}, -- [10]
 		{
-			["damage"] = 8351,
-			["ccdone"] = 2,
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[20825] = {
-							["school"] = 32,
-							["total"] = 201,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 448,
-								},
-								["Popasfant"] = {
-									["amount"] = 286,
-								},
-								["Omoratorul"] = {
-									["total"] = 201,
-									["amount"] = 67,
-								},
-							},
-							["amount"] = 801,
-						},
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 43,
-								},
-							},
-							["amount"] = 43,
-						},
-					},
-					["damagetaken"] = 5803,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[11564] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 260,
-								},
-							},
-							["amount"] = 260,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 20,
-									["amount"] = 745,
-								},
-								["Omoratorul"] = {
-									["amount"] = 1028,
-								},
-							},
-							["overkill"] = 20,
-							["amount"] = 1773,
-						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 318,
-									["amount"] = 412,
-								},
-							},
-							["overkill"] = 318,
-							["amount"] = 412,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 254,
-									["amount"] = 883,
-								},
-							},
-							["overkill"] = 254,
-							["amount"] = 883,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 145,
-								},
-							},
-							["amount"] = 145,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 192,
-								},
-							},
-							["amount"] = 192,
-						},
-						[12809] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 148,
-								},
-							},
-							["amount"] = 148,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 942,
-								},
-							},
-							["amount"] = 942,
-						},
-						[6060] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 276,
-								},
-							},
-							["amount"] = 276,
-						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 382,
-								},
-							},
-							["amount"] = 382,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 263,
-								},
-							},
-							["amount"] = 263,
-						},
-						[18075] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 16,
-								},
-							},
-							["amount"] = 16,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 111,
-								},
-							},
-							["amount"] = 111,
-						},
-					},
-					["name"] = "Bloodsail Warlock",
-					["totaldamage"] = 978,
-					["totaldamagetaken"] = 5803,
-					["id"] = "0xF13000061C24622D",
-					["damage"] = 844,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[20801] = {
-							["school"] = 4,
-							["total"] = 152,
-							["targets"] = {
-								["Slavcul"] = {
-									["amount"] = 167,
-								},
-								["Popasfant"] = {
-									["total"] = 165,
-									["amount"] = 83,
-								},
-								["Omoratorul"] = {
-									["total"] = 70,
-									["amount"] = 0,
-								},
-							},
-							["amount"] = 250,
-						},
-					},
-					["damagetaken"] = 2548,
-					["id"] = "0xF13000327A246242",
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[7379] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 191,
-									["amount"] = 389,
-								},
-							},
-							["overkill"] = 191,
-							["amount"] = 389,
-						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 372,
-									["amount"] = 384,
-								},
-							},
-							["overkill"] = 372,
-							["amount"] = 384,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 318,
-								},
-							},
-							["amount"] = 318,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 33,
-									["amount"] = 204,
-								},
-							},
-							["overkill"] = 33,
-							["amount"] = 204,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 392,
-								},
-							},
-							["amount"] = 392,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 861,
-								},
-							},
-							["amount"] = 861,
-						},
-					},
-					["totaldamage"] = 402,
-					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 2548,
-					["flag"] = 4680,
-					["damage"] = 250,
-				}, -- [2]
-			},
-			["overheal"] = 4888,
-			["totaldamage"] = 8351,
-			["time"] = 39,
-			["etotaldamage"] = 1380,
-			["totaldamagetaken"] = 1380,
-			["etotaldamagetaken"] = 8351,
-			["last_time"] = 11859.69,
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -8246,29 +8180,33 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 39,
 						},
-						[12809] = {
+						[8204] = {
 							["type"] = "DEBUFF",
-							["count"] = 1,
+							["count"] = 2,
 							["school"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["uptime"] = 1,
+									["uptime"] = 7,
 									["count"] = 1,
 								},
-							},
-							["uptime"] = 1,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
+								["Imp Minion"] = {
 									["uptime"] = 2,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 2,
+							["uptime"] = 7,
+						},
+						[18498] = {
+							["type"] = "DEBUFF",
+							["count"] = 3,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 8,
+									["count"] = 3,
+								},
+							},
+							["uptime"] = 8,
 						},
 						[18075] = {
 							["type"] = "DEBUFF",
@@ -8287,11 +8225,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 3,
 						},
-						[2457] = {
-							["type"] = "BUFF",
-							["count"] = 2,
+						[355] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
 							["school"] = 1,
-							["uptime"] = 3,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
 						},
 						[6548] = {
 							["type"] = "DEBUFF",
@@ -8306,9 +8250,9 @@ SkadaStorageDB = {
 							["uptime"] = 21,
 						},
 						[29131] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 10,
 						},
 						[1461] = {
@@ -8317,9 +8261,9 @@ SkadaStorageDB = {
 							["uptime"] = 39,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 						[976] = {
@@ -8327,7 +8271,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 39,
 						},
-						[355] = {
+						[2457] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 2,
+							["uptime"] = 3,
+						},
+						[7922] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
@@ -8339,33 +8289,17 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[18498] = {
+						[12809] = {
 							["type"] = "DEBUFF",
-							["count"] = 3,
+							["count"] = 1,
 							["school"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["uptime"] = 8,
-									["count"] = 3,
-								},
-							},
-							["uptime"] = 8,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 7,
-									["count"] = 1,
-								},
-								["Imp Minion"] = {
-									["uptime"] = 2,
+									["uptime"] = 1,
 									["count"] = 1,
 								},
 							},
-							["uptime"] = 7,
+							["uptime"] = 1,
 						},
 					},
 					["role"] = "TANK",
@@ -8381,15 +8315,15 @@ SkadaStorageDB = {
 									["amount"] = 111,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 33,
 									["amount"] = 204,
+									["overkill"] = 33,
 								},
 							},
 							["overkill"] = 33,
-							["amount"] = 315,
+							["hit"] = 3,
 							["casts"] = 4,
 							["count"] = 4,
-							["hit"] = 3,
+							["amount"] = 315,
 							["school"] = 1,
 							["hitmax"] = 111,
 							["MISS"] = 1,
@@ -8426,6 +8360,44 @@ SkadaStorageDB = {
 							["amount"] = 148,
 							["hitamount"] = 148,
 						},
+						["Revenge"] = {
+							["DODGE"] = 1,
+							["hitmin"] = 389,
+							["id"] = 7379,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 0,
+								},
+								["Imp Minion"] = {
+									["amount"] = 389,
+									["overkill"] = 191,
+								},
+							},
+							["overkill"] = 191,
+							["casts"] = 1,
+							["count"] = 2,
+							["amount"] = 389,
+							["school"] = 1,
+							["hitmax"] = 389,
+							["hit"] = 1,
+							["hitamount"] = 389,
+						},
+						["Rend"] = {
+							["hitmin"] = 16,
+							["id"] = 18075,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 16,
+								},
+							},
+							["casts"] = 4,
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 1,
+							["hitmax"] = 16,
+							["amount"] = 16,
+							["hitamount"] = 16,
+						},
 						["Melee"] = {
 							["glance"] = 161,
 							["hitmin"] = 70,
@@ -8450,44 +8422,6 @@ SkadaStorageDB = {
 							["count"] = 13,
 							["hitamount"] = 715,
 						},
-						["Rend"] = {
-							["hitmin"] = 16,
-							["id"] = 18075,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 16,
-								},
-							},
-							["casts"] = 4,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 16,
-							["amount"] = 16,
-							["hitamount"] = 16,
-						},
-						["Revenge"] = {
-							["DODGE"] = 1,
-							["hitmin"] = 389,
-							["id"] = 7379,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 0,
-								},
-								["Imp Minion"] = {
-									["overkill"] = 191,
-									["amount"] = 389,
-								},
-							},
-							["overkill"] = 191,
-							["casts"] = 1,
-							["count"] = 2,
-							["amount"] = 389,
-							["school"] = 1,
-							["hitmax"] = 389,
-							["hit"] = 1,
-							["hitamount"] = 389,
-						},
 						["Heroic Strike"] = {
 							["criticalamount"] = 260,
 							["id"] = 11564,
@@ -8500,68 +8434,67 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 260,
 							["school"] = 1,
-							["criticalmin"] = 260,
-							["criticalmax"] = 260,
 							["count"] = 1,
+							["criticalmax"] = 260,
+							["criticalmin"] = 260,
 						},
 					},
 					["damagetaken"] = 110,
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
-					["rage"] = 40,
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 201,
-							["hitmin"] = 67,
-							["id"] = 20825,
-							["hitmax"] = 67,
+						["Firebolt"] = {
+							["total"] = 70,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 4,
+							["id"] = 20801,
+							["ABSORB"] = 1,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 201,
-									["amount"] = 67,
+								["Imp Minion"] = {
+									["amount"] = 0,
+									["total"] = 70,
 								},
 							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 50,
-							["amount"] = 67,
-							["hitamount"] = 67,
 						},
 						["Melee"] = {
 							["DODGE"] = 1,
 							["hitmin"] = 21,
 							["id"] = 6603,
-							["PARRY"] = 1,
-							["hitmax"] = 22,
 							["sources"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 43,
 								},
 							},
 							["count"] = 5,
+							["PARRY"] = 1,
+							["hitmax"] = 22,
 							["hit"] = 2,
 							["school"] = 1,
 							["amount"] = 43,
 							["MISS"] = 1,
 							["hitamount"] = 43,
 						},
-						["Firebolt"] = {
-							["total"] = 70,
+						["Shadow Bolt"] = {
+							["total"] = 201,
+							["hitmin"] = 67,
+							["id"] = 20825,
 							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 4,
 							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 70,
-									["amount"] = 0,
+								["Bloodsail Warlock"] = {
+									["amount"] = 67,
+									["total"] = 201,
 								},
 							},
-							["ABSORB"] = 1,
-							["id"] = 20801,
+							["hitmax"] = 67,
+							["hit"] = 1,
+							["school"] = 32,
+							["resisted"] = 50,
+							["amount"] = 67,
+							["hitamount"] = 67,
 						},
 					},
-					["overkill"] = 224,
+					["totaldamage"] = 2348,
 					["ragespells"] = {
 						[23602] = 10,
 						[2687] = 20,
@@ -8569,6 +8502,7 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 2,
+					["overkill"] = 224,
 					["interrupt"] = 3,
 					["interruptspells"] = {
 						[72] = {
@@ -8581,18 +8515,17 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["totaldamage"] = 2348,
+					["rage"] = 40,
 				}, -- [1]
 				{
 					["last"] = 11853.249,
 					["flag"] = 1298,
 					["class"] = "PRIEST",
 					["auras"] = {
-						[6066] = {
+						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 21,
+							["uptime"] = 39,
 						},
 						[6788] = {
 							["type"] = "DEBUFF",
@@ -8606,11 +8539,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 15,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
 						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -8620,6 +8548,12 @@ SkadaStorageDB = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 39,
+						},
+						[6066] = {
+							["school"] = 2,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 21,
 						},
 						[8098] = {
 							["type"] = "BUFF",
@@ -8640,12 +8574,13 @@ SkadaStorageDB = {
 							["amount"] = 286,
 							["max"] = 134,
 							["targets"] = {
-								["Popasfant"] = 82,
 								["Omoratorul"] = 204,
+								["Popasfant"] = 82,
 							},
 							["school"] = 2,
 						},
 					},
+					["totaldamage"] = 2754,
 					["time"] = 20.6,
 					["totaldamagetaken"] = 451,
 					["damage"] = 2754,
@@ -8658,9 +8593,9 @@ SkadaStorageDB = {
 									["amount"] = 263,
 								},
 							},
-							["hitmax"] = 263,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 263,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 29,
@@ -8672,8 +8607,8 @@ SkadaStorageDB = {
 							["id"] = 15264,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 318,
 									["amount"] = 412,
+									["overkill"] = 318,
 								},
 							},
 							["overkill"] = 318,
@@ -8698,14 +8633,14 @@ SkadaStorageDB = {
 									["amount"] = 861,
 								},
 							},
-							["criticalmax"] = 171,
 							["critical"] = 1,
+							["hit"] = 14,
 							["casts"] = 9,
 							["count"] = 15,
-							["hit"] = 14,
+							["amount"] = 1803,
 							["school"] = 2,
 							["hitmax"] = 121,
-							["amount"] = 1803,
+							["criticalmax"] = 171,
 							["hitamount"] = 1632,
 						},
 						["Smite"] = {
@@ -8716,9 +8651,9 @@ SkadaStorageDB = {
 									["amount"] = 276,
 								},
 							},
-							["hitmax"] = 276,
-							["casts"] = 1,
 							["count"] = 1,
+							["casts"] = 1,
+							["hitmax"] = 276,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 69,
@@ -8736,23 +8671,23 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 124,
 							["school"] = 2,
-							["max"] = 124,
+							["min"] = 124,
 							["targets"] = {
 								["Popasfant"] = {
 									["overheal"] = 0,
 									["amount"] = 124,
 								},
 							},
-							["min"] = 124,
+							["max"] = 124,
 						},
 						[23459] = {
 							["overheal"] = 4888,
 							["criticalamount"] = 0,
 							["max"] = 191,
 							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 1611,
-									["amount"] = 170,
+								["Popasfant"] = {
+									["overheal"] = 1299,
+									["amount"] = 386,
 								},
 								["Vrajadefoc"] = {
 									["overheal"] = 1112,
@@ -8762,9 +8697,9 @@ SkadaStorageDB = {
 									["overheal"] = 866,
 									["amount"] = 615,
 								},
-								["Popasfant"] = {
-									["overheal"] = 1299,
-									["amount"] = 386,
+								["Omoratorul"] = {
+									["overheal"] = 1611,
+									["amount"] = 170,
 								},
 							},
 							["min"] = 5,
@@ -8772,15 +8707,33 @@ SkadaStorageDB = {
 							["count"] = 32,
 							["amount"] = 1171,
 							["school"] = 2,
-							["criticalmin"] = 0,
 							["critical"] = 1,
+							["criticalmin"] = 0,
 						},
 					},
 					["overkill"] = 318,
 					["heal"] = 1295,
 					["name"] = "Popasfant",
-					["overheal"] = 4888,
+					["role"] = "HEALER",
 					["damagetakenspells"] = {
+						["Firebolt"] = {
+							["total"] = 165,
+							["hitmin"] = 83,
+							["id"] = 20801,
+							["hit"] = 1,
+							["sources"] = {
+								["Imp Minion"] = {
+									["amount"] = 83,
+									["total"] = 165,
+								},
+							},
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["school"] = 4,
+							["amount"] = 83,
+							["hitmax"] = 83,
+							["hitamount"] = 83,
+						},
 						["Shadow Bolt"] = {
 							["hitmin"] = 286,
 							["id"] = 20825,
@@ -8796,92 +8749,10 @@ SkadaStorageDB = {
 							["amount"] = 286,
 							["hitamount"] = 286,
 						},
-						["Firebolt"] = {
-							["total"] = 165,
-							["hitmin"] = 83,
-							["id"] = 20801,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 165,
-									["amount"] = 83,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 83,
-							["amount"] = 83,
-							["hitamount"] = 83,
-						},
 					},
-					["totaldamage"] = 2754,
-					["role"] = "HEALER",
+					["overheal"] = 4888,
 				}, -- [2]
 				{
-					["last"] = 11854.181,
-					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 8,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[6066] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 6,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
-					},
-					["role"] = "DAMAGER",
-					["time"] = 28.04999999999999,
-					["totaldamagetaken"] = 615,
-					["damage"] = 2483,
 					["damagespells"] = {
 						["Instant Poison II"] = {
 							["hitmin"] = 69,
@@ -8891,9 +8762,9 @@ SkadaStorageDB = {
 									["amount"] = 145,
 								},
 							},
-							["hitmax"] = 76,
-							["casts"] = 1,
 							["count"] = 2,
+							["casts"] = 1,
+							["hitmax"] = 76,
 							["hit"] = 2,
 							["school"] = 8,
 							["resisted"] = 7,
@@ -8902,28 +8773,28 @@ SkadaStorageDB = {
 						},
 						["Sinister Strike"] = {
 							["DODGE"] = 1,
-							["criticalmin"] = 308,
-							["hitmin"] = 122,
 							["criticalamount"] = 308,
+							["hitmin"] = 122,
+							["criticalmin"] = 308,
 							["id"] = 1760,
-							["criticalmax"] = 308,
+							["critical"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 254,
 									["amount"] = 883,
+									["overkill"] = 254,
 								},
 								["Imp Minion"] = {
 									["amount"] = 392,
 								},
 							},
 							["overkill"] = 254,
-							["critical"] = 1,
+							["hit"] = 7,
 							["casts"] = 9,
 							["count"] = 9,
-							["hit"] = 7,
+							["amount"] = 1275,
 							["school"] = 1,
 							["hitmax"] = 161,
-							["amount"] = 1275,
+							["criticalmax"] = 308,
 							["hitamount"] = 967,
 						},
 						["Melee"] = {
@@ -8932,8 +8803,8 @@ SkadaStorageDB = {
 							["criticalmin"] = 90,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 20,
 									["amount"] = 745,
+									["overkill"] = 20,
 								},
 								["Imp Minion"] = {
 									["amount"] = 318,
@@ -8947,36 +8818,82 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["glancemax"] = 110,
 							["overkill"] = 20,
-							["criticalmax"] = 90,
 							["PARRY"] = 1,
+							["criticalmax"] = 90,
 							["count"] = 20,
 							["hit"] = 9,
 							["school"] = 1,
-							["critical"] = 1,
 							["hitmax"] = 123,
+							["critical"] = 1,
 							["hitamount"] = 664,
 						},
 					},
+					["last"] = 11854.181,
 					["damagetaken"] = 615,
 					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
-					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["hitmin"] = 215,
-							["id"] = 20825,
-							["hitmax"] = 233,
-							["sources"] = {
+					["flag"] = 1298,
+					["class"] = "ROGUE",
+					["role"] = "DAMAGER",
+					["auras"] = {
+						[18192] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[51585] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["amount"] = 448,
+									["uptime"] = 3,
+									["count"] = 1,
 								},
 							},
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 78,
-							["amount"] = 448,
-							["hitamount"] = 448,
+							["uptime"] = 3,
 						},
+						[1461] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[8117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
+						[6066] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
+						[2818] = {
+							["type"] = "DEBUFF",
+							["count"] = 2,
+							["school"] = 8,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+					},
+					["name"] = "Slavcul",
+					["totaldamage"] = 2483,
+					["time"] = 28.04999999999999,
+					["damagetakenspells"] = {
 						["Firebolt"] = {
 							["hitmin"] = 82,
 							["id"] = 20801,
@@ -8992,10 +8909,27 @@ SkadaStorageDB = {
 							["amount"] = 167,
 							["hitamount"] = 167,
 						},
+						["Shadow Bolt"] = {
+							["hitmin"] = 215,
+							["id"] = 20825,
+							["count"] = 2,
+							["sources"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 448,
+								},
+							},
+							["hitmax"] = 233,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 78,
+							["amount"] = 448,
+							["hitamount"] = 448,
+						},
 					},
-					["name"] = "Slavcul",
+					["spec"] = 260,
+					["totaldamagetaken"] = 615,
 					["overkill"] = 274,
-					["totaldamage"] = 2483,
+					["damage"] = 2483,
 				}, -- [3]
 				{
 					["damagespells"] = {
@@ -9007,8 +8941,8 @@ SkadaStorageDB = {
 									["amount"] = 382,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 372,
 									["amount"] = 384,
+									["overkill"] = 372,
 								},
 							},
 							["overkill"] = 372,
@@ -9022,17 +8956,22 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 11848.048,
-					["class"] = "MAGE",
 					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
+					["class"] = "MAGE",
 					["overkill"] = 372,
+					["spec"] = 64,
+					["totaldamage"] = 766,
+					["name"] = "Vrajadefoc",
+					["time"] = 7,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 39,
 						},
-						[976] = {
+						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 39,
@@ -9042,437 +8981,305 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 11,
 						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 39,
-						},
 						[8098] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 39,
 						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 39,
+						},
 					},
-					["totaldamage"] = 766,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 7,
 					["damage"] = 766,
 				}, -- [4]
 			},
-			["type"] = "group",
-			["damagetaken"] = 1094,
-			["interrupt"] = 3,
-			["rage"] = 40,
-			["absorb"] = 286,
-			["overkill"] = 1188,
-			["edamagetaken"] = 8351,
-			["heal"] = 1295,
-			["name"] = "Bloodsail Warlock (10)",
-			["mobname"] = "Bloodsail Warlock",
-			["starttime"] = 1729453096,
-			["edamage"] = 1094,
-			["last_action"] = 1729453134,
-			["endtime"] = 1729453135,
-		}, -- [9]
-		{
-			["mobname"] = "Bloodsail Warlock",
-			["overheal"] = 2624,
-			["rage"] = 10,
 			["enemies"] = {
 				{
 					["damagespells"] = {
 						[20825] = {
 							["school"] = 32,
-							["total"] = 1302,
+							["total"] = 201,
 							["targets"] = {
 								["Omoratorul"] = {
-									["total"] = 508,
-									["amount"] = 320,
-								},
-								["Vrajadefoc"] = {
-									["total"] = 440,
-									["amount"] = 244,
-								},
-								["Slavcul"] = {
-									["amount"] = 182,
+									["amount"] = 67,
+									["total"] = 201,
 								},
 								["Popasfant"] = {
-									["amount"] = 630,
+									["amount"] = 286,
+								},
+								["Slavcul"] = {
+									["amount"] = 448,
 								},
 							},
-							["amount"] = 1376,
+							["amount"] = 801,
 						},
 						[6603] = {
 							["school"] = 1,
-							["total"] = 20,
 							["targets"] = {
 								["Omoratorul"] = {
-									["total"] = 20,
-									["amount"] = 0,
+									["amount"] = 43,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 43,
 						},
 					},
-					["damagetaken"] = 3747,
+					["damagetaken"] = 5803,
 					["flag"] = 68168,
 					["class"] = "MONSTER",
 					["damagetakenspells"] = {
-						[8204] = {
+						[11564] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 508,
+									["amount"] = 260,
 								},
 							},
-							["amount"] = 508,
+							["amount"] = 260,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 255,
-								},
 								["Omoratorul"] = {
-									["amount"] = 397,
+									["amount"] = 1028,
+								},
+								["Slavcul"] = {
+									["amount"] = 745,
+									["overkill"] = 20,
 								},
 							},
-							["amount"] = 652,
-						},
-						[42210] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 1091,
-								},
-							},
-							["amount"] = 1091,
+							["amount"] = 1773,
+							["overkill"] = 20,
 						},
 						[15264] = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["amount"] = 81,
+									["amount"] = 412,
+									["overkill"] = 318,
 								},
 							},
-							["amount"] = 81,
+							["amount"] = 412,
+							["overkill"] = 318,
 						},
 						[1760] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["overkill"] = 139,
-									["amount"] = 436,
+									["amount"] = 883,
+									["overkill"] = 254,
 								},
 							},
-							["overkill"] = 139,
-							["amount"] = 436,
+							["amount"] = 883,
+							["overkill"] = 254,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 111,
+								},
+							},
+							["amount"] = 111,
 						},
 						[6548] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 49,
+									["amount"] = 192,
 								},
 							},
-							["amount"] = 49,
+							["amount"] = 192,
 						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 74,
-								},
-							},
-							["amount"] = 74,
-						},
-						[7379] = {
+						[18075] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 509,
+									["amount"] = 16,
 								},
 							},
-							["amount"] = 509,
+							["amount"] = 16,
 						},
-						[15431] = {
+						[8105] = {
+							["school"] = 32,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 263,
+								},
+							},
+							["amount"] = 263,
+						},
+						[6060] = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 97,
-									["amount"] = 347,
+									["amount"] = 276,
 								},
 							},
-							["overkill"] = 97,
-							["amount"] = 347,
+							["amount"] = 276,
 						},
-					},
-					["name"] = "Bloodsail Warlock",
-					["totaldamage"] = 1780,
-					["totaldamagetaken"] = 3747,
-					["id"] = "0xF13000061C24612D",
-					["damage"] = 1376,
-				}, -- [1]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Popasfant"] = {
-									["amount"] = 136,
-								},
-								["Slavcul"] = {
-									["amount"] = 194,
-								},
-							},
-							["amount"] = 330,
-						},
-					},
-					["damagetaken"] = 1869,
-					["flag"] = 4680,
-					["class"] = "PET",
-					["damagetakenspells"] = {
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 1,
-									["amount"] = 224,
-								},
-							},
-							["overkill"] = 1,
-							["amount"] = 224,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 88,
-									["amount"] = 746,
-								},
-							},
-							["overkill"] = 88,
-							["amount"] = 746,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 124,
-								},
-							},
-							["amount"] = 124,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 437,
-								},
-							},
-							["amount"] = 437,
-						},
-						[15431] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 338,
-								},
-							},
-							["amount"] = 338,
-						},
-					},
-					["name"] = "Succubus Minion",
-					["totaldamage"] = 330,
-					["totaldamagetaken"] = 1869,
-					["id"] = "0xF130002AB0246136",
-					["damage"] = 330,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["total"] = 504,
-							["targets"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 61,
-								},
-								["Omoratorul"] = {
-									["total"] = 443,
-									["amount"] = 314,
-								},
-							},
-							["amount"] = 375,
-						},
-					},
-					["damagetaken"] = 5751,
-					["id"] = "0xF13000061B245F99",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 987,
-								},
-							},
-							["amount"] = 987,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 61,
-									["amount"] = 871,
-								},
-								["Omoratorul"] = {
-									["amount"] = 614,
-								},
-							},
-							["overkill"] = 61,
-							["amount"] = 1485,
-						},
-						[42210] = {
+						[8408] = {
 							["school"] = 16,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["amount"] = 1481,
+									["amount"] = 382,
 								},
 							},
-							["amount"] = 1481,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 399,
-								},
-							},
-							["amount"] = 399,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 349,
-								},
-							},
-							["amount"] = 349,
-						},
-						[2818] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 23,
-									["amount"] = 72,
-								},
-							},
-							["overkill"] = 23,
-							["amount"] = 72,
-						},
-						[16624] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 9,
-								},
-							},
-							["amount"] = 9,
+							["amount"] = 382,
 						},
 						[15431] = {
 							["school"] = 2,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 106,
-									["amount"] = 947,
+									["amount"] = 942,
 								},
 							},
-							["overkill"] = 106,
-							["amount"] = 947,
+							["amount"] = 942,
+						},
+						[12809] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 148,
+								},
+							},
+							["amount"] = 148,
+						},
+						[8685] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 145,
+								},
+							},
+							["amount"] = 145,
 						},
 					},
-					["totaldamage"] = 504,
-					["name"] = "Bloodsail Swashbuckler",
-					["totaldamagetaken"] = 5751,
-					["flag"] = 2632,
-					["damage"] = 375,
-				}, -- [3]
+					["totaldamage"] = 978,
+					["name"] = "Bloodsail Warlock",
+					["totaldamagetaken"] = 5803,
+					["id"] = "0xF13000061C24622D",
+					["damage"] = 844,
+				}, -- [1]
 				{
 					["damagespells"] = {
 						[20801] = {
 							["school"] = 4,
-							["total"] = 244,
+							["total"] = 152,
 							["targets"] = {
 								["Omoratorul"] = {
-									["total"] = 156,
-									["amount"] = 77,
+									["amount"] = 0,
+									["total"] = 70,
 								},
-								["Vrajadefoc"] = {
-									["amount"] = 88,
+								["Popasfant"] = {
+									["amount"] = 83,
+									["total"] = 165,
+								},
+								["Slavcul"] = {
+									["amount"] = 167,
 								},
 							},
-							["amount"] = 165,
+							["amount"] = 250,
 						},
 					},
-					["damagetaken"] = 595,
-					["id"] = "0xF13000327A246197",
+					["damagetaken"] = 2548,
+					["id"] = "0xF13000327A246242",
 					["class"] = "PET",
 					["damagetakenspells"] = {
-						[15431] = {
-							["school"] = 2,
+						[7379] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["overkill"] = 102,
-									["amount"] = 280,
+								["Omoratorul"] = {
+									["amount"] = 389,
+									["overkill"] = 191,
 								},
 							},
-							["overkill"] = 102,
-							["amount"] = 280,
+							["amount"] = 389,
+							["overkill"] = 191,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["amount"] = 66,
+									["amount"] = 318,
 								},
 							},
-							["amount"] = 66,
+							["amount"] = 318,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 861,
+								},
+							},
+							["amount"] = 861,
 						},
 						[8204] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["amount"] = 249,
+									["amount"] = 204,
+									["overkill"] = 33,
 								},
 							},
-							["amount"] = 249,
+							["amount"] = 204,
+							["overkill"] = 33,
+						},
+						[1760] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 392,
+								},
+							},
+							["amount"] = 392,
+						},
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 384,
+									["overkill"] = 372,
+								},
+							},
+							["amount"] = 384,
+							["overkill"] = 372,
 						},
 					},
-					["totaldamage"] = 244,
+					["totaldamage"] = 402,
 					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 595,
+					["totaldamagetaken"] = 2548,
 					["flag"] = 4680,
-					["damage"] = 165,
-				}, -- [4]
+					["damage"] = 250,
+				}, -- [2]
 			},
-			["absorb"] = 612,
-			["totaldamage"] = 11962,
-			["time"] = 30,
-			["damage"] = 11962,
-			["totaldamagetaken"] = 2858,
-			["etotaldamagetaken"] = 11962,
-			["last_time"] = 11815.741,
+			["etotaldamagetaken"] = 8351,
+			["totaldamage"] = 8351,
+			["time"] = 39,
+			["last_time"] = 11859.69,
+			["totaldamagetaken"] = 1380,
+			["etotaldamage"] = 1380,
+			["damage"] = 8351,
+			["overheal"] = 4888,
+			["type"] = "group",
+			["damagetaken"] = 1094,
+			["starttime"] = 1729453096,
+			["interrupt"] = 3,
+			["mobname"] = "Bloodsail Warlock",
+			["absorb"] = 286,
+			["overkill"] = 1188,
+			["edamagetaken"] = 8351,
+			["heal"] = 1295,
+			["name"] = "Bloodsail Warlock (10)",
+			["ccdone"] = 2,
+			["rage"] = 40,
+			["edamage"] = 1094,
+			["last_action"] = 1729453134,
+			["endtime"] = 1729453135,
+		}, -- [11]
+		{
 			["players"] = {
 				{
 					["ccdonespells"] = {
@@ -9526,7 +9333,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[18498] = {
+						[7922] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
@@ -9554,11 +9361,12 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 20,
 						},
-						[6066] = {
+						[20007] = {
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
-							["uptime"] = 17,
+							["school"] = 1,
+							["refresh"] = 1,
+							["uptime"] = 20,
 						},
 						[1461] = {
 							["type"] = "BUFF",
@@ -9566,9 +9374,9 @@ SkadaStorageDB = {
 							["uptime"] = 30,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 24,
 						},
 						[976] = {
@@ -9582,32 +9390,31 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["refresh"] = 5,
 							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["count"] = 3,
-									["refresh"] = 3,
-									["uptime"] = 18,
-								},
 								["Bloodsail Warlock"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 11,
 								},
+								["Bloodsail Swashbuckler"] = {
+									["refresh"] = 3,
+									["count"] = 3,
+									["uptime"] = 18,
+								},
 								["Imp Minion"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 11,
 								},
 							},
 							["uptime"] = 18,
 						},
-						[20007] = {
+						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
-							["refresh"] = 1,
-							["uptime"] = 20,
+							["uptime"] = 17,
 						},
-						[7922] = {
+						[18498] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
 							["school"] = 1,
@@ -9620,38 +9427,38 @@ SkadaStorageDB = {
 							["uptime"] = 2,
 						},
 					},
+					["totaldamage"] = 3795,
 					["time"] = 27.53,
 					["totaldamagetaken"] = 1127,
-					["totaldamage"] = 3795,
 					["damage"] = 3795,
 					["damagespells"] = {
 						["Thunder Clap"] = {
 							["hitmin"] = 111,
 							["criticalamount"] = 744,
 							["id"] = 8204,
-							["hitmax"] = 135,
+							["criticalmin"] = 228,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 508,
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 987,
 								},
 								["Succubus Minion"] = {
 									["amount"] = 124,
 								},
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 987,
+								["Bloodsail Warlock"] = {
+									["amount"] = 508,
 								},
 								["Imp Minion"] = {
 									["amount"] = 249,
 								},
 							},
-							["count"] = 12,
-							["hit"] = 9,
 							["casts"] = 4,
+							["hitmax"] = 135,
+							["criticalmax"] = 262,
 							["critical"] = 3,
 							["amount"] = 1868,
 							["school"] = 1,
-							["criticalmin"] = 228,
-							["criticalmax"] = 262,
+							["hit"] = 9,
+							["count"] = 12,
 							["hitamount"] = 1124,
 						},
 						["Melee"] = {
@@ -9660,13 +9467,8 @@ SkadaStorageDB = {
 							["hitmin"] = 91,
 							["id"] = 6603,
 							["glancemax"] = 106,
-							["hitmax"] = 120,
+							["glancemin"] = 48,
 							["glancing"] = 4,
-							["hitamount"] = 719,
-							["count"] = 12,
-							["amount"] = 1011,
-							["school"] = 1,
-							["hit"] = 7,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 397,
@@ -9675,7 +9477,12 @@ SkadaStorageDB = {
 									["amount"] = 614,
 								},
 							},
-							["glancemin"] = 48,
+							["count"] = 12,
+							["amount"] = 1011,
+							["school"] = 1,
+							["hit"] = 7,
+							["hitmax"] = 120,
+							["hitamount"] = 719,
 						},
 						["Revenge"] = {
 							["hitmin"] = 509,
@@ -9698,13 +9505,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 1,
+							["id"] = 6548,
+							["MISS"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 6548,
 						},
 						["Rend (DoT)"] = {
 							["hitmin"] = 48,
@@ -9741,8 +9548,8 @@ SkadaStorageDB = {
 							["hitamount"] = 9,
 						},
 					},
-					["interrupt"] = 1,
 					["damagetaken"] = 711,
+					["role"] = "TANK",
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
 					["healspells"] = {
@@ -9751,88 +9558,88 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 134,
 							["school"] = 1,
-							["max"] = 99,
+							["min"] = 35,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 43,
 									["amount"] = 134,
 								},
 							},
-							["min"] = 35,
+							["max"] = 99,
 						},
 					},
 					["damagetakenspells"] = {
-						["Firebolt"] = {
-							["total"] = 156,
-							["hitmin"] = 77,
-							["id"] = 20801,
-							["ABSORB"] = 1,
-							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 156,
-									["amount"] = 77,
-								},
-							},
-							["count"] = 2,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 77,
-							["amount"] = 77,
-							["hitamount"] = 77,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["total"] = 463,
-							["hitmin"] = 30,
-							["id"] = 6603,
-							["blocked"] = 34,
-							["BLOCK"] = 1,
-							["ABSORB"] = 4,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["total"] = 443,
-									["amount"] = 314,
-								},
-								["Bloodsail Warlock"] = {
-									["total"] = 20,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 15,
-							["hit"] = 9,
-							["school"] = 1,
-							["hitmax"] = 41,
-							["amount"] = 314,
-							["hitamount"] = 314,
-						},
 						["Shadow Bolt"] = {
 							["total"] = 508,
 							["hitmin"] = 136,
 							["id"] = 20825,
+							["count"] = 3,
 							["ABSORB"] = 1,
-							["hitmax"] = 184,
 							["sources"] = {
 								["Bloodsail Warlock"] = {
-									["total"] = 508,
 									["amount"] = 320,
+									["total"] = 508,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 184,
 							["hit"] = 2,
 							["school"] = 32,
 							["resisted"] = 103,
 							["amount"] = 320,
 							["hitamount"] = 320,
 						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["total"] = 463,
+							["hitmin"] = 30,
+							["id"] = 6603,
+							["hit"] = 9,
+							["BLOCK"] = 1,
+							["blocked"] = 34,
+							["sources"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 314,
+									["total"] = 443,
+								},
+								["Bloodsail Warlock"] = {
+									["amount"] = 0,
+									["total"] = 20,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 314,
+							["school"] = 1,
+							["ABSORB"] = 4,
+							["hitmax"] = 41,
+							["hitamount"] = 314,
+						},
+						["Firebolt"] = {
+							["total"] = 156,
+							["hitmin"] = 77,
+							["id"] = 20801,
+							["hit"] = 1,
+							["sources"] = {
+								["Imp Minion"] = {
+									["amount"] = 77,
+									["total"] = 156,
+								},
+							},
+							["count"] = 2,
+							["ABSORB"] = 1,
+							["school"] = 4,
+							["amount"] = 77,
+							["hitmax"] = 77,
+							["hitamount"] = 77,
+						},
 					},
+					["heal"] = 134,
 					["ragespells"] = {
 						[23602] = 10,
 					},
-					["heal"] = 134,
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["rage"] = 10,
 					["overheal"] = 43,
+					["rage"] = 10,
 					["interruptspells"] = {
 						[72] = {
 							["spells"] = {
@@ -9844,7 +9651,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "TANK",
+					["interrupt"] = 1,
 				}, -- [1]
 				{
 					["last"] = 11813.39,
@@ -9865,11 +9672,11 @@ SkadaStorageDB = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
-								["Omoratorul"] = {
+								["Slavcul"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
-								["Slavcul"] = {
+								["Omoratorul"] = {
 									["uptime"] = 15,
 									["count"] = 1,
 								},
@@ -9882,9 +9689,9 @@ SkadaStorageDB = {
 							["uptime"] = 30,
 						},
 						[586] = {
+							["school"] = 32,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 32,
 							["uptime"] = 10,
 						},
 						[3166] = {
@@ -9911,8 +9718,8 @@ SkadaStorageDB = {
 							["amount"] = 612,
 							["school"] = 2,
 							["targets"] = {
-								["Vrajadefoc"] = 196,
 								["Omoratorul"] = 416,
+								["Vrajadefoc"] = 196,
 							},
 							["max"] = 196,
 						},
@@ -9926,20 +9733,20 @@ SkadaStorageDB = {
 							["hitmin"] = 88,
 							["criticalmin"] = 163,
 							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["overkill"] = 97,
-									["amount"] = 347,
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 947,
+									["overkill"] = 106,
 								},
 								["Succubus Minion"] = {
 									["amount"] = 338,
 								},
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 106,
-									["amount"] = 947,
+								["Bloodsail Warlock"] = {
+									["amount"] = 347,
+									["overkill"] = 97,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 102,
 									["amount"] = 280,
+									["overkill"] = 102,
 								},
 							},
 							["amount"] = 1912,
@@ -9948,13 +9755,13 @@ SkadaStorageDB = {
 							["criticalamount"] = 163,
 							["id"] = 15431,
 							["overkill"] = 305,
-							["criticalmax"] = 163,
 							["casts"] = 6,
+							["criticalmax"] = 163,
 							["count"] = 18,
 							["hit"] = 16,
 							["school"] = 2,
-							["critical"] = 1,
 							["hitmax"] = 121,
+							["critical"] = 1,
 							["hitamount"] = 1749,
 						},
 						["Holy Fire (DoT)"] = {
@@ -9965,8 +9772,8 @@ SkadaStorageDB = {
 									["amount"] = 81,
 								},
 							},
-							["hitmax"] = 12,
 							["count"] = 7,
+							["hitmax"] = 12,
 							["hit"] = 7,
 							["school"] = 2,
 							["resisted"] = 1,
@@ -9988,13 +9795,13 @@ SkadaStorageDB = {
 									["overheal"] = 0,
 									["amount"] = 123,
 								},
-								["Omoratorul"] = {
-									["overheal"] = 0,
-									["amount"] = 184,
-								},
 								["Slavcul"] = {
 									["overheal"] = 0,
 									["amount"] = 124,
+								},
+								["Omoratorul"] = {
+									["overheal"] = 0,
+									["amount"] = 184,
 								},
 							},
 							["min"] = 123,
@@ -10002,17 +9809,17 @@ SkadaStorageDB = {
 							["count"] = 3,
 							["amount"] = 431,
 							["school"] = 2,
-							["criticalmin"] = 184,
 							["critical"] = 1,
+							["criticalmin"] = 184,
 						},
 						[23459] = {
 							["overheal"] = 2581,
 							["criticalamount"] = 55,
 							["max"] = 197,
 							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 543,
-									["amount"] = 393,
+								["Slavcul"] = {
+									["overheal"] = 775,
+									["amount"] = 252,
 								},
 								["Vrajadefoc"] = {
 									["overheal"] = 654,
@@ -10022,9 +9829,9 @@ SkadaStorageDB = {
 									["overheal"] = 609,
 									["amount"] = 523,
 								},
-								["Slavcul"] = {
-									["overheal"] = 775,
-									["amount"] = 252,
+								["Omoratorul"] = {
+									["overheal"] = 543,
+									["amount"] = 393,
 								},
 							},
 							["min"] = 11,
@@ -10032,8 +9839,8 @@ SkadaStorageDB = {
 							["count"] = 21,
 							["amount"] = 1438,
 							["school"] = 2,
-							["criticalmin"] = 55,
 							["critical"] = 1,
+							["criticalmin"] = 55,
 						},
 					},
 					["damagetakenspells"] = {
@@ -10055,13 +9862,13 @@ SkadaStorageDB = {
 						["Shadow Bolt"] = {
 							["hitmin"] = 172,
 							["id"] = 20825,
-							["hitmax"] = 243,
+							["count"] = 3,
 							["sources"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 630,
 								},
 							},
-							["count"] = 3,
+							["hitmax"] = 243,
 							["hit"] = 3,
 							["school"] = 32,
 							["resisted"] = 122,
@@ -10071,14 +9878,125 @@ SkadaStorageDB = {
 					},
 					["heal"] = 1869,
 					["name"] = "Popasfant",
-					["overkill"] = 305,
-					["overheal"] = 2581,
 					["totaldamage"] = 1993,
+					["overheal"] = 2581,
+					["overkill"] = 305,
 				}, -- [2]
 				{
+					["damagespells"] = {
+						["Instant Poison II"] = {
+							["hitmin"] = 72,
+							["id"] = 8685,
+							["targets"] = {
+								["Succubus Minion"] = {
+									["amount"] = 224,
+									["overkill"] = 1,
+								},
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 72,
+									["overkill"] = 23,
+								},
+								["Bloodsail Warlock"] = {
+									["amount"] = 74,
+								},
+							},
+							["overkill"] = 24,
+							["casts"] = 1,
+							["count"] = 5,
+							["hit"] = 5,
+							["school"] = 8,
+							["hitmax"] = 76,
+							["amount"] = 370,
+							["hitamount"] = 370,
+						},
+						["Sinister Strike"] = {
+							["criticalamount"] = 254,
+							["hitmin"] = 140,
+							["criticalmin"] = 254,
+							["id"] = 1760,
+							["critical"] = 1,
+							["targets"] = {
+								["Succubus Minion"] = {
+									["amount"] = 437,
+								},
+								["Bloodsail Warlock"] = {
+									["amount"] = 436,
+									["overkill"] = 139,
+								},
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 399,
+								},
+							},
+							["overkill"] = 139,
+							["hit"] = 7,
+							["casts"] = 8,
+							["count"] = 8,
+							["amount"] = 1272,
+							["school"] = 1,
+							["hitmax"] = 149,
+							["criticalmax"] = 254,
+							["hitamount"] = 1018,
+						},
+						["Melee"] = {
+							["DODGE"] = 1,
+							["glance"] = 444,
+							["hitmin"] = 36,
+							["criticalmin"] = 66,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 255,
+								},
+								["Succubus Minion"] = {
+									["amount"] = 746,
+									["overkill"] = 88,
+								},
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 871,
+									["overkill"] = 61,
+								},
+								["Imp Minion"] = {
+									["amount"] = 66,
+								},
+							},
+							["glancing"] = 7,
+							["amount"] = 1938,
+							["MISS"] = 7,
+							["glancemin"] = 34,
+							["criticalamount"] = 588,
+							["id"] = 6603,
+							["glancemax"] = 102,
+							["overkill"] = 149,
+							["criticalmax"] = 238,
+							["PARRY"] = 1,
+							["hitmax"] = 123,
+							["hit"] = 10,
+							["school"] = 1,
+							["count"] = 30,
+							["critical"] = 4,
+							["hitamount"] = 906,
+						},
+						["Deadly Poison (DoT)"] = {
+							["hitmin"] = 22,
+							["id"] = 2818,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 22,
+								},
+							},
+							["count"] = 1,
+							["hit"] = 1,
+							["school"] = 8,
+							["hitmax"] = 22,
+							["amount"] = 22,
+							["hitamount"] = 22,
+						},
+					},
 					["last"] = 11815.607,
+					["damagetaken"] = 376,
+					["id"] = "0x0700000000B0D62C",
 					["flag"] = 1298,
 					["class"] = "ROGUE",
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[11549] = {
 							["type"] = "BUFF",
@@ -10106,8 +10024,8 @@ SkadaStorageDB = {
 									["count"] = 1,
 								},
 								["Bloodsail Swashbuckler"] = {
-									["count"] = 1,
 									["refresh"] = 1,
+									["count"] = 1,
 									["uptime"] = 5,
 								},
 								["Imp Minion"] = {
@@ -10118,9 +10036,9 @@ SkadaStorageDB = {
 							["uptime"] = 8,
 						},
 						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 20,
 						},
 						[18192] = {
@@ -10151,158 +10069,46 @@ SkadaStorageDB = {
 							["uptime"] = 30,
 						},
 						[5171] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 13,
 						},
 					},
-					["role"] = "DAMAGER",
+					["name"] = "Slavcul",
+					["totaldamage"] = 3602,
 					["time"] = 28.42,
-					["totaldamagetaken"] = 376,
-					["damage"] = 3602,
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 72,
-							["id"] = 8685,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["overkill"] = 1,
-									["amount"] = 224,
-								},
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 23,
-									["amount"] = 72,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 74,
-								},
-							},
-							["overkill"] = 24,
-							["casts"] = 1,
-							["count"] = 5,
-							["hit"] = 5,
-							["school"] = 8,
-							["hitmax"] = 76,
-							["amount"] = 370,
-							["hitamount"] = 370,
-						},
-						["Deadly Poison (DoT)"] = {
-							["hitmin"] = 22,
-							["id"] = 2818,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 22,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 8,
-							["hitmax"] = 22,
-							["amount"] = 22,
-							["hitamount"] = 22,
-						},
-						["Sinister Strike"] = {
-							["criticalmin"] = 254,
-							["hitmin"] = 140,
-							["criticalamount"] = 254,
-							["id"] = 1760,
-							["criticalmax"] = 254,
-							["targets"] = {
-								["Succubus Minion"] = {
-									["amount"] = 437,
-								},
-								["Bloodsail Warlock"] = {
-									["overkill"] = 139,
-									["amount"] = 436,
-								},
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 399,
-								},
-							},
-							["overkill"] = 139,
-							["critical"] = 1,
-							["casts"] = 8,
-							["count"] = 8,
-							["hit"] = 7,
-							["school"] = 1,
-							["hitmax"] = 149,
-							["amount"] = 1272,
-							["hitamount"] = 1018,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 444,
-							["hitmin"] = 36,
-							["criticalmin"] = 66,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 61,
-									["amount"] = 871,
-								},
-								["Succubus Minion"] = {
-									["overkill"] = 88,
-									["amount"] = 746,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 255,
-								},
-								["Imp Minion"] = {
-									["amount"] = 66,
-								},
-							},
-							["glancing"] = 7,
-							["amount"] = 1938,
-							["MISS"] = 7,
-							["glancemin"] = 34,
-							["criticalamount"] = 588,
-							["id"] = 6603,
-							["glancemax"] = 102,
-							["overkill"] = 149,
-							["PARRY"] = 1,
-							["criticalmax"] = 238,
-							["hitmax"] = 123,
-							["hit"] = 10,
-							["school"] = 1,
-							["critical"] = 4,
-							["count"] = 30,
-							["hitamount"] = 906,
-						},
-					},
-					["damagetaken"] = 376,
-					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 2,
 							["hitmin"] = 40,
 							["criticalamount"] = 154,
 							["id"] = 6603,
-							["hitmax"] = 40,
-							["count"] = 5,
-							["hit"] = 1,
+							["criticalmin"] = 76,
 							["criticalmax"] = 78,
-							["critical"] = 2,
-							["amount"] = 194,
-							["school"] = 1,
+							["hitmax"] = 40,
 							["sources"] = {
 								["Succubus Minion"] = {
 									["amount"] = 194,
 								},
 							},
-							["criticalmin"] = 76,
+							["critical"] = 2,
+							["amount"] = 194,
+							["school"] = 1,
+							["hit"] = 1,
+							["count"] = 5,
 							["hitamount"] = 40,
 						},
 						["Shadow Bolt"] = {
 							["hitmin"] = 182,
 							["id"] = 20825,
-							["hitmax"] = 182,
+							["count"] = 1,
 							["sources"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 182,
 								},
 							},
-							["count"] = 1,
+							["hitmax"] = 182,
 							["hit"] = 1,
 							["school"] = 32,
 							["resisted"] = 77,
@@ -10310,16 +10116,50 @@ SkadaStorageDB = {
 							["hitamount"] = 182,
 						},
 					},
-					["name"] = "Slavcul",
+					["spec"] = 260,
+					["totaldamagetaken"] = 376,
 					["overkill"] = 312,
-					["totaldamage"] = 3602,
+					["damage"] = 3602,
 				}, -- [3]
 				{
+					["damagespells"] = {
+						["Blizzard"] = {
+							["criticalamount"] = 237,
+							["hitmin"] = 95,
+							["criticalmin"] = 237,
+							["id"] = 42210,
+							["criticalmax"] = 237,
+							["targets"] = {
+								["Bloodsail Swashbuckler"] = {
+									["amount"] = 1481,
+								},
+								["Bloodsail Warlock"] = {
+									["amount"] = 1091,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 2572,
+							["casts"] = 1,
+							["hitmax"] = 119,
+							["hit"] = 21,
+							["school"] = 16,
+							["resisted"] = 147,
+							["critical"] = 1,
+							["hitamount"] = 2335,
+						},
+					},
 					["last"] = 11800.041,
+					["damagetaken"] = 393,
 					["flag"] = 1298,
 					["class"] = "MAGE",
+					["id"] = "0x0700000000B06C60",
 					["auras"] = {
 						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 30,
+						},
+						[8098] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 30,
@@ -10344,20 +10184,15 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 6,
 						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 30,
-						},
 						[10793] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 30,
 						},
 						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 15,
 						},
 						[6117] = {
@@ -10365,63 +10200,30 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 30,
 						},
-						[8098] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 30,
 						},
 					},
 					["time"] = 8.359999999999999,
-					["totaldamagetaken"] = 589,
-					["damage"] = 2572,
-					["damagespells"] = {
-						["Blizzard"] = {
-							["criticalmin"] = 237,
-							["hitmin"] = 95,
-							["criticalamount"] = 237,
-							["id"] = 42210,
-							["criticalmax"] = 237,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 1481,
-								},
-								["Bloodsail Warlock"] = {
-									["amount"] = 1091,
-								},
-							},
-							["critical"] = 1,
-							["hitmax"] = 119,
-							["casts"] = 1,
-							["count"] = 22,
-							["hit"] = 21,
-							["school"] = 16,
-							["resisted"] = 147,
-							["amount"] = 2572,
-							["hitamount"] = 2335,
-						},
-					},
-					["damagetaken"] = 393,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
+					["totaldamage"] = 2572,
+					["name"] = "Vrajadefoc",
 					["damagetakenspells"] = {
-						["Shadow Bolt"] = {
-							["total"] = 440,
-							["hitmin"] = 244,
-							["id"] = 20825,
-							["ABSORB"] = 1,
-							["hitmax"] = 244,
+						["Firebolt"] = {
+							["hitmin"] = 88,
+							["id"] = 20801,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 440,
-									["amount"] = 244,
+								["Imp Minion"] = {
+									["amount"] = 88,
 								},
 							},
-							["count"] = 2,
+							["count"] = 1,
 							["hit"] = 1,
-							["school"] = 32,
-							["resisted"] = 27,
-							["amount"] = 244,
-							["hitamount"] = 244,
+							["school"] = 4,
+							["hitmax"] = 88,
+							["amount"] = 88,
+							["hitamount"] = 88,
 						},
 						["Melee"] = {
 							["hitmin"] = 61,
@@ -10438,43 +10240,443 @@ SkadaStorageDB = {
 							["amount"] = 61,
 							["hitamount"] = 61,
 						},
-						["Firebolt"] = {
-							["hitmin"] = 88,
-							["id"] = 20801,
+						["Shadow Bolt"] = {
+							["total"] = 440,
+							["hitmin"] = 244,
+							["id"] = 20825,
+							["count"] = 2,
+							["ABSORB"] = 1,
 							["sources"] = {
-								["Imp Minion"] = {
-									["amount"] = 88,
+								["Bloodsail Warlock"] = {
+									["amount"] = 244,
+									["total"] = 440,
 								},
 							},
-							["count"] = 1,
+							["hitmax"] = 244,
 							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 88,
-							["amount"] = 88,
-							["hitamount"] = 88,
+							["school"] = 32,
+							["resisted"] = 27,
+							["amount"] = 244,
+							["hitamount"] = 244,
 						},
 					},
-					["name"] = "Vrajadefoc",
-					["totaldamage"] = 2572,
+					["spec"] = 64,
+					["totaldamagetaken"] = 589,
 					["role"] = "DAMAGER",
+					["damage"] = 2572,
 				}, -- [4]
 			},
-			["type"] = "group",
+			["enemies"] = {
+				{
+					["damagespells"] = {
+						[20825] = {
+							["school"] = 32,
+							["total"] = 1302,
+							["targets"] = {
+								["Popasfant"] = {
+									["amount"] = 630,
+								},
+								["Vrajadefoc"] = {
+									["amount"] = 244,
+									["total"] = 440,
+								},
+								["Slavcul"] = {
+									["amount"] = 182,
+								},
+								["Omoratorul"] = {
+									["amount"] = 320,
+									["total"] = 508,
+								},
+							},
+							["amount"] = 1376,
+						},
+						[6603] = {
+							["school"] = 1,
+							["total"] = 20,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 0,
+									["total"] = 20,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["damagetaken"] = 3747,
+					["flag"] = 68168,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 508,
+								},
+							},
+							["amount"] = 508,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 397,
+								},
+								["Slavcul"] = {
+									["amount"] = 255,
+								},
+							},
+							["amount"] = 652,
+						},
+						[42210] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 1091,
+								},
+							},
+							["amount"] = 1091,
+						},
+						[15264] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 81,
+								},
+							},
+							["amount"] = 81,
+						},
+						[1760] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 436,
+									["overkill"] = 139,
+								},
+							},
+							["amount"] = 436,
+							["overkill"] = 139,
+						},
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 49,
+								},
+							},
+							["amount"] = 49,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 347,
+									["overkill"] = 97,
+								},
+							},
+							["amount"] = 347,
+							["overkill"] = 97,
+						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 509,
+								},
+							},
+							["amount"] = 509,
+						},
+						[8685] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 74,
+								},
+							},
+							["amount"] = 74,
+						},
+					},
+					["totaldamage"] = 1780,
+					["name"] = "Bloodsail Warlock",
+					["totaldamagetaken"] = 3747,
+					["id"] = "0xF13000061C24612D",
+					["damage"] = 1376,
+				}, -- [1]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["targets"] = {
+								["Slavcul"] = {
+									["amount"] = 194,
+								},
+								["Popasfant"] = {
+									["amount"] = 136,
+								},
+							},
+							["amount"] = 330,
+						},
+					},
+					["damagetaken"] = 1869,
+					["flag"] = 4680,
+					["class"] = "PET",
+					["damagetakenspells"] = {
+						[8685] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 224,
+									["overkill"] = 1,
+								},
+							},
+							["amount"] = 224,
+							["overkill"] = 1,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 746,
+									["overkill"] = 88,
+								},
+							},
+							["amount"] = 746,
+							["overkill"] = 88,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 124,
+								},
+							},
+							["amount"] = 124,
+						},
+						[1760] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 437,
+								},
+							},
+							["amount"] = 437,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 338,
+								},
+							},
+							["amount"] = 338,
+						},
+					},
+					["totaldamage"] = 330,
+					["name"] = "Succubus Minion",
+					["totaldamagetaken"] = 1869,
+					["id"] = "0xF130002AB0246136",
+					["damage"] = 330,
+				}, -- [2]
+				{
+					["damagespells"] = {
+						[6603] = {
+							["school"] = 1,
+							["total"] = 504,
+							["targets"] = {
+								["Omoratorul"] = {
+									["amount"] = 314,
+									["total"] = 443,
+								},
+								["Vrajadefoc"] = {
+									["amount"] = 61,
+								},
+							},
+							["amount"] = 375,
+						},
+					},
+					["damagetaken"] = 5751,
+					["id"] = "0xF13000061B245F99",
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 987,
+								},
+							},
+							["amount"] = 987,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 614,
+								},
+								["Slavcul"] = {
+									["amount"] = 871,
+									["overkill"] = 61,
+								},
+							},
+							["amount"] = 1485,
+							["overkill"] = 61,
+						},
+						[42210] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 1481,
+								},
+							},
+							["amount"] = 1481,
+						},
+						[1760] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 399,
+								},
+							},
+							["amount"] = 399,
+						},
+						[6548] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 349,
+								},
+							},
+							["amount"] = 349,
+						},
+						[2818] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 947,
+									["overkill"] = 106,
+								},
+							},
+							["amount"] = 947,
+							["overkill"] = 106,
+						},
+						[16624] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						[8685] = {
+							["school"] = 8,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 72,
+									["overkill"] = 23,
+								},
+							},
+							["amount"] = 72,
+							["overkill"] = 23,
+						},
+					},
+					["totaldamage"] = 504,
+					["name"] = "Bloodsail Swashbuckler",
+					["totaldamagetaken"] = 5751,
+					["flag"] = 2632,
+					["damage"] = 375,
+				}, -- [3]
+				{
+					["damagespells"] = {
+						[20801] = {
+							["school"] = 4,
+							["total"] = 244,
+							["targets"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 88,
+								},
+								["Omoratorul"] = {
+									["amount"] = 77,
+									["total"] = 156,
+								},
+							},
+							["amount"] = 165,
+						},
+					},
+					["damagetaken"] = 595,
+					["id"] = "0xF13000327A246197",
+					["class"] = "PET",
+					["damagetakenspells"] = {
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 280,
+									["overkill"] = 102,
+								},
+							},
+							["amount"] = 280,
+							["overkill"] = 102,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 249,
+								},
+							},
+							["amount"] = 249,
+						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 66,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["totaldamage"] = 244,
+					["name"] = "Imp Minion",
+					["totaldamagetaken"] = 595,
+					["flag"] = 4680,
+					["damage"] = 165,
+				}, -- [4]
+			},
+			["rage"] = 10,
+			["totaldamage"] = 11962,
+			["time"] = 30,
+			["last_time"] = 11815.741,
+			["totaldamagetaken"] = 2858,
+			["etotaldamagetaken"] = 11962,
+			["damage"] = 11962,
+			["overheal"] = 2624,
+			["absorb"] = 612,
 			["damagetaken"] = 2246,
-			["interrupt"] = 1,
 			["starttime"] = 1729453062,
+			["interrupt"] = 1,
+			["ccdone"] = 1,
 			["etotaldamage"] = 2858,
 			["overkill"] = 617,
 			["edamagetaken"] = 11962,
 			["heal"] = 2003,
 			["name"] = "Bloodsail Warlock (9)",
-			["ccdone"] = 1,
+			["mobname"] = "Bloodsail Warlock",
+			["type"] = "group",
 			["edamage"] = 2246,
 			["last_action"] = 1729453091,
 			["endtime"] = 1729453092,
-		}, -- [10]
+		}, -- [12]
 		{
-			["damage"] = 6342,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -10483,8 +10685,8 @@ SkadaStorageDB = {
 							["total"] = 622,
 							["targets"] = {
 								["Omoratorul"] = {
-									["total"] = 622,
 									["amount"] = 409,
+									["total"] = 622,
 								},
 							},
 							["amount"] = 409,
@@ -10515,11 +10717,11 @@ SkadaStorageDB = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 661,
-								},
 								["Omoratorul"] = {
 									["amount"] = 702,
+								},
+								["Slavcul"] = {
+									["amount"] = 661,
 								},
 							},
 							["amount"] = 1363,
@@ -10528,12 +10730,12 @@ SkadaStorageDB = {
 							["school"] = 32,
 							["sources"] = {
 								["Popasfant"] = {
-									["overkill"] = 106,
 									["amount"] = 595,
+									["overkill"] = 106,
 								},
 							},
-							["overkill"] = 106,
 							["amount"] = 595,
+							["overkill"] = 106,
 						},
 						[1760] = {
 							["school"] = 1,
@@ -10566,30 +10768,12 @@ SkadaStorageDB = {
 							["school"] = 16,
 							["sources"] = {
 								["Vrajadefoc"] = {
-									["overkill"] = 525,
 									["amount"] = 712,
+									["overkill"] = 525,
 								},
 							},
-							["overkill"] = 525,
 							["amount"] = 712,
-						},
-						[16624] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 17,
-								},
-							},
-							["amount"] = 17,
-						},
-						[7379] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 458,
-								},
-							},
-							["amount"] = 458,
+							["overkill"] = 525,
 						},
 						[6060] = {
 							["school"] = 2,
@@ -10600,9 +10784,27 @@ SkadaStorageDB = {
 							},
 							["amount"] = 306,
 						},
+						[7379] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 458,
+								},
+							},
+							["amount"] = 458,
+						},
+						[16624] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 17,
+								},
+							},
+							["amount"] = 17,
+						},
 					},
-					["name"] = "Bloodsail Warlock",
 					["totaldamage"] = 666,
+					["name"] = "Bloodsail Warlock",
 					["totaldamagetaken"] = 4588,
 					["id"] = "0xF13000061C2457CD",
 					["damage"] = 453,
@@ -10613,12 +10815,12 @@ SkadaStorageDB = {
 							["school"] = 4,
 							["total"] = 331,
 							["targets"] = {
-								["Omoratorul"] = {
-									["total"] = 244,
-									["amount"] = 81,
-								},
 								["Slavcul"] = {
 									["amount"] = 173,
+								},
+								["Omoratorul"] = {
+									["amount"] = 81,
+									["total"] = 244,
 								},
 							},
 							["amount"] = 254,
@@ -10641,23 +10843,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["overkill"] = 73,
 									["amount"] = 441,
+									["overkill"] = 73,
 								},
 							},
-							["overkill"] = 73,
 							["amount"] = 441,
+							["overkill"] = 73,
 						},
 						[8204] = {
 							["school"] = 1,
 							["sources"] = {
 								["Omoratorul"] = {
-									["overkill"] = 224,
 									["amount"] = 316,
+									["overkill"] = 224,
 								},
 							},
-							["overkill"] = 224,
 							["amount"] = 316,
+							["overkill"] = 224,
 						},
 						[22482] = {
 							["school"] = 1,
@@ -10685,13 +10887,6 @@ SkadaStorageDB = {
 					["damage"] = 254,
 				}, -- [2]
 			},
-			["absorb"] = 376,
-			["totaldamage"] = 6342,
-			["time"] = 18,
-			["rage"] = 5,
-			["totaldamagetaken"] = 1083,
-			["etotaldamagetaken"] = 6342,
-			["last_time"] = 11762.173,
 			["players"] = {
 				{
 					["last"] = 11761.049,
@@ -10720,17 +10915,17 @@ SkadaStorageDB = {
 							["refresh"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["count"] = 2,
 									["refresh"] = 1,
+									["count"] = 2,
 									["uptime"] = 3,
 								},
 							},
 							["uptime"] = 3,
 						},
 						[6066] = {
+							["school"] = 2,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 2,
 							["uptime"] = 9,
 						},
 						[6548] = {
@@ -10751,15 +10946,20 @@ SkadaStorageDB = {
 							["uptime"] = 18,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 15,
 						},
 						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
+						},
+						[2565] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 1,
 						},
 						[18498] = {
 							["type"] = "DEBUFF",
@@ -10773,11 +10973,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
-						[2565] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 1,
-						},
 					},
 					["role"] = "TANK",
 					["time"] = 14.95,
@@ -10785,28 +10980,28 @@ SkadaStorageDB = {
 					["damage"] = 2436,
 					["damagespells"] = {
 						["Thunder Clap"] = {
-							["criticalmin"] = 210,
-							["hitmin"] = 106,
 							["criticalamount"] = 436,
+							["hitmin"] = 106,
+							["criticalmin"] = 210,
 							["id"] = 8204,
-							["criticalmax"] = 226,
+							["critical"] = 2,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 342,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 224,
 									["amount"] = 316,
+									["overkill"] = 224,
 								},
 							},
 							["overkill"] = 224,
-							["critical"] = 2,
+							["hit"] = 2,
 							["casts"] = 2,
 							["count"] = 4,
-							["hit"] = 2,
+							["amount"] = 658,
 							["school"] = 1,
 							["hitmax"] = 116,
-							["amount"] = 658,
+							["criticalmax"] = 226,
 							["hitamount"] = 222,
 						},
 						["Melee"] = {
@@ -10819,13 +11014,13 @@ SkadaStorageDB = {
 								},
 							},
 							["criticalmin"] = 210,
-							["critical"] = 1,
+							["hit"] = 5,
 							["criticalmax"] = 210,
 							["count"] = 6,
-							["hit"] = 5,
+							["amount"] = 702,
 							["school"] = 1,
 							["hitmax"] = 108,
-							["amount"] = 702,
+							["critical"] = 1,
 							["hitamount"] = 492,
 						},
 						["Victory Rush"] = {
@@ -10884,28 +11079,29 @@ SkadaStorageDB = {
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
 					["damagetakenspells"] = {
-						["Firebolt"] = {
-							["total"] = 244,
-							["hitmin"] = 81,
-							["id"] = 20801,
-							["ABSORB"] = 2,
+						["Shadow Bolt"] = {
+							["total"] = 622,
+							["hitmin"] = 171,
+							["id"] = 20825,
+							["count"] = 3,
+							["ABSORB"] = 1,
 							["sources"] = {
-								["Imp Minion"] = {
-									["total"] = 244,
-									["amount"] = 81,
+								["Bloodsail Warlock"] = {
+									["amount"] = 409,
+									["total"] = 622,
 								},
 							},
-							["count"] = 3,
-							["hit"] = 1,
-							["school"] = 4,
-							["hitmax"] = 81,
-							["amount"] = 81,
-							["hitamount"] = 81,
+							["hitmax"] = 238,
+							["hit"] = 2,
+							["school"] = 32,
+							["resisted"] = 98,
+							["amount"] = 409,
+							["hitamount"] = 409,
 						},
 						["Melee"] = {
 							["criticalamount"] = 44,
 							["id"] = 6603,
-							["blocked"] = 24,
+							["criticalmin"] = 44,
 							["BLOCK"] = 1,
 							["criticalmax"] = 44,
 							["critical"] = 1,
@@ -10916,36 +11112,35 @@ SkadaStorageDB = {
 									["amount"] = 44,
 								},
 							},
-							["criticalmin"] = 44,
+							["blocked"] = 24,
 							["count"] = 2,
 						},
-						["Shadow Bolt"] = {
-							["total"] = 622,
-							["hitmin"] = 171,
-							["id"] = 20825,
-							["ABSORB"] = 1,
-							["hitmax"] = 238,
+						["Firebolt"] = {
+							["total"] = 244,
+							["hitmin"] = 81,
+							["id"] = 20801,
+							["hit"] = 1,
 							["sources"] = {
-								["Bloodsail Warlock"] = {
-									["total"] = 622,
-									["amount"] = 409,
+								["Imp Minion"] = {
+									["amount"] = 81,
+									["total"] = 244,
 								},
 							},
 							["count"] = 3,
-							["hit"] = 2,
-							["school"] = 32,
-							["resisted"] = 98,
-							["amount"] = 409,
-							["hitamount"] = 409,
+							["ABSORB"] = 2,
+							["school"] = 4,
+							["amount"] = 81,
+							["hitmax"] = 81,
+							["hitamount"] = 81,
 						},
 					},
 					["ragespells"] = {
 						[23602] = 5,
 					},
 					["name"] = "Omoratorul",
-					["rage"] = 5,
-					["overkill"] = 224,
 					["totaldamage"] = 2436,
+					["overkill"] = 224,
+					["rage"] = 5,
 				}, -- [1]
 				{
 					["last"] = 11760.541,
@@ -10969,7 +11164,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[11549] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
@@ -10984,7 +11179,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[1461] = {
+						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
@@ -11003,6 +11198,7 @@ SkadaStorageDB = {
 							["max"] = 213,
 						},
 					},
+					["totaldamage"] = 901,
 					["time"] = 8.700000000000001,
 					["damage"] = 901,
 					["overheal"] = 0,
@@ -11015,27 +11211,28 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 123,
 							["school"] = 2,
-							["max"] = 123,
+							["min"] = 123,
 							["targets"] = {
 								["Omoratorul"] = {
 									["overheal"] = 0,
 									["amount"] = 123,
 								},
 							},
-							["min"] = 123,
+							["max"] = 123,
 						},
 					},
 					["overkill"] = 106,
 					["heal"] = 123,
 					["name"] = "Popasfant",
+					["role"] = "HEALER",
 					["damagespells"] = {
 						["Mind Blast"] = {
 							["hitmin"] = 297,
 							["id"] = 8105,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 106,
 									["amount"] = 595,
+									["overkill"] = 106,
 								},
 							},
 							["overkill"] = 106,
@@ -11052,13 +11249,13 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["amount"] = 0,
 							["school"] = 2,
+							["id"] = 15264,
+							["MISS"] = 1,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 0,
 								},
 							},
-							["MISS"] = 1,
-							["id"] = 15264,
 						},
 						["Smite"] = {
 							["hitmin"] = 306,
@@ -11068,9 +11265,9 @@ SkadaStorageDB = {
 									["amount"] = 306,
 								},
 							},
-							["hitmax"] = 306,
-							["casts"] = 2,
 							["count"] = 1,
+							["casts"] = 2,
+							["hitmax"] = 306,
 							["hit"] = 1,
 							["school"] = 2,
 							["resisted"] = 33,
@@ -11078,8 +11275,6 @@ SkadaStorageDB = {
 							["hitamount"] = 306,
 						},
 					},
-					["totaldamage"] = 901,
-					["role"] = "HEALER",
 				}, -- [2]
 				{
 					["last"] = 11761.982,
@@ -11091,19 +11286,10 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[2818] = {
-							["type"] = "DEBUFF",
+						[11549] = {
+							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 8,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["count"] = 1,
-									["refresh"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 1,
+							["uptime"] = 18,
 						},
 						[51585] = {
 							["type"] = "DEBUFF",
@@ -11117,7 +11303,7 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[11549] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
@@ -11137,12 +11323,22 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[1461] = {
-							["type"] = "BUFF",
+						[2818] = {
+							["type"] = "DEBUFF",
 							["count"] = 1,
-							["uptime"] = 18,
+							["school"] = 8,
+							["refresh"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["refresh"] = 1,
+									["count"] = 1,
+									["uptime"] = 1,
+								},
+							},
+							["uptime"] = 1,
 						},
 					},
+					["totaldamage"] = 2293,
 					["time"] = 16.02,
 					["totaldamagetaken"] = 173,
 					["damage"] = 2293,
@@ -11162,22 +11358,6 @@ SkadaStorageDB = {
 							["hitmax"] = 221,
 							["amount"] = 469,
 							["hitamount"] = 469,
-						},
-						["Instant Poison II"] = {
-							["hitmin"] = 73,
-							["id"] = 8685,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 148,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 8,
-							["hitmax"] = 75,
-							["amount"] = 148,
-							["hitamount"] = 148,
 						},
 						["Sinister Strike"] = {
 							["hitmin"] = 125,
@@ -11208,8 +11388,8 @@ SkadaStorageDB = {
 									["amount"] = 661,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 73,
 									["amount"] = 441,
+									["overkill"] = 73,
 								},
 							},
 							["glancing"] = 4,
@@ -11227,6 +11407,22 @@ SkadaStorageDB = {
 							["count"] = 14,
 							["hitmax"] = 113,
 							["hitamount"] = 410,
+						},
+						["Instant Poison II"] = {
+							["hitmin"] = 73,
+							["id"] = 8685,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 148,
+								},
+							},
+							["casts"] = 1,
+							["count"] = 2,
+							["hit"] = 2,
+							["school"] = 8,
+							["hitmax"] = 75,
+							["amount"] = 148,
+							["hitamount"] = 148,
 						},
 					},
 					["damagetaken"] = 173,
@@ -11249,9 +11445,8 @@ SkadaStorageDB = {
 							["hitamount"] = 173,
 						},
 					},
-					["overkill"] = 73,
 					["name"] = "Slavcul",
-					["totaldamage"] = 2293,
+					["role"] = "DAMAGER",
 					["interrupt"] = 1,
 					["interruptspells"] = {
 						[1766] = {
@@ -11264,7 +11459,7 @@ SkadaStorageDB = {
 							},
 						},
 					},
-					["role"] = "DAMAGER",
+					["overkill"] = 73,
 				}, -- [3]
 				{
 					["damagespells"] = {
@@ -11273,14 +11468,14 @@ SkadaStorageDB = {
 							["id"] = 8408,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 525,
 									["amount"] = 712,
+									["overkill"] = 525,
 								},
 							},
 							["overkill"] = 525,
-							["hitmax"] = 401,
-							["casts"] = 3,
 							["count"] = 2,
+							["casts"] = 3,
+							["hitmax"] = 401,
 							["hit"] = 2,
 							["school"] = 16,
 							["resisted"] = 77,
@@ -11289,10 +11484,15 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 11761.509,
-					["class"] = "MAGE",
 					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
+					["class"] = "MAGE",
 					["overkill"] = 525,
+					["spec"] = 64,
+					["totaldamage"] = 712,
+					["name"] = "Vrajadefoc",
+					["time"] = 7,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[976] = {
 							["type"] = "BUFF",
@@ -11304,42 +11504,44 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 18,
 						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 18,
-						},
 						[6117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 18,
 						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 18,
+						},
 					},
-					["totaldamage"] = 712,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 7,
 					["damage"] = 712,
 				}, -- [4]
 			},
-			["type"] = "group",
+			["totaldamage"] = 6342,
+			["time"] = 18,
+			["last_time"] = 11762.173,
+			["totaldamagetaken"] = 1083,
+			["etotaldamagetaken"] = 6342,
+			["damage"] = 6342,
+			["rage"] = 5,
+			["absorb"] = 376,
 			["damagetaken"] = 707,
+			["type"] = "group",
 			["interrupt"] = 1,
-			["overheal"] = 0,
+			["starttime"] = 1729453020,
 			["etotaldamage"] = 1083,
 			["overkill"] = 928,
 			["edamagetaken"] = 6342,
 			["heal"] = 123,
 			["name"] = "Bloodsail Warlock (8)",
 			["mobname"] = "Bloodsail Warlock",
-			["starttime"] = 1729453020,
+			["overheal"] = 0,
 			["edamage"] = 707,
 			["last_action"] = 1729453037,
 			["endtime"] = 1729453038,
-		}, -- [11]
+		}, -- [13]
 		{
-			["rage"] = 10,
 			["enemies"] = {
 				{
 					["damagespells"] = {
@@ -11366,26 +11568,6 @@ SkadaStorageDB = {
 							},
 							["amount"] = 17,
 						},
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["overkill"] = 513,
-									["amount"] = 777,
-								},
-							},
-							["overkill"] = 513,
-							["amount"] = 777,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 266,
-								},
-							},
-							["amount"] = 266,
-						},
 						[7379] = {
 							["school"] = 1,
 							["sources"] = {
@@ -11394,26 +11576,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 902,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 69,
-									["amount"] = 346,
-								},
-							},
-							["overkill"] = 69,
-							["amount"] = 346,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 249,
-								},
-							},
-							["amount"] = 249,
 						},
 						[22482] = {
 							["school"] = 1,
@@ -11433,9 +11595,49 @@ SkadaStorageDB = {
 							},
 							["amount"] = 337,
 						},
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 346,
+									["overkill"] = 69,
+								},
+							},
+							["amount"] = 346,
+							["overkill"] = 69,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 249,
+								},
+							},
+							["amount"] = 249,
+						},
+						[1760] = {
+							["school"] = 1,
+							["sources"] = {
+								["Slavcul"] = {
+									["amount"] = 266,
+								},
+							},
+							["amount"] = 266,
+						},
+						[8408] = {
+							["school"] = 16,
+							["sources"] = {
+								["Vrajadefoc"] = {
+									["amount"] = 777,
+									["overkill"] = 513,
+								},
+							},
+							["amount"] = 777,
+							["overkill"] = 513,
+						},
 					},
-					["name"] = "Bloodsail Warlock",
 					["totaldamage"] = 23,
+					["name"] = "Bloodsail Warlock",
 					["totaldamagetaken"] = 3207,
 					["id"] = "0xF13000061C24579B",
 					["damage"] = 23,
@@ -11465,27 +11667,25 @@ SkadaStorageDB = {
 					["id"] = "0xF13000327A2457A1",
 					["class"] = "PET",
 					["damagetakenspells"] = {
-						[22482] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 5,
-									["amount"] = 240,
-								},
-							},
-							["overkill"] = 5,
-							["amount"] = 240,
-						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Slavcul"] = {
-									["overkill"] = 8,
 									["amount"] = 37,
+									["overkill"] = 8,
 								},
 							},
-							["overkill"] = 8,
 							["amount"] = 37,
+							["overkill"] = 8,
+						},
+						[15431] = {
+							["school"] = 2,
+							["sources"] = {
+								["Popasfant"] = {
+									["amount"] = 231,
+								},
+							},
+							["amount"] = 231,
 						},
 						[8204] = {
 							["school"] = 1,
@@ -11505,14 +11705,16 @@ SkadaStorageDB = {
 							},
 							["amount"] = 238,
 						},
-						[15431] = {
-							["school"] = 2,
+						[22482] = {
+							["school"] = 1,
 							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 231,
+								["Slavcul"] = {
+									["amount"] = 240,
+									["overkill"] = 5,
 								},
 							},
-							["amount"] = 231,
+							["amount"] = 240,
+							["overkill"] = 5,
 						},
 					},
 					["totaldamage"] = 121,
@@ -11522,13 +11724,17 @@ SkadaStorageDB = {
 					["damage"] = 121,
 				}, -- [2]
 			},
-			["damage"] = 4184,
 			["totaldamage"] = 4184,
 			["time"] = 13,
 			["overheal"] = 1457,
 			["totaldamagetaken"] = 144,
 			["etotaldamagetaken"] = 4184,
+			["damage"] = 4184,
+			["rage"] = 10,
+			["type"] = "group",
+			["damagetaken"] = 144,
 			["last_time"] = 11737.583,
+			["interrupt"] = 1,
 			["players"] = {
 				{
 					["last"] = 11737.216,
@@ -11568,33 +11774,15 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[71] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 6,
 						},
 						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
-						},
-						[2565] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 6,
-						},
-						[18498] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
 						},
 						[8204] = {
 							["type"] = "DEBUFF",
@@ -11612,6 +11800,24 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 2,
 						},
+						[18498] = {
+							["type"] = "DEBUFF",
+							["count"] = 1,
+							["school"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["uptime"] = 2,
+									["count"] = 1,
+								},
+							},
+							["uptime"] = 2,
+						},
+						[2565] = {
+							["school"] = 1,
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 6,
+						},
 					},
 					["role"] = "TANK",
 					["time"] = 7.48,
@@ -11621,14 +11827,13 @@ SkadaStorageDB = {
 					["damagetaken"] = 144,
 					["id"] = "0x0700000000B06C55",
 					["spec"] = 73,
-					["totaldamage"] = 1745,
 					["damagetakenspells"] = {
 						["Melee"] = {
 							["DODGE"] = 1,
 							["hitmin"] = 22,
 							["id"] = 6603,
+							["count"] = 5,
 							["blocked"] = 24,
-							["BLOCK"] = 1,
 							["sources"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 23,
@@ -11637,7 +11842,7 @@ SkadaStorageDB = {
 									["amount"] = 46,
 								},
 							},
-							["count"] = 5,
+							["BLOCK"] = 1,
 							["hit"] = 3,
 							["school"] = 1,
 							["hitmax"] = 24,
@@ -11660,12 +11865,11 @@ SkadaStorageDB = {
 							["hitamount"] = 75,
 						},
 					},
-					["overkill"] = 69,
 					["ragespells"] = {
 						[23602] = 10,
 					},
 					["name"] = "Omoratorul",
-					["interrupt"] = 1,
+					["overkill"] = 69,
 					["damagespells"] = {
 						["Thunder Clap"] = {
 							["hitmin"] = 115,
@@ -11692,8 +11896,8 @@ SkadaStorageDB = {
 							["criticalmin"] = 186,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 69,
 									["amount"] = 346,
+									["overkill"] = 69,
 								},
 							},
 							["glancing"] = 1,
@@ -11716,13 +11920,13 @@ SkadaStorageDB = {
 							["count"] = 2,
 							["amount"] = 0,
 							["school"] = 1,
-							["PARRY"] = 2,
+							["id"] = 6548,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
 									["amount"] = 0,
 								},
 							},
-							["id"] = 6548,
+							["PARRY"] = 2,
 						},
 						["Revenge"] = {
 							["hitmin"] = 428,
@@ -11757,6 +11961,7 @@ SkadaStorageDB = {
 							["hitamount"] = 17,
 						},
 					},
+					["interrupt"] = 1,
 					["interruptspells"] = {
 						[72] = {
 							["spells"] = {
@@ -11768,18 +11973,53 @@ SkadaStorageDB = {
 							},
 						},
 					},
+					["totaldamage"] = 1745,
 				}, -- [1]
 				{
+					["overheal"] = 1457,
 					["last"] = 11737.083,
+					["id"] = "0x0700000000B06C58",
 					["flag"] = 1298,
 					["class"] = "PRIEST",
+					["healspells"] = {
+						[23459] = {
+							["overheal"] = 1457,
+							["criticalamount"] = 0,
+							["max"] = 75,
+							["targets"] = {
+								["Popasfant"] = {
+									["overheal"] = 377,
+									["amount"] = 0,
+								},
+								["Vrajadefoc"] = {
+									["overheal"] = 379,
+									["amount"] = 0,
+								},
+								["Slavcul"] = {
+									["overheal"] = 478,
+									["amount"] = 0,
+								},
+								["Omoratorul"] = {
+									["overheal"] = 223,
+									["amount"] = 144,
+								},
+							},
+							["min"] = 69,
+							["criticalmax"] = 0,
+							["count"] = 8,
+							["amount"] = 144,
+							["school"] = 2,
+							["critical"] = 1,
+							["criticalmin"] = 0,
+						},
+					},
 					["auras"] = {
 						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[11549] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
@@ -11794,51 +12034,15 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
-						[1461] = {
+						[11549] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
 						},
 					},
-					["time"] = 5.14,
-					["damage"] = 568,
-					["overheal"] = 1457,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["healspells"] = {
-						[23459] = {
-							["overheal"] = 1457,
-							["criticalamount"] = 0,
-							["max"] = 75,
-							["targets"] = {
-								["Omoratorul"] = {
-									["overheal"] = 223,
-									["amount"] = 144,
-								},
-								["Vrajadefoc"] = {
-									["overheal"] = 379,
-									["amount"] = 0,
-								},
-								["Slavcul"] = {
-									["overheal"] = 478,
-									["amount"] = 0,
-								},
-								["Popasfant"] = {
-									["overheal"] = 377,
-									["amount"] = 0,
-								},
-							},
-							["min"] = 69,
-							["criticalmax"] = 0,
-							["count"] = 8,
-							["amount"] = 144,
-							["school"] = 2,
-							["criticalmin"] = 0,
-							["critical"] = 1,
-						},
-					},
 					["heal"] = 144,
-					["name"] = "Popasfant",
+					["totaldamage"] = 568,
+					["time"] = 5.14,
 					["damagespells"] = {
 						["Holy Nova"] = {
 							["hitmin"] = 100,
@@ -11851,19 +12055,21 @@ SkadaStorageDB = {
 									["amount"] = 231,
 								},
 							},
-							["hitmax"] = 121,
-							["amount"] = 568,
-							["casts"] = 2,
 							["count"] = 6,
 							["hit"] = 5,
+							["casts"] = 2,
+							["hitmax"] = 121,
+							["amount"] = 568,
 							["school"] = 2,
 							["resisted"] = 11,
 							["MISS"] = 1,
 							["hitamount"] = 568,
 						},
 					},
-					["totaldamage"] = 568,
+					["name"] = "Popasfant",
+					["spec"] = 256,
 					["role"] = "HEALER",
+					["damage"] = 568,
 				}, -- [2]
 				{
 					["damagespells"] = {
@@ -11875,8 +12081,8 @@ SkadaStorageDB = {
 									["amount"] = 313,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 5,
 									["amount"] = 240,
+									["overkill"] = 5,
 								},
 							},
 							["overkill"] = 5,
@@ -11903,9 +12109,9 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 504,
 							["school"] = 1,
-							["criticalmin"] = 238,
-							["criticalmax"] = 266,
 							["count"] = 2,
+							["criticalmax"] = 266,
+							["criticalmin"] = 238,
 						},
 						["Melee"] = {
 							["hitmin"] = 37,
@@ -11915,13 +12121,13 @@ SkadaStorageDB = {
 									["amount"] = 0,
 								},
 								["Imp Minion"] = {
-									["overkill"] = 8,
 									["amount"] = 37,
+									["overkill"] = 8,
 								},
 							},
 							["overkill"] = 8,
-							["hitmax"] = 37,
 							["count"] = 3,
+							["hitmax"] = 37,
 							["amount"] = 37,
 							["school"] = 1,
 							["hit"] = 1,
@@ -11930,10 +12136,15 @@ SkadaStorageDB = {
 						},
 					},
 					["last"] = 11737.215,
-					["class"] = "ROGUE",
 					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
+					["class"] = "ROGUE",
 					["overkill"] = 13,
+					["spec"] = 260,
+					["totaldamage"] = 1094,
+					["name"] = "Slavcul",
+					["time"] = 4.93,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[18192] = {
 							["type"] = "BUFF",
@@ -11946,17 +12157,12 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[13877] = {
+							["school"] = 1,
 							["type"] = "BUFF",
 							["count"] = 1,
-							["school"] = 1,
 							["uptime"] = 8,
 						},
 						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
@@ -11966,12 +12172,12 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
 					},
-					["totaldamage"] = 1094,
-					["role"] = "DAMAGER",
-					["name"] = "Slavcul",
-					["flag"] = 1298,
-					["time"] = 4.93,
 					["damage"] = 1094,
 				}, -- [3]
 				{
@@ -11981,8 +12187,8 @@ SkadaStorageDB = {
 							["id"] = 8408,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 513,
 									["amount"] = 777,
+									["overkill"] = 513,
 								},
 							},
 							["overkill"] = 513,
@@ -11990,16 +12196,21 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 777,
 							["school"] = 16,
-							["criticalmin"] = 777,
-							["criticalmax"] = 777,
 							["count"] = 1,
+							["criticalmax"] = 777,
+							["criticalmin"] = 777,
 						},
 					},
 					["last"] = 11737.542,
-					["class"] = "MAGE",
 					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
+					["class"] = "MAGE",
 					["overkill"] = 513,
+					["spec"] = 64,
+					["totaldamage"] = 777,
+					["name"] = "Vrajadefoc",
+					["time"] = 3.5,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[12472] = {
 							["type"] = "BUFF",
@@ -12007,11 +12218,6 @@ SkadaStorageDB = {
 							["uptime"] = 13,
 						},
 						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 13,
-						},
-						[976] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 13,
@@ -12026,38 +12232,35 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 13,
 						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 13,
+						},
 					},
-					["totaldamage"] = 777,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 3.5,
 					["damage"] = 777,
 				}, -- [4]
 			},
-			["type"] = "group",
-			["damagetaken"] = 144,
-			["interrupt"] = 1,
-			["starttime"] = 1729453004,
 			["etotaldamage"] = 144,
 			["overkill"] = 595,
 			["edamagetaken"] = 4184,
 			["heal"] = 144,
 			["name"] = "Bloodsail Warlock (7)",
 			["mobname"] = "Bloodsail Warlock",
+			["starttime"] = 1729453004,
 			["edamage"] = 144,
 			["last_action"] = 1729453012,
 			["endtime"] = 1729453017,
-		}, -- [12]
+		}, -- [14]
 		{
 			["enemies"] = {
 				{
-					["id"] = "0xF13000327A24583C",
 					["name"] = "Imp Minion",
-					["totaldamagetaken"] = 482,
+					["damagetaken"] = 482,
+					["id"] = "0xF13000327A24583C",
 					["flag"] = 4680,
 					["class"] = "PET",
-					["damagetaken"] = 482,
+					["totaldamagetaken"] = 482,
 					["damagetakenspells"] = {
 						[1760] = {
 							["school"] = 1,
@@ -12068,16 +12271,14 @@ SkadaStorageDB = {
 							},
 							["amount"] = 302,
 						},
-						[6603] = {
+						[16624] = {
 							["school"] = 1,
 							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 11,
-									["amount"] = 87,
+								["Omoratorul"] = {
+									["amount"] = 18,
 								},
 							},
-							["overkill"] = 11,
-							["amount"] = 87,
+							["amount"] = 18,
 						},
 						[8685] = {
 							["school"] = 8,
@@ -12088,24 +12289,26 @@ SkadaStorageDB = {
 							},
 							["amount"] = 75,
 						},
-						[16624] = {
+						[6603] = {
 							["school"] = 1,
 							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 18,
+								["Slavcul"] = {
+									["amount"] = 87,
+									["overkill"] = 11,
 								},
 							},
-							["amount"] = 18,
+							["amount"] = 87,
+							["overkill"] = 11,
 						},
 					},
 				}, -- [1]
 				{
-					["id"] = "0xF13000061C24582A",
 					["name"] = "Bloodsail Warlock",
-					["totaldamagetaken"] = 1354,
+					["damagetaken"] = 1354,
+					["id"] = "0xF13000061C24582A",
 					["flag"] = 68168,
 					["class"] = "MONSTER",
-					["damagetaken"] = 1354,
+					["totaldamagetaken"] = 1354,
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
@@ -12115,17 +12318,6 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 468,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["overkill"] = 61,
-									["amount"] = 126,
-								},
-							},
-							["overkill"] = 61,
-							["amount"] = 126,
 						},
 						[15264] = {
 							["school"] = 2,
@@ -12144,6 +12336,17 @@ SkadaStorageDB = {
 								},
 							},
 							["amount"] = 303,
+						},
+						[8204] = {
+							["school"] = 1,
+							["sources"] = {
+								["Omoratorul"] = {
+									["amount"] = 126,
+									["overkill"] = 61,
+								},
+							},
+							["amount"] = 126,
+							["overkill"] = 61,
 						},
 					},
 				}, -- [2]
@@ -12184,7 +12387,7 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[8117] = {
+						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
@@ -12199,23 +12402,37 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[1461] = {
+						[8117] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
 					},
+					["totaldamage"] = 612,
 					["time"] = 3.45,
 					["totaldamagetaken"] = 0,
 					["damage"] = 612,
 					["damagespells"] = {
+						["Rend"] = {
+							["casts"] = 1,
+							["count"] = 1,
+							["amount"] = 0,
+							["school"] = 1,
+							["id"] = 6548,
+							["MISS"] = 1,
+							["targets"] = {
+								["Bloodsail Warlock"] = {
+									["amount"] = 0,
+								},
+							},
+						},
 						["Thunder Clap"] = {
 							["hitmin"] = 126,
 							["id"] = 8204,
 							["targets"] = {
 								["Bloodsail Warlock"] = {
-									["overkill"] = 61,
 									["amount"] = 126,
+									["overkill"] = 61,
 								},
 							},
 							["overkill"] = 61,
@@ -12226,19 +12443,6 @@ SkadaStorageDB = {
 							["hitmax"] = 126,
 							["amount"] = 126,
 							["hitamount"] = 126,
-						},
-						["Rend"] = {
-							["casts"] = 1,
-							["count"] = 1,
-							["amount"] = 0,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Warlock"] = {
-									["amount"] = 0,
-								},
-							},
-							["MISS"] = 1,
-							["id"] = 6548,
 						},
 						["Melee"] = {
 							["criticalamount"] = 468,
@@ -12252,8 +12456,8 @@ SkadaStorageDB = {
 							["critical"] = 2,
 							["amount"] = 468,
 							["school"] = 1,
-							["criticalmin"] = 234,
 							["count"] = 2,
+							["criticalmin"] = 234,
 						},
 						["Thorium Shield Spike"] = {
 							["hitmin"] = 18,
@@ -12277,7 +12481,7 @@ SkadaStorageDB = {
 					["spec"] = 73,
 					["damagetakenspells"] = {
 						["Melee"] = {
-							["BLOCK"] = 1,
+							["school"] = 1,
 							["sources"] = {
 								["Imp Minion"] = {
 									["amount"] = 0,
@@ -12285,10 +12489,10 @@ SkadaStorageDB = {
 							},
 							["count"] = 2,
 							["amount"] = 0,
-							["school"] = 1,
+							["id"] = 6603,
 							["blocked"] = 24,
 							["MISS"] = 1,
-							["id"] = 6603,
+							["BLOCK"] = 1,
 						},
 					},
 					["ragespells"] = {
@@ -12296,10 +12500,9 @@ SkadaStorageDB = {
 					},
 					["name"] = "Omoratorul",
 					["ccdone"] = 1,
-					["overkill"] = 61,
-					["rage"] = 5,
-					["totaldamage"] = 612,
 					["role"] = "TANK",
+					["rage"] = 5,
+					["overkill"] = 61,
 				}, -- [1]
 				{
 					["damagespells"] = {
@@ -12343,8 +12546,8 @@ SkadaStorageDB = {
 									["amount"] = 23,
 								},
 							},
-							["hitmax"] = 12,
 							["count"] = 2,
+							["hitmax"] = 12,
 							["hit"] = 2,
 							["school"] = 2,
 							["resisted"] = 1,
@@ -12355,8 +12558,27 @@ SkadaStorageDB = {
 					["last"] = 11720.949,
 					["id"] = "0x0700000000B06C58",
 					["spec"] = 256,
-					["class"] = "PRIEST",
 					["auras"] = {
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[11549] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[3166] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[15264] = {
 							["type"] = "DEBUFF",
 							["count"] = 1,
@@ -12369,26 +12591,6 @@ SkadaStorageDB = {
 							},
 							["uptime"] = 3,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
@@ -12396,10 +12598,11 @@ SkadaStorageDB = {
 						},
 					},
 					["totaldamage"] = 760,
-					["role"] = "HEALER",
 					["name"] = "Popasfant",
-					["flag"] = 1298,
+					["class"] = "PRIEST",
 					["time"] = 0,
+					["flag"] = 1298,
+					["role"] = "HEALER",
 					["damage"] = 760,
 				}, -- [2]
 				{
@@ -12432,9 +12635,9 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 302,
 							["school"] = 1,
-							["criticalmin"] = 302,
-							["criticalmax"] = 302,
 							["count"] = 1,
+							["criticalmax"] = 302,
+							["criticalmin"] = 302,
 						},
 						["Melee"] = {
 							["glance"] = 87,
@@ -12447,18 +12650,23 @@ SkadaStorageDB = {
 							["school"] = 1,
 							["targets"] = {
 								["Imp Minion"] = {
-									["overkill"] = 11,
 									["amount"] = 87,
+									["overkill"] = 11,
 								},
 							},
 							["glancemin"] = 87,
 						},
 					},
 					["last"] = 11724.141,
-					["class"] = "ROGUE",
 					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
+					["class"] = "ROGUE",
 					["overkill"] = 11,
+					["spec"] = 260,
+					["totaldamage"] = 464,
+					["name"] = "Slavcul",
+					["time"] = 3.19,
+					["flag"] = 1298,
+					["role"] = "DAMAGER",
 					["auras"] = {
 						[18192] = {
 							["type"] = "BUFF",
@@ -12480,22 +12688,17 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 						[1461] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 					},
-					["totaldamage"] = 464,
-					["role"] = "DAMAGER",
-					["name"] = "Slavcul",
-					["flag"] = 1298,
-					["time"] = 3.19,
 					["damage"] = 464,
 				}, -- [3]
 				{
@@ -12508,1162 +12711,46 @@ SkadaStorageDB = {
 							["count"] = 1,
 							["uptime"] = 5,
 						},
+						[976] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[8098] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
+						[6117] = {
+							["type"] = "BUFF",
+							["count"] = 1,
+							["uptime"] = 5,
+						},
 						[10793] = {
 							["type"] = "BUFF",
 							["count"] = 1,
 							["uptime"] = 5,
 						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 5,
-						},
 					},
 					["role"] = "DAMAGER",
 					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 0,
 					["class"] = "MAGE",
+					["time"] = 0,
+					["flag"] = 1298,
 				}, -- [4]
 			},
 			["type"] = "group",
 			["damagetaken"] = 0,
-			["mobname"] = "Bloodsail Warlock",
 			["rage"] = 5,
 			["overkill"] = 72,
 			["edamagetaken"] = 1836,
 			["starttime"] = 1729452996,
 			["name"] = "Bloodsail Warlock (6)",
-			["ccdone"] = 1,
+			["mobname"] = "Bloodsail Warlock",
 			["damage"] = 1836,
+			["ccdone"] = 1,
 			["last_action"] = 1729453001,
 			["endtime"] = 1729453001,
-		}, -- [13]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 134,
-								},
-								["Popasfant"] = {
-									["amount"] = 58,
-								},
-								["Slavcul"] = {
-									["amount"] = 53,
-								},
-							},
-							["amount"] = 245,
-						},
-					},
-					["damagetaken"] = 3747,
-					["id"] = "0xF13000061B2456CA",
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 763,
-								},
-							},
-							["amount"] = 763,
-						},
-						[8685] = {
-							["school"] = 8,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 228,
-								},
-							},
-							["amount"] = 228,
-						},
-						[34428] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 179,
-								},
-							},
-							["amount"] = 179,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 296,
-								},
-							},
-							["amount"] = 296,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["amount"] = 593,
-								},
-								["Omoratorul"] = {
-									["amount"] = 350,
-								},
-							},
-							["amount"] = 943,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 216,
-								},
-							},
-							["amount"] = 216,
-						},
-						[1760] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 89,
-									["amount"] = 680,
-								},
-							},
-							["overkill"] = 89,
-							["amount"] = 680,
-						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 442,
-								},
-							},
-							["amount"] = 442,
-						},
-					},
-					["totaldamage"] = 245,
-					["name"] = "Bloodsail Swashbuckler",
-					["totaldamagetaken"] = 3747,
-					["flag"] = 2632,
-					["damage"] = 245,
-				}, -- [1]
-			},
-			["totaldamage"] = 3747,
-			["time"] = 14,
-			["totaldamagetaken"] = 245,
-			["etotaldamage"] = 245,
-			["last_time"] = 11616.267,
-			["players"] = {
-				{
-					["last"] = 11615.211,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[458] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[18075] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-					},
-					["role"] = "TANK",
-					["time"] = 9.4,
-					["totaldamagetaken"] = 134,
-					["damage"] = 745,
-					["rage"] = 5,
-					["damagetaken"] = 134,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 29,
-							["id"] = 6603,
-							["hitmax"] = 40,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 134,
-								},
-							},
-							["count"] = 5,
-							["hit"] = 4,
-							["school"] = 1,
-							["PARRY"] = 1,
-							["amount"] = 134,
-							["hitamount"] = 134,
-						},
-					},
-					["ragespells"] = {
-						[23602] = 5,
-					},
-					["name"] = "Omoratorul",
-					["damagespells"] = {
-						["Victory Rush"] = {
-							["hitmin"] = 179,
-							["id"] = 34428,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 179,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 179,
-							["amount"] = 179,
-							["hitamount"] = 179,
-						},
-						["Melee"] = {
-							["glance"] = 84,
-							["hitmin"] = 81,
-							["id"] = 6603,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 350,
-								},
-							},
-							["glancemin"] = 84,
-							["glancing"] = 1,
-							["glancemax"] = 84,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 96,
-							["amount"] = 350,
-							["hitamount"] = 266,
-						},
-						["Thunder Clap"] = {
-							["criticalamount"] = 216,
-							["id"] = 8204,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 216,
-								},
-							},
-							["casts"] = 1,
-							["critical"] = 1,
-							["amount"] = 216,
-							["school"] = 1,
-							["criticalmin"] = 216,
-							["criticalmax"] = 216,
-							["count"] = 1,
-						},
-					},
-					["totaldamage"] = 745,
-				}, -- [1]
-				{
-					["last"] = 11604.142,
-					["flag"] = 1298,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[15264] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 2,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 4,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 4,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["role"] = "HEALER",
-					["time"] = 0,
-					["totaldamagetaken"] = 58,
-					["damage"] = 738,
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 296,
-							["id"] = 8105,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 296,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 296,
-							["amount"] = 296,
-							["hitamount"] = 296,
-						},
-						["Holy Fire"] = {
-							["hitmin"] = 397,
-							["id"] = 15264,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 397,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 397,
-							["amount"] = 397,
-							["hitamount"] = 397,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 10,
-							["id"] = 15264,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 45,
-								},
-							},
-							["hitmax"] = 12,
-							["count"] = 4,
-							["hit"] = 4,
-							["school"] = 2,
-							["resisted"] = 3,
-							["amount"] = 45,
-							["hitamount"] = 45,
-						},
-					},
-					["damagetaken"] = 58,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 58,
-							["id"] = 6603,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 58,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 58,
-							["amount"] = 58,
-							["hitamount"] = 58,
-						},
-					},
-					["name"] = "Popasfant",
-					["totaldamage"] = 738,
-				}, -- [2]
-				{
-					["last"] = 11616.218,
-					["flag"] = 1298,
-					["class"] = "ROGUE",
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[2818] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 8,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[5171] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 10,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[51585] = {
-							["type"] = "DEBUFF",
-							["count"] = 2,
-							["school"] = 1,
-							["refresh"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["count"] = 2,
-									["refresh"] = 1,
-									["uptime"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["time"] = 12.07,
-					["totaldamagetaken"] = 53,
-					["damage"] = 1501,
-					["damagespells"] = {
-						["Instant Poison II"] = {
-							["hitmin"] = 75,
-							["id"] = 8685,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 228,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 3,
-							["hit"] = 3,
-							["school"] = 8,
-							["hitmax"] = 77,
-							["amount"] = 228,
-							["hitamount"] = 228,
-						},
-						["Melee"] = {
-							["DODGE"] = 1,
-							["glance"] = 136,
-							["hitmin"] = 34,
-							["criticalmin"] = 80,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 593,
-								},
-							},
-							["glancing"] = 2,
-							["amount"] = 593,
-							["MISS"] = 3,
-							["glancemin"] = 36,
-							["criticalamount"] = 80,
-							["id"] = 6603,
-							["glancemax"] = 100,
-							["criticalmax"] = 80,
-							["PARRY"] = 1,
-							["count"] = 13,
-							["hit"] = 5,
-							["school"] = 1,
-							["critical"] = 1,
-							["hitmax"] = 104,
-							["hitamount"] = 377,
-						},
-						["Sinister Strike"] = {
-							["criticalmin"] = 254,
-							["hitmin"] = 136,
-							["criticalamount"] = 254,
-							["id"] = 1760,
-							["criticalmax"] = 254,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 89,
-									["amount"] = 680,
-								},
-							},
-							["overkill"] = 89,
-							["critical"] = 1,
-							["casts"] = 4,
-							["count"] = 4,
-							["hit"] = 3,
-							["school"] = 1,
-							["hitmax"] = 147,
-							["amount"] = 680,
-							["hitamount"] = 426,
-						},
-					},
-					["damagetaken"] = 53,
-					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 53,
-							["id"] = 6603,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 53,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 53,
-							["amount"] = 53,
-							["hitamount"] = 53,
-						},
-					},
-					["name"] = "Slavcul",
-					["overkill"] = 89,
-					["totaldamage"] = 1501,
-					["role"] = "DAMAGER",
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 381,
-							["id"] = 8408,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 763,
-								},
-							},
-							["casts"] = 3,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 16,
-							["hitmax"] = 382,
-							["amount"] = 763,
-							["hitamount"] = 763,
-						},
-					},
-					["last"] = 11614.725,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["class"] = "MAGE",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 14,
-						},
-					},
-					["totaldamage"] = 763,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 7,
-					["damage"] = 763,
-				}, -- [4]
-			},
-			["type"] = "group",
-			["damagetaken"] = 245,
-			["rage"] = 5,
-			["etotaldamagetaken"] = 3747,
-			["overkill"] = 89,
-			["edamagetaken"] = 3747,
-			["damage"] = 3747,
-			["name"] = "Bloodsail Swashbuckler (13)",
-			["mobname"] = "Bloodsail Swashbuckler",
-			["starttime"] = 1729452879,
-			["edamage"] = 245,
-			["last_action"] = 1729452891,
-			["endtime"] = 1729452893,
-		}, -- [14]
-		{
-			["enemies"] = {
-				{
-					["damagespells"] = {
-						[6603] = {
-							["school"] = 1,
-							["targets"] = {
-								["Omoratorul"] = {
-									["amount"] = 36,
-								},
-							},
-							["amount"] = 36,
-						},
-					},
-					["damagetaken"] = 1598,
-					["flag"] = 68168,
-					["class"] = "MONSTER",
-					["damagetakenspells"] = {
-						[8408] = {
-							["school"] = 16,
-							["sources"] = {
-								["Vrajadefoc"] = {
-									["amount"] = 360,
-								},
-							},
-							["amount"] = 360,
-						},
-						[6548] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-						[6060] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 399,
-								},
-							},
-							["amount"] = 399,
-						},
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Slavcul"] = {
-									["overkill"] = 81,
-									["amount"] = 131,
-								},
-								["Omoratorul"] = {
-									["amount"] = 203,
-								},
-							},
-							["overkill"] = 81,
-							["amount"] = 334,
-						},
-						[8204] = {
-							["school"] = 1,
-							["sources"] = {
-								["Omoratorul"] = {
-									["amount"] = 102,
-								},
-							},
-							["amount"] = 102,
-						},
-						[8105] = {
-							["school"] = 32,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 293,
-								},
-							},
-							["amount"] = 293,
-						},
-						[15264] = {
-							["school"] = 2,
-							["sources"] = {
-								["Popasfant"] = {
-									["amount"] = 70,
-								},
-							},
-							["amount"] = 70,
-						},
-					},
-					["name"] = "Bloodsail Swashbuckler",
-					["totaldamage"] = 36,
-					["totaldamagetaken"] = 1598,
-					["id"] = "0xF13000061B2453B5",
-					["damage"] = 36,
-				}, -- [1]
-			},
-			["totaldamage"] = 1598,
-			["time"] = 8,
-			["totaldamagetaken"] = 36,
-			["etotaldamagetaken"] = 1598,
-			["last_time"] = 11568.201,
-			["players"] = {
-				{
-					["ccdonespells"] = {
-						[7922] = {
-							["count"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = 1,
-							},
-						},
-					},
-					["last"] = 11566.568,
-					["flag"] = 1297,
-					["class"] = "WARRIOR",
-					["auras"] = {
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[355] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 3,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 3,
-						},
-						[6548] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 5,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 5,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[71] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["uptime"] = 7,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[8204] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 2,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 2,
-						},
-						[7922] = {
-							["type"] = "DEBUFF",
-							["count"] = 1,
-							["school"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["uptime"] = 1,
-									["count"] = 1,
-								},
-							},
-							["uptime"] = 1,
-						},
-					},
-					["time"] = 4.79,
-					["totaldamagetaken"] = 36,
-					["damage"] = 345,
-					["damagespells"] = {
-						["Thunder Clap"] = {
-							["hitmin"] = 102,
-							["id"] = 8204,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 102,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 102,
-							["amount"] = 102,
-							["hitamount"] = 102,
-						},
-						["Rend (DoT)"] = {
-							["hitmin"] = 40,
-							["id"] = 6548,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 40,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 40,
-							["amount"] = 40,
-							["hitamount"] = 40,
-						},
-						["Melee"] = {
-							["glance"] = 122,
-							["hitmin"] = 81,
-							["id"] = 6603,
-							["glancemax"] = 62,
-							["hitmax"] = 81,
-							["glancing"] = 2,
-							["hitamount"] = 81,
-							["count"] = 3,
-							["amount"] = 203,
-							["school"] = 1,
-							["hit"] = 1,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 203,
-								},
-							},
-							["glancemin"] = 60,
-						},
-					},
-					["damagetaken"] = 36,
-					["id"] = "0x0700000000B06C55",
-					["spec"] = 73,
-					["damagetakenspells"] = {
-						["Melee"] = {
-							["hitmin"] = 36,
-							["id"] = 6603,
-							["sources"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 36,
-								},
-							},
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 1,
-							["hitmax"] = 36,
-							["amount"] = 36,
-							["hitamount"] = 36,
-						},
-					},
-					["name"] = "Omoratorul",
-					["ccdone"] = 1,
-					["totaldamage"] = 345,
-					["role"] = "TANK",
-				}, -- [1]
-				{
-					["damagespells"] = {
-						["Mind Blast"] = {
-							["hitmin"] = 293,
-							["id"] = 8105,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 293,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 32,
-							["hitmax"] = 293,
-							["amount"] = 293,
-							["hitamount"] = 293,
-						},
-						["Smite"] = {
-							["hitmin"] = 399,
-							["id"] = 6060,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 399,
-								},
-							},
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 2,
-							["hitmax"] = 399,
-							["amount"] = 399,
-							["hitamount"] = 399,
-						},
-						["Holy Fire (DoT)"] = {
-							["hitmin"] = 11,
-							["id"] = 15264,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 70,
-								},
-							},
-							["count"] = 6,
-							["hit"] = 6,
-							["school"] = 2,
-							["hitmax"] = 12,
-							["amount"] = 70,
-							["hitamount"] = 70,
-						},
-					},
-					["last"] = 11561.776,
-					["id"] = "0x0700000000B06C58",
-					["spec"] = 256,
-					["class"] = "PRIEST",
-					["auras"] = {
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[3166] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["totaldamage"] = 762,
-					["role"] = "HEALER",
-					["name"] = "Popasfant",
-					["flag"] = 1298,
-					["time"] = 0,
-					["damage"] = 762,
-				}, -- [2]
-				{
-					["damagespells"] = {
-						["Melee"] = {
-							["hitmin"] = 37,
-							["id"] = 6603,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["overkill"] = 81,
-									["amount"] = 131,
-								},
-							},
-							["overkill"] = 81,
-							["count"] = 2,
-							["hit"] = 2,
-							["school"] = 1,
-							["hitmax"] = 94,
-							["amount"] = 131,
-							["hitamount"] = 131,
-						},
-					},
-					["last"] = 11568.084,
-					["class"] = "ROGUE",
-					["id"] = "0x0700000000B0D62C",
-					["spec"] = 260,
-					["overkill"] = 81,
-					["auras"] = {
-						[18192] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[8117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["totaldamage"] = 131,
-					["role"] = "DAMAGER",
-					["name"] = "Slavcul",
-					["flag"] = 1298,
-					["time"] = 3.58,
-					["damage"] = 131,
-				}, -- [3]
-				{
-					["damagespells"] = {
-						["Frostbolt"] = {
-							["hitmin"] = 360,
-							["id"] = 8408,
-							["targets"] = {
-								["Bloodsail Swashbuckler"] = {
-									["amount"] = 360,
-								},
-							},
-							["hitmax"] = 360,
-							["casts"] = 1,
-							["count"] = 1,
-							["hit"] = 1,
-							["school"] = 16,
-							["resisted"] = 40,
-							["amount"] = 360,
-							["hitamount"] = 360,
-						},
-					},
-					["last"] = 11567.892,
-					["id"] = "0x0700000000B06C60",
-					["spec"] = 64,
-					["class"] = "MAGE",
-					["auras"] = {
-						[12472] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["school"] = 16,
-							["uptime"] = 5,
-						},
-						[11549] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[8098] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[976] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[6117] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-						[1461] = {
-							["type"] = "BUFF",
-							["count"] = 1,
-							["uptime"] = 8,
-						},
-					},
-					["totaldamage"] = 360,
-					["role"] = "DAMAGER",
-					["name"] = "Vrajadefoc",
-					["flag"] = 1298,
-					["time"] = 3.5,
-					["damage"] = 360,
-				}, -- [4]
-			},
-			["type"] = "group",
-			["damagetaken"] = 36,
-			["mobname"] = "Bloodsail Swashbuckler",
-			["damage"] = 1598,
-			["etotaldamage"] = 36,
-			["overkill"] = 81,
-			["edamagetaken"] = 1598,
-			["starttime"] = 1729452837,
-			["name"] = "Bloodsail Swashbuckler (12)",
-			["ccdone"] = 1,
-			["edamage"] = 36,
-			["last_action"] = 1729452843,
-			["endtime"] = 1729452845,
 		}, -- [15]
 	},
 }

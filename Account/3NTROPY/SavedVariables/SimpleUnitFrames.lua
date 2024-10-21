@@ -26,6 +26,7 @@ SimpleUnitFramesDB = {
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
+		["Putreziciune - Icecrown"] = "Putreziciune - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
 		["Vhalanor - Icecrown"] = "Vhalanor - Icecrown",
 		["Urgash - Icecrown"] = "Urgash - Icecrown",
@@ -33,16 +34,16 @@ SimpleUnitFramesDB = {
 		["Lingurita - Icecrown"] = "Lingurita - Icecrown",
 		["Inarya - Icecrown"] = "Inarya - Icecrown",
 		["Ulrezaj - Icecrown"] = "Ulrezaj - Icecrown",
-		["Glacianos - Icecrown"] = "Glacianos - Icecrown",
-		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
 		["Mahkloompah - Icecrown"] = "Mahkloompah - Icecrown",
+		["Pocaitoru - Icecrown"] = "Pocaitoru - Icecrown",
+		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
 		["Izanagi - Icecrown"] = "Izanagi - Icecrown",
 		["Flocparlit - Icecrown"] = "Flocparlit - Icecrown",
 		["Gligor - Icecrown"] = "Gligor - Icecrown",
 		["Mirceabravo - Blackrock [PvP only]"] = "Mirceabravo - Blackrock [PvP only]",
 		["Maciucaru - Icecrown"] = "Maciucaru - Icecrown",
 		["Sculatru - Icecrown"] = "Sculatru - Icecrown",
-		["Elgorath - Icecrown"] = "Elgorath - Icecrown",
+		["Glacianos - Icecrown"] = "Glacianos - Icecrown",
 		["Mirceabravo - Icecrown"] = "Mirceabravo - Icecrown",
 		["Pubianus - Icecrown"] = "Pubianus - Icecrown",
 		["Pocaitorul - Icecrown"] = "Pocaitorul - Icecrown",
@@ -95,6 +96,8 @@ SimpleUnitFramesDB = {
 		},
 		["Drext - Icecrown"] = {
 		},
+		["Putreziciune - Icecrown"] = {
+		},
 		["Sculamare - Icecrown"] = {
 		},
 		["Vhalanor - Icecrown"] = {
@@ -109,11 +112,11 @@ SimpleUnitFramesDB = {
 		},
 		["Ulrezaj - Icecrown"] = {
 		},
-		["Glacianos - Icecrown"] = {
+		["Mahkloompah - Icecrown"] = {
 		},
 		["Pocaitoru - Icecrown"] = {
 		},
-		["Mahkloompah - Icecrown"] = {
+		["Elgorath - Icecrown"] = {
 		},
 		["Izanagi - Icecrown"] = {
 		},
@@ -127,7 +130,7 @@ SimpleUnitFramesDB = {
 		},
 		["Sculatru - Icecrown"] = {
 		},
-		["Elgorath - Icecrown"] = {
+		["Glacianos - Icecrown"] = {
 		},
 		["Mirceabravo - Icecrown"] = {
 		},

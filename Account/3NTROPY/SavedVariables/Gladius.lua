@@ -21,6 +21,7 @@ GladiusDB = {
 		["Flocius - Icecrown"] = "Flocius - Icecrown",
 		["Eutanasie - Icecrown"] = "Eutanasie - Icecrown",
 		["Drext - Icecrown"] = "Drext - Icecrown",
+		["Putreziciune - Icecrown"] = "Putreziciune - Icecrown",
 		["Sculamare - Icecrown"] = "Sculamare - Icecrown",
 		["Nalar - Icecrown"] = "Nalar - Icecrown",
 		["Aevie - Icecrown"] = "Aevie - Icecrown",
@@ -105,8 +106,8 @@ GladiusDB = {
 		},
 		["Omoratorul - Icecrown"] = {
 			["locked"] = true,
-			["y"] = 532.8999455960493,
 			["x"] = 1151.107415583925,
+			["y"] = 532.8999455960493,
 		},
 		["Ylath - Icecrown"] = {
 			["locked"] = true,
@@ -136,6 +137,8 @@ GladiusDB = {
 			["locked"] = true,
 			["x"] = 1050.499960681949,
 			["y"] = 522.0000221548672,
+		},
+		["Putreziciune - Icecrown"] = {
 		},
 		["Sculamare - Icecrown"] = {
 			["y"] = 532.0999606624343,

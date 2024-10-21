@@ -73,6 +73,7 @@ Quartz3DB = {
 		["Flocius - Icecrown"] = "Default",
 		["Eutanasie - Icecrown"] = "Default",
 		["Drext - Icecrown"] = "Default",
+		["Putreziciune - Icecrown"] = "Default",
 		["Sculamare - Icecrown"] = "Default",
 		["Glacion - Icecrown"] = "Default",
 		["Pocaitorul - Icecrown"] = "Default",

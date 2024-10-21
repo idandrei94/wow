@@ -30,6 +30,9 @@ MACRO 98 "dkswap" INV_Misc_QuestionMark
 /equipslot 16 Glorenzelg, High-Blade of the Silver Hand
 /equip Sigil of the Vengeful Heart
 END
+MACRO 100 "fish" INV_Misc_QuestionMark
+#showtooltip oily blackmouth
+END
 MACRO 82 "fragment" INV_Misc_QuestionMark
 #showtooltip soul fragment
 /cancelaura soul fragment
