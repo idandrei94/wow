@@ -2,6 +2,31 @@
 SkadaStorageDB = {
 	["sets"] = {
 		{
+			["starttime"] = 1729587585,
+			["type"] = "none",
+			["enemies"] = {
+				{
+					["name"] = "Rat",
+					["damagetaken"] = 1196,
+					["flag"] = 68136,
+					["id"] = "0xF130000FEB0097FC",
+					["totaldamagetaken"] = 1196,
+					["class"] = "MONSTER",
+					["damagetakenspells"] = {
+						[6603] = {
+							["school"] = 1,
+							["sources"] = {
+								["Putreziciune"] = {
+									["amount"] = 1196,
+									["overkill"] = 1178,
+								},
+							},
+							["amount"] = 1196,
+							["overkill"] = 1178,
+						},
+					},
+				}, -- [1]
+			},
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -10,8 +35,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Rat"] = {
-									["overkill"] = 1178,
 									["amount"] = 1196,
+									["overkill"] = 1178,
 								},
 							},
 							["overkill"] = 1178,
@@ -30,6 +55,9 @@ SkadaStorageDB = {
 					["spec"] = 250,
 					["totaldamage"] = 1196,
 					["name"] = "Putreziciune",
+					["time"] = 6.800000000000001,
+					["flag"] = 1297,
+					["role"] = "TANK",
 					["auras"] = {
 						[53138] = {
 							["type"] = "BUFF",
@@ -52,50 +80,25 @@ SkadaStorageDB = {
 							["uptime"] = 9,
 						},
 					},
-					["role"] = "TANK",
-					["flag"] = 1297,
-					["time"] = 6.800000000000001,
 					["damage"] = 1196,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["enemies"] = {
-				{
-					["damagetaken"] = 1196,
-					["name"] = "Rat",
-					["class"] = "MONSTER",
-					["flag"] = 68136,
-					["totaldamagetaken"] = 1196,
-					["id"] = "0xF130000FEB0097FC",
-					["damagetakenspells"] = {
-						[6603] = {
-							["school"] = 1,
-							["sources"] = {
-								["Putreziciune"] = {
-									["overkill"] = 1178,
-									["amount"] = 1196,
-								},
-							},
-							["overkill"] = 1178,
-							["amount"] = 1196,
-						},
-					},
-				}, -- [1]
-			},
-			["starttime"] = 1729587585,
-			["name"] = "Rat (4)",
-			["etotaldamagetaken"] = 1196,
-			["last_time"] = 10105.831,
+			["time"] = 13,
+			["last_action"] = 1729587598,
+			["endtime"] = 1729587598,
 			["overkill"] = 1178,
 			["edamagetaken"] = 1196,
 			["totaldamage"] = 1196,
-			["time"] = 13,
+			["name"] = "Rat (4)",
 			["mobname"] = "Rat",
 			["damage"] = 1196,
-			["last_action"] = 1729587598,
-			["endtime"] = 1729587598,
+			["etotaldamagetaken"] = 1196,
+			["last_time"] = 10105.831,
 		}, -- [1]
 		{
+			["starttime"] = 1729581208,
+			["type"] = "none",
+			["overkill"] = 1203,
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -104,8 +107,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Rat"] = {
-									["overkill"] = 1203,
 									["amount"] = 1212,
+									["overkill"] = 1203,
 								},
 							},
 							["overkill"] = 1203,
@@ -113,8 +116,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1212,
 							["school"] = 1,
-							["criticalmin"] = 1212,
 							["count"] = 1,
+							["criticalmin"] = 1212,
 						},
 					},
 					["last"] = 3719.94,
@@ -124,6 +127,9 @@ SkadaStorageDB = {
 					["spec"] = 250,
 					["totaldamage"] = 1212,
 					["name"] = "Putreziciune",
+					["time"] = 3.36,
+					["flag"] = 1297,
+					["role"] = "TANK",
 					["auras"] = {
 						[50448] = {
 							["type"] = "BUFF",
@@ -143,50 +149,47 @@ SkadaStorageDB = {
 							["uptime"] = 10,
 						},
 					},
-					["role"] = "TANK",
-					["flag"] = 1297,
-					["time"] = 3.36,
 					["damage"] = 1212,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["overkill"] = 1203,
-			["starttime"] = 1729581208,
-			["time"] = 10,
-			["etotaldamagetaken"] = 1212,
-			["last_time"] = 3726.327,
+			["name"] = "Rat (3)",
+			["last_action"] = 1729581218,
+			["endtime"] = 1729581218,
 			["enemies"] = {
 				{
-					["damagetaken"] = 1212,
 					["name"] = "Rat",
-					["class"] = "MONSTER",
+					["damagetaken"] = 1212,
 					["flag"] = 68136,
-					["totaldamagetaken"] = 1212,
 					["id"] = "0xF130000FEB05B89A",
+					["totaldamagetaken"] = 1212,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Putreziciune"] = {
-									["overkill"] = 1203,
 									["amount"] = 1212,
+									["overkill"] = 1203,
 								},
 							},
-							["overkill"] = 1203,
 							["amount"] = 1212,
+							["overkill"] = 1203,
 						},
 					},
 				}, -- [1]
 			},
 			["edamagetaken"] = 1212,
 			["totaldamage"] = 1212,
-			["name"] = "Rat (3)",
+			["time"] = 10,
 			["mobname"] = "Rat",
 			["damage"] = 1212,
-			["last_action"] = 1729581218,
-			["endtime"] = 1729581218,
+			["etotaldamagetaken"] = 1212,
+			["last_time"] = 3726.327,
 		}, -- [2]
 		{
+			["starttime"] = 1729580914,
+			["type"] = "none",
+			["overkill"] = 2634,
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -195,8 +198,8 @@ SkadaStorageDB = {
 							["id"] = 49998,
 							["targets"] = {
 								["Rat"] = {
-									["overkill"] = 1411,
 									["amount"] = 1420,
+									["overkill"] = 1411,
 								},
 							},
 							["overkill"] = 1411,
@@ -204,17 +207,17 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1420,
 							["school"] = 1,
-							["criticalmin"] = 1420,
-							["criticalmax"] = 1420,
 							["count"] = 1,
+							["criticalmax"] = 1420,
+							["criticalmin"] = 1420,
 						},
 						["Melee"] = {
 							["criticalamount"] = 1232,
 							["id"] = 6603,
 							["targets"] = {
 								["Rat"] = {
-									["overkill"] = 1223,
 									["amount"] = 1232,
+									["overkill"] = 1223,
 								},
 							},
 							["overkill"] = 1223,
@@ -222,8 +225,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1232,
 							["school"] = 1,
-							["criticalmin"] = 1232,
 							["count"] = 1,
+							["criticalmin"] = 1232,
 						},
 					},
 					["last"] = 3424.363,
@@ -233,12 +236,15 @@ SkadaStorageDB = {
 					["spec"] = 250,
 					["totaldamage"] = 2652,
 					["name"] = "Putreziciune",
+					["time"] = 2.22,
+					["flag"] = 1297,
+					["role"] = "TANK",
 					["auras"] = {
 						[64859] = {
-							["refresh"] = 1,
-							["type"] = "BUFF",
 							["uptime"] = 9,
+							["type"] = "BUFF",
 							["count"] = 1,
+							["refresh"] = 1,
 						},
 						[50448] = {
 							["type"] = "BUFF",
@@ -263,61 +269,58 @@ SkadaStorageDB = {
 							["uptime"] = 9,
 						},
 					},
-					["role"] = "TANK",
-					["flag"] = 1297,
-					["time"] = 2.22,
 					["damage"] = 2652,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["overkill"] = 2634,
-			["starttime"] = 1729580914,
-			["time"] = 9,
-			["etotaldamagetaken"] = 2652,
-			["last_time"] = 3430.703,
+			["name"] = "Rat (2)",
+			["last_action"] = 1729580923,
+			["endtime"] = 1729580923,
 			["enemies"] = {
 				{
-					["damagetaken"] = 2652,
 					["name"] = "Rat",
-					["class"] = "MONSTER",
+					["damagetaken"] = 2652,
 					["flag"] = 68136,
-					["totaldamagetaken"] = 2652,
 					["id"] = "0xF130000FEB05A977",
+					["totaldamagetaken"] = 2652,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[49998] = {
 							["school"] = 1,
 							["sources"] = {
 								["Putreziciune"] = {
-									["overkill"] = 1411,
 									["amount"] = 1420,
+									["overkill"] = 1411,
 								},
 							},
-							["overkill"] = 1411,
 							["amount"] = 1420,
+							["overkill"] = 1411,
 						},
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Putreziciune"] = {
-									["overkill"] = 1223,
 									["amount"] = 1232,
+									["overkill"] = 1223,
 								},
 							},
-							["overkill"] = 1223,
 							["amount"] = 1232,
+							["overkill"] = 1223,
 						},
 					},
 				}, -- [1]
 			},
 			["edamagetaken"] = 2652,
 			["totaldamage"] = 2652,
-			["name"] = "Rat (2)",
+			["time"] = 9,
 			["mobname"] = "Rat",
 			["damage"] = 2652,
-			["last_action"] = 1729580923,
-			["endtime"] = 1729580923,
+			["etotaldamagetaken"] = 2652,
+			["last_time"] = 3430.703,
 		}, -- [3]
 		{
+			["starttime"] = 1729580806,
+			["type"] = "none",
+			["overkill"] = 1083,
 			["players"] = {
 				{
 					["damagespells"] = {
@@ -326,8 +329,8 @@ SkadaStorageDB = {
 							["id"] = 6603,
 							["targets"] = {
 								["Rat"] = {
-									["overkill"] = 1083,
 									["amount"] = 1092,
+									["overkill"] = 1083,
 								},
 							},
 							["overkill"] = 1083,
@@ -335,8 +338,8 @@ SkadaStorageDB = {
 							["critical"] = 1,
 							["amount"] = 1092,
 							["school"] = 1,
-							["criticalmin"] = 1092,
 							["count"] = 1,
+							["criticalmin"] = 1092,
 						},
 					},
 					["last"] = 3314.381,
@@ -346,6 +349,9 @@ SkadaStorageDB = {
 					["spec"] = 250,
 					["totaldamage"] = 1092,
 					["name"] = "Putreziciune",
+					["time"] = 0.03,
+					["flag"] = 1297,
+					["role"] = "TANK",
 					["auras"] = {
 						[50448] = {
 							["school"] = 1,
@@ -364,56 +370,53 @@ SkadaStorageDB = {
 							["uptime"] = 7,
 						},
 					},
-					["role"] = "TANK",
-					["flag"] = 1297,
-					["time"] = 0.03,
 					["damage"] = 1092,
 				}, -- [1]
 			},
-			["type"] = "none",
-			["overkill"] = 1083,
-			["starttime"] = 1729580806,
-			["time"] = 7,
-			["etotaldamagetaken"] = 1092,
-			["last_time"] = 3320.599,
+			["name"] = "Rat",
+			["last_action"] = 1729580812,
+			["endtime"] = 1729580813,
 			["enemies"] = {
 				{
-					["damagetaken"] = 1092,
 					["name"] = "Rat",
-					["class"] = "MONSTER",
+					["damagetaken"] = 1092,
 					["flag"] = 68136,
-					["totaldamagetaken"] = 1092,
 					["id"] = "0xF130000FEB05A974",
+					["totaldamagetaken"] = 1092,
+					["class"] = "MONSTER",
 					["damagetakenspells"] = {
 						[6603] = {
 							["school"] = 1,
 							["sources"] = {
 								["Putreziciune"] = {
-									["overkill"] = 1083,
 									["amount"] = 1092,
+									["overkill"] = 1083,
 								},
 							},
-							["overkill"] = 1083,
 							["amount"] = 1092,
+							["overkill"] = 1083,
 						},
 					},
 				}, -- [1]
 			},
 			["edamagetaken"] = 1092,
 			["totaldamage"] = 1092,
-			["name"] = "Rat",
+			["time"] = 7,
 			["mobname"] = "Rat",
 			["damage"] = 1092,
-			["last_action"] = 1729580812,
-			["endtime"] = 1729580813,
+			["etotaldamagetaken"] = 1092,
+			["last_time"] = 3320.599,
 		}, -- [4]
 	},
 	["version"] = 1878,
 	["total"] = {
 		["starttime"] = 1729539339,
 		["damagetaken"] = 8,
-		["heal"] = 6,
+		["totaldamage"] = 9299,
 		["overkill"] = 7471,
+		["overheal"] = 1032,
+		["heal"] = 6,
+		["name"] = "Total",
 		["players"] = {
 			{
 				["overheal"] = 1032,
@@ -432,11 +435,8 @@ SkadaStorageDB = {
 				["damage"] = 9299,
 			}, -- [1]
 		},
-		["totaldamage"] = 9299,
-		["time"] = 52,
-		["overheal"] = 1032,
 		["totaldamagetaken"] = 8,
-		["name"] = "Total",
+		["time"] = 52,
 		["damage"] = 9299,
 	},
 }
